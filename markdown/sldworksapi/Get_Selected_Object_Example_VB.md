@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Selected_Object_Example_VB.htm"
 
 # Get Selected Object Example (VBA)
 
-This example shows how to select and get that object in a SOLIDWORKS
-document.
+This example shows how to select and get that object in a SOLIDWORKS Design document.
 
 ```
 '------------------------------------------------------------

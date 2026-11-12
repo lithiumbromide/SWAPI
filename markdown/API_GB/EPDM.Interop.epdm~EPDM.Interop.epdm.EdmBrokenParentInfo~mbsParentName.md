@@ -35,5 +35,4 @@ System.String^ mbsParentName
 ## See Also
 
 [EdmBrokenParentInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo.html)
-
 [EdmBrokenParentInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo_members.html)

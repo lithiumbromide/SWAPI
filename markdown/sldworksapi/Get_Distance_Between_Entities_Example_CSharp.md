@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Distance_Between_Entities_Example_CSharp.htm"
 
 # Get Distance Between Entities Example (C#)
 
-This example shows how to get the minimum and maximum distances between face
-and edge entities.
+This example shows how to get the minimum and maximum distances between face and edge entities.
 
 ```vb
  //---------------------------------------------------------------------------

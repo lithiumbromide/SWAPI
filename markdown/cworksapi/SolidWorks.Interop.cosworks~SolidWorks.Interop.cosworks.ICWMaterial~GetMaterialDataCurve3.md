@@ -55,25 +55,17 @@ System.Object^ GetMaterialDataCurve3(
 
 - `NIndex`: 0-based index of material data curve
 - `BUseCurve`: - -1 or true = Uses material data curve
-- 0 or false = Does not use material data curve
+  - 0 or false = Does not use material data curve
 
-(see**Remarks**)
+  (see **Remarks**)
 
 ### Return Value
 
-Array of material curve data (see
-
-Remarks
-
-)
+Array of material curve data (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::GetMaterialDataCurve3](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetMaterialDataCurve3.html)
-
-.
+See [CWMaterial::GetMaterialDataCurve3](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetMaterialDataCurve3.html).
 
 ## Remarks
 
@@ -86,7 +78,7 @@ If out parameter BUseCurve is cast as a:
 
 Array of material curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
@@ -100,7 +92,6 @@ where:
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

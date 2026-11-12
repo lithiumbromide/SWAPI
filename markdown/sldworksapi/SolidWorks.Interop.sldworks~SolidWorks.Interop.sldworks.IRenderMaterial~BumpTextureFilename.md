@@ -45,13 +45,7 @@ property System.String^ BumpTextureFilename {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,21 @@ Path and file name of the pattern based on an image file for the surface finish
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::BumpTextureFilename](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpTextureFilename.html)
-
-.
+See [RenderMaterial::BumpTextureFilename](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpTextureFilename.html).
 
 ## Examples
 
 [Get Surface-finish Image Path and File Name (C#)](Get_Surface-finish_Image_Path_and_Filename_Example_CSharp.htm)
-
 [Get Surface-finish Image Path and File Name (VB.NET)](Get_Surface-finish_Image_Path_and_Filename_Example_VBNET.htm)
-
 [Get Surface-finish Image Path and File Name (VBA)](Get_Surface-finish_Image_Path_and_Filename_Example_VB.htm)
 
 ## Remarks
 
-This property corresponds to selectingFrom Fileas the surface finish type on the Surface Finish tab of the Appearances PropertyManager page and browsing to an image.
+This property corresponds to selecting From File as the surface finish type on the Surface Finish tab of the Appearances PropertyManager page and browsing to an image.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

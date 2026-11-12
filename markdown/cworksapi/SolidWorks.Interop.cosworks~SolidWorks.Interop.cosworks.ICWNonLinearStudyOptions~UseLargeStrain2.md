@@ -50,15 +50,11 @@ property System.bool UseLargeStrain2 {
 - -1 or true = Use large strain formulation
 - 0 or false = Do not use large strain formulation
 
-(see**Remarks**)
+(see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::UseLargeStrain2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~UseLargeStrain2.html)
-
-.
+See [CWNonLinearStudyOptions::UseLargeStrain2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~UseLargeStrain2.html).
 
 ## Remarks
 
@@ -70,7 +66,6 @@ This property:
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

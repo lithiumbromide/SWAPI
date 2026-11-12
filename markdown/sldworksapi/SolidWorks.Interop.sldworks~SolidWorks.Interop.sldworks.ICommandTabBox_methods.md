@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICommandTabBox Interface Methods
 
-For a list of all members of this type, see[ICommandTabBox members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox_members.html).
+For a list of all members of this type, see [ICommandTabBox members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox_members.html).
 
 ## Public Methods
 
@@ -27,7 +27,5 @@ For a list of all members of this type, see[ICommandTabBox members](SolidWorks.I
 ## See Also
 
 [ICommandTabBox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ICommandTab Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab.html)

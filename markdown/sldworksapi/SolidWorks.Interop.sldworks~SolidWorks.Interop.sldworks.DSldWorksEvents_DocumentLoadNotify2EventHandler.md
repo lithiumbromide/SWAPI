@@ -46,13 +46,7 @@ public delegate System.int DSldWorksEvents_DocumentLoadNotify2EventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,11 +55,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[DocumentLoadNotify2 Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~DocumentLoadNotify2_EV.html)
-
-.
+See [DocumentLoadNotify2 Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~DocumentLoadNotify2_EV.html).
 
 ## Examples
 
@@ -75,7 +65,7 @@ See
 
 This event is fired for documents referenced by assemblies and drawings. Client code should expect multiple calls to this event handler when an assembly or drawing is loaded.
 
-If developing a C++ application, use[swAppDocumentLoadNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppDocumentLoadNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

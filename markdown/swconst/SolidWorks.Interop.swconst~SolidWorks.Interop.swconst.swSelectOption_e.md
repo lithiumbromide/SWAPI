@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectO
 
 # swSelectOption_e Enumeration
 
-Selection options.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Selection options. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 

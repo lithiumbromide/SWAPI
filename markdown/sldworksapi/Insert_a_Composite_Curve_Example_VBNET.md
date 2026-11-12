@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_a_Composite_Curve_Example_VBNET.htm"
 
 # Insert a Composite Curve Example (VB.NET)
 
-This example shows how to insert a composite
-curveusing two sketches of splines.
+This example shows how to insert a composite curve using two sketches of splines.
 
 ```
 '--------------------------------------------------------

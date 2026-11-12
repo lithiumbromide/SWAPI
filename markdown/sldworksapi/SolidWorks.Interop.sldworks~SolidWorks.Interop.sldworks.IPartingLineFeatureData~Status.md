@@ -40,34 +40,20 @@ System.int Status()
 System.int Status();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Status of parting line feature as defined in
-
-[swPartingLineFeatureStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartingLineFeatureStatus_e.html)
+Status of parting line feature as defined in [swPartingLineFeatureStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartingLineFeatureStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[PartingLineFeatureData::Status](ms-its:sldworksapivb6.chm::/sldworks~PartingLineFeatureData~Status.html)
-
-.
+See [PartingLineFeatureData::Status](ms-its:sldworksapivb6.chm::/sldworks~PartingLineFeatureData~Status.html).
 
 ## Examples
 
 [Get and Set Parting Line Feature Data (C#)](Get_and_Set_Parting_Line_Feature_Data_Example_CSharp.htm)
-
 [Get and Set Parting Line Feature Data (VB.NET)](Get_and_Set_Parting_Line_Feature_Data_Example_VBNET.htm)
-
 [Get and Set Parting Line Feature Data (VBA)](Get_and_Set_Parting_Line_Feature_Data_Example_VB.htm)
 
 ## Remarks
@@ -77,7 +63,6 @@ Call this method after specifying the settings and options for this feature to f
 ## See Also
 
 [IPartingLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData.html)
-
 [IPartingLineFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData_members.html)
 
 ## Availability

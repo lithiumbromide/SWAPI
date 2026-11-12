@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # Scale Property (ISketchHatch)
 
-Obsolete. Superseded by
-
-[ISketchHatch::Scale2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchHatch~Scale2.html)
-
-.
+Obsolete. Superseded by [ISketchHatch::Scale2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchHatch~Scale2.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double Scale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchHatch::Scale](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Scale.html)
-
-.
+See [SketchHatch::Scale](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Scale.html).
 
 ## See Also
 
 [ISketchHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
 [ISketchHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch_members.html)

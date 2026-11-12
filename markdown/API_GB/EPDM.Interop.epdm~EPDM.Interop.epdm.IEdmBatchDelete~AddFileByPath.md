@@ -43,15 +43,11 @@ void AddFileByPath(
 
 ## Examples
 
-See the
-
-[IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
-examples.
+See the [IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html) examples.
 
 ## Remarks
 
-After calling this method, call[IEdmBatchDelete::CommitDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~CommitDelete.html)to delete the file from the vault.
+After calling this method, call [IEdmBatchDelete::CommitDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~CommitDelete.html) to delete the file from the vault.
 
 [Return codes](ReturnCodes.htm):
 
@@ -61,7 +57,6 @@ After calling this method, call[IEdmBatchDelete::CommitDelete](EPDM.Interop.epdm
 ## See Also
 
 [IEdmBatchDelete Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
 [IEdmBatchDelete Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete_members.html)
 
 ## Availability

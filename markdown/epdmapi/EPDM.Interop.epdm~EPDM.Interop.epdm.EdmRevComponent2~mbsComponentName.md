@@ -35,5 +35,4 @@ System.String^ mbsComponentName
 ## See Also
 
 [EdmRevComponent2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html)
-
 [EdmRevComponent2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2_members.html)

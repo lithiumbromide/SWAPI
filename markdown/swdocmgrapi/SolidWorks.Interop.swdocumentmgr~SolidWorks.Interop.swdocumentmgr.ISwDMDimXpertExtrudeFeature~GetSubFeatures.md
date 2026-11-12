@@ -42,19 +42,11 @@ System.Object^ GetSubFeatures();
 
 ### Return Value
 
-Array of
-
-[ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
-s
+Array of [ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)s
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertExtrudeFeature::GetSubFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertExtrudeFeature~GetSubFeatures.html)
-
-.
+See [SwDMDimXpertExtrudeFeature::GetSubFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertExtrudeFeature~GetSubFeatures.html).
 
 ## Examples
 
@@ -63,9 +55,7 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertExtrudeFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature.html)
-
 [ISwDMDimXpertExtrudeFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature_members.html)
-
 [ISwDMDimXpertExtrudeFeature::IGetSubFeatures Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature~IGetSubFeatures.html)
 
 ## Availability

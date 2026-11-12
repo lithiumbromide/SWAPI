@@ -9,9 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # Name2 Property (ISwDMConfiguration7)
 
-Gets or sets the name of the configuration
-
-.
+Gets or sets the name of the configuration.
 
 ## Syntax
 
@@ -53,22 +51,16 @@ Name of the configuration
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration7::Name2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration7~Name2.html)
-
-.
+See [SwDMConfiguration7::Name2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration7~Name2.html).
 
 ## Examples
 
 [Get Current Name of Configuration of Suppressed Component (C#)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_CSharp.htm)
-
 [Get Current Name of Configuration of Suppressed Component (VB.NET)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_VBNET.htm)
 
 ## See Also
 
 [ISwDMConfiguration7 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration7.html)
-
 [ISwDMConfiguration7 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration7_members.html)
 
 ## Availability

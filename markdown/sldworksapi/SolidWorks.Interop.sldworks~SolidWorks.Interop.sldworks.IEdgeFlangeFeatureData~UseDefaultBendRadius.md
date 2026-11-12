@@ -45,13 +45,7 @@ property System.bool UseDefaultBendRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,22 @@ True uses the default sheet metal bend radius of the edge flange (default), fals
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData::UseDefaultBendRadius](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~UseDefaultBendRadius.html)
-
-.
+See [EdgeFlangeFeatureData::UseDefaultBendRadius](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~UseDefaultBendRadius.html).
 
 ## Examples
 
-See the
-
-[IEdgeFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
-examples.
+See the [IEdgeFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html) examples.
 
 ## Examples
 
 [Get All Sheet Metal Feature Data (VBA)](Get_All_Sheet_Metal_Feature_Data_Example_VB.htm)
-
 [Get All Sheet Metal Feature Data (VB.NET)](Get_All_Sheet_Metal_Feature_Data_Example_VBNET.htm)
-
 [Get All Sheet Metal Feature Data (C#)](Get_All_Sheet_Metal_Feature_Data_Example_CSharp.htm)
 
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)
-
 [IEdgeFlangeFeatureData::BendRadius Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~BendRadius.html)
 
 ## Availability

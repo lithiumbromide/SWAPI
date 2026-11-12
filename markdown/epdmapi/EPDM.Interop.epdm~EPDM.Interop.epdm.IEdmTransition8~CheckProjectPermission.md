@@ -48,5 +48,4 @@ True if the user has permission to perform the transition, false if not
 ## See Also
 
 [IEdmTransition8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition8.html)
-
 [IEdmTransition8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition8_members.html)

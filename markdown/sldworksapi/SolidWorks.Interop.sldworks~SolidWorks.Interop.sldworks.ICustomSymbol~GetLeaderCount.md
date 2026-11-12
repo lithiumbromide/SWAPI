@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetLeaderCount Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::GetLeaderCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetLeaderCount.html)
-
-.
+Obsolete. Superseded by [INote::GetLeaderCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetLeaderCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetLeaderCount()
 System.int GetLeaderCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::GetLeaderCount](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetLeaderCount.html)
-
-.
+See [CustomSymbol::GetLeaderCount](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetLeaderCount.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

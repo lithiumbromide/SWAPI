@@ -1,6 +1,5 @@
 ---
-title: "CostBody Object
-Members"
+title: "CostBody Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "CostBody_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~CostBody_members.html"
 ---
 
-# CostBody Object
-Members
+# CostBody Object Members
 
 ## Public Methods
 

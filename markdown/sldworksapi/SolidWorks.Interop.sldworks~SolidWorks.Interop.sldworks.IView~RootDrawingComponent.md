@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # RootDrawingComponent Property (IView)
 
-Gets the root component for this drawing view.
+Obsolete. Superseded by [IView::RootDrawingComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~RootDrawingComponent2.html).
 
 ## Syntax
 
@@ -42,13 +42,7 @@ property DrawingComponent^ RootDrawingComponent {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,32 +50,21 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::RootDrawingComponent](ms-its:sldworksapivb6.chm::/sldworks~View~RootDrawingComponent.html)
-
-.
+See [View::RootDrawingComponent](ms-its:sldworksapivb6.chm::/sldworks~View~RootDrawingComponent.html).
 
 ## Examples
 
 [Create Section View at Specified Location (VBA)](Create_Section_View_at_Specified_Location_Example_VB.htm)
-
 [Get Components Properties in Drawing View (VBA)](Get_Components_Properties_in_Drawing_View_Example_VB.htm)
-
 [Hide Drawing Components (VBA)](Hide_Drawing_Components_Example_VB.htm)
-
 [Put Assembly Components in Drawing View on Different Layers (VBA)](Put_Assembly_Components_in_Drawing_View_on_Different_Layers_Example_VB.htm)
-
 [Get Components in Drawing View (C#)](Get_Components_in_Drawing_View_Example_CSharp.htm)
-
 [Get Components in Drawing View (VB.NET)](Get_Components_in_Drawing_View_Example_VBNET.htm)
-
 [Get Components in Drawing View (VBA)](Get_Components_in_Drawing_View_Example_VB.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

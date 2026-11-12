@@ -9,9 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # Scale Property (IFaceHatch)
 
-Obsolete. Superseded by IFaceHatch::Scale2 .
+Obsolete. Superseded by [IFaceHatch::Scale2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFaceHatch~Scale2.html).
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,24 +47,13 @@ property System.double Scale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[FaceHatch::Scale](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~Scale.html)
-
-.
+See [FaceHatch::Scale](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~Scale.html).
 
 ## See Also
 
 [IFaceHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html)
-
 [IFaceHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch_members.html)

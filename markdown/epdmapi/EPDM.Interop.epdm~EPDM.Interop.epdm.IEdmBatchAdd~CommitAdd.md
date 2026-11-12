@@ -49,25 +49,9 @@ System.int CommitAdd(
 ### Parameters
 
 - `lHwnd`: Parent window handle that is passed to add-ins that are notified about files and folders added to the vault
-- `ppoRetFiles`: Array of
-
-[EdmFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo.html)
-
-structures, one structure for each file and folder
-- `lEdmBatchAddFlags`: Combination of
-
-[EdmBatchAddFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchAddFlag.html)
-
-bits
-- `poCallback`: Optional pointer to a class that implements
-
-[IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
-or
-
-[IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html)
-
-to provide the caller with more information
+- `ppoRetFiles`: Array of [EdmFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo.html) structures, one structure for each file and folder
+- `lEdmBatchAddFlags`: Combination of [EdmBatchAddFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchAddFlag.html) bits
+- `poCallback`: Optional pointer to a class that implements [IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html) or [IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html) to provide the caller with more information
 
 ### Return Value
 
@@ -75,11 +59,7 @@ to provide the caller with more information
 
 ## Examples
 
-See the
-
-[IEdmBatchAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html)
-
-examples.
+See the [IEdmBatchAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html) examples.
 
 ## Remarks
 
@@ -91,7 +71,6 @@ examples.
 ## See Also
 
 [IEdmBatchAdd Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html)
-
 [IEdmBatchAdd Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd_members.html)
 
 ## Availability

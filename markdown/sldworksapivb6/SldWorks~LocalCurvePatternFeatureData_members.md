@@ -1,6 +1,5 @@
 ---
-title: "LocalCurvePatternFeatureData Object
-Members"
+title: "LocalCurvePatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "LocalCurvePatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~LocalCurvePatternFeatureData_members.html"
 ---
 
-# LocalCurvePatternFeatureData Object
-Members
+# LocalCurvePatternFeatureData Object Members
 
 ## Public Methods
 

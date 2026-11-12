@@ -40,13 +40,7 @@ System.bool GetAddToDB()
 System.bool GetAddToDB();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if currently adding items directly to the database, false otherwise
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetAddToDB](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetAddToDB.html)
-
-.
+See [ModelDoc2::GetAddToDB](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetAddToDB.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SetAddToDB Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetAddToDB.html)
 
 ## Availability

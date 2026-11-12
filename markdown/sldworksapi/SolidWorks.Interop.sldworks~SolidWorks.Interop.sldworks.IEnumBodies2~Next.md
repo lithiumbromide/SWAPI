@@ -54,27 +54,17 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Celt`: Number of bodies for the bodies enumeration
-- `Rgelt`: Pointer to an array of[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)of size Celt
+- `Rgelt`: Pointer to an array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) of size Celt
 - `PceltFetched`: Pointer to the number of bodies returned from the list; this value can be less than Celt if you request more bodies than exist, or it can be NULL if no more bodies exist
 
 ## VBA Syntax
 
-See
-
-[EnumBodies2::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumBodies2~Next.html)
-
-.
+See [EnumBodies2::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumBodies2~Next.html).
 
 ## Examples
 
@@ -87,7 +77,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumBodies2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies2.html)
-
 [IEnumBodies2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies2_members.html)
 
 ## Availability

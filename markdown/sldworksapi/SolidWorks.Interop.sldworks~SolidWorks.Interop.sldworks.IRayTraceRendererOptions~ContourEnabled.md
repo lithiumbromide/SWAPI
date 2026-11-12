@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRa
 
 # ContourEnabled Property (IRayTraceRendererOptions)
 
-Obsolete. Superseded by
-
-[IRayTraceRendererOptions::ContourCartoonRenderingEnabled](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ContourCartoonRenderingEnabled.html)
-
-.
+Obsolete. Superseded by [IRayTraceRendererOptions::ContourCartoonRenderingEnabled](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ContourCartoonRenderingEnabled.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool ContourEnabled {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ True to render with contour lines, false to not
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::ContourEnabled](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~ContourEnabled.html)
-
-.
+See [RayTraceRendererOptions::ContourEnabled](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~ContourEnabled.html).
 
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
 
 ## Availability

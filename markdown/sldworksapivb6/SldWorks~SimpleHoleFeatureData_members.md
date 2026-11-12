@@ -1,6 +1,5 @@
 ---
-title: "SimpleHoleFeatureData Object
-Members"
+title: "SimpleHoleFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SimpleHoleFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SimpleHoleFeatureData_members.html"
 ---
 
-# SimpleHoleFeatureData Object
-Members
+# SimpleHoleFeatureData Object Members
 
 ## Public Methods
 

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # ISurface Interface Members
 
-The following tables list the members exposed by[ISurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html).
+The following tables list the members exposed by [ISurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html).
 
 ## Public Properties
 
@@ -110,5 +110,4 @@ The following tables list the members exposed by[ISurface](SolidWorks.Interop.sl
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

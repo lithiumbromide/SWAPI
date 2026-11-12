@@ -22,629 +22,629 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 public class DimXpertAnnotationData
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}// Returns a collection of Strings containing the annotations data
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private Collection<string> strs = new Collection<string>();
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public void Clear(Collection<string> strs)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Remove(strs[strs.Count]);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (!(strs.Count == 0))
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Clear(strs);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public Collection<string> AnnotationData(DimXpertAnnotation annotation, SolidWorks.Interop.swdimxpert.DimXpertPart dimXpertPart)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDimXpertAnnotationType_e annoType = default(swDimXpertAnnotationType_e);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if ((!(strs.Count == 0)))
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Clear(strs);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}//General info
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}GeneralInfo(annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}annoType = annotation.Type;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (annoType == swDimXpertAnnotationType_e.swDimXpertDatum)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DatumData((DimXpertDatum)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Position)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}PositionData((DimXpertPositionTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositePosition)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CompositePositionData((DimXpertCompositePositionTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Symmetry)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SymmetryData((DimXpertSymmetryTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Concentricity)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ConcentricityData((DimXpertConcentricityTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_LineProfile)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}LineProfileData((DimXpertLineProfileTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositeLineProfile)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CompositeLineProfileData((DimXpertCompositeLineProfileTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_SurfaceProfile)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SurfaceProfileData((DimXpertSurfaceProfileTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositeSurfaceProfile)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CompositeSurfaceProfileData((DimXpertCompositeSurfaceProfileTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Angularity | annoType ==
+    // Returns a collection of Strings containing the annotations data
+    private Collection<string> strs = new Collection<string>();
+    public void Clear(Collection<string> strs)
+    {
+        strs.Remove(strs[strs.Count]);
+        if (!(strs.Count == 0))
+        {
+            Clear(strs);
+        }
+    }
+    public Collection<string> AnnotationData(DimXpertAnnotation annotation, SolidWorks.Interop.swdimxpert.DimXpertPart dimXpertPart)
+    {
+        swDimXpertAnnotationType_e annoType = default(swDimXpertAnnotationType_e);
+
+        if ((!(strs.Count == 0)))
+        {
+            Clear(strs);
+        }
+        //General info
+        GeneralInfo(annotation);
+        annoType = annotation.Type;
+        if (annoType == swDimXpertAnnotationType_e.swDimXpertDatum)
+        {
+            DatumData((DimXpertDatum)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Position)
+        {
+            PositionData((DimXpertPositionTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositePosition)
+        {
+            CompositePositionData((DimXpertCompositePositionTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Symmetry)
+        {
+            SymmetryData((DimXpertSymmetryTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Concentricity)
+        {
+            ConcentricityData((DimXpertConcentricityTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_LineProfile)
+        {
+            LineProfileData((DimXpertLineProfileTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositeLineProfile)
+        {
+            CompositeLineProfileData((DimXpertCompositeLineProfileTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_SurfaceProfile)
+        {
+            SurfaceProfileData((DimXpertSurfaceProfileTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositeSurfaceProfile)
+        {
+            CompositeSurfaceProfileData((DimXpertCompositeSurfaceProfileTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Angularity | annoType ==
 swDimXpertAnnotationType_e.swDimXpertGeoTol_Parallelism | annoType ==
 swDimXpertAnnotationType_e.swDimXpertGeoTol_Perpendicularity)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}OrientationData((DimXpertOrientationTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_TotalRunout)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}TotalRunoutData((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_CircularRunout)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CircularRunoutData((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Flatness)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}FlatnessData((DimXpertFlatnessTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Circularity)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CircularityData((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Cylindricity)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CylindricityData((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Straightness)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}StraightnessData((DimXpertStraightnessTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Tangency)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}TangencyData((DimXpertTangencyTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// any of the dimension tolerance types
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DimensionToleranceData((DimXpertDimensionTolerance)annotation, (DimXpertPart) dimXpertPart);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return strs;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void GeneralInfo(DimXpertAnnotation annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string annoType = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Feature modelObj = default(Feature);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Name: " + annotation.Name);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}annoType = annotationTypeNameFromObject(annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Type: " + annoType);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Display Entity: " + DisplayEntity(annotation));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Is Suppressed: " + (annotation.IsSuppressed() ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Inspection Dimension: " + (annotation.IsToBeInspected() ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Is Statistical: " + (annotation.IsStatistical() ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Is FreeState: " + (annotation.IsFreeState() ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}modelObj = (Feature)annotation.GetModelFeature();
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if ((modelObj != null))
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add("ModelFeature: " + modelObj.Name + " (" + modelObj.GetTypeName2() + ")");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void DatumData(DimXpertDatum annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum letter
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Datum Letter: " + annotation.Identifier);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void PositionData(DimXpertPositionTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double I = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double J = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double K = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool enabled = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double value = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment:");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the shape of the tolerance zone
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Zone Type: " + PositionZoneType((long)annotation.ZoneType));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the zone vector if the tolerance zone is planar
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (annotation.ZoneType == swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_PlanarPosition)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}boolstatus = annotation.GetPlanarZoneVector(ref I, ref J, ref K);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(" Direction: " + FormatVector(I, J, K));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Max Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the material condition modifer applied to feature
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the projected tolerance zone when specified
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetProjectedZone(ref enabled, ref value);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}FormatProjectedZone(enabled, value);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void CompositePositionData(DimXpertCompositePositionTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double I = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double J = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double K = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool enabled = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double value = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the shape of the tolerance zone
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Zone Type: " + PositionZoneType((long)annotation.ZoneType));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the zone vector when the zone is planar
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (annotation.ZoneType == swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_PlanarPosition)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}boolstatus = annotation.GetPlanarZoneVector(ref I, ref J, ref K);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(" Direction: " + FormatVector(I, J, K));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the material condition modifer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the projected tolerance zone when specified
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetProjectedZone(ref enabled, ref value);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}FormatProjectedZone(enabled, value);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame for the pattern location
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame for the feature to feature location
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Composite datums:");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Repeat Primary: " + (annotation.PrimaryInLowerTier ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Repeat Secondary: " + (annotation.SecondaryInLowerTier ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Repeat Tertiary: " + (annotation.TertiaryInLowerTier ? "True" : "False"));
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void SymmetryData(DimXpertSymmetryTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double I = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double J = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double K = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the material condition modifer applied to feature
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the direction of the planar zone
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetZoneDirection(ref I, ref J, ref K);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Planar Zone Direction: " + FormatVector(I, J, K));
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void ConcentricityData(DimXpertConcentricityTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the material condition modifer applied to feature
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void TotalRunoutData(DimXpertTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr(annotation);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void CircularRunoutData(DimXpertTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr(annotation);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void LineProfileData(DimXpertLineProfileTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double I = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double J = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double K = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the outer (outside material) tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Outer Tolerance: " + FormatDouble(annotation.OuterToleranceValue));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the vector normal to the profile zones
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetPlanarZoneVector(ref I, ref J, ref K);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Planar Zone Vector: " + FormatVector(I, J, K));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void CompositeLineProfileData(DimXpertCompositeLineProfileTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double i = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double j = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double k = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the outer (outside material) tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Outer Tolerance: " + FormatDouble(annotation.OuterToleranceValue));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the vector normal to the profile zones
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetPlanarZoneVector(ref i, ref j, ref k);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Planar Zone Vector: " + FormatVector(i, j, k));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame for the orientation and form
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Composite Datums:");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Repeat Primary: " + (annotation.PrimaryInLowerTier ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Repeat Secondary: " + (annotation.SecondaryInLowerTier ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Repeat Tertiary: " + (annotation.TertiaryInLowerTier ? "True" : "False"));
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void SurfaceProfileData(DimXpertSurfaceProfileTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the outer (outside material) tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Outer Tolerance: " + FormatDouble(annotation.OuterToleranceValue));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void CompositeSurfaceProfileData(DimXpertCompositeSurfaceProfileTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance Upper Tier: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the outer tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Outer Tolerance Upper Tier: " + FormatDouble(annotation.OuterToleranceValue));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame for the location
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame for the orientation and form
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Composite Datums:");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Repeat Primary: " + (annotation.PrimaryInLowerTier ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Repeat Secondary: " + (annotation.SecondaryInLowerTier ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Repeat Tertiary: " + (annotation.TertiaryInLowerTier ? "True" : "False"));
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void OrientationData(DimXpertOrientationTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double I = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double J = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double K = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool enabled = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double value = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}SolidWorks.Interop.swdimxpert.swDimXpertAnnotationType_e annoType = default(SolidWorks.Interop.swdimxpert.swDimXpertAnnotationType_e);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertAnnotation anno;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}anno = (DimXpertAnnotation)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}annoType = (SolidWorks.Interop.swdimxpert.swDimXpertAnnotationType_e)anno.Type;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the type or orientation tolerance
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Perpendicularity)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add("Orientation Type: Perpendicularity");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Parallelism)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add("Orientation Type: Parallelism");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Angularity)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add("Orientation Type: Angularity");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment:");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the shape of the tolerance zone
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}switch (annotation.ZoneType)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertOrientationZoneType_e.swDimXpertOrientationZoneType_Cylindrical:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add(" Zone Type: Cylindrical");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertOrientationZoneType_e.swDimXpertOrientationZoneType_Planar:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add(" Zone Type: Planar");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}boolstatus = annotation.GetPlanarZoneVector(ref I, ref J, ref K);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Planar Zone Vector: " + FormatVector(I, J, K));
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}//material condition modifer applied to feature
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the projected tolerance zone when specified
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetProjectedZone(ref enabled, ref value);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}FormatProjectedZone(enabled, value);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// is tangent plane
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" IsTangentPlane: " + (annotation.IsTangentPlane() ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr((DimXpertTolerance)annotation);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void FlatnessData(DimXpertFlatnessTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool enabled = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double length = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double width = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double I = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double J = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double K = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment:");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the per unit area data
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetPerUnitArea(ref enabled, ref length, ref width, ref I, ref J, ref K);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Per Unit Area: " + (enabled ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (enabled)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(" Per Unit Length: " + FormatDouble(length));
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(" Per Unit Width: " + FormatDouble(width));
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(" Per Unit Direction: " + FormatVector(I, J, K));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void CircularityData(DimXpertTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void CylindricityData(DimXpertTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void StraightnessData(DimXpertStraightnessTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double I = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double J = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double K = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool enabled = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double dist = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}//tolerance compartment info
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}//type or shape of the tolerance zone
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}switch (annotation.ZoneType)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertStraightnessZoneType_e.swDimXpertStraightnessZoneType_Cylindrical:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add(" Zone Type: Cylindrical");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertStraightnessZoneType_e.swDimXpertStraightnessZoneType_PlanarMedian:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add(" Zone Type: Planar Median");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertStraightnessZoneType_e.swDimXpertStraightnessZoneType_Surface:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add(" Zone Type: Surface Straightness");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}boolstatus = annotation.GetPlanarZoneVector(ref I, ref J, ref K);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add(" Zone Vector: " + FormatVector(I, J, K));
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}//per unit length
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetPerUnitLength(ref enabled, ref dist);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Per Unit Length: " + (enabled ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (enabled)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(" Per Unit Length Distance: " + FormatDouble(dist));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the material condition modifer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void ProfileData(DimXpertTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the datum reference frame
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DatumsStr(annotation);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void SurfaceFinishData(DimXpertTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void TangencyData(DimXpertTangencyTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Origin Feature: " + annotation.OriginFeature.Name);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Compartment");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the tolerance value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertTolerance tol;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}tol = (DimXpertTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void DimensionToleranceData(DimXpertDimensionTolerance annotation, SolidWorks.Interop.swdimxpert.DimXpertPart dimXpertPart)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool isAngleType = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDimXpertAnnotationType_e annoType = default(swDimXpertAnnotationType_e);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDimXpertPatternTreatmentType_e patternTreatment = default(swDimXpertPatternTreatmentType_e);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double upper = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double lower = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double plus = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double minus = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertAnnotation anno;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}anno = (DimXpertAnnotation)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}annoType = anno.Type;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}isAngleType = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_DistanceBetween)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DistanceBetweenData((DimXpertDistanceBetweenDimTol)annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_CompositeDistanceBetween)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}CompositeDistanceBetweenData((DimXpertCompositeDistanceBetweenDimTol)annotation, (DimXpertPart) dimXpertPart);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_CounterBore)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DimXpertCounterBoreDimTol dimtol;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}dimtol = (DimXpertCounterBoreDimTol)annotation;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (dimtol.ReferenceFeature == null)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Reference Feature: NULL");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Reference Feature: " + dimtol.ReferenceFeature.Name);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_Depth)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DimXpertDepthDimTol dimtol;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}dimtol = (DimXpertDepthDimTol)annotation;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (dimtol.ReferenceFeature == null)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Reference Feature: NULL");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Reference Feature: " + dimtol.ReferenceFeature.Name);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_CounterSinkDiameter)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DimXpertCounterSinkDiameterDimTol dimtol;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}dimtol = (DimXpertCounterSinkDiameterDimTol)annotation;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (dimtol.ReferenceFeature == null)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Reference Feature: NULL");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Reference Feature: " + dimtol.ReferenceFeature.Name);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_ChamferDimension)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DimXpertChamferDimTol chamferDimTol = default(DimXpertChamferDimTol);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}chamferDimTol = (DimXpertChamferDimTol)annotation;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}switch (chamferDimTol.ChamferType)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case swDimXpertChamferDimensionType_e.swDimXpertChamferDimensionType_Angle:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}strs.Add("Chamfer Dimension Type: Angle");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}isAngleType = true;
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case swDimXpertChamferDimensionType_e.swDimXpertChamferDimensionType_LinearDistance1:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}strs.Add("Chamfer Dimension Type: Distance 1");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}case swDimXpertChamferDimensionType_e.swDimXpertChamferDimensionType_LinearDistance2:
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}strs.Add("Chamfer Dimension Type: Distance 2");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_AngleBetween)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}isAngleType = true;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DimXpertAngleBetweenDimTol dimtol;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}dimtol = (DimXpertAngleBetweenDimTol)annotation;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// the origin and tolerance feature
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add("Origin Feature: " + dimtol.OriginFeature.Name);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// is supplement angle
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add("Supplement Angle: " + (dimtol.Supplement ? "True" : "False"));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_CounterSinkAngle)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}isAngleType = true;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DimXpertCounterSinkAngleDimTol dimtol;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}dimtol = (DimXpertCounterSinkAngleDimTol)annotation;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (dimtol.ReferenceFeature == null)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Reference Feature: NULL");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Reference Feature: " + dimtol.ReferenceFeature.Name);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_ConeAngle)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}isAngleType = true;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_Radius)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}IDimXpertRadiusDimTol radiusDim;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}radiusDim = (IDimXpertRadiusDimTol)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}patternTreatment = radiusDim.PatternTreatment;
-kadov_tag{{<spaces>}}         kadov_tag{{</spaces>}}//If radiusDim.patternTreatment Is Nothing Then
-kadov_tag{{<spaces>}}             kadov_tag{{</spaces>}}//strs.Add ("Pattern Treatment: NULL")
-kadov_tag{{<spaces>}}         kadov_tag{{</spaces>}}if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_unknown)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{strs.Add ("Pattern Treatment: unknown");}
-kadov_tag{{<spaces>}}         kadov_tag{{</spaces>}}else if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_CircularPattern)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{strs.Add ("Pattern Treatment: Circular pattern");}
-kadov_tag{{<spaces>}}         kadov_tag{{</spaces>}}else if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_IndividualFeatures)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{strs.Add ("Pattern Treatment: Individual features");}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_Diameter)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}IDimXpertDiameterDimTol diaDim;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}diaDim = (IDimXpertDiameterDimTol)annotation;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}patternTreatment = diaDim.PatternTreatment;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//If radiusDim.patternTreatment Is Nothing Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//strs.Add ("Pattern Treatment: NULL")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_unknown)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{ strs.Add("Pattern Treatment: unknown"); }
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}else if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_CircularPattern)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{ strs.Add("Pattern Treatment: Circular pattern"); }
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}else if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_IndividualFeatures)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{ strs.Add("Pattern Treatment: Individual features"); }
+        {
+            OrientationData((DimXpertOrientationTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_TotalRunout)
+        {
+            TotalRunoutData((DimXpertTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_CircularRunout)
+        {
+            CircularRunoutData((DimXpertTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Flatness)
+        {
+            FlatnessData((DimXpertFlatnessTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Circularity)
+        {
+            CircularityData((DimXpertTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Cylindricity)
+        {
+            CylindricityData((DimXpertTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Straightness)
+        {
+            StraightnessData((DimXpertStraightnessTolerance)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Tangency)
+        {
+            TangencyData((DimXpertTangencyTolerance)annotation);
+        }
+        // any of the dimension tolerance types
+        else
+        {
+            DimensionToleranceData((DimXpertDimensionTolerance)annotation, (DimXpertPart) dimXpertPart);
+        }
+        return strs;
+    }
+    private void GeneralInfo(DimXpertAnnotation annotation)
+    {
+        string annoType = null;
+        Feature modelObj = default(Feature);
+        strs.Add("Name: " + annotation.Name);
+        annoType = annotationTypeNameFromObject(annotation);
+        strs.Add("Type: " + annoType);
+        strs.Add("Display Entity: " + DisplayEntity(annotation));
+        strs.Add("Is Suppressed: " + (annotation.IsSuppressed() ? "True" : "False"));
+        strs.Add("Inspection Dimension: " + (annotation.IsToBeInspected() ? "True" : "False"));
+        strs.Add("Is Statistical: " + (annotation.IsStatistical() ? "True" : "False"));
+        strs.Add("Is FreeState: " + (annotation.IsFreeState() ? "True" : "False"));
+        modelObj = (Feature)annotation.GetModelFeature();
+        if ((modelObj != null))
+        {
+            strs.Add("ModelFeature: " + modelObj.Name + " (" + modelObj.GetTypeName2() + ")");
+        }
+    }
+    private void DatumData(DimXpertDatum annotation)
+    {
+        // the datum letter
+        strs.Add("");
+        strs.Add("Datum Letter: " + annotation.Identifier);
+    }
+    private void PositionData(DimXpertPositionTolerance annotation)
+    {
+        double I = 0;
+        double J = 0;
+        double K = 0;
+        bool enabled = false;
+        double value = 0;
+        bool boolstatus = false;
+        strs.Add("");
+        strs.Add("Tolerance Compartment:");
+        // the shape of the tolerance zone
+        strs.Add(" Zone Type: " + PositionZoneType((long)annotation.ZoneType));
+        // the zone vector if the tolerance zone is planar
+        if (annotation.ZoneType == swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_PlanarPosition)
+        {
+            boolstatus = annotation.GetPlanarZoneVector(ref I, ref J, ref K);
+            strs.Add(" Direction: " + FormatVector(I, J, K));
+        }
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Max Tolerance: " + FormatDouble(tol.Tolerance));
+        // the material condition modifer applied to feature
+        strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
+        // the projected tolerance zone when specified
+        boolstatus = annotation.GetProjectedZone(ref enabled, ref value);
+        FormatProjectedZone(enabled, value);
+        // the datum reference frame
+        DatumsStr((DimXpertTolerance)annotation);
+    }
+    private void CompositePositionData(DimXpertCompositePositionTolerance annotation)
+    {
+        double I = 0;
+        double J = 0;
+        double K = 0;
+        bool enabled = false;
+        double value = 0;
+        bool boolstatus = false;
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the shape of the tolerance zone
+        strs.Add(" Zone Type: " + PositionZoneType((long)annotation.ZoneType));
+        // the zone vector when the zone is planar
+        if (annotation.ZoneType == swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_PlanarPosition)
+        {
+            boolstatus = annotation.GetPlanarZoneVector(ref I, ref J, ref K);
+            strs.Add(" Direction: " + FormatVector(I, J, K));
+        }
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        // the material condition modifer
+        strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
+        // the projected tolerance zone when specified
+        boolstatus = annotation.GetProjectedZone(ref enabled, ref value);
+        FormatProjectedZone(enabled, value);
+        // the datum reference frame for the pattern location
+        DatumsStr((DimXpertTolerance)annotation);
+        // the datum reference frame for the feature to feature location
+        strs.Add("Composite datums:");
+        strs.Add(" Repeat Primary: " + (annotation.PrimaryInLowerTier ? "True" : "False"));
+        strs.Add(" Repeat Secondary: " + (annotation.SecondaryInLowerTier ? "True" : "False"));
+        strs.Add(" Repeat Tertiary: " + (annotation.TertiaryInLowerTier ? "True" : "False"));
+    }
+    private void SymmetryData(DimXpertSymmetryTolerance annotation)
+    {
+        double I = 0;
+        double J = 0;
+        double K = 0;
+        bool boolstatus = false;
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        // the material condition modifer applied to feature
+        strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
+        // the datum reference frame
+        strs.Add("");
+        DatumsStr((DimXpertTolerance)annotation);
+        // the direction of the planar zone
+        strs.Add("");
+        boolstatus = annotation.GetZoneDirection(ref I, ref J, ref K);
+        strs.Add("Planar Zone Direction: " + FormatVector(I, J, K));
+    }
+    private void ConcentricityData(DimXpertConcentricityTolerance annotation)
+    {
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        // the material condition modifer applied to feature
+        strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
+        // the datum reference frame
+        DatumsStr((DimXpertTolerance)annotation);
+    }
+    private void TotalRunoutData(DimXpertTolerance annotation)
+    {
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        // the datum reference frame
+        DatumsStr(annotation);
+    }
+    private void CircularRunoutData(DimXpertTolerance annotation)
+    {
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        // the datum reference frame
+        DatumsStr(annotation);
+    }
+    private void LineProfileData(DimXpertLineProfileTolerance annotation)
+    {
+        double I = 0;
+        double J = 0;
+        double K = 0;
+        bool boolstatus = false;
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        // the outer (outside material) tolerance value
+        strs.Add(" Outer Tolerance: " + FormatDouble(annotation.OuterToleranceValue));
+        // the vector normal to the profile zones
+        strs.Add("");
+        boolstatus = annotation.GetPlanarZoneVector(ref I, ref J, ref K);
+        strs.Add("Planar Zone Vector: " + FormatVector(I, J, K));
+        // the datum reference frame
+        DatumsStr((DimXpertTolerance)annotation);
+    }
+    private void CompositeLineProfileData(DimXpertCompositeLineProfileTolerance annotation)
+    {
+        bool boolstatus = false;
+        double i = 0;
+        double j = 0;
+        double k = 0;
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        // the outer (outside material) tolerance value
+        strs.Add(" Outer Tolerance: " + FormatDouble(annotation.OuterToleranceValue));
+        // the vector normal to the profile zones
+        strs.Add("");
+        boolstatus = annotation.GetPlanarZoneVector(ref i, ref j, ref k);
+        strs.Add("Planar Zone Vector: " + FormatVector(i, j, k));
+        // the datum reference frame
+        DatumsStr((DimXpertTolerance)annotation);
+        // the datum reference frame for the orientation and form
+        strs.Add("Composite Datums:");
+        strs.Add(" Repeat Primary: " + (annotation.PrimaryInLowerTier ? "True" : "False"));
+        strs.Add(" Repeat Secondary: " + (annotation.SecondaryInLowerTier ? "True" : "False"));
+        strs.Add(" Repeat Tertiary: " + (annotation.TertiaryInLowerTier ? "True" : "False"));
+    }
+    private void SurfaceProfileData(DimXpertSurfaceProfileTolerance annotation)
+    {
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        // the outer (outside material) tolerance value
+        strs.Add(" Outer Tolerance: " + FormatDouble(annotation.OuterToleranceValue));
+        // the datum reference frame
+        DatumsStr((DimXpertTolerance)annotation);
+    }
+    private void CompositeSurfaceProfileData(DimXpertCompositeSurfaceProfileTolerance annotation)
+    {
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance Upper Tier: " + FormatDouble(tol.Tolerance));
+        // the outer tolerance value
+        strs.Add(" Outer Tolerance Upper Tier: " + FormatDouble(annotation.OuterToleranceValue));
+        // the datum reference frame for the location
+        DatumsStr((DimXpertTolerance)annotation);
+        // the datum reference frame for the orientation and form
+        strs.Add("Composite Datums:");
+        strs.Add(" Repeat Primary: " + (annotation.PrimaryInLowerTier ? "True" : "False"));
+        strs.Add(" Repeat Secondary: " + (annotation.SecondaryInLowerTier ? "True" : "False"));
+        strs.Add(" Repeat Tertiary: " + (annotation.TertiaryInLowerTier ? "True" : "False"));
+    }
+    private void OrientationData(DimXpertOrientationTolerance annotation)
+    {
+        double I = 0;
+        double J = 0;
+        double K = 0;
+        bool enabled = false;
+        double value = 0;
+        SolidWorks.Interop.swdimxpert.swDimXpertAnnotationType_e annoType = default(SolidWorks.Interop.swdimxpert.swDimXpertAnnotationType_e);
+        bool boolstatus = false;
+        DimXpertAnnotation anno;
+        anno = (DimXpertAnnotation)annotation;
+        annoType = (SolidWorks.Interop.swdimxpert.swDimXpertAnnotationType_e)anno.Type;
+        // the type or orientation tolerance
+        if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Perpendicularity)
+        {
+            strs.Add("Orientation Type: Perpendicularity");
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Parallelism)
+        {
+            strs.Add("Orientation Type: Parallelism");
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertGeoTol_Angularity)
+        {
+            strs.Add("Orientation Type: Angularity");
+        }
+        strs.Add("");
+        strs.Add("Tolerance Compartment:");
+        // the shape of the tolerance zone
+        switch (annotation.ZoneType)
+        {
+            case swDimXpertOrientationZoneType_e.swDimXpertOrientationZoneType_Cylindrical:
+                strs.Add(" Zone Type: Cylindrical");
+                break;
+            case swDimXpertOrientationZoneType_e.swDimXpertOrientationZoneType_Planar:
+                strs.Add(" Zone Type: Planar");
+                boolstatus = annotation.GetPlanarZoneVector(ref I, ref J, ref K);
+                strs.Add("Planar Zone Vector: " + FormatVector(I, J, K));
+                break;
+        }
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        //material condition modifer applied to feature
+        strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
+        // the projected tolerance zone when specified
+        boolstatus = annotation.GetProjectedZone(ref enabled, ref value);
+        FormatProjectedZone(enabled, value);
+        // is tangent plane
+        strs.Add(" IsTangentPlane: " + (annotation.IsTangentPlane() ? "True" : "False"));
+        // the datum reference frame
+        DatumsStr((DimXpertTolerance)annotation);
+    }
+    private void FlatnessData(DimXpertFlatnessTolerance annotation)
+    {
+        bool enabled = false;
+        double length = 0;
+        double width = 0;
+        double I = 0;
+        double J = 0;
+        double K = 0;
+        bool boolstatus = false;
+        strs.Add("");
+        strs.Add("Tolerance Compartment:");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        // the per unit area data
+        boolstatus = annotation.GetPerUnitArea(ref enabled, ref length, ref width, ref I, ref J, ref K);
+        strs.Add(" Per Unit Area: " + (enabled ? "True" : "False"));
+        if (enabled)
+        {
+            strs.Add(" Per Unit Length: " + FormatDouble(length));
+            strs.Add(" Per Unit Width: " + FormatDouble(width));
+            strs.Add(" Per Unit Direction: " + FormatVector(I, J, K));
+        }
+    }
+    private void CircularityData(DimXpertTolerance annotation)
+    {
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+    }
+    private void CylindricityData(DimXpertTolerance annotation)
+    {
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+    }
+    private void StraightnessData(DimXpertStraightnessTolerance annotation)
+    {
+        double I = 0;
+        double J = 0;
+        double K = 0;
+        bool enabled = false;
+        double dist = 0;
+        bool boolstatus = false;
+        //tolerance compartment info
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        //type or shape of the tolerance zone
+        switch (annotation.ZoneType)
+        {
+            case swDimXpertStraightnessZoneType_e.swDimXpertStraightnessZoneType_Cylindrical:
+                strs.Add(" Zone Type: Cylindrical");
+                break;
+            case swDimXpertStraightnessZoneType_e.swDimXpertStraightnessZoneType_PlanarMedian:
+                strs.Add(" Zone Type: Planar Median");
+                break;
+            case swDimXpertStraightnessZoneType_e.swDimXpertStraightnessZoneType_Surface:
+                strs.Add(" Zone Type: Surface Straightness");
+                boolstatus = annotation.GetPlanarZoneVector(ref I, ref J, ref K);
+                strs.Add(" Zone Vector: " + FormatVector(I, J, K));
+                break;
+        }
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        //per unit length
+        boolstatus = annotation.GetPerUnitLength(ref enabled, ref dist);
+        strs.Add(" Per Unit Length: " + (enabled ? "True" : "False"));
+        if (enabled)
+        {
+            strs.Add(" Per Unit Length Distance: " + FormatDouble(dist));
+        }
+        // the material condition modifer
+        strs.Add(" Modifier: " + mcmStr((long)annotation.Modifier));
+    }
+    private void ProfileData(DimXpertTolerance annotation)
+    {
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+        // the datum reference frame
+        DatumsStr(annotation);
+    }
+    private void SurfaceFinishData(DimXpertTolerance annotation)
+    {
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+    }
+    private void TangencyData(DimXpertTangencyTolerance annotation)
+    {
+        strs.Add("Origin Feature: " + annotation.OriginFeature.Name);
+        strs.Add("");
+        strs.Add("Tolerance Compartment");
+        // the tolerance value
+        DimXpertTolerance tol;
+        tol = (DimXpertTolerance)annotation;
+        strs.Add(" Tolerance: " + FormatDouble(tol.Tolerance));
+    }
+    private void DimensionToleranceData(DimXpertDimensionTolerance annotation, SolidWorks.Interop.swdimxpert.DimXpertPart dimXpertPart)
+    {
+        bool isAngleType = false;
+        swDimXpertAnnotationType_e annoType = default(swDimXpertAnnotationType_e);
+        swDimXpertPatternTreatmentType_e patternTreatment = default(swDimXpertPatternTreatmentType_e);
+        double upper = 0;
+        double lower = 0;
+        double plus = 0;
+        double minus = 0;
+        bool boolstatus = false;
+        DimXpertAnnotation anno;
+        anno = (DimXpertAnnotation)annotation;
+        annoType = anno.Type;
+        isAngleType = false;
+        if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_DistanceBetween)
+        {
+
+            DistanceBetweenData((DimXpertDistanceBetweenDimTol)annotation);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_CompositeDistanceBetween)
+        {
+            CompositeDistanceBetweenData((DimXpertCompositeDistanceBetweenDimTol)annotation, (DimXpertPart) dimXpertPart);
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_CounterBore)
+        {
+            DimXpertCounterBoreDimTol dimtol;
+            dimtol = (DimXpertCounterBoreDimTol)annotation;
+            if (dimtol.ReferenceFeature == null)
+            {
+                strs.Add("Reference Feature: NULL");
+            }
+            else
+            {
+                strs.Add("Reference Feature: " + dimtol.ReferenceFeature.Name);
+            }
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_Depth)
+        {
+            DimXpertDepthDimTol dimtol;
+            dimtol = (DimXpertDepthDimTol)annotation;
+            if (dimtol.ReferenceFeature == null)
+            {
+                strs.Add("Reference Feature: NULL");
+            }
+            else
+            {
+                strs.Add("Reference Feature: " + dimtol.ReferenceFeature.Name);
+            }
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_CounterSinkDiameter)
+        {
+            DimXpertCounterSinkDiameterDimTol dimtol;
+            dimtol = (DimXpertCounterSinkDiameterDimTol)annotation;
+            if (dimtol.ReferenceFeature == null)
+            {
+                strs.Add("Reference Feature: NULL");
+            }
+            else
+            {
+                strs.Add("Reference Feature: " + dimtol.ReferenceFeature.Name);
+            }
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_ChamferDimension)
+        {
+            DimXpertChamferDimTol chamferDimTol = default(DimXpertChamferDimTol);
+            chamferDimTol = (DimXpertChamferDimTol)annotation;
+            switch (chamferDimTol.ChamferType)
+            {
+                case swDimXpertChamferDimensionType_e.swDimXpertChamferDimensionType_Angle:
+                    strs.Add("Chamfer Dimension Type: Angle");
+                    isAngleType = true;
+                    break;
+                case swDimXpertChamferDimensionType_e.swDimXpertChamferDimensionType_LinearDistance1:
+                    strs.Add("Chamfer Dimension Type: Distance 1");
+                    break;
+                case swDimXpertChamferDimensionType_e.swDimXpertChamferDimensionType_LinearDistance2:
+                    strs.Add("Chamfer Dimension Type: Distance 2");
+                    break;
+            }
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_AngleBetween)
+        {
+            isAngleType = true;
+            DimXpertAngleBetweenDimTol dimtol;
+            dimtol = (DimXpertAngleBetweenDimTol)annotation;
+            // the origin and tolerance feature
+            strs.Add("Origin Feature: " + dimtol.OriginFeature.Name);
+            // is supplement angle
+            strs.Add("Supplement Angle: " + (dimtol.Supplement ? "True" : "False"));
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_CounterSinkAngle)
+        {
+            isAngleType = true;
+            DimXpertCounterSinkAngleDimTol dimtol;
+            dimtol = (DimXpertCounterSinkAngleDimTol)annotation;
+            if (dimtol.ReferenceFeature == null)
+            {
+                strs.Add("Reference Feature: NULL");
+            }
+            else
+            {
+                strs.Add("Reference Feature: " + dimtol.ReferenceFeature.Name);
+            }
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_ConeAngle)
+        {
+            isAngleType = true;
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_Radius)
+        {
+        IDimXpertRadiusDimTol radiusDim;
+        radiusDim = (IDimXpertRadiusDimTol)annotation;
+        patternTreatment = radiusDim.PatternTreatment;
+         //If radiusDim.patternTreatment Is Nothing Then
+             //strs.Add ("Pattern Treatment: NULL")
+         if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_unknown)
+            {strs.Add ("Pattern Treatment: unknown");}
+         else if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_CircularPattern)
+            {strs.Add ("Pattern Treatment: Circular pattern");}
+         else if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_IndividualFeatures)
+            {strs.Add ("Pattern Treatment: Individual features");}
+        }
+        else if (annoType == swDimXpertAnnotationType_e.swDimXpertDimTol_Diameter)
+        {
+            IDimXpertDiameterDimTol diaDim;
+            diaDim = (IDimXpertDiameterDimTol)annotation;
+            patternTreatment = diaDim.PatternTreatment;
+            //If radiusDim.patternTreatment Is Nothing Then
+            //strs.Add ("Pattern Treatment: NULL")
+            if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_unknown)
+            { strs.Add("Pattern Treatment: unknown"); }
+            else if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_CircularPattern)
+            { strs.Add("Pattern Treatment: Circular pattern"); }
+            else if (patternTreatment == swDimXpertPatternTreatmentType_e.swDimXpertPatternTreatmentType_IndividualFeatures)
+            { strs.Add("Pattern Treatment: Individual features"); }
 ```
 
 ```vb
@@ -657,472 +657,472 @@ Boolean indReq;
 ```
 
 ```vb
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// conversion for radians to degrees when dimension type is angle
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double dbl = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (isAngleType)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}dbl = 57.2957795130823;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}dbl = 1.0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the nominal, and upper and lower limits of size of the dimension
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Compute Nominal Dimension: " + FormatDouble(annotation.GetNominalValue() * dbl));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetUpperAndLowerLimit(ref upper, ref lower);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Get Upper Limit: " + FormatDouble(upper * dbl));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Get Lower Limit: " + FormatDouble(lower * dbl));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the upper and lower tolerance value by type
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}switch (annotation.DimensionType)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_BlockTolerance:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Dimension Type: Block Tolerance");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// block tolerance
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_BlockToleranceNoNominal:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}DimXpertBlockTolerances blockTols = default(DimXpertBlockTolerances);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}blockTols = dimXpertPart.GetBlockTolerances();
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}switch (blockTols.Type)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ASMEInch:
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}strs.Add("Dimension Type: Block Tolerance No Nominal");
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}if (isAngleType)
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}strs.Add("Angular Block Tolerance");
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}strs.Add("Block Tolerance Decimal Places: " +
+        }
+        // conversion for radians to degrees when dimension type is angle
+        double dbl = 0;
+        if (isAngleType)
+        {
+            dbl = 57.2957795130823;
+        }
+        else
+        {
+            dbl = 1.0;
+        }
+        // the nominal, and upper and lower limits of size of the dimension
+        strs.Add("");
+        strs.Add("Compute Nominal Dimension: " + FormatDouble(annotation.GetNominalValue() * dbl));
+        boolstatus = annotation.GetUpperAndLowerLimit(ref upper, ref lower);
+        strs.Add("Get Upper Limit: " + FormatDouble(upper * dbl));
+        strs.Add("Get Lower Limit: " + FormatDouble(lower * dbl));
+        // the upper and lower tolerance value by type
+        switch (annotation.DimensionType)
+        {
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_BlockTolerance:
+                strs.Add("Dimension Type: Block Tolerance");
+                break;
+            // block tolerance
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_BlockToleranceNoNominal:
+                DimXpertBlockTolerances blockTols = default(DimXpertBlockTolerances);
+                blockTols = dimXpertPart.GetBlockTolerances();
+                switch (blockTols.Type)
+                {
+                    case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ASMEInch:
+                        strs.Add("Dimension Type: Block Tolerance No Nominal");
+                        if (isAngleType)
+                        {
+                            strs.Add("Angular Block Tolerance");
+                        }
+                        else
+                        {
+                            strs.Add("Block Tolerance Decimal Places: " +
 System.String.Format("{0:N}", annotation.BlockToleranceDecimalPlaces.ToString()));
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ISO2768:
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}strs.Add("Dimension Type: General Tolerance");
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_ISOLimitsAndFits:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Dimension Type: Limits and Fits");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// limits and fits tolerance
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_ISOLimitsAndFitsNoNominal:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Dimension Type: Limits and Fits No Nominal");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Limits and Fits: " + annotation.LimitsAndFitsCode);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// limit dimension
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_LimitDimension:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Dimension Type: Limit Dimension");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}boolstatus = annotation.GetUpperAndLowerLimit(ref upper, ref lower);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Get Upper Limit: " + FormatDouble(upper * dbl));
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Get Lower Limit: " + FormatDouble(lower * dbl));
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_MAXTolerance:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Dimension Type: MAXTolerance");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_MINTolerance:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Dimension Type: MINTolerance");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_NoTolerance:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Dimension Type: NoTolerance");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_PlusMinusDimension:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Dimension Type: Plus Minus Dimension");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// plus and minus dimension
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_PlusMinusNoNominal:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Dimension Type: Plus Minus No Nominal");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}boolstatus = annotation.GetPlusAndMinusTolerance(ref plus, ref minus);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Plus Tolerance: " + FormatDouble(plus * dbl));
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Minus Tolerance: " + FormatDouble(minus * dbl));
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void DistanceBetweenData(DimXpertDistanceBetweenDimTol annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertFeature feature = default(DimXpertFeature);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDimXpertDistanceFosUsage_e featureFosUsage = default(swDimXpertDistanceFosUsage_e);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double I = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double J = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double K = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}feature = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the origin and tolerance feature along with their feature of size usage (min, max, center)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetOriginFeature(ref feature, ref featureFosUsage);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Origin Feature: " + feature.Name + " @ " + FosUsage(featureFosUsage));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetFeature(ref feature, ref featureFosUsage);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Feature: " + feature.Name + " @ " + FosUsage(featureFosUsage));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// The direction vector
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetDirectionVector(ref I, ref J, ref K);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Direction Vector: " + FormatVector(I, J, K));
-kadov_tag{{<spaces>}}       kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void CompositeDistanceBetweenData(DimXpertCompositeDistanceBetweenDimTol annotation, SolidWorks.Interop.swdimxpert.DimXpertPart dimXpertPart)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertFeature feature = default(DimXpertFeature);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDimXpertDistanceFosUsage_e featureFosUsage = default(swDimXpertDistanceFosUsage_e);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double plus = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double minus = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double I = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double J = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double K = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool isAngleType = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertBlockTolerances blockTols = default(DimXpertBlockTolerances);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}isAngleType = false;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// conversion for radians to degrees when dimension type is angle
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}double dbl = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (isAngleType)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}dbl = 57.2957795130823;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}dbl = 1.0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}feature = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the origin and tolerance feature along with their feature of size usage (min, max, center)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetOriginFeature(ref feature, ref featureFosUsage);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Origin Feature: " + feature.Name + " @ " + FosUsage(featureFosUsage));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetFeature(ref feature, ref featureFosUsage);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Tolerance Feature: " + feature.Name + " @ " + FosUsage(featureFosUsage));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the pattern locating feature
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetIntraFeature(ref feature, ref featureFosUsage);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Pattern Locating Feature: " + feature.Name + " @ " + FosUsage(featureFosUsage));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// The direction vector
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = annotation.GetDirectionVector(ref I, ref J, ref K);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Direction Vector: " + FormatVector(I, J, K));
-kadov_tag{{<spaces>}}       kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the upper and lower tolerance value for the pattern location by type
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}DimXpertDimensionTolerance dimTol = default(DimXpertDimensionTolerance);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}dimTol = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}dimTol = (DimXpertDimensionTolerance)annotation;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}switch (dimTol.DimensionType)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// plus and minus dimension
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_PlusMinusNoNominal:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Pattern Locating Dimension Type: Plus Minus No Nominal");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}boolstatus = dimTol.GetPlusAndMinusTolerance(ref plus, ref minus);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add(" Plus Tolerance: " + FormatDouble(plus));
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add(" Minus Tolerance: " + FormatDouble(minus));
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// block tolerance
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_BlockToleranceNoNominal:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}blockTols = dimXpertPart.GetBlockTolerances();
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}switch (blockTols.Type)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ASMEInch:
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}strs.Add("Pattern Locating Dimension Type: Block Tolerance No Nominal");
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}strs.Add(" Block Tolerance Decimal Places: " +
+                        }
+                        break;
+                    case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ISO2768:
+                        strs.Add("Dimension Type: General Tolerance");
+                        break;
+                }
+                break;
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_ISOLimitsAndFits:
+                strs.Add("Dimension Type: Limits and Fits");
+                break;
+            // limits and fits tolerance
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_ISOLimitsAndFitsNoNominal:
+                strs.Add("Dimension Type: Limits and Fits No Nominal");
+                strs.Add("Limits and Fits: " + annotation.LimitsAndFitsCode);
+                break;
+            // limit dimension
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_LimitDimension:
+                strs.Add("Dimension Type: Limit Dimension");
+                boolstatus = annotation.GetUpperAndLowerLimit(ref upper, ref lower);
+                strs.Add("Get Upper Limit: " + FormatDouble(upper * dbl));
+                strs.Add("Get Lower Limit: " + FormatDouble(lower * dbl));
+                break;
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_MAXTolerance:
+                strs.Add("Dimension Type: MAXTolerance");
+                break;
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_MINTolerance:
+                strs.Add("Dimension Type: MINTolerance");
+                break;
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_NoTolerance:
+                strs.Add("Dimension Type: NoTolerance");
+                break;
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_PlusMinusDimension:
+                strs.Add("Dimension Type: Plus Minus Dimension");
+                break;
+            // plus and minus dimension
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_PlusMinusNoNominal:
+                strs.Add("Dimension Type: Plus Minus No Nominal");
+                boolstatus = annotation.GetPlusAndMinusTolerance(ref plus, ref minus);
+                strs.Add("Plus Tolerance: " + FormatDouble(plus * dbl));
+                strs.Add("Minus Tolerance: " + FormatDouble(minus * dbl));
+                break;
+        }
+    }
+    private void DistanceBetweenData(DimXpertDistanceBetweenDimTol annotation)
+    {
+        DimXpertFeature feature = default(DimXpertFeature);
+        swDimXpertDistanceFosUsage_e featureFosUsage = default(swDimXpertDistanceFosUsage_e);
+        double I = 0;
+        double J = 0;
+        double K = 0;
+        bool boolstatus = false;
+        feature = null;
+        // the origin and tolerance feature along with their feature of size usage (min, max, center)
+        boolstatus = annotation.GetOriginFeature(ref feature, ref featureFosUsage);
+        strs.Add("");
+        strs.Add("Origin Feature: " + feature.Name + " @ " + FosUsage(featureFosUsage));
+        boolstatus = annotation.GetFeature(ref feature, ref featureFosUsage);
+        strs.Add("Tolerance Feature: " + feature.Name + " @ " + FosUsage(featureFosUsage));
+        // The direction vector
+        boolstatus = annotation.GetDirectionVector(ref I, ref J, ref K);
+        strs.Add("");
+        strs.Add("Direction Vector: " + FormatVector(I, J, K));
+
+    }
+    private void CompositeDistanceBetweenData(DimXpertCompositeDistanceBetweenDimTol annotation, SolidWorks.Interop.swdimxpert.DimXpertPart dimXpertPart)
+    {
+        DimXpertFeature feature = default(DimXpertFeature);
+        swDimXpertDistanceFosUsage_e featureFosUsage = default(swDimXpertDistanceFosUsage_e);
+        double plus = 0;
+        double minus = 0;
+        double I = 0;
+        double J = 0;
+        double K = 0;
+        bool boolstatus = false;
+        bool isAngleType = false;
+        DimXpertBlockTolerances blockTols = default(DimXpertBlockTolerances);
+        isAngleType = false;
+        // conversion for radians to degrees when dimension type is angle
+        double dbl = 0;
+        if (isAngleType)
+        {
+            dbl = 57.2957795130823;
+        }
+        else
+        {
+            dbl = 1.0;
+        }
+        feature = null;
+        // the origin and tolerance feature along with their feature of size usage (min, max, center)
+        boolstatus = annotation.GetOriginFeature(ref feature, ref featureFosUsage);
+        strs.Add("");
+        strs.Add("Origin Feature: " + feature.Name + " @ " + FosUsage(featureFosUsage));
+        boolstatus = annotation.GetFeature(ref feature, ref featureFosUsage);
+        strs.Add("Tolerance Feature: " + feature.Name + " @ " + FosUsage(featureFosUsage));
+        // the pattern locating feature
+        boolstatus = annotation.GetIntraFeature(ref feature, ref featureFosUsage);
+        strs.Add("Pattern Locating Feature: " + feature.Name + " @ " + FosUsage(featureFosUsage));
+        // The direction vector
+        boolstatus = annotation.GetDirectionVector(ref I, ref J, ref K);
+        strs.Add("");
+        strs.Add("Direction Vector: " + FormatVector(I, J, K));
+
+        // the upper and lower tolerance value for the pattern location by type
+        DimXpertDimensionTolerance dimTol = default(DimXpertDimensionTolerance);
+        dimTol = null;
+        dimTol = (DimXpertDimensionTolerance)annotation;
+        switch (dimTol.DimensionType)
+        {
+            // plus and minus dimension
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_PlusMinusNoNominal:
+                strs.Add("Pattern Locating Dimension Type: Plus Minus No Nominal");
+                boolstatus = dimTol.GetPlusAndMinusTolerance(ref plus, ref minus);
+                strs.Add(" Plus Tolerance: " + FormatDouble(plus));
+                strs.Add(" Minus Tolerance: " + FormatDouble(minus));
+                break;
+            // block tolerance
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_BlockToleranceNoNominal:
+                blockTols = dimXpertPart.GetBlockTolerances();
+                switch (blockTols.Type)
+                {
+                    case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ASMEInch:
+                        strs.Add("Pattern Locating Dimension Type: Block Tolerance No Nominal");
+                        strs.Add(" Block Tolerance Decimal Places: " +
 System.String.Format("{0:N}", dimTol.BlockToleranceDecimalPlaces.ToString()));
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ISO2768:
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}strs.Add("Pattern Locating Dimension Type: General Tolerance");
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}// the upper and lower tolerance value for the feature to feature location by type
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}switch (annotation.DimensionTypeIntraFeature)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// plus and minus dimension
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_PlusMinusNoNominal:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add("Feature Locating Dimension Type: Plus Minus No Nominal");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}boolstatus = annotation.GetPlusAndMinusToleranceIntraFeature(ref plus, ref minus);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add(" Plus Tolerance: " + FormatDouble(plus * dbl));
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}strs.Add(" Minus Tolerance: " + FormatDouble(minus * dbl));
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// block tolerance
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_BlockToleranceNoNominal:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}blockTols = dimXpertPart.GetBlockTolerances();
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}switch (blockTols.Type)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                 kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ASMEInch:
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}strs.Add("Feature locating Dimension Type: Block Tolerance No Nominal");
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}strs.Add(" Block Tolerance Decimal Places: " +
+                        break;
+                    case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ISO2768:
+                        strs.Add("Pattern Locating Dimension Type: General Tolerance");
+                        break;
+                }
+                break;
+        }
+        // the upper and lower tolerance value for the feature to feature location by type
+        switch (annotation.DimensionTypeIntraFeature)
+        {
+            // plus and minus dimension
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_PlusMinusNoNominal:
+                strs.Add("Feature Locating Dimension Type: Plus Minus No Nominal");
+                boolstatus = annotation.GetPlusAndMinusToleranceIntraFeature(ref plus, ref minus);
+                strs.Add(" Plus Tolerance: " + FormatDouble(plus * dbl));
+                strs.Add(" Minus Tolerance: " + FormatDouble(minus * dbl));
+                break;
+            // block tolerance
+            case swDimXpertDimensionToleranceType_e.swDimXpertDimTolType_BlockToleranceNoNominal:
+                blockTols = dimXpertPart.GetBlockTolerances();
+                switch (blockTols.Type)
+                {
+
+                    case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ASMEInch:
+                        strs.Add("Feature locating Dimension Type: Block Tolerance No Nominal");
+                        strs.Add(" Block Tolerance Decimal Places: " +
 System.String.Format("{0:N}", annotation.BlockToleranceDecimalPlacesIntraFeature.ToString()));
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ISO2768:
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}strs.Add("Feature locating Dimension Type: General Tolerance");
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void DatumsStr(DimXpertTolerance annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}strs.Add("Datums:");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}datumStr((object[])annotation.GetPrimaryDatums(), (int[])annotation.GetPrimaryDatumModifiers(), " Primary:");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}datumStr((object[])annotation.GetSecondaryDatums(), (int[])annotation.GetSecondaryDatumModifiers(), " Secondary:");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}datumStr((object[])annotation.GetTertiaryDatums(), (int[])annotation.GetTertiaryDatumModifiers(), " Tertiary:");
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void datumStr(object[] dats, int[] mods, string datumOrder)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}long I = 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string str = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}long mcm = 0;
-kadov_tag{{<spaces>}}       kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if ((dats == null))
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}return;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}str = "";
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}for (I = dats.GetLowerBound(0); I <= dats.GetUpperBound(0); I++)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}mcm = (long)mods[I];
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DimXpertDatum datum;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}datum = (DimXpertDatum)dats[I];
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}str = str + " " + datum.Identifier + " @ " + mcmStr(mcm);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (System.String.Compare(str, "") > 0)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(datumOrder + str);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(datumOrder + " <none>");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}// returns a string containing the height of the projected tolerance zone
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private void FormatProjectedZone(bool enabled, double height)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if (enabled == true)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(" Projected Zone: True");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(" Zone Height: " + FormatDouble(height));
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}strs.Add(" Projected Zone: False");
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private string mcmStr(long mcm)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string str = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}str = "";
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}switch ((swDimXpertMaterialConditionModifier_e)mcm)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertMaterialConditionModifier_e.swDimXpertMCM_LMC:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "LMC";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertMaterialConditionModifier_e.swDimXpertMCM_MMC:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "MMC";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertMaterialConditionModifier_e.swDimXpertMCM_NoMCM:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "NoMCM";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertMaterialConditionModifier_e.swDimXpertMCM_RFS:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "RFS";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return str;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}// returns a string containing the type of position tolerance zone used
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private string PositionZoneType(long typ)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string str = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}str = "";
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}switch ((swDimXpertPositionZoneType_e)typ)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_CylindricalPosition:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "Cylindrical";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_PlanarPosition:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "Planar";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_SphericalPosition:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "Spherical";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_Boundary:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "Boundary";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_RadialPositionArc:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "RadialPositionArc";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_RadialPositionPlanar:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "RadialPositionPlanar";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}default:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "N/A";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return str;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}// returns a string containing the names of the SW display entities
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private string DisplayEntity(DimXpertAnnotation annotation)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string str = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}object dispEnt = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Annotation swAnnot = default(Annotation);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}str = "";
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}dispEnt = annotation.GetDisplayEntity();
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}if ((dispEnt != null))
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (dispEnt is Annotation)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}swAnnot = (Annotation)dispEnt;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = (String)swAnnot.GetName();
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return str;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}// returns a string containing the feature of size usage (min, max, center)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private string FosUsage(swDimXpertDistanceFosUsage_e value)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string str = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}str = "";
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}switch (value)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDistanceFosUsage_e.swDimXpertDistanceFosUsage_Center:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "Center";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDistanceFosUsage_e.swDimXpertDistanceFosUsage_MaximumSide:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "Max";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertDistanceFosUsage_e.swDimXpertDistanceFosUsage_MinimumSide:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "Min";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}default:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}str = "N/A";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return str;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private string FormatVector(double I, double J, double K)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string str = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}str = FormatDouble(I) + ", " + FormatDouble(J) + ", " + FormatDouble(K);
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return str;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private string FormatDouble(double value)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string str = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}str = System.String.Format("{0:D}", value.ToString());
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return str;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private string RadiansToDegrees(double value)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string str = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}str = System.String.Format("{0:D}", (value * 57.2957795130823).ToString());
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return str;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private string annotationTypeNameFromObject(DimXpertAnnotation anno)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return annotationTypeNameFromTypeNumber(anno.Type);
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}private string annotationTypeNameFromTypeNumber(swDimXpertAnnotationType_e annoTypeIndex)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}string functionReturnValue = null;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}switch (annoTypeIndex)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_DistanceBetween:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "DistanceBetween Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_CounterBore:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "CounterBore Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_Depth:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Depth Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_CounterSinkDiameter:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "CounterSinkDiameter Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_ChamferDimension:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "ChamferDimension Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_AngleBetween:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "AngleBetween Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_CounterSinkAngle:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "CounterSinkAngle Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_ConeAngle:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "ConeAngle Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_Diameter:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Diameter Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_Length:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Length Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_Radius:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Radius Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_Width:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Width Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDimTol_CompositeDistanceBetween:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "CompositeDistanceBetween Dim";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertDatum:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Datum";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Position:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Position Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositePosition:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "CompositePosition Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Symmetry:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Symmetry Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Concentricity:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Concentricity Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_LineProfile:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "LineProfile Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositeLineProfile:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "CompositeLineProfile Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_SurfaceProfile:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "SurfaceProfile Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositeSurfaceProfile:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "CompositeSurfaceProfile Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Angularity:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Angularity Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Parallelism:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Parallelism Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Perpendicularity:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Perpendicularity Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_TotalRunout:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "TotalRunout Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_CircularRunout:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "CircularRunout Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Flatness:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Flatness Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Circularity:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Circularity Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Cylindricity:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Cylindricity Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Straightness:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Straightness Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}case swDimXpertAnnotationType_e.swDimXpertGeoTol_Tangency:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "Tangency Tol";
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}default:
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}functionReturnValue = "<unknown> " + annoTypeIndex;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}return functionReturnValue;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+                        break;
+                    case swDimXpertBlockToleranceType_e.swDimXpertBlockToleranceType_ISO2768:
+                        strs.Add("Feature locating Dimension Type: General Tolerance");
+                        break;
+                }
+                break;
+        }
+    }
+    private void DatumsStr(DimXpertTolerance annotation)
+    {
+        strs.Add("");
+        strs.Add("Datums:");
+        datumStr((object[])annotation.GetPrimaryDatums(), (int[])annotation.GetPrimaryDatumModifiers(), " Primary:");
+        datumStr((object[])annotation.GetSecondaryDatums(), (int[])annotation.GetSecondaryDatumModifiers(), " Secondary:");
+        datumStr((object[])annotation.GetTertiaryDatums(), (int[])annotation.GetTertiaryDatumModifiers(), " Tertiary:");
+    }
+    private void datumStr(object[] dats, int[] mods, string datumOrder)
+    {
+        long I = 0;
+        string str = null;
+        long mcm = 0;
+
+        if ((dats == null))
+        {
+            return;
+        }
+        str = "";
+        for (I = dats.GetLowerBound(0); I <= dats.GetUpperBound(0); I++)
+        {
+            mcm = (long)mods[I];
+            DimXpertDatum datum;
+            datum = (DimXpertDatum)dats[I];
+            str = str + " " + datum.Identifier + " @ " + mcmStr(mcm);
+        }
+        if (System.String.Compare(str, "") > 0)
+        {
+            strs.Add(datumOrder + str);
+        }
+        else
+        {
+            strs.Add(datumOrder + " <none>");
+        }
+    }
+    // returns a string containing the height of the projected tolerance zone
+    private void FormatProjectedZone(bool enabled, double height)
+    {
+        if (enabled == true)
+        {
+            strs.Add(" Projected Zone: True");
+            strs.Add(" Zone Height: " + FormatDouble(height));
+        }
+        else
+        {
+            strs.Add(" Projected Zone: False");
+        }
+    }
+    private string mcmStr(long mcm)
+    {
+        string str = null;
+        str = "";
+        switch ((swDimXpertMaterialConditionModifier_e)mcm)
+        {
+            case swDimXpertMaterialConditionModifier_e.swDimXpertMCM_LMC:
+                str = "LMC";
+                break;
+            case swDimXpertMaterialConditionModifier_e.swDimXpertMCM_MMC:
+                str = "MMC";
+                break;
+            case swDimXpertMaterialConditionModifier_e.swDimXpertMCM_NoMCM:
+                str = "NoMCM";
+                break;
+            case swDimXpertMaterialConditionModifier_e.swDimXpertMCM_RFS:
+                str = "RFS";
+                break;
+        }
+        return str;
+    }
+    // returns a string containing the type of position tolerance zone used
+    private string PositionZoneType(long typ)
+    {
+        string str = null;
+        str = "";
+        switch ((swDimXpertPositionZoneType_e)typ)
+        {
+            case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_CylindricalPosition:
+                str = "Cylindrical";
+                break;
+            case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_PlanarPosition:
+                str = "Planar";
+                break;
+            case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_SphericalPosition:
+                str = "Spherical";
+                break;
+            case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_Boundary:
+                str = "Boundary";
+                break;
+            case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_RadialPositionArc:
+                str = "RadialPositionArc";
+                break;
+            case swDimXpertPositionZoneType_e.swDimXpertPositionZoneType_RadialPositionPlanar:
+                str = "RadialPositionPlanar";
+                break;
+            default:
+                str = "N/A";
+                break;
+        }
+        return str;
+    }
+    // returns a string containing the names of the SW display entities
+    private string DisplayEntity(DimXpertAnnotation annotation)
+    {
+        string str = null;
+        object dispEnt = null;
+        Annotation swAnnot = default(Annotation);
+        str = "";
+        dispEnt = annotation.GetDisplayEntity();
+        if ((dispEnt != null))
+        {
+            if (dispEnt is Annotation)
+            {
+                swAnnot = (Annotation)dispEnt;
+                str = (String)swAnnot.GetName();
+            }
+        }
+        return str;
+    }
+    // returns a string containing the feature of size usage (min, max, center)
+    private string FosUsage(swDimXpertDistanceFosUsage_e value)
+    {
+        string str = null;
+        str = "";
+        switch (value)
+        {
+            case swDimXpertDistanceFosUsage_e.swDimXpertDistanceFosUsage_Center:
+                str = "Center";
+                break;
+            case swDimXpertDistanceFosUsage_e.swDimXpertDistanceFosUsage_MaximumSide:
+                str = "Max";
+                break;
+            case swDimXpertDistanceFosUsage_e.swDimXpertDistanceFosUsage_MinimumSide:
+                str = "Min";
+                break;
+            default:
+                str = "N/A";
+                break;
+        }
+        return str;
+    }
+    private string FormatVector(double I, double J, double K)
+    {
+        string str = null;
+        str = FormatDouble(I) + ", " + FormatDouble(J) + ", " + FormatDouble(K);
+        return str;
+    }
+    private string FormatDouble(double value)
+    {
+        string str = null;
+        str = System.String.Format("{0:D}", value.ToString());
+        return str;
+    }
+    private string RadiansToDegrees(double value)
+    {
+        string str = null;
+        str = System.String.Format("{0:D}", (value * 57.2957795130823).ToString());
+        return str;
+    }
+    private string annotationTypeNameFromObject(DimXpertAnnotation anno)
+    {
+        return annotationTypeNameFromTypeNumber(anno.Type);
+    }
+    private string annotationTypeNameFromTypeNumber(swDimXpertAnnotationType_e annoTypeIndex)
+    {
+        string functionReturnValue = null;
+        switch (annoTypeIndex)
+        {
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_DistanceBetween:
+                functionReturnValue = "DistanceBetween Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_CounterBore:
+                functionReturnValue = "CounterBore Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_Depth:
+                functionReturnValue = "Depth Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_CounterSinkDiameter:
+                functionReturnValue = "CounterSinkDiameter Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_ChamferDimension:
+                functionReturnValue = "ChamferDimension Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_AngleBetween:
+                functionReturnValue = "AngleBetween Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_CounterSinkAngle:
+                functionReturnValue = "CounterSinkAngle Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_ConeAngle:
+                functionReturnValue = "ConeAngle Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_Diameter:
+                functionReturnValue = "Diameter Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_Length:
+                functionReturnValue = "Length Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_Radius:
+                functionReturnValue = "Radius Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_Width:
+                functionReturnValue = "Width Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDimTol_CompositeDistanceBetween:
+                functionReturnValue = "CompositeDistanceBetween Dim";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertDatum:
+                functionReturnValue = "Datum";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Position:
+                functionReturnValue = "Position Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositePosition:
+                functionReturnValue = "CompositePosition Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Symmetry:
+                functionReturnValue = "Symmetry Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Concentricity:
+                functionReturnValue = "Concentricity Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_LineProfile:
+                functionReturnValue = "LineProfile Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositeLineProfile:
+                functionReturnValue = "CompositeLineProfile Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_SurfaceProfile:
+                functionReturnValue = "SurfaceProfile Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_CompositeSurfaceProfile:
+                functionReturnValue = "CompositeSurfaceProfile Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Angularity:
+                functionReturnValue = "Angularity Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Parallelism:
+                functionReturnValue = "Parallelism Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Perpendicularity:
+                functionReturnValue = "Perpendicularity Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_TotalRunout:
+                functionReturnValue = "TotalRunout Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_CircularRunout:
+                functionReturnValue = "CircularRunout Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Flatness:
+                functionReturnValue = "Flatness Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Circularity:
+                functionReturnValue = "Circularity Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Cylindricity:
+                functionReturnValue = "Cylindricity Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Straightness:
+                functionReturnValue = "Straightness Tol";
+                break;
+            case swDimXpertAnnotationType_e.swDimXpertGeoTol_Tangency:
+                functionReturnValue = "Tangency Tol";
+                break;
+            default:
+                functionReturnValue = "<unknown> " + annoTypeIndex;
+                break;
+        }
+        return functionReturnValue;
+    }
 }
 ```

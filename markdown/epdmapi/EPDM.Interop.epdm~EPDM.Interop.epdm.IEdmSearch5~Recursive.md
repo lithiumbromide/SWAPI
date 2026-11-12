@@ -36,14 +36,11 @@ property System.bool Recursive {
 
 ### Property Value
 
-True to search recursively in subfolders, false to search only in the folder specified by
-
-[IEdmSearch5::StartFolderID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~StartFolderID.html)
+True to search recursively in subfolders, false to search only in the folder specified by [IEdmSearch5::StartFolderID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~StartFolderID.html)
 
 ## See Also
 
 [IEdmSearch5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html)
-
 [IEdmSearch5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5_members.html)
 
 ## Availability

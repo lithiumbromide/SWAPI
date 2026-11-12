@@ -47,13 +47,7 @@ System.bool AddYAxis(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ True if y-axis feature is added to the plot, false if not
 
 ## VBA Syntax
 
-See
-
-[MotionPlotFeatureData::AddYAxis](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotFeatureData~AddYAxis.html)
-
-.
+See [MotionPlotFeatureData::AddYAxis](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotFeatureData~AddYAxis.html).
 
 ## See Also
 
 [IMotionPlotFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData.html)
-
 [IMotionPlotFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData_members.html)
-
 [IMotionPlotFeatureData::GetYAxis Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData~GetYAxis.html)
-
 [IMotionPlotFeatureData::IGetYAxis Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData~IGetYAxis.html)
 
 ## Availability

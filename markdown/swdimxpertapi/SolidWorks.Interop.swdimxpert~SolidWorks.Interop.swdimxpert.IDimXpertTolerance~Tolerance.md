@@ -48,22 +48,16 @@ Value of geometric tolerance
 
 ## VBA Syntax
 
-See
-
-[DimXpertTolerance::Tolerance](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~Tolerance.html)
-
-.
+See [DimXpertTolerance::Tolerance](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~Tolerance.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance.html)
-
 [IDimXpertTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance_members.html)
 
 ## Availability

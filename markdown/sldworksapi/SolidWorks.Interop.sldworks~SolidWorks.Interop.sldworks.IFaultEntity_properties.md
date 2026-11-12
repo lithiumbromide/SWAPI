@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IFaultEntity Interface Properties
 
-For a list of all members of this type, see[IFaultEntity members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity_members.html).
+For a list of all members of this type, see [IFaultEntity members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity_members.html).
 
 ## Public Properties
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[IFaultEntity members](SolidWorks.Int
 ## See Also
 
 [IFaultEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

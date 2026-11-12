@@ -40,25 +40,15 @@ System.double IGetCoordinates()
 System.double IGetCoordinates();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of 24 doubles containing starting and ending x,y,z points of the projection arrow and the x,y,z point of its label (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of 24 doubles containing starting and ending x,y,z points of the projection arrow and the x,y,z point of its label (see **Remarks**)
 
 - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
@@ -67,9 +57,7 @@ The doubles at indexes 0, 1, and 2 are the starting point of the projection arro
 ## See Also
 
 [IProjectionArrow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html)
-
 [IProjectionArrow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow_members.html)
-
 [IProjectionArrow::GetCoordinates Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~GetCoordinates.html)
 
 ## Availability

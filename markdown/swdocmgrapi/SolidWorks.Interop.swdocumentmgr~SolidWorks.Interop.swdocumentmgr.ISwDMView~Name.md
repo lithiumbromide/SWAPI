@@ -51,24 +51,15 @@ Name of this drawing view
 
 ## VBA Syntax
 
-See
-
-[SwDMView::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView~Name.html)
-
-.
+See [SwDMView::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView~Name.html).
 
 ## Examples
 
-See the
-
-[ISwDMView](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html)
-
-examples.
+See the [ISwDMView](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html) examples.
 
 ## See Also
 
 [ISwDMView Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html)
-
 [ISwDMView Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView_members.html)
 
 ## Availability

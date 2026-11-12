@@ -52,33 +52,20 @@ void SetSensorDetailsForGraphsAndPlots(
 
 ### Parameters
 
-- `NSensorOption`: Sensor option as defined in[swsResultOptionsSensorOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultOptionsSensorOption_e.html)
-- `SSensorName`: Sensor name; valid only if NSensorOption =
-
-[swsResultOptionsSensorOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultOptionsSensorOption_e.html)
-
-.swsResultOptionsSensorOption_SpecificSensor
+- `NSensorOption`: Sensor option as defined in [swsResultOptionsSensorOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultOptionsSensorOption_e.html)
+- `SSensorName`: Sensor name; valid only if NSensorOption = [swsResultOptionsSensorOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultOptionsSensorOption_e.html).swsResultOptionsSensorOption_SpecificSensor
 
 ## VBA Syntax
 
-See
-
-[CWStudyResultOptions::SetSensorDetailsForGraphsAndPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyResultOptions~SetSensorDetailsForGraphsAndPlots.html)
-
-.
+See [CWStudyResultOptions::SetSensorDetailsForGraphsAndPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyResultOptions~SetSensorDetailsForGraphsAndPlots.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWStudyResultOptions::SaveResultsForSolutionStepsOption](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyResultOptions~SaveResultsForSolutionStepsOption.html)
-
-= swsSaveResultsOption_e.swsSaveResultsOption_ForSpecifiedSolutionSteps.
+This method is valid only if [ICWStudyResultOptions::SaveResultsForSolutionStepsOption](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyResultOptions~SaveResultsForSolutionStepsOption.html) = swsSaveResultsOption_e.swsSaveResultsOption_ForSpecifiedSolutionSteps.
 
 ## See Also
 
 [ICWStudyResultOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions.html)
-
 [ICWStudyResultOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions_members.html)
 
 ## Availability

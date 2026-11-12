@@ -9,7 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EMode
 
 # IEModelMarkupControl Interface Methods
 
-For a list of all members of this type, see[IEModelMarkupControl members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html).
+For a list of all members of this type, see [IEModelMarkupControl members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html).
 
 ## Public Methods
 
@@ -26,7 +26,5 @@ For a list of all members of this type, see[IEModelMarkupControl members](eDrawi
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [eDrawings.Interop.EModelMarkupControl Namespace](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl_namespace.html)
-
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)

@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStateFlags.html"
 
 # EdmStateFlags Enumeration
 
-Flags used in calls to
-
-[IEdmFile5::ChangeState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ChangeState.html)
-
-to set options for the operation.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags used in calls to [IEdmFile5::ChangeState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ChangeState.html) to set options for the operation. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

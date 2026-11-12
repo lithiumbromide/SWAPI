@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # IExportToDWG Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::IExportToDWG2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IExportToDWG2.html)
-
-.
+Obsolete. Superseded by [IPartDoc::IExportToDWG2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IExportToDWG2.html).
 
 ## Syntax
 
@@ -87,13 +83,7 @@ System.bool IExportToDWG(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -101,44 +91,44 @@ See
 - `ModelName`: Full path to the active part document
 - `Action`: 1 - export sheet metal (valid only if active document contains sheet metal)
 
-2 - export selected faces or loops
+  2 - export selected faces or loops
 
-3 - export annotation views
+  3 - export annotation views
 - `ExportToSingleFile`: True to save as one file; false to save in separate files
 - `Alignment`: Array of twelve double values that contain information related to output alignment:
 
-Array[0], Array[1], Array[2] - XYZ coordinates of new origin
+  Array[0], Array[1], Array[2] - XYZ coordinates of new origin
 
-Array[3], Array[4], Array[5] - coordinates of new x direction vector
+  Array[3], Array[4], Array[5] - coordinates of new x direction vector
 
-Array[6], Array[7], Array[8] - coordinates of new y direction vector
+  Array[6], Array[7], Array[8] - coordinates of new y direction vector
 
-Array[9], Array[10], Array[11] - coordinates of the vector that is normal to the selected faces or loops
+  Array[9], Array[10], Array[11] - coordinates of the vector that is normal to the selected faces or loops
 
-The last three elements of the array are valid only if Action = 2
+  The last three elements of the array are valid only if Action = 2
 - `IsXDirFlipped`: True to flip the x direction; false otherwise
 - `IsYDirFlipped`: True to flip the y direction; false otherwise
-- `SheetMetalOptions`: [Bitmask](sldworksapiprogguide.chm::/OVERVIEW/Bitmasks.htm)that contains sheet metal export options; valid only if Action = 1:
+- `SheetMetalOptions`: [Bitmask](sldworksapiprogguide.chm::/OVERVIEW/Bitmasks.htm) that contains sheet metal export options; valid only if Action = 1:
 
-The bitmask is {7 6 5 4 3 2 1}, where each bit is either 0 or 1 as follows:
+  The bitmask is {7 6 5 4 3 2 1}, where each bit is either 0 or 1 as follows:
 
-Bit #1: 1 to export geometry; 0 to not
+  Bit #1: 1 to export geometry; 0 to not
 
-Bit #2: 1 to include hidden edges; 0 to not
+  Bit #2: 1 to include hidden edges; 0 to not
 
-Bit #3: 1 to export bend lines; 0 to not
+  Bit #3: 1 to export bend lines; 0 to not
 
-Bit #4: 1 to include sketches; 0 to not
+  Bit #4: 1 to include sketches; 0 to not
 
-Bit #5: 1 to merge coplanar faces; 0 to not
+  Bit #5: 1 to merge coplanar faces; 0 to not
 
-Bit #6: 1 to export library features; 0 to not
+  Bit #6: 1 to export library features; 0 to not
 
-Bit #7: 1 to export forming tools; 0 to not
+  Bit #7: 1 to export forming tools; 0 to not
 
-Example
+  Example
 
-If you want to export flat pattern geometry, bend lines, and sketches, then Bits 1, 3, and 4 are 1, the bitmask is 0001101, and you need to set SheetMetalOptions = 2^0 + 2^2 + 2^3 = 1 + 4 + 8 = 13.
+  If you want to export flat pattern geometry, bend lines, and sketches, then Bits 1, 3, and 4 are 1, the bitmask is 0001101, and you need to set SheetMetalOptions = 2^0 + 2^2 + 2^3 = 1 + 4 + 8 = 13.
 - `ViewsCount`: Count of annotation views to export; valid only if Action = 3
 - `Views`: Array of annotation view names to export; valid only if Action = 3
 
@@ -148,18 +138,12 @@ True if export is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[PartDoc::ExportToDWG](ms-its:sldworksapivb6.chm::/Sldworks~PartDoc~ExportToDWG.html)
-
-.
+See [PartDoc::ExportToDWG](ms-its:sldworksapivb6.chm::/Sldworks~PartDoc~ExportToDWG.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::ExportToDWG Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ExportToDWG.html)
 
 ## Availability

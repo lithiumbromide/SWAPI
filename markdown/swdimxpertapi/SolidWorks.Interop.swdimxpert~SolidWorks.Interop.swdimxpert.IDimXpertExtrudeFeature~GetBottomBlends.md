@@ -46,30 +46,20 @@ DimXpertFeature^ GetBottomBlends();
 
 ## VBA Syntax
 
-See
-
-[DimXpertExtrudeFeature::GetBottomBlends](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertExtrudeFeature~GetBottomBlends.html)
-
-.
+See [DimXpertExtrudeFeature::GetBottomBlends](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertExtrudeFeature~GetBottomBlends.html).
 
 ## Examples
 
 [Get DimXpert Extrude Feature Example (VBA)](Get_DimXpert_Extrude_Feature_Example_VB.htm)
-
 [Get DimXpert Extrude Feature Example (VB.NET)](Get_DimXpert_Extrude_Feature_Example_VBNET.htm)
 
 ## Remarks
 
-The bottom blend is typically an
-
-[IDimXpertFilletFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFilletFeature.html)
-
-.
+The bottom blend is typically an [IDimXpertFilletFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFilletFeature.html).
 
 ## See Also
 
 [IDimXpertExtrudeFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature.html)
-
 [IDimXpertExtrudeFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature_members.html)
 
 ## Availability

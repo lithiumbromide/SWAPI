@@ -35,16 +35,11 @@ property System.int WorkflowID {
 
 ### Property Value
 
-ID of the
-
-[IEdmWorkflow6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6.html)
-
-to which this state belongs
+ID of the [IEdmWorkflow6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6.html) to which this state belongs
 
 ## See Also
 
 [IEdmState6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6.html)
-
 [IEdmState6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6_members.html)
 
 ## Availability

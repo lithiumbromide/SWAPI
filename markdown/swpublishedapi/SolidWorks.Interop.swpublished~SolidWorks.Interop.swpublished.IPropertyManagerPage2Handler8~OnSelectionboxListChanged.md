@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnSelectionboxListChanged Method (IPropertyManagerPage2Handler8)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler9::OnSelectionboxListChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnSelectionboxListChanged.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler9::OnSelectionboxListChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnSelectionboxListChanged.html).
 
 ## Syntax
 
@@ -61,15 +57,11 @@ void OnSelectionboxListChanged(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler8::OnSelectionboxListChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnSelectionboxListChanged.html)
-
-.
+See [PropertyManagerPage2Handler8::OnSelectionboxListChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnSelectionboxListChanged.html).
 
 ## Remarks
 
-This method is called when your application uses a selection method, such as[IModelDocExtension::SelectByID2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html), just as if the selection was made interactively.
+This method is called when your application uses a selection method, such as [IModelDocExtension::SelectByID2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html), just as if the selection was made interactively.
 
 The method is called during the process of SOLIDWORKS selection. It is neither a pre-notification nor a post-notification. The add-in should not be taking any action that may affect the model or the selection list. The add-in should only be querying information, presumably about the state of selections to set up its own information correctly.
 
@@ -78,7 +70,6 @@ Regardless of how many items the user selects, this method is called only once p
 ## See Also
 
 [IPropertyManagerPage2Handler8 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8.html)
-
 [IPropertyManagerPage2Handler8 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8_members.html)
 
 ## Availability

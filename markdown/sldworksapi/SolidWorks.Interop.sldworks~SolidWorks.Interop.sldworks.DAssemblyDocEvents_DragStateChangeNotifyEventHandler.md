@@ -43,13 +43,7 @@ public delegate System.int DAssemblyDocEvents_DragStateChangeNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,27 +51,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[DragStateChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~DragStateChangeNotify_EV.html)
-
-.
+See [DragStateChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~DragStateChangeNotify_EV.html).
 
 ## Examples
 
 [Fire Events When Dragging Instant3D Manipulator in an Assembly (C#)](Fire_Events_When_Dragging_Instant3D_Manipulator_in_an_Assembly_Example_CSharp.htm)
-
 [Fire Events When Dragging Instant3D Manipulator in an Assembly (VB.NET)](Fire_Events_When_Dragging_Instant3D_Manipulator_in_an_Assembly_Example_VBNET.htm)
-
 [Fire Events When Dragging Instant3D Manipulator in an Assembly (VBA)](Fire_Events_When_Dragging_Instant3D_Manipulator_in_an_Assembly_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyDragStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyDragStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -45,13 +45,7 @@ property System.bool VarySketch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to allow the pattern instances of a seed sketch to vary in relation to encl
 
 ## VBA Syntax
 
-See
-
-[CircularPatternFeatureData::VarySketch](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~VarySketch.html)
-
-.
+See [CircularPatternFeatureData::VarySketch](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~VarySketch.html).
 
 ## Remarks
 
@@ -78,21 +68,16 @@ The seed sketch has:
 
 If this property is true:
 
-- Specify
-
-  [ICircularPatternFeatureData::Axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~Axis.html)
-
-  with a driving dimension of the seed sketch.
+- Specify [ICircularPatternFeatureData::Axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~Axis.html) with a driving dimension of the seed sketch.
 - Pattern instances vary with and are constrained by the enclosing geometry.
 
-See the**SOLIDWORKS Help > Parts and Features > Features > Patterns and Mirroring > Control and Modify Patterns >****Vary Sketch**topic.
+See the **SOLIDWORKS Help > Parts and Features > Features > Patterns and Mirroring > Control and Modify Patterns >** **Vary Sketch** topic.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
 [ICircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # SetTextFormat Method (IDisplayDimension)
 
-Obsolete. Superseded by
-
-[IAnnotation::ISetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~ISetTextFormat.html)
-
-.
+Obsolete. Superseded by [IAnnotation::ISetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~ISetTextFormat.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool SetTextFormat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetTextFormat.html)
-
-.
+See [DisplayDimension::SetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetTextFormat.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)

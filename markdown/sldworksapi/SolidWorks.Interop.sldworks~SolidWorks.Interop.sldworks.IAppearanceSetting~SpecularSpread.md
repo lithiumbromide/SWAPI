@@ -45,33 +45,15 @@ property System.double SpecularSpread {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-0 <= specular_spread <= 1; valid only when
-
-[IAppearanceSetting::Specular](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAppearanceSetting~Specular.html)
-
-> 0 and
-
-[IAppearanceSetting::SpecularColor](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAppearanceSetting~SpecularColor.html)
-
-> 0 (not black)
+0 <= specular_spread <= 1; valid only when [IAppearanceSetting::Specular](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAppearanceSetting~Specular.html) > 0 and [IAppearanceSetting::SpecularColor](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAppearanceSetting~SpecularColor.html) > 0 (not black)
 
 ## VBA Syntax
 
-See
-
-[AppearanceSetting::SpecularSpread](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~SpecularSpread.html)
-
-.
+See [AppearanceSetting::SpecularSpread](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~SpecularSpread.html).
 
 ## Remarks
 
@@ -80,7 +62,6 @@ See SOLIDWORKS Help for more information about appearances.
 ## See Also
 
 [IAppearanceSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting.html)
-
 [IAppearanceSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting_members.html)
 
 ## Availability

@@ -42,13 +42,7 @@ property System.double ISphereParams {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ Array of doubles describing the parameters of a spherical surface
 
 ## VBA Syntax
 
-See
-
-[Surface::ISphereParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~ISphereParams.html)
-
-.
+See [Surface::ISphereParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~ISphereParams.html).
 
 ## Remarks
 
@@ -74,14 +64,11 @@ center.z
 
 radius
 
-Thecenterandradiusvalues are in meters.
+The center and radius values are in meters.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::SphereParams Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~SphereParams.html)
-
 [ISurface::IsSphere Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IsSphere.html)

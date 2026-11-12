@@ -9,16 +9,8 @@ source: "emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EMode
 
 # IEModelMarkupControl Interface
 
-Encapsulates the eDrawings markup functionality, which is only available in the eDrawings Professional version or in review-enabled documents in the free
-eDrawings version.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Encapsulates the eDrawings markup functionality, which is only available in the eDrawings Professional version or in review-enabled documents in the free eDrawings version.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -48,19 +40,11 @@ public interface class IEModelMarkupControl
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl.html)
-
-.
+See [EModelMarkupControl](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl.html).
 
 ## Examples
 
-See
-
-[Getting Started](GettingStarted-emodelapi.html)
-
-to learn how to create C# Windows Forms applications that use the eDrawings ActiveX control to load eDrawings drawings.
+See [Getting Started](GettingStarted-emodelapi.html) to learn how to create C# Windows Forms applications that use the eDrawings ActiveX control to load eDrawings drawings.
 
 ## Accessors
 
@@ -69,7 +53,5 @@ to learn how to create C# Windows Forms applications that use the eDrawings Acti
 ## See Also
 
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
-
 [eDrawings.Interop.EModelMarkupControl Namespace](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl_namespace.html)
-
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)

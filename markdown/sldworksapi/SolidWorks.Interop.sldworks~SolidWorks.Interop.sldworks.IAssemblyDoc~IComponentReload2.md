@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # IComponentReload2 Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::ReplaceComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~ReplaceComponents.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::ReplaceComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~ReplaceComponents.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.int IComponentReload2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::IComponentReload2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IComponentReload2.html)
-
-.
+See [AssemblyDoc::IComponentReload2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IComponentReload2.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

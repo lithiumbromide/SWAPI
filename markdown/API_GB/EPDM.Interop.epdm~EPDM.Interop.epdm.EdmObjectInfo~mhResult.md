@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo~mhResult.html"
 
 # mhResult Field
 
-Can be passed to
-
-[IEdmVault5::GetErrorString](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString.html)
-
-to get a human-readable error message.
+Can be passed to [IEdmVault5::GetErrorString](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString.html) to get a human-readable error message.
 
 ## Syntax
 
@@ -43,5 +39,4 @@ HRESULT result code.
 ## See Also
 
 [EdmObjectInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo.html)
-
 [EdmObjectInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo_members.html)

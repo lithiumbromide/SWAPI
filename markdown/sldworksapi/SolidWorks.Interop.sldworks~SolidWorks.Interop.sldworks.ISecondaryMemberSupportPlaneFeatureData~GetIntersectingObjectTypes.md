@@ -40,13 +40,7 @@ System.object GetIntersectingObjectTypes()
 System.Object^ GetIntersectingObjectTypes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,16 +52,11 @@ Array of entities as defined by swSelectType_e:
 
 ## VBA Syntax
 
-See
-
-[SecondaryMemberSupportPlaneFeatureData::GetIntersectingObjectTypes](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberSupportPlaneFeatureData~GetIntersectingObjectTypes.html)
-
-.
+See [SecondaryMemberSupportPlaneFeatureData::GetIntersectingObjectTypes](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberSupportPlaneFeatureData~GetIntersectingObjectTypes.html).
 
 ## See Also
 
 [ISecondaryMemberSupportPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberSupportPlaneFeatureData.html)
-
 [ISecondaryMemberSupportPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberSupportPlaneFeatureData_members.html)
 
 ## Availability

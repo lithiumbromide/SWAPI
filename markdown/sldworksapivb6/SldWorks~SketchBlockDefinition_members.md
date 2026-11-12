@@ -1,6 +1,5 @@
 ---
-title: "SketchBlockDefinition Object
-Members"
+title: "SketchBlockDefinition Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchBlockDefinition_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchBlockDefinition_members.html"
 ---
 
-# SketchBlockDefinition Object
-Members
+# SketchBlockDefinition Object Members
 
 ## Public Methods
 

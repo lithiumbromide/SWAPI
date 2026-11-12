@@ -47,13 +47,7 @@ System.bool SetHyperlinkText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,18 @@ True if the hyperlink is successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[Note::SetHyperlinkText](ms-its:sldworksapivb6.chm::/sldworks~Note~SetHyperlinkText.html)
-
-.
+See [Note::SetHyperlinkText](ms-its:sldworksapivb6.chm::/sldworks~Note~SetHyperlinkText.html).
 
 ## Remarks
 
-You can retrieve the hyperlink text using[INote::GetHyperlinkText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetHyperlinkText.html).
+You can retrieve the hyperlink text using [INote::GetHyperlinkText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetHyperlinkText.html).
 
-The input text can be a URL address or the name of a document on the local network or on your local system. You must specify the full address for a URL address, starting with thehttp://. You can specify a file name on your local network or system either as a full pathname or pathname relative to the current document, for example,D:\parts\drawing1.slddrw, ordrawing1.slddrw.
+The input text can be a URL address or the name of a document on the local network or on your local system. You must specify the full address for a URL address, starting with the http://. You can specify a file name on your local network or system either as a full pathname or pathname relative to the current document, for example, D:\parts\drawing1.slddrw, or drawing1.slddrw.
 
 To remove the hyperlink from a note, use this method and specify non-hyperlinked text.
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::GetHyperlinkText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetHyperlinkText.html)

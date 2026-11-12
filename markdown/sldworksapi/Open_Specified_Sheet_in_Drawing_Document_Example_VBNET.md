@@ -9,8 +9,7 @@ source: "sldworksapi/Open_Specified_Sheet_in_Drawing_Document_Example_VBNET.htm"
 
 # Open Specified Sheet in Drawing Document Example (VB.NET)
 
-This example shows how to open a specific sheet when programmatically
-opening a drawing document.
+This example shows how to open a specific sheet when programmatically opening a drawing document.
 
 ```
 '------------------------------------------------------

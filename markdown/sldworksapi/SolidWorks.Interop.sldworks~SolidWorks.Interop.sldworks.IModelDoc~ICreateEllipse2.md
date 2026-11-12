@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ICreateEllipse2 Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ICreateEllipse2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreateEllipse2.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ICreateEllipse2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreateEllipse2.html).
 
 ## Syntax
 
@@ -83,13 +79,7 @@ SketchSegment^ ICreateEllipse2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -105,14 +95,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ICreateEllipse2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ICreateEllipse2.html)
-
-.
+See [ModelDoc::ICreateEllipse2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ICreateEllipse2.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ViewTranslateplusy Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ViewTranslateplusy](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewTranslateplusy.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ViewTranslateplusy](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewTranslateplusy.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ViewTranslateplusy()
 void ViewTranslateplusy();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ViewTranslateplusy](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewTranslateplusy.html)
-
-.
+See [ModelDoc::ViewTranslateplusy](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewTranslateplusy.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

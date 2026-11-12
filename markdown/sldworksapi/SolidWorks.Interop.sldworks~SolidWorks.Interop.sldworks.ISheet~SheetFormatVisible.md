@@ -45,13 +45,7 @@ property System.bool SheetFormatVisible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True if the sheet format is visible, false if not
 
 ## VBA Syntax
 
-See
-
-[Sheet::SheetFormatVisible](ms-its:sldworksapivb6.chm::/sldworks~Sheet~SheetFormatVisible.html)
-
-.
+See [Sheet::SheetFormatVisible](ms-its:sldworksapivb6.chm::/sldworks~Sheet~SheetFormatVisible.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [ISheet::GetSheetFormatName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetSheetFormatName.html)
-
 [ISheet::SetSheetFormatName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SetSheetFormatName.html)
 
 ## Availability

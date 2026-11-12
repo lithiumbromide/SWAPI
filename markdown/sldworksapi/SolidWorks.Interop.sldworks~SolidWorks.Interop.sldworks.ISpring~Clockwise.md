@@ -45,13 +45,7 @@ property System.bool Clockwise {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to set the direction of the coils of the spring clockwise, false to set the
 
 ## VBA Syntax
 
-See
-
-[Spring::Clockwise](ms-its:sldworksapivb6.chm::/sldworks~Spring~Clockwise.html)
-
-.
+See [Spring::Clockwise](ms-its:sldworksapivb6.chm::/sldworks~Spring~Clockwise.html).
 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
 
 ## Availability

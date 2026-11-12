@@ -46,40 +46,27 @@ void ArrangeWindows(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Style`: Type of arrangement where:
 
-- 0 = Cascade
-- 1 = Tile horizontally
-- 2 = Tile vertically
+  - 0 = Cascade
+  - 1 = Tile horizontally
+  - 2 = Tile vertically
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ArrangeWindows](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ArrangeWindows.html)
-
-.
+See [SldWorks::ArrangeWindows](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ArrangeWindows.html).
 
 ## Examples
 
 [Access Assembly (C++)](Access_Assembly_Example_CPlusPlus_COM.htm)
-
 [Create and Arrange Windows (VBA)](Create_and_Arrange_Windows_Example_VB.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::CreateNewWindow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CreateNewWindow.html)

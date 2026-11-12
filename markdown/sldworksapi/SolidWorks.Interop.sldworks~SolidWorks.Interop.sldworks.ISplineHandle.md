@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISp
 
 Provides access to spline handles.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,25 +41,19 @@ public interface class ISplineHandle
 
 ## VBA Syntax
 
-See
-
-[SplineHandle](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle.html)
-
-.
+See [SplineHandle](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle.html).
 
 ## Examples
 
 [Get and Set Spline Handles (VBA)](Get_and_Set_Spline_Handles_Example_VB.htm)
-
 [Get and Set Spline Handles (VB.NET)](Get_and_Set_Spline_Handles_Example_VBNET.htm)
-
 [Get and Set Spline Handles (C#)](Get_and_Set_Spline_Handles_Example_CSharp.htm)
 
 ## Remarks
 
-To enable spline tangency and curvature handles, set[ISldWorks::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)swDisplayAllSplineHandles to True.
+To enable spline tangency and curvature handles, set [ISldWorks::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html) swDisplayAllSplineHandles to True.
 
-NOTE:[ISelectionMgr::GetSelectedObjectType3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectType3.html)returns swSelMANIPULATORS for a spline handle.
+NOTE: [ISelectionMgr::GetSelectedObjectType3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectType3.html) returns swSelMANIPULATORS for a spline handle.
 
 ## Accessors
 
@@ -67,7 +61,7 @@ NOTE:[ISelectionMgr::GetSelectedObjectType3](SOLIDWORKS.Interop.sldworks~SOLIDWO
 
 [ISketchSpline::AddTangencyControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~AddTangencyControl.html)
 
-[ISketchSpline::GetSplineHandles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~GetSplineHandles.html)and[ISketchSpline::IGetSplineHandles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~IGetSplineHandles.html)
+[ISketchSpline::GetSplineHandles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~GetSplineHandles.html) and [ISketchSpline::IGetSplineHandles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~IGetSplineHandles.html)
 
 ## Access Diagram
 
@@ -76,7 +70,5 @@ NOTE:[ISelectionMgr::GetSelectedObjectType3](SOLIDWORKS.Interop.sldworks~SOLIDWO
 ## See Also
 
 [ISplineHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)

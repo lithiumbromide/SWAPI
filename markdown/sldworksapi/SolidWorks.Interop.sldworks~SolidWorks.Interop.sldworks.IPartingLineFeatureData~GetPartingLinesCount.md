@@ -40,13 +40,7 @@ System.int GetPartingLinesCount()
 System.int GetPartingLinesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ Number of edges
 
 ## VBA Syntax
 
-See
-
-[PartingLineFeatureData::GetPartingLinesCount](ms-its:sldworksapivb6.chm::/sldworks~PartingLineFeatureData~GetPartingLinesCount.html)
-
-.
+See [PartingLineFeatureData::GetPartingLinesCount](ms-its:sldworksapivb6.chm::/sldworks~PartingLineFeatureData~GetPartingLinesCount.html).
 
 ## Remarks
 
-Call this method before calling[IPartingLineFeatureData::IGetPartingLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartingLineFeatureData~IGetPartingLines.html).
+Call this method before calling [IPartingLineFeatureData::IGetPartingLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartingLineFeatureData~IGetPartingLines.html).
 
 ## See Also
 
 [IPartingLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData.html)
-
 [IPartingLineFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData_members.html)
-
 [IPartingLineFeatureData::ISetPartingLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData~ISetPartingLines.html)
-
 [IPartingLineFeatureData::PartingLines Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData~PartingLines.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "UserProgressBar Object
-Members"
+title: "UserProgressBar Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "UserProgressBar_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~UserProgressBar_members.html"
 ---
 
-# UserProgressBar Object
-Members
+# UserProgressBar Object Members
 
 ## Public Methods
 

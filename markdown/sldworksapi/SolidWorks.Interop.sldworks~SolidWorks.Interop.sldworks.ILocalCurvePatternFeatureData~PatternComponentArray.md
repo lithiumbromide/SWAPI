@@ -45,40 +45,24 @@ property System.Object^ PatternComponentArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of
-
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-in this local curve-driven pattern feature
+Array of [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) in this local curve-driven pattern feature
 
 ## VBA Syntax
 
-See
-
-[LocalCurvePatternFeatureData::PatternComponentArray](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~PatternComponentArray.html)
-
-.
+See [LocalCurvePatternFeatureData::PatternComponentArray](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~PatternComponentArray.html).
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ILocalCurvePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData.html)
-
 [ILocalCurvePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData_members.html)
-
 [ILocalCurvePatternFeatureData::GetPatternComponentCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData~GetPatternComponentCount.html)
 
 ## Availability

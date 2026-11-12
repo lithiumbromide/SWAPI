@@ -48,12 +48,11 @@ True if the user clicked OK, false if the user clicked Cancel
 ## Examples
 
 [Add Custom File Reference (VB.NET)](Add_Custom_File_Reference_Example_VBNET.htm)
-
 [Add Custom File Reference (C#)](Add_Custom_File_Reference_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, call[IEdmAddCustomRefs::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~CreateTree.html)to compute the file reference tree.
+Before calling this method, call [IEdmAddCustomRefs::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~CreateTree.html) to compute the file reference tree.
 
 [Return codes](ReturnCodes.htm):
 
@@ -63,7 +62,6 @@ Before calling this method, call[IEdmAddCustomRefs::CreateTree](EPDM.Interop.epd
 ## See Also
 
 [IEdmAddCustomRefs Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html)
-
 [IEdmAddCustomRefs Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs_members.html)
 
 ## Availability

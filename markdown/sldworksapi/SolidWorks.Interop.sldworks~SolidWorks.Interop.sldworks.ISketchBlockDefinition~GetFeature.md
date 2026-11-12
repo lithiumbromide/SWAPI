@@ -40,13 +40,7 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetFeature.html)
-
-.
+See [SketchBlockDefinition::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetFeature.html).
 
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
 
 ## Availability

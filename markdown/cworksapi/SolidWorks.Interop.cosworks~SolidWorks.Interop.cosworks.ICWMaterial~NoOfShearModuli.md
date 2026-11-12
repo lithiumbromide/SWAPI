@@ -51,11 +51,7 @@ Number of shear moduli
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::NoOfShearModuli](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~NoOfShearModuli.html)
-
-.
+See [CWMaterial::NoOfShearModuli](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~NoOfShearModuli.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ Number of shear moduli for the viscelastic material model are valid in nonlinear
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

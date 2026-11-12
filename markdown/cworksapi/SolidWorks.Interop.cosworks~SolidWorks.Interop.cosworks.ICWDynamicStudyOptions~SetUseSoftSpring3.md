@@ -50,7 +50,7 @@ System.int SetUseSoftSpring3(
 ### Parameters
 
 - `BUseSoftSpring`: - -1 or true = Use soft spring to stabilize model
-- 0 or false = Do not use soft spring
+  - 0 or false = Do not use soft spring
 
 ### Return Value
 
@@ -58,15 +58,11 @@ System.int SetUseSoftSpring3(
 
 ## Examples
 
-See the
-
-[ICWDynamicStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
-examples.
+See the [ICWDynamicStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html) examples.
 
 ## Remarks
 
-Use[ICWDynamicStudyOptions::GetUseSoftSpring2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetUseSoftSpring2.html)to check the stability of the model.
+Use [ICWDynamicStudyOptions::GetUseSoftSpring2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetUseSoftSpring2.html) to check the stability of the model.
 
 To stabilize the model for final runs:
 
@@ -76,7 +72,6 @@ To stabilize the model for final runs:
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
 
 ## Availability

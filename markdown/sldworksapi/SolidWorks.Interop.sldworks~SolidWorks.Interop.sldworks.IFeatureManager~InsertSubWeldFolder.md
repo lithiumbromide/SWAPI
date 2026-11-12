@@ -40,13 +40,7 @@ Feature InsertSubWeldFolder()
 Feature^ InsertSubWeldFolder();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSubWeldFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSubWeldFolder.html)
-
-.
+See [FeatureManager::InsertSubWeldFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSubWeldFolder.html).
 
 ## Remarks
 
-The part must contain a weldment folder (Solid Bodies or Cut List) to create a sub-weldment folder. See
-
-[IFeatureManager::InsertWeldmentFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentFeature.html)
-
-.
+The part must contain a weldment folder (Solid Bodies or Cut List) to create a sub-weldment folder. See [IFeatureManager::InsertWeldmentFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertWeldmentFeature.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertSubWeldFolder2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSubWeldFolder2.html)
 
 ## Availability

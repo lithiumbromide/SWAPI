@@ -41,11 +41,7 @@ public enum class EdmCopyType : public System.Enum
 
 ## Remarks
 
-This enumerator is used by
-
-[EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-.mlLongData1 to store the type of copy operation for PreCopy and PostCopy events.
+This enumerator is used by [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html).mlLongData1 to store the type of copy operation for PreCopy and PostCopy events.
 
 ## See Also
 

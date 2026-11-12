@@ -40,34 +40,18 @@ DisplayData IGetDisplayData()
 DisplayData^ IGetDisplayData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IDisplayData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html)
-
-object
+Pointer to the [IDisplayData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html) object
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::IGetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IGetDisplayData.html)
-
-.
+See [DisplayDimension::IGetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IGetDisplayData.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::GetDisplayData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetDisplayData.html)

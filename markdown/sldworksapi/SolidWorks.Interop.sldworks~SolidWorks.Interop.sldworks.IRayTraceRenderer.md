@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRa
 
 Allows access to ray-trace rendering engines.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,27 +41,17 @@ public interface class IRayTraceRenderer
 
 ## VBA Syntax
 
-See
-
-[RayTraceRenderer](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRenderer.html)
-
-.
+See [RayTraceRenderer](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRenderer.html).
 
 ## Examples
 
 [Render Model (C#)](Render_Model_Example_CSharp.htm)
-
 [Render Model (VB.NET)](Render_Model_Example_VBNET.htm)
-
 [Render Model (VBA)](Render_Model_Example_VB.htm)
 
 ## Accessors
 
-[ISldWorks::GetRayTraceRenderer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetRayTraceRenderer.html)
-
-and
-
-[ISldWorks::IGetRayTraceRenderer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetRayTraceRenderer.html)
+[ISldWorks::GetRayTraceRenderer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetRayTraceRenderer.html) and [ISldWorks::IGetRayTraceRenderer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetRayTraceRenderer.html)
 
 ## Access Diagram
 
@@ -70,7 +60,5 @@ and
 ## See Also
 
 [IRayTraceRenderer Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)

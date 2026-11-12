@@ -47,19 +47,11 @@ property System.bool NoPenetration2 {
 
 ### Property Value
 
--1 or true to improve accuracy for no penetration contacting surfaces, 0 or false to not (see
-
-Remarks
-
-)
+-1 or true to improve accuracy for no penetration contacting surfaces, 0 or false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::NoPenetration2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~NoPenetration2.html)
-
-.
+See [CWStaticStudyOptions::NoPenetration2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~NoPenetration2.html).
 
 ## Remarks
 
@@ -68,7 +60,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

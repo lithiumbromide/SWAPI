@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ISetNextSelectionGroupId Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ISetNextSelectionGroupId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ISetNextSelectionGroupId.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ISetNextSelectionGroupId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ISetNextSelectionGroupId.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void ISetNextSelectionGroupId(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ISetNextSelectionGroupId](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ISetNextSelectionGroupId.html)
-
-.
+See [ModelDoc::ISetNextSelectionGroupId](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ISetNextSelectionGroupId.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -45,13 +45,7 @@ property System.bool ArcExtensionLineOrOppositeSide {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -62,18 +56,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::ArcExtensionLineOrOppositeSide](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~ArcExtensionLineOrOppositeSide.html)
-
-.
+See [DisplayDimension::ArcExtensionLineOrOppositeSide](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~ArcExtensionLineOrOppositeSide.html).
 
 ## Examples
 
 [Set Radial Dimension Leader (C#)](Edit_Radial_Dimension_Example_CSharp.htm)
-
 [Set Radial Dimension Leader (VB.NET)](Edit_Radial_Dimension_Example_VBNET.htm)
-
 [Set Radial Dimension Leader (VBA)](Edit_Radial_Dimension_Example_VB.htm)
 
 ## Remarks
@@ -83,9 +71,7 @@ This property is only valid for radial display dimensions.
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IModelDoc2::AddRadialDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddRadialDimension2.html)
 
 ## Availability

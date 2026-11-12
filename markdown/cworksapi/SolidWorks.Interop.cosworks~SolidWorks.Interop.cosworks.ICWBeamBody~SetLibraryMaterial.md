@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBe
 
 # SetLibraryMaterial Method (ICWBeamBody)
 
-Obsolete. Superseded by
-
-[ICWBeamBody::SetLibraryMaterial2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetLibraryMaterial2.html)
-
-.
+Obsolete. Superseded by [ICWBeamBody::SetLibraryMaterial2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetLibraryMaterial2.html).
 
 ## Syntax
 
@@ -66,26 +62,16 @@ System.int SetLibraryMaterial(
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::SetLibraryMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~SetLibraryMaterial.html)
-
-.
+See [CWBeamBody::SetLibraryMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~SetLibraryMaterial.html).
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
-
 [ICWBeamBody::GetBeamBodyMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetBeamBodyMaterial.html)
-
 [ICWBeamBody::GetDefaultMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetDefaultMaterial.html)
-
 [ICWBeamBody::SetBeamBodyMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetBeamBodyMaterial.html)
-
 [ICWBeamBody::ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWBeamBody::SetFavMaterial Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetFavMaterial.html)
 
 ## Availability

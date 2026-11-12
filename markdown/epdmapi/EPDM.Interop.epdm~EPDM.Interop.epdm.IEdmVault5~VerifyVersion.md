@@ -48,12 +48,11 @@ void VerifyVersion(
 ## Examples
 
 [Vault Utilities (VB.NET)](Vault_Utilities_Example_VBNET.htm)
-
 [Vault Utilities (C#)](Vault_Utilities_Example_CSharp.htm)
 
 ## Remarks
 
-Add-ins that depend on a specific SOLIDWORKS PDM Professional version should make themselves impossible to install on earlier versions of SOLIDWORKS PDM Professional. To do this, set the minimum version of SOLIDWORKS PDM Professional in mlRequiredVersionMajor and mlRequiredVersionMinor of the[EdmAddInInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo.html)structure that is passed as a parameter in[IEdmAddIn5::GetAddInInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo.html).
+Add-ins that depend on a specific SOLIDWORKS PDM Professional version should make themselves impossible to install on earlier versions of SOLIDWORKS PDM Professional. To do this, set the minimum version of SOLIDWORKS PDM Professional in mlRequiredVersionMajor and mlRequiredVersionMinor of the [EdmAddInInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo.html) structure that is passed as a parameter in [IEdmAddIn5::GetAddInInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo.html).
 
 [Return codes:](ReturnCodes.htm)
 
@@ -63,7 +62,6 @@ Add-ins that depend on a specific SOLIDWORKS PDM Professional version should mak
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
 
 ## Availability

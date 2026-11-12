@@ -79,13 +79,7 @@ System.bool RotateOrCopy3DAboutXYZ(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -105,28 +99,19 @@ True if the 3D sketch entities are rotated, and optionally copied, in the specif
 
 ## VBA Syntax
 
-See
-
-[SketchManager::RotateOrCopy3DAboutXYZ](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~RotateOrCopy3DAboutXYZ.html)
-
-.
+See [SketchManager::RotateOrCopy3DAboutXYZ](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~RotateOrCopy3DAboutXYZ.html).
 
 ## Examples
 
 [Rotate and Copy 3D Sketch About Coordinates (C#)](Rotate_and_Copy_3D_Sketch_About_Coordinates_Example_CSharp.htm)
-
 [Rotate and Copy 3D Sketch about Coordinates (VB.NET)](Rotate_and_Copy_3D_Sketch_About_Coordinates_Example_VBNET.htm)
-
 [Rotate and Copy 3D Sketch About Coordinates (VBA)](Rotate_and_Copy_3D_Sketch_About_Coordinates_Example_VB.htm)
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::RotateOrCopy3DAboutVector Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~RotateOrCopy3DAboutVector.html)
-
 [IModelDocExtension::RotateOrCopy Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RotateOrCopy.html)
 
 ## Availability

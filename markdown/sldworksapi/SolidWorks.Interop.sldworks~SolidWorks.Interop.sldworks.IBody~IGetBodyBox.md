@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IGetBodyBox Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::IGetBodyBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetBodyBox.html)
-
-.
+Obsolete. Superseded by [IBody2::IGetBodyBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetBodyBox.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void IGetBodyBox(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body::IGetBodyBox](ms-its:sldworksapivb6.chm::/sldworks~Body~IGetBodyBox.html)
-
-.
+See [Body::IGetBodyBox](ms-its:sldworksapivb6.chm::/sldworks~Body~IGetBodyBox.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

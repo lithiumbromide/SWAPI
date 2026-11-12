@@ -55,22 +55,12 @@ System.int GetComponentsTransformInterferenceCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumOfComponent`: Number of components in the Component array
-- `Component`: Array of
-
-[IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-s
+- `Component`: Array of [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)s
 - `Transform`: [IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
 
 ### Return Value
@@ -79,26 +69,16 @@ Number of interfering components
 
 ## VBA Syntax
 
-See
-
-[InterferenceDetectionMgr::GetComponentsTransformInterferenceCount](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~GetComponentsTransformInterferenceCount.html)
-
-.
+See [InterferenceDetectionMgr::GetComponentsTransformInterferenceCount](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~GetComponentsTransformInterferenceCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IInterferenceDetectionMgr::IGetComponentsTransformInterference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IInterferenceDetectionMgr~IGetComponentsTransformInterference.html)
-
-to get the size of the array returned by that method.
+Call this method before calling [IInterferenceDetectionMgr::IGetComponentsTransformInterference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IInterferenceDetectionMgr~IGetComponentsTransformInterference.html) to get the size of the array returned by that method.
 
 ## See Also
 
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [IInterferenceDetectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr_members.html)
-
 [IInterferenceDetectionMgr::GetComponentsTransformInterferenceCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr~GetComponentsTransformInterferenceCount.html)
 
 ## Availability

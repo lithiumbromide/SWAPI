@@ -45,57 +45,36 @@ property System.Object^ FeatureScopeBodies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-that the fill pattern feature affects
+Array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) that the fill pattern feature affects
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData::FeatureScopeBodies](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~FeatureScopeBodies.html)
-
-.
+See [FillPatternFeatureData::FeatureScopeBodies](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~FeatureScopeBodies.html).
 
 ## Remarks
 
 This property is valid only if:
 
-- [IFillPatternFeatureData::GeometryPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~GeometryPattern.html)
-
-  is true,
-- [IFillPatternFeatureData::FeatureScope](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~FeatureScope.html)
-
-  is true,
+- [IFillPatternFeatureData::GeometryPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~GeometryPattern.html) is true,
+- [IFillPatternFeatureData::FeatureScope](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~FeatureScope.html) is true,
 
 - and -
 
-- [IFillPatternFeatureData::AutoSelect](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~AutoSelect.html)
+- [IFillPatternFeatureData::AutoSelect](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~AutoSelect.html) is false.
 
-  is false.
+You cannot edit this property to null or Nothing after the feature is created with feature scope bodies. If you try, [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html) returns true but this property does not change.
 
-You cannot edit this property to null or Nothing after the feature is created with feature scope bodies. If you try,[IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)returns true but this property does not change.
+For more information, see the **Fill Pattern PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
-For more information, see the**Fill Pattern PropertyManager**topic in the SOLIDWORKS user-interface help.
-
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IFillPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
 
 ## Availability

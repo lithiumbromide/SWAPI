@@ -40,13 +40,7 @@ System.bool DeleteView()
 System.bool DeleteView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ True if tab is removed, false if not
 
 ## VBA Syntax
 
-See
-
-[TaskpaneView::DeleteView](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~DeleteView.html)
-
-.
+See [TaskpaneView::DeleteView](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~DeleteView.html).
 
 ## Examples
 
 [Add Buttons to Task Pane (VBA)](Add_Buttons_to_Task_Pane_Example_VB.htm)
-
 [Add Buttons to Task Pane (VB.NET)](Add_Buttons_to_Task_Pane_Example_VBNET.htm)
-
 [Add Buttons to Task Pane (C#)](Add_Buttons_to_Task_Pane_Example_CSharp.htm)
 
 ## See Also
 
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
-
 [ITaskpaneView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView_members.html)
 
 ## Availability

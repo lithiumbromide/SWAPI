@@ -35,5 +35,4 @@ System.int mlGroupID
 ## See Also
 
 [EdmGroupData2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2.html)
-
 [EdmGroupData2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2_members.html)

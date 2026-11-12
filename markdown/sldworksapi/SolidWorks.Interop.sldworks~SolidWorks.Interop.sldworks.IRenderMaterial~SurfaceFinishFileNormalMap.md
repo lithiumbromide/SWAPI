@@ -45,13 +45,7 @@ property System.bool SurfaceFinishFileNormalMap {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ True to map the image to the normal, false to not
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::SurfaceFinishFileNormalMap](ms-its:sldworksapivb6.chm::/sldworks~RenderMaterial~SurfaceFinishFileNormalMap.html)
-
-.
+See [RenderMaterial::SurfaceFinishFileNormalMap](ms-its:sldworksapivb6.chm::/sldworks~RenderMaterial~SurfaceFinishFileNormalMap.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IRenderMaterial::SurfaceFinishShaderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishShaderType.html)
-
-is set to
-
-[swAppearanceSurfaceFinishShaderTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAppearanceSurfaceFinishShaderTypes_e.html)
-
-.swAppearanceSurfaceFinishShaderType_FromFile.
+This property is valid only if [IRenderMaterial::SurfaceFinishShaderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishShaderType.html) is set to [swAppearanceSurfaceFinishShaderTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAppearanceSurfaceFinishShaderTypes_e.html).swAppearanceSurfaceFinishShaderType_FromFile.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

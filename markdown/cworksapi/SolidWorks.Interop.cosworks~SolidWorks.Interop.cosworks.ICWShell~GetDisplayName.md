@@ -46,16 +46,11 @@ Display name of this shell
 
 ## VBA Syntax
 
-See
-
-[CWShell::GetDisplayName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~GetDisplayName.html)
-
-.
+See [CWShell::GetDisplayName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~GetDisplayName.html).
 
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
 
 ## Availability

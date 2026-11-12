@@ -9,8 +9,7 @@ source: "API_GB/Change_Card_Variables_Addin_Example_VBNET.htm"
 
 # Change Card Variables Add-in Example (VB.NET)
 
-This example shows how to create an add-in that modifies a data card variable
-when another data card variable changes.
+This example shows how to create an add-in that modifies a data card variable when another data card variable changes.
 
 ```vb
   '--------------------------------------------------------------------------------------

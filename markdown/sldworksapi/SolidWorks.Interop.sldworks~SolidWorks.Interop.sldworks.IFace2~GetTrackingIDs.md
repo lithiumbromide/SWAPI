@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetTrackingIDs Method (IFace2)
 
-Gets the
-
-[tracking IDs assigned to this face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~SetTrackingID.html)
-
-.
+Gets the [tracking IDs assigned to this face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~SetTrackingID.html).
 
 ## Syntax
 
@@ -55,34 +51,20 @@ System.int GetTrackingIDs(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TrackingCookie`: Cookie obtained from
-
-[ISldWorks::RegisterTrackingDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RegisterTrackingDefinition.html)
+- `TrackingCookie`: Cookie obtained from [ISldWorks::RegisterTrackingDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RegisterTrackingDefinition.html)
 - `TrackingIDs`: Array of tracking IDs on this face
 
 ### Return Value
 
-Status as defined by
-
-[swTrackingIDError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTrackingIDError_e.html)
+Status as defined by [swTrackingIDError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTrackingIDError_e.html)
 
 ## VBA Syntax
 
-See
-
-[Face2::GetTrackingIDs](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetTrackingIDs.html)
-
-.
+See [Face2::GetTrackingIDs](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetTrackingIDs.html).
 
 ## Examples
 
@@ -90,22 +72,16 @@ See
 
 ## Remarks
 
-See[Tracking IDs](sldworksAPIProgGuide.chm::/OVERVIEW/Tracking_IDs.htm)for more information.
+See [Tracking IDs](sldworksAPIProgGuide.chm::/OVERVIEW/Tracking_IDs.htm) for more information.
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::GetTrackingIDsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTrackingIDsCount.html)
-
 [IFace2::IGetTrackingIDs Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTrackingIDs.html)
-
 [IFace2::RemoveTrackingID Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~RemoveTrackingID.html)
-
 [IFace2::SetTrackingID Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~SetTrackingID.html)
-
 [IModelDocExtension::FindTrackedObjects Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~FindTrackedObjects.html)
 
 ## Availability

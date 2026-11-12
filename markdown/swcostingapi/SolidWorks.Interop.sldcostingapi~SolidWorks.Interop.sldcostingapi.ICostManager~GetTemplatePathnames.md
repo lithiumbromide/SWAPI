@@ -49,9 +49,7 @@ System.Object^ GetTemplatePathnames(
 
 ### Parameters
 
-- `CostingType`: Type of Costing analysis as defined in
-
-[swcCostingType_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcCostingType_e.html)
+- `CostingType`: Type of Costing analysis as defined in [swcCostingType_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcCostingType_e.html)
 
 ### Return Value
 
@@ -59,38 +57,24 @@ Array of strings of the paths and filenames of the Costing templates available f
 
 ## VBA Syntax
 
-See
-
-[CostManager::GetTemplatePathnames](swcostingapivb6.chm::/SldCostingAPI~CostManager~GetTemplatePathnames.html)
-
-.
+See [CostManager::GetTemplatePathnames](swcostingapivb6.chm::/SldCostingAPI~CostManager~GetTemplatePathnames.html).
 
 ## Examples
 
 [Create Sheet Metal Costing Analysis (C#)](Create_Sheet_Metal_Costing_Analyses_Example_CSharp.htm)
-
 [Create Sheet Metal Costing Analysis (VB.NET)](Create_Sheet_Metal_Costing_Analyses_Example_VBNET.htm)
-
 [Create Sheet Metal Costing Analysis (VBA)](Create_Sheet_Metal_Costing_Analyses_Example_VB.htm)
-
 [Create Machining Costing Analysis (C#)](Create_Machining_Costing_Analyses_Example_CSharp.htm)
-
 [Create Machining Costing Analysis (VB.NET)](Create_Machining_Costing_Analyses_Example_VBNET.htm)
-
 [Create Machining Costing Analysis (VBA)](Create_Machining_Costing_Analyses_Example_VB.htm)
 
 ## Remarks
 
-See
-
-[Getting Started](GettingStarted-swcostingapi.html)
-
-for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostManager Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager.html)
-
 [ICostManager Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager_members.html)
 
 ## Availability

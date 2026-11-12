@@ -1,6 +1,5 @@
 ---
-title: "IRevisionCloud Object
-Members"
+title: "IRevisionCloud Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IRevisionCloud_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IRevisionCloud_members.html"
 ---
 
-# IRevisionCloud Object
-Members
+# IRevisionCloud Object Members
 
 ## Public Methods
 

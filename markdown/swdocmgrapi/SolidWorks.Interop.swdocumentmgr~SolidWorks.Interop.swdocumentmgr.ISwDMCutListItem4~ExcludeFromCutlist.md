@@ -49,17 +49,11 @@ property swDMCutListExclusionStatus_e ExcludeFromCutlist {
 
 ### Property Value
 
-As defined by
-
-[swDMCutListExclusionStatus _e](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDMCutListExclusionStatus_e.html)
+As defined by [swDMCutListExclusionStatus _e](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDMCutListExclusionStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMCutListItem4::ExcludeFromCutlist](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem4~ExcludeFromCutlist.html)
-
-.
+See [SwDMCutListItem4::ExcludeFromCutlist](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem4~ExcludeFromCutlist.html).
 
 ## Remarks
 
@@ -68,7 +62,6 @@ This property is only valid for documents saved in SOLIDWORKS 2021 or later.
 ## See Also
 
 [ISwDMCutListItem4 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem4.html)
-
 [ISwDMCutListItem4 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem4_members.html)
 
 ## Availability

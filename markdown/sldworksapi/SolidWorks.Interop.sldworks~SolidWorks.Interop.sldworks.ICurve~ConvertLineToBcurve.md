@@ -51,13 +51,7 @@ System.Object^ ConvertLineToBcurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,17 +64,11 @@ Array values giving the b-spline representation of the line
 
 ## VBA Syntax
 
-See
-
-[Curve::ConvertLineToBcurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~ConvertLineToBcurve.html)
-
-.
+See [Curve::ConvertLineToBcurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~ConvertLineToBcurve.html).
 
 ## Remarks
 
 Given coordinates of two end points of a line, this method returns the b-spline representation of the line. The returned data are doubles arranged in the following order:
-
-(Table)=========================================================
 
 | dim, order |  |  |
 | --- | --- | --- |
@@ -95,15 +83,9 @@ Given coordinates of two end points of a line, this method returns the b-spline 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::ConvertArcToBcurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~ConvertArcToBcurve.html)
-
 [ICurve::GetBCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetBCurveParams.html)
-
 [ICurve::IGetBCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetBCurveParams.html)
-
 [ICurve::IsLine Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IsLine.html)
-
 [ICurve::MakeBsplineCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~MakeBsplineCurve.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Paths_and_Titles_of_Parents_of_Virtual_Component_Exampl
 
 # Get Paths and Titles of Parents of Virtual Component (C#)
 
-This example shows how to get the paths and titles of the parent assembly
-components of a virtual component.
+This example shows how to get the paths and titles of the parent assembly components of a virtual component.
 
 ```vb
  //-----------------------------------------------------------

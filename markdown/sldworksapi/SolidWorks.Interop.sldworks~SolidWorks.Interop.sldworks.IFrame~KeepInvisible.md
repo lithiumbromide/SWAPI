@@ -45,13 +45,7 @@ property System.bool KeepInvisible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,24 @@ True to keep the SOLIDWORKS frame invisible, false to keep it visible
 
 ## VBA Syntax
 
-See
-
-[Frame::KeepInvisible](ms-its:sldworksapivb6.chm::/sldworks~Frame~KeepInvisible.html)
-
-.
+See [Frame::KeepInvisible](ms-its:sldworksapivb6.chm::/sldworks~Frame~KeepInvisible.html).
 
 ## Examples
 
 [Keep SOLIDWORKS Invisible While Activating Documents (C#)](Keep_SOLIDWORKS_Invisible_While_Activating_Documents_Example_CSharp.htm)
-
 [Keep SOLIDWORKS Invisible While Activating Documents (VB.NET)](Keep_SOLIDWORKS_Invisible_While_Activating_Documents_Example_VBNET.htm)
-
 [Keep SOLIDWORKS Invisible While Activating Documents (VBA)](Keep_SOLIDWORKS_Invisible_While_Activating_Documents_Example_VB.htm)
 
 ## Remarks
 
-Use this property when SOLIDWORKS is[invisible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~Visible.html)and you want to[activate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ActivateDoc2.html)a component and prevent SOLIDWORKS from becoming visible. Be sure to set this property back to false after the operation for which you set it to true completes.
+Use this property when SOLIDWORKS is [invisible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~Visible.html) and you want to [activate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ActivateDoc2.html) a component and prevent SOLIDWORKS from becoming visible. Be sure to set this property back to false after the operation for which you set it to true completes.
 
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [IFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html)
-
 [ISldWorks::UserControl Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UserControl.html)
-
 [ISldWorks::Visible Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~Visible.html)
-
 [ISldWorks::UserControlBackground Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UserControlBackground.html)
 
 ## Availability

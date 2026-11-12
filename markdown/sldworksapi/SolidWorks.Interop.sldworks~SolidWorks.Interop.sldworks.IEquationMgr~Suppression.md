@@ -50,13 +50,7 @@ property System.bool Suppression {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,16 +62,11 @@ True if the equation is suppressed, false if not
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::Suppression](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~Suppression.html)
-
-.
+See [EquationMgr::Suppression](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~Suppression.html).
 
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
 
 ## Availability

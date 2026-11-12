@@ -9,37 +9,14 @@ source: "sldworksapi/Import3DInterconnect_Example_CSharp.htm"
 
 # 3D Interconnect to Import Third-Party Native CAD Files Example (C#)
 
-This example demonstrates how to use the 3D Interconnect API to import and
-access third-party non-native CAD data.
-
-[if gte vml 1]><v:shapetype id="_x0000_t75"
-coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
-filled="f" stroked="f">
-<v:stroke joinstyle="miter" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:formulas>
-<v:f eqn="if lineDrawn pixelLineWidth 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="sum @0 1 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="sum 0 0 @1" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="prod @2 1 2" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="prod @3 21600 pixelWidth" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="prod @3 21600 pixelHeight" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="sum @0 0 1" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="prod @6 1 2" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="prod @7 21600 pixelWidth" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="sum @8 21600 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="prod @7 21600 pixelHeight" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<v:f eqn="sum @10 21600 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
-</v:formulas>
-<v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect" xmlns:v="urn:schemas-microsoft-com:vml"/>
-<o:lock v:ext="edit" aspectratio="t"/>
-<![endif]
+This example demonstrates how to use the 3D Interconnect API to import and access third-party non-native CAD data.
 
 ```vb
   //---------------------------------------------------------------------------
 // Preconditions:
 //  1. Ensure  Tools > Options > System Options > Enable VSTA VERSION 3.0 is
 //     selected.
-//  2. Open a new C# macro in SOLIDWORKS. Save it with project name
+//  2. Open a new C# macro in SOLIDWORKS Design. Save it with project name
 //     Interconnect to a convenient location on your machine.
 //  3. Add references, SolidWorks.interop.sldworks and
  //     SolidWorks.Interop.swconst.
@@ -281,7 +258,7 @@ this.SuspendLayout();
               this.groupBox4.TabStop =  false;
 ```
 
-this.groupBox4.Text ="Editing Third-Party File Data";
+this.groupBox4.Text = "Editing Third-Party File Data";
 
 ```vb
  //
@@ -373,7 +350,7 @@ this.groupBox4.Text ="Editing Third-Party File Data";
               this.chkMaterial.Text =  "Material";
 ```
 
-this.chkMaterial.UseVisualStyleBackColor =true;
+this.chkMaterial.UseVisualStyleBackColor = true;
 
 ```vb
  //
@@ -457,7 +434,7 @@ this.chkMaterial.UseVisualStyleBackColor =true;
               this.btnGetRefFileName.UseVisualStyleBackColor =  true;
 ```
 
-this.btnGetRefFileName.Click +=newSystem.EventHandler(this.btnGetRefFileName_Click);
+this.btnGetRefFileName.Click += new System.EventHandler(this.btnGetRefFileName_Click);
 
 ```vb
     //
@@ -791,12 +768,12 @@ this.btnGetRefFileName.Click +=newSystem.EventHandler(this.btnGetRefFileName_Cli
                }
            }
 
-          //Open a SOLIDWORKS document
+          //Open a SOLIDWORKS Design document
           private  void btnFormOpenFile_Click(object sender,  EventArgs e)
            {
               OpenFileDialog m_fileOpenDlg =  new  OpenFileDialog();
                 m_fileOpenDlg.Filter =  "SolidWorks File | *.sldprt; *.sldasm";
-                m_fileOpenDlg.Title =  "Open SolidWorks File";
+                m_fileOpenDlg.Title =  "Open SolidWorks Design File";
 
               string FilePath =  string.Empty;
               string FileExtension =  string.Empty;

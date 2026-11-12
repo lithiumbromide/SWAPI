@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDr
 
 # DDrawingDocEvents_ClearSelectionsNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Notifies the user program when selections are cleared usingClear Selections.
+Notifies the user program when selections are cleared using Clear Selections.
 
 ## Syntax
 
@@ -37,29 +37,15 @@ public delegate System.int DDrawingDocEvents_ClearSelectionsNotifyEventHandler()
 public delegate System.int DDrawingDocEvents_ClearSelectionsNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ClearSelectionsNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ClearSelectionsNotify_EV.html)
-
-.
+See [ClearSelectionsNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ClearSelectionsNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swDrawingClearNotificationsNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swDrawingClearNotificationsNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

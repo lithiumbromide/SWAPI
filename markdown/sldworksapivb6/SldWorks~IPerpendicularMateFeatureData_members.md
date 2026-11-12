@@ -1,6 +1,5 @@
 ---
-title: "IPerpendicularMateFeatureData Object
-Members"
+title: "IPerpendicularMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPerpendicularMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPerpendicularMateFeatureData_members.html"
 ---
 
-# IPerpendicularMateFeatureData Object
-Members
+# IPerpendicularMateFeatureData Object Members
 
 ## Public Properties
 

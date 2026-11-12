@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertCompoundHoleFeature Interface Members
 
-The following tables list the members exposed by[IDimXpertCompoundHoleFeature](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature.html).
+The following tables list the members exposed by [IDimXpertCompoundHoleFeature](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature.html).
 
 ## Public Properties
 
@@ -35,5 +35,4 @@ The following tables list the members exposed by[IDimXpertCompoundHoleFeature](S
 ## See Also
 
 [IDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

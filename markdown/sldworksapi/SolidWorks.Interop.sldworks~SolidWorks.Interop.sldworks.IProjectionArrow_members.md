@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IProjectionArrow Interface Members
 
-The following tables list the members exposed by[IProjectionArrow](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html).
+The following tables list the members exposed by [IProjectionArrow](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html).
 
 ## Public Properties
 
@@ -40,5 +40,4 @@ The following tables list the members exposed by[IProjectionArrow](SolidWorks.In
 ## See Also
 
 [IProjectionArrow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

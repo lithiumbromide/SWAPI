@@ -51,32 +51,17 @@ Thermal resistance value
 
 ## VBA Syntax
 
-See
-
-[CWContactSet::ResistanceValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~ResistanceValue.html)
-
-.
+See [CWContactSet::ResistanceValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~ResistanceValue.html).
 
 ## Remarks
 
-This property is valid only for thermal studies and when
-
-[ICWContactSet::ContactSetType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ContactSetType.html)
-
-is set to
-
-[swsContactSetTypeThermal_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactSetTypeThermal_e.html)
-
-.swsContactSetTypeThermalResistance.
+This property is valid only for thermal studies and when [ICWContactSet::ContactSetType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ContactSetType.html) is set to [swsContactSetTypeThermal_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactSetTypeThermal_e.html).swsContactSetTypeThermalResistance.
 
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWContactSet Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet_members.html)
-
 [ICWContactSet::ResistanceType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ResistanceType.html)
-
 [ICWContactSet::ResistanceUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ResistanceUnit.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~ShowEditR
 
 # ShowEditReferencesDlg Method (IEdmAddCustomRefs)
 
-Displays the Edit User-Defined File References dialog box that allows the user to edit the existing file references.
+Obsolete. Superseded by [IEdmAddCustomRefs3::ShowEditReferencesDlg2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs3~ShowEditReferencesDlg2.html).
 
 ## Syntax
 
@@ -52,7 +52,6 @@ True if the user modified the file references, false if no changes were made
 ## Examples
 
 [Add Custom File Reference (VB.NET)](Add_Custom_File_Reference_Example_VBNET.htm)
-
 [Add Custom File Reference (C#)](Add_Custom_File_Reference_Example_CSharp.htm)
 
 ## Remarks
@@ -65,7 +64,6 @@ True if the user modified the file references, false if no changes were made
 ## See Also
 
 [IEdmAddCustomRefs Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html)
-
 [IEdmAddCustomRefs Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs_members.html)
 
 ## Availability

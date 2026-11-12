@@ -40,13 +40,7 @@ System.bool IsBendLine()
 System.bool IsBendLine();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,20 @@ True if the sketch segment is a bendline, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::IsBendLine](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~IsBendLine.html)
-
-.
+See [SketchSegment::IsBendLine](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~IsBendLine.html).
 
 ## Examples
 
 [Get Tangent Edges of Bendlines (VB.NET)](Get_Tangent_Edges_of_Bendlines_Example_VBNET.htm)
-
 [Get Tangent Edges of Bendlines (VBA)](Get_Tangent_Edges_of_Bendlines_Example_VB.htm)
-
 [Get Tangent Edges of Bendlines (C#)](Get_Tangent_Edges_of_Bendlines_Example_CSharp.htm)
 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
-
 [IView::GetBendLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBendLineCount.html)
-
 [IView::GetBendLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBendLines.html)
-
 [IView::IGetBendLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetBendLines.html)
 
 ## Availability

@@ -48,26 +48,15 @@ void AddSearchPath(
 
 ### Parameters
 
-- `newPath`: Search path; for example,
-
-C:
-
-\
-
-parts
+- `newPath`: Search path; for example, C:\parts
 
 ## VBA Syntax
 
-See
-
-[SwDMSearchOption::AddSearchPath](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSearchOption~AddSearchPath.html)
-
-.
+See [SwDMSearchOption::AddSearchPath](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSearchOption~AddSearchPath.html).
 
 ## See Also
 
 [ISwDMSearchOption Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSearchOption.html)
-
 [ISwDMSearchOption Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSearchOption_members.html)
 
 ## Availability

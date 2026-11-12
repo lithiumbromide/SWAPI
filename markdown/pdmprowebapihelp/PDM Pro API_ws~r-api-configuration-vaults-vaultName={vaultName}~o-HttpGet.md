@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/configuration/vaults?vaultName={vaultName} |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Configuration Resource Group : api/configuration/vaults?vaultName={vaultName} (Get) |
 | --- |
@@ -102,8 +98,4 @@ This operation can return an array of VaultProperties objects. See the Response 
 
 See Also
 
-[Configuration Resource Group](PDM%20Pro%20API_ws~g-985b99d2-3678-4b90-b592-fc1b4707401e.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Configuration Resource Group](PDM%20Pro%20API_ws~g-985b99d2-3678-4b90-b592-fc1b4707401e.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

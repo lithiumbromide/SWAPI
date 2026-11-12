@@ -45,13 +45,7 @@ property System.double NumberOfSections {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Number of sections
 
 ## VBA Syntax
 
-See
-
-[LoftFeatureData::NumberOfSections](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~NumberOfSections.html)
-
-.
+See [LoftFeatureData::NumberOfSections](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~NumberOfSections.html).
 
 ## See Also
 
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [ILoftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData_members.html)
 
 ## Availability

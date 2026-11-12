@@ -45,13 +45,7 @@ property System.double FrameThicknessCustom {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,17 @@ Value of frame's line thickness
 
 ## VBA Syntax
 
-See
-
-[Annotation::FrameThicknessCustom](ms-its:sldworksapivb6.chm::/sldworks~Annotation~FrameThicknessCustom.html)
-
-.
+See [Annotation::FrameThicknessCustom](ms-its:sldworksapivb6.chm::/sldworks~Annotation~FrameThicknessCustom.html).
 
 ## Remarks
 
-[IAnnotation::UseDocDispFrame](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~UseDocDispFrame.html)
-
-must be false for this property to have any effect.
+[IAnnotation::UseDocDispFrame](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~UseDocDispFrame.html) must be false for this property to have any effect.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::FrameLineStyle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~FrameLineStyle.html)
-
 [IAnnotation::FrameThickness Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~FrameThickness.html)
 
 ## Availability

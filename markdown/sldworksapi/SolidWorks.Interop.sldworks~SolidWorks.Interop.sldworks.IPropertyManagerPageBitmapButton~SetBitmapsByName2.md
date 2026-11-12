@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # SetBitmapsByName2 Method (IPropertyManagerPageBitmapButton)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPageBitmapButton::SetBitmapsByName3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmapButton~SetBitmapsByName3.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPageBitmapButton::SetBitmapsByName3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmapButton~SetBitmapsByName3.html).
 
 ## Syntax
 
@@ -55,26 +51,12 @@ System.bool SetBitmapsByName2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BitmapOrig`: Full path and filename to the image in its non-selected state (see
-
-Remarks
-
-)
-- `BitmapMaskOrig`: Full path and filename to the image mask (see
-
-Remarks
-
-)
+- `BitmapOrig`: Full path and filename to the image in its non-selected state (see **Remarks**)
+- `BitmapMaskOrig`: Full path and filename to the image mask (see **Remarks**)
 
 ### Return Value
 
@@ -82,11 +64,7 @@ True if the image is inserted, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageBitmapButton::SetBitmapsByName2](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageBitmapButton~SetBitmapsByName2.html)
-
-.
+See [PropertyManagerPageBitmapButton::SetBitmapsByName2](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageBitmapButton~SetBitmapsByName2.html).
 
 ## Remarks
 
@@ -98,13 +76,12 @@ You can specify your own image mask using the BitmapMaskOrig argument, which sho
 
 You must call this method after calling either of the following methods to create the button control:
 
-- [IPropertyManagerPage2::AddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html)or[IPropertyManagerPage2::IAddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html)
-- [IPropertyManagerPageGroup::AddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageGroup~AddControl.html)or[IPropertyManagerPageGroup::IAddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageGroup~IAddControl.html)
+- [IPropertyManagerPage2::AddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html) or [IPropertyManagerPage2::IAddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html)
+- [IPropertyManagerPageGroup::AddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageGroup~AddControl.html) or [IPropertyManagerPageGroup::IAddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageGroup~IAddControl.html)
 
 ## See Also
 
 [IPropertyManagerPageBitmapButton Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmapButton.html)
-
 [IPropertyManagerPageBitmapButton Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmapButton_members.html)
 
 ## Availability

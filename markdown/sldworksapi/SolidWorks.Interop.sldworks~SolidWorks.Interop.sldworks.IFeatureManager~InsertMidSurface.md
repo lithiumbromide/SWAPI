@@ -59,59 +59,30 @@ System.Object^ InsertMidSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PBodyIn`: [Body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-in the context of an assembly; otherwise, null or Nothing (see
-
-Remarks
-
-)
-- `PPartDocIn`: [Model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-in the context of an assembly; otherwise, null or Nothing (see
-
-Remarks
-
-)
+- `PBodyIn`: [Body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) in the context of an assembly; otherwise, null or Nothing (see **Remarks**)
+- `PPartDocIn`: [Model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) in the context of an assembly; otherwise, null or Nothing (see **Remarks**)
 - `Placement`: Value from -1 to 1 that indicates the desired location of the midsurface relative to the face pair; a value of 0.0 places the midsurface equally between the face pair
 - `KnitFlag`: True to sew all the reference surfaces (neutral sheets) into a single sheet (surface) body, false for the midsurface feature to contain individual reference surface geometry
 
 ### Return Value
 
-Newly created
-
-[midsurface feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3.html)
+Newly created [midsurface feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertMidSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMidSurface.html)
-
-.
+See [FeatureManager::InsertMidSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMidSurface.html).
 
 ## Examples
 
 [Insert MidSurface in Component (C#)](Insert_MidSurface_in_Component_Example_CSharp.htm)
-
 [Insert MidSurface in Component (VB.NET)](Insert_MidSurface_in_Component_Example_VBNET.htm)
-
 [Insert MidSurface in Component (VBA)](Insert_MidSurface_in_Component_Example_VB.htm)
-
 [Get Areas of Midsurface Faces (C#)](Get_Areas_of_MidSurface_Faces_Example_CSharp.htm)
-
 [Get Areas of Midsurface Faces (VB.NET)](Get_Areas_of_MidSurface_FAces_Example_VBNET.htm)
-
 [Get Areas of Midsurface Faces (VBA)](Get_Areas_of_MidSurface_Faces_Example_VB.htm)
 
 ## Remarks
@@ -120,12 +91,11 @@ The pPartDocIn parameter is the component's model document where you want to add
 
 A midsurface feature is calculated from the solid body in your part document. This method first finds all parallel pairs of faces from the part solid. For each pair of parallel faces found, it creates a neutral reference surface between the two faces. The placement position of the reference surface is controlled by the placement parameter. This process repeats itself until all parallel body faces are processed. At the end of this process, all the reference surfaces are sewn into a single reference surface if knitFlag is set to true.
 
-The hierarchy of a midsurface feature is a midsurface feature contains one or more reference surfaces. If sewn successfully using the KnitFlag = True option, then the midsurface feature contains only one reference surface. Each reference surface is considered a sheet body. The sheet body has the normal topology that you would expect to find on a body object (for example, faces, edges, and so on). See[IMidSurface3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3.html)for methods that provide access to this topology.
+The hierarchy of a midsurface feature is a midsurface feature contains one or more reference surfaces. If sewn successfully using the KnitFlag = True option, then the midsurface feature contains only one reference surface. Each reference surface is considered a sheet body. The sheet body has the normal topology that you would expect to find on a body object (for example, faces, edges, and so on). See [IMidSurface3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3.html) for methods that provide access to this topology.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

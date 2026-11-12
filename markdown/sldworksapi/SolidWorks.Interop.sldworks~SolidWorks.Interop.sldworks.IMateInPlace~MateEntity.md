@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # MateEntity Property (IMateInPlace)
 
-Gets the name of the mated entity associated with the specified index for this
-
-Inplace
-
-mate.
+Gets the name of the mated entity associated with the specified index for this Inplace mate.
 
 ## Syntax
 
@@ -51,13 +47,7 @@ property System.Object^ MateEntity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +55,19 @@ See
 
 ### Property Value
 
-[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-or
-
-[reference plane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html)
+[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) or [reference plane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html)
 
 ## VBA Syntax
 
-See
-
-[MateInPlace::MateEntity](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace~MateEntity.html)
-
-.
+See [MateInPlace::MateEntity](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace~MateEntity.html).
 
 ## Remarks
 
-To get the type of entity returned by this method, call[IMateInPlace::MateEntityType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateInPlace~MateEntityType.html).
+To get the type of entity returned by this method, call [IMateInPlace::MateEntityType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateInPlace~MateEntityType.html) .
 
 ## See Also
 
 [IMateInPlace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace.html)
-
 [IMateInPlace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace_members.html)
 
 ## Availability

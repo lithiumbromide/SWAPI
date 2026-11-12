@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertPart Object
-Members"
+title: "SwDMDimXpertPart Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertPart_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertPart_members.html"
 ---
 
-# SwDMDimXpertPart Object
-Members
+# SwDMDimXpertPart Object Members
 
 ## Public Methods
 

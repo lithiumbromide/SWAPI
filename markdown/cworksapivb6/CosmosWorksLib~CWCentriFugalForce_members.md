@@ -1,6 +1,5 @@
 ---
-title: "CWCentriFugalForce Object
-Members"
+title: "CWCentriFugalForce Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWCentriFugalForce_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWCentriFugalForce_members.html"
 ---
 
-# CWCentriFugalForce Object
-Members
+# CWCentriFugalForce Object Members
 
 ## Public Methods
 

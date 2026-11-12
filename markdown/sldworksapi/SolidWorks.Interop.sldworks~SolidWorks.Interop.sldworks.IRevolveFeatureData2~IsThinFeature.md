@@ -40,13 +40,7 @@ System.bool IsThinFeature()
 System.bool IsThinFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ True if revolution is a thin feature, false if not
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData2::IsThinFeature](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~IsThinFeature.html)
-
-.
+See [RevolveFeatureData2::IsThinFeature](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~IsThinFeature.html).
 
 ## See Also
 
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
-
 [IRevolveFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2_members.html)
-
 [IRevolveFeatureData2::GetWallThickness Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~GetWallThickness.html)
-
 [IRevolveFeatureData2::IsBossFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~IsBossFeature.html)
-
 [IRevolveFeatureData2::SetWallThickness Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~SetWallThickness.html)
-
 [IRevolveFeatureData2::ThinWallType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~ThinWallType.html)
 
 ## Availability

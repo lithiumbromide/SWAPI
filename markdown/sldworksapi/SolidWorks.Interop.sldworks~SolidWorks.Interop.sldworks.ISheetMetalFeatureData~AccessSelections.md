@@ -51,22 +51,12 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top-level document (see**Remarks**)
-- `Component`: Component in which the feature is to be modified (see
-
-Remarks
-
-)
+- `TopDoc`: Top-level document (see **Remarks**)
+- `Component`: Component in which the feature is to be modified (see **Remarks**)
 
 ### Return Value
 
@@ -74,21 +64,16 @@ True if the selections were successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[SheetMetalFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~AccessSelections.html)
-
-.
+See [SheetMetalFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~AccessSelections.html).
 
 ## Examples
 
 [Change Bend Radius of Sheet Metal Part (VBA)](Change_Bend_Radius_of_Sheet_Metal_Part_Example_VB.htm)
-
 [Get Fixed Face of Sheet Metal Part (VBA)](Get_Fixed_Face_of_Sheet_Metal_Part_Example_VB.htm)
 
 ## Remarks
 
-To access sheet metal feature data in sheet metal models created in SOLIDWORKS 2013 or later, follow the examples of[IModelDocExtension::GetTemplateSheetMetal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetTemplateSheetMetal.html).
+To access sheet metal feature data in sheet metal models created in SOLIDWORKS 2013 or later, follow the examples of [IModelDocExtension::GetTemplateSheetMetal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetTemplateSheetMetal.html).
 
 | To modify a feature in a... | Then... |
 | --- | --- |
@@ -97,23 +82,13 @@ To access sheet metal feature data in sheet metal models created in SOLIDWORKS 2
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  or
-
-  [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [ISheetMetalFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [ISheetMetalFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
-
 [ISheetMetalFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData_members.html)
-
 [ISheetMetalFeatureData::IAccessSelections2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData~IAccessSelections2.html)
 
 ## Availability

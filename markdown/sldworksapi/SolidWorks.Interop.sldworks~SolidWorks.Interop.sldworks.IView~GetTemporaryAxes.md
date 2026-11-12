@@ -40,29 +40,15 @@ System.object GetTemporaryAxes()
 System.Object^ GetTemporaryAxes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of double of the information about the temporary axes in this view (see
-
-Remarks
-
-)
+Array of double of the information about the temporary axes in this view (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[View::GetTemporaryAxes](ms-its:sldworksapivb6.chm::/sldworks~View~GetTemporaryAxes.html)
-
-.
+See [View::GetTemporaryAxes](ms-its:sldworksapivb6.chm::/sldworks~View~GetTemporaryAxes.html).
 
 ## Examples
 
@@ -75,11 +61,8 @@ This array contains the start and end points, in that order, of temporary axes.
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetTemporaryAxesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetTemporaryAxesCount.html)
-
 [IView::IGetTemporaryAxes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetTemporaryAxes.html)
 
 ## Availability

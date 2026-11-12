@@ -45,13 +45,7 @@ property System.String^ ThemeName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Path and file name of the theme
 
 ## VBA Syntax
 
-See
-
-[MBD3DPdfData::ThemeName](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~ThemeName.html)
-
-.
+See [MBD3DPdfData::ThemeName](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~ThemeName.html).
 
 ## Examples
 
 [Publish Text and Custom Properties from Theme to MBD 3D PDF (C#)](Publish_Text_and_Custom_Properties_from_Theme_to_MBD_3D_PDF_Example_CSharp.htm)
-
 [Publish Text and Custom Properties from Theme to MBD 3D PDF (VB.NET)](Publish_Text_and_Custom_Properties_from_Theme_to_MBD_3D_PDF_Example_VBNET.htm)
-
 [Publish Text and Custom Properties from Theme to MBD 3D PDF (VBA)](Publish_Text_and_Custom_Properties_from_Theme_to_MBD_3D_PDF_Example_VB.htm)
 
 ## Remarks
@@ -79,32 +67,14 @@ You can also get or set the SOLIDWORKS MBD 3D PDF path for a theme using:
 
 - SOLIDWORKS API. Call:
 
-  - [ISldWorks::GetUserPreferenceStringValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceStringValue.html)
-
-    (swUserPreferenceStringValue_e.swFileLocationsThemeFolder) or
-  - [ISldWorks::SetUserPreferenceStringValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceStringValue.html)
-
-    (swUserPreferenceStringValue_e.swFileLocationsThemeFolder, <V
-
-    alue
-
-    >)
-- SOLIDWORKS user interface. Click
-
-  Tools > System Options > File Locations > 3D PDF Themes
-
-  in
-
-  Show folders for
-
-  .
+  - [ISldWorks::GetUserPreferenceStringValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceStringValue.html)(swUserPreferenceStringValue_e.swFileLocationsThemeFolder) or
+  - [ISldWorks::SetUserPreferenceStringValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceStringValue.html)(swUserPreferenceStringValue_e.swFileLocationsThemeFolder, <V`alue`>)
+- SOLIDWORKS Design user interface. Click **Tools > System Options > File Locations > 3D PDF Themes** in **Show folders for**.
 
 ## See Also
 
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)
-
 [IMBD3DPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData_members.html)
-
 [IMBD3DPdfData::SetIndependentViewPort Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~SetIndependentViewPort.html)
 
 ## Availability

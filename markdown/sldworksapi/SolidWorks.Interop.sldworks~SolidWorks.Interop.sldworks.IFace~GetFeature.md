@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetFeature Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFeature.html)
-
-.
+Obsolete. Superseded by [IFace2::GetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetFeature.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetFeature()
 System.Object^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~Face~GetFeature.html)
-
-.
+See [Face::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~Face~GetFeature.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

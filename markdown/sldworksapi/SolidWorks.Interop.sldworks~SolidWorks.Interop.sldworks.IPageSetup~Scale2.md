@@ -45,13 +45,7 @@ property System.double Scale2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ Print scale factor from 1% to 1000%
 
 ## VBA Syntax
 
-See
-
-[PageSetup::Scale2](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~Scale2.html)
-
-.
+See [PageSetup::Scale2](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~Scale2.html).
 
 ## Remarks
 
-This value is only used when[IPageSetup::ScaleToFit](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~ScaleToFit.html)is set to false.
+This value is only used when [IPageSetup::ScaleToFit](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~ScaleToFit.html) is set to false.
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
 
 ## Availability

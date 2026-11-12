@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICe
 
 # ICenterMark Interface Members
 
-The following tables list the members exposed by[ICenterMark](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html).
+The following tables list the members exposed by [ICenterMark](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html).
 
 ## Public Properties
 
@@ -49,7 +49,5 @@ The following tables list the members exposed by[ICenterMark](SolidWorks.Interop
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IView::AutoInsertCenterMarks Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~AutoInsertCenterMarks.html)

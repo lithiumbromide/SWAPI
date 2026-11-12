@@ -48,11 +48,7 @@ True if width is for a hole; false if for a pin
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompoundWidthFeature::Inner](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundWidthFeature~Inner.html)
-
-.
+See [SwDMDimXpertCompoundWidthFeature::Inner](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundWidthFeature~Inner.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompoundWidthFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundWidthFeature.html)
-
 [ISwDMDimXpertCompoundWidthFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundWidthFeature_members.html)
 
 ## Availability

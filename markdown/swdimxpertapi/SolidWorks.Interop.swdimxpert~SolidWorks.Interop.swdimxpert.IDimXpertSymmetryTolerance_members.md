@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertSymmetryTolerance Interface Members
 
-The following tables list the members exposed by[IDimXpertSymmetryTolerance](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance.html).
+The following tables list the members exposed by [IDimXpertSymmetryTolerance](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance.html).
 
 ## Public Properties
 
@@ -31,5 +31,4 @@ The following tables list the members exposed by[IDimXpertSymmetryTolerance](Sol
 ## See Also
 
 [IDimXpertSymmetryTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

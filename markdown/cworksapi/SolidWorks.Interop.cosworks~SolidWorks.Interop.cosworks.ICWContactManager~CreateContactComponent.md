@@ -63,39 +63,11 @@ CWContactComponent^ CreateContactComponent(
 
 - `NContactType`: Type of component contact for:
 
-- [static](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStaticStudyOptions.html)
-
-  ,
-
-  [nonlinear](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-  ,
-
-  [buckling](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBucklingStudyOptions.html)
-
-  and
-
-  [thermal](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWThermalStudyOptions.html)
-
-  studies as defined in
-
-  [swsContactType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactType_e.html)
-- [frequency](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-  studies as defined in
-
-  [swsContactType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactType_e.html)
-
-  , excluding swsContactTypeStaticNoPenetration
-
-  }}end!kadov
-- `NOption`: Mesh compatibility as defined in
-
-[swsMeshCompatibility_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshCompatibility_e.html)
+  - [static](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStaticStudyOptions.html), [nonlinear](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWNonLinearStudyOptions.html), [buckling](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBucklingStudyOptions.html) and [thermal](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWThermalStudyOptions.html) studies as defined in [swsContactType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactType_e.html)
+  - [frequency](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWFrequencyStudyOptions.html) studies as defined in [swsContactType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactType_e.html), excluding swsContactTypeStaticNoPenetration
+- `NOption`: Mesh compatibility as defined in [swsMeshCompatibility_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshCompatibility_e.html)
 - `DispEntity`: Component entity
-- `ErrorCode`: Error code as defined in
-
-[swsContactComponentEndEditError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactComponentEndEditError_e.html)
+- `ErrorCode`: Error code as defined in [swsContactComponentEndEditError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactComponentEndEditError_e.html)
 
 ### Return Value
 
@@ -103,18 +75,12 @@ CWContactComponent^ CreateContactComponent(
 
 ## VBA Syntax
 
-See
-
-[CWContactManager::CreateContactComponent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~CreateContactComponent.html)
-
-.
+See [CWContactManager::CreateContactComponent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~CreateContactComponent.html).
 
 ## Examples
 
 [Add Component Contacts (VBA)](Add_Component_Contacts_Example_VB.htm)
-
 [Add Component Contacts (VB.NET)](Add_Component_Contacts_Example_VBNET.htm)
-
 [Add Component Contacts (C#)](Add_Component_Contacts_Example_CSharp.htm)
 
 ## Remarks
@@ -124,9 +90,7 @@ See the SOLIDWORKS Simulation Help for guidelines about studies with contact con
 ## See Also
 
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager_members.html)
-
 [ICWContactManager::DeleteContactComponent Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~DeleteContactComponent.html)
 
 ## Availability

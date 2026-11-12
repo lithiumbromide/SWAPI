@@ -11,28 +11,8 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 Gets the total cost to manufacture the part:
 
-- including
-
-  [material](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis~GetMaterialCost.html)
-
-  ,
-
-  [manufacturing](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis~GetManufacturingCost.html)
-
-  , and
-
-  [setup](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis~GetSetupCost.html)
-
-  costs
-- excluding
-
-  [markup](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis~MarkUpPercent.html)
-
-  and
-
-  [shop-rate](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~ShopRate.html)
-
-  costs
+- including [material](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis~GetMaterialCost.html), [manufacturing](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis~GetManufacturingCost.html), and [setup](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis~GetSetupCost.html) costs
+- excluding [markup](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis~MarkUpPercent.html) and [shop-rate](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~ShopRate.html) costs
 
 in this Costing analysis.
 
@@ -71,32 +51,21 @@ Total cost to manufacture the part
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis::GetTotalCostToManufacture](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~GetTotalCostToManufacture.html)
-
-.
+See [CostAnalysis::GetTotalCostToManufacture](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~GetTotalCostToManufacture.html).
 
 ## Examples
 
 [Create Sheet Metal Costing Analysis (C#)](Create_Sheet_Metal_Costing_Analyses_Example_CSharp.htm)
-
 [Create Sheet Metal Costing Analysis (VB.NET)](Create_Sheet_Metal_Costing_Analyses_Example_VBNET.htm)
-
 [Create Sheet Metal Costing Analysis (VBA)](Create_Sheet_Metal_Costing_Analyses_Example_VB.htm)
-
 [Create Machining Costing Analysis (C#)](Create_Machining_Costing_Analyses_Example_CSharp.htm)
-
 [Create Machining Costing Analysis (VB.NET)](Create_Machining_Costing_Analyses_Example_VBNET.htm)
-
 [Create Machining Costing Analysis (VBA)](Create_Machining_Costing_Analyses_Example_VB.htm)
 
 ## See Also
 
 [ICostAnalysis Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis.html)
-
 [ICostAnalysis Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis_members.html)
-
 [ICostAnalysis::GetTotalCostToCharge Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~GetTotalCostToCharge.html)
 
 ## Availability

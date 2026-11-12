@@ -40,13 +40,7 @@ System.bool HasRenamedDocuments()
 System.bool HasRenamedDocuments();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ True if the document has renamed files, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::HasRenamedDocuments](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~HasRenamedDocuments.html)
-
-.
+See [ModelDocExtension::HasRenamedDocuments](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~HasRenamedDocuments.html).
 
 ## Examples
 
 [Rename Components and Save Assembly (C#)](Rename_Components_and_Save_Assembly_Example_CSharp.htm)
-
 [Rename Components and Save Assembly (VB.NET)](Rename_Components_and_Save_Assembly_Example_VBNET.htm)
-
 [Rename Components and Save Assembly (VBA)](Rename_Components_and_Save_Assembly_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::RenameDocument Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RenameDocument.html)
-
 [IRenamedDocumentReferences Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences.html)
 
 ## Availability

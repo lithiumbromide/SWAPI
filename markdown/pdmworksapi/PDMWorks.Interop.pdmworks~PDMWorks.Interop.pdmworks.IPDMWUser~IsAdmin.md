@@ -51,11 +51,7 @@ True if user is a vault administrator, false if not
 
 ## VBA Syntax
 
-See
-
-[PDMWUser::IsAdmin](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUser~IsAdmin.html)
-
-.
+See [PDMWUser::IsAdmin](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUser~IsAdmin.html).
 
 ## Remarks
 
@@ -66,7 +62,6 @@ A vault administrator cannot remove himself or herself from the list of vault ad
 ## See Also
 
 [IPDMWUser Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html)
-
 [IPDMWUser Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems_members.html
 
 # EdmDeletedItems Structure Members
 
-The following tables list the members exposed by[EdmDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems.html).
+The following tables list the members exposed by [EdmDeletedItems](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[EdmDeletedItems](EPDM.Interop.e
 ## See Also
 
 [EdmDeletedItems Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDeletedItems.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -47,37 +47,19 @@ System.Object^ GetTextPlaneAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Zero-based index of the text whose plane rotation matrix to retrieve (see
-
-Remarks
-
-)
+- `Index`: Zero-based index of the text whose plane rotation matrix to retrieve (see **Remarks**)
 
 ### Return Value
 
-Array of nine doubles of the text plane rotation matrix (see
-
-Remarks
-
-)
+Array of nine doubles of the text plane rotation matrix (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DisplayData::GetTextPlaneAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetTextPlaneAtIndex.html)
-
-.
+See [DisplayData::GetTextPlaneAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetTextPlaneAtIndex.html).
 
 ## Examples
 
@@ -220,7 +202,7 @@ End Sub
 
 ## Remarks
 
-Use[IDisplayData::GetTextCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextCount.html)to specify Index.
+Use [IDisplayData::GetTextCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextCount.html) to specify Index.
 
 The nine values of the returned rotation matrix (coord(`i`)) are ordered differently from other plane APIs. If you need to manipulate the text plane axes as is shown in the Example section, use the following assignments:
 
@@ -233,31 +215,18 @@ Z-axis: coord(2), coord(5), coord(8)
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IAnnotation::GetPlane Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPlane.html)
-
 [IDisplayData::GetTextAngleAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextAngleAtIndex.html)
-
 [IDisplayData::GetTextAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextAtIndex.html)
-
 [IDisplayData::GetTextFontAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextFontAtIndex.html)
-
 [IDisplayData::GetTextHeightAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextHeightAtIndex.html)
-
 [IDisplayData::GetTextInBoxHeightAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextInBoxHeightAtIndex.html)
-
 [IDisplayData::GetTextInBoxStyleAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextInBoxStyleAtIndex.html)
-
 [IDisplayData::GetTextInBoxWidthAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextInBoxWidthAtIndex.html)
-
 [IDisplayData::GetTextInvertAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextInvertAtIndex.html)
-
 [IDisplayData::GetTextLineSpacingAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextLineSpacingAtIndex.html)
-
 [IDisplayData::GetTextPositionAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextPositionAtIndex.html)
-
 [IDisplayData::GetTextRefPositionAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextRefPositionAtIndex.html)
 
 ## Availability

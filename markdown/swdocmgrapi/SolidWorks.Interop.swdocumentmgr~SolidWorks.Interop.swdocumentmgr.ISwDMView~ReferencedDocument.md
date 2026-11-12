@@ -11,7 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Gets or sets the name of the document for this drawing view.
 
-NOTE:**This property is a get-only property. Set is not implemented.**
+**NOTE:** **This property is a get-only property. Set is not implemented.**
 
 ## Syntax
 
@@ -53,16 +53,11 @@ Name of document
 
 ## VBA Syntax
 
-See
-
-[SwDMView::ReferencedDocument](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView~ReferencedDocument.html)
-
-.
+See [SwDMView::ReferencedDocument](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView~ReferencedDocument.html).
 
 ## See Also
 
 [ISwDMView Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html)
-
 [ISwDMView Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView_members.html)
 
 ## Availability

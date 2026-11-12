@@ -9,25 +9,18 @@ source: "epdmapi/Create_Vault_View_Tab_Addin_Example_CSharp.htm"
 
 # Create Vault View Tab Add-in Example (C#)
 
-This example shows how to create an add-in that adds a
-custom tab to the bottom panel of a vault view when it is opened in File Explorer.
+This example shows how to create an add-in that adds a custom tab to the bottom panel of a vault view when it is opened in File Explorer.
 
 ```vb
  //--------------------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- // 2. Click File > New > Project > Visual C# > Class Library (.NET Framework).
+ // 2. Click File > New > Project > C#, Windows, Library > Class Library (.NET Framework).
  // 3. Type SWEPDMAddin1 in Name.
- // 4. Click Browse and navigate to the folder where to create the project.
- // 5. Click OK.
- // 6. Right-click the project name in the Solution Explorer and select Add > Reference.
- // 7. In the Reference Manager dialog:
- //    a. Click the Browse tab.
- //    b. Click Browse at the bottom.
- //    c. Navigate to the SOLIDWORKS PDM Client installation folder.
- //    d. Select EPDM.Interop.epdm.dll and click Add.
- //    e. Ensure that EPDM.Interop.epdm.dll is checked in the Reference Manager dialog.
- //    f. Click OK.
+ // 4.    For Location, click ... and navigate to the folder where to create the project.
+// 5. Select Framework.
+  // 6. Click Create.
+ // 7. Add dependencies and safely pass arrays of structures.
  // 8. Right-click the project name in the Solution Explorer and select Properties.
  // 9. In the Properties window:
  //    a. On the Application tab, click Assembly Information.

@@ -47,13 +47,7 @@ Comment^ IGetComments(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,30 +55,20 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of
-
-  [IComment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComment.html)
-
-  objects
+- in-process, unmanaged C++: Pointer to an array of [IComment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComment.html) objects
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Examples
 
-Before calling this method, call
-
-[ICommentFolder::GetCommentCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder~GetCommentCount.html)
-
-before to determine the size of the array.
+Before calling this method, call [ICommentFolder::GetCommentCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommentFolder~GetCommentCount.html) before to determine the size of the array.
 
 ## See Also
 
 [ICommentFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder.html)
-
 [ICommentFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder_members.html)
-
 [ICommentFolder::GetComments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder~GetComments.html)
 
 ## Availability

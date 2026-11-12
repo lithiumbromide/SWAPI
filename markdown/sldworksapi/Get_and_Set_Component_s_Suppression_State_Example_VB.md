@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Component_s_Suppression_State_Example_VB.htm"
 
 # Get and Set Component's Suppression State Example (VBA)
 
-This example shows how to get and set the suppression state of a fully
-resolved component in an assembly.
+This example shows how to get and set the suppression state of a fully resolved component in an assembly.
 
 ```
 '---------------------------------------------------------------------------

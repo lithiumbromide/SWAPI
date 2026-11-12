@@ -47,30 +47,19 @@ property System.int ControlMethodType {
 
 ### Property Value
 
-Type of control method as defined in
-
-[swsNonLinearOptionControlMethodType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsNonLinearOptionControlMethodType_e.html)
+Type of control method as defined in [swsNonLinearOptionControlMethodType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsNonLinearOptionControlMethodType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::ControlMethodType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~ControlMethodType.html)
-
-.
+See [CWNonLinearStudyOptions::ControlMethodType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~ControlMethodType.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

@@ -57,11 +57,7 @@ True if the managed document is set, false if not
 
 ## VBA Syntax
 
-See
-
-[PDMDocManager::SetManagedDocument](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~SetManagedDocument.html)
-
-.
+See [PDMDocManager::SetManagedDocument](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~SetManagedDocument.html).
 
 ## Remarks
 
@@ -70,7 +66,6 @@ Available only if you installed SOLIDWORKS Toolbox.
 ## See Also
 
 [IPDMDocManager Interface](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IPDMDocManager.html)
-
 [IPDMDocManager Members](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IPDMDocManager_members.html)
 
 ## Availability

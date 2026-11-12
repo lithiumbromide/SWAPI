@@ -54,9 +54,7 @@ System.Object^ GetColumnWidth(
 ### Parameters
 
 - `ColumnIndex`: Index of the column
-- `Error`: Error as defined by
-
-[swDmTableError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableError.html)
+- `Error`: Error as defined by [swDmTableError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableError.html)
 
 ### Return Value
 
@@ -64,34 +62,23 @@ Width
 
 ## VBA Syntax
 
-See
-
-[SwDMTable2::GetColumnWidth](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable2~GetColumnWidth.html)
-
-.
+See [SwDMTable2::GetColumnWidth](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable2~GetColumnWidth.html).
 
 ## Remarks
 
 This method only supports documents saved in SOLIDWORKS 2009 and later.
 
-Before calling this method, call[ISwDMTable::GetColumnCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMTable~GetColumnCount.html)to determine the index of the column whose width you want.
+Before calling this method, call [ISwDMTable::GetColumnCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMTable~GetColumnCount.html) to determine the index of the column whose width you want.
 
 ## See Also
 
 [ISwDMTable2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2.html)
-
 [ISwDMTable2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2_members.html)
-
 [ISwDMTable::AddColumnLeft Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~AddColumnLeft.html)
-
 [ISwDMTable::AddColumnRight Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~AddColumnRight.html)
-
 [ISwDMTable::DeleteColumn Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~DeleteColumn.html)
-
 [ISwDMTable::GetColumnCount Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~GetColumnCount.html)
-
 [ISwDMTable::GetColumnType Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~GetColumnType.html)
-
 [ISwDMTable2::GetColumnCustomProperty Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2~GetColumnCustomProperty.html)
 
 ## Availability

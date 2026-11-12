@@ -43,13 +43,7 @@ public delegate System.int DAssemblyDocEvents_OpenDesignTableNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,17 +51,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[OpenDesignTableNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~OpenDesignTableNotify_EV.html)
-
-.
+See [OpenDesignTableNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~OpenDesignTableNotify_EV.html).
 
 ## Remarks
 
-The IAssemblyDoc event[CloseDesignTableNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_CloseDesignTableNotifyEventHandler.html)pre-notifies your application that a design table that was being edited is about to be closed.
+The IAssemblyDoc event [CloseDesignTableNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_CloseDesignTableNotifyEventHandler.html) pre-notifies your application that a design table that was being edited is about to be closed.
 
-If developing a C++ application, use[swAssemblyOpenDesignTableNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyOpenDesignTableNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

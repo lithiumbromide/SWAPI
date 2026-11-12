@@ -51,13 +51,7 @@ System.bool DeleteColumn2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ True if column is deleted successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::DeleteColumn2](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~DeleteColumn2.html)
-
-.
+See [TableAnnotation::DeleteColumn2](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~DeleteColumn2.html).
 
 ## Remarks
 
@@ -85,15 +75,10 @@ This method deletes the entire table if you try to delete the only column in the
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::InsertColumn2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~InsertColumn2.html)
-
 [ITableAnnotation::ColumnCount Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~ColumnCount.html)
-
 [ITableAnnotation::ColumnHidden Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~ColumnHidden.html)
-
 [ITableAnnotation::TotalColumnCount Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~TotalColumnCount.html)
 
 ## Availability

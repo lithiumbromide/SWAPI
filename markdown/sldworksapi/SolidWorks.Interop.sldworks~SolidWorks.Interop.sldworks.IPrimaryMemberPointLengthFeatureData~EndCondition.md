@@ -45,40 +45,23 @@ property System.int EndCondition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-End condition for member length as defined by
-
-[swPrimaryMemberPointLengthEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPrimaryMemberPointLengthEndCondition_e.html)
+End condition for member length as defined by [swPrimaryMemberPointLengthEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPrimaryMemberPointLengthEndCondition_e.html)
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPointLengthFeatureData::EndCondition](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~EndCondition.html)
-
-.
+See [PrimaryMemberPointLengthFeatureData::EndCondition](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~EndCondition.html).
 
 ## Examples
 
-See the
-
-[IPrimaryMemberPointLengthFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData.html)
-
-examples.
+See the [IPrimaryMemberPointLengthFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData.html) examples.
 
 ## See Also
 
 [IPrimaryMemberPointLengthFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData.html)
-
 [IPrimaryMemberPointLengthFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData_members.html)
 
 ## Availability

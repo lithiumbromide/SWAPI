@@ -45,13 +45,7 @@ property System.Object^ Centerline {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[LoftFeatureData::CenterLine](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~CenterLine.html)
-
-.
+See [LoftFeatureData::CenterLine](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~CenterLine.html).
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [ILoftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData_members.html)
 
 ## Availability

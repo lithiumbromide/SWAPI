@@ -47,21 +47,11 @@ System.bool SaveAsTemplate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Full path and filename to which to save the table template file (see
-
-Remarks
-
-)
+- `FileName`: Full path and filename to which to save the table template file (see **Remarks**)
 
 ### Return Value
 
@@ -69,11 +59,7 @@ True if the table is saved as a template file, false if not
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::SaveAsTemplate](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SaveAsTemplate.html)
-
-.
+See [TableAnnotation::SaveAsTemplate](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SaveAsTemplate.html).
 
 ## Remarks
 
@@ -86,33 +72,14 @@ You must specify a filename. It should include the path, filename, and filename 
 
 The filename extension of the file does not matter, but to be consistent with the SOLIDWORKS naming conventions, the following extensions should be used:
 
-- .
-
-  sldbomtbt
-
-  for BOM tables
-- .
-
-  sldrevtbt
-
-  for revision tables
-- .
-
-  sldholtbt
-
-  for hole tables
-- .
-
-  sldtbt
-
-  for general tables
+- .**sldbomtbt** for BOM tables
+- .**sldrevtbt** for revision tables
+- .**sldholtbt** for hole tables
+- .**sldtbt** for general tables
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::SaveAsPDF Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SaveAsPDF.html)
-
 [ITableAnnotation::SaveAsText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SaveAsText.html)

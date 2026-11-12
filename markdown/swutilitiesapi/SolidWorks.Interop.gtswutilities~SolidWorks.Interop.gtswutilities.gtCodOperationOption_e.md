@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # gtCodOperationOption_e Enumeration
 
-Options for comparing documents.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Options for comparing documents. [Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm).
 
 ## Syntax
 

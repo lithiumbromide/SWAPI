@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetVisibleEntityCount Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetVisibleEntityCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetVisibleEntityCount2.html)
-
-.
+Obsolete. Superseded by [IView::GetVisibleEntityCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetVisibleEntityCount2.html).
 
 ## Syntax
 
@@ -55,55 +51,36 @@ System.int GetVisibleEntityCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `LpViewComponent`: [Component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-from which to get the visible EntityType
-- `EntityType`: Type of entity as defined in[swViewEntityType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewEntityType_e.html)
+- `LpViewComponent`: [Component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) from which to get the visible EntityType
+- `EntityType`: Type of entity as defined in [swViewEntityType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewEntityType_e.html)
 
 ### Return Value
 
-Number of specified entitiesParamDescin LpViewComponent
+Number of specified entities in LpViewComponent
 
 ## VBA Syntax
 
-See
-
-[View::GetVisibleEntityCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetVisibleEntityCount.html)
-
-.
+See [View::GetVisibleEntityCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetVisibleEntityCount.html).
 
 ## Remarks
 
 Visible entities are only those entities not completely obscured by other entities in the view.
 
-Call this method before calling[IView::IGetVisibleEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetVisibleEntities.html)to get the size of the array for that method.
+Call this method before calling [IView::IGetVisibleEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetVisibleEntities.html) to get the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetVisibleEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetVisibleEntities.html)
-
 [IView::GetVisibleComponentCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetVisibleComponentCount.html)
-
 [IView::GetVisibleComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetVisibleComponents.html)
-
 [IView::IGetVisibleComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetVisibleComponents.html)
-
 [IView::GetHiddenComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetHiddenComponents.html)
-
 [IView::EnumHiddenComponents2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~EnumHiddenComponents2.html)
 
 ## Availability

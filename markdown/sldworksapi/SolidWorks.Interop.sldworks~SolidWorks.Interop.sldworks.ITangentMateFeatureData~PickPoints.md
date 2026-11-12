@@ -45,13 +45,7 @@ property System.Object^ PickPoints {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Array of x, y, z-coordinates, one set for each mate entity
 
 ## VBA Syntax
 
-See
-
-[TangentMateFeatureData::PickPoints](ms-its:sldworksapivb6.chm::/sldworks~TangentMateFeatureData~PickPoints.html)
-
-.
+See [TangentMateFeatureData::PickPoints](ms-its:sldworksapivb6.chm::/sldworks~TangentMateFeatureData~PickPoints.html).
 
 ## Remarks
 
-After you set the pick points for a given selection of
-
-[ITangentMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData~EntitiesToMate.html)
-
-, you cannot modify the pick points. If you want to use new pick points, then you must create an entirely new tangent mate.
+After you set the pick points for a given selection of [ITangentMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData~EntitiesToMate.html), you cannot modify the pick points. If you want to use new pick points, then you must create an entirely new tangent mate.
 
 ## See Also
 
 [ITangentMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData.html)
-
 [ITangentMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData_members.html)
 
 ## Availability

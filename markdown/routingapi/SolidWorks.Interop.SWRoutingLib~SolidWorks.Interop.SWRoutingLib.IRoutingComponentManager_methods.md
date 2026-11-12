@@ -9,7 +9,7 @@ source: "routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRouting
 
 # IRoutingComponentManager Interface Methods
 
-For a list of all members of this type, see[IRoutingComponentManager members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager_members.html).
+For a list of all members of this type, see [IRoutingComponentManager members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager_members.html).
 
 ## Public Methods
 
@@ -39,5 +39,4 @@ For a list of all members of this type, see[IRoutingComponentManager members](So
 ## See Also
 
 [IRoutingComponentManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager.html)
-
 [SolidWorks.Interop.SWRoutingLib Namespace](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib_namespace.html)

@@ -42,38 +42,23 @@ System.int EndEdit();
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_PreservedRegionErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_PreservedRegionErrors_e.html)
+Result code as defined in [swsTopologyStudy_PreservedRegionErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_PreservedRegionErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyPreservedRegion::EndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~EndEdit.html)
-
-.
+See [CWTopologyPreservedRegion::EndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~EndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
-example.
+See the [ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html) example.
 
 ## Remarks
 
-To begin editing this preserved region control, call
-
-[ICWTopologyPreservedRegionControl::BeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~BeginEdit.html)
-
-.
+To begin editing this preserved region control, call [ICWTopologyPreservedRegionControl::BeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~BeginEdit.html).
 
 ## See Also
 
 [ICWTopologyPreservedRegionControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
 [ICWTopologyPreservedRegionControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html)
 
 ## Availability

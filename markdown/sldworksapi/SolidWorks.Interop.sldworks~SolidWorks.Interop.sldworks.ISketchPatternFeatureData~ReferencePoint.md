@@ -45,13 +45,7 @@ property System.Object^ ReferencePoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ Reference point for this sketch pattern feature
 
 ## VBA Syntax
 
-See
-
-[SketchPatternFeatureData::ReferencePoint](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~ReferencePoint.html)
-
-.
+See [SketchPatternFeatureData::ReferencePoint](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~ReferencePoint.html).
 
 ## Remarks
 
-This property is valid only if[ISketchPatternFeatureData::GetReferencePointType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~GetReferencePointType.html)does not return -1.
+This property is valid only if [ISketchPatternFeatureData::GetReferencePointType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~GetReferencePointType.html) does not return -1.
 
-Before calling this property, call[ISketchPatternFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPatternFeatureData~AccessSelections.html)or[ISketchPatternFeatureData::IAccessSelections2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPatternFeatureData~IAccessSelections2.html)to access the reference point.
+Before calling this property, call [ISketchPatternFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPatternFeatureData~AccessSelections.html) or [ISketchPatternFeatureData::IAccessSelections2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPatternFeatureData~IAccessSelections2.html) to access the reference point.
 
 ## See Also
 
 [ISketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)
-
 [ISketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "CWBeamBody Object
-Members"
+title: "CWBeamBody Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWBeamBody_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWBeamBody_members.html"
 ---
 
-# CWBeamBody Object
-Members
+# CWBeamBody Object Members
 
 ## Public Methods
 

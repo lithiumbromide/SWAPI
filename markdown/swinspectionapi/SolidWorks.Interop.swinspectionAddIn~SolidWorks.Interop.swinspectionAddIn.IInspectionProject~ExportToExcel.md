@@ -57,11 +57,7 @@ System.bool ExportToExcel(
 
 ### Parameters
 
-- `TemplatePath`: Full path name of the inspection report template to use (see
-
-Remarks
-
-)
+- `TemplatePath`: Full path name of the inspection report template to use (see **Remarks**)
 - `FilePath`: Full path name of the Microsoft Excel file to export
 - `Multisheet`: True if multisheet, false if not
 
@@ -71,24 +67,15 @@ True if export is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[InspectionProject](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionProject_members.html)
-
-methods.
+See [InspectionProject](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionProject_members.html) methods.
 
 ## Remarks
 
-The templates are installed in
-
-c:\ProgramData\SOLIDWORKS\SOLIDWORKS Inspection 2022 Addin\Templates
-
-.
+The templates are installed in **c:\ProgramData\SOLIDWORKS\SOLIDWORKS Inspection 2022 Addin\Templates**.
 
 ## See Also
 
 [IInspectionProject Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProject.html)
-
 [IInspectionProject Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProject_members.html)
 
 ## Availability

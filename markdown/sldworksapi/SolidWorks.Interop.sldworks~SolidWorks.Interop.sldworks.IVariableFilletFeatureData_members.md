@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVa
 
 # IVariableFilletFeatureData Interface Members
 
-The following tables list the members exposed by[IVariableFilletFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData.html).
+The following tables list the members exposed by [IVariableFilletFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData.html).
 
 ## Public Properties
 
@@ -42,5 +42,4 @@ The following tables list the members exposed by[IVariableFilletFeatureData](Sol
 ## See Also
 
 [IVariableFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

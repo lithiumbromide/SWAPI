@@ -51,13 +51,7 @@ System.bool IAccessSelections2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ True if the selections are successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::IAccessSelections2](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~IAccessSelections2.html)
-
-.
+See [BaseFlangeFeatureData::IAccessSelections2](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~IAccessSelections2.html).
 
 ## Remarks
 
@@ -85,15 +75,13 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)if you modified the feature
-- [IBaseFlangeFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBaseFlangeFeatureData~ReleaseSelectionAccess.html)if you did not
+- [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [IBaseFlangeFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBaseFlangeFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::AccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~AccessSelections.html)
 
 ## Availability

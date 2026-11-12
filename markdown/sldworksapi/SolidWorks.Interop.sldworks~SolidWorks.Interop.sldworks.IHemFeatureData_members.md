@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHe
 
 # IHemFeatureData Interface Members
 
-The following tables list the members exposed by[IHemFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html).
+The following tables list the members exposed by [IHemFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html).
 
 ## Public Properties
 
@@ -46,7 +46,5 @@ The following tables list the members exposed by[IHemFeatureData](SolidWorks.Int
 ## See Also
 
 [IHemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertSheetMetalHem Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSheetMetalHem.html)

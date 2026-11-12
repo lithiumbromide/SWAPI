@@ -40,38 +40,20 @@ System.object GetVisibleBox()
 System.Object^ GetVisibleBox();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of four longs (win_x_min, win-y_min, win_x_max, and win_y_max) in screen pixels indicating the boundaries of the visible model view window; any part of the model view window blocked by the
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-FeatureManager design tree is excluded
+Array of four longs (win_x_min, win-y_min, win_x_max, and win_y_max) in screen pixels indicating the boundaries of the visible model view window; any part of the model view window blocked by the FeatureManager design tree is excluded
 
 ## VBA Syntax
 
-See
-
-[ModelView::GetVisibleBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~GetVisibleBox.html)
-
-.
+See [ModelView::GetVisibleBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~GetVisibleBox.html).
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
-
 [IModelView::IGetVisibleBox Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~IGetVisibleBox.html)
 
 ## Availability

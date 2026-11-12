@@ -59,13 +59,7 @@ System.bool GetEndParams(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,30 +74,18 @@ True if the operation was successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Curve::GetEndParams](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetEndParams.html)
-
-.
+See [Curve::GetEndParams](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetEndParams.html).
 
 ## Examples
 
 [Create Space Parameter Curve on Surface (VBA)](Create_Space_Parameter_Curve_on_Surface_Example_VB.htm)
-
 [Evaluate Curves Defined in Sketch Space (VBA)](Evaluate_Curves_Defined_in_Sketch_Space_Example_VB.htm)
-
 [Find Outside Edges of Face (VBA)](Find_Outside_Edges_of_Face_Example_VB.htm)
-
 [Get Intersecting Faces (VBA)](Get_Intersecting_Faces_Example_VB.htm)
-
 [Get Sketch Segment and Curve Data (VBA)](Get_Sketch_Segment_and_Curve_Data_Example_VB.htm)
-
 [Get Start and End Points of Spline (VBA)](Get_Start_and_End_Points_of_Spline_Example_VB.htm)
-
 [Create Trimmed Curve (VBA)](Return_Untrimmed_Curve_Example_VB.htm)
-
 [Create Trimmed Curve (VB.NET)](Return_Untrimmed_Curve_Example_VBNET.htm)
-
 [Create Trimmed Curve (C#)](Return_Untrimmed_Curve_Example_CSharp.htm)
 
 ## Remarks
@@ -113,7 +95,6 @@ The parametric range is the valid range for the curve. If the curve is infinite 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
 
 ## Availability

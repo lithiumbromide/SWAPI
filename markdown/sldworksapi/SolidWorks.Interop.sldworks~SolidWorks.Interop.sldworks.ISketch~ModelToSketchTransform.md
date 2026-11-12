@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Gets the model-to-sketch transform for this sketch.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ property MathTransform^ ModelToSketchTransform {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,20 +55,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sketch::ModelToSketchTransform](ms-its:sldworksapivb6.chm::/sldworks~Sketch~ModelToSketchTransform.html)
-
-.
+See [Sketch::ModelToSketchTransform](ms-its:sldworksapivb6.chm::/sldworks~Sketch~ModelToSketchTransform.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [IModelDoc2::SketchSplineByEqnParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchSplineByEqnParams.html)
-
 [IModelDoc2::SketchSplineByEqnParams2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchSplineByEqnParams2.html)
 
 ## Availability

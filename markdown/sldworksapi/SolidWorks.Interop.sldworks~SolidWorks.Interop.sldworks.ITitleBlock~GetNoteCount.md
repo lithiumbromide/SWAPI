@@ -40,13 +40,7 @@ System.int GetNoteCount()
 System.int GetNoteCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of notes in this title block
 
 ## VBA Syntax
 
-See
-
-[TitleBlock::GetNoteCount](ms-its:sldworksapivb6.chm::/sldworks~TitleBlock~GetNoteCount.html)
-
-.
+See [TitleBlock::GetNoteCount](ms-its:sldworksapivb6.chm::/sldworks~TitleBlock~GetNoteCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ITitleBlock::IGetNotes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITitleBlock~IGetNotes.html)
-
-to get the size of the array for that method.
+Call this method before calling [ITitleBlock::IGetNotes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITitleBlock~IGetNotes.html) to get the size of the array for that method.
 
 ## See Also
 
 [ITitleBlock Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock.html)
-
 [ITitleBlock Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock_members.html)
-
 [ITitleBlock::GetNotes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock~GetNotes.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # IGetBlockInstances Method (IBlockDefinition)
 
-Obsolete. Superseded by
-
-[ISketchBlockDefinition::GetInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetInstances.html)
-
-.
+Obsolete. Superseded by [ISketchBlockDefinition::GetInstances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetInstances.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ BlockInstance^ IGetBlockInstances(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[BlockDefinition::IGetBlockInstances](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~IGetBlockInstances.html)
-
-.
+See [BlockDefinition::IGetBlockInstances](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~IGetBlockInstances.html).
 
 ## See Also
 
 [IBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition.html)
-
 [IBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition_members.html)

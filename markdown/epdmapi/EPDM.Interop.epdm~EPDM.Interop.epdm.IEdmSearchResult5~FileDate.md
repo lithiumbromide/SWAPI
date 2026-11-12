@@ -40,7 +40,6 @@ Date of file; 0 for folders
 ## See Also
 
 [IEdmSearchResult5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5.html)
-
 [IEdmSearchResult5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5_members.html)
 
 ## Availability

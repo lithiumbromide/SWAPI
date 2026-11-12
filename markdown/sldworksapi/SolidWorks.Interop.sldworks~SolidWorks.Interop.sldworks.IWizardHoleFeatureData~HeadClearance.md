@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # HeadClearance Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by
-
-[IWizardHoleFeatureData2::HeadClearance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~HeadClearance.html)
-
-.
+Obsolete. Superseded by [IWizardHoleFeatureData2::HeadClearance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~HeadClearance.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double HeadClearance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::HeadClearance](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~HeadClearance.html)
-
-.
+See [WizardHoleFeatureData::HeadClearance](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~HeadClearance.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

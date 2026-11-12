@@ -45,13 +45,7 @@ property System.double XAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ x coordinate of the angle to use to rotate a plane that has a manipulator
 
 ## VBA Syntax
 
-See
-
-[PlaneManipulator::XAngle](ms-its:sldworksapivb6.chm::/sldworks~PlaneManipulator~XAngle.html)
-
-.
+See [PlaneManipulator::XAngle](ms-its:sldworksapivb6.chm::/sldworks~PlaneManipulator~XAngle.html).
 
 ## Examples
 
 [Insert and Use Plane with Manipulator (VBA)](Insert_and_Use_Plane_with_Manipulator_Example_VB.htm)
-
 [Insert and Use Plane with Manipulator (C#)](Insert_and_Use_Plane_with_Manipulator_Example_CSharp.htm)
-
 [Insert and Use Plane with Manipulator (VB.NET)](Insert_and_Use_Plane_with_Manipulator_Example_VBNET.htm)
 
 ## See Also
 
 [IPlaneManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator.html)
-
 [IPlaneManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator_members.html)
-
 [IPlaneManipulator::YAngle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator~YAngle.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_or_Set_Whether_Edits_Update_Design_Table_Example_VB.htm
 
 # Get or Set Whether Edits Update Design Table Example (VBA)
 
-This example shows how to get or set whether edits to a design
-table update the design table.
+This example shows how to get or set whether edits to a design table update the design table.
 
 ```
 '-----------------------------------

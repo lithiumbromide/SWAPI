@@ -9,7 +9,7 @@ source: "sldworksapi/Insert_Hole_Wizard_Slot_and_Hole_Example_CSharp.htm"
 
 # Insert Hole Wizard Slot and Hole Example (C#)
 
-This example shows how to use[IFeatureManager::HoleWizard5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~HoleWizard5.html)to insert a straight slot and a counterbore hole in a part.
+This example shows how to use [IFeatureManager::HoleWizard5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~HoleWizard5.html) to insert a straight slot and a counterbore hole in a part.
 
 ```
 //-----------------------------------------------
@@ -97,7 +97,7 @@ Namespace HoleWizard5FeatureManagerCSharp.csproj
             Depth = 2 * ConvFactorLength;
             Length = 3 * ConvFactorLength;
 
-            //Value1 to Value12 arguments; SOLIDWORKS
+            //Value1 to Value12 arguments; SOLIDWORKS Design
             //ignores parameters set to -1
             ScrewFit = -1;   		         //Value1
             DrillAngle = 100 * ConvFactorAngle;	//Value2
@@ -116,27 +116,8 @@ Namespace HoleWizard5FeatureManagerCSharp.csproj
 ```
 
 //Print length of slot to Immediate window
-
-swWizardHoleFeatData = (WizardHoleFeatureData2)swFeature.
-
-GetDefinition
-
-();
-
-Debug.Print(
-
-"Length
-of slot: "
-
-+ swWizardHoleFeatData.
-
-Length
-
-+
-
-" inches"
-
-);
+swWizardHoleFeatData = (WizardHoleFeatureData2)swFeature.**GetDefinition**();
+Debug.Print("Length of slot: " + swWizardHoleFeatData.**Length** + " inches");
 
 ```
             //Create a counterbore hole
@@ -155,7 +136,7 @@ Length
             Depth = -1;
             Length = -1;
 
-            //Value1 to Value12 arguments; SOLIDWORKS
+            //Value1 to Value12 arguments; SOLIDWORKS Design
             //ignores parameters set to -1
             CounterBoreDiameter = 0.6 * ConvFactorLength;	//Value1
             CounterBoreDepth = 0.2 * ConvFactorLength;		//Value2

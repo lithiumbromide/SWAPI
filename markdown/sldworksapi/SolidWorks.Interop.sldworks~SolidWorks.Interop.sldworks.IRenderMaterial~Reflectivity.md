@@ -45,13 +45,7 @@ property System.double Reflectivity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Reflectivity
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Reflectivity](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Reflectivity.html)
-
-.
+See[RenderMaterial::Reflectivity](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Reflectivity.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

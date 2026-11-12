@@ -45,31 +45,19 @@ property System.int FitType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Fit type as defined in
-
-[swFitType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFitType_e.html)
+Fit type as defined in [swFitType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFitType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::FitType](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~FitType.html)
-
-.
+See [CalloutVariable::FitType](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~FitType.html).
 
 ## Remarks
 
-This property is only available when the[type of tolerance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ToleranceType.html)is[swTolType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolType_e.html):
+This property is only available when the [type of tolerance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ToleranceType.html) is [swTolType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolType_e.html):
 
 - swTolFIT,
 - swTolFITTOLONLY, or
@@ -78,11 +66,8 @@ This property is only available when the[type of tolerance](SolidWorks.Interop.s
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
-
 [ICalloutVariable::HoleFit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~HoleFit.html)
-
 [ICalloutVariable::ShaftFit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ShaftFit.html)
 
 ## Availability

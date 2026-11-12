@@ -59,20 +59,14 @@ System.bool GetEndPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `PDirDisp1`: Damper end point
 - `PDirDisp2`: Damper end point
-- `Type1`: Type of end point as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-- `Type2`: Type of end point as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `Type1`: Type of end point as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `Type2`: Type of end point as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ### Return Value
 
@@ -80,18 +74,12 @@ True if the operation succeeds, false if it fails
 
 ## VBA Syntax
 
-See
-
-[SimulationDamperFeatureData::GetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationDamperFeatureData~GetEndPoints.html)
-
-.
+See [SimulationDamperFeatureData::GetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationDamperFeatureData~GetEndPoints.html).
 
 ## See Also
 
 [ISimulationDamperFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData.html)
-
 [ISimulationDamperFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData_members.html)
-
 [ISimulationDamperFeatureData::SetEndPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData~SetEndPoints.html)
 
 ## Availability

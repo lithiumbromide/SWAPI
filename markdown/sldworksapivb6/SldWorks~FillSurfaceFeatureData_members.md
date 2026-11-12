@@ -1,6 +1,5 @@
 ---
-title: "FillSurfaceFeatureData Object
-Members"
+title: "FillSurfaceFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FillSurfaceFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FillSurfaceFeatureData_members.html"
 ---
 
-# FillSurfaceFeatureData Object
-Members
+# FillSurfaceFeatureData Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchAddFolderFlag.html"
 
 # EdmBatchAddFolderFlag Enumeration
 
-Flags used by
-
-[IEdmBatchAddFolders::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~AddFolder.html)
-
-to specify the behavior of the added folder.
+Flags used by [IEdmBatchAddFolders::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~AddFolder.html) to specify the behavior of the added folder.
 
 ## Syntax
 

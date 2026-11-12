@@ -51,26 +51,18 @@ Length of datum leader in meters.
 
 ## VBA Syntax
 
-See
-
-[DimXpertDimensionOption::DatumLength](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionOption~DatumLength.html)
-
-.
+See [DimXpertDimensionOption::DatumLength](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionOption~DatumLength.html).
 
 ## Examples
 
 [Get and Set Datum Example (C#)](Get_and_Set_Datum_Example_CSharp.htm)
-
 [Get and Set Datum Example (VB.NET)](Get_and_Set_Datum_Example_VBNET.htm)
-
 [Get and Set Datum Example (VBA)](Get_and_Set_Datum_Example_VB.htm)
 
 ## See Also
 
 [IDimXpertDimensionOption Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption.html)
-
 [IDimXpertDimensionOption Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption_members.html)
-
 [IDimXpertPart::InsertDatum Method](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertDatum.html)
 
 ## Availability

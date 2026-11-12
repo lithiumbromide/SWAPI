@@ -1,6 +1,5 @@
 ---
-title: "PrimaryMemberRefPlaneFeatureData Object
-Members"
+title: "PrimaryMemberRefPlaneFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PrimaryMemberRefPlaneFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PrimaryMemberRefPlaneFeatureData_members.html"
 ---
 
-# PrimaryMemberRefPlaneFeatureData Object
-Members
+# PrimaryMemberRefPlaneFeatureData Object Members
 
 ## Public Methods
 

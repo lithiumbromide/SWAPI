@@ -9,15 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAutodim
 
 # swAutodimEntities_e Enumeration
 
-Entities to dimension
-
-[ISketch::AutoDimension2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~AutoDimension2.html)
-
-and
-
-[IDrawingDoc::AutoDimension](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~Solidworks.Interop.sldworks.IDrawingDoc~AutoDimension.html)
-
-.
+Entities to dimension [ISketch::AutoDimension2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~AutoDimension2.html) and [IDrawingDoc::AutoDimension](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~Solidworks.Interop.sldworks.IDrawingDoc~AutoDimension.html).
 
 ## Syntax
 

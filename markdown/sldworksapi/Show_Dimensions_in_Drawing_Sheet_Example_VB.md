@@ -9,18 +9,9 @@ source: "sldworksapi/Show_Dimensions_in_Drawing_Sheet_Example_VB.htm"
 
 # Show Dimensions in Drawing Sheet Example (VBA)
 
-This example shows how to show all of the dimensions in a drawing sheet
-whether the dimensions are hidden or visible.
+This example shows how to show all of the dimensions in a drawing sheet whether the dimensions are hidden or visible.
 
-NOTE: In
-the SOLIDWORKS user interface, you can hide a dimension in adrawing
-view using the shortcut menu. The
-corresponding method
-to do this is in the SOLIDWORKS API is IModelDoc2::HideDimension. However, there is no
-ready way to show a
-hidden dimension in the user interface without first selecting the dimension. This
-example shows how to traverse all display dimensions in
-a drawing sheet and show them.
+**NOTE:** In the SOLIDWORKS Design user interface, you can hide a dimension in a drawing view using the shortcut menu. The corresponding method to do this is in the SOLIDWORKS API is IModelDoc2::HideDimension. However, there is no ready way to show a hidden dimension in the user interface without first selecting the dimension. This example shows how to traverse all display dimensions in a drawing sheet and show them.
 
 ```
 '----------------------------------------------------------

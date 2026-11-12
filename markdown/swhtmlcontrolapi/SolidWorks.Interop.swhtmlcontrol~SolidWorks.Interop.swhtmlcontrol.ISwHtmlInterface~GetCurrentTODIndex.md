@@ -46,18 +46,12 @@ Index of the current Tip of the Day
 
 ## VBA Syntax
 
-See
-
-[SwHtmlInterface::GetCurrentTODIndex](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~GetCurrentTODIndex.html)
-
-.
+See [SwHtmlInterface::GetCurrentTODIndex](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~GetCurrentTODIndex.html).
 
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [ISwHtmlInterface Members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html)
-
 [ISwHtmlInterface::GetPrevTipOfTheDay Method](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~GetPrevTipOfTheDay.html)
 
 ## Availability

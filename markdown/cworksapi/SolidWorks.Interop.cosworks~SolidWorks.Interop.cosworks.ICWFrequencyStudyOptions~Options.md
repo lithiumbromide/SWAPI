@@ -47,36 +47,22 @@ property System.int Options {
 
 ### Property Value
 
-Option as defined in
-
-[swsFrequencyStudyOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyStudyOption_e.html)
+Option as defined in [swsFrequencyStudyOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyStudyOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::Options](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~Options.html)
-
-.
+See [CWFrequencyStudyOptions::Options](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~Options.html).
 
 ## Remarks
 
-See the
-
-[ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-examples.
+See the [ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html) examples.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
-
 [ICWFrequencyStudyOptions::NoOfFrequencies Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~NoOfFrequencies.html)
-
 [ICWFrequencyStudyOptions::UpperBoundFrequency Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~UpperBoundFrequency.html)
-
 [ICWFrequencyStudyOptions::UseLowerBoundFrequency Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~UseLowerBoundFrequency.html)
 
 ## Availability

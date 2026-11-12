@@ -37,29 +37,15 @@ public delegate System.int DPartDocEvents_UnitsChangeNotifyEventHandler()
 public delegate System.int DPartDocEvents_UnitsChangeNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[UnitsChangeNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~UnitsChangeNotify_EV.html)
-
-.
+See [UnitsChangeNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~UnitsChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartUnitsChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartUnitsChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

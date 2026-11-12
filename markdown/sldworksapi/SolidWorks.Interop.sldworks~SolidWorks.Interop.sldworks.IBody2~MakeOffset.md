@@ -51,41 +51,26 @@ Body2^ MakeOffset(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Distance`: Distance by which to offset the selected surface body
 - `Direction`: True to offset the selected surface body in the opposite direction, false to offset
-
-the surface body along the normal
+  the surface body along the normal
 
 ### Return Value
 
-Pointer to the newly created
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+Pointer to the newly created [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::MakeOffset](ms-its:sldworksapivb6.chm::/sldworks~Body2~MakeOffset.html)
-
-.
+See [Body2::MakeOffset](ms-its:sldworksapivb6.chm::/sldworks~Body2~MakeOffset.html).
 
 ## Examples
 
 [Create Temporary Bodies by Offsetting Surface Body (C#)](Create_Temporary_Bodies_by_Offsetting_Surface_Body_Example_CSharp.htm)
-
 [Create Temporary Bodies by Offsetting Surface Body (VB.NET)](Create_Temporary_Bodies_by_Offsetting_Surface_Body_Example_VBNET.htm)
-
 [Create Temporary Bodies By Offsetting a Surface Body (VBA)](Create_Temporary_Bodies_by_Offsetting_Surface_Body_Example_VB.htm)
 
 ## Remarks
@@ -95,7 +80,6 @@ This method only supports surface bodies.
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

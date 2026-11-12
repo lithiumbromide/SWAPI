@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # AllowDistributedCoupling Property (ICWRemoteLoad)
 
-Obsolete. Superseded by ICWRemoteLoad::AllowDistributedCoupling2.
+Obsolete. Superseded by [ICWRemoteLoad::AllowDistributedCoupling2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling2.html).
 
 ## Syntax
 
@@ -48,11 +48,7 @@ True if distributed coupling is allowed, false if it is not allowed
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::AllowDistributedCoupling](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~AllowDistributedCoupling.html)
-
-.
+See [CWRemoteLoad::AllowDistributedCoupling](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~AllowDistributedCoupling.html).
 
 ## Remarks
 
@@ -61,9 +57,7 @@ Distributed coupling is allowed only for linear static, topology, and nonlinear 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::ConnectionType Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ConnectionType.html)
 
 ## Availability

@@ -45,40 +45,23 @@ property System.Object^ ContactComponents {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of
-
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
+Array of [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
 
 ## VBA Syntax
 
-See
-
-[Simulation3DContactFeatureData::ContactComponents](ms-its:sldworksapivb6.chm::/sldworks~Simulation3DContactFeatureData~ContactComponents.html)
-
-.
+See [Simulation3DContactFeatureData::ContactComponents](ms-its:sldworksapivb6.chm::/sldworks~Simulation3DContactFeatureData~ContactComponents.html).
 
 ## Examples
 
-See the
-
-[ISimulation3DContactFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html)
-
-examples.
+See the [ISimulation3DContactFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html) examples.
 
 ## See Also
 
 [ISimulation3DContactFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html)
-
 [ISimulation3DContactFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData_members.html)
 
 ## Availability

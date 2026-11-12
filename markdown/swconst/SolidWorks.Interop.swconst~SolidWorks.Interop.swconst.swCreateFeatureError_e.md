@@ -49,6 +49,8 @@ public enum class swCreateFeatureError_e : public System.Enum
 | swCreateFeatureError_MateController_MateNotSet | 2 = Mate not set when creating mate controller |
 | swCreateFeatureError_MateController_MateSelectionsPositionDataMismatch | 6 = Number of mate selections do not match number of values in position data array |
 | swCreateFeatureError_MateController_MateTypeNotSupported | 3 = Supported mate types are Distance and Limit Distance, Angle and Limit Angle, Width, and Slot |
+| swCreateFeatureError_SolidToSheetMetal_FixedFaceOrEdgeIsMissing | 8 |
+| swCreateFeatureError_SolidToSheetMetal_Success | 7 |
 
 ## See Also
 

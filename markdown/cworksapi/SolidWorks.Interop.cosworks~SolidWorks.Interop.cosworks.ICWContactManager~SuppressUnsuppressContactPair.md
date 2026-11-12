@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # SuppressUnsuppressContactPair Method (ICWContactManager)
 
-Obsolete. Superseded by
-
-[ICWContactManager::SuppressUnsuppressContactPair2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~SuppressUnsuppressContactPair2.html)
-
-.
+Obsolete. Superseded by [ICWContactManager::SuppressUnsuppressContactPair2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~SuppressUnsuppressContactPair2.html).
 
 ## Syntax
 
@@ -57,56 +53,32 @@ System.int SuppressUnsuppressContactPair(
 
 ### Parameters
 
-- `SName`: Name of contact set (see
-
-Remarks
-
-)
-- `BSuppress`: 1 to suppress, 0 to unsuppress (see
-
-Remarks
-
-)
+- `SName`: Name of contact set (see **Remarks**)
+- `BSuppress`: 1 to suppress, 0 to unsuppress (see **Remarks**)
 
 ### Return Value
 
-Error code as defined in
-
-[swsContactSuppressUnsuppressError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactSuppressUnsuppressError_e.html)
+Error code as defined in [swsContactSuppressUnsuppressError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactSuppressUnsuppressError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWContactManager::SuppressUnsuppressContactPair](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~SuppressUnsuppressContactPair.html)
-
-.
+See [CWContactManager::SuppressUnsuppressContactPair](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~SuppressUnsuppressContactPair.html).
 
 ## Examples
 
-See the
-
-[ICWContactManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
-examples.
+See the [ICWContactManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html) examples.
 
 ## Remarks
 
 Before calling this method, use:
 
-- [ICWContactSet::ContactName](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ContactName.html)
-
-  to get the name of the contact set.
-- [ICWContactSet::State](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~State.html)
-
-  to get the current suppression state of the contact set.
+- [ICWContactSet::ContactName](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ContactName.html) to get the name of the contact set.
+- [ICWContactSet::State](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~State.html) to get the current suppression state of the contact set.
 
 ## See Also
 
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager_members.html)
-
 [ICWContactSet::SuppressUnSuppress Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~SuppressUnSuppress.html)
 
 ## Availability

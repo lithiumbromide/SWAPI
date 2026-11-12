@@ -70,6 +70,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swAssemblyAllowComponentMoveByDragging | See System Options and Document Properties. |
 | swAssemblyAllowCreationOfMisalignedMates | See System Options and Document Properties. |
 | swAssemblyAllowGraphicsComponent | See System Options and Document Properties. |
+| swAssemblyEnableCreationOfMatesUsingAI | See System Options and Document Properties. |
 | swAssemblyUpdateModelGraphicsWhenSavingFiles | See System Options and Document Properties. |
 | swAutoLoadPartsLightweight | See System Options and Document Properties. |
 | swAutomaticallyPopupSelectionToolForPreciseLocation | See System Options and Document Properties. |
@@ -296,6 +297,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swDisplayDecals | See System Options and Document Properties. |
 | swDisplayDimensionsFlatToScreen | Not used. |
 | swDisplayDimXpertDimensions | See System Options and Document Properties. |
+| swDisplayDspbrAppearances | See System Options and Document Properties. |
 | swDisplayEnableSelectionThroughTransparency | See System Options and Document Properties. |
 | swDisplayEntityPoints | See System Options and Document Properties. |
 | swDisplayEquationIds | See System Options and Document Properties. |
@@ -339,6 +341,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swDisplayVirtualSharps | See System Options and Document Properties. |
 | swDisplayWeldBead | See System Options and Document Properties. |
 | swDisplayWeldSymbols | See System Options and Document Properties. |
+| swDoNotShowConfigOrDisplayStateName | See System Options and Document Properties. |
 | swDontCopyQTYColumnNameFromTemplate | See System Options and Document Properties. |
 | swDoublePrimeMark | See System Options and Document Properties. |
 | swDraftingStandardAllUppercaseForDimensionsAndHoleCallouts | See System Options and Document Properties. |
@@ -353,6 +356,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swDrawingDetailInferCorner | See System Options and Document Properties. |
 | swDrawingDisableNoteDimensionInference | See System Options and Document Properties. |
 | swDrawingDisableNoteMergeWhenDragging | See System Options and Document Properties. |
+| swDrawingDisallowCreationOfMirrorViews | See System Options and Document Properties. |
 | swDrawingDisplayArcCenterPoints | See System Options and Document Properties. |
 | swDrawingDisplayEntityPoints | See System Options and Document Properties. |
 | swDrawingDisplaySketchHatchBehindGeometry | See System Options and Document Properties. |
@@ -427,11 +431,14 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swEnable3DEXPERIENCEIntegration | See System Options and Document Properties. |
 | swEnableAllowCosmeticThreadsUpgrade | See System Options and Document Properties. |
 | swEnableConfirmationCorner | See System Options and Document Properties. |
+| swEnableInterfDetMultiThread | Registry setting to control whether to perform interference detection on a secondary thread; to set, call ISldWorks::SetUserPreferenceToggle swUserPreferenceToggle_e.swEnableInterfDetProgressDlg True/False |
+| swEnableInterfDetProgressDlg | Registry setting to control whether to display the progress dialog during interference detection; to set, call ISldWorks::SetUserPreferenceToggle swUserPreferenceToggle_e.swEnableInterfDetProgressDlg True/False |
 | swEnableMouseGestures | See System Options and Document Properties. |
 | swEnablePerformanceEmail | See System Options and Document Properties. |
 | swEnablePerformanceFeedback | See System Options and Document Properties. |
 | swEnablePerformancePipeline | See System Options and Document Properties. |
 | swEnablePropertyManager | See System Options and Document Properties. |
+| swEnableSaveToVersion | See System Options and Document Properties. |
 | swEnableSoundsForSolidWorksEvents | See System Options and Document Properties. |
 | swEnableVSTAVersion3 | See System Options and Document Properties. |
 | swEnhanceSmallFaceSelectionPrecision | See System Options and Document Properties. |
@@ -447,6 +454,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swExtRefOpenReadOnly | See System Options and Document Properties. |
 | swExtRefShowXInFeatureTree | See System Options and Document Properties. |
 | swExtRefUpdateCompNames | See System Options and Document Properties. |
+| swFamilyTableDimName | See System Options and Document Properties. |
 | swFeatureManagerDynamicHighlight | See System Options and Document Properties. |
 | swFeatureManagerEnablePreviewHiddenComponents | See System Options and Document Properties. |
 | swFeatureManagerEnableRenamingComponent | See System Options and Document Properties. |
@@ -515,6 +523,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swImageQualityWireframeHighCurveQuality | See System Options and Document Properties. |
 | swImageQualityZoomToFitForPreviewImages | See System Options and Document Properties. |
 | swImport2dCurvesAs2dSketch | See System Options and Document Properties. |
+| swImportAssemblyHybrid | See System Options and Document Properties. |
 | swImportAutoRunImportDiagnostics | See System Options and Document Properties. |
 | swImportAutoRunImportDiagnosticsPersist | See System Options and Document Properties. |
 | swImportCustomProperties | See System Options and Document Properties. |
@@ -533,6 +542,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swImportNeutralAnalyticalConversion | See System Options and Document Properties. |
 | swImportNeutralReferencePlane | See System Options and Document Properties. |
 | swImportNeutralRunDiagnostics | See System Options and Document Properties. |
+| swImportPSEnableTemplates | See System Options and Document Properties. |
 | swImportReferenceAxis | See System Options and Document Properties. |
 | swImportReferencePlane | See System Options and Document Properties. |
 | swImportSLDXMLImportAssemblyMatesData | See System Options and Document Properties. |
@@ -685,6 +695,11 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swSearchIncludeContentCentral | See System Options and Document Properties. |
 | swSearchShowSolidWorksSearchBox | See System Options and Document Properties. |
 | swSearchWhileTyping | See System Options and Document Properties. |
+| swSecondaryComponentDescription | See System Options and Document Properties. |
+| swSecondaryConfigurationDescription | See System Options and Document Properties. |
+| swSecondaryConfigurationName | See System Options and Document Properties. |
+| swSecondaryEnterpriseItemNumber | See System Options and Document Properties. |
+| swSecondaryPhysicalProductDescription | See System Options and Document Properties. |
 | swSeeThroughTransparentComponents | See System Options and Document Properties. |
 | swShadedSketchContours | See System Options and Document Properties. |
 | swSheetMetalBendNotesLeaderJustificationSnapping | See System Options and Document Properties. |
@@ -707,6 +722,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swShowCADAndOtherConfig3dexpIntegration | See System Options and Document Properties. |
 | swShowCADFamilyConfigOnly3dexpIntegration | See System Options and Document Properties. |
 | swShowDimensionNames | See System Options and Document Properties. |
+| swShowDismissedMessagesIconInStatusBar | See System Options and Document Properties. |
 | swShowDrawingViewPalette | See System Options and Document Properties. |
 | swShowErrorsEveryRebuild | See System Options and Document Properties. |
 | swShowMateReferenceErrors | See System Options and Document Properties. |
@@ -792,6 +808,9 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swTableHoleShowUnitsForDualDisplay | See System Options and Document Properties. |
 | swTablePunchDualDimensionsDisplay | See System Options and Document Properties. |
 | swTablePunchShowUnitsForDualDisplay | See System Options and Document Properties . |
+| swTertiaryDisplayStateName | See System Options and Document Properties. |
+| swTertiaryFileTitle | See System Options and Document Properties. |
+| swTertiaryRevision | See System Options and Document Properties. |
 | swTextSizeUseOperatingSystemScale | See System Options and Document Properties. |
 | swThumbnailGraphics | See System Options and Document Properties. |
 | swTIFExportIncludeDrawingsPaperColor | See System Options and Document Properties. |
@@ -837,6 +856,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 | swViewZoomFitAndCenter | See System Options and Document Properties. |
 | swVrmlStlImportAsPSMesh | See System Options and Document Properties. |
 | swVrmlStlImportSegmented | See System Options and Document Properties. |
+| swWarnOnDupCompRefsForDlg | 849; right-click on the assembly in the FeatureManager design tree, select Edit Component References... In the Component References dialog, Warn if there are duplicate Component References check box corresponds to this user preference. |
 | swWarnSaveUpdateErrors | See System Options and Document Properties. |
 | swWarnSavingReferencedDoc | See System Options and Document Properties. |
 | swWarnStartingSketchInContextAssembly | See System Options and Document Properties. |
@@ -854,11 +874,7 @@ public enum class swUserPreferenceToggle_e : public System.Enum
 ## See Also
 
 [SolidWorks.Interop.swconst Namespace](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst_namespace.html)
-
 [swUserPreferenceIntegerValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceIntegerValue_e.html)
-
 [swUserPreferenceStringListValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringListValue_e.html)
-
 [swUserPreferenceStringValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringValue_e.html)
-
 [swUserPreferenceTextFormat_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceTextFormat_e.html)

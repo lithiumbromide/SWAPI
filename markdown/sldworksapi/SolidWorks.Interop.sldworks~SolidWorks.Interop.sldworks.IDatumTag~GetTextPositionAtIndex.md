@@ -47,13 +47,7 @@ System.Object^ GetTextPositionAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,40 +55,28 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTag::GetTextPositionAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetTextPositionAtIndex.html)
-
-.
+See [DatumTag::GetTextPositionAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetTextPositionAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[textPtX, textPtY, textPtZ]
+[ textPtX, textPtY, textPtZ ]
 
 where these text position values are offset values from the origin of this datum tag object.
 
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::IGetTextPositionAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~IGetTextPositionAtIndex.html)
-
 [IDatumTag::GetTextAngleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextAngleAtIndex.html)
-
 [IDatumTag::GetTextAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextAtIndex.html)
-
 [IDatumTag::GetTextCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextCount.html)
-
 [IDatumTag::GetTextHeightAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextHeightAtIndex.html)
-
 [IDatumTag::GetTextInvertAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextInvertAtIndex.html)
-
 [IDatumTag::GetTextRefPositionAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTextRefPositionAtIndex.html)

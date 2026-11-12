@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDr
 
 # LargeDisplacement Property (ICWDropTestStudyOptions)
 
-Obsolete. Superseded by[ICWDropTestStudyOptions::LargeDisplacement2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions~LargeDisplacement2.html).
+Obsolete. Superseded by [ICWDropTestStudyOptions::LargeDisplacement2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions~LargeDisplacement2.html).
 
 ## Syntax
 
@@ -51,24 +51,15 @@ property System.int LargeDisplacement {
 
 ## VBA Syntax
 
-See
-
-[CWDropTestStudyOptions::LargeDisplacement](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestStudyOptions~LargeDisplacement.html)
-
-.
+See [CWDropTestStudyOptions::LargeDisplacement](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestStudyOptions~LargeDisplacement.html).
 
 ## Examples
 
-See the Examples in
-
-[ICWDropTestStudyOptions](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestStudyOptions.html)
-
-.
+See the Examples in [ICWDropTestStudyOptions](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestStudyOptions.html).
 
 ## See Also
 
 [ICWDropTestStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions.html)
-
 [ICWDropTestStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions_members.html)
 
 ## Availability

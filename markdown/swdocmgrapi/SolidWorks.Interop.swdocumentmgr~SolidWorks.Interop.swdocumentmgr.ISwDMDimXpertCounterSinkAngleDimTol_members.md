@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertCounterSinkAngleDimTol Interface Members
 
-The following tables list the members exposed by[ISwDMDimXpertCounterSinkAngleDimTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCounterSinkAngleDimTol.html).
+The following tables list the members exposed by [ISwDMDimXpertCounterSinkAngleDimTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCounterSinkAngleDimTol.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[ISwDMDimXpertCounterSinkAngleDi
 ## See Also
 
 [ISwDMDimXpertCounterSinkAngleDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCounterSinkAngleDimTol.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

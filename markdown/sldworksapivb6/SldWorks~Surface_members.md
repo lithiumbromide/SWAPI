@@ -1,6 +1,5 @@
 ---
-title: "Surface Object
-Members"
+title: "Surface Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Surface_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Surface_members.html"
 ---
 
-# Surface Object
-Members
+# Surface Object Members
 
 ## Public Methods
 

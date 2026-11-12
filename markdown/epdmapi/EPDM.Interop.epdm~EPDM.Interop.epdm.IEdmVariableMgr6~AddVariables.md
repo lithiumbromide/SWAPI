@@ -39,23 +39,11 @@ void AddVariables(
 
 ### Parameters
 
-- `ppoVariables`: Array of
-
-[EdmVariableData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData.html)
-
-structures; one structure for each variable (see
-
-Remarks
-
-)
+- `ppoVariables`: Array of [EdmVariableData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData.html) structures; one structure for each variable (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmVariableMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr6.html)
-
-examples.
+See the [IEdmVariableMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr6.html) examples.
 
 ## Remarks
 
@@ -68,7 +56,6 @@ In the ppoVariables structure, set mlVariableID to 0 before calling this method.
 ## See Also
 
 [IEdmVariableMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr6.html)
-
 [IEdmVariableMgr6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr6_members.html)
 
 ## Availability

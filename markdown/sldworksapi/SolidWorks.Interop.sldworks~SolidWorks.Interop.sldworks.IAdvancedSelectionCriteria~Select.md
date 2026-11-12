@@ -40,13 +40,7 @@ System.bool Select()
 System.bool Select();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,46 +48,25 @@ True if the components are selected, false if not
 
 ## VBA Syntax
 
-See
-
-[AdvancedSelectionCriteria::Select](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~Select.html)
-
-.
+See [AdvancedSelectionCriteria::Select](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~Select.html).
 
 ## Examples
 
-See the
-
-[IAdvancedSelectionCriteria](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
-examples.
+See the [IAdvancedSelectionCriteria](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html) examples.
 
 ## Remarks
 
 Call this method after either:
 
-- [Loading](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~LoadCriteria.html)
-
-  the criteria from a
-
-  *.xml
-
-  file or a
-
-  *.sqy
-
-  legacy file.
+- [Loading](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~LoadCriteria.html) the criteria from a ***.xml** file or a ***.sqy** legacy file.
 
 - or -
 
-- [Adding](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~AddItem2.html)
-
-  items to the advanced component selection criteria list.
+- [Adding](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~AddItem2.html) items to the advanced component selection criteria list.
 
 ## See Also
 
 [IAdvancedSelectionCriteria Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
 [IAdvancedSelectionCriteria Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria_members.html)
 
 ## Availability

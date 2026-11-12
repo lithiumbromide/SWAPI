@@ -41,13 +41,7 @@ property System.String^ Description {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -55,16 +49,11 @@ Description
 
 ## VBA Syntax
 
-See
-
-[AdvancedSaveAsOptions::Description](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~Description.html)
-
-.
+See [AdvancedSaveAsOptions::Description](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~Description.html).
 
 ## See Also
 
 [IAdvancedSaveAsOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
 [IAdvancedSaveAsOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions_members.html)
 
 ## Availability

@@ -54,22 +54,15 @@ System.bool AddVendor(
 ### Parameters
 
 - `VendorName`: Name of vendor
-- `VendorType`: Type of vendor as defined by
-
-[swiVendorsInspectionType_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiVendorsInspectionType_e.html)
+- `VendorType`: Type of vendor as defined by [swiVendorsInspectionType_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiVendorsInspectionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[InspectionAddinMgr](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionAddinMgr_members.html)
-
-methods.
+See [InspectionAddinMgr](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionAddinMgr_members.html) methods.
 
 ## See Also
 
 [IInspectionAddinMgr Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr.html)
-
 [IInspectionAddinMgr Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr_members.html)
 
 ## Availability

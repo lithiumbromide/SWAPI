@@ -51,16 +51,11 @@ Description for this note
 
 ## VBA Syntax
 
-See
-
-[PDMWDocumentNote::Description](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNote~Description.html)
-
-.
+See [PDMWDocumentNote::Description](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNote~Description.html).
 
 ## See Also
 
 [IPDMWDocumentNote Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote.html)
-
 [IPDMWDocumentNote Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote_members.html)
 
 ## Availability

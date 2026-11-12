@@ -47,13 +47,7 @@ SketchRegion^ IGetSketchRegions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,28 +55,20 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of
-
-  [sketch regions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRegion.html)
+- in-process, unmanaged C++: Pointer to an array of [sketch regions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRegion.html)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
-Before calling this method, call
-
-[ISketch::GetSketchRegionCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSketchRegionCount.html)
-
-to get Count.
+Before calling this method, call [ISketch::GetSketchRegionCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSketchRegionCount.html) to get Count.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchRegions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchRegions.html)
 
 ## Availability

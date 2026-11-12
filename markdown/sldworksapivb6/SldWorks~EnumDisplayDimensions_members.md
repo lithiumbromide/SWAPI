@@ -1,6 +1,5 @@
 ---
-title: "EnumDisplayDimensions Object
-Members"
+title: "EnumDisplayDimensions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EnumDisplayDimensions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EnumDisplayDimensions_members.html"
 ---
 
-# EnumDisplayDimensions Object
-Members
+# EnumDisplayDimensions Object Members
 
 ## Public Methods
 

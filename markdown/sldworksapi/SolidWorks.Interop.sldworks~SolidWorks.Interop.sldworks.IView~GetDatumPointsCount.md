@@ -40,13 +40,7 @@ System.int GetDatumPointsCount()
 System.int GetDatumPointsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,14 +48,9 @@ Number of datum points
 
 ## VBA Syntax
 
-See
-
-[View::GetDatumPointsCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetDatumPointsCount.html)
-
-.
+See [View::GetDatumPointsCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetDatumPointsCount.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

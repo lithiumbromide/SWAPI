@@ -9,11 +9,7 @@ source: "swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.sw
 
 # GetCommandID Method (ISwHtmlInterface)
 
-Gets the SOLIDWORKS resource ID for an add-in's
-
-[CommandManager](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager.html)
-
--style toolbar button.
+Gets the SOLIDWORKS resource ID for an add-in's [CommandManager](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager.html)-style toolbar button.
 
 ## Syntax
 
@@ -58,19 +54,15 @@ System.int GetCommandID(
 ### Parameters
 
 - `ClsID`: Add-in's class ID
-- `UserCmdID`: Unique ID that the add-in application identified as a CommandParamDescManager-style toolbar button
+- `UserCmdID`: Unique ID that the add-in application identified as a CommandManager-style toolbar button
 
 ### Return Value
 
-Currently bound ID for the CommandParamDescManager-style toolbar buttonParamDesc
+Currently bound ID for the CommandManager-style toolbar button
 
 ## VBA Syntax
 
-See
-
-[SwHtmlInterface::GetCommandID](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~GetCommandID.html)
-
-.
+See [SwHtmlInterface::GetCommandID](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~GetCommandID.html).
 
 ## Examples
 
@@ -79,13 +71,9 @@ See
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [ISwHtmlInterface Members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html)
-
 [ISldWorks::ShowBubbleToolTip](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ShowBubbleToolTip.html)
-
 [ISwHtmlInterface::ShowBubbleTooltip Method](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~ShowBubbleTooltip.html)
-
 [ISwHtmlInterface::ShowBubbleTooltipForAddinToolbar Method](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~ShowBubbleTooltipForAddinToolbar.html)
 
 ## Availability

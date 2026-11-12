@@ -1,6 +1,5 @@
 ---
-title: "ISMNormalCutGroupData Object
-Members"
+title: "ISMNormalCutGroupData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISMNormalCutGroupData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISMNormalCutGroupData_members.html"
 ---
 
-# ISMNormalCutGroupData Object
-Members
+# ISMNormalCutGroupData Object Members
 
 ## Public Methods
 

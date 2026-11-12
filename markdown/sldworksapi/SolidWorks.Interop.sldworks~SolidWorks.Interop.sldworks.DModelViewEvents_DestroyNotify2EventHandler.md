@@ -43,27 +43,15 @@ public delegate System.int DModelViewEvents_DestroyNotify2EventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DestroyType`: Value as defined by
-
-[swDestroyNotifyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDestroyNotifyType_e.html)
+- `DestroyType`: Value as defined by [swDestroyNotifyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDestroyNotifyType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DestroyNotify2 Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~DestroyNotify2_EV.html)
-
-.
+See [DestroyNotify2 Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~DestroyNotify2_EV.html).
 
 ## Remarks
 
@@ -71,9 +59,9 @@ This event is sent when a view is being destroyed and will no longer be availabl
 
 This event is also sent for each view of a model when the document is closed, yet the view is not destroyed. This can happen when the model is being used by an open assembly or drawing document. In this case, the destroyType value is swDestroyNotifyHidden. This indicates that the view is still available for use, but is not visible.
 
-If the part is then reopened, a IPartDoc[ViewNewNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_ViewNewNotify2EventHandler.html)event is again sent for all views in the part. At this point, you can recreate your link to these views, or if your application did not destroy the views, you can recognize that these views are no longer hidden. When the document and all referencing assemblies and drawings are finally closed, then the views are destroyed and this event is sent for each of the model views, with the destroyType = swDestroyNotifyDestroy.
+If the part is then reopened, a IPartDoc [ViewNewNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_ViewNewNotify2EventHandler.html) event is again sent for all views in the part. At this point, you can recreate your link to these views, or if your application did not destroy the views, you can recognize that these views are no longer hidden. When the document and all referencing assemblies and drawings are finally closed, then the views are destroyed and this event is sent for each of the model views, with the destroyType = swDestroyNotifyDestroy.
 
-If developing a C++ application, use[swViewDestroyNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)to register for this notification.
+If developing a C++ application, use [swViewDestroyNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) to register for this notification.
 
 ## Availability
 

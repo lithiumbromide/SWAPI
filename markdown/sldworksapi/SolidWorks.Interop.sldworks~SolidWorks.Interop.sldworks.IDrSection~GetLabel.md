@@ -40,36 +40,22 @@ System.string GetLabel()
 System.String^ GetLabel();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrSection::GetLabel](ms-its:sldworksapivb6.chm::/sldworks~DrSection~GetLabel.html)
-
-.
+See [DrSection::GetLabel](ms-its:sldworksapivb6.chm::/sldworks~DrSection~GetLabel.html).
 
 ## Examples
 
 [Create Section View and Get Some Data (VB.NET)](Create_Section_View_and_Get_Some_Data_Example_VBNET.htm)
-
 [Create Section View and Get Some Data (VBA)](Create_Section_View_at_Specified_Location_Example_VB.htm)
-
 [Create Section View and Get Some Data (C#)](Create_Section_View_and_Get_Some_Data_Example_CSharp.htm)
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::SetLabel2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~SetLabel2.html)
 
 ## Availability

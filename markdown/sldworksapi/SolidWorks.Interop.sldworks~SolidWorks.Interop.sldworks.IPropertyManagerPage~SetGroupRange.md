@@ -55,13 +55,7 @@ System.int SetGroupRange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage::SetGroupRange](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage~SetGroupRange.html)
-
-.
+See [PropertyManagerPage::SetGroupRange](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage~SetGroupRange.html).
 
 ## See Also
 
 [IPropertyManagerPage Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage.html)
-
 [IPropertyManagerPage Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage_members.html)

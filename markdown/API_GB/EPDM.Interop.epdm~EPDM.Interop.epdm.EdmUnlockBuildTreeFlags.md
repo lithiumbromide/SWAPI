@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockBuildTreeFlags.html
 
 # EdmUnlockBuildTreeFlags Enumeration
 
-Flags used to control the creation of the check-in file tree created by the
-
-[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
-interface.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags used to control the creation of the check-in file tree created by the [IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) interface. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

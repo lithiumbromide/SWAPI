@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyStudyManager Interface Members
 
-The following tables list the members exposed by[ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html).
+The following tables list the members exposed by [ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html).
 
 ## Public Properties
 
@@ -52,5 +52,4 @@ The following tables list the members exposed by[ICWTopologyStudyManager](SolidW
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

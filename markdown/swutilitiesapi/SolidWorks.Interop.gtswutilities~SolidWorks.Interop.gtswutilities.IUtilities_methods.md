@@ -9,7 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # IUtilities Interface Methods
 
-For a list of all members of this type, see[IUtilities members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html).
+For a list of all members of this type, see [IUtilities members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IUtilities members](SolidWorks.Inter
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

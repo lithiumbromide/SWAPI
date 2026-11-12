@@ -45,37 +45,19 @@ property System.Object^ EntitiesToMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Entities to mate (see
-
-Remarks
-
-)
+Entities to mate (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ParallelMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~ParallelMateFeatureData~EntitiesToMate.html)
-
-.
+See [ParallelMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~ParallelMateFeatureData~EntitiesToMate.html).
 
 ## Examples
 
-See the
-
-[IParallelMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParallelMateFeatureData.html)
-
-example.
+See the [IParallelMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParallelMateFeatureData.html) example.
 
 ## Remarks
 
@@ -89,16 +71,11 @@ You can create parallel mates with the following mate entity combinations:
 | IRefPlane |  |  | ● | ● |  |
 | ISurface, IFace2 (non-analytic surface) | ● |  | ● |  |  |
 
-Instead of specifying this property, you can use
-
-[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-to pre-select the entities to mate using Mark = 1. You can pre-select mate entities during mate creation, but not during mate editing.
+Instead of specifying this property, you can use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities to mate using Mark = 1. You can pre-select mate entities during mate creation, but not during mate editing.
 
 ## See Also
 
 [IParallelMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParallelMateFeatureData.html)
-
 [IParallelMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParallelMateFeatureData_members.html)
 
 ## Availability

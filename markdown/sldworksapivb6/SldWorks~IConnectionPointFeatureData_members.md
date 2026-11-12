@@ -1,6 +1,5 @@
 ---
-title: "IConnectionPointFeatureData Object
-Members"
+title: "IConnectionPointFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IConnectionPointFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IConnectionPointFeatureData_members.html"
 ---
 
-# IConnectionPointFeatureData Object
-Members
+# IConnectionPointFeatureData Object Members
 
 ## Public Methods
 

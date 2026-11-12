@@ -1,0 +1,992 @@
+<<< IDimXpertAngleBetweenCircularDimTol.CenterFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenCircularDimTol~CenterFeature.md
+R: IDimXpertFeature
+<<< IDimXpertAngleBetweenCircularDimTol.GetActPlaneVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenCircularDimTol~GetActPlaneVector.md
+P: I: I component of the direction vector
+P: J: J component of the direction vector
+P: K: K component of the direction vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertAngleBetweenCircularDimTol.GetNomPlaneVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenCircularDimTol~GetNomPlaneVector.md
+P: I: I component of the direction vector
+P: J: J component of the direction vector
+P: K: K component of the direction vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertAngleBetweenCircularDimTol.OriginFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenCircularDimTol~OriginFeature.md
+R: IDimXpertFeature
+<<< IDimXpertAngleBetweenCircularDimTol.Supplement | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenCircularDimTol~Supplement.md
+R: True to evaluate the supplement angle (default); false otherwisev
+<<< IDimXpertAngleBetweenDimTol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol.md
+X: You can access more general dimension tolerance information using IDimXpertDimensionTolerance.
+<<< IDimXpertAngleBetweenDimTol.GetDirectionVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol~GetDirectionVector.md
+P: I: I component of the direction vector
+P: J: J component of the direction vector
+P: K: K component of the direction vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertAngleBetweenDimTol.OriginFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol~OriginFeature.md
+R: IDimXpertFeature
+<<< IDimXpertAngleBetweenDimTol.Supplement | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol~Supplement.md
+R: True to evaluate the supplement angle (default); false otherwise
+<<< IDimXpertAnnotation | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.md
+X: This interface is the base class for three types of annotation interface: IDimXpertTolerance, IDimXpertDimensionTolerance, and IDimXpertDatum. Use the IDimXpertAnnotation::Type property to find out which specific interface is needed to acquire more information for a given DimXpert annotation type.
+<<< IDimXpertAnnotation.Feature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~Feature.md
+R: IDimXpertFeature
+<<< IDimXpertAnnotation.GetAppliedAnnotationCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~GetAppliedAnnotationCount.md
+R: Number of annotations applied to this DimXpert feature
+<<< IDimXpertAnnotation.GetAppliedAnnotations | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~GetAppliedAnnotations.md
+R: Array of IDimXpertAnnotation s
+X: Currently, this method works only for annotations of type IDimXpertDatum.
+<<< IDimXpertAnnotation.GetDisplayEntity | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~GetDisplayEntity.md
+R: IAnnotation
+<<< IDimXpertAnnotation.GetModelFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~GetModelFeature.md
+R: IFeature
+<<< IDimXpertAnnotation.IGetAppliedAnnotations | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~IGetAppliedAnnotations.md
+P: Count: Number of applied annotations
+R: in-process, unmanaged C++: Pointer to an array of IDimXpertAnnotation VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertAnnotation::GetAppliedAnnotationCount to get the value for the Count parameter.
+<<< IDimXpertAnnotation.IsFreeState | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~IsFreeState.md
+R: True if the tolerance is in a free state; false otherwise
+X: This tolerance modifier is set by clicking the F option at the top of the Geometric Tolerance Properties dialog (invoked from the Geometric Tolerance icon on the DimXpert tool bar).
+<<< IDimXpertAnnotation.IsStatistical | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~IsStatistical.md
+R: True if the tolerance is statistical; false otherwise
+X: This tolerance modifier is set by clicking the ST option at the top of the Geometric Tolerance Properties dialog (invoked from the Geometric Tolerance icon on the DimXpert tool bar).
+<<< IDimXpertAnnotation.IsSuppressed | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~IsSuppressed.md
+R: True if the annotation is suppressed; false otherwise
+<<< IDimXpertAnnotation.IsToBeInspected | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~IsToBeInspected.md
+R: True if to be inspected; false otherwise
+X: This tolerance modifier is set by clicking the second option from the right on the Dimension Text section of the DimXpert Properties manager.
+<<< IDimXpertAnnotation.Name | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~Name.md
+R: Name of this annotation
+<<< IDimXpertAnnotation.Type | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation~Type.md
+R: Type of this DimXpert annotation as defined in swDimXpertAnnotationType_e
+<<< IDimXpertAutoDimSchemeOption | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption.md
+X: When implemented as-is, this interface sets properties to default values.
+<<< IDimXpertAutoDimSchemeOption.FeatureFilters | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption~FeatureFilters.md
+R: Bitmask of values as defined in swDimXpertFeatureFilters_e; default is all features or 8191
+X: This API is in force only when IDimXpertAutoDimSchemeOption::ScopeAllFeature is set to true.
+<<< IDimXpertAutoDimSchemeOption.PartType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption~PartType.md
+R: Part type as defined in swDimXpertAutoDimSchemePartType_e; default is swDimXpertAutoDimSchemePartType_Prismatic
+<<< IDimXpertAutoDimSchemeOption.PatternType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption~PatternType.md
+R: Pattern type as defined in swDimXpertAutoDimSchemePatternType_e; default is swDimXpertAudoDimSchemePatternType_Linear
+<<< IDimXpertAutoDimSchemeOption.PolarPatternHoleCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption~PolarPatternHoleCount.md
+R: Number of holes to dimension in the polar pattern; default is 5
+<<< IDimXpertAutoDimSchemeOption.ScopeAllFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption~ScopeAllFeature.md
+R: True to dimension all features (default), false to dimension only selected features
+X: If this API is set to false, then you can only dimension manually selected features whose selection marks are greater than 50.
+If this API is set to true, then IDimXpertAutoDimSchemeOption::FeatureFilters is in force.
+<<< IDimXpertAutoDimSchemeOption.ToleranceType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption~ToleranceType.md
+R: Type of tolerance as defined in swDimXpertAutoDimSchemeToleranceType_e; default is swDimXpertAutoDimSchemeToleranceType_PlusMinus
+<<< IDimXpertBestfitPlaneFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBestfitPlaneFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertBestfitPlaneFeature.GetNominalPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBestfitPlaneFeature~GetNominalPlane.md
+P: X: x coordinate of the plane
+P: Y: y coordinate of the plane
+P: Z: z coordinate of the plane
+P: I: i component of the direction vector of the plane
+P: J: j component of the direction vector of the plane
+P: K: k component of the direction vector of the plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertBestfitPlaneFeature.GetSubFeatureCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBestfitPlaneFeature~GetSubFeatureCount.md
+R: Number of sub-features in this DimXpert best fit plane
+<<< IDimXpertBestfitPlaneFeature.GetSubFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBestfitPlaneFeature~GetSubFeatures.md
+R: Array of IDimXpertFeature s
+X: This method returns all sub-features of this best fit plane feature. All of the sub-features returned by this method do not appear on the DimXpertManager tab of the Management Panel. Functional geometry sub-features such as planes and cylinders that represent each individual face of a part are for internal use only. These sub-features do not appear in the DimXpertManager tree. However, manufacturing sub-features that are significant for downstream machining and inspection do appear in the DimXpertManager tree.
+<<< IDimXpertBestfitPlaneFeature.IGetSubFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBestfitPlaneFeature~IGetSubFeatures.md
+P: Count: Number of sub-features of this DimXpert best fit plane feature
+R: in-process, unmanaged C++: Pointer to an array of IDimXpertFeature s VBA, VB.NET, C#, and C++/CLI: Not supported
+X: This method returns all sub-features of this best fit plane feature. All of the sub-features returned by this method do not appear on the DimXpertManager tab of the Management Panel. Functional geometry sub-features such as planes and cylinders that represent each individual face of a part are for internal use only. These sub-features do not appear in the DimXpertManager tree. However, manufacturing sub-features that are significant for downstream machining and inspection do appear in the DimXpertManager tree.See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertBestfitPlaneFeature::GetSubFeatureCount to get the value for the Count parameter.
+<<< IDimXpertBlockTolerances | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances.md
+X: This interface accesses the DimXpert block tolerances that are specified in the SOLIDWORKS System Options and Document Properties dialog (Tools > Options > Document Properties > DimXpert).
+<<< IDimXpertBlockTolerances.GetISO2768PartType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances~GetISO2768PartType.md
+P: Type: ISO 2768 part type of this DimXpert block tolerance as defined in swDimXpertISO2768PartType_e
+R: True if the method call is successful; false otherwise
+<<< IDimXpertBlockTolerances.GetToleranceValues | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances~GetToleranceValues.md
+P: Linear1: Length unit dimension for Tolerance 1
+P: Linear1Prec: Number of decimal places for Tolerance 1
+P: Linear2: Length unit dimension for Tolerance 2
+P: Linear2Prec: Number of decimal places for Tolerance 2
+P: Linear3: Length unit dimension for Tolerance 3
+P: Linear3Prec: Number of decimal places for Tolerance 3
+P: Angular: Angular unit dimensions
+R: True if the method call is successful; false otherwise
+X: This method gets the DimXpert block tolerance values that are set in the SOLIDWORKS System Options and Document Properties dialog (Tools > Options > Document Properties > DimXpert).
+<<< IDimXpertBlockTolerances.Type | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances~Type.md
+R: Type of this DimXpert block tolerance as defined in swDimXpertBlockToleranceType_e
+<<< IDimXpertChamferDimTol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferDimTol.md
+X: You can access more general dimension tolerance information using IDimXpertDimensionTolerance.
+<<< IDimXpertChamferDimTol.ChamferType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferDimTol~ChamferType.md
+R: Type of chamfer as defined in swDimXpertChamferDimensionType_e
+<<< IDimXpertChamferFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertChamferFeature.Angle | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature~Angle.md
+R: Angle in radians of this chamfer
+<<< IDimXpertChamferFeature.AngleType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature~AngleType.md
+R: Type of angle as defined in swDimXpertChamferAngleType_e
+<<< IDimXpertChamferFeature.ChamferType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature~ChamferType.md
+R: Type of chamfer as defined in swDimXpertChamferType_e
+<<< IDimXpertChamferFeature.Distance1 | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature~Distance1.md
+R: Length of bevel on one side of the selected entity
+<<< IDimXpertChamferFeature.Distance2 | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature~Distance2.md
+R: Length of bevel on one side of the selected entity
+<<< IDimXpertCompositeDistanceBetweenDimTol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.IDimXpertDimensionTolerance.
+<<< IDimXpertCompositeDistanceBetweenDimTol.BlockToleranceDecimalPlacesIntraFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol~BlockToleranceDecimalPlacesIntraFeature.md
+R: Number of decimal places
+<<< IDimXpertCompositeDistanceBetweenDimTol.DimensionTypeIntraFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol~DimensionTypeIntraFeature.md
+R: Dimension type as defined in swDimXpertDimensionToleranceType_e
+<<< IDimXpertCompositeDistanceBetweenDimTol.GetDirectionVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol~GetDirectionVector.md
+P: I: I component of the direction vector
+P: J: J component of the direction vector
+P: K: K component of the direction vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertCompositeDistanceBetweenDimTol.GetFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol~GetFeature.md
+P: Feature: IDimXpertFeature
+P: FosUsage: Feature of size usage as defined in swDimXpertDistanceFosUsage_e
+R: True if the method call is successful; false otherwise
+<<< IDimXpertCompositeDistanceBetweenDimTol.GetIntraFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol~GetIntraFeature.md
+P: Feature: IDimXpertFeature
+P: FosUsage: Feature of size usage as defined in swDimXpertDistanceFosUsage_e
+R: True if the method call is successful; false otherwise
+<<< IDimXpertCompositeDistanceBetweenDimTol.GetNominalValueIntraFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol~GetNominalValueIntraFeature.md
+R: Nominal composite distance-between dimension tolerance
+<<< IDimXpertCompositeDistanceBetweenDimTol.GetOriginFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol~GetOriginFeature.md
+P: Feature: IDimXpertFeature
+P: FosUsage: Feature of size usage as defined in swDimXpertDistanceFosUsage_e
+R: True if the method call is successful; false otherwise
+<<< IDimXpertCompositeDistanceBetweenDimTol.GetPlusAndMinusToleranceIntraFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol~GetPlusAndMinusToleranceIntraFeature.md
+P: Plus: Plus tolerance value
+P: Minus: Minus tolerance value
+R: True if the method call is successful; false otherwise
+<<< IDimXpertCompositeDistanceBetweenDimTol.GetUpperAndLowerLimitIntraFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol~GetUpperAndLowerLimitIntraFeature.md
+P: Upper: Upper limit
+P: Lower: Lower limit
+R: True if the method call is successful; false otherwise
+<<< IDimXpertCompositeDistanceBetweenDimTol.LimitsAndFitsCodeIntraFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol~LimitsAndFitsCodeIntraFeature.md
+R: Limits and fits code
+<<< IDimXpertCompositeLineProfileTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance.md
+X: You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertCompositeLineProfileTolerance.GetPlanarZoneVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance~GetPlanarZoneVector.md
+P: I: I component of the planar zone vector
+P: J: J component of the planar zone vector
+P: K: K component of the planar zone vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertCompositeLineProfileTolerance.OuterToleranceValue | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance~OuterToleranceValue.md
+R: Outer tolerance value
+<<< IDimXpertCompositeLineProfileTolerance.OuterToleranceValueLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance~OuterToleranceValueLowerTier.md
+R: Outer tolerance value in the lower tier
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositeLineProfileTolerance.PrimaryInLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance~PrimaryInLowerTier.md
+R: True if the primary datum is repeated in the lower tier; false otherwise
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositeLineProfileTolerance.SecondaryInLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance~SecondaryInLowerTier.md
+R: True if the secondary datum is repeated in the lower tier; false otherwise
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositeLineProfileTolerance.TertiaryInLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance~TertiaryInLowerTier.md
+R: True if the tertiary datum is repeated in the lower tier; false otherwise
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositeLineProfileTolerance.ToleranceLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance~ToleranceLowerTier.md
+R: Tolerance value in the lower tier
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositePositionTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance.md
+X: You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertCompositePositionTolerance.GetMaxTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~GetMaxTolerance.md
+P: IsMax: True if maximum tolerance is set; false otherwise
+P: Tolerance: Maximum tolerance value
+R: True if the method call is successful; false otherwise
+<<< IDimXpertCompositePositionTolerance.GetMaxToleranceLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~GetMaxToleranceLowerTier.md
+P: IsMax: True if the maximum tolerance is set in the lower tier; false otherwise
+P: Tolerance: Maximum tolerance in lower tier
+R: True if the method call is successful; false otherwise
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositePositionTolerance.GetPlanarZoneVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~GetPlanarZoneVector.md
+P: I: I component of the planar zone vector
+P: J: J component of the planar zone vector
+P: K: K component of the planar zone vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertCompositePositionTolerance.GetProjectedZone | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~GetProjectedZone.md
+P: Enabled: True if projected zone is in effect; false otherwise
+P: Value: Projected zone value
+R: True if the method call is successful; false otherwise
+<<< IDimXpertCompositePositionTolerance.Modifier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~Modifier.md
+R: Material condition modifier as defined in swDimXpertMaterialConditionModifier_e
+<<< IDimXpertCompositePositionTolerance.ModifierLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~ModifierLowerTier.md
+R: Material condition modifier as defined in swDimXpertMaterialConditionModifier_e
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositePositionTolerance.PrimaryInLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~PrimaryInLowerTier.md
+R: True if the primary datum is repeated in the lower tier; false otherwise
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositePositionTolerance.SecondaryInLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~SecondaryInLowerTier.md
+R: True if the secondary datum is repeated in the lower tier; false otherwise
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositePositionTolerance.TertiaryInLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~TertiaryInLowerTier.md
+R: True if the tertiary datum is repeated in the lower tier; false otherwise
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositePositionTolerance.ToleranceLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~ToleranceLowerTier.md
+R: Tolerance value in the lower tier
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositePositionTolerance.ZoneType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance~ZoneType.md
+R: Position zone type as defined in swDimXpertPositionZoneType_e
+<<< IDimXpertCompositeSurfaceProfileTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance.md
+X: You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertCompositeSurfaceProfileTolerance.OuterToleranceValue | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance~OuterToleranceValue.md
+R: Outer tolerance value
+<<< IDimXpertCompositeSurfaceProfileTolerance.OuterToleranceValueLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance~OuterToleranceValueLowerTier.md
+R: Outer tolerance value in the lower tier
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositeSurfaceProfileTolerance.PrimaryInLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance~PrimaryInLowerTier.md
+R: True if the primary datum is repeated in the lower tier; false otherwise
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositeSurfaceProfileTolerance.SecondaryInLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance~SecondaryInLowerTier.md
+R: True if the secondary datum is repeated in the lower tier; false otherwise
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositeSurfaceProfileTolerance.TertiaryInLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance~TertiaryInLowerTier.md
+R: True if the tertiary datum is repeated in the lower tier; false otherwise
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompositeSurfaceProfileTolerance.ToleranceLowerTier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance~ToleranceLowerTier.md
+R: Tolerance value in the lower tier
+X: The second row of the Geometric Tolerance Properties dialog comes into play for composite tolerances. This lower tier property is set in the second row of the dialog.
+<<< IDimXpertCompoundClosedSlot3DFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertCompoundClosedSlot3DFeature.Blind | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature~Blind.md
+R: True if blind; false if through all
+<<< IDimXpertCompoundClosedSlot3DFeature.GetBottomFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature~GetBottomFeature.md
+R: IDimXpertFeature
+X: Only blind slots have bottom features. The bottom feature of a blind slot is a DimXpert plane feature in which the plane is perpendicular to the slot axis.
+<<< IDimXpertCompoundClosedSlot3DFeature.GetEndFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature~GetEndFeatures.md
+P: End1: IDimXpertFeature
+P: End2: IDimXpertFeature
+R: True if method call is successful; false otherwise
+<<< IDimXpertCompoundClosedSlot3DFeature.GetNominalBottomPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature~GetNominalBottomPlane.md
+P: X: X-coordinate of the bottom plane
+P: Y: Y-coordinate of the bottom plane
+P: Z: Z-coordinate of the bottom plane
+P: I: I component of the direction vector of the bottom plane
+P: J: J component of the direction vector of the bottom plane
+P: K: K component of the direction vector of the bottom plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertCompoundClosedSlot3DFeature.GetNominalClosedSlot | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature~GetNominalClosedSlot.md
+P: Width: Width of the closed slot
+P: Length: Length of the closed slot
+P: X: X-coordinate of the closed slot origin
+P: Y: Y-coordinate of the closed slot origin
+P: Z: Z-coordinate of the closed slot origin
+P: I: I component of the direction vector of the closed slot
+P: J: J component of the direction vector of the closed slot
+P: K: K component of the direction vector of the closed slot
+P: LongitudeI: I component of the longitudinal unit vector of the closed slot
+P: LongitudeJ: J component of the longitudinal unit vector of the closed slot
+P: LongitudeK: K component of the longitudinal unit vector of the closed slot
+R: True if method call is successful; false otherwise
+X: The i, j, and k components of the longitudinal vector indicate the direction of a feature's length with respect to its part axes. For example, if the length of a feature goes along the y-axis of the part, its longitudinal vector is (0, 1, 0).
+<<< IDimXpertCompoundClosedSlot3DFeature.GetNominalTopPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature~GetNominalTopPlane.md
+P: X: X-coordinate of the top reference plane
+P: Y: Y-coordinate of the top reference plane
+P: Z: Z-coordinate of the top reference plane
+P: I: I component of the direction vector of the top reference plane
+P: J: J component of the direction vector of the top reference plane
+P: K: K component of the direction vector of the top reference plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertCompoundClosedSlot3DFeature.GetPlaneFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature~GetPlaneFeatures.md
+P: Plane1: IDimXpertPlaneFeature
+P: Plane2: IDimXpertPlaneFeature
+R: True if method call is successful; false otherwise
+<<< IDimXpertCompoundHoleFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertCompoundHoleFeature.Blind | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature~Blind.md
+R: True if blind; false if through all
+<<< IDimXpertCompoundHoleFeature.CompoundHoleType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature~CompoundHoleType.md
+R: Type of this DimXpert compound hole as defined in swDimXpertCompoundHoleType_e
+<<< IDimXpertCompoundHoleFeature.GetBottomFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature~GetBottomFeature.md
+R: IDimXpertFeature
+X: Only blind holes have bottom features. The bottom feature of a blind hole is a DimXpert plane feature in which the plane is perpendicular to the hole axis.
+<<< IDimXpertCompoundHoleFeature.GetReferenceFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature~GetReferenceFeature.md
+R: IDimXpertFeature
+X: The reference feature is used to dimension the depth of a blind hole. This method currently returns a plane feature but could return another feature type. Cast the object returned by this method to IDimXpertPlaneFeature.
+<<< IDimXpertCompoundHoleFeature.GetSubFeatureCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature~GetSubFeatureCount.md
+R: Number of sub-features in this DimXpert compound hole
+<<< IDimXpertCompoundHoleFeature.GetSubFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature~GetSubFeatures.md
+R: Array of IDimXpertFeature s
+X: This method returns all sub-features of the hole feature. All of the sub-features returned by this method do not appear on the DimXpertManager tab of the Management Panel. Functional geometry sub-features such as planes and cylinders that represent each individual face of a part are for internal use only. These sub-features do not appear in the DimXpertManager tree. However, manufacturing sub-features that are significant for downstream machining and inspection do appear in the DimXpertManager tree.
+For example, the sub-features of a simple hole are related to functional geometry and are not listed in the DimXpertManager tree. However, the sub-features of a hole pattern are manufacturing features (e.g., simple holes) that are significant for downstream processes. These manufacturing features are listed in the DimXpertManager tree.
+<<< IDimXpertCompoundHoleFeature.IGetSubFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature~IGetSubFeatures.md
+P: Count: Number of sub-features of this DimXpert hole feature
+R: in-process, unmanaged C++: Pointer to an array of IDimXpertFeature s VBA, VB.NET, C#, and C++/CLI: Not supported
+X: This method returns all sub-features of the hole feature. All of the sub-features returned by this method do not appear on the DimXpertManager tab of the Management Panel. Functional geometry sub-features such as planes and cylinders that represent each individual face of a part are for internal use only. These sub-features do not appear in the DimXpertManager tree. However, manufacturing sub-features that are significant for downstream machining and inspection do appear in the DimXpertManager tree.
+For example, the sub-features of a simple hole are related to functional geometry and are not listed in the DimXpertManager tree. However, the sub-features of a hole pattern are manufacturing features (e.g., simple holes) that are significant for downstream processes. These manufacturing features are listed in the DimXpertManager tree.
+See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertCompoundHoleFeature::GetSubFeatureCount to get the value for the Count parameter.
+<<< IDimXpertCompoundNotchFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertCompoundNotchFeature.Blind | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature~Blind.md
+R: True if blind; false if through all
+<<< IDimXpertCompoundNotchFeature.GetBottomFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature~GetBottomFeature.md
+R: IDimXpertFeature
+X: Only blind notches have bottom features. The bottom feature of a blind notch is a DimXpert plane feature in which the plane is perpendicular to the notch axis.
+<<< IDimXpertCompoundNotchFeature.GetEndFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature~GetEndFeature.md
+R: IDimXpertFeature
+<<< IDimXpertCompoundNotchFeature.GetNominalBottomPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature~GetNominalBottomPlane.md
+P: X: X-coordinate of the bottom plane
+P: Y: Y-coordinate of the bottom plane
+P: Z: Z-coordinate of the bottom plane
+P: I: I component of the direction vector of the bottom plane
+P: J: J component of the direction vector of the bottom plane
+P: K: K component of the direction vector of the bottom plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertCompoundNotchFeature.GetNominalNotch | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature~GetNominalNotch.md
+P: Width: Width of the notch
+P: Length: Length of the notch
+P: X: X-coordinate of the notch
+P: Y: Y-coordinate of the notch
+P: Z: Z-coordinate of the notch
+P: I: I component of the direction vector of the notch
+P: J: J component of the direction vector of the notch
+P: K: K component of the direction vector of the notch
+P: LongitudeI: I component of the longitudinal unit vector of the notch
+P: LongitudeJ: J component of the longitudinal unit vector of the notch
+P: LongitudeK: K component of the longitudinal unit vector of the notch
+R: True if method call is successful; false otherwise
+X: The longitudinal i, j, and k component vectors indicate the direction of a notch's length with respect to its part axes. For example, if the length of a notch goes along the y-axis of the part, its longitudinal vector is (0, 1, 0).
+<<< IDimXpertCompoundNotchFeature.GetOpenSideReferenceFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature~GetOpenSideReferenceFeature.md
+R: IDimXpertFeature
+<<< IDimXpertCompoundNotchFeature.GetPlaneFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature~GetPlaneFeatures.md
+P: Plane1: IDimXpertPlaneFeature
+P: Plane2: IDimXpertPlaneFeature
+R: True if method call is successful; false otherwise
+<<< IDimXpertCompoundNotchFeature.GetTopReferenceFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature~GetTopReferenceFeature.md
+R: IDimXpertFeature
+<<< IDimXpertCompoundWidthFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundWidthFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertCompoundWidthFeature.GetNominalCompoundWidth | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundWidthFeature~GetNominalCompoundWidth.md
+P: Width: Width of the feature
+P: X: X-coordinate of the width
+P: Y: Y-coordinate of the width
+P: Z: Z-coordinate of the width
+P: I: I component of the direction vector of the width
+P: J: J component of the direction vector of the width
+P: K: K component of the direction vector of the width
+R: True if method call is successful; false otherwise
+<<< IDimXpertCompoundWidthFeature.GetNominalLongitude | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundWidthFeature~GetNominalLongitude.md
+P: I: I component of the longitudinal unit vector of the width
+P: J: J component of the longitudinal unit vector of the width
+P: K: K component of the longitudinal unit vector of the width
+R: True if method call is successful; false otherwise
+X: The i, j, and k components of the longitudinal vector indicate the direction of a feature's length with respect to its part axes. For example, if the length of a feature goes along the y-axis of the part, its longitudinal vector is (0, 1, 0).
+<<< IDimXpertCompoundWidthFeature.GetPlaneFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundWidthFeature~GetPlaneFeatures.md
+P: Plane1: IDimXpertPlaneFeature
+P: Plane2: IDimXpertPlaneFeature
+R: True if method call is successful; false otherwise
+<<< IDimXpertCompoundWidthFeature.Inner | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundWidthFeature~Inner.md
+R: True if width is for a hole; false if for a pin
+<<< IDimXpertConcentricityTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConcentricityTolerance.md
+X: You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertConcentricityTolerance.GetMaxTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConcentricityTolerance~GetMaxTolerance.md
+P: IsMax: True if maximum tolerance is set; false otherwise
+P: Tolerance: Maximum tolerance value
+R: True if the method call is successful; false otherwise
+<<< IDimXpertConcentricityTolerance.Modifier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConcentricityTolerance~Modifier.md
+R: Material condition modifier as defined in swDimXpertMaterialConditionModifier_e
+<<< IDimXpertConeFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConeFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertConeFeature.GetNominalBottomPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConeFeature~GetNominalBottomPlane.md
+P: X: X-coordinate of the bottom plane
+P: Y: Y-coordinate of the bottom plane
+P: Z: Z-coordinate of the bottom plane
+P: I: I component of the direction vector of the bottom plane
+P: J: J component of the direction vector of the bottom plane
+P: K: K component of the direction vector of the bottom plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertConeFeature.GetNominalCone | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConeFeature~GetNominalCone.md
+P: Angle: Angle in radians of the cone
+P: X: X-coordinate of the cone
+P: Y: Y-coordinate of the cone
+P: Z: Z-coordinate of the cone
+P: I: I component of the direction vector of the cone
+P: J: J component of the direction vector of the cone
+P: K: K component of the direction vector of the cone
+R: True if method call is successful; false otherwise
+<<< IDimXpertConeFeature.GetNominalTopPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConeFeature~GetNominalTopPlane.md
+P: X: X-coordinate of the top plane
+P: Y: Y-coordinate of the top plane
+P: Z: Z-coordinate of the top plane
+P: I: I component of the direction vector of the top plane
+P: J: J component of the direction vector of the top plane
+P: K: J component of the direction vector of the top plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertConeFeature.Inner | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConeFeature~Inner.md
+R: True if cone is a hole; false if a pin
+<<< IDimXpertCounterBoreDimTol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCounterBoreDimTol.md
+X: You can access more general dimension tolerance information using IDimXpertDimensionTolerance.
+<<< IDimXpertCounterBoreDimTol.ReferenceFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCounterBoreDimTol~ReferenceFeature.md
+R: IDimXpertFeature
+<<< IDimXpertCounterSinkAngleDimTol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCounterSinkAngleDimTol.md
+X: You can access more general dimension tolerance information using IDimXpertDimensionTolerance.
+<<< IDimXpertCounterSinkAngleDimTol.ReferenceFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCounterSinkAngleDimTol~ReferenceFeature.md
+R: IDimXpertFeature
+<<< IDimXpertCounterSinkDiameterDimTol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCounterSinkDiameterDimTol.md
+X: You can access more general dimension tolerance information using IDimXpertDimensionTolerance.
+<<< IDimXpertCounterSinkDiameterDimTol.ReferenceFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCounterSinkDiameterDimTol~ReferenceFeature.md
+R: IDimXpertFeature
+<<< IDimXpertCylinderFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCylinderFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertCylinderFeature.GetNominalBottomPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCylinderFeature~GetNominalBottomPlane.md
+P: X: X-coordinate of the bottom plane
+P: Y: Y-coordinate of the bottom plane
+P: Z: Z-coordinate of the bottom plane
+P: I: I component of the direction vector of the bottom plane
+P: J: J component of the direction vector of the bottom plane
+P: K: K component of the direction vector of the bottom plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertCylinderFeature.GetNominalCylinder | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCylinderFeature~GetNominalCylinder.md
+P: R: Radius of the cylinder
+P: X: X-coordinate of the cylinder
+P: Y: Y-coordinate of the cylinder
+P: Z: Z-coordinate of the cylinder
+P: I: I component of the direction vector of the cylinder
+P: J: J component of the direction vector of the cylinder
+P: K: K component of the direction vector of the cylinder
+R: True if method call is successful; false otherwise
+<<< IDimXpertCylinderFeature.GetNominalTopPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCylinderFeature~GetNominalTopPlane.md
+P: X: X-coordinate of the top plane
+P: Y: Y-coordinate of the top plane
+P: Z: Z-coordinate of the top plane
+P: I: I component of the direction vector of the top plane
+P: J: J component of the direction vector of the top plane
+P: K: K component of the direction vector of the top plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertCylinderFeature.GetThread | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCylinderFeature~GetThread.md
+P: IsThreaded: True if the cylinder is threaded; false otherwise
+P: ThreadDesignation: Description of the thread
+P: ThreadDepth: Depth of the thread for a threaded hole
+R: True if method call is successful; false otherwise
+<<< IDimXpertCylinderFeature.Inner | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCylinderFeature~Inner.md
+R: True if cylinder is a hole; false if a pin
+<<< IDimXpertDatum | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDatum.md
+X: You can access more general annotation information using IDimXpertAnnotation.
+<<< IDimXpertDatum.Identifier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDatum~Identifier.md
+R: A label for the datum
+<<< IDimXpertDepthDimTol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDepthDimTol.md
+X: You can access more general dimension tolerance information using IDimXpertDimensionTolerance.
+<<< IDimXpertDepthDimTol.IsThreadDepth | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDepthDimTol~IsThreadDepth.md
+R: True if the tolerance is for thread depth; false otherwise
+<<< IDimXpertDepthDimTol.ReferenceFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDepthDimTol~ReferenceFeature.md
+R: IDimXpertFeature
+<<< IDimXpertDiameterDimTol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDiameterDimTol.md
+X: Use the Dimension Size icon on the DimXpert toolbar to create diameter dimensions on closed curved faces.
+You can access more general dimension tolerance information using IDimXpertDimensionTolerance.
+<<< IDimXpertDiameterDimTol.EnvelopeRequirement | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDiameterDimTol~EnvelopeRequirement.md
+R: True if envelope requirement, false if not
+<<< IDimXpertDiameterDimTol.IndependencyRequirement | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDiameterDimTol~IndependencyRequirement.md
+R: True if independency requirement, false if not
+<<< IDimXpertDiameterDimTol.PatternTreatment | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDiameterDimTol~PatternTreatment.md
+R: Pattern treatment type as defined in swDimXpertPatternTreatmentType_e
+<<< IDimXpertDimensionOption.DatumLength | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption~DatumLength.md
+R: Length of datum leader in meters.
+<<< IDimXpertDimensionOption.DimensionPositionOption2 | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption~DimensionPositionOption2.md
+R: Reference axis as defined in swDimXpertDimensionPositionOption_e
+<<< IDimXpertDimensionOption.FeatureSelectorOptions | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption~FeatureSelectorOptions.md
+R: Array of long values as defined in swDimXpertFeatureSelectorOption_e; however, only the first element in the array is used; all of the other elements, if any, in the array are ignored
+X: Use this property to set the type of feature to dimension. For example, if you select a hole face and you want that face to be dimensioned as a cylinder, then make swDimXpertFeatureSelectorOption_e.swDimXpertFeatureSelectorOption_Cylinder the first element in the FeatureSelectorOptions array.
+<<< IDimXpertDimensionOption.TextPosition | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption~TextPosition.md
+R: Array of double values corresponding to x, y, and z coordinates of the dimension text
+<<< IDimXpertDimensionTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance.md
+X: This interface is the base class for several more specific interfaces (see the See Also section below). You can access more general annotation information using IDimXpertAnnotation. Use the IDimXpertAnnotation::Type property to find out which specific interface is needed to acquire more information for a given DimXpert tolerance type.
+<<< IDimXpertDimensionTolerance.BlockToleranceDecimalPlaces | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance~BlockToleranceDecimalPlaces.md
+R: Number of decimal places.
+<<< IDimXpertDimensionTolerance.DimensionType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance~DimensionType.md
+R: Type of this DimXpert dimension tolerance as defined in swDimXpertDimensionToleranceType_e
+<<< IDimXpertDimensionTolerance.GetNominalValue | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance~GetNominalValue.md
+R: Value of the dimension tolerance.
+<<< IDimXpertDimensionTolerance.GetPlusAndMinusTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance~GetPlusAndMinusTolerance.md
+P: Plus: The plus value
+P: Minus: The minus value
+R: True if the method call was successful; false otherwise
+<<< IDimXpertDimensionTolerance.GetUpperAndLowerLimit | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance~GetUpperAndLowerLimit.md
+P: Upper: Upper limit
+P: Lower: Lower limit
+R: True if the method call is successful; false otherwise
+<<< IDimXpertDimensionTolerance.LimitsAndFitsCode | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance~LimitsAndFitsCode.md
+R: Limits and fits code
+<<< IDimXpertDistanceBetweenDimTol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDistanceBetweenDimTol.md
+X: You can access more general dimension tolerance information using IDimXpertDimensionTolerance.
+<<< IDimXpertDistanceBetweenDimTol.GetDirectionVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDistanceBetweenDimTol~GetDirectionVector.md
+P: I: I component of the direction vector
+P: J: J component of the direction vector
+P: K: K component of the direction vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertDistanceBetweenDimTol.GetFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDistanceBetweenDimTol~GetFeature.md
+P: Feature: IDimXpertFeature
+P: FosUsage: Feature of size usage as defined in swDimXpertDistanceFosUsage_e
+R: True if the method call is successful; false otherwise
+<<< IDimXpertDistanceBetweenDimTol.GetOriginFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDistanceBetweenDimTol~GetOriginFeature.md
+P: Feature: IDimXpertFeature
+P: FosUsage: Feature of size usage as defined in swDimXpertDistanceFosUsage_e
+R: True if the method call is successful; false otherwise
+<<< IDimXpertDistanceBetweenDimTol.PatternTreatment | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDistanceBetweenDimTol~PatternTreatment.md
+R: Pattern treatment type as defined in swDimXpertPatternTreatmentType_e
+<<< IDimXpertExtrudeFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertExtrudeFeature.Blind | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature~Blind.md
+R: True if blind; false if through all
+<<< IDimXpertExtrudeFeature.GetBottomBlends | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature~GetBottomBlends.md
+R: IDimXpertFeature
+X: The bottom blend is typically an IDimXpertFilletFeature.
+<<< IDimXpertExtrudeFeature.GetBottomFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature~GetBottomFeature.md
+R: IDimXpertFeature
+X: Only blind extrudes have bottom features. The bottom feature of a blind extrude is usually a DimXpert plane feature.
+<<< IDimXpertExtrudeFeature.GetReferenceFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature~GetReferenceFeature.md
+R: IDimXpertFeature
+X: The reference feature is used to dimension the depth of a blind extrude. This method currently returns a plane feature but could return another feature type. Cast the object returned by this method to IDimXpertPlaneFeature.
+<<< IDimXpertExtrudeFeature.GetSubFeatureCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature~GetSubFeatureCount.md
+R: Number of sub-features in this DimXpert extrude
+<<< IDimXpertExtrudeFeature.GetSubFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature~GetSubFeatures.md
+R: Array of IDimXpertFeature s
+X: This method returns all sub-features of this extrude feature. All of the sub-features returned by this method do not appear on the DimXpertManager tab of the Management Panel. Functional geometry sub-features such as planes and cylinders that represent each individual face of a part are for internal use only. These sub-features do not appear in the DimXpertManager tree. However, manufacturing sub-features that are significant for downstream machining and inspection do appear in the DimXpertManager tree.
+<<< IDimXpertExtrudeFeature.GetTopBlends | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature~GetTopBlends.md
+R: IDimXpertFeature
+X: The top blend is typically an IDimXpertFilletFeature.
+<<< IDimXpertExtrudeFeature.IGetSubFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature~IGetSubFeatures.md
+P: Count: Number of sub-features of this DimXpert extrude feature
+R: in-process, unmanaged C++: Pointer to an array of IDimXpertFeature s VBA, VB.NET, C#, and C++/CLI: Not supported
+X: This method returns all sub-features of this extrude feature. All of the sub-features returned by this method do not appear on the DimXpertManager tab of the Management Panel. Functional geometry sub-features such as planes and cylinders that represent each individual face of a part are for internal use only. These sub-features do not appear in the DimXpertManager tree. However, manufacturing sub-features that are significant for downstream machining and inspection do appear in the DimXpertManager tree.
+See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertExtrudeFeature::GetSubFeatureCount to get the value for the Count parameter.
+<<< IDimXpertFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature.md
+X: This interface is the base class for several more specific DimXpert feature interfaces (see the See Also section below). Use the IDimXpertFeature::Type property to find out which specific feature interface is needed to acquire more information for a given DimXpert feature.
+Note that some features, such as swDimXpertFeatureType_e.swDimXpertFeature_Surface, do not have more specific interfaces. Those particular features are completely defined by the IDimXpertFeature interface.
+<<< IDimXpertFeature.GetAppliedAnnotationCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~GetAppliedAnnotationCount.md
+R: Number of annotations applied to this DimXpert feature
+<<< IDimXpertFeature.GetAppliedAnnotations | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~GetAppliedAnnotations.md
+R: Array of IDimXpertAnnotation s
+<<< IDimXpertFeature.GetAppliedFeatureCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~GetAppliedFeatureCount.md
+R: Number of features that this feature applies to
+X: Applied features of a DimXpertFeature are its many parents in the feature tree of the DimXpertManager tab of the Management Panel. A single DimXpertFeature can have many applied features.
+<<< IDimXpertFeature.GetAppliedFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~GetAppliedFeatures.md
+R: Array of IDimXpertFeature s
+X: Applied features of a DimXpertFeature are its many parents in the feature tree of the DimXpertManager tab of the Management Panel. A single DimXpertFeature can have many applied features.
+<<< IDimXpertFeature.GetFaceCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~GetFaceCount.md
+R: Number of SOLIDWORKS faces in this feature
+<<< IDimXpertFeature.GetFaces | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~GetFaces.md
+R: Array of faces
+<<< IDimXpertFeature.GetModelFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~GetModelFeature.md
+R: IFeature
+<<< IDimXpertFeature.IGetAppliedAnnotations | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~IGetAppliedAnnotations.md
+P: Count: Number of annotations applied to this DimXpert feature
+R: in-process, unmanaged C++: Pointer to an array of IDimXpertAnnotation VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertFeature::GetAppliedAnnotationCount to get the value for the Count parameter.
+<<< IDimXpertFeature.IGetAppliedFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~IGetAppliedFeatures.md
+P: Count: Number of parent features in the DimXpertManager tree that this feature applies to
+R: in-process, unmanaged C++: Pointer to an array of IDimXpertFeature VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Applied features of a DimXpertFeature are its many parents in the feature tree of the DimXpertManager tab of the Management Panel. A single DimXpertFeature can have many applied features.
+See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertFeature::GetAppliedFeatureCount to get the value for the Count parameter.
+<<< IDimXpertFeature.IGetFaces | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~IGetFaces.md
+P: Count: Number of faces on this DimXpert feature
+R: in-process, unmanaged C++: Pointer to an array of faces VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertFeature::GetFaceCount to get the value for the Count parameter.
+<<< IDimXpertFeature.IsCombinedAnnotation | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~IsCombinedAnnotation.md
+R: True if combined, false if not
+X: A combined annotation shares a leader in the user interface.
+<<< IDimXpertFeature.IsSuppressed | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~IsSuppressed.md
+R: True if suppressed; false otherwise
+<<< IDimXpertFeature.Name | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~Name.md
+R: Name of DimXpert feature
+<<< IDimXpertFeature.SetCombineAnnotation | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~SetCombineAnnotation.md
+P: Combine: True to combine the annotation, false to not
+R: Result code as defined in swDimXpertCombineAnnotation_e
+<<< IDimXpertFeature.Type | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature~Type.md
+R: Type of this DimXpert feature as defined in swDimXpertFeatureType_e
+<<< IDimXpertFilletFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFilletFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertFilletFeature.Inner | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFilletFeature~Inner.md
+R: True if fillet is for a hole; false if for a pin
+<<< IDimXpertFilletFeature.Radius | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFilletFeature~Radius.md
+R: Radius of the fillet
+<<< IDimXpertFlatnessTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFlatnessTolerance.md
+X: You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertFlatnessTolerance.GetPerUnitArea | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFlatnessTolerance~GetPerUnitArea.md
+P: Enabled: True if enabled; false otherwise
+P: Length: Length of the area
+P: Width: Width of the area
+P: I: I component of the unit vector
+P: J: J component of the unit vector
+P: K: K component of the unit vector
+R: True if the method call was successful; false otherwise
+<<< IDimXpertGtol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertGtol.md
+X: IDimXpertAnnotation is the parent class of IDimXpertGtol. To access an existing Gtol, call:
+1. IDimXpertAnnotation::GetDisplayEntity to get the SOLIDWORKS annotation object.
+2. IAnnotation::GetSpecificAnnotation to get the Gtol object.
+<<< IDimXpertGtol.Annotation | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertGtol~Annotation.md
+R: IDimXpertAnnotation
+<<< IDimXpertIntersectCircleFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertIntersectCircleFeature.GetIntersectFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature~GetIntersectFeature.md
+P: Feature: IDimXpertFeature
+R: True if the method call is successful; false otherwise
+<<< IDimXpertIntersectCircleFeature.GetNominalCircle | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature~GetNominalCircle.md
+P: R: Radius of the intersect circle
+P: X: X-coordinate of the origin of the intersect circle
+P: Y: Y-coordinate of the origin of the intersect circle
+P: Z: Z-coordinate of the origin of the intersect circle
+P: I: I component of the direction vector of the intersect circle
+P: J: J component of the direction vector of the intersect circle
+P: K: K component of the direction vector of the intersect circle
+R: True if method call is successful; false otherwise
+X: The i, j, and k vector components indicate the pierce direction of a feature. For example, if a feature is sketched on the front x-y plane, its pierce vector is (0, 0, 1).
+<<< IDimXpertIntersectCircleFeature.GetPlaneFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature~GetPlaneFeature.md
+P: Plane: IDimXpertPlaneFeature
+R: True if method call is successful; false otherwise
+<<< IDimXpertIntersectLineFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectLineFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertIntersectLineFeature.GetNominalLine | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectLineFeature~GetNominalLine.md
+P: X: X-coordinate of the intersect line
+P: Y: Y-coordinate of the intersect line
+P: Z: Z-coordinate of the intersect line
+P: I: I component of the direction vector of the intersect line
+P: J: J component of the direction vector of the intersect line
+P: K: K component of the direction vector of the intersect line
+R: True if method call is successful; false otherwise
+<<< IDimXpertIntersectLineFeature.GetPlaneFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectLineFeature~GetPlaneFeatures.md
+P: Plane1: IDimXpertPlaneFeature
+P: Plane2: IDimXpertPlaneFeature
+R: True if method call is successful; false otherwise
+<<< IDimXpertIntersectPlaneFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPlaneFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertIntersectPlaneFeature.GetFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPlaneFeature~GetFeatures.md
+P: Feature1: IDimXpertFeature
+P: Feature2: IDimXpertFeature
+R: True if method call is successful; false otherwise
+<<< IDimXpertIntersectPlaneFeature.GetNominalPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPlaneFeature~GetNominalPlane.md
+P: X: X-coordinate of the intersect plane
+P: Y: Y-coordinate of the intersect plane
+P: Z: Z-coordinate of the intersect plane
+P: I: I component of the direction vector of the intersect plane
+P: J: J component of the direction vector of the intersect plane
+P: K: K component of the direction vector of the intersect plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertIntersectPointFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPointFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertIntersectPointFeature.GetFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPointFeature~GetFeatures.md
+P: Feature1: IDimXpertFeature
+P: Feature2: IDimXpertFeature
+R: True if method call is successful; false otherwise
+<<< IDimXpertIntersectPointFeature.GetNominalPoint | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPointFeature~GetNominalPoint.md
+P: X: X-coordinate of the intersect point
+P: Y: Y-coordinate of the intersect point
+P: Z: Z-coordinate of the intersect point
+R: True if method call is successful; false otherwise
+<<< IDimXpertIntersectPointFeature.GetNominalVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPointFeature~GetNominalVector.md
+P: I: I component of the direction vector of the intersect point
+P: J: J component of the direction vector of the intersect point
+P: K: K component of the direction vector of the intersect point
+R: True if method call is successful; false otherwise
+<<< IDimXpertLineProfileTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertLineProfileTolerance.md
+X: You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertLineProfileTolerance.GetPlanarZoneVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertLineProfileTolerance~GetPlanarZoneVector.md
+P: I: I component of the planar zone vector
+P: J: J component of the planar zone vector
+P: K: K component of the planar zone vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertLineProfileTolerance.OuterToleranceValue | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertLineProfileTolerance~OuterToleranceValue.md
+R: Outer tolerance value
+<<< IDimXpertOrientationTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance.md
+X: This interface defines angularity, parallelism and perpendicularity geometric tolerances. You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertOrientationTolerance.GetMaxTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance~GetMaxTolerance.md
+P: IsMax: True if maximum tolerance is set; false otherwise
+P: Tolerance: Maximum tolerance value
+R: True if the method call is successful; false otherwise
+<<< IDimXpertOrientationTolerance.GetPlanarZoneVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance~GetPlanarZoneVector.md
+P: I: I component of the planar zone vector
+P: J: J component of the planar zone vector
+P: K: K component of the planar zone vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertOrientationTolerance.GetProjectedZone | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance~GetProjectedZone.md
+P: Enabled: True if enabled; false otherwise
+P: Value: Projected zone value
+R: True if the method call is successful; false otherwise
+<<< IDimXpertOrientationTolerance.IsTangentPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance~IsTangentPlane.md
+R: True if tangent plane is specified; false otherwise
+<<< IDimXpertOrientationTolerance.Modifier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance~Modifier.md
+R: Material condition modifier as defined in swDimXpertMaterialConditionModifier_e
+<<< IDimXpertOrientationTolerance.ZoneType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance~ZoneType.md
+R: Orientation zone type as defined in swDimXpertOrientationZoneType_e
+<<< IDimXpertPart.AutoDimensionScheme | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~AutoDimensionScheme.md
+P: Option: IDimXpertAutoDimSchemeOption
+R: True if Auto Dimension Scheme is created, false if not
+X: Before calling this method, call IDimXpertPart::GetAutoDimSchemeOption to populate the Option parameter.
+<<< IDimXpertPart.DeleteAllTolerances | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~DeleteAllTolerances.md
+R: True if all tolerances were removed; false if not
+<<< IDimXpertPart.GetAnnotation | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~GetAnnotation.md
+P: Name: Name of the annotation
+R: IDimXpertAnnotation
+<<< IDimXpertPart.GetAnnotationCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~GetAnnotationCount.md
+R: Number of DimXpert annotations
+<<< IDimXpertPart.GetAnnotations | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~GetAnnotations.md
+R: Array of IDimXpertAnnotation s
+<<< IDimXpertPart.GetAutoDimSchemeOption | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~GetAutoDimSchemeOption.md
+R: IDimXpertAutoDimSchemeOption
+<<< IDimXpertPart.GetBlockTolerances | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~GetBlockTolerances.md
+R: IDimXpertBlockTolerances
+<<< IDimXpertPart.GetDimOption | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~GetDimOption.md
+R: IDimXpertDimensionOption
+<<< IDimXpertPart.GetFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~GetFeature.md
+P: Name: Name of a DimXpert feature
+R: IDimXpertFeature
+<<< IDimXpertPart.GetFeatureCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~GetFeatureCount.md
+R: Number of DimXpert features
+<<< IDimXpertPart.GetFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~GetFeatures.md
+R: Array of IDimXpertFeature s
+<<< IDimXpertPart.IGetAnnotations | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~IGetAnnotations.md
+P: Count: Number of DimXpert annotations
+R: - in-process, unmanaged C++: Pointer to an array of IDimXpertAnnotation - VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertPart::GetAnnotationCount to get the value for the Count parameter.
+<<< IDimXpertPart.IGetFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~IGetFeatures.md
+P: Count: Number of DimXpert features
+R: - in-process, unmanaged C++: Pointer to an array of IDimXpertFeature - VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertPart::GetFeatureCount to get the value for the Count parameter.
+<<< IDimXpertPart.ImportScheme | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~ImportScheme.md
+P: Filename: Full path name of the file whose tolerance scheme to import to ConfigurationName
+P: ConfigurationName: Name of the configuration in the open model document to which to import the tolerance scheme
+R: True if tolerance scheme successfully imported, false if not
+<<< IDimXpertPart.InsertAngleDimension | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertAngleDimension.md
+P: Option: IDimXpertDimensionOption
+R: True if the angle dimension is created, false if not
+<<< IDimXpertPart.InsertBasicDimension | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertBasicDimension.md
+P: Option: IDimXpertDimensionOption
+R: True if the basic dimension is created, false if not
+X: A DimXpert basic dimension is the distance or angle between selected reference features.
+Before calling this method:
+1. Call IDimXpertPart::GetDimOption to get an instance of IDimXpertDimensionOption.
+2. Set:
+- IDimXpertDimensionOption::TextPosition or IDimXpertDimensionOption::DimensionPositionOption (if both are set, only DimensionPositionOption is in force) for distance-between dimensions.
+- IDimXpertDimensionOption::TextPosition for angle-between dimensions.
+3. Populate Option with the instance of IDimXpertDimensionOption.
+4. Multi-select reference features using IModelDocExtension::SelectByID2:
+1. Origin feature (Append = false)
+2. Tolerance feature (Append = true)
+<<< IDimXpertPart.InsertDatum | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertDatum.md
+P: Option: IDimXpertDimensionOption
+R: True if datum is created, false if not
+X: Before calling this method:
+1. Call IDimXpertPart::GetDimOption to get an instance of IDimXpertDimensionOption.
+2. Set IDimXpertDimensionOption::FeatureSelectorOptions.
+3. Populate Option with the instance of IDimXpertDimensionOption.
+4. Select a face to which to attach the datum.
+<<< IDimXpertPart.InsertGtol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertGtol.md
+P: Type: Type of Gtol to insert as defined in swDimXpertGtolType_e
+R: IDimXpertAnnotation
+X: Before calling this method, select the leader attachment points.
+This method creates an empty Gtol symbol with a default value of 0.02 for Tolerance 1. To fill in the text and symbols, get the underlying SOLIDWORKS Gtol object and use IGtol::SetFrameSymbols2 and IGtol::SetFrameValues2 to change frame symbols and values.
+<<< IDimXpertPart.InsertLocationDimension | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertLocationDimension.md
+P: Option: IDimXpertDimensionOption or Null to dimension the location of the face along an axis normal to the locating feature and to place the dimension text at a default position
+R: True if location dimension is created, false if not
+X: Before calling this method:
+1. Call IDimXpertPart::GetDimOption to get an instance of IDimXpertDimensionOption.
+2. For distance-between dimensions, set IDimXpertDimensionOption::TextPosition or IDimXpertDimensionOption::DimensionPositionOption (if both are set, only DimensionPositionOption is in force). For angle-between dimensions, set IDimXpertDimensionOption::TextPosition.
+3. Populate Option with the instance of IDimXpertDimensionOption.
+4. Multi-select:
+1. Origin Feature
+2. Tolerance (locating) Feature
+<<< IDimXpertPart.InsertPattern | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertPattern.md
+P: Option: IDimXpertDimensionOption
+P: PatternType: 0 = linked 1 = manual 2 = collection
+P: FindAll: True to select similar faces for PatternTypes 1 and 2, false to not. (see Remarks)
+R: False
+X: Before calling this method:
+1. Call IDimXpertPart::GetDimOption to get an instance of IDimXpertDimensionOption.
+2. Set IDimXpertDimensionOption::FeatureSelectorOptions to swDimXpertFeatureSelectorOption_Default to enable the FindAll property. If IDimXpertDimensionOption::FeatureSelectorOptions is set to anything other than the default, the FindAll setting is not in force.)
+3. Populate Option with the instance of IDimXpertDimensionOption.
+4. Select the features according to PatternType:
+1. If PatternType is linked, then select one feature to automatically select all features of the pattern.
+2. If PatternType is manual or collection and FindAll is set to true, then select one feature to automatically select all similar features on the face.
+5. Set the selection mark for each selected feature to a unique value that is greater than 50.
+<<< IDimXpertPart.InsertSizeDimension | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertSizeDimension.md
+P: Option: IDimXpertDimensionOption
+R: True if size dimension is created, false if not
+X: Before calling this method:
+1. Call IDimXpertPart::GetDimOption to get an instance of IDimXpertDimensionOption.
+2. Set IDimXpertDimensionOption::TextPosition and/or IDimXpertDimensionOption::FeatureSelectorOptions.
+3. Populate Option with the instance of IDimXpertDimensionOption.
+4. Select a face or edge.
+<<< IDimXpertPart.ShowToleranceStatus | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~ShowToleranceStatus.md
+R: True if tolerance status is displayed; false if not
+<<< IDimXpertPatternFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPatternFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertPatternFeature.GetSubFeatureCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPatternFeature~GetSubFeatureCount.md
+R: Number of sub-features in the pattern
+<<< IDimXpertPatternFeature.GetSubFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPatternFeature~GetSubFeatures.md
+R: Array of IDimXpertFeature s
+X: This method returns all sub-features of the pattern feature. All of the sub-features returned by this method do not appear on the DimXpertManager tab of the Management Panel. Functional geometry sub-features such as planes and cylinders that represent each individual face of a part are for internal use only. These sub-features do not appear in the DimXpertManager tree. However, manufacturing sub-features that are significant for downstream machining and inspection of the pattern do appear in the DimXpertManager tree.
+For example, the sub-features of a simple hole are related to functional geometry and are not listed in the DimXpertManager tree. However, the sub-features of a hole pattern are manufacturing features (e.g., simple holes) that are significant for downstream processes. These manufacturing features are listed in the DimXpertManager tree.
+<<< IDimXpertPatternFeature.IGetSubFeatures | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPatternFeature~IGetSubFeatures.md
+P: Count: Number of sub-features in this DimXpert pattern feature
+R: in-process, unmanaged C++: Pointer to an array of IDimXpertFeature VBA, VB.NET, C#, and C++/CLI: Not supported
+X: This method returns all sub-features of the pattern feature. All of the sub-features returned by this method do not appear on the DimXpertManager tab of the Management Panel. Functional geometry sub-features such as planes and cylinders that represent each individual face of a part are for internal use only. These sub-features do not appear in the DimXpertManager tree. However, manufacturing sub-features that are significant for downstream machining and inspection of the pattern do appear in the DimXpertManager tree.
+For example, the sub-features of a simple hole are related to functional geometry and are not listed in the DimXpertManager tree. However, the sub-features of a hole pattern are manufacturing features (e.g., simple holes) that are significant for downstream processes. These manufacturing features are listed in the DimXpertManager tree.
+See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertPatternFeature::GetSubFeatureCount to get the value for the Count parameter.
+<<< IDimXpertPatternFeature.PatternType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPatternFeature~PatternType.md
+R: Type of this DimXpert pattern feature as defined in swDimXpertFeatureType_e
+<<< IDimXpertPlaneFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPlaneFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertPlaneFeature.GetNominalPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPlaneFeature~GetNominalPlane.md
+P: X: X-coordinate of the plane
+P: Y: Y-coordinate of the plane
+P: Z: Z-coordinate of the plane
+P: I: I component of the direction vector of the plane
+P: J: J component of the direction vector of the plane
+P: K: K component of the direction vector of the plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertPositionTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPositionTolerance.md
+X: You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertPositionTolerance.GetMaxTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPositionTolerance~GetMaxTolerance.md
+P: IsMax: True if maximum tolerance is set; false otherwise
+P: Tolerance: Maximum tolerance value
+R: True if the method call is successful; false otherwise
+<<< IDimXpertPositionTolerance.GetPlanarZoneVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPositionTolerance~GetPlanarZoneVector.md
+P: I: I component of the planar zone vector
+P: J: J component of the planar zone vector
+P: K: K component of the planar zone vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertPositionTolerance.GetProjectedZone | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPositionTolerance~GetProjectedZone.md
+P: Enabled: True if enabled; false otherwise
+P: Value: Projected zone value
+R: True if the method call is successful; false otherwise
+<<< IDimXpertPositionTolerance.Modifier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPositionTolerance~Modifier.md
+R: Material condition modifier as defined in swDimXpertMaterialConditionModifier_e
+<<< IDimXpertPositionTolerance.ZoneType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPositionTolerance~ZoneType.md
+R: Position zone type as defined in swDimXpertPositionZoneType_e
+<<< IDimXpertRadiusDimTol | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertRadiusDimTol.md
+X: Use the Dimension Size icon on the DimXpert toolbar to create radius dimensions on non-closed curved faces.
+You can access more general dimension tolerance information using IDimXpertDimensionTolerance.
+<<< IDimXpertRadiusDimTol.PatternTreatment | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertRadiusDimTol~PatternTreatment.md
+R: Pattern treatment type as defined in swDimXpertPatternTreatmentType_e
+<<< IDimXpertRefPlaneFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertRefPlaneFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertRefPlaneFeature.GetNominalPlane | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertRefPlaneFeature~GetNominalPlane.md
+P: X: X-coordinate of the planev
+P: Y: Y-coordinate of the plane
+P: Z: Z-coordinate of the plane
+P: I: I component of the direction vector of the plane
+P: J: J component of the direction vector of the plane
+P: K: K component of the direction vector of the plane
+R: True if method call is successful; false otherwise
+<<< IDimXpertSphereFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSphereFeature.md
+X: You can access more general DimXpert feature information using IDimXpertFeature.
+<<< IDimXpertSphereFeature.GetNominalSphere | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSphereFeature~GetNominalSphere.md
+P: R: Radius of the sphere
+P: X: X-coordinate of the origin of the sphere
+P: Y: Y-coordinate of the origin of the sphere
+P: Z: Z-coordinate of the origin of the sphere
+R: True if method call is successful; false otherwise
+<<< IDimXpertSphereFeature.Inner | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSphereFeature~Inner.md
+R: True if sphere is a hole; false if a pin
+<<< IDimXpertStraightnessTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertStraightnessTolerance.md
+X: You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertStraightnessTolerance.GetMaxTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertStraightnessTolerance~GetMaxTolerance.md
+P: IsMax: True if maximum tolerance is set; false otherwise
+P: Tolerance: Maximum tolerance value
+R: True if the method call is successful; false otherwise
+<<< IDimXpertStraightnessTolerance.GetPerUnitLength | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertStraightnessTolerance~GetPerUnitLength.md
+P: Enabled: True if per unit length is in effect; false otherwise
+P: Distance: Length distance per unit length
+R: True if the method call is successful; false otherwise
+<<< IDimXpertStraightnessTolerance.GetPlanarZoneVector | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertStraightnessTolerance~GetPlanarZoneVector.md
+P: I: I component of the planar zone vector
+P: J: J component of the planar zone vector
+P: K: K component of the planar zone vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertStraightnessTolerance.Modifier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertStraightnessTolerance~Modifier.md
+R: Material condition modifier as defined in swDimXpertMaterialConditionModifier_e
+<<< IDimXpertStraightnessTolerance.ZoneType | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertStraightnessTolerance~ZoneType.md
+R: Position zone type as defined in swDimXpertStraightnessZoneType_e
+<<< IDimXpertSurfaceProfileTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSurfaceProfileTolerance.md
+X: You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertSurfaceProfileTolerance.OuterToleranceValue | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSurfaceProfileTolerance~OuterToleranceValue.md
+R: Outer tolerance value
+<<< IDimXpertSymmetryTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance.md
+X: You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertSymmetryTolerance.GetMaxTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance~GetMaxTolerance.md
+P: IsMax: True if maximum tolerance is set; false otherwise
+P: Tolerance: Maximum tolerance value
+R: True if the method call is successful; false otherwise
+<<< IDimXpertSymmetryTolerance.GetZoneDirection | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance~GetZoneDirection.md
+P: I: I component of the zone direction vector
+P: J: J component of the zone direction vector
+P: K: K component of the zone direction vector
+R: True if the method call is successful; false otherwise
+<<< IDimXpertSymmetryTolerance.Modifier | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance~Modifier.md
+R: Material condition modifier as defined in swDimXpertMaterialConditionModifier_e
+<<< IDimXpertTangencyTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTangencyTolerance.md
+X: Tangency tolerances are created automatically by the system when dimensions are created that constrain aspects of the part.
+You can access more general geometric tolerance information using IDimXpertTolerance.
+<<< IDimXpertTangencyTolerance.OriginFeature | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTangencyTolerance~OriginFeature.md
+R: IDimXpertFeature
+<<< IDimXpertTolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance.md
+X: DimXpert geometric tolerance annotations are configured by clicking the Geometric Tolerance icon on the DimXpert tool bar and entering information in the Geometric Tolerance Properties dialog. This interface accesses the tolerances, datums, and datum modifiers that are set in this dialog.
+Use this interface to obtain circularity, cylindricity, circular runout, and total runout tolerance data. This interface is also the base class for several more specific interfaces (see See Also section below). You can access more general annotation information using IDimXpertAnnotation. Use the IDimXpertAnnotation::Type property to find out which specific interface is needed to acquire more information for a given tolerance type.
+<<< IDimXpertTolerance.GetPrimaryDatumCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~GetPrimaryDatumCount.md
+R: Number of primary datums
+<<< IDimXpertTolerance.GetPrimaryDatumModifiers | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~GetPrimaryDatumModifiers.md
+R: Array of integers as defined in swDimXpertMaterialConditionModifier_e
+X: The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::GetPrimaryDatums.
+<<< IDimXpertTolerance.GetPrimaryDatums | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~GetPrimaryDatums.md
+R: Array of IDimXpertDatum s
+X: The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::GetPrimaryDatumModifiers.
+<<< IDimXpertTolerance.GetSecondaryDatumCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~GetSecondaryDatumCount.md
+R: Number of secondary datums
+<<< IDimXpertTolerance.GetSecondaryDatumModifiers | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~GetSecondaryDatumModifiers.md
+R: Array of integers as defined in swDimXpertMaterialConditionModifier_e
+X: The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::GetSecondaryDatums.
+<<< IDimXpertTolerance.GetSecondaryDatums | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~GetSecondaryDatums.md
+R: Array of IDimXpertDatum s
+X: The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::GetSecondaryDatumModifiers.
+<<< IDimXpertTolerance.GetTertiaryDatumCount | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~GetTertiaryDatumCount.md
+R: Number of tertiary datums
+<<< IDimXpertTolerance.GetTertiaryDatumModifiers | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~GetTertiaryDatumModifiers.md
+R: Array of integers as defined in swDimXpertMaterialConditionModifier_e
+X: The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::GetTertiaryDatums.
+<<< IDimXpertTolerance.GetTertiaryDatums | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~GetTertiaryDatums.md
+R: Array of IDimXpertDatum s
+X: The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::GetTertiaryDatumModifiers.
+<<< IDimXpertTolerance.IGetPrimaryDatumModifiers | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~IGetPrimaryDatumModifiers.md
+P: Count: Number of primary datum modifiers
+R: in-process, unmanaged C++: Pointer to an array of integers VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertTolerance::GetPrimaryDatumCount to get the value for the Count parameter.
+The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::IGetPrimaryDatums.
+<<< IDimXpertTolerance.IGetPrimaryDatums | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~IGetPrimaryDatums.md
+P: Count: Number of primary datums
+R: in-process, unmanaged C++: Pointer to an array of IDimXpertDatum VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertTolerance::GetPrimaryDatumCount to get the value for the Count parameter.
+The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::IGetPrimaryDatumModifiers.
+<<< IDimXpertTolerance.IGetSecondaryDatumModifiers | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~IGetSecondaryDatumModifiers.md
+P: Count: Number of secondary datum modifiers
+R: in-process, unmanaged C++: Pointer to an array of integers VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertTolerance::GetSecondaryDatumCount to get the value for the Count parameter.
+The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::IGetSecondaryDatums.
+<<< IDimXpertTolerance.IGetSecondaryDatums | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~IGetSecondaryDatums.md
+P: Count: Number of secondary datums
+R: in-process, unmanaged C++: Pointer to an array of IDimXpertDatum VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertTolerance::GetSecondaryDatumCount to get the value for the Count parameter.
+The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::IGetSecondaryDatumModifiers.
+<<< IDimXpertTolerance.IGetTertiaryDatumModifiers | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~IGetTertiaryDatumModifiers.md
+P: Count: Number of tertiary datum modifiers
+R: in-process, unmanaged C++: Pointer to an array of integers VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertTolerance::GetTertiaryDatumCount to get the value for the Count parameter.
+The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::IGetTertiaryDatums.
+<<< IDimXpertTolerance.IGetTertiaryDatums | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~IGetTertiaryDatums.md
+P: Count: Number of tertiary datums
+R: in-process, unmanaged C++: Pointer to an array of IDimXpertDatum VBA, VB.NET, C#, and C++/CLI: Not supported
+X: See In-process Methods for details about this type of method.
+Before calling this method, call IDimXpertTolerance::GetTertiaryDatumCount to get the value for the Count parameter.
+The members of the array returned by this method map to the members of the array returned by IGetDimXpertTolerance::IGetTertiaryDatumModifiers.
+<<< IDimXpertTolerance.Tolerance | swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance~Tolerance.md
+R: Value of geometric tolerance

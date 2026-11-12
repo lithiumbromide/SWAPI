@@ -50,13 +50,7 @@ void SetWallThickness(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,14 @@ See
 
 ## VBA Syntax
 
-See
-
-[LoftFeatureData::SetWallThickness](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~SetWallThickness.html)
-
-.
+See [LoftFeatureData::SetWallThickness](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~SetWallThickness.html).
 
 ## See Also
 
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [ILoftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData_members.html)
-
 [ILoftFeatureData::GetWallThickness Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~GetWallThickness.html)
-
 [ILoftFeatureData::IsThinFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~IsThinFeature.html)
-
 [ILoftFeatureData::ThinWallType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~ThinWallType.html)
 
 ## Availability

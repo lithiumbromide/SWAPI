@@ -45,13 +45,7 @@ property System.bool UsePositionTrimSideBends {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True trims side bends, false does not (default)
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData::UsePositionTrimSideBends](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~UsePositionTrimSideBends.html)
-
-.
+See [EdgeFlangeFeatureData::UsePositionTrimSideBends](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~UsePositionTrimSideBends.html).
 
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)
-
 [IEdgeFlangeFeatureData::GetPositionReferenceType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~GetPositionReferenceType.html)
-
 [IEdgeFlangeFeatureData::PositionType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~PositionType.html)
 
 ## Availability

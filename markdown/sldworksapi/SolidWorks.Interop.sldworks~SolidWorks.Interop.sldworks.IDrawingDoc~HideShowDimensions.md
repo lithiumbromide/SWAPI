@@ -39,21 +39,11 @@ void HideShowDimensions()
 void HideShowDimensions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::HideShowDimensions](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~HideShowDimensions.html)
-
-.
+See [DrawingDoc::HideShowDimensions](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~HideShowDimensions.html).
 
 ## Remarks
 
@@ -62,25 +52,15 @@ When SOLIDWORKS displays a suppressed dimension as dimmed, users can select it t
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::AttachDimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~AttachDimensions.html)
-
 [IDrawingDoc::DragModelDimension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~DragModelDimension.html)
-
 [IDrawingDoc::Dimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~Dimensions.html)
-
 [IDrawingDoc::InsertModelDimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertModelDimensions.html)
-
 [IDrawingDoc::InsertRefDim Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertRefDim.html)
-
 [IDrawingDoc::InsertBaseDim Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertBaseDim.html)
-
 [IDrawingDoc::InsertModelAnnotations3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertModelAnnotations3.html)
-
 [IDrawingDoc::SketchDim Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~SketchDim.html)
-
 [IDrawingDoc::AutoDimension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~AutoDimension.html)
 
 ## Availability

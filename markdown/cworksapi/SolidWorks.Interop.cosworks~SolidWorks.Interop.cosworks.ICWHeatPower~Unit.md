@@ -47,30 +47,20 @@ property System.int Unit {
 
 ### Property Value
 
-Units as defined in[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+Units as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~Unit.html)
-
-.
+See [CWHeatPower::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~Unit.html).
 
 ## Examples
 
-See the
-
-[ICWHeatPower](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
-examples.
+See the [ICWHeatPower](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html) examples.
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::HPValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~HPValue.html)
 
 ## Availability

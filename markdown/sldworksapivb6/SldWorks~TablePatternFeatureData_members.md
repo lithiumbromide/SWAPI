@@ -1,6 +1,5 @@
 ---
-title: "TablePatternFeatureData Object
-Members"
+title: "TablePatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TablePatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TablePatternFeatureData_members.html"
 ---
 
-# TablePatternFeatureData Object
-Members
+# TablePatternFeatureData Object Members
 
 ## Public Methods
 

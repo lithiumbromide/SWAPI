@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to reverse the direction of this simulation spring feature, false to not
 
 ## VBA Syntax
 
-See
-
-[SimulationSpringFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~ReverseDirection.html)
-
-.
+See [SimulationSpringFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~ReverseDirection.html).
 
 ## See Also
 
 [ISimulationSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData.html)
-
 [ISimulationSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData_members.html)
 
 ## Availability

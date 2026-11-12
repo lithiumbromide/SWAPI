@@ -40,13 +40,7 @@ AutoBalloonOptions CreateAutoBalloonOptions()
 AutoBalloonOptions^ CreateAutoBalloonOptions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::CreateAutoBalloonOptions](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateAutoBalloonOptions.html)
-
-.
+See [DrawingDoc::CreateAutoBalloonOptions](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateAutoBalloonOptions.html).
 
 ## Examples
 
 [Add Autoballoons to Drawing (C#)](Add_Autoballoon_to_Face_Example_CSharp.htm)
-
 [Add Autoballoons to Drawing (VB.NET)](Add_Autoballoon_to_Face_Example_VBNET.htm)
-
 [Add Autoballoons to Drawing (VBA)](Add_Autoballoon_to_Face_Example_VB.htm)
 
 ## Remarks
@@ -73,26 +61,15 @@ See
 To automatically create BOM balloons:
 
 1. Select one or more views or sheets for which to automatically create BOM balloons.
-2. Call this method to create an
-
-  [IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html)
-
-  object.
+2. Call this method to create an [IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html) object.
 3. Set the properties on the IAutoBalloonOptions object.
-4. Pass the IAutoBalloonOptions object in a call to
-
-  [IDrawingDoc::AutoBalloon5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~AutoBalloon5.html)
-
-  .
+4. Pass the IAutoBalloonOptions object in a call to [IDrawingDoc::AutoBalloon5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~AutoBalloon5.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IModelDocExtension::CreateBalloonOptions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateBalloonOptions.html)
-
 [IModelDocExtension::CreateStackedBalloonOptions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateStackedBalloonOptions.html)
 
 ## Availability

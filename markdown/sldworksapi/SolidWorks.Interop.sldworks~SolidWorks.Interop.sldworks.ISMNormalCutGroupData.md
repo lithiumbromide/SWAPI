@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISM
 
 Allows access to a sheet metal normal cut feature's cut-extrude face group.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,27 +41,15 @@ public interface class ISMNormalCutGroupData
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutGroupData](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutGroupData.html)
-
-.
+See [SMNormalCutGroupData](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutGroupData.html).
 
 ## Examples
 
-See the
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-example.
+See the [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html) example.
 
 ## Remarks
 
-See the
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-Remarks.
+See the [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html) Remarks.
 
 ## Accessors
 
@@ -76,5 +64,4 @@ Remarks.
 ## See Also
 
 [ISMNormalCutGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutGroupData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

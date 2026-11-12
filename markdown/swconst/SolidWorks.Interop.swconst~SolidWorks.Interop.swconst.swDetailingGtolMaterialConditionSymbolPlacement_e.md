@@ -9,9 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDetaili
 
 # swDetailingGtolMaterialConditionSymbolPlacement_e Enumeration
 
-Tools > System Options > Document properties > Annotations > Geometric Tolerances > Material Condition Symbol Placement
-
-.
+**Tools > System Options > Document properties > Annotations > Geometric Tolerances > Material Condition Symbol Placement**.
 
 ## Syntax
 

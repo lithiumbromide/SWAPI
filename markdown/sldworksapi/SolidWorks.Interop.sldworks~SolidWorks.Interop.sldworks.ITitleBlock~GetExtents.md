@@ -58,13 +58,7 @@ void GetExtents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,18 +69,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[TitleBlock::GetExtents](ms-its:sldworksapivb6.chm::/sldworks~TitleBlock~GetExtents.html)
-
-.
+See [TitleBlock::GetExtents](ms-its:sldworksapivb6.chm::/sldworks~TitleBlock~GetExtents.html).
 
 ## See Also
 
 [ITitleBlock Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock.html)
-
 [ITitleBlock Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock_members.html)
-
 [ITitleBlock::SetExtents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock~SetExtents.html)
 
 ## Availability

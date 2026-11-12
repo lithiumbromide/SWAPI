@@ -51,20 +51,17 @@ Thickness of the plate
 
 ## VBA Syntax
 
-See[CostAnalysisMachining::CurrentPlateThickness.](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~CurrentPlateThickness.html)
+See [CostAnalysisMachining::CurrentPlateThickness.](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~CurrentPlateThickness.html)
 
 ## Examples
 
 [Create Machining Costing Analysis (C#)](Create_Machining_Costing_Analyses_Example_CSharp.htm)
-
 [Create Machining Costing Analysis (VB.NET)](Create_Machining_Costing_Analyses_Example_VBNET.htm)
-
 [Create Machining Costing Analysis (VBA)](Create_Machining_Costing_Analyses_Example_VB.htm)
 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
 
 ## Availability

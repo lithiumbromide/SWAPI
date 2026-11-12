@@ -45,13 +45,7 @@ property System.bool EnableFeatureTree {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to update FeatureManager design tree, false to not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::EnableFeatureTree](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~EnableFeatureTree.html)
-
-.
+See [FeatureManager::EnableFeatureTree](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~EnableFeatureTree.html).
 
 ## Examples
 
@@ -73,16 +63,12 @@ See
 
 Use this property to temporarily enable or disable the FeatureManager design tree while an add-in is running a series of operations. Temporarily disabling the FeatureManager design tree should increase performance. However, while the FeatureManager design tree is disabled and not being updated, it may become out of date with what is actually in the model.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-If an interactive user attempts to interact with the FeatureManager design tree while it is in this out-of-date state, problems could occur. Normally, this should not happen because the add-in should only be disabling the FeatureManager design tree update temporarily and then enabling it immediately after the series of operations completes. However, if there is any possibility that the interactive user could interact with the FeatureManager design tree while it is an out-of-date state, then also use[IFeatureManager::EnableFeatureTreeWindow](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~EnableFeatureTreeWindow.html), which prohibits any user interaction with the FeatureManager design tree because the control itself is disabled.
+If an interactive user attempts to interact with the FeatureManager design tree while it is in this out-of-date state, problems could occur. Normally, this should not happen because the add-in should only be disabling the FeatureManager design tree update temporarily and then enabling it immediately after the series of operations completes. However, if there is any possibility that the interactive user could interact with the FeatureManager design tree while it is an out-of-date state, then also use [IFeatureManager::EnableFeatureTreeWindow](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~EnableFeatureTreeWindow.html), which prohibits any user interaction with the FeatureManager design tree because the control itself is disabled.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::UpdateFeatureTree Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~UpdateFeatureTree.html)
 
 ## Availability

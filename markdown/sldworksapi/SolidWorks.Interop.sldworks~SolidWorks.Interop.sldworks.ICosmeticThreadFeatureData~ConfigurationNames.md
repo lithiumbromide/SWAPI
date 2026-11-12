@@ -45,13 +45,7 @@ property System.Object^ ConfigurationNames {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Array of configuration names
 
 ## VBA Syntax
 
-See
-
-[CosmeticThreadFeatureData::ConfigurationNames](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~ConfigurationNames.html)
-
-.
+See [CosmeticThreadFeatureData::ConfigurationNames](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~ConfigurationNames.html).
 
 ## See Also
 
 [ICosmeticThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
 [ICosmeticThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData_members.html)
 
 ## Availability

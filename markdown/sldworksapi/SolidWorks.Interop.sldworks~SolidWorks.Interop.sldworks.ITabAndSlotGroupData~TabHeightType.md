@@ -45,52 +45,27 @@ property System.int TabHeightType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Tab height type as defined in
-
-[swTabSlotFeatureHeightType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabSlotFeatureHeightType_e.html)
+Tab height type as defined in [swTabSlotFeatureHeightType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabSlotFeatureHeightType_e.html)
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::TabHeightType](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabHeightType.html)
-
-.
+See [TabAndSlotGroupData::TabHeightType](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabHeightType.html).
 
 ## Remarks
 
 If you set this property to swTabSlotFeatureHeightType_e:
 
-- Blind, then use
-
-  [ITabAndSlotGroupData::TabHeightValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabHeightValue.html)
-
-  to set the tab height.
-- OffsetFromSurface, then use
-
-  [ITabAndSlotGroupData::TabOffsetValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabOffsetValue.html)
-
-  to set the tab offset value as measured from the slot face. Also set
-
-  [ITabAndSlotGroupData::TabReverseDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabReverseDirection.html)
-
-  .
+- Blind, then use [ITabAndSlotGroupData::TabHeightValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabHeightValue.html) to set the tab height.
+- OffsetFromSurface, then use [ITabAndSlotGroupData::TabOffsetValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabOffsetValue.html) to set the tab offset value as measured from the slot face. Also set [ITabAndSlotGroupData::TabReverseDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabReverseDirection.html).
 - UpToSurface, then the tab height is automatically set to the distance up to the slot face.
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

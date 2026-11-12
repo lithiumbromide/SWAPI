@@ -48,16 +48,11 @@ URL of HTML page
 
 ## VBA Syntax
 
-See
-
-[SwQuickTip::Url](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~Url.html)
-
-.
+See [SwQuickTip::Url](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~Url.html).
 
 ## See Also
 
 [ISwQuickTip Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip.html)
-
 [ISwQuickTip Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMa
 
 # MooneyRivlinConstants Property (ICWMaterial)
 
-Gets or sets the Mooney Rivlin constants for the MooneyRivlin material
-model used in nonlinear studies only.
+Gets or sets the Mooney Rivlin constants for the MooneyRivlin material model used in nonlinear studies only.
 
 ## Syntax
 
@@ -52,11 +51,7 @@ Number of Mooney Rivlin constants
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::MooneyRivlinConstants](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~MooneyRivlinConstants.html)
-
-.
+See [CWMaterial::MooneyRivlinConstants](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~MooneyRivlinConstants.html).
 
 ## Remarks
 
@@ -65,7 +60,6 @@ Mooney Rivlin constants are valid in nonlinear studies only.
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

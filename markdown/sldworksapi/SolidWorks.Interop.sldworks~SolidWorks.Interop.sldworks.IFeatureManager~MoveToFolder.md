@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # MoveToFolder Method (IFeatureManager)
 
-Moves the selected feature or folder in the
-
-Solid Bodies
-
-Feature Manager design tree structure to the specified folder in the
-
-Solid Bodies
-
-Feature Manager design tree structure.
+Moves the selected feature or folder in the Solid Bodies Feature Manager design tree structure to the specified folder in the Solid Bodies Feature Manager design tree structure.
 
 ## Syntax
 
@@ -63,40 +55,29 @@ System.bool MoveToFolder(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `MoveToFeat`: Folder to which to move feature
-- `MoveFromFeat`: Folder from which to move featureParamDesc
+- `MoveFromFeat`: Folder from which to move feature
 - `IsFolder`: True if feature is a folder, false if a feature
 
 ### Return Value
 
-True if feature is moved, false if notParamDesc
+True if feature is moved, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::MoveToFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MoveToFolder.html)
-
-.
+See [FeatureManager::MoveToFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MoveToFolder.html).
 
 ## Remarks
 
-This method is specific to theSolid Bodiesfolder only; it does not work for components.
+This method is specific to the Solid Bodies folder only; it does not work for components.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

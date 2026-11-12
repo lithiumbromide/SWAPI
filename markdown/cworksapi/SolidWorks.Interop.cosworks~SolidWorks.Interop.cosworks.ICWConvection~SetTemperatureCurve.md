@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # SetTemperatureCurve Method (ICWConvection)
 
-Obsolete. Superseded by[ICWConvection::SetTemperatureCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~SetTemperatureCurve2.html).
+Obsolete. Superseded by [ICWConvection::SetTemperatureCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~SetTemperatureCurve2.html).
 
 ## Syntax
 
@@ -53,12 +53,8 @@ System.int SetTemperatureCurve(
 
 ### Parameters
 
-- `VarCurveData`: Array of temperature curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Temperature curve error as defined in[swsTemperatureCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureCurveError_e.html)
+- `VarCurveData`: Array of temperature curve data (see Remarks)
+- `ErrorCode`: Temperature curve error as defined in [swsTemperatureCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureCurveError_e.html)
 
 ### Return Value
 
@@ -66,32 +62,25 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWConvection::SetTemperatureCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~SetTemperatureCurve.html)
-
-.
+See [CWConvection::SetTemperatureCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~SetTemperatureCurve.html).
 
 ## Remarks
 
 Temperature curve array:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = temperature value at the`ith`data point
+- xi = temperature value at the `ith` data point
 - yi = property value associated with temperature xi
 
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [ICWConvection Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html)
-
 [ICWConvection::GetTemperatureCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~GetTemperatureCurve.html)
-
 [ICWConvection::GetTemperatureCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~GetTemperatureCurve.html)
 
 ## Availability

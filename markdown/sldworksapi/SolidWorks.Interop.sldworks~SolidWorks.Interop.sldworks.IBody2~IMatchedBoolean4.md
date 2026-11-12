@@ -75,36 +75,26 @@ EnumBodies2^ IMatchedBoolean4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `OperationType`: One of the following operation types:
 
-- SWBODYADD
-- SWBODYCUT
-- SWBODYINTERSECT
+  - SWBODYADD
+  - SWBODYCUT
+  - SWBODYINTERSECT
 - `ToolBodyCount`: Number of bodies
-- `ToolBodyArr`: Array of[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)of size toolBodyCount
+- `ToolBodyArr`: Array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) of size toolBodyCount
 - `NumOfMatchingFaces`: Number of matching faces
-- `FaceList1`: First face list (seeRemarks)
-- `FaceList2`: Second face listkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}(seeRemarks)
+- `FaceList1`: First face list (see Remarks)
+- `FaceList2`: Second face list (see Remarks)
 - `MatchingTolerance`: Tolerance to use to check matching faces
-- `ErrorCode`: Error indicated as defined in[swBodyOperationError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyOperationError_e.html)
+- `ErrorCode`: Error indicated as defined in [swBodyOperationError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBodyOperationError_e.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::IMatchedBoolean4](ms-its:sldworksapivb6.chm::/sldworks~Body2~IMatchedBoolean4.html)
-
-.
+See [Body2::IMatchedBoolean4](ms-its:sldworksapivb6.chm::/sldworks~Body2~IMatchedBoolean4.html).
 
 ## Remarks
 
@@ -117,7 +107,7 @@ Having a list of matching face pairs may allow the matched boolean operator to r
 The arguments FaceList1 and FaceList2 arguments can be empty lists. If matching face pairs are passed in, these faces must match such that:
 
 - the surface geometry is coinciding.
-- kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}for each edge in a face, there is an edge in the other face that coincides.
+- for each edge in a face, there is an edge in the other face that coincides.
 
 If MatchingTolerance is less than 1.0e-8 or 0.0, then a default tolerance of 2.0e-6 is used. You decide the tolerance value based on the similarities and subtle differences between the two bodies.
 
@@ -126,9 +116,7 @@ This method supports multibody parts.
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::MatchedBoolean4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~MatchedBoolean4.html)
 
 ## Availability

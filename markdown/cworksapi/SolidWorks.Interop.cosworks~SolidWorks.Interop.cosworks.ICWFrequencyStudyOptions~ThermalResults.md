@@ -47,36 +47,22 @@ property System.int ThermalResults {
 
 ### Property Value
 
-Temperature source as defined by
-
-[swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html)
+Temperature source as defined by [swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::ThermalResults](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~ThermalResults.html)
-
-.
+See [CWFrequencyStudyOptions::ThermalResults](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~ThermalResults.html).
 
 ## Examples
 
-See the
-
-[ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-examples.
+See the [ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html) examples.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
-
 [ICWFrequencyStudyOptions::ThermalStudyName Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~ThermalStudyName.html)
-
 [ICWFrequencyStudyOptions::TimeStep Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~TimeStep.html)
-
 [ICWFrequencyStudyOptions::FlowTemperatureFile Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~FlowTemperatureFile.html)
 
 ## Availability

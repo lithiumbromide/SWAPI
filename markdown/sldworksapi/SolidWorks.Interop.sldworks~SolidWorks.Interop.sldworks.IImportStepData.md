@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIm
 
 Allows you to specify values when importing STEP data.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,17 @@ public interface class IImportStepData
 
 ## VBA Syntax
 
-See
-
-[ImportStepData](ms-its:sldworksapivb6.chm::/sldworks~ImportStepData.html)
-
-.
+See [ImportStepData](ms-its:sldworksapivb6.chm::/sldworks~ImportStepData.html).
 
 ## Examples
 
 [Import STEP File (C#)](Import_STEP_File_Example_CSharp.htm)
-
 [Import STEP File (VB.NET)](Import_STEP_File_Example_VBNET.htm)
-
 [Import STEP File (VBA)](Import_STEP_File_Example_VB.htm)
 
 ## Remarks
 
-When IImportStepData is initialized, the current default environment setting,[swImportStepConfigData](ms-its:swconst.chm::/FileOpenOptionsGeneral.htm), initializes IImportStepData::MapConfigurationData unless you explicitly set IImportStepData::MapConfigurationData. Then the IImportStepData::MapConfigurationData setting overrides swImportStepConfigData for this import only.
+When IImportStepData is initialized, the current default environment setting, [swImportStepConfigData](ms-its:swconst.chm::/FileOpenOptionsGeneral.htm), initializes IImportStepData::MapConfigurationData unless you explicitly set IImportStepData::MapConfigurationData. Then the IImportStepData::MapConfigurationData setting overrides swImportStepConfigData for this import only.
 
 ## Accessors
 
@@ -70,5 +64,4 @@ When IImportStepData is initialized, the current default environment setting,[sw
 ## See Also
 
 [IImportStepData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportStepData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

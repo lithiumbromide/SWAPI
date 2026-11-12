@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetCenterMarkCount Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetCenterMarkCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetCenterMarkCount2.html)
-
-.
+Obsolete. Superseded by [IView::GetCenterMarkCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetCenterMarkCount2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetCenterMarkCount()
 System.int GetCenterMarkCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::GetCenterMarkCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetCenterMarkCount.html)
-
-.
+See [View::GetCenterMarkCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetCenterMarkCount.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

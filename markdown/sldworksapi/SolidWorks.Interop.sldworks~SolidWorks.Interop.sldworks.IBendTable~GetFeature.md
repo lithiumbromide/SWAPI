@@ -40,13 +40,7 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[BendTable::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~BendTable~GetFeature.html)
-
-.
+See [BendTable::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~BendTable~GetFeature.html).
 
 ## Examples
 
 [Insert Bend Table (C#)](Insert_Bend_Table_Example_CSharp.htm)
-
 [Insert Bend Table (VB.NET)](Insert_Bend_Table_Example_VBNET.htm)
-
 [Insert Bend Table (VBA)](Insert_Bend_Table_Example_VB.htm)
 
 ## See Also
 
 [IBendTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable.html)
-
 [IBendTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable_members.html)
 
 ## Availability

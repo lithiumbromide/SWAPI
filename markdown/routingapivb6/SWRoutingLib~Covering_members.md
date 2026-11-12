@@ -1,6 +1,5 @@
 ---
-title: "Covering Object
-Members"
+title: "Covering Object Members"
 project: "SOLIDWORKS Routing Type Library"
 interface: "Covering_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "routingapivb6/SWRoutingLib~Covering_members.html"
 ---
 
-# Covering Object
-Members
+# Covering Object Members
 
 ## Public Properties
 

@@ -40,43 +40,29 @@ System.object GetDimensionDisplayInfo5()
 System.Object^ GetDimensionDisplayInfo5();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[View::GetDimensionDisplayInfo5](ms-its:sldworksapivb6.chm::/sldworks~View~GetDimensionDisplayInfo5.html)
-
-.
+See [View::GetDimensionDisplayInfo5](ms-its:sldworksapivb6.chm::/sldworks~View~GetDimensionDisplayInfo5.html).
 
 ## Remarks
 
 The data returned is an array of doubles as follows:
 
-dimensionCount,[lineCount,[lineSegmentCount[StartPt[3],endPt[3]] ],arcCount,[arcSegmentCount,[arcCenter[3], [StartPt[3],EndPt[3]] ],arrowCount,[arrowTipPt[3],arrowVector[3],arrowWidth,arrowHeight],tolType,isDual,showParens,textAngle, value1Pos[3],tolmax1Pos[3],tolmin1Pos[3],value2Pos[3],tolmax2Pos[3],tolmin2Pos[3],prefixPos[3],suffixPos[3],tolbox1Corner1[3],tolbox1Corner2[3],tolbox2Corner1[3],tolbox2Corner2[3],parenArc1Start[3],parenArc1End[3],parenArc1Center[3],parenArc1Vector[3],parenArc2Start[3],parenArc2End[3],parenArc2Center[3],parenArc2Vector[3],callout1TextPos[3],callout2TextPos[3]]
+dimensionCount, [lineCount, [lineSegmentCount [StartPt[3], endPt[3] ] ], arcCount, [arcSegmentCount, [arcCenter[3], [StartPt[3], EndPt[3] ] ], arrowCount, [ arrowTipPt[3], arrowVector[3], arrowWidth, arrowHeight ], tolType, isDual, showParens, textAngle, value1Pos[3], tolmax1Pos[3], tolmin1Pos[3], value2Pos[3], tolmax2Pos[3], tolmin2Pos[3], prefixPos[3], suffixPos[3], tolbox1Corner1[3], tolbox1Corner2[3], tolbox2Corner1[3], tolbox2Corner2[3], parenArc1Start[3], parenArc1End[3], parenArc1Center[3], parenArc1Vector[3], parenArc2Start[3], parenArc2End[3], parenArc2Center[3], parenArc2Vector[3], callout1TextPos[3], callout2TextPos[3] ]
 
 where:
 
-dimensionCount= number of dimensions found in the drawing sheet or drawing view
+dimensionCount = number of dimensions found in the drawing sheet or drawing view
 
 For each dimension:
 
-lineCount= number of extension and leader lines for this dimension
+lineCount = number of extension and leader lines for this dimension
 
 For each line:
 
@@ -84,9 +70,9 @@ StartPt[3] = array of three doubles representing the line start point
 
 EndPt[3] = array of three doubles representing the line end point
 
-Repeating theStartPt[3] andEndPt[3] pair up tolineSegmentCount
+Repeating the StartPt[3] and EndPt[3] pair up to lineSegmentCount
 
-arcCount= number of leader lines which are arcs for this dimension
+arcCount = number of leader lines which are arcs for this dimension
 
 For each arc:
 
@@ -96,29 +82,29 @@ StartPt[3] = array of three doubles representing the arc start point
 
 EndPt[3] = array of three doubles representing the arc end point
 
-Repeating thearcCenter[3],StartPt[3], andEndPt[3] group up toarcSegmentCount
+Repeating the arcCenter[3], StartPt[3], and EndPt[3] group up to arcSegmentCount
 
-arrowCount= number of arrowheads for this dimension
+arrowCount = number of arrowheads for this dimension
 
 arrowTipPt[3] = array of three doubles representing the arrowhead tip location
 
 arrowVector[3] = array of three doubles representing the arrow direction
 
-arrowWidth= arrowhead width
+arrowWidth = arrowhead width
 
-arrowHeight= arrowhead height
+arrowHeight = arrowhead height
 
-Repeating thearrowTipPt[3],arrowVector[3],arrowWidthandarrowHeightgroup up toarrowCountarrowheads
+Repeating the arrowTipPt[3], arrowVector[3], arrowWidth and arrowHeight group up to arrowCount arrowheads
 
-tolType= tolerance type as defined in[swTolType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolType_e.html)
+tolType = tolerance type as defined in [swTolType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolType_e.html)
 
-isDual= True if this dimension is a dual dimension, false otherwise
+isDual = True if this dimension is a dual dimension, false otherwise
 
-showParens= True if parenthesis are shown, false otherwise
+showParens = True if parenthesis are shown, false otherwise
 
 The next 25 values represent text angle and positioning. All text positions are the upper-left corner of the string.
 
-textAngle= text angle in radians (counter clockwise from +ve x-axis)
+textAngle = text angle in radians (counter clockwise from +ve x-axis)
 
 value1Pos[3] = XYZ position of text 1; the position is the upper-left corner of the actual string
 
@@ -126,11 +112,11 @@ tolmax1Pos[3] = XYZ position of maximum tolerance text 1
 
 tolmin1Pos[3] = XYZ position of minimum tolerance text 1
 
-value2Pos[3] = XYZ position of text 2; data returned is only valid ifisDualis true
+value2Pos[3] = XYZ position of text 2; data returned is only valid if isDual is true
 
-tolmax2Pos[3] = XYZ position of maximum tolerance text 2; data returned is valid whenisDualis true
+tolmax2Pos[3] = XYZ position of maximum tolerance text 2; data returned is valid when isDual is true
 
-tolmin2Pos[3] = XYZ position of minimum tolerance text 2; data returned is valid whenisDualis true
+tolmin2Pos[3] = XYZ position of minimum tolerance text 2; data returned is valid when isDual is true
 
 prefixPos[3] = XYZ position of prefix text
 
@@ -142,11 +128,11 @@ tolbox1Corner1[3] = XYZ corner 1 of tolerance box 1
 
 tolbox1Corner2[3] = XYZ corner 2 of tolerance box 1
 
-tolbox2Corner1[3] = XYZ corner 1 of tolerance box 2; data returned is valid whenisDualis true
+tolbox2Corner1[3] = XYZ corner 1 of tolerance box 2; data returned is valid when isDual is true
 
-tolbox2corner2[3] = XYZ corner 2 of tolerance box 2; data returned is valid whenisDualis true
+tolbox2corner2[3] = XYZ corner 2 of tolerance box 2; data returned is valid when isDual is true
 
-The next 24 values are valid whenshowParensis True; for example, when this is a reference dimension.
+The next 24 values are valid when showParens is True; for example, when this is a reference dimension.
 
 parenArc1Start[3] = XYZ start point of the arc representing parenthesis 1
 
@@ -168,48 +154,33 @@ callout1TextPos[3] = XYZ position of first callout text (text above)
 
 callout2TextPos[3] = XYZ position of second callout text (text below)
 
-Repeating the entirelineCount callout2TextPosgroup up todimensionCountdimensions
+Repeating the entire lineCount callout2TextPos group up to dimensionCount dimensions
 
 For example, if a particular sheet or view had two dimensions, and the first dimension had three lines, zero arcs, and two arrows, and the second dimension had two lines, one arc, and two arrows, then array returned would be as follows:
 
-[2,3, line1StartPtx, y, z, line1EndPtx, y, z, line2StartPtx, y, z, line2EndPtx, y, z, line3StartPtx, y, z, line3EndPtx, y, z,0,2, arrow1TipPtx, y, z, arrow1Vectorx, y, z, arrow1Width, arrow1Height, arrow2TipPtx, y, z, arrow2Vectorx, y, z, arrow2Width, arrow2Height, tolType, isDual, showParens, textAngle, value1Posx, y, z, tolmax1Posx, y, z, tolmin1Posx, y, z, value2Posx, y, z, tolmax2Posx, y, z, tolmin2Posx, y, z, prefixPosx, y, z, suffixPosx, y, z, tolbox1Corner1x, y, z, tolbox1Corner2x, y, z, tolbox2Corner1x, y, z, tolbox2Corner2x, y, z, parenArc1Startx, y, z, parenArc1Endx, y, z, parenArc1Centerx, y, z, parenArc1Vectorx, y, z, parenArc2Startx, y, z, parenArc2Endx, y, z, parenArc2Centerx, y, z, parenArc2Vectorx, y, z, callout1TextPosx, y, z, callout2TextPosx, y, z,2,line1StartPtx, y, z, line1EndPtx, y, z, line2StartPtx, y, z, line2EndPtx, y, z,1, arc1Vertexx, y, z, arc1StartPtx, y, z, arc1EndPtx, y, z,2, arrow1TipPtx, y, z, arrow1Vectorx, y, z, arrow1Width, arrow1Height, arrow2TipPtx, y, z, arrow2Vectorx, y, z, arrow2Width, arrow2Height, tolType, isDual, showParens, textAngle, value1Posx, y, z, tolmax1Posx, y, z, tolmin1Posx, y, z, value2Posx, y, z, tolmax2Posx, y, z, tolmin2Posx, y, z, prefixPosx, y, z, suffixPosx, y, z, tolbox1Corner1x, y, z, tolbox1Corner2x, y, z, tolbox2Corner1x, y, z, tolbox2Corner2x, y, z, parenArc1Startx, y, z, parenArc1Endx, y, z, parenArc1Centerx, y, z, parenArc1Vectorx,y, z, parenArc2Startx, y, z, parenArc2Endx, y, z, parenArc2Centerx, y, z, parenArc2Vectorx, y, z, callout1TextPosx, y, z, callout2TextPosx, y, z]
+[ 2, 3, line1StartPtx, y, z, line1EndPtx, y, z, line2StartPtx, y, z, line2EndPtx, y, z, line3StartPtx, y, z, line3EndPtx, y, z, 0, 2, arrow1TipPtx, y, z, arrow1Vectorx, y, z, arrow1Width, arrow1Height, arrow2TipPtx, y, z, arrow2Vectorx, y, z, arrow2Width, arrow2Height, tolType, isDual, showParens, textAngle, value1Posx, y, z, tolmax1Posx, y, z, tolmin1Posx, y, z, value2Posx, y, z, tolmax2Posx, y, z, tolmin2Posx, y, z, prefixPosx, y, z, suffixPosx, y, z, tolbox1Corner1x, y, z, tolbox1Corner2x, y, z, tolbox2Corner1x, y, z, tolbox2Corner2x, y, z, parenArc1Startx, y, z, parenArc1Endx, y, z, parenArc1Centerx, y, z, parenArc1Vectorx, y, z, parenArc2Startx, y, z, parenArc2Endx, y, z, parenArc2Centerx, y, z, parenArc2Vectorx, y, z, callout1TextPosx, y, z, callout2TextPosx, y, z, 2, line1StartPtx, y, z, line1EndPtx, y, z, line2StartPtx, y, z, line2EndPtx, y, z, 1, arc1Vertexx, y, z, arc1StartPtx, y, z, arc1EndPtx, y, z, 2, arrow1TipPtx, y, z, arrow1Vectorx, y, z, arrow1Width, arrow1Height, arrow2TipPtx, y, z, arrow2Vectorx, y, z, arrow2Width, arrow2Height, tolType, isDual, showParens, textAngle, value1Posx, y, z, tolmax1Posx, y, z, tolmin1Posx, y, z, value2Posx, y, z, tolmax2Posx, y, z, tolmin2Posx, y, z, prefixPosx, y, z, suffixPosx, y, z, tolbox1Corner1x, y, z, tolbox1Corner2x, y, z, tolbox2Corner1x, y, z, tolbox2Corner2x, y, z, parenArc1Startx, y, z, parenArc1Endx, y, z, parenArc1Centerx, y, z, parenArc1Vectorx, y, z, parenArc2Startx, y, z, parenArc2Endx, y, z, parenArc2Centerx, y, z, parenArc2Vectorx, y, z, callout1TextPosx, y, z, callout2TextPosx, y, z]
 
-where the3, 0,2and2,1,2represent the number of lines, arcs and arrows for each of the two dimensions. The information for the second dimension is underlined to distinguish it from information returned for the first dimension.
+where the 3, 0, 2 and 2, 1, 2 represent the number of lines, arcs and arrows for each of the two dimensions. The information for the second dimension is underlined to distinguish it from information returned for the first dimension.
 
-This method does not support[hole callouts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsHoleCallout.html).
+This method does not support [hole callouts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsHoleCallout.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetDimensionCount4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionCount4.html)
-
 [IView::GetDimensionDisplayInfoSize2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionDisplayInfoSize2.html)
-
 [IView::GetDimensionDisplayString4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionDisplayString4.html)
-
 [IView::GetDimensionIds4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionIds4.html)
-
 [IView::GetDimensionInfo6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionInfo6.html)
-
 [IView::GetDimensionString4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionString4.html)
-
 [IView::GetFirstDisplayDimension5 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstDisplayDimension5.html)
-
 [IView::IGetDimensionDisplayInfo5 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetDimensionDisplayInfo5.html)
-
 [IView::IGetDimensionDisplayString4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetDimensionDisplayString4.html)
-
 [IView::IGetDimensionIds4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetDimensionIds4.html)
-
 [IView::IGetDimensionInfo6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetDimensionInfo6.html)
-
 [IView::IGetDimensionString4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetDimensionString4.html)
-
 [IView::ProjectedDimensions Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~ProjectedDimensions.html)
-
 [IView::GetFirstDisplayDimension5 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstDisplayDimension5.html)
 
 ## Availability

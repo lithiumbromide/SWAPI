@@ -57,11 +57,9 @@ System.Object^ GetFatigueForEntities(
 
 ### Parameters
 
-- `NComponent`: Fatigue component as defined in
-
-[swsFatigueComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueComponent_e.html)
+- `NComponent`: Fatigue component as defined in [swsFatigueComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueComponent_e.html)
 - `ArraySelectedEntities`: Array of geometric entities
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -69,18 +67,12 @@ Array of fatigue component values
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetFatigueForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetFatigueForEntities.html)
-
-.
+See [CWResults::GetFatigueForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetFatigueForEntities.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxFatigue Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFatigue.html)
 
 ## Availability

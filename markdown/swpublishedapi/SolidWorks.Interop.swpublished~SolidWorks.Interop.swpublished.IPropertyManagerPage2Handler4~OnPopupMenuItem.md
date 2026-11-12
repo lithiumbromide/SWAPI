@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnPopupMenuItem Method (IPropertyManagerPage2Handler4)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnPopupMenuItem](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnPopupMenuItem.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnPopupMenuItem](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnPopupMenuItem.html).
 
 ## Syntax
 
@@ -56,14 +52,9 @@ void OnPopupMenuItem(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler4::OnPopupMenuItem](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler4~OnPopupMenuItem.html)
-
-.
+See [PropertyManagerPage2Handler4::OnPopupMenuItem](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler4~OnPopupMenuItem.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler4 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler4.html)
-
 [IPropertyManagerPage2Handler4 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler4_members.html)

@@ -42,13 +42,7 @@ property MathTransform^ Transform {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,22 +50,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[RefPlane::Transform](ms-its:sldworksapivb6.chm::/sldworks~RefPlane~Transform.html)
-
-.
+See [RefPlane::Transform](ms-its:sldworksapivb6.chm::/sldworks~RefPlane~Transform.html).
 
 ## Examples
 
 [Get the Normal and Origin of a Reference Plane Using Its Transform (VBA)](Get_the_Normal_and_Origin_of_a_Reference_Plane_Using_Its_Transform_Example_VB.htm)
-
 [Get Transform of Plane (VBA)](Get_Transform_of_Plane_Example_VB.htm)
 
 ## See Also
 
 [IRefPlane Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
 [IRefPlane Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane_members.html)
 
 ## Availability

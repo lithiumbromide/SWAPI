@@ -42,34 +42,25 @@ MotionStudy^ Duplicate();
 
 ### Return Value
 
-Duplicated
-
-[motion study](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy.html)
+Duplicated [motion study](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy.html)
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::Duplicate](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~Duplicate.html)
-
-.
+See [MotionStudy::Duplicate](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~Duplicate.html).
 
 ## Examples
 
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study (VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## Remarks
 
-The name of the duplicated motion study isMotion Studyfollowed by a number. The number for the duplicated motion study is determined by incrementing the number of theMotion Studywith the highest number by 1 and adding that number to the duplicated motion study's name (e.g., onlyMotion Study1exists; duplicated motion study's name isMotion Study 2).
+The name of the duplicated motion study is Motion Study followed by a number. The number for the duplicated motion study is determined by incrementing the number of the Motion Study with the highest number by 1 and adding that number to the duplicated motion study's name (e.g., only Motion Study 1 exists; duplicated motion study's name is Motion Study 2).
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
 
 ## Availability

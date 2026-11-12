@@ -42,13 +42,7 @@ property System.bool OverrideSettings {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ True to override document settings, false to not
 
 ## VBA Syntax
 
-See
-
-[LibraryFormToolFeatureData::OverrideSettings](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~OverrideSettings.html)
-
-.
+See [LibraryFormToolFeatureData::OverrideSettings](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~OverrideSettings.html).
 
 ## See Also
 
 [ILibraryFormToolFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
 [ILibraryFormToolFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData_members.html)
-
 [ILibraryFormToolFeatureData::OverrideDocumentSettings Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~OverrideDocumentSettings.html)
-
 [ILibraryFormToolFeatureData::ShowCenter Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~ShowCenter.html)
-
 [ILibraryFormToolFeatureData::ShowProfile Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~ShowProfile.html)
-
 [ILibraryFormToolFeatureData::ShowPunch Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~ShowPunch.html)
 
 ## Availability

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIn
 
 Allows access to the components that interfere when interference detection is calculated.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,27 +41,17 @@ public interface class IInterference
 
 ## VBA Syntax
 
-See
-
-[Interference](ms-its:sldworksapivb6.chm::/sldworks~Interference.html)
-
-.
+See [Interference](ms-its:sldworksapivb6.chm::/sldworks~Interference.html).
 
 ## Examples
 
 [Run Interference Detection (C#)](Run_Interference_Detection_Example_CSharp.htm)
-
 [Run Interference Detection (VB.NET)](Run_Interference_Detection_Example_VBNET.htm)
-
 [Run Interference Detection (VBA)](Run_Interference_Detection_Example_VB.htm)
 
 ## Accessors
 
-[IInterferenceDetectionMgr::GetInterferences](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IInterferenceDetectionMgr~GetInterferences.html)
-
-and
-
-[IInterferenceDetectionMgr::IGetInterferences](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IInterferenceDetectionMgr~IGetInterferences.html)
+[IInterferenceDetectionMgr::GetInterferences](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IInterferenceDetectionMgr~GetInterferences.html) and [IInterferenceDetectionMgr::IGetInterferences](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IInterferenceDetectionMgr~IGetInterferences.html)
 
 ## Access Diagram
 
@@ -70,9 +60,6 @@ and
 ## See Also
 
 [IInterference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [ICollision Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html)

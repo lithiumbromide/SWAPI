@@ -57,18 +57,12 @@ property PDMWGroup^ default [System.Object^] {
 
 ## VBA Syntax
 
-See
-
-[PDMWGroups::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroups~Item.html)
-
-.
+See [PDMWGroups::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroups~Item.html).
 
 ## See Also
 
 [IPDMWGroups Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups.html)
-
 [IPDMWGroups Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups_members.html)
-
 [IPDMWGroups::Count Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups~Count.html)
 
 ## Availability

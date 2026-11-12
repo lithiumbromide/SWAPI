@@ -9,23 +9,15 @@ source: "obsoleteapi/FeatureManager/FeatureManager__FeatureExtrusionThin.htm"
 
 # FeatureManager::FeatureExtrusionThin
 
-This method is obsolete and has been superseded
-by[FeatureManager::FeatureExtrusionThin2](sldworksAPI.chm::/FeatureManager/FeatureManager__FeatureExtrusionThin2.htm).
+This method is obsolete and has been superseded by [FeatureManager::FeatureExtrusionThin2](sldworksAPI.chm::/FeatureManager/FeatureManager__FeatureExtrusionThin2.htm).
 
 Description
 
-This method creates an extruded
-thin feature.
+This method creates an extruded thin feature.
 
 Syntax (OLE Automation)
 
-pFeat = FeatureManager.FeatureExtrusionThin ( sd,
-flip, dir, t1, t2, d1, d2, dchk1, dchk2, ddir1, ddir2, dang1, dang2, offsetReverse1,
-offsetReverse2, translateSurface1, translateSurface2, merge, thk1, thk2,
-endThk, revThinDir, capEnds, addBends, bendRad, useFeatScope, useAutoSelect
-)
-
-(Table)=========================================================
+pFeat = FeatureManager.FeatureExtrusionThin ( sd, flip, dir, t1, t2, d1, d2, dchk1, dchk2, ddir1, ddir2, dang1, dang2, offsetReverse1, offsetReverse2, translateSurface1, translateSurface2, merge, thk1, thk2, endThk, revThinDir, capEnds, addBends, bendRad, useFeatScope, useAutoSelect )
 
 | Input: | (VARIANT_BOOL) sd | TRUE for single ended, FALSE for double ended |
 | --- | --- | --- |
@@ -41,18 +33,10 @@ endThk, revThinDir, capEnds, addBends, bendRad, useFeatScope, useAutoSelect
 | Input: | (VARIANT_BOOL) ddir2 | TRUE for second draft angle to be inward, FALSE to be outward |
 | Input: | (double) dang1 | First draft angle |
 | Input: | (double) dang2 | Second draft angle |
-| Input: | (VARIANT_BOOL) offsetReverse1 | If you chose to offset the first end condition from another face or
-plane, then TRUE specifies offset in direction away from the sketch, FALSE
-specifies offset from the face or plane in direction toward the sketch |
-| Input: | (VARIANT_BOOL) offsetReverse2 | If you chose to offset the second end condition from another face or
-plane, then TRUE specifies offset in direction away from the sketch, FALSE
-specifies offset from the face or plane in direction toward the sketch |
-| Input: | (VARIANT_BOOL) translateSurface1 | When you choose swEndcondOffsetFromSurface as the termination type for
-the first end, then TRUE specifies that the end of the extrusion is a
-translation of the reference surface, FALSE specifies to use a true offset |
-| Input: | (VARIANT_BOOL) translateSurface2 | When you choose swEndcondOffsetFromSurface as the termination type for
-the second end, then TRUE specifies that the end of the extrusion is a
-translation of the reference surface, FALSE specifies to use a true offset |
+| Input: | (VARIANT_BOOL) offsetReverse1 | If you chose to offset the first end condition from another face or plane, then TRUE specifies offset in direction away from the sketch, FALSE specifies offset from the face or plane in direction toward the sketch |
+| Input: | (VARIANT_BOOL) offsetReverse2 | If you chose to offset the second end condition from another face or plane, then TRUE specifies offset in direction away from the sketch, FALSE specifies offset from the face or plane in direction toward the sketch |
+| Input: | (VARIANT_BOOL) translateSurface1 | When you choose swEndcondOffsetFromSurface as the termination type for the first end, then TRUE specifies that the end of the extrusion is a translation of the reference surface, FALSE specifies to use a true offset |
+| Input: | (VARIANT_BOOL) translateSurface2 | When you choose swEndcondOffsetFromSurface as the termination type for the second end, then TRUE specifies that the end of the extrusion is a translation of the reference surface, FALSE specifies to use a true offset |
 | Input: | (double) thk1 | Wall thickness 1 (Mid-plane type uses (thk1)/2 for each direction) |
 | Input: | (double) thk2 | Wall thickness 2 (Only used when thinType =3 ) |
 | Input: | (double) endThk | End cap thickness (Only used when capEnds = 1) |
@@ -60,21 +44,13 @@ translation of the reference surface, FALSE specifies to use a true offset |
 | Input: | (long) capEnds | Cap the ends: 0 = no cap 1 = cap (base features only) |
 | Input: | (VARIANT_BOOL) addBends | TRUE to add auto bends (open profile base features only), FALSE to not |
 | Input: | (double) bendRad | Fillet radii if addBends = TRUE |
-| Input: | (VARIANT_BOOL) useFeatScope | TRUE if the feature only affects selected bodies, FALSE if the feature
-affects all bodies |
-| Input: | (VARIANT_BOOL) useAutoSelect | TRUE to automatically select all bodies and have the feature affect
-those bodies, FALSE to select the bodies the feature affects (see Remarks ) |
+| Input: | (VARIANT_BOOL) useFeatScope | TRUE if the feature only affects selected bodies, FALSE if the feature affects all bodies |
+| Input: | (VARIANT_BOOL) useAutoSelect | TRUE to automatically select all bodies and have the feature affect those bodies, FALSE to select the bodies the feature affects (see Remarks ) |
 | Output: | (LPFEATURE) pFeat | Pointer to the Feature object |
 
 Syntax (COM)
 
-status = FeatureManager->FeatureExtrusionThin
-( sd, flip, dir, t1, t2, d1, d2, dchk1, dchk2, ddir1, ddir2, dang1, dang2,
-offsetReverse1, offsetReverse2, translateSurface1, translateSurface2,
-merge, thk1, thk2, endThk, revThinDir, capEnds, addBends, bendRad, useFeatScope,
-useAutoSelect, &pFeat )
-
-(Table)=========================================================
+status = FeatureManager->FeatureExtrusionThin ( sd, flip, dir, t1, t2, d1, d2, dchk1, dchk2, ddir1, ddir2, dang1, dang2, offsetReverse1, offsetReverse2, translateSurface1, translateSurface2, merge, thk1, thk2, endThk, revThinDir, capEnds, addBends, bendRad, useFeatScope, useAutoSelect, &pFeat )
 
 | Input: | (VARIANT_BOOL) sd | TRUE for single ended, FALSE for double ended |
 | --- | --- | --- |
@@ -90,18 +66,10 @@ useAutoSelect, &pFeat )
 | Input: | (VARIANT_BOOL) ddir2 | TRUE for second draft angle to be inward, FALSE to be outward |
 | Input: | (double) dang1 | First draft angle |
 | Input: | (double) dang2 | Second draft angle |
-| Input: | (VARIANT_BOOL) offsetReverse1 | If you chose to offset the first end condition from another face or
-plane, then TRUE specifies offset in direction away from the sketch, FALSE
-specifies offset from the face or plane in direction toward the sketch |
-| Input: | (VARIANT_BOOL) offsetReverse2 | If you chose to offset the second end condition from another face or
-plane, then TRUE specifies offset in direction away from the sketch, FALSE
-specifies offset from the face or plane in direction toward the sketch |
-| Input: | (VARIANT_BOOL) translateSurface1 | When you choose swEndcondOffsetFromSurface as the termination type for
-the first end, then TRUE specifies that the end of the extrusion is a
-translation of the reference surface, FALSE specifies to use a true offset |
-| Input: | (VARIANT_BOOL) translateSurface2 | When you choose swEndcondOffsetFromSurface as the termination type for
-the second end, then TRUE specifies that the end of the extrusion is a
-translation of the reference surface, FALSE specifies to use a true offset |
+| Input: | (VARIANT_BOOL) offsetReverse1 | If you chose to offset the first end condition from another face or plane, then TRUE specifies offset in direction away from the sketch, FALSE specifies offset from the face or plane in direction toward the sketch |
+| Input: | (VARIANT_BOOL) offsetReverse2 | If you chose to offset the second end condition from another face or plane, then TRUE specifies offset in direction away from the sketch, FALSE specifies offset from the face or plane in direction toward the sketch |
+| Input: | (VARIANT_BOOL) translateSurface1 | When you choose swEndcondOffsetFromSurface as the termination type for the first end, then TRUE specifies that the end of the extrusion is a translation of the reference surface, FALSE specifies to use a true offset |
+| Input: | (VARIANT_BOOL) translateSurface2 | When you choose swEndcondOffsetFromSurface as the termination type for the second end, then TRUE specifies that the end of the extrusion is a translation of the reference surface, FALSE specifies to use a true offset |
 | Input: | (double) thk1 | Wall thickness 1 (Mid-plane type uses (thk1)/2 for each direction) |
 | Input: | (double) thk2 | Wall thickness 2 (Only used when thinType =3 ) |
 | Input: | (double) endThk | End cap thickness (Only used when capEnds = 1) |
@@ -109,84 +77,17 @@ translation of the reference surface, FALSE specifies to use a true offset |
 | Input: | (long) capEnds | Cap the ends: 0 = no cap 1 = cap (base features only) |
 | Input: | (VARIANT_BOOL) addBends | TRUE to add auto bends (open profile base features only), FALSE to not |
 | Input: | (double) bendRad | Fillet radii if addBends = TRUE |
-| Input: | (VARIANT_BOOL) useFeatScope | TRUE if the feature only affects selected bodies, FALSE if the feature
-affects all bodies |
-| Input: | (VARIANT_BOOL) useAutoSelect | TRUE to automatically select all bodies and have the feature affect
-those bodies, FALSE to select the bodies the feature affects (see Remarks ) |
+| Input: | (VARIANT_BOOL) useFeatScope | TRUE if the feature only affects selected bodies, FALSE if the feature affects all bodies |
+| Input: | (VARIANT_BOOL) useAutoSelect | TRUE to automatically select all bodies and have the feature affect those bodies, FALSE to select the bodies the feature affects (see Remarks ) |
 | Output: | (LPFEATURE) pFeat | Pointer to the Feature object |
 | Return: | (HRESULT) status | S_OK if successful |
 
-Parameters Table Start
-
 Remarks
 
-The default direction for cut operations are opposite
-the sketch normal. The default direction for boss operations is along
-the sketch normal. Setting the dir argument to TRUE reverses the default
-direction. For double-ended extrusions, Direction 2 is always be opposite
-to Direction 1.
+The default direction for cut operations are opposite the sketch normal. The default direction for boss operations is along the sketch normal. Setting the dir argument to TRUE reverses the default direction. For double-ended extrusions, Direction 2 is always be opposite to Direction 1.
 
-The default sketch normal is the same as the face
-or plane normal where the sketch was placed. To determine this normal
-vector, refer to Face2::Normal and RefPlane::Transform, respectively.
+The default sketch normal is the same as the face or plane normal where the sketch was placed. To determine this normal vector, refer to Face2::Normal and RefPlane::Transform, respectively.
 
-When useAutoSelect is FALSE, the user must select
-the bodies that the feature will affect.
+When useAutoSelect is FALSE, the user must select the bodies that the feature will affect.
 
-When using cut or cavity features that result in
-multiple bodies, you cannot select to keep all of the resulting bodies
-or one or more selected bodies.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2003$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2007\obsoleteapi\FeatureManager\FeatureManager__FeatureExtrusionThin.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="FeatureManager_Object$$**$$Feature_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2007\obsoleteapi\FeatureManager\FeatureManager__FeatureExtrusionThin.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+When using cut or cavity features that result in multiple bodies, you cannot select to keep all of the resulting bodies or one or more selected bodies.

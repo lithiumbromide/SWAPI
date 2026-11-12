@@ -9,8 +9,7 @@ source: "cworksapi/Create_Dynamic_Random_Vibration_Study_Example_VBNET.htm"
 
 # Create Linear Dynamic Random Vibration Study Example (VB.NET)
 
-This example shows how to create a linear dynamic study with a random
-vibration analysis and get some study options.
+This example shows how to create a linear dynamic study with a random vibration analysis and get some study options.
 
 ```vb
   '----------------------------------------------------------------------------

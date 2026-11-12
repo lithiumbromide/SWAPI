@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # IParameter Interface Methods
 
-For a list of all members of this type, see[IParameter members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter_members.html).
+For a list of all members of this type, see [IParameter members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter_members.html).
 
 ## Public Methods
 
@@ -33,5 +33,4 @@ For a list of all members of this type, see[IParameter members](SolidWorks.Inter
 ## See Also
 
 [IParameter Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -40,13 +40,7 @@ CustomBendAllowance GetCustomBendAllowance()
 CustomBendAllowance^ GetCustomBendAllowance();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,38 +48,26 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData::GetCustomBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~GetCustomBendAllowance.html)
-
-.
+See [SketchedBendFeatureData::GetCustomBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~GetCustomBendAllowance.html).
 
 ## Examples
 
-See
-
-[ISketchedBendFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchedBendFeatureData.html)
-
-examples.
+See [ISketchedBendFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchedBendFeatureData.html) examples.
 
 ## Examples
 
 [Change Bend Radius of Sketched Bend (VBA)](Change_Bend_Radius_of_Sketched_Bend_Example_VB.htm)
-
 [Set Custom Bend Deduction (VBA)](Set_Custom_Bend_Deduction_Example_VB.htm)
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
-
 [ISketchedBendFeatureData::SetCustomBendAllowance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~SetCustomBendAllowance.html)
-
 [ISketchedBendFeatureData::UseDefaultBendAllowance Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseDefaultBendAllowance.html)
 
 ## Availability

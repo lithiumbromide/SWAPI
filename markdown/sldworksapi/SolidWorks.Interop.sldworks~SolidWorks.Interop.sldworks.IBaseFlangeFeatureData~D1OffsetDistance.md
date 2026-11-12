@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBa
 
 # D1OffsetDistance Property (IBaseFlangeFeatureData)
 
-Obsolete. Superseded by
-
-[IBaseFlangeFeatureData::D1EndConditionDistance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~D1EndConditionDistance.html)
-
-.
+Obsolete. Superseded by [IBaseFlangeFeatureData::D1EndConditionDistance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~D1EndConditionDistance.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double D1OffsetDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,18 +53,12 @@ Offset distance value
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::D1OffsetDistance](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D1OffsetDistance.html)
-
-.
+See [BaseFlangeFeatureData::D1OffsetDistance](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D1OffsetDistance.html).
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::D2OffsetDistance Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~D2OffsetDistance.html)
 
 ## Availability

@@ -51,13 +51,7 @@ System.int IGetAllowedRelationsCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,26 +64,16 @@ Number of sketch relations valid for the specified entities
 
 ## VBA Syntax
 
-See
-
-[SketchRelationManager::IGetAllowedRelationsCount](ms-its:sldworksapivb6.chm::/sldworks~SketchRelationManager~IGetAllowedRelationsCount.html)
-
-.
+See [SketchRelationManager::IGetAllowedRelationsCount](ms-its:sldworksapivb6.chm::/sldworks~SketchRelationManager~IGetAllowedRelationsCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchRelationManager::IGetAllowedRelations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelationManager~IGetAllowedRelations.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchRelationManager::IGetAllowedRelations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelationManager~IGetAllowedRelations.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchRelationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager.html)
-
 [ISketchRelationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager_members.html)
-
 [ISketchRelationManager::GetAllowedRelations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager~GetAllowedRelations.html)
 
 ## Availability

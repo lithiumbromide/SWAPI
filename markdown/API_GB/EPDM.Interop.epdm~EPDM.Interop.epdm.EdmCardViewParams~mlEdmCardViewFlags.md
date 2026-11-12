@@ -34,14 +34,9 @@ System.int mlEdmCardViewFlags
 
 ### Field Value
 
-Combination of
-
-[EdmCardViewFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewFlag.html)
-
-bits.
+Combination of [EdmCardViewFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewFlag.html) bits.
 
 ## See Also
 
 [EdmCardViewParams Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams.html)
-
 [EdmCardViewParams Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams_members.html)

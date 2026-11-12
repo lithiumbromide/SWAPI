@@ -9,11 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # DimensionPositionOption Property (IDimXpertDimensionOption)
 
-Obsolete. Superseded by
-
-[IDimXpertDimensionOption::DimensionPositionOption2](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption~DimensionPositionOption2.html)
-
-.
+Obsolete. Superseded by [IDimXpertDimensionOption::DimensionPositionOption2](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption~DimensionPositionOption2.html).
 
 ## Syntax
 
@@ -51,15 +47,11 @@ property System.int DimensionPositionOption {
 
 ### Property Value
 
-0, 1, or 2 (see**Remarks**)
+0, 1, or 2 (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DimXpertDimensionOption::DimensionPositionOption](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionOption~DimensionPositionOption.html)
-
-.
+See [DimXpertDimensionOption::DimensionPositionOption](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionOption~DimensionPositionOption.html).
 
 ## Remarks
 
@@ -72,11 +64,8 @@ This property sets or returns:
 ## See Also
 
 [IDimXpertDimensionOption Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption.html)
-
 [IDimXpertDimensionOption Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption_members.html)
-
 [IDimXpertPart::InsertLocationDimension Method](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertLocationDimension.html)
-
 [IDimXpertPart::InsertBasicDimension Method](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertBasicDimension.html)
 
 ## Availability

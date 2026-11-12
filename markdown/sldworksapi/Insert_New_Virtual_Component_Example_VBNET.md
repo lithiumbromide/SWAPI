@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_New_Virtual_Component_Example_VBNET.htm"
 
 # Insert New Virtual Component Example (VB.NET)
 
-This example shows how to insert a new part as a virtual component in
-an assembly and save it to an external file.
+This example shows how to insert a new part as a virtual component in an assembly and save it to an external file.
 
 ```
 '---------------------------------------------------------------------

@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertTangencyGeoTol Interface Methods
 
-For a list of all members of this type, see[ISwDMDimXpertTangencyGeoTol members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertTangencyGeoTol_members.html).
+For a list of all members of this type, see [ISwDMDimXpertTangencyGeoTol members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertTangencyGeoTol_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[ISwDMDimXpertTangencyGeoTol members]
 ## See Also
 
 [ISwDMDimXpertTangencyGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertTangencyGeoTol.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

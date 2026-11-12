@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5_members.html
 
 # IEdmAttribute5 Interface Members
 
-The following tables list the members exposed by[IEdmAttribute5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5.html).
+The following tables list the members exposed by [IEdmAttribute5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[IEdmAttribute5](EPDM.Interop.ep
 ## See Also
 
 [IEdmAttribute5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

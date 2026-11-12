@@ -47,42 +47,25 @@ System.bool SetProjectionEntity(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Entity`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-or
-
-[plane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html)
+- `Entity`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) or [plane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html)
 
 ### Return Value
 
-True if Entity is set, false if notParamDesc
+True if Entity is set, false if not
 
 ## VBA Syntax
 
-See
-
-[Measure::SetProjectionEntity](ms-its:sldworksapivb6.chm::/Sldworks~Measure~SetProjectionEntity.html)
-
-.
+See [Measure::SetProjectionEntity](ms-its:sldworksapivb6.chm::/Sldworks~Measure~SetProjectionEntity.html).
 
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [IMeasure Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html)
-
 [IMeasure::Projection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~Projection.html)
-
 [IMeasure::ProjectionOption Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~ProjectionOption.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetModelDoc Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::GetModelDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetModelDoc.html)
-
-.
+Obsolete. Superseded by [IComponent2::GetModelDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetModelDoc.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetModelDoc()
 System.Object^ GetModelDoc();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::GetModelDoc](ms-its:sldworksapivb6.chm::/sldworks~Component~GetModelDoc.html)
-
-.
+See [Component::GetModelDoc](ms-its:sldworksapivb6.chm::/sldworks~Component~GetModelDoc.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

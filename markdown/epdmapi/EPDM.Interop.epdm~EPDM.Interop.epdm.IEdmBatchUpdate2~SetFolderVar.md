@@ -51,19 +51,11 @@ void SetFolderVar(
 - `lFolderID`: ID of folder to which to write the card variable
 - `lVariableID`: ID of folder card variable to update
 - `poValue`: New value of the folder card variable
-- `lEdmBatchFlags`: Combination of
-
-[EdmBatchFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchFlags.html)
-
-bits
+- `lEdmBatchFlags`: Combination of [EdmBatchFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchFlags.html) bits
 
 ## Examples
 
-See the
-
-[IEdmBatchUpdate2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2.html)
-
-examples.
+See the [IEdmBatchUpdate2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2.html) examples.
 
 ## Remarks
 
@@ -75,7 +67,6 @@ examples.
 ## See Also
 
 [IEdmBatchUpdate2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2.html)
-
 [IEdmBatchUpdate2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2_members.html)
 
 ## Availability

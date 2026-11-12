@@ -55,19 +55,13 @@ System.bool SetTargetArea(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Shape`: Target area shape or style as defined in[swDatumTargetAreaShape_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDatumTargetAreaShape_e.html)
-- `Size1`: Target area diameter or width (see**Remarks**)
-- `Size2`: Target area height (seeRemarks)
+- `Shape`: Target area shape or style as defined in [swDatumTargetAreaShape_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDatumTargetAreaShape_e.html)
+- `Size1`: Target area diameter or width (see **Remarks**)
+- `Size2`: Target area height (see Remarks)
 
 ### Return Value
 
@@ -75,11 +69,7 @@ True if the target area parameters were set successfully, false if they were not
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::SetTargetArea](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetTargetArea.html)
-
-.
+See [DatumTargetSym::SetTargetArea](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetTargetArea.html).
 
 ## Remarks
 
@@ -91,14 +81,13 @@ See
 
 If the specified target area style is not one of the values in swDatumTargetAreaShape_e, SOLIDWORKS does not modify the symbol, and the returns false.
 
-Use[IDatumTargetSym::GetTargetShape](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetTargetShape.html)to get the target area style. Use[IDatumTargetSym::GetTargetAreaSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetTargetAreaSize.html)to get the target area size.
+Use [IDatumTargetSym::GetTargetShape](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetTargetShape.html) to get the target area style. Use [IDatumTargetSym::GetTargetAreaSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetTargetAreaSize.html) to get the target area size.
 
-To see the model or drawing changes, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw your window.
+To see the model or drawing changes, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw your window.
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
 
 ## Availability

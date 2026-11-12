@@ -1,6 +1,5 @@
 ---
-title: "Interference Object
-Members"
+title: "Interference Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Interference_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Interference_members.html"
 ---
 
-# Interference Object
-Members
+# Interference Object Members
 
 ## Public Methods
 

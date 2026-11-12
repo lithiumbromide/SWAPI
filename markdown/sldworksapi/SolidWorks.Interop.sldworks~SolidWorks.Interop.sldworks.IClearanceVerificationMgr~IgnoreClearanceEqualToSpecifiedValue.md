@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICl
 
 # IgnoreClearanceEqualToSpecifiedValue Property (IClearanceVerificationMgr)
 
-Gets or sets whether to ignore clearances equal to or greater than
-
-[IClearanceVerificationMgr::GetMinimumAcceptableClearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr~GetMinimumAcceptableClearance.html)
-
-.
+Gets or sets whether to ignore clearances equal to or greater than [IClearanceVerificationMgr::GetMinimumAcceptableClearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr~GetMinimumAcceptableClearance.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool IgnoreClearanceEqualToSpecifiedValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,32 +53,19 @@ True to ignore clearances equal to or greater than the specified value, false to
 
 ## VBA Syntax
 
-See
-
-[ClearanceVerificationMgr::IgnoreClearanceEqualToSpecifiedValue](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~IgnoreClearanceEqualToSpecifiedValue.html)
-
-.
+See [ClearanceVerificationMgr::IgnoreClearanceEqualToSpecifiedValue](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~IgnoreClearanceEqualToSpecifiedValue.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## Remarks
 
-If this property is true, use
-
-[IClearanceVerificationMgr::SetMinimumAcceptableClearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr~SetMinimumAcceptableClearance.html)
-
-to specify the minimum clearance value, at or above which clearances are ignored.
+If this property is true, use [IClearanceVerificationMgr::SetMinimumAcceptableClearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr~SetMinimumAcceptableClearance.html) to specify the minimum clearance value, at or above which clearances are ignored.
 
 ## See Also
 
 [IClearanceVerificationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
 [IClearanceVerificationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr_members.html)
 
 ## Availability

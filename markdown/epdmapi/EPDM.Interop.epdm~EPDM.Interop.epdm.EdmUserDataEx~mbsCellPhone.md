@@ -41,5 +41,4 @@ Microsoft Office Communicator must also be set up to support outgoing calls. See
 ## See Also
 
 [EdmUserDataEx Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx.html)
-
 [EdmUserDataEx Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx_members.html)

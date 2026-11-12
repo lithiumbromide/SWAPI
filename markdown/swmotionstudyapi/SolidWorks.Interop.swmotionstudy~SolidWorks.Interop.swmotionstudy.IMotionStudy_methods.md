@@ -9,7 +9,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 # IMotionStudy Interface Methods
 
-For a list of all members of this type, see[IMotionStudy members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html).
+For a list of all members of this type, see [IMotionStudy members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html).
 
 ## Public Methods
 
@@ -47,11 +47,7 @@ For a list of all members of this type, see[IMotionStudy members](SolidWorks.Int
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [SolidWorks.Interop.swmotionstudy Namespace](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy_namespace.html)
-
 [IMotionStudyManager Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager.html)
-
 [IMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties.html)
-
 [IMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults.html)

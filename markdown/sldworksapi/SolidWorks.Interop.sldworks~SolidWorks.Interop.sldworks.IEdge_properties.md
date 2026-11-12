@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # IEdge Interface Properties
 
-For a list of all members of this type, see[IEdge members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html).
+For a list of all members of this type, see [IEdge members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdge members](SolidWorks.Interop.sl
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

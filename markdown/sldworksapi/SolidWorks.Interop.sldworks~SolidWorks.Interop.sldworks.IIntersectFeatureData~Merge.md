@@ -45,13 +45,7 @@ property System.bool Merge {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to merge included regions into one body, false to create a separate body fo
 
 ## VBA Syntax
 
-See
-
-[IntersectFeatureData::Merge](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~Merge.html)
-
-.
+See [IntersectFeatureData::Merge](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~Merge.html).
 
 ## Examples
 
-See the
-
-[IIntersectFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData.html)
-
-examples.
+See the [IIntersectFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData.html) examples.
 
 ## See Also
 
 [IIntersectFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData.html)
-
 [IIntersectFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData_members.html)
 
 ## Availability

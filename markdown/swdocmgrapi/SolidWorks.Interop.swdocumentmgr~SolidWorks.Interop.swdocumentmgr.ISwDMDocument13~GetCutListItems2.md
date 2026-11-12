@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetCutListItems2 Method (ISwDMDocument13)
 
-Obsolete. Superseded by
-
-[ISwDMConfiguration16::GetCutListItems](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration16~GetCutListItems.html)
-
-.
+Obsolete. Superseded by [ISwDMConfiguration16::GetCutListItems](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration16~GetCutListItems.html).
 
 ## Syntax
 
@@ -46,17 +42,11 @@ System.Object^ GetCutListItems2();
 
 ### Return Value
 
-Array of
-
-[cut-list items](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMCutListItem.html)
+Array of [cut-list items](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMCutListItem.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument13::GetCutListItems2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument13~GetCutListItems2.html)
-
-.
+See [SwDMDocument13::GetCutListItems2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument13~GetCutListItems2.html).
 
 ## Remarks
 
@@ -65,7 +55,6 @@ This property only supports documents saved in SOLIDWORKS 2009 or later.
 ## See Also
 
 [ISwDMDocument13 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument13.html)
-
 [ISwDMDocument13 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument13_members.html)
 
 ## Availability

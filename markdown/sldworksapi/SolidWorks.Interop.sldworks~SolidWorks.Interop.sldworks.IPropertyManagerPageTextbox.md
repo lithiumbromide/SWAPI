@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPropertyManagerPageTextbox Interface
 
-Allows you to access a
+Allows you to access a [PropertyManager page](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html) text box control.
 
-[PropertyManager page](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
-text box control.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IPropertyManagerPageTextbox
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageTextbox](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageTextbox.html)
-
-.
+See [PropertyManagerPageTextbox](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageTextbox.html).
 
 ## Examples
 
@@ -57,19 +49,11 @@ See
 
 ## Remarks
 
-See
-
-[Using PropertyManagerPage2 and the Related Objects](sldworksapiprogguide.chm::/overview/Using_PropertyManagerPage2_and_the_Related_Objects.htm)
-
-for more information.
+See [Using PropertyManagerPage2 and the Related Objects](sldworksapiprogguide.chm::/overview/Using_PropertyManagerPage2_and_the_Related_Objects.htm) for more information.
 
 ## Accessors
 
-[IPropertyManagerPage2::AddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html)
-
-and
-
-[IPropertyManagerPage2::IAddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html)
+[IPropertyManagerPage2::AddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html) and [IPropertyManagerPage2::IAddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html)
 
 ## Access Diagram
 
@@ -78,5 +62,4 @@ and
 ## See Also
 
 [IPropertyManagerPageTextbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageTextbox_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -91,13 +91,7 @@ System.bool CreateLinearSketchStepAndRepeat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -120,18 +114,12 @@ True if the linear sketch pattern is created, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateLinearSketchStepAndRepeat](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateLinearSketchStepAndRepeat.html)
-
-.
+See [SketchManager::CreateLinearSketchStepAndRepeat](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateLinearSketchStepAndRepeat.html).
 
 ## Examples
 
 [Create and Edit Linear Sketch Pattern (VB.NET)](Create_and_Edit_Linear_Sketch_Pattern_Example_VBNET.htm)
-
 [Create and Edit Linear Sketch Patten (VBA)](Create_and_Edit_Linear_Sketch_Pattern_Example_VB.htm)
-
 [Create and Edit Linear Sketch Pattern (C#)](Create_and_Edit_Linear_Sketch_Pattern_Example_CSharp.htm)
 
 ## Remarks
@@ -141,13 +129,9 @@ The spacing instances, angle, and number of instances dimensions displayed in th
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::EditLinearSketchStepAndRepeat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~EditLinearSketchStepAndRepeat.html)
-
 [ISketchManager::CreateCircularSketchStepAndRepeat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateCircularSketchStepAndRepeat.html)
-
 [ISketchManager::EditCircularSketchStepAndRepeat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~EditCircularSketchStepAndRepeat.html)
 
 ## Availability

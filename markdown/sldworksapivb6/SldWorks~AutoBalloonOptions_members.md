@@ -1,6 +1,5 @@
 ---
-title: "AutoBalloonOptions Object
-Members"
+title: "AutoBalloonOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "AutoBalloonOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~AutoBalloonOptions_members.html"
 ---
 
-# AutoBalloonOptions Object
-Members
+# AutoBalloonOptions Object Members
 
 ## Public Properties
 

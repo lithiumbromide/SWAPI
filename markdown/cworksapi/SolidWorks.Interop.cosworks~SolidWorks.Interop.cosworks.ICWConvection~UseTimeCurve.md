@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # UseTimeCurve Property (ICWConvection)
 
-Obsolete. Superseded by[ICWConvection::UseTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~UseTimeCurve2.html).
+Obsolete. Superseded by [ICWConvection::UseTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~UseTimeCurve2.html).
 
 ## Syntax
 
@@ -51,20 +51,13 @@ property System.int UseTimeCurve {
 
 ## VBA Syntax
 
-See
-
-[CWConvection::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~UseTimeCurve.html)
-
-.
+See [CWConvection::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~UseTimeCurve.html).
 
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [ICWConvection Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html)
-
 [ICWConvection::GetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~GetTimeCurve.html)
-
 [ICWConvection::SetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~SetTimeCurve.html)
 
 ## Availability

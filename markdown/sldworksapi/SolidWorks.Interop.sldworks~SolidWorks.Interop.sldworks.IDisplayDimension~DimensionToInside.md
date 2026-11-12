@@ -45,13 +45,7 @@ property System.bool DimensionToInside {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ True dimension to the inside of arc, false does not dimension to the inside of t
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::DimensionToInside](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~DimensionToInside.html)
-
-.
+See [DisplayDimension::DimensionToInside](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~DimensionToInside.html).
 
 ## Remarks
 
 This property applies only to radius dimensions. This property does not affect other types of dimensions.
 
-After using this property, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw the graphics window to see your changes.
+After using this property, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw the graphics window to see your changes.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
 
 ## Availability

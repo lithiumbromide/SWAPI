@@ -48,24 +48,15 @@ Size of the wire
 
 ## VBA Syntax
 
-See
-
-[WireProperty::Size](ms-its:routingapivb6.chm::/SWRoutingLib~WireProperty~Size.html)
-
-.
+See [WireProperty::Size](ms-its:routingapivb6.chm::/SWRoutingLib~WireProperty~Size.html).
 
 ## Examples
 
-See the
-
-[IWireProperty](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty.html)
-
-examples.
+See the [IWireProperty](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty.html) examples.
 
 ## See Also
 
 [IWireProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty.html)
-
 [IWireProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty_members.html)
 
 ## Availability

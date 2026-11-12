@@ -87,16 +87,11 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertIntersectCircleFeature::GetNominalCircle](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertIntersectCircleFeature~GetNominalCircle.html)
-
-.
+See [DimXpertIntersectCircleFeature::GetNominalCircle](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertIntersectCircleFeature~GetNominalCircle.html).
 
 ## Examples
 
 [Get DimXpert Intersect Features Example (VBA)](Get_DimXpert_Intersect_Features_Example_VB.htm)
-
 [Get DimXpert Intersect Features Example (VB.NET)](Get_DimXpert_Intersect_Features_Example_VBNET.htm)
 
 ## Remarks
@@ -106,7 +101,6 @@ The i, j, and k vector components indicate the pierce direction of a feature. Fo
 ## See Also
 
 [IDimXpertIntersectCircleFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature.html)
-
 [IDimXpertIntersectCircleFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature_members.html)
 
 ## Availability

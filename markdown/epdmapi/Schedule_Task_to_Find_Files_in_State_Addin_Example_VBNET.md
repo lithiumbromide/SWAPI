@@ -9,48 +9,34 @@ source: "epdmapi/Schedule_Task_to_Find_Files_in_State_Addin_Example_VBNET.htm"
 
 # Create a Task that Finds Files in Workflow States Example (VB.NET)
 
-This example shows how to create a task add-in that finds
-files that have been in specified workflow states a specified number of
-days.
+This example shows how to create a task add-in that finds files that have been in specified workflow states a specified number of days.
 
 ```vb
   '--------------------------------------------------------------------------------------
  ' Preconditions:
  '  1. Start Microsoft Visual Studio.
- '  2. Click File > New > Project > Visual Basic > Class Library (.NET Framework).
+ '  2. Click File > New > Project > Visual Basic, Windows, Library > Class Library (.NET Framework).
+'  3.  Type StateAgeTask in Project name.
  '  3. Select .NET Framework 4.5 or later in the dropdown.
- '  4. Click Browse and navigate to the folder where to create the project.
- '  5. Type StateAgeTask in Name.
- '  6. Click OK.
- '  7. Right-click the project in the Solution Explorer and click Add > User Control.
- '  8. In the Add New Item dialog, keep the default name and click Add.
- '  9. Create a user control similar to the one shown above and change:
- '     a. Top label to WorkflowLabel.
- '     b. Combo box to WorkflowsComboBox.
- '     c. Second label to StatesLabel.
- '     d. List box to StatesListBox.
- '     e. Third label to DaysLabel.
- '     f. Numeric spin box to DaysNumericUpDown.
- ' 10. Click Show All Files in the Solution Explorer toolbar and expand  UserControl1.vb.
- ' 11. Replace the code in Class1.vb with this code.
- ' 12. Replace the code in UserControl1.Designer.vb with this code.
- ' 13. Replace the code in UserControl1.vb with this code.
-  ' 14. Right-click the project name in the Solution Explorer and click Add Reference.
- ' 15. In the Add Reference dialog:
- '     a. Add the SOLIDWORKS PDM Professional  interop assembly as a reference (click Browse in the
- '        left-side panel, click EPDM.Interop.epdm.dll,
- '        and click OK).
- '     b. Click Close.
- ' 16. Right-click the project name in the Solution Explorer and click  Properties.
- ' 17. In the Properties window:
- '     a. On the Application tab, click Assembly Information.
+ '  4. For Location, click ... and navigate to the folder where to create the project.
+'  5. Click Create.
+ '  6. Right-click the project in the Solution Explorer and click Add > User Control.
+ '  7. In the Add New Item dialog, keep the default name and click Add.
+ '  8. Click Show All Files in the Solution Explorer toolbar and expand  UserControl1.vb.
+ '  9. Replace the code in Class1.vb with this code.
+ ' 10. Replace the code in UserControl1.Designer.vb with this code.
+ ' 11. Replace the code in UserControl1.vb with this code.
+  ' 12. Add dependencies and safely pass arrays of structures.
+ ' 13. Right-click the project name in the Solution Explorer and click  Properties.
+ ' 14. In the Properties window:
+ '     a. On the Application tab, click Assembly Information....
  '     b. De-select Make assembly COM-Visible.
  '     c. On the Compile tab,  select Any CPU, de-select Prefer 32-bit, and select Register for COM interop.
- ' 18. Save the project.
- ' 19. To populate the GUID attribute, click Tools > Create GUID in the IDE,
+ ' 15. Save the project.
+ ' 16. To populate the GUID attribute, click Tools > Create GUID in the IDE,
  '     select GUID Format 6, click Copy, and click Exit. Replace <Guid("")> with
  '     the copied string.
- ' 20. Click Build > Build Solution.
+ ' 17. Click Build > Build Solution.
  '
  ' Postconditions:
  '  1. Open the SOLIDWORKS PDM Professional Administration tool, expand a vault_name node,
@@ -492,7 +478,7 @@ days.
      End Sub
 
      Public Sub OnCmd(ByRef poCmd As EdmCmd, _
-         ByRef ppoData As EdmCmdData[]) _
+         ByRef ppoData As EdmCmdData()) _
          Implements IEdmAddIn5.OnCmd
          Try
 
@@ -533,7 +519,7 @@ days.
      End Sub
 
      Private Sub OnTaskSetup(ByRef poCmd As EdmCmd, _
-         ByRef ppoData As EdmCmdData[])
+         ByRef ppoData As EdmCmdData())
          Try
              Dim props As IEdmTaskProperties = poCmd.mpoExtra
              If Not props Is Nothing Then
@@ -571,7 +557,7 @@ days.
      End Sub
 
      Private Sub OnTaskSetupButton(ByRef poCmd As EdmCmd, _
-         ByRef ppoData As EdmCmdData[])
+         ByRef ppoData As EdmCmdData())
          Try
              'Custom setup page, SetupPageObj, is created
              'in method SetupPage::OnTaskSetup; SetupPage::StoreData
@@ -593,7 +579,7 @@ days.
      End Sub
 
      Private Sub OnTaskRun(ByRef poCmd As EdmCmd, _
-         ByRef ppoData As EdmCmdData[])
+         ByRef ppoData As EdmCmdData())
          Try
              Dim TaskInstance As IEdmTaskInstance
              TaskInstance = poCmd.mpoExtra
@@ -697,7 +683,7 @@ days.
      End Sub
 
      Private Sub OnTaskDetails(ByRef poCmd As EdmCmd, _
-         ByRef ppoData As EdmCmdData[])
+         ByRef ppoData As EdmCmdData())
          Try
              Dim TaskInstance As IEdmTaskInstance = _
                poCmd.mpoExtra

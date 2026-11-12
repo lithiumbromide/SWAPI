@@ -63,27 +63,15 @@ System.bool Compare3DPMI(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ReferenceDocument`: Path and file name of the open part document
-- `ModifiedDocument`: Path and file name of a different and open
-
-version
-
-of ReferenceDocument
+- `ModifiedDocument`: Path and file name of a different and open version of ReferenceDocument
 - `ReportName`: Name for the report and name of the folder to which to save the report and bitmap image files
 - `ReportFolderPath`: Path to the folder specified in ReportName in which to save the report and bitmap image files
-- `ReportSaveOptions`: Save options for the report as defined in
-
-[sw3DPMISaveOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DPMISaveOptions_e.html)
+- `ReportSaveOptions`: Save options for the report as defined in [sw3DPMISaveOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DPMISaveOptions_e.html)
 
 ### Return Value
 
@@ -91,24 +79,17 @@ True if the method executed, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::Compare3DPMI](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Compare3DPMI.html)
-
-.
+See [ModelDocExtension::Compare3DPMI](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Compare3DPMI.html).
 
 ## Examples
 
 [Compare DimXpert Annotations in Different Versions of Same Part (C#)](Compare_DimXpert_Annotations_in_Different_Versions_of_Same_Part_Example_CSharp.htm)
-
 [Compare DimXpert Annotations in Different Versions of Same Part (VB.NET)](Compare_DimXpert_Annotations_in_Different_Versions_of_Same_Part_Example_VBNET.htm)
-
 [Compare DimXpert Annotations in Different Versions of Same Part (VBA)](Compare_DimXpert_Annotations_in_Different_Versions_of_Same_Part_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

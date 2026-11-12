@@ -51,13 +51,7 @@ System.bool SetColumnUseTitleAsPartNumber(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,12 @@ True to use the document title for the specified part-number column, false if yo
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::SetColumnUseTitleAsPartNumber](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~SetColumnUseTitleAsPartNumber.html)
-
-.
+See [BomTableAnnotation::SetColumnUseTitleAsPartNumber](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~SetColumnUseTitleAsPartNumber.html).
 
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
-
 [IBomTableAnnotation::GetColumnCustomProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~GetColumnCustomProperty.html)
 
 ## Availability

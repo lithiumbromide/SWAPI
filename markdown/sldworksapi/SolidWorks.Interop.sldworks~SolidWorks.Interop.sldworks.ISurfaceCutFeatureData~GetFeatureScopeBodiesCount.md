@@ -40,13 +40,7 @@ System.int GetFeatureScopeBodiesCount()
 System.int GetFeatureScopeBodiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,38 +48,28 @@ Number of bodies affected by this surface-cut feature
 
 ## VBA Syntax
 
-See
-
-[SurfCutFeatureData::GetFeatureScopeBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfCutFeatureData~GetFeatureScopeBodiesCount.html)
-
-.
+See [SurfCutFeatureData::GetFeatureScopeBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfCutFeatureData~GetFeatureScopeBodiesCount.html).
 
 ## Examples
 
 [Insert Surface-cut Feature (C#)](Insert_Surface-cut_Feature_Example_CSharp.htm)
-
 [Insert Surface-cut Feature (VB.NET)](Insert_Surface-cut_Feature_Example_VBNET.htm)
-
 [Insert Surface-cut Feature (VBA)](Insert_Surface-cut_Feature_Example_VB.htm)
 
 ## Remarks
 
 To access this interface, you must declare it as SurfCutFeatureData or ISurfCutFeatureData.
 
-Call this method before calling[ISurfaceCutFeatureData::IGetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~IGetFeatureScopeBodies.html)to determine the size of the array for that method.
+Call this method before calling [ISurfaceCutFeatureData::IGetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~IGetFeatureScopeBodies.html) to determine the size of the array for that method.
 
-If[ISurfaceCutFeatureData::FeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~FeatureScope.html)is false, then this method's return value is 0.
+If [ISurfaceCutFeatureData::FeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~FeatureScope.html) is false, then this method's return value is 0.
 
 ## See Also
 
 [ISurfaceCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData.html)
-
 [ISurfaceCutFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData_members.html)
-
 [ISurfaceCutFeatureData::ISetFeatureScopeBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData~ISetFeatureScopeBodies.html)
-
 [ISurfaceCutFeatureData::FeatureScopeBodies Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData~FeatureScopeBodies.html)
-
 [ISurfaceCutFeatureData::AutoSelect Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData~AutoSelect.html)
 
 ## Availability

@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Post | api/{vaultName}/files/infofrompath |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > File Resource Group : api/{vaultName}/files/infofrompath (Post) |
 | --- |
@@ -156,33 +152,9 @@ Remarks
 
 This operation:
 
-- takes a body parameter that contains a file path relative to the vault root. For example, if you want information about
-
-  File1.txt
-
-  which is stored in
-
-  c:\PDMLocalViews\v
-
-  ault_name
-
-  \Test1\Test2
-
-  , where
-
-  vault_name
-
-  is the name of the vault, then the body of this API should contain
-
-  \\Test1\Test2\\File1.txt
-
-  .
+- takes a body parameter that contains a file path relative to the vault root. For example, if you want information about **File1.txt** which is stored in **c:\PDMLocalViews\v`ault_name`\Test1\Test2**, where `vault_name` is the name of the vault, then the body of this API should contain **\\Test1\Test2\\File1.txt**.
 - returns an ObjectInfo for the file.
 
 See Also
 
-[File Resource Group](PDM%20Pro%20API_ws~g-0e45981b-3619-4486-b05d-cc362f26dd7c.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[File Resource Group](PDM%20Pro%20API_ws~g-0e45981b-3619-4486-b05d-cc362f26dd7c.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

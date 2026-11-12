@@ -47,22 +47,16 @@ property System.int RandomVibrationComputationalMethod {
 
 ### Property Value
 
-Random vibration computational method as defined in[swsFatigueRandomVibrationComputationalMethod_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFatigueRandomVibrationComputationalMethod_e.html)
+Random vibration computational method as defined in [swsFatigueRandomVibrationComputationalMethod_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFatigueRandomVibrationComputationalMethod_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::RandomVibrationComputationalMethod](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~RandomVibrationComputationalMethod.html)
-
-.
+See [CWFatigueStudyOptions::RandomVibrationComputationalMethod](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~RandomVibrationComputationalMethod.html).
 
 ## Examples
 
 [Create Fatigue Study for Dynamic Random Vibration Study (VBA)](Create_Fatigue_Study_for_Dynamic_Random_Vibration_Study_Example_VB.htm)
-
 [Create Fatigue Study for Dynamic Random Vibration Study (VB.NET)](Create_Fatigue_Study_for_Dynamic_Random_Vibration_Study_Example_VBNET.htm)
-
 [Create Fatigue Study for Dynamic Random Vibration Study (C#)](Create_Fatigue_Study_for_Dynamic_Random_Vibration_Study_Example_CSharp.htm)
 
 ## Remarks
@@ -72,9 +66,7 @@ This property is valid only for random vibration fatigue studies in SOLIDWORKS S
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForRandomVibration Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForRandomVibration.html)
 
 ## Availability

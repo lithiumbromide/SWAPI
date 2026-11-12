@@ -34,14 +34,9 @@ System.int mlEdmFolderInfoFlags
 
 ### Field Value
 
-Combination of
-
-[EdmFolderInfoFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfoFlag.html)
-
-bits.
+Combination of [EdmFolderInfoFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfoFlag.html) bits.
 
 ## See Also
 
 [EdmFolderInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo.html)
-
 [EdmFolderInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo_members.html)

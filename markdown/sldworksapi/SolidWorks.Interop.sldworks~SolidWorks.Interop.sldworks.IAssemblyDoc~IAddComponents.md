@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # IAddComponents Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::IAddComponents2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IAddComponents2.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::IAddComponents2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~IAddComponents2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ Component^ IAddComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::IAddComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IAddComponents.html)
-
-.
+See [AssemblyDoc::IAddComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IAddComponents.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

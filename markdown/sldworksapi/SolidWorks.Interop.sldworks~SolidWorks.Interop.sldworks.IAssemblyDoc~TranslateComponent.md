@@ -39,24 +39,13 @@ void TranslateComponent()
 void TranslateComponent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::TranslateComponent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~TranslateComponent.html)
-
-.
+See [AssemblyDoc::TranslateComponent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~TranslateComponent.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

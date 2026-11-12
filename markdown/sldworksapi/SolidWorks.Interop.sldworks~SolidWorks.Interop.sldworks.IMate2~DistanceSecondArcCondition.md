@@ -42,34 +42,20 @@ property System.int DistanceSecondArcCondition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Arc condition as defined by
-
-[swDistanceMateArcConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDistanceMateArcConditions_e.html)
+Arc condition as defined by [swDistanceMateArcConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDistanceMateArcConditions_e.html)
 
 ## VBA Syntax
 
-See
-
-[Mate2::DistanceSecondArcCondition](ms-its:sldworksapivb6.chm::/sldworks~Mate2~DistanceSecondArcCondition.html)
-
-.
+See [Mate2::DistanceSecondArcCondition](ms-its:sldworksapivb6.chm::/sldworks~Mate2~DistanceSecondArcCondition.html).
 
 ## Examples
 
 [Add and Edit Distance Mate (VBA)](Add_and_Edit_Distance_Mate_Example_VB.htm)
-
 [Add and Edit Distance Mate (VB.NET)](Add_and_Edit_Distance_Mate_Example_VBNET.htm)
-
 [Add and Edit Distance Mate (C#)](Add_and_Edit_Distance_Mate_Example_CSharp.htm)
 
 ## Remarks
@@ -85,13 +71,9 @@ This property is valid only for distance mates between:
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
-
 [IMate2::DistanceFirstArcCondition Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~DistanceFirstArcCondition.html)
-
 [IAssemblyDoc::AddDistanceMate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddDistanceMate.html)
-
 [IAssemblyDoc::EditDistanceMate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditDistanceMate.html)
 
 ## Availability

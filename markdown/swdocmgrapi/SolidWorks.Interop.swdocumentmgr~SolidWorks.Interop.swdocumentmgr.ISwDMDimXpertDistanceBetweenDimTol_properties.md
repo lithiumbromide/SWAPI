@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertDistanceBetweenDimTol Interface Properties
 
-For a list of all members of this type, see[ISwDMDimXpertDistanceBetweenDimTol members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDistanceBetweenDimTol_members.html).
+For a list of all members of this type, see [ISwDMDimXpertDistanceBetweenDimTol members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDistanceBetweenDimTol_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[ISwDMDimXpertDistanceBetweenDimTol m
 ## See Also
 
 [ISwDMDimXpertDistanceBetweenDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDistanceBetweenDimTol.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

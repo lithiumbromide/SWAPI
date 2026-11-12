@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMate2 Interface Members
 
-The following tables list the members exposed by[IMate2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html).
+The following tables list the members exposed by [IMate2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html).
 
 ## Public Properties
 
@@ -61,11 +61,7 @@ The following tables list the members exposed by[IMate2](SolidWorks.Interop.sldw
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMateEntity2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2.html)
-
 [IMateLoadReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateLoadReference.html)
-
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)

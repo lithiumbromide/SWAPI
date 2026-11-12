@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html"
 
 # EdmObjectType Enumeration
 
-Types of objects returned by[IEdmObject5::ObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5~ObjectType.html),[IEdmFile5::ObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ObjectType.html), and[IEdmFolder5::ObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~ObjectType.html).
+Types of objects returned by [IEdmObject5::ObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5~ObjectType.html), [IEdmFile5::ObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~ObjectType.html), and [IEdmFolder5::ObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~ObjectType.html).
 
 ## Syntax
 
@@ -59,7 +59,6 @@ public enum class EdmObjectType : public System.Enum
 ## Examples
 
 [Get and Set Folder Permissions (VB.NET)](Get_and_Set_Folder_Permissions_Example_VBNET.htm)
-
 [Get and Set Folder Permissions (C#)](Get_and_Set_Folder_Permissions_Example_CSharp.htm)
 
 ## Remarks
@@ -69,5 +68,4 @@ All interfaces that inherit from IEdmObject5 have a corresponding EdmObjectType 
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmVault5::GetObject Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject.html)

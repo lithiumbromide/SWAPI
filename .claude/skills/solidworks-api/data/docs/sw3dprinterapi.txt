@@ -1,0 +1,93 @@
+<<< ISw3DPrinter.GetAvailableMaterials | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetAvailableMaterials.md
+P: DefaultIndex: Index of default material
+R: Array of strings that contains available material names
+X: This method also returns the index of the default material.
+<<< ISw3DPrinter.GetBuildEnvelope | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetBuildEnvelope.md
+P: xDimension: x dimension
+P: yDimension: y dimension
+P: zDimension: z dimension
+<<< ISw3DPrinter.GetBuildOrientation | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetBuildOrientation.md
+R: Build orientation as defined in swBuildOrientation_e
+<<< ISw3DPrinter.GetCalculatedBoundingVolume | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetCalculatedBoundingVolume.md
+R: Dimension of calculated bounding volume
+<<< ISw3DPrinter.GetCalculatedBuildTime | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetCalculatedBuildTime.md
+R: Estimated build time in minutes
+<<< ISw3DPrinter.GetCalculatedCost | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetCalculatedCost.md
+R: Calculated cost in vendor-defined units
+<<< ISw3DPrinter.GetCalculatedSurfaceArea | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetCalculatedSurfaceArea.md
+R: Calculated surface area of the current document in current document units
+<<< ISw3DPrinter.GetCalculatedVolume | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetCalculatedVolume.md
+R: Calculated volume of the current document in current document units
+<<< ISw3DPrinter.GetCurrentMaterial | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetCurrentMaterial.md
+R: Name of selected material
+<<< ISw3DPrinter.GetCurrentOrientationTransform | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetCurrentOrientationTransform.md
+R: Orientation transform
+<<< ISw3DPrinter.GetCurrentPrinterName | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetCurrentPrinterName.md
+R: Name of current printer
+<<< ISw3DPrinter.GetDefaultBuildOrientation | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetDefaultBuildOrientation.md
+R: Default build orientation as defined in swBuildOrientation_e
+X: This method is called on startup.
+<<< ISw3DPrinter.GetDefaultPrintQuality | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetDefaultPrintQuality.md
+R: Default setting for print quality as defined in swPrintQuality_e
+X: This method is called at startup.
+<<< ISw3DPrinter.GetDialogConfiguration | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetDialogConfiguration.md
+R: Collection of bits that represent which controls SOLIDWORKS hides or changes in the Print dialog for a given print driver
+X: This method is called on startup. See ConfigureDialog_e
+<<< ISw3DPrinter.GetEnvelopeOrigin | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetEnvelopeOrigin.md
+P: X: x coordinate for starting location as defined in swBuildEnvelopeStartingPoint_e
+P: y: y coordinate for starting location as defined in swBuildEnvelopeStartingPoint_e
+P: __MIDL__ISw3DPrinter0000: z coordinate for starting location as defined in swBuildEnvelopeStartingPoint_e
+X: In almost all cases, the printer's driver has set the Z origin to 0.0.
+<<< ISw3DPrinter.GetOutputOption | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetOutputOption.md
+R: Currently selected output option
+<<< ISw3DPrinter.GetOutputOptions | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetOutputOptions.md
+R: Array of strings that specify how to create the rapid prototype
+<<< ISw3DPrinter.GetPrinterComment | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetPrinterComment.md
+R: General-purpose string
+X: This method is called at startup.
+<<< ISw3DPrinter.GetPrinterImageBitmap | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetPrinterImageBitmap.md
+R: File name of a 24-bit color.bmp of dimensions 100x100 pixels
+<<< ISw3DPrinter.GetPrinterLocation | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetPrinterLocation.md
+R: String that the user specified during installation to indicate where the printer is located
+<<< ISw3DPrinter.GetPrinterNames | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetPrinterNames.md
+R: Array of the names the user specified for the printers
+<<< ISw3DPrinter.GetPrinterStatus | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetPrinterStatus.md
+P: StatusMessage: Comment about printer's current state
+R: Code indicating printer's current state as defined in swPrinterStatus_e
+<<< ISw3DPrinter.GetPrinterType | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetPrinterType.md
+X: This method is called at startup.
+<<< ISw3DPrinter.GetPrintQuality | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetPrintQuality.md
+R: Print quality setting as defined in swPrintQuality_e
+<<< ISw3DPrinter.GetQuantity | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetQuantity.md
+R: Number of copies to print
+<<< ISw3DPrinter.GetScale | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetScale.md
+R: Scale value
+<<< ISw3DPrinter.GetScaleParametersForActiveDocument | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~GetScaleParametersForActiveDocument.md
+P: minimumScale: Minimum scale value
+P: maximumScale: Maximum scale value
+P: scaleIncrement: Value by which to increment scale values
+X: These values appear in the Scale box.
+This method is called when the user selects the vendor's printer.
+When the user selects a printer from the list, that printer’s driver populates the Print dialog with default values. One of values is the scale parameters. For example, a printer might be able to scale between 10% and 300% in 5% increments. The printer's driver implements this method to return the minimum, maximum, and increment values, and SOLIDWORKS calls this method to return these values for that printer's driver.
+<<< ISw3DPrinter.OnStartup | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~OnStartup.md
+P: ActiveModel: Printer that corresponds to user's selection
+R: Status of start up as defined in swStartupResult_e
+<<< ISw3DPrinter.OnUpdateStatistics | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~OnUpdateStatistics.md
+R: Status of update as defined in swDataChangeResult_e
+<<< ISw3DPrinter.SetBuildOrientation | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~SetBuildOrientation.md
+P: BuildOrientation: Build orientation as defined in swBuildOrientation_e
+<<< ISw3DPrinter.SetCurrentMaterial | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~SetCurrentMaterial.md
+P: Material: Name of material
+<<< ISw3DPrinter.SetCurrentPrinterName | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~SetCurrentPrinterName.md
+P: Material: Name of current printer
+<<< ISw3DPrinter.SetOrientationTransform | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~SetOrientationTransform.md
+P: ModelOrientation: Orientation transform
+<<< ISw3DPrinter.SetOutputOption | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~SetOutputOption.md
+P: OutputOption: Selection that specifies how to create the rapid prototype
+<<< ISw3DPrinter.SetPrintQuality | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~SetPrintQuality.md
+P: Quality: Print quality setting as defined in swPrintQuality_e
+<<< ISw3DPrinter.SetQuantity | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~SetQuantity.md
+P: Quantity: Number of copies to print
+X: This method is called in reaction to the user changing the number of copies to print in the Print dialog. You must write the code for this method to do anything useful.
+<<< ISw3DPrinter.SetScale | sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter~SetScale.md
+P: Scale: Value by which to scale the document

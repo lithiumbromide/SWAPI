@@ -54,13 +54,7 @@ void PutBstr(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -72,16 +66,20 @@ See
 
 Be aware that calling ISafeArrayUtility::PutBstr within a loop that inserts a BSTR repeatedly declared on the stack results in an array of pointers to the same BSTR; i.e., all elements of the SafeArray are the same, which is most likely not your intention. For example, you should avoid using code similar to the following:
 
-for (ULONG ulIndex = 0L; ulIndex < ulSize; ulIndex++) { CString testString; testString.Format(_T('Index = %d'), ulIndex); CComBSTR bstrTemp = testString; HRESULT hres = iSAUtil->PutBstr(&vPacked, ulIndex, bstrTemp);
+for (ULONG ulIndex = 0L; ulIndex < ulSize; ulIndex++)
+{
+CString testString;
+testString.Format(_T('Index = %d'), ulIndex);
+CComBSTR bstrTemp = testString;
+HRESULT hres = iSAUtil->PutBstr(&vPacked, ulIndex, bstrTemp);
 
-bstrArray[ulIndex] = bstrTemp; }
+bstrArray[ulIndex] = bstrTemp;
+}
 
 ## See Also
 
 [ISafeArrayUtility Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISafeArrayUtility.html)
-
 [ISafeArrayUtility Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISafeArrayUtility_members.html)
-
 [ISafeArrayUtility::GetBstr Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISafeArrayUtility~GetBstr.html)
 
 ## Availability

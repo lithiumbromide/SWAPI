@@ -47,17 +47,11 @@ System.bool IsSame(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FaceIn`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)to which to compare this face
+- `FaceIn`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to which to compare this face
 
 ### Return Value
 
@@ -65,26 +59,18 @@ True if the two faces are the same, false if they are different
 
 ## VBA Syntax
 
-See
-
-[Face2::IsSame](ms-its:sldworksapivb6.chm::/sldworks~Face2~IsSame.html)
-
-.
+See [Face2::IsSame](ms-its:sldworksapivb6.chm::/sldworks~Face2~IsSame.html).
 
 ## Examples
 
 [Get Gusset Feature Data (C#)](Get_Gusset_Feature_Data_Example_CSharp.htm)
-
 [Get Gusset Feature Data (VB.NET)](Get_Gusset_Feature_Data_Example_VBNET.htm)
-
 [Get Gusset Feature Data (VBA)](Get_Gusset_Feature_Data_Example_VB.htm)
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::IIsSame Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IIsSame.html)
 
 ## Availability

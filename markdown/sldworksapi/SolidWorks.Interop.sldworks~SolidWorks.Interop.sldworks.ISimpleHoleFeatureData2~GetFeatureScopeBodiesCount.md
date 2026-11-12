@@ -40,13 +40,7 @@ System.int GetFeatureScopeBodiesCount()
 System.int GetFeatureScopeBodiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,20 @@ Number of solid bodies affected
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData2::GetFeatureScopeBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~GetFeatureScopeBodiesCount.html)
-
-.
+See [SimpleHoleFeatureData2::GetFeatureScopeBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~GetFeatureScopeBodiesCount.html).
 
 ## Remarks
 
-Call this method before calling[ISimpleHoleData2::IGetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~IGetFeatureScopeBodies.html)to get the size of the array for that method.
+Call this method before calling [ISimpleHoleData2::IGetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~IGetFeatureScopeBodies.html) to get the size of the array for that method.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If[ISimpleHoleFeatureData2::FeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~FeatureScope.html)is false, then count is 0.
+If [ISimpleHoleFeatureData2::FeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~FeatureScope.html) is false, then count is 0.
 
 ## See Also
 
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
 [ISimpleHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2_members.html)
-
 [ISimpleHoleFeatureData2::ISetFeatureScopeBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~ISetFeatureScopeBodies.html)
-
 [ISimpleHoleFeatureData2::FeatureScopeBodies Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~FeatureScopeBodies.html)
-
 [ISimpleHoleFeatureData2::AutoSelect Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~AutoSelect.html)
 
 ## Availability

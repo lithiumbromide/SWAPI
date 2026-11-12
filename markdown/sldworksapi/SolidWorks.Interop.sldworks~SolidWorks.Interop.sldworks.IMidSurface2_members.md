@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # IMidSurface2 Interface Members
 
-The following tables list the members exposed by[IMidSurface2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2.html).
+The following tables list the members exposed by [IMidSurface2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2.html).
 
 ## Public Methods
 
@@ -42,5 +42,4 @@ The following tables list the members exposed by[IMidSurface2](SolidWorks.Intero
 ## See Also
 
 [IMidSurface2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

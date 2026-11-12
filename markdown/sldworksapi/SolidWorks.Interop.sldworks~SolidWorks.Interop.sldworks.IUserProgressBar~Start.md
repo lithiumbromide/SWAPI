@@ -55,13 +55,7 @@ System.bool Start(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,24 +69,15 @@ True if progress indicator successfully started, false if not
 
 ## VBA Syntax
 
-See
-
-[UserProgressBar::Start](ms-its:sldworksapivb6.chm::/sldworks~UserProgressBar~Start.html)
-
-.
+See [UserProgressBar::Start](ms-its:sldworksapivb6.chm::/sldworks~UserProgressBar~Start.html).
 
 ## Examples
 
-See the
-
-[IUserProgressBar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar.html)
-
-examples.
+See the [IUserProgressBar](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar.html) examples.
 
 ## See Also
 
 [IUserProgressBar Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar.html)
-
 [IUserProgressBar Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar_members.html)
 
 ## Availability

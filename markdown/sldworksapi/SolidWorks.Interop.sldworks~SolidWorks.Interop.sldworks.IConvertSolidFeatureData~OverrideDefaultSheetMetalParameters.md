@@ -45,13 +45,7 @@ property System.bool OverrideDefaultSheetMetalParameters {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to override the default sheet metal parameters, false to not
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData::OverrideDefaultSheetMetalParameters](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~OverrideDefaultSheetMetalParameters.html)
-
-.
+See [ConvertSolidFeatureData::OverrideDefaultSheetMetalParameters](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~OverrideDefaultSheetMetalParameters.html).
 
 ## Remarks
 
@@ -75,7 +65,6 @@ If this property is set to true, you can set:
 ## See Also
 
 [IConvertSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
 
 ## Availability

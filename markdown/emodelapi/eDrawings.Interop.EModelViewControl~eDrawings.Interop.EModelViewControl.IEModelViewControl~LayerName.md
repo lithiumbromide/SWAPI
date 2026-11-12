@@ -49,42 +49,28 @@ property System.String^ LayerName {
 
 ### Parameters
 
-- `LayerIndex`: Number of the layer whose name to get (see
-
-Remarks
-
-)
+- `LayerIndex`: Number of the layer whose name to get (see Remarks)
 
 ### Property Value
 
-Name of specified layerParameterDesc
+Name of specified layer
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::LayerName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~LayerName.html)
-
-.
+See [EModelViewControl::LayerName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~LayerName.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## Remarks
 
-Before calling this property, call[IEModelViewControl::LayerCount](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~LayerCount.html)to get the total number of layers in this eDrawings document.
+Before calling this property, call [IEModelViewControl::LayerCount](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~LayerCount.html) to get the total number of layers in this eDrawings document.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::ShowLayer Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowLayer.html)
 
 ## Availability

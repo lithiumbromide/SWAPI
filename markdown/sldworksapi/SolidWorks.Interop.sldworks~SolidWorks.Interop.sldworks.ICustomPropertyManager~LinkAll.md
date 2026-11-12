@@ -45,13 +45,7 @@ property System.bool LinkAll {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to link all custom properties, false to unlink all
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::LinkAll](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~LinkAll.html)
-
-.
+See [CustomPropertyManager::LinkAll](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~LinkAll.html).
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
-
 [ICustomPropertyManager::LinkProperty Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~LinkProperty.html)
 
 ## Availability

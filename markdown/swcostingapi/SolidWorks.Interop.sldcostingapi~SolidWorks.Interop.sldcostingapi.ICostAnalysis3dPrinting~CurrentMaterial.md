@@ -51,19 +51,11 @@ Name of the material
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting::CurrentMaterial](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~CurrentMaterial.html)
-
-.
+See [CostAnalysis3dPrinting::CurrentMaterial](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~CurrentMaterial.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
-examples.
+See the [ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html) examples.
 
 ## Remarks
 
@@ -72,11 +64,8 @@ Setting this property could invalidate other settings.
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
-
 [ICostAnalysis3dPrinting::GetMaterials Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~GetMaterials.html)
-
 [ICostAnalysis3dPrinting::GetMaterialCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~GetMaterialCount.html)
 
 ## Availability

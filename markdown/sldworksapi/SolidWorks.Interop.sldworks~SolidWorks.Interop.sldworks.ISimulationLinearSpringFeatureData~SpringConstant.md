@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # SpringConstant Property (ISimulationLinearSpringFeatureData)
 
-Obsolete. Superseded by
-
-[ISimulationSpringFeatureData::SpringConstant](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData~SpringConstant.html)
-
-.
+Obsolete. Superseded by [ISimulationSpringFeatureData::SpringConstant](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData~SpringConstant.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double SpringConstant {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ Strength
 
 ## VBA Syntax
 
-See
-
-[SimulationLinearSpringFeatureData::SpringConstant](ms-its:sldworksapivb6.chm::/sldworks~SimulationLinearSpringFeatureData~SpringConstant.html)
-
-.
+See [SimulationLinearSpringFeatureData::SpringConstant](ms-its:sldworksapivb6.chm::/sldworks~SimulationLinearSpringFeatureData~SpringConstant.html).
 
 ## See Also
 
 [ISimulationLinearSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData.html)
-
 [ISimulationLinearSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData_members.html)
 
 ## Availability

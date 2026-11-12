@@ -40,13 +40,7 @@ System.int GetProfileCount()
 System.int GetProfileCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ Number of profiles
 
 ## VBA Syntax
 
-See
-
-[LoftedBendsFeatureData::GetProfileCount](ms-its:sldworksapivb6.chm::/sldworks~LoftedBendsFeatureData~GetProfileCount.html)
-
-.
+See [LoftedBendsFeatureData::GetProfileCount](ms-its:sldworksapivb6.chm::/sldworks~LoftedBendsFeatureData~GetProfileCount.html).
 
 ## Examples
 
-See examples for
-
-[ILoftedBendsFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData.html)
-
-.
+See examples for [ILoftedBendsFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData.html).
 
 ## Remarks
 
-Call this method before calling[ILoftedBendsFeatureData::IGetProfiles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData~IGetProfiles.html)to determine the size of the array for that method.
+Call this method before calling [ILoftedBendsFeatureData::IGetProfiles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData~IGetProfiles.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ILoftedBendsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData.html)
-
 [ILoftedBendsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData_members.html)
-
 [ILoftedBendsFeatureData::ISetProfiles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData~ISetProfiles.html)
-
 [ILoftedBendsFeatureData::Profiles Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData~Profiles.html)
 
 ## Availability

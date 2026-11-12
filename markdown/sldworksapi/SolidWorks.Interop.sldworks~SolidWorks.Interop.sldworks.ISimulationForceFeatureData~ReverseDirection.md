@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to reverse the direction of the force, false to not
 
 ## VBA Syntax
 
-See
-
-[SimulationForceFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~ReverseDirection.html)
-
-.
+See [SimulationForceFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~ReverseDirection.html).
 
 ## See Also
 
 [ISimulationForceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData.html)
-
 [ISimulationForceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData_members.html)
-
 [ISimulationForceFeatureData::ActionDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~ActionDirection.html)
 
 ## Availability

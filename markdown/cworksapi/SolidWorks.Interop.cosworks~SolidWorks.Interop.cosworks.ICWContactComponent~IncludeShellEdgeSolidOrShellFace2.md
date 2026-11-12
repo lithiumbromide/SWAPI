@@ -51,11 +51,7 @@ property System.bool IncludeShellEdgeSolidOrShellFace2 {
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::IncludeShellEdgeSolidOrShellFace2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~IncludeShellEdgeSolidOrShellFace2.html)
-
-.
+See [CWContactComponent::IncludeShellEdgeSolidOrShellFace2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~IncludeShellEdgeSolidOrShellFace2.html).
 
 ## Remarks
 
@@ -71,7 +67,6 @@ This property sets whether to create bonded contact sets for shell edge pairs, s
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
 
 ## Availability

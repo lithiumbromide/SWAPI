@@ -9,9 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ActiveView Property (IModelDoc)
 
-Obsolete. Superseded by IModelDoc2::ActiveView .
+Obsolete. Superseded by [IModelDoc2::ActiveView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ActiveView.html).
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,24 +47,13 @@ property System.Object^ ActiveView {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ActiveView](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ActiveView.html)
-
-.
+See [ModelDoc::ActiveView](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ActiveView.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

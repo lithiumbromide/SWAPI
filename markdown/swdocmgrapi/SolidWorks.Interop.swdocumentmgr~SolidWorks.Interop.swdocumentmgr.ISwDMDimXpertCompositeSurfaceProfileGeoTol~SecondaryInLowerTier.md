@@ -48,11 +48,7 @@ True, if the secondary datum is repeated in the lower tier; false, otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompositeSurfaceProfileGeoTol::SecondaryInLowerTier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositeSurfaceProfileGeoTol~SecondaryInLowerTier.html)
-
-.
+See [SwDMDimXpertCompositeSurfaceProfileGeoTol::SecondaryInLowerTier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositeSurfaceProfileGeoTol~SecondaryInLowerTier.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompositeSurfaceProfileGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeSurfaceProfileGeoTol.html)
-
 [ISwDMDimXpertCompositeSurfaceProfileGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeSurfaceProfileGeoTol_members.html)
 
 ## Availability

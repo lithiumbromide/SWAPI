@@ -39,9 +39,7 @@ System.bool IsKindOf(
 
 ### Parameters
 
-- `__MIDL__IEdmObject50000`: Type of object as defined in
-
-[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
+- `__MIDL__IEdmObject50000`: Type of object as defined in [EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
 
 ### Return Value
 
@@ -50,17 +48,15 @@ True if the object is of the specified type, false if not
 ## Examples
 
 [Get and Set Item References (C#)](Get_and_Set_Item_References_Example_CSharp.htm)
-
 [Get and Set Item References (VB.NET)](Get_and_Set_Item_References_Example_VBNET.htm)
 
 ## Remarks
 
-[Return code](ReturnCodes.htm)S_OK indicates that the method successfully executed.
+[Return code](ReturnCodes.htm) S_OK indicates that the method successfully executed.
 
 ## See Also
 
 [IEdmObject5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5.html)
-
 [IEdmObject5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5_members.html)
 
 ## Availability

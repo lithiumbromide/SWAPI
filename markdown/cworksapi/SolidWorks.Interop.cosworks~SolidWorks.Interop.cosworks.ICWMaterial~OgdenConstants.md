@@ -9,8 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMa
 
 # OgdenConstants Property (ICWMaterial)
 
-Gets or sets the Ogden constants used for the Ogden material model used for
-nonlinear studies only.
+Gets or sets the Ogden constants used for the Ogden material model used for nonlinear studies only.
 
 ## Syntax
 
@@ -52,11 +51,7 @@ Number of Ogden constants
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::OgdenConstants](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~OgdenConstants.html)
-
-.
+See [CWMaterial::OgdenConstants](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~OgdenConstants.html).
 
 ## Remarks
 
@@ -65,7 +60,6 @@ Ogden constants are valid in nonlinear studies only.
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

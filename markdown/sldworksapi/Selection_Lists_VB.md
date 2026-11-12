@@ -9,11 +9,7 @@ source: "sldworksapi/Selection_Lists_VB.htm"
 
 # Selection Lists Example (VBA)
 
-If you specify a positive, non-0 mark for an object (e.g., 1 or 2
-or 3, etc.) and then specify to select only the objects with that mark,
-then the resulting selection list contains only those objects with that mark.
-This selection list is independent of a selection list created by selecting
-all of the objects.
+If you specify a positive, non-0 mark for an object (e.g., 1 or 2 or 3, etc.) and then specify to select only the objects with that mark, then the resulting selection list contains only those objects with that mark. This selection list is independent of a selection list created by selecting all of the objects.
 
 ```
 '--------------------------------------------------------------

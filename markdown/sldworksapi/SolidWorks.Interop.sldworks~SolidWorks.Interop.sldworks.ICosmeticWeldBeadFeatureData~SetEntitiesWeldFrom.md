@@ -46,37 +46,15 @@ void SetEntitiesWeldFrom(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Entities`: Array of weld-from entities of
-
-[faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-or
-
-[edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-(see
-
-Remarks
-
-)
+- `Entities`: Array of weld-from entities of [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) or [edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFeatureData::SetEntitiesWeldFrom](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~SetEntitiesWeldFrom.html)
-
-.
+See [CosmeticWeldBeadFeatureData::SetEntitiesWeldFrom](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~SetEntitiesWeldFrom.html).
 
 ## Remarks
 
@@ -85,13 +63,9 @@ The weld-from entities must be the same type of entities; e.g., all faces or all
 ## See Also
 
 [ICosmeticWeldBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
 [ICosmeticWeldBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData_members.html)
-
 [ICosmeticWeldBeadFeatureData::GetEntitiesWeldFrom Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntitiesWeldFrom.html)
-
 [ICosmeticWeldBeadFeatureData::GetEntitiesWeldTo Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntitiesWeldTo.html)
-
 [ICosmeticWeldBeadFeatureData::SetEntitiesWeldTo Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~SetEntitiesWeldTo.html)
 
 ## Availability

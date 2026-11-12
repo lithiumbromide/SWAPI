@@ -42,20 +42,15 @@ System.int LinkConnectorEndEdit();
 
 ### Return Value
 
-Error as defined in[swsLinkConnectorEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinkConnectorEndEditError_e.html)
+Error as defined in [swsLinkConnectorEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinkConnectorEndEditError_e.html)
 
 ## Remarks
 
-You must call
-
-[ICWLinkConnector::LinkConnectorBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLinkConnector~LinkConnectorBeginEdit.html)
-
-to start editing a link connector. To end editing a link connector, you must call ICWLinkConnector::LinkConnectorEndEdit. Changes are not applied unless you call both methods.
+You must call [ICWLinkConnector::LinkConnectorBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLinkConnector~LinkConnectorBeginEdit.html) to start editing a link connector. To end editing a link connector, you must call ICWLinkConnector::LinkConnectorEndEdit. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWLinkConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector.html)
-
 [ICWLinkConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector_members.html)
 
 ## Availability

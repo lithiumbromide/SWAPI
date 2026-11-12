@@ -63,41 +63,15 @@ System.bool GetSmartComponentData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Features`: Array of
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-s that can be selected for this Smart Component (see
-
-Remarks
-
-)
+- `Features`: Array of [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)s that can be selected for this Smart Component (see **Remarks**)
 - `FeaturesSelected`: Array of boolean values; true if the corresponding item in the Features array is selected, false if it is not selected
-- `Components`: Array of
-
-[IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-s that can be selected for this Smart Component (see
-
-Remarks
-
-)
+- `Components`: Array of [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)s that can be selected for this Smart Component (see **Remarks**)
 - `ComponentsSelected`: Array of boolean values; true if the corresponding item in the Components array is selected, false if it is not selected
-- `References`: Array of feature reference entities that are used to activate the Smart Features specified by Features and FeaturesSelected; empty if the Smart Component features have not been activated (see
-
-Remarks
-
-)
+- `References`: Array of feature reference entities that are used to activate the Smart Features specified by Features and FeaturesSelected; empty if the Smart Component features have not been activated (see **Remarks**)
 
 ### Return Value
 
@@ -105,18 +79,12 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Component2::GetSmartComponentData](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetSmartComponentData.html)
-
-.
+See [Component2::GetSmartComponentData](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetSmartComponentData.html).
 
 ## Examples
 
 [Activate Smart Features in an Assembly (VBA)](Activate_Smart_Features_in_an_Assembly_Example_VB.htm)
-
 [Activate Smart Features in an Assembly (VB.NET)](Activate_Smart_Features_in_an_Assembly_Example_VBNET.htm)
-
 [Activate Smart Features in an Assembly (C#)](Activate_Smart_Features_in_an_Assembly_Example_CSharp.htm)
 
 ## Remarks
@@ -134,15 +102,11 @@ Use this method to get the current features, components, and feature references 
 Before calling this method:
 
 1. Open an assembly that contains a Smart Component whose Smart Features are not activated.
-2. Find the Smart Component in the assembly using
+2. Find the Smart Component in the assembly using [IComponent2::IsSmartComponent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IsSmartComponent.html).
 
-  [IComponent2::IsSmartComponent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IsSmartComponent.html)
+After calling this method, use [IComponent2::SetSmartComponentData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~SetSmartComponentData.html) to change which features and components of a Smart Component to enable and which Smart Features to activate.
 
-  .
-
-After calling this method, use[IComponent2::SetSmartComponentData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~SetSmartComponentData.html)to change which features and components of a Smart Component to enable and which Smart Features to activate.
-
-Use[ISmartComponentFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISmartComponentFeatureData.html)to:
+Use [ISmartComponentFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISmartComponentFeatureData.html) to:
 
 - Insert new features and components into a Smart Component.
 - Delete features and components from a Smart Component.
@@ -150,11 +114,8 @@ Use[ISmartComponentFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.s
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IAssemblyDoc::AddSmartComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddSmartComponent.html)
-
 [IAssemblyDoc::CreateSmartComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateSmartComponent.html)
 
 ## Availability

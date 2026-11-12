@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPropertyManagerPageButton Interface Properties
 
-For a list of all members of this type, see[IPropertyManagerPageButton members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageButton_members.html).
+For a list of all members of this type, see [IPropertyManagerPageButton members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageButton_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IPropertyManagerPageButton members](
 ## See Also
 
 [IPropertyManagerPageButton Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageButton.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

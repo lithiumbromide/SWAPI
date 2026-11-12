@@ -45,13 +45,7 @@ property System.bool ScaleToFit {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to scale page to fit the printer, false to not
 
 ## VBA Syntax
 
-See
-
-[PageSetup::ScaleToFit](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~ScaleToFit.html)
-
-.
+See [PageSetup::ScaleToFit](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~ScaleToFit.html).
 
 ## Remarks
 
-If this property is false, then you can use
-
-[IPageSetup::Scale2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~Scale2.html)
-
-to set the scaling factor.
+If this property is false, then you can use [IPageSetup::Scale2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~Scale2.html) to set the scaling factor.
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
 
 ## Availability

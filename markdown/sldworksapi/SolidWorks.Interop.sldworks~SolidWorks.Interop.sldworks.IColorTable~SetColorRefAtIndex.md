@@ -54,13 +54,7 @@ void SetColorRefAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ColorTable::SetColorRefAtIndex](ms-its:sldworksapivb6.chm::/sldworks~ColorTable~SetColorRefAtIndex.html)
-
-.
+See [ColorTable::SetColorRefAtIndex](ms-its:sldworksapivb6.chm::/sldworks~ColorTable~SetColorRefAtIndex.html).
 
 ## See Also
 
 [IColorTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable.html)
-
 [IColorTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable_members.html)
-
 [IColorTable::GetColorRefAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~GetColorRefAtIndex.html)
 
 ## Availability

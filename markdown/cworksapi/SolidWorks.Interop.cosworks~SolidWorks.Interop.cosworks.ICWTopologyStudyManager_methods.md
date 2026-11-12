@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyStudyManager Interface Methods
 
-For a list of all members of this type, see[ICWTopologyStudyManager members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html).
+For a list of all members of this type, see [ICWTopologyStudyManager members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html).
 
 ## Public Methods
 
@@ -44,5 +44,4 @@ For a list of all members of this type, see[ICWTopologyStudyManager members](Sol
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

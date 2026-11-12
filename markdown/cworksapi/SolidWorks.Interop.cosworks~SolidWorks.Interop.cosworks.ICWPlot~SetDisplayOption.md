@@ -49,23 +49,15 @@ System.int SetDisplayOption(
 
 ### Parameters
 
-- `NDisplayOption`: Display option as defined in
-
-[swsDisplayOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDisplayOption_e.html)
+- `NDisplayOption`: Display option as defined in [swsDisplayOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDisplayOption_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::SetDisplayOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~SetDisplayOption.html)
-
-.
+See [CWPlot::SetDisplayOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~SetDisplayOption.html).
 
 ## Remarks
 
@@ -74,7 +66,6 @@ This method is valid only for stress plots of mixed mesh models having beams and
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

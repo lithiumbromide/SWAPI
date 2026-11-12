@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchParabola Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::CreateParabola](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateParabola.html)
-
-.
+Obsolete. Superseded by [ISketchManager::CreateParabola](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateParabola.html).
 
 ## Syntax
 
@@ -94,13 +90,7 @@ void SketchParabola(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -119,18 +109,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchParabola](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchParabola.html)
-
-.
+See [ModelDoc2::SketchParabola](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchParabola.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ISketchParabola Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
 
 ## Availability

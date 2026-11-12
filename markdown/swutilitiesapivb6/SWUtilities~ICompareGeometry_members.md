@@ -1,6 +1,5 @@
 ---
-title: "ICompareGeometry Object
-Members"
+title: "ICompareGeometry Object Members"
 project: "SWUtilitiesActiveX DLL"
 interface: "ICompareGeometry_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swutilitiesapivb6/SWUtilities~ICompareGeometry_members.html"
 ---
 
-# ICompareGeometry Object
-Members
+# ICompareGeometry Object Members
 
 ## Public Methods
 

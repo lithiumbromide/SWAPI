@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # IDowelSymbol Interface Methods
 
-For a list of all members of this type, see[IDowelSymbol members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol_members.html).
+For a list of all members of this type, see [IDowelSymbol members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol_members.html).
 
 ## Public Methods
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[IDowelSymbol members](SolidWorks.Int
 ## See Also
 
 [IDowelSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

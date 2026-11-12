@@ -9,7 +9,7 @@ source: "swscanto3dapi/SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto
 
 # IScanto3D Interface Members
 
-The following tables list the members exposed by[IScanto3D](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html).
+The following tables list the members exposed by [IScanto3D](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IScanto3D](SolidWorks.Interop.s
 ## See Also
 
 [IScanto3D Interface](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html)
-
 [SolidWorks.Interop.swscanto3d Namespace](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d_namespace.html)

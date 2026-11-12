@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~GetMenuCm
 
 # GetMenuCmds Method (IEdmTaskProperties)
 
-Gets the menu commands set with
-
-[IEdmTaskProperties::SetMenuCmds](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetMenuCmds.html)
-
-.
+Gets the menu commands set with [IEdmTaskProperties::SetMenuCmds](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetMenuCmds.html).
 
 ## Syntax
 
@@ -43,11 +39,7 @@ void GetMenuCmds(
 
 ### Parameters
 
-- `ppoCmds`: Array of
-
-[EdmTaskMenuCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd.html)
-
-structures; one structure for each menu command
+- `ppoCmds`: Array of [EdmTaskMenuCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskMenuCmd.html) structures; one structure for each menu command
 
 ## Remarks
 
@@ -60,9 +52,7 @@ The menu commands display in a File Explorer context menu.
 ## See Also
 
 [IEdmTaskProperties Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html)
-
 [IEdmTaskProperties Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties_members.html)
-
 [Task Add-in Sample](TaskSample.htm)
 
 ## Availability

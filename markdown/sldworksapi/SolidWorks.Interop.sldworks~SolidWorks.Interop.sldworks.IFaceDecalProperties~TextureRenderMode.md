@@ -42,13 +42,7 @@ property System.int TextureRenderMode {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Render mode of the texture of the decal:
 
 ## VBA Syntax
 
-See
-
-[FaceDecalProperties::TextureRenderMode](ms-its:sldworksapivb6.chm::/sldworks~FaceDecalProperties~TextureRenderMode.html)
-
-.
+See [FaceDecalProperties::TextureRenderMode](ms-its:sldworksapivb6.chm::/sldworks~FaceDecalProperties~TextureRenderMode.html).
 
 ## Examples
 
-See
-
-[IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
-examples.
+See [IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html) examples.
 
 ## See Also
 
 [IFaceDecalProperties Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
 [IFaceDecalProperties Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties_members.html)
 
 ## Availability

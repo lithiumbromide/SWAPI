@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITr
 
 # ITreeControlItem Interface Properties
 
-For a list of all members of this type, see[ITreeControlItem members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem_members.html).
+For a list of all members of this type, see [ITreeControlItem members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem_members.html).
 
 ## Public Properties
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[ITreeControlItem members](SolidWorks
 ## See Also
 
 [ITreeControlItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

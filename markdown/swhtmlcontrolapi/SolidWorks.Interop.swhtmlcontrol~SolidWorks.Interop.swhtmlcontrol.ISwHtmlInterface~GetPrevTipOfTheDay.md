@@ -46,18 +46,12 @@ Previous Tip of the Day string
 
 ## VBA Syntax
 
-See
-
-[SwHtmlInterface::GetPrevTipOfTheDay](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~GetPrevTipOfTheDay.html)
-
-.
+See [SwHtmlInterface::GetPrevTipOfTheDay](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~GetPrevTipOfTheDay.html).
 
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [ISwHtmlInterface Members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html)
-
 [ISwHtmlInterface::GetCurrentTODIndex Method](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~GetCurrentTODIndex.html)
 
 ## Availability

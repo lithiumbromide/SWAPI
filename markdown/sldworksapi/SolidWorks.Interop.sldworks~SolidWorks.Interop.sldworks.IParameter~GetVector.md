@@ -54,13 +54,7 @@ void GetVector(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[Parameter::GetVector](ms-its:sldworksapivb6.chm::/sldworks~Parameter~GetVector.html)
-
-.
+See [Parameter::GetVector](ms-its:sldworksapivb6.chm::/sldworks~Parameter~GetVector.html).
 
 ## See Also
 
 [IParameter Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter.html)
-
 [IParameter Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter_members.html)
-
 [IParameter::GetVectorVB Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter~GetVectorVB.html)
-
 [IParameter::SetVector2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter~SetVector2.html)

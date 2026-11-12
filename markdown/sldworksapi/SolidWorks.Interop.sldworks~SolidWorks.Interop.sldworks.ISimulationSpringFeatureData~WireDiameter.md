@@ -45,13 +45,7 @@ property System.double WireDiameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,19 @@ Wire diameter
 
 ## VBA Syntax
 
-See
-
-[SimulationSpringFeatureData::WireDiameter](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~WireDiameter.html)
-
-.
+See [SimulationSpringFeatureData::WireDiameter](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~WireDiameter.html).
 
 ## Examples
 
 [Add Spring to Motion Study (C#)](Add_Spring_to_Motion_Study_Example_CSharp.htm)
-
 [Add Spring to Motion Study (VB.NET)](Add_Spring_to_Motion_Study_Example_VBNET.htm)
-
 [Add Spring to Motion Study (VBA)](Add_Spring_to_Motion_Study_Example_VB.htm)
 
 ## See Also
 
 [ISimulationSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData.html)
-
 [ISimulationSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData_members.html)
-
 [ISimulationSpringFeatureData::CoilDiameter Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData~CoilDiameter.html)
-
 [ISimulationSpringFeatureData::NumberOfCoils Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData~NumberOfCoils.html)
 
 ## Availability

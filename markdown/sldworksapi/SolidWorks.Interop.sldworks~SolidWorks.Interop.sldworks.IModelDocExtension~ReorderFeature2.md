@@ -55,37 +55,19 @@ System.bool ReorderFeature2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FeatToMove`: Name of feature to move (see
-
-Remarks
-
-)
+- `FeatToMove`: Name of feature to move (see **Remarks**)
 - `TargetFeat`: Name of feature before or after which to move FeatureToMove
 
-- or -
+  - or -
 
-Name of folder; valid only if MoveLocation is swMoveLocation_e.swMoveToFolder and FeatToMove is not a Cut list/Solid Bodies folder
+  Name of folder; valid only if MoveLocation is swMoveLocation_e.swMoveToFolder and FeatToMove is not a Cut list/Solid Bodies folder
 
-(see**Remarks**)
-- `MoveLocation`: Move type as defined by
-
-[swMoveLocation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveLocation_e.html)
-
-(see
-
-Remarks
-
-)
+  (see **Remarks**)
+- `MoveLocation`: Move type as defined by [swMoveLocation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveLocation_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -93,11 +75,7 @@ True if feature moved successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ReorderFeature2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ReorderFeature2.html)
-
-.
+See [ModelDocExtension::ReorderFeature2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ReorderFeature2.html).
 
 ## Examples
 
@@ -107,7 +85,7 @@ See
 
 ' Preconditions:
 
-' 1. Open Public_documents \samples\tutorial\api\weldment_box3.sldprt .
+' 1. Open `Public_documents`**\samples\tutorial\api\weldment_box3.sldprt**.
 
 ' 2. Open an Immediate window.
 
@@ -119,11 +97,11 @@ See
 
 ' 1. When the macro pauses, inspect the Cut list folder.
 
-' 2. Observe the order of two new sub folders in the Cut list folder: Sub-weldment2 comes before Sub-weldment3 .
+' 2. Observe the order of two new sub folders in the Cut list folder: **Sub-weldment2** comes before **Sub-weldment3**.
 
 ' 3. Press F5 to reorder these folders.
 
-' 4. When the macro pauses, inspect the reordered folders: Sub-weldment3 moves before Sub-weldment2 .
+' 4. When the macro pauses, inspect the reordered folders: **Sub-weldment3** moves before **Sub-weldment2**.
 
 ' 5. Select a body or folder in the Cut list folder.
 
@@ -179,7 +157,7 @@ boolstatus = Part.Extension.SelectByID2("Structural Member3[1]", "SOLIDBODY", 0,
 
 boolstatus = Part.Extension.SelectByID2("Structural Member3[2]", "SOLIDBODY", 0, 0, 0, True, 0, Nothing, 0)
 
-Set myFeature = Part.FeatureManager. InsertSubFolder ()
+Set myFeature = Part.FeatureManager.**InsertSubFolder**()
 
 boolstatus = Part.Extension.SelectByID2("Gusset1", "SOLIDBODY", 0, 0, 0, False, 0, Nothing, 0)
 
@@ -189,13 +167,13 @@ boolstatus = Part.Extension.SelectByID2("Gusset3", "SOLIDBODY", 0, 0, 0, True, 0
 
 boolstatus = Part.Extension.SelectByID2("Gusset4", "SOLIDBODY", 0, 0, 0, True, 0, Nothing, 0)
 
-Set myFeature = Part.FeatureManager. InsertSubFolder ()
+Set myFeature = Part.FeatureManager.**InsertSubFolder**()
 
 Stop '1. Inspect the order of cut list folders;
 
 '2. Press F5 to reorder the folders
 
-boolstatus = Part.Extension. ReorderFeature2 ("Sub-weldment2", "Sub-weldment3", swMoveLocation_e.swMoveAfter)
+boolstatus = Part.Extension.**ReorderFeature2**("Sub-weldment2", "Sub-weldment3", swMoveLocation_e.swMoveAfter)
 
 Stop '1. Inspect the new order of cut list folders;
 
@@ -213,7 +191,7 @@ Set swSelObj = swSelectionMgr.GetSelectedObject6(1, -1)
 
 Set swFeatureMgr = Part.FeatureManager
 
-Set swFolderFeat = swFeatureMgr. CutListFolderLocation (swSelObj)
+Set swFolderFeat = swFeatureMgr.**CutListFolderLocation**(swSelObj)
 
 If swFolderFeat Is Nothing Then
 
@@ -230,9 +208,7 @@ End Sub
 ## Examples
 
 [Reorder Features (VBA)](Reorder_Features_Example_VB.htm)
-
 [Reorder Features (VB.NET)](Reorder_Features_Example_VBNET.htm)
-
 [Reorder Features (C#)](Reorder_Features_Example_CSharp.htm)
 
 ## Remarks
@@ -249,14 +225,13 @@ When reordering cut list folders and sub-weldment folders, the following restric
   - only affects cut lists in the active configuration. To reorder a cut list folder in another configuration, you must make it active before calling this method.
   - returns false if you try to move of a cut list/solid body folder to the top using either MoveLocation = swMoveLocation_e.swMoveToTop or MoveLocation = swMoveLocation_e.swMoveBefore. For example, if TargetFeat is the top folder, then you cannot set MoveLocation to swMoveLocation_e.swMoveBefore.
 
+Use [IBodyFolder::GetTopLevelFeatureCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetTopLevelFeatureCount.html) and [IBodyFolder::GetTopLevelFeatures](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetTopLevelFeatures.html) to obtain top level folders in a body folder.
+
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IPartDoc::ReorderFeature Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ReorderFeature.html)
-
 [IAssemblyDoc::ReorderComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReorderComponents.html)
 
 ## Availability

@@ -11,8 +11,7 @@ source: "sldworksapi/Move_Rollback_Bar_Using_Feature_Example_VB.htm"
 
 ## Move Rollback Bar Using Feature Example (VBA)
 
-This example shows how to move the rollback bar above and below a selected
-feature in a part document.
+This example shows how to move the rollback bar above and below a selected feature in a part document.
 
 ```
 '-------------------------------------------------------

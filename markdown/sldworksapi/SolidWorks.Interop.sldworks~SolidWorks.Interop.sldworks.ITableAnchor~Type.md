@@ -42,40 +42,25 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of table anchor as defined in
-
-[swTableAnnotationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableAnnotationType_e.html)
+Type of table anchor as defined in [swTableAnnotationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableAnnotationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[TableAnchor::Type](ms-its:sldworksapivb6.chm::/sldworks~TableAnchor~Type.html)
-
-.
+See [TableAnchor::Type](ms-its:sldworksapivb6.chm::/sldworks~TableAnchor~Type.html).
 
 ## Examples
 
 [Get Table Anchor (VBA)](Get_Table_Anchor_Example_VB.htm)
-
 [Get Table Anchor (VB.NET)](Get_Table_Anchor_Example_VBNET.htm)
-
 [Get Table Anchor (C#)](Get_Table_Anchor_Example_CSharp.htm)
 
 ## See Also
 
 [ITableAnchor Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnchor.html)
-
 [ITableAnchor Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnchor_members.html)
 
 ## Availability

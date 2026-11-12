@@ -43,13 +43,7 @@ public delegate System.int DAssemblyDocEvents_EquationEditorPostNotifyEventHandl
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,17 +51,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[EquationEditorPostNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~EquationEditorPostNotify_EV.html)
-
-.
+See [EquationEditorPostNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~EquationEditorPostNotify_EV.html).
 
 ## Remarks
 
-The IAssemblyDoc event[EquationEditorPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_EquationEditorPreNotifyEventHandler.html)notifies your application that the equation editor has been constructed.
+The IAssemblyDoc event [EquationEditorPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_EquationEditorPreNotifyEventHandler.html) notifies your application that the equation editor has been constructed.
 
-If developing a C++ application, use[swAssemblyEquationEditorPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyEquationEditorPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

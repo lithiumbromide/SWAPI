@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Forming_Tool_Example_VBNET.htm"
 
 # Create Forming Tool Example (VB.NET)
 
-This example shows how to create a forming tool for a
-sheet metal part.
+This example shows how to create a forming tool for a sheet metal part.
 
 ```
 '----------------------------------------------------------------------------

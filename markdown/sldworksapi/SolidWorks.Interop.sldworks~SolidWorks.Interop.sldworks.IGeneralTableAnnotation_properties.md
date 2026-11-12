@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGe
 
 # IGeneralTableAnnotation Interface Properties
 
-For a list of all members of this type, see[IGeneralTableAnnotation members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableAnnotation_members.html).
+For a list of all members of this type, see [IGeneralTableAnnotation members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableAnnotation_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IGeneralTableAnnotation members](Sol
 ## See Also
 
 [IGeneralTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableAnnotation.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

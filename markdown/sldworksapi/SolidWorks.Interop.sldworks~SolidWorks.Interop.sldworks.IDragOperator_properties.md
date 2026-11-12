@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # IDragOperator Interface Properties
 
-For a list of all members of this type, see[IDragOperator members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html).
+For a list of all members of this type, see [IDragOperator members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html).
 
 ## Public Properties
 
@@ -37,5 +37,4 @@ For a list of all members of this type, see[IDragOperator members](SolidWorks.In
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

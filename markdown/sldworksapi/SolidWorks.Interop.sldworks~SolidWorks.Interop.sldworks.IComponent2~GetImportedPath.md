@@ -40,13 +40,7 @@ System.string GetImportedPath()
 System.String^ GetImportedPath();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Full path name of the model imported for this component; empty string if model i
 
 ## VBA Syntax
 
-See
-
-[Component2::GetImportedPath](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetImportedPath.html)
-
-.
+See [Component2::GetImportedPath](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetImportedPath.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::GetPathName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetPathName.html)
-
 [IModelDoc2::GetPathName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetPathName.html)
 
 ## Availability

@@ -55,7 +55,7 @@ void UpdateRevisionComment(
 
 ## Remarks
 
-After calling this method, you must call[IEdmHistoryUpdate::CommitUpdates](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate~CommitUpdates.html)to write the change to the database.
+After calling this method, you must call [IEdmHistoryUpdate::CommitUpdates](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate~CommitUpdates.html) to write the change to the database.
 
 [Return codes](ReturnCodes.htm):
 
@@ -65,7 +65,6 @@ After calling this method, you must call[IEdmHistoryUpdate::CommitUpdates](EPDM.
 ## See Also
 
 [IEdmHistoryUpdate Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate.html)
-
 [IEdmHistoryUpdate Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistoryUpdate_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "MathVector Object
-Members"
+title: "MathVector Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MathVector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MathVector_members.html"
 ---
 
-# MathVector Object
-Members
+# MathVector Object Members
 
 ## Public Methods
 

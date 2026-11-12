@@ -1,6 +1,5 @@
 ---
-title: "CWContactSet Object
-Members"
+title: "CWContactSet Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWContactSet_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWContactSet_members.html"
 ---
 
-# CWContactSet Object
-Members
+# CWContactSet Object Members
 
 ## Public Methods
 

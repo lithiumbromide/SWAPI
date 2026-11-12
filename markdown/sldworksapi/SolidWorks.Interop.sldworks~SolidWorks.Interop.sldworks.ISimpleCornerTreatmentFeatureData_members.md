@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # ISimpleCornerTreatmentFeatureData Interface Members
 
-The following tables list the members exposed by[ISimpleCornerTreatmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData.html).
+The following tables list the members exposed by [ISimpleCornerTreatmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData.html).
 
 ## Public Properties
 
@@ -26,5 +26,4 @@ The following tables list the members exposed by[ISimpleCornerTreatmentFeatureDa
 ## See Also
 
 [ISimpleCornerTreatmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # IsDetachedDrawing Method (ISwDMDocument)
 
-Gets whether this file is a
-
-detached
-
-drawing.
+Gets whether this file is a detached drawing.
 
 ## Syntax
 
@@ -46,16 +42,11 @@ System.bool IsDetachedDrawing();
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::IsDetachedDrawing](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~IsDetachedDrawing.html)
-
-.
+See [SwDMDocument::IsDetachedDrawing](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~IsDetachedDrawing.html).
 
 ## Examples
 
 [Get Configuration Information (C#)](Get_Configuration_Information_Example_CSharp.htm)
-
 [Get Configuration Information (VB.NET)](Get_Configuration_Information_Example_VBNET.htm)
 
 ## Remarks
@@ -65,7 +56,6 @@ True if the file is detached drawing, false if not
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
 
 ## Availability

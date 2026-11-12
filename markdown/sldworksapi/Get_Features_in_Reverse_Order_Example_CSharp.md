@@ -11,8 +11,7 @@ source: "sldworksapi/Get_Features_in_Reverse_Order_Example_CSharp.htm"
 
 ## Get Features in Reverse Order Example (C#)
 
-This example shows how to get the names and types of features in the
-FeatureManager design tree in reverse chronological order.
+This example shows how to get the names and types of features in the FeatureManager design tree in reverse chronological order.
 
 ```
 //--------------------------------------------

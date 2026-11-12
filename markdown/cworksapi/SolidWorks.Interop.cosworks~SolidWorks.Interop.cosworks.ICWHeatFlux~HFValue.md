@@ -51,36 +51,21 @@ Heat flux value
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::HFValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~HFValue.html)
-
-.
+See [CWHeatFlux::HFValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~HFValue.html).
 
 ## Examples
 
-See the
-
-[ICWHeatFlux](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
-examples.
+See the [ICWHeatFlux](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html) examples.
 
 ## Remarks
 
-After setting this property, you must select the location of the thermostat in the model and pass it to
-
-[ICWHeatFlux::SetThermostat](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~SetThermostat.html)
-
-.
+After setting this property, you must select the location of the thermostat in the model and pass it to [ICWHeatFlux::SetThermostat](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~SetThermostat.html).
 
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
-
 [ICWHeatFlux::Unit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~Unit.html)
-
 [ICWHeatFlux::ReverseDirection Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~ReverseDirection.html)
 
 ## Availability

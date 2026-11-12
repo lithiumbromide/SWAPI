@@ -47,37 +47,19 @@ System.Object^ GetDimensionDisplayString5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DimensionSize`: Number of strings for each dimension (see
-
-Remarks
-
-)
+- `DimensionSize`: Number of strings for each dimension (see **Remarks**)
 
 ### Return Value
 
-Array of strings (see
-
-Remarks
-
-)
+Array of strings (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[View::GetDimensionDisplayString5](ms-its:sldworksapivb6.chm::/sldworks~View~GetDimensionDisplayString5.html)
-
-.
+See [View::GetDimensionDisplayString5](ms-its:sldworksapivb6.chm::/sldworks~View~GetDimensionDisplayString5.html).
 
 ## Examples
 
@@ -101,13 +83,13 @@ Sub main()
 
 Set swApp = Application.SldWorks
 
-Set swModel = swApp. ActiveDoc
+Set swModel = swApp.**ActiveDoc**
 
 Set swDraw = swModel
 
 Dim views As Variant
 
-views = swDraw. GetViews ()
+views = swDraw.**GetViews**()
 
 Set swView = views(0)(0)
 
@@ -115,7 +97,7 @@ Dim var As Variant
 
 Dim size As Long
 
-var = swView. GetDimensionDisplayString5 (size)
+var = swView.**GetDimensionDisplayString5**(size)
 
 Debug.Print "Number of strings in returned array: " & UBound(var) + 1
 
@@ -129,69 +111,53 @@ This method returns a string array of size (`DimensionSize`) x (`number_of_dimen
 
 This set of values returned for each dimension in the view:
 
-[value1, tolMax1 tolMin1, value2, tolMax2, tolMin2, prefix, suffix, callout1, callout2, bottom]
+[ value1, tolMax1 tolMin1, value2, tolMax2, tolMin2, prefix, suffix, callout1, callout2, bottom ]
 
 where:
 
-`value1`= Primary Dimension Value
+`value1` = Primary Dimension Value
 
-`tolMax1`= Maximum Variation for`value1`
+`tolMax1` = Maximum Variation for `value1`
 
-`tolMin1`= Minimum Variation for`value1`
+`tolMin1` = Minimum Variation for `value1`
 
-`value2`= Dual Dimension Value
+`value2` = Dual Dimension Value
 
-`tolMax2`= Maximum Variation for`value2`
+`tolMax2` = Maximum Variation for `value2`
 
-`tolMin2`= Minimum Variation for`value2`
+`tolMin2` = Minimum Variation for `value2`
 
-`prefix`= Text before`value1`
+`prefix` = Text before `value1`
 
-`suffix`= Text after`value1`
+`suffix` = Text after `value1`
 
-`callout1`= Text above`prefix`<`value1`>`suffix`
+`callout1` = Text above `prefix`<`value1`>`suffix`
 
-`callout2`= Text below`prefix`<`value1`>`suffix`
+`callout2` = Text below `prefix`<`value1`>`suffix`
 
-`bottom`= Text below`callout2`
+`bottom` = Text below `callout2`
 
 The Dimension PropertyManager page (PMP) contains two Dimension Text boxes. Add dimension text by entering prefix, suffix, callout1, and callout2 texts in the first Dimension Text box. Enter bottom text in the second Dimension Text box.
 
 If any of the above values are not used in the dimension, then those values are returned as empty strings in the returned array of this method.
 
-For more information, see**SOLIDWORKS user-interface help > Detailing and Drawings > Drawings > Dimensions in Drawings > Dimension Value PropertyManager**.
+For more information, see **SOLIDWORKS Design user-interface help > Detailing and Drawings > Drawings > Dimensions in Drawings > Dimension Value PropertyManager**.
 
 NOTES:
 
-- A previous version of this method,
-
-  [IView::GetDimensionDisplayString2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDimensionDisplayString2.html)
-
-  , detects and overlooks dangling dimensions. This method neither overlooks nor indicates that any dimensions are dangling. Use IView::GetDimensionDisplayString2 if you need dangling dimensions detected and overlooked.
-- This method does not support
-
-  [hole callouts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsHoleCallout.html)
-
-  .
+- A previous version of this method, [IView::GetDimensionDisplayString2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDimensionDisplayString2.html), detects and overlooks dangling dimensions. This method neither overlooks nor indicates that any dimensions are dangling. Use IView::GetDimensionDisplayString2 if you need dangling dimensions detected and overlooked.
+- This method does not support [hole callouts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsHoleCallout.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetDimensionDisplayInfo5 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionDisplayInfo5.html)
-
 [IView::GetDimensionDisplayInfoSize2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionDisplayInfoSize2.html)
-
 [IView::GetDimensionIds4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionIds4.html)
-
 [IView::GetDimensionInfo7 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionInfo7.html)
-
 [IView::GetDimensionString4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionString4.html)
-
 [IView::GetFirstDisplayDimension5 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstDisplayDimension5.html)
-
 [IView::ProjectedDimensions Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~ProjectedDimensions.html)
 
 ## Availability

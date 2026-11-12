@@ -35,5 +35,4 @@ System.int mlVersion
 ## See Also
 
 [EdmHistoryItem Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html)
-
 [EdmHistoryItem Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem_members.html)

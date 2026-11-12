@@ -47,21 +47,11 @@ Camera^ GetCameraById(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CameraId`: Camera ID (see
-
-Remarks
-
-)
+- `CameraId`: Camera ID (see **Remarks**)
 
 ### Return Value
 
@@ -69,11 +59,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetCameraById](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCameraById.html)
-
-.
+See [ModelDocExtension::GetCameraById](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCameraById.html).
 
 ## Examples
 
@@ -81,11 +67,9 @@ See
 
 ## Remarks
 
-A valid ID is 0 <= ID <= ([IModelDocExtension::GetCameraCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetCameraCount.html)-1).
+A valid ID is 0 <= ID <= ([IModelDocExtension::GetCameraCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetCameraCount.html) -1).
 
 CameraId is reassigned if there are multiple cameras and one of those cameras is deleted. For example:
-
-(Table)=========================================================
 
 | If... | And Camera2 is deleted, then... |
 | --- | --- |
@@ -96,11 +80,8 @@ CameraId is reassigned if there are multiple cameras and one of those cameras is
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [ICamera::GetCameraDefinition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCameraDefinition.html)
-
 [IModelDocExtension::InsertCamera Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertCamera.html)
 
 ## Availability

@@ -61,14 +61,10 @@ CWRestraint^ AddRestraint(
 
 ### Parameters
 
-- `NRestraintType`: Type of restraint as defined in
-
-[swsRestraintType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintType_e.html)
+- `NRestraintType`: Type of restraint as defined in [swsRestraintType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintType_e.html)
 - `DispArray`: Array of entities to which to apply the restraint
 - `RefGeom`: Reference geometry entity for direction; valid only if NRestraintType is set to swsRestraintType_e.swsRestraintTypeReferenceGeometry
-- `ErrorCode`: Error code as defined in
-
-[swsRestraintError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintError_e.html)
+- `ErrorCode`: Error code as defined in [swsRestraintError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintError_e.html)
 
 ### Return Value
 
@@ -76,24 +72,17 @@ CWRestraint^ AddRestraint(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddRestraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddRestraint.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddRestraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddRestraint.html).
 
 ## Examples
 
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analyze Part (VBA)](Analyze_Part_Example_VB.htm)
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

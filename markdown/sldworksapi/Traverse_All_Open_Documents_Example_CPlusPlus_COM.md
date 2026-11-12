@@ -9,71 +9,46 @@ source: "sldworksapi/Traverse_All_Open_Documents_Example_CPlusPlus_COM.htm"
 
 # Traverse All Open Documents Example (C++ COM)
 
-This example shows how to traverse all open
-documents.
+This example shows how to traverse all open documents.
 
-bool CFileReferenceTests::isFileOpen(CString
-fileSpec)
-
+```vb
+bool CFileReferenceTests::isFileOpen(CString fileSpec)
 {
 
-bool retval = FALSE;
+ bool retval = FALSE;
+ HRESULT hres = S_FALSE;
 
-HRESULT hres = S_FALSE;
+ if (fileSpec.IsEmpty())
+  return retval;
 
-if (fileSpec.IsEmpty())
+ LPENUMDOCUMENTS pDocEnum = NULL;
+ hres = TheApplication->m_pSldWorks->EnumDocuments2(&pDocEnum);
 
-return retval;
+ // No documents open
+ if (pDocEnum == NULL)
+  return retval;
 
-LPENUMDOCUMENTS pDocEnum
-= NULL;
+ int docNum = 0;
+ LPMODELDOC pModelDoc = NULL;
+ hres = pDocEnum->Next(1, &pModelDoc, NULL);
+ while (S_OK == hres)
+ {
+  BSTR bdocName;
+  hres = pModelDoc->GetPathName(&bdocName);
+  CString docName(bdocName);
 
-hres = TheApplication->m_pSldWorks->EnumDocuments2(&pDocEnum);
+  // File name matches
+  if (fileSpec.CompareNoCase(docName) == 0)
+   retval = TRUE;
 
-// No documents
-open
+  pModelDoc->Release();
+  pModelDoc = NULL;
+  hres = pDocEnum->Next(1, &pModelDoc, NULL);
+ }
 
-if (pDocEnum == NULL)
+ if (pDocEnum != NULL) pDocEnum->Release();
 
-return retval;
-
-int docNum = 0;
-
-LPMODELDOC pModelDoc =
-NULL;
-
-hres = pDocEnum->Next(1,
-&pModelDoc, NULL);
-
-while (S_OK == hres)
-
-{
-
-BSTR bdocName;
-
-hres = pModelDoc->GetPathName(&bdocName);
-
-CString docName(bdocName);
-
-//
-File name matches
-
-if (fileSpec.CompareNoCase(docName)
-== 0)
-
-retval = TRUE;
-
-pModelDoc->Release();
-
-pModelDoc = NULL;
-
-hres = pDocEnum->Next(1, &pModelDoc, NULL);
+ return retval;
 
 }
-
-if (pDocEnum != NULL)
-pDocEnum->Release();
-
-return retval;
-
-}
+```

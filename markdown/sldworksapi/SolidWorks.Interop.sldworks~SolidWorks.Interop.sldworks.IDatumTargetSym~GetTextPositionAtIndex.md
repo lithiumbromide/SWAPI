@@ -47,13 +47,7 @@ System.Object^ GetTextPositionAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,44 +55,28 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::GetTextPositionAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetTextPositionAtIndex.html)
-
-.
+See [DatumTargetSym::GetTextPositionAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetTextPositionAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-**[**`textPtX, textPtY, textPtZ`**]**
+**[** `textPtX, textPtY, textPtZ` **]**
 
 where these text position values are actually offset values from the origin of this datum target symbol.
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::GetTextAngleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetTextAngleAtIndex.html)
-
 [IDatumTargetSym::GetTextAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetTextAtIndex.html)
-
 [IDatumTargetSym::GetTextCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetTextCount.html)
-
 [IDatumTargetSym::GetTextHeightAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetTextHeightAtIndex.html)
-
 [IDatumTargetSym::GetTextInvertAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetTextInvertAtIndex.html)
-
 [IDatumTargetSym::GetTextRefPositionAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetTextRefPositionAtIndex.html)
-
 [IDatumTargetSym::IGetTextPositionAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~IGetTextPositionAtIndex.html)

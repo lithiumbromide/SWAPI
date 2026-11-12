@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IFace Interface Methods
 
-For a list of all members of this type, see[IFace members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html).
+For a list of all members of this type, see [IFace members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html).
 
 ## Public Methods
 
@@ -95,5 +95,4 @@ For a list of all members of this type, see[IFace members](SolidWorks.Interop.sl
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

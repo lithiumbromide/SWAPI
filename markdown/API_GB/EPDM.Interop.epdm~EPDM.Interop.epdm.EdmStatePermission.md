@@ -34,24 +34,22 @@ public value class EdmStatePermission : public System.ValueType
 
 ## Examples
 
-struct EdmStatePermission { enum EdmObjectType meOwnerType ; integer mlOwnerID ; integer mlStateID ; integer mlEdmRightFlag ; };
+struct EdmStatePermission
+{
+[enum EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html) [meOwnerType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~meOwnerType.html);
+integer [mlOwnerID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~mlOwnerID.html);
+integer [mlStateID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~mlStateID.html);
+integer [mlEdmRightFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission~mlEdmRightFlag.html);
+
+};
 
 ## Remarks
 
-Used by
-
-[IEdmUserMgr9::GetStatePermissions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9~GetStatePermissions.html)
-
-and
-
-[IEdmUserMgr9::SetStatePermissions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9~SetStatePermissions.html)
-
-.
+Used by [IEdmUserMgr9::GetStatePermissions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9~GetStatePermissions.html) and [IEdmUserMgr9::SetStatePermissions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9~SetStatePermissions.html).
 
 ## See Also
 
 [EdmStatePermission Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "IBomTableSortData Object
-Members"
+title: "IBomTableSortData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IBomTableSortData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IBomTableSortData_members.html"
 ---
 
-# IBomTableSortData Object
-Members
+# IBomTableSortData Object Members
 
 ## Public Properties
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetTrimCurve Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetTrimCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html)
-
-.
+Obsolete. Superseded by [IFace2::IGetTrimCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.double IGetTrimCurve()
 System.double IGetTrimCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::IGetTrimCurve](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetTrimCurve.html)
-
-.
+See [Face::IGetTrimCurve](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetTrimCurve.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

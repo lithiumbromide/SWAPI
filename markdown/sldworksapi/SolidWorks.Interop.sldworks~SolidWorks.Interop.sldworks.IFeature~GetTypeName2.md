@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 Gets the type of feature.
 
-NOTE: Toget the underlying type of feature of an Instant3D feature (i.e., "ICE"), call IFeature::GetTypeName ; otherwise, call this method.
+**NOTE:** To get the underlying type of feature of an Instant3D feature (i.e., "ICE"), call [IFeature::GetTypeName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetTypeName.html); otherwise, call this method.
 
 ## Syntax
 
@@ -42,45 +42,29 @@ System.string GetTypeName2()
 System.String^ GetTypeName2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-String identifying the type of feature (see**Remarks**)
+String identifying the type of feature (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Feature::GetTypeName2](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetTypeName2.html)
-
-.
+See [Feature::GetTypeName2](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetTypeName2.html).
 
 ## Examples
 
 [Create Ellipse (VBA)](Create_Ellipse_Example_VB.htm)
-
 [Add Spring to Motion Study (C#)](Add_Spring_to_Motion_Study_Example_CSharp.htm)
-
 [Add Spring to Motion Study (VB.NET)](Add_Spring_to_Motion_Study_Example_VBNET.htm)
-
 [Add Spring to Motion Study (VBA)](Add_Spring_to_Motion_Study_Example_VB.htm)
-
 [Get Type of Instant3D Feature (C#)](Get_Type_of_Instant3D_Feature_Example_CSharp.htm)
-
 [Get Type of Instant3D Feature (VB.NET)](Get_Type_of_Instant3D_Feature_Example_VBNET.htm)
-
 [Get Type of Instant3D Feature (VBA)](Get_Type_of_Instant3D_Feature_Example_VB.htm)
 
 ## Remarks
 
-Use[IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html)to get a feature data object (i.e., an object whose interface name ends in FeatureData or FeatureData2, such as ISymmetricMateFeatureData, IExtrudeFeatureData2, ILoftFeatureData, ISimpleFilletFeatureData2, IChamferFeatureData2, etc.); otherwise, use[IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html)to get an object for a feature.
+Use [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html) to get a feature data object (i.e., an object whose interface name ends in FeatureData or FeatureData2, such as ISymmetricMateFeatureData, IExtrudeFeatureData2, ILoftFeatureData, ISimpleFilletFeatureData2, IChamferFeatureData2, etc.); otherwise, use [IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html) to get an object for a feature.
 
 | Type of feature | String returned by this method | Interface |
 | --- | --- | --- |
@@ -198,6 +182,7 @@ Use[IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldw
 |  | PunchTableAnchor | ITableAnchor |
 |  | RevisionTableAnchor | ITableAnchor |
 |  | WeldmentTableAnchor | ITableAnchor |
+|  | FamilyTableFeat | IFamilyTableFeature |
 |  | WeldTableAnchor | ITableAnchor |
 | Folder | BlockFolder | Obsolete |
 |  | CommentsFolder | ICommentFolder |
@@ -330,26 +315,13 @@ Use[IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldw
 |  | WeldmentFeature | IStructuralMemberFeatureData |
 |  | WeldmentTableFeat | IWeldmentCutListFeature |
 
-NOTE:
-
-This method returns strings for some features shown in the FeatureManager design tree (e.g.,
-
-MateGroup
-
-,
-
-Weldment
-
-, etc.) that set up the design functionality environment and, thus, do not have interfaces.
+**NOTE:** This method returns strings for some features shown in the FeatureManager design tree (e.g., **MateGroup**, **Weldment**, etc.) that set up the design functionality environment and, thus, do not have interfaces.
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::Name Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Name.html)
-
 [IFeature::GetNameForSelection Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetNameForSelection.html)
 
 ## Availability

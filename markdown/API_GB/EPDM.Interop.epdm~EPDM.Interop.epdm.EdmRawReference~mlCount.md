@@ -34,11 +34,7 @@ System.int mlCount
 
 ## Examples
 
-See the
-
-[EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
-examples.
+See the [EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html) examples.
 
 ## Remarks
 
@@ -47,5 +43,4 @@ This member returns 0 for file formats that do not support counting of file refe
 ## See Also
 
 [EdmRawReference Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
 [EdmRawReference Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference_members.html)

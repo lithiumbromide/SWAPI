@@ -45,13 +45,7 @@ property System.Object^ PickPoints {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,16 @@ Array of the pick points that contain arrays of coordinates of the pick points o
 
 ## VBA Syntax
 
-See
-
-[LoftFeatureData::PickPoints](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~PickPoints.html)
-
-.
+See [LoftFeatureData::PickPoints](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~PickPoints.html).
 
 ## Examples
 
 [Get and Set Loft's Pick Points (VB.NET)](Get_Loft's_Pick_Points_Example_VBNET.htm)
-
 [Get and Set Loft's Pick Points (C#)](Get_Loft's_Pick_Points_Example_CSharp.htm)
 
 ## See Also
 
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [ILoftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_External_References_Example_VBNET.htm"
 
 # Get External References (VB.NET)
 
-This example shows how to get a list of the external references for a selected
-component, selected feature, or document.
+This example shows how to get a list of the external references for a selected component, selected feature, or document.
 
 ```vb
  '----------------------------------------------------------

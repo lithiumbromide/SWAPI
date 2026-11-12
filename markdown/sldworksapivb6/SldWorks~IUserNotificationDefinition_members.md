@@ -1,6 +1,5 @@
 ---
-title: "IUserNotificationDefinition Object
-Members"
+title: "IUserNotificationDefinition Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IUserNotificationDefinition_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IUserNotificationDefinition_members.html"
 ---
 
-# IUserNotificationDefinition Object
-Members
+# IUserNotificationDefinition Object Members
 
 ## Public Properties
 

@@ -47,13 +47,7 @@ System.bool AddSubDialog(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if the dialog was successfully added, false if not
 
 ## VBA Syntax
 
-See
-
-[LightDialog::AddSubDialog](ms-its:sldworksapivb6.chm::/sldworks~LightDialog~AddSubDialog.html)
-
-.
+See [LightDialog::AddSubDialog](ms-its:sldworksapivb6.chm::/sldworks~LightDialog~AddSubDialog.html).
 
 ## Remarks
 
@@ -78,7 +68,6 @@ Currently only one sub-dialog can be added to each dialog.
 ## See Also
 
 [ILightDialog Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILightDialog.html)
-
 [ILightDialog Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILightDialog_members.html)
 
 ## Availability

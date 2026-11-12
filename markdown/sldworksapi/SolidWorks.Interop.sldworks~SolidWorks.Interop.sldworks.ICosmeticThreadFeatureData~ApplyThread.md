@@ -45,56 +45,28 @@ property System.int ApplyThread {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-How to apply the thread as defined in
-
-[swCosmeticThreadType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticThreadType_e.html)
-
-(see
-
-Remarks
-
-)
+How to apply the thread as defined in [swCosmeticThreadType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticThreadType_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CosmeticThreadFeatureData::ApplyThread](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~ApplyThread.html)
-
-.
+See [CosmeticThreadFeatureData::ApplyThread](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~ApplyThread.html).
 
 ## Examples
 
-See the
-
-[ICosmeticThreadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
-examples.
+See the [ICosmeticThreadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData.html) examples.
 
 ## Remarks
 
-If the value is swApplyCosmeticThread_Blind, then call
-
-[ICosmeticThreadFeatureData::BlindDepth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData~BlindDepth.html)
-
-to get or set the depth of the thread.
+If the value is swApplyCosmeticThread_Blind, then call [ICosmeticThreadFeatureData::BlindDepth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData~BlindDepth.html) to get or set the depth of the thread.
 
 ## See Also
 
 [ICosmeticThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
 [ICosmeticThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData_members.html)
-
 [ICosmeticThreadFeatureData::BlindDepth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData~BlindDepth.html)
 
 ## Availability

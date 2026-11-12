@@ -40,13 +40,7 @@ System.bool CanCreateBendLines()
 System.bool CanCreateBendLines();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ True if bend lines parameters affect this lofted bend feature, false if not
 
 ## VBA Syntax
 
-See
-
-[LoftedBendsFeatureData::CanCreateBendLines](ms-its:sldworksapivb6.chm::/sldworks~LoftedBendsFeatureData~CanCreateBendLines.html)
-
-.
+See [LoftedBendsFeatureData::CanCreateBendLines](ms-its:sldworksapivb6.chm::/sldworks~LoftedBendsFeatureData~CanCreateBendLines.html).
 
 ## See Also
 
 [ILoftedBendsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData.html)
-
 [ILoftedBendsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData_members.html)
-
 [ILoftedBendsFeatureData::BendLineControlOption Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData~BendLineControlOption.html)
-
 [ILoftedBendsFeatureData::MaximumDeviation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData~MaximumDeviation.html)
-
 [ILoftedBendsFeatureData::NumberOfBendLines Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData~NumberOfBendLines.html)
 
 ## Availability

@@ -9,20 +9,12 @@ source: "sldworksapi/Rebuild_All_Configurations_Example_VB.htm"
 
 # Rebuild All Configurations Example (VBA)
 
-To rebuild all of the configurations in a part, assembly, or drawing
-document, see:
+To rebuild all of the configurations in a part, assembly, or drawing document, see:
 
-- [Forcibly
-  Rebuild All Configurations Example (VBA)](Forcibly_Rebuild_All_Configurations_Example_VB.htm)
-- [Get
-  Active Document Dependents Example (VBA)](Get_Active_Document_Dependents_Example_VB.htm)
+- [Forcibly Rebuild All Configurations Example (VBA)](Forcibly_Rebuild_All_Configurations_Example_VB.htm)
+- [Get Active Document Dependents Example (VBA)](Get_Active_Document_Dependents_Example_VB.htm)
 
-Also, because each drawing view on each sheet can contain a different
-model and each in a different configuration, first you must find the parts
-or assemblies associated with the drawing.kadov_tag{{</spaces>}}You
-can then rebuild them in the usual manner. Next, you must activate each
-drawing sheet and rebuild that sheet.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}The
-following example shows how to activate each sheet in a drawing document.
+Also, because each drawing view on each sheet can contain a different model and each in a different configuration, first you must find the parts or assemblies associated with the drawing. You can then rebuild them in the usual manner. Next, you must activate each drawing sheet and rebuild that sheet. The following example shows how to activate each sheet in a drawing document.
 
 ```
 '---------------------------------------------

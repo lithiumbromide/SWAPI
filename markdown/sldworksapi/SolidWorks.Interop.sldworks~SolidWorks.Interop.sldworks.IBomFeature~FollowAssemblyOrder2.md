@@ -45,13 +45,7 @@ property System.bool FollowAssemblyOrder2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True for the item numbers in the BOM to follow the order in which the assembly a
 
 ## VBA Syntax
 
-See
-
-[BomFeature::FollowAssemblyOrder2](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~FollowAssemblyOrder2.html)
-
-.
+See [BomFeature::FollowAssemblyOrder2](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~FollowAssemblyOrder2.html).
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
-
 [IBomFeature::KeepCurrentItemNumbers Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~KeepCurrentItemNumbers.html)
 
 ## Availability

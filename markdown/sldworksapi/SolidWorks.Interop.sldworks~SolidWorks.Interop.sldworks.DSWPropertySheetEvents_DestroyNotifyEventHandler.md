@@ -37,27 +37,17 @@ public delegate System.int DSWPropertySheetEvents_DestroyNotifyEventHandler()
 public delegate System.int DSWPropertySheetEvents_DestroyNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DestroyNotify Event (SWPropertySheet)](ms-its:sldworksapivb6.chm::/SldWorks~SWPropertySheet~DestroyNotify_EV.html)
-
-.
+See [DestroyNotify Event (SWPropertySheet)](ms-its:sldworksapivb6.chm::/SldWorks~SWPropertySheet~DestroyNotify_EV.html).
 
 ## Remarks
 
 When this event is fired, the window associated with the destroyed property sheet is still alive, but any API pages have already been removed.
 
-If developing a C++ application, use[swPropertySheetDestroyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertySheetNotify_e.html)to register for this notification.
+If developing a C++ application, use [swPropertySheetDestroyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertySheetNotify_e.html) to register for this notification.
 
 ## Availability
 

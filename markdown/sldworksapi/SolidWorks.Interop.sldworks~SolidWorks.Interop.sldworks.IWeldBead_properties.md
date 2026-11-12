@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWe
 
 # IWeldBead Interface Properties
 
-For a list of all members of this type, see[IWeldBead members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead_members.html).
+For a list of all members of this type, see [IWeldBead members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead_members.html).
 
 ## Public Properties
 
@@ -22,13 +22,8 @@ For a list of all members of this type, see[IWeldBead members](SolidWorks.Intero
 ## See Also
 
 [IWeldBead Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IWeldmentBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentBeadFeatureData.html)
-
 [IAssemblyDoc::InsertWeld Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertWeld.html)
-
 [IAssemblyDoc::InsertWeld2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertWeld2.html)

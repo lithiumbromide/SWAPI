@@ -9,8 +9,7 @@ source: "sldworksapi/Close_Document_Example_VB.htm"
 
 # Close Document Example (VBA)
 
-This example shows how to create new parts
-and close the parts by name.
+This example shows how to create new parts and close the parts by name.
 
 ```
 '---------------------------------------------

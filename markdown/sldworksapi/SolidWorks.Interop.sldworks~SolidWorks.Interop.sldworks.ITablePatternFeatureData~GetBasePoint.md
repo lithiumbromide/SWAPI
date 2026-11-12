@@ -40,13 +40,7 @@ System.object GetBasePoint()
 System.Object^ GetBasePoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Base point
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData::GetBasePoint](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~GetBasePoint.html)
-
-.
+See [TablePatternFeatureData::GetBasePoint](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~GetBasePoint.html).
 
 ## Examples
 
@@ -67,9 +57,7 @@ See
 ## See Also
 
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
-
 [ITablePatternFeatureData::IGetBasePoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~IGetBasePoint.html)
 
 ## Availability

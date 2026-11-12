@@ -67,20 +67,14 @@ System.Object^ InsertBreak3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Orientation`: Horizontal or vertical cut as defined in[swBreakLineOrientation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakLineOrientation_e.html)
-- `Position1`: Location of the first line in the break (seeRemarks)
-- `Position2`: Location of the second line in the break (seeRemarks)
-- `Style`: Break line style as defined in[swBreakLineStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakLineStyle_e.html)
+- `Orientation`: Horizontal or vertical cut as defined in [swBreakLineOrientation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakLineOrientation_e.html)
+- `Position1`: Location of the first line in the break (see Remarks)
+- `Position2`: Location of the second line in the break (see Remarks)
+- `Style`: Break line style as defined in [swBreakLineStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakLineStyle_e.html)
 - `ShapeIntensity`: Shape intensity for jagged cut break lines only; valid range is 1 (most) through 5 (least)
 - `BreakSketchBlocks`: True to break sketch blocks, false to not
 
@@ -90,18 +84,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::InsertBreak3](ms-its:sldworksapivb6.chm::/sldworks~View~InsertBreak3.html)
-
-.
+See [View::InsertBreak3](ms-its:sldworksapivb6.chm::/sldworks~View~InsertBreak3.html).
 
 ## Examples
 
 [Insert Jagged Cut Break (VBA)](Insert_Jagged_Cut_Break_Example_VB.htm)
-
 [Insert Jagged Cut Break (VB.NET)](Insert_Jagged_Cut_Break_Example_VBNET.htm)
-
 [Insert Jagged Cut Break (C#)](Insert_Jagged_Cut_Break_Example_CSharp.htm)
 
 ## Remarks
@@ -116,19 +104,12 @@ A break in a drawing view consists of a pair of break lines. This method inserts
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetBreakLineCount2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLineCount2.html)
-
 [IView::GetBreakLineInfo2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLineInfo2.html)
-
 [IView::GetBreakLines Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLines.html)
-
 [IView::IsBroken Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IsBroken.html)
-
 [IView::BreakLineGap Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~BreakLineGap.html)
-
 [IDrawingDoc::BreakView Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~BreakView.html)
 
 ## Availability

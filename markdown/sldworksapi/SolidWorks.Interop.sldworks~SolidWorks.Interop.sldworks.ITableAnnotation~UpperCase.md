@@ -45,13 +45,7 @@ property System.int UpperCase {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::UpperCase](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~UpperCase.html)
-
-.
+See [TableAnnotation::UpperCase](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~UpperCase.html).
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBa
 
 # GetExcitationDirections Method (ICWBaseExcitation)
 
-Obsolete. Superseded by
-
-[ICWBaseExcitation::GetExcitationDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationDirections2.html)
-
-.
+Obsolete. Superseded by [ICWBaseExcitation::GetExcitationDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationDirections2.html).
 
 ## Syntax
 
@@ -60,48 +56,24 @@ void GetExcitationDirections(
 
 ### Parameters
 
-- `BDir1`: 1 to get excitation along plane direction 1, 0 to not (see
-
-Remarks
-
-)
-- `BDir2`: 1 to get excitation along plane direction 2, 0 to not (see
-
-Remarks
-
-)
-- `BDir3`: 1 to get excitation along plane direction 3, 0 to not (see
-
-Remarks
-
-)
+- `BDir1`: 1 to get excitation along plane direction 1, 0 to not (see **Remarks**)
+- `BDir2`: 1 to get excitation along plane direction 2, 0 to not (see **Remarks**)
+- `BDir3`: 1 to get excitation along plane direction 3, 0 to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWBaseExcitation::GetExcitationDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~GetExcitationDirections.html)
-
-.
+See [CWBaseExcitation::GetExcitationDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~GetExcitationDirections.html).
 
 ## Remarks
 
-For uniform base excitations, this method is valid only if you did not call
-
-[ICWBaseExcitation::SetDirectionEntityForUniformExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetDirectionEntityForUniformExcitation.html)
-
-to set the face, edge, or plane in whose direction the excitation is uniformly applied.
+For uniform base excitations, this method is valid only if you did not call [ICWBaseExcitation::SetDirectionEntityForUniformExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetDirectionEntityForUniformExcitation.html) to set the face, edge, or plane in whose direction the excitation is uniformly applied.
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
-
 [ICWBaseExcitation::SetExcitationDirections Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~SetExcitationDirections.html)
-
 [ICWBaseExcitation::GetExcitationDirectionValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationDirectionValues.html)
-
 [ICWBaseExcitation::GetExcitationReverseDirections Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationReverseDirections.html)
 
 ## Availability

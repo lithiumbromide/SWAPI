@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Sketch_Entities_Example_VB.htm"
 
 # Get Sketch Entities Example (VBA)
 
-This example shows how to get all of the sketch entities (arcs, ellipses,
-lines, parabolas, splines, and text)kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}in
-a sketch.
+This example shows how to get all of the sketch entities (arcs, ellipses, lines, parabolas, splines, and text) in a sketch.
 
 ```
 '-------------------------------------------------
@@ -47,7 +45,7 @@ Sub main()
 ```
 
 ```
-    ' Connect to SOLIDWORKS
+    ' Connect to SOLIDWORKS Design
     Set swApp = Application.SldWorks
 ```
 

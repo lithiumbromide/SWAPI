@@ -59,20 +59,14 @@ Annotation^ InsertAnnotationFavorite(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BstrFileName`: Path and filename of favorites file
 - `X`: x coordinate where to insert the annotations
-- `Y`: y coordinate where to insert the annotationParamDescs
-- `Z`: z coordinate where to insert the annotationParamDescs
+- `Y`: y coordinate where to insert the annotations
+- `Z`: z coordinate where to insert the annotations
 
 ### Return Value
 
@@ -80,16 +74,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertAnnotationFavorite](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertAnnotationFavorite.html)
-
-.
+See [ModelDocExtension::InsertAnnotationFavorite](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertAnnotationFavorite.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

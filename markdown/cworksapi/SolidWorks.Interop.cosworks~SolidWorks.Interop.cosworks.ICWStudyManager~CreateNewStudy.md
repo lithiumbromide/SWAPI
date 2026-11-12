@@ -9,9 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # CreateNewStudy Method (ICWStudyManager)
 
-Obsolete. Superseded by
-
-[ICWStudyManager::CreateNewStudy2 .](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyManager~CreateNewStudy2.html)
+Obsolete. Superseded by [ICWStudyManager::CreateNewStudy2.](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyManager~CreateNewStudy2.html)
 
 ## Syntax
 
@@ -64,9 +62,9 @@ CWStudy^ CreateNewStudy(
 ### Parameters
 
 - `SName`: New study name
-- `NAnalysisType`: Type of study as defined in[swsAnalysisStudyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAnalysisStudyType_e.html)
-- `NMeshType`: Mesh type as defined in[swsMeshType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshType_e.html)(see**Remarks**)
-- `Errors`: Error as defined in[swsStudyError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStudyError_e.html)
+- `NAnalysisType`: Type of study as defined in [swsAnalysisStudyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAnalysisStudyType_e.html)
+- `NMeshType`: Mesh type as defined in [swsMeshType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshType_e.html) (see **Remarks**)
+- `Errors`: Error as defined in [swsStudyError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStudyError_e.html)
 
 ### Return Value
 
@@ -74,25 +72,17 @@ CWStudy^ CreateNewStudy(
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::CreateNewStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~CreateNewStudy.html)
-
-.
+See [CWStudyManager::CreateNewStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~CreateNewStudy.html).
 
 ## Examples
 
 [Create Nonlinear Study and Apply Materials (C#)](Create_Nonlinear_Study_and_Apply_Materials_Example_CSharp.htm)
-
 [Create Nonlinear Study and Apply Materials (VB.NET)](Create_Nonlinear_Study_and_Apply_Materials_Example_VBNET.htm)
-
 [Create Nonlinear Study and Apply Materials (VBA)](Create_Nonlinear_Study_and_Apply_Materials_Example_VB.htm)
 
 ## Remarks
 
 Valid mesh types for different types of studies:
-
-(Table)=========================================================
 
 | Study Type | Solid Mesh | Shell Mesh | Mixed Mesh (Solid & Shell) | Beam Mesh |
 | --- | --- | --- | --- | --- |
@@ -116,7 +106,6 @@ Valid mesh types for different types of studies:
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
 
 ## Availability

@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Sketch_Points_Example_VB.htm"
 
 # Get Sketch Points Example (VBA)
 
-This example shows how to loop through a
-selected sketch that has one or more sketch points and get the x and y
-coordinates of every sketch point.
+This example shows how to loop through a selected sketch that has one or more sketch points and get the x and y coordinates of every sketch point.
 
 ```
 '-------------------------------------------------------

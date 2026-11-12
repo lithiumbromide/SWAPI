@@ -51,11 +51,7 @@ True to ignore links or shortcuts, false to search them
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchOptions::IgnoreLinks](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~IgnoreLinks.html)
-
-.
+See [PDMWSearchOptions::IgnoreLinks](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~IgnoreLinks.html).
 
 ## Examples
 
@@ -68,7 +64,6 @@ By default, links and shortcuts are searched.
 ## See Also
 
 [IPDMWSearchOptions Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions.html)
-
 [IPDMWSearchOptions Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions_members.html)
 
 ## Availability

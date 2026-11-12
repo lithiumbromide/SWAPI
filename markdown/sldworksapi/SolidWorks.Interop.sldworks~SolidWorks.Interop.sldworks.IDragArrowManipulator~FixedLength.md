@@ -45,13 +45,7 @@ property System.bool FixedLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,21 @@ True to permit changing the origin, false to not
 
 ## VBA Syntax
 
-See
-
-[DragArrowManipulator::FixedLength](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~FixedLength.html)
-
-.
+See [DragArrowManipulator::FixedLength](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~FixedLength.html).
 
 ## Examples
 
-See
-
-[IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html)
-
-examples.
+See [IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html) examples.
 
 ## Remarks
 
-Set this property to true before calling
-
-[IDragArrowManipulator::Origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator~Origin.html)
-
-to change the origin.
+Set this property to true before calling [IDragArrowManipulator::Origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator~Origin.html) to change the origin.
 
 ## See Also
 
 [IDragArrowManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator.html)
-
 [IDragArrowManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator_members.html)
-
 [IDragArrowManipulator::Length Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator~Length.html)
-
 [IDragArrowManipulator::LengthOppositeDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator~LengthOppositeDirection.html)
 
 ## Availability

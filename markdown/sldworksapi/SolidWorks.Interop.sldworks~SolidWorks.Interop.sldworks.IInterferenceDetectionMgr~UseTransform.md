@@ -45,13 +45,7 @@ property System.bool UseTransform {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to use transforms, false to not
 
 ## VBA Syntax
 
-See
-
-[InterferenceDetectionMgr::UseTransform](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~UseTransform.html)
-
-.
+See [InterferenceDetectionMgr::UseTransform](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~UseTransform.html).
 
 ## Examples
 
 [Run Interference Detection (VBA)](Run_Interference_Detection_Example_VB.htm)
-
 [Run Interference Detection (VB.NET)](Run_Interference_Detection_Example_VBNET.htm)
-
 [Run Interference Detection (C#)](Run_Interference_Detection_Example_CSharp.htm)
 
 ## See Also
 
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [IInterferenceDetectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "cworksapi/Create_Dynamic_Time_History_Study_Example_VB.htm"
 
 # Create Linear Dynamic Time History Study Example (VBA)
 
-This example shows how to create a linear dynamic study with a modal time
-history analysis and get some study options.
+This example shows how to create a linear dynamic study with a modal time history analysis and get some study options.
 
 ```vb
  '---------------------------------------------------------------------------

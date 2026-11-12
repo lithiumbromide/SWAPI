@@ -40,50 +40,27 @@ System.object GetSketchBlockInstances()
 System.Object^ GetSketchBlockInstances();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array containing the
-
-[block instances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance.html)
-
-in this sketch
+Array containing the [block instances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance.html) in this sketch
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSketchBlockInstances](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchBlockInstances.html)
-
-.
+See [Sketch::GetSketchBlockInstances](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchBlockInstances.html).
 
 ## Remarks
 
-See
-
-[Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm)
-
-for details.
+See [Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm) for details.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchBlockInstanceCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchBlockInstanceCount.html)
-
 [ISketch::IGetSketchBlockInstances Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~IGetSketchBlockInstances.html)
-
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
 
 ## Availability

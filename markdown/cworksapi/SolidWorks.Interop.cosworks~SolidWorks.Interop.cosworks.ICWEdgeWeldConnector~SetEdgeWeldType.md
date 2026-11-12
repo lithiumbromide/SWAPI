@@ -49,38 +49,24 @@ System.int SetEdgeWeldType(
 
 ### Parameters
 
-- `NOption`: Weld type as defined in
-
-[swsEdgeWeldConnectorTypes_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsEdgeWeldConnectorTypes_e.html)
+- `NOption`: Weld type as defined in [swsEdgeWeldConnectorTypes_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsEdgeWeldConnectorTypes_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
+Error code as defined in [swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWEdgeWeldConnector::SetEdgeWeldType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~SetEdgeWeldType.html)
-
-.
+See [CWEdgeWeldConnector::SetEdgeWeldType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~SetEdgeWeldType.html).
 
 ## Examples
 
-See the
-
-[ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
-examples.
+See the [ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html) examples.
 
 ## See Also
 
 [ICWEdgeWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
 [ICWEdgeWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector_members.html)
-
 [ICWEdgeWeldConnector::GetEdgeWeldType Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector~GetEdgeWeldType.html)
 
 ## Availability

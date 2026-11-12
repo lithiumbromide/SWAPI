@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetDocumentDependenciesCount Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::IGetDocumentDependenciesCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetDocumentDependenciesCount2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::IGetDocumentDependenciesCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetDocumentDependenciesCount2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.int GetDocumentDependenciesCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetDocumentDependenciesCount](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetDocumentDependenciesCount.html)
-
-.
+See [SldWorks::GetDocumentDependenciesCount](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetDocumentDependenciesCount.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertChamferFeature Interface Properties
 
-For a list of all members of this type, see[IDimXpertChamferFeature members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature_members.html).
+For a list of all members of this type, see [IDimXpertChamferFeature members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature_members.html).
 
 ## Public Properties
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[IDimXpertChamferFeature members](Sol
 ## See Also
 
 [IDimXpertChamferFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertChamferFeature.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

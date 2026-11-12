@@ -1,6 +1,5 @@
 ---
-title: "CWSpotWeldConnector Object
-Members"
+title: "CWSpotWeldConnector Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWSpotWeldConnector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWSpotWeldConnector_members.html"
 ---
 
-# CWSpotWeldConnector Object
-Members
+# CWSpotWeldConnector Object Members
 
 ## Public Methods
 

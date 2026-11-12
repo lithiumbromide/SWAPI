@@ -11,11 +11,9 @@ source: "sldworksapiprogguide/Overview/ConfigTraversAddinCPP.htm"
 
 // ConfigTraversAddin.cpp : Implementation of CConfigTraversAddin
 
-// Add-in for getting the names of configurations in an active
-model document
+// Add-in for getting the names of configurations in an active model document
 
-// Demonstrates ModelDoc2::IGetConfigurationNames taking
-a BSTR* C-array
+// Demonstrates ModelDoc2::IGetConfigurationNames taking a BSTR* C-array
 
 #include "stdafx.h"
 
@@ -25,8 +23,7 @@ a BSTR* C-array
 
 // CConfigTraversAddin
 
-// This method adds the CommandManager to the SOLIDWORKS
-user-interface
+// This method adds the CommandManager to the SOLIDWORKS user-interface
 
 void CConfigTraversAddin::AddCommandManager()
 
@@ -48,11 +45,9 @@ int* docTypes = new int[array_size];
 
 docTypes[0] = swDocASSEMBLY;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}docTypes[1]
-= swDocDRAWING,
+docTypes[1] = swDocDRAWING,
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}docTypes[2]
-= swDocPART;
+docTypes[2] = swDocPART;
 
 CComBSTR title;
 
@@ -66,29 +61,25 @@ iCmdMgr->CreateCommandGroup(1,title,title,hint,-1,&icmdGroup);
 
 CComBSTR smallImageFile;
 
-iBmp->CreateBitmapFileFromResource(IDB_TOOLBAR_SMALL,
-&smallImageFile);
+iBmp->CreateBitmapFileFromResource(IDB_TOOLBAR_SMALL, &smallImageFile);
 
 icmdGroup->put_SmallIconList(smallImageFile);
 
 CComBSTR largeImageFile;
 
-iBmp->CreateBitmapFileFromResource(IDB_TOOLBAR_LARGE,
-&largeImageFile);
+iBmp->CreateBitmapFileFromResource(IDB_TOOLBAR_LARGE, &largeImageFile);
 
 icmdGroup->put_LargeIconList(largeImageFile);
 
 CComBSTR largeIconFile;
 
-iBmp->CreateBitmapFileFromResource(IDB_ICON_LARGE,
-&largeIconFile);
+iBmp->CreateBitmapFileFromResource(IDB_ICON_LARGE, &largeIconFile);
 
 icmdGroup->put_LargeMainIcon(largeIconFile);
 
 CComBSTR smallIconFile;
 
-iBmp->CreateBitmapFileFromResource(IDB_ICON_SMALL,
-&smallIconFile);
+iBmp->CreateBitmapFileFromResource(IDB_ICON_SMALL, &smallIconFile);
 
 icmdGroup->put_SmallMainIcon(smallIconFile);
 
@@ -128,105 +119,73 @@ long TabCount, docType = docTypes[i];
 
 CComPtr<ICommandTab> AddinTab;
 
-iCmdMgr->GetCommandTabCount(docType,
-&TabCount);
+iCmdMgr->GetCommandTabCount(docType, &TabCount);
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Check for tab
+// Check for tab
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}iCmdMgr->GetCommandTab(docType,
-title, &pTab);
+iCmdMgr->GetCommandTab(docType, title, &pTab);
 
 if(pTab == NULL)
 
 {
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-If no tab, then add one
+// If no tab, then add one
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}iCmdMgr->AddCommandTab(docType,
-title, &pTab);
+iCmdMgr->AddCommandTab(docType, title, &pTab);
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComPtr<ICommandTabBox>
-pBox;
+CComPtr<ICommandTabBox> pBox;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pTab->AddCommandTabBox(&pBox);
+pTab->AddCommandTabBox(&pBox);
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+// Create two commands on this tab
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Create two commands on this tab
+long CommandIDCount = 2;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}long
-CommandIDCount = 2;
+long* CommandIDs = new long[2];
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}long*
-CommandIDs = new long[2];
+long* TextDisplayStyles = new long[2];
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}long*
-TextDisplayStyles = new long[2];
+long cmdID = 0;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}long
-cmdID = 0;
+// The two command buttons have different text styles
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-The two command buttons have different text styles
+icmdGroup->get_CommandID(cmdIndex0, &cmdID);
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}icmdGroup->get_CommandID(cmdIndex0,
-&cmdID);kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+CommandIDs[0] = cmdID;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CommandIDs[0]
-= cmdID;
+TextDisplayStyles[0] = swCommandTabButton_TextHorizontal;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}TextDisplayStyles[0]
-= swCommandTabButton_TextHorizontal;
+icmdGroup->get_ToolbarId(&cmdID);
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}icmdGroup->get_ToolbarId(&cmdID);
+CommandIDs[1] = cmdID;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CommandIDs[1]
-= cmdID;
+TextDisplayStyles[1] = swCommandTabButton_TextHorizontal;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}TextDisplayStyles[1]
-= swCommandTabButton_TextHorizontal;
+VARIANT_BOOL vbResult = VARIANT_FALSE;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}VARIANT_BOOL
-vbResult = VARIANT_FALSE;
+pBox->IAddCommands(CommandIDCount, CommandIDs, TextDisplayStyles, &vbResult);
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pBox->IAddCommands(CommandIDCount,
-CommandIDs, TextDisplayStyles, &vbResult);
+CommandIDCount = 1;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CommandIDCount
-= 1;
+CommandIDs = new long[1];
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CommandIDs
-= new long[1];
+TextDisplayStyles = new long[1];
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}TextDisplayStyles
-= new long[1];
+icmdGroup->get_ToolbarId(&cmdID);
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}icmdGroup->get_ToolbarId(&cmdID);
+CommandIDs[0] = cmdID;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CommandIDs[0]
-= cmdID;
+TextDisplayStyles[0] = swCommandTabButton_TextBelow | swCommandTabButton_ActionFlyout;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}TextDisplayStyles[0]
-= swCommandTabButton_TextBelow | swCommandTabButton_ActionFlyout;
+CComPtr<ICommandTabBox> pBox1;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComPtr<ICommandTabBox>
-pBox1;
+pTab->AddCommandTabBox(&pBox1);
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pTab->AddCommandTabBox(&pBox1);
+pBox1->IAddCommands(CommandIDCount, CommandIDs, TextDisplayStyles, &vbResult);
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pBox1->IAddCommands(CommandIDCount,
-CommandIDs, TextDisplayStyles, &vbResult);
+CComPtr<ICommandTabBox> pBoxNew1, pBoxNew2;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CComPtr<ICommandTabBox>
-pBoxNew1, pBoxNew2;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pTab->AddSeparator(pBox1,
-cmdID, &pBoxNew1);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+pTab->AddSeparator(pBox1, cmdID, &pBoxNew1);
 
 }
 
@@ -264,11 +223,9 @@ return S_OK;
 
 }
 
-// Called when a new document is created or a document
-is loaded
+// Called when a new document is created or a document is loaded
 
-STDMETHODIMP CConfigTraversAddin::OnDocLoad(BSTR
-docTitle, BSTR docPath)
+STDMETHODIMP CConfigTraversAddin::OnDocLoad(BSTR docTitle, BSTR docPath)
 
 {
 
@@ -278,8 +235,7 @@ return S_OK;
 
 }
 
-// Called when the active model document changes in
-SOLIDWORKS
+// Called when the active model document changes in SOLIDWORKS
 
 STDMETHODIMP CConfigTraversAddin::OnModelDocChange(void)
 
@@ -293,8 +249,7 @@ return S_OK;
 
 // Called when a new file is created
 
-STDMETHODIMP CConfigTraversAddin::OnFileNew(LPDISPATCH
-newDoc, long docType, BSTR templateName)
+STDMETHODIMP CConfigTraversAddin::OnFileNew(LPDISPATCH newDoc, long docType, BSTR templateName)
 
 {
 
@@ -324,8 +279,7 @@ CSldWorksEvents::_tih.m_wMajor = this->m_wMajorVerNum;
 
 // Connect to the SldWorks event sink
 
-HRESULT success = this->DispEventAdvise(iSwApp,
-&__uuidof(DSldWorksEvents));
+HRESULT success = this->DispEventAdvise(iSwApp, &__uuidof(DSldWorksEvents));
 
 if (success != S_OK)
 
@@ -345,8 +299,7 @@ VARIANT_BOOL detached = VARIANT_TRUE;
 
 // Disconnect from the SldWorks event sink
 
-HRESULT success = this->DispEventUnadvise(iSwApp,
-&__uuidof(DSldWorksEvents));
+HRESULT success = this->DispEventUnadvise(iSwApp, &__uuidof(DSldWorksEvents));
 
 CSldWorksEvents::_tih.m_plibid = &GUID_NULL;
 
@@ -362,13 +315,11 @@ return detached;
 
 // This is the starting point for the add-in
 
-STDMETHODIMP CConfigTraversAddin::ConnectToSW(LPDISPATCH
-ThisSW, long Cookie, VARIANT_BOOL * IsConnected)
+STDMETHODIMP CConfigTraversAddin::ConnectToSW(LPDISPATCH ThisSW, long Cookie, VARIANT_BOOL * IsConnected)
 
 {
 
-ThisSW->QueryInterface(__uuidof(ISldWorks),
-(void**)&iSwApp);
+ThisSW->QueryInterface(__uuidof(ISldWorks), (void**)&iSwApp);
 
 addinID = Cookie;
 
@@ -376,8 +327,7 @@ iSwApp->GetCommandManager(Cookie,&iCmdMgr);
 
 VARIANT_BOOL status = VARIANT_FALSE;
 
-iSwApp->SetAddinCallbackInfo((long)_AtlBaseModule.GetModuleInstance(),
-static_cast<IConfigTraversAddin*>(this), addinID, &status);
+iSwApp->SetAddinCallbackInfo((long)_AtlBaseModule.GetModuleInstance(), static_cast<IConfigTraversAddin*>(this), addinID, &status);
 
 // Get the current type library version
 
@@ -395,8 +345,7 @@ iSwApp->RevisionNumber(&bstrNum);
 
 strNum = W2A(bstrNum);
 
-m_swMajNum = strtol(strNum.c_str(), &buffer,
-10 );
+m_swMajNum = strtol(strNum.c_str(), &buffer, 10 );
 
 m_swMinNum=0;
 
@@ -416,8 +365,7 @@ return S_OK;
 
 }
 
-STDMETHODIMP CConfigTraversAddin::DisconnectFromSW(VARIANT_BOOL
-* IsDisconnected)
+STDMETHODIMP CConfigTraversAddin::DisconnectFromSW(VARIANT_BOOL * IsDisconnected)
 
 {
 
@@ -431,8 +379,7 @@ RemoveCommandManager();
 
 iCmdMgr.Release();
 
-// Make sure you release the SOLIDWORKS
-pointer last
+// Make sure you release the SOLIDWORKS pointer last
 
 iSwApp.Release();
 
@@ -448,58 +395,51 @@ STDMETHODIMP CConfigTraversAddin::ToolbarCallback0(void)
 
 {
 
-// Use ATL
-smart pointers
+// Use ATL smart pointers
 
-CComPtr<ISldWorks>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp;
+CComPtr<ISldWorks> swApp;
 
-CComPtr<IModelDoc2>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel;
+CComPtr<IModelDoc2> swModel;
 
 swApp = iSwApp;
 
 swApp->get_IActiveDoc2(&swModel);
 
-if (! swModel)
-{
+if (! swModel) {
 
 return(S_OK);
 
 }
 
-CComBSTRkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}strModelTitle;
+CComBSTR strModelTitle;
 
-longkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}nDocumentType;kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}// swDocumentTypes_e
+long nDocumentType; // swDocumentTypes_e
 
 swModel->GetTitle(&strModelTitle);
 
 swModel->GetType(&nDocumentType);
 
-longkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}lNumConfigurations;
+long lNumConfigurations;
 
 swModel->GetConfigurationCount(&lNumConfigurations);
 
-BSTR*kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}aConfigurationNames
-= new BSTR[lNumConfigurations];
+BSTR* aConfigurationNames = new BSTR[lNumConfigurations];
 
-swModel->IGetConfigurationNames(&lNumConfigurations,
-aConfigurationNames);
+swModel->IGetConfigurationNames(&lNumConfigurations, aConfigurationNames);
 
-for (int
-i = 0; i < lNumConfigurations; i++) {
+for (int i = 0; i < lNumConfigurations; i++) {
 
-CComBSTRkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bstrConfigurationName(aConfigurationNames[i]);
+CComBSTR bstrConfigurationName(aConfigurationNames[i]);
 
 }
 
-delete []
-aConfigurationNames;
+delete [] aConfigurationNames;
 
 return(S_OK);
 
 }
 
-STDMETHODIMP CConfigTraversAddin::ToolbarEnable0(long*
-status)
+STDMETHODIMP CConfigTraversAddin::ToolbarEnable0(long* status)
 
 {
 

@@ -45,43 +45,25 @@ property System.Object^ EntitiesToMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of entities to mate (see
-
-Remarks
-
-)
+Array of entities to mate (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CoincidentMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~CoincidentMateFeatureData~EntitiesToMate.html)
-
-.
+See [CoincidentMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~CoincidentMateFeatureData~EntitiesToMate.html).
 
 ## Examples
 
-See the
-
-[ICoincidentMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData.html)
-
-example.
+See the [ICoincidentMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData.html) example.
 
 ## Remarks
 
-Instead of specifying this property, you can use[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)to pre-select the entities to mate using Mark = 1. You can pre-select mate entities during mate creation, but not during mate editing.
+Instead of specifying this property, you can use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities to mate using Mark = 1. You can pre-select mate entities during mate creation, but not during mate editing.
 
-Populate the array of this property by using either IModelDocExtension::SelectByID2 or[IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html)and[ISelectionMgr::GetSelectedObject6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html).
+Populate the array of this property by using either IModelDocExtension::SelectByID2 or [IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html) and [ISelectionMgr::GetSelectedObject6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html).
 
 Create coincident mates with the following mate entity combinations:
 
@@ -100,12 +82,11 @@ Create coincident mates with the following mate entity combinations:
 | ISurface, IFace2 (sphere) |  |  |  |  |  |  |  |  |  | ● |  |  |
 | ISurface |  |  |  |  |  |  |  |  |  | ● |  |  |
 
-After specifying the entities to mate, specify their[ICoincidentMateFeatureData::PickPoints](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData~PickPoints.html)to fully define the position of the mate.
+After specifying the entities to mate, specify their [ICoincidentMateFeatureData::PickPoints](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData~PickPoints.html) to fully define the position of the mate.
 
 ## See Also
 
 [ICoincidentMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData.html)
-
 [ICoincidentMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData_members.html)
 
 ## Availability

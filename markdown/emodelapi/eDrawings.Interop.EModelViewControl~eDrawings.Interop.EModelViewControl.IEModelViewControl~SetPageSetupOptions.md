@@ -88,45 +88,35 @@ void SetPageSetupOptions(
 
 ### Parameters
 
-- `Orientation`: Page orientation as defined in
-
-[EMVPrintOrientation](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVPrintOrientation.html)
-- `PaperSize`: Use Windows printer constants (see
-
-Remarks
-
-)
+- `Orientation`: Page orientation as defined in [EMVPrintOrientation](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVPrintOrientation.html)
+- `PaperSize`: Use Windows printer constants (see Remarks)
 - `PaperLength`: Custom size in thousandths of an inch, if you are not using a standard paper size
-- `PaperWidth`: Custom size in thousandths of an inchParamDesc
-- `Copies`: Number of copiesParamDesc
-- `Source`: Paper tray source; use Windows printer constantsParamDesc
-- `Printer`: Printer nameParamDesc
+- `PaperWidth`: Custom size in thousandths of an inch
+- `Copies`: Number of copies
+- `Source`: Paper tray source; use Windows printer constants
+- `Printer`: Printer name
 - `TopMargin`: Top margin in thousandths of an inch or 0 to use printer's margin
-- `BottomMargin`: Bottom margin in thousandths of an inchParamDescor 0 to use printer's margin
-- `LeftMargin`: Left margin in thousandths of an inchParamDescor 0 to use printer's margin
-- `RightMargin`: Right margin in thousandths of an inchParamDescor 0 to use printer's margin
+- `BottomMargin`: Bottom margin in thousandths of an inch or 0 to use printer's margin
+- `LeftMargin`: Left margin in thousandths of an inch or 0 to use printer's margin
+- `RightMargin`: Right margin in thousandths of an inch or 0 to use printer's margin
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::SetPageSetupOptions](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~SetPageSetupOptions.html)
-
-.
+See [EModelViewControl::SetPageSetupOptions](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~SetPageSetupOptions.html).
 
 ## Remarks
 
-Call this method before calling[IEModelViewControl::Print5](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Print5.html).
+Call this method before calling [IEModelViewControl::Print5](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Print5.html).
 
-You can find a list of Windows printer constants in wingdi.h or in the .NET enumerations Printing.PaperKind or Printing.PaperSource.Some common settings include:
+You can find a list of Windows printer constants in wingdi.h or in the .NET enumerations Printing.PaperKind or Printing.PaperSource. Some common settings include:
 
 - Paper Size
 
-  - Letter (letter 8 1/2 x 11 in) = 1kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-  - C-sheet (C size sheet = 24kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-  - D-sheet (D size sheet) = 25kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-  - E-sheet (E size sheet) = 26kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-- kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Paper Source (paper tray)
+  - Letter (letter 8 1/2 x 11 in) = 1
+  - C-sheet (C size sheet = 24
+  - D-sheet (D size sheet) = 25
+  - E-sheet (E size sheet) = 26
+- Paper Source (paper tray)
 
   - Upper tray = 1
   - Lower tray = 2
@@ -137,7 +127,6 @@ You can find a list of Windows printer constants in wingdi.h or in the .NET enum
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

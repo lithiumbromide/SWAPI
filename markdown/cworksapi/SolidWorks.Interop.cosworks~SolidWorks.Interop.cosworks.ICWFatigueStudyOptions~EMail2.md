@@ -55,21 +55,12 @@ This property returns a boolean value which can be cast to an integer. To set th
 
 If this property is set to -1:
 
-- use
-
-  [ICWFatigueStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailTo.html)
-
-  to specify the recipient of notifications.
-- use
-
-  [ICWFatigueStudyOptions::EMailTimebased2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailTimebased2.html)
-
-  to send time-based email notifications during simulations.
+- use [ICWFatigueStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailTo.html) to specify the recipient of notifications.
+- use [ICWFatigueStudyOptions::EMailTimebased2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailTimebased2.html) to send time-based email notifications during simulations.
 
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
 
 ## Availability

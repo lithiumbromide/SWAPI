@@ -55,19 +55,11 @@ System.bool SetZoneSizeDistribution(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type of zone size distribution as defined by
-
-[swZoneSizeDistribution_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZoneSizeDistribution_e.html)
+- `Type`: Type of zone size distribution as defined by [swZoneSizeDistribution_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZoneSizeDistribution_e.html)
 - `Rows`: Number of zone rows; valid only if Type is swZoneSizeDistribution.swZoneSizeDistribution_EvenlySized
 - `Column`: Number of zone columns; valid only if Type is swZoneSizeDistribution.swZoneSizeDistribution_EvenlySized
 
@@ -77,16 +69,11 @@ True if zone size distribution successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[Sheet::SetZoneSizeDistribution](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~SetZoneSizeDistribution.html)
-
-.
+See [Sheet::SetZoneSizeDistribution](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~SetZoneSizeDistribution.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
 
 ## Availability

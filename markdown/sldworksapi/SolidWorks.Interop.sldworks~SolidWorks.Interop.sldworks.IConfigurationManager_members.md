@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IConfigurationManager Interface Members
 
-The following tables list the members exposed by[IConfigurationManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html).
+The following tables list the members exposed by [IConfigurationManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html).
 
 ## Public Properties
 
@@ -29,7 +29,7 @@ The following tables list the members exposed by[IConfigurationManager](SolidWor
 
 |  | Name | Description |
 | --- | --- | --- |
-| Method | AddCADFamilyConfiguration | Adds the specified configuration to SOLIDWORKS Connected . |
+| Method | AddCADFamilyConfiguration | Adds the specified configuration to SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | AddConfiguration | Obsolete. Superseded by IConfigurationManager::AddConfiguration2 . |
 | Method | AddConfiguration2 | Creates a new configuration. |
 | Method | AddRebuildSaveMark | Adds marks indicating whether the specified configurations need to be rebuilt and their configuration data saved every time the model document is saved. |
@@ -49,7 +49,5 @@ The following tables list the members exposed by[IConfigurationManager](SolidWor
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)

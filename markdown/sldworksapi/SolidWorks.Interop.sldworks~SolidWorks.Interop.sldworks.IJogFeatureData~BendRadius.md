@@ -45,36 +45,20 @@ property System.double BendRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[JogFeatureData::BendRadius](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~BendRadius.html)
-
-.
+See [JogFeatureData::BendRadius](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~BendRadius.html).
 
 ## Examples
 
-See
-
-[IJogFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IJogFeatureData.html)
-
-examples.
+See [IJogFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IJogFeatureData.html) examples.
 
 ## See Also
 
 [IJogFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html)
-
 [IJogFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData_members.html)
-
 [IJogFeatureData::UseDefaultBendRadius Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData~UseDefaultBendRadius.html)
 
 ## Availability

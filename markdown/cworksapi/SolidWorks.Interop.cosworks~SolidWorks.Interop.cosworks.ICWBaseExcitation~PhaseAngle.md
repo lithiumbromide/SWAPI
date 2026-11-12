@@ -51,26 +51,18 @@ Phase angle; -1 if not set
 
 ## VBA Syntax
 
-See
-
-[CWBaseExcitation::PhaseAngle](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~PhaseAngle.html)
-
-.
+See [CWBaseExcitation::PhaseAngle](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~PhaseAngle.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
-
 [ICWBaseExcitation::PhaseAngleUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~PhaseAngleUnit.html)
 
 ## Availability

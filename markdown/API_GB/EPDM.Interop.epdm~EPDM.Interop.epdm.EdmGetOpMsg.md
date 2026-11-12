@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpMsg.html"
 
 # EdmGetOpMsg Enumeration
 
-Log error messages; used in calls to
-
-[IEdmGetOpCallback::LogMessage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~LogMessage.html)
-
-.
+Log error messages; used in calls to [IEdmGetOpCallback::LogMessage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~LogMessage.html).
 
 ## Syntax
 

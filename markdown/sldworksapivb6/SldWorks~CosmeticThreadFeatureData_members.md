@@ -1,6 +1,5 @@
 ---
-title: "CosmeticThreadFeatureData Object
-Members"
+title: "CosmeticThreadFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CosmeticThreadFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CosmeticThreadFeatureData_members.html"
 ---
 
-# CosmeticThreadFeatureData Object
-Members
+# CosmeticThreadFeatureData Object Members
 
 ## Public Methods
 

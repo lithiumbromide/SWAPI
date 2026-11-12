@@ -37,27 +37,17 @@ public delegate System.int DPartDocEvents_NewSelectionNotifyEventHandler()
 public delegate System.int DPartDocEvents_NewSelectionNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[NewSelectionNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~NewSelectionNotify_EV.html)
-
-.
+See [NewSelectionNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~NewSelectionNotify_EV.html).
 
 ## Remarks
 
 This notification is generated when items are added, removed, or reordered in the selection list.
 
-If developing a C++ application, use[swPartNewSelectionNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)to register for this notification.
+If developing a C++ application, use [swPartNewSelectionNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

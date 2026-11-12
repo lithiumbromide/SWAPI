@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUs
 
 # IUserProgressBar Interface Methods
 
-For a list of all members of this type, see[IUserProgressBar members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar_members.html).
+For a list of all members of this type, see [IUserProgressBar members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar_members.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[IUserProgressBar members](SolidWorks
 ## See Also
 
 [IUserProgressBar Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserProgressBar.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

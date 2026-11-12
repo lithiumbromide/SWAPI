@@ -40,7 +40,6 @@ Element at the cursor
 ## See Also
 
 [IEdmEnum Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html)
-
 [IEdmEnum Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum_members.html)
 
 ## Availability

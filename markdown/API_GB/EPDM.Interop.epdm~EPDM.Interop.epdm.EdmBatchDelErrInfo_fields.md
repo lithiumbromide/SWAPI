@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo_fields.ht
 
 # EdmBatchDelErrInfo Structure Fields
 
-For a list of all members of this type, see[EdmBatchDelErrInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo_members.html).
+For a list of all members of this type, see [EdmBatchDelErrInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo_members.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[EdmBatchDelErrInfo members](EPDM.Int
 ## See Also
 
 [EdmBatchDelErrInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -52,9 +52,7 @@ void SetShowInBOM(
 ## See Also
 
 [IEdmEnumeratorCustomReference7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7.html)
-
 [IEdmEnumeratorCustomReference7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7_members.html)
-
 [IEdmEnumeratorCustomReference7::GetShowInBOM Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7~GetShowInBOM.html)
 
 ## Availability

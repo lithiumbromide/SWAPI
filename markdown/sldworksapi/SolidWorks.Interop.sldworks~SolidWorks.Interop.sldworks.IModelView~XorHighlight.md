@@ -45,13 +45,7 @@ property System.bool XorHighlight {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to Xor the hightlight state, false to not
 
 ## VBA Syntax
 
-See
-
-[ModelView::XorHighlight](ms-its:sldworksapivb6.chm::/sldworks~ModelView~XorHighlight.html)
-
-.
+See [ModelView::XorHighlight](ms-its:sldworksapivb6.chm::/sldworks~ModelView~XorHighlight.html).
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
 
 ## Availability

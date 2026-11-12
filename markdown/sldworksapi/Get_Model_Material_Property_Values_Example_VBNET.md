@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Model_Material_Property_Values_Example_VBNET.htm"
 
 # Get Model Material Property Values Example (VB.NET)
 
-This example shows how to get the material property values of components in
-lightweight mode.
+This example shows how to get the material property values of components in lightweight mode.
 
 ```vb
  '----------------------------------------------------------------------------

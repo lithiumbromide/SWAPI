@@ -58,17 +58,11 @@ System.int IncludeBody(
 
 ### Return Value
 
-Status as defined in
-
-[swcBodyStatus_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcBodyStatus_e.html)
+Status as defined in [swcBodyStatus_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcBodyStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostPart::IncludeBody](swcostingapivb6.chm::/SldCostingAPI~CostPart~IncludeBody.html)
-
-.
+See [CostPart::IncludeBody](swcostingapivb6.chm::/SldCostingAPI~CostPart~IncludeBody.html).
 
 ## Remarks
 
@@ -76,22 +70,14 @@ To get the names of the Costing bodies in a Costing part:
 
 1. Get the Costing bodies in the Costing part by calling:
 
-1. Get the names of the Costing bodies in the Costing part by iterating through the array of returned Costing bodies and calling
-
-  [ICostBody::GetName](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostBody~GetName.html)
-
-  .
+1. Get the names of the Costing bodies in the Costing part by iterating through the array of returned Costing bodies and calling [ICostBody::GetName](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostBody~GetName.html).
 
 ## See Also
 
 [ICostPart Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart.html)
-
 [ICostPart Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart_members.html)
-
 [ICostPart::CreateCostAnalysis Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~CreateCostAnalysis.html)
-
 [ICostPart::GetCostAnalysis Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostAnalysis.html)
-
 [ICostAnalysis Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis.html)
 
 ## Availability

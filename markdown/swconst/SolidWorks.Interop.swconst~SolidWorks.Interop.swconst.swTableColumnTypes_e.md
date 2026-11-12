@@ -51,10 +51,12 @@ public enum class swTableColumnTypes_e : public System.Enum
 | swBendTableColumnType_Tag | 501 |
 | swBomTableColumnType_ComponentReference | 207 |
 | swBomTableColumnType_CustomProperty | 204 |
+| swBomTableColumnType_CutListItemName | 210 |
 | swBomTableColumnType_CutListProperties | 209 |
 | swBomTableColumnType_Equation | 206 |
 | swBomTableColumnType_ItemNumber | 202 |
 | swBomTableColumnType_PartNumber | 201 |
+| swBomTableColumnType_PLMProperty | 211 |
 | swBomTableColumnType_Quantity | 203 |
 | swBomTableColumnType_ToolboxProperty | 208 |
 | swBomTableColumnType_UnitOfMeasure | 205 |

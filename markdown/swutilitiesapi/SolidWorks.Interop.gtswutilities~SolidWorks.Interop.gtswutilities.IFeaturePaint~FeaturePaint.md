@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # FeaturePaint Method (IFeaturePaint)
 
-Obsolete. Superseded by
-
-[IFeaturePaint::FeaturePaint2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFeaturePaint~FeaturePaint2.html)
-
-.
+Obsolete. Superseded by [IFeaturePaint::FeaturePaint2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFeaturePaint~FeaturePaint2.html).
 
 ## Syntax
 
@@ -62,14 +58,9 @@ System.int FeaturePaint(
 
 ## VBA Syntax
 
-See
-
-[IFeaturePaint::FeaturePaint](ms-its:swutilitiesapivb6.chm::/swutilities~IFeaturePaint~FeaturePaint.html)
-
-.
+See [IFeaturePaint::FeaturePaint](ms-its:swutilitiesapivb6.chm::/swutilities~IFeaturePaint~FeaturePaint.html).
 
 ## See Also
 
 [IFeaturePaint Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFeaturePaint.html)
-
 [IFeaturePaint Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFeaturePaint_members.html)

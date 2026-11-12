@@ -45,13 +45,7 @@ property System.bool LinkToFile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,27 +53,18 @@ True to link the design table to the model, false to not
 
 ## VBA Syntax
 
-See
-
-[DesignTable::LinkToFile](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~LinkToFile.html)
-
-.
+See [DesignTable::LinkToFile](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~LinkToFile.html).
 
 ## Remarks
 
-When a design table is linked to the model, any changes you make to the design table outside of the SOLIDWORKS software are reflected in the design table
-within the SOLIDWORKS model, and vice versa.
+When a design table is linked to the model, any changes you make to the design table outside of the SOLIDWORKS Design software are reflected in the design table within the SOLIDWORKS Design model, and vice versa.
 
 ## See Also
 
 [IDesignTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable.html)
-
 [IDesignTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html)
-
 [IDesignTable::FileName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~FileName.html)
-
 [IDesignTable::SourceType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~SourceType.html)
-
 [IDesignTable::UpdateModel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~UpdateModel.html)
 
 ## Availability

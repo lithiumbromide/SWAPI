@@ -9,8 +9,7 @@ source: "sldworksapi/Get_External_References_Example_CSharp.htm"
 
 # Get External References (C#)
 
-This example shows how to get a list of the external references for a selected
-component, selected feature, or document.
+This example shows how to get a list of the external references for a selected component, selected feature, or document.
 
 ```vb
  //----------------------------------------------------------

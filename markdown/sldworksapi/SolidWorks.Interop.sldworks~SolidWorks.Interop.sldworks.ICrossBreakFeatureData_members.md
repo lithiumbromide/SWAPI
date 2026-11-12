@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICr
 
 # ICrossBreakFeatureData Interface Members
 
-The following tables list the members exposed by[ICrossBreakFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICrossBreakFeatureData.html).
+The following tables list the members exposed by [ICrossBreakFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICrossBreakFeatureData.html).
 
 ## Public Properties
 
@@ -34,7 +34,5 @@ The following tables list the members exposed by[ICrossBreakFeatureData](SolidWo
 ## See Also
 
 [ICrossBreakFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICrossBreakFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertCrossBreak Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCrossBreak.html)

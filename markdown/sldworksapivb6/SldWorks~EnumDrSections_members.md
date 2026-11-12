@@ -1,6 +1,5 @@
 ---
-title: "EnumDrSections Object
-Members"
+title: "EnumDrSections Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EnumDrSections_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EnumDrSections_members.html"
 ---
 
-# EnumDrSections Object
-Members
+# EnumDrSections Object Members
 
 ## Public Methods
 

@@ -53,11 +53,7 @@ public enum class swLineStyles_e : public System.Enum
 
 ## Remarks
 
-Open a drawing and view line style appearances in
-
-Tools > Options > Document Properties > Line Style
-
-.
+Open a drawing and view line style appearances in **Tools > Options > Document Properties > Line Style**.
 
 ## See Also
 

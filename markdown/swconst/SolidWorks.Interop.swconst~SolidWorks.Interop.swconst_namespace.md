@@ -15,9 +15,9 @@ SOLIDWORKS API enumerations
 
 | Enumeration | Description |
 | --- | --- |
-| sw3DExperienceCfgType_e | Types of configurations viewed in SOLIDWORKS Connected. |
+| sw3DExperienceCfgType_e | Types of configurations viewed in SOLIDWORKS Design connected to the 3DEXPERIENCE platform. |
 | sw3DExperienceModelType_e | Types of 3D EXPERIENCE component icons. |
-| sw3DExperienceState_e | SOLIDWORKS Connected states. Bitmask . |
+| sw3DExperienceState_e | SOLIDWORKS Design connected to the 3DEXPERIENCE platform states. Bitmask . |
 | sw3DInterconnectImportErrors_e | 3D Interconnect import errors. |
 | sw3DPDFAccuracy_e | Levels of SOLIDWORKS MBD 3D PDF accuracies |
 | sw3DPMISaveOptions_e | 3D PMI (Product and Manufacturing Information) save options when comparing two different versions of the same model. Bitmask . |
@@ -134,7 +134,7 @@ SOLIDWORKS API enumerations
 | swBreakLineOrientation_e | Break lines orientation. |
 | swBreakLineStyle_e | Break line styles. |
 | swButtonSize_e | Toolbar button sizes. |
-| swCADFamilyCfgOptions_e | SOLIDWORKS CONNECTED family configuration options. Bitmask . |
+| swCADFamilyCfgOptions_e | SOLIDWORKS Design connected to the 3DEXPERIENCE platform family configuration options. Bitmask . |
 | swCalloutTargetStyle_e | Callout target styles. |
 | swCalloutVariable_e | Types of specific hole callout variables. |
 | swCalloutVariableType_e | Types of general hole callout variables. |
@@ -175,6 +175,7 @@ SOLIDWORKS API enumerations
 | swCommandItemType_e | Types of command items. Bitmask . |
 | swCommandTabButtonFlyoutStyle_e | CommandManager tab button flyout styles. Bitmask . |
 | swCommandTabButtonTextDisplay_e | CommandManager tab button text display. Bitmask . |
+| swCompatibilityDialogOptions_e | Options for displaying the previous file format version compatibility check results dialog. |
 | swComponentIdentifier_e | Component display options for the FeatureManager design tree. Bitmask . |
 | swComponentLoadStatus_e | Load status of component. |
 | swComponentReloadError_e | Codes returned when reloading components in assemblies. |
@@ -355,6 +356,8 @@ SOLIDWORKS API enumerations
 | swExportDataFileType_e | Export data file types. |
 | swExportDataSheetsToExport_e | Export data sheets to export options. |
 | swExportFlatPatternViewOptions_e | Flat-pattern view options. |
+| swExportGeomOptions_e | DXF/DWG geometry export options. |
+| swExportSVPJFileFormatGroupType_e | SVPJ file format group types. |
 | swExportToDWG_e | Options for the Action parameter of IPartDoc::ExportToDWG2 . |
 | swExternalFileReferencesConfig_e | External file references configurations options. |
 | swExternalFileReferencesUpdate_e | External file references update options. |
@@ -364,6 +367,8 @@ SOLIDWORKS API enumerations
 | swFaceCoincidentResult_e | Face coincidence results. |
 | swFaceDeleteOption_e | DeleteFace feature options. |
 | swFaceUntrimType_e | Untrimmed faces types. |
+| swFamilyTableDimColumnType_e | Family table dimension column types. |
+| swFamilyTableGetConfigurationCriteria_e | Criteria for getting family table configurations. |
 | swFastenerTableTypes_e | Fastener table types. |
 | swFaultEntityErrorCode_e | Fault entity error codes. |
 | swFeatMgrPane_e | Available panes and states. |
@@ -376,7 +381,7 @@ SOLIDWORKS API enumerations
 | swFeatureFilletType_e | Feature fillet types. |
 | swFeatureFillSurfaceOptions_e | Feature fill surface options. Bitmask . |
 | swFeatureManagerDisplayWarnings_e | FeatureManager design tree display warnings. |
-| swFeatureManagerTreeViewCADFamily_e | SOLIDWORKS Connected only. Tools > System Options > FeatureManager > Select a configuration view for the FeatureManager Tree Area . |
+| swFeatureManagerTreeViewCADFamily_e | SOLIDWORKS Design connected to the 3DEXPERIENCE platform only. Tools > System Options > FeatureManager > Select a configuration view for the FeatureManager Tree Area . |
 | swFeatureModifier_e | Material conditions for PMI Gtol frames. |
 | swFeatureNameID_e | Feature name IDs. |
 | swFeatureScope_e | Feature scope options. |
@@ -389,7 +394,7 @@ SOLIDWORKS API enumerations
 | swFileLoadError_e | File load errors. Bitmask . |
 | swFileLoadWarning_e | File load warnings for ISldWorks::OpenDoc6 . Bitmask . |
 | swFileSaveError_e | File save errors. Bitmask . |
-| swFileSaveTo3DExperienceError_e | Errors when saving files in SOLIDWORKS Connected. |
+| swFileSaveTo3DExperienceError_e | Errors when saving files in SOLIDWORKS Design connected to the 3DEXPERIENCE platform. |
 | swFileSaveTypes_e | File save types. |
 | swFileSaveWarning_e | Values for File, Save warnings that can be returned from the IModelDoc2 Save methods. These warnings do not cause the File, Save operation to fail. Bitmask . |
 | swFilletOverFlowType_e | Fillet overflow types. |
@@ -407,6 +412,7 @@ SOLIDWORKS API enumerations
 | swGeometryToSave_e | Geometry to save options for IAdvancedSaveAsOptions::GeometryToSave . |
 | swGeomType_e | Geometry types. |
 | swGetOpenFileNameOptions_e | Options for opening a file returned by ISldWorks::GetOpenFileName2 . Bitmask . |
+| swGlobalBBoxLWTADirectionType_e | Length, width, and thickness directions for a rectangular bounding box and axis directions for a cylindrical bounding box. |
 | swGlobalBoundingBoxFitOptions_e | Global bounding box fit types. |
 | swGlobalBoundingBoxResult_e | Global bounding box insertion results. |
 | swGtolDecimalSeparatorType_e | Gtol decimal separator types. |
@@ -528,6 +534,7 @@ SOLIDWORKS API enumerations
 | swMatesDefaultMisalignment_e | Concentric mate misalignment options. |
 | swMateType_e | Assembly mate types. |
 | swMateWidthOptions_e | Assembly mate width options. |
+| swMBDSTEP242PublishEdition_e | Step 242 publish editions. |
 | swMeasureArcCircleOption_e | Distance to display when arcs or circles are selected using the Measure tool. |
 | swMeasureProjectOnOption_e | Distance between selected entities projection when using the Measure tool. |
 | swMenuIdentifiers_e | Menu item types. |
@@ -591,6 +598,7 @@ SOLIDWORKS API enumerations
 | swParamType_e | Parameter data types. |
 | swParasolidOutputVersion_e | Parasolid output versions. |
 | swPartConfigurationGroupingOption_e | Part configuration groupings for BOM table display. |
+| swPartDimXpertToleranceMethod_e | DimXpert tolerance methods. |
 | swPartingLineFeatureStatus_e | Statuses of parting line features. |
 | swPartingSurfaceMoldParmType_e | Types of mold parting surfaces. |
 | swPartingSurfaceSmoothingType_e | Smooth mold parting surfaces. |
@@ -721,6 +729,7 @@ SOLIDWORKS API enumerations
 | swSaveItemsPathError_e | Error return codes for IAdvancedSaveAsOptions::ModifyItemsNameAndPath . |
 | swSaveReminderIntervalMode_e | Intervals in which to remind user to save document. |
 | swSaveRestoreSettingsResults_e | Return values for saving and restoring SOLIDWORKS settings. |
+| swSaveToVersion_e | Previous version file formats available for save compatibility checks. |
 | swSaveWithReferencesOptions_e | Options for saving references while getting the IAdvancedSaveAsOptions object; used by the Options parameter of IModelDocExtension::GetAdvancedSaveAsOptions . Bitmask . |
 | swScaleType_e | Scale types. |
 | swSceneBackgroundType_e | Scene background options. |
@@ -746,6 +755,7 @@ SOLIDWORKS API enumerations
 | swSetValueInConfiguration_e | Values for indicating in which configurations the value should be set. |
 | swSetValueReturnStatus_e | Return values for attempting to set the value of a parameter. |
 | swSFLaySym_e | Values for direction of lay types. |
+| swSFProfileDirection_e | Surface finish profile directions. |
 | swSFSymType_e | Values for surface finish symbol types and options. |
 | swSheetMetalAutoReliefTypes_e | Sheet metal auto relief types. |
 | swSheetMetalBendNotesBorderSize_e | Sheet metal bend notes border sizes. |
@@ -939,6 +949,7 @@ SOLIDWORKS API enumerations
 | swUserUnitsType_e | User unit types. |
 | swVariablePitchHelixRegionParameter_e | Parameters to modify in a variable-pitch helix. |
 | swVariableRadiusFilletOptions_e | Variable radius fillet transition options. |
+| swVersionCompatibilityResult_e | Results for file version compatibility checks. |
 | swVerticalJustification_e | Dimension text vertical justifications. |
 | swViewAlignment_e | Values for alignment of views. |
 | swViewDisplayMode_e | View display modes. |
@@ -946,6 +957,7 @@ SOLIDWORKS API enumerations
 | swViewEntityType_e | View entity types. |
 | swViewIndication_e | View indicators. |
 | swViewNotify_e | Model view notifications. |
+| swViewOrientationUpAxisFlyout_e | View orientation up axis flyout options. |
 | swViewportDisplay_e | Viewport arrangements. |
 | swVisibilityState_e | Visibility states. |
 | swVrmlOutputVersion_e | VRML output versions. |

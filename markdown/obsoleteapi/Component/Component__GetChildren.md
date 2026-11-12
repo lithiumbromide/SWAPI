@@ -9,7 +9,7 @@ source: "obsoleteapi/Component/Component__GetChildren.htm"
 
 # Component::GetChildren
 
-This method is obsolete and has been superseded by[Component2::GetChildren](sldworksAPI.chm::/Component2/Component2__GetChildren.htm).
+This method is obsolete and has been superseded by [Component2::GetChildren](sldworksAPI.chm::/Component2/Component2__GetChildren.htm).
 
 Description
 
@@ -17,138 +17,41 @@ This method gets all the children components of this component object.
 
 Syntax (OLE Automation)
 
-retval
-= Component.GetChildren ()
+retval = Component.GetChildren ()
 
-(Table)=========================================================
-
-| Return: | (VARIANT)
-retval | VARIANT
-of type SafeArray of an array of pointers to Dispatch objects |
+| Return: | (VARIANT) retval | VARIANT of type SafeArray of an array of pointers to Dispatch objects |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status
-= Component->IGetChildren ( &retval )
+status = Component->IGetChildren ( &retval )
 
-(Table)=========================================================
-
-| Output: | (LPCOMPONENT*)
-retval | Pointer
-to an array of Component objects |
+| Output: | (LPCOMPONENT*) retval | Pointer to an array of Component objects |
 | --- | --- | --- |
-| Return: | (HRESULT)status | S_OK
-if successful |
+| Return: | (HRESULT)status | S_OK if successful |
 
 Remarks
 
-If this assembly component is a part document,
-SolidWorks returns NULL. If this assembly component is the root component
-or a subassembly, then this method returns the child components that belong
-to the assembly document.
+If this assembly component is a part document, SolidWorks returns NULL. If this assembly component is the root component or a subassembly, then this method returns the child components that belong to the assembly document.
 
-The typical order of calls needed in assembly
-traversal is:
+The typical order of calls needed in assembly traversal is:
 
-1. ModelDoc::GetActiveConfiguration
-(called only once)
+1. ModelDoc::GetActiveConfiguration (called only once)
 
-2. Configuration::GetRootComponent
-(called only once)
+2. Configuration::GetRootComponent (called only once)
 
-3. Component::GetChildren
-(called recursively)
+3. Component::GetChildren (called recursively)
 
-Your assembly traversal routine must begin
-from the root component and work its way down through the assembly structure.
-This is done by recursively calling Component::GetChildren, as demonstrated
-in the examples above. Call Component::GetActiveConfiguration and Component::GetRootComponent
-once for the entire assembly. In addition, your assembly traversal must
-begin with a ModelDoc object that is activated and visible, otherwise
-the assembly structure might not be in tact.
+Your assembly traversal routine must begin from the root component and work its way down through the assembly structure. This is done by recursively calling Component::GetChildren, as demonstrated in the examples above. Call Component::GetActiveConfiguration and Component::GetRootComponent once for the entire assembly. In addition, your assembly traversal must begin with a ModelDoc object that is activated and visible, otherwise the assembly structure might not be in tact.
 
-COM applications should use to Component::IGetChildrenCount
-to determine the number of component children, which is the size of the
-array required to Component::IGetChildren.
+COM applications should use to Component::IGetChildrenCount to determine the number of component children, which is the size of the array required to Component::IGetChildren.
 
-You must call the GetChildren method recursively
-because it returns only the immediate (one level) children. It does not
-get child components of the sub-assemblies. For example, if one of the
-child components of a component is a sub-assembly that has its own children,
-those children are not returned by this method. You need to call this
-method again from that sub-assembly component to get its children.
+You must call the GetChildren method recursively because it returns only the immediate (one level) children. It does not get child components of the sub-assemblies. For example, if one of the child components of a component is a sub-assembly that has its own children, those children are not returned by this method. You need to call this method again from that sub-assembly component to get its children.
 
-For a given component, this method returns
-all of the immediate child components. This includes suppressed, hidden
-and lightweight components. Use Component::Visible and Component::GetSuppression
-to detect the component states.
+For a given component, this method returns all of the immediate child components. This includes suppressed, hidden and lightweight components. Use Component::Visible and Component::GetSuppression to detect the component states.
 
-Results of an assembly traversal vary based
-on the configuration currently displayed in your main assembly and based
-on the configuration referenced by the subassembly component. The list
-of child components that this function returns can be different depending
-on which configuration is referenced by the component (refer to ModelDoc::GetActiveConfiguration
-and Component::ReferencedConfiguration).
+Results of an assembly traversal vary based on the configuration currently displayed in your main assembly and based on the configuration referenced by the subassembly component. The list of child components that this function returns can be different depending on which configuration is referenced by the component (refer to ModelDoc::GetActiveConfiguration and Component::ReferencedConfiguration).
 
-For example, if one configuration of your
-main assembly contains a suppressed subassembly, GetChildren returns an
-empty array when you call it from that suppressed subassembly component.
-As another example, a subassembly document (.sldasm file) can contain
-several configurations, each of which has varying states of suppression
-for its child components. When inserted into your main assembly, this
-subassembly document can reference any of these configurations. As a result,
-you might find that the child component suppression states vary based
-on which configuration is referenced by the subassembly component (refer
-to Component::ReferencedConfiguration).
+For example, if one configuration of your main assembly contains a suppressed subassembly, GetChildren returns an empty array when you call it from that suppressed subassembly component. As another example, a subassembly document (.sldasm file) can contain several configurations, each of which has varying states of suppression for its child components. When inserted into your main assembly, this subassembly document can reference any of these configurations. As a result, you might find that the child component suppression states vary based on which configuration is referenced by the subassembly component (refer to Component::ReferencedConfiguration).
 
-Be aware that from call to call, this
-method might not return components in the same order.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1323" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Component_Object$$**$$ZGetInfoComponent$$**$$ZGetComponent$$**$$Assembly_Analysis$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\Component\Component__GetChildren.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1217" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Traverse_Assembly_Example$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\Component\Component__GetChildren.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+Be aware that from call to call, this method might not return components in the same order.

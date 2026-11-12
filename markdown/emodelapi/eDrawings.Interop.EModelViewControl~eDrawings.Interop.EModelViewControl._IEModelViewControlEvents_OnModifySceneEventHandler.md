@@ -47,23 +47,19 @@ public delegate void _IEModelViewControlEvents_OnModifySceneEventHandler(
 
 - `ModifyEvent`: Modification event bitmask:
 
-- 1 or 0x001 = Hide/Show
-- 2 or 0x002 = Rotate
-- 4 or 0x004 = Pan
-- 8 or 0x008 = Zoom
-- 16 or 0x010 = MakeTransparent
-- 32 or 0x020 = Next
-- 64 or 0x040 = Projection
-- 128 or 0x080 = LayerChange
-- 256 or 0x100 = DisplayStateChange
+  - 1 or 0x001 = Hide/Show
+  - 2 or 0x002 = Rotate
+  - 4 or 0x004 = Pan
+  - 8 or 0x008 = Zoom
+  - 16 or 0x010 = MakeTransparent
+  - 32 or 0x020 = Next
+  - 64 or 0x040 = Projection
+  - 128 or 0x080 = LayerChange
+  - 256 or 0x100 = DisplayStateChange
 
 ## VBA Syntax
 
-See
-
-[OnModifyScene Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnModifyScene_EV.html)
-
-.
+See [OnModifyScene Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnModifyScene_EV.html).
 
 ## Availability
 

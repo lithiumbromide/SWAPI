@@ -42,38 +42,21 @@ property System.int ReferenceType2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of mate reference as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-
-}}end!kadov
+Type of mate reference as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ## VBA Syntax
 
-See
-
-[MateEntity2::ReferenceType2](ms-its:sldworksapivb6.chm::/sldworks~MateEntity2~ReferenceType2.html)
-
-.
+See [MateEntity2::ReferenceType2](ms-its:sldworksapivb6.chm::/sldworks~MateEntity2~ReferenceType2.html).
 
 ## See Also
 
 [IMateEntity2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2.html)
-
 [IMateEntity2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2_members.html)
-
 [IMateEntity2::Reference Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2~Reference.html)
-
 [IMateEntity2::ReferenceComponent Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2~ReferenceComponent.html)
 
 ## Availability

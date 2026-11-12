@@ -59,40 +59,22 @@ Surface^ ICreateRevolutionSurfaceDLL(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ProfileCurve`: Pointer to a profile
-
-[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-
-object
+- `ProfileCurve`: Pointer to a profile [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) object
 - `AxisPoint`: Array of 3 doubles (x,y,z)
 - `AxisDirection`: Array of 3 doubles (x,y,z)
 - `ProfileEndPtParams`: Array of 2 doubles (uStart,uEnd)
 
 ### Return Value
 
-Pointer to a new
-
-[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
-
-of revolution
+Pointer to a new [surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html) of revolution
 
 ## VBA Syntax
 
-See
-
-[Body2::ICreateRevolutionSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateRevolutionSurfaceDLL.html)
-
-.
+See [Body2::ICreateRevolutionSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateRevolutionSurfaceDLL.html).
 
 ## Remarks
 
@@ -101,7 +83,6 @@ Any existing object created by this method is destroyed if you call this method 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

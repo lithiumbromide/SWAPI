@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # IGetProcessedBodyWithSelFace Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::IGetProcessedBodyWithSelFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IGetProcessedBodyWithSelFace2.html)
-
-.
+Obsolete. Superseded by [IPartDoc::IGetProcessedBodyWithSelFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IGetProcessedBodyWithSelFace2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Body IGetProcessedBodyWithSelFace()
 Body^ IGetProcessedBodyWithSelFace();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[PartDoc::IGetProcessedBodyWithSelFace](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IGetProcessedBodyWithSelFace.html)
-
-.
+See [PartDoc::IGetProcessedBodyWithSelFace](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IGetProcessedBodyWithSelFace.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

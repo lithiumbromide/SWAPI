@@ -51,35 +51,22 @@ Reference pressure offset to subtract from imported pressure values
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::DefinedReferencePressure](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~DefinedReferencePressure.html)
-
-.
+See [CWNonLinearStudyOptions::DefinedReferencePressure](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~DefinedReferencePressure.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## Remarks
 
 This property is valid only if:
 
-- [ICWNonLinearStudyOptions::CheckFlowPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~CheckFlowPressure.html)
-
-  is set to 1.
-- [ICWNonLinearStudyOptions::ReferencePressureOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ReferencePressureOption.html)
-
-  is set to 0.
+- [ICWNonLinearStudyOptions::CheckFlowPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~CheckFlowPressure.html) is set to 1.
+- [ICWNonLinearStudyOptions::ReferencePressureOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ReferencePressureOption.html) is set to 0.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

@@ -53,24 +53,16 @@ System.int CreateMeshForMeshControl(
 
 ### Return Value
 
-Error as defined in
-
-[swsMeshControlMeshingError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshControlMeshingError_e.html)
+Error as defined in [swsMeshControlMeshingError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshControlMeshingError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::CreateMeshForMeshControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~CreateMeshForMeshControl.html)
-
-.
+See [CWStudy::CreateMeshForMeshControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~CreateMeshForMeshControl.html).
 
 ## Examples
 
 [Apply Mesh Control (VBA)](Apply_Mesh_Control_Example_VB.htm)
-
 [Apply Mesh Control (VB.NET)](Apply_Mesh_Control_Example_VBNET.htm)
-
 [Apply Mesh Control (C#)](Apply_Mesh_Control_Example_CSharp.htm)
 
 ## Remarks
@@ -83,17 +75,11 @@ To populate SMeshControlName, call:
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::CreateMesh Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CreateMesh.html)
-
 [ICWStudy::MeshAndRun Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~MeshAndRun.html)
-
 [ICWStudy::CopyMeshFromStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CopyMeshFromStudy.html)
-
 [ICWStudy::Mesh Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~Mesh.html)
-
 [ICWStudy::MeshType Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~MeshType.html)
 
 ## Availability

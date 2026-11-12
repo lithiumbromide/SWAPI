@@ -45,13 +45,7 @@ property System.Object^ SkippedItemArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Array of integers representing the items to skip
 
 ## VBA Syntax
 
-See
-
-[CircularPatternFeatureData::SkippedItemArray](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~SkippedItemArray.html)
-
-.
+See [CircularPatternFeatureData::SkippedItemArray](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~SkippedItemArray.html).
 
 ## Remarks
 
@@ -75,45 +65,29 @@ Calculate:
 
 For a bi-directional pattern:
 
-`I`=`n2`* (`i`- 1) + (`j`- 1)
+`I` = `n2` * (`i` - 1) + (`j` - 1)
 
 For a uni-directional pattern:
 
-`I`=`i`- 1
+`I` = `i` - 1
 
 where:
 
-- I
+- `I` = pattern instance number
+- `n2` = number of instances in Direction 2
+- `i` = index for Direction 1
+- `j` = index for Direction 2
 
-  = pattern instance number
-- n2
+In the pattern's PropertyManager, find `n2` in the **Direction 2** **> Spacing and Instances > Number of instances** field and find [`i,j`] in the **Modified Instances** section.
 
-  = number of instances in Direction 2
-- i
-
-  = index for Direction 1
-- j
-
-  = index for Direction 2
-
-In the pattern's PropertyManager, find`n2`in the**Direction 2****> Spacing and Instances > Number of instances**field and find [`i,j`] in the**Modified Instances**section.
-
-See
-
-[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)
-
-for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
 [ICircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData_members.html)
-
 [ICircularPatternFeatureData::GetSkippedItemCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~GetSkippedItemCount.html)
-
 [ICircularPatternFeatureData::IGetSkippedItemArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~IGetSkippedItemArray.html)
-
 [ICircularPatternFeatureData::ISetSkippedItemArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~ISetSkippedItemArray.html)
 
 ## Availability

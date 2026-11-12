@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHo
 
 # Size Property (IHoleSeriesFeatureData)
 
-Obsolete. Superseded by[IHoleSeriesFeatureData2::Size](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~Size.html).
+Obsolete. Superseded by [IHoleSeriesFeatureData2::Size](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~Size.html).
 
 ## Syntax
 
@@ -47,19 +47,11 @@ property System.String^ Size {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `HoleSeriesWhichPart`: Which part the hole series passes through as defined by
-
-[swHoleSeriesWhichParts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleSeriesWhichParts_e.html)
+- `HoleSeriesWhichPart`: Which part the hole series passes through as defined by [swHoleSeriesWhichParts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleSeriesWhichParts_e.html)
 
 ### Property Value
 
@@ -67,26 +59,16 @@ Fastener size
 
 ## VBA Syntax
 
-See
-
-[HoleSeriesFeatureData::Size](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~Size.html)
-
-.
+See [HoleSeriesFeatureData::Size](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~Size.html).
 
 ## See Also
 
 [IHoleSeriesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData.html)
-
 [IHoleSeriesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData_members.html)
-
 [IHoleSeriesFeatureData::FastenerBottomHoleType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~FastenerBottomHoleType.html)
-
 [IHoleSeriesFeatureData::FastenerDefaultUnits Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~FastenerDefaultUnits.html)
-
 [IHoleSeriesFeatureData::FastenerHoleCount Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~FastenerHoleCount.html)
-
 [IHoleSeriesFeatureData::FastenerTopHoleType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~FastenerTopHoleType.html)
-
 [IHoleSeriesFeatureData::Type Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~Type.html)
 
 ## Availability

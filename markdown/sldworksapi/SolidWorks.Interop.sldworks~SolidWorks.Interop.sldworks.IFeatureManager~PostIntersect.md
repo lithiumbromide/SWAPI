@@ -55,21 +55,11 @@ Feature^ PostIntersect(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `IntersectionsToExclude`: Array of booleans indicating which bodies returned by
-
-[IFeatureManager::PreIntersect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PreIntersect.html)
-
-to exclude from this intersect feature
+- `IntersectionsToExclude`: Array of booleans indicating which bodies returned by [IFeatureManager::PreIntersect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PreIntersect.html) to exclude from this intersect feature
 - `Merge`: True to merge all intersect regions into one body, false to not
 - `Consume`: True to remove input surfaces from the FeatureManager design tree, false to not
 
@@ -79,34 +69,22 @@ to exclude from this intersect feature
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::PostIntersect](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~PostIntersect.html)
-
-.
+See [FeatureManager::PostIntersect](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~PostIntersect.html).
 
 ## Examples
 
 [Get Intersect Feature Data (VBA)](Get_Intersect_Feature_Data_Example_VB.htm)
-
 [Get Intersect Feature Data (VB.NET)](Get_Intersect_Feature_Data_Example_VBNET.htm)
-
 [Get Intersect Feature Data (C#)](Get_Intersect_Feature_Data_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, you must call
-
-[IFeatureManager::PreIntersect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PreIntersect.html)
-
-to obtain the intersect bodies.
+Before calling this method, you must call [IFeatureManager::PreIntersect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PreIntersect.html) to obtain the intersect bodies.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IIntersectFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData.html)
 
 ## Availability

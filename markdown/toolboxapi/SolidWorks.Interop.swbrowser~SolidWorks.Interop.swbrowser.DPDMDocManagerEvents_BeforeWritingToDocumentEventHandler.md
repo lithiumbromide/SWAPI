@@ -43,13 +43,7 @@ public delegate System.int DPDMDocManagerEvents_BeforeWritingToDocumentEventHand
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndC++CLI.html)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndC++CLI.html).
 
 ### Parameters
 
@@ -61,19 +55,11 @@ If 0 is returned without setting the document status, an error occurs. If 1 is r
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[BeforeWritingToDocument Event (PDMDocManager)](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~BeforeWritingToDocument_EV.html)
-
-.
+See [BeforeWritingToDocument Event (PDMDocManager)](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~BeforeWritingToDocument_EV.html).
 
 ## Examples
 
-See
-
-[Getting Started](GettingStarted-toolboxapi.html)
-
-for more information.
+See [Getting Started](GettingStarted-toolboxapi.html) for more information.
 
 ## Remarks
 
@@ -83,13 +69,9 @@ In the body of this handler, you can perform PDM document management functions s
 
 - Determine the availability of fileName in the SOLIDWORKS Toolbox.
 - Clear the read-only attribute of the PDM-managed document in preparation for writing.
-- Call
+- Call [IPDMDocManager::SetManagedDocument](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.IPDMDocManager~SetManagedDocument.html) to direct the Toolbox Browser application to write to a different document, if the PDM-managed version is not writable.
 
-  [IPDMDocManager::SetManagedDocument](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.IPDMDocManager~SetManagedDocument.html)
-
-  to direct the Toolbox Browser application to write to a different document, if the PDM-managed version is not writable.
-
-Before returning from this handler, you must call[IPDMDocManager::SetDocumentStatus](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.IPDMDocManager~SetDocumentStatus.html)with[swPDMStatus_e.swPDMStatusKnownAndAvailable](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.swPDMStatus_e.html)in order to not generate an error.
+Before returning from this handler, you must call [IPDMDocManager::SetDocumentStatus](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.IPDMDocManager~SetDocumentStatus.html) with [swPDMStatus_e.swPDMStatusKnownAndAvailable](SOLIDWORKS.Interop.swbrowser~SOLIDWORKS.Interop.swbrowser.swPDMStatus_e.html) in order to not generate an error.
 
 ## Availability
 

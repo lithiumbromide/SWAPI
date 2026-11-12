@@ -35,5 +35,4 @@ System.String^ mbsPath
 ## See Also
 
 [EdmFolderInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo.html)
-
 [EdmFolderInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo_members.html)

@@ -34,14 +34,9 @@ System.int mlUserID
 
 ## Remarks
 
-This field is ignored in calls to
-
-[IEdmUser10::SetUserDataEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10~SetUserDataEx.html)
-
-.
+This field is ignored in calls to [IEdmUser10::SetUserDataEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10~SetUserDataEx.html).
 
 ## See Also
 
 [EdmUserDataEx Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx.html)
-
 [EdmUserDataEx Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx_members.html)

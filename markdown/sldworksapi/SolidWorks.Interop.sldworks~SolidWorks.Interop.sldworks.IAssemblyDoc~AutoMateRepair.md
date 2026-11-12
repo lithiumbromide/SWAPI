@@ -51,36 +51,20 @@ System.int AutoMateRepair(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ProcessedMates`: Array of successfully repaired
-
-[IMate2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
-s
+- `ProcessedMates`: Array of successfully repaired [IMate2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)s
 - `FailedMates`: Array of failed IMate2s
 
 ### Return Value
 
-Mate repair errors as defined by
-
-[swAutoMateRepairErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAutoMateRepairErrors_e.html)
+Mate repair errors as defined by [swAutoMateRepairErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAutoMateRepairErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AutoMateRepair](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AutoMateRepair.html)
-
-.
+See [AssemblyDoc::AutoMateRepair](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AutoMateRepair.html).
 
 ## Examples
 
@@ -92,7 +76,7 @@ See
 
 ' 1. Open the Immediate window.
 
-' 2. Ensure that c:\temp and the specified templates exist.
+' 2. Ensure that **c:\temp** and the specified templates exist.
 
 '
 
@@ -340,7 +324,7 @@ Dim ProcessedMates As Variant
 
 Dim lStatus As Long
 
-lStatus = swAsm. AutoMateRepair (ProcessedMates, failedMates)
+lStatus = swAsm.**AutoMateRepair**(ProcessedMates, failedMates)
 
 Debug.Print "Number of Processed Mates is " & UBound(ProcessedMates) + 1 & ":"
 
@@ -375,9 +359,7 @@ Before calling this method you must:
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::CreateMate Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)
 
 ## Availability

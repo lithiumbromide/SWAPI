@@ -45,30 +45,19 @@ property System.int JogPositionType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Position type as defined in[swJogPositionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swJogPositionType_e.html)
+Position type as defined in [swJogPositionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swJogPositionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[JogFeatureData::JogPositionType](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~JogPositionType.html)
-
-.
+See [JogFeatureData::JogPositionType](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~JogPositionType.html).
 
 ## See Also
 
 [IJogFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html)
-
 [IJogFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData_members.html)
 
 ## Availability

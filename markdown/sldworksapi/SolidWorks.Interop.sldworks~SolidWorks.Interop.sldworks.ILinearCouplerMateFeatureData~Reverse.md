@@ -45,13 +45,7 @@ property System.bool Reverse {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to reverse the direction of motion, false to not
 
 ## VBA Syntax
 
-See
-
-[LinearCouplerMateFeatureData::Reverse](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~Reverse.html)
-
-.
+See [LinearCouplerMateFeatureData::Reverse](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~Reverse.html).
 
 ## Examples
 
-See the
-
-[ILinearCouplerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
-examples.
+See the [ILinearCouplerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html) examples.
 
 ## See Also
 
 [ILinearCouplerMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
 [ILinearCouplerMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData_members.html)
 
 ## Availability

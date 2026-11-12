@@ -45,13 +45,7 @@ property System.double AnisotropicCylinderDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Anisotropic cylinder distance
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::AnisotropicCylinderDistance](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~AnisotropicCylinderDistance.html)
-
-.
+See [RenderMaterial::AnisotropicCylinderDistance](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~AnisotropicCylinderDistance.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ The anisotropic reflection is modeled by laying (virtual) cylinders along the su
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

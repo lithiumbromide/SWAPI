@@ -51,24 +51,12 @@ System.Object^ CheckSpelling(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Options`: Spell-check options as defined in
-
-[swCheckSpellingOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCheckSpellingOptions_e.html)
-- `Dictionary`: Full path and filename of user dictionary to use (see
-
-Remarks
-
-)
+- `Options`: Spell-check options as defined in [swCheckSpellingOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCheckSpellingOptions_e.html)
+- `Dictionary`: Full path and filename of user dictionary to use (see **Remarks**)
 
 ### Return Value
 
@@ -76,11 +64,7 @@ Array of the misspelled words in this annotation
 
 ## VBA Syntax
 
-See
-
-[Annotation::CheckSpelling](ms-its:sldworksapivb6.chm::/sldworks~Annotation~CheckSpelling.html)
-
-.
+See [Annotation::CheckSpelling](ms-its:sldworksapivb6.chm::/sldworks~Annotation~CheckSpelling.html).
 
 ## Remarks
 
@@ -91,7 +75,6 @@ You can also specify additional custom dictionaries by adding them in the approp
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

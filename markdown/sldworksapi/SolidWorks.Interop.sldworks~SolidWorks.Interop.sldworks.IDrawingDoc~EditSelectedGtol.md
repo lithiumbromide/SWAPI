@@ -40,13 +40,7 @@ System.object EditSelectedGtol()
 System.Object^ EditSelectedGtol();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,10 @@ Existing GTol
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::EditSelectedGtol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~EditSelectedGtol.html)
-
-.
+See [DrawingDoc::EditSelectedGtol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~EditSelectedGtol.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::IEditSelectedGtol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~IEditSelectedGtol.html)

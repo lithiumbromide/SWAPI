@@ -40,13 +40,7 @@ System.int GetSFSymbolCount()
 System.int GetSFSymbolCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,22 @@ Total number of surface finish symbols on this drawing view
 
 ## VBA Syntax
 
-See
-
-[View::GetSFSymbolCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetSFSymbolCount.html)
-
-.
+See [View::GetSFSymbolCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetSFSymbolCount.html).
 
 ## Examples
 
 [Get Annotations Arrays (C#)](Get_Annotations_Arrays_Example_CSharp.htm)
-
 [Get Annotations Arrays (VB.NET)](Get_Annotations_Arrays_Example_VBNET.htm)
-
 [Get Annotations Arrays (VBA)](Get_Annotations_Array_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling[IView::IGetSFSymbols](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetSFSymbols.html)to determine the size of the array for that method.
+Call this method before calling [IView::IGetSFSymbols](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetSFSymbols.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetSFSymbols Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetSFSymbols.html)
 
 ## Availability

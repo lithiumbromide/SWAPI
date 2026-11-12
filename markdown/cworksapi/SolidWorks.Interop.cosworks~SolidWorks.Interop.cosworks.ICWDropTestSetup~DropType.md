@@ -47,30 +47,19 @@ property System.int DropType {
 
 ### Property Value
 
-Drop test setup input type as defined in
-
-[swsDropType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDropType_e.html)
+Drop test setup input type as defined in [swsDropType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDropType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWDropTestSetup::DropType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~DropType.html)
-
-.
+See [CWDropTestSetup::DropType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~DropType.html).
 
 ## Examples
 
-See the examples in
-
-[ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html)
-
-.
+See the examples in [ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html).
 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
 
 ## Availability

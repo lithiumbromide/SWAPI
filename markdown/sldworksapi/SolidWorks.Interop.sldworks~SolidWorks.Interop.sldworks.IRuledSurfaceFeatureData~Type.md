@@ -45,48 +45,29 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of ruled-surface feature as defined in
-
-[swRuledSurfaceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRuledSurfaceType_e.html)
+Type of ruled-surface feature as defined in [swRuledSurfaceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRuledSurfaceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[RuledSurfaceFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~Type.html)
-
-.
+See [RuledSurfaceFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~Type.html).
 
 ## Examples
 
 [Get Ruled-Surface Feature Data (VBA)](Get_Ruled_Surface_Feature_Data_Example_VB.htm)
-
 [Get Ruled-Surface Feature Data (VB.NET)](Get_Ruled_Surface_Feature_Data_Example_VBNET.htm)
-
 [Get Ruled-Surface Feature Data (C#)](Get_Ruled_Surface_Feature_Data_Example_CSharp.htm)
 
 ## See Also
 
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [IRuledSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData_members.html)
-
 [IRuledSurfaceFeatureData::GetDirectionReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData~GetDirectionReference.html)
-
 [IRuledSurfaceFeatureData::Angle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData~Angle.html)
-
 [IRuledSurfaceFeatureData::DirectionVector Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData~DirectionVector.html)
-
 [IRuledSurfaceFeatureData::UseVector Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData~UseVector.html)
 
 ## Availability

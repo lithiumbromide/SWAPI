@@ -40,13 +40,7 @@ System.long GetMenux64()
 System.int64 GetMenux64();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Menu handle for the main frame
 
 ## VBA Syntax
 
-See
-
-[Frame::GetMenux64](ms-its:sldworksapivb6.chm::/sldworks~Frame~GetMenux64.html)
-
-.
+See [Frame::GetMenux64](ms-its:sldworksapivb6.chm::/sldworks~Frame~GetMenux64.html).
 
 ## Remarks
 
-This method is only available through early binding and with 64-bit versions of the SOLIDWORKS software.
+This method is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software.
 
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [IFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html)
-
 [IFrame::GetMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetMenu.html)
-
 [IFrame::GetHWndx64 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetHWndx64.html)
-
 [IFrame::GetHWnd Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetHWnd.html)
 
 ## Availability

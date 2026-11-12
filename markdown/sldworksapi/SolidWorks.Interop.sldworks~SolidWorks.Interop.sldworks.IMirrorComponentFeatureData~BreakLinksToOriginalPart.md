@@ -45,13 +45,7 @@ property System.bool BreakLinksToOriginalPart {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,21 @@ True to break links, false (default) to not
 
 ## VBA Syntax
 
-See
-
-[MirrorComponentFeatureData::BreakLinksToOriginalPart](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~BreakLinksToOriginalPart.html)
-
-.
+See [MirrorComponentFeatureData::BreakLinksToOriginalPart](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~BreakLinksToOriginalPart.html).
 
 ## Examples
 
-See the
-
-[IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
-example.
+See the [IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html) example.
 
 ## Remarks
 
-This property is valid only if[IMirrorComponentFeatureData::CreateDerivedConfigurations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~CreateDerivedConfigurations.html)is false.
+This property is valid only if [IMirrorComponentFeatureData::CreateDerivedConfigurations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~CreateDerivedConfigurations.html) is false.
 
 If you set this property to true, then changes made to the original component do not propagate to the opposite-hand version.
 
 ## See Also
 
 [IMirrorComponentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
 [IMirrorComponentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData_members.html)
 
 ## Availability

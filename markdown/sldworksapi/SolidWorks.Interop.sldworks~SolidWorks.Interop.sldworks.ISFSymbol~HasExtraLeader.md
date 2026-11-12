@@ -40,13 +40,7 @@ System.bool HasExtraLeader()
 System.bool HasExtraLeader();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,12 @@ True if extra leader line exists, false if not
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::HasExtraLeader](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~HasExtraLeader.html)
-
-.
+See [SFSymbol::HasExtraLeader](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~HasExtraLeader.html).
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)
-
 [ISFSymbol::GetLeaderAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol~GetLeaderAtIndex.html)
-
 [ISFSymbol::IGetLeaderAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol~IGetLeaderAtIndex.html)
-
 [ISFSymbol::IsAttached Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol~IsAttached.html)

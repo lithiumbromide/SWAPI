@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Plane_using_Curve_and_Point_Example_VB.htm"
 
 # Create Plane using Curve and Point Example (VBA)
 
-This example shows how to create a plane using a curve (edge) and a
-point.
+This example shows how to create a plane using a curve (edge) and a point.
 
 ```
 '----------------------------------------------------

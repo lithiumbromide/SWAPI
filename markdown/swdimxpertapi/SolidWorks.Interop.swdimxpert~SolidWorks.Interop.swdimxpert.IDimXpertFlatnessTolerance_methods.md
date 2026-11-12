@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertFlatnessTolerance Interface Methods
 
-For a list of all members of this type, see[IDimXpertFlatnessTolerance members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFlatnessTolerance_members.html).
+For a list of all members of this type, see [IDimXpertFlatnessTolerance members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFlatnessTolerance_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IDimXpertFlatnessTolerance members](
 ## See Also
 
 [IDimXpertFlatnessTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFlatnessTolerance.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

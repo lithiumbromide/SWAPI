@@ -46,38 +46,26 @@ public delegate System.int DSldWorksEvents_FileCloseNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FileName`: Name of closed file
-- `reason`: Reason for closing as defined in
-
-[swFileCloseNotifyReason_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileCloseNotifyReason_e.html)
+- `reason`: Reason for closing as defined in [swFileCloseNotifyReason_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileCloseNotifyReason_e.html)
 
 ## VBA Syntax
 
-See
-
-[FileCloseNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileCloseNotify_EV.html)
-
-.
+See [FileCloseNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileCloseNotify_EV.html).
 
 ## Examples
 
-Contact SOLIDWORKS API Support to obtain**Close and Reopen a Drawing Document (VBA, VB.NET, C#).**
+Contact SOLIDWORKS API Support to obtain **Close and Reopen a Drawing Document (VBA, VB.NET, C#).**
 
 ## Remarks
 
-This event occurs after a drawing document is closed using[ISldWorks::CloseAndReopen](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~CloseAndReopen.html).
+This event occurs after a drawing document is closed using [ISldWorks::CloseAndReopen](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~CloseAndReopen.html).
 
-If developing a C++ application, use[swAppFileCloseNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppFileCloseNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

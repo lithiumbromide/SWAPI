@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ShowFeatureDimensions Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetUserPreferenceToggle.html)
-
-and
-
-[IModelDoc2::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetUserPreferenceToggle.html)
-
-and swDisplayFeatureDimensions.
+Obsolete. Superseded by [IModelDoc2::GetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetUserPreferenceToggle.html) and [IModelDoc2::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetUserPreferenceToggle.html) and swDisplayFeatureDimensions.
 
 ## Syntax
 
@@ -47,24 +39,13 @@ void ShowFeatureDimensions()
 void ShowFeatureDimensions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ShowFeatureDimensions](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ShowFeatureDimensions.html)
-
-.
+See [ModelDoc2::ShowFeatureDimensions](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ShowFeatureDimensions.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

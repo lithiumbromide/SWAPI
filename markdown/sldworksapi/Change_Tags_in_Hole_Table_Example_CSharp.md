@@ -34,46 +34,46 @@ using System;
 using System.Diagnostics;
 namespace RenameHoleTableTag_CSharp.csproj
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}partial
+    partial
  class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public
+    {
+        public
  void Main()
 ```
 
 ```
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ModelDoc2 swModel = default(ModelDoc2);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SelectionMgr swSelMgr = default(SelectionMgr);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}HoleTable swHoleTable = default(HoleTable);
+        {
+            ModelDoc2 swModel = default(ModelDoc2);
+            SelectionMgr swSelMgr = default(SelectionMgr);
+            HoleTable swHoleTable = default(HoleTable);
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}bool boolstatus = false;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel = (ModelDoc2)swApp.ActiveDoc;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swSelMgr = (SelectionMgr)swModel.SelectionManager;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}boolstatus = swModel.Extension.SelectByID2("Hole Table1", "HOLETABLE",
+            bool boolstatus = false;
+            swModel = (ModelDoc2)swApp.ActiveDoc;
+            swSelMgr = (SelectionMgr)swModel.SelectionManager;
+            boolstatus = swModel.Extension.SelectByID2("Hole Table1", "HOLETABLE",
  0, 0, 0, false, 0, null, 0);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swHoleTable = (HoleTable)swSelMgr.GetSelectedObject6(1, -1);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swHoleTable.EnableUpdate = false;
+            swHoleTable = (HoleTable)swSelMgr.GetSelectedObject6(1, -1);
+            swHoleTable.EnableUpdate = false;
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//Disable
+            //Disable
  updating hole table tags
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Original name of tag in column1, row 2: " + swHoleTable.get_HoleTag(1));
+            Debug.Print("Original name of tag in column1, row 2: " + swHoleTable.get_HoleTag(1));
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swHoleTable.set_HoleTag(1, "Test1");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("New name of tag in column1, row 2: " + swHoleTable.get_HoleTag(1));
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Original name of tag in column1, row 5: " + swHoleTable.get_HoleTag(4));
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swHoleTable.set_HoleTag(4, "Test1");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//
+            swHoleTable.set_HoleTag(1, "Test1");
+            Debug.Print("New name of tag in column1, row 2: " + swHoleTable.get_HoleTag(1));
+            Debug.Print("");
+            Debug.Print("Original name of tag in column1, row 5: " + swHoleTable.get_HoleTag(4));
+            swHoleTable.set_HoleTag(4, "Test1");
+            //
  Fails because same name is used in row 2
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swHoleTable.set_HoleTag(4, "Test2");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("New name of tag in column1, row 2: " + swHoleTable.get_HoleTag(4));
+            swHoleTable.set_HoleTag(4, "Test2");
+            Debug.Print("New name of tag in column1, row 2: " + swHoleTable.get_HoleTag(4));
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//Enable
+            //Enable
  updating hole table tags
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swHoleTable.EnableUpdate = true;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SldWorks swApp;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+            swHoleTable.EnableUpdate = true;
+        }
+        public SldWorks swApp;
+    }
 }
 ```

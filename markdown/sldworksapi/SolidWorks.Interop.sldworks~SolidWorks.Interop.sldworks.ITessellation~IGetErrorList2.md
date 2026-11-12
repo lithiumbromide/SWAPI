@@ -62,37 +62,27 @@ void IGetErrorList2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FaceErrArray`: - in-process, unmanaged C++: Pointer to an array of
+- `FaceErrArray`: - in-process, unmanaged C++: Pointer to an array of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) that have errors
 
-  [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+  VBA, VB.NET, C#, and C++/CLI: Not supported
 
-  that have errors
-
-VBA, VB.NET, C#, and C++/CLI: Not supported
-
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 - `FacetErrArray`: - in-process, unmanaged C++: Pointer to an array of longs or integers describing the facets with errors
 
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 - `VertexPointErrArray`: - in-process, unmanaged C++: Pointer to an array of longs or integers of vertex point IDs from FacetErrArray
 
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 - `VertexNormalErrArray`: - in-process, unmanaged C++: Pointer to an array of longs or integers of vertex normal IDs from FacetErrArray
 
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 - `VertexParamsErrArray`: - in-process, unmanaged C++: Pointer to an array of longs or integers of vertex parameters IDs from facetErrArray
 
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
@@ -117,13 +107,9 @@ The arrays returned by ITessellation::GetErrorList contains the tessellation ent
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::GetErrorList Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~GetErrorList.html)
-
 [ITessellation::IGetErrorListCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetErrorListCount.html)
-
 [ITessellate::NeedErrorList Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~NeedErrorList.html)
 
 ## Availability

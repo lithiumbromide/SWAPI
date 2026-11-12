@@ -75,38 +75,18 @@ System.bool AddItemToThirdPartyPopupMenu(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RegisterId`: ID of shortcut menu from
-
-[ISldWorks::RegisterThirdPartyPopupMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RegisterThirdPartyPopupMenu.html)
-- `DocType`: Document type where to display shortcut menu, as defined in
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
-- `Item`: Name of shortcut menu item (see
-
-Remarks
-
-)
-- `CallbackFcnAndModule`: Function called when user clicks the shortcut menu item (see
-
-Remarks
-
-)
+- `RegisterId`: ID of shortcut menu from [ISldWorks::RegisterThirdPartyPopupMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RegisterThirdPartyPopupMenu.html)
+- `DocType`: Document type where to display shortcut menu, as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `Item`: Name of shortcut menu item (see **Remarks**)
+- `CallbackFcnAndModule`: Function called when user clicks the shortcut menu item (see **Remarks**)
 - `CustomName`: Empty string
 - `HintString`: Text to display in the SOLIDWORKS status bar when users move the mouse over this shortcut menu item
 - `BitmapFileName`: Path and filename of the bitmap
-- `MenuItemTypeOption`: Menu item as defined in
-
-[swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html)
+- `MenuItemTypeOption`: Menu item as defined in [swMenuItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuItemType_e.html)
 
 ### Return Value
 
@@ -182,15 +162,15 @@ swMenuItemType_Separator,
 
 This method is supported in C++ applications only, and it only works in C++ applications implemented as DLLs, not as EXEs.
 
-Read about[Add-in Shortcut Menus](ms-its:sldworksapiprogguide.chm::/OVERVIEW/Add-in_Shortcut_Menus.htm).
+Read about [Add-in Shortcut Menus](ms-its:sldworksapiprogguide.chm::/OVERVIEW/Add-in_Shortcut_Menus.htm).
 
 The CallbackFcnAndModule argument specifies which function to call when this shortcut menu item is selected by the user. The syntax is as follows:
 
+```vb
 "dllname@function@updatefunction"
+```
 
 where:
-
-(Table)=========================================================
 
 | dllname | Name of your library as specified in the project .def file. The actual DLL filename and the definition in the .def file must be the same. |
 | --- | --- |
@@ -200,9 +180,7 @@ where:
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::AddItemToThirdPartyPopupMenu2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddItemToThirdPartyPopupMenu2.html)
 
 ## Availability

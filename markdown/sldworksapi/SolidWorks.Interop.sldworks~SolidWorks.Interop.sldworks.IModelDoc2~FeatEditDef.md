@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # FeatEditDef Method (IModelDoc2)
 
-Displays the
-
-Feature Definition
-
-dialog and lets the user edit the values.
+Displays the Feature Definition dialog and lets the user edit the values.
 
 ## Syntax
 
@@ -43,28 +39,16 @@ void FeatEditDef()
 void FeatEditDef();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::FeatEditDef](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FeatEditDef.html)
-
-.
+See [ModelDoc2::FeatEditDef](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FeatEditDef.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::FeatEdit Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~FeatEdit.html)
 
 ## Availability

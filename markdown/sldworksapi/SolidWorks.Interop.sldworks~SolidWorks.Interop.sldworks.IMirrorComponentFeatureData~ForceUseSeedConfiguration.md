@@ -45,13 +45,7 @@ property System.bool ForceUseSeedConfiguration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ True to use the mirrored component configuration for all mirror components, fals
 
 ## VBA Syntax
 
-See
-
-[MirrorComponentFeatureData::ForceUseSeedConfiguration](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~ForceUseSeedConfiguration.html)
-
-.
+See [MirrorComponentFeatureData::ForceUseSeedConfiguration](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~ForceUseSeedConfiguration.html).
 
 ## Remarks
 
-If this property is set to true, the
-
-Referenced configuration
-
-section of the Component Properties dialog is disabled, and you cannot use
-
-[IComponent2::ReferencedConfiguration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~ReferencedConfiguration.html)
-
-to change the pattern instance configuration.
+If this property is set to true, the **Referenced configuration** section of the Component Properties dialog is disabled, and you cannot use [IComponent2::ReferencedConfiguration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~ReferencedConfiguration.html) to change the pattern instance configuration.
 
 ## See Also
 
 [IMirrorComponentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
 [IMirrorComponentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData_members.html)
 
 ## Availability

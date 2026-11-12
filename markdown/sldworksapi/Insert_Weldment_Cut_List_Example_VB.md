@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Weldment_Cut_List_Example_VB.htm"
 
 # Insert Weldment Cut List Example (VBA)
 
-This example shows how to insert a weldment cut list in a weldment part
-document.
+This example shows how to insert a weldment cut list in a weldment part document.
 
 ```
 '---------------------------------------------------------------------

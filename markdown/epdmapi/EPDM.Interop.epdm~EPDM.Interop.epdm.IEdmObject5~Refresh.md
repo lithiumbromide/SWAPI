@@ -45,7 +45,6 @@ For performance reasons, some object properties might be cached in the object it
 ## See Also
 
 [IEdmObject5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5.html)
-
 [IEdmObject5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "IUniversalJointMateFeatureData Object
-Members"
+title: "IUniversalJointMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IUniversalJointMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IUniversalJointMateFeatureData_members.html"
 ---
 
-# IUniversalJointMateFeatureData Object
-Members
+# IUniversalJointMateFeatureData Object Members
 
 ## Public Properties
 

@@ -42,36 +42,23 @@ System.int RigidConnectorEndEdit();
 
 ### Return Value
 
-Error as defined in[swsRigidConnectorEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRigidConnectorEndEditError_e.html)
+Error as defined in [swsRigidConnectorEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRigidConnectorEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRigidConnector::RigidConnectorEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRigidConnector~RigidConnectorEndEdit.html)
-
-.
+See [CWRigidConnector::RigidConnectorEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRigidConnector~RigidConnectorEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWRigidConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector.html)
-
-examples.
+See the [ICWRigidConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector.html) examples.
 
 ## Remarks
 
-You must call
-
-[ICWRigidConnector::RigidConnectorBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWRigidConnector~RigidConnectorBeginEdit.html)
-
-to start editing a rigid connector. To end editing a rigid connector, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWRigidConnector::RigidConnectorBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWRigidConnector~RigidConnectorBeginEdit.html) to start editing a rigid connector. To end editing a rigid connector, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWRigidConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector.html)
-
 [ICWRigidConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector_members.html)
 
 ## Availability

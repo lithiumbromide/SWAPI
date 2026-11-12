@@ -55,35 +55,21 @@ System.int ComponentReload2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Component`: [IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
 - `ReadOnly`: True to set Component read-only after reload, false to allow write access
-- `Options`: Reload option as defined by
-
-[swComponentReloadOption_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swComponentReloadOption_e.html)
+- `Options`: Reload option as defined by [swComponentReloadOption_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swComponentReloadOption_e.html)
 
 ### Return Value
 
-Error code as defined by
-
-[swComponentReloadError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swComponentReloadError_e.html)
+Error code as defined by [swComponentReloadError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swComponentReloadError_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::ComponentReload2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ComponentReload2.html)
-
-.
+See [AssemblyDoc::ComponentReload2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ComponentReload2.html).
 
 ## Examples
 
@@ -91,7 +77,7 @@ See
 
 'Preconditions:
 
-'1. Open`public_documents`**\SOLIDWORKS\SOLIDWORKS 2021\samples\tutorial\api\arm2.sldasm**.
+'1. Open `public_documents`**\SOLIDWORKS\SOLIDWORKS 2021\samples\tutorial\api\arm2.sldasm**.
 
 '2. Open the Immediate window.
 
@@ -119,24 +105,13 @@ End Sub
 
 ## Remarks
 
-This method is analogous to the Reload dialog that appears when you right-click on an assembly component in the FeatureManager design tree and select
-
-Reload
-
-. For more information, read the
-
-SOLIDWORKS user-interface Help > Fundamentals > Document Basics > Multi-User Environment > Reload
-
-topic.
+This method is analogous to the Reload dialog that appears when you right-click on an assembly component in the FeatureManager design tree and select **Reload**. For more information, read the **SOLIDWORKS Design user-interface Help > Fundamentals > Document Basics > Multi-User Environment > Reload** topic.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::ReplaceComponents2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReplaceComponents2.html)
-
 [IModelDoc2::ReloadOrReplace Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ReloadOrReplace.html)
 
 ## Availability

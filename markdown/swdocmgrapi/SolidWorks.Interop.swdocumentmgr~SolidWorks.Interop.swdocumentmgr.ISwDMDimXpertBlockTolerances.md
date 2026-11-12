@@ -11,13 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Allows you to access DimXpert block tolerance information.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,16 +41,11 @@ public interface class ISwDMDimXpertBlockTolerances
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertBlockTolerances](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBlockTolerances.html)
-
-.
+See [SwDMDimXpertBlockTolerances](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBlockTolerances.html).
 
 ## Examples
 
 [Get DimXpert Block Tolerance (VB.NET)](Get_DimXpert_Block_Tolerance_Example_VBNET.htm)
-
 [Get DimXpert Block Tolerance (C#)](Get_DimXpert_Block_Tolerance_Example_CSharp.htm)
 
 ## Accessors
@@ -66,5 +55,4 @@ See
 ## See Also
 
 [ISwDMDimXpertBlockTolerances Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBlockTolerances_members.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

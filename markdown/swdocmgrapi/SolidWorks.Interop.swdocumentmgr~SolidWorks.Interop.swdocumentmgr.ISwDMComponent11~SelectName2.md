@@ -9,15 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # SelectName2 Property (ISwDMComponent11)
 
-Gets the name of the component needed to specify in the component list in
-
-[ISldWorks::IDocumentSpecification](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~ComponentList.html)
-
-during a selective open using
-
-[SldWorks::OpenDoc7](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc7.html)
-
-.
+Gets the name of the component needed to specify in the component list in [ISldWorks::IDocumentSpecification](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~ComponentList.html) during a selective open using [SldWorks::OpenDoc7](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc7.html).
 
 ## Syntax
 
@@ -56,24 +48,15 @@ Name to use during a selective open
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent11::SelectName2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent11~SelectName2.html)
-
-.
+See [SwDMComponent11::SelectName2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent11~SelectName2.html).
 
 ## Examples
 
-See the
-
-[ISwDMComponent11](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11.html)
-
-examples.
+See the [ISwDMComponent11](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11.html) examples.
 
 ## See Also
 
 [ISwDMComponent11 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11.html)
-
 [ISwDMComponent11 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IFeatureFolder Interface Methods
 
-For a list of all members of this type, see[IFeatureFolder members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureFolder_members.html).
+For a list of all members of this type, see [IFeatureFolder members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureFolder_members.html).
 
 ## Public Methods
 
@@ -24,7 +24,5 @@ For a list of all members of this type, see[IFeatureFolder members](SolidWorks.I
 ## See Also
 
 [IFeatureFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureFolder.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertFeatureTreeFolder2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFeatureTreeFolder2.html)

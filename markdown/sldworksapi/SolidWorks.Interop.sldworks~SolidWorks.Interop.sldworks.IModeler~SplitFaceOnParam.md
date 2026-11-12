@@ -59,43 +59,28 @@ System.Object^ SplitFaceOnParam(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Facedisp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)to split
+- `Facedisp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to split
 - `UVFlag`: Parametric axis; either swSplitFaceOnParamU or swSplitFaceOnParamV
 - `Parameter`: Position along the parametric axis at which the split is performed
 - `Status`: True if the operation was successful, false if
 
 ### Return Value
 
-Array of new
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+Array of new [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
 
 ## VBA Syntax
 
-See
-
-[Modeler::SplitFaceOnParam](ms-its:sldworksapivb6.chm::/sldworks~Modeler~SplitFaceOnParam.html)
-
-.
+See [Modeler::SplitFaceOnParam](ms-its:sldworksapivb6.chm::/sldworks~Modeler~SplitFaceOnParam.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::ISplitFaceOnParam2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ISplitFaceOnParam2.html)
-
 [IModeler::ISplitFaceOnParamCount2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ISplitFaceOnParamCount2.html)
 
 ## Availability

@@ -51,26 +51,16 @@ System.bool ISetAttachedEntities(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Count`: Number of entities to which to attach this annotation
-- `LpArr`: - in-process, unmanaged C++: Pointer to an array of entities to attach this annotation to (see
+- `LpArr`: - in-process, unmanaged C++: Pointer to an array of entities to attach this annotation to (see **Remarks**)
 
-  Remarks
+  VBA, VB.NET, C#, and C++/CLI: Not supported
 
-  )
-
-VBA, VB.NET, C#, and C++/CLI: Not supported
-
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ### Return Value
 
@@ -83,11 +73,8 @@ Not all annotations can be attached to a different entity (i.e., face, edge, or 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::GetAttachedEntities2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetAttachedEntities2.html)
-
 [SetAttachedEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetAttachedEntities.html)
 
 ## Availability

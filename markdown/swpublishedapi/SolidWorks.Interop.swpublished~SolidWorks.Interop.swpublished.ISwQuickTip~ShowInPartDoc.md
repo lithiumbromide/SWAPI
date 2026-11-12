@@ -48,16 +48,11 @@ True to show Quick Tips in SOLIDWORKS part documents, false to not
 
 ## VBA Syntax
 
-See
-
-[SwQuickTip::ShowInPartDoc](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~ShowInPartDoc.html)
-
-.
+See [SwQuickTip::ShowInPartDoc](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~ShowInPartDoc.html).
 
 ## See Also
 
 [ISwQuickTip Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip.html)
-
 [ISwQuickTip Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip_members.html)
 
 ## Availability

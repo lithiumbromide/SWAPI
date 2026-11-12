@@ -49,31 +49,19 @@ System.int SetComponent(
 
 ### Parameters
 
-- `NComponent`: [swsTopologyStudyFactorOfSafetyComponentType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyFactorOfSafetyComponentType_e.html)
-
-.swsTopologyFactorOfSafetyCompType_MaxVONMises
+- `NComponent`: [swsTopologyStudyFactorOfSafetyComponentType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyFactorOfSafetyComponentType_e.html).swsTopologyFactorOfSafetyCompType_MaxVONMises
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_FOSConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_FOSConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_FOSConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_FOSConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFactorOfSafetyConstraint::SetComponent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFactorOfSafetyConstraint~SetComponent.html)
-
-.
+See [CWTopologyFactorOfSafetyConstraint::SetComponent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFactorOfSafetyConstraint~SetComponent.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyFactorOfSafetyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint.html)
-
-example.
+See the [ICWTopologyFactorOfSafetyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint.html) example.
 
 ## Remarks
 
@@ -86,7 +74,6 @@ FOS_component comparator value
 ## See Also
 
 [ICWTopologyFactorOfSafetyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint.html)
-
 [ICWTopologyFactorOfSafetyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint_members.html)
 
 ## Availability

@@ -50,13 +50,7 @@ property System.bool ImportDimensions {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,11 +62,7 @@ True to import dimension, false to not
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::ImportDimensions](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~ImportDimensions.html)
-
-.
+See [ImportDxfDwgData::ImportDimensions](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~ImportDimensions.html).
 
 ## Examples
 
@@ -87,7 +77,6 @@ By default, dimensions are not imported.
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
 
 ## Availability

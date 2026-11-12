@@ -60,25 +60,16 @@ void Init(
 
 ### Parameters
 
-- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
-; pointer to the vault
+- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html); pointer to the vault
 - `lArcSrvID`: Archive server ID
-- `eError`: [EdmGetOpError](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpError.html)
-
-; error code returned after getting coldstored version
+- `eError`: [EdmGetOpError](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpError.html); error code returned after getting coldstored version
 - `bsFileName`: Name of the file being restored from cold storage
 - `lDocID`: ID of the document being restored from cold storage
 - `lVersionNo`: Version number of the file being restored from cold storage
-- `lDateFmt`: SQL Server date format code (see Remarks in
-
-[IEdmVault11::CreateNewVault](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~CreateNewVault.html)
-
-)
+- `lDateFmt`: SQL Server date format code (see Remarks in [IEdmVault11::CreateNewVault](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~CreateNewVault.html))
 - `lDisplayErrCode`: Not implemented
 
 ## See Also
 
 [IEdmGetCSVersionDialog Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetCSVersionDialog.html)
-
 [IEdmGetCSVersionDialog Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetCSVersionDialog_members.html)

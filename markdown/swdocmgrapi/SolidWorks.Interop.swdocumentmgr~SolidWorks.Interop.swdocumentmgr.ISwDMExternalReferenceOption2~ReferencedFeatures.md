@@ -62,22 +62,16 @@ True if the method successfully executes, false if the method fails to execute
 
 ## VBA Syntax
 
-See
-
-[SwDMExternalReferenceOption2::ReferencedFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMExternalReferenceOption2~ReferencedFeatures.html)
-
-.
+See [SwDMExternalReferenceOption2::ReferencedFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMExternalReferenceOption2~ReferencedFeatures.html).
 
 ## Examples
 
 [Get External References for Part (C#)](Get_External_References_for_Part_Example_CSharp.htm)
-
 [Get External References for Part (VB.NET)](Get_External_References_for_Part_Example_VBNET.htm)
 
 ## See Also
 
 [ISwDMExternalReferenceOption2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMExternalReferenceOption2.html)
-
 [ISwDMExternalReferenceOption2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMExternalReferenceOption2_members.html)
 
 ## Availability

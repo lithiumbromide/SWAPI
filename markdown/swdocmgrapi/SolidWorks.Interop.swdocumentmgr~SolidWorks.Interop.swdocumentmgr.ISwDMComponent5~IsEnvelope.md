@@ -46,22 +46,16 @@ True if this component is an envelope, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent5::IsEnvelope](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent5~IsEnvelope.html)
-
-.
+See [SwDMComponent5::IsEnvelope](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent5~IsEnvelope.html).
 
 ## Examples
 
 [Get Whether Component Is Envelope And Excluded From BOM (VB.NET)](Get_Whether_Component_Is_Envelope_And_Excluded_From_BOM_Example_VBNET.htm)
-
 [Get Whether Component Is Envelope And Excluded From BOM (C#)](Get_Whether_Component_Is_Envelope_And_Excluded_From_BOM_Example_CSharp.htm)
 
 ## See Also
 
 [ISwDMComponent5 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent5.html)
-
 [ISwDMComponent5 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent5_members.html)
 
 ## Availability

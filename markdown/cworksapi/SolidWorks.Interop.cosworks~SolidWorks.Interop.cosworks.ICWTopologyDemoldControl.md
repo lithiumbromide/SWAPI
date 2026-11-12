@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyDemoldControl Interface
 
-Allows access to a de-mold manufacturing control in a topology study.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows access to a de-mold manufacturing control in a topology study. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +39,7 @@ public interface class ICWTopologyDemoldControl
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl.html)
-
-.
+See [CWTopologyDemoldControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl.html).
 
 ## Examples
 
@@ -61,7 +49,7 @@ See
 
 De-mold manufacturing controls are casting restrictions during optimization that ensure a shape that can be extracted from a mold.
 
-See the**Manufacturing Controls**topic in the Simulation user-interface help for more information.
+See the **Manufacturing Controls** topic in the Simulation user-interface help for more information.
 
 ## Accessors
 
@@ -72,5 +60,4 @@ See the**Manufacturing Controls**topic in the Simulation user-interface help for
 ## See Also
 
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

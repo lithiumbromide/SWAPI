@@ -45,13 +45,7 @@ property System.double Glossy {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Specular factor of the lights reflected by the appearance
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Glossy](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Glossy.html)
-
-.
+See [RenderMaterial::Glossy](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Glossy.html).
 
 ## Remarks
 
@@ -72,5 +62,4 @@ Increasing Glossy makes reflections more visible.
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)

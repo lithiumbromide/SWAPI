@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBr
 
 # IBreakLine Interface
 
-Allows access to information about a break line in a
+Allows access to information about a break line in a [drawing view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html).
 
-[drawing view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,18 +41,12 @@ public interface class IBreakLine
 
 ## VBA Syntax
 
-See
-
-[BreakLine](ms-its:sldworksapivb6.chm::/sldworks~BreakLine.html)
-
-.
+See [BreakLine](ms-its:sldworksapivb6.chm::/sldworks~BreakLine.html).
 
 ## Examples
 
 [Create Break View (C#)](Create_Broken_View_Example_CSharp.htm)
-
 [Create Break View (VB.NET)](Create_Broken_View_Example_VBNET.htm)
-
 [Create Break View (VBA)](Create_Broken_View_Example_VB.htm)
 
 ## Remarks
@@ -65,7 +55,7 @@ A break line is represented graphically in a SOLIDWORKS drawing by a pair of lin
 
 ## Accessors
 
-[IView::GetBreakLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBreakLines.html)and[IView::IGetBreakLines Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetBreakLines.html)
+[IView::GetBreakLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBreakLines.html) and [IView::IGetBreakLines Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetBreakLines.html)
 
 [IView::InsertBreak Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~InsertBreak.html)
 
@@ -76,7 +66,5 @@ A break line is represented graphically in a SOLIDWORKS drawing by a pair of lin
 ## See Also
 
 [IBreakLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDrawingDoc::BreakView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~BreakView.html)

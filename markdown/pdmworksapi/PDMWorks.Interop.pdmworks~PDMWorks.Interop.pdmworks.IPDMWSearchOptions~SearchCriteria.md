@@ -48,16 +48,11 @@ property PDMWSearchCriteria^ SearchCriteria {
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchOptions::SearchCriteria](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~SearchCriteria.html)
-
-.
+See [PDMWSearchOptions::SearchCriteria](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~SearchCriteria.html).
 
 ## See Also
 
 [IPDMWSearchOptions Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions.html)
-
 [IPDMWSearchOptions Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions_members.html)
 
 ## Availability

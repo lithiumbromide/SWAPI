@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSaveIte
 
 # swSaveItemsPathError_e Enumeration
 
-Error return codes for
-
-[IAdvancedSaveAsOptions::ModifyItemsNameAndPath](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~ModifyItemsNameAndPath.html)
-
-.
+Error return codes for [IAdvancedSaveAsOptions::ModifyItemsNameAndPath](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~ModifyItemsNameAndPath.html).
 
 ## Syntax
 

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Provides access to all sketch relations.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,20 +41,13 @@ public interface class ISketchRelationManager
 
 ## VBA Syntax
 
-See
-
-[SketchRelationManager](ms-its:sldworksapivb6.chm::/sldworks~SketchRelationManager.html)
-
-.
+See [SketchRelationManager](ms-its:sldworksapivb6.chm::/sldworks~SketchRelationManager.html).
 
 ## Examples
 
 [Replace Sketch Relation (VBA)](Replace_Sketch_Relation_Example_VB.htm)
-
 [Get Sketch Relations (VBA)](Get_Sketch_Relations_Example_VB.htm)
-
 [Get Sketch Relations (VB.NET)](Get_Sketch_Relations_Example_VBNET.htm)
-
 [Get Sketch Relations (C#)](Get_Sketch_Relations_Example_CSharp.htm)
 
 ## Remarks
@@ -72,7 +65,5 @@ You can get the associated entities for each sketch relation and vice versa.
 ## See Also
 
 [ISketchRelationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISketchRelation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation.html)

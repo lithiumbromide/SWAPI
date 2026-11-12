@@ -59,35 +59,23 @@ System.bool GetEndPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `PDirDisp1`: Force end point
 - `PDirDisp2`: Force end point
-- `Type1`: Type of end point as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-- `Type2`: Type of end point as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `Type1`: Type of end point as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `Type2`: Type of end point as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SimulationForceFeatureData::GetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~GetEndPoints.html)
-
-.
+See [SimulationForceFeatureData::GetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~GetEndPoints.html).
 
 ## See Also
 
 [ISimulationForceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData.html)
-
 [ISimulationForceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData_members.html)
-
 [ISimulationForceFeatureData::SetEndPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~SetEndPoints.html)
 
 ## Availability

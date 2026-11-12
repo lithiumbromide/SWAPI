@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Sketch_Points_Selection_Mark_Example_VBNET.htm"
 
 # Get Sketch Point's Selection Mark Example (VB.NET)
 
-This example shows how to get the selection mark of a sketch
-point.
+This example shows how to get the selection mark of a sketch point.
 
 ```
 '------------------------------------------------

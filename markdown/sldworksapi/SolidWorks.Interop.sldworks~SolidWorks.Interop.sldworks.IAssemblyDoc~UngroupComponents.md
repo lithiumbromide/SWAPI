@@ -40,13 +40,7 @@ System.bool UngroupComponents()
 System.bool UngroupComponents();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,20 @@ True if the grouped components in the selected folder in the FeatureManager desi
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::UngroupComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~UngroupComponents.html)
-
-.
+See [AssemblyDoc::UngroupComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~UngroupComponents.html).
 
 ## Examples
 
 [Group and Ungroup Components (C#)](Group_Components_Example_CSharp.htm)
-
 [Group and Ungroup Components (VB.NET)](Group_Components_Example_VBNET.htm)
-
 [Group and Ungroup Components (VBA)](Group_Components_Example_VB.htm)
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IFeatureManager::GroupComponentInstances Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~GroupComponentInstances.html)
-
 [IAssemblyDoc::ReorderComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReorderComponents.html)
-
 [IAssemblyDoc::ReorganizeComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReorganizeComponents.html)
 
 ## Availability

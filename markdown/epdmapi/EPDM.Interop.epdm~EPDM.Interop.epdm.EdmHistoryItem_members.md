@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem_members.html
 
 # EdmHistoryItem Structure Members
 
-The following tables list the members exposed by[EdmHistoryItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html).
+The following tables list the members exposed by [EdmHistoryItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html).
 
 ## Public Fields
 
@@ -31,5 +31,4 @@ The following tables list the members exposed by[EdmHistoryItem](EPDM.Interop.ep
 ## See Also
 
 [EdmHistoryItem Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

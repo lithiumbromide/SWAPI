@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to the Comment folder in the FeatureManager design tree.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class ICommentFolder
 
 ## VBA Syntax
 
-See
-
-[CommentFolder](ms-its:sldworksapivb6.chm::/sldworks~CommentFolder.html)
-
-.
+See [CommentFolder](ms-its:sldworksapivb6.chm::/sldworks~CommentFolder.html).
 
 ## Examples
 
 [Get Comments in Comments Folder (C#)](Get_Comments_in_Comments_Folder_Example_CSharp.htm)
-
 [Get Comments in Comments Folder (VB.NET)](Get_Comments_in_Comments_Folder_Example_VBNET.htm)
-
 [Get Comments in Comments Folder (VBA)](Get_Comments_in_Comments_Folder_Example_VB.htm)
 
 ## Remarks
@@ -64,7 +58,7 @@ See
 
 ## Accessors
 
-[IFeature::GetSpecificFeature2 Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html)designcommand:name=edit,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute|c303'designcommand:name=delete,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute|c3685'
+[IFeature::GetSpecificFeature2 Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html)designcommand:name=edit,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute|c303' designcommand:name=delete,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute|c3685'
 
 ## Access Diagram
 
@@ -73,9 +67,6 @@ See
 ## See Also
 
 [ICommentFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IComment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComment.html)

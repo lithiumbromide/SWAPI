@@ -55,7 +55,7 @@ True if a variable is found, false if not
 
 ## Remarks
 
-To read a variable from a checked out file, call[IEdmEnumeratorVariable5::GetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar.html).
+To read a variable from a checked out file, call [IEdmEnumeratorVariable5::GetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetVar.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -65,7 +65,6 @@ To read a variable from a checked out file, call[IEdmEnumeratorVariable5::GetVar
 ## See Also
 
 [IEdmEnumeratorVariable6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6.html)
-
 [IEdmEnumeratorVariable6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable6_members.html)
 
 ## Availability

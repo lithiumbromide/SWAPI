@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetTranslationComponentsValues Method (ICWRestraint)
 
-Obsolete. Superseded by[ICWRestraint::GetTranslationComponentsValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetTranslationComponentsValues2.html).
+Obsolete. Superseded by [ICWRestraint::GetTranslationComponentsValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetTranslationComponentsValues2.html).
 
 ## Syntax
 
@@ -71,45 +71,23 @@ void GetTranslationComponentsValues(
 - `BVal1`: 1 to use DVal1, 0 to not
 - `BVal2`: 1 to use DVal2, 0 to not
 - `BVal3`: 1 to use DVal3, 0 to not
-- `DVal1`: (see
-
-Remarks
-
-)
-- `DVal2`: (see
-
-Remarks
-
-)
-- `DVal3`: (see
-
-Remarks
-
-)
+- `DVal1`: (see **Remarks**)
+- `DVal2`: (see **Remarks**)
+- `DVal3`: (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::GetTranslationComponentsValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetTranslationComponentsValues.html)
-
-.
+See [CWRestraint::GetTranslationComponentsValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetTranslationComponentsValues.html).
 
 ## Examples
 
-See the
-
-[ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
-examples.
+See the [ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html) examples.
 
 ## Remarks
 
-This method is valid for all[ICWRestraint::RestraintType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintType.html)s except:
+This method is valid for all [ICWRestraint::RestraintType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintType.html)s except:
 
-- [swsRestraintType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRestraintType_e.html)
-
-  .swsRestraintSymmetric
+- [swsRestraintType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRestraintType_e.html).swsRestraintSymmetric
 - swsRestraintType_e.swsRestaintTypeFixed
 - swsRestraintType_e.swsRestraintTypeImmovable
 
@@ -120,20 +98,15 @@ This method is valid for all[ICWRestraint::RestraintType](SolidWorks.Interop.cos
 | A flat face | DVal1 is in face direction 1, DVal2 is in face direction 2, and DVal3 is in the normal to the face. |
 | A model edge | DVal3 is along the edge. |
 
-Call[ICWRestraint::SetReferenceGeometry](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetReferenceGeometry.html)to set the direction reference of this restraint.
+Call [ICWRestraint::SetReferenceGeometry](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetReferenceGeometry.html) to set the direction reference of this restraint.
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
-
 [ICWRestraint::SetTranslationComponentsValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetTranslationComponentsValues.html)
-
 [ICWRestraint::GetRotationComponentsValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetRotationComponentsValues.html)
-
 [ICWRestraint::GetReverseDirections Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetReverseDirections.html)
-
 [ICWRestraint::Unit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~Unit.html)
 
 ## Availability

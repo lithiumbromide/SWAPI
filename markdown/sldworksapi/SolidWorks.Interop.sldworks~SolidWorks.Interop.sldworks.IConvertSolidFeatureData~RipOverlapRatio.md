@@ -45,13 +45,7 @@ property System.double RipOverlapRatio {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Default ratio for overlap and underlap rips; 0.0 <= Rip overlap ratio <= 1.0
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData::RipOverlapRatio](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~RipOverlapRatio.html)
-
-.
+See [ConvertSolidFeatureData::RipOverlapRatio](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~RipOverlapRatio.html).
 
 ## Examples
 
-See the
-
-[IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
-examples.
+See the [IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html) examples.
 
 ## See Also
 
 [IConvertSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
 
 ## Availability

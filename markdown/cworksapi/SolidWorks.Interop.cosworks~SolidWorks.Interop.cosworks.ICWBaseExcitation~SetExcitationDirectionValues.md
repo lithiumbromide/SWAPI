@@ -56,58 +56,29 @@ void SetExcitationDirectionValues(
 
 ### Parameters
 
-- `DVal1`: Excitation along plane direction 1 (see
-
-Remarks
-
-)
-- `DVal2`: Excitation along plane direction 2 (see
-
-Remarks
-
-)
-- `DVal3`: Excitation along plane direction 3 (see
-
-Remarks
-
-)
+- `DVal1`: Excitation along plane direction 1 (see **Remarks**)
+- `DVal2`: Excitation along plane direction 2 (see **Remarks**)
+- `DVal3`: Excitation along plane direction 3 (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWBaseExcitation::SetExcitationDirectionValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~SetExcitationDirectionValues.html)
-
-.
+See [CWBaseExcitation::SetExcitationDirectionValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~SetExcitationDirectionValues.html).
 
 ## Remarks
 
 For uniform base excitations, you can specify the direction of excitation by calling either:
 
-- this method,
-
-  [ICWBaseExcitation::SetExcitationDirections](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetExcitationDirections.html)
-
-  , and
-
-  [ICWBaseExcitation::SetExcitationReverseDirections](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~SetExcitationReverseDirections.html)
-
-  to explicitly specify the excitation direction components and values
+- this method, [ICWBaseExcitation::SetExcitationDirections](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetExcitationDirections.html), and [ICWBaseExcitation::SetExcitationReverseDirections](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~SetExcitationReverseDirections.html) to explicitly specify the excitation direction components and values
 
 - or -
 
-- [ICWBaseExcitation::SetDirectionEntityForUniformExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetDirectionEntityForUniformExcitation.html)
-
-  to specify the face, edge, or plane in whose direction the excitation is uniformly applied.
+- [ICWBaseExcitation::SetDirectionEntityForUniformExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBaseExcitation~SetDirectionEntityForUniformExcitation.html) to specify the face, edge, or plane in whose direction the excitation is uniformly applied.
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
-
 [ICWBaseExcitation::GetExcitationDirectionValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~GetExcitationDirectionValues.html)
-
 [ICWBaseExcitation::Unit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation~Unit.html)
 
 ## Availability

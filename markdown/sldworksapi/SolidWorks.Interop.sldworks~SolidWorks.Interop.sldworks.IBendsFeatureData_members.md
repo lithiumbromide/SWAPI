@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBe
 
 # IBendsFeatureData Interface Members
 
-The following tables list the members exposed by[IBendsFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendsFeatureData.html).
+The following tables list the members exposed by [IBendsFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendsFeatureData.html).
 
 ## Public Properties
 
@@ -42,7 +42,5 @@ The following tables list the members exposed by[IBendsFeatureData](SolidWorks.I
 ## See Also
 
 [IBendsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendsFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertSheetMetal3dBend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSheetMetal3dBend.html)

@@ -41,7 +41,6 @@ Component representation
 ## See Also
 
 [IEdmSWBomRow Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomRow.html)
-
 [IEdmSWBomRow Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomRow_members.html)
 
 ## Availability

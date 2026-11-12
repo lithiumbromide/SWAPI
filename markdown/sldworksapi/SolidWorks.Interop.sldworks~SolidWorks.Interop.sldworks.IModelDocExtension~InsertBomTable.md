@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertBomTable Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::InsertBomTable2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertBomTable2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::InsertBomTable2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertBomTable2.html).
 
 ## Syntax
 
@@ -67,31 +63,15 @@ BomTableAnnotation^ InsertBomTable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TemplateName`: Path and name of BOM table template (see
-
-Remarks
-
-)
+- `TemplateName`: Path and name of BOM table template (see **Remarks**)
 - `X`: X coordinate for the placement of the BOM table
 - `Y`: Y coordinate for the placement of the BOM table
-- `BomType`: Type of BOM table as defined by
-
-[swBomType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomType_e.html)
-- `ConfigurationName`: Name of the configuration for this BOM table (see
-
-Remarks
-
-)
+- `BomType`: Type of BOM table as defined by [swBomType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomType_e.html)
+- `ConfigurationName`: Name of the configuration for this BOM table (see Remarks)
 
 ### Return Value
 
@@ -99,32 +79,25 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertBomTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertBomTable.html)
-
-.
+See [ModelDocExtension::InsertBomTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertBomTable.html).
 
 ## Examples
 
 [Insert BOM Table and Stacked Balloon (VB.NET)](Insert_BOM_Table_and_Stacked_Balloon_Example_VBNET.htm)
-
 [Insert BOM Table and Stacked Balloon (VBA)](Insert_BOM_Table_and_Stacked_Balloon_Example_VB.htm)
 
 ## Remarks
 
 The system will not default to the default configuration when you specify an empty string for Configuration. You must specify the configuration.
 
-By default, the BOM table templates are in the <install_dir>\lang\<language> folder and have a filename extension of.sldbomtbt. The template and table must be of the same type. For example, you could specifyC:\Program Files\SOLIDWORKS\lang\English\bom-standard.sldbomtbtfor TemplateName if you wanted to insert an English-version of the standard BOM table template.
+By default, the BOM table templates are in the <install_dir>\lang\<language> folder and have a filename extension of .sldbomtbt. The template and table must be of the same type. For example, you could specify C:\Program Files\SOLIDWORKS\lang\English\bom-standard.sldbomtbt for TemplateName if you wanted to insert an English-version of the standard BOM table template.
 
 If the BOM table is a parts-only or indented-style BOM and ConfigurationName is invalid, then the BOM is not created.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IView::InsertBomTable2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBomTable2.html)
 
 ## Availability

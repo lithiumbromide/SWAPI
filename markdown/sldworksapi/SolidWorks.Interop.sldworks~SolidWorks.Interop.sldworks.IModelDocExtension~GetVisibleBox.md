@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetVisibleBox Method (IModelDocExtension)
 
-Gets the visible bounding box set by
-
-[IModelDocExtension::SetVisibleBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetVisibleBox.html)
-
-for a part or an assembly.
+Gets the visible bounding box set by [IModelDocExtension::SetVisibleBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetVisibleBox.html) for a part or an assembly.
 
 ## Syntax
 
@@ -55,26 +51,12 @@ System.bool GetVisibleBox(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UpperLeft`: Upper-left
-
-[point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-of the bounding box
-- `LowerRight`: Lower-right
-
-[point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-of the bounding box
+- `UpperLeft`: Upper-left [point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) of the bounding box
+- `LowerRight`: Lower-right [point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) of the bounding box
 
 ### Return Value
 
@@ -82,11 +64,7 @@ True if the bounding box was set, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetVisibleBox](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetVisibleBox.html)
-
-.
+See [ModelDocExtension::GetVisibleBox](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetVisibleBox.html).
 
 ## Remarks
 
@@ -95,11 +73,8 @@ SOLIDWORKS 2007 FCS, Revision Number 15.0
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::RemoveVisibleBox Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RemoveVisibleBox.html)
-
 [IModelDocExtension::SetVisibleBox Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SetVisibleBox.html)
 
 ## Availability

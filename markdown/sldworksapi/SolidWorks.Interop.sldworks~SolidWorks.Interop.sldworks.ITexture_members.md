@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITe
 
 # ITexture Interface Members
 
-The following tables list the members exposed by[ITexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html).
+The following tables list the members exposed by [ITexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html).
 
 ## Public Properties
 
@@ -40,5 +40,4 @@ The following tables list the members exposed by[ITexture](SolidWorks.Interop.sl
 ## See Also
 
 [ITexture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

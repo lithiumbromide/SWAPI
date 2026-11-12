@@ -47,17 +47,11 @@ System.bool SetMouseDragMode(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Command`: Command mode that you want to check as defined in[swMouseDragMode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMouseDragMode_e.html)
+- `Command`: Command mode that you want to check as defined in [swMouseDragMode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMouseDragMode_e.html)
 
 ### Return Value
 
@@ -65,18 +59,12 @@ True if the specified command mode was set, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::SetMouseDragMode](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SetMouseDragMode.html)
-
-.
+See [SldWorks::SetMouseDragMode](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SetMouseDragMode.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetMouseDragMode Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetMouseDragMode.html)
 
 ## Availability

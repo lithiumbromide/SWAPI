@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetDocumentTemplate Method (ISldWorks)
 
-Gets the name of document template that can be used in
-
-[ISldWorks::NewDocument](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~NewDocument.html)
-
-or
-
-[ISldWorks::INewDocument2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~INewDocument2.html)
-
-.
+Gets the name of document template that can be used in [ISldWorks::NewDocument](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~NewDocument.html) or [ISldWorks::INewDocument2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~INewDocument2.html).
 
 ## Syntax
 
@@ -71,19 +63,13 @@ System.String^ GetDocumentTemplate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Mode`: Document type as defined in[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)(seeRemarks)
+- `Mode`: Document type as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html) (see Remarks)
 - `TemplateName`: Name of custom template including full directory path
-- `PaperSize`: Size of paper as defined in[swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
+- `PaperSize`: Size of paper as defined in [swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
 - `Width`: Width of paper; used only when paperSize is swDwgPapersUserDefined
 - `Height`: Height of paper; used only when paperSize is swDwgPapersUserDefined
 
@@ -93,11 +79,7 @@ Name of the selected document template
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetDocumentTemplate](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetDocumentTemplate.html)
-
-.
+See [SldWorks::GetDocumentTemplate](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetDocumentTemplate.html).
 
 ## Examples
 
@@ -113,13 +95,9 @@ See
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetTemplateSizes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetTemplateSizes.html)
-
 [ISldWorks::IGetTemplateSizes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetTemplateSizes.html)
-
 [ISldWorks::PreSelectDwgTemplateSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PreSelectDwgTemplateSize.html)
 
 ## Availability

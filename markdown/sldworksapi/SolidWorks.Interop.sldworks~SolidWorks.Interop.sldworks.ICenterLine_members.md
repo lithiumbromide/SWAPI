@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICe
 
 # ICenterLine Interface Members
 
-The following tables list the members exposed by[ICenterLine](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterLine.html).
+The following tables list the members exposed by [ICenterLine](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterLine.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[ICenterLine](SolidWorks.Interop
 ## See Also
 
 [ICenterLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterLine.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

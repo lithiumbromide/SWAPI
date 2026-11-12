@@ -45,35 +45,19 @@ property System.int LayoutSpacingType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pattern layout spacing type as defined in
-
-[swPatternLayoutSpacingType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutSpacingType_e.html)
+Pattern layout spacing type as defined in [swPatternLayoutSpacingType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutSpacingType_e.html)
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData::LayoutSpacingType](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~LayoutSpacingType.html)
-
-.
+See [FillPatternFeatureData::LayoutSpacingType](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~LayoutSpacingType.html).
 
 ## Examples
 
-See the
-
-[IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
-example.
+See the [IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html) example.
 
 ## Remarks
 
@@ -85,9 +69,7 @@ example.
 ## See Also
 
 [IFillPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
-
 [IFillPatternFeatureData::PatternLayoutType Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~PatternLayoutType.html)
 
 ## Availability

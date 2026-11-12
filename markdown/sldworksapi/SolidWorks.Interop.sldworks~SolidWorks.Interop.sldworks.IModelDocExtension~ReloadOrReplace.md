@@ -59,32 +59,22 @@ System.int ReloadOrReplace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ReadOnly`: True to set the model document read-only after reload or replace, false to allow write access
 - `ReplaceFileName`: Replacement model document; null or Nothing to reload the current model document
-- `DiscardChanges`: True to discard changes made to the current model document, false to abort operation if the model document was changed (see**Remarks**)
+- `DiscardChanges`: True to discard changes made to the current model document, false to abort operation if the model document was changed (see **Remarks**)
 - `ForceReload`: True to force the reload, false to not
 
 ### Return Value
 
-Error codes as defined by[swComponentReloadError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentReloadError_e.html)
+Error codes as defined by [swComponentReloadError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentReloadError_e.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ReloadOrReplace](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ReloadOrReplace.html)
-
-.
+See [ModelDocExtension::ReloadOrReplace](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ReloadOrReplace.html).
 
 ## Examples
 
@@ -94,20 +84,16 @@ See
 
 The model to reload or replace must be open in its own window frame.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+This method does not reload or replace the model if the top assembly has been opened invisibly. In that case, make the model visible by calling [IModelDoc2::Visible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Visible.html) before calling this method.
 
-This method does not reload or replace the model if the top assembly has been opened invisibly. In that case, make the model visible by calling[IModelDoc2::Visible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Visible.html)before calling this method.
+You must call this method after calling [IModelDoc2::ForceReleaseLocks](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ForceReleaseLocks.html), which detaches a file from the file system, to re-attach a detached file to the file system. If you do not call this method after calling IModelDoc2::ForceReleaseLocks, then you will experience problems with OLE objects (e.g., design tables). Any changes made to a file while it is detached are not preserved unless you save the file to disk before calling this method. Additionally if you set this method's DiscardChanges parameter to false and you made changes to a detached file that you are attempting to re-attach to the file system, then this method will fail. DiscardChanges must be set to true to re-attach a detached file.
 
-You must call this method after calling[IModelDoc2::ForceReleaseLocks](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ForceReleaseLocks.html), which detaches a file from the file system, to re-attach a detached file to the file system. If you do not call this method after calling IModelDoc2::ForceReleaseLocks, then you will experience problems with OLE objects (e.g., design tables). Any changes made to a file while it is detached are not preserved unless you save the file to disk before calling this method. Additionally if you set this method's DiscardChanges parameter to false and you made changes to a detached file that you are attempting to re-attach to the file system, then this method will fail. DiscardChanges must be set to true to re-attach a detached file.
-
-See[ISldWorks::CloseAndReopen](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~CloseAndReopen.html)to perform a similar function with drawing documents.
+See [ISldWorks::CloseAndReopen](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~CloseAndReopen.html) to perform a similar function with drawing documents.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::ReloadWithReferences Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReloadWithReferences.html)
 
 ## Availability

@@ -9,9 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SelectionManager Property (IModelDoc)
 
-Obsolete. Superseded by IModelDoc2::SelectionManager .
+Obsolete. Superseded by [IModelDoc2::SelectionManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectionManager.html).
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,24 +47,13 @@ property System.Object^ SelectionManager {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SelectionManager](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SelectionManager.html)
-
-.
+See [ModelDoc::SelectionManager](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SelectionManager.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

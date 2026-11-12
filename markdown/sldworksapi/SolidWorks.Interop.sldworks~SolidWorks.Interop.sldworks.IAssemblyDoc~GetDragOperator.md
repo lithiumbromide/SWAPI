@@ -40,13 +40,7 @@ System.object GetDragOperator()
 System.Object^ GetDragOperator();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Object for the drag operator
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetDragOperator](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetDragOperator.html)
-
-.
+See [AssemblyDoc::GetDragOperator](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetDragOperator.html).
 
 ## Examples
 
 [Rotate Assembly Component on Axis Using IDragOperator::Drag (C#)](Rotate_Assembly_Component_on_Axis_Example_CSharp.htm)
-
 [Rotate Assembly Component on Axis Using IDragOperator::Drag (VB.NET)](Rotate_Assembly_Component_on_Axis_Example_VBNET.htm)
-
 [Rotate Assembly Component on Axis Using IDragOperator::Drag (VBA)](Rotate_Assembly_Component_on_Axis_Example_VB.htm)
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::IGetDragOperator Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IGetDragOperator.html)
 
 ## Availability

@@ -35,22 +35,15 @@ property System.int WorkflowID {
 
 ### Property Value
 
-ID of
-
-[IEdmWorkflow6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6.html)
+ID of [IEdmWorkflow6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6.html)
 
 ## Remarks
 
-To obtain IEdmWorkflow6, call
-
-[IEdmVault5::GetObject](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject.html)
-
-with lObjectID set to this property.
+To obtain IEdmWorkflow6, call [IEdmVault5::GetObject](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject.html) with lObjectID set to this property.
 
 ## See Also
 
 [IEdmTransition6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition6.html)
-
 [IEdmTransition6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition6_members.html)
 
 ## Availability

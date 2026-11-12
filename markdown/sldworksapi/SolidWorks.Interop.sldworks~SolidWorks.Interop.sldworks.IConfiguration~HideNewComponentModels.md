@@ -45,13 +45,7 @@ property System.bool HideNewComponentModels {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True hides new components, false create new components as shown in this configur
 
 ## VBA Syntax
 
-See
-
-[Configuration::HideNewComponentModels](ms-its:sldworksapivb6.chm::/sldworks~Configuration~HideNewComponentModels.html)
-
-.
+See [Configuration::HideNewComponentModels](ms-its:sldworksapivb6.chm::/sldworks~Configuration~HideNewComponentModels.html).
 
 ## Examples
 
 [Change Configuration Properties (VBA)](Change_Configuration_Properties_Example_VB.htm)
-
 [Traverse Hierarchy of Configurations (VBA)](Traverse_Hierarchy_of_Configurations_Example_VB.htm)
 
 ## Remarks
@@ -80,9 +69,7 @@ This property applies only to assembly configurations. SOLIDWORKS always returns
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [SuppressNewComponentModels Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~SuppressNewComponentModels.html)
 
 ## Availability

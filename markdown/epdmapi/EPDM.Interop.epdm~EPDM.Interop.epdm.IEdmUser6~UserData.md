@@ -41,7 +41,6 @@ Arbitrary text data associated with this user
 ## See Also
 
 [IEdmUser6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser6.html)
-
 [IEdmUser6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser6_members.html)
 
 ## Availability

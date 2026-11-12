@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance_methods.htm
 
 # IEdmTaskInstance Interface Methods
 
-For a list of all members of this type, see[IEdmTaskInstance members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance_members.html).
+For a list of all members of this type, see [IEdmTaskInstance members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance_members.html).
 
 ## Public Methods
 
@@ -29,11 +29,7 @@ For a list of all members of this type, see[IEdmTaskInstance members](EPDM.Inter
 ## See Also
 
 [IEdmTaskInstance Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Task Add-in Sample](TaskSample.htm)
-
 [Standard Task Add-in](StandardTaskAddIn.htm)
-
 [IEdmTaskMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr.html)

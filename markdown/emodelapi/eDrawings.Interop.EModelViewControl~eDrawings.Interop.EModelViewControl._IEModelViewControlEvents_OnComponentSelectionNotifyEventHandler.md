@@ -9,7 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # _IEModelViewControlEvents_OnComponentSelectionNotifyEventHandler Delegate (eDrawings.Interop.EModelViewControl)
 
-Obsolete. Superseded by[IEModelViewControlEvent OnComponentSelectionNotify2](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnComponentSelectionNotify2EventHandler.html).
+Obsolete. Superseded by [IEModelViewControlEvent OnComponentSelectionNotify2](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnComponentSelectionNotify2EventHandler.html).
 
 ## Syntax
 
@@ -57,27 +57,20 @@ public delegate void _IEModelViewControlEvents_OnComponentSelectionNotifyEventHa
 
 ## VBA Syntax
 
-See
-
-[OnComponentSelectionNotify Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnComponentSelectionNotify_EV.html)
-
-.
+See [OnComponentSelectionNotify Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnComponentSelectionNotify_EV.html).
 
 ## Examples
 
 ##### VB.NET example:
 
+```vb
 Private Sub AxEModelViewControl1_OnComponentSelectionNotify(ByVal sender As System.Object, ByVal e As AxEModelView._IEModelViewControlEvents_OnComponentSelectionNotifyEvent) Handles AxEModelViewControl1.OnComponentSelectionNotify
-
 '' Access the event arguments
-
 e.ComponentName
-
 e.XCoordinate
-
 e.YCoordinate
-
 End Sub
+```
 
 ## Availability
 

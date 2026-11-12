@@ -45,13 +45,7 @@ property System.bool Suppressed {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True the relation is suppressed, false it is not
 
 ## VBA Syntax
 
-See
-
-[SketchRelation::Suppressed](ms-its:sldworksapivb6.chm::/sldworks~SketchRelation~Suppressed.html)
-
-.
+See [SketchRelation::Suppressed](ms-its:sldworksapivb6.chm::/sldworks~SketchRelation~Suppressed.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [ISketchRelation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation.html)
-
 [ISketchRelation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation_members.html)
 
 ## Availability

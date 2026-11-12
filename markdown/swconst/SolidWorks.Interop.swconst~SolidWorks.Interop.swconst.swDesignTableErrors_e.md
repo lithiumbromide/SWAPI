@@ -75,6 +75,7 @@ public enum class swDesignTableErrors_e : public System.Enum
 | swDTDimValueRangeError | 30 |
 | swDTInvalidComponentName | 28 |
 | swDTInvalidEquation | 32 |
+| swDTInvalidUserSpecifiedConfigName | 34 |
 | swDTNeedsComponent | 29 |
 
 ## See Also

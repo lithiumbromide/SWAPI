@@ -82,14 +82,10 @@ System.int RunThickAnalysis2(
 ### Parameters
 
 - `targetthickness`: Target thickness in meters
-- `thicklimit`: Thickness region limit in metersParamDesc
-- `treatcornerzero`: True to disregard corners sharp corners, false to notParamDesc
-- `resolution`: Resolution as defined in
-
-[gttckResolutionOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gttckResolutionOptions_e.html)
-- `lResultOptions`: Display the results or save results to a report as defined in
-
-[gtResultOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtResultOptions_e.html)
+- `thicklimit`: Thickness region limit in meters
+- `treatcornerzero`: True to disregard corners sharp corners, false to not
+- `resolution`: Resolution as defined in [gttckResolutionOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gttckResolutionOptions_e.html)
+- `lResultOptions`: Display the results or save results to a report as defined in [gtResultOptions_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtResultOptions_e.html)
 - `reportname`: Path where to save the results report
 - `vtAddToBinderOption`: True to add the results report to the Design Binder, false to not
 - `vtSaveResultsInEdwg`: True to save the results in eDrawings, false to not
@@ -97,17 +93,11 @@ System.int RunThickAnalysis2(
 
 ### Return Value
 
-Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis::RunThickAnalysis2](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~RunThickAnalysis2.html)
-
-.
+See [IThicknessAnalysis::RunThickAnalysis2](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~RunThickAnalysis2.html).
 
 ## Remarks
 
@@ -119,9 +109,7 @@ See
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
-
 [IThickAnalysis::RunThinAnalysis2 Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~RunThinAnalysis2.html)
 
 ## Availability

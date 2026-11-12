@@ -9,7 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # ICostFeature Interface Properties
 
-For a list of all members of this type, see[ICostFeature members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature_members.html).
+For a list of all members of this type, see [ICostFeature members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature_members.html).
 
 ## Public Properties
 
@@ -27,9 +27,6 @@ For a list of all members of this type, see[ICostFeature members](SolidWorks.Int
 ## See Also
 
 [ICostFeature Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature.html)
-
 [SolidWorks.Interop.sldcostingapi Namespace](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi_namespace.html)
-
 [ICostBody Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody.html)
-
 [ICostPart Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart.html)

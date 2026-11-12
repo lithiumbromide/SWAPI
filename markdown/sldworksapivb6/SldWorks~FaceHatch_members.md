@@ -1,6 +1,5 @@
 ---
-title: "FaceHatch Object
-Members"
+title: "FaceHatch Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FaceHatch_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FaceHatch_members.html"
 ---
 
-# FaceHatch Object
-Members
+# FaceHatch Object Members
 
 ## Public Properties
 

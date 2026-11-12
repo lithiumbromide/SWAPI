@@ -45,13 +45,7 @@ property System.String^ Caption {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Check box label
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageCheckbox::Caption](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCheckbox~Caption.html)
-
-.
+See [PropertyManagerPageCheckbox::Caption](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCheckbox~Caption.html).
 
 ## See Also
 
 [IPropertyManagerPageCheckbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCheckbox.html)
-
 [IPropertyManagerPageCheckbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCheckbox_members.html)
 
 ## Availability

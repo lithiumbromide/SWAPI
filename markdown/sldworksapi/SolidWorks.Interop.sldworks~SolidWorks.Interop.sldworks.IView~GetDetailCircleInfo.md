@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetDetailCircleInfo Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetDetailCircleInfo2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDetailCircleInfo2.html)
-
-and
-
-[IView::IGetDetailCircleInfo2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDetailCircleInfo2.html)
-
-.
+Obsolete. Superseded by [IView::GetDetailCircleInfo2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDetailCircleInfo2.html) and [IView::IGetDetailCircleInfo2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDetailCircleInfo2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetDetailCircleInfo()
 System.Object^ GetDetailCircleInfo();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::GetDetailCircleInfo](ms-its:sldworksapivb6.chm::/sldworks~View~GetDetailCircleInfo.html)
-
-.
+See [View::GetDetailCircleInfo](ms-its:sldworksapivb6.chm::/sldworks~View~GetDetailCircleInfo.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

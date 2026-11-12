@@ -62,12 +62,14 @@ CWStudy^ CreateNewStudy3(
 ### Parameters
 
 - `SName`: New study name
-- `NAnalysisType`: Type of study as defined in[swsAnalysisStudyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAnalysisStudyType_e.html)
-- `NStudySubOptions`: | If NAnalysisType is ... | Then NStudySubOptions is a sub-study as defined in ... |
-| --- | --- |
-| swsAnalysisStudyType_e.swsAnalysisStudyTypeDynamic | swsDynamicAnalysisSubType_e |
-| swsAnalysisStudyType_e.swsAnalysisStudyTypeFatigue | swsFatigueStudySubOption_e |
-- `Errors`: Error as defined in[swsStudyError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStudyError_e.html)
+- `NAnalysisType`: Type of study as defined in [swsAnalysisStudyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAnalysisStudyType_e.html)
+- `NStudySubOptions`:
+
+  | If NAnalysisType is ... | Then NStudySubOptions is a sub-study as defined in ... |
+  | --- | --- |
+  | swsAnalysisStudyType_e.swsAnalysisStudyTypeDynamic | swsDynamicAnalysisSubType_e |
+  | swsAnalysisStudyType_e.swsAnalysisStudyTypeFatigue | swsFatigueStudySubOption_e |
+- `Errors`: Error as defined in [swsStudyError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStudyError_e.html)
 
 ### Return Value
 
@@ -75,46 +77,28 @@ CWStudy^ CreateNewStudy3(
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::CreateNewStudy3](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~CreateNewStudy3.html)
-
-.
+See [CWStudyManager::CreateNewStudy3](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~CreateNewStudy3.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
-
 [Create Fatigue Study (VBA)](Create_Fatigue_Study_Example_VB.htm)
-
 [Create Fatigue Study (VB.NET)](Create_Fatigue_Study_Example_VBNET.htm)
-
 [Create Fatigue Study (C#)](Create_Fatigue_Study_Example_CSharp.htm)
-
 [Add Remote Load (VBA)](Add_Remote_Load_Example_VB.htm)
-
 [Add Remote Load (VB.NET)](Add_Remote_Load_Example_VBNET.htm)
-
 [Add Remote Load (C#)](Add_Remote_Load_Example_CSharp.htm)
-
 [Create Drop Test Study (VBA)](Create_Drop_Test_Study_Example_VB.htm)
-
 [Create Drop Test Study (VB.NET)](Create_Drop_Test_Study_Example_VBNET.htm)
-
 [Create Drop Test Study (C#)](Create_Drop_Test_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudyManager::DuplicateStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DuplicateStudy.html)
-
 [ICWStudyManager::ConvertStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ConvertStudy.html)
 
 ## Availability

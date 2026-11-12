@@ -59,24 +59,14 @@ View^ DropDrawingViewFromPalette2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `PaletteViewName`: Name of the drawing view to move to the drawing sheet
-- `X`: x coordinate where to drop the drawing viewParamDesc
+- `X`: x coordinate where to drop the drawing view
 - `Y`: y coordinate where to drop the drawing view
-- `Z`: z coordinate where to drop the drawing view
-
-ParamDesc
-
-; this coordinate is always 0
+- `Z`: z coordinate where to drop the drawing view; this coordinate is always 0
 
 ### Return Value
 
@@ -84,22 +74,14 @@ ParamDesc
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::DropDrawingViewFromPalette2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~DropDrawingViewFromPalette2.html)
-
-.
+See [DrawingDoc::DropDrawingViewFromPalette2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~DropDrawingViewFromPalette2.html).
 
 ## Examples
 
 [Drop Drawing Views from View Palette (VBA)](Drop_Drawing_Views_from_View_Palette_Example_VB.htm)
-
 [Drop First Drawing View from View Palette (VBA)](Drop_First_Drawing_View_from_View_Palette_Example_VB.htm)
-
 [Get the Number of Lines in Flat-pattern Drawing View's Boundary-box Sketch (C#)](Get_Number_of_Lines_Flat-pattern_Drawing_View_Boundary-box_Sketch_Example_CSharp.htm)
-
 [Get the Number of Lines in Flat-pattern Drawing View's Boundary-box Sketch (VB.NET)](Get_Number_of_Lines_Flat-pattern_Drawing_View_Boundary-box_Sketch_Example_VBNET.htm)
-
 [Get the Number of Lines in Flat-pattern Drawing View's Boundary-box Sketch (VBA)](Get_Number_of_Lines_Flat-pattern_Drawing_View_Boundary-box_Sketch_Example_VB.htm)
 
 ## Remarks
@@ -109,11 +91,8 @@ The x, y, and z coordinates are in paper space. Thus, the drawing sheet scale is
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::GenerateViewPaletteViews Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~GenerateViewPaletteViews.html)
-
 [IDrawingDoc::GetDrawingPaletteViewNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~GetDrawingPaletteViewNames.html)
 
 ## Availability

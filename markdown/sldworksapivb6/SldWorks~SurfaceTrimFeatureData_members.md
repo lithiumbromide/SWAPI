@@ -1,6 +1,5 @@
 ---
-title: "SurfaceTrimFeatureData Object
-Members"
+title: "SurfaceTrimFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfaceTrimFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfaceTrimFeatureData_members.html"
 ---
 
-# SurfaceTrimFeatureData Object
-Members
+# SurfaceTrimFeatureData Object Members
 
 ## Public Methods
 

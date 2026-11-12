@@ -71,29 +71,17 @@ Feature^ InsertEndCapFeature2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Depth`: Depth of the end cap
 - `BIsGivenOffset`: True if end cap is offset, false if not
 - `BIsChamfer`: True if end cap feature is chamfered, false If not
-
-ParamDesc
 - `OffsetValue`: Value by which to offset the end cap
 - `WallThicknessRatio`: Wall thickness ratio
 - `ChamferValue`: Angle of the chamfer
-- `Faces`: Array of
-
-[Face2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-objects
+- `Faces`: Array of [Face2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) objects
 
 ### Return Value
 
@@ -101,34 +89,22 @@ objects
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertEndCapFeature2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertEndCapFeature2.html)
-
-.
+See [FeatureManager::InsertEndCapFeature2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertEndCapFeature2.html).
 
 ## Examples
 
 [Insert Weldment Features (VBA)](Insert_Weldment_Features_Example_VB.htm)
-
 [Insert Weldment Features (VB.NET)](Insert_Weldment_Features_Example_VBNET.htm)
-
 [Insert Weldment Features (C#)](Insert_Weldment_Features_Example_CSharp.htm)
 
 ## Remarks
 
-Call
-
-[IFeatureManager::InsertEndCapFeature3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertEndCapFeature3.html)
-
-if you want to pre-select the faces to end-cap in the graphics area.
+Call [IFeatureManager::InsertEndCapFeature3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertEndCapFeature3.html) if you want to pre-select the faces to end-cap in the graphics area.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IEndCapFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData.html)
 
 ## Availability

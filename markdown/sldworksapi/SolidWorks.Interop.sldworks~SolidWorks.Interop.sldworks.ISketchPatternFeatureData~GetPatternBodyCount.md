@@ -40,13 +40,7 @@ System.int GetPatternBodyCount()
 System.int GetPatternBodyCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,18 @@ Number of seed bodies
 
 ## VBA Syntax
 
-See
-
-[SketchPatternFeatureData::GetPatternBodyCount](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~GetPatternBodyCount.html)
-
-.
+See [SketchPatternFeatureData::GetPatternBodyCount](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~GetPatternBodyCount.html).
 
 ## Examples
 
-See the
-
-[ISketchPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)
-
-examples.
+See the [ISketchPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html) examples.
 
 ## See Also
 
 [ISketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)
-
 [ISketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData_members.html)
-
 [ISketdhPatternFeatureData::IGetPatternBodyArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~IGetPatternBodyArray.html)
-
 [ISketdhPatternFeatureData::PatternBodyArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~PatternBodyArray.html)
-
 [ISketchPatternFeatureData:ISetPatternBodyArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~ISetPatternBodyArray.html)
 
 ## Availability

@@ -11,203 +11,82 @@ source: "sldworksapi/Get_Selected_Feature_Example_CPlusPlus_COM.htm"
 
 ## Get Selected Feature Example
 
-This example shows how to get the selected
-feature and its type, and return the object to the calling method.
+This example shows how to get the selected feature and its type, and return the object to the calling method.
 
-LPFEATURE CGetSelectedFeatureApp::GetSelectedFeature1(
-LPMODELDOC2 pModelDoc, CString* Message )
-
+```vb
+LPFEATURE CGetSelectedFeatureApp::GetSelectedFeature1( LPMODELDOC2 pModelDoc, CString* Message )
 {
+ long lres = 0;
+ LPSELECTIONMGR pSelectMgr = NULL;
+ HRESULT hres =NULL;
+ LPUNKNOWN pUnk = NULL;
+ LPFEATURE pSelectedFeature = NULL;
+ BSTR bFeatureTypeName;
+ BSTR bFeatureName;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}long
-lres = 0;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}LPSELECTIONMGR
-pSelectMgr = NULL;kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}HRESULT
-hres =NULL;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}LPUNKNOWN
-pUnk = NULL;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}LPFEATURE
-pSelectedFeature = NULL;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}BSTR
-bFeatureTypeName;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}BSTR
-bFeatureName;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Get the Selection Manager for this doc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}if(S_OK
-!= pModelDoc->get_ISelectionManager(
-&pSelectMgr ) ||
-
+ // Get the Selection Manager for this doc
+ if(S_OK != pModelDoc->get_ISelectionManager( &pSelectMgr ) ||
 pSelectMgr == NULL)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}{
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}*Message
-= "Unable to get the Selection Manager.\r\n";
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}else
-if(S_OK != pSelectMgr->GetSelectedObjectType(
-1, &lres )
-
+ {
+  *Message = "Unable to get the Selection Manager.\r\n";
+ }
+ else if(S_OK != pSelectMgr->GetSelectedObjectType( 1, &lres )
 || lres == 0)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}{
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Get the Selected Object type
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}*Message
-= "No Feature is currently selected.\r\n";
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}else
-if(S_OK != pSelectMgr->IGetSelectedObject2(
-1, &pUnk )
-
+ {
+ // Get the Selected Object type
+  *Message = "No Feature is currently selected.\r\n";
+ }
+ else if(S_OK != pSelectMgr->IGetSelectedObject2( 1, &pUnk )
 || pUnk == NULL)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}{
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Get the Selected Object of Unknown Type
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}*Message
-= "Unable to get the selected Object.\r\n";
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}else
-if(S_OK != pUnk->QueryInterface( IID_IFeature,
-
-(LPVOID *)&pSelectedFeature) || pSelectedFeature ==
-NULL)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}{
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Get the Selected Feature
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}*Message
-= "Unable to get the selected Feature.\r\n";
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}else
-if(S_OK != pSelectedFeature->GetTypeName(&bFeatureTypeName)||
-
+ {
+ // Get the Selected Object of Unknown Type
+  *Message = "Unable to get the selected Object.\r\n";
+ }
+ else if(S_OK != pUnk->QueryInterface( IID_IFeature,
+(LPVOID *)&pSelectedFeature) || pSelectedFeature == NULL)
+ {
+ // Get the Selected Feature
+  *Message = "Unable to get the selected Feature.\r\n";
+ }
+ else if(S_OK != pSelectedFeature->GetTypeName(&bFeatureTypeName)||
 bFeatureTypeName == NULL)
+ {
+ // Get the Selected Feature Type Name
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}{
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Get the Selected Feature Type Name
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}*Message
-= "Unable to get the selected Feature Type Name.\r\n";
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}else
-if(S_OK != pSelectedFeature->get_Name(&bFeatureName)||
-
+  *Message = "Unable to get the selected Feature Type Name.\r\n";
+ }
+ else if(S_OK != pSelectedFeature->get_Name(&bFeatureName)||
 bFeatureName == NULL)
+ {
+ // Get the Selected Feature Name
+  *Message = "Unable to get the selected Feature Name.\r\n";
+ }
+ else
+ {
+  // Everything is okay. Clean up and report back with object.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}{
+  // Release the Selection Manager
+  pSelectMgr->Release();
+  // Release the unknown object
+  pUnk->Release();
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Get the Selected Feature Name
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}*Message
-= "Unable to get the selected Feature Name.\r\n";
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}else
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}{
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Everything is okay. Clean up and report back with object.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Release the Selection Manager
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pSelectMgr->Release();
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Release the unknown object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}pUnk->Release();
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Form the return message
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CString
-FeatureTypeName(bFeatureTypeName);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}CString
-FeatureName(bFeatureName);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}*Message
-= "Found a Feature called " + FeatureName + " of type "
-
+  // Form the return message
+  CString FeatureTypeName(bFeatureTypeName);
+  CString FeatureName(bFeatureName);
+  *Message = "Found a Feature called " + FeatureName + " of type "
 + FeatureTypeName + ".\r\n";
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}SysFreeString(bFeatureTypeName);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}SysFreeString(bFeatureName);
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Return with Feature object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}return
-pSelectedFeature;kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Something went wrong. Clean up and report back without object.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Release the Selection Manager
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}if(pSelectMgr)pSelectMgr->Release();
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Release the unknown object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}if(pUnk)pUnk->Release();
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Return with no object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}return
-NULL;
-
+  SysFreeString(bFeatureTypeName);
+  SysFreeString(bFeatureName);
+  // Return with Feature object
+  return pSelectedFeature;
+ }
+ // Something went wrong. Clean up and report back without object.
+ // Release the Selection Manager
+ if(pSelectMgr)pSelectMgr->Release();
+ // Release the unknown object
+ if(pUnk)pUnk->Release();
+ // Return with no object
+ return NULL;
 }
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+```

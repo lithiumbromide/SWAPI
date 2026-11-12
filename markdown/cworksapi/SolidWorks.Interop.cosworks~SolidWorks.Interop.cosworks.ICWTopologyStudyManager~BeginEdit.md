@@ -41,32 +41,19 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~BeginEdit.html)
-
-.
+See [CWTopologyStudyManager::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
-example.
+See the [ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html) example.
 
 ## Remarks
 
-To end editing this topology study manager, call
-
-[ICWTopologyStudyManager::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager~EndEdit.html)
-
-.
+To end editing this topology study manager, call [ICWTopologyStudyManager::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager~EndEdit.html).
 
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
 
 ## Availability

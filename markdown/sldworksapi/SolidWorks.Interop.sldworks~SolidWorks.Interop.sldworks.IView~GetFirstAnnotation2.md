@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetFirstAnnotation2 Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetFirstAnnotation3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstAnnotation3.html)
-
-.
+Obsolete. Superseded by [IView::GetFirstAnnotation3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstAnnotation3.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetFirstAnnotation2()
 System.Object^ GetFirstAnnotation2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::GetFirstAnnotation2](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstAnnotation2.html)
-
-.
+See [View::GetFirstAnnotation2](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstAnnotation2.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

@@ -63,30 +63,14 @@ System.bool SetOverrideMomentsOfInertiaValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ReferenceFrame`: Frame of reference as defined in
-
-[swMomentsOfInertiaReferenceFrame_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMomentsOfInertiaReferenceFrame_e.html)
+- `ReferenceFrame`: Frame of reference as defined in [swMomentsOfInertiaReferenceFrame_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMomentsOfInertiaReferenceFrame_e.html)
 - `CoordinateSystemName`: Name of coordinate system; valid only if ReferenceFrame = swMomentsOfInertiaReferenceFrame_e.swMomentsOfInertiaReferenceFrame_UserCoordinateSystem
-- `Value`: Array of nine doubles:
-
-[
-
-Lxx, Lxy, Lxz, Lyx, Lyy, Lyz, Lzx, Lzy, Lzz
-
-]
-- `Config_option`: Configuration option as defined in
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Value`: Array of nine doubles: [ Lxx, Lxy, Lxz, Lyx, Lyy, Lyz, Lzx, Lzy, Lzz ]
+- `Config_option`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `Config_names`: Array of configuration names; valid only if Config_option = swInConfigurationOpts_e.swSpecifyConfiguration
 
 ### Return Value
@@ -95,28 +79,19 @@ True if the moments of inertia are overridden, false if not
 
 ## VBA Syntax
 
-See
-
-[MassProperty::SetOverrideMomentsOfInertiaValue](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~SetOverrideMomentsOfInertiaValue.html)
-
-.
+See [MassProperty::SetOverrideMomentsOfInertiaValue](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~SetOverrideMomentsOfInertiaValue.html).
 
 ## Examples
 
 [Get and Override Mass Properties (VBA)](Get_Mass_Properties_using_MassProperty_Object_Example_VB.htm)
-
 [Get and Override Mass Properties (VB.NET)](Get_Mass_Properties_Using_IMassProperty_Example_VBNET.htm)
-
 [Get and Override Mass Properties (C#)](Get_Mass_Properties_Using_IMassProperty_Example_CSharp.htm)
 
 ## See Also
 
 [IMassProperty Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty.html)
-
 [IMassProperty Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty_members.html)
-
 [IMassProperty::ISetOverrideMomentsOfInertiaValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~ISetOverrideMomentsOfInertiaValue.html)
-
 [IMassProperty::OverrideMomentsOfInertia Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~OverrideMomentsOfInertia.html)
 
 ## Availability

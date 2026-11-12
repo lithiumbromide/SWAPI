@@ -82,11 +82,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertFlatnessGeoTol::GetPerUnitArea](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertFlatnessGeoTol~GetPerUnitArea.html)
-
-.
+See [SwDMDimXpertFlatnessGeoTol::GetPerUnitArea](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertFlatnessGeoTol~GetPerUnitArea.html).
 
 ## Examples
 
@@ -95,7 +91,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertFlatnessGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertFlatnessGeoTol.html)
-
 [ISwDMDimXpertFlatnessGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertFlatnessGeoTol_members.html)
 
 ## Availability

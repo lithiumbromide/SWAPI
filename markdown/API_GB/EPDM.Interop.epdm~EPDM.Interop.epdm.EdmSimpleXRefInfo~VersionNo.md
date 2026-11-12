@@ -35,5 +35,4 @@ System.int VersionNo
 ## See Also
 
 [EdmSimpleXRefInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo.html)
-
 [EdmSimpleXRefInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo_members.html)

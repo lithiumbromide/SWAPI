@@ -45,32 +45,19 @@ property System.int TabEdgesType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Tab edge treatment as defined in
-
-[swTabEdgesType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabEdgesType_e.html)
+Tab edge treatment as defined in [swTabEdgesType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabEdgesType_e.html)
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::TabEdgesType](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabEdgesType.html)
-
-.
+See [TabAndSlotGroupData::TabEdgesType](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabEdgesType.html).
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

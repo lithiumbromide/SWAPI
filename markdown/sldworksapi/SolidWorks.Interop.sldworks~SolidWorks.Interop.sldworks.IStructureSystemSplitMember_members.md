@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISt
 
 # IStructureSystemSplitMember Interface Members
 
-The following tables list the members exposed by[IStructureSystemSplitMember](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember.html).
+The following tables list the members exposed by [IStructureSystemSplitMember](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember.html).
 
 ## Public Properties
 
@@ -36,5 +36,4 @@ The following tables list the members exposed by[IStructureSystemSplitMember](So
 ## See Also
 
 [IStructureSystemSplitMember Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

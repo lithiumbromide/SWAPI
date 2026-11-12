@@ -1,6 +1,5 @@
 ---
-title: "SketchHatch Object
-Members"
+title: "SketchHatch Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchHatch_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchHatch_members.html"
 ---
 
-# SketchHatch Object
-Members
+# SketchHatch Object Members
 
 ## Public Methods
 

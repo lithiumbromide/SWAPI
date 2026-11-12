@@ -9,90 +9,35 @@ source: "swconst/ViewHideShow.htm"
 
 # View > Hide / Show
 
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comment |
 | --- | --- | --- | --- |
-| All Annotations | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAllAnnotations,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAllAnnotations,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display all annotations; for assemblies only |
-| Component Envelopes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayComponentEnvelopes ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayComponentEnvelopes, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | For assemblies only |
-| Top Level Envelopes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayTopLevelEnvelopes ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayTopLevelEnvelopes, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | For assemblies only |
-| Axes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAxes,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAxes,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display axes |
-| Temporary Axes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayTemporaryAxes,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayTemporaryAxes,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display temporary axes |
-| Cameras | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCameras,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCameras,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display cameras |
-| Component Annotations | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCompAnnotations,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCompAnnotations,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display
-component annotations; for assemblies only |
-| Coordinate Systems | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCoordSystems,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCoordSystems,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display coordinate systems |
-| Curves | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCurves,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCurves,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display curves |
-| Datum Reference Frame | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayDatumCoordSystems, swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swDisplayDatumCoordSystems, swUserPreferenceOption_e.swDetailingNoOptionSpecified,
-< Value >) | Boolean value | Specifies whether to display datum coordinate systems |
-| Dimension Names | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swShowDimensionNames,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swShowDimensionNames,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display dimension names |
-| Hide All Types | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swViewDisplayHideAllTypes,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swViewDisplayHideAllTypes,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to hide all items in table |
-| Lights | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayLights,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayLights,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display lights |
-| Live Section Planes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayLiveSections,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayLiveSections,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display live sections |
-| Origins | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayOrigins,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayOrigins,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display origins |
-| Parting Lines | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayPartingLines,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayPartingLines,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display parting lines |
-| Planes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayPlanes,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayPlanes,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display planes |
-| Points | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayReferencePoints2,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayReferencePoints2,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display reference points |
-| Routing Points | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayRoutePoints,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayRoutePoints,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display routing points |
-| Sketches | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplaySketches,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplaySketches,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies to display sketches |
-| Bend Lines | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayBendLines,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayBendLines,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
-| Simulation Symbols | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplaySimulationSymbol,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplaySimulationSymbol,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display
-simulation symbols (for SOLIDWORKS Simulation only) |
-| Sketch Dimensions | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHideShowSketchDimensions ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw HideShowSketchDimensions, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | Specifies whether to display sketch dimensions |
-| Sketch Planes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplaySketchPlanes ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplaySketchPlanes , swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | Specifies whether to display sketch planes |
-| Weld Bead | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayWeldBead ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayWeldBead , swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | Specifies whether to display weld beads |
-| Motion Symbols | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayMotionSymbol ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayMotionSymbol, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | For assemblies only |
-| Markups | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayMarkups ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayMarkups, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value |  |
-| Decals | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayDecals ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayDecals , swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | Specifies whether to display decals |
-| Grid | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw GridDisplay ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw GridDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | Specifies whether to display a grid |
-| Sketch Relations | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swViewSketchRelations,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swViewSketchRelations,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to
-display sketch relation symbols |
+| All Annotations | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAllAnnotations, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAllAnnotations, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display all annotations; for assemblies only |
+| Component Envelopes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayComponentEnvelopes , swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayComponentEnvelopes, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | For assemblies only |
+| Top Level Envelopes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayTopLevelEnvelopes , swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayTopLevelEnvelopes, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | For assemblies only |
+| Axes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAxes, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayAxes, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display axes |
+| Temporary Axes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayTemporaryAxes, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayTemporaryAxes, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display temporary axes |
+| Cameras | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCameras, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCameras, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display cameras |
+| Component Annotations | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCompAnnotations, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCompAnnotations, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display component annotations; for assemblies only |
+| Coordinate Systems | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCoordSystems, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCoordSystems, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display coordinate systems |
+| Curves | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCurves, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCurves, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display curves |
+| Datum Reference Frame | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayDatumCoordSystems, swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swDisplayDatumCoordSystems, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display datum coordinate systems |
+| Dimension Names | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swShowDimensionNames, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swShowDimensionNames, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display dimension names |
+| Hide All Types | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swViewDisplayHideAllTypes, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swViewDisplayHideAllTypes, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to hide all items in table |
+| Lights | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayLights, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayLights, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display lights |
+| Live Section Planes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayLiveSections, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayLiveSections, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display live sections |
+| Origins | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayOrigins, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayOrigins, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display origins |
+| Parting Lines | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayPartingLines, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayPartingLines, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display parting lines |
+| Planes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayPlanes, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayPlanes, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display planes |
+| Points | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayReferencePoints2, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayReferencePoints2, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display reference points |
+| Routing Points | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayRoutePoints, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayRoutePoints, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display routing points |
+| Sketches | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplaySketches, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplaySketches, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies to display sketches |
+| Bend Lines | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayBendLines, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayBendLines, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
+| Simulation Symbols | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplaySimulationSymbol, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplaySimulationSymbol, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display simulation symbols (for SOLIDWORKS Simulation only) |
+| Sketch Dimensions | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHideShowSketchDimensions , swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw HideShowSketchDimensions, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | Specifies whether to display sketch dimensions |
+| Sketch Planes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplaySketchPlanes , swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplaySketchPlanes , swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | Specifies whether to display sketch planes |
+| Weld Bead | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayWeldBead , swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayWeldBead , swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | Specifies whether to display weld beads |
+| Motion Symbols | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayMotionSymbol , swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayMotionSymbol, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | For assemblies only |
+| Markups | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayMarkups , swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayMarkups, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value |  |
+| Decals | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw DisplayDecals , swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw DisplayDecals , swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | Specifies whether to display decals |
+| Grid | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.sw GridDisplay , swUserPreferenceOption_e.swDetailingNoOptionSpecified ) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. sw GridDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified , < Value >) | Boolean value | Specifies whether to display a grid |
+| Sketch Relations | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swViewSketchRelations, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swViewSketchRelations, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display sketch relation symbols |

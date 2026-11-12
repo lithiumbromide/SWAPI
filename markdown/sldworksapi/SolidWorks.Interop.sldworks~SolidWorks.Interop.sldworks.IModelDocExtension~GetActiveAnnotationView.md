@@ -40,13 +40,7 @@ System.object GetActiveAnnotationView()
 System.Object^ GetActiveAnnotationView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetActiveAnnotationView](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetActiveAnnotationView.html)
-
-.
+See [ModelDocExtension::GetActiveAnnotationView](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetActiveAnnotationView.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

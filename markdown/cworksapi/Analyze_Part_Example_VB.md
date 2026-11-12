@@ -9,11 +9,9 @@ source: "cworksapi/Analyze_Part_Example_VB.htm"
 
 # Analyze Part Example (VBA)
 
-This example shows how to perform a static analysis of a part and plot nodal
-strain results.
+This example shows how to perform a static analysis of a part and plot nodal strain results.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
 '---------------------------------------------------------------------------

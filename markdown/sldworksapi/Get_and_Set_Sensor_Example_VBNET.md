@@ -9,9 +9,7 @@ source: "sldworksapi/Get_and_Set_Sensor_Example_VBNET.htm"
 
 # Get and Set Sensor Example (VB.NET)
 
-This example shows how to get a Measurement (dimension) sensor, resets
-its value to set off an alert, and fire notification before resetting
-the value.
+This example shows how to get a Measurement (dimension) sensor, resets its value to set off an alert, and fire notification before resetting the value.
 
 ```vb
 '-------------------------------------------------------------------
@@ -45,59 +43,59 @@ Imports System.Collections
 
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public WithEvents swPart As PartDoc
+    Public WithEvents swPart As PartDoc
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub main()
+    Public Sub main()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSelMgr As SelectionMgr
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swFeat As Feature
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSensor As Sensor
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swDimSensor As DimensionSensorData
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swDisplayDim As DisplayDimension
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swDim As Dimension
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim alertValue1 As Double
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim alertvalue2 As Double
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim sensorValue As Double
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim retVal As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim bool As Boolean
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim openPart As Hashtable
+        Dim swModel As ModelDoc2
+        Dim swSelMgr As SelectionMgr
+        Dim swFeat As Feature
+        Dim swSensor As Sensor
+        Dim swDimSensor As DimensionSensorData
+        Dim swDisplayDim As DisplayDimension
+        Dim swDim As Dimension
+        Dim alertValue1 As Double
+        Dim alertvalue2 As Double
+        Dim sensorValue As Double
+        Dim retVal As Integer
+        Dim bool As Boolean
+        Dim openPart As Hashtable
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSelMgr = swModel.SelectionManager
+        swModel = swApp.ActiveDoc
+        swSelMgr = swModel.SelectionManager
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Set up event handler
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swPart = swModel
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}openPart = New Hashtable
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AttachEventHandlers()
+        ' Set up event handler
+        swPart = swModel
+        openPart = New Hashtable
+        AttachEventHandlers()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get the selected Measurement (dimension) sensor
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' in Sensors folder in FeatureManager design tree
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swFeat = swSelMgr.GetSelectedObject6(1, -1)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSensor = swFeat.GetSpecificFeature2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get name of sensor
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Sensor name = " & swFeat.Name)
+        ' Get the selected Measurement (dimension) sensor
+        ' in Sensors folder in FeatureManager design tree
+        swFeat = swSelMgr.GetSelectedObject6(1, -1)
+        swSensor = swFeat.GetSpecificFeature2
+        ' Get name of sensor
+        Debug.Print("Sensor name = " & swFeat.Name)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Make sure selected sensor is a Measurement
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' (dimension) sensor (as of SOLIDWORKS 2009 SP2, only Measurement
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' (dimension) sensors are supported); if it's not, then exit
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' the macro
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If swSensor Is Nothing Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Selected sensor is not a Measurement (dimension) sensor. Exiting macro.")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Exit Sub
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
+        ' Make sure selected sensor is a Measurement
+        ' (dimension) sensor (as of SOLIDWORKS 2009 SP2, only Measurement
+        ' (dimension) sensors are supported); if it's not, then exit
+        ' the macro
+        If swSensor Is Nothing Then
+            Debug.Print("Selected sensor is not a Measurement (dimension) sensor. Exiting macro.")
+            Exit Sub
+        End If
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get type of sensor
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Select Case swSensor.SensorType
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorSimulation
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor type = Simulation")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorMassProperty
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor type = Mass Property")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorDimension
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor type = Measurement (dimension)")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorInterfaceDetection
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor type = Interference Detection")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End Select
+        ' Get type of sensor
+        Select Case swSensor.SensorType
+            Case swSensorType_e.swSensorSimulation
+                Debug.Print("Sensor type = Simulation")
+            Case swSensorType_e.swSensorMassProperty
+                Debug.Print("Sensor type = Mass Property")
+            Case swSensorType_e.swSensorDimension
+                Debug.Print("Sensor type = Measurement (dimension)")
+            Case swSensorType_e.swSensorInterfaceDetection
+                Debug.Print("Sensor type = Interference Detection")
+        End Select
 
 ' Get whether the sensor is in an alerted state
 Debug.Print ("Is an alert currently triggered for this sensor? " & swSensor.SensorAlertState)
@@ -105,122 +103,122 @@ Debug.Print ("Is an alert currently triggered for this sensor? " & swSensor.Sens
 ' Enable sensor's alert
 Debug.Print ("Is an alert enabled for this sensor? " & swSensor.SensorAlertEnabled)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get sensor's alert state
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If swSensor.SensorAlertState Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Select Case swSensor.SensorAlertType
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Case swSensorAlertType_e.swSensorAlert_GreaterThan
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print("Sensor alert type = Greater than")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Case swSensorAlertType_e.swSensorAlert_LessThan
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print("Sensor alert type = Less than")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Case swSensorAlertType_e.swSensorAlert_Exactly
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print("Sensor alert type = Exactly")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Case swSensorAlertType_e.swSensorAlert_NotGreaterThan
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print("Sensor alert type = Not greater than")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Case swSensorAlertType_e.swSensorAlert_NotLessThan
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print("Sensor alert type = Not less than")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Case swSensorAlertType_e.swSensorAlert_NotExactly
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print("Sensor alert type = Not exactly")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Case swSensorAlertType_e.swSensorAlert_Between
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print("Sensor alert type = Between")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Case swSensorAlertType_e.swSensorAlert_NotBetween
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print("Sensor alert type = Not between")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Case swSensorAlertType_e.swSensorAlert_True
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print("Sensor alert type = True")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Case swSensorAlertType_e.swSensorAlert_False
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print("Sensor alert type = False")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End Select
+        ' Get sensor's alert state
+        If swSensor.SensorAlertState Then
+            Select Case swSensor.SensorAlertType
+                Case swSensorAlertType_e.swSensorAlert_GreaterThan
+                    Debug.Print("Sensor alert type = Greater than")
+                Case swSensorAlertType_e.swSensorAlert_LessThan
+                    Debug.Print("Sensor alert type = Less than")
+                Case swSensorAlertType_e.swSensorAlert_Exactly
+                    Debug.Print("Sensor alert type = Exactly")
+                Case swSensorAlertType_e.swSensorAlert_NotGreaterThan
+                    Debug.Print("Sensor alert type = Not greater than")
+                Case swSensorAlertType_e.swSensorAlert_NotLessThan
+                    Debug.Print("Sensor alert type = Not less than")
+                Case swSensorAlertType_e.swSensorAlert_NotExactly
+                    Debug.Print("Sensor alert type = Not exactly")
+                Case swSensorAlertType_e.swSensorAlert_Between
+                    Debug.Print("Sensor alert type = Between")
+                Case swSensorAlertType_e.swSensorAlert_NotBetween
+                    Debug.Print("Sensor alert type = Not between")
+                Case swSensorAlertType_e.swSensorAlert_True
+                    Debug.Print("Sensor alert type = True")
+                Case swSensorAlertType_e.swSensorAlert_False
+                    Debug.Print("Sensor alert type = False")
+            End Select
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' Get sensor's alert values
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}alertValue1 = swSensor.SensorAlertValue1
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' ISensor::SensorAlertValue2 only valid when sensor
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' alert type is swSensorAlertType_e.swSensorAlert_Between
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}alertvalue2 = swSensor.SensorAlertValue2
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Alert value 1 = " & alertValue1)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print(" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Alert value 2 = " & alertvalue2)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
+            ' Get sensor's alert values
+            alertValue1 = swSensor.SensorAlertValue1
+            ' ISensor::SensorAlertValue2 only valid when sensor
+            ' alert type is swSensorAlertType_e.swSensorAlert_Between
+            alertvalue2 = swSensor.SensorAlertValue2
+            Debug.Print("  Alert value 1 = " & alertValue1)
+            Debug.Print("  Alert value 2 = " & alertvalue2)
+        End If
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Set sensor to a different sensor type
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSensor.SensorType = swSensorType_e.swSensorSimulation
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Select Case swSensor.SensorType
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorSimulation
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Set sensor type to = Simulation")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorMassProperty
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Set sensor type to = Mass Property")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorDimension
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Set sensor type to = Measurement (dimension)")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorInterfaceDetection
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Set sensor type to = Interference Detection")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End Select
+        ' Set sensor to a different sensor type
+        swSensor.SensorType = swSensorType_e.swSensorSimulation
+        Select Case swSensor.SensorType
+            Case swSensorType_e.swSensorSimulation
+                Debug.Print("Set sensor type to = Simulation")
+            Case swSensorType_e.swSensorMassProperty
+                Debug.Print("Set sensor type to = Mass Property")
+            Case swSensorType_e.swSensorDimension
+                Debug.Print("Set sensor type to = Measurement (dimension)")
+            Case swSensorType_e.swSensorInterfaceDetection
+                Debug.Print("Set sensor type to = Interference Detection")
+        End Select
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Update and evaluate sensor
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool = swSensor.UpdateSensor()
+        ' Update and evaluate sensor
+        bool = swSensor.UpdateSensor()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Print updated sensor type
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Select Case swSensor.SensorType
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorSimulation
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor updated to type = Simulation")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorMassProperty
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor updated to type = Mass Property")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorDimension
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor updated to type = Measurement (dimension)")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorInterfaceDetection
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor updated to type = Interference Detection")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End Select
+        ' Print updated sensor type
+        Select Case swSensor.SensorType
+            Case swSensorType_e.swSensorSimulation
+                Debug.Print("Sensor updated to type = Simulation")
+            Case swSensorType_e.swSensorMassProperty
+                Debug.Print("Sensor updated to type = Mass Property")
+            Case swSensorType_e.swSensorDimension
+                Debug.Print("Sensor updated to type = Measurement (dimension)")
+            Case swSensorType_e.swSensorInterfaceDetection
+                Debug.Print("Sensor updated to type = Interference Detection")
+        End Select
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Set sensor type back to original type
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSensor.SensorType = swSensorType_e.swSensorDimension
+        ' Set sensor type back to original type
+        swSensor.SensorType = swSensorType_e.swSensorDimension
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Update and evaluate sensor again
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}bool = swSensor.UpdateSensor()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Print updated sensor type
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Select Case swSensor.SensorType
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorSimulation
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor updated back to type = Simulation")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorMassProperty
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor updated back to type = Mass Property")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorDimension
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor updated back to type = Measurement (dimension)")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Case swSensorType_e.swSensorInterfaceDetection
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Sensor updated back to type = Interference Detection")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End Select
+        ' Update and evaluate sensor again
+        bool = swSensor.UpdateSensor()
+        ' Print updated sensor type
+        Select Case swSensor.SensorType
+            Case swSensorType_e.swSensorSimulation
+                Debug.Print("Sensor updated back to type = Simulation")
+            Case swSensorType_e.swSensorMassProperty
+                Debug.Print("Sensor updated back to type = Mass Property")
+            Case swSensorType_e.swSensorDimension
+                Debug.Print("Sensor updated back to type = Measurement (dimension)")
+            Case swSensorType_e.swSensorInterfaceDetection
+                Debug.Print("Sensor updated back to type = Interference Detection")
+        End Select
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Because sensor is a Measurement (dimension) sensor,
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' get the sensor's feature data, object, configuration name, and value
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If TypeOf swSensor Is DimensionSensorData Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swDimSensor = swSensor.GetSensorFeatureData
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' Get Measurement (dimension) sensor value
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}sensorValue = swDimSensor.SensorValue
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}'Convert meters to inches
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Sensor value: " + Str(sensorValue * 39.37) + " inches")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' Get the actual dimension and update
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' to a value that sets off the alert
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swDisplayDim = swDimSensor.GetDisplayDimension()
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swDim = swDisplayDim.GetDimension2(1)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}retVal = swDim.SetValue3(3.5, swSetValueInConfiguration_e.swSetValue_UseCurrentSetting, "Configuration")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}bool = swSensor.UpdateSensor()
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel.ForceRebuild3(True)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}' Get Measurement (dimension) sensor value again
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}sensorValue = swDimSensor.SensorValue
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("New sensor value: " + Str(sensorValue * 39.37) + " inches")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+        ' Because sensor is a Measurement (dimension) sensor,
+        ' get the sensor's feature data, object, configuration name, and value
+        If TypeOf swSensor Is DimensionSensorData Then
+            swDimSensor = swSensor.GetSensorFeatureData
+            ' Get Measurement (dimension) sensor value
+            sensorValue = swDimSensor.SensorValue
+            'Convert meters to inches
+            Debug.Print("Sensor value: " + Str(sensorValue * 39.37) + " inches")
+            ' Get the actual dimension and update
+            ' to a value that sets off the alert
+            swDisplayDim = swDimSensor.GetDisplayDimension()
+            swDim = swDisplayDim.GetDimension2(1)
+            retVal = swDim.SetValue3(3.5, swSetValueInConfiguration_e.swSetValue_UseCurrentSetting, "Configuration")
+            bool = swSensor.UpdateSensor()
+            swModel.ForceRebuild3(True)
+            ' Get Measurement (dimension) sensor value again
+            sensorValue = swDimSensor.SensorValue
+            Debug.Print("New sensor value: " + Str(sensorValue * 39.37) + " inches")
+        End If
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+    ''' The SldWorks swApp variable is pre-assigned for you.
+    ''' </summary>
+    Public swApp As SldWorks
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub AttachEventHandlers()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AttachSWEvents()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Sub AttachEventHandlers()
+        AttachSWEvents()
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub AttachSWEvents()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AddHandler swPart.SensorAlertPreNotify, AddressOf Me.swPart_SensorAlertPreNotify
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Sub AttachSWEvents()
+        AddHandler swPart.SensorAlertPreNotify, AddressOf Me.swPart_SensorAlertPreNotify
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Function swPart_SensorAlertPreNotify(ByVal SensorIn As Object, ByVal SensorAlertType As Integer) As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MsgBox("The value of the sensor deviates from its limits.")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Function swPart_SensorAlertPreNotify(ByVal SensorIn As Object, ByVal SensorAlertType As Integer) As Integer
+        MsgBox("The value of the sensor deviates from its limits.")
+    End Function
 
 End Class
 ```

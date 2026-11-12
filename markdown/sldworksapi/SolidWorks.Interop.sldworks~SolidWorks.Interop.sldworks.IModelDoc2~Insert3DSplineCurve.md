@@ -46,13 +46,7 @@ void Insert3DSplineCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,32 +54,24 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::Insert3DSplineCurve](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Insert3DSplineCurve.html)
-
-.
+See [ModelDoc2::Insert3DSplineCurve](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Insert3DSplineCurve.html).
 
 ## Examples
 
 [Insert a 3D-Spline Curve (VBA)](Insert_3D_Spline_Curve_Example_VB.htm)
-
 [Create Curve Through Reference Points (VBA)](Create_Curve_Through_Reference_Points_Example_VB.htm)
-
 [Create Curve Through Reference Points (VB.NET)](Create_Curve_Through_Reference_Points_Example_VBNET.htm)
-
 [Create Curve Through Reference Points (C#)](Create_Curve_Through_Reference_Points_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, select the reference points by calling[IModelDocExtension::SelectbyID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)with Marks of 1.
+Before calling this method, select the reference points by calling [IModelDocExtension::SelectbyID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) with Marks of 1.
 
-To create 2D splines on a sketch, use[IModelDoc2::SketchSpline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchSpline.html)or[IModelDoc2::CreateSpline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateSpline.html)or[IModelDoc2::ICreateSpline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreateSpline.html).
+To create 2D splines on a sketch, use [IModelDoc2::SketchSpline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchSpline.html) or [IModelDoc2::CreateSpline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateSpline.html) or [IModelDoc2::ICreateSpline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreateSpline.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

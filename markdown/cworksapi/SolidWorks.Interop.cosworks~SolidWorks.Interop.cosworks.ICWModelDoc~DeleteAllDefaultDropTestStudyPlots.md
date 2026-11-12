@@ -42,26 +42,17 @@ System.int DeleteAllDefaultDropTestStudyPlots();
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotDelete_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotDelete_ErrorCode_e.html)
+Error code as defined in [swsResultPlotDelete_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotDelete_ErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::DeleteAllDefaultDropTestStudyPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DeleteAllDefaultDropTestStudyPlots.html)
-
-.
+See [CWModelDoc::DeleteAllDefaultDropTestStudyPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DeleteAllDefaultDropTestStudyPlots.html).
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
-
 [ICWModelDoc::AddDefaultDropTestStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~AddDefaultDropTestStudyPlot.html)
-
 [ICWModelDoc::DeleteDefaultDropTestStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~DeleteDefaultDropTestStudyPlot.html)
 
 ## Availability

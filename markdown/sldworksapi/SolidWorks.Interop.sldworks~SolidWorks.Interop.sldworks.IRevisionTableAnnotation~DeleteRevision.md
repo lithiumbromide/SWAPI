@@ -51,13 +51,7 @@ System.bool DeleteRevision(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ True if revision ID is deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[RevisionTableAnnotation::DeleteRevision](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~DeleteRevision.html)
-
-.
+See [RevisionTableAnnotation::DeleteRevision](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~DeleteRevision.html).
 
 ## Remarks
 
@@ -83,17 +73,11 @@ This method deletes the row in which the revision ID exists.
 ## See Also
 
 [IRevisionTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation.html)
-
 [IRevisionTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation_members.html)
-
 [IRevisionTableAnnotation::AddRevision Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~AddRevision.html)
-
 [IRevisionTableAnnotation::GetIdForRowNumber Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~GetIdForRowNumber.html)
-
 [IRevisionTableAnnotation::GetRevisionForId Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~GetRevisionForId.html)
-
 [IRevisionTableAnnotation::GetRowNumberForId Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~GetRowNumberForId.html)
-
 [IRevisionTableAnnotation::CurrentRevision Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~CurrentRevision.html)
 
 ## Availability

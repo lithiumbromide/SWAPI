@@ -1,6 +1,5 @@
 ---
-title: "IMirrorPartFeatureData Object
-Members"
+title: "IMirrorPartFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IMirrorPartFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IMirrorPartFeatureData_members.html"
 ---
 
-# IMirrorPartFeatureData Object
-Members
+# IMirrorPartFeatureData Object Members
 
 ## Public Methods
 

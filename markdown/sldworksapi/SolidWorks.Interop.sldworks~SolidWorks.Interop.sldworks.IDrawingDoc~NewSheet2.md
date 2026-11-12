@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # NewSheet2 Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::NewSheet3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~NewSheet3.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::NewSheet3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~NewSheet3.html).
 
 ## Syntax
 
@@ -83,13 +79,7 @@ System.bool NewSheet2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -105,14 +95,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::NewSheet2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~NewSheet2.html)
-
-.
+See [DrawingDoc::NewSheet2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~NewSheet2.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

@@ -51,22 +51,17 @@ property System.bool Symmetric2 {
 
 ## Examples
 
-See the
-
-[ICWCompositeShellOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
-examples.
+See the [ICWCompositeShellOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html) examples.
 
 ## Remarks
 
 This property returns a boolean value which can be cast to an integer. To set this property, you can specify either the boolean or the integer.
 
-Setting this property is only valid if[ICWCompositeShellOptions::Sandwich2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Sandwich2.html)is set to 0.
+Setting this property is only valid if [ICWCompositeShellOptions::Sandwich2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Sandwich2.html) is set to 0.
 
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
 
 ## Availability

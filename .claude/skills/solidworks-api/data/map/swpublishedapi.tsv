@@ -1,0 +1,364 @@
+#swapi-map 1 module=swpublishedapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@IMessageBarHandler	i	Must be implemented by the add-in application to handle callbacks from IMessageBarDefinition.	use=4
+OnUserClose	m	void OnUserClose()	2022		Called by SOLIDWORKS when the user closes the message bar.
+OnUserResponseA	m	void OnUserResponseA(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the first response control.
+OnUserResponseB	m	void OnUserResponseB(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the second response control.
+@IPropertyManagerPage2Handler	i		status=obsolete>IPropertyManagerPage2Handler5
+AfterClose	m	void AfterClose()		obsolete>IPropertyManagerPage2Handler5.AfterClose
+OnButtonPress	m	void OnButtonPress(int Id)		obsolete>IPropertyManagerPage2Handler5.OnButtonPress
+OnCheckboxCheck	m	void OnCheckboxCheck(int Id, bool Checked)		obsolete>IPropertyManagerPage2Handler5.OnCheckboxCheck
+OnClose	m	void OnClose(int Reason)		obsolete>IPropertyManagerPage2Handler5.OnClose
+OnComboboxSelectionChanged	m	void OnComboboxSelectionChanged(int Id, int Item)		obsolete>IPropertyManagerPage2Handler5.OnComboboxSelectionChanged
+OnGroupCheck	m	void OnGroupCheck(int Id, bool Checked)		obsolete>IPropertyManagerPage2Handler5.OnGroupCheck
+OnGroupExpand	m	void OnGroupExpand(int Id, bool Expanded)		obsolete>IPropertyManagerPage2Handler5.OnGroupExpand
+OnHelp	m	bool OnHelp()		obsolete>IPropertyManagerPage2Handler5.OnHelp
+OnListboxSelectionChanged	m	void OnListboxSelectionChanged(int Id, int Item)		obsolete>IPropertyManagerPage2Handler5.OnListboxSelectionChanged
+OnNumberboxChanged	m	void OnNumberboxChanged(int Id, double Value)		obsolete>IPropertyManagerPage2Handler5.OnNumberboxChanged
+OnOptionCheck	m	void OnOptionCheck(int Id)		obsolete>IPropertyManagerPage2Handler5.OnNumberboxChanged
+OnSelectionboxFocusChanged	m	void OnSelectionboxFocusChanged(int Id)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxFocusChanged
+OnSelectionboxListChanged	m	void OnSelectionboxListChanged(int Id, int Count)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxListChanged
+OnTextboxChanged	m	void OnTextboxChanged(int Id, string Text)		obsolete>IPropertyManagerPage2Handler5.OnTextboxChanged
+@IPropertyManagerPage2Handler2	i		status=obsolete>IPropertyManagerPage2Handler5
+AfterClose	m	void AfterClose()		obsolete>IPropertyManagerPage2Handler5.AfterClose
+OnActiveXControlCreated	m	int OnActiveXControlCreated(int Id, bool Status)		obsolete>IPropertyManagerPage2Handler5.OnActiveXControlCreated
+OnButtonPress	m	void OnButtonPress(int Id)		obsolete>IPropertyManagerPage2Handler5.OnButtonPress
+OnCheckboxCheck	m	void OnCheckboxCheck(int Id, bool Checked)		obsolete>IPropertyManagerPage2Handler5.OnCheckboxCheck
+OnClose	m	void OnClose(int Reason)		obsolete>IPropertyManagerPage2Handler5.OnClose
+OnComboboxEditChanged	m	void OnComboboxEditChanged(int Id, string Text)		obsolete>IPropertyManagerPage2Handler5.OnComboboxEditChanged
+OnComboboxSelectionChanged	m	void OnComboboxSelectionChanged(int Id, int Item)		obsolete>IPropertyManagerPage2Handler5.OnComboboxSelectionChanged
+OnGroupCheck	m	void OnGroupCheck(int Id, bool Checked)		obsolete>IPropertyManagerPage2Handler5.OnGroupCheck
+OnGroupExpand	m	void OnGroupExpand(int Id, bool Expanded)		obsolete>IPropertyManagerPage2Handler5.OnGroupExpand
+OnHelp	m	bool OnHelp()		obsolete>IPropertyManagerPage2Handler5.OnHelp
+OnListboxSelectionChanged	m	void OnListboxSelectionChanged(int Id, int Item)		obsolete>IPropertyManagerPage2Handler5.OnListboxSelectionChanged
+OnNextPage	m	bool OnNextPage()		obsolete>IPropertyManagerPage2Handler5.OnNextPage
+OnNumberboxChanged	m	void OnNumberboxChanged(int Id, double Value)		obsolete>IPropertyManagerPage2Handler5.OnNumberboxChanged
+OnOptionCheck	m	void OnOptionCheck(int Id)		obsolete>IPropertyManagerPage2Handler5.OnNumberboxChanged
+OnPreviousPage	m	bool OnPreviousPage()		obsolete>IPropertyManagerPage2Handler5.OnPreviousPage
+OnSelectionboxCalloutCreated	m	void OnSelectionboxCalloutCreated(int Id)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxCalloutCreated
+OnSelectionboxCalloutDestroyed	m	void OnSelectionboxCalloutDestroyed(int Id)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxCalloutDestroyed
+OnSelectionboxFocusChanged	m	void OnSelectionboxFocusChanged(int Id)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxFocusChanged
+OnSelectionboxListChanged	m	void OnSelectionboxListChanged(int Id, int Count)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxListChanged
+OnTextboxChanged	m	void OnTextboxChanged(int Id, string Text)		obsolete>IPropertyManagerPage2Handler5.OnTextboxChanged
+@IPropertyManagerPage2Handler3	i		status=obsolete>IPropertyManagerPage2Handler5
+AfterClose	m	void AfterClose()		obsolete>IPropertyManagerPage2Handler5.AfterClose
+OnActiveXControlCreated	m	int OnActiveXControlCreated(int Id, bool Status)		obsolete>IPropertyManagerPage2Handler5.OnActiveXControlCreated
+OnButtonPress	m	void OnButtonPress(int Id)		obsolete>IPropertyManagerPage2Handler5.OnButtonPress
+OnCheckboxCheck	m	void OnCheckboxCheck(int Id, bool Checked)		obsolete>IPropertyManagerPage2Handler5.OnCheckboxCheck
+OnClose	m	void OnClose(int Reason)		obsolete>IPropertyManagerPage2Handler5.OnClose
+OnComboboxEditChanged	m	void OnComboboxEditChanged(int Id, string Text)		obsolete>IPropertyManagerPage2Handler5.OnComboboxEditChanged
+OnComboboxSelectionChanged	m	void OnComboboxSelectionChanged(int Id, int Item)		obsolete>IPropertyManagerPage2Handler5.OnComboboxSelectionChanged
+OnGroupCheck	m	void OnGroupCheck(int Id, bool Checked)		obsolete>IPropertyManagerPage2Handler5.OnGroupCheck
+OnGroupExpand	m	void OnGroupExpand(int Id, bool Expanded)		obsolete>IPropertyManagerPage2Handler5.OnGroupExpand
+OnHelp	m	bool OnHelp()		obsolete>IPropertyManagerPage2Handler5.OnHelp
+OnListboxSelectionChanged	m	void OnListboxSelectionChanged(int Id, int Item)		obsolete>IPropertyManagerPage2Handler5.OnListboxSelectionChanged
+OnNextPage	m	bool OnNextPage()		obsolete>IPropertyManagerPage2Handler5.OnNextPage
+OnNumberboxChanged	m	void OnNumberboxChanged(int Id, double Value)		obsolete>IPropertyManagerPage2Handler5.OnNumberboxChanged
+OnOptionCheck	m	void OnOptionCheck(int Id)		obsolete>IPropertyManagerPage2Handler5.OnNumberboxChanged
+OnPreview	m	bool OnPreview()		obsolete>IPropertyManagerPage2Handler5.OnPreview
+OnPreviousPage	m	bool OnPreviousPage()		obsolete>IPropertyManagerPage2Handler5.OnPreviousPage
+OnSelectionboxCalloutCreated	m	void OnSelectionboxCalloutCreated(int Id)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxCalloutCreated
+OnSelectionboxCalloutDestroyed	m	void OnSelectionboxCalloutDestroyed(int Id)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxCalloutDestroyed
+OnSelectionboxFocusChanged	m	void OnSelectionboxFocusChanged(int Id)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxFocusChanged
+OnSelectionboxListChanged	m	void OnSelectionboxListChanged(int Id, int Count)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxListChanged
+OnSliderPositionChanged	m	void OnSliderPositionChanged(int Id, double Value)		obsolete>IPropertyManagerPage2Handler5.OnSliderPositionChanged
+OnSubmitSelection	m	bool OnSubmitSelection(int Id, object Selection, int SelType)		obsolete>IPropertyManagerPage2Handler5.OnSubmitSelection
+OnTabClicked	m	bool OnTabClicked(int Id)		obsolete>IPropertyManagerPage2Handler5.OnTabClicked
+OnTextboxChanged	m	void OnTextboxChanged(int Id, string Text)		obsolete>IPropertyManagerPage2Handler5.OnTextboxChanged
+OnWhatsNew	m	void OnWhatsNew()		obsolete>IPropertyManagerPage2Handler5.OnWhatsNew
+@IPropertyManagerPage2Handler4	i		status=obsolete>IPropertyManagerPage2Handler5
+AfterClose	m	void AfterClose()		obsolete>IPropertyManagerPage2Handler5.AfterClose
+OnActiveXControlCreated	m	int OnActiveXControlCreated(int Id, bool Status)		obsolete>IPropertyManagerPage2Handler5.OnActiveXControlCreated
+OnButtonPress	m	void OnButtonPress(int Id)		obsolete>IPropertyManagerPage2Handler5.OnButtonPress
+OnCheckboxCheck	m	void OnCheckboxCheck(int Id, bool Checked)		obsolete>IPropertyManagerPage2Handler5.OnCheckboxCheck
+OnClose	m	void OnClose(int Reason)		obsolete>IPropertyManagerPage2Handler5.OnClose
+OnComboboxEditChanged	m	void OnComboboxEditChanged(int Id, string Text)		obsolete>IPropertyManagerPage2Handler5.OnComboboxEditChanged
+OnComboboxSelectionChanged	m	void OnComboboxSelectionChanged(int Id, int Item)		obsolete>IPropertyManagerPage2Handler5.OnComboboxSelectionChanged
+OnGroupCheck	m	void OnGroupCheck(int Id, bool Checked)		obsolete>IPropertyManagerPage2Handler5.OnGroupCheck
+OnGroupExpand	m	void OnGroupExpand(int Id, bool Expanded)		obsolete>IPropertyManagerPage2Handler5.OnGroupExpand
+OnHelp	m	bool OnHelp()		obsolete>IPropertyManagerPage2Handler5.OnHelp
+OnKeystroke	m	void OnKeystroke(int Wparam, int Message, int Lparam, int Id)		obsolete>IPropertyManagerPage2Handler5.OnKeystroke
+OnListboxSelectionChanged	m	void OnListboxSelectionChanged(int Id, int Item)		obsolete>IPropertyManagerPage2Handler5.OnListboxSelectionChanged
+OnNextPage	m	bool OnNextPage()		obsolete>IPropertyManagerPage2Handler5.OnNextPage
+OnNumberboxChanged	m	void OnNumberboxChanged(int Id, double Value)		obsolete>IPropertyManagerPage2Handler5.OnNumberboxChanged
+OnOptionCheck	m	void OnOptionCheck(int Id)		obsolete>IPropertyManagerPage2Handler5.OnNumberboxChanged
+OnPopupMenuItem	m	void OnPopupMenuItem(int Id)		obsolete>IPropertyManagerPage2Handler5.OnPopupMenuItem
+OnPopupMenuItemUpdate	m	void OnPopupMenuItemUpdate(int Id, ref int retval)		obsolete>IPropertyManagerPage2Handler5.OnPopupMenuItemUpdate
+OnPreview	m	bool OnPreview()		obsolete>IPropertyManagerPage2Handler5.OnPreview
+OnPreviousPage	m	bool OnPreviousPage()		obsolete>IPropertyManagerPage2Handler5.OnPreviousPage
+OnSelectionboxCalloutCreated	m	void OnSelectionboxCalloutCreated(int Id)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxCalloutCreated
+OnSelectionboxCalloutDestroyed	m	void OnSelectionboxCalloutDestroyed(int Id)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxCalloutDestroyed
+OnSelectionboxFocusChanged	m	void OnSelectionboxFocusChanged(int Id)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxFocusChanged
+OnSelectionboxListChanged	m	void OnSelectionboxListChanged(int Id, int Count)		obsolete>IPropertyManagerPage2Handler5.OnSelectionboxListChanged
+OnSliderPositionChanged	m	void OnSliderPositionChanged(int Id, double Value)		obsolete>IPropertyManagerPage2Handler5.OnSliderPositionChanged
+OnSliderTrackingCompleted	m	void OnSliderTrackingCompleted(int Id, double Value)		obsolete>IPropertyManagerPage2Handler5.OnSliderTrackingCompleted
+OnSubmitSelection	m	bool OnSubmitSelection(int Id, object Selection, int SelType)		obsolete>IPropertyManagerPage2Handler5.OnSubmitSelection
+OnTabClicked	m	bool OnTabClicked(int Id)		obsolete>IPropertyManagerPage2Handler5.OnTabClicked
+OnTextboxChanged	m	void OnTextboxChanged(int Id, string Text)		obsolete>IPropertyManagerPage2Handler5.OnTextboxChanged
+OnUndo	m	void OnUndo()		obsolete>IPropertyManagerPage2Handler5.OnUndo
+OnWhatsNew	m	void OnWhatsNew()		obsolete>IPropertyManagerPage2Handler5.OnWhatsNew
+@IPropertyManagerPage2Handler5	i		status=obsolete>IPropertyManagerPage2Handler6
+AfterActivation	m	void AfterActivation()	2008	obsolete>IPropertyManagerPage2Handler6.AfterActivation	Obsoleted. Superseded by IPropertyManagerPage2Handler6::AfterActivation.
+AfterClose	m	void AfterClose()	2008	obsolete>IPropertyManagerPage2Handler6.AfterClose	Obsoleted. Superseded by IPropertyManagerPage2Handler6::AfterClose.
+OnActiveXControlCreated	m	int:swHandleActiveXCreationFailure_e OnActiveXControlCreated(int Id, bool Status)	2008	obsolete>IPropertyManagerPage2Handler6.OnActiveXControlCreated	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnActiveXControlCreated.
+OnButtonPress	m	void OnButtonPress(int Id)	2008	obsolete>IPropertyManagerPage2Handler6.OnButtonPress	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnButtonPress.
+OnCheckboxCheck	m	void OnCheckboxCheck(int Id, bool Checked)	2008	obsolete>IPropertyManagerPage2Handler6.OnCheckboxCheck	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnCheckboxCheck.
+OnClose	m	void OnClose(int Reason:swPropertyManagerPageCloseReasons_e)	2008	obsolete>IPropertyManagerPage2Handler6.OnClose	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnClose.
+OnComboboxEditChanged	m	void OnComboboxEditChanged(int Id, string Text)	2008	obsolete>IPropertyManagerPage2Handler6.OnComboboxEditChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnComboboxEditChanged.
+OnComboboxSelectionChanged	m	void OnComboboxSelectionChanged(int Id, int Item)	2008	obsolete>IPropertyManagerPage2Handler6.OnComboboxSelectionChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnComboboxSelectionChanged.
+OnGroupCheck	m	void OnGroupCheck(int Id, bool Checked)	2008	obsolete>IPropertyManagerPage2Handler6.OnGroupCheck	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnGroupCheck.
+OnGroupExpand	m	void OnGroupExpand(int Id, bool Expanded)	2008	obsolete>IPropertyManagerPage2Handler6.OnGroupExpand	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnGroupExpand.
+OnHelp	m	bool OnHelp()	2008	obsolete>IPropertyManagerPage2Handler6.OnHelp	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnHelp.
+OnKeystroke	m	bool OnKeystroke(int Wparam, int Message, int Lparam, int Id)	2008	obsolete>IPropertyManagerPage2Handler6.OnKeystroke	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnKeystroke.
+OnListboxSelectionChanged	m	void OnListboxSelectionChanged(int Id, int Item)	2008	obsolete>IPropertyManagerPage2Handler6.OnListboxSelectionChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnListboxSelectionChanged.
+OnNextPage	m	bool OnNextPage()	2008	obsolete>IPropertyManagerPage2Handler6.OnNextPage	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnNextPage.
+OnNumberboxChanged	m	void OnNumberboxChanged(int Id, double Value)	2008	obsolete>IPropertyManagerPage2Handler6.OnNumberboxChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnNumberboxChanged.
+OnOptionCheck	m	void OnOptionCheck(int Id)	2008	obsolete>IPropertyManagerPage2Handler6.OnOptionCheck	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnOptionCheck.
+OnPopupMenuItem	m	void OnPopupMenuItem(int Id)	2008	obsolete>IPropertyManagerPage2Handler6.OnPopupMenuItem	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnPopupMenuItem.
+OnPopupMenuItemUpdate	m	void OnPopupMenuItemUpdate(int Id, ref int retval)	2008	obsolete>IPropertyManagerPage2Handler6.OnPopupMenuItemUpdate	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnPopupMenuItemUpdate.
+OnPreview	m	bool OnPreview()	2008	obsolete>IPropertyManagerPage2Handler6.OnPreview	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnPreview.
+OnPreviousPage	m	bool OnPreviousPage()	2008	obsolete>IPropertyManagerPage2Handler6.OnPreviousPage	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnPreviousPage.
+OnSelectionboxCalloutCreated	m	void OnSelectionboxCalloutCreated(int Id)	2008	obsolete>IPropertyManagerPage2Handler6.OnSelectionboxCalloutCreated	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnSelectionboxCalloutCreated.
+OnSelectionboxCalloutDestroyed	m	void OnSelectionboxCalloutDestroyed(int Id)	2008	obsolete>IPropertyManagerPage2Handler6.OnSelectionboxCalloutDestroyed	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnSelectionboxCalloutDestroyed.
+OnSelectionboxFocusChanged	m	void OnSelectionboxFocusChanged(int Id)	2008	obsolete>IPropertyManagerPage2Handler6.OnSelectionboxFocusChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnSelectionboxFocusChanged.
+OnSelectionboxListChanged	m	void OnSelectionboxListChanged(int Id, int Count)	2008	obsolete>IPropertyManagerPage2Handler6.OnSelectionboxListChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnSelectionboxListChanged.
+OnSliderPositionChanged	m	void OnSliderPositionChanged(int Id, double Value)	2008	obsolete>IPropertyManagerPage2Handler6.OnSliderPositionChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnSliderPositionChanged.
+OnSliderTrackingCompleted	m	void OnSliderTrackingCompleted(int Id, double Value)	2008	obsolete>IPropertyManagerPage2Handler6.OnSliderTrackingCompleted	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnSliderTrackingCompleted.
+OnSubmitSelection	m	bool OnSubmitSelection(int Id, object Selection, int SelType:swSelectType_e, out string ItemText)	2008	obsolete>IPropertyManagerPage2Handler6.OnSubmitSelection	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnSubmitSelection.
+OnTabClicked	m	bool OnTabClicked(int Id)	2007	obsolete>IPropertyManagerPage2Handler6.OnTabClicked	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnTabClicked.
+OnTextboxChanged	m	void OnTextboxChanged(int Id, string Text)	2008	obsolete>IPropertyManagerPage2Handler6.OnTextboxChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnTextboxChanged.
+OnUndo	m	void OnUndo()	2008	obsolete>IPropertyManagerPage2Handler6.OnUndo	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnUndo.
+OnWhatsNew	m	void OnWhatsNew()	2008	obsolete>IPropertyManagerPage2Handler6.OnWhatsNew	Obsoleted. Superseded by IPropertyManagerPage2Handler6::OnWhatsNew.
+@IPropertyManagerPage2Handler6	i		status=obsolete>IPropertyManagerPage2Handler7
+AfterActivation	m	void AfterActivation()	2009	obsolete>IPropertyManagerPage2Handler7.AfterActivation	Obsoleted. Superseded by IPropertyManagerPage2Handler7::After Activation.
+AfterClose	m	void AfterClose()	2009	obsolete>IPropertyManagerPage2Handler7.AfterClose	Obsoleted. Superseded by IPropertyManagerPage2Handler7::AfterClose.
+OnActiveXControlCreated	m	int:swHandleActiveXCreationFailure_e OnActiveXControlCreated(int Id, bool Status)	2009	obsolete>IPropertyManagerPage2Handler7.OnActiveXControlCreated	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnActiveXControlCreated.
+OnButtonPress	m	void OnButtonPress(int Id)	2009	obsolete>IPropertyManagerPage2Handler7.OnButtonPress	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnButtonPress.
+OnCheckboxCheck	m	void OnCheckboxCheck(int Id, bool Checked)	2009	obsolete>IPropertyManagerPage2Handler7.OnCheckboxCheck	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnCheckboxCheck.
+OnClose	m	void OnClose(int Reason:swPropertyManagerPageCloseReasons_e)	2009	obsolete>IPropertyManagerPage2Handler7.OnClose	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnClose.
+OnComboboxEditChanged	m	void OnComboboxEditChanged(int Id, string Text)	2009	obsolete>IPropertyManagerPage2Handler7.OnComboboxEditChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnComboboxEditChanged.
+OnComboboxSelectionChanged	m	void OnComboboxSelectionChanged(int Id, int Item)	2009	obsolete>IPropertyManagerPage2Handler7.OnComboboxSelectionChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnComboboxSelectionChanged.
+OnGroupCheck	m	void OnGroupCheck(int Id, bool Checked)	2009	obsolete>IPropertyManagerPage2Handler7.OnGroupCheck	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnGroupCheck.
+OnGroupExpand	m	void OnGroupExpand(int Id, bool Expanded)	2009	obsolete>IPropertyManagerPage2Handler7.OnGroupExpand	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnGroupExpand.
+OnHelp	m	bool OnHelp()	2009	obsolete>IPropertyManagerPage2Handler7.OnHelp	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnHelp.
+OnKeystroke	m	bool OnKeystroke(int Wparam, int Message, int Lparam, int Id)	2009	obsolete>IPropertyManagerPage2Handler7.OnKeystroke	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnKeystroke.
+OnListboxSelectionChanged	m	void OnListboxSelectionChanged(int Id, int Item)	2009	obsolete>IPropertyManagerPage2Handler7.OnListboxSelectionChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnListboxSelectionChanged.
+OnNextPage	m	bool OnNextPage()	2009	obsolete>IPropertyManagerPage2Handler7.OnNextPage	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnNextPage.
+OnNumberboxChanged	m	void OnNumberboxChanged(int Id, double Value)	2009	obsolete>IPropertyManagerPage2Handler7.OnNumberboxChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnNumberboxChanged.
+OnOptionCheck	m	void OnOptionCheck(int Id)	2009	obsolete>IPropertyManagerPage2Handler7.OnOptionCheck	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnOptionCheck.
+OnPopupMenuItem	m	void OnPopupMenuItem(int Id)	2009	obsolete>IPropertyManagerPage2Handler7.OnPopupMenuItem	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnPopupMenuItem.
+OnPopupMenuItemUpdate	m	void OnPopupMenuItemUpdate(int Id, ref int retval)	2009	obsolete>IPropertyManagerPage2Handler7.OnPopupMenuItemUpdate	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnPopupMenuItemUpdate.
+OnPreview	m	bool OnPreview()	2009	obsolete>IPropertyManagerPage2Handler7.OnPreview	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnPreview.
+OnPreviousPage	m	bool OnPreviousPage()	2009	obsolete>IPropertyManagerPage2Handler7.OnPreviousPage	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnPreviousPage.
+OnRedo	m	void OnRedo()	2009	obsolete>IPropertyManagerPage2Handler7.OnRedo	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnRedo.
+OnSelectionboxCalloutCreated	m	void OnSelectionboxCalloutCreated(int Id)	2009	obsolete>IPropertyManagerPage2Handler7.OnSelectionboxCalloutCreated	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnSelectionboxCalloutCreated.
+OnSelectionboxCalloutDestroyed	m	void OnSelectionboxCalloutDestroyed(int Id)	2009	obsolete>IPropertyManagerPage2Handler7.OnSelectionboxCalloutDestroyed	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnSelectionboxCalloutDestroyed.
+OnSelectionboxFocusChanged	m	void OnSelectionboxFocusChanged(int Id)	2009	obsolete>IPropertyManagerPage2Handler7.OnSelectionboxFocusChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnSelectionboxFocusChanged.
+OnSelectionboxListChanged	m	void OnSelectionboxListChanged(int Id, int Count)	2009	obsolete>IPropertyManagerPage2Handler7.OnSelectionboxListChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnSelectionboxListChanged.
+OnSliderPositionChanged	m	void OnSliderPositionChanged(int Id, double Value)	2009	obsolete>IPropertyManagerPage2Handler7.OnSliderPositionChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnSliderPositionChanged.
+OnSliderTrackingCompleted	m	void OnSliderTrackingCompleted(int Id, double Value)	2009	obsolete>IPropertyManagerPage2Handler7.OnSliderTrackingCompleted	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnSliderTrackingCompleted.
+OnSubmitSelection	m	bool OnSubmitSelection(int Id, object Selection, int SelType:swSelectType_e, out string ItemText)	2009	obsolete>IPropertyManagerPage2Handler7.OnSubmitSelection	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnSubmitSelection.
+OnTabClicked	m	bool OnTabClicked(int Id)	2009	obsolete>IPropertyManagerPage2Handler7.OnTabClicked	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnTabClicked.
+OnTextboxChanged	m	void OnTextboxChanged(int Id, string Text)	2009	obsolete>IPropertyManagerPage2Handler7.OnTextboxChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnTextboxChanged.
+OnUndo	m	void OnUndo()	2009	obsolete>IPropertyManagerPage2Handler7.OnUndo	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnUndo.
+OnWhatsNew	m	void OnWhatsNew()	2009	obsolete>IPropertyManagerPage2Handler7.OnWhatsNew	Obsoleted. Superseded by IPropertyManagerPage2Handler7::OnWhatsNew.
+@IPropertyManagerPage2Handler7	i		status=obsolete>IPropertyManagerPage2Handler8
+AfterActivation	m	void AfterActivation()	2010	obsolete>IPropertyManagerPage2Handler8.AfterActivation	Obsoleted. Superseded by IPropertyManagerPage2Handler8::AfterActivation.
+AfterClose	m	void AfterClose()	2010	obsolete>IPropertyManagerPage2Handler8.AfterClose	Obsoleted. Superseded by IPropertyManagerPage2Handler8::AfterClose.
+OnActiveXControlCreated	m	int:swHandleActiveXCreationFailure_e OnActiveXControlCreated(int Id, bool Status)	2010	obsolete>IPropertyManagerPage2Handler8.OnActiveXControlCreated	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnActiveXControlCreated.
+OnButtonPress	m	void OnButtonPress(int Id)	2010	obsolete>IPropertyManagerPage2Handler8.OnButtonPress	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnButtonPress.
+OnCheckboxCheck	m	void OnCheckboxCheck(int Id, bool Checked)	2010	obsolete>IPropertyManagerPage2Handler8.OnCheckboxCheck	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnCheckboxCheck.
+OnClose	m	void OnClose(int Reason:swPropertyManagerPageCloseReasons_e)	2010	obsolete>IPropertyManagerPage2Handler8.OnClose	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnClose.
+OnComboboxEditChanged	m	void OnComboboxEditChanged(int Id, string Text)	2010	obsolete>IPropertyManagerPage2Handler8.OnComboboxEditChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnComboboxEditChanged.
+OnComboboxSelectionChanged	m	void OnComboboxSelectionChanged(int Id, int Item)	2010	obsolete>IPropertyManagerPage2Handler8.OnComboboxSelectionChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnComboboxSelectionChanged.
+OnGainedFocus	m	void OnGainedFocus(int Id)	2010	obsolete>IPropertyManagerPage2Handler8.OnGainedFocus	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnGainedFocus.
+OnGroupCheck	m	void OnGroupCheck(int Id, bool Checked)	2010	obsolete>IPropertyManagerPage2Handler8.OnGroupCheck	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnGroupCheck.
+OnGroupExpand	m	void OnGroupExpand(int Id, bool Expanded)	2010	obsolete>IPropertyManagerPage2Handler8.OnGroupExpand	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnGroupExpand.
+OnHelp	m	bool OnHelp()	2010	obsolete>IPropertyManagerPage2Handler8.OnHelp	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnHelp.
+OnKeystroke	m	bool OnKeystroke(int Wparam, int Message, int Lparam, int Id)	2010	obsolete>IPropertyManagerPage2Handler8.OnKeystroke	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnKeystroke.
+OnListboxSelectionChanged	m	void OnListboxSelectionChanged(int Id, int Item)	2010	obsolete>IPropertyManagerPage2Handler8.OnListboxSelectionChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnListboxSelectionChanged.
+OnLostFocus	m	void OnLostFocus(int Id)	2010	obsolete>IPropertyManagerPage2Handler8.OnLostFocus	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnLostFocus.
+OnNextPage	m	bool OnNextPage()	2010	obsolete>IPropertyManagerPage2Handler8.OnNextPage	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnNextPage.
+OnNumberboxChanged	m	void OnNumberboxChanged(int Id, double Value)	2010	obsolete>IPropertyManagerPage2Handler8.OnNumberboxChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnNumberboxChanged.
+OnOptionCheck	m	void OnOptionCheck(int Id)	2010	obsolete>IPropertyManagerPage2Handler8.OnOptionCheck	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnOptionCheck.
+OnPopupMenuItem	m	void OnPopupMenuItem(int Id)	2010	obsolete>IPropertyManagerPage2Handler8.OnPopupMenuItem	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnPopupMenuItem.
+OnPopupMenuItemUpdate	m	void OnPopupMenuItemUpdate(int Id, ref int retval)	2010	obsolete>IPropertyManagerPage2Handler8.OnPopupMenuItemUpdate	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnPopupMenuItemUpdate.
+OnPreview	m	bool OnPreview()	2010	obsolete>IPropertyManagerPage2Handler8.OnPreview	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnPreview.
+OnPreviousPage	m	bool OnPreviousPage()	2010	obsolete>IPropertyManagerPage2Handler8.OnPreviousPage	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnPreviousPage.
+OnRedo	m	void OnRedo()	2010	obsolete>IPropertyManagerPage2Handler8.OnRedo	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnRedo.
+OnSelectionboxCalloutCreated	m	void OnSelectionboxCalloutCreated(int Id)	2010	obsolete>IPropertyManagerPage2Handler8.OnSelectionboxCalloutCreated	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnSelectionboxCalloutCreated.
+OnSelectionboxCalloutDestroyed	m	void OnSelectionboxCalloutDestroyed(int Id)	2010	obsolete>IPropertyManagerPage2Handler8.OnSelectionboxCalloutDestroyed	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnSelectionboxCalloutDestroyed.
+OnSelectionboxFocusChanged	m	void OnSelectionboxFocusChanged(int Id)	2010	obsolete>IPropertyManagerPage2Handler8.OnSelectionboxFocusChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnSelectionboxFocusChanged.
+OnSelectionboxListChanged	m	void OnSelectionboxListChanged(int Id, int Count)	2010	obsolete>IPropertyManagerPage2Handler8.OnSelectionboxListChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnSelectionboxListChanged.
+OnSliderPositionChanged	m	void OnSliderPositionChanged(int Id, double Value)	2010	obsolete>IPropertyManagerPage2Handler8.OnSliderPositionChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnSliderPositionChanged.
+OnSliderTrackingCompleted	m	void OnSliderTrackingCompleted(int Id, double Value)	2010	obsolete>IPropertyManagerPage2Handler8.OnSliderTrackingCompleted	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnSliderTrackingCompleted.
+OnSubmitSelection	m	bool OnSubmitSelection(int Id, object Selection, int SelType:swSelectType_e, out string ItemText)	2010	obsolete>IPropertyManagerPage2Handler8.OnSubmitSelection	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnSubmitSelection.
+OnTabClicked	m	bool OnTabClicked(int Id)	2010	obsolete>IPropertyManagerPage2Handler8.OnTabClicked	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnTabClicked.
+OnTextboxChanged	m	void OnTextboxChanged(int Id, string Text)	2010	obsolete>IPropertyManagerPage2Handler8.OnTextboxChanged	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnTextboxChanged.
+OnUndo	m	void OnUndo()	2010	obsolete>IPropertyManagerPage2Handler8.OnUndo	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnUndo.
+OnWhatsNew	m	void OnWhatsNew()	2010	obsolete>IPropertyManagerPage2Handler8.OnWhatsNew	Obsoleted. Superseded by IPropertyManagerPage2Handler8::OnWhatsNew.
+@IPropertyManagerPage2Handler8	i		status=obsolete>IPropertyManagerPage2Handler9
+AfterActivation	m	void AfterActivation()	2011	obsolete>IPropertyManagerPage2Handler9.AfterActivation
+AfterClose	m	void AfterClose()	2011	obsolete>IPropertyManagerPage2Handler9.AfterClose
+OnActiveXControlCreated	m	int:swHandleActiveXCreationFailure_e OnActiveXControlCreated(int Id, bool Status)	2011	obsolete>IPropertyManagerPage2Handler9.OnActiveXControlCreated
+OnButtonPress	m	void OnButtonPress(int Id)	2011	obsolete>IPropertyManagerPage2Handler9.OnButtonPress
+OnCheckboxCheck	m	void OnCheckboxCheck(int Id, bool Checked)	2011	obsolete>IPropertyManagerPage2Handler9.OnCheckboxCheck
+OnClose	m	void OnClose(int Reason:swPropertyManagerPageCloseReasons_e)	2011	obsolete>IPropertyManagerPage2Handler9.OnClose
+OnComboboxEditChanged	m	void OnComboboxEditChanged(int Id, string Text)	2011	obsolete>IPropertyManagerPage2Handler9.OnComboboxEditChanged
+OnComboboxSelectionChanged	m	void OnComboboxSelectionChanged(int Id, int Item)	2011	obsolete>IPropertyManagerPage2Handler9.OnComboboxSelectionChanged
+OnGainedFocus	m	void OnGainedFocus(int Id)	2011	obsolete>IPropertyManagerPage2Handler9.OnGainedFocus
+OnGroupCheck	m	void OnGroupCheck(int Id, bool Checked)	2011	obsolete>IPropertyManagerPage2Handler9.OnGroupCheck
+OnGroupExpand	m	void OnGroupExpand(int Id, bool Expanded)	2011	obsolete>IPropertyManagerPage2Handler9.OnGroupExpand
+OnHelp	m	bool OnHelp()	2011	obsolete>IPropertyManagerPage2Handler9.OnHelp
+OnKeystroke	m	bool OnKeystroke(int Wparam, int Message, int Lparam, int Id)	2011	obsolete>IPropertyManagerPage2Handler9.OnKeystroke
+OnListboxRMBUp	m	void OnListboxRMBUp(int Id, int PosX, int PosY)	2011	obsolete>IPropertyManagerPage2Handler9.OnListboxRMBUp
+OnListboxSelectionChanged	m	void OnListboxSelectionChanged(int Id, int Item)	2011	obsolete>IPropertyManagerPage2Handler9.OnListboxSelectionChanged
+OnLostFocus	m	void OnLostFocus(int Id)	2011	obsolete>IPropertyManagerPage2Handler9.OnLostFocus
+OnNextPage	m	bool OnNextPage()	2011	obsolete>IPropertyManagerPage2Handler9.OnNextPage
+OnNumberboxChanged	m	void OnNumberboxChanged(int Id, double Value)	2011	obsolete>IPropertyManagerPage2Handler9.OnNumberboxChanged
+OnOptionCheck	m	void OnOptionCheck(int Id)	2011	obsolete>IPropertyManagerPage2Handler9.OnOptionCheck
+OnPopupMenuItem	m	void OnPopupMenuItem(int Id)	2011	obsolete>IPropertyManagerPage2Handler9.OnPopupMenuItem
+OnPopupMenuItemUpdate	m	void OnPopupMenuItemUpdate(int Id, ref int retval)	2011	obsolete>IPropertyManagerPage2Handler9.OnPopupMenuItemUpdate
+OnPreview	m	bool OnPreview()	2011	obsolete>IPropertyManagerPage2Handler9.OnPreview
+OnPreviousPage	m	bool OnPreviousPage()	2011	obsolete>IPropertyManagerPage2Handler9.OnPreviousPage
+OnRedo	m	void OnRedo()	2011	obsolete>IPropertyManagerPage2Handler9.OnRedo
+OnSelectionboxCalloutCreated	m	void OnSelectionboxCalloutCreated(int Id)	2011	obsolete>IPropertyManagerPage2Handler9.OnSelectionboxCalloutCreated
+OnSelectionboxCalloutDestroyed	m	void OnSelectionboxCalloutDestroyed(int Id)	2011	obsolete>IPropertyManagerPage2Handler9.OnSelectionboxCalloutDestroyed
+OnSelectionboxFocusChanged	m	void OnSelectionboxFocusChanged(int Id)	2011	obsolete>IPropertyManagerPage2Handler9.OnSelectionboxFocusChanged
+OnSelectionboxListChanged	m	void OnSelectionboxListChanged(int Id, int Count)	2011	obsolete>IPropertyManagerPage2Handler9.OnSelectionboxListChanged
+OnSliderPositionChanged	m	void OnSliderPositionChanged(int Id, double Value)	2011	obsolete>IPropertyManagerPage2Handler9.OnSliderPositionChanged
+OnSliderTrackingCompleted	m	void OnSliderTrackingCompleted(int Id, double Value)	2011	obsolete>IPropertyManagerPage2Handler9.OnSliderTrackingCompleted
+OnSubmitSelection	m	bool OnSubmitSelection(int Id, object Selection, int SelType:swSelectType_e, out string ItemText)	2011	obsolete>IPropertyManagerPage2Handler9.OnSubmitSelection
+OnTabClicked	m	bool OnTabClicked(int Id)	2011	obsolete>IPropertyManagerPage2Handler9.OnTabClicked
+OnTextboxChanged	m	void OnTextboxChanged(int Id, string Text)	2011	obsolete>IPropertyManagerPage2Handler9.OnTextboxChanged
+OnUndo	m	void OnUndo()	2011	obsolete>IPropertyManagerPage2Handler9.OnUndo
+OnWhatsNew	m	void OnWhatsNew()	2011	obsolete>IPropertyManagerPage2Handler9.OnWhatsNew
+OnWindowFromHandleControlCreated	m	int:swHandleWindowFromHandleCreationFailure_e OnWindowFromHandleControlCreated(int Id, bool Status)	2011	obsolete>IPropertyManagerPage2Handler9.OnWindowFromHandleControlCreated
+@IPropertyManagerPage2Handler9	i	Must be implemented by the add-in application to handle callbacks from IPropertyManagerPage2.
+AfterActivation	m	void AfterActivation()	2012		Called after the PropertyManager page has been activated.
+AfterClose	m	void AfterClose()	2012		Called after the PropertyManager page is closed.
+OnActiveXControlCreated	m	int:swHandleActiveXCreationFailure_e OnActiveXControlCreated(int Id, bool Status)	2012		Called when an attempt to create an ActiveX control on the PropertyManager page occurs.
+OnButtonPress	m	void OnButtonPress(int Id)	2012		Called when a user clicks this button on this PropertyManager page.
+OnCheckboxCheck	m	void OnCheckboxCheck(int Id, bool Checked)	2012		Called when a user selects this check box on this PropertyManager page.
+OnClose	m	void OnClose(int Reason:swPropertyManagerPageCloseReasons_e)	2012		Called when this PropertyManager page is closing.
+OnComboboxEditChanged	m	void OnComboboxEditChanged(int Id, string Text)	2012		Called when a user changes the text string in the text box of a combo box on this PropertyManager page.
+OnComboboxSelectionChanged	m	void OnComboboxSelectionChanged(int Id, int Item)	2012		Called when a user changes the selected item in a combo box on this PropertyManager page.
+OnGainedFocus	m	void OnGainedFocus(int Id)			Called when a control (edit box, combo box, list box, or number box) gains focus on this PropertyManager page.
+OnGroupCheck	m	void OnGroupCheck(int Id, bool Checked)	2012		Called when a user selects the check box in the title of a group box on a PropertyManager page.
+OnGroupExpand	m	void OnGroupExpand(int Id, bool Expanded)	2012		Called when a user clicks an arrow to open a group box on the PropertyManager page.
+OnHelp	m	bool OnHelp()	2012		Called when a user clicks the Help button on this PropertyManager page.
+OnKeystroke	m	bool OnKeystroke(int Wparam, int Message, int Lparam, int Id)	2012		Processes a keystroke that occurred on this PropertyManager page.
+OnListboxRMBUp	m	void OnListboxRMBUp(int Id, int PosX, int PosY)	2012		Called when the right-mouse button is released in a list box on this PropertyManager page.
+OnListboxSelectionChanged	m	void OnListboxSelectionChanged(int Id, int Item)	2012		Called when a user changes the selected item in a list box or selection list box on this PropertyManager page.
+OnLostFocus	m	void OnLostFocus(int Id)			Called when a control (edit box, combo box, list box, or number box) loses focus on this PropertyManager page.
+OnNextPage	m	bool OnNextPage()	2012		Called when a user clicks the Next button on the PropertyManager page.
+OnNumberboxChanged	m	void OnNumberboxChanged(int Id, double Value)	2012		Called when a user changes the value in the number box on a PropertyManager page.
+OnNumberBoxTrackingCompleted	m	void OnNumberBoxTrackingCompleted(int Id, double Value)	2012		Called when a user finishes changing the value in the number box on a PropertyManager page.
+OnOptionCheck	m	void OnOptionCheck(int Id)	2012		Called when a user selects an option (radio button) on this PropertyManager page.
+OnPopupMenuItem	m	void OnPopupMenuItem(int Id)	2012		Determines which item was selected when the user selects a pop-up menu item.
+OnPopupMenuItemUpdate	m	void OnPopupMenuItemUpdate(int Id, ref int retval)	2012		When Windows attempts to select or deselect and enable or disable the pop-up menu item, SOLIDWORKS calls this method...
+OnPreview	m	bool OnPreview()	2012		Called when a user clicks the Preview button on a PropertyManager page.
+OnPreviousPage	m	bool OnPreviousPage()	2012		Called when a user clicks the Back button on this PropertyManager page.
+OnRedo	m	void OnRedo()	2012		Called when a user clicks the Redo button on this PropertyManager page.
+OnSelectionboxCalloutCreated	m	void OnSelectionboxCalloutCreated(int Id)	2012		Performs some processing while the callout for this selection box is created.
+OnSelectionboxCalloutDestroyed	m	void OnSelectionboxCalloutDestroyed(int Id)	2012		Performs some processing after the callout for this selection box is destroyed.
+OnSelectionboxFocusChanged	m	void OnSelectionboxFocusChanged(int Id)	2012		Indicates that the active selection list box has changed.
+OnSelectionboxListChanged	m	void OnSelectionboxListChanged(int Id, int Count)	2012		Called when a user changes the selection list in a selection box on this PropertyManager page.
+OnSliderPositionChanged	m	void OnSliderPositionChanged(int Id, double Value)	2012		Called whenever the user changes the position of a slider control on this PropertyManager page.
+OnSliderTrackingCompleted	m	void OnSliderTrackingCompleted(int Id, double Value)	2012		Called when a user finishes dragging a slider control on this PropertyManager page.
+OnSubmitSelection	m	bool OnSubmitSelection(int Id, object Selection, int SelType:swSelectType_e, out string ItemText)	2012		Called when a selection is made, which allows the add-in to accept or reject the selection.
+OnTabClicked	m	bool OnTabClicked(int Id)	2012		Called when a user clicks a tab on a multi-tab PropertyManager page.
+OnTextboxChanged	m	void OnTextboxChanged(int Id, string Text)	2012		Called when a user changes the string in a text box on this PropertyManager page.
+OnUndo	m	void OnUndo()	2012		Called when a user clicks the Undo button on this PropertyManager page.
+OnWhatsNew	m	void OnWhatsNew()	2012		Called when a user clicks the What's New button on this PropertyManager page.
+OnWindowFromHandleControlCreated	m	int:swHandleWindowFromHandleCreationFailure_e OnWindowFromHandleControlCreated(int Id, bool Status)	2012		Called when an attempt is made to create a.NET control on the PropertyManager page.
+@ISwAddin	i	Allows applications to create SOLIDWORKS add-ins.
+ConnectToSW	m	bool ConnectToSW(object ThisSW, int Cookie)	2001Plus		Calls this method when the add-in is loaded.
+DisconnectFromSW	m	bool DisconnectFromSW()	2001Plus		Calls this method when SOLIDWORKS is about to be destroyed.
+@ISwAddinAdvancedOptionBroker	i	Allows add-ins to remove dismissed messages from Tools > Options > System Options > Messages/Errors/Warnings.
+GetMessageIDs	m	void GetMessageIDs(out object IDs, out object Message)	2010		Gets all of the dismissed messages currently listed on Tools > Options > System Options > Messages/Errors/Warnings.
+SetMessageIDs	m	void SetMessageIDs(object IDs)	2010		Sets the specified dismissed messages to display on Tools > Options > System Options > Messages/Errors/Warnings.
+@ISwAddinBroker	i	Gets information about an add-in's entities so that SOLIDWORKS can interact with those entities.
+GetInferencePoints	m	void GetInferencePoints(object pDoc, int SelPosX, int SelPosY, double Tolerance, int Option:swPointInferenceBrokerOption_e, out object InferPoints)	2007		Gets one or more inference points from an add-in.
+GetSelectedObjectsBBox	m	void GetSelectedObjectsBBox(object pDoc, int Option:swAddinBrokerBBoxOption_e, out object BoxCorners)	2007		Gets the selected entities bounding box from an add-in.
+@ISwCalloutHandler	i	Must be implemented by an add-in application to create callouts.	use=2
+OnStringValueChanged	m	bool OnStringValueChanged(object pManipulator:ICallout, int RowID, string Text)	2007		Allows access to and modifcation of text in a specific row in a callout.
+@ISwColorContour	i		status=obsolete>ISwColorContour1
+Color	m	int Color(double Value)	2004	obsolete>ISwColorContour1.Color
+DisplayString	m	string DisplayString(double Value)	2004	obsolete>ISwColorContour1.DisplayString
+NeedsUpdate	m	bool NeedsUpdate()	2004	obsolete>ISwColorContour1.NeedsUpdate
+Value	m	int Value(object face, ref float vertexCoords, ref float normalCoords, out double Value)	2004	obsolete>ISwColorContour1.Value
+@ISwColorContour1	i	Allows access to the color and display values of curvature in a SOLIDWORKS model.	use=10
+Color	m	int Color(double Value)	2010 SP5		Gets the color for the specified location on the model.
+DisplayString	m	string DisplayString(double Value)	2010 SP5		Gets the string to display for the specified location on the model.
+NeedsUpdate	m	bool NeedsUpdate()	2010 SP5		Specifies whether the SOLIDWORKS software refreshes the color and display.
+Value	m	int Value(object face, float vertex_x, float vertex_y, float vertex_z, float normal_x, float normal_y, float normal_z, out double Value)	2010 SP5		Gets the value that is associated with the specified location on the model.
+@ISwComFeature	i	Allows applications to create macro features using COM.
+Edit	m	object Edit(object app, object modelDoc, object feature)	2003		Allows you to edit the definition of a macro feature created using COM.
+Regenerate	m	object Regenerate(object app, object modelDoc, object feature)	2003		Allows you to rebuild a macro feature created using COM.
+Security	m	object:swMacroFeatureSecurityOptions_e Security(object app, object modelDoc, object feature)	2003		Allows you to specify whether instances of the macro feature created using COM can be rolled back, edited...
+@ISwManipulatorHandler	i		status=obsolete>ISwManipulatorHandler2
+OnDelete	m	bool OnDelete(object pManipulator)		obsolete>ISwManipulatorHandler2.OnDelete
+OnDirectionFlipped	m	void OnDirectionFlipped(object pManipulator)		obsolete>ISwManipulatorHandler2.OnDirectionFlipped
+OnDoubleValueChanged	m	bool OnDoubleValueChanged(object pManipulator, int Id, ref double Value)		obsolete>ISwManipulatorHandler2.OnDoubleValueChanged
+OnEndDrag	m	void OnEndDrag(object pManipulator)		obsolete>ISwManipulatorHandler2.OnEndDrag
+OnEndNoDrag	m	void OnEndNoDrag(object pManipulator, int handleIndex)		obsolete>ISwManipulatorHandler2.OnEndNoDrag
+OnHandleRmbSelected	m	void OnHandleRmbSelected(object pManipulator, int handleIndex)		obsolete>ISwManipulatorHandler2.OnHandleRmbSelected
+OnHandleSelected	m	void OnHandleSelected(object pManipulator, int handleIndex)		obsolete>ISwManipulatorHandler2.OnHandleSelected
+OnItemSetFocus	m	void OnItemSetFocus(object pManipulator, int Id)		obsolete>ISwManipulatorHandler2.OnItemSetFocus
+OnLmbSelected	m	bool OnLmbSelected(object pManipulator)		obsolete>ISwManipulatorHandler2.OnHandleLmbSelected
+OnStringValueChanged	m	bool OnStringValueChanged(object pManipulator, int Id, ref string Value)		obsolete>ISwManipulatorHandler2.OnStringValueChanged
+OnUpdateDrag	m	void OnUpdateDrag(object pManipulator, int handleIndex, object newPosMathPt)		obsolete>ISwManipulatorHandler2.OnUpdateDrag
+@ISwManipulatorHandler2	i	Must be implemented by an add-in application to interact with a manipulator.	use=72
+OnDelete	m	bool OnDelete(object pManipulator:IManipulator)	2007		Called when the SOLIDWORKS document is closed.
+OnDirectionFlipped	m	void OnDirectionFlipped(object pManipulator:IManipulator)	2007		Flips the direction of the manipulator.
+OnDoubleValueChanged	m	bool OnDoubleValueChanged(object pManipulator:IManipulator, int handleIndex, ref double Value)	2007		Indicates if the new value for the specified item is accepted or not.
+OnEndDrag	m	void OnEndDrag(object pManipulator:IManipulator, int handleIndex)	2007		Called when a user releases a mouse button after dragging the pointer.
+OnEndNoDrag	m	void OnEndNoDrag(object pManipulator:IManipulator, int handleIndex)	2007		Called when a user releases a mouse button and has not dragged the pointer.
+OnHandleLmbSelected	m	bool OnHandleLmbSelected(object pManipulator:IManipulator)	2007		Called when a user clicks the left-mouse button.
+OnHandleRmbSelected	m	void OnHandleRmbSelected(object pManipulator:IManipulator, int handleIndex)	2007		Called when a user clicks the right-mouse button.
+OnHandleSelected	m	void OnHandleSelected(object pManipulator:IManipulator, int handleIndex:swDragArrowManipulatorOptions_e)	2007		Gets the selected handle for this manipulator.
+OnItemSetFocus	m	void OnItemSetFocus(object pManipulator:IManipulator, int handleIndex)	2007		Sets the focus on the specified item.
+OnStringValueChanged	m	bool OnStringValueChanged(object pManipulator:IManipulator, int handleIndex, ref string Value)	2007		Indicates if the new value for the specified item is accepted or not.
+OnUpdateDrag	m	void OnUpdateDrag(object pManipulator:IManipulator, int handleIndex, object newPosMathPt:IMathPoint)	2007		Called when the pointer moves while the left-mouse or right-mouse button is held down.
+@ISwPEManager	i	Allows SOLIDWORKS Partners to create SOLIDWORKS add-ins that have been registered with the SOLIDWORKS Partner...
+IdentifyToSW	m	void IdentifyToSW(object ClassFactory:ISwPEClassFactory)	2021		Sends the specified callback object to the SOLIDWORKS Partner add-in, requesting a license key.
+@ISwQuickTip	i	Must be implemented by an add-in application to create Quick Tips for that add-in.
+ApplicationName	p	string ApplicationName {get;}	2005		Gets the name of add-in application.
+AppState	m	void AppState(int state)	2005		Sets the state of the add-in application.
+HideGuide	p	bool HideGuide {get;}	2005		Gets the state of the add-in's Quick Tips.
+MenuName	p	string MenuName {get;}	2005		Gets the name of add-in's Quick Tips on the SOLIDWORKS Help menu.
+ShowInAssemblyDoc	p	bool ShowInAssemblyDoc {get;}	2005		Gets whether to show an add-in's Quick Tips in SOLIDWORKS assembly documents.
+ShowInDrawingDoc	p	bool ShowInDrawingDoc {get;}	2005		Gets whether to show an add-in's Quick Tips in SOLIDWORKS drawing documents.
+ShowInPartDoc	p	bool ShowInPartDoc {get;}	2005		Gets whether to show the add-in's Quick Tips in SOLIDWORKS part documents.
+SwState	m	void SwState(int state)	2005		Calls this method to advise your add-in of the current add-in state.
+Url	p	string Url {get;}	2005		Gets the URL of the HMTL page to display in the add-in's Quick Tips.
+@ISwUndoAPIHandler	i	Undo an add-in application's previously processed commands.	via=IModelDocExtension.SetApiUndoObject	use=3
+DoUndo	m	void DoUndo()	2008		Undoes an add-in application's previously processed commands when an end-user selects its undo command on the...
+UndoReSet	m	void UndoReSet()			Resets (clears) the add-in application's undo list after processing the add-in application's undo command and lets...
+@IUserNotificationHandler	i	Must be implemented by the add-in application to handle callbacks from IUserNotificationDefinition.	use=5
+OnTimeout	m	void OnTimeout()	2022		Called by SOLIDWORKS when the timeout expires and the notification closes without a user response.
+OnUserClose	m	void OnUserClose()	2022		Called by SOLIDWORKS when the user closes the notification without selecting a response.
+OnUserResponseA	m	void OnUserResponseA(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the first response control.
+OnUserResponseB	m	void OnUserResponseB(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the second response control.
+@MessageBarHandler	i		base=IMessageBarHandler	use=3
+OnUserClose	m	void OnUserClose()	2022		Called by SOLIDWORKS when the user closes the message bar.
+OnUserResponseA	m	void OnUserResponseA(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the first response control.
+OnUserResponseB	m	void OnUserResponseB(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the second response control.
+@MessageBarHandlerClass	c	Must be implemented by the add-in application to handle callbacks from IMessageBarDefinition.	base=IMessageBarHandler,MessageBarHandler
+OnUserClose	m	void OnUserClose()	2022		Called by SOLIDWORKS when the user closes the message bar.
+OnUserResponseA	m	void OnUserResponseA(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the first response control.
+OnUserResponseB	m	void OnUserResponseB(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the second response control.
+@SwPEManager	i		base=ISwPEManager
+IdentifyToSW	m	void IdentifyToSW(object ClassFactory:ISwPEClassFactory)	2021		Sends the specified callback object to the SOLIDWORKS Partner add-in, requesting a license key.
+@SwPEManagerClass	c	Allows SOLIDWORKS Partners to create SOLIDWORKS add-ins that have been registered with the SOLIDWORKS Partner...	base=ISwPEManager,SwPEManager
+IdentifyToSW	m	void IdentifyToSW(object ClassFactory)	2021		Sends the specified callback object to the SOLIDWORKS Partner add-in, requesting a license key.
+@UserNotificationHandler	i		base=IUserNotificationHandler	use=4
+OnTimeout	m	void OnTimeout()	2022		Called by SOLIDWORKS when the timeout expires and the notification closes without a user response.
+OnUserClose	m	void OnUserClose()	2022		Called by SOLIDWORKS when the user closes the notification without selecting a response.
+OnUserResponseA	m	void OnUserResponseA(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the first response control.
+OnUserResponseB	m	void OnUserResponseB(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the second response control.
+@UserNotificationHandlerClass	c	Must be implemented by the add-in application to handle callbacks from IUserNotificationDefinition.	base=IUserNotificationHandler,UserNotificationHandler
+OnTimeout	m	void OnTimeout()	2022		Called by SOLIDWORKS when the timeout expires and the notification closes without a user response.
+OnUserClose	m	void OnUserClose()	2022		Called by SOLIDWORKS when the user closes the notification without selecting a response.
+OnUserResponseA	m	void OnUserResponseA(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the first response control.
+OnUserResponseB	m	void OnUserResponseB(bool DoNotShowAgain)	2022		Called by SOLIDWORKS when the user selects the second response control.

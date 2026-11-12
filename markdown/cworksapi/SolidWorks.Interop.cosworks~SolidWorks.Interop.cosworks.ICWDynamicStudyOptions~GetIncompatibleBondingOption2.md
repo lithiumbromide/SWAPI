@@ -49,9 +49,7 @@ System.int GetIncompatibleBondingOption2(
 
 ### Parameters
 
-- `NBondingOption`: Option as defined in
-
-[swsIncompatibleBondingOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsIncompatibleBondingOption_e.html)
+- `NBondingOption`: Option as defined in [swsIncompatibleBondingOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsIncompatibleBondingOption_e.html)
 
 ### Return Value
 
@@ -59,18 +57,12 @@ System.int GetIncompatibleBondingOption2(
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::GetIncompatibleBondingOption2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetIncompatibleBondingOption2.html)
-
-.
+See [CWDynamicStudyOptions::GetIncompatibleBondingOption2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetIncompatibleBondingOption2.html).
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::SetIncompatibleBondingOption2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetIncompatibleBondingOption2.html)
 
 ## Availability

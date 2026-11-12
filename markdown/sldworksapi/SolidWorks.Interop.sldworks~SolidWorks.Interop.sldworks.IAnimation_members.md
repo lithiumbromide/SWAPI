@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 # IAnimation Interface Members
 
-The following tables list the members exposed by[IAnimation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation.html).
+The following tables list the members exposed by [IAnimation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation.html).
 
 ## Public Properties
 
@@ -37,5 +37,4 @@ The following tables list the members exposed by[IAnimation](SolidWorks.Interop.
 ## See Also
 
 [IAnimation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

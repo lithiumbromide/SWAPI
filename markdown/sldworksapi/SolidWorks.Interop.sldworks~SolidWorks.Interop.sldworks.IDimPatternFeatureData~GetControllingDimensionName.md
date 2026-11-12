@@ -47,21 +47,11 @@ System.String^ GetControllingDimensionName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Index of the controlling dimension pattern (see
-
-Remarks
-
-)
+- `Index`: Index of the controlling dimension pattern (see **Remarks**)
 
 ### Return Value
 
@@ -69,32 +59,21 @@ Name of the controlling dimension of the pattern instance
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::GetControllingDimensionName](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetControllingDimensionName.html)
-
-.
+See [DimPatternFeatureData::GetControllingDimensionName](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetControllingDimensionName.html).
 
 ## Examples
 
 [Insert Variable Pattern Feature (C#)](Insert_Advanced_Variable_Pattern_Feature_Example_CSharp.htm)
-
 [Insert Variable Pattern Feature (VB.NET)](Insert_Advanced_Variable_Pattern_Feature_Example_VBNET.htm)
-
 [Insert Variable Pattern Feature (VBA)](Insert_Advanced_Variable_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
 
-Use
-
-[IDimPatternFeatureData::GetControllingDimensionCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetControllingDimensionCount.html)
-
-to get the number of controlling dimensions.
+Use [IDimPatternFeatureData::GetControllingDimensionCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetControllingDimensionCount.html) to get the number of controlling dimensions.
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
 
 ## Availability

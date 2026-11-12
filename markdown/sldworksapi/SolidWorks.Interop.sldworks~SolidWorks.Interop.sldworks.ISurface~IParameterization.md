@@ -40,39 +40,29 @@ System.double IParameterization()
 System.double IParameterization();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to an array of doubles (seeRemarks)
+Pointer to an array of doubles (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[Surface::IParameterization](ms-its:sldworksapivb6.chm::/sldworks~Surface~IParameterization.html)
-
-.
+See [Surface::IParameterization](ms-its:sldworksapivb6.chm::/sldworks~Surface~IParameterization.html).
 
 ## Remarks
 
 The return value is the following array of 11 doubles:
 
-[uRange[2], vRange[2], uBoundType, vBoundType, uProps[2], vProps[2], numProps]
+[ uRange[2], vRange[2], uBoundType, vBoundType, uProps[2], vProps[2], numProps ]
 
 where:
 
 uRange[2] = array of two doubles describing the low and high range, respectively, for U.
 
-vRange[2] =kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}array of two doubles describing the low and high range, respectively, for V.
+vRange[2] = array of two doubles describing the low and high range, respectively, for V.
 
-uBoundType= twokadov_tag{{<spaces>}}kadov_tag{{</spaces>}}integers packed into a double. Each integer describes the behavior at the start and at the end of the U range. Valid values and their meanings are:
+uBoundType = two integers packed into a double. Each integer describes the behavior at the start and at the end of the U range. Valid values and their meanings are:
 
 13733 - Infinite
 
@@ -88,9 +78,9 @@ uBoundType= twokadov_tag{{<spaces>}}kadov_tag{{</spaces>}}integers packed into a
 
 If the behavior at the start of the U range is Degenerate', then the V parameter is degenerate when U = urange[0]'. The derivative of the parameterization function with respect to v is 0whenever u = urange[0]', for all values of v, and the parameter curve corresponding to u = urange[0]' degenerates to a single point. A parameterization can only degenerate at the end of its range, unless the surface is a type of Bsurface.
 
-vBoundType= two integers packed into a double. Each integer describes the behavior at the start and end of the V range. For valid values and their meanings, see description ofuBoundType.
+vBoundType = two integers packed into a double. Each integer describes the behavior at the start and end of the V range. For valid values and their meanings, see description of uBoundType.
 
-uProps[2] = fourkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}integers packed into two doubles representing U parameterization properties. TheuPropsarray of two doubles will contain a total of one or more integer values with a maximum of four. Valid values and their meanings are:
+uProps[2] = four integers packed into two doubles representing U parameterization properties. The uProps array of two doubles will contain a total of one or more integer values with a maximum of four. Valid values and their meanings are:
 
 13701 - Periodic parameterization.
 
@@ -104,26 +94,20 @@ uProps[2] = fourkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}integers packed into 
 
 13746 - Bounds at the ends of the parameter range are coincident.
 
-vProps[2] = four integers packed into two doubles representing V parameterization properties. ThevPropsarray of two doubles will contain a total of one or more integer values with a maximum of four. For valid values and their meanings, see description ofuProps.
+vProps[2] = four integers packed into two doubles representing V parameterization properties. The vProps array of two doubles will contain a total of one or more integer values with a maximum of four. For valid values and their meanings, see description of uProps.
 
-numProps= two integers packed into a double. Each integer represents the number of properties returned inuPropsandvProps,respectively.
+numProps = two integers packed into a double. Each integer represents the number of properties returned in uProps and vProps, respectively.
 
 If a surface is periodic in one direction (that is, cylinder, cone, torus (apple and lemon shapes), spheres), then U is the periodic direction.
 
-The -10000 to 10000 parameter range is the modeling limit for the modeler. This means that the values are effectively infinite in size. To get the parameter range from a given face, use[IFace2::GetBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetBox.html)or[IFace2::IGetBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetBox.html),[ISurface::GetClosestPointOn](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetClosestPointOn.html)or[ISurface::IGetClosestPointOn](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetClosestPointOn.html), and[ISurface::ReverseEvaluate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~ReverseEvaluate.html)or[ISurface::IReverseEvaluate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IReverseEvaluate.html).kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}These methods provide a true parameter range that the face is using on the surface.
+The -10000 to 10000 parameter range is the modeling limit for the modeler. This means that the values are effectively infinite in size. To get the parameter range from a given face, use [IFace2::GetBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetBox.html) or [IFace2::IGetBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetBox.html), [ISurface::GetClosestPointOn](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetClosestPointOn.html) or [ISurface::IGetClosestPointOn](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetClosestPointOn.html), and [ISurface::ReverseEvaluate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~ReverseEvaluate.html) or [ISurface::IReverseEvaluate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IReverseEvaluate.html). These methods provide a true parameter range that the face is using on the surface.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::Parameterization Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~Parameterization.html)
-
 [ISurface::IEvaluateAtPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IEvaluateAtPoint.html)
-
 [ISurface::IEvaluate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IEvaluate.html)
-
 [ISurface::Evaluate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~Evaluate.html)
-
 [ISurface::EvaluateAtPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~EvaluateAtPoint.html)

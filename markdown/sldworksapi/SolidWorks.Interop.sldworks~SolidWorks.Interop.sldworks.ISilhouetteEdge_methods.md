@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # ISilhouetteEdge Interface Methods
 
-For a list of all members of this type, see[ISilhouetteEdge members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge_members.html).
+For a list of all members of this type, see [ISilhouetteEdge members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge_members.html).
 
 ## Public Methods
 
@@ -28,9 +28,6 @@ For a list of all members of this type, see[ISilhouetteEdge members](SolidWorks.
 ## See Also
 
 [ISilhouetteEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISelectionMgr::GetSelectedObjectsFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObjectsFace.html)
-
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)

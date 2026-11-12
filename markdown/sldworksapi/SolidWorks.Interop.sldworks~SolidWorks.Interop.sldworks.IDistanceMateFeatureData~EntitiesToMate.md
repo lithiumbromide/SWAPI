@@ -45,37 +45,19 @@ property System.Object^ EntitiesToMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of entities to mate (see
-
-Remarks
-
-)
+Array of entities to mate (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DistanceMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~DistanceMateFeatureData~EntitiesToMate.html)
-
-.
+See [DistanceMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~DistanceMateFeatureData~EntitiesToMate.html).
 
 ## Examples
 
-See the
-
-[IDistanceMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html)
-
-examples.
+See the [IDistanceMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html) examples.
 
 ## Remarks
 
@@ -94,7 +76,6 @@ You can create distance mates with the following mate entity combinations:
 ## See Also
 
 [IDistanceMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html)
-
 [IDistanceMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.int Precision {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Number of digits displayed after the decimal point of the angle value
 
 ## VBA Syntax
 
-See
-
-[CalloutAngleVariable::Precision](ms-its:sldworksapivb6.chm::/sldworks~CalloutAngleVariable~Precision.html)
-
-.
+See [CalloutAngleVariable::Precision](ms-its:sldworksapivb6.chm::/sldworks~CalloutAngleVariable~Precision.html).
 
 ## See Also
 
 [ICalloutAngleVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutAngleVariable.html)
-
 [ICalloutAngleVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutAngleVariable_members.html)
-
 [ICalloutAngleVariable::Angle Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutAngleVariable~Angle.html)
 
 ## Availability

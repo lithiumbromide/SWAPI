@@ -9,13 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # MaterialID Property (IRenderMaterial)
 
-Not supported in SOLIDWORKS 2011 and later
-
-. Superseded by
-
-[IRenderMaterial::GetMaterialIds](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~GetMaterialIds.html)
-
-.
+Not supported in SOLIDWORKS 2011 and later. Superseded by [IRenderMaterial::GetMaterialIds](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~GetMaterialIds.html).
 
 ## Syntax
 
@@ -48,13 +42,7 @@ property System.int MaterialID {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -62,16 +50,11 @@ Appearance ID
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::MaterialID](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~MaterialID.html)
-
-.
+See [RenderMaterial::MaterialID](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~MaterialID.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

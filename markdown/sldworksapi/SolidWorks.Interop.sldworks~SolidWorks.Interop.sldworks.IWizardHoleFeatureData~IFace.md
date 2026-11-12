@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # IFace Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by
-
-[IWizardHoleFeatureData2::IFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~IFace.html)
-
-.
+Obsolete. Superseded by [IWizardHoleFeatureData2::IFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~IFace.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property Face^ IFace {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::IFace](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~IFace.html)
-
-.
+See [WizardHoleFeatureData::IFace](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~IFace.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

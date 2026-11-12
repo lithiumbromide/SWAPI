@@ -9,12 +9,11 @@ source: "sldworksapi/Get_Wizard_Hole_Standards_Data_Example_VB.htm"
 
 # Get Hole Standards Data Example (VBA)
 
-This example shows how to retrieve hole standards data from the Hole Wizard
-database.
+This example shows how to retrieve hole standards data from the Hole Wizard database.
 
 '----------------------------------------------------------------------------
 ' Preconditions:
-' 1. Open SOLIDWORKS.
+' 1. Open SOLIDWORKS Design.
 ' 2. Open an Immediate window.
 '
 ' Postconditions:

@@ -82,11 +82,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertPlaneFeature::GetNominalPlane](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPlaneFeature~GetNominalPlane.html)
-
-.
+See [SwDMDimXpertPlaneFeature::GetNominalPlane](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPlaneFeature~GetNominalPlane.html).
 
 ## Examples
 
@@ -95,7 +91,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertPlaneFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPlaneFeature.html)
-
 [ISwDMDimXpertPlaneFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPlaneFeature_members.html)
 
 ## Availability

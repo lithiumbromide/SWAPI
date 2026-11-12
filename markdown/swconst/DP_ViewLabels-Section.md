@@ -11,146 +11,52 @@ source: "swconst/DP_ViewLabels-Section.htm"
 
 This topic contains two tables. The information in the table:
 
-- appearing immediately after
-  the screen capture of the Document Properties - Section dialog corresponds
-  to the settings on that dialog.
-- titled
-
-  [Obsolete Enumerators](#ObsoleteEnumerators)
-
-  contains
-  enumerators that previously appeared on the Document Properties - Section
-  dialog, but are now obsolete and no longer appear on that dialog.
-
-(Table)=========================================================
+- appearing immediately after the screen capture of the Document Properties - Section dialog corresponds to the settings on that dialog.
+- titled **[Obsolete Enumerators](#ObsoleteEnumerators)** contains enumerators that previously appeared on the Document Properties - Section dialog, but are now obsolete and no longer appear on that dialog.
 
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Base section view standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingSectionView, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base section view standard to use |
-| Line style - Line Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontSectionLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontSectionLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies the style of section view lines |
-| Line style - Line Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontSectionLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontSectionLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies the thickness of section view lines |
-| Line style - Custom Thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontSectionLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontSectionLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of section view lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Line style- Standard with connector, Alternative without connector, Standard
-without connector | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLineStyleDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLineStyleDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingSectionViewLineStyle_e.< Value >) | See swDetailingSectionViewLineStyle_e for valid options | Specifies how section lines display across the drawing view |
-| Section arrow text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the set method |
-| Label options - Per standard | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_PerStandard,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_PerStandard,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If... Then display the section view label according
-to the format... True Required by the current detailing standard False Determined by these document-level user preferences: swDetailingSectionViewLabels_Name swDetailingSectionViewLabels_Label swDetailingSectionViewLabels_Scale swDetailingSectionViewLabels_Delimiter |
-| If... | Then display the section view label according
-to the format... |  |  |
+| Base section view standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingSectionView, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base section view standard to use |
+| Line style - Line Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontSectionLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontSectionLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies the style of section view lines |
+| Line style - Line Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontSectionLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontSectionLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies the thickness of section view lines |
+| Line style - Custom Thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontSectionLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontSectionLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of section view lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Line style- Standard with connector, Alternative without connector, Standard without connector | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLineStyleDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLineStyleDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingSectionViewLineStyle_e.< Value >) | See swDetailingSectionViewLineStyle_e for valid options | Specifies how section lines display across the drawing view |
+| Section arrow text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Label options - Per standard | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_PerStandard, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_PerStandard, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If... Then display the section view label according to the format... True Required by the current detailing standard False Determined by these document-level user preferences: swDetailingSectionViewLabels_Name swDetailingSectionViewLabels_Label swDetailingSectionViewLabels_Scale swDetailingSectionViewLabels_Delimiter |
+| If... | Then display the section view label according to the format... |  |  |
 | True | Required by the current detailing standard |  |  |
 | False | Determined by these document-level user preferences: swDetailingSectionViewLabels_Name swDetailingSectionViewLabels_Label swDetailingSectionViewLabels_Scale swDetailingSectionViewLabels_Delimiter |  |  |
-| Label options - Name | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Name,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Name,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsName_e.< Value >) | See swDetailingViewLabelsName_e for valid options | Specifies the label to use in front of the section view; if set to
-swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom, then set Label
-options - Name (CUSTOM) to a custom label |
-| Label options - Name (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingSectionViewLabels_CustomName,
-swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingSectionViewLabels_CustomName,
-swUserPreferenceOption_e.swDetailingSectionView, < Value >) | String value | Specifies the custom label to use in front of the section view; valid only if Label options - Name is set to
-swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom |
-| Label options - Name - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelNameTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelNameTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the set method |
-| Label options - Label | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Label,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Label,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsLabel_e.< Value >) | See swDetailingViewLabelsLabel_e for valid options | Specifies the format of the section view label |
-| Label options - Label - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelLabelTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelLabelTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the set method |
-| Label options - Rotation | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionView_Rotation,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionView_Rotation,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewRotation_e.< Value >) | See swDetailingViewRotation_e for valid options | Specifies the rotation of the section view label |
-| Label options - Rotation - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionView_RotationTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionView_RotationTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the set method |
-| Label options - Scale | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Scale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Scale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsScale_e.< Value >) | See swDetailingViewLabelsScale_e for valid options | Specifies the label to use in front of the scale value; if set to
-swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom, then set Label options - Scale (CUSTOM) to a custom scale label |
-| Label options - Scale (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingSectionViewLabels_CustomScale,
-swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingSectionViewLabels_CustomScale,
-swUserPreferenceOption_e.swDetailingSectionView, < Value >) | String value | Specifies the custom label to use in front of the scale value; valid only if Label options - Scale is set to
-swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom |
-| Label options - Scale - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelScaleTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelScaleTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the set method |
-| Label options - Delimiter | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Delimiter,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Delimiter,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsDelimiter_e
-.< Value >) | See swDetailingViewLabelsDelimiter_e for valid options | Specifies the format of the scale value |
-| Label options - Delimiter -
-Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelDelimiterTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelDelimiterTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the set method |
-| Label options - Remove space in scale around colon (:) and slash (/) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionView_RemoveSpaceInScale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionView_RemoveSpaceInScale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to remove spaces around delimiter in scale text |
-| Label options - Stacked or In-line | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_Stacked,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_Stacked,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If... Then display the section view name and scale
-in... True 2 lines False 1 line |
-| If... | Then display the section view name and scale
-in... |  |  |
+| Label options - Name | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Name, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Name, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsName_e.< Value >) | See swDetailingViewLabelsName_e for valid options | Specifies the label to use in front of the section view; if set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom, then set Label options - Name (CUSTOM) to a custom label |
+| Label options - Name (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingSectionViewLabels_CustomName, swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingSectionViewLabels_CustomName, swUserPreferenceOption_e.swDetailingSectionView, < Value >) | String value | Specifies the custom label to use in front of the section view; valid only if Label options - Name is set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom |
+| Label options - Name - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelNameTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelNameTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Label options - Label | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Label, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Label, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsLabel_e.< Value >) | See swDetailingViewLabelsLabel_e for valid options | Specifies the format of the section view label |
+| Label options - Label - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelLabelTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelLabelTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Label options - Rotation | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionView_Rotation, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionView_Rotation, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewRotation_e.< Value >) | See swDetailingViewRotation_e for valid options | Specifies the rotation of the section view label |
+| Label options - Rotation - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionView_RotationTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionView_RotationTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Label options - Scale | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Scale, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Scale, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsScale_e.< Value >) | See swDetailingViewLabelsScale_e for valid options | Specifies the label to use in front of the scale value; if set to swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom, then set Label options - Scale (CUSTOM) to a custom scale label |
+| Label options - Scale (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingSectionViewLabels_CustomScale, swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingSectionViewLabels_CustomScale, swUserPreferenceOption_e.swDetailingSectionView, < Value >) | String value | Specifies the custom label to use in front of the scale value; valid only if Label options - Scale is set to swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom |
+| Label options - Scale - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelScaleTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelScaleTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Label options - Delimiter | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Delimiter, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionViewLabels_Delimiter, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsDelimiter_e .< Value >) | See swDetailingViewLabelsDelimiter_e for valid options | Specifies the format of the scale value |
+| Label options - Delimiter - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelDelimiterTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingSectionLabelDelimiterTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Label options - Remove space in scale around colon (:) and slash (/) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionView_RemoveSpaceInScale, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionView_RemoveSpaceInScale, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to remove spaces around delimiter in scale text |
+| Label options - Stacked or In-line | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_Stacked, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_Stacked, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If... Then display the section view name and scale in... True 2 lines False 1 line |
+| If... | Then display the section view name and scale in... |  |  |
 | True | 2 lines |  |  |
 | False | 1 line |  |  |
-| Display label above view | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_AboveView,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_AboveView,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to show label above section view |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingSectionView, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | This setting is available only on drawings; depending on drawing, some
-options may not apply |
-| Section/view size - Arrow width | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowWidth,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowWidth,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies width of arrowheads in section views |
-| Section/view size - Arrowhead length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowHeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowHeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies height of arrowheads in section views |
-| Section/view size - Arrow length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies length of arrowheads in section views |
-| Section/view size - Scale with section view arrow letter height | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingScaleWithSectionTextHeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingScaleWithSectionTextHeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to scale the arrow head to the height of the text
-attached to the end of the arrows in a section view |
-| Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionArrowStyle swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionArrowStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swArrowStyle_e.< Value >) | See swArrowStyle_e for valid options | Specifies style of section view
-arrows |
-| Half section | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHalfSectionArrow swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHalfSectionArrow,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See swDetailingHalfSectionArrow_e for valid options | Specifies the half section arrow type |
-| General display - Hide section view cutting line shoulders | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionHideShoulders,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionHideShoulders,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to hide the section view cutting line shoulders |
-| Include location labels for new views | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionView_IncludeLocationLabelsForNewViews,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionView_IncludeLocationLabelsForNewViews,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to include location labels for new section views |
+| Display label above view | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_AboveView, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionViewLabels_AboveView, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to show label above section view |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingSectionView, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | This setting is available only on drawings; depending on drawing, some options may not apply |
+| Section/view size - Arrow width | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowWidth, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowWidth, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies width of arrowheads in section views |
+| Section/view size - Arrowhead length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowHeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowHeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies height of arrowheads in section views |
+| Section/view size - Arrow length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingSectionArrowLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies length of arrowheads in section views |
+| Section/view size - Scale with section view arrow letter height | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingScaleWithSectionTextHeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingScaleWithSectionTextHeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to scale the arrow head to the height of the text attached to the end of the arrows in a section view |
+| Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionArrowStyle swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingSectionArrowStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swArrowStyle_e.< Value >) | See swArrowStyle_e for valid options | Specifies style of section view arrows |
+| Half section | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHalfSectionArrow swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHalfSectionArrow, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See swDetailingHalfSectionArrow_e for valid options | Specifies the half section arrow type |
+| General display - Hide section view cutting line shoulders | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionHideShoulders, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionHideShoulders, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to hide the section view cutting line shoulders |
+| Include location labels for new views | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionView_IncludeLocationLabelsForNewViews, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSectionView_IncludeLocationLabelsForNewViews, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to include location labels for new section views |
 
-**Obsolete
-Enumerators**
+**Obsolete Enumerators**
 
 | Enumerator | Comment |
 | --- | --- |
 | swDetailingDisplayAlternateSection | Obsolete. |
-| swDetailingSectionLabelTextFormat | Obsolete. Use swDetailingSectionLabelNameTextFormat,
-swDetailingSectionLabelLabelTextFormat, swDetailingSectionLabelScaleTextFormat,
-or swDetailingSectionLabelDelimiterTextFormat |
+| swDetailingSectionLabelTextFormat | Obsolete. Use swDetailingSectionLabelNameTextFormat, swDetailingSectionLabelLabelTextFormat, swDetailingSectionLabelScaleTextFormat, or swDetailingSectionLabelDelimiterTextFormat |

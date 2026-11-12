@@ -41,7 +41,6 @@ ID of folder in which to search; default is the root folder
 ## See Also
 
 [IEdmSearch5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html)
-
 [IEdmSearch5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5_members.html)
 
 ## Availability

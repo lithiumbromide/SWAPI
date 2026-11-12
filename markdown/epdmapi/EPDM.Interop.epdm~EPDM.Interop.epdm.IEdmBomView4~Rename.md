@@ -43,55 +43,54 @@ void Rename(
 
 ## Examples
 
-//Preconditions:
+// Preconditions:
 
-//1. Create a C# console application in Visual Studio.
-
-//2. Add references EPDM.Interop.epdm and EPDM.Interop.EPDMResultCode to the project.
-
-//3. Copy the code below to Program.cs.
-
-//4. Change the namespace to match your project name.
-
-//5. Add an assembly with a named BOM to your vault.
-
-//6. Ensure that parameters of Login, and GetFileFromPath match your vault.
-
-//7. Modify the Rename method’s parameter to rename your assembly’s named BOM.
+// 1. Start Microsoft Visual Studio.
+// 2. Click **File > New > Project > C#, Windows, Console > Console App**.
+// 3. Type RenameBomCSharp in **Project name**.
+// 4. For **Location**, click **...** and navigate to the folder where to create the project.
+// 5. Click **Next**.
+// 6. Select **Framework**.
+// 7. Click **Create**.
+// 8. [Add dependencies and safely pass arrays of structures](file:///E:/APIHelp_SP03/Src/DOCUMENT!X/NET/epdmapi/AddDependencies.htm).
+// 9. Copy the code below to Program.cs.
+//10. Change the namespace to match your project name.
+//11. Add an assembly with a named BOM to your vault.
+//12. Ensure that parameters of Login, and GetFileFromPath match your vault.
+//13. Modify the Rename method’s parameter to rename your assembly’s named BOM.
 
 //
 
 //Postconditions:
 
 //1. Refresh your vault view.
-
 //2. Select the assembly with the named BOM in the vault.
-
 //3. Observe the renamed BOM in the BOM dropdown on the Bill of Materials tab.
 
 //Program.cs:
 
-usingSystem;
+using System;
 
-usingEPDM.Interop.epdm;usingEPDM.Interop.EPDMResultCode;
+using EPDM.Interop.epdm;
+using EPDM.Interop.EPDMResultCode;
 
-usingSystem.Windows.Forms;
+using System.Windows.Forms;
 
-namespaceproject_name
-
-{
-
-classProgram
+namespace RenameBomCSharp
 
 {
 
-staticIEdmVault5 vault1 =null;
+class Program
 
-staticIEdmFile7 aFile;
+{
 
-staticstringuserName ="Admin";
+static IEdmVault5 vault1 = null;
 
-staticvoidMain(string[] args)
+static IEdmFile7 aFile;
+
+static string userName = "Admin";
+
+static void Main(string[] args)
 
 {
 
@@ -99,33 +98,33 @@ try
 
 {
 
-vault1 =newEdmVault5();
+vault1 = new EdmVault5();
 
-if(!vault1. IsLoggedIn )
+if (!vault1.**IsLoggedIn**)
 
-vault1. Login (userName,"password","JEB12");
+vault1.**Login**(userName, "password", "JEB12");
 
 IEdmVault7 vault7 = (IEdmVault7)vault1;
 
 IEdmFolder5 ppoRetParentFolder;
 
-aFile = (IEdmFile7)vault1. GetFileFromPath ("C:\\Users\\J4M\\Desktop\\JEB12\\test3.sldasm",outppoRetParentFolder);
+aFile = (IEdmFile7)vault1.**GetFileFromPath**("C:\\Users\\J4M\\Desktop\\JEB12\\test3.sldasm", out ppoRetParentFolder);
 
-EdmBomInfo[] derivedBOMs =null;
+EdmBomInfo[] derivedBOMs = null;
 
-aFile. GetDerivedBOMs (outderivedBOMs);
+aFile.**GetDerivedBOMs**(out derivedBOMs);
 
-intbomId = derivedBOMs[0]. mlBomID ;
+int bomId = derivedBOMs[0].**mlBomID**;
 
-IEdmBom bom = (IEdmBom)vault7. GetObject (EdmObjectType.EdmObject_BOM, bomId);
+IEdmBom bom = (IEdmBom)vault7.**GetObject**(EdmObjectType.EdmObject_BOM, bomId);
 
-EdmBomVersion[] ppoVersions =null;
+EdmBomVersion[] ppoVersions = null;
 
-bom. GetVersions (outppoVersions);
+bom.**GetVersions**(out ppoVersions);
 
-IEdmBomView4 bomView = (IEdmBomView4)bom. GetView (ppoVersions[ppoVersions.Length - 1]. mlVersion );
+IEdmBomView4 bomView = (IEdmBomView4)bom.**GetView**(ppoVersions[ppoVersions.Length - 1].**mlVersion**);
 
-bomView. Rename ("test3_renamed.sldasm.1.BOM");
+bomView.**Rename**("test3_renamed.sldasm.1.BOM");
 
 Console.WriteLine("BOM successfully renamed");
 
@@ -135,23 +134,23 @@ Console.ReadKey();
 
 }
 
-catch(System.Runtime.InteropServices.COMException ex)
+catch (System.Runtime.InteropServices.COMException ex)
 
 {
 
-varerrorType =typeof(EdmResultErrorCodes_e);
+var errorType = typeof(EdmResultErrorCodes_e);
 
-if(Enum.IsDefined(errorType, ex.ErrorCode))
+if (Enum.IsDefined(errorType, ex.ErrorCode))
 
 MessageBox.Show(String.Format("Error occurred: {0}", Enum.GetName(errorType, ex.ErrorCode)));
 
 else
 
-MessageBox.Show("HRESULT = 0x"+ ex.ErrorCode.ToString("X") +" "+ ex.Message);
+MessageBox.Show("HRESULT = 0x" + ex.ErrorCode.ToString("X") + " " + ex.Message);
 
 }
 
-catch(Exception ex)
+catch (Exception ex)
 
 {
 
@@ -171,14 +170,13 @@ Named BOMs are saved as:
 
 `file_name`.sld`ext`.`version`.BOM
 
-Be sure to use the correct format when specifying bsFileName. For example, if you get**assembly.sldasm**, then to rename its BOM set bsFileName to:
+Be sure to use the correct format when specifying bsFileName. For example, if you get **assembly.sldasm**, then to rename its BOM set bsFileName to:
 
 assembly_renamed.sldasm.1.BOM
 
 ## See Also
 
 [IEdmBomView4 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView4.html)
-
 [IEdmBomView4 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView4_members.html)
 
 ## Availability

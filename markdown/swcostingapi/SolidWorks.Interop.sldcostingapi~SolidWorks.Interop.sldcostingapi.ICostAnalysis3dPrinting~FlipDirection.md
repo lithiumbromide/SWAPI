@@ -9,11 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # FlipDirection Property (ICostAnalysis3dPrinting)
 
-Gets or sets whether to flip the
-
-[printing direction](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~OrientationPlane.html)
-
-for this 3D printing Costing analysis.
+Gets or sets whether to flip the [printing direction](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~OrientationPlane.html) for this 3D printing Costing analysis.
 
 ## Syntax
 
@@ -55,16 +51,11 @@ True to flip the printing direction, false to not
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting::FlipDirection](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~FlipDirection.html)
-
-.
+See [CostAnalysis3dPrinting::FlipDirection](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~FlipDirection.html).
 
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
 
 ## Availability

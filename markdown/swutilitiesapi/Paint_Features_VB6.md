@@ -9,8 +9,7 @@ source: "swutilitiesapi/Paint_Features_VB6.htm"
 
 # Paint Features Example (VBA)
 
-This example shows how to copy the source feature's parameters to the
-target feature using the SOLIDWORKS Utilities API.
+This example shows how to copy the source feature's parameters to the target feature using the SOLIDWORKS Utilities API.
 
 ```
 '------------------------------------------------------------------------------

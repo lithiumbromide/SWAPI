@@ -55,50 +55,33 @@ System.int SendMsgToUser2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Message`: Message for user
-- `Icon`: Icon to show in the message box as defined in[swMessageBoxIcon_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMessageBoxIcon_e.html)
-- `Buttons`: Buttons to show in the message box as defined in[swMessageBoxBtn_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMessageBoxBtn_e.html)
+- `Icon`: Icon to show in the message box as defined in [swMessageBoxIcon_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMessageBoxIcon_e.html)
+- `Buttons`: Buttons to show in the message box as defined in [swMessageBoxBtn_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMessageBoxBtn_e.html)
 
 ### Return Value
 
-Value corresponding to the button the user clicked as defined in[swMessageBoxResult_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMessageBoxResult_e.html)
+Value corresponding to the button the user clicked as defined in [swMessageBoxResult_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMessageBoxResult_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::SendMsgToUser2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SendMsgToUser2.html)
-
-.
+See [SldWorks::SendMsgToUser2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SendMsgToUser2.html).
 
 ## Examples
 
 [Access Assembly (C++)](Access_Assembly_Example_CPlusPlus_COM.htm)
-
 [Detecting In-context Edit (C++)](Get_Edit_In_Context_Example_CPlusPlus_COM.htm)
-
 [Access Selections (VBA)](Access_Selections_Example_VB.htm)
-
 [Save Drawing As DXF (VBA)](Save_Drawing_as_DXF_Example_VB.htm)
-
 [Save Drawing as DXF (VB.NET)](Save_Drawing_as_DXF_Example_VBNET.htm)
-
 [Save Drawing as DXF (C#)](Save_Drawing_as_DXF_Example_CSharp.htm)
-
 [Get Names of Configurations Using Variant (C++)](ConfigurationTraversalCPP.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

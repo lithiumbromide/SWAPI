@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPrintSpecification Interface Properties
 
-For a list of all members of this type, see[IPrintSpecification members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification_members.html).
+For a list of all members of this type, see [IPrintSpecification members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification_members.html).
 
 ## Public Properties
 
@@ -38,7 +38,5 @@ For a list of all members of this type, see[IPrintSpecification members](SolidWo
 ## See Also
 
 [IPrintSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::PrintOut4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~PrintOut4.html)

@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLi
 
 # ICWLinkageRod Interface
 
-Allows access to a linkage rod connector.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows access to a linkage rod connector. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +39,7 @@ public interface class ICWLinkageRod
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod.html)
-
-.
+See [CWLinkageRod](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod.html).
 
 ## Examples
 
@@ -61,14 +49,14 @@ See
 
 'Preconditions:
 
-1. Open`Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2022\samples\Simulation Examples\mixedmesh-1.sldasm**.
-2. In SOLIDWORKS, select**Tools > Add-ins > SOLIDWORKS Simulation**.
+1. Open `Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2022\samples\Simulation Examples\mixedmesh-1.sldasm**.
+2. In SOLIDWORKS, select **Tools > Add-ins > SOLIDWORKS Simulation**.
 3. Ensure the specified material library exists.
 4. Open an Immediate window.
 
 'Postconditions:
 
-'1. Creates a**Linkage rod-3**.
+'1. Creates a **Linkage rod-3**.
 '2. Meshes the model.
 '3. Runs an analysis.
 '4. Gets the results.
@@ -109,7 +97,7 @@ Set COSMOSWORKSObj = CWAddinCallBackObj.COSMOSWORKS
 If COSMOSWORKSObj Is Nothing Then ErrorMsg2 SwApp, "COSMOSWORKSObj object not found", True
 
 'Set material Library
-strMaterialLib = SwApp.**GetExecutablePath**& "\lang\english\sldmaterials\solidworks materials.sldmat"
+strMaterialLib = SwApp.**GetExecutablePath** & "\lang\english\sldmaterials\solidworks materials.sldmat"
 
 'Get active document
 Set ActiveDocObj = COSMOSWORKSObj.**ActiveDoc**()
@@ -119,7 +107,7 @@ If ActiveDocObj Is Nothing Then ErrorMsg2 SwApp, "No Active Document", True 'Get
 Set StudyManagerObj = ActiveDocObj.**StudyManager**()
 If StudyManagerObj Is Nothing Then ErrorMsg2 SwApp, "StudyManagerObj object not there", True
 
-StudyManagerObj.**ActiveStudy**= 0
+StudyManagerObj.**ActiveStudy** = 0
 Set Study = StudyManagerObj.**GetStudy**(0)
 If Study Is Nothing Then ErrorMsg2 SwApp, "Study not created", True
 
@@ -147,18 +135,18 @@ Set cwLinkageRod = LoadsAndRestraintsManagerObj.**GetLinkageRod**("Linkage rod-3
 cwLinkageRod.**BeginEdit**
 
 'Set the joint type of End 1 and End 2
-cwLinkageRod.**SetJointTypeAtEnd1**0
-cwLinkageRod.**SetJointTypeAtEnd2**0
+cwLinkageRod.**SetJointTypeAtEnd1** 0
+cwLinkageRod.**SetJointTypeAtEnd2** 0
 
 'Set the hollow circular cross-section parameters
 Dim SectionParamsArray As Variant
 SectionParamsArray = Array(0.005, 0.0005)
-cwLinkageRod.**SetSectionParams**1, (SectionParamsArray)
+cwLinkageRod.**SetSectionParams** 1, (SectionParamsArray)
 
 'Set the material
-cwLinkageRod.**MaterialSource**= 1
-cwLinkageRod.**SetLibraryMaterial**strMaterialLib, "Alloy Steel"
-cwLinkageRod.**IncludeMass**= False
+cwLinkageRod.**MaterialSource** = 1
+cwLinkageRod.**SetLibraryMaterial** strMaterialLib, "Alloy Steel"
+cwLinkageRod.**IncludeMass** = False
 
 'Stop editing
 errCode = cwLinkageRod.**EndEdit**()
@@ -169,8 +157,8 @@ Part.ClearSelection2 True
 'Mesh
 Set CWMesh = StudyObj.**Mesh**
 If CWMesh Is Nothing Then ErrorMsg2 SwApp, "No mesh object", False
-CWMesh.**Quality**= 1
-CWMesh.**MesherType**= 0
+CWMesh.**Quality** = 1
+CWMesh.**MesherType** = 0
 Call CWMesh.**GetDefaultElementSizeAndTolerance**(0, el, tl)
 errCode = StudyObj.**CreateMesh**(0, el, tl)
 If errCode <> 0 Then ErrorMsg2 SwApp, "Mesh failed", True
@@ -212,7 +200,7 @@ End Function
 
 This interface is only available with SOLIDWORKS Simulation Professional and Premium licenses.
 
-For more information about linkage rod connectors, see the**SOLIDWORKS user-interface help > Simulation > Loads and Restraints > Connectors**topics.
+For more information about linkage rod connectors, see the **SOLIDWORKS user-interface help > Simulation > Loads and Restraints > Connectors** topics.
 
 ## Accessors
 
@@ -223,5 +211,4 @@ For more information about linkage rod connectors, see the**SOLIDWORKS user-inte
 ## See Also
 
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

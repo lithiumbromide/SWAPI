@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIn
 
 # ClearanceDirection Property (IIndentFeatureData)
 
-Gets or sets the direction of the
-
-[clearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~Clearance.html)
-
-for this indent feature.
+Gets or sets the direction of the [clearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~Clearance.html) for this indent feature.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool ClearanceDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ True to reverse the direction of clearance, false to not
 
 ## VBA Syntax
 
-See
-
-[IndentFeatureData::ClearanceDirection](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~ClearanceDirection.html)
-
-.
+See [IndentFeatureData::ClearanceDirection](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~ClearanceDirection.html).
 
 ## See Also
 
 [IIndentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData.html)
-
 [IIndentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData_members.html)
 
 ## Availability

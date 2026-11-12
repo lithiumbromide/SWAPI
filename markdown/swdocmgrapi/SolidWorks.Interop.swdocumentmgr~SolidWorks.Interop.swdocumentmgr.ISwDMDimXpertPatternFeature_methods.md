@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertPatternFeature Interface Methods
 
-For a list of all members of this type, see[ISwDMDimXpertPatternFeature members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPatternFeature_members.html).
+For a list of all members of this type, see [ISwDMDimXpertPatternFeature members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPatternFeature_members.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[ISwDMDimXpertPatternFeature members]
 ## See Also
 
 [ISwDMDimXpertPatternFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPatternFeature.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

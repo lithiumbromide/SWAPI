@@ -9,8 +9,7 @@ source: "cworksapi/Create_Nonlinear_Dynamic_Plots_Example_CSharp.htm"
 
 # Create Nonlinear Dynamic Plots Example (C#)
 
-This example shows how to a create a plot of a specific solution step of a nonlinear dynamic
-study.
+This example shows how to a create a plot of a specific solution step of a nonlinear dynamic study.
 
 ```vb
   //----------------------------------------------------------------------------

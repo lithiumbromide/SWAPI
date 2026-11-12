@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Assembly_Bounding_Box_using_Assembly_Example_VB.htm"
 
 # Get Assembly Bounding Box using Assembly Example (VBA)
 
-This example shows how to get the box bounding an assembly using the
-assembly.
+This example shows how to get the box bounding an assembly using the assembly.
 
 ```
 '--------------------------------------------

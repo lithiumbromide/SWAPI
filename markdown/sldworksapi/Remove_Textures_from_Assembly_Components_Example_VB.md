@@ -9,8 +9,7 @@ source: "sldworksapi/Remove_Textures_from_Assembly_Components_Example_VB.htm"
 
 # Remove Textures from Assembly Components Example (VBA)
 
-This example shows how to remove all textures from all components in
-an assembly.
+This example shows how to remove all textures from all components in an assembly.
 
 ```
 '-------------------------------------------------

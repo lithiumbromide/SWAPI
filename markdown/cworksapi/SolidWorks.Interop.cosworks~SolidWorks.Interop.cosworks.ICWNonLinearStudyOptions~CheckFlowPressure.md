@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNo
 
 # CheckFlowPressure Property (ICWNonLinearStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWNonLinearStudyOptions::CheckFlowPressure2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~CheckFlowPressure2.html)
-
-.
+Obsolete. Superseded by [ICWNonLinearStudyOptions::CheckFlowPressure2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~CheckFlowPressure2.html).
 
 ## Syntax
 
@@ -55,38 +51,22 @@ property System.int CheckFlowPressure {
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::CheckFlowPressure](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~CheckFlowPressure.html)
-
-.
+See [CWNonLinearStudyOptions::CheckFlowPressure](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~CheckFlowPressure.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## Remarks
 
-If this property is set to 1, use
-
-[ICWNonLinearStudyOptions::FlowPressureFile](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~FlowPressureFile.html)
-
-to set the SOLIDWORKS Flow Simulation results file.
+If this property is set to 1, use [ICWNonLinearStudyOptions::FlowPressureFile](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~FlowPressureFile.html) to set the SOLIDWORKS Flow Simulation results file.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
-
 [ICWNonLinearStudyOptions::DefinedReferencePressure Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~DefinedReferencePressure.html)
-
 [ICWNonLinearStudyOptions::ReferencePressureOption Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ReferencePressureOption.html)
-
 [ICWNonLinearStudyOptions::CheckRunAsLegacy Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~CheckRunAsLegacy.html)
 
 ## Availability

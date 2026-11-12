@@ -45,5 +45,4 @@ public enum class EdmMsgType : public System.Enum
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmMessage5::MessageType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5~MessageType.html)

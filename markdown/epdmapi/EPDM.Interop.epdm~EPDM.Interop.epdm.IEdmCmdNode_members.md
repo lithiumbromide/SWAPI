@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode_members.html"
 
 # IEdmCmdNode Interface Members
 
-The following tables list the members exposed by[IEdmCmdNode](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode.html).
+The following tables list the members exposed by [IEdmCmdNode](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmCmdNode](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmCmdNode Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataExFlag.html"
 
 # EdmUserDataExFlag Enumeration
 
-Flags that tell which members of
-
-[EdmUserDataEx](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx.html)
-
-are valid.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags that tell which members of [EdmUserDataEx](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx.html) are valid. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 
@@ -62,5 +54,4 @@ public enum class EdmUserDataExFlag : public System.Enum
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmUser10::SetUserDataEx Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10~SetUserDataEx.html)

@@ -51,22 +51,12 @@ System.bool SortCutList(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `CutListSortOptions`: [ICutListSortOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions.html)
-- `IgnoreInvalidFacesOrFeatures`: True to sort bodies ignoring any invalid excluded faces/features, false to not sort the bodies if there are invalid excluded faces/features (see
-
-Remarks
-
-)
+- `IgnoreInvalidFacesOrFeatures`: True to sort bodies ignoring any invalid excluded faces/features, false to not sort the bodies if there are invalid excluded faces/features (see **Remarks**)
 
 ### Return Value
 
@@ -74,29 +64,19 @@ True if sorting is successful, false if not
 
 ## VBA Syntax
 
-See
-
-ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~GetBodyCount.html
-
-[BodyFolder::SortCutList](ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~SortCutList.html)
-
-.
+See ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~GetBodyCount.html[BodyFolder::SortCutList](ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~SortCutList.html).
 
 ## Examples
 
-See the
-
-[IBodyFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html)
-
-examples.
+See the [IBodyFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html) examples.
 
 ## Remarks
 
-Use[IBodyFolder::GetCutListSortOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetCutListSortOptions.html)to populate CutListSortOptions.
+Use [IBodyFolder::GetCutListSortOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetCutListSortOptions.html) to populate CutListSortOptions.
 
 This method applies the CutListSortOptions settings, sorts the cut list, and refreshes the cut list in the FeatureManager design tree.
 
-In the Cut List Sorting Options PropertyManager you select faces/features to exclude from sorting. If some of those selected faces/features to exclude are invalid, i.e., they are not of selection type BODYFEATURE or FACE or they cannot be excluded (see the end of this**Remark**), a dialog box pops up during the sort operation with:
+In the Cut List Sorting Options PropertyManager you select faces/features to exclude from sorting. If some of those selected faces/features to exclude are invalid, i.e., they are not of selection type BODYFEATURE or FACE or they cannot be excluded (see the end of this **Remark**), a dialog box pops up during the sort operation with:
 
 ----------------------------------------------------------------------
 
@@ -126,12 +106,11 @@ Other examples of faces and features that are invalid for exclusion:
 - Features that create new bodies from sketches, such as boss-extrude, revolve, and sweep.
 - Certain sheet metal features.
 
-For more information, see the**Sorting Cut Lists**topics in the SOLIDWORKS user-interface help.
+For more information, see the **Sorting Cut Lists** topics in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [IBodyFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html)
-
 [IBodyFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder_members.html)
 
 ## Availability

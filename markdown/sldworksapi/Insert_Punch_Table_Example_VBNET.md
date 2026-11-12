@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Punch_Table_Example_VBNET.htm"
 
 # Insert Punch Table Example (VB.NET)
 
-This example shows how to insert a punch table in the flat pattern view of a sheet metal part
-that contains one or more forming tool features.
+This example shows how to insert a punch table in the flat pattern view of a sheet metal part that contains one or more forming tool features.
 
 ```
 '----------------------------------------------------------------------------

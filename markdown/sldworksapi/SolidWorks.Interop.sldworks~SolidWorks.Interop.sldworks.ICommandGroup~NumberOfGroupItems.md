@@ -42,13 +42,7 @@ property System.int NumberOfGroupItems {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,20 +50,13 @@ Number of items in the CommandGroup
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::NumberOfGroupItems](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~NumberOfGroupItems.html)
-
-.
+See [CommandGroup::NumberOfGroupItems](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~NumberOfGroupItems.html).
 
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
-
 [ICommandGroup::AddCommandItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~AddCommandItem2.html)
-
 [ICommandGroup::CommandID Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~CommandID.html)
 
 ## Availability

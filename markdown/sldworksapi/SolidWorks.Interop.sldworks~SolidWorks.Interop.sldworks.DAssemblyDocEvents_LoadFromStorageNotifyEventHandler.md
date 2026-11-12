@@ -37,31 +37,17 @@ public delegate System.int DAssemblyDocEvents_LoadFromStorageNotifyEventHandler(
 public delegate System.int DAssemblyDocEvents_LoadFromStorageNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[LoadFromStorageNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~LoadFromStorageNotify_EV.html)
-
-.
+See [LoadFromStorageNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~LoadFromStorageNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyLoadFromStorageNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyLoadFromStorageNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
-Call
-
-[IModelDoc2::IGet3rdPartyStorage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGet3rdPartyStorage.html)
-
-after receiving this notification. This notification is sent even when the third-party storage node is empty.
+Call [IModelDoc2::IGet3rdPartyStorage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGet3rdPartyStorage.html) after receiving this notification. This notification is sent even when the third-party storage node is empty.
 
 ## Availability
 

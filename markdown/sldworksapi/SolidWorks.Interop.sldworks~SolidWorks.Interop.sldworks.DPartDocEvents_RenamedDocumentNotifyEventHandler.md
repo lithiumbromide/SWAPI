@@ -43,31 +43,19 @@ public delegate System.int DPartDocEvents_RenamedDocumentNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RenamedDocumentInterface`: [RenamedDocumentReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences.html)
-
-object
+- `RenamedDocumentInterface`: [RenamedDocumentReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences.html) object
 
 ## VBA Syntax
 
-See
-
-[RenamedDocumentNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~RenamedDocumentNotify_EV.html)
-
-.
+See [RenamedDocumentNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~RenamedDocumentNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use[swPartRenamedDocumentNotify](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPartNotify_e.html)to register for this notification.
+If developing a C++ application, use [swPartRenamedDocumentNotify](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

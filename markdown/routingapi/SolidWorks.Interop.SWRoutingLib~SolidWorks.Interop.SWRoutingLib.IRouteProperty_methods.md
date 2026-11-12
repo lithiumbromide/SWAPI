@@ -9,7 +9,7 @@ source: "routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRouting
 
 # IRouteProperty Interface Methods
 
-For a list of all members of this type, see[IRouteProperty members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty_members.html).
+For a list of all members of this type, see [IRouteProperty members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty_members.html).
 
 ## Public Methods
 
@@ -27,13 +27,8 @@ For a list of all members of this type, see[IRouteProperty members](SolidWorks.I
 ## See Also
 
 [IRouteProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty.html)
-
 [SolidWorks.Interop.SWRoutingLib Namespace](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib_namespace.html)
-
 [ICovering Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering.html)
-
 [IElectricalRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute.html)
-
 [IElectricalRouteProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty.html)
-
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)

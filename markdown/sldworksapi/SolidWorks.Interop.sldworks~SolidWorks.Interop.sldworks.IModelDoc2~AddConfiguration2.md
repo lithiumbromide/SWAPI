@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AddConfiguration2 Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDoc2::AddConfiguration3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddConfiguration3.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::AddConfiguration3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddConfiguration3.html).
 
 ## Syntax
 
@@ -79,13 +75,7 @@ System.bool AddConfiguration2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -100,14 +90,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::AddConfiguration2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AddConfiguration2.html)
-
-.
+See [ModelDoc2::AddConfiguration2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AddConfiguration2.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

@@ -68,52 +68,22 @@ void GetTranslationComponentsValues2(
 
 ### Parameters
 
-- `BVal1`: -1 or true to use DVal1, 0 or false to not (see
-
-Remarks
-
-)
-- `BVal2`: -1 or true to use DVal2, 0 or false to not (see
-
-Remarks
-
-)
-- `BVal3`: -1 or true to use DVal3, 0 or false to not (see
-
-Remarks
-
-)
-- `DVal1`: (see
-
-Remarks
-
-)
-- `DVal2`: (see
-
-Remarks
-
-)
-- `DVal3`: (see
-
-Remarks
-
-)
+- `BVal1`: -1 or true to use DVal1, 0 or false to not (see **Remarks**)
+- `BVal2`: -1 or true to use DVal2, 0 or false to not (see **Remarks**)
+- `BVal3`: -1 or true to use DVal3, 0 or false to not (see **Remarks**)
+- `DVal1`: (see **Remarks**)
+- `DVal2`: (see **Remarks**)
+- `DVal3`: (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::GetTranslationComponentsValues2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetTranslationComponentsValues2.html)
-
-.
+See [CWRestraint::GetTranslationComponentsValues2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetTranslationComponentsValues2.html).
 
 ## Remarks
 
-This method is valid for all[ICWRestraint::RestraintType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintType.html)s except:
+This method is valid for all [ICWRestraint::RestraintType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintType.html)s except:
 
-- [swsRestraintType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRestraintType_e.html)
-
-  .swsRestraintSymmetric
+- [swsRestraintType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRestraintType_e.html).swsRestraintSymmetric
 - swsRestraintType_e.swsRestaintTypeFixed
 - swsRestraintType_e.swsRestraintTypeImmovable
 
@@ -131,12 +101,11 @@ If out parameters BVal1-3 are cast as:
 | A flat face | DVal1 is in face direction 1, DVal2 is in face direction 2, and DVal3 is in the normal to the face. |
 | A model edge | DVal3 is along the edge. |
 
-Call[ICWRestraint::SetReferenceGeometry](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetReferenceGeometry.html)to set the direction reference of this restraint.
+Call [ICWRestraint::SetReferenceGeometry](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetReferenceGeometry.html) to set the direction reference of this restraint.
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
 
 ## Availability

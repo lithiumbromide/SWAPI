@@ -42,13 +42,7 @@ property System.String^ ProfileType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,62 +50,24 @@ Weldment profile type as defined in a weldment profile
 
 ## VBA Syntax
 
-See
-
-[ProfileGroupFolder::ProfileType](ms-its:sldworksapivb6.chm::/sldworks~ProfileGroupFolder~ProfileType.html)
-
-.
+See [ProfileGroupFolder::ProfileType](ms-its:sldworksapivb6.chm::/sldworks~ProfileGroupFolder~ProfileType.html).
 
 ## Remarks
 
 This property:
 
-- is valid only if a
-
-  [IProfileGroupFolder::ProfileStandard](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder~ProfileStandard.html)
-
-  is set.
-- may be overridden by
-
-  [IStructureSystemMemberProfile::ProfileType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileType.html)
-
-  for individual members.
+- is valid only if a [IProfileGroupFolder::ProfileStandard](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder~ProfileStandard.html) is set.
+- may be overridden by [IStructureSystemMemberProfile::ProfileType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileType.html) for individual members.
 
 Specify this property using strings found in:
 
-- SOLIDWORKS-supplied weldment profile (*.
-
-  sldlfp
-
-  ) from
-
-  install_dir
-
-  \
-
-  lang
-
-  \
-
-  lang_name
-
-  \
-
-  weldment profiles
-
-  -
-
-  or -
-- custom weldment profile (*.
-
-  sldlfp
-
-  ); see the SOLIDWORKS Help for details about custom weldment profiles
+- SOLIDWORKS-supplied weldment profile (*.**sldlfp**) from `install_dir`\**lang**\`lang_name`\**weldment profiles
+  -** or -
+- custom weldment profile (*.**sldlfp**); see the SOLIDWORKS Help for details about custom weldment profiles
 
 ## See Also
 
 [IProfileGroupFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder.html)
-
 [IProfileGroupFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileGroupFolder_members.html)
 
 ## Availability

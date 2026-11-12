@@ -1,6 +1,5 @@
 ---
-title: "SectionViewData Object
-Members"
+title: "SectionViewData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SectionViewData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SectionViewData_members.html"
 ---
 
-# SectionViewData Object
-Members
+# SectionViewData Object Members
 
 ## Public Methods
 

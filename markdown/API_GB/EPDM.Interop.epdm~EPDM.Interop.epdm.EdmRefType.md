@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefType.html"
 
 # EdmRefType Enumeration
 
-Types of references to return from
-
-[IEdmRefItem::GetRefs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem~GetRefs.html)
-
-.
+Types of references to return from [IEdmRefItem::GetRefs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem~GetRefs.html).
 
 ## Syntax
 

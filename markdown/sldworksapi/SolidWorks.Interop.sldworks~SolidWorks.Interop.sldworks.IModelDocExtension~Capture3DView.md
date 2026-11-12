@@ -40,13 +40,7 @@ View3D Capture3DView()
 View3D^ Capture3DView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::Capture3DView](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Capture3DView.html)
-
-.
+See [ModelDocExtension::Capture3DView](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Capture3DView.html).
 
 ## Examples
 
 [Capture 3D View (VBA)](Capture_3DView_Example_VB.htm)
-
 [Capture 3D View (VB.NET)](Capture_3DView_Example_VBNET.htm)
-
 [Capture 3D View (C#)](Capture_3DView_Example_CSharp.htm)
 
 ## Remarks
@@ -75,17 +63,11 @@ This method requires that the SOLDWORKS MBD add-in be loaded. ([ISldWorks::LoadA
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::Get3DView Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DView.html)
-
 [IModelDocExtension::Get3DViews Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DViews.html)
-
 [IModelDocExtension::Refresh3DViews Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Refresh3DViews.html)
-
 [IModelDocExtension::Get3DViewCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DViewCount.html)
-
 [IModelDocExtension::Get3DViewNames Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DViewNames.html)
 
 ## Availability

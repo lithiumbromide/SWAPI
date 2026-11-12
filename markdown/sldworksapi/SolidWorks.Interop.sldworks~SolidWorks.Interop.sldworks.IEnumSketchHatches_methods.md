@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumSketchHatches Interface Methods
 
-For a list of all members of this type, see[IEnumSketchHatches members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchHatches_members.html).
+For a list of all members of this type, see [IEnumSketchHatches members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchHatches_members.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[IEnumSketchHatches members](SolidWor
 ## See Also
 
 [IEnumSketchHatches Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchHatches.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

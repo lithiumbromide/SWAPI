@@ -42,38 +42,23 @@ System.int EndEdit();
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_FrequencyConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_FrequencyConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_FrequencyConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_FrequencyConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFrequencyConstraint::EndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~EndEdit.html)
-
-.
+See [CWTopologyFrequencyConstraint::EndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~EndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
-example.
+See the [ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html) example.
 
 ## Remarks
 
-To begin editing this frequency constraint, call
-
-[ICWTopologyFrequencyConstraint::BeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint~BeginEdit.html)
-
-.
+To begin editing this frequency constraint, call [ICWTopologyFrequencyConstraint::BeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint~BeginEdit.html).
 
 ## See Also
 
 [ICWTopologyFrequencyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
 [ICWTopologyFrequencyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint_members.html)
 
 ## Availability

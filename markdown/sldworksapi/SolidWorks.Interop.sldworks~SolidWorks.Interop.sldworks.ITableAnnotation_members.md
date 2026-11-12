@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 # ITableAnnotation Interface Members
 
-The following tables list the members exposed by[ITableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html).
+The following tables list the members exposed by [ITableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html).
 
 ## Public Properties
 
@@ -113,5 +113,4 @@ The following tables list the members exposed by[ITableAnnotation](SolidWorks.In
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

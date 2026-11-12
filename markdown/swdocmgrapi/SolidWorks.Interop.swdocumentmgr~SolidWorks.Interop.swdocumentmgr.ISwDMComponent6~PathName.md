@@ -48,22 +48,16 @@ Path
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent6::PathName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent6~PathName.html)
-
-.
+See [SwDMComponent6::PathName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent6~PathName.html).
 
 ## Examples
 
 [Get Current Name of Configuration of Suppressed Component (C#)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_CSharp.htm)
-
 [Get Current Name of Configuration of Suppressed Component (VB.NET)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_VBNET.htm)
 
 ## See Also
 
 [ISwDMComponent6 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent6.html)
-
 [ISwDMComponent6 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent6_members.html)
 
 ## Availability

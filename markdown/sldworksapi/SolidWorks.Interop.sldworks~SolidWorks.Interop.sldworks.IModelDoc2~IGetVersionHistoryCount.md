@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IGetVersionHistoryCount Method (IModelDoc2)
 
-Gets the size of the array required to hold data returend by
-
-[IModleDoc2::IVersionHistory](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IVersionHistory.html)
-
-.
+Gets the size of the array required to hold data returend by [IModleDoc2::IVersionHistory](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IVersionHistory.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.int IGetVersionHistoryCount()
 System.int IGetVersionHistoryCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,11 +48,7 @@ Size of array required for the version history
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IGetVersionHistoryCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IGetVersionHistoryCount.html)
-
-.
+See [ModelDoc2::IGetVersionHistoryCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IGetVersionHistoryCount.html).
 
 ## Examples
 
@@ -75,13 +61,9 @@ If the document has not yet been saved, then no version history information exis
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::VersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~VersionHistory.html)
-
 [ISldWorks::IVersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IVersionHistory.html)
-
 [ISldWorks::VersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IFeatureManager Interface Methods
 
-For a list of all members of this type, see[IFeatureManager members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html).
+For a list of all members of this type, see [IFeatureManager members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html).
 
 ## Public Methods
 
@@ -167,6 +167,7 @@ For a list of all members of this type, see[IFeatureManager members](SolidWorks.
 | Method | InsertFreeform | Ob solete. Superseded by IFeatureManager::InsertFreeform2 . |
 | Method | InsertFreeform2 | Inserts a Freeform feature. |
 | Method | InsertGlobalBoundingBox | Obsolete. See IFeatureManager::CreateDefinition and IBoundingBoxFeatureData . |
+| Method | InsertGlobalBoundingBox2 | Inserts the specified global bounding box using a custom coordinate system. See IFeatureManager::CreateDefinition and IBoundingBoxFeatureData . |
 | Method | InsertGridFeature | Inserts a Grid System feature. |
 | Method | InsertGroundPlane | Obsolete. See IFeatureManager::CreateDefinition and IGroundPlaneFeatureData . |
 | Method | InsertGussetFeature | Obsolete. Superseded by IFeatureManager::InsertGussetFeature3 . |
@@ -283,5 +284,4 @@ For a list of all members of this type, see[IFeatureManager members](SolidWorks.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

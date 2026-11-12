@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # IGetRefPlaneParams Method (IRefPlane)
 
-Obsolete. Superseded by
-
-[IRefPlane::Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane~Transform.html)
-
-.
+Obsolete. Superseded by [IRefPlane::Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane~Transform.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.double IGetRefPlaneParams()
 System.double IGetRefPlaneParams();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RefPlane::IGetRefPlaneParams](ms-its:sldworksapivb6.chm::/sldworks~RefPlane~IGetRefPlaneParams.html)
-
-.
+See [RefPlane::IGetRefPlaneParams](ms-its:sldworksapivb6.chm::/sldworks~RefPlane~IGetRefPlaneParams.html).
 
 ## See Also
 
 [IRefPlane Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
 [IRefPlane Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane_members.html)

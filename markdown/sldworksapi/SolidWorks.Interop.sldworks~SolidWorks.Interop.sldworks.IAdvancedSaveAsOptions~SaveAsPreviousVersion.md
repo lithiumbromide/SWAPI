@@ -41,42 +41,29 @@ property System.int SaveAsPreviousVersion {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-SOLIDWORKS version to save to (see
-
-Remarks
-
-)
+SOLIDWORKS version to save to (see **Remarks**)
 
 ## VBA Syntax
 
-See
+See [AdvancedSaveAsOptions::SaveAsPreviousVersion](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~SaveAsPreviousVersion.html).
 
-[AdvancedSaveAsOptions::SaveAsPreviousVersion](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~SaveAsPreviousVersion.html)
+## Examples
 
-.
+See the [IAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html) example.
 
 ## Remarks
 
-Examine the Remarks of
+Examine the Remarks of [ISldWorks::VersionHistory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html) to find the SOLIDWORKS version to save to.
 
-[ISldWorks::VersionHistory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html)
-
-to find the SOLIDWORKS version to save to.
+For this property to save a model as a previous version, you must also use [IAdvancedSaveAsOptions::ModifyItemsNameAndPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~ModifyItemsNameAndPath.html) to change the name/path of all of the model's references. You must provide a different name/path than the current name/path, otherwise the SaveAs operation may fail because overwriting the same file is not supported.
 
 ## See Also
 
 [IAdvancedSaveAsOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
 [IAdvancedSaveAsOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions_members.html)
 
 ## Availability

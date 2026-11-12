@@ -12,10 +12,8 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault13~LoginEx.html"
 Allows an application that is not supplied and supported by SOLIDWORKS Corporation to:
 
 - log into SOLIDWORKS PDM Professional
-
   - or -
 - log into a vault view
-
   - or -
 - directly access the vault database
 
@@ -63,25 +61,18 @@ void LoginEx(
 - `bsVaultName`: Name of vault
 - `lEdmLoginFlags`: Login flags:
 
-- 0 = Nothing
-- 1 = Web client
+  - 0 = Nothing
+  - 1 = Web client
 
 ## Remarks
 
-To make it easier to program and to comply with the
-
-[SOLIDWORKS End User License Agreement (EULA)](http://www.solidworks.com/sw/eula.htm)
-
-, this method ensures that licenses are properly consumed by your application.
+To make it easier to program and to comply with the [SOLIDWORKS End User License Agreement (EULA)](http://www.solidworks.com/sw/eula.htm), this method ensures that licenses are properly consumed by your application.
 
 ## See Also
 
 [IEdmVault13 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault13.html)
-
 [IEdmVault13 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault13_members.html)
-
 [IEdmVault5::Login Method()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html)
-
 [IEdmVault5::LoginAuto Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html)
 
 ## Availability

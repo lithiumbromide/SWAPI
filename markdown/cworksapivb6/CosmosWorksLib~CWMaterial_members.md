@@ -1,6 +1,5 @@
 ---
-title: "CWMaterial Object
-Members"
+title: "CWMaterial Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWMaterial_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWMaterial_members.html"
 ---
 
-# CWMaterial Object
-Members
+# CWMaterial Object Members
 
 ## Public Methods
 

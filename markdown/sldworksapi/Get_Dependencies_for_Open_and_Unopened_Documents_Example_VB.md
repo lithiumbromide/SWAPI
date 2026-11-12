@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Dependencies_for_Open_and_Unopened_Documents_Example_VB
 
 # Get Dependencies for Open and Unopened Documents Example (VBA)
 
-This example shows how to get the names of any dependencies for an open
-or unopened document.
+This example shows how to get the names of any dependencies for an open or unopened document.
 
 ```
 '----------------------------------------------

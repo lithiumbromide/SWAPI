@@ -63,21 +63,11 @@ System.bool ModifyInstance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Instance`: Pattern instance number (see
-
-Remarks
-
-)
+- `Instance`: Pattern instance number (see **Remarks**)
 - `D1Distance`: Distance from the pattern seed in Direction 1
 - `IsD1OffsetFromNominal`: True if D1Distance is the offset from the nominal position of Instance, false if not
 - `D2Distance`: Distance from the pattern seed in Direction 2
@@ -89,52 +79,35 @@ True if the pattern instance is modified successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::ModifyInstance](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~ModifyInstance.html)
-
-.
+See [LocalLinearPatternFeatureData::ModifyInstance](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~ModifyInstance.html).
 
 ## Remarks
 
 To calculate Instance:
 
-1. Ensure that
-
-  [ILocalLinearPatternFeatureData::D2PatternSeedOnly](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D2PatternSeedOnly.html)
-
-  is set to false.
+1. Ensure that [ILocalLinearPatternFeatureData::D2PatternSeedOnly](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D2PatternSeedOnly.html) is set to false.
 2. Calculate:
 
 For a bi-directional pattern:
 
-`I`=`n2`* (`i`- 1) + (`j`- 1)
+`I` = `n2` * (`i` - 1) + (`j` - 1)
 
 For a uni-directional pattern:
 
-`I`=`i`- 1
+`I` = `i` - 1
 
 where:
 
-- I
+- `I` = pattern instance number
+- `n2` = number of instances in Direction 2
+- `i` = index for Direction 1
+- `j` = index for Direction 2
 
-  = pattern instance number
-- n2
-
-  = number of instances in Direction 2
-- i
-
-  = index for Direction 1
-- j
-
-  = index for Direction 2
-
-In the pattern's PropertyManager, find`n2`in the**Direction 2****> Spacing and Instances > Number of instances**field and find [`i,j`] in the**Modified Instances**section.
+In the pattern's PropertyManager, find `n2` in the **Direction 2** **> Spacing and Instances > Number of instances** field and find [`i,j`] in the **Modified Instances** section.
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
 
 ## Availability

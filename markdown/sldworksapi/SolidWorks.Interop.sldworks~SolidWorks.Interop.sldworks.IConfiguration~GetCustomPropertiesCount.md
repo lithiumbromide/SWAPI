@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetCustomPropertiesCount Method (IConfiguration)
 
-Obsolete. Superseded by
-
-[IConfiguration::CustomPropertyManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~CustomPropertyManager.html)
-
-.
+Obsolete. Superseded by [IConfiguration::CustomPropertyManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~CustomPropertyManager.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetCustomPropertiesCount()
 System.int GetCustomPropertiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetCustomPropertiesCount](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetCustomPropertiesCount.html)
-
-.
+See [Configuration::GetCustomPropertiesCount](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetCustomPropertiesCount.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)

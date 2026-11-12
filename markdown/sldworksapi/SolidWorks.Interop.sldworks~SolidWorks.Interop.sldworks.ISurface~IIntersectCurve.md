@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # IIntersectCurve Method (ISurface)
 
-Obsolete. Superseded by
-
-[ISurface::IIntersectCurve2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IIntersectCurve2.html)
-
-.
+Obsolete. Superseded by [ISurface::IIntersectCurve2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IIntersectCurve2.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ System.bool IIntersectCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,14 +80,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Surface::IIntersectCurve](ms-its:sldworksapivb6.chm::/sldworks~Surface~IIntersectCurve.html)
-
-.
+See [Surface::IIntersectCurve](ms-its:sldworksapivb6.chm::/sldworks~Surface~IIntersectCurve.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)

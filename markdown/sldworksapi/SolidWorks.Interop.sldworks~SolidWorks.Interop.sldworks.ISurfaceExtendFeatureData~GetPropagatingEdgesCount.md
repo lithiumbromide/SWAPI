@@ -40,13 +40,7 @@ System.int GetPropagatingEdgesCount()
 System.int GetPropagatingEdgesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,17 @@ Number of propagating edges
 
 ## VBA Syntax
 
-See
-
-[SurfaceExtendFeatureData::GetPropagatingEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceExtendFeatureData~GetPropagatingEdgesCount.html)
-
-.
+See [SurfaceExtendFeatureData::GetPropagatingEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceExtendFeatureData~GetPropagatingEdgesCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISurfaceExtendFeatureData::IGetPropagatingEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceExtendFeatureData~IGetPropagatingEdges.html)
-
-.
+Call this method before calling [ISurfaceExtendFeatureData::IGetPropagatingEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceExtendFeatureData~IGetPropagatingEdges.html).
 
 ## See Also
 
 [ISurfaceExtendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData.html)
-
 [ISurfaceExtendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData_members.html)
-
 [ISurfaceExtendFeatureData::ISetPropagatingEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData~ISetPropagatingEdges.html)
-
 [ISurfaceExtendFeatureData::PropagatingEdges Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData~PropagatingEdges.html)
 
 ## Availability

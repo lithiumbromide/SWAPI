@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # ISurfaceOffsetFeatureData Interface Members
 
-The following tables list the members exposed by[ISurfaceOffsetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData.html).
+The following tables list the members exposed by [ISurfaceOffsetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData.html).
 
 ## Public Properties
 
@@ -41,7 +41,5 @@ The following tables list the members exposed by[ISurfaceOffsetFeatureData](Soli
 ## See Also
 
 [ISurfaceOffsetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertOffsetSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertOffsetSurface.html)

@@ -59,40 +59,26 @@ Feature^ InsertRevolvedRefSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Angle`: Angle of revolution in radians
-- `ReverseDir`: Angle is positive or negative (True or false)ParamDesc
-- `Angle2`: Angle of revolution in radiansParamDesc
-- `RevType`: Type of revolution (see**Remarks**)
+- `ReverseDir`: Angle is positive or negative (True or false)
+- `Angle2`: Angle of revolution in radians
+- `RevType`: Type of revolution (see **Remarks**)
 
 ### Return Value
 
-Pointer to
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertRevolvedRefSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertRevolvedRefSurface.html)
-
-.
+See [FeatureManager::InsertRevolvedRefSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertRevolvedRefSurface.html).
 
 ## Remarks
 
-Make the selections using[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)before calling this method. See the SOLIDWORKS Help for information about what entities are valid for selection.
+Make the selections using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) before calling this method. See the SOLIDWORKS Help for information about what entities are valid for selection.
 
 The RevType argument can be one of these values:
 
@@ -105,9 +91,7 @@ This method does not support 3D sketches.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
 
 ## Availability

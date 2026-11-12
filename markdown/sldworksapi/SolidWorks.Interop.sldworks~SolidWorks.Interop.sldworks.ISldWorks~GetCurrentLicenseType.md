@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetCurrentLicenseType Method (ISldWorks)
 
-Gets the type of license for the current SOLIDWORKS session.
+Gets the type of license for the current SOLIDWORKS Design session.
 
 ## Syntax
 
@@ -40,42 +40,26 @@ System.int GetCurrentLicenseType()
 System.int GetCurrentLicenseType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Type of SOLIDWORKS license as defined in
-
-[swLicenseType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLicenseType_e.html)
+Type of SOLIDWORKS Design license as defined in [swLicenseType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLicenseType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetCurrentLicenseType](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetCurrentLicenseType.html)
-
-.
+See [SldWorks::GetCurrentLicenseType](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetCurrentLicenseType.html).
 
 ## Examples
 
 [Get License Types of SOLIDWORKS (C#)](Get_License_Types_of_SOLIDWORKS_Example_CSharp.htm)
-
 [Get License Types of SOLIDWORKS (VB.NET)](Get_License_Types_of_SOLIDWORKS_Example_VBNET.htm)
-
 [Get License Types of SOLIDWORKS (VBA)](Get_License_Types_of_SOLIDWORKS_Example_VB.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [IModelDocExtension::GetLicenseType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetLicenseType.html)
 
 ## Availability

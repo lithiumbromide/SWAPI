@@ -51,11 +51,7 @@ property System.bool ReverseDirection2 {
 
 ## Examples
 
-See the
-
-[ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
-examples.
+See the [ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html) examples.
 
 ## Remarks
 
@@ -64,7 +60,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
 
 ## Availability

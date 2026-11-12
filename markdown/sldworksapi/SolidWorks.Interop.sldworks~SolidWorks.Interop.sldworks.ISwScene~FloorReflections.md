@@ -45,13 +45,7 @@ property System.bool FloorReflections {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to show reflections, false to not
 
 ## VBA Syntax
 
-See
-
-[SwScene::FloorReflections](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FloorReflections.html)
-
-.
+See [SwScene::FloorReflections](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FloorReflections.html).
 
 ## Examples
 
-See the
-
-[ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
-examples.
+See the [ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ISwScene::FloorShadows](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorShadows.html)
-
-is set to true.
+This property is valid only if [ISwScene::FloorShadows](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorShadows.html) is set to true.
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

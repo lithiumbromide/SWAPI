@@ -45,36 +45,23 @@ property System.int WitnessVisibility {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Extension-line visibility state as defined in[swWitnessLineVisibility_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWitnessLineVisibility_e.html)
+Extension-line visibility state as defined in [swWitnessLineVisibility_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWitnessLineVisibility_e.html)
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::WitnessVisibility](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~WitnessVisibility.html)
-
-.
+See [DisplayDimension::WitnessVisibility](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~WitnessVisibility.html).
 
 ## Remarks
 
-After using this property, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw the graphics window to see your changes.
+After using this property, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw the graphics window to see your changes.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::SmartWitness Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SmartWitness.html)
-
 [IDisplayDimension::MaxWitnessLineLength Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~MaxWitnessLineLength.html)

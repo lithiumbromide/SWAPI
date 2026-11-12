@@ -47,13 +47,7 @@ System.bool SaveViewToSolidworks(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if named view successfully saved, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SaveViewToSolidworks](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SaveViewToSolidworks.html)
-
-.
+See [ModelDocExtension::SaveViewToSolidworks](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SaveViewToSolidworks.html).
 
 ## Examples
 
@@ -97,7 +87,7 @@ newName = Format(Now, "YYYYMMDD-hhmmss")
 
 Dim bResult As Boolean
 
-swModel.**NameView**newName
+swModel.**NameView** newName
 
 bResult = swModel.**Extension**.**SaveViewToSolidworks**(newName)
 
@@ -107,16 +97,11 @@ End Sub
 
 ## Remarks
 
-For more information, read
-
-SOLIDWORKS user-interface help > Detailing and Drawings > Drawings > Standard Drawing Views > Adding Named Views
-
-.
+For more information, read **SOLIDWORKS Design user-interface help > Detailing and Drawings > Drawings > Standard Drawing Views > Adding Named Views**.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

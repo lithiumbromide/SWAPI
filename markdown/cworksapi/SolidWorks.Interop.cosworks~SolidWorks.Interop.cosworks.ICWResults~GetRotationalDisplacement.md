@@ -63,8 +63,8 @@ System.Object^ GetRotationalDisplacement(
 
 - `NStepNumber`: Solution step number (use 1 for static)
 - `DispPlane`: Reference geometry
-- `NUnits`: Unit as defined in[swsResultsRotationalDisplacementUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsRotationalDisplacementUnit_e.html)
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Unit as defined in [swsResultsRotationalDisplacementUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsRotationalDisplacementUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -72,11 +72,7 @@ Array of rotational displacements
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetRotationalDisplacement](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetRotationalDisplacement.html)
-
-.
+See [CWResults::GetRotationalDisplacement](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetRotationalDisplacement.html).
 
 ## Remarks
 
@@ -85,17 +81,11 @@ Rotational degrees of freedom are available for shells and beams.
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetDisplacementComponentForAllStepsAtNode Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDisplacementComponentForAllStepsAtNode.html)
-
 [ICWResults::GetDisplacementForEntities Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDisplacementForEntities.html)
-
 [ICWResults::GetMinMaxDisplacement Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxDisplacement.html)
-
 [ICWResults::GetReactionForcesAndMoments Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetReactionForcesAndMoments.html)
-
 [ICWResults::GetTranslationalDisplacement Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetTranslationalDisplacement.html)
 
 ## Availability

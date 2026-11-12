@@ -46,11 +46,7 @@ SwDMDimXpertFeature^ GetPlaneFeature();
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertIntersectCircleFeature::GetPlaneFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectCircleFeature~GetPlaneFeature.html)
-
-.
+See [SwDMDimXpertIntersectCircleFeature::GetPlaneFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectCircleFeature~GetPlaneFeature.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertIntersectCircleFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectCircleFeature.html)
-
 [ISwDMDimXpertIntersectCircleFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectCircleFeature_members.html)
 
 ## Availability

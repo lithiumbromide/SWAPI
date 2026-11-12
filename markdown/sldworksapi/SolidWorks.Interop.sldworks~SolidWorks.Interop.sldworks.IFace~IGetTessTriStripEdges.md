@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetTessTriStripEdges Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetTessTriStripEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetTessTriStripEdges.html)
-
-.
+Obsolete. Superseded by [IFace2::IGetTessTriStripEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetTessTriStripEdges.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int IGetTessTriStripEdges()
 System.int IGetTessTriStripEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::IGetTessTriStripEdges](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetTessTriStripEdges.html)
-
-.
+See [Face::IGetTessTriStripEdges](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetTessTriStripEdges.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

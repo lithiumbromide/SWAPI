@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDocument12 Interface Members
 
-The following tables list the members exposed by[ISwDMDocument12](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument12.html).
+The following tables list the members exposed by [ISwDMDocument12](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument12.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[ISwDMDocument12](SolidWorks.Int
 ## See Also
 
 [ISwDMDocument12 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument12.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

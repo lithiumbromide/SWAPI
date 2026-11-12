@@ -9,9 +9,7 @@ source: "sldworksapi/Change_Linear_Pattern_Example_VB.htm"
 
 # Change Linear Pattern Example (VBA)
 
-This example shows how to change a linear pattern from a bodies to a features
-and faces
-pattern.
+This example shows how to change a linear pattern from a bodies to a features and faces pattern.
 
 ```
 '-----------------------------------------------------------

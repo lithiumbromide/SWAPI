@@ -45,13 +45,7 @@ property System.String^ Layer {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Name of layer
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::Layer](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~Layer.html)
-
-.
+See [SketchBlockInstance::Layer](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~Layer.html).
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
 
 ## Availability

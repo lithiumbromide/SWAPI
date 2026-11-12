@@ -9,20 +9,15 @@ source: "obsoleteapi/ModelDoc/ModelDoc__FeatureRevolve2.htm"
 
 # ModelDoc::FeatureRevolve2
 
-This
-method is obsolete and has been superseded by[ModelDoc2::FeatureRevolve2](../ModelDoc2/ModelDoc2__FeatureRevolve2.htm).
+This method is obsolete and has been superseded by [ModelDoc2::FeatureRevolve2](../ModelDoc2/ModelDoc2__FeatureRevolve2.htm).
 
 Description
 
-This method creates a revolved feature. This feature is either a base
-feature or a subsequent boss feature.
+This method creates a revolved feature. This feature is either a base feature or a subsequent boss feature.
 
 Syntax (OLE Automation)
 
-retval = ModelDoc.FeatureRevolve2 (
-angle, reverseDir, angle2, revType, Options)
-
-(Table)=========================================================
+retval = ModelDoc.FeatureRevolve2 ( angle, reverseDir, angle2, revType, Options)
 
 | Input: | (double) angle | Angle of revolution in radians |
 | --- | --- | --- |
@@ -34,10 +29,7 @@ angle, reverseDir, angle2, revType, Options)
 
 Syntax (COM)
 
-status = ModelDoc->FeatureRevolve2(
-angle, reverseDir, angle2, revType, Options, &retval )
-
-(Table)=========================================================
+status = ModelDoc->FeatureRevolve2( angle, reverseDir, angle2, revType, Options, &retval )
 
 | Input: | (double) angle | Angle of revolution in radians |
 | --- | --- | --- |
@@ -50,5 +42,4 @@ angle, reverseDir, angle2, revType, Options, &retval )
 
 Remarks
 
-The Options argument allows additional control of the feature creation.
-Supported values are listed inswoptions.h.
+The Options argument allows additional control of the feature creation. Supported values are listed in swoptions.h.

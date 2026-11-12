@@ -48,16 +48,11 @@ Version number
 
 ## VBA Syntax
 
-See
-
-[CosmosWorks::VersionNumber](ms-its:cworksapivb6.chm::/CosmosWorksLib~CosmosWorks~VersionNumber.html)
-
-.
+See [CosmosWorks::VersionNumber](ms-its:cworksapivb6.chm::/CosmosWorksLib~CosmosWorks~VersionNumber.html).
 
 ## See Also
 
 [ICosmosWorks Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosmosWorks.html)
-
 [ICosmosWorks Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosmosWorks_members.html)
 
 ## Availability

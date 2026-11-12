@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to reverse the direction of the motor, false to not
 
 ## VBA Syntax
 
-See
-
-[SimulationMotorFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~ReverseDirection.html)
-
-.
+See [SimulationMotorFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~ReverseDirection.html).
 
 ## See Also
 
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
-
 [ISimulationMotorFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData_members.html)
-
 [ISimulationMotorFeatureData::DirectionReference Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData~DirectionReference.html)
 
 ## Availability

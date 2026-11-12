@@ -42,13 +42,7 @@ property System.double TextureAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ Angle of the texture of the decal
 
 ## VBA Syntax
 
-See
-
-[FaceDecalProperties::TextureAngle](ms-its:sldworksapivb6.chm::/sldworks~FaceDecalProperties~TextureAngle.html)
-
-.
+See [FaceDecalProperties::TextureAngle](ms-its:sldworksapivb6.chm::/sldworks~FaceDecalProperties~TextureAngle.html).
 
 ## Examples
 
-See
-
-[IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
-examples.
+See [IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html) examples.
 
 ## See Also
 
 [IFaceDecalProperties Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
 [IFaceDecalProperties Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties_members.html)
 
 ## Availability

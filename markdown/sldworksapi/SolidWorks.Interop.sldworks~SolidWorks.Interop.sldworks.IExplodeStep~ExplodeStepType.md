@@ -42,52 +42,29 @@ property System.int ExplodeStepType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Explode step type as defined in
-
-[swAssemblyExplodeStepType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyExplodeStepType.html)
+Explode step type as defined in [swAssemblyExplodeStepType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyExplodeStepType.html)
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::ExplodeStepType](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~ExplodeStepType.html)
-
-.
+See [ExplodeStep::ExplodeStepType](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~ExplodeStepType.html).
 
 ## Examples
 
-See the
-
-[IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
-examples.
+See the [IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html) examples.
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
-
 [IExplodeStep::DivergeDirection Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~DivergeDirection.html)
-
 [IExplodeStep::DivergeFromAxis Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~DivergeFromAxis.html)
-
 [IExplodeStep::ReverseRotationDirection Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~ReverseRotationDirection.html)
-
 [IExplodeStep::ReverseTranslationDirection Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~ReverseTranslationDirection.html)
-
 [IExplodeStep::RotateAboutEachComponentOrigin Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~RotateAboutEachComponentOrigin.html)
-
 [IExplodeStep::RotationAngle Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~RotationAngle.html)
 
 ## Availability

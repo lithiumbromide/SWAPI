@@ -45,13 +45,7 @@ property System.bool PropagateVisualProperty {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,21 @@ True to propagate visual properties, false to not
 
 ## VBA Syntax
 
-See
-
-[DerivedPatternFeatureData::PropagateVisualProperty](ms-its:sldworksapivb6.chm::/sldworks~DerivedPatternFeatureData~PropagateVisualProperty.html)
-
-.
+See [DerivedPatternFeatureData::PropagateVisualProperty](ms-its:sldworksapivb6.chm::/sldworks~DerivedPatternFeatureData~PropagateVisualProperty.html).
 
 ## Examples
 
 [Get Number of Instances Skipped in Driving Feature (C#)](Get_Number_of_Instances_Skipped_in_Driving_Feature_Example_CSharp.htm)
-
 [Get Number of Instances Skipped in Driving Feature (VB.NET)](Get_Number_of_Instances_Skipped_in_Driving_Feature_Example_VBNET.htm)
-
 [Get Number of Instances Skipped in Driving Feature (VBA)](Get_Number_of_Instances_Skipped_in_Driving_Feature_Example_VB.htm)
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [IDerivedPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPatternFeatureData.html)
-
 [IDerivedPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPatternFeatureData_members.html)
 
 ## Availability

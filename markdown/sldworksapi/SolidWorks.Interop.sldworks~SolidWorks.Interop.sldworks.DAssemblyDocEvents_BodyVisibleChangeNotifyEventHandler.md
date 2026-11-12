@@ -37,29 +37,15 @@ public delegate System.int DAssemblyDocEvents_BodyVisibleChangeNotifyEventHandle
 public delegate System.int DAssemblyDocEvents_BodyVisibleChangeNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BodyVisibleChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~BodyVisibleChangeNotify_EV.html)
-
-.
+See [BodyVisibleChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~BodyVisibleChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyBeginInContextEditNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyBeginInContextEditNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -51,11 +51,7 @@ True to ignore text case in text string searches, false to not
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchOptions::IgnoreCase](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~IgnoreCase.html)
-
-.
+See [PDMWSearchOptions::IgnoreCase](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~IgnoreCase.html).
 
 ## Examples
 
@@ -68,7 +64,6 @@ By default, text case is ignored in text string searches.
 ## See Also
 
 [IPDMWSearchOptions Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions.html)
-
 [IPDMWSearchOptions Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions_members.html)
 
 ## Availability

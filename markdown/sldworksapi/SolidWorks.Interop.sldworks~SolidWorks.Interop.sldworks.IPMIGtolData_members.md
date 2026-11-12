@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 # IPMIGtolData Interface Members
 
-The following tables list the members exposed by[IPMIGtolData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData.html).
+The following tables list the members exposed by [IPMIGtolData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData.html).
 
 ## Public Properties
 
@@ -40,9 +40,6 @@ The following tables list the members exposed by[IPMIGtolData](SolidWorks.Intero
 ## See Also
 
 [IPMIGtolData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IPMIDatumData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumData.html)
-
 [IPMIDimensionData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData.html)

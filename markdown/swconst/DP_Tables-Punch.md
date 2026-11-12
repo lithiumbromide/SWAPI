@@ -9,93 +9,23 @@ source: "swconst/DP_Tables-Punch.htm"
 
 # Document Properties > Tables > Punch
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-**NOTE:**Setting any of the following punch
-table values means that new punch tables added to the drawing use these default
-values. However, a punch table that uses a template table for insertion might
-not use these default values because the template table contains certain
-properties that take precedence over these default values. These properties
-include the tag style, precision values, combine tag, and combine same size.
-
-(Table)=========================================================
+**NOTE:** Setting any of the following punch table values means that new punch tables added to the drawing use these default values. However, a punch table that uses a template table for insertion might not use these default values because the template table contains certain properties that take precedence over these default values. These properties include the tag style, precision values, combine tag, and combine same size.
 
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Border - Box Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingPunchTableBorderLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingPunchTableBorderLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Border - Grid Border | ModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingPunchTableGridLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingPunchTableGridLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingPunchTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingPunchTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the
-set method |
-| Location precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableLocationPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableLocationPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies the number of digits of precision to display in the
-punch table; specify a value from 0 through
-8 When setting this value, existing punch tables in the drawing are updated
-to use this precision |
-| Alpha/numerical control | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableTagStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableTagStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swPunchTableTagStyle_e.< Value >) | See swPunchTableTagStyle_e for valid options | Specifies whether the punch tags are alphanumeric or numeric |
-| Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero,
-swUserPreferenceOption_e.swDetailingHoleTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero,
-swUserPreferenceOption_e.swDetailingPunchTable, swDetailingLeadingZero_e.< Value >) | See swDetailingLeadingZero_e for valid options |  |
-| Trailing zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero,
-swUserPreferenceOption_e.swDetailingHoleTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero,
-swUserPreferenceOption_e.swDetailingPunchTable, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsSource |  |
-| Combine same tags | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPunchTableCombineTags,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swPunchTableCombineTags,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then punches of the same size are assigned the same tag, and
-the punch table contains a Quantity column, which indicates multiple punches
-of the same size exist |
-| Combine same tags | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPunchTableCombineSameSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swPunchTableCombineSameSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then punches are the same size, and their cells in the Size column
-are merged and appear as a single cell |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingPunchTable) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingPunchTable, < Value >) | Valid options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" "None" | This setting is available only on drawings; depending on drawing, some
-options may not apply |
-| Origin indicator | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableOriginStandard,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableOriginStandard,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the detailing standard to use for displaying the
-punch table's
-origin symbol If you specify -1 or 0, then the origin symbol is displayed according
-to the default document detailing standard; otherwise, the value is from
-swDetailingStandard_e and the punch table's origin is displayed according
-to that standard When setting this value, any existing punch tables in the drawing are
-updated to use this dimensioning standard To determine the default document detailing standard, get the value
-of the document's integer user preference swDetailingDimensionStardard |
-| Tag angle/offset from profile center - Angle | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPunchTableTagAngle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPunchTableTagAngle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | The origin of the punch tag text is at this angle, in radians, clockwise
-from the Y axis at the distance specified by swPunchTableTagOffset (see
-the next enumeration); the angle must be between -360 ° and
-360 ° |
-| Tag angle/offset from profile center - Offset | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPunchTableTagOffset,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPunchTableTagOffset,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | The origin of the punch tag text is this distance from the
-punch at the
-angle specified by swPunchTableTagAngle (see previous enumeration); the
-offset must be > 0 |
-| Dual dimensions - Dual dimensions
-display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swTablePunchDualDimensionDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swTablePunchDualDimensionDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display dual
-dimensions |
-| Dual dimensions - Show units for
-dual display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swTablePunchShowUnitsForDualDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swTablePunchShowUnitsForDualDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display units
-for dual dimensions |
-| Dual dimensions - Position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swTablePunchDualDimensionPos,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swTablePunchDualDimensionPos,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See swDetailingDualDimPosition_e for valid options | Specifies the position of punch table dual
-dimensions |
+| Border - Box Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingPunchTableBorderLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingPunchTableBorderLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Border - Grid Border | ModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingPunchTableGridLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingPunchTableGridLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingPunchTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingPunchTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Location precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableLocationPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableLocationPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies the number of digits of precision to display in the punch table; specify a value from 0 through 8 When setting this value, existing punch tables in the drawing are updated to use this precision |
+| Alpha/numerical control | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableTagStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableTagStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swPunchTableTagStyle_e.< Value >) | See swPunchTableTagStyle_e for valid options | Specifies whether the punch tags are alphanumeric or numeric |
+| Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero, swUserPreferenceOption_e.swDetailingHoleTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero, swUserPreferenceOption_e.swDetailingPunchTable, swDetailingLeadingZero_e.< Value >) | See swDetailingLeadingZero_e for valid options |  |
+| Trailing zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero, swUserPreferenceOption_e.swDetailingHoleTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero, swUserPreferenceOption_e.swDetailingPunchTable, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsSource |  |
+| Combine same tags | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPunchTableCombineTags, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swPunchTableCombineTags, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then punches of the same size are assigned the same tag, and the punch table contains a Quantity column, which indicates multiple punches of the same size exist |
+| Combine same tags | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPunchTableCombineSameSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swPunchTableCombineSameSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then punches are the same size, and their cells in the Size column are merged and appear as a single cell |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingPunchTable) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingPunchTable, < Value >) | Valid options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" "None" | This setting is available only on drawings; depending on drawing, some options may not apply |
+| Origin indicator | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableOriginStandard, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPunchTableOriginStandard, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the detailing standard to use for displaying the punch table's origin symbol If you specify -1 or 0, then the origin symbol is displayed according to the default document detailing standard; otherwise, the value is from swDetailingStandard_e and the punch table's origin is displayed according to that standard When setting this value, any existing punch tables in the drawing are updated to use this dimensioning standard To determine the default document detailing standard, get the value of the document's integer user preference swDetailingDimensionStardard |
+| Tag angle/offset from profile center - Angle | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPunchTableTagAngle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPunchTableTagAngle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | The origin of the punch tag text is at this angle, in radians, clockwise from the Y axis at the distance specified by swPunchTableTagOffset (see the next enumeration); the angle must be between -360 ° and 360 ° |
+| Tag angle/offset from profile center - Offset | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPunchTableTagOffset, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPunchTableTagOffset, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | The origin of the punch tag text is this distance from the punch at the angle specified by swPunchTableTagAngle (see previous enumeration); the offset must be > 0 |
+| Dual dimensions - Dual dimensions display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swTablePunchDualDimensionDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swTablePunchDualDimensionDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display dual dimensions |
+| Dual dimensions - Show units for dual display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swTablePunchShowUnitsForDualDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swTablePunchShowUnitsForDualDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display units for dual dimensions |
+| Dual dimensions - Position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swTablePunchDualDimensionPos, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swTablePunchDualDimensionPos, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See swDetailingDualDimPosition_e for valid options | Specifies the position of punch table dual dimensions |

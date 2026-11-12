@@ -39,21 +39,11 @@ void ResetBlockingState()
 void ResetBlockingState();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ResetBlockingState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ResetBlockingState.html)
-
-.
+See [ModelDoc2::ResetBlockingState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ResetBlockingState.html).
 
 ## Examples
 
@@ -61,14 +51,13 @@ See
 
 ## Remarks
 
-Call this method after calling[IModelDoc2::SetBlockingState](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetBlockingState.html)to set the SOLIDWORKS menus back to their previous state.
+Call this method after calling [IModelDoc2::SetBlockingState](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetBlockingState.html) to set the SOLIDWORKS menus back to their previous state.
 
-NOTE:You must call this method every time you call IModelDoc2::SetBlockingState. It is not enough to call this method once at the end of a sequence of operations that have called IModelDoc2::SetBlockingState several times.
+NOTE: You must call this method every time you call IModelDoc2::SetBlockingState. It is not enough to call this method once at the end of a sequence of operations that have called IModelDoc2::SetBlockingState several times.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

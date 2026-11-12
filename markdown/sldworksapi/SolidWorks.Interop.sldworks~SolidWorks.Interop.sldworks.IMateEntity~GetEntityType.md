@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # GetEntityType Method (IMateEntity)
 
-Obsolete. Superseded by
-
-[IMateEntity2::ReferenceType2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateEntity2~ReferenceType2.html)
-
-.
+Obsolete. Superseded by [IMateEntity2::ReferenceType2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateEntity2~ReferenceType2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetEntityType()
 System.int GetEntityType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[MateEntity::GetEntityType](ms-its:sldworksapivb6.chm::/sldworks~MateEntity~GetEntityType.html)
-
-.
+See [MateEntity::GetEntityType](ms-its:sldworksapivb6.chm::/sldworks~MateEntity~GetEntityType.html).
 
 ## See Also
 
 [IMateEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity.html)
-
 [IMateEntity Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity_members.html)

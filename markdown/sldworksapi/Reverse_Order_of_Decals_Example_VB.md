@@ -9,8 +9,7 @@ source: "sldworksapi/Reverse_Order_of_Decals_Example_VB.htm"
 
 # Reverse Order of Decals Example (VBA)
 
-This example shows how to reverse the order of the decals applied on
-a model.
+This example shows how to reverse the order of the decals applied on a model.
 
 ```
 '---------------------------------------

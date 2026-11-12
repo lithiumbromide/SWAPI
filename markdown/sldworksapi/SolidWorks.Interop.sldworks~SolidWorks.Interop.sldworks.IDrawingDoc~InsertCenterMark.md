@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # InsertCenterMark Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::InsertCenterMark2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertCenterMark2.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::InsertCenterMark2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~InsertCenterMark2.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ CenterMark^ InsertCenterMark(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertCenterMark](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCenterMark.html)
-
-.
+See [DrawingDoc::InsertCenterMark](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCenterMark.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

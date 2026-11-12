@@ -37,29 +37,15 @@ public delegate System.int DAssemblyDocEvents_FileReloadPreNotifyEventHandler()
 public delegate System.int DAssemblyDocEvents_FileReloadPreNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[FileReloadPreNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~FileReloadPreNotify_EV.html)
-
-.
+See [FileReloadPreNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~FileReloadPreNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyFileReloadPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyFileReloadPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

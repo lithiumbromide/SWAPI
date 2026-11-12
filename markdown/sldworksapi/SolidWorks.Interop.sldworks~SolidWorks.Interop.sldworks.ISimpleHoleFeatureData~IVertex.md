@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # IVertex Property (ISimpleHoleFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleHoleFeatureData2::IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~IVertex.html)
-
-.
+Obsolete. Superseded by [ISimpleHoleFeatureData2::IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~IVertex.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property Vertex^ IVertex {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData::IVertex](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~IVertex.html)
-
-.
+See [SimpleHoleFeatureData::IVertex](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~IVertex.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData.html)
-
 [ISimpleHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData_members.html)

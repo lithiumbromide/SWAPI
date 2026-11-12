@@ -86,6 +86,7 @@ public enum class swFeatureNameID_e : public System.Enum
 | swFmDrSheet | Drawing sheet |
 | swFmEdgeFlange | Edge flange |
 | swFmExtrusion | Extrusion |
+| swFmFamilyTableFeature | Family table feature |
 | swFmFeatureFolder | Feature folder |
 | swFmFillet | Fillet |
 | swFmFillPattern | APattern |

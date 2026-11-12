@@ -46,30 +46,20 @@ DimXpertFeature^ GetBottomFeature();
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundHoleFeature::GetBottomFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundHoleFeature~GetBottomFeature.html)
-
-.
+See [DimXpertCompoundHoleFeature::GetBottomFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundHoleFeature~GetBottomFeature.html).
 
 ## Examples
 
 [Get More DimXpert Feature Examples (VBA)](Get_DimXpert_Feature2_Example_VB.htm)
-
 [Get More DimXpert Feature Examples (VB.NET)](Get_DimXpert_Feature2_Example_VBNET.htm)
 
 ## Remarks
 
-Only blind holes have bottom features. The bottom feature of a blind hole is a
-
-[DimXpert plane feature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPlaneFeature.html)
-
-in which the plane is perpendicular to the hole axis.
+Only blind holes have bottom features. The bottom feature of a blind hole is a [DimXpert plane feature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPlaneFeature.html) in which the plane is perpendicular to the hole axis.
 
 ## See Also
 
 [IDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature.html)
-
 [IDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature_members.html)
 
 ## Availability

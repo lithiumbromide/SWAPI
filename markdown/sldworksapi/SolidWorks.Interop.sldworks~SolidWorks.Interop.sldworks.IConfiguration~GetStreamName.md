@@ -40,13 +40,7 @@ System.string GetStreamName()
 System.String^ GetStreamName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Name of the stream
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetStreamName](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetStreamName.html)
-
-.
+See [Configuration::GetStreamName](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetStreamName.html).
 
 ## Examples
 
@@ -67,7 +57,6 @@ See
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "FreePointCurveFeatureData Object
-Members"
+title: "FreePointCurveFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FreePointCurveFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FreePointCurveFeatureData_members.html"
 ---
 
-# FreePointCurveFeatureData Object
-Members
+# FreePointCurveFeatureData Object Members
 
 ## Public Methods
 

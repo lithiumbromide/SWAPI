@@ -40,13 +40,7 @@ SWScene GetScene()
 SWScene^ GetScene();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetScene](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetScene.html)
-
-.
+See [Configuration::GetScene](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetScene.html).
 
 ## Examples
 
 [Get and Set Scene Properties (VBA)](Get_and_Set_Scene_Properties_Example_VB.htm)
-
 [Get and Set Scene Properties (VB.NET)](Get_and_Set_Scene_Properties_Example_VBNET.htm)
-
 [Get and Set Scene Properties (C#)](Get_and_Set_Scene_Properties_Example_CSharp.htm)
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IModelDocExtension::InsertScene Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertScene.html)
-
 [IModelDocExtension::DeleteScene Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteScene.html)
 
 ## Availability

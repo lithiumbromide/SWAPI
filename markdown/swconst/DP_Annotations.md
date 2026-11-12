@@ -9,46 +9,15 @@ source: "swconst/DP_Annotations.htm"
 
 # Document Properties > Annotations
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > or < OnFlag > | Comments |
 | --- | --- | --- | --- |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAnnotationTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAnnotationTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method. |
-| Attachments - Edge/vertex | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForEdgeVertexAttachment,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForEdgeVertexAttachment,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swArrowStyle_e. < Value > ) | See swArrowStyle_e for valid options | Specifies the default style of dimension arrows attached to edges |
-| Attachments - Face/Surface | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForFaceAttachment,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForFaceAttachment,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swArrowStyle_e. < Value > ) | See swArrowStyle_e for valid options | Specifies the default style of dimension arrows attached to faces |
-| Attachments - Unattached | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForUnattached,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForUnattached,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swArrowStyle_e. < Value > ) | See swArrowStyle_e for valid options | Specifies the default style of unattached dimension arrows |
-| Bent leaders - Use bent leaders | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationUseBentLeaders,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationUseBentLeaders,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to use bent leaders for annotations |
-| Bent leaders - Leader length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingAnnotationBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingAnnotationBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the length of the annotation bend leaders in a drawing document |
-| Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero,
-swUserPreferenceOption_e.swDetailingAnnotation) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero,
-swUserPreferenceOption_e.swDetailingAnnotation, swDetailingLeadingZero_e. < Value > ) | See swDetailingLeadingZero_e for valid options |  |
-| Trailing zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero,
-swUserPreferenceOption_e.swDetailingAnnotation) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero,
-swUserPreferenceOption_e.swDetailingAnnotation, swDetailingDimTrailingZero_e. < Value > ) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsSource |  |
-| Show type in thread callouts | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationShowTypeInThreadCallouts,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationShowTypeInThreadCallouts,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
-| Apply new cosmetic thread behavior to new parts | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationApplyNewCTDepthArchForToNewParts,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationApplyNewCTDepthArchForToNewParts,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Valid only for part templates. New parts created from the templates with this
-option turned on will follow the new behavior for the cosmetic thread depth
-measurement and feature ownership. Turn this option off in the template to
-create new parts with the old behavior. |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAnnotationTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAnnotationTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method. |
+| Attachments - Edge/vertex | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForEdgeVertexAttachment, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForEdgeVertexAttachment, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swArrowStyle_e. < Value > ) | See swArrowStyle_e for valid options | Specifies the default style of dimension arrows attached to edges |
+| Attachments - Face/Surface | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForFaceAttachment, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForFaceAttachment, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swArrowStyle_e. < Value > ) | See swArrowStyle_e for valid options | Specifies the default style of dimension arrows attached to faces |
+| Attachments - Unattached | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForUnattached, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingArrowStyleForUnattached, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swArrowStyle_e. < Value > ) | See swArrowStyle_e for valid options | Specifies the default style of unattached dimension arrows |
+| Bent leaders - Use bent leaders | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationUseBentLeaders, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationUseBentLeaders, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to use bent leaders for annotations |
+| Bent leaders - Leader length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingAnnotationBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingAnnotationBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the length of the annotation bend leaders in a drawing document |
+| Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero, swUserPreferenceOption_e.swDetailingAnnotation) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero, swUserPreferenceOption_e.swDetailingAnnotation, swDetailingLeadingZero_e. < Value > ) | See swDetailingLeadingZero_e for valid options |  |
+| Trailing zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero, swUserPreferenceOption_e.swDetailingAnnotation) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero, swUserPreferenceOption_e.swDetailingAnnotation, swDetailingDimTrailingZero_e. < Value > ) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsSource |  |
+| Show type in thread callouts | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationShowTypeInThreadCallouts, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationShowTypeInThreadCallouts, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
+| Apply new cosmetic thread behavior to new parts | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationApplyNewCTDepthArchForToNewParts, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAnnotationApplyNewCTDepthArchForToNewParts, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Valid only for part templates. New parts created from the templates with this option turned on will follow the new behavior for the cosmetic thread depth measurement and feature ownership. Turn this option off in the template to create new parts with the old behavior. |

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # NegativeJacobianRatioCheck Property (ICWMesh)
 
-Obsolete. Superseded by ICWMesh::NegativeJacobianRatioCheck2.
+Obsolete. Superseded by [ICWMesh::NegativeJacobianRatioCheck2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~NegativeJacobianRatioCheck2.html).
 
 ## Syntax
 
@@ -51,32 +51,16 @@ property System.int NegativeJacobianRatioCheck {
 
 ## VBA Syntax
 
-See
-
-[CWMesh::NegativeJacobianRatioCheck](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~NegativeJacobianRatioCheck.html)
-
-.
+See [CWMesh::NegativeJacobianRatioCheck](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~NegativeJacobianRatioCheck.html).
 
 ## Remarks
 
-For more information, read the
-
-Jacobian Points
-
-section of the
-
-Simulation > Meshing >
-
-Mesh Quality Checks
-
-topic in the SOLIDWORKS help.
+For more information, read the **Jacobian Points** section of the **Simulation > Meshing >** **Mesh Quality Checks** topic in the SOLIDWORKS help.
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::JacobianPoints Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~JacobianPoints.html)
 
 ## Availability

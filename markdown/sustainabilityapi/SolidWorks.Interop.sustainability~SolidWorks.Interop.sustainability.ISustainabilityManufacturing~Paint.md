@@ -47,30 +47,19 @@ property System.int Paint {
 
 ### Property Value
 
-Paint type as defined in
-
-[swSustainabilityManufacturingPaintType_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityManufacturingPaintType_e.html)
+Paint type as defined in [swSustainabilityManufacturingPaintType_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityManufacturingPaintType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SustainabilityManufacturing::Paint](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing~Paint.html)
-
-.
+See [SustainabilityManufacturing::Paint](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing~Paint.html).
 
 ## Examples
 
-See examples in
-
-[ISustainabilityManufacturing](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityManufacturing.html)
-
-.
+See examples in [ISustainabilityManufacturing](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityManufacturing.html).
 
 ## See Also
 
 [ISustainabilityManufacturing Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing.html)
-
 [ISustainabilityManufacturing Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing_members.html)
 
 ## Availability

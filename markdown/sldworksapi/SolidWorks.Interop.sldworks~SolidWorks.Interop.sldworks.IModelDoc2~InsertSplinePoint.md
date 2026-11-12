@@ -54,13 +54,7 @@ void InsertSplinePoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,26 +64,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertSplinePoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSplinePoint.html)
-
-.
+See [ModelDoc2::InsertSplinePoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSplinePoint.html).
 
 ## Examples
 
 [Insert Spline Point (VBA)](Insert_Spline_Point_Example_VB.htm)
-
 [Insert Spline Point (VB.NET)](Insert_Spline_Point_Example_VBNET.htm)
-
 [Insert Spline Point (C#)](Insert_Spline_Point_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::CreateSpline Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateSpline.html)
 
 ## Availability

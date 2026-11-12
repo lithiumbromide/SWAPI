@@ -45,13 +45,7 @@ property System.bool SmartMating {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ RUE enables SmartMates, false disables it
 
 ## VBA Syntax
 
-See
-
-[DragOperator::SmartMating](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~SmartMating.html)
-
-.
+See [DragOperator::SmartMating](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~SmartMating.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ SmartMates is an assembly mating relation that SOLIDWORKS creates automatically.
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
 
 ## Availability

@@ -46,16 +46,11 @@ Number of features that this feature applies to
 
 ## VBA Syntax
 
-See
-
-[DimXpertFeature::GetAppliedFeatureCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFeature~GetAppliedFeatureCount.html)
-
-.
+See [DimXpertFeature::GetAppliedFeatureCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFeature~GetAppliedFeatureCount.html).
 
 ## Examples
 
 [Get DimXpert Feature Example (VBA)](Get_DimXpert_Feature_Example_VB.htm)
-
 [Get DimXpert Feature Example (VB.NET)](Get_DimXpert_Feature_Example_VBNET.htm)
 
 ## Remarks
@@ -65,5 +60,4 @@ Applied features of a DimXpertFeature are its many parents in the feature tree o
 ## See Also
 
 [IDimXpertFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature.html)
-
 [IDimXpertFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature_members.html)

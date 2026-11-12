@@ -9,12 +9,9 @@ source: "sldworksapi/Import_Models_as_Solids_Example_VB.htm"
 
 # Import Models as Solids Example (VBA)
 
-This example shows how to set the options to import non-native SOLIDWORKS
-models into SOLIDWORKS as solids.
+This example shows how to set the options to import non-native-SOLIDWORKS models into SOLIDWORKS Design as solids.
 
-NOTE:You must set the values
-of both swUserPreferenceIntegerValue_e.swCreateBodyFromSurfaces and swUserPreferenceIntegerValue_e.swImportUseBrep
-for swUserPreferenceIntegerValue_e.swImportUseBrep to have an effect.
+NOTE: You must set the values of both swUserPreferenceIntegerValue_e.swCreateBodyFromSurfaces and swUserPreferenceIntegerValue_e.swImportUseBrep for swUserPreferenceIntegerValue_e.swImportUseBrep to have an effect.
 
 ```
 '----------------------------------------------------
@@ -68,7 +65,7 @@ Sub main()
 ```
     ' Set swImportUseBrep value to 1 (Do not import the model
     ' by directly mapping topologies using BREP data)
-    ' Let SOLIDWORKS attempt to knit the surfaces into solids
+    ' Let SOLIDWORKS Design attempt to knit the surfaces into solids
     rtn = swApp.SetUserPreferenceIntegerValue(swImportUseBrep, 1)
 ```
 

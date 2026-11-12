@@ -52,28 +52,15 @@ void SetIterationLimit(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyOptions::SetIterationLimit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyOptions~SetIterationLimit.html)
-
-.
+See [CWTopologyStudyOptions::SetIterationLimit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyOptions~SetIterationLimit.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWTopologyStudyOptions::SetIterationOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions~SetIterationOption.html)
-
-is set to
-
-[swsTopologyIterationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyIterationOption_e.html)
-
-.IterationOption_UserDef.
+This method is valid only if [ICWTopologyStudyOptions::SetIterationOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions~SetIterationOption.html) is set to [swsTopologyIterationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyIterationOption_e.html).IterationOption_UserDef.
 
 ## See Also
 
 [ICWTopologyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions.html)
-
 [ICWTopologyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions_members.html)
 
 ## Availability

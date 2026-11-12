@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBo
 
 # ICWBoltConnector Interface Members
 
-The following tables list the members exposed by[ICWBoltConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html).
+The following tables list the members exposed by [ICWBoltConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html).
 
 ## Public Properties
 
@@ -78,5 +78,4 @@ The following tables list the members exposed by[ICWBoltConnector](SolidWorks.In
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertBlockTolerances Interface Methods
 
-For a list of all members of this type, see[ISwDMDimXpertBlockTolerances members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBlockTolerances_members.html).
+For a list of all members of this type, see [ISwDMDimXpertBlockTolerances members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBlockTolerances_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[ISwDMDimXpertBlockTolerances members
 ## See Also
 
 [ISwDMDimXpertBlockTolerances Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBlockTolerances.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

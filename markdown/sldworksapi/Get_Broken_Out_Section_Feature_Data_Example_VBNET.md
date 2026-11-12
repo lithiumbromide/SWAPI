@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Broken_Out_Section_Feature_Data_Example_VBNET.htm"
 
 # Get Broken-Out Section Feature Data Example (VB.NET)
 
-This example shows how to get broken-out section feature data from a drawing
-view.
+This example shows how to get broken-out section feature data from a drawing view.
 
 ```vb
  '----------------------------------------------------------------------------

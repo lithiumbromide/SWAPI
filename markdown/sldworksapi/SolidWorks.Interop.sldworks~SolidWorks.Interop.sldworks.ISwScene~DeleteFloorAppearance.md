@@ -40,13 +40,7 @@ System.bool DeleteFloorAppearance()
 System.bool DeleteFloorAppearance();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SwScene::DeleteFloorAppearance](ms-its:sldworksapivb6.chm::/sldworks~SwScene~DeleteFloorAppearance.html)
-
-.
+See [SwScene::DeleteFloorAppearance](ms-its:sldworksapivb6.chm::/sldworks~SwScene~DeleteFloorAppearance.html).
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

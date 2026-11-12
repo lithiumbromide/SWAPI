@@ -40,13 +40,7 @@ System.int GetControlPointsCount()
 System.int GetControlPointsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,15 @@ Number of intermediate control points
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData2::GetControlPointsCount](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~GetControlPointsCount.html)
-
-.
+See [VariableFilletFeatureData2::GetControlPointsCount](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~GetControlPointsCount.html).
 
 ## Remarks
 
-Call this method before calling[IVariableFilletFeatureData2::GetControlPointRadiusAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetControlPointRadiusAtIndex.html).
+Call this method before calling [IVariableFilletFeatureData2::GetControlPointRadiusAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetControlPointRadiusAtIndex.html).
 
 ## See Also
 
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2_members.html)
 
 ## Availability

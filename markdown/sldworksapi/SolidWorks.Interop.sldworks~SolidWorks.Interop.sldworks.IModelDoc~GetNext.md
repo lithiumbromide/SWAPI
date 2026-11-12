@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetNext Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetNext.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetNext.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetNext()
 System.Object^ GetNext();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetNext](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetNext.html)
-
-.
+See [ModelDoc::GetNext](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetNext.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

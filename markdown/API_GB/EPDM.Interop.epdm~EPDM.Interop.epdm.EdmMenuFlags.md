@@ -9,19 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags.html"
 
 # EdmMenuFlags Enumeration
 
-Flags used by
-
-[IEdmCmdMgr5::AddCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddCmd.html)
-
-when writing an
-
-[add-in that supports menu commands](vbmenuitem.htm)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags used by [IEdmCmdMgr5::AddCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddCmd.html) when writing an [add-in that supports menu commands](vbmenuitem.htm). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

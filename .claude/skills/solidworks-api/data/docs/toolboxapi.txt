@@ -1,0 +1,104 @@
+<<< CTbcApplication.GetHWnd | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.CTbcApplication~GetHWnd.md
+R: 32-bit Microsoft window handle
+<<< CTbcApplication.GetHWnd64 | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.CTbcApplication~GetHWnd64.md
+R: 64-bit Microsoft window handle
+<<< CTbcApplication.MajorVersion | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.CTbcApplication~MajorVersion.md
+R: Major version of the Welcome to Toolbox Setup dialog
+<<< CTbcApplication.PDMDocManager | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.CTbcApplication~PDMDocManager.md
+R: IPDMDocManager
+<<< CTbcApplication.SendMessageToUser | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.CTbcApplication~SendMessageToUser.md
+P: message: Message string
+<<< DApplicationEvents.Destroy | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.DApplicationEvents_DestroyEventHandler.md
+X: Available only if you installed SOLIDWORKS Toolbox.
+In the body of this handler, you can destroy all references to the Toolbox Browser before its pointer is deleted.
+<<< DPDMDocManagerEvents.AfterCopyingDocument | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.DPDMDocManagerEvents_AfterCopyingDocumentEventHandler.md
+P: FromFileName: Path and file name of document copied
+P: ToFileName: Path and file name of new document
+P: DeleteSource: True if FromFileName is deleted, false if not
+<<< DPDMDocManagerEvents.AfterDeletingDocument | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.DPDMDocManagerEvents_AfterDeletingDocumentEventHandler.md
+P: fileName: Path and file name of document deleted
+<<< DPDMDocManagerEvents.AfterWritingToDocument | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.DPDMDocManagerEvents_AfterWritingToDocumentEventHandler.md
+P: fileName: Path and file name of document written to
+X: Available only if you installed SOLIDWORKS Toolbox.
+In the body of this handler, you can perform PDM document management functions such as:
+- Determine the availability of fileName in the SOLIDWORKS Toolbox.
+- Copy a working file to the PDM-managed location, overwriting the PDM-managed version if necessary.
+- Set the read-only attribute of the PDM-managed file.
+Before returning from this handler, you must call IPDMDocManager::SetDocumentStatus with swPDMStatus_e.swPDMStatusKnownAndAvailable in order to not generate an error.
+<<< DPDMDocManagerEvents.BeforeCopyingDocument | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.DPDMDocManagerEvents_BeforeCopyingDocumentEventHandler.md
+P: FromFileName: Path and file name of document to copy
+P: ToFileName: Path and file name of of the new document
+P: DeleteSource: True to delete FromFileName, false to not
+<<< DPDMDocManagerEvents.BeforeDeletingDocument | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.DPDMDocManagerEvents_BeforeDeletingDocumentEventHandler.md
+P: fileName: Path and file name of document to delete
+<<< DPDMDocManagerEvents.BeforeWritingToDocument | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.DPDMDocManagerEvents_BeforeWritingToDocumentEventHandler.md
+P: fileName: Path and file name of document to which to write
+R: If 0 is returned without setting the document status, an error occurs. If 1 is returned, Toolbox uses the specified file name and proceeds as usual.
+X: Available only if you installed SOLIDWORKS Toolbox.
+In the body of this handler, you can perform PDM document management functions such as:
+- Determine the availability of fileName in the SOLIDWORKS Toolbox.
+- Clear the read-only attribute of the PDM-managed document in preparation for writing.
+- Call IPDMDocManager::SetManagedDocument to direct the Toolbox Browser application to write to a different document, if the PDM-managed version is not writable.
+Before returning from this handler, you must call IPDMDocManager::SetDocumentStatus with swPDMStatus_e.swPDMStatusKnownAndAvailable in order to not generate an error.
+<<< DPDMDocManagerEvents.Destroy | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.DPDMDocManagerEvents_DestroyEventHandler.md
+X: Available only if you installed SOLIDWORKS Toolbox.
+In the body of this handler, you can destroy all references to the PDM application before its pointer is deleted.
+<<< DPDMDocManagerEvents.NewDocumentAdded | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.DPDMDocManagerEvents_NewDocumentAddedEventHandler.md
+P: fileName: Path and file name of the new part
+P: ToolboxID: ID is calculated for copied part creation; otherwise 1
+P: AddedToBrowser: True if the the part resides in the SOLIDWORKS Toolbox database, false if not
+X: In this handler, call IPDMDocManager:SetManagedDocument to direct the Toolbox Browser application to use the new document. For copied parts, the file inserted into the assembly is the IPDMDocManager::SetManagedDocument filename.
+<<< DPDMDocManagerEvents.PreInsertDocument | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.DPDMDocManagerEvents_PreInsertDocumentEventHandler.md
+P: fileName: Path and file name of the document to insert
+P: ToolboxID: ID is calculated for copied part creation; otherwise 1
+X: Works like the SOLIDWORKS FileDropPreNotify event for the SmartFastener. If a file with the same name is already open in SOLIDWORKS, Toolbox uses that file and does not send the PreInsertDocument notification.
+Before returning from this handler, you must call IPDMDocManager::SetManagedDocument. The PDM application can use this method to direct the Toolbox Browser application to work with a file other than the PDM-managed document, which may not be writable. If the file does not exist, SOLIDWORKS generates an error and aborts all operations. If this file name is null for copied parts, SOLIDWORKS creates a new part. For all other insertions, SOLIDWORKS uses the original file name when an empty file name is specified.
+<<< IApplication | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication.md
+X: This interface is available only if SOLIDWORKS Toolbox Browser add-in is an active SOLIDWORKS add-in.
+Events are implemented with delegates in the Microsoft.NET Framework. See the Overview topic for a list of delegates for this interface.
+<<< IApplication.MajorVersion | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication~MajorVersion.md
+R: Major version of the SOLIDWORKS Toolbox Browser add-in
+<<< IApplication.PDMDocManager | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication~PDMDocManager.md
+R: IPDMDocManager
+X: Available only if you installed SOLIDWORKS Toolbox.
+<<< IPDMDocManager | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IPDMDocManager.md
+X: This interface is available only if SOLIDWORKS Toolbox Browser add-in is an active SOLIDWORKS add-in.
+Events are implemented with delegates in the Microsoft.NET Framework. See the Overview topic for a list of delegates for this interface.
+<<< IPDMDocManager.SetCancelOperation | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IPDMDocManager~SetCancelOperation.md
+P: cancelOp: True to cancel the current operation, false to continue the operation
+R: True if the current operation is canceled, false if not
+X: Available only if you installed SOLIDWORKS Toolbox.
+<<< IPDMDocManager.SetDocumentStatus | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IPDMDocManager~SetDocumentStatus.md
+P: status: Document status as defined in swPDMStatus_e
+R: True if the document status is set, false if not
+X: Available only if you installed SOLIDWORKS Toolbox.
+<<< IPDMDocManager.SetManagedDocument | toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IPDMDocManager~SetManagedDocument.md
+P: fileName: Document path and file name; the location in the vault does not need to be writable
+R: True if the managed document is set, false if not
+X: Available only if you installed SOLIDWORKS Toolbox.
+<<< IToolboxConfiguratorAddin | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolboxConfiguratorAddin.md
+X: This interface is available only if SOLIDWORKS Toolbox Browser is an active SOLIDWORKS add-in.
+<<< IToolboxConfiguratorAddin.Connect | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolboxConfiguratorAddin~Connect.md
+P: pTbcApplication: IToolboxConfiguratorApplication
+P: lCookie: Add-in ID
+R: True if successful, false if not
+<<< IToolboxConfiguratorAddin.Disconnect | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolboxConfiguratorAddin~Disconnect.md
+R: True if successful, false if not
+<<< IToolBoxConfiguratorApplication | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication.md
+X: This interface is available only if IToolboxConfiguratorAddin is an active SOLIDWORKS add-in.
+<<< IToolBoxConfiguratorApplication.GetHWnd | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication~GetHWnd.md
+R: 32-bit Microsoft window handle
+<<< IToolBoxConfiguratorApplication.GetHWnd64 | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication~GetHWnd64.md
+R: 64-bit Microsoft window handle
+<<< IToolBoxConfiguratorApplication.MajorVersion | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication~MajorVersion.md
+R: Major version of the Welcome to Toolbox Setup dialog
+<<< IToolBoxConfiguratorApplication.PDMDocManager | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication~PDMDocManager.md
+R: IPDMDocManager
+<<< IToolBoxConfiguratorApplication.SendMessageToUser | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication~SendMessageToUser.md
+P: message: Message string
+<<< ToolboxConfiguratorAddin.Connect | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.ToolboxConfiguratorAddin~Connect.md
+P: pTbcApplication: IToolboxConfiguratorApplication
+P: lCookie: Add-in ID
+R: True if successful, false if not
+<<< ToolboxConfiguratorAddin.Disconnect | toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.ToolboxConfiguratorAddin~Disconnect.md
+R: True if successful, false if not

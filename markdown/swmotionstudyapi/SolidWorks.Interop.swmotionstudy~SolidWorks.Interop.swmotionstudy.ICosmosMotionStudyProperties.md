@@ -11,7 +11,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 Allows access to a motion study's properties.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ICosmosMotionStudyProperties
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties](ms-its:swmotionstudyapivb6.chm::/swmotionstudy~CosmosMotionStudyProperties.html)
-
-.
+See [CosmosMotionStudyProperties](ms-its:swmotionstudyapivb6.chm::/swmotionstudy~CosmosMotionStudyProperties.html).
 
 ## Examples
 
@@ -58,5 +54,4 @@ See
 ## See Also
 
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
-
 [SolidWorks.Interop.swmotionstudy Namespace](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy_namespace.html)

@@ -40,13 +40,7 @@ System.bool IsRevolved()
 System.bool IsRevolved();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ True if the surface is a revolved surface, false if not
 
 ## VBA Syntax
 
-See
-
-[Surface::IsRevolved](ms-its:sldworksapivb6.chm::/sldworks~Surface~IsRevolved.html)
-
-.
+See [Surface::IsRevolved](ms-its:sldworksapivb6.chm::/sldworks~Surface~IsRevolved.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurfRevolveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfRevolveFeatureData.html)
-
 [IFeatureManager::InsertRevolvedRefSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertRevolvedRefSurface.html)

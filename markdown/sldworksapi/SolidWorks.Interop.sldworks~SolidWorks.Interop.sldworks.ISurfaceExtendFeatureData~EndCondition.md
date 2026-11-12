@@ -45,34 +45,23 @@ property System.int EndCondition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-End condition as defined in[swSurfaceExtendEndCond_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSurfaceExtendEndCond_e.html)
+End condition as defined in [swSurfaceExtendEndCond_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSurfaceExtendEndCond_e.html)
 
 ## VBA Syntax
 
-See
-
-[SurfaceExtendFeatureData::EndCondition](ms-its:sldworksapivb6.chm::/sldworks~SurfaceExtendFeatureData~EndCondition.html)
-
-.
+See [SurfaceExtendFeatureData::EndCondition](ms-its:sldworksapivb6.chm::/sldworks~SurfaceExtendFeatureData~EndCondition.html).
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISurfaceExtendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData.html)
-
 [ISurfaceExtendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData_members.html)
 
 ## Availability

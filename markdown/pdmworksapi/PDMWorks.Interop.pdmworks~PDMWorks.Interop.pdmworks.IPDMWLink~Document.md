@@ -44,22 +44,15 @@ property PDMWDocument^ Document {
 
 ### Property Value
 
-[IPDMWDocument](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
-object for this link
+[IPDMWDocument](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html) object for this link
 
 ## VBA Syntax
 
-See
-
-[PDMWLink::Document](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Document.html)
-
-.
+See [PDMWLink::Document](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Document.html).
 
 ## See Also
 
 [IPDMWLink Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)
-
 [IPDMWLink Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink_members.html)
 
 ## Availability

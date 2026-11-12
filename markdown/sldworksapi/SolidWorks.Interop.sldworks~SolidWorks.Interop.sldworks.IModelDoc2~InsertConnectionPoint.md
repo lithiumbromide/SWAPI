@@ -39,32 +39,21 @@ void InsertConnectionPoint()
 void InsertConnectionPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertConnectionPoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertConnectionPoint.html)
-
-.
+See [ModelDoc2::InsertConnectionPoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertConnectionPoint.html).
 
 ## Remarks
 
-If the selection set is not complete, then theInsert Connection Pointdialog is displayed.
+If the selection set is not complete, then the Insert Connection Point dialog is displayed.
 
 The connection point is the point on the fitting that defines where the connection to other pipe items begins or ends.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

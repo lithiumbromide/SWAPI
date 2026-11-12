@@ -45,13 +45,7 @@ property System.bool DiameterOverride {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to override the diameter, false to not (default)
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::DiameterOverride](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~DiameterOverride.html)
-
-.
+See [ThreadFeatureData::DiameterOverride](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~DiameterOverride.html).
 
 ## Examples
 
-See the
-
-[IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-examples.
+See the [IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html) examples.
 
 ## Remarks
 
-If this property is set to true, use
-
-[IThreadFeatureData::Diameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~Diameter.html)
-
-to specify the override diameter.
+If this property is set to true, use [IThreadFeatureData::Diameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~Diameter.html) to specify the override diameter.
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

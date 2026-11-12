@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # AccessSelections Method (IDomeFeatureData)
 
-Obsolete. Superseded by
-
-[IDomeFeatureData2::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~AccessSelections.html)
-
-.
+Obsolete. Superseded by [IDomeFeatureData2::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~AccessSelections.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DomeFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~AccessSelections.html)
-
-.
+See [DomeFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~AccessSelections.html).
 
 ## See Also
 
 [IDomeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData.html)
-
 [IDomeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData_members.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITh
 
 # IThreadFeatureData Interface Methods
 
-For a list of all members of this type, see[IThreadFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html).
+For a list of all members of this type, see [IThreadFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html).
 
 ## Public Methods
 
@@ -26,7 +26,5 @@ For a list of all members of this type, see[IThreadFeatureData members](SolidWor
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::CreateFeature Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)

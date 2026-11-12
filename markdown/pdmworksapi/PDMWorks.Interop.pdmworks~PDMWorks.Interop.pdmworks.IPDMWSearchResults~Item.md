@@ -57,16 +57,11 @@ property System.Object^ default [System.Object^] {
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchResults::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResults~Item.html)
-
-.
+See [PDMWSearchResults::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResults~Item.html).
 
 ## See Also
 
 [IPDMWSearchResults Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResults.html)
-
 [IPDMWSearchResults Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResults_members.html)
 
 ## Availability

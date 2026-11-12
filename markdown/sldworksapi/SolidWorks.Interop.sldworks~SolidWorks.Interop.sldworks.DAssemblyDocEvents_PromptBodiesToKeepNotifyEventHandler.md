@@ -46,36 +46,20 @@ public delegate System.int DAssemblyDocEvents_PromptBodiesToKeepNotifyEventHandl
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Feature`: [Feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-- `Bodies`: Array of
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `Bodies`: Array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[PromptBodiesToKeepNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~PromptBodiesToKeepNotify_EV.html)
-
-.
+See [PromptBodiesToKeepNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~PromptBodiesToKeepNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyPromptBodiesToKeepNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyPromptBodiesToKeepNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

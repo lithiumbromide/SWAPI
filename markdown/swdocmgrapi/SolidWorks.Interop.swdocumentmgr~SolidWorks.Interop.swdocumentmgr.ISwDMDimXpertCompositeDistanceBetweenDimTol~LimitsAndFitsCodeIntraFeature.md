@@ -48,11 +48,7 @@ Limits and fits code for feature-locating
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompositeDistanceBetweenDimTol::LimitsAndFitsCodeIntraFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositeDistanceBetweenDimTol~LimitsAndFitsCodeIntraFeature.html)
-
-.
+See [SwDMDimXpertCompositeDistanceBetweenDimTol::LimitsAndFitsCodeIntraFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositeDistanceBetweenDimTol~LimitsAndFitsCodeIntraFeature.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompositeDistanceBetweenDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol.html)
-
 [ISwDMDimXpertCompositeDistanceBetweenDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol_members.html)
 
 ## Availability

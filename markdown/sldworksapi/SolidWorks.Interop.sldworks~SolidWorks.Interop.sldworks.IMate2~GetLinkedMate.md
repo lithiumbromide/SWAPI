@@ -40,13 +40,7 @@ System.object GetLinkedMate()
 System.Object^ GetLinkedMate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Mate2::GetLinkedMate](ms-its:sldworksapivb6.chm::/sldworks~Mate2~GetLinkedMate.html)
-
-.
+See [Mate2::GetLinkedMate](ms-its:sldworksapivb6.chm::/sldworks~Mate2~GetLinkedMate.html).
 
 ## Remarks
 
@@ -67,7 +57,6 @@ This mate and its linked mate are siblings in a Hole Set, which is defined as tw
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
 
 ## Availability

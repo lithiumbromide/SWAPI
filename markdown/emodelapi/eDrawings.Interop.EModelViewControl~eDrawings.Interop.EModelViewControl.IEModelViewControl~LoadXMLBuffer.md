@@ -52,42 +52,28 @@ void LoadXMLBuffer(
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::LoadXMLBuffer](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~LoadXMLBuffer.html)
-
-.
+See [EModelViewControl::LoadXMLBuffer](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~LoadXMLBuffer.html).
 
 ## Examples
 
+```vb
 <TITLE>eDrawings 2005 - [square]</TITLE><HTML>
-
 <BODY>
-
 <OBJECT ID="EV" classid="clsid:22945A69-1191-4DCF-9E6F-409BDE94D101" codebase="http://www.solidworks.com/plugins/edrawings/ " width="100%" height="99%"><PARAM name="FullUI" value="1"/></OBJECT>
-
-<font color="#000000" face="Times, Verdana, Helvetica, Arial">Internet Explorer 5.5 or higher is required to view this <a href="http://www.solidworks.com/edrawings">eDrawings</a> file. Generated with eDrawings 2005.</font>
-
-<SCRIPT>function edwsc(){if(event.srcElement.readyState=="complete") EV.LoadXMLBuffer(event.srcElement.XMLDocument);} </SCRIPT>
-
+<font color="#000000" face="Times, Verdana, Helvetica, Arial">Internet Explorer 5.5 or higher is required to view this <a href="http://www.solidworks.com/edrawings">eDrawings</a> file.      Generated with eDrawings 2005.</font>
+<SCRIPT>function edwsc(){if(event.srcElement.readyState=="complete")EV.LoadXMLBuffer(event.srcElement.XMLDocument);}</SCRIPT>
 <XML ID="EDW1" onreadystatechange="edwsc()">
-
 <EDWData>
-
-<!-- Embedded EDrawing data saved as text --!> See IPDMWDocument::GetEmbeddedEDWAsBase64
-
+<!-- Embedded EDrawing data saved as text --!>  See IPDMWDocument::GetEmbeddedEDWAsBase64
 </EDWData>
-
 </XML>
-
 </BODY>
-
 </HTML>
+```
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

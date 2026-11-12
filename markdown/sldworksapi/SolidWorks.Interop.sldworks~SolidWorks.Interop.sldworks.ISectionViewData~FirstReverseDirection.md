@@ -45,50 +45,30 @@ property System.bool FirstReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 True to reverse the first direction of the section view, false to not
 
-EndOLEPropertyRow
-
 ## VBA Syntax
 
-See
-
-[SectionViewData::FirstReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~FirstReverseDirection.html)
-
-.
+See [SectionViewData::FirstReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~FirstReverseDirection.html).
 
 ## Examples
 
 [Create Section View in Model (C#)](Create_Section_View_in_Model_Example_CSharp.htm)
-
 [Create Section View in Model (VB.NET)](Create_Section_View_in_Model_Example_VBNET.htm)
-
 [Create Section View in Model (VBA)](Create_Section_View_in_Model_Example_VB.htm)
-
 [Get Section View Data (C#)](Get_Section_View_Data_Example_CSharp.htm)
-
 [Get Section View Data (VB.NET)](Get_Section_View_Data_Example_VBNET.htm)
-
 [Get Section View Data (VBA)](Get_Section_View_Data_Example_VB.htm)
 
 ## See Also
 
 [ISectionViewData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html)
-
 [ISectionViewData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData_members.html)
-
 [ISectionViewData::SecondReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~SecondReverseDirection.html)
-
 [ISectionViewData::ThirdReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~ThirdReverseDirection.html)
 
 ## Availability

@@ -44,28 +44,20 @@ property swDimXpertCompoundHoleType_e CompoundHoleType {
 
 ### Property Value
 
-Type of this DimXpert compound hole as defined in
-
-[swDimXpertCompoundHoleType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertCompoundHoleType_e.html)
+Type of this DimXpert compound hole as defined in [swDimXpertCompoundHoleType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertCompoundHoleType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundHoleFeature::CompoundHoleType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundHoleFeature~CompoundHoleType.html)
-
-.
+See [DimXpertCompoundHoleFeature::CompoundHoleType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundHoleFeature~CompoundHoleType.html).
 
 ## Examples
 
 [Get More DimXpert Feature Examples (VBA)](Get_DimXpert_Feature2_Example_VB.htm)
-
 [Get More DimXpert Feature Examples (VB.NET)](Get_DimXpert_Feature2_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature.html)
-
 [IDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature_members.html)
 
 ## Availability

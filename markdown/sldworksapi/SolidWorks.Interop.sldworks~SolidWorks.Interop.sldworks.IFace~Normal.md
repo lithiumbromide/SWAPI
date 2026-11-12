@@ -9,9 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # Normal Property (IFace)
 
-Obsolete. Superseded by IFace2::Normal .
+Obsolete. Superseded by [IFace2::Normal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~Normal.html).
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,24 +47,13 @@ property System.Object^ Normal {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::Normal](ms-its:sldworksapivb6.chm::/sldworks~Face~Normal.html)
-
-.
+See [Face::Normal](ms-its:sldworksapivb6.chm::/sldworks~Face~Normal.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

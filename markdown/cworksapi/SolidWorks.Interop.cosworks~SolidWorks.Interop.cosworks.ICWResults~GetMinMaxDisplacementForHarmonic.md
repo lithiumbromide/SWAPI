@@ -65,50 +65,33 @@ System.Object^ GetMinMaxDisplacementForHarmonic(
 
 ### Parameters
 
-- `NComponent`: Displacement component as defined in
-
-[swsDisplacementComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDisplacementComponent_e.html)
+- `NComponent`: Displacement component as defined in [swsDisplacementComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDisplacementComponent_e.html)
 - `NStepNum`: Solution step number (use 1 for static)
 - `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if reference geometry does not exist
-- `NUnits`: Linear units for displacement translation as defined in
-
-[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Linear units for displacement translation as defined in [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetMinMaxDisplacementForHarmonic](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxDisplacementForHarmonic.html)
-
-.
+See [CWResults::GetMinMaxDisplacementForHarmonic](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxDisplacementForHarmonic.html).
 
 ## Remarks
 
 This method returns the following array:
 
-{`node_with_minimum_displacement`,`minimum_displacement`,`node_with_maximum_displacement`,`maximum_displacement`},
+{`node_with_minimum_displacement`, `minimum_displacement`, `node_with_maximum_displacement`, `maximum_displacement`},
 
 where the nodes are integer indexes, and the displacements are in scientific notation.
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxDisplacement Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxDisplacement.html)
-
 [ICWResults::GetMinMaxDisplacementRMS Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxDisplacementRMS.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool IsSplit {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True if this structure system member is split, false if not
 
 ## VBA Syntax
 
-See
-
-[StructureSystemMemberFeatureData::IsSplit](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberFeatureData~IsSplit.html)
-
-.
+See [StructureSystemMemberFeatureData::IsSplit](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberFeatureData~IsSplit.html).
 
 ## Examples
 
-See the
-
-[IPrimaryMemberPathSegmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html)
-
-examples.
+See the [IPrimaryMemberPathSegmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html) examples.
 
 ## Remarks
 
-If this property is true, then use
-
-[IStructureSystemMemberFeatureData::GetSplitMember](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData~GetSplitMember.html)
-
-to access the split member.
+If this property is true, then use [IStructureSystemMemberFeatureData::GetSplitMember](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData~GetSplitMember.html) to access the split member.
 
 ## See Also
 
 [IStructureSystemMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)
-
 [IStructureSystemMemberFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData_members.html)
 
 ## Availability

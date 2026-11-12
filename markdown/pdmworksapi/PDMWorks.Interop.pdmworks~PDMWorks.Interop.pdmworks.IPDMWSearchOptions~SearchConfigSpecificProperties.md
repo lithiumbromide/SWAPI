@@ -51,11 +51,7 @@ True to search configuration-specific properties, false to not
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchOptions::SearchConfigSpecificProperties](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~SearchConfigSpecificProperties.html)
-
-.
+See [PDMWSearchOptions::SearchConfigSpecificProperties](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~SearchConfigSpecificProperties.html).
 
 ## Examples
 
@@ -68,9 +64,7 @@ By default, configuration-specific properties are not searched.
 ## See Also
 
 [IPDMWSearchOptions Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions.html)
-
 [IPDMWSearchOptions Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions_members.html)
-
 [PDMWSearchResult::ConfigurationName Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~ConfigurationName.html)
 
 ## Availability

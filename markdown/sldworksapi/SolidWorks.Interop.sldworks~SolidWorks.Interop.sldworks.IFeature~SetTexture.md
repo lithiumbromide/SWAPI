@@ -55,46 +55,30 @@ System.bool SetTexture(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BAllConfig`: True to apply texture to this feature all configurations, false to apply texture to this feature in the configuration specified in config_name only
 - `Config_name`: Name of configuration
-- `TextureIn`: Pointer to the[ITexture](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITexture.html)objectParamDesc
+- `TextureIn`: Pointer to the [ITexture](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITexture.html) object
 
 ### Return Value
 
-True if texture is applied, false if notParamDesc
+True if texture is applied, false if not
 
 ## VBA Syntax
 
-See
-
-[Feature::SetTexture](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetTexture.html)
-
-.
+See [Feature::SetTexture](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetTexture.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::GetTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetTexture.html)
-
 [IFeature::RemoveTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~RemoveTexture.html)
-
 [IModelDocExtension::CreateTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateTexture.html)
-
 [IFeature::SetTextureByDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~SetTextureByDisplayState.html)
-
 [IFeature::RemoveTextureByDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~RemoveTextureByDisplayState.html)
 
 ## Availability

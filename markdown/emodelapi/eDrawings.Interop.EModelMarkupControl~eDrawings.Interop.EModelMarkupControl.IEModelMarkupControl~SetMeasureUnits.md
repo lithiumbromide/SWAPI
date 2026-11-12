@@ -52,25 +52,16 @@ void SetMeasureUnits(
 
 ### Parameters
 
-- `DistanceUnit`: Distance unit as defined in
-
-[EMVDistanceUnit](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVDistanceUnit.html)
-- `AngleUnit`: Angle unit as defined in
-
-[EMVAngleUnit](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVAngleUnit.html)
+- `DistanceUnit`: Distance unit as defined in [EMVDistanceUnit](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVDistanceUnit.html)
+- `AngleUnit`: Angle unit as defined in [EMVAngleUnit](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVAngleUnit.html)
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::SetMeasureUnits](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~SetMeasureUnits.html)
-
-.
+See [EModelMarkupControl::SetMeasureUnits](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~SetMeasureUnits.html).
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
 
 ## Availability

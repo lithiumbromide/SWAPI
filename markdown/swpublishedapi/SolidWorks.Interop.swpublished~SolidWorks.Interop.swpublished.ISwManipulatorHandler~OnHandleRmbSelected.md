@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnHandleRmbSelected Method (ISwManipulatorHandler)
 
-Obsolete. Superseded by
-
-[ISwManipulatorHandler2::OnHandleRmbSelected](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnHandleRmbSelected.html)
-
-.
+Obsolete. Superseded by [ISwManipulatorHandler2::OnHandleRmbSelected](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnHandleRmbSelected.html).
 
 ## Syntax
 
@@ -61,14 +57,9 @@ void OnHandleRmbSelected(
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler::OnHandleRmbSelected](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnHandleRmbSelected.html)
-
-.
+See [SwManipulatorHandler::OnHandleRmbSelected](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnHandleRmbSelected.html).
 
 ## See Also
 
 [ISwManipulatorHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html)
-
 [ISwManipulatorHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler_members.html)

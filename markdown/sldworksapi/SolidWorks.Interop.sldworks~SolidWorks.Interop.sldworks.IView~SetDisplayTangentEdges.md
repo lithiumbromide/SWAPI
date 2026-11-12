@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # SetDisplayTangentEdges Method (IView)
 
-Obsolete. Superseded by
-
-[IView::SetDisplayTangentEdges2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~SetDisplayTangentEdges2.html)
-
-.
+Obsolete. Superseded by [IView::SetDisplayTangentEdges2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~SetDisplayTangentEdges2.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void SetDisplayTangentEdges(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::SetDisplayTangentEdges](ms-its:sldworksapivb6.chm::/sldworks~View~SetDisplayTangentEdges.html)
-
-.
+See [View::SetDisplayTangentEdges](ms-its:sldworksapivb6.chm::/sldworks~View~SetDisplayTangentEdges.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

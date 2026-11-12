@@ -1,6 +1,5 @@
 ---
-title: "BomTableSortData Object
-Members"
+title: "BomTableSortData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BomTableSortData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BomTableSortData_members.html"
 ---
 
-# BomTableSortData Object
-Members
+# BomTableSortData Object Members
 
 ## Public Properties
 

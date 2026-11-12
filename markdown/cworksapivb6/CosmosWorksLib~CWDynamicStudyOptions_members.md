@@ -1,6 +1,5 @@
 ---
-title: "CWDynamicStudyOptions Object
-Members"
+title: "CWDynamicStudyOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWDynamicStudyOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWDynamicStudyOptions_members.html"
 ---
 
-# CWDynamicStudyOptions Object
-Members
+# CWDynamicStudyOptions Object Members
 
 ## Public Methods
 

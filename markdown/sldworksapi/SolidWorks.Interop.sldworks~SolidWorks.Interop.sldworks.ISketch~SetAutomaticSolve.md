@@ -47,13 +47,7 @@ System.bool SetAutomaticSolve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,14 @@ True if set, false if not
 
 ## VBA Syntax
 
-See
-
-[Sketch::SetAutomaticSolve](ms-its:sldworksapivb6.chm::/sldworks~Sketch~SetAutomaticSolve.html)
-
-.
+See [Sketch::SetAutomaticSolve](ms-its:sldworksapivb6.chm::/sldworks~Sketch~SetAutomaticSolve.html).
 
 ## Remarks
 
-If an application is making many changes in a sketch, then theAutomatic Solveoption may be turned off temporarily. After changes are completed, this option should be restored to its previous value, which can be obtained by calling[ISketch::GetAutomaticSolve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetAutomaticSolve.html)before calling this method.
+If an application is making many changes in a sketch, then the Automatic Solve option may be turned off temporarily. After changes are completed, this option should be restored to its previous value, which can be obtained by calling [ISketch::GetAutomaticSolve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetAutomaticSolve.html) before calling this method.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [IModelDoc2::AutoSolveToggle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AutoSolveToggle.html)

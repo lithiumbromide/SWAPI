@@ -40,13 +40,7 @@ System.int GetTableAnnotationCount()
 System.int GetTableAnnotationCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,36 +48,23 @@ Number of table annotations
 
 ## VBA Syntax
 
-See
-
-[GeneralTableFeature::GetTableAnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~GeneralTableFeature~GetTableAnnotationCount.html)
-
-.
+See [GeneralTableFeature::GetTableAnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~GeneralTableFeature~GetTableAnnotationCount.html).
 
 ## Examples
 
 [Hide and Show Row (VBA)](Hide_and_Show_Row_Example_VB.htm)
-
 [Get General Table Feature (C#)](Get_General_Table_Feature_Example_CSharp.htm)
-
 [Get General Table Feature (VB.NET)](Get_General_Table_Feature_Example_VBNET.htm)
-
 [Get General Table Feature (VBA)](Get_General_Table_Feature_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[IGeneralTableFeature::IGetTableAnnotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGeneralTableFeature~IGetTableAnnotations.html)
-
-to get the size of the array.
+Call this method before calling [IGeneralTableFeature::IGetTableAnnotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGeneralTableFeature~IGetTableAnnotations.html) to get the size of the array.
 
 ## See Also
 
 [IGeneralTableFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableFeature.html)
-
 [IGeneralTableFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableFeature_members.html)
-
 [IGeneralTableFeature::GetTableAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableFeature~GetTableAnnotations.html)
 
 ## Availability

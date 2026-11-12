@@ -47,17 +47,11 @@ System.bool ActivateTaskPane(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TaskPaneID`: ID of task pane as defined in[swTaskPaneTab_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTaskPaneTab_e.html)}}end!kadov
+- `TaskPaneID`: ID of task pane as defined in [swTaskPaneTab_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTaskPaneTab_e.html)
 
 ### Return Value
 
@@ -65,24 +59,15 @@ True if the specified task pane is activated, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ActivateTaskPane](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ActivateTaskPane.html)
-
-.
+See [SldWorks::ActivateTaskPane](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ActivateTaskPane.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::CreateTaskpaneView2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CreateTaskpaneView2.html)
-
 [ISldWorks::RefreshTaskpaneContent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RefreshTaskpaneContent.html)
-
 [ISldWorks::TaskPaneIsPinned Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~TaskPaneIsPinned.html)
-
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool CollectIdenticalBodies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to collect identical bodies, false to not
 
 ## VBA Syntax
 
-See
-
-[CutListSortOptions::CollectIdenticalBodies](ms-its:sldworksapivb6.chm::/sldworks~CutListSortOptions~CollectIdenticalBodies.html)
-
-.
+See [CutListSortOptions::CollectIdenticalBodies](ms-its:sldworksapivb6.chm::/sldworks~CutListSortOptions~CollectIdenticalBodies.html).
 
 ## Examples
 
-See the
-
-[ICutListSortOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions.html)
-
-examples.
+See the [ICutListSortOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions.html) examples.
 
 ## Remarks
 
@@ -82,7 +68,6 @@ If this is a weldment, identical bodies do not move between weldment sub-folders
 ## See Also
 
 [ICutListSortOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions.html)
-
 [ICutListSortOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions_members.html)
 
 ## Availability

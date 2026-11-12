@@ -42,13 +42,7 @@ property System.bool VPeriodicity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,18 @@ True if surface is periodic in V direction, false if not
 
 ## VBA Syntax
 
-See
-
-[BSurfParamData::VPeriodicity](ms-its:sldworksapivb6.chm::/sldworks~BSurfParamData~VPeriodicity.html)
-
-.
+See [BSurfParamData::VPeriodicity](ms-its:sldworksapivb6.chm::/sldworks~BSurfParamData~VPeriodicity.html).
 
 ## Examples
 
 [Get B-Spline Surface Parameterization Data (C#)](Get_B-Spline_Surface_Parameterization_Data_Example_CSharp.htm)
-
 [Get B-Spline Surface Parameterization Data (VB.NET)](Get_B-Spline_Surface_Parameterization_Data_Example_VBNET.htm)
-
 [Get B-Spline Surface Parameterization Data (VBA)](Get_B-Spline_Surface_Parameterization_Data_Example_VB.htm)
 
 ## See Also
 
 [IBSurfParamData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBSurfParamData.html)
-
 [IBSurfParamData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBSurfParamData_members.html)
-
 [IBSurfParamData::UPeriodicity Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBSurfParamData~UPeriodicity.html)
 
 ## Availability

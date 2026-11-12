@@ -9,8 +9,7 @@ source: "sldworksapi/Get_DimXpert_Display_Dimensions_and_Feature_Example_VB.htm"
 
 # Get DimXpert Display Dimensions and Feature Example (VBA)
 
-This example shows how to find out if an annotation is a DimXpert display
-dimension, and, if so, how to get its DimXpert feature.
+This example shows how to find out if an annotation is a DimXpert display dimension, and, if so, how to get its DimXpert feature.
 
 ```
 '----------------------------------------------------------------------------

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLo
 
 # ICWLoadsAndRestraintsManager Interface Members
 
-The following tables list the members exposed by[ICWLoadsAndRestraintsManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html).
+The following tables list the members exposed by [ICWLoadsAndRestraintsManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html).
 
 ## Public Properties
 
@@ -26,6 +26,7 @@ The following tables list the members exposed by[ICWLoadsAndRestraintsManager](S
 | Method | AddBearingConnector | Adds the specified bearing connector. |
 | Method | AddBearingLoad | Adds a bearing load. |
 | Method | AddBoltConnector | Adds a bolt connector. |
+| Method | AddCable | Adds a cable. |
 | Method | AddCentrifugalForce | Creates a centrifugal force. |
 | Method | AddConvection | Creates a convection load for thermal studies. |
 | Method | AddCyclicSymmetryRestraint | Adds a cyclic symmetry restraint. |
@@ -35,6 +36,7 @@ The following tables list the members exposed by[ICWLoadsAndRestraintsManager](S
 | Method | AddForce | Obsolete. Superseded by ICWLoadsAndRestraintsManager::AddForce2 . |
 | Method | AddForce2 | Obsolete. Superseded by ICWloadsAndRestraintsManager::AddForce3 . |
 | Method | AddForce3 | Creates a force. |
+| Method | AddGeneralSpringConnector | Adds a general spring connector. |
 | Method | AddGravity | Adds a gravity load. |
 | Method | AddHeatFlux | Creates a heat flux load for thermal studies. |
 | Method | AddHeatPower | Creates a heat power load for thermal studies. |
@@ -59,7 +61,9 @@ The following tables list the members exposed by[ICWLoadsAndRestraintsManager](S
 | Method | CopyLoadsAndRestraintsToStudy | Copies the specified loads and restraints to the specified study. |
 | Method | DeleteLoadsAndRestraints | Deletes a load or restraint. |
 | Method | GetBearingConnector | Gets the specified bearing connector. |
+| Method | GetCable | Gets the specified cable. |
 | Method | GetEdgeWeldConnector | Gets the edge weld connector at the specified index. |
+| Method | GetGeneralSpringConnector | Gets the specified general spring connector. |
 | Method | GetLinkageRod | Gets the specified linkage rod connector. |
 | Method | GetLoadsAndRestraints | Gets the load or restraint at the specified index. |
 
@@ -68,7 +72,5 @@ The following tables list the members exposed by[ICWLoadsAndRestraintsManager](S
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWLoadsAndRestraints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)

@@ -47,23 +47,15 @@ property System.int SolverType {
 
 ### Property Value
 
-Solver type as defined in[swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html)
+Solver type as defined in [swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::SolverType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~SolverType.html)
-
-.
+See [CWStaticStudyOptions::SolverType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~SolverType.html).
 
 ## Examples
 
-See the
-
-[ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
-examples.
+See the [ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html) examples.
 
 ## Remarks
 
@@ -72,13 +64,9 @@ The automatic solver supports static, frequency, and buckling studies only.
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
-
 [ICWStaticStudyOptions::UseInertialRelief Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~UseInertialRelief.html)
-
 [ICWStaticStudyOptions::UseInPlaneEffect Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~UseInPlaneEffect.html)
-
 [ICWStaticStudyOptions::UseSoftSpring Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~UseSoftSpring.html)
 
 ## Availability

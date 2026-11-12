@@ -40,13 +40,7 @@ System.int GetPatternFeatureCount()
 System.int GetPatternFeatureCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of distinct seed features used to create this table-driven pattern
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData::GetPatternFeatureCount](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~GetPatternFeatureCount.html)
-
-.
+See [TablePatternFeatureData::GetPatternFeatureCount](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~GetPatternFeatureCount.html).
 
 ## Examples
 
@@ -67,13 +57,9 @@ See
 ## See Also
 
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
-
 [ITablePatternFeatureData::IGetPatternFeatureArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~IGetPatternFeatureArray.html)
-
 [ITablePatternFeatureData::ISetPatternFeatureArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~ISetPatternFeatureArray.html)
-
 [ITablePatternFeatureData::PatternFeatureArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~PatternFeatureArray.html)
 
 ## Availability

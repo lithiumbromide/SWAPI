@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICosmeticWeldBeadFolder Interface Properties
 
-For a list of all members of this type, see[ICosmeticWeldBeadFolder members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder_members.html).
+For a list of all members of this type, see [ICosmeticWeldBeadFolder members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder_members.html).
 
 ## Public Properties
 
@@ -32,5 +32,4 @@ For a list of all members of this type, see[ICosmeticWeldBeadFolder members](Sol
 ## See Also
 
 [ICosmeticWeldBeadFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

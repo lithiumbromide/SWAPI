@@ -51,31 +51,18 @@ Name of user-specified layer
 
 ## VBA Syntax
 
-See
-
-[BalloonSettings](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~BalloonSettings_members.html)
-
-properties.
+See [BalloonSettings](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~BalloonSettings_members.html) properties.
 
 ## Remarks
 
 This property is valid only:
 
 - for drawings.
-- when
-
-  [IBalloonSettings::Layer](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~Layer.html)
-
-  is set to
-
-  [swiBalloonSettingLayer_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiBalloonSettingLayer_e.html)
-
-  .swiLayer_UseSpecificLayer.
+- when [IBalloonSettings::Layer](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings~Layer.html) is set to [swiBalloonSettingLayer_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiBalloonSettingLayer_e.html).swiLayer_UseSpecificLayer.
 
 ## See Also
 
 [IBalloonSettings Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings.html)
-
 [IBalloonSettings Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings_members.html)
 
 ## Availability

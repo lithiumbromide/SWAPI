@@ -55,13 +55,7 @@ System.double IGetClosestPointOn(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,15 +65,11 @@ See
 
 ### Return Value
 
-Array of 5 doubles (see**Remarks**)
+Array of 5 doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Curve::IGetClosestPointOn](ms-its:sldworksapivb6.chm::/sldworks~Curve~IGetClosestPointOn.html)
-
-.
+See [Curve::IGetClosestPointOn](ms-its:sldworksapivb6.chm::/sldworks~Curve~IGetClosestPointOn.html).
 
 ## Remarks
 
@@ -87,46 +77,31 @@ This method returns only one point, regardless of the number of valid minimum di
 
 The array return contains the following values:
 
-[PointX, PointY, PointZ, ParamU, NotUsed]
+[ PointX, PointY, PointZ, ParamU, NotUsed ]
 
 where:
 
-- PointX,PointY,andPointZrepresent the point on the curve
-- ParamUis the parameter on the curve that is closest to the input point
-- NotUsedis unused
+- PointX, PointY,and PointZ represent the point on the curve
+- ParamU is the parameter on the curve that is closest to the input point
+- NotUsed is unused
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::GetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetClosestPointOn.html)
-
 [IEdge::GetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~GetClosestPointOn.html)
-
 [IEdge::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~IGetClosestPointOn.html)
-
 [IFace2::GetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetClosestPointOn.html)
-
 [IFace2::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetClosestPointOn.html)
-
 [ISelectionMgr::GetSelectionPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectionPoint2.html)
-
 [ISelectionMgr::IGetSelectionPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~IGetSelectionPoint2.html)
-
 [ISelectionMgr::IGetSelectionPointInSketchSpace2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~IGetSelectionPointInSketchSpace2.html)
-
 [ISelectionMgr::GetSelectionPointInSketchSpace2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectionPointInSketchSpace2.html)
-
 [ISurface::GetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~GetClosestPointOn.html)
-
 [ISurface::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetClosestPointOn.html)
-
 [IVertex::GetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~GetClosestPointOn.html)
-
 [IVertex::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~IGetClosestPointOn.html)
-
 [IVertex::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~IGetClosestPointOn.html)
 
 ## Availability

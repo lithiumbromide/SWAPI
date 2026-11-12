@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISw
 
 # ISwOLEObject Interface Members
 
-The following tables list the members exposed by[ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html).
+The following tables list the members exposed by [ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html).
 
 ## Public Properties
 
@@ -41,5 +41,4 @@ The following tables list the members exposed by[ISwOLEObject](SolidWorks.Intero
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

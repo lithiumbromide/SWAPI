@@ -9,8 +9,7 @@ source: "cworksapi/Apply_Table-driven_Load_to_Multiple_Beams_Example_CSharp.htm"
 
 # Apply Table-driven Load to Multiple Beams Example (C#)
 
-This example shows how to apply a table-driven elliptical load to multiple
-beams on a part.
+This example shows how to apply a table-driven elliptical load to multiple beams on a part.
 
 ```vb
 //-------------------------------------------------------------

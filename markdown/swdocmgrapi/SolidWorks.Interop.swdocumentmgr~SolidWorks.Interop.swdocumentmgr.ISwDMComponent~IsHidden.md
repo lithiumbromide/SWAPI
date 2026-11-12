@@ -46,28 +46,16 @@ True if component is hidden, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent::IsHidden](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent~IsHidden.html)
-
-.
+See [SwDMComponent::IsHidden](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent~IsHidden.html).
 
 ## Remarks
 
-This method
-
-only supports documents saved in SOLIDWORKS 2003 (Version 2200) and later. To get the version of a document, use
-
-[ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html)
-
-.
+This method only supports documents saved in SOLIDWORKS 2003 (Version 2200) and later. To get the version of a document, use [ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
 
 ## See Also
 
 [ISwDMComponent Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent.html)
-
 [ISwDMComponent Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent_members.html)
-
 [ISwDMComponent::IsSuppressed Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent~IsSuppressed.html)
 
 ## Availability

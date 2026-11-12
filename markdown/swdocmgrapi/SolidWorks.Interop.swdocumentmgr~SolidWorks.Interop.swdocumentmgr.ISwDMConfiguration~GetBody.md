@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetBody Method (ISwDMConfiguration)
 
-Gets the body at the specified index in the specified Parasolid binary file (filename extension
-
-.x_b
-
-).
+Gets the body at the specified index in the specified Parasolid binary file (filename extension .x_b).
 
 ## Syntax
 
@@ -62,22 +58,15 @@ SwDmBodyError GetBody(
 
 ### Return Value
 
-Success or error code as defined by
-
-[SwDmBodyError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmBodyError.html)
+Success or error code as defined by [SwDmBodyError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmBodyError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration::GetBody](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~GetBody.html)
-
-.
+See [SwDMConfiguration::GetBody](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~GetBody.html).
 
 ## Examples
 
 [Write Parasolid Partition Stream to File (C#)](Write_Parasolid_Partition_Stream_to_File_Example_CSharp.htm)
-
 [Write Parasolid Partition Stream to File (VB.NET)](Write_Parasolid_Partition_Stream_to_File_Example_VBNET.htm)
 
 ## Remarks
@@ -85,24 +74,17 @@ See
 This method supports:
 
 - part and assembly documents saved in SOLIDWORKS 2003 and earlier.
-- only assembly documents saved in SOLIDWORKS 2004 and later. Use
+- only assembly documents saved in SOLIDWORKS 2004 and later. Use [ISwDMConfiguration2::GetPartitionStream](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration2~GetPartitionStream.html) for part documents saved in SOLIDWORKS 2004 and later.
 
-  [ISwDMConfiguration2::GetPartitionStream](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration2~GetPartitionStream.html)
+To get the version of a document, use [ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
 
-  for part documents saved in SOLIDWORKS 2004 and later.
-
-To get the version of a document, use[ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
-
-To find out the number of solid bodies in this Parasolid binary file, call[ISwDMConfiguration::GetBodiesCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration~GetBodiesCount.html)before calling this method.
+To find out the number of solid bodies in this Parasolid binary file, call [ISwDMConfiguration::GetBodiesCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration~GetBodiesCount.html) before calling this method.
 
 ## See Also
 
 [ISwDMConfiguration Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration.html)
-
 [ISwDMConfiguration Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration_members.html)
-
 [ISwDMConfiguration3::GetImportedBodiesCount Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration3~GetImportedBodiesCount.html)
-
 [ISwDMConfiguration3::GetImportedBody Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration3~GetImportedBody.html)
 
 ## Availability

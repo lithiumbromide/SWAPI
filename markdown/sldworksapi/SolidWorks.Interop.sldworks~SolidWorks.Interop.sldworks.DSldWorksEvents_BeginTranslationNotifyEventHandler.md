@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSl
 
 # DSldWorksEvents_BeginTranslationNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Notifies the user program when the SOLIDWORKS applications starts to import a file.
+Notifies the user program when the SOLIDWORKS application starts to import a file.
 
 ## Syntax
 
@@ -46,36 +46,20 @@ public delegate System.int DSldWorksEvents_BeginTranslationNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FileName`: Name of imported file
-- `Options`: Option as defined in
-
-[swTranslationNotifyOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTranslationNotifyOptions_e.html)
+- `Options`: Option as defined in [swTranslationNotifyOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTranslationNotifyOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[BeginTranslationNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~BeginTranslationNotify_EV.html)
-
-.
+See [BeginTranslationNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~BeginTranslationNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAppBeginTranslationNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppBeginTranslationNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

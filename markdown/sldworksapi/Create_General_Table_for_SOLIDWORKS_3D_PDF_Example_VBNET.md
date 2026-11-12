@@ -9,8 +9,7 @@ source: "sldworksapi/Create_General_Table_for_SOLIDWORKS_3D_PDF_Example_VBNET.ht
 
 # Create General Table Annotation for SOLIDWORKS MBD 3D PDF Example (VB.NET)
 
-This example shows how to create a general table annotation for SOLIDWORKS
-MBD 3D PDF.
+This example shows how to create a general table annotation for SOLIDWORKS MBD 3D PDF.
 
 ```
 '--------------------------------------------------------------------------

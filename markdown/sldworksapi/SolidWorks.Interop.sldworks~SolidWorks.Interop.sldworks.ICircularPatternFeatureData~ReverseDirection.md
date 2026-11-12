@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True reverses the direction, false does not
 
 ## VBA Syntax
 
-See
-
-[CircularPatternFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~ReverseDirection.html)
-
-.
+See [CircularPatternFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~ReverseDirection.html).
 
 ## Remarks
 
-See
-
-[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)
-
-for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
 [ICircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData_members.html)
 
 ## Availability

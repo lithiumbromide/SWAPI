@@ -9,53 +9,23 @@ source: "swconst/SO_Messages.htm"
 
 # System Options > Messages/Errors/Warnings
 
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comment |
 | --- | --- | --- | --- |
-| Notifications - Remind me when a document has not been saved for | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveReminderEnable) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveReminderEnable,
-< OnFlag >) | Boolean value | Specifies whether to display a reminder if document has not been saved |
-| Notifications - Remind me when a document has not been saved for
-- < n > | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSaveReminderInterval) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSaveReminderInterval,
-< Value >) | Integer value: 1 - 60 | Specifies number of minutes to wait before sending a save notification reminder;
-valid only if swSaveReminderEnable is true |
-| Notifications - Automatically dismiss notifications after | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveReminderAutoDismissEnable) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveReminderAutoDismissEnable,
-< OnFlag >) | Boolean value | Specifies whether to automatically dismiss the save notification reminder |
-| Notifications - Automatically dismiss notifications after
-- < n > | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSaveReminderAutoDismissInterval) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSaveReminderAutoDismissInterval,
-< Value >) | Integer value: 1 - 60 | Specifies number of seconds to wait before dismissing save notification reminder;
-valid only if swSaveReminderAutoDismissEnable is true |
-| Rebuild errors - When rebuild error occurs: | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swRebuildErrorAction) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swRebuildErrorAction,
-swStopContinuePrompt_e.< Value >) | See swStopContinuePrompt_e for valid options |  |
-| Rebuild errors - Show What's Wrong for every rebuild | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swShowErrorsEveryRebuild) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swShowErrorsEveryRebuild, <Value> ) | Boolean value | Specifies whether to
-display error dialogs when rebuilding models with errors |
-| Rebuild errors - Warn
-me when saving
-documents with rebuild errors | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swWarnSaveUpdateErrors) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swWarnSaveUpdateErrors, <Value> ) | Boolean value | Specifies whether to display a warning before saving documents with
-update errors |
-| Warn starting a sketch in the context of an assembly | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swWarnStartingSketchInContextAssembly) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swWarnStartingSketchInContextAssembly, <Value> ) | Boolean value | Specifies whether to display a warning before starting a sketch in the
-context of an assembly |
-| FeatureManager tree - Display FeatureManager
-tree warnings | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swFeatureManagerDisplayWarnings) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swFeatureManagerDisplayWarnings, swFeatureManagerDisplayWarnings_e.< Value >) | See swFeatureManagerDisplayWarnings_e for valid options | Specifies when to display FeatureManager design tree warnings |
-| FeatureManager tree -
-Treat missing mate references as errors | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swShowMateReferenceErrors) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swShowMateReferenceErrors, <Value> ) | Boolean value | Specifies whether to show errors
-when mate references are missing |
-| Assemblies - Automatically dismiss reference and update messages after | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swWhileOpeningAssembliesAutoDismissMessages) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swWhileOpeningAssembliesAutoDismissMessages, <Value> ) | Boolean value | Specifies whether to automatically
-close messages after the specified amount of seconds (see
-swAssemblyOpenMessagesDismissTime) while opening
-assembly documents |
-| Assemblies - Automatically dismiss reference and upate messages after - seconds | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swAssemblyOpenMessagesDismissTime) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swAssemblyOpenMessagesDismissTime,
-< Value >) | Integer value | Specifies the number of seconds to display messages before automatically
-closing them (swWhileOpeningAssembliesAutoDismissMessages
-must be true for this value to be applicable) while
-opening assembly documents |
-| Circular references - Display circular references in equations | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swShowEquationCircularReferencesMessage) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swShowEquationCircularReferencesMessage, swDisplayCircularReferencesInEquations_e.< Value >) | See swDisplayCircularReferencesInEquations_e for valid options | Specifies where, or if,
-to display circular references in equations |
-| Circular references - Display potential
-circular references in equations | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swShowEquationPotentialCircularReferencesMessage) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swShowEquationPotentialCircularReferencesMessage, swDisplayPotentialCircularReferencesInEquations_e.< Value >) | See swDisplayPotentialCircularReferencesInEquations_e for valid options | Specifies where, or if,
-to display potential circular references in equations |
+| Notifications - Remind me when a document has not been saved for | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveReminderEnable) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveReminderEnable, < OnFlag >) | Boolean value | Specifies whether to display a reminder if document has not been saved |
+| Notifications - Remind me when a document has not been saved for - < n > | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSaveReminderInterval) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSaveReminderInterval, < Value >) | Integer value: 1 - 60 | Specifies number of minutes to wait before sending a save notification reminder; valid only if swSaveReminderEnable is true |
+| Notifications - Automatically dismiss notifications after | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveReminderAutoDismissEnable) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSaveReminderAutoDismissEnable, < OnFlag >) | Boolean value | Specifies whether to automatically dismiss the save notification reminder |
+| Notifications - Automatically dismiss notifications after - < n > | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSaveReminderAutoDismissInterval) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swSaveReminderAutoDismissInterval, < Value >) | Integer value: 1 - 60 | Specifies number of seconds to wait before dismissing save notification reminder; valid only if swSaveReminderAutoDismissEnable is true |
+| Rebuild errors - When rebuild error occurs: | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swRebuildErrorAction) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swRebuildErrorAction, swStopContinuePrompt_e.< Value >) | See swStopContinuePrompt_e for valid options |  |
+| Rebuild errors - Show What's Wrong for every rebuild | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swShowErrorsEveryRebuild) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swShowErrorsEveryRebuild, <Value> ) | Boolean value | Specifies whether to display error dialogs when rebuilding models with errors |
+| Rebuild errors - Warn me when saving documents with rebuild errors | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swWarnSaveUpdateErrors) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swWarnSaveUpdateErrors, <Value> ) | Boolean value | Specifies whether to display a warning before saving documents with update errors |
+| Warn starting a sketch in the context of an assembly | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swWarnStartingSketchInContextAssembly) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swWarnStartingSketchInContextAssembly, <Value> ) | Boolean value | Specifies whether to display a warning before starting a sketch in the context of an assembly |
+| FeatureManager tree - Display FeatureManager tree warnings | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swFeatureManagerDisplayWarnings) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swFeatureManagerDisplayWarnings, swFeatureManagerDisplayWarnings_e.< Value >) | See swFeatureManagerDisplayWarnings_e for valid options | Specifies when to display FeatureManager design tree warnings |
+| FeatureManager tree - Treat missing mate references as errors | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swShowMateReferenceErrors) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swShowMateReferenceErrors, <Value> ) | Boolean value | Specifies whether to show errors when mate references are missing |
+| Assemblies - Automatically dismiss reference and update messages after | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swWhileOpeningAssembliesAutoDismissMessages) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swWhileOpeningAssembliesAutoDismissMessages, <Value> ) | Boolean value | Specifies whether to automatically close messages after the specified amount of seconds (see swAssemblyOpenMessagesDismissTime) while opening assembly documents |
+| Assemblies - Automatically dismiss reference and upate messages after - seconds | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swAssemblyOpenMessagesDismissTime) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swAssemblyOpenMessagesDismissTime, < Value >) | Integer value | Specifies the number of seconds to display messages before automatically closing them (swWhileOpeningAssembliesAutoDismissMessages must be true for this value to be applicable) while opening assembly documents |
+| Circular references - Display circular references in equations | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swShowEquationCircularReferencesMessage) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swShowEquationCircularReferencesMessage, swDisplayCircularReferencesInEquations_e.< Value >) | See swDisplayCircularReferencesInEquations_e for valid options | Specifies where, or if, to display circular references in equations |
+| Circular references - Display potential circular references in equations | ISldWorks::GetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swShowEquationPotentialCircularReferencesMessage) ISldWorks::SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swShowEquationPotentialCircularReferencesMessage, swDisplayPotentialCircularReferencesInEquations_e.< Value >) | See swDisplayPotentialCircularReferencesInEquations_e for valid options | Specifies where, or if, to display potential circular references in equations |
 | System Notifications - Hide graphics card/driver notifications | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSystemNotificationHideGraphicsNotification) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSystemNotificationHideGraphicsNotification, <Value> ) | Boolean value |  |
-| Dismissed messages -
-"One or more features in this part are based on other documents..." | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swOneOrMoreFeaturesInThisPartBasedOnOtherDoc) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swOneOrMoreFeaturesInThisPartBasedOnOtherDoc, <Value> ) | Boolean value | If true, then this message will be shown again. |
-| Dismissed messages - "___ needs updating. It has not been rebuilt
-successfully since the last..." | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swNeedsUpdatingItHasNotBeenRebuiltSuccessfully) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swNeedsUpdatingItHasNotBeenRebuiltSuccessfully, <Value> ) | Boolean value | If true, then this message will be shown again. |
+| Dismissed messages - "One or more features in this part are based on other documents..." | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swOneOrMoreFeaturesInThisPartBasedOnOtherDoc) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swOneOrMoreFeaturesInThisPartBasedOnOtherDoc, <Value> ) | Boolean value | If true, then this message will be shown again. |
+| Dismissed messages - "___ needs updating. It has not been rebuilt successfully since the last..." | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swNeedsUpdatingItHasNotBeenRebuiltSuccessfully) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swNeedsUpdatingItHasNotBeenRebuiltSuccessfully, <Value> ) | Boolean value | If true, then this message will be shown again. |
+| Dismissed messages - Show dismissed messages icon in status bar | ISldWorks::GetUserPreferenceToggle (swUserPreferenceToggle_e.swShowDismissedMessagesIconInStatusBar) ISldWorks::SetUserPreferenceToggle (swUserPreferenceToggle_e.swShowDismissedMessagesIconInStatusBar, <Value> ) | Boolean value |  |

@@ -1,6 +1,5 @@
 ---
-title: "DatumTag Object
-Members"
+title: "DatumTag Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DatumTag_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DatumTag_members.html"
 ---
 
-# DatumTag Object
-Members
+# DatumTag Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "ImportStepData Object
-Members"
+title: "ImportStepData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ImportStepData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ImportStepData_members.html"
 ---
 
-# ImportStepData Object
-Members
+# ImportStepData Object Members
 
 ## Public Properties
 

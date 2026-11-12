@@ -62,16 +62,11 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundNotchFeature::GetPlaneFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetPlaneFeatures.html)
-
-.
+See [DimXpertCompoundNotchFeature::GetPlaneFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~GetPlaneFeatures.html).
 
 ## See Also
 
 [IDimXpertCompoundNotchFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature.html)
-
 [IDimXpertCompoundNotchFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature_members.html)
 
 ## Availability

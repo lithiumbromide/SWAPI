@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IFaceHatch Interface Members
 
-The following tables list the members exposed by[IFaceHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html).
+The following tables list the members exposed by [IFaceHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html).
 
 ## Public Properties
 
@@ -34,7 +34,5 @@ The following tables list the members exposed by[IFaceHatch](SolidWorks.Interop.
 ## See Also
 
 [IFaceHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISketchHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)

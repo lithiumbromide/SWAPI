@@ -40,13 +40,7 @@ System.bool HasExtraLeader()
 System.bool HasExtraLeader();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,16 @@ True if extra leader line exists, false if not
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::HasExtraLeader](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~HasExtraLeader.html)
-
-.
+See [WeldSymbol::HasExtraLeader](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~HasExtraLeader.html).
 
 ## Examples
 
-See the
-
-[IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
-examples.
+See the [IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html) examples.
 
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
-
 [IWeldSymbol::GetLeaderAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~GetLeaderAtIndex.html)
-
 [IWeldSymbol::GetLeaderCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~GetLeaderCount.html)
-
 [IWeldSymbol::IGetLeaderAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~IGetLeaderAtIndex.html)

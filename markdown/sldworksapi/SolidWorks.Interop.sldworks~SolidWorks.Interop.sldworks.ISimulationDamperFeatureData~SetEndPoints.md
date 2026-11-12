@@ -51,13 +51,7 @@ System.bool SetEndPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,26 +64,16 @@ True if the operation succeeds, false if it fails
 
 ## VBA Syntax
 
-See
-
-[SimulationDamperFeatureData::SetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationDamperFeatureData~SetEndPoints.html)
-
-.
+See [SimulationDamperFeatureData::SetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationDamperFeatureData~SetEndPoints.html).
 
 ## Examples
 
-See
-
-[ISimulationDamperFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationDamperFeatureData.html)
-
-examples.
+See [ISimulationDamperFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationDamperFeatureData.html) examples.
 
 ## See Also
 
 [ISimulationDamperFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData.html)
-
 [ISimulationDamperFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData_members.html)
-
 [ISimulationDamperFeatureData::GetEndPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData~GetEndPoints.html)
 
 ## Availability

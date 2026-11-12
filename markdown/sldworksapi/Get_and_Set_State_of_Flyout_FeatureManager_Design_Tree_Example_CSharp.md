@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_State_of_Flyout_FeatureManager_Design_Tree_Exam
 
 # Get and Set the State of the Flyout FeatureManager Design Tree Example (C#)
 
-This example shows how to to display, expand, and hide the flyout FeatureManager
-design tree.
+This example shows how to to display, expand, and hide the flyout FeatureManager design tree.
 
 ```
 //----------------------------------------------------------------------------

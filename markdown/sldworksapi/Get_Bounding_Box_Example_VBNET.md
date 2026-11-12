@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Bounding_Box_Example_VBNET.htm"
 
 # Get Bounding Box Example (VB.NET)
 
-This example shows how to get the bounding boxes for the selected feature and
-face. This example also shows how to draw 3D sketches depicting the bounding
-boxes.
+This example shows how to get the bounding boxes for the selected feature and face. This example also shows how to draw 3D sketches depicting the bounding boxes.
 
 ```
 '----------------------------------------------

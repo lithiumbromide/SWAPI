@@ -39,42 +39,27 @@ void ReleaseSelectionAccess()
 void ReleaseSelectionAccess();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[HealEdgesFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~HealEdgesFeatureData~ReleaseSelectionAccess.html)
-
-.
+See [HealEdgesFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~HealEdgesFeatureData~ReleaseSelectionAccess.html).
 
 ## Examples
 
 [Get Heal Edges Feature Data (C#)](Get_Heal_Edges_Feature_Data_Example_CSharp.htm)
-
 [Get Heal Edges Feature Data (VB.NET)](Get_Heal_Edges_Feature_Data_Example_VBNET.htm)
-
 [Get Heal Edges Feature Data (VBA)](Get_Heal_Edges_Feature_Data_Example_VB.htm)
 
 ## Remarks
 
-[IHealEdgesFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHealEdgesFeatureData~AccessSelections.html)
+[IHealEdgesFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHealEdgesFeatureData~AccessSelections.html) puts the model into a rollback state to allow access to the selections that define the heal edges feature.
 
-puts the model into a rollback state to allow access to the selections that define the heal edges feature.
-
-Use this method to restore the rollback state if you did not modify the fill-surface feature, or use[IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)if you did modify the heal edges feature.
+Use this method to restore the rollback state if you did not modify the fill-surface feature, or use [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) if you did modify the heal edges feature.
 
 ## See Also
 
 [IHealEdgesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData.html)
-
 [IHealEdgesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData_members.html)
 
 ## Availability

@@ -45,50 +45,29 @@ property System.int ShapeIntensity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Shape intensity of a jagged cut break line; valid range is 1 (most) to 5 (least) (see
-
-Remarks
-
-)
+Shape intensity of a jagged cut break line; valid range is 1 (most) to 5 (least) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[BreakLine::ShapeIntensity](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~ShapeIntensity.html)
-
-.
+See [BreakLine::ShapeIntensity](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~ShapeIntensity.html).
 
 ## Examples
 
 [Insert Jagged Cut Break (C#)](Insert_Jagged_Cut_Break_Example_CSharp.htm)
-
 [Insert Jagged Cut Break (VB.NET)](Insert_Jagged_Cut_Break_Example_VBNET.htm)
-
 [Insert Jagged Cut Break (VBA)](Insert_Jagged_Cut_Break_Example_VB.htm)
 
 ## Remarks
 
-Call
-
-[IBreakLine::Style](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine~Style.html)
-
-to determine if this break line is a jagged cut break line.
+Call [IBreakLine::Style](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine~Style.html) to determine if this break line is a jagged cut break line.
 
 ## See Also
 
 [IBreakLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine.html)
-
 [IBreakLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine_members.html)
 
 ## Availability

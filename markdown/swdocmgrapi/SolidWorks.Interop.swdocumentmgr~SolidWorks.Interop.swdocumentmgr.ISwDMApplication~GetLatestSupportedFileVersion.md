@@ -46,11 +46,7 @@ Latest supported SOLIDWORKS file version number that this utility can read
 
 ## VBA Syntax
 
-See
-
-[SwDMApplication::GetLatestSupportedFileVersion](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMApplication~GetLatestSupportedFileVersion.html)
-
-.
+See [SwDMApplication::GetLatestSupportedFileVersion](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMApplication~GetLatestSupportedFileVersion.html).
 
 ## Examples
 
@@ -85,13 +81,13 @@ See
 | SOLIDWORKS 2022 | 15000 |
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
+| SOLIDWORKS 2025 | 18000 |
+| SOLIDWORKS 2026 | 19000 |
 
 ## See Also
 
 [ISwDMApplication Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMApplication.html)
-
 [ISwDMApplication Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMApplication_members.html)
-
 [ISwDMDocument::GetVersion Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html)
 
 ## Availability

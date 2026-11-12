@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # IDowelSymbol Interface Members
 
-The following tables list the members exposed by[IDowelSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol.html).
+The following tables list the members exposed by [IDowelSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol.html).
 
 ## Public Properties
 
@@ -35,5 +35,4 @@ The following tables list the members exposed by[IDowelSymbol](SolidWorks.Intero
 ## See Also
 
 [IDowelSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

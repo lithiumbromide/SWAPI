@@ -47,13 +47,7 @@ MathPoint^ IScale(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,26 +55,16 @@ See
 
 ### Return Value
 
-Newly created scaled
-
-[math point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-or NULL if the operation fails
+Newly created scaled [math point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathPoint::IScale](ms-its:sldworksapivb6.chm::/sldworks~MathPoint~IScale.html)
-
-.
+See [MathPoint::IScale](ms-its:sldworksapivb6.chm::/sldworks~MathPoint~IScale.html).
 
 ## See Also
 
 [IMathPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint.html)
-
 [IMathPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint_members.html)
-
 [IMathPoint::Scale Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint~Scale.html)
 
 ## Availability

@@ -46,27 +46,15 @@ void Clone(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Ppenum`: Pointer to the cloned
-
-[display dimensions enumeration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumDisplayDimensions.html)
+- `Ppenum`: Pointer to the cloned [display dimensions enumeration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumDisplayDimensions.html)
 
 ## VBA Syntax
 
-See
-
-[EnumDisplayDimensions::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumDisplayDimensions~Clone.html)
-
-.
+See [EnumDisplayDimensions::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumDisplayDimensions~Clone.html).
 
 ## Remarks
 
@@ -75,5 +63,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumDisplayDimensions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDisplayDimensions.html)
-
 [IEnumDisplayDimensions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDisplayDimensions_members.html)

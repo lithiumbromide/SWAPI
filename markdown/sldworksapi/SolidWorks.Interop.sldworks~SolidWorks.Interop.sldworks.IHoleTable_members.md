@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHo
 
 # IHoleTable Interface Members
 
-The following tables list the members exposed by[IHoleTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html).
+The following tables list the members exposed by [IHoleTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html).
 
 ## Public Properties
 
@@ -47,9 +47,6 @@ The following tables list the members exposed by[IHoleTable](SolidWorks.Interop.
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IHoleTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTableAnnotation.html)
-
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)

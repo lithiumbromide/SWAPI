@@ -40,40 +40,25 @@ System.int GetBendLineDirection()
 System.int GetBendLineDirection();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Bendline direction as defined in
-
-[swBendLineDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBendLineDirection_e.html)
+Bendline direction as defined in [swBendLineDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBendLineDirection_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchLine::GetBendLineDirection](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~GetBendLineDirection.html)
-
-.
+See [SketchLine::GetBendLineDirection](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~GetBendLineDirection.html).
 
 ## Examples
 
 [Get Direction of Bendline (C#)](Get_Direction_of_Bendline_Example_CSharp.htm)
-
 [Get Direction of Bendline (VB.NET)](Get_Direction_of_Bendline_Example_VBNET.htm)
-
 [Get Direction of Bendline (VBA)](Get_Direction_of_Bendline_Example_VB.htm)
 
 ## See Also
 
 [ISketchLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html)
-
 [ISketchLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html)
 
 ## Availability

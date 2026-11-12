@@ -9,7 +9,7 @@ source: "toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Inter
 
 # IToolboxConfiguratorAddin Interface Methods
 
-For a list of all members of this type, see[IToolboxConfiguratorAddin members](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolboxConfiguratorAddin_members.html).
+For a list of all members of this type, see [IToolboxConfiguratorAddin members](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolboxConfiguratorAddin_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IToolboxConfiguratorAddin members](S
 ## See Also
 
 [IToolboxConfiguratorAddin Interface](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolboxConfiguratorAddin.html)
-
 [SolidWorks.Interop.sldtoolboxconfigureaddin Namespace](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin_namespace.html)

@@ -45,29 +45,15 @@ property MathVector^ DimensionLineDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the
-
-[IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-object
+Pointer to the [IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) object
 
 ## VBA Syntax
 
-See
-
-[Dimension::DimensionLineDirection](ms-its:sldworksapivb6.chm::/sldworks~Dimension~DimensionLineDirection.html)
-
-.
+See [Dimension::DimensionLineDirection](ms-its:sldworksapivb6.chm::/sldworks~Dimension~DimensionLineDirection.html).
 
 ## Remarks
 
@@ -76,9 +62,7 @@ This method only supports feature dimensions.
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)
-
 [IDimension::ExtensionLineDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension~ExtensionLineDirection.html)
 
 ## Availability

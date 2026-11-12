@@ -39,5 +39,4 @@ This field is empty is there isn't a column view.
 ## See Also
 
 [EdmUserData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData.html)
-
 [EdmUserData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData_members.html)

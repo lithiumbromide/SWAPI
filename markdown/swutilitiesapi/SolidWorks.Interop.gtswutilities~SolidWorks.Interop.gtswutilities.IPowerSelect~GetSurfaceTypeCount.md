@@ -49,9 +49,7 @@ System.int GetSurfaceTypeCount(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -59,24 +57,15 @@ Number of surface types selected in surface type filter
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::GetSurfaceTypeCount](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetSurfaceTypeCount.html)
-
-.
+See [IPowerSelect::GetSurfaceTypeCount](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetSurfaceTypeCount.html).
 
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::GetSurfaceTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetSurfaceTypeFilter.html)
-
 [IPowerSelect::IGetSurfaceTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~IGetSurfaceTypeFilter.html)
-
 [IPowerSelect::ISetSurfaceTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~ISetSurfaceTypeFilter.html)
-
 [IPowerSelect::SetSurfaceTypeFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~SetSurfaceTypeFilter.html)
 
 ## Availability

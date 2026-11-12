@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ISwCalloutHandler Interface Members
 
-The following tables list the members exposed by[ISwCalloutHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwCalloutHandler.html).
+The following tables list the members exposed by [ISwCalloutHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwCalloutHandler.html).
 
 ## Public Methods
 
@@ -22,9 +22,6 @@ The following tables list the members exposed by[ISwCalloutHandler](SolidWorks.I
 ## See Also
 
 [ISwCalloutHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwCalloutHandler.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)
-
 [ISelectionMgr::CreateCallout2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateCallout2.html)
-
 [ISelectionMgr::SetCallout](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~SetCallout.html)

@@ -42,13 +42,7 @@ property System.String^ UniqueName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ Unique ID of this user notification
 
 ## VBA Syntax
 
-See
-
-[UserNotificationDefinition::UniqueName](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~UniqueName.html)
-
-.
+See [UserNotificationDefinition::UniqueName](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~UniqueName.html).
 
 ## Remarks
 
@@ -71,7 +61,6 @@ It is the add-in's responsibility to ensure that the ID is unique by using, for 
 ## See Also
 
 [IUserNotificationDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition.html)
-
 [IUserNotificationDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition_members.html)
 
 ## Availability

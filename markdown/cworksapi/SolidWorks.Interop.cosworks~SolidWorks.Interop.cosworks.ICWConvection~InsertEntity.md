@@ -52,18 +52,12 @@ void InsertEntity(
 
 ## VBA Syntax
 
-See
-
-[CWConvection::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~InsertEntity.html)
-
-.
+See [CWConvection::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~InsertEntity.html).
 
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [ICWConvection Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html)
-
 [ICWConvection::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~RemoveEntity.html)
 
 ## Availability

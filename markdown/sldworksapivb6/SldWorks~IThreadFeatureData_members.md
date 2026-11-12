@@ -1,6 +1,5 @@
 ---
-title: "IThreadFeatureData Object
-Members"
+title: "IThreadFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IThreadFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IThreadFeatureData_members.html"
 ---
 
-# IThreadFeatureData Object
-Members
+# IThreadFeatureData Object Members
 
 ## Public Methods
 

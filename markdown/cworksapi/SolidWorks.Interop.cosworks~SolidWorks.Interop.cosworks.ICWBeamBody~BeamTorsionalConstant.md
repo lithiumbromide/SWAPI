@@ -51,26 +51,16 @@ Torsional stiffness constant
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::BeamTorsionalConstant](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamTorsionalConstant.html)
-
-.
+See [CWBeamBody::BeamTorsionalConstant](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamTorsionalConstant.html).
 
 ## Examples
 
-See the
-
-[ICWBeamBody](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
-examples.
+See the [ICWBeamBody](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html) examples.
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
-
 [ICWBeamBody::BeamTorsionalConstantUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~BeamTorsionalConstantUnit.html)
 
 ## Availability

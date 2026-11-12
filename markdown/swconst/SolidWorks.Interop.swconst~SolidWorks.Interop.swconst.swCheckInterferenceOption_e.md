@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCheckIn
 
 # swCheckInterferenceOption_e Enumeration
 
-Check interference options.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Check interference options. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 

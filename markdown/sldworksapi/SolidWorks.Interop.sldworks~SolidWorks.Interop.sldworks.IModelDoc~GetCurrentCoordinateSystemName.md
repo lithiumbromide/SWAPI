@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetCurrentCoordinateSystemName Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetCurrentCoordinateSystemName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetCurrentCoordinateSystemName.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetCurrentCoordinateSystemName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetCurrentCoordinateSystemName.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.string GetCurrentCoordinateSystemName()
 System.String^ GetCurrentCoordinateSystemName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetCurrentCoordinateSystemName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetCurrentCoordinateSystemName.html)
-
-.
+See [ModelDoc::GetCurrentCoordinateSystemName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetCurrentCoordinateSystemName.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

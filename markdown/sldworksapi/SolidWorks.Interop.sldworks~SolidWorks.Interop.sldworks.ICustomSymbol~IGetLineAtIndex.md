@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # IGetLineAtIndex Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::IGetLineAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetLineAtIndex.html)
-
-.
+Obsolete. Superseded by [INote::IGetLineAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetLineAtIndex.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double IGetLineAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::IGetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~IGetLineAtIndex.html)
-
-.
+See [CustomSymbol::IGetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~IGetLineAtIndex.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

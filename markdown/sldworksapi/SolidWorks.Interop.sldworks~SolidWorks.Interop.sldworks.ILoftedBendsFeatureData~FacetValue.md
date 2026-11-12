@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # FacetValue Property (ILoftedBendsFeatureData)
 
-Gets or sets the value corresponding to
-
-[ILoftedBendsFeatureData::FacetingOption](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData~FacetingOption.html)
-
-.
+Gets or sets the value corresponding to [ILoftedBendsFeatureData::FacetingOption](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData~FacetingOption.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double FacetValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,30 +53,20 @@ Faceting option value
 
 ## VBA Syntax
 
-See
-
-[LoftedBendsFeatureData::FacetValue](ms-its:sldworksapivb6.chm::/sldworks~LoftedBendsFeatureData~FacetValue.html)
-
-.
+See [LoftedBendsFeatureData::FacetValue](ms-its:sldworksapivb6.chm::/sldworks~LoftedBendsFeatureData~FacetValue.html).
 
 ## Examples
 
-See examples for
-
-[ILoftedBendsFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData.html)
-
-.
+See examples for [ILoftedBendsFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData.html).
 
 ## Remarks
 
-This property is valid only if[ILoftedBendsFeatureData::FormedMethod](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData~FormedMethod.html)is false.
+This property is valid only if [ILoftedBendsFeatureData::FormedMethod](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData~FormedMethod.html) is false.
 
 ## See Also
 
 [ILoftedBendsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData.html)
-
 [ILoftedBendsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData_members.html)
-
 [ILoftedBendsFeatureData::ReferToEndPoint Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData~ReferToEndPoint.html)
 
 ## Availability

@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Mass_Properties_of_Inactive_Document_Example_VB.htm"
 
 # Get Mass Properties of Inactive Document Example (VBA)
 
-This example shows how to get the mass properties from a closed (i.e.,
-inactive)
-assembly document.
+This example shows how to get the mass properties from a closed (i.e., inactive) assembly document.
 
 ```
 '--------------------------------------------------------

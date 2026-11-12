@@ -11,8 +11,7 @@ source: "sldworksapi/Get_Intersecting_Faces_Example_VB.htm"
 
 This example shows how to get the intersection of two faces.
 
-**NOTE:**This example uses some geometry- and topology-related methods
-and properties; e.g., ISurface::IntersectSurface, to get intersecting surfaces.
+**NOTE:** This example uses some geometry- and topology-related methods and properties; e.g., ISurface::IntersectSurface, to get intersecting surfaces.
 
 ```
 '-------------------------------------------------------------

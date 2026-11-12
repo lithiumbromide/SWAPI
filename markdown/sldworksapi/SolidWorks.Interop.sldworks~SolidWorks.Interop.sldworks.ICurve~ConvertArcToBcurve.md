@@ -59,19 +59,12 @@ System.Object^ ConvertArcToBcurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Center`: Array for the x, y, z coordinates of the center point of the
-
-arc
+  arc
 - `Axis`: Array for the normal vector of the arc
 - `Start`: Array for the x, y, z coordinates of the start point of the arc
 - `End`: Array for the x, y, z coordinates of the end point of the arc
@@ -82,19 +75,13 @@ Array for the b-spline representation of the arc
 
 ## VBA Syntax
 
-See
-
-[Curve::ConvertArcToBcurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~ConvertArcToBcurve.html)
-
-.
+See [Curve::ConvertArcToBcurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~ConvertArcToBcurve.html).
 
 ## Remarks
 
 Given coordinates of the center, start, end points and the normal vector of an arc, this method returns the b-spline representation of the arc.
 
 The returned data are doubles arranged in the following order:
-
-(Table)=========================================================
 
 | dim, order |  |  |
 | --- | --- | --- |
@@ -109,13 +96,8 @@ The returned data are doubles arranged in the following order:
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::ConvertLineToBcurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~ConvertLineToBcurve.html)
-
 [ICurve::GetBCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetBCurveParams.html)
-
 [ICurve::IGetBCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetBCurveParams.html)
-
 [ICurve::MakeBsplineCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~MakeBsplineCurve.html)

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFo
 
 # ICWForce Interface Properties
 
-For a list of all members of this type, see[ICWForce members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html).
+For a list of all members of this type, see [ICWForce members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html).
 
 ## Public Properties
 
@@ -32,5 +32,4 @@ For a list of all members of this type, see[ICWForce members](SolidWorks.Interop
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

@@ -53,13 +53,7 @@ property System.String^ DisplayedText2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -73,11 +67,7 @@ Actual text displayed in the specified cell
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::DisplayedText2](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~DisplayedText2.html)
-
-.
+See [TableAnnotation::DisplayedText2](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~DisplayedText2.html).
 
 ## Examples
 
@@ -87,12 +77,11 @@ See
 
 Index for both rows and columns is 0-based.
 
-To get the parameterized string that drives this displayed text, use[ITableAnnotation::Text2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~Text2.html).
+To get the parameterized string that drives this displayed text, use [ITableAnnotation::Text2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~Text2.html).
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
 
 ## Availability

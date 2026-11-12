@@ -9,9 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # FastenerSize Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by IWizardHoleFeatureData2::FastenerSize .
+Obsolete. Superseded by [IWizardHoleFeatureData2::FastenerSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~FastenerSize.html).
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,24 +47,13 @@ property System.String^ FastenerSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::FastenerSize](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~FastenerSize.html)
-
-.
+See [WizardHoleFeatureData::FastenerSize](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~FastenerSize.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

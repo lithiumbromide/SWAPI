@@ -52,16 +52,11 @@ void SetReferenceEntity(
 
 ## VBA Syntax
 
-See
-
-[CWCentriFugalForce::SetReferenceEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~SetReferenceEntity.html)
-
-.
+See [CWCentriFugalForce::SetReferenceEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~SetReferenceEntity.html).
 
 ## See Also
 
 [ICWCentriFugalForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
 [ICWCentriFugalForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce_members.html)
 
 ## Availability

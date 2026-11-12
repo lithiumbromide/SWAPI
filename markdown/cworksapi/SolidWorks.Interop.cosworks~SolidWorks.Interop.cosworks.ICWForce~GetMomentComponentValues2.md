@@ -68,36 +68,20 @@ void GetMomentComponentValues2(
 
 ### Parameters
 
-- `B1`: -1 or true if moment about the X direction exists, 0 or false if not (see
-
-Remarks
-
-)
-- `B2`: -1 or true if moment about the Y direction exists, 0 or false if not (see
-
-Remarks
-
-)
-- `B3`: -1 or true if moment about the Z direction exists, 0 or false if not (see
-
-Remarks
-
-)
+- `B1`: -1 or true if moment about the X direction exists, 0 or false if not (see **Remarks**)
+- `B2`: -1 or true if moment about the Y direction exists, 0 or false if not (see **Remarks**)
+- `B3`: -1 or true if moment about the Z direction exists, 0 or false if not (see **Remarks**)
 - `D1`: Moment about X
 - `D2`: Moment about Y
 - `D3`: Moment about Z
 
 ## VBA Syntax
 
-See
-
-[CWForce::GetMomentComponentValues2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~GetMomentComponentValues2.html)
-
-.
+See [CWForce::GetMomentComponentValues2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~GetMomentComponentValues2.html).
 
 ## Remarks
 
-This method is valid only for models with beam elements and if[ICWForce::ForceType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~ForceType.html)is set to[swsForceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsForceType_e.html).swsForceTypeForceOrMoment.
+This method is valid only for models with beam elements and if [ICWForce::ForceType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~ForceType.html) is set to [swsForceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsForceType_e.html).swsForceTypeForceOrMoment.
 
 This method returns booleans or integers in out parameters B1, B2, and B3, depending on their prior declarations.
 
@@ -109,7 +93,6 @@ If out parameters B1, B2, and B3 are cast as:
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
 
 ## Availability

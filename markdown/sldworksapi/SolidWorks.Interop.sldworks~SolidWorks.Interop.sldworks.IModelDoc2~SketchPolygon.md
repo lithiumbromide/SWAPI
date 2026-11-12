@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchPolygon Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::CreatePolygon](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreatePolygon.html)
-
-.
+Obsolete. Superseded by [ISketchManager::CreatePolygon](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreatePolygon.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ System.bool SketchPolygon(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -94,20 +84,15 @@ True if polygon created, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchPolygon](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchPolygon.html)
-
-.
+See [ModelDoc2::SketchPolygon](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchPolygon.html).
 
 ## Remarks
 
-After using this method, the PropertyManager page is in edit mode for the polygon. To exit this PropertyManager page and complete the operation, use[IModelDoc2::SetPickMode](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetPickMode.html),[IModelDoc2::ClearSelection2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ClearSelection2.html), or exit the sketch.
+After using this method, the PropertyManager page is in edit mode for the polygon. To exit this PropertyManager page and complete the operation, use [IModelDoc2::SetPickMode](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetPickMode.html), [IModelDoc2::ClearSelection2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ClearSelection2.html), or exit the sketch.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

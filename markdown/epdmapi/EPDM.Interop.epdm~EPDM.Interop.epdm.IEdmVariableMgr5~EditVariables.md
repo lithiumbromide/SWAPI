@@ -48,7 +48,6 @@ True if one or more variables are updated; false if not
 ## Examples
 
 [Add Card Variables to Vault (VB.NET)](Add_Variables_to_Vault_Example_VBNET.htm)
-
 [Add Card Variables to Vault (C#)](Add_Variables_to_Vault_Example_CSharp.htm)
 
 ## Remarks
@@ -61,7 +60,6 @@ True if one or more variables are updated; false if not
 ## See Also
 
 [IEdmVariableMgr5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5.html)
-
 [IEdmVariableMgr5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5_members.html)
 
 ## Availability

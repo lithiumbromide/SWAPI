@@ -9,83 +9,37 @@ source: "sldworksapi/Hide_or_Show_All_Types_Example_VB.htm"
 
 # Hide or Show All Types Example (VBA)
 
-This example shows how to hide or show these types in a the current
-document:
+This example shows how to hide or show these types in a the current document:
 
-(Table)=========================================================
-
-| planes curves axes sketches temporary axes all annotations (including model dimensions and
-feature dimensions) | origins points coordinate systems routing points |
+| planes curves axes sketches temporary axes all annotations (including model dimensions and feature dimensions) | origins points coordinate systems routing points |
 | --- | --- |
 
+```vb
 '-------------------------------------------
-
 Option Explicit
 
 Public Enum swUserPreferenceToggle_e
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swViewDisplayHideAllTypes
-= 198
-
+    swViewDisplayHideAllTypes = 198
 End Enum
 
 Sub main()
+    Dim swApp                       As SldWorks.SldWorks
+    Dim swModel                     As SldWorks.modelDoc
+    Dim bRet                        As Boolean
+    Dim bShow                       As Boolean
+    Dim nResponse                   As Integer
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAppkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SldWorks
+    nResponse = MsgBox("Hide all types?", vbYesNo)
+    If nResponse = vbYes Then
+        bShow = True
+    Else
+        bShow = False
+    End If
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.modelDoc
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bRetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bShowkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-nResponsekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Integer
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}nResponse
-= MsgBox("Hide all types?", vbYesNo)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-nResponse = vbYes Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bShow
-= True
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Else
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bShow
-= False
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bRet
-= swModel.SetUserPreferenceToggle(swViewDisplayHideAllTypes,
-bShow): Debug.Assert bRet
-
+    bRet = swModel.SetUserPreferenceToggle(swViewDisplayHideAllTypes, bShow): Debug.Assert bRet
 End Sub
-
 '-------------------------------------------
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+```

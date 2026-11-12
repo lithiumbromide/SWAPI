@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ShowFeatureDimensions Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ShowFeatureDimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ShowFeatureDimensions.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ShowFeatureDimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ShowFeatureDimensions.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ShowFeatureDimensions()
 void ShowFeatureDimensions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ShowFeatureDimensions](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ShowFeatureDimensions.html)
-
-.
+See [ModelDoc::ShowFeatureDimensions](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ShowFeatureDimensions.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

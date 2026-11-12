@@ -47,19 +47,11 @@ System.bool SetDisplay(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Display`: Display as defined by
-
-[swDetCircleShowType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDetCircleShowType_e.html)
+- `Display`: Display as defined by [swDetCircleShowType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDetCircleShowType_e.html)
 
 ### Return Value
 
@@ -67,11 +59,7 @@ True if setting the detail circle display is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::SetDisplay](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetDisplay.html)
-
-.
+See [DetailCircle::SetDisplay](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetDisplay.html).
 
 ## Remarks
 
@@ -85,9 +73,7 @@ Use this method to display the detail circle or detail profile as a circle or as
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::GetStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~GetStyle.html)
 
 ## Availability

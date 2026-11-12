@@ -9,7 +9,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 # DMotionStudyEvents_ForceTimeStepChangeNotifyEventHandler Delegate (SolidWorks.Interop.swmotionstudy)
 
-Fired when a motion study is[calculated](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy~Calculate.html)and there are[external forces.](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationForceFeatureData~ExternalState.html)
+Fired when a motion study is [calculated](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy~Calculate.html) and there are [external forces.](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationForceFeatureData~ExternalState.html)
 
 ## Syntax
 
@@ -57,15 +57,11 @@ public delegate System.int DMotionStudyEvents_ForceTimeStepChangeNotifyEventHand
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[ForceTimeStepChangeNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~ForceTimeStepChangeNotify_EV.html)
-
-.
+See [ForceTimeStepChangeNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~ForceTimeStepChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, then use[swMotionStudyForceTimeStepChangeNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html)to register for this notification.
+If developing a C++ application, then use [swMotionStudyForceTimeStepChangeNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html) to register for this notification.
 
 You can implement any force law after catching this event. The return value is a double that specifies the new force or torque magnitude. This event is called at every major time step from ADAMS.
 

@@ -46,34 +46,20 @@ Number of entities at first location
 
 ## VBA Syntax
 
-See
-
-[CWRigidConnector::GetFirstLocationEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRigidConnector~GetFirstLocationEntityCount.html)
-
-.
+See [CWRigidConnector::GetFirstLocationEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRigidConnector~GetFirstLocationEntityCount.html).
 
 ## Examples
 
-See the
-
-[ICWRigidConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector.html)
-
-examples.
+See the [ICWRigidConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector.html) examples.
 
 ## See Also
 
 [ICWRigidConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector.html)
-
 [ICWRigidConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector_members.html)
-
 [ICWRigidConnector::GetSecondLocationEntityCount Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector~GetSecondLocationEntityCount.html)
-
 [ICWRigidConnector::InsertEntityAtFirstLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector~InsertEntityAtFirstLocation.html)
-
 [ICWRigidConnector::InsertEntityAtSecondLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector~InsertEntityAtSecondLocation.html)
-
 [ICWRigidConnector::RemoveEntityFromFirstLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector~RemoveEntityFromFirstLocation.html)
-
 [ICWRigidConnector::RemoveEntityFromSecondLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector~RemoveEntityFromSecondLocation.html)
 
 ## Availability

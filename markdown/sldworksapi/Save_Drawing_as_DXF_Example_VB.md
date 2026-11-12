@@ -9,8 +9,7 @@ source: "sldworksapi/Save_Drawing_as_DXF_Example_VB.htm"
 
 # Save Drawing as DXF Example (VBA)
 
-This example shows how to save the current drawing file as a DXF file
-in the same folder.
+This example shows how to save the current drawing file as a DXF file in the same folder.
 
 ```
 '----------------------------------------------------------------------------
@@ -40,7 +39,7 @@ Option Explicit
 Sub main()
     Set swApp = Application.SldWorks
      Set swModel = swApp.ActiveDoc
-    ' Strip off SOLIDWORKS drawing file extension (.slddrw)
+    ' Strip off SOLIDWORKS Design drawing file extension (.slddrw)
      ' and add DXF file extension (.dxf)
      sPathName = swModel.GetPathName
      sPathName = Left(sPathName, Len(sPathName) - 6)

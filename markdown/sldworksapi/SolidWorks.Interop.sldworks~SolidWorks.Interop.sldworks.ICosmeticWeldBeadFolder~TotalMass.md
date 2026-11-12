@@ -42,13 +42,7 @@ property System.double TotalMass {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ Total weld mass
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFolder::TotalMass](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFolder~TotalMass.html)
-
-.
+See [CosmeticWeldBeadFolder::TotalMass](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFolder~TotalMass.html).
 
 ## Examples
 
-See
-
-[ICosmeticWeldBeadFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFolder.html)
-
-examples.
+See [ICosmeticWeldBeadFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFolder.html) examples.
 
 ## See Also
 
 [ICosmeticWeldBeadFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder.html)
-
 [ICosmeticWeldBeadFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder_members.html)
 
 ## Availability

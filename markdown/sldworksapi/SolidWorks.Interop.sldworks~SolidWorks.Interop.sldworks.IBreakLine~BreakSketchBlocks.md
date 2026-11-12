@@ -45,13 +45,7 @@ property System.bool BreakSketchBlocks {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to break sketch blocks, false to not
 
 ## VBA Syntax
 
-See
-
-[BreakLine::BreakSketchBlocks](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~BreakSketchBlocks.html)
-
-.
+See [BreakLine::BreakSketchBlocks](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~BreakSketchBlocks.html).
 
 ## See Also
 
 [IBreakLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine.html)
-
 [IBreakLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine_members.html)
 
 ## Availability

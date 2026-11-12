@@ -11,8 +11,7 @@ source: "sldworksapi/Fire_Notifications_When_Renaming_Components_Example_VBNET.h
 
 This example shows how to fire notifications when you:
 
-- are about to rename a
-  component.
+- are about to rename a component.
 - rename a component.
 
 ```

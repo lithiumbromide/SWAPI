@@ -11,10 +11,8 @@ source: "sldworksapi/Delete_Instances_and_Dimensions_in_Variable_Pattern_Feature
 
 This example shows how to:
 
-- delete instances in a variable
-  pattern feature.
-- add and delete dimensions in
-  the pattern table in a variable pattern table.
+- delete instances in a variable pattern feature.
+- add and delete dimensions in the pattern table in a variable pattern table.
 
 ```
 '---------------------------------------------------------

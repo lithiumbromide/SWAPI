@@ -42,38 +42,23 @@ property System.int UnitType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-User unit type as defined in[swUserUnitsType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserUnitsType_e.html)
+User unit type as defined in [swUserUnitsType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserUnitsType_e.html)
 
 ## VBA Syntax
 
-See
-
-[UserUnit::UnitType](ms-its:sldworksapivb6.chm::/sldworks~UserUnit~UnitType.html)
-
-.
+See [UserUnit::UnitType](ms-its:sldworksapivb6.chm::/sldworks~UserUnit~UnitType.html).
 
 ## Examples
 
-See the
-
-[IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
-examples.
+See the [IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html) examples.
 
 ## See Also
 
 [IUserUnit Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
 [IUserUnit Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit_members.html)
 
 ## Availability

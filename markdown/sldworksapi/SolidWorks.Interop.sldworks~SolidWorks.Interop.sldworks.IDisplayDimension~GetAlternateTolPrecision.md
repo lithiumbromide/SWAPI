@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # GetAlternateTolPrecision Method (IDisplayDimension)
 
-Obsolete. Superseded by
-
-[IDisplayDimension::GetAlternateTolPrecision](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetAlternateTolPrecision2.html)
-
-.
+Obsolete. Superseded by [IDisplayDimension::GetAlternateTolPrecision](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetAlternateTolPrecision2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetAlternateTolPrecision()
 System.int GetAlternateTolPrecision();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetAlternateTolPrecision](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetAlternateTolPrecision.html)
-
-.
+See [DisplayDimension::GetAlternateTolPrecision](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetAlternateTolPrecision.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)

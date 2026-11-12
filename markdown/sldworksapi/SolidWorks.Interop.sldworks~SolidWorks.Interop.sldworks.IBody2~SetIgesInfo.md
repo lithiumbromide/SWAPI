@@ -54,32 +54,21 @@ void SetIgesInfo(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SystemName`: Name of the system as defined in[swIGESPreferredSystem_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swIGESPreferredSystem_e.html)
+- `SystemName`: Name of the system as defined in [swIGESPreferredSystem_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swIGESPreferredSystem_e.html)
 - `Granularity`: Level of granularity
 - `AttemptKnitting`: True knits the objects, false does not
 
 ## VBA Syntax
 
-See
-
-[Body2::SetIgesInfo](ms-its:sldworksapivb6.chm::/sldworks~Body2~SetIgesInfo.html)
-
-.
+See [Body2::SetIgesInfo](ms-its:sldworksapivb6.chm::/sldworks~Body2~SetIgesInfo.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

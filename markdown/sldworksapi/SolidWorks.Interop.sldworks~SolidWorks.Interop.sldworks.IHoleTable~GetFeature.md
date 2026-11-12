@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHo
 
 # GetFeature Method (IHoleTable)
 
-Gets the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object for this hole table.
+Gets the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object for this hole table.
 
 ## Syntax
 
@@ -44,34 +40,19 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[HoleTable::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~GetFeature.html)
-
-.
+See [HoleTable::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~GetFeature.html).
 
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
 
 ## Availability

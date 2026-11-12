@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # SketchOffset Method (ISketchManager)
 
-Obsolete. Superseded by
-
-[ISketchManager::SketchOffset2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~SketchOffset2.html)
-
-.
+Obsolete. Superseded by [ISketchManager::SketchOffset2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~SketchOffset2.html).
 
 ## Syntax
 
@@ -71,21 +67,15 @@ System.bool SketchOffset(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Offset`: Offset value; negative value offsets in opposite direction
-- `BothDirections`: True to offset the sketch entities in both directions, false to notParamDesc
-- `Chain`: True to offset the chain of sketch entities, false if you want only the selected sketch entities offset (see**Remarks**)
+- `BothDirections`: True to offset the sketch entities in both directions, false to not
+- `Chain`: True to offset the chain of sketch entities, false if you want only the selected sketch entities offset (see **Remarks**)
 - `CapEnds`: True to cap the bidirectional offset with arcs, false to not
-- `MakeConstruction`: True to make the sketch entities construction geometry after offsetting, false to notParamDesc
+- `MakeConstruction`: True to make the sketch entities construction geometry after offsetting, false to not
 - `AddDimensions`: True to include the offset distance in the sketch, false to not
 
 ### Return Value
@@ -94,11 +84,7 @@ True if the sketch entities are offset, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchManager::SketchOffset](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchOffset.html)
-
-.
+See [SketchManager::SketchOffset](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchOffset.html).
 
 ## Remarks
 
@@ -107,7 +93,6 @@ Specifying true to the Chain argument offsets the selected entity and any other 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

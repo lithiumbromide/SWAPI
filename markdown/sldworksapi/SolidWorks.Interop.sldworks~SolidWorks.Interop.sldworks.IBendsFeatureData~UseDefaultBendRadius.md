@@ -45,13 +45,7 @@ property System.bool UseDefaultBendRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ True to use the default bend radius, false to not
 
 ## VBA Syntax
 
-See
-
-[BendsFeatureData::UseDefaultBendRadius](ms-its:sldworksapivb6.chm::/sldworks~BendsFeatureData~UseDefaultBendRadius.html)
-
-.
+See [BendsFeatureData::UseDefaultBendRadius](ms-its:sldworksapivb6.chm::/sldworks~BendsFeatureData~UseDefaultBendRadius.html).
 
 ## Examples
 
 [Get All Sheet Metal Feature Data (VBA)](Get_All_Sheet_Metal_Feature_Data_Example_VB.htm)
-
 [Get All Sheet Metal Feature Data (VB.NET)](Get_All_Sheet_Metal_Feature_Data_Example_VBNET.htm)
-
 [Get All Sheet Metal Feature Data (C#)](Get_All_Sheet_Metal_Feature_Data_Example_CSharp.htm)
 
 ## See Also
 
 [IBendsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendsFeatureData.html)
-
 [IBendsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendsFeatureData_members.html)
-
 [IBendsFeatureData::BendRadius Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendsFeatureData~BendRadius.html)
 
 ## Availability

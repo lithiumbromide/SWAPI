@@ -59,40 +59,22 @@ System.int GetColumnType3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: 0-based index of the column whose type to get
 - `IncludeHidden`: True to include hidden columns in Index, false to not
-- `PropertyData`: Property data specific to the type of column (see
-
-Remarks
-
-)
-- `Status`: Return code as defined in
-
-[swColumnTypeStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swColumnTypeStatus_e.html)
+- `PropertyData`: Property data specific to the type of column (see **Remarks**)
+- `Status`: Return code as defined in [swColumnTypeStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swColumnTypeStatus_e.html)
 
 ### Return Value
 
-Type of column as defined in
-
-[swTableColumnTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTableColumnTypes_e.html)
+Type of column as defined in [swTableColumnTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTableColumnTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::GetColumnType3](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetColumnType3.html)
-
-.
+See [TableAnnotation::GetColumnType3](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetColumnType3.html).
 
 ## Examples
 
@@ -100,14 +82,12 @@ See
 
 ## Remarks
 
-PropertyData varies by the type of column. See the Remarks in[ITableAnnotation::SetColumnType3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetColumnType3.html).
+PropertyData varies by the type of column. See the Remarks in [ITableAnnotation::SetColumnType3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetColumnType3.html).
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::GetCellEquation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetCellEquation.html)
 
 ## Availability

@@ -49,9 +49,7 @@ System.int GetNumCriticalFaces(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -59,11 +57,7 @@ Number of critical faces
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis::GetNumCriticalFaces](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~GetNumCriticalFaces.html)
-
-.
+See [IThicknessAnalysis::GetNumCriticalFaces](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~GetNumCriticalFaces.html).
 
 ## Examples
 
@@ -71,26 +65,16 @@ See
 
 ## Remarks
 
-If a model contains a critical face, then all of the features that share the face are classified as
-
-[critical features](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~GetNumCriticalFeatures.html)
-
-.
+If a model contains a critical face, then all of the features that share the face are classified as [critical features](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~GetNumCriticalFeatures.html).
 
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
-
 [IThicknessAnalysis::GetAnalysisDetails Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetAnalysisDetails.html)
-
 [IThicknessAnalysis::GetAvgWeightedTckOnCritArea Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetAvgWeightedTckOnCritArea.html)
-
 [IThicknessAnalysis::GetCriticalFeatureNames Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetCriticalFeatureNames.html)
-
 [IThicknessAnalysis::GetCriticalSurfaceArea Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetCriticalSurfaceArea.html)
-
 [IThicknessAnalysis::GetNumCriticalFeatures Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetNumCriticalFeatures.html)
 
 ## Availability

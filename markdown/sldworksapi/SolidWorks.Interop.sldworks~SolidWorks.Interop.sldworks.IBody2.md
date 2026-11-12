@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 Allows access to the faces on a body and the ability to create surfaces for sewing into a body object.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,28 +41,17 @@ public interface class IBody2
 
 ## VBA Syntax
 
-See
-
-[Body2](ms-its:sldworksapivb6.chm::/sldworks~Body2.html)
-
-.
+See [Body2](ms-its:sldworksapivb6.chm::/sldworks~Body2.html).
 
 ## Examples
 
 [Get Bodies (C++)](Get_Bodies_Example_CPlusPlus_COM.htm)
-
 [Traverse Bodies (C++)](Traverse_Bodies_Example_CPlusPlusCLI.htm)
-
 [Get Original Body from Pattern Body (VBA)](Get_Original_Body_from_Pattern_Body_Example_VB.htm)
-
 [Get Original Body from Pattern Body (VB.NET)](Get_Original_Body_from_Pattern_Body_Example_VBNET.htm)
-
 [Get Original Body from Pattern Body (C#)](Get_Original_Body_from_Pattern_Body_Example_CSharp.htm)
-
 [Display Temporary Body (C#)](Display_Temporary_Body_Example_CSharp.htm)
-
 [Display Temporary Body (VB.NET)](Display_Temporary_Body_Example_VBNET.htm)
-
 [Display Temporary Body (VBA)](Display_Temporary_Body_Example_VB.htm)
 
 ## Accessors
@@ -71,37 +60,33 @@ See
 
 [IBody2::Copy](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Copy.html)
 
-[IBody2::CreateBodyFromFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBodyFromFaces.html)and[IBody2::ICreateBodyFromFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateBodyFromFaces.html)
+[IBody2::CreateBodyFromFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBodyFromFaces.html) and [IBody2::ICreateBodyFromFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateBodyFromFaces.html)
 
-[IBody2::CreateBodyFromSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBodyFromSurfaces.html)and[IBody2::ICreateTempBodyFromSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateTempBodyFromSurfaces.html)designcommand:name=delete,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2|c3820'
+[IBody2::CreateBodyFromSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBodyFromSurfaces.html) and [IBody2::ICreateTempBodyFromSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateTempBodyFromSurfaces.html) designcommand:name=delete,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2|c3820'
 
-[IBody2::DeleteFacesMakeSheetBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DeleteFacesMakeSheetBodies.html)and[IBody2::IDeleteFacesMakeSheetBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IDeleteFacesMakeSheetBodies.html)designcommand:name=delete,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2|c3823'
+[IBody2::DeleteFacesMakeSheetBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DeleteFacesMakeSheetBodies.html) and [IBody2::IDeleteFacesMakeSheetBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IDeleteFacesMakeSheetBodies.html) designcommand:name=delete,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2|c3823'
 
-[IBody2::ExtendSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ExtendSurface.html)and[IBody2::IExtendSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IExtendSurface.html)
+[IBody2::ExtendSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ExtendSurface.html) and [IBody2::IExtendSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IExtendSurface.html)
 
 [IBody2::GetExcessBodyArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetExcessBodyArray.html)
 
-[IBody2::GetMiddleSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetMiddleSurface.html)and[IBody2::IGetMiddleSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetMiddleSurface.html)
+[IBody2::GetMiddleSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetMiddleSurface.html) and [IBody2::IGetMiddleSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetMiddleSurface.html)
 
 [IBody2::GetOriginalPatternedBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetOriginalPatternedBody.html)
 
-[IBody2::GetProcessedBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetProcessedBody2.html)and[IBody2::IGetProcessedBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetProcessedBody.html)
+[IBody2::GetProcessedBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetProcessedBody2.html) and [IBody2::IGetProcessedBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetProcessedBody.html)
 
-[IBody2::GetProcessedBodyWithSelFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetProcessedBodyWithSelFace.html)and[IBody2::IGetProcessedBodyWithSelFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetProcessedBodyWithSelFace.html)
+[IBody2::GetProcessedBodyWithSelFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetProcessedBodyWithSelFace.html) and [IBody2::IGetProcessedBodyWithSelFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetProcessedBodyWithSelFace.html)
 
 SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetProcessedBodyWithSelFace.html
 
-[IBody2::GetSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetSheetBody.html)
-
-and
-
-[IBody2::IGetSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetSheetBody.html)
+[IBody2::GetSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetSheetBody.html) and [IBody2::IGetSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetSheetBody.html)
 
 [IBody2::MakeOffset](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~MakeOffset.html)
 
 [IBody2::OffsetPlanarWireBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~OffsetPlanarWireBody.html)
 
-[IBody2::Operations2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Operations2.html)and[IBody2::IOperations2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IOperations2.html)
+[IBody2::Operations2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Operations2.html) and [IBody2::IOperations2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IOperations2.html)
 
 [IBoundaryBossFeatureData::FeatureScopeBodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~FeatureScopeBodies.html)
 
@@ -117,7 +102,7 @@ and
 
 [ICombineBodiesFeatureData::MainBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICombineBodiesFeatureData~MainBody.html)
 
-[IComponent2::GetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetBody.html)and[IComponent2::IGetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetBody.html)
+[IComponent2::GetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetBody.html) and [IComponent2::IGetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetBody.html)
 
 [IComponent2::GetBodies3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetBodies3.html)
 
@@ -149,11 +134,11 @@ and
 
 [IExtrudeFeatureData2::IGetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~IGetFeatureScopeBodies.html)
 
-[IFace2::CreateSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~CreateSheetBody.html)and[IFace2::ICreateSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ICreateSheetBody.html)
+[IFace2::CreateSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~CreateSheetBody.html) and [IFace2::ICreateSheetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ICreateSheetBody.html)
 
-[IFace2::CreateSheetBodyByFaceExtension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~CreateSheetBodyByFaceExtension.html)and[IFace2::ICreateSheetBodyByFaceExtension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ICreateSheetBodyByFaceExtension.html)
+[IFace2::CreateSheetBodyByFaceExtension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~CreateSheetBodyByFaceExtension.html) and [IFace2::ICreateSheetBodyByFaceExtension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ICreateSheetBodyByFaceExtension.html)
 
-[IFace2::GetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetBody.html)and[IFace2::IGetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetBody.html)
+[IFace2::GetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetBody.html) and [IFace2::IGetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetBody.html)
 
 [IFacet::GetBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet~GetBody.html)
 
@@ -179,9 +164,9 @@ and
 
 [ILoftFeatureData::IGetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftFeatureData~IGetFeatureScopeBodies.html)
 
-[ILoop2::RevolvePlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~RevolvePlanarLoop.html)and[ILoop2::IRevolvePlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IRevolvePlanarLoop.html)
+[ILoop2::RevolvePlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~RevolvePlanarLoop.html) and [ILoop2::IRevolvePlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IRevolvePlanarLoop.html)
 
-[ILoop2::SweepPlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~SweepPlanarLoop.html)and[ILoop2::ISweepPlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~ISweepPlanarLoop.html)
+[ILoop2::SweepPlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~SweepPlanarLoop.html) and [ILoop2::ISweepPlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~ISweepPlanarLoop.html)
 
 [IMacroFeatureData::EditBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~EditBodies.html)
 
@@ -191,7 +176,7 @@ and
 
 [IMeshBody::GetBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody~GetBody.html)
 
-[IMidSurface2::GetNextNeutralSheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetNextNeutralSheet.html)and[IMidSurface2::IGetFirstNeutralSheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~IGetFirstNeutralSheet.html)
+[IMidSurface2::GetNextNeutralSheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetNextNeutralSheet.html) and [IMidSurface2::IGetFirstNeutralSheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~IGetFirstNeutralSheet.html)
 
 [IMirrorPatternFeatureData::FeatureScopeBodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData~FeatureScopeBodies.html)
 
@@ -203,31 +188,31 @@ and
 
 [IModeler::CheckInterferenceBetweenTwoBodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CheckInterferenceBetweenTwoBodies.html)
 
-[IModeler::CreateBodiesFromSheets2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodiesFromSheets2.html)and[IModeler::ICreateBodiesFromSheets2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodiesFromSheets2.html)
+[IModeler::CreateBodiesFromSheets2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodiesFromSheets2.html) and [IModeler::ICreateBodiesFromSheets2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodiesFromSheets2.html)
 
-[IModeler::CreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBrepBody3.html)and[IModeler::ICreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBrepBody3.html)
+[IModeler::CreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBrepBody3.html) and [IModeler::ICreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBrepBody3.html)
 
 [IModeler::CreateExtrudedBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateExtrudedBody.html)
 
-[IModeler::CreateSheetFromFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateSheetFromFaces.html)and[IModeler::ICreateSheetFromFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateSheetFromFaces.html)
+[IModeler::CreateSheetFromFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateSheetFromFaces.html) and [IModeler::ICreateSheetFromFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateSheetFromFaces.html)
 
 [IModeler::CreateSweptBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateSweptBody.html)
 
-[IModeler::CreateWireBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateWireBody.html)and[IModeler::ICreateWireBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateWireBody.html)
+[IModeler::CreateWireBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateWireBody.html) and [IModeler::ICreateWireBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateWireBody.html)
 
-[IModeler::CheckInterference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CheckInterference.html)and[IModeler::ICheckInterference2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICheckInterference2.html)
+[IModeler::CheckInterference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CheckInterference.html) and [IModeler::ICheckInterference2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICheckInterference2.html)
 
-[IModeler::CreateBodyFromBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromBox.html)and[IModeler::ICreateBodyFromBox2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromBox2.html)
+[IModeler::CreateBodyFromBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromBox.html) and [IModeler::ICreateBodyFromBox2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromBox2.html)
 
-[IModeler::CreateBodyFromCone](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromCone.html)and[IModeler::ICreateBodyFromCone2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromCone2.html)
+[IModeler::CreateBodyFromCone](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromCone.html) and [IModeler::ICreateBodyFromCone2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromCone2.html)
 
-[IModeler::CreateBodyFromCyl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromCyl.html)and[IModeler::ICreateBodyFromCyl2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromCyl2.html)
+[IModeler::CreateBodyFromCyl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromCyl.html) and [IModeler::ICreateBodyFromCyl2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromCyl2.html)
 
-[IModeler::CreateBodyFromFaces2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromFaces2.html)and[IModeler::ICreateBodyFromFaces3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromFaces3.html)
+[IModeler::CreateBodyFromFaces2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodyFromFaces2.html) and [IModeler::ICreateBodyFromFaces3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromFaces3.html)
 
-[IModeler::CreateSheetFromSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateSheetFromSurface.html)and[IModeler::ICreateSheetFromSurface2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateSheetFromSurface2.html)
+[IModeler::CreateSheetFromSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateSheetFromSurface.html) and [IModeler::ICreateSheetFromSurface2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateSheetFromSurface2.html)
 
-[IModeler::Restore](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~Restore.html)and[IModeler::IRestore2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IRestore2.html)
+[IModeler::Restore](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~Restore.html) and [IModeler::IRestore2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IRestore2.html)
 
 [IMoveCopyBodyFeatureData::Bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMoveCopyBodyFeatureData~Bodies.html)
 
@@ -235,7 +220,7 @@ and
 
 [IMoveFaceFeatureData::GetEndConditionEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~GetEndConditionEntity.html)
 
-[IPartDoc::CreateNewBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~CreateNewBody.html)and[IPartDoc::ICreateNewBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~ICreateNewBody2.html)
+[IPartDoc::CreateNewBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~CreateNewBody.html) and [IPartDoc::ICreateNewBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~ICreateNewBody2.html)
 
 [IPartDoc::GetBodies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~GetBodies2.html)
 
@@ -271,7 +256,7 @@ and
 
 [ISketchSegment::CreateWireBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~CreateWireBody.html)
 
-[ISplitBodyFeatureData::GetSplitBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~GetSplitBodies.html)and[ISplitBodyFeatureData::IGetSplitBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~IGetSplitBodies.html)
+[ISplitBodyFeatureData::GetSplitBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~GetSplitBodies.html) and [ISplitBodyFeatureData::IGetSplitBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~IGetSplitBodies.html)
 
 [ISpring::BaseProfile](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISpring~BaseProfile.html)
 
@@ -311,7 +296,7 @@ and
 
 [IToolingSplitFeatureData::CavitySurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~CavitySurfaces.html)
 
-[IToolingSplitFeatureData::CoreSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~CoreSurfaces.html)and[IToolingSplitFeatureData::IGetCoreSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~IGetCoreSurfaces.html)
+[IToolingSplitFeatureData::CoreSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~CoreSurfaces.html) and [IToolingSplitFeatureData::IGetCoreSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~IGetCoreSurfaces.html)
 
 [IToolingSplitFeatureData::IGetPartingSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~IGetPartingSurfaces.html)
 
@@ -332,7 +317,5 @@ and
 ## See Also
 
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IEnumBodies2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies2.html)

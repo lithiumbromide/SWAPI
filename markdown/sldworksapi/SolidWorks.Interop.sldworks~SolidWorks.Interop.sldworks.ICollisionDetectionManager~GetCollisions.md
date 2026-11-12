@@ -51,22 +51,12 @@ System.int GetCollisions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `TreatContactAsCollision`: True to treat touching faces/edges/vertices as colliding, false to require solid bodies to overlap in a finite volume
-- `Collisions`: Array of
-
-[ICollision](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html)
-
-s
+- `Collisions`: Array of [ICollision](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html)s
 
 ### Return Value
 
@@ -74,30 +64,21 @@ Number of collisions found
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionManager::GetCollisions](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~GetCollisions.html)
-
-.
+See [CollisionDetectionManager::GetCollisions](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~GetCollisions.html).
 
 ## Examples
 
-See the
-
-[ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
-example.
+See the [ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html) example.
 
 ## Remarks
 
-Use[ICollisionDetectionManager::IsCollisionPresent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~IsCollisionPresent.html)to determine whether to run this method.
+Use [ICollisionDetectionManager::IsCollisionPresent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~IsCollisionPresent.html) to determine whether to run this method.
 
 This method can take significantly longer to execute than ICollisionDetectionManager::IsCollisionPresent, because this method might perform the collision detection calculation repeatedly.
 
 ## See Also
 
 [ICollisionDetectionManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
 [ICollisionDetectionManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager_members.html)
 
 ## Availability

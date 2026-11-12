@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumBodies2 Interface Members
 
-The following tables list the members exposed by[IEnumBodies2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies2.html).
+The following tables list the members exposed by [IEnumBodies2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies2.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[IEnumBodies2](SolidWorks.Intero
 ## See Also
 
 [IEnumBodies2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -1,6 +1,5 @@
 ---
-title: "IFeatureFolder Object
-Members"
+title: "IFeatureFolder Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IFeatureFolder_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IFeatureFolder_members.html"
 ---
 
-# IFeatureFolder Object
-Members
+# IFeatureFolder Object Members
 
 ## Public Methods
 

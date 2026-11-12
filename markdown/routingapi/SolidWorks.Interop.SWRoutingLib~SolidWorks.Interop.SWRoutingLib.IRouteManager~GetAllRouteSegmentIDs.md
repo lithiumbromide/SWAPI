@@ -46,20 +46,13 @@ Array of route segment IDs for the active route
 
 ## VBA Syntax
 
-See
-
-[RouteManager::GetAllRouteSegmentIDs](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetAllRouteSegmentIDs.html)
-
-.
+See [RouteManager::GetAllRouteSegmentIDs](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetAllRouteSegmentIDs.html).
 
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
-
 [IRouteManager::IGetAllRouteSegmentIDs Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~IGetAllRouteSegmentIDs.html)
-
 [IRouteManager::GetAllRouteSegmentCount Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetAllRouteSegmentCount.html)
 
 ## Availability

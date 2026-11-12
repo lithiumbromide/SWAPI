@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetLength2 Method (ICurve)
 
-Obsolete. Superseded by
-
-[ICurve::GetLength3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetLength3.html)
-
-.
+Obsolete. Superseded by [ICurve::GetLength3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetLength3.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.double GetLength2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,28 +64,19 @@ Length of the curve between the two parameters
 
 ## VBA Syntax
 
-See
-
-[Curve::GetLength2](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetLength2.html)
-
-.
+See [Curve::GetLength2](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetLength2.html).
 
 ## Examples
 
 [Get Edge Curve Parameterization (VBA)](Get_Edge_Curve_Parameterization_Example_VB.htm)
-
 [Get intersecting Faces (VBA)](Get_Intersecting_Faces_Example_VB.htm)
-
 [Get Length of Edge (VBA)](Get_Length_of_Edge_Example_VB.htm)
-
 [Get Reference Curve Information (VBA)](Get_Reference_Curve_Information_Example_VB.htm)
-
 [Get Start and End Points of Spline (VBA)](Get_Start_and_End_Points_of_Spline_Example_VB.htm)
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
 
 ## Availability

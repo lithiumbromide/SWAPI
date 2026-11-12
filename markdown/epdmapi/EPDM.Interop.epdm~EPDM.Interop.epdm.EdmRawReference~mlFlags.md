@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference~mlFlags.htm
 
 # mlFlags Field
 
-A combination of
-
-[EdmRawRefFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawRefFlags.html)
-
-bits.
+A combination of [EdmRawRefFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawRefFlags.html) bits.
 
 ## Syntax
 
@@ -38,14 +34,9 @@ System.int mlFlags
 
 ## Examples
 
-See the
-
-[EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
-examples.
+See the [EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html) examples.
 
 ## See Also
 
 [EdmRawReference Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
 [EdmRawReference Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference_members.html)

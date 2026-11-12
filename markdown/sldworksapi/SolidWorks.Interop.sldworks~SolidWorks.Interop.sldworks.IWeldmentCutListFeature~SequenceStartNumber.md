@@ -45,13 +45,7 @@ property System.int SequenceStartNumber {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,18 @@ Starting sequence number for this weldment cut list table
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListFeature::SequenceStartNumber](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~SequenceStartNumber.html)
-
-.
+See [WeldmentCutListFeature::SequenceStartNumber](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~SequenceStartNumber.html).
 
 ## Examples
 
-See the
-
-[IWeldmentCutListFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
-examples.
+See the [IWeldmentCutListFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html) examples.
 
 ## See Also
 
 [IWeldmentCutListFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
 [IWeldmentCutListFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature_members.html)
-
 [IWeldmentCutListFeature::KeepCurrentItemNumbers Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature~KeepCurrentItemNumbers.html)
-
 [IWeldmentCutListFeature::KeepMissingItems Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature~KeepMissingItems.html)
-
 [IWeldmentCutListFeature::StrikeoutMissingItems Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature~StrikeoutMissingItems.html)
 
 ## Availability

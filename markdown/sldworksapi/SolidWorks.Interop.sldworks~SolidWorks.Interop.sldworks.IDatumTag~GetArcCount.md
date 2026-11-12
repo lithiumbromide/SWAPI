@@ -40,13 +40,7 @@ System.int GetArcCount()
 System.int GetArcCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,15 @@ Number of arcs
 
 ## VBA Syntax
 
-See
-
-[DatumTag::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetArcCount.html)
-
-.
+See [DatumTag::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetArcCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IDatumTag::GetArcAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTag~GetArcAtIndex.html)
-
-or
-
-[IDatumTag::IGetArcAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTag~IGetArcAtIndex.html)
-
-.
+Call this method before calling [IDatumTag::GetArcAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTag~GetArcAtIndex.html) or [IDatumTag::IGetArcAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTag~IGetArcAtIndex.html).
 
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::GetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetArcAtIndex.html)
-
 [IDatumTag::IGetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~IGetArcAtIndex.html)

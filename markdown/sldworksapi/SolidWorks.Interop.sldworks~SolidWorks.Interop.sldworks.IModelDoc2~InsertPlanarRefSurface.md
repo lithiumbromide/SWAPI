@@ -40,13 +40,7 @@ System.bool InsertPlanarRefSurface()
 System.bool InsertPlanarRefSurface();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,22 @@ True if the reference surface is created, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertPlanarRefSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertPlanarRefSurface.html)
-
-.
+See [ModelDoc2::InsertPlanarRefSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertPlanarRefSurface.html).
 
 ## Examples
 
 [Create Planar Surface Feature (VBA)](Create_Planar_Surface_Feature_Example_VB.htm)
-
 [Create Planar Surface Feature (VB.NET)](Create_Planar_Surface_Feature_Example_VBNET.htm)
-
 [Create Planar Surface Feature (C#)](Create_Planar_Surface_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, select the surface's boundary entities using[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with Marks of 1. See the SOLIDWORKS Help for more information about what entities are valid for selection.
+Before calling this method, select the surface's boundary entities using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with Marks of 1. See the SOLIDWORKS Help for more information about what entities are valid for selection.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ISurfacePlanarFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfacePlanarFeatureData.html)
 
 ## Availability

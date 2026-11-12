@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Holes_using_Hole_Wizard_and_Sketch_Points_Example_VB
 
 # Create Holes Using Hole Wizard and Sketch Points Example (VBA)
 
-This example shows how to create holes using the Hole Wizard and sketch
-points.
+This example shows how to create holes using the Hole Wizard and sketch points.
 
 ```vb
  '---------------------------------------------------------------------------

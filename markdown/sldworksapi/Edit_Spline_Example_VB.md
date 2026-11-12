@@ -11,7 +11,21 @@ source: "sldworksapi/Edit_Spline_Example_VB.htm"
 
 This example shows how to modify the control points and knots of a spline.
 
-'---------------------------------------------------------------------------- ' Preconditions: ' 1. Ensure the specified template exists. ' 2. Open an Immediate window. ' ' Postconditions: ' 1. Creates a spline sketch. ' 2. Gets its B-curve parameters. ' 3. Modifies a control point in the spline. ' 4. Modifies a knot in the spline. ' 5. When the macro stops, select the spline in the graphics area and press F5. ' 6. Gets the edited B-curve parameters. ' 7. Inspect the Immediate window. ' '----------------------------------------------------------------------------
+'----------------------------------------------------------------------------
+' Preconditions:
+' 1. Ensure the specified template exists.
+' 2. Open an Immediate window.
+'
+' Postconditions:
+' 1. Creates a spline sketch.
+' 2. Gets its B-curve parameters.
+' 3. Modifies a control point in the spline.
+' 4. Modifies a knot in the spline.
+' 5. When the macro stops, select the spline in the graphics area and press F5.
+' 6. Gets the edited B-curve parameters.
+' 7. Inspect the Immediate window.
+'
+'----------------------------------------------------------------------------
 
 ```vb
 Option Explicit

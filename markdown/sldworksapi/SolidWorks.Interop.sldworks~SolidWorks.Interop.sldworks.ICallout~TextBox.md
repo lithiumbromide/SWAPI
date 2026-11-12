@@ -45,13 +45,7 @@ property System.bool TextBox {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True encloses the callout text in a box, false does not
 
 ## VBA Syntax
 
-See
-
-[Callout::TextBox](ms-its:sldworksapivb6.chm::/sldworks~Callout~TextBox.html)
-
-.
+See [Callout::TextBox](ms-its:sldworksapivb6.chm::/sldworks~Callout~TextBox.html).
 
 ## Examples
 
 [Create a Callout Independent of a Selection (C#)](Create_a_Callout_Independent_of_a_Selection_Example_CSharp.htm)
-
 [Create a Callout Independent of a Selection (VB.NET)](Create_a_Callout_Independent_of_a_Selection_Example_VBNET.htm)
-
 [Create a Callout Independent of a Selection (VBA)](Create_a_Callout_Independent_of_a_Selection_Example_VB.htm)
 
 ## Remarks
@@ -80,7 +68,6 @@ You can only set this property before the callout is shown or while the callout 
 ## See Also
 
 [ICallout Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout.html)
-
 [ICallout Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout_members.html)
 
 ## Availability

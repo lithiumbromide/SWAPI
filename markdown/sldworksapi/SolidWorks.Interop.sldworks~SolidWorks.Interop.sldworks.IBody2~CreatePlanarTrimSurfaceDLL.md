@@ -51,13 +51,7 @@ System.bool CreatePlanarTrimSurfaceDLL(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,30 +64,22 @@ True if planar trim surface is created, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::CreatePlanarTrimSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~CreatePlanarTrimSurfaceDLL.html)
-
-.
+See [Body2::CreatePlanarTrimSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~CreatePlanarTrimSurfaceDLL.html).
 
 ## Examples
 
 [Create Imported Solid Body (C#)](Create_Imported_Solid_Body_Example_CSharp.htm)
-
 [Create Imported Solid Body (VB.NET)](Create_Imported_Solid_Body_Example_VBNET.htm)
-
 [Create Imported Solid Body (VBA)](Create_Imported_Solid_Body_Example_VB.htm)
 
 ## Remarks
 
-You can use this method instead of[IBody2:CreateTrimmedSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateTrimmedSurface.html),[IBody2::ICreatePlanarSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreatePlanarSurface.html), and[ISurface::AddTrimmingLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~AddTrimmingLoop2.html).
+You can use this method instead of [IBody2:CreateTrimmedSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateTrimmedSurface.html), [IBody2::ICreatePlanarSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreatePlanarSurface.html), and [ISurface::AddTrimmingLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~AddTrimmingLoop2.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::ICreatePlanarTrimSurfaceDLL Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~ICreatePlanarTrimSurfaceDLL.html)
 
 ## Availability

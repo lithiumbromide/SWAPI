@@ -11,4 +11,4 @@ source: "emodeltoolkit/Miscellaneous/ECHAR.htm"
 
 #### ECHAR
 
-The nameECHARis achardata type.
+The name ECHAR is a char data type.

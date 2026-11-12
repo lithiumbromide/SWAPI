@@ -9,107 +9,35 @@ source: "obsoleteapi/ModelDoc2/ModelDoc2__SaveAsSilent.htm"
 
 # ModelDoc2::SaveAsSilent
 
-This method is obsolete and has been superseded
-by[ModelDoc2::SaveAs4](ModelDoc2__SaveAs4.htm).
+This method is obsolete and has been superseded by [ModelDoc2::SaveAs4](ModelDoc2__SaveAs4.htm).
 
 Description
 
-This method saves the current document with a new name. Dialog boxes
-are suppressed.
+This method saves the current document with a new name. Dialog boxes are suppressed.
 
 Syntax (OLE Automation)
 
-Errors=
-ModelDoc2.SaveAsSilent ( newName, saveAsCopy)
+Errors = ModelDoc2.SaveAsSilent ( newName, saveAsCopy)
 
-(Table)=========================================================
-
-| Input: | (BSTR) newName | New name of the document, which can be a name with suffix or a full
-path |
+| Input: | (BSTR) newName | New name of the document, which can be a name with suffix or a full path |
 | --- | --- | --- |
-| Input: | (BOOL) saveAsCopy | TRUE to save the document to a new filename without replacing the name
-in the active session; documents that reference the document continue
-to reference the original file |
+| Input: | (BOOL) saveAsCopy | TRUE to save the document to a new filename without replacing the name in the active session; documents that reference the document continue to reference the original file |
 | Return: | (long) Errors | 0 for no error or a bitwise or of the errors encountered; see swFileSaveError_e |
 
 Syntax (COM)
 
-status = ModelDoc2->SaveAsSilent
-( newName, saveAsCopy, &Errors)
+status = ModelDoc2->SaveAsSilent ( newName, saveAsCopy, &Errors)
 
-(Table)=========================================================
-
-| Input: | (BSTR) newName | New name of the document, which can be a name with suffix or a full
-path |
+| Input: | (BSTR) newName | New name of the document, which can be a name with suffix or a full path |
 | --- | --- | --- |
-| Input: | (BOOL) saveAsCopy | TRUE to save the document to a new filename without replacing the name
-in the active session; documents that reference the document will continue
-to reference the original file |
+| Input: | (BOOL) saveAsCopy | TRUE to save the document to a new filename without replacing the name in the active session; documents that reference the document will continue to reference the original file |
 | Output: | (long) Errors | 0 for no error or a bitwise or of the errors encountered; see swFileSaveError_e |
 | Return: | (HRESULT)status | S_OK if successful |
 
 Remarks
 
-This method is identical to ModelDoc2::SaveAs except
-that dialog boxes are suppressed.
+This method is identical to ModelDoc2::SaveAs except that dialog boxes are suppressed.
 
-If the file was saved successfully then Errors
-has a value of 0,; otherwise, it contains a bitwiseOR of the error codes that were generated in saving the document.
-Check the masks against the values of the enumerator swFileSaveError_e.
+If the file was saved successfully then Errors has a value of 0,; otherwise, it contains a bitwise OR of the error codes that were generated in saving the document. Check the masks against the values of the enumerator swFileSaveError_e.
 
-This method overwrites existing files on disk unless
-they are read-only.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001Plus$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2007\obsoleteapi\ModelDoc2\ModelDoc2__SaveAsSilent.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ModelDoc2_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2007\obsoleteapi\ModelDoc2\ModelDoc2__SaveAsSilent.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+This method overwrites existing files on disk unless they are read-only.

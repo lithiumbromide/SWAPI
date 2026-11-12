@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # EMailIntervalUnit Property (ICWDynamicStudyOptions)
 
-Gets or sets the units of time for
-
-[ICWDynamicStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~EMailInterval.html)
-
-.
+Gets or sets the units of time for [ICWDynamicStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~EMailInterval.html).
 
 ## Syntax
 
@@ -51,7 +47,7 @@ property System.int EMailIntervalUnit {
 
 ### Property Value
 
-Time units as defined in[swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeUnits_e.html):
+Time units as defined in [swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeUnits_e.html):
 
 - swsSecond
 - swsMinute
@@ -59,30 +55,21 @@ Time units as defined in[swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::EMailIntervalUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~EMailIntervalUnit.html)
-
-.
+See [CWDynamicStudyOptions::EMailIntervalUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~EMailIntervalUnit.html).
 
 ## Remarks
 
 This property is valid only if:
 
-- [ICWDynamicStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~EMailTimebased.html)
-
-  is set to 1,
+- [ICWDynamicStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~EMailTimebased.html) is set to 1,
 
 - and -
 
-- [ICWDynamicStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~EMail.html)
-
-  is set to 1.
+- [ICWDynamicStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~EMail.html) is set to 1.
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
 
 ## Availability

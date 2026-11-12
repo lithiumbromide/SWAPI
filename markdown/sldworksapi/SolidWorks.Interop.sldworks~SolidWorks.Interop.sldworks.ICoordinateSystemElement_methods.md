@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICoordinateSystemElement Interface Methods
 
-For a list of all members of this type, see[ICoordinateSystemElement members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement_members.html).
+For a list of all members of this type, see [ICoordinateSystemElement members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[ICoordinateSystemElement members](So
 ## See Also
 
 [ICoordinateSystemElement Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

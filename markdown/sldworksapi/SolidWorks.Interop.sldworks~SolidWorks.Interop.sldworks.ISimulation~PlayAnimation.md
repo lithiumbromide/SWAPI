@@ -40,13 +40,7 @@ Animation PlayAnimation()
 Animation^ PlayAnimation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[Simulation::PlayAnimation](ms-its:sldworksapivb6.chm::/sldworks~Simulation~PlayAnimation.html)
-
-.
+See [Simulation::PlayAnimation](ms-its:sldworksapivb6.chm::/sldworks~Simulation~PlayAnimation.html).
 
 ## Remarks
 
-If an animation is playing when this method is used, then this method returns the[IAnimation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnimation.html)object for that animation. To check to see if an animation is currently playing, use[ISimulation::IsAnimationPlaying](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulation~IsAnimationPlaying.html).
+If an animation is playing when this method is used, then this method returns the [IAnimation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnimation.html) object for that animation. To check to see if an animation is currently playing, use [ISimulation::IsAnimationPlaying](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulation~IsAnimationPlaying.html).
 
 ## See Also
 
 [ISimulation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html)
-
 [ISimulation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation_members.html)
 
 ## Availability

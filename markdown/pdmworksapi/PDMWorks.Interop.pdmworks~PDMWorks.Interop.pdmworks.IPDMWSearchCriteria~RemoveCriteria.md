@@ -52,24 +52,17 @@ void RemoveCriteria(
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchCriteria::RemoveCriteria](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~RemoveCriteria.html)
-
-.
+See [PDMWSearchCriteria::RemoveCriteria](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~RemoveCriteria.html).
 
 ## Remarks
 
-To determine the index number of the search criteria to remove, use[IPDMWSearchCriteria::CriteriaCount](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~CriteriaCount.html)before using this method.
+To determine the index number of the search criteria to remove, use [IPDMWSearchCriteria::CriteriaCount](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~CriteriaCount.html) before using this method.
 
 ## See Also
 
 [IPDMWSearchCriteria Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria.html)
-
 [IPDMWSearchCriteria Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria_members.html)
-
 [IPDMWSearchCriteria::AddCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~AddCriteria.html)
-
 [IPDMWSearchCriteria::GetCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~GetCriteria.html)
 
 ## Availability

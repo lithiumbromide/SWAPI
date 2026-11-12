@@ -45,13 +45,7 @@ property System.bool TreatSubAssembliesAsComponents {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to not check clearances between components within subassemblies, false to c
 
 ## VBA Syntax
 
-See
-
-[ClearanceVerificationMgr::TreatSubAssembliesAsComponents](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~TreatSubAssembliesAsComponents.html)
-
-.
+See [ClearanceVerificationMgr::TreatSubAssembliesAsComponents](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~TreatSubAssembliesAsComponents.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## See Also
 
 [IClearanceVerificationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
 [IClearanceVerificationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr_members.html)
 
 ## Availability

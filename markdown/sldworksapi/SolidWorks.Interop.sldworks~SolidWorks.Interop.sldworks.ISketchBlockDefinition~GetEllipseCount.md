@@ -40,13 +40,7 @@ System.int GetEllipseCount()
 System.int GetEllipseCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of ellipses
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::GetEllipseCount](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetEllipseCount.html)
-
-.
+See [SketchBlockDefinition::GetEllipseCount](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetEllipseCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchBlockDefinition::IGetEllipses](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetEllipses.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchBlockDefinition::IGetEllipses](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetEllipses.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
-
 [ISketchBlockDefinition::GetEllipses Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetEllipses.html)
 
 ## Availability

@@ -11,8 +11,7 @@ source: "cworksapi/Create_Buckling_Study_Example_VB.htm"
 
 This example shows how to create and analyze a buckling study.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
  '----------------------------------------------------------------------------

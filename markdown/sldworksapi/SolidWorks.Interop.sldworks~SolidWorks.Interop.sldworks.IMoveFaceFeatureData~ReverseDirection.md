@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True to reverse the direction, false to not
 
 ## VBA Syntax
 
-See
-
-[MoveFaceFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~ReverseDirection.html)
-
-.
+See [MoveFaceFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~ReverseDirection.html).
 
 ## See Also
 
 [IMoveFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData.html)
-
 [IMoveFaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData_members.html)
-
 [IMoveFaceFeatureData::GetDirectionReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~GetDirectionReference.html)
-
 [IMoveFaceFeatureData::SetDirectionReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~SetDirectionReference.html)
 
 ## Availability

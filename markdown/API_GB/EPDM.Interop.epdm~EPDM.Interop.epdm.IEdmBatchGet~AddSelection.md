@@ -42,22 +42,12 @@ void AddSelection(
 
 ### Parameters
 
-- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
-; vault from which to get the files or folders
-- `ppoSelection`: Array of
-
-[EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html)
-
-structures; one structure for each file or folder
+- `poVault`: [IEdmVault5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html); vault from which to get the files or folders
+- `ppoSelection`: Array of [EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html) structures; one structure for each file or folder
 
 ## Examples
 
-See the
-
-[IEdmBatchGet](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
-examples.
+See the [IEdmBatchGet](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html) examples.
 
 ## Remarks
 
@@ -69,7 +59,6 @@ examples.
 ## See Also
 
 [IEdmBatchGet Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
 [IEdmBatchGet Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_members.html)
 
 ## Availability

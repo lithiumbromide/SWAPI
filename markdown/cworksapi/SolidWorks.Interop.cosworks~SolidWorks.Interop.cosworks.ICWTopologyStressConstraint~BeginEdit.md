@@ -41,24 +41,15 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStressConstraint::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~BeginEdit.html)
-
-.
+See [CWTopologyStressConstraint::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
-example.
+See the [ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html) example.
 
 ## See Also
 
 [ICWTopologyStressConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
 [ICWTopologyStressConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint_members.html)
 
 ## Availability

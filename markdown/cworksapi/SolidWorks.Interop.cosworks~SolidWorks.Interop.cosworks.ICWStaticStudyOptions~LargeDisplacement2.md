@@ -50,15 +50,11 @@ property System.bool LargeDisplacement2 {
 - -1 or true = Use large displacement formulation
 - 0 or false = Do not use large displacement formulation
 
-(see**Remarks**)
+(see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::LargeDisplacement2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~LargeDisplacement2.html)
-
-.
+See [CWStaticStudyOptions::LargeDisplacement2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~LargeDisplacement2.html).
 
 ## Remarks
 
@@ -67,7 +63,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

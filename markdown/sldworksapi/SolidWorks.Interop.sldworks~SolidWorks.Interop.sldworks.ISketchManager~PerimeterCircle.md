@@ -67,22 +67,16 @@ System.Object^ PerimeterCircle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `X1`: coordinate for first point
-- `Y1`: y coordinate for first pointParamDesc
-- `X2`: x coordinate for second pointParamDesc
-- `Y2`: y coordinate for second pointParamDesc
-- `X3`: x coordinate for third pointParamDesc
-- `Y3`: y coordinate for third pointParamDesc
+- `Y1`: y coordinate for first point
+- `X2`: x coordinate for second point
+- `Y2`: y coordinate for second point
+- `X3`: x coordinate for third point
+- `Y3`: y coordinate for third point
 
 ### Return Value
 
@@ -90,16 +84,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchManager::PerimeterCircle](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~PerimeterCircle.html)
-
-.
+See [SketchManager::PerimeterCircle](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~PerimeterCircle.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

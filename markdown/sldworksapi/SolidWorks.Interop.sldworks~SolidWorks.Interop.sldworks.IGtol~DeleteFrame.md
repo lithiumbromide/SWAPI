@@ -47,13 +47,7 @@ System.bool DeleteFrame(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,19 +59,11 @@ True if successfully deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[Gtol::DeleteFrame](ms-its:sldworksapivb6.chm::/sldworks~Gtol~DeleteFrame.html)
-
-.
+See [Gtol::DeleteFrame](ms-its:sldworksapivb6.chm::/sldworks~Gtol~DeleteFrame.html).
 
 ## Examples
 
-See the
-
-[IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
-examples.
+See the [IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html) examples.
 
 ## Remarks
 
@@ -86,7 +72,6 @@ This method is valid only if this Gtol was created in SOLIDWORKS 2022 or later.
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
 
 ## Availability

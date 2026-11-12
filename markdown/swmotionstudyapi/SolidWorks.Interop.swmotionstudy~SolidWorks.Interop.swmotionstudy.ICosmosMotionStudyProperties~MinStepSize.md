@@ -51,11 +51,7 @@ Lower bound of the integration time step
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::MinStepSize](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~MinStepSize.html)
-
-.
+See [CosmosMotionStudyProperties::MinStepSize](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~MinStepSize.html).
 
 ## Remarks
 
@@ -64,9 +60,7 @@ This property is only important if the model has a locked position that the solv
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
-
 [ICosmosMotionStudyProperties::MaxStepSize Property](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~MaxStepSize.html)
 
 ## Availability

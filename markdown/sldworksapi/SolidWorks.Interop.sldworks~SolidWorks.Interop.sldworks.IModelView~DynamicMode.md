@@ -42,27 +42,15 @@ property System.int DynamicMode {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Dynamic mode state as defined in
-
-[swDynamicMode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDynamicMode_e.html)
+Dynamic mode state as defined in [swDynamicMode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDynamicMode_e.html)
 
 ## VBA Syntax
 
-See
-
-[ModelView::DynamicMode](ms-its:sldworksapivb6.chm::/sldworks~ModelView~DynamicMode.html)
-
-.
+See [ModelView::DynamicMode](ms-its:sldworksapivb6.chm::/sldworks~ModelView~DynamicMode.html).
 
 ## Remarks
 
@@ -71,11 +59,7 @@ If there is no geometry in the part or assembly, then this method returns swNoDy
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
-
 [IModelView::StartDynamics Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~StartDynamics.html)
-
 [IModelView::StopDynamics Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~StopDynamics.html)
-
 [IModelView::HlrQuality Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~HlrQuality.html)

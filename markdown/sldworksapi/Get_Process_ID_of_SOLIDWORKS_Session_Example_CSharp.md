@@ -1,5 +1,5 @@
 ---
-title: "Get Process ID of SOLIDWORKS Session Example (C#)"
+title: "Get Process ID of SOLIDWORKS Design Session Example (C#)"
 project: ""
 interface: ""
 member: ""
@@ -7,19 +7,18 @@ kind: "example"
 source: "sldworksapi/Get_Process_ID_of_SOLIDWORKS_Session_Example_CSharp.htm"
 ---
 
-# Get Process ID of SOLIDWORKS Session Example (C#)
+# Get Process ID of SOLIDWORKS Design Session Example (C#)
 
-This example shows how to get and verify the process ID of the current
-SOLIDWORKS session.
+This example shows how to get and verify the process ID of the current SOLIDWORKS Design session.
 
 ```
 //--------------------------------------------------------
 // Preconditions:
-// 1. Verify that only one SOLIDWORKS session is running.
+// 1. Verify that only one SOLIDWORKS Design session is running.
 // 2. Open the Immediate window.
 //
 // Postconditions:
-// 1. Gets the process ID of the SOLIDWORKS session.
+// 1. Gets the process ID of the SOLIDWORKS Design session.
 // 2. Examine the Immediate window.
 // 3. To verify the process ID, open a Command Prompt window,
 //    type TASKLIST, and locate sldworks.exe in the Image Name
@@ -39,9 +38,9 @@ namespace GetProcessIDCSharp.csproj
         public void Main()
         {
 
-            // Print the current SOLIDWORKS session's PID to the
+            // Print the current SOLIDWORKS Design session's PID to the
             // Immediate window
-            Debug.Print("SOLIDWORKS process ID: " + swApp.GetProcessID());
+            Debug.Print("SOLIDWORKS Design process ID: " + swApp.GetProcessID());
 
         }
 

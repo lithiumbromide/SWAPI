@@ -45,40 +45,23 @@ property System.int TypeName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Mate type as defined in
-
-[swMateType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateType_e.html)
+Mate type as defined in [swMateType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateType_e.html)
 
 ## VBA Syntax
 
-See
-
-[MateFeatureData::TypeName](ms-its:sldworksapivb6.chm::/sldworks~MateFeatureData~TypeName.html)
-
-.
+See [MateFeatureData::TypeName](ms-its:sldworksapivb6.chm::/sldworks~MateFeatureData~TypeName.html).
 
 ## Examples
 
-See the
-
-[IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html)
-
-examples.
+See the [IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html) examples.
 
 ## See Also
 
 [IMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html)
-
 [IMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData_members.html)
 
 ## Availability

@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6.html"
 
 Allows you to access a workflow state.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,26 +37,16 @@ public interface class IEdmState6 : public IEdmObject5, IEdmState5
 ## Examples
 
 [Create a Task that Finds Files in Workflow States (VB.NET)](Schedule_Task_to_Find_Files_in_State_Addin_Example_VBNET.htm)
-
 [Create a Task that Finds Files in Workflow States (C#)](Schedule_Task_to_Find_Files_in_State_Addin_Example_CSharp.htm)
 
 ## Remarks
 
 This interface:
 
-- inherits from
-
-  [IEdmState5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html)
-
-  .
-- is extended by
-
-  [IEdmState7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7.html)
-
-  .
+- inherits from [IEdmState5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html).
+- is extended by [IEdmState7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7.html).
 
 ## See Also
 
 [IEdmState6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

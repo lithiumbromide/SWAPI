@@ -40,13 +40,7 @@ System.object GetStartVertex()
 System.Object^ GetStartVertex();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,45 +48,31 @@ Vertex
 
 ## VBA Syntax
 
-See
-
-[Edge::GetStartVertex](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetStartVertex.html)
-
-.
+See [Edge::GetStartVertex](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetStartVertex.html).
 
 ## Examples
 
 [Check Interference Using IModeler::CheckInterference (VBA)](Check_Interference_using_Modeler_CheckInterference_Example_VB.htm)
-
 [Display Vertices (VBA)](Display_Vertices_Example_VB.htm)
-
 [Get Radius of Variable Radius Fillet (VBA)](Get_Radius_of_Variable_Radius_Fillet_Example_VB.htm)
-
 [Get Vertex (VBA)](Get_Vertex_Example_VB.htm)
-
 [Modify Fillet Weld Bead (VBA)](Modify_Fillet_Weld_Bead_Example_VB.htm)
-
 [Modify Fillet Weld Bead (VB.NET)](Modify_Fillet_Weld_Bead_Example_VBNET.htm)
-
 [Modify Fillet Weld Bead (C#)](Modify_Fillet_Weld_Bead_Example_CSharp.htm)
 
 ## Remarks
 
 If no vertex exists for this edge (such as the edge of a newly created cylinder), then this method returns null.
 
-This method and[IEdge::GetEndVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetEndVertex.html)or[IEdge::IGetEndVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetEndVertex.html)return distinct vertices, unless the edge is closed.
+This method and [IEdge::GetEndVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetEndVertex.html) or [IEdge::IGetEndVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetEndVertex.html) return distinct vertices, unless the edge is closed.
 Because edges have no natural direction, you cannot necessarily predict which of the two points you will get first and which last.
 
-Use[ICoEdge::GetCurveParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~GetCurveParams.html)or[ICoEdge::IGetCurveParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~IGetCurveParams.html)to get consistent start and end positions.
+Use [ICoEdge::GetCurveParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~GetCurveParams.html) or [ICoEdge::IGetCurveParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~IGetCurveParams.html) to get consistent start and end positions.
 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::IGetStartVertex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~IGetStartVertex.html)
-
 [IEdge::GetEndVertex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~GetEndVertex.html)
-
 [IEdge::IGetEndVertex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~IGetEndVertex.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 # Annotations Property (IAnnotationView)
 
-Obsolete. Superseded by
-
-[IAnnotationView::GetAnnotations2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~GetAnnotations2.html)
-
-.
+Obsolete. Superseded by [IAnnotationView::GetAnnotations2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~GetAnnotations2.html).
 
 ## Syntax
 
@@ -46,13 +42,7 @@ property System.Object^ Annotations {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -60,20 +50,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[AnnotationView::Annotations](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~Annotations.html)
-
-.
+See [AnnotationView::Annotations](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~Annotations.html).
 
 ## See Also
 
 [IAnnotationView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html)
-
 [IAnnotationView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView_members.html)
-
 [IAnnotationView::IGetAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~IGetAnnotations.html)
-
 [IAnnotationView::AnnotationCount Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~AnnotationCount.html)
 
 ## Availability

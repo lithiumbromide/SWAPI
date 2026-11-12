@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # ISheetMetalFolder Interface Methods
 
-For a list of all members of this type, see[ISheetMetalFolder members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFolder_members.html).
+For a list of all members of this type, see [ISheetMetalFolder members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFolder_members.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[ISheetMetalFolder members](SolidWork
 ## See Also
 
 [ISheetMetalFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFolder.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

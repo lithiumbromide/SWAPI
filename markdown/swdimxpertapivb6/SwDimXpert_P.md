@@ -57,6 +57,7 @@ source: "swdimxpertapivb6/SwDimXpert_P.html"
 | DimXpertPlaneFeature |  |
 | DimXpertPositionTolerance |  |
 | DimXpertRadiusDimTol |  |
+| DimXpertRefPlaneFeature |  |
 | DimXpertSphereFeature |  |
 | DimXpertStraightnessTolerance |  |
 | DimXpertSurfaceProfileTolerance |  |

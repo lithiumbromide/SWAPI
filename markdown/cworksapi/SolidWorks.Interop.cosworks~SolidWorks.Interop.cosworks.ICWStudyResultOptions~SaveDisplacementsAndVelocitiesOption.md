@@ -47,48 +47,25 @@ property System.int SaveDisplacementsAndVelocitiesOption {
 
 ### Property Value
 
-Option as defined in
-
-[swsResultsDisplacementAndVelocityOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsDisplacementAndVelocityOption_e.html)
-
-(see
-
-Remarks
-
-)
+Option as defined in [swsResultsDisplacementAndVelocityOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsDisplacementAndVelocityOption_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWStudyResultOptions::SaveDisplacementsAndVelocitiesOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyResultOptions~SaveDisplacementsAndVelocitiesOption.html)
-
-.
+See [CWStudyResultOptions::SaveDisplacementsAndVelocitiesOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyResultOptions~SaveDisplacementsAndVelocitiesOption.html).
 
 ## Examples
 
-See the
-
-[ICWStudyResultOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions.html)
-
-examples.
+See the [ICWStudyResultOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions.html) examples.
 
 ## Remarks
 
-This property is valid only for linear dynamic studies and only if
-
-[ICWStudyResultOptions::SaveResultsForSolutionStepsOption](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyResultOptions~SaveResultsForSolutionStepsOption.html)
-
-= swsSaveResultsOption_e.swsSaveResultsOption_ForSpecifiedSolutionSteps.
+This property is valid only for linear dynamic studies and only if [ICWStudyResultOptions::SaveResultsForSolutionStepsOption](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyResultOptions~SaveResultsForSolutionStepsOption.html) = swsSaveResultsOption_e.swsSaveResultsOption_ForSpecifiedSolutionSteps.
 
 ## See Also
 
 [ICWStudyResultOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions.html)
-
 [ICWStudyResultOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions_members.html)
-
 [ICWStudyResultOptions::SaveReactions Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SaveReactions.html)
-
 [ICWStudyResultOptions::SaveStresses Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SaveStresses.html)
 
 ## Availability

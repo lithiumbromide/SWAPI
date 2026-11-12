@@ -45,13 +45,7 @@ property System.String^ Configuration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,26 @@ Name of the configuration shown in the BOM table
 
 ## VBA Syntax
 
-See
-
-[BomFeature::Configuration](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~Configuration.html)
-
-.
+See [BomFeature::Configuration](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~Configuration.html).
 
 ## Examples
 
-See
-
-[IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html)
-
-examples.
+See [IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html) examples.
 
 ## Examples
 
 [Insert BOM Table and BOM Balloon (VB.NET)](Insert_BOM_Table_and_BOM_Balloon_Example_VBNET.htm)
-
 [Insert BOM Table and BOM Balloon (VBA)](Insert_BOM_Table_and_BOM_Balloon_Example_VB.htm)
 
 ## Remarks
 
 You can only use this property for BOM tables that show one configuration at a time, such as for parts and indented subassembly style BOM tables.
 
-You cannot use this property for top-level only BOM tables because information on multiple configurations can be shown at once in that style table. In that scenario, getting this property returns an empty string and setting the property has no effect. Use the[IBomFeature::GetConfigurationCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~GetConfigurationCount.html),[IBomFeature::GetConfigurations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~GetConfigurations.html),[IBomFeature::IGetConfigurations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~IGetConfigurations.html),[IBomFeature::SetConfigurations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~SetConfigurations.html), or[IBomFeature::ISetConfigurations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~ISetConfigurations.html)for that type of table.
+You cannot use this property for top-level only BOM tables because information on multiple configurations can be shown at once in that style table. In that scenario, getting this property returns an empty string and setting the property has no effect. Use the [IBomFeature::GetConfigurationCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~GetConfigurationCount.html), [IBomFeature::GetConfigurations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~GetConfigurations.html), [IBomFeature::IGetConfigurations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~IGetConfigurations.html), [IBomFeature::SetConfigurations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~SetConfigurations.html), or [IBomFeature::ISetConfigurations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~ISetConfigurations.html) for that type of table.
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
 
 ## Availability

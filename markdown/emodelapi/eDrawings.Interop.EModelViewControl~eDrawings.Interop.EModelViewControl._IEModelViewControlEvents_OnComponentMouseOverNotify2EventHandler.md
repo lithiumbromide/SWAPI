@@ -61,11 +61,7 @@ public delegate void _IEModelViewControlEvents_OnComponentMouseOverNotify2EventH
 
 ## VBA Syntax
 
-See
-
-[OnComponentMouseOverNotify2 Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnComponentMouseOverNotify2_EV.html)
-
-.
+See [OnComponentMouseOverNotify2 Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnComponentMouseOverNotify2_EV.html).
 
 ## Availability
 

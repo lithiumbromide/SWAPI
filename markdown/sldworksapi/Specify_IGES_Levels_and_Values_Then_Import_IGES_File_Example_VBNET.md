@@ -11,9 +11,7 @@ source: "sldworksapi/Specify_IGES_Levels_and_Values_Then_Import_IGES_File_Exampl
 
 This example shows how to:
 
-- specify levels and values
-  for importing IGES
-  data.
+- specify levels and values for importing IGES data.
 - import an IGES file.
 
 ```
@@ -23,7 +21,7 @@ This example shows how to:
 '
 ' Postconditions:
 ' 1. Creates a folder named Layer 25.
-' 2. Imports the specified IGES file into SOLIDWORKS
+' 2. Imports the specified IGES file into SOLIDWORKS Design
 '    and moves the imported IGES features to Layer 25.
 ' 3. To verify, examine the graphics area and
 '    FeatureManager design tree.

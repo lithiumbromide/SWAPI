@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Post | api/{vaultName}/files/{fileId}/datacard |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Data Card Resource Group : api/{vaultName}/files/{fileId}/datacard (Post) |
 | --- |
@@ -197,8 +193,4 @@ Models, ConfigurationName, and ConfigurationId are all members of ConfigInfo_Dat
 
 See Also
 
-[Data Card Resource Group](PDM%20Pro%20API_ws~g-b9fd019f-fc85-4753-9377-bf3fb3a1a5f8.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Data Card Resource Group](PDM%20Pro%20API_ws~g-b9fd019f-fc85-4753-9377-bf3fb3a1a5f8.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

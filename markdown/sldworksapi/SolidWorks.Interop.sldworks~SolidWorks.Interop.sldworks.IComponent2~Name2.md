@@ -11,8 +11,6 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Gets or sets the name of the selected component.
 
-kadov_tag{{<spaces>}}
-
 ## Syntax
 
 ### Visual Basic (Declaration)
@@ -47,13 +45,7 @@ property System.String^ Name2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,36 +53,21 @@ Name of this component
 
 ## VBA Syntax
 
-See
-
-[Component2::Name2](ms-its:sldworksapivb6.chm::/sldworks~Component2~Name2.html)
-
-.
+See [Component2::Name2](ms-its:sldworksapivb6.chm::/sldworks~Component2~Name2.html).
 
 ## Examples
 
 [Add Component and Mate (C++)](Add_Component_and_Mate_Example_CPlusPlus_COM.htm)
-
 [Change Material Properties (VBA)](Change_Material_Properties_Example_VB.htm)
-
 [Check Interference Using AssemblyDoc::ToolsCheckInterference2 (VBA)](Check_Interference_using_AssemblyDoc_ToolsCheckInterference2_Example_VB.htm)
-
 [Get Component Names and Types for Inplace Mate (VBA)](Get_Component_Names_and_Types_for_Inplace_Mate_Example_VB.htm)
-
 [Get Component via Display Dimension (VBA)](Get_Component_Via_Display_Dimension_Example_VB.htm)
-
 [Traverse Assembly at Component Level (VBA)](Traverse_Assembly_at_Component_Level_Example_VB.htm)
-
 [Traverse Assembly at Component and Feature Levels Using Recursion (VBA)](Traverse_Assembly_at_Component_and_Feature_Levels_Using_Recursion_Example_VB.htm)
-
 [Traverse Assembly at Component and Feature Levels Using Recursion (VB.NET)](Traverse_Assembly_at_Component_and_Feature_Levels_Using_Recursion_Example_VBNET.htm)
-
 [Traverse Assembly at Component and Feature Levels Using Recursion (C#)](Traverse_Assembly_at_Component_and_Feature_Levels_Using_Recursion_Example_CSharp.htm)
-
 [Change Name of Component (C#)](Change_Name_of_Component_Example_CSharp.htm)
-
 [Change Name of Component (VB.NET)](Change_Name_of_Component_Example_VBNET.htm)
-
 [Change Name of Component (VBA)](Change_Name_of_Component_Example_VB.htm)
 
 ## Remarks
@@ -107,23 +84,15 @@ indicates that this component (Part1) is the first instance within the subAssem1
 
 If you are setting the name of a component:
 
-- Before executing a name change, this property checks the swExtRefUpdateCompNames setting. If swExtRefUpdateCompNames is true, then the name change fails; if swExtRefUpdateCompNames is false, then the name change succeeds. Use
-
-  [ISldWorks::GetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceToggle.html)
-
-  to change the swExtRefUpdateCompNames setting. Also, remember that some special characters are reserved by SOLIDWORKS, so be sure to use valid characters in the new name.
+- Before executing a name change, this property checks the swExtRefUpdateCompNames setting. If swExtRefUpdateCompNames is true, then the name change fails; if swExtRefUpdateCompNames is false, then the name change succeeds. Use [ISldWorks::GetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceToggle.html) to change the swExtRefUpdateCompNames setting. Also, remember that some special characters are reserved by SOLIDWORKS, so be sure to use valid characters in the new name.
 - The component must be selected.
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::GetSelectByIDString Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetSelectByIDString.html)
-
 [IAssemblyDoc::GetComponentByName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetComponentByName.html)
-
 [IAssemblyDoc::GetUnloadedComponentNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetUnloadedComponentNames.html)
 
 ## Availability

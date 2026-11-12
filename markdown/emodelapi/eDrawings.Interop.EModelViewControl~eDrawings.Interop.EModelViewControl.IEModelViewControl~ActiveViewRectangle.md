@@ -48,16 +48,11 @@ Array of four longs or integers, which are the x and y coordinates of the upper-
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ActiveViewRectangle](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ActiveViewRectangle.html)
-
-.
+See [EModelViewControl::ActiveViewRectangle](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ActiveViewRectangle.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

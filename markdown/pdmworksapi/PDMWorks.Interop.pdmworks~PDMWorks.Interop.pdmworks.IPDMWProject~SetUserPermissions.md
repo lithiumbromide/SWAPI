@@ -54,7 +54,7 @@ System.bool SetUserPermissions(
 ### Parameters
 
 - `Name`: Name of user or group's project for which to set permissions
-- `permissions`: Permissions to set as defined in[PDMWPermission](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWPermission.html)ParamDesc
+- `permissions`: Permissions to set as defined in [PDMWPermission](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWPermission.html)
 
 ### Return Value
 
@@ -62,11 +62,7 @@ True if the permissions are set, false if not
 
 ## VBA Syntax
 
-See
-
-[PDMWProject::SetUserPermissions](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~SetUserPermissions.html)
-
-.
+See [PDMWProject::SetUserPermissions](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~SetUserPermissions.html).
 
 ## Remarks
 
@@ -75,19 +71,12 @@ Only a vault administrator can use this method.
 ## See Also
 
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
 [IPDMWProject Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject_members.html)
-
 [IPDMWConnection::CreateProject Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CreateProject.html)
-
 [IPDMWConnection::CreateUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CreateUser.html)
-
 [IPDMWConnection::DeleteProject Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteProject.html)
-
 [IPDMWConnection::DeleteUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteUser.html)
-
 [IPDMWGroup::AddUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~AddUser.html)
-
 [IPDMWGroup::RemoveUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~RemoveUser.html)
 
 ## Availability

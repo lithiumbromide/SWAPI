@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITe
 
 # ITextFormat Interface Members
 
-The following tables list the members exposed by[ITextFormat](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITextFormat.html).
+The following tables list the members exposed by [ITextFormat](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITextFormat.html).
 
 ## Public Properties
 
@@ -45,5 +45,4 @@ The following tables list the members exposed by[ITextFormat](SolidWorks.Interop
 ## See Also
 
 [ITextFormat Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITextFormat.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

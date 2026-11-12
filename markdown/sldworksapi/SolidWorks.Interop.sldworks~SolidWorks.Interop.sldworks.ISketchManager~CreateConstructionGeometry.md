@@ -39,34 +39,19 @@ void CreateConstructionGeometry()
 void CreateConstructionGeometry();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateConstructionGeometry](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateConstructionGeometry.html)
-
-.
+See [SketchManager::CreateConstructionGeometry](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateConstructionGeometry.html).
 
 ## Remarks
 
-This method supports all document types, unlike
-
-[IDrawingDoc::CreateConstructionGeometry](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateConstructionGeometry.html)
-
-, which only supports drawing documents. Both methods perform the same functionality.
+This method supports all document types, unlike [IDrawingDoc::CreateConstructionGeometry](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~CreateConstructionGeometry.html), which only supports drawing documents. Both methods perform the same functionality.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

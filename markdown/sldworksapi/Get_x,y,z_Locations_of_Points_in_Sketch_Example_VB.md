@@ -9,8 +9,7 @@ source: "sldworksapi/Get_x,y,z_Locations_of_Points_in_Sketch_Example_VB.htm"
 
 # Get x,y,z Locations of Points in Sketch Example (VBA)
 
-This example shows how to get the x, y, and z locations of the points
-in the selected sketch.
+This example shows how to get the x, y, and z locations of the points in the selected sketch.
 
 ```
 '---------------------------------------------

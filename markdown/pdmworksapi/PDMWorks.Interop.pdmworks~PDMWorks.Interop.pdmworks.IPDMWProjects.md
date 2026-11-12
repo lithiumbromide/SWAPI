@@ -9,15 +9,9 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWPr
 
 # IPDMWProjects Interface
 
-Contains[IPDMWProject](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects.html)objects.
+Contains [IPDMWProject](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects.html) objects.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class IPDMWProjects
 
 ## VBA Syntax
 
-See
-
-[PDMWProjects](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProjects.html)
-
-.
+See [PDMWProjects](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProjects.html).
 
 ## Accessors
 
@@ -60,7 +50,5 @@ See
 ## See Also
 
 [IPDMWProjects Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)

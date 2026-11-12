@@ -40,13 +40,7 @@ System.object GetStereoSeparation()
 System.Object^ GetStereoSeparation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,13 @@ Array of 2 doubles representing the stereo magnitude and stereo parallax balance
 
 ## VBA Syntax
 
-See
-
-[ModelView::GetStereoSeparation](ms-its:sldworksapivb6.chm::/sldworks~ModelView~GetStereoSeparation.html)
-
-.
+See [ModelView::GetStereoSeparation](ms-its:sldworksapivb6.chm::/sldworks~ModelView~GetStereoSeparation.html).
 
 ## Remarks
 
-This methodchecks the two stereoscopic display values which can be set by using[IModelView::SetStereoSeparation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~SetStereoSeparation.html)or[IModelView::ISetStereoSeparation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~ISetStereoSeparation.html).
+This method checks the two stereoscopic display values which can be set by using [IModelView::SetStereoSeparation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~SetStereoSeparation.html) or [IModelView::ISetStereoSeparation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~ISetStereoSeparation.html).
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)

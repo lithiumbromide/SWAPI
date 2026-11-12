@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Preselected_Object_Example_CSharp.htm"
 
 # Get Preselected Object Example (C#)
 
-This example shows how to get a preselected object when a preselection
-event is fired.
+This example shows how to get a preselected object when a preselection event is fired.
 
 ```
 //-----------------------------------------------------------

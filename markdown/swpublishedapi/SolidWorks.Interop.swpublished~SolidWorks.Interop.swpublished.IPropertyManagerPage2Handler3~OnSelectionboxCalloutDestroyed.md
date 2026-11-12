@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnSelectionboxCalloutDestroyed Method (IPropertyManagerPage2Handler3)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnSelectionboxCalloutDestroyed](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnSelectionboxCalloutDestroyed.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnSelectionboxCalloutDestroyed](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnSelectionboxCalloutDestroyed.html).
 
 ## Syntax
 
@@ -56,14 +52,9 @@ void OnSelectionboxCalloutDestroyed(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler3::OnSelectionboxCalloutDestroyed](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler3~OnSelectionboxCalloutDestroyed.html)
-
-.
+See [PropertyManagerPage2Handler3::OnSelectionboxCalloutDestroyed](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler3~OnSelectionboxCalloutDestroyed.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler3 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler3.html)
-
 [IPropertyManagerPage2Handler3 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler3_members.html)

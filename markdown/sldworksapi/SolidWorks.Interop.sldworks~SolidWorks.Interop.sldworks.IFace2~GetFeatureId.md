@@ -40,13 +40,7 @@ System.int GetFeatureId()
 System.int GetFeatureId();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Order number of the owning feature
 
 ## VBA Syntax
 
-See
-
-[Face2::GetFeatureId](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetFeatureId.html)
-
-.
+See [Face2::GetFeatureId](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetFeatureId.html).
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::GetFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetFeature.html)
-
 [IFace2::IGetFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetFeature.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool SendDataForNetworkJob {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,22 @@ True to send rendering data over the network, false to not
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::SendDataForNetworkJob](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~SendDataForNetworkJob.html)
-
-.
+See [RayTraceRendererOptions::SendDataForNetworkJob](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~SendDataForNetworkJob.html).
 
 ## Remarks
 
-Use this property to send rendering data over the network instead of using a[shared network directory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~NetworkSharedDirectory.html).
+Use this property to send rendering data over the network instead of using a [shared network directory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~NetworkSharedDirectory.html).
 
 Sending rendering data over the network avoids issues with permissions and cross-platform configurations that might occur when using a shared network directory.
 
-**NOTE:**Only SOLIDWORKS Subscription Services customers can share the effort of rendering across multiple computers.
+**NOTE:** Only SOLIDWORKS Subscription Services customers can share the effort of rendering across multiple computers.
 
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRendererOptions::ClientWorkload Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ClientWorkload.html)
-
 [IRayTraceRendererOptions::NetworkRendering Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~NetworkRendering.html)
-
 [IRayTraceRendererOptions:OffloadedRendering Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~OffloadedRendering.html)
 
 ## Availability

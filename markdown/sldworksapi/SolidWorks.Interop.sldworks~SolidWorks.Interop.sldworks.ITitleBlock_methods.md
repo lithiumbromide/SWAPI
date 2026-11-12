@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITi
 
 # ITitleBlock Interface Methods
 
-For a list of all members of this type, see[ITitleBlock members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock_members.html).
+For a list of all members of this type, see [ITitleBlock members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock_members.html).
 
 ## Public Methods
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[ITitleBlock members](SolidWorks.Inte
 ## See Also
 
 [ITitleBlock Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

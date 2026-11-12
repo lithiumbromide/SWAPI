@@ -47,44 +47,23 @@ property System.int DropHeightUnit {
 
 ### Property Value
 
-Units as defined in
-
-[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
-
-(see
-
-Remarks
-
-)
+Units as defined in [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWDropTestSetup::DropHeightUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~DropHeightUnit.html)
-
-.
+See [CWDropTestSetup::DropHeightUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~DropHeightUnit.html).
 
 ## Examples
 
-See the examples in
-
-[ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html)
-
-.
+See the examples in [ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html)
-
-= swsDropType_e.swsDropType_DropHeight.
+This property is valid only if [ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html) = swsDropType_e.swsDropType_DropHeight.
 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
 
 ## Availability

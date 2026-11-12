@@ -58,13 +58,7 @@ void SketchConvertIsoCurves(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,26 +69,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchConvertIsoCurves](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchConvertIsoCurves.html)
-
-.
+See [ModelDoc2::SketchConvertIsoCurves](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchConvertIsoCurves.html).
 
 ## Examples
 
 [Divide Surface into 3D Sketches (VBA)](Divide_Surface_into_3D_Sketches_Example_VB.htm)
-
 [Convert Curves into 3D Sketches (C#)](Convert_Curves_into_3D_Sketches_Example_CSharp.htm)
-
 [Convert Curves into 3D Sketches (VB.NET)](Convert_Curves_into_3D_Sketches_Example_VBNET.htm)
-
 [Convert Curves into 3D Sketches (VBA)](Convert_Curves_into_3D_Sketches_Example_VB.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

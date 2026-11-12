@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetDataFolder Method (ISldWorks)
 
-Gets the data directory name currently used by SOLIDWORKS.
+Gets the data directory name currently used by SOLIDWORKS Design.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ System.String^ GetDataFolder(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,28 +55,19 @@ See
 
 ### Return Value
 
-Data directory currently used by the SOLIDWORKS application
+Data directory currently used by the SOLIDWORKS Design application
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetDataFolder](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetDataFolder.html)
-
-.
+See [SldWorks::GetDataFolder](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetDataFolder.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetCurrentWorkingDirectory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentWorkingDirectory.html)
-
 [ISldWorks::SetCurrentWorkingDirectory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetCurrentWorkingDirectory.html)
-
 [ISldWorks::GetExecutablePath Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetExecutablePath.html)
-
 [ISldWorks::GetSearchFolders Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetSearchFolders.html)
 
 ## Availability

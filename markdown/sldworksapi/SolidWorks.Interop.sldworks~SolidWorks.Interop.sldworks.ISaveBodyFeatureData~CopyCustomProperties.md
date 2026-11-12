@@ -45,27 +45,15 @@ property System.bool CopyCustomProperties {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-See
-
-Remarks
+See **Remarks**
 
 ## VBA Syntax
 
-See
-
-[SaveBodyFeatureData::CopyCustomProperties](ms-its:sldworksapivb6.chm::/sldworks~SaveBodyFeatureData~CopyCustomProperties.html)
-
-.
+See [SaveBodyFeatureData::CopyCustomProperties](ms-its:sldworksapivb6.chm::/sldworks~SaveBodyFeatureData~CopyCustomProperties.html).
 
 ## Remarks
 
@@ -80,7 +68,6 @@ VARIANT_TRUE (-1) to copy custom properties to the new parts, VARIANT_FALSE (0) 
 ## See Also
 
 [ISaveBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData.html)
-
 [ISaveBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData_members.html)
 
 ## Availability

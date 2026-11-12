@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # AddProfileArc Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::AddProfileArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddProfileArc.html)
-
-.
+Obsolete. Superseded by [IBody2::AddProfileArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddProfileArc.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ System.Object^ AddProfileArc(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,14 +75,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body::AddProfileArc](ms-its:sldworksapivb6.chm::/sldworks~Body~AddProfileArc.html)
-
-.
+See [Body::AddProfileArc](ms-its:sldworksapivb6.chm::/sldworks~Body~AddProfileArc.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

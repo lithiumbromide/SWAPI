@@ -9,9 +9,7 @@ source: "sldworksapi/Add_and_Remove_Files_from_Pack_and_Go_Example_VBNET.htm"
 
 # Add and Remove Files from Pack and Go Example (VB.NET)
 
-This example shows how to add SOLIDWORKS, render reference, and
-non-SOLIDWORKS files to Pack and Go. This example also shows how to remove a
-non-SOLIDWORKS file from Pack and Go.
+This example shows how to add SOLIDWORKS Design, render reference, and non-SOLIDWORKS Design files to Pack and Go. This example also shows how to remove a non-SOLIDWORKS Design file from Pack and Go.
 
 ```
 '-------------------------------------------
@@ -21,11 +19,11 @@ non-SOLIDWORKS file from Pack and Go.
 ' 3. Open the Immediate window.
 '
 ' Postconditions:
-' 1. Gets the names of SOLIDWORKS, render reference, and
-'    non-SOLIDWORKS files for Pack and Go.
-' 2. Gets the the name of non-SOLIDWORKS file to remove.
-' 3. Packs up SOLIDWORKS, render reference, and
-'    non-SOLIDWORKS files and copies them to c:\PackAndGo.
+' 1. Gets the names of SOLIDWORKS Design, render reference, and
+'    non-SOLIDWORKS Design files for Pack and Go.
+' 2. Gets the the name of non-SOLIDWORKS Design file to remove.
+' 3. Packs up SOLIDWORKS Design, render reference, and
+'    non-SOLIDWORKS Design files and copies them to c:\PackAndGo.
 ' 4. Examine c:\PackAndGo and the Immediate window.
 '-------------------------------------------
 Imports SolidWorks.Interop.sldworks
@@ -85,12 +83,12 @@ Partial Class SolidWorksMacro
         ' Add render stock files to Pack and Go
         status = swPackAndGo.AddExternalDocuments(renderReferences)
 
-        ' Add other non-SOLIDWORKS files to Pack and Go
+        ' Add other non-SOLIDWORKS Design files to Pack and Go
         otherFiles(0) = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\edraw\claw\claw-mechanism.easm"
         otherFiles(1) = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2025\samples\tutorial\edraw\claw\claw-mechanism.emodel_debugonly.xml"
         Debug.Print(" ")
 
-        Debug.Print("  Add non-SOLIDWORKS files:")
+        Debug.Print("  Add non-SOLIDWORKS Design files:")
 
         For i = 0 To UBound(otherFiles)
             Debug.Print("    The path and filename is: " & otherFiles(i))
@@ -98,9 +96,9 @@ Partial Class SolidWorksMacro
 
         status = swPackAndGo.AddExternalDocuments(otherFiles)
 
-        ' Remove one of the non-SOLIDWORKS files from Pack and Go
+        ' Remove one of the non-SOLIDWORKS Design files from Pack and Go
         Debug.Print(" ")
-        Debug.Print("  Remove non-SOLIDWORKS file:")
+        Debug.Print("  Remove non-SOLIDWORKS Design file:")
         delOtherFiles(0) = otherFiles(0)
         Debug.Print("    The path and filename is: " & delOtherFiles(0))
         status = swPackAndGo.RemoveExternalDocuments(delOtherFiles)
@@ -109,7 +107,7 @@ Partial Class SolidWorksMacro
         myPath = "c:\PackAndGo\"
         status = swPackAndGo.SetSaveToName2(True, myPath)
 
-        ' Pack and Go both SOLIDWORKS and non-SOLIDWORKS files
+        ' Pack and Go both SOLIDWORKS Design and non-SOLIDWORKS Design files
         statuses = swModelDocExt.SavePackAndGo(swPackAndGo)
 
     End Sub

@@ -51,30 +51,21 @@ Name of a thermal study
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::ThermalStudyName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~ThermalStudyName.html)
-
-.
+See [CWFrequencyStudyOptions::ThermalStudyName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~ThermalStudyName.html).
 
 ## Examples
 
-See the
-
-[ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-examples.
+See the [ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html) examples.
 
 ## Remarks
 
-This property is valid only if[ICWFrequencyStudyOptions::ThermalResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~ThermalResults.html)is set to[swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html).swsThermalOption_TemperatureFromThermalStudy.
+This property is valid only if [ICWFrequencyStudyOptions::ThermalResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~ThermalResults.html) is set to [swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html).swsThermalOption_TemperatureFromThermalStudy.
 
-If the thermal study is a transient study, set[ICWFrequencyStudyOptions::TimeStep](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~TimeStep.html).
+If the thermal study is a transient study, set [ICWFrequencyStudyOptions::TimeStep](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~TimeStep.html).
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

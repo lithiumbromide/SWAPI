@@ -40,13 +40,7 @@ System.int GetPatternBodyCount()
 System.int GetPatternBodyCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Number of seed bodies
 
 ## VBA Syntax
 
-See
-
-[CircularPatternFeatureData::GetPatternBodyCount](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~GetPatternBodyCount.html)
-
-.
+See [CircularPatternFeatureData::GetPatternBodyCount](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~GetPatternBodyCount.html).
 
 ## See Also
 
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
 [ICircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData_members.html)
-
 [ICircularPatternFeatureData::IGetPatternBodyArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~IGetPatternBodyArray.html)
-
 [ICircularPatternFeatureData::PatternBodyArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~PatternBodyArray.html)
-
 [ICircularPatternFeatureArray::ISetPatternBodyArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~ISetPatternBodyArray.html)
 
 ## Availability

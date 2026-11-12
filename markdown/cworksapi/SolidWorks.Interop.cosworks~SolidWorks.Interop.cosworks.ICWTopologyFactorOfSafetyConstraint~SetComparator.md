@@ -49,31 +49,19 @@ System.int SetComparator(
 
 ### Parameters
 
-- `NComparator`: [swsTopologyStudyConstraintComparator_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyConstraintComparator_e.html)
-
-.swsTopologyConstraintComparator_IsGreaterThan
+- `NComparator`: [swsTopologyStudyConstraintComparator_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyConstraintComparator_e.html).swsTopologyConstraintComparator_IsGreaterThan
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_FOSConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_FOSConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_FOSConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_FOSConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFactorOfSafetyConstraint::SetComparator](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFactorOfSafetyConstraint~SetComparator.html)
-
-.
+See [CWTopologyFactorOfSafetyConstraint::SetComparator](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFactorOfSafetyConstraint~SetComparator.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyFactorOfSafetyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint.html)
-
-example.
+See the [ICWTopologyFactorOfSafetyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint.html) example.
 
 ## Remarks
 
@@ -86,7 +74,6 @@ FOS_component comparator value
 ## See Also
 
 [ICWTopologyFactorOfSafetyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint.html)
-
 [ICWTopologyFactorOfSafetyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint_members.html)
 
 ## Availability

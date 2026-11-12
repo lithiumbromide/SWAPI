@@ -40,27 +40,15 @@ Face2 IGetFace2()
 Face2^ IGetFace2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-associated with the sketch hatch or null if the operation fails
+[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) associated with the sketch hatch or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[SketchHatch::IGetFace2](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~IGetFace2.html)
-
-.
+See [SketchHatch::IGetFace2](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~IGetFace2.html).
 
 ## Remarks
 
@@ -69,9 +57,7 @@ You should not select the returned face. Only use the returned face for getting 
 ## See Also
 
 [ISketchHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
 [ISketchHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch_members.html)
-
 [ISketchHatch::GetFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch~GetFace.html)
 
 ## Availability

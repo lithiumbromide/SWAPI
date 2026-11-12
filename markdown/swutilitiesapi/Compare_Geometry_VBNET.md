@@ -9,8 +9,7 @@ source: "swutilitiesapi/Compare_Geometry_VBNET.htm"
 
 # Compare Geometry Example (VB.NET)
 
-This example shows how to use the SOLIDWORKS Utilities API to compare
-geometries in two part documents.
+This example shows how to use the SOLIDWORKS Utilities API to compare geometries in two part documents.
 
 ```
 '---------------------------------------------------------------------------------
@@ -34,179 +33,75 @@ geometries in two part documents.
 '--------------------------------------------------------------------------------
 ```
 
+```vb
 Imports SOLIDWORKS.Interop.sldworks
-
 Imports SOLIDWORKS.Interop.swconst
-
 Imports SOLIDWORKS.Interop.gtswutilities
-
 Imports System
-
 Imports System.Diagnostics
-
 Partial Class SOLIDWORKSMacro
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Sub
-main()
+    Sub main()
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swUtil As gtcocswUtilities
+        Dim swUtil As gtcocswUtilities
+        Dim swUtilCompGeom As gtcocswCompareGeometry
+        Dim longStatus As gtError_e
+        Dim bAddToBinder As Boolean
+        Dim bOverwrite As Boolean
+        Dim errorCode As Integer
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swUtilCompGeom As gtcocswCompareGeometry
+        ' Get the SOLIDWORKS Utilities tool interface
+        swUtil = swapp.GetAddInObject("Utilities.UtilitiesApp")
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-longStatus As gtError_e
+        ' Get the CompareGeometry tool
+        swUtilCompGeom = swUtil.GetToolInterface(2, errorCode)
+        If Not errorCode = gtError_e.gtNOErr Then
+            Debug.Print("Error getting compare geometry tool.")
+        End If
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bAddToBinder As Boolean
+        ' Compare the volumes and faces of the specified part documents
+        bAddToBinder = False
+        bOverwrite = True
+        Dim file1 As String
+        Dim file2 As String
+        Dim volDiffStatus As Integer
+        Dim faceDiffStatus As Integer
+        file1 = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\swutilities\bracket_a.sldprt"
+        file2 = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\swutilities\bracket_b.sldprt"
+        longStatus = swUtilCompGeom.CompareGeometry3(file1, "", file2, "", gtGdfOperationOption_e.gtGdfFaceAndVolumeCompare, gtResultOptions_e.gtResultSaveReport, "C:\test\Report", bAddToBinder, bOverwrite, volDiffStatus, faceDiffStatus)
+        If Not longStatus = gtError_e.gtNOErr Then
+            Debug.Print("Error comparing geometries.")
+        End If
+        Call diffStatus("Volume comparison", volDiffStatus)
+        Call diffStatus("Face comparison", faceDiffStatus)
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bOverwrite As Boolean
+        ' Perform any necessary clean up
+        longStatus = swUtilCompGeom.Close()
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-errorCode As Integer
+     End Sub
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get the SOLIDWORKS Utilities tool interface
+    Sub diffStatus(ByVal name As String, ByVal diffCode As gtVolDiffStatusOptionType_e)
+        Debug.Print(name)
+        Select Case diffCode
+            Case gtVolDiffStatusOptionType_e.gtSuccess
+                Debug.Print("Succeeded")
+            Case gtVolDiffStatusOptionType_e.gtNotPerformed
+                Debug.Print("Not performed")
+            Case gtVolDiffStatusOptionType_e.gtCanceled
+                Debug.Print("Canceled")
+            Case gtVolDiffStatusOptionType_e.gtFailed
+                Debug.Print("Failed")
+            Case gtVolDiffStatusOptionType_e.gtIdenticalParts
+                Debug.Print("Identical parts")
+            Case gtVolDiffStatusOptionType_e.gtDifferentParts
+                Debug.Print("Different parts")
+            Case gtVolDiffStatusOptionType_e.gtNoSolidBody
+                Debug.Print("No solid body found")
+            Case gtVolDiffStatusOptionType_e.gtAlreadySaved
+                Debug.Print("Already saved")
+        End Select
+    End Sub
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swUtil
-= swapp.**GetAddInObject**("Utilities.UtilitiesApp")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get the CompareGeometry tool
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swUtilCompGeom
-= swUtil.GetToolInterface(2, errorCode)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-Not errorCode = gtError_e.gtNOErr Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Error
-getting compare geometry tool.")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Compare the volumes and faces of the specified part documents
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bAddToBinder
-= False
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bOverwrite
-= True
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-file1 As String
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-file2 As String
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-volDiffStatus As Integer
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-faceDiffStatus As Integer
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}file1
-= "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\swutilities\bracket_a.sldprt"
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}file2
-= "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\swutilities\bracket_b.sldprt"
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}longStatus
-= swUtilCompGeom.CompareGeometry3(file1,
-"", file2, "", gtGdfOperationOption_e.gtGdfFaceAndVolumeCompare,
-gtResultOptions_e.gtResultSaveReport, "C:\test\Report", bAddToBinder,
-bOverwrite, volDiffStatus, faceDiffStatus)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-Not longStatus = gtError_e.gtNOErr Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Error
-comparing geometries.")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Call
-diffStatus("Volume comparison", volDiffStatus)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Call
-diffStatus("Face comparison", faceDiffStatus)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Perform any necessary clean up
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}longStatus
-= swUtilCompGeom.Close()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-Sub
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Sub
-diffStatus(ByVal name As String, ByVal diffCode As gtVolDiffStatusOptionType_e)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print(name)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Select
-Case diffCode
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Case
-gtVolDiffStatusOptionType_e.gtSuccess
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Succeeded")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Case
-gtVolDiffStatusOptionType_e.gtNotPerformed
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Not
-performed")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Case
-gtVolDiffStatusOptionType_e.gtCanceled
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Canceled")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Case
-gtVolDiffStatusOptionType_e.gtFailed
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Failed")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Case
-gtVolDiffStatusOptionType_e.gtIdenticalParts
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Identical
-parts")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Case
-gtVolDiffStatusOptionType_e.gtDifferentParts
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Different
-parts")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Case
-gtVolDiffStatusOptionType_e.gtNoSolidBody
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("No
-solid body found")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Case
-gtVolDiffStatusOptionType_e.gtAlreadySaved
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Already
-saved")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-Select
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-Sub
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Public
-swApp As SldWorks
-
+    Public swApp As SldWorks
 End Class
+```

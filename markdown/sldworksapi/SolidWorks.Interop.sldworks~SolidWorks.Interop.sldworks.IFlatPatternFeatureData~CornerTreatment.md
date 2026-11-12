@@ -45,13 +45,7 @@ property System.bool CornerTreatment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to apply smooth edges, false to not
 
 ## VBA Syntax
 
-See
-
-[FlatPatternFeatureData::CornerTreatment](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFeatureData~CornerTreatment.html)
-
-.
+See [FlatPatternFeatureData::CornerTreatment](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFeatureData~CornerTreatment.html).
 
 ## See Also
 
 [IFlatPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData.html)
-
 [IFlatPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData_members.html)
-
 [IFlatPatternFeatureData::ShowSlitInCornerRelief Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFeatureData~ShowSlitInCornerRelief.html)
 
 ## Availability

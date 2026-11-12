@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSp
 
 # ICWSpringConnector Interface Methods
 
-For a list of all members of this type, see[ICWSpringConnector members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html).
+For a list of all members of this type, see [ICWSpringConnector members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html).
 
 ## Public Methods
 
@@ -31,5 +31,4 @@ For a list of all members of this type, see[ICWSpringConnector members](SolidWor
 ## See Also
 
 [ICWSpringConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

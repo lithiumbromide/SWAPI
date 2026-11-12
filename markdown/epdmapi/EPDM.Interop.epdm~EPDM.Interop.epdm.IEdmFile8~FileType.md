@@ -35,22 +35,15 @@ property EdmFileType FileType {
 
 ### Property Value
 
-Type of file as defined in
-
-[EdmFileType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileType.html)
+Type of file as defined in [EdmFileType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileType.html)
 
 ## Examples
 
-See the
-
-[IEdmFile9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile9.html)
-
-examples.
+See the [IEdmFile9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile9.html) examples.
 
 ## See Also
 
 [IEdmFile8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8.html)
-
 [IEdmFile8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8_members.html)
 
 ## Availability

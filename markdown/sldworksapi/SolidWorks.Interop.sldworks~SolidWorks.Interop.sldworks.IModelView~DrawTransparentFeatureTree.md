@@ -39,21 +39,11 @@ void DrawTransparentFeatureTree()
 void DrawTransparentFeatureTree();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelView::DrawTransparentFeatureTree](ms-its:sldworksapivb6.chm::/sldworks~ModelView~DrawTransparentFeatureTree.html)
-
-.
+See [ModelView::DrawTransparentFeatureTree](ms-its:sldworksapivb6.chm::/sldworks~ModelView~DrawTransparentFeatureTree.html).
 
 ## Remarks
 
@@ -62,11 +52,8 @@ You can use this method to redraw the flyout FeatureManager design tree after re
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
-
 [IModelDoc2::GraphicsRedraw2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)
-
 [IModelDoc2::WindowRedraw Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~WindowRedraw.html)
 
 ## Availability

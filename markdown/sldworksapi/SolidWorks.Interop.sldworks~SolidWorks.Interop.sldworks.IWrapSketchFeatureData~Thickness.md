@@ -45,13 +45,7 @@ property System.double Thickness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,19 @@ Thickness
 
 ## VBA Syntax
 
-See
-
-[WrapSketchFeatureData::Thickness](ms-its:sldworksapivb6.chm::/sldworks~WrapSketchFeatureData~Thickness.html)
-
-.
+See [WrapSketchFeatureData::Thickness](ms-its:sldworksapivb6.chm::/sldworks~WrapSketchFeatureData~Thickness.html).
 
 ## Examples
 
-See
-
-[IWrapSketchFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWrapSketchFeatureData.html)
-
-examples.
+See [IWrapSketchFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWrapSketchFeatureData.html) examples.
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IWrapSketchFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData.html)
-
 [IWrapSketchFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData_members.html)
 
 ## Availability

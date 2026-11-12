@@ -46,9 +46,7 @@ void GetButtonImages(
 ### Parameters
 
 - `hDestImageList`: Handle of the image list (HIMAGELIST) to which to add images; the images are appended at the end of the list
-- `eState`: State of buttons to get as defined in
-
-[EdmButtonState](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmButtonState.html)
+- `eState`: State of buttons to get as defined in [EdmButtonState](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmButtonState.html)
 - `poItemIDArray`: Array of menu command IDs for which to get images
 
 ## Remarks
@@ -61,9 +59,7 @@ void GetButtonImages(
 ## See Also
 
 [IEdmMenu5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5.html)
-
 [IEdmMenu5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5_members.html)
-
 [IEdmMenu6::GetItems Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu6~GetItems.html)
 
 ## Availability

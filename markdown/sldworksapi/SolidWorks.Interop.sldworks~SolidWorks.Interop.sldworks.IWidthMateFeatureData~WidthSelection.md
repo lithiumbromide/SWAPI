@@ -45,33 +45,15 @@ property System.Object^ WidthSelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of planar
-
-[faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-(see
-
-Remarks
-
-)
+Array of planar [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[WidthMateFeatureData::WidthSelection](ms-its:sldworksapivb6.chm::/sldworks~WidthMateFeatureData~WidthSelection.html)
-
-.
+See [WidthMateFeatureData::WidthSelection](ms-its:sldworksapivb6.chm::/sldworks~WidthMateFeatureData~WidthSelection.html).
 
 ## Remarks
 
@@ -83,7 +65,6 @@ The planar faces can include:
 ## See Also
 
 [IWidthMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData.html)
-
 [IWidthMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWidthMateFeatureData_members.html)
 
 ## Availability

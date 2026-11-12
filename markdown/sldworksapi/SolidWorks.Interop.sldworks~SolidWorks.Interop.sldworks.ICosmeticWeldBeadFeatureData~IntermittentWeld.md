@@ -45,37 +45,19 @@ property System.bool IntermittentWeld {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to enable intermittent weld properties, false to not (see
-
-Remarks
-
-)
+True to enable intermittent weld properties, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFeatureData::IntermittentWeld](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~IntermittentWeld.html)
-
-.
+See [CosmeticWeldBeadFeatureData::IntermittentWeld](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~IntermittentWeld.html).
 
 ## Examples
 
-See
-
-[ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
-examples.
+See [ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html) examples.
 
 ## Remarks
 
@@ -90,7 +72,6 @@ If this property is true, you can use the following properties:
 ## See Also
 
 [ICosmeticWeldBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
 [ICosmeticWeldBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData_members.html)
 
 ## Availability

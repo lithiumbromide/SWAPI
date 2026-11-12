@@ -45,13 +45,7 @@ property System.bool D2PatternSeedOnly {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,21 @@ True to create a pattern in Direction 2 using the seed component only without re
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::D2PatternSeedOnly](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~D2PatternSeedOnly.html)
-
-.
+See [LocalLinearPatternFeatureData::D2PatternSeedOnly](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~D2PatternSeedOnly.html).
 
 ## Examples
 
-See the
-
-[ILocalLinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
-example.
+See the [ILocalLinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html) example.
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
-For more information, see the**Linear Component Pattern PropertyManager**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Linear Component Pattern PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
 
 ## Availability

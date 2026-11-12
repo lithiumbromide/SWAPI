@@ -53,12 +53,8 @@ System.bool SetBulkTemperatureTimeCurve2(
 
 ### Parameters
 
-- `VarCurveData`: Array of bulk temperature-time curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in[swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveData`: Array of bulk temperature-time curve data (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
@@ -68,18 +64,17 @@ Remarks
 
 Bulk temperature-time curve array:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time value at the`ith`data point
+- xi = time value at the `ith` data point
 - yi = bulk temperature at time xi
 
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [ICWConvection Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html)
 
 ## Availability

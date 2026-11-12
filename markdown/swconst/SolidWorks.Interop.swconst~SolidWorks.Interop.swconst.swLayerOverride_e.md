@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swLayerOv
 
 # swLayerOverride_e Enumeration
 
-Layer override types.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Layer override types. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 

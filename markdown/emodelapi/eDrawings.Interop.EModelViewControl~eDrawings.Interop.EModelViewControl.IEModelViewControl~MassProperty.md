@@ -49,9 +49,7 @@ property System.double MassProperty {
 
 ### Parameters
 
-- `property`: Type of mass property as defined in
-
-[EMVMassProperty](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVMassProperty.html)
+- `property`: Type of mass property as defined in [EMVMassProperty](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVMassProperty.html)
 
 ### Property Value
 
@@ -59,24 +57,15 @@ Value of mass property
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::MassProperty](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~MassProperty.html)
-
-.
+See [EModelViewControl::MassProperty](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~MassProperty.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

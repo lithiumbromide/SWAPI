@@ -40,13 +40,7 @@ System.bool IsReferenceDim()
 System.bool IsReferenceDim();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ True if this display dimension is a reference dimension, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::IsReferenceDim](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IsReferenceDim.html)
-
-.
+See [DisplayDimension::IsReferenceDim](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IsReferenceDim.html).
 
 ## Examples
 
 [Add Reference Dimension (C#)](Add_Reference_Dimension_Example_CSharp.htm)
-
 [Add Reference Dimension (VB.NET)](Add_Reference_Dimension_Example_VBNET.htm)
-
 [Add Reference Dimension (VBA)](Add_Reference_Dimension_Example_VB.htm)
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDimension::IsReference Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension~IsReference.html)
-
 [IDrawingDoc::InsertRefDim Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertRefDim.html)
 
 ## Availability

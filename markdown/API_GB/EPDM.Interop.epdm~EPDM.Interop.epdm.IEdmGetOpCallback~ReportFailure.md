@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ReportFail
 
 # ReportFailure Method (IEdmGetOpCallback)
 
-Obsolete. Superseded by
-
-[IEdmGetOpCallback2::ReportFailureEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2~ReportFailureEx.html)
-
-.
+Obsolete. Superseded by [IEdmGetOpCallback2::ReportFailureEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2~ReportFailureEx.html).
 
 ## Syntax
 
@@ -65,7 +61,7 @@ True to continue, false to cancel the operation
 
 SOLIDWORKS PDM Professional calls this method when an error related to a specific file has occurred. Implement this method to display a message box to the user or to automatically process the error.
 
-This method is extended by[IEdmGetOpCallback2::ReportFailureEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2~ReportFailureEx.html)which provides support for recovering from archive file errors.
+This method is extended by [IEdmGetOpCallback2::ReportFailureEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2~ReportFailureEx.html) which provides support for recovering from archive file errors.
 
 [Return codes](ReturnCodes.htm):
 
@@ -75,7 +71,6 @@ This method is extended by[IEdmGetOpCallback2::ReportFailureEx](EPDM.Interop.epd
 ## See Also
 
 [IEdmGetOpCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback.html)
-
 [IEdmGetOpCallback Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback_members.html)
 
 ## Availability

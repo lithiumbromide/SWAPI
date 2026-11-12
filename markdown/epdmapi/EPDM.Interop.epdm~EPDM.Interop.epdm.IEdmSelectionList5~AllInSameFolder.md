@@ -40,5 +40,4 @@ True if all items in this list are located in the same parent folder, false if n
 ## See Also
 
 [IEdmSelectionList5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5.html)
-
 [IEdmSelectionList5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5_members.html)

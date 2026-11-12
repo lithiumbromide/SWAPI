@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # InsertPart2 Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::InsertPart3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~InsertPart3.html)
-
-.
+Obsolete. Superseded by [IPartDoc::InsertPart3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~InsertPart3.html).
 
 ## Syntax
 
@@ -55,49 +51,29 @@ Feature^ InsertPart2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FileName`: Name of part file
-- `Options`: Insertion options as defined in
-
-[swInsertPartOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInsertPartOptions_e.html)
+- `Options`: Insertion options as defined in [swInsertPartOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInsertPartOptions_e.html)
 
 ### Return Value
 
-Inserted
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+Inserted [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[PartDoc::InsertPart2](ms-its:sldworksapivb6.chm::/Sldworks~PartDoc~InsertPart2.html)
-
-.
+See [PartDoc::InsertPart2](ms-its:sldworksapivb6.chm::/Sldworks~PartDoc~InsertPart2.html).
 
 ## Remarks
 
-This method inserts the specified part at the origin of this part. To position the inserted part at a different location or orientation or both, use
-
-[IFeatureManager::InsertMoveCopyBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoveCopyBody2.html)
-
-.
+This method inserts the specified part at the origin of this part. To position the inserted part at a different location or orientation or both, use [IFeatureManager::InsertMoveCopyBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoveCopyBody2.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.int GetGTolCount()
 System.int GetGTolCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,22 @@ Number of geometric tolerances
 
 ## VBA Syntax
 
-See
-
-[View::GetGTolCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetGTolCount.html)
+See [View::GetGTolCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetGTolCount.html)
 
 ## Examples
 
 [Get Annotations Arrays (C#)](Get_Annotations_Arrays_Example_CSharp.htm)
-
 [Get Annotations Arrays (VB.NET)](Get_Annotations_Arrays_Example_VBNET.htm)
-
 [Get Annotations Arrays (VBA)](Get_Annotations_Array_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling[IView::IGetGTols](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetGTols.html)to determine the size of the array for that method.
+Call this method before calling [IView::IGetGTols](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetGTols.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetGTols Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetGTols.html)
 
 ## Availability

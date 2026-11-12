@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # ExplodeCustomSymbol Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[ISketchManager::ExplodeSketchBlockInstance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~ExplodeSketchBlockInstance.html)
-
-.
+Obsolete. Superseded by [ISketchManager::ExplodeSketchBlockInstance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~ExplodeSketchBlockInstance.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ExplodeCustomSymbol()
 void ExplodeCustomSymbol();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::ExplodeCustomSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ExplodeCustomSymbol.html)
-
-.
+See [DrawingDoc::ExplodeCustomSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ExplodeCustomSymbol.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

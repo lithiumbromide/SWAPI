@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # RayIntersections Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::RayIntersections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RayIntersections.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::RayIntersections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RayIntersections.html).
 
 ## Syntax
 
@@ -71,22 +67,16 @@ System.int RayIntersections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BodiesIn`: Array of[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)that arekadov_tag{{</spaces>}}hit by the rays (see**Remarks**)
+- `BodiesIn`: Array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) that are hit by the rays (see **Remarks**)
 - `BasePointsIn`: Array of doubles containing the x,y,z base points of each ray
 - `VectorsIn`: Array of doubles containing the direction vectors of each ray
-- `Options`: Number of options as defined in[swRayPtsOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRayPtsOpts_e.html)
+- `Options`: Number of options as defined in [swRayPtsOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRayPtsOpts_e.html)
 - `HitRadius`: Radius of hit cylinder; this is used mainly in grazing cases to establish a hit
-- `Offset`: Length tolerance to use to establish whether a hit on a face represents the entry or exit of the ray from the body (seeRemarks)
+- `Offset`: Length tolerance to use to establish whether a hit on a face represents the entry or exit of the ray from the body (see Remarks)
 
 ### Return Value
 
@@ -94,15 +84,11 @@ Number of intersections found
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::RayIntersections](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~RayIntersections.html)
-
-.
+See [ModelDoc2::RayIntersections](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~RayIntersections.html).
 
 ## Remarks
 
-The method performs the intersection operations between the specified bodies and the ray vectors. To get the results (a set of intersection points, intersection normals, and the bodies that were hit from your bodiesInarray) of the intersection operations, you must call[IModelDoc2::GetRayIntersectionsPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsPoints.html)or[IModelDoc2::IGetRayIntersectionPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetRayIntersectionsPoints.html)and[IModelDoc2::GetRayIntersectionTopology](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsTopology.html)or[IModelDoc2::IGetRayIntersectionsTopology](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetRayIntersectionsTopology.html).
+The method performs the intersection operations between the specified bodies and the ray vectors. To get the results (a set of intersection points, intersection normals, and the bodies that were hit from your bodiesIn array) of the intersection operations, you must call [IModelDoc2::GetRayIntersectionsPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsPoints.html) or [IModelDoc2::IGetRayIntersectionPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetRayIntersectionsPoints.html) and [IModelDoc2::GetRayIntersectionTopology](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetRayIntersectionsTopology.html) or [IModelDoc2::IGetRayIntersectionsTopology](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetRayIntersectionsTopology.html).
 
 Information returned by IModelDoc2::GetRayIntersectionsPoints, IModelDoc2::IGetRayIntersectionPoints, IModelDoc2::GetRayIntersectionTopology, and IModelDoc2::IGetRayIntersectionsTopology depends partially on the value of the options argument. Valid values can be concatenated together using bitwise operations. See IModelDoc2::GetRayIntersectionsPoints or IModelDoc2::IGetRayIntersectionPoints to see which data is always output regardless of the values specified in the options argument.
 
@@ -111,25 +97,15 @@ For each ray that hits an edge or a vertex, the offset distance is added in both
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetRayIntersectionsPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetRayIntersectionsPoints.html)
-
 [IModelDoc2::GetRayIntersectionsTopology Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetRayIntersectionsTopology.html)
-
 [IModelDoc2::IGetRayIntersectionsPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IGetRayIntersectionsPoints.html)
-
 [IModelDoc2::IGetRayIntersectionsTopology Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IGetRayIntersectionsTopology.html)
-
 [IModelDoc2::IMultiSelectByRay Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IMultiSelectByRay.html)
-
 [IModelDoc2::IRayIntersections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IRayIntersections.html)
-
 [IModelDoc2::ISelectByRay Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ISelectByRay.html)
-
 [IModelDoc2::MultiSelectByRay Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~MultiSelectByRay.html)
-
 [IModelDoc2::SelectByRay Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectByRay.html)
 
 ## Availability

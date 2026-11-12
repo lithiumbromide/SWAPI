@@ -63,14 +63,8 @@ System.bool OnSubmitSelection(
 
 - `Id`: ID of the active selection box, where this selection is being made
 - `Selection`: Object being selected
-- `SelType`: Entity type of the selection as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-- `ItemText`: Item for selection list box (see
-
-Remarks
-
-)
+- `SelType`: Entity type of the selection as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `ItemText`: Item for selection list box (see **Remarks**)
 
 ### Return Value
 
@@ -78,19 +72,11 @@ True if the selection is accepted, false if the selection is rejected
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler9::OnSubmitSelection](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler9~OnSubmitSelection.html)
-
-.
+See [PropertyManagerPage2Handler9::OnSubmitSelection](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler9~OnSubmitSelection.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPage2Handler9](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html)
-
-examples.
+See the [IPropertyManagerPage2Handler9](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html) examples.
 
 ## Remarks
 
@@ -101,12 +87,10 @@ This method is called by SOLIDWORKS when an add-in has a PropertyManager page di
 - Take the Dispatch pointer and the selection type.
 - QueryInterface the Dispatch pointer to get the specific interface.
 - Use methods or properties of that interface to determine if the selection should be allowed or not. If the selection is:
+- - accepted, return true, and processing continues normally.
 
-  kadov_tag{{<spaces>}}
-
-  kadov_tag{{</spaces>}}
-- - accepted, return true, and processing continues normally. - or -
-  - rejected, return false, and SOLIDWORKS does not accept the selection, just as if the selection did not pass the selection filter criteria of the selection list box.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    - or -
+  - rejected, return false, and SOLIDWORKS does not accept the selection, just as if the selection did not pass the selection filter criteria of the selection list box.
 
 The add-in should not release the Dispatch pointer. SOLIDWORKS will release the Dispatch pointer upon return from this method.
 
@@ -117,7 +101,6 @@ ItemText is returned to SOLIDWORKS and stored on the selected object and can be 
 ## See Also
 
 [IPropertyManagerPage2Handler9 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html)
-
 [IPropertyManagerPage2Handler9 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "DisplayStateSetting Object
-Members"
+title: "DisplayStateSetting Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DisplayStateSetting_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DisplayStateSetting_members.html"
 ---
 
-# DisplayStateSetting Object
-Members
+# DisplayStateSetting Object Members
 
 ## Public Methods
 

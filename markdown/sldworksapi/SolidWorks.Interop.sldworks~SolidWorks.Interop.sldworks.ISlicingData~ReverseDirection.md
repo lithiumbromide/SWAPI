@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to reverse the direction of adding slices, false to not
 
 ## VBA Syntax
 
-See
-
-[SlicingData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~ReverseDirection.html)
-
-.
+See [SlicingData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~ReverseDirection.html).
 
 ## Examples
 
-See the
-
-[ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
-example.
+See the [ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html) example.
 
 ## See Also
 
 [ISlicingData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
 [ISlicingData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html)
 
 ## Availability

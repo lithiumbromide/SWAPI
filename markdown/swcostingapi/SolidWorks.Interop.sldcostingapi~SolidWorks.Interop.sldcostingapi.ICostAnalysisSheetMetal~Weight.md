@@ -48,12 +48,11 @@ Weight of the sheet metal part
 
 ## VBA Syntax
 
-See[CostAnalysisSheetMetal::Weight](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~Weight.html).
+See [CostAnalysisSheetMetal::Weight](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~Weight.html).
 
 ## See Also
 
 [ICostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.html)
-
 [ICostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html)
 
 ## Availability

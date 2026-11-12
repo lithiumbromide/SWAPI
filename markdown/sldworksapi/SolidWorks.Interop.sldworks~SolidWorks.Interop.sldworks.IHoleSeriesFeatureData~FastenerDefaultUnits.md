@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHo
 
 # FastenerDefaultUnits Property (IHoleSeriesFeatureData)
 
-Obsolete. Superseded by[IHoleSeriesFeatureData2::FastenerDefaultUnits](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~FastenerDefaultUnits.html).
+Obsolete. Superseded by [IHoleSeriesFeatureData2::FastenerDefaultUnits](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~FastenerDefaultUnits.html).
 
 ## Syntax
 
@@ -42,13 +42,7 @@ property System.String^ FastenerDefaultUnits {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,16 @@ Fastener default units
 
 ## VBA Syntax
 
-See
-
-[HoleSeriesFeatureData::FastenerDefaultUnits](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~FastenerDefaultUnits.html)
-
-.
+See [HoleSeriesFeatureData::FastenerDefaultUnits](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~FastenerDefaultUnits.html).
 
 ## See Also
 
 [IHoleSeriesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData.html)
-
 [IHoleSeriesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData_members.html)
-
 [IHoleSeriesFeatureData::FastenerBottomHoleType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~FastenerBottomHoleType.html)
-
 [IHoleSeriesFeatureData::FastenerHoleCount Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~FastenerHoleCount.html)
-
 [IHoleSeriesFeatureData::FastenerTopHoleType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~FastenerTopHoleType.html)
-
 [IHoleSeriesFeatureData::Size Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~Size.html)
-
 [IHoleSeriesFeatureData::Type Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~Type.html)
 
 ## Availability

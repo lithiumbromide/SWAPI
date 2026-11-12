@@ -47,13 +47,7 @@ System.Object^ GetSupplementalFaces(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,30 +55,18 @@ See
 
 ### Return Value
 
-Array of
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-in this mate
+Array of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) in this mate
 
 ## VBA Syntax
 
-See
-
-[Mate2::GetSupplementalFaces](ms-its:sldworksapivb6.chm::/sldworks~Mate2~GetSupplementalFaces.html)
-
-.
+See [Mate2::GetSupplementalFaces](ms-its:sldworksapivb6.chm::/sldworks~Mate2~GetSupplementalFaces.html).
 
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
-
 [IMate2::IGetSupplementalFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~IGetSupplementalFaces.html)
-
 [IMate2::HasLoadBearingFaces Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~HasLoadBearingFaces.html)
-
 [IMate2::IsLoadBearingFacesBonded Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~IsLoadBearingFacesBonded.html)
 
 ## Availability

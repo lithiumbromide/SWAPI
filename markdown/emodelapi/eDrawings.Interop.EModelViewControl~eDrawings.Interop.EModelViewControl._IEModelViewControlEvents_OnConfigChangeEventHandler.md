@@ -49,9 +49,7 @@ public delegate void _IEModelViewControlEvents_OnConfigChangeEventHandler(
 
 ## VBA Syntax
 
-See
-
-[OnConfigChange Event (EModelViewControl).](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnConfigChangeEventHandler.html)
+See [OnConfigChange Event (EModelViewControl).](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnConfigChangeEventHandler.html)
 
 ## Availability
 

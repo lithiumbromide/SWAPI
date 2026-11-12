@@ -40,40 +40,23 @@ System.object GetReferenceEdges()
 System.Object^ GetReferenceEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of reference
-
-[edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
+Array of reference [edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFeatureData::GetReferenceEdges](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~GetReferenceEdges.html)
-
-.
+See [CosmeticWeldBeadFeatureData::GetReferenceEdges](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~GetReferenceEdges.html).
 
 ## Examples
 
-See
-
-[ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
-examples.
+See [ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html) examples.
 
 ## See Also
 
 [ICosmeticWeldBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
 [ICosmeticWeldBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData_members.html)
 
 ## Availability

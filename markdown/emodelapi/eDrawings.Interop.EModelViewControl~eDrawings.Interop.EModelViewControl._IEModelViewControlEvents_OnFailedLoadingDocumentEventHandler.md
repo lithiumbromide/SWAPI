@@ -57,11 +57,7 @@ public delegate void _IEModelViewControlEvents_OnFailedLoadingDocumentEventHandl
 
 ## VBA Syntax
 
-See
-
-[OnFailedLoadingDocument Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFailedLoadingDocument_EV.html)
-
-.
+See [OnFailedLoadingDocument Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFailedLoadingDocument_EV.html).
 
 ## Availability
 

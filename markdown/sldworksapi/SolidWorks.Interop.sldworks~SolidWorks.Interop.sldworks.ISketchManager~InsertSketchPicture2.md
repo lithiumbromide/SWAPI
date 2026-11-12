@@ -51,22 +51,12 @@ SketchPicture^ InsertSketchPicture2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FileName`: Path to image file including file extension
-- `HighestResolution`: True to insert images up to 8192 pixels without compression, false to compress images to 2048 pixels before insertion (see
-
-Remarks
-
-)
+- `HighestResolution`: True to insert images up to 8192 pixels without compression, false to compress images to 2048 pixels before insertion (see **Remarks**)
 
 ### Return Value
 
@@ -74,18 +64,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[SketchManager::InsertSketchPicture2](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~InsertSketchPicture2.html)
-
-.
+See [SketchManager::InsertSketchPicture2](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~InsertSketchPicture2.html).
 
 ## Examples
 
 [Flip Sketch Picture (VBA)](Flip_Sketch_Picture_Example_VB.htm)
-
 [Flip Sketch Picture (VB.NET)](Flip_Sketch_Picture_Example_VBNET.htm)
-
 [Flip Sketch Picture (C#)](Flip_Sketch_Picture_Example_CSharp.htm)
 
 ## Remarks
@@ -95,7 +79,6 @@ If the document type is not a drawing, then HighestResolution defaults to false.
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

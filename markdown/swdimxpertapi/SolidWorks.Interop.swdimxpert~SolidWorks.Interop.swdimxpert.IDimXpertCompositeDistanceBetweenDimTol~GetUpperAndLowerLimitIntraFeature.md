@@ -62,16 +62,11 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositeDistanceBetweenDimTol::GetUpperAndLowerLimitIntraFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeDistanceBetweenDimTol~GetUpperAndLowerLimitIntraFeature.html)
-
-.
+See [DimXpertCompositeDistanceBetweenDimTol::GetUpperAndLowerLimitIntraFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeDistanceBetweenDimTol~GetUpperAndLowerLimitIntraFeature.html).
 
 ## See Also
 
 [IDimXpertCompositeDistanceBetweenDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol.html)
-
 [IDimXpertCompositeDistanceBetweenDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol_members.html)
 
 ## Availability

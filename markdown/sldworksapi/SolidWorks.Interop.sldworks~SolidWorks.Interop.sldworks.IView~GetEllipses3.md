@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetEllipses3 Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetEllipses5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetEllipses5.html)
-
-and
-
-[IView::IGetEllipses5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetEllipses5.html)
-
-.
+Obsolete. Superseded by [IView::GetEllipses5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetEllipses5.html) and [IView::IGetEllipses5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetEllipses5.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetEllipses3()
 System.Object^ GetEllipses3();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::GetEllipses3](ms-its:sldworksapivb6.chm::/sldworks~View~GetEllipses3.html)
-
-.
+See [View::GetEllipses3](ms-its:sldworksapivb6.chm::/sldworks~View~GetEllipses3.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

@@ -46,11 +46,7 @@ Number of primary datums
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertGeometricTolerance::GetPrimaryDatumCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertGeometricTolerance~GetPrimaryDatumCount.html)
-
-.
+See [SwDMDimXpertGeometricTolerance::GetPrimaryDatumCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertGeometricTolerance~GetPrimaryDatumCount.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertGeometricTolerance Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertGeometricTolerance.html)
-
 [ISwDMDimXpertGeometricTolerance Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertGeometricTolerance_members.html)
 
 ## Availability

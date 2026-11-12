@@ -45,13 +45,7 @@ property System.int CausticQuality {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Number of photons sampled at each pixel
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::CausticQuality](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~CausticQuality.html)
-
-.
+See [RayTraceRendererOptions::CausticQuality](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~CausticQuality.html).
 
 ## Remarks
 
@@ -72,11 +62,8 @@ Increasing the number of photons sampled at each pixel creates a smoother causti
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRendererOptions::CausticAmount Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~CausticAmount.html)
-
 [IRayTraceRendererOptions::DirectCaustics Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~DirectCaustics.html)
 
 ## Availability

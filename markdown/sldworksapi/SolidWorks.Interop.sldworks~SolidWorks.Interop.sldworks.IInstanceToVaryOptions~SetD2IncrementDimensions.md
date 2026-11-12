@@ -51,13 +51,7 @@ System.bool SetD2IncrementDimensions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,16 +64,11 @@ True if the dimensions are incremented successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[InstanceToVaryOptions::SetD2IncrementDimensions](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~SetD2IncrementDimensions.html)
-
-.
+See [InstanceToVaryOptions::SetD2IncrementDimensions](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~SetD2IncrementDimensions.html).
 
 ## See Also
 
 [IInstanceToVaryOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
 [IInstanceToVaryOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions_members.html)
 
 ## Availability

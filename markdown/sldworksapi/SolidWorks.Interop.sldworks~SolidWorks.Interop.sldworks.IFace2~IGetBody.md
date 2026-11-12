@@ -40,27 +40,15 @@ Body2 IGetBody()
 Body2^ IGetBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+Pointer to the [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[Face2::IGetBody](ms-its:sldworksapivb6.chm::/sldworks~Face2~IGetBody.html)
-
-.
+See [Face2::IGetBody](ms-its:sldworksapivb6.chm::/sldworks~Face2~IGetBody.html).
 
 ## Examples
 
@@ -69,9 +57,7 @@ See
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::GetBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetBody.html)
 
 ## Availability

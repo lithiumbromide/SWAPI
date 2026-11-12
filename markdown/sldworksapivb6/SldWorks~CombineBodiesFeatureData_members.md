@@ -1,6 +1,5 @@
 ---
-title: "CombineBodiesFeatureData Object
-Members"
+title: "CombineBodiesFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CombineBodiesFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CombineBodiesFeatureData_members.html"
 ---
 
-# CombineBodiesFeatureData Object
-Members
+# CombineBodiesFeatureData Object Members
 
 ## Public Methods
 

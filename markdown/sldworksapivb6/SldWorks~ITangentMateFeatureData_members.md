@@ -1,6 +1,5 @@
 ---
-title: "ITangentMateFeatureData Object
-Members"
+title: "ITangentMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ITangentMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ITangentMateFeatureData_members.html"
 ---
 
-# ITangentMateFeatureData Object
-Members
+# ITangentMateFeatureData Object Members
 
 ## Public Properties
 

@@ -47,30 +47,19 @@ property System.int options {
 
 ### Property Value
 
-Options as described by
-
-[gtFraOptionType_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtFraOptionType_e.html)
+Options as described by [gtFraOptionType_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtFraOptionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[IFindReplaceAnnotations::options](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~options.html)
-
-.
+See [IFindReplaceAnnotations::options](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~options.html).
 
 ## See Also
 
 [IFindReplaceAnnotations Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations.html)
-
 [IFindReplaceAnnotations Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations_members.html)
-
 [IFindReplaceAnnotations::AnnotationFilter Property](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~AnnotationFilter.html)
-
 [IFindReplaceAnnotations::FindNext Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~FindNext.html)
-
 [IFindReplaceAnnotations::FindPrevious Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~FindPrevious.html)
-
 [IFindReplaceAnnotations::FindText Property](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~FindText.html)
 
 ## Availability

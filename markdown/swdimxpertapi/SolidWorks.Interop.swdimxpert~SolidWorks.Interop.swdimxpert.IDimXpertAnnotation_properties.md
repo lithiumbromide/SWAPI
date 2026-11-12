@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertAnnotation Interface Properties
 
-For a list of all members of this type, see[IDimXpertAnnotation members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html).
+For a list of all members of this type, see [IDimXpertAnnotation members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html).
 
 ## Public Properties
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IDimXpertAnnotation members](SolidWo
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

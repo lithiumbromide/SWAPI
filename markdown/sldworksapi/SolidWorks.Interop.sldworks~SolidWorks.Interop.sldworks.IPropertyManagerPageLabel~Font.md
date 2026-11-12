@@ -53,13 +53,7 @@ property System.String^ Font {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -72,16 +66,11 @@ Name of the font to use for the specified characters
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageLabel::Font](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~Font.html)
-
-.
+See [PropertyManagerPageLabel::Font](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~Font.html).
 
 ## See Also
 
 [IPropertyManagerPageLabel Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel.html)
-
 [IPropertyManagerPageLabel Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel_members.html)
 
 ## Availability

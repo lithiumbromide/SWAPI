@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCr
 
 # swsCreateDeformedBodyAdvancedOption_e Enumeration
 
-Advanced options for deformed body creation.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Advanced options for deformed body creation. [Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm).
 
 ## Syntax
 

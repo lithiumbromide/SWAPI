@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMassProperty2 Interface Properties
 
-For a list of all members of this type, see[IMassProperty2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2_members.html).
+For a list of all members of this type, see [IMassProperty2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2_members.html).
 
 ## Public Properties
 
@@ -34,5 +34,4 @@ For a list of all members of this type, see[IMassProperty2 members](SolidWorks.I
 ## See Also
 
 [IMassProperty2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

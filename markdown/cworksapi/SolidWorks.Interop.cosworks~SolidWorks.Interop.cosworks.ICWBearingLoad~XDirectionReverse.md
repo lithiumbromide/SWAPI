@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBe
 
 # XDirectionReverse Property (ICWBearingLoad)
 
-Obsolete. Superseded by
-
-[ICWBearingLoad::XDirectionReverse2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~XDirectionReverse2.html)
-
-.
+Obsolete. Superseded by [ICWBearingLoad::XDirectionReverse2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~XDirectionReverse2.html).
 
 ## Syntax
 
@@ -55,20 +51,13 @@ property System.int XDirectionReverse {
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::XDirectionReverse](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~XDirectionReverse.html)
-
-.
+See [CWBearingLoad::XDirectionReverse](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~XDirectionReverse.html).
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
-
 [ICWBearingLoad::Direction Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~Direction.html)
-
 [ICWBearingLoad::XDirectionValue Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~XDirectionValue.html)
 
 ## Availability

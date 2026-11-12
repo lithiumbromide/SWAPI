@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html"
 
 Allows you to quickly find files or folders.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,25 +36,16 @@ public interface class IEdmSearch5
 ## Examples
 
 [Create a Task that Finds Approved Files (VB.NET)](Schedule_Task_Addin_Example_VBNET.htm)
-
 [Create a Task that Finds Approved Files (C#)](Schedule_Task_Addin_Example_CSharp.htm)
 
 ## Remarks
 
 This interface:
 
-- inherits from IDispatch. See
+- inherits from IDispatch. See [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
+- is extended by [IEdmSearch6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6.html).
 
-  [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx)
-
-  .
-- is extended by
-
-  [IEdmSearch6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch6.html)
-
-  .
-
-There is a bit of overhead involved in creating an IEdmSearch5 object, so if you intend to perform several searches, call[IEdmSearch5::Clear](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~Clear.html)to clear and re-use the current search object instead of calling[IEdmVault5::CreateSearch](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreateSearch.html)to create new search objects.
+There is a bit of overhead involved in creating an IEdmSearch5 object, so if you intend to perform several searches, call [IEdmSearch5::Clear](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~Clear.html) to clear and re-use the current search object instead of calling [IEdmVault5::CreateSearch](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreateSearch.html) to create new search objects.
 
 ## Accessors
 
@@ -71,5 +56,4 @@ There is a bit of overhead involved in creating an IEdmSearch5 object, so if you
 ## See Also
 
 [IEdmSearch5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

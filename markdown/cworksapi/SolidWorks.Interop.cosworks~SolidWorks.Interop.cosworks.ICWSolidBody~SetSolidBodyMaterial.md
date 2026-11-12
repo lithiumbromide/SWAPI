@@ -53,36 +53,25 @@ System.int SetSolidBodyMaterial(
 
 ### Return Value
 
-Error or warning as defined in[swsMaterialErrorWarning_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialErrorWarning_e.html)
+Error or warning as defined in [swsMaterialErrorWarning_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialErrorWarning_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWSolidBody::SetSolidBodyMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidBody~SetSolidBodyMaterial.html)
-
-.
+See [CWSolidBody::SetSolidBodyMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidBody~SetSolidBodyMaterial.html).
 
 ## Examples
 
 [Create Nonlinear Study and Apply Materials (C#)](Create_Nonlinear_Study_and_Apply_Materials_Example_CSharp.htm)
-
 [Create Nonlinear Study and Apply Materials (VB.NET)](Create_Nonlinear_Study_and_Apply_Materials_Example_VBNET.htm)
-
 [Create Nonlinear Study and Apply Materials (VBA)](Create_Nonlinear_Study_and_Apply_Materials_Example_VB.htm)
 
 ## See Also
 
 [ICWSolidBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody.html)
-
 [ICWSolidBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody_members.html)
-
 [ICWSolidBody::GetDefaultMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~GetDefaultMaterial.html)
-
 [ICWSolidBody::GetSolidBodyMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~GetSolidBodyMaterial.html)
-
 [ICWSolidBody::SetLibraryMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~SetLibraryMaterial.html)
-
 [ICWSolidBody::SetFavMaterial Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody~SetFavMaterial.html)
 
 ## Availability

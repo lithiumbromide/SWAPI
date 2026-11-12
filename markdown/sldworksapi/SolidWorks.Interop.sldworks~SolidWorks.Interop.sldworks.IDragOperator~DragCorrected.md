@@ -42,13 +42,7 @@ property System.bool DragCorrected {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,20 +50,15 @@ True if remedial action occurred, false if not
 
 ## VBA Syntax
 
-See
-
-[DragOperator::DragCorrected](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~DragCorrected.html)
-
-.
+See [DragOperator::DragCorrected](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~DragCorrected.html).
 
 ## Remarks
 
-If the desired orientation set by[IDragOperator::Drag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~Drag.html)or[IDragOperator::IDrag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~IDrag.html)was not honored and remedial action occurred, then this property is set. This property is not set by[IDragOperator::DragAsUI](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~DragAsUI.html).
+If the desired orientation set by [IDragOperator::Drag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~Drag.html) or [IDragOperator::IDrag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~IDrag.html) was not honored and remedial action occurred, then this property is set. This property is not set by [IDragOperator::DragAsUI](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~DragAsUI.html).
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
 
 ## Availability

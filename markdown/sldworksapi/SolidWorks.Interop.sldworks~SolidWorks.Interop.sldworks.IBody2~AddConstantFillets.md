@@ -51,32 +51,20 @@ System.Object^ AddConstantFillets(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Radius`: Fillet radius
-- `EdgesToFillet`: Array of[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)to fillet
+- `EdgesToFillet`: Array of [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) to fillet
 
 ### Return Value
 
-Array of newly created
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+Array of newly created [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::AddConstantFillets](ms-its:sldworksapivb6.chm::/sldworks~Body2~AddConstantFillets.html)
-
-.
+See [Body2::AddConstantFillets](ms-its:sldworksapivb6.chm::/sldworks~Body2~AddConstantFillets.html).
 
 ## Remarks
 
@@ -85,7 +73,6 @@ This method does not work for sheet bodies.
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

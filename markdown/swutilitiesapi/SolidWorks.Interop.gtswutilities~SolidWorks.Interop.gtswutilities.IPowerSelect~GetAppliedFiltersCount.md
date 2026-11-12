@@ -49,9 +49,7 @@ System.int GetAppliedFiltersCount(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -59,22 +57,14 @@ Number of applied filters
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::GetAppliedFiltersCount](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetAppliedFiltersCount.html)
-
-.
+See [IPowerSelect::GetAppliedFiltersCount](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~GetAppliedFiltersCount.html).
 
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::GetAppliedFilters Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetAppliedFilters.html)
-
 [IPowerSelect::IGetAppliedFilters Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~IGetAppliedFilters.html)
-
 [IPowerSelect::RemoveFilters Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~RemoveFilters.html)
 
 ## Availability

@@ -40,13 +40,7 @@ Sketch IGetSketch()
 Sketch^ IGetSketch();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::IGetSketch](ms-its:sldworksapivb6.chm::/sldworks~View~IGetSketch.html)
-
-.
+See [View::IGetSketch](ms-its:sldworksapivb6.chm::/sldworks~View~IGetSketch.html).
 
 ## Remarks
 
@@ -67,7 +57,5 @@ Each drawing view contains an underlying sketch. The user can activate the sketc
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetSketch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetSketch.html)

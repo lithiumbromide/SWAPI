@@ -33,11 +33,7 @@ void OnCancel();
 
 ## Examples
 
-See the
-
-[IEdmCardView6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView6.html)
-
-examples.
+See the [IEdmCardView6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView6.html) examples.
 
 ## Remarks
 
@@ -51,7 +47,6 @@ Call this method when the card view is cancelled. This method ensures that all s
 ## See Also
 
 [IEdmCardView6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView6.html)
-
 [IEdmCardView6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView6_members.html)
 
 ## Availability

@@ -59,13 +59,7 @@ System.bool GetPTZHeight2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,18 +74,12 @@ True if the method executed successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetPTZHeight2](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetPTZHeight2.html)
-
-.
+See [Gtol::GetPTZHeight2](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetPTZHeight2.html).
 
 ## Examples
 
 [Insert GTol (C#)](Insert_GTol_Example_CSharp.htm)
-
 [Insert GTol (VB.NET)](Insert_GTol_Example_VBNET.htm)
-
 [Insert GTol (VBA)](Insert_GTol_Example_VB.htm)
 
 ## Remarks
@@ -104,9 +92,7 @@ This method:
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::SetPTZHeight2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetPTZHeight2.html)
 
 ## Availability

@@ -63,13 +63,7 @@ Body2^ ISweepPlanarLoop(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -77,23 +71,15 @@ See
 - `Y`: Y component of the sweep vector
 - `Z`: Z component of the sweep vector
 - `DraftAngle`: Draft angle for the faces on the side of this swept body
-- `StopFacesOut`: Array of two stop
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+- `StopFacesOut`: Array of two stop [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
 
 ### Return Value
 
-New swept
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+New swept [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[Loop2::ISweepPlanarLoop](ms-its:sldworksapivb6.chm::/sldworks~Loop2~ISweepPlanarLoop.html)
-
-.
+See [Loop2::ISweepPlanarLoop](ms-its:sldworksapivb6.chm::/sldworks~Loop2~ISweepPlanarLoop.html).
 
 ## Remarks
 
@@ -102,9 +88,7 @@ This method requires simplification of the imported body.
 ## See Also
 
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
 [ILoop2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2_members.html)
-
 [ILoop2::SweepPlanarLoop Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~SweepPlanarLoop.html)
 
 ## Availability

@@ -53,34 +53,20 @@ System.int SetPlotSettings(
 
 ### Parameters
 
-- `SPlotName`: Plot name (see
-
-Remarks
-
-)
-- `ArrayInput`: Array of plot settings (see
-
-Remarks
-
-)
+- `SPlotName`: Plot name (see **Remarks**)
+- `ArrayInput`: Array of plot settings (see **Remarks**)
 
 ### Return Value
 
-Error code as defined in
-
-[swsPlotSettingsErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPlotSettingsErrorCode_e.html)
+Error code as defined in [swsPlotSettingsErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPlotSettingsErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResults::SetPlotSettings](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~SetPlotSettings.html)
-
-.
+See [CWResults::SetPlotSettings](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~SetPlotSettings.html).
 
 ## Remarks
 
-Call[ICWResults::GetPlotNames](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotNames.html)to populate SPlotName.
+Call [ICWResults::GetPlotNames](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotNames.html) to populate SPlotName.
 
 The 0-based array contains 11 elements:
 
@@ -101,25 +87,15 @@ The 0-based array contains 11 elements:
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetPlotSettings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotSettings.html)
-
 [ICWResults::SetPlotColorOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotColorOptions.html)
-
 [ICWResults::SetPlotDisplayOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotDisplayOptions.html)
-
 [ICWResults::SetPlotPositionFormatOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotPositionFormatOptions.html)
-
 [ICWResults::AddIsoClippingToPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~AddIsoClippingToPlot.html)
-
 [ICWResults::CreatePlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreatePlot.html)
-
 [ICWResults::SetPlotSettingsOptionForHiddenAndExcludedBody Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetPlotSettingsOptionForHiddenAndExcludedBody.html)
-
 [ICWResults::CreateResultsEquationPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateResultsEquationPlot.html)
-
 [ICWResults::GetPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlot.html)
 
 ## Availability

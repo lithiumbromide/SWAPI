@@ -47,13 +47,7 @@ System.double GetControlPointDistanceAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,16 @@ Value of the Distance 2 radius at the specified control point for the asymmetric
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData2::GetControlPointDistanceAtIndex](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~GetControlPointDistanceAtIndex.html)
-
-.
+See [VariableFilletFeatureData2::GetControlPointDistanceAtIndex](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~GetControlPointDistanceAtIndex.html).
 
 ## Remarks
 
-Call
-
-[IVariableFilletFeatureData2::GetControlPointRadiusAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetControlPointRadiusAtIndex.html)
-
-to get the Distance 1 radius of the control point for this asymmetric fillet.
+Call [IVariableFilletFeatureData2::GetControlPointRadiusAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetControlPointRadiusAtIndex.html) to get the Distance 1 radius of the control point for this asymmetric fillet.
 
 ## See Also
 
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2_members.html)
-
 [IVariableFilletFeatureData2::SetControlPointDistanceAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~SetControlPointDistanceAtIndex.html)
 
 ## Availability

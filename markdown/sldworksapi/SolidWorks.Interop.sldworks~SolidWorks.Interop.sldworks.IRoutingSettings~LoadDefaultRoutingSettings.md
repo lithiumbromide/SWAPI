@@ -39,28 +39,16 @@ void LoadDefaultRoutingSettings()
 void LoadDefaultRoutingSettings();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RoutingSettings::LoadDefaultRoutingSettings](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~LoadDefaultRoutingSettings.html)
-
-.
+See [RoutingSettings::LoadDefaultRoutingSettings](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~LoadDefaultRoutingSettings.html).
 
 ## See Also
 
 [IRoutingSettings Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html)
-
 [IRoutingSettings Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings_members.html)
-
 [IRoutingSettings::LoadRoutingSettingsFromFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings~LoadRoutingSettingsFromFile.html)
 
 ## Availability

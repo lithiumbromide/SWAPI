@@ -47,13 +47,7 @@ property Sheet^ Sheet {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::Sheet](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~Sheet.html)
-
-.
+See [DrawingDoc::Sheet](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~Sheet.html).
 
 ## Examples
 
 [Get Sheet in Multi-sheet Drawing (C#)](Get_Sheet_in_Multi-sheet_Drawing_Example_CSharp.htm)
-
 [Get Sheet in Multi-Sheet Drawing (VB.NET)](Get_Sheet_in_Multi-Sheet_Drawing_Example_VBNET.htm)
-
 [Get Sheet in Multi-sheet Drawing (VBA)](Get_Sheet_in_Multi-sheet_Drawing_Example_VB.htm)
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
 
 ## Availability

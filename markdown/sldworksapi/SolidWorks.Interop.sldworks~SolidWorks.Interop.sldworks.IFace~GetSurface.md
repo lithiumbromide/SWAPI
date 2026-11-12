@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetSurface Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetSurface.html)
-
-.
+Obsolete. Superseded by [IFace2::GetSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetSurface.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetSurface()
 System.Object^ GetSurface();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::GetSurface](ms-its:sldworksapivb6.chm::/sldworks~Face~GetSurface.html)
-
-.
+See [Face::GetSurface](ms-its:sldworksapivb6.chm::/sldworks~Face~GetSurface.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

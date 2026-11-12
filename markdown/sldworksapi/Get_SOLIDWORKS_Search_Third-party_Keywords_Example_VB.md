@@ -9,15 +9,14 @@ source: "sldworksapi/Get_SOLIDWORKS_Search_Third-party_Keywords_Example_VB.htm"
 
 # Get SOLIDWORKS Search Third-party Keywords Example (VBA)
 
-This example shows how to get the SOLIDWORKS Search third-party keywords
-for a model document.
+This example shows how to get the SOLIDWORKS Search third-party keywords for a model document.
 
 ```
 '-----------------------------------------------------
 ' Preconditions:
 ' 1. Open a model document that was previously assigned
 '    SOLIDWORKS Search third-party keywords
-'    and which have been indexed in SOLIDWORKS
+'    and which have been indexed in SOLIDWORKS Design
 '    - or -
 '    run Add Third-party Application Keywords to SOLIDWORKS Search and Model Example (VBA).
 ' 2. Open the Immediate window.

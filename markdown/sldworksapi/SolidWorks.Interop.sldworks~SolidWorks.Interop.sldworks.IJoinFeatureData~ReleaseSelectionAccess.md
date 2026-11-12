@@ -39,40 +39,27 @@ void ReleaseSelectionAccess()
 void ReleaseSelectionAccess();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[JoinFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~JoinFeatureData~ReleaseSelectionAccess.html)
-
-.
+See [JoinFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~JoinFeatureData~ReleaseSelectionAccess.html).
 
 ## Examples
 
 [Insert Join Feature (C#)](Insert_Join_Feature_Example_CSharp.htm)
-
 [Insert Join Feature (VB.NET)](Insert_Join_Feature_Example_VBNET.htm)
-
 [Insert Join Feature (VBA)](Insert_Join_Feature_Example_VB.htm)
 
 ## Remarks
 
-[IJoinFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IJoinFeatureData~AccessSelections.html)puts the model into a rollback state to allow access to the selections that define this feature.
+[IJoinFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IJoinFeatureData~AccessSelections.html) puts the model into a rollback state to allow access to the selections that define this feature.
 
-Use this method to restore the rollback state if you did not modify the feature or use[IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)or[IFeature::IModifyDefintion2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)if you did.
+Use this method to restore the rollback state if you did not modify the feature or use [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefintion2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you did.
 
 ## See Also
 
 [IJoinFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJoinFeatureData.html)
-
 [IJoinFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJoinFeatureData_members.html)
 
 ## Availability

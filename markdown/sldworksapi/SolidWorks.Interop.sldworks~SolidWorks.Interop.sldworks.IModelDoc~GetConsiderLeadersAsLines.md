@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetConsiderLeadersAsLines Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetConsiderLeadersAsLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetConsiderLeadersAsLines.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetConsiderLeadersAsLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetConsiderLeadersAsLines.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool GetConsiderLeadersAsLines()
 System.bool GetConsiderLeadersAsLines();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetConsiderLeadersAsLines](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetConsiderLeadersAsLines.html)
-
-.
+See [ModelDoc::GetConsiderLeadersAsLines](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetConsiderLeadersAsLines.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

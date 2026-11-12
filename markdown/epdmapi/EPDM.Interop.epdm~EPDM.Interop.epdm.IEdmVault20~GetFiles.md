@@ -39,22 +39,15 @@ System.array<Object^>^ GetFiles(
 
 ### Parameters
 
-- `poDocsIDs`: Array of
-
-[EdmDocIDs](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs.html)
+- `poDocsIDs`: Array of [EdmDocIDs](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs.html)
 
 ### Return Value
 
-Array of
-
-[IEdmFile5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
-s
+Array of [IEdmFile5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)s
 
 ## See Also
 
 [IEdmVault20 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html)
-
 [IEdmVault20 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20_members.html)
 
 ## Availability

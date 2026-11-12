@@ -34,18 +34,9 @@ System.int mlCurrentFolderID
 
 ## Remarks
 
-Used for
-
-[menu commands](vbmenuitem.htm)
-
-(meCmdType =
-
-[EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html)
-
-.EdmCmd_Menu).
+Used for [menu commands](vbmenuitem.htm) (meCmdType = [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_Menu).
 
 ## See Also
 
 [EdmCmd Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)
-
 [EdmCmd Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd_members.html)

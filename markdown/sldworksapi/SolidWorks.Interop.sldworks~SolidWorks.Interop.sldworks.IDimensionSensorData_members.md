@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IDimensionSensorData Interface Members
 
-The following tables list the members exposed by[IDimensionSensorData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionSensorData.html).
+The following tables list the members exposed by [IDimensionSensorData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionSensorData.html).
 
 ## Public Properties
 
@@ -30,7 +30,5 @@ The following tables list the members exposed by[IDimensionSensorData](SolidWork
 ## See Also
 
 [IDimensionSensorData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionSensorData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISensor Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor.html)

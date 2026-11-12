@@ -47,13 +47,7 @@ System.bool DeleteItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ True if criteria is deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[AdvancedSelectionCriteria::DeleteItem](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~DeleteItem.html)
-
-.
+See [AdvancedSelectionCriteria::DeleteItem](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~DeleteItem.html).
 
 ## Remarks
 
-Call
-
-[IAdvancedSelectionCriteria::GetItemCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAdvancedSelectionCriteria~GetItemCount.html)
-
-to get a valid value for Index before calling this method.
+Call [IAdvancedSelectionCriteria::GetItemCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAdvancedSelectionCriteria~GetItemCount.html) to get a valid value for Index before calling this method.
 
 ## See Also
 
 [IAdvancedSelectionCriteria Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
 [IAdvancedSelectionCriteria Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria_members.html)
 
 ## Availability

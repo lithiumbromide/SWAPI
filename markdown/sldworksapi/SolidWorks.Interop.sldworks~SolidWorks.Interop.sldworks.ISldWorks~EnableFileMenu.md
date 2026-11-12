@@ -45,13 +45,7 @@ property System.bool EnableFileMenu {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to enable file-related menus and toolbars (e.g., open a document, create a 
 
 ## VBA Syntax
 
-See
-
-[SldWorks::EnableFileMenu](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~EnableFileMenu.html)
-
-.
+See [SldWorks::EnableFileMenu](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~EnableFileMenu.html).
 
 ## Examples
 
@@ -71,24 +61,24 @@ See
 
 Option Explicit
 
-Dim swApp As SldWorks.SldWorks Sub main()
+Dim swApp As SldWorks.SldWorks
+Sub main()
 
 Set swApp = Application.SldWorks
 
-' Disable file-related menus and toolbars swApp. EnableFileMenu = False
+' Disable file-related menus and toolbars
+swApp.**EnableFileMenu** = False
 
 ' Enable file-related menus and toolbars
 
-swApp. EnableFileMenu = True
+swApp.**EnableFileMenu** = True
 
 End Sub
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [IModelDoc2::Toolbars](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~Toolbars.html)
 
 ## Availability

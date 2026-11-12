@@ -48,16 +48,11 @@ property PDMWDocument^ Document {
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchResult::Document](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~Document.html)
-
-.
+See [PDMWSearchResult::Document](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~Document.html).
 
 ## See Also
 
 [IPDMWSearchResult Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult.html)
-
 [IPDMWSearchResult Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult_members.html)
 
 ## Availability

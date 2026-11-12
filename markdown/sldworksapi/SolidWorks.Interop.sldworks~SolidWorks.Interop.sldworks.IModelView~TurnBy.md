@@ -50,13 +50,7 @@ void TurnBy(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelView::TurnBy](ms-its:sldworksapivb6.chm::/sldworks~ModelView~TurnBy.html)
-
-.
+See [ModelView::TurnBy](ms-its:sldworksapivb6.chm::/sldworks~ModelView~TurnBy.html).
 
 ## Remarks
 
@@ -78,9 +68,7 @@ The model view must have an active camera.
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
-
 [IModelView::Camera Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~Camera.html)
 
 ## Availability

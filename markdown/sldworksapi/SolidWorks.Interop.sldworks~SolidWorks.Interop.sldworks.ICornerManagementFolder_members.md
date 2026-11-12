@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICornerManagementFolder Interface Members
 
-The following tables list the members exposed by[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html).
+The following tables list the members exposed by [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[ICornerManagementFolder](SolidW
 ## See Also
 
 [ICornerManagementFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

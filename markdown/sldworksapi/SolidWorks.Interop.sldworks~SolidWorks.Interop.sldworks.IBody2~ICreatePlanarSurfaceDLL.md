@@ -51,13 +51,7 @@ Surface^ ICreatePlanarSurfaceDLL(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ Pointer to the new planar surface
 
 ## VBA Syntax
 
-See
-
-[Body2::ICreatePlanarSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreatePlanarSurfaceDLL.html)
-
-.
+See [Body2::ICreatePlanarSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreatePlanarSurfaceDLL.html).
 
 ## Remarks
 
@@ -83,7 +73,6 @@ Any existing object created by this method is destroyed if you call this method 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

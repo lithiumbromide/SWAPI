@@ -51,30 +51,20 @@ System.bool SetRange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Min`: Minimum range of slider
-- `Max`: Maximum range of sliderParamDesc
+- `Max`: Maximum range of slider
 
 ### Return Value
 
-True if range is set, false if notParamDesc
+True if range is set, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSlider::SetRange](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~SetRange.html)
-
-.
+See [PropertyManagerPageSlider::SetRange](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~SetRange.html).
 
 ## Examples
 
@@ -82,10 +72,9 @@ See
 
 ## Remarks
 
-If you do not use this method to specify the range, it will default to a range of 0 to 10. Use[IPropertyManagerPageStyle::GetRange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~GetRange.html)to get the current range of the slider.
+If you do not use this method to specify the range, it will default to a range of 0 to 10. Use [IPropertyManagerPageStyle::GetRange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~GetRange.html) to get the current range of the slider.
 
 ## See Also
 
 [IPropertyManagerPageSlider Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider.html)
-
 [IPropertyManagerPageSlider Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider_members.html)

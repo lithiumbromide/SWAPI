@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # IGetUserPoints Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetUserPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetUserPoints2.html)
-
-and
-
-[IView::IGetUserPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetUserPoints2.html)
-
-.
+Obsolete. Superseded by [IView::GetUserPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetUserPoints2.html) and [IView::IGetUserPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetUserPoints2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetUserPoints()
 System.double IGetUserPoints();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::IGetUserPoints](ms-its:sldworksapivb6.chm::/sldworks~View~IGetUserPoints.html)
-
-.
+See [View::IGetUserPoints](ms-its:sldworksapivb6.chm::/sldworks~View~IGetUserPoints.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

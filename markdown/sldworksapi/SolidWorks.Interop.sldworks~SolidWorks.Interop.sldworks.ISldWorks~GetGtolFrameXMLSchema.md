@@ -40,13 +40,7 @@ System.string GetGtolFrameXMLSchema()
 System.String^ GetGtolFrameXMLSchema();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ XML schema for Gtol Frame symbol XML
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetGtolFrameXMLSchema](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetGtolFrameXMLSchema.html)
-
-.
+See [SldWorks::GetGtolFrameXMLSchema](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetGtolFrameXMLSchema.html).
 
 ## Remarks
 
-See[Gtol Frame XML Schema](ms-its:sldworksapiprogguide.chm::/Overview/Gtol_Frame_XML_Schema.htm).
+See [Gtol Frame XML Schema](ms-its:sldworksapiprogguide.chm::/Overview/Gtol_Frame_XML_Schema.htm).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [IGtolFrame::GetSymbolXml Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame~GetSymbolXml.html)
-
 [IGtolFrame::SetSymbolXml Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame~SetSymbolXml.html)
-
 [ISldWorks::GetGtolFormatData Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetGtolFormatData.html)
 
 ## Availability

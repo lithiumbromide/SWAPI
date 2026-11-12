@@ -86,21 +86,15 @@ System.Object^ GetStressForEntities3(
 ### Parameters
 
 - `BValueByNode`: True to get the stress value by node, false to get the stress value by element
-- `NComponent`: Stress component as defined in
-
-[swsStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStressComponent_e.html)
+- `NComponent`: Stress component as defined in [swsStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStressComponent_e.html)
 - `NStepNumber`: Solution step number (use 1 for steady state)
 - `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if NComponent is not a directional component
 - `ArraySelectedEntities`: Array of geometric entities
-- `NUnits`: Unit as defined in
-
-[swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
-- `NShellFace`: Option as defined in[swsShellFace_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsShellFace_e.html)
+- `NUnits`: Unit as defined in [swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
+- `NShellFace`: Option as defined in [swsShellFace_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsShellFace_e.html)
 - `NPlyNumber`: Ply number to show the stress; available only when the model uses composite shells
 - `BInPlyDirection`: 1 to display the results in ply direction on the surface of the ply, 0 to display the results in the transverse direction to the ply direction on the surface of the ply
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -108,32 +102,21 @@ Array of {node/element #, stress value} pairs
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetStressForEntities3](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetStressForEntities3.html)
-
-.
+See [CWResults::GetStressForEntities3](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetStressForEntities3.html).
 
 ## Examples
 
 [Analyze Part (VBA)](Analyze_Part_Example_VB.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetStressTensorValuesForAllNodesOfElement Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStressTensorValuesForAllNodesOfElement.html)
-
 [ICWResults::GetStress Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStress.html)
-
 [ICWResults::GetStressComponentForAllStepsAtNode Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStressComponentForAllStepsAtNode.html)
-
 [ICWResults::GetMinMaxStress Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStress.html)
 
 ## Availability

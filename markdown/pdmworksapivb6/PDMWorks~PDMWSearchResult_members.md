@@ -1,6 +1,5 @@
 ---
-title: "PDMWSearchResult Object
-Members"
+title: "PDMWSearchResult Object Members"
 project: "PDMWorksActiveX DLL"
 interface: "PDMWSearchResult_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "pdmworksapivb6/PDMWorks~PDMWSearchResult_members.html"
 ---
 
-# PDMWSearchResult Object
-Members
+# PDMWSearchResult Object Members
 
 ## Public Properties
 

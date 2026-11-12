@@ -51,13 +51,9 @@ public enum class swSmartDimensionDirection_e : public System.Enum
 
 In parts, this enumerator is used to specify the extension line that is needed to unambiguously define the angle to dimension. In the user interface, a direction manipulator appears during dimensioning if selected entities do not fully specify the angle to dimension. This enumerator specifies the directions of that manipulator.
 
-In drawings that have**Rapid dimensioning**turned on, this enumerator may be used to specify the quadrant or side of the entities to which to add the display dimension.
+In drawings that have **Rapid dimensioning** turned on, this enumerator may be used to specify the quadrant or side of the entities to which to add the display dimension.
 
-See
-
-[IModelDocExtension::AddDimension](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddDimension.html)
-
-.
+See [IModelDocExtension::AddDimension](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddDimension.html).
 
 ## See Also
 

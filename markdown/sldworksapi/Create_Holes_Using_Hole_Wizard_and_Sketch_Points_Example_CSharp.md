@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Holes_Using_Hole_Wizard_and_Sketch_Points_Example_CS
 
 # Create Holes Using Hole Wizard and Sketch Points Example (C#)
 
-This example shows how to create holes using the Hole Wizard and sketch
-points.
+This example shows how to create holes using the Hole Wizard and sketch points.
 
 ```vb
  //---------------------------------------------------------------------------

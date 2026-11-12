@@ -42,9 +42,7 @@ System.Object^ GetProperty(
 
 ### Parameters
 
-- `eProperty`: Type of property to retrieve as defined in
-
-[EdmCmdNodeProp](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdNodeProp.html)
+- `eProperty`: Type of property to retrieve as defined in [EdmCmdNodeProp](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdNodeProp.html)
 - `oArg`: Null; reserved for future use
 
 ### Return Value
@@ -53,11 +51,7 @@ Property value
 
 ## Examples
 
-See the
-
-[IEdmCmdNode](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode.html)
-
-examples.
+See the [IEdmCmdNode](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode.html) examples.
 
 ## Remarks
 
@@ -69,7 +63,6 @@ examples.
 ## See Also
 
 [IEdmCmdNode Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode.html)
-
 [IEdmCmdNode Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode_members.html)
 
 ## Availability

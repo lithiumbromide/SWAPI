@@ -57,24 +57,15 @@ Entity or NULL if an entity does not exist at the specified index
 
 ## VBA Syntax
 
-See
-
-[CWShell::GetEntityAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~GetEntityAt.html)
-
-.
+See [CWShell::GetEntityAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~GetEntityAt.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[ICWShell::EntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShell~EntityCount.html)
-
-to get NIndex.
+Before calling this method, call [ICWShell::EntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShell~EntityCount.html) to get NIndex.
 
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
 
 ## Availability

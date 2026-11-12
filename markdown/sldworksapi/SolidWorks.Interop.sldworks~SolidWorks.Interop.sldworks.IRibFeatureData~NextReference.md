@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRi
 
 # NextReference Method (IRibFeatureData)
 
-Obsolete. Superseded by
-
-[IRibFeatureData2::NextReference .](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~NextReference.html)
+Obsolete. Superseded by [IRibFeatureData2::NextReference.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~NextReference.html)
 
 ## Syntax
 
@@ -42,24 +40,13 @@ System.int NextReference()
 System.int NextReference();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RibFeatureData::NextReference](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~NextReference.html)
-
-.
+See [RibFeatureData::NextReference](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~NextReference.html).
 
 ## See Also
 
 [IRibFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData.html)
-
 [IRibFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData_members.html)

@@ -41,32 +41,19 @@ void PressureBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWPressure::PressureBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~PressureBeginEdit.html)
-
-.
+See [CWPressure::PressureBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~PressureBeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
-examples.
+See the [ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html) examples.
 
 ## Remarks
 
-To start editing pressure, you must call this method. You must call
-
-[ICWPressure::PressureEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWPressure~PressureEndEdit.html)
-
-to end editing pressure. Changes are not applied unless you call both methods.
+To start editing pressure, you must call this method. You must call [ICWPressure::PressureEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWPressure~PressureEndEdit.html) to end editing pressure. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
 
 ## Availability

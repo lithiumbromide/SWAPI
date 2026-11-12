@@ -42,44 +42,25 @@ property System.Object^ ModelWindows {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of the client
-
-[model windows](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelWindow.html)
-
-of this frame
-
-EndOLEPropertyRow
+Array of the client [model windows](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelWindow.html) of this frame
 
 ## VBA Syntax
 
-See
-
-[Frame::ModelWindows](ms-its:sldworksapivb6.chm::/sldworks~Frame~ModelWindows.html)
-
-.
+See [Frame::ModelWindows](ms-its:sldworksapivb6.chm::/sldworks~Frame~ModelWindows.html).
 
 ## Examples
 
 [Switch Documents (C#)](Switch_Documents_Example_CSharp.htm)
-
 [Switch Documents (VB.NET)](Switch_Documents_Example_VBNET.htm)
-
 [Switch Documents (VBA)](Switch_Documents_Example_VB.htm)
 
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [IFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html)
 
 ## Availability

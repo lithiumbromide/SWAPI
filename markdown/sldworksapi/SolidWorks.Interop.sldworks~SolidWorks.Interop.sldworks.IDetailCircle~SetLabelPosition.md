@@ -50,13 +50,7 @@ void SetLabelPosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::SetLabelPostion](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetLabelPosition.html)
-
-.
+See [DetailCircle::SetLabelPostion](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetLabelPosition.html).
 
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::GetLabelPosition Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~GetLabelPosition.html)
-
 [IDetailCircle::SetLabel Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~SetLabel.html)
 
 ## Availability

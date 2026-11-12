@@ -9,109 +9,45 @@ source: "obsoleteapi/ModelDoc/ModelDoc__AddFeatureMgrView3.htm"
 
 # ModelDoc::AddFeatureMgrView3
 
-This
-method is obsolete and has been superseded by[ModelDoc2::AddFeatureMgrView3](sldworksAPI.chm::/ModelDoc2/ModelDoc2__AddFeatureMgrView3.htm).
+This method is obsolete and has been superseded by [ModelDoc2::AddFeatureMgrView3](sldworksAPI.chm::/ModelDoc2/ModelDoc2__AddFeatureMgrView3.htm).
 
 Description
 
-This method provides a means of adding a tab to the FeatureManager design
-tree view, given an application defined CView.
+This method provides a means of adding a tab to the FeatureManager design tree view, given an application defined CView.
 
 Syntax (OLE Automation)
 
-retval = ModelDoc.AddFeatureMgrView3 (bitmap, appView, toolTip, whichPane)
+retval = ModelDoc.AddFeatureMgrView3 ( bitmap, appView, toolTip, whichPane )
 
-(Table)=========================================================
-
-| Input: | (long) bitmap | Pointer to the bitmap you wish to use for the FeatureManager design
-tree tab; the bitmap should be no larger than 16x18; this standard pointer
-is created by performing a New on CBitmap |
+| Input: | (long) bitmap | Pointer to the bitmap you wish to use for the FeatureManager design tree tab; the bitmap should be no larger than 16x18; this standard pointer is created by performing a New on CBitmap |
 | --- | --- | --- |
-| Input: | (long) appView | Pointer to an existing view that you wish to use as your FeatureManager
-design tree view; if you do not have an existing view, then see ModelDoc::CreateFeatureMgrView3,
-which will return a view handle for you |
+| Input: | (long) appView | Pointer to an existing view that you wish to use as your FeatureManager design tree view; if you do not have an existing view, then see ModelDoc::CreateFeatureMgrView3, which will return a view handle for you |
 | Input: | (BSTR) toolTip | ToolTip string |
 | Input: | (long) whichPane | Pane to which to add the view to as defined in swFeatMgrPane_e |
-| Return: | (BOOL) retval | TRUE if the FeatureManager design tree view tab was added successfully,
-FALSE otherwise |
+| Return: | (BOOL) retval | TRUE if the FeatureManager design tree view tab was added successfully, FALSE otherwise |
 
 Syntax (COM)
 
-status = ModelDoc->AddFeatureMgrView3 ( bitmap,
-appView, toolTip, whichPane, &retval )
+status = ModelDoc->AddFeatureMgrView3 ( bitmap, appView, toolTip, whichPane, &retval )
 
-(Table)=========================================================
-
-| Input: | (long) bitmap | Pointer to the bitmap you wish to use for the FeatureManager design
-tree tab; the bitmap should be no larger than 16x18; this standard pointer
-is created by performing a New on CBitmap |
+| Input: | (long) bitmap | Pointer to the bitmap you wish to use for the FeatureManager design tree tab; the bitmap should be no larger than 16x18; this standard pointer is created by performing a New on CBitmap |
 | --- | --- | --- |
-| Input: | (long) appView | Pointer to an existing view that you wish to use as your FeatureManager
-design tree view; if you do not have an existing view, then see ModelDoc::CreateFeatureMgrView3,
-which will return a view handle for you |
+| Input: | (long) appView | Pointer to an existing view that you wish to use as your FeatureManager design tree view; if you do not have an existing view, then see ModelDoc::CreateFeatureMgrView3, which will return a view handle for you |
 | Input: | (BSTR) toolTip | ToolTip string |
 | Input: | (long) whichPane | Pane to which to add the view to as defined in swFeatMgrPane_e |
-| Output: | (VARIANT_BOOL) retval | TRUE if the FeatureManager design tree view tab was added successfully,
-FALSE otherwise |
+| Output: | (VARIANT_BOOL) retval | TRUE if the FeatureManager design tree view tab was added successfully, FALSE otherwise |
 | Return: | (HRESULT)status | S_OK if successful |
 
 Remarks
 
-This method provides the ability to place the new tab on either the
-top or bottom pane. The pane may or may not be visible. However, the tab
-will be added to the specified pane. Only the values swFeatMgrPaneTop
-and swFeatMgrPaneBottom from swFeatMgrPane_e should be used as inputs
-in the whichPane argument.
+This method provides the ability to place the new tab on either the top or bottom pane. The pane may or may not be visible. However, the tab will be added to the specified pane. Only the values swFeatMgrPaneTop and swFeatMgrPaneBottom from swFeatMgrPane_e should be used as inputs in the whichPane argument.
 
-Under certain conditions, for example while the
-Surface -> Extend command is active in the user interface, SolidWorks
-will lock the bottom pane and not allow the activation of any other tab.
-If your application needs the ability to activate your new tab at all
-times, consider adding it either to the top pane or to both panes. If
-you add it to the top pane only, it may not be apparent to the user until
-the top pane is made visible.
+Under certain conditions, for example while the Surface -> Extend command is active in the user interface, SolidWorks will lock the bottom pane and not allow the activation of any other tab. If your application needs the ability to activate your new tab at all times, consider adding it either to the top pane or to both panes. If you add it to the top pane only, it may not be apparent to the user until the top pane is made visible.
 
-If you have an existing CView, this method will allow you to add that
-view as a new FeatureManager design tree view. This method also provides
-a parameter for adding a Tab, as specified above, which the user will
-click to activate your view.
+If you have an existing CView, this method will allow you to add that view as a new FeatureManager design tree view. This method also provides a parameter for adding a Tab, as specified above, which the user will click to activate your view.
 
-The FeatureManager design tree view added to this document is not persistant.
-In other words, the FeatureManager design tree view is not stored with
-this document and must be recreated upon reloading the document.
+The FeatureManager design tree view added to this document is not persistant. In other words, the FeatureManager design tree view is not stored with this document and must be recreated upon reloading the document.
 
-This method willnotbe set
-up to receive FeatMgrView::ActivateNotify and DeactivateNotify events.
+This method will not be set up to receive FeatMgrView::ActivateNotify and DeactivateNotify events.
 
-This view was generated by you and can be drawn into as you so desire.
-However, since you generated this view, be aware that you are responsible
-for deleting it. Refer to ModelDoc2::DeleteFeatureMgrView for deleting
-your Feature Manager view.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ModelDoc_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\ModelDoc\ModelDoc__AddFeatureMgrView3.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+This view was generated by you and can be drawn into as you so desire. However, since you generated this view, be aware that you are responsible for deleting it. Refer to ModelDoc2::DeleteFeatureMgrView for deleting your Feature Manager view.

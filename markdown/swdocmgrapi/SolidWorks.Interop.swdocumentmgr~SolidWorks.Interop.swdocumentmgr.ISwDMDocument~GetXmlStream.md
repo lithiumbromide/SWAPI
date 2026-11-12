@@ -53,38 +53,26 @@ void GetXmlStream(
 ### Parameters
 
 - `xmlFileName`: Filename for the XML document
-- `result`: Success or error code as defined by[SwDMXmlDataError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmXmlDataError.html)
+- `result`: Success or error code as defined by [SwDMXmlDataError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmXmlDataError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::GetXmlStream](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetXmlStream.html)
-
-.
+See [SwDMDocument::GetXmlStream](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetXmlStream.html).
 
 ## Examples
 
 [Get XML Stream (C#)](Get_XML_Stream_Example_CSharp.htm)
-
 [Get XML Stream (VB.NET)](Get_XML_Stream_Example_VBNET.htm)
-
 [Get External References for Part (C#)](Get_External_References_for_Part_Example_CSharp.htm)
-
 [Get External References for Part (VB.NET)](Get_External_References_for_Part_Example_VBNET.htm)
 
 ## Remarks
 
-This method only returns data for documents created using SOLIDWORKS 2003 (Version 2200) and later. To get the version of a document, use
-
-[ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html)
-
-.
+This method only returns data for documents created using SOLIDWORKS 2003 (Version 2200) and later. To get the version of a document, use [ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
 
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
 
 ## Availability

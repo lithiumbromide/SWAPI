@@ -45,13 +45,7 @@ property System.bool AutoPropagation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to add tangent faces, false to not
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData2::AutoPropagation](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~AutoPropagation.html)
-
-.
+See [SMNormalCutFeatureData2::AutoPropagation](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~AutoPropagation.html).
 
 ## Examples
 
-See the
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-example.
+See the [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html) example.
 
 ## See Also
 
 [ISMNormalCutFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
 [ISMNormalCutFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html)
 
 ## Availability

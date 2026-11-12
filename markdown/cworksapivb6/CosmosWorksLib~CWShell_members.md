@@ -1,6 +1,5 @@
 ---
-title: "CWShell Object
-Members"
+title: "CWShell Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWShell_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWShell_members.html"
 ---
 
-# CWShell Object
-Members
+# CWShell Object Members
 
 ## Public Methods
 

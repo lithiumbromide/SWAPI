@@ -45,13 +45,7 @@ property System.double Distance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,21 @@ Distance between mates
 
 ## VBA Syntax
 
-See
-
-[DistanceMateFeatureData::Distance](ms-its:sldworksapivb6.chm::/sldworks~DistanceMateFeatureData~Distance.html)
-
-.
+See [DistanceMateFeatureData::Distance](ms-its:sldworksapivb6.chm::/sldworks~DistanceMateFeatureData~Distance.html).
 
 ## Examples
 
-See the
-
-[IDistanceMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html)
-
-examples.
+See the [IDistanceMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html) examples.
 
 ## Remarks
 
-If
-
-[IDistanceMateFeatureData::IsAdvancedMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData~IsAdvancedMate.html)
-
-is true, then this property specifies the starting distance of this mate.
+If [IDistanceMateFeatureData::IsAdvancedMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData~IsAdvancedMate.html) is true, then this property specifies the starting distance of this mate.
 
 ## See Also
 
 [IDistanceMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html)
-
 [IDistanceMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData_members.html)
-
 [IDistanceMateFeatureData::MaximumDistance Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData~MaximumDistance.html)
-
 [IDistanceMateFeatureData::MinimumDistance Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData~MinimumDistance.html)
 
 ## Availability

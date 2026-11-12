@@ -9,121 +9,38 @@ source: "swconst/DP_ViewLabels-Auxiliary.htm"
 
 # Document Properties > Views > Auxiliary
 
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Base auxiliary view standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingAuxiliaryView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingAuxiliaryView, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base auxiliary view standard to use |
-| Line style - Line Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontViewArrowStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontViewArrowStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies style of view arrows |
-| Line style - Line Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontViewArrowThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontViewArrowThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies thickness of view arrows |
-| Line style - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineViewArrowThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineViewArrowThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of auxiliary view arrow lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Auxiliary arrow text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingViewArrowTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingViewArrowTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Per standard | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_PerStandard,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_PerStandard,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If... Then display the auxiliary view label according
-to the format... True Required by the current detailing standard False Determined by these document-level user preferences: swDetailingAuxViewLabels_Name swDetailingAuxViewLabels_Label swDetailingAuxView_Rotation swDetailingAuxViewLabels_Scale swDetailingAuxViewLabels_Delimiter |
-| If... | Then display the auxiliary view label according
-to the format... |  |  |
+| Base auxiliary view standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingAuxiliaryView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingAuxiliaryView, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base auxiliary view standard to use |
+| Line style - Line Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontViewArrowStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontViewArrowStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies style of view arrows |
+| Line style - Line Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontViewArrowThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontViewArrowThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies thickness of view arrows |
+| Line style - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineViewArrowThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineViewArrowThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of auxiliary view arrow lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Auxiliary arrow text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingViewArrowTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingViewArrowTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Per standard | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_PerStandard, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_PerStandard, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If... Then display the auxiliary view label according to the format... True Required by the current detailing standard False Determined by these document-level user preferences: swDetailingAuxViewLabels_Name swDetailingAuxViewLabels_Label swDetailingAuxView_Rotation swDetailingAuxViewLabels_Scale swDetailingAuxViewLabels_Delimiter |
+| If... | Then display the auxiliary view label according to the format... |  |  |
 | True | Required by the current detailing standard |  |  |
 | False | Determined by these document-level user preferences: swDetailingAuxViewLabels_Name swDetailingAuxViewLabels_Label swDetailingAuxView_Rotation swDetailingAuxViewLabels_Scale swDetailingAuxViewLabels_Delimiter |  |  |
-| Label options - Simplified or Detailed | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_SimplifiedDetailed,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_SimplifiedDetailed,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | True sets the standard to "Simplified", false sets it to "Detailed" |
-| Label options - Name | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Name,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Name,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsName_e.< Value >) | See swDetailingViewLabelsName_e for valid options | Specifies the label to use in front of the auxiliary view; if set to
-swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom, then set Label
-options - Name (CUSTOM) to a custom label |
-| Label options - Name (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingAuxViewLabels_CustomName,
-swUserPreferenceOption_e.swDetailingAuxiliaryView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingAuxViewLabels_CustomName,
-swUserPreferenceOption_e.swDetailingAuxiliaryView, < Value >) | String value | Specifies the custom label to use in front of the auxiliary view; valid only
-if Label options - Name is set to
-swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom |
-| Label options - Name - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_NameTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_NameTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Label | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Label,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Label,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsLabel_e.< Value >) | See swDetailingViewLabelsLabel_e for valid options | Specifies the format of the auxiliary view label |
-| Label options - Label - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_LabelTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_LabelTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Rotation | ModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxView_Rotation,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxView_Rotation,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewRotation_e
-.< Value >) | See swDetailingViewRotation_e for valid options |  |
-| Label options - Rotation - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_RotationTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_RotationTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Scale | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Scale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Scale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsScale_e.< Value >) | See swDetailingViewLabelsScale_e for valid options | Specifies the label to use in front of the scale value; if set to
-swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom, then set Label options - Scale (CUSTOM) to a custom scale label |
-| Label options - Scale (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingAuxViewLabels_CustomScale,
-swUserPreferenceOption_e.swDetailingAuxiliaryView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingAuxViewLabels_CustomScale,
-swUserPreferenceOption_e.swDetailingAuxiliaryView, < Value >) | String value | Specifies the custom label to use in front of the scale value; valid only if Label options - Scale is set to
-swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom |
-| Label options - Scale - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_ScaleTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_ScaleTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Delimiter | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Delimiter,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Delimiter,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsDelimiter_e
-.< Value >) | See swDetailingViewLabelsDelimiter_e for valid options | Specifies the format of the scale value |
-| Label options - Delimiter - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_DelimiterTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_DelimiterTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Remove space in scale around colon (:) and slash (/) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RemoveSpaceInScale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RemoveSpaceInScale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to remove spaces around the delimiter in the scale
-format |
-| Label options -Stacked or In-line | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_Stacked,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_Stacked,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If... Then display the auxiliary view name and
-scale in... True 2 lines False 1 line |
-| If... | Then display the auxiliary view name and
-scale in... |  |  |
+| Label options - Simplified or Detailed | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_SimplifiedDetailed, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_SimplifiedDetailed, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | True sets the standard to "Simplified", false sets it to "Detailed" |
+| Label options - Name | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Name, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Name, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsName_e.< Value >) | See swDetailingViewLabelsName_e for valid options | Specifies the label to use in front of the auxiliary view; if set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom, then set Label options - Name (CUSTOM) to a custom label |
+| Label options - Name (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingAuxViewLabels_CustomName, swUserPreferenceOption_e.swDetailingAuxiliaryView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingAuxViewLabels_CustomName, swUserPreferenceOption_e.swDetailingAuxiliaryView, < Value >) | String value | Specifies the custom label to use in front of the auxiliary view; valid only if Label options - Name is set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom |
+| Label options - Name - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_NameTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_NameTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Label | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Label, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Label, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsLabel_e.< Value >) | See swDetailingViewLabelsLabel_e for valid options | Specifies the format of the auxiliary view label |
+| Label options - Label - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_LabelTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_LabelTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Rotation | ModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxView_Rotation, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxView_Rotation, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewRotation_e .< Value >) | See swDetailingViewRotation_e for valid options |  |
+| Label options - Rotation - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_RotationTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_RotationTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Scale | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Scale, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Scale, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsScale_e.< Value >) | See swDetailingViewLabelsScale_e for valid options | Specifies the label to use in front of the scale value; if set to swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom, then set Label options - Scale (CUSTOM) to a custom scale label |
+| Label options - Scale (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingAuxViewLabels_CustomScale, swUserPreferenceOption_e.swDetailingAuxiliaryView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingAuxViewLabels_CustomScale, swUserPreferenceOption_e.swDetailingAuxiliaryView, < Value >) | String value | Specifies the custom label to use in front of the scale value; valid only if Label options - Scale is set to swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom |
+| Label options - Scale - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_ScaleTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_ScaleTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Delimiter | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Delimiter, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxViewLabels_Delimiter, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsDelimiter_e .< Value >) | See swDetailingViewLabelsDelimiter_e for valid options | Specifies the format of the scale value |
+| Label options - Delimiter - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_DelimiterTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingAuxView_DelimiterTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Remove space in scale around colon (:) and slash (/) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RemoveSpaceInScale, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RemoveSpaceInScale, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to remove spaces around the delimiter in the scale format |
+| Label options -Stacked or In-line | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_Stacked, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_Stacked, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If... Then display the auxiliary view name and scale in... True 2 lines False 1 line |
+| If... | Then display the auxiliary view name and scale in... |  |  |
 | True | 2 lines |  |  |
 | False | 1 line |  |  |
-| Display label above view | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_AboveView,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_AboveView,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to show label above auxiliary view |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingAuxiliaryView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingAuxiliaryView, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | This setting is available only on drawings; depending on drawing, some
-options may not apply |
-| View indication - Rotate view to be horizontal to sheet | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RotateViewToHorizontalSheet,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RotateViewToHorizontalSheet,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to rotate the view to be horizontal to the sheet |
-| View indication - Clockwise or Counterclockwise | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RotateClockwiseCounterclockwise,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RotateClockwiseCounterclockwise,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | True rotates the view clockwise, false rotates it counterclockwise |
-| View indication - View indicators | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxView_ViewIndication,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxView_ViewIndication,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swViewIndication_e
-.< Value >) | See swViewIndication_e for valid options | Specifies the view indicator |
-| Include location labels for new views | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_IncludeLocationLabelsForNewViews,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_IncludeLocationLabelsForNewViews,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to include location labels for new auxiliary views |
+| Display label above view | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_AboveView, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxViewLabels_AboveView, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to show label above auxiliary view |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingAuxiliaryView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingAuxiliaryView, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | This setting is available only on drawings; depending on drawing, some options may not apply |
+| View indication - Rotate view to be horizontal to sheet | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RotateViewToHorizontalSheet, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RotateViewToHorizontalSheet, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to rotate the view to be horizontal to the sheet |
+| View indication - Clockwise or Counterclockwise | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RotateClockwiseCounterclockwise, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_RotateClockwiseCounterclockwise, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | True rotates the view clockwise, false rotates it counterclockwise |
+| View indication - View indicators | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxView_ViewIndication, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAuxView_ViewIndication, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swViewIndication_e .< Value >) | See swViewIndication_e for valid options | Specifies the view indicator |
+| Include location labels for new views | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_IncludeLocationLabelsForNewViews, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAuxView_IncludeLocationLabelsForNewViews, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to include location labels for new auxiliary views |

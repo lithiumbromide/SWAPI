@@ -58,19 +58,11 @@ System.Object^ GetNodeDataFromEntity(
 
 ### Return Value
 
-Array of nodal data (see
-
-Remarks
-
-)
+Array of nodal data (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetNodeDataFromEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetNodeDataFromEntity.html)
-
-.
+See [CWMesh::GetNodeDataFromEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetNodeDataFromEntity.html).
 
 ## Remarks
 
@@ -80,55 +72,27 @@ Array of nodal data:
 
 [
 
-`N 1 , X 1 , Y 1 , Z 1 ,`
+`N1, X1, Y1, Z1,`
 
-`N 2 , X 2 , Y 2 , Z 2 ,`
+`N2, X2, Y2, Z2,`
 
 `...,`
 
-`N i ,``X i , Y i , Z i`
+`Ni,` `Xi, Yi, Zi`
 
 ]
 
 where:
 
-- N
-
-  i
-
-  =
-
-  i
-
-  th
-
-  node number
-- X
-
-  i
-
-  , Y
-
-  i
-
-  , Z
-
-  i
-
-  = coordinates of node N
-
-  i
+- N`i` = `i`th node number
+- X`i`, Y`i`, Z`i` = coordinates of node N`i`
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GetNodeLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodeLocation.html)
-
 [ICWMesh::GetNodes Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodes.html)
-
 [ICWMesh::NodeCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~NodeCount.html)
 
 ## Availability

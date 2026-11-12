@@ -47,42 +47,27 @@ property System.int BackgroundColor {
 
 ### Property Value
 
-COLORREF value (see
-
-Remarks
-
-)
+COLORREF value (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::BackgroundColor](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~BackgroundColor.html)
-
-.
+See [EModelViewControl::BackgroundColor](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~BackgroundColor.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## Remarks
 
-[IEModelViewControl::BackgroundColorOverride](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColorOverride.html)must be set to true for this method to have an effect.
+[IEModelViewControl::BackgroundColorOverride](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColorOverride.html) must be set to true for this method to have an effect.
 
 A COLORREF is a 32-bit integer value that specifies the red, blue, and green components of a 24-bit color.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::BackgroundColorGradient Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColorGradient.html)
-
 [IEModelViewControl::BackgroundImagePath Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundImagePath.html)
 
 ## Availability

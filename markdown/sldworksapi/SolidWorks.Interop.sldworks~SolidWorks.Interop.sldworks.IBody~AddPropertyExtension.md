@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # AddPropertyExtension Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::AddPropertyExtension2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddPropertyExtension2.html)
-
-.
+Obsolete. Superseded by [IBody2::AddPropertyExtension2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddPropertyExtension2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int AddPropertyExtension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body::AddPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~Body~AddPropertyExtension.html)
-
-.
+See [Body::AddPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~Body~AddPropertyExtension.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

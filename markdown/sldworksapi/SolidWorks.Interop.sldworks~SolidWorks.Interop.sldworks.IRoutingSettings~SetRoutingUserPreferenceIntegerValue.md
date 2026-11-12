@@ -51,19 +51,11 @@ System.bool SetRoutingUserPreferenceIntegerValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UserPreferenceValue`: User preference as defined in
-
-[swUserPreferenceRoutingInteger_e](ms-its:routingapi.chm::/SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swUserPreferenceRoutingInteger_e.html)
+- `UserPreferenceValue`: User preference as defined in [swUserPreferenceRoutingInteger_e](ms-its:routingapi.chm::/SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swUserPreferenceRoutingInteger_e.html)
 - `Value`: Integer value of the specified user preference
 
 ### Return Value
@@ -72,18 +64,12 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[RoutingSettings::SetRoutingUserPreferenceIntegerValue](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~SetRoutingUserPreferenceIntegerValue.html)
-
-.
+See [RoutingSettings::SetRoutingUserPreferenceIntegerValue](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~SetRoutingUserPreferenceIntegerValue.html).
 
 ## See Also
 
 [IRoutingSettings Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html)
-
 [IRoutingSettings Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings_members.html)
-
 [IRoutingSettings::GetRoutingUserPreferenceIntegerValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings~GetRoutingUserPreferenceIntegerValue.html)
 
 ## Availability

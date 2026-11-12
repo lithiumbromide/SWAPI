@@ -1,0 +1,14 @@
+#swapi-map 1 module=dsgnchkapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@SWDesignCheck	o
+CheckAgainstExistingFile	m	Sub CheckAgainstExistingFile()
+CreateChecksFromSWFile	m	Function CreateChecksFromSWFile(ByVal bstrSWFileName As String) As Long:dsgnchkError_e
+HelpErrCallback	m	Sub HelpErrCallback(ByVal mainProduct As Long, ByVal helpFile As String, ByVal helpTopic As Long, ByVal topicFile As String)
+RunDesignCheck	m	Function RunDesignCheck(ByVal StandardFileName As String, ByVal ReportFolderName As String, ByVal AddReportToDesignBinder As Boolean, ByVal OverWriteReport As Boolean) As Long
+RunDesignCheck2	m	Function RunDesignCheck2(ByVal StandardFileName As String, ByVal ReportFolderName As String, ByVal AddReportToDesignBinder As Boolean, ByVal OverWriteReport As Boolean, ByVal bCanViewReportOnSave As Boolean) As Long:dsgnchkError_e
+RunDesignCheck3	m	Sub RunDesignCheck3(ByVal StandardFileName As String, ByRef status As Long)
+RunDesignCheck4	m	Function RunDesignCheck4(ByVal StandardFileName As String, ByVal ReportFolderName As String, ByVal AddReportToDesignBinder As Boolean, ByVal OverWriteReport As Boolean, ByVal AutoCorrect As Boolean) As Long:dsgnchkError_e
+RunDesignCheck5	m	Function RunDesignCheck5(ByVal StandardFileName As String, ByVal ReportFolderName As String, ByVal AddReportToDesignBinder As Boolean, ByVal OverWriteReport As Boolean, ByVal AutoCorrect As Boolean, ByRef lReportFormat As Long, ByRef ResultSummary As String) As Long:dsgnchkError_e
+SaveSWFilePreviewBitmap	m	Sub SaveSWFilePreviewBitmap(ByVal bstrSWFilePath As String, ByVal bstrBMPSavePath As String)
+SetCustomCheckResult	m	Function SetCustomCheckResult(ByVal vbIsCheckPassed As Boolean, ByVal sfArrayFailedItems As Variant) As Long:dsgnchkError_e
+ShowWebHelp	m	Function ShowWebHelp(ByVal mainProduct As Long, ByVal helpFilePath As String, ByVal helpTopic As Long, ByVal topicFile As String) As Long
+ToolbarUpdateCheckAgainstExistingFile	m	Function ToolbarUpdateCheckAgainstExistingFile() As Long

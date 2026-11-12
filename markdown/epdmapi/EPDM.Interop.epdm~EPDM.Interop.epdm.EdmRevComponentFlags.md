@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponentFlags.html"
 
 # EdmRevComponentFlags Enumeration
 
-Flags used to control the members of the struct
-
-[EdmRevComponent2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags used to control the members of the struct [EdmRevComponent2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

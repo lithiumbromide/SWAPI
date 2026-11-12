@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReferen
 
 # AddReference2 Method (IEdmEnumeratorCustomReference6)
 
-Obsolete. Superseded by
-
-[IEdmEnumeratorCustomReference7::AddReference3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7~AddReference3.html)
-
-.
+Obsolete. Superseded by [IEdmEnumeratorCustomReference7::AddReference3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7~AddReference3.html).
 
 ## Syntax
 
@@ -63,7 +59,6 @@ void AddReference2(
 ## See Also
 
 [IEdmEnumeratorCustomReference6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference6.html)
-
 [IEdmEnumeratorCustomReference6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference6_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRouting
 
 # ICable Interface Methods
 
-For a list of all members of this type, see[ICable members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable_members.html).
+For a list of all members of this type, see [ICable members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable_members.html).
 
 ## Public Methods
 
@@ -26,9 +26,6 @@ For a list of all members of this type, see[ICable members](SolidWorks.Interop.S
 ## See Also
 
 [ICable Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable.html)
-
 [SolidWorks.Interop.SWRoutingLib Namespace](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib_namespace.html)
-
 [ICableProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty.html)
-
 [IElectricalRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute.html)

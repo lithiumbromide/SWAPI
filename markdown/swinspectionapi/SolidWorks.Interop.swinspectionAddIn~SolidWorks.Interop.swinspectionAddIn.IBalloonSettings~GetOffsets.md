@@ -61,9 +61,7 @@ System.bool GetOffsets(
 
 ### Parameters
 
-- `Type`: Offset type as defined by
-
-[swiBalloonSettingsOffsetTypes_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiBalloonSettingsOffsetTypes_e.html)
+- `Type`: Offset type as defined by [swiBalloonSettingsOffsetTypes_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiBalloonSettingsOffsetTypes_e.html)
 - `IsVisible`: True to balloon the offset type in the document, false to just include it in the inspection report
 - `X_Offset`: X offset for the default location of the balloons
 - `Y_Offset`: Y offset for the default location of the balloons
@@ -74,22 +72,17 @@ True if offset settings successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[BalloonSettings](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~BalloonSettings_members.html)
-
-methods.
+See [BalloonSettings](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~BalloonSettings_members.html) methods.
 
 ## Remarks
 
 X_Offset and Y_Offset are from the upper left-hand corner of the attribute to the upper left-hand corner of the balloon. The offsets can be positive or negative numbers.
 
-For more information, see the Ballooning Settings PropertyManager - Offsets section of the**SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Balloons**topic.
+For more information, see the Ballooning Settings PropertyManager - Offsets section of the **SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started > Balloons** topic.
 
 ## See Also
 
 [IBalloonSettings Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings.html)
-
 [IBalloonSettings Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings_members.html)
 
 ## Availability

@@ -42,36 +42,21 @@ property ModelDoc2^ Document {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-to get
+[Document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) to get
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::Document](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~Document.html)
-
-.
+See [FeatureManager::Document](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~Document.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IModelDocExtension::Document Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Document.html)
-
 [IModelViewManager::Document Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager~Document.html)
 
 ## Availability

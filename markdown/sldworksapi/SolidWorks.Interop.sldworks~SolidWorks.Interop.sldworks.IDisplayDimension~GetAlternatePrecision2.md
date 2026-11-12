@@ -40,27 +40,15 @@ System.int GetAlternatePrecision2()
 System.int GetAlternatePrecision2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Precision setting as defined in
-
-[swDimensionPrecisionSettings_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionPrecisionSettings_e.html)
+Precision setting as defined in [swDimensionPrecisionSettings_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDimensionPrecisionSettings_e.html)
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetAlternatePrecision2](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetAlternatePrecision2.html)
-
-.
+See [DisplayDimension::GetAlternatePrecision2](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetAlternatePrecision2.html).
 
 ## Examples
 
@@ -68,20 +56,16 @@ See
 
 ## Remarks
 
-If the return value equals swPrecisionFollowsDocumentSetting, then the precision used is the document default for dual dimension values. You can retrieve the value using[IModelDocExtension::GetUserPreferenceInteger](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceInteger.html)with swDetailingAltLinearDimPrecision. Otherwise, the return value is the precision in the dimensions dual units.
+If the return value equals swPrecisionFollowsDocumentSetting, then the precision used is the document default for dual dimension values. You can retrieve the value using [IModelDocExtension::GetUserPreferenceInteger](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceInteger.html) with swDetailingAltLinearDimPrecision. Otherwise, the return value is the precision in the dimensions dual units.
 
-Use[IDisplayDimension::SetPrecision2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetPrecision2.html)to set precision values on this display dimension.
+Use [IDisplayDimension::SetPrecision2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetPrecision2.html) to set precision values on this display dimension.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::GetPrimaryTolPrecision2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetPrimaryTolPrecision2.html)
-
 [IDisplayDimension:GetPrimaryPrecision2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetPrimaryPrecision2.html)
-
 [IDisplayDimension:GetPrimaryTolPrecision2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetPrimaryTolPrecision2.html)
 
 ## Availability

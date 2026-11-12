@@ -45,13 +45,7 @@ property System.int BackgroundBottomGradientColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,21 @@ RGB color
 
 ## VBA Syntax
 
-See
-
-[SwScene::BackgroundBottomGradientColor](ms-its:sldworksapivb6.chm::/sldworks~SwScene~BackgroundBottomGradientColor.html)
-
-.
+See [SwScene::BackgroundBottomGradientColor](ms-its:sldworksapivb6.chm::/sldworks~SwScene~BackgroundBottomGradientColor.html).
 
 ## Examples
 
-See the
-
-[ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
-examples.
+See the [ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html) examples.
 
 ## Remarks
 
-This property is valid only if[ISwScene::BackgroundType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundType.html)is[swSceneBackgroundType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSceneBackgroundType_e.html).swBackgroundType_Graduated.
+This property is valid only if [ISwScene::BackgroundType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundType.html) is [swSceneBackgroundType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSceneBackgroundType_e.html).swBackgroundType_Graduated.
 
-Set the top color of the graduated range of background colors with[ISwScene::BackgroundTopGradientColor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundTopGradientColor.html).
+Set the top color of the graduated range of background colors with [ISwScene::BackgroundTopGradientColor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundTopGradientColor.html).
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

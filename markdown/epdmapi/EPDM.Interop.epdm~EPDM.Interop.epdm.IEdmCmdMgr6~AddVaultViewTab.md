@@ -59,28 +59,15 @@ void AddVaultViewTab(
 
 ## Examples
 
-See the
-
-[IEdmCmdMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr6.html)
-
-examples.
+See the [IEdmCmdMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr6.html) examples.
 
 ## Remarks
 
-Call this method in your add-in's implementation of
-
-[IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html)
-
-where you handle the
-
-[EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html)
-
-.EdmCmd_PreExploreInit notification.
+Call this method in your add-in's implementation of [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html) where you handle the [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_PreExploreInit notification.
 
 ## See Also
 
 [IEdmCmdMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr6.html)
-
 [IEdmCmdMgr6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr6_members.html)
 
 ## Availability

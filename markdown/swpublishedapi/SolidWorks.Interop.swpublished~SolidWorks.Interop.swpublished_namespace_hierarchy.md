@@ -12,6 +12,9 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 ## Inheritance Hierarchy
 
 System.Object
+[SolidWorks.Interop.swpublished.MessageBarHandlerClass](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.MessageBarHandlerClass.html)
+[SolidWorks.Interop.swpublished.SwPEManagerClass](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.SwPEManagerClass.html)
+[SolidWorks.Interop.swpublished.UserNotificationHandlerClass](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.UserNotificationHandlerClass.html)
 
 ## See Also
 

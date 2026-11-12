@@ -44,7 +44,6 @@ void RefreshFolder(
 ## Examples
 
 [Execute Template (C#)](Execute_Template_Example_CSharp.htm)
-
 [Execute Template (VB.NET)](Execute_Template_Example_VBNET.htm)
 
 ## Remarks
@@ -64,7 +63,6 @@ There is no way to force a refresh on other machines.
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
 
 ## Availability

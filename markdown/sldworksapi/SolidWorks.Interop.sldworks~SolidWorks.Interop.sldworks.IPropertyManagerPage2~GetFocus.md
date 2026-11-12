@@ -40,13 +40,7 @@ System.int GetFocus()
 System.int GetFocus();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ User-defined ID of the control that has focus
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2::GetFocus](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~GetFocus.html)
-
-.
+See [PropertyManagerPage2::GetFocus](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~GetFocus.html).
 
 ## See Also
 
 [IPropertyManagerPage2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
 [IPropertyManagerPage2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2_members.html)
-
 [IPropertyManagerPage2::SetFocus Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2~SetFocus.html)
 
 ## Availability

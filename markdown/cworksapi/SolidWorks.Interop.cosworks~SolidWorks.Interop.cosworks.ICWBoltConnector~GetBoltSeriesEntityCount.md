@@ -46,18 +46,12 @@ Number of bolt series for this bolt connector
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::GetBoltSeriesEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~GetBoltSeriesEntityCount.html)
-
-.
+See [CWBoltConnector::GetBoltSeriesEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~GetBoltSeriesEntityCount.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::RemoveBoltSeriesEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~RemoveBoltSeriesEntity.html)
 
 ## Availability

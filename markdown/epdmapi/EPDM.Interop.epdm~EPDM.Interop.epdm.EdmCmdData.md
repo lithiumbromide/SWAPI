@@ -34,25 +34,34 @@ public value class EdmCmdData : public System.ValueType
 
 ## Examples
 
-struct EdmCmdData{ integer mlObjectID1 ; integer mlObjectID2 ; integer mlObjectID3 ; integer mlObjectID4 ; string mbsStrData1 ; string mbsStrData2 ; string mbsStrData3 ; integer mlLongData1 ; integer mlLongData2 ; integer mlLongData3 ; object* mpoExtra ; };
+struct EdmCmdData{
+integer [mlObjectID1](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlObjectID1.html);
+integer [mlObjectID2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlObjectID2.html);
+integer [mlObjectID3](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlObjectID3.html);
+integer [mlObjectID4](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlObjectID4.html);
+string [mbsStrData1](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mbsStrData1.html);
+string [mbsStrData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mbsStrData2.html);
+string [mbsStrData3](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mbsStrData3.html);
+integer [mlLongData1](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlLongData1.html);
+integer [mlLongData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlLongData2.html);
+integer [mlLongData3](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mlLongData3.html);
+object* [mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData~mpoExtra.html);
+};
 
 ## Examples
 
 [Notify User When File Changes State (VB.NET)](Notify_User_When_File_Changes_State_Example_VBNET.htm)
-
 [Notify User When File Changes State (C#)](Notify_User_When_File_Changes_State_Example_CSharp.htm)
-
 [Change Card Variables Add-in (VB.NET)](Change_Card_Variables_Addin_Example_VBNET.htm)
-
 [Change Card Variables Add-in (C#)](Change_Card_Variables_Addin_Example_CSharp.htm)
 
 ## Remarks
 
-SOLIDWORKS PDM Professional passes an array of 0 or more EdmCmdData structures when it calls to[IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html).
+SOLIDWORKS PDM Professional passes an array of 0 or more EdmCmdData structures when it calls to [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html).
 
-Typically there is one structure for each file affected by the command. For instance, if the user has selected five files and two folders and launches an add-in-implemented menu command, the add-in receives seven structures, one for each of the selected files and folders. If the reason for calling IEdmAddIn5::OnCmd is a hook on a command like Check out, Check in, Get, Change state, etc., the add-in receives one structure per file. The actual meaning of each structure member varies with the reason for calling IEdmAddIn5::OnCmd. The reason for a call can be determined by examining the meCmdType member of the[EdmCmd structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)that is passed in the first argument of IEdmAddIn5::OnCmd.
+Typically there is one structure for each file affected by the command. For instance, if the user has selected five files and two folders and launches an add-in-implemented menu command, the add-in receives seven structures, one for each of the selected files and folders. If the reason for calling IEdmAddIn5::OnCmd is a hook on a command like Check out, Check in, Get, Change state, etc., the add-in receives one structure per file. The actual meaning of each structure member varies with the reason for calling IEdmAddIn5::OnCmd. The reason for a call can be determined by examining the meCmdType member of the [EdmCmd structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html) that is passed in the first argument of IEdmAddIn5::OnCmd.
 
-The following tables contain all members for each[EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html). Members that are not listed for a certain type of command do not use EdmCmdData.
+The following tables contain all members for each [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html). Members that are not listed for a certain type of command do not use EdmCmdData.
 
 ##### EdmCmdType .EdmCmd_ActivateAPITab
 
@@ -64,11 +73,11 @@ When a custom vault view tab is selected in a vault view in File Explorer, sends
 
 ##### EdmCmdType .EdmCmd_PreExploreInit
 
-When a new instance of File Explorer to about to be created, this event is sent to allow you to create custom tabs in the vault view in File Explorer. This event does not provide any EdmCmdData information. But you will receive a pointer to the IEdmCmdMgr6 interface in the[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)member. In the event handler, call[IEdmCmdMgr6::AddValtViewTab](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr6~AddVaultViewTab.html)for each tab you want to add to the vault view in File Explorer.
+When a new instance of File Explorer to about to be created, this event is sent to allow you to create custom tabs in the vault view in File Explorer. This event does not provide any EdmCmdData information. But you will receive a pointer to the IEdmCmdMgr6 interface in the [EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html) member. In the event handler, call [IEdmCmdMgr6::AddValtViewTab](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr6~AddVaultViewTab.html) for each tab you want to add to the vault view in File Explorer.
 
 ##### EdmCmdType .EdmCmd_Menu
 
-The user has activated a menu item or toolbar button that your add-in has added. This command returns a combination of refresh flags in the mlEdmRefreshFlags member of the[EdmCmd structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html).
+The user has activated a menu item or toolbar button that your add-in has added. This command returns a combination of refresh flags in the mlEdmRefreshFlags member of the [EdmCmd structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html).
 
 | EdmCmdData Members | Type | Description |
 | --- | --- | --- |
@@ -80,7 +89,7 @@ The user has activated a menu item or toolbar button that your add-in has added.
 
 ##### EdmCmdType .EdmCmd_CardButton
 
-The user clicked a button in a file or folder data card, and the button is connected to an add-in. This notification is also sent when the user clicks**OK**or**Apply**in the card.
+The user clicked a button in a file or folder data card, and the button is connected to an add-in. This notification is also sent when the user clicks **OK** or **Apply** in the card.
 
 | EdmCmdData Members | Type | Description |
 | --- | --- | --- |
@@ -93,7 +102,7 @@ The user clicked a button in a file or folder data card, and the button is conne
 | mlLongData2 | integer | Optionally return the ID of a card control to set focus to here |
 | mpoExtra | object* | Pointer to an IEdmStrLst5 interface with the names of all configurations |
 
-Note: You will also receive pointers to the[IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)and[IEdmCard5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5.html)interfaces in the[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)member. The content of the[EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html)member is the button command string entered in the Card Editor.
+Note: You will also receive pointers to the [IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html) and [IEdmCard5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5.html) interfaces in the [EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html) member. The content of the [EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html) member is the button command string entered in the Card Editor.
 
 ##### EdmCmdType .EdmCmd_CardInput
 
@@ -110,11 +119,11 @@ The user has modified some data in a file or folder data card.
 | mlLongData1 | integer | ID of the updated variable |
 | mpoExtra | object* | Pointer to an IEdmStrLst5 interface with all configuration names |
 
-Note: You will also receive pointers to the[IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)and[IEdmCard5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5.html)interfaces in the[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)member. The content of the[EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html)member is the name of the modified variable.
+Note: You will also receive pointers to the [IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html) and [IEdmCard5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5.html) interfaces in the [EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html) member. The content of the [EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html) member is the name of the modified variable.
 
 ##### EdmCmdType .EdmCmd_CardListSrc
 
-A file or folder data card containing a list box or combo box is displayed. The add-in’s[IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html)method is given the opportunity to fill in the rows in the list instead of using the list contents defined in the card editor.
+A file or folder data card containing a list box or combo box is displayed. The add-in’s [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html) method is given the opportunity to fill in the rows in the list instead of using the list contents defined in the card editor.
 
 | EdmCmdData Members | Type | Description |
 | --- | --- | --- |
@@ -128,7 +137,7 @@ A file or folder data card containing a list box or combo box is displayed. The 
 | mlLongData1 | integer | ID of the control’s variable |
 | mpoExtra | object* | Pointer to an IEdmStrLst5 interface with all configuration names |
 
-Note: You will also receive a pointer to the[IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)and[IEdmCard5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5.html)interfaces via the[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)member. The content of the[EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html)member is the return value from your add-in's IEdmAddIn5::OnCmd implementation. This variable should be set to a newline delimited list of strings to be inserted into the list box or combo box. Leave this variable untouched to use the standard values from the card editor.
+Note: You will also receive a pointer to the [IEdmEnumeratorVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html) and [IEdmCard5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5.html) interfaces via the [EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html) member. The content of the [EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html) member is the return value from your add-in's IEdmAddIn5::OnCmd implementation. This variable should be set to a newline delimited list of strings to be inserted into the list box or combo box. Leave this variable untouched to use the standard values from the card editor.
 
 ##### EdmCmdType .EdmCmd_DeSelectItem
 
@@ -378,7 +387,7 @@ The user changes the workflow state of a file.
 | mlLongData1 | integer | Source state ID |
 | mlLongData2 | integer | Destination state ID |
 
-You will receive an[IEdmCmdNode](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode.html)interface in the mpoExtra member of the struct as of version 2011 during the change state operation.
+You will receive an [IEdmCmdNode](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode.html) interface in the mpoExtra member of the struct as of version 2011 during the change state operation.
 
 ##### CmdType.EdmCmd_PreUndoLock and EdmCmdType .EdmCmd_PostUndoLock
 
@@ -428,57 +437,45 @@ New serial number(s) should be generated by your add-in.
 
 ##### EdmCmdType .EdmCmd_TaskSetup
 
-This call is made to your add-in when the[task](Tasks.htm)definition property dialog box is called. The call makes it possible for you to add your own custom pages to the wizard. The[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)pointer points to[IEdmTaskProperties](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html), the interface of the task definition.
+This call is made to your add-in when the [task](Tasks.htm) definition property dialog box is called. The call makes it possible for you to add your own custom pages to the wizard. The [EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html) pointer points to [IEdmTaskProperties](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html), the interface of the task definition.
 
 You typically do the following in this call:
 
-- Call
-
-  [IEdmTaskProperties::SetSetupPages](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetSetupPages.html)
-
-  to add property dialog box pages.
-- Call
-
-  [IEdmTaskProperties::SetMenuCmds](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetMenuCmds.html)
-
-  to add menu commands to show in File Explorer.
-- Update the
-
-  [IEdmTaskProperties::TaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags.html)
-
-  property to inform the framework about what your add-in is capable of.
+- Call [IEdmTaskProperties::SetSetupPages](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetSetupPages.html) to add property dialog box pages.
+- Call [IEdmTaskProperties::SetMenuCmds](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~SetMenuCmds.html) to add menu commands to show in File Explorer.
+- Update the [IEdmTaskProperties::TaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags.html) property to inform the framework about what your add-in is capable of.
 
 None of the members in the EdmCmdData structure are used.
 
-See the Code Samples section of[Programming Tasks](Tasks.htm).
+See the Code Samples section of [Programming Tasks](Tasks.htm).
 
 ##### EdmCmdType .EdmCmd_TaskSetupButton
 
-This call is made to your add-in when the[task](Tasks.htm)definition property dialog box is closed. The[EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html)string is either "OK" or "Cancel", depending on how the dialog box closed. (The string is the same in all localized versions of the program.) The call makes it possible for you to save your own properties when**OK**is clicked. You can prevent the dialog box from closing by setting the[EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html)member to true. You can return the name of an add-in page to set focus to in the[EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html)string if[EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html)is set to true.[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to[IEdmTaskProperties](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html), the interface of the task definition.
+This call is made to your add-in when the [task](Tasks.htm) definition property dialog box is closed. The [EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html) string is either "OK" or "Cancel", depending on how the dialog box closed. (The string is the same in all localized versions of the program.) The call makes it possible for you to save your own properties when **OK** is clicked. You can prevent the dialog box from closing by setting the [EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html) member to true. You can return the name of an add-in page to set focus to in the [EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html) string if [EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html) is set to true. [EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html) points to [IEdmTaskProperties](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html), the interface of the task definition.
 
 None of the members in the EdmCmdData structure are used.
 
-See the Code Samples section of[Programming Tasks](Tasks.htm).
+See the Code Samples section of [Programming Tasks](Tasks.htm).
 
 ##### EdmCmdType .EdmCmd_TaskDetails
 
-This call is made to your add-in when the[task](Tasks.htm)details dialog box is displayed from the task list in the administration tool. You must specify the flag[EdmTaskFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskFlag.html).EdmTask_SupportsDetails in the[IEdmTaskProperties::TaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags.html)property in order to get the EdmCmd_TaskDetails call. You can set the flag when you get the[EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_TaskSetup call.[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to[IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html), the interface of the task instance.
+This call is made to your add-in when the [task](Tasks.htm) details dialog box is displayed from the task list in the administration tool. You must specify the flag [EdmTaskFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskFlag.html).EdmTask_SupportsDetails in the [IEdmTaskProperties::TaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags.html) property in order to get the EdmCmd_TaskDetails call. You can set the flag when you get the [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_TaskSetup call. [EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html) points to [IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html), the interface of the task instance.
 
-The EdmCmd::mpoExtra pointer should be set to your implementation of the extra page. The framework keeps this pointer referenced until the dialog box is closed. You return the window handle of the extra page in the member[EdmCmd::mlParentWnd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlParentWnd.html). The property dialog box calls ShowWindow when the page is displayed or hidden.
+The EdmCmd::mpoExtra pointer should be set to your implementation of the extra page. The framework keeps this pointer referenced until the dialog box is closed. You return the window handle of the extra page in the member [EdmCmd::mlParentWnd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlParentWnd.html). The property dialog box calls ShowWindow when the page is displayed or hidden.
 
 None of the members in the EdmCmdData structure are used.
 
-See the Code Samples section of[Programming Tasks](Tasks.htm).
+See the Code Samples section of [Programming Tasks](Tasks.htm).
 
 ##### EdmCmdType .EdmCmd_TaskRun
 
-This is the callback that is called when the actual work of the[task](Tasks.htm)is supposed to be executed. The task is usually executed on a remote server so you must not display any user interface during this call. See the OnTaskRun function in the[task sample code](TaskSample.htm)for an example of how to return status information and errors to the user.
+This is the callback that is called when the actual work of the [task](Tasks.htm) is supposed to be executed. The task is usually executed on a remote server so you must not display any user interface during this call. See the OnTaskRun function in the [task sample code](TaskSample.htm) for an example of how to return status information and errors to the user.
 
-The[EdmCmd::mlCurrentFolderID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlCurrentFolderID.html)argument is the ID of the current folder when the task was launched. It is zero if the task was launched from the administration tool.
+The [EdmCmd::mlCurrentFolderID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlCurrentFolderID.html) argument is the ID of the current folder when the task was launched. It is zero if the task was launched from the administration tool.
 
-[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to the[IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)interface of the task instance.
+[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html) points to the [IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html) interface of the task instance.
 
-See the Code Samples section of[Programming Tasks](Tasks.htm).
+See the Code Samples section of [Programming Tasks](Tasks.htm).
 
 | EdmCmdData Members | Type | Description |
 | --- | --- | --- |
@@ -490,13 +487,13 @@ See the Code Samples section of[Programming Tasks](Tasks.htm).
 
 ##### EdmCmdType .EdmCmd_TaskLaunch
 
-You need to specify the EdmTask_SupportsInitExec in the[IEdmTaskProperties::TaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags.html)property in order to get this callback. This callback makes it possible for you to display a message box or a custom dialog box (System.Windows.Form) in which the user selects files or enters data that can be passed back to the task add-in (e.g., poCmd.mbCancel).
+You need to specify the EdmTask_SupportsInitExec in the [IEdmTaskProperties::TaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags.html) property in order to get this callback. This callback makes it possible for you to display a message box or a custom dialog box (System.Windows.Form) in which the user selects files or enters data that can be passed back to the task add-in (e.g., poCmd.mbCancel).
 
-[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to[IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html), the interface of the task.
+[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html) points to [IEdmTaskInstance](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html), the interface of the task.
 
-You can set[EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html)to true to halt further execution of the task.
+You can set [EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html) to true to halt further execution of the task.
 
-See the Code Samples section of[Programming Tasks](Tasks.htm).
+See the Code Samples section of [Programming Tasks](Tasks.htm).
 
 | EdmCmdData Members | Type | Description |
 | --- | --- | --- |
@@ -509,18 +506,17 @@ See the Code Samples section of[Programming Tasks](Tasks.htm).
 
 ##### EdmCmdType .EdmCmd_TaskLaunchButton
 
-This callback is made if the framework displays a dialog box during the launching of a task using the[EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_TaskLaunch callback and the user clicks a button in the dialog. You can query[EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html)which contains the string "OK" or "Cancel", depending on which button was clicked in the task launch dialog. The strings are the same on all localized versions of the program. Depending on the user's button click in the task launch dialog, implement this callback to set[EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html)to true to halt further execution of the task or false to continue the task execution.
+This callback is made if the framework displays a dialog box during the launching of a task using the [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_TaskLaunch callback and the user clicks a button in the dialog. You can query [EdmCmd::mbsComment](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbsComment.html) which contains the string "OK" or "Cancel", depending on which button was clicked in the task launch dialog. The strings are the same on all localized versions of the program. Depending on the user's button click in the task launch dialog, implement this callback to set [EdmCmd::mbCancel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mbCancel.html) to true to halt further execution of the task or false to continue the task execution.
 
-[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html)points to IEdmTaskInstance, the interface of the task.
+[EdmCmd::mpoExtra](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mpoExtra.html) points to IEdmTaskInstance, the interface of the task.
 
 None of the members in the EdmCmdData structure are used.
 
-See the Code Samples section of[Programming Tasks](Tasks.htm),
+See the Code Samples section of [Programming Tasks](Tasks.htm),
 
 ## See Also
 
 [EdmCmdData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

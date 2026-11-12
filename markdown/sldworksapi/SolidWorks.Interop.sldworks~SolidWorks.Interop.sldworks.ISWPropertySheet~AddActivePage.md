@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISW
 
 # AddActivePage Method (ISWPropertySheet)
 
-Adds a third-party CPropertyPage to
-
-[ISWPropertySheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html)
-
-and adds an ActiveX control on top of the page.
+Adds a third-party CPropertyPage to [ISWPropertySheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html) and adds an ActiveX control on top of the page.
 
 ## Syntax
 
@@ -59,18 +55,12 @@ System.int AddActivePage(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Title`: Title of CPropertyPage
-- `ProgId`: Name, ProgID, or CLSID of the ActiveX control (seeRemarks)
+- `ProgId`: Name, ProgID, or CLSID of the ActiveX control (see Remarks)
 - `LicenseKey`: License key for the ActiveX control
 
 ### Return Value
@@ -79,11 +69,7 @@ Index of CPropertyPage on ISWPropertySheet
 
 ## VBA Syntax
 
-See
-
-[SWPropertySheet::AddActivePage](ms-its:sldworksapivb6.chm::/sldworks~SWPropertySheet~AddActivePage.html)
-
-.
+See [SWPropertySheet::AddActivePage](ms-its:sldworksapivb6.chm::/sldworks~SWPropertySheet~AddActivePage.html).
 
 ## Examples
 
@@ -129,20 +115,19 @@ End Sub
 
 ## Remarks
 
-Typically, this method is called from the ISldWorks[PropertySheetCreateNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_PropertySheetCreateNotifyEventHandler.html)event handler. See the Example section.
+Typically, this method is called from the ISldWorks [PropertySheetCreateNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_PropertySheetCreateNotifyEventHandler.html) event handler. See the Example section.
 
 The ProgID argument accepts any of these values:
 
-- OLE short namekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}or ProgID for the class; for example,"MSCAL.Calendar". The name must match the name registered by the control.
+- OLE short name or ProgID for the class; for example, "MSCAL.Calendar". The name must match the name registered by the control.
 
-- String form of a CLSID, contained within braces, for example,"{9DBAFCCF-592F-101B-85CE-00608CEC297B}".
+- String form of a CLSID, contained within braces, for example, "{9DBAFCCF-592F-101B-85CE-00608CEC297B}".
 
-See also Keystrokes and Accelerator Keys in ActiveX Modeless Dialogs and PropertyManager Pages .
+See also [Keystrokes and Accelerator Keys in ActiveX Modeless Dialogs and PropertyManager Pages](sldworksapiprogguide.chm::/overview/Keystrokes_and_Accelerator_Keys_and_ActiveX_Modeless_Dialogs_and_PropertyManager_Pages.htm).
 
 ## See Also
 
 [ISWPropertySheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISWPropertySheet.html)
-
 [ISWPropertySheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISWPropertySheet_members.html)
 
 ## Availability

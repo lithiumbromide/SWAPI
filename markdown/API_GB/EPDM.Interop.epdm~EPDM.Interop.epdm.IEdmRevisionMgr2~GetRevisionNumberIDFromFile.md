@@ -42,11 +42,7 @@ System.int GetRevisionNumberIDFromFile(
 
 ### Parameters
 
-- `lFileID`: ID of file for which to get a revision number (see
-
-Remarks
-
-)
+- `lFileID`: ID of file for which to get a revision number (see **Remarks**)
 - `pbCanIncrement`: True if the next increment will succeed, false if not
 
 ### Return Value
@@ -56,12 +52,11 @@ Revision number ID; 0 if no revision number is found for the file
 ## Examples
 
 [Set Initial Revision (VB.NET)](Set_Initial_Revision_Example_VBNET.htm)
-
 [Set Initial Revision (C#)](Set_Initial_Revision_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, set lFileID using[IEdmFile5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html).ID.
+Before calling this method, set lFileID using [IEdmFile5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html).ID.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -70,7 +65,6 @@ Before calling this method, set lFileID using[IEdmFile5](EPDM.Interop.epdm~EPDM.
 ## See Also
 
 [IEdmRevisionMgr2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2.html)
-
 [IEdmRevisionMgr2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2_members.html)
 
 ## Availability

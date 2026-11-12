@@ -45,13 +45,7 @@ property System.bool EnableSelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True if selection is enabled, false if disabled
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::EnableSelection](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~EnableSelection.html)
-
-.
+See [SelectionMgr::EnableSelection](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~EnableSelection.html).
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)
-
 [ISelectionMgr::EnableContourSelection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~EnableContourSelection.html)
 
 ## Availability

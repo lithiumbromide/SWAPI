@@ -69,73 +69,48 @@ System.Object^ GetMinMaxStress(
 
 ### Parameters
 
-- `NComponent`: Stress component as defined in
-
-[swsStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStressComponent_e.html)
+- `NComponent`: Stress component as defined in [swsStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStressComponent_e.html)
 - `NElementNumber`: Element number
 - `NStepNum`: Solution step number (use 1 for static)
 - `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if reference geometry does not exist
-- `NUnits`: Units as defined in
-
-[swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Units as defined in [swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetMinMaxStress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxStress.html)
-
-.
+See [CWResults::GetMinMaxStress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxStress.html).
 
 ## Examples
 
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analyze Part (VBA)](Analyze_Part_Example_VB.htm)
-
 [Create Drop Test Study (VBA)](Create_Drop_Test_Study_Example_VB.htm)
-
 [Create Drop Test Study (VB.NET)](Create_Drop_Test_Study_Example_VBNET.htm)
-
 [Create Drop Test Study (C#)](Create_Drop_Test_Study_Example_CSharp.htm)
 
 ## Remarks
 
 This method returns the following array:
 
-{`node_with_minimum_stress`,`minimum_stress`,`node_with_maximum_stress`,`maximum_stress`},
+{`node_with_minimum_stress`, `minimum_stress`, `node_with_maximum_stress`, `maximum_stress`},
 
 where the nodes are integer indexes, and the stresses are in scientific notation.
 
-For random vibration studies, this method returns power spectral density (PSD) values. To obtain root-mean-square (RMS) values in random vibration studies, call[ICWResults::GetMinMaxStressRMS](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStressRMS.html).
+For random vibration studies, this method returns power spectral density (PSD) values. To obtain root-mean-square (RMS) values in random vibration studies, call [ICWResults::GetMinMaxStressRMS](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStressRMS.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetStress Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStress.html)
-
 [ICWResults::GetStressComponentForAllStepsAtNode Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStressComponentForAllStepsAtNode.html)
-
 [ICWResults::GetStressForEntities Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStressForEntities.html)
-
 [ICWResults::GetMinMaxStressForHarmonic Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStressForHarmonic.html)
-
 [ICWResults::GetStressTensorValuesForAllNodesOfElement Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStressTensorValuesForAllNodesOfElement.html)
 
 ## Availability

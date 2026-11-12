@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelDoc Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [IModelDoc2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html).
 
-[IModelDoc2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class IModelDoc
 
 ## VBA Syntax
 
-See
-
-[ModelDoc](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc.html)
-
-.
+See [ModelDoc](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc.html).
 
 ## See Also
 
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -1,0 +1,493 @@
+<<< IPDMWConfiguration.AlternateName | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~AlternateName.md
+R: Alternate name for the configuration
+<<< IPDMWConfiguration.Comment | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~Comment.md
+R: Comments
+<<< IPDMWConfiguration.docname | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~docname.md
+R: Name of the source document
+<<< IPDMWConfiguration.DocRevision | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~DocRevision.md
+R: Revision of the source document for the configuration
+<<< IPDMWConfiguration.Document | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~Document.md
+R: Document for this configuration
+<<< IPDMWConfiguration.ExtReferences | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~ExtReferences.md
+R: Collection of links to external documents referenced by this configuration
+X: An external document is any type of derived part, parent or child, including base, mirrored, and component parts.
+<<< IPDMWConfiguration.ExtWhereUsed | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~ExtWhereUsed.md
+R: Collection of links to external documents that reference this configuration
+X: An external document is any type of derived part, parent or child, including base, mirrored, and component parts.
+<<< IPDMWConfiguration.Name | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~Name.md
+R: Name for the configuration
+<<< IPDMWConfiguration.Properties | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~Properties.md
+R: Collection of properties for the configuration
+<<< IPDMWConfiguration.References | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~References.md
+R: Collection of links to documents referenced by this configuration
+<<< IPDMWConfiguration.WhereUsed | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration~WhereUsed.md
+R: Collection of links of documents that reference this configuration
+<<< IPDMWConfigurations.Count | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfigurations~Count.md
+R: Number of configurations
+<<< IPDMWConfigurations.Item | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfigurations~Item.md
+P: Index: Number or name indicating which configuration to get
+R: An IPDMWConfiguration
+<<< IPDMWConnection.AdminDefinedProperties | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~AdminDefinedProperties.md
+R: IPDMWProperties collection
+X: These properties are read-only. IPDMWPropertes::Add does nothing when used in this context.
+<<< IPDMWConnection.CheckIn | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CheckIn.md
+P: filename: Name of the closed document to check in
+P: project: Name of the project to which the document belongs
+P: Number: Document number
+P: Description: Document description
+P: note: Document notes
+P: i_revOption: Revision option as defined in PDMWRevisionOptionType (see Remarks)
+P: Revision: Document revision
+P: lifecycle: Document lifecycle status
+P: RetainOwnership: True to retain ownership of the document in the vault, false to not
+P: References: Array of the full paths and filenames of any referenced documents to check in (see Remarks)
+R: IPDMWDocument object
+X: The document to check in must be closed before calling this method.
+IMPORTANT: Because this method is dependent on pdmworks_libFNP.dll, you must ensure that your application can find this DLL. The simplest way for your application to find pdmworks_libFNP.dll is to add its location to the PATH environmental variable. See Microsoft Corp's Dynamic-Link Library Search Order.aspx) for details.
+This method only works on computers where both the SOLIDWORKS Workgroup PDM Contributor or Addin client software and SOLIDWORKS Workgroup PDM API DLL are installed.
+This method can check in multiple file types, e.g., SOLIDWORKS, eDrawings, Microsoft Word, text, bitmap, PDF, etc.; however, only SOLIDWORKS documents saved in SOLIDWORKS 99 and later are supported by this method.
+You must own the document before you can check it in. See IPDMWDocument::TakeOwnership for details about how to take ownership of a document.
+If i_revOption is set to PDMWRevisionOptionType.Other, then the revision argument is used.
+| If checking in a document that references... | Then... |
+| Non-Microsoft Word or Excel documents | The references argument is ignored. Instead, you must use IPDMWConnection::CheckIn to check in each referenced document individually. |
+| Microsoft Word or Excel documents | The array of references is used. |
+<<< IPDMWConnection.CreateGroup | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CreateGroup.md
+P: Name: Name of new group
+R: IPDMWGroup object
+X: Only a vault administrator can use this method.
+<<< IPDMWConnection.CreateProject | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CreateProject.md
+P: Name: Name of new project
+P: Description: Description of new project
+P: Parent: Name of parent project of new project or an empty string if the new project is at the root level
+R: IPDMWProject object
+X: Only a vault administrator can use this method.
+<<< IPDMWConnection.CreateUser | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CreateUser.md
+P: Name: Name of new user
+P: password: Password for new user required at login
+P: DisplayName: Name of new user for vault administrator's purposes
+P: Email: Email of new user for vault administrator's purposes
+P: Comment: Comments for vault administrator's purposes
+P: PropertyFilterName: Name of property to use to restrict access to files and projects or an empty string to indicate that properties are not in use to restrict access
+P: PropertyFilterValue: Values for properties (use a comma between values) to restrict access to files and projects or an empty string to indicate that properties are not in use to restrict access
+R: IPDMWUser object
+X: Only a vault administrator can use this method.
+<<< IPDMWConnection.DeleteDocument | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteDocument.md
+P: docname: Name of the document to delete from the vault
+R: 0 if successful, non-0 if not
+<<< IPDMWConnection.DeleteGroup | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteGroup.md
+P: Name: Name of the group to delete
+X: Only a vault administrator can use this method.
+<<< IPDMWConnection.DeleteProject | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteProject.md
+P: Name: Name of project to delete
+X: Only a vault administrator can use this method.
+<<< IPDMWConnection.DeleteUser | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteUser.md
+P: Name: Name of user to delete
+X: Only a vault administrator can use this method.
+<<< IPDMWConnection.DocumentList | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DocumentList.md
+P: project: Name of the project to which the documents belong
+R: Array of the list of documents belonging to the specified project
+<<< IPDMWConnection.Documents | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~Documents.md
+P: project: Name of the project
+R: Collection of documents
+X: | If... | Then... |
+| A project is passed | The documents that exist within the project are returned |
+| An empty string is passed | The contents of the vault are returned |
+<<< IPDMWConnection.FreeCacheMemory | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~FreeCacheMemory.md
+X: Only a vault adminstrator call use this method.
+<<< IPDMWConnection.GetSearchOptionsObject | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~GetSearchOptionsObject.md
+R: IPDMWSearchOptions object
+<<< IPDMWConnection.GetSpecificDocument | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~GetSpecificDocument.md
+P: Name: Name of the document to get
+P: Revision: Version of the document to get; if not specified, the most recent version of the specified document is used
+R: Pointer to the specified document
+<<< IPDMWConnection.Groups | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~Groups.md
+R: IPDMWGroups collection
+<<< IPDMWConnection.Login | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~Login.md
+P: user: Name of user in SOLIDWORKS Workgroup PDM
+P: password: Password of user in SOLIDWORKS Workgroup PDM
+P: server: Name of the server (DNS name or IP address)
+P: request_port: Request port number; defaults to 40000
+P: data_port: Data port number; defaults to 30000
+R: 0 if successful, non-0 if not
+<<< IPDMWConnection.Projects | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~Projects.md
+R: Collection of SOLIDWORKS Workgroup PDM projects
+<<< IPDMWConnection.Search | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~Search.md
+P: pSearchOptions: IPDMWSearchOptions object
+R: IPDMWSearchResults object
+<<< IPDMWConnection.Statuses | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~Statuses.md
+R: Array of strings of defined lifecycle statuses
+<<< IPDMWConnection.Users | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~Users.md
+R: IPDMWUsers collection
+<<< IPDMWDocument.AddNote | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~AddNote.md
+P: action: Action
+P: note: Note
+R: 0 if successful, non-0 if not
+X: The note is added to the document history and includes the name of the current user and the time when the user added the note.
+<<< IPDMWDocument.Attachments | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Attachments.md
+R: Collection of links of non-SOLIDWORKS attachments for this SOLIDWORKS document
+<<< IPDMWDocument.BumpRevision | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~BumpRevision.md
+P: i_cstrNewRev: New revision number NOTE: If you specify an empty string for i_cstrNewRev, then the next logical revision is used.
+P: i_cstrNote: Note
+R: 0 on success, non-0 on failure
+<<< IPDMWDocument.ChangeOwner | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ChangeOwner.md
+P: Owner: Name of new document owner
+R: 0 on success, non-0 on failure
+X: This functionality is only available via the SOLIDWORKS Workgroup PDM API; it is not available in the user interface. Only vault administrators can use this method.
+This method does not release ownership of any child documents. Use IPDMWDocument::ReleaseOwnership to do this.
+<<< IPDMWDocument.ChangeProject | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ChangeProject.md
+P: project: Project to which to move the document
+P: bSelectedItem: TRUE to move document, FALSE to not
+P: i_childrenType: Type of children documents, as defined in PDMWChildrenType, to move to the new project
+P: bIgnoreLinks: TRUE to ignore any references from other projects to the document, FALSE to not
+R: True to ignore any references from other projects to the document, false to not
+<<< IPDMWDocument.ChangeStatus | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ChangeStatus.md
+P: i_bstrStatus: Value corresponding to one of the life-cycle statuses created in VaultAdmin
+R: 0 if successful, non-0 if not
+<<< IPDMWDocument.Configurations | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Configurations.md
+R: Collection of configurations
+<<< IPDMWDocument.DateModified | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~DateModified.md
+R: Date and time document last modified
+X: For Visual Basic for Applications (VBA) and unmanaged C++ COM, this property returns a VARIANT of type VT_DATE that corresponds to the Windows date-modified field: date, hours, minutes, seconds.
+<<< IPDMWDocument.Description | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Description.md
+R: Description of document
+X: You can change the document's description property by accessing the document's custom property; for example, IPDMWDocument::Properties("Description").
+<<< IPDMWDocument.ExtReferences | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ExtReferences.md
+R: Collection of links of external documents that this document references
+X: An external document is any type of derived part, parent or child, including base, mirrored, and component parts.
+<<< IPDMWDocument.ExtWhereUsed | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ExtWhereUsed.md
+R: Collection of links of external documents that reference this document
+X: An external document is any type of derived part, parent or child, including base, mirrored, and component parts.
+<<< IPDMWDocument.GetDocumentSize | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~GetDocumentSize.md
+R: Size (in bytes) of the document (see Remarks)
+X: Convert the return value to a double. See the example for details.
+<<< IPDMWDocument.GetEmbeddedEDWAsBase64 | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~GetEmbeddedEDWAsBase64.md
+R: Embedded eDrawing data with Base64 encoding
+X: Data can then be formatted inline into the eDrawing ActiveX control to display within a web page or HTML-formatted email.
+Saving a SOLIDWORKS document with embedded eDrawings data is not supported in SOLIDWORKS 2006 and later, because eDrawings can now read native SOLIDWORKS files. This method only returns data for files with embedded eDrawings data created in SOLIDWORKS 2005 and earlier.
+<<< IPDMWDocument.GetStatus | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~GetStatus.md
+R: Lifecycle status
+<<< IPDMWDocument.HasPDF | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~HasPDF.md
+R: 0 if this drawing document does not have a PDF file in the vault, 1 if it does
+X: Call IPDMDocument::SaveAsPDF to get the PDF file of the drawing document from the vault, if it exists.
+<<< IPDMWDocument.IsTopLevel | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~IsTopLevel.md
+R: 0 if document is at the top-level project, 1 if not
+<<< IPDMWDocument.Name | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Name.md
+R: Name of document
+<<< IPDMWDocument.Notes | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Notes.md
+R: Collection of notes associated with this document
+X: Notes are ordered from oldest to newest.
+<<< IPDMWDocument.Number | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Number.md
+R: Number of document
+X: You can change the document's number property by accessing the document's custom property; for example, IPDMWDocument::Properties("Number").
+<<< IPDMWDocument.Owner | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Owner.md
+R: Name of the current owner of this document
+<<< IPDMWDocument.project | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~project.md
+R: Name of project to which this document belongs
+<<< IPDMWDocument.Properties | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Properties.md
+R: Collection of properties
+<<< IPDMWDocument.References | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~References.md
+R: Collection of links to documents referenced by this document
+<<< IPDMWDocument.ReleaseOwnership | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ReleaseOwnership.md
+R: 0 if successful, non-0 if not
+<<< IPDMWDocument.Revision | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Revision.md
+R: Revision for this document
+<<< IPDMWDocument.RevisionLabels | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~RevisionLabels.md
+R: Revisions
+<<< IPDMWDocument.Revisions | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Revisions.md
+R: Collection of the revisions of this document
+X: The collection returned is indexed by number as well as revision, but not by the name of the document. Therefore, the following is possible:
+' VBA
+' Given a PDMWDocuments collection called doc
+dim doc2 as PDMWDocument
+Dim revs As PDMWDocuments
+Set revs = doc.Revisions
+Set doc2 = revs ('01')  ' Pass a revision name string as an argument
+<<< IPDMWDocument.Save | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Save.md
+P: saveDir: Name of the folder to which to copy the document
+R: 0 if successful, non-0 if not
+<<< IPDMWDocument.SaveAsPDF | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~SaveAsPDF.md
+P: saveDir: Folder where to save the PDF file
+R: 0 if the PDF file is found in the vault, non-0 if not
+X: Before calling this method, call IPDMDocument::HasPDF to determine if a PDF file of the drawing document exists in the vault.
+<<< IPDMWDocument.SaveEmbeddedEDW | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~SaveEmbeddedEDW.md
+P: saveFileName: Filename or folder to which to save the embedded eDrawings
+R: 0 if successful, non-0 if not
+X: Saving a SOLIDWORKS document with embedded eDrawings data is not supported in SOLIDWORKS 2006 and later, because eDrawings can now read native SOLIDWORKS files. This method only returns data for files with embedded eDrawings data created in SOLIDWORKS 2005 and earlier.
+<<< IPDMWDocument.Size | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Size.md
+R: Size (in bytes) of a document smaller than 2GB or the size that represents the 32 low-order bits of a document larger than 2GB (see Remarks)
+X: | To get the size of a document... | Call... |
+| Smaller than 2GB | this property |
+| Larger than 2GB | this property and IPDMWDocument::SizeH and combine their return values |
+| Any size | IPDMWDocument::GetDocumentSize |
+<<< IPDMWDocument.SizeH | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~SizeH.md
+R: Size that represents the 32 high-order bits of a document larger than 2GB (see Remarks)
+X: | To get the size of a document... | Call... |
+| Smaller than 2GB | IPDMWDocument::Size |
+| Larger than 2GB | this property and IPDMWDocument::Size and combine their return values |
+| Any size | IPDMWDocument::GetDocumentSize |
+<<< IPDMWDocument.SolidWorksVersion | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~SolidWorksVersion.md
+R: SOLIDWORKS version
+X: | Major SOLIDWORKS Release | Version Number |
+| SOLIDWORKS 95 | 44 |
+| SOLIDWORKS 96 | 243 |
+| SOLIDWORKS 97 | 483 |
+| SOLIDWORKS 97Plus | 629 |
+| SOLIDWORKS 98 | 822 |
+| SOLIDWORKS 98Plus | 1008 |
+| SOLIDWORKS 99 | 1137 |
+| SOLIDWORKS 2000 | 1500 |
+| SOLIDWORKS 2001 | 1750 |
+| SOLIDWORKS 2001Plus | 1950 |
+| SOLIDWORKS 2003 | 2200 |
+| SOLIDWORKS 2004 | 2500 |
+| SOLIDWORKS 2005 | 2800 |
+| SOLIDWORKS 2006 | 3100 |
+| SOLIDWORKS 2007 | 3400 |
+| SOLIDWORKS 2008 | 3800 |
+| SOLIDWORKS 2009 | 4100 |
+| SOLIDWORKS 2010 | 4400 |
+| SOLIDWORKS 2011 | 4700 |
+| SOLIDWORKS 2012 | 5000 |
+| SOLIDWORKS 2013 | 6000 |
+| SOLIDWORKS 2014 | 7000 |
+| SOLIDWORKS 2015 | 8000 |
+| SOLIDWORKS 2016 | 9000 |
+| SOLIDWORKS 2017 | 10000 |
+<<< IPDMWDocument.TakeOwnership | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~TakeOwnership.md
+R: 0 if successful, an exception is thrown if not (see Remarks)
+X: Before you can check a document in, you must own it. See IPDMWConnection::Checkin for details about checking in documents.
+If a call to this method fails, the Document ownership was denied exception is thrown. You can trap this exception using a try/catch block in C# or C++, or On Error in VB.
+<<< IPDMWDocument.UpdateStamp | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~UpdateStamp.md
+R: Date document last updated
+X: The update stamp is an integer representing the time stamp. The update stamp in a SOLIDWORKS document is incremented when:
+- the state of the model changes (for example, you suppress or unsuppress a feature in a part or an assembly)
+- the geometry changes (for example, any action that requires a rebuild)
+This time stamp is not incremented for such operations as color changes, feature or configuration name changes, and so on.
+This property returns 0 for non-SOLIDWORKS documents.
+<<< IPDMWDocument.WhereUsed | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~WhereUsed.md
+R: Collection of links to the documents that reference this document
+<<< IPDMWDocumentNote | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote.md
+X: A note object corresponds to an entry in the History/Notes tab in a document's SOLIDWORKS Workgroup PDM - Document Information dialog box in the SOLIDWORKS Workgroup PDM Client.
+<<< IPDMWDocumentNote.action | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote~action.md
+R: Event that occurred
+X: The return value can contain:
+- "Check In"
+- "Check Out"
+- "Take Ownership"
+- "Release Ownership"
+- "Change Project"
+<<< IPDMWDocumentNote.DateTime | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote~DateTime.md
+R: Date and time of the note associated with this document
+<<< IPDMWDocumentNote.Description | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote~Description.md
+R: Description for this note
+<<< IPDMWDocumentNote.user | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote~user.md
+R: Name of the user who created this note
+<<< IPDMWDocumentNotes.Count | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNotes~Count.md
+R: Number of notes for this document
+<<< IPDMWDocumentNotes.Item | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNotes~Item.md
+P: Index: Number indicating which note to get
+R: IPDMWDocumentNote
+<<< IPDMWDocuments.Count | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocuments~Count.md
+R: Number of documents
+<<< IPDMWDocuments.Item | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocuments~Item.md
+P: Index: Number or name indicating which document to get (see Remarks)
+R: IPDMWDocument
+X: If this collection was returned from IPDMWDocument::References, then the document name refers to its revision name string, not its document name string.
+<<< IPDMWGroup.AddUser | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~AddUser.md
+P: userName: Name of user to add to the group
+X: Only a vault administrator can use this method.
+<<< IPDMWGroup.IsAdmin | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~IsAdmin.md
+R: True if this group is a vault administrator, false if not
+<<< IPDMWGroup.Name | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~Name.md
+X: Only a vault administrator can set the name of this group.
+<<< IPDMWGroup.RemoveUser | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~RemoveUser.md
+P: userName: Name of user to remove from group
+X: Only a vault administrator can use this method.
+<<< IPDMWGroup.Users | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~Users.md
+R: IPDMWUsers collection
+<<< IPDMWGroups.Count | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups~Count.md
+R: Number of groups
+<<< IPDMWGroups.Item | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups~Item.md
+P: Index: Number indicating which group to get
+R: IPDMWGroup
+<<< IPDMWLink.Config | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink~Config.md
+R: Name of the configuration for this link
+X: If the source object is an IPDMWDocument object, then the name of the configuration is not available.
+<<< IPDMWLink.Document | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink~Document.md
+R: IPDMWDocument object for this link
+<<< IPDMWLink.Name | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink~Name.md
+R: Name of the document for this link
+<<< IPDMWLink.project | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink~project.md
+R: Name of project for this link
+<<< IPDMWLink.Quantity | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink~Quantity.md
+R: Number of documents associated with this link
+<<< IPDMWLink.Revision | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink~Revision.md
+R: Revision of the document associated with this link
+<<< IPDMWLink.Type | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink~Type.md
+R: Type of link as defined by PDMWLinkType
+<<< IPDMWLinks.Count | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks~Count.md
+R: Number of links
+<<< IPDMWLinks.Item | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks~Item.md
+P: Index: Number indicating which link to get
+R: IPDMLink
+<<< IPDMWProject.AllowRead | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~AllowRead.md
+R: 0 if not allowed, 1 if allowed
+<<< IPDMWProject.AllowWrite | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~AllowWrite.md
+R: 0 if not allowed, 1 if allowed
+<<< IPDMWProject.CreateSubProject | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~CreateSubProject.md
+P: Name: New child project name
+P: Description: Child project description
+R: Newly created IPDMWProject object
+<<< IPDMWProject.Description | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~Description.md
+R: Description for this project
+X: Only a vault administrator can set the description.
+<<< IPDMWProject.DocumentCount | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~DocumentCount.md
+R: Number of documents in this project
+<<< IPDMWProject.DocumentList | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~DocumentList.md
+R: Array document names
+<<< IPDMWProject.Documents | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~Documents.md
+R: Collection of documents for this project
+<<< IPDMWProject.Name | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~Name.md
+R: Name of this project
+<<< IPDMWProject.Parent | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~Parent.md
+R: Parent project
+X: Only a vault administrator can set the parent of a project.
+<<< IPDMWProject.SetUserPermissions | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~SetUserPermissions.md
+P: Name: Name of user or group's project for which to set permissions
+P: permissions: Permissions to set as defined in PDMWPermission
+R: True if the permissions are set, false if not
+X: Only a vault administrator can use this method.
+<<< IPDMWProject.SubProjects | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~SubProjects.md
+R: Collection of child projects for this project
+<<< IPDMWProjects.Count | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects~Count.md
+R: Number of projects
+<<< IPDMWProjects.Item | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects~Item.md
+P: Index: Number or name indicating the project to get
+R: IPDMWProject
+<<< IPDMWProperties | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.md
+X: You can get collections of configuration, document, and vault administrator-defined custom properties. You can add new properties to configurations and documents; however, you cannot add new vault adminstrator-defined custom properties.
+<<< IPDMWProperties.Add | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Add.md
+P: Name: Name of the property
+R: IPDMWProperty
+X: If using this property to add a PDMWProperty to a IPDMWProperties collection, assign a value to the property using IPDMWProperty::Value and then use IPDMWProperties::Update to update the SOLIDWORKS Workgroup PDM vault. Otherwise, the property is not added.
+Use this method before using IPDMWProperties::Update.
+You cannot add new properties to collections of vault administrator-assigned custom properties.
+<<< IPDMWProperties.Count | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Count.md
+R: Number of properties
+<<< IPDMWProperties.Item | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Item.md
+P: Index: Number or name indicating the property to get
+R: IPDMWProperty
+X: Before calling this method, call IPDMWProperties::Count to get the number of properties in the collection.
+<<< IPDMWProperties.Update | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Update.md
+R: 0 if successful, non-0 if not
+X: To update the SOLIDWORKS Workgroup PDM vault, use this method after using:
+- IPDMWProperties::Add to add a new property.
+- IPDMWProperty::Value to change an existing property.
+If the Allow change document properties check box was not selected on the Vault Settings tab on the SOLIDWORKS Workgroup PDM VaultAdmin dialog box in the SOLIDWORKS Workgroup PDM VaultAdmin, then this method fails.
+SOLIDWORKS Workgroup PDM 2004 FCS and later support changing configuration-specific properties using the SOLIDWORKS Workgroup PDM API.
+<<< IPDMWProperty.Name | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperty~Name.md
+R: Name of this property
+<<< IPDMWProperty.Value | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperty~Value.md
+R: Value of this property
+X: Use IPDMWProperties::Update to update the SOLIDWORKS Workgroup PDM vault after using this property to change the value of a property.
+<<< IPDMWSearchCriteria.AddCriteria | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~AddCriteria.md
+P: andOr: Logical operator for subsequent criteria as defined in PDMWAndOr
+P: propertyType: Property type as defined in PDMWPropertyType
+P: propertyName: Name of property to use with which to search
+P: condition: Search condition as defined in PDMWConditionType
+P: Value: Value of the property for which to search
+R: True if this search criteria is added, false if not
+<<< IPDMWSearchCriteria.CriteriaCount | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~CriteriaCount.md
+R: Number of search criteria
+<<< IPDMWSearchCriteria.GetCriteria | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~GetCriteria.md
+P: Index: Index number of the search criteria to get
+P: andOr: Logical operator for subsequent criteria as defined in PDMWAndOr
+P: propertyType: Property type as defined in PDMWPropertyType
+P: propertyName: Name of property to use with which to search
+P: condition: Search condition as defined in PDMWConditionType
+P: Value: Value of the property for which to search
+R: True if this search criteria is retrieved, false if not
+X: To determine the number of search criteria, use IPDMWSearchCriteria::CriteriaCount before using this method.
+<<< IPDMWSearchCriteria.LoadFromFile | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~LoadFromFile.md
+P: filename: Path and filename of file containing search criteria
+R: True if search criteria is loaded from the specified file, false if not
+<<< IPDMWSearchCriteria.RemoveCriteria | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~RemoveCriteria.md
+P: Index: Index number of the search criteria to remove
+X: To determine the index number of the search criteria to remove, use IPDMWSearchCriteria::CriteriaCount before using this method.
+<<< IPDMWSearchCriteria.SaveToFile | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~SaveToFile.md
+P: filename: Path and filename of the file to which to save the search criteria
+R: True if the search criteria is saved to the specified file, false if not
+<<< IPDMWSearchOptions.IgnoreCase | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions~IgnoreCase.md
+R: True to ignore text case in text string searches, false to not
+<<< IPDMWSearchOptions.IgnoreLinks | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions~IgnoreLinks.md
+R: True to ignore links or shortcuts, false to search them
+X: By default, links and shortcuts are searched.
+<<< IPDMWSearchOptions.IncludeHiddenDocuments | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions~IncludeHiddenDocuments.md
+R: True to search hidden projects and documents, false to exclude them
+X: By default, hidden projects and documents are not searched.
+<<< IPDMWSearchOptions.SearchConfigSpecificProperties | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions~SearchConfigSpecificProperties.md
+R: True to search configuration-specific properties, false to not
+X: By default, configuration-specific properties are not searched.
+<<< IPDMWSearchOptions.SearchCriteria | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions~SearchCriteria.md
+R: IPDMWSearchCriteria
+<<< IPDMWSearchOptions.SearchOnlyChildrenOf | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions~SearchOnlyChildrenOf.md
+R: Path and filename of the project or parent document whose children to search or an empty string to search the entire va
+<<< IPDMWSearchResult.ConfigurationName | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~ConfigurationName.md
+R: Name of configuration
+X: IPDMWSearchOptions::SearchConfigSpecificProperties must be true to use this property.
+<<< IPDMWSearchResult.Description | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~Description.md
+R: Description of the document
+<<< IPDMWSearchResult.Document | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~Document.md
+R: IPDMWDocument
+<<< IPDMWSearchResult.Name | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~Name.md
+R: Name of document
+<<< IPDMWSearchResult.Number | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~Number.md
+R: Number of the document
+<<< IPDMWSearchResult.Owner | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~Owner.md
+R: Owner of document
+<<< IPDMWSearchResult.ParentPath | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~ParentPath.md
+R: Path to parent project and any subprojects
+X: For example:
+If the path is:
+Sample Project ->
+       Second Level SubProject ->
+               Third Level SubSubProject ->
+                       Document.sldprt
+Then this property returns:
+Sample Project/Second Level SubProject/Third Level SubSubProject
+<<< IPDMWSearchResult.project | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~project.md
+R: Name of project
+<<< IPDMWSearchResult.Revision | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~Revision.md
+R: Revision of the document
+<<< IPDMWSearchResult.Status | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult~Status.md
+R: Status
+<<< IPDMWSearchResults.Count | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResults~Count.md
+R: Number of search results
+<<< IPDMWSearchResults.Item | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResults~Item.md
+P: Index: Number or name indicating which search result to get
+R: IPDMSearchResult
+<<< IPDMWUser.Comment | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser~Comment.md
+R: Comments
+<<< IPDMWUser.DisplayName | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser~DisplayName.md
+R: Name of the user record to display
+<<< IPDMWUser.Email | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser~Email.md
+R: Email address
+<<< IPDMWUser.IsAdmin | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser~IsAdmin.md
+R: True if user is a vault administrator, false if not
+X: Only a vault administrator can set this user is a vault administration.
+A vault administrator cannot remove himself or herself from the list of vault administrators.
+<<< IPDMWUser.password | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser~password.md
+R: Password
+<<< IPDMWUser.PropertyFilterName | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser~PropertyFilterName.md
+R: Name of property
+X: Only a vault administrator can get or set the name of a property to use as a filter.
+<<< IPDMWUser.PropertyFilterValue | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser~PropertyFilterValue.md
+R: Value of a property to use as a filter
+X: Only a vault administrator can get or set the value of a property to use as a filter.
+<<< IPDMWUser.userName | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser~userName.md
+R: Username
+<<< IPDMWUsers.Count | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUsers~Count.md
+R: Number of users
+<<< IPDMWUsers.Item | pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUsers~Item.md
+P: Index: Number indicating which user to get
+R: IPDMWUser

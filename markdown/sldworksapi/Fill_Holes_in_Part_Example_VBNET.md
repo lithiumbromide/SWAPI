@@ -9,10 +9,7 @@ source: "sldworksapi/Fill_Holes_in_Part_Example_VBNET.htm"
 
 # Fill Holes in Part Example (VB.NET)
 
-In CAM drilling operations, it might be useful to deduce the appearance of an
-item before machining begins. This is slightly different than calculating the
-minimum amount of raw material required, i.e., the stock size. This example shows how to use some of the geometry- and topology-related
-methods and properties to fill all holes in a part.
+In CAM drilling operations, it might be useful to deduce the appearance of an item before machining begins. This is slightly different than calculating the minimum amount of raw material required, i.e., the stock size. This example shows how to use some of the geometry- and topology-related methods and properties to fill all holes in a part.
 
 ```
 '--------------------------------------------------------------------------

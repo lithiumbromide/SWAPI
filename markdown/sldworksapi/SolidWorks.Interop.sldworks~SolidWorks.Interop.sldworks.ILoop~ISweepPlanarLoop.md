@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # ISweepPlanarLoop Method (ILoop)
 
-Obsolete. Superseded by
-
-[ILoop2::ISweepPlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~ISweepPlanarLoop.html)
-
-.
+Obsolete. Superseded by [ILoop2::ISweepPlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~ISweepPlanarLoop.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ Body^ ISweepPlanarLoop(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,14 +75,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Loop::ISweepPlanarLoop](ms-its:sldworksapivb6.chm::/sldworks~Loop~ISweepPlanarLoop.html)
-
-.
+See [Loop::ISweepPlanarLoop](ms-its:sldworksapivb6.chm::/sldworks~Loop~ISweepPlanarLoop.html).
 
 ## See Also
 
 [ILoop Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop.html)
-
 [ILoop Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop_members.html)

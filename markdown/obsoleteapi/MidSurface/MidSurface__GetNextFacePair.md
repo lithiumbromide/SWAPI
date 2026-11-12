@@ -9,75 +9,33 @@ source: "obsoleteapi/MidSurface/MidSurface__GetNextFacePair.htm"
 
 # MidSurface::GetNextFacePair
 
-This method is obsolete
-and has been superseded by[MidSurface2::GetNextFacePair](sldworksAPI.chm::/MidSurface2/MidSurface2__GetNextFacePair.htm).
+This method is obsolete and has been superseded by [MidSurface2::GetNextFacePair](sldworksAPI.chm::/MidSurface2/MidSurface2__GetNextFacePair.htm).
 
 Description
 
-This method returns the next face pair in this MidSurface feature along
-with the thickness (in meters) between the two faces. The two face objects
-returned are the two parallel faces from the original part body that were
-used to generate the neutral face in this MidSurface feature.
+This method returns the next face pair in this MidSurface feature along with the thickness (in meters) between the two faces. The two face objects returned are the two parallel faces from the original part body that were used to generate the neutral face in this MidSurface feature.
 
 Syntax (OLE Automation)
 
-retval = MidSurface.GetNextFacePair
-( &thickness, &partnerFaceDisp)
-
-(Table)=========================================================
+retval = MidSurface.GetNextFacePair ( &thickness, &partnerFaceDisp)
 
 | Output: | (double) thickness | Distance between the two parallel faces |
 | --- | --- | --- |
-| Output: | (LPDISPATCH) partnerFaceDisp | Pointer to a Dispatch object, a face on the original part body used
-in generating the neutral face |
-| Return: | (LPDISPATCH) retval | Pointer to a Dispatch object, a face on the original part body used
-in generating the neutral face |
+| Output: | (LPDISPATCH) partnerFaceDisp | Pointer to a Dispatch object, a face on the original part body used in generating the neutral face |
+| Return: | (LPDISPATCH) retval | Pointer to a Dispatch object, a face on the original part body used in generating the neutral face |
 
 Syntax (COM)
 
-status = MidSurface->IGetNextFacePair
-( &thickness, &partnerFace, &retval )
-
-(Table)=========================================================
+status = MidSurface->IGetNextFacePair ( &thickness, &partnerFace, &retval )
 
 | Output: | (double) thickness | Distance between the two parallel faces |
 | --- | --- | --- |
-| Output: | (LPFACE) partnerFace | Pointer a face on the original part body used in generating the neutral
-face |
-| Output: | (LPFACE) retval | Pointer a face on the original part body used in generating the neutral
-face |
+| Output: | (LPFACE) partnerFace | Pointer a face on the original part body used in generating the neutral face |
+| Output: | (LPFACE) retval | Pointer a face on the original part body used in generating the neutral face |
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
 
-This method is used in combination with MidSurface::GetFirstFacePair.
-Each time this method is called, it returns subsequent face pairs used
-in this MidSurface feature.
+This method is used in combination with MidSurface::GetFirstFacePair. Each time this method is called, it returns subsequent face pairs used in this MidSurface feature.
 
-This method is identical to MidSurface::GetNextFace except this method
-does not return the neutral face.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1323" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="MidSurface_Object$$**$$ZGetFace$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\MidSurface\MidSurface__GetNextFacePair.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+This method is identical to MidSurface::GetNextFace except this method does not return the neutral face.

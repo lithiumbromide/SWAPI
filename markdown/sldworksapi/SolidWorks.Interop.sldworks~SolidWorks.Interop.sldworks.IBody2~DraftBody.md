@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # DraftBody Method (IBody2)
 
-Obsolete. Superseded by
-
-[IBody2::DraftBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DraftBody2.html)
-
-.
+Obsolete. Superseded by [IBody2::DraftBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DraftBody2.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ System.bool DraftBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,14 +75,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body2::DraftBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~DraftBody.html)
-
-.
+See [Body2::DraftBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~DraftBody.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)

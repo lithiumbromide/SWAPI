@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo~mlParam.html"
 
 # mlParam Field
 
-User-defined lParam argument passed to
-
-[IEdmBatchAddFolders::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~AddFolder.html)
-
-.
+User-defined lParam argument passed to [IEdmBatchAddFolders::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~AddFolder.html).
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int mlParam
 ## See Also
 
 [EdmFolderInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo.html)
-
 [EdmFolderInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo_members.html)

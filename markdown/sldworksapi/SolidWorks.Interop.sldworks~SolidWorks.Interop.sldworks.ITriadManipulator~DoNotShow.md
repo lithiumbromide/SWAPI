@@ -45,32 +45,19 @@ property System.int DoNotShow {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Control points to not show as defined in
-
-[swTriadManipulatorDoNotShow_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTriadManipulatorDoNotShow_e.html)
+Control points to not show as defined in [swTriadManipulatorDoNotShow_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTriadManipulatorDoNotShow_e.html)
 
 ## VBA Syntax
 
-See
-
-[TriadManipulator::DoNotShow](ms-its:sldworksapivb6.chm::/sldworks~TriadManipulator~DoNotShow.html)
-
-.
+See [TriadManipulator::DoNotShow](ms-its:sldworksapivb6.chm::/sldworks~TriadManipulator~DoNotShow.html).
 
 ## See Also
 
 [ITriadManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator.html)
-
 [ITriadManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator_members.html)
 
 ## Availability

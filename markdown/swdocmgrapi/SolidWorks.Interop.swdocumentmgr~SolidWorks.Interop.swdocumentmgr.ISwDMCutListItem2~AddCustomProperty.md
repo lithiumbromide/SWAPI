@@ -58,9 +58,7 @@ System.bool AddCustomProperty(
 ### Parameters
 
 - `FieldName`: Property name
-- `FieldType`: Property type as defined by
-
-[swDMCustomInfoType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmCustomInfoType.html)
+- `FieldType`: Property type as defined by [swDMCustomInfoType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmCustomInfoType.html)
 - `FieldValue`: Property link-to value or text expression
 
 ### Return Value
@@ -69,32 +67,24 @@ True if the custom property is added to the cut-list item, false if not and fals
 
 ## VBA Syntax
 
-See
-
-[SwDMCutListItem2::AddCustomProperty](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem2~AddCustomProperty.html)
-
-.
+See [SwDMCutListItem2::AddCustomProperty](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem2~AddCustomProperty.html).
 
 ## Examples
 
 [Get, Add, Change, and Delete Cut-List Custom Properties (C#)](Get,_Add,_Change,_and_Delete_Cut-List_Custom_Properties_Example_CSharp.htm)
-
 [Get, Add, Change, and Delete Cut-List Custom Properties (VB.NET)](Get,_Add,_Change,_and_Delete_Cut-List_Custom_Properties_Example_VBNET.htm)
 
 ## Remarks
 
 This method only supports model documents saved in SOLIDWORKS 2009 or later.
 
-If you call this method to add a linked custom property with an expression value, then you need to open and save the file in SOLIDWORKS before calling[ISwDMCutListItem2::GetCustomPropertyValue2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem2~GetCustomPropertyValue2.html). SOLIDWORKS needs to process the linked custom property before your DocumentMgr application attempts to get its evaluated value.
+If you call this method to add a linked custom property with an expression value, then you need to open and save the file in SOLIDWORKS before calling [ISwDMCutListItem2::GetCustomPropertyValue2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem2~GetCustomPropertyValue2.html). SOLIDWORKS needs to process the linked custom property before your DocumentMgr application attempts to get its evaluated value.
 
 ## See Also
 
 [ISwDMCutListItem2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem2.html)
-
 [ISwDMCutListItem2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem2_members.html)
-
 [ISwDMCutListItem2::DeleteCustomProperty Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem2~DeleteCustomProperty.html)
-
 [ISwDMCutListItem2::SetCustomProperty Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem2~SetCustomProperty.html)
 
 ## Availability

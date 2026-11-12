@@ -9,12 +9,9 @@ source: "API_GB/Add_Custom_File_Reference_Example_VBNET.htm"
 
 # Add Custom File Reference Example (VB.NET)
 
-This example shows how to add a custom file reference to a
-file in the vault.
+This example shows how to add a custom file reference to a file in the vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

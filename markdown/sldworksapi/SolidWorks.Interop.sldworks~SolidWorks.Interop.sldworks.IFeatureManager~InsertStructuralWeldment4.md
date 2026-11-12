@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertStructuralWeldment4 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertStructuralWeldment5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertStructuralWeldment5.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertStructuralWeldment5](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertStructuralWeldment5.html).
 
 ## Syntax
 
@@ -63,26 +59,14 @@ Feature^ InsertStructuralWeldment4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Path`: Full path name of the type of structural member (see
-
-Remarks
-
-)
-- `ConnectedSegmentsOption`: Option as defined in
-
-[swConnectedSegmentsOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConnectedSegmentsOption_e.html)
+- `Path`: Full path name of the type of structural member (see **Remarks**)
+- `ConnectedSegmentsOption`: Option as defined in [swConnectedSegmentsOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConnectedSegmentsOption_e.html)
 - `AllowProtrusion`: True to allow protrusion, false to not
-- `Groups`: Array of[IStructuralMemberGroup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStructuralMemberGroup.html)
+- `Groups`: Array of [IStructuralMemberGroup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStructuralMemberGroup.html)
 
 ### Return Value
 
@@ -90,34 +74,25 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertStructuralWeldment4](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertStructuralWeldment4.html)
-
-.
+See [FeatureManager::InsertStructuralWeldment4](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertStructuralWeldment4.html).
 
 ## Examples
 
 [Insert Structural Weldment (C#)](Insert_Structural_Weldment_Example_CSharp.htm)
-
 [Insert Structural Weldment (VB.NET)](Insert_Structural_Weldment_Example_VBNET.htm)
-
 [Insert Structural Weldment (VBA)](Insert_Structural_Weldment_Example_VB.htm)
 
 ## Remarks
 
-Populate Path using a weldment profile (*.**sldlfp**) from`install_dir`\**lang**\`lang`\**weldment profiles**.
+Populate Path using a weldment profile (*.**sldlfp**) from `install_dir`\**lang**\`lang`\**weldment profiles**.
 
-Use[IFeatureManager::CreateStructuralMemberGroup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~CreateStructuralMemberGroup.html),[IStructuralMemberFeatureData::Groups](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStructuralMemberFeatureData~Groups.html), or[IStructuralMemberFeatureData::IGetGroups](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStructuralMemberFeatureData~IGetGroups.html)to populate the Groups parameter.
+Use [IFeatureManager::CreateStructuralMemberGroup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~CreateStructuralMemberGroup.html), [IStructuralMemberFeatureData::Groups](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStructuralMemberFeatureData~Groups.html), or [IStructuralMemberFeatureData::IGetGroups](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStructuralMemberFeatureData~IGetGroups.html) to populate the Groups parameter.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IStructuralMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData.html)
-
 [IStructuralMemberGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup.html)
 
 ## Availability

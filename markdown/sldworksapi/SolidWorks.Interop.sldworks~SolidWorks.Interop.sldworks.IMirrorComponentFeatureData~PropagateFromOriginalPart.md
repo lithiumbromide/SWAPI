@@ -45,13 +45,7 @@ property System.bool PropagateFromOriginalPart {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to propagate visual properties from the original part, false to not
 
 ## VBA Syntax
 
-See
-
-[MirrorComponentFeatureData::PropagateFromOriginalPart](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~PropagateFromOriginalPart.html)
-
-.
+See [MirrorComponentFeatureData::PropagateFromOriginalPart](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~PropagateFromOriginalPart.html).
 
 ## Examples
 
-See the
-
-[IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
-example.
+See the [IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html) example.
 
 ## Remarks
 
-This property is valid only if
-
-[IMirrorComponentFeatureData::CreateDerivedConfigurations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~CreateDerivedConfigurations.html)
-
-is false.
+This property is valid only if [IMirrorComponentFeatureData::CreateDerivedConfigurations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~CreateDerivedConfigurations.html) is false.
 
 ## See Also
 
 [IMirrorComponentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
 [IMirrorComponentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData_members.html)
 
 ## Availability

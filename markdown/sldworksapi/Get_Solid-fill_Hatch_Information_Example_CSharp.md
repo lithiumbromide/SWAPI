@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Solid-fill_Hatch_Information_Example_CSharp.htm"
 
 # Get Solid-fill Hatch Information Example (C#)
 
-This example shows how to get information about solid-fill hatches in
-a detail view in the current drawing sheet.
+This example shows how to get information about solid-fill hatches in a detail view in the current drawing sheet.
 
 ```
 //-----------------------------------------------------------------------

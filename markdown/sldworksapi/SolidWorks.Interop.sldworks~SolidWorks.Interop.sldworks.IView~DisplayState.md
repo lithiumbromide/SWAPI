@@ -45,13 +45,7 @@ property System.String^ DisplayState {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ Name of the display state
 
 ## VBA Syntax
 
-See
-
-[View::DisplayState](ms-its:sldworksapivb6.chm::/Sldworks~View~DisplayState.html)
-
-.
+See [View::DisplayState](ms-its:sldworksapivb6.chm::/Sldworks~View~DisplayState.html).
 
 ## Examples
 
 [Get Display State for Each Drawing View (C#)](Get_Display_State_for_Each_Drawing_View_Example_CSharp.htm)
-
 [Get Display State for Each Drawing View (VB.NET)](Get_Display_State_for_Each_Drawing_View_Example_VBNET.htm)
-
 [Get Display State for Each Drawing View (VBA)](Get_Display_State_for_Each_Drawing_View_Example_VB.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

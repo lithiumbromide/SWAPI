@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 Gets whether the camera is in perspective mode or not.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ property System.bool Perspective {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,30 +55,20 @@ True if camera is in perspective mode, false if not
 
 ## VBA Syntax
 
-See
-
-[Camera::Perspective](ms-its:sldworksapivb6.chm::/sldworks~Camera~Perspective.html)
-
-.
+See [Camera::Perspective](ms-its:sldworksapivb6.chm::/sldworks~Camera~Perspective.html).
 
 ## Examples
 
 [Insert Camera (C#)](Insert_Cavity_Example_CSharp.htm)
-
 [Insert Camera (VB.NET)](Insert_Camera_Example_VBNET.htm)
-
 [Insert Camera (VBA)](Insert_Camera_Example_VB.htm)
 
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
-
 [ICamera::FieldOfViewAngle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~FieldOfViewAngle.html)
-
 [ICamera::FieldOfViewDepth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~FieldOfViewDepth.html)
-
 [ICamera::FieldOfViewHeight Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~FieldOfViewHeight.html)
 
 ## Availability

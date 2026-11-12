@@ -49,9 +49,7 @@ System.double GetMaxTckOnAnalArea(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -59,11 +57,7 @@ Maximum thickness of analyzed area
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis::GetMaxTckOnAnalArea](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~GetMaxTckOnAnalArea.html)
-
-.
+See [IThicknessAnalysis::GetMaxTckOnAnalArea](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~GetMaxTckOnAnalArea.html).
 
 ## Examples
 
@@ -72,13 +66,9 @@ See
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
-
 [IThicknessAnalysis::GetAvgWeightedTckOnAnalArea Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetAvgWeightedTckOnAnalArea.html)
-
 [IThicknessAnalysis::GetMinTckOnAnalArea Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetMinTckOnAnalArea.html)
-
 [IThicknessAnalysis::GetTotalSurfaceAreaAnalyzed Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetTotalSurfaceAreaAnalyzed.html)
 
 ## Availability

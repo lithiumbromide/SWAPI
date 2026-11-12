@@ -62,32 +62,21 @@ Number of stock types for the specified material
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisMachining::GetStockTypeCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetStockTypeCount.html)
-
-.
+See [CostAnalysisMachining::GetStockTypeCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetStockTypeCount.html).
 
 ## Remarks
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::GetStockTypes Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetStockTypes.html)
-
 [ICostAnalysisMachining::IGetStockTypes Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetStockTypes.html)
-
 [ICostAnalysisMachining::GetMaterialClasses ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMaterialClasses.html)
-
 [ICostAnalysisMachining::GetMaterials Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMaterials.html)
-
 [ICostAnalysisMachining::IGetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetMaterialClasses.html)
-
 [ICostAnalysisMachining::IGetMaterials Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetMaterials.html)
 
 ## Availability

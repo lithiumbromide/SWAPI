@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # GetComponents Method (IBomTableAnnotation)
 
-Obsolete. Superseded by
-
-[IBomTableAnnotation::GetComponents2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~GetComponents2.html)
-
-.
+Obsolete. Superseded by [IBomTableAnnotation::GetComponents2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~GetComponents2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +55,17 @@ See
 
 ### Return Value
 
-Array of
-
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-in the specified row
+Array of [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) in the specified row
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::GetComponents](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetComponents.html)
-
-.
+See [BomTableAnnotation::GetComponents](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetComponents.html).
 
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
-
 [IBomTableAnnotation::GetComponentsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~GetComponentsCount.html)
-
 [IBomTableAnnotation::IGetComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~IGetComponents.html)
 
 ## Availability

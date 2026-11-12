@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo~mpoFolder.htm
 
 # mpoFolder Field
 
-Interface for the folder that was added to the batch using
-
-[IEdmBatchAddFolders::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~AddFolder.html)
-
-.
+Interface for the folder that was added to the batch using [IEdmBatchAddFolders::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~AddFolder.html).
 
 ## Syntax
 
@@ -38,14 +34,9 @@ IEdmFolder6^ mpoFolder
 
 ## Remarks
 
-This member is valid only if you specify
-
-[EdmBatchAddFolderFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchAddFolderFlag.html)
-
-.Ebaff_GetInterface in IEdmBatchAddFolders::AddFolder.
+This member is valid only if you specify [EdmBatchAddFolderFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchAddFolderFlag.html).Ebaff_GetInterface in IEdmBatchAddFolders::AddFolder.
 
 ## See Also
 
 [EdmFolderInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo.html)
-
 [EdmFolderInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo_members.html)

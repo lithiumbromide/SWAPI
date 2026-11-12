@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to a corner management folder in a structure system.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,29 +41,23 @@ public interface class ICornerManagementFolder
 
 ## VBA Syntax
 
-See
-
-[CornerManagementFolder](ms-its:sldworksapivb6.chm::/sldworks~CornerManagementFolder.html)
-
-.
+See [CornerManagementFolder](ms-its:sldworksapivb6.chm::/sldworks~CornerManagementFolder.html).
 
 ## Examples
 
 [Access Structure System Corner Treatments (VBA)](Access_Structure_System_Corner_Treatments_Example_VB.htm)
-
 [Access Structure System Corner Treatments (VB.NET)](Access_Structure_System_Corner_Treatments_Example_VB.htm)
-
 [Access Structure System Corner Treatments (C#)](Access_Structure_System_Corner_Treatments__Example_CSharp.htm)
 
 ## Remarks
 
-A Corner Management folder is automatically created in the FeatureManager design tree when a[structure system](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)is created.
+A Corner Management folder is automatically created in the FeatureManager design tree when a [structure system](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html) is created.
 
-For more information, see the**SOLIDWORKS user-interface help > Weldments and Structure System > Structure System > Corner Management**topic.
+For more information, see the **SOLIDWORKS Design user-interface help > Weldments and Structure System > Structure System > Corner Management** topic.
 
 ## Accessors
 
-[IFeatureManager::GetCornerManagementFolders](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~GetCornerManagementFolders.html)and then[IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html)
+[IFeatureManager::GetCornerManagementFolders](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~GetCornerManagementFolders.html) and then [IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html)
 
 ## Access Diagram
 
@@ -72,5 +66,4 @@ For more information, see the**SOLIDWORKS user-interface help > Weldments and St
 ## See Also
 
 [ICornerManagementFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

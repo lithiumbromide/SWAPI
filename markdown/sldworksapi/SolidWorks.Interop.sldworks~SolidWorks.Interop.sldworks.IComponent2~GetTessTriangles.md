@@ -47,13 +47,7 @@ System.Object^ GetTessTriangles(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,15 +55,11 @@ See
 
 ### Return Value
 
-Array (see**Remarks**)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Component2::GetTessTriangles](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetTessTriangles.html)
-
-.
+See [Component2::GetTessTriangles](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetTessTriangles.html).
 
 ## Remarks
 
@@ -85,14 +75,12 @@ The format of the returned data is:
 
 for the set of triangles for the component.
 
-The total size of the data is[9 x sizeof(float) x (number of triangles)].
+The total size of the data is [ 9 x sizeof(float) x (number of triangles) ].
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::IGetTessTriangles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IGetTessTriangles.html)
 
 ## Availability

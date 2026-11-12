@@ -55,13 +55,7 @@ System.bool SaveBMP(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,18 +69,12 @@ True if file is created successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SaveBMP](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SaveBMP.html)
-
-.
+See [ModelDoc2::SaveBMP](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SaveBMP.html).
 
 ## Examples
 
 [Save Model as Bitmap (C#)](Save_Model_as_Bitmap_Example_CSharp.htm)
-
 [Save Model as Bitmap (VB.NET)](Save_Model_as_Bitmap_Example_VBNET.htm)
-
 [Save Model as Bitmap (VBA)](Save_Model_as_Bitmap_Example_VB.htm)
 
 ## Remarks
@@ -98,11 +86,8 @@ If WidthIn or the HeightIn is less than or equal to 0, then the view size is bas
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ISldWorks::GetPreviewBitmapFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetPreviewBitmapFile.html)
-
 [ISldWorks::GetPreviewBitmap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetPreviewBitmap.html)
 
 ## Availability

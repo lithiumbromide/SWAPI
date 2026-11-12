@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBe
 
 # RotationalStiffnessValue Property (ICWBearingConnector)
 
-Obsolete. Superseded by
-
-[ICWBearingConnector::LateralStiffnessValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~LateralStiffnessValue.html)
-
-.
+Obsolete. Superseded by [ICWBearingConnector::LateralStiffnessValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~LateralStiffnessValue.html).
 
 ## Syntax
 
@@ -51,28 +47,15 @@ Total rotational stiffness
 
 ## VBA Syntax
 
-See
-
-[CWBearingConnector::RotationalStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~RotationalStiffnessValue.html)
-
-.
+See [CWBearingConnector::RotationalStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~RotationalStiffnessValue.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWBearingConnector::StiffnessType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StiffnessType.html)
-
-is set to
-
-[swsBearingStiffnessType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingStiffnessType_e.html)
-
-.swsBearingStiffnessFlexible.
+This property is valid only if [ICWBearingConnector::StiffnessType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StiffnessType.html) is set to [swsBearingStiffnessType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingStiffnessType_e.html).swsBearingStiffnessFlexible.
 
 ## See Also
 
 [ICWBearingConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
 [ICWBearingConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector_members.html)
 
 ## Availability

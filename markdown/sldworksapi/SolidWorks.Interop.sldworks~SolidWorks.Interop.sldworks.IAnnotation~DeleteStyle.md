@@ -47,13 +47,7 @@ System.bool DeleteStyle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,32 +59,21 @@ True if the operation succeeds, false if it fails
 
 ## VBA Syntax
 
-See
-
-[Annotation::DeleteStyle](ms-its:sldworksapivb6.chm::/sldworks~Annotation~DeleteStyle.html)
-
-.
+See [Annotation::DeleteStyle](ms-its:sldworksapivb6.chm::/sldworks~Annotation~DeleteStyle.html).
 
 ## Remarks
 
-The current styleis set to<NONE>. Dimensions and annotations retain the properties previously applied by the style unless the items are[reset to the document default](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~ApplyDefaultStyleAttributes.html).
+The current styleis set to <NONE>. Dimensions and annotations retain the properties previously applied by the style unless the items are [reset to the document default](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~ApplyDefaultStyleAttributes.html).
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::AddOrUpdateStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~AddOrUpdateStyle.html)
-
 [IAnnotation::ApplyDefaultStyleAttributes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~ApplyDefaultStyleAttributes.html)
-
 [IAnnotation::GetStyleName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetStyleName.html)
-
 [IAnnotation::LoadStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~LoadStyle.html)
-
 [IAnnotation::SaveStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SaveStyle.html)
-
 [IAnnotation::SetStyleName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetStyleName.html)
 
 ## Availability

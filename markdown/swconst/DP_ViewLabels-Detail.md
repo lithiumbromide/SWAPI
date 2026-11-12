@@ -9,112 +9,36 @@ source: "swconst/DP_ViewLabels-Detail.htm"
 
 # Document Properties > Views > Detail
 
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Base detail view standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingDetailView, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base detail view standard to use |
-| Circle - Line Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailCircleStyle,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailCircleStyle,
-swUserPreferenceOption_e.swDetailingDetailView, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies the line style of detail view circles |
-| Circle - Line Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailCircleThickness,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailCircleThickness,
-swUserPreferenceOption_e.swDetailingDetailView, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies the line thickness of detail view circles |
-| Circle - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDetailCircleThicknessCustom,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDetailCircleThicknessCustom,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Double value | Specifies custom thickness of lines for detail view circles; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Border - Line Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailBorderStyle,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailBorderStyle,
-swUserPreferenceOption_e.swDetailingDetailView, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies style of detail view border |
-| Border - Line Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailBorderThickness,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailBorderThickness,
-swUserPreferenceOption_e.swDetailingDetailView, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies thickness of detail view border |
-| Border - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDetailBorderThicknessCustom,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDetailBorderThicknessCustom,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Double value | Specifies custom thickness of detail view border lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Detail circle text - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailTextFormat,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailTextFormat,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Per standard | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_PerStandard,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_PerStandard,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | If... Then display the detail view label according
-to the format... True Required by the current detailing standard False Determined by these document-level user preferences: swDetailingDetailViewLabels_Name swDetailingDetailViewLabels_Label swDetailingDetailViewLabels_Scale swDetailingDetailViewLabels_Delimiter |
-| If... | Then display the detail view label according
-to the format... |  |  |
+| Base detail view standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingDetailView, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base detail view standard to use |
+| Circle - Line Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailCircleStyle, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailCircleStyle, swUserPreferenceOption_e.swDetailingDetailView, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies the line style of detail view circles |
+| Circle - Line Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailCircleThickness, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailCircleThickness, swUserPreferenceOption_e.swDetailingDetailView, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies the line thickness of detail view circles |
+| Circle - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDetailCircleThicknessCustom, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDetailCircleThicknessCustom, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Double value | Specifies custom thickness of lines for detail view circles; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Border - Line Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailBorderStyle, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailBorderStyle, swUserPreferenceOption_e.swDetailingDetailView, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies style of detail view border |
+| Border - Line Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailBorderThickness, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDetailBorderThickness, swUserPreferenceOption_e.swDetailingDetailView, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies thickness of detail view border |
+| Border - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDetailBorderThicknessCustom, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDetailBorderThicknessCustom, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Double value | Specifies custom thickness of detail view border lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Detail circle text - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailTextFormat, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailTextFormat, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Per standard | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_PerStandard, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_PerStandard, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | If... Then display the detail view label according to the format... True Required by the current detailing standard False Determined by these document-level user preferences: swDetailingDetailViewLabels_Name swDetailingDetailViewLabels_Label swDetailingDetailViewLabels_Scale swDetailingDetailViewLabels_Delimiter |
+| If... | Then display the detail view label according to the format... |  |  |
 | True | Required by the current detailing standard |  |  |
 | False | Determined by these document-level user preferences: swDetailingDetailViewLabels_Name swDetailingDetailViewLabels_Label swDetailingDetailViewLabels_Scale swDetailingDetailViewLabels_Delimiter |  |  |
-| Label options - Name | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Name,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Name,
-swUserPreferenceOption_e.swDetailingDetailView, swDetailingViewLabelsName_e.< Value >) | See swDetailingViewLabelsName_e for valid options | Specifies the label to use in front of the detail view; if set to
-swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom, then set Label
-options - Name (CUSTOM) to a custom label |
-| Label options - Name (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingDetailViewLabels_CustomName,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingDetailViewLabels_CustomName,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | String value | Specifies the custom label to use in front of the detail view; valid
-only if Label options - Name is set to
-swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom |
-| Label options - Name - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_NameTextFormat,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_NameTextFormat,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Label | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Label,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Label,
-swUserPreferenceOption_e.swDetailingDetailView, swDetailingViewLabelsLabel_e.< Value >) | See swDetailingViewLabelsLabel_e for valid options | Specifies the format of the detail view label |
-| Label options - Label - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_LabelTextFormat,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_LabelTextFormat,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Scale | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Scale,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Scale,
-swUserPreferenceOption_e.swDetailingDetailView, swDetailingViewLabelsScale_e.< Value >) | See swDetailingViewLabelsScale_e for valid options | Specifies the label to use in front of the scale value; if set to
-swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom, then set Label options - Scale (CUSTOM) to a custom scale label |
-| Label options - Scale (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingDetailViewLabels_CustomScale,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingDetailViewLabels_CustomScale,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | String value | Specifies the custom label to use in front of the scale value; valid
-only if Label options - Scale is set to
-swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom |
-| Label options - Scale - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_ScaleTextFormat,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_ScaleTextFormat,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Delimiter | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Delimiter,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Delimiter,
-swUserPreferenceOption_e.swDetailingDetailView, swDetailingViewLabelsDelimiter_e
-.< Value >) | See swDetailingViewLabelsDelimiter_e for valid options | Specifies the format of the scale value |
-| Label options - Delimiter - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_DelimiterTextFormat,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_DelimiterTextFormat,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Remove space in scale around colon (:) and slash (/) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailView_RemoveSpaceInScale,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailView_RemoveSpaceInScale,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | Specifies whether to remove spaces around the delimiter in the scale
-text |
-| Stacked or In-line | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_Stacked,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_Stacked,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | If... Then display the detail view name and scale
-in... True 2 lines False 1 line |
-| If... | Then display the detail view name and scale
-in... |  |  |
+| Label options - Name | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Name, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Name, swUserPreferenceOption_e.swDetailingDetailView, swDetailingViewLabelsName_e.< Value >) | See swDetailingViewLabelsName_e for valid options | Specifies the label to use in front of the detail view; if set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom, then set Label options - Name (CUSTOM) to a custom label |
+| Label options - Name (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingDetailViewLabels_CustomName, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingDetailViewLabels_CustomName, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | String value | Specifies the custom label to use in front of the detail view; valid only if Label options - Name is set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom |
+| Label options - Name - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_NameTextFormat, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_NameTextFormat, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Label | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Label, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Label, swUserPreferenceOption_e.swDetailingDetailView, swDetailingViewLabelsLabel_e.< Value >) | See swDetailingViewLabelsLabel_e for valid options | Specifies the format of the detail view label |
+| Label options - Label - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_LabelTextFormat, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_LabelTextFormat, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Scale | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Scale, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Scale, swUserPreferenceOption_e.swDetailingDetailView, swDetailingViewLabelsScale_e.< Value >) | See swDetailingViewLabelsScale_e for valid options | Specifies the label to use in front of the scale value; if set to swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom, then set Label options - Scale (CUSTOM) to a custom scale label |
+| Label options - Scale (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingDetailViewLabels_CustomScale, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingDetailViewLabels_CustomScale, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | String value | Specifies the custom label to use in front of the scale value; valid only if Label options - Scale is set to swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom |
+| Label options - Scale - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_ScaleTextFormat, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_ScaleTextFormat, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Delimiter | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Delimiter, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDetailViewLabels_Delimiter, swUserPreferenceOption_e.swDetailingDetailView, swDetailingViewLabelsDelimiter_e .< Value >) | See swDetailingViewLabelsDelimiter_e for valid options | Specifies the format of the scale value |
+| Label options - Delimiter - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_DelimiterTextFormat, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDetailView_DelimiterTextFormat, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Remove space in scale around colon (:) and slash (/) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailView_RemoveSpaceInScale, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailView_RemoveSpaceInScale, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | Specifies whether to remove spaces around the delimiter in the scale text |
+| Stacked or In-line | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_Stacked, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_Stacked, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | If... Then display the detail view name and scale in... True 2 lines False 1 line |
+| If... | Then display the detail view name and scale in... |  |  |
 | True | 2 lines |  |  |
 | False | 1 line |  |  |
-| Display label above view | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_AboveView,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_AboveView,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | Specifies whether to show label above detail view |
-| Include location labels for new views | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailView_IncludeLocationLabelsForNewViews,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailView_IncludeLocationLabelsForNewViews,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | Specifies whether to include location labels for new detail views |
-| Scale by view scale for Jagged outline | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_ScaleForJaggedOutline,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_ScaleForJaggedOutline,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | Specifies whether to scale the Jagged outline using the view scale |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | This setting is available only on drawings; depending on drawing, some
-options may not apply |
+| Display label above view | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_AboveView, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_AboveView, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | Specifies whether to show label above detail view |
+| Include location labels for new views | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailView_IncludeLocationLabelsForNewViews, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailView_IncludeLocationLabelsForNewViews, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | Specifies whether to include location labels for new detail views |
+| Scale by view scale for Jagged outline | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_ScaleForJaggedOutline, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDetailViewLabels_ScaleForJaggedOutline, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Boolean value | Specifies whether to scale the Jagged outline using the view scale |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingDetailView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingDetailView, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | This setting is available only on drawings; depending on drawing, some options may not apply |

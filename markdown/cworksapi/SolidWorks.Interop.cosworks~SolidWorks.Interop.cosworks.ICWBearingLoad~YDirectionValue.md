@@ -51,30 +51,18 @@ Value of the bearing load in the Y direction of the selected coordinate system
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::YDirectionValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~YDirectionValue.html)
-
-.
+See [CWBearingLoad::YDirectionValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~YDirectionValue.html).
 
 ## Examples
 
-See the
-
-[ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
-examples.
+See the [ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html) examples.
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
-
 [ICWBearingLoad::XDirectionValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~XDirectionValue.html)
-
 [ICWBearingLoad::Direction Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~Direction.html)
-
 [ICWBearingLoad::YDirectionReverse Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~YDirectionReverse.html)
 
 ## Availability

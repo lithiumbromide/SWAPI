@@ -40,13 +40,7 @@ Body2 GetSpringBody()
 Body2^ GetSpringBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[Spring::GetSpringBody](ms-its:sldworksapivb6.chm::/sldworks~Spring~GetSpringBody.html)
-
-.
+See [Spring::GetSpringBody](ms-its:sldworksapivb6.chm::/sldworks~Spring~GetSpringBody.html).
 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
 
 ## Availability

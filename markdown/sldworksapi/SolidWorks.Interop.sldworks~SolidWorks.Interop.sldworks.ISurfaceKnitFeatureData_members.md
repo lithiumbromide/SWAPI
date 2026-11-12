@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # ISurfaceKnitFeatureData Interface Members
 
-The following tables list the members exposed by[ISurfaceKnitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData.html).
+The following tables list the members exposed by [ISurfaceKnitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData.html).
 
 ## Public Properties
 
@@ -42,7 +42,5 @@ The following tables list the members exposed by[ISurfaceKnitFeatureData](SolidW
 ## See Also
 
 [ISurfaceKnitFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertSewRefSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSewRefSurface.html)

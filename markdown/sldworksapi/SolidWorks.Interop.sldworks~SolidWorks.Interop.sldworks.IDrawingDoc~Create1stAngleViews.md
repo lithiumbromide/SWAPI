@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # Create1stAngleViews Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::1stAngleViews2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~Create1stAngleViews2.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::1stAngleViews2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~Create1stAngleViews2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool Create1stAngleViews(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::Create1stAngleViews](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~Create1stAngleViews.html)
-
-.
+See [DrawingDoc::Create1stAngleViews](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~Create1stAngleViews.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

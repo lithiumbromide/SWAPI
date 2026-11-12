@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBo
 
 # ICWBoltConnector Interface Methods
 
-For a list of all members of this type, see[ICWBoltConnector members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html).
+For a list of all members of this type, see [ICWBoltConnector members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html).
 
 ## Public Methods
 
@@ -39,5 +39,4 @@ For a list of all members of this type, see[ICWBoltConnector members](SolidWorks
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

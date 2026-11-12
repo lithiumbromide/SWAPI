@@ -40,13 +40,7 @@ System.string GetPunchID()
 System.String^ GetPunchID();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,19 @@ Punch ID
 
 ## VBA Syntax
 
-See
-
-[LibraryFormToolFeatureData::GetPunchID](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~GetPunchID.html)
-
-.
+See [LibraryFormToolFeatureData::GetPunchID](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~GetPunchID.html).
 
 ## Examples
 
-See the
-
-[ILibraryFormToolFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
-examples.
+See the [ILibraryFormToolFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html) examples.
 
 ## Remarks
 
-Punch IDs are displayed in flat pattern punch tables. See
-
-[IView::InsertPunchTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertPunchTable.html)
-
-.
+Punch IDs are displayed in flat pattern punch tables. See [IView::InsertPunchTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertPunchTable.html).
 
 ## See Also
 
 [ILibraryFormToolFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
 [ILibraryFormToolFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData_members.html)
 
 ## Availability

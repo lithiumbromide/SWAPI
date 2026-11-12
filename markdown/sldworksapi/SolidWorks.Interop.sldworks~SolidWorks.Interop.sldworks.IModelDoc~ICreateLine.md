@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ICreateLine Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ICreateLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreateLine.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ICreateLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreateLine.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void ICreateLine(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ICreateLine](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ICreateLine.html)
-
-.
+See [ModelDoc::ICreateLine](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ICreateLine.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

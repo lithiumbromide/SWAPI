@@ -47,46 +47,24 @@ property System.String^ FlowPressureFile {
 
 ### Property Value
 
-Full path name of a SOLIDWORKS Flow Simulation results file (
-
-*.fld
-
-)
+Full path name of a SOLIDWORKS Flow Simulation results file (***.fld**)
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::FlowPressureFile](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~FlowPressureFile.html)
-
-.
+See [CWFrequencyStudyOptions::FlowPressureFile](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~FlowPressureFile.html).
 
 ## Examples
 
-See the
-
-[ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-examples.
+See the [ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ICWFrequencyStudyOptions::CheckFlowPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckFlowPressure.html)
-
-and
-
-[ICWFrequencyStudyOptions::ReferencePressureOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~ReferencePressureOption.html)
-
-are both set to 1.
+This property is valid only if [ICWFrequencyStudyOptions::CheckFlowPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckFlowPressure.html) and [ICWFrequencyStudyOptions::ReferencePressureOption](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~ReferencePressureOption.html) are both set to 1.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
-
 [ICWFrequencyStudyOptions::CheckRunAsLegacy Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckRunAsLegacy.html)
 
 ## Availability

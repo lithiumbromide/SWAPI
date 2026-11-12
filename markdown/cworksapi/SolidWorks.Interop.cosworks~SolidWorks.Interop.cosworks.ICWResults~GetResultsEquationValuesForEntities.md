@@ -75,42 +75,24 @@ System.Object^ GetResultsEquationValuesForEntities(
 
 - `SResultsEquation`: Results equation
 - `BValueByElem`: True to plot element values, false to plot node values
-- `NUnits`: Units as defined in
-
-[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+- `NUnits`: Units as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
 - `NStepNumber`: Number of solution step to plot
-- `NShellOptions`: Shell face as defined in
-
-[swsShellFace_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsShellFace_e.html)
-
-; valid only for shell and mixed mesh models
+- `NShellOptions`: Shell face as defined in [swsShellFace_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsShellFace_e.html); valid only for shell and mixed mesh models
 - `ArraySelectedEntities`: Array of selected entities; Nothing or null to return values for the entire model
-- `ErrorCode`: Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetResultsEquationValuesForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetResultsEquationValuesForEntities.html)
-
-.
+See [CWResults::GetResultsEquationValuesForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetResultsEquationValuesForEntities.html).
 
 ## Examples
 
 [Create Results Equation Plot (VBA)](Create_Results_Equation_Plot_Example_VB.htm)
-
 [Create Results Equation Plot (VB.NET)](Create_Results_Equation_Plot_Example_VBNET.htm)
-
 [Create Results Equation Plot (C#)](Create_Results_Equation_Plot_Example_CSharp.htm)
 
 ## Remarks
@@ -136,11 +118,8 @@ where the nodes/elements are integer indexes, and the values are in scientific n
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::CreateResultsEquationPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateResultsEquationPlot.html)
-
 [ICWResults::GetMinMaxResultsEquationValues Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxResultsEquationValues.html)
 
 ## Availability

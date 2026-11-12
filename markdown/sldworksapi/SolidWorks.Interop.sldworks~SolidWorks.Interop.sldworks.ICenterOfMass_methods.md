@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICe
 
 # ICenterOfMass Interface Methods
 
-For a list of all members of this type, see[ICenterOfMass members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass_members.html).
+For a list of all members of this type, see [ICenterOfMass members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass_members.html).
 
 ## Public Methods
 
@@ -27,9 +27,6 @@ For a list of all members of this type, see[ICenterOfMass members](SolidWorks.In
 ## See Also
 
 [ICenterOfMass Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertCenterOfMass Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCenterOfMass.html)
-
 [IFeatureManager::InsertCenterOfMassReferencePoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCenterOfMassReferencePoint.html)

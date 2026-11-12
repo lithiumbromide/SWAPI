@@ -9,8 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMa
 
 # NoOfBulkModuli Property (ICWMaterial)
 
-Gets or sets the number of bulk moduli for the viscoelastic material model used in
-nonlinear studies only.
+Gets or sets the number of bulk moduli for the viscoelastic material model used in nonlinear studies only.
 
 ## Syntax
 
@@ -52,11 +51,7 @@ Number of bulk moduli
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::NoOfBulkModuli](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~NoOfBulkModuli.html)
-
-.
+See [CWMaterial::NoOfBulkModuli](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~NoOfBulkModuli.html).
 
 ## Remarks
 
@@ -65,7 +60,6 @@ Number of bulk moduli for the viscelastic material model are valid in nonlinear 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

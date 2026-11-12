@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Drag_Arrow_Manipulator_Example_CSharp.htm"
 
 # Create Drag Arrow Manipulator Example (C#)
 
-This example shows how to create a drag arrow manipulator, which is
-called a handle in the user interface.
+This example shows how to create a drag arrow manipulator, which is called a handle in the user interface.
 
 ```vb
  //---------------------------------------------------------------------------

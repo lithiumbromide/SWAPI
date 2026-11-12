@@ -51,24 +51,15 @@ Email address
 
 ## VBA Syntax
 
-See
-
-[CWDropTestStudyOptions::EMailTo](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestStudyOptions~EMailTo.html)
-
-.
+See [CWDropTestStudyOptions::EMailTo](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestStudyOptions~EMailTo.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWDropTestStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions~EMail.html)
-
-is set to 1.
+This property is valid only if [ICWDropTestStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions~EMail.html) is set to 1.
 
 ## See Also
 
 [ICWDropTestStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions.html)
-
 [ICWDropTestStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions_members.html)
 
 ## Availability

@@ -59,19 +59,13 @@ System.bool SetMessage3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Message`: Message text
-- `Visibility`: Visibility state of this message as defined by[swPropertyManagerPageMessageVisibility](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertyManagerPageMessageVisibility.html)
-- `Expanded`: Expand, compress, or leave the state of the message as is, as defined by[swPropertyManagerPageMessageExpanded](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertyManagerPageMessageExpanded.html)
+- `Visibility`: Visibility state of this message as defined by [swPropertyManagerPageMessageVisibility](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertyManagerPageMessageVisibility.html)
+- `Expanded`: Expand, compress, or leave the state of the message as is, as defined by [swPropertyManagerPageMessageExpanded](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertyManagerPageMessageExpanded.html)
 - `Caption`: Caption for message
 
 ### Return Value
@@ -80,11 +74,7 @@ True if the message is set, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2::SetMessage3](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPage2~SetMessage3.html)
-
-.
+See [PropertyManagerPage2::SetMessage3](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPage2~SetMessage3.html).
 
 ## Remarks
 
@@ -95,7 +85,6 @@ This method should be useful when creating multi-page PropertyManager pages wher
 ## See Also
 
 [IPropertyManagerPage2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
 [IPropertyManagerPage2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2_members.html)
 
 ## Availability

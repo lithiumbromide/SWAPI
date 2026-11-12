@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # GetEntityParams Method (IMateEntity)
 
-Obsolete. Superseded by
-
-[IMateEntity2::EntityParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateEntity2~EntityParams.html)
-
-.
+Obsolete. Superseded by [IMateEntity2::EntityParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateEntity2~EntityParams.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetEntityParams()
 System.Object^ GetEntityParams();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[MateEntity::GetEntityParams](ms-its:sldworksapivb6.chm::/sldworks~MateEntity~GetEntityParams.html)
-
-.
+See [MateEntity::GetEntityParams](ms-its:sldworksapivb6.chm::/sldworks~MateEntity~GetEntityParams.html).
 
 ## See Also
 
 [IMateEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity.html)
-
 [IMateEntity Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity_members.html)

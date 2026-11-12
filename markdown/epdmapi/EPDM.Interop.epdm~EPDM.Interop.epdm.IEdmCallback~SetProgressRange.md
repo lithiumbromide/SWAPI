@@ -47,11 +47,7 @@ void SetProgressRange(
 
 ## Examples
 
-See the
-
-[IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
-examples.
+See the [IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html) examples.
 
 ## Remarks
 
@@ -63,9 +59,7 @@ examples.
 ## See Also
 
 [IEdmCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
 [IEdmCallback Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback_members.html)
-
 [IEdmCallback::SetProgressPos Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback~SetProgressPos.html)
 
 ## Availability

@@ -9,182 +9,67 @@ source: "sldworksapi/List_End-Cap_Feature_Properties_Example_VB.htm"
 
 # List End-Cap Feature Properties Example (VBA)
 
-This example shows how to list an end-cap feature's properties and select
-and then deselect the face used to create the end-cap feature.
+This example shows how to list an end-cap feature's properties and select and then deselect the face used to create the end-cap feature.
 
+```vb
 '------------------------------------
-
 '
-
-' Preconditions: Model document is open and an end-cap
-feature is selected.
-
+' Preconditions: Model document is open and an end-cap feature is selected.
 '
-
 ' Postcondtions: None
-
 '
-
 '------------------------------------
-
 Option Explicit
-
 Public Enum swSketchSegments_e
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSketchLINE
-= 0
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSketchARC
-= 1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSketchELLIPSE
-= 2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSketchSPLINE
-= 3
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSketchTEXT
-= 4
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSketchPARABOLA
-= 5
-
+    swSketchLINE = 0
+    swSketchARC = 1
+    swSketchELLIPSE = 2
+    swSketchSPLINE = 3
+    swSketchTEXT = 4
+    swSketchPARABOLA = 5
 End Enum
-
 Public Enum swSolidworksWeldmentEndCondOptions_e
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swEndConditionNone
-= 0
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swEndConditionMiter
-= 1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swEndConditionButt1
-= 2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swEndConditionButt2
-= 3
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swEndConditionTrim
-= 4
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swEndConditionUseDefault
-= 5
-
+    swEndConditionNone = 0
+    swEndConditionMiter = 1
+    swEndConditionButt1 = 2
+    swEndConditionButt2 = 3
+    swEndConditionTrim = 4
+    swEndConditionUseDefault = 5
 End Enum
-
 Sub main()
+    Dim swApp                   As SldWorks.SldWorks
+    Dim swModel                 As SldWorks.ModelDoc2
+    Dim swSelMgr                As SldWorks.SelectionMgr
+    Dim swFeat                  As SldWorks.feature
+    Dim swEndCap                As SldWorks.EndCapFeatureData
+    Dim swFace                  As SldWorks.face2
+    Dim swEnt                   As SldWorks.Entity
+    Dim i                       As Long
+    Dim bRet                    As Boolean
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAppkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SldWorks
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Set swSelMgr = swModel.SelectionManager
+    Set swFeat = swSelMgr.GetSelectedObject5(1)
+    Set swEndCap = swFeat.GetDefinition
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelDoc2
+    Debug.Print "File = " & swModel.GetPathName
+    Debug.Print "  " & swFeat.Name
+    Debug.Print "    ChamferDistance                = " & swEndCap.ChamferDistance * 1000# & " mm"
+    Debug.Print "    OffsetDistance                 = " & swEndCap.OffsetDistance * 1000# & " mm"
+    Debug.Print "    Thickness                      = " & swEndCap.Thickness * 1000# & " mm"
+    Debug.Print "    ThicknessRatioForOffset        = " & swEndCap.ThicknessRatioForOffset
+    Debug.Print "    UseChamferCorners              = " & swEndCap.UseChamferCorners
+    Debug.Print "    UseThicknessRatioForOffset     = " & swEndCap.UseThicknessRatioForOffset
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSelMgrkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SelectionMgr
+    bRet = swEndCap.AccessSelections(swModel, Nothing): Debug.Assert bRet
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swFeatkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.feature
+    Set swFace = swEndCap.Face
+    Set swEnt = swFace
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swEndCapkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.EndCapFeatureData
+    bRet = swEnt.Select4(False, Nothing): Debug.Assert bRet
+    Stop
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swFacekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.face2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swEntkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.Entity
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-ikadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Long
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bRetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swSelMgr = swModel.SelectionManager
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swFeat = swSelMgr.GetSelectedObject5(1)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swEndCap = swFeat.GetDefinition
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"File = " & swModel.GetPathName
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}"
-& swFeat.Name
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ChamferDistancekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swEndCap.ChamferDistance* 1000# & " mm"
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}OffsetDistancekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swEndCap.OffsetDistance* 1000# & " mm"
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Thicknesskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swEndCap.Thickness* 1000# & " mm"
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ThicknessRatioForOffsetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swEndCap.ThicknessRatioForOffset
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}UseChamferCornerskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swEndCap.UseChamferCorners
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}UseThicknessRatioForOffsetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swEndCap.UseThicknessRatioForOffset
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bRet
-= swEndCap.AccessSelections(swModel,
-Nothing): Debug.Assert bRet
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swFace = swEndCap.Face
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swEnt = swFace
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bRet
-= swEnt.Select4(False, Nothing):
-Debug.Assert bRet
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Stop
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swEndCap.ReleaseSelectionAccess
-
+    swEndCap.ReleaseSelectionAccess
 End Sub
+```

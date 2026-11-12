@@ -47,21 +47,11 @@ System.bool SetCurrentGaugeNumber(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `GaugeNumber`: Gauge number string (see
-
-Remarks
-
-)
+- `GaugeNumber`: Gauge number string (see **Remarks**)
 
 ### Return Value
 
@@ -69,38 +59,22 @@ True if current gauge number successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[SheetMetalGaugeTableParameters::SetCurrentGaugeNumber](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalGaugeTableParameters~SetCurrentGaugeNumber.html)
-
-.
+See [SheetMetalGaugeTableParameters::SetCurrentGaugeNumber](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalGaugeTableParameters~SetCurrentGaugeNumber.html).
 
 ## Examples
 
-See the
-
-[ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html)
-
-examples.
+See the [ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html) examples.
 
 ## Remarks
 
-Use
-
-[ISheetMetalGaugeTableParameters::GetAvailableGaugeNumbers](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters~GetAvailableGaugeNumbers.html)
-
-to determine GaugeNumber.
+Use [ISheetMetalGaugeTableParameters::GetAvailableGaugeNumbers](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters~GetAvailableGaugeNumbers.html) to determine GaugeNumber.
 
 ## See Also
 
 [ISheetMetalGaugeTableParameters Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html)
-
 [ISheetMetalGaugeTableParameters Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters_members.html)
-
 [ISheetMetalGaugeTableParameters::GetCurrentGaugeNumber Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters~GetCurrentGaugeNumber.html)
-
 [ISheetMetalGaugeTableParameters::GetGaugeNumberCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters~GetGaugeNumberCount.html)
-
 [ISheetMetalGaugeTableParameters::SetThickness Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters~SetThickness.html)
 
 ## Availability

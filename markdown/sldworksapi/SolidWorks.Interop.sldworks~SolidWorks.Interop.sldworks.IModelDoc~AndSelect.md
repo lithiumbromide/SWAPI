@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AndSelect Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::AndSelect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AndSelect.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::AndSelect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AndSelect.html).
 
 ## Syntax
 
@@ -66,13 +62,7 @@ void AndSelect(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -84,14 +74,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::AndSelect](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AndSelect.html)
-
-.
+See [ModelDoc::AndSelect](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AndSelect.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

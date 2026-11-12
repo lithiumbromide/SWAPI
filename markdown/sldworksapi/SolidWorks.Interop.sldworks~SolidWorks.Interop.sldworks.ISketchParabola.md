@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Provides access to sketched parabolas.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class ISketchParabola
 
 ## VBA Syntax
 
-See
-
-[SketchParabola](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola.html)
-
-.
+See [SketchParabola](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola.html).
 
 ## Examples
 
 [Create Parabola (VBA)](Create_Parabola_Example_VB.htm)
-
 [Create Parabola (VB.NET)](Create_Parabola_Example_VBNET.htm)
-
 [Create Parabola (C#)](Create_Parabola_Example_CSharp.htm)
 
 ## Accessors
@@ -66,5 +60,4 @@ See
 ## See Also
 
 [ISketchParabola Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

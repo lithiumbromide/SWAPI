@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPL
 
 # PLMID Property (IPLMObjectSpecification)
 
-Gets or sets the ID of a
-
-[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-document.
+Gets or sets the ID of a [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm) document.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.String^ PLMID {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,24 +53,15 @@ Document ID
 
 ## VBA Syntax
 
-See
-
-[PLMObjectSpecification::PLMID](ms-its:sldworksapivb6.chm::/sldworks~PLMObjectSpecification~PLMID.html)
-
-.
+See [PLMObjectSpecification::PLMID](ms-its:sldworksapivb6.chm::/sldworks~PLMObjectSpecification~PLMID.html).
 
 ## Examples
 
-See the
-
-[IPLMObjectSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPLMObjectSpecification.html)
-
-examples.
+See the [IPLMObjectSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPLMObjectSpecification.html) examples.
 
 ## See Also
 
 [IPLMObjectSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPLMObjectSpecification.html)
-
 [IPLMObjectSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPLMObjectSpecification_members.html)
 
 ## Availability

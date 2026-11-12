@@ -51,26 +51,16 @@ Total time
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::TotalTime](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~TotalTime.html)
-
-.
+See [CWThermalStudyOptions::TotalTime](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~TotalTime.html).
 
 ## Examples
 
-See the
-
-[ICWThermalStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
-examples.
+See the [ICWThermalStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html) examples.
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
-
 [ICWThermalStudyOptions::TimeIncrement Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~TimeIncrement.html)
 
 ## Availability

@@ -46,34 +46,20 @@ Number of entities
 
 ## VBA Syntax
 
-See
-
-[CWSpringConnector::GetTargetEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~GetTargetEntityCount.html)
-
-.
+See [CWSpringConnector::GetTargetEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~GetTargetEntityCount.html).
 
 ## Examples
 
-See the
-
-[ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
-examples.
+See the [ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html) examples.
 
 ## See Also
 
 [ICWSpringConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
 [ICWSpringConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html)
-
 [ICWSpringConnector::GetSourceEntityCount Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~GetSourceEntityCount.html)
-
 [ICWSpringConnector::InsertEntityAtFirstLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~InsertEntityAtFirstLocation.html)
-
 [ICWSpringConnector::InsertEntityAtSecondLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~InsertEntityAtSecondLocation.html)
-
 [ICWSpringConnector::RemoveEntityAtFirstLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~RemoveEntityAtFirstLocation.html)
-
 [ICWSpringConnector::RemoveEntityAtSecondLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~RemoveEntityAtSecondLocation.html)
 
 ## Availability

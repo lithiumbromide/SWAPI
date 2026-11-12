@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6_methods.htm
 
 # IEdmCategoryMgr6 Interface Methods
 
-For a list of all members of this type, see[IEdmCategoryMgr6 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6_members.html).
+For a list of all members of this type, see [IEdmCategoryMgr6 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6_members.html).
 
 ## Public Methods
 
@@ -23,7 +23,5 @@ For a list of all members of this type, see[IEdmCategoryMgr6 members](EPDM.Inter
 ## See Also
 
 [IEdmCategoryMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategoryMgr6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmCategory6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategory6.html)

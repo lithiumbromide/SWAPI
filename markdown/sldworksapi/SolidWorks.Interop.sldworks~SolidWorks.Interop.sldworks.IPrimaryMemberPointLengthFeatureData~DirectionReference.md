@@ -45,44 +45,22 @@ property System.Object^ DirectionReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[IEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-or
-
-[ISketchSegment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
+[IEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html) or [ISketchSegment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPointLengthFeatureData::DirectionReference](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~DirectionReference.html)
-
-.
+See [PrimaryMemberPointLengthFeatureData::DirectionReference](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~DirectionReference.html).
 
 ## Remarks
 
 This property is:
 
 - required for 3D sketches.
-- valid only when
-
-  [IPrimaryMemberPointLengthFeatureData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~EndCondition.html)
-
-  is
-
-  [swPrimaryMemberPointLengthEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPrimaryMemberPointLengthEndCondition_e.html)
-
-  :
+- valid only when [IPrimaryMemberPointLengthFeatureData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData~EndCondition.html) is [swPrimaryMemberPointLengthEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPrimaryMemberPointLengthEndCondition_e.html):
 
   - swPrimaryMemberPointLengthEndCondition_UpToPlane
   - swPrimaryMemberPointLengthEndCondition_Length
@@ -90,7 +68,6 @@ This property is:
 ## See Also
 
 [IPrimaryMemberPointLengthFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData.html)
-
 [IPrimaryMemberPointLengthFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData_members.html)
 
 ## Availability

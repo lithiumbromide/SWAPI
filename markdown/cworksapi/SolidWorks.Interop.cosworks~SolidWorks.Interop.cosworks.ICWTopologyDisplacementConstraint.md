@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyDisplacementConstraint Interface
 
-Allows access to a displacement constraint in a topology study.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows access to a displacement constraint in a topology study. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +39,7 @@ public interface class ICWTopologyDisplacementConstraint
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDisplacementConstraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDisplacementConstraint.html)
-
-.
+See [CWTopologyDisplacementConstraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDisplacementConstraint.html).
 
 ## Examples
 
@@ -59,7 +47,7 @@ See
 
 ## Remarks
 
-See the**Goals and Constraints**topic in the Simulation user-interface help for more information.
+See the **Goals and Constraints** topic in the Simulation user-interface help for more information.
 
 ## Accessors
 
@@ -70,9 +58,6 @@ See the**Goals and Constraints**topic in the Simulation user-interface help for 
 ## See Also
 
 [ICWTopologyDisplacementConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWTopologyMassConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html)
-
 [ICWTopologyMinimizeMaximumDisplacementGoal Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal.html)

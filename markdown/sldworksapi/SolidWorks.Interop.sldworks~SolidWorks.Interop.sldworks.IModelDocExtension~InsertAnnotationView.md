@@ -63,57 +63,23 @@ AnnotationView^ InsertAnnotationView(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `AnnotationViewingDirection`: Defined by either any
-
-[swStandardViews_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStandardViews_e.html)
-
-enumerator or 0 for selection
-- `DirectionReference`: If 0 specified for AnnotationViewingDirection, then specifiy a
-
-[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-or
-
-[plane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html)
-
-to define the direction of the annotation view
-- `FlipDirection`: True to flip the annotation view in the opposite direction, false to notParamDesc
-- `HorizontalDirectionReference`: An
-
-[edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-,
-
-[sketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html)
-
-, or
-
-[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+- `AnnotationViewingDirection`: Defined by either any [swStandardViews_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStandardViews_e.html) enumerator or 0 for selection
+- `DirectionReference`: If 0 specified for AnnotationViewingDirection, then specifiy a [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) or [plane](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html) to define the direction of the annotation view
+- `FlipDirection`: True to flip the annotation view in the opposite direction, false to not
+- `HorizontalDirectionReference`: An [edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html), [sketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html), or [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
 - `AngleMadeWithHorizontal`: Angle (in degrees) with the specified HorizontalDirectionReference
 
 ### Return Value
 
-Newly inserted
-
-[annotation view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotationView.html)
+Newly inserted [annotation view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotationView.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertAnnotationView](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~InsertAnnotationView.html)
-
-.
+See [ModelDocExtension::InsertAnnotationView](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~InsertAnnotationView.html).
 
 ## Examples
 
@@ -131,7 +97,7 @@ See
 
 '
 
-' Postconditions:Observe that a new annotation view is inserted at a 45 degree angle in reference to the face and edge.
+' Postconditions: Observe that a new annotation view is inserted at a 45 degree angle in reference to the face and edge.
 
 '----------------------------------------------------------------------------
 
@@ -177,7 +143,7 @@ End If
 
 Next i
 
-Set annoView = swModExt. InsertAnnotationView (0, Nothing, False, swEdge, 45)
+Set annoView = swModExt.**InsertAnnotationView**(0, Nothing, False, swEdge, 45)
 
 swModel.EditRebuild3
 
@@ -186,7 +152,6 @@ End Sub
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

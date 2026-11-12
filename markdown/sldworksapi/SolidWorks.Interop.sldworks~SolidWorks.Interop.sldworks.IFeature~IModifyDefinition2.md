@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IModifyDefinition2 Method (IFeature)
 
-Updates the definition of a feature with the new values in an associated feature data object obtained with
-
-[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
-
-.
+Updates the definition of a feature with the new values in an associated feature data object obtained with [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html).
 
 ## Syntax
 
@@ -59,19 +55,13 @@ System.bool IModifyDefinition2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Data`: IUnknown interface to the feature data object; use QueryInterface to get the interface to the actual object
-- `TopDoc`: Top-level document (see**Remarks**)
-- `Component`: Component for the feature (see**Remarks**)
+- `TopDoc`: Top-level document (see **Remarks**)
+- `Component`: Component for the feature (see **Remarks**)
 
 ### Return Value
 
@@ -79,11 +69,7 @@ True if the feature is updated successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[Feature::IModifyDefinition2](ms-its:sldworksapivb6.chm::/sldworks~Feature~IModifyDefinition2.html)
-
-.
+See [Feature::IModifyDefinition2](ms-its:sldworksapivb6.chm::/sldworks~Feature~IModifyDefinition2.html).
 
 ## Remarks
 
@@ -92,16 +78,13 @@ See
 | A part | Is the IModelDoc2 object for the part and the Component argument should be Nothing or null |
 | An assembly | Should be the assembly IModelDoc2 object and the Component argument should be the IComponent2 object in which the feature is to be modified |
 
-When you modify a feature in an assembly, this method leaves the assembly in Editing Part mode. You can switch back to editing the assembly by calling[IAssemblyDoc::EditAssembly](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~EditAssembly.html).
+When you modify a feature in an assembly, this method leaves the assembly in Editing Part mode. You can switch back to editing the assembly by calling [IAssemblyDoc::EditAssembly](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~EditAssembly.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::GetDefinition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html)
-
 [IFeature::ModifyDefinition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IModifyDefinition Method (IFeature)
 
-Obsolete. Superseded by
-
-[IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-.
+Obsolete. Superseded by [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool IModifyDefinition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Feature::IModifyDefinition](ms-its:sldworksapivb6.chm::/sldworks~Feature~IModifyDefinition.html)
-
-.
+See [Feature::IModifyDefinition](ms-its:sldworksapivb6.chm::/sldworks~Feature~IModifyDefinition.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)

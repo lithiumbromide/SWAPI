@@ -51,13 +51,7 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,19 +64,11 @@ True if the selections where successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[SplitLineFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SplitLineFeatureData~AccessSelections.html)
-
-.
+See [SplitLineFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SplitLineFeatureData~AccessSelections.html).
 
 ## Examples
 
-See the
-
-[ISplitLineFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData.html)
-
-examples.
+See the [ISplitLineFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData.html) examples.
 
 ## Remarks
 
@@ -93,21 +79,12 @@ examples.
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  or
-
-  [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [ISplitLineFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitLineFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [ISplitLineFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitLineFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [ISplitLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData.html)
-
 [ISplitLineFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData_members.html)
 
 ## Availability

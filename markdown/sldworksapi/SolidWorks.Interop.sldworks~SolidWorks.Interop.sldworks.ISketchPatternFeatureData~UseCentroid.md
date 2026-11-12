@@ -45,13 +45,7 @@ property System.bool UseCentroid {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ True to a centroid, false to use a reference point
 
 ## VBA Syntax
 
-See
-
-[SketchPatternFeatureData::UseCentroid](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~UseCentroid.html)
-
-.
+See [SketchPatternFeatureData::UseCentroid](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~UseCentroid.html).
 
 ## Examples
 
-See the
-
-[ISketchPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)
-
-examples.
+See the [ISketchPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html) examples.
 
 ## See Also
 
 [ISketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)
-
 [ISketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData_members.html)
-
 [ISketchPatternFeatureData::ReferencePoint Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~ReferencePoint.html)
 
 ## Availability

@@ -47,17 +47,11 @@ System.int GetLineCount2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CrossHatchOption`: Crosshatch option as defined in[swCrossHatchFilter_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCrossHatchFilter_e.html)
+- `CrossHatchOption`: Crosshatch option as defined in [swCrossHatchFilter_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCrossHatchFilter_e.html)
 
 ### Return Value
 
@@ -65,11 +59,7 @@ Number of lines
 
 ## VBA Syntax
 
-See
-
-[View::GetLineCount2](ms-its:sldworksapivb6.chm::/sldworks~View~GetLineCount2.html)
-
-.
+See [View::GetLineCount2](ms-its:sldworksapivb6.chm::/sldworks~View~GetLineCount2.html).
 
 ## Examples
 
@@ -77,20 +67,13 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[IView::IGetLines4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetLines4.html)
-
-to get the size of the array for that method.
+Call this method before calling [IView::IGetLines4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetLines4.html) to get the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetLines4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetLines4.html)
-
 [IView::IGetLines4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetLines4.html)
 
 ## Availability

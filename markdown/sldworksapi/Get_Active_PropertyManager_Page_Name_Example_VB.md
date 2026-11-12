@@ -19,12 +19,12 @@ This example shows how to get the name of the active PropertyManager page.
 '
 ' Postconditions:
 ' 1. At Stop:
-'    a. In the SOLIDWORKS user-interface,
+'    a. In the SOLIDWORKS Design user-interface,
 '       click Insert > Features > Fillet/Round.
 '    b. In the IDE, click Continue.
 ' 2. Gets the name of the active PropertyManager page.
 ' 4. Examine the Immediate window.
-' 5. In the SOLIDWORKS user-interface:
+' 5. In the SOLIDWORKS Design user-interface:
 '    a. Close the PropertyManager page.
 '    b. Close the part document.
 '

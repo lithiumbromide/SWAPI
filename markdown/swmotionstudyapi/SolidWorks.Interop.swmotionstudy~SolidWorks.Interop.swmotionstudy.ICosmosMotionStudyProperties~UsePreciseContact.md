@@ -51,11 +51,7 @@ True to use precise contact, false to not
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::UsePreciseContact](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~UsePreciseContact.html)
-
-.
+See [CosmosMotionStudyProperties::UsePreciseContact](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~UsePreciseContact.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ Select to calculate contact by using the equations that represent the solid bodi
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
 
 ## Availability

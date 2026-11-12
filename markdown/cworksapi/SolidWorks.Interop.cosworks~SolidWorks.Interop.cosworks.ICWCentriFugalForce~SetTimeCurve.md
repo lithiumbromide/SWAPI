@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCe
 
 # SetTimeCurve Method (ICWCentriFugalForce)
 
-Obsolete. Superseded by
-
-[ICWCentrifugalForce::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~SetTimeCurve2.html)
-
-.
+Obsolete. Superseded by [ICWCentrifugalForce::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~SetTimeCurve2.html).
 
 ## Syntax
 
@@ -57,12 +53,8 @@ System.int SetTimeCurve(
 
 ### Parameters
 
-- `VarCurveData`: Array of time curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in[swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveData`: Array of time curve data (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
@@ -70,26 +62,18 @@ True to use actual curve, false to use linear variation
 
 ## VBA Syntax
 
-See
-
-[CWCentriFugalForce::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~SetTimeCurve.html)
-
-.
+See [CWCentriFugalForce::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~SetTimeCurve.html).
 
 ## Remarks
 
 Array of time curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`]
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` ]
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time value at the
-
-  ith
-
-  data point
+- xi = time value at the `ith` data point
 - yi = property value associated with time xi
 
 Time curves are used to specify feature variation with time for transient studies.
@@ -97,11 +81,8 @@ Time curves are used to specify feature variation with time for transient studie
 ## See Also
 
 [ICWCentriFugalForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
 [ICWCentriFugalForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce_members.html)
-
 [ICWCentriFugalForce::GetTimeCurve Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~GetTimeCurve.html)
-
 [ICWCentriFugalForce::UseTimeCurve Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~UseTimeCurve.html)
 
 ## Availability

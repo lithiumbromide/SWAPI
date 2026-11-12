@@ -58,16 +58,8 @@ System.bool GetMeshDataAtIndex(
 ### Parameters
 
 - `Index`: Index of mesh feature for which to get data
-- `Points`: Array of x, y, and z coordinates of the mesh vertexes (see
-
-Remarks
-
-)
-- `Facets`: Array of facet triplets (see
-
-Remarks
-
-)
+- `Points`: Array of x, y, and z coordinates of the mesh vertexes (see **Remarks**)
+- `Facets`: Array of facet triplets (see **Remarks**)
 
 ### Return Value
 
@@ -75,23 +67,15 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Scanto3D::GetMeshDataAtIndex](ms-its:swscanto3dapivb6.chm::/Scanto3dLib~Scanto3D~GetMeshDataAtIndex.html)
-
-.
+See [Scanto3D::GetMeshDataAtIndex](ms-its:swscanto3dapivb6.chm::/Scanto3dLib~Scanto3D~GetMeshDataAtIndex.html).
 
 ## Examples
 
-See the
-
-[IScanto3D](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html)
-
-examples.
+See the [IScanto3D](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html) examples.
 
 ## Remarks
 
-Before calling this method, call[IScanto3D::GetMeshCount](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D~GetMeshCount.html)to obtain the total number of mesh features in this mesh.
+Before calling this method, call [IScanto3D::GetMeshCount](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D~GetMeshCount.html) to obtain the total number of mesh features in this mesh.
 
 Each facet in the mesh can be described by a triangle consisting of three mesh vertexes. Adjacent facets share their vertexes.
 
@@ -134,7 +118,6 @@ and the second facet is {15, 9, 0}, i.e., (pt6_idx = 15, pt4_idx = 9, pt1_idx = 
 ## See Also
 
 [IScanto3D Interface](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D.html)
-
 [IScanto3D Members](SolidWorks.Interop.swscanto3d~SolidWorks.Interop.swscanto3d.IScanto3D_members.html)
 
 ## Availability

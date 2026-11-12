@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertSecurityNote Method (IFeatureManager)
 
-Inserts a note for the specified
-
-[macro feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData.html)
-
-.
+Inserts a note for the specified [macro feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ Note^ InsertSecurityNote(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,19 +60,11 @@ See
 
 ### Return Value
 
-Point to
-
-[INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
-
-object
+Point to [INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSecurityNote](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSecurityNote.html)
-
-.
+See [FeatureManager::InsertSecurityNote](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSecurityNote.html).
 
 ## Remarks
 
@@ -90,13 +72,12 @@ The note is for display purposes only and cannot be modified by the end user. Fo
 
 You associate the note with the specified macro feature in:
 
-- VB by using this method in the code that generates the macro feature and by setting swMacroFeatureSecurityEnableNote in the[macro feature's security function](sldworksAPIProgGuide.chm::/Macro_Features/Security_Function.htm). You should also include the conditions under which to display the note.
-- C++ by using this method in the code that generates the macro feature and by setting swMacroFeatureSecurityEnableNote for the Options argument of ISwComFeature::Security in the macro feature's security function . You should also include the conditions under which to display the note.
+- VB by using this method in the code that generates the macro feature and by setting swMacroFeatureSecurityEnableNote in the [macro feature's security function](sldworksAPIProgGuide.chm::/Macro_Features/Security_Function.htm). You should also include the conditions under which to display the note.
+- C++ by using this method in the code that generates the macro feature and by setting swMacroFeatureSecurityEnableNote for the Options argument of [ISwComFeature::Security](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwComFeature~Security.html) in the [macro feature's security function](sldworksAPIProgGuide.chm::/Macro_Features/Security_Function.htm). You should also include the conditions under which to display the note.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

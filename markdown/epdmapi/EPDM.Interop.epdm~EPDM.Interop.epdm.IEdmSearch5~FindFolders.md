@@ -41,7 +41,6 @@ True to return folders, false to not
 ## See Also
 
 [IEdmSearch5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html)
-
 [IEdmSearch5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5_members.html)
 
 ## Availability

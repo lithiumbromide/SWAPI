@@ -45,13 +45,7 @@ property System.bool AllowProtrusion {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to allow protrusion, false to not
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberFeatureData::AllowProtrusion](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~AllowProtrusion.html)
-
-.
+See [StructuralMemberFeatureData::AllowProtrusion](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~AllowProtrusion.html).
 
 ## See Also
 
 [IStructuralMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData.html)
-
 [IStructuralMemberFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData_members.html)
 
 ## Availability

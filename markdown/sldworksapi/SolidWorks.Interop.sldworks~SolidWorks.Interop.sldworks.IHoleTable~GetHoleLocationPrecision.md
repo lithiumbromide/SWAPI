@@ -40,13 +40,7 @@ System.int GetHoleLocationPrecision()
 System.int GetHoleLocationPrecision();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Precision to use for location values
 
 ## VBA Syntax
 
-See
-
-[HoleTable::GetHoleLocationPrecision](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~GetHoleLocationPrecision.html)
-
-.
+See [HoleTable::GetHoleLocationPrecision](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~GetHoleLocationPrecision.html).
 
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
-
 [IHoleTable::GetHoleLocationUseDocPrecision Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~GetHoleLocationUseDocPrecision.html)
-
 [IHoleTable::SetHoleLocationPrecision Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~SetHoleLocationPrecision.html)
 
 ## Availability

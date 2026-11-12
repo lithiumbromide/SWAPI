@@ -47,40 +47,27 @@ property System.int Quality {
 
 ### Property Value
 
-Mesh quality as defined in[swsMeshQuality_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshQuality_e.html)
+Mesh quality as defined in [swsMeshQuality_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshQuality_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMesh::Quality](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~Quality.html)
-
-.
+See [CWMesh::Quality](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~Quality.html).
 
 ## Examples
 
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analyze Part (VBA)](Analyze_Part_Example_VB.htm)
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GetWorstJacobianRatio Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetWorstJacobianRatio.html)
-
 [ICWMesh::GetElementList Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetElementList.html)
-
 [ICWMesh::GetNodeList Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodeList.html)
-
 [ICWMesh::GetSolidElementList Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetSolidElementList.html)
-
 [ICWMesh::GetSolidNodeList Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetSolidNodeList.html)
-
 [ICWMesh::GetSurfaceNodesAndNormals Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetSurfaceNodesAndNormals.html)
 
 ## Availability

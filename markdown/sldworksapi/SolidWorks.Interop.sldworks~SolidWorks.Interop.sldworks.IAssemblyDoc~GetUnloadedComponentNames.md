@@ -59,22 +59,14 @@ System.Object^ GetUnloadedComponentNames(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UnloadedComponentPathNames`: Array of the paths of the unloaded components
 - `UnloadedComponentReferencedConfigurationNames`: Array of the referenced configuration names of the unloaded components
-- `ReasonForUnloadingComponents`: Array indicating the reason each component is unloaded as defined by
-
-[swComponentLoadStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentLoadStatus_e.html)
-- `DocTypes`: Array of document types as defined in[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `ReasonForUnloadingComponents`: Array indicating the reason each component is unloaded as defined by [swComponentLoadStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentLoadStatus_e.html)
+- `DocTypes`: Array of document types as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
 
 ### Return Value
 
@@ -82,36 +74,26 @@ Array of the names of the unloaded components
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetUnloadedComponentNames](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetUnloadedComponentNames.html)
-
-.
+See [AssemblyDoc::GetUnloadedComponentNames](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetUnloadedComponentNames.html).
 
 ## Examples
 
 [Get Hidden Components Filenames (C#)](Get_Hidden_Components_Filenames_Example_CSharp.htm)
-
 [Get Hidden Components Filenames (VB.NET)](Get_Hidden_Components_Filenames_Example_VBNET.htm)
-
 [Get Hidden Components Filenames (VBA)](Get_Hidden_Components_Filenames_Example_VB.htm)
 
 ## Remarks
 
-This method is useful when the assembly document was opened with**Quick View/Selective open**or[Do not load hidden components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~IgnoreHiddenComponents.html).
+This method is useful when the assembly document was opened with **[Quick View/Selective open](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~Selective.html)** or [**Do not load hidden components**](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~IgnoreHiddenComponents.html).
 
-To get whether an assembly has hidden or suppressed unloaded components, call[IAssemblyDoc::HasUnloadedComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~HasUnloadedComponents.html).
+To get whether an assembly has hidden or suppressed unloaded components, call [IAssemblyDoc::HasUnloadedComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~HasUnloadedComponents.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IComponent2::HasUnloadedComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~HasUnloadedComponents.html)
-
 [IComponent2::GetUnloadedComponentNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetUnloadedComponentNames.html)
-
 [IComponent2::GetHiddenUnloadedChildrenCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetHiddenUnloadedChildrenCount.html)
 
 ## Availability

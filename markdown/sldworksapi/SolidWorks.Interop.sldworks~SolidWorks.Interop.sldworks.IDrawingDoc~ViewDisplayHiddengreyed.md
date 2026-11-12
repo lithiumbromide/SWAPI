@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # ViewDisplayHiddengreyed Method (IDrawingDoc)
 
-Sets the current display mode to
-
-Hidden Lines Visible
-
-.
+Sets the current display mode to **Hidden Lines Visible**.
 
 ## Syntax
 
@@ -43,28 +39,16 @@ void ViewDisplayHiddengreyed()
 void ViewDisplayHiddengreyed();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::ViewDisplayHiddengreyed](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ViewDisplayHiddengreyed.html)
-
-.
+See [DrawingDoc::ViewDisplayHiddengreyed](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ViewDisplayHiddengreyed.html).
 
 ## Examples
 
 [Display Hidden Lines in Drawing (VBA)](Display_Hidden_Lines_in_Drawing_Example_VB.htm)
-
 [Display Hidden Lines in Drawing (VB.NET)](Display_Hidden_Lines_in_Drawing_Example_VBNET.htm)
-
 [Display Hidden Lines in Drawing (C#)](Display_Hidden_Lines_in_Drawing_Example_CSharp.htm)
 
 ## Remarks
@@ -74,21 +58,13 @@ The hidden lines are shown in grey.
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::ViewDisplayHidden Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewDisplayHidden.html)
-
 [IDrawingDoc::ViewDisplayShaded Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewDisplayShaded.html)
-
 [IDrawingDoc::ViewDisplayWireframe Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewDisplayWireframe.html)
-
 [IDrawingDoc::ViewHlrQuality Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewHlrQuality.html)
-
 [IDrawingDoc::ViewFullPage Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewFullPage.html)
-
 [IDrawingDoc::ViewModelEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewModelEdges.html)
-
 [IDrawingDoc::ViewTangentEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewTangentEdges.html)
 
 ## Availability

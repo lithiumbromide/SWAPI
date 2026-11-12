@@ -39,32 +39,21 @@ void ReleaseSelectionAccess()
 void ReleaseSelectionAccess();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[HemFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~ReleaseSelectionAccess.html)
-
-.
+See [HemFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~ReleaseSelectionAccess.html).
 
 ## Remarks
 
-[IHemFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHemFeatureData~AccessSelections.html)and[IHemFeatureData::IAccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHemFeatureData~IAccessSelections.html)put the model into a rollback state to allow access to the selections that define this feature.
+[IHemFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHemFeatureData~AccessSelections.html) and [IHemFeatureData::IAccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHemFeatureData~IAccessSelections.html) put the model into a rollback state to allow access to the selections that define this feature.
 
-Use this method to restore the rollback state if you did not modify the feature or use[IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)or[IFeature::IModifyDefintion2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)if you did.
+Use this method to restore the rollback state if you did not modify the feature or use [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefintion2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you did.
 
 ## See Also
 
 [IHemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html)
-
 [IHemFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData_members.html)
 
 ## Availability

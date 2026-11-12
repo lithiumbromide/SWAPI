@@ -1,6 +1,5 @@
 ---
-title: "IMateControllerFeatureData Object
-Members"
+title: "IMateControllerFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IMateControllerFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IMateControllerFeatureData_members.html"
 ---
 
-# IMateControllerFeatureData Object
-Members
+# IMateControllerFeatureData Object Members
 
 ## Public Methods
 

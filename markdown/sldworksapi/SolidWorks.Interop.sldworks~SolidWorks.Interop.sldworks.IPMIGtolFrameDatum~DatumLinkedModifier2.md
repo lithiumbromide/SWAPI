@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 Gets the modifier of the second linked datum of this Gtol frame datum.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,50 +47,27 @@ property System.int DatumLinkedModifier2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Second linked datum](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum~DatumLinked2.html)
-
-material modifier as defined in
-
-[swMaterialModifier_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMaterialModifier_e.html)
+[Second linked datum](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum~DatumLinked2.html) material modifier as defined in [swMaterialModifier_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMaterialModifier_e.html)
 
 ## VBA Syntax
 
-See
-
-[PMIGtolFrameDatum::DatumLinkedModifier2](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolFrameDatum~DatumLinkedModifier2.html)
-
-.
+See [PMIGtolFrameDatum::DatumLinkedModifier2](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolFrameDatum~DatumLinkedModifier2.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## Remarks
 
-Use
-
-[IPMIGtolFrameDatum::DatumLinkedModifierValue2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum~DatumLinkedModifierValue2.html)
-
-to get this linked datum's modifier value, if one exists.
+Use [IPMIGtolFrameDatum::DatumLinkedModifierValue2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum~DatumLinkedModifierValue2.html) to get this linked datum's modifier value, if one exists.
 
 ## See Also
 
 [IPMIGtolFrameDatum Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum.html)
-
 [IPMIGtolFrameDatum Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum_members.html)
 
 ## Availability

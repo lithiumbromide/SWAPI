@@ -45,13 +45,7 @@ property System.Object^ AlignmentVector {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Object in the model that provides location and direction in aligning this struct
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberGroup::AlignmentVector](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~AlignmentVector.html)
-
-.
+See [StructuralMemberGroup::AlignmentVector](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~AlignmentVector.html).
 
 ## See Also
 
 [IStructuralMemberGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup.html)
-
 [IStructuralMemberGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup_members.html)
 
 ## Availability

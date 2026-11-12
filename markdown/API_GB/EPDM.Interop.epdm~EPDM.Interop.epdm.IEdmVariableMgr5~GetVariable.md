@@ -43,14 +43,11 @@ IEdmVariable5^ GetVariable(
 
 ### Return Value
 
-[IEdmVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5.html)
-
-; Null if poIdOrName is not valid
+[IEdmVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5.html); Null if poIdOrName is not valid
 
 ## Examples
 
 [Batch Update Card Variables (VB.NET)](Batch_Update_Variables_Example_VBNET.htm)
-
 [Batch Update Card Variables (C#)](Batch_Update_Variables_Example_CSharp.htm)
 
 ## Remarks
@@ -65,7 +62,6 @@ C++ users not using smart-pointer wrapper functions must release the returned po
 ## See Also
 
 [IEdmVariableMgr5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5.html)
-
 [IEdmVariableMgr5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5_members.html)
 
 ## Availability

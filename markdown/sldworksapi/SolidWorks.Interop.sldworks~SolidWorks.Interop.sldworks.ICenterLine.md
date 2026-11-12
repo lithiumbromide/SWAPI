@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICe
 
 Allows access to a centerline.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class ICenterLine
 
 ## VBA Syntax
 
-See
-
-[CenterLine](ms-its:sldworksapivb6.chm::/sldworks~CenterLine.html)
-
-.
+See [CenterLine](ms-its:sldworksapivb6.chm::/sldworks~CenterLine.html).
 
 ## Examples
 
 [Get Centerlines in Drawing (C#)](Get_Centerlines_in_Drawing_Example_CSharp.htm)
-
 [Get Centerlines in Drawing (VB.NET)](Get_Centerlines_in_Drawing_Example_VBNET.htm)
-
 [Get Centerlines in Drawing (VBA)](Get_Centerlines_in_Drawing_Example_VB.htm)
 
 ## Accessors
@@ -69,7 +63,7 @@ See
 
 [IView::GetFirstCenterLine Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstCenterLine.html)
 
-[IView::GetCenterLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetCenterLines.html)and[IView::IGetCenterLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetCenterLines.html)
+[IView::GetCenterLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetCenterLines.html) and [IView::IGetCenterLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetCenterLines.html)
 
 ## Access Diagram
 
@@ -78,5 +72,4 @@ See
 ## See Also
 
 [ICenterLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterLine_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

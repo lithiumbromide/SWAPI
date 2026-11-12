@@ -59,13 +59,7 @@ System.bool ModifyControlPoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,11 +74,7 @@ True if control point successfully modified, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::ModifyControlPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~ModifyControlPoint.html)
-
-.
+See [SketchSpline::ModifyControlPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~ModifyControlPoint.html).
 
 ## Examples
 
@@ -92,18 +82,15 @@ See
 
 ## Remarks
 
-Before calling this method, call[ISplineParamData::GetControlPoints](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~GetControlPoints.html)and[ISplineParamData::ControlPointsCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~ControlPointsCount.html)to help specify Index and the new coordinates.
+Before calling this method, call [ISplineParamData::GetControlPoints](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~GetControlPoints.html) and [ISplineParamData::ControlPointsCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~ControlPointsCount.html) to help specify Index and the new coordinates.
 
-After calling this method, you must call[IModelDoc2::ForceRebuild3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ForceRebuild3.html)to update the sketch.
+After calling this method, you must call [IModelDoc2::ForceRebuild3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ForceRebuild3.html) to update the sketch.
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [ISketchSpline::ModifyKnot Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~ModifyKnot.html)
-
 [ISplineParamData::SetControlPoints Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~SetControlPoints.html)
 
 ## Availability

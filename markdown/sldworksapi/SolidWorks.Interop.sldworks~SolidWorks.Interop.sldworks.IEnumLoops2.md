@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumLoops2 Interface
 
-Allows access to a
+Allows access to a [loops](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2.html) enumeration.
 
-[loops](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2.html)
-
-enumeration.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IEnumLoops2
 
 ## VBA Syntax
 
-See
-
-[EnumLoops2](ms-its:sldworksapivb6.chm::/sldworks~EnumLoops2.html)
-
-.
+See [EnumLoops2](ms-its:sldworksapivb6.chm::/sldworks~EnumLoops2.html).
 
 ## Remarks
 
@@ -68,5 +60,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumLoops2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops2_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

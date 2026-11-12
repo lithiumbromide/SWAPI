@@ -1,6 +1,5 @@
 ---
-title: "IGeometryAnalysis Object
-Members"
+title: "IGeometryAnalysis Object Members"
 project: "SWUtilitiesActiveX DLL"
 interface: "IGeometryAnalysis_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swutilitiesapivb6/SWUtilities~IGeometryAnalysis_members.html"
 ---
 
-# IGeometryAnalysis Object
-Members
+# IGeometryAnalysis Object Members
 
 ## Public Methods
 

@@ -9,8 +9,7 @@ source: "sldworksapi/Compare_DimXpert_Annotations_in_Different_Versions_of_Same_
 
 # Compare DimXpert Annotations in Different Versions of Same Part Example (C#)
 
-This example shows how to compare the DimXpert annotations in different
-versions of the same part.
+This example shows how to compare the DimXpert annotations in different versions of the same part.
 
 ```
 //-------------------------------------------------------------------

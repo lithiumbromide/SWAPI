@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2_members.html"
 
 # EdmBatchError2 Structure Members
 
-The following tables list the members exposed by[EdmBatchError2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2.html).
+The following tables list the members exposed by [EdmBatchError2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[EdmBatchError2](EPDM.Interop.ep
 ## See Also
 
 [EdmBatchError2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

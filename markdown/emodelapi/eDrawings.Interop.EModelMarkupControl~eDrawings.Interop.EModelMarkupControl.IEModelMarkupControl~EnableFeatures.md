@@ -9,11 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EMode
 
 # EnableFeatures Property (IEModelMarkupControl)
 
-Gets or sets markup properties of the
-
-[IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
-.
+Gets or sets markup properties of the [IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html).
 
 ## Syntax
 
@@ -51,30 +47,21 @@ property System.int EnableFeatures {
 
 ### Property Value
 
-Value of the bitmask as defined by
-
-[EMVMarkupEnableFeatures](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVMarkupEnableFeatures.html)
-
-EndOLEPropertyRow
+Value of the bitmask as defined by [EMVMarkupEnableFeatures](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVMarkupEnableFeatures.html)
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::EnableFeatures](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~EnableFeatures.html)
-
-.
+See [EModelMarkupControl::EnableFeatures](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~EnableFeatures.html).
 
 ## Remarks
 
 You can only set this property at runtime; you cannot set it at design time.
 
-To set an individual markup property only, use[IEModelMarkupControl::EnableFeature](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~EnableFeature.html).
+To set an individual markup property only, use [IEModelMarkupControl::EnableFeature](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~EnableFeature.html).
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
 
 ## Availability

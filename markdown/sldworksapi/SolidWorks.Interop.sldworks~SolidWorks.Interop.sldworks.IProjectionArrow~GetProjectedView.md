@@ -40,40 +40,22 @@ System.object GetProjectedView()
 System.Object^ GetProjectedView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Projected
-
-[view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
-
-from which this projection arrow is referenced
+Projected [view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html) from which this projection arrow is referenced
 
 ## VBA Syntax
 
-See
-
-[ProjectionArrow::GetProjectedView](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~GetProjectedView.html)
-
-.
+See [ProjectionArrow::GetProjectedView](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~GetProjectedView.html).
 
 ## See Also
 
 [IProjectionArrow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html)
-
 [IProjectionArrow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow_members.html)
-
 [IProjectionArrow::IGetProjectedView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~IGetProjectedView.html)
-
 [IProjectionArrow::GetView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~GetView.html)
-
 [IProjectionArrow::IGetView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~IGetView.html)
 
 ## Availability

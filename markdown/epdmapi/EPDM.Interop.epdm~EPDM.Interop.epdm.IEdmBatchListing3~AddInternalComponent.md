@@ -63,11 +63,7 @@ void AddInternalComponent(
 - `oFileDate`: Date of file
 - `lParam`: User-defined argument
 - `bsConfigName`: Name of the configuration file from which to read variables
-- `lEdmListFileFlags`: Combination of
-
-[EdmListFileFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFileFlags.html)
-
-bits
+- `lEdmListFileFlags`: Combination of [EdmListFileFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFileFlags.html) bits
 
 ## Remarks
 
@@ -79,7 +75,6 @@ bits
 ## See Also
 
 [IEdmBatchListing3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3.html)
-
 [IEdmBatchListing3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3_members.html)
 
 ## Availability

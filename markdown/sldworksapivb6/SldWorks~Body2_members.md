@@ -1,6 +1,5 @@
 ---
-title: "Body2 Object
-Members"
+title: "Body2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Body2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Body2_members.html"
 ---
 
-# Body2 Object
-Members
+# Body2 Object Members
 
 ## Public Methods
 

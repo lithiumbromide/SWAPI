@@ -1,6 +1,5 @@
 ---
-title: "CWTopologySymmetryControl Object
-Members"
+title: "CWTopologySymmetryControl Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWTopologySymmetryControl_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWTopologySymmetryControl_members.html"
 ---
 
-# CWTopologySymmetryControl Object
-Members
+# CWTopologySymmetryControl Object Members
 
 ## Public Methods
 

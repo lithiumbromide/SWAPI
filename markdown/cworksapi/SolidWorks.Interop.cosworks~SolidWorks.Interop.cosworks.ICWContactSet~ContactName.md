@@ -48,18 +48,12 @@ Name of this contact set
 
 ## VBA Syntax
 
-See
-
-[CWContactSet::ContactName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~ContactName.html)
-
-.
+See [CWContactSet::ContactName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~ContactName.html).
 
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWContactSet Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet_members.html)
-
 [ICWContactManager::DeleteContactSet Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~DeleteContactSet.html)
 
 ## Availability

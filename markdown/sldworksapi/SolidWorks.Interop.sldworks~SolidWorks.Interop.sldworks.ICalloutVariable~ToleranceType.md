@@ -45,52 +45,31 @@ property System.int ToleranceType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of tolerance as defined in
-
-[swTolType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolType_e.html)
-
-(see
-
-Remarks
-
-)
+Type of tolerance as defined in [swTolType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolType_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::ToleranceType](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~ToleranceType.html)
-
-.
+See [CalloutVariable::ToleranceType](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~ToleranceType.html).
 
 ## Examples
 
 [Get and Set Hole Callout Variables (C#)](Get_and_Set_Hole_Callout_Variables_Example_CSharp.htm)
-
 [Get and Set Hole Callout Variables (VB.NET)](Get_and_Set_Hole_Callout_Variables_Example_VBNET.htm)
-
 [Get and Set Hole Callout Variables (VBA)](Get_and_Set_Hole_Callout_Variables_Example_VB.htm)
 
 ## Remarks
 
-In SOLIDWORKS 2016 and later, use this property to set the type of tolerance for a hole callout. Calling[IDimensionTolerance::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance~Type.html)to set the type of tolerance for a hole callout does not override this property's setting.
+In SOLIDWORKS 2016 and later, use this property to set the type of tolerance for a hole callout. Calling [IDimensionTolerance::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance~Type.html) to set the type of tolerance for a hole callout does not override this property's setting.
 
-To see the effects of changing the tolerance type, use[IModelView::GraphicsRedraw](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~GraphicsRedraw.html).
+To see the effects of changing the tolerance type, use [IModelView::GraphicsRedraw](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~GraphicsRedraw.html).
 
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
 
 ## Availability

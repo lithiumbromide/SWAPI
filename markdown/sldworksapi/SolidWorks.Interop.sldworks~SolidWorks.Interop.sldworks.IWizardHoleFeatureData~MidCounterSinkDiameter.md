@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # MidCounterSinkDiameter Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by
-
-[IWizardHoleFeatureData2::MidCounterSinkDiameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~NearCounterSinkDiameter.html)
-
-.
+Obsolete. Superseded by [IWizardHoleFeatureData2::MidCounterSinkDiameter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~NearCounterSinkDiameter.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double MidCounterSinkDiameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::MidCounterSinkDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~MidCounterSinkDiameter.html)
-
-.
+See [WizardHoleFeatureData::MidCounterSinkDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~MidCounterSinkDiameter.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

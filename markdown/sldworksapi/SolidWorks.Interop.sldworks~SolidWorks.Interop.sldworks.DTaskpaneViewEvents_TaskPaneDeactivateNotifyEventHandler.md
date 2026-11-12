@@ -37,29 +37,15 @@ public delegate System.int DTaskpaneViewEvents_TaskPaneDeactivateNotifyEventHand
 public delegate System.int DTaskpaneViewEvents_TaskPaneDeactivateNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[TaskPaneDeactivateNotify Event (TaskpaneView)](ms-its:sldworksapivb6.chm::/SldWorks~TaskpaneView~TaskPaneDeactivateNotify_EV.html)
-
-.
+See [TaskPaneDeactivateNotify Event (TaskpaneView)](ms-its:sldworksapivb6.chm::/SldWorks~TaskpaneView~TaskPaneDeactivateNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAppTaskPaneDeactivateNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTaskPaneNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppTaskPaneDeactivateNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTaskPaneNotify_e.html) to register for this notification.
 
 ## Availability
 

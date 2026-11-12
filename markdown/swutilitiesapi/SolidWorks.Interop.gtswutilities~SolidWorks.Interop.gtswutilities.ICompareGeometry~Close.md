@@ -42,36 +42,24 @@ System.int Close();
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[ICompareGeometry::Close](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareGeometry~Close.html)
-
-.
+See [ICompareGeometry::Close](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareGeometry~Close.html).
 
 ## Examples
 
 [Compare Geometry (VBA)](Compare_Geometry_VB6.htm)
-
 [Set Tolerances and Compare Geometry (VBA)](Set_Tolerances_and_Compare_Geometry_VB6.htm)
-
 [Compare Geometry (VB.NET)](Compare_Geometry_VBNET.htm)
-
 [Compare Geometry (C#)](Compare_Geometry_CSharp.htm)
-
 [Set Tolerances and Compare Geometry (VB.NET)](Set_Tolerances_and_Compare_Geometry_VBNET.htm)
-
 [Set Tolerances and Compare Geometry (C#)](Set_Tolerances_and_Compare_Geometry_CSharp.htm)
 
 ## See Also
 
 [ICompareGeometry Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry.html)
-
 [ICompareGeometry Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry_members.html)
 
 ## Availability

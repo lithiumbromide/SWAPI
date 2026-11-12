@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetTessTriStripNorms Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetTessTriStripNorms.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTessTriStripNorms.html)
+Obsolete. Superseded by [IFace2::GetTessTriStripNorms.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTessTriStripNorms.html)
 
 ## Syntax
 
@@ -42,24 +40,13 @@ System.object GetTessTriStripNorms()
 System.Object^ GetTessTriStripNorms();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::GetTessTriStripNorms](ms-its:sldworksapivb6.chm::/sldworks~Face~GetTessTriStripNorms.html)
-
-.
+See [Face::GetTessTriStripNorms](ms-its:sldworksapivb6.chm::/sldworks~Face~GetTessTriStripNorms.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

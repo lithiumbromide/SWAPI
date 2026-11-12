@@ -43,30 +43,19 @@ property System.int MaterialSource {
 
 ### Property Value
 
-Source of material as defined by
-
-[swsMaterialSourceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSourceType_e.html)
+Source of material as defined by [swsMaterialSourceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSourceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::MaterialSource](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~MaterialSource.html)
-
-.
+See [CWLinkageRod::MaterialSource](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~MaterialSource.html).
 
 ## Examples
 
-See the
-
-[ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
-examples
+See the [ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html) examples
 
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # UpdateToModelChanges Property (ISimulationSpringFeatureData)
 
-Gets or sets whether to have the
-
-[free length](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData~FreeLength.html)
-
-dynamically update model changes while the PropertyManager page is open.
+Gets or sets whether to have the [free length](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData~FreeLength.html) dynamically update model changes while the PropertyManager page is open.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool UpdateToModelChanges {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ Ture to have the free length dynamically update model changes while the Property
 
 ## VBA Syntax
 
-See
-
-[SimulationSpringFeatureData::UpdateToModelChanges](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~UpdateToModelChanges.html)
-
-.
+See [SimulationSpringFeatureData::UpdateToModelChanges](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~UpdateToModelChanges.html).
 
 ## See Also
 
 [ISimulationSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData.html)
-
 [ISimulationSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData_members.html)
 
 ## Availability

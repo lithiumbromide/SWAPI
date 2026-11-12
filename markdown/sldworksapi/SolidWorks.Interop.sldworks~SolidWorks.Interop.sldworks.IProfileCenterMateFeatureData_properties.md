@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IProfileCenterMateFeatureData Interface Properties
 
-For a list of all members of this type, see[IProfileCenterMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData_members.html).
+For a list of all members of this type, see [IProfileCenterMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData_members.html).
 
 ## Public Properties
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[IProfileCenterMateFeatureData member
 ## See Also
 
 [IProfileCenterMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

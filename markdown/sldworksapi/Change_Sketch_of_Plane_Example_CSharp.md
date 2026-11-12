@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Sketch_of_Plane_Example_CSharp.htm"
 
 # Change the Plane of a Sketch Example (C#)
 
-This example shows how to modify the plane
-of a sketch.
+This example shows how to modify the plane of a sketch.
 
 ```
 //----------------------------------------------------------------------------

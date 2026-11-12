@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Mass_Properties_Using_IMassProperty_Example_VBNET.htm"
 
 # Get and Override Mass Properties Example (VB.NET)
 
-This example shows how
-togetand override some mass propertiesofa part.
+This example shows how to get and override some mass properties of a part.
 
 ```vb
   '-----------------------------------------------------------------------
@@ -107,6 +106,4 @@ togetand override some mass propertiesofa part.
       Public swApp  As  SldWorks
 ```
 
-End
-
-Class
+End Class

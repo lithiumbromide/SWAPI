@@ -51,19 +51,11 @@ System.bool ChangeSketchPlane(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Config_opt`: Configurations as defined by
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Config_opt`: Configurations as defined by [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `Config_names`: Array of configuration names
 
 ### Return Value
@@ -72,18 +64,12 @@ True if the operation succeeds, false if it fails
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ChangeSketchPlane](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ChangeSketchPlane.html)
-
-.
+See [ModelDocExtension::ChangeSketchPlane](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ChangeSketchPlane.html).
 
 ## Examples
 
 [Change Plane of Sketch (VBA)](Change_Sketch_Plane_Example_VB.htm)
-
 [Change Plane of Sketch (VB.NET)](Change_Sketch_of_Plane_Example_VBNET.htm)
-
 [Change Plane of Sketch (C#)](Change_Sketch_of_Plane_Example_CSharp.htm)
 
 ## Remarks
@@ -93,9 +79,7 @@ Every sketch is associated with a plane (for example, a reference plane or a pla
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::IChangeSketchPlane Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IChangeSketchPlane.html)
 
 ## Availability

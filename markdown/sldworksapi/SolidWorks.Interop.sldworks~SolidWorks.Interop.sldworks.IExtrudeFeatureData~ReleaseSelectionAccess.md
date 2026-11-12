@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # ReleaseSelectionAccess Method (IExtrudeFeatureData)
 
-Obsolete. Superseded by
-
-[IExtrudeFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~ReleaseSelectionAccess.html)
-
-.
+Obsolete. Superseded by [IExtrudeFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~ReleaseSelectionAccess.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ReleaseSelectionAccess()
 void ReleaseSelectionAccess();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~ReleaseSelectionAccess.html)
-
-.
+See [ExtrudeFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~ReleaseSelectionAccess.html).
 
 ## See Also
 
 [IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html)
-
 [IExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.html)

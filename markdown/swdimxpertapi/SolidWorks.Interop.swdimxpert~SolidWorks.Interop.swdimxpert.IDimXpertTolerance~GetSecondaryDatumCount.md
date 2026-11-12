@@ -46,16 +46,11 @@ Number of secondary datums
 
 ## VBA Syntax
 
-See
-
-[DimXpertTolerance::GetSecondaryDatumCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~GetSecondaryDatumCount.html)
-
-.
+See [DimXpertTolerance::GetSecondaryDatumCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertTolerance~GetSecondaryDatumCount.html).
 
 ## See Also
 
 [IDimXpertTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance.html)
-
 [IDimXpertTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance_members.html)
 
 ## Availability

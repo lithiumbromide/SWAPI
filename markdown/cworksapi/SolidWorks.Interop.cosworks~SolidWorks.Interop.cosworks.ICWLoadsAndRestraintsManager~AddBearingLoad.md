@@ -57,19 +57,9 @@ CWBearingLoad^ AddBearingLoad(
 
 ### Parameters
 
-- `CoordinateSystem`: Coordinate system (see
-
-Remarks
-
-)
-- `FirstFace`: Array of cylindrical faces or circular shell edges (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in
-
-[swsLoadsAndRestraintsManagerBearingLoadError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLoadsAndRestraintsManagerBearingLoadError_e.html)
+- `CoordinateSystem`: Coordinate system (see **Remarks**)
+- `FirstFace`: Array of cylindrical faces or circular shell edges (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsLoadsAndRestraintsManagerBearingLoadError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLoadsAndRestraintsManagerBearingLoadError_e.html)
 
 ### Return Value
 
@@ -77,18 +67,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddBearingLoad](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddBearingLoad.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddBearingLoad](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddBearingLoad.html).
 
 ## Examples
 
 [Add Bearing Load (VBA)](Add_Bearing_Load_Example_VB.htm)
-
 [Add Bearing Load (VB.NET)](Add_Bearing_Load_Example_VBNET.htm)
-
 [Add Bearing Load (C#)](Add_Bearing_Load_Example_CSharp.htm)
 
 ## Remarks
@@ -98,7 +82,6 @@ The Z-axis of CoordinateSystem must coincide with the axes of the faces in the F
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

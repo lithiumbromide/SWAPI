@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumDisplayDimensions Interface Members
 
-The following tables list the members exposed by[IEnumDisplayDimensions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDisplayDimensions.html).
+The following tables list the members exposed by [IEnumDisplayDimensions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDisplayDimensions.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[IEnumDisplayDimensions](SolidWo
 ## See Also
 
 [IEnumDisplayDimensions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDisplayDimensions.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

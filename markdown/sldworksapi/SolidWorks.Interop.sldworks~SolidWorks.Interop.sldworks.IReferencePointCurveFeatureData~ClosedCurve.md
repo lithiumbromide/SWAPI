@@ -45,13 +45,7 @@ property System.bool ClosedCurve {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True if curve is closed, false if not
 
 ## VBA Syntax
 
-See
-
-[ReferencePointCurveFeatureData::ClosedCurve](ms-its:sldworksapivb6.chm::/sldworks~ReferencePointCurveFeatureData~ClosedCurve.html)
-
-.
+See [ReferencePointCurveFeatureData::ClosedCurve](ms-its:sldworksapivb6.chm::/sldworks~ReferencePointCurveFeatureData~ClosedCurve.html).
 
 ## Examples
 
-See the
-
-[IReferencePointCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData.html)
-
-examples.
+See the [IReferencePointCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData.html) examples.
 
 ## See Also
 
 [IReferencePointCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData.html)
-
 [IReferencePointCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferencePointCurveFeatureData_members.html)
 
 ## Availability

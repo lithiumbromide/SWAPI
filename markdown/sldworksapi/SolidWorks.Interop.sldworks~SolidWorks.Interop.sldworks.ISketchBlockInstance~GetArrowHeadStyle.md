@@ -40,36 +40,21 @@ System.int GetArrowHeadStyle()
 System.int GetArrowHeadStyle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Arrowhead style as defined in
-
-[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+Arrowhead style as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::GetArrowHeadStyle](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetArrowHeadStyle.html)
-
-.
+See [SketchBlockInstance::GetArrowHeadStyle](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetArrowHeadStyle.html).
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
-
 [ISketchBlockInstance::GetLeaderStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~GetLeaderStyle.html)
-
 [ISketchBlockInstance::SetLeader Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~SetLeader.html)
 
 ## Availability

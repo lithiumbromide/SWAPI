@@ -1,0 +1,16 @@
+#swapi-map 1 module=swhtmlcontrolapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@SwHtmlInterface	o
+GetCommandID	m	Function GetCommandID(ByVal ClsID As String, ByVal UserCmdID As Long) As Long
+GetCurrentTODIndex	m	Function GetCurrentTODIndex() As Long
+GetFontSize	m	Function GetFontSize() As Long
+GetInterfaceBrightnessTheme	m	Function GetInterfaceBrightnessTheme() As Long:swInterfaceBrightnessTheme_e
+GetPrevTipOfTheDay	m	Function GetPrevTipOfTheDay() As String
+HideBubbleTooltip	m	Sub HideBubbleTooltip()
+IsBeta	m	Function IsBeta() As Long
+IsX64	m	Function IsX64() As Long
+RunInternalCommand	m	Sub RunInternalCommand(ByVal whichCommand As Long, ByVal arg As String)
+ShowBubbleTooltip	m	Sub ShowBubbleTooltip(ByVal pointAt As Long, ByVal flashButtonIDs As String, ByVal titleResID As Long, ByVal titleString As String, ByVal messageString As String)
+ShowBubbleTooltipAt	m	Sub ShowBubbleTooltipAt(ByVal pointX As Long, ByVal pointY As Long, ByVal arrowPos As Long:swArrowPosition, ByVal titleString As String, ByVal messageString As String, ByVal urlLoc As String)
+ShowBubbleTooltipForAddinToolbar	m	Sub ShowBubbleTooltipForAddinToolbar(ByVal addInCLSID As String, ByVal pointAt_UserID As Long, ByVal flashButton_UserIDs As String, ByVal titleResID As Long, ByVal titleString As String, ByVal messageString As String)
+ShowHomeIconMarker	m	Function ShowHomeIconMarker() As Long
+ShowTooltip	m	Sub ShowTooltip(ByVal ToolbarName As String, ByVal buttonIndex As Long, ByVal mask1 As Long, ByVal mask2 As Long, ByVal titleString As String, ByVal messageString As String)

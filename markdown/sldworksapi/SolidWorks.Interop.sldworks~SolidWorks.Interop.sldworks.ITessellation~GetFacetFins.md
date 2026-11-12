@@ -47,13 +47,7 @@ System.Object^ GetFacetFins(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +59,19 @@ Array of long or integer values that describe the fin IDs
 
 ## VBA Syntax
 
-See
-
-[Tessellation::GetFacetFins](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFacetFins.html)
-
-.
+See [Tessellation::GetFacetFins](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFacetFins.html).
 
 ## Examples
 
 [Tessellate a Body (C#)](Tessellate_a_Body_Example_CSharp.htm)
-
 [Tessellate a Body (VB.NET)](Tessellate_a_Body_Example_VBNET.htm)
-
 [Tessellate a Body (VBA)](Tessellate_a_Body_Example_VB.htm)
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::IGetFacetFins Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetFacetFins.html)
-
 [ITessellation::IGetFacetFinsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetFacetFinsCount.html)
 
 ## Availability

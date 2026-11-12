@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGe
 
 Allows access to the general tolerance table annotation.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IGeneralToleranceTableAnnotation
 
 ## VBA Syntax
 
-See
-
-[GeneralToleranceTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~GeneralToleranceTableAnnotation.html)
-
-.
+See [GeneralToleranceTableAnnotation](ms-its:sldworksapivb6.chm::/sldworks~GeneralToleranceTableAnnotation.html).
 
 ## Examples
 
 [Insert General Tolerance Table (VBA)](Insert_General_Tolerance_Table_Example_VB.htm)
-
 [Insert General Tolerance Table (VB.NET)](Insert_General_Tolerance_Table_Example_VBNET.htm)
-
 [Insert General Tolerance Table (C#)](Insert_General_Tolerance_Table_Example_CSharp.htm)
 
 ## Accessors
@@ -68,5 +62,4 @@ See
 ## See Also
 
 [IGeneralToleranceTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableAnnotation_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -62,11 +62,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertStraightnessGeoTol::GetMaxTolerance](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertStraightnessGeoTol~GetMaxTolerance.html)
-
-.
+See [SwDMDimXpertStraightnessGeoTol::GetMaxTolerance](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertStraightnessGeoTol~GetMaxTolerance.html).
 
 ## Examples
 
@@ -75,7 +71,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertStraightnessGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertStraightnessGeoTol.html)
-
 [ISwDMDimXpertStraightnessGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertStraightnessGeoTol_members.html)
 
 ## Availability

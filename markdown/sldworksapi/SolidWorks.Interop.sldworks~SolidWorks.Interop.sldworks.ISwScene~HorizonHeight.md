@@ -45,13 +45,7 @@ property System.double HorizonHeight {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[SwScene::HorizonHeight](ms-its:sldworksapivb6.chm::/sldworks~SwScene~HorizonHeight.html)
-
-.
+See [SwScene::HorizonHeight](ms-its:sldworksapivb6.chm::/sldworks~SwScene~HorizonHeight.html).
 
 ## Examples
 
-See the
-
-[ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
-examples.
+See the [ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ISwScene::FlattenFloor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FlattenFloor.html)
-
-is set to true.
+This property is valid only if [ISwScene::FlattenFloor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FlattenFloor.html) is set to true.
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

@@ -9,6 +9,8 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # GetNomPlaneVector Method (IDimXpertAngleBetweenCircularDimTol)
 
+Gets the nominal plane vector for computing the angle of this DimXpert angle-between circular dimension tolerance.
+
 ## Syntax
 
 ### Visual Basic (Declaration)
@@ -55,12 +57,23 @@ System.bool GetNomPlaneVector(
 
 ### Parameters
 
-- `I`:
-- `J`:
-- `K`:
+- `I`: I component of the direction vector
+- `J`: J component of the direction vector
+- `K`: K component of the direction vector
+
+### Return Value
+
+True if the method call is successful; false otherwise
+
+## VBA Syntax
+
+See [DimXpertAngleBetweenCircularDimTol::GetNomPlaneVector](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAngleBetweenCircularDimTol~GetNomPlaneVectorr.html).
 
 ## See Also
 
 [IDimXpertAngleBetweenCircularDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenCircularDimTol.html)
-
 [IDimXpertAngleBetweenCircularDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenCircularDimTol_members.html)
+
+## Availability
+
+SOLIDWORKS 2026 SP02, Revision Number 34.2

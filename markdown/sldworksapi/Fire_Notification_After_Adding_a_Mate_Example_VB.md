@@ -72,7 +72,7 @@ Option Explicit
 Public WithEvents swAssemblyDoc As SldWorks.AssemblyDoc
 
  Private Function swAssemblyDoc_AddMatePostNotify2(mates As Variant) As Long
- kadov_tag{{<spaces>}}    Debug.Print "One or more mates were added to the assembly."
+     Debug.Print "One or more mates were added to the assembly."
 
     Dim mate As Mate2
      Dim i As Integer

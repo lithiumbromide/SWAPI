@@ -52,20 +52,13 @@ void InsertTightFitEntity(
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::InsertTightFitEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~InsertTightFitEntity.html)
-
-.
+See [CWBoltConnector::InsertTightFitEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~InsertTightFitEntity.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::RemoveTightFitEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~RemoveTightFitEntity.html)
-
 [ICWBoltConnector::IncludeTightFit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~IncludeTightFit.html)
 
 ## Availability

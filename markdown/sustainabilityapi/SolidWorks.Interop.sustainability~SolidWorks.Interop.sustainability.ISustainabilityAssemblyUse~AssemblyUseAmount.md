@@ -47,32 +47,19 @@ property System.Object^ AssemblyUseAmount {
 
 ### Property Value
 
-Array containing the amounts of electricity, natural gas, diesel, gasoline, and light fuel oil used over the life span of the assembly; valid only if
-
-[ISustainabilityAssemblyUse::EnergyOverLifeSpan](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse~EnergyOverLifeSpan.html)
-
-is true
+Array containing the amounts of electricity, natural gas, diesel, gasoline, and light fuel oil used over the life span of the assembly; valid only if [ISustainabilityAssemblyUse::EnergyOverLifeSpan](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse~EnergyOverLifeSpan.html) is true
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyUse::AssemblyUseAmount](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse~AssemblyUseAmount.html)
-
-.
+See [SustainabilityAssemblyUse::AssemblyUseAmount](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse~AssemblyUseAmount.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityAssemblyUse](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse.html)
-
-.
+See the examples in [ISustainabilityAssemblyUse](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse.html).
 
 ## See Also
 
 [ISustainabilityAssemblyUse Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse.html)
-
 [ISustainabilityAssemblyUse Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse_members.html)
 
 ## Availability

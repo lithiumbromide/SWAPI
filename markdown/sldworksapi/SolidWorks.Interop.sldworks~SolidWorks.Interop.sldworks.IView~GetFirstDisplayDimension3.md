@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetFirstDisplayDimension3 Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetFirstDisplayDimension5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstDisplayDimension5.html)
-
-.
+Obsolete. Superseded by [IView::GetFirstDisplayDimension5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstDisplayDimension5.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetFirstDisplayDimension3()
 System.Object^ GetFirstDisplayDimension3();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::GetFirstDisplayDimension3](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstDisplayDimension3.html)
-
-.
+See [View::GetFirstDisplayDimension3](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstDisplayDimension3.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

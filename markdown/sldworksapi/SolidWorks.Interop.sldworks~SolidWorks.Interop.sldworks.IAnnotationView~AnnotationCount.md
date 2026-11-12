@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 # AnnotationCount Property (IAnnotationView)
 
-Gets the number of
-
-[annotations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
-in this annotation view.
+Gets the number of [annotations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html) in this annotation view.
 
 ## Syntax
 
@@ -46,13 +42,7 @@ property System.int AnnotationCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -60,30 +50,22 @@ Number of annotations
 
 ## VBA Syntax
 
-See
-
-[AnnotationView::AnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~AnnotationCount.html)
-
-.
+See [AnnotationView::AnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~AnnotationCount.html).
 
 ## Examples
 
 [Move Annotations to Notes Area Annotation View (C#)](Move_Annotations_to_First_Annotation_View_Example_CSharp.htm)
-
 [Move Annotations to Notes Area Annotation View (VB.NET)](Move_Annotations_to_First_Annotation_View_Example_VBNET.htm)
-
 [Move Annotations to Notes Area Annotation View (VBA)](Move_Annotations_to_First_Annotation_View_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling[IAnnotationView::IGetAnnotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotationView~IGetAnnotations.html)to get the size of the array for that method.
+Call this method before calling [IAnnotationView::IGetAnnotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotationView~IGetAnnotations.html) to get the size of the array for that method.
 
 ## See Also
 
 [IAnnotationView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html)
-
 [IAnnotationView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView_members.html)
-
 [IAnnotationView::Annotations Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~Annotations.html)
 
 ## Availability

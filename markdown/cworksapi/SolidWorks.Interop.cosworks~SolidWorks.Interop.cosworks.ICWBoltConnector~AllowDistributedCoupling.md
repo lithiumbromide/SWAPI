@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBo
 
 # AllowDistributedCoupling Property (ICWBoltConnector)
 
-Obsolete. Superseded by
-
-[ICWBoltConnector::AllowDistributedCoupling2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~AllowDistributedCoupling2.html)
-
-.
+Obsolete. Superseded by [ICWBoltConnector::AllowDistributedCoupling2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~AllowDistributedCoupling2.html).
 
 ## Syntax
 
@@ -52,24 +48,15 @@ True if distributed coupling is allowed, false if not
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::AllowDistributedCoupling](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~AllowDistributedCoupling.html)
-
-.
+See [CWBoltConnector::AllowDistributedCoupling](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~AllowDistributedCoupling.html).
 
 ## Remarks
 
-If this property is true, you can set
-
-[ICWBoltConnector::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~ConnectionType.html)
-
-.
+If this property is true, you can set [ICWBoltConnector::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~ConnectionType.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
 
 ## Availability

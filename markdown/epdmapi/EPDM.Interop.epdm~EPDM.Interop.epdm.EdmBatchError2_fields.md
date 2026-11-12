@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2_fields.html"
 
 # EdmBatchError2 Structure Fields
 
-For a list of all members of this type, see[EdmBatchError2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2_members.html).
+For a list of all members of this type, see [EdmBatchError2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2_members.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[EdmBatchError2 members](EPDM.Interop
 ## See Also
 
 [EdmBatchError2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

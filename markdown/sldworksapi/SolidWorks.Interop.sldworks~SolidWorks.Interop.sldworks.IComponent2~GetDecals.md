@@ -40,36 +40,21 @@ System.object GetDecals()
 System.Object^ GetDecals();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[decals](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDecal.html)
+Array of [decals](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDecal.html)
 
 ## VBA Syntax
 
-See
-
-[Component2::GetDecals](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetDecals.html)
-
-.
+See [Component2::GetDecals](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetDecals.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::GetDecalsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetDecalsCount.html)
-
 [IComponent2::IGetDecals Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IGetDecals.html)
 
 ## Availability

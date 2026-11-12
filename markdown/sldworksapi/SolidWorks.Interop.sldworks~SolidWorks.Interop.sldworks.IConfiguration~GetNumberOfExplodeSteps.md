@@ -40,13 +40,7 @@ System.int GetNumberOfExplodeSteps()
 System.int GetNumberOfExplodeSteps();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,36 +48,19 @@ Number of explode steps on this configuration
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetNumberOfExplodeSteps](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetNumberOfExplodeSteps.html)
-
-.
+See [Configuration::GetNumberOfExplodeSteps](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetNumberOfExplodeSteps.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IConfiguration::GetExplodeStep](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~GetExplodeStep.html)
-
-or
-
-[IConfiguration::IGetExplodeStep](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~IGetExplodeStep.html)
-
-.
+Call this method before calling [IConfiguration::GetExplodeStep](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~GetExplodeStep.html) or [IConfiguration::IGetExplodeStep](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~IGetExplodeStep.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::AddExplodeStep Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~AddExplodeStep.html)
-
 [IConfiguration::DeleteExplodeStep Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~DeleteExplodeStep.html)
-
 [IConfiguration::IAddExplodeStep Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IAddExplodeStep.html)
-
 [IConfiguration::AddRadialExplodeStep Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~AddRadialExplodeStep.html)
 
 ## Availability

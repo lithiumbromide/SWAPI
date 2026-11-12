@@ -59,32 +59,14 @@ System.int GetDirectionReference(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Ref1`: First reference entity (see
-
-Remarks
-
-)
-- `Type1`: Type of reference entity as defined by
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-- `Ref2`: Second reference entity (see
-
-Remarks
-
-)
-- `Type2`: Type of reference entity as defined by
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `Ref1`: First reference entity (see **Remarks**)
+- `Type1`: Type of reference entity as defined by [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `Ref2`: Second reference entity (see Remarks)
+- `Type2`: Type of reference entity as defined by [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ### Return Value
 
@@ -92,17 +74,11 @@ Number of reference entities used to define the direction of this hole feature
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData2::GetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~GetDirectionReference.html)
-
-.
+See [SimpleHoleFeatureData2::GetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~GetDirectionReference.html).
 
 ## Remarks
 
 Sometimes one reference entity defines a direction; for example, an edge or axis. Other times, two reference entities define a direction; for example, two vertices or two sketch points.
-
-(Table)=========================================================
 
 | If... | Then... |
 | --- | --- |
@@ -119,16 +95,13 @@ Valid reference entities for Ref1 and Ref2:
 - plane
 - sketch point
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
 [ISimpleHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2_members.html)
-
 [ISimpleHoleFeatureData2::SetDirectionReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~SetDirectionReference.html)
-
 [ISimpleHoleFeatureData2::ReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~ReverseDirection.html)
 
 ## Availability

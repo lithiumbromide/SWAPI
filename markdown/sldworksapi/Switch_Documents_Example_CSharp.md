@@ -9,8 +9,7 @@ source: "sldworksapi/Switch_Documents_Example_CSharp.htm"
 
 # Switch Documents Example (C#)
 
-This example shows how to switch documents by opening documents in their own
-and client model windows.
+This example shows how to switch documents by opening documents in their own and client model windows.
 
 ```
 //----------------------------------------------

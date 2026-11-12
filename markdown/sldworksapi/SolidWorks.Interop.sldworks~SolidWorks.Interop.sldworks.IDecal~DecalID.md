@@ -42,13 +42,7 @@ property System.int DecalID {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ SOLIDWORKS decal ID (index number)
 
 ## VBA Syntax
 
-See
-
-[Decal::DecalID](ms-its:sldworksapivb6.chm::/sldworks~Decal~DecalID.html)
-
-.
+See [Decal::DecalID](ms-its:sldworksapivb6.chm::/sldworks~Decal~DecalID.html).
 
 ## Remarks
 
-By default, decal IDs are persistent, which means if three decals (IDs 1, 2, and 3) were applied to the model, and you
-
-[removed decal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~DeleteDecal.html)
-
-ID 2, then the remaining decal IDs are 1 and 3.
+By default, decal IDs are persistent, which means if three decals (IDs 1, 2, and 3) were applied to the model, and you [removed decal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~DeleteDecal.html) ID 2, then the remaining decal IDs are 1 and 3.
 
 ## See Also
 
 [IDecal Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDecal.html)
-
 [IDecal Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDecal_members.html)
 
 ## Availability

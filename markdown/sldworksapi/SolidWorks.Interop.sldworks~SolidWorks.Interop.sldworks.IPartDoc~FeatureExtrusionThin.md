@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # FeatureExtrusionThin Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureExtrusionThin2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusionThin2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureExtrusionThin2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusionThin2.html).
 
 ## Syntax
 
@@ -134,13 +130,7 @@ void FeatureExtrusionThin(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -169,14 +159,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::FeatureExtrusionThin](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~FeatureExtrusionThin.html)
-
-.
+See [PartDoc::FeatureExtrusionThin](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~FeatureExtrusionThin.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

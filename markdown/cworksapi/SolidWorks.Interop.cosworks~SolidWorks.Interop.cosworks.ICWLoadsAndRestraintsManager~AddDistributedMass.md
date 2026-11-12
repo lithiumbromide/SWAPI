@@ -62,11 +62,9 @@ CWDistributedMass^ AddDistributedMass(
 ### Parameters
 
 - `DispArray`: Array of faces or shell edges on which to distribute the mass
-- `NUnits`: Units as defined in
-
-[swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
+- `NUnits`: Units as defined in [swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
 - `DMass`: Mass to distribute
-- `ErrorCode`: Error code as defined in[swsDistributedMassError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDistributedMassError_e.html)
+- `ErrorCode`: Error code as defined in [swsDistributedMassError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDistributedMassError_e.html)
 
 ### Return Value
 
@@ -74,24 +72,17 @@ CWDistributedMass^ AddDistributedMass(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddDistributedMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddDistributedMass.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddDistributedMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddDistributedMass.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

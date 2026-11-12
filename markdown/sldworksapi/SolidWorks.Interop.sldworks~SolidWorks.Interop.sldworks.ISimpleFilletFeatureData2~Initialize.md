@@ -47,19 +47,11 @@ System.bool Initialize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FilletType`: Simple fillet type as defined in
-
-[swSimpleFilletType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSimpleFilletType_e.html)
+- `FilletType`: Simple fillet type as defined in [swSimpleFilletType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSimpleFilletType_e.html)
 
 ### Return Value
 
@@ -67,36 +59,19 @@ True if the simple fillet feature is initialized, false if not
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::Initialize](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~Initialize.html)
-
-.
+See [SimpleFilletFeatureData2::Initialize](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~Initialize.html).
 
 ## Examples
 
-See the
-
-[IPartialEdgeFilletData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html)
-
-and
-
-[ISimpleFilletFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
-introductory examples.
+See the [IPartialEdgeFilletData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html) and [ISimpleFilletFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html) introductory examples.
 
 ## Remarks
 
-After you initialize this data object with a fillet type, you need to narrow the fillet type by specifying
-
-[ISimpleFilletFeatureData2::ConicTypeForCrossSectionProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~ConicTypeForCrossSectionProfile.html)
-
-.
+After you initialize this data object with a fillet type, you need to narrow the fillet type by specifying [ISimpleFilletFeatureData2::ConicTypeForCrossSectionProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~ConicTypeForCrossSectionProfile.html).
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
 
 ## Availability

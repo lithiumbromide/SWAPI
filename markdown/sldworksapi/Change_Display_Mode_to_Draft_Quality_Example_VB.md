@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Display_Mode_to_Draft_Quality_Example_VB.htm"
 
 # Change Display Mode to Draft Quality Example (VBA)
 
-This example shows how to change all of the display modes of all of the
-drawing views in a drawing to draft quality.
+This example shows how to change all of the display modes of all of the drawing views in a drawing to draft quality.
 
 ```
 '------------------------------------------------------------------

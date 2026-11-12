@@ -55,21 +55,11 @@ System.bool GetCellData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ColumnName`: Column name (see
-
-Remarks
-
-)
+- `ColumnName`: Column name (see **Remarks**)
 - `RowIndex`: 0-based row index
 - `CellData`: Cell data
 
@@ -79,39 +69,22 @@ True if cell data successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleDataTable::GetCellData](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~GetCellData.html)
-
-.
+See [HoleDataTable::GetCellData](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~GetCellData.html).
 
 ## Examples
 
-See the
-
-[IHoleDataTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
-
-example.
+See the [IHoleDataTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html) example.
 
 ## Remarks
 
 To set:
 
-- ColumnName, use
-
-  [IHoleDataTable::GetColumnNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable~GetColumnNames.html)
-
-  .
-- RowIndex, use
-
-  [IHoleDataTable::GetRowCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable~GetRowCount.html)
-
-  .
+- ColumnName, use [IHoleDataTable::GetColumnNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable~GetColumnNames.html).
+- RowIndex, use [IHoleDataTable::GetRowCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable~GetRowCount.html).
 
 ## See Also
 
 [IHoleDataTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
-
 [IHoleDataTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable_members.html)
 
 ## Availability

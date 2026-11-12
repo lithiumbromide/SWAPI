@@ -18,7 +18,7 @@ This example shows how to import a DXF file to a part sketch.
 ' 2. Open the Immediate window.
 '
 ' Postconditions:
-' 1. Imports the specified file into SOLIDWORKS.
+' 1. Imports the specified file into SOLIDWORKS Design.
 ' 2. Examine the Immediate window and graphics area.
 '-------------------------------------------------
 Option Explicit

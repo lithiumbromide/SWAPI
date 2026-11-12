@@ -45,13 +45,7 @@ property System.bool PropagateToTangentFaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True to extend fillet to all faces tangent to the selected face or edge, false t
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData2::PropagateToTangentFaces](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~PropagateToTangentFaces.html)
-
-.
+See [VariableFilletFeatureData2::PropagateToTangentFaces](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~PropagateToTangentFaces.html).
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2_members.html)
 
 ## Availability

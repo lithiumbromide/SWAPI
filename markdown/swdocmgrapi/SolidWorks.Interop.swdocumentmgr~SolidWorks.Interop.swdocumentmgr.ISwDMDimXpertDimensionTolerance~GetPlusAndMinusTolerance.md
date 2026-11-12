@@ -62,11 +62,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertDimensionTolerance::GetPlusAndMinusTolerance](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDimensionTolerance~GetPlusAndMinusTolerance.html)
-
-.
+See [SwDMDimXpertDimensionTolerance::GetPlusAndMinusTolerance](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDimensionTolerance~GetPlusAndMinusTolerance.html).
 
 ## Examples
 
@@ -75,7 +71,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertDimensionTolerance Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDimensionTolerance.html)
-
 [ISwDMDimXpertDimensionTolerance Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDimensionTolerance_members.html)
 
 ## Availability

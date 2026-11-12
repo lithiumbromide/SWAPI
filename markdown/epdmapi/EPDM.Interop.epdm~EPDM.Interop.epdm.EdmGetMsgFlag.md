@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetMsgFlag.html"
 
 # EdmGetMsgFlag Enumeration
 
-Types of message returned used in calls to
-
-[IEdmInbox5::GetFirstMessagePosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5~GetFirstMessagePosition.html)
-
-.
+Types of message returned used in calls to [IEdmInbox5::GetFirstMessagePosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5~GetFirstMessagePosition.html).
 
 ## Syntax
 

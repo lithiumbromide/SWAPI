@@ -48,11 +48,7 @@ property CWTopologyStudyOptions^ TopologyStudyOptions {
 
 ## VBA Syntax
 
-See
-
-[CWStudy::TopologyStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~TopologyStudyOptions.html)
-
-.
+See [CWStudy::TopologyStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~TopologyStudyOptions.html).
 
 ## Examples
 
@@ -65,7 +61,6 @@ This property is only valid for topology studies.
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

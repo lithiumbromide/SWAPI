@@ -52,24 +52,15 @@ void OnUserResponseA(
 
 ## VBA Syntax
 
-See
-
-[MessageBarHandler::OnUserResponseA](ms-its:swpublishedapivb6.chm::/swpublished~MessageBarHandler~OnUserResponseA.html)
-
-.
+See [MessageBarHandler::OnUserResponseA](ms-its:swpublishedapivb6.chm::/swpublished~MessageBarHandler~OnUserResponseA.html).
 
 ## Examples
 
-See the
-
-[IMessageBarHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html)
-
-examples.
+See the [IMessageBarHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html) examples.
 
 ## See Also
 
 [IMessageBarHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html)
-
 [IMessageBarHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler_members.html)
 
 ## Availability

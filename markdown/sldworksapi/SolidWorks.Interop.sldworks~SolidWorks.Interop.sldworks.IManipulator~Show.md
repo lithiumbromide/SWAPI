@@ -46,13 +46,7 @@ void Show(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,24 +54,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[Manipulator::Show](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Show.html)
-
-.
+See [Manipulator::Show](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Show.html).
 
 ## Examples
 
 [Create Triad Manipulator (VBA)](Create_Triad_Manipulator_Example_VB.htm)
-
 [Create Triad Manipulator (VB.NET)](Create_Triad_Manipulator_Example_VBNET.htm)
-
 [Create Triad Manipulator (C#)](Create_Triad_Manipulator_Example_CSharp.htm)
 
 ## See Also
 
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)
-
 [IManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator_members.html)
 
 ## Availability

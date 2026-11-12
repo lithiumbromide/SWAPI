@@ -1,6 +1,5 @@
 ---
-title: "LightDialog Object
-Members"
+title: "LightDialog Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "LightDialog_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~LightDialog_members.html"
 ---
 
-# LightDialog Object
-Members
+# LightDialog Object Members
 
 ## Public Methods
 

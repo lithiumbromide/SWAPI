@@ -45,35 +45,19 @@ property System.Object^ Mates {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of supportive
-
-[mates](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
+Array of supportive [mates](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
 
 ## VBA Syntax
 
-See
-
-[MateControllerFeatureData::Mates](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~Mates.html)
-
-.
+See [MateControllerFeatureData::Mates](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~Mates.html).
 
 ## Examples
 
-See the
-
-[IMateControllerFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
-examples.
+See the [IMateControllerFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html) examples.
 
 ## Remarks
 
@@ -84,7 +68,6 @@ To create a mate controller see the Remarks section of IMateControllerFeatureDat
 ## See Also
 
 [IMateControllerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
 [IMateControllerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData_members.html)
 
 ## Availability

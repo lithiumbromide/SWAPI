@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetTimeOrFrequencyAtEachStep Method (ICWResults)
 
-Obsolete. Superseded by ICWResults::GetTimeOrFrequencyAtEachStep2.
+Obsolete. Superseded by [ICWResults::GetTimeOrFrequencyAtEachStep2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetTimeOrFrequencyAtEachStep2.html).
 
 ## Syntax
 
@@ -54,9 +54,7 @@ System.Object^ GetTimeOrFrequencyAtEachStep(
 ### Parameters
 
 - `ForStressAndStrain`: 1 for stress or strain results, 0 for other results
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -72,16 +70,11 @@ for all solution steps or mode shapes
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetTimeOrFrequencyAtEachStep](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetTimeOrFrequencyAtEachStep.html)
-
-.
+See [CWResults::GetTimeOrFrequencyAtEachStep](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetTimeOrFrequencyAtEachStep.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

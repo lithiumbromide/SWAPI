@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 Allows access to mate load references.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IMateLoadReference
 
 ## VBA Syntax
 
-See
-
-[MateLoadReference](ms-its:sldworksapivb6.chm::/sldworks~MateLoadReference.html)
-
-.
+See [MateLoadReference](ms-its:sldworksapivb6.chm::/sldworks~MateLoadReference.html).
 
 ## Examples
 
 [Insert Mate Load Reference (C#)](Insert_Mate_Load_Reference_Example_CSharp.htm)
-
 [Insert Mate Load Reference (VB.NET)](Insert_Mate_Load_Reference_Example_VBNET.htm)
-
 [Insert Mate Load Reference (VBA)](Insert_Mate_Load_Reference_Example_VB.htm)
 
 ## Accessors
@@ -68,7 +62,5 @@ See
 ## See Also
 
 [IMateLoadReference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateLoadReference_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)

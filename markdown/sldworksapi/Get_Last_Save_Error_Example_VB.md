@@ -9,13 +9,12 @@ source: "sldworksapi/Get_Last_Save_Error_Example_VB.htm"
 
 # Get Last Save Error Example (VBA)
 
-This example shows how to get the last save error issued by Microsoft in the
-current SOLIDWORKS session.
+This example shows how to get the last save error issued by Microsoft in the current SOLIDWORKS Design session.
 
 ```
 '-------------------------------------------------------------------
 ' Preconditions:
-' 1. Open a SOLIDWORKS session and cause Microsoft to issue a save error.
+' 1. Open a SOLIDWORKS Design session and cause Microsoft to issue a save error.
 ' 2. Open the Immediate window.
 '
 ' Postconditions:
@@ -41,7 +40,7 @@ Sub main()
         Debug.Print "Error code: " & varError
         Debug.Print "Error message: " & varMessage
     Else
-        Debug.Print "This SOLIDWORKS session has not experienced a save error."
+        Debug.Print "This SOLIDWORKS Design session has not experienced a save error."
     End If
 ```
 

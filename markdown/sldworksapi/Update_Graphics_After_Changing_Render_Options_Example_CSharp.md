@@ -9,15 +9,14 @@ source: "sldworksapi/Update_Graphics_After_Changing_Render_Options_Example_CShar
 
 # Update Graphics Area After Changing Render Options Example (C#)
 
-This example shows how to update the graphics area after changing the ray-trace
-rendering engine's options.
+This example shows how to update the graphics area after changing the ray-trace rendering engine's options.
 
 ```
 //----------------------------------------------------------------------------
 // Preconditions:
 // 1. Verify that:
 //    * specified part exists.
-//    * ray-trace rendering engine is loaded in SOLIDWORKS.
+//    * ray-trace rendering engine is loaded in SOLIDWORKS Design.
 // 2. Open the Immediate window.
 //
 // Postconditions:

@@ -52,26 +52,16 @@ void SelectFirstSymmetryPlane(
 
 ## VBA Syntax
 
-See
-
-[CWTopologySymmetryControl::SelectFirstSymmetryPlane](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~SelectFirstSymmetryPlane.html)
-
-.
+See [CWTopologySymmetryControl::SelectFirstSymmetryPlane](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~SelectFirstSymmetryPlane.html).
 
 ## Examples
 
-See the
-
-[ICWTopologySymmetryControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
-example.
+See the [ICWTopologySymmetryControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html) example.
 
 ## See Also
 
 [ICWTopologySymmetryControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
 [ICWTopologySymmetryControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl_members.html)
-
 [ICWTopologySymmetryControl::ClearSelPlanes Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~ClearSelPlanes.html)
 
 ## Availability

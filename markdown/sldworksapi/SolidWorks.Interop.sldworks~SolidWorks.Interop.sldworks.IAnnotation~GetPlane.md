@@ -40,13 +40,7 @@ System.object GetPlane()
 System.Object^ GetPlane();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,20 @@ Array of 9 doubles of the rotation matrix of the annotation relative to the X-Y 
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetPlane](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetPlane.html)
-
-.
+See [Annotation::GetPlane](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetPlane.html).
 
 ## Examples
 
 [Move Annotations to Notes Area Annotation View (C#)](Move_Annotations_to_First_Annotation_View_Example_CSharp.htm)
-
 [Move Annotations to Notes Area Annotation View (VB.NET)](Move_Annotations_to_First_Annotation_View_Example_VBNET.htm)
-
 [Move Annotations to Notes Area Annotation View (VBA)](Move_Annotations_to_First_Annotation_View_Example_VB.htm)
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotationView::GetViewRotation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~GetViewRotation.html)
-
 [IAnnotationView::IGetViewRotation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~IGetViewRotation.html)
-
 [IDisplayData::GetTextPlaneAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetTextPlaneAtIndex.html)
 
 ## Availability

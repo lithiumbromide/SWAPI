@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ISwManipulatorHandler Interface Members
 
-The following tables list the members exposed by[ISwManipulatorHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html).
+The following tables list the members exposed by [ISwManipulatorHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html).
 
 ## Public Methods
 
@@ -32,5 +32,4 @@ The following tables list the members exposed by[ISwManipulatorHandler](SolidWor
 ## See Also
 
 [ISwManipulatorHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

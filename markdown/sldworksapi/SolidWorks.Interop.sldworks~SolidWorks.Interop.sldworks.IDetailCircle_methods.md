@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDe
 
 # IDetailCircle Interface Methods
 
-For a list of all members of this type, see[IDetailCircle members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html).
+For a list of all members of this type, see [IDetailCircle members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html).
 
 ## Public Methods
 
@@ -49,5 +49,4 @@ For a list of all members of this type, see[IDetailCircle members](SolidWorks.In
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

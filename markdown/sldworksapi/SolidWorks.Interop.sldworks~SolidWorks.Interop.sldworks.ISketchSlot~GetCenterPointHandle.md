@@ -40,13 +40,7 @@ SketchPoint GetCenterPointHandle()
 SketchPoint^ GetCenterPointHandle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchSlot::GetCenterPointHandle](ms-its:sldworksapivb6.chm::/sldworks~SketchSlot~GetCenterPointHandle.html)
-
-.
+See [SketchSlot::GetCenterPointHandle](ms-its:sldworksapivb6.chm::/sldworks~SketchSlot~GetCenterPointHandle.html).
 
 ## Examples
 
@@ -67,9 +57,7 @@ See
 ## See Also
 
 [ISketchSlot Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot.html)
-
 [ISketchSlot Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot_members.html)
-
 [ISketchSlot::GetCenterPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot~GetCenterPoint.html)
 
 ## Availability

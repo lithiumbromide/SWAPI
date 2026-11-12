@@ -55,11 +55,7 @@ True to continue, false to cancel
 
 ## Examples
 
-See the
-
-[IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html)
-
-examples.
+See the [IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html) examples.
 
 ## Remarks
 
@@ -71,7 +67,6 @@ examples.
 ## See Also
 
 [IEdmCallback6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html)
-
 [IEdmCallback6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6_members.html)
 
 ## Availability

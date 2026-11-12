@@ -44,24 +44,15 @@ property gtcocswCompareDocument^ CompareDocument {
 
 ### Property Value
 
-Pointer to an
-
-[ICompareDocument](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareDocument.html)
-
-object
+Pointer to an [ICompareDocument](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareDocument.html) object
 
 ## VBA Syntax
 
-See
-
-[IUtilities::CompareDocument](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~CompareDocument.html)
-
-.
+See [IUtilities::CompareDocument](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~CompareDocument.html).
 
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
 
 ## Availability

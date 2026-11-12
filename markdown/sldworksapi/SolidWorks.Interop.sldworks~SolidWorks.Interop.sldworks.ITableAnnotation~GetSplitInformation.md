@@ -59,13 +59,7 @@ System.int GetSplitInformation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -76,24 +70,16 @@ See
 
 ### Return Value
 
-Direction in which the table was split as defined by
-
-[swTableSplitDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableSplitDirection_e.html)
+Direction in which the table was split as defined by [swTableSplitDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableSplitDirection_e.html)
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::GetSplitInformation](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetSplitInformation.html)
-
-.
+See [TableAnnotation::GetSplitInformation](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetSplitInformation.html).
 
 ## Examples
 
 [Export BOMs to XML (C#)](Export_BOMs_to_XML_Example_CSharp.htm)
-
 [Export BOMs to XML (VB.NET)](Export_BOMs_to_XML_Example_VBNET.htm)
-
 [Export BOMs to XML (VBA)](Export_BOMs_to_XML_Example_VB.htm)
 
 ## Remarks
@@ -103,13 +89,9 @@ A table split is a table divided into multiple tables, also called pieces.
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::Split Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~Split.html)
-
 [ITableAnnotation::HorizontalAutoSplit Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~HorizontalAutoSplit.html)
-
 [ITableAnnotation::StopAutoSplitting Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~StopAutoSplitting.html)
 
 ## Availability

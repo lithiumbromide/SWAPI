@@ -40,13 +40,7 @@ System.bool GetUseDocDisplayStyle()
 System.bool GetUseDocDisplayStyle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ True to use the document setting for the datum feature symbol's display style, f
 
 ## VBA Syntax
 
-See
-
-[DatumTag::GetUseDocDisplayStyle](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetUseDocDisplayStyle.html)
-
-.
+See [DatumTag::GetUseDocDisplayStyle](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetUseDocDisplayStyle.html).
 
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::GetDisplayStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetDisplayStyle.html)
-
 [IDatumTag::SetDisplayStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~SetDisplayStyle.html)
 
 ## Availability

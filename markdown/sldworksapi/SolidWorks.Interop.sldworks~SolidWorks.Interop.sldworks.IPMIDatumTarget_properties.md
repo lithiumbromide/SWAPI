@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 # IPMIDatumTarget Interface Properties
 
-For a list of all members of this type, see[IPMIDatumTarget members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumTarget_members.html).
+For a list of all members of this type, see [IPMIDatumTarget members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumTarget_members.html).
 
 ## Public Properties
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[IPMIDatumTarget members](SolidWorks.
 ## See Also
 
 [IPMIDatumTarget Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumTarget.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

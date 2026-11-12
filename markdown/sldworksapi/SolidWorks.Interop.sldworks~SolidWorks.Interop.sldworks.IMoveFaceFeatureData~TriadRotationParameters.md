@@ -45,36 +45,20 @@ property System.Object^ TriadRotationParameters {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of six doubles (see
-
-Remarks
-
-)
+Array of six doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[MoveFaceFeatureData::TriadRotationParameters](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~TriadRotationParameters.html)
-
-.
+See [MoveFaceFeatureData::TriadRotationParameters](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~TriadRotationParameters.html).
 
 ## Examples
 
 [Rotate Move Face Feature (VB.NET)](Rotate_Move_Face_Feature_Example_VBNET.htm)
-
 [Rotate Move Face Feature (VBA)](Rotate_MoveFace_Feature_Example_VB.htm)
-
 [Rotate Move Face Feature (C#)](Rotate_Move_Face_Feature_Example_CSharp.htm)
 
 ## Remarks
@@ -84,11 +68,8 @@ The first three doubles are the X, Y, and Z rotation origin parameters. The rema
 ## See Also
 
 [IMoveFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData.html)
-
 [IMoveFaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData_members.html)
-
 [IMoveFaceFeatureData::IGetTriadRotationParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~IGetTriadRotationParameters.html)
-
 [IMoveFaceFeatureData::ISetTriadRotationParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~ISetTriadRotationParameters.html)
 
 ## Availability

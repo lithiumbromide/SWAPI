@@ -51,40 +51,26 @@ System.bool SetImportLayerToSheetFormat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Layers`: Array of strings of the names of the layers (see
-
-Remarks
-
-)
+- `Layers`: Array of strings of the names of the layers (see **Remarks**)
 - `SheetFormat`: True to import the specified visible layers to the sheet format, false to import them to the drawing sheet
 
 ### Return Value
 
-True of importing the specified visiblekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}layers was successful, false if notParamDesc
+True of importing the specified visible layers was successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::SetImportLayerToSheetFormat](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~SetImportLayerToSheetFormat.html)
-
-.
+See [ImportDxfDwgData::SetImportLayerToSheetFormat](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~SetImportLayerToSheetFormat.html).
 
 ## Remarks
 
 This method only supports importing to a drawing; it does not support importing to a part sketch.
 
-The Layers argument can contain either a string or an array of strings, where the strings are the layer names with which to work.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}You can also specify the argument as empty, which indicates all layers. If this method is not used, the default behavior is to import all layers to the drawing sheet.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+The Layers argument can contain either a string or an array of strings, where the strings are the layer names with which to work. You can also specify the argument as empty, which indicates all layers. If this method is not used, the default behavior is to import all layers to the drawing sheet.
 
 The import to sheet or sheet format Boolean is the same for all sheets that are imported; you cannot specify it on a sheet-by-sheet basis.
 
@@ -92,32 +78,27 @@ The import to sheet or sheet format Boolean is the same for all sheets that are 
 
 To import all layers on all sheets to drawings sheets in SOLIDWORKS (this is the default behavior):
 
-boolstatus = ImportDxfDwgData. SetImportLayerToSheetFormat (emptyVariant, false)
+```vb
+boolstatus = ImportDxfDwgData.SetImportLayerToSheetFormat (emptyVariant, false)
+```
 
 To import layers "A" and "B" to the drawing sheet and the remaining layers to the sheet format:
 
-boolstatus = ImportDxfDwgData. SetImportLayerToSheetFormat (emptyVariant, True)
-
+```vb
+boolstatus = ImportDxfDwgData.SetImportLayerToSheetFormat (emptyVariant, True)
 layerName(0) = "A"
-
 layerName(1) = "B"
-
 layerVariant = layerName
-
 boolstatus = ImportDxfDwgData.SetImportLayerToSheetFormat ((layerVariant), false)
+```
 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
-
 [IImportDxfDwgData::GetImportLayerToSheetFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~GetImportLayerToSheetFormat.html)
-
 [IImportDxfDwgData::GetImportLayerVisibility Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~GetImportLayerVisibility.html)
-
 [IImportDxfDwgData::SetImportLayerVisibility Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~SetImportLayerVisibility.html)
-
 [IImportDxfDwgData::ImportMethod Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~ImportMethod.html)
 
 ## Availability

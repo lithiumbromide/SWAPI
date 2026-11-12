@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertIntersectCircleFeature Interface Methods
 
-For a list of all members of this type, see[ISwDMDimXpertIntersectCircleFeature members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectCircleFeature_members.html).
+For a list of all members of this type, see [ISwDMDimXpertIntersectCircleFeature members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectCircleFeature_members.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[ISwDMDimXpertIntersectCircleFeature 
 ## See Also
 
 [ISwDMDimXpertIntersectCircleFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectCircleFeature.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

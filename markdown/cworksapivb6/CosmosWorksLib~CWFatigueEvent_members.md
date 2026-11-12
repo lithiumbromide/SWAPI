@@ -1,6 +1,5 @@
 ---
-title: "CWFatigueEvent Object
-Members"
+title: "CWFatigueEvent Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWFatigueEvent_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWFatigueEvent_members.html"
 ---
 
-# CWFatigueEvent Object
-Members
+# CWFatigueEvent Object Members
 
 ## Public Methods
 

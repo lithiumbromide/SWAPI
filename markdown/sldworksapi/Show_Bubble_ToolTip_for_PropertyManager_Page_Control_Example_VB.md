@@ -9,9 +9,7 @@ source: "sldworksapi/Show_Bubble_ToolTip_for_PropertyManager_Page_Control_Exampl
 
 # Show Bubble ToolTip for PropertyManager Page Control Example (VBA)
 
-This example shows how to create a PropertyManager page. When the check box on the PropertyManager page is selected, a bubble
-ToolTip is displayed. This type of ToolTip is useful for validating data
-typed or selected by users in controls on a PropertyManager page.
+This example shows how to create a PropertyManager page. When the check box on the PropertyManager page is selected, a bubble ToolTip is displayed. This type of ToolTip is useful for validating data typed or selected by users in controls on a PropertyManager page.
 
 ```
 '----------------------------------------

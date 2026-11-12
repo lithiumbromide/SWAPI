@@ -45,13 +45,7 @@ property System.Object^ D1FaceNormal {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[LocalCurvePatternFeatureData::D1FaceNormal](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~D1FaceNormal.html)
-
-.
+See [LocalCurvePatternFeatureData::D1FaceNormal](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~D1FaceNormal.html).
 
 ## Remarks
 
@@ -71,16 +61,15 @@ If you pre-select a 3D curve for Direction 1, then before creating the feature d
 
 Use this property only when editing the pattern feature.
 
-This property is valid only when specifying[ILocalCurvePatternFeatureData::D1Direction](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData~D1Direction.html)using a 3D curve.
+This property is valid only when specifying [ILocalCurvePatternFeatureData::D1Direction](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData~D1Direction.html) using a 3D curve.
 
-If you try to change this property to null or Nothing,[IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)returns true but the property does not change.
+If you try to change this property to null or Nothing, [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html) returns true but the property does not change.
 
-For more information, see the**Curve Driven Component Pattern**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Curve Driven Component Pattern** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [ILocalCurvePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData.html)
-
 [ILocalCurvePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData_members.html)
 
 ## Availability

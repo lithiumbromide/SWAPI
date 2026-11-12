@@ -45,13 +45,7 @@ property System.double SurfacePlaneAngleTolerance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Surface plane angle tolerance
 
 ## VBA Syntax
 
-See
-
-[Tessellation::SurfacePlaneAngleTolerance](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~SurfacePlaneAngleTolerance.html)
-
-.
+See [Tessellation::SurfacePlaneAngleTolerance](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~SurfacePlaneAngleTolerance.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::SurfacePlaneTolerance Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~SurfacePlaneTolerance.html)
 
 ## Availability

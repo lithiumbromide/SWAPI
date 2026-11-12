@@ -49,37 +49,27 @@ public delegate System.int DPartDocEvents_ConvertToBodiesPostNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FileName`: File name of the part to convert to a body
-- `SaveOption`: Save option as defined in[swFileSaveTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFileSaveTypes_e.html):
+- `SaveOption`: Save option as defined in [swFileSaveTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFileSaveTypes_e.html):
 
-- swFileSaveAs
-- swFileSaveAsCopy
-- swFileSaveAsCopyAndOpen
+  - swFileSaveAs
+  - swFileSaveAsCopy
+  - swFileSaveAsCopyAndOpen
 - `PreserveGeometryAndSketches`: True to preserve geometry and sketches, false to not
 
 ## VBA Syntax
 
-See
-
-[ConvertToBodiesPostNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~ConvertToBodiesPostNotify_EV.html)
-
-.
+See [ConvertToBodiesPostNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~ConvertToBodiesPostNotify_EV.html).
 
 ## Remarks
 
-This event is triggered after the user clicks**OK**or**Cancel**in the Convert to Bodies dialog and before user interface validation. FileName, SaveOption and PreserveGeometryAndSketches contain the values selected in the dialog.
+This event is triggered after the user clicks **OK** or **Cancel** in the Convert to Bodies dialog and before user interface validation. FileName, SaveOption and PreserveGeometryAndSketches contain the values selected in the dialog.
 
-If developing a C++ application, use[swPartConvertToBodiesPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)to register for this notification.
+If developing a C++ application, use [swPartConvertToBodiesPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

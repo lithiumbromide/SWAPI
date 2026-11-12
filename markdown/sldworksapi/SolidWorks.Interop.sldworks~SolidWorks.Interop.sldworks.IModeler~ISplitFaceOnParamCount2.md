@@ -59,19 +59,11 @@ System.int ISplitFaceOnParamCount2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Facedisp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-to split
+- `Facedisp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to split
 - `UVFlag`: Parametric axis; either swSplitFaceOnParamU or swSplitFaceOnParamV
 - `Parameter`: Position along the parametric axis at which the split will be performed
 - `Status`: True if the operation was successful, false if not
@@ -82,26 +74,16 @@ Number of new faces
 
 ## VBA Syntax
 
-See
-
-[Modeler::ISplitFaceOnParamCount2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ISplitFaceOnParamCount2.html)
-
-.
+See [Modeler::ISplitFaceOnParamCount2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ISplitFaceOnParamCount2.html).
 
 ## Remarks
 
-The split is defined by calling this method. Then, you can retrieve the list of new faces by using
-
-[IModeler::ISplitFaceOnParam2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ISplitFaceOnParam2.html)
-
-.
+The split is defined by calling this method. Then, you can retrieve the list of new faces by using [IModeler::ISplitFaceOnParam2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ISplitFaceOnParam2.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::SplitFaceOnParam Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~SplitFaceOnParam.html)
 
 ## Availability

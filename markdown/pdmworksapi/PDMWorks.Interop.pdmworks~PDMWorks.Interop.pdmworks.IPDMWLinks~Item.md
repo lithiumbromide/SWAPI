@@ -57,18 +57,12 @@ property PDMWLink^ default [System.int] {
 
 ## VBA Syntax
 
-See
-
-[PDMWLinks::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLinks~Item.html)
-
-.
+See [PDMWLinks::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLinks~Item.html).
 
 ## See Also
 
 [IPDMWLinks Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)
-
 [IPDMWLinks Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks_members.html)
-
 [IPDMWLinks::Count Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks~Count.html)
 
 ## Availability

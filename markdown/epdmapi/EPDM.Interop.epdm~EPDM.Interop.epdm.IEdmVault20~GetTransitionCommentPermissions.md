@@ -45,53 +45,27 @@ System.array<bool>^ GetTransitionCommentPermissions(
 
 ### Parameters
 
-- `lUserID`: User ID (see
-
-Remarks
-
-)
-- `poDocIds`: Array of document IDs (see
-
-Remarks
-
-)
-- `poTransNames`: Array of workfow transition names (see
-
-Remarks
-
-)
+- `lUserID`: User ID (see **Remarks**)
+- `poDocIds`: Array of document IDs (see **Remarks**)
+- `poTransNames`: Array of workfow transition names (see **Remarks**)
 
 ### Return Value
 
-Array of booleans (see
-
-Remarks
-
-)
+Array of booleans (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmVault20](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html)
-
-examples.
+See the [IEdmVault20](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html) examples.
 
 ## Remarks
 
-The returned one-dimensional array contains (`n`*`m`) booleans indicating whether lUserID must add a state change comment on each workflow transition in poTransNames for each document in poDocIds.
+The returned one-dimensional array contains (`n` * `m`) booleans indicating whether lUserID must add a state change comment on each workflow transition in poTransNames for each document in poDocIds.
 
 For:
 
-- n
-
-  = size of poDocIds
-- m
-
-  = size of poTransNames
-- permbool_*
-
-  = true or false
+- `n` = size of poDocIds
+- `m` = size of poTransNames
+- `permbool_*` = true or false
 
 the returned array follows the order of elements in poDocIds and poTransNames as follows:
 
@@ -124,7 +98,6 @@ the returned array follows the order of elements in poDocIds and poTransNames as
 ## See Also
 
 [IEdmVault20 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html)
-
 [IEdmVault20 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20_members.html)
 
 ## Availability

@@ -1,0 +1,1343 @@
+<<< CostAnalysis.CostingTemplateName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~CostingTemplateName.md
+R: Name of the Costing template
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysis.CostingType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~CostingType.md
+R: Costing type as defined in swcCostType_e
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysis.CurrencyCode | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~CurrencyCode.md
+R: 3-letter currency code
+X: Examples of 3-letter currency codes are:
+- USD for United States Dollars
+- EUR for Euros
+- GBP for British Pounds
+- etc.
+See Getting Started for details about Costing templates.
+<<< CostAnalysis.CurrencyName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~CurrencyName.md
+R: Name of currency
+X: Examples of names of currencies are:
+- United States Dollars
+- Euros
+- British Pounds
+- etc.
+See Getting Started for details about Costing templates.
+<<< CostAnalysis.CurrencySeparator | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~CurrencySeparator.md
+R: Delimiter for the currency: - Period (e.g., 1.00) - or - - Comma (e.g., 1, 00)
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysis.GetFirstCostFeature | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~GetFirstCostFeature.md
+R: First Costing feature or null if no Costing features exist
+<<< CostAnalysis.GetManufacturingCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~GetManufacturingCost.md
+R: Total manufacturing cost
+<<< CostAnalysis.GetMaterialCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~GetMaterialCost.md
+R: Costs of the materials
+<<< CostAnalysis.GetSetupCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~GetSetupCost.md
+R: Tool setup cost
+<<< CostAnalysis.GetSpecificAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~GetSpecificAnalysis.md
+R: Specific Costing analysis of this type of the Costing part: - 3D printing - Casting - Machined - Plastic - Sheet metal - Structural
+X: A complete Costing analysis includes the common Costing analysis and a specific Costing analysis for either machining or sheet metal parts.
+<<< CostAnalysis.GetTotalCostToCharge | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~GetTotalCostToCharge.md
+R: Total cost to charge the customer
+<<< CostAnalysis.GetTotalCostToManufacture | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~GetTotalCostToManufacture.md
+R: Total cost to manufacture the part
+<<< CostAnalysis.LengthUnit | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~LengthUnit.md
+R: Unit for the length as defined in swcLengthUnit_e
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysis.LotSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~LotSize.md
+R: Quantity of parts to produce per batch
+<<< CostAnalysis.MarkUpPercent | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~MarkUpPercent.md
+R: Markup percentage; valid range is -100 to +100; only valid when ICostAnalysis::MarkUpType is not set to swcMarkUpType_e.swcMarkUpType_None
+<<< CostAnalysis.MarkUpType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~MarkUpType.md
+R: Method of markup as defined in swcMarkUpType_e
+<<< CostAnalysis.MassUnit | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~MassUnit.md
+R: Unit of mass as defined in swcMassUnit_e
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysis.TotalQuantity | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~TotalQuantity.md
+R: Total quantity of parts to produce
+<<< CostAnalysis.UnitSystem | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis~UnitSystem.md
+R: Unit system as defined in swcUnitSystem_e
+X: All output for all bodies in this Costing analysis are in these units.
+See Getting Started for details about Costing templates.
+<<< CostAnalysis3dPrinting.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~CurrentMaterial.md
+R: Name of the material
+X: Setting this property could invalidate other settings.
+<<< CostAnalysis3dPrinting.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property could invalidate other settings.
+<<< CostAnalysis3dPrinting.FlipDirection | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~FlipDirection.md
+R: True to flip the printing direction, false to not
+<<< CostAnalysis3dPrinting.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~GetMaterialClasses.md
+R: Array of strings of the names of the material classes
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysis3dPrinting.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~GetMaterialClassesCount.md
+R: Number of material classes
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysis3dPrinting.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~GetMaterialCount.md
+P: ClassName: Name of the material class
+R: Number of materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysis3dPrinting.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~GetMaterials.md
+P: ClassName: Name of material class
+R: Array of strings of the names of the materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysis3dPrinting.OrientationPlane | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~OrientationPlane.md
+R: Printing direction as defined in swcPlane_e
+X: To flip the printing direction, call ICostAnalysis3dPrinting::FlipDirection.
+<<< CostAnalysis3dPrinting.PercentInfill | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~PercentInfill.md
+R: Infill percentage; valid values are 0 through 100
+<<< CostAnalysis3dPrinting.ResetShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~ResetShopRate.md
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysis3dPrinting.ShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~ShopRate.md
+R: Hourly shop rate
+<<< CostAnalysis3dPrinting.ShopRateApplied | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~ShopRateApplied.md
+R: True if an hourly shop rate is applied, false if not
+<<< CostAnalysis3dPrinting.StructuralMaterialCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~StructuralMaterialCost.md
+R: Structural material costs
+<<< CostAnalysis3dPrinting.WallThickness | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysis3dPrinting~WallThickness.md
+R: Wall thickness
+<<< CostAnalysisCasting.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~CurrentMaterial.md
+R: Name of the material
+X: Setting this property could invalidate other settings.
+<<< CostAnalysisCasting.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property could invalidate other settings.
+<<< CostAnalysisCasting.CycleTime | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~CycleTime.md
+R: Casting process cycle time in hours
+<<< CostAnalysisCasting.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~GetMaterialClasses.md
+R: Array of strings of the names of the material classes
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisCasting.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~GetMaterialClassesCount.md
+R: Number of material classes
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisCasting.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~GetMaterialCount.md
+P: ClassName: Name of the material class
+R: Number of materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisCasting.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~GetMaterials.md
+P: ClassName: Name of the material class
+R: Array of strings of the names of the materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisCasting.MoldCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~MoldCost.md
+R: Cost of the mold
+<<< CostAnalysisCasting.PercentWasteMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~PercentWasteMaterial.md
+R: Percentage of waste material; valid values are 0 through 100
+<<< CostAnalysisCasting.ResetShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~ResetShopRate.md
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisCasting.ShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~ShopRate.md
+R: Hourly shop rate
+<<< CostAnalysisCasting.ShopRateApplied | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCasting~ShopRateApplied.md
+R: True if an hourly shop rate is applied, false if not
+<<< CostAnalysisMachining.BlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~BlankSize.md
+R: The material determines the size of the array: | Material | Array | | Block | 3 doubles for the X, Y, and Z coordinates | | Cylinder | 2 doubles for the diameter and length | | Plate | 2 doubles for the length and width | This property does not support setting: - block or cylinder material when size is calculated by ICostAnalysisMachining::Margins. - plate material. Thickness is a property of the material.
+<<< CostAnalysisMachining.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~CurrentMaterial.md
+R: Name of the material
+X: Setting this property might invalidate other settings; e.g., plate thickness.
+<<< CostAnalysisMachining.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property might invalidate other settings; e.g., material and plate thickness.
+<<< CostAnalysisMachining.CurrentPlateThickness | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~CurrentPlateThickness.md
+R: Thickness of the plate
+<<< CostAnalysisMachining.CurrentStockType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~CurrentStockType.md
+R: Current stock type as defined in swcStockType_e
+<<< CostAnalysisMachining.CustomStockBodyName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~CustomStockBodyName.md
+R: - Name of the configuration for a custom stock body; valid only if ICostAnalysisMachining::CustomStockImportType is set to swcCustomStockImportType_e.swcCustomStockImportType_Configuration and multiple configurations exist in the model - or - - Path and file name of the reference part for a custom stock body; valid only if ICostAnalysisMachining::CustomStockImportType is set to swcCustomStockImportType_e.swcCustomStockImportType_ReferencePart
+<<< CostAnalysisMachining.CustomStockCostInfoType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~CustomStockCostInfoType.md
+R: Type of custom stock cost as defined in swcCustomStockCostInfoType_e
+<<< CostAnalysisMachining.CustomStockCustomCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~CustomStockCustomCost.md
+R: Custom stock cost
+<<< CostAnalysisMachining.CustomStockImportType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~CustomStockImportType.md
+R: Custom stock import type as defined in swcCustomStockImportType_e
+<<< CostAnalysisMachining.GetBlankDimensionCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~GetBlankDimensionCount.md
+P: StockType: Stock type as defined in swcStockType_e
+R: Number of dimensions for a blank required to produce a body using the specified stock type
+<<< CostAnalysisMachining.GetMarginDimensionCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~GetMarginDimensionCount.md
+R: Number of dimensions for the margins for the stock type
+<<< CostAnalysisMachining.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~GetMaterialClasses.md
+R: Array of strings of the names of the material classes
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisMachining.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~GetMaterialClassesCount.md
+R: Number of material classes
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisMachining.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~GetMaterialCount.md
+P: ClassName: Name of material class
+R: Number of materials in the specified class
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisMachining.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~GetMaterials.md
+P: ClassName: Name of material class
+R: Array of strings of the names of the materials in the specified class
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisMachining.GetMinimumBlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~GetMinimumBlankSize.md
+R: Array of doubles of the dimensions of the smallest possible blank required to produce a body using the currently selected stock type
+<<< CostAnalysisMachining.GetStockTypeCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~GetStockTypeCount.md
+P: MaterialClass: Name of the material class
+P: MaterialName: Name of the material
+R: Number of stock types for the specified material
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisMachining.GetStockTypes | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~GetStockTypes.md
+P: MaterialClass: Name of the material class
+P: MaterialName: Name of the material
+R: Array of integers, or longs if using VBA, of the stock types of the specified material as defined in swcStockType_e
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisMachining.IBlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~IBlankSize.md
+P: NumDimensions: Number of dimensions for the blank
+R: - in-process, unmanaged C++: Pointer to an array of doubles of the size of the blank (see Remarks) VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisMachining::GetBlankDimensionCount to get the NumDimensions value.
+The material determines the size of the array:
+| Material | Array |
+| Block | 3 doubles for the X, Y, and Z coordinates |
+| Cylinder | 2 doubles for the diameter and length |
+| Plate | 2 doubles for the length and width |
+This property does not support setting:
+- block or cylinder material when size is calculated by ICostAnalysisMachining::IMargins.
+- plate material. Thickness is a property of the material.
+<<< CostAnalysisMachining.IGetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~IGetMaterialClasses.md
+P: NumClassNames: Number of material classes
+R: - in-process, unmanaged C++: Pointer to an array of strings of the names of the material classes VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalsyisMachining::GetMaterialClassesCount to get the NumClassNames value.
+See Getting Started for details about Costing templates.
+<<< CostAnalysisMachining.IGetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~IGetMaterials.md
+P: ClassName: Name of material class
+P: NumMaterialNames: Number of the materials in the specified material class
+R: - in-process, unmanaged C++: Pointer to an array of strings of the materials in the specified class VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisMachining::GetMaterialCount to get the NumMaterialNames value.
+See Getting Started for details about Costing templates.
+<<< CostAnalysisMachining.IGetMinimumBlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~IGetMinimumBlankSize.md
+P: NumDimensions: Number of dimensions
+R: - in-process, unmanaged C++: Pointer to an array of doubles of the dimensions of the smallest possible blank required to produce a body using the currently selected stock type VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisMachining::GetBlankDimensionCount to get the NumDimensions value.
+<<< CostAnalysisMachining.IGetStockTypes | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~IGetStockTypes.md
+P: MaterialClass: Name of the material class
+P: MaterialName: Name of the material
+P: NumStockTypes: Number of stock types defined for the specified material
+R: - in-process, unmanaged C++: Pointer to an array of integers of the stock types of the specified material as defined in swcStockType_e - VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisMachining::GetStockTypeCount to get the NumStockTypes value.
+See Getting Started for details about Costing templates.
+<<< CostAnalysisMachining.IMargins | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~IMargins.md
+P: NumDimensions: Number of dimensions for the stock type
+R: - in-process, unmanaged C++: Pointer to an array of doubles of the available margins (see Remarks) VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this property, call ICostAnalysisMachining::GetMarginDimensionCount to get the NumMargins value.
+The material determines the size of the array:
+| Material | Array |
+| Block | 6 doubles for the -X, +X, -Y, +Y, -Z, and +Z ICostAnalysisMachining::SpecificSizeEnabled must bet set to true to specify block dimensions to add to the tightest fitting stock faces. |
+| Cylinder | 3 doubles for the -D, -L, and +L |
+| Plate | 4 doubles, all 0, for the -W, +W, -L, and +L |
+This property does not support setting margins:
+- for plate material
+- or -
+- when a custom size is defined.
+<<< CostAnalysisMachining.Margins | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~Margins.md
+R: Array of doubles of the margins for the stock type (see Remarks)
+X: The material determines the size of the array:
+| Material | Array |
+| Block | 6 doubles for the -X, +X, -Y, +Y, -Z, and +Z ICostAnalysisMachining::SpecificSizeEnabled must bet set to true to specify block dimensions to add to the tightest fitting stock faces. |
+| Cylinder | 3 doubles for the -D, -L, and +L |
+| Plate | 4 doubles, all 0, for the -W, +W, -L, and +L |
+This property does not support setting margins:
+- for plate material
+- or -
+- when a custom size is defined.
+<<< CostAnalysisMachining.PreviewShown | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~PreviewShown.md
+R: True to display a preview of the blank, false to not
+<<< CostAnalysisMachining.ResetShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~ResetShopRate.md
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisMachining.ShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~ShopRate.md
+R: Hourly shop rate
+<<< CostAnalysisMachining.ShopRateApplied | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~ShopRateApplied.md
+R: True if an hourly shop rate is applied, false if not
+<<< CostAnalysisMachining.SpecificSizeEnabled | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~SpecificSizeEnabled.md
+R: True if a user can specify the X, Y, and Z block dimensions to add to the tightest fitting stock faces, false if not
+X: This property applies to block stock bodies only.
+<<< CostAnalysisPlastic.CalculationMethod | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~CalculationMethod.md
+R: Calculation method as defined in swcMoldCalculationMethod_e
+<<< CostAnalysisPlastic.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~CurrentMaterial.md
+R: Name of the material
+X: Setting this property could invalidate other settings.
+<<< CostAnalysisPlastic.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property could invalidate other settings.
+<<< CostAnalysisPlastic.CycleTime | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~CycleTime.md
+R: Plastic process cycle time in hours; valid for use in calculations only if ICostAnalysisPlastic::CalculationMethod is set to swcMoldCalculationMethod_e.swcMoldCalculationMethod_CycleTime
+<<< CostAnalysisPlastic.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~GetMaterialClasses.md
+R: Array of strings of the names of the material classes
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisPlastic.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~GetMaterialClassesCount.md
+R: Number of material classes
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisPlastic.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~GetMaterialCount.md
+P: ClassName: Name of the material class
+R: Number of materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisPlastic.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~GetMaterials.md
+P: ClassName: Name of the material class
+R: Array of strings of the names of the materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisPlastic.MaxWallThickness | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~MaxWallThickness.md
+R: Maximum wall thickness in meters; valid for use in calculations only if ICostAnalysis::CalculationMethod is set to swcMoldCalculationMethod_e.swMoldCalculationMethod_WallThickness
+<<< CostAnalysisPlastic.MoldCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~MoldCost.md
+R: Cost of the mold
+<<< CostAnalysisPlastic.PercentWasteMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~PercentWasteMaterial.md
+R: Percentage of waste material; valid values are 0 through 100
+<<< CostAnalysisPlastic.ResetShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~ResetShopRate.md
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisPlastic.RunnerSystem | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~RunnerSystem.md
+R: Runner system as defined in swcRunnerSystem_e
+<<< CostAnalysisPlastic.ShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~ShopRate.md
+R: Hourly shop rate
+<<< CostAnalysisPlastic.ShopRateApplied | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisPlastic~ShopRateApplied.md
+R: True if an hourly shop rate is applied, false if not
+<<< CostAnalysisSheetMetal.BlankAreaFromModel | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~BlankAreaFromModel.md
+R: Area of the blank from the sheet metal part, excluding any margin
+X: Use ICostAnalysisSheetMetal::FinalAreaFromModel to get the area of a blank, including any margin, from a sheet metal part.
+<<< CostAnalysisSheetMetal.BlankOffset | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~BlankOffset.md
+R: Margin to use around the blank
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_BoundingBox or swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_FlatPattern to set a margin to use around the blank of this sheet metal part.
+<<< CostAnalysisSheetMetal.BlankSizeType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~BlankSizeType.md
+R: Type of size for the blank as defined in swcSheetMetalBlankSizeType_e
+<<< CostAnalysisSheetMetal.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~CurrentMaterial.md
+R: Name of the material
+X: Setting this property might invalidate other settings; e.g., sheet metal thickness.
+<<< CostAnalysisSheetMetal.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property might invalidate other settings; e.g., material and sheet metal thickness.
+<<< CostAnalysisSheetMetal.CurrentThickness | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~CurrentThickness.md
+R: Sheet metal thickness
+<<< CostAnalysisSheetMetal.CustomBlankArea | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~CustomBlankArea.md
+R: Area of custom blank for a sheet metal part
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomArea to set the area of a custom blank.
+<<< CostAnalysisSheetMetal.CustomBlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~CustomBlankSize.md
+R: ICostBlankSize
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
+<<< CostAnalysisSheetMetal.FinalAreaFromModel | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~FinalAreaFromModel.md
+R: Area of the blank, including any margins, from the sheet metal part
+X: Use ICostAnalysisSheetMetal::BlankAreaFromModel to get the area of a blank, excluding any margin, from a sheet metal part.
+<<< CostAnalysisSheetMetal.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~GetMaterialClasses.md
+R: Array of strings of the material classes
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisSheetMetal.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~GetMaterialClassesCount.md
+R: Number of material classes
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisSheetMetal.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~GetMaterialCount.md
+P: ClassName: Name of material class
+R: Number of materials in the specified class
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisSheetMetal.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~GetMaterials.md
+P: ClassName: Name of material class
+R: Array of strings of the names of the materials in the specified class
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisSheetMetal.GetModelThickness | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~GetModelThickness.md
+R: Thickness of the sheet metal from the model
+<<< CostAnalysisSheetMetal.GetThicknesses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~GetThicknesses.md
+P: ClassName: Name of the material class
+P: MaterialName: Name of the material
+R: Array of doubles of the sheet metal thicknesses for the specified material
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisSheetMetal.GetThicknessesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~GetThicknessesCount.md
+P: ClassName: Name of the material class
+P: MaterialName: Name of the material
+R: Number of sheet metal thicknesses for the specified material
+X: See Getting Started for details about Costing templates.
+<<< CostAnalysisSheetMetal.IGetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~IGetMaterialClasses.md
+P: NumClassNames: Number of material classes
+R: - in-process, unmanaged C++: Pointer to an array of strings of the names of the material classes VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisSheetMetal::GetMaterialClassesCount to get the NumClassNames value.
+See Getting Started for details about Costing templates.
+<<< CostAnalysisSheetMetal.IGetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~IGetMaterials.md
+P: ClassName: Name of material class
+P: NumMaterialNames: Number of the materials in the specified material class
+R: - in-process, unmanaged C++: Pointer to an array of strings of the materials in the specified class VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisSheetMetal::GetMaterialCount to get the NumMaterialNames value.
+See Getting Started for details about Costing templates.
+<<< CostAnalysisSheetMetal.IGetThicknesses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~IGetThicknesses.md
+P: ClassName: Name of the material class
+P: MaterialName: Name of the material
+P: NumThicknesses: Number of sheet metal thicknesses
+R: - in-process, unmanaged C++: Pointer to an array of integers, or longs if using VBA, of the sheet metal thicknesses for the specified material VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisSheetMetal::GetThicknessesCount to get the NumThicknesses value.
+See Getting Started for details about Costing templates.
+<<< CostAnalysisSheetMetal.MaterialCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~MaterialCost.md
+R: Cost of the sheet metal material
+X: To use the cost of the sheet metal material specified in the Costing template, use ICostAnalysisSheetMetal::MaterialCostFromTemplate.
+<<< CostAnalysisSheetMetal.MaterialCostFromTemplate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~MaterialCostFromTemplate.md
+R: Cost of the sheet metal material from the Costing template
+X: To override the cost of the sheet metal material specified in the Costing template, use ICostAnalysisSheetMetal::MaterialCost.
+See Getting Started for details about Costing templates.
+<<< CostAnalysisSheetMetal.PreviewShown | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~PreviewShown.md
+R: True to display a preview of the blank, false to not
+<<< CostAnalysisSheetMetal.Weight | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisSheetMetal~Weight.md
+R: Weight of the sheet metal part
+<<< CostAnalysisStructural.CurrentCostMethodType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~CurrentCostMethodType.md
+R: Type of structural stock cost method as defined by swcStructuralStockCostType_e
+X: Setting of a structural stock cost method must match the data in the template. For example, if the cost per unit length option is not available in the template, then setting this method to swcStructuralStockCostType_e.swcStructuralStockCost_PerUnitLength fails.
+<<< CostAnalysisStructural.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~CurrentMaterial.md
+R: Name of the material
+X: Setting this property could invalidate other settings, e.g., weldment stock profile, etc.
+<<< CostAnalysisStructural.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property could invalidate other settings, e.g., material and weldment stock profile.
+<<< CostAnalysisStructural.CurrentProfileSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~CurrentProfileSize.md
+R: Profile size
+X: The profile size is the name of a file, excluding the filename extension, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \lang\ weldment profiles\ profile standard\profile type.
+<<< CostAnalysisStructural.CurrentProfileStandard | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~CurrentProfileStandard.md
+R: Profile standard
+X: The profile standard is the name of a folder, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \lang\ weldment profiles.
+<<< CostAnalysisStructural.CurrentProfileType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~CurrentProfileType.md
+R: Profile type
+X: The profile type is the name of a profiles type folder, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \lang\ weldment profiles\ profile standard.
+<<< CostAnalysisStructural.CurrentStockUnitLength | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~CurrentStockUnitLength.md
+R: Stock unit size
+X: You must specify a value that matches a stock unit length value in the template. If you specify an invalid value, then a value closest to the structural member body length is used.
+<<< CostAnalysisStructural.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~GetMaterialClasses.md
+R: Array of strings of the names of the material classes
+<<< CostAnalysisStructural.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~GetMaterialClassesCount.md
+R: Number of material classes
+<<< CostAnalysisStructural.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~GetMaterialCount.md
+P: ClassName: Name of the material class
+R: Number of materials in ClassName
+<<< CostAnalysisStructural.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~GetMaterials.md
+P: ClassName: Name of the material class
+R: Array of strings of the names of the materials in ClassName
+<<< CostAnalysisStructural.SetCurrentProfile | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~SetCurrentProfile.md
+P: Standard: Name of the profile standard (see Remarks)
+P: ProfileType: Name of the profile type (see Remarks)
+P: ProfileSize: Profile size (see Remarks)
+R: True if the profile is set, false if not (see Remarks)
+X: | A valid string for... | Corresponds to name of the... |
+| Standard | Weldment profile folder, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \ lang \ weldment profiles |
+| ProfileType | Profile types folder, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \ lang \ weldment profiles\ profile standard |
+| ProfileSize | Profile size file, excluding the filename extension, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \ lang \ weldment profiles\ profile standard \ profile type |
+This method:
+- does not change the underlying geometry of the structural member; instead, this method only uses the specified profile to cost the body.
+- fails if the specified Standard, ProfileType, or ProfileSize values are invalid or incompatible with each other.
+- could invalidate the cost method.
+<<< CostAnalysisStructural.ShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~ShopRate.md
+R: Hourly shop rate
+<<< CostAnalysisStructural.ShopRateApplied | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisStructural~ShopRateApplied.md
+R: True if an hourly shop rate is applied, false if not
+<<< CostBlankSize.Length | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostBlankSize~Length.md
+R: Length of a custom blank of a sheet metal part
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
+<<< CostBlankSize.Width | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostBlankSize~Width.md
+R: Width of a custom blank of a sheet metal part
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
+<<< CostBody.AssignCustomCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostBody~AssignCustomCost.md
+P: fCost: Total cost (setup and operation) of a custom operation
+<<< CostBody.BodyStatus | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostBody~BodyStatus.md
+R: Status of the Costing body as defined in swcBodyStatus_e
+<<< CostBody.CreateCostAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostBody~CreateCostAnalysis.md
+P: TemplatePath: Path and filename of the Costing template
+R: New Cost analysis
+X: Any previous Costing analysis for this Costing body is replaced by this Costing analysis.
+<<< CostBody.GetBodyType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostBody~GetBodyType.md
+R: Type of Costing body as defined in swcBodyType_e
+<<< CostBody.GetCostAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostBody~GetCostAnalysis.md
+R: Existing Cost analysis for this Costing body
+<<< CostBody.GetName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostBody~GetName.md
+R: Name of the Costing body
+X: The name of the Costing body returned by this method matches the name of the body in the CostingManager and the FeatureManager design tree.
+Activating Costing bodies by name allows you to use names directly from existing references to SOLIDWORKS bodies.
+<<< CostBody.GetSWBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostBody~GetSWBody.md
+R: SOLIDWORKS body that corresponds to this Costing body
+<<< CostFeature.CombinedCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostFeature~CombinedCost.md
+R: Cost of this Costing feature or operation, including the combined cost of Costing child features and operations
+X: Setting this property is:
+- equivalent to applying a cost override to this Costing feature.
+- ignored if the Costing feature disallows applying a cost override.
+<<< CostFeature.CombinedTime | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostFeature~CombinedTime.md
+R: Time for this Costing feature or operation, including the combined times of Costing child features and operations
+X: Setting this property is:
+- equivalent to applying a cost override to this Costing feature.
+- ignored if the Costing feature disallows applying a cost override. For example, sheet metal Costing features must always return a time of 0; thus, times for sheet metal Costing features cannot be overridden.
+<<< CostFeature.Description | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostFeature~Description.md
+R: Description of this Costing feature, including information about selected sub-operation options
+<<< CostFeature.GetFirstSubFeature | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostFeature~GetFirstSubFeature.md
+R: First Costing child feature or null if no Costing children features exist
+<<< CostFeature.GetNextFeature | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostFeature~GetNextFeature.md
+R: Next Costing feature or null if no more Costing features exist
+<<< CostFeature.GetNextSubFeature | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostFeature~GetNextSubFeature.md
+R: Next Costing child feature of this Costing feature or null if no more Costing children features for this Costing feature exist
+<<< CostFeature.GetType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostFeature~GetType.md
+R: Type of Costing feature as defined in swcCostFeatureType_e
+<<< CostFeature.IsOverridden | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostFeature~IsOverridden.md
+R: True if a cost override was applied to this Costing feature, false if not
+<<< CostFeature.IsSetup | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostFeature~IsSetup.md
+R: True if this Costing feature is a setup-related Costing feature, false if not
+<<< CostFeature.Name | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostFeature~Name.md
+R: Name of the Costing feature in the CostingManager
+<<< CostingDefaults.GetManufacturingMethod | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~GetManufacturingMethod.md
+P: BodyType: Body type as defined in swcBodyType_e
+R: Default manufacturing method for BodyType as defined in swcMethodType_e
+<<< CostingDefaults.GetMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~GetMaterialClass.md
+P: MethodType: Manufacturing method as defined in swcMethodType_e
+R: Name of the default material class for MethodType
+<<< CostingDefaults.GetMaterialName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~GetMaterialName.md
+P: MethodType: Manufacturing method as defined in swcMethodType_e
+R: Name of the default material for MethodType
+<<< CostingDefaults.GetTemplateName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~GetTemplateName.md
+P: CostingType: Type of Costing analysis as defined in swcCostingType_e
+R: Path and file name of the default Costing template
+X: See Getting Started for details about Costing templates.
+<<< CostingDefaults.LotSizeForMultibody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~LotSizeForMultibody.md
+R: Default lot size for multibody mode
+<<< CostingDefaults.LotSizeForSingleBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~LotSizeForSingleBody.md
+R: Default lot size for single-body mode
+<<< CostingDefaults.MachiningStockBodyType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~MachiningStockBodyType.md
+R: Default machining stock body type as defined in swcStockType_e
+<<< CostingDefaults.SetManufacturingMethod | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~SetManufacturingMethod.md
+P: BodyType: Body type as defined in swcBodyType_e
+P: DefaultMethod: Default manufacturing method for BodyType as defined in swcMethodType_e
+X: Changes made to default settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+<<< CostingDefaults.SetMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~SetMaterialClass.md
+P: MethodType: Manufacturing method as defined in swcMethodType_e
+P: MaterialClass: Name of default material class for MethodType
+X: Changes made to default settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+<<< CostingDefaults.SetMaterialName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~SetMaterialName.md
+P: MethodType: Manufacturing method as defined in swcMethodType_e
+P: MaterialName: Name of default material for MethodType
+X: Changes made to default settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+<<< CostingDefaults.SetTemplateName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~SetTemplateName.md
+P: CostingType: Type of Costing analysis as defined in swcCostingType_e
+P: TemplateName: Path and file name of the default Costing template
+X: Changes made to default settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+See Getting Started for details about Costing templates.
+<<< CostingDefaults.SheetmetalBlankSizeType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~SheetmetalBlankSizeType.md
+R: Default type of sheet metal blank size as defined in swcSheetMetalBlankSizeType_e
+<<< CostingDefaults.StructuralMemberStockType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~StructuralMemberStockType.md
+R: Default type of structural member stock cost method as defined in swcStructuralStockCostType_e
+<<< CostingDefaults.TotalNumberOfPartsForMultibody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~TotalNumberOfPartsForMultibody.md
+R: Default total number of parts for multibody mode
+<<< CostingDefaults.TotalNumberOfPartsForSingleBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostingDefaults~TotalNumberOfPartsForSingleBody.md
+R: Default total number of parts for single-body mode
+<<< CostManager.CostingDefaults | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostManager~CostingDefaults.md
+R: ICostingDefaults object
+<<< CostManager.CostingModel | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostManager~CostingModel.md
+R: Costing model
+<<< CostManager.GetTemplateCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostManager~GetTemplateCount.md
+P: CostingType: Type of Costing analysis as defined in swcCostingType_e
+R: Number of Costing templates available for CostingType
+X: See Getting Started for details about Costing templates.
+<<< CostManager.GetTemplatePathnames | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostManager~GetTemplatePathnames.md
+P: CostingType: Type of Costing analysis as defined in swcCostingType_e
+R: Array of strings of the paths and filenames of the Costing templates available for CostingType
+X: See Getting Started for details about Costing templates.
+<<< CostManager.IGetTemplatePathnames | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostManager~IGetTemplatePathnames.md
+P: CostingType: Type of Costing analysis as defined in swcCostingType_e
+P: NumTemplates: Number of Costing templates available for CostingType
+R: - in-process, unmanaged C++: Pointer to an array of strings of the paths and filenames of the Costing templates available for CostingType - VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostManager::GetTemplateCount to get the NumTemplates value.
+See Getting Started for details about Costing templates.
+<<< CostPart.ActivateBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~ActivateBody.md
+P: BodyName: Name of Costing body to activate or an empty string to activate the common Cost analysis for this Costing part (see Remarks)
+P: Errors: Status as defined in swcActivateBodyResult_e
+R: Costing body
+X: To get the name of a Costing body for BodyName:
+1. Get the Costing bodies in the Costing part by calling:
+1. Get the names of the Costing bodies in the Costing part by iterating through the array of returned Costing bodies and calling ICostBody::GetName.
+Activating Costing bodies by their names allows you to use names directly from existing references to SOLIDWORKS bodies.
+If you passed an empty string to BodyName, then Return Value is null and Errors is swcActivateBodyResult_e.swcActivateBodyResult_Success.
+<<< CostPart.ActiveBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~ActiveBody.md
+R: Active Costing body or null if the common Cost analysis is active
+<<< CostPart.CreateCostAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~CreateCostAnalysis.md
+P: TemplatePath: Path and filename of the Costing template
+R: New Costing analysis
+X: Any previous Costing analysis for this Costing part is replaced by this Costing analysis.
+<<< CostPart.GetBodies | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~GetBodies.md
+R: Array of Costing bodies
+<<< CostPart.GetBodyCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~GetBodyCount.md
+R: Number of Costing bodies
+<<< CostPart.GetCostAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~GetCostAnalysis.md
+R: Existing Cost analysis
+<<< CostPart.GetCostingMethod | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~GetCostingMethod.md
+P: BodyName: Name of the Costing body
+R: Manufacturing method as specified in swcMethodType_e
+X: For a structural Costing analysis, specify the name of the cut-list item for BodyName used for the manufacturing method.
+<<< CostPart.IGetBodies | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~IGetBodies.md
+P: NumBodies: Number of Costing bodies
+R: - in-process, unmanaged C++: Pointer to an array of Costing bodies VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostPart::GetBodyCount to get the NumBodies value.
+<<< CostPart.IncludeBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~IncludeBody.md
+P: BodyName: Name of the Costing body
+P: Include: True to include the Costing body in this Costing part in the Costing analysis, false to exclude the Costing body in this Costing part in the Costing analysis
+R: Status as defined in swcBodyStatus_e
+X: To get the names of the Costing bodies in a Costing part:
+1. Get the Costing bodies in the Costing part by calling:
+1. Get the names of the Costing bodies in the Costing part by iterating through the array of returned Costing bodies and calling ICostBody::GetName.
+<<< CostPart.IUpdateCostForAllBodies | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~IUpdateCostForAllBodies.md
+P: NumBodies: Number of bodies (see Remarks)
+R: Array of integers, or longs if using VBA, corresponding to each body in the part and indicating the Costing update status of that body as defined in swcUpdateCostError_e
+X: Before calling this method, call ICostPart::GetBodyCount to get NumBodies.
+<<< CostPart.SetCostingMethod | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~SetCostingMethod.md
+P: BodyName: Name of the Costing body (see Remarks)
+P: MethodType: Manufacturing type as defined in swcMethodType_e
+R: Costing body
+X: If you specify:
+- a name for BodyName, then the current body is deleted and a new body of the type that you specified in MethodType is created. This method returns the newly created body and invalidates any previously selected bodies.
+- an empty string for BodyName, then the body in a single body part or the currently selected body in a multibody part is used. This method returns this body.
+For a structural Costing analysis, specify the name of the cut-list item for BodyName to use for the manufacturing method.
+<<< CostPart.TemplateOverrides | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~TemplateOverrides.md
+R: ITemplateOverrides object
+<<< CostPart.UpdateCostForAllBodies | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostPart~UpdateCostForAllBodies.md
+R: Array of integers, or longs if using VBA, corresponding to each body in the part and indicating the Costing update status of that body as defined in swcUpdateCostError_e
+<<< ICostAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis.md
+X: A complete Costing analysis includes the common Costing analysis and a specific Costing analysis.
+| Access... | For the specific Costing analysis of... |
+| ICostAnalysis3dPrinting | Additive 3D printing process |
+| ICostAnalysisCasting | Casting process |
+| ICostAnalysisMachining | Part machined from solid block and plate stock material |
+| ICostAnalysisPlastic | Additive injection-molded process |
+| ICostAnalysisSheetMetal | Part that contains sheet metal features such as flanges, bends, or forming tools |
+| ICostAnalysisStructural | Weldment structure |
+<<< ICostAnalysis.CostingTemplateName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~CostingTemplateName.md
+R: Name of the Costing template
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysis.CostingType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~CostingType.md
+R: Costing type as defined in swcCostType_e
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysis.CurrencyCode | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~CurrencyCode.md
+R: 3-letter currency code
+X: Examples of 3-letter currency codes are:
+- USD for United States Dollars
+- EUR for Euros
+- GBP for British Pounds
+- etc.
+See Getting Started for details about Costing templates.
+<<< ICostAnalysis.CurrencyName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~CurrencyName.md
+R: Name of currency
+X: Examples of names of currencies are:
+- United States Dollars
+- Euros
+- British Pounds
+- etc.
+See Getting Started for details about Costing templates.
+<<< ICostAnalysis.CurrencySeparator | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~CurrencySeparator.md
+R: Delimiter for the currency: - Period (e.g., 1.00) - or - - Comma (e.g., 1, 00)
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysis.GetFirstCostFeature | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~GetFirstCostFeature.md
+R: First Costing feature or null if no Costing features exist
+<<< ICostAnalysis.GetManufacturingCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~GetManufacturingCost.md
+R: Total manufacturing cost
+<<< ICostAnalysis.GetMaterialCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~GetMaterialCost.md
+R: Costs of the materials
+<<< ICostAnalysis.GetSetupCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~GetSetupCost.md
+R: Tool setup cost
+<<< ICostAnalysis.GetSpecificAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~GetSpecificAnalysis.md
+R: Specific Costing analysis of this type of the Costing part: - 3D printing - Casting - Machined - Plastic - Sheet metal - Structural
+X: A complete Costing analysis includes the common Costing analysis and a specific Costing analysis for either machining or sheet metal parts.
+<<< ICostAnalysis.GetTotalCostToCharge | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~GetTotalCostToCharge.md
+R: Total cost to charge the customer
+<<< ICostAnalysis.GetTotalCostToManufacture | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~GetTotalCostToManufacture.md
+R: Total cost to manufacture the part
+<<< ICostAnalysis.LengthUnit | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~LengthUnit.md
+R: Unit for the length as defined in swcLengthUnit_e
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysis.LotSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~LotSize.md
+R: Quantity of parts to produce per batch
+<<< ICostAnalysis.MarkUpPercent | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~MarkUpPercent.md
+R: Markup percentage; valid range is -100 to +100; only valid when ICostAnalysis::MarkUpType is not set to swcMarkUpType_e.swcMarkUpType_None
+<<< ICostAnalysis.MarkUpType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~MarkUpType.md
+R: Method of markup as defined in swcMarkUpType_e
+<<< ICostAnalysis.MassUnit | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~MassUnit.md
+R: Unit of mass as defined in swcMassUnit_e
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysis.TotalQuantity | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~TotalQuantity.md
+R: Total quantity of parts to produce
+<<< ICostAnalysis.UnitSystem | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~UnitSystem.md
+R: Unit system as defined in swcUnitSystem_e
+X: All output for all bodies in this Costing analysis are in these units.
+See Getting Started for details about Costing templates.
+<<< ICostAnalysis3dPrinting | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.md
+X: A complete Costing analysis includes the common Costing analysis and the 3D printing Costing analysis.
+See the SOLIDWORKS Help for more information about 3D printing Costing.
+<<< ICostAnalysis3dPrinting.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~CurrentMaterial.md
+R: Name of the material
+X: Setting this property could invalidate other settings.
+<<< ICostAnalysis3dPrinting.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property could invalidate other settings.
+<<< ICostAnalysis3dPrinting.FlipDirection | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~FlipDirection.md
+R: True to flip the printing direction, false to not
+<<< ICostAnalysis3dPrinting.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~GetMaterialClasses.md
+R: Array of strings of the names of the material classes
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysis3dPrinting.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~GetMaterialClassesCount.md
+R: Number of material classes
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysis3dPrinting.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~GetMaterialCount.md
+P: ClassName: Name of the material class
+R: Number of materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysis3dPrinting.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~GetMaterials.md
+P: ClassName: Name of material class
+R: Array of strings of the names of the materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysis3dPrinting.OrientationPlane | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~OrientationPlane.md
+R: Printing direction as defined in swcPlane_e
+X: To flip the printing direction, call ICostAnalysis3dPrinting::FlipDirection.
+<<< ICostAnalysis3dPrinting.PercentInfill | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~PercentInfill.md
+R: Infill percentage; valid values are 0 through 100
+<<< ICostAnalysis3dPrinting.ResetShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~ResetShopRate.md
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysis3dPrinting.ShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~ShopRate.md
+R: Hourly shop rate
+<<< ICostAnalysis3dPrinting.ShopRateApplied | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~ShopRateApplied.md
+R: True if an hourly shop rate is applied, false if not
+<<< ICostAnalysis3dPrinting.StructuralMaterialCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~StructuralMaterialCost.md
+R: Structural material costs
+<<< ICostAnalysis3dPrinting.WallThickness | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~WallThickness.md
+R: Wall thickness
+<<< ICostAnalysisCasting | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.md
+X: A complete Costing analysis includes the common Costing analysis and the casting Costing analysis.
+See the SOLIDWORKS Help for more information about casting Costing.
+<<< ICostAnalysisCasting.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~CurrentMaterial.md
+R: Name of the material
+X: Setting this property could invalidate other settings.
+<<< ICostAnalysisCasting.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property could invalidate other settings.
+<<< ICostAnalysisCasting.CycleTime | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~CycleTime.md
+R: Casting process cycle time in hours
+<<< ICostAnalysisCasting.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~GetMaterialClasses.md
+R: Array of strings of the names of the material classes
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisCasting.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~GetMaterialClassesCount.md
+R: Number of material classes
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisCasting.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~GetMaterialCount.md
+P: ClassName: Name of the material class
+R: Number of materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisCasting.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~GetMaterials.md
+P: ClassName: Name of the material class
+R: Array of strings of the names of the materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisCasting.MoldCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~MoldCost.md
+R: Cost of the mold
+<<< ICostAnalysisCasting.PercentWasteMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~PercentWasteMaterial.md
+R: Percentage of waste material; valid values are 0 through 100
+<<< ICostAnalysisCasting.ResetShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~ResetShopRate.md
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisCasting.ShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~ShopRate.md
+R: Hourly shop rate
+<<< ICostAnalysisCasting.ShopRateApplied | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~ShopRateApplied.md
+R: True if an hourly shop rate is applied, false if not
+<<< ICostAnalysisMachining | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.md
+X: A complete Costing analysis includes the common Costing analysis and the machining Costing analysis.
+See the SOLIDWORKS Help for more information about machining Costing.
+<<< ICostAnalysisMachining.BlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~BlankSize.md
+R: The material determines the size of the array: | Material | Array | | Block | 3 doubles for the X, Y, and Z coordinates | | Cylinder | 2 doubles for the diameter and length | | Plate | 2 doubles for the length and width | This property does not support setting: - block or cylinder material when size is calculated by ICostAnalysisMachining::Margins. - plate material. Thickness is a property of the material.
+<<< ICostAnalysisMachining.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CurrentMaterial.md
+R: Name of the material
+X: Setting this property might invalidate other settings; e.g., plate thickness.
+<<< ICostAnalysisMachining.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property might invalidate other settings; e.g., material and plate thickness.
+<<< ICostAnalysisMachining.CurrentPlateThickness | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CurrentPlateThickness.md
+R: Thickness of the plate
+<<< ICostAnalysisMachining.CurrentStockType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CurrentStockType.md
+R: Current stock type as defined in swcStockType_e
+<<< ICostAnalysisMachining.CustomStockBodyName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CustomStockBodyName.md
+R: - Name of the configuration for a custom stock body; valid only if ICostAnalysisMachining::CustomStockImportType is set to swcCustomStockImportType_e.swcCustomStockImportType_Configuration and multiple configurations exist in the model - or - - Path and file name of the reference part for a custom stock body; valid only if ICostAnalysisMachining::CustomStockImportType is set to swcCustomStockImportType_e.swcCustomStockImportType_ReferencePart
+<<< ICostAnalysisMachining.CustomStockCostInfoType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CustomStockCostInfoType.md
+R: Type of custom stock cost as defined in swcCustomStockCostInfoType_e
+<<< ICostAnalysisMachining.CustomStockCustomCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CustomStockCustomCost.md
+R: Custom stock cost
+<<< ICostAnalysisMachining.CustomStockImportType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CustomStockImportType.md
+R: Custom stock import type as defined in swcCustomStockImportType_e
+<<< ICostAnalysisMachining.GetBlankDimensionCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetBlankDimensionCount.md
+P: StockType: Stock type as defined in swcStockType_e
+R: Number of dimensions for a blank required to produce a body using the specified stock type
+<<< ICostAnalysisMachining.GetMarginDimensionCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMarginDimensionCount.md
+R: Number of dimensions for the margins for the stock type
+<<< ICostAnalysisMachining.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMaterialClasses.md
+R: Array of strings of the names of the material classes
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisMachining.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMaterialClassesCount.md
+R: Number of material classes
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisMachining.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMaterialCount.md
+P: ClassName: Name of material class
+R: Number of materials in the specified class
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisMachining.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMaterials.md
+P: ClassName: Name of material class
+R: Array of strings of the names of the materials in the specified class
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisMachining.GetMinimumBlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMinimumBlankSize.md
+R: Array of doubles of the dimensions of the smallest possible blank required to produce a body using the currently selected stock type
+<<< ICostAnalysisMachining.GetStockTypeCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetStockTypeCount.md
+P: MaterialClass: Name of the material class
+P: MaterialName: Name of the material
+R: Number of stock types for the specified material
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisMachining.GetStockTypes | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetStockTypes.md
+P: MaterialClass: Name of the material class
+P: MaterialName: Name of the material
+R: Array of integers, or longs if using VBA, of the stock types of the specified material as defined in swcStockType_e
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisMachining.IBlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IBlankSize.md
+P: NumDimensions: Number of dimensions for the blank
+R: - in-process, unmanaged C++: Pointer to an array of doubles of the size of the blank (see Remarks) VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisMachining::GetBlankDimensionCount to get the NumDimensions value.
+The material determines the size of the array:
+| Material | Array |
+| Block | 3 doubles for the X, Y, and Z coordinates |
+| Cylinder | 2 doubles for the diameter and length |
+| Plate | 2 doubles for the length and width |
+This property does not support setting:
+- block or cylinder material when size is calculated by ICostAnalysisMachining::IMargins.
+- plate material. Thickness is a property of the material.
+<<< ICostAnalysisMachining.IGetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetMaterialClasses.md
+P: NumClassNames: Number of material classes
+R: - in-process, unmanaged C++: Pointer to an array of strings of the names of the material classes VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalsyisMachining::GetMaterialClassesCount to get the NumClassNames value.
+See Getting Started for details about Costing templates.
+<<< ICostAnalysisMachining.IGetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetMaterials.md
+P: ClassName: Name of material class
+P: NumMaterialNames: Number of the materials in the specified material class
+R: - in-process, unmanaged C++: Pointer to an array of strings of the materials in the specified class VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisMachining::GetMaterialCount to get the NumMaterialNames value.
+See Getting Started for details about Costing templates.
+<<< ICostAnalysisMachining.IGetMinimumBlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetMinimumBlankSize.md
+P: NumDimensions: Number of dimensions
+R: - in-process, unmanaged C++: Pointer to an array of doubles of the dimensions of the smallest possible blank required to produce a body using the currently selected stock type VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisMachining::GetBlankDimensionCount to get the NumDimensions value.
+<<< ICostAnalysisMachining.IGetStockTypes | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetStockTypes.md
+P: MaterialClass: Name of the material class
+P: MaterialName: Name of the material
+P: NumStockTypes: Number of stock types defined for the specified material
+R: - in-process, unmanaged C++: Pointer to an array of integers of the stock types of the specified material as defined in swcStockType_e - VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisMachining::GetStockTypeCount to get the NumStockTypes value.
+See Getting Started for details about Costing templates.
+<<< ICostAnalysisMachining.IMargins | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IMargins.md
+P: NumDimensions: Number of dimensions for the stock type
+R: - in-process, unmanaged C++: Pointer to an array of doubles of the available margins (see Remarks) VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this property, call ICostAnalysisMachining::GetMarginDimensionCount to get the NumMargins value.
+The material determines the size of the array:
+| Material | Array |
+| Block | 6 doubles for the -X, +X, -Y, +Y, -Z, and +Z ICostAnalysisMachining::SpecificSizeEnabled must bet set to true to specify block dimensions to add to the tightest fitting stock faces. |
+| Cylinder | 3 doubles for the -D, -L, and +L |
+| Plate | 4 doubles, all 0, for the -W, +W, -L, and +L |
+This property does not support setting margins:
+- for plate material
+- or -
+- when a custom size is defined.
+<<< ICostAnalysisMachining.Margins | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~Margins.md
+R: Array of doubles of the margins for the stock type (see Remarks)
+X: The material determines the size of the array:
+| Material | Array |
+| Block | 6 doubles for the -X, +X, -Y, +Y, -Z, and +Z ICostAnalysisMachining::SpecificSizeEnabled must bet set to true to specify block dimensions to add to the tightest fitting stock faces. |
+| Cylinder | 3 doubles for the -D, -L, and +L |
+| Plate | 4 doubles, all 0, for the -W, +W, -L, and +L |
+This property does not support setting margins:
+- for plate material
+- or -
+- when a custom size is defined.
+<<< ICostAnalysisMachining.PreviewShown | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~PreviewShown.md
+R: True to display a preview of the blank, false to not
+<<< ICostAnalysisMachining.ResetShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~ResetShopRate.md
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisMachining.ShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~ShopRate.md
+R: Hourly shop rate
+<<< ICostAnalysisMachining.ShopRateApplied | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~ShopRateApplied.md
+R: True if an hourly shop rate is applied, false if not
+<<< ICostAnalysisMachining.SpecificSizeEnabled | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~SpecificSizeEnabled.md
+R: True if a user can specify the X, Y, and Z block dimensions to add to the tightest fitting stock faces, false if not
+X: This property applies to block stock bodies only.
+<<< ICostAnalysisPlastic | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.md
+X: A complete Costing analysis includes the common Costing analysis and the plastic Costing analysis.
+See the SOLIDWORKS Help for more information about plastic Costing.
+<<< ICostAnalysisPlastic.CalculationMethod | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CalculationMethod.md
+R: Calculation method as defined in swcMoldCalculationMethod_e
+<<< ICostAnalysisPlastic.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CurrentMaterial.md
+R: Name of the material
+X: Setting this property could invalidate other settings.
+<<< ICostAnalysisPlastic.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property could invalidate other settings.
+<<< ICostAnalysisPlastic.CycleTime | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CycleTime.md
+R: Plastic process cycle time in hours; valid for use in calculations only if ICostAnalysisPlastic::CalculationMethod is set to swcMoldCalculationMethod_e.swcMoldCalculationMethod_CycleTime
+<<< ICostAnalysisPlastic.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~GetMaterialClasses.md
+R: Array of strings of the names of the material classes
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisPlastic.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~GetMaterialClassesCount.md
+R: Number of material classes
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisPlastic.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~GetMaterialCount.md
+P: ClassName: Name of the material class
+R: Number of materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisPlastic.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~GetMaterials.md
+P: ClassName: Name of the material class
+R: Array of strings of the names of the materials in ClassName
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisPlastic.MaxWallThickness | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~MaxWallThickness.md
+R: Maximum wall thickness in meters; valid for use in calculations only if ICostAnalysis::CalculationMethod is set to swcMoldCalculationMethod_e.swMoldCalculationMethod_WallThickness
+<<< ICostAnalysisPlastic.MoldCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~MoldCost.md
+R: Cost of the mold
+<<< ICostAnalysisPlastic.PercentWasteMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~PercentWasteMaterial.md
+R: Percentage of waste material; valid values are 0 through 100
+<<< ICostAnalysisPlastic.ResetShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~ResetShopRate.md
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisPlastic.RunnerSystem | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~RunnerSystem.md
+R: Runner system as defined in swcRunnerSystem_e
+<<< ICostAnalysisPlastic.ShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~ShopRate.md
+R: Hourly shop rate
+<<< ICostAnalysisPlastic.ShopRateApplied | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~ShopRateApplied.md
+R: True if an hourly shop rate is applied, false if not
+<<< ICostAnalysisSheetMetal | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.md
+X: A complete Costing analysis includes the common Costing analysis and the sheet metal Costing analysis.
+See the SOLIDWORKS Help for more information about sheet metal Costing.
+<<< ICostAnalysisSheetMetal.BlankAreaFromModel | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankAreaFromModel.md
+R: Area of the blank from the sheet metal part, excluding any margin
+X: Use ICostAnalysisSheetMetal::FinalAreaFromModel to get the area of a blank, including any margin, from a sheet metal part.
+<<< ICostAnalysisSheetMetal.BlankOffset | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankOffset.md
+R: Margin to use around the blank
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_BoundingBox or swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_FlatPattern to set a margin to use around the blank of this sheet metal part.
+<<< ICostAnalysisSheetMetal.BlankSizeType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankSizeType.md
+R: Type of size for the blank as defined in swcSheetMetalBlankSizeType_e
+<<< ICostAnalysisSheetMetal.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CurrentMaterial.md
+R: Name of the material
+X: Setting this property might invalidate other settings; e.g., sheet metal thickness.
+<<< ICostAnalysisSheetMetal.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property might invalidate other settings; e.g., material and sheet metal thickness.
+<<< ICostAnalysisSheetMetal.CurrentThickness | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CurrentThickness.md
+R: Sheet metal thickness
+<<< ICostAnalysisSheetMetal.CustomBlankArea | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CustomBlankArea.md
+R: Area of custom blank for a sheet metal part
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomArea to set the area of a custom blank.
+<<< ICostAnalysisSheetMetal.CustomBlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CustomBlankSize.md
+R: ICostBlankSize
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
+<<< ICostAnalysisSheetMetal.FinalAreaFromModel | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~FinalAreaFromModel.md
+R: Area of the blank, including any margins, from the sheet metal part
+X: Use ICostAnalysisSheetMetal::BlankAreaFromModel to get the area of a blank, excluding any margin, from a sheet metal part.
+<<< ICostAnalysisSheetMetal.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterialClasses.md
+R: Array of strings of the material classes
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisSheetMetal.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterialClassesCount.md
+R: Number of material classes
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisSheetMetal.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterialCount.md
+P: ClassName: Name of material class
+R: Number of materials in the specified class
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisSheetMetal.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterials.md
+P: ClassName: Name of material class
+R: Array of strings of the names of the materials in the specified class
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisSheetMetal.GetModelThickness | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetModelThickness.md
+R: Thickness of the sheet metal from the model
+<<< ICostAnalysisSheetMetal.GetThicknesses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetThicknesses.md
+P: ClassName: Name of the material class
+P: MaterialName: Name of the material
+R: Array of doubles of the sheet metal thicknesses for the specified material
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisSheetMetal.GetThicknessesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetThicknessesCount.md
+P: ClassName: Name of the material class
+P: MaterialName: Name of the material
+R: Number of sheet metal thicknesses for the specified material
+X: See Getting Started for details about Costing templates.
+<<< ICostAnalysisSheetMetal.IGetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~IGetMaterialClasses.md
+P: NumClassNames: Number of material classes
+R: - in-process, unmanaged C++: Pointer to an array of strings of the names of the material classes VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisSheetMetal::GetMaterialClassesCount to get the NumClassNames value.
+See Getting Started for details about Costing templates.
+<<< ICostAnalysisSheetMetal.IGetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~IGetMaterials.md
+P: ClassName: Name of material class
+P: NumMaterialNames: Number of the materials in the specified material class
+R: - in-process, unmanaged C++: Pointer to an array of strings of the materials in the specified class VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisSheetMetal::GetMaterialCount to get the NumMaterialNames value.
+See Getting Started for details about Costing templates.
+<<< ICostAnalysisSheetMetal.IGetThicknesses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~IGetThicknesses.md
+P: ClassName: Name of the material class
+P: MaterialName: Name of the material
+P: NumThicknesses: Number of sheet metal thicknesses
+R: - in-process, unmanaged C++: Pointer to an array of integers, or longs if using VBA, of the sheet metal thicknesses for the specified material VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostAnalysisSheetMetal::GetThicknessesCount to get the NumThicknesses value.
+See Getting Started for details about Costing templates.
+<<< ICostAnalysisSheetMetal.MaterialCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~MaterialCost.md
+R: Cost of the sheet metal material
+X: To use the cost of the sheet metal material specified in the Costing template, use ICostAnalysisSheetMetal::MaterialCostFromTemplate.
+<<< ICostAnalysisSheetMetal.MaterialCostFromTemplate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~MaterialCostFromTemplate.md
+R: Cost of the sheet metal material from the Costing template
+X: To override the cost of the sheet metal material specified in the Costing template, use ICostAnalysisSheetMetal::MaterialCost.
+See Getting Started for details about Costing templates.
+<<< ICostAnalysisSheetMetal.PreviewShown | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~PreviewShown.md
+R: True to display a preview of the blank, false to not
+<<< ICostAnalysisSheetMetal.Weight | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~Weight.md
+R: Weight of the sheet metal part
+<<< ICostAnalysisStructural | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.md
+X: A complete Costing analysis includes the common Costing analysis and the structural Costing analysis. Generate a structural Costing analysis for weldment structures.
+See the SOLIDWORKS Help for more information about sheet metal Costing.
+<<< ICostAnalysisStructural.CurrentCostMethodType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentCostMethodType.md
+R: Type of structural stock cost method as defined by swcStructuralStockCostType_e
+X: Setting of a structural stock cost method must match the data in the template. For example, if the cost per unit length option is not available in the template, then setting this method to swcStructuralStockCostType_e.swcStructuralStockCost_PerUnitLength fails.
+<<< ICostAnalysisStructural.CurrentMaterial | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentMaterial.md
+R: Name of the material
+X: Setting this property could invalidate other settings, e.g., weldment stock profile, etc.
+<<< ICostAnalysisStructural.CurrentMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentMaterialClass.md
+R: Name of the material class
+X: Setting this property could invalidate other settings, e.g., material and weldment stock profile.
+<<< ICostAnalysisStructural.CurrentProfileSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentProfileSize.md
+R: Profile size
+X: The profile size is the name of a file, excluding the filename extension, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \lang\ weldment profiles\ profile standard\profile type.
+<<< ICostAnalysisStructural.CurrentProfileStandard | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentProfileStandard.md
+R: Profile standard
+X: The profile standard is the name of a folder, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \lang\ weldment profiles.
+<<< ICostAnalysisStructural.CurrentProfileType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentProfileType.md
+R: Profile type
+X: The profile type is the name of a profiles type folder, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \lang\ weldment profiles\ profile standard.
+<<< ICostAnalysisStructural.CurrentStockUnitLength | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentStockUnitLength.md
+R: Stock unit size
+X: You must specify a value that matches a stock unit length value in the template. If you specify an invalid value, then a value closest to the structural member body length is used.
+<<< ICostAnalysisStructural.GetMaterialClasses | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~GetMaterialClasses.md
+R: Array of strings of the names of the material classes
+<<< ICostAnalysisStructural.GetMaterialClassesCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~GetMaterialClassesCount.md
+R: Number of material classes
+<<< ICostAnalysisStructural.GetMaterialCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~GetMaterialCount.md
+P: ClassName: Name of the material class
+R: Number of materials in ClassName
+<<< ICostAnalysisStructural.GetMaterials | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~GetMaterials.md
+P: ClassName: Name of the material class
+R: Array of strings of the names of the materials in ClassName
+<<< ICostAnalysisStructural.SetCurrentProfile | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~SetCurrentProfile.md
+P: Standard: Name of the profile standard (see Remarks)
+P: ProfileType: Name of the profile type (see Remarks)
+P: ProfileSize: Profile size (see Remarks)
+R: True if the profile is set, false if not (see Remarks)
+X: | A valid string for... | Corresponds to name of the... |
+| Standard | Weldment profile folder, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \ lang \ weldment profiles |
+| ProfileType | Profile types folder, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \ lang \ weldment profiles\ profile standard |
+| ProfileSize | Profile size file, excluding the filename extension, typically located in C:\Program Files\SolidWorks Corp\SOLIDWORKS \ lang \ lang \ weldment profiles\ profile standard \ profile type |
+This method:
+- does not change the underlying geometry of the structural member; instead, this method only uses the specified profile to cost the body.
+- fails if the specified Standard, ProfileType, or ProfileSize values are invalid or incompatible with each other.
+- could invalidate the cost method.
+<<< ICostAnalysisStructural.ShopRate | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~ShopRate.md
+R: Hourly shop rate
+<<< ICostAnalysisStructural.ShopRateApplied | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~ShopRateApplied.md
+R: True if an hourly shop rate is applied, false if not
+<<< ICostBlankSize | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBlankSize.md
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
+<<< ICostBlankSize.Length | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBlankSize~Length.md
+R: Length of a custom blank of a sheet metal part
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
+<<< ICostBlankSize.Width | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBlankSize~Width.md
+R: Width of a custom blank of a sheet metal part
+X: ICostAnalysisSheetMetal::BlankSizeType must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
+<<< ICostBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody.md
+X: ICostBody objects can be:
+- analyzed according to their Costing template,
+- excluded from the Costing analysis, or
+- assigned custom costs.
+Multiple ICostBody objects can exist in a Costing part.
+<<< ICostBody.AssignCustomCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~AssignCustomCost.md
+P: fCost: Total cost (setup and operation) of a custom operation
+<<< ICostBody.BodyStatus | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~BodyStatus.md
+R: Status of the Costing body as defined in swcBodyStatus_e
+<<< ICostBody.CreateCostAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~CreateCostAnalysis.md
+P: TemplatePath: Path and filename of the Costing template
+R: New Cost analysis
+X: Any previous Costing analysis for this Costing body is replaced by this Costing analysis.
+<<< ICostBody.GetBodyType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~GetBodyType.md
+R: Type of Costing body as defined in swcBodyType_e
+<<< ICostBody.GetCostAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~GetCostAnalysis.md
+R: Existing Cost analysis for this Costing body
+<<< ICostBody.GetName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~GetName.md
+R: Name of the Costing body
+X: The name of the Costing body returned by this method matches the name of the body in the CostingManager and the FeatureManager design tree.
+Activating Costing bodies by name allows you to use names directly from existing references to SOLIDWORKS bodies.
+<<< ICostBody.GetSWBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~GetSWBody.md
+R: SOLIDWORKS body that corresponds to this Costing body
+<<< ICostFeature | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature.md
+X: SOLIDWORKS Costing interprets geometry as to how it will be manufactured, not how it is designed.
+In the Costing tool, the features that are seen in the CostingManager are not the same as SOLIDWORKS features. Costing features are created as a result of Costing feature recognition.
+For example, in sheet metal Costing, a Hole Wizard hole through a sheet metal part is recognized as a cut path. This cut path is manufactured using laser, waterjet, or plasma cutting. In machining Costing, an extruded cut or Hole Wizard hole in SOLIDWORKS is recognized as a drilled hole.
+Sometimes an entire group of SOLIDWORKS features is recognized as one manufacturing feature in Costing. For example, the outside edges of a part might consist of fillets and straight edges. These are recognized in Costing as one cut path.
+<<< ICostFeature.CombinedCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~CombinedCost.md
+R: Cost of this Costing feature or operation, including the combined cost of Costing child features and operations
+X: Setting this property is:
+- equivalent to applying a cost override to this Costing feature.
+- ignored if the Costing feature disallows applying a cost override.
+<<< ICostFeature.CombinedTime | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~CombinedTime.md
+R: Time for this Costing feature or operation, including the combined times of Costing child features and operations
+X: Setting this property is:
+- equivalent to applying a cost override to this Costing feature.
+- ignored if the Costing feature disallows applying a cost override. For example, sheet metal Costing features must always return a time of 0; thus, times for sheet metal Costing features cannot be overridden.
+<<< ICostFeature.Description | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~Description.md
+R: Description of this Costing feature, including information about selected sub-operation options
+<<< ICostFeature.GetFirstSubFeature | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~GetFirstSubFeature.md
+R: First Costing child feature or null if no Costing children features exist
+<<< ICostFeature.GetNextFeature | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~GetNextFeature.md
+R: Next Costing feature or null if no more Costing features exist
+<<< ICostFeature.GetNextSubFeature | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~GetNextSubFeature.md
+R: Next Costing child feature of this Costing feature or null if no more Costing children features for this Costing feature exist
+<<< ICostFeature.GetType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~GetType.md
+R: Type of Costing feature as defined in swcCostFeatureType_e
+<<< ICostFeature.IsOverridden | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~IsOverridden.md
+R: True if a cost override was applied to this Costing feature, false if not
+<<< ICostFeature.IsSetup | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~IsSetup.md
+R: True if this Costing feature is a setup-related Costing feature, false if not
+<<< ICostFeature.Name | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~Name.md
+R: Name of the Costing feature in the CostingManager
+<<< ICostingDefaults | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.md
+X: Changes made to the default settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+<<< ICostingDefaults.GetManufacturingMethod | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~GetManufacturingMethod.md
+P: BodyType: Body type as defined in swcBodyType_e
+R: Default manufacturing method for BodyType as defined in swcMethodType_e
+<<< ICostingDefaults.GetMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~GetMaterialClass.md
+P: MethodType: Manufacturing method as defined in swcMethodType_e
+R: Name of the default material class for MethodType
+<<< ICostingDefaults.GetMaterialName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~GetMaterialName.md
+P: MethodType: Manufacturing method as defined in swcMethodType_e
+R: Name of the default material for MethodType
+<<< ICostingDefaults.GetTemplateName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~GetTemplateName.md
+P: CostingType: Type of Costing analysis as defined in swcCostingType_e
+R: Path and file name of the default Costing template
+X: See Getting Started for details about Costing templates.
+<<< ICostingDefaults.LotSizeForMultibody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~LotSizeForMultibody.md
+R: Default lot size for multibody mode
+<<< ICostingDefaults.LotSizeForSingleBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~LotSizeForSingleBody.md
+R: Default lot size for single-body mode
+<<< ICostingDefaults.MachiningStockBodyType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~MachiningStockBodyType.md
+R: Default machining stock body type as defined in swcStockType_e
+<<< ICostingDefaults.SetManufacturingMethod | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SetManufacturingMethod.md
+P: BodyType: Body type as defined in swcBodyType_e
+P: DefaultMethod: Default manufacturing method for BodyType as defined in swcMethodType_e
+X: Changes made to default settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+<<< ICostingDefaults.SetMaterialClass | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SetMaterialClass.md
+P: MethodType: Manufacturing method as defined in swcMethodType_e
+P: MaterialClass: Name of default material class for MethodType
+X: Changes made to default settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+<<< ICostingDefaults.SetMaterialName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SetMaterialName.md
+P: MethodType: Manufacturing method as defined in swcMethodType_e
+P: MaterialName: Name of default material for MethodType
+X: Changes made to default settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+<<< ICostingDefaults.SetTemplateName | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SetTemplateName.md
+P: CostingType: Type of Costing analysis as defined in swcCostingType_e
+P: TemplateName: Path and file name of the default Costing template
+X: Changes made to default settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+See Getting Started for details about Costing templates.
+<<< ICostingDefaults.SheetmetalBlankSizeType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SheetmetalBlankSizeType.md
+R: Default type of sheet metal blank size as defined in swcSheetMetalBlankSizeType_e
+<<< ICostingDefaults.StructuralMemberStockType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~StructuralMemberStockType.md
+R: Default type of structural member stock cost method as defined in swcStructuralStockCostType_e
+<<< ICostingDefaults.TotalNumberOfPartsForMultibody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~TotalNumberOfPartsForMultibody.md
+R: Default total number of parts for multibody mode
+<<< ICostingDefaults.TotalNumberOfPartsForSingleBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~TotalNumberOfPartsForSingleBody.md
+R: Default total number of parts for single-body mode
+<<< ICostManager | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager.md
+X: SOLIDWORKS Costing and its API are only available in SOLIDWORKS Professional and SOLIDWORKS Premium.
+If Costing is not licensed on the host system, then null is returned.
+<<< ICostManager.CostingDefaults | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager~CostingDefaults.md
+R: ICostingDefaults object
+<<< ICostManager.CostingModel | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager~CostingModel.md
+R: Costing model
+<<< ICostManager.GetTemplateCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager~GetTemplateCount.md
+P: CostingType: Type of Costing analysis as defined in swcCostingType_e
+R: Number of Costing templates available for CostingType
+X: See Getting Started for details about Costing templates.
+<<< ICostManager.GetTemplatePathnames | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager~GetTemplatePathnames.md
+P: CostingType: Type of Costing analysis as defined in swcCostingType_e
+R: Array of strings of the paths and filenames of the Costing templates available for CostingType
+X: See Getting Started for details about Costing templates.
+<<< ICostManager.IGetTemplatePathnames | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostManager~IGetTemplatePathnames.md
+P: CostingType: Type of Costing analysis as defined in swcCostingType_e
+P: NumTemplates: Number of Costing templates available for CostingType
+R: - in-process, unmanaged C++: Pointer to an array of strings of the paths and filenames of the Costing templates available for CostingType - VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostManager::GetTemplateCount to get the NumTemplates value.
+See Getting Started for details about Costing templates.
+<<< ICostPart.ActivateBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~ActivateBody.md
+P: BodyName: Name of Costing body to activate or an empty string to activate the common Cost analysis for this Costing part (see Remarks)
+P: Errors: Status as defined in swcActivateBodyResult_e
+R: Costing body
+X: To get the name of a Costing body for BodyName:
+1. Get the Costing bodies in the Costing part by calling:
+1. Get the names of the Costing bodies in the Costing part by iterating through the array of returned Costing bodies and calling ICostBody::GetName.
+Activating Costing bodies by their names allows you to use names directly from existing references to SOLIDWORKS bodies.
+If you passed an empty string to BodyName, then Return Value is null and Errors is swcActivateBodyResult_e.swcActivateBodyResult_Success.
+<<< ICostPart.ActiveBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~ActiveBody.md
+R: Active Costing body or null if the common Cost analysis is active
+<<< ICostPart.CreateCostAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~CreateCostAnalysis.md
+P: TemplatePath: Path and filename of the Costing template
+R: New Costing analysis
+X: Any previous Costing analysis for this Costing part is replaced by this Costing analysis.
+<<< ICostPart.GetBodies | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetBodies.md
+R: Array of Costing bodies
+<<< ICostPart.GetBodyCount | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetBodyCount.md
+R: Number of Costing bodies
+<<< ICostPart.GetCostAnalysis | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostAnalysis.md
+R: Existing Cost analysis
+<<< ICostPart.GetCostingMethod | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.md
+P: BodyName: Name of the Costing body
+R: Manufacturing method as specified in swcMethodType_e
+X: For a structural Costing analysis, specify the name of the cut-list item for BodyName used for the manufacturing method.
+<<< ICostPart.IGetBodies | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~IGetBodies.md
+P: NumBodies: Number of Costing bodies
+R: - in-process, unmanaged C++: Pointer to an array of Costing bodies VBA, VB.NET, C#, and C++/CLI: Not supported
+X: Before calling this method, call ICostPart::GetBodyCount to get the NumBodies value.
+<<< ICostPart.IncludeBody | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~IncludeBody.md
+P: BodyName: Name of the Costing body
+P: Include: True to include the Costing body in this Costing part in the Costing analysis, false to exclude the Costing body in this Costing part in the Costing analysis
+R: Status as defined in swcBodyStatus_e
+X: To get the names of the Costing bodies in a Costing part:
+1. Get the Costing bodies in the Costing part by calling:
+1. Get the names of the Costing bodies in the Costing part by iterating through the array of returned Costing bodies and calling ICostBody::GetName.
+<<< ICostPart.IUpdateCostForAllBodies | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~IUpdateCostForAllBodies.md
+P: NumBodies: Number of bodies (see Remarks)
+R: Array of integers, or longs if using VBA, corresponding to each body in the part and indicating the Costing update status of that body as defined in swcUpdateCostError_e
+X: Before calling this method, call ICostPart::GetBodyCount to get NumBodies.
+<<< ICostPart.SetCostingMethod | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~SetCostingMethod.md
+P: BodyName: Name of the Costing body (see Remarks)
+P: MethodType: Manufacturing type as defined in swcMethodType_e
+R: Costing body
+X: If you specify:
+- a name for BodyName, then the current body is deleted and a new body of the type that you specified in MethodType is created. This method returns the newly created body and invalidates any previously selected bodies.
+- an empty string for BodyName, then the body in a single body part or the currently selected body in a multibody part is used. This method returns this body.
+For a structural Costing analysis, specify the name of the cut-list item for BodyName to use for the manufacturing method.
+<<< ICostPart.TemplateOverrides | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~TemplateOverrides.md
+R: ITemplateOverrides object
+<<< ICostPart.UpdateCostForAllBodies | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~UpdateCostForAllBodies.md
+R: Array of integers, or longs if using VBA, corresponding to each body in the part and indicating the Costing update status of that body as defined in swcUpdateCostError_e
+<<< ITemplateOverrides | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.md
+X: You can only override system-level Costing options if ICostPart::GetCostingMethod is equal to one to the following:
+- swcMethodType_e.swcMethodType_MachinedPlate
+- swcMethodType_e.swcMethodType_Machining
+- swcMethodType_e.swcMethodType_Sheetmetal
+To set the Costing method, use ICostPart::SetCostingMethod.
+<<< ITemplateOverrides.ApplyOverrides | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~ApplyOverrides.md
+X: Call this method after setting any of the ITemplateOverrides properties to override that system-level option.
+<<< ITemplateOverrides.CustomBendCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~CustomBendCost.md
+R: Custom cost per bend for sheet metal parts
+X: Setting this property is only applied if:
+- ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+- ITemplateOverrides::UseCustomBendCost is true.
+<<< ITemplateOverrides.CustomHemCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~CustomHemCost.md
+R: Custom hem cost for sheet metal parts
+X: Setting this property is only applied if:
+- ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+- ITemplateOverrides::UseCustomHemCost is true.
+<<< ITemplateOverrides.CustomLibraryFeatureCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~CustomLibraryFeatureCost.md
+R: Custom library feature cost for sheet metal parts
+X: Setting this property is only applied if:
+- ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+- ITemplateOverrides::UseCustomLibraryFeatureCost is true.
+<<< ITemplateOverrides.DefaultFinishingOperation | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~DefaultFinishingOperation.md
+R: Default finishing operation as defined in swcFinishingOperationType_e
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< ITemplateOverrides.DefaultMachiningOperationTool | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~DefaultMachiningOperationTool.md
+R: Tool for the default machining operation as defined in swcDefaultMachiningTool_e
+X: Setting this property is only applied if:
+- ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+- ITemplateOverrides::VolumeFeatureCalculationType is swcVolumeFeatureCalculationType_e.swcVolumeFeatureCalculationType_MachiningOperation.
+<<< ITemplateOverrides.FinishingCostPerVolume | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~FinishingCostPerVolume.md
+R: Finishing cost per volume for machined parts
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< ITemplateOverrides.FinishingOffset | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~FinishingOffset.md
+R: Finishing offset for machined parts
+X: Setting this property is only applied if ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< ITemplateOverrides.RemovedMaterialProcessingType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~RemovedMaterialProcessingType.md
+R: Removed material processing option as defined in swcRemovedMaterialProcessingType_e
+X: Removed material can use either standard manufacturing process recognition or customizable volume feature recognition.
+Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< ITemplateOverrides.RoughingCostPerVolume | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~RoughingCostPerVolume.md
+R: Roughing cost per volume for machined parts
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< ITemplateOverrides.SaveCostingOverrideSettings | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~SaveCostingOverrideSettings.md
+X: Overridden system-level settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+<<< ITemplateOverrides.SemiFinishingCostPerVolume | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~SemiFinishingCostPerVolume.md
+R: Semi-finishing cost per volume for machined parts
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< ITemplateOverrides.SemiFinishingOffset | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~SemiFinishingOffset.md
+R: Semi-finishing offset for machined parts
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< ITemplateOverrides.ShowUndeterminedSlotsInNCAFolder | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~ShowUndeterminedSlotsInNCAFolder.md
+R: True if features whose volume cannot be determined are displayed as items in the No Cost Assigned folder, false if not
+X: Setting this property is only applied if:
+- ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+- ITemplateOverrides::SlotFeatureRecognitionType is swcSlotFeatureRecognitionType_e.swcSlotFeatureRecognitionType_Slot.
+<<< ITemplateOverrides.SlotFeatureRecognitionType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~SlotFeatureRecognitionType.md
+R: Slot feature recognition option as defined in swcSlotFeatureRecognitionType_e
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< ITemplateOverrides.UseCustomBendCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~UseCustomBendCost.md
+R: True to use a custom cost per bend for sheet metal parts, false to not
+X: Setting this property is only applied if ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+<<< ITemplateOverrides.UseCustomHemCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~UseCustomHemCost.md
+R: True to use a custom hem cost for sheet metal parts, false to not
+X: Setting this property is only applied if ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+<<< ITemplateOverrides.UseCustomLibraryFeatureCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~UseCustomLibraryFeatureCost.md
+R: True to use a custom library feature cost for sheet metal parts, false to not
+X: Setting this property is only applied if ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+<<< ITemplateOverrides.UseOffsetBasedFinishing | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~UseOffsetBasedFinishing.md
+R: True to override template settings for offset-based finishing for machined parts, false to not
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< ITemplateOverrides.VolumeFeatureCalculationType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~VolumeFeatureCalculationType.md
+R: Volume feature calculation option as defined in swcVolumeFeatureCalculationType_e
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< TemplateOverrides.ApplyOverrides | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~ApplyOverrides.md
+X: Call this method after setting any of the ITemplateOverrides properties to override that system-level option.
+<<< TemplateOverrides.CustomBendCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~CustomBendCost.md
+R: Custom cost per bend for sheet metal parts
+X: Setting this property is only applied if:
+- ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+- ITemplateOverrides::UseCustomBendCost is true.
+<<< TemplateOverrides.CustomHemCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~CustomHemCost.md
+R: Custom hem cost for sheet metal parts
+X: Setting this property is only applied if:
+- ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+- ITemplateOverrides::UseCustomHemCost is true.
+<<< TemplateOverrides.CustomLibraryFeatureCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~CustomLibraryFeatureCost.md
+R: Custom library feature cost for sheet metal parts
+X: Setting this property is only applied if:
+- ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+- ITemplateOverrides::UseCustomLibraryFeatureCost is true.
+<<< TemplateOverrides.DefaultFinishingOperation | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~DefaultFinishingOperation.md
+R: Default finishing operation as defined in swcFinishingOperationType_e
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< TemplateOverrides.DefaultMachiningOperationTool | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~DefaultMachiningOperationTool.md
+R: Tool for the default machining operation as defined in swcDefaultMachiningTool_e
+X: Setting this property is only applied if:
+- ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+- ITemplateOverrides::VolumeFeatureCalculationType is swcVolumeFeatureCalculationType_e.swcVolumeFeatureCalculationType_MachiningOperation.
+<<< TemplateOverrides.FinishingCostPerVolume | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~FinishingCostPerVolume.md
+R: Finishing cost per volume for machined parts
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< TemplateOverrides.FinishingOffset | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~FinishingOffset.md
+R: Finishing offset for machined parts
+X: Setting this property is only applied if ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< TemplateOverrides.RemovedMaterialProcessingType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~RemovedMaterialProcessingType.md
+R: Removed material processing option as defined in swcRemovedMaterialProcessingType_e
+X: Removed material can use either standard manufacturing process recognition or customizable volume feature recognition.
+Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< TemplateOverrides.RoughingCostPerVolume | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~RoughingCostPerVolume.md
+R: Roughing cost per volume for machined parts
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< TemplateOverrides.SaveCostingOverrideSettings | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~SaveCostingOverrideSettings.md
+X: Overridden system-level settings are saved to the registry and are applied in the next and subsequent Costing sessions.
+<<< TemplateOverrides.SemiFinishingCostPerVolume | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~SemiFinishingCostPerVolume.md
+R: Semi-finishing cost per volume for machined parts
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< TemplateOverrides.SemiFinishingOffset | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~SemiFinishingOffset.md
+R: Semi-finishing offset for machined parts
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< TemplateOverrides.ShowUndeterminedSlotsInNCAFolder | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~ShowUndeterminedSlotsInNCAFolder.md
+R: True if features whose volume cannot be determined are displayed as items in the No Cost Assigned folder, false if not
+X: Setting this property is only applied if:
+- ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+- ITemplateOverrides::SlotFeatureRecognitionType is swcSlotFeatureRecognitionType_e.swcSlotFeatureRecognitionType_Slot.
+<<< TemplateOverrides.SlotFeatureRecognitionType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~SlotFeatureRecognitionType.md
+R: Slot feature recognition option as defined in swcSlotFeatureRecognitionType_e
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< TemplateOverrides.UseCustomBendCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~UseCustomBendCost.md
+R: True to use a custom cost per bend for sheet metal parts, false to not
+X: Setting this property is only applied if ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+<<< TemplateOverrides.UseCustomHemCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~UseCustomHemCost.md
+R: True to use a custom hem cost for sheet metal parts, false to not
+X: Setting this property is only applied if ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+<<< TemplateOverrides.UseCustomLibraryFeatureCost | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~UseCustomLibraryFeatureCost.md
+R: True to use a custom library feature cost for sheet metal parts, false to not
+X: Setting this property is only applied if ICostPart::GetCostingMethod is swcMethodType_e.swcMethodType_Sheetmetal.
+<<< TemplateOverrides.UseOffsetBasedFinishing | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~UseOffsetBasedFinishing.md
+R: True to override template settings for offset-based finishing for machined parts, false to not
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+<<< TemplateOverrides.VolumeFeatureCalculationType | swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.TemplateOverrides~VolumeFeatureCalculationType.md
+R: Volume feature calculation option as defined in swcVolumeFeatureCalculationType_e
+X: Setting this property is only applied if ICostPart::GetCostingMethod is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.

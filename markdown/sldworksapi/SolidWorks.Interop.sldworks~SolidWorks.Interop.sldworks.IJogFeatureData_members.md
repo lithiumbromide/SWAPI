@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJo
 
 # IJogFeatureData Interface Members
 
-The following tables list the members exposed by[IJogFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html).
+The following tables list the members exposed by [IJogFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html).
 
 ## Public Properties
 
@@ -50,7 +50,5 @@ The following tables list the members exposed by[IJogFeatureData](SolidWorks.Int
 ## See Also
 
 [IJogFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertSheetMetalJog Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertSheetMetalJog.html)

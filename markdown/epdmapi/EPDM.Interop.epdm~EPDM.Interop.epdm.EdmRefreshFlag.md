@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefreshFlag.html"
 
 # EdmRefreshFlag Enumeration
 
-Flags that cause SOLIDWORKS PDM Professional to refresh elements of the user interface.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags that cause SOLIDWORKS PDM Professional to refresh elements of the user interface. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 
@@ -48,18 +44,9 @@ public enum class EdmRefreshFlag : public System.Enum
 
 ## Remarks
 
-You can return a combination of these flags from your add-in's
-
-[IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html)
-
-via the
-
-[EdmCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)
-
-struct to cause SOLIDWORKS PDM Professional to refresh certain parts of the user interface.
+You can return a combination of these flags from your add-in's [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html) via the [EdmCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html) struct to cause SOLIDWORKS PDM Professional to refresh certain parts of the user interface.
 
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [EdmCmd::mlEdmRefreshFlags Field](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd~mlEdmRefreshFlags.html)

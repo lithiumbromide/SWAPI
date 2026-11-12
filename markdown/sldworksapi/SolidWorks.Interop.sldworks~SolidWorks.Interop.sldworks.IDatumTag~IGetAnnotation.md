@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDa
 
 # IGetAnnotation Method (IDatumTag)
 
-Gets the
-
-[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)
-
-object for this datum feature symbol annotation.
+Gets the [IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html) object for this datum feature symbol annotation.
 
 ## Syntax
 
@@ -44,29 +40,15 @@ Annotation IGetAnnotation()
 Annotation^ IGetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)
-
-object
+Pointer to the [IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html) object
 
 ## VBA Syntax
 
-See
-
-[DatumTag::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~IGetAnnotation.html)
-
-.
+See [DatumTag::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~IGetAnnotation.html).
 
 ## Remarks
 
@@ -75,9 +57,7 @@ The IAnnotation object is a higher-level object that contains methods that apply
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::GetAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetAnnotation.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "cworksapi/Get_Frequencies_in_Mode_Shape_Plots_Example_CSharp.htm"
 
 # Get Frequencies in Mode Shape Plots Example (C#)
 
-This example shows how to get frequencies for all mode shapes in amplitude
-plots.
+This example shows how to get frequencies for all mode shapes in amplitude plots.
 
 ```vb
   //----------------------------------------------------------------------------

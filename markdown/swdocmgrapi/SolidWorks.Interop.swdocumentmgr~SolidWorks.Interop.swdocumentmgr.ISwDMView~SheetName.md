@@ -51,16 +51,11 @@ Name of sheet
 
 ## VBA Syntax
 
-See
-
-[SwDMView::SheetName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView~SheetName.html)
-
-.
+See [SwDMView::SheetName](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView~SheetName.html).
 
 ## See Also
 
 [ISwDMView Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html)
-
 [ISwDMView Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView_members.html)
 
 ## Availability

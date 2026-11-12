@@ -45,13 +45,7 @@ property System.int FontSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ Font size of the callout
 
 ## VBA Syntax
 
-See
-
-[Callout::FontSize](ms-its:sldworksapivb6.chm::/sldworks~Callout~FontSize.html)
-
-.
+See [Callout::FontSize](ms-its:sldworksapivb6.chm::/sldworks~Callout~FontSize.html).
 
 ## Examples
 
 [Create a Callout Independent of a Selection (VBA)](Create_a_Callout_Independent_of_a_Selection_Example_VB.htm)
-
 [Create a Callout Independent of a Selection (VB.NET)](Create_a_Callout_Independent_of_a_Selection_Example_VBNET.htm)
-
 [Create a Callout Independent of a Selection (C#)](Create_a_Callout_Independent_of_a_Selection_Example_CSharp.htm)
 
 ## See Also
 
 [ICallout Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout.html)
-
 [ICallout Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout_members.html)
 
 ## Availability

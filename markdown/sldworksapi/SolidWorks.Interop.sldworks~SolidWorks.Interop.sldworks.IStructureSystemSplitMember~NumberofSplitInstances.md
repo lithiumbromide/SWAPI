@@ -45,13 +45,7 @@ property System.int NumberofSplitInstances {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ Number of instances
 
 ## VBA Syntax
 
-See
-
-[StructureSystemSplitMember::NumberofSplitInstances](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemSplitMember~NumberofSplitInstances.html)
-
-.
+See [StructureSystemSplitMember::NumberofSplitInstances](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemSplitMember~NumberofSplitInstances.html).
 
 ## Remarks
 
-This property is valid only for
-
-[IStructureSystemSplitMember::DimensionType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember~DimensionType.html)
-
-set to
-
-[swSplitMemberDimensionType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSplitMemberDimensionType_e.html)
-
-.swSplitMemberDimensionType_Instance.
+This property is valid only for [IStructureSystemSplitMember::DimensionType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember~DimensionType.html) set to [swSplitMemberDimensionType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSplitMemberDimensionType_e.html).swSplitMemberDimensionType_Instance.
 
 ## See Also
 
 [IStructureSystemSplitMember Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember.html)
-
 [IStructureSystemSplitMember Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember_members.html)
 
 ## Availability

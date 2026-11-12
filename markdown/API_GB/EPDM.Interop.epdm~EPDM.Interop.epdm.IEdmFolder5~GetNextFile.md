@@ -39,13 +39,7 @@ IEdmFile5^ GetNextFile(
 
 ### Parameters
 
-- `poPosition`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of file to retrieve (see
-
-Remarks
-
-)
+- `poPosition`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of file to retrieve (see **Remarks**)
 
 ### Return Value
 
@@ -54,16 +48,15 @@ Remarks
 ## Examples
 
 [Traverse Folders and Files in Vault (C#)](Traverse_Folders_and_Files_in_Vault_Example_CSharp.htm)
-
 [Traverse Folders and Files in Vault (VB.NET)](Traverse_Folders_and_Files_in_Vault_Example_VBNET.htm)
 
 ## Remarks
 
-Before calling this method the first time, you must populate poPosition with the interface to the position of the first file, IEdmPos5. Call[IEdmFolder5::GetFirstFilePosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetFirstFilePosition.html)to obtain IEdmPos5.
+Before calling this method the first time, you must populate poPosition with the interface to the position of the first file, IEdmPos5. Call [IEdmFolder5::GetFirstFilePosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetFirstFilePosition.html) to obtain IEdmPos5.
 
 After calling this method the first time, poPos is automatically incremented every time it is called. Call this method repeatedly to obtain the rest of the files.
 
-Be sure to call[IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html)before you call this method to ensure you have not reached the end of the enumeration.
+Be sure to call [IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html) before you call this method to ensure you have not reached the end of the enumeration.
 
 C++ programmers not using smart-pointer wrapper functions must release the returned interface.
 
@@ -75,7 +68,6 @@ C++ programmers not using smart-pointer wrapper functions must release the retur
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
 
 ## Availability

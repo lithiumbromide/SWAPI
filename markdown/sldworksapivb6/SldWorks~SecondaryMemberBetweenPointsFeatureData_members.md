@@ -1,6 +1,5 @@
 ---
-title: "SecondaryMemberBetweenPointsFeatureData Object
-Members"
+title: "SecondaryMemberBetweenPointsFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SecondaryMemberBetweenPointsFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SecondaryMemberBetweenPointsFeatureData_members.html"
 ---
 
-# SecondaryMemberBetweenPointsFeatureData Object
-Members
+# SecondaryMemberBetweenPointsFeatureData Object Members
 
 ## Public Methods
 

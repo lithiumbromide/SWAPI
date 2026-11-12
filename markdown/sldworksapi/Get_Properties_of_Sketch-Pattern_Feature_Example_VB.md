@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Properties_of_Sketch-Pattern_Feature_Example_VB.htm"
 
 # Get Properties of Sketch Pattern Feature Example (VBA)
 
-This example shows how to create a sketch-driven pattern feature and gets
-some of its properties.
+This example shows how to create a sketch-driven pattern feature and gets some of its properties.
 
 ```vb
  '----------------------------------------------------------------------------

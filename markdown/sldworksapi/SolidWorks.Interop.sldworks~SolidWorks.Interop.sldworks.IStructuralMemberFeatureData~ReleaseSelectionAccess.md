@@ -39,40 +39,27 @@ void ReleaseSelectionAccess()
 void ReleaseSelectionAccess();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~ReleaseSelectionAccess.html)
-
-.
+See [StructuralMemberFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberFeatureData~ReleaseSelectionAccess.html).
 
 ## Examples
 
 [Insert Structural Weldment (C#)](Insert_Structural_Weldment_Example_CSharp.htm)
-
 [Insert Structural Weldment (VB.NET)](Insert_Structural_Weldment_Example_VBNET.htm)
-
 [Insert Structural Weldment (VBA)](Insert_Structural_Weldment_Example_VB.htm)
 
 ## Remarks
 
-[IStructuralMemberFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStructuralMemberFeatureData~AccessSelections.html)puts the model in a rollback state to allow access to the selections that define the feature.
+[IStructuralMemberFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStructuralMemberFeatureData~AccessSelections.html) puts the model in a rollback state to allow access to the selections that define the feature.
 
-Use this method to restore the rollback state if you did not modify the feature, or use[IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)or[IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)if you did modify the feature.
+Use this method to restore the rollback state if you did not modify the feature, or use [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you did modify the feature.
 
 ## See Also
 
 [IStructuralMemberFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData.html)
-
 [IStructuralMemberFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberFeatureData_members.html)
 
 ## Availability

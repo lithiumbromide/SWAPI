@@ -14,11 +14,11 @@ This example shows how to connect two points using the Auto Route interface.
 ```vb
 '----------------------------------------------------------------------------
  ' Preconditions:
- ' 1. In SOLIDWORKS, click Tools > Add-Ins > SOLIDWORKS Routing.
+ ' 1. In SOLIDWORKS Design, click Tools > Add-Ins > SOLIDWORKS Routing.
  ' 2. In the IDE, click Tools > References and select
  '    SOLIDWORKS version Routing Type Library.
  ' 3. In Tools > Options > System Options > Routing > Routing File Locations,
- '    add the locations of your SOLIDWORKS routing files.
+ '    add the locations of your SOLIDWORKS Design routing files.
  ' 4. Open a routing assembly that contains Route1 and two sketch points.
  ' 5. Modify the swModel.Extension.SelectByID2 parameters to select two sketch
  '    points through which to auto route.

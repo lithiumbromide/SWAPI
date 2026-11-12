@@ -45,51 +45,32 @@ property System.bool FixedAxisOfRotation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True if patterned instances rotate around
-
-[ILocalLinearPatternFeatureData::RotationAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotationAxis.html)
-
-, false if each instance rotates about its own axis
+True if patterned instances rotate around [ILocalLinearPatternFeatureData::RotationAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotationAxis.html), false if each instance rotates about its own axis
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::FixedAxisOfRotation](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~FixedAxisOfRotation.html)
-
-.
+See [LocalLinearPatternFeatureData::FixedAxisOfRotation](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~FixedAxisOfRotation.html).
 
 ## Remarks
 
-This property is valid only if[ILocalLinearPatternFeatureData::RotateInstances](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotateInstances.html)is true.
+This property is valid only if [ILocalLinearPatternFeatureData::RotateInstances](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotateInstances.html) is true.
 
 If this property is set to:
 
-- True, then you can also specify
-
-  [ILocalLinearPatternFeatureData::AlignToSeed](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~AlignToSeed.html)
-
-  .
+- True, then you can also specify [ILocalLinearPatternFeatureData::AlignToSeed](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~AlignToSeed.html).
 - False, then the rotation axis of each instance of a component is translated along Direction 1 and then rotated following the axis of rotation for that component.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
-For more information, see the**Linear Component Pattern PropertyManager**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Linear Component Pattern PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
 
 ## Availability

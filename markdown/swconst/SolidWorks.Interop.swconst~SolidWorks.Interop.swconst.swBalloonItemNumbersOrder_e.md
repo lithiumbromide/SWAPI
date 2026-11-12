@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBalloon
 
 # swBalloonItemNumbersOrder_e Enumeration
 
-Balloon item ordering options.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Balloon item ordering options. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 

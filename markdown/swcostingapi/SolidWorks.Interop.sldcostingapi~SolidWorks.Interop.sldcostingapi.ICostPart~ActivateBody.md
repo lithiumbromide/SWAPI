@@ -53,18 +53,8 @@ CostBody^ ActivateBody(
 
 ### Parameters
 
-- `BodyName`: Name of Costing body to activate or an empty string to activate the common
-
-[Cost analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html)
-
-for this Costing part (see
-
-Remarks
-
-)
-- `Errors`: Status as defined in
-
-[swcActivateBodyResult_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcActivateBodyResult_e.html)
+- `BodyName`: Name of Costing body to activate or an empty string to activate the common [Cost analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html) for this Costing part (see **Remarks**)
+- `Errors`: Status as defined in [swcActivateBodyResult_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcActivateBodyResult_e.html)
 
 ### Return Value
 
@@ -72,11 +62,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CostPart::ActivateBody](swcostingapivb6.chm::/SldCostingAPI~CostPart~ActivateBody.html)
-
-.
+See [CostPart::ActivateBody](swcostingapivb6.chm::/SldCostingAPI~CostPart~ActivateBody.html).
 
 ## Remarks
 
@@ -84,22 +70,16 @@ To get the name of a Costing body for BodyName:
 
 1. Get the Costing bodies in the Costing part by calling:
 
-1. Get the names of the Costing bodies in the Costing part by iterating through the array of returned Costing bodies and calling
+1. Get the names of the Costing bodies in the Costing part by iterating through the array of returned Costing bodies and calling [ICostBody::GetName](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostBody~GetName.html).
 
-  [ICostBody::GetName](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostBody~GetName.html)
+Activating Costing bodies by their names allows you to use names directly from existing references to [SOLIDWORKS bodies](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html).
 
-  .
-
-Activating Costing bodies by their names allows you to use names directly from existing references to[SOLIDWORKS bodies](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html).
-
-If you passed an empty string to BodyName, then**Return Value**is null and Errors is swcActivateBodyResult_e.swcActivateBodyResult_Success.
+If you passed an empty string to BodyName, then **Return Value** is null and Errors is swcActivateBodyResult_e.swcActivateBodyResult_Success.
 
 ## See Also
 
 [ICostPart Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart.html)
-
 [ICostPart Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart_members.html)
-
 [ICostPart::ActiveBody Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~ActiveBody.html)
 
 ## Availability

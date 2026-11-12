@@ -48,28 +48,18 @@ void SetDeformedBodyFailedSewOption(
 
 ### Parameters
 
-- `NFailedSewOption`: Option to use when a deformed body fails to sew into a solid object as defined in
-
-[swsCreateDeformedBodyFailedSewOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCreateDeformedBodyFailedSewOption_e.html)
+- `NFailedSewOption`: Option to use when a deformed body fails to sew into a solid object as defined in [swsCreateDeformedBodyFailedSewOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCreateDeformedBodyFailedSewOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResults::SetDeformedBodyFailedSewOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~SetDeformedBodyFailedSewOption.html)
-
-.
+See [CWResults::SetDeformedBodyFailedSewOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~SetDeformedBodyFailedSewOption.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetDeformedBodyFailedSewOption Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDeformedBodyFailedSewOption.html)
-
 [ICWResults::CreateDeformedBody2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateDeformedBody2.html)
-
 [ICWResults::GetDeformedCoord Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDeformedCoord.html)
 
 ## Availability

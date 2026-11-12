@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMateReference Interface Members
 
-The following tables list the members exposed by[IMateReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference.html).
+The following tables list the members exposed by [IMateReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference.html).
 
 ## Public Properties
 
@@ -36,9 +36,6 @@ The following tables list the members exposed by[IMateReference](SolidWorks.Inte
 ## See Also
 
 [IMateReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertMateReference2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMateReference2.html)
-
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)

@@ -67,13 +67,7 @@ System.int IMoveDocument(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -82,34 +76,22 @@ See
 - `ChildCount`: Number of child documents for SourceDoc
 - `FromChildren`: Array of strings containing the full path and filenames of the child documents dependent on the document specified for SourceDoc
 - `ToChildren`: Array of strings containing the new full path and filenames for the child documents to which to move the documents specified for FromChildren
-- `Option`: Move options as defined by
-
-[swMoveCopyOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveCopyOptions_e.html)
+- `Option`: Move options as defined by [swMoveCopyOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveCopyOptions_e.html)
 
 ### Return Value
 
-Success or error code as defined by
-
-[swMoveCopyError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveCopyError_e.html)
+Success or error code as defined by [swMoveCopyError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveCopyError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IMoveDocument](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IMoveDocument.html)
-
-.
+See [SldWorks::IMoveDocument](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IMoveDocument.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::MoveDocument Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~MoveDocument.html)
-
 [ISldWorks::ICopyDocument Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ICopyDocument.html)
-
 [ISldWorks::CopyDocument Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CopyDocument.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Save_Solid_Body_to_File_Example_CSharp.htm"
 
 # Save Solid Body to File Example (C#)
 
-This example shows how to save a weldment member to another
-part document.
+This example shows how to save a weldment member to another part document.
 
 ```vb
 //----------------------------------------------------------------------------

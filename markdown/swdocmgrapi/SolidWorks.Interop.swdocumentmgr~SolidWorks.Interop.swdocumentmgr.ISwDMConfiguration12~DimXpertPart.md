@@ -48,22 +48,16 @@ property SwDMDimXpertPart^ DimXpertPart {
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration12::DimXpertPart](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration12~DimXpertPart.html)
-
-.
+See [SwDMConfiguration12::DimXpertPart](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration12~DimXpertPart.html).
 
 ## Examples
 
 [Get DimXpert Block Tolerance (VB.NET)](Get_DimXpert_Block_Tolerance_Example_VBNET.htm)
-
 [Get DimXpert Block Tolerance (C#)](Get_DimXpert_Block_Tolerance_Example_CSharp.htm)
 
 ## See Also
 
 [ISwDMConfiguration12 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration12.html)
-
 [ISwDMConfiguration12 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration12_members.html)
 
 ## Availability

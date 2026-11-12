@@ -51,22 +51,17 @@ property System.bool IncludeFriction2 {
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::IncludeFriction2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~IncludeFriction2.html)
-
-.
+See [CWContactComponent::IncludeFriction2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~IncludeFriction2.html).
 
 ## Remarks
 
-This property is valid only in static and nonlinear studies where[ICWContactComponent::ContactComponentType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ContactComponentType.html)is set to[swsContactType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactType_e.html).swsContactTypeStaticNoPenetration.
+This property is valid only in static and nonlinear studies where [ICWContactComponent::ContactComponentType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ContactComponentType.html) is set to [swsContactType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactType_e.html).swsContactTypeStaticNoPenetration.
 
 To set this property, you can specify either the boolean or the integer.
 
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
 
 ## Availability

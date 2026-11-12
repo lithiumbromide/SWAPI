@@ -1,6 +1,5 @@
 ---
-title: "BendTable Object
-Members"
+title: "BendTable Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BendTable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BendTable_members.html"
 ---
 
-# BendTable Object
-Members
+# BendTable Object Members
 
 ## Public Methods
 

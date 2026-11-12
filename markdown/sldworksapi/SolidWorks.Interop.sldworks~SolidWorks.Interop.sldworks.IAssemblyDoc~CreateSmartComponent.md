@@ -67,25 +67,13 @@ System.bool CreateSmartComponent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ComponentIn`: [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-to make smart
+- `ComponentIn`: [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) to make smart
 - `RelatedComponents`: Array of the components to associate with the Smart Component
-- `RelatedFeatures`: Array of the
-
-[features](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-contained in the components to associate with the Smart Component
+- `RelatedFeatures`: Array of the [features](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) contained in the components to associate with the Smart Component
 - `AutoSizeDiameter`: True to auto-size a cylindrical Smart Component that has multiple configurations, false to not
 - `LpMateReference`: Concentric mate reference between a cylindrical face or axis and a feature
 - `BoundingValues`: Array of doubles specifying minimum and maximum diameter values with which each configuration is compatible
@@ -96,16 +84,11 @@ True if the Smart Component is created, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::CreateSmartComponent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CreateSmartComponent.html)
-
-.
+See [AssemblyDoc::CreateSmartComponent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CreateSmartComponent.html).
 
 ## Examples
 
 [Make Smart Component (VBA)](Make_Smart_Component_Example_VB.htm)
-
 [Make Smart Component With Mate (VBA)](Make_Smart_Component_with__Mate_Example_VB.htm)
 
 ## Remarks
@@ -121,17 +104,11 @@ might have a BoundingValues array of [9,11,12,14,19,21], which specifies a +1 to
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::AddSmartComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddSmartComponent.html)
-
 [IComponent2::GetSmartComponentData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetSmartComponentData.html)
-
 [IComponent2::IsSmartComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsSmartComponent.html)
-
 [IComponent2::SetSmartComponentData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~SetSmartComponentData.html)
-
 [ISmartComponentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISmartComponentFeatureData.html)
 
 ## Availability

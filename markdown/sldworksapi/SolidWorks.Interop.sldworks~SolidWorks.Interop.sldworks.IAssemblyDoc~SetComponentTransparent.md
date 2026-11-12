@@ -47,13 +47,7 @@ System.bool SetComponentTransparent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if components are transparent, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::SetComponentTransparent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SetComponentTransparent.html)
-
-.
+See [AssemblyDoc::SetComponentTransparent](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SetComponentTransparent.html).
 
 ## Examples
 
@@ -79,14 +69,13 @@ See
 
 If you set the transparent state to True, then the components are automatically assigned a transparency value of 75%.
 
-If you want transparency (and other optical properties) set to specific values, then use the[IComponent2::GetMaterialPropertyValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetMaterialPropertyValues2.html)and[ISetMaterialPropertyValues2 Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~ISetMaterialPropertyValues2.html)[SetMaterialPropertyValues2 Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~SetMaterialPropertyValues2.html)[IComponent2::SetMaterialPropertyValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetMaterialPropertyValues2.html).
+If you want transparency (and other optical properties) set to specific values, then use the [IComponent2::GetMaterialPropertyValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetMaterialPropertyValues2.html) and [ISetMaterialPropertyValues2 Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~ISetMaterialPropertyValues2.html)[SetMaterialPropertyValues2 Method](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~SetMaterialPropertyValues2.html)[IComponent2::SetMaterialPropertyValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetMaterialPropertyValues2.html).
 
-To set other component transparencies, set these user preferences:[swEdgesInContextEditTransparencyType and swEdgesInContextEditTransparency](ms-its:swconst.chm::/SO_Display.htm). You should set these preferences before editing the part to see their effect while editing the part.
+To set other component transparencies, set these user preferences: [swEdgesInContextEditTransparencyType and swEdgesInContextEditTransparency](ms-its:swconst.chm::/SO_Display.htm). You should set these preferences before editing the part to see their effect while editing the part.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

@@ -42,40 +42,23 @@ property System.int CornerType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Corner relief bend type as defined by
-
-[swCornerReliefBendType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerReliefBendType_e.html)
+Corner relief bend type as defined by [swCornerReliefBendType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerReliefBendType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CornerReliefFeatureData::CornerType](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData~CornerType.html)
-
-.
+See [CornerReliefFeatureData::CornerType](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData~CornerType.html).
 
 ## Remarks
 
-This property cannot be changed after it is set by
-
-[ICornerReliefFeatureData::Intialize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData~Initialize.html)
-
-.
+This property cannot be changed after it is set by [ICornerReliefFeatureData::Intialize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData~Initialize.html).
 
 ## See Also
 
 [ICornerReliefFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
 [ICornerReliefFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData_members.html)
 
 ## Availability

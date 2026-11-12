@@ -51,38 +51,22 @@ Magnitude of velocity at impact
 
 ## VBA Syntax
 
-See
-
-[CWDropTestSetup::Velocity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~Velocity.html)
-
-.
+See [CWDropTestSetup::Velocity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~Velocity.html).
 
 ## Examples
 
-See the examples in
-
-[ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html)
-
-.
+See the examples in [ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html)
-
-= swsDropType_e.swsDropType_VelocityAtImpact.
+This method is valid only if [ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html) = swsDropType_e.swsDropType_VelocityAtImpact.
 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
-
 [ICWDropTestSetup::SetEntityForVelocityDirection Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~SetEntityForVelocityDirection.html)
-
 [ICWDropTestSetup::FlipVelocityDirection Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~FlipVelocityDirection.html)
-
 [ICWDropTestSetup::VelocityUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~VelocityUnit.html)
 
 ## Availability

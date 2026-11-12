@@ -9,17 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # Selective Property (IDocumentSpecification)
 
-Gets or sets whether to open a document in
-
-Quick view
-
-(parts and drawings) or
-
-Quick view / Selective
-
-(assemblies)
-
-mode.
+Gets or sets whether to open a document in Quick view (parts and drawings) or Quick view / Selective (assemblies) mode.
 
 ## Syntax
 
@@ -55,70 +45,38 @@ property System.bool Selective {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to open the document
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-in
-
-Quick view / Selective open
-
-mode, false to not
+True to open the document in Quick view / Selective open mode, false to not
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::Selective](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~Selective.html)
-
-.
+See [DocumentSpecification::Selective](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~Selective.html).
 
 ## Examples
 
 [Get Whether Components Are Loaded (C#)](Get_Whether_Components_Are_Loaded_Example_CSharp.htm)
-
 [Get Whether Components Are Loaded (VB.NET)](Get_Whether_Components_Are_Loaded_Example_VBNET.htm)
-
 [Get Whether Components Are Loaded (VBA)](Get_Whether_Components_Are_Loaded_Example_VB.htm)
-
 [Open Assembly Document (C#)](Open_Assembly_Document_Example_CSharp.htm)
-
 [Open Assembly Document (VB.NET)](Open_Assembly_Document_Example_VBNET.htm)
-
 [Open Assembly Document (VBA)](Open_Assembly_Document_Example_VB.htm)
 
 ## Remarks
 
-Use[IDocumentSpecification::ComponentList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~ComponentList.html)to specify the selected components to load when opening the assembly document.
+Use [IDocumentSpecification::ComponentList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~ComponentList.html) to specify the selected components to load when opening the assembly document.
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
-
 [IAssemblyDoc::GetUnloadedComponentNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetUnloadedComponentNames.html)
-
 [IAssemblyDoc::HasUnloadedComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~HasUnloadedComponents.html)
-
 [IComponent2::GetHiddenUnloadedChildrenCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetHiddenUnloadedChildrenCount.html)
-
 [IComponent2::GetUnloadedComponentNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetUnloadedComponentNames.html)
-
 [IComponent2::HasUnloadedComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~HasUnloadedComponents.html)
-
 [IDocumentSpecification::InteractiveComponentSelection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification~InteractiveComponentSelection.html)
 
 ## Availability

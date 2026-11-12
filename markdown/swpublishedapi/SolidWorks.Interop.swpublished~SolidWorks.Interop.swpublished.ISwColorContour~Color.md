@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # Color Method (ISwColorContour)
 
-Obsolete. Superseded by
-
-[ISwColorContour1::Color](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~Color.html)
-
-.
+Obsolete. Superseded by [ISwColorContour1::Color](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~Color.html).
 
 ## Syntax
 
@@ -61,16 +57,11 @@ COLORREF value that represents value
 
 ## VBA Syntax
 
-See
-
-[SwColorContour::Color](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour~Color.html)
-
-.
+See [SwColorContour::Color](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour~Color.html).
 
 ## See Also
 
 [ISwColorContour Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour.html)
-
 [ISwColorContour Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour_members.html)
 
 ## Availability

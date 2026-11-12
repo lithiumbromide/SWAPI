@@ -40,13 +40,7 @@ System.object GetBasicColors()
 System.Object^ GetBasicColors();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Array containing the basic colors
 
 ## VBA Syntax
 
-See
-
-[ColorTable::GetBasicColors](ms-its:sldworksapivb6.chm::/sldworks~ColorTable~GetBasicColors.html)
-
-.
+See [ColorTable::GetBasicColors](ms-its:sldworksapivb6.chm::/sldworks~ColorTable~GetBasicColors.html).
 
 ## See Also
 
 [IColorTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable.html)
-
 [IColorTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable_members.html)
-
 [IColorTable::GetBasicColorCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~GetBasicColorCount.html)
-
 [IColorTable::IGetBasicColors Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~IGetBasicColors.html)
-
 [IColorTable::GetCustomColors Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~GetCustomColors.html)
 
 ## Availability

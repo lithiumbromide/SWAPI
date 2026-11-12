@@ -40,13 +40,7 @@ System.bool GetSupportsGenericText()
 System.bool GetSupportsGenericText();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ True if the display dimension was created in SOLIDWORKS 2011 or later and is gen
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetSupportsGenericText](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetSupportsGenericText.html)
-
-.
+See [DisplayDimension::GetSupportsGenericText](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetSupportsGenericText.html).
 
 ## Examples
 
 [Get SOLIDWORKS Version of Display Dimension (C#)](Get_SOLIDWORKS_Version_of_Display_Dimension_Example_CSharp.htm)
-
 [Get SOLIDWORKS Version of Display Dimension (VB.NET)](Get_SOLIDWORKS_Version_of_Display_Dimension_Example_VBNET.htm)
-
 [Get SOLIDWORKS Version of Display Dimension (VBA)](Get_SOLIDWORKS_Version_of_Display_Dimension_Example_VB.htm)
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
 
 ## Availability

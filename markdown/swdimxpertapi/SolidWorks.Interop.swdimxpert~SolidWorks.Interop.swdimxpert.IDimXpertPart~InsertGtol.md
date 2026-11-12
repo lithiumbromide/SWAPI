@@ -49,9 +49,7 @@ DimXpertAnnotation^ InsertGtol(
 
 ### Parameters
 
-- `Type`: Type of Gtol to insert as defined in
-
-[swDimXpertGtolType_e](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.swDimXpertGtolType_e.html)
+- `Type`: Type of Gtol to insert as defined in [swDimXpertGtolType_e](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.swDimXpertGtolType_e.html)
 
 ### Return Value
 
@@ -59,22 +57,17 @@ DimXpertAnnotation^ InsertGtol(
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::InsertGtol](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~InsertGtol.html)
-
-.
+See [DimXpertPart::InsertGtol](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~InsertGtol.html).
 
 ## Remarks
 
 Before calling this method, select the leader attachment points.
 
-This method creates an empty Gtol symbol with a default value of 0.02 for Tolerance 1. To fill in the text and symbols, get the underlying SOLIDWORKS Gtol object and use[IGtol::SetFrameSymbols2](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetFrameSymbols2.html)and[IGtol::SetFrameValues2](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetFrameValues2.html)to change frame symbols and values.
+This method creates an empty Gtol symbol with a default value of 0.02 for Tolerance 1. To fill in the text and symbols, get the underlying SOLIDWORKS Gtol object and use [IGtol::SetFrameSymbols2](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetFrameSymbols2.html) and [IGtol::SetFrameValues2](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetFrameValues2.html) to change frame symbols and values.
 
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
 
 ## Availability

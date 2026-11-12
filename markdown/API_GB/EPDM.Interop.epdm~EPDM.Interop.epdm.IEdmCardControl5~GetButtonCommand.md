@@ -47,26 +47,17 @@ Command string
 
 ## Remarks
 
-If the button is linked to a program that is not found, this method launches a dialog box in which the user can browse to the missing EXE file. If the user clicks**Cancel**in the dialog box, HRESULT = E_EDM_CANCELLED_BY_USER is returned by this method.
+If the button is linked to a program that is not found, this method launches a dialog box in which the user can browse to the missing EXE file. If the user clicks **Cancel** in the dialog box, HRESULT = E_EDM_CANCELLED_BY_USER is returned by this method.
 
 [Return codes](ReturnCodes.htm):
 
 - S_OK: The method successfully executed.
-- E_EDM_INVALID_ID: The supplied control is not a push-button. Call
-
-  [IEdmCardControl5::ControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5~ControlType.html)
-
-  first to verify whether the control is a push-button.
-- E_EDM_CANCELLED_BY_USER: The user clicked
-
-  Cancel
-
-  in the dialog box.
+- E_EDM_INVALID_ID: The supplied control is not a push-button. Call [IEdmCardControl5::ControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5~ControlType.html) first to verify whether the control is a push-button.
+- E_EDM_CANCELLED_BY_USER: The user clicked **Cancel** in the dialog box.
 
 ## See Also
 
 [IEdmCardControl5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5.html)
-
 [IEdmCardControl5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5_members.html)
 
 ## Availability

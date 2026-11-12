@@ -50,7 +50,5 @@ public enum class EdmTaskStatus : public System.Enum
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmTaskInstance::GetStatus Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~GetStatus.html)
-
 [IEdmTaskInstance::SetStatus Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~SetStatus.html)

@@ -48,18 +48,12 @@ Number of links
 
 ## VBA Syntax
 
-See
-
-[PDMWLinks::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLinks~Count.html)
-
-.
+See [PDMWLinks::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLinks~Count.html).
 
 ## See Also
 
 [IPDMWLinks Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)
-
 [IPDMWLinks Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks_members.html)
-
 [IPDMWLinks::Item Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks~Item.html)
 
 ## Availability

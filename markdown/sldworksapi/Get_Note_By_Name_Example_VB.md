@@ -9,10 +9,7 @@ source: "sldworksapi/Get_Note_By_Name_Example_VB.htm"
 
 # Get Note By Name Example (VBA)
 
-This example shows how to get a note by its
-name using two separate methods: note traversal and note selection. The
-note selection method is faster because it avoids traversing all of the notes
-on the template.
+This example shows how to get a note by its name using two separate methods: note traversal and note selection. The note selection method is faster because it avoids traversing all of the notes on the template.
 
 ```
 '----------------------------------------------------------

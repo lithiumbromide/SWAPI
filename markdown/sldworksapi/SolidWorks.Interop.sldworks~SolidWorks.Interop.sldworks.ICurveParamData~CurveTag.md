@@ -42,13 +42,7 @@ property System.int CurveTag {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,17 @@ ID of the curve
 
 ## VBA Syntax
 
-See
-
-[CurveParamData::CurveTag](ms-its:sldworksapivb6.chm::/sldworks~CurveParamData~CurveTag.html)
-
-.
+See [CurveParamData::CurveTag](ms-its:sldworksapivb6.chm::/sldworks~CurveParamData~CurveTag.html).
 
 ## Examples
 
 [Get Edge Curve Parameterization (C#)](Get_Edge_Curve_Parameterization_Example_CSharp.htm)
-
 [Get Edge Curve Parameterization (VB.NET)](Get_Edge_Curve_Parameterization_Example_VBNET.htm)
-
 [Get Edge Curve Parameterization (VBA)](Get_Edge_Curve_Parameterization_Example_VB.htm)
 
 ## See Also
 
 [ICurveParamData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveParamData.html)
-
 [ICurveParamData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveParamData_members.html)
 
 ## Availability

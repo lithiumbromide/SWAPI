@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelDoc Interface Properties
 
-For a list of all members of this type, see[IModelDoc members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html).
+For a list of all members of this type, see [IModelDoc members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html).
 
 ## Public Properties
 
@@ -42,5 +42,4 @@ For a list of all members of this type, see[IModelDoc members](SolidWorks.Intero
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

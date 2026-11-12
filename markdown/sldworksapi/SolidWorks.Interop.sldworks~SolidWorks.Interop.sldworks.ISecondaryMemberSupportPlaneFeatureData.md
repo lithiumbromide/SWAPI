@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 Allows access to a secondary structure system member that is created on a plane between primary structure system member pairs.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,37 +41,21 @@ public interface class ISecondaryMemberSupportPlaneFeatureData
 
 ## VBA Syntax
 
-See
-
-[SecondaryMemberSupportPlaneFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberSupportPlaneFeatureData.html)
-
-.
+See [SecondaryMemberSupportPlaneFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberSupportPlaneFeatureData.html).
 
 ## Examples
 
-See the
-
-[ISecondaryMemberBetweenPointsFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData.html)
-
-examples.
+See the [ISecondaryMemberBetweenPointsFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData.html) examples.
 
 ## Remarks
 
-See the[IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)Remarks.
+See the [IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html) Remarks.
 
-For more information, see the**SOLIDWORKS user-interface help > Weldments and Structure System > Structure System > Secondary Member PropertyManager**topic.
+For more information, see the **SOLIDWORKS Design user-interface help > Weldments and Structure System > Structure System > Secondary Member PropertyManager** topic.
 
 ## Accessors
 
-Cast
-
-[ISecondaryStructuralMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryStructuralMemberFeatureData.html)
-
-or
-
-[IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)
-
-to this interface.
+Cast [ISecondaryStructuralMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryStructuralMemberFeatureData.html) or [IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html) to this interface.
 
 ## Access Diagram
 
@@ -80,5 +64,4 @@ to this interface.
 ## See Also
 
 [ISecondaryMemberSupportPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberSupportPlaneFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewUpdateType.html"
 
 # EdmCardViewUpdateType Enumeration
 
-Card control update types; used in calls to
-
-[IEdmCardView63::Update](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView63~Update.html)
-
-.
+Card control update types; used in calls to [IEdmCardView63::Update](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView63~Update.html).
 
 ## Syntax
 

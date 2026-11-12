@@ -9,7 +9,7 @@ source: "swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.sw
 
 # ISwHtmlInterface Interface Methods
 
-For a list of all members of this type, see[ISwHtmlInterface members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html).
+For a list of all members of this type, see [ISwHtmlInterface members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html).
 
 ## Public Methods
 
@@ -32,13 +32,8 @@ For a list of all members of this type, see[ISwHtmlInterface members](SolidWorks
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [SolidWorks.Interop.swhtmlcontrol Namespace](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol_namespace.html)
-
 [ISldWorks::InstallQuickTipGuide](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~InstallQuickTipGuide.html)
-
 [ISldWorks::RefreshQuickTipWindow](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RefreshQuickTipWindow.html)
-
 [ISldWorks::UnInstallQuickTipGuide](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~UnInstallQuickTipGuide.html)
-
 [ISwQuickTip](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwQuickTip.html)

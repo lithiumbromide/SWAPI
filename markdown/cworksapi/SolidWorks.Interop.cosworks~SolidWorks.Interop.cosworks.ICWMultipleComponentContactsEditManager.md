@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMu
 
 Allows simultaneous editing of multiple component contacts.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,35 +41,17 @@ public interface class ICWMultipleComponentContactsEditManager
 
 ## VBA Syntax
 
-See
-
-[CWMultipleComponentContactsEditManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager.html)
-
-.
+See [CWMultipleComponentContactsEditManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager.html).
 
 ## Examples
 
 [Simultaneously Edit Multiple Component Contacts (VBA)](Simultaneously_Edit_Multiple_Contact_Components_Example_VB.htm)
-
 [Simultaneously Edit Multiple Component Contacts (VB.NET)](Simultaneously_Edit_Multiple_Contact_Components_Example_VBNET.htm)
-
 [Simultaneously Edit Multiple Component Contacts (C#)](Simultaneously_Edit_Multiple_Contact_Components_Example_CSharp.htm)
 
 ## Remarks
 
-This interface maps to the Multiple Component Contacts PropertyManager page that appears when you click
-
-Connections > Component Contacts >
-
-right-click
-
-multi_selected_component_contacts
-
-and click
-
-Edit Definition
-
-in the Simulation Study tree.
+This interface maps to the Multiple Component Contacts PropertyManager page that appears when you click **Connections > Component Contacts >** right-click `multi_selected_component_contacts` and click **Edit Definition** in the Simulation Study tree.
 
 ## Accessors
 
@@ -84,11 +60,7 @@ in the Simulation Study tree.
 ## See Also
 
 [ICWMultipleComponentContactsEditManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWMultipleContactSetsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager.html)
-
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)

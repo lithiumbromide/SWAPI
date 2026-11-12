@@ -40,13 +40,7 @@ System.int GetSkippedItemCount()
 System.int GetSkippedItemCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Number of skipped items
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::GetSkippedItemCount](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~GetSkippedItemCount.html)
-
-.
+See [LocalLinearPatternFeatureData::GetSkippedItemCount](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~GetSkippedItemCount.html).
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
-
 [ILocalLinearPatternFeatureData::IGetSkippedItemArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~IGetSkippedItemArray.html)
-
 [ILocalLinearPatternFeatureData::ISetSkippedItemArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~ISetSkippedItemArray.html)
-
 [ILocalLinearPatternFeatureData::SkippedItemArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~SkippedItemArray.html)
 
 ## Availability

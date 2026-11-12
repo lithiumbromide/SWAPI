@@ -45,13 +45,7 @@ property System.bool AutoSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,16 @@ True to automatically size the reference plane, false to not
 
 ## VBA Syntax
 
-See
-
-[RefPlaneFeatureData::AutoSize](ms-its:sldworksapivb6.chm::/sldworks~RefPlaneFeatureData~AutoSize.html)
-
-.
+See [RefPlaneFeatureData::AutoSize](ms-its:sldworksapivb6.chm::/sldworks~RefPlaneFeatureData~AutoSize.html).
 
 ## Remarks
 
-IMPORTANT:
-
-Reference planes created in SOLIDWORKS 2010 or later are constraint based; reference planes created in SOLIDWORKS 2009 or earlier are not. See the
-
-Remarks
-
-section in the
-
-[IRefPlaneFeatureData interface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlaneFeatureData.html)
-
-topic for details about reference planes and this interface.
+**IMPORTANT:** Reference planes created in SOLIDWORKS 2010 or later are constraint based; reference planes created in SOLIDWORKS 2009 or earlier are not. See the **Remarks** section in the [IRefPlaneFeatureData interface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlaneFeatureData.html) topic for details about reference planes and this interface.
 
 ## See Also
 
 [IRefPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData.html)
-
 [IRefPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData_members.html)
-
 [IRefPlaneFeatureData::UseNormalPlane Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData~UseNormalPlane.html)
 
 ## Availability

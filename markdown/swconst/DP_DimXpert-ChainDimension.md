@@ -9,64 +9,15 @@ source: "swconst/DP_DimXpert-ChainDimension.htm"
 
 # Document Properties > DimXpert > Chain Dimension
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Dimension method - Hole dimension - Chain or
-Baseline | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertChainHoleDimensionChain,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertChainHoleDimensionChain ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use a chain or
-baseline type of dimension for holes |
-| Dimension method - Pocket dimension - Chain or
-Baseline | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertChainPocketDimensionChain,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertChainPocketDimensionChain ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use a chain or
-baseline type of dimension for pockets |
-| Hole/slot/notch pattern tolerance - Pattern
-location - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChainPatternLocTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChainPatternLocTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Specifies tolerance type for the
-pattern location |
-| Hole/slot/notch pattern tolerance - Pattern
-location - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChainPatternLocTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChainPatternLocTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance for the pattern location |
-| Hole/slot/notch pattern tolerance - Pattern
-location - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChainPatternLocTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChainPatternLocTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral
-tolerance
-for the pattern location |
-| Hole/slot/notch pattern tolerance - Pattern
-location - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChainPatternLocBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChainPatternLocBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision
-tolerance for the pattern location |
-| Hole/slot/notch pattern tolerance - Distance
-between features -Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChainInnerTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChainInnerTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Specifies tolerance type for the
-distance between features |
-| Hole/slot notch pattern tolerance - Distance
-between features - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChainInnerTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChainInnerTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance for the distance between features |
-| Hole/slot notch pattern tolerance - Distance
-between features - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChainInnerTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChainInnerTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral
-tolerance for the distance between features |
-| Hole/slot notch pattern tolerance - Distance
-between features - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChainDistanceBwtnFeatBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChainDistanceBwtnFeatBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision
-tolerance for the distance between features |
+| Dimension method - Hole dimension - Chain or Baseline | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertChainHoleDimensionChain, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertChainHoleDimensionChain , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use a chain or baseline type of dimension for holes |
+| Dimension method - Pocket dimension - Chain or Baseline | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertChainPocketDimensionChain, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertChainPocketDimensionChain , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use a chain or baseline type of dimension for pockets |
+| Hole/slot/notch pattern tolerance - Pattern location - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChainPatternLocTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChainPatternLocTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Specifies tolerance type for the pattern location |
+| Hole/slot/notch pattern tolerance - Pattern location - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChainPatternLocTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChainPatternLocTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance for the pattern location |
+| Hole/slot/notch pattern tolerance - Pattern location - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChainPatternLocTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChainPatternLocTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance for the pattern location |
+| Hole/slot/notch pattern tolerance - Pattern location - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChainPatternLocBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChainPatternLocBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance for the pattern location |
+| Hole/slot/notch pattern tolerance - Distance between features -Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChainInnerTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChainInnerTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Specifies tolerance type for the distance between features |
+| Hole/slot notch pattern tolerance - Distance between features - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChainInnerTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChainInnerTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance for the distance between features |
+| Hole/slot notch pattern tolerance - Distance between features - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChainInnerTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChainInnerTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance for the distance between features |
+| Hole/slot notch pattern tolerance - Distance between features - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChainDistanceBwtnFeatBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChainDistanceBwtnFeatBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance for the distance between features |

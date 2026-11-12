@@ -71,54 +71,31 @@ TableAnnotation^ InsertTableAnnotation2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseAnchorPoint`: True to anchor the table to the general table anchor point and ignore any coordinates specified for X and Y, or false to use the coordinates specified for X and Y
-- `X`: X coordinate to insert this table annotationParamDesc
+- `X`: X coordinate to insert this table annotation
 - `Y`: Y coordinate to insert this table annotation
-- `AnchorType`: Type of anchor as defined in[swBOMConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html)(see**Remarks**)
-- `TableTemplate`: Path and filename of the general table template to use
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-(see
-
-Remarks
-
-)
-- `Rows`: Number of rows in the table annotationParamDesc
-- `Columns`: Number of columns in the table annotationParamDesc
+- `AnchorType`: Type of anchor as defined in [swBOMConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html) (see **Remarks**)
+- `TableTemplate`: Path and filename of the general table template to use (see Remarks)
+- `Rows`: Number of rows in the table annotation
+- `Columns`: Number of columns in the table annotation
 
 ### Return Value
 
-Pointer to the[ITableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html)objectParamDesc
+Pointer to the [ITableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html) object
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertTableAnnotation2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertTableAnnotation2.html)
-
-.
+See [DrawingDoc::InsertTableAnnotation2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertTableAnnotation2.html).
 
 ## Examples
 
 [Insert General Table (VBA)](Insert_General_Table_Example_VB.htm)
-
 [Get General Table Feature (C#)](Get_General_Table_Feature_Example_CSharp.htm)
-
 [Get General Table Feature (VB.NET)](Get_General_Table_Feature_Example_VBNET.htm)
-
 [Get General Table Feature (VBA)](Get_General_Table_Feature_Example_VB.htm)
 
 ## Remarks
@@ -131,9 +108,7 @@ See
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IModelDocExtension::InsertGeneralTableAnnotation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertGeneralTableAnnotation.html)
 
 ## Availability

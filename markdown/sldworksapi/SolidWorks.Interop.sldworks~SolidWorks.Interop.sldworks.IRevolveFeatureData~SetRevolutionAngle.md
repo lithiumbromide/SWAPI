@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # SetRevolutionAngle Method (IRevolveFeatureData)
 
-Obsolete. Superseded by
-
-[IRevolveFeatureData2::SetRevolutionAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~SetRevolutionAngle.html)
-
-.
+Obsolete. Superseded by [IRevolveFeatureData2::SetRevolutionAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~SetRevolutionAngle.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void SetRevolutionAngle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData::SetRevolutionAngle](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~SetRevolutionAngle.html)
-
-.
+See [RevolveFeatureData::SetRevolutionAngle](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~SetRevolutionAngle.html).
 
 ## See Also
 
 [IRevolveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData.html)
-
 [IRevolveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData_members.html)

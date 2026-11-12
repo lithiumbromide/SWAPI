@@ -49,31 +49,19 @@ System.int SetComparator(
 
 ### Parameters
 
-- `NComparator`: [swsTopologyStudyConstraintComparator_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyConstraintComparator_e.html)
-
-.swsTopologyConstraintComparator_IsLessThan
+- `NComparator`: [swsTopologyStudyConstraintComparator_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyConstraintComparator_e.html).swsTopologyConstraintComparator_IsLessThan
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_StressConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_StressConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_StressConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_StressConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStressConstraint::SetComparator](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~SetComparator.html)
-
-.
+See [CWTopologyStressConstraint::SetComparator](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~SetComparator.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
-example.
+See the [ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html) example.
 
 ## Remarks
 
@@ -86,7 +74,6 @@ stress_component comparator value
 ## See Also
 
 [ICWTopologyStressConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
 [ICWTopologyStressConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint_members.html)
 
 ## Availability

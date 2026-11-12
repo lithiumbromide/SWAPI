@@ -56,42 +56,26 @@ void GetValues(
 
 ### Parameters
 
-- `DVal1`: Value along direction 1 (if direction reference is a face or plane) or along a radial direction (if direction reference is a cylindrical face or axis); valid only if BDir1 = 1 in
-
-[ICWDynamicInitialCondition::GetDirections](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicInitialCondition~GetDirections.html)
+- `DVal1`: Value along direction 1 (if direction reference is a face or plane) or along a radial direction (if direction reference is a cylindrical face or axis); valid only if BDir1 = 1 in [ICWDynamicInitialCondition::GetDirections](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicInitialCondition~GetDirections.html)
 - `DVal2`: Value along direction 2 (if direction reference is a face or plane) or along a circumferential direction (if direction reference is a cylindrical face or axis); valid only if BDir2 = 1 in ICWDynamicInitialCondition::GetDirections
 - `DVal3`: Value along the normal to the plane (if direction reference is a face or plane), or along an axial direction (if direction reference is a cylindrical face or axis), or along an edge (if direction reference is an edge); valid only if BDir3 = 1 in ICWDynamicInitialCondition::GetDirections
 
 ## VBA Syntax
 
-See
-
-[CWDynamicInitialCondition::GetValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~GetValues.html)
-
-.
+See [CWDynamicInitialCondition::GetValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~GetValues.html).
 
 ## Examples
 
-See the
-
-[ICWDynamicInitialCondition](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
-examples.
+See the [ICWDynamicInitialCondition](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html) examples.
 
 ## Remarks
 
-Call
-
-[ICWDynamicInitialCondition::SetDirectionEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetDirectionEntity.html)
-
-to set the direction reference for this initial condition.
+Call [ICWDynamicInitialCondition::SetDirectionEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetDirectionEntity.html) to set the direction reference for this initial condition.
 
 ## See Also
 
 [ICWDynamicInitialCondition Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
 [ICWDynamicInitialCondition Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition_members.html)
-
 [ICWDynamicInitialCondition::SetValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetValues.html)
 
 ## Availability

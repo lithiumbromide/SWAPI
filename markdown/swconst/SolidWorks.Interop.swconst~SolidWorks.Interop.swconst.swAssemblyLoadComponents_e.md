@@ -9,9 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssembl
 
 # swAssemblyLoadComponents_e Enumeration
 
-Tools > System Options > Performance > Assembly loading
-
-.
+**Tools > System Options > Performance > Assembly loading**.
 
 ## Syntax
 

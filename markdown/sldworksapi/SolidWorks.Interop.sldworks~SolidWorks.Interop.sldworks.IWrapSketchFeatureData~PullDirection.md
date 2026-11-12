@@ -45,21 +45,11 @@ property System.Object^ PullDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer one of the following entities as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-
-:
+Pointer one of the following entities as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html):
 
 - swSelDATUMAXES
 - swSelDATUMPLANES
@@ -71,20 +61,15 @@ Pointer one of the following entities as defined in
 
 ## VBA Syntax
 
-See
-
-[WrapSketchFeatureData::PullDirection](ms-its:sldworksapivb6.chm::/sldworks~WrapSketchFeatureData~PullDirection.html)
-
-.
+See [WrapSketchFeatureData::PullDirection](ms-its:sldworksapivb6.chm::/sldworks~WrapSketchFeatureData~PullDirection.html).
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IWrapSketchFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData.html)
-
 [IWrapSketchFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData_members.html)
 
 ## Availability

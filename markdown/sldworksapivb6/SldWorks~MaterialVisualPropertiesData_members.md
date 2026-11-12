@@ -1,6 +1,5 @@
 ---
-title: "MaterialVisualPropertiesData Object
-Members"
+title: "MaterialVisualPropertiesData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MaterialVisualPropertiesData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MaterialVisualPropertiesData_members.html"
 ---
 
-# MaterialVisualPropertiesData Object
-Members
+# MaterialVisualPropertiesData Object Members
 
 ## Public Properties
 

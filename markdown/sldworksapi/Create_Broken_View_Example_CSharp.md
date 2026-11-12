@@ -104,43 +104,22 @@ Selected: " + swBreakLine.Select(true, null));
 
 System.Diagnostics.
 
-Debugger
-
-.Break
-
-();
-
+Debugger.Break();
 // Positions of the break lines are modified, and view is broken
-
 // Press F5
 
-status = swModelDocExt. SelectByID2 (
+status = swModelDocExt.**SelectByID2**(
 
-"Drawing
-View1"
-
-,
-
-"DRAWINGVIEW"
-
-,
-0, 0, 0,
-
-false
-
-, 0,
-
-null
-
-,
-0);
-
-swDrawingDoc.
-
-UnBreakView
-
-();
+"Drawing View1", "DRAWINGVIEW", 0, 0, 0, false, 0, null, 0);
+swDrawingDoc.**UnBreakView**();
 
 // Break is removed
 
-} /// <summary> /// The SldWorks swApp variable is pre-assigned for you. /// </summary> public SldWorks swApp; } }
+}
+
+/// <summary>
+/// The SldWorks swApp variable is pre-assigned for you.
+/// </summary>
+public SldWorks swApp;
+}
+}

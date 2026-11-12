@@ -47,19 +47,11 @@ System.bool ICreateBaseFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BodyIn`: [Body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-on which to create base feature
+- `BodyIn`: [Body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) on which to create base feature
 
 ### Return Value
 
@@ -67,18 +59,12 @@ True if the base feature was created, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::ICreateBaseFeature](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateBaseFeature.html)
-
-.
+See [Body2::ICreateBaseFeature](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateBaseFeature.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::CreateBaseFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreateBaseFeature.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.Object^ PickPoints {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Array of x, y, z-coordinates, one set for each mate entity
 
 ## VBA Syntax
 
-See
-
-[PerpendicularMateFeatureData::PickPoints](ms-its:sldworksapivb6.chm::/sldworks~PerpendicularMateFeatureData~PickPoints.html)
-
-.
+See [PerpendicularMateFeatureData::PickPoints](ms-its:sldworksapivb6.chm::/sldworks~PerpendicularMateFeatureData~PickPoints.html).
 
 ## Remarks
 
-After you set the pick points for a given selection of
-
-[IPerpendicularMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData~EntitiesToMate.html)
-
-, you cannot modify the pick points. If you want to use new pick points, then you must create an entirely new perpendicular mate.
+After you set the pick points for a given selection of [IPerpendicularMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData~EntitiesToMate.html), you cannot modify the pick points. If you want to use new pick points, then you must create an entirely new perpendicular mate.
 
 ## See Also
 
 [IPerpendicularMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData.html)
-
 [IPerpendicularMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData_members.html)
 
 ## Availability

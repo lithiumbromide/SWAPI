@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Allows access to information about a block definition.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,24 +41,15 @@ public interface class ISketchBlockDefinition
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition.html)
-
-.
+See [SketchBlockDefinition](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition.html).
 
 ## Examples
 
 [Get and Set Blocks Data in Any Document (VBA)](Get_and_Set_Blocks_Data_in_Any_Document_Example_VB.htm)
-
 [Get Block Instance in Part or Assembly (VBA)](Get_Block_Instance_in_Part_or_Assembly_Example_VB.htm)
-
 [Get Blocks in Drawing (VBA)](Get_Blocks_in_Drawing_Example_VB.htm)
-
 [Create Block Definition and Insert Block Instance (C#)](Create_Block_Definition_and_Insert_Block_Instance_Example_CSharp.htm)
-
 [Create Block Definition and Insert Block Instance (VBA)](Create_Block_Definition_and_Insert_Block_Instance_Example_VB.htm)
-
 [Create Block Definition and Insert Block Instance (VB.NET)](Create_Block_Definition_and_Insert_Block_Instance_Example_VBNET.htm)
 
 ## Remarks
@@ -71,11 +62,11 @@ Using this interface, you can:
   - Whether the block links to a file, and get or set the name of that file
 - Get:
 
-  - All[instances of the block](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance.html)
+  - All [instances of the block](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance.html)
   - Sketch of this block definition
   - All notes and dimensions and the number of all notes and dimensions
 
-See[Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm)for details.
+See [Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm) for details.
 
 ## Accessors
 
@@ -83,7 +74,7 @@ See[Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/B
 
 [ISketchBlockInstance::Definition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~Definition.html)
 
-[ISketchManager::GetSketchBlockDefinitions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~GetSketchBlockDefinitions.html)and[ISketchManager::IGetSketchBlockDefintions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~IGetSketchBlockDefinitions.html)
+[ISketchManager::GetSketchBlockDefinitions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~GetSketchBlockDefinitions.html) and [ISketchManager::IGetSketchBlockDefintions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~IGetSketchBlockDefinitions.html)
 
 [ISketchManager::MakeSketchBlockFromFile](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~MakeSketchBlockFromFile.html)
 
@@ -98,9 +89,6 @@ See[Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/B
 ## See Also
 
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)

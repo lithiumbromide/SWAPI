@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # gtpslFeatureType_e Enumeration
 
-Feature type IDs for
-
-[IPowerSelect](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IPowerSelect.html)
-
-.
+Feature type IDs for [IPowerSelect](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IPowerSelect.html).
 
 ## Syntax
 

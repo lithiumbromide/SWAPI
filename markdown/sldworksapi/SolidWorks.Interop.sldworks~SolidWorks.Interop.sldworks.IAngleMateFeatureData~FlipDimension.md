@@ -45,13 +45,7 @@ property System.bool FlipDimension {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to flip the dimension, false to not
 
 ## VBA Syntax
 
-See
-
-[AngleMateFeatureData::FlipDimension](ms-its:sldworksapivb6.chm::/sldworks~AngleMateFeatureData~FlipDimension.html)
-
-.
+See [AngleMateFeatureData::FlipDimension](ms-its:sldworksapivb6.chm::/sldworks~AngleMateFeatureData~FlipDimension.html).
 
 ## Examples
 
-See the
-
-[IAngleMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html)
-
-examples.
+See the [IAngleMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html) examples.
 
 ## See Also
 
 [IAngleMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html)
-
 [IAngleMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData_members.html)
 
 ## Availability

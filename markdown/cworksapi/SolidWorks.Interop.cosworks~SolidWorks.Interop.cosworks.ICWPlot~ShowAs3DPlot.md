@@ -53,36 +53,25 @@ System.int ShowAs3DPlot(
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::ShowAs3DPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ShowAs3DPlot.html)
-
-.
+See [CWPlot::ShowAs3DPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ShowAs3DPlot.html).
 
 ## Examples
 
-See the
-
-[ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
-examples.
+See the [ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html) examples.
 
 ## Remarks
 
 This method is valid only for 2D Simplification studies.
 
-Also call[ICWPlot::Set2DPlanarRevolveAngle](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~Set2DPlanarRevolveAngle.html)to set the angle of revolution to generate the 3D plot.
+Also call [ICWPlot::Set2DPlanarRevolveAngle](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~Set2DPlanarRevolveAngle.html) to set the angle of revolution to generate the 3D plot.
 
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

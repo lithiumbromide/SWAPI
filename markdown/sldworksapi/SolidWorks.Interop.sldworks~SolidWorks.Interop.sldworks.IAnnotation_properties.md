@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 # IAnnotation Interface Properties
 
-For a list of all members of this type, see[IAnnotation members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html).
+For a list of all members of this type, see [IAnnotation members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html).
 
 ## Public Properties
 
@@ -39,7 +39,5 @@ For a list of all members of this type, see[IAnnotation members](SolidWorks.Inte
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::GetObjectId Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetObjectId.html)

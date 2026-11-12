@@ -45,13 +45,7 @@ property System.double StartingEndLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,14 @@ Starting end length
 
 ## VBA Syntax
 
-See
-
-[Spring::StartingEndLength](ms-its:sldworksapivb6.chm::/sldworks~Spring~StartingEndLength.html)
-
-.
+See [Spring::StartingEndLength](ms-its:sldworksapivb6.chm::/sldworks~Spring~StartingEndLength.html).
 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
-
 [ISpring::EndingEndLength Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~EndingEndLength.html)
-
 [ISpring::EndingEndType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~EndingEndType.html)
-
 [ISpring::StartingEndType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~StartingEndType.html)
 
 ## Availability

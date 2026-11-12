@@ -45,40 +45,23 @@ property System.int FlangePosition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Flange position as defined by
-
-[swSweptFlangePostionTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFlangePositionTypes_e.html)
+Flange position as defined by [swSweptFlangePostionTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFlangePositionTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::FlangePosition](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~FlangePosition.html)
-
-.
+See [SweptFlangeFeatureData::FlangePosition](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~FlangePosition.html).
 
 ## Examples
 
-See the
-
-[ISweptFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
-examples.
+See the [ISweptFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html) examples.
 
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
 
 ## Availability

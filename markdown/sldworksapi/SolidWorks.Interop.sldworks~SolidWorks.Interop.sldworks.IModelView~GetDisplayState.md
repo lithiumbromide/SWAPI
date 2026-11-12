@@ -47,17 +47,11 @@ System.bool GetDisplayState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DisplayType`: Display setting to check as defined in[swViewDisplayType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewDisplayType_e.html)
+- `DisplayType`: Display setting to check as defined in [swViewDisplayType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewDisplayType_e.html)
 
 ### Return Value
 
@@ -65,11 +59,7 @@ True if the setting specified is turned on, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelView::GetDisplayState](ms-its:sldworksapivb6.chm::/sldworks~ModelView~GetDisplayState.html)
-
-.
+See [ModelView::GetDisplayState](ms-its:sldworksapivb6.chm::/sldworks~ModelView~GetDisplayState.html).
 
 ## Examples
 
@@ -79,10 +69,11 @@ See
 
 By passing in an available DisplayType option, you can check various display conditions for the view. For example, if you want to know if a view is shaded, you could make the following call in Visual Basic:
 
+```vb
 res = mView.GetDisplayState( swIsViewShaded )
+```
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)

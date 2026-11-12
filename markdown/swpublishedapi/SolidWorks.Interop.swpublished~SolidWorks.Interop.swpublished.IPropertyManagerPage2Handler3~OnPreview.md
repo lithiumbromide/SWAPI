@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnPreview Method (IPropertyManagerPage2Handler3)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnPreview](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnPreview.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnPreview](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnPreview.html).
 
 ## Syntax
 
@@ -46,14 +42,9 @@ System.bool OnPreview();
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler3::OnPreview](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler3~OnPreview.html)
-
-.
+See [PropertyManagerPage2Handler3::OnPreview](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler3~OnPreview.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler3 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler3.html)
-
 [IPropertyManagerPage2Handler3 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler3_members.html)

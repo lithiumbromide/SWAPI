@@ -40,13 +40,7 @@ System.object IGetControl()
 System.Object^ IGetControl();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Pointer to the associated control
 
 ## VBA Syntax
 
-See
-
-[FeatMgrView::IGetControl](ms-its:sldworksapivb6.chm::/sldworks~FeatMgrView~IGetControl.html)
-
-.
+See [FeatMgrView::IGetControl](ms-its:sldworksapivb6.chm::/sldworks~FeatMgrView~IGetControl.html).
 
 ## See Also
 
 [IFeatMgrView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView.html)
-
 [IFeatMgrView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView_members.html)
-
 [IFeatMgrView::GetControl Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView~GetControl.html)
 
 ## Availability

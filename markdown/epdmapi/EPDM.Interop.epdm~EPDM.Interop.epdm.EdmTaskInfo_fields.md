@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo_fields.html"
 
 # EdmTaskInfo Structure Fields
 
-For a list of all members of this type, see[EdmTaskInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo_members.html).
+For a list of all members of this type, see [EdmTaskInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo_members.html).
 
 ## Public Fields
 
@@ -24,7 +24,5 @@ For a list of all members of this type, see[EdmTaskInfo members](EPDM.Interop.ep
 ## See Also
 
 [EdmTaskInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Programming Tasks](Tasks.htm)

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 Allows access to a magnetic line.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IMagneticLine
 
 ## VBA Syntax
 
-See
-
-[MagneticLine](ms-its:sldworksapivb6.chm::/sldworks~MagneticLine.html)
-
-.
+See [MagneticLine](ms-its:sldworksapivb6.chm::/sldworks~MagneticLine.html).
 
 ## Examples
 
 [Insert Magnetic Line (VBA)](Insert_Magnetic_Line_Example_VB.htm)
-
 [Insert Magnetic Line (VB.NET)](Insert_Magnetic_Line_Example_VBNET.htm)
-
 [Insert Magnetic Line (C#)](Insert_Magnetic_Line_Example_CSharp.htm)
 
 ## Accessors
@@ -66,5 +60,4 @@ See
 ## See Also
 
 [IMagneticLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

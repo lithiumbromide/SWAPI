@@ -46,11 +46,7 @@ SwDMDimXpertFeature^ GetBottomBlends();
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertExtrudeFeature::GetBottomBlends](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertExtrudeFeature~GetBottomBlends.html)
-
-.
+See [SwDMDimXpertExtrudeFeature::GetBottomBlends](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertExtrudeFeature~GetBottomBlends.html).
 
 ## Examples
 
@@ -58,16 +54,11 @@ See the examples on the interface page.
 
 ## Remarks
 
-The bottom blend is typically an
-
-[ISwDMDimXpertFilletFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFilletFeature.html)
-
-.
+The bottom blend is typically an [ISwDMDimXpertFilletFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFilletFeature.html).
 
 ## See Also
 
 [ISwDMDimXpertExtrudeFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature.html)
-
 [ISwDMDimXpertExtrudeFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8_members.html"
 
 # IEdmFile8 Interface Members
 
-The following tables list the members exposed by[IEdmFile8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8.html).
+The following tables list the members exposed by [IEdmFile8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8.html).
 
 ## Public Properties
 
@@ -30,5 +30,4 @@ The following tables list the members exposed by[IEdmFile8](EPDM.Interop.epdm~EP
 ## See Also
 
 [IEdmFile8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile8.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

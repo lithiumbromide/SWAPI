@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetAll2 Method (ICustomPropertyManager)
 
-Obsolete. Superseded by
-
-[ICustomPropertyManager::GetAll3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~GetAll3.html)
-
-.
+Obsolete. Superseded by [ICustomPropertyManager::GetAll3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~GetAll3.html).
 
 ## Syntax
 
@@ -63,22 +59,14 @@ System.int GetAll2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `PropNames`: Array of the names of custom properties retrieved
-- `PropTypes`: Array of types of PropNames as defined in[swCustomInfoType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomInfoType_e.html)
+- `PropTypes`: Array of types of PropNames as defined in [swCustomInfoType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCustomInfoType_e.html)
 - `PropValues`: Array of evaluated values of PropNames
-- `Resolved`: Array of evaluation statuses of PropNames as defined in
-
-[swCustomInfoGetResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCustomInfoGetResult_e.html)
+- `Resolved`: Array of evaluation statuses of PropNames as defined in [swCustomInfoGetResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCustomInfoGetResult_e.html)
 
 ### Return Value
 
@@ -86,26 +74,16 @@ Number of custom properties retrieved
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::GetAll2](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~GetAll2.html)
-
-.
+See [CustomPropertyManager::GetAll2](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~GetAll2.html).
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
-
 [ICustomPropertyManager::Get5 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~Get5.html)
-
 [ICustomPropertyManager::Set2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~Set2.html)
-
 [ICustomPropertyManager::GetNames Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~GetNames.html)
-
 [ICustomPropertyManager::IGetNames Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~IGetNames.html)
-
 [ICustomPropertyManager::GetType2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~GetType2.html)
 
 ## Availability

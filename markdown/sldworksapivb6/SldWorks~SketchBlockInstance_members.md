@@ -1,6 +1,5 @@
 ---
-title: "SketchBlockInstance Object
-Members"
+title: "SketchBlockInstance Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchBlockInstance_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchBlockInstance_members.html"
 ---
 
-# SketchBlockInstance Object
-Members
+# SketchBlockInstance Object Members
 
 ## Public Methods
 

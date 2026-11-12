@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5~GetNextTransit
 
 # GetNextTransition Method (IEdmWorkflow5)
 
-Obsolete. Superseded by
-
-[IEdmWorkflow6::GetNextTransition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetNextTransition.html)
-
-.
+Obsolete. Superseded by [IEdmWorkflow6::GetNextTransition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetNextTransition.html).
 
 ## Syntax
 
@@ -48,5 +44,4 @@ IEdmTransition5^ GetNextTransition(
 ## See Also
 
 [IEdmWorkflow5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5.html)
-
 [IEdmWorkflow5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5_members.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Add_and_Remove_Items_to_File_Save_As_and_Open_Menus_VBNET.h
 
 # Add and Remove Items to File Save As and Open Menus Example (VB.NET)
 
-This example shows how to add items to the**File > Save As**and**File
-> Open**file type menus.
+This example shows how to add items to the **File > Save As** and **File > Open** file type menus.
 
 ```vb
  '----------------------------------------------------------------------------
@@ -22,7 +21,7 @@ This example shows how to add items to the**File > Save As**and**File
  ' 4. Select Project > SwVBAddin1 Properties > Debug.
  ' 5. Select Start external program and type the path to sldworks.exe. Include
  '    sldworks.exe in the path.
- ' 6. Press F5 to start debugging SOLIDWORKS with this add-in.
+ ' 6. Press F5 to start debugging SOLIDWORKS Design with this add-in.
  '
  ' Postconditions:
  ' 1. Open a part.

@@ -40,36 +40,21 @@ System.object GetSketchContours()
 System.Object^ GetSketchContours();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[sketch contours](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchContour.html)
+Array of [sketch contours](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchContour.html)
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSketchContours](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchContours.html)
-
-.
+See [Sketch::GetSketchContours](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSketchContours.html).
 
 ## Examples
 
 [Get Sketch Contours (VBA)](Get_Sketch_Contours_Example_VB.htm)
-
 [Get Corresponding Objects in Assembly Component (C#)](Get_Corresponding_Objects_in_Assembly_Component_Example_CSharp.htm)
-
 [Get Corresponding Objects in Assembly Component (VB.NET)](Get_Corresponding_Objects_in_Assembly_Component_Example_VBNET.htm)
-
 [Get Corresponding Objects in Assembly Component (VBA)](Get_Corresponding_Objects_in_Assembly_Component_Example_VB.htm)
 
 ## Remarks
@@ -79,11 +64,8 @@ This method works even if the sketch is suppressed.
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchContourCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchContourCount.html)
-
 [ISketch::IGetSketchContours Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~IGetSketchContours.html)
 
 ## Availability

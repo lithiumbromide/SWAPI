@@ -9,11 +9,9 @@ source: "cworksapi/Create_Fatigue_Study_for_Dynamic_Harmonic_Study_Example_CShar
 
 # Create Fatigue Study for Dynamic Harmonic Study Example (C#)
 
-This example shows how to create a fatigue study for a linear dynamic
-harmonic study.
+This example shows how to create a fatigue study for a linear dynamic harmonic study.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
   //----------------------------------------------------------------------------

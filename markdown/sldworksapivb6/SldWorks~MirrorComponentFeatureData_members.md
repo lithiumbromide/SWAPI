@@ -1,6 +1,5 @@
 ---
-title: "MirrorComponentFeatureData Object
-Members"
+title: "MirrorComponentFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MirrorComponentFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MirrorComponentFeatureData_members.html"
 ---
 
-# MirrorComponentFeatureData Object
-Members
+# MirrorComponentFeatureData Object Members
 
 ## Public Methods
 

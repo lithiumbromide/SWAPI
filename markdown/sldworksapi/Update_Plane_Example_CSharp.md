@@ -9,8 +9,7 @@ source: "sldworksapi/Update_Plane_Example_CSharp.htm"
 
 # Update Plane Example (C#)
 
-This example shows how to update a reference plane so that it is parallel to
-the screen.
+This example shows how to update a reference plane so that it is parallel to the screen.
 
 ```
 //---------------------------------------------------------------------------

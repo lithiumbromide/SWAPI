@@ -45,13 +45,7 @@ property System.double Tolerance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Tolerance
 
 ## VBA Syntax
 
-See
-
-[Spring::Tolerance](ms-its:sldworksapivb6.chm::/sldworks~Spring~Tolerance.html)
-
-.
+See [Spring::Tolerance](ms-its:sldworksapivb6.chm::/sldworks~Spring~Tolerance.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ Tolerance applies to the extension, torsion, and spiral springs only; tolerance 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
 
 ## Availability

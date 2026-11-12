@@ -45,13 +45,7 @@ property System.bool SynchronizeFlexibleComponents {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to synchronize the movement of flexible subassembly components, false to no
 
 ## VBA Syntax
 
-See
-
-[LocalCircularPatternFeatureData::SynchronizeFlexibleComponents](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~SynchronizeFlexibleComponents.html)
-
-.
+See [LocalCircularPatternFeatureData::SynchronizeFlexibleComponents](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~SynchronizeFlexibleComponents.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ If this property is set to true, then when you move components in the seed flexi
 ## See Also
 
 [ILocalCircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData.html)
-
 [ILocalCircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData_members.html)
 
 ## Availability

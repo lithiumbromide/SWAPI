@@ -51,13 +51,7 @@ System.String^ GetEntryText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,36 +64,26 @@ Text string in the specified cell
 
 ## VBA Syntax
 
-See
-
-[DesignTable::GetEntryText](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~GetEntryText.html)
-
-.
+See [DesignTable::GetEntryText](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~GetEntryText.html).
 
 ## Examples
 
 [Get Design Table (VBA)](Get_Design_Table_Example_VB.htm)
-
 [Get Design Table (VB.NET)](Get_Design_Table_Example_VBNET.htm)
-
 [Get Design Table (C#)](Get_Design_Table_Example_CSharp.htm)
 
 ## Remarks
 
 For example, if the cell is of type double, it is returned as a string.
 
-Use[IDesignTable::GetEntryValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable~GetEntryValue.html)to get typed return values.
+Use [IDesignTable::GetEntryValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable~GetEntryValue.html) to get typed return values.
 
-Before using any of the[IDesignTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable.html)methods, use[IDesignTable::Attach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable~Attach.html)to activate the design table. After you are finish getting design table data, use[IDesignTable::Detach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable~Detach.html)to deactivate the table.
+Before using any of the [IDesignTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable.html) methods, use [IDesignTable::Attach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable~Attach.html) to activate the design table. After you are finish getting design table data, use [IDesignTable::Detach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDesignTable~Detach.html) to deactivate the table.
 
 ## See Also
 
 [IDesignTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable.html)
-
 [IDesignTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html)
-
 [IDesignTable::GetEntryValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~GetEntryValue.html)
-
 [IDesignTable::SetEntryText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~SetEntryText.html)
-
 [IDesignTable::SetEntryValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~SetEntryValue.html)

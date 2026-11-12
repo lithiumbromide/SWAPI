@@ -40,13 +40,7 @@ System.int GetLeaderCount()
 System.int GetLeaderCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ Number of leaders on the symbol
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::GetLeaderCount](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetLeaderCount.html)
-
-.
+See [SFSymbol::GetLeaderCount](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetLeaderCount.html).
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)
-
 [ISFSymbol::GetLeaderAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol~GetLeaderAtIndex.html)
-
 [ISFSymbol::IGetLeaderAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol~IGetLeaderAtIndex.html)

@@ -51,28 +51,17 @@ Hourly shop rate
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisCasting::ShopRate](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~ShopRate.html)
-
-.
+See [CostAnalysisCasting::ShopRate](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~ShopRate.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
-examples.
+See the [ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html) examples.
 
 ## See Also
 
 [ICostAnalysisCasting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
 [ICostAnalysisCasting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting_members.html)
-
 [ICostAnalysisCasting::ResetShopRate Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~ResetShopRate.html)
-
 [ICostAnalysisCasting::ShopRateApplied Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting~ShopRateApplied.html)
 
 ## Availability

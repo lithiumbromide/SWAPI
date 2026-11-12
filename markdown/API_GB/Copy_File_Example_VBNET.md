@@ -9,12 +9,9 @@ source: "API_GB/Copy_File_Example_VBNET.htm"
 
 # Copy File Example (VB.NET)
 
-This example shows how to copy a file in the vault to a different folder in the
-vault.
+This example shows how to copy a file in the vault to a different folder in the vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 '----------------------------------------------------------------------------

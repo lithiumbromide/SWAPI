@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # CompareDocument Method (ICompareDocument)
 
-Obsolete. Superseded by
-
-[ICompareDocument::CompareDocument2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareDocument~CompareDocument2.html)
-
-.
+Obsolete. Superseded by [ICompareDocument::CompareDocument2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareDocument~CompareDocument2.html).
 
 ## Syntax
 
@@ -77,14 +73,9 @@ System.int CompareDocument(
 
 ## VBA Syntax
 
-See
-
-[ICompareDocument::CompareDocument](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareDocument~CompareDocument.html)
-
-.
+See [ICompareDocument::CompareDocument](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareDocument~CompareDocument.html).
 
 ## See Also
 
 [ICompareDocument Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument.html)
-
 [ICompareDocument Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument_members.html)

@@ -45,13 +45,7 @@ property System.String^ Layer {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Name of the layer used for this sketch segment
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::Layer](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~Layer.html)
-
-.
+See [SketchSegment::Layer](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~Layer.html).
 
 ## Remarks
 
@@ -76,15 +66,10 @@ The return value may be an empty string because an old document may not contain 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
-
 [ISketchSegment::LayerOverride Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~LayerOverride.html)
-
 [ISketchSegment::Color Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~Color.html)
-
 [ISketchSegment::Style Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~Style.html)
-
 [ISketchSegment::Width Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~Width.html)
 
 ## Availability

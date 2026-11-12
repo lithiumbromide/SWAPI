@@ -1,6 +1,5 @@
 ---
-title: "CWFrequencyStudyOptions Object
-Members"
+title: "CWFrequencyStudyOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWFrequencyStudyOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWFrequencyStudyOptions_members.html"
 ---
 
-# CWFrequencyStudyOptions Object
-Members
+# CWFrequencyStudyOptions Object Members
 
 ## Public Methods
 

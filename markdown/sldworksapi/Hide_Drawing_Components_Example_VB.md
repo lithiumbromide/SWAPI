@@ -9,8 +9,7 @@ source: "sldworksapi/Hide_Drawing_Components_Example_VB.htm"
 
 # Hide Drawing Components Example (VBA)
 
-This example shows how to hide the drawing components in the selected
-drawing view.
+This example shows how to hide the drawing components in the selected drawing view.
 
 ```
 '-----------------------------------------------

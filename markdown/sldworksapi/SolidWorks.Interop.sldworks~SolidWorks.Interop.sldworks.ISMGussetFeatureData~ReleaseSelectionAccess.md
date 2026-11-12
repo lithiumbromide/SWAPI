@@ -39,40 +39,25 @@ void ReleaseSelectionAccess()
 void ReleaseSelectionAccess();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SMGussetFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~ReleaseSelectionAccess.html)
-
-.
+See [SMGussetFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~ReleaseSelectionAccess.html).
 
 ## Examples
 
-See the examples for
-
-[ISMGussetFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData.html)
-
-.
+See the examples for [ISMGussetFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData.html).
 
 ## Remarks
 
-[ISMGussetFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~AccessSelections.html)puts the model in a rollback state to allow access to the selections that define the feature.
+[ISMGussetFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~AccessSelections.html) puts the model in a rollback state to allow access to the selections that define the feature.
 
-Use this method to restore the rollback state if you did not modify the feature, or use[IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)if you did modify the feature.
+Use this method to restore the rollback state if you did not modify the feature, or use [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) if you did modify the feature.
 
 ## See Also
 
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
 [ISMGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData_members.html)
 
 ## Availability

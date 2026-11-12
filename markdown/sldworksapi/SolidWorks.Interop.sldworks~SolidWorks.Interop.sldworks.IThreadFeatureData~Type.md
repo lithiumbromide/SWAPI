@@ -45,57 +45,33 @@ property System.String^ Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Thread profile (see
-
-Remarks
-
-)
+Thread profile (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~Type.html)
-
-.
+See [ThreadFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~Type.html).
 
 ## Examples
 
-See the
-
-[IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-examples.
+See the [IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html) examples.
 
 ## Remarks
 
 This property corresponds to a Type in the Thread PropertyManager.
 
-Types are defined in***.sldlfp**files. You can specify this property with or without the sldlfp extension and path. If you specify this property without:
+Types are defined in ***.sldlfp** files. You can specify this property with or without the sldlfp extension and path. If you specify this property without:
 
-- a path, SOLIDWORKS searches for the file in the folder specified by
-
-  Tools > Options > System Options > File Locations > Show folders for Thread Profiles
-
-  .
+- a path, SOLIDWORKS searches for the file in the folder specified by **Tools > Options > System Options > File Locations > Show folders for Thread Profiles**.
 - an extension, SOLIDWORKS assumes the extension is sldlfp.
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
-
 [IThreadFeatureData::Size Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~Size.html)
 
 ## Availability

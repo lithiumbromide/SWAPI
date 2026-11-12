@@ -9,14 +9,9 @@ source: "API_GB/Traverse_Users_and_Groups_in_Vault_Example_CSharp.htm"
 
 # Traverse Users and Groups in Vault Example (C#)
 
-This example shows how to traverse the users and groups in
-a vault and send a message, also called a notification, to all logged-in users
-of the
-vault.
+This example shows how to traverse the users and groups in a vault and send a message, also called a notification, to all logged-in users of the vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
 //----------------------------------------------------------------------------

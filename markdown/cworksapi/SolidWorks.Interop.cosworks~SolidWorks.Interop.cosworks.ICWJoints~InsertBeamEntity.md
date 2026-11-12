@@ -48,42 +48,26 @@ void InsertBeamEntity(
 
 ### Parameters
 
-- `DispEntity`: [Beam](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBeamBody.html)
-
-to insert
+- `DispEntity`: [Beam](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBeamBody.html) to insert
 
 ## VBA Syntax
 
-See
-
-[CWJoints::InsertBeamEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWJoints~InsertBeamEntity.html)
-
-.
+See [CWJoints::InsertBeamEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWJoints~InsertBeamEntity.html).
 
 ## Remarks
 
 To add a beam to the joints:
 
-1. [Begin editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsBeginEdit.html)
-
-  .
+1. [Begin editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsBeginEdit.html).
 2. Add a beam by calling this method.
-3. [Save your modification](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~IncludeKeepModifiedJointOnUpdate.html)
-
-  .
-4. [Calculate](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~CalculateJoints.html)
-
-  the joints.
-5. [End editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsEndEdit.html)
-
-  .
+3. [Save your modification](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~IncludeKeepModifiedJointOnUpdate.html).
+4. [Calculate](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~CalculateJoints.html) the joints.
+5. [End editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsEndEdit.html).
 
 ## See Also
 
 [ICWJoints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints.html)
-
 [ICWJoints Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints_members.html)
-
 [ICWJoints::RemoveBeamEntityAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints~RemoveBeamEntityAt.html)
 
 ## Availability

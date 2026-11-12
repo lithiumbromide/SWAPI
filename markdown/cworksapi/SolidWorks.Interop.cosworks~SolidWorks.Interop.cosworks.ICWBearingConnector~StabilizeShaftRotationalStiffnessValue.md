@@ -47,26 +47,21 @@ User-defined shaft rotation stabilization value
 
 ## VBA Syntax
 
-See
-
-[CWBearingConnector::StabilizeShaftRotationalStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~StabilizeShaftRotationalStiffnessValue.html)
-
-.
+See [CWBearingConnector::StabilizeShaftRotationalStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~StabilizeShaftRotationalStiffnessValue.html).
 
 ## Remarks
 
 This property is valid only if:
 
-[ICWBearingConnector::StabilizeShaftRotation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StabilizeShaftRotation.html)is set to true
+[ICWBearingConnector::StabilizeShaftRotation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StabilizeShaftRotation.html) is set to true
 
 - and -
 
-[ICWBearingConnector::StabilizeShaftRotationType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StabilizeShaftRotationType.html)is set to[swsBearingStiffnessShaftStabilizeType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingStiffnessShaftStabilizeType_e.html).swsBearingStiffnessShaftStablilizeUserDef
+[ICWBearingConnector::StabilizeShaftRotationType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector~StabilizeShaftRotationType.html) is set to [swsBearingStiffnessShaftStabilizeType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingStiffnessShaftStabilizeType_e.html).swsBearingStiffnessShaftStablilizeUserDef
 
 ## See Also
 
 [ICWBearingConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
 [ICWBearingConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.double ObjectSizesAway {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,16 @@ Distance of the object from the observer, relative to the size of the object
 
 ## VBA Syntax
 
-See
-
-[ModelView::ObjectSizesAway](ms-its:sldworksapivb6.chm::/sldworks~ModelView~ObjectSizesAway.html)
-
-.
+See [ModelView::ObjectSizesAway](ms-its:sldworksapivb6.chm::/sldworks~ModelView~ObjectSizesAway.html).
 
 ## Remarks
 
 This property controls the same value as the view, display, perspective information dialog box. It gives the ratio of the distance of the object from the observer to the size of the object. The smaller the value, the greater the amount of perspective distortion.
 
-You can only modify or get this property when the current model view has the perspective display enabled. See[IModelView::AddPerspective](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~AddPerspective.html)and[IModelView::RemovePerspective](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~RemovePerspective.html). If perspective display is disabled, getting the property returns -1, and setting the property has no effect.
+You can only modify or get this property when the current model view has the perspective display enabled. See [IModelView::AddPerspective](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~AddPerspective.html) and [IModelView::RemovePerspective](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~RemovePerspective.html). If perspective display is disabled, getting the property returns -1, and setting the property has no effect.
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
-
 [IModelView::HasPerspective Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~HasPerspective.html)

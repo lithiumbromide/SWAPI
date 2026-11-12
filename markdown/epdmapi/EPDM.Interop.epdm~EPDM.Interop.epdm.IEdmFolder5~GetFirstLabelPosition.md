@@ -33,19 +33,16 @@ IEdmPos5^ GetFirstLabelPosition();
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the first label in this folder
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the first label in this folder
 
 ## Examples
 
 [Create Labels on Folders (VB.NET)](Create_Label_Example_VBNET.htm)
-
 [Create Labels on Folders (C#)](Create_Label_Example_CSharp.htm)
 
 ## Remarks
 
-After calling this method, pass the returned first label position to[IEdmFolder5::GetNextLabel](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetNextLabel.html)to get the first label in the list. Then call IEdmFolder5::GetNextFile repeatedly to get the rest of the labels in the list.
+After calling this method, pass the returned first label position to [IEdmFolder5::GetNextLabel](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetNextLabel.html) to get the first label in the list. Then call IEdmFolder5::GetNextFile repeatedly to get the rest of the labels in the list.
 
 C++ users not using smart-pointer wrapper functions must release the returned pointer, IEdmPos5.
 
@@ -57,7 +54,6 @@ C++ users not using smart-pointer wrapper functions must release the returned po
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
 
 ## Availability

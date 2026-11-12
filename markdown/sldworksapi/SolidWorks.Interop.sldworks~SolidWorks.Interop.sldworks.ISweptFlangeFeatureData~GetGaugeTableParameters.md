@@ -40,13 +40,7 @@ System.object GetGaugeTableParameters()
 System.Object^ GetGaugeTableParameters();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,34 +48,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::GetGaugeTableParameters](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~GetGaugeTableParameters.html)
-
-.
+See [SweptFlangeFeatureData::GetGaugeTableParameters](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~GetGaugeTableParameters.html).
 
 ## Examples
 
-See the
-
-[ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html)
-
-examples.
+See the [ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html) examples.
 
 ## Remarks
 
-This method is valid only if
-
-[ISweptFlangeFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseGaugeTable.html)
-
-is true.
+This method is valid only if [ISweptFlangeFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseGaugeTable.html) is true.
 
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
-
 [ISweptFlangeFeatureData::SetGaugeTableParameters Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~SetGaugeTableParameters.html)
 
 ## Availability

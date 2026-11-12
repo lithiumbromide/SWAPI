@@ -35,5 +35,4 @@ System.int mlRequiredVersionMinor
 ## See Also
 
 [EdmAddInInfo2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2.html)
-
 [EdmAddInInfo2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2_members.html)

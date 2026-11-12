@@ -45,13 +45,7 @@ property System.double Ambient {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Ambient light intensity
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Ambient](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Ambient.html)
-
-.
+See [RenderMaterial::Ambient](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Ambient.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ The scene should contain an ambient light.
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

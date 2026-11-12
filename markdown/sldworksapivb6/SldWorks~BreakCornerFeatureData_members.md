@@ -1,6 +1,5 @@
 ---
-title: "BreakCornerFeatureData Object
-Members"
+title: "BreakCornerFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BreakCornerFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BreakCornerFeatureData_members.html"
 ---
 
-# BreakCornerFeatureData Object
-Members
+# BreakCornerFeatureData Object Members
 
 ## Public Methods
 

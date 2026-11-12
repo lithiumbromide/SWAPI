@@ -11,35 +11,26 @@ source: "sldworksapiprogguide/GettingStarted/Early_and_Late_Binding.htm"
 
 Variable declarations fall into two categories of binding:
 
-- Early binding occurs when an object assigned to
-  a variable is declared to be of a specific object type.
-- Late binding occurs when an object assigned to
-  a variable is declared to be of typeObject.
+- Early binding occurs when an object assigned to a variable is declared to be of a specific object type.
+- Late binding occurs when an object assigned to a variable is declared to be of type Object.
 
-Early binding improves the performance of your program, increases type
-checking, and assists in detecting errors in your code.
+Early binding improves the performance of your program, increases type checking, and assists in detecting errors in your code.
 
-To implement early binding in the SOLIDWORKS software, you must[reference two type libraries](../Overview/Type_Libraries.htm):
+To implement early binding in SOLIDWORKS, you must [reference two type libraries](../Overview/Type_Libraries.htm):
 
-- SldWorksversionType Library(sldworks.tlb)
-- SOLIDWORKSversionConstant type library(**swconst.tlb**)
+- SldWorks version Type Library (sldworks.tlb)
+- SOLIDWORKS version Constant type library (**swconst.tlb**)
 
-(Substitute the actual SOLIDWORKS version
-number forversion.)
+(Substitute the actual SOLIDWORKS version number for version.)
 
 These type libraries:
 
-- Provide descriptions of all of the available SOLIDWORKS
-  API objects, properties, methods, events, and constants.
-- Are automatically referenced when you record a
-  SOLIDWORKS macro.
+- Provide descriptions of all of the available SOLIDWORKS API objects, properties, methods, events, and constants.
+- Are automatically referenced when you record a SOLIDWORKS macro.
 
-To early bind SOLIDWORKS object variables, prefix the variable's object type withSldWorks.,
-which tells Visual Basic to look in the SldWorks type library.
+To early bind SOLIDWORKS object variables, prefix the variable's object type with SldWorks., which tells Visual Basic to look in the SldWorks type library.
 
 For example:
-
-(Table)=========================================================
 
 | Change late binding... | To early binding... |
 | --- | --- |

@@ -39,5 +39,4 @@ System.int mlFileID
 ## See Also
 
 [EdmBatchError Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError.html)
-
 [EdmBatchError Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError_members.html)

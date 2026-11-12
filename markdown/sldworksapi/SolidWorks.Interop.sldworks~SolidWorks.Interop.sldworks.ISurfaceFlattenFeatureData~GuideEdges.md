@@ -45,30 +45,19 @@ property System.Object^ GuideEdges {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of the[edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)to control the shape and length of the flattened surface
+Array of the [edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html) to control the shape and length of the flattened surface
 
 ## VBA Syntax
 
-See
-
-[SurfaceFlattenFeatureData::GuideEdges](ms-its:sldworksapivb6.chm::/sldworks~SurfaceFlattenFeatureData~GuideEdges.html)
-
-.
+See [SurfaceFlattenFeatureData::GuideEdges](ms-its:sldworksapivb6.chm::/sldworks~SurfaceFlattenFeatureData~GuideEdges.html).
 
 ## See Also
 
 [ISurfaceFlattenFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData.html)
-
 [ISurfaceFlattenFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData_members.html)
 
 ## Availability

@@ -47,28 +47,21 @@ property System.int BaseExcitationType {
 
 ### Property Value
 
-Type of base excitation as defined by[swsBaseExcitationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBaseExcitationType_e.html)
+Type of base excitation as defined by [swsBaseExcitationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBaseExcitationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBaseExcitation::BaseExcitationType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~BaseExcitationType.html)
-
-.
+See [CWBaseExcitation::BaseExcitationType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~BaseExcitationType.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
 
 ## Availability

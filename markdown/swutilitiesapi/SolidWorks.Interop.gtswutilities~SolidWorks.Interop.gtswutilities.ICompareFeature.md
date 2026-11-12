@@ -39,11 +39,7 @@ public interface class ICompareFeature
 
 ## VBA Syntax
 
-See
-
-[ICompareFeature](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareFeature.html)
-
-.
+See [ICompareFeature](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareFeature.html).
 
 ## Examples
 
@@ -56,5 +52,4 @@ See
 ## See Also
 
 [ICompareFeature Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareFeature_members.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Objects_to_Selection_List_Example_VBNET.htm"
 
 # Add Objects to Selection List Example (VB.NET)
 
-This example shows how to populate the selection list with objects that have
-not been pre-selected through the user interface.
+This example shows how to populate the selection list with objects that have not been pre-selected through the user interface.
 
 ```vb
   '----------------------------------------------------------------------------
@@ -143,6 +142,4 @@ not been pre-selected through the user interface.
         Public swApp   As   SldWorks
 ```
 
-End
-
-Class
+End Class

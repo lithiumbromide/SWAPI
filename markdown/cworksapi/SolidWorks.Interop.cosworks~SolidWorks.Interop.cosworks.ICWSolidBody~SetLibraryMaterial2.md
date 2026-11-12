@@ -62,16 +62,11 @@ System.bool SetLibraryMaterial2(
 
 ## Examples
 
-See the
-
-[ICWSolidBody](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody.html)
-
-examples.
+See the [ICWSolidBody](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody.html) examples.
 
 ## See Also
 
 [ICWSolidBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody.html)
-
 [ICWSolidBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody_members.html)
 
 ## Availability

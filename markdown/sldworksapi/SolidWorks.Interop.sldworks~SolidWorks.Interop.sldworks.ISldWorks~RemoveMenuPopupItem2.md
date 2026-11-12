@@ -75,38 +75,28 @@ System.bool RemoveMenuPopupItem2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DocumentType`: Document type as defined in
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
-- `Cookie`: Cookie specified in[ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
-- `SelectType`: Selection type as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `DocumentType`: Document type as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `Cookie`: Cookie specified in [ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
+- `SelectType`: Selection type as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 - `PopupItemName`: Description displayed on the shortcut menu
-- `MenuCallback`: Function to call when the user clicks your menu item (see description in[ISldWorks::AddMenuItem3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddMenuItem3.html))
+- `MenuCallback`: Function to call when the user clicks your menu item (see description in [ISldWorks::AddMenuItem3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddMenuItem3.html))
 - `MenuEnableMethod`: Optional function that controls the state of the menu item
 
-If specified, SOLIDWORKS:
+  If specified, SOLIDWORKS:
 
-- Calls this function before displaying the menu
-- Display of the menu item is controlled by the return value of MenuEnableMethod
+  - Calls this function before displaying the menu
+  - Display of the menu item is controlled by the return value of MenuEnableMethod
 
-(Table)=========================================================
-
-| If your method returns... | Then SOLIDWORKS... |
-| --- | --- |
-| 0 | Deselects and disables the menu item |
-| 1 | Deselects and enables the menu item. This is the default menu state with if no update function is specified |
-| 2 | Selects and disables the menu item |
-| 3 | Selects and enables the menu item |
+  | If your method returns... | Then SOLIDWORKS... |
+  | --- | --- |
+  | 0 | Deselects and disables the menu item |
+  | 1 | Deselects and enables the menu item. This is the default menu state with if no update function is specified |
+  | 2 | Selects and disables the menu item |
+  | 3 | Selects and enables the menu item |
 - `HintString`: Text to show in the SOLIDWORKS status bar when the user moves their mouse over this menu item; if you specify a HintString, it must be preceded by a comma
 - `CustomNames`: Semi-colon separated list of the names of the custom feature types. This argument is applicable only if SelectType is a custom feature type (like swSelATTRIBUTES); in the case of swSelATTRIBUTES, set this field to the name of the attribute definition
 
@@ -116,11 +106,7 @@ True if the item was removed, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::RemoveMenuPopupItem2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RemoveMenuPopupItem2.html)
-
-.
+See [SldWorks::RemoveMenuPopupItem2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RemoveMenuPopupItem2.html).
 
 ## Remarks
 
@@ -129,17 +115,11 @@ The enumeration swDocNONE is not valid for DocumentType.
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::AddMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenu.html)
-
 [ISldWorks::AddMenuPopupItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddMenuPopupItem2.html)
-
 [ISldWorks::RemoveFromMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFromMenu.html)
-
 [ISldWorks::RemoveFromPopupMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveFromPopupMenu.html)
-
 [ISldWorks::RemoveMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveMenu.html)
 
 ## Availability

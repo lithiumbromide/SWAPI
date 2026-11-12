@@ -48,16 +48,11 @@ True if fillet is for a hole; false if for a pin
 
 ## VBA Syntax
 
-See
-
-[DimXpertFilletFeature::Inner](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFilletFeature~Inner.html)
-
-.
+See [DimXpertFilletFeature::Inner](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFilletFeature~Inner.html).
 
 ## See Also
 
 [IDimXpertFilletFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFilletFeature.html)
-
 [IDimXpertFilletFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFilletFeature_members.html)
 
 ## Availability

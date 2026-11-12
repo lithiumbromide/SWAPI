@@ -51,13 +51,7 @@ System.int ShowBatchSaveTo3DExperienceDlg(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,22 +64,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ShowBatchSaveTo3DExperienceDlg](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowBatchSaveTo3DExperienceDlg.html)
-
-.
+See [SldWorks::ShowBatchSaveTo3DExperienceDlg](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowBatchSaveTo3DExperienceDlg.html).
 
 ## Remarks
 
-This method is valid only for[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm).
+This method is valid only for [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
-Call[ISldWorks::RunBatchSaveProcess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunBatchSaveProcess.html)after using this method.
+Call [ISldWorks::RunBatchSaveProcess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunBatchSaveProcess.html) after using this method.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

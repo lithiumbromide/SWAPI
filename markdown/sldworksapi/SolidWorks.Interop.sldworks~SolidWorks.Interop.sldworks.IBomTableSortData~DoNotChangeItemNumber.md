@@ -45,13 +45,7 @@ property System.bool DoNotChangeItemNumber {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to preserve BOM item numbers, false to re-number them
 
 ## VBA Syntax
 
-See
-
-[BomTableSortData::DoNotChangeItemNumber](ms-its:sldworksapivb6.chm::/sldworks~BomTableSortData~DoNotChangeItemNumber.html)
-
-.
+See [BomTableSortData::DoNotChangeItemNumber](ms-its:sldworksapivb6.chm::/sldworks~BomTableSortData~DoNotChangeItemNumber.html).
 
 ## Examples
 
-See the
-
-[IBomTableSortData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData.html)
-
-examples.
+See the [IBomTableSortData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData.html) examples.
 
 ## See Also
 
 [IBomTableSortData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData.html)
-
 [IBomTableSortData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData_members.html)
 
 ## Availability

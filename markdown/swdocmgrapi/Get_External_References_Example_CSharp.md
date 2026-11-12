@@ -9,8 +9,7 @@ source: "swdocmgrapi/Get_External_References_Example_CSharp.htm"
 
 # Get External References Example (C#)
 
-This example shows how to
-get all of the external references for the base part using the SOLIDWORKS Document Manager API.
+This example shows how to get all of the external references for the base part using the SOLIDWORKS Document Manager API.
 
 ```vb
  //----------------------------------------------------------------------------

@@ -41,26 +41,16 @@ void ShowLoadCaseViewTab();
 
 ## VBA Syntax
 
-See
-
-[CWLoadCaseManager::ShowLoadCaseViewTab](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~ShowLoadCaseViewTab.html)
-
-.
+See [CWLoadCaseManager::ShowLoadCaseViewTab](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~ShowLoadCaseViewTab.html).
 
 ## Examples
 
-See the
-
-[ICWLoadCaseManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
-examples.
+See the [ICWLoadCaseManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html) examples.
 
 ## See Also
 
 [ICWLoadCaseManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
 [ICWLoadCaseManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager_members.html)
-
 [ICWLoadCaseManager::ShowResultsViewTab Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~ShowResultsViewTab.html)
 
 ## Availability

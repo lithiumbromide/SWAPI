@@ -11,8 +11,7 @@ source: "sldworksapi/Get_COSMOSMotion_Motion_Study_Properties_and_Results_Exampl
 
 ## Get COSMOSMotion Motion Study Properties and Results Example (VBA)
 
-This example shows how to get a COSMOSMotion motion study's properties
-and results.
+This example shows how to get a COSMOSMotion motion study's properties and results.
 
 ```
 '-------------------------------------------------------------
@@ -20,7 +19,7 @@ and results.
 ' 1. Open a model that has a COSMOSMotion motion study
 '    named PhysSim and at least one COSMOSMotion motion
 '    study plot.
-' 2. In SOLIDWORKS, load the SOLIDWORKS Motion Study add-in
+' 2. In SOLIDWORKS Design, load the SOLIDWORKS Motion Study add-in
 '    (click Tools > Add-Ins > SOLIDWORKS Motion).
 ' 3. In the SOLIDWORKS VBA IDE, add a reference to the
 '    SolidWorks MotionStudy type library.

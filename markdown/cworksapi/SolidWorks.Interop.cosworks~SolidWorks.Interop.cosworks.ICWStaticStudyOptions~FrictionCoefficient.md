@@ -51,34 +51,22 @@ property System.double FrictionCoefficient {
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::FrictionCoefficient](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~FrictionCoefficient.html)
-
-.
+See [CWStaticStudyOptions::FrictionCoefficient](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~FrictionCoefficient.html).
 
 ## Examples
 
-See the
-
-[ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
-examples.
+See the [ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html) examples.
 
 ## Remarks
 
-This property is valid only if[ICWStaticStudyOptions::IncludeGlobalFriction](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IncludeGlobalFriction.html)is set to 1.
+This property is valid only if [ICWStaticStudyOptions::IncludeGlobalFriction](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IncludeGlobalFriction.html) is set to 1.
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
-
 [ICWStaticStudyOptions::IncludeGlobalFriction Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IncludeGlobalFriction.html)
-
 [ICWStaticStudyOptions::IgnoreClearanceForSurfaceContact Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IgnoreClearanceForSurfaceContact.html)
-
 [ICWStaticStudyOptions::NoPenetration Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~NoPenetration.html)
 
 ## Availability

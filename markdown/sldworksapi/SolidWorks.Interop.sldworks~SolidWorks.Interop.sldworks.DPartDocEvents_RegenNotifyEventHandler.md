@@ -37,29 +37,19 @@ public delegate System.int DPartDocEvents_RegenNotifyEventHandler()
 public delegate System.int DPartDocEvents_RegenNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RegenNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~RegenNotify_EV.html)
-
-.
+See [RegenNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~RegenNotify_EV.html).
 
 ## Remarks
 
-You can also use[IModelDoc2::GetUpdateStamp](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetUpdateStamp.html)to determine when changes have taken place in this document.
+You can also use [IModelDoc2::GetUpdateStamp](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetUpdateStamp.html) to determine when changes have taken place in this document.
 
 Return S_FALSE to stop from proceeding with the action that caused the notification.
 
-If developing a C++ application, use[swPartRegenNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)to register for this notification.
+If developing a C++ application, use [swPartRegenNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

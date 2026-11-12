@@ -1,6 +1,5 @@
 ---
-title: "ISMNormalCutFeatureData2 Object
-Members"
+title: "ISMNormalCutFeatureData2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISMNormalCutFeatureData2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISMNormalCutFeatureData2_members.html"
 ---
 
-# ISMNormalCutFeatureData2 Object
-Members
+# ISMNormalCutFeatureData2 Object Members
 
 ## Public Methods
 

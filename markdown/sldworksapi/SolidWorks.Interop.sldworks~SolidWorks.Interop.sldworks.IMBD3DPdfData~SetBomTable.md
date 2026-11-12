@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMB
 
 # SetBomTable Method (IMBD3DPdfData)
 
-Maps a BOM Table Area in the
-
-[theme](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~ThemeName.html)
-
-with a BOM table in the model and sets the columns in the BOM table to export to the BOM Table Area in a SOLIDWORKS MBD 3D PDF.
+Maps a BOM Table Area in the [theme](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~ThemeName.html) with a BOM table in the model and sets the columns in the BOM table to export to the BOM Table Area in a SOLIDWORKS MBD 3D PDF.
 
 ## Syntax
 
@@ -59,31 +55,13 @@ System.int SetBomTable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: 0-based index of the BOM Table Area in the theme (see
-
-Remarks
-
-)
-- `BomTableName`: Name of the BOM table to map to the BOM Table Area specified by Index (see
-
-Remarks
-
-)
-- `Columns`: Array of strings of the names of the columns to export from the BOM table specified in BomTableName (see
-
-Remarks
-
-)
+- `Index`: 0-based index of the BOM Table Area in the theme (see **Remarks**)
+- `BomTableName`: Name of the BOM table to map to the BOM Table Area specified by Index (see **Remarks**)
+- `Columns`: Array of strings of the names of the columns to export from the BOM table specified in BomTableName (see **Remarks**)
 
 ### Return Value
 
@@ -93,18 +71,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[MBD3DPdfData::SetBomTable](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~SetBomTable.html)
-
-.
+See [MBD3DPdfData::SetBomTable](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~SetBomTable.html).
 
 ## Examples
 
 [Export BOM's Second Column to BOM Table Area (C#)](Export_BOM's_Second_Column_to_BOM_Table_Area_Example_CSharp.htm)
-
 [Export BOM's Second Column to BOM Table Area (VB.NET)](Export_BOM's_Second_Column_to_BOM_Table_Area_Example_VBNET.htm)
-
 [Export BOM's Second Column to BOM Table Area (VBA)](Export_BOM's_Second_Column_to_BOM_Table_Area_Example_VB.htm)
 
 ## Remarks
@@ -118,9 +90,7 @@ See
 ## See Also
 
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)
-
 [IMBD3DPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData_members.html)
-
 [IMBD3DPdfData::ExcludeFromAnnotationView Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~ExcludeFromAnnotationView.html)
 
 ## Availability

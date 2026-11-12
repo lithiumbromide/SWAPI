@@ -47,28 +47,19 @@ property System.int Unit {
 
 ### Property Value
 
-Unit system as defined in[swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
+Unit system as defined in [swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWCentriFugalForce::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~Unit.html)
-
-.
+See [CWCentriFugalForce::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~Unit.html).
 
 ## Examples
 
-See the
-
-[ICWCentriFugalForce](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
-examples.
+See the [ICWCentriFugalForce](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html) examples.
 
 ## See Also
 
 [ICWCentriFugalForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
 [ICWCentriFugalForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce_members.html)
 
 ## Availability

@@ -51,22 +51,12 @@ System.bool SetDisplayStyle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseDoc`: True to use the document setting for the datum tag's display style, false to not
-- `Style`: Display style as defined in
-
-[swDatumDisplayType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDatumDisplayType_e.html)
-
-}}end!kadov
+- `Style`: Display style as defined in [swDatumDisplayType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDatumDisplayType_e.html)
 
 ### Return Value
 
@@ -74,20 +64,13 @@ True if the specified display style is set, false if not
 
 ## VBA Syntax
 
-See
-
-[DatumTag::SetDisplayStyle](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~SetDisplayStyle.html)
-
-.
+See [DatumTag::SetDisplayStyle](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~SetDisplayStyle.html).
 
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::GetDisplayStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetDisplayStyle.html)
-
 [IDatumTag::GetUseDocDisplayStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetUseDocDisplayStyle.html)
 
 ## Availability

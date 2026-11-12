@@ -42,13 +42,7 @@ property System.int Frames {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ Number of steps
 
 ## VBA Syntax
 
-See
-
-[Simulation::Frames](ms-its:sldworksapivb6.chm::/sldworks~Simulation~Frames.html)
-
-.
+See [Simulation::Frames](ms-its:sldworksapivb6.chm::/sldworks~Simulation~Frames.html).
 
 ## Remarks
 
@@ -69,7 +59,6 @@ If the Physical Simulation is not yet calculated, then the return value is 0.0.
 ## See Also
 
 [ISimulation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html)
-
 [ISimulation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation_members.html)
 
 ## Availability

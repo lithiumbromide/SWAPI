@@ -42,30 +42,19 @@ property View^ View {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the[IView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)object on which this component resides
+Pointer to the [IView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html) object on which this component resides
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::View](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~View.html)
-
-.
+See [DrawingComponent::View](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~View.html).
 
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
 
 ## Availability

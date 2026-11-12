@@ -42,24 +42,16 @@ System.int GetComponentType();
 
 ### Return Value
 
-Type of component as defined in
-
-[swRouteComponentTypeID_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swRouteComponentTypeID_e.html)
+Type of component as defined in [swRouteComponentTypeID_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swRouteComponentTypeID_e.html)
 
 ## VBA Syntax
 
-See
-
-[RoutingComponentManager::GetComponentType](ms-its:routingapivb6.chm::/SWRoutingLib~RoutingComponentManager~GetComponentType.html)
-
-.
+See [RoutingComponentManager::GetComponentType](ms-its:routingapivb6.chm::/SWRoutingLib~RoutingComponentManager~GetComponentType.html).
 
 ## Examples
 
 [Get and Set Routing Component Properties Example (C#)](Get_and_Set_Routing_Component_Properties_Example_CSharp.htm)
-
 [Get and Set Routing Component Properties Example (VB.NET)](Get_and_Set_Routing_Component_Properties_Example_VBNET.htm)
-
 [Get and Set Routing Component Properties Example (VBA)](Get_and_Set_Routing_Component_Properties_Example_VB.htm)
 
 ## Remarks
@@ -69,9 +61,7 @@ The component type is based on the number of connection and routing points.
 ## See Also
 
 [IRoutingComponentManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager.html)
-
 [IRoutingComponentManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager_members.html)
-
 [IRoutingComponentManager::SetComponentType Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~SetComponentType.html)
 
 ## Availability

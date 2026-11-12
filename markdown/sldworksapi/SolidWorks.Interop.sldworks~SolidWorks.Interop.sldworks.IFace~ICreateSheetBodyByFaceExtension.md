@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # ICreateSheetBodyByFaceExtension Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::ICreateSheetBodyByFaceExtension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ICreateSheetBodyByFaceExtension.html)
-
-.
+Obsolete. Superseded by [IFace2::ICreateSheetBodyByFaceExtension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ICreateSheetBodyByFaceExtension.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ Body^ ICreateSheetBodyByFaceExtension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face::ICreateSheetBodyByFaceExtension](ms-its:sldworksapivb6.chm::/sldworks~Face~ICreateSheetBodyByFaceExtension.html)
-
-.
+See [Face::ICreateSheetBodyByFaceExtension](ms-its:sldworksapivb6.chm::/sldworks~Face~ICreateSheetBodyByFaceExtension.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

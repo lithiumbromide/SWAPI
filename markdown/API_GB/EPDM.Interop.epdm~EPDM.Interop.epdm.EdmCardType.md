@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardType.html"
 
 # EdmCardType Enumeration
 
-Types of data card used in calls to
-
-[IEdmVault6::GetCardID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6~GetCardID.html)
-
-.
+Types of data card used in calls to [IEdmVault6::GetCardID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6~GetCardID.html).
 
 ## Syntax
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRi
 
 # EnableDraft Property (IRibFeatureData)
 
-Obsolete. Superseded by
-
-[IRibFeatureData2::EnableDraft](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~EnableDraft.html)
-
-.
+Obsolete. Superseded by [IRibFeatureData2::EnableDraft](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~EnableDraft.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool EnableDraft {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RibFeatureData::EnableDraft](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~EnableDraft.html)
-
-.
+See [RibFeatureData::EnableDraft](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~EnableDraft.html).
 
 ## See Also
 
 [IRibFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData.html)
-
 [IRibFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData_members.html)

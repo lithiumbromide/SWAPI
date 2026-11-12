@@ -46,7 +46,7 @@ Partial Class SolidWorksMacro
         Dim varSketchSegments() As Object
         Dim i As Integer
 
-        ' If SOLIDWORKS not running, then exit macro
+        ' If SOLIDWORKS Design is not running, then exit macro
         If SwApp Is Nothing Then Exit Sub
 
         ' Document with two 3D sketches, named 3DSketch2 and

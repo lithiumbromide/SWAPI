@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs_members.ht
 
 # IEdmAddCustomRefs Interface Members
 
-The following tables list the members exposed by[IEdmAddCustomRefs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html).
+The following tables list the members exposed by [IEdmAddCustomRefs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html).
 
 ## Public Methods
 
@@ -28,5 +28,4 @@ The following tables list the members exposed by[IEdmAddCustomRefs](EPDM.Interop
 ## See Also
 
 [IEdmAddCustomRefs Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

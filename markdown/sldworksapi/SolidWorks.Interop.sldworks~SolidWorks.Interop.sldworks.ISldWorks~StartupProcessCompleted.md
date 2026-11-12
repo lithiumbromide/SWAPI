@@ -42,40 +42,23 @@ property System.bool StartupProcessCompleted {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True if the SOLIDWORKS startup process, including loading all startup add-ins, has completed, false if not (see
-
-Remarks
-
-)
+True if the SOLIDWORKS startup process, including loading all startup add-ins, has completed, false if not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::StartupProcessCompleted](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~StartupProcessCompleted.html)
+See [SldWorks::StartupProcessCompleted](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~StartupProcessCompleted.html)
 
 ## Remarks
 
-Use this property in out-of-process add-in applications to ensure that SOLIDWORKS, including loading all startup add-ins, is ready to receive additional API calls. For example, call this property before calling
-
-[ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.html)
-
-in an out-of-process add-in application.
+Use this property in out-of-process add-in applications to ensure that SOLIDWORKS, including loading all startup add-ins, is ready to receive additional API calls. For example, call this property before calling [ISldWorks::OpenDoc6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.html) in an out-of-process add-in application.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

@@ -58,32 +58,20 @@ void Display(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: [Model](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-in which to display the vertex
+- `TopDoc`: [Model](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) in which to display the vertex
 - `Color`: COLORREF value for highlighting
 - `Scale`: Radius of the circle used to display the vertex
 
-NOTE:Vertex is displayed as a circle. By default, the radius is 4 pixels. Therefore, a scale of 1 is equal to 4 pixels.
+  NOTE: Vertex is displayed as a circle. By default, the radius is 4 pixels. Therefore, a scale of 1 is equal to 4 pixels.
 - `HighlightState`: True to highlight the vertex, false to not
 
 ## VBA Syntax
 
-See
-
-[Vertex::Display](ms-its:sldworksapivb6.chm::/sldworks~Vertex~Display.html)
-
-.
+See [Vertex::Display](ms-its:sldworksapivb6.chm::/sldworks~Vertex~Display.html).
 
 ## Examples
 
@@ -99,7 +87,6 @@ See
 ## See Also
 
 [IVertex Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
 [IVertex Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex_members.html)
 
 ## Availability

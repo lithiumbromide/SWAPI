@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # IGetBSurfParamsSize3 Method (ISurface)
 
-Gets the allocation size necessary for Bsurface parameter data retrieval in a subsequent call to
-
-[ISurface::IGetBSurfParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetBSurfParams.html)
-
-.
+Gets the allocation size necessary for Bsurface parameter data retrieval in a subsequent call to [ISurface::IGetBSurfParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetBSurfParams.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ System.int IGetBSurfParamsSize3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -81,7 +71,7 @@ See
 - `WantNonRational`: True if non-rational is needed, false if not; specifying true converts any surface type to a non-rational Bsurface; if you specify true, then you should only use this method for surfaces that are Bsurface or blend surface; otherwise, the underlying call is not made and the values returned from this are not initialized or contain the values from the last call
 - `Range`: Array of 4 doubles describing the U,V Range
 - `Tolerance`: Tolerance, in meters, between the approximated b-spline surface and the underlying surface; the default value is 0.01 and should generally be reduced to the tolerance desired
-- `Sense`: Approximated b-spline surface is not always in the same direction as the original surface; if sense is true, then thekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}underlying surface and the b-spline surface are in the same direction
+- `Sense`: Approximated b-spline surface is not always in the same direction as the original surface; if sense is true, then the underlying surface and the b-spline surface are in the same direction
 
 ### Return Value
 
@@ -89,15 +79,11 @@ Size of the data set
 
 ## VBA Syntax
 
-See
-
-[Surface::IGetBSurfParamsSize3](ms-its:sldworksapivb6.chm::/sldworks~Surface~IGetBSurfParamsSize3.html)
-
-.
+See [Surface::IGetBSurfParamsSize3](ms-its:sldworksapivb6.chm::/sldworks~Surface~IGetBSurfParamsSize3.html).
 
 ## Remarks
 
-Range contains the following values that can be obtained using[ISurface::Parameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization.html)or[ISurface::IParameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IParameterization.html):
+Range contains the following values that can be obtained using [ISurface::Parameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization.html) or [ISurface::IParameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IParameterization.html):
 
 - Range[0] & Range[2] are the lower bounds of the U & V surface parameters respectively.
 - Range[1] & Range[3] are the upper bounds of the U & V surface parameters respectively.
@@ -105,7 +91,6 @@ Range contains the following values that can be obtained using[ISurface::Paramet
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
 
 ## Availability

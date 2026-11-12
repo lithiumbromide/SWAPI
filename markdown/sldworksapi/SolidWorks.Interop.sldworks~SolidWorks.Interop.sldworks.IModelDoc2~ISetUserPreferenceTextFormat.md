@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ISetUserPreferenceTextFormat Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::SetUserPreferenceTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceTextFormat.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::SetUserPreferenceTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceTextFormat.html).
 
 ## Syntax
 
@@ -55,17 +51,11 @@ System.bool ISetUserPreferenceTextFormat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UserPreferenceValue`: User preference to change as defined in[swUserPreferenceTextFormat_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceTextFormat_e.html)
+- `UserPreferenceValue`: User preference to change as defined in [swUserPreferenceTextFormat_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceTextFormat_e.html)
 - `Value`: Text format to which to assign the user preference specified in UserPreferenceValue
 
 ### Return Value
@@ -74,25 +64,20 @@ True if the setting is changed successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ISetUserPreferenceTextFormat](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ISetUserPreferenceTextFormat.html)
-
-.
+See [ModelDoc2::ISetUserPreferenceTextFormat](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ISetUserPreferenceTextFormat.html).
 
 ## Remarks
 
 This method is
 
 - intended for setting detailing text formats.
-- equivalent to interactively setting document options in the SOLIDWORKS software.
+- equivalent to interactively setting document options in the SOLIDWORKS Design software.
 
-See[System Options and Document Properties](sldworksapiprogguide.chm::/overview/System_Options_and_Document_Properties.htm)for details.
+See [System Options and Document Properties](sldworksapiprogguide.chm::/overview/System_Options_and_Document_Properties.htm) for details.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

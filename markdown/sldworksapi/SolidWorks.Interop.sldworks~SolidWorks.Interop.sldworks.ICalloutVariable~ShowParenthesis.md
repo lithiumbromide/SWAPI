@@ -45,13 +45,7 @@ property System.bool ShowParenthesis {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ True to show parentheses around linear tolerance dimensions, false to not
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::ShowParenthesis](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~ShowParenthesis.html)
-
-.
+See [CalloutVariable::ShowParenthesis](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~ShowParenthesis.html).
 
 ## Remarks
 
 This property supports bilateral, symmetric, or fit-with-tolerance types only.
 
-In SOLIDWORKS 2016 and later, use this property to set whether to show parentheses around linear tolerance dimensions in a hole callout. Calling[IDimensionTolerance::ShowParenthesis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance~ShowParenthesis.html)to set whether to show parentheses around linear tolerance dimensions in a hole callout does not override this property's setting.
+In SOLIDWORKS 2016 and later, use this property to set whether to show parentheses around linear tolerance dimensions in a hole callout. Calling [IDimensionTolerance::ShowParenthesis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance~ShowParenthesis.html) to set whether to show parentheses around linear tolerance dimensions in a hole callout does not override this property's setting.
 
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
 
 ## Availability

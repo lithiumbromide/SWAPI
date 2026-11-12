@@ -40,13 +40,7 @@ System.bool UpdateSpeedPak()
 System.bool UpdateSpeedPak();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ True to update the SpeedPak configuration, false to not
 
 ## VBA Syntax
 
-See
-
-[Configuration::UpdateSpeedPak](ms-its:sldworksapivb6.chm::/sldworks~Configuration~UpdateSpeedPak.html)
-
-.
+See [Configuration::UpdateSpeedPak](ms-its:sldworksapivb6.chm::/sldworks~Configuration~UpdateSpeedPak.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::IsSpeedPak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IsSpeedPak.html)
-
 [IConfigurationManager::AddSpeedPak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~AddSpeedPak.html)
-
 [IAssemblyDoc::UpdateSpeedPak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~UpdateSpeedPak.html)
 
 ## Availability

@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Features_in_Reverse_Order_Example_VB.htm"
 
 # Get Features in Reverse Order Example (VBA)
 
-This example shows how to get the names and types of features in the FeatureManager
-design
-tree in reverse chronological order.
+This example shows how to get the names and types of features in the FeatureManager design tree in reverse chronological order.
 
 ```
 '--------------------------------------------

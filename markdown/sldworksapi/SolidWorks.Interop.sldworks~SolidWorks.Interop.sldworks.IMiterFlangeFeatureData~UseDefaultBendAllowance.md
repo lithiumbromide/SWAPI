@@ -45,13 +45,7 @@ property System.bool UseDefaultBendAllowance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,17 @@ True to use the default bend allowance, false to not
 
 ## VBA Syntax
 
-See
-
-[MiterFlangeFeatureData::UseDefaultBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~UseDefaultBendAllowance.html)
-
-.
+See [MiterFlangeFeatureData::UseDefaultBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~UseDefaultBendAllowance.html).
 
 ## Examples
 
-See
-
-[IMiterFlangeFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMiterFlangeFeatureData.html)
-
-examples.
+See [IMiterFlangeFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMiterFlangeFeatureData.html) examples.
 
 ## See Also
 
 [IMiterFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData.html)
-
 [IMiterFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData_members.html)
-
 [IMiterFlangeFeatureData::GetCustomBendAllowance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData~GetCustomBendAllowance.html)
-
 [IMiterFlangeFeatureData::SetCustomBendAllowance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData~SetCustomBendAllowance.html)
 
 ## Availability

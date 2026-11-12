@@ -9,8 +9,7 @@ source: "sldworksapi/Export_BOM's_Second_Column_to_BOM_Table_Area_Example_VB.htm
 
 # Export BOM's Second Column to BOM Table Area Example (VBA)
 
-This example shows how to export a BOM's second column to a BOM Table Area of
-a SOLIDWORKS MBD 3D PDF.
+This example shows how to export a BOM's second column to a BOM Table Area of a SOLIDWORKS MBD 3D PDF.
 
 ```
 '----------------------------------------------------------------------------

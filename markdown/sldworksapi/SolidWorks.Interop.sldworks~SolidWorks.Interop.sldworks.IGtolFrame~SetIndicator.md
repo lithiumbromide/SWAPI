@@ -59,29 +59,13 @@ System.bool SetIndicator(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `IndicatorIndex`: One-based index of Gtol frame indicator to set
-- `BorderType`: Type of border as defined by
-
-[swGtolIndicatorBorderType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolIndicatorBorderType_e.html)
-- `TolType`: Tolerance type as defined by
-
-[swGtolGeomCharSymbol_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolGeomCharSymbol_e.html)
-
-(see
-
-Remarks
-
-)
+- `BorderType`: Type of border as defined by [swGtolIndicatorBorderType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolIndicatorBorderType_e.html)
+- `TolType`: Tolerance type as defined by [swGtolGeomCharSymbol_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGtolGeomCharSymbol_e.html) (see **Remarks**)
 - `Datum`: Datum feature symbol that refers to the BorderType
 
 ### Return Value
@@ -90,23 +74,15 @@ True if indicator successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[GtolFrame::SetIndicator](ms-its:sldworksapivb6.chm::/sldworks~GtolFrame~SetIndicator.html)
-
-.
+See [GtolFrame::SetIndicator](ms-its:sldworksapivb6.chm::/sldworks~GtolFrame~SetIndicator.html).
 
 ## Examples
 
-See the
-
-[IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
-examples.
+See the [IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html) examples.
 
 ## Remarks
 
-Before calling this method, use[IGtolFrame:GetIndicatorCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame~GetIndicatorCount.html)to determine IndicatorIndex.
+Before calling this method, use [IGtolFrame:GetIndicatorCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame~GetIndicatorCount.html) to determine IndicatorIndex.
 
 TolType may be one of only swGtolGeomCharSymbol_e.:
 
@@ -119,7 +95,6 @@ TolType may be one of only swGtolGeomCharSymbol_e.:
 ## See Also
 
 [IGtolFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
 [IGtolFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame_members.html)
 
 ## Availability

@@ -63,26 +63,12 @@ System.int IAddDynamicClearance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Comp1`: First
-
-[component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-of the clearance pair
-- `Comp2`: Second
-
-[component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-of the clearance pair
+- `Comp1`: First [component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) of the clearance pair
+- `Comp2`: Second [component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) of the clearance pair
 - `Value`: Minimum clearance distance
 - `AppendFlag`: True appends the component to the list, false overwrites the list
 - `ShowDim`: True displays a dynamic reference dimension of the minimum clearance distance
@@ -93,20 +79,13 @@ Newly added clearance pair
 
 ## VBA Syntax
 
-See
-
-[DragOperator::IAddDynamicClearance](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~IAddDynamicClearance.html)
-
-.
+See [DragOperator::IAddDynamicClearance](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~IAddDynamicClearance.html).
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
-
 [IDragOperator::AddDynamicClearance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~AddDynamicClearance.html)
-
 [IDragOperator::DynamicClearanceEnabled Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~DynamicClearanceEnabled.html)
 
 ## Availability

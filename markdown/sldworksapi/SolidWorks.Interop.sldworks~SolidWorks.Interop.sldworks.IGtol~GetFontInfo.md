@@ -40,34 +40,22 @@ System.object GetFontInfo()
 System.Object^ GetFontInfo();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Object containing the font information (see**Remarks**)
+Object containing the font information (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetFontInfo](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetFontInfo.html)
-
-.
+See [Gtol::GetFontInfo](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetFontInfo.html).
 
 ## Remarks
 
-Format of return value is an array of doubles. Currently this consists only of a[line type index](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html).
+Format of return value is an array of doubles. Currently this consists only of a [line type index](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::IGetFontInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetFontInfo.html)

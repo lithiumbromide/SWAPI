@@ -45,41 +45,19 @@ property System.int Style {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Balloon style as defined in
-
-[swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
-
-; specify -1 to use the document default balloon style (see
-
-Remarks
-
-)
+Balloon style as defined in [swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html); specify -1 to use the document default balloon style (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[BalloonOptions::Style](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~Style.html)
-
-.
+See [BalloonOptions::Style](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~Style.html).
 
 ## Examples
 
-See
-
-[IBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonOptions.html)
-
-examples.
+See [IBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonOptions.html) examples.
 
 ## Remarks
 
@@ -93,7 +71,6 @@ See the SOLIDWORKS Help for additional details about balloons.
 ## See Also
 
 [IBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions.html)
-
 [IBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions_members.html)
 
 ## Availability

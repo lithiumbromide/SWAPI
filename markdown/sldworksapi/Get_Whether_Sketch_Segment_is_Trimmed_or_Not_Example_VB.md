@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Whether_Sketch_Segment_is_Trimmed_or_Not_Example_VB.htm
 
 # Get Whether Sketch Segment is Trimmed or Not Example (VBA)
 
-This example shows how to determine if a sketch segment is trimmed or
-not.
+This example shows how to determine if a sketch segment is trimmed or not.
 
 ```
 '---------------------------------------------

@@ -42,13 +42,7 @@ property MathTransform^ Transform {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[CoordinateSystemFeatureData::Transform](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemFeatureData~Transform.html)
-
-.
+See [CoordinateSystemFeatureData::Transform](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemFeatureData~Transform.html).
 
 ## Examples
 
 [Create Coordinate System Feature (VBA)](Create_Coordinate_System_Feature_Example_VB.htm)
-
 [Get Points of Repeating Elements in Table-driven Pattern (C#)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_CSharp.htm)
-
 [Get Points of Repeating Elements in Table-driven Pattern (VB.NET)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_VBNET.htm)
-
 [Get Points of Repeating Elements in Table-driven Pattern (VBA)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_VB.htm)
 
 ## See Also
 
 [ICoordinateSystemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData.html)
-
 [ICoordinateSystemFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData_members.html)
 
 ## Availability

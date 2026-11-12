@@ -42,44 +42,27 @@ CostAnalysis^ GetCostAnalysis();
 
 ### Return Value
 
-Existing
-
-[Cost analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html)
-
-for this Costing body
+Existing [Cost analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html) for this Costing body
 
 ## VBA Syntax
 
-See
-
-[CostBody::GetCostAnalysis](swcostingapivb6.chm::/SldCostingAPI~CostBody~GetCostAnalysis.html)
-
-.
+See [CostBody::GetCostAnalysis](swcostingapivb6.chm::/SldCostingAPI~CostBody~GetCostAnalysis.html).
 
 ## Examples
 
 [Create Machining Costing Analysis (C#)](Create_Machining_Costing_Analyses_Example_CSharp.htm)
-
 [Create Machining Costing Analysis (VB.NET)](Create_Machining_Costing_Analyses_Example_VBNET.htm)
-
 [Create Machining Costing Analysis (VBA)](Create_Machining_Costing_Analyses_Example_VB.htm)
-
 [Create Sheet Metal Costing Analysis (C#)](Create_Sheet_Metal_Costing_Analyses_Example_CSharp.htm)
-
 [Create Sheet Metal Costing Analysis (VB.NET)](Create_Sheet_Metal_Costing_Analyses_Example_VBNET.htm)
-
 [Create Sheet Metal Costing Analysis (VBA)](Create_Sheet_Metal_Costing_Analyses_Example_VB.htm)
 
 ## See Also
 
 [ICostBody Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody.html)
-
 [ICostBody Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody_members.html)
-
 [ICostBody::CreateCostAnalysis Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody~CreateCostAnalysis.html)
-
 [ICostPart::CreateCostAnalysis Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~CreateCostAnalysis.html)
-
 [ICostPart::GetCostAnalysis Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostAnalysis.html)
 
 ## Availability

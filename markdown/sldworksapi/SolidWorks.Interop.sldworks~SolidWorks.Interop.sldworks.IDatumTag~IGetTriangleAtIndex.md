@@ -47,13 +47,7 @@ System.double IGetTriangleAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,17 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTag::IGetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~IGetTriangleAtIndex.html)
-
-.
+See [DatumTag::IGetTriangleAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~IGetTriangleAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-[vertexPt1[3],vertexPt2[3],vertexPt3[3],isFilled,lineType]
+[ vertexPt1[3], vertexPt2[3], vertexPt3[3], isFilled, lineType ]
 
 where:
 
@@ -93,11 +79,7 @@ where:
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::GetTriangleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTriangleAtIndex.html)
-
 [IDatumTag::GetTriangleCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetTriangleCount.html)
-
 [IDatumTag::FilledTriangle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~FilledTriangle.html)

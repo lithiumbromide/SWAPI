@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISM
 
 # ISMNormalCutFeatureData2 Interface Properties
 
-For a list of all members of this type, see[ISMNormalCutFeatureData2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html).
+For a list of all members of this type, see [ISMNormalCutFeatureData2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html).
 
 ## Public Properties
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[ISMNormalCutFeatureData2 members](So
 ## See Also
 
 [ISMNormalCutFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

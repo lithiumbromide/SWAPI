@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # SetTemperatureCurve Method (ICWHeatPower)
 
-Obsolete. Superseded by[ICWHeatPower::SetTemperatureCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~SetTemperatureCurve2.html).
+Obsolete. Superseded by [ICWHeatPower::SetTemperatureCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~SetTemperatureCurve2.html).
 
 ## Syntax
 
@@ -53,8 +53,8 @@ System.int SetTemperatureCurve(
 
 ### Parameters
 
-- `VarCurveData`: Array of temperature curve data (see**Remarks**)
-- `ErrorCode`: Temperature curve error as defined in[swsTemperatureCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureCurveError_e.html)
+- `VarCurveData`: Array of temperature curve data (see **Remarks**)
+- `ErrorCode`: Temperature curve error as defined in [swsTemperatureCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureCurveError_e.html)
 
 ### Return Value
 
@@ -62,32 +62,25 @@ System.int SetTemperatureCurve(
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::SetTemperatureCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~SetTemperatureCurve.html)
-
-.
+See [CWHeatPower::SetTemperatureCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~SetTemperatureCurve.html).
 
 ## Remarks
 
 Temperature curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = temperature value at the`ith`data point
+- xi = temperature value at the `ith` data point
 - yi = property value associated with temperature xi
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::GetTemperatureCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~GetTemperatureCurve.html)
-
 [ICWHeatPower::UseTemperatureCurve Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~UseTemperatureCurve.html)
 
 ## Availability

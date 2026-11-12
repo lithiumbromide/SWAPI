@@ -9,20 +9,15 @@ source: "obsoleteapi/ModelDoc/ModelDoc__AddDiameterDimension.htm"
 
 # ModelDoc::AddDiameterDimension
 
-This
-method is now obsolete and has been superseded by[ModelDoc::AddDiameterDimension2](ModelDoc__AddDiameterDimension2.htm)
+This method is now obsolete and has been superseded by [ModelDoc::AddDiameterDimension2](ModelDoc__AddDiameterDimension2.htm)
 
 Description
 
-This method adds a diameter dimension at the specified location for
-the selected item.
+This method adds a diameter dimension at the specified location for the selected item.
 
 Syntax (OLE Automation)
 
-retval = ModelDoc.AddDiameterDimension
-( x, y, z)
-
-(Table)=========================================================
+retval = ModelDoc.AddDiameterDimension ( x, y, z)
 
 | Input: | (double) x | X location for the dimension |
 | --- | --- | --- |
@@ -32,10 +27,7 @@ retval = ModelDoc.AddDiameterDimension
 
 Syntax (COM)
 
-status = ModelDoc->AddDiameterDimension
-( x, y, z, &retval )
-
-(Table)=========================================================
+status = ModelDoc->AddDiameterDimension ( x, y, z, &retval )
 
 | Input: | (double) x | X location for the dimension |
 | --- | --- | --- |
@@ -45,28 +37,3 @@ status = ModelDoc->AddDiameterDimension
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name=_Version value="65536" >
-<param name=_ExtentX value="1323" >
-<param name=_ExtentY value="556" >
-<param name=_StockProps value="13" >
-<param name=ForeColor value="0" >
-<param name=BackColor value="13160660" >
-<param name=UseButton value="0" >
-<param name=ControlLabel value="See Also" >
-<param name=UseIcon value="0" >
-<param name=Items value="ModelDoc_Object$$**$$" >
-<param name=Image value="" >
-<param name=FontInfo value="MS Sans Serif,8,0,," >
-<param name=_CURRENTFILEPATH value="C:\Home\Oneill\ModelDoc\ModelDoc__AddDiameterDimension.htm" >
-<param name=_ID value="RelatedTopic0" >
-<param name=DialogDisplay value="0" >
-<param name=Frame value="" >
-<param name=Window value="" >
-<param name=ChmFile value="" >
-<param name=DisableJump value="0" >
-</object>Metadata type="DesignerControl" endspan

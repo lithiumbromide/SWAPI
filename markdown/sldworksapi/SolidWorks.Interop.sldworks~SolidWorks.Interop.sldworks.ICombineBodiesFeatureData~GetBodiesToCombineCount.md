@@ -40,13 +40,7 @@ System.int GetBodiesToCombineCount()
 System.int GetBodiesToCombineCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,17 @@ Number of bodies to combine
 
 ## VBA Syntax
 
-See
-
-[CombineBodiesFeatureData::GetBodiesToCombineCount](ms-its:sldworksapivb6.chm::/sldworks~CombineBodiesFeatureData~GetBodiesToCombineCount.html)
-
-.
+See [CombineBodiesFeatureData::GetBodiesToCombineCount](ms-its:sldworksapivb6.chm::/sldworks~CombineBodiesFeatureData~GetBodiesToCombineCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ICombineBodiesFeatureData::IGetBodiesToCombine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICombineBodiesFeatureData~IGetBodiesToCombine.html)
-
-to determine the size of the array for that method.
+Call this method before calling [ICombineBodiesFeatureData::IGetBodiesToCombine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICombineBodiesFeatureData~IGetBodiesToCombine.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ICombineBodiesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICombineBodiesFeatureData.html)
-
 [ICombineBodiesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICombineBodiesFeatureData_members.html)
-
 [IColorTable::ISetBodiesToCombine Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICombineBodiesFeatureData~ISetBodiesToCombine.html)
-
 [IColorTable::BodiesToCombine Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICombineBodiesFeatureData~BodiesToCombine.html)
 
 ## Availability

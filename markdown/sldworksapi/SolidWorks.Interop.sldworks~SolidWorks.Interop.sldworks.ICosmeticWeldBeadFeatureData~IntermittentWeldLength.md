@@ -45,50 +45,27 @@ property System.double IntermittentWeldLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Length of weld for intermittent weld beads (see
-
-Remarks
-
-)
+Length of weld for intermittent weld beads (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFeatureData::IntermittentWeldLength](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~IntermittentWeldLength.html)
-
-.
+See [CosmeticWeldBeadFeatureData::IntermittentWeldLength](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~IntermittentWeldLength.html).
 
 ## Examples
 
-See
-
-[ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
-examples.
+See [ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ICosmeticWeldBeadFeatureData::IntermittentWeld](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData~IntermittentWeld.html)
-
-is true.
+This property is valid only if [ICosmeticWeldBeadFeatureData::IntermittentWeld](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData~IntermittentWeld.html) is true.
 
 ## See Also
 
 [ICosmeticWeldBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
 [ICosmeticWeldBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "DimXpertManager Object
-Members"
+title: "DimXpertManager Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DimXpertManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DimXpertManager_members.html"
 ---
 
-# DimXpertManager Object
-Members
+# DimXpertManager Object Members
 
 ## Public Properties
 

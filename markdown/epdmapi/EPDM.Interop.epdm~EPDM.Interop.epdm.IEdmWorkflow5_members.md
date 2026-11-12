@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5_members.html"
 
 # IEdmWorkflow5 Interface Members
 
-The following tables list the members exposed by[IEdmWorkflow5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5.html).
+The following tables list the members exposed by [IEdmWorkflow5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5.html).
 
 ## Public Properties
 
@@ -35,5 +35,4 @@ The following tables list the members exposed by[IEdmWorkflow5](EPDM.Interop.epd
 ## See Also
 
 [IEdmWorkflow5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

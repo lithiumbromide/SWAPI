@@ -48,11 +48,7 @@ True if the compound hole is blind; false if through all
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompoundHoleFeature::Blind](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundHoleFeature~Blind.html)
-
-.
+See [SwDMDimXpertCompoundHoleFeature::Blind](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundHoleFeature~Blind.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature.html)
-
 [ISwDMDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature_members.html)
 
 ## Availability

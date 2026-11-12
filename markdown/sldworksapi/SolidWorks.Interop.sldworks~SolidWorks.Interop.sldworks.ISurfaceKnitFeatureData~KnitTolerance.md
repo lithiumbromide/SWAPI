@@ -45,41 +45,25 @@ property System.double KnitTolerance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Knit tolerance (see
-
-Remarks
-
-)
+Knit tolerance (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SurfaceKnitFeatureData::KnitTolerance](ms-its:sldworksapivb6.chm::/sldworks~SurfaceKnitFeatureData~KnitTolerance.html)
-
-.
+See [SurfaceKnitFeatureData::KnitTolerance](ms-its:sldworksapivb6.chm::/sldworks~SurfaceKnitFeatureData~KnitTolerance.html).
 
 ## Examples
 
 [Create Knit Surface Feature (VB.NET)](Create_Surface_Knit_Feature_Example_VBNET.htm)
-
 [Create Knit Surface Feature (VBA)](Create_Surface_Knit_Feature_Example_VB6.htm)
-
 [Create Knit Surface Feature (C#)](Create_Surface_Knit_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-[ISurfaceKnitFeatureData::UseGapFilters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceKnitFeatureData~UseGapFilters.html)must be true for this property to have an effect.
+[ISurfaceKnitFeatureData::UseGapFilters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceKnitFeatureData~UseGapFilters.html) must be true for this property to have an effect.
 
 A knit tolerance's:
 
@@ -88,14 +72,13 @@ A knit tolerance's:
 
 The knit tolerance value should be in a gap range such that:
 
-([Minimum gap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceKnitFeatureData~MinValueForGapRange.html)) <= (Knit tolerance) <= MIN(0.1 mm,[Maximum gap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceKnitFeatureData~MaxValueForGapRange.html))
+([Minimum gap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceKnitFeatureData~MinValueForGapRange.html)) <= (Knit tolerance) <= MIN(0.1 mm, [Maximum gap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceKnitFeatureData~MaxValueForGapRange.html))
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISurfaceKnitFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData.html)
-
 [ISurfaceKnitFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData_members.html)
 
 ## Availability

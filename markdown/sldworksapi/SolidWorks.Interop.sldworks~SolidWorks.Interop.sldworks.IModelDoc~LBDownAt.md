@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # LBDownAt Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::LBDownAt](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~LBDownAt.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::LBDownAt](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~LBDownAt.html).
 
 ## Syntax
 
@@ -62,13 +58,7 @@ void LBDownAt(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,14 +69,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::LBDownAt](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~LBDownAt.html)
-
-.
+See [ModelDoc::LBDownAt](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~LBDownAt.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

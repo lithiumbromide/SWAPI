@@ -40,44 +40,24 @@ System.object GetFacets()
 System.Object^ GetFacets();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-s
+Array of [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)s
 
 ## VBA Syntax
 
-See
-
-[MeshBody::GetFacets](ms-its:sldworksapivb6.chm::/sldworks~MeshBody~GetFacets.html)
-
-.
+See [MeshBody::GetFacets](ms-its:sldworksapivb6.chm::/sldworks~MeshBody~GetFacets.html).
 
 ## Examples
 
-See the
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-examples.
+See the [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html) examples.
 
 ## See Also
 
 [IMeshBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody.html)
-
 [IMeshBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody_members.html)
-
 [IMeshBody::GetFacetCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody~GetFacetCount.html)
 
 ## Availability

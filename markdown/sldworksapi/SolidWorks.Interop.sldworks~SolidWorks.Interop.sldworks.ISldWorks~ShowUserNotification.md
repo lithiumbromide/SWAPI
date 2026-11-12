@@ -51,13 +51,7 @@ System.int ShowUserNotification(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,30 +60,19 @@ See
 
 ### Return Value
 
-Result code as defined by
-
-[swShowNotificationResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swShowNotificationResult_e.html)
+Result code as defined by [swShowNotificationResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swShowNotificationResult_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ShowUserNotification](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowUserNotification.html)
-
-.
+See [SldWorks::ShowUserNotification](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowUserNotification.html).
 
 ## Examples
 
-See the
-
-[IUserNotificationHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html)
-
-examples.
+See the [IUserNotificationHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html) examples.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

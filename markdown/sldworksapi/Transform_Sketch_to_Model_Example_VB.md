@@ -9,9 +9,7 @@ source: "sldworksapi/Transform_Sketch_to_Model_Example_VB.htm"
 
 # Transform Sketch to Model Example (VBA)
 
-When a sketch point is created, its x, y, and z location values are in
-relation to the sketch origin. This example shows how to get the sketch point’s coordinates in relation to the
-model origin using a MathUtility object.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+When a sketch point is created, its x, y, and z location values are in relation to the sketch origin. This example shows how to get the sketch point’s coordinates in relation to the model origin using a MathUtility object.
 
 ```
 '-----------------------------------------------------------------------
@@ -23,7 +21,7 @@ model origin using a MathUtility object.kadov_tag{{<spaces>}}kadov_tag{{</spaces
 '  1. Gets a MathUtility object from the current model document.
 '  2. Gets the selected sketch that contains the points whose
 '     coordinates to modify.
-'  3. Fills n array with all of the points in the sketch.
+'  3. Fills array with all of the points in the sketch.
 '  4. Creates a coordinate array with the x, y, and z value sof a sketch point
 '     from the sketch-point array.
 '  5. Creates a new MathPoint object from the MathUtility object, providing
@@ -58,7 +56,7 @@ Sub main()
 ```
 
 ```
-    'Connect the program to SOLIDWORKS
+    'Connect to SOLIDWORKS Design
     Set swApp = CreateObject("SldWorks.Application")
     Set Model = swApp.ActiveDoc
 ```

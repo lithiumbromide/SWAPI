@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # IAccessSelections Method (IEdgeFlangeFeatureData)
 
-Obsolete. Superseded by
-
-[IEdgeFlangeFeatureData::IAccessSelections2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~IAccessSelections2.html)
-
-.
+Obsolete. Superseded by [IEdgeFlangeFeatureData::IAccessSelections2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~IAccessSelections2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool IAccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~IAccessSelections.html)
-
-.
+See [EdgeFlangeFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~IAccessSelections.html).
 
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)

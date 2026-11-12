@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRi
 
 Allows access to a rigid connector.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class ICWRigidConnector
 
 ## VBA Syntax
 
-See
-
-[CWRigidConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRigidConnector.html)
-
-.
+See [CWRigidConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRigidConnector.html).
 
 ## Examples
 
 [Add Rigid Connector (VBA)](Add_Rigid_Connector_Example_VB.htm)
-
 [Add Rigid Connector (VB.NET)](Add_Rigid_Connector_Example_VBNET.htm)
-
 [Add Rigid Connector (C#)](Add_Rigid_Connector_Example_CSharp.htm)
 
 ## Accessors
@@ -68,5 +56,4 @@ See
 ## See Also
 
 [ICWRigidConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

@@ -42,30 +42,19 @@ System.int ContactSetEndEdit();
 
 ### Return Value
 
-Error as defined in
-
-[swsContactSetEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactSetEndEditError_e.html)
+Error as defined in [swsContactSetEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactSetEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWContactSet::ContactSetEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~ContactSetEndEdit.html)
-
-.
+See [CWContactSet::ContactSetEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~ContactSetEndEdit.html).
 
 ## Remarks
 
-To start editing a contact set, call
-
-[ICWContactSet::ContactSetBeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ContactSetBeginEdit.html)
-
-. You must call this method to end editing that contact set. Changes are not applied unless you call both methods.
+To start editing a contact set, call [ICWContactSet::ContactSetBeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ContactSetBeginEdit.html). You must call this method to end editing that contact set. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWContactSet Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet_members.html)
 
 ## Availability

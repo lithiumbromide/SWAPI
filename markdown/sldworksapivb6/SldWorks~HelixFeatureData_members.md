@@ -1,6 +1,5 @@
 ---
-title: "HelixFeatureData Object
-Members"
+title: "HelixFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "HelixFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~HelixFeatureData_members.html"
 ---
 
-# HelixFeatureData Object
-Members
+# HelixFeatureData Object Members
 
 ## Public Methods
 

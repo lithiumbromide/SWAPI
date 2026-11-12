@@ -35,20 +35,16 @@ property EdmVariableType VariableType {
 
 ### Property Value
 
-Type of data that can be stored in this variable as defined in
-
-[EdmVariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html)
+Type of data that can be stored in this variable as defined in [EdmVariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html)
 
 ## Examples
 
 [Access File Card Variables (VB.NET)](Access_File_Card_Variables_Example_VBNET.htm)
-
 [Access File Card Variables (C#)](Access_File_Card_Variables_Example_CSharp.htm)
 
 ## See Also
 
 [IEdmVariable5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5.html)
-
 [IEdmVariable5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5_members.html)
 
 ## Availability

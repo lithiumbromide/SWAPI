@@ -39,17 +39,40 @@ void GetGroupMemberships(
 
 ### Parameters
 
-- `poGroups`: Array of
-
-[IEdmUserGroup6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6.html)
-
-interfaces
+- `poGroups`: Array of [IEdmUserGroup6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6.html) interfaces
 
 ## Examples
 
 The following sample code displays a message box with the names of all the groups to which a user, John, belongs:
 
-Private Sub GetJohnsGroups(ByVal vault As IEdmVault12) 'Get the user interface of user 'John' Dim userMgr As IEdmUserMgr7 userMgr = vault.CreateUtility(EdmUtility.EdmUtil_UserMgr) Dim john As IEdmUser8 john = userMgr.GetUser("John") 'Get the groups to which he belongs Dim groups() As Object groups = Nothing john.GetGroupMemberships(groups) 'Display a message box with the group names Dim message As String message = "John's groups:" + vbLf Dim i As Integer i = LBound(groups) While (i <= UBound(groups)) Dim group As IEdmUserGroup7 group = groups(i) message = message + group.Name + vbLf i = i + 1 End While MsgBox(message) End Sub
+Private Sub GetJohnsGroups(ByVal vault As IEdmVault12)
+
+'Get the user interface of user 'John'
+Dim userMgr As IEdmUserMgr7
+userMgr = vault.CreateUtility(EdmUtility.EdmUtil_UserMgr)
+Dim john As IEdmUser8
+john = userMgr.GetUser("John")
+
+'Get the groups to which he belongs
+Dim groups() As Object
+groups = Nothing
+john.GetGroupMemberships(groups)
+
+'Display a message box with the group names
+Dim message As String
+message = "John's groups:" + vbLf
+Dim i As Integer
+i = LBound(groups)
+While (i <= UBound(groups))
+Dim group As IEdmUserGroup7
+group = groups(i)
+message = message + group.Name + vbLf
+i = i + 1
+End While
+
+MsgBox(message)
+
+End Sub
 
 ## Remarks
 
@@ -60,9 +83,7 @@ Private Sub GetJohnsGroups(ByVal vault As IEdmVault12) 'Get the user interface o
 ## See Also
 
 [IEdmUser8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser8.html)
-
 [IEdmUser8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser8_members.html)
-
 [IEdmUser9::GetGroupMembershipsInFolder Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser9~GetGroupMembershipsInFolder.html)
 
 ## Availability

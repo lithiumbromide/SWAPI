@@ -51,13 +51,7 @@ Feature^ CreateFormTool2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,33 +64,26 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::CreateFormTool2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CreateFormTool2.html)
-
-.
+See [FeatureManager::CreateFormTool2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CreateFormTool2.html).
 
 ## Examples
 
 [Create Forming Tool (VBA)](Create_Forming_Tool_Example_VB.htm)
-
 [Create Forming Tool (VB.NET)](Create_Forming_Tool_Example_VBNET.htm)
-
 [Create Forming Tool (C#)](Create_Forming_Tool_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, call[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html):
+Before calling this method, call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html):
 
 1. with Append = True and Mark = 1 to select the stopping face.
 2. (optional) one or more times with Append = True and Mark = 2 to select the faces to remove.
 
-To insert a forming tool from the Design Library, call[IFeatureManager::InsertFormToolFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFormToolFeature.html).
+To insert a forming tool from the Design Library, call [IFeatureManager::InsertFormToolFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertFormToolFeature.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

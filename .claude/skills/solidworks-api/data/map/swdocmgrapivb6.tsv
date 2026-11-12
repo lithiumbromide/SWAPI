@@ -1,0 +1,1011 @@
+#swapi-map 1 module=swdocmgrapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@ISwDMApplication3	o
+GetExternalReferenceOptionObject	m	Function GetExternalReferenceOptionObject() As SwDMExternalReferenceOption
+@ISwDMApplication4	o
+GetExternalReferenceOptionObject2	m	Function GetExternalReferenceOptionObject2() As SwDMExternalReferenceOption2
+@ISwDMApplication5	o
+GetPreviewBitmapForAnnotationFiles	m	Function GetPreviewBitmapForAnnotationFiles(ByVal fileName As String, ByRef result As SwDmAnnotationFileOpenError) As Object
+@ISwDMComponent10	o
+ComponentReference	p	Property ComponentReference As String
+@ISwDMComponent11	o
+Name3	p	Property Name3 As String
+SelectName2	p	Property SelectName2 As String
+@ISwDMComponent12	o
+GetCustomProperty	m	Function GetCustomProperty(ByVal FieldName As String, ByRef type As Long:SwDmCustomInfoType) As String
+@ISwDMComponent7	o
+Name2	p	Property Name2 As String
+SelectName	p	Property SelectName As String
+@ISwDMComponent8	o
+ConfigurationID	p	Property ConfigurationID As Long
+@ISwDMComponent9	o
+GetID	m	Function GetID() As Long
+@ISwDMConfiguration11	o
+BOMPartNoSource	p	Property BOMPartNoSource As Long:swDmBOMPartNumberSource
+GetReplacedComponents	m	Function GetReplacedComponents(ByRef ComponentNames As Variant, ByRef ConfigurationNames As Variant, ByRef NewFilenames As Variant, ByRef MatesReattached As Variant) As HResult
+IsSpeedPak	m	Function IsSpeedPak() As Boolean
+ShowChildComponentsInBOM	p	Property ShowChildComponentsInBOM As Long:swDmShowChildComponentsInBOMResult
+@ISwDMConfiguration12	o
+DimXpertPart	p	Property DimXpertPart As SwDMDimXpertPart
+GetComponentVisibleByDisplayStateName	m	Function GetComponentVisibleByDisplayStateName(ByVal DisplayStateName As String, ByRef ComponentVisibleList As Variant, ByRef ComponentFileDirectory As Variant) As HResult
+GetID	m	Function GetID() As Long
+GetLinkedDisplayStates	m	Function GetLinkedDisplayStates(ByRef DisplayStateNameList As Variant) As Long
+@ISwDMConfiguration13	o
+type	p	Property type As Long:swDmConfigurationType
+@ISwDMConfiguration14	o
+GetCustomProperty2	m	Function GetCustomProperty2(ByVal FieldName As String, ByRef type As SwDmCustomInfoType) As String
+@ISwDMConfiguration15	o
+IsCustomPropertyEditable	m	Function IsCustomPropertyEditable(ByVal FieldName As String, ByRef IsEditable As Boolean) As HResult
+ShowChildComponentsInBOM2	p	Property ShowChildComponentsInBOM2 As Long:swDmShowChildComponentsInBOMResult
+@ISwDMConfiguration16	o
+GetCutListItems	m	Function GetCutListItems() As Variant:SwDMCutListItem3
+@ISwDMConfiguration17	o
+Get3DExperienceType	m	Function Get3DExperienceType() As Long:swDm3DExperienceCfgType_e
+GetRepresentationParent	m	Function GetRepresentationParent() As String
+@ISwDMConfiguration18	o
+SetCustomProperty2	m	Function SetCustomProperty2(ByVal FieldName As String, ByVal newValue As String) As Boolean
+@ISwDMConfigurationMgr2	o
+GetConfigurationByName2	m	Function GetConfigurationByName2(ByVal ConfigurationName As String, ByRef result As SwDMConfigurationError) As SwDMConfiguration
+GetConfigurationCount2	m	Function GetConfigurationCount2(ByRef result As SwDMConfigurationError) As Long
+GetConfigurationNames2	m	Function GetConfigurationNames2(ByRef result As SwDMConfigurationError) As Variant
+@ISwDMCutListItem3	o
+IsCustomPropertyEditable	m	Function IsCustomPropertyEditable(ByVal FieldName As String, ByRef IsEditable As Boolean) As HResult
+@ISwDMCutListItem4	o
+CutlistType	p	Property CutlistType As swDMCutListType_e
+ExcludeFromCutlist	p	Property ExcludeFromCutlist As swDMCutListExclusionStatus_e
+@ISwDMDimXpertAngleBetweenDimTol	o
+GetDirectionVector	m	Function GetDirectionVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+OriginFeature	p	Property OriginFeature As SwDMDimXpertFeature
+Supplement	p	Property Supplement As Boolean
+@ISwDMDimXpertAngularityGeoTol	o
+@ISwDMDimXpertAnnotation	o
+Feature	p	Property Feature As SwDMDimXpertFeature
+GetCadIdentifierCount	m	Function GetCadIdentifierCount() As Long
+GetCadIdentifiers	m	Function GetCadIdentifiers() As Variant
+IGetCadIdentifiers	m	Function IGetCadIdentifiers(ByVal Count As Long) As String
+IsFreeState	m	Function IsFreeState() As Boolean
+IsStatistical	m	Function IsStatistical() As Boolean
+IsSuppressed	m	Function IsSuppressed() As Boolean
+IsToBeInspected	m	Function IsToBeInspected() As Boolean
+Name	p	Property Name As String
+type	p	Property type As swDmDimXpertAnnotationType_e
+@ISwDMDimXpertBestFitPlaneFeature	o
+GetNominalPlane	m	Function GetNominalPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:SwDMDimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As SwDMDimXpertFeature
+@ISwDMDimXpertBlockTolerances	o
+GetISO2768PartType	m	Function GetISO2768PartType(ByRef type As swDmDimXpertISO2768PartType_e) As Boolean
+GetToleranceValues	m	Function GetToleranceValues(ByRef Linear1 As Double, ByRef Linear1Prec As Long, ByRef Linear2 As Double, ByRef Linear2Prec As Long, ByRef Linear3 As Double, ByRef Linear3Prec As Long, ByRef Angular As Double) As Boolean
+type	p	Property type As swDmDimXpertBlockToleranceType_e
+@ISwDMDimXpertChamferDimTol	o
+ChamferType	p	Property ChamferType As swDmDimXpertChamferDimensionType_e
+@ISwDMDimXpertChamferFeature	o
+Angle	p	Property Angle As Double
+AngleType	p	Property AngleType As swDmDimXpertChamferAngleType_e
+ChamferType	p	Property ChamferType As swDmDimXpertChamferType_e
+Distance1	p	Property Distance1 As Double
+Distance2	p	Property Distance2 As Double
+@ISwDMDimXpertCircularityGeoTol	o
+@ISwDMDimXpertCircularRunoutGeoTol	o
+@ISwDMDimXpertCompositeDistanceBetweenDimTol	o
+BlockToleranceDecimalPlacesIntraFeature	p	Property BlockToleranceDecimalPlacesIntraFeature As Long
+DimensionTypeIntraFeature	p	Property DimensionTypeIntraFeature As swDmDimXpertDimensionToleranceType_e
+GetDirectionVector	m	Function GetDirectionVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetFeature	m	Function GetFeature(ByRef Feature As SwDMDimXpertFeature, ByRef FosUsage As swDmDimXpertDistanceFosUsage_e) As Boolean
+GetIntraFeature	m	Function GetIntraFeature(ByRef Feature As SwDMDimXpertFeature, ByRef FosUsage As swDmDimXpertDistanceFosUsage_e) As Boolean
+GetNominalValueIntraFeature	m	Function GetNominalValueIntraFeature() As Double
+GetOriginFeature	m	Function GetOriginFeature(ByRef Feature As SwDMDimXpertFeature, ByRef FosUsage As swDmDimXpertDistanceFosUsage_e) As Boolean
+GetPlusAndMinusToleranceIntraFeature	m	Function GetPlusAndMinusToleranceIntraFeature(ByRef Plus As Double, ByRef Minus As Double) As Boolean
+GetUpperAndLowerLimitIntraFeature	m	Function GetUpperAndLowerLimitIntraFeature(ByRef Upper As Double, ByRef Lower As Double) As Boolean
+LimitsAndFitsCodeIntraFeature	p	Property LimitsAndFitsCodeIntraFeature As String
+@ISwDMDimXpertCompositeLineProfileGeoTol	o
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+OuterToleranceValueLowerTier	p	Property OuterToleranceValueLowerTier As Double
+PrimaryInLowerTier	p	Property PrimaryInLowerTier As Boolean
+SecondaryInLowerTier	p	Property SecondaryInLowerTier As Boolean
+TertiaryInLowerTier	p	Property TertiaryInLowerTier As Boolean
+ToleranceLowerTier	p	Property ToleranceLowerTier As Double
+@ISwDMDimXpertCompositePositionGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetMaxToleranceLowerTier	m	Function GetMaxToleranceLowerTier(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetProjectedZone	m	Function GetProjectedZone(ByRef Enabled As Boolean, ByRef Value As Double) As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+ModifierLowerTier	p	Property ModifierLowerTier As swDmDimXpertMaterialConditionModifier_e
+PrimaryInLowerTier	p	Property PrimaryInLowerTier As Boolean
+SecondaryInLowerTier	p	Property SecondaryInLowerTier As Boolean
+TertiaryInLowerTier	p	Property TertiaryInLowerTier As Boolean
+ToleranceLowerTier	p	Property ToleranceLowerTier As Double
+ZoneType	p	Property ZoneType As swDmDimXpertPositionZoneType_e
+@ISwDMDimXpertCompositeSurfaceProfileGeoTol	o
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+OuterToleranceValueLowerTier	p	Property OuterToleranceValueLowerTier As Double
+PrimaryInLowerTier	p	Property PrimaryInLowerTier As Boolean
+SecondaryInLowerTier	p	Property SecondaryInLowerTier As Boolean
+TertiaryInLowerTier	p	Property TertiaryInLowerTier As Boolean
+ToleranceLowerTier	p	Property ToleranceLowerTier As Double
+@ISwDMDimXpertCompoundClosedSlot3dFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomFeature	m	Function GetBottomFeature() As SwDMDimXpertFeature
+GetEndFeatures	m	Function GetEndFeatures(ByRef End1 As SwDMDimXpertFeature, ByRef End2 As SwDMDimXpertFeature) As Boolean
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalClosedSlot	m	Function GetNominalClosedSlot(ByRef width As Double, ByRef Length As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double, ByRef LongitudeI As Double, ByRef LongitudeJ As Double, ByRef LongitudeK As Double) As Boolean
+GetNominalTopPlane	m	Function GetNominalTopPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Plane1 As SwDMDimXpertPlaneFeature, ByRef Plane2 As SwDMDimXpertPlaneFeature) As Boolean
+@ISwDMDimXpertCompoundHoleFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomFeature	m	Function GetBottomFeature() As SwDMDimXpertFeature
+GetReferenceFeature	m	Function GetReferenceFeature() As SwDMDimXpertFeature
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:SwDMDimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As SwDMDimXpertFeature
+@ISwDMDimXpertCompoundNotchFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomFeature	m	Function GetBottomFeature() As SwDMDimXpertFeature
+GetEndFeature	m	Function GetEndFeature() As SwDMDimXpertFeature
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalNotch	m	Function GetNominalNotch(ByRef width As Double, ByRef Length As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double, ByRef LongitudeI As Double, ByRef LongitudeJ As Double, ByRef LongitudeK As Double) As Boolean
+GetOpenSideReferenceFeature	m	Function GetOpenSideReferenceFeature() As SwDMDimXpertFeature
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Plane1 As SwDMDimXpertPlaneFeature, ByRef Plane2 As SwDMDimXpertPlaneFeature) As Boolean
+GetTopReferenceFeature	m	Function GetTopReferenceFeature() As SwDMDimXpertFeature
+@ISwDMDimXpertCompoundWidthFeature	o
+GetNominalCompoundWidth	m	Function GetNominalCompoundWidth(ByRef width As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalLongitude	m	Function GetNominalLongitude(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Plane1 As SwDMDimXpertPlaneFeature, ByRef Plane2 As SwDMDimXpertPlaneFeature) As Boolean
+Inner	p	Property Inner As Boolean
+@ISwDMDimXpertConcentricityGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+@ISwDMDimXpertConeAngleDimTol	o
+@ISwDMDimXpertConeFeature	o
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalCone	m	Function GetNominalCone(ByRef Angle As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalTopPlane	m	Function GetNominalTopPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+Inner	p	Property Inner As Boolean
+@ISwDMDimXpertCounterBoreDimTol	o
+ReferenceFeature	p	Property ReferenceFeature As SwDMDimXpertFeature
+@ISwDMDimXpertCounterSinkAngleDimTol	o
+ReferenceFeature	p	Property ReferenceFeature As SwDMDimXpertFeature
+@ISwDMDimXpertCounterSinkDiameterDimTol	o
+ReferenceFeature	p	Property ReferenceFeature As SwDMDimXpertFeature
+@ISwDMDimXpertCylinderFeature	o
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalCylinder	m	Function GetNominalCylinder(ByRef R As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalTopPlane	m	Function GetNominalTopPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetThread	m	Function GetThread(ByRef IsThreaded As Boolean, ByRef ThreadDesignation As String, ByRef ThreadDepth As Double) As Boolean
+Inner	p	Property Inner As Boolean
+@ISwDMDimXpertCylindricityGeoTol	o
+@ISwDMDimXpertDatum	o
+Identifier	p	Property Identifier As String
+@ISwDMDimXpertDepthDimTol	o
+IsThreadDepth	m	Function IsThreadDepth() As Boolean
+ReferenceFeature	p	Property ReferenceFeature As SwDMDimXpertFeature
+@ISwDMDimXpertDiameterDimTol	o
+PatternTreatment	p	Property PatternTreatment As swDmDimXpertPatternTreatmentType_e
+@ISwDMDimXpertDimensionTolerance	o
+BlockToleranceDecimalPlaces	p	Property BlockToleranceDecimalPlaces As Long
+DimensionType	p	Property DimensionType As swDmDimXpertDimensionToleranceType_e
+GetNominalValue	m	Function GetNominalValue() As Double
+GetPlusAndMinusTolerance	m	Function GetPlusAndMinusTolerance(ByRef Plus As Double, ByRef Minus As Double) As Boolean
+GetUpperAndLowerLimit	m	Function GetUpperAndLowerLimit(ByRef Upper As Double, ByRef Lower As Double) As Boolean
+LimitsAndFitsCode	p	Property LimitsAndFitsCode As String
+@ISwDMDimXpertDistanceBetweenDimTol	o
+GetDirectionVector	m	Function GetDirectionVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetFeature	m	Function GetFeature(ByRef Feature As SwDMDimXpertFeature, ByRef FosUsage As swDmDimXpertDistanceFosUsage_e) As Boolean
+GetOriginFeature	m	Function GetOriginFeature(ByRef Feature As SwDMDimXpertFeature, ByRef FosUsage As swDmDimXpertDistanceFosUsage_e) As Boolean
+PatternTreatment	p	Property PatternTreatment As swDmDimXpertPatternTreatmentType_e
+@ISwDMDimXpertExtrudeFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomBlends	m	Function GetBottomBlends() As SwDMDimXpertFeature
+GetBottomFeature	m	Function GetBottomFeature() As SwDMDimXpertFeature
+GetReferenceFeature	m	Function GetReferenceFeature() As SwDMDimXpertFeature
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:SwDMDimXpertFeature
+GetTopBlends	m	Function GetTopBlends() As SwDMDimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As SwDMDimXpertFeature
+@ISwDMDimXpertFeature	o
+GetCadIdentifierCount	m	Function GetCadIdentifierCount() As Long
+GetCadIdentifiers	m	Function GetCadIdentifiers() As Variant
+IGetCadIdentifiers	m	Function IGetCadIdentifiers(ByVal Count As Long) As String
+IsSuppressed	m	Function IsSuppressed() As Boolean
+Name	p	Property Name As String
+type	p	Property type As swDmDimXpertFeatureType_e
+@ISwDMDimXpertFilletFeature	o
+Inner	p	Property Inner As Boolean
+Radius	p	Property Radius As Double
+@ISwDMDimXpertFlatnessGeoTol	o
+GetPerUnitArea	m	Function GetPerUnitArea(ByRef Enabled As Boolean, ByRef Length As Double, ByRef width As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@ISwDMDimXpertGeometricTolerance	o
+GetPrimaryDatumCount	m	Function GetPrimaryDatumCount() As Long
+GetPrimaryDatumModifiers	m	Function GetPrimaryDatumModifiers() As Variant:swDmDimXpertMaterialConditionModifier_e
+GetPrimaryDatums	m	Function GetPrimaryDatums() As Variant:SwDMDimXpertDatum
+GetSecondaryDatumCount	m	Function GetSecondaryDatumCount() As Long
+GetSecondaryDatumModifiers	m	Function GetSecondaryDatumModifiers() As Variant:swDmDimXpertMaterialConditionModifier_e
+GetSecondaryDatums	m	Function GetSecondaryDatums() As Variant:SwDMDimXpertDatum
+GetTertiaryDatumCount	m	Function GetTertiaryDatumCount() As Long
+GetTertiaryDatumModifiers	m	Function GetTertiaryDatumModifiers() As Variant:swDmDimXpertMaterialConditionModifier_e
+GetTertiaryDatums	m	Function GetTertiaryDatums() As Variant:SwDMDimXpertDatum
+IGetPrimaryDatumModifiers	m	Function IGetPrimaryDatumModifiers(ByVal Count As Long) As swDmDimXpertMaterialConditionModifier_e
+IGetPrimaryDatums	m	Function IGetPrimaryDatums(ByVal Count As Long) As swDmDimXpertDatum
+IGetSecondaryDatumModifiers	m	Function IGetSecondaryDatumModifiers(ByVal Count As Long) As swDmDimXpertMaterialConditionModifier_e
+IGetSecondaryDatums	m	Function IGetSecondaryDatums(ByVal Count As Long) As swDmDimXpertDatum
+IGetTertiaryDatumModifiers	m	Function IGetTertiaryDatumModifiers(ByVal Count As Long) As swDmDimXpertMaterialConditionModifier_e
+IGetTertiaryDatums	m	Function IGetTertiaryDatums(ByVal Count As Long) As swDmDimXpertDatum
+Tolerance	p	Property Tolerance As Double
+@ISwDMDimXpertIntersectCircleFeature	o
+GetIntersectFeature	m	Function GetIntersectFeature() As SwDMDimXpertFeature
+GetNominalCircle	m	Function GetNominalCircle(ByRef R As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeature	m	Function GetPlaneFeature() As SwDMDimXpertFeature
+@ISwDMDimXpertIntersectLineFeature	o
+GetNominalLine	m	Function GetNominalLine(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Feature1 As SwDMDimXpertFeature, ByRef Feature2 As SwDMDimXpertFeature) As Boolean
+@ISwDMDimXpertIntersectPlaneFeature	o
+GetFeatures	m	Function GetFeatures(ByRef Feature1 As SwDMDimXpertFeature, ByRef Feature2 As SwDMDimXpertFeature) As Boolean
+GetNominalPlane	m	Function GetNominalPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@ISwDMDimXpertIntersectPointFeature	o
+GetFeatures	m	Function GetFeatures(ByRef Feature1 As SwDMDimXpertFeature, ByRef Feature2 As SwDMDimXpertFeature) As Boolean
+GetNominalPoint	m	Function GetNominalPoint(ByRef X As Double, ByRef Y As Double, ByRef Z As Double) As Boolean
+GetNominalVector	m	Function GetNominalVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@ISwDMDimXpertLengthDimTol	o
+@ISwDMDimXpertLineProfileGeoTol	o
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+@ISwDMDimXpertOrientationGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetProjectedZone	m	Function GetProjectedZone(ByRef Enabled As Boolean, ByRef Value As Double) As Boolean
+IsTangentPlane	m	Function IsTangentPlane() As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+ZoneType	p	Property ZoneType As swDmDimXpertOrientationZoneType_e
+@ISwDMDimXpertParallelismGeoTol	o
+@ISwDMDimXpertPart	o
+GetAnnotationCount	m	Function GetAnnotationCount() As Long
+GetAnnotations	m	Function GetAnnotations() As Variant:SwDMDimXpertAnnotation
+GetBlockTolerances	m	Function GetBlockTolerances() As SwDMDimXpertBlockTolerances
+GetFeatureCount	m	Function GetFeatureCount() As Long
+GetFeatures	m	Function GetFeatures() As Variant:SwDMDimXpertFeature
+IGetAnnotations	m	Function IGetAnnotations(ByVal Count As Long) As SwDMDimXpertAnnotation
+IGetFeatures	m	Function IGetFeatures(ByVal Count As Long) As SwDMDimXpertFeature
+@ISwDMDimXpertPatternAngleBetweenDimTol	o
+@ISwDMDimXpertPatternFeature	o
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:SwDMDimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As SwDMDimXpertFeature
+@ISwDMDimXpertPerpendicularityGeoTol	o
+@ISwDMDimXpertPlaneFeature	o
+GetNominalPlane	m	Function GetNominalPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@ISwDMDimXpertPositionGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetProjectedZone	m	Function GetProjectedZone(ByRef Enabled As Boolean, ByRef Value As Double) As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+ZoneType	p	Property ZoneType As swDmDimXpertPositionZoneType_e
+@ISwDMDimXpertRadiusDimTol	o
+PatternTreatment	p	Property PatternTreatment As swDmDimXpertPatternTreatmentType_e
+@ISwDMDimXpertSphereFeature	o
+GetNominalSphere	m	Function GetNominalSphere(ByRef R As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double) As Boolean
+Inner	p	Property Inner As Boolean
+@ISwDMDimXpertStraightnessGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPerUnitLength	m	Function GetPerUnitLength(ByRef Enabled As Boolean, ByRef Distance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+ZoneType	p	Property ZoneType As swDmDimXpertStraightnessZoneType_e
+@ISwDMDimXpertSurfaceFeature	o
+@ISwDMDimXpertSurfaceProfileGeoTol	o
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+@ISwDMDimXpertSymmetryGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetZoneDirection	m	Function GetZoneDirection(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+@ISwDMDimXpertTangencyGeoTol	o
+GetOriginFeature	m	Function GetOriginFeature(ByRef Feature As SwDMDimXpertFeature) As Boolean
+@ISwDMDimXpertTotalRunoutGeoTol	o
+@ISwDMDimXpertWidthDimTol	o
+@ISwDMDocument14	o
+Get3DCCGenericStreamFile	m	Function Get3DCCGenericStreamFile(ByVal xmlFileName As String) As SwDmXmlDataError
+Get3DCCStreamFile	m	Function Get3DCCStreamFile(ByVal xmlFileName As String) As SwDmXmlDataError
+@ISwDMDocument15	o
+GetExternalFeatureReferences	m	Function GetExternalFeatureReferences(ByRef ExtRefOption As SwDMExternalReferenceOption) As Long
+GetPartNumberStreamFile	m	Function GetPartNumberStreamFile(ByVal xmlFileName As String) As SwDmXmlDataError
+@ISwDMDocument16	o
+HasFrozenFeatures	m	Function HasFrozenFeatures(ByRef FrozenFeatureNeedsUpdate As Boolean) As Boolean
+@ISwDMDocument17	o
+GetCustomProperty2	m	Function GetCustomProperty2(ByVal FieldName As String, ByRef type As SwDmCustomInfoType) As String
+@ISwDMDocument18	o
+GetExternalFeatureReferences2	m	Function GetExternalFeatureReferences2(ByVal ExtRefOption As SwDMExternalReferenceOption2) As Long
+@ISwDMDocument19	o
+CreationDate2	p	Property CreationDate2 As Long
+Get3rdPartyStorage	m	Function Get3rdPartyStorage(ByVal StringIn As String, ByVal IsStoring As Boolean) As Unknown
+Get3rdPartyStorageStore	m	Function Get3rdPartyStorageStore(ByVal SubStorageName As String, ByVal IsStoring As Boolean) As Unknown
+GetSwDmSettingInteger	m	Function GetSwDmSettingInteger(ByVal DmSetting As Long:swDmDocumentUnitsIntegerValue_e) As Long
+GetSwDmSettingToggle	m	Function GetSwDmSettingToggle(ByVal DmSetting As Long:swDmDocumentUnitsToggle_e) As Boolean
+LastSavedDate2	p	Property LastSavedDate2 As Long
+Release3rdPartyStorage	m	Function Release3rdPartyStorage(ByVal StringIn As String) As Boolean
+Release3rdPartyStorageStore	m	Function Release3rdPartyStorageStore(ByVal SubStorageName As String) As Boolean
+@ISwDMDocument20	o
+Delete3rdPartyStorage	m	Function Delete3rdPartyStorage(ByVal StringIn As String) As Boolean
+Delete3rdPartyStorageStore	m	Function Delete3rdPartyStorageStore(ByVal SubStorageName As String) As Boolean
+@ISwDMDocument21	o
+GetAllExternalReferences5	m	Function GetAllExternalReferences5(ByVal pSrcOption As SwDMSearchOption, ByRef brokenRefVar As Variant:SwDmReferenceStatus, ByRef IsVirtual As Variant, ByRef TimeStamp As Variant, ByRef ImportedPaths As Variant) As Variant
+@ISwDMDocument22	o
+GetFileAvgTime	m	Function GetFileAvgTime(ByRef bsFileTime As String, ByRef bsLWFileTime As String) As HResult
+IsCustomPropertyEditable	m	Function IsCustomPropertyEditable(ByVal FieldName As String, ByRef IsEditable As Boolean) As HResult
+@ISwDMDocument23	o
+GetLicenseType	m	Function GetLicenseType() As Long:SwDMDocumentLicenseType_e
+@ISwDMDocument24	o
+IsSavedInDetailingMode	m	Function IsSavedInDetailingMode() As Boolean
+@ISwDMDocument25	o
+GetDisplayTitleName	m	Function GetDisplayTitleName() As String
+@ISwDMDocument26	o
+Get3DExperienceType	m	Function Get3DExperienceType() As Long:swDm3DExperienceModelType_e
+@ISwDMDocument27	o
+GetExternalFeatureReferences3	m	Function GetExternalFeatureReferences3(ByVal ExtRefOption As SwDMExternalReferenceOption2) As Long
+@ISwDMDocument28	o
+GetSplitFeatureReferences	m	Function GetSplitFeatureReferences(ByVal SrcOption As SwDMSearchOption) As Variant
+SetSplitFeatureReferences	m	Function SetSplitFeatureReferences(ByVal ListOfSplitPartPaths As Variant, ByVal ListOfModifiedSplitPartPaths As Variant, ByVal NewPathName As String) As HResult
+SetStockFeatureReferences	m	Function SetStockFeatureReferences(ByVal ListOfSplitPartPaths As Variant, ByVal ListOfModifiedSplitPartPaths As Variant, ByVal NewPathName As String) As HResult
+@ISwDMDocument29	o
+HasLegacyCustomProperties	p	Property HasLegacyCustomProperties As Boolean
+SetCustomProperty2	m	Function SetCustomProperty2(ByVal FieldName As String, ByVal newValue As String) As Boolean
+@ISwDMDocument30	o
+SavedInLDREditMode	m	Function SavedInLDREditMode() As SwDMDocumentSavedInLDREditMode_e
+@ISwDMDocument31	o
+GetSheetFormatPathUntrimmed	m	Function GetSheetFormatPathUntrimmed(ByVal SheetName As String, ByRef FormatPath As String) As Long:swSheetFormatPathResult
+GetSheetNamesUntrimmed	m	Function GetSheetNamesUntrimmed() As Variant
+GetSheetPropertiesUntrimmed	m	Function GetSheetPropertiesUntrimmed(ByVal SheetName As String, ByRef Properties As Variant) As Long:swSheetPropertiesResult
+@ISwDMExternalReferenceOption	o
+Configuration	p	Property Configuration As String
+ExternalReferences	p	Property ExternalReferences As Variant
+NeedSuppress	p	Property NeedSuppress As Boolean
+ReferencedConfigurations	p	Property ReferencedConfigurations As Variant
+SearchOption	p	Property SearchOption As SwDMSearchOption
+@ISwDMExternalReferenceOption2	o
+BrokenStatus	p	Property BrokenStatus As Variant:SwDmReferenceStatus
+IDs	p	Property IDs As Variant
+ReferencedFeatures	m	Function ReferencedFeatures(ByRef FeatureNames As Variant, ByRef FeatureTypes As Variant) As Boolean
+@ISwDMHotfix	o
+Command	m	Function Command(ByVal cmdid As Long, ByVal args As Variant) As Variant
+IsSupported	m	Function IsSupported(ByVal idstr As String) As Long
+@ISwDMSheet2	o
+GetPreviewPNGBitmap	m	Function GetPreviewPNGBitmap(ByRef result As SwDmPreviewError) As Object
+GetPreviewPNGBitmapBytes	m	Function GetPreviewPNGBitmapBytes(ByRef result As SwDmPreviewError) As Variant
+PreviewPNGStreamName	p	Property PreviewPNGStreamName As String
+@ISwDMSheet3	o
+GetID	m	Function GetID() As Long
+@ISwDMSheet4	o
+CustomPropertyView	p	Property CustomPropertyView As Unknown:SwDMView
+GetViews	m	Function GetViews() As Variant:SwDMView
+@ISwDMTable3	o
+GetTableCellText	m	Function GetTableCellText(ByRef Error As SwDmTableError, ByRef RowCount As Long, ByRef ColCount As Long) As Variant
+@ISwDMTable4	o
+DisplayAsOneItem	p	Property DisplayAsOneItem As Boolean
+Hidden	p	Property Hidden As Boolean
+PartConfigurationGrouping	p	Property PartConfigurationGrouping As Long:swDMPartConfigurationGrouping
+@ISwDMTable5	o
+Sheet	p	Property Sheet As SwDMSheet
+@ISwDMTable6	o
+AddRevisionRow	m	Function AddRevisionRow(ByVal Revision As String) As SwDmTableError
+GetLatestRevision	m	Function GetLatestRevision() As String
+GetRevisionInfo	m	Function GetRevisionInfo(ByVal Revision As String, ByRef RowData As Variant) As SwDmTableError
+GetRevTableStyle	m	Function GetRevTableStyle() As swDmRevTableStyle
+HasPlaceHolderRow	m	Function HasPlaceHolderRow() As Boolean
+UpdateRevisionColumn	m	Function UpdateRevisionColumn(ByVal Revision As String, ByVal ColType As SwDmColumnType, ByVal Data As String) As SwDmTableError
+UpdateRevisionRow	m	Function UpdateRevisionRow(ByVal Revision As String, ByRef RowDataIn As Variant) As SwDmTableError
+@ISwDMView2	o
+ReferencedConfigurationID	p	Property ReferencedConfigurationID As Long
+@SwDMApplication	o
+CopyDocument	m	Function CopyDocument(ByVal fromName As String, ByVal toName As String, ByVal fromChildren As Variant, ByVal toChildren As Variant, ByVal option As Long:SwDmCopyOptions, ByVal pSrcOption As SwDMSearchOption) As Long:SwDmMoveCopyError
+GetDocument	m	Function GetDocument(ByVal FullPathName As String, ByVal docType As SwDmDocumentType, ByVal allowReadOnly As Boolean, ByRef result As SwDmDocumentOpenError) As SwDMDocument
+GetLatestSupportedFileVersion	m	Function GetLatestSupportedFileVersion() As Long
+GetSearchOptionObject	m	Function GetSearchOptionObject() As SwDMSearchOption
+MoveDocument	m	Function MoveDocument(ByVal fromName As String, ByVal toName As String, ByVal fromChildren As Variant, ByVal toChildren As Variant, ByVal option As Long:SwDmCopyOptions, ByVal pSrcOption As SwDMSearchOption) As Long:SwDmMoveCopyError
+@SwDMApplication2	o
+GetDocument2	m	Function GetDocument2(ByVal documentStream As Unknown, ByRef result As SwDmDocumentOpenError) As SwDMDocument
+@SwDMApplication3	o
+GetExternalReferenceOptionObject	m	Function GetExternalReferenceOptionObject() As SwDMExternalReferenceOption
+@SwDMApplication4	o
+GetExternalReferenceOptionObject2	m	Function GetExternalReferenceOptionObject2() As SwDMExternalReferenceOption2
+@SwDMApplication5	o
+GetPreviewBitmapForAnnotationFiles	m	Function GetPreviewBitmapForAnnotationFiles(ByVal fileName As String, ByRef result As SwDmAnnotationFileOpenError) As Object
+@SwDMClassFactory	o
+GetApplication	m	Function GetApplication(ByVal LicKey As String) As SwDMApplication
+@SwDMComponent	o
+ConfigurationName	p	Property ConfigurationName As String
+IsHidden	m	Function IsHidden() As Boolean
+IsSuppressed	m	Function IsSuppressed() As Boolean
+Name	p	Property Name As String
+Transform	p	Property Transform As Variant
+@SwDMComponent10	o
+ComponentReference	p	Property ComponentReference As String
+@SwDMComponent11	o
+Name3	p	Property Name3 As String
+SelectName2	p	Property SelectName2 As String
+@SwDMComponent12	o
+GetCustomProperty	m	Function GetCustomProperty(ByVal FieldName As String, ByRef type As Long:SwDmCustomInfoType) As String
+@SwDMComponent2	o
+DocumentType	p	Property DocumentType As SwDmDocumentType
+@SwDMComponent3	o
+GetDocument	m	Function GetDocument(ByVal allowReadOnly As Boolean, ByRef result As SwDmDocumentOpenError) As SwDMDocument
+IsVirtual	p	Property IsVirtual As Boolean
+@SwDMComponent4	o
+GetDocument2	m	Function GetDocument2(ByVal allowReadOnly As Boolean, ByVal pSrcOption As SwDMSearchOption, ByRef result As SwDmDocumentOpenError) As SwDMDocument
+@SwDMComponent5	o
+ExcludeFromBOM	p	Property ExcludeFromBOM As Long:swDmExcludeFromBOMResult
+IsEnvelope	m	Function IsEnvelope() As Boolean
+@SwDMComponent6	o
+PathName	p	Property PathName As String
+Replace	m	Function Replace(ByVal fileName As String, ByVal ConfigurationName As String, ByVal ReattachMates As Boolean) As Boolean
+@SwDMComponent7	o
+Name2	p	Property Name2 As String
+SelectName	p	Property SelectName As String
+@SwDMComponent8	o
+ConfigurationID	p	Property ConfigurationID As Long
+@SwDMComponent9	o
+GetID	m	Function GetID() As Long
+@SwDMConfiguration	o
+AddCustomProperty	m	Function AddCustomProperty(ByVal FieldName As String, ByVal SwDmCustomInfoType As SwDmCustomInfoType, ByVal FieldValue As String) As Boolean
+Application	p	Property Application As SwDMApplication
+DeleteCustomProperty	m	Function DeleteCustomProperty(ByVal FieldName As String) As Boolean
+Description	p	Property Description As String
+Document	p	Property Document As SwDMDocument
+GetBodiesCount	m	Function GetBodiesCount() As Long
+GetBody	m	Function GetBody(ByVal index As Long, ByVal fileName As String) As SwDmBodyError
+GetCustomProperty	m	Function GetCustomProperty(ByVal FieldName As String, ByRef type As SwDmCustomInfoType) As String
+GetCustomPropertyCount	m	Function GetCustomPropertyCount() As Long
+GetCustomPropertyNames	m	Function GetCustomPropertyNames() As Variant
+GetLastUpdateStamp	m	Function GetLastUpdateStamp() As Long
+GetMassProperties	m	Function GetMassProperties(ByRef bRet As SwDmMassPropError) As Variant
+GetParentConfigurationName	m	Function GetParentConfigurationName() As String
+GetPreviewBitmap	m	Function GetPreviewBitmap(ByRef result As SwDmPreviewError) As Object
+Name	p	Property Name As String
+PreviewStreamName	p	Property PreviewStreamName As String
+SetCustomProperty	m	Function SetCustomProperty(ByVal FieldName As String, ByVal newValue As String) As HResult
+StreamName	p	Property StreamName As String
+@SwDMConfiguration10	o
+GetDisplayStates	m	Function GetDisplayStates() As Variant
+IsDirty	m	Function IsDirty() As Boolean
+@SwDMConfiguration11	o
+BOMPartNoSource	p	Property BOMPartNoSource As Long:swDmBOMPartNumberSource
+GetReplacedComponents	m	Function GetReplacedComponents(ByRef ComponentNames As Variant, ByRef ConfigurationNames As Variant, ByRef NewFilenames As Variant, ByRef MatesReattached As Variant) As HResult
+IsSpeedPak	m	Function IsSpeedPak() As Boolean
+ShowChildComponentsInBOM	p	Property ShowChildComponentsInBOM As Long:swDmShowChildComponentsInBOMResult
+@SwDMConfiguration12	o
+DimXpertPart	p	Property DimXpertPart As SwDMDimXpertPart
+GetComponentVisibleByDisplayStateName	m	Function GetComponentVisibleByDisplayStateName(ByVal DisplayStateName As String, ByRef ComponentVisibleList As Variant, ByRef ComponentFileDirectory As Variant) As HResult
+GetID	m	Function GetID() As Long
+GetLinkedDisplayStates	m	Function GetLinkedDisplayStates(ByRef DisplayStateNameList As Variant) As Long
+@SwDMConfiguration13	o
+type	p	Property type As Long:swDmConfigurationType
+@SwDMConfiguration14	o
+GetCustomProperty2	m	Function GetCustomProperty2(ByVal FieldName As String, ByRef type As SwDmCustomInfoType) As String
+@SwDMConfiguration15	o
+IsCustomPropertyEditable	m	Function IsCustomPropertyEditable(ByVal FieldName As String, ByRef IsEditable As Boolean) As HResult
+ShowChildComponentsInBOM2	p	Property ShowChildComponentsInBOM2 As Long:swDmShowChildComponentsInBOMResult
+@SwDMConfiguration16	o
+GetCutListItems	m	Function GetCutListItems() As Variant:SwDMCutListItem3
+@SwDMConfiguration17	o
+Get3DExperienceType	m	Function Get3DExperienceType() As Long:swDm3DExperienceCfgType_e
+GetRepresentationParent	m	Function GetRepresentationParent() As String
+@SwDMConfiguration18	o
+SetCustomProperty2	m	Function SetCustomProperty2(ByVal FieldName As String, ByVal newValue As String) As Boolean
+@SwDMConfiguration2	o
+GetComponents	m	Function GetComponents() As Variant:SwDMComponent
+GetPartitionStream	m	Function GetPartitionStream(ByVal fileName As String) As SwDmBodyError
+PartitionStreamName	p	Property PartitionStreamName As String
+@SwDMConfiguration3	o
+GetImportedBodiesCount	m	Function GetImportedBodiesCount() As Long
+GetImportedBody	m	Function GetImportedBody(ByVal index As Long, ByVal fileName As String) As SwDmBodyError
+@SwDMConfiguration4	o
+GetAllCustomPropertyNamesAndValues	m	Function GetAllCustomPropertyNamesAndValues(ByRef names As Variant, ByRef types As Variant:SwDmCustomInfoType, ByRef linkedTo As Variant, ByRef values As Variant) As HResult
+@SwDMConfiguration5	o
+AlternateName	p	Property AlternateName As String
+Comment	p	Property Comment As String
+GetCustomPropertyValues	m	Function GetCustomPropertyValues(ByVal FieldName As String, ByRef type As SwDmCustomInfoType, ByRef linkedTo As String) As String
+@SwDMConfiguration6	o
+GetReferencesInformation	m	Function GetReferencesInformation(ByRef references As Variant, ByRef configurations As Variant, ByRef sstates As Variant) As HResult
+@SwDMConfiguration7	o
+AlternateName2	p	Property AlternateName2 As String
+Comment2	p	Property Comment2 As String
+Delete	p	Property Delete As Boolean
+GetPreviewPNGBitmap	m	Function GetPreviewPNGBitmap(ByRef result As SwDmPreviewError) As Object
+Name2	p	Property Name2 As String
+PreviewPNGStreamName	p	Property PreviewPNGStreamName As String
+@SwDMConfiguration8	o
+GetReferencesInformation2	m	Function GetReferencesInformation2(ByRef references As Variant, ByRef configurations As Variant, ByRef sstates As Variant, ByRef IsVirtual As Variant) As HResult
+@SwDMConfiguration9	o
+GetPreviewBitmapBytes	m	Function GetPreviewBitmapBytes(ByRef result As SwDmPreviewError) As Variant
+GetPreviewPNGBitmapBytes	m	Function GetPreviewPNGBitmapBytes(ByRef result As SwDmPreviewError) As Variant
+@SwDMConfigurationMgr	o
+Application	p	Property Application As SwDMApplication
+Document	p	Property Document As SwDMDocument
+GetActiveConfigurationName	m	Function GetActiveConfigurationName() As String
+GetConfigurationByName	m	Function GetConfigurationByName(ByVal ConfigurationName As String) As SwDMConfiguration
+GetConfigurationCount	m	Function GetConfigurationCount() As Long
+GetConfigurationNames	m	Function GetConfigurationNames() As Variant
+@SwDMConfigurationMgr2	o
+GetConfigurationByName2	m	Function GetConfigurationByName2(ByVal ConfigurationName As String, ByRef result As SwDMConfigurationError) As SwDMConfiguration
+GetConfigurationCount2	m	Function GetConfigurationCount2(ByRef result As SwDMConfigurationError) As Long
+GetConfigurationNames2	m	Function GetConfigurationNames2(ByRef result As SwDMConfigurationError) As Variant
+@SwDMCutListItem	o
+GetCustomPropertyNames	m	Function GetCustomPropertyNames() As Variant
+GetCustomPropertyValue	m	Function GetCustomPropertyValue(ByVal FieldName As String, ByRef type As SwDmCustomInfoType, ByRef linkedTo As String) As String
+Name	p	Property Name As String
+Quantity	p	Property Quantity As Long
+@SwDMCutListItem2	o
+AddCustomProperty	m	Function AddCustomProperty(ByVal FieldName As String, ByVal FieldType As SwDmCustomInfoType, ByVal FieldValue As String) As Boolean
+ChildFolderName	p	Property ChildFolderName As String
+DeleteCustomProperty	m	Function DeleteCustomProperty(ByVal FieldName As String) As Boolean
+GetCustomPropertyValue2	m	Function GetCustomPropertyValue2(ByVal FieldName As String, ByRef type As SwDmCustomInfoType, ByRef linkedTo As String) As String
+IsSubFolder	p	Property IsSubFolder As Boolean
+SetCustomProperty	m	Function SetCustomProperty(ByVal FieldName As String, ByVal newValue As String) As Boolean
+@SwDMCutListItem3	o
+IsCustomPropertyEditable	m	Function IsCustomPropertyEditable(ByVal FieldName As String, ByRef IsEditable As Boolean) As HResult
+@SwDMCutListItem4	o
+CutlistType	p	Property CutlistType As swDMCutListType_e
+ExcludeFromCutlist	p	Property ExcludeFromCutlist As swDMCutListExclusionStatus_e
+@SwDMDimXpertAngleBetweenDimTol	o
+GetDirectionVector	m	Function GetDirectionVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+OriginFeature	p	Property OriginFeature As SwDMDimXpertFeature
+Supplement	p	Property Supplement As Boolean
+@SwDMDimXpertAngularityGeoTol	o
+@SwDMDimXpertAnnotation	o
+Feature	p	Property Feature As SwDMDimXpertFeature
+GetCadIdentifierCount	m	Function GetCadIdentifierCount() As Long
+GetCadIdentifiers	m	Function GetCadIdentifiers() As Variant
+IGetCadIdentifiers	m	Function IGetCadIdentifiers(ByVal Count As Long) As String
+IsFreeState	m	Function IsFreeState() As Boolean
+IsStatistical	m	Function IsStatistical() As Boolean
+IsSuppressed	m	Function IsSuppressed() As Boolean
+IsToBeInspected	m	Function IsToBeInspected() As Boolean
+Name	p	Property Name As String
+type	p	Property type As swDmDimXpertAnnotationType_e
+@SwDMDimXpertBestFitPlaneFeature	o
+GetNominalPlane	m	Function GetNominalPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:SwDMDimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As SwDMDimXpertFeature
+@SwDMDimXpertBlockTolerances	o
+GetISO2768PartType	m	Function GetISO2768PartType(ByRef type As swDmDimXpertISO2768PartType_e) As Boolean
+GetToleranceValues	m	Function GetToleranceValues(ByRef Linear1 As Double, ByRef Linear1Prec As Long, ByRef Linear2 As Double, ByRef Linear2Prec As Long, ByRef Linear3 As Double, ByRef Linear3Prec As Long, ByRef Angular As Double) As Boolean
+type	p	Property type As swDmDimXpertBlockToleranceType_e
+@SwDMDimXpertChamferDimTol	o
+ChamferType	p	Property ChamferType As swDmDimXpertChamferDimensionType_e
+@SwDMDimXpertChamferFeature	o
+Angle	p	Property Angle As Double
+AngleType	p	Property AngleType As swDmDimXpertChamferAngleType_e
+ChamferType	p	Property ChamferType As swDmDimXpertChamferType_e
+Distance1	p	Property Distance1 As Double
+Distance2	p	Property Distance2 As Double
+@SwDMDimXpertCircularityGeoTol	o
+@SwDMDimXpertCircularRunoutGeoTol	o
+@SwDMDimXpertCompositeDistanceBetweenDimTol	o
+BlockToleranceDecimalPlacesIntraFeature	p	Property BlockToleranceDecimalPlacesIntraFeature As Long
+DimensionTypeIntraFeature	p	Property DimensionTypeIntraFeature As swDmDimXpertDimensionToleranceType_e
+GetDirectionVector	m	Function GetDirectionVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetFeature	m	Function GetFeature(ByRef Feature As SwDMDimXpertFeature, ByRef FosUsage As swDmDimXpertDistanceFosUsage_e) As Boolean
+GetIntraFeature	m	Function GetIntraFeature(ByRef Feature As SwDMDimXpertFeature, ByRef FosUsage As swDmDimXpertDistanceFosUsage_e) As Boolean
+GetNominalValueIntraFeature	m	Function GetNominalValueIntraFeature() As Double
+GetOriginFeature	m	Function GetOriginFeature(ByRef Feature As SwDMDimXpertFeature, ByRef FosUsage As swDmDimXpertDistanceFosUsage_e) As Boolean
+GetPlusAndMinusToleranceIntraFeature	m	Function GetPlusAndMinusToleranceIntraFeature(ByRef Plus As Double, ByRef Minus As Double) As Boolean
+GetUpperAndLowerLimitIntraFeature	m	Function GetUpperAndLowerLimitIntraFeature(ByRef Upper As Double, ByRef Lower As Double) As Boolean
+LimitsAndFitsCodeIntraFeature	p	Property LimitsAndFitsCodeIntraFeature As String
+@SwDMDimXpertCompositeLineProfileGeoTol	o
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+OuterToleranceValueLowerTier	p	Property OuterToleranceValueLowerTier As Double
+PrimaryInLowerTier	p	Property PrimaryInLowerTier As Boolean
+SecondaryInLowerTier	p	Property SecondaryInLowerTier As Boolean
+TertiaryInLowerTier	p	Property TertiaryInLowerTier As Boolean
+ToleranceLowerTier	p	Property ToleranceLowerTier As Double
+@SwDMDimXpertCompositePositionGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetMaxToleranceLowerTier	m	Function GetMaxToleranceLowerTier(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetProjectedZone	m	Function GetProjectedZone(ByRef Enabled As Boolean, ByRef Value As Double) As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+ModifierLowerTier	p	Property ModifierLowerTier As swDmDimXpertMaterialConditionModifier_e
+PrimaryInLowerTier	p	Property PrimaryInLowerTier As Boolean
+SecondaryInLowerTier	p	Property SecondaryInLowerTier As Boolean
+TertiaryInLowerTier	p	Property TertiaryInLowerTier As Boolean
+ToleranceLowerTier	p	Property ToleranceLowerTier As Double
+ZoneType	p	Property ZoneType As swDmDimXpertPositionZoneType_e
+@SwDMDimXpertCompositeSurfaceProfileGeoTol	o
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+OuterToleranceValueLowerTier	p	Property OuterToleranceValueLowerTier As Double
+PrimaryInLowerTier	p	Property PrimaryInLowerTier As Boolean
+SecondaryInLowerTier	p	Property SecondaryInLowerTier As Boolean
+TertiaryInLowerTier	p	Property TertiaryInLowerTier As Boolean
+ToleranceLowerTier	p	Property ToleranceLowerTier As Double
+@SwDMDimXpertCompoundClosedSlot3dFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomFeature	m	Function GetBottomFeature() As SwDMDimXpertFeature
+GetEndFeatures	m	Function GetEndFeatures(ByRef End1 As SwDMDimXpertFeature, ByRef End2 As SwDMDimXpertFeature) As Boolean
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalClosedSlot	m	Function GetNominalClosedSlot(ByRef width As Double, ByRef Length As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double, ByRef LongitudeI As Double, ByRef LongitudeJ As Double, ByRef LongitudeK As Double) As Boolean
+GetNominalTopPlane	m	Function GetNominalTopPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Plane1 As SwDMDimXpertPlaneFeature, ByRef Plane2 As SwDMDimXpertPlaneFeature) As Boolean
+@SwDMDimXpertCompoundHoleFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomFeature	m	Function GetBottomFeature() As SwDMDimXpertFeature
+GetReferenceFeature	m	Function GetReferenceFeature() As SwDMDimXpertFeature
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:SwDMDimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As SwDMDimXpertFeature
+@SwDMDimXpertCompoundNotchFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomFeature	m	Function GetBottomFeature() As SwDMDimXpertFeature
+GetEndFeature	m	Function GetEndFeature() As SwDMDimXpertFeature
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalNotch	m	Function GetNominalNotch(ByRef width As Double, ByRef Length As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double, ByRef LongitudeI As Double, ByRef LongitudeJ As Double, ByRef LongitudeK As Double) As Boolean
+GetOpenSideReferenceFeature	m	Function GetOpenSideReferenceFeature() As SwDMDimXpertFeature
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Plane1 As SwDMDimXpertPlaneFeature, ByRef Plane2 As SwDMDimXpertPlaneFeature) As Boolean
+GetTopReferenceFeature	m	Function GetTopReferenceFeature() As SwDMDimXpertFeature
+@SwDMDimXpertCompoundWidthFeature	o
+GetNominalCompoundWidth	m	Function GetNominalCompoundWidth(ByRef width As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalLongitude	m	Function GetNominalLongitude(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Plane1 As SwDMDimXpertPlaneFeature, ByRef Plane2 As SwDMDimXpertPlaneFeature) As Boolean
+Inner	p	Property Inner As Boolean
+@SwDMDimXpertConcentricityGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+@SwDMDimXpertConeAngleDimTol	o
+@SwDMDimXpertConeFeature	o
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalCone	m	Function GetNominalCone(ByRef Angle As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalTopPlane	m	Function GetNominalTopPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+Inner	p	Property Inner As Boolean
+@SwDMDimXpertCounterBoreDimTol	o
+ReferenceFeature	p	Property ReferenceFeature As SwDMDimXpertFeature
+@SwDMDimXpertCounterSinkAngleDimTol	o
+ReferenceFeature	p	Property ReferenceFeature As SwDMDimXpertFeature
+@SwDMDimXpertCounterSinkDiameterDimTol	o
+ReferenceFeature	p	Property ReferenceFeature As SwDMDimXpertFeature
+@SwDMDimXpertCylinderFeature	o
+GetNominalBottomPlane	m	Function GetNominalBottomPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalCylinder	m	Function GetNominalCylinder(ByRef R As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetNominalTopPlane	m	Function GetNominalTopPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetThread	m	Function GetThread(ByRef IsThreaded As Boolean, ByRef ThreadDesignation As String, ByRef ThreadDepth As Double) As Boolean
+Inner	p	Property Inner As Boolean
+@SwDMDimXpertCylindricityGeoTol	o
+@swDmDimXpertDatum	o
+Identifier	p	Property Identifier As String
+@SwDMDimXpertDepthDimTol	o
+IsThreadDepth	m	Function IsThreadDepth() As Boolean
+ReferenceFeature	p	Property ReferenceFeature As SwDMDimXpertFeature
+@SwDMDimXpertDiameterDimTol	o
+PatternTreatment	p	Property PatternTreatment As swDmDimXpertPatternTreatmentType_e
+@SwDMDimXpertDimensionTolerance	o
+BlockToleranceDecimalPlaces	p	Property BlockToleranceDecimalPlaces As Long
+DimensionType	p	Property DimensionType As swDmDimXpertDimensionToleranceType_e
+GetNominalValue	m	Function GetNominalValue() As Double
+GetPlusAndMinusTolerance	m	Function GetPlusAndMinusTolerance(ByRef Plus As Double, ByRef Minus As Double) As Boolean
+GetUpperAndLowerLimit	m	Function GetUpperAndLowerLimit(ByRef Upper As Double, ByRef Lower As Double) As Boolean
+LimitsAndFitsCode	p	Property LimitsAndFitsCode As String
+@SwDMDimXpertDistanceBetweenDimTol	o
+GetDirectionVector	m	Function GetDirectionVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetFeature	m	Function GetFeature(ByRef Feature As SwDMDimXpertFeature, ByRef FosUsage As swDmDimXpertDistanceFosUsage_e) As Boolean
+GetOriginFeature	m	Function GetOriginFeature(ByRef Feature As SwDMDimXpertFeature, ByRef FosUsage As swDmDimXpertDistanceFosUsage_e) As Boolean
+PatternTreatment	p	Property PatternTreatment As swDmDimXpertPatternTreatmentType_e
+@SwDMDimXpertExtrudeFeature	o
+Blind	p	Property Blind As Boolean
+GetBottomBlends	m	Function GetBottomBlends() As SwDMDimXpertFeature
+GetBottomFeature	m	Function GetBottomFeature() As SwDMDimXpertFeature
+GetReferenceFeature	m	Function GetReferenceFeature() As SwDMDimXpertFeature
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:SwDMDimXpertFeature
+GetTopBlends	m	Function GetTopBlends() As SwDMDimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As SwDMDimXpertFeature
+@SwDMDimXpertFeature	o
+GetCadIdentifierCount	m	Function GetCadIdentifierCount() As Long
+GetCadIdentifiers	m	Function GetCadIdentifiers() As Variant
+IGetCadIdentifiers	m	Function IGetCadIdentifiers(ByVal Count As Long) As String
+IsSuppressed	m	Function IsSuppressed() As Boolean
+Name	p	Property Name As String
+type	p	Property type As swDmDimXpertFeatureType_e
+@SwDMDimXpertFilletFeature	o
+Inner	p	Property Inner As Boolean
+Radius	p	Property Radius As Double
+@SwDMDimXpertFlatnessGeoTol	o
+GetPerUnitArea	m	Function GetPerUnitArea(ByRef Enabled As Boolean, ByRef Length As Double, ByRef width As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@SwDMDimXpertGeometricTolerance	o
+GetPrimaryDatumCount	m	Function GetPrimaryDatumCount() As Long
+GetPrimaryDatumModifiers	m	Function GetPrimaryDatumModifiers() As Variant:swDmDimXpertMaterialConditionModifier_e
+GetPrimaryDatums	m	Function GetPrimaryDatums() As Variant:SwDMDimXpertDatum
+GetSecondaryDatumCount	m	Function GetSecondaryDatumCount() As Long
+GetSecondaryDatumModifiers	m	Function GetSecondaryDatumModifiers() As Variant:swDmDimXpertMaterialConditionModifier_e
+GetSecondaryDatums	m	Function GetSecondaryDatums() As Variant:SwDMDimXpertDatum
+GetTertiaryDatumCount	m	Function GetTertiaryDatumCount() As Long
+GetTertiaryDatumModifiers	m	Function GetTertiaryDatumModifiers() As Variant:swDmDimXpertMaterialConditionModifier_e
+GetTertiaryDatums	m	Function GetTertiaryDatums() As Variant:SwDMDimXpertDatum
+IGetPrimaryDatumModifiers	m	Function IGetPrimaryDatumModifiers(ByVal Count As Long) As swDmDimXpertMaterialConditionModifier_e
+IGetPrimaryDatums	m	Function IGetPrimaryDatums(ByVal Count As Long) As swDmDimXpertDatum
+IGetSecondaryDatumModifiers	m	Function IGetSecondaryDatumModifiers(ByVal Count As Long) As swDmDimXpertMaterialConditionModifier_e
+IGetSecondaryDatums	m	Function IGetSecondaryDatums(ByVal Count As Long) As swDmDimXpertDatum
+IGetTertiaryDatumModifiers	m	Function IGetTertiaryDatumModifiers(ByVal Count As Long) As swDmDimXpertMaterialConditionModifier_e
+IGetTertiaryDatums	m	Function IGetTertiaryDatums(ByVal Count As Long) As swDmDimXpertDatum
+Tolerance	p	Property Tolerance As Double
+@SwDMDimXpertIntersectCircleFeature	o
+GetIntersectFeature	m	Function GetIntersectFeature() As SwDMDimXpertFeature
+GetNominalCircle	m	Function GetNominalCircle(ByRef R As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeature	m	Function GetPlaneFeature() As SwDMDimXpertFeature
+@SwDMDimXpertIntersectLineFeature	o
+GetNominalLine	m	Function GetNominalLine(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetPlaneFeatures	m	Function GetPlaneFeatures(ByRef Feature1 As SwDMDimXpertFeature, ByRef Feature2 As SwDMDimXpertFeature) As Boolean
+@SwDMDimXpertIntersectPlaneFeature	o
+GetFeatures	m	Function GetFeatures(ByRef Feature1 As SwDMDimXpertFeature, ByRef Feature2 As SwDMDimXpertFeature) As Boolean
+GetNominalPlane	m	Function GetNominalPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@SwDMDimXpertIntersectPointFeature	o
+GetFeatures	m	Function GetFeatures(ByRef Feature1 As SwDMDimXpertFeature, ByRef Feature2 As SwDMDimXpertFeature) As Boolean
+GetNominalPoint	m	Function GetNominalPoint(ByRef X As Double, ByRef Y As Double, ByRef Z As Double) As Boolean
+GetNominalVector	m	Function GetNominalVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@SwDMDimXpertLengthDimTol	o
+@SwDMDimXpertLineProfileGeoTol	o
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+@SwDMDimXpertOrientationGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetProjectedZone	m	Function GetProjectedZone(ByRef Enabled As Boolean, ByRef Value As Double) As Boolean
+IsTangentPlane	m	Function IsTangentPlane() As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+ZoneType	p	Property ZoneType As swDmDimXpertOrientationZoneType_e
+@SwDMDimXpertParallelismGeoTol	o
+@SwDMDimXpertPart	o
+GetAnnotationCount	m	Function GetAnnotationCount() As Long
+GetAnnotations	m	Function GetAnnotations() As Variant:SwDMDimXpertAnnotation
+GetBlockTolerances	m	Function GetBlockTolerances() As SwDMDimXpertBlockTolerances
+GetFeatureCount	m	Function GetFeatureCount() As Long
+GetFeatures	m	Function GetFeatures() As Variant:SwDMDimXpertFeature
+IGetAnnotations	m	Function IGetAnnotations(ByVal Count As Long) As SwDMDimXpertAnnotation
+IGetFeatures	m	Function IGetFeatures(ByVal Count As Long) As SwDMDimXpertFeature
+@SwDMDimXpertPatternAngleBetweenDimTol	o
+@SwDMDimXpertPatternFeature	o
+GetSubFeatureCount	m	Function GetSubFeatureCount() As Long
+GetSubFeatures	m	Function GetSubFeatures() As Variant:SwDMDimXpertFeature
+IGetSubFeatures	m	Function IGetSubFeatures(ByVal Count As Long) As SwDMDimXpertFeature
+@SwDMDimXpertPerpendicularityGeoTol	o
+@SwDMDimXpertPlaneFeature	o
+GetNominalPlane	m	Function GetNominalPlane(ByRef X As Double, ByRef Y As Double, ByRef Z As Double, ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+@SwDMDimXpertPositionGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+GetProjectedZone	m	Function GetProjectedZone(ByRef Enabled As Boolean, ByRef Value As Double) As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+ZoneType	p	Property ZoneType As swDmDimXpertPositionZoneType_e
+@SwDMDimXpertRadiusDimTol	o
+PatternTreatment	p	Property PatternTreatment As swDmDimXpertPatternTreatmentType_e
+@SwDMDimXpertSphereFeature	o
+GetNominalSphere	m	Function GetNominalSphere(ByRef R As Double, ByRef X As Double, ByRef Y As Double, ByRef Z As Double) As Boolean
+Inner	p	Property Inner As Boolean
+@SwDMDimXpertStraightnessGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetPerUnitLength	m	Function GetPerUnitLength(ByRef Enabled As Boolean, ByRef Distance As Double) As Boolean
+GetPlanarZoneVector	m	Function GetPlanarZoneVector(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+ZoneType	p	Property ZoneType As swDmDimXpertStraightnessZoneType_e
+@SwDMDimXpertSurfaceFeature	o
+@SwDMDimXpertSurfaceProfileGeoTol	o
+OuterToleranceValue	p	Property OuterToleranceValue As Double
+@SwDMDimXpertSymmetryGeoTol	o
+GetMaxTolerance	m	Function GetMaxTolerance(ByRef IsMax As Boolean, ByRef Tolerance As Double) As Boolean
+GetZoneDirection	m	Function GetZoneDirection(ByRef I As Double, ByRef J As Double, ByRef K As Double) As Boolean
+Modifier	p	Property Modifier As swDmDimXpertMaterialConditionModifier_e
+@SwDMDimXpertTangencyGeoTol	o
+GetOriginFeature	m	Function GetOriginFeature(ByRef Feature As SwDMDimXpertFeature) As Boolean
+@SwDMDimXpertTotalRunoutGeoTol	o
+@SwDMDimXpertWidthDimTol	o
+@SwDMDocument	o
+AddCustomProperty	m	Function AddCustomProperty(ByVal FieldName As String, ByVal FieldType As SwDmCustomInfoType, ByVal FieldValue As String) As Boolean
+Application	p	Property Application As SwDMApplication
+Author	p	Property Author As String
+CloseDoc	m	Function CloseDoc() As HResult
+Comments	p	Property Comments As String
+ConfigurationManager	p	Property ConfigurationManager As SwDMConfigurationMgr
+CreationDate	p	Property CreationDate As String
+DeleteCustomProperty	m	Function DeleteCustomProperty(ByVal FieldName As String) As Boolean
+FullName	p	Property FullName As String
+GetAllExternalReferences	m	Function GetAllExternalReferences(ByVal pSrcOption As SwDMSearchOption) As Variant
+GetCustomProperty	m	Function GetCustomProperty(ByVal FieldName As String, ByRef type As SwDmCustomInfoType) As String
+GetCustomPropertyCount	m	Function GetCustomPropertyCount() As Long
+GetCustomPropertyNames	m	Function GetCustomPropertyNames() As Variant
+GetEDrawingsData	m	Function GetEDrawingsData(ByVal eModelFileName As String) As SwDmEDwgDataError
+GetHyperLinkAt	m	Function GetHyperLinkAt(ByVal at As Long) As String
+GetHyperLinksCount	m	Function GetHyperLinksCount() As Long
+GetLastUpdateStamp	m	Function GetLastUpdateStamp() As Long
+GetVersion	m	Function GetVersion() As Long
+GetXmlStream	m	Function GetXmlStream(ByVal xmlFileName As String, ByRef result As SwDmXmlDataError) As HResult
+IsDetachedDrawing	m	Function IsDetachedDrawing() As Boolean
+Keywords	p	Property Keywords As String
+LastSavedBy	p	Property LastSavedBy As String
+LastSavedDate	p	Property LastSavedDate As String
+ModifyHyperLinkAt	m	Function ModifyHyperLinkAt(ByVal at As Long, ByVal newlink As String) As HResult
+ReplaceReference	m	Function ReplaceReference(ByVal OriginalReference As String, ByVal ReplacementReference As String) As HResult
+Save	m	Function Save() As SwDmDocumentSaveError
+SaveAs	m	Function SaveAs(ByVal saveName As String) As SwDmDocumentSaveError
+SetCustomProperty	m	Function SetCustomProperty(ByVal FieldName As String, ByVal newValue As String) As HResult
+Subject	p	Property Subject As String
+Title	p	Property Title As String
+ToolboxPart	p	Property ToolboxPart As SwDmToolboxPartType
+WhereUsed	m	Function WhereUsed(ByVal pSrcOption As SwDMSearchOption) As Variant
+@SwDMDocument10	o
+GetCutListItems	m	Function GetCutListItems() As Variant
+GetPreviewBitmap	m	Function GetPreviewBitmap(ByRef result As SwDmPreviewError) As Object
+GetPreviewPNGBitmap	m	Function GetPreviewPNGBitmap(ByRef result As SwDmPreviewError) As Object
+GetSheets	m	Function GetSheets() As Variant:SwDMSheet
+GetTable	m	Function GetTable(ByVal NameIn As String) As SwDMTable
+GetTableNames	m	Function GetTableNames(ByVal TableType As SwDmTableType) As Variant
+GetViews	m	Function GetViews() As Variant:SwDMView
+PreviewPNGStreamName	p	Property PreviewPNGStreamName As String
+PreviewStreamName	p	Property PreviewStreamName As String
+@SwDMDocument11	o
+GetPreviewBitmapBytes	m	Function GetPreviewBitmapBytes(ByRef result As SwDmPreviewError) As Variant
+GetPreviewPNGBitmapBytes	m	Function GetPreviewPNGBitmapBytes(ByRef result As SwDmPreviewError) As Variant
+@SwDMDocument12	o
+GetAllExternalReferences3	m	Function GetAllExternalReferences3(ByVal pSrcOption As SwDMSearchOption, ByRef brokenRefVar As Variant, ByRef IsVirtual As Variant) As Variant
+@SwDMDocument13	o
+GetAllExternalReferences4	m	Function GetAllExternalReferences4(ByVal pSrcOption As SwDMSearchOption, ByRef brokenRefVar As Variant:SwDmReferenceStatus, ByRef IsVirtual As Variant, ByRef TimeStamp As Variant) As Variant
+GetCutListItems2	m	Function GetCutListItems2() As Variant:SwDMCutListItem
+GetExternalDesignTable	m	Function GetExternalDesignTable(ByVal pSrcOption As SwDMSearchOption, ByRef Status As SwDmDesignTableDataError) As String
+GetLastUpdateTimeStamp	m	Function GetLastUpdateTimeStamp() As Long
+GetSheetFormatPath	m	Function GetSheetFormatPath(ByVal SheetName As String, ByRef FormatPath As String) As Long:swSheetFormatPathResult
+GetSheetProperties	m	Function GetSheetProperties(ByVal SheetName As String, ByRef Properties As Variant) As Long:swSheetPropertiesResult
+@SwDMDocument14	o
+Get3DCCGenericStreamFile	m	Function Get3DCCGenericStreamFile(ByVal xmlFileName As String) As SwDmXmlDataError
+Get3DCCStreamFile	m	Function Get3DCCStreamFile(ByVal xmlFileName As String) As SwDmXmlDataError
+@SwDMDocument15	o
+GetExternalFeatureReferences	m	Function GetExternalFeatureReferences(ByRef ExtRefOption As SwDMExternalReferenceOption) As Long
+GetPartNumberStreamFile	m	Function GetPartNumberStreamFile(ByVal xmlFileName As String) As SwDmXmlDataError
+@SwDMDocument16	o
+HasFrozenFeatures	m	Function HasFrozenFeatures(ByRef FrozenFeatureNeedsUpdate As Boolean) As Boolean
+@SwDMDocument17	o
+GetCustomProperty2	m	Function GetCustomProperty2(ByVal FieldName As String, ByRef type As SwDmCustomInfoType) As String
+@SwDMDocument18	o
+GetExternalFeatureReferences2	m	Function GetExternalFeatureReferences2(ByVal ExtRefOption As SwDMExternalReferenceOption2) As Long
+@SwDMDocument19	o
+CreationDate2	p	Property CreationDate2 As Long
+Get3rdPartyStorage	m	Function Get3rdPartyStorage(ByVal StringIn As String, ByVal IsStoring As Boolean) As Unknown
+Get3rdPartyStorageStore	m	Function Get3rdPartyStorageStore(ByVal SubStorageName As String, ByVal IsStoring As Boolean) As Unknown
+GetSwDmSettingInteger	m	Function GetSwDmSettingInteger(ByVal DmSetting As Long:swDmDocumentUnitsIntegerValue_e) As Long
+GetSwDmSettingToggle	m	Function GetSwDmSettingToggle(ByVal DmSetting As Long:swDmDocumentUnitsToggle_e) As Boolean
+LastSavedDate2	p	Property LastSavedDate2 As Long
+Release3rdPartyStorage	m	Function Release3rdPartyStorage(ByVal StringIn As String) As Boolean
+Release3rdPartyStorageStore	m	Function Release3rdPartyStorageStore(ByVal SubStorageName As String) As Boolean
+@SwDMDocument2	o
+AddInvisibleCustomProperty	m	Function AddInvisibleCustomProperty(ByVal FieldName As String, ByVal FieldType As SwDmCustomInfoType, ByVal FieldValue As String) As Boolean
+DeleteInvisibleCustomProperty	m	Function DeleteInvisibleCustomProperty(ByVal FieldName As String) As Boolean
+GetInvisibleCustomProperty	m	Function GetInvisibleCustomProperty(ByVal FieldName As String, ByRef type As SwDmCustomInfoType) As String
+GetInvisibleCustomPropertyCount	m	Function GetInvisibleCustomPropertyCount() As Long
+GetInvisibleCustomPropertyNames	m	Function GetInvisibleCustomPropertyNames() As Variant
+SetInvisibleCustomProperty	m	Function SetInvisibleCustomProperty(ByVal FieldName As String, ByVal newValue As String) As HResult
+@SwDMDocument20	o
+Delete3rdPartyStorage	m	Function Delete3rdPartyStorage(ByVal StringIn As String) As Boolean
+Delete3rdPartyStorageStore	m	Function Delete3rdPartyStorageStore(ByVal SubStorageName As String) As Boolean
+@SwDMDocument21	o
+GetAllExternalReferences5	m	Function GetAllExternalReferences5(ByVal pSrcOption As SwDMSearchOption, ByRef brokenRefVar As Variant:SwDmReferenceStatus, ByRef IsVirtual As Variant, ByRef TimeStamp As Variant, ByRef ImportedPaths As Variant) As Variant
+@SwDMDocument22	o
+GetFileAvgTime	m	Function GetFileAvgTime(ByRef bsFileTime As String, ByRef bsLWFileTime As String) As HResult
+IsCustomPropertyEditable	m	Function IsCustomPropertyEditable(ByVal FieldName As String, ByRef IsEditable As Boolean) As HResult
+@SwDMDocument23	o
+GetLicenseType	m	Function GetLicenseType() As Long:SwDMDocumentLicenseType_e
+@SwDMDocument24	o
+IsSavedInDetailingMode	m	Function IsSavedInDetailingMode() As Boolean
+@SwDMDocument25	o
+GetDisplayTitleName	m	Function GetDisplayTitleName() As String
+@SwDMDocument26	o
+Get3DExperienceType	m	Function Get3DExperienceType() As Long:swDm3DExperienceModelType_e
+@SwDMDocument27	o
+GetExternalFeatureReferences3	m	Function GetExternalFeatureReferences3(ByVal ExtRefOption As SwDMExternalReferenceOption2) As Long
+@SwDMDocument28	o
+GetSplitFeatureReferences	m	Function GetSplitFeatureReferences(ByVal SrcOption As SwDMSearchOption) As Variant
+SetSplitFeatureReferences	m	Function SetSplitFeatureReferences(ByVal ListOfSplitPartPaths As Variant, ByVal ListOfModifiedSplitPartPaths As Variant, ByVal NewPathName As String) As HResult
+SetStockFeatureReferences	m	Function SetStockFeatureReferences(ByVal ListOfSplitPartPaths As Variant, ByVal ListOfModifiedSplitPartPaths As Variant, ByVal NewPathName As String) As HResult
+@SwDMDocument29	o
+HasLegacyCustomProperties	p	Property HasLegacyCustomProperties As Boolean
+SetCustomProperty2	m	Function SetCustomProperty2(ByVal FieldName As String, ByVal newValue As String) As Boolean
+@SwDMDocument3	o
+GetAllCustomPropertyNamesAndValues	m	Function GetAllCustomPropertyNamesAndValues(ByRef names As Variant, ByRef types As Variant, ByRef linkedTo As Variant, ByRef values As Variant) As HResult
+@SwDMDocument30	o
+SavedInLDREditMode	m	Function SavedInLDREditMode() As SwDMDocumentSavedInLDREditMode_e
+@SwDMDocument31	o
+GetSheetFormatPathUntrimmed	m	Function GetSheetFormatPathUntrimmed(ByVal SheetName As String, ByRef FormatPath As String) As Long:swSheetFormatPathResult
+GetSheetNamesUntrimmed	m	Function GetSheetNamesUntrimmed() As Variant
+GetSheetPropertiesUntrimmed	m	Function GetSheetPropertiesUntrimmed(ByVal SheetName As String, ByRef Properties As Variant) As Long:swSheetPropertiesResult
+@SwDMDocument4	o
+GetActiveSheetName	m	Function GetActiveSheetName() As String
+GetSheetCount	m	Function GetSheetCount() As Long
+@SwDMDocument5	o
+GetAllExternalReferences2	m	Function GetAllExternalReferences2(ByVal pSrcOption As SwDMSearchOption, ByRef brokenRefVar As Variant:SwDmReferenceStatus) As Variant
+GetCustomPropertyValues	m	Function GetCustomPropertyValues(ByVal FieldName As String, ByRef type As SwDmCustomInfoType, ByRef linkedTo As String) As String
+GetLinkedAttachments	m	Function GetLinkedAttachments() As Variant
+@SwDMDocument6	o
+GetSheetNames	m	Function GetSheetNames() As Variant
+@SwDMDocument7	o
+IsSmartComponentDocument	m	Function IsSmartComponentDocument() As Boolean
+@SwDMDocument8	o
+GetChangedReferences	m	Function GetChangedReferences(ByRef originalreferences As Variant, ByRef newreferences As Variant) As HResult
+GetComponentCount	m	Function GetComponentCount() As Long
+GetKeyWordStream	m	Function GetKeyWordStream(ByVal xmlFileName As String) As SwDmXmlDataError
+@SwDMDocument9	o
+GetKeyWordStream2	m	Function GetKeyWordStream2(ByRef xmlStream As Unknown) As SwDmXmlDataError
+@SwDMExternalReferenceOption	o
+Configuration	p	Property Configuration As String
+ExternalReferences	p	Property ExternalReferences As Variant
+NeedSuppress	p	Property NeedSuppress As Boolean
+ReferencedConfigurations	p	Property ReferencedConfigurations As Variant
+SearchOption	p	Property SearchOption As SwDMSearchOption
+@SwDMExternalReferenceOption2	o
+BrokenStatus	p	Property BrokenStatus As Variant:SwDmReferenceStatus
+IDs	p	Property IDs As Variant
+ReferencedFeatures	m	Function ReferencedFeatures(ByRef FeatureNames As Variant, ByRef FeatureTypes As Variant) As Boolean
+@SwDMSearchOption	o
+AddSearchPath	m	Function AddSearchPath(ByVal newPath As String) As HResult
+ClearAllSearchPaths	m	Function ClearAllSearchPaths() As HResult
+GetAllSearchPaths	m	Function GetAllSearchPaths() As Variant
+RemoveSearchPath	m	Function RemoveSearchPath(ByVal remPath As String) As HResult
+SearchFilters	p	Property SearchFilters As Long:SwDmSearchFilters
+@SwDMSheet	o
+GetInvisibleCustomProperty	m	Function GetInvisibleCustomProperty(ByVal FieldName As String, ByRef type As SwDmCustomInfoType) As String
+GetInvisibleCustomPropertyCount	m	Function GetInvisibleCustomPropertyCount() As Long
+GetInvisibleCustomPropertyNames	m	Function GetInvisibleCustomPropertyNames() As Variant
+Name	p	Property Name As String
+@SwDMSheet2	o
+GetPreviewPNGBitmap	m	Function GetPreviewPNGBitmap(ByRef result As SwDmPreviewError) As Object
+GetPreviewPNGBitmapBytes	m	Function GetPreviewPNGBitmapBytes(ByRef result As SwDmPreviewError) As Variant
+PreviewPNGStreamName	p	Property PreviewPNGStreamName As String
+@SwDMSheet3	o
+GetID	m	Function GetID() As Long
+@SwDMSheet4	o
+CustomPropertyView	p	Property CustomPropertyView As Unknown:SwDMView
+GetViews	m	Function GetViews() As Variant:SwDMView
+@SwDMTable	o
+AddColumnLeft	m	Function AddColumnLeft(ByRef ColumnDataIn As Variant) As SwDmTableError
+AddColumnRight	m	Function AddColumnRight(ByRef ColumnDataIn As Variant) As SwDmTableError
+AddRowHead	m	Function AddRowHead(ByRef RowDataIn As Variant) As SwDmTableError
+AddRowTail	m	Function AddRowTail(ByRef RowDataIn As Variant) As SwDmTableError
+DeleteColumn	m	Function DeleteColumn(ByVal ColumnIndex As Long) As SwDmTableError
+DeleteRow	m	Function DeleteRow(ByVal RowIndex As Long) As SwDmTableError
+GetCellText	m	Function GetCellText(ByVal RowIndex As Long, ByVal ColumnIndex As Long, ByRef CellTextOut As String) As SwDmTableError
+GetColumnCount	m	Function GetColumnCount() As Long
+GetColumnType	m	Function GetColumnType(ByVal ColumnIndex As Long) As SwDmColumnType
+GetComponentRep	m	Function GetComponentRep(ByVal RowIndex As Long, ByRef ComponentRep As String) As SwDmTableError
+GetHeaderStyle	m	Function GetHeaderStyle() As SwDmTableHeaderStyle
+GetRowCount	m	Function GetRowCount() As Long
+IsTitleVisible	m	Function IsTitleVisible() As Boolean
+Name	p	Property Name As String
+SetCellText	m	Function SetCellText(ByVal RowIndex As Long, ByVal ColumnIndex As Long, ByVal CellTextIn As String) As SwDmTableError
+@SwDMTable2	o
+GetBOMNumberIncrement	m	Function GetBOMNumberIncrement(ByRef Error As SwDmTableError) As Long
+GetBOMStartNumber	m	Function GetBOMStartNumber(ByRef Error As SwDmTableError) As Long
+GetBOMTableType	m	Function GetBOMTableType(ByRef Error As SwDmTableError) As swDmBOMTableType
+GetCellTextHorizontalJustification	m	Function GetCellTextHorizontalJustification(ByVal RowIndex As Long, ByVal ColumnIndex As Long, ByRef Error As SwDmTableError) As swDmTableCellHorzAlignType
+GetColumnCustomProperty	m	Function GetColumnCustomProperty(ByVal ColumnIndex As Long, ByRef Error As SwDmTableError) As String
+GetColumnWidth	m	Function GetColumnWidth(ByVal ColumnIndex As Long, ByRef Error As SwDmTableError) As Variant
+GetFeatureName	m	Function GetFeatureName(ByRef Error As SwDmTableError) As String
+ReferencedConfigurationNames	m	Function ReferencedConfigurationNames(ByRef Error As SwDmTableError) As Variant
+ReferencedDocumentName	m	Function ReferencedDocumentName(ByRef Error As SwDmTableError) As String
+@SwDMTable3	o
+GetTableCellText	m	Function GetTableCellText(ByRef Error As SwDmTableError, ByRef RowCount As Long, ByRef ColCount As Long) As Variant
+@SwDMTable4	o
+DisplayAsOneItem	p	Property DisplayAsOneItem As Boolean
+Hidden	p	Property Hidden As Boolean
+PartConfigurationGrouping	p	Property PartConfigurationGrouping As Long:swDMPartConfigurationGrouping
+@SwDMTable5	o
+Sheet	p	Property Sheet As SwDMSheet
+@SwDMTable6	o
+AddRevisionRow	m	Function AddRevisionRow(ByVal Revision As String) As SwDmTableError
+GetLatestRevision	m	Function GetLatestRevision() As String
+GetRevisionInfo	m	Function GetRevisionInfo(ByVal Revision As String, ByRef RowData As Variant) As SwDmTableError
+GetRevTableStyle	m	Function GetRevTableStyle() As swDmRevTableStyle
+HasPlaceHolderRow	m	Function HasPlaceHolderRow() As Boolean
+UpdateRevisionColumn	m	Function UpdateRevisionColumn(ByVal Revision As String, ByVal ColType As SwDmColumnType, ByVal Data As String) As SwDmTableError
+UpdateRevisionRow	m	Function UpdateRevisionRow(ByVal Revision As String, ByRef RowDataIn As Variant) As SwDmTableError
+@SwDMView	o
+Name	p	Property Name As String
+ReferencedConfiguration	p	Property ReferencedConfiguration As String
+ReferencedDocument	p	Property ReferencedDocument As String
+Sheet	p	Property Sheet As SwDMSheet
+SheetName	p	Property SheetName As String
+@SwDMView2	o
+ReferencedConfigurationID	p	Property ReferencedConfigurationID As Long

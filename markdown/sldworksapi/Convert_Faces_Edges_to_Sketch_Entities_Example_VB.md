@@ -9,8 +9,7 @@ source: "sldworksapi/Convert_Faces_Edges_to_Sketch_Entities_Example_VB.htm"
 
 # Convert Faces' Edges to Sketch Entities Example (VBA)
 
-This example shows how to convert the edges of selected faces to sketch
-entities.
+This example shows how to convert the edges of selected faces to sketch entities.
 
 ```
 '-----------------------------------------------------------

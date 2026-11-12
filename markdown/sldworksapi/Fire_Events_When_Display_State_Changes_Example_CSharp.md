@@ -11,8 +11,7 @@ source: "sldworksapi/Fire_Events_When_Display_State_Changes_Example_CSharp.htm"
 
 ## Fire Events When Display State Changes Example (C#)
 
-This example shows how to fire the events related to changing display
-states of a configuration in an assembly document.
+This example shows how to fire the events related to changing display states of a configuration in an assembly document.
 
 ```
 //---------------------------------------------------------------
@@ -20,7 +19,7 @@ states of a configuration in an assembly document.
 // 1. Open an assembly document that has a configuration with multiple
 //    display states.
 // 2. Run this macro in debug mode.
-// 3. Change the display state of the active configuration in SOLIDWORKS
+// 3. Change the display state of the active configuration in SOLIDWORKS Design
 //    (click the ConfigurationManager tab and double-click
 //    a different display state).
 //
@@ -41,53 +40,53 @@ using System.Windows.Forms;
 
 namespace Macro1.csproj
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public
+    public
  partial class SolidWorksMacro
 ```
 
 ```vb
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public AssemblyDoc swAssem;
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void Main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ModelDoc2 swModel;
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Hashtable openAssem;
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel = (ModelDoc2)swApp.ActiveDoc;
- kadov_tag{{<spaces>}}
-             kadov_tag{{</spaces>}}//Set up events
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swAssem = (AssemblyDoc)swModel;
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}openAssem = new Hashtable();
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}AttachEventHandlers();
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// <summary>
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}The SldWorks swApp variable is pre-assigned for you.
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// </summary>
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SldWorks swApp;
+    {
+        public AssemblyDoc swAssem;
+         public void Main()
+        {
+            ModelDoc2 swModel;
+             Hashtable openAssem;
+             swModel = (ModelDoc2)swApp.ActiveDoc;
 
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void AttachEventHandlers()
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}AttachSWEvents();
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
+             //Set up events
+             swAssem = (AssemblyDoc)swModel;
+             openAssem = new Hashtable();
+             AttachEventHandlers();
+        }
+        /// <summary>
+         ///  The SldWorks swApp variable is pre-assigned for you.
+         /// </summary>
+         public SldWorks swApp;
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void AttachSWEvents()
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swAssem.ActiveDisplayStateChangePreNotify += this.swAssem_ActiveDisplayStateChangePreNotify;
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swAssem.ActiveDisplayStateChangePostNotify += this.swAssem_ActiveDisplayStateChangePostNotify;
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
+         public void AttachEventHandlers()
+         {
+             AttachSWEvents();
+         }
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public int swAssem_ActiveDisplayStateChangePreNotify()
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}//Send message when user changes display state in the ConfigurationManager
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}MessageBox.Show("The active configuration's display state is about to change.");
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}return 1;
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
+        public void AttachSWEvents()
+         {
+             swAssem.ActiveDisplayStateChangePreNotify += this.swAssem_ActiveDisplayStateChangePreNotify;
+             swAssem.ActiveDisplayStateChangePostNotify += this.swAssem_ActiveDisplayStateChangePostNotify;
+         }
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public int swAssem_ActiveDisplayStateChangePostNotify(string DisplayStateName)
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}//Send message after user changes display state in the ConfigurationManager
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}MessageBox.Show("The active configuration's display state has changed.");
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}return 1;
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+        public int swAssem_ActiveDisplayStateChangePreNotify()
+         //Send message when user changes display state in the ConfigurationManager
+         {
+             MessageBox.Show("The active configuration's display state is about to change.");
+             return 1;
+         }
+
+        public int swAssem_ActiveDisplayStateChangePostNotify(string DisplayStateName)
+         //Send message after user changes display state in the ConfigurationManager
+         {
+             MessageBox.Show("The active configuration's display state has changed.");
+             return 1;
+         }
+    }
  }
 ```

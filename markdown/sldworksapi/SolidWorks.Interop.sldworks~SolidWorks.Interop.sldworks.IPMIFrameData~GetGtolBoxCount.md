@@ -40,13 +40,7 @@ System.int GetGtolBoxCount()
 System.int GetGtolBoxCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Number of Gtol tolerance boxes
 
 ## VBA Syntax
 
-See
-
-[PMIFrameData::GetGtolBoxCount](ms-its:sldworksapivb6.chm::/sldworks~PMIFrameData~GetGtolBoxCount.html)
-
-.
+See [PMIFrameData::GetGtolBoxCount](ms-its:sldworksapivb6.chm::/sldworks~PMIFrameData~GetGtolBoxCount.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## See Also
 
 [IPMIFrameData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData.html)
-
 [IPMIFrameData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData_members.html)
 
 ## Availability

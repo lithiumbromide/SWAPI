@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # IFace Property (IDomeFeatureData2)
 
-Obsolete. Superseded by
-
-[IDomeFeatureData2::Faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~Faces.html)
-
-.
+Obsolete. Superseded by [IDomeFeatureData2::Faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~Faces.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property Face2^ IFace {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DomeFeatureData2::IFace](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData2~IFace.html)
-
-.
+See [DomeFeatureData2::IFace](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData2~IFace.html).
 
 ## See Also
 
 [IDomeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData2.html)
-
 [IDomeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData2_members.html)

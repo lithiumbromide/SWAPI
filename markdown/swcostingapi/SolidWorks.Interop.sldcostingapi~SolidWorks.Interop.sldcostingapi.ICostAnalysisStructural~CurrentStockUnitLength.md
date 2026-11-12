@@ -51,11 +51,7 @@ Stock unit size
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisStructural::CurrentStockUnitLength](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~CurrentStockUnitLength.html)
-
-.
+See [CostAnalysisStructural::CurrentStockUnitLength](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~CurrentStockUnitLength.html).
 
 ## Remarks
 
@@ -64,9 +60,7 @@ You must specify a value that matches a stock unit length value in the template.
 ## See Also
 
 [ICostAnalysisStructural Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
 [ICostAnalysisStructural Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural_members.html)
-
 [ICostAnalysisStructural::CurrentCostMethodType Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~CurrentCostMethodType.html)
 
 ## Availability

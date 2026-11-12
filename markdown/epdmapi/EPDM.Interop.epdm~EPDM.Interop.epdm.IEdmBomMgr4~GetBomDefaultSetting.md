@@ -47,24 +47,15 @@ EdmBomDefaultSetting GetBomDefaultSetting(
 
 ## Examples
 
-See the
-
-[IEdmBomMgr4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4.html)
-
-example.
+See the [IEdmBomMgr4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4.html) example.
 
 ## Remarks
 
-To specify lLayoutId, use
-
-[IEdmBomMgr2::GetBomLayouts2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2~GetBomLayouts2.html)
-
-to find the layout ID of the BOM whose default settings you want to see.
+To specify lLayoutId, use [IEdmBomMgr2::GetBomLayouts2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2~GetBomLayouts2.html) to find the layout ID of the BOM whose default settings you want to see.
 
 ## See Also
 
 [IEdmBomMgr4 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4.html)
-
 [IEdmBomMgr4 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4_members.html)
 
 ## Availability

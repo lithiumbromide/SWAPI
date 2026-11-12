@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCe
 
 # ReverseAngVelocityDirection Property (ICWCentriFugalForce)
 
-Obsolete. Superseded by
-
-[ICWCentrifugalForce::ReverseAngVelocityDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~ReverseAngVelocityDirection2.html)
-
-.
+Obsolete. Superseded by [ICWCentrifugalForce::ReverseAngVelocityDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~ReverseAngVelocityDirection2.html).
 
 ## Syntax
 
@@ -55,18 +51,12 @@ property System.int ReverseAngVelocityDirection {
 
 ## VBA Syntax
 
-See
-
-[CWCentriFugalForce::ReverseAngVelocityDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~ReverseAngVelocityDirection.html)
-
-.
+See [CWCentriFugalForce::ReverseAngVelocityDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~ReverseAngVelocityDirection.html).
 
 ## See Also
 
 [ICWCentriFugalForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
 [ICWCentriFugalForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce_members.html)
-
 [ICWCentriFugalForce::AngularVelocity Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~AngularVelocity.html)
 
 ## Availability

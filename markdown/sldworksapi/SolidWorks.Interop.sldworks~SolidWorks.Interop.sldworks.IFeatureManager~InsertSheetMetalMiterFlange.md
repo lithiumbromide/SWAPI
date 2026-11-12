@@ -99,66 +99,51 @@ Feature^ InsertSheetMetalMiterFlange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseDefaultRadius`: True to use default bend radius, false to use GlobalRadius
-- `GlobalRadius`: Global bend radiusParamDesc
-- `RipGap`: Rip-gap distanceParamDesc
+- `GlobalRadius`: Global bend radius
+- `RipGap`: Rip-gap distance
 - `UseDefaultRelief`: True to use parent bend's ratio, false to not
 - `UseReliefRatio`: True to use custom relief ratio, false to not
 - `ReliefRatio`: If useReliefRatio is True, then specify relief ratio
-- `ReliefWidth`: If UseReliefRatio is True and ReliefType is swSheetMetalReliefRectangular or swSheetMetalReliefObround, then specify relief depthParamDesc
-- `ReliefDepth`: If UseReliefRatio is True and ReliefType is swSheetMetalReliefRectangular or swSheetMetalReliefObround, then specify relief depthParamDesc
-- `ReliefType`: Relief type as defined by
+- `ReliefWidth`: If UseReliefRatio is True and ReliefType is swSheetMetalReliefRectangular or swSheetMetalReliefObround, then specify relief depth
+- `ReliefDepth`: If UseReliefRatio is True and ReliefType is swSheetMetalReliefRectangular or swSheetMetalReliefObround, then specify relief depth
+- `ReliefType`: Relief type as defined by [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html); valid selections:
 
-[swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
-
-; valid selections:
-
-- swSheetMetalRelievObround
-- swSheetMetalReliefRectangular
-- swSheetMetalReliefTear
+  - swSheetMetalRelievObround
+  - swSheetMetalReliefRectangular
+  - swSheetMetalReliefTear
 - `TrimSideBends`: True to trim side bends, false to not
-- `FlangePos`: Flange position as defined by[swFlangePositionTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangePositionTypes_e.html)ParamDesc; valid selections:
+- `FlangePos`: Flange position as defined by [swFlangePositionTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangePositionTypes_e.html); valid selections:
 
-- swFlangePositionTypeMaterialInside
-- swFlangePositionTypeMaterialOutside
-- swFlangePositionTypeBendOutside
+  - swFlangePositionTypeMaterialInside
+  - swFlangePositionTypeMaterialOutside
+  - swFlangePositionTypeBendOutside
 - `OffsetDist1`: Starting offset distance if partial flange
 - `OffsetDist2`: Ending offset distance if partial flange
-- `PCBA`: | If... | Then... |
-| --- | --- |
-| non-NULL | Pointer to ICustomBendAllowance object for which required values have been set |
-| NULL | Parent bend's bend allowance is used |
+- `PCBA`:
+
+  | If... | Then... |
+  | --- | --- |
+  | non-NULL | Pointer to ICustomBendAllowance object for which required values have been set |
+  | NULL | Parent bend's bend allowance is used |
 
 ### Return Value
 
-Pointer to the[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)objectParamDescor NULL
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object or NULL
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetalMiterFlange](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalMiterFlange.html)
-
-.
+See [FeatureManager::InsertSheetMetalMiterFlange](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalMiterFlange.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IMiterFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
 
 ## Availability

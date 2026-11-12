@@ -1,6 +1,5 @@
 ---
-title: "CoincidentMateFeatureData Object
-Members"
+title: "CoincidentMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CoincidentMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CoincidentMateFeatureData_members.html"
 ---
 
-# CoincidentMateFeatureData Object
-Members
+# CoincidentMateFeatureData Object Members
 
 ## Public Properties
 

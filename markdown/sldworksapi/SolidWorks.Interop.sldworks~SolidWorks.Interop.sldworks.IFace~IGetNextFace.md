@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetNextFace Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetNextFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetNextFace.html)
-
-.
+Obsolete. Superseded by [IFace2::IGetNextFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetNextFace.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Face IGetNextFace()
 Face^ IGetNextFace();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::IGetNextFace](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetNextFace.html)
-
-.
+See [Face::IGetNextFace](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetNextFace.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

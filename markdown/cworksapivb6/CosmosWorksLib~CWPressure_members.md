@@ -1,6 +1,5 @@
 ---
-title: "CWPressure Object
-Members"
+title: "CWPressure Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWPressure_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWPressure_members.html"
 ---
 
-# CWPressure Object
-Members
+# CWPressure Object Members
 
 ## Public Methods
 

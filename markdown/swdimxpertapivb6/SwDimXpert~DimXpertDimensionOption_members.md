@@ -1,6 +1,5 @@
 ---
-title: "DimXpertDimensionOption Object
-Members"
+title: "DimXpertDimensionOption Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertDimensionOption_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertDimensionOption_members.html"
 ---
 
-# DimXpertDimensionOption Object
-Members
+# DimXpertDimensionOption Object Members
 
 ## Public Properties
 

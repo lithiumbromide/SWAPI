@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertCutSwept3 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertCutSwept4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCutSwept4.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertCutSwept4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCutSwept4.html).
 
 ## Syntax
 
@@ -111,68 +107,38 @@ Feature^ InsertCutSwept3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Propagate`: True propagates the swept cut to the next edge, false causes the swept cut to occur only on the selected edge; to propagate to the next edge, the next edge must be tangent to the current edge
 - `Alignment`: If the curve used to sweep goes from one face to another or from one edge to another, then passing True causes the sweep to cut completely through the end faces of the cut, false causes the swept cut to begin and end perpendicular to the sweep curve; therefore, it may not break through the two end faces of the body being cut
-- `TwistCtrlOption`: Twist control options as defined by
-
-[swTwistControlType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTwistControlType_e.html)
+- `TwistCtrlOption`: Twist control options as defined by [swTwistControlType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTwistControlType_e.html)
 - `KeepTangency`: If the sweep section has tangent segments, True to cause the corresponding surfaces in the resulting sweep to be tangent, false to not
 - `BAdvancedSmoothing`: If the sweep section has circular or elliptical arcs, true to approximate the sections and smooth the surfaces, false to not
-- `StartMatchingType`: Tangency type as defined by
-
-[swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
-- `EndMatchingType`: Tangency type as defined by
-
-[swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
+- `StartMatchingType`: Tangency type as defined by [swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
+- `EndMatchingType`: Tangency type as defined by [swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
 - `IsThinBody`: True if this feature is a thin body, false if not
 - `Thickness1`: Thickness value for the first direction
 - `Thickness2`: Thickness value for the second direction
-- `ThinType`: Thin wall type as defined by
-
-[swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
-- `PathAlign`: Align path type (see
-
-Remarks
-
-)
+- `ThinType`: Thin wall type as defined by [swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
+- `PathAlign`: Align path type (see **Remarks**)
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
-- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see
-
-Remarks
-
-)
+- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see Remarks)
 - `TwistAngle`: If twistCtrlOption set to swTwistControlConstantTwistAlongPath, then specify end twist angle
-- `BMergeSmoothFaces`: True to merge smooth faces, false to notParamDesc
+- `BMergeSmoothFaces`: True to merge smooth faces, false to not
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCutSwept3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCutSwept3.html)
-
-.
+See [FeatureManager::InsertCutSwept3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCutSwept3.html).
 
 ## Remarks
 
-UseIModelDocExtension::SelectByID2to select the profile and sweep curves. The mark for:
+Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the profile and sweep curves. The mark for:
 
 - 1 = Profile selection
 - 2 = Guide-curve selection, if provided
@@ -191,11 +157,8 @@ When using cut or cavity features that result in multiple bodies, you cannot sel
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [IFeatureManager::InsertProtrusionSwept3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertProtrusionSwept3.html)
 
 ## Availability

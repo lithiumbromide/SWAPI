@@ -48,22 +48,16 @@ Outer tolerance value
 
 ## VBA Syntax
 
-See
-
-[DimXpertSurfaceProfileTolerance::OuterToleranceValue](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertSurfaceProfileTolerance~OuterToleranceValue.html)
-
-.
+See [DimXpertSurfaceProfileTolerance::OuterToleranceValue](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertSurfaceProfileTolerance~OuterToleranceValue.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertSurfaceProfileTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSurfaceProfileTolerance.html)
-
 [IDimXpertSurfaceProfileTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSurfaceProfileTolerance_members.html)
 
 ## Availability

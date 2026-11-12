@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBu
 
 # CheckFlowPressure Property (ICWBucklingStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWBucklingStudyOptions::CheckFlowPressure2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~CheckFlowPressure2.html)
-
-.
+Obsolete. Superseded by [ICWBucklingStudyOptions::CheckFlowPressure2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~CheckFlowPressure2.html).
 
 ## Syntax
 
@@ -55,24 +51,15 @@ property System.int CheckFlowPressure {
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::CheckFlowPressure](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~CheckFlowPressure.html)
-
-.
+See [CWBucklingStudyOptions::CheckFlowPressure](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~CheckFlowPressure.html).
 
 ## Remarks
 
-If this property is set to 1, use
-
-[ICWBucklingStudyOptions::FlowPressureFile](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~FlowPressureFile.html)
-
-to set the SOLIDWORKS Flow Simulation results file.
+If this property is set to 1, use [ICWBucklingStudyOptions::FlowPressureFile](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~FlowPressureFile.html) to set the SOLIDWORKS Flow Simulation results file.
 
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
 
 ## Availability

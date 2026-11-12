@@ -11,10 +11,8 @@ source: "sldworksapi/Get_Sketch_Constraints_Example_VB.htm"
 
 This examples shows how to:
 
-- determine whether a sketch is under-constrained
-  or over-constrained.
-- iterate over all the segments in the sketch
-  and get their constraints.
+- determine whether a sketch is under-constrained or over-constrained.
+- iterate over all the segments in the sketch and get their constraints.
 
 ```
 '------------------------------------------------------------------

@@ -62,9 +62,7 @@ System.int Find(
 ### Parameters
 
 - `connectorName`: Component name; can be the name of a fitting, cable, or wire; can include wild-card character (*)
-- `searchType`: Search type as defined by
-
-[swRoutingSearchType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRoutingSearchType_e.html)
+- `searchType`: Search type as defined by [swRoutingSearchType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRoutingSearchType_e.html)
 - `singleInstanceOnly`: True to find a single instance of connectorName, false to find all instances of connectorName
 - `append`: True appends the selection to the selection list, false replaces the selection list with this selection
 
@@ -74,24 +72,15 @@ Number of components found for connectorName
 
 ## VBA Syntax
 
-See
-
-[AdvancedRouteSelector::Find](ms-its:routingapivb6.chm::/SWRoutingLib~AdvancedRouteSelector~Find.html)
-
-.
+See [AdvancedRouteSelector::Find](ms-its:routingapivb6.chm::/SWRoutingLib~AdvancedRouteSelector~Find.html).
 
 ## Examples
 
-See the
-
-[IAdvancedRouteSelector](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html)
-
-examples.
+See the [IAdvancedRouteSelector](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html) examples.
 
 ## See Also
 
 [IAdvancedRouteSelector Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.html)
-
 [IAdvancedRouteSelector Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector_members.html)
 
 ## Availability

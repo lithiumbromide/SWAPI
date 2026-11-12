@@ -39,21 +39,11 @@ void CenterMark()
 void CenterMark();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::CenterMark](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CenterMark.html)
-
-.
+See [DrawingDoc::CenterMark](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CenterMark.html).
 
 ## Remarks
 
@@ -62,7 +52,5 @@ SOLIDWORKS creates center marks inside subsequently selected edges.
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)

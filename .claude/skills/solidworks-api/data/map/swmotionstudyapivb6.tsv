@@ -1,0 +1,111 @@
+#swapi-map 1 module=swmotionstudyapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@AVIParameter	o
+AspectRatio	p	Property AspectRatio As Double
+BlurLength	p	Property BlurLength As Long
+BlurOffset	p	Property BlurOffset As Long
+EndTime	p	Property EndTime As Double
+FramePerSecond	p	Property FramePerSecond As Double
+ImageSize	p	Property ImageSize As Long:swSaveAVIImageSize_e
+MotionBlur	p	Property MotionBlur As Boolean
+OutputType	p	Property OutputType As Long:swAnimationOutputType_e
+PreserveRatio	p	Property PreserveRatio As Boolean
+RendererType	p	Property RendererType As Long:swRendererType_e
+SaveEntireAnimation	p	Property SaveEntireAnimation As Boolean
+ScreenHeight	p	Property ScreenHeight As Long
+ScreenRatio	p	Property ScreenRatio As Boolean
+ScreenWidth	p	Property ScreenWidth As Long
+StartTime	p	Property StartTime As Double
+@CosmosMotionStudyProperties	o
+AnimateDuringSimulation	p	Property AnimateDuringSimulation As Boolean
+ContactResolution3D	p	Property ContactResolution3D As Long
+DeleteRedundantConstraints	p	Property DeleteRedundantConstraints As Boolean
+ErrorTolerance	p	Property ErrorTolerance As Double
+IntegratorAdaptivity	p	Property IntegratorAdaptivity As Double
+IntegratorType	p	Property IntegratorType As Long:swMotionIntegratorType_e
+JacobianEval	p	Property JacobianEval As Long
+MakeAllMatesFlexible	p	Property MakeAllMatesFlexible As Boolean
+MaxIterations	p	Property MaxIterations As Long
+MaxStepSize	p	Property MaxStepSize As Double
+MinStepSize	p	Property MinStepSize As Double
+UsePreciseContact	p	Property UsePreciseContact As Boolean
+WireFrameGraphics	p	Property WireFrameGraphics As Boolean
+@CosmosMotionStudyResults	o
+CreatePlotFeatureData	m	Function CreatePlotFeatureData() As Object:MotionPlotFeatureData
+CreatePlotXAxisFeatureData	m	Function CreatePlotXAxisFeatureData() As Object:MotionPlotAxisFeatureData
+CreatePlotYAxisFeatureData	m	Function CreatePlotYAxisFeatureData() As Object:MotionPlotAxisFeatureData
+ExportCSVFile	m	Function ExportCSVFile(ByVal PlotFeature As Object, ByVal FileName As String) As Boolean
+GetPlotCount	m	Function GetPlotCount() As Long
+GetPlotFeatures	m	Function GetPlotFeatures() As Variant:Feature
+GetValues	m	Function GetValues(ByVal PlotFeatureData As Object:MotionPlotFeatureData, ByVal PlotXFeatureData As Object:MotionPlotAxisFeatureData, ByVal PlotYFeatureData As Variant:MotionPlotAxisFeatureData) As Object:MotionPlotFeatureOutput
+IGetPlotFeatures	m	Function IGetPlotFeatures(ByVal Count As Long) As Object:Feature
+InsertPlotFeature	m	Function InsertPlotFeature(ByVal PlotFeatureData As Object:MotionPlotFeatureData, ByVal PlotXFeatureData As Object:MotionPlotAxisFeatureData, ByVal PlotYFeatureData As Object:MotionPlotAxisFeatureData) As Object:Feature
+@MotionPlotFeatureOutput	o
+GetXAxis	m	Function GetXAxis() As Variant
+GetYAxis	m	Function GetYAxis(ByVal YAxisFeatureData As Object:MotionPlotAxisFeatureData) As Variant
+@MotionStudy	o
+Activate	m	Function Activate() As Boolean
+AddCosmosWorksPlot	m	Function AddCosmosWorksPlot(ByVal StudyName As String, ByVal PlotName As String, ByVal Time As Double, ByVal DefinedScaleFactor As Double, ByVal ComponentArray As Variant) As Boolean
+Calculate	m	Function Calculate() As Boolean
+CreateByCollapse	m	Function CreateByCollapse(ByVal DeleteExistingPath As Boolean, ByVal Duration As Double, ByVal StartTime As Double) As Boolean
+CreateByExplode	m	Function CreateByExplode(ByVal DeleteExistingPath As Boolean, ByVal Duration As Double, ByVal StartTime As Double) As Boolean
+CreateByRotateModel	m	Function CreateByRotateModel(ByVal DeleteExistingPath As Boolean, ByVal Axis As Long:swAnimatorAxisOfRotation_e, ByVal RotationCount As Long, ByVal Direction As Long:swAnimatorDirectionOfRotation_e, ByVal Duration As Double, ByVal StartTime As Double) As Boolean
+CreateDefinition	m	Function CreateDefinition(ByVal Type As Long:swFeatureNameID_e) As Object
+CreateFeature	m	Function CreateFeature(ByVal FeatureData As Object) As Object:Feature
+Duplicate	m	Function Duplicate() As MotionStudy
+ForceOutputTimeStepChangeNotify	e	Event ForceOutputTimeStepChangeNotify(ByVal Time As Double, ByVal ForceNames As Variant, ByVal Displacement As Variant, ByVal Velocity As Variant, ByVal Acceleration As Variant, ByVal ForceOrTorque As Variant, ByRef ForceTorqueValue As Variant)
+ForceTimeStepChangeNotify	e	Event ForceTimeStepChangeNotify(ByVal Force As String, ByVal Time As Double, ByRef ForceMagnitude As Double)
+GetDuration	m	Function GetDuration() As Double
+GetFireOutputTimeStepEvents	m	Function GetFireOutputTimeStepEvents() As Boolean
+GetMotionFeatures	m	Function GetMotionFeatures() As Variant
+GetMotionFeaturesCount	m	Function GetMotionFeaturesCount() As Long
+GetNumOfExternalForces	m	Function GetNumOfExternalForces() As Long
+GetNumOfExternalMotors	m	Function GetNumOfExternalMotors() As Long
+GetProperties	m	Function GetProperties(ByVal StudyType As Long:swMotionStudyType_e) As MotionStudyProperties
+GetResults	m	Function GetResults(ByVal StudyType As Long:swMotionStudyType_e) As MotionStudyResults
+GetSupportedStudyTypes	m	Function GetSupportedStudyTypes(ByRef SupportedTypes As Long:swMotionStudyType_e) As Boolean
+GetTime	m	Function GetTime() As Double
+IGetMotionFeatures	m	Function IGetMotionFeatures(ByVal Count As Long) As Object
+IsActive	p	Property IsActive As Boolean
+IsPlaying	p	Property IsPlaying As Boolean
+MotorOutputTimeStepChangeNotify	e	Event MotorOutputTimeStepChangeNotify(ByVal Time As Double, ByVal MotorNames As Variant, ByVal Position As Variant, ByVal Velocity As Variant, ByVal Acceleration As Variant, ByVal ForceOrTorque As Variant, ByRef MotorValue As Variant)
+MotorTimeStepChangeNotify	e	Event MotorTimeStepChangeNotify(ByVal Motor As String, ByVal Time As Double, ByRef MotorSpeed As Double)
+Name	p	Property Name As String
+OutputTimeStepChangeNotify	e	Event OutputTimeStepChangeNotify(ByVal Time As Double)
+PartCollideNotify	e	Event PartCollideNotify(ByVal Time As Double, ByVal Component1 As Object:Component2, ByVal Component2 As Object:Component2, ByVal Vector1 As Object:MathVector, ByVal Vector2 As Object:MathVector, ByVal SurfaceNormal1 As Object, ByVal SurfaceNormal2 As Object)
+Play	m	Function Play() As Boolean
+PlayFromStart	m	Function PlayFromStart() As Boolean
+PlayMode	p	Property PlayMode As Long:swAnimationPlayMode_e
+SaveToAVI	m	Function SaveToAVI(ByVal FileName As String, ByVal Parameter As AVIParameter) As Boolean
+SetDuration	m	Function SetDuration(ByVal Time As Double) As Boolean
+SetFireOutputTimeStepEvents	m	Sub SetFireOutputTimeStepEvents(ByVal FireOutputEvents As Boolean)
+SetTime	m	Function SetTime(ByVal Time As Double) As Boolean
+SpecialMotionEventNotify	e	Event SpecialMotionEventNotify(ByVal Time As Double, ByVal EventType As Long:swSpecialMotionEventType_e)
+StartCalculateNotify	e	Event StartCalculateNotify(ByVal Time As Double)
+Stop	m	Function Stop() As Boolean
+StopCalculateNotify	e	Event StopCalculateNotify(ByVal Time As Double)
+StudyType	p	Property StudyType As Long:swMotionStudyType_e
+@MotionStudyManager	o
+ActivateMotionStudy	m	Function ActivateMotionStudy(ByVal MotionStudyName As String) As Boolean
+CreateAVIParameter	m	Function CreateAVIParameter() As AVIParameter
+CreateMotionStudy	m	Function CreateMotionStudy() As MotionStudy
+DeleteMotionStudy	m	Function DeleteMotionStudy(ByVal MotionStudyName As String) As Boolean
+GetMotionStudy	m	Function GetMotionStudy(ByVal MotionStudyName As String) As MotionStudy
+GetMotionStudyCount	m	Function GetMotionStudyCount() As Long
+GetMotionStudyNames	m	Function GetMotionStudyNames() As Variant
+IGetMotionStudyNames	m	Function IGetMotionStudyNames(ByVal Count As Long) As String
+@MotionStudyProperties	o
+GetFrameRate	m	Function GetFrameRate() As Long
+SetFrameRate	m	Function SetFrameRate(ByVal FramesPerSecond As Long) As Boolean
+@MotionStudyResults	o
+GetAngularAcceleration	m	Function GetAngularAcceleration(ByVal Time As Double, ByVal Component As Object:Component2) As Object:MathVector
+GetAngularVelocity	m	Function GetAngularVelocity(ByVal Time As Double, ByVal Component As Object:Component2) As Object:MathVector
+GetCMPosition	m	Function GetCMPosition(ByVal Time As Double, ByVal Component As Object:Component2) As Object:MathVector
+GetEulerAngles	m	Function GetEulerAngles(ByVal Time As Double, ByVal Component As Object:Component2) As Object:MathVector
+GetForceFromMate	m	Function GetForceFromMate(ByVal Time As Double, ByVal Mate As Object:Component2) As Object:MathVector
+GetLinearAcceleration	m	Function GetLinearAcceleration(ByVal Time As Double, ByVal Component As Object:Component2) As Object:MathVector
+GetLinearVelocity	m	Function GetLinearVelocity(ByVal Time As Double, ByVal Component As Object:Component2) As Object:MathVector
+GetTorqueFromMate	m	Function GetTorqueFromMate(ByVal Time As Double, ByVal Mate As Object:Component2) As Object:MathVector
+IsOutOfDate	m	Function IsOutOfDate() As Boolean
+@PhysicalSimulationMotionStudyProperties	o
+GeometricAccuracy	p	Property GeometricAccuracy As Long
+MateAccuracy	p	Property MateAccuracy As Long

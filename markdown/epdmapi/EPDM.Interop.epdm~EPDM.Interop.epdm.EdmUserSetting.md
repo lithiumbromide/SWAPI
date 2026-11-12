@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserSetting.html"
 
 # EdmUserSetting Enumeration
 
-User settings used by
-
-[IEdmUser11::SetSettingsVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser11~SetSettingsVar.html)
-
-.
+User settings used by [IEdmUser11::SetSettingsVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser11~SetSettingsVar.html).
 
 ## Syntax
 

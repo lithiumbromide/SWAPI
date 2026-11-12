@@ -39,21 +39,11 @@ void InsertSplitLineSil()
 void InsertSplitLineSil();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertSplitLineSil](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSplitLineSil.html)
-
-.
+See [ModelDoc2::InsertSplitLineSil](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSplitLineSil.html).
 
 ## Remarks
 
@@ -67,18 +57,14 @@ Valid items to select to specify the direction are:
 - axis
 - two points
 
-The item selected for direction must be selected usingIModelDocExtension::SelectByID2with a mark value of 2. The faces to split must be selected using IModelDocExtension::SelectByID2with mark values of 1.
+The item selected for direction must be selected using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with a mark value of 2. The faces to split must be selected using IModelDocExtension::SelectByID2 with mark values of 1.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertSplitLineProject Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertSplitLineProject.html)
-
 [ISplitLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData.html)
-
 [IFeatureManager::InsertSplitLineIntersect Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSplitLineIntersect.html)
 
 ## Availability

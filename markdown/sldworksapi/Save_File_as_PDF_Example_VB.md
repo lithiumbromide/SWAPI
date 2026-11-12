@@ -9,8 +9,7 @@ source: "sldworksapi/Save_File_as_PDF_Example_VB.htm"
 
 # Save File as PDF Example (VBA)
 
-This example shows how to export the specified sheet in a drawing document
-to a PDF file.
+This example shows how to export the specified sheet in a drawing document to a PDF file.
 
 ```vb
  '----------------------------------------------------------------------------

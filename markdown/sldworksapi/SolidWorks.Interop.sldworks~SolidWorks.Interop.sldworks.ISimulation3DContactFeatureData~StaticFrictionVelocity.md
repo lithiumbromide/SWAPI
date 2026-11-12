@@ -45,13 +45,7 @@ property System.double StaticFrictionVelocity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,38 +53,20 @@ Static friction velocity
 
 ## VBA Syntax
 
-See
-
-[Simulation3DContactFeatureData::StaticFrictionVelocity](ms-its:sldworksapivb6.chm::/sldworks~Simulation3DContactFeatureData~StaticFrictionVelocity.html)
-
-.
+See [Simulation3DContactFeatureData::StaticFrictionVelocity](ms-its:sldworksapivb6.chm::/sldworks~Simulation3DContactFeatureData~StaticFrictionVelocity.html).
 
 ## Examples
 
-See the
-
-[ISimulation3DContactFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html)
-
-examples.
+See the [ISimulation3DContactFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html) examples.
 
 ## Remarks
 
-Available only when
-
-[ISimulation3DContactFeatureData::FrictionOption](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulation3DContactFeatureData~FrictionOption.html)
-
-is
-
-[swMotionContactFrictionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMotionContactFrictionType_e.html)
-
-.swMotionContactFrictionFull.
+Available only when [ISimulation3DContactFeatureData::FrictionOption](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulation3DContactFeatureData~FrictionOption.html) is [swMotionContactFrictionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMotionContactFrictionType_e.html).swMotionContactFrictionFull.
 
 ## See Also
 
 [ISimulation3DContactFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html)
-
 [ISimulation3DContactFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData_members.html)
-
 [ISimulation3DContactFeatureData::StaticFrictionCoefficient Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData~StaticFrictionCoefficient.html)
 
 ## Availability

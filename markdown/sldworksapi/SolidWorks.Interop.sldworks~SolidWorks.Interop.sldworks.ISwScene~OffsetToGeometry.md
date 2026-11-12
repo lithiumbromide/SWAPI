@@ -40,13 +40,7 @@ System.bool OffsetToGeometry()
 System.bool OffsetToGeometry();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,15 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SwScene::OffsetToGeometry](ms-its:sldworksapivb6.chm::/sldworks~SwScene~OffsetToGeometry.html)
-
-.
+See [SwScene::OffsetToGeometry](ms-its:sldworksapivb6.chm::/sldworks~SwScene~OffsetToGeometry.html).
 
 ## Remarks
 
-Calling this method invalidates previous calls to
-
-[ISwScene::FloorOffset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorOffset.html)
-
-and
-
-[ISwScene::FloorOffsetDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorOffsetDirection.html)
-
-.
+Calling this method invalidates previous calls to [ISwScene::FloorOffset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorOffset.html) and [ISwScene::FloorOffsetDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorOffsetDirection.html).
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

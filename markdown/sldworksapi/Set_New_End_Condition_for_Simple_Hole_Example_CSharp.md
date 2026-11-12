@@ -9,8 +9,7 @@ source: "sldworksapi/Set_New_End_Condition_for_Simple_Hole_Example_CSharp.htm"
 
 # Set New End Condition for Simple Hole Feature Example (C#)
 
-This example shows how to set a new end condition for a simple hole
-feature.
+This example shows how to set a new end condition for a simple hole feature.
 
 ```vb
  //----------------------------------------------------------------------------

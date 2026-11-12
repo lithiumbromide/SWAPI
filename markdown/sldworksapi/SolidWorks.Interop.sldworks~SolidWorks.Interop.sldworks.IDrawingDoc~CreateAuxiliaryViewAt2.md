@@ -71,13 +71,7 @@ System.Object^ CreateAuxiliaryViewAt2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -95,22 +89,14 @@ Newly created auxiliary view
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::CreateAuxiliaryViewAt2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateAuxiliaryViewAt2.html)
-
-.
+See [DrawingDoc::CreateAuxiliaryViewAt2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateAuxiliaryViewAt2.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::ICreateAuxiliaryViewAt2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ICreateAuxiliaryViewAt2.html)
-
 [IDrawingDoc::ICreateDetailViewAt3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ICreateDetailViewAt3.html)
-
 [IDrawingDoc::CreateDetailViewAt3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateDetailViewAt3.html)
 
 ## Availability

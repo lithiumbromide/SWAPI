@@ -46,17 +46,12 @@ void GetErrorString(
 ### Parameters
 
 - `lError`: Error code for which to get a description
-- `pbsErrorName`: Error name as defined in
-
-[Return codes](ReturnCodes.htm)
-
-; hexadecimal number if the error is unknown
+- `pbsErrorName`: Error name as defined in [Return codes](ReturnCodes.htm); hexadecimal number if the error is unknown
 - `pbsDescription`: Description of the error
 
 ## Examples
 
 [Batch Add Files and Folders to Vault (VB.NET)](Batch_Add_Files_and_Folders_Example_VBNET.htm)
-
 [Batch Add Files and Folders to Vault (C#)](Batch_Add_Files_and_Folders_Example_CSharp.htm)
 
 ## Remarks
@@ -70,11 +65,8 @@ You do not have to be logged in to the vault to call this method.
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
-
 [IEdmVault11::GetErrorMessage Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetErrorMessage.html)
-
 [IEdmVault11::GetErrorName Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetErrorName.html)
 
 ## Availability

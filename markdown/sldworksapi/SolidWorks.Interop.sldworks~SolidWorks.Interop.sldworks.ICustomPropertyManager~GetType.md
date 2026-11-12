@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetType Method (ICustomPropertyManager)
 
-Obsolete. Superseded by
-
-[ICustomPropertyManager::GetType2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~GetType2.html)
-
-.
+Obsolete. Superseded by [ICustomPropertyManager::GetType2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~GetType2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.String^ GetType(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::GetType](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~GetType.html)
-
-.
+See [CustomPropertyManager::GetType](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~GetType.html).
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)

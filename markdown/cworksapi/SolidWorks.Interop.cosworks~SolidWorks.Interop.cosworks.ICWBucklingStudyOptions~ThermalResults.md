@@ -47,30 +47,19 @@ property System.int ThermalResults {
 
 ### Property Value
 
-Temperature source as defined by
-
-[swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html)
+Temperature source as defined by [swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::ThermalResults](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~ThermalResults.html)
-
-.
+See [CWBucklingStudyOptions::ThermalResults](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~ThermalResults.html).
 
 ## Examples
 
-See the
-
-[ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
-examples.
+See the [ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html) examples.
 
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
 
 ## Availability

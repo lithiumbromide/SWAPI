@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 Gets the face that is associated with the hatch.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,25 +47,15 @@ property Face2^ Face {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)associated with the hatch
+Pointer to the [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) associated with the hatch
 
 ## VBA Syntax
 
-See
-
-[FaceHatch::Face](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~Face.html)
-
-.
+See [FaceHatch::Face](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~Face.html).
 
 ## Examples
 
@@ -74,7 +64,6 @@ See
 ## See Also
 
 [IFaceHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html)
-
 [IFaceHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch_members.html)
 
 ## Availability

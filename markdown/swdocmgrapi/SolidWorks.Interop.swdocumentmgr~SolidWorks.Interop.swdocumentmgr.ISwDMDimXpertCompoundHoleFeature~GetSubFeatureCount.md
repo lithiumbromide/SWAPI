@@ -46,11 +46,7 @@ Number of sub-features in the compound hole
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompoundHoleFeature::GetSubFeatureCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundHoleFeature~GetSubFeatureCount.html)
-
-.
+See [SwDMDimXpertCompoundHoleFeature::GetSubFeatureCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundHoleFeature~GetSubFeatureCount.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature.html)
-
 [ISwDMDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature_members.html)
 
 ## Availability

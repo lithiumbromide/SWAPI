@@ -45,13 +45,7 @@ property System.double ScaleX {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ X-direction scale factor
 
 ## VBA Syntax
 
-See
-
-[ScaleFeatureData::ScaleX](ms-its:sldworksapivb6.chm::/sldworks~ScaleFeatureData~ScaleX.html)
-
-.
+See [ScaleFeatureData::ScaleX](ms-its:sldworksapivb6.chm::/sldworks~ScaleFeatureData~ScaleX.html).
 
 ## Examples
 
-See
-
-[IScaleFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData.html)
-
-examples.
+See [IScaleFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData.html) examples.
 
 ## Remarks
 
@@ -80,16 +66,13 @@ examples.
 | Uniform scaling | IScaleFeatureData::IsUniform |
 | All scale-related values in the same call | IScaleFeatureData::GetScale or IScaleFeatureData::SetScale |
 
-NOTE:To get or set the scaling factor when uniform scaling is enabled, use[IScaleFeatureData::ScaleUniform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~ScaleUniform.html).
+NOTE: To get or set the scaling factor when uniform scaling is enabled, use [IScaleFeatureData::ScaleUniform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~ScaleUniform.html).
 
 ## See Also
 
 [IScaleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData.html)
-
 [IScaleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData_members.html)
-
 [IScaleFeatureData::ScaleY Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData~ScaleY.html)
-
 [IScaleFeatureData::ScaleZ Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData~ScaleZ.html)
 
 ## Availability

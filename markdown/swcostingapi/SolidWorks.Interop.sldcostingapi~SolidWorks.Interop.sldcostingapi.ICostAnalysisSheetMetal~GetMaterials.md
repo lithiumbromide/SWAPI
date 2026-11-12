@@ -57,36 +57,23 @@ Array of strings of the names of the materials in the specified class
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisSheetMetal::GetMaterials](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~GetMaterials.html)
-
-.
+See [CostAnalysisSheetMetal::GetMaterials](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~GetMaterials.html).
 
 ## Remarks
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.html)
-
 [ICostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html)
-
 [ICostAnalsyisSheetMetal::GetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterialClasses.html)
-
 [ICostAnalsyisSheetMetal::IGetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~IGetMaterialClasses.html)
-
 [ICostAnalsyisSheetMetal::IGetMaterials Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~IGetMaterials.html)
-
 [ICostAnalsyisSheetMetal::GetMaterialCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterialCount.html)
-
 [ICostAnalsyisSheetMetal::CurrentMaterialClass Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CurrentMaterialClass.html)
-
 [ICostAnalsyisSheetMetal::CurrentMaterial Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CurrentMaterial.html)
-
 [ICostAnalysisSheetMetal::MaterialCost Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~MaterialCost.html)
-
 [ICostAnalysisSheetMetal::MaterialCostFromTemplate Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~MaterialCostFromTemplate.html)
 
 ## Availability

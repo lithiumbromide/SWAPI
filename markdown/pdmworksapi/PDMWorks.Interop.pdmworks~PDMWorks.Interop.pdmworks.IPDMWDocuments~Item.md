@@ -49,9 +49,7 @@ property System.Object^ default [System.Object^] {
 
 ### Parameters
 
-- `Index`: Number or name indicating which document to get (see
-
-Remarks)
+- `Index`: Number or name indicating which document to get (see Remarks)
 
 ### Property Value
 
@@ -59,11 +57,7 @@ Remarks)
 
 ## VBA Syntax
 
-See
-
-[PDMWDocuments::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocuments~Item.html)
-
-.
+See [PDMWDocuments::Item](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocuments~Item.html).
 
 ## Examples
 
@@ -71,18 +65,12 @@ See
 
 ## Remarks
 
-If this collection was returned from
-
-[IPDMWDocument::References](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~References.html)
-
-, then the document name refers to its revision name string, not its document name string.
+If this collection was returned from [IPDMWDocument::References](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~References.html), then the document name refers to its revision name string, not its document name string.
 
 ## See Also
 
 [IPDMWDocuments Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocuments.html)
-
 [IPDMWDocuments Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocuments_members.html)
-
 [IPDMWDocuments::Count Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocuments~Count.html)
 
 ## Availability

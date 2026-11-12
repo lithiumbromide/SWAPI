@@ -47,21 +47,11 @@ MathTransform^ GetTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Instance`: Index of one repeating element in this pattern (see
-
-Remarks
-
-)
+- `Instance`: Index of one repeating element in this pattern (see **Remarks**)
 
 ### Return Value
 
@@ -69,28 +59,19 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[SketchPatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~GetTransform.html)
-
-.
+See [SketchPatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~GetTransform.html).
 
 ## Examples
 
-See the
-
-[ISketchPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)
-
-examples.
+See the [ISketchPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html) examples.
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)
-
 [ISketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData_members.html)
 
 ## Availability

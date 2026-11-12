@@ -35,12 +35,9 @@ new property EdmObjectType ObjectType {
 
 ### Property Value
 
-Type of object as defined in
-
-[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
+Type of object as defined in [EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
 
 ## See Also
 
 [IEdmFile5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
 [IEdmFile5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5_members.html)

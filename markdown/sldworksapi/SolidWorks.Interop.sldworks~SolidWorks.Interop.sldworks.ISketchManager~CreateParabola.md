@@ -91,13 +91,7 @@ SketchSegment^ CreateParabola(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -116,30 +110,22 @@ See
 
 ### Return Value
 
-[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)for the parabola
+[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) for the parabola
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateParabola](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateParabola.html)
-
-.
+See [SketchManager::CreateParabola](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateParabola.html).
 
 ## Examples
 
 [Create Parabola (VBA)](Create_Parabola_Example_VB.htm)
-
 [Create Parabola (VB.NET)](Create_Parabola_Example_VBNET.htm)
-
 [Create Parabola (C#)](Create_Parabola_Example_CSharp.htm)
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::CreateConic Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateConic.html)
 
 ## Availability

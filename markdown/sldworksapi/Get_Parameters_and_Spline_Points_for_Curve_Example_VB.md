@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Parameters_and_Spline_Points_for_Curve_Example_VB.htm"
 
 # Get Parameters and Spline Points for Curve Example (VBA)
 
-This example shows how to get the parameters and spline points for the
-selected spline.
+This example shows how to get the parameters and spline points for the selected spline.
 
 ```
 '----------------------------------------

@@ -59,36 +59,26 @@ Surface^ ICreateBsplineSurfaceDLL(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Properties`: Contains 8 longs (see**Remarks**)
-- `UKnotArray`: Array of numUKnots doubles (seeRemarks)
-- `VKnotArray`: Array of numVKnots doubles (seeRemarks)
-- `ControlPointCoordArray`: Array of numCtrlPtCoord doubles (seeRemarks)
+- `Properties`: Contains 8 longs (see **Remarks**)
+- `UKnotArray`: Array of numUKnots doubles (see Remarks)
+- `VKnotArray`: Array of numVKnots doubles (see Remarks)
+- `ControlPointCoordArray`: Array of numCtrlPtCoord doubles (see Remarks)
 
 ### Return Value
 
-New B-spline[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
+New B-spline [surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::ICreateBsplineSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateBsplineSurfaceDLL.html)
-
-.
+See [Body2::ICreateBsplineSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateBsplineSurfaceDLL.html).
 
 ## Remarks
 
-You can use this method with trimming curve creation routines (for example,[ISurface::AddTrimmingLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~AddTrimmingLoop2.html)) to construct a trimmed surface.
+You can use this method with trimming curve creation routines (for example, [ISurface::AddTrimmingLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~AddTrimmingLoop2.html)) to construct a trimmed surface.
 
 The Properties argument contains the following elements. These are integers packed into a double array in the Dispatch version.
 
@@ -99,17 +89,23 @@ The Properties argument contains the following elements. These are integers pack
 
 The number of elements in UKnotArray is:
 
+```vb
 numUKnots = numU_CtrlPoints + Uorder
+```
 
 The number of elements in VKnotArray is:
 
+```vb
 numVKnots = numV_CtrlPoints + Vorder
+```
 
 The number of elements in ControlPointCoordArray is :
 
+```vb
 numCtrlPtCoord =( NumV_CtrlPoints * NumU_CtrlPoints * DimensionControlPoints )
+```
 
-**NOTE:**The order of the UV control points are reversed if you used[ISurface::GetBSurfParams3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetBSurfParams3.html)or[ISurface::IGetBSurfParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetBSurfParams.html)to get the data. You do not need to reverse the UV control points; instead, you can switch the UV knots and related parameters.
+**NOTE:** The order of the UV control points are reversed if you used [ISurface::GetBSurfParams3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetBSurfParams3.html) or [ISurface::IGetBSurfParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetBSurfParams.html) to get the data. You do not need to reverse the UV control points; instead, you can switch the UV knots and related parameters.
 
 For periodics, the first knot must have multiplicity = 1 and all excess multiplicity must be imposed on the last knot. Therefore, a valid periodic knot vector would be { 0, 1, 2, 3, 3, 3 } for a cubic curve. The control point on the seam of the closed curve cannot be replicated at both ends; it should occur only at the beginning.
 
@@ -120,7 +116,6 @@ Any existing object created by this method is destroyed if you call this method 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

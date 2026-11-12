@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 Gets the text of this PMI dimension.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ property System.String^ DimensionText {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,24 +55,15 @@ Dimension text
 
 ## VBA Syntax
 
-See
-
-[PMIDimensionData::DimensionText](ms-its:sldworksapivb6.chm::/sldworks~PMIDimensionData~DimensionText.html)
-
-.
+See [PMIDimensionData::DimensionText](ms-its:sldworksapivb6.chm::/sldworks~PMIDimensionData~DimensionText.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## See Also
 
 [IPMIDimensionData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData.html)
-
 [IPMIDimensionData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData_members.html)
 
 ## Availability

@@ -45,34 +45,20 @@ property System.int SpringType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of parameters that define the spring as defined in
-
-[swSpringType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringType_e.html)
+Type of parameters that define the spring as defined in [swSpringType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringType_e.html)
 
 ## VBA Syntax
 
-See
-
-[Spring::SpringType](ms-its:sldworksapivb6.chm::/sldworks~Spring~SpringType.html)
-
-.
+See [Spring::SpringType](ms-its:sldworksapivb6.chm::/sldworks~Spring~SpringType.html).
 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
-
 [ISpring::DefineType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~DefineType.html)
 
 ## Availability

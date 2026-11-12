@@ -9,16 +9,11 @@ source: "obsoleteapi/SldWorks/SldWorks__IOpenDoc5.htm"
 
 # SldWorks::IOpenDoc5
 
-This
-method is obsolete and has been superseded by[SldWorks::OpenDoc6](sldworksAPI.chm::/SldWorks/SldWorks__OpenDoc6.htm).
+This method is obsolete and has been superseded by [SldWorks::OpenDoc6](sldworksAPI.chm::/SldWorks/SldWorks__OpenDoc6.htm).
 
 Description
 
-This method opens an existing
-document of Name and Type and returns a pointer to the document object.
-It also allows control over whether or not to suppress display of dialog
-boxes, opening the document read-only, opening the document view-only
-and converting a drawing to a RapidDraft drawing.
+This method opens an existing document of Name and Type and returns a pointer to the document object. It also allows control over whether or not to suppress display of dialog boxes, opening the document read-only, opening the document view-only and converting a drawing to a RapidDraft drawing.
 
 Syntax (OLE Automation)
 
@@ -26,15 +21,9 @@ Not available.
 
 Syntax (COM)
 
-status = SldWorks->IOpenDoc5 ( filename, type,
-options, configuration, &errors, &retval )
+status = SldWorks->IOpenDoc5 ( filename, type, options, configuration, &errors, &retval )
 
-Parameters Table Start
-
-(Table)=========================================================
-
-| Input: | (BSTR) filename | Document name (or full path, if not in current directory), including
-extension |
+| Input: | (BSTR) filename | Document name (or full path, if not in current directory), including extension |
 | --- | --- | --- |
 | Input: | (long) type | Document type as defined in swDocumentTypes_e enum |
 | Input: | (long) options | Various BOOLEAN values affecting how a document is opened |
@@ -45,93 +34,24 @@ extension |
 
 Remarks
 
-The options argument is a bitmask containing various
-BOOLEANs that affect the outcome of the document opening. Its value is
-a combination of the values in the swOpenDocOptions_e enumeration.
+The options argument is a bitmask containing various BOOLEANs that affect the outcome of the document opening. Its value is a combination of the values in the swOpenDocOptions_e enumeration.
 
-If the configuration argument is blank or names
-a configuration that is not present in the model being opened, the model
-is opened in the configuration it was last saved in (the current configuration).
-This argument applies only to parts and assemblies, not drawings. A document
-that is being opened view-only can only be opened to the current configuration.
+If the configuration argument is blank or names a configuration that is not present in the model being opened, the model is opened in the configuration it was last saved in (the current configuration). This argument applies only to parts and assemblies, not drawings. A document that is being opened view-only can only be opened to the current configuration.
 
-This method fires SldWorksEvents::FileOpenNotify
-event. Also, SldWorks::ActiveDocChangeNotify and SldWorks::ActiveModelDocChangeNotify
-events are sent if the file being loaded is not already open as the active
-document.
+This method fires SldWorksEvents::FileOpenNotify event. Also, SldWorks::ActiveDocChangeNotify and SldWorks::ActiveModelDocChangeNotify events are sent if the file being loaded is not already open as the active document.
 
-When opening a parent document, any additional
-documents that are referenced in the parent document are also opened.
+When opening a parent document, any additional documents that are referenced in the parent document are also opened.
 
-When opening these parent files, certain rules
-are followed to locate referenced documents. If explicit search folders
-have not been set usingTools, Options,
-ExternalReferences, then the first place searched for the referenced
-documents)is in the current working directory. The referenced file are
-found in the current working directory, then it is loaded from that directory.
+When opening these parent files, certain rules are followed to locate referenced documents. If explicit search folders have not been set using Tools, Options, ExternalReferences, then the first place searched for the referenced documents)is in the current working directory. The referenced file are found in the current working directory, then it is loaded from that directory.
 
-Interactively performingFile,
-Openimmediately sets the current working directory to that of
-the document being opened. However, the OpenDoc methods do not set the
-current working directory. Because the end-user may have interactively
-opened files from some random directory, you cannot be certain that the
-current working directory"is pointing to the desired location. This
-can affect the referenced documents that ultimately get loaded when using
-any of the OpenDoc methods versus performingFile,
-Openinteractively. Because of this, you might want to consider
-setting the current working directory before calling any of the OpenDoc
-methods. This can be done using SldWorks::SetCurrentWorkingDirectory.
-To imitate the behavior of the File Open dialog, set the current working
-directory to that of the file being opened.
+Interactively performing File, Open immediately sets the current working directory to that of the document being opened. However, the OpenDoc methods do not set the current working directory. Because the end-user may have interactively opened files from some random directory, you cannot be certain that the current working directory"is pointing to the desired location. This can affect the referenced documents that ultimately get loaded when using any of the OpenDoc methods versus performing File, Open interactively. Because of this, you might want to consider setting the current working directory before calling any of the OpenDoc methods. This can be done using SldWorks::SetCurrentWorkingDirectory. To imitate the behavior of the File Open dialog, set the current working directory to that of the file being opened.
 
-When opening files that contain references, you
-might also want to consider the current search folder settings because
-this can affect the references that get loaded. This can be done programmatically
-using SldWorks::GetSearchFolders and SldWorks::SetSearchFolders. If search
-folders are currently in use, references in the search folders are searched
-before trying to locate references in the current working directory.
+When opening files that contain references, you might also want to consider the current search folder settings because this can affect the references that get loaded. This can be done programmatically using SldWorks::GetSearchFolders and SldWorks::SetSearchFolders. If search folders are currently in use, references in the search folders are searched before trying to locate references in the current working directory.
 
-The OpenDoc methods do not activate and display
-the document if the file is already open in memory in an assembly or drawing.
-However, these methods should return a valid ModelDoc pointer that is
-usable with functions that do not require a document to be displayed.
-If you want, SldWorks::ActivateDoc2 activates and displays the document.
-Because calling OpenDoc methods do not activate nor display the file,
-calling the ASldWorks::ActiveDoc property does not return a pointer to
-this document.
+The OpenDoc methods do not activate and display the document if the file is already open in memory in an assembly or drawing. However, these methods should return a valid ModelDoc pointer that is usable with functions that do not require a document to be displayed. If you want, SldWorks::ActivateDoc2 activates and displays the document. Because calling OpenDoc methods do not activate nor display the file, calling the ASldWorks::ActiveDoc property does not return a pointer to this document.
 
-To open a library feature part, use swDocPART for
-the Type argument.
+To open a library feature part, use swDocPART for the Type argument.
 
 To open foreign files (IGES, STEP, etc.) use SldWorks::LoadFile2.
 
-For a document that is being opened view-only,
-you must pass an empty string in the configuration argument.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001Plus$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2008\obsoleteapi\SldWorks\SldWorks__IOpenDoc5.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+For a document that is being opened view-only, you must pass an empty string in the configuration argument.

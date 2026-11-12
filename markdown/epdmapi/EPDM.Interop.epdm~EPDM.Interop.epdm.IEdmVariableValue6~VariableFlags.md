@@ -35,24 +35,15 @@ property System.int VariableFlags {
 
 ### Property Value
 
-Combination of
-
-[EdmVariableFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableFlags.html)
-
-bits
+Combination of [EdmVariableFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableFlags.html) bits
 
 ## Examples
 
-See the
-
-[IEdmVariableValue6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6.html)
-
-examples.
+See the [IEdmVariableValue6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6.html) examples.
 
 ## See Also
 
 [IEdmVariableValue6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6.html)
-
 [IEdmVariableValue6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue6_members.html)
 
 ## Availability

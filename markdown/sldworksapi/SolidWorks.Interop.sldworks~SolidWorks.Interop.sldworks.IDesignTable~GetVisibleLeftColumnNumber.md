@@ -40,27 +40,15 @@ System.int GetVisibleLeftColumnNumber()
 System.int GetVisibleLeftColumnNumber();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
 Number of the leftmost visible column
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[DesignTable::GetVisibleLeftColumnNumber](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~GetVisibleLeftColumnNumber.html)
-
-.
+See [DesignTable::GetVisibleLeftColumnNumber](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~GetVisibleLeftColumnNumber.html).
 
 ## Examples
 
@@ -69,17 +57,11 @@ See
 ## See Also
 
 [IDesignTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable.html)
-
 [IDesignTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html)
-
 [IDesignTable::GetColumnCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~GetColumnCount.html)
-
 [IDesignTable::GetStartColumnNumber Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~GetStartColumnNumber.html)
-
 [IDesignTable::GetTotalColumnCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~GetTotalColumnCount.html)
-
 [IDesignTable::GetVisibleColumnCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~GetVisibleColumnCount.html)
-
 [IDesignTable::ColumnHidden Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~ColumnHidden.html)
 
 ## Availability

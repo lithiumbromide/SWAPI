@@ -55,19 +55,11 @@ System.bool SetDatumTargetHorizontal(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `MoveableDatumDirection`: Moveable datum direction as defined in
-
-[swMoveableDatumDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMoveableDatumDirection_e.html)
+- `MoveableDatumDirection`: Moveable datum direction as defined in [swMoveableDatumDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMoveableDatumDirection_e.html)
 - `LockLeader`: True to lock the leader, false to not
 - `LockLeaderAngle`: Angle of locked leader; valid only if LockLeader is set to true
 
@@ -77,20 +69,13 @@ True if this datum target is successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::SetDatumTargetHorizontal](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetDatumTargetHorizontal.html)
-
-.
+See [DatumTargetSym::SetDatumTargetHorizontal](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetDatumTargetHorizontal.html).
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::SetDatumTargetNotMoveable Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDatumTargetNotMoveable.html)
-
 [IDatumTargetSym::SetDatumTargetRotational Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDatumTargetRotational.html)
 
 ## Availability

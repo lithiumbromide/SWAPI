@@ -51,26 +51,12 @@ System.int ImportToolboxItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `StdToImport`: Standard to import (see
-
-Remarks
-
-)
-- `DestinationFilePath`: Path and name of file to import (see
-
-Remarks
-
-)
+- `StdToImport`: Standard to import (see **Remarks**)
+- `DestinationFilePath`: Path and name of file to import (see **Remarks**)
 
 ### Return Value
 
@@ -78,11 +64,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ImportToolboxItem](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ImportToolboxItem.html)
-
-.
+See [SldWorks::ImportToolboxItem](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ImportToolboxItem.html).
 
 ## Examples
 
@@ -128,7 +110,7 @@ End Sub
 
 ## Remarks
 
-Specify StdToImport with the path and file name beneath**C:\SOLIDWORKS Data\browser**, e.g., "**ansi inch\bolts and screws\hex head\heavy hex bolt_ai.sldprt**".
+Specify StdToImport with the path and file name beneath **C:\SOLIDWORKS Data\browser**, e.g., "**ansi inch\bolts and screws\hex head\heavy hex bolt_ai.sldprt**".
 
 Specify DestinationFilePath with the path and file name of the Excel Workbook (***.xslx**) you want to import. The Excel file name is formatted as follows:
 
@@ -137,9 +119,7 @@ Specify DestinationFilePath with the path and file name of the Excel Workbook (*
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::ExportToolboxItem Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ExportToolboxItem.html)
 
 ## Availability

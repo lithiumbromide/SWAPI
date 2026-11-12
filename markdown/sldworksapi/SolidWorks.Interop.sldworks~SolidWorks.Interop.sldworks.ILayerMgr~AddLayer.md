@@ -63,21 +63,15 @@ System.int AddLayer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NameIn`: Layer name
 - `DescIn`: Description for the new layer
 - `ColorIn`: COLORREF value specifying the desired color of items within this layer
-- `StyleIn`: Line style as defined in[swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html)
-- `WidthIn`: Line width as defined in[swLineWeights_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineWeights_e.html)
+- `StyleIn`: Line style as defined in [swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html)
+- `WidthIn`: Line width as defined in [swLineWeights_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineWeights_e.html)
 
 ### Return Value
 
@@ -85,16 +79,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[LayerMgr::AddLayer](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~AddLayer.html)
-
-.
+See [LayerMgr::AddLayer](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~AddLayer.html).
 
 ## See Also
 
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
-
 [ILayerMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Structural_Weldments_Using_Custom_Weldment_Profile_E
 
 # Insert Structural Weldments Using Custom Weldment Profile Example (C#)
 
-This example shows how to insert a structural weldment feature using a custom weldment profile
-configuration and structural member groups.
+This example shows how to insert a structural weldment feature using a custom weldment profile configuration and structural member groups.
 
 ```
 //---------------------------------------------------------------------------

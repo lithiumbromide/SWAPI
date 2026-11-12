@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 Gets the first linked datum of this Gtol frame datum.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ property System.String^ DatumLinked1 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,24 +55,15 @@ First linked datum
 
 ## VBA Syntax
 
-See
-
-[PMIGtolFrameDatum::DatumLinked1](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolFrameDatum~DatumLinked1.html)
-
-.
+See [PMIGtolFrameDatum::DatumLinked1](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolFrameDatum~DatumLinked1.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## See Also
 
 [IPMIGtolFrameDatum Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum.html)
-
 [IPMIGtolFrameDatum Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum_members.html)
 
 ## Availability

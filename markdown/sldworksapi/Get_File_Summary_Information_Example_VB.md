@@ -9,8 +9,7 @@ source: "sldworksapi/Get_File_Summary_Information_Example_VB.htm"
 
 # Get File Summary Information Example (VBA)
 
-This example shows how to get the file summary information for an active
-SOLIDWORKS document.
+This example shows how to get the file summary information for an active SOLIDWORKS Design document.
 
 ```
 '---------------------------------------------

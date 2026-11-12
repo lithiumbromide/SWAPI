@@ -45,13 +45,7 @@ property System.bool VarySketch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to allow the pattern instances of a seed sketch to vary in relation to encl
 
 ## VBA Syntax
 
-See
-
-[LinearPatternFeatureData::VarySketch](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~VarySketch.html)
-
-.
+See [LinearPatternFeatureData::VarySketch](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~VarySketch.html).
 
 ## Examples
 
-See the
-
-[ILinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
-example.
+See the [ILinearPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html) example.
 
 ## Remarks
 
@@ -86,21 +72,16 @@ The seed sketch has:
 
 If this property is true:
 
-- Specify
-
-  [ILinearPatternFeatureData::D1Axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D1Axis.html)
-
-  with a driving dimension of the seed sketch.
+- Specify [ILinearPatternFeatureData::D1Axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D1Axis.html) with a driving dimension of the seed sketch.
 - Pattern instances vary with and are constrained by the enclosing geometry.
 
-See the**SOLIDWORKS Help > Parts and Features > Features > Patterns and Mirroring > Control and Modify Patterns >****Vary Sketch**topic.
+See the **SOLIDWORKS Help > Parts and Features > Features > Patterns and Mirroring > Control and Modify Patterns >** **Vary Sketch** topic.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ILinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
 [ILinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData_members.html)
 
 ## Availability

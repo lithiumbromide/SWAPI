@@ -82,22 +82,16 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertIntersectLineFeature::GetNominalLine](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertIntersectLineFeature~GetNominalLine.html)
-
-.
+See [DimXpertIntersectLineFeature::GetNominalLine](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertIntersectLineFeature~GetNominalLine.html).
 
 ## Examples
 
 [Get DimXpert Intersect Features Example (VBA)](Get_DimXpert_Intersect_Features_Example_VB.htm)
-
 [Get DimXpert Intersect Features Example (VB.NET)](Get_DimXpert_Intersect_Features_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertIntersectLineFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectLineFeature.html)
-
 [IDimXpertIntersectLineFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectLineFeature_members.html)
 
 ## Availability

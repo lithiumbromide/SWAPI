@@ -48,24 +48,17 @@ property CWResults^ Results {
 
 ## VBA Syntax
 
-See
-
-[CWStudy::Results](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~Results.html)
-
-.
+See [CWStudy::Results](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~Results.html).
 
 ## Examples
 
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analzye Part (VBA)](Analyze_Part_Example_VB.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

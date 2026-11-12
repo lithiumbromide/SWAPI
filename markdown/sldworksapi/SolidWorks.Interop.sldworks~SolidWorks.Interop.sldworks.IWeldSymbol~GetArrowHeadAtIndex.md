@@ -47,13 +47,7 @@ System.Object^ GetArrowHeadAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,27 +55,19 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks)
+Array of doubles (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetArrowHeadAtIndex.html)
-
-.
+See [WeldSymbol::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetArrowHeadAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[arrowHeadPt[3],arrowHeadDir[3],arrowHeadWidth,arrowHeadHeight,arrowHeadStyle]
+[ arrowHeadPt[3], arrowHeadDir[3], arrowHeadWidth, arrowHeadHeight, arrowHeadStyle ]
 
 where:
-
-(Table)=========================================================
 
 | arrowHeadPt [3] | = XYZ arrow head tip location. |
 | --- | --- |
@@ -93,13 +79,8 @@ where:
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
-
 [IWeldSymbol::GetArrowHeadCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~GetArrowHeadCount.html)
-
 [IWeldSymbol::GetArrowHeadInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~GetArrowHeadInfo.html)
-
 [IWeldSymbol::IGetArrowHeadAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~IGetArrowHeadAtIndex.html)
-
 [IWeldSymbol::IGetArrowHeadInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~IGetArrowHeadInfo.html)

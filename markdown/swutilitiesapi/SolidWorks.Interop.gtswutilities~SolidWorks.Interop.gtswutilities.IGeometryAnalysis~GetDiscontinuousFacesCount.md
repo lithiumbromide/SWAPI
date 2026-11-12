@@ -49,9 +49,7 @@ System.int GetDiscontinuousFacesCount(
 
 ### Parameters
 
-- `errorcode`: Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `errorcode`: Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -59,11 +57,7 @@ Number of discontinuous faces
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::GetDiscontinuousFacesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetDiscontinuousFacesCount.html)
-
-.
+See [IGeometryAnalysis::GetDiscontinuousFacesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetDiscontinuousFacesCount.html).
 
 ## Examples
 
@@ -72,7 +66,6 @@ See
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
 
 ## Availability

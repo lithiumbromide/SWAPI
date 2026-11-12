@@ -1,0 +1,112 @@
+<<< IBitmapImageSource.GetPixels | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IBitmapImageSource~GetPixels.md
+R: A byte array representing the pixel data of the image (see Remarks)
+X: This method returns the raw pixel buffer of the bitmap image in Bgr32 format. Bgr32 is a 32-bit sRGB pixel format in which each pixel is composed of 8 bits each for blue, green and red channels. There is an additional 8 unused bits, typically for alignment.
+The byte array length is Width X Height X 4 bytes. Pixels are laid out in row-major order, left to right, top to bottom.
+<<< IBitmapImageSource.Height | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IBitmapImageSource~Height.md
+R: Height in pixels
+<<< IBitmapImageSource.Width | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IBitmapImageSource~Width.md
+R: Width in pixels
+<<< IRenderCallbackHandler.OnPreviewRequested | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderCallbackHandler~OnPreviewRequested.md
+P: width: Width in pixels of the preview image
+P: height: Height in pixels of the preview image
+X: The rendering engine responds by invoking IRenderNotificationHandler2::RendererPropertyChangedNotify with the updated preveiw image included in the status.
+Both image size and the frequency at which preview images are requested may negatively impact overall rendering performance. Use sparingly to avoid delays or degraded output quality.
+<<< IRenderCallbackHandler.OnRenderActionRequested | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderCallbackHandler~OnRenderActionRequested.md
+P: renderAction: Action to take as defined by RenderAction_e
+X: Call this method to request cancellation of the render or to cancel and save intermediate results.
+<<< IRendererPropertiesStatus.CurrentProgress | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRendererPropertiesStatus~CurrentProgress.md
+R: Current progress
+<<< IRendererPropertiesStatus.ElapsedTime | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRendererPropertiesStatus~ElapsedTime.md
+R: Elapsed render System.TimeSpan
+<<< IRendererPropertiesStatus.FramesRendered | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRendererPropertiesStatus~FramesRendered.md
+R: Number of rendered frames
+<<< IRendererPropertiesStatus.RenderJobStatus | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRendererPropertiesStatus~RenderJobStatus.md
+R: Render job status as defined by RenderJobStatus_e
+<<< IRendererPropertiesStatus2 | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRendererPropertiesStatus2.md
+X: This interface extends IRendererPropertiesStatus.
+<<< IRendererPropertiesStatus2.BitmapPreviewImageSource2 | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRendererPropertiesStatus2~BitmapPreviewImageSource2.md
+R: System.Windows.Media.Imaging.BitmapSource
+<<< IRendererPropertiesStatus2.CurrentProgress | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRendererPropertiesStatus2~CurrentProgress.md
+R: Current progress
+<<< IRendererPropertiesStatus2.ElapsedTime | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRendererPropertiesStatus2~ElapsedTime.md
+R: Elapsed render System.TimeSpan
+<<< IRendererPropertiesStatus2.FramesRendered | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRendererPropertiesStatus2~FramesRendered.md
+R: Number of rendered frames
+<<< IRendererPropertiesStatus2.RenderJobStatus | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRendererPropertiesStatus2~RenderJobStatus.md
+R: Render job status as defined by RenderJobStatus_e
+<<< IRenderNotificationHandler2 | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderNotificationHandler2.md
+X: This interface extends IRenderNotificationHander by providing the ability to set a callback handler.
+<<< IRenderNotificationHandler2.RendererPropertyChangedNotify | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderNotificationHandler2~RendererPropertyChangedNotify.md
+P: renderProperty: The specific render property that has changed as defined by RenderProperty_e
+P: rendererPropertiesStatus: IRendererPropertiesStatus2
+X: Use this method to receive updates such as progress changes, frame counts, elapsed time, job status updates, or updated preview images (if those have been previously requested).
+<<< IRenderNotificationHandler2.SetCallbackHandler | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderNotificationHandler2~SetCallbackHandler.md
+P: callbackHandler: IRenderCallbackHandler
+X: This method gets called once during the setup phase of IVisualizeAddinManager2::StartRender2. If no preview or cancellation features are needed, this method may be implemented as a no op.
+<<< IRenderOptions.DenoiserEnabled | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderOptions~DenoiserEnabled.md
+R: True to enable denoiser, false (default) to not
+X: Setting this property to true:
+- enables the usage of the AI-accelerated Denoiser to render an image.
+- significantly reduces the number of frames and/or the time required to create a high-quality and noise-free render by about 1/10.
+- may lead to unwanted artifacts.
+For more information, see the SOLIDWORKS Web Help > SOLIDWORKS Visualize Help > Working with 3D Models > Denoiser.
+<<< IRenderOptions.FrameCount | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderOptions~FrameCount.md
+R: Maximum frame count; default value is 100
+X: This property is valid only if IRenderOptions::TerminationMode is set to TerminationMode.QualityLevel The frame count has a significant influence on the overall render time.
+Please note that renders with SOLIDWORKS Visualize continuously refine results by a small amount until a maximum frame count has been reached. The appropriate setting depends on several factors such as the complexity of the model, the lighting, the appearances, the image size, whether IRenderOptions::DenoiserEnabled is true, and the desired level of final quality.
+<<< IRenderOptions.Height | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderOptions~Height.md
+R: Height in pixels; default is 1080
+X: The total number of pixels has a significant influence on the overall render complexity and time needed to complete the render.
+The actual width depends on the aspect ratio (width/height) of the camera in SOLIDWORKS or 11/8.5 for SOLIDWORKS views that do not define an aspect ratio.
+<<< IRenderOptions.ImageFormat | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderOptions~ImageFormat.md
+R: Image format as defined by ImageFormat_e; default is ImageFormat_e.PNG
+X: If this property is set to ImageFormat_e.JPEG, then IRenderOptions::IncludeAlpha is not valid.
+<<< IRenderOptions.IncludeAlpha | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderOptions~IncludeAlpha.md
+R: True to include alpha channel, false (default) to not
+X: This property is valid only if If IRenderOptions::ImageFormat is not set to ImageFormat_e.JPEG.
+<<< IRenderOptions.JobName | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderOptions~JobName.md
+R: Render job name; default is the name of the SOLIDWORKS model
+X: IRenderOptions::OutputFolder specifies the path to the folder where the rendered output should be saved to.
+<<< IRenderOptions.Milliseconds | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderOptions~Milliseconds.md
+R: Time limit in milliseconds; default value is 60000
+X: This property is valid only if IRenderOptions::TerminationMode is set to TerminationMode_e.TimeLimit.
+Please note that renders with SOLIDWORKS Visualize continuously refine results by a small amount until a time limit has been reached. The appropriate setting depends on several factors such as the complexity of the model, the lighting, the appearances, the image size, whether IRenderOptions::DenoiserEnabled is true, and the desired level of final quality
+<<< IRenderOptions.OutputFolder | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderOptions~OutputFolder.md
+R: Render output folder (see Remarks)
+X: The full path name of the output is: render_output_folder\job_name\job_name.extension where: render_output_folder = Typically USERPROFILE \Documents\SOLIDWORKS Visualize Content\Images job_name = Use IRenderOptions::JobName to specify this; by default it is the SOLIDWORKS model name extension = Image format as defined by ImageFormat_e
+<<< IRenderOptions.TerminationMode | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderOptions~TerminationMode.md
+R: Termination mode as defined by TerminationMode_e
+<<< IRenderOptions.Width | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IRenderOptions~Width.md
+R: Width in pixels; default is 1920
+X: The total number of pixels has a significant influence on the overall render complexity and time needed to complete the render.
+The actual width depends on the aspect ratio (width/height) of the camera in SOLIDWORKS or 11/8.5 for SOLIDWORKS views that do not define an aspect ratio.
+<<< IVisualizeAddin2.GetAddinManager2 | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IVisualizeAddin2~GetAddinManager2.md
+R: IVisualizeAddinManager2
+<<< IVisualizeAddinManager.Render | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IVisualizeAddinManager~Render.md
+R: True if the render is successful, false if not
+X: This method blocks until the render is finished. Use IVisualizeAddinManager::StartRender for asynchronous blocking.
+Depending on the choice of IVisualizeAddinManager::RenderOptions and the available hardware, a render can take a long time to finish.
+<<< IVisualizeAddinManager.RenderOptions | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IVisualizeAddinManager~RenderOptions.md
+R: IRenderOptions
+<<< IVisualizeAddinManager2 | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IVisualizeAddinManager2.md
+X: This interface extends IVisualizeAddinManager by adding the ability to:
+- Launch Visualize with a project file
+- Specify a grouping mode when saving a model to Visualize
+- Render asynchronously with a callback handler
+<<< IVisualizeAddinManager2.LaunchVisualize | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IVisualizeAddinManager2~LaunchVisualize.md
+P: filename: Full pathname to the.SVPJ file to open on launch; null or Nothing to open Visualize without loading a project (see Remarks)
+X: If filename is an invalid path, an error message displays.
+<<< IVisualizeAddinManager2.Render | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IVisualizeAddinManager2~Render.md
+R: True if the render is successful, false if not
+X: This method blocks until the render is finished. Use IVisualizeAddinManager::StartRender for asynchronous blocking.
+Depending on the choice of IVisualizeAddinManager::RenderOptions and the available hardware, a render can take a long time to finish.
+<<< IVisualizeAddinManager2.RenderOptions | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IVisualizeAddinManager2~RenderOptions.md
+R: IRenderOptions
+<<< IVisualizeAddinManager2.SaveWithPartGrouping | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IVisualizeAddinManager2~SaveWithPartGrouping.md
+P: filename: Full path name where the.SVPJ file is saved
+P: partGroupingMode: How geometry from SOLIDWORKS is grouped in the Visualize scene as defined by PartGroupingMode_e
+X: This method allows control over how the model hierarchy is structured in Visualize. You can specify how geometry is grouped.
+<<< IVisualizeAddinManager2.StartRender2 | swvisualizeapi/SolidWorks.Visualize.Interfaces~SolidWorks.Visualize.Interfaces.IVisualizeAddinManager2~StartRender2.md
+P: renderNotificationHandler: IRenderNotificationHandler2 object (see Remarks)
+R: True if the render is successful, false if not
+X: This method starts a render and returns before the render is complete.

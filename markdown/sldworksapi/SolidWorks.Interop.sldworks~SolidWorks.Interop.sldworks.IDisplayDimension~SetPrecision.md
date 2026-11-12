@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # SetPrecision Method (IDisplayDimension)
 
-Obsolete. Superseded by
-
-[IDisplayDimension::SetPrecision2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetPrecision2.html)
-
-.
+Obsolete. Superseded by [IDisplayDimension::SetPrecision2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetPrecision2.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ System.int SetPrecision(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,14 +75,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SetPrecision](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetPrecision.html)
-
-.
+See [DisplayDimension::SetPrecision](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetPrecision.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)

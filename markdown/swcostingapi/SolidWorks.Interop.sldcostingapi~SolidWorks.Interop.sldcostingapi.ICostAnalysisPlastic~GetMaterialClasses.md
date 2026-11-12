@@ -46,32 +46,21 @@ Array of strings of the names of the material classes
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisPlastic::GetMaterialClasses](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~GetMaterialClasses.html)
-
-.
+See [CostAnalysisPlastic::GetMaterialClasses](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~GetMaterialClasses.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
-examples.
+See the [ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html) examples.
 
 ## Remarks
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysisPlastic Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
 [ICostAnalysisPlastic Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic_members.html)
-
 [ICostAnalysisPlastic::GetMaterialClassesCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~GetMaterialClassesCount.html)
-
 [ICostAnalysisPlastic::CurrentMaterialClass Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CurrentMaterialClass.html)
 
 ## Availability

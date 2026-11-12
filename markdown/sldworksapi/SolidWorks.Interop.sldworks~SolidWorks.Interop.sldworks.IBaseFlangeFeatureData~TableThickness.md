@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBa
 
 # TableThickness Property (IBaseFlangeFeatureData)
 
-Gets or sets the thickness, if it is not
-
-[overridden](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBaseFlangeFeatureData~OverrideThickness.html)
-
-, in the gauge table for this base flange feature.
+Gets or sets the thickness, if it is not [overridden](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBaseFlangeFeatureData~OverrideThickness.html), in the gauge table for this base flange feature.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double TableThickness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,11 +53,7 @@ Thickness
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::TableThickness](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~TableThickness.html)
-
-.
+See [BaseFlangeFeatureData::TableThickness](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~TableThickness.html).
 
 ## Examples
 
@@ -75,24 +61,17 @@ See
 
 ## Remarks
 
-If the thickness is not overridden, then the value for thickness is the value returned or set by[IBaseFlangeFeatureData::Thickness](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBaseFlangeFeatureData~Thickness.html).
+If the thickness is not overridden, then the value for thickness is the value returned or set by [IBaseFlangeFeatureData::Thickness](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBaseFlangeFeatureData~Thickness.html).
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::GetTableThicknesses Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~GetTableThicknesses.html)
-
 [IBaseFlangeFeatureData::IGetTableThicknesses Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~IGetTableThicknesses.html)
-
 [IBaseFlangeFeatureData::GetTableThicknessesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~GetTableThicknessesCount.html)
-
 [IBaseFlangeFeatureData::GaugeTablePath Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~GaugeTablePath.html)
-
 [IBaseFlangeFeatureData::ThicknessTableName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~ThicknessTableName.html)
-
 [IBaseFlangeFeatureData::UseGaugeTable Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~UseGaugeTable.html)
 
 ## Availability

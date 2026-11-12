@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditDelete Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EditDelete](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditDelete.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::EditDelete](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditDelete.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void EditDelete()
 void EditDelete();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EditDelete](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditDelete.html)
-
-.
+See [ModelDoc::EditDelete](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditDelete.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -45,13 +45,7 @@ property System.String^ Name {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Name of this explode step
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::Name](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~Name.html)
-
-.
+See [ExplodeStep::Name](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~Name.html).
 
 ## Examples
 
-See the
-
-[IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
-examples.
+See the [IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html) examples.
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
 
 ## Availability

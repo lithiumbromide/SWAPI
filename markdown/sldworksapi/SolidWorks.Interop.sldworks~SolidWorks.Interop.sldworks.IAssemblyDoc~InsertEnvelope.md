@@ -63,13 +63,7 @@ Component2^ InsertEnvelope(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,11 +79,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::InsertEnvelope](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertEnvelope.html)
-
-.
+See [AssemblyDoc::InsertEnvelope](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertEnvelope.html).
 
 ## Remarks
 
@@ -97,22 +87,16 @@ CompName does not have to be open before running this method. If it is not open,
 
 If ConfigName is empty or specifies a configuration that does not exist, then the current configuration is used.
 
-The X, Y, Z parameters of this method are the center of the component bounding box. You must use[IComponent2::Transform2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~Transform2.html)on the return interface pointer if you want to more precisely position the component.
+The X, Y, Z parameters of this method are the center of the component bounding box. You must use [IComponent2::Transform2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~Transform2.html) on the return interface pointer if you want to more precisely position the component.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IComponent2::IsEnvelope Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsEnvelope.html)
-
 [IAssemblyDoc::AddComponent5 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddComponent5.html)
-
 [IAssemblyDoc::AddComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddComponents.html)
-
 [IAssemblyDoc::IAddComponents2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IAddComponents2.html)
-
 [IAssemblyDoc::ReplaceComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ReplaceComponents.html)
 
 ## Availability

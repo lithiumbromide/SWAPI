@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # PrintOut Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::PrintOut2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~PrintOut2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::PrintOut2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~PrintOut2.html).
 
 ## Syntax
 
@@ -70,13 +66,7 @@ void PrintOut(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -89,14 +79,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::PrintOut](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~PrintOut.html)
-
-.
+See [ModelDocExtension::PrintOut](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~PrintOut.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)

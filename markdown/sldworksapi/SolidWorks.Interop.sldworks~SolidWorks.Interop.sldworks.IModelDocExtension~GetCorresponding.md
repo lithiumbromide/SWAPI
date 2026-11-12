@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetCorresponding Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::GetCorresponding2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCorresponding2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::GetCorresponding2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCorresponding2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetCorresponding(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,44 +55,30 @@ See
 
 ### Return Value
 
-Pointer to the corresponding object in the underlying part,
-
-kadov_tag{{</spaces>}}
-
-assembly, or subassembly document
+Pointer to the corresponding object in the underlying part, assembly, or subassembly document
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetCorresponding](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCorresponding.html)
-
-.
+See [ModelDocExtension::GetCorresponding](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetCorresponding.html).
 
 ## Examples
 
 [Get Corresponding Note in Assembly (VBA)](Get_Corresponding_Note_in_Assembly_Example_VB.htm)
-
 [Get Corresponding Note in Part (VBA)](Get_Corresponding_Note_in_Part_Example_VB.htm)
 
 ## Remarks
 
 Given an object in an assembly context, this method gets the corresponding object in the underlying component document regardless of whether the document is a part or an assembly.
 
-You can use this method with any object assigned a persistent reference ID; for example, a[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html),[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)or[ISketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html)object.
+You can use this method with any object assigned a persistent reference ID; for example, a [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html), [IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html) or [ISketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html) object.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetCorrespondingEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCorrespondingEntity.html)
-
 [IComponent2::GetCorresponding Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetCorresponding.html)
-
 [IComponent2::GetCorrespondingEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetCorrespondingEntity.html)
-
 [IComponent2::IGetCorrespondingEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IGetCorrespondingEntity.html)
 
 ## Availability

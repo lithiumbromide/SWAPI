@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetStressForEntities Method (ICWResults)
 
-Obsolete. Superseded by
-
-[ICWResults::GetStressForEntities2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWResults~GetStressForEntities2.html)
-
-.
+Obsolete. Superseded by [ICWResults::GetStressForEntities2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWResults~GetStressForEntities2.html).
 
 ## Syntax
 
@@ -73,12 +69,12 @@ System.Object^ GetStressForEntities(
 
 ### Parameters
 
-- `NComponent`: Stress as defined in[swsStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStressComponent_e.html)
+- `NComponent`: Stress as defined in [swsStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStressComponent_e.html)
 - `NStepNumber`: Solution step number (use 1 for steady state)
 - `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if NComponent is not a directional component
 - `ArrayArraySelectedEntities`: Array of geometric entities
-- `NUnits`: Unit as defined in[swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Unit as defined in [swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -86,22 +82,14 @@ Array of stress results
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetStressForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetStressForEntities.html)
-
-.
+See [CWResults::GetStressForEntities](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetStressForEntities.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxStress Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStress.html)
-
 [ICWResults::GetStress Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStress.html)
-
 [ICWResults::GetStressComponentForAllStepsAtNode Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStressComponentForAllStepsAtNode.html)
 
 ## Availability

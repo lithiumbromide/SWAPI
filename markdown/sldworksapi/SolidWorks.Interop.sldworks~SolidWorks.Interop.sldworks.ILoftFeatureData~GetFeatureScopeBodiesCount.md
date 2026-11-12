@@ -40,13 +40,7 @@ System.int GetFeatureScopeBodiesCount()
 System.int GetFeatureScopeBodiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,20 @@ Number of solid bodies affected by the loft feature in a multibody part
 
 ## VBA Syntax
 
-See
-
-[LoftFeatureData::GetFeatureScopeBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~GetFeatureScopeBodiesCount.html)
-
-.
+See [LoftFeatureData::GetFeatureScopeBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~GetFeatureScopeBodiesCount.html).
 
 ## Remarks
 
-Call this method before calling[ILoftFeatureData::IGetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftFeatureData~IGetFeatureScopeBodies.html)to determine the size of the array for that method.
+Call this method before calling [ILoftFeatureData::IGetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftFeatureData~IGetFeatureScopeBodies.html) to determine the size of the array for that method.
 
-If[ILoftFeatureData::FeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftFeatureData~FeatureScope.html)is false, then the return value will be 0.
+If [ILoftFeatureData::FeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftFeatureData~FeatureScope.html) is false, then the return value will be 0.
 
 ## See Also
 
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [ILoftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData_members.html)
-
 [ILoftFeatureData::ISetFeatureScopeBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~ISetFeatureScopeBodies.html)
-
 [ILoftFeatureData::FeatureScopeBodies Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~FeatureScopeBodies.html)
-
 [ILoftFeatureData::AutoSelect Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~AutoSelect.html)
 
 ## Availability

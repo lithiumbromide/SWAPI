@@ -51,13 +51,7 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,19 +64,11 @@ True if the selections were successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~AccessSelections.html)
-
-.
+See [ConvertSolidFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~AccessSelections.html).
 
 ## Examples
 
-See the
-
-[IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
-examples.
+See the [IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html) examples.
 
 ## Remarks
 
@@ -93,17 +79,12 @@ examples.
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  if you modified the feature
-- [IConvertSolidFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) if you modified the feature
+- [IConvertSolidFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IConvertSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
 
 ## Availability

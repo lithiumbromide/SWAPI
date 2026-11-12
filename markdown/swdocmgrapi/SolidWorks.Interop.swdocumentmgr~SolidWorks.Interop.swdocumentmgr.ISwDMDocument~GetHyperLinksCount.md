@@ -46,26 +46,20 @@ Number of embedded hyperlinks
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::GetHyperLinksCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetHyperLinksCount.html)
-
-.
+See [SwDMDocument::GetHyperLinksCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetHyperLinksCount.html).
 
 ## Examples
 
 [Get Hyperlinks (C#)](Get_Hyperlinks_Example_CSharp.htm)
-
 [Get Hyperlinks (VB.NET)](Get_Hyperlinks_Example_VBNET.htm)
 
 ## Remarks
 
-Call this method before calling[ISwDMDocument::GetHyperLinkAt](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetHyperLinkAt.html)and[ISwDMDocument::ModifyHyperLinkAt](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~ModifyHyperLinkAt.html).
+Call this method before calling [ISwDMDocument::GetHyperLinkAt](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetHyperLinkAt.html) and [ISwDMDocument::ModifyHyperLinkAt](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~ModifyHyperLinkAt.html).
 
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
 
 ## Availability

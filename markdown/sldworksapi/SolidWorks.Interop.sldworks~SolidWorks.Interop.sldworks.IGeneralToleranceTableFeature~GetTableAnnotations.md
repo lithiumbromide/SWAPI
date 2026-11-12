@@ -40,34 +40,19 @@ System.object GetTableAnnotations()
 System.Object^ GetTableAnnotations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IGeneralToleranceTableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableAnnotation.html)
-
-s
+Array of [IGeneralToleranceTableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableAnnotation.html)s
 
 ## VBA Syntax
 
-See
-
-[GeneralToleranceTableFeature::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~GeneralToleranceTableFeature~GetTableAnnotations.html)
-
-.
+See [GeneralToleranceTableFeature::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~GeneralToleranceTableFeature~GetTableAnnotations.html).
 
 ## See Also
 
 [IGeneralToleranceTableFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableFeature.html)
-
 [IGeneralToleranceTableFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableFeature_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEq
 
 # IEquationMgr Interface Members
 
-The following tables list the members exposed by[IEquationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html).
+The following tables list the members exposed by [IEquationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html).
 
 ## Public Properties
 
@@ -53,5 +53,4 @@ The following tables list the members exposed by[IEquationMgr](SolidWorks.Intero
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

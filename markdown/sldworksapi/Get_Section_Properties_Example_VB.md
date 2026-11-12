@@ -9,22 +9,9 @@ source: "sldworksapi/Get_Section_Properties_Example_VB.htm"
 
 # Get Section Properties for Faces from Section Planes Example (VBA)
 
-This example shows how to get the section properties of the selected
-items.
+This example shows how to get the section properties of the selected items.
 
-**NOTE**: Through the user interface, it is possible
-to extract thekadov_tag{{</spaces>}}section
-properties from various combinations ofkadov_tag{{</spaces>}}selected
-entities. This is accessible through the SOLIDWORKSkadov_tag{{</spaces>}}API withkadov_tag{{</spaces>}}IModelDocExtension::GetSectionProperties.kadov_tag{{</spaces>}}This
-method has only one input parameter, an array of entitieskadov_tag{{</spaces>}}to
-consider with the current selection set.kadov_tag{{</spaces>}}The
-entity array must only contain these types ofkadov_tag{{</spaces>}}objects: Face2 and Sketch.kadov_tag{{</spaces>}}For
-planar faces and reference surfaces, this is thekadov_tag{{</spaces>}}Face2
-object. A sketch corresponds to akadov_tag{{</spaces>}}Sketch
-object. However, for a face on a section plane,kadov_tag{{</spaces>}}there
-is no API object.kadov_tag{{</spaces>}}This
-sample code shows how to use this methodkadov_tag{{</spaces>}}to
-allow for faces obtained from section planes.
+**NOTE**: Through the user interface, it is possible to extract the section properties from various combinations of selected entities. This is accessible through the SOLIDWORKS API with IModelDocExtension::GetSectionProperties. This method has only one input parameter, an array of entities to consider with the current selection set. The entity array must only contain these types of objects: Face2 and Sketch. For planar faces and reference surfaces, this is the Face2 object. A sketch corresponds to a Sketch object. However, for a face on a section plane, there is no API object. This sample code shows how to use this method to allow for faces obtained from section planes.
 
 ```
 '-----------------------------------------------------

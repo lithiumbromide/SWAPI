@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 Allows access to a sheet metal edge flange feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,20 +41,16 @@ public interface class IEdgeFlangeFeatureData
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData.html)
-
-.
+See [EdgeFlangeFeatureData](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData.html).
 
 ## Examples
 
 'VBA
 
 '-----------------------------------------------------
-' Preconditions: Open`install_dir \`**samples\tutorial\sheetmetal\formtools\cover.sldprt**.
+' Preconditions: Open `install_dir\`**samples\tutorial\sheetmetal\formtools\cover.sldprt**.
 '
-' Postconditions: Creates**Edge-Flange1**in the FeatureManager design tree.
+' Postconditions: Creates **Edge-Flange1** in the FeatureManager design tree.
 '------------------------------------------------------
 
 Option Explicit
@@ -159,28 +155,28 @@ vSketchFeats = aSketchFeats
 Set FeatData = swModel.FeatureManager.**CreateDefinition**(swFmEdgeFlange)
 
 Call FeatData.**AddEdges**(vFlangeEdges, vSketchFeats)
-FeatData.**UseDefaultBendRadius**= False
-FeatData.**BendRadius**= 0.0007366
-FeatData.**GapDistance**= 0.001
-FeatData.**BendAngle**= dAngle
-FeatData.**LockAngle**= True
-FeatData.**OffsetType**= swFlangeOffsetBlind
-FeatData.**OffsetDistance**= dLength
-FeatData.**OffsetDimType**= swFlangeDimTypeInnerVirtualSharp
-FeatData.**PositionType**= swFlangePositionTypeMaterialInside
-FeatData.**UsePositionOffset**= True
-FeatData.**PositionOffsetType**= swFlangeOffsetBlind
-FeatData.**PositionOffsetDistance**= 0.01
-FeatData.**UseDefaultBendAllowance**= False
+FeatData.**UseDefaultBendRadius** = False
+FeatData.**BendRadius** = 0.0007366
+FeatData.**GapDistance** = 0.001
+FeatData.**BendAngle** = dAngle
+FeatData.**LockAngle** = True
+FeatData.**OffsetType** = swFlangeOffsetBlind
+FeatData.**OffsetDistance** = dLength
+FeatData.**OffsetDimType** = swFlangeDimTypeInnerVirtualSharp
+FeatData.**PositionType** = swFlangePositionTypeMaterialInside
+FeatData.**UsePositionOffset** = True
+FeatData.**PositionOffsetType** = swFlangeOffsetBlind
+FeatData.**PositionOffsetDistance** = 0.01
+FeatData.**UseDefaultBendAllowance** = False
 Set PBendData = FeatData.**GetCustomBendAllowance**
-PBendData.**KFactor**= 0.5
-PBendData.**Type**= swBendAllowanceDeduction
-FeatData.**SetCustomBendAllowance**PBendData
-FeatData.**UseDefaultBendRelief**= False
-FeatData.**UseReliefRatio**= True
-FeatData.**ReliefRatio**= 0.5
-FeatData.**AutoReliefType**= swSheetMetalReliefTear
-FeatData.**ReliefTearType**= swReliefTearTypeRip
+PBendData.**KFactor** = 0.5
+PBendData.**Type** = swBendAllowanceDeduction
+FeatData.**SetCustomBendAllowance** PBendData
+FeatData.**UseDefaultBendRelief** = False
+FeatData.**UseReliefRatio** = True
+FeatData.**ReliefRatio** = 0.5
+FeatData.**AutoReliefType** = swSheetMetalReliefTear
+FeatData.**ReliefTearType** = swReliefTearTypeRip
 
 Set edgeFlangeFeat = swModel.FeatureManager.**CreateFeature**(FeatData)
 
@@ -189,16 +185,11 @@ End Sub
 ## Examples
 
 [Create Edge Flange (VB.NET)](Create_Edge_Flange_Example_VBNET.htm)
-
 [Create Edge Flange (C#)](Create_Edge_Flange_Example_CSharp.htm)
 
 ## Remarks
 
-For more information, see the
-
-SOLIDWORKS user-interface help > Sheet Metal > Using Sheet Metal Tools > Edge Flanges > Edge-Flange PropertyManager
-
-topic.
+For more information, see the **SOLIDWORKS Design user-interface help > Sheet Metal > Using Sheet Metal Tools > Edge Flanges > Edge-Flange PropertyManager** topic.
 
 ## Accessors
 
@@ -213,5 +204,4 @@ topic.
 ## See Also
 
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

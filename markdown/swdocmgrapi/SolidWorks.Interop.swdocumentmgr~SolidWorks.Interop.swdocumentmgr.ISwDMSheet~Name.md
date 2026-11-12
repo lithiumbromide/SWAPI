@@ -51,22 +51,16 @@ Name of drawing sheet.
 
 ## VBA Syntax
 
-See
-
-[SwDMSheet::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet~Name.html)
-
-.
+See [SwDMSheet::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet~Name.html).
 
 ## Examples
 
 [Get Preview Bitmaps of Drawing Sheets (C#)](Get_Preview_Bitmaps_of_Drawing_Sheets_Example_CSharp.htm)
-
 [Get Preview Bitmaps of Drawing Sheets (VB.NET)](Get_Preview_Bitmaps_of_Drawing_Sheets_Example_VBNET.htm)
 
 ## See Also
 
 [ISwDMSheet Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet.html)
-
 [ISwDMSheet Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet_members.html)
 
 ## Availability

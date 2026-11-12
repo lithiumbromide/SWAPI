@@ -52,18 +52,12 @@ void InsertEntity(
 
 ## VBA Syntax
 
-See
-
-[CWRadiation::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~InsertEntity.html)
-
-.
+See [CWRadiation::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~InsertEntity.html).
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
-
 [ICWRadiation::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~RemoveEntity.html)
 
 ## Availability

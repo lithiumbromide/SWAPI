@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ICheckInterferenceCount2 Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::ICheckInterferenceCount3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICheckInterferenceCount3.html)
-
-.
+Obsolete. Superseded by [IModeler::ICheckInterferenceCount3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICheckInterferenceCount3.html).
 
 ## Syntax
 
@@ -71,26 +67,12 @@ System.bool ICheckInterferenceCount2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Body1`: First
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-to check for interference
-- `Body2`: Second
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-to check for interference
+- `Body1`: First [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) to check for interference
+- `Body2`: Second [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) to check for interference
 - `CoincidentInterference`: True to check for coincident interference, false to not
 - `Body1InterferedFaceCount`: Number of faces that are interfering that belong to the body passed in the first parameter of this method
 - `Body2InterferedFaceCount`: Number of faces that are interfering that belong to the body passed in the second parameter of this method
@@ -102,30 +84,18 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Modeler::ICheckInterferenceCount2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICheckInterferenceCount2.html)
-
-.
+See [Modeler::ICheckInterferenceCount2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICheckInterferenceCount2.html).
 
 ## Remarks
 
-Call
-
-[IModeler::ICheckInterference2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICheckInterference2.html)
-
-after calling this method.
+Call [IModeler::ICheckInterference2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICheckInterference2.html) after calling this method.
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::CheckInterference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CheckInterference.html)
-
 [IAssembyDoc::ToolsCheckInterference2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ToolsCheckInterference2.html)
-
 [IAssembyDoc::IToolsCheckInterference3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IToolsCheckInterference3.html)
 
 ## Availability

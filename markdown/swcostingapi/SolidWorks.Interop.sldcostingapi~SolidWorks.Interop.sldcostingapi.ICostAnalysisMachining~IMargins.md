@@ -9,11 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # IMargins Property (ICostAnalysisMachining)
 
-Gets or sets the margins for the
-
-[stock type](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~CurrentStockType.html)
-
-for this machining Costing analysis.
+Gets or sets the margins for the [stock type](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~CurrentStockType.html) for this machining Costing analysis.
 
 ## Syntax
 
@@ -60,17 +56,13 @@ property System.double IMargins {
 
 ### Property Value
 
-- in-process, unmanaged C++: Pointer to an array of doubles of the available margins (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of doubles of the available margins (see **Remarks**)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
-Before calling this property, call[ICostAnalysisMachining::GetMarginDimensionCount](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~GetMarginDimensionCount.html)to get the NumMargins value.
+Before calling this property, call [ICostAnalysisMachining::GetMarginDimensionCount](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~GetMarginDimensionCount.html) to get the NumMargins value.
 
 The material determines the size of the array:
 
@@ -83,20 +75,13 @@ The material determines the size of the array:
 This property does not support setting margins:
 
 - for plate material
-
   - or -
-- when a
-
-  [custom size](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~IBlankSize.html)
-
-  is defined.
+- when a [custom size](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~IBlankSize.html) is defined.
 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::Margins Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~Margins.html)
 
 ## Availability

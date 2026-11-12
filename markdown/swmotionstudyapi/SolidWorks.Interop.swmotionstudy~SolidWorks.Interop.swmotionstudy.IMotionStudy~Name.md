@@ -51,11 +51,7 @@ Name of motion study
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::Name](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~Name.html)
-
-.
+See [MotionStudy::Name](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~Name.html).
 
 ## Examples
 
@@ -64,7 +60,6 @@ See
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
 
 ## Availability

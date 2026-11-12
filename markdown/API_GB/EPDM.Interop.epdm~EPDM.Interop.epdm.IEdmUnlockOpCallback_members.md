@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback_members
 
 # IEdmUnlockOpCallback Interface Members
 
-The following tables list the members exposed by[IEdmUnlockOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html).
+The following tables list the members exposed by [IEdmUnlockOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html).
 
 ## Public Methods
 
@@ -26,5 +26,4 @@ The following tables list the members exposed by[IEdmUnlockOpCallback](EPDM.Inte
 ## See Also
 
 [IEdmUnlockOpCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

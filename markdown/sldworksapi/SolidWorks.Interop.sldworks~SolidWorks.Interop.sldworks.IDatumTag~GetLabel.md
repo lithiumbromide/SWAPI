@@ -40,13 +40,7 @@ System.string GetLabel()
 System.String^ GetLabel();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Text string
 
 ## VBA Syntax
 
-See
-
-[DatumTag::GetLabel](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetLabel.html)
-
-.
+See [DatumTag::GetLabel](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetLabel.html).
 
 ## Examples
 
 [Set Text in Datum Tags and GTols (C#)](Set_Text_in_Datum_Tags_and_GTols_Example_CSharp.htm)
-
 [Set Text in Datum Tags and GTols (VB.NET)](Set_Text_in_Datum_Tags_and_GTols_Example_VBNET.htm)
-
 [Set Text in Datum Tags and GTols (VBA)](Set_Text_in_Datum_Tags_and_GTols_Example_VB.htm)
 
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::SetLabel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~SetLabel.html)
 
 ## Availability

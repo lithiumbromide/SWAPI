@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # swDm3DExperienceModelType_e Enumeration
 
-Types of
-
-3D
-
-EXPERIENCE models.
+Types of **3D**EXPERIENCE models.
 
 ## Syntax
 

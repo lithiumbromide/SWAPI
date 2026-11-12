@@ -42,19 +42,11 @@ System.Object^ GetSubFeatures();
 
 ### Return Value
 
-Array of
-
-[ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
-s
+Array of [ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)s
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompoundHoleFeature::GetSubFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundHoleFeature~GetSubFeatures.html)
-
-.
+See [SwDMDimXpertCompoundHoleFeature::GetSubFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundHoleFeature~GetSubFeatures.html).
 
 ## Examples
 
@@ -63,9 +55,7 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature.html)
-
 [ISwDMDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature_members.html)
-
 [ISwDMDimXpertCompundHoleFeature::IGetSubFeatures Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature~IGetSubFeatures.html)
 
 ## Availability

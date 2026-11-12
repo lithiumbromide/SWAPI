@@ -11,13 +11,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 Allows access to the Sustainability use data for the current assembly.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class ISustainabilityAssemblyUse
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyUse](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse.html)
-
-.
+See [SustainabilityAssemblyUse](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse.html).
 
 ## Examples
 
@@ -64,5 +54,4 @@ See
 ## See Also
 
 [ISustainabilityAssemblyUse Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse_members.html)
-
 [SolidWorks.Interop.sustainability Namespace](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability_namespace.html)

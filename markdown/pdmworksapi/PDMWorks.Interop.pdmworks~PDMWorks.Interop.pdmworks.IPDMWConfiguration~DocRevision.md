@@ -51,16 +51,11 @@ Revision of the source document for the configuration
 
 ## VBA Syntax
 
-See
-
-[PDMWConfiguration::DocRevision](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~DocRevision.html)
-
-.
+See [PDMWConfiguration::DocRevision](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~DocRevision.html).
 
 ## See Also
 
 [IPDMWConfiguration Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)
-
 [IPDMWConfiguration Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration_members.html)
 
 ## Availability

@@ -36,24 +36,15 @@ property System.int TaskFlags {
 
 ### Property Value
 
-Combination of
-
-[EdmTaskFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskFlag.html)
-
-bits
+Combination of [EdmTaskFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskFlag.html) bits
 
 ## Examples
 
-See the examples in
-
-[IEdmTaskProperties](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html)
-
-.
+See the examples in [IEdmTaskProperties](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html).
 
 ## See Also
 
 [IEdmTaskProperties Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html)
-
 [IEdmTaskProperties Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties_members.html)
 
 ## Availability

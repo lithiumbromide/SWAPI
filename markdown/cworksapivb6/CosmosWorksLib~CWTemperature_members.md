@@ -1,6 +1,5 @@
 ---
-title: "CWTemperature Object
-Members"
+title: "CWTemperature Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWTemperature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWTemperature_members.html"
 ---
 
-# CWTemperature Object
-Members
+# CWTemperature Object Members
 
 ## Public Methods
 

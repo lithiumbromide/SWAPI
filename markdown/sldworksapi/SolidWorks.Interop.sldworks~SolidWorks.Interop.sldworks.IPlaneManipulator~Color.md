@@ -45,13 +45,7 @@ property System.int Color {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ RGB color for plane
 
 ## VBA Syntax
 
-See
-
-[PlaneManipulator::Color](ms-its:sldworksapivb6.chm::/sldworks~PlaneManipulator~Color.html)
-
-.
+See [PlaneManipulator::Color](ms-its:sldworksapivb6.chm::/sldworks~PlaneManipulator~Color.html).
 
 ## Examples
 
 [Insert and Use Plane with Manipulator (C#)](Insert_and_Use_Plane_with_Manipulator_Example_CSharp.htm)
-
 [Insert and Use Plane with Manipulator (VB.NET)](Insert_and_Use_Plane_with_Manipulator_Example_VBNET.htm)
-
 [Insert and Use Plane with Manipulator (VBA)](Insert_and_Use_Plane_with_Manipulator_Example_VB.htm)
 
 ## See Also
 
 [IPlaneManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator.html)
-
 [IPlaneManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop
 
 # ICharacteristicsData Interface Properties
 
-For a list of all members of this type, see[ICharacteristicsData members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData_members.html).
+For a list of all members of this type, see [ICharacteristicsData members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData_members.html).
 
 ## Public Properties
 
@@ -46,5 +46,4 @@ For a list of all members of this type, see[ICharacteristicsData members](SolidW
 ## See Also
 
 [ICharacteristicsData Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData.html)
-
 [SolidWorks.Interop.swinspectionAddIn Namespace](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn_namespace.html)

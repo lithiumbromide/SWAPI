@@ -45,13 +45,7 @@ property System.double LayerAdjustmentValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData2::LayerAdjustmentValue](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~LayerAdjustmentValue.html)
-
-.
+See [SMNormalCutFeatureData2::LayerAdjustmentValue](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~LayerAdjustmentValue.html).
 
 ## Remarks
 
-This property is valid only if[ISMNormalCutFeatureData2::NormalCutParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~NormalCutParameters.html)is set to[swNormalCutParameters_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNormalCutParameters_e.html).swNormalCutOffsetPlane.
+This property is valid only if [ISMNormalCutFeatureData2::NormalCutParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~NormalCutParameters.html) is set to [swNormalCutParameters_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNormalCutParameters_e.html).swNormalCutOffsetPlane.
 
-If[ISMNormalCutFeatureData2::LinkToKFactor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~LinkToKFactor.html)is set to true, this property is automatically set to 0.5.
+If [ISMNormalCutFeatureData2::LinkToKFactor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~LinkToKFactor.html) is set to true, this property is automatically set to 0.5.
 
 ## See Also
 
 [ISMNormalCutFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
 [ISMNormalCutFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html)
 
 ## Availability

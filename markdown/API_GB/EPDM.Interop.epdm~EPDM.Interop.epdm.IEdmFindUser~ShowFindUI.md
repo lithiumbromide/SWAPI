@@ -55,17 +55,13 @@ True if a user is selected in the search result, false if the dialog box is canc
 
 ## Examples
 
-See the
-
-[IEdmFindUser](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
-examples.
+See the [IEdmFindUser](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html) examples.
 
 ## Remarks
 
-Before calling this method, call[IEdmFindUser::SetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SetPropt.html)to set the search criteria for finding users. The search criteria become the default values in the Find User dialog box that is launched when this method is called.
+Before calling this method, call [IEdmFindUser::SetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SetPropt.html) to set the search criteria for finding users. The search criteria become the default values in the Find User dialog box that is launched when this method is called.
 
-After successfully calling this method, the[IEdmFindUser.Result](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~Result.html)property contains the users selected in the result list of the Find User dialog box.
+After successfully calling this method, the [IEdmFindUser.Result](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~Result.html) property contains the users selected in the result list of the Find User dialog box.
 
 SOLIDWORKS PDM Professional calls this function when you link a card button to the Find User command.
 
@@ -77,7 +73,6 @@ SOLIDWORKS PDM Professional calls this function when you link a card button to t
 ## See Also
 
 [IEdmFindUser Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
 [IEdmFindUser Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser_members.html)
 
 ## Availability

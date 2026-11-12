@@ -43,13 +43,7 @@ public delegate System.int DDrawingDocEvents_DynamicHighlightNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,55 +51,36 @@ See
 
 ## VBA Syntax
 
-See
-
-[DynamicHighlightNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~DynamicHighlightNotify_EV.html)
-
-.
+See [DynamicHighlightNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~DynamicHighlightNotify_EV.html).
 
 ## Examples
 
+```vb
 Private Function drawdoc_DynamicHighlightNotify() As Long
-
 Dim one As Object
-
 Dim x As Integer
-
 Dim pt As Variant
-
-Set one = mgr. GetSelectedObject5 (-1)
-
+Set one = mgr.GetSelectedObject5(-1)
 If Not one Is Nothing Then
+    Debug.Print mgr.GetSelectedObjectType2(-1)
+    one.Select True
 
-kadov_tag{{<spaces>}}Debug.Print mgr. GetSelectedObjectType2 (-1)
-
-kadov_tag{{<spaces>}}one. Select True
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{<spaces>}}pt = mgr. GetSelectionPoint (-1)
-
-kadov_tag{{<spaces>}}If Not IsEmpty(pt) Then
-
-kadov_tag{{<spaces>}}Debug.Print pt(0), pt(1), pt(2)
-
-kadov_tag{{<spaces>}}Else
-
-kadov_tag{{<spaces>}}Debug.Print "Object selected in FeatureManager design tree, so no points."
-
-kadov_tag{{<spaces>}}End If
-
+    pt = mgr.GetSelectionPoint(-1)
+    If Not IsEmpty(pt) Then
+        Debug.Print pt(0), pt(1), pt(2)
+    Else
+        Debug.Print "Object selected in FeatureManager design tree, so no points."
+    End If
 Else
-
-kadov_tag{{<spaces>}}Debug.Print "Dynamic highlighting is now off."
-
+    Debug.Print "Dynamic highlighting is now off."
 End If
+```
 
 ## Remarks
 
-To send this notification, specify -1 for the index for any of the[ISelectionMgr](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr.html)methods. See**Example**.
+To send this notification, specify -1 for the index for any of the [ISelectionMgr](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr.html) methods. See **Example**.
 
-If developing a C++ application, use[swDrawingDynamicHighlightNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)to register for this notification.
+If developing a C++ application, use [swDrawingDynamicHighlightNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

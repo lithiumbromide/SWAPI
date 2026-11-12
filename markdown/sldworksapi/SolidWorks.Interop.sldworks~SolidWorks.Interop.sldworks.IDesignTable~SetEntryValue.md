@@ -58,13 +58,7 @@ void SetEntryValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,11 +69,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[DesignTable::SetEntryValue](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~SetEntryValue.html)
-
-.
+See [DesignTable::SetEntryValue](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~SetEntryValue.html).
 
 ## Remarks
 
@@ -88,13 +78,9 @@ This method lets you change the data type from text to general and from general 
 ## See Also
 
 [IDesignTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable.html)
-
 [IDesignTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html)
-
 [IDesignTable::GetEntryText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~GetEntryText.html)
-
 [IDesignTable::GetEntryValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~GetEntryValue.html)
-
 [IDesignTable::SetEntryText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~SetEntryText.html)
 
 ## Availability

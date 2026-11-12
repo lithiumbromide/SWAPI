@@ -42,13 +42,7 @@ property System.double VScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ Scale
 
 ## VBA Syntax
 
-See
-
-[Texture::VScale](ms-its:sldworksapivb6.chm::/sldworks~Texture~VScale.html)
-
-.
+See [Texture::VScale](ms-its:sldworksapivb6.chm::/sldworks~Texture~VScale.html).
 
 ## See Also
 
 [ITexture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html)
-
 [ITexture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture_members.html)
 
 ## Availability

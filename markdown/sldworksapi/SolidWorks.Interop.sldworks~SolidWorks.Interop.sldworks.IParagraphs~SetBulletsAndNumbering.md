@@ -63,35 +63,15 @@ System.bool SetBulletsAndNumbering(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ParagraphType`: List type as defined in
-
-[swParagraphType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swParagraphType_e.html)
-- `NumberingType`: Numbering direction as defined in
-
-[swNumberedListStartType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNumberedListStartType_e.html)
-
-; valid only if ParagraphType is swParagraphType_e.swParagraphNumbered
+- `ParagraphType`: List type as defined in [swParagraphType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swParagraphType_e.html)
+- `NumberingType`: Numbering direction as defined in [swNumberedListStartType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNumberedListStartType_e.html); valid only if ParagraphType is swParagraphType_e.swParagraphNumbered
 - `StartAt`: Letter or number starting this numbered list, depending on Type; valid only if ParagraphType is swParagraphType_e.swParagraphNumbered
-- `Type`: Numbered list type as defined in
-
-[swNumberedListType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNumberedListType_e.html)
-
-; valid only if ParagraphType is swParagraphType_e.swParagraphNumbered
-- `Format`: Numbered list format as defined in
-
-[swNumberingFormat_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNumberingFormat_e.html)
-
-; valid only if ParagraphType is swParagraphType_e.swParagraphNumbered
+- `Type`: Numbered list type as defined in [swNumberedListType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNumberedListType_e.html); valid only if ParagraphType is swParagraphType_e.swParagraphNumbered
+- `Format`: Numbered list format as defined in [swNumberingFormat_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNumberingFormat_e.html); valid only if ParagraphType is swParagraphType_e.swParagraphNumbered
 
 ### Return Value
 
@@ -99,24 +79,18 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Paragraphs::SetBulletsAndNumbering](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~SetBulletsAndNumbering.html)
-
-.
+See [Paragraphs::SetBulletsAndNumbering](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~SetBulletsAndNumbering.html).
 
 ## Remarks
 
-Before calling this method, set the current paragraph using[IParagraphs::CurrentParagraph](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~CurrentParagraph.html).
+Before calling this method, set the current paragraph using [IParagraphs::CurrentParagraph](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~CurrentParagraph.html).
 
-After calling this method, call[IParagraphs::UpdateParagraph](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~UpdateParagraph.html)to update the model.
+After calling this method, call [IParagraphs::UpdateParagraph](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~UpdateParagraph.html) to update the model.
 
 ## See Also
 
 [IParagraphs Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
 [IParagraphs Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs_members.html)
-
 [IParagraphs::GetBulletsAndNumbering Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~GetBulletsAndNumbering.html)
 
 ## Availability

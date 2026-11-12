@@ -11,13 +11,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDo
 
 Represents and provides access to a single file that is checked into the vault. Some document properties, such as configuration, references, and where used, only work with SOLIDWORKS documents (.sldprt, .sldasm, and .slddrw files).
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,20 +41,13 @@ public interface class IPDMWDocument
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument.html)
-
-.
+See [PDMWDocument](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument.html).
 
 ## Examples
 
 [Extract Embedded eDrawings Data (VBA)](Extract_Embedded_eDrawings_Data_Example_VB.htm)
-
 [Get Specific Document (VBA)](Get_Specific_Document_Example_VB.htm)
-
 [List Assemblies Where Part Used (VBA)](List_Assemblies_Where_Part_Used_Example_VB.htm)
-
 [Get Names of Projects for All Documents in Vault (VB.NET)](Get_Names_Projects_for_Documents_in_Vault_Example_VBNET.htm)
 
 ## Accessors
@@ -80,7 +67,5 @@ See
 ## See Also
 
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWDocuments Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocuments.html)

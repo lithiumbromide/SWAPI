@@ -9,15 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # Replace Method (IFindReplaceAnnotations)
 
-Replaces the value returned by
-
-[IFindReplaceAnnotations::FindText](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~FindText.html)
-
-with the text specified by
-
-[IFindReplaceAnnotations::ReplaceText](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~ReplaceText.html)
-
-.
+Replaces the value returned by [IFindReplaceAnnotations::FindText](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~FindText.html) with the text specified by [IFindReplaceAnnotations::ReplaceText](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~ReplaceText.html).
 
 ## Syntax
 
@@ -50,24 +42,16 @@ System.int Replace();
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IFindReplaceAnnotations::Replace](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~Replace.html)
-
-.
+See [IFindReplaceAnnotations::Replace](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~Replace.html).
 
 ## See Also
 
 [IFindReplaceAnnotations Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations.html)
-
 [IFindReplaceAnnotations Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations_members.html)
-
 [IFindReplaceAnnotations::ReplaceAll Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~ReplaceAll.html)
 
 ## Availability

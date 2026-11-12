@@ -39,11 +39,7 @@ System.bool CreateTree(
 
 ### Parameters
 
-- `lEdmCreateReferenceFlags`: Combination of
-
-[EdmCreateReferenceFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateReferenceFlags.html)
-
-bits
+- `lEdmCreateReferenceFlags`: Combination of [EdmCreateReferenceFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateReferenceFlags.html) bits
 
 ### Return Value
 
@@ -52,12 +48,11 @@ True if there are file references, false if not
 ## Examples
 
 [Add Custom File Reference (VB.NET)](Add_Custom_File_Reference_Example_VBNET.htm)
-
 [Add Custom File Reference (C#)](Add_Custom_File_Reference_Example_CSharp.htm)
 
 ## Remarks
 
-If this method returns true, call[IEdmAddCustomRefs::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~ShowDlg.html)to display and edit the file references.
+If this method returns true, call [IEdmAddCustomRefs::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~ShowDlg.html) to display and edit the file references.
 
 [Return codes](ReturnCodes.htm):
 
@@ -67,7 +62,6 @@ If this method returns true, call[IEdmAddCustomRefs::ShowDlg](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmAddCustomRefs Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html)
-
 [IEdmAddCustomRefs Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs_members.html)
 
 ## Availability

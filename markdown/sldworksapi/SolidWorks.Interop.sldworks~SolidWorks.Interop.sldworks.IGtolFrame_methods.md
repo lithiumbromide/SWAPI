@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGt
 
 # IGtolFrame Interface Methods
 
-For a list of all members of this type, see[IGtolFrame members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame_members.html).
+For a list of all members of this type, see [IGtolFrame members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame_members.html).
 
 ## Public Methods
 
@@ -30,5 +30,4 @@ For a list of all members of this type, see[IGtolFrame members](SolidWorks.Inter
 ## See Also
 
 [IGtolFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

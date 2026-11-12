@@ -45,27 +45,15 @@ property System.int ColorForm {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Number of colors as defined by
-
-[swRenderMaterialColorForms_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRenderMaterialColorForms_e.html)
+Number of colors as defined by [swRenderMaterialColorForms_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRenderMaterialColorForms_e.html)
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::ColorForm](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~ColorForm.html)
-
-.
+See [RenderMaterial::ColorForm](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~ColorForm.html).
 
 ## Remarks
 
@@ -74,7 +62,6 @@ For example, blue glass is defined by two colors. To see the corresponding user-
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool Visibility {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if the plot's feature data is visible, false if not
 
 ## VBA Syntax
 
-See
-
-[MotionPlotFeatureData::Visibility](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotFeatureData~Visibility.html)
-
-.
+See [MotionPlotFeatureData::Visibility](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotFeatureData~Visibility.html).
 
 ## See Also
 
 [IMotionPlotFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData.html)
-
 [IMotionPlotFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData_members.html)
 
 ## Availability

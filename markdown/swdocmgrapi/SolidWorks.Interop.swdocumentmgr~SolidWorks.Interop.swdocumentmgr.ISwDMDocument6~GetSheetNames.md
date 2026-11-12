@@ -40,18 +40,17 @@ System.object GetSheetNames()
 System.Object^ GetSheetNames();
 ```
 
+### Return Value
+
+Array of sheet name strings.
+
 ## VBA Syntax
 
-See
-
-[SwDMDocument6::GetSheetNames](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument6~GetSheetNames.html)
-
-.
+See [SwDMDocument6::GetSheetNames](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument6~GetSheetNames.html).
 
 ## Examples
 
 [Get Drawing Sheets' Properties (C#)](Get_Drawing_Sheets_Properties_Example_CSharp.htm)
-
 [Get Drawing Sheets' Properties (VB.NET)](Get_Drawing_Sheets_Properties_Example_vbnet.htm)
 
 ## Remarks
@@ -61,13 +60,9 @@ This method only supports drawing documents saved in SOLIDWORKS 2005 SP02 and la
 ## See Also
 
 [ISwDMDocument6 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument6.html)
-
 [ISwDMDocument6 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument6_members.html)
-
 [ISwDMDocument4::GetActiveSheetName Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument4~GetActiveSheetName.html)
-
 [ISwDMDocument4::GetSheetCount Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument4~GetSheetCount.html)
-
 [ISwDMDocument13::GetSheetFormatPath Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument13~GetSheetFormatPath.html)
 
 ## Availability

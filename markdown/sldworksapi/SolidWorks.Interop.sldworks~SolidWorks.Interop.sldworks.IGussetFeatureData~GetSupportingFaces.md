@@ -51,22 +51,12 @@ System.bool GetSupportingFaces(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PFace1`: Pointer to the first
-
-[IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-object
-- `PFace2`: Pointer to the second[IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)objectParamDesc
+- `PFace1`: Pointer to the first [IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) object
+- `PFace2`: Pointer to the second [IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) object
 
 ### Return Value
 
@@ -74,26 +64,18 @@ True if both faces are returned, false if not
 
 ## VBA Syntax
 
-See
-
-[GussetFeatureData::GetSupportingFaces](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~GetSupportingFaces.html)
-
-.
+See [GussetFeatureData::GetSupportingFaces](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~GetSupportingFaces.html).
 
 ## Examples
 
 [Get Gusset Feature Data (C#)](Get_Gusset_Feature_Data_Example_CSharp.htm)
-
 [Get Gusset Feature Data (VB.NET)](Get_Gusset_Feature_Data_Example_VBNET.htm)
-
 [Get Gusset Feature Data (VBA)](Get_Gusset_Feature_Data_Example_VB.htm)
 
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [IGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData_members.html)
-
 [IGussetFeatureData::SetSupportingFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData~SetSupportingFaces.html)
 
 ## Availability

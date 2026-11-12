@@ -40,13 +40,7 @@ EnumBodies2 EnumRelatedBodies2()
 EnumBodies2^ EnumRelatedBodies2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,37 +48,28 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::EnumRelatedBodies2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~EnumRelatedBodies2.html)
-
-.
+See [PartDoc::EnumRelatedBodies2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~EnumRelatedBodies2.html).
 
 ## Remarks
 
 The list contains only those bodies associated with reference surfaces. The list does not include the part body itself.
 
-A reference surface feature can consist of one or more surfaces sewn together. Each reference surface feature has two[IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)objects:
+A reference surface feature can consist of one or more surfaces sewn together. Each reference surface feature has two [IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) objects:
 
 - One represents the front face or faces
-- Onekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}represents the back face or faces
+- One represents the back face or faces
 
 Each IBody2 object has one or more faces depending on whether the reference surface feature is a set of knitted surfaces or a single underlying surface. The corresponding faces for each body pair should have normal vectors that are opposite.
 
-To use the enumerated list, see[IEnumBodies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumBodies2.html)functions.
+To use the enumerated list, see [IEnumBodies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumBodies2.html) functions.
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::EnumBodies3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~EnumBodies3.html)
-
 [IPartDoc::EnumRelatedSectionedBodies2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~EnumRelatedSectionedBodies2.html)
-
 [IPartDoc::GetRelatedBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetRelatedBodies.html)
-
 [IPartDoc::GetRelatedSectionedBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetRelatedSectionedBodies.html)
 
 ## Availability

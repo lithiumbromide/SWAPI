@@ -40,13 +40,7 @@ System.int IGetExcessBodyCount()
 System.int IGetExcessBodyCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Number of excess bodies
 
 ## VBA Syntax
 
-See
-
-[Body2::IGetExcessBodyCount](ms-its:sldworksapivb6.chm::/sldworks~Body2~IGetExcessBodyCount.html)
-
-.
+See [Body2::IGetExcessBodyCount](ms-its:sldworksapivb6.chm::/sldworks~Body2~IGetExcessBodyCount.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::GetExcessBodyArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetExcessBodyArray.html)
-
 [IBody2::IGetExcessBodyArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IGetExcessBodyArray.html)
 
 ## Availability

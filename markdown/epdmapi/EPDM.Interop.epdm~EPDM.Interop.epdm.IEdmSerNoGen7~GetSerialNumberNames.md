@@ -44,13 +44,11 @@ void GetSerialNumberNames(
 ## Examples
 
 [Set Part Number Using Default Serial Numbers (C#)](Set_Part_Number_Using_Default_Serial_Numbers_Example_CSharp.htm)
-
 [Set Part Number Using Default Serial Numbers (VB.NET)](Set_Part_Number_Using_Default_Serial_Numbers_Example_VBNET.htm)
 
 ## See Also
 
 [IEdmSerNoGen7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7.html)
-
 [IEdmSerNoGen7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7_members.html)
 
 ## Availability

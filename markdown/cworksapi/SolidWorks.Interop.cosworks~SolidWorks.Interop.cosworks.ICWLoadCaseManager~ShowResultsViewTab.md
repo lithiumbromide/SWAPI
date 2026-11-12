@@ -46,26 +46,16 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[CWLoadCaseManager::ShowResultsViewTab](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~ShowResultsViewTab.html)
-
-.
+See [CWLoadCaseManager::ShowResultsViewTab](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~ShowResultsViewTab.html).
 
 ## Examples
 
-See the
-
-[ICWLoadCaseManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
-examples.
+See the [ICWLoadCaseManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html) examples.
 
 ## See Also
 
 [ICWLoadCaseManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
 [ICWLoadCaseManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager_members.html)
-
 [ICWLoadCaseManager::ShowLoadCaseViewTab Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~ShowLoadCaseViewTab.html)
 
 ## Availability

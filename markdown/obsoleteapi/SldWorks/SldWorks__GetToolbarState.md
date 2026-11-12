@@ -9,8 +9,7 @@ source: "obsoleteapi/SldWorks/SldWorks__GetToolbarState.htm"
 
 # SldWorks::GetToolbarState
 
-This method is obsolete and has been superseded
-by[SldWorks::GetToolbarState2](sldworksAPI.chm::/SldWorks/SldWorks__GetToolbarState2.htm).
+This method is obsolete and has been superseded by [SldWorks::GetToolbarState2](sldworksAPI.chm::/SldWorks/SldWorks__GetToolbarState2.htm).
 
 Description
 
@@ -18,10 +17,7 @@ This method returns the state of a toolbar.
 
 Syntax (OLE Automation)
 
-retval = SldWorks.GetToolbarState (
-Module, toolbarID, toolbarState )
-
-(Table)=========================================================
+retval = SldWorks.GetToolbarState ( Module, toolbarID, toolbarState )
 
 | Input: | (BSTR) Module | Name of the module (for example, USERDLL) |
 | --- | --- | --- |
@@ -31,10 +27,7 @@ Module, toolbarID, toolbarState )
 
 Syntax (COM)
 
-status = SldWorks->GetToolbarState
-( Module, toolbarID, toolbarState, &retval )
-
-(Table)=========================================================
+status = SldWorks->GetToolbarState ( Module, toolbarID, toolbarState, &retval )
 
 | Input: | (BSTR)Module | Name of the module (for example, USERDLL) |
 | --- | --- | --- |
@@ -45,30 +38,4 @@ status = SldWorks->GetToolbarState
 
 Remarks
 
-You can determine if a toolbar is hidden by passing swToolbarHidden
-in toolbarState.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1217" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="SldWorks_Object$$**$$ZModifyUserInterface$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\sw2003\SldWorks\SldWorks__GetToolbarState.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+You can determine if a toolbar is hidden by passing swToolbarHidden in toolbarState.

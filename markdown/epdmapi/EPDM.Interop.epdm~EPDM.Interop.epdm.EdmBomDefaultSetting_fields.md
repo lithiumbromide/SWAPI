@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_fields
 
 # EdmBomDefaultSetting Structure Fields
 
-For a list of all members of this type, see[EdmBomDefaultSetting members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members.html).
+For a list of all members of this type, see [EdmBomDefaultSetting members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members.html).
 
 ## Public Fields
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[EdmBomDefaultSetting members](EPDM.I
 ## See Also
 
 [EdmBomDefaultSetting Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

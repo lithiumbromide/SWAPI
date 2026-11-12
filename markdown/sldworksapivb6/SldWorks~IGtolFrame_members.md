@@ -1,6 +1,5 @@
 ---
-title: "IGtolFrame Object
-Members"
+title: "IGtolFrame Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IGtolFrame_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IGtolFrame_members.html"
 ---
 
-# IGtolFrame Object
-Members
+# IGtolFrame Object Members
 
 ## Public Methods
 

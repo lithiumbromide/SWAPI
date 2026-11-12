@@ -46,13 +46,7 @@ void SetDisplayDualDimensionInRangeValues(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,18 +54,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Gtol::SetDisplayDualDimensionInRangeValues](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetDisplayDualDimensionInRangeValues.html)
-
-.
+See [Gtol::SetDisplayDualDimensionInRangeValues](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetDisplayDualDimensionInRangeValues.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetDisplayDualDimensionInRangeValues Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetDisplayDualDimensionInRangeValues.html)
 
 ## Availability

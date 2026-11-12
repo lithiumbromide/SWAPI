@@ -47,43 +47,29 @@ System.Object^ GetSymTextPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `SymId`: Name of the geometric tolerance symbol formatted as:
 
-<`LibraryName-SymbolName`>
+  <`LibraryName-SymbolName`>
 
-where`LibraryName`and`SymbolName`are in the SOLIDWORKS text file**C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english\gtol.sym****.**
+  where `LibraryName` and `SymbolName` are in the SOLIDWORKS text file **C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english\gtol.sym****.**
 
-NOTE: You must include the right- and left-angle brackets and separate`LibraryName`and`SymbolName`with a hyphen; for example, <MOD-DEG>.
+  NOTE: You must include the right- and left-angle brackets and separate `LibraryName` and `SymbolName` with a hyphen; for example, <MOD-DEG>.
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Environment::GetSymTextPoints](ms-its:sldworksapivb6.chm::/sldworks~Environment~GetSymTextPoints.html)
-
-.
+See [Environment::GetSymTextPoints](ms-its:sldworksapivb6.chm::/sldworks~Environment~GetSymTextPoints.html).
 
 ## Remarks
 
-The size of the array returned is based on the number of text pieces within this geometric tolerance symbol. You can determine this number using the return value text count from[IEnvironment::GetSymEdgeCounts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnvironment~GetSymEdgeCounts.html).
+The size of the array returned is based on the number of text pieces within this geometric tolerance symbol. You can determine this number using the return value text count from [IEnvironment::GetSymEdgeCounts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnvironment~GetSymEdgeCounts.html).
 
 The return value is an array of doubles as follows:
 
@@ -108,7 +94,5 @@ retval[ (n*3-1)] Z coordinate of text n
 ## See Also
 
 [IEnvironment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment.html)
-
 [IEnvironment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment_members.html)
-
 [IEnvironment::IGetSymTextPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment~IGetSymTextPoints.html)

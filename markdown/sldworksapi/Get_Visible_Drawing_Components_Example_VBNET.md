@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Visible_Drawing_Components_Example_VBNET.htm"
 
 # Get Visible Drawing Components Example (VB.NET)
 
-This example shows how to get the visible drawing components in a drawing of
-an assembly.
+This example shows how to get the visible drawing components in a drawing of an assembly.
 
 ```vb
   '-------------------------------------------------------

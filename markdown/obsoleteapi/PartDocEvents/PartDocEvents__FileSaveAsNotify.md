@@ -9,20 +9,13 @@ source: "obsoleteapi/PartDocEvents/PartDocEvents__FileSaveAsNotify.htm"
 
 # FileSaveAsNotify - PartDoc Event
 
-This event is obsolete and has been superseded
-by PartDoc event[FileSaveAsNotify2](sldworksAPI.chm::/PartDocEvents/PartDocEvents__FileSaveAsNotify2.htm).
+This event is obsolete and has been superseded by PartDoc event [FileSaveAsNotify2](sldworksAPI.chm::/PartDocEvents/PartDocEvents__FileSaveAsNotify2.htm).
 
 Description
 
-Pre-notifies the user program
-when a file is about to be saved with a new name and passes the new document
-name.
+Pre-notifies the user program when a file is about to be saved with a new name and passes the new document name.
 
 status = FileSaveAsNotify ( FileName )
-
-Parameters Table Start
-
-(Table)=========================================================
 
 | Input: | (BSTR) FileName | Name of the saved file |
 | --- | --- | --- |
@@ -30,66 +23,8 @@ Parameters Table Start
 
 Remarks
 
-You should check the filename
-extension of the FileName value passed to your application because the
-user may be saving this document as IGES, DSF, and so on.
+You should check the filename extension of the FileName value passed to your application because the user may be saving this document as IGES, DSF, and so on.
 
-When a user selectsFile, Saveon a document that has never
-been saved, you receive a FileSaveAsNotify instead of FileSaveNotify.
+When a user selects File, Save on a document that has never been saved, you receive a FileSaveAsNotify instead of FileSaveNotify.
 
-Return S_FALSE to stop from proceeding
-with the action that caused the notification.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2004\obsoleteapi\PartDocEvents\PartDocEvents__FileSaveAsNotify.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="PartDoc_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2004\obsoleteapi\PartDocEvents\PartDocEvents__FileSaveAsNotify.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+Return S_FALSE to stop from proceeding with the action that caused the notification.

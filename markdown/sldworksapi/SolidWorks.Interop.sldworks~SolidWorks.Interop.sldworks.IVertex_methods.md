@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVe
 
 # IVertex Interface Methods
 
-For a list of all members of this type, see[IVertex members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex_members.html).
+For a list of all members of this type, see [IVertex members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex_members.html).
 
 ## Public Methods
 
@@ -39,5 +39,4 @@ For a list of all members of this type, see[IVertex members](SolidWorks.Interop.
 ## See Also
 
 [IVertex Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

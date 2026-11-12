@@ -39,29 +39,17 @@ public interface class IUtilOptions
 
 ## VBA Syntax
 
-See
-
-[IUtilOptions](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilOptions.html)
-
-.
+See [IUtilOptions](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilOptions.html).
 
 ## Examples
 
 [Set Tolerances and Compare Geometry (VBA)](Set_Tolerances_and_Compare_Geometry_VB6.htm)
-
 [Set Tolerances and Compare Geometry (VB.NET)](Set_Tolerances_and_Compare_Geometry_VBNET.htm)
-
 [Set Tolerances and Compare Geometry (C#)](Set_Tolerances_and_Compare_Geometry_CSharp.htm)
 
 ## Remarks
 
-[ICompareDocument::CompareDocument2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareDocument~CompareDocument2.html)
-
-and
-
-[ICompareGeometry::CompareGeometry2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareGeometry~CompareGeometry2.html)
-
-include options to compare faces.
+[ICompareDocument::CompareDocument2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareDocument~CompareDocument2.html) and [ICompareGeometry::CompareGeometry2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareGeometry~CompareGeometry2.html) include options to compare faces.
 
 ## Accessors
 
@@ -70,5 +58,4 @@ include options to compare faces.
 ## See Also
 
 [IUtilOptions Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilOptions_members.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

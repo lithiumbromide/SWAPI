@@ -1,6 +1,5 @@
 ---
-title: "IParagraphs Object
-Members"
+title: "IParagraphs Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IParagraphs_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IParagraphs_members.html"
 ---
 
-# IParagraphs Object
-Members
+# IParagraphs Object Members
 
 ## Public Methods
 

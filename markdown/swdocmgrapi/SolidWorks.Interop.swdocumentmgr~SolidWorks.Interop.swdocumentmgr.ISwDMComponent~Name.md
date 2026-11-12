@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # Name Property (ISwDMComponent)
 
-Obsolete. Superseded by
-
-[ISwDMComponent11::Name3](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11~Name3.html)
-
-.
+Obsolete. Superseded by [ISwDMComponent11::Name3](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11~Name3.html).
 
 ## Syntax
 
@@ -52,34 +48,22 @@ Name of the component
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent~Name.html)
-
-.
+See [SwDMComponent::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent~Name.html).
 
 ## Examples
 
 [Get Whether Component Is Envelope and Excluded from BOM (C#)](Get_Whether_Component_Is_Envelope_And_Excluded_From_BOM_Example_CSharp.htm)
-
 [Get Whether Component Is Envelope and Excluded from BOM (VB.NET)](Get_Whether_Component_Is_Envelope_And_Excluded_From_BOM_Example_VBNET.htm)
-
 [Replace Component (C#)](Replace_Component_Example_CSharp.htm)
-
 [Replace Component (VB.NET)](Replace_Component_Example_VBNET.htm)
 
 ## Remarks
 
-This property only supports documents saved in SOLIDWORKS 2003 (Version 2200) and later. To get the version of a document, use
-
-[ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html)
-
-.
+This property only supports documents saved in SOLIDWORKS 2003 (Version 2200) and later. To get the version of a document, use [ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
 
 ## See Also
 
 [ISwDMComponent Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent.html)
-
 [ISwDMComponent Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSh
 
 # ICWShell Interface Members
 
-The following tables list the members exposed by[ICWShell](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html).
+The following tables list the members exposed by [ICWShell](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html).
 
 ## Public Properties
 
@@ -51,9 +51,6 @@ The following tables list the members exposed by[ICWShell](SolidWorks.Interop.co
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWShellManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager.html)
-
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)

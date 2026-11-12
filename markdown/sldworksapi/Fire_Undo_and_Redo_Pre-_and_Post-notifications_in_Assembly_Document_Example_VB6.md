@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Undo_and_Redo_Pre-_and_Post-notifications_in_Assembly_
 
 # Fire Undo and Redo Pre- and Post-notifications in Assembly Document (VBA)
 
-This example shows how to fire Undo and Redo pre- and post-notifications
-in an assembly document.
+This example shows how to fire Undo and Redo pre- and post-notifications in an assembly document.
 
 ```
 '-----------------------------------------------------------------

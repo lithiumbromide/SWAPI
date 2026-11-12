@@ -45,13 +45,7 @@ property System.bool Enabled {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to enable the page, false to not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageControl::Enabled](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~Enabled.html)
-
-.
+See [PropertyManagerPageControl::Enabled](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~Enabled.html).
 
 ## See Also
 
 [IPropertyManagerPageControl Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl.html)
-
 [IPropertyManagerPageControl Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl_members.html)
 
 ## Availability

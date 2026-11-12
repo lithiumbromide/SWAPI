@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache3.html"
 
 Removes specified checked-in files and folders from the local file vault view cache. Only files that are not referenced by checked-out files are cleared.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,22 +36,13 @@ public interface class IEdmClearLocalCache3 : public IEdmClearLocalCache, IEdmCl
 
 ## Examples
 
-See the
-
-[IEdmClearLocalCache](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html)
-
-examples.
+See the [IEdmClearLocalCache](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html) examples.
 
 ## Remarks
 
-This interface extends
-
-[IEdmClearLocalCache2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache2.html)
-
-.
+This interface extends [IEdmClearLocalCache2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache2.html).
 
 ## See Also
 
 [IEdmClearLocalCache3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache3_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

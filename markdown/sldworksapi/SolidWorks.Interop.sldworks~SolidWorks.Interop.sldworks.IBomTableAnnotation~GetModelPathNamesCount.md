@@ -47,13 +47,7 @@ System.int GetModelPathNamesCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,34 +59,22 @@ Number of model pathnames in the specified row
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::GetModelPathNamesCount](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetModelPathNamesCount.html)
-
-.
+See [BomTableAnnotation::GetModelPathNamesCount](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetModelPathNamesCount.html).
 
 ## Examples
 
 [Get Model Pathnames in BOM Table (C#)](Get_Model_Path_Names_in_BOM_Table_Example_CSharp.htm)
-
 [Get Model Pathnames in BOM Table (VB.NET)](Get_Model_Path_Names_in_BOM_Table_Example_VBNET.htm)
-
 [Get Model Pathnames in BOM Table (VBA)](Get_Model_Path_Names_in_BOM_Table_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[IBomTableAnnotation::IGetModelPathNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~IGetModelPathNames.html)
-
-to determine the size of the array for that method.
+Call this method before calling [IBomTableAnnotation::IGetModelPathNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~IGetModelPathNames.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
-
 [IBomTableAnnotation::GetModelPathNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~GetModelPathNames.html)
 
 ## Availability

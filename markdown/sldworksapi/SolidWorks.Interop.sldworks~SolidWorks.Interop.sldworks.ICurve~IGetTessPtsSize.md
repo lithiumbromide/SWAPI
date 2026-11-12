@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # IGetTessPtsSize Method (ICurve)
 
-Gets the size of the array required by
-
-[ICurve::IGetTessPts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetTessPts.html)
-
-.
+Gets the size of the array required by [ICurve::IGetTessPts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetTessPts.html).
 
 ## Syntax
 
@@ -63,51 +59,33 @@ System.int IGetTessPtsSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ChordTolerance`: Chord tolerance to be used in tessellation (meters); this is the maximum permitted
-
-distance from a cord to the curve between the cord endpoints
+  distance from a cord to the curve between the cord endpoints
 - `LengthTolerance`: Length tolerance to be used to filter out very short segments (meters); tessellated
-
-segments shorter than this value are not returned
+  segments shorter than this value are not returned
 - `StartPoint`: Pointer to an array containing the start point of the curve
 - `EndPoint`: Pointer to an array containing the end point of the curve
 
 ### Return Value
 
-Number of doubles returned when
-
-[ICurve::IGetTessPts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetTessPts.html)
-
-is called
+Number of doubles returned when [ICurve::IGetTessPts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetTessPts.html) is called
 
 ## VBA Syntax
 
-See
-
-[Curve::IGetTessPtsSize](ms-its:sldworksapivb6.chm::/sldworks~Curve~IGetTessPtsSize.html)
-
-.
+See [Curve::IGetTessPtsSize](ms-its:sldworksapivb6.chm::/sldworks~Curve~IGetTessPtsSize.html).
 
 ## Remarks
 
-To get the actual tessellation points, use[ICurve::IGetTessPts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetTessPts.html). Arguments passed to ICurve::IGetTessPts must match the arguments passed to this method.
+To get the actual tessellation points, use [ICurve::IGetTessPts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetTessPts.html). Arguments passed to ICurve::IGetTessPts must match the arguments passed to this method.
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::GetTessPts Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetTessPts.html)
 
 ## Availability

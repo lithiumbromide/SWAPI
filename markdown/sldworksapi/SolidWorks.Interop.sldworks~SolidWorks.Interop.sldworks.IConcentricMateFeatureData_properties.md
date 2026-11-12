@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IConcentricMateFeatureData Interface Properties
 
-For a list of all members of this type, see[IConcentricMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData_members.html).
+For a list of all members of this type, see [IConcentricMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData_members.html).
 
 ## Public Properties
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[IConcentricMateFeatureData members](
 ## See Also
 
 [IConcentricMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -61,32 +61,22 @@ System.int OnWindowFromHandleControlCreated(
 If Status equals:
 
 - true, then return nothing
-- false, then return an action as defined in
-
-  [swHandleWindowFromHandleCreationFailure_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHandleWindowFromHandleCreationFailure_e.html)
+- false, then return an action as defined in [swHandleWindowFromHandleCreationFailure_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHandleWindowFromHandleCreationFailure_e.html)
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler9::OnWindowFromHandleControlCreated](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler9~OnWindowFromHandleControlCreated.html)
-
-.
+See [PropertyManagerPage2Handler9::OnWindowFromHandleControlCreated](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler9~OnWindowFromHandleControlCreated.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPage2Handler9](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html)
-
-examples.
+See the [IPropertyManagerPage2Handler9](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html) examples.
 
 ## Remarks
 
-If the .NET control is not successfully created (i.e., Status = false), then the program creating the PropertyManager page should receive notification from this handler. Return one of the following options in[swHandleWindowFromHandleCreationFailure_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHandleWindowFromHandleCreationFailure_e.html):
+If the .NET control is not successfully created (i.e., Status = false), then the program creating the PropertyManager page should receive notification from this handler. Return one of the following options in [swHandleWindowFromHandleCreationFailure_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHandleWindowFromHandleCreationFailure_e.html):
 
 - swHandleWindowFromHandleCreationFailure_Cancel. Continue creating the PropertyManager page without the .NET control. This is the default.
-- swHandleWindowFromHandleCreationFailure_Retry. Try to create the .NET control again. You can call the[IPropertyManagerPageWindowFromHandle::SetWindowHandle](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageWindowFromHandle~SetWindowHandle.html)method to change the .NET control handle to perhaps use another similar control or another version of the control and then return swHandleWindowFromHandleCreationFailure_Retry. Avoid an endless loop situation.
+- swHandleWindowFromHandleCreationFailure_Retry. Try to create the .NET control again. You can call the [IPropertyManagerPageWindowFromHandle::SetWindowHandle](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageWindowFromHandle~SetWindowHandle.html) method to change the .NET control handle to perhaps use another similar control or another version of the control and then return swHandleWindowFromHandleCreationFailure_Retry. Avoid an endless loop situation.
 - swHandleWindowFromHandleCreationFailure_Continue. Cancel creating the PropertyManager page. For example, it might be that the PropertyManager page is useless without the control, so the calling add-in might want to quit and handle the situation on its own.
 
 If the control is created successfully, then SOLIDWORKS passes Status = true to the add-in and nothing is returned. If the control fails to be created, SOLIDWORKS passes Status = false to the add-in and the handler returns swHandleWindowFromHandleCreationFailure_Continue.
@@ -94,7 +84,6 @@ If the control is created successfully, then SOLIDWORKS passes Status = true to 
 ## See Also
 
 [IPropertyManagerPage2Handler9 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html)
-
 [IPropertyManagerPage2Handler9 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9_members.html)
 
 ## Availability

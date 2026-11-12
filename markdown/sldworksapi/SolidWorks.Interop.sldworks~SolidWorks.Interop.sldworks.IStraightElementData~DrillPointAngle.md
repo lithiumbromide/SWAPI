@@ -45,13 +45,7 @@ property System.double DrillPointAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,15 @@ Drill point angle
 
 ## VBA Syntax
 
-See
-
-[StraightElementData::DrillPointAngle](ms-its:sldworksapivb6.chm::/sldworks~StraightElementData~DrillPointAngle.html)
-
-.
+See [StraightElementData::DrillPointAngle](ms-its:sldworksapivb6.chm::/sldworks~StraightElementData~DrillPointAngle.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IStraightElementData::EndShape](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData~EndShape.html)
-
-is set to
-
-[swEndShape_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndShape_e.html)
-
-.swEndShape_DrillPoint and
-
-[IStraightElementData::DrillPointAngleOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData~DrillPointAngleOverride.html)
-
-is set to true.
+This property is valid only if [IStraightElementData::EndShape](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData~EndShape.html) is set to [swEndShape_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndShape_e.html).swEndShape_DrillPoint and [IStraightElementData::DrillPointAngleOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData~DrillPointAngleOverride.html) is set to true.
 
 ## See Also
 
 [IStraightElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData.html)
-
 [IStraightElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData_members.html)
 
 ## Availability

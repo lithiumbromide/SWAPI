@@ -51,22 +51,12 @@ System.bool MergeBendTags(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Merge`: True to merge bend tags, false to unmerge a merged bend tag
-- `BendNotes`: Array of two or more bend
-
-[tags](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
-
-to merge or an array of one merged bend tag to unmerge
+- `BendNotes`: Array of two or more bend [tags](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html) to merge or an array of one merged bend tag to unmerge
 
 ### Return Value
 
@@ -74,18 +64,12 @@ True if the bend tags are merged or a merged bend tag is unmerged, false if not
 
 ## VBA Syntax
 
-See
-
-[View::MergeBendTags](ms-its:sldworksapivb6.chm::/sldworks~View~MergeBendTags.html)
-
-.
+See [View::MergeBendTags](ms-its:sldworksapivb6.chm::/sldworks~View~MergeBendTags.html).
 
 ## Examples
 
 [Merge and Unmerge Bend Tags (C#)](Merge_and_Unmerge_Bend_Tags_Example_CSharp.htm)
-
 [Merge and Unmerge Bend Tags (VB.NET)](Merge_and_Unmerge_Bend_Tags_Example_VBNET.htm)
-
 [Merge and Unmerge Bend Tags (VBA)](Merge_and_Unmerge_Bend_Tags_Example_VB.htm)
 
 ## Remarks
@@ -98,9 +82,7 @@ See
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [INote::IsBendLineNote Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IsBendLineNote.html)
 
 ## Availability

@@ -46,11 +46,7 @@ SustainabilityPartUse^ GetSustainabilityPartUse();
 
 ## VBA Syntax
 
-See
-
-[SustainabilityApp::GetSustainabilityPartUse](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~sustainabilityApp~GetSustainabilityPartUse.html)
-
-.
+See [SustainabilityApp::GetSustainabilityPartUse](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~sustainabilityApp~GetSustainabilityPartUse.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See
 ## See Also
 
 [ISustainabilityApp Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp.html)
-
 [ISustainabilityApp Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp_members.html)
 
 ## Availability

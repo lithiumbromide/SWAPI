@@ -9,39 +9,29 @@ source: "epdmapi/Copy_Assembly_Tree_Example_CSharp.htm"
 
 # Copy Assembly Tree of Files Example (C#)
 
-This example shows how to copy an assembly and its tree of
-reference files to a destination folder in the vault.
+This example shows how to copy an assembly and its tree of reference files to a destination folder in the vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- //    a. Click File > New > Project > Visual C# > Windows Forms Application.
- //    b. Type CopyTree_CSharp in Name.
- //    c. Click Browse and navigate to the folder where to create
- //       the project.
- //    d. Click OK.
- //    e. Click Show All Files in the Solution Explorer toolbar and expand
- //       Form1.cs in the Solution Explorer.
- //    f. Replace the code in Form1.cs with this code.
- //    g. To create the form, replace the code in Form1.Designer.cs with this code.
-  // 2. Add references to:
- //    a. EPDM.Interop.epdm.dll (click Browse and browse to the top folder
- //       of your SOLIDWORKS PDM Professional installation, select
- //       EPDM.Interop.epdm.dll).
- //    b.  EPDM.interop.EPDMResultCode.dll (click Browse, select
- //       EPDM.interop.EPDMResultCode.dll, and click OK).
- // 3. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //    Embed Interop Types to False to handle methods that pass arrays of
- //    structures.
- // 4. Ensure that the vault root folder contains an assembly that
+ //    a. Click File > New > Project > C#, Windows, Desktop > Windows Forms App.
+ //    b. Type CopyTree_CSharp in Project name.
+ //    c. For Location, click ... and navigate to the folder where to create the project.
+//    d. Click Next.
+//    e. Select Framework.
+//    f. Click Create.
+ //    g. Click Show All Files in the Solution Explorer toolbar and expand
+ //        Form1.cs in the Solution Explorer.
+ //    h. Replace the code in Form1.cs with this code.
+ //    i. To create the form, replace the code in Form1.Designer.cs with this code.
+  // 2.     Add dependencies and safely pass arrays of structures.
+ // 3. Ensure that the vault root folder contains an assembly that
  //    is checked in with its referenced parts and drawings.
- // 5. Create a destination folder called New Folder in the vault.
- // 6. Click Debug > Start Debugging or press F5.
+ // 4. Create a destination folder called New Folder in the vault.
+ // 5. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  // 1. Displays the Copy Assembly dialog box.

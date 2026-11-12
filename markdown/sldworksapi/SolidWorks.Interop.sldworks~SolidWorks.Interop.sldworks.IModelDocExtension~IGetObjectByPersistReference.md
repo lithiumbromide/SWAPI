@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IGetObjectByPersistReference Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::IGetObjectByPersistReference3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IGetObjectByPersistReference3.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::IGetObjectByPersistReference3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IGetObjectByPersistReference3.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.Object^ IGetObjectByPersistReference(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::IGetObjectByPersistReference](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IGetObjectByPersistReference.html)
-
-.
+See [ModelDocExtension::IGetObjectByPersistReference](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IGetObjectByPersistReference.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)

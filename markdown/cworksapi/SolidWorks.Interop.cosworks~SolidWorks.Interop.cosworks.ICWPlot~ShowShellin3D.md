@@ -53,29 +53,19 @@ System.int ShowShellin3D(
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::ShowShellin3D](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ShowShellin3D.html)
-
-.
+See [CWPlot::ShowShellin3D](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ShowShellin3D.html).
 
 ## Examples
 
-See the
-
-[ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
-examples.
+See the [ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html) examples.
 
 ## Remarks
 
-This method is valid for the following plots only if[ICWPlot::ShowTensorOrVector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~ShowTensorOrVector.html)and[ICWPlot::ShowPlotOnSelEntities](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~ShowPlotOnSelEntities.html)are both false:
+This method is valid for the following plots only if [ICWPlot::ShowTensorOrVector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~ShowTensorOrVector.html) and [ICWPlot::ShowPlotOnSelEntities](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot~ShowPlotOnSelEntities.html) are both false:
 
 - Acceleration
 - Displacement
@@ -87,7 +77,6 @@ This method is valid for the following plots only if[ICWPlot::ShowTensorOrVector
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

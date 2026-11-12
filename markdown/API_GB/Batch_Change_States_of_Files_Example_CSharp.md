@@ -9,12 +9,9 @@ source: "API_GB/Batch_Change_States_of_Files_Example_CSharp.htm"
 
 # Batch Change States of Files Example (C#)
 
-This example shows how to change the states of several
-files in one batch.
+This example shows how to change the states of several files in one batch.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------

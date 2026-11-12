@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DPMISa
 
 # sw3DPMISaveOptions_e Enumeration
 
-3D PMI (Product and Manufacturing Information) save options when comparing two different versions of the same model.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+3D PMI (Product and Manufacturing Information) save options when comparing two different versions of the same model. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 

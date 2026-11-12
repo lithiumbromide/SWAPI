@@ -51,19 +51,11 @@ System.bool EnableButton(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `WhichOne`: Button as defined in
-
-[swPropertyManagerPageButtons e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertyManagerPageButtons_e.html)
+- `WhichOne`: Button as defined in [swPropertyManagerPageButtons e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertyManagerPageButtons_e.html)
 - `Enable`: True enables the button, false disables it
 
 ### Return Value
@@ -72,11 +64,7 @@ True if the button was enabled or disabled, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2::EnableButton](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~EnableButton.html)
-
-.
+See [PropertyManagerPage2::EnableButton](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~EnableButton.html).
 
 ## Remarks
 
@@ -84,14 +72,12 @@ You can only call this method after the page is displayed.
 
 By default, all of the specified buttons that appear at the top of the PropertyManager are initially enabled, except for the Previous Page button.
 
-**NOTE:**The intended use of this method is to disable the Previous Page button when the first of multiple pages is displayed and to disable the Next Page button when the last of multiple pages is displayed. However, you can use it whenever you want.
+**NOTE:** The intended use of this method is to disable the Previous Page button when the first of multiple pages is displayed and to disable the Next Page button when the last of multiple pages is displayed. However, you can use it whenever you want.
 
 ## See Also
 
 [IPropertyManagerPage2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
 [IPropertyManagerPage2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2_members.html)
-
 [IPropertyManagerPageButton Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageButton.html)
 
 ## Availability

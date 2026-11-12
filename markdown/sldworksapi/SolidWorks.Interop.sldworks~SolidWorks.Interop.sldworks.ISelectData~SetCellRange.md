@@ -58,13 +58,7 @@ void SetCellRange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,19 +69,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[SelectData::SetCellRange](ms-its:sldworksapivb6.chm::/Sldworks~SelectData~SetCellRange.html)
-
-.
+See [SelectData::SetCellRange](ms-its:sldworksapivb6.chm::/Sldworks~SelectData~SetCellRange.html).
 
 ## Remarks
 
 The range of table cells are only used for a selection made in a table. For all other types of selections, these values are ignored.
 
 By default, the value for FirstRow, LastRow, FirstColumn, and LastColumn is -1, which indicates that the entire table is selected.
-
-(Table)=========================================================
 
 | To select an entire... | Set... |
 | --- | --- |
@@ -97,9 +85,7 @@ By default, the value for FirstRow, LastRow, FirstColumn, and LastColumn is -1, 
 ## See Also
 
 [ISelectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html)
-
 [ISelectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData_members.html)
-
 [ISelectData::GetCellRange Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData~GetCellRange.html)
 
 ## Availability

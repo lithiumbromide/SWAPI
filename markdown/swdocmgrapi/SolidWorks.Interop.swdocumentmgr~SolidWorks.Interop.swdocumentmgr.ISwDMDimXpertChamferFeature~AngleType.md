@@ -44,17 +44,11 @@ property swDmDimXpertChamferAngleType_e AngleType {
 
 ### Property Value
 
-Type of chamfer angle as defined in
-
-[swDmDimXpertChamferAngleType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertChamferAngleType_e.html)
+Type of chamfer angle as defined in [swDmDimXpertChamferAngleType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertChamferAngleType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertChamferFeature::AngleType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertChamferFeature~AngleType.html)
-
-.
+See [SwDMDimXpertChamferFeature::AngleType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertChamferFeature~AngleType.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertChamferFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertChamferFeature.html)
-
 [ISwDMDimXpertChamferFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertChamferFeature_members.html)
 
 ## Availability

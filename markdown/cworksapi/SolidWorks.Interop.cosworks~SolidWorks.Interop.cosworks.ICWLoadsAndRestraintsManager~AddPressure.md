@@ -61,10 +61,10 @@ CWPressure^ AddPressure(
 
 ### Parameters
 
-- `NPressureType`: Pressure type as defined in[swsPressureType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPressureType_e.html)
+- `NPressureType`: Pressure type as defined in [swsPressureType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPressureType_e.html)
 - `DispArray`: Array of entities (faces or shell edges) to which to apply pressure
 - `RegGeom`: Reference geometry for direction
-- `ErrorCode`: Error as defined in[swsPressureError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPressureError_e.html)
+- `ErrorCode`: Error as defined in [swsPressureError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPressureError_e.html)
 
 ### Return Value
 
@@ -72,18 +72,12 @@ CWPressure^ AddPressure(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddPressure](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddPressure.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddPressure](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddPressure.html).
 
 ## Examples
 
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analyze Part (VBA)](Analyze_Part_Example_VB.htm)
 
 ## Remarks
@@ -93,7 +87,6 @@ Pass null or nothing if reference geometry is not used. If you pass a Dispatch p
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureLinearPattern3 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureLinearPattern4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureLinearPattern4.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureLinearPattern4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureLinearPattern4.html).
 
 ## Syntax
 
@@ -87,13 +83,7 @@ Feature^ FeatureLinearPattern3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -106,11 +96,7 @@ See
 - `DName1`: Name of the dimension defining Direction 1
 - `DName2`: Name of the dimension defining Direction 2
 - `GeometryPattern`: True to use geometry pattern, false to not
-- `VaryInstance`: True to vary the dimensions and spacing of individual pattern instances, false to not; valid only if GeometryPattern = false (see
-
-Remarks
-
-)
+- `VaryInstance`: True to vary the dimensions and spacing of individual pattern instances, false to not; valid only if GeometryPattern = false (see **Remarks**)
 
 ### Return Value
 
@@ -118,11 +104,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureLinearPattern3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureLinearPattern3.html)
-
-.
+See [FeatureManager::FeatureLinearPattern3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureLinearPattern3.html).
 
 ## Remarks
 
@@ -141,11 +123,8 @@ If VaryInstance = true, then to indicate how to vary the individual pattern inst
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ILinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
 
 ## Availability

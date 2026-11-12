@@ -45,38 +45,25 @@ property System.int CornerType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Corner type as defined in[swClosedCornerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swClosedCornerTypes_e.html)
+Corner type as defined in [swClosedCornerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swClosedCornerTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[ClosedCornerFeatureData::CornerType](ms-its:sldworksapivb6.chm::/sldworks~ClosedCornerFeatureData~CornerType.html)
-
-.
+See [ClosedCornerFeatureData::CornerType](ms-its:sldworksapivb6.chm::/sldworks~ClosedCornerFeatureData~CornerType.html).
 
 ## Examples
 
 [Create and Modify Closed Corner Feature (C#)](Create_and_Modify_Closed_Corner_Feature_Example_CSharp.htm)
-
 [Create and Modify Closed Corner Feature (VB.NET)](Create_and_Modify_Closed_Corner_Feature_Example_VBNET.htm)
-
 [Create and Modify Closed Corner Feature (VBA)](Create_and_Modify_Closed_Corner_Feature_Example_VB.htm)
 
 ## See Also
 
 [IClosedCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClosedCornerFeatureData.html)
-
 [IClosedCornerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClosedCornerFeatureData_members.html)
 
 ## Availability

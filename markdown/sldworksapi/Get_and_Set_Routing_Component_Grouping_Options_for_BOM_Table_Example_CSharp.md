@@ -9,9 +9,7 @@ source: "sldworksapi/Get_and_Set_Routing_Component_Grouping_Options_for_BOM_Tabl
 
 # Get and Set Routing Component Grouping Options for BOM Table Example (C#)
 
-This example shows how to get and set the routing component grouping
-options for this BOM table in a drawing of an assembly containing routing
-components.
+This example shows how to get and set the routing component grouping options for this BOM table in a drawing of an assembly containing routing components.
 
 ```
 //----------------------------------------------------------------------------------

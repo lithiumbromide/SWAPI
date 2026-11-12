@@ -47,13 +47,7 @@ System.int GetModelBreakViewNames(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +59,19 @@ Number of Model Break Views
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetModelBreakViewNames](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetModelBReakViewNames.html)
-
-.
+See [ModelDocExtension::GetModelBreakViewNames](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetModelBReakViewNames.html).
 
 ## Examples
 
 [Get Names and Show Model Break Views (C#)](Get_Names_and_Show_Model_Break_Views_Example_CSharp.htm)
-
 [Get Names and Show Model Break Views (VB.NET)](Get_Names_and_Show_Model_Break_Views_Example_VBNET.htm)
-
 [Get Names and Show Model Break Views (VBA)](Get_Names_and_Show_Model_Break_Views_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::ShowModelBreakView Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ShowModelBreakView.html)
-
 [IView3D::ModelBreakViewName Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D~ModelBreakViewName.html)
 
 ## Availability

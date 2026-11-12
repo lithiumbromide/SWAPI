@@ -40,13 +40,7 @@ System.int GetDisplayDimensionCount()
 System.int GetDisplayDimensionCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of display dimensions
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::GetDisplayDimensionCount](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetDisplayDimensionCount.html)
-
-.
+See [SketchBlockDefinition::GetDisplayDimensionCount](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetDisplayDimensionCount.html).
 
 ## Examples
 
@@ -66,18 +56,12 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchBlockDefinition::IGetDisplayDimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetDisplayDimensions.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchBlockDefinition::IGetDisplayDimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetDisplayDimensions.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
-
 [ISketchBlockDefinition::GetDisplayDimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetDisplayDimensions.html)
 
 ## Availability

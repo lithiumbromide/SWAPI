@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 Allows access to sheet metal gauge table parameters.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ISheetMetalGaugeTableParameters
 
 ## VBA Syntax
 
-See
-
-[SheetMetalGaugeTableParameters](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalGaugeTableParameters.html)
-
-.
+See [SheetMetalGaugeTableParameters](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalGaugeTableParameters.html).
 
 ## Examples
 
@@ -67,15 +63,15 @@ See
 
 'Postconditions:
 
-'1. Creates**Sketch1**for the sweep path.
+'1. Creates **Sketch1** for the sweep path.
 
-'2. Creates**Sketch2**for the sweep profile.
+'2. Creates **Sketch2** for the sweep profile.
 
-'3. Creates**Swept Flange1**using a gauge table installed with SOLIDWORKS.
+'3. Creates **Swept Flange1** using a gauge table installed with SOLIDWORKS.
 
 '4. Displays gauge table parameters.
 
-'5. Modifies**Swept Flange1**to override the gauge number, bend radius, and gauge thickness.
+'5. Modifies **Swept Flange1** to override the gauge number, bend radius, and gauge thickness.
 
 '6. Displays new gauge parameters.
 
@@ -150,20 +146,20 @@ Set swSketch = swModel.SelectionManager.GetSelectedObject6(1, -1)
 
 Set oPath(0) = swSketch
 vPath = oPath
-swSweptFlangeFeatureData.**Path**= vPath
+swSweptFlangeFeatureData.**Path** = vPath
 
 'Select the sweep profile
 boolstatus = swModel.Extension.SelectByID2("Sketch2", "SKETCH", 0, 0, 0, False, 0, Nothing, 0)
 Set swSketch = swModel.SelectionManager.GetSelectedObject6(1, -1)
-swSweptFlangeFeatureData.**Profile**= swSketch
+swSweptFlangeFeatureData.**Profile** = swSketch
 
 errCode = swSweptFlangeFeatureData.**GetErrorCodes**
 Debug.Print "Swept flange definition error code: " + CStr(errCode)
 
 Stop 'Inspect the Immediate window for the swept flange definition error
 
-swSweptFlangeFeatureData.**UseMaterialSheetMetalParameters**= False
-swSweptFlangeFeatureData.**UseGaugeTable**= True
+swSweptFlangeFeatureData.**UseMaterialSheetMetalParameters** = False
+swSweptFlangeFeatureData.**UseGaugeTable** = True
 
 Debug.Print "Use Gauge Table? " + CStr(swSweptFlangeFeatureData.**UseGaugeTable**)
 
@@ -171,7 +167,7 @@ Set smGaugeTableParam = swSweptFlangeFeatureData.**GetGaugeTableParameters**
 boolstatus = smGaugeTableParam.**GetGaugeTablePath**(gaugePath)
 
 If boolstatus = False Then
-smGaugeTableParam.**SetGaugeTablePath**("C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\LANG\ENGLISH\SHEET METAL GAUGE TABLES\BEND ALLOWANCE MM SAMPLE.XLS")
+smGaugeTableParam.**SetGaugeTablePath** ("C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\LANG\ENGLISH\SHEET METAL GAUGE TABLES\BEND ALLOWANCE MM SAMPLE.XLS")
 End If
 
 boolstatus = smGaugeTableParam.**GetGaugeTablePath**(gaugePath)
@@ -210,7 +206,7 @@ Debug.Print "Reverse Direction? " + CStr(smGaugeTableParam.**ReverseDirection**)
 
 Stop 'Inspect the Immediate window for current bend radius and current gauge thickness
 
-swSweptFlangeFeatureData.**SetGaugeTableParameters**smGaugeTableParam
+swSweptFlangeFeatureData.**SetGaugeTableParameters** smGaugeTableParam
 
 Set swFeat = swFeatMgr.**CreateFeature**(swSweptFlangeFeatureData)
 
@@ -225,12 +221,12 @@ Stop 'Inspect the Immediate window for the swept flange creation status
 Set featData = swFeat.**GetDefinition**()
 Set smGaugeTableParam = featData.**GetGaugeTableParameters**
 
-smGaugeTableParam.**ReverseDirection**= True
-smGaugeTableParam.**SetCurrentGaugeNumber**"Gauge 3"
-smGaugeTableParam.**SetThickness**0.006, True
-smGaugeTableParam.**SetRadius**0.006, True
+smGaugeTableParam.**ReverseDirection** = True
+smGaugeTableParam.**SetCurrentGaugeNumber** "Gauge 3"
+smGaugeTableParam.**SetThickness** 0.006, True
+smGaugeTableParam.**SetRadius** 0.006, True
 
-featData.**SetGaugeTableParameters**smGaugeTableParam
+featData.**SetGaugeTableParameters** smGaugeTableParam
 boolstatus = swFeat.**ModifyDefinition**(featData, swModel, Nothing)
 Debug.Print "Swept flange modification status: " + CStr(boolstatus)
 
@@ -283,16 +279,11 @@ End Sub
 ## Examples
 
 [Create Swept Flange Using Gauge Table (C#)](Create_Swept_Flange_Using_Gauge_Table_Example_CSharp.htm)
-
 [Create Swept Flange Using Gauge Table (VB.NET)](Create_Swept_Flange_Using_Gauge_Table_Example_VBNET.htm)
 
 ## Remarks
 
-For more information about sheet metal gauge tables, read the
-
-SOLIDWORKS Help > Sheet Metal > Sheet Metal Parts > Sheet Metal Gauge Tables
-
-topic.
+For more information about sheet metal gauge tables, read the **SOLIDWORKS Help > Sheet Metal > Sheet Metal Parts > Sheet Metal Gauge Tables** topic.
 
 ## Accessors
 
@@ -305,5 +296,4 @@ topic.
 ## See Also
 
 [ISheetMetalGaugeTableParameters Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

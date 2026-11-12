@@ -78,23 +78,15 @@ void Initialize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseMaterialSheetMetalParameters`: True to use the sheet metal properties of the applied material, false to not
 - `OverrideDefaultBendAllowance`: True to override the default bend allowance, false to not
-- `CustomBendAllowance`: [ICustomBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance.html)
-
-; valid only if OverrideDefaultBendAllowance is true
+- `CustomBendAllowance`: [ICustomBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance.html); valid only if OverrideDefaultBendAllowance is true
 - `OverrideDefaultBendRelief`: True to override the default bend relief, false to not
-- `ReliefType`: Relief type as defined in[swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html); valid only if OverrideDefaultBendRelief is true
+- `ReliefType`: Relief type as defined in [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html); valid only if OverrideDefaultBendRelief is true
 - `UseReliefRatio`: True to use ReliefRatio, false to use ReliefWidth and ReliefDepth; valid only if OverrideDefaultBendRelief is true
 - `ReliefRatio`: Relief ratio; valid only if UseReliefRatio is true
 - `ReliefWidth`: Relief width (numerator of relief ratio); valid only if UseReliefRatio is false
@@ -102,19 +94,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::Initialize](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~Initialize.html)
-
-.
+See [BaseFlangeFeatureData::Initialize](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~Initialize.html).
 
 ## Examples
 
-See the
-
-[IBaseFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
-examples.
+See the [IBaseFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html) examples.
 
 ## Remarks
 
@@ -143,25 +127,15 @@ See the Examples.
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::GetCustomBendAllowance Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~GetCustomBendAllowance.html)
-
 [IBaseFlangeFeatureData::ReliefDepth Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~ReliefDepth.html)
-
 [IBaseFlangeFeatureData::ReliefRatio Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~ReliefRatio.html)
-
 [IBaseFlangeFeatureData::ReliefType Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~ReliefType.html)
-
 [IBaseFlangeFeatureData::ReliefWidth Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~ReliefWidth.html)
-
 [IBaseFlangeFeatureData::UseDefaultBendAllowance Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~UseDefaultBendAllowance.html)
-
 [IBaseFlangeFeatureData::UseDefaultBendRelief Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~UseDefaultBendRelief.html)
-
 [IBaseFlangeFeatureData::UseMaterialSheetMetalParameters Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~UseMaterialSheetMetalParameters.html)
-
 [IBaseFlangeFeatureData::UseReliefRatio Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~UseReliefRatio.html)
 
 ## Availability

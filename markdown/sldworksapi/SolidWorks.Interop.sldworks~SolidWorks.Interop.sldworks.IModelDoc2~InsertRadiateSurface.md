@@ -54,13 +54,7 @@ void InsertRadiateSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,23 +64,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertRadiateSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertRadiateSurface.html)
-
-.
+See [ModelDoc2::InsertRadiateSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertRadiateSurface.html).
 
 ## Examples
 
 [Create Radiate Surface Feature (VBA)](Get_Radiate_Surface_Data_Example_VB.htm)
-
 [Create Radiate Surface Feature (VB.NET)](Create_Radiate_Surface_Example_VBNET.htm)
-
 [Create Radiate Surface Feature (C#)](Create_Radiate_Surface_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, call IModelDocExtension::SelectByID2 to select
+Before calling this method, call [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select
 
 - Reference direction using Mark = 1.
 - Radiate entities using Mark = 2.
@@ -96,9 +84,7 @@ See the SOLIDWORKS Help for information about what entities are valid for select
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ISurfaceRadiateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceRadiateFeatureData.html)
 
 ## Availability

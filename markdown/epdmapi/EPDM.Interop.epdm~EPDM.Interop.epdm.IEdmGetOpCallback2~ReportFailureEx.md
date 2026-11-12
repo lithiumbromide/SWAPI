@@ -60,22 +60,18 @@ EdmGetOpReply ReportFailureEx(
 - `lFileID`: ID of the affected file
 - `lVersionNo`: Version of the affected file
 - `bsPath`: Path to the affected file
-- `eError`: Error code as defined in
-
-[EdmGetOpError](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpError.html)
+- `eError`: Error code as defined in [EdmGetOpError](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpError.html)
 - `oArg1`: Unique 64-bit version ID
 - `oArg2`: Reserved for future use
 - `oArg3`: Reserved for future use
 
 ### Return Value
 
-Reply with how to proceed as defined in
-
-[EdmGetOpReply](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpReply.html)
+Reply with how to proceed as defined in [EdmGetOpReply](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetOpReply.html)
 
 ## Remarks
 
-This method extends[IEdmGetOpCallback::ReportFailure](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ReportFailure.html)which does not support recovering from archive file errors.
+This method extends [IEdmGetOpCallback::ReportFailure](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ReportFailure.html) which does not support recovering from archive file errors.
 
 [Return codes](ReturnCodes.htm):
 
@@ -85,7 +81,6 @@ This method extends[IEdmGetOpCallback::ReportFailure](EPDM.Interop.epdm~EPDM.Int
 ## See Also
 
 [IEdmGetOpCallback2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2.html)
-
 [IEdmGetOpCallback2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback2_members.html)
 
 ## Availability

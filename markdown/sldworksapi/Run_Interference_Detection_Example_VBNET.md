@@ -9,8 +9,7 @@ source: "sldworksapi/Run_Interference_Detection_Example_VBNET.htm"
 
 # Run Interference Detection Example (VB.NET)
 
-This example shows how to run interference detection and observe the
-interferences in an assembly.
+This example shows how to run interference detection and observe the interferences in an assembly.
 
 ```vb
  '---------------------------------------------------------------------------
@@ -69,96 +68,23 @@ interferences in an assembly.
  pIntMgr = swAssemblyDoc.InterferenceDetectionManager
 ```
 
-'Specify
-the interference detection settings and options
+'Specify the interference detection settings and options
+pIntMgr.**TreatCoincidenceAsInterference** = False
+pIntMgr.**TreatSubAssembliesAsComponents** = False
+**pIntMgr.IncludeMultibodyPartInterferences** = True
+**pIntMgr.MakeInterferingPartsTransparent** = True
+pIntMgr.**CreateFastenersFolder** = False
+pIntMgr.**IgnoreHiddenBodies** = False
+pIntMgr.**ShowIgnoredInterferences** = False
+pIntMgr.**UseTransform** = False
 
-pIntMgr.
+'Specify how to display non-interfering components
 
-TreatCoincidenceAsInterference
+pIntMgr.**NonInterferingComponentDisplay** = swNonInterferingComponentDisplay_e.swNonInterferingComponentDisplay_Wireframe
 
-=
-
-False
-
-pIntMgr.
-
-TreatSubAssembliesAsComponents
-
-=
-
-False
-
-pIntMgr.IncludeMultibodyPartInterferences
-
-=
-
-True
-
-pIntMgr.MakeInterferingPartsTransparent
-
-=
-
-True
-
-pIntMgr.
-
-CreateFastenersFolder
-
-=
-
-False
-
-pIntMgr.
-
-IgnoreHiddenBodies
-
-=
-
-False
-
-pIntMgr.
-
-ShowIgnoredInterferences
-
-=
-
-False
-
-pIntMgr.
-
-UseTransform
-
-=
-
-False
-
-'Specify
-how to display non-interfering components
-
-pIntMgr.
-
-NonInterferingComponentDisplay
-
-=
-swNonInterferingComponentDisplay_e.swNonInterferingComponentDisplay_Wireframe
-
-'Run
-interference detection
-
-vInts = pIntMgr.
-
-GetInterferences
-
-Debug.Print(
-
-"#
-of interferences: "
-
-& pIntMgr.
-
-GetInterferenceCount
-
-)
+'Run interference detection
+vInts = pIntMgr.**GetInterferences**
+Debug.Print("# of interferences: " & pIntMgr.**GetInterferenceCount**)
 
 ```vb
  'Get interfering components and transforms

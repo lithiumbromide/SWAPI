@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIn
 
 # GetBodiesCount Method (IIndentFeatureData)
 
-Gets the number of solid or surface
-
-[bodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
-for the
-
-[tool body region](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~ToolBodyRegion.html)
-
-.
+Gets the number of solid or surface [bodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html) for the [tool body region](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~ToolBodyRegion.html).
 
 ## Syntax
 
@@ -48,13 +40,7 @@ System.int GetBodiesCount()
 System.int GetBodiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -62,24 +48,17 @@ Number of solid or surface bodies for the tool body region
 
 ## VBA Syntax
 
-See
-
-[IndentFeatureData::GetBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~GetBodiesCount.html)
-
-.
+See [IndentFeatureData::GetBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~GetBodiesCount.html).
 
 ## Examples
 
 [Insert Indent Feature (C#)](Insert_Indent_Feature_Example_CSharp.htm)
-
 [Insert Indent Feature (VB.NET)](Insert_Indent_Feature_Example_VBNET.htm)
-
 [Insert Indent Feature (VBA)](Insert_Indent_Feature_Example_VB.htm)
 
 ## See Also
 
 [IIndentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData.html)
-
 [IIndentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData_members.html)
 
 ## Availability

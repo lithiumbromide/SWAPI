@@ -82,13 +82,7 @@ void InsertRib(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -105,26 +99,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertRib](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertRib.html)
-
-.
+See [FeatureManager::InsertRib](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertRib.html).
 
 ## Examples
 
 [Get Rib Feature Data (VBA)](Get_Rib_Feature_Data_Example_VB.htm)
-
 [Get Rib Feature Data (VB.NET)](Get_Rib_Feature_Data_Example_VBNET.htm)
-
 [Get Rib Feature Data (C#)](Get_Rib_Feature_Data_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IRibFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2.html)
 
 ## Availability

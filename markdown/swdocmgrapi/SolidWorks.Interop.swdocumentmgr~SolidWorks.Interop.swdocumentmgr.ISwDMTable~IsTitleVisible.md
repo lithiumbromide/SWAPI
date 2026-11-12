@@ -46,16 +46,11 @@ True if the table title is visible, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMTable::IsTitleVisible](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~IsTitleVisible.html)
-
-.
+See [SwDMTable::IsTitleVisible](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~IsTitleVisible.html).
 
 ## See Also
 
 [ISwDMTable Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable.html)
-
 [ISwDMTable Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Reorganize_Components_Example_VB.htm"
 
 # Reorganize Components Example (VBA)
 
-This example shows how to reorder components in an
-assembly.
+This example shows how to reorder components in an assembly.
 
 ```
 '----------------------------------------------------------------------------
@@ -152,7 +151,8 @@ End Sub
 
 [Back to top](#top)
 
-'Class1 Option Explicit
+'Class1
+Option Explicit
 
 ```
 Public WithEvents msrcAssemblyDoc   As SldWorks.AssemblyDoc

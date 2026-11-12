@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardControlType.html"
 
 # EdmCardControlType Enumeration
 
-File or folder data card control types; used in calls to
-
-[IEdmCardControl5::ControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5~ControlType.html)
-
-.
+File or folder data card control types; used in calls to [IEdmCardControl5::ControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5~ControlType.html).
 
 ## Syntax
 

@@ -11,13 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Accesses revision and bill of materials (BOM) tables.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -48,16 +42,11 @@ public interface class ISwDMTable6 : public ISwDMTable, ISwDMTable2, ISwDMTable3
 
 ## VBA Syntax
 
-See
-
-[SwDMTable6](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable6.html)
-
-.
+See [SwDMTable6](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable6.html).
 
 ## Examples
 
 [Get Revision Tables (VB.NET)](Get_Revision_Tables_Example_VBNET.htm)
-
 [Get Revision Tables (C#)](Get_Revision_Tables_Example_CSharp.htm)
 
 ## Accessors
@@ -67,15 +56,9 @@ See
 ## See Also
 
 [ISwDMTable6 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable6_members.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)
-
 [ISwDMTable Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable.html)
-
 [ISwDMTable2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2.html)
-
 [ISwDMTable3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable3.html)
-
 [ISwDMTable4 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable4.html)
-
 [ISwDMTable5 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable5.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Library_Feature_Data_Example_VB.htm"
 
 # Get Library Feature Data Example (VBA)
 
-This example shows how to get data about library features in model
-documents.
+This example shows how to get data about library features in model documents.
 
 ```
 '-------------------------------------------------------------

@@ -47,32 +47,19 @@ property System.String^ FixtureNameInSelectedExcitation {
 
 ### Property Value
 
-Fixture name (see
-
-Remarks
-
-)
+Fixture name (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWBaseExcitation::FixtureNameInSelectedExcitation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~FixtureNameInSelectedExcitation.html)
-
-.
+See [CWBaseExcitation::FixtureNameInSelectedExcitation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBaseExcitation~FixtureNameInSelectedExcitation.html).
 
 ## Remarks
 
-This method applies only to selected base excitations that are created using
-
-[ICWLoadsAndRestraintsManager::AddSelectedBaseExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraintsManager~AddSelectedBaseExcitation.html)
-
-.
+This method applies only to selected base excitations that are created using [ICWLoadsAndRestraintsManager::AddSelectedBaseExcitation](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraintsManager~AddSelectedBaseExcitation.html).
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
 
 ## Availability

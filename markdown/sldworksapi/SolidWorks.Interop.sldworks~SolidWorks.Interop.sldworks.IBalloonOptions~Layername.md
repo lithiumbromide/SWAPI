@@ -45,13 +45,7 @@ property System.String^ Layername {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Layer name
 
 ## VBA Syntax
 
-See
-
-[BalloonOptions::LayerName](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~LayerName.html)
-
-.
+See [BalloonOptions::LayerName](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~LayerName.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ See the SOLIDWORKS Help for additional details about balloons.
 ## See Also
 
 [IBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions.html)
-
 [IBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions_members.html)
 
 ## Availability

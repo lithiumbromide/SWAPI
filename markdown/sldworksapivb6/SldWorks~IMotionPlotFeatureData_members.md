@@ -1,6 +1,5 @@
 ---
-title: "IMotionPlotFeatureData Object
-Members"
+title: "IMotionPlotFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IMotionPlotFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IMotionPlotFeatureData_members.html"
 ---
 
-# IMotionPlotFeatureData Object
-Members
+# IMotionPlotFeatureData Object Members
 
 ## Public Methods
 

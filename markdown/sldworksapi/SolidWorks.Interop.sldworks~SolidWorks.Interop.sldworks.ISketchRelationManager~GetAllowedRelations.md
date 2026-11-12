@@ -47,13 +47,7 @@ System.Object^ GetAllowedRelations(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,24 +55,17 @@ See
 
 ### Return Value
 
-Array of sketch relation types valid for the specified entities as defined in[swConstraintType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstraintType_e.html)
+Array of sketch relation types valid for the specified entities as defined in [swConstraintType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstraintType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchRelationManager::GetAllowedRelations](ms-its:sldworksapivb6.chm::/sldworks~SketchRelationManager~GetAllowedRelations.html)
-
-.
+See [SketchRelationManager::GetAllowedRelations](ms-its:sldworksapivb6.chm::/sldworks~SketchRelationManager~GetAllowedRelations.html).
 
 ## See Also
 
 [ISketchRelationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager.html)
-
 [ISketchRelationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager_members.html)
-
 [ISketchManagerRelation::IGetAllowedRelations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager~IGetAllowedRelations.html)
-
 [ISketchManagerRelation::IGetAllowedRelationsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager~IGetAllowedRelationsCount.html)
 
 ## Availability

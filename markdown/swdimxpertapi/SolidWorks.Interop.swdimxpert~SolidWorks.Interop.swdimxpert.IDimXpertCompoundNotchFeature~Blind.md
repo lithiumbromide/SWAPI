@@ -48,16 +48,11 @@ True if blind; false if through all
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundNotchFeature::Blind](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~Blind.html)
-
-.
+See [DimXpertCompoundNotchFeature::Blind](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundNotchFeature~Blind.html).
 
 ## See Also
 
 [IDimXpertCompoundNotchFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature.html)
-
 [IDimXpertCompoundNotchFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundNotchFeature_members.html)
 
 ## Availability

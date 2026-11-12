@@ -51,45 +51,25 @@ System.bool SetSupportingFaces(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PFace1`: Pointer to the first
-
-[IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-object
-- `PFace2`: Pointer to the second
-
-[IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-object
+- `PFace1`: Pointer to the first [IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) object
+- `PFace2`: Pointer to the second [IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) object
 
 ### Return Value
 
-True if the supporting faces are set, false if notParamDesc
+True if the supporting faces are set, false if not
 
 ## VBA Syntax
 
-See
-
-[GussetFeatureData::SetSupportingFaces](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~SetSupportingFaces.html)
-
-.
+See [GussetFeatureData::SetSupportingFaces](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~SetSupportingFaces.html).
 
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [IGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData_members.html)
-
 [IGussetFeatureData::GetSupportingFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData~GetSupportingFaces.html)
 
 ## Availability

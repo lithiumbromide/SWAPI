@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBe
 
 # IBendTable Interface Properties
 
-For a list of all members of this type, see[IBendTable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable_members.html).
+For a list of all members of this type, see [IBendTable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable_members.html).
 
 ## Public Properties
 
@@ -23,11 +23,7 @@ For a list of all members of this type, see[IBendTable members](SolidWorks.Inter
 ## See Also
 
 [IBendTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertBendTableEdit Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertBendTableEdit.html)
-
 [IModelDoc2::InsertBendTableNew Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertBendTableNew.html)
-
 [IModelDoc2::InsertBendTableOpen Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertBendTableOpen.html)

@@ -1,6 +1,5 @@
 ---
-title: "DrawingComponent Object
-Members"
+title: "DrawingComponent Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DrawingComponent_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DrawingComponent_members.html"
 ---
 
-# DrawingComponent Object
-Members
+# DrawingComponent Object Members
 
 ## Public Methods
 

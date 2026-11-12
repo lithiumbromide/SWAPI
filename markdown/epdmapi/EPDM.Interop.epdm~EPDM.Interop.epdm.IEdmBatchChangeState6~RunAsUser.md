@@ -51,16 +51,11 @@ void RunAsUser(
 
 ## Examples
 
-See the
-
-[IEdmBatchChangeState6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6.html)
-
-examples.
+See the [IEdmBatchChangeState6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6.html) examples.
 
 ## See Also
 
 [IEdmBatchChangeState6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6.html)
-
 [IEdmBatchChangeState6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6_members.html)
 
 ## Availability

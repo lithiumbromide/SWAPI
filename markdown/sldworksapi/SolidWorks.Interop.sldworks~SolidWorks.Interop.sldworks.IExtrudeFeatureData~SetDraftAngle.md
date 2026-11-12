@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # SetDraftAngle Method (IExtrudeFeatureData)
 
-Obsolete. Superseded by
-
-[IExtrudeFeatureData2::SetDraftAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~SetDraftAngle.html)
-
-.
+Obsolete. Superseded by [IExtrudeFeatureData2::SetDraftAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~SetDraftAngle.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void SetDraftAngle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData::SetDraftAngle](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~SetDraftAngle.html)
-
-.
+See [ExtrudeFeatureData::SetDraftAngle](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~SetDraftAngle.html).
 
 ## See Also
 
 [IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html)
-
 [IExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.html)

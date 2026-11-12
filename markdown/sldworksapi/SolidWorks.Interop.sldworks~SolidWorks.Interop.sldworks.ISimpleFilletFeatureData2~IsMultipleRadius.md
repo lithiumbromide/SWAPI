@@ -45,13 +45,7 @@ property System.bool IsMultipleRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True if this symmetric fillet/chamfer feature has multiple radii, false if not
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::IsMultipleRadius](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~IsMultipleRadius.html)
-
-.
+See [SimpleFilletFeatureData2::IsMultipleRadius](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~IsMultipleRadius.html).
 
 ## Examples
 
-See
-
-[ISimpleFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
-examples.
+See [ISimpleFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2.html) examples.
 
 ## Remarks
 
@@ -80,17 +66,11 @@ This property is valid only for symmetric constant radius fillets and symmetric 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
-
 [ISimpleFilletFeatureData2::GetRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~GetRadius.html)
-
 [ISimpleFilletFeatureData2::IGetRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~IGetRadius.html)
-
 [ISimpleFilletFeatureData2::ISetRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~ISetRadius.html)
-
 [ISimpleFilletFeatureData2::SetRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~SetRadius.html)
-
 [ISimpleFilletFeatureData2::DefaultRadius Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~DefaultRadius.html)
 
 ## Availability

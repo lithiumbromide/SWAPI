@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # IParagraphs Interface Methods
 
-For a list of all members of this type, see[IParagraphs members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs_members.html).
+For a list of all members of this type, see [IParagraphs members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs_members.html).
 
 ## Public Methods
 
@@ -33,5 +33,4 @@ For a list of all members of this type, see[IParagraphs members](SolidWorks.Inte
 ## See Also
 
 [IParagraphs Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

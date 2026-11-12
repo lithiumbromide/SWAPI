@@ -52,16 +52,11 @@ void SetModeTrackingFlag2(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFrequencyConstraint::SetModeTrackingFlag2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~SetModeTrackingFlag2.html)
-
-.
+See [CWTopologyFrequencyConstraint::SetModeTrackingFlag2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~SetModeTrackingFlag2.html).
 
 ## See Also
 
 [ICWTopologyFrequencyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
 [ICWTopologyFrequencyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint_members.html)
 
 ## Availability

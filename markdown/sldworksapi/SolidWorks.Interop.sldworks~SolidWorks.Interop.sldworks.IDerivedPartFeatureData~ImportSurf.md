@@ -45,13 +45,7 @@ property System.bool ImportSurf {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to import its surface bodies, false to not
 
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::ImportSurf](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportSurf.html)
-
-.
+See [DerivedPartFeatureData::ImportSurf](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportSurf.html).
 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
 
 ## Availability

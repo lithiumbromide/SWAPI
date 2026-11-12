@@ -42,13 +42,7 @@ property System.bool HasTreatInterferenceAsShrinkFit {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ True if interference is treated as shrink/press fit, false if not
 
 ## VBA Syntax
 
-See
-
-[Mate2::HasTreatInterferenceAsShrinkFit](ms-its:sldworksapivb6.chm::/sldworks~Mate2~HasTreatInterferenceAsShrinkFit.html)
-
-.
+See [Mate2::HasTreatInterferenceAsShrinkFit](ms-its:sldworksapivb6.chm::/sldworks~Mate2~HasTreatInterferenceAsShrinkFit.html).
 
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
 
 ## Availability

@@ -49,7 +49,7 @@ Control ID; 0 if the variable isn't used by any control in this card
 
 If more than one control is connected to the same variable, there is no way of knowing for which control this method returns an ID.
 
-The returned ID can be passed to[IEdmCard5::GetControl](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5~GetControl.html)or[IEdmVault5::GetObject](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject.html)in order to obtain[IEdmCardControl5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5.html).
+The returned ID can be passed to [IEdmCard5::GetControl](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5~GetControl.html) or [IEdmVault5::GetObject](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject.html) in order to obtain [IEdmCardControl5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -59,7 +59,6 @@ The returned ID can be passed to[IEdmCard5::GetControl](EPDM.Interop.epdm~EPDM.I
 ## See Also
 
 [IEdmCard5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5.html)
-
 [IEdmCard5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard5_members.html)
 
 ## Availability

@@ -9,9 +9,7 @@ source: "sldworksapi/Insert_Cut_List_Item_Property_Note_Example_CSharp.htm"
 
 # Insert Cut List Item Property Note Example (C#)
 
-This example shows how to insert a note containing all of the cut list item
-properties into the
-selected flat pattern drawing view of a sheet metal part.
+This example shows how to insert a note containing all of the cut list item properties into the selected flat pattern drawing view of a sheet metal part.
 
 ```vb
  //----------------------------------------------------------------------------

@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # CreateContactSet Method (ICWContactManager)
 
-Obsolete. Superseded by
-
-[ICWContactManager::CreateContactSet2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~CreateContactSet2.html)
-
-.
+Obsolete. Superseded by [ICWContactManager::CreateContactSet2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~CreateContactSet2.html).
 
 ## Syntax
 
@@ -67,36 +63,12 @@ CWContactSet^ CreateContactSet(
 
 - `NContactSetType`: Type of contact set for
 
-- [static](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStaticStudyOptions.html)
-
-  and
-
-  [nonlinear](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-  studies as defined in
-
-  [swsContactSetTypeStaticNonLinear_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactSetTypeStaticNonLinear_e.html)
-- [thermal](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWThermalStudyOptions.html)
-
-  studies as defined in
-
-  [swsContactSetTypeThermal_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactSetTypeThermal_e.html)
-- [buckling](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBucklingStudyOptions.html)
-
-  and
-
-  [frequency](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-  studies as defined in
-
-  [swsContactType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactType_e.html)
-
-  , excluding swsContactTypeStaticNoPenetration
+  - [static](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStaticStudyOptions.html) and [nonlinear](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWNonLinearStudyOptions.html) studies as defined in [swsContactSetTypeStaticNonLinear_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactSetTypeStaticNonLinear_e.html)
+  - [thermal](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWThermalStudyOptions.html) studies as defined in [swsContactSetTypeThermal_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactSetTypeThermal_e.html)
+  - [buckling](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBucklingStudyOptions.html) and [frequency](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWFrequencyStudyOptions.html) studies as defined in [swsContactType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactType_e.html), excluding swsContactTypeStaticNoPenetration
 - `ArraySourceEntities`: Array of source entities
 - `ArrayTargetEntities`: Array of target faces
-- `ErrorCode`: Error code as defined in
-
-[swsContactSetError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactSetError_e.html)
+- `ErrorCode`: Error code as defined in [swsContactSetError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsContactSetError_e.html)
 
 ### Return Value
 
@@ -104,11 +76,7 @@ CWContactSet^ CreateContactSet(
 
 ## VBA Syntax
 
-See
-
-[CWContactManager::CreateContactSet](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~CreateContactSet.html)
-
-.
+See [CWContactManager::CreateContactSet](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~CreateContactSet.html).
 
 ## Remarks
 
@@ -117,9 +85,7 @@ Contact set definitions override global and component contact definitions. Compo
 ## See Also
 
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager_members.html)
-
 [ICWContactManager::DeleteContactSet Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~DeleteContactSet.html)
 
 ## Availability

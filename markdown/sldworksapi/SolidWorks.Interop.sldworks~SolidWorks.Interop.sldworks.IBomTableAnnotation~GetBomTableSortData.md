@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # GetBomTableSortData Method (IBomTableAnnotation)
 
-Gets an instance of
-
-[IBomTableSortData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableSortData.html)
-
-.
+Gets an instance of [IBomTableSortData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableSortData.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ BomTableSortData GetBomTableSortData()
 BomTableSortData^ GetBomTableSortData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::GetBomTableSortData](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetBomTableSortData.html)
-
-.
+See [BomTableAnnotation::GetBomTableSortData](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetBomTableSortData.html).
 
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
 
 ## Availability

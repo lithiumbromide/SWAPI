@@ -40,7 +40,6 @@ Number of seconds to wait until failing the task; 0 to wait forever
 ## See Also
 
 [IEdmTaskProperties Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties.html)
-
 [IEdmTaskProperties Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties_members.html)
 
 ## Availability

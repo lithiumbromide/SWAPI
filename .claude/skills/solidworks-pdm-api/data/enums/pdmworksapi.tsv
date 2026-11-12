@@ -1,0 +1,45 @@
+#swapi-enums 1 module=pdmworksapi sw=2026 prefix=PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks. cols=name,value,description
+@PDMWAndOr		Logical operators for subsequent search criteria
+pdmwAnd	1
+pdmwOr	0
+@PDMWChildrenType		Types of children documents
+AllChildren	2
+FirstLevelChildren	1
+NoChildren	0
+@PDMWConditionType		Search conditions
+pdmwContains	2
+pdmwDoesNotContain	3
+pdmwEqualTo	6
+pdmwGreaterThan	8
+pdmwGreaterThanOrEqualTo	10
+pdmwIsEmpty	4
+pdmwIsExactly	0
+pdmwIsNot	1
+pdmwIsNotEmpty	5
+pdmwLessThan	9
+pdmwLessThanOrEqualTo	11
+pdmwNotEqualTo	7
+@PDMWLinkType		Types of links
+DeletedLink	3
+ForwardLink	2
+NormalLink	1
+UnknownLink	0
+@PDMWPermission		Read and write permissions for projects
+None	0
+ReadOnly	1
+ReadWrite	2
+@PDMWPropertyType		Property types
+pdmwAllProperties	0
+pdmwConfigurationName	8
+pdmwDescription	4
+pdmwDisplayInfo	1
+pdmwDocumentName	2
+pdmwNumber	3
+pdmwOwner	6
+pdmwRevision	5
+pdmwStatus	7
+pdmwUserDefinedProperty	9
+@PDMWRevisionOptionType		Revision options
+Default	0
+Other	2
+ReadFromFile	1

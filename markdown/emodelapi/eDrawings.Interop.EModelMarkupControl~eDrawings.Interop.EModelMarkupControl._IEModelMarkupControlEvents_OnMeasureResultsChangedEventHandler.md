@@ -39,19 +39,11 @@ public delegate void _IEModelMarkupControlEvents_OnMeasureResultsChangedEventHan
 
 ## VBA Syntax
 
-See
-
-[OnMeasureResultsChanged Event (EModelMarkupControl)](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~OnMeasureResultsChanged_EV.html)
-
-.
+See [OnMeasureResultsChanged Event (EModelMarkupControl)](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~OnMeasureResultsChanged_EV.html).
 
 ## Remarks
 
-See also
-
-[IEModelMarkupControl::MeasureResultString](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~MeasureResultString.html)
-
-.
+See also [IEModelMarkupControl::MeasureResultString](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~MeasureResultString.html).
 
 ## Availability
 

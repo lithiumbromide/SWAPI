@@ -19,8 +19,7 @@ source: "sldworksapiprogguide/Overview/SelectionManagerCPPCLI.htm"
 
 using namespace System;
 
-// Add the SOLIDWORKS Primary interop assemblies to
-the references
+// Add the SOLIDWORKS Primary interop assemblies to the references
 
 using namespace SolidWorks::Interop::sldworks;
 
@@ -30,7 +29,7 @@ int main(array<System::String ^> ^args)
 
 {
 
-ISldWorks^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp;
+ISldWorks^ swApp;
 
 swApp = gcnew SldWorksClass;
 
@@ -44,7 +43,7 @@ swApp->UserControl = true;
 
 swApp->Visible = true;
 
-IModelDoc2^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel;
+IModelDoc2^ swModel;
 
 swModel = swApp->IActiveDoc2;
 
@@ -54,42 +53,37 @@ return(0);
 
 }
 
-String^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}strModelTitle;
+String^ strModelTitle;
 
-swDocumentTypes_ekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}nDocumentType;
+swDocumentTypes_e nDocumentType;
 
 strModelTitle = swModel->GetTitle();
 
 nDocumentType = (swDocumentTypes_e)swModel->GetType();
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+ISelectionMgr^ swSelectionManager;
 
-ISelectionMgr^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSelectionManager;
+swSelectType_e nSelectionType;
 
-swSelectType_ekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}nSelectionType;
+Object^ swSelectedObject;
 
-Object^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSelectedObject;
+IFace2^ swFace;
 
-IFace2^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swFace;
-
-IEdge^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swEdge;
+IEdge^ swEdge;
 
 swSelectionManager = swModel->ISelectionManager;
 
-for (int i = 1; i <= swSelectionManager->GetSelectedObjectCount2(-1);
-i++) {
+for (int i = 1; i <= swSelectionManager->GetSelectedObjectCount2(-1); i++) {
 
-swSelectedObject = swSelectionManager->GetSelectedObject6(i,
--1);
+swSelectedObject = swSelectionManager->GetSelectedObject6(i, -1);
 
-nSelectionType = (swSelectType_e)swSelectionManager->GetSelectedObjectType3(i,
--1);
+nSelectionType = (swSelectType_e)swSelectionManager->GetSelectedObjectType3(i, -1);
 
 switch (nSelectionType) {
 
 case swSelectType_e::swSelFACES:
 
-swFace =kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}(Face2^)swSelectedObject;
+swFace = (Face2^)swSelectedObject;
 
 break;
 

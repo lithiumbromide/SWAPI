@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnNumberboxChanged Method (IPropertyManagerPage2Handler5)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler6::OnNumberboxChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~OnNumberboxChanged.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler6::OnNumberboxChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~OnNumberboxChanged.html).
 
 ## Syntax
 
@@ -61,16 +57,11 @@ void OnNumberboxChanged(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler5::OnNumberboxChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~OnNumberboxChanged.html)
-
-.
+See [PropertyManagerPage2Handler5::OnNumberboxChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~OnNumberboxChanged.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler5 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5.html)
-
 [IPropertyManagerPage2Handler5 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5_members.html)
 
 ## Availability

@@ -48,16 +48,11 @@ True if blind; false if through all
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundClosedSlot3DFeature::Blind](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundClosedSlot3DFeature~Blind.html)
-
-.
+See [DimXpertCompoundClosedSlot3DFeature::Blind](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundClosedSlot3DFeature~Blind.html).
 
 ## See Also
 
 [IDimXpertCompoundClosedSlot3DFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature.html)
-
 [IDimXpertCompoundClosedSlot3DFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature_members.html)
 
 ## Availability

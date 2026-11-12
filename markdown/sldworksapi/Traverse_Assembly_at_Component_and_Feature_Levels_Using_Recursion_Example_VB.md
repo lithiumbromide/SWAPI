@@ -9,8 +9,7 @@ source: "sldworksapi/Traverse_Assembly_at_Component_and_Feature_Levels_Using_Rec
 
 # Traverse Assembly at Component and Feature Levels Using Recursion Example (VBA)
 
-This example shows how to traverse an assembly at the component and
-feature levels using recursion.
+This example shows how to traverse an assembly at the component and feature levels using recursion.
 
 ```vb
  '--------------------------------------------------------------------------

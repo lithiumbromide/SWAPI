@@ -40,33 +40,19 @@ System.object GetLeaderInfo()
 System.Object^ GetLeaderInfo();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::GetLeaderInfo](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~GetLeaderInfo.html)
-
-.
+See [DetailCircle::GetLeaderInfo](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~GetLeaderInfo.html).
 
 ## Remarks
 
-There can be 0, 1 or 2 lines in the leader line. If the GTol is not attached, there are 0 lines. Otherwise, leaders can use a straight leaderline (1 line) or a bent leaderline (2 lines). Your applications must infer the number of leader lines based on[IGtol::IsAttached](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~IsAttached.html)and[IGtol::HasExtraLeader](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~HasExtraLeader.html).
+There can be 0, 1 or 2 lines in the leader line. If the GTol is not attached, there are 0 lines. Otherwise, leaders can use a straight leaderline (1 line) or a bent leaderline (2 lines). Your applications must infer the number of leader lines based on [IGtol::IsAttached](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~IsAttached.html) and [IGtol::HasExtraLeader](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~HasExtraLeader.html).
 
 - IsAttached() == false implies no leaderline, therefore, no leaderline points (PointCount=0).
 - HasExtraLeader() == false means that this is a straight leaderline, therefore, 1 line (PointCount=2)
@@ -87,9 +73,7 @@ Format of return information is the following array of doubles:
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::IGetLeaderInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~IGetLeaderInfo.html)
 
 ## Availability

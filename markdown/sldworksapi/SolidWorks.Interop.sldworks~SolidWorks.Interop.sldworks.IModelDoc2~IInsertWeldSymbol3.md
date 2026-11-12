@@ -40,33 +40,21 @@ WeldSymbol IInsertWeldSymbol3()
 WeldSymbol^ IInsertWeldSymbol3();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Newly created
-
-[weld symbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol.html)
+Newly created [weld symbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IInsertWeldSymbol3](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IInsertWeldSymbol3.html)
-
-.
+See [ModelDoc2::IInsertWeldSymbol3](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IInsertWeldSymbol3.html).
 
 ## Remarks
 
-To use this method, insert the weld symbol into the model and then manipulate the properties and methods on the[IWeldSymbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol.html)object.
+To use this method, insert the weld symbol into the model and then manipulate the properties and methods on the [IWeldSymbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol.html) object.
 
-A list of weld symbol names can be found in**C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english\gtol.sym****.**The currently supported list of ISO weld symbols is:
+A list of weld symbol names can be found in **C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english\gtol.sym****.** The currently supported list of ISO weld symbols is:
 
 - BUTT
 - BUSQ
@@ -88,9 +76,7 @@ A list of weld symbol names can be found in**C:\ProgramData\SolidWorks\SolidWork
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertWeldSymbol3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertWeldSymbol3.html)
 
 ## Availability

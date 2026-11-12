@@ -42,17 +42,11 @@ System.int Init();
 
 ### Return Value
 
-Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis::Init](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~Init.html)
-
-.
+See [IThicknessAnalysis::Init](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~Init.html).
 
 ## Examples
 
@@ -65,7 +59,6 @@ You must use this method to exit a session of a thickness analysis in your appli
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
 
 ## Availability

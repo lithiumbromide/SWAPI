@@ -9,10 +9,9 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertPerpendicularityGeoTol Interface Members
 
-The following tables list the members exposed by[ISwDMDimXpertPerpendicularityGeoTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPerpendicularityGeoTol.html).
+The following tables list the members exposed by [ISwDMDimXpertPerpendicularityGeoTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPerpendicularityGeoTol.html).
 
 ## See Also
 
 [ISwDMDimXpertPerpendicularityGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPerpendicularityGeoTol.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

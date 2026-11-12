@@ -49,13 +49,7 @@ public delegate System.int DAssemblyDocEvents_ComponentConfigurationChangeNotify
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,23 +59,17 @@ See
 
 ## VBA Syntax
 
-See[ComponentConfigurationChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentConfigurationChangeNotify_EV.html).
+See [ComponentConfigurationChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentConfigurationChangeNotify_EV.html).
 
 ## Examples
 
 [Fire Notification When Changing Configuration of Reference Component (C#)](Fire_Notification_When_Changing_Configuration_of_Reference_Component_Example_CSharp.htm)
-
 [Fire Notification When Changing Configuration of Reference Component (VB.NET)](Fire_Notification_When_Changing_Configuration_of_Reference_Component__Example_VBNET.htm)
-
 [Fire Notification When Changing Configuration of Reference Component (VBA)](Fire_Notification_When_Changing_Configuration_of_Reference_Component_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyComponentConfigurationChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyComponentConfigurationChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

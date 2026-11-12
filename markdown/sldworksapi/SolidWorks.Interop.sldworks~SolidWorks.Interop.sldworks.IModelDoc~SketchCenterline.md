@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchCenterline Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SketchCenterline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchCenterline.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SketchCenterline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchCenterline.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void SketchCenterline()
 void SketchCenterline();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SketchCenterline](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchCenterline.html)
-
-.
+See [ModelDoc::SketchCenterline](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchCenterline.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

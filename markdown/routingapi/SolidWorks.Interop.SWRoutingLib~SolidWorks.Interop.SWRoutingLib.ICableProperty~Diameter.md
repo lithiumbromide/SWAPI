@@ -48,24 +48,15 @@ Diameter
 
 ## VBA Syntax
 
-See
-
-[CableProperty::Diameter](ms-its:routingapivb6.chm::/SWRoutingLib~CableProperty~Diameter.html)
-
-.
+See [CableProperty::Diameter](ms-its:routingapivb6.chm::/SWRoutingLib~CableProperty~Diameter.html).
 
 ## Examples
 
-See the
-
-[ICableProperty](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty.html)
-
-examples.
+See the [ICableProperty](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty.html) examples.
 
 ## See Also
 
 [ICableProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty.html)
-
 [ICableProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty_members.html)
 
 ## Availability

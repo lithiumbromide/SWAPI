@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 Allows access to a structure system member created along the intersection of two or more planes.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IPrimaryMemberRefPlaneFeatureData
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberRefPlaneFeatureData](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberRefPlaneFeatureData.html)
-
-.
+See [PrimaryMemberRefPlaneFeatureData](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberRefPlaneFeatureData.html).
 
 ## Examples
 
@@ -59,17 +55,17 @@ See
 '
 'Postconditions:
 ' 1. Creates five reference planes:
-' -**Plane1**parallel to**Right Plane**
-' -**Plane2**and**Plane3**parallel to and flanking**Top Plane**
-' -**Plane4**and**Plane5**parallel to and flanking**Front Plane**
+' - **Plane1** parallel to **Right Plane**
+' - **Plane2** and **Plane3** parallel to and flanking **Top Plane**
+' - **Plane4** and **Plane5** parallel to and flanking **Front Plane**
 ' 2. Configures the member profile.
-' 3. Selects the start/end reference planes that define the lengths of the members:**Plane1**and**Right Plane**.
-' 4. Selects the axis reference planes that define the direction of the members: Plane2 and**Plane3**.
-' 5. Selects the location reference planes that define the positions of the members:**Plane4**and**Plane5**.
-' 6. Creates a**Structure System1**with nine structure system reference plane members.
+' 3. Selects the start/end reference planes that define the lengths of the members: **Plane1** and **Right Plane**.
+' 4. Selects the axis reference planes that define the direction of the members: Plane2 and **Plane3**.
+' 5. Selects the location reference planes that define the positions of the members: **Plane4** and **Plane5**.
+' 6. Creates a **Structure System1** with nine structure system reference plane members.
 ' 7. Inspect the structure system in the graphics area.
 ' 8. Press F5 to edit the structure system.
-' 9. Gets**Member1**.
+' 9. Gets **Member1**.
 '10. Changes its extensions in directions 1 and 2.
 '11. Modifies the structure system.
 '12. Inspect the changes in the graphics area.
@@ -229,8 +225,8 @@ Set memTochange = MemberData
 Set feat = memTochange.**GetFeature**()
 
 'Change the extensions in directions 1 and 2 for Member1
-memTochange.**StartEndExtendD1**= 0.5
-memTochange.**StartEndExtendD2**= 0.2
+memTochange.**StartEndExtendD1** = 0.5
+memTochange.**StartEndExtendD2** = 0.2
 
 modDoc.ClearSelection2 True
 
@@ -244,28 +240,19 @@ End Sub
 ## Examples
 
 [Create Reference Plane Structure System Member (VB.NET)](Create_Ref_Plane_SSMember_Example_VBNET.htm)
-
 [Create Reference Plane Structure System Member (C#)](Create_Ref_Plane_SSMember_Example_CSharp.htm)
 
 ## Remarks
 
-The number of members created = ([IPrimaryMemberRefPlaneFeatureData::GetReferenceAxes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData~GetReferenceAxes.html)*[IPrimaryMemberRefPlaneFeatureData::GetReferenceLocations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData~GetReferenceLocations.html))
+The number of members created = ([IPrimaryMemberRefPlaneFeatureData::GetReferenceAxes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData~GetReferenceAxes.html) * [IPrimaryMemberRefPlaneFeatureData::GetReferenceLocations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData~GetReferenceLocations.html))
 
-See the[IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)Remarks.
+See the [IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html) Remarks.
 
-For more information, see the**SOLIDWORKS user-interface help > Weldments and Structure System > Structure System > PrimaryMember PropertyManager**topic.
+For more information, see the **SOLIDWORKS Design user-interface help > Weldments and Structure System > Structure System > PrimaryMember PropertyManager** topic.
 
 ## Accessors
 
-Cast
-
-[IPrimaryStructuralMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryStructuralMemberFeatureData.html)
-
-or
-
-[IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)
-
-to this interface.
+Cast [IPrimaryStructuralMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryStructuralMemberFeatureData.html) or [IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html) to this interface.
 
 ## Access Diagram
 
@@ -274,5 +261,4 @@ to this interface.
 ## See Also
 
 [IPrimaryMemberRefPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

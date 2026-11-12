@@ -51,21 +51,11 @@ TaskpaneView^ CreateTaskpaneView3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ImageList`: Array of strings of paths to six image files for the tab of this Task Pane view (see
-
-Remarks
-
-)
+- `ImageList`: Array of strings of paths to six image files for the tab of this Task Pane view (see **Remarks**)
 - `ToolTip`: Tool tip for this Task Pane view
 
 ### Return Value
@@ -74,18 +64,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[SldWorks::CreateTaskpaneView3](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CreateTaskpaneView3.html)
-
-.
+See [SldWorks::CreateTaskpaneView3](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CreateTaskpaneView3.html).
 
 ## Examples
 
 [Add Task Pane View (VBA)](Add_Task_Pane_View_Example_VB.htm)
-
 [Add Task Pane View (VB.NET)](Add_Task_Pane_View_Example_VBNET.htm)
-
 [Add Task Pane View (C#)](Add_Task_Pane_View_Example_CSharp.htm)
 
 ## Remarks
@@ -101,7 +85,7 @@ ImageList contains paths to PNG or BMP images in six pixel sizes:
 - 96 X 96
 - 128 X 128
 
-The SOLIDWORKS user interface displays icons in three sizes: small, medium and large. After using this method to specify an image in six sizes, SOLIDWORKS selects the appropriate images to display as required by the current screen resolution or operating system scale.
+The SOLIDWORKS Design user interface displays icons in three sizes: small, medium and large. After using this method to specify an image in six sizes, SOLIDWORKS selects the appropriate images to display as required by the current screen resolution or operating system scale.
 
 | If OS scale is... | Then SOLIDWORKS icon... | Uses image pixel size... |
 | --- | --- | --- |
@@ -123,15 +107,10 @@ The images should use a 256-color palette and gray (192, 192, 192) for transpare
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::ActivateTaskPane Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ActivateTaskPane.html)
-
 [ISldWorks::RefreshTaskpaneContent Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RefreshTaskpaneContent.html)
-
 [ISldWorks::TaskPaneIsPinned Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~TaskPaneIsPinned.html)
-
 [ISldWorks::GetImageSize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetImageSize.html)
 
 ## Availability

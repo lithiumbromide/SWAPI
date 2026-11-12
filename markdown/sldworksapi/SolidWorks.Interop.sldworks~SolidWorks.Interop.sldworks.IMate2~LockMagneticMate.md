@@ -45,13 +45,7 @@ property System.bool LockMagneticMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ True to lock, false to not
 
 ## VBA Syntax
 
-See
-
-[Mate2::LockMagneticMate](ms-its:sldworksapivb6.chm::/sldworks~Mate2~LockMagneticMate.html)
-
-.
+See [Mate2::LockMagneticMate](ms-its:sldworksapivb6.chm::/sldworks~Mate2~LockMagneticMate.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IMate2::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~Type.html)
-
-is set to
-
-[swMateType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateType_e.html)
-
-.swMateMAGNETIC.
+This property is valid only if [IMate2::Type](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~Type.html) is set to [swMateType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateType_e.html).swMateMAGNETIC.
 
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
 
 ## Availability

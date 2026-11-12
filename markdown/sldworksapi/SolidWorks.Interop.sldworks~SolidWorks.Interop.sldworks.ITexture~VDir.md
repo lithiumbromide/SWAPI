@@ -42,13 +42,7 @@ property System.double VDir {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,18 +50,12 @@ V value of the texture-based appearance
 
 ## VBA Syntax
 
-See
-
-[Texture::VDir](ms-its:sldworksapivb6.chm::/sldworks~Texture~VDir.html)
-
-.
+See [Texture::VDir](ms-its:sldworksapivb6.chm::/sldworks~Texture~VDir.html).
 
 ## See Also
 
 [ITexture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html)
-
 [ITexture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture_members.html)
-
 [ITexture::UDir Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture~UDir.html)
 
 ## Availability

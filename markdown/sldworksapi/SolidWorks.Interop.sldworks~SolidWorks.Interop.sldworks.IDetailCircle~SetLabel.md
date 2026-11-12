@@ -47,13 +47,7 @@ System.bool SetLabel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if label is set, false if not
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::SetLabel](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetLabel.html)
-
-.
+See [DetailCircle::SetLabel](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetLabel.html).
 
 ## Remarks
 
@@ -78,15 +68,10 @@ Setting the detail circle label also updates the detail view label.
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::GetLabel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~GetLabel.html)
-
 [IDrawingDoc::CreateDetailViewAt3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateDetailViewAt3.html)
-
 [IDrawingDoc::ICreateDetailViewAt3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ICreateDetailViewAt3.html)
-
 [IDetailCircle::SetLabelPosition Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~SetLabelPosition.html)
 
 ## Availability

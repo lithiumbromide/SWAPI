@@ -9,9 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # GetTimeHistoryDeadLoadOptions Method (ICWDynamicStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWDynamicStudyOptions::GetTimeHistoryDeadLoadOptions2 .](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetTimeHistoryDeadLoadOptions2.html)
+Obsolete. Superseded by [ICWDynamicStudyOptions::GetTimeHistoryDeadLoadOptions2.](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetTimeHistoryDeadLoadOptions2.html)
 
 ## Syntax
 
@@ -64,18 +62,12 @@ void GetTimeHistoryDeadLoadOptions(
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::GetTimeHistoryDeadLoadOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetTimeHistoryDeadLoadOptions.html)
-
-.
+See [CWDynamicStudyOptions::GetTimeHistoryDeadLoadOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetTimeHistoryDeadLoadOptions.html).
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::SetTimeHistoryDeadLoadOptions Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetTimeHistoryDeadLoadOptions.html)
 
 ## Availability

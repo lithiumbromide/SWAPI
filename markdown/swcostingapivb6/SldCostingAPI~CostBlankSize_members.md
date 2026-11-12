@@ -1,6 +1,5 @@
 ---
-title: "CostBlankSize Object
-Members"
+title: "CostBlankSize Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "CostBlankSize_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~CostBlankSize_members.html"
 ---
 
-# CostBlankSize Object
-Members
+# CostBlankSize Object Members
 
 ## Public Properties
 

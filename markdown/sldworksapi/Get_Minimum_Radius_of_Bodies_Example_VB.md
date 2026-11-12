@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Minimum_Radius_of_Bodies_Example_VB.htm"
 
 # Get Minimum Radius of Bodies Example (VBA)
 
-This example shows how to get the minimum radius of each body in a multibody
-part.
+This example shows how to get the minimum radius of each body in a multibody part.
 
 ```
 '----------------------------------------------------

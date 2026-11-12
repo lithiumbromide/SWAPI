@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10.html"
 
 Allows you to access a user in SOLIDWORKS PDM Professional.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,19 +37,13 @@ public interface class IEdmUser10 : public IEdmObject5, IEdmUser5, IEdmUser6, IE
 ## Examples
 
 [Find Users (VB.NET)](Find_Users_Example_VBNET.htm)
-
 [Find Users (C#)](Find_Users_Example_CSharp.htm)
 
 ## Remarks
 
-This interface inherits from
-
-[IEdmUser9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser9.html)
-
-.
+This interface inherits from [IEdmUser9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser9.html).
 
 ## See Also
 
 [IEdmUser10 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

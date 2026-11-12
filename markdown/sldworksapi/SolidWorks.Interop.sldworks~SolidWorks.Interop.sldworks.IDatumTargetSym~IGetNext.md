@@ -40,40 +40,23 @@ DatumTargetSym IGetNext()
 DatumTargetSym^ IGetNext();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the next[datum target symbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym.html)
+Pointer to the next [datum target symbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym.html)
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::IGetNext](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~IGetNext.html)
-
-.
+See [DatumTargetSym::IGetNext](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~IGetNext.html).
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::GetNext Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetNext.html)
-
 [IAnnotation::GetSpecificAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetSpecificAnnotation.html)
-
 [IAnnotation::IGetSpecificAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~IGetSpecificAnnotation.html)
-
 [IModelDocExtension::InsertDatumTargetSymbol2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertDatumTargetSymbol2.html)
-
 [IView::GetFirstDatumTargetSym Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstDatumTargetSym.html)
-
 [IView::IGetFirstDatumTargetSym Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetFirstDatumTargetSym.html)

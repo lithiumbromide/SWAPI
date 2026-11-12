@@ -1,6 +1,5 @@
 ---
-title: "SaveTo3DExperienceOptions Object
-Members"
+title: "SaveTo3DExperienceOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SaveTo3DExperienceOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SaveTo3DExperienceOptions_members.html"
 ---
 
-# SaveTo3DExperienceOptions Object
-Members
+# SaveTo3DExperienceOptions Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "IMotionPlotAxisFeatureData Object
-Members"
+title: "IMotionPlotAxisFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IMotionPlotAxisFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IMotionPlotAxisFeatureData_members.html"
 ---
 
-# IMotionPlotAxisFeatureData Object
-Members
+# IMotionPlotAxisFeatureData Object Members
 
 ## Public Properties
 

@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Explode_Line_Sketch_and_Jog_Line_Example_VB.htm"
 
 # Insert Explode Line Sketch and Jog Line Example (VBA)
 
-This example shows how to insert a jog line in an explode line sketch,
-a type of 3D sketch.
+This example shows how to insert a jog line in an explode line sketch, a type of 3D sketch.
 
 ```
 '--------------------------------------------------------------------------

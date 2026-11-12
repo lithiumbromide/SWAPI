@@ -45,13 +45,7 @@ property System.double ArcRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Maximum arc radius
 
 ## VBA Syntax
 
-See
-
-[RevisionCloud::ArcRadius](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~ArcRadius.html)
-
-.
+See [RevisionCloud::ArcRadius](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~ArcRadius.html).
 
 ## Examples
 
-See
-
-[IRevisionCloud](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionCloud.html)
-
-examples.
+See [IRevisionCloud](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionCloud.html) examples.
 
 ## See Also
 
 [IRevisionCloud Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud.html)
-
 [IRevisionCloud Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud_members.html)
 
 ## Availability

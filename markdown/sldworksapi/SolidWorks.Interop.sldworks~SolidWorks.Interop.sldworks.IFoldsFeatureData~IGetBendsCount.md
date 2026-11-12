@@ -40,13 +40,7 @@ System.int IGetBendsCount()
 System.int IGetBendsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Number of bend features in this fold feature
 
 ## VBA Syntax
 
-See
-
-[FoldsFeatureData::IGetBendsCount](ms-its:sldworksapivb6.chm::/sldworks~FoldsFeatureData~IGetBendsCount.html)
-
-.
+See [FoldsFeatureData::IGetBendsCount](ms-its:sldworksapivb6.chm::/sldworks~FoldsFeatureData~IGetBendsCount.html).
 
 ## See Also
 
 [IFoldsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData.html)
-
 [IFoldsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData_members.html)
-
 [IFoldsFeatureData::IGetBends Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData~IGetBends.html)
-
 [IFoldsFeatureData::ISetBends Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData~ISetBends.html)
-
 [IFoldsFeatureData::Bends Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData~Bends.html)
 
 ## Availability

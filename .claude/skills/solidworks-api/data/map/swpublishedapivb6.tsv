@@ -1,0 +1,348 @@
+#swapi-map 1 module=swpublishedapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@MessageBarHandler	o
+OnUserClose	m	Function OnUserClose() As HResult
+OnUserResponseA	m	Function OnUserResponseA(ByVal DoNotShowAgain As Boolean) As HResult
+OnUserResponseB	m	Function OnUserResponseB(ByVal DoNotShowAgain As Boolean) As HResult
+@PropertyManagerPage2Handler	o
+AfterClose	m	Function AfterClose() As HResult
+OnButtonPress	m	Function OnButtonPress(ByVal Id As Long) As HResult
+OnCheckboxCheck	m	Function OnCheckboxCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnClose	m	Function OnClose(ByVal Reason As Long) As HResult
+OnComboboxSelectionChanged	m	Function OnComboboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnGroupCheck	m	Function OnGroupCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnGroupExpand	m	Function OnGroupExpand(ByVal Id As Long, ByVal Expanded As Boolean) As HResult
+OnHelp	m	Function OnHelp() As Boolean
+OnListboxSelectionChanged	m	Function OnListboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnNumberboxChanged	m	Function OnNumberboxChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnOptionCheck	m	Function OnOptionCheck(ByVal Id As Long) As HResult
+OnSelectionboxFocusChanged	m	Function OnSelectionboxFocusChanged(ByVal Id As Long) As HResult
+OnSelectionboxListChanged	m	Function OnSelectionboxListChanged(ByVal Id As Long, ByVal Count As Long) As HResult
+OnTextboxChanged	m	Function OnTextboxChanged(ByVal Id As Long, ByVal Text As String) As HResult
+@PropertyManagerPage2Handler2	o
+AfterClose	m	Function AfterClose() As HResult
+OnActiveXControlCreated	m	Function OnActiveXControlCreated(ByVal Id As Long, ByVal Status As Boolean) As Long
+OnButtonPress	m	Function OnButtonPress(ByVal Id As Long) As HResult
+OnCheckboxCheck	m	Function OnCheckboxCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnClose	m	Function OnClose(ByVal Reason As Long) As HResult
+OnComboboxEditChanged	m	Function OnComboboxEditChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnComboboxSelectionChanged	m	Function OnComboboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnGroupCheck	m	Function OnGroupCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnGroupExpand	m	Function OnGroupExpand(ByVal Id As Long, ByVal Expanded As Boolean) As HResult
+OnHelp	m	Function OnHelp() As Boolean
+OnListboxSelectionChanged	m	Function OnListboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnNextPage	m	Function OnNextPage() As Boolean
+OnNumberboxChanged	m	Function OnNumberboxChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnOptionCheck	m	Function OnOptionCheck(ByVal Id As Long) As HResult
+OnPreviousPage	m	Function OnPreviousPage() As Boolean
+OnSelectionboxCalloutCreated	m	Function OnSelectionboxCalloutCreated(ByVal Id As Long) As HResult
+OnSelectionboxCalloutDestroyed	m	Function OnSelectionboxCalloutDestroyed(ByVal Id As Long) As HResult
+OnSelectionboxFocusChanged	m	Function OnSelectionboxFocusChanged(ByVal Id As Long) As HResult
+OnSelectionboxListChanged	m	Function OnSelectionboxListChanged(ByVal Id As Long, ByVal Count As Long) As HResult
+OnTextboxChanged	m	Function OnTextboxChanged(ByVal Id As Long, ByVal Text As String) As HResult
+@PropertyManagerPage2Handler3	o
+AfterClose	m	Function AfterClose() As HResult
+OnActiveXControlCreated	m	Function OnActiveXControlCreated(ByVal Id As Long, ByVal Status As Boolean) As Long
+OnButtonPress	m	Function OnButtonPress(ByVal Id As Long) As HResult
+OnCheckboxCheck	m	Function OnCheckboxCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnClose	m	Function OnClose(ByVal Reason As Long) As HResult
+OnComboboxEditChanged	m	Function OnComboboxEditChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnComboboxSelectionChanged	m	Function OnComboboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnGroupCheck	m	Function OnGroupCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnGroupExpand	m	Function OnGroupExpand(ByVal Id As Long, ByVal Expanded As Boolean) As HResult
+OnHelp	m	Function OnHelp() As Boolean
+OnListboxSelectionChanged	m	Function OnListboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnNextPage	m	Function OnNextPage() As Boolean
+OnNumberboxChanged	m	Function OnNumberboxChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnOptionCheck	m	Function OnOptionCheck(ByVal Id As Long) As HResult
+OnPreview	m	Function OnPreview() As Boolean
+OnPreviousPage	m	Function OnPreviousPage() As Boolean
+OnSelectionboxCalloutCreated	m	Function OnSelectionboxCalloutCreated(ByVal Id As Long) As HResult
+OnSelectionboxCalloutDestroyed	m	Function OnSelectionboxCalloutDestroyed(ByVal Id As Long) As HResult
+OnSelectionboxFocusChanged	m	Function OnSelectionboxFocusChanged(ByVal Id As Long) As HResult
+OnSelectionboxListChanged	m	Function OnSelectionboxListChanged(ByVal Id As Long, ByVal Count As Long) As HResult
+OnSliderPositionChanged	m	Function OnSliderPositionChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSubmitSelection	m	Function OnSubmitSelection(ByVal Id As Long, ByVal Selection As Object, ByVal SelType As Long) As Boolean
+OnTabClicked	m	Function OnTabClicked(ByVal Id As Long) As Boolean
+OnTextboxChanged	m	Function OnTextboxChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnWhatsNew	m	Function OnWhatsNew() As HResult
+@PropertyManagerPage2Handler4	o
+AfterClose	m	Function AfterClose() As HResult
+OnActiveXControlCreated	m	Function OnActiveXControlCreated(ByVal Id As Long, ByVal Status As Boolean) As Long
+OnButtonPress	m	Function OnButtonPress(ByVal Id As Long) As HResult
+OnCheckboxCheck	m	Function OnCheckboxCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnClose	m	Function OnClose(ByVal Reason As Long) As HResult
+OnComboboxEditChanged	m	Function OnComboboxEditChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnComboboxSelectionChanged	m	Function OnComboboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnGroupCheck	m	Function OnGroupCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnGroupExpand	m	Function OnGroupExpand(ByVal Id As Long, ByVal Expanded As Boolean) As HResult
+OnHelp	m	Function OnHelp() As Boolean
+OnKeystroke	m	Function OnKeystroke(ByVal Wparam As Long, ByVal Message As Long, ByVal Lparam As Long, ByVal Id As Long) As HResult
+OnListboxSelectionChanged	m	Function OnListboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnNextPage	m	Function OnNextPage() As Boolean
+OnNumberboxChanged	m	Function OnNumberboxChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnOptionCheck	m	Function OnOptionCheck(ByVal Id As Long) As HResult
+OnPopupMenuItem	m	Function OnPopupMenuItem(ByVal Id As Long) As HResult
+OnPopupMenuItemUpdate	m	Function OnPopupMenuItemUpdate(ByVal Id As Long, ByRef retval As Long) As HResult
+OnPreview	m	Function OnPreview() As Boolean
+OnPreviousPage	m	Function OnPreviousPage() As Boolean
+OnSelectionboxCalloutCreated	m	Function OnSelectionboxCalloutCreated(ByVal Id As Long) As HResult
+OnSelectionboxCalloutDestroyed	m	Function OnSelectionboxCalloutDestroyed(ByVal Id As Long) As HResult
+OnSelectionboxFocusChanged	m	Function OnSelectionboxFocusChanged(ByVal Id As Long) As HResult
+OnSelectionboxListChanged	m	Function OnSelectionboxListChanged(ByVal Id As Long, ByVal Count As Long) As HResult
+OnSliderPositionChanged	m	Function OnSliderPositionChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSliderTrackingCompleted	m	Function OnSliderTrackingCompleted(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSubmitSelection	m	Function OnSubmitSelection(ByVal Id As Long, ByVal Selection As Object, ByVal SelType As Long) As Boolean
+OnTabClicked	m	Function OnTabClicked(ByVal Id As Long) As Boolean
+OnTextboxChanged	m	Function OnTextboxChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnUndo	m	Function OnUndo() As HResult
+OnWhatsNew	m	Function OnWhatsNew() As HResult
+@PropertyManagerPage2Handler5	o
+AfterActivation	m	Function AfterActivation() As HResult
+AfterClose	m	Function AfterClose() As HResult
+OnActiveXControlCreated	m	Function OnActiveXControlCreated(ByVal Id As Long, ByVal Status As Boolean) As Long:swHandleActiveXCreationFailure_e
+OnButtonPress	m	Function OnButtonPress(ByVal Id As Long) As HResult
+OnCheckboxCheck	m	Function OnCheckboxCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnClose	m	Function OnClose(ByVal Reason As Long:swPropertyManagerPageCloseReasons_e) As HResult
+OnComboboxEditChanged	m	Function OnComboboxEditChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnComboboxSelectionChanged	m	Function OnComboboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnGroupCheck	m	Function OnGroupCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnGroupExpand	m	Function OnGroupExpand(ByVal Id As Long, ByVal Expanded As Boolean) As HResult
+OnHelp	m	Function OnHelp() As Boolean
+OnKeystroke	m	Function OnKeystroke(ByVal Wparam As Long, ByVal Message As Long, ByVal Lparam As Long, ByVal Id As Long) As Boolean
+OnListboxSelectionChanged	m	Function OnListboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnNextPage	m	Function OnNextPage() As Boolean
+OnNumberboxChanged	m	Function OnNumberboxChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnOptionCheck	m	Function OnOptionCheck(ByVal Id As Long) As HResult
+OnPopupMenuItem	m	Function OnPopupMenuItem(ByVal Id As Long) As HResult
+OnPopupMenuItemUpdate	m	Function OnPopupMenuItemUpdate(ByVal Id As Long, ByRef retval As Long) As HResult
+OnPreview	m	Function OnPreview() As Boolean
+OnPreviousPage	m	Function OnPreviousPage() As Boolean
+OnSelectionboxCalloutCreated	m	Function OnSelectionboxCalloutCreated(ByVal Id As Long) As HResult
+OnSelectionboxCalloutDestroyed	m	Function OnSelectionboxCalloutDestroyed(ByVal Id As Long) As HResult
+OnSelectionboxFocusChanged	m	Function OnSelectionboxFocusChanged(ByVal Id As Long) As HResult
+OnSelectionboxListChanged	m	Function OnSelectionboxListChanged(ByVal Id As Long, ByVal Count As Long) As HResult
+OnSliderPositionChanged	m	Function OnSliderPositionChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSliderTrackingCompleted	m	Function OnSliderTrackingCompleted(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSubmitSelection	m	Function OnSubmitSelection(ByVal Id As Long, ByVal Selection As Object, ByVal SelType As Long:swSelectType_e, ByRef ItemText As String) As Boolean
+OnTabClicked	m	Function OnTabClicked(ByVal Id As Long) As Boolean
+OnTextboxChanged	m	Function OnTextboxChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnUndo	m	Function OnUndo() As HResult
+OnWhatsNew	m	Function OnWhatsNew() As HResult
+@PropertyManagerPage2Handler6	o
+AfterActivation	m	Function AfterActivation() As HResult
+AfterClose	m	Function AfterClose() As HResult
+OnActiveXControlCreated	m	Function OnActiveXControlCreated(ByVal Id As Long, ByVal Status As Boolean) As Long:swHandleActiveXCreationFailure_e
+OnButtonPress	m	Function OnButtonPress(ByVal Id As Long) As HResult
+OnCheckboxCheck	m	Function OnCheckboxCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnClose	m	Function OnClose(ByVal Reason As Long:swPropertyManagerPageCloseReasons_e) As HResult
+OnComboboxEditChanged	m	Function OnComboboxEditChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnComboboxSelectionChanged	m	Function OnComboboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnGroupCheck	m	Function OnGroupCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnGroupExpand	m	Function OnGroupExpand(ByVal Id As Long, ByVal Expanded As Boolean) As HResult
+OnHelp	m	Function OnHelp() As Boolean
+OnKeystroke	m	Function OnKeystroke(ByVal Wparam As Long, ByVal Message As Long, ByVal Lparam As Long, ByVal Id As Long) As Boolean
+OnListboxSelectionChanged	m	Function OnListboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnNextPage	m	Function OnNextPage() As Boolean
+OnNumberboxChanged	m	Function OnNumberboxChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnOptionCheck	m	Function OnOptionCheck(ByVal Id As Long) As HResult
+OnPopupMenuItem	m	Function OnPopupMenuItem(ByVal Id As Long) As HResult
+OnPopupMenuItemUpdate	m	Function OnPopupMenuItemUpdate(ByVal Id As Long, ByRef retval As Long) As HResult
+OnPreview	m	Function OnPreview() As Boolean
+OnPreviousPage	m	Function OnPreviousPage() As Boolean
+OnRedo	m	Function OnRedo() As HResult
+OnSelectionboxCalloutCreated	m	Function OnSelectionboxCalloutCreated(ByVal Id As Long) As HResult
+OnSelectionboxCalloutDestroyed	m	Function OnSelectionboxCalloutDestroyed(ByVal Id As Long) As HResult
+OnSelectionboxFocusChanged	m	Function OnSelectionboxFocusChanged(ByVal Id As Long) As HResult
+OnSelectionboxListChanged	m	Function OnSelectionboxListChanged(ByVal Id As Long, ByVal Count As Long) As HResult
+OnSliderPositionChanged	m	Function OnSliderPositionChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSliderTrackingCompleted	m	Function OnSliderTrackingCompleted(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSubmitSelection	m	Function OnSubmitSelection(ByVal Id As Long, ByVal Selection As Object, ByVal SelType As Long:swSelectType_e, ByRef ItemText As String) As Boolean
+OnTabClicked	m	Function OnTabClicked(ByVal Id As Long) As Boolean
+OnTextboxChanged	m	Function OnTextboxChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnUndo	m	Function OnUndo() As HResult
+OnWhatsNew	m	Function OnWhatsNew() As HResult
+@PropertyManagerPage2Handler7	o
+AfterActivation	m	Function AfterActivation() As HResult
+AfterClose	m	Function AfterClose() As HResult
+OnActiveXControlCreated	m	Function OnActiveXControlCreated(ByVal Id As Long, ByVal Status As Boolean) As Long:swHandleActiveXCreationFailure_e
+OnButtonPress	m	Function OnButtonPress(ByVal Id As Long) As HResult
+OnCheckboxCheck	m	Function OnCheckboxCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnClose	m	Function OnClose(ByVal Reason As Long:swPropertyManagerPageCloseReasons_e) As HResult
+OnComboboxEditChanged	m	Function OnComboboxEditChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnComboboxSelectionChanged	m	Function OnComboboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnGainedFocus	m	Function OnGainedFocus(ByVal Id As Long) As HResult
+OnGroupCheck	m	Function OnGroupCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnGroupExpand	m	Function OnGroupExpand(ByVal Id As Long, ByVal Expanded As Boolean) As HResult
+OnHelp	m	Function OnHelp() As Boolean
+OnKeystroke	m	Function OnKeystroke(ByVal Wparam As Long, ByVal Message As Long, ByVal Lparam As Long, ByVal Id As Long) As Boolean
+OnListboxSelectionChanged	m	Function OnListboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnLostFocus	m	Function OnLostFocus(ByVal Id As Long) As HResult
+OnNextPage	m	Function OnNextPage() As Boolean
+OnNumberboxChanged	m	Function OnNumberboxChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnOptionCheck	m	Function OnOptionCheck(ByVal Id As Long) As HResult
+OnPopupMenuItem	m	Function OnPopupMenuItem(ByVal Id As Long) As HResult
+OnPopupMenuItemUpdate	m	Function OnPopupMenuItemUpdate(ByVal Id As Long, ByRef retval As Long) As HResult
+OnPreview	m	Function OnPreview() As Boolean
+OnPreviousPage	m	Function OnPreviousPage() As Boolean
+OnRedo	m	Function OnRedo() As HResult
+OnSelectionboxCalloutCreated	m	Function OnSelectionboxCalloutCreated(ByVal Id As Long) As HResult
+OnSelectionboxCalloutDestroyed	m	Function OnSelectionboxCalloutDestroyed(ByVal Id As Long) As HResult
+OnSelectionboxFocusChanged	m	Function OnSelectionboxFocusChanged(ByVal Id As Long) As HResult
+OnSelectionboxListChanged	m	Function OnSelectionboxListChanged(ByVal Id As Long, ByVal Count As Long) As HResult
+OnSliderPositionChanged	m	Function OnSliderPositionChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSliderTrackingCompleted	m	Function OnSliderTrackingCompleted(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSubmitSelection	m	Function OnSubmitSelection(ByVal Id As Long, ByVal Selection As Object, ByVal SelType As Long:swSelectType_e, ByRef ItemText As String) As Boolean
+OnTabClicked	m	Function OnTabClicked(ByVal Id As Long) As Boolean
+OnTextboxChanged	m	Function OnTextboxChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnUndo	m	Function OnUndo() As HResult
+OnWhatsNew	m	Function OnWhatsNew() As HResult
+@PropertyManagerPage2Handler8	o
+AfterActivation	m	Function AfterActivation() As HResult
+AfterClose	m	Function AfterClose() As HResult
+OnActiveXControlCreated	m	Function OnActiveXControlCreated(ByVal Id As Long, ByVal Status As Boolean) As Long:swHandleActiveXCreationFailure_e
+OnButtonPress	m	Function OnButtonPress(ByVal Id As Long) As HResult
+OnCheckboxCheck	m	Function OnCheckboxCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnClose	m	Function OnClose(ByVal Reason As Long:swPropertyManagerPageCloseReasons_e) As HResult
+OnComboboxEditChanged	m	Function OnComboboxEditChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnComboboxSelectionChanged	m	Function OnComboboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnGainedFocus	m	Function OnGainedFocus(ByVal Id As Long) As HResult
+OnGroupCheck	m	Function OnGroupCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnGroupExpand	m	Function OnGroupExpand(ByVal Id As Long, ByVal Expanded As Boolean) As HResult
+OnHelp	m	Function OnHelp() As Boolean
+OnKeystroke	m	Function OnKeystroke(ByVal Wparam As Long, ByVal Message As Long, ByVal Lparam As Long, ByVal Id As Long) As Boolean
+OnListboxRMBUp	m	Function OnListboxRMBUp(ByVal Id As Long, ByVal PosX As Long, ByVal PosY As Long) As HResult
+OnListboxSelectionChanged	m	Function OnListboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnLostFocus	m	Function OnLostFocus(ByVal Id As Long) As HResult
+OnNextPage	m	Function OnNextPage() As Boolean
+OnNumberboxChanged	m	Function OnNumberboxChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnOptionCheck	m	Function OnOptionCheck(ByVal Id As Long) As HResult
+OnPopupMenuItem	m	Function OnPopupMenuItem(ByVal Id As Long) As HResult
+OnPopupMenuItemUpdate	m	Function OnPopupMenuItemUpdate(ByVal Id As Long, ByRef retval As Long) As HResult
+OnPreview	m	Function OnPreview() As Boolean
+OnPreviousPage	m	Function OnPreviousPage() As Boolean
+OnRedo	m	Function OnRedo() As HResult
+OnSelectionboxCalloutCreated	m	Function OnSelectionboxCalloutCreated(ByVal Id As Long) As HResult
+OnSelectionboxCalloutDestroyed	m	Function OnSelectionboxCalloutDestroyed(ByVal Id As Long) As HResult
+OnSelectionboxFocusChanged	m	Function OnSelectionboxFocusChanged(ByVal Id As Long) As HResult
+OnSelectionboxListChanged	m	Function OnSelectionboxListChanged(ByVal Id As Long, ByVal Count As Long) As HResult
+OnSliderPositionChanged	m	Function OnSliderPositionChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSliderTrackingCompleted	m	Function OnSliderTrackingCompleted(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSubmitSelection	m	Function OnSubmitSelection(ByVal Id As Long, ByVal Selection As Object, ByVal SelType As Long:swSelectType_e, ByRef ItemText As String) As Boolean
+OnTabClicked	m	Function OnTabClicked(ByVal Id As Long) As Boolean
+OnTextboxChanged	m	Function OnTextboxChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnUndo	m	Function OnUndo() As HResult
+OnWhatsNew	m	Function OnWhatsNew() As HResult
+OnWindowFromHandleControlCreated	m	Function OnWindowFromHandleControlCreated(ByVal Id As Long, ByVal Status As Boolean) As Long:swHandleWindowFromHandleCreationFailure_e
+@PropertyManagerPage2Handler9	o
+AfterActivation	m	Function AfterActivation() As HResult
+AfterClose	m	Function AfterClose() As HResult
+OnActiveXControlCreated	m	Function OnActiveXControlCreated(ByVal Id As Long, ByVal Status As Boolean) As Long:swHandleActiveXCreationFailure_e
+OnButtonPress	m	Function OnButtonPress(ByVal Id As Long) As HResult
+OnCheckboxCheck	m	Function OnCheckboxCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnClose	m	Function OnClose(ByVal Reason As Long:swPropertyManagerPageCloseReasons_e) As HResult
+OnComboboxEditChanged	m	Function OnComboboxEditChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnComboboxSelectionChanged	m	Function OnComboboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnGainedFocus	m	Function OnGainedFocus(ByVal Id As Long) As HResult
+OnGroupCheck	m	Function OnGroupCheck(ByVal Id As Long, ByVal Checked As Boolean) As HResult
+OnGroupExpand	m	Function OnGroupExpand(ByVal Id As Long, ByVal Expanded As Boolean) As HResult
+OnHelp	m	Function OnHelp() As Boolean
+OnKeystroke	m	Function OnKeystroke(ByVal Wparam As Long, ByVal Message As Long, ByVal Lparam As Long, ByVal Id As Long) As Boolean
+OnListboxRMBUp	m	Function OnListboxRMBUp(ByVal Id As Long, ByVal PosX As Long, ByVal PosY As Long) As HResult
+OnListboxSelectionChanged	m	Function OnListboxSelectionChanged(ByVal Id As Long, ByVal Item As Long) As HResult
+OnLostFocus	m	Function OnLostFocus(ByVal Id As Long) As HResult
+OnNextPage	m	Function OnNextPage() As Boolean
+OnNumberboxChanged	m	Function OnNumberboxChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnNumberBoxTrackingCompleted	m	Function OnNumberBoxTrackingCompleted(ByVal Id As Long, ByVal Value As Double) As HResult
+OnOptionCheck	m	Function OnOptionCheck(ByVal Id As Long) As HResult
+OnPopupMenuItem	m	Function OnPopupMenuItem(ByVal Id As Long) As HResult
+OnPopupMenuItemUpdate	m	Function OnPopupMenuItemUpdate(ByVal Id As Long, ByRef retval As Long) As HResult
+OnPreview	m	Function OnPreview() As Boolean
+OnPreviousPage	m	Function OnPreviousPage() As Boolean
+OnRedo	m	Function OnRedo() As HResult
+OnSelectionboxCalloutCreated	m	Function OnSelectionboxCalloutCreated(ByVal Id As Long) As HResult
+OnSelectionboxCalloutDestroyed	m	Function OnSelectionboxCalloutDestroyed(ByVal Id As Long) As HResult
+OnSelectionboxFocusChanged	m	Function OnSelectionboxFocusChanged(ByVal Id As Long) As HResult
+OnSelectionboxListChanged	m	Function OnSelectionboxListChanged(ByVal Id As Long, ByVal Count As Long) As HResult
+OnSliderPositionChanged	m	Function OnSliderPositionChanged(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSliderTrackingCompleted	m	Function OnSliderTrackingCompleted(ByVal Id As Long, ByVal Value As Double) As HResult
+OnSubmitSelection	m	Function OnSubmitSelection(ByVal Id As Long, ByVal Selection As Object, ByVal SelType As Long:swSelectType_e, ByRef ItemText As String) As Boolean
+OnTabClicked	m	Function OnTabClicked(ByVal Id As Long) As Boolean
+OnTextboxChanged	m	Function OnTextboxChanged(ByVal Id As Long, ByVal Text As String) As HResult
+OnUndo	m	Function OnUndo() As HResult
+OnWhatsNew	m	Function OnWhatsNew() As HResult
+OnWindowFromHandleControlCreated	m	Function OnWindowFromHandleControlCreated(ByVal Id As Long, ByVal Status As Boolean) As Long:swHandleWindowFromHandleCreationFailure_e
+@SwAddin	o
+ConnectToSW	m	Function ConnectToSW(ByVal ThisSW As Object, ByVal Cookie As Long) As Boolean
+DisconnectFromSW	m	Function DisconnectFromSW() As Boolean
+@SwAddinAdvancedOptionBroker	o
+GetMessageIDs	m	Function GetMessageIDs(ByRef IDs As Variant, ByRef Message As Variant) As HResult
+SetMessageIDs	m	Function SetMessageIDs(ByVal IDs As Variant) As HResult
+@SwAddinBroker	o
+GetInferencePoints	m	Function GetInferencePoints(ByVal pDoc As Object, ByVal SelPosX As Integer, ByVal SelPosY As Integer, ByVal Tolerance As Double, ByVal Option As Long:swPointInferenceBrokerOption_e, ByRef InferPoints As Variant) As HResult
+GetSelectedObjectsBBox	m	Function GetSelectedObjectsBBox(ByVal pDoc As Object, ByVal Option As Long:swAddinBrokerBBoxOption_e, ByRef BoxCorners As Variant) As HResult
+@SwAddinLicenseManager	o
+AcquireLicense	m	Function AcquireLicense() As Boolean
+IsHoldingLicense	m	Function IsHoldingLicense() As Boolean
+ReleaseLicense	m	Function ReleaseLicense() As Boolean
+@SwCalloutHandler	o
+OnStringValueChanged	m	Function OnStringValueChanged(ByVal pManipulator As Object:Callout, ByVal RowID As Long, ByVal Text As String) As Boolean
+@SwColorContour	o
+Color	m	Function Color(ByVal Value As Double) As Long
+DisplayString	m	Function DisplayString(ByVal Value As Double) As String
+NeedsUpdate	m	Function NeedsUpdate() As Boolean
+Value	m	Function Value(ByVal face As Object, ByRef vertexCoords As Single, ByRef normalCoords As Single, ByRef Value As Double) As Long
+@SwColorContour1	o
+Color	m	Function Color(ByVal Value As Double) As Long
+DisplayString	m	Function DisplayString(ByVal Value As Double) As String
+NeedsUpdate	m	Function NeedsUpdate() As Boolean
+Value	m	Function Value(ByVal face As Object, ByVal vertex_x As Single, ByVal vertex_y As Single, ByVal vertex_z As Single, ByVal normal_x As Single, ByVal normal_y As Single, ByVal normal_z As Single, ByRef Value As Double) As Long
+@SwComFeature	o
+Edit	m	Function Edit(ByVal app As Object, ByVal modelDoc As Object, ByVal feature As Object) As Variant
+Regenerate	m	Function Regenerate(ByVal app As Object, ByVal modelDoc As Object, ByVal feature As Object) As Variant
+Security	m	Function Security(ByVal app As Object, ByVal modelDoc As Object, ByVal feature As Object) As Variant:swMacroFeatureSecurityOptions_e
+@SwManipulatorHandler	o
+OnDelete	m	Function OnDelete(ByVal pManipulator As Object) As Boolean
+OnDirectionFlipped	m	Function OnDirectionFlipped(ByVal pManipulator As Object) As HResult
+OnDoubleValueChanged	m	Function OnDoubleValueChanged(ByVal pManipulator As Object, ByVal Id As Integer, ByRef Value As Double) As Boolean
+OnEndDrag	m	Function OnEndDrag(ByVal pManipulator As Object) As HResult
+OnEndNoDrag	m	Function OnEndNoDrag(ByVal pManipulator As Object, ByVal handleIndex As Integer) As HResult
+OnHandleRmbSelected	m	Function OnHandleRmbSelected(ByVal pManipulator As Object, ByVal handleIndex As Integer) As HResult
+OnHandleSelected	m	Function OnHandleSelected(ByVal pManipulator As Object, ByVal handleIndex As Integer) As HResult
+OnItemSetFocus	m	Function OnItemSetFocus(ByVal pManipulator As Object, ByVal Id As Integer) As HResult
+OnLmbSelected	m	Function OnLmbSelected(ByVal pManipulator As Object) As Boolean
+OnStringValueChanged	m	Function OnStringValueChanged(ByVal pManipulator As Object, ByVal Id As Integer, ByRef Value As String) As Boolean
+OnUpdateDrag	m	Function OnUpdateDrag(ByVal pManipulator As Object, ByVal handleIndex As Integer, ByVal newPosMathPt As Object) As HResult
+@SwManipulatorHandler2	o
+OnDelete	m	Function OnDelete(ByVal pManipulator As Object:Manipulator) As Boolean
+OnDirectionFlipped	m	Function OnDirectionFlipped(ByVal pManipulator As Object:Manipulator) As HResult
+OnDoubleValueChanged	m	Function OnDoubleValueChanged(ByVal pManipulator As Object:Manipulator, ByVal handleIndex As Integer, ByRef Value As Double) As Boolean
+OnEndDrag	m	Function OnEndDrag(ByVal pManipulator As Object:Manipulator, ByVal handleIndex As Integer) As HResult
+OnEndNoDrag	m	Function OnEndNoDrag(ByVal pManipulator As Object:Manipulator, ByVal handleIndex As Integer) As HResult
+OnHandleLmbSelected	m	Function OnHandleLmbSelected(ByVal pManipulator As Object:Manipulator) As Boolean
+OnHandleRmbSelected	m	Function OnHandleRmbSelected(ByVal pManipulator As Object:Manipulator, ByVal handleIndex As Integer) As HResult
+OnHandleSelected	m	Function OnHandleSelected(ByVal pManipulator As Object:Manipulator, ByVal handleIndex As Integer:swDragArrowManipulatorOptions_e) As HResult
+OnItemSetFocus	m	Function OnItemSetFocus(ByVal pManipulator As Object:Manipulator, ByVal handleIndex As Integer) As HResult
+OnStringValueChanged	m	Function OnStringValueChanged(ByVal pManipulator As Object:Manipulator, ByVal handleIndex As Integer, ByRef Value As String) As Boolean
+OnUpdateDrag	m	Function OnUpdateDrag(ByVal pManipulator As Object:Manipulator, ByVal handleIndex As Integer, ByVal newPosMathPt As Object:MathPoint) As HResult
+@SwPEManager	o
+IdentifyToSW	m	Function IdentifyToSW(ByVal ClassFactory As Object:SwPEClassFactory) As HResult
+@SwPointInferenceBroker	o
+GetInferencePoints	m	Function GetInferencePoints(ByVal pDoc As Object, ByVal SelPosX As Integer, ByVal SelPosY As Integer, ByVal Tolerance As Double, ByVal Option As Long, ByRef InferPoints As Variant) As HResult
+@SwQuickTip	o
+ApplicationName	p	Property ApplicationName As String
+AppState	m	Function AppState(ByVal state As Long) As HResult
+HideGuide	p	Property HideGuide As Boolean
+MenuName	p	Property MenuName As String
+ShowInAssemblyDoc	p	Property ShowInAssemblyDoc As Boolean
+ShowInDrawingDoc	p	Property ShowInDrawingDoc As Boolean
+ShowInPartDoc	p	Property ShowInPartDoc As Boolean
+SwState	m	Function SwState(ByVal state As Long) As HResult
+Url	p	Property Url As String
+@SwUndoAPIHandler	o
+DoUndo	m	Function DoUndo() As HResult
+UndoReSet	m	Function UndoReSet() As HResult
+@UserNotificationHandler	o
+OnTimeout	m	Function OnTimeout() As HResult
+OnUserClose	m	Function OnUserClose() As HResult
+OnUserResponseA	m	Function OnUserResponseA(ByVal DoNotShowAgain As Boolean) As HResult
+OnUserResponseB	m	Function OnUserResponseB(ByVal DoNotShowAgain As Boolean) As HResult

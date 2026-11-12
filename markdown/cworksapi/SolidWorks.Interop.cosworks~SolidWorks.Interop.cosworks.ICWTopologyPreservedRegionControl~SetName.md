@@ -52,26 +52,16 @@ void SetName(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyPreservedRegion::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SetName.html)
-
-.
+See [CWTopologyPreservedRegion::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
-example.
+See the [ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html) example.
 
 ## See Also
 
 [ICWTopologyPreservedRegionControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
 [ICWTopologyPreservedRegionControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html)
-
 [ICWTopologyPreservedRegionControl::GetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~GetName.html)
 
 ## Availability

@@ -34,14 +34,9 @@ System.String^ mbsRefName
 
 ## Examples
 
-See the
-
-[EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
-examples.
+See the [EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html) examples.
 
 ## See Also
 
 [EdmRawReference Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
 [EdmRawReference Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference_members.html)

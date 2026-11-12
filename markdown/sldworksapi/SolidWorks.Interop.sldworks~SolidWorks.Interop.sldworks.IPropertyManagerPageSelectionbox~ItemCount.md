@@ -42,13 +42,7 @@ property System.int ItemCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,20 +50,15 @@ Number of items currently in this selection box
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::ItemCount](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~ItemCount.html)
-
-.
+See [PropertyManagerPageSelectionbox::ItemCount](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~ItemCount.html).
 
 ## Remarks
 
-Use this property before using[IPropertyManagerPageSelectionBox::SelectionIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSelectionbox~SelectionIndex.html).
+Use this property before using [IPropertyManagerPageSelectionBox::SelectionIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSelectionbox~SelectionIndex.html).
 
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
 
 ## Availability

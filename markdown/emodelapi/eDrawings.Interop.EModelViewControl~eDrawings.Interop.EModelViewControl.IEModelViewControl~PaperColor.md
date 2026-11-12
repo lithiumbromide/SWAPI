@@ -47,38 +47,25 @@ property System.int PaperColor {
 
 ### Property Value
 
-COLORREF value (see
-
-Remarks
-
-)
+COLORREF value (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::PaperColor](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~PaperColor.html)
-
-.
+See [EModelViewControl::PaperColor](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~PaperColor.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## Remarks
 
-[IEModelViewControl::PaperColorOverride](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~PaperColorOverride.html)must be true for this method to have an effect.
+[IEModelViewControl::PaperColorOverride](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~PaperColorOverride.html) must be true for this method to have an effect.
 
 A COLORREF is a 32-bit integer value that specifies the red, blue, and green components of a 24-bit color.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

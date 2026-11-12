@@ -34,20 +34,18 @@ public value class EdmUpdatedRefPath : public System.ValueType
 
 ## Examples
 
-struct EdmUpdatedRefPath{ string mbsRefOldPath ; string mbsRefNewPath ; };
+struct EdmUpdatedRefPath{
+string [mbsRefOldPath](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath~mbsRefOldPath.html);
+string [mbsRefNewPath](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath~mbsRefNewPath.html);
+};
 
 ## Remarks
 
-This structure is returned by
-
-[IEdmRefItem2::GetUpdatedPaths](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem2~GetUpdatedPaths.html)
-
-.
+This structure is returned by [IEdmRefItem2::GetUpdatedPaths](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem2~GetUpdatedPaths.html).
 
 ## See Also
 
 [EdmUpdatedRefPath Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

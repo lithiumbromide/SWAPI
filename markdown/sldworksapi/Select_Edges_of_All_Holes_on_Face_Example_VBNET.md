@@ -9,20 +9,27 @@ source: "sldworksapi/Select_Edges_of_All_Holes_on_Face_Example_VBNET.htm"
 
 # Select Edges of All Holes on Face Example (VB.NET)
 
-This example shows how to select the edges on all circular holes on
-a face.
+This example shows how to select the edges on all circular holes on a face.
 
-NOTE :kadov_tag{{</spaces>}}A
-circular hole can be defined in a many ways; for example, a
-circle inside an extruded sketch or a circle that is part of
-a cut-extrude feature. Thus, there is no ready way to detect
-a hole solely based on the feature information. However,
-by directly examining the geometry and topology of the
-model, it is possible to deduce holes. This
-code uses many of the geometry- and topology-related objects and methods to traverse a face and
-look for circular holes.
+```vb
+NOTE:  A circular hole can be defined in a many ways; for example, a circle inside an extruded sketch or a circle that is part of a cut-extrude feature. Thus, there is no ready way to detect a hole solely based on the feature information. However, by directly examining the geometry and topology of the model, it is possible to deduce holes. This code uses many of the geometry- and topology-related objects and methods to traverse a face and look for circular holes.
+```
 
-'------------------------------------------------------------------ ' Preconditions: Verify that the specified part to open exists. ' ' Postconditions: ' 1. Opens the specified part document. ' 2. Changes the view orientation to Back . ' 3. Selects a face. ' 4. Examines the geometry and topology of the selected face and ' identifies the holes in the face. ' 5. Deselects the face. ' 6. Selects all edges of all circular holes on the face. ' 7. Examine the graphics area. ' ' NOTE: Because the part is used elsewhere, do not save changes. '------------------------------------------------------------------
+'------------------------------------------------------------------
+' Preconditions: Verify that the specified part to open exists.
+'
+' Postconditions:
+' 1. Opens the specified part document.
+' 2. Changes the view orientation to **Back**.
+' 3. Selects a face.
+' 4. Examines the geometry and topology of the selected face and
+' identifies the holes in the face.
+' 5. Deselects the face.
+' 6. Selects all edges of all circular holes on the face.
+' 7. Examine the graphics area.
+'
+' NOTE: Because the part is used elsewhere, do not save changes.
+'------------------------------------------------------------------
 
 ```
 Imports SolidWorks.Interop.sldworks

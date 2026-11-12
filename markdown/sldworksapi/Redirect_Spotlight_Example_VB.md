@@ -9,9 +9,7 @@ source: "sldworksapi/Redirect_Spotlight_Example_VB.htm"
 
 # Redirect Spotlight Example (VBA)
 
-This examples shows how select a spotlight and two sketch points.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}The
-spotlight is then redirected to point along a vector that is defined
-by the two points.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+This examples shows how select a spotlight and two sketch points. The spotlight is then redirected to point along a vector that is defined by the two points.
 
 ```
 '-------------------------------------------------------------------------

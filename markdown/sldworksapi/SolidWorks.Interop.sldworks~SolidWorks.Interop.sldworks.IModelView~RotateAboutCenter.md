@@ -50,13 +50,7 @@ void RotateAboutCenter(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +59,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelView::RotateAboutCenter](ms-its:sldworksapivb6.chm::/sldworks~ModelView~RotateAboutCenter.html)
-
-.
+See [ModelView::RotateAboutCenter](ms-its:sldworksapivb6.chm::/sldworks~ModelView~RotateAboutCenter.html).
 
 ## Examples
 
 [Change Wrap Feature Face (C#)](Change_Wrap_Feature_Face_Example_CSharp.htm)
-
 [Change Wrap Feature Face (VB.NET)](Change_Wrap_Feature_Face_Example_VBNET.htm)
-
 [Change Wrap Feature Face (VBA)](Change_Wrap_Feature_Face_Example_VB.htm)
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
-
 [IModelView::RotateAboutAxis Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~RotateAboutAxis.html)
-
 [IModelView::RotateAboutPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~RotateAboutPoint.html)
-
 [IModelView::StartDynamics Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~StartDynamics.html)

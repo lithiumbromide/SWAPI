@@ -42,36 +42,23 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of corner treatment as defined by
-
-[swCornerType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerType_e.html)
+Type of corner treatment as defined by [swCornerType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CornerTreatmentGroupFolder::Type](ms-its:sldworksapivb6.chm::/sldworks~CornerTreatmentGroupFolder~Type.html)
-
-.
+See [CornerTreatmentGroupFolder::Type](ms-its:sldworksapivb6.chm::/sldworks~CornerTreatmentGroupFolder~Type.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## See Also
 
 [ICornerTreatmentGroupFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentGroupFolder.html)
-
 [ICornerTreatmentGroupFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentGroupFolder_members.html)
 
 ## Availability

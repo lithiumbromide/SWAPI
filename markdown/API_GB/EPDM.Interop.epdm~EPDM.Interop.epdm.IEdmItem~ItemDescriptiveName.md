@@ -39,22 +39,17 @@ Descriptive name of this item
 
 ## Examples
 
-See the
-
-[IEdmItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html)
-
-examples.
+See the [IEdmItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html) examples.
 
 ## Remarks
 
 The descriptive name of an item is based on a variable in its data card.
 
-An item also has an "item ID", which is its file name counterpart, accessible via the[IEdmItem::Name](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem~ItemDescriptiveName.html).
+An item also has an "item ID", which is its file name counterpart, accessible via the [IEdmItem::Name](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem~ItemDescriptiveName.html).
 
 ## See Also
 
 [IEdmItem Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html)
-
 [IEdmItem Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem_members.html)
 
 ## Availability

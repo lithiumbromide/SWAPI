@@ -39,21 +39,11 @@ void DeleteAllCosmeticThreads()
 void DeleteAllCosmeticThreads();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::DeleteAllCosmeticThreads](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~DeleteAllCosmeticThreads.html)
-
-.
+See [DrawingDoc::DeleteAllCosmeticThreads](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~DeleteAllCosmeticThreads.html).
 
 ## Examples
 
@@ -79,11 +69,9 @@ See
 
 Option
 
-Explicit
+Explicit On
 
-On
-
-ImportsSOLIDWORKS.Interop.sldworks
+Imports SOLIDWORKS.Interop.sldworks
 
 Imports
 
@@ -95,9 +83,7 @@ System
 
 Partial
 
-Class
-
-SOLIDWORKSMacro
+Class SOLIDWORKSMacro
 
 Public Sub main()
 
@@ -113,7 +99,7 @@ swDrawingDoc.DeleteAllCosmeticThreads()
 
 swModel = swDrawingDoc
 
-boolstatus = swModel.ForceRebuild3( False )
+boolstatus = swModel.ForceRebuild3(False)
 
 End Sub
 
@@ -140,9 +126,7 @@ This method also does not delete any cosmetic threads with callouts in a drawing
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [ICThread Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread.html)
 
 ## Availability

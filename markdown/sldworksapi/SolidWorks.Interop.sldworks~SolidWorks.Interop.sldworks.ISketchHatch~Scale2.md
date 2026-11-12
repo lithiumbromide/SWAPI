@@ -45,13 +45,7 @@ property System.double Scale2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Hatch pattern scale
 
 ## VBA Syntax
 
-See
-
-[SketchHatch::Scale2](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Scale2.html)
-
-.
+See [SketchHatch::Scale2](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Scale2.html).
 
 ## Examples
 
-See the
-
-[ISketchHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
-examples.
+See the [ISketchHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html) examples.
 
 ## See Also
 
 [ISketchHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
 [ISketchHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch_members.html)
 
 ## Availability

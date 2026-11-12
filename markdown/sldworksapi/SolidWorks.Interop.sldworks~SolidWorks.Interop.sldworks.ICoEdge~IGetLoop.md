@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IGetLoop Method (ICoEdge)
 
-Obsolete. Superseded by
-
-[ICoEdge::IGetLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~IGetLoop2.html)
-
-.
+Obsolete. Superseded by [ICoEdge::IGetLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~IGetLoop2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Loop IGetLoop()
 Loop^ IGetLoop();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CoEdge::IGetLoop](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~IGetLoop.html)
-
-.
+See [CoEdge::IGetLoop](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~IGetLoop.html).
 
 ## See Also
 
 [ICoEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html)
-
 [ICoEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge_members.html)

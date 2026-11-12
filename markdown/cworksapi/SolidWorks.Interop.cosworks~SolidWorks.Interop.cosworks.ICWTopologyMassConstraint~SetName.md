@@ -53,24 +53,16 @@ System.int SetName(
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_MassConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_MassConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_MassConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_MassConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyMassConstraint::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMassConstraint~SetName.html)
-
-.
+See [CWTopologyMassConstraint::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMassConstraint~SetName.html).
 
 ## See Also
 
 [ICWTopologyMassConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html)
-
 [ICWTopologyMassConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint_members.html)
-
 [ICWTopologyMassConstraint::GetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint~GetName.html)
 
 ## Availability

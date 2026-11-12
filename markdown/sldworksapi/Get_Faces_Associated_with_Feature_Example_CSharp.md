@@ -11,15 +11,7 @@ source: "sldworksapi/Get_Faces_Associated_with_Feature_Example_CSharp.htm"
 
 This example shows how to eliminate multiple feature faces.
 
-**NOTE:**In SOLIDWORKS, a face is the result of evaluating a feature. A face can be
-owned by several features.
-IFeature::GetFaces returns all faces owned by a feature. This is different from
-faces highlighted in the user interface when a feature is selected, because the user
-interface filters out multiple feature faces. This filter is for display
-purposes only.
-An application must use IFace::GetFeature to filter out multiple feature faces.
-This method returns only the oldest feature from a face; that is, the first owning
-feature in the FeatureManager design tree.
+**NOTE:** In SOLIDWORKS Design, a face is the result of evaluating a feature. A face can be owned by several features. IFeature::GetFaces returns all faces owned by a feature. This is different from faces highlighted in the user interface when a feature is selected, because the user interface filters out multiple feature faces. This filter is for display purposes only. An application must use IFace::GetFeature to filter out multiple feature faces. This method returns only the oldest feature from a face; that is, the first owning feature in the FeatureManager design tree.
 
 ```
 //-----------------------------------------------

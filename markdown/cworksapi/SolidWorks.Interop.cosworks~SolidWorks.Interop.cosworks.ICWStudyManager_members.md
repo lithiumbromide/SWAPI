@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # ICWStudyManager Interface Members
 
-The following tables list the members exposed by[ICWStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html).
+The following tables list the members exposed by [ICWStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html).
 
 ## Public Properties
 
@@ -48,7 +48,5 @@ The following tables list the members exposed by[ICWStudyManager](SolidWorks.Int
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)

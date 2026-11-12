@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Curves_that_Form_Outline_of_Bodies_Example_VB.htm"
 
 # Get Curves that Form Outline of Bodies Example (VBA)
 
-This example shows how to get the curves that form the outline of a
-body and create a 3D sketch using those curves.
+This example shows how to get the curves that form the outline of a body and create a 3D sketch using those curves.
 
 ```
 '---------------------------------------------------------------

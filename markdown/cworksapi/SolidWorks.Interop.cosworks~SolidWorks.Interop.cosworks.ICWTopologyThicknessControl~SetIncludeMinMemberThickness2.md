@@ -52,16 +52,11 @@ void SetIncludeMinMemberThickness2(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyThicknessControl::SetIncludeMinMemberThickness2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~SetIncludeMinMemberThickness2.html)
-
-.
+See [CWTopologyThicknessControl::SetIncludeMinMemberThickness2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~SetIncludeMinMemberThickness2.html).
 
 ## See Also
 
 [ICWTopologyThicknessControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
 [ICWTopologyThicknessControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl_members.html)
 
 ## Availability

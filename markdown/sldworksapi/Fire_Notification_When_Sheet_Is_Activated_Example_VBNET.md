@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Sheet_Is_Activated_Example_VBNET.htm
 
 # Fire Notification When Activating a Sheet Example (VB.NET)
 
-This example shows how to fire a notification when a sheet is activated in a
-drawing document.
+This example shows how to fire a notification when a sheet is activated in a drawing document.
 
 ```
 '-------------------------------------------------------------------------------

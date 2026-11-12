@@ -53,28 +53,18 @@ SwDMDimXpertFeature^ IGetSubFeatures(
 
 ### Return Value
 
-in-process, unmanaged C++: Pointer to an array of
-
-[SwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
-s
+in-process, unmanaged C++: Pointer to an array of [SwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)s
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
-Use
-
-[ISwDMDimXpertExtrudeFeature::GetSubFeatureCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature~GetSubFeatureCount.html)
-
-to populate the Count argument.
+Use [ISwDMDimXpertExtrudeFeature::GetSubFeatureCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature~GetSubFeatureCount.html) to populate the Count argument.
 
 ## See Also
 
 [ISwDMDimXpertExtrudeFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature.html)
-
 [ISwDMDimXpertExtrudeFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature_members.html)
-
 [ISwDMDimXpertExtrudeFeature::GetSubFeatures Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature~GetSubFeatures.html)
 
 ## Availability

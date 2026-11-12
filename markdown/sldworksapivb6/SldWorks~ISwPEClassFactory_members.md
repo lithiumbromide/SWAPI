@@ -1,6 +1,5 @@
 ---
-title: "ISwPEClassFactory Object
-Members"
+title: "ISwPEClassFactory Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISwPEClassFactory_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISwPEClassFactory_members.html"
 ---
 
-# ISwPEClassFactory Object
-Members
+# ISwPEClassFactory Object Members
 
 ## Public Methods
 

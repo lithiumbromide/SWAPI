@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCreateReferenceFlags.htm
 
 # EdmCreateReferenceFlags Enumeration
 
-Options for creating custom references used in calls to
-
-[IEdmAddCustomRefs::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~CreateTree.html)
-
-.
+Options for creating custom references used in calls to [IEdmAddCustomRefs::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~CreateTree.html).
 
 ## Syntax
 

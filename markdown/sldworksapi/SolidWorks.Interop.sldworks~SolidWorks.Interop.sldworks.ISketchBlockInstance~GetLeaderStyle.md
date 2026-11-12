@@ -40,44 +40,25 @@ System.int GetLeaderStyle()
 System.int GetLeaderStyle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Leader style as defined in
-
-[swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
+Leader style as defined in [swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::GetLeaderStyle](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetLeaderStyle.html)
-
-.
+See [SketchBlockInstance::GetLeaderStyle](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetLeaderStyle.html).
 
 ## Remarks
 
-Use
-
-[ISketchBlockInstance::SetLeader](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~SetLeader.html)
-
-to set the leader style.
+Use [ISketchBlockInstance::SetLeader](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~SetLeader.html) to set the leader style.
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
-
 [ISketchBlockInstance::GetLeaderPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~GetLeaderPoints.html)
-
 [ISketchBlockInstance::IGetLeaderPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~IGetLeaderPoints.html)
 
 ## Availability

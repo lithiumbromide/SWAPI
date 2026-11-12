@@ -51,42 +51,22 @@ Number of frequencies
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::NoOfFrequencies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~NoOfFrequencies.html)
-
-.
+See [CWFrequencyStudyOptions::NoOfFrequencies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~NoOfFrequencies.html).
 
 ## Examples
 
-See the
-
-[ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-examples.
+See the [ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ICWFrequencyStudyOptions::Options](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~Options.html)
-
-is set to
-
-[swsFrequencyStudyOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFrequencyStudyOption_e.html)
-
-.swsFrequencyStudyOptionNumberFrequencies.
+This property is valid only if [ICWFrequencyStudyOptions::Options](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~Options.html) is set to [swsFrequencyStudyOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFrequencyStudyOption_e.html).swsFrequencyStudyOptionNumberFrequencies.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
-
 [ICWFrequencyStudyOptions::UseLowerBoundFrequency Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~UseLowerBoundFrequency.html)
-
 [ICWFrequencyStudyOptions::LowerBoundFrequency Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~LowerBoundFrequency.html)
-
 [ICWFrequencyStudyOptions::UpperBoundFrequency Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~UpperBoundFrequency.html)
 
 ## Availability

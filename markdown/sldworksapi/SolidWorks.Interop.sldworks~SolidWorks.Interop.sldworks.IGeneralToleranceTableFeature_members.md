@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGe
 
 # IGeneralToleranceTableFeature Interface Members
 
-The following tables list the members exposed by[IGeneralToleranceTableFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableFeature.html).
+The following tables list the members exposed by [IGeneralToleranceTableFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableFeature.html).
 
 ## Public Methods
 
@@ -23,9 +23,6 @@ The following tables list the members exposed by[IGeneralToleranceTableFeature](
 ## See Also
 
 [IGeneralToleranceTableFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableFeature.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IGeneralTableFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableFeature.html)
-
 [IModelDocExtension::InsertGeneralToleranceTableAnnotation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertGeneralToleranceTableAnnotation.html)

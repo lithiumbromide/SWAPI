@@ -45,56 +45,35 @@ property System.bool AutoSelect {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to automatically select all bodies, false to select specific bodies for
-
-[ISurfaceCutFeatureData::FeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~FeatureScopeBodies.html)
-
-or
-
-[ISurfaceCutFeatureData::ISetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~ISetFeatureScopeBodies.html)
+True to automatically select all bodies, false to select specific bodies for [ISurfaceCutFeatureData::FeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~FeatureScopeBodies.html) or [ISurfaceCutFeatureData::ISetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~ISetFeatureScopeBodies.html)
 
 ## VBA Syntax
 
-See
-
-[SurfCutFeatureData::AutoSelect](ms-its:sldworksapivb6.chm::/sldworks~SurfCutFeatureData~AutoSelect.html)
-
-.
+See [SurfCutFeatureData::AutoSelect](ms-its:sldworksapivb6.chm::/sldworks~SurfCutFeatureData~AutoSelect.html).
 
 ## Examples
 
 [Insert Surface-cut Feature (C#)](Insert_Surface-cut_Feature_Example_CSharp.htm)
-
 [Insert Surface-cut Feature (VB.NET)](Insert_Surface-cut_Feature_Example_VBNET.htm)
-
 [Insert Surface-cut Feature (VBA)](Insert_Surface-cut_Feature_Example_VB.htm)
 
 ## Remarks
 
 To access this interface, you must declare it as SurfCutFeatureData or ISurfCutFeatureData.
 
-This property is only available when[ISurfaceCutFeatureData::FeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~FeatureScope.html)is true.
+This property is only available when [ISurfaceCutFeatureData::FeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~FeatureScope.html) is true.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISurfaceCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData.html)
-
 [ISurfaceCutFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData_members.html)
-
 [ISurfaceCutFeatureData::GetFeatureScopeBodiesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData~GetFeatureScopeBodiesCount.html)
-
 [ISurfaceCutFeatureData::IGetFeatureScopeBodies Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData~IGetFeatureScopeBodies.html)
 
 ## Availability

@@ -53,38 +53,23 @@ System.int AddBodies(
 
 ### Return Value
 
-Error code as defined in
-
-[swsSimMassPropertiesError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsSimMassPropertiesError_e.html)
+Error code as defined in [swsSimMassPropertiesError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsSimMassPropertiesError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager::AddBodies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~AddBodies.html)
-
-.
+See [CWMassPropertiesManager::AddBodies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~AddBodies.html).
 
 ## Examples
 
-See the
-
-[ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
-examples.
+See the [ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html) examples.
 
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
-
 [ICWMassPropertiesManager::AddBoltConnectors Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~AddBoltConnectors.html)
-
 [ICWMassPropertiesManager::AddDistributedMasses Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~AddDistributedMasses.html)
-
 [ICWMassPropertiesManager::AddPinConnectors Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~AddPinConnectors.html)
-
 [ICWMassPropertiesManager::AddRemoteLoadMasses Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~AddRemoteLoadMasses.html)
 
 ## Availability

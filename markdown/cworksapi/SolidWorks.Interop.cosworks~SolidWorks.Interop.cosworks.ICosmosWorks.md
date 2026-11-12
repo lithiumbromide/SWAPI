@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosm
 
 Allows access to the ICOSMOSWorks interface.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,28 +41,21 @@ public interface class ICosmosWorks
 
 ## VBA Syntax
 
-See
-
-[CosmosWorks](ms-its:cworksapivb6.chm::/CosmosWorksLib~CosmosWorks.html)
-
-.
+See [CosmosWorks](ms-its:cworksapivb6.chm::/CosmosWorksLib~CosmosWorks.html).
 
 ## Examples
 
 [Create Nonlinear Study and Apply Materials (C#)](Create_Nonlinear_Study_and_Apply_Materials_Example_CSharp.htm)
-
 [Create Nonlinear Study and Apply Materials (VB.NET)](Create_Nonlinear_Study_and_Apply_Materials_Example_VBNET.htm)
-
 [Create Nonlinear Study and Apply Materials (VBA)](Create_Nonlinear_Study_and_Apply_Materials_Example_VB.htm)
 
 ## Remarks
 
 The SOLIDWORKS Simulation API works with SOLIDWORKS parts and assemblies.
 
-Read[Accessing SOLIDWORKS Add-in Objects](sldworksapiprogguide.chm::/Overview/Accessing_Add-ins.htm).
+Read [Accessing SOLIDWORKS Add-in Objects](sldworksapiprogguide.chm::/Overview/Accessing_Add-ins.htm).
 
 ## See Also
 
 [ICosmosWorks Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosmosWorks_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

@@ -14,19 +14,14 @@ PDM Pro API Web Service
 | Post | api/configuration/fileserverroot |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Configuration Resource Group : api/configuration/fileserverroot (Post) |
 | --- |
 
 Description
 
-POST: api/configuration/fileserverroot
-Add file server root pathMigrates add-ins from previous file server root to the specified new one and reloads hooks instances.
+POST: api/configuration/fileserverroot Add file server root pathMigrates add-ins from previous file server root to the specified new one and reloads hooks instances.
 
 Request (application/json, text/json)
 
@@ -72,16 +67,8 @@ In Postman, modify the Body of fileserverroot (Post) for your file server root l
 
 Remarks
 
-See the
-
-[PDM Pro Web API Webhooks Programming Guide](PDMProWebAPI_Webhooks_Programming_Guide.html)
-
-.
+See the [PDM Pro Web API Webhooks Programming Guide](PDMProWebAPI_Webhooks_Programming_Guide.html).
 
 See Also
 
-[Configuration Resource Group](PDM%20Pro%20API_ws~g-985b99d2-3678-4b90-b592-fc1b4707401e.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Configuration Resource Group](PDM%20Pro%20API_ws~g-985b99d2-3678-4b90-b592-fc1b4707401e.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

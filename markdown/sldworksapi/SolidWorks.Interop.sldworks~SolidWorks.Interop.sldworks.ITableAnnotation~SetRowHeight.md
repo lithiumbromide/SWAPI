@@ -55,60 +55,34 @@ System.double SetRowHeight(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: Index of row for which to set height
 - `Height`: Height at which to set specified row, in system units
-- `Options`: Table's behavior after changing row as defined by
-
-[swTableRowColSizeChangeBehavior_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableRowColSizeChangeBehavior_e.html)
-
-(see
-
-Remarks
-
-)
+- `Options`: Table's behavior after changing row as defined by [swTableRowColSizeChangeBehavior_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableRowColSizeChangeBehavior_e.html) (see **Remarks**)
 
 ### Return Value
 
-Height to which specified row is set (see
-
-Remarks
-
-)
+Height to which specified row is set (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::SetRowHeight](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetRowHeight.html)
-
-.
+See [TableAnnotation::SetRowHeight](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetRowHeight.html).
 
 ## Remarks
 
 The index for both rows and columns is 0-based.
 
-Index is the number of the row whose height to set. The first row is row 0.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}It can also be a value from the[swTableCellRangeIdentifier_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableCellRangeIdentifier_e.html)enumerator.
-
-(Table)=========================================================
+Index is the number of the row whose height to set. The first row is row 0. It can also be a value from the [swTableCellRangeIdentifier_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableCellRangeIdentifier_e.html) enumerator.
 
 | If Index equals... | Then the height of all of the rows... |
 | --- | --- |
 | swTableCellRange_All | Is set, if possible. |
 | swTableCellRange_Current | In the current range (see ITableAnnotation::GetCellRange and ITableAnnotation::SetCellRange ) is set, if possible |
 
-When the height of a row changes, then the rest of the table is affected. The Options argument indicateskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}the rest of the table's behavior.
-
-(Table)=========================================================
+When the height of a row changes, then the rest of the table is affected. The Options argument indicates the rest of the table's behavior.
 
 | If... | Then... |
 | --- | --- |
@@ -120,34 +94,23 @@ The return value is the height at which the row is set. If you specified a range
 
 It is possible that the return value is different than the value that you passed in. One possibility is that if you specify a row height that is less than the minimum row height, then the minimum row height is used instead of what you specified. Another possibility is that if you are trying to maintain a fixed table height, but the height of the adjacent rows is not big enough to absorb the height changes to the rows that you specified, then the return value is the same as the row's original width instead of what you specified.
 
-To get the row height, use[ITableAnnotation::GetRowHeight](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetCellRange.html).
+To get the row height, use [ITableAnnotation::GetRowHeight](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetCellRange.html).
 
-To get or set the column width, use[ITableAnnotation::GetColumnWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetColumnWidth.html)and[ITableAnnotation::SetColumnWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~SetColumnWidth.html).
+To get or set the column width, use [ITableAnnotation::GetColumnWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetColumnWidth.html) and [ITableAnnotation::SetColumnWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~SetColumnWidth.html).
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::DeleteRow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~DeleteRow.html)
-
 [ITableAnnotation::GetRowVerticalGap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetRowVerticalGap.html)
-
 [ITableAnnotation::InsertRow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~InsertRow.html)
-
 [ITableAnnotation::MoveRow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~MoveRow.html)
-
 [ITableAnnotation::SetRowVerticalGap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetRowVerticalGap.html)
-
 [ITableAnnotation::RowCount Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~RowCount.html)
-
 [ITableAnnotation::TotalRowCount Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~TotalRowCount.html)
-
 [ITableAnnotation::RowHidden Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~RowHidden.html)
-
 [ITableAnnotation::GetLockRowHeight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetLockRowHeight.html)
-
 [ITableAnnotation::SetLockRowHeight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetLockRowHeight.html)
 
 ## Availability

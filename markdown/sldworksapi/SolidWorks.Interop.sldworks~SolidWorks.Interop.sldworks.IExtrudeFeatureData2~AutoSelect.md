@@ -45,40 +45,27 @@ property System.bool AutoSelect {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to automatically select all bodies, false to select specific bodies for[IExtrudeFeatureData2::FeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~FeatureScopeBodies.html)and[IExtrudeFeatureData2::ISetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~ISetFeatureScopeBodies.html)
+True to automatically select all bodies, false to select specific bodies for [IExtrudeFeatureData2::FeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~FeatureScopeBodies.html) and [IExtrudeFeatureData2::ISetFeatureScopeBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~ISetFeatureScopeBodies.html)
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::AutoSelect](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~AutoSelect.html)
-
-.
+See [ExtrudeFeatureData2::AutoSelect](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~AutoSelect.html).
 
 ## Remarks
 
-This property is only available when the[IExtrudeFeatureData2::FeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~FeatureScope.html)property is true.The extrude feature is expanded along the plane on which the feature is created and selects all or only the specified bodies it intersects.
+This property is only available when the [IExtrudeFeatureData2::FeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~FeatureScope.html) property is true. The extrude feature is expanded along the plane on which the feature is created and selects all or only the specified bodies it intersects.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IExtrudeFeatureData2::GetFeatureScopeBodiesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~GetFeatureScopeBodiesCount.html)
-
 [IExtrudeFeatureData2::IGetFeatureScopeBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~IGetFeatureScopeBodies.html)
 
 ## Availability

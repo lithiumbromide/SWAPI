@@ -43,17 +43,10 @@ public enum class EdmProgressType : public System.Enum
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmGetOpCallback::ProgressBegin Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ProgressBegin.html)
-
 [IEdmGetOpCallback::ProgressEnd Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ProgressEnd.html)
-
 [IEdmGetOpCallback::ProgressStep Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ProgressStep.html)
-
 [IEdmUnlockOpCallback::ProgressBegin Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressBegin.html)
-
 [IEdmUnlockOpCallback::ProgressEnd Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressEnd.html)
-
 [IEdmUnlockOpCallback::ProgressStep Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressStep.html)
-
 [IEdmUnlockOpCallback::ProgressStepEvent Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressStepEvent.html)

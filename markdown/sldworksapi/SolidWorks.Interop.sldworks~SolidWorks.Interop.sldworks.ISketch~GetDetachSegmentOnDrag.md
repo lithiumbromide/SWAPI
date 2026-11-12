@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # GetDetachSegmentOnDrag Method (ISketch)
 
-Gets the
-
-Detach Segment on Drag
-
-setting.
+Gets the Detach Segment on Drag setting.
 
 ## Syntax
 
@@ -44,29 +40,15 @@ System.bool GetDetachSegmentOnDrag()
 System.bool GetDetachSegmentOnDrag();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-True if
-
-Detach Segment on Drag
-
-is selected, false if not
+True if Detach Segment on Drag is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetDetachSegmentOnDrag](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetDetachSegmentOnDrag.html)
-
-.
+See [Sketch::GetDetachSegmentOnDrag](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetDetachSegmentOnDrag.html).
 
 ## Remarks
 
@@ -75,9 +57,7 @@ Although this setting can be returned or set at any time, SOLIDWORKS sets it to 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::SetDetachSegmentOnDrag Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~SetDetachSegmentOnDrag.html)
 
 ## Availability

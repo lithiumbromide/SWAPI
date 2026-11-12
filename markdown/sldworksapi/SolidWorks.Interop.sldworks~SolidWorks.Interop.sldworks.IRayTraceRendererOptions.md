@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRa
 
 # IRayTraceRendererOptions Interface
 
-Allows access to a
+Allows access to a [ray-trace rendering engine's](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRayTraceRenderer.html) options.
 
-[ray-trace rendering engine's](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRayTraceRenderer.html)
-
-options.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,24 +41,15 @@ public interface class IRayTraceRendererOptions
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions.html)
-
-.
+See [RayTraceRendererOptions](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions.html).
 
 ## Examples
 
 [Render Model (C#)](Render_Model_Example_CSharp.htm)
-
 [Render Model (VB.NET)](Render_Model_Example_VBNET.htm)
-
 [Render Model (VBA)](Render_Model_Example_VB.htm)
-
 [Update Graphics Area After Changing Render Options (C#)](Update_Graphics_After_Changing_Render_Options_Example_CSharp.htm)
-
 [Update Graphics Area After Changing Render Options (VB.NET)](Update_Graphics_After_Changing_Render_Options_Example_VBNET.htm)
-
 [Update Graphics Area After Changing Render Options (VBA)](Update_Graphics_After_Changing_Render_Options_Example_VB.htm)
 
 ## Accessors
@@ -76,5 +63,4 @@ See
 ## See Also
 
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

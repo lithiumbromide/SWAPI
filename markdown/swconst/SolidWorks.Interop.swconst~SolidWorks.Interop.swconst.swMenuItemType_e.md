@@ -49,7 +49,5 @@ public enum class swMenuItemType_e : public System.Enum
 ## See Also
 
 [SolidWorks.Interop.swconst Namespace](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst_namespace.html)
-
 [ISldWorks::AddItemToThirdPartyPopupMenu](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddItemToThirdPartyPopupMenu.html)
-
 [ISldWorks::AddItemToThirdPartyPopupMenu2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddItemToThirdPartyPopupMenu2.html)

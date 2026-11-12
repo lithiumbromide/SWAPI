@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 Gets the Gtol frame datum.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ property System.String^ Datum {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,30 +55,21 @@ Gtol frame datum
 
 ## VBA Syntax
 
-See
-
-[PMIGtolFrameDatum::Datum](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolFrameDatum~Datum.html)
-
-.
+See [PMIGtolFrameDatum::Datum](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolFrameDatum~Datum.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## Remarks
 
 In the Geometric Tolerance Properties dialog, you can specify up to two datums linked to the Primary, Secondary, and Tertiary datums. Click the drop-down selector next to each datum field to pop up a linked datum dialog where you can specify the linked datums and their material modifiers.
 
-This property gets the primary, secondary, or tertiary datum. Use[IPMIGtolFrameDatum::DatumLinked1](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum~DatumLinked1.html)and[IPMIGtolFrameDatum::DatumLinked2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum~DatumLinked2.html)to get the datums linked to this datum.
+This property gets the primary, secondary, or tertiary datum. Use [IPMIGtolFrameDatum::DatumLinked1](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum~DatumLinked1.html) and [IPMIGtolFrameDatum::DatumLinked2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum~DatumLinked2.html) to get the datums linked to this datum.
 
 ## See Also
 
 [IPMIGtolFrameDatum Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum.html)
-
 [IPMIGtolFrameDatum Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolFrameDatum_members.html)
 
 ## Availability

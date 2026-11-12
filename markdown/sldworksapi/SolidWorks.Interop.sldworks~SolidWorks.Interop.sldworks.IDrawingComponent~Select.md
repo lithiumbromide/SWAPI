@@ -51,22 +51,12 @@ System.bool Select(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Append`: True to append this selection to the selection list, false to replace the selection list with this selection
-- `Data`: Pointer to the
-
-[ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-object
+- `Data`: Pointer to the [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
@@ -74,26 +64,18 @@ True if the drawing component is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::Select](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~Select.html)
-
-.
+See [DrawingComponent::Select](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~Select.html).
 
 ## Examples
 
 [Get Components in Drawing View (C#)](Get_Components_in_Drawing_View_Example_CSharp.htm)
-
 [Get Components in Drawing View (VB.NET)](Get_Components_in_Drawing_View_Example_VBNET.htm)
-
 [Get Components in Drawing View (VBA)](Get_Components_in_Drawing_View_Example_VB.htm)
 
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
-
 [IDrawingComponent::Select Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~Select.html)
 
 ## Availability

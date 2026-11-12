@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Center_of_Mass_Feature_Example_VBNET.htm"
 
 # Insert Center of Mass Feature Example (VB.NET)
 
-This example shows how to insert Center of Mass and Center of Mass Reference
-Point features.
+This example shows how to insert Center of Mass and Center of Mass Reference Point features.
 
 ```vb
  '----------------------------------------------------------------------------

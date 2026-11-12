@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertPatternFeature Interface Members
 
-The following tables list the members exposed by[IDimXpertPatternFeature](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPatternFeature.html).
+The following tables list the members exposed by [IDimXpertPatternFeature](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPatternFeature.html).
 
 ## Public Properties
 
@@ -32,5 +32,4 @@ The following tables list the members exposed by[IDimXpertPatternFeature](SolidW
 ## See Also
 
 [IDimXpertPatternFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPatternFeature.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPropertyManagerPageNumberbox Interface
 
-Allows you to access a
+Allows you to access a [PropertyManager page](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2.html) number box control.
 
-[PropertyManager page](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2.html)
-
-number box control.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,19 +41,11 @@ public interface class IPropertyManagerPageNumberbox
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageNumberbox](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox.html)
-
-.
+See [PropertyManagerPageNumberbox](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPage2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
-examples.
+See the [IPropertyManagerPage2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html) examples.
 
 ## Examples
 
@@ -75,17 +63,13 @@ For both types of number boxes, SOLIDWORKS automatically validates the values an
 - Accept numerical expressions.
 - Store all values as meters or radians and display them in the units specified in the current unit settings.
 
-NOTE:When a document's unit system is set to a non-metric setting, the dimension precision value (the number of digits displayed after a decimal point) is based on the number of digits specified. It is not based on the document's dimension precision settings.
+NOTE: When a document's unit system is set to a non-metric setting, the dimension precision value (the number of digits displayed after a decimal point) is based on the number of digits specified. It is not based on the document's dimension precision settings.
 
-See[Using PropertyManagerPage2 and the Related Objects](sldworksapiprogguide.chm::/overview/Using_PropertyManagerPage2_and_the_Related_Objects.htm)for more information.
+See [Using PropertyManagerPage2 and the Related Objects](sldworksapiprogguide.chm::/overview/Using_PropertyManagerPage2_and_the_Related_Objects.htm) for more information.
 
 ## Accessors
 
-[IPropertyManagerPage2::AddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html)
-
-and
-
-[IPropertyManagerPage2::IAddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html)
+[IPropertyManagerPage2::AddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html) and [IPropertyManagerPage2::IAddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html)
 
 ## Access Diagram
 
@@ -94,5 +78,4 @@ and
 ## See Also
 
 [IPropertyManagerPageNumberbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

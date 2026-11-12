@@ -40,13 +40,7 @@ System.bool DeSelect()
 System.bool DeSelect();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,16 @@ True if the BOM table is successfully deselected, false if not
 
 ## VBA Syntax
 
-See
-
-[BomTable::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~BomTable~DeSelect.html)
-
-.
+See [BomTable::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~BomTable~DeSelect.html).
 
 ## Remarks
 
-Before you use any of the IBomTable methods, activate the BOM table using
-
-[IBomTable::Attach3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Attach3.html)
-
-. After you finish getting BOM data, use
-
-[IBomTable::Detach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Detach.html)
-
-to deactivate the table.
+Before you use any of the IBomTable methods, activate the BOM table using [IBomTable::Attach3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Attach3.html). After you finish getting BOM data, use [IBomTable::Detach](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTable~Detach.html) to deactivate the table.
 
 ## See Also
 
 [IBomTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable.html)
-
 [IBomTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable_members.html)
-
 [IBomTable::Select Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTable~Select.html)
 
 ## Availability

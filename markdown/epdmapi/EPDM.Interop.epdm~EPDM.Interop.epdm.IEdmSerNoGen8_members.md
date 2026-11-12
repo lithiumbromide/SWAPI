@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen8_members.html"
 
 # IEdmSerNoGen8 Interface Members
 
-The following tables list the members exposed by[IEdmSerNoGen8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen8.html).
+The following tables list the members exposed by [IEdmSerNoGen8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen8.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmSerNoGen8](EPDM.Interop.epd
 ## See Also
 
 [IEdmSerNoGen8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen8.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

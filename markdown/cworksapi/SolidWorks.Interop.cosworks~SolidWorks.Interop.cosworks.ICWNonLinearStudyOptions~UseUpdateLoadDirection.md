@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNo
 
 # UseUpdateLoadDirection Property (ICWNonLinearStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWNonLinearStudyOptions::UseUpdateLoadDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~UseUpdateLoadDirection2.html)
-
-.
+Obsolete. Superseded by [ICWNonLinearStudyOptions::UseUpdateLoadDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~UseUpdateLoadDirection2.html).
 
 ## Syntax
 
@@ -56,24 +52,15 @@ property System.int UseUpdateLoadDirection {
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::UseUpdateLoadDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~UseUpdateLoadDirection.html)
-
-.
+See [CWNonLinearStudyOptions::UseUpdateLoadDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~UseUpdateLoadDirection.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

@@ -48,11 +48,7 @@ True to evaluate the supplement angle; false to not
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertAngleBetweenDimTol::Supplement](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAngleBetweenDimTol~Supplement.html)
-
-.
+See [SwDMDimXpertAngleBetweenDimTol::Supplement](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAngleBetweenDimTol~Supplement.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertAngleBetweenDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAngleBetweenDimTol.html)
-
 [ISwDMDimXpertAngleBetweenDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAngleBetweenDimTol_members.html)
 
 ## Availability

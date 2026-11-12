@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # gtFraOptionType_e Enumeration
 
-Options to use to filter a search for a find and replace annotation operation.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Options to use to filter a search for a find and replace annotation operation. [Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm).
 
 ## Syntax
 

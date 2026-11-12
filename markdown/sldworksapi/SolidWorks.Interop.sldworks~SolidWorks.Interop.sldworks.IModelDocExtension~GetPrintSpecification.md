@@ -40,13 +40,7 @@ System.object GetPrintSpecification()
 System.Object^ GetPrintSpecification();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetPrintSpecification](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetPrintSpecification.html)
-
-.
+See [ModelDocExtension::GetPrintSpecification](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetPrintSpecification.html).
 
 ## Examples
 
 [Print Drawing (VBA)](Print_Drawing_as_High_Quality_Example_VB.htm)
-
 [Print Drawing (VB.NET)](Print_Drawing_as_High_Quality_Example_VBNET.htm)
-
 [Print Drawing (C#)](Print_Drawing_as_High_Quality_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::PrintOut4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~PrintOut4.html)
 
 ## Availability

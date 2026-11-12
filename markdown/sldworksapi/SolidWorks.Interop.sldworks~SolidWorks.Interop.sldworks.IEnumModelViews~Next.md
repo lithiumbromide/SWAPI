@@ -54,31 +54,17 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Celt`: Number of model views for the model views enumeration
-- `Rgelt`: Pointer to an array of
-
-[model views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView.html)
-
-of size Celt
+- `Rgelt`: Pointer to an array of [model views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView.html) of size Celt
 - `PceltFetched`: Pointer to the number of model views returned from the list; this value can be less than celt if you ask for more model views than exist, or it can be NULL if no more model views exist
 
 ## VBA Syntax
 
-See
-
-[EnumModelViews::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumModelViews~Next.html)
-
-.
+See [EnumModelViews::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumModelViews~Next.html).
 
 ## Remarks
 
@@ -87,5 +73,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumModelViews Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumModelViews.html)
-
 [IEnumModelViews Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumModelViews_members.html)

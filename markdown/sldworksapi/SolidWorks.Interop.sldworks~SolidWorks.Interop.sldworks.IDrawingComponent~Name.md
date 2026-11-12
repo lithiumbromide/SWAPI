@@ -42,13 +42,7 @@ property System.String^ Name {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,22 +50,16 @@ Name of the drawing component
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::Name](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~Name.html)
-
-.
+See [DrawingComponent::Name](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~Name.html).
 
 ## Examples
 
 [Hide Drawing Components (VBA)](Hide_Drawing_Components_Example_VB.htm)
-
 [Put Assembly Components in Drawing View on Different Layers (VBA)](Put_Assembly_Components_in_Drawing_View_on_Different_Layers_Example_VB.htm)
 
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
 
 ## Availability

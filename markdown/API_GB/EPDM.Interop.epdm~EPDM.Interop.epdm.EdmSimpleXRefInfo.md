@@ -36,10 +36,14 @@ public value class EdmSimpleXRefInfo : public System.ValueType
 
 struct EdmSimpleXRefInfo
 
-{ long VersionNo ; long XRefDocumentID ; long XRefProjectID ; long XRefVersionNo ; };
+{
+long [VersionNo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo~VersionNo.html);
+long [XRefDocumentID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo~XRefDocumentID.html);
+long [XRefProjectID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo~XRefProjectID.html);
+long [XRefVersionNo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo~XRefVersionNo.html);
+};
 
 ## See Also
 
 [EdmSimpleXRefInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSimpleXRefInfo_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

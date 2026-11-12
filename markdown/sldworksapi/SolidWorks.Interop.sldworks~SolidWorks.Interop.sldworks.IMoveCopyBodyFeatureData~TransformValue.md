@@ -45,13 +45,7 @@ property System.double TransformValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Distance in meters or angle in radians
 
 ## VBA Syntax
 
-See
-
-[MoveCopyBodyFeatureData::TransformValue](ms-its:sldworksapivb6.chm::/sldworks~MoveCopyBodyFeatureData~TransformValue.html)
-
-.
+See [MoveCopyBodyFeatureData::TransformValue](ms-its:sldworksapivb6.chm::/sldworks~MoveCopyBodyFeatureData~TransformValue.html).
 
 ## See Also
 
 [IMoveCopyBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveCopyBodyFeatureData.html)
-
 [IMoveCopyBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveCopyBodyFeatureData_members.html)
 
 ## Availability

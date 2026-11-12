@@ -39,30 +39,17 @@ void ResetSceneExtProperty()
 void ResetSceneExtProperty();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ResetSceneExtProperty](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ResetSceneExtProperty.html)
-
-.
+See [ModelDoc2::ResetSceneExtProperty](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ResetSceneExtProperty.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::AddSceneExtProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddSceneExtProperty.html)
-
 [IModelDoc2::GetSceneExtProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetSceneExtProperty.html)
 
 ## Availability

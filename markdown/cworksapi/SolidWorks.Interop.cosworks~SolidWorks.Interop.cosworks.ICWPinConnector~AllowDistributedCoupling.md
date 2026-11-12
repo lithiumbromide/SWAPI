@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPi
 
 # AllowDistributedCoupling Property (ICWPinConnector)
 
-Obsolete. Superseded by ICWPinConnector::AllowDistributedCoupling2.
+Obsolete. Superseded by [ICWPinConnector::AllowDistributedCoupling2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~AllowDistributedCoupling2.html).
 
 ## Syntax
 
@@ -48,24 +48,15 @@ True if distributed coupling is allowed, false if not
 
 ## VBA Syntax
 
-See
-
-[CWPinConnector::AllowDistributedCoupling](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~AllowDistributedCoupling.html)
-
-.
+See [CWPinConnector::AllowDistributedCoupling](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~AllowDistributedCoupling.html).
 
 ## Remarks
 
-If this property is true, you can set
-
-[ICWPinConnector::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~ConnectionType.html)
-
-.
+If this property is true, you can set [ICWPinConnector::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~ConnectionType.html).
 
 ## See Also
 
 [ICWPinConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
 [ICWPinConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector_members.html)
 
 ## Availability

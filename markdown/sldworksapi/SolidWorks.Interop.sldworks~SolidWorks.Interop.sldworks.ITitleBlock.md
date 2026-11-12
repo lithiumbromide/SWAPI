@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITi
 
 Allows access to the title block in this sheet.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class ITitleBlock
 
 ## VBA Syntax
 
-See
-
-[TitleBlock](ms-its:sldworksapivb6.chm::/sldworks~TitleBlock.html)
-
-.
+See [TitleBlock](ms-its:sldworksapivb6.chm::/sldworks~TitleBlock.html).
 
 ## Examples
 
 [Get Notes from New or Existing Title Block (C#)](Get_Notes_from_New_or_Existing_Title_Block_Example_CSharp.htm)
-
 [Get Notes from New or Existing Title Block (VB.NET)](Get_Notes_from_New_or_Existing_Title_Block_Example_VBNET.htm)
-
 [Get Notes from New or Existing Title Block (VBA)](Get_Notes_from_New_or_Existing_Title_Block_Example_VB.htm)
 
 ## Remarks
@@ -72,5 +66,4 @@ Only one title block feature can exist in a sheet.
 ## See Also
 
 [ITitleBlock Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

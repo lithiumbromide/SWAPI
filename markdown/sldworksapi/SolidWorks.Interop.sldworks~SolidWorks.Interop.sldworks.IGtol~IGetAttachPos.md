@@ -40,31 +40,15 @@ System.double IGetAttachPos()
 System.double IGetAttachPos();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to array of doubles
-
-  kadov_tag{{<spaces>}}
-
-  kadov_tag{{</spaces>}}
-
-  (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to array of doubles (see **Remarks**)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
@@ -81,7 +65,5 @@ Format of return value is the following array of doubles:
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetAttachPos Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetAttachPos.html)

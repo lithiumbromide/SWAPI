@@ -48,24 +48,15 @@ Part number
 
 ## VBA Syntax
 
-See
-
-[WireProperty::PartNumber](ms-its:routingapivb6.chm::/SWRoutingLib~WireProperty~PartNumber.html)
-
-.
+See [WireProperty::PartNumber](ms-its:routingapivb6.chm::/SWRoutingLib~WireProperty~PartNumber.html).
 
 ## Examples
 
-See the
-
-[IWireProperty](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty.html)
-
-examples.
+See the [IWireProperty](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty.html) examples.
 
 ## See Also
 
 [IWireProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty.html)
-
 [IWireProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty_members.html)
 
 ## Availability

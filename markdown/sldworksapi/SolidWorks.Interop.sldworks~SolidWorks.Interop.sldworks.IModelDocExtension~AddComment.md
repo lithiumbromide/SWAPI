@@ -47,47 +47,31 @@ Comment^ AddComment(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Text`: Comment to add to the document's Comment folderParamDesc
+- `Text`: Comment to add to the document's Comment folder
 
 ### Return Value
 
-[Comment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComment.html)
-
-folder
+[Comment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComment.html) folder
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::AddComment](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~AddComment.html)
-
-.
+See [ModelDocExtension::AddComment](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~AddComment.html).
 
 ## Examples
 
 [Add Comment to Assembly Component (VBA)](Add_Comment_to_Assembly_Component_Example_VB.htm)
-
 [Add Comment to Assembly Component (VB.NET)](Add_Comment_to_Assembly_Component_Example_VBNET.htm)
-
 [Add Comment to Assembly Component (C#)](Add_Comment_to_Assembly_Component_Example_CSharp.htm)
 
 ## Remarks
 
-A comment is added to the document's Comment folder, and the comment is associated with the preselected item when this method is run.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+A comment is added to the document's Comment folder, and the comment is associated with the preselected item when this method is run.
 
 For example:
-
-(Table)=========================================================
 
 | If... | Then the comment is... |
 | --- | --- |
@@ -101,9 +85,7 @@ IModelDocExtension::AddComment rebuilds the FeatureManager design tree automatic
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IComment::Delete Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComment~Delete.html)
 
 ## Availability

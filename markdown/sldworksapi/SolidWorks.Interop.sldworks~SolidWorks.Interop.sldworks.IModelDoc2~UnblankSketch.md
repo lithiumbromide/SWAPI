@@ -39,36 +39,22 @@ void UnblankSketch()
 void UnblankSketch();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::UnblankSketch](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~UnblankSketch.html)
-
-.
+See [ModelDoc2::UnblankSketch](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~UnblankSketch.html).
 
 ## Examples
 
 [Hide and Show Sketches (C#)](Hide_and_Show_Sketches_Example_CSharp.htm)
-
 [Hide and Show Sketches (VB.NET)](Hide_and_Show_Sketches_Example_VBNET.htm)
-
 [Hide and Show Sketches (VBA)](Hide_and_Show_Sketches_Example_VB.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::BlankSketch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~BlankSketch.html)
 
 ## Availability

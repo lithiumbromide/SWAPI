@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchRectangle Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::CreateCornerRectangle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateCornerRectangle.html)
-
-.
+Obsolete. Superseded by [ISketchManager::CreateCornerRectangle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateCornerRectangle.html).
 
 ## Syntax
 
@@ -74,13 +70,7 @@ void SketchRectangle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -94,24 +84,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchRectangle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchRectangle.html)
-
-.
+See [ModelDoc2::SketchRectangle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchRectangle.html).
 
 ## Examples
 
 [Create Revolve Features (VBA)](Create_Revolve_Features_Example_VB.htm)
-
 [Connect to SOLIDWORKS Session (C#)](Connect_to_SOLIDWORKS_Session_CSharp.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SketchRectangleAtAnyAngle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchRectangleAtAnyAngle.html)
 
 ## Availability

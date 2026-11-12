@@ -51,13 +51,7 @@ System.bool SketchReplace2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,33 +64,26 @@ True if the the sketch entity is successfully replaced, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchManager::SketchReplace2](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchReplace2.html)
-
-.
+See [SketchManager::SketchReplace2](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchReplace2.html).
 
 ## Examples
 
 [Replace Sketch Entity (VBA)](Replace_Sketch_Example_VB.htm)
-
 [Replace Sketch Entity (VB.NET)](Replace_Sketch_Example_VBNET.htm)
-
 [Replace Sketch Entity (C#)](Replace_Sketch_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, call[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with Append set to true to select each of the following entities:
+Before calling this method, call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with Append set to true to select each of the following entities:
 
 1. Sketch entity to be replaced.
 2. Replacement sketch entity that does not reference downstream geometry or have references outside of the sketch.
 
-After calling this method, call[ISketchManager::InsertSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertSketch.html)to rebuild the model with the replacement sketch.
+After calling this method, call [ISketchManager::InsertSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertSketch.html) to rebuild the model with the replacement sketch.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

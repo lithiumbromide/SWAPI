@@ -9,8 +9,7 @@ source: "sldworksapi/Undo_Hidden_Component_and_Fire_Undo_Post-Notify_Event_Examp
 
 # Undo Hidden Component and Fire Undo Post-Notify Event Example (VBA)
 
-This example shows how to fire an undo post-notification in
-an assembly document.
+This example shows how to fire an undo post-notification in an assembly document.
 
 ```
 '--------------------------------------------------------------------------

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # HoleWizard Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::HoleWizard2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~HoleWizard2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::HoleWizard2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~HoleWizard2.html).
 
 ## Syntax
 
@@ -123,13 +119,7 @@ Feature^ HoleWizard(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -155,14 +145,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::HoleWizard](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~HoleWizard.html)
-
-.
+See [FeatureManager::HoleWizard](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~HoleWizard.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)

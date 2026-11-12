@@ -9,8 +9,7 @@ source: "swmotionstudyapi/Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.
 
 # Duplicate, Delete, and Create Motion Study Example (VBA)
 
-This example shows how to create a duplicate motion study, delete an
-existing motion study, and create a new motion study.
+This example shows how to create a duplicate motion study, delete an existing motion study, and create a new motion study.
 
 ```
 '------------------------------------------------------------------

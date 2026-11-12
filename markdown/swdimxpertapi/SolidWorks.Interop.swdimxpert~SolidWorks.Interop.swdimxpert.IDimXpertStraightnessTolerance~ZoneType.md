@@ -44,22 +44,15 @@ property swDimXpertStraightnessZoneType_e ZoneType {
 
 ### Property Value
 
-Position zone type as defined in
-
-[swDimXpertStraightnessZoneType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertStraightnessZoneType_e.html)
+Position zone type as defined in [swDimXpertStraightnessZoneType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertStraightnessZoneType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertStraightnessTolerance::ZoneType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertStraightnessTolerance~ZoneType.html)
-
-.
+See [DimXpertStraightnessTolerance::ZoneType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertStraightnessTolerance~ZoneType.html).
 
 ## See Also
 
 [IDimXpertStraightnessTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertStraightnessTolerance.html)
-
 [IDimXpertStraightnessTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertStraightnessTolerance_members.html)
 
 ## Availability

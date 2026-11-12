@@ -45,13 +45,7 @@ property System.double PatternScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Pattern scale
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::PatternScale](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~PatternScale.html)
-
-.
+See [RenderMaterial::PatternScale](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~PatternScale.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ A procedural texture is one where you only have control over the colors in the m
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -40,7 +40,6 @@ The retrun value is empty if the file is not checked out.
 ## See Also
 
 [IEdmReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)
-
 [IEdmReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5_members.html)
 
 ## Availability

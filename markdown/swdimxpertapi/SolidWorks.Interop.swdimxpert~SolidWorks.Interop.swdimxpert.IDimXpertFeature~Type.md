@@ -44,30 +44,21 @@ property swDimXpertFeatureType_e Type {
 
 ### Property Value
 
-Type of this DimXpert feature as defined in
-
-[swDimXpertFeatureType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertFeatureType_e.html)
+Type of this DimXpert feature as defined in [swDimXpertFeatureType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertFeatureType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertFeature::Type](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFeature~Type.html)
-
-.
+See [DimXpertFeature::Type](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertFeature~Type.html).
 
 ## Examples
 
 [Get DimXpert Display Dimensions and Feature (C#)](Get_DimXpert_Display_Dimensions_and_Feature_Example_CSharp.htm)
-
 [Get DimXpert Display Dimensions and Feature (VB.NET)](Get_DimXpert_Display_Dimensions_and_Feature_Example_VBNET.htm)
-
 [Get DimXpert Display Dimensions and Feature (VBA)](Get_DimXpert_Display_Dimensions_and_Feature_Example_VB.htm)
 
 ## See Also
 
 [IDimXpertFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature.html)
-
 [IDimXpertFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature_members.html)
 
 ## Availability

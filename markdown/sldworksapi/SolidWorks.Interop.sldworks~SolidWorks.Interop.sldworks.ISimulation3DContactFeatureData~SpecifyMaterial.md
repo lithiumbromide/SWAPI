@@ -45,13 +45,7 @@ property System.bool SpecifyMaterial {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to use materials, false to not
 
 ## VBA Syntax
 
-See
-
-[Simulation3DContactFeatureData::SpecifyMaterial](ms-its:sldworksapivb6.chm::/sldworks~Simulation3DContactFeatureData~SpecifyMaterial.html)
-
-.
+See [Simulation3DContactFeatureData::SpecifyMaterial](ms-its:sldworksapivb6.chm::/sldworks~Simulation3DContactFeatureData~SpecifyMaterial.html).
 
 ## Examples
 
-See the
-
-[ISimulation3DContactFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html)
-
-examples.
+See the [ISimulation3DContactFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html) examples.
 
 ## Remarks
 
@@ -85,9 +71,7 @@ Set to false to modify elastic properties:
 ## See Also
 
 [ISimulation3DContactFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData.html)
-
 [ISimulation3DContactFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData_members.html)
-
 [ISimulation3DContactFeatureData::MaterialID Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation3DContactFeatureData~MaterialID.html)
 
 ## Availability

@@ -40,44 +40,23 @@ System.object GetCornerManagementFolder()
 System.Object^ GetCornerManagementFolder();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html
-
-[IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
+SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html[IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[StructureSystemFolder::GetCornerManagementFolder](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemFolder~GetCornerManagementFolder.html)
-
-.
+See [StructureSystemFolder::GetCornerManagementFolder](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemFolder~GetCornerManagementFolder.html).
 
 ## Remarks
 
-After calling this method to get the IFeature, use
-
-[IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html)
-
-to get an
-
-[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)
-
-.
+After calling this method to get the IFeature, use [IFeature::GetSpecificFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html) to get an [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html).
 
 ## See Also
 
 [IStructureSystemFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)
-
 [IStructureSystemFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder_members.html)
 
 ## Availability

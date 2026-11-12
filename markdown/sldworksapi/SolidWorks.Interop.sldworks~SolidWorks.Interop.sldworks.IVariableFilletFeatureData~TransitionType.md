@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVa
 
 # TransitionType Property (IVariableFilletFeatureData)
 
-Obsolete. Superseded by
-
-[IVariableFilletFeatureData2::TransitionType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~TransitionType.html)
-
-.
+Obsolete. Superseded by [IVariableFilletFeatureData2::TransitionType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~TransitionType.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.int TransitionType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData::TransitionType](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData~TransitionType.html)
-
-.
+See [VariableFilletFeatureData::TransitionType](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData~TransitionType.html).
 
 ## See Also
 
 [IVariableFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData.html)
-
 [IVariableFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData_members.html)

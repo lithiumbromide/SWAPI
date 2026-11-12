@@ -9,12 +9,9 @@ source: "API_GB/Execute_Template_2_Example_CSharp.htm"
 
 # Execute Template and Return Data Example (C#)
 
-This example shows how to execute a template to create a
-folder structure in a vault and return information.
+This example shows how to execute a template to create a folder structure in a vault and return information.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //----------------------------------------------------------------------------

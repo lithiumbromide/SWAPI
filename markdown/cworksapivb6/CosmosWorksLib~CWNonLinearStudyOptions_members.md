@@ -1,6 +1,5 @@
 ---
-title: "CWNonLinearStudyOptions Object
-Members"
+title: "CWNonLinearStudyOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWNonLinearStudyOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWNonLinearStudyOptions_members.html"
 ---
 
-# CWNonLinearStudyOptions Object
-Members
+# CWNonLinearStudyOptions Object Members
 
 ## Public Methods
 
@@ -38,6 +36,8 @@ Members
 | Public Property CheckRunAsLegacy2 |  |
 | Public Property CheckUseTempFromThermalStudy |  |
 | Public Property CheckUseTempFromThermalStudy2 |  |
+| Public Property ContactPenaltyStiffnessScaleFactor |  |
+| Public Property ContactPenaltyStiffnessScaleFactorGlobalDefault |  |
 | Public Property ControlMethodType |  |
 | Public Property DefinedReferencePressure |  |
 | Public Property EMail |  |

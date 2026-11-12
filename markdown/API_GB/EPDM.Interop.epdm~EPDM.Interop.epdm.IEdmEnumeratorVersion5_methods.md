@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5_metho
 
 # IEdmEnumeratorVersion5 Interface Methods
 
-For a list of all members of this type, see[IEdmEnumeratorVersion5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5_members.html).
+For a list of all members of this type, see [IEdmEnumeratorVersion5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5_members.html).
 
 ## Public Methods
 
@@ -31,5 +31,4 @@ For a list of all members of this type, see[IEdmEnumeratorVersion5 members](EPDM
 ## See Also
 
 [IEdmEnumeratorVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Space_Parameter_Curve_on_Surface_Example_VB.htm"
 
 # Create Space Parameter Curve on Surface Example (VBA)
 
-This example shows how to create a space parameter (SP) curve on a surface.
-This example also shows how to pack integers into doubles.
+This example shows how to create a space parameter (SP) curve on a surface. This example also shows how to pack integers into doubles.
 
 ```
 '----------------------------------------------

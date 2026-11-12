@@ -63,13 +63,7 @@ System.bool IntersectCurve2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,24 +79,18 @@ True if getting the intersection succeeded, false if not
 
 ## VBA Syntax
 
-See
-
-[Surface::IntersectCurve2](ms-its:sldworksapivb6.chm::/sldworks~Surface~IntersectCurve2.html)
-
-.
+See [Surface::IntersectCurve2](ms-its:sldworksapivb6.chm::/sldworks~Surface~IntersectCurve2.html).
 
 ## Remarks
 
 The curves must be bounded.
 
-Visual Basic and C++ Dispatch applications should use this method instead of using[ISurface::GetIntersectCurveCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetIntersectCurveCount2.html).
+Visual Basic and C++ Dispatch applications should use this method instead of using [ISurface::GetIntersectCurveCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetIntersectCurveCount2.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IIntersectCurve2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IIntersectCurve2.html)
 
 ## Availability

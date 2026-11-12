@@ -9,66 +9,42 @@ source: "obsoleteapi/Annotation/Annotation__SetLeader2.htm"
 
 # Annotation::SetLeader2
 
-This method is obsolete and has been superseded
-by[Annotation::SetLeader3](sldworksAPI.chm::/Annotation/Annotation__SetLeader3.htm).
+This method is obsolete and has been superseded by [Annotation::SetLeader3](sldworksAPI.chm::/Annotation/Annotation__SetLeader3.htm).
 
 Description
 
-This method sets the leader display characteristics
-for this annotation.
+This method sets the leader display characteristics for this annotation.
 
 Syntax (OLE Automation)
 
-retval = Annotation.SetLeader2 (leader, leaderSide, smartArrowHeadStyle, bentLeader, perpendicular, allAround)
+retval = Annotation.SetLeader2 ( leader, leaderSide, smartArrowHeadStyle, bentLeader, perpendicular, allAround )
 
-(Table)=========================================================
-
-| Input: | (BOOL) leader | TRUE to enable leader display, FALSE to disable
-it |
+| Input: | (BOOL) leader | TRUE to enable leader display, FALSE to disable it |
 | --- | --- | --- |
 | Input: | (long) leaderSide | Leader side as defined in swLeaderSide_e |
-| Input: | (BOOL) smartArrowHeadStyle | TRUE to enable smart arrowhead style, False to
-disable it |
-| Input: | (BOOL) bentLeader | TRUE to enable bent leader display, FALSE to
-disable it |
-| Input: | (BOOL) perpendicular | TRUE to enable perpendicular bent leader display,
-FALSE to disable it |
-| Input: | (BOOL) allArround | TRUE to enable all around symbol display, FALSE
-to disable it |
-| Return: | (long) retval | Indication whether the operation was successful
-(see Remarks ) |
+| Input: | (BOOL) smartArrowHeadStyle | TRUE to enable smart arrowhead style, False to disable it |
+| Input: | (BOOL) bentLeader | TRUE to enable bent leader display, FALSE to disable it |
+| Input: | (BOOL) perpendicular | TRUE to enable perpendicular bent leader display, FALSE to disable it |
+| Input: | (BOOL) allArround | TRUE to enable all around symbol display, FALSE to disable it |
+| Return: | (long) retval | Indication whether the operation was successful (see Remarks ) |
 
 Syntax (COM)
 
-status = Annotation->SetLeader2 ( leader, leaderSide,
-smartArrowHeadStyle, bentLeader, perpendicular, allAround, &retval
-)
+status = Annotation->SetLeader2 ( leader, leaderSide, smartArrowHeadStyle, bentLeader, perpendicular, allAround, &retval )
 
-(Table)=========================================================
-
-| Input: | (VARIANT_BOOL) leader | TRUE to enable leader display, FALSE to disable
-it |
+| Input: | (VARIANT_BOOL) leader | TRUE to enable leader display, FALSE to disable it |
 | --- | --- | --- |
 | Input: | (long) leaderSide | Leader side as defined in swLeaderSide_e |
-| Input: | (VARIANT_BOOL) smartArrowHeadStyle | TRUE to enable smart arrowhead style, FALSE to
-disable it |
-| Input: | (VARIANT_BOOL) bentLeader | TRUE to enable bent leader display, FALSE to
-disable it |
-| Input: | (VARIANT_BOOL) perpendicular | True to enable perpendicular bent leader display,
-FALSE to disable it |
-| Input: | (VARIANT_BOOL) allArround | TRUE to enable all around symbol display, FALSE
-to disable it |
-| Output: | (long) retval | Indication whether the operation was successful
-(see Remarks ) |
+| Input: | (VARIANT_BOOL) smartArrowHeadStyle | TRUE to enable smart arrowhead style, FALSE to disable it |
+| Input: | (VARIANT_BOOL) bentLeader | TRUE to enable bent leader display, FALSE to disable it |
+| Input: | (VARIANT_BOOL) perpendicular | True to enable perpendicular bent leader display, FALSE to disable it |
+| Input: | (VARIANT_BOOL) allArround | TRUE to enable all around symbol display, FALSE to disable it |
+| Output: | (long) retval | Indication whether the operation was successful (see Remarks ) |
 | Return: | (HRESULT) status | S_OK if successfu |
 
 Remarks
 
-These parameters are characteristics of the annotation,
-not individual leaders, and you can get or set them whether or not leaders
-are displayed.
-
-(Table)=========================================================
+These parameters are characteristics of the annotation, not individual leaders, and you can get or set them whether or not leaders are displayed.
 
 | Use... | To... |
 | --- | --- |
@@ -79,17 +55,9 @@ are displayed.
 | Annotation::GetLeaderPerpendicular | Determine whether perpendicular bent leader display is enabled or disabled |
 | Annotation::GetLeaderAllAround | Determine whether all around symbol display is enabled or disabled |
 
-You can set the leader side, smart arrowhead style,
-and bent leader values at any time. However, if leader display is disabled,
-you cannot affect the display of the annotation by setting these values.
-You can also set the perpendicular bent leader and all around symbol display
-at any time, but if bent leaders are disabled, you cannot affect the display
-of the annotation by setting these values.
+You can set the leader side, smart arrowhead style, and bent leader values at any time. However, if leader display is disabled, you cannot affect the display of the annotation by setting these values. You can also set the perpendicular bent leader and all around symbol display at any time, but if bent leaders are disabled, you cannot affect the display of the annotation by setting these values.
 
-The return status of this operation can have the
-following values:
-
-(Table)=========================================================
+The return status of this operation can have the following values:
 
 | 0 | Leader characteristics were successfully set |
 | --- | --- |
@@ -99,68 +67,4 @@ following values:
 | -4 | Leaders cannot be disabled on this type of annotation |
 | -5 | Bent leaders cannot be disabled on this type of annotation |
 
-If leader display is enabled, then this method
-changes the visible model. To see those changes, the graphics window must
-be redrawn using ModelDoc2::GraphicsRedraw2.
-
-kadov_tag{{<implicit_p>}}
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1323" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Annotation_Object$$**$$ArrowHeadInfo$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2006\obsoleteapi\Annotation\Annotation__SetLeader2.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>
-
-Metadata type="DesignerControl" endspan
-
-begin!kadov{{
-
-}}end!kadov
-
-kadov_tag{{<implicit_p>}}
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic3>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1217" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="EXInsertNote$$**$$EXCreateBlockDefinition$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\cheryle\APIHelp\sw2006\obsoleteapi\Annotation\Annotation__SetLeader2.htm" >
-<param name="_ID" value="RelatedTopic3" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>
-
-Metadata type="DesignerControl" endspan
+If leader display is enabled, then this method changes the visible model. To see those changes, the graphics window must be redrawn using ModelDoc2::GraphicsRedraw2.

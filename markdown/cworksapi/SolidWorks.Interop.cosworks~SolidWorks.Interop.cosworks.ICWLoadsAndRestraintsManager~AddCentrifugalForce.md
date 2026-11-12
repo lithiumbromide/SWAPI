@@ -54,7 +54,7 @@ CWCentriFugalForce^ AddCentrifugalForce(
 ### Parameters
 
 - `DispEntity`: Reference geometry (axis, edge, or cylindrical face) to specify direction
-- `ErrorCode`: Error as defined in[swsCentrifugalForceError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsCentrifugalForceError_e.html)
+- `ErrorCode`: Error as defined in [swsCentrifugalForceError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsCentrifugalForceError_e.html)
 
 ### Return Value
 
@@ -62,18 +62,12 @@ CWCentriFugalForce^ AddCentrifugalForce(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddCentrifugalForce](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddCentrifugalForce.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddCentrifugalForce](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddCentrifugalForce.html).
 
 ## Examples
 
 [Add Centrifugal Load (VBA)](Add_Centrifugal_Load_Example_VB.htm)
-
 [Add Centrifugal Load (VB.NET)](Add_Centrifugal_Load_Example_VBNET.htm)
-
 [Add Centrifugal Load (C#)](Add_Centrifugal_Load_Example_CSharp.htm)
 
 ## Remarks
@@ -83,7 +77,6 @@ The density material property must be specified to consider the effect of centri
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

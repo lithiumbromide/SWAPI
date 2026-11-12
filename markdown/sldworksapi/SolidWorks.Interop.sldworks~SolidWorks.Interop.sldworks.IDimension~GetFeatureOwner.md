@@ -40,29 +40,15 @@ Feature GetFeatureOwner()
 Feature^ GetFeatureOwner();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object for this dimension
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object for this dimension
 
 ## VBA Syntax
 
-See
-
-[Dimension::GetFeatureOwner](ms-its:sldworksapivb6.chm::/sldworks~Dimension~GetFeatureOwner.html)
-
-.
+See [Dimension::GetFeatureOwner](ms-its:sldworksapivb6.chm::/sldworks~Dimension~GetFeatureOwner.html).
 
 ## Examples
 
@@ -71,7 +57,6 @@ See
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)
 
 ## Availability

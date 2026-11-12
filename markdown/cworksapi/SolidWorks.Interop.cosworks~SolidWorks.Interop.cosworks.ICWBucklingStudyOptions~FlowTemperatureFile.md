@@ -47,44 +47,23 @@ property System.String^ FlowTemperatureFile {
 
 ### Property Value
 
-Full path name of a SOLIDWORKS Flow Simulation result file (
-
-*.fld
-
-)
+Full path name of a SOLIDWORKS Flow Simulation result file (***.fld**)
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::FlowTemperatureFile](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~FlowTemperatureFile.html)
-
-.
+See [CWBucklingStudyOptions::FlowTemperatureFile](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~FlowTemperatureFile.html).
 
 ## Examples
 
-See the
-
-[ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
-examples.
+See the [ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ICWBucklingStudyOptions::ThermalResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~ThermalResults.html)
-
-is set to
-
-[swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html)
-
-.swsThermalOption_TemperatureFromFlow.
+This property is valid only if [ICWBucklingStudyOptions::ThermalResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~ThermalResults.html) is set to [swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html).swsThermalOption_TemperatureFromFlow.
 
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # ConeParams Property (ISurface)
 
-Obsolete. Superseded by
-
-[ISurface::ConeParams2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~ConeParams2.html)
-
-.
+Obsolete. Superseded by [ISurface::ConeParams2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~ConeParams2.html).
 
 ## Syntax
 
@@ -46,13 +42,7 @@ property System.Object^ ConeParams {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -60,11 +50,7 @@ Array of doubles describing the parameters of a conical surface
 
 ## VBA Syntax
 
-See
-
-[Surface::ConeParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~ConeParams.html)
-
-.
+See [Surface::ConeParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~ConeParams.html).
 
 ## Remarks
 
@@ -79,14 +65,11 @@ Returns an array of 8 doubles:
 - radius
 - half angle
 
-Thehalf angle, origin,andradiusparameters are in meters.
+The half angle, origin, and radius parameters are in meters.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IConeParams Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IConeParams.html)
-
 [ISurface::IsCone Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IsCone.html)

@@ -49,9 +49,7 @@ System.Object^ GetTableNames(
 
 ### Parameters
 
-- `TableType`: Type of table as defined by
-
-[swDMTableType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableType.html)
+- `TableType`: Type of table as defined by [swDMTableType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableType.html)
 
 ### Return Value
 
@@ -59,28 +57,19 @@ Array of table names
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument10::GetTableNames](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument10~GetTableNames.html)
-
-.
+See [SwDMDocument10::GetTableNames](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument10~GetTableNames.html).
 
 ## Examples
 
 [Get BOM Tables (C#)](Get_BOM_Tables_Example_CSharp.htm)
-
 [Get BOM Tables (VB.NET)](Get_BOM_Tables_Example_VBNET.htm)
 
 ## See Also
 
 [ISwDMDocument10 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument10.html)
-
 [ISwDMDocument10 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument10_members.html)
-
 [ISwDMDocument10::GetTable Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument10~GetTable.html)
-
 [ISwDMTable Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable.html)
-
 [ISwDMTable2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2.html)
 
 ## Availability

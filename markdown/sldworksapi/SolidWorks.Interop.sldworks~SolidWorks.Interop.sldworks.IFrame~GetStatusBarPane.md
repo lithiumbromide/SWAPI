@@ -40,25 +40,15 @@ StatusBarPane GetStatusBarPane()
 StatusBarPane^ GetStatusBarPane();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to a[status bar pane object](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStatusBarPane.html)
+Pointer to a [status bar pane object](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStatusBarPane.html)
 
 ## VBA Syntax
 
-See
-
-[Frame::GetStatusBarPane](ms-its:sldworksapivb6.chm::/sldworks~Frame~GetStatusBarPane.html)
-
-.
+See [Frame::GetStatusBarPane](ms-its:sldworksapivb6.chm::/sldworks~Frame~GetStatusBarPane.html).
 
 ## Remarks
 
@@ -71,9 +61,7 @@ These objects appear on the status bar until they go out of scope. To use them i
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [IFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html)
-
 [IFrame::SetStatusBarText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~SetStatusBarText.html)
 
 ## Availability

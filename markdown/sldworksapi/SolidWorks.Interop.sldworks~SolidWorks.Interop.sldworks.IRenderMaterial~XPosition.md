@@ -45,13 +45,7 @@ property System.double XPosition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ X offset direction
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::XPosition](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~XPosition.html)
-
-.
+See [RenderMaterial::XPosition](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~XPosition.html).
 
 ## Remarks
 
 This property offsets the appearance from its original position.
 
-Call[IRenderMaterial::YPosition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~YPosition.html)to set the Y offset direction for the appearance.
+Call [IRenderMaterial::YPosition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~YPosition.html) to set the Y offset direction for the appearance.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

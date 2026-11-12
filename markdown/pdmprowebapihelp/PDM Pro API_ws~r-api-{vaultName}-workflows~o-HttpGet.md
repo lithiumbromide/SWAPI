@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/workflows |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Workflow Resource Group : api/{vaultName}/workflows (Get) |
 | --- |
@@ -124,8 +120,4 @@ Response (application/xml, text/xml)
 
 See Also
 
-[Workflow Resource Group](PDM%20Pro%20API_ws~g-9f5fba41-ad72-44e1-a9f2-866fdf258ef8.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Workflow Resource Group](PDM%20Pro%20API_ws~g-9f5fba41-ad72-44e1-a9f2-866fdf258ef8.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

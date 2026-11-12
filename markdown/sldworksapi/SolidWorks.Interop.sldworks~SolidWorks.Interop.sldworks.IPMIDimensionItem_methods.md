@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 # IPMIDimensionItem Interface Methods
 
-For a list of all members of this type, see[IPMIDimensionItem members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionItem_members.html).
+For a list of all members of this type, see [IPMIDimensionItem members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionItem_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IPMIDimensionItem members](SolidWork
 ## See Also
 
 [IPMIDimensionItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionItem.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Is_Feature_Suppressed_in_Specified_Configurations_Example_V
 
 # Is Feature Suppressed in Configuration Example (VBA)
 
-This example shows how to find out if a feature is suppressed in the
-specified configurations.
+This example shows how to find out if a feature is suppressed in the specified configurations.
 
 ```
 '-------------------------------------------------

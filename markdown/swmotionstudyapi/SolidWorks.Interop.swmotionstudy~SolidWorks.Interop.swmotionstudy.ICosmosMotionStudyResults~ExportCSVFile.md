@@ -9,11 +9,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 # ExportCSVFile Method (ICosmosMotionStudyResults)
 
-Exports a plot to a comma-separated value (
-
-.csv
-
-) formatted file.
+Exports a plot to a comma-separated value (.csv) formatted file.
 
 ## Syntax
 
@@ -58,32 +54,19 @@ System.bool ExportCSVFile(
 ### Parameters
 
 - `PlotFeature`: Plot
-- `FileName`: Fully qualified path for the the .
-
-csv
-
-file
+- `FileName`: Fully qualified path for the the .csv file
 
 ### Return Value
 
-True if the plot is exported to a .
-
-csv
-
-file, false if not
+True if the plot is exported to a .csv file, false if not
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyResults::ExportCSVFile](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyResults~ExportCSVFile.html)
-
-.
+See [CosmosMotionStudyResults::ExportCSVFile](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyResults~ExportCSVFile.html).
 
 ## See Also
 
 [ICosmosMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults.html)
-
 [ICosmosMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults_members.html)
 
 ## Availability

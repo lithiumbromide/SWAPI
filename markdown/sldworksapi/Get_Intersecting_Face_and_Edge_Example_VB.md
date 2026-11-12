@@ -11,9 +11,7 @@ source: "sldworksapi/Get_Intersecting_Face_and_Edge_Example_VB.htm"
 
 This example shows how to get the intersection of a face and an edge.
 
-**NOTE:**A face and an edge intersect in a series of points. This example
-shows how to use some of the geometry- and topology-related methods to get the
-intersection points.
+**NOTE:** A face and an edge intersect in a series of points. This example shows how to use some of the geometry- and topology-related methods to get the intersection points.
 
 ```
 '-------------------------------------------------------

@@ -68,55 +68,24 @@ void GetRotationComponentsValues2(
 
 ### Parameters
 
-- `BVal1`: -1 or true to use DVal1 , 0 or false to not (see
-
-Remarks
-
-)
-- `BVal2`: -1 or true to use DVal2, 0 or false to not (see
-
-Remarks
-
-)
-- `BVal3`: -1 or true to use DVal3, 0 or false to not (see
-
-Remarks
-
-)
-- `DVal1`: (see
-
-Remarks
-
-)
-- `DVal2`: (see
-
-Remarks
-
-)
-- `DVal3`: (see
-
-Remarks
-
-)
+- `BVal1`: -1 or true to use DVal1 , 0 or false to not (see **Remarks**)
+- `BVal2`: -1 or true to use DVal2, 0 or false to not (see **Remarks**)
+- `BVal3`: -1 or true to use DVal3, 0 or false to not (see **Remarks**)
+- `DVal1`: (see **Remarks**)
+- `DVal2`: (see **Remarks**)
+- `DVal3`: (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::GetRotationComponentsValues2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetRotationComponentsValues2.html)
-
-.
+See [CWRestraint::GetRotationComponentsValues2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetRotationComponentsValues2.html).
 
 ## Remarks
 
-This method is valid only for beams and shell meshes with[ICWRestraint::RestraintType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintType.html)set to:
+This method is valid only for beams and shell meshes with [ICWRestraint::RestraintType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintType.html) set to:
 
-- [swsRestraintType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRestraintType_e.html)
-
-  .swsRestraintTypeCylindricalFaces
+- [swsRestraintType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRestraintType_e.html).swsRestraintTypeCylindricalFaces
 - swsRestraintType_e.swsRestaintTypeReferenceGeometry
 - swsRestraintType_e.swsRestraintTypeSphericalSurface
-
   - or -
 - swsRestraintType_e.swsRestraintTypeFlatFace
 
@@ -134,12 +103,11 @@ If out parameters BVal1-3 are cast as:
 | A flat face | DVal1 is about face direction 1, DVal2 is about face direction 2, and DVal3 is about the normal to the face. |
 | A model edge | DVal3 is about the edge. |
 
-Call[ICWRestraint::SetReferenceGeometry](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetReferenceGeometry.html)to set the direction reference of this restraint.
+Call [ICWRestraint::SetReferenceGeometry](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetReferenceGeometry.html) to set the direction reference of this restraint.
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
 
 ## Availability

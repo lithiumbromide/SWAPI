@@ -40,32 +40,19 @@ System.int GetZoneSizeRegion()
 System.int GetZoneSizeRegion();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Type of zone size region as defined by
-
-[swRegionType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRegionType_e.html)
+Type of zone size region as defined by [swRegionType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRegionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[Sheet::GetZoneSizeRegion](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~GetZoneSizeRegion.html)
-
-.
+See [Sheet::GetZoneSizeRegion](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~GetZoneSizeRegion.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
 
 ## Availability

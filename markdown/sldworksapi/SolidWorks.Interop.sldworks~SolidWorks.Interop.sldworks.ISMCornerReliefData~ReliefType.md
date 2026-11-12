@@ -45,40 +45,23 @@ property System.int ReliefType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Corner relief type as defined by
-
-[swCornerReliefType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerReliefType_e.html)
+Corner relief type as defined by [swCornerReliefType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerReliefType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SMCornerReliefData::ReliefType](ms-its:sldworksapivb6.chm::/sldworks~SMCornerReliefData~ReliefType.html)
-
-.
+See [SMCornerReliefData::ReliefType](ms-its:sldworksapivb6.chm::/sldworks~SMCornerReliefData~ReliefType.html).
 
 ## Examples
 
-See the
-
-[ICornerReliefFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
-examples.
+See the [ICornerReliefFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html) examples.
 
 ## See Also
 
 [ISMCornerReliefData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData.html)
-
 [ISMCornerReliefData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData_members.html)
 
 ## Availability

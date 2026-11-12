@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnUpdateDrag Method (ISwManipulatorHandler)
 
-Obsolete. Superseded by
-
-[ISwManipulatorHandler2::OnUpdateDrag](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnUpdateDrag.html)
-
-.
+Obsolete. Superseded by [ISwManipulatorHandler2::OnUpdateDrag](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnUpdateDrag.html).
 
 ## Syntax
 
@@ -66,14 +62,9 @@ void OnUpdateDrag(
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler::OnUpdateDrag](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnUpdateDrag.html)
-
-.
+See [SwManipulatorHandler::OnUpdateDrag](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnUpdateDrag.html).
 
 ## See Also
 
 [ISwManipulatorHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html)
-
 [ISwManipulatorHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler_members.html)

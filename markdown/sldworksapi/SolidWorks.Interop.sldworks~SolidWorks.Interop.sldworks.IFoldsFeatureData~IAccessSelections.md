@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFo
 
 # IAccessSelections Method (IFoldsFeatureData)
 
-Obsolete. Superseded by
-
-[IFoldsFeatureData::IAccessSelections2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFoldsFeatureData~IAccessSelections2.html)
-
-.
+Obsolete. Superseded by [IFoldsFeatureData::IAccessSelections2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFoldsFeatureData~IAccessSelections2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool IAccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[FoldsFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~FoldsFeatureData~IAccessSelections.html)
-
-.
+See [FoldsFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~FoldsFeatureData~IAccessSelections.html).
 
 ## See Also
 
 [IFoldsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData.html)
-
 [IFoldsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFoldsFeatureData_members.html)

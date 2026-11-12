@@ -39,17 +39,11 @@ void GetRect(
 
 ### Parameters
 
-- `poRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html)
-
-structure; bounding rectangle
+- `poRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html) structure; bounding rectangle
 
 ## Examples
 
-See the
-
-[IEdmTransition7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7.html)
-
-examples.
+See the [IEdmTransition7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7.html) examples.
 
 ## Remarks
 
@@ -60,9 +54,7 @@ examples.
 ## See Also
 
 [IEdmTransition7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7.html)
-
 [IEdmTransition7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7_members.html)
-
 [IEdmTransition7::GetArrowVertices Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition7~GetArrowVertices.html)
 
 ## Availability

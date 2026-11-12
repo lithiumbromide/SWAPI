@@ -51,18 +51,12 @@ System.bool IAccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top level document (see**Remarks**)
-- `Component`: Component for the feature (seeRemarks)
+- `TopDoc`: Top level document (see **Remarks**)
+- `Component`: Component for the feature (see Remarks)
 
 ### Return Value
 
@@ -70,11 +64,7 @@ True if the selections where successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[DomeFeatureData2::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData2~IAccessSelections.html)
-
-.
+See [DomeFeatureData2::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData2~IAccessSelections.html).
 
 ## Remarks
 
@@ -85,17 +75,11 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [IDomeFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [IDomeFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IDomeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData2.html)
-
 [IDomeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData2_members.html)
-
 [IDomeFeatureData2::AccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData2~AccessSelections.html)

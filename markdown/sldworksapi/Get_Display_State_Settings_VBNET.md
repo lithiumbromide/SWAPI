@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Display_State_Settings_VBNET.htm"
 
 # Get Display State Settings Example (VB.NET)
 
-This example shows how to get display modes, transparency states, and
-visibility states of components.
+This example shows how to get display modes, transparency states, and visibility states of components.
 
 ```vb
  '------------------------------------------------------------------------------

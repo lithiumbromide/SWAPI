@@ -63,50 +63,37 @@ Feature^ InsertSheetMetalCornerTrim(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `InternalCornerFlag`: Do internal corners only
-- `BreakType`: Type of break as defined in[swBreakCornerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakCornerTypes_e.html)
+- `BreakType`: Type of break as defined in [swBreakCornerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBreakCornerTypes_e.html)
 - `BreakDist`: Distance to break from corner
 - `ReliefType`: Type of relief:
 
-- 0 = circular
-- 1 = square
-- 2 = bend-waist
+  - 0 = circular
+  - 1 = square
+  - 2 = bend-waist
 - `Param`: ReliefType dependent:
 
-- circular, its diameter
-- square, its side length
-- bend-waist, its radius
+  - circular, its diameter
+  - square, its side length
+  - bend-waist, its radius
 
 ### Return Value
 
-Pointer to the break corner trim[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)in the sheet metal part
+Pointer to the break corner trim [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) in the sheet metal part
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetalCornerTrim](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalCornerTrim.html)
-
-.
+See [FeatureManager::InsertSheetMetalCornerTrim](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalCornerTrim.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IBreakCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
 
 ## Availability

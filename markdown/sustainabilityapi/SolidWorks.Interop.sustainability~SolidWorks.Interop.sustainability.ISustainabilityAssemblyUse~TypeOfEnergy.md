@@ -47,28 +47,15 @@ property System.int TypeOfEnergy {
 
 ### Property Value
 
-Type of energy as defined in
-
-[swSustainabilityEnergyType_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityEnergyType_e.html)
-
-; valid only if
-
-[ISustainabilityAssemblyUse::EnergyOverLifeSpan](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse~EnergyOverLifeSpan.html)
-
-is true
+Type of energy as defined in [swSustainabilityEnergyType_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityEnergyType_e.html); valid only if [ISustainabilityAssemblyUse::EnergyOverLifeSpan](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse~EnergyOverLifeSpan.html) is true
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyUse::TypeOfEnergy](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse~TypeOfEnergy.html)
-
-.
+See [SustainabilityAssemblyUse::TypeOfEnergy](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse~TypeOfEnergy.html).
 
 ## See Also
 
 [ISustainabilityAssemblyUse Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse.html)
-
 [ISustainabilityAssemblyUse Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse_members.html)
 
 ## Availability

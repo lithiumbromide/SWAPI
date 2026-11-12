@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Search_Folders_Example_VB.htm"
 
 # Get and Set Search Folders Example (VBA)
 
-This example shows how to get and set the file locations in which SOLIDWORKS
-searches for reference documents.
+This example shows how to get and set the file locations in which SOLIDWORKS Design searches for reference documents.
 
 ```
 '----------------------------------------------------------------------------
@@ -21,7 +20,7 @@ searches for reference documents.
 '    documents.
 ' 2. Inspect the Immediate window.
 '
-' NOTE: This macro changes your SOLIDWORKS search folders system settings.
+' NOTE: This macro changes your SOLIDWORKS Design search folders system settings.
 '---------------------------------------------------------------------------
 ```
 

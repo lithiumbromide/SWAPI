@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ParentChildRelationship Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::PrenetChildRelationship](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ParentChildRelationship.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::PrenetChildRelationship](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ParentChildRelationship.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ParentChildRelationship()
 void ParentChildRelationship();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ParentChildRelationship](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ParentChildRelationship.html)
-
-.
+See [ModelDoc::ParentChildRelationship](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ParentChildRelationship.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

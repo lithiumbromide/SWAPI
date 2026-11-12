@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SaveAs4 Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::SaveAs](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SaveAs.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::SaveAs](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SaveAs.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ System.bool SaveAs4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,14 +75,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SaveAs4](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SaveAs4.html)
-
-.
+See [ModelDoc2::SaveAs4](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SaveAs4.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

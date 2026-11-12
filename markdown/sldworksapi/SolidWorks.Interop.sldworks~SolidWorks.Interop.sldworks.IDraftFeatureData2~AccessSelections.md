@@ -51,13 +51,7 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ True if the selections were successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData2::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~AccessSelections.html)
-
-.
+See [DraftFeatureData2::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~AccessSelections.html).
 
 ## Remarks
 
@@ -85,19 +75,13 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  if you modified the feature
-- [IDraftFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) if you modified the feature
+- [IDraftFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IDraftFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2.html)
-
 [IDraftFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2_members.html)
-
 [IDraftFeatureData2::IAccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2~IAccessSelections.html)
 
 ## Availability

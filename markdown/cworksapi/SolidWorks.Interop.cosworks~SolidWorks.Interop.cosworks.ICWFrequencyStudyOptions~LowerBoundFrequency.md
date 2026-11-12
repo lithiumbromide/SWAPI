@@ -9,8 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFr
 
 # LowerBoundFrequency Property (ICWFrequencyStudyOptions)
 
-Gets or sets the frequency to which frequencies closest are calculated in this
-frequency study.
+Gets or sets the frequency to which frequencies closest are calculated in this frequency study.
 
 ## Syntax
 
@@ -52,42 +51,20 @@ Frequency value to which frequencies closest are calculated
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::LowerBoundFrequency](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~LowerBoundFrequency.html)
-
-.
+See [CWFrequencyStudyOptions::LowerBoundFrequency](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~LowerBoundFrequency.html).
 
 ## Examples
 
-See the
-
-[ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-examples.
+See the [ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ICWFrequencyStudyOptions::Options](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~Options.html)
-
-is set to
-
-[swsFrequencyStudyOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFrequencyStudyOption_e.html)
-
-.swsFrequencyStudyOptionNumberFrequencies, and
-
-[ICWFrequencyStudyOptions::UseLowerBoundFrequency](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~UseLowerBoundFrequency.html)
-
-is set to 1.
+This property is valid only if [ICWFrequencyStudyOptions::Options](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~Options.html) is set to [swsFrequencyStudyOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFrequencyStudyOption_e.html).swsFrequencyStudyOptionNumberFrequencies, and [ICWFrequencyStudyOptions::UseLowerBoundFrequency](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~UseLowerBoundFrequency.html) is set to 1.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
-
 [ICWFrequencyStudyOptions::UpperBoundFrequency Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~UpperBoundFrequency.html)
 
 ## Availability

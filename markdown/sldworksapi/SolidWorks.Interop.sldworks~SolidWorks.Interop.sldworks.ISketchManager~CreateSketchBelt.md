@@ -107,13 +107,7 @@ System.bool CreateSketchBelt(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -123,76 +117,52 @@ See
 - `PulleyCount`: Number of pulley components
 - `Side1`: Place the belt for the corresponding pulley component :
 
-- 0 = inside
-- 1 = outside
-- `Side2`: Place the belt for the corresponding pulley component
+  - 0 = inside
+  - 1 = outside
+- `Side2`: Place the belt for the corresponding pulley component:
 
-ParamDesc
+  - 0 = inside
+  - 1 = outside
+- `Side3`: Place the belt for the corresponding pulley component:
 
-:
+  - 0 = inside
+  - 1 = outside
+- `Side4`: Place the belt for the corresponding pulley component:
 
-- 0 = inside
-- 1 = outside
-- `Side3`: Place the belt for the corresponding pulley componentParamDesc:
+  - 0 = inside
+  - 1 = outside
+- `Side5`: Place the belt for the corresponding pulley component:
 
-- 0 = inside
-- 1 = outside
-- `Side4`: Place the belt for the corresponding pulley componentParamDesc:
+  - 0 = inside
+  - 1 = outside
+- `Side6`: Place the belt for the corresponding pulley component:
 
-- 0 = inside
-- 1 = outside
-- `Side5`: Place the belt for the corresponding pulley component
+  - 0 = inside
+  - 1 = outside
+- `Side7`: Place the belt for the corresponding pulley component:
 
-ParamDesc
+  - 0 = inside
+  - 1 = outside
+- `Side8`: Place the belt for the corresponding pulley component:
 
-:
+  - 0 = inside
+  - 1 = outside
+- `Side9`: Place the belt for the corresponding pulley component:
 
-- 0 = inside
-- 1 = outside
-- `Side6`: Place the belt for the corresponding pulley componentParamDesc:
+  - 0 = inside
+  - 1 = outside
+- `Side10`: Place the belt for the corresponding pulley component:
 
-- 0 = inside
-- 1 = outside
-- `Side7`: Place the belt for the corresponding pulley component
+  - 0 = inside
+  - 1 = outside
+- `Side11`: Place the belt for the corresponding pulley component:
 
-ParamDesc
+  - 0 = inside
+  - 1 = outside
+- `Side12`: Place the belt for the corresponding pulley component:
 
-:
-
-- 0 = inside
-- 1 = outside
-- `Side8`: Place the belt for the corresponding pulley component
-
-ParamDesc
-
-:
-
-- 0 = inside
-- 1 = outside
-- `Side9`: Place the belt for the corresponding pulley componentParamDesc:
-
-- 0 = inside
-- 1 = outside
-- `Side10`: Place the belt for the corresponding pulley component
-
-ParamDesc
-
-:
-
-- 0 = inside
-- 1 = outside
-- `Side11`: Place the belt for the corresponding pulley component
-
-ParamDesc
-
-:
-
-- 0 = inside
-- 1 = outside
-- `Side12`: Place the belt for the corresponding pulley componentParamDesc:
-
-- 0 = inside
-- 1 = outside
+  - 0 = inside
+  - 1 = outside
 
 ### Return Value
 
@@ -200,20 +170,15 @@ True the belt is created, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateSketchBelt](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CreateSketchBelt.html)
-
-.
+See [SketchManager::CreateSketchBelt](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CreateSketchBelt.html).
 
 ## Remarks
 
-The order of the sides corresponds to the order of the pulleys in the selection list. For example Side1 indicates on which side of the first pulley component in the selection list you want the belt placed.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If only four pulley components exist in the sketch, then Side5 - Side12 are ignored. This method limits you to 12 pulleys.
+The order of the sides corresponds to the order of the pulleys in the selection list. For example Side1 indicates on which side of the first pulley component in the selection list you want the belt placed. If only four pulley components exist in the sketch, then Side5 - Side12 are ignored. This method limits you to 12 pulleys.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

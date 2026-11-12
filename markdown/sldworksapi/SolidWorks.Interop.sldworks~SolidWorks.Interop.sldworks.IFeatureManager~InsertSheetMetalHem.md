@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertSheetMetalHem Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertSheetMetalHem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalHem2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertSheetMetalHem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalHem2.html).
 
 ## Syntax
 
@@ -83,51 +79,38 @@ Feature^ InsertSheetMetalHem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type as defined in
-
-[swHemTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHemTypes_e.html)
-- `Position`: Position as defined in[swHemPositionTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHemPositionTypes_e.html)
+- `Type`: Type as defined in [swHemTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHemTypes_e.html)
+- `Position`: Position as defined in [swHemPositionTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHemPositionTypes_e.html)
 - `Reverse`: True reverses the direction, false does not
 - `DLength`: Hem length; valid only for open or closed hems
 - `DGap`: Gap distance; valid only for open hems
 - `DAngle`: Hem angle; valid only for tear-drop or rolled hems
 - `DRad`: Hem radius; valid only for tear-drop or rolled hems
 - `DMiterGap`: Hem miter gap
-- `PCBA`: | If... | Then... |
-| --- | --- |
-| non-NULL | Pointer to ICustomBendAllowance object for which required values have been set |
-| NULL | Parent bend's bend allowance is used |
+- `PCBA`:
+
+  | If... | Then... |
+  | --- | --- |
+  | non-NULL | Pointer to ICustomBendAllowance object for which required values have been set |
+  | NULL | Parent bend's bend allowance is used |
 
 ### Return Value
 
-Pointer to the[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetalHem](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalHem.html)
-
-.
+See [FeatureManager::InsertSheetMetalHem](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalHem.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IHemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
 
 ## Availability

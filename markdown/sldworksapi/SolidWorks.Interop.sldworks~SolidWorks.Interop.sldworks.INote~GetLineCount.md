@@ -40,13 +40,7 @@ System.int GetLineCount()
 System.int GetLineCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ Number of line segments
 
 ## VBA Syntax
 
-See
-
-[Note::GetLineCount](ms-its:sldworksapivb6.chm::/sldworks~Note~GetLineCount.html)
-
-.
+See [Note::GetLineCount](ms-its:sldworksapivb6.chm::/sldworks~Note~GetLineCount.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::GetLineAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetLineAtIndex.html)
-
 [INote::IGetLineAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IGetLineAtIndex.html)

@@ -40,13 +40,7 @@ System.object GetCustomBendAllowance()
 System.Object^ GetCustomBendAllowance();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::GetCustomBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~GetCustomBendAllowance.html)
-
-.
+See [SweptFlangeFeatureData::GetCustomBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~GetCustomBendAllowance.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ISweptFlangeFeatureData::UseDefaultBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseDefaultBendAllowance.html)
-
-is false.
+This method is valid only if [ISweptFlangeFeatureData::UseDefaultBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseDefaultBendAllowance.html) is false.
 
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
-
 [ISweptFlangeFeatureData::SetCustomBendAllowance Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~SetCustomBendAllowance.html)
 
 ## Availability

@@ -47,25 +47,11 @@ System.bool SetStartAndEndReferences(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RetEntities`: Array of parallel
-
-[IRefPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
-s and/or
-
-[IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-s
+- `RetEntities`: Array of parallel [IRefPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)s and/or [IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)s
 
 ### Return Value
 
@@ -73,19 +59,11 @@ True if start and end references successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberRefPlaneFeatureData::SetStartAndEndReferences](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberRefPlaneFeatureData~SetStartAndEndReferences.html)
-
-.
+See [PrimaryMemberRefPlaneFeatureData::SetStartAndEndReferences](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberRefPlaneFeatureData~SetStartAndEndReferences.html).
 
 ## Examples
 
-See the
-
-[IPrimaryMemberRefPlaneFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData.html)
-
-examples.
+See the [IPrimaryMemberRefPlaneFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData.html) examples.
 
 ## Remarks
 
@@ -94,7 +72,6 @@ The array set by this method should have only two entities: start and end refere
 ## See Also
 
 [IPrimaryMemberRefPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData.html)
-
 [IPrimaryMemberRefPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData_members.html)
 
 ## Availability

@@ -46,26 +46,18 @@ DimXpertAutoDimSchemeOption^ GetAutoDimSchemeOption();
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::GetAutoDimSchemeOption](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetAutoDimSchemeOption.html)
-
-.
+See [DimXpertPart::GetAutoDimSchemeOption](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetAutoDimSchemeOption.html).
 
 ## Examples
 
 [Auto Dimension Scheme (C#)](Auto_Dimension_Scheme_Example_CSharp.htm)
-
 [Auto Dimension Scheme (VB.NET)](Auto_Dimension_Scheme_Example_VBNET.htm)
-
 [Auto Dimension Scheme (VBA)](Auto_Dimension_Scheme_Example_VB.htm)
 
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
-
 [IDimXpertPart::AutoDimensionScheme Method](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~AutoDimensionScheme.html)
 
 ## Availability

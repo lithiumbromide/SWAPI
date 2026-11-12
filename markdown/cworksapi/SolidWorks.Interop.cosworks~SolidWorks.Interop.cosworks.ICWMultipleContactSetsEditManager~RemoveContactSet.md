@@ -53,24 +53,16 @@ System.int RemoveContactSet(
 
 ### Return Value
 
-Error code as defined in
-
-[swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
+Error code as defined in [swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMultipleContactSetsEditManager::RemoveContactSet](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleContactSetsEditManager~RemoveContactSet.html)
-
-.
+See [CWMultipleContactSetsEditManager::RemoveContactSet](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleContactSetsEditManager~RemoveContactSet.html).
 
 ## See Also
 
 [ICWMultipleContactSetsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager.html)
-
 [ICWMultipleContactSetsEditManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager_members.html)
-
 [ICWMultipleContactSetsEditManager::AddContactSet Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager~AddContactSet.html)
 
 ## Availability

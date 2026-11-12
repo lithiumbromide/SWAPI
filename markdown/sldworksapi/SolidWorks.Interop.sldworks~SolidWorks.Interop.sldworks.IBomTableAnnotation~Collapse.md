@@ -50,41 +50,21 @@ void Collapse(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CollapseType`: Type of item to collapse as defined in
-
-[swBOMTableObjectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBOMTableObjectType_e.html)
-
-(see
-
-Remarks
-
-)
+- `CollapseType`: Type of item to collapse as defined in [swBOMTableObjectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBOMTableObjectType_e.html) (see **Remarks**)
 - `Index`: Row index; valid only if CollapseType is swBOMTableObjectType_e.swBOMTableObjectType_RowIndex
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::Collapse](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~Collapse.html)
-
-.
+See [BomTableAnnotation::Collapse](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~Collapse.html).
 
 ## Examples
 
 [Expand, Collapse, and Dissolve a Subassembly in a BOM Table (VBA)](Dissolve_Subassembly_in_a_BOM_Table_Example_VB.htm)
-
 [Expand, Collapse, and Dissolve a Subassembly in a BOM Table (VB.NET)](Dissolve_Subassembly_in_a_BOM_Table_Example_VBNET.htm)
-
 [Expand, Collapse, and Dissolve a Subassembly in a BOM Table (C#)](Dissolve_Subassembly_in_a_BOM_Table_Example_CSharp.htm)
 
 ## Remarks
@@ -94,11 +74,8 @@ If CollapseType is swBOMTableObjectType_e.swBOMTableObjectType_CutList, then all
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
-
 [IBomTableAnnotation::Expand Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~Expand.html)
-
 [IBomTableAnnotation::Dissolve Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~Dissolve.html)
 
 ## Availability

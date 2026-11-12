@@ -46,32 +46,21 @@ Duration, in seconds, of motion study
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::GetDuration](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~GetDuration.html)
-
-.
+See [MotionStudy::GetDuration](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~GetDuration.html).
 
 ## Examples
 
 [Get Motion Study Properties and Results (VBA)](Get_COSMOSMotion_Motion_Study_Properties_and_Results_Example_VB.htm)
-
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study (VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
-
 [IMotionStudy::GetTime Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetTime.html)
-
 [IMotionStudy::SetDuration Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~SetDuration.html)
-
 [IMotionStudy::SetTime Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~SetTime.html)
 
 ## Availability

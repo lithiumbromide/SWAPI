@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetSplines Method (ISketchBlockDefinition)
 
-Obsolete. Superseded by
-
-[ISketchBlockDefinition::GetSplines2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetSplines2.html)
-
-and
-
-[ISketchBlockDefinition::IGetSplines2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetSplines2.html)
-
-.
+Obsolete. Superseded by [ISketchBlockDefinition::GetSplines2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetSplines2.html) and [ISketchBlockDefinition::IGetSplines2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetSplines2.html).
 
 ## Syntax
 
@@ -55,13 +47,7 @@ System.double IGetSplines(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::IGetSplines](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~IGetSplines.html)
-
-.
+See [SketchBlockDefinition::IGetSplines](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~IGetSplines.html).
 
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)

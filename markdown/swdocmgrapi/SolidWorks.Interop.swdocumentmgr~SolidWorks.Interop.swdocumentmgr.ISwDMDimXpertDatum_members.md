@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertDatum Interface Members
 
-The following tables list the members exposed by[ISwDMDimXpertDatum](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDatum.html).
+The following tables list the members exposed by [ISwDMDimXpertDatum](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDatum.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[ISwDMDimXpertDatum](SolidWorks.
 ## See Also
 
 [ISwDMDimXpertDatum Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDatum.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

@@ -9,7 +9,7 @@ source: "swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop
 
 # IBalloonSettings Interface Methods
 
-For a list of all members of this type, see[IBalloonSettings members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings_members.html).
+For a list of all members of this type, see [IBalloonSettings members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings_members.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IBalloonSettings members](SolidWorks
 ## See Also
 
 [IBalloonSettings Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings.html)
-
 [SolidWorks.Interop.swinspectionAddIn Namespace](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn_namespace.html)

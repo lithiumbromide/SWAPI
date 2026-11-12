@@ -40,13 +40,7 @@ MathVector Normalise()
 MathVector^ Normalise();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Unit-length vector
 
 ## VBA Syntax
 
-See
-
-[MathVector::Normalise](ms-its:sldworksapivb6.chm::/sldworks~MathVector~Normalise.html)
-
-.
+See [MathVector::Normalise](ms-its:sldworksapivb6.chm::/sldworks~MathVector~Normalise.html).
 
 ## See Also
 
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IMathVector Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html)
 
 ## Availability

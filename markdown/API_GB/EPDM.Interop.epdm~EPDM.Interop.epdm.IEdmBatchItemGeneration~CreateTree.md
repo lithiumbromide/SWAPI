@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~Crea
 
 # CreateTree Method (IEdmBatchItemGeneration)
 
-Computes the file reference tree for the items added to the batch using
-
-[IEdmBatchItemGeneration::AddSelection](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~AddSelection.html)
-
-.
+Computes the file reference tree for the items added to the batch using [IEdmBatchItemGeneration::AddSelection](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~AddSelection.html).
 
 ## Syntax
 
@@ -47,11 +43,7 @@ System.bool CreateTree(
 ### Parameters
 
 - `lParentWnd`: Parent window handle
-- `lEdmItemGenerationCmdFlags`: Combination of
-
-[EdmItemGenerationFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemGenerationFlags.html)
-
-bits
+- `lEdmItemGenerationCmdFlags`: Combination of [EdmItemGenerationFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemGenerationFlags.html) bits
 
 ### Return Value
 
@@ -60,12 +52,11 @@ True if there is at least one item to create; false if there are none
 ## Examples
 
 [Add Items (C#)](Add_Items_Example_CSharp.htm)
-
 [Add Items (VB.NET)](Add_Items_Example_VBNET.htm)
 
 ## Remarks
 
-After calling this method, call[IEdmBatchItemGeneration::GenerateItems](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~GenerateItems.html)and, optionally,[IEdmBatchItemGeneration::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~ShowDlg.html).
+After calling this method, call [IEdmBatchItemGeneration::GenerateItems](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~GenerateItems.html) and, optionally, [IEdmBatchItemGeneration::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~ShowDlg.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -75,7 +66,6 @@ After calling this method, call[IEdmBatchItemGeneration::GenerateItems](EPDM.Int
 ## See Also
 
 [IEdmBatchItemGeneration Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html)
-
 [IEdmBatchItemGeneration Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration_members.html)
 
 ## Availability

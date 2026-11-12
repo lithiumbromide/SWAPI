@@ -51,19 +51,11 @@ System.String^ GetRoutingUserPreferenceStringValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UserPreference`: User preference as defined in
-
-[swUserPreferenceRoutingFileLocations_e](ms-its:routingapi.chm::/SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swUserPreferenceRoutingFileLocations_e.html)
+- `UserPreference`: User preference as defined in [swUserPreferenceRoutingFileLocations_e](ms-its:routingapi.chm::/SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swUserPreferenceRoutingFileLocations_e.html)
 - `UseDefaultVal`: True to use the default, false to not
 
 ### Return Value
@@ -72,26 +64,16 @@ User preference
 
 ## VBA Syntax
 
-See
-
-[RoutingSettings::GetRoutingUserPreferenceStringValue](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~GetRoutingUserPreferenceStringValue.html)
-
-.
+See [RoutingSettings::GetRoutingUserPreferenceStringValue](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~GetRoutingUserPreferenceStringValue.html).
 
 ## Examples
 
-See the
-
-[IRoutingSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html)
-
-examples.
+See the [IRoutingSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html) examples.
 
 ## See Also
 
 [IRoutingSettings Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html)
-
 [IRoutingSettings Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings_members.html)
-
 [IRoutingSettings::SetRoutingUserPreferenceStringValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings~SetRoutingUserPreferenceStringValue.html)
 
 ## Availability

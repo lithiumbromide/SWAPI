@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertCompositeDistanceBetweenDimTol Interface Members
 
-The following tables list the members exposed by[ISwDMDimXpertCompositeDistanceBetweenDimTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol.html).
+The following tables list the members exposed by [ISwDMDimXpertCompositeDistanceBetweenDimTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol.html).
 
 ## Public Properties
 
@@ -38,5 +38,4 @@ The following tables list the members exposed by[ISwDMDimXpertCompositeDistanceB
 ## See Also
 
 [ISwDMDimXpertCompositeDistanceBetweenDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

@@ -82,16 +82,11 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCylinderFeature::GetNominalBottomPlane](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCylinderFeature~GetNominalBottomPlane.html)
-
-.
+See [DimXpertCylinderFeature::GetNominalBottomPlane](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCylinderFeature~GetNominalBottomPlane.html).
 
 ## See Also
 
 [IDimXpertCylinderFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCylinderFeature.html)
-
 [IDimXpertCylinderFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCylinderFeature_members.html)
 
 ## Availability

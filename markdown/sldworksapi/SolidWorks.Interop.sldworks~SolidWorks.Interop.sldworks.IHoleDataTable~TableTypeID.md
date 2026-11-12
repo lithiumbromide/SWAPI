@@ -42,40 +42,23 @@ property System.int TableTypeID {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Fastener table type ID as defined in
-
-[swFastenerTableTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFastenerTableTypes_e.html)
+Fastener table type ID as defined in [swFastenerTableTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFastenerTableTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[HoleDataTable::TableTypeID](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~TableTypeID.html)
-
-.
+See [HoleDataTable::TableTypeID](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~TableTypeID.html).
 
 ## Examples
 
-See the
-
-[IHoleDataTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
-
-example.
+See the [IHoleDataTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html) example.
 
 ## See Also
 
 [IHoleDataTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
-
 [IHoleDataTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable_members.html)
 
 ## Availability

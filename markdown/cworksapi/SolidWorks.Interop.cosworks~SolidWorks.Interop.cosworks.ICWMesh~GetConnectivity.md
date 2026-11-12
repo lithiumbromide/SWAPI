@@ -49,32 +49,20 @@ System.Object^ GetConnectivity(
 
 ### Parameters
 
-- `ErrorCode`: Error code as defined in
-
-[swsMeshQueryErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshQueryErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsMeshQueryErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshQueryErrorCode_e.html)
 
 ### Return Value
 
-Array of node connectivity data (see
-
-Remarks
-
-)
+Array of node connectivity data (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetConnectivity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetConnectivity.html)
-
-.
+See [CWMesh::GetConnectivity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetConnectivity.html).
 
 ## Examples
 
 [Create Curvature-based Mesh (VBA)](Create_Curvature-based_Mesh_Example_VB.htm)
-
 [Create Curvature-based Mesh (VB.NET)](Create_Curvature-based_Mesh_Example_VBNET.htm)
-
 [Create Curvature-based Mesh (C#)](Create_Curvature-based_Mesh_Example_CSharp.htm)
 
 ## Remarks
@@ -89,53 +77,18 @@ c2, n21, n22, n23,
 
 ...,
 
-ci, ni 1, ni 2, ni 3
+c`i`, n`i`1, n`i`2, n`i`3
 
 ]
 
 where:
 
-- c
-
-  i
-
-  is number of nodes in the
-
-  i
-
-  th
-
-  connectivity unit; 2 for beams, 3 for solids and shells, 4 for hexagons
-- n
-
-  i
-
-  1
-
-  , n
-
-  i
-
-  2
-
-  , n
-
-  i
-
-  3
-
-  are the nodes in the
-
-  i
-
-  th
-
-  connectivity unit
+- c`i` is number of nodes in the `i`th connectivity unit; 2 for beams, 3 for solids and shells, 4 for hexagons
+- n`i`1, n`i`2, n`i`3 are the nodes in the `i`th connectivity unit
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
 
 ## Availability

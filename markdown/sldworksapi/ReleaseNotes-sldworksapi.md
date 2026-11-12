@@ -9,276 +9,226 @@ source: "sldworksapi/ReleaseNotes-sldworksapi.html"
 
 # Release Notes
 
-This topic provides you with quick access to the enhancements in SOLIDWORKS API 2025.
+This topic provides you with quick access to the enhancements in SOLIDWORKS API 2026.
 
-###### Service Pack 2
+###### Service Pack 3
 
-###### New interfaces
+###### New interfaces, methods, and properties
 
-##### IConvertSolidFeatureData Interface (obsoletes IFeatureManager::InsertConvertToSheetMetal2)
+##### IVersionCompatibilityItem Interface
 
-- [IConvertSolidFeatureData::AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~AccessSelections.html)
-- [IConvertSolidFeatureData::BendEdges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~BendEdges.html)
-- [IConvertSolidFeatureData::BendRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~BendRadius.html)
-- [IConvertSolidFeatureData::CornerDefaults](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~CornerDefaults.html)
-- [IConvertSolidFeatureData::GetBendEdgesCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~GetBendEdgesCount.html)
-- [IConvertSolidFeatureData::GetCustomBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~GetCustomBendAllowance.html)
-- [IConvertSolidFeatureData::GetFixedFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~GetFixedFace.html)
-- [IConvertSolidFeatureData::Initialize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~Initialize.html)
-- [IConvertSolidFeatureData::KeepBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~KeepBody.html)
-- [IConvertSolidFeatureData::OverrideDefaultAutoReliefParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~OverrideDefaultAutoReliefParameters.html)
-- [IConvertSolidFeatureData::OverrideDefaultSheetMetalParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~OverrideDefaultSheetMetalParameters.html)
-- [IConvertSolidFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~ReleaseSelectionAccess.html)
-- [IConvertSolidFeatureData::ReliefRatio](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~ReliefRatio.html)
-- [IConvertSolidFeatureData::ReliefType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~ReliefType.html)
-- [IConvertSolidFeatureData::ReverseThickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~ReverseThickness.html)
-- [IConvertSolidFeatureData::RipGap](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~RipGap.html)
-- [IConvertSolidFeatureData::RipOverlapRatio](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~RipOverlapRatio.html)
-- [IConvertSolidFeatureData::RipSketches](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~RipSketches.html)
-- [IConvertSolidFeatureData::SheetThickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~SheetThickness.html)
-- [IConvertSolidFeatureData::SetFixedFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~SetFixedFace.html)
-
-##### ILibraryFormToolFeatureData Interface (obsoletes IFeatureManager::InsertFormToolFeature)
-
-- [ILibraryFormToolFeatureData::AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~AccessSelections.html)
-- [ILibraryFormToolFeatureData::FormToolConfiguration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~FormToolConfiguration.html)
-- [ILibraryFormToolFeatureData::FormToolPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~FormToolPath.html)
-- [ILibraryFormToolFeatureData::GetPunchID](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~GetPunchID.html)
-- [ILibraryFormToolFeatureData::LinkToFormTool](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~LinkToFormTool.html)
-- [ILibraryFormToolFeatureData::OverrideDocumentSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~OverrideDocumentSettings.html)
-- [ILibraryFormToolFeatureData::OverrideSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~OverrideSettings.html)
-- [ILibraryFormToolFeatureData::PickPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~PickPoint.html)
-- [ILibraryFormToolFeatureData::PlacementFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~PlacementFace.html)
-- [ILibraryFormToolFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~ReleaseSelectionAccess.html)
-- [ILibraryFormToolFeatureData::RotationAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~RotationAngle.html)
-- [ILibraryFormToolFeatureData::SetPlacementFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~SetPlacementFace.html)
-- [ILibraryFormToolFeatureData::ShowCenter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~ShowCenter.html)
-- [ILibraryFormToolFeatureData::ShowProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~ShowProfile.html)
-- [ILibraryFormToolFeatureData::ShowPunch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~ShowPunch.html)
-
-###### New and updated methods
-
-##### IFeatureManager Interface
-
-- [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
-
-  (updated with support for IConvertSolidFeatureData and ILibraryForToolFeatureData)
-- [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-  (updated with support for IConvertSolidFeatureData and ILibraryForToolFeatureData)
-- [IFeatureManager::CutListFolderLocation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CutListFolderLocation.html)
+- IVersionCompatibilityItem::IncompatibleObject
+- IVersionCompatibilityItem::Version
+- IVersionCompatibilityItem::ID
+- IVersionCompatibilityItem::Message
+- IVersionCompatibilityItem::Action
 
 ##### IModelDocExtension Interface
 
-- [IModelDocExtension::GetAnnotationsByType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetAnnotationsByType.html)
-- [IModelDocExtension::ReorderFeature2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReorderFeature2.html)
-
-  (obsoletes IModelDocExtension::ReorderFeature)
-
-##### ITaskpaneView Interface
-
-- [ITaskpaneView::GetTaskpaneViewWndx64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~GetTaskpaneViewWndx64.html)
-
-  (obsoletes ITaskpaneView::GetTaskPaneViewWnd)
-
-##### IView Interface
-
-- [IView::GetAnnotationsByType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetAnnotationsByType.html)
-
-###### Service Pack 1
-
-###### New interface
-
-##### ICoordinateSystemElement Interface
-
-- [ICoordinateSystemElement::GetCoordinateSystem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement~GetCoordinateSystem.html)
-- [ICoordinateSystemElement::GetElementType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement~GetElementType.html)
-
-###### New delegate and methods
+- [IModelDocExtension::CheckVersionCompatibility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CheckVersionCompatibility.html)
 
 ##### DSldWorksEvents Handlers
 
-- [DSldWorksEvents_On3DExperienceStateChangeNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSldWorksEvents_On3DExperienceStateChangeNotifyEventHandler.html)
+- [DSldWorksEvents_FileSaveToVersionFailNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSldWorksEvents_FileSaveToVersionFailNotifyEventHandler.html)
 
-##### IAssemblyDoc Interface
+##### DAssemblyDocEvents Handlers
 
-- [IAssemblyDoc::AutoMateRepair](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AutoMateRepair.html)
+- [DAssemblyDocEvents_AddDependencyNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_AddDependencyNotifyEventHandler.html)
+- [DAssemblyDocEvents_DeleteDependencyNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_DeleteDependencyNotifyEventHandler.html)
 
-##### IBomFeature Interface
+##### DDrawingDocEvents Handlers
 
-- [IBomFeature::GetLinkToDisplayState](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~GetLinkToDisplayState.html)
-- [IBomFeature::SetLinkToDisplayState](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~SetLinkToDisplayState.html)
+- [DDrawingDocEvents_AddDependencyNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDrawingDocEvents_AddDependencyNotifyEventHandler.html)
+- [DDrawingDocEvents_DeleteDependencyNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDrawingDocEvents_DeleteDependencyNotifyEventHandler.html)
 
-##### IFace2 Interface
+##### DPartDocEvents Handlers
 
-- [IFace2::HasTextureCoordinates](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~HasTextureCoordinates.html)
+- [DPartDocEvents_AddDependencyNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_AddDependencyNotifyEventHandler.html)
+- [DPartDocEvents_DeleteDependencyNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_DeleteDependencyNotifyEventHandler.html)
 
-##### IPackAndGo Interface
+###### Service Pack 2
 
-- [IPackAndGo::FolderStructureOption](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~FolderStructureOption.html)
-- [IPackAndGo::SetSaveToName2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~SetSaveToName2.html)
+###### New interfaces, methods, and properties
 
-  (obsoletes IPackAndGo::SetSaveToName)
+##### IComponent2 Interface
 
-##### ISelectionMgr Interface
+- [IComponent2::HasAssemblyFeatures](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~HasAssemblyFeatures.html)
 
-- [ISelectionMgr::GetSelectedCoordSysElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedCoordSysElement.html)
-- [ISelectionMgr::IsCoordSysElementSelected](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~IsCoordSysElementSelected.html)
+##### IDimXpertAngleBetweenCircularDimTol Interface
+
+- IDimXpertAngleBetweenCircularDimTol::CenterFeature
+- IDimXpertAngleBetweenCircularDimTol::GetActPlaneVector
+- IDimXpertAngleBetweenCircularDimTol::GetNomPlaneVector
+- IDimXpertAngleBetweenCircularDimTol::OriginFeature
+- IDimXpertAngleBetweenCircularDimTol::Supplement
+
+##### IDimXpertPart Interface
+
+- IDimXpertPart::InsertAngleDimension
+
+##### IDimXpertRefPlaneFeature Interface
+
+- IDimXpertRefPlaneFeature::GetNominalPlane
+
+##### IGTol Interface
+
+- [IGTol::GetAllOver](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetAllOver.html)
+- [IGTol::SetAllOver](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetAllOver.html)
 
 ##### IView Interface
 
-- [IView::GetFirstCenterMark2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstCenterMark2.html)
+- [IView::RootDrawingComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~RootDrawingComponent2.html) (obsoletes IView::RootDrawingComponent)
 
-  (obsoletes IView::GetFirstCenterMark)
-- [IView::GetFirstDisplayDimension6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstDisplayDimension6.html)
+###### Service Pack 1
 
-  (obsoletes IView::GetFirstDisplayDimension5)
-- [IView::GetFirstMultiJogLeader2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstMultiJogLeader2.html)
+###### New properties and method
 
-  (obsoletes IView::GetFirstMultiJogLeader)
-- [IView::GetFirstNote2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstNote2.html)
+##### IBoundingBoxFeatureData Interface
 
-  (obsoletes IView::GetFirstNote)
-- [IView::GetFirstRevisionCloud2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstRevisionCloud2.html)
+- [IBoundingBoxFeatureData::CoordinateSystem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData~CoordinateSystem.html)
+- [IBoundingBoxFeatureData::lwtaDirectionType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData~lwtaDirectionType.html)
 
-  (obsoletes IView::GetFirstRevisionCloud)
-- [IView::GetFirstTableAnnotation2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstTableAnnotation2.html)
+##### IDSPBRMaterial Interface
 
-  (obsoletes IView::GetFirstTableAnnotation)
+- [IDSPBRMaterial::ClearcoatNormalStrength](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~ClearcoatNormalStrength.html)
+- [IDSPBRMaterial::EmissionColorTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~EmissionColorTexture.html)
+- [IDSPBRMaterial::MetallicTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~MetallicTexture.html)
+- [IDSPBRMaterial::NormalStrength](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~NormalStrength.html)
+- [IDSPBRMaterial::TransparencyTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~TransparencyTexture.html)
 
-##### IWizardHoleFeatureData2 Interface
+##### IModelDocExtension Interface
 
-- [IWizardHoleFeatureData2::UnderHeadCounterSink](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~UnderHeadCounterSink.html)
-- [IWizardHoleFeatureData2::UnderHeadCounterSinkAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~UnderHeadCounterSinkAngle.html)
-- [IWizardHoleFeatureData2::UnderHeadCounterSinkDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~UnderHeadCounterSinkDiameter.html)
+- [IModelDocExtension::ActivateFeatureMgrViewx64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ActivateFeatureMgrViewx64.html)
+- [IModelDocExtension::AddFeatureMgrView3x64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddFeatureMgrView3x64.html)
+- [IModelDocExtension::DeActivateFeatureMgrViewx64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeActivateFeatureMgrViewx64.html)
+
+##### IModelView Interface
+
+- [IModelView::UpAxisFlyout](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~UpAxisFlyout.html)
 
 ###### Service Pack 0
 
 - [New functionality](#NewFunctionality0)
+- [New interfaces](#newinterfaces)
 - [New delegates, methods, and properties](#NewMethods0)
-- [Obsoleted methods](#obs)
 
 ###### New functionality
 
-##### Other major enhancements
+- Display the Dassault Systemes Physically Based Rendering (DSPBR) appearance visual style. See [IDSPBRMaterial](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial.html), [IRenderMaterial::GetDSPBRMaterial](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~GetDSPBRMaterial.html), and [IRenderMaterial::HasDSPBRProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~HasDSPBRProperties.html).
+- Add family tables to drawings and edit them. See [IFamilyTableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableAnnotation.html), [IFamilyTableFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature.html), [ISheet::InsertFamilyTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~InsertFamilyTable.html).
+- Get top-level items in body folders. See [IBodyFolder::GetTopLevelFeatureCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetTopLevelFeatureCount.html) and [IBodyFolder::GetTopLevelFeatures](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetTopLevelFeatures.html).
+- Receive notifications when reordering solid body folders. See [DAssemblyDocEvents_SolidBodyFolderReorderNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_SolidBodyFolderReorderNotifyEventHandler.html) and [DPartDocEvents_SolidBodyFolderReorderNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_SolidBodyFolderReorderNotifyEventHandler.html).
+- Get and set the edge thickness when the display style is set to "Shaded with Edges". See [ISldWorks::ShadedEdgeThickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShadedEdgeThickness.html).
+- Move parent drawing views independently of child views and receive notifications when changing view positions. See [IView::SetViewPosition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~SetViewPosition.html) and [DDrawingDocEvents_ViewPositionChangeNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDrawingDocEvents_ViewPositionChangeNotifyEventHandler.html).
 
-- Import annotations into drawings. See
+###### New interfaces
 
-  [IView::ImportAnnotations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~ImportAnnotations.html)
+##### IDSPBRMaterial Interface
 
-  .
-- New IRenderMaterial properties. See
+- [IDSPBRMaterial::AbbeNumber](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~AbbeNumber.html)
+- [IDSPBRMaterial::Albedo](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~Albedo.html)
+- [IDSPBRMaterial::AlbedoTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~AlbedoTexture.html)
+- [IDSPBRMaterial::Anisotropy](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~Anisotropy.html)
+- [IDSPBRMaterial::AnisotropyRotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~AnisotropyRotation.html)
+- [IDSPBRMaterial::AttenuationColor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~AttenuationColor.html)
+- [IDSPBRMaterial::AttenuationDistance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~AttenuationDistance.html)
+- [IDSPBRMaterial::ClearCoat](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~Clearcoat.html)
+- [IDSPBRMaterial::ClearCoatNormalTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~ClearcoatNormalTexture.html)
+- [IDSPBRMaterial::ClearCoatRoughness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~ClearcoatRoughness.html)
+- [IDSPBRMaterial::CutoutOpacity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~CutoutOpacity.html)
+- [IDSPBRMaterial::CutoutOpacityTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~CutoutOpacityTexture.html)
+- [IDSPBRMaterial::Displacement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~Displacement.html)
+- [IDSPBRMaterial::DisplacementTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~DisplacementTexture.html)
+- [IDSPBRMaterial::EmissionColor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~EmissionColor.html)
+- [IDSPBRMaterial::EmissionEnergyNormalization](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~EmissionEnergyNormalization.html)
+- [IDSPBRMaterial::EmissionMode](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~EmissionMode.html)
+- [IDSPBRMaterial::EmissionValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~EmissionValue.html)
+- [IDSPBRMaterial::FlakeColor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~FlakeColor.html)
+- [IDSPBRMaterial::FlakeCoverage](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~FlakeCoverage.html)
+- [IDSPBRMaterial::FlakeRoughness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~FlakeRoughness.html)
+- [IDSPBRMaterial::FlakeSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~FlakeSize.html)
+- [IDSPBRMaterial::FlakeTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~FlakeTexture.html)
+- [IDSPBRMaterial::FlipFlop](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~FlipFlop.html)
+- [IDSPBRMaterial::FlipFlopColor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~FlipFlopColor.html)
+- [IDSPBRMaterial::IndexOfRefraction](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~IndexOfRefraction.html)
+- [IDSPBRMaterial::Metallic](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~Metallic.html)
+- [IDSPBRMaterial::NormalTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~NormalTexture.html)
+- [IDSPBRMaterial::RealViewToDSPBRTextureScale](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~RealViewToDSPBRTextureScale.html)
+- [IDSPBRMaterial::Roughness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~Roughness.html)
+- [IDSPBRMaterial::RoughnessTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~RoughnessTexture.html)
+- [IDSPBRMaterial::SheenColor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~SheenColor.html)
+- [IDSPBRMaterial::SheenRoughness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~SheenRoughness.html)
+- [IDSPBRMaterial::Specular](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~Specular.html)
+- [IDSPBRMaterial::SpecularTintColor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~SpecularTintColor.html)
+- [IDSPBRMaterial::SubsurfaceAnisotropy](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~SubsurfaceAnisotropy.html)
+- [IDSPBRMaterial::SubsurfaceColor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~SubsurfaceColor.html)
+- [IDSPBRMaterial::SubType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~SubType.html)
+- [IDSPBRMaterial::ThinFilm](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~ThinFilm.html)
+- [IDSPBRMaterial::ThinFilmIOR](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~ThinFilmIOR.html)
+- [IDSPBRMaterial::ThinFilmThickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~ThinFilmThickness.html)
+- [IDSPBRMaterial::ThinFilmThicknessTexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~ThinFilmThicknessTexture.html)
+- [IDSPBRMaterial::ThinWalled](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~ThinWalled.html)
+- [IDSPBRMaterial::Translucency](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~Translucency.html)
+- [IDSPBRMaterial::TranslucencyColor](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~TranslucencyColor.html)
+- [IDSPBRMaterial::Transparency](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~Transparency.html)
+- [IDSPBRMaterial::Version](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDSPBRMaterial~Version.html)
 
-  [New delegates, methods, and properties](#NewMethods0)
+##### IFamilyTableAnnotation Interface
 
-  .
-- Add or edit floor appearances of model scenes. See
+- [IFamilyTableAnnotation::FamilyTableFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableAnnotation~FamilyTableFeature.html)
+- [IFamilyTableAnnotation::GetSheet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableAnnotation~GetSheet.html)
 
-  [ISwScene::AddOrEditFloorAppearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~AddOrEditFloorAppearance.html)
+##### IFamilyTableFeature Interface
 
-  and
-
-  [ISwScene::GetFloorAppearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~GetFloorAppearance.html)
-
-  .
-- Support for texture mapping of non-linear types, including surface projections. See
-
-  [IFace2::GetTessTriStripTextures](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStripTextures.html)
-
-  and
-
-  [IPartDoc::GetTessTriStripTextures](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStripTextures.html)
-
-  .
-- Improved performance when reloading a SOLIDWORKS model from disk by reloading only selected references. See
-
-  [IModelDocExtension::ReloadWithReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReloadWithReferences.html)
-
-  .
+- [IFamilyTableFeature::GetConfigurations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~GetConfigurations.html)
+- [IFamilyTableFeature::GetFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~GetFeature.html)
+- [IFamilyTableFeature::GetFollowConfigTreeOrder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~GetFollowConfigTreeOrder.html)
+- [IFamilyTableFeature::GetModelName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~GetModelName.html)
+- [IFamilyTableFeature::GetSequenceNumberIncrement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~GetSequenceNumberIncrement.html)
+- [IFamilyTableFeature::GetSequenceStartNumber](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~GetSequenceStartNumber.html)
+- [IFamilyTableFeature::GetTableAnnotationCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~GetTableAnnotationCount.html)
+- [IFamilyTableFeature::GetTableAnnotations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~GetTableAnnotations.html)
+- [IFamilyTableFeature::GetUseAllConfigurations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~GetUseAllConfigurations.html)
+- [IFamilyTableFeature::SetConfigurations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~SetConfigurations.html)
+- [IFamilyTableFeature::SetFollowConfigTreeOrder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~SetFollowConfigTreeOrder.html)
+- [IFamilyTableFeature::SetSequenceNumberIncrement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~SetSequenceNumberIncrement.html)
+- [IFamilyTableFeature::SetSequenceStartNumber](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~SetSequenceStartNumber.html)
+- [IFamilyTableFeature::SetUseAllConfigurations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFamilyTableFeature~SetUseAllConfigurations.html)
 
 ###### New delegates, methods, and properties
 
+##### DAssemblyDocEvents Handlers
+
+- [DAssemblyDocEvents_SolidBodyFolderReorderNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_SolidBodyFolderReorderNotifyEventHandler.html)
+
 ##### DDrawingDocEvents Handlers
 
-- [DDrawingDocEvents_DrawingStateChangeNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDrawingDocEvents_DrawingStateChangeNotifyEventHandler.html)
+- [DDrawingDocEvents_ViewPositionChangeNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDrawingDocEvents_ViewPositionChangeNotifyEventHandler.html)
 
-##### ICalloutAngleVariable Interface
+##### DPartDocEvents Handlers
 
-- [ICalloutAngleVariable::Precision](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutAngleVariable~Precision.html)
+- [DPartDocEvents_SolidBodyFolderReorderNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_SolidBodyFolderReorderNotifyEventHandler.html)
 
-##### IFace2 Interface
+##### IBodyFolder Interface
 
-- [IFace2::GetTessTriStripTextures](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStripTextures.html)
+- [IBodyFolder::GetTopLevelFeatureCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetTopLevelFeatureCount.html)
+- [IBodyFolder::GetTopLevelFeatures](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~GetTopLevelFeatures.html)
 
-##### IModelDocExtension Interface
+##### ISheet Interface
 
-- [IModelDocExtension::ReloadWithReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ReloadWithReferences.html)
-
-##### IPartDoc Interface
-
-- [IPartDoc::GetTessTriStripTextures](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStripTextures.html)
+- [ISheet::InsertFamilyTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~InsertFamilyTable.html)
 
 ##### IRenderMaterial Interface
 
-- [IRenderMaterial::AboutAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~AboutAxis.html)
-- [IRenderMaterial::AlongAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~AlongAxis.html)
-- [IRenderMaterial::BumpStrength](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~BumpStrength.html)
+- [IRenderMaterial::GetDSPBRMaterial](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~GetDSPBRMaterial.html)
+- [IRenderMaterial::HasDSPBRProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~HasDSPBRProperties.html)
 
-  (obsoletes IRenderMaterial::BumpAmplitude)
-- [IRenderMaterial::CustomHoleMeshFile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~CustomHoleMeshFile.html)
-- [IRenderMaterial::DimpleSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~DimpleSize.html)
-- [IRenderMaterial::FaceWidth](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~FaceWidth.html)
-- [IRenderMaterial::HoleMeshSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~HoleMeshSize.html)
-- [IRenderMaterial::KnurlAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~KnurlAngle.html)
-- [IRenderMaterial::KnurlHeightCap](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~KnurlHeightCap.html)
-- [IRenderMaterial::OffsetLatitude](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~OffsetLatitude.html)
-- [IRenderMaterial::OffsetLongitude](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~OffsetLongitude.html)
-- [IRenderMaterial::SurfaceFinishFile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishFile.html)
+##### ISldWorks Interface
 
-  (obsoletes IRenderMaterial::BumpTextureFilename)
-- [IRenderMaterial::SurfaceFinishFileNormalMap](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishFileNormalMap.html)
-- [IRenderMaterial::SurfaceFinishShaderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishShaderType.html)
-
-  (obsoletes IRenderMaterial::BumpMap)
-
-##### ISwScene Interface
-
-- [ISwScene::AddOrEditFloorAppearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~AddOrEditFloorAppearance.html)
-- [ISwScene::GetFloorAppearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~GetFloorAppearance.html)
+- [ISldWorks::ShadedEdgeThickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShadedEdgeThickness.html)
 
 ##### IView Interface
 
-- [IView::ImportAnnotations](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~ImportAnnotations.html)
-- [IView::InsertBomTable6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBomTable6.html)
-
-  (obsoletes IView::InsertBomTable5)
-
-###### Obsoleted methods
-
-##### IRenderMaterial Interface
-
-- IRenderMaterial::BumpAmplitude (superseded by
-
-  [IRenderMaterial::BumpStrength](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~BumpStrength.html)
-
-  )
-- IRenderMaterial::BumpMap (superseded by
-
-  [IRenderMaterial::SurfaceFinishShaderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishShaderType.html)
-
-  )
-- IRenderMaterial::BumpTextureFilename (superseded by
-
-  [IRenderMaterial::SurfaceFinishFile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishFile.html)
-
-  )
-
-##### IView Interface
-
-- IView::InsertBomTable5 (superseded by
-
-  [IView::InsertBomTable6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBomTable6.html)
-
-  )
+- [IView::SetViewPosition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~SetViewPosition.html)
 
 [Back to top](#Top)

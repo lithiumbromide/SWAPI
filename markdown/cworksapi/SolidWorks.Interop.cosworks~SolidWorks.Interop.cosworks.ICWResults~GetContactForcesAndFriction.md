@@ -72,9 +72,9 @@ System.Object^ GetContactForcesAndFriction(
 - `NStepNumber`: Solution step number at which to calculate the contact forces for non-linear and drop test studies; 1 for static studies
 - `DispPlane`: Plane, axis, or coordinate system relative to which the contact forces are calculated
 - `ArraySelectedEntities`: Array of entities for which to calculate contact forces
-- `NForceType`: Type of contact force as defined in[swsNForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNForceType_e.html)
-- `NUnits`: Units as defined in[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NForceType`: Type of contact force as defined in [swsNForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNForceType_e.html)
+- `NUnits`: Units as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -87,24 +87,17 @@ Array of four doubles of the contact forces for all selections in ArraySelectedE
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetContactForcesAndFriction](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetContactForcesAndFriction.html)
-
-.
+See [CWResults::GetContactForcesAndFriction](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetContactForcesAndFriction.html).
 
 ## Examples
 
 [Get Contact or Friction Forces (VBA)](Get_Normal_Contact_Friction_Force_Example_VB.htm)
-
 [Get Contact or Friction Forces (VB.NET)](Get_Normal_Contact_Friction_Force_Example_VBNET.htm)
-
 [Get Contact or Friction Forces (C#)](Get_Normal_Contact_Friction_Force_Example_CSharp.htm)
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

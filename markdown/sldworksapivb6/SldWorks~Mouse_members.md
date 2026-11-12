@@ -1,6 +1,5 @@
 ---
-title: "Mouse Object
-Members"
+title: "Mouse Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Mouse_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Mouse_members.html"
 ---
 
-# Mouse Object
-Members
+# Mouse Object Members
 
 ## Public Methods
 

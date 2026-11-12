@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder~mlParam.html"
 
 # mlParam Field
 
-Caller-defined parameter passed to
-
-[IEdmBatchListing::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFile.html)
-
-.
+Caller-defined parameter passed to [IEdmBatchListing::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFile.html).
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int mlParam
 ## See Also
 
 [EdmListFolder Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder.html)
-
 [EdmListFolder Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder_members.html)

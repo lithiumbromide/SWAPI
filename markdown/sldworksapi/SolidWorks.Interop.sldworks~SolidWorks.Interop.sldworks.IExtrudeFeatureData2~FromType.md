@@ -45,27 +45,15 @@ property System.int FromType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type from which to create an extrusion as defined in
-
-[swExtrudeFromType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swExtrudeFrom_e.html)
+Type from which to create an extrusion as defined in [swExtrudeFromType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swExtrudeFrom_e.html)
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::FromType](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~FromType.html)
-
-.
+See [ExtrudeFeatureData2::FromType](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~FromType.html).
 
 ## Examples
 
@@ -74,15 +62,10 @@ See
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IExtrudeFeatureData2::FromOffsetDistance Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~FromOffsetDistance.html)
-
 [IExtrudeFeatureData2::FromOffsetReverse Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~FromOffsetReverse.html)
-
 [IExtrudeFeatureData2::SetFromEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~SetFromEntity.html)
-
 [IExtrudeFeatureData2::GetFromEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~GetFromEntity.html)
 
 ## Availability

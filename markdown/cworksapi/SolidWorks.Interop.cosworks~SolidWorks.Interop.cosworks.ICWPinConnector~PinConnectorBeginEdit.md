@@ -41,32 +41,21 @@ void PinConnectorBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWPinConnector::PinConnectorBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~PinConnectorBeginEdit.html)
-
-.
+See [CWPinConnector::PinConnectorBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~PinConnectorBeginEdit.html).
 
 ## Examples
 
 [Create and Edit Bolt and Pin Connector (VBA)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VB.htm)
-
 [Create and Edit Bolt and Pin Connector (VB.NET)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VBNET.htm)
-
 [Create and Edit Bolt and Pin Connectors (C#)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_CSharp.htm)
 
 ## Remarks
 
-To start editing a pin connector, you must call this method. You must call
-
-[ICWPinConnector::PinConnectorEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWPinConnector~PinConnectorEndEdit.html)
-
-to end editing a pin connector. Changes are not applied unless you call both methods.
+To start editing a pin connector, you must call this method. You must call [ICWPinConnector::PinConnectorEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWPinConnector~PinConnectorEndEdit.html) to end editing a pin connector. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWPinConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
 [ICWPinConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector_members.html)
 
 ## Availability

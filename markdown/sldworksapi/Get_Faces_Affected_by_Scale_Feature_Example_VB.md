@@ -9,20 +9,9 @@ source: "sldworksapi/Get_Faces_Affected_by_Scale_Feature_Example_VB.htm"
 
 # Get Faces Affected by Scale Feature Example (VBA)
 
-This example shows how to get the faces affected by a scale feature in a
-multibody part.
+This example shows how to get the faces affected by a scale feature in a multibody part.
 
-**NOTE:**In SOLIDWORKS, a feature is a collection of faces. You can get
-these faces using IFeature::GetFaces. However, some features only affect
-existing faces and do not create any new faces. Examples of these types of
-features are draft and scale features. For these features, IFeature::GetFaces
-returns an empty array (i.e., no faces). To get the faces affected by a scale
-feature, first get the solid bodies to which the scale feature is applied. Each
-body is composed of a number of faces, which you can use to determine where
-these faces are located after the scale feature is applied to the body. An
-interesting issue is how to locate a face after a rebuild becausea face might
-not exist after a rebuild. To address this issue, SOLIDWORKS has safe entities,
-which are entities that survive a rebuild (i.e., are valid across a rebuild).
+**NOTE:** In SOLIDWORKS Design, a feature is a collection of faces. You can get these faces using IFeature::GetFaces. However, some features only affect existing faces and do not create any new faces. Examples of these types of features are draft and scale features. For these features, IFeature::GetFaces returns an empty array (i.e., no faces). To get the faces affected by a scale feature, first get the solid bodies to which the scale feature is applied. Each body is composed of a number of faces, which you can use to determine where these faces are located after the scale feature is applied to the body. An interesting issue is how to locate a face after a rebuild becausea face might not exist after a rebuild. To address this issue, SOLIDWORKS has safe entities, which are entities that survive a rebuild (i.e., are valid across a rebuild).
 
 ```
 '--------------------------------------------------

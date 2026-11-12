@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetBuildNumbers2 Method (ISldWorks)
 
-Gets the build, major revision, and hot fix numbers of the SOLIDWORKS application.
+Gets the build, major revision, and hot fix numbers of the SOLIDWORKS Design application.
 
 ## Syntax
 
@@ -54,48 +54,39 @@ void GetBuildNumbers2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BaseVersion`: SOLIDWORKS major revision number
-- `CurrentVersion`: SOLIDWORKS build number
-- `HotFixes`: SOLIDWORKS hot fix numbers
+- `BaseVersion`: Major revision number
+- `CurrentVersion`: Build number
+- `HotFixes`: Hot fix numbers
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetBuildNumbers2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetBuildNumbers2.html)
-
-.
+See [SldWorks::GetBuildNumbers2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetBuildNumbers2.html).
 
 ## Examples
 
 [Get Build Numbers (VBA)](Get_Build_Numbers_Example_VB.htm)
-
 [Get Build Numbers (VB.NET)](Get_Build_Numbers_Example_VBNET.htm)
-
 [Get Build Numbers (C#)](Get_Build_Numbers_Example_CSharp.htm)
+
+## Remarks
+
+Example outputs:
+
+SOLIDWORKS major revision number: SW2009_a1
+
+SOLIDWORKS build number: d080407.062
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::VersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html)
-
 [ISldWorks::IVersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IVersionHistory.html)
-
 [ISldWorks::IGetVersionHistoryCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetVersionHistoryCount.html)
-
 [ISldWorks::RevisionNumber Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RevisionNumber.html)
 
 ## Availability

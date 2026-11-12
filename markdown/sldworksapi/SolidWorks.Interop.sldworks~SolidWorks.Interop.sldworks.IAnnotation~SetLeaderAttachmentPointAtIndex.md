@@ -59,21 +59,11 @@ System.bool SetLeaderAttachmentPointAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Index of annotation (see
-
-Remarks
-
-)
+- `Index`: Index of annotation (see **Remarks**)
 - `X`: x-coordinate of attachment point
 - `Y`: y-coordinate of attachment point
 - `Z`: z-coordinate of attachment point
@@ -84,11 +74,7 @@ True if leader attached successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[Annotation::SetLeaderAttachmentPointAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetLeaderAttachmentPointAtIndex.html)
-
-.
+See [Annotation::SetLeaderAttachmentPointAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetLeaderAttachmentPointAtIndex.html).
 
 ## Examples
 
@@ -144,13 +130,9 @@ The annotation must be of a type that supports leaders. Only notes, GTols, surfa
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::SetLeader3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetLeader3.html)
-
 [IAnnotation::GetLeaderPointsAtIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetLeaderPointsAtIndex.html)
-
 [IAnnotation::GetLeaderCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetLeaderCount.html)
 
 ## Availability

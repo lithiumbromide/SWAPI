@@ -63,37 +63,24 @@ SwDmTableError GetCellText(
 
 ### Return Value
 
-Error as defined by
-
-[SwDmTableError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableError.html)
+Error as defined by [SwDmTableError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmTableError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMTable::GetCellText](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~GetCellText.html)
-
-.
+See [SwDMTable::GetCellText](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~GetCellText.html).
 
 ## Remarks
 
 Before calling this method, call:
 
-- [ISwDMTable::GetRowCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMTable~GetRowCount.html)
-
-  to determine the index of the row where the cell is located.
-- [ISwDMTable::GetColumnCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMTable~GetColumnCount.html)
-
-  to determine the index of the column where the cell is located.
+- [ISwDMTable::GetRowCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMTable~GetRowCount.html) to determine the index of the row where the cell is located.
+- [ISwDMTable::GetColumnCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMTable~GetColumnCount.html) to determine the index of the column where the cell is located.
 
 ## See Also
 
 [ISwDMTable Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable.html)
-
 [ISwDMTable Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable_members.html)
-
 [ISwDMTable::SetCellText Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~SetCellText.html)
-
 [ISwDMTable2::GetCellTextHorizontalJustification Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2~GetCellTextHorizontalJustification.html)
 
 ## Availability

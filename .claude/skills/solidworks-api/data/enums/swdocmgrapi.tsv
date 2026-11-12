@@ -1,0 +1,425 @@
+#swapi-enums 1 module=swdocmgrapi sw=2026 prefix=SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr. cols=name,value,description
+@swDm3DExperienceCfgType_e		Types of 3DEXPERIENCE configurations.
+swDmNot3DExperienceType	0	Default configuration used by SOLIDWORKS Desktop
+swDmPhysicalProduct	1	Family member of 3DEXPERIENCE
+swDmRepresentation	2	Break view, section view, or other representation of the Physical Product in 3DEXPERIENCE
+@swDm3DExperienceModelType_e		Types of 3D EXPERIENCE models.
+swDm3DExperienceModelType_3DExperience	2
+swDm3DExperienceModelType_PartSupply	1
+swDm3DExperienceModelType_Standard	0	From a non-specific source; denoted by a SOLIDWORKS Desktop component icon
+swDm3DExperienceModelType_xCad	3
+@swDmAngleUnit_e		Units of angle.
+swDmAngleUnit_swDmDegrees	0
+swDmAngleUnit_swDmDegreesMinutes	1
+swDmAngleUnit_swDmDegreesMinutesSeconds	2
+swDmAngleUnit_swDmRadians	3
+@SwDmAnnotationFileOpenError		Result codes when opening the preview bitmap of an annotation file.
+swDmAnnotationFileOpenErrorFail	1
+swDmAnnotationFileOpenErrorFileNotFound	2
+swDmAnnotationFileOpenErrorNonAnnotationFile	3
+swDmAnnotationFileOpenErrorNone	0
+@SwDmBodyError		Body errors.
+swBodyErrorDecompression	16	Decompression error
+swBodyErrorFileCreation	8	Failed to create output/intermediate files
+swBodyErrorNoData	4	Body data not present
+swDmBodyErrorGetCountNotCalled	1	Before calling ISwDMConfiguration::GetBody, call ISwDMConfiguration::GetBodiesCount
+swDmBodyErrorInvalidStorage	2	Invalid storage
+swDmBodyErrorNone	0	Success
+@swDmBOMPartNumberSource		Sources of bill of materials (BOM) part numbers.
+swDmBOMPartNumber_ConfigurationName	1
+swDmBOMPartNumber_DocumentName	0
+swDmBOMPartNumber_NotDefined	-1	Document was saved in older version of SOLIDWORKS; you must save the document in SOLIDWORKS 2009 or later
+swDmBOMPartNumber_ParentName	2
+swDmBOMPartNumber_UserSpecified	3
+@swDmBOMTableType		Bill of materials (BOM) table types.
+swDmBOMTableTypeFlattened	3
+swDmBOMTableTypeIndented	2
+swDmBOMTableTypePartsOnly	0
+swDmBOMTableTypeTopLevelOnly	1
+@SwDMConfigurationError		Return codes for methods of ISwDMConfigurationMgr2.
+SwDMConfigurationError_ComObjectDisconnected	3
+SwDMConfigurationError_DataMissing	5
+SwDMConfigurationError_NameNotFound	4
+SwDMConfigurationError_None	0
+SwDMConfigurationError_RequiredArgumentNull	2
+SwDMConfigurationError_Unknown	1
+@swDmConfigurationType		Configuration types.
+swDmConfiguration_AsMachined	1
+swDmConfiguration_AsWelded	2
+swDmConfiguration_Defeature	5
+swDmConfiguration_SheetMetal	3
+swDmConfiguration_SpeedPak	4
+swDmConfiguration_Standard	0
+@SwDmCopyOptions		Copy options. Bitmask.
+swDmCopyOptionsCreateNewFolder	2
+swDmCopyOptionsOverwriteExistingDocs	1
+@SwDmCustomInfoType		Custom property types.
+swDmCustomInfoDate	64
+swDmCustomInfoEquation	105
+swDmCustomInfoNumber	3
+swDmCustomInfoText	30
+swDmCustomInfoUnknown	0
+swDmCustomInfoYesOrNo	11
+@swDMCutListExclusionStatus_e		Exclusion statuses of a cut list item.
+swDMCutListStatus_Excluded	1
+swDMCutListStatus_Included	0
+swDMCutListStatus_Unknown	-1	Data is missing or document was saved in a SOLIDWORKS version earlier than 2021
+@swDMCutListType_e		Cut list types.
+swDMCutListType_Sheetmetal	2
+swDMCutListType_SolidBody	1
+swDMCutListType_Unknown	-1
+swDMCutListType_Weldment	3
+@SwDmDesignTableDataError		Design table data errors.
+swDmDesignTableDataError_ExternalTableFound	0	The SOLIDWORKS document has an external design table, which is linked to and has been found on disk
+swDmDesignTableDataError_Fail	5	Unknown failure
+swDmDesignTableDataError_InternalTable	1	The SOLIDWORKS document has an internal design table, so there is no external filename
+swDmDesignTableDataError_NoData	4	The SOLIDWORKS document was saved before in a version of SOLIDWORKS earlier than SOLIDWORKS 2009 SP0, so no data is available
+swDmDesignTableDataError_NoTable	2	The SOLIDWORKS document does not have a design table
+swDMDesigTableDataError_ExternalTableNotFound	3	The SOLIDWORKS document has an external design table, but it cannot be found on disk
+@swDmDimXpertAnnotationType_e		DimXpert annotation types.
+swDmDimXpertAnnotationType_unknown	0
+swDmDimXpertDatum	150
+swDmDimXpertDimTol_AngleBetween	106
+swDmDimXpertDimTol_ChamferDimension	105
+swDmDimXpertDimTol_CompositeDistanceBetween	113
+swDmDimXpertDimTol_ConeAngle	108
+swDmDimXpertDimTol_CounterBore	102
+swDmDimXpertDimTol_CounterSinkAngle	107
+swDmDimXpertDimTol_CounterSinkDiameter	104
+swDmDimXpertDimTol_Depth	103
+swDmDimXpertDimTol_Diameter	109
+swDmDimXpertDimTol_DistanceBetween	101
+swDmDimXpertDimTol_Length	110
+swDmDimXpertDimTol_PatternAngleBetween	114
+swDmDimXpertDimTol_Radius	111
+swDmDimXpertDimTol_Width	112
+swDmDimXpertGeoTol_Angularity	210
+swDmDimXpertGeoTol_Circularity	216
+swDmDimXpertGeoTol_CircularRunout	214
+swDmDimXpertGeoTol_CompositeLineProfile	206
+swDmDimXpertGeoTol_CompositePosition	202
+swDmDimXpertGeoTol_CompositeSurfaceProfile	208
+swDmDimXpertGeoTol_Concentricity	204
+swDmDimXpertGeoTol_Cylindricity	217
+swDmDimXpertGeoTol_Flatness	215
+swDmDimXpertGeoTol_LineProfile	205
+swDmDimXpertGeoTol_Parallelism	211
+swDmDimXpertGeoTol_Perpendicularity	212
+swDmDimXpertGeoTol_Position	201
+swDmDimXpertGeoTol_Straightness	218
+swDmDimXpertGeoTol_SurfaceProfile	207
+swDmDimXpertGeoTol_Symmetry	203
+swDmDimXpertGeoTol_Tangency	221
+swDmDimXpertGeoTol_TotalRunout	213
+@swDmDimXpertBlockToleranceType_e		DimXpert block tolerance types.
+swDmDimXpertBlockToleranceType_ASMEInch	1
+swDmDimXpertBlockToleranceType_ISO2768	2
+swDmDimXpertBlockToleranceType_unknown	0
+@swDmDimXpertChamferAngleType_e		DimXpert chamfer angle types.
+swDmDimXpertChamferAngleType_Concave	1
+swDmDimXpertChamferAngleType_Convex	2
+swDmDimXpertChamferAngleType_unknown	0
+@swDmDimXpertChamferDimensionType_e		DimXpert chamfer dimension types.
+swDmDimXpertChamferDimensionType_Angle	1
+swDmDimXpertChamferDimensionType_LinearDistance1	2
+swDmDimXpertChamferDimensionType_LinearDistance2	3
+swDmDimXpertChamferDimensionType_unknown	0
+@swDmDimXpertChamferType_e		DimXpert chamfer types.
+swDmDimXpertChamferType_DistanceAngle	1
+swDmDimXpertChamferType_DistanceDistance	2
+swDmDimXpertChamferType_unknown	0
+swDmDimXpertChamferType_Vertex	3
+@swDmDimXpertDimensionToleranceType_e		DimXpert dimension tolerance types.
+swDmDimXpertDimensionToleranceType_unknown	0
+swDmDimXpertDimTolType_BlockTolerance	1
+swDmDimXpertDimTolType_BlockToleranceNoNominal	2
+swDmDimXpertDimTolType_ISOLimitsAndFits	3
+swDmDimXpertDimTolType_ISOLimitsAndFitsNoNominal	4
+swDmDimXpertDimTolType_LimitDimension	5
+swDmDimXpertDimTolType_MAXTolerance	6
+swDmDimXpertDimTolType_MINTolerance	7
+swDmDimXpertDimTolType_NoTolerance	8
+swDmDimXpertDimTolType_PlusMinusDimension	9
+swDmDimXpertDimTolType_PlusMinusNoNominal	10
+@swDmDimXpertDistanceFosUsage_e		DimXpert distance feature of size usages.
+swDmDimXpertDistanceFosUsage_Center	1
+swDmDimXpertDistanceFosUsage_MaximumSide	2
+swDmDimXpertDistanceFosUsage_MinimumSide	3
+swDmDimXpertDistanceFosUsage_unknown	0
+@swDmDimXpertFeatureType_e		DimXpert feature types.
+swDmDimXpertFeature_BestfitPlane	17
+swDmDimXpertFeature_Chamfer	6
+swDmDimXpertFeature_CompoundClosedSlot3D	10
+swDmDimXpertFeature_CompoundHole	7
+swDmDimXpertFeature_CompoundNotch	9
+swDmDimXpertFeature_CompoundWidth	8
+swDmDimXpertFeature_Cone	3
+swDmDimXpertFeature_Cylinder	2
+swDmDimXpertFeature_Extrude	4
+swDmDimXpertFeature_Fillet	5
+swDmDimXpertFeature_IntersectCircle	13
+swDmDimXpertFeature_IntersectLine	12
+swDmDimXpertFeature_IntersectPlane	14
+swDmDimXpertFeature_IntersectPoint	11
+swDmDimXpertFeature_Pattern	15
+swDmDimXpertFeature_Plane	1
+swDmDimXpertFeature_Sphere	16
+swDmDimXpertFeature_Surface	18
+swDmDimXpertFeatureType_unknown	0
+@swDmDimXpertISO2768PartType_e		DimXpert ISO 2768 part types.
+swDmDimXpertISO2768PartType_Coarse	3
+swDmDimXpertISO2768PartType_Fine	1
+swDmDimXpertISO2768PartType_Medium	2
+swDmDimXpertISO2768PartType_unknown	0
+swDmDimXpertISO2768PartType_VeryCoarse	4
+@swDmDimXpertMaterialConditionModifier_e		DimXpert material condition modifiers.
+swDmDimXpertMaterialConditionModifier_unknown	0	Unknown material condition modifier
+swDmDimXpertMCM_LMC	1	Least material condition
+swDmDimXpertMCM_MMC	2	Maximum material condition
+swDmDimXpertMCM_NoMCM	3	No material condition modifier
+swDmDimXpertMCM_RFS	4	Regardless of feature size
+@swDmDimXpertOrientationZoneType_e		DimXpert orientation zone types.
+swDmDimXpertOrientationZoneType_Cylindrical	1
+swDmDimXpertOrientationZoneType_Planar	2
+swDmDimXpertOrientationZoneType_unknown	0
+@swDmDimXpertPatternTreatmentType_e		DimXpert pattern treatment types.
+swDmDimXpertPatternTreatmentType_CircularPattern	1
+swDmDimXpertPatternTreatmentType_IndividualFeatures	2
+swDmDimXpertPatternTreatmentType_unknown	0
+@swDmDimXpertPositionZoneType_e		DimXpert position zone types.
+swDmDimXpertPositionZoneType_Boundary	1
+swDmDimXpertPositionZoneType_CylindricalPosition	2
+swDmDimXpertPositionZoneType_PlanarPosition	3
+swDmDimXpertPositionZoneType_RadialPositionArc	4
+swDmDimXpertPositionZoneType_RadialPositionPlanar	5
+swDmDimXpertPositionZoneType_SphericalPosition	6
+swDmDimXpertPositionZoneType_unknown	0
+@swDmDimXpertStraightnessZoneType_e		DimXpert straightness zone types.
+swDmDimXpertStraightnessZoneType_Cylindrical	1
+swDmDimXpertStraightnessZoneType_PlanarMedian	2
+swDmDimXpertStraightnessZoneType_Surface	3
+swDmDimXpertStraightnessZoneType_unknown	0
+@SwDMDocumentLicenseType_e		Document Manager license types.
+swDMDocLicenseType_Commerical	1
+swDMDocLicenseType_NonCommercial	2
+swDMDocLicenseType_Unknown	0
+@SwDmDocumentOpenError		Document open errors.
+swDmDocumentOpenErrorFail	1	File failed to open; reasons could be related to permissions or the file is in use by some other application or the file does not exist
+swDmDocumentOpenErrorFileNotFound	3	File not found
+swDmDocumentOpenErrorFileReadOnly	4	File is read only
+swDmDocumentOpenErrorFutureVersion	6	File was created in a version of SOLIDWORKS more recent than the SOLIDWORKS Document Manager version attempting to open the file; you need to install a later version of SOLIDWORKS Document Manager; see ISwDMApplication::GetLatestSupportedFileVersion
+swDmDocumentOpenErrorNoLicense	5	No valid SOLIDWORKS Document Manager API license; the file may have been saved in a later version of SOLIDWORKS to which your license key does not allow access; see License Key section of Getting Started
+swDmDocumentOpenErrorNone	0	File successfully opened
+swDmDocumentOpenErrorNonSW	2	Non-SOLIDWORKS file was opened
+@SwDMDocumentSavedInLDREditMode_e		Return values for ISwDMDocument30::SavedInLDREditMode.
+SwDMDocumentSavedInLDREditMode_FALSE	2
+SwDMDocumentSavedInLDREditMode_TRUE	1
+SwDMDocumentSavedInLDREditMode_Unknown	0
+@SwDmDocumentSaveError		Document save errors.
+swDmDocumentSaveErrorFail	2	Failed; reason could be related to permissions
+swDmDocumentSaveErrorNone	0	Saved successfully
+swDmDocumentSaveErrorReadOnly	1	Failed; file was opened as read-only
+@SwDmDocumentType		Document types.
+swDmDocumentAssembly	2	Assembly document
+swDmDocumentDrawing	3	Drawing document
+swDmDocumentPart	1	Part document
+swDmDocumentUnknown	0	Unknown file type
+@swDmDocumentUnitsIntegerValue_e		Return options for document values.
+swDmUnitsAngular	9
+swDmUnitsAngularDecimalPlaces	10
+swDmUnitsDecimalRounding	24
+swDmUnitsDualLinear	5
+swDmUnitsDualLinearDecimalDisplay	6
+swDmUnitsDualLinearDecimalPlaces	7
+swDmUnitsDualLinearFractionDenominator	8
+swDmUnitsEnergyDecimalPlaces	22
+swDmUnitsEnergyUnits	21
+swDmUnitsForce	17
+swDmUnitsForceDecimalPlaces	18
+swDmUnitsLinear	1
+swDmUnitsLinearDecimalDisplay	2
+swDmUnitsLinearDecimalPlaces	3
+swDmUnitsLinearFractionDenominator	4
+swDmUnitsMassPropDecimalPlaces	12
+swDmUnitsMassPropLength	11
+swDmUnitsMassPropMass	13
+swDmUnitsMassPropVolume	14
+swDmUnitsPowerDecimalPlaces	20
+swDmUnitsPowerUnits	19
+swDmUnitsTimeDecimalPlaces	16
+swDmUnitsTimeUnits	15
+swDmUnitSystem	0
+@swDmDocumentUnitsToggle_e		Document switches for the linear feet and inches format.
+swDmUnitsDualLinearFeetAndInchesFormat	3
+swDmUnitsDualLinearRoundToNearestFraction	2
+swDmUnitsLinearFeetAndInchesFormat	0
+swDmUnitsLinearRoundToNearestFraction	1
+@SwDmEDwgDataError		eDrawings data errors.
+swDmEDwgDataErrorFileCreation	2	Failed to create eDrawings file, possibly because of permissions
+swDmEDwgDataErrorInvalidStorage	4	Invalid storage
+swDmEDwgDataErrorNoData	1	File was not saved with eDrawings data
+swDmEDwgDataErrorNone	0	Success
+@swDmExcludeFromBOMResult		Bill of materials (BOM) components exclusion options.
+swDmExcludeFromBOM_FALSE	0	Do not exclude components from BOM.
+swDmExcludeFromBOM_NotDefined	-1	Indicates that the document was created or saved in SOLIDWORKS 2008 SP01 or earlier. Open and save the document in SOLIDWORKS 2008 SP02 or later.
+swDmExcludeFromBOM_TRUE	1	Exclude components from BOM.
+@swDmFractionDisplay_e		Fraction display options.
+swDmFractionDisplay_swDmDecimal	1
+swDmFractionDisplay_swDmFraction	2
+swDmFractionDisplay_swDmNone	0
+@swDmLengthUnit_e		Units of length.
+swDmLengthUnit_swDmAngstroms	6
+swDmLengthUnit_swDmCentimeters	1
+swDmLengthUnit_swDmFeet	4
+swDmLengthUnit_swDmFeetInches	5
+swDmLengthUnit_swDmInches	3
+swDmLengthUnit_swDmMeters	2
+swDmLengthUnit_swDmMicroInches	10
+swDmLengthUnit_swDmMicrons	8
+swDmLengthUnit_swDmMillimeters	0
+swDmLengthUnit_swDmMils	9
+swDmLengthUnit_swDmNanometers	7
+@SwDmMassPropError		Mass property errors.
+swDmMassPropErrorEarlierVersion	1	Mass properties are stored as document properties in version 2500 and later
+swDmMassPropErrorNoData	2	Reason for error could be that mass properties were not calculated before the part was saved
+swDmMassPropErrorNone	0	Success
+swDmMassPropErrorUnknown	3	Unknown error
+@SwDmMoveCopyError		Move/copy errors.
+swDmMoveCopyErrorFail	2	Failed to create destination directories or copy operation failed due to problems possibly related to permissions
+swDmMoveCopyErrorNone	0	Success
+swDmMoveCopyErrorSourceDoesNotExist	1	Source file does not exist
+@swDMPartConfigurationGrouping		Options for part configuration groupings.
+swDMPartConfigurationGrouping_OneItemForAllConfigurationsOfPart	2
+swDMPartConfigurationGrouping_OneItemForPartsWithSameConfigurationName	3
+swDMPartConfigurationGrouping_SeparateItemsForEachConfigurationOfPart	1
+@SwDmPreviewError		Preview errors.
+swDmPreviewErrorFileOpen	1	Failed to open the document
+swDmPreviewErrorMakeBmpFail	4	Failed to make the bitmap
+swDmPreviewErrorNone	0	Success
+swDmPreviewErrorNoPreview	2	No preview data stored in document
+@SwDmReferenceStatus		Reference status.
+swDmReferenceStatusBroken	1
+swDmReferenceStatusNotBroken	2
+swDmReferenceStatusUnknown	0	Either an older version or not applicable
+@swDmRevTableStyle		Multiple drawing sheet styles for revision tables.
+swDmRevCopyOfSheet1	1	Linked; copies the revision table on sheet 1 to all sheets, updating all revision tables when revisions are made
+swDmRevIndependent	2	Independent; makes the revision table on each sheet independent of the other revision tables in the drawing; updates to one revision table do not affect other revision tables
+swDmRevSeeSheet1	0	See Sheet 1; makes the revision table on the first sheet the active table, labeling the revision tables on all other drawing sheets, See Sheet 1
+swDmRevStyleUnknown	-1
+@SwDmSearchFilters		Search filters. Bitmask.
+SwDmSearchExternalReference	16	Search for simple assembly references to parts and subassemblies
+SwDmSearchForAssembly	8	Search for assemblies
+SwDmSearchForDrawing	4	Search for drawings
+SwDmSearchForPart	2	Search for parts
+SwDmSearchInContextReference	32	Search for references to base parts for derived parts, mirrored parts, derived component parts, and parts designed in the context of assemblies
+SwDmSearchPartToBaseAssemblyReference	128	Search for references to assemblies that have been inserted into parts using the Insert Assembly feature
+SwDmSearchRootAssemblyFolder	64	Search all the way to the assembly's root folder
+SwDmSearchSubfolders	1	Recursively search all of the subfolders. This is only applicable when used with ISwDMDocument::WhereUsed and ISwDMComponent4::GetDocument2
+@swDmShowChildComponentsInBOMResult		How components are displayed in the bill of materials (BOM).
+swDmShowChildComponentsInBOM_FALSE	0	Do not display child components in the BOM; the subassembly appears as a single item
+swDmShowChildComponentsInBOM_NotDefined	-1	Document was saved in an older version of SOLIDWORKS; you must save document in SOLIDWORKS 2009 or later
+swDmShowChildComponentsInBOM_Promote	2	All of the child components are promoted one level; the configuration dissolves when it appears in a BOM
+swDmShowChildComponentsInBOM_TRUE	1	List child components individually in the BOM
+@swDmTableCellHorzAlignType		Table cell alignment.
+swDmTableCellHorzAlign_Center	1
+swDmTableCellHorzAlign_Center_Center	5
+swDmTableCellHorzAlign_Equal_Space	6
+swDmTableCellHorzAlign_General	3
+swDmTableCellHorzAlign_Left	0
+swDmTableCellHorzAlign_None	4
+swDmTableCellHorzAlign_Right	2
+swDmTableCellHorzAlign_Unknown	-1
+@SwDmTableError		Table errors.
+SwDmTableErrorFailed	1
+SwDmTableErrorNone	0
+SwDmTableErrorNotSupported	2
+@SwDmTableHeaderStyle		Table header styles.
+SwDmTableHeaderStyleBottom	1
+SwDmTableHeaderStyleNotFound	2
+SwDmTableHeaderStyleTop	0
+@SwDmTableType		Table types.
+swDmTableTypeBOM	2
+swDmTableTypeBOMHidden	3
+swDmTableTypeRevision	1
+swDmTableTypeUnsupported	0
+@SwDmToolboxPartType		Toolbox part types. Bitmask.
+swDmNotAToolboxPart	0
+swDmToolboxCopiedPart	2
+swDmToolboxStandardPart	1
+@swDmUnitsDecimalRounding_e		Rounding options for decimal units.
+swDmUnitsDecimalRounding_HalfAway	0	Round up to the nearest decimal
+swDmUnitsDecimalRounding_HalfToEven	2	Round up or down to the next even decimal
+swDmUnitsDecimalRounding_HalfTowards	1	Round down to the nearest decimal
+swDmUnitsDecimalRounding_Truncate	3	Truncate the decimal without rounding
+@swDmUnitsEnergyUnit_e		Units of energy.
+swDmUnitsEnergyUnit_BTUs	3
+swDmUnitsEnergyUnit_Ergs	2
+swDmUnitsEnergyUnit_Joules	1
+swDmUnitsEnergyUnit_KilowattHours	4
+@swDmUnitsForce_e		Units of force.
+swDmUnitsForce_Dynes	1
+swDmUnitsForce_KgForce	7
+swDmUnitsForce_Kilonewtons	4
+swDmUnitsForce_Meganewtons	5
+swDmUnitsForce_Millinewtons	2
+swDmUnitsForce_Newtons	3
+swDmUnitsForce_OunceForce	8
+swDmUnitsForce_PoundForce	6
+@swDmUnitsMassPropMass_e		Units of mass.
+swDmUnitsMassPropMass_Grams	2
+swDmUnitsMassPropMass_Kilograms	3
+swDmUnitsMassPropMass_Milligrams	1
+swDmUnitsMassPropMass_Pounds	4
+@swDmUnitsMassPropVolume_e		Units of volume.
+swDmUnitsMassPropVolume_AngstromsCubed	0
+swDmUnitsMassPropVolume_Centiliters	12
+swDmUnitsMassPropVolume_CentimetersCubed	4
+swDmUnitsMassPropVolume_Deciliters	13
+swDmUnitsMassPropVolume_FeetCubed	9
+swDmUnitsMassPropVolume_Hectoliters	15
+swDmUnitsMassPropVolume_IMPCubicYards	20
+swDmUnitsMassPropVolume_IMPGallons	19
+swDmUnitsMassPropVolume_InchesCubed	8
+swDmUnitsMassPropVolume_Liters	14
+swDmUnitsMassPropVolume_MetersCubed	5
+swDmUnitsMassPropVolume_MicroInchesCubed	6
+swDmUnitsMassPropVolume_Microliters	10
+swDmUnitsMassPropVolume_MicronsCubed	2
+swDmUnitsMassPropVolume_Milliliters	11
+swDmUnitsMassPropVolume_MillimetersCubed	3
+swDmUnitsMassPropVolume_MilsCubed	7
+swDmUnitsMassPropVolume_NanometersCubed	1
+swDmUnitsMassPropVolume_USFluidOunces	16
+swDmUnitsMassPropVolume_USGallons	18
+swDmUnitsMassPropVolume_USPints	17
+@swDmUnitsPowerUnit_e		Units of power.
+swDmUnitsPowerUnit_Horsepower	2
+swDmUnitsPowerUnit_Kilowatts	3
+swDmUnitsPowerUnit_Watts	1
+@swDmUnitsTimeUnit_e		Units of time.
+swDmUnitsTimeUnit_Hours	4
+swDmUnitsTimeUnit_Microseconds	5
+swDmUnitsTimeUnit_Milliseconds	2
+swDmUnitsTimeUnit_Minutes	3
+swDmUnitsTimeUnit_Nanoseconds	6
+swDmUnitsTimeUnit_Seconds	1
+@swDmUnitSystem_e		Unit systems.
+swDmUnitSystem_CGS	1
+swDmUnitSystem_Custom	4
+swDmUnitSystem_IPS	3
+swDmUnitSystem_MKS	2
+swDmUnitSystem_MMGS	5
+@SwDmXmlDataError		XML errors.
+swDmXmlDataErrorFileCreation	2	Failed to create file; reason could be related to permissions
+swDmXmlDataErrorInvalidStorage	4	Invalid storage
+swDmXmlDataErrorNoData	1	File was not saved with XML data
+swDmXmlDataErrorNone	0	Success
+swDmXmlDataErrorStorageOpenFail	8	Storage failed to open
+@swSheetFormatPathResult		Sheet format path results.
+swSheetFormatPath_FALSE	0
+swSheetFormatPath_NotDefined	-1
+swSheetFormatPath_TRUE	1
+@swSheetPropertiesResult		Sheet properties results.
+swSheetProperties_FALSE	0
+swSheetProperties_NotDefined	-1
+swSheetProperties_TRUE	1

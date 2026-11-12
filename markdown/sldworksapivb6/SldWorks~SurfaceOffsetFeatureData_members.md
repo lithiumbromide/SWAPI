@@ -1,6 +1,5 @@
 ---
-title: "SurfaceOffsetFeatureData Object
-Members"
+title: "SurfaceOffsetFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfaceOffsetFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfaceOffsetFeatureData_members.html"
 ---
 
-# SurfaceOffsetFeatureData Object
-Members
+# SurfaceOffsetFeatureData Object Members
 
 ## Public Methods
 

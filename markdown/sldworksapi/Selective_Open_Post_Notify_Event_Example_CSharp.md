@@ -9,8 +9,7 @@ source: "sldworksapi/Selective_Open_Post_Notify_Event_Example_CSharp.htm"
 
 # Selective Open Post-Notify Event Example (C#)
 
-This example shows how to handle the post-notification event that fires when
-components are selected for Quick View/Selective Open.
+This example shows how to handle the post-notification event that fires when components are selected for Quick View/Selective Open.
 
 ```
 //------------------------------------------------------
@@ -42,47 +41,47 @@ using SolidWorks.Interop.swconst;
 using System;
 namespace SelectiveOpenPostNotify_CSharp.csproj
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}partial class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public AssemblyDoc swAssembly;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void Main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.SetUserPreferenceToggle((int)swUserPreferenceToggle_e.swStopDebuggingVstaOnExit, false);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ModelDoc2 swModel = default(ModelDoc2);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DocumentSpecification swDocSpecification = default(DocumentSpecification);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swDocSpecification = (DocumentSpecification)swApp.GetOpenDocSpec("C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\advdrawings\\bowl and chute.sldasm");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swDocSpecification.InteractiveComponentSelection = true;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swDocSpecification.DocumentType = (int)swDocumentTypes_e.swDocASSEMBLY;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel = swApp.OpenDoc7(swDocSpecification);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel = (ModelDoc2)swApp.ActiveDoc;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swAssembly = (AssemblyDoc)swModel;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}// Set up event
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}AttachEventHandlers();
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void AttachEventHandlers()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}AttachSWEvents();
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void AttachSWEvents()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swAssembly.SelectiveOpenPostNotify += this.swAssembly_SelectiveOpenPostNotify;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public int swAssembly_SelectiveOpenPostNotify(string NewAddedDisplayStateName, ref object SelectedComponentNames)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}System.Windows.Forms.MessageBox.Show("A post-notification event has been fired for the selective open.");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}System.Diagnostics.Debug.Print("New display state name: " + NewAddedDisplayStateName);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}System.Diagnostics.Debug.Print("Selected component names:");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}long i = 0;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}String[] selected;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}selected = (String[])SelectedComponentNames;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}for (i = 0; i <= selected.GetUpperBound(0); i++)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}System.Diagnostics.Debug.Print(" " + selected[i]);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swApp.SetUserPreferenceToggle((int)swUserPreferenceToggle_e.swStopDebuggingVstaOnExit, true);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}return 0;
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SldWorks swApp;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+    partial class SolidWorksMacro
+    {
+        public AssemblyDoc swAssembly;
+        public void Main()
+        {
+            swApp.SetUserPreferenceToggle((int)swUserPreferenceToggle_e.swStopDebuggingVstaOnExit, false);
+            ModelDoc2 swModel = default(ModelDoc2);
+            DocumentSpecification swDocSpecification = default(DocumentSpecification);
+            swDocSpecification = (DocumentSpecification)swApp.GetOpenDocSpec("C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\advdrawings\\bowl and chute.sldasm");
+            swDocSpecification.InteractiveComponentSelection = true;
+            swDocSpecification.DocumentType = (int)swDocumentTypes_e.swDocASSEMBLY;
+            swModel = swApp.OpenDoc7(swDocSpecification);
+            swModel = (ModelDoc2)swApp.ActiveDoc;
+            swAssembly = (AssemblyDoc)swModel;
+            // Set up event
+            AttachEventHandlers();
+        }
+        public void AttachEventHandlers()
+        {
+            AttachSWEvents();
+        }
+        public void AttachSWEvents()
+        {
+            swAssembly.SelectiveOpenPostNotify += this.swAssembly_SelectiveOpenPostNotify;
+        }
+        public int swAssembly_SelectiveOpenPostNotify(string NewAddedDisplayStateName, ref object SelectedComponentNames)
+        {
+            System.Windows.Forms.MessageBox.Show("A post-notification event has been fired for the selective open.");
+            System.Diagnostics.Debug.Print("New display state name: " + NewAddedDisplayStateName);
+            System.Diagnostics.Debug.Print("Selected component names:");
+            long i = 0;
+            String[] selected;
+            selected = (String[])SelectedComponentNames;
+            for (i = 0; i <= selected.GetUpperBound(0); i++)
+            {
+                System.Diagnostics.Debug.Print(" " + selected[i]);
+            }
+            swApp.SetUserPreferenceToggle((int)swUserPreferenceToggle_e.swStopDebuggingVstaOnExit, true);
+            return 0;
+        }
+        public SldWorks swApp;
+    }
 }
 ```

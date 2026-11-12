@@ -44,24 +44,15 @@ property gtcocswGeometryAnalysis^ GeometryAnalysis {
 
 ### Property Value
 
-Pointer to
-
-[IGeometryAnalysis](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IGeometryAnalysis.html)
-
-object
+Pointer to [IGeometryAnalysis](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IGeometryAnalysis.html) object
 
 ## VBA Syntax
 
-See
-
-[IUtilities::GeometryAnalysis](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~GeometryAnalysis.html)
-
-.
+See [IUtilities::GeometryAnalysis](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~GeometryAnalysis.html).
 
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
 
 ## Availability

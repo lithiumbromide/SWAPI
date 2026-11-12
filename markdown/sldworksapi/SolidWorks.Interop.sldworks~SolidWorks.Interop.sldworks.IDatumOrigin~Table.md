@@ -42,34 +42,19 @@ property HoleTable^ Table {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the
-
-[IHoleTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable.html)
-
-object associated with datum origin
+Pointer to the [IHoleTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable.html) object associated with datum origin
 
 ## VBA Syntax
 
-See
-
-[DatumOrigin::Table](ms-its:sldworksapivb6.chm::/sldworks~DatumOrigin~Table.html)
-
-.
+See [DatumOrigin::Table](ms-its:sldworksapivb6.chm::/sldworks~DatumOrigin~Table.html).
 
 ## See Also
 
 [IDatumOrigin Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin.html)
-
 [IDatumOrigin Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin_members.html)
 
 ## Availability

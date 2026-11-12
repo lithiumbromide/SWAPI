@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Parent-Child_Relationship_for_Component_Example_VB.htm"
 
 # Get Parent-Child Relationship for Component Example (VBA)
 
-This example shows how to get the parent-child relationship for an assembly
-component.
+This example shows how to get the parent-child relationship for an assembly component.
 
 ```
 '------------------------------------------------------------

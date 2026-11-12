@@ -42,13 +42,7 @@ property System.double TextureVScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,32 +50,19 @@ Decal texture scale in the V direction
 
 ## VBA Syntax
 
-See
-
-[FaceDecalProperties::TextureVScale](ms-its:sldworksapivb6.chm::/sldworks~FaceDecalProperties~TextureVScale.html)
-
-.
+See [FaceDecalProperties::TextureVScale](ms-its:sldworksapivb6.chm::/sldworks~FaceDecalProperties~TextureVScale.html).
 
 ## Examples
 
-See
-
-[IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
-examples.
+See [IFaceDecalProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html) examples.
 
 ## See Also
 
 [IFaceDecalProperties Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties.html)
-
 [IFaceDecalProperties Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties_members.html)
-
 [IFaceDecalProperties::TextureUScale Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties~TextureUScale.html)
-
 [IFaceDecalProperties::TextureAngleUV Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties~TextureAngleUV.html)
-
 [IFaceDecalProperties::TextureTranslationU Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties~TextureTranslationU.html)
-
 [IFaceDecalProperties::TextureTranslationV Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceDecalProperties~TextureTranslationV.html)
 
 ## Availability

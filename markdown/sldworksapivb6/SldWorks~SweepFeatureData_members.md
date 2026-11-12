@@ -1,6 +1,5 @@
 ---
-title: "SweepFeatureData Object
-Members"
+title: "SweepFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SweepFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SweepFeatureData_members.html"
 ---
 
-# SweepFeatureData Object
-Members
+# SweepFeatureData Object Members
 
 ## Public Methods
 

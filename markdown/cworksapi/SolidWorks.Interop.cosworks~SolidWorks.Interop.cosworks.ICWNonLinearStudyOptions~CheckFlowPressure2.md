@@ -47,30 +47,21 @@ property System.bool CheckFlowPressure2 {
 
 ### Property Value
 
--1 or true to import fluid pressure loads, 0 or false to not (see
-
-Remarks
-
-)
+-1 or true to import fluid pressure loads, 0 or false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::CheckFlowPressure2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~CheckFlowPressure2.html)
-
-.
+See [CWNonLinearStudyOptions::CheckFlowPressure2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~CheckFlowPressure2.html).
 
 ## Remarks
 
 This property returns a boolean value which can be cast to an integer. To set this property, you can specify either the boolean or the integer.
 
-If this property is set to -1 or true, use[ICWNonLinearStudyOptions::FlowPressureFile](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~FlowPressureFile.html)to set the SOLIDWORKS Flow Simulation results file.
+If this property is set to -1 or true, use [ICWNonLinearStudyOptions::FlowPressureFile](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~FlowPressureFile.html) to set the SOLIDWORKS Flow Simulation results file.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

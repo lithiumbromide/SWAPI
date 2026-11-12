@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Imported_Solid_Body_Example_CSharp.htm"
 
 # Create Imported Solid Body Example (C#)
 
-This example shows how to create an imported solid body in the shape
-of a pyramid.
+This example shows how to create an imported solid body in the shape of a pyramid.
 
 ```
 //-----------------------------------------------

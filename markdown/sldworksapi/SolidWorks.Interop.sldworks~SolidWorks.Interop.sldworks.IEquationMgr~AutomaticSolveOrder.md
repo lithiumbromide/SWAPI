@@ -45,13 +45,7 @@ property System.bool AutomaticSolveOrder {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ True to automatically sequence equations in an order determined by SOLIDWORKS to
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::AutomaticSolveOrder](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~AutomaticSolveOrder.html)
-
-.
+See [EquationMgr::AutomaticSolveOrder](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~AutomaticSolveOrder.html).
 
 ## Examples
 
 [Automatically Solve Equations in Sequence (C#)](Automatically_Solve_Equations_in_Sequence_Example_CSharp.htm)
-
 [Automatically Solve Equations in Sequence (VB.NET)](Automatically_Solve_Equations_in_Sequence_Example_VBNET.htm)
-
 [Automatically Solve Equations in Sequence (VBA)](Automatically_Solve_Equations_in_Sequence_Example_VB.htm)
 
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::Equation Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
 
 ## Availability

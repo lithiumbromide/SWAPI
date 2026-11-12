@@ -45,13 +45,7 @@ property System.bool ShowProfile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,20 @@ True to display the profile of the flattened gusset, false to not
 
 ## VBA Syntax
 
-See
-
-[SMGussetFeatureData::ShowProfile](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~ShowProfile.html)
-
-.
+See [SMGussetFeatureData::ShowProfile](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~ShowProfile.html).
 
 ## Examples
 
-See the
-
-[ISMGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
-examples.
+See the [ISMGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ISMGussetFeatureData::OverrideDocSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData~OverrideDocSettings.html)
-
-is true.
+This property is valid only if [ISMGussetFeatureData::OverrideDocSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData~OverrideDocSettings.html) is true.
 
 ## See Also
 
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
 [ISMGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData_members.html)
-
 [ISMGussetFeatureData::ShowCenter Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData~ShowCenter.html)
 
 ## Availability

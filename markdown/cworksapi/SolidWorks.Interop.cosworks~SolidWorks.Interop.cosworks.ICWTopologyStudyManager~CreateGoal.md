@@ -49,31 +49,19 @@ System.int CreateGoal(
 
 ### Parameters
 
-- `NGoalType`: Type of optimization goal to create as defined in
-
-[swsTopologyStudyGoalType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyGoalType_e.html)
+- `NGoalType`: Type of optimization goal to create as defined in [swsTopologyStudyGoalType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyGoalType_e.html)
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
+Result code as defined in [swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager::CreateGoal](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~CreateGoal.html)
-
-.
+See [CWTopologyStudyManager::CreateGoal](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~CreateGoal.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
-example.
+See the [ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html) example.
 
 ## Remarks
 
@@ -92,7 +80,6 @@ You can add up to two different constraints for a given optimization goal.
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
 
 ## Availability

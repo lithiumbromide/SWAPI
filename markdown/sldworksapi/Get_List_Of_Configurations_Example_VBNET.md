@@ -9,8 +9,7 @@ source: "sldworksapi/Get_List_Of_Configurations_Example_VBNET.htm"
 
 # Get List of Configurations Example (VB.NET)
 
-This example shows how to get a list of configuration
-names for the active document.
+This example shows how to get a list of configuration names for the active document.
 
 ```
 '------------------------------------------------------------------

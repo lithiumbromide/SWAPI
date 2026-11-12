@@ -9,11 +9,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSe
 
 # LoadFromFile Method (IPDMWSearchCriteria)
 
-Clears the current search criteria and loads the search criteria from the specified file (
-
-.sqy
-
-).
+Clears the current search criteria and loads the search criteria from the specified file (.sqy).
 
 ## Syntax
 
@@ -57,15 +53,11 @@ System.bool LoadFromFile(
 
 ### Return Value
 
-True if search criteria is loaded from the specified file, false if notParamDesc
+True if search criteria is loaded from the specified file, false if not
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchCriteria::LoadFromFile](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~LoadFromFile.html)
-
-.
+See [PDMWSearchCriteria::LoadFromFile](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~LoadFromFile.html).
 
 ## Examples
 
@@ -74,15 +66,10 @@ See
 ## See Also
 
 [IPDMWSearchCriteria Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria.html)
-
 [IPDMWSearchCriteria Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria_members.html)
-
 [IPDMWSearchCriteria::AddCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~AddCriteria.html)
-
 [IPDMWSearchCriteria::GetCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~GetCriteria.html)
-
 [IPDMWSearchCriteria::RemoveCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~RemoveCriteria.html)
-
 [IPDMWSearchCriteria::SaveToFile Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~SaveToFile.html)
 
 ## Availability

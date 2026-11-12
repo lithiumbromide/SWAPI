@@ -45,13 +45,7 @@ property System.bool SymmetricThickness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to thicken symmetrically, false to not
 
 ## VBA Syntax
 
-See
-
-[LoftedBendsFeatureData::SymmetricThickness](ms-its:sldworksapivb6.chm::/sldworks~LoftedBendsFeatureData~SymmetricThickness.html)
-
-.
+See [LoftedBendsFeatureData::SymmetricThickness](ms-its:sldworksapivb6.chm::/sldworks~LoftedBendsFeatureData~SymmetricThickness.html).
 
 ## See Also
 
 [ILoftedBendsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData.html)
-
 [ILoftedBendsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData_members.html)
 
 ## Availability

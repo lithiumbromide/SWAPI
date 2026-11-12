@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # AutoDimension2 Method (ISketch)
 
-Obsolete. Superseded by
-
-[ISketchManager::FullyDefineSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~FullyDefineSketch.html)
-
-.
+Obsolete. Superseded by [ISketchManager::FullyDefineSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~FullyDefineSketch.html).
 
 ## Syntax
 
@@ -67,56 +63,41 @@ System.int AutoDimension2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EntitiesToDimension`: Entities to dimension as defined in[swAutodimEntities_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimEntities_e.html)
-- `HorizontalScheme`: Horizontal dimensioning scheme as defined in[swAutodimScheme_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimScheme_e.html)
-- `HorizontalPlacement`: Placement relative to the sketch as defined in[swAutodimHorizontalPlacement_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimHorizontalPlacement_e.html)
-- `VerticalScheme`: Vertical dimensioning scheme as defined in[swAutodimScheme_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimScheme_e.html)
-- `VerticalPlacement`: Placement relative to the sketch as defined in[swAutodimVerticalPlacement_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimVerticalPlacement_e.html)
+- `EntitiesToDimension`: Entities to dimension as defined in [swAutodimEntities_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimEntities_e.html)
+- `HorizontalScheme`: Horizontal dimensioning scheme as defined in [swAutodimScheme_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimScheme_e.html)
+- `HorizontalPlacement`: Placement relative to the sketch as defined in [swAutodimHorizontalPlacement_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimHorizontalPlacement_e.html)
+- `VerticalScheme`: Vertical dimensioning scheme as defined in [swAutodimScheme_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimScheme_e.html)
+- `VerticalPlacement`: Placement relative to the sketch as defined in [swAutodimVerticalPlacement_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimVerticalPlacement_e.html)
 
 ### Return Value
 
-swAutodimStatusSuccess if the sketch is automatically dimensioned successfully; see[swAutodimStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimStatus_e.html)for values for reasons for possible failures
+swAutodimStatusSuccess if the sketch is automatically dimensioned successfully; see [swAutodimStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAutodimStatus_e.html) for values for reasons for possible failures
 
 ## VBA Syntax
 
-See
-
-[Sketch::AutoDimension2](ms-its:sldworksapivb6.chm::/sldworks~Sketch~AutoDimension2.html)
-
-.
+See [Sketch::AutoDimension2](ms-its:sldworksapivb6.chm::/sldworks~Sketch~AutoDimension2.html).
 
 ## Examples
 
 [Autodimension a Sketch (VBA)](Autodimension_a_Sketch_Example_VB.htm)
-
 [Insert DXF File and Add Dimension (VBA)](Insert_DXF_File_and_Add_Dimension_Example_VB.htm)
-
 [Autodimension All Sketches (C#)](Autodimension_All_Sketches_Example_CSharp.htm)
-
 [Autodimension All Sketches (VB.NET)](Autodimension_All_Sketches_Example_VBNET.htm)
-
 [Autodimension all Sketches (VBA)](Autodimension_All_Sketches_Example_VB.htm)
 
 ## Remarks
 
-If the EntitiesToDimension argument takes the value swAutodimEntitiesSelected, then use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with a mark value of swAutodimMarkEntities to select the sketch entities to dimension.
+If the EntitiesToDimension argument takes the value swAutodimEntitiesSelected, then use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with a mark value of swAutodimMarkEntities to select the sketch entities to dimension.
 
 You can supply datums for horizontal and vertical dimensioning schemes. Select and mark a unique vertical edge, vertex, sketch point, or vertical sketch line as the datum for the horizontal dimensioning scheme, using swAutodimMarkHorizontalDatum as the mark value. Similarly, select a unique horizontal edge, vertex, sketch point, or horizontal sketch line as the datum for the vertical dimensioning scheme, using swAutodimMarkVerticalDatum as the mark value. It is an error to supply just one datum as indicated by the status value swAutodimStatus_DatumNotSupplied.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
 
 ## Availability

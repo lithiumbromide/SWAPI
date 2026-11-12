@@ -40,38 +40,21 @@ System.object GetRelations()
 System.Object^ GetRelations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[sketch relations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelation.html)
-
-for this sketch segment
+Array of [sketch relations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRelation.html) for this sketch segment
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::GetRelations](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~GetRelations.html)
-
-.
+See [SketchSegment::GetRelations](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~GetRelations.html).
 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
-
 [ISketchSegment::GetRelationsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~GetRelationsCount.html)
-
 [ISketchSegment::IGetRelations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~IGetRelations.html)
 
 ## Availability

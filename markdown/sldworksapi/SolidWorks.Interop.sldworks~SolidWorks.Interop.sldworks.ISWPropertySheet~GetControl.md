@@ -47,13 +47,7 @@ System.Object^ GetControl(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,15 @@ ActiveX control
 
 ## VBA Syntax
 
-See
-
-[SWPropertySheet::GetControl](ms-its:sldworksapivb6.chm::/sldworks~SWPropertySheet~GetControl.html)
-
-.
+See [SWPropertySheet::GetControl](ms-its:sldworksapivb6.chm::/sldworks~SWPropertySheet~GetControl.html).
 
 ## Remarks
 
-Typically, you would call this method from the ISWPropertySheet[OnOKNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSWPropertySheetEvents_OnOKNotifyEventHandler.html)event handler to retrieve data from your ActiveX control.
+Typically, you would call this method from the ISWPropertySheet [OnOKNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSWPropertySheetEvents_OnOKNotifyEventHandler.html) event handler to retrieve data from your ActiveX control.
 
 ## See Also
 
 [ISWPropertySheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISWPropertySheet.html)
-
 [ISWPropertySheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISWPropertySheet_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Drawing_View_Names_and_Types_Example_CSharp.htm"
 
 # Get Drawing View Names and Types Example (C#)
 
-This example shows how to get the names and types of all of the drawing
-views on the current sheet.
+This example shows how to get the names and types of all of the drawing views on the current sheet.
 
 ```vb
  //---------------------------------------------------------------------------

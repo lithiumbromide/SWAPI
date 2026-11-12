@@ -40,13 +40,7 @@ System.int GetYAxisEntitiesCount()
 System.int GetYAxisEntitiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of entities for the y axis
 
 ## VBA Syntax
 
-See
-
-[CoordinateSystemFeatureData::GetYAxisEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemFeatureData~GetYAxisEntitiesCount.html)
-
-.
+See [CoordinateSystemFeatureData::GetYAxisEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemFeatureData~GetYAxisEntitiesCount.html).
 
 ## Examples
 
@@ -66,28 +56,17 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[ICoordinateSystemFeatureData::IGetYAxisEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoordinateSystemFeatureData~IGetYAxisEntities.html)
-
-to determine the size of the array for that method.
+Call this method before calling [ICoordinateSystemFeatureData::IGetYAxisEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoordinateSystemFeatureData~IGetYAxisEntities.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ICoordinateSystemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData.html)
-
 [ICoordinateSystemFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData_members.html)
-
 [ICoordinateSystemFeatureData::ISetYAxisEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~ISetYAxisEntities.html)
-
 [ICoordinateSystemFeatureData::YAxisEntities Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~YAxisEntities.html)
-
 [ICoordinateSystemFeatureData::YFlipped Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~YFlipped.html)
-
 [ICoordinateSystemFeatureData::IGetYAxisEntitiesTypes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~IGetYAxisEntitiesTypes.html)
-
 [ICoordinateSystemFeatureData::GetYAxisEntitiesTypes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~GetYAxisEntitiesTypes.html)
-
 [ICoordinateSystemFeatureData::IGetYAxisEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~IGetYAxisEntities.html)
 
 ## Availability

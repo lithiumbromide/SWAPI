@@ -45,13 +45,7 @@ property System.int Mark {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,22 @@ Value for the mark
 
 ## VBA Syntax
 
-See
-
-[SelectData::Mark](ms-its:sldworksapivb6.chm::/sldworks~SelectData~Mark.html)
-
-.
+See [SelectData::Mark](ms-its:sldworksapivb6.chm::/sldworks~SelectData~Mark.html).
 
 ## Examples
 
 [Edit Mate (VBA)](Edit_Mate_Example_VB.htm)
-
 [Insert Coordinate System at Center of Mass (VBA)](Insert_Coordinate_System_at_Center_of_Mass_Example_VB.htm)
-
 [Move Bodies (C#)](Move_Bodies_Example_CSharp.htm)
-
 [Move Bodies (VB.NET)](Move_Bodies_Example_VBNET.htm)
-
 [Move Bodies (VBA)](Move_Bodies_Example_VB.htm)
-
 [Get and Fill Gaps in Body (C#)](Get_and_Fill_Gaps_in_Body_Example_CSharp.htm)
-
 [Get and Fill Gaps in Body (VB.NET)](Get_and_Fill_Gaps_in_Body_Example_VBNET.htm)
-
 [Get and Fill Gaps in Body (VBA)](Get_and_Fill_Gaps_in_Body_Example_VB.htm)
 
 ## See Also
 
 [ISelectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html)
-
 [ISelectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData_members.html)
 
 ## Availability

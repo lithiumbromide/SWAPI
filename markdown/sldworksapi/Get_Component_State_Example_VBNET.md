@@ -9,10 +9,7 @@ source: "sldworksapi/Get_Component_State_Example_VBNET.htm"
 
 # Get Component State Example (VB.NET)
 
-This example shows how to find out if the selected component is resolved
-or suppressed, hidden or visible, and whether or not it's a rigid or flexible
-subassembly. This example also gets the persistent ID of the selected
-component.
+This example shows how to find out if the selected component is resolved or suppressed, hidden or visible, and whether or not it's a rigid or flexible subassembly. This example also gets the persistent ID of the selected component.
 
 ```
 '---------------------------------------------------

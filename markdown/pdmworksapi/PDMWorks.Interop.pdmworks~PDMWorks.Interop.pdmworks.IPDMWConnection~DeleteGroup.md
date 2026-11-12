@@ -52,11 +52,7 @@ void DeleteGroup(
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::DeleteGroup](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~DeleteGroup.html)
-
-.
+See [PDMWConnection::DeleteGroup](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~DeleteGroup.html).
 
 ## Remarks
 
@@ -65,9 +61,7 @@ Only a vault administrator can use this method.
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
-
 [IPDMWConnection::CreateGroup](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CreateGroup.html)
 
 ## Availability

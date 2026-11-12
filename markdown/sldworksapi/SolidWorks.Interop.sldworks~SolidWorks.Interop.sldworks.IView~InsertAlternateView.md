@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # InsertAlternateView Method (IView)
 
-Inserts an
-
-Alternate Position View
-
-of the currently selected drawing view.
+Inserts an **Alternate Position View** of the currently selected drawing view.
 
 ## Syntax
 
@@ -51,35 +47,19 @@ View^ InsertAlternateView(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ConfigurationName`: Name of the configuration (see
-
-Remarks
-
-)
+- `ConfigurationName`: Name of the configuration (see Remarks)
 
 ### Return Value
 
-Alternate
-
-[drawing view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
+Alternate [drawing view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
 
 ## VBA Syntax
 
-See
-
-[View::InsertAlternateView](ms-its:sldworksapivb6.chm::/sldworks~View~InsertAlternateView.html)
-
-.
+See [View::InsertAlternateView](ms-its:sldworksapivb6.chm::/sldworks~View~InsertAlternateView.html).
 
 ## Examples
 
@@ -87,14 +67,13 @@ See
 
 ## Remarks
 
-Before using this method, you must select a drawing view on which to superimpose theAlternate Position View.
+Before using this method, you must select a drawing view on which to superimpose the Alternate Position View.
 
-If you specify a non-existent configuration for ConfigurationName, then it is created using all default settings. The new configuration is identical tothe currently selected configuration. The user can then open the assembly, edit the configuration, and update the drawing view
+If you specify a non-existent configuration for ConfigurationName, then it is created using all default settings. The new configuration is identical to the currently selected configuration. The user can then open the assembly, edit the configuration, and update the drawing view
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

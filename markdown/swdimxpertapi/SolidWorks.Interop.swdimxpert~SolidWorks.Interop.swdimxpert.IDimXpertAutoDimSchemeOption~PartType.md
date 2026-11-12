@@ -47,32 +47,21 @@ property System.int PartType {
 
 ### Property Value
 
-Part type as defined in
-
-[swDimXpertAutoDimSchemePartType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertAutoDimSchemePartType_e.html)
-
-; default is swDimXpertAutoDimSchemePartType_Prismatic
+Part type as defined in [swDimXpertAutoDimSchemePartType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertAutoDimSchemePartType_e.html); default is swDimXpertAutoDimSchemePartType_Prismatic
 
 ## VBA Syntax
 
-See
-
-[DimXpertAutoDimSchemeOption::PartType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption~PartType.html)
-
-.
+See [DimXpertAutoDimSchemeOption::PartType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption~PartType.html).
 
 ## Examples
 
 [Auto Dimension Scheme Example (C#)](Auto_Dimension_Scheme_Example_CSharp.htm)
-
 [Auto Dimension Scheme Example (VB.NET)](Auto_Dimension_Scheme_Example_VBNET.htm)
-
 [Auto Dimension Scheme Example (VBA)](Auto_Dimension_Scheme_Example_VB.htm)
 
 ## See Also
 
 [IDimXpertAutoDimSchemeOption Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption.html)
-
 [IDimXpertAutoDimSchemeOption Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption_members.html)
 
 ## Availability

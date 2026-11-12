@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPageLabel Object
-Members"
+title: "PropertyManagerPageLabel Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PropertyManagerPageLabel_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PropertyManagerPageLabel_members.html"
 ---
 
-# PropertyManagerPageLabel Object
-Members
+# PropertyManagerPageLabel Object Members
 
 ## Public Properties
 

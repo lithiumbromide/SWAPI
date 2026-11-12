@@ -47,29 +47,19 @@ System.int SetBendState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `BendState`: Sheet metal state to set in this part as defined in[swSMBendState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSMBendState_e.html)
+- `BendState`: Sheet metal state to set in this part as defined in [swSMBendState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSMBendState_e.html)
 
 ### Return Value
 
-Status of the set operation as defined in[swSMCommandStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSMCommandStatus_e.html)(see**Remarks**)
+Status of the set operation as defined in [swSMCommandStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSMCommandStatus_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SetBendState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetBendState.html)
-
-.
+See [ModelDoc2::SetBendState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetBendState.html).
 
 ## Examples
 
@@ -79,9 +69,7 @@ See
 
 This method only works for old-style sheet metal parts or non-sheet metal parts converted to sheet metal parts. To set the bend state on new-style sheet metal parts (i.e., those that have a base flange as their first feature), suppress and unsuppress the flat-pattern feature.
 
-If editing a part with bend information in the context of the assembly (see[IAssemblyDoc::EditPart2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~EditPart2.html)), the bend state for that part will be set.
-
-(Table)=========================================================
+If editing a part with bend information in the context of the assembly (see [IAssemblyDoc::EditPart2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~EditPart2.html)), the bend state for that part will be set.
 
 | If this method is executed on... | Then... |
 | --- | --- |
@@ -92,9 +80,7 @@ If editing a part with bend information in the context of the assembly (see[IAss
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetBendState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetBendState.html)
 
 ## Availability

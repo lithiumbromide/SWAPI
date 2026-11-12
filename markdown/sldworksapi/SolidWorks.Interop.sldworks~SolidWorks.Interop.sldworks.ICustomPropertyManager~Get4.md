@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # Get4 Method (ICustomPropertyManager)
 
-Obsolete. Superseded by
-
-[ICustomPropertyManager::Get5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Get5.html)
-
-.
+Obsolete. Superseded by [ICustomPropertyManager::Get5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Get5.html).
 
 ## Syntax
 
@@ -63,54 +59,32 @@ System.bool Get4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FieldName`: Name of the custom property
-- `UseCached`: True if the configuration has been activated, false if not (see
-
-Remarks
-
-)
+- `UseCached`: True if the configuration has been activated, false if not (see Remarks)
 - `ValOut`: Value of the custom property
 - `ResolvedValOut`: Evaluated value of the custom property
 
 ### Return Value
 
-True if up-to-date data is returned, false if not (see
-
-Remarks
-
-)
+True if up-to-date data is returned, false if not (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::Get4](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Get4.html)
-
-.
+See [CustomPropertyManager::Get4](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Get4.html).
 
 ## Examples
 
 [Get Custom Properties of Referenced Part (C#)](Get_Custom_Properties_of_Referenced_Part_Example_CSharp.htm)
-
 [Get Custom Properties of Referenced Part (VB.NET)](Get_Custom_Properties_of_Referenced_Part_Example_VBNET.htm)
-
 [Get Custom Properties of Referenced Part (VBA)](Get_Custom_Properties_of_Referenced_Part_Example_VB.htm)
 
 ## Remarks
 
 This method can get the cached custom property, even if the configuration is not currently active, without having to change configurations.
-
-(Table)=========================================================
 
 | If UseCached is set to... | And the configuration has already been activated... | Then... |
 | --- | --- | --- |
@@ -119,16 +93,15 @@ This method can get the cached custom property, even if the configuration is not
 | False | Yes | Up-to-date data is returned and return value = true |
 | False | No | Up-to-date data is returned and return value = true |
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}This method returns configuration-specific, linked, custom-property, evaluated data more quickly than the now obsolete[ICustomPropertyManager::Get2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Get2.html), if the configuration was previously activated.
+This method returns configuration-specific, linked, custom-property, evaluated data more quickly than the now obsolete [ICustomPropertyManager::Get2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Get2.html), if the configuration was previously activated.
 
 If you always want up-to-date data, then you should set UseCached to false. This might result in a more time-consuming call if the configuration was not previously activated.
 
-This method does not preface the resolved evaluated values of external referenced documents with**fromparent+**, unlike the now obsolete[ICustomPropertyManager::Get3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Get3.html).
+This method does not preface the resolved evaluated values of external referenced documents with **fromparent+**, unlike the now obsolete [ICustomPropertyManager::Get3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Get3.html).
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
 
 ## Availability

@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # UseAbsoluteTransform Property (IDragOperator)
 
-Gets or sets whether the transforms to use with
-
-[IDragOperator::Drag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~Drag.html)
-
-or
-
-[IDragOperator::IDrag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~IDrag.html)
-
-are absolute or relative.
+Gets or sets whether the transforms to use with [IDragOperator::Drag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~Drag.html) or [IDragOperator::IDrag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragOperator~IDrag.html) are absolute or relative.
 
 ## Syntax
 
@@ -53,13 +45,7 @@ property System.bool UseAbsoluteTransform {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -67,18 +53,12 @@ True to use absolute transforms, false to use relative transforms
 
 ## VBA Syntax
 
-See
-
-[DragOperator::UseAbsoluteTransform](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~UseAbsoluteTransform.html)
-
-.
+See [DragOperator::UseAbsoluteTransform](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~UseAbsoluteTransform.html).
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
-
 [IDragOperator::TransformType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~TransformType.html)
 
 ## Availability

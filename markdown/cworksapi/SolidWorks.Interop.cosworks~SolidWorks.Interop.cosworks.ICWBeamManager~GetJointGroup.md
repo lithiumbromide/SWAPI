@@ -57,28 +57,19 @@ CWJoints^ GetJointGroup(
 
 ## VBA Syntax
 
-See
-
-[CWBeamManager::GetJointGroup](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamManager~GetJointGroup.html)
-
-.
+See [CWBeamManager::GetJointGroup](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamManager~GetJointGroup.html).
 
 ## Examples
 
 [Get and Set Beams and Joints (C#)](Get_and_Set_Beams_and_Joints_Example_CSharp.htm)
-
 [Get and Set Beams and Joints (VB.NET)](Get_and_Set_Beams_and_Joints_Example_VBNET.htm)
-
 [Get and Set Beams and Joints (VBA)](Get_and_Set_Beams_and_Joints_Example_VB.htm)
 
 ## See Also
 
 [ICWBeamManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager.html)
-
 [ICWBeamManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager_members.html)
-
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager.html)
 
 ## Availability

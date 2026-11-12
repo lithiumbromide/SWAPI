@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSp
 
 Allows access to a spring connector.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class ICWSpringConnector
 
 ## VBA Syntax
 
-See
-
-[CWSpringConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector.html)
-
-.
+See [CWSpringConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector.html).
 
 ## Examples
 
 [Add Spring Connector (VBA)](Add_Spring_Connector_Example_VB.htm)
-
 [Add Spring Connector (VB.NET)](Add_Spring_Connector_Example_VBNET.htm)
-
 [Add Spring Connector (C#)](Add_Spring_Connector_Example_CSharp.htm)
 
 ## Accessors
@@ -68,5 +56,4 @@ See
 ## See Also
 
 [ICWSpringConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

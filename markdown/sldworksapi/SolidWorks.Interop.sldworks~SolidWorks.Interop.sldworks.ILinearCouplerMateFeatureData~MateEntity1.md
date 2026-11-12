@@ -45,46 +45,23 @@ property System.Object^ MateEntity1 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-First mated component entity (
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-or
-
-[edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-)
+First mated component entity ([face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) or [edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html))
 
 ## VBA Syntax
 
-See
-
-[LinearCouplerMateFeatureData::MateEntity1](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~MateEntity1.html)
-
-.
+See [LinearCouplerMateFeatureData::MateEntity1](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~MateEntity1.html).
 
 ## Examples
 
-See the
-
-[ILinearCouplerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
-examples.
+See the [ILinearCouplerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html) examples.
 
 ## See Also
 
 [ILinearCouplerMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
 [ILinearCouplerMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData_members.html)
 
 ## Availability

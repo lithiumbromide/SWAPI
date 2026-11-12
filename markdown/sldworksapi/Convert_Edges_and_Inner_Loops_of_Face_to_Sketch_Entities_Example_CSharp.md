@@ -9,8 +9,7 @@ source: "sldworksapi/Convert_Edges_and_Inner_Loops_of_Face_to_Sketch_Entities_Ex
 
 # Convert Edges and Inner Loops of Face to Sketch Entities Example (C#)
 
-This example shows how to convert the edges and inner loops of a selected
-face to sketch entities on a sketch plane.
+This example shows how to convert the edges and inner loops of a selected face to sketch entities on a sketch plane.
 
 ```
 //------------------------------------------------------------------------

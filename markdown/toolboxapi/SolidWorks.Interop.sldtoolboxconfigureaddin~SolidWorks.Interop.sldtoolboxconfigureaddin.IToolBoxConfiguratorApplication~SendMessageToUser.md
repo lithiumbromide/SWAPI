@@ -52,16 +52,11 @@ void SendMessageToUser(
 
 ## VBA Syntax
 
-See
-
-[ToolBoxConfiguratorApplication::SendMessageToUser](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~CTbcApplication~SendMessageToUser.html)
-
-.
+See [ToolBoxConfiguratorApplication::SendMessageToUser](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~CTbcApplication~SendMessageToUser.html).
 
 ## See Also
 
 [IToolBoxConfiguratorApplication Interface](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication.html)
-
 [IToolBoxConfiguratorApplication Members](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ ExplodeStep^ IGetExplodeStep(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,38 +55,23 @@ See
 
 ### Return Value
 
-Pointer to the
-
-[explode step](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExplodeStep.html)
+Pointer to the [explode step](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExplodeStep.html)
 
 ## VBA Syntax
 
-See
-
-[Configuration::IGetExplodeStep](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IGetExplodeStep.html)
-
-.
+See [Configuration::IGetExplodeStep](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IGetExplodeStep.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[IConfiguration::GetNumberOfExplodeSteps](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~GetNumberOfExplodeSteps.html)
-
-to get the number of explode steps in the sequence.
+Before calling this method, call [IConfiguration::GetNumberOfExplodeSteps](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~GetNumberOfExplodeSteps.html) to get the number of explode steps in the sequence.
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::AddExplodeStep Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~AddExplodeStep.html)
-
 [IConfiguration::DeleteExplodeStep Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~DeleteExplodeStep.html)
-
 [IConfiguration::GetExplodeStep Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetExplodeStep.html)
-
 [IConfiguration::IAddExplodeStep Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IAddExplodeStep.html)
 
 ## Availability

@@ -13,11 +13,16 @@ source: "swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop
 
 | Interface | Description |
 | --- | --- |
+| BalloonSettings |  |
+| CharacteristicsData |  |
 | IBalloonSettings | Allows access to inspection balloon settings. |
 | ICharacteristicsData | Allows access to characteristics data. |
 | IInspectionAddinMgr | Allows access to the inspection add-in manager. |
 | IInspectionProject | Allows exporting an inspection project. |
 | IInspectionProjectData | Allows access to inspection project data. |
+| InspectionAddinMgr |  |
+| InspectionProject |  |
+| InspectionProjectData |  |
 
 ## Enumerations
 

@@ -9,8 +9,7 @@ source: "sldworksapi/Automatically_Solve_Equations_in_Sequence_Example_VB.htm"
 
 # Automatically Solve Equations in Sequence Example (VBA)
 
-This example shows how to automatically sequence the equations in an order
-determined by SOLIDWORKS to produce accurate results.
+This example shows how to automatically sequence the equations in an order determined to produce accurate results.
 
 ```
 '-----------------------------------------------------

@@ -45,13 +45,7 @@ property System.bool Expanded {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ True to expand, false to collapse
 
 ## VBA Syntax
 
-See
-
-[TreeControlItem::Expanded](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~Expanded.html)
-
-.
+See [TreeControlItem::Expanded](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~Expanded.html).
 
 ## Examples
 
 [Expand or Collapse FeatureManager Design Tree Nodes (VBA)](Expand_and_Collapse_FeatureManager_Design_Tree_Nodes_VB.htm)
-
 [Expand or Collapse FeatureManager Design Tree Nodes (VB.NET)](Expand_and_Collapse_FeatureManager_Design_Tree_Nodes_Example_VBNET.htm)
-
 [Expand or Collapse FeatureManager Design Tree Nodes (C#)](Expand_and_Collapse_FeatureManager_Design_Tree_Nodes_Example_CSharp.htm)
 
 ## See Also
 
 [ITreeControlItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem.html)
-
 [ITreeControlItem Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem_members.html)
-
 [IFeatureManager::ExpandFeature Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~ExpandFeature.html)
 
 ## Availability

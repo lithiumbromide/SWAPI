@@ -40,42 +40,24 @@ System.object GetBodies()
 System.Object^ GetBodies();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of solid
-
-[bodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
+Array of solid [bodies](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[PartExplodeStep::GetBodies](ms-its:sldworksapivb6.chm::/sldworks~PartExplodeStep~GetBodies.html)
-
-.
+See [PartExplodeStep::GetBodies](ms-its:sldworksapivb6.chm::/sldworks~PartExplodeStep~GetBodies.html).
 
 ## Examples
 
-See the
-
-[IPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html)
-
-example.
+See the [IPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html) example.
 
 ## See Also
 
 [IPartExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html)
-
 [IPartExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep_members.html)
-
 [IPartExplodeStep::SetBodies Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep~SetBodies.html)
 
 ## Availability

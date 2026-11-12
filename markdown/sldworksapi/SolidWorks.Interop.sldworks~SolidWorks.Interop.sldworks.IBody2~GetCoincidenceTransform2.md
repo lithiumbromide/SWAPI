@@ -51,20 +51,12 @@ System.bool GetCoincidenceTransform2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BodyDispIn`: [Input body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-- `Xform`: Pointer to the
-
-[transformation matrix](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
+- `Xform`: Pointer to the [transformation matrix](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
 
 ### Return Value
 
@@ -72,24 +64,17 @@ True if this body and the input body can coincide by applying the transformation
 
 ## VBA Syntax
 
-See
-
-[Body2::GetCoincidenceTransform2](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetCoincidenceTransform2.html)
-
-.
+See [Body2::GetCoincidenceTransform2](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetCoincidenceTransform2.html).
 
 ## Examples
 
 [Calculate Transformations in Part (C#)](Calculate_Transformations_in_Part_Example_CSharp.htm)
-
 [Calculate Transformations in Part (VB.NET)](Calculate_Transformations_in_Part_Example_VBNET.htm)
-
 [Calculate Transformations in Part (VBA)](Calculate_Transformations_in_Part_Example_VB.htm)
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

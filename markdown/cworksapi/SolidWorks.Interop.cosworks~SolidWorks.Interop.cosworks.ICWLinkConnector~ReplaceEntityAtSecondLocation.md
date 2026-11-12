@@ -52,18 +52,12 @@ void ReplaceEntityAtSecondLocation(
 
 ## VBA Syntax
 
-See
-
-[CWLinkConnector::ReplaceEntityAtSecondLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkConnector~ReplaceEntityAtSecondLocation.html)
-
-.
+See [CWLinkConnector::ReplaceEntityAtSecondLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkConnector~ReplaceEntityAtSecondLocation.html).
 
 ## See Also
 
 [ICWLinkConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector.html)
-
 [ICWLinkConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector_members.html)
-
 [ICWLinkConnector::ReplaceEntityAtFirstLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector~ReplaceEntityAtFirstLocation.html)
 
 ## Availability

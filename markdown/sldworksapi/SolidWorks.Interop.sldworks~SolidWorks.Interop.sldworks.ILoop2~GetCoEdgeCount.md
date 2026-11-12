@@ -40,13 +40,7 @@ System.int GetCoEdgeCount()
 System.int GetCoEdgeCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of coedges in this loop
 
 ## VBA Syntax
 
-See
-
-[Loop2::GetCoEdgeCount](ms-its:sldworksapivb6.chm::/sldworks~Loop2~GetCoEdgeCount.html)
-
-.
+See [Loop2::GetCoEdgeCount](ms-its:sldworksapivb6.chm::/sldworks~Loop2~GetCoEdgeCount.html).
 
 ## Examples
 
@@ -66,26 +56,16 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[ILoop2::IGetCoEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IGetCoEdges.html)
-
-to determine the size of the array for that method.
+Call this method before calling [ILoop2::IGetCoEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IGetCoEdges.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
 [ILoop2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2_members.html)
-
 [ILoop2::GetCoEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~GetCoEdges.html)
-
 [ILoop2::GetFirstCoEdge Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~GetFirstCoEdge.html)
-
 [ILoop2::IGetFirstCoEdge Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~IGetFirstCoEdge.html)
-
 [ICoEdge::GetNext Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~GetNext.html)
-
 [ICoEdge::IGetNext Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~IGetNext.html)
 
 ## Availability

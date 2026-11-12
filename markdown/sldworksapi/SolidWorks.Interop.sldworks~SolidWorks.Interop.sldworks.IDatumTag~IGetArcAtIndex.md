@@ -47,13 +47,7 @@ System.double IGetArcAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,29 +55,19 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTag::IGetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~IGetArcAtIndex.html)
-
-.
+See [DatumTag::IGetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~IGetArcAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[lineType,startPt[3],endPt[3],centerPt[3],rotationDir]
+[ lineType, startPt[3], endPt[3], centerPt[3], rotationDir ]
 
 where:
-
-(Table)=========================================================
 
 | lineType | Line type as defined in swLineTypes_e |
 | --- | --- |
@@ -95,9 +79,6 @@ where:
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::GetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetArcAtIndex.html)
-
 [IDatumTag::GetArcCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetArcCount.html)

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect_fields.html"
 
 # EdmRect Structure Fields
 
-For a list of all members of this type, see[EdmRect members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect_members.html).
+For a list of all members of this type, see [EdmRect members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect_members.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[EdmRect members](EPDM.Interop.epdm~E
 ## See Also
 
 [EdmRect Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

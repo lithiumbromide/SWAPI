@@ -9,22 +9,17 @@ source: "sldworksapi/Get_DimXpertManager_Info_Example_VBNET.htm"
 
 # Get DimXpertManager Info Example (VB.NET)
 
-This example shows the usage of several interfaces that
-provide access to information on the DimXpertManager tab of the Management Panel in
-SOLIDWORKS.
+This example shows the usage of several interfaces that provide access to information on the DimXpertManager tab of the Management Panel in SOLIDWORKS Design.
 
-The IDimXpertManager interface exposes schema information
-on the DimXpertManager tab.
+The IDimXpertManager interface exposes schema information on the DimXpertManager tab.
 
-This macro demonstrates several ways of acquiring IDimXpertManager
-on an open document:
+This macro demonstrates several ways of acquiring IDimXpertManager on an open document:
 
 - ISelectionManager.GetSelectedObject6()
 - IModelDocExtension.DimXpertManager
 - IConfiguration.DimXpertManager
 
-This macro also demonstrates how to get the features
-and annotations displayed on the DimXpertManager tab using:
+This macro also demonstrates how to get the features and annotations displayed on the DimXpertManager tab using:
 
 - ISelectionManager.GetSelectedObject6()
 - IDimXpertManager.DimXpertPart

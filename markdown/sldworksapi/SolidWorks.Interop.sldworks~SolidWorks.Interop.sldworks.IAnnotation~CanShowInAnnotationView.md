@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 # CanShowInAnnotationView Method (IAnnotation)
 
-Gets whether this annotation can be shown in the specified
-
-[annotation view](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html)
-
-.
+Gets whether this annotation can be shown in the specified [annotation view](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html).
 
 ## Syntax
 
@@ -51,21 +47,11 @@ System.bool CanShowInAnnotationView(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `AnnotationViewName`: Name of annotation view in which to show this annotation (see
-
-Remarks
-
-)
+- `AnnotationViewName`: Name of annotation view in which to show this annotation (see **Remarks**)
 
 ### Return Value
 
@@ -73,40 +59,25 @@ True if this annotation can be shown in the specified annotation view, false if 
 
 ## VBA Syntax
 
-See
-
-[Annotation::CanShowInAnnotationView](ms-its:sldworksapivb6.chm::/sldworks~Annotation~CanShowInAnnotationView.html)
-
-.
+See [Annotation::CanShowInAnnotationView](ms-its:sldworksapivb6.chm::/sldworks~Annotation~CanShowInAnnotationView.html).
 
 ## Examples
 
 [Get Where Annotations Can Be Shown (C#)](Get_Where_Annotations_Can_Be_Shown_Example_CSharp.htm)
-
 [Get Where Annotations Can Be Shown (VB.NET)](Get_Where_Annotations_Can_Be_Shown_Example_VBNET.htm)
-
 [Get Where Annotations Can Be Shown (VBA)](Get_Where_Annotations_Can_Be_Shown_Example_VB.htm)
 
 ## Remarks
 
-Use
-
-[IFeature::Name](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Name.html)
-
-to get the name of the annotation view. See the examples for details.
+Use [IFeature::Name](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Name.html) to get the name of the annotation view. See the examples for details.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::CanShowInMultipleAnnotationViews Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~CanShowInMultipleAnnotationViews.html)
-
 [IAnnotationView::Hide Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~Hide.html)
-
 [IAnnotationView::IsShown Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~IsShown.html)
-
 [IAnnotationView::Show Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~Show.html)
 
 ## Availability

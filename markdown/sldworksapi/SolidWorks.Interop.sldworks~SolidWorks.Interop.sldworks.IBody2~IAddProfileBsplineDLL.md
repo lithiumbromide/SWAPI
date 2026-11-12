@@ -55,50 +55,26 @@ Curve^ IAddProfileBsplineDLL(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Properties`: Contains 4 longs (see
-
-Remarks
-
-)
-- `KnotArray`: Pointer to an array of numKnots doubles (see
-
-Remarks
-
-)
-- `ControlPointCoordArray`: Pointer to an array of numCtrlPtCoord doubles (see
-
-Remarks
-
-)
+- `Properties`: Contains 4 longs (see **Remarks**)
+- `KnotArray`: Pointer to an array of numKnots doubles (see **Remarks**)
+- `ControlPointCoordArray`: Pointer to an array of numCtrlPtCoord doubles (see **Remarks**)
 
 ### Return Value
 
-Pointer to the profile B-spline
-
-[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+Pointer to the profile B-spline [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::IAddProfileBsplineDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~IAddProfileBsplineDLL.html)
-
-.
+See [Body2::IAddProfileBsplineDLL](ms-its:sldworksapivb6.chm::/sldworks~Body2~IAddProfileBsplineDLL.html).
 
 ## Remarks
 
-You can use this method with[IBody2::ICreateRevolutionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateRevolutionSurface.html)to generate any surface
-of revolution or with[IBody2::ICreateExtrusionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateExtrusionSurface.html)to generate a tabulated cylinder.
+You can use this method with [IBody2::ICreateRevolutionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateRevolutionSurface.html) to generate any surface
+of revolution or with [IBody2::ICreateExtrusionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateExtrusionSurface.html) to generate a tabulated cylinder.
 
 The Properties argument contains the following values:
 
@@ -118,7 +94,6 @@ numCtrlPtCoord = NumCtrlPoints * DimensionControlPoints
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

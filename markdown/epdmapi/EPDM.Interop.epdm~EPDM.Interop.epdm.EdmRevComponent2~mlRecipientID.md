@@ -34,14 +34,9 @@ System.int mlRecipientID
 
 ## Remarks
 
-This member is only valid if
-
-[mlEdmRevComponentFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mlEdmRevComponentFlags.html)
-
-contains Edmrcf_EndOfListSendMail.
+This member is only valid if [mlEdmRevComponentFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mlEdmRevComponentFlags.html) contains Edmrcf_EndOfListSendMail.
 
 ## See Also
 
 [EdmRevComponent2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html)
-
 [EdmRevComponent2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2_members.html)

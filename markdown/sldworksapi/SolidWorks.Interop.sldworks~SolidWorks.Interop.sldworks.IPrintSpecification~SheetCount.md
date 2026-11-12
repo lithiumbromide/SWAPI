@@ -42,13 +42,7 @@ property System.int SheetCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ Number of sheets
 
 ## VBA Syntax
 
-See
-
-[PrintSpecification::SheetCount](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~SheetCount.html)
-
-.
+See [PrintSpecification::SheetCount](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification~SheetCount.html).
 
 ## Examples
 
-See the
-
-[IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html)
-
-examples.
+See the [IPrintSpecification](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrintSpecification.html) examples.
 
 ## See Also
 
 [IPrintSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification.html)
-
 [IPrintSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification_members.html)
 
 ## Availability

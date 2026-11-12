@@ -21,6 +21,7 @@ source: "cworksapivb6/CosmosWorksLib_P.html"
 | CWBearingLoad |  |
 | CWBoltConnector |  |
 | CWBucklingStudyOptions |  |
+| CWCable |  |
 | CWCentriFugalForce |  |
 | CWCompositeShellOptions |  |
 | CWContactComponent |  |
@@ -40,6 +41,7 @@ source: "cworksapivb6/CosmosWorksLib_P.html"
 | CWFatigueStudyOptions |  |
 | CWForce |  |
 | CWFrequencyStudyOptions |  |
+| CWGeneralSpringConnector |  |
 | CWGravity |  |
 | CWHeatFlux |  |
 | CWHeatPower |  |
@@ -95,10 +97,12 @@ source: "cworksapivb6/CosmosWorksLib_P.html"
 | CWTopologyThicknessControl |  |
 | CWTrendTracker |  |
 | ICWBearingConnector |  |
+| ICWCable |  |
 | ICWCompositeShellOptions |  |
 | ICWEdgeWeldConnector |  |
 | ICWFatigueEvent |  |
 | ICWFatigueStudyOptions |  |
+| ICWGeneralSpringConnector |  |
 | ICWLinkageRod |  |
 | ICWLoadCaseManager |  |
 | ICWMassPropertiesManager |  |
@@ -159,6 +163,7 @@ source: "cworksapivb6/CosmosWorksLib_P.html"
 | swsBoltMaterialSource_e |  |
 | swsBoltMaterialType_e |  |
 | swsBoltType_e |  |
+| swsCableEndEditErrors_e |  |
 | swsCentrifugalForceEndEditError_e |  |
 | swsCentrifugalForceError_e |  |
 | swsColorChartNumberFormatOptionValue_e |  |
@@ -251,6 +256,7 @@ source: "cworksapivb6/CosmosWorksLib_P.html"
 | swsFrequencyUnit_e |  |
 | swsGapType_e |  |
 | swsGaussIntegrationOrder_e |  |
+| swsGeneralSpringError_e |  |
 | swsGenerateReportError_e |  |
 | swsGeoStarExportUnit_e |  |
 | swsGravityEndEditError_e |  |

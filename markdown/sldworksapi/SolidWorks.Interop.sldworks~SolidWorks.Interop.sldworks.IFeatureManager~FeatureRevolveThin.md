@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureRevolveThin Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureRevolve2 .](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolve2.html)
+Obsolete. Superseded by [IFeatureManager::FeatureRevolve2.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolve2.html)
 
 ## Syntax
 
@@ -85,56 +83,28 @@ Feature^ FeatureRevolveThin(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Angle`: Angle of revolution in radians
 - `ReverseDir`: True reverses the angle direction, false does not
 - `Angle2`: Angle of revolution in radians
-- `RevType`: Type of revolution as defined in
-
-[swRevolveType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRevolveType_e.html)
-
-(see
-
-Remarks
-
-)
+- `RevType`: Type of revolution as defined in [swRevolveType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRevolveType_e.html) (see **Remarks**)
 - `Thickness1`: Wall thickness (ReverseThinDir = 2 uses (Thickness1)/2 for each direction)
 - `Thickness2`: Wall thickness; use only ReverseThinDir=2
-- `ReverseThinDir`: Type and direction as defined in
-
-[swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
+- `ReverseThinDir`: Type and direction as defined in [swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
 - `Merge`: True to merge the results in a multibody part, false to not
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
-- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see
-
-Remarks
-
-)
+- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see **Remarks**)
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureRevolveThin](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureRevolveThin.html)
-
-.
+See [FeatureManager::FeatureRevolveThin](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureRevolveThin.html).
 
 ## Remarks
 
@@ -145,15 +115,10 @@ When UseAutoSelect is false, the user must select the bodies that the feature wi
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::FeatureRevolve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolve.html)
-
 [IFeatureManager::FeatureRevolveCut2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolveCut2.html)
-
 [IFeatureManager::FeatureRevolveThinCut Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureRevolveThinCut.html)
-
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
 
 ## Availability

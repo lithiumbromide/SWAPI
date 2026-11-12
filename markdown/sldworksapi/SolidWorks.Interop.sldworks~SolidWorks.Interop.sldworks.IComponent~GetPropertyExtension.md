@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetPropertyExtension Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::GetPropertyExtension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetPropertyExtension.html)
-
-.
+Obsolete. Superseded by [IComponent2::GetPropertyExtension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetPropertyExtension.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetPropertyExtension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Component::GetPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~Component~GetPropertyExtension.html)
-
-.
+See [Component::GetPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~Component~GetPropertyExtension.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

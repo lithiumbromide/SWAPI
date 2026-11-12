@@ -57,36 +57,25 @@ System.bool OnStringValueChanged(
 
 ### Parameters
 
-- `pManipulator`: [IManipulator](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IManipulator.html)
-
-object
+- `pManipulator`: [IManipulator](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IManipulator.html) object
 - `handleIndex`: ID of the string value to change
 - `Value`: New string value
 
 ### Return Value
 
-True if the add-in application accepts the new string value, false if notParamDesc
+True if the add-in application accepts the new string value, false if not
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler2::OnStringValueChanged](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler2~OnStringValueChanged.html)
-
-.
+See [SwManipulatorHandler2::OnStringValueChanged](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler2~OnStringValueChanged.html).
 
 ## Examples
 
-See the
-
-[ISwManipulatorHandler2](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html)
-
-examples.
+See the [ISwManipulatorHandler2](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html) examples.
 
 ## See Also
 
 [ISwManipulatorHandler2 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html)
-
 [ISwManipulatorHandler2 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2_members.html)
 
 ## Availability

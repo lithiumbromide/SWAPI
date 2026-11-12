@@ -35,12 +35,9 @@ property EdmTransitionType TransitionType {
 
 ### Property Value
 
-Type of transition as defined in
-
-[EdmTransitionType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionType.html)
+Type of transition as defined in [EdmTransitionType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionType.html)
 
 ## See Also
 
 [IEdmTransition9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9.html)
-
 [IEdmTransition9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9_members.html)

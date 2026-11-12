@@ -59,13 +59,7 @@ System.Object^ GetTessPts(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -76,46 +70,31 @@ See
 
 ### Return Value
 
-Array of doubles containing the tessellation points (see
-
-Remarks
-
-)
+Array of doubles containing the tessellation points (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Curve::GetTessPts](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetTessPts.html)
-
-.
+See [Curve::GetTessPts](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetTessPts.html).
 
 ## Examples
 
 [Create Space Parameter Curve on Surface (VBA)](Create_Space_Parameter_Curve_on_Surface_Example_VB.htm)
-
 [Find Outside Edges of Face (VBA)](Find_Outside_Edges_of_Face_Example_VB.htm)
-
 [Get Intersecting Faces (VBA)](Get_Intersecting_Faces_Example_VB.htm)
-
 [Get Length of Edge (VBA)](Get_Length_of_Edge_Example_VB.htm)
-
 [Get Reference Curve Information (VBA)](Get_Reference_Curve_Information_Example_VB.htm)
 
 ## Remarks
 
 The array returned contains the x, y, z location of the tessellation points:
 
-**[**`x1, y1, z1, x2, y2, z2,`...**]**
+**[** `x1, y1, z1, x2, y2, z2,` ... **]**
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::IGetTessPts Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetTessPts.html)
-
 [ICurve::IGetTessPtsSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetTessPtsSize.html)
 
 ## Availability

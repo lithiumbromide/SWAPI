@@ -51,18 +51,12 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top level document (see**Remarks**)
-- `Component`: Component for the feature (seeRemarks)
+- `TopDoc`: Top level document (see **Remarks**)
+- `Component`: Component for the feature (see Remarks)
 
 ### Return Value
 
@@ -70,22 +64,14 @@ True if the selections where successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[DomeFeatureData2::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData2~AccessSelections.html)
-
-.
+See [DomeFeatureData2::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData2~AccessSelections.html).
 
 ## Examples
 
 [Change Height of Dome Feature (VBA)](Change_Height_of_Dome_Feature_Example_VB.htm)
-
 [Get and Set Constraint for Dome Feature (VBA)](Get_and_Set_Constraint_for_Dome_Feature_Example_VB.htm)
-
 [Create and Modify Dome Feature (C#)](Create_and_Modify_Dome_Feature_Example_CSharp.htm)
-
 [Create and Modify Dome Feature (VB.NET)](Create_and_Modify_Dome_Feature_Example_VBNET.htm)
-
 [Create and Modify Dome Feature (VBA)](Create_and_Modify_Dome_Feature_Example_VB.htm)
 
 ## Remarks
@@ -97,21 +83,11 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  or
-
-  [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [IDomeFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [IDomeFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IDomeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData2.html)
-
 [IDomeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData2_members.html)
-
 [IDomeFeatureData2::IAccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData2~IAccessSelections.html)

@@ -51,11 +51,7 @@ property System.bool ReverseAngVelocityDirection2 {
 
 ## Examples
 
-See the
-
-[ICWCentriFugalForce](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
-examples.
+See the [ICWCentriFugalForce](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html) examples.
 
 ## Remarks
 
@@ -64,7 +60,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWCentriFugalForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
 [ICWCentriFugalForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce_members.html)
 
 ## Availability

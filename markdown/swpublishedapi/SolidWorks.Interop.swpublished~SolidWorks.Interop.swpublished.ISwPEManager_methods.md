@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ISwPEManager Interface Methods
 
-For a list of all members of this type, see[ISwPEManager members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager_members.html).
+For a list of all members of this type, see [ISwPEManager members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[ISwPEManager members](SolidWorks.Int
 ## See Also
 
 [ISwPEManager Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

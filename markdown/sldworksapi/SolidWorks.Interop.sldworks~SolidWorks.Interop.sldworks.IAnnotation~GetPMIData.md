@@ -40,58 +40,30 @@ System.object GetPMIData()
 System.Object^ GetPMIData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[IPMIDatumData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumData.html)
-
-,
-
-[IPMIDimensionData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData.html)
-
-,
-
-[IPMIGtolData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData.html)
-
-; null if no PMI data is associated with this annotation (see
-
-Remarks
-
-)
+[IPMIDatumData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumData.html), [IPMIDimensionData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData.html), [IPMIGtolData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData.html); null or Nothing if the model is a drawing or no PMI data is associated with this annotation (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetPMIData](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetPMIData.html)
-
-.
+See [Annotation::GetPMIData](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetPMIData.html).
 
 ## Examples
 
 [Get PMI Data (VBA)](Get_PMI_Data_Example_VB.htm)
-
 [Get PMI Data (C#)](Get_PMI_Data_Example_CSharp.htm)
 
 ## Remarks
 
-Use
+This method is not valid for drawings.
 
-[IAnnotation::GetPMIType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIType.html)
-
-to determine the feature data object returned by this method.
+Use [IAnnotation::GetPMIType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIType.html) to determine the feature data object returned by this method.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

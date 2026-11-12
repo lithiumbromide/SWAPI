@@ -37,21 +37,11 @@ public delegate System.int DAssemblyDocEvents_DisplayPaneCollapseNotifyEventHand
 public delegate System.int DAssemblyDocEvents_DisplayPaneCollapseNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DisplayPaneCollapseNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~DisplayPaneCollapseNotify_EV.html)
-
-.
+See [DisplayPaneCollapseNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~DisplayPaneCollapseNotify_EV.html).
 
 ## Examples
 
@@ -59,11 +49,7 @@ See
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyDisplayPaneCollapseNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyDisplayPaneCollapseNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

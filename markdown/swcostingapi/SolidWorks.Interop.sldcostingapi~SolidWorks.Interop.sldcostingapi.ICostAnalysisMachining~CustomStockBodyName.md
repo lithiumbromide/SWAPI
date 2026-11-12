@@ -47,25 +47,19 @@ property System.String^ CustomStockBodyName {
 
 ### Property Value
 
-- Name of the configuration for a custom stock body; valid only if
-
-  [ICostAnalysisMachining::CustomStockImportType](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CustomStockImportType.html)
-
-  is set to swcCustomStockImportType_e.swcCustomStockImportType_Configuration and multiple configurations exist in the model
+- Name of the configuration for a custom stock body; valid only if [ICostAnalysisMachining::CustomStockImportType](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CustomStockImportType.html) is set to swcCustomStockImportType_e.swcCustomStockImportType_Configuration and multiple configurations exist in the model
 
   - or -
 - Path and file name of the reference part for a custom stock body; valid only if ICostAnalysisMachining::CustomStockImportType is set to swcCustomStockImportType_e.swcCustomStockImportType_ReferencePart
 
 ## VBA Syntax
 
-See[CostAnalysisMachining::CustomStockBodyName](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~CustomStockBodyName.html).
+See [CostAnalysisMachining::CustomStockBodyName](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~CustomStockBodyName.html).
 
 ## Examples
 
 [Set Custom Stock Body in Machined Part (C#)](Set_Custom_Stock_Body_in_Machined_Part_Example_CSharp.htm)
-
 [Set Custom Stock Body in Machined Part (VB.NET)](Set_Custom_Stock_Body_in_Machined_Part_Example_VBNET.htm)
-
 [Set Custom Stock Body in Machined Part (VBA)](Set_Custom_Stock_Body_in_Machined%20Part_Example_VB.htm)
 
 ## Remarks
@@ -73,13 +67,9 @@ See[CostAnalysisMachining::CustomStockBodyName](swcostingapivb6.chm::/SldCosting
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::CurrentStockType Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CurrentStockType.html)
-
 [ICostAnalysisMachining::CustomStockCostInfoType Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CustomStockCostInfoType.html)
-
 [ICostAnalysisMachining::CustomStockCustomCost Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CustomStockCustomCost.html)
 
 ## Availability

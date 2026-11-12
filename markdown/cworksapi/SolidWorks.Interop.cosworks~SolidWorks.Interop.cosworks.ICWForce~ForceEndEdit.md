@@ -42,32 +42,25 @@ System.int ForceEndEdit();
 
 ### Return Value
 
-Error as defined in[swsForceEndEditError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsForceEndEditError_e.html)
+Error as defined in [swsForceEndEditError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsForceEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWForce::ForceEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~ForceEndEdit.html)
-
-.
+See [CWForce::ForceEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~ForceEndEdit.html).
 
 ## Examples
 
 [Add Nonuniform Force Distribution (VBA)](Add_Force_Example_VB.htm)
-
 [Add Nonuniform Force Distribution (VB.NET)](Add_Force_Example_VBNET.htm)
-
 [Add Nonuniform Force Distribution (C#)](Add_Force_Example_CSharp.htm)
 
 ## Remarks
 
-You must call[ICWForce::ForceBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWForce~ForceBeginEdit.html)to start editing this force. To end editing this force, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWForce::ForceBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWForce~ForceBeginEdit.html) to start editing this force. To end editing this force, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
 
 ## Availability

@@ -115,63 +115,47 @@ Feature^ InsertFilletBeadFeature3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Type1`: First side:
 
-- 0 = Full lengthParamDesc
-- 1 = Intermittent
-- 2 = Staggered
+  - 0 = Full length
+  - 1 = Intermittent
+  - 2 = Staggered
 - `Size1`: Size of fillet on first side
 - `Length1`: Length of fillet on first side
 - `PenetrationType1`: First side:
 
-- 0 = Full penetration
-- 1 = Partial penetration
-- 2 = No penetration
+  - 0 = Full penetration
+  - 1 = Partial penetration
+  - 2 = No penetration
 - `PenetrationValue1`: If penetrationType1 is set to 1 (Partial penetration), then set its value
 - `Pitch`: Pitch, if Intermittent or Staggered on both sides
 - `Type2`: Second side:
 
-- 0= Full lengthParamDesc
-- 1 = Intermittent
-- 2= Staggered
+  - 0= Full length
+  - 1 = Intermittent
+  - 2= Staggered
 - `Size2`: Size of fillet on second side
 - `Length2`: Length of fillet on second side
-
-ParamDesc
 - `PenetrationType2`: Second side:
 
-- 0 = Full penetration
-- 1 = Partial penetration
-- 2 = No penetration
+  - 0 = Full penetration
+  - 1 = Partial penetration
+  - 2 = No penetration
 - `PenetrationValue2`: If penetrationType2 is set to 1 (Partial penetration), then set its value
 - `Flag`: - 0 = One-sided and no tangent propagation
-- 1 = Two-sided
-- 2 = Tangent propagation
-- 3 = Two-sided and tangent propagation
+  - 1 = Two-sided
+  - 2 = Tangent propagation
+  - 3 = Two-sided and tangent propagation
 - `EdgeNum1`: Number of intersecting edges on first side
 - `DeSelEdge1`: Array indicating if intersecting edges are selected (0) or deselected (1) on first side
 - `EdgeNum2`: Number of intersecting edges on second side
 - `DeSelEdge2`: Array indicating if intersecting edges are selected (0) or deselected (1) on second side
-- `FaceSet1`: Array of side 1
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-whose intersecting edges get fillet beads
-- `FaceSet2`: Array of side 2
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-whose intersecting edges get fillet beads
+- `FaceSet1`: Array of side 1 [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) whose intersecting edges get fillet beads
+- `FaceSet2`: Array of side 2 [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) whose intersecting edges get fillet beads
 
 ### Return Value
 
@@ -179,18 +163,12 @@ whose intersecting edges get fillet beads
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertFilletBeadFeature3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFilletBeadFeature3.html)
-
-.
+See [FeatureManager::InsertFilletBeadFeature3](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFilletBeadFeature3.html).
 
 ## Examples
 
 [Insert Weldment Features (VBA)](Insert_Weldment_Features_Example_VB.htm)
-
 [Insert Weldment Features (VB.NET)](Insert_Weldment_Features_Example_VBNET.htm)
-
 [Insert Weldment Features (C#)](Insert_Weldment_Features_Example_CSharp.htm)
 
 ## Remarks
@@ -200,11 +178,8 @@ This interface specifies two face arrays, one for each side of a part feature. T
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IWeldmentBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentBeadFeatureData.html)
-
 [IFeatureManager::InsertFilletBeadFeature2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFilletBeadFeature2.html)
 
 ## Availability

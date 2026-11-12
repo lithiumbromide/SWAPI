@@ -58,17 +58,9 @@ System.int CopyFile2(
 - `lSrcFolderID`: ID of the folder from which to copy the file
 - `lParentWnd`: Parent window handle
 - `plErrorCode`: - 0 indicates that the file is copied
-- [EdmResultSuccessCodes_e.](EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e.html)
-
-  S_EDM_FILES_NOT_UNIQUE_GLOBALLY indicates that the file
-
-  is copied if you are copying the file to a different folder in the vault; otherwise, the file is not copied
+  - [EdmResultSuccessCodes_e.](EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e.html)S_EDM_FILES_NOT_UNIQUE_GLOBALLY indicates that the file is copied if you are copying the file to a different folder in the vault; otherwise, the file is not copied
 - `bsNewName`: Optional new name of the file; "" to use the original file name
-- `lFlags`: Combination of
-
-[EdmAddFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFlag.html)
-
-bits
+- `lFlags`: Combination of [EdmAddFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFlag.html) bits
 
 ### Return Value
 
@@ -77,12 +69,11 @@ ID of the new file
 ## Examples
 
 [Copy File (C#)](Copy_File_Example_CSharp.htm)
-
 [Copy File (VB.NET)](Copy_File_Example_VBNET.htm)
 
 ## Remarks
 
-This method uses the ID of a file to copy a file inside the vault. Use[IEdmFolder8::AddFile2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8~AddFile2.html)to copy a file by its path. IEdmFolder8::AddFile2 can handle source files both inside and outside the vault.
+This method uses the ID of a file to copy a file inside the vault. Use [IEdmFolder8::AddFile2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8~AddFile2.html) to copy a file by its path. IEdmFolder8::AddFile2 can handle source files both inside and outside the vault.
 
 [Return codes](ReturnCodes.htm):
 
@@ -91,16 +82,11 @@ This method uses the ID of a file to copy a file inside the vault. Use[IEdmFolde
 - E_EDM_FILE_NOT_FOUND: The source file was not found. (The ID is invalid.)
 - E_EDM_PERMISSION_DENIED: The user lacks permission to copy the specified file.
 - E_EDM_FILE_SHARE_ERROR: Cannot copy the file because it is exclusively opened in another application.
-- E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the installed
-
-  [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-  .EdmCmd_PreCopy hooks didn't permit the operation.
+- E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the installed [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html).EdmCmd_PreCopy hooks didn't permit the operation.
 
 ## See Also
 
 [IEdmFolder8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8.html)
-
 [IEdmFolder8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8_members.html)
 
 ## Availability

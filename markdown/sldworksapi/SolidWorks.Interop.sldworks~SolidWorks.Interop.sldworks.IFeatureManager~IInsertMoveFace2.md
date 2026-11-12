@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IInsertMoveFace2 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertMoveFace3 .](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMoveFace3.html)
+Obsolete. Superseded by [IFeatureManager::InsertMoveFace3.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMoveFace3.html)
 
 ## Syntax
 
@@ -69,49 +67,39 @@ Feature^ IInsertMoveFace2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `MoveType`: Type of move:
 
-- 0 = Offset
-- 1 = Translate
-- 2 = Rotate
+  - 0 = Offset
+  - 1 = Translate
+  - 2 = Rotate
 - `ReverseDir`: True to reverse the direction, false to not
 - `Angle`: If MoveType is Rotate, then specify the angle at which to draft the faces
-- `Distance`: DistanceParamDescto offset or translate the faces
+- `Distance`: Distance to offset or translate the faces
 - `TranslationParams`: - in-process, unmanaged C++: Pointer to an array three doubles for delta x, delta y, and delta z direction translation
 
-VBA, VB.NET, C#, and C++/CLI: Not supported
+  VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 - `RotationParams`: - in-process, unmanaged C++: Pointer to an array six doubles:
 
-  - first three doubles are the x, y, and z rotation origin
-  - last three doubles are the x, y, and z rotation angle
+    - first three doubles are the x, y, and z rotation origin
+    - last three doubles are the x, y, and z rotation angle
 
-VBA, VB.NET, C#, and C++/CLI: Not supported
+  VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## Remarks
 
-Use the following marks with[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html):
+Use the following marks with [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html):
 
 - 1 = face
 - 2 = direction reference (plane, planar face, linear edge, or reference axis) for translate
@@ -122,11 +110,8 @@ If you specify a value for TranslationParms or RotationParams, then do not speci
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IMoveFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData.html)
-
 [IFeatureManager::InsertMoveFace2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMoveFace2.html)
 
 ## Availability

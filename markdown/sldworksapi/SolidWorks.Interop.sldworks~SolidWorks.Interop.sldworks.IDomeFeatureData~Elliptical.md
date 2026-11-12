@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # Elliptical Property (IDomeFeatureData)
 
-Obsolete. Superseded by
-
-[IDomeFeatureData2::Elliptical](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~Elliptical.html)
-
-.
+Obsolete. Superseded by [IDomeFeatureData2::Elliptical](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~Elliptical.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool Elliptical {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DomeFeatureData::Elliptical](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~Elliptical.html)
-
-.
+See [DomeFeatureData::Elliptical](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~Elliptical.html).
 
 ## See Also
 
 [IDomeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData.html)
-
 [IDomeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData_members.html)

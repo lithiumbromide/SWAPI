@@ -40,7 +40,6 @@ ID of the source state of this transition; 1 if there is no source state
 ## See Also
 
 [IEdmTransition5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5.html)
-
 [IEdmTransition5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5_members.html)
 
 ## Availability

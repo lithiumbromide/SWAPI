@@ -9,12 +9,9 @@ source: "API_GB/Roll_Back_Revisions_Example_VBNET.htm"
 
 # Roll Back Revisions Example (VB.NET)
 
-This example shows how to roll back a checked-in file to
-its first revision in the current version.
+This example shows how to roll back a checked-in file to its first revision in the current version.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 '----------------------------------------------------------------------------

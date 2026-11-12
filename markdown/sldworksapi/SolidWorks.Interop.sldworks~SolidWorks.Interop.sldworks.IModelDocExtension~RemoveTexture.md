@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # RemoveTexture Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::RemoveTexture2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~RemoveTexture2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::RemoveTexture2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~RemoveTexture2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool RemoveTexture()
 System.bool RemoveTexture();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::RemoveTexture](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~RemoveTexture.html)
-
-.
+See [ModelDocExtension::RemoveTexture](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~RemoveTexture.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)

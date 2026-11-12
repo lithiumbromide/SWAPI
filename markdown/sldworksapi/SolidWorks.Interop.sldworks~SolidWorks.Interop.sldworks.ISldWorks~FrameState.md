@@ -45,25 +45,15 @@ property System.int FrameState {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Window state as defined in[swWindowState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWindowState_e.html)
+Window state as defined in [swWindowState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWindowState_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::FrameState](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~FrameState.html)
-
-.
+See [SldWorks::FrameState](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~FrameState.html).
 
 ## Examples
 
@@ -75,32 +65,28 @@ Dim swApp As SldWorks.SldWorks
 
 Sub main()
 
-Set swApp = Application.SldWorks ' Set the SOLIDWORKS window the specified height, width, state, and location swApp. FrameHeight = 500 swApp. FrameLeft = 100 swApp. FrameState = swWindowNormal swApp. FrameTop = 100 swApp. FrameWidth = 500
+Set swApp = Application.SldWorks
+' Set the SOLIDWORKS window the specified height, width, state, and location
+swApp.**FrameHeight** = 500
+swApp.**FrameLeft** = 100
+swApp.**FrameState** = swWindowNormal
+swApp.**FrameTop** = 100
+swApp.**FrameWidth** = 500
 
 End Sub
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::FrameHeight Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~FrameHeight.html)
-
 [ISldWorks::FrameLeft Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~FrameLeft.html)
-
 [ISldWorks::FrameTop Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~FrameTop.html)
-
 [ISldWorks::FrameWidth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~FrameWidth.html)
-
 [IModelView::FrameHeight Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~FrameHeight.html)
-
 [IModelView::FrameLeft Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~FrameLeft.html)
-
 [IModelView::FrameState Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~FrameState.html)
-
 [IModelView::FrameTop Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~FrameTop.html)
-
 [IModelView::FrameWidth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~FrameWidth.html)
 
 ## Availability

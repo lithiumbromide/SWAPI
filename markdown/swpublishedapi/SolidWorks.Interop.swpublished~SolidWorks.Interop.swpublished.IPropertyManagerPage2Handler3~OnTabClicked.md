@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnTabClicked Method (IPropertyManagerPage2Handler3)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnTabClicked](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnTabClicked.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnTabClicked](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnTabClicked.html).
 
 ## Syntax
 
@@ -57,14 +53,9 @@ System.bool OnTabClicked(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler3::OnTabClicked](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler3~OnTabClicked.html)
-
-.
+See [PropertyManagerPage2Handler3::OnTabClicked](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler3~OnTabClicked.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler3 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler3.html)
-
 [IPropertyManagerPage2Handler3 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler3_members.html)

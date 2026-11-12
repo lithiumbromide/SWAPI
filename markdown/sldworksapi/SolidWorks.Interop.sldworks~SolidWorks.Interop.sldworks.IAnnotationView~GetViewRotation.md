@@ -40,13 +40,7 @@ System.object GetViewRotation()
 System.Object^ GetViewRotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Array of 9 doubles of the rotation matrix of the annotation view relative to the
 
 ## VBA Syntax
 
-See
-
-[AnnotationView::GetViewRotation](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~GetViewRotation.html)
-
-.
+See [AnnotationView::GetViewRotation](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~GetViewRotation.html).
 
 ## See Also
 
 [IAnnotationView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html)
-
 [IAnnotationView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView_members.html)
-
 [IAnnotation::IGetViewRotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~IGetViewRotation.html)
-
 [IAnnotation::GetPlane Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPlane.html)
 
 ## Availability

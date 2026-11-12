@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup7.html"
 
 Allows you to access a user group in SOLIDWORKS PDM Professional.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -44,20 +38,11 @@ public interface class IEdmUserGroup7 : public IEdmObject5, IEdmUserGroup5, IEdm
 
 This interface:
 
-- inherits from
-
-  [IEdmUserGroup6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6.html)
-
-  .
+- inherits from [IEdmUserGroup6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6.html).
 - provides the ability to add group memberships in specific folders.
-- is extended by
-
-  [IEdmUserGroup8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup8.html)
-
-  .
+- is extended by [IEdmUserGroup8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup8.html).
 
 ## See Also
 
 [IEdmUserGroup7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup7_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

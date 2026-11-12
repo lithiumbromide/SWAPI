@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertIntersectCircleFeature Interface Members
 
-The following tables list the members exposed by[IDimXpertIntersectCircleFeature](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature.html).
+The following tables list the members exposed by [IDimXpertIntersectCircleFeature](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IDimXpertIntersectCircleFeature
 ## See Also
 
 [IDimXpertIntersectCircleFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectCircleFeature.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

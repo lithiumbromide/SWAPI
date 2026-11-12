@@ -1,0 +1,1684 @@
+#swapi-enums 1 module=draftsightapi sw=2026 SP4 prefix=Interop.dsAutomation~Interop.dsAutomation. cols=name,value,description
+@dsAngleType_e		Types of angular units.
+dsAngleType_DecimalDegrees	1
+dsAngleType_Deg_Min_Sec	2
+dsAngleType_Grads	3
+dsAngleType_Radians	4
+dsAngleType_SurveyorUnit	5
+@dsAngularDimensionType_e		Types of angular Dimensions.
+dsAngularDimensionType_2Line	2
+dsAngularDimensionType_3Point	1
+@dsApplicationEvent_id_e		Types of DraftSight application events.
+dsApplication_ActiveDocumentChangedNotify_id	5	ActiveDocumentChangedNotify
+dsApplication_ApplicationOptionBoolChangeNotify_id	9	ApplicationOptionBoolChangeNotify
+dsApplication_ApplicationOptionDoubleChangeNotify_id	12	ApplicationOptionDoubleChangeNotify
+dsApplication_ApplicationOptionInt16ChangeNotify_id	10	ApplicationOptionInt16ChangeNotify
+dsApplication_ApplicationOptionInt32ChangeNotify_id	11	ApplicationOptionInt32ChangeNotify
+dsApplication_ApplicationOptionStringChangeNotify_id	13	ApplicationOptionStringChangeNotify
+dsApplication_CommandCancelNotify_id	8	CommandCancelNotify
+dsApplication_CommandPostNotify_id	7	CommandPostNotify
+dsApplication_CommandPreNotify_id	6	CommandPreNotify
+dsApplication_CurrentProfileResetPostNotify_id	18	CurrentProfileResetPostNotify
+dsApplication_CurrentProfileResetPreNotify_id	17	CurrentProfileResetPreNotify
+dsApplication_DestroyNotify_id	4	DestroyNotify
+dsApplication_FileNewNotify_id	1	FileNewNotify
+dsApplication_FileOpenPostNotify_id	3	FileOpenPostNotify
+dsApplication_FileOpenPreNotify_id	2	FileOpenPreNotify
+dsApplication_OnFileProcessedNotify_id	20	OnFileProcessedNotify
+dsApplication_OnIdleNotify_id	14	OnIdleNotify
+dsApplication_PrintPostNotify_id	16	PrintPostNotify
+dsApplication_PrintPreNotify_id	15	PrintPreNotify
+dsApplication_RequestToOpenFileNotify_id	19	RequestToOpenFileNotify
+@dsApplicationOptionBool_e		Application options with Boolean values.
+dsApplicationOptionBool_Count	12	Not used
+dsApplicationOptionBool_EnblBAttDlgs	1	Sets whether attribute values are typed in a dialog or at the command prompt: False = Command prompt True = Dialog
+dsApplicationOptionBool_EnblBAttVrfy	2	Sets whether to use default attribute values when inserting Blocks or to prompt the user for values: False = Defaults True = Command prompt or dialog
+dsApplicationOptionBool_EnblBMPPrvw	3	Sets whether to save BMP preview images with the drawing: False = No True = Yes
+dsApplicationOptionBool_EnblEntSelPreSel	4	Tools > Options > User Preferences > Drafting Options > Entity Selection > Selection Settings > Enable entity selection before commands: False = Select entities after issuing commands True = Select entities before issuing commands
+dsApplicationOptionBool_EnblGBox	5	Tools > Options > User Preferences > Drafting Options > Display > Gravity Box > Enable ESnap gravity: False = Off True = On
+dsApplicationOptionBool_EnblImgHlt	6	Sets whether to highlight the raster image or only its frame: False = Highlight only raster image frame True = Highlight raster image
+dsApplicationOptionBool_EnblNavDlgs	7	Suppresses file navigation dialogs: False = Do not display dialogs True = Display dialogs
+dsApplicationOptionBool_EnblPrxyWrng	8	Sets whether to display a notice when a proxy is created: False = No notice True = Notice
+dsApplicationOptionBool_EnblRgnBndryDel	9	Sets whether geometry used to create 3D entities is deleted: False = Geometry not deleted True = Deletes geometry or displays a prompt to delete geometry
+dsApplicationOptionBool_EnblRstrOleDsp	10	Sets whether to display both raster images and OLE content or display outlines when zooming and panning: False = Only display outlines True = Display raster images and OLE content
+dsApplicationOptionBool_SetTxtPrnFill	11	Sets filling of TrueType fonts while printing: False = Off True = On
+dsApplicationOptionBool_Undefined	0	Undefined
+@dsApplicationOptionDouble_e		Application options with double values.
+dsApplicationOptionDouble_Count	5	Not used
+dsApplicationOptionDouble_GetDt	1	Current date and time in decimal format (read only)
+dsApplicationOptionDouble_GetDtJul	2	Current date and time formatted as Julian day number. Decimal fraction of a day (read only)
+dsApplicationOptionDouble_SetPGdAng	3	Tools > Options > User Preferences > Drafting Options > Display > Polar Guides > Display Polar guides at specific angle(s)
+dsApplicationOptionDouble_SetRSnpSpc	4	Tools > Options > User Preferences > Drafting Options > Pointer Control > Snap Settings > RSnap spacing
+dsApplicationOptionDouble_Undefined	5	Undefined
+@dsApplicationOptionInt16_e		Application options with Int16 values.
+dsApplicationOptionInt16_Count		Not used
+dsApplicationOptionInt16_EnblBlkXpld	1	Explode non-uniformly scaled (NUS) blocks (only affects explode command): 0 = False 1 = True
+dsApplicationOptionInt16_EnblChmfAng	2	Set chamfer input method: 0 = Two chamfer distances 1 = One chamfer length and one angle
+dsApplicationOptionInt16_EnblCmdDlgs	3	Show in-place text editor for the LEADER and QLEADER commands: 0 = Off 1 = On
+dsApplicationOptionInt16_EnblDrgDsp	4	Display outlines of dragged entities: 0 = Off 1 = Not implemented 2 = On
+dsApplicationOptionInt16_EnblEdgeExtd	5	Set TRIM and EXTEND commands for cutting and boundary edges: 0 = Use the selected edge without an extension 1 = Extend or trim the selected entity to an imaginary extension of the cutting or boundary edge
+dsApplicationOptionInt16_EnblEGripBlk	6	Tools > Options > User Preferences > Drafting Options > Entity Selection > EGrips Options > Enable EGrips in Blocks: 0 = Enable EntityGrips (EGrips) 1 = Enable EGrips in Blocks
+dsApplicationOptionInt16_EnblEGripTpDsp	7	Tools > Options > User Preferences > Drafting Options > Entity Selection > EGrips Options > Enable EGrips tips: 0 = Enable EGrips tips off 1 = Enable EGrips tips on
+dsApplicationOptionInt16_EnblEntSelHlt	8	Tools > Options > User Preferences > Drafting Options > Entity Selection > Pre-selected highlighting > When prompted to specify entities: 0 = Off 1 = On
+dsApplicationOptionInt16_EnblETrkDsp	9	Tools > Options > User Preferences > Drafting Options > Display > ETrack > Display ETrack guides across screen: 0 = Off 1 = On
+dsApplicationOptionInt16_EnblFltTrm	10	Trim selected chamfer and fillet edges: 0 = Off 1 = On
+dsApplicationOptionInt16_EnblMMBPan	11	Set the behavior of the third button or wheel on the mouse: 0 = Supports the action defined in the customization file 1 = Supports panning
+dsApplicationOptionInt16_EnblMutt	12	Set whether to suppress displaying a message when it typically would not be suppressed: 0 = Off 1 = On
+dsApplicationOptionInt16_EnblPEdtCnvrtWrng	13	Set whether to suppress the error message in PEDIT when the selected entity is not a PolyLine: 0 = Off 1 = On
+dsApplicationOptionInt16_EnblRSnp	14	Tools > Options > User Preferences > Drafting Options > Pointer Control > Snap Settings > Radial (RSnap): 0 = Off 1 = On
+dsApplicationOptionInt16_EnblTlTps	15	Tools > Options > System Options > Graphics Area > Display ESnap tooltips: 0 = Off 1 = On
+dsApplicationOptionInt16_GetNmCdePg	16	Show the system code page, which is determined by the operating system (read only)
+dsApplicationOptionInt16_GetStatScreen	17	Get screen state (read only): 1 = Text screen is displayed 2 = Drawing area is displayed 3 = Both screens are displayed
+dsApplicationOptionInt16_LgcyACISOUTVER	18	Set ACIS version of SAT files created using ACISOUT command; valid values 15-18, 20, 21, 30, 31, 40, 50, 60, and 70 (see Remarks)
+dsApplicationOptionInt16_LgcySTARTUP	19	Specify 0 or 1 to display the Specify Template dialog when NEW is typed at the command prompt, or to create a new drawing document when QNEW command is typed in the command prompt (see Remarks)
+dsApplicationOptionInt16_LgcyWMFBKGND	20	Set the background display when entities are inserted in Windows metafile format (WMF) (see Remarks): 0 = background is transparent; foreground color is dsCommandOptionInt16_LgcyWMFFOREGND 1 = background color same as drawing's current background color; foreground color unchanged
+dsApplicationOptionInt16_LgcyWMFFOREGND	21	Set the foreground color when entities are inserted in WMF (see Remarks): 0 = If needed, foreground and background colors are swapped so that the foreground color is darker than the background color 1 = If needed, foreground and background colors are swapped so that the foreground color is lighter than the background color
+dsApplicationOptionInt16_SetActBlkInsUnt	22	Tools > Options > System Options > Drawing File Defaults > Block insertion units > Units for inserting entities: 0 = Unitless 1 = Inches 2 = Feet 3 = Miles 4 = Millimeters 5 = Centimeters 6 = Meters 7 = Kilometers 8 = Microinches 9 = Mils 10 = Yards 11 = Angstroms 12 = Nanometers 13 = Microns 14 = Decimeters 16 = Hectometers 17 = Gigameters 18 = Astronomical 19 = Light Years 20 = Parsecs
+dsApplicationOptionInt16_SetBAttMode	23	Sets BlockAttribute options (bitcode): 0 = None 1 = Invisible 2 = Constant 4 = Verify 8 = Preset 16 = Lock position in Block
+dsApplicationOptionInt16_SetCCSAxisAng	24	Set the default angle, in degrees, when rotating the CCS around one of its axes using the x, y, or z option of the CCS command: 5 10 15 18 22.5 30 45 90 180
+dsApplicationOptionInt16_SetCOLORTHEME		Do not use.
+dsApplicationOptionInt16_SetCompEdFd	25	Set the fading intensity for references being edited in-place; valid values 0-90
+dsApplicationOptionInt16_SetCrdDsp	26	Set how often to update and the format of the coordinates on the status line: 0 = Only when points are specified 1 = Continuously 2 = Continuously except when a point, distance, or angle is requested; then relative polar coordinates are displayed for x and y; z is always displayed as an absolute coordinate 3 = Continuously with latitude and longitude coordinate values of geographic location
+dsApplicationOptionInt16_SetDfltLWt	27	Tools > Options > Drafting Styles > Active Drafting Styles > Line Font > Line Weight > Default Weight: -3 = Default -2 = ByBlock -1 = ByLayer 0 = 0.00 mm or inches 5 = 0.05 mm or 0.002 inches 9 = 0.09 mm or 0.004 inches 13 = 0.13 mm or 0.005 inches 15 = 0.15 mm or 0.006 inches 18 = 0.18 mm or 0.007 inches 20 = 0.20 mm or 0.008 inches 25 = 0.25 mm or 0.010 inches 30 = 0.30 mm or 0.012 inches 35 = 0.35 mm or 0.014 inches 40 = 0.40 mm or 0.016 inches 50 = 0.50 mm or 0.020 inches 53 = 0.53 mm or 0.021 inches 60 = 0.60 mm or 0.024 inches 70 = 0.70 mm or 0.028 inches 80 = 0.80 mm or 0.031 inches 90 = 0.90 mm or 0.035 inches 100 = 1.00 mm or 0.039 inches 106 = 1.06 mm or 0.042 inches 120 = 1.20 mm or 0.047 inches 140 = 1.40 mm or 0.055 inches 158 = 1.58 mm or 0.062 inches 200 = 2.00 mm or 0.079 inches 211 = 2.11 mm or 0.083 inches
+dsApplicationOptionInt16_SetEGripActClr	28	Tools > Options > User Preferences > Drafting Options > Entity Selection > EGrips Colors > Active EGrips: 1 = Red 2 = Yellow 3 = Green 4 = Cyan 5 = Blue 6 = Magenta 7 = White 8 − 256 = Specify Color
+dsApplicationOptionInt16_SetEGripDspLmt	29	Tools > Options > User Preferences > Drafting Options > Entity Selection > EGrips Options > EGrip display limit; valid values 0-32767
+dsApplicationOptionInt16_SetEGripDspMode	30	Tools > Options > User Preferences > Drafting Options > Entity Selection > EGrips Options > Enable EntityGrips (EGrips): 0 = Disabled 1 = Enabled
+dsApplicationOptionInt16_SetEGripInActClr	31	Tools > Options > User Preferences > Drafting Options > Entity Selection > EGrips Colors > Inactive EGrips: 1 = Red 2 = Yellow 3 = Green 4 = Cyan 5 = Blue 6 = Magenta 7 = White 8 − 256 = Specify Color
+dsApplicationOptionInt16_SetEntSelMode	32	Tools > Options > User Preferences > Drafting Options > Entity Selection > Selection Settings > Enable EntityGroup selection sets: 0 = Disabled 1 = Enabled
+dsApplicationOptionInt16_SetESnpMode	33	Tools > Options > User Preferences > Drafting Options > Pointer Control > Entity Snaps (bitcode): 0 = Clear entity snaps 1 = End 2 = Midpoint 4 = Center 8 = Node 16 = Quadrant 32 = Intersection 64 = Insert 128 = Perpendicular 256 = Tangent 512 = Nearest 2048 = Visual Intersection 4096 = Extension
+dsApplicationOptionInt16_SetGBoxSz	34	Tools > Options > User Preferences > Drafting Options > Display > Gravity Box > GravityBox size; valid values 1-20
+dsApplicationOptionInt16_SetHtchRltvMode	35	Set whether hatch patterns and gradient fills are associated with their boundaries: No Yes; updated when their boundaries change
+dsApplicationOptionInt16_SetLogMode	36	Set whether to write the contents of the text window to a log file: 0 = No 1 = Yes
+dsApplicationOptionInt16_SetLWtUnt	37	Tools > Options > Drafting Styles > Active Drafting Styles > Line Font > Line Weight > Inches or Millimeters: 0 = Inches 1 = Millimeters
+dsApplicationOptionInt16_SetMnuEcho	38	Specify menu echo behavior: 1 = Suppress echo of menu items 2 = Suppress display of system prompts during menu 4 = Disable menu echo ^P toggle 8 = Display input/output strings
+dsApplicationOptionInt16_SetOfstGapMode	39	Specify how to handle gaps between segments for closed PolyLines that are offset: 0 = Fill gaps by extending PolyLine segments 1 = Fill gaps with filleted arc segments, where the radius of each arc segment is equal to the offset distance 2 = Fill gaps with chamfered line segments, where the perpendicular distance to each chamfer is equal to the offset distance
+dsApplicationOptionInt16_SetOLEQlty	40	Control the default print quality for OLE objects: 0 = Monochrome 1 = Low graphics 2 = High graphics 3 = Automatically select
+dsApplicationOptionInt16_SetPGonSides	41	Specifies the default number for POLYGON; valid values: 3-1024
+dsApplicationOptionInt16_SetPntrSz	42	Tools > Options > System Options > Graphics Area > Pointer size; valid values: 1-100 percent
+dsApplicationOptionInt16_SetPrnRot	43	Sets print orientation: 0 = Rotate the printing area so that the corner with the Rotation icon aligns with the paper at the lower left for 0, top left for 90, top right for 180, and lower right for 270; x and y origin offsets are calculated relative to the lower-left corner 1 = Align the lower-left corner of the printing area with the lower-left corner of the paper 2 = Behave like 0 value, except that x and Y origin offsets are calculated relative to the rotated origin position
+dsApplicationOptionInt16_SetProjMode	44	Specify the projection mode used with TRIM and EXTEND: 0 = No projection 1 = Project x,y plane of the current CCS 2 = Project to current view plane
+dsApplicationOptionInt16_SetPrxyDspMode	45	Specify how to show proxy objects in drawings: 0 = Not displayed 1 = Images displayed for all proxy objects 2 = Only bounding box displayed for all proxy objects
+dsApplicationOptionInt16_SetSelBoxSz	46	Tools > Options > User Preferences > Drafting Options > Entity Selection > Selection Settings > SelectionBox size; valid values 0-50
+dsApplicationOptionInt16_SetShrtCtMnuMode	47	Tools > Options > User Preferences > Mouse Options > Options > Display shortcut menus by right-clicking; valid values 0-20
+dsApplicationOptionInt16_Undefined	48	Undefined
+@dsApplicationOptionInt32_e		Application options with Int32 values.
+dsApplicationOptionInt32_Count		Not used
+dsApplicationOptionInt32_EnblClkDrg	1	Tools > Options > User Preferences > Mouse Options > Options > Enable Click and drag: 0 = Disabled 1 = Enabled
+dsApplicationOptionInt32_EnblEntSelAuto	2	Tools > Options > User Preferences > Drafting Options > Entity Selection > Selection Settings > Automatic window/cross selection: 0 = Disabled 1 = Enabled
+dsApplicationOptionInt32_SetCmdPrmtLvl	3	Sets the number of prompts to display in the command window; range 0-5, where 0 is the least restrictive and displays the most number of prompts (default) and 5 is the most restrictive and displays the least number of prompts
+dsApplicationOptionInt32_SetCrdInptMode	4	Sets the number of prompts to display in the command window; range 0-5, where 0 is the least restrictive and displays the most number of prompts (default) and 5 is the most restrictive and displays the least number of prompts
+dsApplicationOptionInt32_SetEntSelAdd	5	Set how entities are added to the selection set: 0 = Selected entities replace any previously selected entities in the selection set 1 = Selected entities added to current selection set
+dsApplicationOptionInt32_SetSvTm	6	Tools > Options > System Options > Auto-save & Backup > Auto-save/backups > Save document every nn minutes
+dsApplicationOptionInt32_Undefined	0	Undefined
+@dsApplicationOptionString_e		Application options for strings.
+dsApplicationOptionString_Count		Not used
+dsApplicationOptionString_GetActDict	1	Path and file name of current custom dictionary
+dsApplicationOptionString_GetActUsr	2	Name of active Windows user (read only)
+dsApplicationOptionString_GetInfOS	3	Code for current locale (read only)
+dsApplicationOptionString_GetLstSvNm	4	Path and file name of most recently saved drawing (read only)
+dsApplicationOptionString_GetNmActPrfl	5	Current profile name (read only)
+dsApplicationOptionString_GetNmAutoSvFl	6	Current automatic save file name (read only)
+dsApplicationOptionString_GetNmPrdct	7	Product name (read only)
+dsApplicationOptionString_GetNmPrgm	8	Program name (read only)
+dsApplicationOptionString_GetPlatform	9	Operating system and platform in use (read only)
+dsApplicationOptionString_GetPthDS	10	Paths specified by environment variable, if it exists (read only)
+dsApplicationOptionString_GetPthDWG	11	Drive and folder of active drawing (read only)
+dsApplicationOptionString_Lgcy_PKSER	12	Product identification number (read only and see Remarks)
+dsApplicationOptionString_LgcySHPNAME	13	Default shape name (see Remarks)
+dsApplicationOptionString_SetActMnu	14	Tools > Options > File Locations > Interface > Customization File
+dsApplicationOptionString_SetAltBgFnt	26	Tools > Options > File Locations > Drawing Support > Alternate Font File > Big font
+dsApplicationOptionString_SetAltFnt	15	Tools > Options > File Locations > Drawing Support > Alternate Font File > SHX font
+dsApplicationOptionString_SetAltShp	25	Tools > Options > File Locations > Drawing Support > Alternate Font File > Shape file
+dsApplicationOptionString_SetAutoSvPth	16	Tools > Options > System Options > Auto-Save & Backup > Automatic save file location
+dsApplicationOptionString_SetBrwsrUrl	17	Default web site for OpenWebPage
+dsApplicationOptionString_SetDictFNm	18	Displays the file name of the current main spelling dictionary; the full path is not shown because this file is expected to reside in the Support directory
+dsApplicationOptionString_SetFntMpFNm	19	Tools > Options > File Locations > Drawing Support > Font Mapping File
+dsApplicationOptionString_SetLogPth	20	Tools > Options > File Locations > System > Log File Location
+dsApplicationOptionString_SetPGdSpcAng	21	Tools > Options > User Preferences > Drafting Options > Display > Polar Guides > Incremental angles for Polar guide display
+dsApplicationOptionString_SetPrmptTxt	22	Tools > Options > System Options > Display > Command window text > Command line text
+dsApplicationOptionString_SetPSProLog	23	PostScript prolog section name
+dsApplicationOptionString_SetPthTemp	24	Tools > Options > File Locations > System > Temporary File Location (read only)
+dsApplicationOptionString_SetWSCURRENT	27	Current workspace
+dsApplicationOptionString_Undefined	0	Undefined
+@dsArcLengthSymbols_e		Arc length symbols.
+dsArcLengthSymbols_AboveDimText	1
+dsArcLengthSymbols_BeforeDimText	0
+dsArcLengthSymbols_None	2
+@dsArcSymbolType_e		Positions for Arc symbols.
+dsArcSymbolType_AboveDimensionText	1
+dsArcSymbolType_None	2
+dsArcSymbolType_PrecedingDimensionText	0
+@dsArcTextAlignment_e		Curved text alignments.
+dsArcTextAlignment_Center	4	Places the text on the center of the Arc
+dsArcTextAlignment_Fit	1	Spaces characters uniformly between Arc's left and right ends
+dsArcTextAlignment_Left	2	Aligns the text with the left end of the Arc
+dsArcTextAlignment_Right	3	Aligns the text with the right end of the Arc
+@dsArcTextDirection_e		Curved text directions.
+dsArcTextDirection_InwardToTheCenter	2	Text is arranged right to left along the Arc
+dsArcTextDirection_OutwardFromCenter	1	Text is arranged left to right along the Arc
+@dsArcTextPosition_e		Curved text positions.
+dsArcTextPosition_OnConcaveSide	2	Text is placed on the concave side of the Arc; Arc is over the text
+dsArcTextPosition_OnConvexSide	1	Text is placed on the convex side of the Arc; Arc is under the text
+@dsBasePatternOn_e		Angles and elements on which to base linear matrix and circular patterns.
+dsBasePatternOn_AngleBetweenAndElementsNumber	1
+dsBasePatternOn_FillAngleAndAngleBetween	2
+dsBasePatternOn_FillAngleAndElementsNumber	3
+@dsBitmapFormat_e		Types of preview bitmap formats.
+dsBitmapFormat_BMP	4
+dsBitmapFormat_GIF	2
+dsBitmapFormat_JPEG	3
+dsBitmapFormat_PNG	1
+dsBitmapFormat_RGBA	0
+dsBitmapFormat_TIFF	5
+@dsBlockDefinitionEntities_e		Options for the source entities of Block definitions.
+dsBlockDefinitionEntities_ConvertToBlock	2	Replace the source entities with a Reference of the Block definition
+dsBlockDefinitionEntities_PreserveAsSeparateEntities	1	Leave the source entities as they are
+dsBlockDefinitionEntities_RemoveFromDrawing	3	Remove the source entities from the drawing
+@dsBlockInsertUnits_e		Units to use for Block insertion.
+dsBlockInsertUnits_Angstroms	11
+dsBlockInsertUnits_Astronomical	18
+dsBlockInsertUnits_Centimeters	5
+dsBlockInsertUnits_Decimeters	14
+dsBlockInsertUnits_Dekameters	15
+dsBlockInsertUnits_Feet	2
+dsBlockInsertUnits_Gigameters	17
+dsBlockInsertUnits_Hectometers	16
+dsBlockInsertUnits_Inches	1
+dsBlockInsertUnits_Kilometers	7
+dsBlockInsertUnits_LightYears	19
+dsBlockInsertUnits_Meters	6
+dsBlockInsertUnits_Microinches	8
+dsBlockInsertUnits_Microns	13
+dsBlockInsertUnits_Miles	3
+dsBlockInsertUnits_Millimeters	4
+dsBlockInsertUnits_Mils	9
+dsBlockInsertUnits_Nanometers	12
+dsBlockInsertUnits_Parsecs	20
+dsBlockInsertUnits_Unitless	0
+dsBlockInsertUnits_Yards	10
+@dsCleanObjectType_e	bitmask	Type of objects to purge from a document.
+dsCleanObjectType_Blocks	1
+dsCleanObjectType_DimensionStyles	2
+dsCleanObjectType_Layers	4
+dsCleanObjectType_LineStyles	8
+dsCleanObjectType_Materials	16
+dsCleanObjectType_PrintStyles	32
+dsCleanObjectType_RLineStyles	64
+dsCleanObjectType_Shapes	128
+dsCleanObjectType_TableStyles	256
+dsCleanObjectType_TextStyles	512
+@dsCommandEvent_id_e		Types of command events.
+dsCommand_ExecuteNotify_id	1	ExecuteNotify
+@dsCommandOptionBool_e		Command options with Boolean values.
+dsCommandOptionBool_Count		obsolete
+dsCommandOptionBool_EnblBAttDlgs		obsolete
+dsCommandOptionBool_EnblBAttVrfy		obsolete
+dsCommandOptionBool_EnblBMPPrvw		obsolete
+dsCommandOptionBool_EnblBnds	4	Sets whether you can create entities outside the grid limits: False = No True = Yes
+dsCommandOptionBool_EnblBoxTxt	5	Turns boxed text display and print mode on and off: False = Displays text True = Displays box
+dsCommandOptionBool_EnblCCSVPMode	6	Tools > Options > Drawing Settings > Coordinate System > Options > Update view when coordinate system changes: False = Unlocked True = Locked
+dsCommandOptionBool_EnblCSByVP	7	Tools > Options > Drawing Settings > Coordinate System > Options > Save coordinate system with view tile: False = Unchanged True = Changed to world coordinate system (WCS) for the command
+dsCommandOptionBool_EnblDlDm	8	Tools > Options > Drafting Styles > Dimension > Dual Dimension > Show dual dimensions: False = Disabled True = Enabled
+dsCommandOptionBool_EnblDmArwUsr	9	Sets the use of custom Blocks for dimension arrowheads on or off: False = Off True = On
+dsCommandOptionBool_EnblDmDLBtwn	10	Tools > Options > Draft Styles > Fit > Dimension text > Additional options > Dimension lines between extension lines: False = Do not draw dimension lines between extension lines True = Draw dimension lines between extension lines
+dsCommandOptionBool_EnblDmDLDsp1	11	Tools > Options > Drafting Styles > Dimension > Line > Dimension line settings > Hide > Dimension Line 1: False = Not hidden True = Hidden
+dsCommandOptionBool_EnblDmDLDsp2	12	Tools > Options > Drafting Styles > Dimension > Line > Dimension line settings > Hide > Dimension Line 2: False = Not hidden True = Hidden
+dsCommandOptionBool_EnblDmELDsp1	13	Tools > Options > Drafting Styles > Dimension > Line > Extension line settings > Hide > Extension Line 1: False = Not hidden True = Hidden
+dsCommandOptionBool_EnblDmELDsp2	14	Tools > Options > Drafting Styles > Dimension > Line > Extension line settings > Hide > Extension Line 2: False = Not hidden True = Hidden
+dsCommandOptionBool_EnblDmFitArwSup	15	Tools > Options > Drafting Styles > Dimension > Fit > Geometry > Hide arrows: False = Not hidden True = Hidden
+dsCommandOptionBool_EnblDmTolAppnd	16	Tools > Options > Drafting Styles > Dimension > Tolerance > Tolerance settings > Calculation: False = Do not append True = Append
+dsCommandOptionBool_EnblDmTxtAlgn	17	Dimension > Align Text: False = Align text with dimension line 1 = Draw text horizontally
+dsCommandOptionBool_EnblDmTxtBtwn	18	Tools > Options > Drafting Styles > Dimension > Fit > Additional options > Specify text placement: False = Cursor controls dimension line location True = Cursor controls dimension line and text location
+dsCommandOptionBool_EnblDmTxtBtwnExtLns	19	Tools > Options > Drafting Styles > Dimension > Fit > Geometry > When space is limited, move selected entity outside of extension lines > Keep text between extension lines: False = Placement of text varies True = Text placed between extension lines
+dsCommandOptionBool_EnblEntSelPreSel		obsolete
+dsCommandOptionBool_EnblFills	21	Draw > Hatch/Fill > Fill: False = Not filled True = Filled
+dsCommandOptionBool_EnblGBox		obsolete
+dsCommandOptionBool_EnblGrid	23	Tools > Options > User Preferences > Drafting Options > Display > Grid Settings > Enable Grid (F7): False = Turn grid off True = Turn grid on
+dsCommandOptionBool_EnblImgHlt		obsolete
+dsCommandOptionBool_EnblLWtDsp	25	Tools > Options > Active Drafting Styles > Line Font > Line Weight > By Layer > Display weight in graphics area: False = Do not display True = Display
+dsCommandOptionBool_EnblNavDlgs		obsolete
+dsCommandOptionBool_EnblOrtho	27	Sets whether cursor only moves in a perpendicular direction: False = Off True = On
+dsCommandOptionBool_EnblPLineVert	28	Sets whether the LineStyle used around the vertices of a PolyLine are continuous or dashed: False = PolyLine starts and ends with a dash at each vertex True = Continuous pattern around the vertices of the PolyLine
+dsCommandOptionBool_EnblPLnEllps	29	Sets whether to create a true Ellipse or a PolyLine representation of an Ellipse: False = Create true Ellipse True = Create PolyLine representation of an Ellipse
+dsCommandOptionBool_EnblPrxyWrng		obsolete
+dsCommandOptionBool_EnblRbldAuto	31	Sets whether to automatically regenerate a drawing: False = Off True = On
+dsCommandOptionBool_EnblRefEdt	32	Sets whether the current drawing can be edited in-place if referenced by another drawing: False = No True = Yes
+dsCommandOptionBool_EnblRgnBndryDel		obsolete
+dsCommandOptionBool_EnblRstrOleDsp		obsolete
+dsCommandOptionBool_EnblSlhEdgDsp	35	Sets whether to display silhouette edges of 3D solid entities in 2D wireframe or 3D wireframe: False = Off True = On
+dsCommandOptionBool_EnblSnp	36	Tools > Options > User Preferences > Drafting Options > Pointer Control > Snap Settings > Enable Snap (F9): False = Off True = On
+dsCommandOptionBool_EnblSnpIso	37	Tools > Options > User Preferences > Drafting Options > Display > Grid Settings > Orientation > Isometric: False = Rectangular True = Isometric
+dsCommandOptionBool_EnblSplnFrmDsp	38	Sets whether to display the control polygon for splines and spline-fit PolyLines: False = Do not display control polygon True = Display control polygon
+dsCommandOptionBool_EnblSTBs	39	Sets the print style to be named tables or color-dependent tables (read only): False = Use color-dependent print-style tables True = Use named print-style tables
+dsCommandOptionBool_EnblTDm	40	Tools > Options > Drafting Styles > Dimension > Tolerance > Tolerance settings > Calculation: False = Dimension limits not generated True = Dimension limits generated
+dsCommandOptionBool_EnblTxtHide	41	Sets whether text is hidden: False = Not hidden True = Hidden
+dsCommandOptionBool_EnblVP	42	Sets whether Model tab is active: False = Last active tab becomes active True = Model tab becomes active
+dsCommandOptionBool_EnblVPLScl	43	Sets whether Viewport scaling overrides LineStyle scaling: False = No True = Yes
+dsCommandOptionBool_GetStatDWGNm	44	Indicates whether the current drawing is named (read only): False = Not named True = Named
+dsCommandOptionBool_LgcyDIMASO	45	Sets whether associative dimensions are on or off (see Remarks) 0 = False 1 = True
+dsCommandOptionBool_LgcyDIMSHO	46	Sets whether dimension measurements are updated when increasing or decreasing the size of a dimensioned entity (see Remarks): 0 = False 1 = True
+dsCommandOptionBool_LgcyEXTNAMES	47	Sets the parameters of named entities to specific AutoCAD versions (see Remarks): False = AutoCAD Release 14 parameters True = AutoCAD 2000 and later parameters
+dsCommandOptionBool_LgcyUCSFOLLOW	48	Creates a plan view whenever the custom coordinate system (CCS) changes (see Remarks): False = CCS has no effect True = Changing CCS changes plan view
+dsCommandOptionBool_LgcyVISRETAIN	49	Turns visibility of layers in external reference files on or off (see Remarks): False = Off True = On
+dsCommandOptionBool_SetAngDir	50	Tools > Options > Drawing Settings > Unit System > Base angle: False = Counterclockwise True = Clockwise
+dsCommandOptionBool_SetDmTxtHPosBtwn	51	Tools > Options > Drafting Style > Dimension > Text > Text settings > Text alignment: False = Text aligned with dimension lines True = Text drawn horizontally
+dsCommandOptionBool_SetFLXOLESTARTUP	52	Sets whether an embedded OLE object's source application loads when printing: False = Not loaded True = Loaded
+dsCommandOptionBool_SetSktchMode	53	Sets whether the SKETCH command draws Lines or PolyLines: False = Draw Lines True = Draw PolyLines
+dsCommandOptionBool_SetTxtMirrMode	54	Sets how the MIRROR command reflects text: False = Keep text direction True = Mirror the text
+dsCommandOptionBool_SetTxtPrnFill		obsolete
+dsCommandOptionBool_Undefined	0	Undefined
+@dsCommandOptionDouble_e		Command options with double values.
+dsCommandOptionDouble_Count		obsolete
+dsCommandOptionDouble_GetArea	1	Tools > Inquiry > Get Area
+dsCommandOptionDouble_GetAreaPerim	2	Area perimeter (read only)
+dsCommandOptionDouble_GetDst	3	Tools > Inquiry > Get Distance (read only)
+dsCommandOptionDouble_GetDt		obsolete
+dsCommandOptionDouble_GetDtCrt	5	Date and time drawing created in local time (read only)
+dsCommandOptionDouble_GetDtJul		obsolete
+dsCommandOptionDouble_GetDtLstSv	7	Date and time drawing last saved in local time (read only)
+dsCommandOptionDouble_GetDtLstUSv	8	Local time and date drawing last updated or saved (read only)
+dsCommandOptionDouble_GetLstAng	9	End angle of the last arc specified relative to the x,y plane of the active custom coordinate system (CCS) for the active space (read only)
+dsCommandOptionDouble_GetTmLstEdt	10	Total editing time between saves of current drawing formatted as Number of days. Decimal fraction of a day (read only)
+dsCommandOptionDouble_GetTmUsrEdit	11	User-elapsed timer (read only)
+dsCommandOptionDouble_GetVwHt	12	Height of the view displayed in the active Viewport (read only)
+dsCommandOptionDouble_LgcyBACKZ	13	Back clipping plane offset from the target plane for the active Viewport (read only and see Remarks)
+dsCommandOptionDouble_LgcyFACETRES	14	Smoothness of shaded and hidden-lines-removed entities; valid values 0.01 to 10.0 (see Remarks)
+dsCommandOptionDouble_LgcyFRONTZ	15	Front clipping plane offset from the target plane to the active Viewport (see Remarks)
+dsCommandOptionDouble_LgcyLENSLENGTH	16	Length of the lens (mm) used in perspective viewing (read only and see Remarks)
+dsCommandOptionDouble_LgcyVIEWTWIST	17	View rotation angle for the active Viewport relative to the world coordinate system (WCS) (read only and see Remarks)
+dsCommandOptionDouble_SetActLScl	18	Active LineType scaling factor
+dsCommandOptionDouble_SetActPntSz	19	Tools > Options > Drawing Settings > Points > Size
+dsCommandOptionDouble_SetActThk	20	Current 3D thickness
+dsCommandOptionDouble_SetAngBase	21	Tools > Options > Drawing Settings > Unit System > Base angle
+dsCommandOptionDouble_SetChmfAng	22	Modify > Chamfer > Angle
+dsCommandOptionDouble_SetChmfDst1	23	Modify > Chamfer > Specify first distance
+dsCommandOptionDouble_SetChmfDst2	24	Modify > Chamfer > Specify second distance
+dsCommandOptionDouble_SetChmfLen	25	Modify > Chamfer > Angle
+dsCommandOptionDouble_SetCirRad	26	Draw > Circle > Specify radius
+dsCommandOptionDouble_SetDlDmMltpyScl	27	Tools > Options > Drafting Styles > Dimension > Dual Dimension > Multiplier for converting units
+dsCommandOptionDouble_SetDlDmRnd	28	Tools > Options > Drafting Styles > Dimension > Dual Dimension > Round to the nearest
+dsCommandOptionDouble_SetDmArwSz	29	Tools > Options > Drafting Styles > Dimension > Arrows > Size
+dsCommandOptionDouble_SetDmDLDst	30	Tools > Options > Drafting Styles > Dimension > Line > Dimension line settings > Distance past start arrow
+dsCommandOptionDouble_SetDmDLOfst	31	Tools > Options > Drafting Styles > Dimension > Line > Dimension line settings > Offset
+dsCommandOptionDouble_SetDmELDst	32	Tools > Options > Drafting Styles > Dimension > Line > Extension line settings > Distance past dimension lines
+dsCommandOptionDouble_SetDmELOfst	33	Tools > Options > Drafting Styles > Dimension > Line > Extension line settings > Offset
+dsCommandOptionDouble_SetDmFrcScl	34	Tools > Options > Drafting Styles > Dimension > Text > Text settings > Fractional scale
+dsCommandOptionDouble_SetDmGlblScl	35	Tools > Options > Drafting Styles > Dimension > Linear Dimension > Measurement scale > Scale factor
+dsCommandOptionDouble_SetDmTolTxtMax	36	Tools > Options > Drafting Styles > Dimension > Tolerance > Tolerance settings > Maximum value
+dsCommandOptionDouble_SetDmTxtHt	37	Tools > Options > Drafting Styles > Dimension > Text > Text settings > Height
+dsCommandOptionDouble_SetDmTxtOfst	38	Tools > Options > Drafting Styles > Dimension > Text > Text position > Offset from dimension lines
+dsCommandOptionDouble_SetDmTxtVPos	39	Tools > Options > Drafting Styles > Dimension > Text > Text position > Vertical
+dsCommandOptionDouble_SetFltRad	40	Modify > Fillet > Radius
+dsCommandOptionDouble_SetGblLScl	41	Tools > Options > Drawing Settings > Behavior > LineStyle Parameters > Global line scale
+dsCommandOptionDouble_SetHtchPtrnAng	42	Draw > Hatch/Fill > Angle
+dsCommandOptionDouble_SetHtchPtrnScl	43	Draw > Hatch/Fill > Scale
+dsCommandOptionDouble_SetHtchSpc	44	Draw > Hatch/Fill > Spacing
+dsCommandOptionDouble_SetLDmRnd	45	Tools > Options > Drafting Styles > Dimension > Linear Dimension > Round to the nearest
+dsCommandOptionDouble_SetLDmSclFac	46	Tools > Options > Drafting Styles > Dimension > Linear Dimension > Measurement scale > Scale factor
+dsCommandOptionDouble_SetNoteScl	47	Scale factor for multi-line width: 2.0 creates a multi-line 2X wider than the style definition 0 changes the multi-line into a single line <0 flips the order of the offset lines
+dsCommandOptionDouble_SetOfstDst	48	Offset distance: <0 offsets an entity through a point >=0 sets default offset distance
+dsCommandOptionDouble_SetPGdAng		obsolete
+dsCommandOptionDouble_SetPLineWdth	50	PolyLine width for new entities
+dsCommandOptionDouble_SetRDmCM	51	Tools > Options > Drafting Styles > Dimension > Radial/Diameter Dimension > Center mark display
+dsCommandOptionDouble_SetRDmCMSz	52	Tools > Options > Drafting Styles > Dimension > Radial/Diameter Dimension > Center mark display > Size
+dsCommandOptionDouble_SetRingID	53	Ring > Specify inside diameter
+dsCommandOptionDouble_SetRingOD	54	Ring > Specify outside diameter
+dsCommandOptionDouble_SetRSnpSpc		obsolete
+dsCommandOptionDouble_SetSktchInc	56	Line segment increment for the SKETCH command
+dsCommandOptionDouble_SetSnpAng	57	Rotation angle for snap and grid for the active Viewport relative to the current CCS
+dsCommandOptionDouble_SetTDmMin	58	Tools > Options > Drafting Styles > Dimension > Tolerance > Tolerance settings > Precision
+dsCommandOptionDouble_SetTrcWdth	59	Trace width
+dsCommandOptionDouble_SetTxtHt	60	Tools > Options > Drafting Styles > Text > Height
+dsCommandOptionDouble_SetUsrRl1	61	User- or application-defined real number
+dsCommandOptionDouble_SetUsrRl2	62	User- or application-defined real number
+dsCommandOptionDouble_SetUsrRl3	63	User- or application-defined real number
+dsCommandOptionDouble_SetUsrRl4	64	User- or application-defined real number
+dsCommandOptionDouble_SetUsrRl5	65	User- or application-defined real number
+dsCommandOptionDouble_SetVPScl	66	View scale factor for newly created Viewports; 0 = scaled to fit
+dsCommandOptionDouble_SetZElv	67	Elevation of new entities relative to the current CCS
+dsCommandOptionDouble_Undefined		obsolete
+@dsCommandOptionInt16_e		Command options with Int16 values.
+dsCommandOptionInt16_Count		obsolete
+dsCommandOptionInt16_EnblBlkXpld		obsolete
+dsCommandOptionInt16_EnblChmfAng		obsolete
+dsCommandOptionInt16_EnblClpFrmDsp	3	Show xref clipping frame in the current drawing: 0 = Not visible and not printed 1 = Visible and printed 2 = Visible but not printed
+dsCommandOptionInt16_EnblCmdDlgs		obsolete
+dsCommandOptionInt16_EnblCmdEcho	5	Echo prompts and input for LISP command: 0 = Off 1 = On
+dsCommandOptionInt16_EnblDrgDsp	6	Display outlines of dragged entities: 0 = Off 1 = Not implemented 2 = On
+dsCommandOptionInt16_EnblEdgeExtd		obsolete
+dsCommandOptionInt16_EnblEGripBlk		obsolete
+dsCommandOptionInt16_EnblEGripTpDsp		obsolete
+dsCommandOptionInt16_EnblEntSelHlt		obsolete
+dsCommandOptionInt16_EnblETrkDsp		obsolete
+dsCommandOptionInt16_EnblFltTrm		obsolete
+dsCommandOptionInt16_EnblHtchBndTyp	13	Set the type of entity created by the BHATCH and BOUNDARY commands: 0 = Region 1 = PolyLine
+dsCommandOptionInt16_EnblHtchDbl	14	Set hatch pattern doubling for user-defined patterns: 0 = Off 1 = On
+dsCommandOptionInt16_EnblMMBPan		obsolete
+dsCommandOptionInt16_EnblMutt		obsolete
+dsCommandOptionInt16_EnblPEdtCnvrtWrng		obsolete
+dsCommandOptionInt16_EnblRSnp		obsolete
+dsCommandOptionInt16_EnblTlTps		obsolete
+dsCommandOptionInt16_EnblUntSpcSupp	20	Set display format for units: 0 = Fractional, feet and inches, and surveyor's angles using spaces as delimiters 1 = Fractional, feet and inches, and surveyor's angles including spaces or sometimes dashes instead of spaces
+dsCommandOptionInt16_GetActVP	21	Set the ID number of the active Viewport; valid IDs 1-4
+dsCommandOptionInt16_GetLstErr	22	Set the number of the error code when a LISP function call causes an error detected by DraftSight
+dsCommandOptionInt16_GetNmCdePg		obsolete
+dsCommandOptionInt16_GetStatActCmd	24	Show the type of active command (read-only bitcode): 0 = None 1 = Ordinary 2 = Transparent 4 = Script 8 = Dialog
+dsCommandOptionInt16_GetStatCCS	25	Get whether custom coordinate system (CCS) is the same as world coordinate system (WCS) (read only): 0 = False 1 = True
+dsCommandOptionInt16_GetStateUndo	26	Get the state of UNDO command options (read-only bitcode): 0 = UNDO Off 1 = UNDO on 2 = Only one command can be undone 4 = Auto on 8 = Group currently active 16 = Zoom and pan are grouped as single action 32 = Layer property operations are grouped as single action
+dsCommandOptionInt16_GetStatLstDlg	27	Get how the most recently used dialog was closed (read only): 0 = Cancel 1 = OK
+dsCommandOptionInt16_GetStatScreen		obsolete
+dsCommandOptionInt16_LgcyACISOUTVER		obsolete
+dsCommandOptionInt16_LgcyDBMOD	30	Show drawing modification status (bitcode and see Remarks): 1 = Database modified 4 = Database variable modified 8 = Window modified 16 = View modified 32 = Field modified
+dsCommandOptionInt16_LgcyDIMFIT	31	obsolete
+dsCommandOptionInt16_LgcyDIMUNIT	32	Set units for all dimension types (see Remarks): 0 = Scientific 1 = Decimal 2 = Engineering 3 = Windows Desktop
+dsCommandOptionInt16_LgcyDWGCODEPAGE	33	Store system code page (read only and see Remarks)
+dsCommandOptionInt16_LgcyHALOGAP	34	Display a gap where an entity is hidden by another entity in 2D views (see Remarks)
+dsCommandOptionInt16_LgcyHANDLES	35	Indicate if entity handles are accessible by applications (see Remarks)
+dsCommandOptionInt16_LgcyINDEXCTL	36	Set whether layer and spatial indexes are created and saved in drawings (see Remarks): 0 = No indexes created 1 = Layer index created 2 = Spatial index created 3 = Layer and spatial indexes created
+dsCommandOptionInt16_LgcyISOLINES	37	Set the number of contour lines per surface on entities; valid values 0 through 2047 (see Remarks)
+dsCommandOptionInt16_LgcyOBSCUREDCOLOR	38	Sets color of obscured lines, which are only visible in 2D views and when dsCommandOptionInt16_LgcyOBSCUREDLTYPE is a non-0 value (see Remarks): 0 = ByBlock 1-255 = designated color 256 = By Layer
+dsCommandOptionInt16_LgcyOBSCUREDLTYPE	39	Set LineType of obscured lines (see Remarks): 0 = Off 1 = Solid 2 = Dashed 3 = Dotted 4 = Short dash 5 = Medium dash 6 = Long dash 7 = Double short dash 8 = Double medium dash 9 = Double long dash 10 = Medium long dash 11 = Sparse dash
+dsCommandOptionInt16_LgcySHADEDGE	40	Set how to shade edges in rendering (see Remarks): 0 = Faces shaded, edges not highlighted 1 = Faces shaded, edges in background color 2 = Faces not filled, edges in entity color 3 = Faces in entity color, edges in background color
+dsCommandOptionInt16_LgcySHADEDIF	41	Set the diffuse reflective light to ambient light ratio, which is a percentage of diffuse reflective light when dsCommandOptionInt16_LgcySHADEDGE is set to 0 or 1 (see Remarks)
+dsCommandOptionInt16_LgcySORTENTS	42	Set entity sorting for draw; valid values 1-127 (see Remarks)
+dsCommandOptionInt16_LgcySTARTUP		obsolete
+dsCommandOptionInt16_LgcyVIEWMODE	44	View mode for active Viewport (read-only bitcode and see Remarks): 0 = Off 1 = Perspective view active 2 = Front clipping on 4 = Back clipping on 8 = CCS mode on 16 = Front clip not at eye. If on, front clip distance determines front clipping plane; if off, front clip distance is ignored, and front clipping plane is set to pass through the camera point; this option is ignored if the front-clipping bit (2) is off
+dsCommandOptionInt16_LgcyWMFBKGND		obsolete
+dsCommandOptionInt16_LgcyWMFFOREGND		obsolete
+dsCommandOptionInt16_SetActBlkInsUnt		obsolete
+dsCommandOptionInt16_SetActLClr	48	Tools > Options > Drafting Styles > Active Drafting Styles > Line Font > Line Color: 0 = ByBlock 1 = Red 2 = Yellow 3 = Green 4 = Cyan 5 = Blue 6 = Magenta 7 = White 8 − 256 = Specify Color
+dsCommandOptionInt16_SetActLWt	49	Tools > Options > Drafting Styles > Active Drafting Styles > Line Font > Line Weight > Line Weight: -3 = Default -2 = ByBlock -1 = ByLayer 0 = 0.00 mm or inches 5 = 0.05 mm or 0.002 inches 9 = 0.09 mm or 0.004 inches 13 = 0.13 mm or 0.005 inches 15 = 0.15 mm or 0.006 inches 18 = 0.18 mm or 0.007 inches 20 = 0.20 mm or 0.008 inches 25 = 0.25 mm or 0.010 inches
+dsCommandOptionInt16_SetActPntStyl	50	Format > Point Style > Points > Type: 0 =. 1 = space 2 = + 3 = X 4 = | (pipe) 32 =. within a circle 33 = circle 34 = + within a circle 35 = X within a circle 36 = half-pipe within a circle 64 =. within a square
+dsCommandOptionInt16_SetActVPLvl	51	Set the maximum number of Viewports active at the same time in a layout
+dsCommandOptionInt16_SetAngDmPrc	52	Tools > Options > Drafting Styles > Dimension > Angular Dimension > Angular dimension settings > Precision: 0 = 0 1 = 0.0 2 = 0.00 3 = 0.000 4 = 0.0000 5 = 0.00000 6 = 0.000000 7 = 0.0000000 8 = 0.00000000
+dsCommandOptionInt16_SetAngDmUnt	53	Tools > Options > Drafting Styles > Dimension > Angular Dimension > Angular dimension settings > Format: 0 = Decimal Degrees 1 = Deg/Min/Sec 2 = Grads 3 = Radians
+dsCommandOptionInt16_SetAngDmZroDsp	54	Tools > Options > Drafting Styles > Dimension > Angular Dimension > Angular dimension settings > Zeroes display: 0 = Show leading and trailing zeroes 1 = Hide leading zeroes 2 = Hide trailing zeroes 3 = Hide leading and trailing zeroes
+dsCommandOptionInt16_SetAngPrc	55	Tools > Options > Drawing Settings > Unit System > Angle > Precision: 0 = 0 1 = 0.0 2 = 0.00 3 = 0.000 4 = 0.0000 5 = 0.00000 6 = 0.000000 7 = 0.0000000 8 = 0.00000000
+dsCommandOptionInt16_SetAngUnt	56	Tools > Options > Drawing Settings > Unit System > Angle > Type: 0 = Decimal Degrees 1 = Deg/Min/Sec 2 = Grads 3 = Radians 4 = Surveyor's UnitSystem
+dsCommandOptionInt16_SetBAttDsp	57	Tools > Options > Drawing Settings > Display > Show block attributes: 0 = Normal 1 = On 2 = Off
+dsCommandOptionInt16_SetBAttMode		obsolete
+dsCommandOptionInt16_SetBlkInsUnt	59	Tools > Options > Drawing Settings > Unit System > Block units format: 0 = Unitless 1 = Inches 2 = Feet 3 = Miles 4 = Millimeters 5 = Centimeters 6 = Meters 7 = Kilometers 8 = Microinches 9 = Mils 10 = Yards 11 = Angstroms 12 = Nanometers 13 = Microns 14 = Decimeters 16 = Hectometers 17 = Gigameters 18 = Astronomical 19 = Light Years 20 = Parsecs
+dsCommandOptionInt16_SetCCSAxisAng		obsolete
+dsCommandOptionInt16_SetCOLORTHEME		Do not use.
+dsCommandOptionInt16_SetCompEdFd		obsolete
+dsCommandOptionInt16_SetCrdDsp		obsolete
+dsCommandOptionInt16_SetCSIcnDsp	63	Tools > Options > Drawing Settings > Display > Coordinate System Icon > Display icon: 0 = Do not display icon 1 = Display icon 2 = Display icon at origin 3 = Display icon and Display icon at origin
+dsCommandOptionInt16_SetDfltLWt		obsolete
+dsCommandOptionInt16_SetDlDmPrc	65	Tools > Options > Drafting Styles > Dimension > Dual Dimension > Precision: 0 = 0 1 = 0.0 2 = 0.00 3 = 0.000 4 = 0.0000 5 = 0.00000 6 = 0.000000 7 = 0.0000000 8 = 0.00000000
+dsCommandOptionInt16_SetDlDmUnt	66	Tools > Options > Drafting Styles > Dimension > Dual Dimension > Format: 1 = Scientific 2 = Decimal 3 = Engineering 4 = Architectural Stacked 5 = Fractional Stacked 6 = Architectural 7 = Fractional 8 = Windows Desktop
+dsCommandOptionInt16_SetDmDLClr	67	Tools > Options > Drafting Styles > Dimension > Line > Dimension line settings > Color: 0 = ByBlock 1 = Red 2 = Yellow 3 = Green 4 = Cyan 5 = Blue 6 = Magenta 7 = White 8 − 256 = Specify Color
+dsCommandOptionInt16_SetDmDLWt	68	Tools > Options > Drafting Styles > Dimension > Line > Dimension line settings > Weight: -3 = Default -2 = ByBlock -1 = ByLayer 0 = 0.00 mm 5 = 0.05 mm 9 = 0.09 mm 13 = 0.13 mm 15 = 0.15 mm 18 = 0.18 mm 20 = 0.20 mm 25 = 0.25 mm 30 = 0.30 mm 35 = 0.35 mm 40 = 0.40 mm 50 = 0.50 mm 53 = 0.53 mm 60 = 0.60 mm 70 = 0.70 mm 80 = 0.80 mm 90 = 0.90 mm 100 = 1.00 mm 106 = 1.06 mm 120 = 1.20 mm 140 = 1.40 mm 158 = 1.58 mm 200 = 2.00 mm 211 = 2.11 mm
+dsCommandOptionInt16_SetDmELClr	69	Tools > Options > Drafting Styles > Dimension > Line > Extension line settings > Styles > Color: 0 = ByBlock 1 = Red 2 = Yellow 3 = Green 4 = Cyan 5 = Blue 6 = Magenta 7 = White 8 − 256 = Specify Color
+dsCommandOptionInt16_SetDmELWt	70	Tools > Options > Drafting Styles > Dimension > Line > Extension line settings > Styles > Weight: -3 = Default -2 = ByBlock -1 = ByLayer 0 = 0.00 mm 5 = 0.05 mm 9 = 0.09 mm 13 = 0.13 mm 15 = 0.15 mm 18 = 0.18 mm 20 = 0.20 mm 25 = 0.25 mm 30 = 0.30 mm 35 = 0.35 mm 40 = 0.40 mm 50 = 0.50 mm 53 = 0.53 mm 60 = 0.60 mm 70 = 0.70 mm 80 = 0.80 mm 90 = 0.90 mm 100 = 1.00 mm 106 = 1.06 mm 120 = 1.20 mm 140 = 1.40 mm 158 = 1.58 mm 200 = 2.00 mm 211 = 2.11 mm
+dsCommandOptionInt16_SetDmFitMode	71	Sets how to move dimension text and arrows when there is insufficient space to place both within extension lines: 0 = Move text and arrows outside extension lines 1 = Move arrows, then text 2 = Move text, then arrows 3 = Move either text or arrows, whichever fits best NOTE: A leader is added to the dimension text that was moved when dsCommandOptionInt16_SetDmTxtMvMode is set to 1.
+dsCommandOptionInt16_SetDmRltvMode	72	Associate dimension entities, e.g., lines, arcs, arrowheads, text, etc., and set whether to explode dimensions: 0 = Explode dimensions; no association among dimension entities 1 = Create dimension entities that are not associated 2 = Create dimension entities that are associated
+dsCommandOptionInt16_SetDmTxtClr	73	Tools > Options > Drafting Styles > Dimension > Text > Text settings > Color: 0 = ByBlock 1 = Red 2 = Yellow 3 = Green 4 = Cyan 5 = Blue 6 = Magenta 7 = White 8 − 256 = Specify Color
+dsCommandOptionInt16_SetDmTxtHPos	74	Tools > Options > Drafting Styles > Dimension > Text > Text position > Horizontal: 0 = Centered 1 = At Ext Line 1 2 = At Ext Line 2 3 = Over Ext Line 1 4 = Over Ext Line 2
+dsCommandOptionInt16_SetDmTxtMvMode	75	Set how to move dimension text: 0 = Move dimension line with dimension text 1 = Add a leader when dimension text is moved 2 = Allow text to be moved without a leader
+dsCommandOptionInt16_SetDmTxtVPosFit	76	Tools > Options > Drafting Styles > Dimension > Text > Text position > Vertical: 0 = Centered 1 = Above 2 = Outside 3 = JIS
+dsCommandOptionInt16_SetDmZroDsp	77	Set how to suppress zeros in the primary dimension value: 0 = Suppress zero feet and zero inches 1 = Include zero feet and zero inches 2 = Include zero feet and suppress zero inches 3 = Suppress zero feet and include zero inches 4 = Suppress leading zeros in decimal dimensions 8 = Suppress trailing zeros in decimal dimensions 12 = Suppress leading and trailing zeros
+dsCommandOptionInt16_SetEGripActClr		obsolete
+dsCommandOptionInt16_SetEGripDspLmt		obsolete
+dsCommandOptionInt16_SetEGripDspMode		obsolete
+dsCommandOptionInt16_SetEGripInActClr	81	Tools > Options > User Preferences > Drafting Options > Entity Selection > EGrips Colors > Inactive EGrips: 1 = Red 2 = Yellow 3 = Green 4 = Cyan 5 = Blue 6 = Magenta 7 = White 8 − 256 = Specify Color
+dsCommandOptionInt16_SetEntSelMode	82	Tools > Options > User Preferences > Drafting Options > Entity Selection > Selection Settings > Enable EntityGroup selection sets: 0 = Disabled 1 = Enabled
+dsCommandOptionInt16_SetESnpMode		obsolete
+dsCommandOptionInt16_SetFLXPROXYGRAPHICS	84	Set whether images of proxy entities are saved in drawings: 0 = Do not save image with drawing 1 = Save image with drawing
+dsCommandOptionInt16_SetFLXSPLINETYPE	85	Set the type of spline curve created when using PEDIT command: 5 = Quadratic b-spline 6 = Cubic b-spline
+dsCommandOptionInt16_SetGBoxSz		obsolete
+dsCommandOptionInt16_SetHtchPlcmnt	87	Set the order in which to draw hatches and fills: 0 = No order 1 = Hatch or fill is drawn behind all other entities 2 = Hatch or fill is drawn in front of all other entities 3 = Hatch or fill is drawn behind hatch boundary 4 = Hatch or fill is drawing in front of hatch boundary
+dsCommandOptionInt16_SetHtchRltvMode		obsolete
+dsCommandOptionInt16_SetIsoPln	89	Set the active Viewport's isometric plane 0 = Left 1 = Top 2 = Right
+dsCommandOptionInt16_SetLDmDecSym	90	Tools > Options > Drafting Styles > Dimension > Linear Dimension > Decimal separator: Period Comma Space
+dsCommandOptionInt16_SetLDmFrmt	91	Set the fraction format when dsCommandOptionInt16_SetLWtUnt is set to architectural or fractional: 0 = Horizontal stacking 1 = Diagonal stacking 2 = Not stacked
+dsCommandOptionInt16_SetLDmPrc	92	Tools > Options > Drafting Styles > Dimension > Linear Dimension > Precision: 0 = 0 1 = 0.0 2 = 0.00 3 = 0.000 4 = 0.0000 5 = 0.00000 6 = 0.000000 7 = 0.0000000 8 = 0.00000000
+dsCommandOptionInt16_SetLDmUnt	93	Tools > Options > Drafting Styles > Dimension > Linear Dimension > Format: 1 = Scientific 2 = Decimal 3 = Engineering 4 = Architectural 5 = Fractional 6 = Windows Desktop
+dsCommandOptionInt16_SetLogMode		obsolete
+dsCommandOptionInt16_SetLWtUnt		obsolete
+dsCommandOptionInt16_SetMnuEcho		obsolete
+dsCommandOptionInt16_SetNoteJst	97	Set multi-line justification: 0 = Top 1 = Middle 2 = Bottom
+dsCommandOptionInt16_SetOfstGapMode		obsolete
+dsCommandOptionInt16_SetOLEQlty		obsolete
+dsCommandOptionInt16_SetPEdtSmthMode	100	Specifies the surface-fitting type for Smooth option of PEDIT: 5 = Quadratic b-spline surface 6 = Cubic b-spline surface 8 = Bezier surface
+dsCommandOptionInt16_SetPEdtSplSegs	101	Specifies the number of line segments to generate for any spline-fit PolyLine created by the Spline option of PEDIT; valid values: -32768 − 32767, except 0; if a negative value, then segments are created using the absolute value of the setting and a fit-type curve is applied to those segments
+dsCommandOptionInt16_SetPGonSides		obsolete
+dsCommandOptionInt16_SetPntrSz		obsolete
+dsCommandOptionInt16_SetPrnRot		obsolete
+dsCommandOptionInt16_SetProjMode		obsolete
+dsCommandOptionInt16_SetPrxyDspMode		obsolete
+dsCommandOptionInt16_SetRefBindMode	107	Set how to handle xref names when binding or editing attaching reference files: 0 = Traditional binding behavior 1 = Insert-like behavior
+dsCommandOptionInt16_SetSelBoxSz		obsolete
+dsCommandOptionInt16_SetShrtCtMnuMode		obsolete
+dsCommandOptionInt16_SetSrfMU	110	Set the surface density for PEDIT Smooth in M direction and the U isolines density on surface entities; valid values 0-200; meshes must be created with a minimum surface density of 2
+dsCommandOptionInt16_SetSrfTbs1	111	Set the number of tabulated surfaces to generate for RULESURF and TABSURF; also set mesh density in M direction for REVSURF and EDGESURF; valid values 2-32766
+dsCommandOptionInt16_SetSrfTbs2	112	Set mesh density in N direction for REVSURF and EDGESURF; valid values 2-32766
+dsCommandOptionInt16_SetSrgNV	113	Set the surface density for PEDIT Smooth in M direction and the V isolines density on surface entities; valid values 0-200; meshes must be created with a minimum surface density of 2
+dsCommandOptionInt16_SetStkFracTxtHt	114	Set the stacked text's fraction height relative to selected text's current height; valid values 25-125 percent
+dsCommandOptionInt16_SetStkFracTyp	115	Set the vertical alignment of stacked text: 0 = Bottom 1 = Center 2 = Top
+dsCommandOptionInt16_SetTDmDPrc	116	Tools > Options > Drafting Styles > Dimension > Dual Dimension > Dual dimension settings > Precision: 0 = 0 1 = 0.0 2 = 0.00 3 = 0.000 4 = 0.0000 5 = 0.00000 6 = 0.000000 7 = 0.0000000 8 = 0.00000000
+dsCommandOptionInt16_SetTDmPrc	117	Tools > Options > Drafting Styles > Dimension > Tolerance > Tolerance settings > Dual dimension: 0 = 0 1 = 0.0 2 = 0.00 3 = 0.000 4 = 0.0000 5 = 0.00000 6 = 0.000000 7 = 0.0000000 8 = 0.00000000
+dsCommandOptionInt16_SetTxtRes	118	Set the tessellation fineness resolution of text outlines; valid values 0-100
+dsCommandOptionInt16_SetUntMode	119	Tools > Options > Drawing Settings > Unit System > Length > Type: 1 = Scientific 2 = Decimal 3 = Engineering 4 = Architectural 5 = Fractional
+dsCommandOptionInt16_SetUntPrc	120	Set the precision to display for units and coordinates: 0 = 0 1 = 0.0 2 = 0.00 3 = 0.000 4 = 0.0000 5 = 0.00000 6 = 0.000000 7 = 0.0000000 8 = 0.00000000
+dsCommandOptionInt16_SetUntTyp	121	Control whether hatch patterns and LineTypes display in imperial or metric units: 0 = Imperial 1 = Metric
+dsCommandOptionInt16_SetUsrInt1	122	User- or application-defined integer
+dsCommandOptionInt16_SetUsrInt2	123	User- or application-defined integer
+dsCommandOptionInt16_SetUsrInt3	124	User- or application-defined integer
+dsCommandOptionInt16_SetUsrInt4	125	User- or application-defined integer
+dsCommandOptionInt16_SetUsrInt5	126	User- or application-defined integer
+dsCommandOptionInt16_Undefined		obsolete
+@dsCommandOptionInt32_e
+dsCommandOptionInt32_Count		obsolete
+dsCommandOptionInt32_EnblClkDrg		obsolete
+dsCommandOptionInt32_EnblEntSelAuto		obsolete
+dsCommandOptionInt32_SetCmdPrmtLvl		obsolete
+dsCommandOptionInt32_SetCrdInptMode		obsolete
+dsCommandOptionInt32_SetEntSelAdd		obsolete
+dsCommandOptionInt32_SetSvTm		obsolete
+dsCommandOptionInt32_Undefined		obsolete
+@dsCommandOptionInt8_e		Command options with Int8 values.
+dsCommandOptionInt8_Count		Not used
+dsCommandOptionInt8_SetDlDmZroDsp	1	Tools > Options > Drafting Styles > Dimension > Dual Dimension > Zeroes display: 0 = Include leading zeroes, include trailing zeroes, Hide if 0', and Hide if 0" 1 = Include leading zeroes, include trailing zeroes, include if 0', and include if 0" 2 = Include leading zeroes, include trailing zeroes, include if 0', and Hide if 0" 3 = Include leading zeroes, include trailing zeroes, Hide if 0', and include if 0" 4 = Hide leading zeroes, include trailing zeroes, Hide if 0', and Hide if 0" 5 = Hide leading zeroes, include trailing zeroes, include if 0', and include if 0" 6 = Hide leading zeroes, include trailing zeroes, include if 0', and Hide if 0" 7 = Hide leading zeroes, include trailing zeroes, Hide if 0', and include if 0" 8 = Include leading zeroes, Hide trailing zeroes, Hide if 0', and Hide if 0" 9 = Include leading zeroes, Hide trailing zeroes, include if 0', and include if 0" 10 = Include leading zeroes, Hide trailing zeroes, include if 0', and Hide if 0" 11 = Include leading zeroes, Hide trailing zeroes, Hide if 0', and include if 0" 12 = Hide leading zeroes, Hide trailing zeroes, Hide if 0', and Hide if 0" 13 = Hide leading zeroes, Hide trailing zeroes, include if 0', and include if 0" 14 = Hide leading zeroes, Hide trailing zeroes, include if 0', and Hide if 0" 15 = Hide leading zeroes, Hide trailing zeroes, Hide if 0', and include if 0"
+dsCommandOptionInt8_SetDmTolVJst	2	Tools > Options > Drafting Styles > Dimension > Tolerance > Tolerance settings > Vertical text justification: 0 = Bottom 1 = Middle 2 = Top
+dsCommandOptionInt8_SetTDmDZroDsp	3	Tools > Options > Drafting Styles > Dimension > Tolerance > Tolerance settings > Dual dimension > Zeroes display: 0 = Include leading zeroes, include trailing zeroes, Hide if 0', and Hide if 0" 1 = Include leading zeroes, include trailing zeroes, include if 0', and include if 0" 2 = Include leading zeroes, include trailing zeroes, include if 0', and Hide if 0" 3 = Include leading zeroes, include trailing zeroes, Hide if 0', and include if 0" 4 = Hide leading zeroes, include trailing zeroes, Hide if 0', and Hide if 0" 5 = Hide leading zeroes, include trailing zeroes, include if 0', and include if 0" 6 = Hide leading zeroes, include trailing zeroes, include if 0', and Hide if 0" 7 = Hide leading zeroes, include trailing zeroes, Hide if 0', and include if 0" 8 = Include leading zeroes, Hide trailing zeroes, Hide if 0', and Hide if 0" 9 = Include leading zeroes, Hide trailing zeroes, include if 0', and include if 0" 10 = Include leading zeroes, Hide trailing zeroes, include if 0', and Hide if 0" 11 = Include leading zeroes, Hide trailing zeroes, Hide if 0', and include if 0" 12 = Hide leading zeroes, Hide trailing zeroes, Hide if 0', and Hide if 0" 13 = Hide leading zeroes, Hide trailing zeroes, include if 0', and include if 0" 14 = Hide leading zeroes, Hide trailing zeroes, include if 0', and Hide if 0" 15 = Hide leading zeroes, Hide trailing zeroes, Hide if 0', and include if 0"
+dsCommandOptionInt8_SetTDmZroDsp	4	Tools > Options > Drafting Styles > Dimension > Tolerance > Tolerance settings > Zeroes display: 0 = Include leading zeroes, include trailing zeroes, Hide if 0', and Hide if 0" 1 = Include leading zeroes, include trailing zeroes, include if 0', and include if 0" 2 = Include leading zeroes, include trailing zeroes, include if 0', and Hide if 0" 3 = Include leading zeroes, include trailing zeroes, Hide if 0', and include if 0" 4 = Hide leading zeroes, include trailing zeroes, Hide if 0', and Hide if 0" 5 = Hide leading zeroes, include trailing zeroes, include if 0', and include if 0" 6 = Hide leading zeroes, include trailing zeroes, include if 0', and Hide if 0" 7 = Hide leading zeroes, include trailing zeroes, Hide if 0', and include if 0" 8 = Include leading zeroes, Hide trailing zeroes, Hide if 0', and Hide if 0" 9 = Include leading zeroes, Hide trailing zeroes, include if 0', and include if 0" 10 = Include leading zeroes, Hide trailing zeroes, include if 0', and Hide if 0" 11 = Include leading zeroes, Hide trailing zeroes, Hide if 0', and include if 0" 12 = Hide leading zeroes, Hide trailing zeroes, Hide if 0', and Hide if 0" 13 = Hide leading zeroes, Hide trailing zeroes, include if 0', and include if 0" 14 = Hide leading zeroes, Hide trailing zeroes, include if 0', and Hide if 0" 15 = Hide leading zeroes, Hide trailing zeroes, Hide if 0', and include if 0"
+dsCommandOptionInt8_Undefined	0	Undefined
+@dsCommandOptionPoint2d_e		Command options for 2D points.
+dsCommandOptionPoint2d_Count		Not used
+dsCommandOptionPoint2d_GetSzVP	1	Size of Viewport in pixels (x and y coordinates and read only)
+dsCommandOptionPoint2d_GetXYLLBnds	2	x and y coordinates indicating the lower-left grid limits for the current workspace
+dsCommandOptionPoint2d_GetXYURBnds	3	x and y coordinates indicating the upper-right grid limits for the current workspace
+dsCommandOptionPoint2d_SetGridUnt	4	Tools > Options > User Preferences > Drafting Options > Display > Grid Settings > Spacing > Horizontal display spacing and Vertical Display spacing; valid values for both settings 1-100
+dsCommandOptionPoint2d_SetSnpBase	5	x and y coordinates indicating the grid origin in the current Viewport relative to the current custom coordinate system (CCS)
+dsCommandOptionPoint2d_SetSnpSpc	6	Tools > Options > User Preferences > Drafting Options > Pointer Control > Snap Settings > Spacing > Horizontal Snap spacing and Vertical Snap spacing; valid values for both settings 1-100
+dsCommandOptionPoint2d_Undefined	0	Undefined
+@dsCommandOptionPoint3d_e		Command options for 3D points.
+dsCommandOptionPoint3d_Count		Not used
+dsCommandOptionPoint3d_GetLstXY	1	x, y, and z coordinates of last point specified, relative to the current custom coordinate system (CCS), for the current space
+dsCommandOptionPoint3d_GetOrgActCS	2	x, y, and z coordinates of the the world coordinate system (WCS), of the origin of the active CCS of the active Viewport (read only)
+dsCommandOptionPoint3d_GetVwCtr	3	x, y, and z coordinates of the center of the view in the active Viewport (read only)
+dsCommandOptionPoint3d_GetXDirActCS	4	x direction of the current USC of the active Viewport in the current space (read only);
+dsCommandOptionPoint3d_GetXYLLFit	5	x, y, and z coordinates of the lower-left point of the drawing extents (read only)
+dsCommandOptionPoint3d_GetXYURFit	6	x, y, and z coordinates of the upper-right point of the drawing extents (read only)
+dsCommandOptionPoint3d_GetYDirActCS	7	y direction of the current CCS of the active Viewport (read only)
+dsCommandOptionPoint3d_LgcyTARGET	8	x, y, and z CCS coordinates of the target point of the active Viewport (read only and see Remarks)
+dsCommandOptionPoint3d_LgcyVIEWDIR	9	x, y, and z CCS coordinates of the viewing direction of the active Viewport (read only and see Remarks)
+dsCommandOptionPoint3d_LgcyVSMAX	10	x, y, and z CCS coordinates of the upper-right corner of the active Viewport (read only and see Remarks)
+dsCommandOptionPoint3d_LgcyVSMIN	11	x, y, and z USC coordinates of the lower-left corner of the active Viewport (read only and see Remarks)
+dsCommandOptionPoint3d_SetBase	12	Base point (x, y, and z coordinates) when the drawing is to be used as a Block and inserted into another drawing
+dsCommandOptionPoint3d_Undefined	0	Undefined
+@dsCommandOptionString_e		Command options for strings.
+dsCommandOptionString_Count		obsolete
+dsCommandOptionString_GetActCmd	1	Names of commands in use, both active and transparent (read only)
+dsCommandOptionString_GetActComp	2	Name of reference being edited (read only)
+dsCommandOptionString_GetActDict		obsolete
+dsCommandOptionString_GetActDimStyl	4	Name of current dimension style (read only)
+dsCommandOptionString_GetActTab	5	Name of current tab
+dsCommandOptionString_GetActUsr		obsolete
+dsCommandOptionString_GetInfOS		obsolete
+dsCommandOptionString_GetLstPrmpt	8	Last string echoed at the command prompt (read only)
+dsCommandOptionString_GetLstSvNm		obsolete
+dsCommandOptionString_GetNmActCS	10	Name of current coordinate system for the active Viewport in the current space; empty string is returned if custom coordinate system (CCS) is not named (read only)
+dsCommandOptionString_GetNmActPrfl		obsolete
+dsCommandOptionString_GetNmAutoSvFl		obsolete
+dsCommandOptionString_GetNmPrdct		obsolete
+dsCommandOptionString_GetNmPrgm		obsolete
+dsCommandOptionString_GetNmPrnStyl	15	PrintStyle table types (read only): STB, then default is ByLayer CTB, then default is ByColor
+dsCommandOptionString_GetPlatform		obsolete
+dsCommandOptionString_GetPthDS		obsolete
+dsCommandOptionString_GetPthDWG	18	Drive and folder of active drawing (read only)
+dsCommandOptionString_GetUsrStrn1	19	User- or application-defined string
+dsCommandOptionString_GetUsrStrn2	20	User- or application-defined string
+dsCommandOptionString_GetUsrStrn3	21	User- or application-defined string
+dsCommandOptionString_GetUsrStrn4	22	User- or application-defined string
+dsCommandOptionString_GetUsrStrn5	23	User- or application-defined string
+dsCommandOptionString_Lgcy_PKSER		obsolete
+dsCommandOptionString_LgcyCANNOSCALE	25	Current annotation scale; only named scales in the drawing's named scales can be specified (see Remarks)
+dsCommandOptionString_LgcyPROJECTNAME	26	Project name for current drawing (see Remarks)
+dsCommandOptionString_LgcySHPNAME		obsolete
+dsCommandOptionString_SetActBlkNm	28	Default Block name for INSERT
+dsCommandOptionString_SetActLay	29	Tools > Options > Drafting Styles > Active Drafting Styles > Layer
+dsCommandOptionString_SetActLStyl	30	Tools > Options > Drafting Styles > Active Drafting Styles > Line Font > Line Style
+dsCommandOptionString_SetActMnu		obsolete
+dsCommandOptionString_SetActTblStyl	32	Tools > Options > Drafting Styles > Active Drafting Styles > Table
+dsCommandOptionString_SetActTxtStyl	33	Tools > Options > Drafting Styles > Active Drafting Styles > Text > Style
+dsCommandOptionString_SetAltBgFnt		obsolete
+dsCommandOptionString_SetAltFnt		obsolete
+dsCommandOptionString_SetAltShp		obsolete
+dsCommandOptionString_SetAutoSvPth		obsolete
+dsCommandOptionString_SetBrwsrURL		obsolete
+dsCommandOptionString_SetCCSBase	37	Active named CCS
+dsCommandOptionString_SetDictFNm		obsolete
+dsCommandOptionString_SetDmArwBlk	39	Tools > Options > Drafting Styles > Dimension > Arrows > Start arrow and End arrow: _ARCHTICK = Architectural tick _BOXBLANK = Box _BOXFILLED = Box filled _CLOSED = Closed _CLOSEDBLANK = Closed blank _DATUMBLANK = Datum triangle _DATUMFILLED = Datum triangle filled _DOT = Dot _DOTBLANK = Dot blank _DOTSMALL = Dot small empty string = Closed filled _INTEGRAL = Integral _NONE = None _OBLIQUE = Oblique _OPEN = Open _OPEN30 = Open 30 _OPEN90 = Right angle _ORIGIN = Origin indicator _ORIGIN2 = Origin indicator 2 _SMALL = Dot small blank
+dsCommandOptionString_SetDmArwBlk1	40	Tools > Options > Drafting Styles > Dimension > Arrows > Start arrow: _ARCHTICK = Architectural tick _BOXBLANK = Box _BOXFILLED = Box filled _CLOSED = Closed _CLOSEDBLANK = Closed blank _DATUMBLANK = Datum triangle _DATUMFILLED = Datum triangle filled _DOT = Dot _DOTBLANK = Dot blank _DOTSMALL = Dot small empty string = Closed filled _INTEGRAL = Integral _NONE = None _OBLIQUE = Oblique _OPEN = Open _OPEN30 = Open 30 _OPEN90 = Right angle _ORIGIN = Origin indicator _ORIGIN2 = Origin indicator 2 _SMALL = Dot small blank
+dsCommandOptionString_SetDmArwBlk2	41	Tools > Options > Drafting Styles > Dimension > Arrows > End arrow: _ARCHTICK = Architectural tick _BOXBLANK = Box _BOXFILLED = Box filled _CLOSED = Closed _CLOSEDBLANK = Closed blank _DATUMBLANK = Datum triangle _DATUMFILLED = Datum triangle filled _DOT = Dot _DOTBLANK = Dot blank _DOTSMALL = Dot small empty string = Closed filled _INTEGRAL = Integral _NONE = None _OBLIQUE = Oblique _OPEN = Open _OPEN30 = Open 30 _OPEN90 = Right angle _ORIGIN = Origin indicator _ORIGIN2 = Origin indicator 2 _SMALL = Dot small blank
+dsCommandOptionString_SetDmLdrBlk	42	Tools > Options > Drafting Styles > Dimension > Arrows > Leader arrow: _ARCHTICK = Architectural tick _BOXBLANK = Box _BOXFILLED = Box filled _CLOSED = Closed _CLOSEDBLANK = Closed blank _DATUMBLANK = Datum triangle _DATUMFILLED = Datum triangle filled _DOT = Dot _DOTBLANK = Dot blank _DOTSMALL = Dot small empty string = Closed filled _INTEGRAL = Integral _NONE = None _OBLIQUE = Oblique _OPEN = Open _OPEN30 = Open 30 _OPEN90 = Right angle _ORIGIN = Origin indicator _ORIGIN2 = Origin indicator 2 _SMALL = Dot small blank
+dsCommandOptionString_SetDmTxtStyl	43	Tools > Options > Drafting Styles > Dimension > Text > Text settings > Style
+dsCommandOptionString_SetFntMpFNm		obsolete
+dsCommandOptionString_SetHistFNm	45	Log file name (read only)
+dsCommandOptionString_SetHtchPtrn	46	Draw > Hatch/Fill > Pattern > Pattern
+dsCommandOptionString_SetHyprLnkBase	47	Path for all relative hyperlinks in a drawing
+dsCommandOptionString_SetLDmPrfxSfx	48	Tools > Options > Drafting Styles > Dimension > Linear Dimension > Prefix and Suffix
+dsCommandOptionString_SetLogPth		obsolete
+dsCommandOptionString_SetNoteStyl	50	Tools > Options > Drafting Styles > Text > Style
+dsCommandOptionString_SetPGdSpcAng		obsolete
+dsCommandOptionString_SetPrmptTxt		obsolete
+dsCommandOptionString_SetPSProLog		obsolete
+dsCommandOptionString_SetPthTemp		obsolete
+dsCommandOptionString_SetShtCSNm	55	Name of the CCS that defines the orthographic CCS settings in sheet space
+dsCommandOptionString_SetTDmPrfxSfx	56	Tools > Options > Drafting Styles > Dimension > Dual Dimension > Prefix and Suffix
+dsCommandOptionString_Undefined	0	Undefined
+@dsContextMenuType_e		Context-sensitive menu types.
+dsContextMenuType_Command	2
+dsContextMenuType_Default	0
+dsContextMenuType_Object	1
+@dsCreateCommandError_e		Statuses of creating commands.
+dsCreateCommand_CommandNameExisted	1
+dsCreateCommand_Succeeded	0
+@dsCreateObjectResult_e		Statuses of creating objects.
+dsCreateObjectResult_AlreadyExists	2	Object already exists
+dsCreateObjectResult_Error	3	Error creating object
+dsCreateObjectResult_Success	1	Object successfully created
+@dsCustomDataType_e		Types of custom data.
+dsCustomDataType_BinaryData	6
+dsCustomDataType_CustomData	9
+dsCustomDataType_Double	4
+dsCustomDataType_Handle	8
+dsCustomDataType_Integer16	2
+dsCustomDataType_Integer32	3
+dsCustomDataType_Integer64	11
+dsCustomDataType_Integer8	10
+dsCustomDataType_LayerName	7
+dsCustomDataType_Point	5
+dsCustomDataType_String	1
+dsCustomDataType_Unknown	0
+@dsCustomPropertyControlArea_e		Location where to initially dock a custom tab, and locations where to allow a user to dock custom tabs.
+dsCustomPropertyControlArea_Bottom	8	Dock custom tab at the bottom of window
+dsCustomPropertyControlArea_Left	1	Dock custom tab on the left side of window
+dsCustomPropertyControlArea_No	0	Custom tab is initially floating, or user cannot dock the custom tab
+dsCustomPropertyControlArea_Right	2	Dock custom tab on the right side of window
+dsCustomPropertyControlArea_Top	4	Dock custom tab at the top of window
+@dsCustomPropertyControlEvent_id_e		Types of custom property control events.
+dsCustomPropertyControl_SizeChangedNotify_id	1	SizeChangedNotify
+@dsDefaultCustomCoordinateSystem_e		Cubic faces on which to project the coordinate system.
+dsDefaultCustomCoordinateSystem_Back	4
+dsDefaultCustomCoordinateSystem_Bottom	2
+dsDefaultCustomCoordinateSystem_Front	3
+dsDefaultCustomCoordinateSystem_Left	5
+dsDefaultCustomCoordinateSystem_Right	6
+dsDefaultCustomCoordinateSystem_Top	1
+@dsDgnConversionUnitType_e		DGN conversion unit types.
+dsDgnConversionUnitType_MasterUnit	1
+dsDgnConversionUnitType_SubUnit	2
+@dsDimensionArrowType_e		Types of arrows for Dimensions.
+dsDimensionArrowType_ArchitecturalTick	1
+dsDimensionArrowType_Box	2
+dsDimensionArrowType_BoxFilled	3
+dsDimensionArrowType_Closed	4
+dsDimensionArrowType_ClosedBlank	5
+dsDimensionArrowType_ClosedFilled	6
+dsDimensionArrowType_Custom	21
+dsDimensionArrowType_DatumTriangle	7
+dsDimensionArrowType_DatumTriangleFilled	8
+dsDimensionArrowType_Dot	9
+dsDimensionArrowType_DotBlank	10
+dsDimensionArrowType_DotSmall	11
+dsDimensionArrowType_DotSmallBlank	12
+dsDimensionArrowType_Integral	13
+dsDimensionArrowType_None	20
+dsDimensionArrowType_Oblique	14
+dsDimensionArrowType_Open	15
+dsDimensionArrowType_Open30	16
+dsDimensionArrowType_OriginIndicator	17
+dsDimensionArrowType_OriginIndicator2	18
+dsDimensionArrowType_RightAngle	19
+@dsDimensionCenterMarkDisplay_e		Types of center marks for Dimensions.
+dsDimensionCenterMarkDisplay_AsCenterLine	3	Broken line crossing the center
+dsDimensionCenterMarkDisplay_AsMark	2	Point
+dsDimensionCenterMarkDisplay_None	1
+@dsDimensionFitDimensionText_e		Positions for Dimension text.
+dsDimensionFitDimensionText_AboveDimensionLineWithLeader	1
+dsDimensionFitDimensionText_AboveDimensionLineWithoutLeader	2
+dsDimensionFitDimensionText_NextToDimensionLine	0
+@dsDimensionFitGeometry_e		Geometry to move outside of extension lines when there is not enough room inside extension lines.
+dsDimensionFitGeometry_Arrows	2
+dsDimensionFitGeometry_Automatic	1	Either text or arrows (best fit)
+dsDimensionFitGeometry_KeepTextBetweenExtensionLines	5
+dsDimensionFitGeometry_Text	3
+dsDimensionFitGeometry_TextAndArrows	4
+@dsDimensionScale_e		Scales for Dimensions.
+dsDimensionScale_ScaleDimensionsAccordingToSheet	2
+dsDimensionScale_UseScaleFactor	1
+@dsDimensionStyleAngleFormat_e		Types of formats for DimensionStyle angular units.
+dsDimensionStyleAngleFormat_DecimalDegrees	1
+dsDimensionStyleAngleFormat_Deg_Min_Sec	2
+dsDimensionStyleAngleFormat_Grads	3
+dsDimensionStyleAngleFormat_Radians	4
+@dsDimensionTextAlignment_e		Types of alignments for Dimensions.
+dsDimensionTextAlignment_AlignHorizontally	1
+dsDimensionTextAlignment_AlignWithDimensionLines	2
+dsDimensionTextAlignment_UseISOStandard	0
+@dsDimensionTextHorizontalPosition_e		Types of horizontal positions for the text of Dimensions.
+dsDimensionTextHorizontalPosition_AtExtLine1	1
+dsDimensionTextHorizontalPosition_AtExtLine2	2
+dsDimensionTextHorizontalPosition_Centered	0
+dsDimensionTextHorizontalPosition_OverExtLine1	3
+dsDimensionTextHorizontalPosition_OverExtLine2	4
+@dsDimensionTextVerticalPosition_e		Types of vertical positions for the text of Dimensions.
+dsDimensionTextVerticalPosition_Above	1
+dsDimensionTextVerticalPosition_Centered	0
+dsDimensionTextVerticalPosition_JIS	3
+dsDimensionTextVerticalPosition_Outside	2
+@dsDocumentEvent_id_e		Types of document events.
+dsDocument_ActiveSheetChangeNotify_id	15	ActiveSheetChangeNotify
+dsDocument_CommandOptionBoolChangeNotify_id	11	CommandOptionBoolChangeNotify
+dsDocument_CommandOptionDoubleChangeNotify_id	16	CommandOptionDoubleChangeNotify
+dsDocument_CommandOptionInt16ChangeNotify_id	9	CommandOptionInt16ChangeNotify
+dsDocument_CommandOptionInt32ChangeNotify_id	10	CommandOptionInt32ChangeNotify
+dsDocument_CommandOptionInt8ChangeNotify_id	8	CommandOptionInt8ChangeNotify
+dsDocument_CommandOptionPoint2DChangeNotify_id	13	CommandOptionPoint2DChangeNotify
+dsDocument_CommandOptionPoint3DChangeNotify_id	14	CommandOptionPoint3DChangeNotify
+dsDocument_CommandOptionStringChangeNotify_id	12	CommandOptionStringChangeNotify
+dsDocument_DestroyNotify_id	1	DestroyNotify
+dsDocument_DestroyPreNotify_id	17	DestroyPreNotify
+dsDocument_DragNotify_id	20	DragNotify
+dsDocument_DropNotify_id	21	DropNotify
+dsDocument_FileSavePostNotify_id	3	obsolete
+dsDocument_FileSavePostNotify2_id	18	FileSavePostNotify2
+dsDocument_FileSavePreNotify_id	2	FileSavePreNotify
+dsDocument_FileXRefNotification_id	19	FileXRefNotification
+dsDocument_ModifyNotify_id	4	ModifyNotify
+dsDocument_ObjectAppendNotify_id	7	ObjectAppendNotify
+dsDocument_ObjectEraseNotify_id	6	ObjectEraseNotify
+dsDocument_ObjectModifyNotify_id	5	ObjectModfiyNotify
+@dsDocumentOpenOption_e		Modes in which to open documents.
+dsDocumentOpen_Default	0
+dsDocumentOpen_Encoding	2
+dsDocumentOpen_Hidden	3
+dsDocumentOpen_ReadOnly	1
+@dsDocumentSaveAsOption_e		File types to which to save documents.
+dsDocumentSaveAs_Default	23
+dsDocumentSaveAs_R12_ASCII_DXF	14
+dsDocumentSaveAs_R12_BINARY_DXF	21
+dsDocumentSaveAs_R12_DWG	7
+dsDocumentSaveAs_R13_ASCII_DXF	13
+dsDocumentSaveAs_R13_BINARY_DXF	20
+dsDocumentSaveAs_R13_DWG	6
+dsDocumentSaveAs_R14_ASCII_DXF	12
+dsDocumentSaveAs_R14_BINARY_DXF	19
+dsDocumentSaveAs_R14_DWG	5
+dsDocumentSaveAs_R2000_R2002_ASCII_DXF	11
+dsDocumentSaveAs_R2000_R2002_BINARY_DXF	18
+dsDocumentSaveAs_R2000_R2002_DWG	4
+dsDocumentSaveAs_R2004_R2006_ASCII_DXF	10
+dsDocumentSaveAs_R2004_R2006_BINARY_DXF	17
+dsDocumentSaveAs_R2004_R2006_DWG	3
+dsDocumentSaveAs_R2007_R2009_ASCII_DXF	9
+dsDocumentSaveAs_R2007_R2009_BINARY_DXF	16
+dsDocumentSaveAs_R2007_R2009_DWG	2
+dsDocumentSaveAs_R2010_ASCII_DXF	8
+dsDocumentSaveAs_R2010_BINARY_DXF	15
+dsDocumentSaveAs_R2010_Default	0
+dsDocumentSaveAs_R2010_DWG	1
+dsDocumentSaveAs_R2013_ASCII_DXF	25
+dsDocumentSaveAs_R2013_BINARY_DXF	26
+dsDocumentSaveAs_R2013_DWG	24
+dsDocumentSaveAs_R2018_ASCII_DXF	29
+dsDocumentSaveAs_R2018_BINARY_DXF	30
+dsDocumentSaveAs_R2018_DWG	28
+dsDocumentSaveAs_STANDARDS_DWS	27
+dsDocumentSaveAs_TEMPLATE_DWT	22
+@dsDocumentSaveError_e	bitmask	Statuses of saving documents.
+dsDocumentSave_EditComponentIsActive	16
+dsDocumentSave_FileLockError	4
+dsDocumentSave_GenericError	1
+dsDocumentSave_InvalidPathName	8
+dsDocumentSave_ReadOnlyError	2
+dsDocumentSave_Succeeded	0
+@dsDragEvent_e	bitmask	Drag events.
+dsDragEvent_DragEnter	1
+dsDragEvent_DragLeave	4
+dsDragEvent_DragMove	2
+@dsDropAction_e	bitmask	Drop actions.
+dsDropAction_ActionMask	255
+dsDropAction_CopyAction	1
+dsDropAction_IgnoreAction	0
+dsDropAction_LinkAction	4
+dsDropAction_MoveAction	2
+dsDropAction_TargetMoveAction	32770
+@dsDualDimensionFormat_e		Types of formats for dual dimensions.
+dsDualDimensionFormat_Architectural	6
+dsDualDimensionFormat_ArchitecturalStacked	4
+dsDualDimensionFormat_Decimal	2
+dsDualDimensionFormat_Engineering	3
+dsDualDimensionFormat_Fractional	7
+dsDualDimensionFormat_FractionalStacked	5
+dsDualDimensionFormat_Scientific	1
+dsDualDimensionFormat_WindowsDesktop	8
+@dsDualDimensionInsertPlacement_e		Where to insert the alternate units.
+dsDualDimensionInsertPlacement_AfterPrimaryUnits	1
+dsDualDimensionInsertPlacement_BelowPrimaryUnits	2
+@dsDynamicBlockReferencePropertyUnitsType_e		Unit types for displaying dynamic block reference properties.
+dsDynamicBlockReferencePropertyUnitsType_Angular	1
+dsDynamicBlockReferencePropertyUnitsType_Area	3
+dsDynamicBlockReferencePropertyUnitsType_Distance	2
+dsDynamicBlockReferencePropertyUnitsType_UnknownUnits	0
+@dsElementColor_e		Types of DraftSight user-interface elements for which you can get and set colors.
+dsElementColor_CommandWindowBackground	0
+dsElementColor_CommandWindowText	1
+dsElementColor_CursorX	2
+dsElementColor_CursorY	3
+dsElementColor_CursorZ	4
+dsElementColor_ESnapCue	5
+dsElementColor_ModelBackground	7
+dsElementColor_ModelCrosshair	8
+dsElementColor_ModelReferenceGuides	6
+dsElementColor_SheetBackground	10
+dsElementColor_SheetCrosshair	11
+dsElementColor_SheetReferenceGuides	9
+@dsEmbeddedObjectPrintQuality_e		Types of print quality of embedded objects.
+dsEmbeddedObjectPrintQuality_HighGraphics	2
+dsEmbeddedObjectPrintQuality_LowGraphics	1
+dsEmbeddedObjectPrintQuality_Monochrome	0
+@dsEmbeddedObjectType_e		Types of embedded object.
+dsEmbeddedObjectType_Embedded	2
+dsEmbeddedObjectType_Link	1
+dsEmbeddedObjectType_Static	3
+dsEmbeddedObjectType_Unknown	0
+@dsEncoding_e		Encoding types.
+dsEncoding_CP_8859_1	2	ISO 8859-1 (Western Europe)
+dsEncoding_CP_8859_2	3	ISO 8859-2 (Western and Central Europe)
+dsEncoding_CP_8859_3	4	ISO 8859-3 (Western Europe and Southern European (Turkish, Maltese, and Esperanto))
+dsEncoding_CP_8859_4	5	ISO 8859-4 (Western Europe and Baltic countries (Lithuania, Estonia, Latvia, and Lapp))
+dsEncoding_CP_8859_5	6	ISO 8859-5 (Cyrillic alphabet)
+dsEncoding_CP_8859_6	7	ISO 8859-6 (Arabic)
+dsEncoding_CP_8859_7	8	ISO 8859-7 (Greek)
+dsEncoding_CP_8859_8	9	ISO 8859-8 (Hebrew)
+dsEncoding_CP_8859_9	10	ISO 8859-9 (Western Europe with amended Turkish character set)
+dsEncoding_CP_ANSI_1200	43	ANSI 1200 (Unicode (BMP of ISO 10646))
+dsEncoding_CP_ANSI_1250	28	ANSI 1250 (Latin II Central European)
+dsEncoding_CP_ANSI_1251	29	ASNI 1251 (Cyrillic)
+dsEncoding_CP_ANSI_1252	30	ANSI 1252 (Latin I BIFF4-BIFF7)
+dsEncoding_CP_ANSI_1253	32	ANSI 1253 (Greek)
+dsEncoding_CP_ANSI_1254	33	ANSI 1254 (Turkish)
+dsEncoding_CP_ANSI_1255	34	ANSI 1255 (Hebrew)
+dsEncoding_CP_ANSI_1256	35	ANSI 1256 (Arabic)
+dsEncoding_CP_ANSI_1257	36	ASNI 1257 (Baltic)
+dsEncoding_CP_ANSI_1258	44	ANSI 1258 (Vietnamese)
+dsEncoding_CP_ANSI_1361	42	ANSI 1361 (Korean JOHAB)
+dsEncoding_CP_ANSI_874	37	ASNI 874 (Thai)
+dsEncoding_CP_ANSI_932	38	ANSI 932 (Japanese Shift-JIS)
+dsEncoding_CP_ANSI_936	39	ANSI 936 (Chinese simplified)
+dsEncoding_CP_ANSI_949	40	ANSI 949 (Korean Hangul Extended Wansung)
+dsEncoding_CP_ANSI_950	41	ANSI 950 (Chinese traditional)
+dsEncoding_CP_BIG5	24	Big5 (Taiwan, Hong Kong, and Macau for traditional Chinese characters)
+dsEncoding_CP_CNT		Not used
+dsEncoding_CP_DOS437	11	DOS 437 (US)
+dsEncoding_CP_DOS850	12	DOS 850 (Latin I)
+dsEncoding_CP_DOS852	13	DOS 852 (Latin II Central European)
+dsEncoding_CP_DOS855	14	DOS 855 (Cyrillic)
+dsEncoding_CP_DOS857	15	DOS 857 (Turkish)
+dsEncoding_CP_DOS860	16	DOS 860 (Portuguese)
+dsEncoding_CP_DOS861	17	DOS 861 (Icelandic)
+dsEncoding_CP_DOS863	18	DOS 863 (Canadian French)
+dsEncoding_CP_DOS864	19	DOS 864 (Arabic)
+dsEncoding_CP_DOS865	20	DOS 865 (Nordic)
+dsEncoding_CP_DOS866	27	DOS 866 (Cyrillic Russian)
+dsEncoding_CP_DOS869	21	DOS 869 (Greek Modern)
+dsEncoding_CP_DOS932	22	DOS 932 (Japanese Shift - JIS)
+dsEncoding_CP_GB2312	31	GB2312 (National Standard Chinese)
+dsEncoding_CP_JOHAB	26	Korean JOHAB
+dsEncoding_CP_KSC5601	25	Korean Hangul and Hanja
+dsEncoding_CP_MACINTOSH	23	MACINTOSH
+dsEncoding_Default	0
+dsEncoding_dsEncoding_CP_ASCII	1	ASCII
+@dsExecuteDlgResult_e		Status of executing dialogs.
+dsExecuteDlgResult_Accepted	1
+dsExecuteDlgResult_Rejected	0
+@dsExternalReferenceType_e		Types of external references.
+dsExternalReferenceType_Attachment	1
+dsExternalReferenceType_Overlay	2
+@dsGetApplicationOptionResult_e		Status of getting a DraftSight application option.
+dsGetApplicationOptionResult_NoVariable	1	Success
+dsGetApplicationOptionResult_Success	2	No such option
+@dsGetCommandOptionResult_e		Results of getting command options.
+dsGetCommandOptionResult_NoVariable	2	No such command option
+dsGetCommandOptionResult_Success	1	Success
+@dsHatchBoundaryLoopType_e	bitmask	Hatch boundary types.
+dsHatchBoundaryLoopType_Default	0
+dsHatchBoundaryLoopType_Derived	4
+dsHatchBoundaryLoopType_DoesNotSupportScale	1024
+dsHatchBoundaryLoopType_Duplicate	256
+dsHatchBoundaryLoopType_External	1
+dsHatchBoundaryLoopType_ForceAnnoAllVisible	2048
+dsHatchBoundaryLoopType_IsAnnotative	512
+dsHatchBoundaryLoopType_IsAnnotativeBlock	8192
+dsHatchBoundaryLoopType_NotClosed	32
+dsHatchBoundaryLoopType_OrientToPaper	4096
+dsHatchBoundaryLoopType_Outermost	16
+dsHatchBoundaryLoopType_Polyline	2
+dsHatchBoundaryLoopType_SelfIntersecting	64
+dsHatchBoundaryLoopType_Textbox	8
+dsHatchBoundaryLoopType_TextIsland	128
+@dsHatchEdgeType_e		Hatch edge types.
+dsHatchEdgeType_CircleArc	2
+dsHatchEdgeType_EllipseArc	3
+dsHatchEdgeType_Line	1
+dsHatchEdgeType_Spline	4
+@dsHatchFillType_e		Hatch fill types.
+dsHatchFillType_Gradient	3
+dsHatchFillType_Hatch	1
+dsHatchFillType_Solid	2
+@dsHatchGradientStyle_e		Hatch gradient styles.
+dsHatchGradientStyle_Curved	7
+dsHatchGradientStyle_Cylinder	1
+dsHatchGradientStyle_Hemispherical	5
+dsHatchGradientStyle_InvCurved	8
+dsHatchGradientStyle_InvCylinder	2
+dsHatchGradientStyle_InvHemispherical	6
+dsHatchGradientStyle_InvSpherical	4
+dsHatchGradientStyle_Linear	0
+dsHatchGradientStyle_Spherical	3
+@dsHatchPatternInternalRegionDetection_e		Internal region detection types for hatch patterns.
+dsHatchPatternInternalRegionDetection_Ignore	3	Ignore the internal structure and hatch the entire area; hatch lines pass through text, block attributes, and 2D Solids
+dsHatchPatternInternalRegionDetection_Normal	1	Create hatch patterns between alternate areas, starting with the outermost area
+dsHatchPatternInternalRegionDetection_Outer	2	Create hatch patterns only in the outermost areas
+@dsHatchPatternType_e		Hatch pattern types.
+dsHatchPatternType_Custom	2	Specify a pattern determined by angle and spacing specifications
+dsHatchPatternType_Predefined	1	Select a predefined pattern, including ISO and ANSI conforming patterns and patterns commonly used in specific industries
+dsHatchPatternType_UserDefined	0	Select a pattern that you created
+@dsHyperLinkType_e		Hyperlink types.
+dsHyperLinkType_EmailAddress	3	Hyperlink to an email address
+dsHyperLinkType_FileOrWebPage	1	Hyperlink to an existing file or web page
+dsHyperLinkType_None	0	None specified
+dsHyperLinkType_PlaceInThisDrawing	2	Hyperlink to a named location (Model, Sheet1, Sheet2, etc.) in the drawing
+@dsImageBackgroundPosition_e		Image background positions.
+dsImageBackgroundPosition_Center	0
+dsImageBackgroundPosition_Stretch	1
+dsImageBackgroundPosition_Tile	2
+@dsLanguage_e		Names of the languages.
+dsLanguage_Catalan	15
+dsLanguage_ChineseSimp	9
+dsLanguage_ChineseTrad	8
+dsLanguage_Czech	20
+dsLanguage_Dutch	17
+dsLanguage_English	2
+dsLanguage_French	7
+dsLanguage_German	1
+dsLanguage_Greek	12
+dsLanguage_Hungarian	4
+dsLanguage_Italian	10
+dsLanguage_Japanese	6
+dsLanguage_Korean	13
+dsLanguage_Polish	5
+dsLanguage_Portuguese	19
+dsLanguage_Russian	18
+dsLanguage_Spanish	11
+dsLanguage_Thai	16
+dsLanguage_Turkish	3
+dsLanguage_Vietnamese	14
+@dsLayerStateSpaceType_e		Layer state spaces.
+dsLayerStateSpaceType_Model	1
+dsLayerStateSpaceType_Sheet	2
+@dsLeaderAnnotationType_e		Types of annotations for leaders.
+dsLeaderAnnotationType_BlockInstance	2
+dsLeaderAnnotationType_NoAnnotation	3
+dsLeaderAnnotationType_Note	0
+dsLeaderAnnotationType_Tolerance	1
+@dsLeaderType_e		Types of Leaders.
+dsLeaderType_LineWithArrow	3
+dsLeaderType_LineWithNoArrow	1
+dsLeaderType_SplineWithArrow	4
+dsLeaderType_SplineWithNoArrow	2
+@dsLengthType_e		Types of linear units.
+dsLengthType_Architectural	1
+dsLengthType_Decimal	2
+dsLengthType_Engineering	3
+dsLengthType_Fractional	4
+dsLengthType_Scientific	5
+@dsLinearDimensionDecimalSeparator_e		Types of separators for linear Dimensions whose unit's format is set to decimal.
+dsLinearDimensionDecimalSeparator_Comma	1
+dsLinearDimensionDecimalSeparator_Period	2
+dsLinearDimensionDecimalSeparator_Space	3
+@dsLinearDimensionFormat_e		Types of formats for linear Dimensions.
+dsLinearDimensionFormat_Architectural	4
+dsLinearDimensionFormat_Decimal	2
+dsLinearDimensionFormat_Engineering	3
+dsLinearDimensionFormat_Fractional	5
+dsLinearDimensionFormat_Scientific	1
+dsLinearDimensionFormat_WindowsDesktop	6
+@dsLinearDimensionFractionalDisplay_e		Types of fractional displays for linear Dimensions.
+dsLinearDimensionFractionalDisplay_Diagonal	1
+dsLinearDimensionFractionalDisplay_Horizontal	0
+dsLinearDimensionFractionalDisplay_NotStacked	2
+@dsLineWeight_e		Types of LineWeights.
+dsLnWt_000	0
+dsLnWt_005	5
+dsLnWt_009	9
+dsLnWt_013	13
+dsLnWt_015	15
+dsLnWt_018	18
+dsLnWt_020	20
+dsLnWt_025	25
+dsLnWt_030	30
+dsLnWt_035	35
+dsLnWt_040	40
+dsLnWt_050	50
+dsLnWt_053	53
+dsLnWt_060	60
+dsLnWt_070	70
+dsLnWt_080	80
+dsLnWt_090	90
+dsLnWt_100	100
+dsLnWt_106	106
+dsLnWt_120	120
+dsLnWt_140	140
+dsLnWt_158	158
+dsLnWt_200	200
+dsLnWt_211	211
+dsLnWt_ByBlock	-2
+dsLnWt_ByLayer	-1
+dsLnWt_ByLwDefault	-3
+@dsLispFunctionEvent_id_e		Types of DraftSight LISP function types.
+dsLispFunction_ExecuteFunctionNotify_id	1	ExecuteFunctionNotify
+@dsLispParameterType_e		Types of DraftSight LISP parameters.
+dsLispParameterType_Double	2
+dsLispParameterType_Handle	8
+dsLispParameterType_Integer	1
+dsLispParameterType_List	9
+dsLispParameterType_Nil	4
+dsLispParameterType_None	0
+dsLispParameterType_Point	3
+dsLispParameterType_String	7
+dsLispParameterType_True	6
+dsLispParameterType_Void	5
+@dsLoftedSurfaceNormalOption_e		Surfacing options for lofted surfaces.
+dsLoftedSurfaceNormalOption_AllNormal	5
+dsLoftedSurfaceNormalOption_DraftAngles	3
+dsLoftedSurfaceNormalOption_EndsNormal	7
+dsLoftedSurfaceNormalOption_FirstNormal	4
+dsLoftedSurfaceNormalOption_LastNormal	6
+dsLoftedSurfaceNormalOption_Ruled	1
+dsLoftedSurfaceNormalOption_SmoothFit	2
+dsLoftedSurfaceNormalOption_UnknownNormal	0
+@dsLoftSurfaceNormalOption_e		Surfacing options for Lofts.
+dsLoftSurfaceNormalOption_DraftAngles	3
+dsLoftSurfaceNormalOption_NormalTo	2
+dsLoftSurfaceNormalOption_Ruled	0
+dsLoftSurfaceNormalOption_SmoothFit	1
+@dsMacroLanguage_e		Types of DraftSight macro languages.
+dsMacroLanguage_Cpp	0	C++
+dsMacroLanguage_CPPCOM	5	C++ COM
+dsMacroLanguage_CSharp	1	C#
+dsMacroLanguage_JavaScript	2	JavaScript
+dsMacroLanguage_VB	3	Visual Basic (also called VB.NET)
+dsMacroLanguage_VBA	4	Visual Basic for Applications
+@dsMacroLevelOfDetail_e		Levels of details for DraftSight macros.
+dsMacroLevelOfDetail_High	1	Verbose code, including intermediate steps, required to emulate interactive actions and execute
+dsMacroLevelOfDetail_Low	0	Minimal code required to emulate interactive actions and execute
+@dsMathLineType_e		Types of mathematical lines.
+dsMathLineType_Bounded	1
+dsMathLineType_Infinite	3
+dsMathLineType_Ray	2
+@dsMenuItemType_e		Types of menu items.
+dsMenuItemType_Menu	1
+dsMenuItemType_Separator	3
+dsMenuItemType_UserCommand	2
+@dsMLeaderAttachmentType_e		IMLeader attachment types.
+dsMLeaderAttachmentType_Horizontal	0
+dsMLeaderAttachmentType_Vertical	1
+@dsMLeaderContentType_e		IMLeader content types.
+dsMLeaderContentType_Block	1
+dsMLeaderContentType_None	0
+dsMLeaderContentType_Note	2
+dsMLeaderContentType_Tolerance	3
+@dsMLeaderNoteAttachmentType_e		IMLeader Note attachment options.
+dsMLeaderNoteAttachmentType_AllLine	8	For left/right horizontal leader attachments of Notes, underline all content and attach to bottom of the top line of a multi-line Note
+dsMLeaderNoteAttachmentType_BottomLine	5	For left/right horizontal leader attachments of Notes, attach to and underline bottom line of multi-line Note
+dsMLeaderNoteAttachmentType_BottomOfBottom	4	For left/right horizontal leader attachments of Notes; attachment at bottom of bottom line of multi-line Note
+dsMLeaderNoteAttachmentType_BottomOfTop	7	For left/right horizontal leader attachments of Notes; attachment at bottom of top line of multi-line Note
+dsMLeaderNoteAttachmentType_BottomOfTopLine	6	For left/right horizontal leader attachments of Notes; attachment at bottom of top line of multi-line Note
+dsMLeaderNoteAttachmentType_Center	9	For vertical leader attachments of Notes, center attachment at the top or bottom of Note
+dsMLeaderNoteAttachmentType_LinedCenter	10	For vertical leader attachments of Notes; underline bottom of Note and center leader attachment beneath Note; overline top of Note and center leader attachment above Note
+dsMLeaderNoteAttachmentType_Middle	2	For left/right horizontal leader attachments of Notes; attachment at middle of Note text
+dsMLeaderNoteAttachmentType_MiddleOfBottom	3	For left/right horizontal leader attachments of Notes; attachment at middle of bottom line of multi-line Note
+dsMLeaderNoteAttachmentType_MiddleOfTop	1	For left/right horizontal leader attachments of Notes; attachment at middle of top line of multi-line Note
+dsMLeaderNoteAttachmentType_TopOfTop	0	For left/right horizontal leader attachments of Notes; attachment at top of top line of multi-line Note
+@dsMLeaderNoteJustify_e		IMLeader Note alignment options.
+dsMLeaderNoteJustify_CenterAlignment	1
+dsMLeaderNoteJustify_LeftAlignment	0
+dsMLeaderNoteJustify_RightAlignment	2
+@dsMLeaderTolAttachmentType_e		IMLeader tolerance attachment options.
+dsMLeaderTolAttachmentType_Bottom	2
+dsMLeaderTolAttachmentType_Middle	1
+dsMLeaderTolAttachmentType_Top	0
+@dsMLeaderType_e		IMLeader line types.
+dsMLeaderType_None	0
+dsMLeaderType_Spline	2
+dsMLeaderType_Straight	1
+@dsMouseEventType_e		Types of mouse events.
+dsMouseEventType_Unknown	0
+dsPromptResultType_DoubleMouseClick	2
+dsPromptResultType_MiddleMouseClick	3
+dsPromptResultType_SingleMouseClick	1
+@dsNamedColor_e		Named LineColors for new drawing entities.
+dsNamedColor_Blue	7	Blue
+dsNamedColor_ByBlock	1	New entities use the color assigned to the Layer where you create them
+dsNamedColor_ByLayer	2	New entities appear in black or white, depending on the screen background color; when included in a Block definition, such entities use the Block color
+dsNamedColor_Cyan	6	Cyan
+dsNamedColor_Green	5	Green
+dsNamedColor_Magenta	8	Magenta
+dsNamedColor_Red	3	Red
+dsNamedColor_White	9	White
+dsNamedColor_Yellow	4	Yellow
+@dsNoteDirection_e		Types of Note directions.
+dsNoteDirection_ByStyle	3
+dsNoteDirection_Horizontal	1
+dsNoteDirection_Vertical	2
+@dsNoteJustification_e		Types of Note justifications.
+dsNoteJustification_BottomCenter	8
+dsNoteJustification_BottomLeft	7
+dsNoteJustification_BottomRight	9
+dsNoteJustification_MiddleCenter	5
+dsNoteJustification_MiddleLeft	4
+dsNoteJustification_MiddleRight	6
+dsNoteJustification_TopCenter	2
+dsNoteJustification_TopLeft	1
+dsNoteJustification_TopRight	3
+@dsNoteLineSpacingStyle_e		Types of Note spacing styles.
+dsNoteLineSpacingStyle_AtLeast	1
+dsNoteLineSpacingStyle_Exactly	2
+@dsObjectType_e		Types of DraftSight objects.
+dsAlignedDimensionType	54	IAlignedDimension
+dsAngularDimensionType	52	IAngularDimension
+dsApplicationOptionsType	96	IApplicationOptions
+dsApplicationType	1	IApplication
+dsArcAlignedTextType	140	IArcAlignedText
+dsArcLengthDimensionType	56	IArcLengthDimension
+dsAttributeDefinitionType	8	IAttributeDefinition
+dsAttributeInstanceType	10	IAttributeInstance
+dsBlockDefinitionType	6	IBlockDefinition
+dsBlockInstanceType	7	IBlockInstance
+dsCircleArcType	23	ICircleArc
+dsCircleType	22	ICircle
+dsColorPickerType	115	IColorPicker
+dsColorType	32	IColor
+dsCommandMessageType	20	ICommandMessage
+dsCommandType	15	ICommand
+dsContextMenuItemType	112	IContextMenuItem
+dsCurvedSettingsType	141	ICurvedSettings
+dsCustomCoordinateSystemManagerType	80	ICustomCoordinateSystemManager
+dsCustomCoordinateSystemType	81	ICustomCoordinateSystem
+dsCustomDataType	42	ICustomData
+dsCustomPropertyControlType	63	ICustomPropertyControl
+dsDgnDefinitionType	154	IDgnDefinition
+dsDgnReferenceType	156	IDgnReference
+dsDiameterDimensionType	57	IDiameterDimension
+dsDictionaryType	98	IDictionary
+dsDimensionStyleAngularDimensionOptionsType	43	IDimensionsStyleAngularDimensionOptions
+dsDimensionStyleArrowsOptionsType	44	IDimensionStyleArrowsOptions
+dsDimensionStyleDualDimensionOptionsType	45	IDimensionStyleDualDimensionOptions
+dsDimensionStyleFitOptionsType	48	IDimensionStyleFitOptions
+dsDimensionStyleLinearDimensionOptionsType	46	IDimensionStyleLinearDimensionOptions
+dsDimensionStyleLineOptionsType	49	IDimensionStyleLineOptions
+dsDimensionStyleManagerType	37	IDimensionStyleManager
+dsDimensionStyleRadialDiameterDimensionOptionsType	47	IDimensionStyleRadialDiameterDimensionOptions
+dsDimensionStyleTextOptionsType	50	IDimensionStyleTextOptions
+dsDimensionStyleToleranceOptionsType	51	IDimensionStyleToleranceOptions
+dsDimensionStyleType	36	IDimensionStyle
+dsDimensionStyleUserDataType	106	IDimensionStyleUserData
+dsDocumentExporterType	14	IDocumentExporter
+dsDocumentType	2	IDocument
+dsDrawingPropertiesType	116	IDrawingProperties
+dsDrawingSupportFilesType	109	IDrawingSupportFiles
+dsDropDataType	158	IDropData
+dsDSWindowType	87	IDSWindow
+dsDynamicBlockInstancePropertyType	159	IDynamicBlockInstanceProperty
+dsEllipseArcType	26	IEllipseArc
+dsEmbeddedObjectType	86	IEmbeddedObject
+dsEntityHelperType	94	IEntityHelper
+dsExportSettingsType	136	IExportSettings
+dsExternalReferenceType	9	IExternalReference
+dsExtrudedSurfaceType	145	IExtrudedSurface
+dsExtrusionType	143	IExtrusion
+dsFaceType	67	IFace
+dsFileDialogManagerType	161	IFileDialogManager
+dsGeneralDimensionType	53	IGeneralDimension
+dsGradientBackgroundType	118	IGradientBackground
+dsGroupType	95	IGroup
+dsHatchBoundaryLoopType	73	IHatchBoundaryLoop
+dsHatchPatternType	72	IHatchPattern
+dsHatchType	71	IHatch
+dsHighlightSetType	113	IHighlightSet
+dsHyperLinkType	64	IHyperLink
+dsImageBackgroundType	119	IImageBackground
+dsImageDefinitionType	152	IImageDefinition
+dsInfiniteLineType	29	IInfiniteLine
+dsInterfaceFilesType	110	IInterfaceFiles
+dsJoggedDimensionType	59	IJoggedDimension
+dsLayerManagerType	33	ILayerManager
+dsLayerPropertiesType	139	ILayerProperties
+dsLayerStateManagerType	137	ILayerStateManager
+dsLayerStateType	138	ILayerState
+dsLayerType	31	ILayer
+dsLeaderType	61	ILeader
+dsLineStyleManagerType	102	ILineStyleManager
+dsLineStyleType	101	ILineStyle
+dsLineType	21	ILine
+dsLispFunctionType	104	ILispFunction
+dsLispParameterType	105	ILispParameter
+dsLoftedSurfaceType	148	ILoftedSurface
+dsLoftType	147	ILoft
+dsMacroManagerType	114	IMacroManager
+dsMathCircArcType	107	IMathCircArc
+dsMathEllipArcType	108	IMatchEllipArc
+dsMathLineType	77	IMathLine
+dsMathPlaneType	79	IMathPlane
+dsMathPointType	76	IMathPoint
+dsMathTransformType	75	IMathTransform
+dsMathUtilityType	74	IMathUtility
+dsMathVectorType	78	IMathVector
+dsMenuItemType	17	IMenuItem
+dsMLeaderType	162	IMLeader
+dsModelNamedViewType	84	IModelNamedView
+dsModelType	3	IModel
+dsNamedViewType	83	INamedView
+dsNoteType	30	INote
+dsObjectTypeCount		Not used
+dsObjectUndefinedType	0	Undefined
+dsOrdinateDimensionType	60	IOrdinateDimension
+dsPdfDefinitionType	153	IPdfDefinition
+dsPdfReferenceType	155	IPdfReference
+dsPointType	25	IPoint
+dsPolyFaceMeshType	70	IPolyFaceMesh
+dsPolygonMeshType	69	IPolygonMesh
+dsPolyLine3DType	65	IPolyLine3D
+dsPolyLineType	27	IPolyLine
+dsPrintManagerType	11	IPrintManager
+dsPrintSpecificationType	135	IPrintSpecification
+dsProfileManagerType	160	IProfileManager
+dsRadialDimensionType	58	IRadialDimension
+dsRayType	28	IRay
+dsReferenceImageType	13	IReferenceImage
+dsReferenceManagerType	157	IReferenceManager
+dsRegionType	88	IRegion
+dsRevolvedSurfaceType	151	IRevolvedSurface
+dsRevolveType	150	IRevolve
+dsRibbonCommandButtonType	132	IRibbonCommandButton
+dsRibbonPanelType	128	IRibbonPanel
+dsRibbonQuickAccessBarItemType	123	IRibbonQuickAccessBarItem
+dsRibbonQuickAccessBarType	122	IRibbonQuickAccessBar
+dsRibbonRowItemType	131	IRibbonRowItem
+dsRibbonRowPanelType	130	IRibbonRowPanel
+dsRibbonRowType	129	IRibbonRow
+dsRibbonSeparatorType	134	IRibbonSeparator
+dsRibbonSplitButtonType	133	IRibbonSplitButton
+dsRibbonSystemMenuItemType	126	IRibbonSystemMenuItem
+dsRibbonSystemMenuType	125	IRibbonSystemMenu
+dsRibbonTabType	127	IRibbonTab
+dsRichLineStyleManagerType	41	IRichLineStyleManager
+dsRichLineStyleType	40	IRichLineStyle
+dsRichLineType	39	IRichLine
+dsRotatedDimensionType	55	IRotatedDimension
+dsSelectionFilterType	38	ISelectionFilter
+dsSelectionManagerType	5	ISelectionManager
+dsShapeManagerType	103	IShapeManager
+dsShapeType	100	IShape
+dsSheetNamedViewType	85	ISheetNamedView
+dsSheetType	4	ISheet
+dsSimpleNoteType	24	ISimpleNote
+dsSketchManagerType	12	ISketchManager
+dsSolid3DType	144	ISolid3D
+dsSolidBackgroundType	117	ISolidBackground
+dsSolidType	68	ISolid
+dsSplineType	66	ISpline
+dsSweepType	146	ISweep
+dsSweptSurfaceType	149	ISweptSurface
+dsSystemFilesType	90	ISystemFiles
+dsTableStyleManagerType	92	ITableStyleManager
+dsTableStyleType	91	ITableStyle
+dsTableType	89	ITable
+dsTextStyleManagerType	34	ITextStyleManager
+dsTextStyleType	35	ITextStyle
+dsToleranceType	62	ITolerance
+dsToolbarItemType	19	IToolbarItem
+dsToolbarType	18	IToolbar
+dsTraceType	111	ITrace
+dsTrackerType	97	ITracker
+dsTransparencyType	120	ITransparency
+dsUnknownEntityType	142	IUnknownEntity
+dsUserCommandType	16	IUserCommand
+dsViewManagerType	82	IViewManager
+dsViewportType	93	IViewport
+dsViewTileType	121	IViewTile
+dsWorkspaceType	124	IWorkspace
+dsXRecordType	99	IXRecord
+@dsOffsetType_e		Sketch offset gap types.
+dsOffsetType_Arc	1	Fillets gaps; the fillet radius is equal to the offset distance
+dsOffsetType_Corner	2	Chamfers gaps; the perpendicular distance from each chamfer to its corresponding vertex on the source linear polyline segment is equal to the offset distance
+dsOffsetType_Natural	0	Extends linear polyline segments to their projected intersections
+@dsOrdinateDimensionMeasure_e		Types of measurements for ordinate Dimensions.
+dsOrdinateDimensionMeasure_UseXAxis	1	Measures the x ordinate regardless of where you set the Leader's end point; this setting determines the orientation of the Leader line and Dimension text
+dsOrdinateDimensionMeasure_UseYAxis	2	Measures the y ordinate regardless of where you set the Leader's end point; this setting option determines the orientation of the Leader line and Dimension text
+@dsPlotPaperUnits_e		Units of plot paper size.
+dsPlotPaperUnits_Inches	0
+dsPlotPaperUnits_Millimeters	1
+@dsPolyFaceMeshEditResult_e		Statuses of editing a polygon face mesh.
+dsPolyFaceMeshEditResult_InvalidMeshVertexIndex	2	Invalid mesh vertex index
+dsPolyFaceMeshEditResult_OK	0	Success
+dsPolyFaceMeshEditResult_VertexAfterFace	1
+@dsPolygonMeshFitSmooth_e		Options for the fit or smoothing of a PolygonMesh.
+dsPolygonMeshFitSmooth_Bezier	3	Bezier
+dsPolygonMeshFitSmooth_Cubic	2	Cubic
+dsPolygonMeshFitSmooth_None	0	None
+dsPolygonMeshFitSmooth_Qudratic	1	Quadratic
+@dsPolyLine2DType_e		Types of 2D PolyLines.
+dsPolyLine2DType_Fit	2
+dsPolyLine2DType_Simple	1
+dsPolyLine2DType_Spline	3
+@dsPolyLine3DFitSmooth_e		Options for the 3D fit or smoothing of a PolygonLine.
+dsPolyLine3DFitSmooth_Cubic	2	Cubic
+dsPolyLine3DFitSmooth_None	0	None
+dsPolyLine3DFitSmooth_Qudratic	1	Quadratic
+@dsPolyLineSegmentType_e		Types of PolyLine segments.
+dsPolyLineSegmentType_Arc	1
+dsPolyLineSegmentType_Coincident	2
+dsPolyLineSegmentType_Empty	4
+dsPolyLineSegmentType_Linear	0
+dsPolyLineSegmentType_Point	3
+@dsPolySolidJustification_e		Types of justification for poly solids.
+dsPolySolidJustification_Center	1
+dsPolySolidJustification_Left	0
+dsPolySolidJustification_Right	2
+@dsPredefinedView_e		Types of predefined view.
+dsPredefinedView_Back	6
+dsPredefinedView_Bottom	2
+dsPredefinedView_Front	5
+dsPredefinedView_Left	3
+dsPredefinedView_NEIsometric	9
+dsPredefinedView_NWIsometric	10
+dsPredefinedView_Right	4
+dsPredefinedView_SeIsometric	8
+dsPredefinedView_SWIsometric	7
+dsPredefinedView_Top	1
+@dsPreviewRange_e		Types of preview bitmap ranges.
+dsPreviewRange_AllGeometry	0
+dsPreviewRange_CurrentView	1
+dsPreviewRange_NamedView	2
+dsPreviewRange_SpecifyWindow	3
+@dsPrintOrientation_e		Types of print orientations.
+dsPrintOrientation_Landscape	2
+dsPrintOrientation_Portrait	1
+@dsPrintRange_e		Areas in which to print.
+dsPrintRange_AllGeometry	1
+dsPrintRange_CurrentView	3
+dsPrintRange_DrawingBoundary	2
+dsPrintRange_NamedView	4
+dsPrintRange_SpecifyWindow	5
+@dsPromptInit_e	bitmask	Types of input initializers.
+dsPromptInit_2D	64	Z coordinate ignored
+dsPromptInit_Button	256	Keywords are displayed on the Options toolbar
+dsPromptInit_Dash	32	Not used
+dsPromptInit_GetZ	16	Return Z coordinate
+dsPromptInit_NoButton	512	Keywords are not displayed on the Options toolbar
+dsPromptInit_NoDefault	1024	Default value not used
+dsPromptInit_NoLim	8	Not used
+dsPromptInit_NoNeg	4	Negative input value not accepted
+dsPromptInit_NoNull	1	Null input not accepted
+dsPromptInit_NoZero	2	0 not accepted
+dsPromptInit_Other	128	Any keyboard input accepted
+dsPromptInit_UsePromptExplanation	2048	Use text set by ICommandMessage::PromptExplanation for prompt
+@dsPromptKeyboardModificators2_e	bitmask	Key click modifiers.
+dsPromptKeyboardModificators2_Alt	4
+dsPromptKeyboardModificators2_Control	1
+dsPromptKeyboardModificators2_Shift	2
+dsPromptKeyboardModificators2_Unknown	0
+@dsPromptKeyboardModificators_e	bitmask	Key click modifiers.
+dsPromptKeyboardModificators_Alt	3
+dsPromptKeyboardModificators_Control	1
+dsPromptKeyboardModificators_Shift	2
+dsPromptKeyboardModificators_Unknown	0
+@dsPromptResultType_e		Types of inputs performed for ICommandMessage methods that prompt for input.
+dsPromptResultType_Cancel	3	Input was canceled
+dsPromptResultType_Failed	0	Error occurred
+dsPromptResultType_Keyword	2	Input was a keyword
+dsPromptResultType_None	4	No input was performed
+dsPromptResultType_Value	1	Input was a value
+@dsRebuildType_e		Types of Viewports to rebuild.
+dsRebuildType_ActiveViewport	0
+dsRebuildType_AllViewports	1
+@dsResType_e		Resource types.
+dsResType_2DPoint	3	2D point
+dsResType_3DPoint	4	3D point
+dsResType_Double	2	Double
+dsResType_None	0	None
+dsResType_String	1	String
+@dsRibbonButtonStyle_e		Ribbon button styles.
+dsRibbonButtonStyle_LargeWithoutText	2
+dsRibbonButtonStyle_LargeWithText	1
+dsRibbonButtonStyle_SmallWithoutText	4
+dsRibbonButtonStyle_SmallWithText	3
+dsRibbonButtonStyle_Unknown	0
+@dsRibbonItemType_e		Ribbon item types.
+dsRibbonItemType_Button	10
+dsRibbonItemType_CommandButton	5
+dsRibbonItemType_Control	6
+dsRibbonItemType_DataBoundDropDown	11
+dsRibbonItemType_GalleryControl	7
+dsRibbonItemType_Panel	2
+dsRibbonItemType_QuickAccessBar	12
+dsRibbonItemType_QuickAccessBarItem	14
+dsRibbonItemType_Row	3
+dsRibbonItemType_RowPanel	8
+dsRibbonItemType_Separator	9
+dsRibbonItemType_SplitButton	4
+dsRibbonItemType_SystemMenuItem	13
+dsRibbonItemType_Tab	1
+dsRibbonItemType_Unknown	0
+@dsRibbonSeparatorStyle_e		Ribbon separator styles.
+dsRibbonSeparatorStyle_Line	1
+dsRibbonSeparatorStyle_Spacer	2
+dsRibbonSeparatorStyle_Unknown	0
+@dsRibbonSplitButtonBehaviour_e		Ribbon split button behaviors.
+dsRibbonSplitButtonBehaviour_DropDownFollow	4
+dsRibbonSplitButtonBehaviour_DropDownNoFollow	5
+dsRibbonSplitButtonBehaviour_Follow	2
+dsRibbonSplitButtonBehaviour_FollowStaticText	3
+dsRibbonSplitButtonBehaviour_NoFollow	1
+dsRibbonSplitButtonBehaviour_Unknown	0
+@dsRibbonSplitButtonListStyle_e		Ribbon split button list styles.
+dsRibbonSplitButtonListStyle_Descriptive	3
+dsRibbonSplitButtonListStyle_Icon	1
+dsRibbonSplitButtonListStyle_IconText	2
+dsRibbonSplitButtonListStyle_Unknown	0
+@dsRichLineJustification_e		Justification options for RichLines.
+dsRichLineJustification_Bottom	3	Draws the RichLine segment above the specified points, with the line element with the most negative offset at the specified vertices
+dsRichLineJustification_Top	1	Draws the RichLine segment below the specified points, with the line element with the most positive offset at the specified vertices
+dsRichLineJustification_Zero	2	Defines a centerline through the segment specified points
+@dsRunCommandError_e		Statuses of running commands.
+dsRunCommand_Canceled	2
+dsRunCommand_InvalidCommand	1
+dsRunCommand_Succeeded	0
+@dsScaleUnit_e		Types of scalar units.
+dsScaleUnit_Angstroms	15
+dsScaleUnit_Astronomical	16
+dsScaleUnit_Centimeters	1
+dsScaleUnit_Decimeters	2
+dsScaleUnit_Feet	10
+dsScaleUnit_Gigameters	3
+dsScaleUnit_Hectometers	4
+dsScaleUnit_Inches	11
+dsScaleUnit_Kilometers	5
+dsScaleUnit_LightYears	17
+dsScaleUnit_Meters	6
+dsScaleUnit_Microinches	12
+dsScaleUnit_Microns	7
+dsScaleUnit_Miles	13
+dsScaleUnit_Millimeters	8
+dsScaleUnit_Mils	18
+dsScaleUnit_Nanometers	9
+dsScaleUnit_Parsecs	19
+dsScaleUnit_Unitless	0
+dsScaleUnit_Yards	14
+@dsSelectionManagerEvent_id_e		Types of selection events.
+dsSelectionManager_SelectionChangedNotify_id	1	SelectionChangedNotify
+dsSelectionManager_SelectionPreNotify_id	2	SelectionPreNotify
+@dsSelectionRemove_e	bitmask	Options to allow and disallow selections.
+dsSelectionRemove_Cloud	128	Disallow selection of Clouds
+dsSelectionRemove_None	0	Allow selection of the entity without any restrictions
+dsSelectionRemove_NotInCurrentSpace	8	Disallow selection of the entity if not in current space
+dsSelectionRemove_NotInWorkingSet	64	Disallow selection of the entity if not in working set
+dsSelectionRemove_NotRectViewports	16	Disallow selection of None Rectangular Viewports
+dsSelectionRemove_OnFrozenLayers	4	Disallow selection of the entity if on a frozen Layer
+dsSelectionRemove_OnLockedLayers	1	Disallow selection of the entity if on a Layer that is locked
+dsSelectionRemove_OnOffLayers	2	Disallow selection of the entity if on a Layer that is turned off
+dsSelectionRemove_OverallViewports	128	Disallow selection of Overall Viewports
+@dsSelectionSetType_e		Types of selections.
+dsSelectionSetType_Current	1	Currently selected command
+dsSelectionSetType_Previous	2	Previously selected command
+@dsSetApplicationOptionResult_e		Status of setting a DraftSight application option.
+dsSetApplicationOptionResult_InvalidValue	4	Invalid value
+dsSetApplicationOptionResult_NoVariable	2	No such option
+dsSetApplicationOptionResult_ReadOnly	3	Option is read only
+dsSetApplicationOptionResult_Success	1	Success
+@dsSetCommandOptionResult_e		Results of setting command options.
+dsSetCommandOptionResult_InvalidValue	4	Invalid value specified for command option
+dsSetCommandOptionResult_NoVariable	2	No such command option
+dsSetCommandOptionResult_ReadOnly	3	Command option is read only
+dsSetCommandOptionResult_Success	1	Success
+@dsSolidType_e		Types of solids.
+dsSolidType_Box	1
+dsSolidType_Cone	3
+dsSolidType_Cylinder	2
+dsSolidType_Extrude	8
+dsSolidType_Loft_With_Cross_Sections_Only	13
+dsSolidType_Loft_With_Guide_Curves	12
+dsSolidType_Loft_With_Path	11
+dsSolidType_Pyramid	4
+dsSolidType_Revolve	9
+dsSolidType_Sphere	5
+dsSolidType_Sweep	10
+dsSolidType_Torus	6
+dsSolidType_Unknown	0
+dsSolidType_Wedge	7
+@dsStandardPrintQuality_e		Types of qualities for printing.
+dsStandardPrintQuality_Custom	5	Custom
+dsStandardPrintQuality_Draft	0	Draft
+dsStandardPrintQuality_Maximum	4	Maximum
+dsStandardPrintQuality_Normal	2	Normal
+dsStandardPrintQuality_Presentation	3	Presentation
+dsStandardPrintQuality_Preview	1	Preview
+@dsStandardPrintScale_e		Types of standard scales for printing.
+dsStandardPrintScale_1_1	16	1:1
+dsStandardPrintScale_1_10	20	1:10
+dsStandardPrintScale_1_100	26	1:100
+dsStandardPrintScale_1_128in_1ft	1	1/128" = 1'
+dsStandardPrintScale_1_16	21	1:16
+dsStandardPrintScale_1_16in_1ft	4	1/16" = 1'
+dsStandardPrintScale_1_2	17	1:2
+dsStandardPrintScale_1_20	22	1:20
+dsStandardPrintScale_1_2in_1ft	10	1/2" = 1'
+dsStandardPrintScale_1_30	23	1:30
+dsStandardPrintScale_1_32in_1ft	3	1/32" = 1'
+dsStandardPrintScale_1_4	18	1:4
+dsStandardPrintScale_1_40	24	1:40
+dsStandardPrintScale_1_4in_1ft	8	1/4" = 1'
+dsStandardPrintScale_1_50	25	1:50
+dsStandardPrintScale_1_64in_1ft	2	1/64" = 1'
+dsStandardPrintScale_1_8	19	1:8
+dsStandardPrintScale_1_8in_1ft	6	1/8" = 1'
+dsStandardPrintScale_10_1	30	10:1
+dsStandardPrintScale_100_1	31	100:1
+dsStandardPrintScale_1000_1	32	1000:1
+dsStandardPrintScale_1ft_1ft	15	1' = 1'
+dsStandardPrintScale_1in_1ft	12	1" = 1'
+dsStandardPrintScale_2_1	27	2:1
+dsStandardPrintScale_3_16in_1ft	7	3/16" = 1'
+dsStandardPrintScale_3_32in_1ft	5	3/32" = 1'
+dsStandardPrintScale_3_4in_1ft	11	3/4" = 1'
+dsStandardPrintScale_3_8in_1ft	9	3/8" = 1'
+dsStandardPrintScale_3in_1ft	13	3" = 1'
+dsStandardPrintScale_4_1	28	4:1
+dsStandardPrintScale_6in_1ft	14	6" = 1'
+dsStandardPrintScale_8_1	29	8:1
+dsStandardPrintScale_ScaleToFit	0	Fit to paper size
+@dsStandardViewports_e		Types of standard Viewports.
+dsStandardViewports_1	0
+dsStandardViewports_2_Horizontal	1
+dsStandardViewports_2_Vertical	2
+dsStandardViewports_3_Above	3
+dsStandardViewports_3_Below	4
+dsStandardViewports_3_Horizontal	5
+dsStandardViewports_3_Left	6
+dsStandardViewports_3_Right	7
+dsStandardViewports_3_Vertical	8
+dsStandardViewports_4	9
+@dsSurfaceType_e		Types of surfaces.
+dsSurfaceType_Extruded	1
+dsSurfaceType_Loft_With_Guide_Curves	2
+dsSurfaceType_Planar	3
+dsSurfaceType_Revolve	4
+dsSurfaceType_Sweep	5
+dsSurfaceType_Unknown	0
+@dsTableBordersLineType_e	bitmask	Types of Table border lines.
+dsTableBordersLineType_HorizontalBottom	4
+dsTableBordersLineType_HorizontalInside	2
+dsTableBordersLineType_HorizontalTop	1
+dsTableBordersLineType_VerticalInside	16
+dsTableBordersLineType_VerticalLeft	8
+dsTableBordersLineType_VerticalRight	32
+@dsTableCellAlignment_e		Types of Table cell alignments.
+dsTableCellAlignment_BottomCenter	8
+dsTableCellAlignment_BottomLeft	7
+dsTableCellAlignment_BottomRight	9
+dsTableCellAlignment_MiddleCenter	5
+dsTableCellAlignment_MiddleLeft	4
+dsTableCellAlignment_MiddleRight	6
+dsTableCellAlignment_TopCenter	2
+dsTableCellAlignment_TopLeft	1
+dsTableCellAlignment_TopRight	3
+@dsTableCellType_e		Types of Table cells.
+dsTableCellType_Data	3
+dsTableCellType_Header	2
+dsTableCellType_Title	1
+@dsTableDirection_e		Table directions.
+dsTableDirection_BottomToTop	1
+dsTableDirection_TopToBottom	0
+@dsTableHeaderOrientation_e		Types of Table header orientations.
+dsTableHeaderOrientation_Down	1
+dsTableHeaderOrientation_Up	2
+@dsTextJustification_e		Types of text justifications.
+dsTextJustification_Aligned	4
+dsTextJustification_BottomCenter	14
+dsTextJustification_BottomLeft	13
+dsTextJustification_BottomRight	15
+dsTextJustification_Center	2
+dsTextJustification_Fit	6
+dsTextJustification_Left	1
+dsTextJustification_Middle	5
+dsTextJustification_MiddleCenter	11
+dsTextJustification_MiddleLeft	10
+dsTextJustification_MiddleRight	12
+dsTextJustification_Right	3
+dsTextJustification_TopCenter	8
+dsTextJustification_TopLeft	7
+dsTextJustification_TopRight	9
+@dsTextStyleFontType_e		Types of TextStyle fonts.
+dsTextStyleFontType_Shape	2
+dsTextStyleFontType_ShapeWithBigFont	3
+dsTextStyleFontType_TrueType	1
+@dsToleranceCalculation_e		Types of calculations for Tolerance.
+dsToleranceCalculation_Basic	1
+dsToleranceCalculation_Deviation	2
+dsToleranceCalculation_Limits	3
+dsToleranceCalculation_None	4
+dsToleranceCalculation_Symmetrical	5
+@dsToleranceVerticalTextJustification_e		Types of vertical text justifications for tolerances.
+dsToleranceVerticalTextJustification_Bottom	0
+dsToleranceVerticalTextJustification_Middle	1
+dsToleranceVerticalTextJustification_Top	2
+@dsToolbarItemType_e		Types of toolbar items.
+dsToolBarItemType_Separator	2
+dsToolBarItemType_UserCommand	1
+@dsTrackerEvent_id_e		Types of DraftSight tracker events.
+dsTracker_UpdateNotify_id	1	UpdateNotify
+@dsTrueTypeFontsType_e		TrueType fonts.
+dsTrueTypeFontsType_AsGeometry	2	Geometrical
+dsTrueTypeFontsType_Embedded	1	Embedded
+@dsUIState_e		Locations where to add user-interface entities such as menus, menu items, toolbars, etc.
+dsUIState_Document	2
+dsUIState_Frame	1
+@dsUnitPrecision_e		Types of precision units.
+dsUnitPrecision_0	0
+dsUnitPrecision_1	1
+dsUnitPrecision_2	2
+dsUnitPrecision_3	3
+dsUnitPrecision_4	4
+dsUnitPrecision_5	5
+dsUnitPrecision_6	6
+dsUnitPrecision_7	7
+dsUnitPrecision_8	8
+@dsViewBackgroundType_e		View background types.
+dsViewBackgroundType_Gradient	2
+dsViewBackgroundType_Image	3
+dsViewBackgroundType_None	0
+dsViewBackgroundType_Solid	1
+@dsViewDisplayStyle_e		Types of display styles.
+dsViewDisplayStyle_Default	0
+dsViewDisplayStyle_Hidden	1
+dsViewDisplayStyle_Rendered	2
+dsViewDisplayStyle_Wireframe	3
+@dsViewportShadePrintStyle_e		Types of shaded view print options for Viewports.
+dsViewportShadePrintStyle_AsDisplayed	0
+dsViewportShadePrintStyle_Hidden	2
+dsViewportShadePrintStyle_Rendered	3
+dsViewportShadePrintStyle_Wireframe	1
+@dsViewportStandardScale_e		Types of standard scale factors for Viewports.
+dsViewportStandardScale_1_1	2
+dsViewportStandardScale_1_10	6
+dsViewportStandardScale_1_100	12
+dsViewportStandardScale_1_128in_1ft	18
+dsViewportStandardScale_1_16	7
+dsViewportStandardScale_1_16in_1ft	21
+dsViewportStandardScale_1_2	3
+dsViewportStandardScale_1_20	8
+dsViewportStandardScale_1_2in_1ft	27
+dsViewportStandardScale_1_30	9
+dsViewportStandardScale_1_32in_1ft	20
+dsViewportStandardScale_1_4	4
+dsViewportStandardScale_1_40	10
+dsViewportStandardScale_1_4in_1ft	25
+dsViewportStandardScale_1_50	11
+dsViewportStandardScale_1_64in_1ft	19
+dsViewportStandardScale_1_8	5
+dsViewportStandardScale_1_8in_1ft	23
+dsViewportStandardScale_10_1	16
+dsViewportStandardScale_100_1	17
+dsViewportStandardScale_1ft_1ft	32
+dsViewportStandardScale_1in_1ft	29
+dsViewportStandardScale_2_1	13
+dsViewportStandardScale_3_16in_1ft	24
+dsViewportStandardScale_3_32in_1ft	22
+dsViewportStandardScale_3_4in_1ft	28
+dsViewportStandardScale_3_8in_1ft	26
+dsViewportStandardScale_3in_1ft	30
+dsViewportStandardScale_4_1	14
+dsViewportStandardScale_6in_1ft	31
+dsViewportStandardScale_8_1	15
+dsViewportStandardScale_CustomScale	1
+dsViewportStandardScale_ScaleToFit	0
+@dsViewTilesApplyTo_e		Where to apply ViewTiles.
+dsViewTilesApplyTo_ActiveViewTile	0	Apply the ViewTile configuration to the current view
+dsViewTilesApplyTo_Display	1	Apply the ViewTile configuration to the entire drawing
+@dsViewTilesMode_e		Insertion modes for ViewTiles.
+dsViewTilesMode_1	0	One ViewTile
+dsViewTilesMode_2_Horizontal	1	Insert two ViewTiles horizontally
+dsViewTilesMode_2_Vertical	2	Insert two ViewTiles vertically
+dsViewTilesMode_3_Above	3	Insert three ViewTiles; top ViewTile is horizontal; bottom two ViewTiles are side by side
+dsViewTilesMode_3_Below	4	Insert three ViewTiles; bottom ViewTile is horizontal; top two ViewTiles are side by side
+dsViewTilesMode_3_Horizontal	5	Insert three ViewTiles horizontally
+dsViewTilesMode_3_Left	6	Insert three ViewTiles; left-side ViewTile is vertical; two right-side ViewTiles are arranged one above the other
+dsViewTilesMode_3_Right	7	Insert three ViewTiles; right-side ViewTile is vertical; two left-side ViewTiles are arranged one above the other
+dsViewTilesMode_3_Vertical	8	Insert three ViewTiles vertically
+dsViewTilesMode_4_Equal	9	Insert four ViewTiles equally (top left, top right, bottom left, bottom right)
+dsViewTilesMode_4_Left	10	Insert four ViewTiles; left-side ViewTile is vertical; three right-side ViewTiles are arranged one above the other
+dsViewTilesMode_4_Right	11	Insert four ViewTiles; right-side ViewTile is vertical; three left-side ViewTiles are arranged one above the other
+@dsWindowState_e		Types of window states.
+dsWindowState_Max	1
+dsWindowState_Min	0
+dsWindowState_Norm	2
+@dsWriteBlockMode_e		Ways of handling entities in the drawing after they are saved to a Block.
+dsWriteBlockMode_ConvertToBlock	1	Replaces the entities in the drawing with a Reference to the Block
+dsWriteBlockMode_Delete	3	Removes the entities from the drawing
+dsWriteBlockMode_DoNotConvertToBlock	2	Leaves the entities unconverted in the drawing
+@dsXRefStatus_e		Statuses returned by the GetStatus methods of external reference interfaces.
+dsXRefStatus_XrfFileNotFound	4
+dsXRefStatus_XrfNotAnXref	0
+dsXRefStatus_XrfResolved	1
+dsXRefStatus_XrfUnloaded	2
+dsXRefStatus_XrfUnreferenced	3
+dsXRefStatus_XrfUnresolved	5
+@dsZoomRange_e		Types of Zoom ranges.
+dsZoomRange_Bounds	1	Displays the entire drawing, even if only a part of the drawing has entities
+dsZoomRange_Fit	0	Displays the whole drawing centered on the screen
+dsZoomRange_Window	2	Displays a selected part of a drawing in the largest possible scale

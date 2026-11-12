@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo_members.htm
 
 # EdmUnlockErrInfo Structure Members
 
-The following tables list the members exposed by[EdmUnlockErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html).
+The following tables list the members exposed by [EdmUnlockErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[EdmUnlockErrInfo](EPDM.Interop.
 ## See Also
 
 [EdmUnlockErrInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

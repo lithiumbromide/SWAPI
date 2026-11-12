@@ -111,46 +111,20 @@ System.Object^ GetMinMaxFactorOfSafetyWithDetailSettings2(
 
 - `BAllBodies`: True to use all bodies to plot the factor of safety, false to use specific bodies
 - `ArraySelectedEntities`: Array of bodies for which to plot the factor of safety; valid only if BAllBodies is set to false
-- `NComponent`: Failure criterion as defined by
-
-[swsFOS_NonCompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NonCompositeCriterion_e.html)
-
-(see
-
-Remarks
-
-)
+- `NComponent`: Failure criterion as defined by [swsFOS_NonCompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NonCompositeCriterion_e.html) (see **Remarks**)
 - `BUpperLimit`: True to set an upper limit, false to not
 - `DUpperValue`: Upper limit; valid only if BUpperLimit is true
-- `NStressUnit`: Units of stress as defined in
-
-[swsStrengthUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsStrengthUnit_e.html)
-- `NStressLimitOption`: Limit stress types as defined in
-
-[swsFactorOfSafetyStressLimitOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFactorOfSafetyStressLimitOption_e.html)
-
-(see
-
-Remarks
-
-)
+- `NStressUnit`: Units of stress as defined in [swsStrengthUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsStrengthUnit_e.html)
+- `NStressLimitOption`: Limit stress types as defined in [swsFactorOfSafetyStressLimitOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFactorOfSafetyStressLimitOption_e.html) (see **Remarks**)
 - `DStressValue`: Stress value; valid only if NStressLimitOption is swsFactorOfSafetyStressLimitOption_e.swsFactorOfSafetyStressLimitOption_UserDefined
-- `NCompressiveStressLimitOption`: Compressive stress limit as defined in swsFactorOfSafetyStressLimitOption_e (see
-
-Remarks
-
-)
+- `NCompressiveStressLimitOption`: Compressive stress limit as defined in swsFactorOfSafetyStressLimitOption_e (see **Remarks**)
 - `DCompressiveStressValue`: Compressive stress value; valid only if NCompressiveStressLimitOption is swsFactorOfSafetyStressLimitOption_e.swsFactorOfSafetyStressLimitOption_UserDefined
 - `DMultiplicationFactor`: Stress limit multiplication factor
 - `DCompressiveStressMultiplicationFactor`: Compressive stress limit multiplication factor
 - `BCombinedStressOnBeams`: True to combine stress on beams, false to not
-- `NShellOptions`: Shell face on which to perform the factor of safety as defined by
-
-[swsFOS_ShellFaceOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFOS_ShellFaceOption_e.html)
+- `NShellOptions`: Shell face on which to perform the factor of safety as defined by [swsFOS_ShellFaceOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFOS_ShellFaceOption_e.html)
 - `NStepNumber`: Plot step number or 0; 0 gets step 1 for linear static studies and the last available plot step for nonlinear static studies
-- `ErrorCode`: Error code as defined by
-
-[swsFosPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFosPlotErrorCode_e.html)
+- `ErrorCode`: Error code as defined by [swsFosPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFosPlotErrorCode_e.html)
 
 ### Return Value
 
@@ -158,18 +132,12 @@ Array of two doubles of the minimum and maximum factors of safety
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetMinMaxFactorOfSafetyWithDetailSettings2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxFactorOfSafetyWithDetailSettings2.html)
-
-.
+See [CWResults::GetMinMaxFactorOfSafetyWithDetailSettings2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxFactorOfSafetyWithDetailSettings2.html).
 
 ## Examples
 
 [Get Factor of Safety Values (VBA)](Get_Factor_of_Safety_Values_for_Composites_Example_VB.htm)
-
 [Get Factor of Safety Values (VB.NET)](Get_Factor_of_Safety_Values_for_Composites_Example_VBNET.htm)
-
 [Get Factor of Safety Values (C#)](Get_Factor_of_Safety_Values_for_Composites_Example_CSharp.htm)
 
 ## Remarks
@@ -182,7 +150,7 @@ If nonlinearities exist in the study, be advised to not use Factor of Safety to 
 | Brittle materials | swsFOSNonCompositeCriterion_MohrCoulomb - or swsFOSNonCompositeCriterion_Coulomb |
 | Pure beam studies | swsFOSNonCompositeCriterion_Automatic |
 
-How you set stress limits using NStressLimitOption and NCompressiveStressLimitOption depends on the[model material](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~ModelType.html).
+How you set stress limits using NStressLimitOption and NCompressiveStressLimitOption depends on the [model material](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~ModelType.html).
 
 | Specify NStressLimitOption and NCompressiveStressLimitOption with swsFactorOfSafetyStressLimitOption_e... | For swsMaterialModelType_e ... |
 | --- | --- |
@@ -192,11 +160,8 @@ How you set stress limits using NStressLimitOption and NCompressiveStressLimitOp
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxFactorOfSafety2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFactorOfSafety2.html)
-
 [ICWResults::GetFactorOfSafetyForComposites Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetFactorOfSafetyForComposites.html)
 
 ## Availability

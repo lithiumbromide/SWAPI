@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetCenterPoint Method (ISketchEllipse)
 
-Obsolete. Superseded by
-
-[ISketchEllipse::GetCenterPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~GetCenterPoint2.html)
-
-and
-
-[ISketchEllipse::IGetCenterPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~IGetCenterPoint2.html)
-
-.
+Obsolete. Superseded by [ISketchEllipse::GetCenterPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~GetCenterPoint2.html) and [ISketchEllipse::IGetCenterPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~IGetCenterPoint2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetCenterPoint()
 System.double IGetCenterPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchEllipse::IGetCenterPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~IGetCenterPoint.html)
-
-.
+See [SketchEllipse::IGetCenterPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~IGetCenterPoint.html).
 
 ## See Also
 
 [ISketchEllipse Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
 [ISketchEllipse Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse_members.html)

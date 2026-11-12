@@ -54,9 +54,7 @@ System.Object^ GetEntityAt(
 ### Parameters
 
 - `NIndex`: 0-based index of entity
-- `NSelType`: Entity type as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `NSelType`: Entity type as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ### Return Value
 
@@ -64,24 +62,15 @@ Entity
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraints::GetEntityAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~GetEntityAt.html)
-
-.
+See [CWLoadsAndRestraints::GetEntityAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~GetEntityAt.html).
 
 ## Remarks
 
-Call
-
-[ICWLoadsAndRestraints::EntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraints~EntityCount.html)
-
-before calling this method to get a valid value for NIndex.
+Call [ICWLoadsAndRestraints::EntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraints~EntityCount.html) before calling this method to get a valid value for NIndex.
 
 ## See Also
 
 [ICWLoadsAndRestraints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
 [ICWLoadsAndRestraints Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints_members.html)
 
 ## Availability

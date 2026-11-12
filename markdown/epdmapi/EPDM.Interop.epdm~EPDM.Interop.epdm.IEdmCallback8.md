@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback8.html"
 
 Monitors the progress of a supported API operation.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,14 +36,9 @@ public interface class IEdmCallback8 : public IEdmCallback6
 
 ## Remarks
 
-This interface extends
-
-[IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html)
-
-by providing the ability to specify minor progress parameters.
+This interface extends [IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html) by providing the ability to specify minor progress parameters.
 
 ## See Also
 
 [IEdmCallback8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback8_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

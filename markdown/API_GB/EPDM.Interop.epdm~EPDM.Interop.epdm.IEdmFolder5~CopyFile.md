@@ -9,9 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile.html"
 
 # CopyFile Method (IEdmFolder5)
 
-Obsolete. Superseded by
-
-[IEdmFolder8::CopyFile2 .](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8~CopyFile2.html)
+Obsolete. Superseded by [IEdmFolder8::CopyFile2.](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8~CopyFile2.html)
 
 ## Syntax
 
@@ -57,11 +55,7 @@ System.int CopyFile(
 - `lSrcFolderID`: ID of folder from which to copy the file
 - `lParentWnd`: Parent window handle
 - `bsNewName`: Optional new name of the file; "" to use the original file name
-- `lFlags`: Combination of
-
-[EdmCopyFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyFlag.html)
-
-bits
+- `lFlags`: Combination of [EdmCopyFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyFlag.html) bits
 
 ### Return Value
 
@@ -70,12 +64,11 @@ ID of the new file
 ## Examples
 
 [Vault Utilities (C#)](Add_File_Example_CSharp.htm)
-
 [Vault Utilities (VB.NET)](Add_File_Example_VBNET.htm)
 
 ## Remarks
 
-This method uses the ID of a file to identify which file to copy. You can also call[IEdmFolder5::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile.html), specifying the path of the file that you want to copy. IEdmFolder5::AddFile handles both source files that are inside and outside of the vault.
+This method uses the ID of a file to identify which file to copy. You can also call [IEdmFolder5::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFile.html), specifying the path of the file that you want to copy. IEdmFolder5::AddFile handles both source files that are inside and outside of the vault.
 
 [Return codes](ReturnCodes.htm):
 
@@ -84,18 +77,12 @@ This method uses the ID of a file to identify which file to copy. You can also c
 - E_EDM_FILE_NOT_FOUND: The source file was not found. (The ID is invalid.)
 - E_EDM_PERMISSION_DENIED: The user lacks permission to copy the specified file.
 - E_EDM_FILE_SHARE_ERROR: Cannot copy the file because it is exclusively opened in another application.
-- E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the installed
-
-  [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-  .EdmCmd_PreCopy hooks didn't permit the operation.
+- E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the installed [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html).EdmCmd_PreCopy hooks didn't permit the operation.
 
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
-
 [IEdmFolder5::AddFileShared Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~AddFileShared.html)
 
 ## Availability

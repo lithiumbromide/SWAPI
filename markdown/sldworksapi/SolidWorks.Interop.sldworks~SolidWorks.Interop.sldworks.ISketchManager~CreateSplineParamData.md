@@ -40,13 +40,7 @@ SplineParamData CreateSplineParamData()
 SplineParamData^ CreateSplineParamData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateSplineParamData](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateSplineParamData.html)
-
-.
+See [SketchManager::CreateSplineParamData](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateSplineParamData.html).
 
 ## Examples
 
 [Get Spline's Parameters (C#)](Get_Spline's_Parameters_Example_CSharp.htm)
-
 [Get Spline's Parameters (VB.NET)](Get_Spline's_Parameters_Example_VBNET.htm)
-
 [Get Spline's Parameters (VBA)](Get_Spline's_Parameters_Example_VB.htm)
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::CreateSplinesByEqnParams2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateSplinesByEqnParams2.html)
-
 [ISketch::GetSplineParams4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSplineParams4.html)
 
 ## Availability

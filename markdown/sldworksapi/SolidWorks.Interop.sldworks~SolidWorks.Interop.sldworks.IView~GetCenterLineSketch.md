@@ -40,13 +40,7 @@ Sketch GetCenterLineSketch()
 Sketch^ GetCenterLineSketch();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::GetCenterLineSketch](ms-its:sldworksapivb6.chm::/sldworks~View~GetCenterLineSketch.html)
-
-.
+See [View::GetCenterLineSketch](ms-its:sldworksapivb6.chm::/sldworks~View~GetCenterLineSketch.html).
 
 ## Remarks
 
@@ -69,9 +59,7 @@ This method allows you to access properties of individual centerlines. DXF trans
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetFirstCenterLine Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstCenterLine.html)
 
 ## Availability

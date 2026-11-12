@@ -47,24 +47,15 @@ property System.double MarkUpPercent {
 
 ### Property Value
 
-Markup percentage; valid range is -100 to +100; only valid when
-
-[ICostAnalysis::MarkUpType](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis~MarkUpType.html)
-
-is not set to swcMarkUpType_e.swcMarkUpType_None
+Markup percentage; valid range is -100 to +100; only valid when [ICostAnalysis::MarkUpType](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis~MarkUpType.html) is not set to swcMarkUpType_e.swcMarkUpType_None
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis::MarkUpPercent](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~MarkUpPercent.html)
-
-.
+See [CostAnalysis::MarkUpPercent](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~MarkUpPercent.html).
 
 ## See Also
 
 [ICostAnalysis Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis.html)
-
 [ICostAnalysis Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # Value Method (ISwColorContour)
 
-Obsolete. Superseded by
-
-[ISwColorContour1::Value](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~Value.html)
-
-.
+Obsolete. Superseded by [ISwColorContour1::Value](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~Value.html).
 
 ## Syntax
 
@@ -67,10 +63,8 @@ System.int Value(
 
 - `face`: Face on the model
 - `vertexCoords`: Array of vertex coordinates (x, y, z) to which to color
-- `normalCoords`: Array of normal coordinates (x, y, z)ParamDescto which to colorParamDesc
+- `normalCoords`: Array of normal coordinates (x, y, z) to which to color
 - `Value`: Value defined by the add-in to display
-
-ParamDesc
 
 ### Return Value
 
@@ -78,16 +72,11 @@ COLORREF value that represents value
 
 ## VBA Syntax
 
-See
-
-[SwColorContour::Value](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour~Value.html)
-
-.
+See [SwColorContour::Value](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour~Value.html).
 
 ## See Also
 
 [ISwColorContour Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour.html)
-
 [ISwColorContour Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour_members.html)
 
 ## Availability

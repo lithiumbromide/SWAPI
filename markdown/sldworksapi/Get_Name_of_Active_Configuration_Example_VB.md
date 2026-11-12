@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Name_of_Active_Configuration_Example_VB.htm"
 
 # Get Name of Active Configuration Example (VBA)
 
-This example shows how to get the name of the configuration active when the
-the specified SOLIDWORKS document was last closed.
+This example shows how to get the name of the configuration active when the the specified SOLIDWORKS Design document was last closed.
 
 ```
 '-----------------------------------------------------------------

@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetMassProperties Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::GetMassProperties2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetMassProperties2.html)
-
-and
-
-[ISldWorks::IGetMassProperties2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetMassProperties2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::GetMassProperties2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetMassProperties2.html) and [ISldWorks::IGetMassProperties2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetMassProperties2.html).
 
 ## Syntax
 
@@ -59,13 +51,7 @@ System.Object^ GetMassProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetMassProperties](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetMassProperties.html)
-
-.
+See [SldWorks::GetMassProperties](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetMassProperties.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

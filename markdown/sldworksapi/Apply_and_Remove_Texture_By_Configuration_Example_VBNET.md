@@ -9,8 +9,7 @@ source: "sldworksapi/Apply_and_Remove_Texture_By_Configuration_Example_VBNET.htm
 
 # Apply and Remove Texture Example (VB.NET)
 
-This example shows how to apply a texture to a face by display state and
-remove it by configuration.
+This example shows how to apply a texture to a face by display state and remove it by configuration.
 
 ```vb
  '---------------------------------------------------------------------------

@@ -50,57 +50,33 @@ property System.int ImportMethod {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Sheet`: Sheet (layout) name of the input file or an empty string for all sheets (see
-
-Remarks
-
-)
+- `Sheet`: Sheet (layout) name of the input file or an empty string for all sheets (see **Remarks**)
 
 ### Property Value
 
-Import method as defined in
-
-[swImportDxfDwg_ImportMethod_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swImportDxfDwg_ImportMethod_e.html)
+Import method as defined in [swImportDxfDwg_ImportMethod_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swImportDxfDwg_ImportMethod_e.html)
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::ImportMethod](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~ImportMethod.html)
-
-.
+See [ImportDxfDwgData::ImportMethod](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~ImportMethod.html).
 
 ## Examples
 
 [Import DXF File into Part Sketch (VBA)](Import_DXF_File_into_Part_Sketch_Example_VB.htm)
-
 [Insert DXF/DWG File and Add Dimensions (VBA)](Insert_DXF_File_and_Add_Dimension_Example_VB.htm)
-
 [Insert DXF/DWG File and Add Dimensions (VB.NET)](Insert_DXF_File_and_Add_Dimensions_Example_VBNET.htm)
-
 [Insert DXF/DWG File and Add Dimensions (C#)](Insert_DXF_File_and_Add_Dimensions_Example_CSharp.htm)
-
 [Insert and Position DXF/DWG File in Drawing (VBA)](Insert_and_Position_DXF_File_in_Drawing_Example_VB.htm)
-
 [Insert and Position DXF/DWG File in Drawing (VB.NET)](Insert_and_Position_DXF_File_in_Drawing_Example_VBNET.htm)
-
 [Insert and Position DXF/DWG File in Drawing (C#)](Insert_and_Position_DXF_File_in_Drawing_Example_CSharp.htm)
 
 ## Remarks
 
 By default, all sheets are imported into a new drawing.
-
-(Table)=========================================================
 
 | If you want to import... | Then set... |
 | --- | --- |
@@ -110,15 +86,10 @@ By default, all sheets are imported into a new drawing.
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
-
 [IImportDxfDwgData::GetImportLayerToSheetFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~ImportMethod.html)
-
 [IImportDxfDwgData::GetImportLayerVisibility Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~GetImportLayerVisibility.html)
-
 [IImportDxfDwgData::SetImportLayerToSheetFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~SetImportLayerToSheetFormat.html)
-
 [IImportDxfDwgData::SetImportLayerVisibility Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~SetImportLayerVisibility.html)
 
 ## Availability

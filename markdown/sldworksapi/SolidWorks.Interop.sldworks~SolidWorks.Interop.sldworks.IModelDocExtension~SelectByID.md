@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SelectByID Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html).
 
 ## Syntax
 
@@ -79,13 +75,7 @@ System.bool SelectByID(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -100,14 +90,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SelectByID](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SelectByID.html)
-
-.
+See [ModelDocExtension::SelectByID](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SelectByID.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 Gets whether depth of field effects are enabled or disabled.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ property System.bool DepthOfFieldEnabled {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,26 +55,18 @@ True if depth of field effects are enabled, false if they are disabled
 
 ## VBA Syntax
 
-See
-
-[Camera::DepthOfFieldEnabled](ms-its:sldworksapivb6.chm::/sldworks~Camera~DepthOfFieldEnabled.html)
-
-.
+See [Camera::DepthOfFieldEnabled](ms-its:sldworksapivb6.chm::/sldworks~Camera~DepthOfFieldEnabled.html).
 
 ## Examples
 
 [Insert Camera (C#)](Insert_Camera_Example_CSharp.htm)
-
 [Insert Camera (VB.NET)](Insert_Camera_Example_VBNET.htm)
-
 [Insert Camera (VBA)](Insert_Camera_Example_VB.htm)
 
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
-
 [ICamera::DepthOfFieldOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~DepthOfFieldOffset.html)
 
 ## Availability

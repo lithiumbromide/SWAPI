@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreatePluginMenu.
 
 # CreatePluginMenu Method (IEdmVault5)
 
-Obsolete. Superseded by
-
-[IEdmVault12::CreatePluginMenu2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12~CreatePluginMenu2.html)
-
-.
+Obsolete. Superseded by [IEdmVault12::CreatePluginMenu2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12~CreatePluginMenu2.html).
 
 ## Syntax
 
@@ -63,29 +59,15 @@ IEdmMenu5^ CreatePluginMenu(
 
 - `hMenu`: Handle of menu in which to insert add-in commands
 - `lInsertPosition`: Zero-based index of the position in the menu where new menu items should be inserted; -1 to append new menu items to the bottom of the menu
-- `plStartID`: Next available menu command ID (see
-
-Remarks
-
-)
+- `plStartID`: Next available menu command ID (see **Remarks**)
 - `lSelFileCount`: Number of selected files
 - `lSelFolderCount`: Number of selected folders
-- `lCreateMenuFlags`: Combination of
-
-[CreateMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.CreateMenuFlags.html)
-
-bits
+- `lCreateMenuFlags`: Combination of [CreateMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.CreateMenuFlags.html) bits
 - `plItemCount`: Number of menu items added
 
 ### Return Value
 
-[IEdmMenu5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5.html)
-
-(see
-
-Remarks
-
-)
+[IEdmMenu5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5.html) (see **Remarks**)
 
 ## Examples
 
@@ -93,7 +75,7 @@ Remarks
 
 When this method is called, plStartID should be the first free menu command ID that a new command is assigned. When this method returns, plStartID is the first free menu command ID after IDs for new menu commands have been reserved.
 
-When the user chooses one of the menu items added by this method, your program must call[IEdmMenu5::OnMenuItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem.html).
+When the user chooses one of the menu items added by this method, your program must call [IEdmMenu5::OnMenuItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem.html).
 
 [Return codes:](ReturnCodes.htm)
 
@@ -102,7 +84,6 @@ When the user chooses one of the menu items added by this method, your program m
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
 
 ## Availability

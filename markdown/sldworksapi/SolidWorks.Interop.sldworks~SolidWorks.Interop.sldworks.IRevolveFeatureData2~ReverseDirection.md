@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True if the direction of the revolution feature is reversed, false if not
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData2::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~ReverseDirection.html)
-
-.
+See [RevolveFeatureData2::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~ReverseDirection.html).
 
 ## See Also
 
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
-
 [IRevolveFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2_members.html)
-
 [IRevolveFeatureData2::GetRevolutionAngle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~GetRevolutionAngle.html)
-
 [IRevolveFeatureData2::SetRevolutionAngle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~SetRevolutionAngle.html)
 
 ## Availability

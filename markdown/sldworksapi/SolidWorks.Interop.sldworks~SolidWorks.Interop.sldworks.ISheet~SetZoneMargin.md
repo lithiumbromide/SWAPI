@@ -51,19 +51,11 @@ System.bool SetZoneMargin(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ZoneMarginType`: Margin type as defined in
-
-[swZoneMargin_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZoneMargin_e.html)
+- `ZoneMarginType`: Margin type as defined in [swZoneMargin_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZoneMargin_e.html)
 - `MarginValue`: Margin
 
 ### Return Value
@@ -72,16 +64,11 @@ True if zone margin successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[Sheet::SetZoneMargin](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~SetZoneMargin.html)
-
-.
+See [Sheet::SetZoneMargin](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~SetZoneMargin.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
 
 ## Availability

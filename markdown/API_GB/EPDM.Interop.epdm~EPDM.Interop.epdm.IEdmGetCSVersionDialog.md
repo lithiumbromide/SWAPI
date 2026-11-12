@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetCSVersionDialog.html"
 
 Allows you to restore files in cold storage.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,5 +36,4 @@ public interface class IEdmGetCSVersionDialog
 ## See Also
 
 [IEdmGetCSVersionDialog Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetCSVersionDialog_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

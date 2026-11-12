@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 Gets whether this PMI dimension is reference only.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -42,13 +42,7 @@ System.bool IsReferenceOnly()
 System.bool IsReferenceOnly();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -56,11 +50,7 @@ True if this PMI dimension is reference-only, false if not
 
 ## VBA Syntax
 
-See
-
-[PMIDimensionItem::IsReferenceOnly](ms-its:sldworksapivb6.chm::/sldworks~PMIDimensionItem~IsReferenceOnly.html)
-
-.
+See [PMIDimensionItem::IsReferenceOnly](ms-its:sldworksapivb6.chm::/sldworks~PMIDimensionItem~IsReferenceOnly.html).
 
 ## Remarks
 
@@ -69,7 +59,6 @@ If this method returns true, then this dimension item is used for information pu
 ## See Also
 
 [IPMIDimensionItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionItem.html)
-
 [IPMIDimensionItem Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionItem_members.html)
 
 ## Availability

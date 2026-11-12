@@ -51,13 +51,7 @@ System.bool GetGroupDataFromRegistry(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,32 +64,21 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[CommandManager::GetGroupDataFromRegistry](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~GetGroupDataFromRegistry.html)
-
-.
+See [CommandManager::GetGroupDataFromRegistry](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~GetGroupDataFromRegistry.html).
 
 ## Examples
 
 [Create Flyouts in the CommandManager (VB.NET)](Create_Flyouts_in_the_CommandManager_Example_VBNET.htm)
-
 [Create Flyouts in the CommandManager (C#)](Create_Flyouts_in_the_CommandManager_Example_CSharp.htm)
 
 ## Remarks
 
-Call this API before calling
-
-[ICommandManager::CreateCommandGroup2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~CreateCommandGroup2.html)
-
-. The array of command IDs returned by this method helps you decide how to set the IgnorePreviousVersion parameter of ICommandManager::CreateCommandGroup2.
+Call this API before calling [ICommandManager::CreateCommandGroup2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~CreateCommandGroup2.html). The array of command IDs returned by this method helps you decide how to set the IgnorePreviousVersion parameter of ICommandManager::CreateCommandGroup2.
 
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [ICommandManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html)
-
 [ICommandManger::IGetGroupDataFromRegistry](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~IGetGroupDataFromRegistry.html)
 
 ## Availability

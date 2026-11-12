@@ -47,13 +47,7 @@ property DimXpertManager^ DimXpertManager {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,24 +55,15 @@ See
 
 ### Property Value
 
-Pointer to
-
-[IDimXpertManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimXpertManager.html)
-
-object
+Pointer to [IDimXpertManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimXpertManager.html) object
 
 ## VBA Syntax
 
-See
-
-[Configuration::DimXpertManager](ms-its:sldworksapivb6.chm::/sldworks~Configuration~DimXpertManager.html)
-
-.
+See [Configuration::DimXpertManager](ms-its:sldworksapivb6.chm::/sldworks~Configuration~DimXpertManager.html).
 
 ## Examples
 
 [Get DimXpertManager Info (VBA)](Get_DimXpertManager_Info_Example_VB.htm)
-
 [Get DimXpertManager Info (VB.NET)](Get_DimXpertManager_Info_Example_VBNET.htm)
 
 ## Remarks
@@ -88,7 +73,6 @@ This interface retrieves the DimXpert schema information for opened parts which 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

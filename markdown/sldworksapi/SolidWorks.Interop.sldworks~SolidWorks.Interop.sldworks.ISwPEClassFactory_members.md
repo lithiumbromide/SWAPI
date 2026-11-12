@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISw
 
 # ISwPEClassFactory Interface Members
 
-The following tables list the members exposed by[ISwPEClassFactory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEClassFactory.html).
+The following tables list the members exposed by [ISwPEClassFactory](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEClassFactory.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[ISwPEClassFactory](SolidWorks.I
 ## See Also
 
 [ISwPEClassFactory Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwPEClassFactory.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

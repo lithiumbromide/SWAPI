@@ -46,13 +46,7 @@ void MakeStackedBalloon(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,15 +54,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[Note::MakeStackedBalloon](ms-its:sldworksapivb6.chm::/sldworks~Note~MakeStackedBalloon.html)
-
-.
+See [Note::MakeStackedBalloon](ms-its:sldworksapivb6.chm::/sldworks~Note~MakeStackedBalloon.html).
 
 ## Remarks
 
-Before calling this method, use[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select the entity to add to the balloon stack.
+Before calling this method, use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the entity to add to the balloon stack.
 
 After calling this method to convert the balloon to a stacked balloon, add more balloons by calling:
 
@@ -78,11 +68,8 @@ After calling this method to convert the balloon to a stacked balloon, add more 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [IModelDocExtension::InsertStackedBalloon2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertStackedBalloon2.html)
-
 [INote::GetBalloonOptions Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetBalloonOptions.html)
 
 ## Availability

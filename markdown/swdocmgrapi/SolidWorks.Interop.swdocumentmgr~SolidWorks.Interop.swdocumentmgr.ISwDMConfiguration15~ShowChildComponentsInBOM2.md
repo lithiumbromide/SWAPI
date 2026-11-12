@@ -47,17 +47,11 @@ property System.int ShowChildComponentsInBOM2 {
 
 ### Property Value
 
-Show child components in BOM as defined in
-
-[swDmShowChildComponentsInBOMResult](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDmShowChildComponentsInBOMResult.html)
+Show child components in BOM as defined in [swDmShowChildComponentsInBOMResult](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDmShowChildComponentsInBOMResult.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration15::ShowChildComponentsInBOM2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration15~ShowChildComponentsInBOM2.html)
-
-.
+See [SwDMConfiguration15::ShowChildComponentsInBOM2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration15~ShowChildComponentsInBOM2.html).
 
 ## Remarks
 
@@ -66,7 +60,6 @@ This property only supports documents saved in SOLIDWORKS 2009 and later.
 ## See Also
 
 [ISwDMConfiguration15 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration15.html)
-
 [ISwDMConfiguration15 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration15_members.html)
 
 ## Availability

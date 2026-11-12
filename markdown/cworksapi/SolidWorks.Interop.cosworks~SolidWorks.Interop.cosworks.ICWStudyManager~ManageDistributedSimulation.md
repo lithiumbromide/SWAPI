@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # ManageDistributedSimulation Method (ICWStudyManager)
 
-Obsolete. Superseded by
-
-[ICWStudyManager::ManageDistributedSimulation2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ManageDistributedSimulation2.html)
-
-.
+Obsolete. Superseded by [ICWStudyManager::ManageDistributedSimulation2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ManageDistributedSimulation2.html).
 
 ## Syntax
 
@@ -62,17 +58,11 @@ System.int ManageDistributedSimulation(
 
 ### Return Value
 
-Error code as defined in
-
-[swsDistributedSimulationError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDistributedSimulationError_e.html)
+Error code as defined in [swsDistributedSimulationError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDistributedSimulationError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::ManageDistributedSimulation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~ManageDistributedSimulation.html)
-
-.
+See [CWStudyManager::ManageDistributedSimulation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~ManageDistributedSimulation.html).
 
 ## Remarks
 
@@ -80,11 +70,7 @@ This method is valid only for SOLIDWORKS Simulation Professional or Premium.
 
 Network simulation requires the Intel Direct Sparse solver. Before running network simulation:
 
-1. Set the solver type to
-
-  [swsSolverType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsSolverType_e.html)
-
-  .swsSolverTypeINTELCluster using one of:
+1. Set the solver type to [swsSolverType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsSolverType_e.html).swsSolverTypeINTELCluster using one of:
 
   - [ICWBucklingStudyOptions::SolverType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~SolverType.html)
   - [ICWDynamicStudyOptions::SolverType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SolverType.html)
@@ -92,24 +78,15 @@ Network simulation requires the Intel Direct Sparse solver. Before running netwo
   - [ICWNonLinearStudyOptions::SolverType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~SolverType.html)
   - [ICWStaticStudyOptions::SolverType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~SolverType.html)
   - [ICWThermalStudyOptions::SolverType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~SolverType.html)
-2. Call
-
-  [ICWStudyManager::SetDistributedSimulation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~SetDistributedSimulation.html)
-
-  to enable network simulation.
+2. Call [ICWStudyManager::SetDistributedSimulation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~SetDistributedSimulation.html) to enable network simulation.
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudy::GetClusterComputers Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~GetClusterComputers.html)
-
 [ICWStudy::SetClusterComputers Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~SetClusterComputers.html)
-
 [ICWStudy::IsSimulationDistributable Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~IsSimulationDistributable.html)
-
 [ICWStudy::OffLoad Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~OffLoad.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRayPtsR
 
 # swRayPtsResults_e Enumeration
 
-Types of intersections and whether the rays are entering or exiting the body when they hit.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Types of intersections and whether the rays are entering or exiting the body when they hit. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 

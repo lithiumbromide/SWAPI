@@ -9,8 +9,7 @@ source: "sldworksapi/Link_Projected_View_to_Parent_Configuration_Example_CSharp.
 
 # Link Projected View to Parent Configuration Example (C#)
 
-This example shows how to link a projected drawing view to the parent
-configuration.
+This example shows how to link a projected drawing view to the parent configuration.
 
 ```
 //-------------------------------------------------------------------------

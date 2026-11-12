@@ -9,17 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureAdvancedTableDrivenPattern Method (IFeatureManager)
 
-Obsolete.
-
-See
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-and the Remarks in
-
-[IDimPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
-.
+Obsolete. See [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) and the Remarks in [IDimPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html).
 
 ## Syntax
 
@@ -50,13 +40,7 @@ Feature FeatureAdvancedTableDrivenPattern()
 Feature^ FeatureAdvancedTableDrivenPattern();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -64,22 +48,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureAdvancedTableDrivenPattern](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureAdvancedTableDrivenPattern.html)
-
-.
+See [FeatureManager::FeatureAdvancedTableDrivenPattern](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureAdvancedTableDrivenPattern.html).
 
 ## Remarks
 
 This method inserts a variable pattern feature, which uses a table to store the dimensions and values of the pattern instances.
 
-Call this method after calling[IFeatureManager::InsertVaryInstanceOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertVaryInstanceOverride.html)to create an advanced variable pattern feature.
+Call this method after calling [IFeatureManager::InsertVaryInstanceOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertVaryInstanceOverride.html) to create an advanced variable pattern feature.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

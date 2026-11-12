@@ -45,13 +45,7 @@ property System.bool IgnorePolylineWidth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to convert width polylines to solid fill hatches, false to not
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::IgnorePolylineWidth](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~IgnorePolylineWidth.html)
-
-.
+See [ImportDxfDwgData::IgnorePolylineWidth](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~IgnorePolylineWidth.html).
 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
 
 ## Availability

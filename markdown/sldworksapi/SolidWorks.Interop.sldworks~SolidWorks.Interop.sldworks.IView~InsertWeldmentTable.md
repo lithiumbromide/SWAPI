@@ -67,28 +67,16 @@ WeldmentCutListAnnotation^ InsertWeldmentTable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseAnchorPoint`: If true and the appropriate sheet format anchor point exists, then insert table at this point; if false, then use the values specified for the X and Y arguments as the insertion point
 - `X`: X coordinate for the placement of the weldment cut-list table; valid only if UserAnchorPoint = False
 - `Y`: Y coordinate for the placement of the weldment cut-list table; valid only if UseAnchorPoint = False
-- `AnchorType`: Anchor type as defined by
-
-[swBomConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html)
+- `AnchorType`: Anchor type as defined by [swBomConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html)
 - `Configuration`: Name of the "As Welded" configuration for the weldment cut-list table
-- `TableTemplate`: Path and filename of the template that corresponds to this type of table (see
-
-Remarks
-
-)
+- `TableTemplate`: Path and filename of the template that corresponds to this type of table (see Remarks)
 
 ### Return Value
 
@@ -96,52 +84,24 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[View::InsertWeldmentTable](ms-its:sldworksapivb6.chm::/sldworks~View~InsertWeldmentTable.html)
-
-.
+See [View::InsertWeldmentTable](ms-its:sldworksapivb6.chm::/sldworks~View~InsertWeldmentTable.html).
 
 ## Examples
 
 [Insert Weldment Cut List Table (VBA)](Insert_Weldment_Cut_List_Table_Example_VB.htm)
-
 [Insert Weldment Cut List Table (VB.NET)](Insert_Weldment_Cut_List_Table_Example_VBNET.htm)
-
 [Insert Weldment Cut List Table (C#)](Insert_Weldment_Cut_List_Table_Example_CSharp.htm)
 
 ## Remarks
 
-The weldment cut-list table template installed with SOLIDWORKS is <
-
-SOLIDWORKS_
-
-install_dir
-
->\
-
-lang
-
-\<
-
-language
-
->\
-
-cut list.sldwldtbt
-
-.
+The weldment cut-list table template installed with SOLIDWORKS is <`SOLIDWORKS_`install_dir>\lang\<language>\**cut list.sldwldtbt**.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetKeepLinkedToBOM Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetKeepLinkedToBOM.html)
-
 [IView::GetKeepLinkedToBOMName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetKeepLinkedToBOMName.html)
-
 [IView::SetKeepLinkedToBOM Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~SetKeepLinkedToBOM.html)
 
 ## Availability

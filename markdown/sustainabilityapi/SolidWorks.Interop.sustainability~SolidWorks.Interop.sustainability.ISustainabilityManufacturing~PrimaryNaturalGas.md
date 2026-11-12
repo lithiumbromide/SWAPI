@@ -51,24 +51,15 @@ Natural gas usage in BTU/weight units
 
 ## VBA Syntax
 
-See
-
-[SustainabilityManufacturing::PrimaryNaturalGas](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing~PrimaryNaturalGas.html)
-
-.
+See [SustainabilityManufacturing::PrimaryNaturalGas](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing~PrimaryNaturalGas.html).
 
 ## Examples
 
-See examples in
-
-[ISustainabilityManufacturing](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityManufacturing.html)
-
-.
+See examples in [ISustainabilityManufacturing](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityManufacturing.html).
 
 ## See Also
 
 [ISustainabilityManufacturing Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing.html)
-
 [ISustainabilityManufacturing Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing_members.html)
 
 ## Availability

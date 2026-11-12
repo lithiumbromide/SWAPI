@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLo
 
 # AddSelectedBaseExcitation Method (ICWLoadsAndRestraintsManager)
 
-Obsolete. Superseded by[ICWLoadsAndRestraintsManager::AddSelectedBaseExcitation2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~AddSelectedBaseExcitation2.html).
+Obsolete. Superseded by [ICWLoadsAndRestraintsManager::AddSelectedBaseExcitation2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~AddSelectedBaseExcitation2.html).
 
 ## Syntax
 
@@ -85,34 +85,22 @@ CWBaseExcitation^ AddSelectedBaseExcitation(
 
 ### Parameters
 
-- `NType`: Type of excitation as defined in
-
-[swsBaseExcitationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBaseExcitationType_e.html)
+- `NType`: Type of excitation as defined in [swsBaseExcitationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBaseExcitationType_e.html)
 - `SFixtureName`: Model entity to which the restraint is applied
-- `NUnits`: | If NType is ... | Then units are as defined in ... |
-| --- | --- |
-| swsBaseExcitationType_e.swsBaseExcitationType_Displacement | swsLinearUnit_e |
-| swsBaseExcitationType_e.swsBaseExcitationType_Velocity | swsVelocityUnit_e |
-| swsBaseExcitationType_e.swsBaseExcitationType_Acceleration | swsAccelerationUnit_e |
+- `NUnits`:
+
+  | If NType is ... | Then units are as defined in ... |
+  | --- | --- |
+  | swsBaseExcitationType_e.swsBaseExcitationType_Displacement | swsLinearUnit_e |
+  | swsBaseExcitationType_e.swsBaseExcitationType_Velocity | swsVelocityUnit_e |
+  | swsBaseExcitationType_e.swsBaseExcitationType_Acceleration | swsAccelerationUnit_e |
 - `BDir1`: 1 to add excitation along plane direction 1, 0 to not
-- `DVal1`: Excitation along plane direction 1 (see
-
-Remarks
-
-)
+- `DVal1`: Excitation along plane direction 1 (see **Remarks**)
 - `BDir2`: 1 to add excitation along plane direction 2, 0 to not
-- `DVal2`: Excitation along plane direction 2 (see
-
-Remarks
-
-)
+- `DVal2`: Excitation along plane direction 2 (see **Remarks**)
 - `BDir3`: 1 to add excitation along normal to plane, 0 to not
-- `DVal3`: Excitation along normal to the plane (see
-
-Remarks
-
-)
-- `ErrorCode`: Error code as defined in[swsRestraintError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintError_e.html)kadov_tag{{<spaces>}}
+- `DVal3`: Excitation along normal to the plane (see **Remarks**)
+- `ErrorCode`: Error code as defined in [swsRestraintError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintError_e.html)
 
 ### Return Value
 
@@ -120,11 +108,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddSelectedBaseExcitation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddSelectedBaseExcitation.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddSelectedBaseExcitation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddSelectedBaseExcitation.html).
 
 ## Remarks
 
@@ -135,11 +119,8 @@ If this is a random vibration dynamic study, then DVal1, DVal2, and DVal3 are th
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
-
 [ICWLoadsAndRestraintsManager::AddUniformBaseExcitation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~AddUniformBaseExcitation.html)
-
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
 
 ## Availability

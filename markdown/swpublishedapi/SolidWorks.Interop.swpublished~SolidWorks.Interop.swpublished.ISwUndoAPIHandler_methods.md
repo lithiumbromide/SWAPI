@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ISwUndoAPIHandler Interface Methods
 
-For a list of all members of this type, see[ISwUndoAPIHandler members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwUndoAPIHandler_members.html).
+For a list of all members of this type, see [ISwUndoAPIHandler members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwUndoAPIHandler_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[ISwUndoAPIHandler members](SolidWork
 ## See Also
 
 [ISwUndoAPIHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwUndoAPIHandler.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

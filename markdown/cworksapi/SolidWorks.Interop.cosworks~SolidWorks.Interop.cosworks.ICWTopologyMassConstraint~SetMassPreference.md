@@ -49,38 +49,25 @@ System.int SetMassPreference(
 
 ### Parameters
 
-- `NPreference`: Reduce-mass-by preference as defined in
-
-[swsTopologyStudyMassConstraintOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyMassConstraintOption_e.html)
+- `NPreference`: Reduce-mass-by preference as defined in [swsTopologyStudyMassConstraintOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyMassConstraintOption_e.html)
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_MassConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_MassConstraintErrors_e.html)
+Result code as defined in [swsTopologyStudy_MassConstraintErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_MassConstraintErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyMassConstraint::SetMassPreference](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMassConstraint~SetMassPreference.html)
-
-.
+See [CWTopologyMassConstraint::SetMassPreference](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMassConstraint~SetMassPreference.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyMassConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html)
-
-example.
+See the [ICWTopologyMassConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html) example.
 
 ## Remarks
 
 ## See Also
 
 [ICWTopologyMassConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint.html)
-
 [ICWTopologyMassConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMassConstraint_members.html)
 
 ## Availability

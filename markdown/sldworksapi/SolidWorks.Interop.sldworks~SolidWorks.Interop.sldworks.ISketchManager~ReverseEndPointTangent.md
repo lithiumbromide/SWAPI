@@ -47,13 +47,7 @@ System.int ReverseEndPointTangent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,22 +55,15 @@ See
 
 ### Return Value
 
-Result code as defined in
-
-[swReverseEndPointTangentResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swReverseEndPointTangentResult_e.html)
+Result code as defined in [swReverseEndPointTangentResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swReverseEndPointTangentResult_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchManager::ReverseEndPointTangent](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~ReverseEndPointTangent.html)
-
-.
+See [SketchManager::ReverseEndPointTangent](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~ReverseEndPointTangent.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

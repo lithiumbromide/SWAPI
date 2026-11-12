@@ -47,13 +47,7 @@ System.bool SetCalloutLabel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,17 @@ True if the callout label was set, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::SetCalloutLabel](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~SetCalloutLabel.html)
-
-.
+See [PropertyManagerPageSelectionbox::SetCalloutLabel](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~SetCalloutLabel.html).
 
 ## Remarks
 
-This property can be used at any time, whether or not the callout is displayed. The label must not be an empty string.By default, the selection box is created without callouts for selections. This method overrides that behavior.
+This property can be used at any time, whether or not the callout is displayed. The label must not be an empty string. By default, the selection box is created without callouts for selections. This method overrides that behavior.
 
-For more control, you can implement the[IPropertyManagerPage2Handler5::OnSelectionboxCalloutCreated](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnSelectionboxCalloutCreated.html)property, which allows you to collect information such as the selection type from the last selection. Next, use the[IPropertyManagerPageSelectionbox::Callout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSelectionbox~Callout.html)property to get the[ICallout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html)object. Then, use that object's various properties to control the callout text and display characteristics based on that selection information.
+For more control, you can implement the [IPropertyManagerPage2Handler5::OnSelectionboxCalloutCreated](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnSelectionboxCalloutCreated.html) property, which allows you to collect information such as the selection type from the last selection. Next, use the [IPropertyManagerPageSelectionbox::Callout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSelectionbox~Callout.html) property to get the [ICallout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html) object. Then, use that object's various properties to control the callout text and display characteristics based on that selection information.
 
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
 
 ## Availability

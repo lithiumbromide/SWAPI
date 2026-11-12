@@ -40,13 +40,7 @@ System.int GetResolution()
 System.int GetResolution();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Current printer resolution
 
 ## VBA Syntax
 
-See
-
-[PageSetup::GetResolution](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~GetResolution.html)
-
-.
+See [PageSetup::GetResolution](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~GetResolution.html).
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
-
 [IPageSetup::GetUseDefaultResolution Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup~GetUseDefaultResolution.html)
-
 [IPageSetup::SetResolution Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup~SetResolution.html)
 
 ## Availability

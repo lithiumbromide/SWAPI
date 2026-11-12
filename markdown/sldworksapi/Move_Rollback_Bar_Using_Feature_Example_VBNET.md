@@ -9,8 +9,7 @@ source: "sldworksapi/Move_Rollback_Bar_Using_Feature_Example_VBNET.htm"
 
 # Move Rollback Bar Using Feature Example (VB.NET)
 
-This example shows how to move the rollback bar above and below a selected
-feature in a part document.
+This example shows how to move the rollback bar above and below a selected feature in a part document.
 
 ```
 '-----------------------------------------------------

@@ -1,0 +1,12 @@
+#swapi-enums 1 module=dsgnchkapi sw=2026 prefix=SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk. cols=name,value,description
+@dsgnchkError_e		SOLIDWORKS Design Checker status
+dsgnchkAllStandardFilesInvalid	6	All standard files invalid
+dsgnchkCouldNotCreateReportDirectory	2	Error creating report folder
+dsgnchkDesignCheckerAlreadyRunning	7	SOLIDWORKS Design Checker already running; you must close the running Design Checker process before running a new SOLIDWORKS Design Checker process
+dsgnchkInvalidCallToAPI	8	Invalid call to SOLIDWORKS Design Checker API
+dsgnchkInvalidReportName	5	Invalid report name
+dsgnchkNoActivedocument	3	No active document
+dsgnchkNOErr	0	No errors
+dsgnchkReportAlreadyExists	1	Report already exists
+dsgnchkStandardFileDoesNotExist	4	Requirements file does not exist
+dsgnchkUnknownErr	-1	Unknown errors

@@ -1,6 +1,5 @@
 ---
-title: "SweptFlangeFeatureData Object
-Members"
+title: "SweptFlangeFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SweptFlangeFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SweptFlangeFeatureData_members.html"
 ---
 
-# SweptFlangeFeatureData Object
-Members
+# SweptFlangeFeatureData Object Members
 
 ## Public Methods
 

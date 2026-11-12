@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetModelViewCount Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetModelViewCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetModelViewCount.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetModelViewCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetModelViewCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetModelViewCount()
 System.int GetModelViewCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetModelViewCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetModelViewCount.html)
-
-.
+See [ModelDoc::GetModelViewCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetModelViewCount.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

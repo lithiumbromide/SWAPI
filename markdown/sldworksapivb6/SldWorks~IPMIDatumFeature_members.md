@@ -1,6 +1,5 @@
 ---
-title: "IPMIDatumFeature Object
-Members"
+title: "IPMIDatumFeature Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPMIDatumFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPMIDatumFeature_members.html"
 ---
 
-# IPMIDatumFeature Object
-Members
+# IPMIDatumFeature Object Members
 
 ## Public Properties
 

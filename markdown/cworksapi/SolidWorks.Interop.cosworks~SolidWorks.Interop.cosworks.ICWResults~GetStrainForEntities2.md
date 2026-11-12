@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetStrainForEntities2 Method (ICWResults)
 
-Obsolete. Superseded by
-
-[ICWResults::GetStrainForEntities3](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWResults~GetStrainForEntities3.html)
-
-.
+Obsolete. Superseded by [ICWResults::GetStrainForEntities3](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWResults~GetStrainForEntities3.html).
 
 ## Syntax
 
@@ -74,15 +70,11 @@ System.Object^ GetStrainForEntities2(
 ### Parameters
 
 - `BValueByNode`: True to get the strain value by node, false to get the strain value by element
-- `NComponent`: Strain as defined in
-
-[swsStrainComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrainComponent_e.html)
+- `NComponent`: Strain as defined in [swsStrainComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrainComponent_e.html)
 - `NStepNumber`: Solution step number (use 1 for static)
 - `DispPlane`: Reference geometry
 - `ArraySelectedEntities`: Array of geometric entities
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -90,22 +82,14 @@ Array of strain results (each node or element followed by the strain value)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetStrainForEntities2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetStrainForEntities2.html)
-
-.
+See [CWResults::GetStrainForEntities2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetStrainForEntities2.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxStrain Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStrain.html)
-
 [ICWResults::GetStrainComponentForAllStepsAtNode Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStrainComponentForAllStepsAtNode.html)
-
 [ICWResults::GetStrain Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStrain.html)
 
 ## Availability

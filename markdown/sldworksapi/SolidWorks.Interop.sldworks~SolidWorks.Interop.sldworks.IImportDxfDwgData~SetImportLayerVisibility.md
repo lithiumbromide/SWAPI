@@ -51,24 +51,12 @@ System.bool SetImportLayerVisibility(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Layers`: Array of strings of the names of the layers (see
-
-Remarks
-
-)
-- `Visibility`: Visibility of the layers as defined in
-
-[swImportDxfDwg_LayerVisibility_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swImportDxfDwg_LayerVisibility_e.html)
+- `Layers`: Array of strings of the names of the layers (see **Remarks**)
+- `Visibility`: Visibility of the layers as defined in [swImportDxfDwg_LayerVisibility_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swImportDxfDwg_LayerVisibility_e.html)
 
 ### Return Value
 
@@ -76,17 +64,13 @@ True if setting the visibility of these layers is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::SetImportLayerVisibility](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~SetImportLayerVisibility.html)
-
-.
+See [ImportDxfDwgData::SetImportLayerVisibility](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~SetImportLayerVisibility.html).
 
 ## Remarks
 
 This method only supports importing to a drawing; it does not support importing to a part sketch.
 
-The Layers argument can contain either a string or an array of strings, where the strings are the layer names with which to work. You can also specify the argument as empty, which indicates all layers. If this method is not used, the default behavior is to import all layers with the same visibility as they have in the DXF/DWG file.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+The Layers argument can contain either a string or an array of strings, where the strings are the layer names with which to work. You can also specify the argument as empty, which indicates all layers. If this method is not used, the default behavior is to import all layers with the same visibility as they have in the DXF/DWG file.
 
 The layer visibility is the same for all sheets that are imported; you cannot specify the layer visibility on a sheet-by-sheet basis.
 
@@ -98,30 +82,27 @@ You should first specify the behavior that applies to all layers, using an empty
 
 To import all layers with the same visibility as in the DXF/DWG file (this is the default behavior):
 
-boolstatus = ImportDxfDwgData. SetImportLayerVisibility (emptyVariant, swImportDxfDwg_LayerMaintain)
+```vb
+boolstatus = ImportDxfDwgData.SetImportLayerVisibility (emptyVariant, swImportDxfDwg_LayerMaintain)
+```
 
 To import layer "A" hidden and the remaining layers visible:
 
-boolstatus = ImportDxfDwgData. SetImportLayerVisibility (emptyVariant, swImportDxfDwg_LayerVisible)
-
+```vb
+boolstatus = ImportDxfDwgData.SetImportLayerVisibility (emptyVariant, swImportDxfDwg_LayerVisible)
 layerName = "A"
-
 layerVariant = layerName
 
-boolstatus = ImportDxfDwgData. SetImportLayerVisibility ((layerVariant), swImportDxfDwg_LayerHidden)
+boolstatus = ImportDxfDwgData.SetImportLayerVisibility ((layerVariant), swImportDxfDwg_LayerHidden)
+```
 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
-
 [IImportDxfDwgData::GetImportLayerToSheetFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~GetImportLayerToSheetFormat.html)
-
 [IImportDxfDwgData::GetImportLayerVisibility Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~GetImportLayerVisibility.html)
-
 [IImportDxfDwgData::SetImportLayerToSheetFormat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~SetImportLayerToSheetFormat.html)
-
 [IImportDxfDwgData::ImportMethod Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~ImportMethod.html)
 
 ## Availability

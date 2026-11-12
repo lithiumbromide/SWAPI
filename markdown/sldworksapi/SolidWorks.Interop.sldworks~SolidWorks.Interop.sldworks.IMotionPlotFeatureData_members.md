@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IMotionPlotFeatureData Interface Members
 
-The following tables list the members exposed by[IMotionPlotFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData.html).
+The following tables list the members exposed by [IMotionPlotFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData.html).
 
 ## Public Properties
 
@@ -33,5 +33,4 @@ The following tables list the members exposed by[IMotionPlotFeatureData](SolidWo
 ## See Also
 
 [IMotionPlotFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

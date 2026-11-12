@@ -47,13 +47,7 @@ System.bool GetUserProgressBar(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,18 @@ True if the progress indicator object is returned, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetUserProgressBar](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetUserProgressBar.html)
-
-.
+See [SldWorks::GetUserProgressBar](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetUserProgressBar.html).
 
 ## Examples
 
 [Start, Update, and Stop Progress Indicator (VBA)](Start,_Update,_and_Stop_User_Progress_Indicator_Example_VB.htm)
-
 [Start, Update, and Stop Progress Indicator (VB.NET)](Start,_Update,_and_Stop_User_Progress_Bar_Example_VBNET.htm)
-
 [Start, Update, and Stop Progress Indicator (C#)](Start,_Update,_and_Stop_User_Progress_Bar_Example_CSharp.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [IStatusBarPane Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStatusBarPane.html)
 
 ## Availability

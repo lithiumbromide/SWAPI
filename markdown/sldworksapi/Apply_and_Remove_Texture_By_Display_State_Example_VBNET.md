@@ -9,76 +9,75 @@ source: "sldworksapi/Apply_and_Remove_Texture_By_Display_State_Example_VBNET.htm
 
 # Apply and Remove Texture By Display State Example (VB.NET)
 
-This example shows how to apply and remove texture to and from a face
-by display state.
+This example shows how to apply and remove texture to and from a face by display state.
 
 ```vb
 '---------------------------------------------------------------------------
  ' Preconditions: Verify that the specified part and texture exist.
  '
  ' Postconditions:
- ' 1. Opens the specified part and applies texture to the kadov_tag{{</spaces>}}selected face.
+ ' 1. Opens the specified part and applies texture to the selected face.
  ' 2. Examine the part.
  ' 3. In the IDE, click the Continue button at Stop.
  ' 4. Removes the texture from the selected face.
- ' 5. To verify, click thekadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Stop Debugging button in the IDE to stop
- ' kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}execution of the macro, then click anywhere in the SOLIDWORKS
- ' kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}graphics area.
+ ' 5. To verify, click the Stop Debugging button in the IDE to stop
+ '    execution of the macro, then click anywhere in the SOLIDWORKS Design
+ '    graphics area.
  '----------------------------------------------------------------------------
  Imports SolidWorks.Interop.sldworks
  Imports SolidWorks.Interop.swconst
  Imports System
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub main()
+    Public Sub main()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSelMgr As SelectionMgr
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModelDocExt As ModelDocExtension
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim face As Face2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim texture As Texture
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim modelview As ModelView
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim status As Boolean
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim displayState As String
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim errors As Long
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim warnings As Long
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim namStr As String
+        Dim swModel As ModelDoc2
+        Dim swSelMgr As SelectionMgr
+        Dim swModelDocExt As ModelDocExtension
+        Dim face As Face2
+        Dim texture As Texture
+        Dim modelview As ModelView
+        Dim status As Boolean
+        Dim displayState As String
+        Dim errors As Long
+        Dim warnings As Long
+        Dim namStr As String
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Open document and select a face
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.OpenDoc6("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\api\pplate.sldprt", swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModelDocExt = swModel.Extension
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}status = swModelDocExt.SelectByID2("", "FACE", -0.02341747645642, 0.03900188771217, -0.008053400767039, False, 0, Nothing, 0)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSelMgr = swModel.SelectionManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}face = swSelMgr.GetSelectedObject6(1, -1)
+        ' Open document and select a face
+        swModel = swApp.OpenDoc6("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\api\pplate.sldprt", swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
+        swModelDocExt = swModel.Extension
+        status = swModelDocExt.SelectByID2("", "FACE", -0.02341747645642, 0.03900188771217, -0.008053400767039, False, 0, Nothing, 0)
+        swSelMgr = swModel.SelectionManager
+        face = swSelMgr.GetSelectedObject6(1, -1)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Set texture on selected face in the
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' specified display state
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}displayState = "<Default>_Display State 1"
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}namStr = "<SystemTexture>\images\textures\pattern\checker2.jpg"
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}texture = swModelDocExt.CreateTexture(namStr, 5, 45, False)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}status = face.SetTextureByDisplayState(displayState, texture)
+        ' Set texture on selected face in the
+        ' specified display state
+        displayState = "<Default>_Display State 1"
+        namStr = "<SystemTexture>\images\textures\pattern\checker2.jpg"
+        texture = swModelDocExt.CreateTexture(namStr, 5, 45, False)
+        status = face.SetTextureByDisplayState(displayState, texture)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Redraw the window view
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}modelview = swModel.ActiveView
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}modelview.GraphicsRedraw(Nothing)
+        ' Redraw the window view
+        modelview = swModel.ActiveView
+        modelview.GraphicsRedraw(Nothing)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Examine the selected face to verify
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' that the specified texture was set
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' In the IDE, click the Continue button to
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' resume running macro
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Stop
+        ' Examine the selected face to verify
+        ' that the specified texture was set
+        ' In the IDE, click the Continue button to
+        ' resume running macro
+        Stop
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Remove texture from face by display state
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}status = swModelDocExt.SelectByID2("", "FACE", -0.02341747645642, 0.03900188771217, -0.008053400767039, False, 0, Nothing, 0)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}face = swSelMgr.GetSelectedObject6(1, -1)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}status = face.RemoveTextureByDisplayState(displayState)
+        ' Remove texture from face by display state
+        status = swModelDocExt.SelectByID2("", "FACE", -0.02341747645642, 0.03900188771217, -0.008053400767039, False, 0, Nothing, 0)
+        face = swSelMgr.GetSelectedObject6(1, -1)
+        status = face.RemoveTextureByDisplayState(displayState)
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+    ''' The SldWorks swApp variable is pre-assigned for you.
+    ''' </summary>
+    Public swApp As SldWorks
 
 End Class
 ```

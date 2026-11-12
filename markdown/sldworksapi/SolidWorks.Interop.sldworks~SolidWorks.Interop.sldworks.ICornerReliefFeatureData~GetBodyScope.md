@@ -40,13 +40,7 @@ System.object GetBodyScope()
 System.Object^ GetBodyScope();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[CornerReliefFeatureData::GetBodyScope](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData~GetBodyScope.html)
-
-.
+See [CornerReliefFeatureData::GetBodyScope](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData~GetBodyScope.html).
 
 ## See Also
 
 [ICornerReliefFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
 [ICornerReliefFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData_members.html)
 
 ## Availability

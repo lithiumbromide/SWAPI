@@ -45,29 +45,15 @@ property System.Object^ SkippedItemArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of pattern instances to skip (see
-
-Remarks
-
-)
+Array of pattern instances to skip (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData::SkippedItemArray](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~SkippedItemArray.html)
-
-.
+See [FillPatternFeatureData::SkippedItemArray](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~SkippedItemArray.html).
 
 ## Remarks
 
@@ -80,7 +66,6 @@ For example,
 ## See Also
 
 [IFillPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
 
 ## Availability

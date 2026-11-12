@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnLmbSelected Method (ISwManipulatorHandler)
 
-Obsolete. Superseded by
-
-[ISwManipulatorHandler2::OnHandleLmbSelected](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnHandleLmbSelected.html)
-
-.
+Obsolete. Superseded by [ISwManipulatorHandler2::OnHandleLmbSelected](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnHandleLmbSelected.html).
 
 ## Syntax
 
@@ -57,14 +53,9 @@ System.bool OnLmbSelected(
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler::OnLmbSelected](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnLmbSelected.html)
-
-.
+See [SwManipulatorHandler::OnLmbSelected](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnLmbSelected.html).
 
 ## See Also
 
 [ISwManipulatorHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html)
-
 [ISwManipulatorHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler_members.html)

@@ -127,34 +127,26 @@ Body2^ CreateLoftBody2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PModDoc`: [Model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-in which to create the loft body
+- `PModDoc`: [Model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) in which to create the loft body
 - `Profile`: Array of sketches representing the profiles of the loft body
 - `GuideCurve`: Array of sketches representing the guide curves of the loft body
 - `Centerline`: Sketch representing a centerline of the loft body
 - `IsThinBody`: True if the loft body is to be a thin body, false if not
 - `ThinType`: - 0 = One direction
-- 1 = One direction reverse
-- 2 = Midplane
-- 3 = Two direction
+  - 1 = One direction reverse
+  - 2 = Midplane
+  - 3 = Two direction
 - `Thickness1`: Value for thickness for first direction if a thin body
 - `Thickness2`: Value for thickness for second direction if a thin body
 - `FeatureScope`: True if the loft body only affects selected bodies, false if the loft body affects all bodies
 - `IsBlendClosed`: True for a closed loft, false for an open loft; if true and you selected less that three profiles, then any selected guide curves must be closed curves
 - `KeepTangency`: If the section curves are tangent, then you have the option to specify whether the resulting faces are also tangent; specify true to maintain the tangency as seen in the section curves, false to not
 
-NOTE:When generating tangent surfaces, SOLIDWORKS maintains planar and cylindrical surface shapes if the section curves exhibit these characteristics.
+  NOTE: When generating tangent surfaces, SOLIDWORKS maintains planar and cylindrical surface shapes if the section curves exhibit these characteristics.
 - `ForceNonRational`: True to force the resulting surface to be non-rational, false to not
 - `IsSolidBody`: True to return a solid loft body, false to return a surface loft body
 - `TessTolFactor`: Factor to control the number of intermediate sections used for loft with centerline; default value is 1.0; the greater the variable, the more intermediate sections created
@@ -164,40 +156,31 @@ NOTE:When generating tangent surfaces, SOLIDWORKS maintains planar and cylindric
 - `EndTangentDir`: True is one direction, false is the opposite direction
 - `StartMatchingType`: Tangency type at the start profile:
 
-- 0 = none
-- 1 = tangent to the normal of the profile
-- 2 = tangent to the selected vector
-- 3 = tangent to all adjacent faces sharing an edge with the start profile
-- `EndMatchingType`: Tangency type as the end profileParamDesc:
+  - 0 = none
+  - 1 = tangent to the normal of the profile
+  - 2 = tangent to the selected vector
+  - 3 = tangent to all adjacent faces sharing an edge with the start profile
+- `EndMatchingType`: Tangency type as the end profile:
 
-- 0 = none
-- 1 = tangent to the normal of the profile
-- 2 = tangent to the selected vector
-- 3 = tangent to all adjacent faces sharing an edge with the start profile
+  - 0 = none
+  - 1 = tangent to the normal of the profile
+  - 2 = tangent to the selected vector
+  - 3 = tangent to all adjacent faces sharing an edge with the start profile
 - `Merge`: True merges the results in a multibody part, false does not
 
 ### Return Value
 
-Loft
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+Loft [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[Modeler::CreateLoftBody2](ms-its:sldworksapivb6.chm::/Sldworks~Modeler~CreateLoftBody2.html)
-
-.
+See [Modeler::CreateLoftBody2](ms-its:sldworksapivb6.chm::/Sldworks~Modeler~CreateLoftBody2.html).
 
 ## Examples
 
 [Create Loft Surface Body and Change Into Feature (VBA)](Create_Loft_Surface_Body_and_Change_Into_Feature_Example_VB.htm)
-
 [Create Loft Body (VB.NET)](Create_Loft_Body_Example_VBNET.htm)
-
 [Create Loft Body (VBA)](Create_Loft_Body_Example_VB.htm)
-
 [Create Loft Body (C#)](Create_Loft_Body_Example_CSharp.htm)
 
 ## Remarks
@@ -211,17 +194,11 @@ Linear edge, sketch line, axis, plane and planar faces are qualified for tangenc
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IFeatureManager::InsertCutBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCutBlend.html)
-
 [IFeatureManager::InsertProtrusionBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertProtrusionBlend.html)
-
 [IModelDoc2::InsertLoftRefSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertLoftRefSurface2.html)
-
 [IModeler::CreateLoftSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateLoftSurface.html)
-
 [IModeler::ICreateLoftSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateLoftSurface.html)
 
 ## Availability

@@ -51,24 +51,15 @@ Name of file to save results to
 
 ## VBA Syntax
 
-See
-
-[CWDropTestStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestStudyOptions~ResultFolder.html)
-
-.
+See [CWDropTestStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestStudyOptions~ResultFolder.html).
 
 ## Examples
 
-See the Examples in
-
-[ICWDropTestStudyOptions](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestStudyOptions.html)
-
-.
+See the Examples in [ICWDropTestStudyOptions](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestStudyOptions.html).
 
 ## See Also
 
 [ICWDropTestStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions.html)
-
 [ICWDropTestStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestStudyOptions_members.html)
 
 ## Availability

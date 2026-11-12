@@ -51,13 +51,7 @@ System.bool ShowModelBreakState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,26 +64,18 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[View::ShowModelBreakState](ms-its:sldworksapivb6.chm::/sldworks~View~ShowModelBreakState.html)
-
-.
+See [View::ShowModelBreakState](ms-its:sldworksapivb6.chm::/sldworks~View~ShowModelBreakState.html).
 
 ## Examples
 
 [Get and Set Model Break View Display (VBA)](Get_and_Set_Model_Break_View_Display_Example_VB.htm)
-
 [Get and Set Model Break View Display (VB.NET)](Get_and_Set_Model_Break_View_Display_Example_VBNET.htm)
-
 [Get and Set Model Break View Display (C#)](Get_and_Set_Model_Break_View_Display_Example_CSharp.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IsModelBreakState Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IsModelBreakState.html)
 
 ## Availability

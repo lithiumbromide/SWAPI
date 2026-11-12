@@ -42,25 +42,16 @@ void SaveToCSV(
 
 ### Parameters
 
-- `bsFilePath`: Path and file name (
-
-*.CSV
-
-) to which to save this BOM
+- `bsFilePath`: Path and file name (***.CSV**) to which to save this BOM
 - `bCreateLevelColumn`: True to include a level column in the CSV file for an indented BOM, false to not
 
 ## Examples
 
-See the
-
-[IEdmBomView3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3.html)
-
-examples.
+See the [IEdmBomView3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3.html) examples.
 
 ## See Also
 
 [IEdmBomView3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3.html)
-
 [IEdmBomView3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3_members.html)
 
 ## Availability

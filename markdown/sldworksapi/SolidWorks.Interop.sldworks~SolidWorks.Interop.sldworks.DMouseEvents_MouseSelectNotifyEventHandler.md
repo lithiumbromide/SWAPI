@@ -55,13 +55,7 @@ public delegate System.int DMouseEvents_MouseSelectNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -73,27 +67,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[MouseSelectNotify Event (Mouse)](ms-its:sldworksapivb6.chm::/SldWorks~Mouse~MouseSelectNotify_EV.html)
-
-.
+See [MouseSelectNotify Event (Mouse)](ms-its:sldworksapivb6.chm::/SldWorks~Mouse~MouseSelectNotify_EV.html).
 
 ## Examples
 
 [Run SOLIDWORKS Commands and Synthesize Mouse Events (C#)](Run_SolidWorks_Commands_and_Synthesize_Mouse_Events_Example_CSharp.htm)
-
 [Run SOLIDWORKS Commands and Synthesize Mouse Events (VB.NET)](Run_SolidWorks_Commands_and_Synthesize_Mouse_Events_Example_VBNET.htm)
-
 [Run SOLIDWORKS Commands and Synthesize Mouse Events (VBA)](Run_SOLIDWORKS_Commands_and_Synthesize_Mouse_Events_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swMouseSelectNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMouseNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swMouseSelectNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMouseNotify_e.html) to register for this notification.
 
 ## Availability
 

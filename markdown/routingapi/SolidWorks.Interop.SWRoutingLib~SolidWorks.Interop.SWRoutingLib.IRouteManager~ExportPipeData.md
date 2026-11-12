@@ -57,39 +57,25 @@ System.int ExportPipeData(
 
 ### Parameters
 
-- `fileName`: Directory path where
-
-<piping_assembly_name>.
-
-pcf
-
-is created
+- `fileName`: Directory path where `<piping_assembly_name>.`pcf is created
 - `units`: Units of exported pipe data
 
-- 0 = millimeters
-- 3 = inches
+  - 0 = millimeters
+  - 3 = inches
 - `options`: Export options; not yet defined
 
 ### Return Value
 
-Status as defined in
-
-[swRoutingExportPipeDataError_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swRoutingExportPipeDataError_e.html)
+Status as defined in [swRoutingExportPipeDataError_e](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swRoutingExportPipeDataError_e.html)
 
 ## VBA Syntax
 
-See
-
-[RouteManager::ExportPipeData](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~ExportPipeData.html)
-
-.
+See [RouteManager::ExportPipeData](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~ExportPipeData.html).
 
 ## Examples
 
 [Export Pipe Data Example (C#)](Export_Pipe_Data_Example_CSharp.htm)
-
 [Export Pipe Data Example (VB.NET)](Export_Pipe_Data_Example_VBNET.htm)
-
 [Export Pipe Data Example (VBA)](Export_Pipe_Data_Example_VB.htm)
 
 ## Remarks
@@ -99,7 +85,6 @@ This method is only valid for use with assemblies containing pipes.
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
 
 ## Availability

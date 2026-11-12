@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetDisplayData Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetDisplayData3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDisplayData3.html)
-
-and
-
-[IView::IGetDisplayData3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDisplayData3.html)
-
-.
+Obsolete. Superseded by [IView::GetDisplayData3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDisplayData3.html) and [IView::IGetDisplayData3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDisplayData3.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetDisplayData()
 System.Object^ GetDisplayData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::GetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~View~GetDisplayData.html)
-
-.
+See [View::GetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~View~GetDisplayData.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

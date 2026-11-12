@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # IGetCorrespondingEntity Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::GetCorrespondingEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetCorrespondingEntity.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::GetCorrespondingEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetCorrespondingEntity.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Entity^ IGetCorrespondingEntity(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::IGetCorrespondingEntity](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IGetCorrespondingEntity.html)
-
-.
+See [PartDoc::IGetCorrespondingEntity](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IGetCorrespondingEntity.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

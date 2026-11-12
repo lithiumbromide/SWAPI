@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IFeatureStatistics Interface Members
 
-The following tables list the members exposed by[IFeatureStatistics](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureStatistics.html).
+The following tables list the members exposed by [IFeatureStatistics](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureStatistics.html).
 
 ## Public Properties
 
@@ -39,5 +39,4 @@ The following tables list the members exposed by[IFeatureStatistics](SolidWorks.
 ## See Also
 
 [IFeatureStatistics Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureStatistics.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

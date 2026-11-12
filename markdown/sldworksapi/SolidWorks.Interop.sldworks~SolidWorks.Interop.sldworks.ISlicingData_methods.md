@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # ISlicingData Interface Methods
 
-For a list of all members of this type, see[ISlicingData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html).
+For a list of all members of this type, see [ISlicingData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html).
 
 ## Public Methods
 
@@ -29,5 +29,4 @@ For a list of all members of this type, see[ISlicingData members](SolidWorks.Int
 ## See Also
 
 [ISlicingData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

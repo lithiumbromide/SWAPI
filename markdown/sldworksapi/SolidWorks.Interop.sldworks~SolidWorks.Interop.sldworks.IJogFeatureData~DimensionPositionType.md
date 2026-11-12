@@ -45,30 +45,19 @@ property System.int DimensionPositionType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Dimension position type as defined in[swJogDimensionPositionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swJogDimensionPositionType_e.html)
+Dimension position type as defined in [swJogDimensionPositionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swJogDimensionPositionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[JogFeatureData::DimensionPositionType](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~DimensionPositionType.html)
-
-.
+See [JogFeatureData::DimensionPositionType](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~DimensionPositionType.html).
 
 ## See Also
 
 [IJogFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html)
-
 [IJogFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "SwManipulatorHandler Object
-Members"
+title: "SwManipulatorHandler Object Members"
 project: "SOLIDWORKS Custom Interfaces Type Library"
 interface: "SwManipulatorHandler_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swpublishedapivb6/SWPublished~SwManipulatorHandler_members.html"
 ---
 
-# SwManipulatorHandler Object
-Members
+# SwManipulatorHandler Object Members
 
 ## Public Methods
 

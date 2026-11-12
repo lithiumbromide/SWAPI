@@ -40,13 +40,7 @@ System.object CreateMassProperty2()
 System.Object^ CreateMassProperty2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::CreateMassProperty2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CreateMassProperty2.html)
-
-.
+See [ModelDocExtension::CreateMassProperty2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~CreateMassProperty2.html).
 
 ## Examples
 
 [Get and Override Mass Properties (VBA)](Get_Mass_Properties_using_MassProperty_Object_Example_VB.htm)
-
 [Get and Override Mass Properties (VB.NET)](Get_Mass_Properties_Using_IMassProperty_Example_VBNET.htm)
-
 [Get and Override Mass Properties (C#)](Get_Mass_Properties_Using_IMassProperty_Example_CSharp.htm)
 
 ## Remarks
@@ -79,7 +67,6 @@ See
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

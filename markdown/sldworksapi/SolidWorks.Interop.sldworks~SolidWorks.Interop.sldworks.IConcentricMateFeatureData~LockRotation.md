@@ -45,13 +45,7 @@ property System.bool LockRotation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to lock rotation, false to not
 
 ## VBA Syntax
 
-See
-
-[ConcentricMateFeatureData::LockRotation](ms-its:sldworksapivb6.chm::/sldworks~ConcentricMateFeatureData~LockRotation.html)
-
-.
+See [ConcentricMateFeatureData::LockRotation](ms-its:sldworksapivb6.chm::/sldworks~ConcentricMateFeatureData~LockRotation.html).
 
 ## Examples
 
-See the
-
-[IConcentricMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData.html)
-
-example.
+See the [IConcentricMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData.html) example.
 
 ## See Also
 
 [IConcentricMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData.html)
-
 [IConcentricMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData_members.html)
 
 ## Availability

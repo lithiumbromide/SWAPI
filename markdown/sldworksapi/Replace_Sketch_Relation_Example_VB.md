@@ -9,8 +9,7 @@ source: "sldworksapi/Replace_Sketch_Relation_Example_VB.htm"
 
 # Replace Sketch Relation Example (VBA)
 
-This example shows how to reassign a sketch relation from one sketch
-line to another.
+This example shows how to reassign a sketch relation from one sketch line to another.
 
 ```
 '--------------------------------------

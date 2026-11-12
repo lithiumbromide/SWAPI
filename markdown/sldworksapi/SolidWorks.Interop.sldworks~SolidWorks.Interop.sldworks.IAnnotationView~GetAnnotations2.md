@@ -51,13 +51,7 @@ System.Object^ GetAnnotations2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,26 +64,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[AnnotationView::GetAnnotations2](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~GetAnnotations2.html)
-
-.
+See [AnnotationView::GetAnnotations2](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~GetAnnotations2.html).
 
 ## Examples
 
 [Move Annotations to Notes Area Annotation View (C#)](Move_Annotations_to_First_Annotation_View_Example_CSharp.htm)
-
 [Move Annotations to Notes Area Annotation View (VB.NET)](Move_Annotations_to_First_Annotation_View_Example_VBNET.htm)
-
 [Move Annotations to Notes Area Annotation View (VBA)](Move_Annotations_to_First_Annotation_View_Example_VB.htm)
 
 ## See Also
 
 [IAnnotationView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html)
-
 [IAnnotationView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView_members.html)
-
 [IAnnotationView::AnnotationCount Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~AnnotationCount.html)
 
 ## Availability

@@ -53,22 +53,15 @@ SwDmTableError AddRevisionRow(
 
 ### Return Value
 
-Return code as defined in
-
-[SwDmTableError](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDmTableError.html)
+Return code as defined in [SwDmTableError](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.SwDmTableError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMTable6::AddRevisionRow](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable6~AddRevisionRow.html)
-
-.
+See [SwDMTable6::AddRevisionRow](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable6~AddRevisionRow.html).
 
 ## See Also
 
 [ISwDMTable6 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable6.html)
-
 [ISwDMTable6 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable6_members.html)
 
 ## Availability

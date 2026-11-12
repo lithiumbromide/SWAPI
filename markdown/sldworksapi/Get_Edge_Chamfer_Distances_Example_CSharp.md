@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Edge_Chamfer_Distances_Example_CSharp.htm"
 
 # Get Edge Chamfer Distances Example (C#)
 
-This example shows how to get the distances of the edges and vertices for the
-chamfer feature.
+This example shows how to get the distances of the edges and vertices for the chamfer feature.
 
 ```
 //---------------------------------------------------------------------------

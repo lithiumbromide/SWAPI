@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelViewManager Interface Members
 
-The following tables list the members exposed by[IModelViewManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html).
+The following tables list the members exposed by [IModelViewManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html).
 
 ## Public Properties
 
@@ -39,14 +39,14 @@ The following tables list the members exposed by[IModelViewManager](SolidWorks.I
 | Method | CreateFeatureMgrControl4 | Creates a new FeatureManager design tree view containing the specified ActiveX control with a tab that displays the specified scaleable icon. |
 | Method | CreateFeatureMgrView | Obsolete. Superseded by IModelViewManager::CreateFeatureMgrView2 . |
 | Method | CreateFeatureMgrView2 | Creates a new view (tab) in this FeatureManager design tree. |
-| Method | CreateFeatureMgrWindowFromHandle | Creates a new view in the FeatureManager design tree using the specified .NET tab control. |
+| Method | CreateFeatureMgrWindowFromHandle | Obsolete. Superseded by IModelViewManager::CreateFeatureMgrWindowFromHandlex64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Creates a new view in the FeatureManager design tree using the specified .NET tab control. |
 | Method | CreateFeatureMgrWindowFromHandlex64 | On 64-bit machines, creates a new view in the FeatureManager design tree using the specified .NET tab control. |
-| Method | CreateManipulator | Creates a manipulator, which is similar to the triad in the SOLIDWORKS user interface. |
+| Method | CreateManipulator | Creates a manipulator, which is similar to the triad in the SOLIDWORKS Design user interface. |
 | Method | CreateSectionView | Creates a section view in parts and assemblies. |
 | Method | CreateSectionViewData | Creates an empty ISectionViewData object whose properties you set before creating a section view in a part or an assembly . |
 | Method | DeleteControlTab | Deletes the specified control tab. |
 | Method | DeleteSnapShot | Deletes the specified snapshot from an assembly. |
-| Method | DisplayWindowFromHandle | Displays a .NET control in this model view. |
+| Method | DisplayWindowFromHandle | Obsolete. Superseded by IModelViewManager::DisplayWindowFromHandlex64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Displays a .NET control in this model view. |
 | Method | DisplayWindowFromHandlex64 | Displays a .NET control in this model view on 64-bit machines. |
 | Method | GetConfigurationManagerTabIndex | Gets the index of the ConfigurationManager tab in the Manager Pane. |
 | Method | GetControl | Gets the control associated with this model view. |
@@ -54,7 +54,7 @@ The following tables list the members exposed by[IModelViewManager](SolidWorks.I
 | Method | GetDisplayManagerTabIndex | Gets the index of the DisplayManager tab in the Manager Pane. |
 | Method | GetFeatureManagerTabs | Gets the tabs from right to left in the Manager Pane. |
 | Method | GetFeatureManagerTreeTabIndex | Gets the index of the FeatureManager design tree tab in the Manager Pane. |
-| Method | GetFeatureMgrViewHWnd | Gets the window handle for the specified FeatureManager design tree view. |
+| Method | GetFeatureMgrViewHWnd | Obsolete. Superseded by IModelViewManager::GetFeatureMgrViewHWndx64 . This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016. The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used. Gets the window handle for the specified FeatureManager design tree view. |
 | Method | GetFeatureMgrViewHWndx64 | Gets the window handle for the specified FeatureManager design tree view in 64-bit applications. |
 | Method | GetPropertyManagerTabIndex | Gets the index of the PropertyManager tab in the Manager Pane. |
 | Method | GetSectionViewData | Gets access to the data of the specified section view. |
@@ -70,13 +70,8 @@ The following tables list the members exposed by[IModelViewManager](SolidWorks.I
 ## See Also
 
 [IModelViewManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)
-
 [ISectionViewData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html)
-
 [IFeatMgrView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView.html)

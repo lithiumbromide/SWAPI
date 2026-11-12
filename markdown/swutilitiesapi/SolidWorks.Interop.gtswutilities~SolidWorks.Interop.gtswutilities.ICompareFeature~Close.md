@@ -42,11 +42,7 @@ System.int Close();
 
 ## VBA Syntax
 
-See
-
-[ICompareFeature::Close](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareFeature~Close.html)
-
-.
+See [ICompareFeature::Close](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareFeature~Close.html).
 
 ## Examples
 
@@ -55,5 +51,4 @@ See
 ## See Also
 
 [ICompareFeature Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareFeature.html)
-
 [ICompareFeature Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareFeature_members.html)

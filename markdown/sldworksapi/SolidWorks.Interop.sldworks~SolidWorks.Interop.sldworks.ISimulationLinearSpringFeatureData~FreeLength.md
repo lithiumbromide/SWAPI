@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # FreeLength Property (ISimulationLinearSpringFeatureData)
 
-Obsolete. Superseded by
-
-[ISimulationSpringFeatureData::FreeLength](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData~FreeLength.html)
-
-.
+Obsolete. Superseded by [ISimulationSpringFeatureData::FreeLength](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationSpringFeatureData~FreeLength.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double FreeLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ Length
 
 ## VBA Syntax
 
-See
-
-[SimulationLinearSpringFeatureData::FreeLength](ms-its:sldworksapivb6.chm::/sldworks~SimulationLinearSpringFeatureData~FreeLength.html)
-
-.
+See [SimulationLinearSpringFeatureData::FreeLength](ms-its:sldworksapivb6.chm::/sldworks~SimulationLinearSpringFeatureData~FreeLength.html).
 
 ## See Also
 
 [ISimulationLinearSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData.html)
-
 [ISimulationLinearSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData_members.html)
 
 ## Availability

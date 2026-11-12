@@ -14,9 +14,9 @@ This interface is:
 - obsolete and has not been superseded.
 - nonfunctional in SOLIDWORKS 2008 and later.
 
-Use the interfaces related to[motion studies](ms-its:swmotionstudyapi.chm::/SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudyManager.html)introduced in SOLIDWORKS 2008 to access animation and simulation.
+Use the interfaces related to [motion studies](ms-its:swmotionstudyapi.chm::/SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudyManager.html) introduced in SOLIDWORKS 2008 to access animation and simulation.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -46,26 +46,13 @@ public interface class IAnimation
 
 ## VBA Syntax
 
-See
-
-[Animation](ms-its:sldworksapivb6.chm::/sldworks~Animation.html)
-
-.
+See [Animation](ms-its:sldworksapivb6.chm::/sldworks~Animation.html).
 
 ## Remarks
 
-Do not confuse the
-
-Animation Controller
-
-pop-up toolbar available in the core SOLIDWORKS software with SOLIDWORKS Animator, a SOLIDWORKS add-in. SOLIDWORKS Animator provides more functionality than the
-
-Animation Controller
-
-pop-up toolbar. See the SOLIDWORKS Animator online Help for details.
+Do not confuse the **Animation Controller** pop-up toolbar available in the core SOLIDWORKS Design software with SOLIDWORKS Animator, a SOLIDWORKS add-in. SOLIDWORKS Animator provides more functionality than the **Animation Controller** pop-up toolbar. See the SOLIDWORKS Animator online Help for details.
 
 ## See Also
 
 [IAnimation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

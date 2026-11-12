@@ -48,16 +48,11 @@ Name of the table
 
 ## VBA Syntax
 
-See
-
-[SwDMTable::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~Name.html)
-
-.
+See [SwDMTable::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~Name.html).
 
 ## See Also
 
 [ISwDMTable Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable.html)
-
 [ISwDMTable Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable_members.html)
 
 ## Availability

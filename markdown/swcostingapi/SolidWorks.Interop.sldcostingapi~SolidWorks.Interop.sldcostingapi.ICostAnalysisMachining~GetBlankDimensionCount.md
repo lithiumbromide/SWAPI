@@ -49,9 +49,7 @@ System.int GetBlankDimensionCount(
 
 ### Parameters
 
-- `StockType`: Stock type as defined in
-
-[swcStockType_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcStockType_e.html)
+- `StockType`: Stock type as defined in [swcStockType_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcStockType_e.html)
 
 ### Return Value
 
@@ -59,24 +57,15 @@ Number of dimensions for a blank required to produce a body using the specified 
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisMachining::GetBlankDimensionCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetBlankDimensionCount.html)
-
-.
+See [CostAnalysisMachining::GetBlankDimensionCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetBlankDimensionCount.html).
 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::GetMinimumBlankSize Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMinimumBlankSize.html)
-
 [ICostAnalysisMachining::IGetMinimumBlankSize Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetMinimumBlankSize.html)
-
 [ICostAnalysisMachining::BlankSize Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~BlankSize.html)
-
 [ICostAnalysisMachining::IBlankSize Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IBlankSize.html)
 
 ## Availability

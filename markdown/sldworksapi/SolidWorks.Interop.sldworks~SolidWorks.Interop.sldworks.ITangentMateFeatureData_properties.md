@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 # ITangentMateFeatureData Interface Properties
 
-For a list of all members of this type, see[ITangentMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData_members.html).
+For a list of all members of this type, see [ITangentMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData_members.html).
 
 ## Public Properties
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[ITangentMateFeatureData members](Sol
 ## See Also
 
 [ITangentMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

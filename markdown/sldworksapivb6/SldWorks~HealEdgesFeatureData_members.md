@@ -1,6 +1,5 @@
 ---
-title: "HealEdgesFeatureData Object
-Members"
+title: "HealEdgesFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "HealEdgesFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~HealEdgesFeatureData_members.html"
 ---
 
-# HealEdgesFeatureData Object
-Members
+# HealEdgesFeatureData Object Members
 
 ## Public Methods
 

@@ -47,13 +47,7 @@ System.String^ GetSSOFormattedURL(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ URL formatted for single sign-on
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetSSOFormattedURL](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetSSOFormattedURL.html)
-
-.
+See [SldWorks::GetSSOFormattedURL](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetSSOFormattedURL.html).
 
 ## Remarks
 
@@ -78,7 +68,6 @@ Use this method to log into SOLIDWORKS add-ins using the current SOLIDWORKS cred
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

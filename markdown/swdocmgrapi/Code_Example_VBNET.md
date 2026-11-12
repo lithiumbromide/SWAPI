@@ -9,11 +9,9 @@ source: "swdocmgrapi/Code_Example_VBNET.htm"
 
 # DimXpert Example (VB.NET)
 
-This example shows how to call interfaces, methods, and properties in the
-SOLIDWORKS Document Manager API for parts with DimXpert features and annotations.
+This example shows how to call interfaces, methods, and properties in the SOLIDWORKS Document Manager API for parts with DimXpert features and annotations.
 
-To learn how to build parts containing DimXpert features and annotations that
-work with a particular API, open the examples in the**Examples**section in the SOLIDWORKS Document Manager API topic of interest.
+To learn how to build parts containing DimXpert features and annotations that work with a particular API, open the examples in the **Examples** section in the SOLIDWORKS Document Manager API topic of interest.
 
 ```vb
 '-----------------------------------------------------------------------------
@@ -21,73 +19,57 @@ work with a particular API, open the examples in the**Examples**section in the S
 
 ' Preconditions:
 
-' 1.
-Create a part that contains DimXpert features and
+' 1. Create a part that contains DimXpert features and
 
-' annotations (see NOTES
-below).
+' annotations (see NOTES below).
 
-' 2.
-Add the SolidWorks.Interop.swdocumentmgr.dll reference
+' 2. Add the **SolidWorks.Interop.swdocumentmgr.dll** reference
 
 ' to the project:
 
-' a.
-Right-click the project in Project Explorer.
+' a. Right-click the project in Project Explorer.
 
-' b. Click Add Reference .
+' b. Click **Add Reference**.
 
-' c. Click Browse .
+' c. Click **Browse**.
 
-' d.
-Click:
+' d. Click:
 
-' install_dir \api\redist\SolidWorks.Interop.swdocumentmgr.dll
+' install_dir\api\redist\SolidWorks.Interop.swdocumentmgr.dll
 
-' 3. Substitute your_part_with_dimensions with the path
+' 3. Substitute `your_part_with_dimensions` with the path
 
-' to the part you just
-created.
+' to the part you just created.
 
 ' 4. Substitute your_license_code with your license code.
 
-' 5.
-Compile and run this program.
+' 5. Compile and run this program.
 
 '
 
-' Postconditions: Inspect
-the Immediate Window.
+' Postconditions: Inspect the Immediate Window.
 
 '
 
-' NOTES :
+' **NOTES**:
 
-' You
-must convert older parts to the latest supported
+' You must convert older parts to the latest supported
 
-' version of SOLIDWORKS
-in order to get the DimXpert CAD identifiers
+' version of SOLIDWORKS in order to get the DimXpert CAD identifiers
 
-' for
-features and annotations using the API. To convert an older
+' for features and annotations using the API. To convert an older
 
-' part to the
-latest supported version:
+' part to the latest supported version:
 
-' 1.
-Open the part in a version of SOLIDWORKS that contains this API.
+' 1. Open the part in a version of SOLIDWORKS that contains this API.
 
-' 2.
-Save the part, clicking OK in the pop-up dialog to convert the part.
+' 2. Save the part, clicking **OK** in the pop-up dialog to convert the part.
 
-' NOTE: If you
-are using a tutorial part, be sure to
+' NOTE: If you are using a tutorial part, be sure to
 
 ' save it to another name.
 
-' 3.
-Close the part.
+' 3. Close the part.
 
 '---------------------------------------------------------------------------
 
@@ -103,2473 +85,1572 @@ Imports System.Diagnostics
 
 Partial Class SolidWorksMacro
 
-Sub
-Main()
+Sub Main()
 
-Dim
-classfac As SwDMClassFactory
+Dim classfac As SwDMClassFactory
 
-Dim
-docMgr As SwDMApplication
+Dim docMgr As SwDMApplication
 
-Dim
-swDoc As SwDMDocument5
+Dim swDoc As SwDMDocument5
 
-Dim
-e As SwDmDocumentOpenError
+Dim e As SwDmDocumentOpenError
 
-classfac
-= CreateObject("SwDocumentMgr.SwDMClassFactory")
+classfac = CreateObject("SwDocumentMgr.SwDMClassFactory")
 
-' Substitute
-your license code here:
+' Substitute your license code here:
 
-docMgr
-= classfac. GetApplication ( " your_license_code " )
+docMgr = classfac.GetApplication("your_license_code")
 
-Debug.Print("Latest
-supported file version: " & docMgr. GetLatestSupportedFileVersion )
+Debug.Print("Latest supported file version: " & docMgr.**GetLatestSupportedFileVersion**)
 
-Dim
-fileName As String
+Dim fileName As String
 
-' Substitute the
-path to your DimXpert part here:
+' Substitute the path to your DimXpert part here:
 
-fileName
-= " your_part_with_dimensions "
+fileName = "`your_part_with_dimensions`"
 
-swDoc
-= docMgr. GetDocument (fileName, SwDmDocumentType.swDmDocumentPart, True,
-e)
+swDoc = docMgr.**GetDocument**(fileName, SwDmDocumentType.swDmDocumentPart, True, e)
 
-If
-(swDoc Is Nothing) Then
+If (swDoc Is Nothing) Then
 
-MsgBox(fileName
-& " not found")
+MsgBox(fileName & " not found")
 
-Exit
-Sub
+Exit Sub
 
-End
-If
+End If
 
-Debug.Print(" Loaded
-document version: " & swDoc. GetVersion )
+Debug.Print(" Loaded document version: " & swDoc.**GetVersion**)
 
-Debug.Print(" Loaded
-document name: " & fileName)
+Debug.Print(" Loaded document name: " & fileName)
 
-Debug.Print("
-")
+Debug.Print(" ")
 
-Dim
-vConfigNames As Object
+Dim vConfigNames As Object
 
-Dim
-configName As String
+Dim configName As String
 
-Dim
-configObj As SwDMConfiguration12
+Dim configObj As SwDMConfiguration12
 
-Dim
-index As Integer
+Dim index As Integer
 
-Dim
-myDimXpertPart As SwDMDimXpertPart
+Dim myDimXpertPart As SwDMDimXpertPart
 
-Dim
-vFeatures As Object, myFeature As SwDMDimXpertFeature
+Dim vFeatures As Object, myFeature As SwDMDimXpertFeature
 
-Dim
-vAnnotations As Object, myAnnotation As SwDMDimXpertAnnotation
+Dim vAnnotations As Object, myAnnotation As SwDMDimXpertAnnotation
 
-Dim
-myBlockTolerance As SwDMDimXpertBlockTolerances
+Dim myBlockTolerance As SwDMDimXpertBlockTolerances
 
-Dim
-vObject As Object
+Dim vObject As Object
 
-Dim
-featureIndex As Integer, annoIndex As Integer, vObjectIndex As Integer
+Dim featureIndex As Integer, annoIndex As Integer, vObjectIndex As Integer
 
-Dim
-tempFeature As SwDMDimXpertFeature, tempFeature1 As SwDMDimXpertFeature
+Dim tempFeature As SwDMDimXpertFeature, tempFeature1 As SwDMDimXpertFeature
 
-Dim
-endFeature1 As SwDMDimXpertFeature, endFeature2 As SwDMDimXpertFeature
+Dim endFeature1 As SwDMDimXpertFeature, endFeature2 As SwDMDimXpertFeature
 
-Dim
-planeFeature1 As SwDMDimXpertPlaneFeature, planeFeature2 As SwDMDimXpertPlaneFeature
+Dim planeFeature1 As SwDMDimXpertPlaneFeature, planeFeature2 As SwDMDimXpertPlaneFeature
 
-Dim
-datum As swDmDimXpertDatum
+Dim datum As swDmDimXpertDatum
 
-Dim
-fosUsage As swDmDimXpertDistanceFosUsage_e
+Dim fosUsage As swDmDimXpertDistanceFosUsage_e
 
-Dim
-modifier As swDmDimXpertMaterialConditionModifier_e
+Dim modifier As swDmDimXpertMaterialConditionModifier_e
 
-Dim
-bltType As swDmDimXpertBlockToleranceType_e
+Dim bltType As swDmDimXpertBlockToleranceType_e
 
-Dim
-X As Double, Y As Double, Z As Double
+Dim X As Double, Y As Double, Z As Double
 
-Dim
-i As Double, j As Double, k As Double
+Dim i As Double, j As Double, k As Double
 
-Dim
-longi As Double, longj As Double, longk As Double
+Dim longi As Double, longj As Double, longk As Double
 
-Dim
-width As Double, length As Double, angle As Double, Distance As Double
+Dim width As Double, length As Double, angle As Double, Distance As Double
 
-Dim
-Tolerance As Double, Value As Double
+Dim Tolerance As Double, Value As Double
 
-Dim
-isMax As Boolean, Enabled As Boolean
+Dim isMax As Boolean, Enabled As Boolean
 
-Dim
-feattype As swDmDimXpertFeatureType_e, annotype As swDmDimXpertAnnotationType_e
+Dim feattype As swDmDimXpertFeatureType_e, annotype As swDmDimXpertAnnotationType_e
 
-Dim
-myGeoTol As SwDMDimXpertGeometricTolerance
+Dim myGeoTol As SwDMDimXpertGeometricTolerance
 
-Dim
-myDimTol As SwDMDimXpertDimensionTolerance
+Dim myDimTol As SwDMDimXpertDimensionTolerance
 
-Dim
-myOriTol As SwDMDimXpertOrientationGeoTol
+Dim myOriTol As SwDMDimXpertOrientationGeoTol
 
-Dim
-plusTol As Double, minusTol As Double, lowerTol As Double, upperTol As
-Double
+Dim plusTol As Double, minusTol As Double, lowerTol As Double, upperTol As Double
 
-Dim
-boolstatus As Boolean
+Dim boolstatus As Boolean
 
-vConfigNames
-= swDoc. ConfigurationManager . GetConfigurationNames ()
+vConfigNames = swDoc.**ConfigurationManager**.**GetConfigurationNames**()
 
-If
-Not (IsNothing(vConfigNames)) Then
+If Not (IsNothing(vConfigNames)) Then
 
-For
-index = LBound(vConfigNames) To UBound(vConfigNames)
+For index = LBound(vConfigNames) To UBound(vConfigNames)
 
-configName
-= vConfigNames(index)
+configName = vConfigNames(index)
 
-configObj
-= swDoc. ConfigurationManager . GetConfigurationByName (configName)
+configObj = swDoc.**ConfigurationManager**.**GetConfigurationByName**(configName)
 
-If
-Not configObj Is Nothing Then
+If Not configObj Is Nothing Then
 
-myDimXpertPart
-= configObj.DimXpertPart
+myDimXpertPart = configObj.DimXpertPart
 
-If
-Not myDimXpertPart Is Nothing Then
+If Not myDimXpertPart Is Nothing Then
 
-vFeatures
-= myDimXpertPart. GetFeatures ()
+vFeatures = myDimXpertPart.**GetFeatures**()
 
-If
-Not (IsNothing(vFeatures)) Then
+If Not (IsNothing(vFeatures)) Then
 
-Debug.Print("
-")
+Debug.Print(" ")
 
-Debug.Print(myDimXpertPart. GetFeatureCount & " DimXpert features:")
+Debug.Print(myDimXpertPart.**GetFeatureCount** & " DimXpert features:")
 
-Debug.Print("
-")
+Debug.Print(" ")
 
-For
-featureIndex = LBound(vFeatures) To UBound(vFeatures)
+For featureIndex = LBound(vFeatures) To UBound(vFeatures)
 
-myFeature
-= vFeatures(featureIndex)
+myFeature = vFeatures(featureIndex)
 
-Debug.Print(featureIndex
-& " : " & "Feature name = " & myFeature. Name )
+Debug.Print(featureIndex & " : " & "Feature name = " & myFeature.**Name**)
 
-feattype
-= myFeature. type
+feattype = myFeature.**type**
 
-Select
-Case feattype
+Select Case feattype
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_Plane
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_Plane
 
-Debug.Print(" Type =
-Plane")
+Debug.Print(" Type = Plane")
 
-Dim
-myPlaneFeature As SwDMDimXpertPlaneFeature
+Dim myPlaneFeature As SwDMDimXpertPlaneFeature
 
-myPlaneFeature
-= myFeature
+myPlaneFeature = myFeature
 
-boolstatus
-= myPlaneFeature. GetNominalPlane (X, Y, Z, i, j, k)
+boolstatus = myPlaneFeature.**GetNominalPlane**(X, Y, Z, i, j, k)
 
-Debug.Print(" NomPlane(x,y,z,i,j,k):
-" & Format(X, "0.0#####") & ", " &
-Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####")
-& ", " & Format(i, "0.0#####") & ",
-" & Format(j, "0.0#####") & ", " &
-Format(k, "0.0#####"))
+Debug.Print(" NomPlane(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_BestfitPlane
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_BestfitPlane
 
-Debug.Print(" Type =
-Best fit plane")
+Debug.Print(" Type = Best fit plane")
 
-Dim
-myBestFitPlaneFeature As SwDMDimXpertBestFitPlaneFeature
+Dim myBestFitPlaneFeature As SwDMDimXpertBestFitPlaneFeature
 
-myBestFitPlaneFeature
-= myFeature
+myBestFitPlaneFeature = myFeature
 
-boolstatus
-= myBestFitPlaneFeature. GetNominalPlane (X, Y, Z, i, j, k)
+boolstatus = myBestFitPlaneFeature.**GetNominalPlane**(X, Y, Z, i, j, k)
 
-Debug.Print(" NominalPlane(x,y,z,i,j,k):
-" & Format(X, "0.0#####") & ", " &
-Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####")
-& ", " & Format(i, "0.0#####") & ",
-" & Format(j, "0.0#####") & ", " &
-Format(k, "0.0#####"))
+Debug.Print(" NominalPlane(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-Debug.Print(" Number
-of sub-features: " & myBestFitPlaneFeature. GetSubFeatureCount )
+Debug.Print(" Number of sub-features: " & myBestFitPlaneFeature.**GetSubFeatureCount**)
 
-If
-myBestFitPlaneFeature.GetSubFeatureCount > 0 Then
+If myBestFitPlaneFeature.GetSubFeatureCount > 0 Then
 
 Debug.Print(" Sub-features:")
 
-vObject
-= myBestFitPlaneFeature. GetSubFeatures
+vObject = myBestFitPlaneFeature.**GetSubFeatures**
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-tempFeature
-= vObject(vObjectIndex)
+tempFeature = vObject(vObjectIndex)
 
-Debug.Print(" "
-& tempFeature. Name )
+Debug.Print(" " & tempFeature.**Name**)
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-End
-If
+End If
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_Chamfer
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_Chamfer
 
-Debug.Print(" Type =
-Chamfer")
+Debug.Print(" Type = Chamfer")
 
-Dim
-myChamferFeature As SwDMDimXpertChamferFeature
+Dim myChamferFeature As SwDMDimXpertChamferFeature
 
-myChamferFeature
-= myFeature
+myChamferFeature = myFeature
 
-Debug.Print(" Chamfer
-angle: " & myChamferFeature. Angle )
+Debug.Print(" Chamfer angle: " & myChamferFeature.**Angle**)
 
-Debug.Print(" Chamfer
-angle type (swDmDimXpertChamferAngleType_e): " & myChamferFeature. AngleType )
+Debug.Print(" Chamfer angle type (swDmDimXpertChamferAngleType_e): " & myChamferFeature.**AngleType**)
 
-Debug.Print(" Chamfer
-type (swDmDimXpertChamferType_e): " & myChamferFeature. ChamferType )
+Debug.Print(" Chamfer type (swDmDimXpertChamferType_e): " & myChamferFeature.**ChamferType**)
 
-Debug.Print(" Distance
-1: " & myChamferFeature. Distance1 )
+Debug.Print(" Distance 1: " & myChamferFeature.**Distance1**)
 
-Debug.Print(" Distance
-2: " & myChamferFeature. Distance2 )
+Debug.Print(" Distance 2: " & myChamferFeature.**Distance2**)
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_CompoundClosedSlot3D
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_CompoundClosedSlot3D
 
-Debug.Print(" Type =
-Compound closed slot 3D")
+Debug.Print(" Type = Compound closed slot 3D")
 
-Dim
-myClosedSlotFeature As SwDMDimXpertCompoundClosedSlot3dFeature
+Dim myClosedSlotFeature As SwDMDimXpertCompoundClosedSlot3dFeature
 
-myClosedSlotFeature
-= myFeature
+myClosedSlotFeature = myFeature
 
-tempFeature
-= myClosedSlotFeature. GetBottomFeature
+tempFeature = myClosedSlotFeature.**GetBottomFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Bottom
-feature: " & tempFeature. Name )
+Debug.Print(" Bottom feature: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-endFeature1
-= Nothing
+endFeature1 = Nothing
 
-endFeature2
-= Nothing
+endFeature2 = Nothing
 
-planeFeature1
-= Nothing
+planeFeature1 = Nothing
 
-planeFeature2
-= Nothing
+planeFeature2 = Nothing
 
-boolstatus
-= myClosedSlotFeature. GetEndFeatures (endFeature1, endFeature2)
+boolstatus = myClosedSlotFeature.**GetEndFeatures**(endFeature1, endFeature2)
 
-If
-Not endFeature1 Is Nothing And Not endFeature2 Is Nothing Then
+If Not endFeature1 Is Nothing And Not endFeature2 Is Nothing Then
 
-Debug.Print(" End
-features: " & endFeature1. Name & ", " & endFeature2. Name )
+Debug.Print(" End features: " & endFeature1.**Name** & ", " & endFeature2.**Name**)
 
-End
-If
+End If
 
-boolstatus
-= myClosedSlotFeature. GetNominalBottomPlane (X, Y, Z, i, j, k)
+boolstatus = myClosedSlotFeature.**GetNominalBottomPlane**(X, Y, Z, i, j, k)
 
-Debug.Print(" Bottom
-plane(x,y,z,i,j,k): " & Format(X, "0.0#####") &
-", " & Format(Y, "0.0#####") & ", "
-& Format(Z, "0.0#####") & ", " & Format(i,
-"0.0#####") & ", " & Format(j, "0.0#####")
-& ", " & Format(k, "0.0#####"))
+Debug.Print(" Bottom plane(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-boolstatus
-= myClosedSlotFeature. GetNominalClosedSlot (width, length, X, Y, Z, i,
-j, k, longi, longj, longk)
+boolstatus = myClosedSlotFeature.**GetNominalClosedSlot**(width, length, X, Y, Z, i, j, k, longi, longj, longk)
 
-Debug.Print(" Closed
-slot(width,length,x,j,z,i,j,k,longi,longj,longk): " & Format(width,
-"0.0####") & ", " & Format(length, "0.0####")
-& ", " & Format(X, "0.0#####") & ",
-" & Format(Y, "0.0#####") & ", " &
-Format(Z, "0.0#####") & ", " & Format(i, "0.0#####")
-& ", " & Format(j, "0.0#####") & ",
-" & Format(k, "0.0#####") & ", " &
-Format(longi, "0.0#####") & ", " & Format(longj,
-"0.0#####") & ", " & Format(longk, "0.0#####"))
+Debug.Print(" Closed slot(width,length,x,j,z,i,j,k,longi,longj,longk): " & Format(width, "0.0####") & ", " & Format(length, "0.0####") & ", " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####") & ", " & Format(longi, "0.0#####") & ", " & Format(longj, "0.0#####") & ", " & Format(longk, "0.0#####"))
 
-boolstatus
-= myClosedSlotFeature. GetNominalTopPlane (X, Y, Z, i, j, k)
+boolstatus = myClosedSlotFeature.**GetNominalTopPlane**(X, Y, Z, i, j, k)
 
-Debug.Print(" Top
-plane(x,y,z,i,j,k): " & Format(X, "0.0#####") &
-", " & Format(Y, "0.0#####") & ", "
-& Format(Z, "0.0#####") & ", " & Format(i,
-"0.0#####") & ", " & Format(j, "0.0#####")
-& ", " & Format(k, "0.0#####"))
+Debug.Print(" Top plane(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-boolstatus
-= myClosedSlotFeature. GetPlaneFeatures (planeFeature1, planeFeature2)
+boolstatus = myClosedSlotFeature.**GetPlaneFeatures**(planeFeature1, planeFeature2)
 
-If
-Not planeFeature1 Is Nothing And Not planeFeature2 Is Nothing Then
+If Not planeFeature1 Is Nothing And Not planeFeature2 Is Nothing Then
 
-Debug.Print(" Plane
-features: " & planeFeature1. Name & ", " & planeFeature2. Name )
+Debug.Print(" Plane features: " & planeFeature1.**Name** & ", " & planeFeature2.**Name**)
 
-End
-If
+End If
 
-Debug.Print(" Closed
-slot is blind and not through all: " & myClosedSlotFeature. Blind )
+Debug.Print(" Closed slot is blind and not through all: " & myClosedSlotFeature.**Blind**)
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_CompoundHole
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_CompoundHole
 
-Debug.Print(" Type =
-Compound hole")
+Debug.Print(" Type = Compound hole")
 
-Dim
-myHole As SwDMDimXpertCompoundHoleFeature
+Dim myHole As SwDMDimXpertCompoundHoleFeature
 
-myHole
-= myFeature
+myHole = myFeature
 
-Debug.Print(" Hole
-is blind and not through all: " & myHole. Blind )
+Debug.Print(" Hole is blind and not through all: " & myHole.**Blind**)
 
-Dim
-bottomFeature As SwDMDimXpertFeature
+Dim bottomFeature As SwDMDimXpertFeature
 
-bottomFeature
-= myHole. GetBottomFeature ()
+bottomFeature = myHole.**GetBottomFeature**()
 
-If
-Not (bottomFeature Is Nothing) Then
+If Not (bottomFeature Is Nothing) Then
 
-Debug.Print(" Bottom
-feature type (swDmDimXpertFeatureType_e) = " & bottomFeature. type )
+Debug.Print(" Bottom feature type (swDmDimXpertFeatureType_e) = " & bottomFeature.**type**)
 
-End
-If
+End If
 
-Dim
-refFeature As SwDMDimXpertFeature
+Dim refFeature As SwDMDimXpertFeature
 
-refFeature
-= myHole. GetReferenceFeature ()
+refFeature = myHole.**GetReferenceFeature**()
 
-If
-Not (refFeature Is Nothing) Then
+If Not (refFeature Is Nothing) Then
 
-Debug.Print(" Reference
-feature type (swDmDimXpertFeatureType_e) = " & refFeature. type )
+Debug.Print(" Reference feature type (swDmDimXpertFeatureType_e) = " & refFeature.**type**)
 
-End
-If
+End If
 
-If
-myHole. GetSubFeatureCount > 0 Then
+If myHole.**GetSubFeatureCount** > 0 Then
 
-vObject
-= myHole. GetSubFeatures
+vObject = myHole.**GetSubFeatures**
 
-Debug.Print(" Sub-features:
-")
+Debug.Print(" Sub-features: ")
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-tempFeature
-= vObject(vObjectIndex)
+tempFeature = vObject(vObjectIndex)
 
-Debug.Print(" "
-& tempFeature. Name )
+Debug.Print(" " & tempFeature.**Name**)
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-End
-If
+End If
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_CompoundNotch
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_CompoundNotch
 
-Debug.Print(" Type =
-Compound notch")
+Debug.Print(" Type = Compound notch")
 
-Dim
-myNotchFeature As SwDMDimXpertCompoundNotchFeature
+Dim myNotchFeature As SwDMDimXpertCompoundNotchFeature
 
-myNotchFeature
-= myFeature
+myNotchFeature = myFeature
 
-tempFeature
-= myNotchFeature. GetBottomFeature
+tempFeature = myNotchFeature.**GetBottomFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Bottom
-feature: " & tempFeature. Name )
+Debug.Print(" Bottom feature: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-endFeature1
-= myNotchFeature. GetEndFeature
+endFeature1 = myNotchFeature.**GetEndFeature**
 
-If
-Not endFeature1 Is Nothing Then
+If Not endFeature1 Is Nothing Then
 
-Debug.Print(" End
-feature: " & endFeature1. Name )
+Debug.Print(" End feature: " & endFeature1.**Name**)
 
-End
-If
+End If
 
-boolstatus
-= myNotchFeature. GetNominalBottomPlane (X, Y, Z, i, j, k)
+boolstatus = myNotchFeature.**GetNominalBottomPlane**(X, Y, Z, i, j, k)
 
-Debug.Print(" Bottom
-plane(x,y,z,i,j,k): " & Format(X, "0.0#####") &
-", " & Format(Y, "0.0#####") & ", "
-& Format(Z, "0.0#####") & ", " & Format(i,
-"0.0#####") & ", " & Format(j, "0.0#####")
-& ", " & Format(k, "0.0#####"))
+Debug.Print(" Bottom plane(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-boolstatus
-= myNotchFeature. GetNominalNotch (width, length, X, Y, Z, i, j, k, longi,
-longj, longk)
+boolstatus = myNotchFeature.**GetNominalNotch**(width, length, X, Y, Z, i, j, k, longi, longj, longk)
 
-Debug.Print(" Notch(width,length,x,j,z,i,j,k,longi,longj,longk):
-" & Format(width, "0.0####") & ", " &
-Format(length, "0.0####") & ", " & Format(X,
-"0.0#####") & ", " & Format(Y, "0.0#####")
-& ", " & Format(Z, "0.0#####") & ",
-" & Format(i, "0.0#####") & ", " &
-Format(j, "0.0#####") & ", " & Format(k, "0.0#####")
-& ", " & Format(longi, "0.0#####") & ",
-" & Format(longj, "0.0#####") & ", "
-& Format(longk, "0.0#####"))
+Debug.Print(" Notch(width,length,x,j,z,i,j,k,longi,longj,longk): " & Format(width, "0.0####") & ", " & Format(length, "0.0####") & ", " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####") & ", " & Format(longi, "0.0#####") & ", " & Format(longj, "0.0#####") & ", " & Format(longk, "0.0#####"))
 
-tempFeature
-= myNotchFeature. GetOpenSideReferenceFeature
+tempFeature = myNotchFeature.**GetOpenSideReferenceFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Open
-side reference feature: " & tempFeature. Name )
+Debug.Print(" Open side reference feature: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-tempFeature
-= myNotchFeature. GetTopReferenceFeature
+tempFeature = myNotchFeature.**GetTopReferenceFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Top
-reference feature: " & tempFeature. Name )
+Debug.Print(" Top reference feature: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-planeFeature1
-= Nothing
+planeFeature1 = Nothing
 
-planeFeature2
-= Nothing
+planeFeature2 = Nothing
 
-boolstatus
-= myNotchFeature. GetPlaneFeatures (planeFeature1, planeFeature2)
+boolstatus = myNotchFeature.**GetPlaneFeatures**(planeFeature1, planeFeature2)
 
-If
-Not planeFeature1 Is Nothing And Not planeFeature2 Is Nothing Then
+If Not planeFeature1 Is Nothing And Not planeFeature2 Is Nothing Then
 
-Debug.Print(" Plane
-features: " & planeFeature1. Name & ", " & planeFeature2. Name )
+Debug.Print(" Plane features: " & planeFeature1.**Name** & ", " & planeFeature2.**Name**)
 
-End
-If
+End If
 
-Debug.Print(" Notch
-is blind and not through all: " & myNotchFeature. Blind )
+Debug.Print(" Notch is blind and not through all: " & myNotchFeature.**Blind**)
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_CompoundWidth
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_CompoundWidth
 
-Debug.Print(" Type =
-Compound width")
+Debug.Print(" Type = Compound width")
 
-Dim
-myWidthFeature As SwDMDimXpertCompoundWidthFeature
+Dim myWidthFeature As SwDMDimXpertCompoundWidthFeature
 
-myWidthFeature
-= myFeature
+myWidthFeature = myFeature
 
-boolstatus
-= myWidthFeature. GetNominalCompoundWidth (width, X, Y, Z, i, j, k)
+boolstatus = myWidthFeature.**GetNominalCompoundWidth**(width, X, Y, Z, i, j, k)
 
-Debug.Print(" Compound
-width(width,x,j,z,i,j,k): " & Format(width, "0.0####")
-& ", " & Format(X, "0.0#####") & ",
-" & Format(Y, "0.0#####") & ", " &
-Format(Z, "0.0#####") & ", " & Format(i, "0.0#####")
-& ", " & Format(j, "0.0#####") & ",
-" & Format(k, "0.0#####"))
+Debug.Print(" Compound width(width,x,j,z,i,j,k): " & Format(width, "0.0####") & ", " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-boolstatus
-= myWidthFeature. GetNominalLongitude (i, j, k)
+boolstatus = myWidthFeature.**GetNominalLongitude**(i, j, k)
 
-Debug.Print(" Nominal
-longitude(longi, longj, longk): " & Format(longi, "0.0#####")
-& ", " & Format(longj, "0.0#####") & ",
-" & Format(longk, "0.0#####"))
+Debug.Print(" Nominal longitude(longi, longj, longk): " & Format(longi, "0.0#####") & ", " & Format(longj, "0.0#####") & ", " & Format(longk, "0.0#####"))
 
-Debug.Print(" Compound
-width is for a hole and not a pin: " & myWidthFeature. Inner )
+Debug.Print(" Compound width is for a hole and not a pin: " & myWidthFeature.**Inner**)
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_Cone
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_Cone
 
-Debug.Print(" Type =
-Cone")
+Debug.Print(" Type = Cone")
 
-Dim
-myConeFeature As SwDMDimXpertConeFeature
+Dim myConeFeature As SwDMDimXpertConeFeature
 
-myConeFeature
-= myFeature
+myConeFeature = myFeature
 
-boolstatus
-= myConeFeature. GetNominalBottomPlane (X, Y, Z, i, j, k)
+boolstatus = myConeFeature.**GetNominalBottomPlane**(X, Y, Z, i, j, k)
 
-Debug.Print(" Nominal
-bottom plane(x,y,z,i,j,k): "
-& Format(X, "0.0#####") & ", " & Format(Y,
-"0.0#####") & ", " & Format(Z, "0.0#####")
-& ", " & Format(i, "0.0#####") & ",
-" & Format(j, "0.0#####") & ", " &
-Format(k, "0.0#####"))
+Debug.Print(" Nominal bottom plane(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-boolstatus
-= myConeFeature. GetNominalCone (angle, X, Y, Z, i, j, k)
+boolstatus = myConeFeature.**GetNominalCone**(angle, X, Y, Z, i, j, k)
 
-Debug.Print(" Cone(angle,x,j,z,i,j,k):
-" & Format(angle, "0.0####") & ", " &
-Format(X, "0.0#####") & ", " & Format(Y, "0.0#####")
-& ", " & Format(Z, "0.0#####") & ",
-" & Format(i, "0.0#####") & ", " &
-Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
+Debug.Print(" Cone(angle,x,j,z,i,j,k): " & Format(angle, "0.0####") & ", " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-boolstatus
-= myConeFeature. GetNominalTopPlane (X, Y, Z, i, j, k)
+boolstatus = myConeFeature.**GetNominalTopPlane**(X, Y, Z, i, j, k)
 
-Debug.Print(" Nominal
-top plane(x,y,z,i,j,k): "
-& Format(X, "0.0#####") & ", " & Format(Y,
-"0.0#####") & ", " & Format(Z, "0.0#####")
-& ", " & Format(i, "0.0#####") & ",
-" & Format(j, "0.0#####") & ", " &
-Format(k, "0.0#####"))
+Debug.Print(" Nominal top plane(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-Debug.Print(" Cone
-is a hole and not a pin: " & myConeFeature. Inner )
+Debug.Print(" Cone is a hole and not a pin: " & myConeFeature.**Inner**)
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_Cylinder
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_Cylinder
 
-Debug.Print(" Type =
-Cylinder")
+Debug.Print(" Type = Cylinder")
 
-Dim
-myCylinder As SwDMDimXpertCylinderFeature
+Dim myCylinder As SwDMDimXpertCylinderFeature
 
-myCylinder
-= myFeature
+myCylinder = myFeature
 
-boolstatus
-= myCylinder. GetNominalTopPlane (X, Y, Z, i, j, k)
+boolstatus = myCylinder.**GetNominalTopPlane**(X, Y, Z, i, j, k)
 
-Debug.Print(" TopPlane(x,y,z,i,j,k):
-" & Format(X, "0.0#####") & ", " &
-Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####")
-& ", " & Format(i, "0.0#####") & ",
-" & Format(j, "0.0#####") & ", " &
-Format(k, "0.0#####"))
+Debug.Print(" TopPlane(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-boolstatus
-= myCylinder. GetNominalCylinder (angle, X, Y, Z, i, j, k)
+boolstatus = myCylinder.**GetNominalCylinder**(angle, X, Y, Z, i, j, k)
 
-Debug.Print(" Cylinder(radius,x,j,z,i,j,k):
-" & Format(angle, "0.0####") & ", " &
-Format(X, "0.0#####") & ", " & Format(Y, "0.0#####")
-& ", " & Format(Z, "0.0#####") & ",
-" & Format(i, "0.0#####") & ", " &
-Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
+Debug.Print(" Cylinder(radius,x,j,z,i,j,k): " & Format(angle, "0.0####") & ", " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-boolstatus
-= myCylinder. GetNominalBottomPlane (X, Y, Z, i, j, k)
+boolstatus = myCylinder.**GetNominalBottomPlane**(X, Y, Z, i, j, k)
 
-Debug.Print(" BottomPlane(x,y,z,i,j,k):
-" & Format(X, "0.0#####") & ", " &
-Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####")
-& ", " & Format(i, "0.0#####") & ",
-" & Format(j, "0.0#####") & ", " &
-Format(k, "0.0#####"))
+Debug.Print(" BottomPlane(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-Dim
-isThreaded As Boolean, threadDesignation As String, threadDepth As Double
+Dim isThreaded As Boolean, threadDesignation As String, threadDepth As Double
 
-threadDesignation
-= Nothing
+threadDesignation = Nothing
 
-boolstatus
-= myCylinder. GetThread (isThreaded, threadDesignation, threadDepth)
+boolstatus = myCylinder.**GetThread**(isThreaded, threadDesignation, threadDepth)
 
-Debug.Print(" Cylinder
-is threaded: " & isThreaded)
+Debug.Print(" Cylinder is threaded: " & isThreaded)
 
-If
-(isThreaded) Then
+If (isThreaded) Then
 
-Debug.Print(" Cylinder
-thread designation: " & threadDesignation)
+Debug.Print(" Cylinder thread designation: " & threadDesignation)
 
-Debug.Print(" Cylinder
-thread depth: " & threadDepth)
+Debug.Print(" Cylinder thread depth: " & threadDepth)
 
-End
-If
+End If
 
-Debug.Print(" Cylinder
-is a hole and not a pin: " & myCylinder. Inner )
+Debug.Print(" Cylinder is a hole and not a pin: " & myCylinder.**Inner**)
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_Extrude
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_Extrude
 
-Debug.Print(" Type =
-Extrude")
+Debug.Print(" Type = Extrude")
 
-Dim
-myExtrude As SwDMDimXpertExtrudeFeature
+Dim myExtrude As SwDMDimXpertExtrudeFeature
 
-myExtrude
-= myFeature
+myExtrude = myFeature
 
-tempFeature
-= myExtrude. GetBottomFeature
+tempFeature = myExtrude.**GetBottomFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Bottom
-feature: " & tempFeature. Name )
+Debug.Print(" Bottom feature: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-tempFeature
-= myExtrude. GetBottomBlends
+tempFeature = myExtrude.**GetBottomBlends**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Bottom
-blends: " & tempFeature. Name )
+Debug.Print(" Bottom blends: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-tempFeature
-= myExtrude. GetTopBlends
+tempFeature = myExtrude.**GetTopBlends**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Top
-blends: " & tempFeature. Name )
+Debug.Print(" Top blends: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-tempFeature
-= myExtrude. GetReferenceFeature
+tempFeature = myExtrude.**GetReferenceFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Reference
-feature: " & tempFeature. Name )
+Debug.Print(" Reference feature: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-Debug.Print(" Number
-of sub-features: " & myExtrude. GetSubFeatureCount )
+Debug.Print(" Number of sub-features: " & myExtrude.**GetSubFeatureCount**)
 
-If
-myExtrude. GetSubFeatureCount > 0 Then
+If myExtrude.**GetSubFeatureCount** > 0 Then
 
 Debug.Print(" Sub-features:")
 
-vObject
-= myExtrude. GetSubFeatures
+vObject = myExtrude.**GetSubFeatures**
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-tempFeature
-= vObject(vObjectIndex)
+tempFeature = vObject(vObjectIndex)
 
-Debug.Print(" "
-& tempFeature. Name )
+Debug.Print(" " & tempFeature.**Name**)
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-End
-If
+End If
 
-Debug.Print(" Extrude
-is blind and not through all: " & myExtrude. Blind )
+Debug.Print(" Extrude is blind and not through all: " & myExtrude.**Blind**)
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_Fillet
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_Fillet
 
-Debug.Print(" Type =
-Fillet")
+Debug.Print(" Type = Fillet")
 
-Dim
-myFillet As SwDMDimXpertFilletFeature
+Dim myFillet As SwDMDimXpertFilletFeature
 
-myFillet
-= myFeature
+myFillet = myFeature
 
-Debug.Print(" Fillet
-is for a hole and not a pin: " & myFillet. Inner )
+Debug.Print(" Fillet is for a hole and not a pin: " & myFillet.**Inner**)
 
-Debug.Print(" Radius
-= " & myFillet. Radius )
+Debug.Print(" Radius = " & myFillet.**Radius**)
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_IntersectCircle
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_IntersectCircle
 
-Debug.Print(" Type =
-Intersect circle")
+Debug.Print(" Type = Intersect circle")
 
-Dim
-myICircle As SwDMDimXpertIntersectCircleFeature
+Dim myICircle As SwDMDimXpertIntersectCircleFeature
 
-myICircle
-= myFeature
+myICircle = myFeature
 
-tempFeature
-= myICircle. GetIntersectFeature
+tempFeature = myICircle.**GetIntersectFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Intersect
-feature: " & tempFeature. Name )
+Debug.Print(" Intersect feature: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-tempFeature
-= myICircle. GetPlaneFeature
+tempFeature = myICircle.**GetPlaneFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Plane
-feature: " & tempFeature. Name )
+Debug.Print(" Plane feature: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-boolstatus
-= myICircle. GetNominalCircle (angle, X, Y, Z, i, j, k)
+boolstatus = myICircle.**GetNominalCircle**(angle, X, Y, Z, i, j, k)
 
-Debug.Print(" Intersect
-circle(radius,x,y,z,i,j,k): " & Format(angle, "0.0####")
-& ", " & Format(X, "0.0#####") & ",
-" & Format(Y, "0.0#####") & ", " &
-Format(Z, "0.0#####") & ", " & Format(i, "0.0#####")
-& ", " & Format(j, "0.0#####") & ",
-" & Format(k, "0.0#####"))
+Debug.Print(" Intersect circle(radius,x,y,z,i,j,k): " & Format(angle, "0.0####") & ", " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_IntersectLine
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_IntersectLine
 
-Debug.Print(" Type =
-Intersect line")
+Debug.Print(" Type = Intersect line")
 
-Dim
-myILine As SwDMDimXpertIntersectLineFeature
+Dim myILine As SwDMDimXpertIntersectLineFeature
 
-myILine
-= myFeature
+myILine = myFeature
 
-tempFeature
-= Nothing
+tempFeature = Nothing
 
-tempFeature1
-= Nothing
+tempFeature1 = Nothing
 
-boolstatus
-= myILine. GetPlaneFeatures (tempFeature, tempFeature1)
+boolstatus = myILine.**GetPlaneFeatures**(tempFeature, tempFeature1)
 
-If
-Not tempFeature Is Nothing And Not tempFeature1 Is Nothing Then
+If Not tempFeature Is Nothing And Not tempFeature1 Is Nothing Then
 
-Debug.Print(" Plane
-feature 1: " & tempFeature. Name )
+Debug.Print(" Plane feature 1: " & tempFeature.**Name**)
 
-Debug.Print(" Plane
-feature 2: " & tempFeature1. Name )
+Debug.Print(" Plane feature 2: " & tempFeature1.**Name**)
 
-End
-If
+End If
 
-boolstatus
-= myILine. GetNominalLine (X, Y, Z, i, j, k)
+boolstatus = myILine.**GetNominalLine**(X, Y, Z, i, j, k)
 
-Debug.Print(" Intersect
-line(x,y,z,i,j,k): " & Format(X, "0.0#####") &
-", " & Format(Y, "0.0#####") & ", "
-& Format(Z, "0.0#####") & ", " & Format(i,
-"0.0#####") & ", " & Format(j, "0.0#####")
-& ", " & Format(k, "0.0#####"))
+Debug.Print(" Intersect line(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_IntersectPlane
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_IntersectPlane
 
-Debug.Print(" Type =
-Intersect plane")
+Debug.Print(" Type = Intersect plane")
 
-Dim
-myIPlane As SwDMDimXpertIntersectPlaneFeature
+Dim myIPlane As SwDMDimXpertIntersectPlaneFeature
 
-myIPlane
-= myFeature
+myIPlane = myFeature
 
-tempFeature
-= Nothing
+tempFeature = Nothing
 
-tempFeature1
-= Nothing
+tempFeature1 = Nothing
 
-boolstatus
-= myIPlane. GetFeatures (tempFeature, tempFeature1)
+boolstatus = myIPlane.**GetFeatures**(tempFeature, tempFeature1)
 
-If
-Not tempFeature Is Nothing And Not tempFeature1 Is Nothing Then
+If Not tempFeature Is Nothing And Not tempFeature1 Is Nothing Then
 
-Debug.Print(" Feature
-1: " & tempFeature. Name )
+Debug.Print(" Feature 1: " & tempFeature.**Name**)
 
-Debug.Print(" Feature
-2: " & tempFeature1. Name )
+Debug.Print(" Feature 2: " & tempFeature1.**Name**)
 
-End
-If
+End If
 
-boolstatus
-= myIPlane. GetNominalPlane (X, Y, Z, i, j, k)
+boolstatus = myIPlane.**GetNominalPlane**(X, Y, Z, i, j, k)
 
-Debug.Print(" Intersect
-plane(x,y,z,i,j,k): " & Format(X, "0.0#####") &
-", " & Format(Y, "0.0#####") & ", "
-& Format(Z, "0.0#####") & ", " & Format(i,
-"0.0#####") & ", " & Format(j, "0.0#####")
-& ", " & Format(k, "0.0#####"))
+Debug.Print(" Intersect plane(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_IntersectPoint
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_IntersectPoint
 
-Debug.Print(" Type =
-Intersect point")
+Debug.Print(" Type = Intersect point")
 
-Dim
-myIPoint As SwDMDimXpertIntersectPointFeature
+Dim myIPoint As SwDMDimXpertIntersectPointFeature
 
-myIPoint
-= myFeature
+myIPoint = myFeature
 
-tempFeature
-= Nothing
+tempFeature = Nothing
 
-tempFeature1
-= Nothing
+tempFeature1 = Nothing
 
-boolstatus
-= myIPoint. GetFeatures (tempFeature, tempFeature1)
+boolstatus = myIPoint.**GetFeatures**(tempFeature, tempFeature1)
 
-If
-Not tempFeature Is Nothing And Not tempFeature1 Is Nothing Then
+If Not tempFeature Is Nothing And Not tempFeature1 Is Nothing Then
 
-Debug.Print(" Feature
-1: " & tempFeature. Name )
+Debug.Print(" Feature 1: " & tempFeature.**Name**)
 
-Debug.Print(" Feature
-2: " & tempFeature1. Name )
+Debug.Print(" Feature 2: " & tempFeature1.**Name**)
 
-End
-If
+End If
 
-boolstatus
-= myIPoint. GetNominalPoint (X, Y, Z)
+boolstatus = myIPoint.**GetNominalPoint**(X, Y, Z)
 
-boolstatus
-= myIPoint. GetNominalVector (i, j, k)
+boolstatus = myIPoint.**GetNominalVector**(i, j, k)
 
-Debug.Print(" Intersect
-point(x,y,z,i,j,k): " & Format(X, "0.0#####") &
-", " & Format(Y, "0.0#####") & ", "
-& Format(Z, "0.0#####") & ", " & Format(i,
-"0.0#####") & ", " & Format(j, "0.0#####")
-& ", " & Format(k, "0.0#####"))
+Debug.Print(" Intersect point(x,y,z,i,j,k): " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_Pattern
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_Pattern
 
-Debug.Print(" Type =
-Pattern")
+Debug.Print(" Type = Pattern")
 
-Dim
-myPattern As SwDMDimXpertPatternFeature
+Dim myPattern As SwDMDimXpertPatternFeature
 
-myPattern
-= myFeature
+myPattern = myFeature
 
-Debug.Print(" Number
-of sub-features: " & myPattern. GetSubFeatureCount )
+Debug.Print(" Number of sub-features: " & myPattern.**GetSubFeatureCount**)
 
-If
-myPattern. GetSubFeatureCount > 0 Then
+If myPattern.**GetSubFeatureCount** > 0 Then
 
 Debug.Print(" Sub-features:")
 
-vObject
-= myPattern. GetSubFeatures
+vObject = myPattern.**GetSubFeatures**
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-tempFeature
-= vObject(vObjectIndex)
+tempFeature = vObject(vObjectIndex)
 
-Debug.Print(" "
-& tempFeature. Name )
+Debug.Print(" " & tempFeature.**Name**)
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-End
-If
+End If
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_Sphere
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_Sphere
 
-Debug.Print(" Type =
-Sphere")
+Debug.Print(" Type = Sphere")
 
-Dim
-mySphere As SwDMDimXpertSphereFeature
+Dim mySphere As SwDMDimXpertSphereFeature
 
-mySphere
-= myFeature
+mySphere = myFeature
 
-boolstatus
-= mySphere. GetNominalSphere (angle, X, Y, Z)
+boolstatus = mySphere.**GetNominalSphere**(angle, X, Y, Z)
 
-Debug.Print(" Sphere(radius,x,j,z):
-" & Format(angle, "0.0####") & ", " &
-Format(X, "0.0#####") & ", " & Format(Y, "0.0#####")
-& ", " & Format(Z, "0.0#####"))
+Debug.Print(" Sphere(radius,x,j,z): " & Format(angle, "0.0####") & ", " & Format(X, "0.0#####") & ", " & Format(Y, "0.0#####") & ", " & Format(Z, "0.0#####"))
 
-Debug.Print(" Sphere
-is for a hole and not a pin: " & mySphere. Inner )
+Debug.Print(" Sphere is for a hole and not a pin: " & mySphere.**Inner**)
 
-Case
-swDmDimXpertFeatureType_e.swDmDimXpertFeature_Surface
+Case swDmDimXpertFeatureType_e.swDmDimXpertFeature_Surface
 
-Debug.Print(" Type =
-Surface")
+Debug.Print(" Type = Surface")
 
-Case
-Else
+Case Else
 
-Debug.Print(" Type =
-<unknown>")
+Debug.Print(" Type = <unknown>")
 
-End
-Select
+End Select
 
-Debug.Print(" CAD
-identifier count = " & myFeature. GetCadIdentifierCount )
+Debug.Print(" CAD identifier count = " & myFeature.**GetCadIdentifierCount**)
 
-If
-myFeature.GetCadIdentifierCount > 0 Then
+If myFeature.GetCadIdentifierCount > 0 Then
 
-Debug.Print(" CAD
-Identifiers:")
+Debug.Print(" CAD Identifiers:")
 
-vObject
-= myFeature. GetCadIdentifiers
+vObject = myFeature.**GetCadIdentifiers**
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-Debug.Print(" "
-& vObject(vObjectIndex))
+Debug.Print(" " & vObject(vObjectIndex))
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-End
-If
+End If
 
-Debug.Print(" Suppressed
-= " & myFeature. IsSuppressed )
+Debug.Print(" Suppressed = " & myFeature.**IsSuppressed**)
 
-Debug.Print("
-")
+Debug.Print(" ")
 
-Next
-featureIndex
+Next featureIndex
 
-End
-If
+End If
 
-myBlockTolerance
-= myDimXpertPart. GetBlockTolerances
+myBlockTolerance = myDimXpertPart.**GetBlockTolerances**
 
-Debug.Print("
-DimXpert block tolerance settings:")
+Debug.Print(" DimXpert block tolerance settings:")
 
-Debug.Print("
-")
+Debug.Print(" ")
 
-Dim
-linear1 As Double, linear2 As Double, linear3 As Double, angular As Double
+Dim linear1 As Double, linear2 As Double, linear3 As Double, angular As Double
 
-Dim
-linear1Prec As Integer, linear2Prec As Integer, linear3Prec As Integer
+Dim linear1Prec As Integer, linear2Prec As Integer, linear3Prec As Integer
 
-bltType
-= myBlockTolerance. type
+bltType = myBlockTolerance.**type**
 
-Select
-Case bltType
+Select Case bltType
 
-Case
-swDmDimXpertBlockToleranceType_e.swDmDimXpertBlockToleranceType_ASMEInch
+Case swDmDimXpertBlockToleranceType_e.swDmDimXpertBlockToleranceType_ASMEInch
 
-boolstatus
-= myBlockTolerance. GetToleranceValues (linear1, linear1Prec, linear2, linear2Prec,
-linear3, linear3Prec, angular)
+boolstatus = myBlockTolerance.**GetToleranceValues**(linear1, linear1Prec, linear2, linear2Prec, linear3, linear3Prec, angular)
 
-Debug.Print(" ASMEInch
-Dimension 1 tolerance: " & linear1)
+Debug.Print(" ASMEInch Dimension 1 tolerance: " & linear1)
 
-Debug.Print(" ASMEInch
-Dimension 1 tolerance precision: " & linear1Prec)
+Debug.Print(" ASMEInch Dimension 1 tolerance precision: " & linear1Prec)
 
-Debug.Print(" ASMEInch
-Dimension 2 tolerance: " & linear2)
+Debug.Print(" ASMEInch Dimension 2 tolerance: " & linear2)
 
-Debug.Print(" ASMEInch
-Dimension 2 tolerance precision: " & linear2Prec)
+Debug.Print(" ASMEInch Dimension 2 tolerance precision: " & linear2Prec)
 
-Debug.Print(" ASMEInch
-Dimension 3 tolerance: " & linear3)
+Debug.Print(" ASMEInch Dimension 3 tolerance: " & linear3)
 
-Debug.Print(" ASMEInch
-Dimension 3 tolerance precision: " & linear3Prec)
+Debug.Print(" ASMEInch Dimension 3 tolerance precision: " & linear3Prec)
 
-Debug.Print(" ASMEInch
-Angular tolerance: " & angular)
+Debug.Print(" ASMEInch Angular tolerance: " & angular)
 
-Case
-swDmDimXpertBlockToleranceType_e.swDmDimXpertBlockToleranceType_ISO2768
+Case swDmDimXpertBlockToleranceType_e.swDmDimXpertBlockToleranceType_ISO2768
 
-Dim
-ISO2768Type As swDmDimXpertISO2768PartType_e
+Dim ISO2768Type As swDmDimXpertISO2768PartType_e
 
-boolstatus
-= myBlockTolerance. GetISO2768PartType (ISO2768Type)
+boolstatus = myBlockTolerance.**GetISO2768PartType**(ISO2768Type)
 
-Debug.Print(" ISO
-2768 part type (swDmDimXpertISO2768PartType_e): " & ISO2768Type)
+Debug.Print(" ISO 2768 part type (swDmDimXpertISO2768PartType_e): " & ISO2768Type)
 
-Case
-swDmDimXpertBlockToleranceType_e.swDmDimXpertBlockToleranceType_unknown
+Case swDmDimXpertBlockToleranceType_e.swDmDimXpertBlockToleranceType_unknown
 
-Debug.Print(" Block
-tolerance unknown")
+Debug.Print(" Block tolerance unknown")
 
-End
-Select
+End Select
 
-vAnnotations
-= myDimXpertPart. GetAnnotations ()
+vAnnotations = myDimXpertPart.**GetAnnotations**()
 
-If
-Not (IsNothing(vAnnotations)) Then
+If Not (IsNothing(vAnnotations)) Then
 
-Debug.Print("
-")
+Debug.Print(" ")
 
-Debug.Print(myDimXpertPart. GetAnnotationCount & " DimXpert annotations:")
+Debug.Print(myDimXpertPart.**GetAnnotationCount** & " DimXpert annotations:")
 
-Debug.Print("
-")
+Debug.Print(" ")
 
-For
-annoIndex = LBound(vAnnotations) To UBound(vAnnotations)
+For annoIndex = LBound(vAnnotations) To UBound(vAnnotations)
 
-myDimTol
-= Nothing
+myDimTol = Nothing
 
-myGeoTol
-= Nothing
+myGeoTol = Nothing
 
-myOriTol
-= Nothing
+myOriTol = Nothing
 
-myAnnotation
-= vAnnotations(annoIndex)
+myAnnotation = vAnnotations(annoIndex)
 
-Debug.Print(annoIndex
-& " : " & "Annotation name = " & myAnnotation. Name )
+Debug.Print(annoIndex & " : " & "Annotation name = " & myAnnotation.**Name**)
 
-annotype
-= myAnnotation. type
+annotype = myAnnotation.**type**
 
-Select
-Case annotype
+Select Case annotype
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDatum
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDatum
 
-Debug.Print(" Type =
-Datum")
+Debug.Print(" Type = Datum")
 
-Dim
-myDatum As swDmDimXpertDatum
+Dim myDatum As swDmDimXpertDatum
 
-myDatum
-= myAnnotation
+myDatum = myAnnotation
 
-Debug.Print(" ID
-= " & myDatum. Identifier )
+Debug.Print(" ID = " & myDatum.**Identifier**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_AngleBetween
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_AngleBetween
 
-Debug.Print(" Type =
-Angle-between dimension tolerance")
+Debug.Print(" Type = Angle-between dimension tolerance")
 
-Dim
-myAngBetDimTol As SwDMDimXpertAngleBetweenDimTol
+Dim myAngBetDimTol As SwDMDimXpertAngleBetweenDimTol
 
-myAngBetDimTol
-= myAnnotation
+myAngBetDimTol = myAnnotation
 
-boolstatus
-= myAngBetDimTol. GetDirectionVector (i, j, k)
+boolstatus = myAngBetDimTol.**GetDirectionVector**(i, j, k)
 
-Debug.Print(" DirectionVector(i,j,k):
-" & i & ", " & j & ", " &
-k)
+Debug.Print(" DirectionVector(i,j,k): " & i & ", " & j & ", " & k)
 
-Debug.Print(" Feature
-of origin: " & myAngBetDimTol. OriginFeature . Name )
+Debug.Print(" Feature of origin: " & myAngBetDimTol.**OriginFeature**.**Name**)
 
-Debug.Print(" Calculate
-supplement angle? " & myAngBetDimTol. Supplement )
+Debug.Print(" Calculate supplement angle? " & myAngBetDimTol.**Supplement**)
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_ChamferDimension
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_ChamferDimension
 
-Debug.Print(" Type =
-Chamfer dimension tolerance")
+Debug.Print(" Type = Chamfer dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Dim
-myChamferDimTol As SwDMDimXpertChamferDimTol
+Dim myChamferDimTol As SwDMDimXpertChamferDimTol
 
-myChamferDimTol
-= myAnnotation
+myChamferDimTol = myAnnotation
 
-Debug.Print(" Chamfer
-dimension type (swDmDimXpertChamferDimensionType_e): " & myChamferDimTol. ChamferType )
+Debug.Print(" Chamfer dimension type (swDmDimXpertChamferDimensionType_e): " & myChamferDimTol.**ChamferType**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_CompositeDistanceBetween
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_CompositeDistanceBetween
 
-Debug.Print(" Type =
-Composite distance-between dimension tolerance")
+Debug.Print(" Type = Composite distance-between dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Dim
-myCompDistBetDimTol As SwDMDimXpertCompositeDistanceBetweenDimTol
+Dim myCompDistBetDimTol As SwDMDimXpertCompositeDistanceBetweenDimTol
 
-myCompDistBetDimTol
-= myAnnotation
+myCompDistBetDimTol = myAnnotation
 
-boolstatus
-= myCompDistBetDimTol. GetDirectionVector (i, j, k)
+boolstatus = myCompDistBetDimTol.**GetDirectionVector**(i, j, k)
 
-Debug.Print(" Direction
-vector(i,j,k): " & i & ", " & j & ",
-" & k)
+Debug.Print(" Direction vector(i,j,k): " & i & ", " & j & ", " & k)
 
-tempFeature1
-= Nothing
+tempFeature1 = Nothing
 
-boolstatus
-= myCompDistBetDimTol. GetFeature (tempFeature1, fosUsage)
+boolstatus = myCompDistBetDimTol.**GetFeature**(tempFeature1, fosUsage)
 
-If
-Not tempFeature1 Is Nothing Then
+If Not tempFeature1 Is Nothing Then
 
-Debug.Print(" Composite
-distance-between dimension tolerance feature: " & tempFeature1. Name )
+Debug.Print(" Composite distance-between dimension tolerance feature: " & tempFeature1.**Name**)
 
-Debug.Print(" Feature
-of size usage (swDmDimXpertDistanceFosUsage_e): " & fosUsage)
+Debug.Print(" Feature of size usage (swDmDimXpertDistanceFosUsage_e): " & fosUsage)
 
-End
-If
+End If
 
-boolstatus
-= myCompDistBetDimTol. GetIntraFeature (tempFeature1, fosUsage)
+boolstatus = myCompDistBetDimTol.**GetIntraFeature**(tempFeature1, fosUsage)
 
-If
-Not tempFeature1 Is Nothing Then
+If Not tempFeature1 Is Nothing Then
 
-Debug.Print(" Feature-locating
-feature: " & tempFeature1. Name )
+Debug.Print(" Feature-locating feature: " & tempFeature1.**Name**)
 
-Debug.Print(" Feature
-of size usage for feature-locating(swDmDimXpertDistanceFosUsage_e): "
-& fosUsage)
+Debug.Print(" Feature of size usage for feature-locating(swDmDimXpertDistanceFosUsage_e): " & fosUsage)
 
-End
-If
+End If
 
-boolstatus
-= myCompDistBetDimTol. GetOriginFeature (tempFeature1, fosUsage)
+boolstatus = myCompDistBetDimTol.**GetOriginFeature**(tempFeature1, fosUsage)
 
-If
-Not tempFeature1 Is Nothing Then
+If Not tempFeature1 Is Nothing Then
 
-Debug.Print(" Feature
-of origin for this dimension tolerance: " & tempFeature1. Name )
+Debug.Print(" Feature of origin for this dimension tolerance: " & tempFeature1.**Name**)
 
-Debug.Print(" Feature
-of size usage (swDmDimXpertDistanceFosUsage_e): " & fosUsage)
+Debug.Print(" Feature of size usage (swDmDimXpertDistanceFosUsage_e): " & fosUsage)
 
-End
-If
+End If
 
-Debug.Print(" Type
-of dimension tolerance for feature-locating (swDmDimXpertDimensionToleranceType_e):
-" & myCompDistBetDimTol. DimensionTypeIntraFeature )
+Debug.Print(" Type of dimension tolerance for feature-locating (swDmDimXpertDimensionToleranceType_e): " & myCompDistBetDimTol.**DimensionTypeIntraFeature**)
 
-Debug.Print(" Tolerance
-for feature-locating: " & myCompDistBetDimTol. GetNominalValueIntraFeature )
+Debug.Print(" Tolerance for feature-locating: " & myCompDistBetDimTol.**GetNominalValueIntraFeature**)
 
-boolstatus
-= myCompDistBetDimTol. GetPlusAndMinusToleranceIntraFeature (plusTol, minusTol)
+boolstatus = myCompDistBetDimTol.**GetPlusAndMinusToleranceIntraFeature**(plusTol, minusTol)
 
-Debug.Print(" Plus
-/ Minus limit for feature-locating: " & plusTol & "
-/ " & minusTol)
+Debug.Print(" Plus / Minus limit for feature-locating: " & plusTol & " / " & minusTol)
 
-boolstatus
-= myCompDistBetDimTol. GetUpperAndLowerLimitIntraFeature (upperTol, lowerTol)
+boolstatus = myCompDistBetDimTol.**GetUpperAndLowerLimitIntraFeature**(upperTol, lowerTol)
 
-Debug.Print(" Upper
-/ Lower limit for feature-locating: " & upperTol & "
-/ " & lowerTol)
+Debug.Print(" Upper / Lower limit for feature-locating: " & upperTol & " / " & lowerTol)
 
-Debug.Print(" Block
-tolerance precision for feature-locating: " & myCompDistBetDimTol. BlockToleranceDecimalPlacesIntraFeature )
+Debug.Print(" Block tolerance precision for feature-locating: " & myCompDistBetDimTol.**BlockToleranceDecimalPlacesIntraFeature**)
 
-Debug.Print(" Limits
-and fits code for feature-locating: " & myCompDistBetDimTol. LimitsAndFitsCodeIntraFeature )
+Debug.Print(" Limits and fits code for feature-locating: " & myCompDistBetDimTol.**LimitsAndFitsCodeIntraFeature**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_ConeAngle
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_ConeAngle
 
-Debug.Print(" Type =
-Cone angle dimension tolerance")
+Debug.Print(" Type = Cone angle dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_CounterBore
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_CounterBore
 
-Debug.Print(" Type =
-Counterbore dimension tolerance")
+Debug.Print(" Type = Counterbore dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Dim
-myCounterBoreDimTol As SwDMDimXpertCounterBoreDimTol
+Dim myCounterBoreDimTol As SwDMDimXpertCounterBoreDimTol
 
-myCounterBoreDimTol
-= myAnnotation
+myCounterBoreDimTol = myAnnotation
 
-tempFeature
-= myCounterBoreDimTol. ReferenceFeature
+tempFeature = myCounterBoreDimTol.**ReferenceFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Reference
-Feature for this dimension tolerance: " & tempFeature. Name )
+Debug.Print(" Reference Feature for this dimension tolerance: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_CounterSinkAngle
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_CounterSinkAngle
 
-Debug.Print(" Type =
-Countersink angle dimension tolerance")
+Debug.Print(" Type = Countersink angle dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Dim
-myCounterSinkAngleDimTol As SwDMDimXpertCounterSinkAngleDimTol
+Dim myCounterSinkAngleDimTol As SwDMDimXpertCounterSinkAngleDimTol
 
-myCounterSinkAngleDimTol
-= myAnnotation
+myCounterSinkAngleDimTol = myAnnotation
 
-tempFeature
-= myCounterSinkAngleDimTol. ReferenceFeature
+tempFeature = myCounterSinkAngleDimTol.**ReferenceFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Reference
-Feature for this dimension tolerance: " & tempFeature. Name )
+Debug.Print(" Reference Feature for this dimension tolerance: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_CounterSinkDiameter
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_CounterSinkDiameter
 
-Debug.Print(" Type =
-Countersink diameter dimension tolerance")
+Debug.Print(" Type = Countersink diameter dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Dim
-myCounterSinkDiameterDimTol As SwDMDimXpertCounterSinkDiameterDimTol
+Dim myCounterSinkDiameterDimTol As SwDMDimXpertCounterSinkDiameterDimTol
 
-myCounterSinkDiameterDimTol
-= myAnnotation
+myCounterSinkDiameterDimTol = myAnnotation
 
-tempFeature
-= myCounterSinkDiameterDimTol. ReferenceFeature
+tempFeature = myCounterSinkDiameterDimTol.**ReferenceFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Reference
-Feature for this dimension tolerance: " & tempFeature. Name )
+Debug.Print(" Reference Feature for this dimension tolerance: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_Depth
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_Depth
 
-Debug.Print(" Type =
-Depth dimension tolerance")
+Debug.Print(" Type = Depth dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Dim
-myDepthDimTol As SwDMDimXpertDepthDimTol
+Dim myDepthDimTol As SwDMDimXpertDepthDimTol
 
-myDepthDimTol
-= myAnnotation
+myDepthDimTol = myAnnotation
 
-Debug.Print(" Tolerance
-is for thread depth: " & myDepthDimTol. IsThreadDepth )
+Debug.Print(" Tolerance is for thread depth: " & myDepthDimTol.**IsThreadDepth**)
 
-tempFeature
-= myDepthDimTol. ReferenceFeature
+tempFeature = myDepthDimTol.**ReferenceFeature**
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Reference
-Feature for this dimension tolerance: " & tempFeature. Name )
+Debug.Print(" Reference Feature for this dimension tolerance: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_Diameter
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_Diameter
 
-Debug.Print(" Type =
-Diameter dimension tolerance")
+Debug.Print(" Type = Diameter dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Dim
-myDiameterDimTol As SwDMDimXpertDiameterDimTol
+Dim myDiameterDimTol As SwDMDimXpertDiameterDimTol
 
-myDiameterDimTol
-= myAnnotation
+myDiameterDimTol = myAnnotation
 
-Debug.Print(" Pattern
-treatment type (swDmDimXpertPatternTreatmentType_e): " & myDiameterDimTol. PatternTreatment )
+Debug.Print(" Pattern treatment type (swDmDimXpertPatternTreatmentType_e): " & myDiameterDimTol.**PatternTreatment**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_DistanceBetween
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_DistanceBetween
 
-Debug.Print(" Type =
-Distance-between dimension tolerance")
+Debug.Print(" Type = Distance-between dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Dim
-myDistBetDimTol As SwDMDimXpertDistanceBetweenDimTol
+Dim myDistBetDimTol As SwDMDimXpertDistanceBetweenDimTol
 
-myDistBetDimTol
-= myAnnotation
+myDistBetDimTol = myAnnotation
 
-boolstatus
-= myDistBetDimTol. GetDirectionVector (i, j, k)
+boolstatus = myDistBetDimTol.**GetDirectionVector**(i, j, k)
 
-Debug.Print(" Direction
-vector(i,j,k): " & i & ", " & j & ",
-" & k)
+Debug.Print(" Direction vector(i,j,k): " & i & ", " & j & ", " & k)
 
-tempFeature1
-= Nothing
+tempFeature1 = Nothing
 
-boolstatus
-= myDistBetDimTol.GetFeature(tempFeature1, fosUsage)
+boolstatus = myDistBetDimTol.GetFeature(tempFeature1, fosUsage)
 
-If
-Not tempFeature1 Is Nothing Then
+If Not tempFeature1 Is Nothing Then
 
-Debug.Print(" Distance-between
-dimension tolerance feature: " & tempFeature1. Name )
+Debug.Print(" Distance-between dimension tolerance feature: " & tempFeature1.**Name**)
 
-Debug.Print(" Feature
-of size usage (swDmDimXpertDistanceFosUsage_e): " & fosUsage)
+Debug.Print(" Feature of size usage (swDmDimXpertDistanceFosUsage_e): " & fosUsage)
 
-End
-If
+End If
 
-boolstatus
-= myDistBetDimTol.GetOriginFeature(tempFeature1, fosUsage)
+boolstatus = myDistBetDimTol.GetOriginFeature(tempFeature1, fosUsage)
 
-If
-Not tempFeature1 Is Nothing Then
+If Not tempFeature1 Is Nothing Then
 
-Debug.Print(" Feature
-of origin for this dimension tolerance: " & tempFeature1. Name )
+Debug.Print(" Feature of origin for this dimension tolerance: " & tempFeature1.**Name**)
 
-Debug.Print(" Feature
-of size usage(swDmDimXpertDistanceFosUsage_e): " & fosUsage)
+Debug.Print(" Feature of size usage(swDmDimXpertDistanceFosUsage_e): " & fosUsage)
 
-End
-If
+End If
 
-Debug.Print(" Pattern
-treatment type (swDmDimXpertPatternTreatmentType_e): " & myDistBetDimTol. PatternTreatment )
+Debug.Print(" Pattern treatment type (swDmDimXpertPatternTreatmentType_e): " & myDistBetDimTol.**PatternTreatment**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_Length
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_Length
 
-Debug.Print(" Type =
-Length dimension tolerance")
+Debug.Print(" Type = Length dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_Radius
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_Radius
 
-Debug.Print(" Type =
-Radius dimension tolerance")
+Debug.Print(" Type = Radius dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Dim
-myRadiusDimTol As SwDMDimXpertRadiusDimTol
+Dim myRadiusDimTol As SwDMDimXpertRadiusDimTol
 
-myRadiusDimTol
-= myAnnotation
+myRadiusDimTol = myAnnotation
 
-Debug.Print(" Pattern
-treatment type (swDmDimXpertPatternTreatmentType_e): " & myRadiusDimTol. PatternTreatment )
+Debug.Print(" Pattern treatment type (swDmDimXpertPatternTreatmentType_e): " & myRadiusDimTol.**PatternTreatment**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_Width
+Case swDmDimXpertAnnotationType_e.swDmDimXpertDimTol_Width
 
-Debug.Print(" Type =
-Width dimension tolerance")
+Debug.Print(" Type = Width dimension tolerance")
 
-myDimTol
-= myAnnotation
+myDimTol = myAnnotation
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Angularity
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Angularity
 
-Debug.Print(" "
-& annoIndex & " : Type = Angularity geometric tolerance")
+Debug.Print(" " & annoIndex & " : Type = Angularity geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-myOriTol
-= myAnnotation
+myOriTol = myAnnotation
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Circularity
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Circularity
 
-Debug.Print(" Type =
-Circularity geometric tolerance")
+Debug.Print(" Type = Circularity geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_CircularRunout
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_CircularRunout
 
-Debug.Print(" Type =
-Circular runout geometric tolerance")
+Debug.Print(" Type = Circular runout geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_CompositeLineProfile
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_CompositeLineProfile
 
-Debug.Print(" Type =
-Composite line profile geometric tolerance")
+Debug.Print(" Type = Composite line profile geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Dim
-myCompLineProfileGeoTol As SwDMDimXpertCompositeLineProfileGeoTol
+Dim myCompLineProfileGeoTol As SwDMDimXpertCompositeLineProfileGeoTol
 
-myCompLineProfileGeoTol
-= myAnnotation
+myCompLineProfileGeoTol = myAnnotation
 
-boolstatus
-= myCompLineProfileGeoTol. GetPlanarZoneVector (i, j, k)
+boolstatus = myCompLineProfileGeoTol.**GetPlanarZoneVector**(i, j, k)
 
-Debug.Print(" Planar
-zone vector(i,j,k): " & i & ", " & j &
-", " & k)
+Debug.Print(" Planar zone vector(i,j,k): " & i & ", " & j & ", " & k)
 
-Debug.Print(" Outer
-tolerance value: " & myCompLineProfileGeoTol. OuterToleranceValue )
+Debug.Print(" Outer tolerance value: " & myCompLineProfileGeoTol.**OuterToleranceValue**)
 
-Debug.Print(" Outer
-tolerance value in the lower tier: " & myCompLineProfileGeoTol. OuterToleranceValueLowerTier )
+Debug.Print(" Outer tolerance value in the lower tier: " & myCompLineProfileGeoTol.**OuterToleranceValueLowerTier**)
 
-Debug.Print(" Primary
-datum repeated in lower tier: " & myCompLineProfileGeoTol. PrimaryInLowerTier )
+Debug.Print(" Primary datum repeated in lower tier: " & myCompLineProfileGeoTol.**PrimaryInLowerTier**)
 
-Debug.Print(" Secondary
-datum repeated in lower tier: " & myCompLineProfileGeoTol. SecondaryInLowerTier )
+Debug.Print(" Secondary datum repeated in lower tier: " & myCompLineProfileGeoTol.**SecondaryInLowerTier**)
 
-Debug.Print(" Tertiary
-datum repeated in lower tier: " & myCompLineProfileGeoTol. TertiaryInLowerTier )
+Debug.Print(" Tertiary datum repeated in lower tier: " & myCompLineProfileGeoTol.**TertiaryInLowerTier**)
 
-Debug.Print(" Tolerance
-in lower tier: " & myCompLineProfileGeoTol. ToleranceLowerTier )
+Debug.Print(" Tolerance in lower tier: " & myCompLineProfileGeoTol.**ToleranceLowerTier**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_CompositePosition
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_CompositePosition
 
-Debug.Print(" Type =
-Composite position geometric tolerance")
+Debug.Print(" Type = Composite position geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Dim
-myCompPosGeoTol As SwDMDimXpertCompositePositionGeoTol
+Dim myCompPosGeoTol As SwDMDimXpertCompositePositionGeoTol
 
-myCompPosGeoTol
-= myAnnotation
+myCompPosGeoTol = myAnnotation
 
-boolstatus
-= myCompPosGeoTol. GetMaxTolerance (isMax, Tolerance)
+boolstatus = myCompPosGeoTol.**GetMaxTolerance**(isMax, Tolerance)
 
-Debug.Print(" Maximum
-tolerance is set: " & isMax)
+Debug.Print(" Maximum tolerance is set: " & isMax)
 
-If
-isMax Then
+If isMax Then
 
-Debug.Print(" Maximum
-tolerance: " & Tolerance)
+Debug.Print(" Maximum tolerance: " & Tolerance)
 
-End
-If
+End If
 
-boolstatus
-= myCompPosGeoTol. GetMaxToleranceLowerTier (isMax, Tolerance)
+boolstatus = myCompPosGeoTol.**GetMaxToleranceLowerTier**(isMax, Tolerance)
 
-Debug.Print(" Maximum
-tolerance is set in lower tier: " & isMax)
+Debug.Print(" Maximum tolerance is set in lower tier: " & isMax)
 
-If
-isMax Then
+If isMax Then
 
-Debug.Print(" Maximum
-tolerance in lower tier: " & Tolerance)
+Debug.Print(" Maximum tolerance in lower tier: " & Tolerance)
 
-End
-If
+End If
 
-boolstatus
-= myCompPosGeoTol. GetPlanarZoneVector (i, j, k)
+boolstatus = myCompPosGeoTol.**GetPlanarZoneVector**(i, j, k)
 
-Debug.Print(" Planar
-zone vector(i,j,k): " & i & ", " & j &
-", " & k)
+Debug.Print(" Planar zone vector(i,j,k): " & i & ", " & j & ", " & k)
 
-boolstatus
-= myCompPosGeoTol. GetProjectedZone (Enabled, Value)
+boolstatus = myCompPosGeoTol.**GetProjectedZone**(Enabled, Value)
 
-Debug.Print(" Projected
-zone is in force: " & Enabled)
+Debug.Print(" Projected zone is in force: " & Enabled)
 
-If
-Enabled Then
+If Enabled Then
 
-Debug.Print("Value:
-" & Value)
+Debug.Print("Value: " & Value)
 
-End
-If
+End If
 
-Debug.Print(" Material
-condition modifier (swDmDimXpertMaterialConditionModifier_e): " &
-myCompPosGeoTol. Modifier )
+Debug.Print(" Material condition modifier (swDmDimXpertMaterialConditionModifier_e): " & myCompPosGeoTol.**Modifier**)
 
-Debug.Print(" Material
-condition modifier in lower tier (swDmDimXpertMaterialConditionModifier_e):
-" & myCompPosGeoTol.ModifierLowerTier)
+Debug.Print(" Material condition modifier in lower tier (swDmDimXpertMaterialConditionModifier_e): " & myCompPosGeoTol.ModifierLowerTier)
 
-Debug.Print(" Primary
-datum repeated in lower tier: " & myCompPosGeoTol. PrimaryInLowerTier )
+Debug.Print(" Primary datum repeated in lower tier: " & myCompPosGeoTol.**PrimaryInLowerTier**)
 
-Debug.Print(" Secondary
-datum repeated in lower tier: " & myCompPosGeoTol. SecondaryInLowerTier )
+Debug.Print(" Secondary datum repeated in lower tier: " & myCompPosGeoTol.**SecondaryInLowerTier**)
 
-Debug.Print(" Tertiary
-datum repeated in lower tier: " & myCompPosGeoTol. TertiaryInLowerTier )
+Debug.Print(" Tertiary datum repeated in lower tier: " & myCompPosGeoTol.**TertiaryInLowerTier**)
 
-Debug.Print(" Tolerance
-in lower tier: " & myCompPosGeoTol. ToleranceLowerTier )
+Debug.Print(" Tolerance in lower tier: " & myCompPosGeoTol.**ToleranceLowerTier**)
 
-Debug.Print(" Position
-zone type (swDmDimXpertPositionZoneType_e): " & myCompPosGeoTol. ZoneType )
+Debug.Print(" Position zone type (swDmDimXpertPositionZoneType_e): " & myCompPosGeoTol.**ZoneType**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_CompositeSurfaceProfile
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_CompositeSurfaceProfile
 
-Debug.Print(" Type =
-Composite surface profile geometric tolerance")
+Debug.Print(" Type = Composite surface profile geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Dim
-myCompSurfProfGeoTol As SwDMDimXpertCompositeSurfaceProfileGeoTol
+Dim myCompSurfProfGeoTol As SwDMDimXpertCompositeSurfaceProfileGeoTol
 
-myCompSurfProfGeoTol
-= myAnnotation
+myCompSurfProfGeoTol = myAnnotation
 
-Debug.Print(" Outer
-tolerance: " & myCompSurfProfGeoTol. OuterToleranceValue )
+Debug.Print(" Outer tolerance: " & myCompSurfProfGeoTol.**OuterToleranceValue**)
 
-Debug.Print(" Outer
-tolerance in lower tier: " & myCompSurfProfGeoTol. OuterToleranceValueLowerTier )
+Debug.Print(" Outer tolerance in lower tier: " & myCompSurfProfGeoTol.**OuterToleranceValueLowerTier**)
 
-Debug.Print(" Primary
-datum repeated in lower tier: " & myCompSurfProfGeoTol. PrimaryInLowerTier )
+Debug.Print(" Primary datum repeated in lower tier: " & myCompSurfProfGeoTol.**PrimaryInLowerTier**)
 
-Debug.Print(" Secondary
-datum repeated in lower tier: " & myCompSurfProfGeoTol. SecondaryInLowerTier )
+Debug.Print(" Secondary datum repeated in lower tier: " & myCompSurfProfGeoTol.**SecondaryInLowerTier**)
 
-Debug.Print(" Tertiary
-datum repeated in lower tier: " & myCompSurfProfGeoTol. TertiaryInLowerTier )
+Debug.Print(" Tertiary datum repeated in lower tier: " & myCompSurfProfGeoTol.**TertiaryInLowerTier**)
 
-Debug.Print(" Tolerance
-in lower tier: " & myCompSurfProfGeoTol. ToleranceLowerTier )
+Debug.Print(" Tolerance in lower tier: " & myCompSurfProfGeoTol.**ToleranceLowerTier**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Concentricity
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Concentricity
 
-Debug.Print(" Type =
-Concentricity geometric tolerance")
+Debug.Print(" Type = Concentricity geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Dim
-myConcentricityGeoTol As SwDMDimXpertConcentricityGeoTol
+Dim myConcentricityGeoTol As SwDMDimXpertConcentricityGeoTol
 
-myConcentricityGeoTol
-= myAnnotation
+myConcentricityGeoTol = myAnnotation
 
-boolstatus
-= myConcentricityGeoTol. GetMaxTolerance (isMax, Tolerance)
+boolstatus = myConcentricityGeoTol.**GetMaxTolerance**(isMax, Tolerance)
 
-Debug.Print(" Maximum
-tolerance is set: " & isMax)
+Debug.Print(" Maximum tolerance is set: " & isMax)
 
-If
-isMax Then
+If isMax Then
 
-Debug.Print(" Maximum
-tolerance: " & Tolerance)
+Debug.Print(" Maximum tolerance: " & Tolerance)
 
-End
-If
+End If
 
-Debug.Print(" Material
-condition modifier (swDmDimXpertMaterialConditionModifier_e): " &
-myConcentricityGeoTol. Modifier )
+Debug.Print(" Material condition modifier (swDmDimXpertMaterialConditionModifier_e): " & myConcentricityGeoTol.**Modifier**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Cylindricity
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Cylindricity
 
-Debug.Print(" Type =
-Cylindricity geometric tolerance")
+Debug.Print(" Type = Cylindricity geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Flatness
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Flatness
 
-Debug.Print(" Type =
-Flatness geometric tolerance")
+Debug.Print(" Type = Flatness geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Dim
-myFlatnessGeoTol As SwDMDimXpertFlatnessGeoTol
+Dim myFlatnessGeoTol As SwDMDimXpertFlatnessGeoTol
 
-myFlatnessGeoTol
-= myAnnotation
+myFlatnessGeoTol = myAnnotation
 
-boolstatus
-= myFlatnessGeoTol. GetPerUnitArea (Enabled, length, width, i, j, k)
+boolstatus = myFlatnessGeoTol.**GetPerUnitArea**(Enabled, length, width, i, j, k)
 
-Debug.Print(" Per
-unit area(enabled,width,length,i,j,k): " & Enabled & ",
-" & Format(length, "0.0####") & ", "
-& Format(width, "0.0####") & ", " & Format(i,
-"0.0#####") & ", " & Format(j, "0.0#####")
-& ", " & Format(k, "0.0#####"))
+Debug.Print(" Per unit area(enabled,width,length,i,j,k): " & Enabled & ", " & Format(length, "0.0####") & ", " & Format(width, "0.0####") & ", " & Format(i, "0.0#####") & ", " & Format(j, "0.0#####") & ", " & Format(k, "0.0#####"))
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_LineProfile
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_LineProfile
 
-Debug.Print(" Type =
-Line profile geometric tolerance")
+Debug.Print(" Type = Line profile geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Dim
-myLineProfileGeoTol As SwDMDimXpertLineProfileGeoTol
+Dim myLineProfileGeoTol As SwDMDimXpertLineProfileGeoTol
 
-myLineProfileGeoTol
-= myAnnotation
+myLineProfileGeoTol = myAnnotation
 
-boolstatus
-= myLineProfileGeoTol. GetPlanarZoneVector (i, j, k)
+boolstatus = myLineProfileGeoTol.**GetPlanarZoneVector**(i, j, k)
 
-Debug.Print(" Planar
-zone vector(i,j,k): " & i & ", " & j &
-", " & k)
+Debug.Print(" Planar zone vector(i,j,k): " & i & ", " & j & ", " & k)
 
-Debug.Print(" Outer
-tolerance value: " & myLineProfileGeoTol. OuterToleranceValue )
+Debug.Print(" Outer tolerance value: " & myLineProfileGeoTol.**OuterToleranceValue**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Parallelism
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Parallelism
 
-Debug.Print(" Type =
-Parallelism geometric tolerance")
+Debug.Print(" Type = Parallelism geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-myOriTol
-= myAnnotation
+myOriTol = myAnnotation
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Perpendicularity
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Perpendicularity
 
-Debug.Print(" Type =
-Perpendicularity geometric tolerance")
+Debug.Print(" Type = Perpendicularity geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-myOriTol
-= myAnnotation
+myOriTol = myAnnotation
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Position
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Position
 
-Debug.Print(" Type =
-Position geometric tolerance")
+Debug.Print(" Type = Position geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Dim
-myPosGeoTol As SwDMDimXpertPositionGeoTol
+Dim myPosGeoTol As SwDMDimXpertPositionGeoTol
 
-myPosGeoTol
-= myAnnotation
+myPosGeoTol = myAnnotation
 
-boolstatus
-= myPosGeoTol. GetMaxTolerance (isMax, Tolerance)
+boolstatus = myPosGeoTol.**GetMaxTolerance**(isMax, Tolerance)
 
-Debug.Print(" Maximum
-tolerance is set: " & isMax)
+Debug.Print(" Maximum tolerance is set: " & isMax)
 
-If
-isMax Then
+If isMax Then
 
-Debug.Print(" Maximum
-tolerance: " & Tolerance)
+Debug.Print(" Maximum tolerance: " & Tolerance)
 
-End
-If
+End If
 
-boolstatus
-= myPosGeoTol. GetPlanarZoneVector (i, j, k)
+boolstatus = myPosGeoTol.**GetPlanarZoneVector**(i, j, k)
 
-Debug.Print(" Planar
-zone vector(i,j,k): " & i & ", " & j &
-", " & k)
+Debug.Print(" Planar zone vector(i,j,k): " & i & ", " & j & ", " & k)
 
-boolstatus
-= myPosGeoTol. GetProjectedZone (Enabled, Value)
+boolstatus = myPosGeoTol.**GetProjectedZone**(Enabled, Value)
 
-Debug.Print(" Projected
-zone is in force: " & Enabled)
+Debug.Print(" Projected zone is in force: " & Enabled)
 
-If
-Enabled Then
+If Enabled Then
 
-Debug.Print(" Value:
-" & Value)
+Debug.Print(" Value: " & Value)
 
-End
-If
+End If
 
-Debug.Print(" Material
-condition modifier (swDmDimXpertMaterialConditionModifier_e): " &
-myPosGeoTol. Modifier )
+Debug.Print(" Material condition modifier (swDmDimXpertMaterialConditionModifier_e): " & myPosGeoTol.**Modifier**)
 
-Debug.Print(" Position
-zone type (swDmDimXpertPositionZoneType_e): " & myPosGeoTol. ZoneType )
+Debug.Print(" Position zone type (swDmDimXpertPositionZoneType_e): " & myPosGeoTol.**ZoneType**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Straightness
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Straightness
 
-Debug.Print(" Type =
-Straightness geometric tolerance")
+Debug.Print(" Type = Straightness geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Dim
-myStraightnessGeoTol As SwDMDimXpertStraightnessGeoTol
+Dim myStraightnessGeoTol As SwDMDimXpertStraightnessGeoTol
 
-myStraightnessGeoTol
-= myAnnotation
+myStraightnessGeoTol = myAnnotation
 
-boolstatus
-= myStraightnessGeoTol. GetMaxTolerance (isMax, Tolerance)
+boolstatus = myStraightnessGeoTol.**GetMaxTolerance**(isMax, Tolerance)
 
-Debug.Print(" Maximum
-tolerance is set: " & isMax)
+Debug.Print(" Maximum tolerance is set: " & isMax)
 
-If
-isMax Then
+If isMax Then
 
-Debug.Print(" Maximum
-tolerance: " & Tolerance)
+Debug.Print(" Maximum tolerance: " & Tolerance)
 
-End
-If
+End If
 
-boolstatus
-= myStraightnessGeoTol. GetPerUnitLength (Enabled, Distance)
+boolstatus = myStraightnessGeoTol.**GetPerUnitLength**(Enabled, Distance)
 
-Debug.Print(" Per
-unit length(enabled,distance): " & Enabled & ", "
-& Format(Distance, "0.0####"))
+Debug.Print(" Per unit length(enabled,distance): " & Enabled & ", " & Format(Distance, "0.0####"))
 
-boolstatus
-= myStraightnessGeoTol. GetPlanarZoneVector (i, j, k)
+boolstatus = myStraightnessGeoTol.**GetPlanarZoneVector**(i, j, k)
 
-Debug.Print(" Planar
-zone vector(i,j,k): " & i & ", " & j &
-", " & k)
+Debug.Print(" Planar zone vector(i,j,k): " & i & ", " & j & ", " & k)
 
-Debug.Print(" Material
-condition modifier (swDmDimXpertMaterialConditionModifier_e): " &
-myStraightnessGeoTol. Modifier )
+Debug.Print(" Material condition modifier (swDmDimXpertMaterialConditionModifier_e): " & myStraightnessGeoTol.**Modifier**)
 
-Debug.Print(" Position
-zone type (swDmDimXpertStraightnessZoneType_e): " & myStraightnessGeoTol. ZoneType )
+Debug.Print(" Position zone type (swDmDimXpertStraightnessZoneType_e): " & myStraightnessGeoTol.**ZoneType**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_SurfaceProfile
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_SurfaceProfile
 
-Debug.Print(" Type =
-SurfaceProfile geometric tolerance")
+Debug.Print(" Type = SurfaceProfile geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Dim
-mySurfProfGeoTol As SwDMDimXpertSurfaceProfileGeoTol
+Dim mySurfProfGeoTol As SwDMDimXpertSurfaceProfileGeoTol
 
-mySurfProfGeoTol
-= myAnnotation
+mySurfProfGeoTol = myAnnotation
 
-Debug.Print(" Outer
-tolerance: " & mySurfProfGeoTol. OuterToleranceValue )
+Debug.Print(" Outer tolerance: " & mySurfProfGeoTol.**OuterToleranceValue**)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Symmetry
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Symmetry
 
-Debug.Print(" Type =
-Symmetry geometric tolerance")
+Debug.Print(" Type = Symmetry geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Dim
-mySymmetryGeoTol As SwDMDimXpertSymmetryGeoTol
+Dim mySymmetryGeoTol As SwDMDimXpertSymmetryGeoTol
 
-mySymmetryGeoTol
-= myAnnotation
+mySymmetryGeoTol = myAnnotation
 
-boolstatus
-= mySymmetryGeoTol. GetMaxTolerance (isMax, Tolerance)
+boolstatus = mySymmetryGeoTol.**GetMaxTolerance**(isMax, Tolerance)
 
-Debug.Print(" Maximum
-tolerance is set: " & isMax)
+Debug.Print(" Maximum tolerance is set: " & isMax)
 
-Debug.Print(" Maximum
-tolerance: " & Tolerance)
+Debug.Print(" Maximum tolerance: " & Tolerance)
 
-boolstatus
-= mySymmetryGeoTol. GetZoneDirection (i, j, k)
+boolstatus = mySymmetryGeoTol.**GetZoneDirection**(i, j, k)
 
-Debug.Print(" Zone
-direction(i,j,k): " & i & ", " & j & ",
-" & k)
+Debug.Print(" Zone direction(i,j,k): " & i & ", " & j & ", " & k)
 
-modifier
-= mySymmetryGeoTol. Modifier
+modifier = mySymmetryGeoTol.**Modifier**
 
-Debug.Print(" Modifier
-(swDmDimXpertMaterialConditionModifier_e): " & modifier)
+Debug.Print(" Modifier (swDmDimXpertMaterialConditionModifier_e): " & modifier)
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Tangency
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_Tangency
 
-Debug.Print(" Type =
-Tangency geometric tolerance")
+Debug.Print(" Type = Tangency geometric tolerance")
 
-Dim
-myTangencyGeoTol As SwDMDimXpertTangencyGeoTol
+Dim myTangencyGeoTol As SwDMDimXpertTangencyGeoTol
 
-myTangencyGeoTol
-= myAnnotation
+myTangencyGeoTol = myAnnotation
 
-tempFeature
-= Nothing
+tempFeature = Nothing
 
-boolstatus
-= myTangencyGeoTol. GetOriginFeature (tempFeature)
+boolstatus = myTangencyGeoTol.**GetOriginFeature**(tempFeature)
 
-If
-Not tempFeature Is Nothing Then
+If Not tempFeature Is Nothing Then
 
-Debug.Print(" Feature
-of origin for this geometric tolerance: " & tempFeature. Name )
+Debug.Print(" Feature of origin for this geometric tolerance: " & tempFeature.**Name**)
 
-End
-If
+End If
 
-Case
-swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_TotalRunout
+Case swDmDimXpertAnnotationType_e.swDmDimXpertGeoTol_TotalRunout
 
-Debug.Print(" Type =
-Total runout geometric tolerance")
+Debug.Print(" Type = Total runout geometric tolerance")
 
-myGeoTol
-= myAnnotation
+myGeoTol = myAnnotation
 
-Case
-Else
+Case Else
 
-Debug.Print(" Type =
-<unknown>")
+Debug.Print(" Type = <unknown>")
 
-End
-Select
+End Select
 
-'
-Annotation Information
+' Annotation Information
 
-Debug.Print(" Annotation
-Information:")
+Debug.Print(" Annotation Information:")
 
-Debug.Print(" CAD
-identifier count = " & myAnnotation. GetCadIdentifierCount )
+Debug.Print(" CAD identifier count = " & myAnnotation.**GetCadIdentifierCount**)
 
-If
-myAnnotation. GetCadIdentifierCount > 0 Then
+If myAnnotation.**GetCadIdentifierCount** > 0 Then
 
-Debug.Print(" CAD
-Identifiers:")
+Debug.Print(" CAD Identifiers:")
 
-vObject
-= myAnnotation.GetCadIdentifiers
+vObject = myAnnotation.GetCadIdentifiers
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-Debug.Print(" "
-& vObject(vObjectIndex))
+Debug.Print(" " & vObject(vObjectIndex))
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-End
-If
+End If
 
-Debug.Print(" Free
-state = " & myAnnotation. IsFreeState )
+Debug.Print(" Free state = " & myAnnotation.**IsFreeState**)
 
-Debug.Print(" Statistical
-= " & myAnnotation. IsStatistical )
+Debug.Print(" Statistical = " & myAnnotation.**IsStatistical**)
 
-Debug.Print(" Suppressed
-= " & myAnnotation. IsSuppressed )
+Debug.Print(" Suppressed = " & myAnnotation.**IsSuppressed**)
 
-Debug.Print(" To
-be inspected = " & myAnnotation. IsToBeInspected )
+Debug.Print(" To be inspected = " & myAnnotation.**IsToBeInspected**)
 
-If
-(myAnnotation. Feature Is Nothing) Then
+If (myAnnotation.**Feature** Is Nothing) Then
 
-Debug.Print(" Is
-not associated with a feature")
+Debug.Print(" Is not associated with a feature")
 
 Else
 
-Debug.Print(" Is
-associated with a feature")
+Debug.Print(" Is associated with a feature")
 
-End
-If
+End If
 
-'
-Geometric Tolerance Information for Orientation Dimensions
+' Geometric Tolerance Information for Orientation Dimensions
 
-If
-Not myOriTol Is Nothing Then
+If Not myOriTol Is Nothing Then
 
-Debug.Print(" Orientation
-Geometric Tolerance Information:")
+Debug.Print(" Orientation Geometric Tolerance Information:")
 
-boolstatus
-= myOriTol. GetMaxTolerance (isMax, Tolerance)
+boolstatus = myOriTol.**GetMaxTolerance**(isMax, Tolerance)
 
-Debug.Print(" Maximum
-tolerance is set: " & isMax)
+Debug.Print(" Maximum tolerance is set: " & isMax)
 
-If
-isMax Then
+If isMax Then
 
-Debug.Print(" Maximum
-tolerance: " & Tolerance)
+Debug.Print(" Maximum tolerance: " & Tolerance)
 
-End
-If
+End If
 
-boolstatus
-= myOriTol. GetPlanarZoneVector (i, j, k)
+boolstatus = myOriTol.**GetPlanarZoneVector**(i, j, k)
 
-Debug.Print(" Planar
-zone vector(i,j,k): " & i & ", " & j &
-", " & k)
+Debug.Print(" Planar zone vector(i,j,k): " & i & ", " & j & ", " & k)
 
-boolstatus
-= myOriTol. GetProjectedZone (Enabled, Value)
+boolstatus = myOriTol.**GetProjectedZone**(Enabled, Value)
 
-Debug.Print(" Projected
-zone is in force: " & Enabled)
+Debug.Print(" Projected zone is in force: " & Enabled)
 
-If
-Enabled Then
+If Enabled Then
 
-Debug.Print("Value:
-" & Value)
+Debug.Print("Value: " & Value)
 
-End
-If
+End If
 
-Debug.Print(" Material
-condition modifier (swDmDimXpertMaterialConditionModifier_e): " &
-myOriTol. Modifier )
+Debug.Print(" Material condition modifier (swDmDimXpertMaterialConditionModifier_e): " & myOriTol.**Modifier**)
 
-Debug.Print(" Position
-zone type (swDmDimXpertOrientationZoneType_e): " & myOriTol. ZoneType )
+Debug.Print(" Position zone type (swDmDimXpertOrientationZoneType_e): " & myOriTol.**ZoneType**)
 
-End
-If
+End If
 
-'
-Geometric Tolerance Information
+' Geometric Tolerance Information
 
-If
-Not myGeoTol Is Nothing Then
+If Not myGeoTol Is Nothing Then
 
-Debug.Print(" Geometric
-Tolerance Information:")
+Debug.Print(" Geometric Tolerance Information:")
 
-Debug.Print(" Number
-of primary datums: " & myGeoTol. GetPrimaryDatumCount )
+Debug.Print(" Number of primary datums: " & myGeoTol.**GetPrimaryDatumCount**)
 
-If
-myGeoTol. GetPrimaryDatumCount > 0 Then
+If myGeoTol.**GetPrimaryDatumCount** > 0 Then
 
-Debug.Print(" Primary
-Datum modifiers:")
+Debug.Print(" Primary Datum modifiers:")
 
-vObject
-= myGeoTol. GetPrimaryDatumModifiers
+vObject = myGeoTol.**GetPrimaryDatumModifiers**
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-modifier
-= vObject(vObjectIndex)
+modifier = vObject(vObjectIndex)
 
-Debug.Print(" Primary
-datum modifier (swDmDimXpertMaterialConditionModifier_e): " &
-modifier)
+Debug.Print(" Primary datum modifier (swDmDimXpertMaterialConditionModifier_e): " & modifier)
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-Debug.Print(" Primary
-datums:")
+Debug.Print(" Primary datums:")
 
-vObject
-= myGeoTol. GetPrimaryDatums
+vObject = myGeoTol.**GetPrimaryDatums**
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-datum
-= vObject(vObjectIndex)
+datum = vObject(vObjectIndex)
 
-Debug.Print(" Primary
-datum : " & datum. Identifier )
+Debug.Print(" Primary datum : " & datum.**Identifier**)
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-End
-If
+End If
 
-Debug.Print(" Number
-of secondary datums: " & myGeoTol. GetSecondaryDatumCount )
+Debug.Print(" Number of secondary datums: " & myGeoTol.**GetSecondaryDatumCount**)
 
-If
-myGeoTol. GetSecondaryDatumCount > 0 Then
+If myGeoTol.**GetSecondaryDatumCount** > 0 Then
 
-Debug.Print(" Secondary
-Datum modifiers:")
+Debug.Print(" Secondary Datum modifiers:")
 
-vObject
-= myGeoTol. GetSecondaryDatumModifiers
+vObject = myGeoTol.**GetSecondaryDatumModifiers**
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-modifier
-= vObject(vObjectIndex)
+modifier = vObject(vObjectIndex)
 
-Debug.Print(" Secondary
-datum modifier (swDmDimXpertMaterialConditionModifier_e): " &
-modifier)
+Debug.Print(" Secondary datum modifier (swDmDimXpertMaterialConditionModifier_e): " & modifier)
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-Debug.Print(" Secondary
-datums:")
+Debug.Print(" Secondary datums:")
 
-vObject
-= myGeoTol. GetSecondaryDatums
+vObject = myGeoTol.**GetSecondaryDatums**
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-datum
-= vObject(vObjectIndex)
+datum = vObject(vObjectIndex)
 
-Debug.Print(" Secondary
-datum : " & datum. Identifier )
+Debug.Print(" Secondary datum : " & datum.**Identifier**)
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-End
-If
+End If
 
-Debug.Print(" Number
-of tertiary datums: " & myGeoTol. GetTertiaryDatumCount )
+Debug.Print(" Number of tertiary datums: " & myGeoTol.**GetTertiaryDatumCount**)
 
-If
-myGeoTol. GetTertiaryDatumCount > 0 Then
+If myGeoTol.**GetTertiaryDatumCount** > 0 Then
 
-Debug.Print(" Tertiary
-Datum modifiers:")
+Debug.Print(" Tertiary Datum modifiers:")
 
-vObject
-= myGeoTol. GetTertiaryDatumModifiers
+vObject = myGeoTol.**GetTertiaryDatumModifiers**
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-modifier
-= vObject(vObjectIndex)
+modifier = vObject(vObjectIndex)
 
-Debug.Print(" Tertiary
-datum modifier (swDmDimXpertMaterialConditionModifier_e): " &
-modifier)
+Debug.Print(" Tertiary datum modifier (swDmDimXpertMaterialConditionModifier_e): " & modifier)
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-Debug.Print(" Tertiary
-datums:")
+Debug.Print(" Tertiary datums:")
 
-vObject
-= myGeoTol. GetTertiaryDatums
+vObject = myGeoTol.**GetTertiaryDatums**
 
-For
-vObjectIndex = LBound(vObject) To UBound(vObject)
+For vObjectIndex = LBound(vObject) To UBound(vObject)
 
-datum
-= vObject(vObjectIndex)
+datum = vObject(vObjectIndex)
 
-Debug.Print(" Tertiary
-datum : " & datum. Identifier )
+Debug.Print(" Tertiary datum : " & datum.**Identifier**)
 
-Next
-vObjectIndex
+Next vObjectIndex
 
-End
-If
+End If
 
-Debug.Print(" Geometric
-Tolerance = " & myGeoTol. Tolerance )
+Debug.Print(" Geometric Tolerance = " & myGeoTol.**Tolerance**)
 
-End
-If
+End If
 
-'
-Dimension Tolerance Information
+' Dimension Tolerance Information
 
-If
-Not myDimTol Is Nothing Then
+If Not myDimTol Is Nothing Then
 
-Debug.Print(" Dimension
-Tolerance Information:")
+Debug.Print(" Dimension Tolerance Information:")
 
-Debug.Print(" Dimension
-tolerance type (swDmDimXpertDimensionToleranceType_e)= " & myDimTol. DimensionType )
+Debug.Print(" Dimension tolerance type (swDmDimXpertDimensionToleranceType_e)= " & myDimTol.**DimensionType**)
 
-Debug.Print(" Dimension
-tolerance = " & myDimTol. GetNominalValue ())
+Debug.Print(" Dimension tolerance = " & myDimTol.**GetNominalValue**())
 
-boolstatus
-= myDimTol. GetPlusAndMinusTolerance (plusTol, minusTol)
+boolstatus = myDimTol.**GetPlusAndMinusTolerance**(plusTol, minusTol)
 
-Debug.Print(" Plus
-/ Minus "
-& plusTol & " / " & minusTol)
+Debug.Print(" Plus / Minus " & plusTol & " / " & minusTol)
 
-boolstatus
-= myDimTol. GetUpperAndLowerLimit (upperTol, lowerTol)
+boolstatus = myDimTol.**GetUpperAndLowerLimit**(upperTol, lowerTol)
 
-Debug.Print(" Upper
-/ Lower "
-& upperTol & " / " & lowerTol)
+Debug.Print(" Upper / Lower " & upperTol & " / " & lowerTol)
 
-Debug.Print(" Block
-tolerance precision = " & myDimTol. BlockToleranceDecimalPlaces )
+Debug.Print(" Block tolerance precision = " & myDimTol.**BlockToleranceDecimalPlaces**)
 
-Debug.Print(" Limits
-and fits code = " & myDimTol. LimitsAndFitsCode )
+Debug.Print(" Limits and fits code = " & myDimTol.**LimitsAndFitsCode**)
 
-End
-If
+End If
 
-Debug.Print("
-")
+Debug.Print(" ")
 
-Next
-annoIndex
+Next annoIndex
 
-End
-If
+End If
 
-End
-If
+End If
 
-End
-If
+End If
 
-Next
-index
+Next index
 
-End
-If
+End If
 
-End
-Sub
+End Sub
 
-Public
-swApp As SldWorks
+Public swApp As SldWorks
 
 End Class

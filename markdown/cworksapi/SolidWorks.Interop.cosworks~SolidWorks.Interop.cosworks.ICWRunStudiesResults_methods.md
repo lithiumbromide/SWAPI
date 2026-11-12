@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRu
 
 # ICWRunStudiesResults Interface Methods
 
-For a list of all members of this type, see[ICWRunStudiesResults members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunStudiesResults_members.html).
+For a list of all members of this type, see [ICWRunStudiesResults members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunStudiesResults_members.html).
 
 ## Public Methods
 
@@ -23,11 +23,7 @@ For a list of all members of this type, see[ICWRunStudiesResults members](SolidW
 ## See Also
 
 [ICWRunStudiesResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunStudiesResults.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWRunSpecStudiesRunMeshOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions.html)
-
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResultsProbeManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)

@@ -51,13 +51,7 @@ System.bool SelectEntity(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,28 +60,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::SelectEntity](ms-its:sldworksapivb6.chm::/sldworks~View~SelectEntity.html)
-
-.
+See [View::SelectEntity](ms-its:sldworksapivb6.chm::/sldworks~View~SelectEntity.html).
 
 ## Examples
 
 [Create Layer for Selected View (VBA)](Create_Layer_for_Selected_View_Example_VB.htm)
-
 [Dimension Edge in Drawing (VBA)](Dimension_Edge_in_Drawing_Example_VB.htm)
-
 [Select Entity in Drawing View (VBA)](Select_Entity_in_Drawing_View_Example_VB.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::ISelectEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~ISelectEntity.html)
-
 [IModelDocExtension::SelectAll Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectAll.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertCompositeSurfaceProfileGeoTol Interface Members
 
-The following tables list the members exposed by[ISwDMDimXpertCompositeSurfaceProfileGeoTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeSurfaceProfileGeoTol.html).
+The following tables list the members exposed by [ISwDMDimXpertCompositeSurfaceProfileGeoTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeSurfaceProfileGeoTol.html).
 
 ## Public Properties
 
@@ -27,5 +27,4 @@ The following tables list the members exposed by[ISwDMDimXpertCompositeSurfacePr
 ## See Also
 
 [ISwDMDimXpertCompositeSurfaceProfileGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeSurfaceProfileGeoTol.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

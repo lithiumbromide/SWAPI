@@ -46,16 +46,11 @@ ID of the configuration
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration12::GetID](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration12~GetID.html)
-
-.
+See [SwDMConfiguration12::GetID](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration12~GetID.html).
 
 ## Examples
 
 [Get Linked Display States (C#)](Get_Linked_Display_States_Example_CSharp.htm)
-
 [Get Linked Display States (VB.NET)](Get_Linked_Display_States_Example_VBNET.htm)
 
 ## Remarks
@@ -65,7 +60,6 @@ Each configuration is assigned a unique and persistent ID. This ID does not chan
 ## See Also
 
 [ISwDMConfiguration12 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration12.html)
-
 [ISwDMConfiguration12 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration12_members.html)
 
 ## Availability

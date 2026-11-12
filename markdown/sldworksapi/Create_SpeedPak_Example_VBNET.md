@@ -9,8 +9,7 @@ source: "sldworksapi/Create_SpeedPak_Example_VBNET.htm"
 
 # Create a SpeedPak Configuration Example (VB.NET)
 
-This example shows how to create a SpeedPak configuration for the active
-configuration.
+This example shows how to create a SpeedPak configuration for the active configuration.
 
 ```
 '--------------------------------------------------------------

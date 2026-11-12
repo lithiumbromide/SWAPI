@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPrimaryMemberRefPlaneFeatureData Interface Methods
 
-For a list of all members of this type, see[IPrimaryMemberRefPlaneFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData_members.html).
+For a list of all members of this type, see [IPrimaryMemberRefPlaneFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData_members.html).
 
 ## Public Methods
 
@@ -30,5 +30,4 @@ For a list of all members of this type, see[IPrimaryMemberRefPlaneFeatureData me
 ## See Also
 
 [IPrimaryMemberRefPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -1,6 +1,5 @@
 ---
-title: "FlatPatternFeatureData Object
-Members"
+title: "FlatPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FlatPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FlatPatternFeatureData_members.html"
 ---
 
-# FlatPatternFeatureData Object
-Members
+# FlatPatternFeatureData Object Members
 
 ## Public Methods
 

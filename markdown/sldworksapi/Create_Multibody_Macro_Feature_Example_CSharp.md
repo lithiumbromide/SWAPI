@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Multibody_Macro_Feature_Example_CSharp.htm"
 
 # Create Multibody Macro Feature Example (C#)
 
-This example shows how to create a multibody macro feature
-using a Visual C# SOLIDWORKS add-in.
+This example shows how to create a multibody macro feature using a Visual C# SOLIDWORKS add-in.
 
 ```vb
 //----------------------------------------------------------------------------
@@ -35,7 +34,7 @@ using a Visual C# SOLIDWORKS add-in.
  //     NOTE: The Output window notifies that types registered successfully.
  //     If that message does not appear in the Output window, repeat from
  //     step 1.
- // 13. Open SOLIDWORKS.
+ // 13. Open SOLIDWORKS Design.
  // 14. Open public_documents\samples\tutorial\multibody\multi_local.sldprt.
  //
  // Postconditions:

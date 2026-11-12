@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIn
 
 # IsCut Property (IIndentFeatureData)
 
-Gets or sets whether to remove the intersection area of the
-
-[target body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~TargetBody.html)
-
-.
+Gets or sets whether to remove the intersection area of the [target body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~TargetBody.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool IsCut {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,28 +53,15 @@ True to remove the intersection area of the target body, false to not
 
 ## VBA Syntax
 
-See
-
-[IndentFeatureData::IsCut](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~IsCut.html)
-
-.
+See [IndentFeatureData::IsCut](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~IsCut.html).
 
 ## Remarks
 
-If this property is set to true, then there is no
-
-[thickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~Thickness.html)
-
-, but
-
-[clearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~Clearance.html)
-
-is applied.
+If this property is set to true, then there is no [thickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~Thickness.html), but [clearance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~Clearance.html) is applied.
 
 ## See Also
 
 [IIndentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData.html)
-
 [IIndentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData_members.html)
 
 ## Availability

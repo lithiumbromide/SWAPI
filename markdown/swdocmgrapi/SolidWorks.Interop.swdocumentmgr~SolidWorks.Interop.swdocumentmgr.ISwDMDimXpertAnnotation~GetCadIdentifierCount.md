@@ -46,11 +46,7 @@ Number of CAD identifiers
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertAnnotation::GetCadIdentifierCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAnnotation~GetCadIdentifierCount.html)
-
-.
+See [SwDMDimXpertAnnotation::GetCadIdentifierCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAnnotation~GetCadIdentifierCount.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertAnnotation Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAnnotation.html)
-
 [ISwDMDimXpertAnnotation Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAnnotation_members.html)
 
 ## Availability

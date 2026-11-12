@@ -9,6 +9,12 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # SetTitleBitmap2 Method (IPropertyManagerPage2)
 
+Obsolete. Superseded by [IPropertyManagerPage2::SetTitleBitmapx64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2~SetTitleBitmapx64.html).
+
+This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016.
+
+The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used.
+
 Sets the bitmap to display in the title of this PropertyManager page.
 
 ## Syntax
@@ -46,13 +52,7 @@ void SetTitleBitmap2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,23 +60,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2::SetTitleBitmap2](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~SetTitleBitmap2.html)
-
-.
+See [PropertyManagerPage2::SetTitleBitmap2](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~SetTitleBitmap2.html).
 
 ## Remarks
 
-If your application must be x64 compatible, then use[IPropertyManagerPage2::SetTitleBitmapx64](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~SetTitleBitmapx64.html).
+**All applications are required to be compatible with SOLIDWORKS x64. You must replace all calls to 32-bit only APIs with calls to their 64-bit safe counterparts.**
 
-You can only use this method to set properties on the PropertyManager page before it is displayed or while it is closed. See[IPropertyManagerPage2::Show2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Show2.html)and[IPropertyManagerPage2::Close](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Close.html)for details.
+See [Eliminating 32-bit only API use](sldworksapiprogguide.chm::/Overview/Eliminating_32-Bit_Only_API_Use.htm) for more information.
 
-Create the bitmap in the resources of your application. The bitmap must have less than 256 colors. It is accessed via the path and filename passed into this method.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}The recommended size for bitmaps is a square from 18- to 22-cells wide. However, the bitmap can be any size, as long as it fits on the title bar.
+You can only use this method to set properties on the PropertyManager page before it is displayed or while it is closed. See [IPropertyManagerPage2::Show2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Show2.html) and [IPropertyManagerPage2::Close](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Close.html) for details.
+
+Create the bitmap in the resources of your application. The bitmap must have less than 256 colors. It is accessed via the path and filename passed into this method. The recommended size for bitmaps is a square from 18- to 22-cells wide. However, the bitmap can be any size, as long as it fits on the title bar.
 
 The bitmap appears transparent by mapping any white (RGB(255,255,255)) cells to the current PropertyManager page title bar background color. Remember the special use of this color as you design your bitmap.
-
-(Table)=========================================================
 
 | If this method is... | Then the title bar contains... |
 | --- | --- |
@@ -86,9 +82,7 @@ The bitmap appears transparent by mapping any white (RGB(255,255,255)) cells to 
 ## See Also
 
 [IPropertyManagerPage2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
 [IPropertyManagerPage2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2_members.html)
-
 [IPropertyManagerPage2::Title Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2~Title.html)
 
 ## Availability

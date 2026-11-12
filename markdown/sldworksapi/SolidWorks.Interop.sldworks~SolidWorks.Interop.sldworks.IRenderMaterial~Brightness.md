@@ -45,13 +45,7 @@ property System.double Brightness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Brightness
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Brightness](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Brightness.html)
-
-.
+See [RenderMaterial::Brightness](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Brightness.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This property corresponds to the Brightness control on the Illumination tab of t
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

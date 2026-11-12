@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddAddInFlags.html"
 
 # EdmAddAddInFlags Enumeration
 
-Options for adding add-ins. Used by
-
-[IEdmAddInMgr5::AddAddIns](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5~AddAddIns.html)
-
-.
+Options for adding add-ins. Used by [IEdmAddInMgr5::AddAddIns](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5~AddAddIns.html).
 
 ## Syntax
 

@@ -43,13 +43,7 @@ public delegate System.int DDrawingDocEvents_ActivateSheetPostNotifyEventHandler
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,7 +51,7 @@ See
 
 ## VBA Syntax
 
-See[ActivateSheetPostNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ActivateSheetPostNotify_EV.html).
+See [ActivateSheetPostNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ActivateSheetPostNotify_EV.html).
 
 ## Examples
 
@@ -65,9 +59,9 @@ See[ActivateSheetPostNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldW
 
 ## Remarks
 
-This event only fires when a drawing sheet is interactively activated in the SOLIDWORKS user interface; this event does not fire when a sheet is activated via an API call.
+This event only fires when a drawing sheet is interactively activated in the SOLIDWORKS Design user interface; this event does not fire when a sheet is activated via an API call.
 
-If developing a C++ application, use[swDrawingActivateSheetPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)to register for this notification.
+If developing a C++ application, use [swDrawingActivateSheetPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

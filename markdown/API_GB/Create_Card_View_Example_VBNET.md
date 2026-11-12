@@ -9,12 +9,9 @@ source: "API_GB/Create_Card_View_Example_VBNET.htm"
 
 # Create Card View Example (VB.NET)
 
-This example shows how to create a file or folder card
-view.
+This example shows how to create a file or folder card view.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

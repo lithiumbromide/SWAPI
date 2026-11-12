@@ -47,19 +47,11 @@ property System.bool ComputeFromMaterialDamping2 {
 
 ### Property Value
 
-0 or false to not use the material damping ratio; -1 or true to use the material damping ratio (see
-
-Remarks
-
-)
+0 or false to not use the material damping ratio; -1 or true to use the material damping ratio (see **Remarks**)
 
 ## Examples
 
-See the
-
-[ICWDampingOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html)
-
-examples.
+See the [ICWDampingOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html) examples.
 
 ## Remarks
 
@@ -70,7 +62,6 @@ For more information about modal damping, see the SOLIDWORKS Simulation Help.
 ## See Also
 
 [ICWDampingOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html)
-
 [ICWDampingOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions_members.html)
 
 ## Availability

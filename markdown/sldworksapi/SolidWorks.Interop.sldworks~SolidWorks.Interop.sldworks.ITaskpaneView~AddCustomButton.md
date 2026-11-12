@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 # AddCustomButton Method (ITaskpaneView)
 
-Obsolete. Superseded by
-
-[ITaskpaneView::AddCustomButton2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~AddCustomButton2.html)
-
-.
+Obsolete. Superseded by [ITaskpaneView::AddCustomButton2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~AddCustomButton2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool AddCustomButton(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,11 +64,7 @@ True if the custom button is added to the Task Pane, false if not
 
 ## VBA Syntax
 
-See
-
-[TaskpaneView::AddCustomButton](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~AddCustomButton.html)
-
-.
+See [TaskpaneView::AddCustomButton](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~AddCustomButton.html).
 
 ## Remarks
 
@@ -87,15 +73,10 @@ Button images can be either BMP (bitmap) or PNG and should be 16 pixels wide x 1
 ## See Also
 
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
-
 [ITaskpaneView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView_members.html)
-
 [ITaskPaneView::AddStandardButton Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~AddStandardButton.html)
-
 [DTaskpaneViewEvents_TaskPaneToolbarButtonClickedEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DTaskpaneViewEvents_TaskPaneToolbarButtonClickedEventHandler.html)
-
 [ITaskpaneView::GetButtonState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~GetButtonState.html)
-
 [ITaskpaneView::SetButtonState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~SetButtonState.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # gtFraFilterType_e Enumeration
 
-Types of annotations.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Types of annotations. [Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm).
 
 ## Syntax
 

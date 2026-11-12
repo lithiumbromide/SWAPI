@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5~GetState.html
 
 # GetState Method (IEdmWorkflow5)
 
-Obsolete. Superseded by
-
-[IEdmWorkflow6::GetState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetState.html)
-
-.
+Obsolete. Superseded by [IEdmWorkflow6::GetState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetState.html).
 
 ## Syntax
 
@@ -48,5 +44,4 @@ IEdmState5^ GetState(
 ## See Also
 
 [IEdmWorkflow5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5.html)
-
 [IEdmWorkflow5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5_members.html)

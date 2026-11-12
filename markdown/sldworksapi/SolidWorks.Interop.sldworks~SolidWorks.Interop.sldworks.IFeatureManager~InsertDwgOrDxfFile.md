@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertDwgOrDxfFile Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertDwgOrDxfFile2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertDwgOrDxfFile2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertDwgOrDxfFile2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertDwgOrDxfFile2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Feature^ InsertDwgOrDxfFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,19 +55,11 @@ See
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertDwgOrDxfFile](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertDwgOrDxfFile.html)
-
-.
+See [FeatureManager::InsertDwgOrDxfFile](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertDwgOrDxfFile.html).
 
 ## Remarks
 
@@ -91,7 +73,6 @@ You must also select a plane or planar surface before calling this method.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

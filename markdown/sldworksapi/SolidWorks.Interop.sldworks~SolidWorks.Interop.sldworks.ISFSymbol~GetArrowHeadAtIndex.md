@@ -47,13 +47,7 @@ System.Object^ GetArrowHeadAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,27 +55,21 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetArrowHeadAtIndex.html)
-
-.
+See [SFSymbol::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetArrowHeadAtIndex.html).
 
 ## Remarks
 
-Call[ISFSymbol::GetArrowHeadCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetArrowHeadCount.html)before calling this method to get the number of arrow heads for this surface finish symbol.
+Call [ISFSymbol::GetArrowHeadCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetArrowHeadCount.html) before calling this method to get the number of arrow heads for this surface finish symbol.
 
 The return value is the following array of doubles :
 
-[arrowHeadPt[3],arrowHeadDir[3],arrowHeadWidth,arrowHeadHeight,arrowHeadStyle]
+[ arrowHeadPt[3], arrowHeadDir[3], arrowHeadWidth, arrowHeadHeight, arrowHeadStyle ]
 
 where:
-
-(Table)=========================================================
 
 | arrowHeadPt [3] | = XYZ arrow head tip location |
 | --- | --- |
@@ -93,11 +81,7 @@ where:
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)
-
 [ISFSymbol::GetArrowHeadCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol~GetArrowHeadCount.html)
-
 [ISFSymbol::GetArrowHeadInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol~GetArrowHeadInfo.html)
-
 [ISFSymbol::IGetArrowHeadInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol~IGetArrowHeadInfo.html)

@@ -51,11 +51,7 @@ True to make all mates flexible, false to not
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::MakeAllMatesFlexible](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~MakeAllMatesFlexible.html)
-
-.
+See [CosmosMotionStudyProperties::MakeAllMatesFlexible](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~MakeAllMatesFlexible.html).
 
 ## Examples
 
@@ -68,7 +64,6 @@ Setting this property to true turns all mates in the assembly into bushings (spr
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
 
 ## Availability

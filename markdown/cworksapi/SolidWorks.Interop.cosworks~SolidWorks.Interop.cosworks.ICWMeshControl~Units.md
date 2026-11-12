@@ -47,20 +47,15 @@ property System.int Units {
 
 ### Property Value
 
-Mesh control linear units as defined in[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+Mesh control linear units as defined in [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::Units](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~Units.html)
-
-.
+See [CWMeshControl::Units](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~Units.html).
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
 
 ## Availability

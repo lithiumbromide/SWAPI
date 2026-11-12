@@ -44,22 +44,15 @@ property System.Object^ BrokenStatus {
 
 ### Property Value
 
-Array of integers of the statuses of the external references as defined in
-
-[swDmReferenceStatus](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmReferenceStatus.html)
+Array of integers of the statuses of the external references as defined in [swDmReferenceStatus](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmReferenceStatus.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMExternalReferenceOption2::BrokenStatus](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMExternalReferenceOption2~BrokenStatus.html)
-
-.
+See [SwDMExternalReferenceOption2::BrokenStatus](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMExternalReferenceOption2~BrokenStatus.html).
 
 ## Examples
 
 [Get External References for Part (C#)](Get_External_References_for_Part_Example_CSharp.htm)
-
 [Get External References for Part (VB.NET)](Get_External_References_for_Part_Example_VBNET.htm)
 
 ## Remarks
@@ -67,7 +60,6 @@ See
 ## See Also
 
 [ISwDMExternalReferenceOption2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMExternalReferenceOption2.html)
-
 [ISwDMExternalReferenceOption2 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMExternalReferenceOption2_members.html)
 
 ## Availability

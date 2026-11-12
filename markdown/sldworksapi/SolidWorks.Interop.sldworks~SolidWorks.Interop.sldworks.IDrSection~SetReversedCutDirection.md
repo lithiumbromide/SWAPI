@@ -46,13 +46,7 @@ void SetReversedCutDirection(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,34 +54,22 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrSection::SetReversedCutDirection](ms-its:sldworksapivb6.chm::/sldworks~DrSection~SetReversedCutDirection.html)
-
-.
+See [DrSection::SetReversedCutDirection](ms-its:sldworksapivb6.chm::/sldworks~DrSection~SetReversedCutDirection.html).
 
 ## Examples
 
 [Create Section View and Get Some Data (C#)](Create_Section_View_and_Get_Some_Data_Example_CSharp.htm)
-
 [Create Section View and Get Some Data (VB.NET)](Create_Section_View_and_Get_Some_Data_Example_VBNET.htm)
-
 [Create Section View and Get Some Data (VBA)](Create_Section_View_and_Get_Some_Data_Example_VB.htm)
 
 ## Remarks
 
-Call
-
-[IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html)
-
-after calling this method.
+Call [IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html) after calling this method.
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::GetReversedCutDirection Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~GetReversedCutDirection.html)
 
 ## Availability

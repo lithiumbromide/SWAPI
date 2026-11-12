@@ -46,24 +46,15 @@ Array of x, y, z coordinates
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraints::GetDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~GetDirection.html)
-
-.
+See [CWLoadsAndRestraints::GetDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~GetDirection.html).
 
 ## Examples
 
-See the
-
-[ICWLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
-examples.
+See the [ICWLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html) examples.
 
 ## See Also
 
 [ICWLoadsAndRestraints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
 [ICWLoadsAndRestraints Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints_members.html)
 
 ## Availability

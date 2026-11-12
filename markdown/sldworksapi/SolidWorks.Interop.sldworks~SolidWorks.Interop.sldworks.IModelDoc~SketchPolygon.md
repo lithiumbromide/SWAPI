@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchPolygon Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SketchPolygon](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchPolygon.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SketchPolygon](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SketchPolygon.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ System.bool SketchPolygon(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,14 +80,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SketchPolygon](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchPolygon.html)
-
-.
+See [ModelDoc::SketchPolygon](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SketchPolygon.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

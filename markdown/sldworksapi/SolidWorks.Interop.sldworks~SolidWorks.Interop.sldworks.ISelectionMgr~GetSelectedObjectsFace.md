@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # GetSelectedObjectsFace Method (ISelectionMgr)
 
-Gets the face of the specified selection if the specified selection is a
-
-[silhouette edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISilhouetteEdge.html)
-
-.
+Gets the face of the specified selection if the specified selection is a [silhouette edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISilhouetteEdge.html).
 
 ## Syntax
 
@@ -55,24 +51,16 @@ Face2^ GetSelectedObjectsFace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `AtIndex`: Index position within the current list of selected items, where AtIndex ranges from 1 to
-
-[ISelectionMgr::GetSelectedObjectCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectCount2.html)
+- `AtIndex`: Index position within the current list of selected items, where AtIndex ranges from 1 to [ISelectionMgr::GetSelectedObjectCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectCount2.html)
 - `Mark`: - 1 = All selections regardless of marks
 
-0 = only the selections without marks
+  0 = only the selections without marks
 
-Any other value = Value that was used to mark and select an object
+  Any other value = Value that was used to mark and select an object
 
 ### Return Value
 
@@ -80,16 +68,11 @@ Any other value = Value that was used to mark and select an object
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::GetSelectedObjectsFace](ms-its:sldworksapivb6.chm::/Sldworks~SelectionMgr~GetSelectedObjectsFace.html)
-
-.
+See [SelectionMgr::GetSelectedObjectsFace](ms-its:sldworksapivb6.chm::/Sldworks~SelectionMgr~GetSelectedObjectsFace.html).
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)
 
 ## Availability

@@ -71,31 +71,23 @@ System.int SetStepToleranceOptions(
 - `DPlasticityTol`: Tolerance for strain increment for models with creep or plasticity
 - `NSingularityEleFactor`: Stiffness singularity elimination factor:
 
-- normal solution if set to 1
-- if <1.0, then the program modifies stiffness terms causing singularity to help convergence
+  - normal solution if set to 1
+  - if <1.0, then the program modifies stiffness terms causing singularity to help convergence
 
-If normal solution fails, trying a different value; for example, 0 may help convergence.
+  If normal solution fails, trying a different value; for example, 0 may help convergence.
 
 ### Return Value
 
-Status as defined in
-
-[swsNonLinearStudyOptionsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearStudyOptionsError_e.html)
+Status as defined in [swsNonLinearStudyOptionsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsNonLinearStudyOptionsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::SetStepToleranceOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetStepToleranceOptions.html)
-
-.
+See [CWNonLinearStudyOptions::SetStepToleranceOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetStepToleranceOptions.html).
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
-
 [ICWNonLinearStudyOptions::GetStepToleranceOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~GetStepToleranceOptions.html)
 
 ## Availability

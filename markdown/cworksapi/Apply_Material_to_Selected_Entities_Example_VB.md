@@ -9,8 +9,7 @@ source: "cworksapi/Apply_Material_to_Selected_Entities_Example_VB.htm"
 
 # Apply Material to Selected Entities Example (VBA)
 
-This example shows how to apply SOLIDWORKS-defined material to selected
-entities.
+This example shows how to apply SOLIDWORKS-defined material to selected entities.
 
 ```vb
  '----------------------------------------------------------------------------

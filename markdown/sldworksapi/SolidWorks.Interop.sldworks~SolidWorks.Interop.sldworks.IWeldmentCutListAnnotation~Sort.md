@@ -51,21 +51,11 @@ System.bool Sort(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ColumnIndex`: 0-based index of column to sort by (see
-
-Remarks
-
-)
+- `ColumnIndex`: 0-based index of column to sort by (see **Remarks**)
 - `SortAscending`: True to sort ascending, false to sort descending
 
 ### Return Value
@@ -74,30 +64,23 @@ True if sorted successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListAnnotation::Sort](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListAnnotation~Sort.html)
-
-.
+See [WeldmentCutListAnnotation::Sort](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListAnnotation~Sort.html).
 
 ## Examples
 
 [Sort Table (VBA)](Sort_Table_Example_VB.htm)
-
 [Sort Table (VB.NET)](Sort_Table_Example_VBNET.htm)
-
 [Sort Table (C#)](Sort_Table_Example_CSharp.htm)
 
 ## Remarks
 
 Weldment cut lists must be sorted by any column except Item Number.
 
-See[Sorting Tables](sldworksapiprogguide.chm::/OVERVIEW/Sorting_Tables.htm)for more information.
+See [Sorting Tables](sldworksapiprogguide.chm::/OVERVIEW/Sorting_Tables.htm) for more information.
 
 ## See Also
 
 [IWeldmentCutListAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListAnnotation.html)
-
 [IWeldmentCutListAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListAnnotation_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.object GetEndPoint2()
 System.Object^ GetEndPoint2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,40 +48,25 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchArc::GetEndPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~GetEndPoint2.html)
-
-.
+See [SketchArc::GetEndPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~GetEndPoint2.html).
 
 ## Examples
 
-See the
-
-[ISketchArc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
-examples.
+See the [ISketchArc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html) examples.
 
 ## Examples
 
 [Create Imported Surface Body From Sketch (C#)](Create_Imported_Surface_Body_from_Sketch_Example_CSharp.htm)
-
 [Get All Elements of Sketch (VBA)](Get_All_Elements_of_Sketch_Example_VB.htm)
 
 ## See Also
 
 [ISketchArc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
 [ISketchArc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc_members.html)
-
 [ISketchArc::IGetEndPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc~IGetEndPoint2.html)
-
 [ISketchArc::GetCenterPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc~GetCenterPoint2.html)
-
 [ISketchArc::GetStartPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc~GetStartPoint2.html)
-
 [ISketchArc::IGetCenterPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc~IGetCenterPoint2.html)
-
 [ISketchArc::IGetStartPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc~IGetStartPoint2.html)
 
 ## Availability

@@ -51,35 +51,18 @@ Time interval
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::EMailInterval](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~EMailInterval.html)
-
-.
+See [CWBucklingStudyOptions::EMailInterval](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~EMailInterval.html).
 
 ## Remarks
 
 This property is:
 
-- set in units specified by
-
-  [ICWBucklingStudyOptions::EMailIntervalUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailIntervalUnit.html)
-
-  .
-- valid only if
-
-  [ICWBucklingStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailTimebased.html)
-
-  is set to 1, and
-
-  [ICWBucklingStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMail.html)
-
-  is set to 1.
+- set in units specified by [ICWBucklingStudyOptions::EMailIntervalUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailIntervalUnit.html).
+- valid only if [ICWBucklingStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailTimebased.html) is set to 1, and [ICWBucklingStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMail.html) is set to 1.
 
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
 
 ## Availability

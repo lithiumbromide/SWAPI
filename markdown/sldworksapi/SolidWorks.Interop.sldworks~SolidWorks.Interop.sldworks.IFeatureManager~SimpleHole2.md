@@ -135,13 +135,7 @@ Feature^ SimpleHole2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -149,12 +143,8 @@ See
 - `Sd`: True for single-ended, false for double-ended
 - `Flip`: True to flip the direction to cut, false to not
 - `Dir`: True to flip direction to extrude, false to not
-- `T1`: Termination type for first end as defined in
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-- `T2`: Termination type for second end as defined in
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T1`: Termination type for first end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T2`: Termination type for second end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
 - `D1`: Depth of extrusion for first end in meters
 - `D2`: Depth of extrusion for second end in meters
 - `Dchk1`: True allows draft angle in first direction, false does not allow drafting
@@ -179,26 +169,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::SimpleHole2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~SimpleHole2.html)
-
-.
+See [FeatureManager::SimpleHole2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~SimpleHole2.html).
 
 ## Examples
 
 [Insert Sketch Text and Hole (VBA)](Insert_Sketch_Text_and_Hole_Example_VB.htm)
-
 [Insert Sketch Text and Hole (VB.NET)](Insert_Sketch_Text_and_Hole_Example_VBNET.htm)
-
 [Insert Sketch Text and Hole (C#)](Insert_Sketch_Text_and_Hole_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
 
 ## Availability

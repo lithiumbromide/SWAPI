@@ -51,26 +51,16 @@ True if energy is required over the life span of the assembly, false if not
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyUse::EnergyOverLifeSpan](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse~EnergyOverLifeSpan.html)
-
-.
+See [SustainabilityAssemblyUse::EnergyOverLifeSpan](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse~EnergyOverLifeSpan.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityAssemblyUse](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse.html)
-
-.
+See the examples in [ISustainabilityAssemblyUse](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse.html).
 
 ## See Also
 
 [ISustainabilityAssemblyUse Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse.html)
-
 [ISustainabilityAssemblyUse Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse_members.html)
-
 [ISustainabilityAssemblyUse::AssemblyUseAmount Property](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse~AssemblyUseAmount.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # CompConfigProperties Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::CompConfigProperties4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~CompConfigProperties4.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::CompConfigProperties4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~CompConfigProperties4.html).
 
 ## Syntax
 
@@ -58,13 +54,7 @@ void CompConfigProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,14 +64,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::CompConfigProperties](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CompConfigProperties.html)
-
-.
+See [AssemblyDoc::CompConfigProperties](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CompConfigProperties.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

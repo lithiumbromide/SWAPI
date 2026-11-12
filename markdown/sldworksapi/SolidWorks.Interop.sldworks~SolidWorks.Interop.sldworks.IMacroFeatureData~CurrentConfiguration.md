@@ -42,27 +42,15 @@ property Configuration^ CurrentConfiguration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Configuration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html)
-
-being rebuilt
+[Configuration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html) being rebuilt
 
 ## VBA Syntax
 
-See
-
-[MacroFeatureData::CurrentConfiguration](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~CurrentConfiguration.html)
-
-.
+See [MacroFeatureData::CurrentConfiguration](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~CurrentConfiguration.html).
 
 ## Examples
 
@@ -71,7 +59,6 @@ See
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [IMacroFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html)
 
 ## Availability

@@ -127,23 +127,17 @@ Feature^ InsertNetBlend2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Type`: 0 = Base
 
-1 = Boss
+  1 = Boss
 
-2 = Surface
+  2 = Surface
 
-3 = Cut
+  3 = Cut
 - `NCurvesDir1`: Number of curves in Direction 1
 - `NCurvesDir2`: Number of curves in Direction 2
 - `HasCenterline`: True if a centerline exists, false if not
@@ -156,9 +150,7 @@ See
 - `Thickness1`: Thickness value for the first direction
 - `Thickness2`: Thickness value for the second direction
 - `ReverseThickness`: True to reverse the thickness, false to not
-- `ThinSolidType`: Thin wall type as defined in
-
-[swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
+- `ThinSolidType`: Thin wall type as defined in [swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
 - `UseSharedThickness`: True to use shared thickness, false to not
 - `CapEnds`: True to cap the ends, false to not
 - `EndThickness`: End cap thickness
@@ -173,23 +165,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertNetBlend2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertNetBlend2.html)
-
-.
+See [FeatureManager::InsertNetBlend2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertNetBlend2.html).
 
 ## Examples
 
 [Insert Solid Body Boundary Surface Feature (C#)](Insert_Solid_Body_Boundary_Surface_Feature_Example_CSharp.htm)
-
 [Insert Solid Body Boundary Surface Feature (VB.NET)](Insert_Solid_Body_Boundary_Surface_Feature_Example_VBNET.htm)
-
 [Insert Solid Body Boundary Surface Feature (VBA)](Insert_Solid_Body_Boundary_Surface_Feature_Example_VB.htm)
 
 ## Remarks
 
-Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)and the following selection marks to select the entities for a boundary feature or boundary surface feature.
+Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) and the following selection marks to select the entities for a boundary feature or boundary surface feature.
 
 - Sketch curves
 
@@ -207,13 +193,9 @@ Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Inte
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::SetNetBlendCurveData Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~SetNetBlendCurveData.html)
-
 [IFeatureManager::SetNetBlendDirectionData Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~SetNetBlendDirectionData.html)
-
 [IBoundaryBossFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData.html)
 
 ## Availability

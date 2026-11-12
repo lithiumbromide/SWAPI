@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # AutomaticLooping Property (ICWMesh)
 
-Obsolete. Superseded by ICWMesh::AutomaticLooping2.
+Obsolete. Superseded by [ICWMesh::AutomaticLooping2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~AutomaticLooping2.html).
 
 ## Syntax
 
@@ -51,20 +51,13 @@ property System.int AutomaticLooping {
 
 ## VBA Syntax
 
-See
-
-[CWMesh::AutomaticLooping](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~AutomaticLooping.html)
-
-.
+See [CWMesh::AutomaticLooping](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~AutomaticLooping.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::NumberOfLoops Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~NumberOfLoops.html)
-
 [ICWMesh::NumberOfLoops Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~NumberOfLoops.html)
 
 ## Availability

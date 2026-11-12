@@ -46,24 +46,15 @@ Array of data sensor names
 
 ## VBA Syntax
 
-See
-
-[CWLoadCaseManager::GetAllTrackResultsSensorNames](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~GetAllTrackResultsSensorNames.html)
-
-.
+See [CWLoadCaseManager::GetAllTrackResultsSensorNames](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~GetAllTrackResultsSensorNames.html).
 
 ## See Also
 
 [ICWLoadCaseManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
 [ICWLoadCaseManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager_members.html)
-
 [ICWLoadCaseManager::AddTrackResultsSensor Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~AddTrackResultsSensor.html)
-
 [ICWLoadCaseManager::DeleteTrackResultsSensor Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~DeleteTrackResultsSensor.html)
-
 [ICWLoadCaseManager::GetSensorResultValueForLoadCaseCombination Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~GetSensorResultValueForLoadCaseCombination.html)
-
 [ICWLoadCaseManager::GetSensorResultValueForPrimaryLoadCase Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~GetSensorResultValueForPrimaryLoadCase.html)
 
 ## Availability

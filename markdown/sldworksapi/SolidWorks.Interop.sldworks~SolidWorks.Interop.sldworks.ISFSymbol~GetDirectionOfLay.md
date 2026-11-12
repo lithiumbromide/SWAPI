@@ -40,38 +40,21 @@ System.int GetDirectionOfLay()
 System.int GetDirectionOfLay();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Direction of lay as defined in
-
-[swSFLaySym_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFLaySym_e.html)
+Direction of lay as defined in [swSFLaySym_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFLaySym_e.html)
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::GetDirectionOfLay](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetDirectionOfLay.html)
-
-.
+See [SFSymbol::GetDirectionOfLay](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetDirectionOfLay.html).
 
 ## Remarks
 
-To set the direction of lay value, use
-
-[ISFSymbol::SetDirectionOfLay](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~SetDirectionOfLay.html)
-
-.
+To set the direction of lay value, use [ISFSymbol::SetDirectionOfLay](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~SetDirectionOfLay.html).
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)

@@ -9,9 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # swDimXpertDimensionPositionOption_e Enumeration
 
-Reference axis options for
-
-[IDimXpertDimensionOption::DimensionPositionOption2](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption~DimensionPositionOption2.html)
+Reference axis options for [IDimXpertDimensionOption::DimensionPositionOption2](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption~DimensionPositionOption2.html)
 
 ## Syntax
 

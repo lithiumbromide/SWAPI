@@ -11,13 +11,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWCo
 
 Provides access to SOLIDWORKS configurations.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class IPDMWConfiguration
 
 ## VBA Syntax
 
-See
-
-[PDMWConfiguration](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration.html)
-
-.
+See [PDMWConfiguration](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration.html).
 
 ## Accessors
 
@@ -60,7 +50,5 @@ See
 ## See Also
 
 [IPDMWConfiguration Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWConfigurations Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfigurations.html)

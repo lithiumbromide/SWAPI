@@ -1,6 +1,5 @@
 ---
-title: "IBeltChainFeatureData Object
-Members"
+title: "IBeltChainFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IBeltChainFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IBeltChainFeatureData_members.html"
 ---
 
-# IBeltChainFeatureData Object
-Members
+# IBeltChainFeatureData Object Members
 
 ## Public Methods
 

@@ -40,13 +40,7 @@ System.int GetGapsCount()
 System.int GetGapsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,21 @@ Number of gaps
 
 ## VBA Syntax
 
-See
-
-[DiagnoseResult::GetGapsCount](ms-its:sldworksapivb6.chm::/sldworks~DiagnoseResult~GetGapsCount.html)
-
-.
+See [DiagnoseResult::GetGapsCount](ms-its:sldworksapivb6.chm::/sldworks~DiagnoseResult~GetGapsCount.html).
 
 ## Examples
 
 [Get and Fill Gaps in Body (C#)](Get_and_Fill_Gaps_in_Body_Example_CSharp.htm)
-
 [Get and Fill Gaps in Body (VB.NET)](Get_and_Fill_Gaps_in_Body_Example_VBNET.htm)
-
 [Get and Fill Gaps in Body (VBA)](Get_and_Fill_Gaps_in_Body_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling[IDiagnoseResult::GetCoEdgesAtGap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDiagnoseResult~GetCoEdgesAtGap.html)and[IDiagnoseResult::IGetCoEdgesAtGap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDiagnoseResult~IGetCoEdgesAtGap.html).
+Call this method before calling [IDiagnoseResult::GetCoEdgesAtGap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDiagnoseResult~GetCoEdgesAtGap.html) and [IDiagnoseResult::IGetCoEdgesAtGap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDiagnoseResult~IGetCoEdgesAtGap.html).
 
 ## See Also
 
 [IDiagnoseResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult.html)
-
 [IDiagnoseResult Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult_members.html)
 
 ## Availability

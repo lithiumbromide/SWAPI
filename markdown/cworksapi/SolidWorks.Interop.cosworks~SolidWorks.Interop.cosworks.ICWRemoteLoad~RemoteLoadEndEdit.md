@@ -42,38 +42,25 @@ System.int RemoteLoadEndEdit();
 
 ### Return Value
 
-Error code as defined in
-
-[swsRemoteLoadEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRemoteLoadEndEditError_e.html)
+Error code as defined in [swsRemoteLoadEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRemoteLoadEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::RemoteLoadEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~RemoteLoadEndEdit.html)
-
-.
+See [CWRemoteLoad::RemoteLoadEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~RemoteLoadEndEdit.html).
 
 ## Examples
 
 [Add Remote Load (VBA)](Add_Remote_Load_Example_VB.htm)
-
 [Add Remote Load (VB.NET)](Add_Remote_Load_Example_VBNET.htm)
-
 [Add Remote Load (C#)](Add_Remote_Load_Example_CSharp.htm)
 
 ## Remarks
 
-You must call
-
-[ICWRemoteLoad::RemoteLoadBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWRemoteLoad~RemoteLoadBeginEdit.html)
-
-to start editing a remote load. To end editing a remote load, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWRemoteLoad::RemoteLoadBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWRemoteLoad~RemoteLoadBeginEdit.html) to start editing a remote load. To end editing a remote load, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

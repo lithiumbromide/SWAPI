@@ -35,5 +35,4 @@ System.String^ mbsRefOldPath
 ## See Also
 
 [EdmUpdatedRefPath Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath.html)
-
 [EdmUpdatedRefPath Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath_members.html)

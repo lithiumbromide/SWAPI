@@ -67,38 +67,16 @@ System.bool FindMinimumRadius(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UBound`: MinMax UParameter
 - `VBound`: MinMax VParameter
 - `NumOfRadius`: Number of radius; can be 0, 1, or 2
-- `Radius`: Minimum radius of curvature (see
-
-Remarks
-
-)
-- `Location`: [Position](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-where the minimum radius curvature occurred (see
-
-Remarks
-
-)
-- `UVParameter`: [UV parameters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-; because points are UV, third ordinates are 0 (see
-
-Remarks
-
-)
+- `Radius`: Minimum radius of curvature (see **Remarks**)
+- `Location`: [Position](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) where the minimum radius curvature occurred (see **Remarks**)
+- `UVParameter`: [UV parameters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html); because points are UV, third ordinates are 0 (see **Remarks**)
 
 ### Return Value
 
@@ -106,11 +84,7 @@ True if operation succeeds, false if it fails
 
 ## VBA Syntax
 
-See
-
-[Surface::FindMinimumRadius](ms-its:sldworksapivb6.chm::/sldworks~Surface~FindMinimumRadius.html)
-
-.
+See [Surface::FindMinimumRadius](ms-its:sldworksapivb6.chm::/sldworks~Surface~FindMinimumRadius.html).
 
 ## Examples
 
@@ -123,31 +97,19 @@ The search is confined to the portion of the selected curve lying inside of UBou
 COM returns these data types for these parameters:
 
 - Radius: VARIANT of SafeDoubleArray
-- Location: VARIANT of SafeDispatchArray of
-
-  [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-- UVParameter: VARIANT of SafeDispatchArray of
-
-  [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
+- Location: VARIANT of SafeDispatchArray of [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
+- UVParameter: VARIANT of SafeDispatchArray of [IMathpoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IFindMinimumRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IFindMinimumRadius.html)
-
 [ISurface::Parameterization Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~Parameterization.html)
-
 [ISurface::IParameterization Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IParameterization.html)
-
 [ICurve::FindMinimumRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~FindMinimumRadius.html)
-
 [ICurve::IFindMinimumRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IFindMinimumRadius.html)
-
 [IFace2::GetUVBounds Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetUVBounds.html)
-
 [IFace2::IGetUVBounds Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetUVBounds.html)
 
 ## Availability

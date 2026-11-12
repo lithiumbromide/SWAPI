@@ -45,35 +45,19 @@ property System.int MirrorType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of mirror as defined by
-
-[swMirrorComponentMirrorType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMirrorComponentMirrorType_e.html)
+Type of mirror as defined by [swMirrorComponentMirrorType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMirrorComponentMirrorType_e.html)
 
 ## VBA Syntax
 
-See
-
-[MirrorComponentFeatureData::MirrorType](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~MirrorType.html)
-
-.
+See [MirrorComponentFeatureData::MirrorType](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~MirrorType.html).
 
 ## Examples
 
-See the
-
-[IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
-example.
+See the [IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html) example.
 
 ## Remarks
 
@@ -82,7 +66,6 @@ If not explicitly set, this property defaults to swMirrorComponentMirrorType_e.s
 ## See Also
 
 [IMirrorComponentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
 [IMirrorComponentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData_members.html)
 
 ## Availability

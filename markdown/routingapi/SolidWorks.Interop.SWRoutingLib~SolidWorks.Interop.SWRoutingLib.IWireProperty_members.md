@@ -9,7 +9,7 @@ source: "routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRouting
 
 # IWireProperty Interface Members
 
-The following tables list the members exposed by[IWireProperty](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty.html).
+The following tables list the members exposed by [IWireProperty](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty.html).
 
 ## Public Properties
 
@@ -26,7 +26,5 @@ The following tables list the members exposed by[IWireProperty](SolidWorks.Inter
 ## See Also
 
 [IWireProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty.html)
-
 [SolidWorks.Interop.SWRoutingLib Namespace](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib_namespace.html)
-
 [ICableProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty.html)

@@ -51,26 +51,12 @@ System.bool GetAttachedEntities(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Entities`: Array of attached entities
-- `EntityTypes`: Array of longs or integers (see
-
-[Long vs. Integer](sldworksapiprogguide.chm::/overview/Long_vs_Integer.htm)
-
-) of the types of attached entities (see
-
-Remarks
-
-)
+- `EntityTypes`: Array of longs or integers (see [Long vs. Integer](sldworksapiprogguide.chm::/overview/Long_vs_Integer.htm)) of the types of attached entities (see **Remarks**)
 
 ### Return Value
 
@@ -78,17 +64,11 @@ True if the entities are retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::GetAttachedEntities](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetAttachedEntities.html)
-
-.
+See [SketchBlockInstance::GetAttachedEntities](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetAttachedEntities.html).
 
 ## Remarks
 
 The arrays returned by this method can contain one or more different object and type.
-
-(Table)=========================================================
 
 | Possible returned Entities | Possible returned EntityTypes |
 | --- | --- |
@@ -103,7 +83,6 @@ A block instance that was inserted with a leader attached to an entity remains a
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
 
 ## Availability

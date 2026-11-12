@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInf
 
 # EdmChangeStateTransitionInfo Structure Fields
 
-For a list of all members of this type, see[EdmChangeStateTransitionInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo_members.html).
+For a list of all members of this type, see [EdmChangeStateTransitionInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo_members.html).
 
 ## Public Fields
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[EdmChangeStateTransitionInfo members
 ## See Also
 
 [EdmChangeStateTransitionInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

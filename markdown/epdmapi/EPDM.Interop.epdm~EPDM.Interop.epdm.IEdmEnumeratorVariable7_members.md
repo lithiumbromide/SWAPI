@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7_mem
 
 # IEdmEnumeratorVariable7 Interface Members
 
-The following tables list the members exposed by[IEdmEnumeratorVariable7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7.html).
+The following tables list the members exposed by [IEdmEnumeratorVariable7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IEdmEnumeratorVariable7](EPDM.I
 ## See Also
 
 [IEdmEnumeratorVariable7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable7.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

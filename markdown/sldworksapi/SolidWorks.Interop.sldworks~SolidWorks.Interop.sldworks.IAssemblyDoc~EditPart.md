@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # EditPart Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::EditPart2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~EditPart2.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::EditPart2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~EditPart2.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void EditPart()
 void EditPart();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::EditPart](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~EditPart.html)
-
-.
+See [AssemblyDoc::EditPart](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~EditPart.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

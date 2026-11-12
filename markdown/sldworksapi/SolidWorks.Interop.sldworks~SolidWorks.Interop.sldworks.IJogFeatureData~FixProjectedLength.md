@@ -45,13 +45,7 @@ property System.bool FixProjectedLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True fixes the projected length, false does not
 
 ## VBA Syntax
 
-See
-
-[JogFeatureData::FixProjectedLength](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~FixProjectedLength.html)
-
-.
+See [JogFeatureData::FixProjectedLength](ms-its:sldworksapivb6.chm::/sldworks~JogFeatureData~FixProjectedLength.html).
 
 ## See Also
 
 [IJogFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData.html)
-
 [IJogFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJogFeatureData_members.html)
 
 ## Availability

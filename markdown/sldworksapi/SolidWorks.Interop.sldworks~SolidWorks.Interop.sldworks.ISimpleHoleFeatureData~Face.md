@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # Face Property (ISimpleHoleFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleHoleFeatureData2::Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~Face.html)
-
-.
+Obsolete. Superseded by [ISimpleHoleFeatureData2::Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~Face.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.Object^ Face {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData::Face](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~Face.html)
-
-.
+See [SimpleHoleFeatureData::Face](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~Face.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData.html)
-
 [ISimpleHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData_members.html)

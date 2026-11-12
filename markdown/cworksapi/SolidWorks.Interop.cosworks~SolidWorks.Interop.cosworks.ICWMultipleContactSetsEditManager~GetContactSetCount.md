@@ -46,24 +46,15 @@ Number of contact sets
 
 ## VBA Syntax
 
-See
-
-[CWMultipleContactSetsEditManager::GetContactSetCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleContactSetsEditManager~GetContactSetCount.html)
-
-.
+See [CWMultipleContactSetsEditManager::GetContactSetCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleContactSetsEditManager~GetContactSetCount.html).
 
 ## Examples
 
-See the
-
-[ICWMultipleContactSetsEditManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager.html)
-
-examples.
+See the [ICWMultipleContactSetsEditManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager.html) examples.
 
 ## See Also
 
 [ICWMultipleContactSetsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager.html)
-
 [ICWMultipleContactSetsEditManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager_members.html)
 
 ## Availability

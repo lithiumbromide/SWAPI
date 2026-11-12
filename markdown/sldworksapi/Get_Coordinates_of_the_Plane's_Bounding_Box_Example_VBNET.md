@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Coordinates_of_the_Plane's_Bounding_Box_Example_VBNET.h
 
 # Get Coordinates of the Plane's Bounding Box Example (VB.NET)
 
-This example shows how to get top-left and bottom-right coordinates
-for a reference plane's bounding box.
+This example shows how to get top-left and bottom-right coordinates for a reference plane's bounding box.
 
 ```
 '-----------------------------------------------------

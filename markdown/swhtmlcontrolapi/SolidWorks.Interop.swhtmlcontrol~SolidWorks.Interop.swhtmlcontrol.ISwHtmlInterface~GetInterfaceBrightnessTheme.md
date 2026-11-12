@@ -42,24 +42,16 @@ System.int GetInterfaceBrightnessTheme();
 
 ### Return Value
 
-SOLIDWORKS background theme as defined in
-
-[swInterfaceBrightnessTheme_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInterfaceBrightnessTheme_e.html)
+SOLIDWORKS background theme as defined in [swInterfaceBrightnessTheme_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInterfaceBrightnessTheme_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwHtmlInterface::GetInterfaceBrightnessTheme](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~GetInterfaceBrightnessTheme.html)
-
-.
+See [SwHtmlInterface::GetInterfaceBrightnessTheme](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~GetInterfaceBrightnessTheme.html).
 
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [ISwHtmlInterface Members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html)
-
 [ISldWorks::GetInterfaceBrightnessThemeColors](ms-its:sldworksapi.chm::/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetInterfaceBrightnessThemeColors.html)
 
 ## Availability

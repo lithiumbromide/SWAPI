@@ -1,6 +1,5 @@
 ---
-title: "CostAnalysisCasting Object
-Members"
+title: "CostAnalysisCasting Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "CostAnalysisCasting_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~CostAnalysisCasting_members.html"
 ---
 
-# CostAnalysisCasting Object
-Members
+# CostAnalysisCasting Object Members
 
 ## Public Methods
 

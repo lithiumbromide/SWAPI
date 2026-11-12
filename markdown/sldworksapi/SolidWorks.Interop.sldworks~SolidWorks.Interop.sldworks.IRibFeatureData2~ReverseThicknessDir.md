@@ -45,13 +45,7 @@ property System.bool ReverseThicknessDir {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True if this single-sided rib is extruded on the reverse side, false if not
 
 ## VBA Syntax
 
-See
-
-[RibFeatureData2::ReverseThicknessDir](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData2~ReverseThicknessDir.html)
-
-.
+See [RibFeatureData2::ReverseThicknessDir](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData2~ReverseThicknessDir.html).
 
 ## Examples
 
-See the
-
-[IRibFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2.html)
-
-examples.
+See the [IRibFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2.html) examples.
 
 ## Remarks
 
-This property is valid only when
-
-[IRibFeatureData2::IsTwoSided](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2~IsTwoSided.html)
-
-is set to false.
+This property is valid only when [IRibFeatureData2::IsTwoSided](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2~IsTwoSided.html) is set to false.
 
 ## See Also
 
 [IRibFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2.html)
-
 [IRibFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2_members.html)
 
 ## Availability

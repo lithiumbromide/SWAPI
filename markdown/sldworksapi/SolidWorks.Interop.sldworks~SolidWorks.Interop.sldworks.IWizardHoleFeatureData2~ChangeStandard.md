@@ -55,46 +55,31 @@ System.bool ChangeStandard(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Standard`: Standard as defined in
-
-[swWzdHoleStandards_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandards_e.html)
-- `FastenerType`: Fastener type as defined in
-
-[swWzdHoleStandardFastenerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandardFastenerTypes_e.html)
+- `Standard`: Standard as defined in [swWzdHoleStandards_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandards_e.html)
+- `FastenerType`: Fastener type as defined in [swWzdHoleStandardFastenerTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleStandardFastenerTypes_e.html)
 - `SSize`: Fastener size
 
 ### Return Value
 
-True if the standard is changed, false if notParamDesc
+True if the standard is changed, false if not
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::ChangeStandard](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~ChangeStandard.html)
-
-.
+See [WizardHoleFeatureData2::ChangeStandard](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~ChangeStandard.html).
 
 ## Remarks
 
-Use this method to change[fastener size](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~FastenerSize.html),[fastener type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~FastenerType2.html), and[design standard](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~Standard2.html)of a Hole Wizard feature.
+Use this method to change [fastener size](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~FastenerSize.html), [fastener type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~FastenerType2.html), and [design standard](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~Standard2.html) of a Hole Wizard feature.
 
-If changing the standard requires you to change the type, then you must call[IWizardHoleFeatureData2::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~Type.html)before calling IWizardHoleFeatureData2::ChangeStandard.
+If changing the standard requires you to change the type, then you must call [IWizardHoleFeatureData2::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~Type.html) before calling IWizardHoleFeatureData2::ChangeStandard.
 
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
 
 ## Availability

@@ -40,48 +40,29 @@ System.bool Update()
 System.bool Update();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
 True if the length of the handle was updated, false if not
 
-EndOLEArgumentsRow
-
 ## VBA Syntax
 
-See
-
-[DragArrowManipulator::Update](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~Update.html)
-
-.
+See [DragArrowManipulator::Update](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~Update.html).
 
 ## Examples
 
-See
-
-[IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html)
-
-examples.
+See [IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html) examples.
 
 ## Remarks
 
-To change the length of a handle, use[IDragArrowManipulator::Length](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator~Length.html)or[IDragArrowManipulator::LengthOppositeDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator~LengthOppositeDirection.html), then use this method to see display the modified handle in the graphics area.
+To change the length of a handle, use [IDragArrowManipulator::Length](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator~Length.html) or [IDragArrowManipulator::LengthOppositeDirection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator~LengthOppositeDirection.html), then use this method to see display the modified handle in the graphics area.
 
 ## See Also
 
 [IDragArrowManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator.html)
-
 [IDragArrowManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator_members.html)
-
 [IDragArrowManipulator::Length Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator~Length.html)
-
 [IDragArrowManipulator::LengthOppositeDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator~LengthOppositeDirection.html)
 
 ## Availability

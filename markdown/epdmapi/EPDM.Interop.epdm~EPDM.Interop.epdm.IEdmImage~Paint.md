@@ -43,19 +43,11 @@ void Paint(
 ### Parameters
 
 - `llHDC`: Device context handle
-- `poDestRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html)
-
-structure; contains the size and position where to draw the image; null to use the size and position of the image when it was created or the size and position that was passed in the last call to
-
-[IEdmImage::Reposition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage~Reposition.html)
+- `poDestRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html) structure; contains the size and position where to draw the image; null to use the size and position of the image when it was created or the size and position that was passed in the last call to [IEdmImage::Reposition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage~Reposition.html)
 
 ## Examples
 
-See the
-
-[IEdmImage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage.html)
-
-examples.
+See the [IEdmImage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage.html) examples.
 
 ## Remarks
 
@@ -67,7 +59,6 @@ examples.
 ## See Also
 
 [IEdmImage Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage.html)
-
 [IEdmImage Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage_members.html)
 
 ## Availability

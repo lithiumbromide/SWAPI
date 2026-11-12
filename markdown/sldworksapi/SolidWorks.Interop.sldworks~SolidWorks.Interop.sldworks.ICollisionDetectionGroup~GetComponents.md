@@ -40,40 +40,23 @@ System.object GetComponents()
 System.Object^ GetComponents();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
+Array of [IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionGroup::GetComponents](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionGroup~GetComponents.html)
-
-.
+See [CollisionDetectionGroup::GetComponents](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionGroup~GetComponents.html).
 
 ## Examples
 
-See the
-
-[ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
-example.
+See the [ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html) example.
 
 ## See Also
 
 [ICollisionDetectionGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup.html)
-
 [ICollisionDetectionGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup_members.html)
 
 ## Availability

@@ -45,40 +45,23 @@ property System.int ProfileAlignmentType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Profile alignment type as defined by
-
-[swStructureProfileAlignmentType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureProfileAlignmentType_e.html)
+Profile alignment type as defined by [swStructureProfileAlignmentType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureProfileAlignmentType_e.html)
 
 ## VBA Syntax
 
-See
-
-[StructureSystemMemberProfile::ProfileAlignmentType](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~ProfileAlignmentType.html)
-
-.
+See [StructureSystemMemberProfile::ProfileAlignmentType](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~ProfileAlignmentType.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IStructureSystemMemberProfile::ProfileAlignmentObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentObject.html)
-
-is set.
+This property is valid only if [IStructureSystemMemberProfile::ProfileAlignmentObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentObject.html) is set.
 
 ## See Also
 
 [IStructureSystemMemberProfile Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile.html)
-
 [IStructureSystemMemberProfile Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile_members.html)
 
 ## Availability

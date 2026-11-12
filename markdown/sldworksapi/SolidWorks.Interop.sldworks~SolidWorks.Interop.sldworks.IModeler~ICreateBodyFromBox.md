@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ICreateBodyFromBox Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::ICreateBodyFromBox2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromBox2.html)
-
-.
+Obsolete. Superseded by [IModeler::ICreateBodyFromBox2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromBox2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Body^ ICreateBodyFromBox(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Modeler::ICreateBodyFromBox](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateBodyFromBox.html)
-
-.
+See [Modeler::ICreateBodyFromBox](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateBodyFromBox.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)

@@ -47,58 +47,36 @@ System.int GetTableRowIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `InstanceName`: Name of the pattern instance (see
-
-Remarks
-
-)
+- `InstanceName`: Name of the pattern instance (see **Remarks**)
 
 ### Return Value
 
-Index in the pattern table for InstanceName (see
-
-Remarks
-
-)
+Index in the pattern table for InstanceName (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::GetTableRowIndex](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetTableRowIndex.html)
-
-.
+See [DimPatternFeatureData::GetTableRowIndex](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetTableRowIndex.html).
 
 ## Examples
 
 [Insert Variable Pattern Feature (C#)](Insert_Advanced_Variable_Pattern_Feature_Example_CSharp.htm)
-
 [Insert Variable Pattern Feature (VB.NET)](Insert_Advanced_Variable_Pattern_Feature_Example_VBNET.htm)
-
 [Insert Variable Pattern Feature (VBA)](Insert_Advanced_Variable_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
 
-Use[IDimPatternFeatureData::GetInstanceNameByIndex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceNameByIndex.html)to get InstanceName.
+Use [IDimPatternFeatureData::GetInstanceNameByIndex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceNameByIndex.html) to get InstanceName.
 
-**NOTE**: The index returned by this method is a value in a row in the**Instance**column in the pattern table.
+**NOTE**: The index returned by this method is a value in a row in the **Instance** column in the pattern table.
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
-
 [IDimPatternFeatureData::GetInstanceIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceIndex.html)
 
 ## Availability

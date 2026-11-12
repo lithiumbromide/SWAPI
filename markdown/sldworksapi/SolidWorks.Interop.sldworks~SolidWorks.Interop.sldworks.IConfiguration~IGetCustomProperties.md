@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IGetCustomProperties Method (IConfiguration)
 
-Obsolete. Superseded by
-
-[IConfiguration::CustomPropertyManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~CustomPropertyManager.html)
-
-.
+Obsolete. Superseded by [IConfiguration::CustomPropertyManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~CustomPropertyManager.html).
 
 ## Syntax
 
@@ -62,13 +58,7 @@ void IGetCustomProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,14 +69,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Configuration::IGetCustomProperties](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IGetCustomProperties.html)
-
-.
+See [Configuration::IGetCustomProperties](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IGetCustomProperties.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)

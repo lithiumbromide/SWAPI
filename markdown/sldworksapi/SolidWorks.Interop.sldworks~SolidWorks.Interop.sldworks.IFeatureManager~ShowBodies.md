@@ -39,34 +39,19 @@ void ShowBodies()
 void ShowBodies();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::ShowBodies](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~ShowBodies.html)
-
-.
+See [FeatureManager::ShowBodies](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~ShowBodies.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::HideBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~HideBodies.html)
-
 [IBody2::DisableDisplay Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~DisableDisplay.html)
-
 [IModelDoc2::HideShowBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~HideShowBodies.html)
-
 [IModelDoc2::HideSolidBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~HideSolidBody.html)
 
 ## Availability

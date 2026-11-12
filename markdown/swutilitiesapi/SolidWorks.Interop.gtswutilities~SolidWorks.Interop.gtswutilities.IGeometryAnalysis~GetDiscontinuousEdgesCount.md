@@ -49,9 +49,7 @@ System.int GetDiscontinuousEdgesCount(
 
 ### Parameters
 
-- `errorcode`: Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `errorcode`: Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -59,11 +57,7 @@ Number of discontinuous edges
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::GetDiscontinuousEdgesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetDiscontinuousEdgesCount.html)
-
-.
+See [IGeometryAnalysis::GetDiscontinuousEdgesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetDiscontinuousEdgesCount.html).
 
 ## Examples
 
@@ -76,7 +70,6 @@ All edges in the part where the underlying curve geometry has position or tangen
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
 
 ## Availability

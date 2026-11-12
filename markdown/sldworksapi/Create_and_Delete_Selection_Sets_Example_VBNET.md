@@ -12,12 +12,9 @@ source: "sldworksapi/Create_and_Delete_Selection_Sets_Example_VBNET.htm"
 This example shows how to:
 
 - create selection sets.
-- get the Selection Sets
-  folder.
-- get the selection sets in
-  the Selection Sets folder.
-- get and then delete the
-  items in the selection sets, which deletes the selection sets.
+- get the Selection Sets folder.
+- get the selection sets in the Selection Sets folder.
+- get and then delete the items in the selection sets, which deletes the selection sets.
 
 ```
 '--------------------------------------------------------------------

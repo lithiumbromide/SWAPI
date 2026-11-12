@@ -48,24 +48,16 @@ Name of configuration
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchResult::ConfigurationName](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~ConfigurationName.html)
-
-.
+See [PDMWSearchResult::ConfigurationName](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~ConfigurationName.html).
 
 ## Remarks
 
-[IPDMWSearchOptions::SearchConfigSpecificProperties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions~SearchConfigSpecificProperties.html)
-
-must be true to use this property.
+[IPDMWSearchOptions::SearchConfigSpecificProperties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions~SearchConfigSpecificProperties.html) must be true to use this property.
 
 ## See Also
 
 [IPDMWSearchResult Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult.html)
-
 [IPDMWSearchResult Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult_members.html)
-
 [IPDMWSearchOptions::SearchConfigSpecificProperties Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions~SearchConfigSpecificProperties.html)
 
 ## Availability

@@ -45,40 +45,23 @@ property System.int CheckClearanceBetween {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of clearance check as defined by
-
-[swCheckClearanceBetween_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCheckClearanceBetween_e.html)
+Type of clearance check as defined by [swCheckClearanceBetween_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCheckClearanceBetween_e.html)
 
 ## VBA Syntax
 
-See
-
-[ClearanceVerificationMgr::CheckClearanceBetween](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~CheckClearanceBetween.html)
-
-.
+See [ClearanceVerificationMgr::CheckClearanceBetween](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~CheckClearanceBetween.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## See Also
 
 [IClearanceVerificationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
 [IClearanceVerificationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr_members.html)
 
 ## Availability

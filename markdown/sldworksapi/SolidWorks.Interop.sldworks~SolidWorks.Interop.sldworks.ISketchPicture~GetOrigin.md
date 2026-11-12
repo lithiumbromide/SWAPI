@@ -50,26 +50,16 @@ void GetOrigin(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `X`: x coordinate
-- `Y`: y coordinateParamDesc
+- `Y`: y coordinate
 
 ## VBA Syntax
 
-See
-
-[SketchPicture::GetOrigin](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~GetOrigin.html)
-
-.
+See [SketchPicture::GetOrigin](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~GetOrigin.html).
 
 ## Remarks
 
@@ -78,9 +68,7 @@ The coordinates in meters indicate the position of the lower-left corner of the 
 ## See Also
 
 [ISketchPicture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
 [ISketchPicture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture_members.html)
-
 [ISketchPicture::SetOrigin Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture~SetOrigin.html)
 
 ## Availability

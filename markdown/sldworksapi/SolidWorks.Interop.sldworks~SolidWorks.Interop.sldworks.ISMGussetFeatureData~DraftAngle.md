@@ -45,13 +45,7 @@ property System.double DraftAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ Draft angle in radians
 
 ## VBA Syntax
 
-See
-
-[SMGussetFeatureData::DraftAngle](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~DraftAngle.html)
-
-.
+See [SMGussetFeatureData::DraftAngle](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~DraftAngle.html).
 
 ## Examples
 
-See the examples for
-
-[ISMGussetFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData.html)
-
-.
+See the examples for [ISMGussetFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ISMGussetFeatureData::DraftSideFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~DraftSideFaces.html)
-
-is true.
+This property is valid only if [ISMGussetFeatureData::DraftSideFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~DraftSideFaces.html) is true.
 
 ## See Also
 
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
 [ISMGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData_members.html)
 
 ## Availability

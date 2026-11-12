@@ -67,33 +67,15 @@ System.bool AddMenuPopupIcon(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DocType`: [Document type](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
-
-to which to add the context-sensitive menu icon
-- `SelectType`: [Selection type](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-
-to which to add the context-sensitive menu icon
+- `DocType`: [Document type](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html) to which to add the context-sensitive menu icon
+- `SelectType`: [Selection type](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html) to which to add the context-sensitive menu icon
 - `HintString`: Text displayed in the SOLIDWORKS status bar when the user moves the mouse over the icon
-- `CallbackFcnAndModule`: Function called when user clicks the context-sensitive menu icon (see
-
-Remarks
-
-)
-- `CustomNames`: Names of custom feature types (see
-
-Remarks
-
-)
+- `CallbackFcnAndModule`: Function called when user clicks the context-sensitive menu icon (see **Remarks**)
+- `CustomNames`: Names of custom feature types (see **Remarks**)
 - `BitmapFilePath`: Path and file name of the bitmap for the context-sensitive menu icon
 
 ### Return Value
@@ -120,15 +102,15 @@ UserItem1_Menu1_bitmapFile,
 
 ## Remarks
 
-This method is supported in C++ applications only, and it only works for C++ applications implemented as**.dll**files, not as**.exe**files. Any function exposed as a callback from an context-sensitive menu icon must be declared as an EXPORT or included in your**.def**file.
+This method is supported in C++ applications only, and it only works for C++ applications implemented as **.dll** files, not as **.exe** files. Any function exposed as a callback from an context-sensitive menu icon must be declared as an EXPORT or included in your **.def** file.
 
 The CallbackFcnAndModule argument specifies which function to call when the shortcut menu icon is clicked by the user. The syntax is as follows:
 
 dllname@function
 
+```vb
 where:
-
-(Table)=========================================================
+```
 
 | dllname | Name of your library as specified in the project .def file. The actual file name and the definition in the .def file must be the same. |
 | --- | --- |
@@ -139,27 +121,16 @@ CustomNames is a semi-colon separated list of the names of the custom feature ty
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [IFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html)
-
 [IFrame::RemoveMenuPopupIcon Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~RemoveMenuPopupIcon.html)
-
 [IFrame::AddMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~AddMenu.html)
-
 [IFrame::AddMenuItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~AddMenuItem2.html)
-
 [IFrame::GetMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetMenu.html)
-
 [IFrame::GetSubMenuCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetSubMenuCount.html)
-
 [IFrame::GetSubMenus Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetSubMenus.html)
-
 [IFrame::RenameMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~RenameMenu.html)
-
 [IFrame::AddMenuPopupItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~AddMenuPopupItem2.html)
-
 [IFrame::AddMenuPopupIcon2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~AddMenuPopupIcon2.html)
-
 [ISldWorks::AddItemToThirdPartyPopupMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddItemToThirdPartyPopupMenu.html)
 
 ## Availability

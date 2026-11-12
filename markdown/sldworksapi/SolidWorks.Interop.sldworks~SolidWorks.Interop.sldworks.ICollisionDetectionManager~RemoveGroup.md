@@ -47,13 +47,7 @@ System.bool RemoveGroup(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ True if collision detection group successfully removed, false if not
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionManager::RemoveGroup](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~RemoveGroup.html)
-
-.
+See [CollisionDetectionManager::RemoveGroup](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~RemoveGroup.html).
 
 ## See Also
 
 [ICollisionDetectionManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
 [ICollisionDetectionManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager_members.html)
 
 ## Availability

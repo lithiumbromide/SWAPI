@@ -59,18 +59,12 @@ System.bool PreTrimSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BMutualTrimIn`: True to use the selected intersecting surfaces as the trimming surfaces (mutual), false to use the selected surface, plane, or sketch as the trim tool (standard)
-- `BSplitSystemIn`: True to let the SOLIDWORKS application determine which surfaces to trim, false to trim all possible surfaces
+- `BSplitSystemIn`: True to let the SOLIDWORKS Design application determine which surfaces to trim, false to trim all possible surfaces
 - `BSplitLinearIn`: False to naturally extend any trims along the intersecting surfaces, true to extend any trims linearly along the intersecting surfaces
 - `BRemovePickedIn`: True to remove the selected surfaces, false to keep the selected surfaces
 
@@ -80,24 +74,15 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::PreTrimSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~PreTrimSurface.html)
-
-.
+See [FeatureManager::PreTrimSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~PreTrimSurface.html).
 
 ## Examples
 
 [Create Trimmed Surface Feature (C#)](Create_Trimmed_Surface_Feature_Example_CSharp.htm)
-
 [Create Trimmed Surface Feature (VB.NET)](Create_Trimmed_Surface_Feature_Example_VBNET.htm)
-
 [Create Trimmed Surface Feature (VBA)](Create_Trimmed_Surface_Feature_Example_VB.htm)
-
 [Create Solid Body Surface Trim Feature (C#)](Create_Solid_Body_Surface_Trim_Feature_Example_CSharp.htm)
-
 [Create Solid Body Surface Trim Feature (VB.NET)](Create_Solid_Body_Surface_Trim_Feature_Example_VBNET.htm)
-
 [Create Solid Body Surface Trim Feature (VBA)](Create_Solid_Body_Surface_Trim_Feature_Example_VB.htm)
 
 ## Remarks
@@ -105,23 +90,13 @@ See
 After calling this method:
 
 1. Select the trimming surfaces or trim tool.
-2. Optionally, call
-
-  [IFeatureManager::SolidForTrim](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~SolidForTrim.html)
-
-  .
-3. Call
-
-  [IFeatureManager::PostTrimSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~PostTrimSurface.html)
-
-  .
+2. Optionally, call [IFeatureManager::SolidForTrim](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~SolidForTrim.html).
+3. Call [IFeatureManager::PostTrimSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~PostTrimSurface.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISurfaceTrimFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData.html)
 
 ## Availability

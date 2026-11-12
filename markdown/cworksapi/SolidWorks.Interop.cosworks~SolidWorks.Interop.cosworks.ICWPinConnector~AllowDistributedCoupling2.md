@@ -50,12 +50,11 @@ property System.bool AllowDistributedCoupling2 {
 
 This property returns a boolean value which can be cast to an integer. To set this property, you can specify either the boolean or the integer.
 
-If this property is -1, you can set[ICWPinConnector::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~ConnectionType.html).
+If this property is -1, you can set [ICWPinConnector::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~ConnectionType.html).
 
 ## See Also
 
 [ICWPinConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
 [ICWPinConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool RotationRollBySelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,14 @@ True if you can select the camera's rotation roll, false if not
 
 ## VBA Syntax
 
-See
-
-[Camera::RotationRollBySelection](ms-its:sldworksapivb6.chm::/sldworks~Camera~RotationRollBySelection.html)
-
-.
+See [Camera::RotationRollBySelection](ms-its:sldworksapivb6.chm::/sldworks~Camera~RotationRollBySelection.html).
 
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
-
 [ICamera::RotationRollAngle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~RotationRollAngle.html)
-
 [ICamera::RotationRollEntity Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~RotationRollEntity.html)
-
 [ICamera::RotationRollFlipDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~RotationRollFlipDirection.html)
 
 ## Availability

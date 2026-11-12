@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDa
 
 # IDatumTag Interface Members
 
-The following tables list the members exposed by[IDatumTag](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html).
+The following tables list the members exposed by [IDatumTag](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html).
 
 ## Public Properties
 
@@ -62,5 +62,4 @@ The following tables list the members exposed by[IDatumTag](SolidWorks.Interop.s
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

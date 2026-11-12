@@ -45,34 +45,19 @@ property System.Object^ IconList {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of strings of the paths for the icons for the toolbar buttons and separators for this CommandGroup (see
-
-Remarks
-
-)
+Array of strings of the paths for the icons for the toolbar buttons and separators for this CommandGroup (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::IconList](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~IconList.html)
-
-.
+See [CommandGroup::IconList](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~IconList.html).
 
 ## Examples
 
 [Create Flyouts in the CommandManager (C#)](Create_Flyouts_in_the_CommandManager_Example_CSharp.htm)
-
 [Create Flyouts in the CommandManager (VB.NET)](Create_Flyouts_in_the_CommandManager_Example_VBNET.htm)
 
 ## Remarks
@@ -88,18 +73,16 @@ The array of strings of the paths to the image files can contain icons of the fo
 - 96 x 96 pixels
 - 128 x128 pixels
 
-Each image file (**.bmp**or**.png**) should contain all of the same-size icons for all of the buttons and separators for both parent and child toolbars. For example:
+Each image file (**.bmp** or **.png**) should contain all of the same-size icons for all of the buttons and separators for both parent and child toolbars. For example:
 
 Each icon strip should use a 256-color palette.
 
-The order in which you specify the icons must be the same for this property and[ICommandGroup::MainIconList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~MainIconList.html). For example, if you specify an array of paths to 20 x 20 pixels, 32 x 32 pixels, and 40 x 40 pixels icons for this property, then you must specify an array of paths to 20 x 20 pixels, 32 x 32 pixels, and 40 x 40 pixels icons for ICommandGroup::MainIconList.
+The order in which you specify the icons must be the same for this property and [ICommandGroup::MainIconList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~MainIconList.html). For example, if you specify an array of paths to 20 x 20 pixels, 32 x 32 pixels, and 40 x 40 pixels icons for this property, then you must specify an array of paths to 20 x 20 pixels, 32 x 32 pixels, and 40 x 40 pixels icons for ICommandGroup::MainIconList.
 
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
-
 [ISldWorks::GetImageSize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetImageSize.html)
 
 ## Availability

@@ -42,36 +42,23 @@ System.int RadiationEndEdit();
 
 ### Return Value
 
-Error as defined in[swsRadiationEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRadiationEndEditError_e.html)
+Error as defined in [swsRadiationEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRadiationEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRadiation::RadiationEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~RadiationEndEdit.html)
-
-.
+See [CWRadiation::RadiationEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~RadiationEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
-examples.
+See the [ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html) examples.
 
 ## Remarks
 
-You must call
-
-[ICWRadiation::RadiationBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWPressure~PressureBeginEdit.html)
-
-to start editing radiation. To end editing radiation, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWRadiation::RadiationBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWPressure~PressureBeginEdit.html) to start editing radiation. To end editing radiation, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
 
 ## Availability

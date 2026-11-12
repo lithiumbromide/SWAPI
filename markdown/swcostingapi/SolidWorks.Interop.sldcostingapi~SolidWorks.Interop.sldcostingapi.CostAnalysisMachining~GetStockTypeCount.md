@@ -1,0 +1,78 @@
+---
+title: "GetStockTypeCount Method (CostAnalysisMachining)"
+project: "SOLIDWORKS Costing API Help"
+interface: "CostAnalysisMachining"
+member: "GetStockTypeCount"
+kind: "method"
+source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining~GetStockTypeCount.html"
+---
+
+# GetStockTypeCount Method (CostAnalysisMachining)
+
+Gets the number of stock types for the specified material from the Costing template for this machining Costing analysis.
+
+## Syntax
+
+### Visual Basic (Declaration)
+
+```vb
+Function GetStockTypeCount( _
+   ByVal MaterialClass As System.String, _
+   ByVal MaterialName As System.String _
+) As System.Integer
+```
+
+### Visual Basic (Usage)
+
+```vb
+Dim instance As CostAnalysisMachining
+Dim MaterialClass As System.String
+Dim MaterialName As System.String
+Dim value As System.Integer
+
+value = instance.GetStockTypeCount(MaterialClass, MaterialName)
+```
+
+### C#
+
+```csharp
+System.int GetStockTypeCount(
+   System.string MaterialClass,
+   System.string MaterialName
+)
+```
+
+### C++/CLI
+
+```cpp
+System.int GetStockTypeCount(
+   System.String^ MaterialClass,
+   System.String^ MaterialName
+)
+```
+
+### Parameters
+
+- `MaterialClass`: Name of the material class
+- `MaterialName`: Name of the material
+
+### Return Value
+
+Number of stock types for the specified material
+
+## VBA Syntax
+
+See [CostAnalysisMachining::GetStockTypeCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetStockTypeCount.html).
+
+## Remarks
+
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
+
+## See Also
+
+[CostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining.html)
+[CostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisMachining_members.html)
+
+## Availability
+
+SOLIDWORKS Costing API 2013 SP0

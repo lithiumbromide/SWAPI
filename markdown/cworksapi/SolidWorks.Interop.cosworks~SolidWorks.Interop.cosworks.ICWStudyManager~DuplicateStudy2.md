@@ -79,9 +79,7 @@ CWStudy^ DuplicateStudy2(
 - `NNLDynamic`: 1 to copy to a nonlinear dynamic study, 0 to not
 - `BIncludeMesh`: True to include mesh when duplicating study, false to not
 - `BIncludeResults`: True to include results when duplicating study, false to not
-- `Errors`: Error code as defined in
-
-[swsDuplicateStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDuplicateStudyError_e.html)
+- `Errors`: Error code as defined in [swsDuplicateStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDuplicateStudyError_e.html)
 
 ### Return Value
 
@@ -89,34 +87,22 @@ CWStudy^ DuplicateStudy2(
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::DuplicateStudy2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~DuplicateStudy2.html)
-
-.
+See [CWStudyManager::DuplicateStudy2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~DuplicateStudy2.html).
 
 ## Examples
 
 [Duplicate Study (VBA)](Duplicate_Study_Example_VB.htm)
-
 [Duplicate Study (VB.NET)](Duplicate_Study_Example_VBNET.htm)
-
 [Duplicate Study (C#)](Duplicate_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudyManager::GetStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~GetStudy.html)
-
 [ICWStudyManager::CreateNewStudy3 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~CreateNewStudy3.html)
-
 [ICWStudyManager::DeleteStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DeleteStudy.html)
-
 [ICWStudyManager::RenameStudyFromID Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~RenameStudyFromID.html)
-
 [ICWStudyManager::ConvertStudy2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ConvertStudy2.html)
 
 ## Availability

@@ -42,13 +42,7 @@ property System.int CornerIndex {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ One-based index of this corner
 
 ## VBA Syntax
 
-See
-
-[SMCornerReliefData::CornerIndex](ms-its:sldworksapivb6.chm::/sldworks~SMCornerReliefData~CornerIndex.html)
-
-.
+See [SMCornerReliefData::CornerIndex](ms-its:sldworksapivb6.chm::/sldworks~SMCornerReliefData~CornerIndex.html).
 
 ## Examples
 
-See the
-
-[ICornerReliefFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
-examples.
+See the [ICornerReliefFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html) examples.
 
 ## See Also
 
 [ISMCornerReliefData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData.html)
-
 [ISMCornerReliefData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData_members.html)
 
 ## Availability

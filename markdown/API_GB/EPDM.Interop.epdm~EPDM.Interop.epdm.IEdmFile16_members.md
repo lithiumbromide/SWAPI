@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16_members.html"
 
 # IEdmFile16 Interface Members
 
-The following tables list the members exposed by[IEdmFile16](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16.html).
+The following tables list the members exposed by [IEdmFile16](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmFile16](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmFile16 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile16.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

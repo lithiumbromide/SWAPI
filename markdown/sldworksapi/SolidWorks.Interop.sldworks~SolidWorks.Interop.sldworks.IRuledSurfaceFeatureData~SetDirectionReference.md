@@ -50,40 +50,20 @@ void SetDirectionReference(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Ref1`: First reference entity (see
-
-Remarks
-
-)
-- `Ref2`: Second reference entity (see
-
-Remarks
-
-)
+- `Ref1`: First reference entity (see **Remarks**)
+- `Ref2`: Second reference entity (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[RuledSurfaceFeatureData::SetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~SetDirectionReference.html)
-
-.
+See [RuledSurfaceFeatureData::SetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~SetDirectionReference.html).
 
 ## Remarks
 
 Sometimes one reference entity can sufficiently define a direction; for example, an edge or axis. Other times, two reference entities are required to define a direction; for example, two vertices or two sketch points.
-
-(Table)=========================================================
 
 | If... | Then... |
 | --- | --- |
@@ -100,14 +80,12 @@ Valid reference entities for type1 and type2:
 - plane
 - sketch point
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [IRuledSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData_members.html)
-
 [IRuledSurfaceFeatureData::GetDirectionReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData~GetDirectionReference.html)
 
 ## Availability

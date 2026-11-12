@@ -49,11 +49,7 @@ System.bool HasFrozenFeatures(
 
 ### Parameters
 
-- `FrozenFeatureNeedsUpdate`: True if the document has frozen features that need to be updated, false if not (see
-
-Remarks
-
-)
+- `FrozenFeatureNeedsUpdate`: True if the document has frozen features that need to be updated, false if not (see **Remarks**)
 
 ### Return Value
 
@@ -61,16 +57,11 @@ True if the document has frozen features, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument16::HasFrozenFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument16~HasFrozenFeatures.html)
-
-.
+See [SwDMDocument16::HasFrozenFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument16~HasFrozenFeatures.html).
 
 ## Examples
 
 [Get Whether Part Has Frozen Features (C#)](Get_Whether_Part_Has_Frozen_Features_Example_CSharp.htm)
-
 [Get Whether Part Has Frozen Features (VB.NET)](Get_Whether_Part_Has_Frozen_Features_Example_vbnet.htm)
 
 ## Remarks
@@ -80,7 +71,6 @@ The FrozenFeatureNeedsUpdate return value is only valid if the document has froz
 ## See Also
 
 [ISwDMDocument16 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument16.html)
-
 [ISwDMDocument16 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument16_members.html)
 
 ## Availability

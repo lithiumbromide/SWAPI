@@ -46,26 +46,16 @@ Name of the preserved region control
 
 ## VBA Syntax
 
-See
-
-[CWTopologyPreservedRegion::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~GetName.html)
-
-.
+See [CWTopologyPreservedRegion::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~GetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
-example.
+See the [ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html) example.
 
 ## See Also
 
 [ICWTopologyPreservedRegionControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
 [ICWTopologyPreservedRegionControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html)
-
 [ICWTopologyPreservedRegionControl::SetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~SetName.html)
 
 ## Availability

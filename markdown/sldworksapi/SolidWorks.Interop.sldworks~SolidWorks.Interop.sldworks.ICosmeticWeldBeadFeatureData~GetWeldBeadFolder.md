@@ -40,13 +40,7 @@ System.object GetWeldBeadFolder()
 System.Object^ GetWeldBeadFolder();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFeatureData::GetWeldBeadFolder](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~GetWeldBeadFolder.html)
-
-.
+See [CosmeticWeldBeadFeatureData::GetWeldBeadFolder](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~GetWeldBeadFolder.html).
 
 ## Examples
 
-See
-
-[ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
-examples.
+See [ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html) examples.
 
 ## See Also
 
 [ICosmeticWeldBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
 [ICosmeticWeldBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData_members.html)
 
 ## Availability

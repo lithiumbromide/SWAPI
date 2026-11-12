@@ -58,28 +58,16 @@ System.String^ GetCustomPropertyValues(
 ### Parameters
 
 - `FieldName`: Property Name
-- `type`: Type of custom property as defined in
-
-[SwDmCustomInfoType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmCustomInfoType.html)
-- `linkedTo`: Linked to Value/Text Expression (see
-
-Remarks
-
-)
+- `type`: Type of custom property as defined in [SwDmCustomInfoType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmCustomInfoType.html)
+- `linkedTo`: Linked to Value/Text Expression (see Remarks)
 
 ### Return Value
 
-See
-
-Remarks
+See **Remarks**
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration5::GetCustomPropertyValues](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration5~GetCustomPropertyValues.html)
-
-.
+See [SwDMConfiguration5::GetCustomPropertyValues](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration5~GetCustomPropertyValues.html).
 
 ## Remarks
 
@@ -88,14 +76,13 @@ See
 | Linked | The evaluated result of linkedTo |
 | Not linked | An empty string. This method returns the same value as returned by ISwDMConfiguration::GetCustomProperty |
 
-This property only supports documents saved in SOLIDWORKS 2005 and later. To get the version of a document, use[ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
+This property only supports documents saved in SOLIDWORKS 2005 and later. To get the version of a document, use [ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
 
-If you called[ISwDMConfiguration::SetCustomProperty](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration~SetCustomProperty.html)to set a linked custom property, then you must open and save the file in SOLIDWORKS before calling this method. SOLIDWORKS must process the linked custom property before your DocumentMgr application can retrieve its evaluated value.
+If you called [ISwDMConfiguration::SetCustomProperty](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration~SetCustomProperty.html) to set a linked custom property, then you must open and save the file in SOLIDWORKS before calling this method. SOLIDWORKS must process the linked custom property before your DocumentMgr application can retrieve its evaluated value.
 
 ## See Also
 
 [ISwDMConfiguration5 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration5.html)
-
 [ISwDMConfiguration5 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration5_members.html)
 
 ## Availability

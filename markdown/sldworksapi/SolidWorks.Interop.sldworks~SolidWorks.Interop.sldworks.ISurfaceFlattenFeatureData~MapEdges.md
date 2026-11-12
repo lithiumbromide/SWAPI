@@ -45,25 +45,15 @@ property System.Object^ MapEdges {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of entities that lie on the selected faces or surfaces to flatten (see**Remarks**)
+Array of entities that lie on the selected faces or surfaces to flatten (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SurfaceFlattenFeatureData::MapEdges](ms-its:sldworksapivb6.chm::/sldworks~SurfaceFlattenFeatureData~MapEdges.html)
-
-.
+See [SurfaceFlattenFeatureData::MapEdges](ms-its:sldworksapivb6.chm::/sldworks~SurfaceFlattenFeatureData~MapEdges.html).
 
 ## Remarks
 
@@ -79,14 +69,12 @@ Map edges:
   - sketches, and
   - sketch text.
 
-The SOLIDWORKS API returns[edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)for the entities selected for the map edges in a surface-flatten feature.
+The SOLIDWORKS API returns [edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html) for the entities selected for the map edges in a surface-flatten feature.
 
 ## See Also
 
 [ISurfaceFlattenFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData.html)
-
 [ISurfaceFlattenFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData_members.html)
-
 [ISurfaceFlattenFeatureData::TearEdges Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData~TearEdges.html)
 
 ## Availability

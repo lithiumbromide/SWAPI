@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EntityProperties Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EntityProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EntityProperties.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::EntityProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EntityProperties.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void EntityProperties()
 void EntityProperties();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EntityProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EntityProperties.html)
-
-.
+See [ModelDoc::EntityProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EntityProperties.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -47,13 +47,7 @@ System.Object^ GetTessTriStrips(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,19 +55,11 @@ See
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Face2::GetTessTriStrips](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetTessTriStrips.html)
-
-.
+See [Face2::GetTessTriStrips](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetTessTriStrips.html).
 
 ## Remarks
 
@@ -83,56 +69,41 @@ This method returns an array of float values in the form of:
 
 [NumStrips,
 
-kadov_tag{{<spaces>}}VertexPerStrip1,VertexPerStrip2,...,VertexPerStripN,
+VertexPerStrip1, VertexPerStrip2,..., VertexPerStripN,
 
-kadov_tag{{<spaces>}}VertexPoints1[VertexPerStrip1 elements]*3,
+VertexPoints1[VertexPerStrip1 elements]*3,
 
-kadov_tag{{<spaces>}}VertexPoints2[VertexPerStrip2 elements]*3,...,
+VertexPoints2[VertexPerStrip2 elements]*3,...,
 
-kadov_tag{{<spaces>}}VertexPointsN[VertexPerStripNelements]*3]
+VertexPointsN[VertexPerStripN elements]*3]
 
 where:
 
-NumStrips= number of triangle strips on a particular face.
+NumStrips = number of triangle strips on a particular face.
 
-VertexPerStripN= number of vertex points for theNth triangle strip.
+VertexPerStripN = number of vertex points for the Nth triangle strip.
 
-VertexPointsN= a sub-array of vertices consisting of three float values representing the x,y,z coordinate of the vertex; the sub-array's length is defined by theVertexPerStripNelement in the array.
+VertexPointsN = a sub-array of vertices consisting of three float values representing the x,y,z coordinate of the vertex; the sub-array's length is defined by the VertexPerStripN element in the array.
 
-Because the valuesNumStripsand the elements ofVertexPerStripare long valueskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}packed into single values,kadov_tag{{</spaces>}}you must[unpack](sldworksAPIProgGuide.chm::/OVERVIEW/Unpacking_Double_Arrays_into_Integer_Pairs_in_Visual_Basic_.NET_and_Visual_Basic.htm)them before using them.
+Because the values NumStrips and the elements of VertexPerStrip are long values packed into single values, you must [unpack](sldworksAPIProgGuide.chm::/OVERVIEW/Unpacking_Double_Arrays_into_Integer_Pairs_in_Visual_Basic_.NET_and_Visual_Basic.htm) them before using them.
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::IGetTessTriStrips Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriStrips.html)
-
 [IFace2::GetTessNorms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessNorms.html)
-
 [IFace2::GetTessTextures Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTextures.html)
-
 [IFace2::GetTessTriangleCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriangleCount.html)
-
 [IFace2::GetTessTriangles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriangles.html)
-
 [IFace2::GetTessTriStripEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStripEdges.html)
-
 [IFace2::GetTessTriStripNorms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStripNorms.html)
-
 [IFace2::GetTessTriStripSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStripSize.html)
-
 [IFace2::IGetTessNorms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessNorms.html)
-
 [IFace2::IGetTessTextures Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTextures.html)
-
 [IFace2::IGetTessTriangles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriangles.html)
-
 [IFace2::IGetTessTriStripEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriStripEdges.html)
-
 [IFace2::IGetTessTriStripEdgeSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriStripEdgeSize.html)
-
 [IFace2::IGetTessTriStripNorms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetTessTriStripNorms.html)
 
 ## Availability

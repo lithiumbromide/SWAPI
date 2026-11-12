@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # SaveCompareVolumeResults Method (ICompareDocument)
 
-Saves the volume comparison results as a SOLIDWORKS part document after comparing documents with the
-
-Compare volumes
-
-option selected.
+Saves the volume comparison results as a SOLIDWORKS part document after comparing documents with the Compare volumes option selected.
 
 ## Syntax
 
@@ -55,26 +51,19 @@ System.int SaveCompareVolumeResults(
 
 - `resultfile`: Path and filename to which to save the SOLIDWORKS part document
 
-NOTE:You do not have to specify the filename extension.sldprt. It is automatically appended to the filename.
+  NOTE: You do not have to specify the filename extension .sldprt. It is automatically appended to the filename.
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[ICompareDocument::SaveCompareVolumeResults](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareDocument~SaveCompareVolumeResults.html)
-
-.
+See [ICompareDocument::SaveCompareVolumeResults](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareDocument~SaveCompareVolumeResults.html).
 
 ## See Also
 
 [ICompareDocument Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument.html)
-
 [ICompareDocument Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareDocument_members.html)
 
 ## Availability

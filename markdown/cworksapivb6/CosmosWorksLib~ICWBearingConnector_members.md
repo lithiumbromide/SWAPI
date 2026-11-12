@@ -1,6 +1,5 @@
 ---
-title: "ICWBearingConnector Object
-Members"
+title: "ICWBearingConnector Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWBearingConnector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWBearingConnector_members.html"
 ---
 
-# ICWBearingConnector Object
-Members
+# ICWBearingConnector Object Members
 
 ## Public Methods
 

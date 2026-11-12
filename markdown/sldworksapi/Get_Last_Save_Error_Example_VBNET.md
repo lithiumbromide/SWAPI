@@ -10,10 +10,10 @@ source: "sldworksapi/Get_Last_Save_Error_Example_VBNET.htm"
 # Get Last Save Error Example (VB.NET)
 
 ```
-This example shows how to get the last save error issued by Microsoft in the current SOLIDWORKS session.
+This example shows how to get the last save error issued by Microsoft in the current SOLIDWORKS Design session.
 '-------------------------------------------------------------------
 ' Preconditions:
-' 1. Open a SOLIDWORKS session and cause Microsoft to issue a save error.
+' 1. Open a SOLIDWORKS Design session and cause Microsoft to issue a save error.
 ' 2. Open the Immediate window.
 '
 ' Postconditions:
@@ -26,37 +26,22 @@ Imports System
 Imports System.Diagnostics
 ```
 
+```vb
 Partial Class SolidWorksMacro
+    Dim varPath As Object
+     Dim varError As Object
+     Dim varMessage As Object
+    Sub main()
+        varMessage = swApp.GetLastSaveError(varPath, varError)
+         If Not varError = 0 Then
+             Debug.Print("Document generating the save error: " & varPath)
+             Debug.Print("Error code: " & varError)
+             Debug.Print("Error message: " & varMessage)
+         Else
+             Debug.Print("This SOLIDWORKS Design session has not experienced a save error.")
+         End If
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-varPath As Object
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-varError As Object
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-varMessage As Object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Sub
-main()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}varMessage
-= swApp.GetLastSaveError(varPath,
-varError)
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-Not varError = 0 Then
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Document generating the save error: " & varPath)
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Error code: " & varError)
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Error message: " & varMessage)
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Else
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("This
-SOLIDWORKS
-session has not experienced a save error.")
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-Subkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Public
-swApp As SldWorks
-
+     End Sub
+    Public swApp As SldWorks
 End Class
+```

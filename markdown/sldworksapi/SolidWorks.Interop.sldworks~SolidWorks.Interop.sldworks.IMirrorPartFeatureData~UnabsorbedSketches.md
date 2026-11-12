@@ -45,13 +45,7 @@ property System.bool UnabsorbedSketches {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to import unabsorbed sketches, false to not
 
 ## VBA Syntax
 
-See
-
-[MirrorPartFeatureData::UnabsorbedSketches](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~UnabsorbedSketches.html)
-
-.
+See [MirrorPartFeatureData::UnabsorbedSketches](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~UnabsorbedSketches.html).
 
 ## See Also
 
 [IMirrorPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData.html)
-
 [IMirrorPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData_members.html)
-
 [IMirrorPartFeatureData::AbsorbedSketches Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData~AbsorbedSketches.html)
 
 ## Availability

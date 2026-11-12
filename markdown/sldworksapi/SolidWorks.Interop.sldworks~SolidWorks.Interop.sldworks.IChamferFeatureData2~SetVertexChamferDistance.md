@@ -50,26 +50,16 @@ void SetVertexChamferDistance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Side`: Feature direction (see**Remarks**)
-- `Distance`: Vertex chamferdistance
+- `Side`: Feature direction (see **Remarks**)
+- `Distance`: Vertex chamfer distance
 
 ## VBA Syntax
 
-See
-
-[ChamferFeatureData2::SetVertexChamferDistance](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData2~SetVertexChamferDistance.html)
-
-.
+See [ChamferFeatureData2::SetVertexChamferDistance](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData2~SetVertexChamferDistance.html).
 
 ## Remarks
 
@@ -78,9 +68,7 @@ There are three edges of a vertex. Set the Side parameter to 0, 1, or 2 to speci
 ## See Also
 
 [IChamferFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2.html)
-
 [IChamferFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2_members.html)
-
 [IChamferFeatureData2::GetVertexChamferDistance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2~GetVertexChamferDistance.html)
 
 ## Availability

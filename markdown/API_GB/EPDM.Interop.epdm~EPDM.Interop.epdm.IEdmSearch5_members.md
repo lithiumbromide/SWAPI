@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5_members.html"
 
 # IEdmSearch5 Interface Members
 
-The following tables list the members exposed by[IEdmSearch5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html).
+The following tables list the members exposed by [IEdmSearch5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html).
 
 ## Public Properties
 
@@ -42,5 +42,4 @@ The following tables list the members exposed by[IEdmSearch5](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmSearch5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

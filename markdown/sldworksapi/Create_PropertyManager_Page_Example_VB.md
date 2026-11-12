@@ -9,8 +9,7 @@ source: "sldworksapi/Create_PropertyManager_Page_Example_VB.htm"
 
 # Create PropertyManager Page Example (VBA)
 
-This example shows how to create a PropertyManager
-page that contains these controls:
+This example shows how to create a PropertyManager page that contains these controls:
 
 - ActiveX
 - Bitmap
@@ -26,35 +25,28 @@ page that contains these controls:
 - Slider
 - Tab
 
-This
-example also shows how to handle focus events for these controls.
+This example also shows how to handle focus events for these controls.
 
-NOTE:If the model is an assembly
-that contains multiple components, and you want to allow the user to
-select edges, faces, or vertices, then you must specify swSelectType_e.swSelCOMPSDONTOVERRIDE
-for parameter SelType of IPropertyManagerPageSelectionbox::SetSelectionFilters.
-Otherwise, if the user attempts to select an edge, face, or vertex, then the
-entire component might get selected and not the edge, face, or vertex. This
-example demonstrates how to specify SelType.
+NOTE: If the model is an assembly that contains multiple components, and you want to allow the user to select edges, faces, or vertices, then you must specify swSelectType_e.swSelCOMPSDONTOVERRIDE for parameter SelType of IPropertyManagerPageSelectionbox::SetSelectionFilters. Otherwise, if the user attempts to select an edge, face, or vertex, then the entire component might get selected and not the edge, face, or vertex. This example demonstrates how to specify SelType.
 
 ```vb
 '--------------------------------------------------------------------------
  ' Preconditions:
- ' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}} 1. Copy and paste Main into your project.
- ' kadov_tag{{<spaces>}} 2. Insert a class and copy and paste Class1 into that class.
- '  kadov_tag{{<spaces>}}3. Click   Tools > References, select
- ' kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}SOLIDWORKS version exposed type libraries for add-in use, and click OK.
+ '  1. Copy and paste Main into your project.
+ '  2. Insert a class and copy and paste Class1 into that class.
+ '  3. Click   Tools > References, select
+ '     SOLIDWORKS version exposed type libraries for add-in use, and click OK.
  '  4. Verify that the specified assembly document exists.
  '  5. Open an Immediate window.
  '
  ' Postconditions:
- '  kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}1. Opens the specified assembly.
+ '  1. Opens the specified assembly.
  '  2. Creates a PropertyManager page.
  '  3. Creates the specified controls.
- '  4. kadov_tag{{</spaces>}}Examine the Immediate Window as kadov_tag{{</spaces>}}you use the specified controls.
- '     Note the size of the button at the bottom of the PropertyManager page. kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}
+ '  4. Examine the Immediate Window as you use the specified controls.
+ '     Note the size of the button at the bottom of the PropertyManager page.
  '  5. Click OK to close the PropertyManager page.
- '  6. Exit SOLIDWORKS.
+ '  6. Exit SOLIDWORKS Design.
  '
  ' NOTE: Because the assembly document is used elsewhere,
  ' do not save changes
@@ -284,7 +276,7 @@ Private Sub Class_Initialize()
 
         ' To add another bitmap button that scales with your computer's resolution, uncomment the 10 code lines below and replace the
        ' ImageList and ImageListMasks array elements with the pathnames of scaled image files. After running this macro, change the
-       ' screen resolution of your computer. Log off and back in. Start SOLIDWORKS and run this macro again. Notice how this button
+       ' screen resolution of your computer. Log off and back in. Start SOLIDWORKS Design and run this macro again. Notice how this button
        ' control scales with screen resolution.
        ' Set pm_BMPButton2 = pm_Group.AddControl2(BMPButtonID2, swControlType_BitmapButton, "Bitmap button", swControlAlign_LeftEdge, options, "Click")
        ' Dim imageList(2) As String

@@ -40,29 +40,15 @@ System.int GetModifiedVersion()
 System.int GetModifiedVersion();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-SOLIDWORKS version number in which this feature was last modified (see
-
-Remarks
-
-)
+SOLIDWORKS version number in which this feature was last modified (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Feature::GetModifiedVersion](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetModifiedVersion.html)
-
-.
+See [Feature::GetModifiedVersion](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetModifiedVersion.html).
 
 ## Remarks
 
@@ -101,21 +87,16 @@ See
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
 | SOLIDWORKS 2025 | 18000 |
+| SOLIDWORKS 2026 | 19000 |
 
-kadov_tag{{<spaces>}}To get the SOLIDWORKS version number in which the feature was created, use[IFeature::GetCreatedVersion](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetCreatedVersion.html).
+To get the SOLIDWORKS version number in which the feature was created, use [IFeature::GetCreatedVersion](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetCreatedVersion.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::GetCreatedVersion Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetCreatedVersion.html)
-
 [ISldWorks::VersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html)
-
 [ISldWorks::IVersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IVersionHistory.html)
-
 [IModelDoc2::IVersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IVersionHistory.html)
-
 [IModelDoc2::VersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~VersionHistory.html)

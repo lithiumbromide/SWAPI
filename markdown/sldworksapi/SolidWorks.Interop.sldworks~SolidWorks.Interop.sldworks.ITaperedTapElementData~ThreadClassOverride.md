@@ -45,13 +45,7 @@ property System.bool ThreadClassOverride {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ True to override the thread class, false to not
 
 ## VBA Syntax
 
-See
-
-[TaperedTapElementData::ThreadClassOverride](ms-its:sldworksapivb6.chm::/sldworks~TaperedTapElementData~ThreadClassOverride.html)
-
-.
+See [TaperedTapElementData::ThreadClassOverride](ms-its:sldworksapivb6.chm::/sldworks~TaperedTapElementData~ThreadClassOverride.html).
 
 ## Examples
 
-See the
-
-[ITaperedTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html)
-
-examples.
+See the [ITaperedTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html) examples.
 
 ## See Also
 
 [ITaperedTapElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html)
-
 [ITaperedTapElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData_members.html)
-
 [ITaperedTapElementData::ThreadClass Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData~ThreadClass.html)
 
 ## Availability

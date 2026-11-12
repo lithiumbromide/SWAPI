@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPropertyManagerPageSelectionbox Interface Methods
 
-For a list of all members of this type, see[IPropertyManagerPageSelectionbox members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html).
+For a list of all members of this type, see [IPropertyManagerPageSelectionbox members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html).
 
 ## Public Methods
 
@@ -32,5 +32,4 @@ For a list of all members of this type, see[IPropertyManagerPageSelectionbox mem
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

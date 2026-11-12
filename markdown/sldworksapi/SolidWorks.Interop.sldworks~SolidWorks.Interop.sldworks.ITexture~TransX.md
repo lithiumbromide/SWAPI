@@ -42,13 +42,7 @@ property System.double TransX {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,18 +50,12 @@ x coordinate for the translation point of the texture-based appearance
 
 ## VBA Syntax
 
-See
-
-[Texture::TransX](ms-its:sldworksapivb6.chm::/sldworks~Texture~TransX.html)
-
-.
+See [Texture::TransX](ms-its:sldworksapivb6.chm::/sldworks~Texture~TransX.html).
 
 ## See Also
 
 [ITexture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html)
-
 [ITexture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture_members.html)
-
 [ITexture::TransY Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture~TransY.html)
 
 ## Availability

@@ -51,26 +51,12 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top level document (see
-
-Remarks
-
-)
-- `Component`: Component for the feature (see
-
-Remarks
-
-)
+- `TopDoc`: Top level document (see **Remarks**)
+- `Component`: Component for the feature (see Remarks)
 
 ### Return Value
 
@@ -78,19 +64,11 @@ True if the selections where successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[BeltChainFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~AccessSelections.html)
-
-.
+See [BeltChainFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~AccessSelections.html).
 
 ## Examples
 
-See the
-
-[IBeltChainFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
-examples.
+See the [IBeltChainFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html) examples.
 
 ## Remarks
 
@@ -101,21 +79,12 @@ examples.
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  or
-
-  [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [IBeltChainFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [IBeltChainFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IBeltChainFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
 [IBeltChainFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData_members.html)
 
 ## Availability

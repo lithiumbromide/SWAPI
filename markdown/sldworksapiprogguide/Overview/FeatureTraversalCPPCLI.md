@@ -13,15 +13,13 @@ source: "sldworksapiprogguide/Overview/FeatureTraversalCPPCLI.htm"
 
 // FeatureTraversal.cpp : main project file
 
-// Traverses the FeatureManager design tree in the active
-model document
+// Traverses the FeatureManager design tree in the active model document
 
 #include "stdafx.h"
 
 using namespace System;
 
-// Add the SOLIDWORKS primary interop assemblies to
-the reference
+// Add the SOLIDWORKS primary interop assemblies to the reference
 
 using namespace SolidWorks::Interop::sldworks;
 
@@ -31,7 +29,7 @@ int main(array<System::String ^> ^args)
 
 {
 
-ISldWorks^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp;
+ISldWorks^ swApp;
 
 swApp = gcnew SldWorksClass;
 
@@ -45,7 +43,7 @@ swApp->UserControl = true;
 
 swApp->Visible = true;
 
-IModelDoc2^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel;
+IModelDoc2^ swModel;
 
 swModel = swApp->IActiveDoc2;
 
@@ -55,21 +53,21 @@ return(0);
 
 }
 
-String^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}strModelTitle;
+String^ strModelTitle;
 
-swDocumentTypes_ekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}nDocumentType;
+swDocumentTypes_e nDocumentType;
 
 strModelTitle = swModel->GetTitle();
 
 nDocumentType = (swDocumentTypes_e)swModel->GetType();
 
-IFeature^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swFeature;
+IFeature^ swFeature;
 
-IFeature^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSubFeature;
+IFeature^ swSubFeature;
 
-String^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}strFeatureName;
+String^ strFeatureName;
 
-String^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}strFeatureType;
+String^ strFeatureType;
 
 swFeature = swModel->IFirstFeature();
 

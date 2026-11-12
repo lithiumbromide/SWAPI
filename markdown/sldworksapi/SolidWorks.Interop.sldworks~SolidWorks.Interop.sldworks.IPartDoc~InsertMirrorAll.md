@@ -40,13 +40,7 @@ System.bool InsertMirrorAll()
 System.bool InsertMirrorAll();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ True if the feature is successfully created, false if not
 
 ## VBA Syntax
 
-See
-
-[PartDoc::InsertMirrorAll](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertMirrorAll.html)
-
-.
+See [PartDoc::InsertMirrorAll](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertMirrorAll.html).
 
 ## Remarks
 
-This method returns a True or false to indicate whether or not the mirror-all feature was created. If it is successful, the newly created feature remains selected after the method runs. You can use[ISelectionMgr::GetSelectedObject6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html)to retrieve this object.
+This method returns a True or false to indicate whether or not the mirror-all feature was created. If it is successful, the newly created feature remains selected after the method runs. You can use [ISelectionMgr::GetSelectedObject6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html) to retrieve this object.
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::MirrorPart Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~MirrorPart.html)
-
 [IFeatureManager::InsertMirrorFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMirrorFeature.html)
-
 [IPartDoc::MirrorFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~MirrorFeature.html)
 
 ## Availability

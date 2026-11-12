@@ -40,13 +40,7 @@ AdvancedSelectionCriteria GetAdvancedSelection()
 AdvancedSelectionCriteria^ GetAdvancedSelection();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetAdvancedSelection](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetAdvancedSelection.html)
-
-.
+See [AssemblyDoc::GetAdvancedSelection](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetAdvancedSelection.html).
 
 ## Examples
 
-See the
-
-[IAdvancedSelectionCriteria](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
-examples.
+See the [IAdvancedSelectionCriteria](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html) examples.
 
 ## Remarks
 
-For more information, see the**Assemblies > Basic Component Operations > Selecting Components > Advanced Component Selection**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Assemblies > Basic Component Operations > Selecting Components > Advanced Component Selection** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

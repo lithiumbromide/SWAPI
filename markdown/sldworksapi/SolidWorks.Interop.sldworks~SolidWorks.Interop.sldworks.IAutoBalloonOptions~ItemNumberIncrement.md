@@ -45,13 +45,7 @@ property System.int ItemNumberIncrement {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ Item number increment
 
 ## VBA Syntax
 
-See
-
-[AutoBalloonOptions::ItemNumberIncrement](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~ItemNumberIncrement.html)
-
-.
+See [AutoBalloonOptions::ItemNumberIncrement](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~ItemNumberIncrement.html).
 
 ## Examples
 
-See
-
-[IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html)
-
-examples.
+See [IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html) examples.
 
 ## Remarks
 
-See the SOLIDWORKS Help for additional details about
-
-autoballoons
-
-.
+See the SOLIDWORKS Help for additional details about autoballoons.
 
 ## See Also
 
 [IAutoBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions.html)
-
 [IAutoBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions_members.html)
 
 ## Availability

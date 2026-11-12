@@ -40,13 +40,7 @@ System.object GetDefinition()
 System.Object^ GetDefinition();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,14 @@ Object for the attribute definition
 
 ## VBA Syntax
 
-See
-
-[Attribute::GetDefinition](ms-its:sldworksapivb6.chm::/sldworks~Attribute~GetDefinition.html)
-
-.
+See [Attribute::GetDefinition](ms-its:sldworksapivb6.chm::/sldworks~Attribute~GetDefinition.html).
 
 ## Remarks
 
-SOLIDWORKS generates all attribute instances from an[IAttribute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute.html)object. The object is the mold that gives the attribute its parameters and default values.
+SOLIDWORKS generates all attribute instances from an [IAttribute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute.html) object. The object is the mold that gives the attribute its parameters and default values.
 
 ## See Also
 
 [IAttribute Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute.html)
-
 [IAttribute Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute_members.html)
-
 [IAttribute::IGetDefinition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute~IGetDefinition.html)

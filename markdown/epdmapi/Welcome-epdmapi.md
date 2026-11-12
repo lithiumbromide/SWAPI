@@ -9,7 +9,7 @@ source: "epdmapi/Welcome-epdmapi.html"
 
 # Welcome
 
-SOLIDWORKS PDM Professional is a product data management application designed to run both natively inside of the SOLIDWORKS environment and as a standalone application.
+SOLIDWORKS PDM Professional is a product data management application designed to run both natively inside of the SOLIDWORKS Design environment and as a standalone application.
 
 The SOLIDWORKS PDM Professional Application Programming Interface (API) is an OLE programming interface to SOLIDWORKS PDM Professional, which allows you to automate and customize SOLIDWORKS PDM Professional. The API contains functions that you can call from VB.NET, C#, and C++/CLI. These functions provide direct access to the SOLIDWORKS PDM Professional environment. It is assumed that you are familiar with at least one of these programming languages.
 

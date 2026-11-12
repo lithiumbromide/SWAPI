@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ICreateCenterLine Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ICreateCenterLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreateCenterLine.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ICreateCenterLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreateCenterLine.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void ICreateCenterLine(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ICreateCenterLine](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ICreateCenterLine.html)
-
-.
+See [ModelDoc::ICreateCenterLine](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ICreateCenterLine.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

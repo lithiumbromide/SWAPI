@@ -39,19 +39,11 @@ void GetDerivedBOMs(
 
 ### Parameters
 
-- `ppoBoms`: Array of
-
-[EdmBomInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo.html)
-
-s
+- `ppoBoms`: Array of [EdmBomInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo.html)s
 
 ## Examples
 
-See the
-
-[IEdmFile7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7.html)
-
-examples.
+See the [IEdmFile7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7.html) examples.
 
 ## Remarks
 
@@ -65,7 +57,6 @@ A derived Bill of Materials is also known as a named or saved Bill of Materials.
 ## See Also
 
 [IEdmFile7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7.html)
-
 [IEdmFile7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7_members.html)
 
 ## Availability

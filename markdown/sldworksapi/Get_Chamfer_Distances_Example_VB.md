@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Chamfer_Distances_Example_VB.htm"
 
 # Get Chamfer Distances Example (VBA)
 
-This example shows how to get the distances associated with the selected
-chamfer.
+This example shows how to get the distances associated with the selected chamfer.
 
 ```
 '---------------------------------------------------------------------------

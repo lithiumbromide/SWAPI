@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Table_Anchors_Example_CSharp.htm"
 
 # Set Table Anchors in Sheet Formats Example (C#)
 
-This example shows how to set a hole table anchor in a sheet format of a
-drawing.
+This example shows how to set a hole table anchor in a sheet format of a drawing.
 
 ```vb
  //--------------------------------------------------------------------------

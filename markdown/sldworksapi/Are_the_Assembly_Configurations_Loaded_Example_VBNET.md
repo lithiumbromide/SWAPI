@@ -9,9 +9,7 @@ source: "sldworksapi/Are_the_Assembly_Configurations_Loaded_Example_VBNET.htm"
 
 # Are the Assembly Configurations Loaded Example (VB.NET)
 
-This example shows how to find out if the configurations in an assembly are
-loaded, whether the configurations need to be updated and rebuilt, and the configuration
-types.
+This example shows how to find out if the configurations in an assembly are loaded, whether the configurations need to be updated and rebuilt, and the configuration types.
 
 ```
 '------------------------------------------------------------

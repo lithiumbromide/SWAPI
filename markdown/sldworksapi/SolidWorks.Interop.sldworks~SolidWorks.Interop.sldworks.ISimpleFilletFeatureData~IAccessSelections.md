@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # IAccessSelections Method (ISimpleFilletFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleFilletFeatureData2::IAccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IAccessSelections.html)
-
-.
+Obsolete. Superseded by [ISimpleFilletFeatureData2::IAccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IAccessSelections.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool IAccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~IAccessSelections.html)
-
-.
+See [SimpleFilletFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~IAccessSelections.html).
 
 ## See Also
 
 [ISimpleFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData.html)
-
 [ISimpleFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData_members.html)

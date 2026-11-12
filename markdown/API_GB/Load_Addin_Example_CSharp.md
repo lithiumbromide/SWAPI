@@ -9,12 +9,9 @@ source: "API_GB/Load_Addin_Example_CSharp.htm"
 
 # Install Add-in Example (C#)
 
-This example shows how to install an add-in, obtain
-information about it, and uninstall it.
+This example shows how to install an add-in, obtain information about it, and uninstall it.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------

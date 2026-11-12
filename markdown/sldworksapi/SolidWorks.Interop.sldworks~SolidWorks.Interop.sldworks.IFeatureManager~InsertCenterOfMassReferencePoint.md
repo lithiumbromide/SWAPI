@@ -40,13 +40,7 @@ Feature InsertCenterOfMassReferencePoint()
 Feature^ InsertCenterOfMassReferencePoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCenterOfMassReferencePoint](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCenterOfMassReferencePoint.html)
-
-.
+See [FeatureManager::InsertCenterOfMassReferencePoint](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCenterOfMassReferencePoint.html).
 
 ## Examples
 
 [Insert Center of Mass Feature (VBA)](Insert_Center_of_Mass_Feature_Example_VB.htm)
-
 [Insert Center of Mass Feature (VB.NET)](Insert_Center_of_Mass_Feature_Example_VBNET.htm)
-
 [Insert Center of Mass Feature (C#)](Insert_Center_of_Mass_Feature_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertCenterOfMass Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCenterOfMass.html)
-
 [ICenterOfMass Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass.html)
 
 ## Availability

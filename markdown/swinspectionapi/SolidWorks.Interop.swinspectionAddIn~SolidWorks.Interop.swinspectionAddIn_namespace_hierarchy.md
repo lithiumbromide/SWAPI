@@ -12,6 +12,11 @@ source: "swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop
 ## Inheritance Hierarchy
 
 System.Object
+[SolidWorks.Interop.swinspectionAddIn.BalloonSettingsClass](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.BalloonSettingsClass.html)
+[SolidWorks.Interop.swinspectionAddIn.CharacteristicsDataClass](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.CharacteristicsDataClass.html)
+[SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgrClass](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionAddinMgrClass.html)
+[SolidWorks.Interop.swinspectionAddIn.InspectionProjectClass](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectClass.html)
+[SolidWorks.Interop.swinspectionAddIn.InspectionProjectDataClass](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.InspectionProjectDataClass.html)
 
 ## See Also
 

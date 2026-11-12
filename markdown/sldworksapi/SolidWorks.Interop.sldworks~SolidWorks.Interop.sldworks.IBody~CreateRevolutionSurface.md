@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # CreateRevolutionSurface Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::CreateRevolutionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateRevolutionSurface.html)
-
-.
+Obsolete. Superseded by [IBody2::CreateRevolutionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateRevolutionSurface.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ System.Object^ CreateRevolutionSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body::CreateRevolutionSurface](ms-its:sldworksapivb6.chm::/sldworks~Body~CreateRevolutionSurface.html)
-
-.
+See [Body::CreateRevolutionSurface](ms-its:sldworksapivb6.chm::/sldworks~Body~CreateRevolutionSurface.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IGetExcessBodyCount Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::IGetExcessBodyCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetExcessBodyCount.html)
-
-.
+Obsolete. Superseded by [IBody2::IGetExcessBodyCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetExcessBodyCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int IGetExcessBodyCount()
 System.int IGetExcessBodyCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Body::IGetExcessBodyCount](ms-its:sldworksapivb6.chm::/sldworks~Body~IGetExcessBodyCount.html)
-
-.
+See [Body::IGetExcessBodyCount](ms-its:sldworksapivb6.chm::/sldworks~Body~IGetExcessBodyCount.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

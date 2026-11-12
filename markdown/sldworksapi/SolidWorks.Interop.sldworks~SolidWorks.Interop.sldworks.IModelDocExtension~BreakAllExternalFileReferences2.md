@@ -46,13 +46,7 @@ void BreakAllExternalFileReferences2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,42 +54,24 @@ See
 
 ### Return Value
 
-See
-
-[ModelDocExtension::BreakAllExternalFileReferences2](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~BreakAllExternalFileReferences2.html)
-
-.
+See [ModelDocExtension::BreakAllExternalFileReferences2](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~BreakAllExternalFileReferences2.html).
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::BreakAllExternalFileReferences2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~BreakAllExternalFileReferences2.html)
-
-.
+See [ModelDocExtension::BreakAllExternalFileReferences2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~BreakAllExternalFileReferences2.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDoc2::GetExternalReferenceName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetExternalReferenceName.html)
-
 [IModelDoc2::IListAuxiliaryExternalFileReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IListAuxiliaryExternalFileReferences.html)
-
 [IModelDoc2::ListAuxiliaryExternalFileReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ListAuxiliaryExternalFileReferences.html)
-
 [IModelDoc2::ListAuxiliaryExternalFileReferencesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ListAuxiliaryExternalFileReferencesCount.html)
-
 [IModelDoc2::LockAllExternalReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~LockAllExternalReferences.html)
-
 [IModelDocExtension::ListExternalFileReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ListExternalFileReferences.html)
-
 [IModelDocExtension::IListExternalFileReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IListExternalFileReferences.html)
-
 [IModelDocExtension::ListExternalFileReferencesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ListExternalFileReferencesCount.html)
-
 [IModelDocExtension::UpdateExternalFileReferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~UpdateExternalFileReferences.html)
 
 ## Availability

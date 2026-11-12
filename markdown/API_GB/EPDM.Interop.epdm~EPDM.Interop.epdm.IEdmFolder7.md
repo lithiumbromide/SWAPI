@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7.html"
 
 Allows you to access the contents of a file system folder in the vault.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,26 +37,16 @@ public interface class IEdmFolder7 : public IEdmFolder5, IEdmFolder6, IEdmObject
 ## Examples
 
 [Destroy Deleted Files in Vault (C#)](Destroy_Deleted_Files_in_Vault_Example_CSharp.htm)
-
 [Destroy Deleted Files in Vault (VB.NET)](Destroy_Deleted_Files_in_Vault_Example_VBNET.htm)
 
 ## Remarks
 
 This interface:
 
-- extends
-
-  [IEdmFolder6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6.html)
-
-  by adding the ability to destroy deleted items in this folder.
-- is extended by
-
-  [IEdmFolder8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8.html)
-
-  by adding the ability to add or copy a file, which already exists in the vault, to a different folder in the vault.
+- extends [IEdmFolder6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6.html) by adding the ability to destroy deleted items in this folder.
+- is extended by [IEdmFolder8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder8.html) by adding the ability to add or copy a file, which already exists in the vault, to a different folder in the vault.
 
 ## See Also
 
 [IEdmFolder7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

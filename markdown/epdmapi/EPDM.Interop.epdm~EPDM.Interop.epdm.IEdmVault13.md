@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault13.html"
 
 Allows you to access a file vault.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -44,19 +38,10 @@ public interface class IEdmVault13 : public IEdmVault10, IEdmVault11, IEdmVault1
 
 This interface:
 
-- extends
-
-  [IEdmVault12](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12.html)
-
-  .
-- is extended by
-
-  [IEdmVault14](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault14.html)
-
-  .
+- extends [IEdmVault12](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12.html).
+- is extended by [IEdmVault14](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault14.html).
 
 ## See Also
 
 [IEdmVault13 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault13_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

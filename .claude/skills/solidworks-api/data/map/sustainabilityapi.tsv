@@ -1,0 +1,80 @@
+#swapi-map 1 module=sustainabilityapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@ISustainabilityApp	i	Allows access to all of the other interfaces exposed in the Sustainability API.	via=IModelDocExtension.GetSustainability	use=14
+GetSustainabilityAssemblyProcess	m	SustainabilityAssemblyProcess GetSustainabilityAssemblyProcess()	2013		Gets the Sustainability assembly process interface.
+GetSustainabilityAssemblyUse	m	SustainabilityAssemblyUse GetSustainabilityAssemblyUse()	2013		Gets the Sustainability assembly use interface.
+GetSustainabilityEndOfLife	m	SustainabilityEndOfLife GetSustainabilityEndOfLife()	2013		Gets the Sustainability end of life interface.
+GetSustainabilityEnvironmentalImpact	m	SustainabilityEnvironmentalImpact GetSustainabilityEnvironmentalImpact()	2013		Gets the Sustainability environmental impact interface.
+GetSustainabilityManufacturing	m	SustainabilityManufacturing GetSustainabilityManufacturing()	2013		Gets the Sustainability manufacturing interface.
+GetSustainabilityMaterial	m	SustainabilityMaterial GetSustainabilityMaterial()	2013		Gets the Sustainability material interface.
+GetSustainabilityPartUse	m	SustainabilityPartUse:ISustainabilityUse GetSustainabilityPartUse()	2013		Gets the Sustainability part use interface.
+GetSustainabilityTransportation	m	SustainabilityTransportation GetSustainabilityTransportation()	2013		Gets the Sustainability transportation interface.
+@ISustainabilityAssemblyProcess	i	Allows access to the Sustainability assembly process data for the current assembly.	via=ISustainabilityApp.GetSustainabilityAssemblyProcess	use=6
+AssemblyProcessAmount	p	object AssemblyProcessAmount {get; set;}	2013		Gets or sets the amount of fuel required to assemble this assembly.
+BuiltToLast	p	double BuiltToLast {get; set;}	2013		Gets or sets the length of time that the assembly is built to last.
+DurationType	p	int:swSustainabilityDurationType_e DurationType {get; set;}	2013		Gets or sets the units of time that the assembly is built to last.
+EnergyForAssemblyProcess	p	bool EnergyForAssemblyProcess {get; set;}	2013		Gets or sets whether energy is required to create this assembly.
+FuelType	p	int:swSustainabilityFuelType_e FuelType {get; set;}	2013		Type of fuel required by this assembly process.
+Region	p	int:swSustainabilityRegionName_e Region {get; set;}	2013		Gets or sets the region where this assembly is assembled.
+@ISustainabilityAssemblyUse	i	Allows access to the Sustainability use data for the current assembly.	via=ISustainabilityApp.GetSustainabilityAssemblyUse	use=5
+AssemblyRegion	p	int:swSustainabilityRegionName_e AssemblyRegion {get; set;}	2013		Gets or sets the geographical region where the assembly is used.
+AssemblyUseAmount	p	object AssemblyUseAmount {get; set;}	2013		Gets or sets the amount of energy used over the life span of this assembly.
+DurationType	p	int:swSustainabilityDurationType_e DurationType {get; set;}	2013		Gets or sets the per time units of energy usage.
+EnergyOverLifeSpan	p	bool EnergyOverLifeSpan {get; set;}	2013		Gets or sets whether energy is required over the life span of the assembly.
+TypeOfEnergy	p	int:swSustainabilityEnergyType_e TypeOfEnergy {get; set;}	2013		Gets or sets the type of energy used over the life span of the assembly.
+@ISustainabilityEndOfLife	i	Allows access to the Sustainability disposal data for the current part or assembly.	via=ISustainabilityApp.GetSustainabilityEndOfLife	use=8
+Incinerated	p	double Incinerated {get; set;}	2013		Gets or sets the percentage of product that is incinerated.
+Landfill	p	double Landfill {get; set;}	2013		Gets or sets the percentage of product that is put into landfill.
+Recycled	p	double Recycled {get; set;}	2013		Gets or sets the percentage of product that is recycled.
+@ISustainabilityEnvironmentalImpact	i	Allows access to the Sustainability environmental impact of the design of the current part or assembly.	via=ISustainabilityApp.GetSustainabilityEnvironmentalImpact	use=24
+DurationOfUse	p	double DurationOfUse {get; set;}	2013		Gets or sets the product use time over which to evaluate environmental impact.
+DurationType	p	int:swSustainabilityDurationType_e DurationType {get; set;}	2013		Gets or sets the units of time over which to evaluate environmental impact.
+GetAirAcidification	m	int GetAirAcidification(out object Values)	2013	obsolete>ISustainabilityEnvironmentalImpact.GetAirAcidification2
+GetAirAcidification2	m	object GetAirAcidification2()	2013 SP3		Gets the amount of sulfur dioxide emitted during the lifecycle of this part or assembly.
+GetCurrentCarbonFootPrint	m	int GetCurrentCarbonFootPrint(out object Values)	2013	obsolete>ISustainabilityEnvironmentalImpact.GetCurrentCarbonFootPrint2
+GetCurrentCarbonFootPrint2	m	object GetCurrentCarbonFootPrint2()	2013 SP3		Gets the amount of greenhouse gases emitted during the lifecycle of this part or assembly.
+GetEnergyConsumption	m	int GetEnergyConsumption(out object Values)	2013	obsolete>ISustainabilityEnvironmentalImpact.GetEnergyConsumption2
+GetEnergyConsumption2	m	object GetEnergyConsumption2()	2013 SP3		Gets the energy consumed during the lifecycle of this part or assembly.
+GetWaterEutrophication	m	int GetWaterEutrophication(out object Values)	2013	obsolete>ISustainabilityEnvironmentalImpact.GetWaterEutrophication2
+GetWaterEutrophication2	m	object GetWaterEutrophication2()	2013 SP3		Gets the amount of phosphate released into the water during the lifecycle of this part or assembly.
+IGetAirAcidification	m	int:swSustainabilityErrors_e IGetAirAcidification(ref double Values)	2013	obsolete>ISustainabilityEnvironmentalImpact.IGetAirAcidification2
+IGetAirAcidification2	m	double IGetAirAcidification2()	2013 SP3		Gets the amount of sulfur dioxide emitted during the lifecycle of this part or assembly.
+IGetCurrentCarbonFootPrint	m	int:swSustainabilityErrors_e IGetCurrentCarbonFootPrint(ref double Values)	2013	obsolete>ISustainabilityEnvironmentalImpact.IGetCurrentCarbonFootPrint2
+IGetCurrentCarbonFootPrint2	m	double IGetCurrentCarbonFootPrint2()	2013 SP3		Gets the amount of greenhouse gases emitted during the lifecycle of this part or assembly.
+IGetEnergyConsumption	m	int:swSustainabilityErrors_e IGetEnergyConsumption(ref double Values)	2013	obsolete>ISustainabilityEnvironmentalImpact.IGetEnergyConsumption2
+IGetEnergyConsumption2	m	double IGetEnergyConsumption2()	2013 SP3		Gets the energy consumed during the lifecycle of this part or assembly.
+IGetWaterEutrophication	m	int:swSustainabilityErrors_e IGetWaterEutrophication(ref double Values)	2013	obsolete>ISustainabilityEnvironmentalImpact.IGetWaterEutrophication2
+IGetWaterEutrophication2	m	double IGetWaterEutrophication2()	2013 SP3		Gets the amount of phosphate released into the water during the lifecycle of this part or assembly.
+SaveAsReport	m	void SaveAsReport(int FileType:swSustainabilitySaveAsFileType_e, string FileName, string SaveTo)	2013		Saves the environmental impact results to a file of the specified type with the specified name on the specified path.
+UpdateResults	m	void UpdateResults()	2013		Updates the environmental impact results.
+@ISustainabilityManufacturing	i	Allows access to the Sustainability manufacturing data for the current part.	via=ISustainabilityApp.GetSustainabilityManufacturing	use=10
+BuiltToLast	p	double BuiltToLast {get; set;}	2013		Gets or sets the length of time that the part is built to last.
+DurationType	p	int:swSustainabilityDurationType_e DurationType {get; set;}	2013		Gets or sets the units of time that the part is built to last.
+ManufacturingProcess	p	string:swSustainabilityManufacturingProcessType_e ManufacturingProcess {get; set;}	2013		Gets or sets the manufacturing process for the current part.
+ManufacturingRegion	p	int:swSustainabilityRegionName_e ManufacturingRegion {get; set;}	2013		Gets or sets the region of manufacture of the current part.
+Paint	p	int:swSustainabilityManufacturingPaintType_e Paint {get; set;}	2013		Gets or sets the paint type used to manufacture the current part.
+PrimaryElectricity	p	double PrimaryElectricity {get; set;}	2013		Gets or sets the electricity used to manufacture the current part.
+PrimaryNaturalGas	p	double PrimaryNaturalGas {get; set;}	2013		Gets or sets the natural gas used to manufacture the current part.
+PrimaryScrapRate	p	double PrimaryScrapRate {get; set;}	2013		Gets or sets the amount of material discarded as scrap while manufacturing the current part.
+SurfaceArea	p	double SurfaceArea {get;}	2013		Gets the surface area for manufacturing the current part.
+@ISustainabilityMaterial	i	Provides the ability to assign materials to the current part or the components of the current assembly.	via=ISustainabilityApp.GetSustainabilityMaterial	use=12
+ExcludeComponent	m	void ExcludeComponent(ref object ExcludeComponentNames)	2013		Excludes the specified assembly components from the calculation of environmental impact.
+GetMissingMaterialComponentCount	m	int GetMissingMaterialComponentCount()	2013		Gets the number of assembly components in the Task List that are missing materials.
+GetMissingMaterialComponentList	m	object GetMissingMaterialComponentList()	2013		Gets the names of the assembly components in the Task List that are missing materials.
+IExcludeComponent	m	void IExcludeComponent(int Count, ref string ExcludeComponentNames)	2013		Excludes the specified assembly components from the calculation of environmental impact.
+IGetMissingMaterialComponentList	m	void IGetMissingMaterialComponentList(int Count, ref string ComponentsNames)	2013		Gets the names of the assembly components that are missing materials.
+IIncludeComponent	m	void IIncludeComponent(int Count, ref string IncludeComponentNames)	2013		Includes previously excluded assembly components in the calculation of environmental impact.
+IncludeComponent	m	void IncludeComponent(ref object IncludeComponentNames)	2013		Includes previously excluded assembly components in the calculation of environmental impact.
+ISetPropertiesForComponent	m	void ISetPropertiesForComponent(ref string ComponentsNames)	2013		Applies material to the specified components.
+MaterialClass	p	string MaterialClass {get; set;}	2013		Gets or sets the class of material applied to the current part or the specified assembly components.
+MaterialName	p	string MaterialName {get; set;}	2013		Gets or sets the material name for the current material class.
+RecycledContent	p	double RecycledContent {get; set;}	2013		Gets or sets the percentage of material that can be recycled.
+SetPropertiesForComponent	m	void SetPropertiesForComponent(ref object ComponentsNames)	2013		Applies material to the specified components.
+ViewResults	m	void ViewResults()	2013		Switches the Sustainability Task Pane from Task List to Assembly Process and calculates the environmental impact of...
+Weight	p	double Weight {get;}	2013		Gets the weight of the material.
+@ISustainabilityTransportation	i	Allows access to the Sustainability transportation data for the current part or assembly.	via=ISustainabilityApp.GetSustainabilityTransportation	use=10
+Boat	p	double Boat {get; set;}	2013		Gets or sets the distance traveled by boat from the region of manufacture to the region of use.
+Plane	p	double Plane {get; set;}	2013		Gets or sets the distance traveled by plane from the region of manufacture to the region of use.
+Train	p	double Train {get; set;}	2013		Gets or sets the distance traveled by train from the region of manufacture to the region of use.
+Truck	p	double Truck {get; set;}	2013		Gets or sets the distance traveled by truck from the region of manufacture to the region of use.
+@ISustainabilityUse	i	Allows access to the Sustainability use data for the current part.	via=ISustainabilityApp.GetSustainabilityPartUse	use=2
+Region	p	int:swSustainabilityRegionName_e Region {get; set;}	2013		Gets or sets the geographical region where the part is transported and used.

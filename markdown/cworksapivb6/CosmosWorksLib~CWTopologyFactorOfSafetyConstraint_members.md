@@ -1,6 +1,5 @@
 ---
-title: "CWTopologyFactorOfSafetyConstraint Object
-Members"
+title: "CWTopologyFactorOfSafetyConstraint Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWTopologyFactorOfSafetyConstraint_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWTopologyFactorOfSafetyConstraint_members.html"
 ---
 
-# CWTopologyFactorOfSafetyConstraint Object
-Members
+# CWTopologyFactorOfSafetyConstraint Object Members
 
 ## Public Methods
 

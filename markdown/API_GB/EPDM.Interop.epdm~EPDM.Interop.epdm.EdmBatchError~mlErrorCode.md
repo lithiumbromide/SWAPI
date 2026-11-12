@@ -34,14 +34,9 @@ System.int mlErrorCode
 
 ## Remarks
 
-Call
-
-[IEdmVault5:GetErrorString](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString.html)
-
-to get the name and description of the error.
+Call [IEdmVault5:GetErrorString](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString.html) to get the name and description of the error.
 
 ## See Also
 
 [EdmBatchError Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError.html)
-
 [EdmBatchError Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchError_members.html)

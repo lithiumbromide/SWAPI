@@ -43,6 +43,7 @@ public enum class swGlobalBoundingBoxFitOptions_e : public System.Enum
 | Member | Description |
 | --- | --- |
 | swBoundingBoxType_BestFit | 1 = Orientation of the bounding box is based on the X-Y plane |
+| swBoundingBoxType_CustomCoordSys | 3 = Use coordinate system to define bounding box |
 | swBoundingBoxType_CustomPlane | 2 = Specify the orientation plane or planar face on which to base the bounding box |
 
 ## See Also

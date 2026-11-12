@@ -1,0 +1,42 @@
+#swapi-map 1 module=sw3dprinterapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@SW3DPrinter	o
+GetAvailableMaterials	m	Function GetAvailableMaterials(ByRef DefaultIndex As Long) As Variant
+GetBuildEnvelope	m	Function GetBuildEnvelope(ByRef xDimension As Double, ByRef yDimension As Double, ByRef zDimension As Double) As HResult
+GetBuildOrientation	m	Function GetBuildOrientation() As swBuildOrientation_e
+GetCalculatedBoundingVolume	m	Function GetCalculatedBoundingVolume() As String
+GetCalculatedBuildTime	m	Function GetCalculatedBuildTime() As String
+GetCalculatedCost	m	Function GetCalculatedCost() As String
+GetCalculatedSurfaceArea	m	Function GetCalculatedSurfaceArea() As String
+GetCalculatedVolume	m	Function GetCalculatedVolume() As String
+GetCurrentMaterial	m	Function GetCurrentMaterial() As String
+GetCurrentOrientationTransform	m	Function GetCurrentOrientationTransform() As Object
+GetCurrentPrinterName	m	Function GetCurrentPrinterName() As String
+GetDefaultBuildOrientation	m	Function GetDefaultBuildOrientation() As swBuildOrientation_e
+GetDefaultPrintQuality	m	Function GetDefaultPrintQuality() As swPrintQuality_e
+GetDialogConfiguration	m	Function GetDialogConfiguration() As Long
+GetEnvelopeOrigin	m	Function GetEnvelopeOrigin(ByRef X As swBuildEnvelopeStartingPoint_e, ByRef y As swBuildEnvelopeStartingPoint_e, ByRef __MIDL__ISw3DPrinter0000 As swBuildEnvelopeStartingPoint_e) As HResult
+GetOutputOption	m	Function GetOutputOption() As String
+GetOutputOptions	m	Function GetOutputOptions() As Variant
+GetPrinterComment	m	Function GetPrinterComment() As String
+GetPrinterImageBitmap	m	Function GetPrinterImageBitmap() As String
+GetPrinterLocation	m	Function GetPrinterLocation() As String
+GetPrinterNames	m	Function GetPrinterNames() As Variant
+GetPrinterStatus	m	Function GetPrinterStatus(ByRef StatusMessage As String) As swPrinterStatus_e
+GetPrinterType	m	Function GetPrinterType() As String
+GetPrintQuality	m	Function GetPrintQuality() As swPrintQuality_e
+GetQuantity	m	Function GetQuantity() As Long
+GetScale	m	Function GetScale() As Long
+GetScaleParametersForActiveDocument	m	Function GetScaleParametersForActiveDocument(ByRef minimumScale As Long, ByRef maximumScale As Long, ByRef scaleIncrement As Long) As HResult
+OnAdvancedSettings	m	Function OnAdvancedSettings() As HResult
+OnCancel	m	Function OnCancel() As HResult
+OnOk	m	Function OnOk() As HResult
+OnStartup	m	Function OnStartup(ByVal ActiveModel As Object) As swStartupResult_e
+OnUpdateStatistics	m	Function OnUpdateStatistics() As swDataChangeResult_e
+SetBuildOrientation	m	Function SetBuildOrientation(ByVal BuildOrientation As swBuildOrientation_e) As HResult
+SetCurrentMaterial	m	Function SetCurrentMaterial(ByVal Material As String) As HResult
+SetCurrentPrinterName	m	Function SetCurrentPrinterName(ByVal Material As String) As HResult
+SetOrientationTransform	m	Function SetOrientationTransform(ByVal ModelOrientation As Object) As HResult
+SetOutputOption	m	Function SetOutputOption(ByVal OutputOption As String) As HResult
+SetPrintQuality	m	Function SetPrintQuality(ByVal Quality As swPrintQuality_e) As HResult
+SetQuantity	m	Function SetQuantity(ByVal Quantity As Long) As HResult
+SetScale	m	Function SetScale(ByVal Scale As Long) As HResult

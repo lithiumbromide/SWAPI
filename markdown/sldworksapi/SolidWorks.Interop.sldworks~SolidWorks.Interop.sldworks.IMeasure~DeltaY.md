@@ -42,13 +42,7 @@ property System.double DeltaY {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ Delta Y distance between the selected entities or -1 if this property is invalid
 
 ## VBA Syntax
 
-See
-
-[Measure::DeltaY](ms-its:sldworksapivb6.chm::/Sldworks~Measure~DeltaY.html)
-
-.
+See [Measure::DeltaY](ms-its:sldworksapivb6.chm::/Sldworks~Measure~DeltaY.html).
 
 ## Examples
 
-See the
-
-[IMeasure](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
-examples.
+See the [IMeasure](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html) examples.
 
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [IMeasure Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html)
 
 ## Availability

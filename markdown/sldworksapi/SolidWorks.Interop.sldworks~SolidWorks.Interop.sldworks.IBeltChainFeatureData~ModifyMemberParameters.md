@@ -55,13 +55,7 @@ System.bool ModifyMemberParameters(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,16 +69,11 @@ True if pulley component successfully modifed, false if not
 
 ## VBA Syntax
 
-See
-
-[BeltChainFeatureData::ModifyMemberParameters](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~ModifyMemberParameters.html)
-
-.
+See [BeltChainFeatureData::ModifyMemberParameters](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~ModifyMemberParameters.html).
 
 ## See Also
 
 [IBeltChainFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
 [IBeltChainFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData_members.html)
 
 ## Availability

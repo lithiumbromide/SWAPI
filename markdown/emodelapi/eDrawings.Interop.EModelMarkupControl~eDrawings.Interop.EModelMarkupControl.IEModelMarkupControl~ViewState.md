@@ -52,9 +52,7 @@ property System.bool ViewState {
 
 ### Parameters
 
-- `state`: View states as defined in
-
-[EMVMarkupViewState](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVMarkupViewState.html)
+- `state`: View states as defined in [EMVMarkupViewState](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVMarkupViewState.html)
 
 ### Property Value
 
@@ -62,16 +60,11 @@ True if the view state is set, false to not
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::ViewState](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~ViewState.html)
-
-.
+See [EModelMarkupControl::ViewState](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~ViewState.html).
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
 
 ## Availability

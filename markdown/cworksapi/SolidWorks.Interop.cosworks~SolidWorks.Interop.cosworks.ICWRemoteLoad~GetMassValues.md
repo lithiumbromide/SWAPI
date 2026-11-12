@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetMassValues Method (ICWRemoteLoad)
 
-Obsolete. Superseded by ICWRemoteLoad::GetMassValues2.
+Obsolete. Superseded by [ICWRemoteLoad::GetMassValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~GetMassValues2.html).
 
 ## Syntax
 
@@ -53,27 +53,19 @@ System.Object^ GetMassValues(
 
 ### Return Value
 
-Array of remote mass component values; valid only if BInclude = 1 (see
-
-Remarks
-
-)
+Array of remote mass component values; valid only if BInclude = 1 (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::GetMassValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~GetMassValues.html)
-
-.
+See [CWRemoteLoad::GetMassValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~GetMassValues.html).
 
 ## Remarks
 
-This method is valid only if[ICWRemoteLoad::LoadType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWRemoteLoad~LoadType.html)= swsRemoteLoadType_e.swsRemoteLoadType_RigidLoadOrMass.
+This method is valid only if [ICWRemoteLoad::LoadType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWRemoteLoad~LoadType.html) = swsRemoteLoadType_e.swsRemoteLoadType_RigidLoadOrMass.
 
 Array of mass components:
 
-**[**m`, Lxx, Lyy, Lzz, Lxy, Lyz, Lxz`**]**
+**[** m`, Lxx, Lyy, Lzz, Lxy, Lyz, Lxz` **]**
 
 where:
 
@@ -88,11 +80,8 @@ where:
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::SetMassValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMassValues.html)
-
 [ICWRemoteLoad::MassUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~MassUnit.html)
 
 ## Availability

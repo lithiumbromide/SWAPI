@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6_members.html"
 
 # IEdmSerNoGen6 Interface Members
 
-The following tables list the members exposed by[IEdmSerNoGen6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6.html).
+The following tables list the members exposed by [IEdmSerNoGen6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmSerNoGen6](EPDM.Interop.epd
 ## See Also
 
 [IEdmSerNoGen6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPu
 
 Allows access to punch table information and values.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IPunchTable
 
 ## VBA Syntax
 
-See
-
-[PunchTable](ms-its:sldworksapivb6.chm::/sldworks~PunchTable.html)
-
-.
+See [PunchTable](ms-its:sldworksapivb6.chm::/sldworks~PunchTable.html).
 
 ## Examples
 
 [Insert Punch Table (C#)](Insert_Punch_Table_Example_CSharp.htm)
-
 [Insert Punch Table (VB.NET)](Insert_Punch_Table_Example_VBNET.htm)
-
 [Insert Punch Table (VBA)](Insert_Punch_Table_Example_VB.htm)
 
 ## Remarks
@@ -79,9 +73,6 @@ Punch tables contain information about the punches that are created by forming t
 ## See Also
 
 [IPunchTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IPunchTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTableAnnotation.html)
-
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)

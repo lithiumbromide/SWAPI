@@ -51,13 +51,7 @@ System.bool SetColumnCustomProperty(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,38 +60,26 @@ See
 
 ### Return Value
 
-True if the custom property is set, false if notParamDesc
+True if the custom property is set, false if not
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListAnnotation::SetColumnCustomProperty](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListAnnotation~SetColumnCustomProperty.html)
-
-.
+See [WeldmentCutListAnnotation::SetColumnCustomProperty](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListAnnotation~SetColumnCustomProperty.html).
 
 ## Remarks
 
 Use this method to create a user-defined column where each row in the column is automatically filled in with the custom property value for that particular configuration. The default title for the column is the name of the custom property. If the specified custom property is not a valid custom property, then each row in the column remains empty.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
 To create a user-defined column that is not attached to a custom property; for example, you want to fill in each row of the column yourself, use this method with the CustomProp value specified as the title of the column.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-To get the list of available custom properties, use[IWeldmentCutListAnnotation::GetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListAnnotation~GetAllCustomProperties.html)or[IWeldmentCustListAnnotation::IGetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListAnnotation~IGetAllCustomProperties.html). The list of available custom properties includes all of the items in the weldment cut-list table, which includes items from the file summary items and file custom properties that have been set.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+To get the list of available custom properties, use [IWeldmentCutListAnnotation::GetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListAnnotation~GetAllCustomProperties.html) or [IWeldmentCustListAnnotation::IGetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListAnnotation~IGetAllCustomProperties.html). The list of available custom properties includes all of the items in the weldment cut-list table, which includes items from the file summary items and file custom properties that have been set.
 
 This method returns false if the column is not a user-defined column, and no action is taken.
 
 ## See Also
 
 [IWeldmentCutListAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListAnnotation.html)
-
 [IWeldmentCutListAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListAnnotation_members.html)
-
 [IWeldmentCutListAnnotation::GetColumnCustomProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListAnnotation~GetColumnCustomProperty.html)
 
 ## Availability

@@ -42,26 +42,16 @@ void AddUsers3(
 
 ### Parameters
 
-- `ppoUserData`: Array of
-
-[EdmUserData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2.html)
-
-structures; one structure for each user
-- `UserType`: Login type of users as defined in
-
-[EdmUserType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserType.html)
+- `ppoUserData`: Array of [EdmUserData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2.html) structures; one structure for each user
+- `UserType`: Login type of users as defined in [EdmUserType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserType.html)
 
 ## Examples
 
-See the
-
-[IEdmUserMgr10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr10.html)
-
-examples.
+See the [IEdmUserMgr10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr10.html) examples.
 
 ## Remarks
 
-This method supersedes[IEdmUserMgr7::AddUsers2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddUsers2.html)by providing the ability to add users by type to the vault.
+This method supersedes [IEdmUserMgr7::AddUsers2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddUsers2.html) by providing the ability to add users by type to the vault.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -70,7 +60,6 @@ This method supersedes[IEdmUserMgr7::AddUsers2](EPDM.Interop.epdm~EPDM.Interop.e
 ## See Also
 
 [IEdmUserMgr10 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr10.html)
-
 [IEdmUserMgr10 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr10_members.html)
 
 ## Availability

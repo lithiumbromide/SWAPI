@@ -47,13 +47,7 @@ System.bool DeleteGroupByName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,17 @@ True if deletion successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData2::DeleteGroupByName](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~DeleteGroupByName.html)
-
-.
+See [SMNormalCutFeatureData2::DeleteGroupByName](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~DeleteGroupByName.html).
 
 ## Remarks
 
-Use[ISMNormalCutFeatureData2::GetGroupNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~GetGroupNames.html)to populate GroupName.
+Use [ISMNormalCutFeatureData2::GetGroupNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~GetGroupNames.html) to populate GroupName.
 
 You cannot delete a group, if it is the only group that exists.
 
 ## See Also
 
 [ISMNormalCutFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
 [ISMNormalCutFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html)
 
 ## Availability

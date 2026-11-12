@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Linear_and_Circular_Note_Patterns_Example_CSharp.htm
 
 # Insert Linear and Circular Note Patterns (C#)
 
-This example shows how to insert linear and circular note patterns in a
-drawing.
+This example shows how to insert linear and circular note patterns in a drawing.
 
 ```vb
  //---------------------------------------------------------

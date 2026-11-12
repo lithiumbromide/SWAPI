@@ -45,13 +45,7 @@ property System.double Strength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Gravitational strength
 
 ## VBA Syntax
 
-See
-
-[SimulationGravityFeatureData::Strength](ms-its:sldworksapivb6.chm::/sldworks~SimulationGravityFeatureData~Strength.html)
-
-.
+See [SimulationGravityFeatureData::Strength](ms-its:sldworksapivb6.chm::/sldworks~SimulationGravityFeatureData~Strength.html).
 
 ## Examples
 
-See the
-
-[ISimulationGravityFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html)
-
-examples.
+See the [ISimulationGravityFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html) examples.
 
 ## See Also
 
 [ISimulationGravityFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html)
-
 [ISimulationGravityFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData_members.html)
 
 ## Availability

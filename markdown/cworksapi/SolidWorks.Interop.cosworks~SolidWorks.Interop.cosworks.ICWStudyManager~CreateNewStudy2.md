@@ -9,9 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # CreateNewStudy2 Method (ICWStudyManager)
 
-Obsolete. Superseded by
-
-[ICWStudyManager::CreateNewStudy3 .](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyManager~CreateNewStudy3.html)
+Obsolete. Superseded by [ICWStudyManager::CreateNewStudy3.](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyManager~CreateNewStudy3.html)
 
 ## Syntax
 
@@ -60,8 +58,8 @@ CWStudy^ CreateNewStudy2(
 ### Parameters
 
 - `SName`: New study name
-- `NAnalysisType`: Type of study as defined in[swsAnalysisStudyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAnalysisStudyType_e.html)
-- `Errors`: Error as defined in[swsStudyError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStudyError_e.html)
+- `NAnalysisType`: Type of study as defined in [swsAnalysisStudyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAnalysisStudyType_e.html)
+- `Errors`: Error as defined in [swsStudyError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStudyError_e.html)
 
 ### Return Value
 
@@ -69,24 +67,17 @@ CWStudy^ CreateNewStudy2(
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::CreateNewStudy2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~CreateNewStudy2.html)
-
-.
+See [CWStudyManager::CreateNewStudy2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~CreateNewStudy2.html).
 
 ## Examples
 
 [Create Frequency Study with Mixed Mesh (C#)](Create_Frequency_Study_with_Mixed_Mesh_Example_CSharp.htm)
-
 [Create Frequency Study with Mixed Mesh (VB.NET)](Create_Frequency_Study_with_Mixed_Mesh_Example_VBNET.htm)
-
 [Create Frequency Study with Mixed Mesh (VBA)](Create_Frequency_Study_with_Mixed_Mesh_Example_VB.htm)
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
 
 ## Availability

@@ -47,7 +47,7 @@ ID of the logged-in user; 0 if no one is logged in
 
 ## Remarks
 
-Any number of users can be logged into a vault at the same time by calling[IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html). However, only a single user can be logged into a machine either through the SOLIDWORKS PDM Professional client software or by calling[IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html). This is the user for whom this method returns an ID.
+Any number of users can be logged into a vault at the same time by calling [IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html). However, only a single user can be logged into a machine either through the SOLIDWORKS PDM Professional client software or by calling [IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html). This is the user for whom this method returns an ID.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -56,7 +56,6 @@ Any number of users can be logged into a vault at the same time by calling[IEdmV
 ## See Also
 
 [IEdmVault11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
 [IEdmVault11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html)
 
 ## Availability

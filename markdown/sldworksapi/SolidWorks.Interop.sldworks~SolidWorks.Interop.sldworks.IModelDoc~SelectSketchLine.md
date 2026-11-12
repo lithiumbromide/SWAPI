@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SelectSketchLine Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SelectSketchLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectSketchLine.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SelectSketchLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectSketchLine.html).
 
 ## Syntax
 
@@ -70,13 +66,7 @@ void SelectSketchLine(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -89,14 +79,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SelectSketchLine](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SelectSketchLine.html)
-
-.
+See [ModelDoc::SelectSketchLine](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SelectSketchLine.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

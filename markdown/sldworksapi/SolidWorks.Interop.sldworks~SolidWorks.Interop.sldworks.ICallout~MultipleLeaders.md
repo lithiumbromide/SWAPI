@@ -45,13 +45,7 @@ property System.bool MultipleLeaders {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to display multiple leaders, false to not
 
 ## VBA Syntax
 
-See
-
-[Callout::MultipleLeaders](ms-its:sldworksapivb6.chm::/sldworks~Callout~MultipleLeaders.html)
-
-.
+See [Callout::MultipleLeaders](ms-its:sldworksapivb6.chm::/sldworks~Callout~MultipleLeaders.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [ICallout Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout.html)
-
 [ICallout Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout_members.html)
 
 ## Availability

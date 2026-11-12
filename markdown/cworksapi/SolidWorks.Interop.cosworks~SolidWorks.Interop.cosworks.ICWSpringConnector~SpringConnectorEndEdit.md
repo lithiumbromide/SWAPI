@@ -42,36 +42,23 @@ System.int SpringConnectorEndEdit();
 
 ### Return Value
 
-Error as defined in[swsSpringConnectorEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpringConnectorEndEditError_e.html)
+Error as defined in [swsSpringConnectorEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpringConnectorEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWSpringConnector::SpringConnectorEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~SpringConnectorEndEdit.html)
-
-.
+See [CWSpringConnector::SpringConnectorEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~SpringConnectorEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
-examples.
+See the [ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html) examples.
 
 ## Remarks
 
-You must call
-
-[ICWSpringConnector::SpringConnectorBeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~SpringConnectorBeginEdit.html)
-
-to start editing a spring. To end editing a spring, you must call ICWSpringConnector::SpringConnectorEndEdit. Changes are not applied unless you call both methods.
+You must call [ICWSpringConnector::SpringConnectorBeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~SpringConnectorBeginEdit.html) to start editing a spring. To end editing a spring, you must call ICWSpringConnector::SpringConnectorEndEdit. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWSpringConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
 [ICWSpringConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html)
 
 ## Availability

@@ -51,23 +51,15 @@ property System.int ReferencePressureOption {
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::ReferencePressureOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~ReferencePressureOption.html)
-
-.
+See [CWBucklingStudyOptions::ReferencePressureOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~ReferencePressureOption.html).
 
 ## Examples
 
-See the
-
-[ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
-examples.
+See the [ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html) examples.
 
 ## Remarks
 
-This property is valid only if[ICWBucklingStudyOptions::CheckFlowPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~CheckFlowPressure.html)is set to 1.
+This property is valid only if [ICWBucklingStudyOptions::CheckFlowPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~CheckFlowPressure.html) is set to 1.
 
 | If you set this property to... | Then you must set... |
 | --- | --- |
@@ -77,7 +69,6 @@ This property is valid only if[ICWBucklingStudyOptions::CheckFlowPressure](Solid
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
 
 ## Availability

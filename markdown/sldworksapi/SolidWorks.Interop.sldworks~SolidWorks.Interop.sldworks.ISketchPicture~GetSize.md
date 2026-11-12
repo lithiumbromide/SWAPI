@@ -50,13 +50,7 @@ void GetSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchPicture::GetSize](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~GetSize.html)
-
-.
+See [SketchPicture::GetSize](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~GetSize.html).
 
 ## Examples
 
-See the
-
-[ISketchPicture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
-examples.
+See the [ISketchPicture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html) examples.
 
 ## See Also
 
 [ISketchPicture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
 [ISketchPicture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture_members.html)
-
 [ISketchPicture::SetSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture~SetSize.html)
 
 ## Availability

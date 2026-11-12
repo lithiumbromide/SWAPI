@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IsBase Method (IFeature)
 
-Obsolete. Superseded by
-
-[IFeature::IsBase2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IsBase2.html)
-
-.
+Obsolete. Superseded by [IFeature::IsBase2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IsBase2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool IsBase()
 System.bool IsBase();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Feature::IsBase](ms-its:sldworksapivb6.chm::/sldworks~Feature~IsBase.html)
-
-.
+See [Feature::IsBase](ms-its:sldworksapivb6.chm::/sldworks~Feature~IsBase.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)

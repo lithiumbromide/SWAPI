@@ -45,13 +45,7 @@ property System.bool Pinned {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if pushpin is pressed, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2::Pinned](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~Pinned.html)
-
-.
+See [PropertyManagerPage2::Pinned](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~Pinned.html).
 
 ## Remarks
 
@@ -76,7 +66,6 @@ See
 ## See Also
 
 [IPropertyManagerPage2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
 [IPropertyManagerPage2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2_members.html)
 
 ## Availability

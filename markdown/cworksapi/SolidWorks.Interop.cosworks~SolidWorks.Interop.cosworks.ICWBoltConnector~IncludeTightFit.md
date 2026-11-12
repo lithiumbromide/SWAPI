@@ -51,20 +51,13 @@ True to include tight fit, false to not
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::IncludeTightFit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~IncludeTightFit.html)
-
-.
+See [CWBoltConnector::IncludeTightFit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~IncludeTightFit.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::InsertTightFitEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~InsertTightFitEntity.html)
-
 [ICWBoltConnector::RemoveTightFitEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~RemoveTightFitEntity.html)
 
 ## Availability

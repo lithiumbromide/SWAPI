@@ -42,13 +42,7 @@ property System.double PercentOffsetStart {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartialEdgeFilletData::PercentOffsetStart](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData~PercentOffsetStart.html)
-
-.
+See [PartialEdgeFilletData::PercentOffsetStart](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData~PercentOffsetStart.html).
 
 ## Remarks
 
-This property is valid only if[IPartialEdgeFilletData::StartCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~StartCondition.html)is swSimpleFilletPartialEdgeCondition_e.PartialEdgePercentOffset.
+This property is valid only if [IPartialEdgeFilletData::StartCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~StartCondition.html) is swSimpleFilletPartialEdgeCondition_e.PartialEdgePercentOffset.
 
-To modify the start percent offset of the fillet after creation, you must call[IPartialEdgeFilletData::SetPartialFilletParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~SetPartialFilletParameters.html).
+To modify the start percent offset of the fillet after creation, you must call [IPartialEdgeFilletData::SetPartialFilletParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~SetPartialFilletParameters.html).
 
 ## See Also
 
 [IPartialEdgeFilletData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html)
-
 [IPartialEdgeFilletData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData_members.html)
-
 [IPartialEdgeFilletData::PercentOffsetEnd Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~PercentOffsetEnd.html)
 
 ## Availability

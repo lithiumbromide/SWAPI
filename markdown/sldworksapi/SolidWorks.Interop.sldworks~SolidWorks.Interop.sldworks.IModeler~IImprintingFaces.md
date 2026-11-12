@@ -58,40 +58,22 @@ void IImprintingFaces(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TargetEdges`: Array of target
-
-[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-- `ToolEdges`: Array of tool
-
-[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-- `TargetVertices`: Array of target
-
-[vertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
-- `ToolVertices`: Array of tool
-
-[vertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
+- `TargetEdges`: Array of target [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
+- `ToolEdges`: Array of tool [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
+- `TargetVertices`: Array of target [vertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
+- `ToolVertices`: Array of tool [vertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
 
 ## VBA Syntax
 
-See
-
-[Modeler::IImprintingFaces](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IImprintingFaces.html)
-
-.
+See [Modeler::IImprintingFaces](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IImprintingFaces.html).
 
 ## Remarks
 
-Call[IModeler::IImprintingFacesCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IImprintingFacesCount2.html)before calling this method.
+Call [IModeler::IImprintingFacesCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IImprintingFacesCount2.html) before calling this method.
 
 The target and tool faces must:
 
@@ -101,9 +83,7 @@ The target and tool faces must:
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::ImprintingFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ImprintingFaces.html)
 
 ## Availability

@@ -51,24 +51,15 @@ Casting process cycle time in hours
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisCasting::CycleTime](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~CycleTime.html)
-
-.
+See [CostAnalysisCasting::CycleTime](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting~CycleTime.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
-examples.
+See the [ICostAnalysisCasting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html) examples.
 
 ## See Also
 
 [ICostAnalysisCasting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting.html)
-
 [ICostAnalysisCasting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting_members.html)
 
 ## Availability

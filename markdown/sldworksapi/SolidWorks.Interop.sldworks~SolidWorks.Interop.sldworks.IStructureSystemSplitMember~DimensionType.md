@@ -45,32 +45,19 @@ property System.int DimensionType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of dimension split member as defined by
-
-[swSplitMemberDimensionType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSplitMemberDimensionType_e.html)
+Type of dimension split member as defined by [swSplitMemberDimensionType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSplitMemberDimensionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[StructureSystemSplitMember::DimensionType](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemSplitMember~DimensionType.html)
-
-.
+See [StructureSystemSplitMember::DimensionType](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemSplitMember~DimensionType.html).
 
 ## See Also
 
 [IStructureSystemSplitMember Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember.html)
-
 [IStructureSystemSplitMember Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember_members.html)
 
 ## Availability

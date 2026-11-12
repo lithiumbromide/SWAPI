@@ -48,7 +48,6 @@ IEdmFolder5^ GetSubFolder(
 ## Examples
 
 [Add and Remove User and Group from Folder (C#)](Add_and_Remove_User_and_Group_from_Folder_Example_CSharp.htm)
-
 [Add and Remove User and Group from Folder (VB.NET)](Add_and_Remove_User_and_Group_from_Folder_Example_CSharp.htm)
 
 ## Remarks
@@ -63,11 +62,8 @@ C++ users not using smart-pointer wrapper functions must release the returned po
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
-
 [IEdmFolder5::ParentFolder Property ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~ParentFolder.html)
-
 [IEdmFolder5::GetFile Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~GetFile.html)
 
 ## Availability

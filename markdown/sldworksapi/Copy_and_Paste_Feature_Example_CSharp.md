@@ -64,37 +64,16 @@ namespace EditCopyPasteModelDoc2CSharp.csproj
 ```
 
 //Zoom to selection, then zoom to fit
-
-swModel.
-
-ViewZoomToSelection
-
-();
-
-swModel.
-
-ViewZoomtofit2
-
-();
+swModel.**ViewZoomToSelection**();
+swModel.**ViewZoomtofit2**();
 
 }
 
-///
+/// <summary>
+/// The SldWorks swApp variable is pre-assigned for you.
+/// </summary>
 
-<summary>
-
-///
-
-The SldWorks swApp variable is pre-assigned for you.
-
-///
-
-</summary>
-
-public
-
-SldWorks swApp;
+public SldWorks swApp;
 
 }
-
 }

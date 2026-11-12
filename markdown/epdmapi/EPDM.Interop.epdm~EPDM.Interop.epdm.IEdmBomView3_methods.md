@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3_methods.html"
 
 # IEdmBomView3 Interface Methods
 
-For a list of all members of this type, see[IEdmBomView3 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3_members.html).
+For a list of all members of this type, see [IEdmBomView3 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmBomView3 members](EPDM.Interop.e
 ## See Also
 
 [IEdmBomView3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView3.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

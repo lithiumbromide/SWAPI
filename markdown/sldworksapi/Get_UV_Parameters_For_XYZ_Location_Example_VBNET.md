@@ -9,8 +9,7 @@ source: "sldworksapi/Get_UV_Parameters_For_XYZ_Location_Example_VBNET.htm"
 
 # Get UV Parameters for XYZ Location Example (VB.NET)
 
-This example shows how to use IFace2 and ICurve interfaces
-to get the UV parameters from the XYZ location.
+This example shows how to use IFace2 and ICurve interfaces to get the UV parameters from the XYZ location.
 
 ```
 '-----------------------------------------------------------------------------
@@ -26,270 +25,99 @@ to get the UV parameters from the XYZ location.
 Imports SolidWorks.Interop.sldworks
 ```
 
+```vb
 Imports SolidWorks.Interop.swconst
-
 Imports System
-
 Imports System.Diagnostics
 
-Partial Class SolidWorksMacro
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModel As ModelDoc2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSelMgr As SelectionMgr
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swFace As Face2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vFaceSelPt As Objectkadov_tag{{<spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Sub
-main()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel
-= swApp.**ActiveDoc**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSelMgr
-= swModel.**SelectionManager**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-pntData(2) As Double
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swBody As Body2, procBody As Body2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swBody
-= swSelMgr.**GetSelectedObject6**(1, -1)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}procBody
-= swBody.**GetProcessedBody2**(0.5, 0.5)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Bypass surface split
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swFace
-= procBody.**GetFirstFace**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Set
-swFace = swBody.**GetFirstFace**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}While
-Not swFace Is Nothing
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-uvBnds As Object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}uvBnds
-= swFace.GetUVBounds()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-UminFace As Double, UmaxFace As Double, VminFace As Double, VmaxFace As
-Double
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}UminFace
-= uvBnds(0) : UmaxFace = uvBnds(1) : VminFace = uvBnds(2) : VmaxFace =
-uvBnds(3)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSurf As Surface
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSurf
-= swFace.**GetSurface**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}uvBnds
-= swSurf.**Parameterization**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-UminSurf As Double, UmaxSurf As Double, VminSurf As Double, VmaxSurf As
-Double
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}UminSurf
-= uvBnds(0) : UmaxSurf = uvBnds(1) : VminSurf = uvBnds(2) : VmaxSurf =
-uvBnds(3)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vEdges As Object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vEdges
-= swFace.**GetEdges**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-i As Integer
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-i = 0 To UBound(vEdges)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swEdge As Edge
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swEdge
-= vEdges(i)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swCurve As Curve
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swCurve
-= swEdge.**GetCurve**()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vCurveParams As Object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vCurveParams
-= swEdge.**GetCurveParams2**()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-startParam As Double, endParam As Double, incParam As Double, curParam
-As Double
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}startParam
-= vCurveParams(6)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}endParam
-= vCurveParams(7)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}incParam
-= (endParam - startParam) / 10.0#
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}curParam
-= startParam
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}While
-curParam < endParam
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vEdgePnt As Object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vEdgePnt
-= swEdge.**Evaluate**(curParam)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vUVSurfParams As Object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-UEdge As Double, VEdge As Double
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get the UV parameters for the point using IFace2::ReverseEvaluate
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vUVSurfParams
-= swFace.ReverseEvaluate(vEdgePnt(0),
-vEdgePnt(1), vEdgePnt(2))
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-Not IsNothing(vUVSurfParams) Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}UEdge
-= vUVSurfParams(0) : VEdge = vUVSurfParams(1)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Edge
-point: " & vbCrLf & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}x:
-" & vEdgePnt(0) & vbCrLf & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}y:
-" & vEdgePnt(1) & vbCrLf & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}z:
-" & vEdgePnt(2))
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("U
-parameter returned from IFace2::ReverseEvaluate is " & UEdge)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-UEdge > UmaxFace Or UEdge < UminFace Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("U
-param error face")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Stop
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("V
-parameter returned from IFace2::ReverseEvalute is " & VEdge)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-VEdge > VmaxFace Or VEdge < VminFace Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("V
-param error face")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Stop
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Else
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Face
-reverse evaluate fails - empty data")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get the UV parameters for the point using ICurve::ReverseEvaluate
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vUVSurfParams
-= swSurf.ReverseEvaluate(vEdgePnt(0),
-vEdgePnt(1), vEdgePnt(2))
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-Not IsNothing(vUVSurfParams) Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}UEdge
-= vUVSurfParams(0) : VEdge = vUVSurfParams(1)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("U
-parameter returned from ICurve::ReverseEvaluate is " & UEdge)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-UEdge > UmaxFace Or UEdge < UminFace Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("U
-param error surface")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Stop
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("V
-parameter returned from ICurve::ReverseEvaluate is " & VEdge
-& vbCrLf)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-VEdge > VmaxFace Or VEdge < VminFace Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("V
-param error surface")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Stop
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}curParam
-= curParam + incParam
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-While
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swFace
-= swFace.**GetNextFace**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-While
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Complete")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-Sub
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Public
-swApp As SldWorks
-
+ Partial Class SolidWorksMacro
+
+     Dim swModel As ModelDoc2
+    Dim swSelMgr As SelectionMgr
+    Dim swFace As Face2
+    Dim vFaceSelPt As Object
+
+    Sub main()
+
+        swModel = swApp.ActiveDoc
+        swSelMgr = swModel.SelectionManager
+        Dim pntData(2) As Double
+        Dim swBody As Body2, procBody As Body2
+        swBody = swSelMgr.GetSelectedObject6(1, -1)
+        procBody = swBody.GetProcessedBody2(0.5, 0.5)
+        'Bypass surface split
+        swFace = procBody.GetFirstFace
+        'Set swFace = swBody.GetFirstFace
+        While Not swFace Is Nothing
+            Dim uvBnds As Object
+            uvBnds = swFace.GetUVBounds()
+            Dim UminFace As Double, UmaxFace As Double, VminFace As Double, VmaxFace As Double
+            UminFace = uvBnds(0) : UmaxFace = uvBnds(1) : VminFace = uvBnds(2) : VmaxFace = uvBnds(3)
+            Dim swSurf As Surface
+            swSurf = swFace.GetSurface
+            uvBnds = swSurf.Parameterization
+            Dim UminSurf As Double, UmaxSurf As Double, VminSurf As Double, VmaxSurf As Double
+            UminSurf = uvBnds(0) : UmaxSurf = uvBnds(1) : VminSurf = uvBnds(2) : VmaxSurf = uvBnds(3)
+            Dim vEdges As Object
+            vEdges = swFace.GetEdges
+            Dim i As Integer
+            For i = 0 To UBound(vEdges)
+                Dim swEdge As Edge
+                swEdge = vEdges(i)
+                Dim swCurve As Curve
+                swCurve = swEdge.GetCurve()
+                Dim vCurveParams As Object
+                vCurveParams = swEdge.GetCurveParams2()
+                Dim startParam As Double, endParam As Double, incParam As Double, curParam As Double
+                startParam = vCurveParams(6)
+                endParam = vCurveParams(7)
+                incParam = (endParam - startParam) / 10.0#
+                curParam = startParam
+                While curParam < endParam
+                    Dim vEdgePnt As Object
+                    vEdgePnt = swEdge.Evaluate(curParam)
+                    Dim vUVSurfParams As Object
+                    Dim UEdge As Double, VEdge As Double
+                    ' Get the UV parameters for the point using IFace2::ReverseEvaluate
+                    vUVSurfParams = swFace.ReverseEvaluate(vEdgePnt(0), vEdgePnt(1), vEdgePnt(2))
+                    If Not IsNothing(vUVSurfParams) Then
+                        UEdge = vUVSurfParams(0) : VEdge = vUVSurfParams(1)
+                        Debug.Print("Edge point: " & vbCrLf & "  x: " & vEdgePnt(0) & vbCrLf & "  y: " & vEdgePnt(1) & vbCrLf & "  z: " & vEdgePnt(2))
+                        Debug.Print("U parameter returned from IFace2::ReverseEvaluate is " & UEdge)
+                        If UEdge > UmaxFace Or UEdge < UminFace Then
+                            Debug.Print("U param error face")
+                            'Stop
+                        End If
+                        Debug.Print("V parameter returned from IFace2::ReverseEvalute is " & VEdge)
+                        If VEdge > VmaxFace Or VEdge < VminFace Then
+                            Debug.Print("V param error face")
+                            'Stop
+                        End If
+                    Else
+                        Debug.Print("Face reverse evaluate fails - empty data")
+                    End If
+                    ' Get the UV parameters for the point using ICurve::ReverseEvaluate
+                    vUVSurfParams = swSurf.ReverseEvaluate(vEdgePnt(0), vEdgePnt(1), vEdgePnt(2))
+                    If Not IsNothing(vUVSurfParams) Then
+                        UEdge = vUVSurfParams(0) : VEdge = vUVSurfParams(1)
+                        Debug.Print("U parameter returned from ICurve::ReverseEvaluate is " & UEdge)
+                        If UEdge > UmaxFace Or UEdge < UminFace Then
+                            Debug.Print("U param error surface")
+                            'Stop
+                        End If
+                        Debug.Print("V parameter returned from ICurve::ReverseEvaluate is " & VEdge & vbCrLf)
+                        If VEdge > VmaxFace Or VEdge < VminFace Then
+                            Debug.Print("V param error surface")
+                            'Stop
+                        End If
+                    End If
+                    curParam = curParam + incParam
+                End While
+            Next
+            swFace = swFace.GetNextFace
+        End While
+        Debug.Print("Complete")
+    End Sub
+    Public swApp As SldWorks
 End Class
+```

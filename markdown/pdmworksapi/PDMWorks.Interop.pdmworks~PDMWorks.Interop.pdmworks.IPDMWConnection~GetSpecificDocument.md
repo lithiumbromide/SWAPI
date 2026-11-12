@@ -62,11 +62,7 @@ Pointer to the specified document
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::GetSpecificDocument](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~GetSpecificDocument.html)
-
-.
+See [PDMWConnection::GetSpecificDocument](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~GetSpecificDocument.html).
 
 ## Examples
 
@@ -75,9 +71,7 @@ See
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
-
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
 
 ## Availability

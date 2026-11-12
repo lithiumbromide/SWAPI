@@ -9,7 +9,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 # IMotionStudy Interface Members
 
-The following tables list the members exposed by[IMotionStudy](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html).
+The following tables list the members exposed by [IMotionStudy](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html).
 
 ## Public Properties
 
@@ -59,11 +59,7 @@ The following tables list the members exposed by[IMotionStudy](SolidWorks.Intero
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [SolidWorks.Interop.swmotionstudy Namespace](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy_namespace.html)
-
 [IMotionStudyManager Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager.html)
-
 [IMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties.html)
-
 [IMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults.html)

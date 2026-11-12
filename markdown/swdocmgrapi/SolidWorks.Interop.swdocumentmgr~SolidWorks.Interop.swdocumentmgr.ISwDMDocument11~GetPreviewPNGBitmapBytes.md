@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetPreviewPNGBitmapBytes Method (ISwDMDocument11)
 
-Obsolete. Superseded by
-
-[ISwDMConfiguration9::GetPreviewPNGBitmapBytes](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration9~GetPreviewPNGBitmapBytes.html)
-
-.
+Obsolete. Superseded by [ISwDMConfiguration9::GetPreviewPNGBitmapBytes](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration9~GetPreviewPNGBitmapBytes.html).
 
 ## Syntax
 
@@ -53,9 +49,7 @@ System.Object^ GetPreviewPNGBitmapBytes(
 
 ### Parameters
 
-- `result`: Success or error code as defined by
-
-[swDmPreviewError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmPreviewError.html)
+- `result`: Success or error code as defined by [swDmPreviewError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmPreviewError.html)
 
 ### Return Value
 
@@ -63,18 +57,13 @@ Preview PNG byte array
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument11::GetPreviewPNGBitmapBytes](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument11~GetPreviewPNGBitmapBytes.html)
-
-.
+See [SwDMDocument11::GetPreviewPNGBitmapBytes](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument11~GetPreviewPNGBitmapBytes.html).
 
 ## Examples
 
 ## See Also
 
 [ISwDMDocument11 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument11.html)
-
 [ISwDMDocument11 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument11_members.html)
 
 ## Availability

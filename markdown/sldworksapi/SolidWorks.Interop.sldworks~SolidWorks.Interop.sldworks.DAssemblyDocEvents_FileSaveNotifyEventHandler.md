@@ -43,13 +43,7 @@ public delegate System.int DAssemblyDocEvents_FileSaveNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,17 +51,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[FileSaveNotif y Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~FileSaveNotify_EV.html)
-
-.
+See [FileSaveNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~FileSaveNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyFileSaveNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyFileSaveNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
-When a user saves a document for the first time, SOLIDWORKS generates a[FileSaveAsNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FileSaveAsNotify2EventHandler.html)event instead of a FileSaveNotify event.
+When a user saves a document for the first time, SOLIDWORKS generates a [FileSaveAsNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FileSaveAsNotify2EventHandler.html) event instead of a FileSaveNotify event.
 
 If the user attempts to close the document and S_false is returned, then the document does not close; it remains open and is not saved.
 

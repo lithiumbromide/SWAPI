@@ -43,38 +43,20 @@ public delegate System.int DPartDocEvents_RegenPostNotify2EventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `stopFeature`: - If a rollback,
-
-  [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-  immediately below the rollback bar in the FeatureManager design tree
-- If a rebuild, NULL
+- `stopFeature`: - If a rollback, [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) immediately below the rollback bar in the FeatureManager design tree
+  - If a rebuild, NULL
 
 ## VBA Syntax
 
-See
-
-[RegenPostNotify2 Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~RegenPostNotify2_EV.html)
-
-.
+See [RegenPostNotify2 Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~RegenPostNotify2_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartRegenPostNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartRegenPostNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

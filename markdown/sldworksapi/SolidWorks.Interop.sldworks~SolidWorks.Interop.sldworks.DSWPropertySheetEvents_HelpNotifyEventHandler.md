@@ -43,13 +43,7 @@ public delegate System.int DSWPropertySheetEvents_HelpNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,19 +51,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[HelpNotify Event (SWPropertySheet)](ms-its:sldworksapivb6.chm::/SldWorks~SWPropertySheet~HelpNotify_EV.html)
-
-.
+See [HelpNotify Event (SWPropertySheet)](ms-its:sldworksapivb6.chm::/SldWorks~SWPropertySheet~HelpNotify_EV.html).
 
 ## Remarks
 
 Your application should only display Help if you have added a Help page.
 
-For add-ins, if PageIndex is the same as the value returned by[ISWPropertySheet::AddActivePage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet~AddActivePage.html), then the add-in can display its Help.
+For add-ins, if PageIndex is the same as the value returned by [ISWPropertySheet::AddActivePage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet~AddActivePage.html), then the add-in can display its Help.
 
-If developing a C++ application, use[swPropertySheetHelpNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertySheetNotify_e.html)to register for this notification.
+If developing a C++ application, use [swPropertySheetHelpNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropertySheetNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -51,13 +51,7 @@ System.bool IsCustomPropertyEditable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,32 +64,21 @@ True if the custom property is editable, false if not
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::IsCustomPropertyEditable](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~IsCustomPropertyEditable.html)
-
-.
+See [CustomPropertyManager::IsCustomPropertyEditable](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~IsCustomPropertyEditable.html).
 
 ## Examples
 
 [Get Custom Properties for Configuration (VBA)](Get_Custom_Properties_for_Configuration_Example_VB.htm)
-
 [Get Custom Properties for Configuration (VB.NET)](Get_Custom_Properties_for_Configuration_Example_VBNET.htm)
-
 [Get Custom Properties for Configuration (C#)](Get_Custom_Properties_for_Configuration_Example_CSharp.htm)
 
 ## Remarks
 
-Use
-
-[ICustomPropertyManager::GetNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~GetNames.html)
-
-to populate PropertyName.
+Use [ICustomPropertyManager::GetNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~GetNames.html) to populate PropertyName.
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
 
 ## Availability

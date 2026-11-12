@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # IAccessSelections Method (ISimpleHoleFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleHoleFeatureData2::IAccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~IAccessSelections.html)
-
-.
+Obsolete. Superseded by [ISimpleHoleFeatureData2::IAccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~IAccessSelections.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool IAccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~IAccessSelections.html)
-
-.
+See [SimpleHoleFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~IAccessSelections.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData.html)
-
 [ISimpleHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData_members.html)

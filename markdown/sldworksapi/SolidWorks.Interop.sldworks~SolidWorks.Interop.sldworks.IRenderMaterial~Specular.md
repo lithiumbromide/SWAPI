@@ -45,13 +45,7 @@ property System.double Specular {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ Intensity of the light surface
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Specular](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Specular.html)
-
-.
+See [RenderMaterial::Specular](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Specular.html).
 
 ## Remarks
 
 This property depends on the position of the light source and the position of the viewer. Increasing Specular makes the material appear shinier.
 
-[IRenderMaterial::SpecularColor](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SpecularColor.html)must not be black, and at least one light other than an ambient light must be illuminating the model.
+[IRenderMaterial::SpecularColor](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SpecularColor.html) must not be black, and at least one light other than an ambient light must be illuminating the model.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

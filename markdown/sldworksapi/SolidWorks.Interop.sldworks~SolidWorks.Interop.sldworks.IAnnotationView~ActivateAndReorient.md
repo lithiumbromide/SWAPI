@@ -40,13 +40,7 @@ System.bool ActivateAndReorient()
 System.bool ActivateAndReorient();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the annotation view is activated and reoriented, false if not
 
 ## VBA Syntax
 
-See
-
-[AnnotationView::ActivateAndReorient](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~ActivateAndReorient.html)
-
-.
+See [AnnotationView::ActivateAndReorient](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~ActivateAndReorient.html).
 
 ## Remarks
 
@@ -67,15 +57,10 @@ The annotation view is oriented normal to its plane.
 ## See Also
 
 [IAnnotationView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html)
-
 [IAnnotationView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView_members.html)
-
 [IAnnotationView::Activate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~Activate.html)
-
 [IAnnotationView::Orient Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~Orient.html)
-
 [IAnnotationView::Hide Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~Hide.html)
-
 [IAnnotationView::Show Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView~Show.html)
 
 ## Availability

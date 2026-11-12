@@ -43,30 +43,19 @@ property System.int StiffnessType {
 
 ### Property Value
 
-Bearing stiffness type as defined in
-
-[swsBearingStiffnessType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingStiffnessType_e.html)
+Bearing stiffness type as defined in [swsBearingStiffnessType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingStiffnessType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBearingConnector::StiffnessType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~StiffnessType.html)
-
-.
+See [CWBearingConnector::StiffnessType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~StiffnessType.html).
 
 ## Examples
 
-See the
-
-[ICWBearingConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
-examples.
+See the [ICWBearingConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html) examples.
 
 ## See Also
 
 [ICWBearingConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
 [ICWBearingConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector_members.html)
 
 ## Availability

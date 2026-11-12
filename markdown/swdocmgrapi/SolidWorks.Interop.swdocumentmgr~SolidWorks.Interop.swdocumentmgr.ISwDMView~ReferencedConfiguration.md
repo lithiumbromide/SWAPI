@@ -11,7 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Gets the name of the configuration for this drawing view.
 
-NOTE:**This property is a get-only property. Set is not implemented.**
+**NOTE:** **This property is a get-only property. Set is not implemented.**
 
 ## Syntax
 
@@ -53,18 +53,12 @@ Name of configuration
 
 ## VBA Syntax
 
-See
-
-[SwDMView::ReferencedConfiguration](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView~ReferencedConfiguration.html)
-
-.
+See [SwDMView::ReferencedConfiguration](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView~ReferencedConfiguration.html).
 
 ## See Also
 
 [ISwDMView Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html)
-
 [ISwDMView Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView_members.html)
-
 [ISwDMView2::ReferencedConfigurationID Property ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView2~ReferencedConfigurationID.html)
 
 ## Availability

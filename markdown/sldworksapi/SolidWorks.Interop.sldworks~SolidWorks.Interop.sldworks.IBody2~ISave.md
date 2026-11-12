@@ -46,13 +46,7 @@ void ISave(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,11 +54,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body2::ISave](ms-its:sldworksapivb6.chm::/sldworks~Body2~ISave.html)
-
-.
+See [Body2::ISave](ms-its:sldworksapivb6.chm::/sldworks~Body2~ISave.html).
 
 ## Remarks
 
@@ -73,13 +63,9 @@ If you want to save the solid body associated with the document, then save the d
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::Save Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~Save.html)
-
 [IModeler::IRestore2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~IRestore2.html)
-
 [IModeler::Restore Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~Restore.html)
 
 ## Availability

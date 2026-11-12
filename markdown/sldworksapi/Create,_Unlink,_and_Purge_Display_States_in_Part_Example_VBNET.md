@@ -9,8 +9,7 @@ source: "sldworksapi/Create,_Unlink,_and_Purge_Display_States_in_Part_Example_VB
 
 # Create, Unlink, and Purge Display States in Part Example (VB.NET)
 
-This example shows how to create, unlink, and purge display states in
-a part document.
+This example shows how to create, unlink, and purge display states in a part document.
 
 ```
 '---------------------------------------------
@@ -37,34 +36,34 @@ Imports System.Diagnostics
 ```vb
  Partial Class SolidWorksMacro
 
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swConfig As Configuration
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModelDocExt As ModelDocExtension
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim boolstatus As Boolean
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim modelName As String
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
+     Public Sub main()
+        Dim swModel As ModelDoc2
+         Dim swConfig As Configuration
+         Dim swModelDocExt As ModelDocExtension
+         Dim boolstatus As Boolean
+         Dim modelName As String
+        swModel = swApp.ActiveDoc
 
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get Default configuration and create a display state
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swConfig = (swModel.GetConfigurationByName("Default"))
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swConfig.CreateDisplayState("Display State 2")
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If boolstatus Then Debug.Print("Display State 2 created.")
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.ForceRebuild3(True)
+         ' Get Default configuration and create a display state
+         swConfig = (swModel.GetConfigurationByName("Default"))
+         boolstatus = swConfig.CreateDisplayState("Display State 2")
+         If boolstatus Then Debug.Print("Display State 2 created.")
+         swModel.ForceRebuild3(True)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' If display is linked, unlink it
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModelDocExt = swModel.Extension
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Is Display State 2 linked? " & swModelDocExt.LinkedDisplayState)
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModelDocExt.LinkedDisplayState = False
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Is Display State 2 still linked? " & swModelDocExt.LinkedDisplayState)
+        ' If display is linked, unlink it
+         swModelDocExt = swModel.Extension
+         Debug.Print("Is Display State 2 linked? " & swModelDocExt.LinkedDisplayState)
+         swModelDocExt.LinkedDisplayState = False
+         Debug.Print("Is Display State 2 still linked? " & swModelDocExt.LinkedDisplayState)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Purge any display states identical to Display State 2
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swModelDocExt.PurgeDisplayState
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Identical display states to Display State 2 purged? " & boolstatus)
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.ForceRebuild3(True)
+        ' Purge any display states identical to Display State 2
+         boolstatus = swModelDocExt.PurgeDisplayState
+         Debug.Print("Identical display states to Display State 2 purged? " & boolstatus)
+         swModel.ForceRebuild3(True)
 
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Close the part without saving changes
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}modelName = swModel.GetTitle
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.QuitDoc(modelName)
+         ' Close the part without saving changes
+         modelName = swModel.GetTitle
+         swApp.QuitDoc(modelName)
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 ```

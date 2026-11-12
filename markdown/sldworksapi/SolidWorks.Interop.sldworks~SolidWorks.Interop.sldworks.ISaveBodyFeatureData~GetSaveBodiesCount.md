@@ -40,13 +40,7 @@ System.int GetSaveBodiesCount()
 System.int GetSaveBodiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of save bodies in this Save Bodies feature
 
 ## VBA Syntax
 
-See
-
-[SaveBodyFeatureData::GetSaveBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~SaveBodyFeatureData~GetSaveBodiesCount.html)
-
-.
+See [SaveBodyFeatureData::GetSaveBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~SaveBodyFeatureData~GetSaveBodiesCount.html).
 
 ## Examples
 
@@ -67,9 +57,7 @@ See
 ## See Also
 
 [ISaveBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData.html)
-
 [ISaveBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData_members.html)
-
 [ISaveBodyFeatureData::GetSaveBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData~GetSaveBodies.html)
 
 ## Availability

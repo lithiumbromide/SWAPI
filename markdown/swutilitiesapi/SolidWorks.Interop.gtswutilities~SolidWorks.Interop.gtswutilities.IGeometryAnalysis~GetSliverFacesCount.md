@@ -54,9 +54,7 @@ System.int GetSliverFacesCount(
 ### Parameters
 
 - `width`: Width to use to detect sliver faces
-- `errorcode`: Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `errorcode`: Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -64,11 +62,7 @@ Number of sliver faces
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::GetSliverFacesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetSliverFacesCount.html)
-
-.
+See [IGeometryAnalysis::GetSliverFacesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetSliverFacesCount.html).
 
 ## Examples
 
@@ -81,7 +75,6 @@ Sliver faces are faces with a high aspect ratio (the ratio of length to width). 
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
 
 ## Availability

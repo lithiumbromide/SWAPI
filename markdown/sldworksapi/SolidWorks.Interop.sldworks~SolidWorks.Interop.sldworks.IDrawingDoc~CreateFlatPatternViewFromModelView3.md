@@ -71,13 +71,7 @@ View^ CreateFlatPatternViewFromModelView3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -91,15 +85,11 @@ See
 
 ### Return Value
 
-Flat-pattern[view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
+Flat-pattern [view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::CreateFlatPatternViewFromModelView3](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateFlatPatternViewFromModelView3.html)
-
-.
+See [DrawingDoc::CreateFlatPatternViewFromModelView3](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateFlatPatternViewFromModelView3.html).
 
 ## Examples
 
@@ -108,11 +98,8 @@ See
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IView::FlipView Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~FlipView.html)
-
 [IView::IsFlatPatternView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IsFlatPatternView.html)
 
 ## Availability

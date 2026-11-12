@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # SetSaveToName Method (IPackAndGo)
 
-Obsolete. Superseded by
-
-[IPackAndGo::SetSaveToName2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~SetSaveToName2.html)
-
-.
+Obsolete. Superseded by [IPackAndGo::SetSaveToName2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~SetSaveToName2.html).
 
 ## Syntax
 
@@ -55,25 +51,11 @@ System.bool SetSaveToName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Override`: True to override the paths and filenames of the documents set by
-
-[IPackAndGo::SetDocumentSaveToNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~SetDocumentSaveToNames.html)
-
-or
-
-[IPackAndGo::ISetDocumentSaveToNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~ISetDocumentSaveToNames.html)
-
-, false to not
+- `Override`: True to override the paths and filenames of the documents set by [IPackAndGo::SetDocumentSaveToNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~SetDocumentSaveToNames.html) or [IPackAndGo::ISetDocumentSaveToNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~ISetDocumentSaveToNames.html), false to not
 - `SaveToName`: Path or the path and filename of the Zip file to use to override the paths and filenames of the documents set by IPackAndGo::SetDocumentSaveToNames or IPackAndGo::ISetDocumentSaveToNames
 
 ### Return Value
@@ -82,20 +64,13 @@ True if the paths and filenames of the documents set by IPackAndGo::SetDocumentS
 
 ## VBA Syntax
 
-See
-
-[PackAndGo::SetSaveToName](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~SetSaveToName.html)
-
-.
+See [PackAndGo::SetSaveToName](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~SetSaveToName.html).
 
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [IPackAndGo Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo_members.html)
-
 [IPackAndGo::GetSaveToName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~GetSaveToName.html)
-
 [IPackAndGo::FlattenToSingleFolder Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~FlattenToSingleFolder.html)
 
 ## Availability

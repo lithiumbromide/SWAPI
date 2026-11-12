@@ -72,18 +72,12 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ElectricalFlatRoute::GetConnectorData](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute~GetConnectorData.html)
-
-.
+See [ElectricalFlatRoute::GetConnectorData](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute~GetConnectorData.html).
 
 ## See Also
 
 [IElectricalFlatRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute.html)
-
 [IElectricalFlatRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute_members.html)
-
 [IElectricalFlatRoute::IGetConnectorData Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~IGetConnectorData.html)
 
 ## Availability

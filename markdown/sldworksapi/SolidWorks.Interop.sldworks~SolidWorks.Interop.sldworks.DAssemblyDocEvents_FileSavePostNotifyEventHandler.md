@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAs
 
 # DAssemblyDocEvents_FileSavePostNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Post-notifies the user program when a file is saved in SOLIDWORKS.
+Post-notifies the user program when a file is saved in SOLIDWORKS Design.
 
 ## Syntax
 
@@ -46,36 +46,20 @@ public delegate System.int DAssemblyDocEvents_FileSavePostNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `saveType`: Type of save as defined in
-
-[swFileSaveTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileSaveTypes_e.html)
+- `saveType`: Type of save as defined in [swFileSaveTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileSaveTypes_e.html)
 - `FileName`: Saved file name
 
 ## VBA Syntax
 
-See
-
-[FileSavePostNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~FileSavePostNotify_EV.html)
-
-.
+See [FileSavePostNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~FileSavePostNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyFileSavePostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyFileSavePostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

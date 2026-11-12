@@ -9,8 +9,7 @@ source: "swutilitiesapi/Compare_Documents_VB6.htm"
 
 # Compare Documents Example (VBA)
 
-This example shows how to compare the volumes of two parts and save the results of the comparison using the SOLIDWORKS
-Utilities API.
+This example shows how to compare the volumes of two parts and save the results of the comparison using the SOLIDWORKS Utilities API.
 
 ```
 '------------------------------------------------------------------------------

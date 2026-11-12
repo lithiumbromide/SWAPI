@@ -9,8 +9,7 @@ source: "swdimxpertapi/Get_and_Set_Size_Dimension_Example_VBNET.htm"
 
 # Get and Set Size Dimension Example (VB.NET)
 
-This example shows how to get
-and set DimXpert compound width features.
+This example shows how to get and set DimXpert compound width features.
 
 ```vb
  '------------------------------------------------------------------------

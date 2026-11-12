@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # GetWhichSheets Method (IExportPdfData)
 
-Gets the drawing
-
-[sheets](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet.html)
-
-to export to PDF.
+Gets the drawing [sheets](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheet.html) to export to PDF.
 
 ## Syntax
 
@@ -44,36 +40,21 @@ System.int GetWhichSheets()
 System.int GetWhichSheets();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Drawing sheets to export to PDF as defined in
-
-[swExportDataSheetsToExport_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swExportDataSheetsToExport_e.html)
+Drawing sheets to export to PDF as defined in [swExportDataSheetsToExport_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swExportDataSheetsToExport_e.html)
 
 ## VBA Syntax
 
-See
-
-[ExportPdfData::GetWhichSheets](ms-its:sldworksapivb6.chm::/sldworks~ExportPdfData~GetWhichSheets.html)
-
-.
+See [ExportPdfData::GetWhichSheets](ms-its:sldworksapivb6.chm::/sldworks~ExportPdfData~GetWhichSheets.html).
 
 ## See Also
 
 [IExportPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData.html)
-
 [IExportPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData_members.html)
-
 [IExportPdfData::GetSheets Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData~GetSheets.html)
-
 [IExportPdfData::SetSheets Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData~SetSheets.html)
 
 ## Availability

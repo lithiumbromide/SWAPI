@@ -1,6 +1,5 @@
 ---
-title: "Parameter Object
-Members"
+title: "Parameter Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Parameter_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Parameter_members.html"
 ---
 
-# Parameter Object
-Members
+# Parameter Object Members
 
 ## Public Methods
 

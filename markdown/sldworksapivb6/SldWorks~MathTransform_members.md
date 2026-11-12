@@ -1,6 +1,5 @@
 ---
-title: "MathTransform Object
-Members"
+title: "MathTransform Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MathTransform_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MathTransform_members.html"
 ---
 
-# MathTransform Object
-Members
+# MathTransform Object Members
 
 ## Public Methods
 

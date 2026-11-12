@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetBodyOutline Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::GetBodyOutline2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~GetBodyOutline2.html)
-
-.
+Obsolete. Superseded by [IModeler::GetBodyOutline2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~GetBodyOutline2.html).
 
 ## Syntax
 
@@ -71,40 +67,24 @@ System.int GetBodyOutline(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BodyVar`: Array of bodies
-- `Direction`: Direction of viewParamDesc
-- `Tolerance`: Tolerance (Parasolid default 0.00001)ParamDesc
-- `CurvesOut`: Array of 3D trimmed curves that form the outlineParamDesc
+- `Direction`: Direction of view
+- `Tolerance`: Tolerance (Parasolid default 0.00001)
+- `CurvesOut`: Array of 3D trimmed curves that form the outline
 - `TopolEntities`: Array of topological entities associated with the outline
-
-ParamDesc
 - `Outline`: Array of integers indicating which curves belong to which outline
-
-ParamDesc
 
 ### Return Value
 
 Number of curves that form the outline of a body
 
-ParamDesc
-
 ## VBA Syntax
 
-See
-
-[Modeler::GetBodyOutline](ms-its:sldworksapivb6.chm::/sldworks~Modeler~GetBodyOutline.html)
-
-.
+See [Modeler::GetBodyOutline](ms-its:sldworksapivb6.chm::/sldworks~Modeler~GetBodyOutline.html).
 
 ## Remarks
 
@@ -113,7 +93,6 @@ See Parasolid's documentation of PK_BODY_make_curves_outline for more informatio
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
 
 ## Availability

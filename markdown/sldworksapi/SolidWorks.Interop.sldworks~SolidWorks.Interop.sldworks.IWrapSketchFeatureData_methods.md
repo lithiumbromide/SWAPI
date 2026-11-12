@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWr
 
 # IWrapSketchFeatureData Interface Methods
 
-For a list of all members of this type, see[IWrapSketchFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData_members.html).
+For a list of all members of this type, see [IWrapSketchFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData_members.html).
 
 ## Public Methods
 
@@ -23,7 +23,5 @@ For a list of all members of this type, see[IWrapSketchFeatureData members](Soli
 ## See Also
 
 [IWrapSketchFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertWrapFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertWrapFeature.html)

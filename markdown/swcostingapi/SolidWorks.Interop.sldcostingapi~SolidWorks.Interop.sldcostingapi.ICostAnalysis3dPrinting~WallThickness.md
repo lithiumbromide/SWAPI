@@ -51,26 +51,16 @@ Wall thickness
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting::WallThickness](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~WallThickness.html)
-
-.
+See [CostAnalysis3dPrinting::WallThickness](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~WallThickness.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
-examples.
+See the [ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html) examples.
 
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
-
 [ICostAnalysis3dPrinting::PercentInfill Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~PercentInfill.html)
 
 ## Availability

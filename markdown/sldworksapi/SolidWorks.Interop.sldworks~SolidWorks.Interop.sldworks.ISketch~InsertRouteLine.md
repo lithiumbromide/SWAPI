@@ -59,13 +59,7 @@ System.bool InsertRouteLine(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,34 +74,22 @@ True if a route line is inserted, false if not
 
 ## VBA Syntax
 
-See
-
-[Sketch::InsertRouteLine](ms-its:sldworksapivb6.chm::/sldworks~Sketch~InsertRouteLine.html)
-
-.
+See [Sketch::InsertRouteLine](ms-its:sldworksapivb6.chm::/sldworks~Sketch~InsertRouteLine.html).
 
 ## Examples
 
 [Insert Explode Line Sketch and Route Line (VB.NET)](Insert_Exploded_Line_Sketch_and_Route_Line_Example_VBNET.htm)
-
 [Insert Explode Line Sketch and Route Line (VBA)](Insert_Exploded_Line_Sketch_and_Route_Line_Example_VB.htm)
-
 [Insert Explode Line Sketch and Route Line (C#)](Insert_Exploded_Line_Sketch_and_Route_Line_Example_CSharp.htm)
 
 ## Remarks
 
-You insert a route line in an
-
-[explode line sketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertExplodeLineSketch.html)
-
-.
+You insert a route line in an [explode line sketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertExplodeLineSketch.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [IAssemblyDoc::AutoExplode Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AutoExplode.html)
 
 ## Availability

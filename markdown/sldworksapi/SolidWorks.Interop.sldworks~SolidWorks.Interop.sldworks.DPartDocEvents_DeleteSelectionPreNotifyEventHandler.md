@@ -37,27 +37,17 @@ public delegate System.int DPartDocEvents_DeleteSelectionPreNotifyEventHandler()
 public delegate System.int DPartDocEvents_DeleteSelectionPreNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DeleteSelectionPreNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~DeleteSelectionPreNotify_EV.html)
-
-.
+See [DeleteSelectionPreNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~DeleteSelectionPreNotify_EV.html).
 
 ## Remarks
 
 Returning S_false from your notification handler prevents deletion of the selected item.
 
-If developing aCOM application, use swPartDeleteSelectionPreNotify to register for this notification.
+If developing a COM application, use [swPartDeleteSelectionPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

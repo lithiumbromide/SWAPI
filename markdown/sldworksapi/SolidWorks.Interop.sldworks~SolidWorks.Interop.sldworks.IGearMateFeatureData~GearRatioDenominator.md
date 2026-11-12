@@ -45,13 +45,7 @@ property System.double GearRatioDenominator {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ Gear ratio denominator
 
 ## VBA Syntax
 
-See
-
-[GearMateFeatureData::GearRatioDenominator](ms-its:sldworksapivb6.chm::/sldworks~GearMateFeatureData~GearRatioDenominator.html)
-
-.
+See [GearMateFeatureData::GearRatioDenominator](ms-its:sldworksapivb6.chm::/sldworks~GearMateFeatureData~GearRatioDenominator.html).
 
 ## Examples
 
-See the
-
-[IGearMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData.html)
-
-example.
+See the [IGearMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData.html) example.
 
 ## See Also
 
 [IGearMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData.html)
-
 [IGearMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData_members.html)
-
 [IGearMateFeatureData::GearRatioNumerator Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGearMateFeatureData~GearRatioNumerator.html)
 
 ## Availability

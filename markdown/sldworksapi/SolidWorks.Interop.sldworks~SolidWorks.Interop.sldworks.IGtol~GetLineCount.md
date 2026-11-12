@@ -40,13 +40,7 @@ System.int GetLineCount()
 System.int GetLineCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ Number of lines
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetLineCount](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetLineCount.html)
-
-.
+See [Gtol::GetLineCount](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetLineCount.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetLineAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetLineAtIndex.html)
-
 [IGtol::IGetLineAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetLineAtIndex.html)

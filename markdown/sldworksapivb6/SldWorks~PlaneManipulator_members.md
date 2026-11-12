@@ -1,6 +1,5 @@
 ---
-title: "PlaneManipulator Object
-Members"
+title: "PlaneManipulator Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PlaneManipulator_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PlaneManipulator_members.html"
 ---
 
-# PlaneManipulator Object
-Members
+# PlaneManipulator Object Members
 
 ## Public Methods
 

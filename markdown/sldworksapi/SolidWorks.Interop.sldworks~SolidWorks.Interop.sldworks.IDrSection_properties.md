@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # IDrSection Interface Properties
 
-For a list of all members of this type, see[IDrSection members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html).
+For a list of all members of this type, see [IDrSection members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html).
 
 ## Public Properties
 
@@ -30,9 +30,6 @@ For a list of all members of this type, see[IDrSection members](SolidWorks.Inter
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IEnumDrSections Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDrSections.html)
-
 [ISectionViewData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html)

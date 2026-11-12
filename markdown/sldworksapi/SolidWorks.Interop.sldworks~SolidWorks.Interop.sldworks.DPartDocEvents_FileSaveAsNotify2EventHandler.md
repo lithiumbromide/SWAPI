@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPa
 
 # DPartDocEvents_FileSaveAsNotify2EventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Sends pre-notification before displaying the
-
-File, Save
-
-dialog.
+Sends pre-notification before displaying the File, Save dialog.
 
 ## Syntax
 
@@ -47,13 +43,7 @@ public delegate System.int DPartDocEvents_FileSaveAsNotify2EventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,17 +51,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[FileSaveAsNotify2 Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FileSaveAsNotify2_EV.html)
-
-.
+See [FileSaveAsNotify2 Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FileSaveAsNotify2_EV.html).
 
 ## Remarks
 
-In this event handler, the user can specify the filename that the file should be saved to by using[IModelDoc2::SetSaveAsFileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetSaveAsFileName.html)and also returning S_false from the event handler. After providing an appropriate filename and after S_false is returned from the event handler,kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}theFile, Savedialog is not displayed; instead, the filename that was provided with IModelDoc2::SetSaveAsFileName is used.
+In this event handler, the user can specify the filename that the file should be saved to by using [IModelDoc2::SetSaveAsFileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetSaveAsFileName.html) and also returning S_false from the event handler. After providing an appropriate filename and after S_false is returned from the event handler, the File, Save dialog is not displayed; instead, the filename that was provided with IModelDoc2::SetSaveAsFileName is used.
 
-If developing a C++ application, use[swPartFileSaveAsNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)to register for this notification.
+If developing a C++ application, use [swPartFileSaveAsNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

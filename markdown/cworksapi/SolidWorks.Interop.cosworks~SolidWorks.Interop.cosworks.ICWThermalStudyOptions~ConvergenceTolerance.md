@@ -51,16 +51,11 @@ Convergence tolerance
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::ConvergenceTolerance](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~ConvergenceTolerance.html)
-
-.
+See [CWThermalStudyOptions::ConvergenceTolerance](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~ConvergenceTolerance.html).
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

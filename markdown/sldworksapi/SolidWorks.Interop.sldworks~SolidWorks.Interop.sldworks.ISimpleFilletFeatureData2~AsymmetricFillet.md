@@ -45,13 +45,7 @@ property System.bool AsymmetricFillet {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True if an asymmetric fillet/chamfer, false if a symmetric fillet/chamfer
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::AsymmetricFillet](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~AsymmetricFillet.html)
-
-.
+See [SimpleFilletFeatureData2::AsymmetricFillet](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~AsymmetricFillet.html).
 
 ## Examples
 
-See the
-
-[ISimpleFilletFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
-introductory example.
+See the [ISimpleFilletFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html) introductory example.
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
 
 ## Availability

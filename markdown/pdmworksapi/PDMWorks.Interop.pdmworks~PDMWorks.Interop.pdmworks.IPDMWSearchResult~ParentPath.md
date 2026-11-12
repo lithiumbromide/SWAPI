@@ -9,11 +9,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSe
 
 # ParentPath Property (IPDMWSearchResult)
 
-Gets the full path of the parent project and any subprojects of a document in a
-
-[search result](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult.html)
-
-.
+Gets the full path of the parent project and any subprojects of a document in a [search result](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult.html).
 
 ## Syntax
 
@@ -52,11 +48,7 @@ Path to parent project and any subprojects
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchResult::ParentPath](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~ParentPath.html)
-
-.
+See [PDMWSearchResult::ParentPath](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchResult~ParentPath.html).
 
 ## Remarks
 
@@ -64,22 +56,22 @@ For example:
 
 If the path is:
 
+```vb
 Sample Project ->
-
-kadov_tag{{<spaces>}}Second Level SubProject ->
-
-kadov_tag{{<spaces>}}Third Level SubSubProject ->
-
-kadov_tag{{<spaces>}}Document.sldprt
+       Second Level SubProject ->
+               Third Level SubSubProject ->
+                       Document.sldprt
+```
 
 Then this property returns:
 
+```vb
 Sample Project/Second Level SubProject/Third Level SubSubProject
+```
 
 ## See Also
 
 [IPDMWSearchResult Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult.html)
-
 [IPDMWSearchResult Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchResult_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "ICornerTreatmentGroupFolder Object
-Members"
+title: "ICornerTreatmentGroupFolder Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ICornerTreatmentGroupFolder_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ICornerTreatmentGroupFolder_members.html"
 ---
 
-# ICornerTreatmentGroupFolder Object
-Members
+# ICornerTreatmentGroupFolder Object Members
 
 ## Public Methods
 

@@ -1,0 +1,1472 @@
+#swapi-enums 1 module=epdmapi sw=2026 prefix=EPDM.Interop.epdm~EPDM.Interop.epdm. cols=name,value,description
+@CreateMenuFlags	bitmask	Types of menu used in calls to IEdmVault5::CreatePluginMenu.
+Cmf_AddMenuIcons	32	Adds toolbar button bitmaps to the menu
+Cmf_AllItemsInSameFolder	1	All of the selected files and folders are located in the same parent folder
+Cmf_ContextMenu	8	Context-sensitive menu; not a standard popup menu
+Cmf_ContextMenuItem	64	Context-sensitive menu for an item
+Cmf_ContextMenuItemFolder	128	Context-sensitive menu for an item folder
+Cmf_DisableAddInReload	16	Prevent SOLIDWORKS PDM Professional from querying the database to check whether updates have been made to the number of installed add-ins; this can be used to optimize the execution when called several times in a row
+Cmf_GrayOutInvalidItems	4	Disable menu items that are not currently applicable
+Cmf_IncludeAdminReactors	2	Include the Administrate Add-ins command
+Cmf_ItemToolsMenu	256	Tools > Item menu in the Item Explorer
+Cmf_MenuBarAction	512	Actions menu in the File Explorer
+Cmf_MenuBarDisplay	2048	Display menu in File Explorer
+Cmf_MenuBarModify	1024	Modify menu in File Explorer
+Cmf_MenuBarTools	4096	Tools menu in File Explorer
+@EdmAddAddInFlags		Options for adding add-ins. Used by IEdmAddInMgr5::AddAddIns.
+EdmAddin_AddAllFilesToOneAddIn	1	Add all of the files passed to IEdmAddInMgr5::AddAddIns to the same add-in; this is useful for creating an add-in that has both a 64-bit DLL and a 32-bit DLL
+EdmAddin_Nothing	0	Attempt to create one add-in per file that is passed to IEdmAddInMgr5::AddAddIns
+EdmAddin_ReplaceDuplicates	2	Replace an existing add-in that has the same COM class ID (CLSID) and package name; IEdmAddInMgr5::AddAddIns returns an error if the existing add-in has the same CLSID but a different package name
+@EdmAddCallbackMsgID		Message IDs used in the message box during an add operation.
+EdmAddMsg_ClearUnique	2	Copy over the existing file that has unique values?
+EdmAddMsg_DeleteSource	5	Could not delete a source file during a move operation
+EdmAddMsg_FileFmtReadError	4	File could not be read by the file format plugin
+EdmAddMsg_GenericError	0	Generic error
+EdmAddMsg_MissingPluginComponent	3	File format plugin component is missing
+EdmAddMsg_ReplaceLocal	1	Replace the existing file with the same name?
+@EdmAddFileDlgFlag		Flags used in IEdmBatchAdd2::ShowDlg to control the appearance of the dialog box.
+Eafdf_Nothing	0	Default behavior
+@EdmAddFlag	bitmask	Options for adding a file to a folder to the vault, copying a file or folder within the vault, or copying/moving a...
+EdmAdd_DeleteSource	64	Delete the source file once it has been added to the vault
+EdmAdd_DoNotCopy	512	Do not physically copy the file during the add operations because the file has already been copied
+EdmAdd_DontAddCorrupt	2	Refuse to add corrupt files; IEdmFolder5::AddFile returns the error code E_EDM_INVALID_FILE
+EdmAdd_ForceGenerateSerialNumbers	128	Force regeneration of serial numbers when values already exist; if this flag is not set, SOLIDWORKS PDM Professional will only generate values that are missing in the file
+EdmAdd_GetInterface	256	Return the file interface; only works with IEdmBatchAdd
+EdmAdd_KeepExistingSerialNumbers	4	Do not replace existing serial numbers with new ones; SOLIDWORKS PDM Professional still creates serial numbers for empty fields; if this flag is not set, SOLIDWORKS PDM Professional writes over existing serial numbers with new ones
+EdmAdd_Refresh	1	Make all file listings in File Explorer and Open/Save As dialog boxes refresh so that the new file is displayed
+EdmAdd_Simple	0	Add the file
+EdmAdd_UniqueVarClearDuplicate	16	Clear duplicated unique constrained variables instead of failing
+EdmAdd_UniqueVarDelayCheck	32	Delay the unique variable check until the next check-in
+@EdmAddInFileInfoFlags	bitmask	Types of file in the add-in package used in EdmAddInFileInfo.
+EdmAdfif_AddInObject32	2	File contains the 32-bit IEdmAddIn5 implementation; the code is used only in combination with EdmAdfif_ComDLL32
+EdmAdfif_AddInObject64	8	File contains the 64-bit IEdmAddIn5 implementation; the code is used only in combination with EdmAdfif_ComDLL64
+EdmAdfif_ComDll32	1	File should be COM-registered in a 32-bit process
+EdmAdfif_ComDll64	4	File should be COM-registered in a 64-bit process
+EdmAdfif_DataFile	0	Data file that is copied and maintained but not otherwise used by SOLIDWORKS PDM Professional
+@EdmBatchAddFlag		Flags used by IEdmBatchAdd::CommitAdd.
+EdmBaf_Nothing	0	Default behavior
+EdmBaf_ReplaceDuplicateFiles	1	Replace existing files instead of skipping them
+@EdmBatchAddFolderFlag		Flags used by IEdmBatchAddFolders::AddFolder to specify the behavior of the added folder.
+Ebaff_DisableRefresh	2	Disable the automatic refresh of folder listings in File Explorer
+Ebaff_GetInterface	1	Return IEdmFolder6 for the folder in the EdmFolderInfo structure that is returned by IEdmBatchAddFolders::Create
+Ebaff_Nothing	0	Standard behavior
+@EdmBatchCreateFolderFlag		Flags used by IEdmBatchAddFolders::Create.
+Ebcf_Nothing	0	Default behavior
+Ebcf_RenameExistingRoots	1	If this flag is specified, and one of the folders added with IEdmBatchAddFolders::AddFolder already exists in the file vault, the folder is added and renamed to "Copy of Xxxx", where "Xxxx" is the original name. If this flag is not set, the original folder is returned.
+@EdmBatchFlags	bitmask	Flags used in IEdmBatchUpdate::SetVar and IEdmBatchUpdate2::SetFolderVar to control the behavior of IEdmBatchUpdate...
+EdmBatch_AllConfigs	1	Ignore the configuration argument and update the variable value in all configurations
+EdmBatch_Nothing	0	Normal operation
+EdmBatch_RefreshPreview	2	Reload data card
+EdmBatch_UpdateVarIfNotPartOfCard	4	Update all variables, even those that are not visible in this data card
+@EdmBomColumnType		Types of Bill of Material (BOM) column content; specified in EdmBomColumn and in calls to IEdmBomCell:GetVar, and...
+EdmBomCol_Configuration	21	Name of the current configuration
+EdmBomCol_Date	3	Modified date of file
+EdmBomCol_DocType	12	Document
+EdmBomCol_FileSize	2	File size in bytes
+EdmBomCol_FileType	10	File type
+EdmBomCol_FoundInVersion	9	Version where found
+EdmBomCol_ID	23	File ID
+EdmBomCol_LatestFileDate	17	File date of the latest version
+EdmBomCol_LatestVersion	4	Latest version number of the file
+EdmBomCol_LockDomain	15	Name of computer where file is checked out
+EdmBomCol_LockedIn	8	Computer name and path of checked-out file
+EdmBomCol_LockPath	14	File path of checked-out file
+EdmBomCol_LockUser	7	Name of user who has checked out the file
+EdmBomCol_LockUserID	13	ID of user who has checked out the file
+EdmBomCol_LockViewID	18	ID of vault view where file is checked out
+EdmBomCol_Name	1	File or folder name
+EdmBomCol_PartNumber	24	Document name, configuration name, or user-specified name; used in BOM lists
+EdmBomCol_Path	5	Path to file folder
+EdmBomCol_RefCount	11	Reference count or BOM Quantity
+EdmBomCol_RefCountNoBomQty	25	Reference count that is not multiplied by BOM quantity
+EdmBomCol_RefVariable	22	Variable set on a reference to the file, e.g., position number, cut length, etc.
+EdmBomCol_Shared	19	Number of folders in which the file is shared
+EdmBomCol_State	6	File workflow state name + new line + file workflow state icon name
+EdmBomCol_StateName	16	File workflow state name
+EdmBomCol_Variable	0	This column is linked to a card variable
+@EdmBomFlag	bitmask	Bill of Materials options used in calls to IEdmFile7::GetComputedBOM.
+EdmBf_AsBuilt	1	Include as-built referenced files, i.e., the versions which were present in the cache when the parent file was checked in
+EdmBf_ShowSelected	2	Include the selected file in the Bill of Materials; if this flag is not set, only its children are included
+@EdmBomInsertRowOption		Bill of Materials row insertion options for IEdmBomView2::InsertRow.
+EdmBomInsertRowOption_AboveRow	0	Insert the new row above the specified row
+EdmBomInsertRowOption_AsChild	2	Insert the new row as a child of the specified row
+EdmBomInsertRowOption_BelowRow	1	Insert the new row below the specified row
+@EdmBomSetVarOption		Types of value passed in IEdmBomCell::SetVar.
+EdmBomSetVarOption_Both	2	Both computed and edited value
+EdmBomSetVarOption_Computed	0	Computed value
+EdmBomSetVarOption_Edited	1	Edited value
+@EdmBomType		Types of BOM passed in EdmBomInfo and EdmBomLayout2 structures.
+Computed	0	The BOM is computed (check in/out and workflow are not supported)
+ComputedActivated	1	The BOM is computed, and the Activated checkbox is checked so the BOM appears in File Explorer
+ItemBOM	8
+Saved	2	The user has saved this BOM
+SWBOM	3	SOLIDWORKS BOM
+SWBOMActivated	4	SOLIDWORKS BOM, and the Activated checkbox is checked so the BOM appears in File Explorer
+SWBOMSaved	5	The user has saved this SOLIDWORKS BOM
+UndefinedBOM	9	BOM template
+WeldmentBOM	7	Used as a weldment BOM in the preview
+WeldmentCutlist	6	Used as a weldment cutlist in the preview
+@EdmBomVersionType		Types of content specified in EdmBomVersion.meType.
+EdmBomVer_Label	2	Label created by the user
+EdmBomVer_Revision	1	User-defined revision number
+EdmBomVer_Version	0	Check-in version number
+@EdmBrowseFlag	bitmask	Browse options used in calls to IEdmVault5::BrowseForFile.
+EdmBws_ForOpen	0	Display the Open dialog box
+EdmBws_ForSave	1	Display a Save As dialog box
+EdmBws_Help	32	Display Help in the dialog box
+EdmBws_PermitExternalFiles	16	Permit the user to select files that are outside the file vault folder tree
+EdmBws_PermitLocalFiles	4	Permit the user to select files that are inside the file vault folder tree, but not checked in to the vault
+EdmBws_PermitMultipleSel	2	Permit the user to select more than one file
+EdmBws_PermitVaultFiles	8	Permit the user to select files that are part of the file vault
+@EdmBrowseForFolderFlag		Browse options used in calls to IEdmVault11::BrowseForFolder2.
+EdmBwsFld_ExclFileFolders	1	Do not permit browsing in file folders
+EdmBwsFld_ExclItemFolders	2	Do not permit browsing in item folders
+EdmBwsFld_None	0	Default behavior; permit browsing in both item and file folders
+@EdmButtonState		States of a toolbar button; used in calls to IEdmAddInDrawButton5:DrawToolbarButton, IEdmCmdMgr5::AddToolbarImage...
+BState_Cold	2	Normal button display
+BState_Disabled	3	Button is disabled
+BState_Hot	1	Mouse cursor is hovering over the toolbar button; button should be highlighted
+@EdmCardControlType		File or folder data card control types; used in calls to IEdmCardControl5::ControlType.
+EdmCtrl_Button	5	Push button
+EdmCtrl_Checkbox	13	Check box
+EdmCtrl_ComboboxDropdown	8	Combo box with a drop-down list and an edit box
+EdmCtrl_ComboboxDroplist	9	Combo box with a drop-down list
+EdmCtrl_ComboboxSimple	7	Combo box with a list that is always visible
+EdmCtrl_CustomPropertySearch	15	Search tool control
+EdmCtrl_CustomVariableTree	16	Search tool control
+EdmCtrl_DatePicker	14	Date control
+EdmCtrl_Editbox	4	Edit box
+EdmCtrl_Frame	3	Static frame with optional text
+EdmCtrl_Image	1	Static image
+EdmCtrl_Invalid	0	Error
+EdmCtrl_Listbox	10	List box
+EdmCtrl_RadioColumn	6	Radio button
+EdmCtrl_Tab	11	Tab control with one or more pages
+EdmCtrl_Text	2	Static text
+EdmCtrl_Viewer		DO NOT USE
+@EdmCardFlag		Options for file data card behavior used in EdmCmdData; use these flags to tell SOLIDWORKS PDM Professional what to...
+EdmCF_CloseDlgCancel	2	Close dialog and do not save changes
+EdmCF_CloseDlgOK	1	Close dialog and save changes
+EdmCF_Nothing	0	Do nothing
+@EdmCardType		Types of data card used in calls to IEdmVault6::GetCardID.
+EdmCard_File	0	File data card
+EdmCard_Folder	1	Folder data card
+EdmCard_Search	3	Search card used by the search tool
+EdmCard_Template	2	Template card used by the template manager
+@EdmCardViewFlag	bitmask	Options for appearance and functionality of card views created with IEdmVault10::CreateCardViewEx2 and...
+EdmCvf_3StateCheckboxes	2	Permit three-state checkboxes
+EdmCvf_CallSaveOnCtrlReturn	512	Save on CTRL-Enter
+EdmCvf_ComputeDefaultValues	8	Compute default values in the card
+EdmCvf_DisableButtons	256	Disable all buttons in the card
+EdmCvf_Normal	253	Default (1+4+8+16+32+64+128)
+EdmCvf_Nothing	0	Nothing
+EdmCvf_PermitComputedValues	64	Permit controls to receive values from input formulas
+EdmCvf_PermitControlledTabs	1	Permit controlling tab controls with variables
+EdmCvf_PermitReadOnlyFields	32	Permit the card to have read-only fields
+EdmCvf_RunFormulas	4	Evaluate input formulas in the card
+EdmCvf_RunFormulasOnOpen	1024	Force execution of formulas on all controls when opened
+EdmCvf_SearchMode	130	Search tool mode (2+128)
+EdmCvf_SerNoMenu	1048576	Show shortcut menu for serial numbers
+EdmCvf_TextureBackground	128	Fade the card background
+EdmCvf_VerifyValues	16	Check mandatory and unique values during save
+@EdmCardViewUpdateType		Card control update types; used in calls to IEdmCardView63::Update.
+EdmCvut_DisableCtrl	2	Disable the control
+EdmCvut_EnableCtrl	1	Enable the control
+@EdmChangeStateFileListFlag	bitmask	Options for returning files when making calls to IEdmBatchChangeState::GetFileList.
+Ecsflf_GetActionUpdated	4	Return files that were updated by an action that set a variable value
+Ecsflf_GetChanged	1	Return files that had their state changed
+Ecsflf_GetUnprocessed	2	Return files that did not have their state changed
+@EdmClientType		Types of SOLIDWORKS PDM Professional client; used in calls to IEdmVault8::ClientType.
+Edmct_ConisioLight	2	SOLIDWORKS PDM Professional Viewer
+Edmct_ConisioLT	4	LT (Version 5.3 and older)
+Edmct_ConisioProf	0	SOLIDWORKS PDM Professional Editor
+Edmct_ConisioStd	1	SOLIDWORKS PDM Professional Contributor
+Edmct_ConisioWeb	3	SOLIDWORKS PDM Professional Web
+Edmct_None	-1	No SOLIDWORKS PDM Professional client is installed
+Edmct_Reserved		Do not use
+@EdmCmdNodeProp		Types of command node property; used in calls to IEdmCmdNode::GetProperty.
+EdmCmdNode_ChildDocIDs	2	File IDs of child files
+EdmCmdNode_IsTopNode	1	True if a top node, false if not
+EdmCmdNode_ParentDocIDs	3	File IDs of parent files
+@EdmCmdType		Reasons for SOLIDWORKS PDM Professional to call IEdmAddIn5::OnCmd.
+EdmCmd_ActivateAPITab	57	Custom vault view tab is selected in File Explorer; sent only to add-ins that created a vault view tab in File Explorer
+EdmCmd_CardButton	37	The user clicked either OK or a button whose command is enclosed in brackets ("<...>") in the file data card
+EdmCmd_CardInput	38	The user modified a value in a file or folder data card
+EdmCmd_CardListSrc	39	The add-in should provide a list that is used in a card
+EdmCmd_DeSelectItem	56	Item is deselected File Explorer; sent only to add-ins that created a vault view tab in File Explorer
+EdmCmd_InstallAddIn	23	The add-in is being installed
+EdmCmd_Menu	1	User clicked a menu command or a toolbar button that was created by the add-in
+EdmCmd_PostAdd	12	One or more files were added to the file vault
+EdmCmd_PostAddFolder	28	One or more folders were added to the file vault
+EdmCmd_PostBrowseFolder	60	A folder was browsed
+EdmCmd_PostCopy	20	One or more files were copied to a new folder
+EdmCmd_PostCopyFolder	36	One or more folders were copied to a new parent folder
+EdmCmd_PostDelete	14	One or more files have been deleted
+EdmCmd_PostDeleteFolder	30	One or more folders were deleted from the file vault
+EdmCmd_PostGet	26	One or more files were copied from the archive to the local hard disk
+EdmCmd_PostLabel	47	A label has been created
+EdmCmd_PostLabelAddItem	53	A label has gotten a file or folder added to it
+EdmCmd_PostLabelDelete	49	A label has been deleted
+EdmCmd_PostLabelModify	51	A label has been renamed or gotten its comment updated
+EdmCmd_PostLock	4	One or more files have been checked out
+EdmCmd_PostMove	22	One or more files were moved to a new folder
+EdmCmd_PostMoveFolder	34	One or more folders were moved to a new parent folder
+EdmCmd_PostRename	16	One or more files were renamed
+EdmCmd_PostRenameFolder	32	One or more folders were renamed
+EdmCmd_PostShare	18	One or more files were shared to a new folder
+EdmCmd_PostState	10	One or more files had their states changed
+EdmCmd_PostUndoLock	8	One or more files had their locks removed without any changes sent to the file vault
+EdmCmd_PostUnlock	6	One or more files have been checked in
+EdmCmd_PreAdd	11	One or more files are about to be added to the file vault
+EdmCmd_PreAddFolder	27	One or more folders are about to be added to the file vault
+EdmCmd_PreBrowseFolder	59	A folder is about to be browsed
+EdmCmd_PreCopy	19	One or more files are about to be copied to a new folder
+EdmCmd_PreCopyFolder	35	One or more folders are about to be copied to a new parent folder
+EdmCmd_PreDelete	13	One or more files are about to be deleted
+EdmCmd_PreDeleteFolder	29	One or more folders are about to be deleted from the file vault
+EdmCmd_PreExploreInit	54	A new instance of File Explorer is opening; handle this command in your add-in by calling IEdmCmdMgf6::AddVaultViewTab for each custom tab you want to add to the vault view in File Explorer
+EdmCmd_PreGet	25	One or more files are about to be copied from the archive to the local hard disk
+EdmCmd_PreLabel	46	A label is about to be created
+EdmCmd_PreLabelAddItem	52	A label is about to get a file or folder added to it
+EdmCmd_PreLabelDelete	48	A label is about to be deleted
+EdmCmd_PreLabelModify	50	A label is about to be renamed or get its comment updated
+EdmCmd_PreLock	3	One or more files are about to be checked out
+EdmCmd_PreMove	21	One or more files are about to be moved to a new folder
+EdmCmd_PreMoveFolder	33	One or more folders are about to be moved to a new parent folder
+EdmCmd_PreRename	15	One or more files are about to be renamed
+EdmCmd_PreRenameFolder	31	One or more folders are about to be renamed
+EdmCmd_PreShare	17	One or more files are about to be shared to a new folder
+EdmCmd_PreState	9	One or more files are about to have their states changed
+EdmCmd_PreUndoLock	7	One or more files are about to get their locks removed without any changes sent to the file vault
+EdmCmd_PreUnlock	5	One or more files are about to be checked in
+EdmCmd_SelectItem	55	Item is selected in File Explorer; sent only to add-ins that created a vault view tab in File Explorer
+EdmCmd_SerialNo	2	The add-in should generate a new serial number
+EdmCmd_TaskDetails	42	Use this hook to add your own custom page to the task details dialog box in the task list
+EdmCmd_TaskLaunch	44	The task is being launched; add your own user interface to permit user input
+EdmCmd_TaskLaunchButton	45	OK or Cancel was clicked in the task launch dialog box
+EdmCmd_TaskRun	43	This hook is called on the task server; you should perform the actual work there
+EdmCmd_TaskSetup	40	Use this hook to add a task setup page to a task properties dialog box wizard
+EdmCmd_TaskSetupButton	41	OK or Cancel was clicked in the task properties dialog box wizard
+EdmCmd_UninstallAddIn	24	The add-in is about to be uninstalled
+EdmCmd_UserTabDelete	58	Sent only to add-ins that created a vault view tab in File Explorer; called when File Explorer closes; opportunity for add-in to clean up tab-related items
+@EdmColType		Types of file listing column content; specified in the EdmListCol structure.
+EdmCol_AttachedVersion	10000	As-built version
+EdmCol_Category	12	File category
+EdmCol_Configuration	21	Configuration name
+EdmCol_Date	3	File last modified date
+EdmCol_DaysInState	32	Number of days file in workflow state
+EdmCol_EdmListRetFileFlag	30	Combination of EdmListRetFileFlag flags
+EdmCol_FileSize	2	File size
+EdmCol_FileType	10	File type
+EdmCol_FoundInVersion	9	Version in which the search tool found the file
+EdmCol_LatestFileDate	17	File latest version date
+EdmCol_LatestVersion	4	File latest version number
+EdmCol_LockComputer	15	Name of computer where the file is checked out
+EdmCol_LockedIn	8	Name of computer and folder path where the file is checked out
+EdmCol_LockPath	14	Path to folder where the file is checked out
+EdmCol_LockUser	7	Name of user who has the file checked out
+EdmCol_LockUserID	13	ID of user who has the file checked out
+EdmCol_LockViewID	18	ID of the file vault view where the file is checked out
+EdmCol_Name	1	File name
+EdmCol_ParentFileConfiguration	29	Name of the configuration referencing this file
+EdmCol_ParentFileID	28	ID of file referencing this file
+EdmCol_Path	5	File path
+EdmCol_RefCount	11	Reference count
+EdmCol_Shared	19	File share count
+EdmCol_State	6	File workflow state name + newline + file workflow state icon name
+EdmCol_StateName	16	File workflow state name
+EdmCol_Variable	0	The column is linked to a card variable
+EdmCol_VersionNumber	31	File version number
+@EdmCopyFlag	bitmask	Options for copying files when making calls to IEdmFolder5::CopyFile.
+EdmCpy_NewSerialNumbers	1	Generate missing serial numbers; regenerate existing serial numbers
+EdmCpy_Simple	0	Copy the file
+@EdmCopyType		Types of file copy operations.
+EdmCopy_CopyTree	1
+EdmCopy_Normal	0
+@EdmCreateListExFlags	bitmask	Options for creating lists used in calls to IEdmBatchListing2::CreateListEx.
+Edmclef_AllConfigurations	2	Return separate nodes for configurations
+Edmclef_AsBuilt	16	Use as-built reference versions instead of the latest version
+Edmclef_DontGetLatest	64	Do not get the latest version
+Edmclef_GetDrawings	8	Return drawings of added files
+Edmclef_GetReferences	4	Return references of added files
+Edmclef_MayReadFiles	1	Permit the API to read variables from the cached files; if this flag is not set, values are read from the database
+Edmclef_Nothing	0	Default behavior
+Edmclef_ReturnReferences	32	Return file references for every node that is passed in
+@EdmCreateReferenceFlags		Options for creating custom references used in calls to IEdmAddCustomRefs::CreateTree.
+Ecrf_Nothing	0	Default behavior
+@EdmCreateVaultFlag		Options for creating new vaults used in calls to IEdmVault11::CreateNewVault.
+EdmCreateVault_Nothing	0	Default behavior; specify a password for the Admin user
+EdmCreateVault_UseDefaultAdminPassword	1	Use the default Admin password that is stored on the archive server
+@EdmCreateVaultViewFlag		Options for creating vault views used in calls to IEdmVault11::CreateNewVaultView.
+EdmCreateVaultView_Nothing	0	Default behavior; the view is created only for the currently logged in Windows user
+EdmCreateVaultView_SharedView	1	The view is accessible to all Windows users on this computer
+@EdmDataPropertyType		Property types; used in calls to IEdmData::Get and IEdmData::Set.
+EdmProp_ID	1	Database ID
+EdmProp_LinkPath	8	Path to linked file
+EdmProp_Name	4	Name of a file, folder, variable, etc.
+EdmProp_Nothing	0	Invalid property
+EdmProp_Object	3	IEdmObject5
+EdmProp_ObjectType	2	EdmObjectType
+EdmProp_Path	5	File or folder path
+EdmProp_Value	6	Variable value
+EdmProp_Vault	7	IEdmVault5
+@EdmDataType		Data types; used in calls to IEdmData::Type.
+EdmData_File	1	File
+EdmData_Folder	2	Folder
+EdmData_Link	4	Link
+EdmData_Nothing	0	No data
+EdmData_Variable	3	Variable
+@EdmDefaultValueType		Default value types in SOLIDWORKS PDM Professional; used in calls to IEdmCardViewCallback6::GetCtrlData.
+Edmdef_CreatedByUser	8	ID of created-by user
+Edmdef_CreatedByUserAddress	48	Address of created-by user
+Edmdef_CreatedByUserCity	50	City of created-by user
+Edmdef_CreatedByUserCompany	44	Company of created-by user
+Edmdef_CreatedByUserCountry	52	Country of created-by user
+Edmdef_CreatedByUserData	21	User data of created-by user
+Edmdef_CreatedByUserData2	39	User data of created-by user
+Edmdef_CreatedByUserData3	40	User data of created-by user
+Edmdef_CreatedByUserDepartment	45	Company department of created-by user
+Edmdef_CreatedByUserEmail	36	Email of created-by user
+Edmdef_CreatedByUserEmail2	37	Email of created-by user
+Edmdef_CreatedByUserEmail3	38	Email of created-by user
+Edmdef_CreatedByUserFirstName	31	First name of created-by user
+Edmdef_CreatedByUserFullName	22	Full name of created-by user
+Edmdef_CreatedByUserHomePhone	42	Home phone of created-by user
+Edmdef_CreatedByUserInitials	20	Initials of created-by user
+Edmdef_CreatedByUserJobTitle	46	Job title of created-by user
+Edmdef_CreatedByUserLastName	32	Last name of created-by user
+Edmdef_CreatedByUserMiddleName	33	Middle name of created-by user
+Edmdef_CreatedByUserMobilePhone	43	Mobile phone of created-by user
+Edmdef_CreatedByUserOffice	47	Office of created-by user
+Edmdef_CreatedByUserPrefix	34	Prefix of created-by user
+Edmdef_CreatedByUserState	51	State of created-by user
+Edmdef_CreatedByUserSuffix	35	Suffix of created-by user
+Edmdef_CreatedByUserWorkPhone	41	Work phone of created-by user
+Edmdef_CreatedByUserZipCode	49	Zip code of created-by user
+Edmdef_CurrentStatus	12	Name of the document's current status
+Edmdef_CurrentStatusDescription	15	Description of the document's current status
+Edmdef_CurrentTime	2	Show current time
+Edmdef_DocumentPath	6	File path of the document
+Edmdef_FileCardVariable	1005	The control gets a default value from the file card
+Edmdef_Filename	18	Name of the document file
+Edmdef_FileNameNoExt	28	File name without the extension.
+Edmdef_FolderCardVariable	1004	The control gets a default value from the folder card
+Edmdef_LastLabel	7	Last label placed on the document
+Edmdef_LastRevComment	4	Last revision comment for the document
+Edmdef_LastTransComment	5	Last transition comment for the document
+Edmdef_LastTransitionXByUser	11	ID of the last user to perform a certain transition on the document
+Edmdef_LastVersion	10	Current version number
+Edmdef_LastVersionInStatusX	13	Version of document the last time it was in a certain workflow state
+Edmdef_LastVersionInTransitionX	14	Version of document the last time it was subject to a certain workflow transition
+Edmdef_LatestTransition	16	Name of the latest transition
+Edmdef_LatestTransitionDesc	17	Description of the latest transition
+Edmdef_LockedByUser	9	ID of the locked-by user
+Edmdef_LockedByUserAddress	92	Address of the locked-by user
+Edmdef_LockedByUserCity	94	City of the locked-by user
+Edmdef_LockedByUserCompany	88	Company of the locked-by user
+Edmdef_LockedByUserCountry	96	Country of the locked-by user
+Edmdef_LockedByUserData	24	User data of the locked-by user
+Edmdef_LockedByUserData2	83	User data of the locked-by user
+Edmdef_LockedByUserData3	84	User data of the locked-by user
+Edmdef_LockedByUserDepartment	89	Department of the locked-by user
+Edmdef_LockedByUserEmail	80	Email of the locked-by user
+Edmdef_LockedByUserEmail2	81	Email of the locked-by user
+Edmdef_LockedByUserEmail3	82	Email of the locked-by user
+Edmdef_LockedByUserFirstName	75	First name of the locked-by user
+Edmdef_LockedByUserFullName	22	Full name of the locked-by user
+Edmdef_LockedByUserHomePhone	86	Home phone of the locked-by user
+Edmdef_LockedByUserInitials	23	Initials of the locked-by user
+Edmdef_LockedByUserJobTitle	90	Job title of the locked-by user
+Edmdef_LockedByUserLastName	76	Last name of the locked-by user
+Edmdef_LockedByUserMiddleName	77	Middle name of the locked-by user
+Edmdef_LockedByUserMobilePhone	87	Mobile phone of the locked-by user
+Edmdef_LockedByUserOffice	91	Office of the locked-by user
+Edmdef_LockedByUserPrefix	78	Prefix of the locked-by user
+Edmdef_LockedByUserState	95	State of the locked-by user
+Edmdef_LockedByUserSuffix	79	Suffix of the locked-by user
+Edmdef_LockedByUserWorkPhone	85	Work phone of the locked-by user
+Edmdef_LockedByUserZipCode	93	Zip code of the locked-by user
+Edmdef_LoggedInUserAddress	70	Address of the logged-in user
+Edmdef_LoggedInUserCity	72	City of the logged-in user
+Edmdef_LoggedInUserCompany	66	Company of the logged-in user
+Edmdef_LoggedInUserCountry	74	Country of the logged-in user
+Edmdef_LoggedInUserData	27	User data of the logged-in user
+Edmdef_LoggedInUserData2	61	User data of the logged-in user
+Edmdef_LoggedInUserData3	62	User data of the logged-in user
+Edmdef_LoggedInUserDepartment	67	Department of the logged-in user
+Edmdef_LoggedInUserEmail	58	Email of the logged-in user
+Edmdef_LoggedInUserEmail2	59	Email of the logged-in user
+Edmdef_LoggedInUserEmail3	60	Email of the logged-in user
+Edmdef_LoggedInUserFirstName	53	First name of the logged-in user
+Edmdef_LoggedInUserFullName	3	ID of the current logged-in user
+Edmdef_LoggedInUserHomePhone	64	Home phone of the logged-in user
+Edmdef_LoggedInUserInitials	26	Initials of the logged-in user
+Edmdef_LoggedInUserJobTitle	68	Job title of the logged-in user
+Edmdef_LoggedInUserLastName	54	Last name of the logged-in user
+Edmdef_LoggedInUserMiddleName	55	Middle name of the logged-in user
+Edmdef_LoggedInUserMobilePhone	65	Mobile phone of the logged-in user
+Edmdef_LoggedInUserName	3	ID of the current logged-in user
+Edmdef_LoggedInUserOffice	69	Office of the logged-in user
+Edmdef_LoggedInUserPrefix	56	Prefix of the logged-in user
+Edmdef_LoggedInUserState	73	State of the logged-in user
+Edmdef_LoggedInUserSuffix	57	Suffix of the logged-in user
+Edmdef_LoggedInUserWorkPhone	63	Work phone of the logged-in user
+Edmdef_LoggedInUserZipCode	71	Zip code of the logged-in user
+Edmdef_NoDefaultValue	0	No default value
+Edmdef_SerialNumber	1003	The control is connected to a serial number
+Edmdef_String	1001	The control has a fixed string as a default value
+Edmdef_TodaysDate	1	Show today's date
+Edmdef_UserListAddress	128	Addresses of all users
+Edmdef_UserListCity	130	Cities of all users
+Edmdef_UserListCompany	124	Companies of all users
+Edmdef_UserListCountry	132	Countries of all users
+Edmdef_UserListData2	119	User data of all users
+Edmdef_UserListData3	120	User data of all users
+Edmdef_UserListDepartment	125	Departments of all users
+Edmdef_UserListEmail	116	Emails of all users
+Edmdef_UserListEmail2	117	Emails of all users
+Edmdef_UserListEmail3	118	Emails of all users
+Edmdef_UserListFirstName	111	First names of all users
+Edmdef_UserListHomePhone	122	Home phones of all users
+Edmdef_UserListJobTitle	126	Job titles of all users
+Edmdef_UserListLastName	112	Last names of all users
+Edmdef_UserListMiddleName	113	Middle names of all users
+Edmdef_UserListMobilePhone	123	Mobile phones of all users
+Edmdef_UserListOffice	127	Offices of all users
+Edmdef_UserListPrefix	114	Prefixes of all users
+Edmdef_UserListState	131	States of all users
+Edmdef_UserListSuffix	115	Suffixes of all users
+Edmdef_UserListWorkPhone	121	Work phones of all users
+Edmdef_UserListZipCode	129	Zip codes of all users
+@EdmDefValComp		Return options when calling IEdmCardViewCallback6::GetDefaultValueComponent.
+EdmDvc_FileID	1	Return the ID of the file
+EdmDvc_FilePath	3	Return the file's complete path
+EdmDvc_FolderID	2	Return the ID of the file's parent folder
+@EdmFileType		Types of SOLIDWORKS PDM Professional file; used in calls to IEdmFile8::FileType.
+Edmft_CutListItem	5	SOLIDWORKS cut list item
+Edmft_InternalComponent	2	A SOLIDWORKS internal part or assembly
+Edmft_Item	4	IEdmItem
+Edmft_Normal	1	File system file
+Edmft_Nothing	0	Error
+@EdmFindUserProp		Properties to get or set when calling IEdmFindUser::GetPropt and IEdmFindUser::SetPropt.
+Edmfup_Email	3	User's email address
+Edmfup_FullName	1	User's full name
+Edmfup_Initials	2	User's initials
+Edmfup_LoginName	0	User's login name
+Edmfup_UserData	4	User's custom data
+@EdmFolderHistoryFlag	bitmask	Options for adding folders when calling IEdmHistory::AddFolder.
+Edmfhf_IncludeFiles	2	Add all files in the folder and subfolders
+Edmfhf_Nothing	0	Add the folder
+Edmfhf_Recursive	1	Add subfolders
+@EdmFolderInfoFlag		Return codes in EdmFolderInfo which is returned from IEdmBatchAddFolders::Create.
+Eff_AlreadyExisted	1	Folder already existed in the vault; EdmFolderInfo structure contains information about the existing folder
+Eff_Nothing	0	Folder was successfully added
+Eff_PermissionDenied	2	Folder could not be added due to lack of permissions
+@EdmGetCmdFlags	bitmask	Options for retrieving files from the vault used in calls to IEdmBatchGet::CreateTree.
+Egcf_AsBuilt	1	Use the same versions of referenced files that were used when the referencing file was checked in; if this bit is not set, the latest versions of referenced files are used
+Egcf_AsBuiltNotDefault	128	Use the as-built versions when creating the tree
+Egcf_ForPreview	16	Only retrieve referenced files that are needed by the preview when retrieving the referencing file; skip caching referenced files
+Egcf_ForViewer	8192	Only retrieve referenced files that are needed by the viewer when retrieving the referencing file; skip caching referenced files
+Egcf_GetLatestRevision	65536	Only retrieve latest revision/version
+Egcf_IncludeAutoCacheFiles	2048	Selects the Check Out dialog box Get checkbox for the latest version if the referenced file is not in the local cache
+Egcf_Lock	2	Check out the files instead of just retrieving them
+Egcf_LockNoLclCopyFiles	1024	Locks the local referenced files if a local cache is not present
+Egcf_LockReferencedFilesToo	64	Check out files referenced by the checked-out file
+Egcf_Nothing	0	No options
+Egcf_RefreshFileListing	32	Refresh file listing in File Explorer after files have been checked out
+Egcf_RollbackTree	4096	Provide the ability to roll back files in the dialog
+Egcf_SingleFileRollback	16384	Roll back one file
+Egcf_SkipExisting	8	Do not retrieve files that already exist in the local cache
+Egcf_SkipLockRefFiles	512	Skips checking of lock file references
+Egcf_SkipOpenFileChecks	256	Skips checking whether the file is open in another application
+Egcf_SkipUnlockedWritable	4	Do not retrieve files that are writable and not checked out
+Egcf_XrefsOpenCheck	32768	Check whether cross-reference files are open in another application
+@EdmGetConfirmReason		Types of confirmation to specify when calling IEdmGetOpCallback::ConfirmReplace.
+Egcr_Locked	1	File is checked out
+Egcr_UnlockedWritable	2	File is checkd in but writable
+@EdmGetFileListFlag	bitmask	Files to return by IEdmBatchGet::GetFileList.
+Egflf_GetFailed	8	Operation failed
+Egflf_GetLocked	2	Return files checked out by the operation
+Egflf_GetRetrieved	1	Return files retrieved by the operation
+Egflf_GetUnprocessed	4	Return files not processed by the operation
+@EdmGetFlag	bitmask	Options for retrieving files used in calls to IEdmFile5::GetFileCopy, IEdmEnumeratorVersion5::GetFileCopy...
+EdmGet_DisableRefresh	2	Do not refresh File Explorer when a file is retrieved
+EdmGet_ForPreview	64	Only retrieve referenced files that are needed by SOLIDWORKS PDM Professional's preview when retrieving the referencing file
+EdmGet_MakeReadOnly	1	Mark the retrieved file as read-only
+EdmGet_Refs	4	Get referenced files
+EdmGet_RefsOnlyMissing	8	Only get referenced files that are not present on the local hard disk; only valid in combination with EdmGet_Refs
+EdmGet_RefsOverwriteLocked	32	Retrieve checked out referenced files and their references; only valid in combination with EdmGet_Refs; Warning: Setting this flag means that any previous modifications to checked out files will be lost.
+EdmGet_RefsVerLatest	16	Retrieve the latest versions of referenced files that you have permission to see instead of attached versions that were used when the file was checked in; only valid in combination with EdmGet_Refs
+EdmGet_Simple	0	Retrieve the file
+@EdmGetMenuInfoFlags		Flags returned from IEdmSearch7::GetMenuInfo.
+Egmif_HasAddins	1	The file vault contains add-ins
+Egmif_Nothing	0	No flags are set
+@EdmGetMsgFlag		Types of message returned used in calls to IEdmInbox5::GetFirstMessagePosition.
+EdmGetMsg_Notifications	4	Return only file or folder notifications
+EdmGetMsg_OnlyNew	1	Return only messages that have not been processed before
+EdmGetMsg_OnlyUnread	8	Return only messages having the IEdmMessage5::IsRead flag set to true
+EdmGetMsg_UserMessages	2	Return only messages sent from users
+@EdmGetOpError		Cold storage file retrieval error codes; used in calls to IEdmGetOpCallback2::ReportFailureEx.
+EdmGetErr_InColdStorageAvailable	1	The version you are attempting to retrieve is in cold storage and needs to be retrieved from the backup media
+EdmGetErr_InColdStorageDeleted	2	The version you are attempting to retrieve was sent to cold storage and deleted
+EdmGetErr_InColdStoragePermissionDenied	3	The version you are attempting to retrieve is in cold storage, and you lack permission to restore it
+EdmGetErr_InColdStorageRestoreFailed	4	Could not retrieve the file from cold storage
+@EdmGetOpMsg		Log error messages; used in calls to IEdmGetOpCallback::LogMessage.
+Egom_ErrorRunningPostAddins	3	An error occurred running add-ins that implement hooks on EdmCmd_PostGet or EdmCmd_PostLock commands
+Egom_LockNotificationsError	1	Error sending check-out notifications
+Egom_Undefined	0	Undefined message
+Egom_UndoLockAfterErrorFailed	2	The attempt to unlock a file after its check-out failed has failed
+@EdmGetOpReply		Options for continuing with a command; returned from IEdmGetOpCallback2::ReportFailureEx.
+EdmGetRep_CallReportFailure	0	Call IEdmGetOpCallback::ReportFailure
+EdmGetRep_Cancel	1	Cancel the operation
+EdmGetRep_Process	3	Proceed to process the file
+EdmGetRep_Skip	2	Skip the file but proceed with the operation
+@EdmGetPermFlag		Options for returning folder permissions used in calls to IEdmUserMgr7::GetFolderPermissions.
+EdmGetPerm_Nothing	0	Default behavior; return all inherited permissions, not just those explicitly set on a folder
+EdmGetPerm_OnlyExplicitlySet	1	Return only permissions explicitly set on folders
+@EdmGetVarDataFlag	bitmask	Options specified in EdmGetVarData to describe a file.
+Edmgvdf_MayUpdate	1	The file's card may be updated by the logged-in user
+Edmgvdf_Nothing	0	No updates
+@EdmGroupDataFlags		Options specified in EdmGroupData used by IEdmUserMgr6::AddGroups to create new groups.
+Edmgdf_ForceAdd	4	Add this group even if validation of the other groups in the array failed
+Edmgdf_GetInterface	1	Retrieve the interface of the group and return it in EdmGroupData::mpoGroup
+Edmgdf_Nothing	0	No options
+Edmgdf_Replace	2	Replace the existing group
+@EdmGroupSetting		User group settings used by IEdmUserGroup9::SetSettingsVar.
+EdmGSv_AutoDelete	9	Whether to automatically delete local read-only files that are not part of the vault; 1 = true, 0 = false; this setting corresonds to the "Automatically delete local read-only files that are not part of the file vault" checkbox on the Explorer tab on the Settings dialog that appears when you click "Settings" on the Properties dialog of a group in the Admin Tool
+EdmGSv_AutoGetLatest	11	Whether to always work with the latest version of files; 1 = true, 0 = false; this setting corresponds to the "Always work with latest version of files" checkbox on the Reference Dialog tab on the Settings dialog that appears when you click "Settings" on the Properties dialog of a group in the Admin Tool
+EdmGSv_AutoGetLatestRefs	43	Whether to auto-select reference files to get latest when checking out; 1 = true, 0 = false; this setting corresponds to the "Auto select reference files to get latest when checking out" checkbox on the Reference Dialog tab on the Settings dialog that appears when you click "Settings" on the Properties dialog of a group in the Admin Tool
+@EdmHistoryType	bitmask	Types of history record; used by the IEdmHistory interface.
+Edmhist_ColdStoreRestore	262144	A file was restored from cold storage
+Edmhist_FileBranch	4194304
+Edmhist_FileBranchMerge	8388608
+Edmhist_FileColdStore	1024	A file was moved to the cold storage
+Edmhist_FileCopy	1073741824	a file was copied
+Edmhist_FileDelete	16	A file was deleted to the bit bucket
+Edmhist_FileLabel	128	A label was applied to a file
+Edmhist_FileLock	134217728	A file was locked
+Edmhist_FileMove	4	A file was moved
+Edmhist_FileParallelState	61708864
+Edmhist_FilePendingState	33554432
+Edmhist_FileRename	2	A file was renamed
+Edmhist_FileRevision	512	A revision was set on the file
+Edmhist_FileRollback	8	A file was rolled back
+Edmhist_FileShare	1	A file was shared
+Edmhist_FileState	256	The file’s workflow state was changed
+Edmhist_FileTransferLock	536870912	A file's ownership was transferred
+Edmhist_FileUndelete	32	A file was recovered from the bit bucket
+Edmhist_FileUndoLock	2097152	A file checked out by somebody other than the logged-in user was unlocked
+Edmhist_FileUndoLock2	268435456	A file checked out by the logged-in user was unlocked
+Edmhist_FileVerFreeVar	524288	File version-free variables were updated
+Edmhist_FileVersion	64	A file was checked in, producing a new version
+Edmhist_FileVersionOverwrite	16777216
+Edmhist_FolderCardData	131072	A folder’s properties were edited
+Edmhist_FolderCreate	8192	A folder was created
+Edmhist_FolderDelete	2048	A folder was deleted to the bit bucket
+Edmhist_FolderLabel	65536	A label was applied to a folder
+Edmhist_FolderMove	32768	A folder was moved
+Edmhist_FolderRename	16384	A folder was renamed
+Edmhist_FolderUndelete	4096	A folder was recovered from the bit bucket
+Edmhist_FolderVerFreeVar	1048576	Folder version-free variables were updated
+@EdmIncRevFlags	bitmask	Increment revisions used in IEdmFile5::IncrementRevision.
+EdmIncRev_Simple	0	Increment revision using default behavior
+@EdmInstallFileFlags		Operations used in calls to IEdmVault12::InstallFile to control the installation of data.
+EdmIff_Nothing	0	Default operation
+EdmIff_ReplaceDuplicates	1	This flag is used for CEX-files when you want to replace duplicate objects in the vault; i.e., if you are importing a group named "ABC" and if there is already a different group named "ABC" in the vault, it will be silently replaced; the default behavior is not to replace duplicates
+@EdmItemGenerationFlags		Flags that control the behavior of IEdmBatchItemGeneration::CreateTree.
+Eigcf_Nothing	0	Default behavior
+Eigcf_OpenItemsCheckbox	1	This flag does not change the behavior of the IEdmBatchItemGeneration::CreateTree method itself, but it does affect a subsequent call to IEdmBatchItemGeneration::ShowDlg; the dialog box displayed by IEdmBatchItemGeneration::ShowDlg will contain a checkbox to open items after the completion of the item-creation command if this flag is specified
+@EdmItemLinkType		Types of linked files to items.
+EdmItemLnk_Attachment	1	Attachment links are referred to as static links in the user interface; a statically linked file does not drive the associated item; it is just an attachment
+EdmItemLnk_Dynamic	0	Dynamic links are referred to as auto-update links in the user interface in SOLIDWORKS PDM Professional 2010 and later; this means that some changes in the linked file automatically propagates to the item
+@EdmLangCode		Localization language used in IEdmHistory3::GetEventDescription.
+LanChinSimplified	13
+LanChinTraditional	12
+LanCzech	1
+LanEng	0
+LanFrench	4
+LanGerman	2
+LanItalian	5
+LanJapanese	6
+LanKorean	7
+LanPolish	8
+LanPortuguese	9
+LanRussian	10
+LanSpanish	3
+LanTurkish	11
+@EdmLanguage		Types of languages; used by IEdmVault5::Language.
+EdmLang_Afrikaans	54	Afrikaans
+EdmLang_Albanian	28	Albanian
+EdmLang_Arabic	1	Arabic
+EdmLang_Armenian	43	Armenian
+EdmLang_Assamese	77	Assamese
+EdmLang_Azeri	44	Azeri
+EdmLang_Basque	45	Basque
+EdmLang_Belarusian	35	Belarusian
+EdmLang_Bengali	69	Bengali
+EdmLang_Bulgarian	2	Bulgarian
+EdmLang_Canada	75	Canadian
+EdmLang_Catalan	3	Catalan
+EdmLang_Chinese	4	Chinese
+EdmLang_Chinese_Traditional	31748	Chinese traditional
+EdmLang_Croatian	26	Croatian
+EdmLang_Czech	5	Czech
+EdmLang_Danish	6	Danish
+EdmLang_Dutch	19	Dutch
+EdmLang_English	9	English
+EdmLang_Estonian	37	Estonian
+EdmLang_Faeroese	56	Faeroese
+EdmLang_Farsi	41	Farsi
+EdmLang_Finnish	11	Finnish
+EdmLang_French	12	French
+EdmLang_Georgian	55	Georgian
+EdmLang_German	7	German
+EdmLang_Greek	8	Greek
+EdmLang_Gujarati	71	Gujarati
+EdmLang_Hebrew	13	Hebrew
+EdmLang_Hindi	57	Hindi
+EdmLang_Hungarian	14	Hungarian
+EdmLang_Icelandic	15	Icelandic
+EdmLang_Indonesian	33	0x21
+EdmLang_Italian	16	Italian
+EdmLang_Japanese	17	Japanese
+EdmLang_Kashmiri	96	Kashmiri
+EdmLang_Kazak	63	Kazak
+EdmLang_Konkani	87	Konkani
+EdmLang_Korean	18	Korean
+EdmLang_Latvian	38	Latvian
+EdmLang_Lithuanian	39	Lithuanian
+EdmLang_Macedonian	47	Macedonian
+EdmLang_Malay	62	Malay
+EdmLang_Malayalam	76	Malayalam
+EdmLang_Manipuri	88	Manipuri
+EdmLang_Marathi	78	Marathi
+EdmLang_Nepali	97	Nepali
+EdmLang_Norwegian	20	Norwegian
+EdmLang_Oriya	72	Oriya
+EdmLang_Polish	21	Polish
+EdmLang_Portuguese	22	Portuguese
+EdmLang_Punjabi	70	Punjabi
+EdmLang_Romanian	24	Romanian
+EdmLang_Russian	25	Russian
+EdmLang_Sanskrit	79	Sanskrit
+EdmLang_Serbian	26	Serbian
+EdmLang_Sindhi	89	Sindhi
+EdmLang_Slovak	27	Slovak
+EdmLang_Slovenian	36	Slovenian
+EdmLang_Spanish	10	Spanish
+EdmLang_Swahili	65	Swahili
+EdmLang_Swedish	29	Swedish
+EdmLang_Tamil	73	Tamil
+EdmLang_Tatar	68	Tatar
+EdmLang_Telugu	74	Telugu
+EdmLang_Thai	30	Thai
+EdmLang_Turkish	31	Turkish
+EdmLang_Ukrainian	34	Ukrainian
+EdmLang_Urdu	32	Urdu
+EdmLang_Uzbek	67	Uzbek
+EdmLang_Vietnamese	42	Vietnamese
+@EdmLaunchSearchFlags		Flags which control the behavior of IEdmSearch7::LaunchApp.
+Elsf_DefaultIsAFavorite	4	The bsDefault argument to IEdmSearch7::LaunchApp is the name of a favorite, not a form
+Elsf_HidePreview	2	Hides the preview area under the result listing in the search tool
+Elsf_HideTree	1	Hides the tree pane in the search tool
+Elsf_Nothing	0	Default behavior
+@EdmLibVer		Type library and SOLIDWORKS PDM version numbers.
+EdmLibVer_Major	5
+EdmLibVer_Minor	29	For SOLIDWORKS PDM 2026
+@EdmLicenseType		Types of license types, which are used in struct EdmLicense.
+EdmLic_Contributor	2	Contributor and web client license
+EdmLic_Editor	1	Editor license
+EdmLic_Processor	4	Processor license
+EdmLic_Viewer	3	Viewer (read-only) license
+@EdmListFileFlags	bitmask	Flags passed to IEdmBatchListing::AddFile.
+EdmList_IsCutListItem	2	The file is a cut list item in another file
+EdmList_IsInternalComponent	4	The file is a virtual component in another file
+EdmList_MayNotReadFile	1	The file must not be accessed, even if it is checked out and modified
+EdmList_Nothing	0	Default behavior
+@EdmListFolderFlags		Flags used in calls to IEdmBatchListing::AddFolder to tell how to add the folder to the list.
+EdmListFolder_Nothing	0	None of the other values
+EdmListFolder_Recursive	1	Add the files inside the folder instead of adding the folder itself to the list; the files in any subfolders are added recursively
+@EdmListRetFileFlag		Flags returned in an IEdmBatchListing column if you specify column type EdmCol_EdmListRetFileFlag.
+EdmLstRet_Drawing	1	It is a backwards drawing reference (i.e., it displayed as blue links in Enterprise's command dialog boxes)
+EdmLstRet_InternalComponent	2	Internal SOLIDWORKS part, cut list, etc.; i.e., it is not a physical file
+EdmLstRet_Nothing	0	It is an ordinary system file
+EdmLstRet_ToolboxPart	4	This is a part file from the Toolbox library
+@EdmLockFlag	bitmask	Flags used in IEdmFile5::LockFile.
+EdmLock_Simple	0	Check out the file using default behavior
+@EdmMBoxResult		Types of clicked button returned by IEdmVault5::MsgBox.
+EdmMbr_Abort	3	User clicked Abort
+EdmMbr_Cancel	2	User clicked Cancel or Close in the caption
+EdmMbr_Ignore	5	User clicked Ignore
+EdmMbr_No	7	User clicked No
+EdmMbr_NoAll	10	User clicked No to All
+EdmMbr_OK	1	User clicked OK
+EdmMbr_OkAll	8	User clicked OK to All
+EdmMbr_Retry	4	User clicked Retry
+EdmMbr_Yes	6	User clicked Yes
+EdmMbr_YesAll	9	User clicked Yes to All
+@EdmMBoxType	bitmask	Types of widget to insert or display in IEdmVault5::MsgBox.
+EdmMbt_AbortRetryIgnore	2	Insert Abort, Retry, and Ignore
+EdmMbt_Icon_Information	64	Display the information icon
+EdmMbt_Icon_Question	32	Display the question icon
+EdmMbt_Icon_Warning	48	Display the warning icon
+EdmMbt_OKCancel	1	Insert OK and Cancel
+EdmMbt_OKOnly	0	Insert OK
+EdmMbt_RetryCancel	5	Insert Retry and Cancel
+EdmMbt_YesNo	4	Insert Yes and No
+EdmMbt_YesNoCancel	3	Insert Yes, No, and Cancel
+@EdmMenuFlags	bitmask	Flags used by IEdmCmdMgr5::AddCmd when writing an add-in that supports menu commands.
+EdmMenu_Administration	512	The command is displayed in SOLIDWORKS PDM Professional Administration tool instead of the File Explorer
+EdmMenu_ContextMenuItem	1024	The command is displayed in the file's context menu
+EdmMenu_ContextMenuItemFolder	2048	The command is displayed in the folder's context menu
+EdmMenu_HastItemToolbarButton	8192	The command has a button in the Item Explorer toolbar
+EdmMenu_HasToolbarButton	128	The command has a button in the File Explorer toolbar; see IEdmCmdMgr5::AddToolbarImage
+EdmMenu_ItemToolsMenu	4096	The command is displayed in the Item Explorer tools menu
+EdmMenu_MustHaveSelection	1	The command is only available when the user has selected files or folders in the File Explorer file list
+EdmMenu_NeverInContextMenu	64	The command should not be present in the right-click, context menu, only in the File Explorer Tools menu
+EdmMenu_Nothing	0	Default behavior; no restrictions and no toolbar
+EdmMenu_OnlyFiles	2	The command is not available for selections containing folders, only for files
+EdmMenu_OnlyFolders	4	The command is not available for selections containing files, only for folders
+EdmMenu_OnlyInContextMenu	32	The command should only be present in the right-click, context menu, not in the File Explorer Tools menu
+EdmMenu_OnlyMultipleSelection	16	The command is only available for multiple selections, not for single files or folders
+EdmMenu_OnlySingleSelection	8	The command is only available if only one file or folder has been selected, not for multiple selections
+EdmMenu_OwnerDrawToolbarButton	256	The command uses custom drawing of its toolbar button by implementing IEdmAddInDrawButton5
+EdmMenu_ShowInMenuBarAction	16384	The command is displayed in the Action menu in the File Explorer toolbar
+EdmMenu_ShowInMenuBarDisplay	65536	The command is displayed in the Display menu in the File Explorer toolbar
+EdmMenu_ShowInMenuBarModify	32768	The command is displayed in the Modify menu in the File Explorer toolbar
+EdmMenu_ShowInMenuBarTools	131072	The command is displayed in the Tools menu in the File Explorer toolbar
+@EdmMenuStrType		Types of arguments sent to IEdmMenu5::GetString to specify which string to return.
+MenuStr_MenuStr	1	The menu item string
+MenuStr_StatusBar	2	The help string to show in the status bar
+MenuStr_Tooltip	3	The ToolTip help string to show when the mouse cursor is over the command's toolbar button
+@EdmMsgType		Types of messages sent to a user.
+EdmMsgType_ExternalNotification	4	The message is an external notification
+EdmMsgType_FileNotification	2	The message is a file notification
+EdmMsgType_FolderNotification	3	The message is a folder notification
+EdmMsgType_Invalid	0	Invalid message (internal error code)
+EdmMsgType_UserMessage	1	The message is a file notification
+@EdmObjectType		Types of objects returned by IEdmObject5::ObjectType, IEdmFile5::ObjectType, and IEdmFolder5::ObjectType.
+EdmObject_Attribute	10	The object is an attribute, used in variables, and it supports the IEdmAttribute5 interface
+EdmObject_BOM	15	The object is a Bill of Materials; see IEdmBom
+EdmObject_Card	5	The object is a file/folder data card, and it supports the IEdmCard5 interface
+EdmObject_CardControl	6	The object is a control in a file/folder data card, and it supports the IEdmCardControl5 interface
+EdmObject_Category	14	The object is a category; see IEdmCategory6
+EdmObject_Dictionary	12	The object is a dictionary, and it supports the IEdmDictionary5 interface
+EdmObject_File	1	The object is a file, and it supports the IEdmFile5 interface
+EdmObject_Folder	2	The object is a folder, and it supports the IEdmFolder5 interface
+EdmObject_Invalid	0	This is not an object type; it is an error code
+EdmObject_Item	16	The object is an item; see IEdmItem
+EdmObject_ItemFolder	17	The object is a parent folder of an item; see IEdmFolder6
+EdmObject_ItemRootFolder	18	The object is the invisible root folder of all item folders; see IEdmFolder6
+EdmObject_Label	11	The object is a label, and it supports the IEdmLabel5 interface
+EdmObject_State	3	The object is a workflow state, and it supports the IEdmState5 interface
+EdmObject_Transition	4	The object is a transition (i.e., a workflow state change), and it supports the IEdmTransition5 interface
+EdmObject_User	7	The object is a user, and it supports the IEdmUser5 interface
+EdmObject_UserGroup	8	The object is a user group, and it supports the IEdmUserGroup5 interface
+EdmObject_Variable	9	The object is a variable (for file/folder data cards), and it supports the IEdmVariable5 interface
+EdmObject_Workflow	13	The object is a workflow; see IEdmWorkflow5 and IEdmWorkflow6
+@EdmProgressType		Types of progress bars that are affected by certain operations.
+Ept_FileTransfer	2	Progress bar for copying the data of a single file
+Ept_Operation	1	Progress bar for the entire operation
+Ept_UpdateReference	3	Progress bar for updating file references
+@EdmRawRefFlags	bitmask	Flags used in EdmRawReference.
+Edmrrf_Ghost	1	DWG files can store grandchildren as references; for example, in the file tree: A.dwg=>B.dwg=>C.dwg the file C.dwg can be stored as a ghost reference in A.dwg and as a normal reference in B.dwg; SOLIDWORKS PDM Professional does not show ghost references in check-in dialog boxes but does update them when files are moved
+Edmrrf_InternalComponent	2	Not used
+Edmrrf_Nothing	0	Normal file reference
+@EdmRefFlags	bitmask	Types of item reference.
+EdmRef_Dynamic	4	Auto-update item to file reference
+EdmRef_File	1	Item to file reference
+EdmRef_Item	2	Item to item reference
+EdmRef_Static	8	Attachment-type item to file reference
+@EdmRefItemProperty		Types of property that can be accessed in IEdmRefItem objects via IEdmRefItem::GetProperty and IEdmRefItem::SetProperty.
+Edmrip_CheckAdd	27	R+W; Boolean; add file?
+Edmrip_CheckChangeState	28	R+W; Boolean; change the state of the file?
+Edmrip_CheckCopy	24	R+W; Boolean; copy file?
+Edmrip_CheckGet	20	R+W; Boolean; retrieve file?
+Edmrip_CheckHasBlockingWarning	30	R+W; Boolean; file has blocking warning?
+Edmrip_CheckIncRev	21	R+W; Boolean; increment revision?
+Edmrip_CheckKeepLocked	19	R+W; Boolean; keep check-out state after check in?
+Edmrip_CheckLock	17	R+W; Boolean; check out file?
+Edmrip_CheckOverwriteLatestVersion	29	R+W; Boolean; overwrite the latest version of the file with the new changes instead of creating a new version?
+Edmrip_CheckRemoveLocal	23	R+W; Boolean; Check In container; remove local file copy after check in?
+Edmrip_CheckUndoLock	22	R+W; Boolean; Check In container; remove check-out state without producing a new version?
+Edmrip_CheckUnlock	18	R+W; Boolean; Check In container; check in file?
+Edmrip_FileName	2	R; string; All container; filename
+Edmrip_FoundPath	7	R; string; Check In container; file system path to folder where file is found
+Edmrip_HasReadPermission	35	Boolean; Has read permission?
+Edmrip_ID	0	R; string; All container; unique ID of the item in the container
+Edmrip_IncludedAs	6	R; string; Check In container; include path used to reference this file
+Edmrip_LockComputer	4	R; string; Check In container; name of computer where file is checked out
+Edmrip_LockPath	3	R; string; Check In container; file system path to folder where file is checked out
+Edmrip_LockUser	5	R; string; Check In container; name of user who checked out file
+Edmrip_RefName	1	R; string; All container; name of file reference; does not have to be the filename
+Edmrip_RevisionLatest	15	R; string; current revision number of file
+Edmrip_RevisionNew	16	R; string; next revision number of file
+Edmrip_ShowMultipleWarnings	31	R+W; Boolean; display the Multiple Warnings link in the command dialog box's warning column?
+Edmrip_Size	33	R; integer; file size
+Edmrip_StatusHresult	25	R; HRESULT; All container; binary error code for this item
+Edmrip_StatusText	26	R; string; All container; error code
+Edmrip_TransitionID	34	R; integer; Transition ID returned with change state operation
+Edmrip_Type	32	R; integer; Check In container; type of file: 1=normal, 2=virtual, 3=BOM, 4=item, 5=cutlist, 6=toolbox part
+Edmrip_VersionAttached	11	R; integer; Check In container; version that was referenced before check in
+Edmrip_VersionLatest	9	R; integer; Check In container; latest version of the file
+Edmrip_VersionLocal	8	R; integer; Check In container; version of file copy on the local disk
+Edmrip_VersionNew	10	R; integer; Check In container; next version of the file
+Edmrip_VersionNewAttached	12	R; integer; Check In container; version that will be referenced after check in
+Edmrip_WorkflowStateIcon	14	R; string; Check In container; name of the file's current workflow state icon
+Edmrip_WorkflowStateName	13	R; string; Check In container; name of the file's current workflow state
+@EdmRefItemType		Items to return from IEdmRefItemContainer::GetItems.
+Edmrit_All	2	Return all items in the container (recursively)
+Edmrit_Roots	1	Return only root items in the container
+@EdmRefreshFlag	bitmask	Flags that cause SOLIDWORKS PDM Professional to refresh elements of the user interface.
+EdmRefresh_FileList	1	Refresh the file listing in File Explorer; this value should be returned if you add, delete, rename, check out, check in, etc., a file and want the change to be immediately visible to the user
+EdmRefresh_Hooks	2	Force reloading of hooks; this value is normally only returned if your add-in changes the number of registered hooks
+EdmRefresh_Menu	4	Force an update of the Tools menu in the File Explorer; this value is normally only returned if your add-in changes the number of registered menu commands
+EdmRefresh_Nothing	0	No refresh is required
+EdmRefresh_Toolbar	8	Force an update of the toolbar in File Explorer; this value is normally only returned if your add-in changes the number of registered menu commands with toolbar buttons
+@EdmRefType		Types of references to return from IEdmRefItem::GetRefs.
+Edmrt_Children	1	Return normal file references
+Edmrt_SubParents	2	Return sub-parents, which are parent files displayed as blue children in the reference dialog box; drawing files for some CAD formats are displayed this way
+@EdmRepaintType		Types of flags passed into IEdmImage::Reposition to control how to handle repainting of the background window.
+EdmRepaint_Erase	2	Trigger both paint and erase (WM_ERASEBKGND) message
+EdmRepaint_Nothing	0	Do not refresh the window
+EdmRepaint_Repaint	1	Trigger a repaint (WM_PAINT) message but not a background erase
+@EdmResolveAction	bitmask	Types of flags that you return to SOLIDWORKS PDM Professional from IEdmCallback6::Resolve.
+Edmra_ClearUnique	2	Clear the duplicated unique-constrained values
+Edmra_CopySerial	4	Copy existing serial number values from the source file
+Edmra_CreateSerial	8	Create new serial number values
+Edmra_ForceGenerateSerial	128	Force regeneration of serial numbers when values already exist; without the flag, SOLIDWORKS PDM Professional only generates values that are missing in the file
+Edmra_KeepExistingSerialNumbers	32	Do not replace existing serial numbers with new ones; SOLIDWORKS PDM Professional still creates serial numbers for empty fields; if this flag is not specified, SOLIDWORKS PDM Professional overwrites existing serial numbers with new ones
+Edmra_Replace	1	Replace existing file with the new one
+Edmra_Skip	16	Do not process this file
+Edmra_UniqueVarDelayCheck	64	Delay the unique variable check to next check in
+@EdmResolveReason	bitmask	Types of flags, which contain the reason for the function call, to pass to your implementation of...
+Edmrr_DstExists	1	Destination file name is already used in the folder
+Edmrr_DstExistsGlobal	64	Destination file name is already used in the vault
+Edmrr_FolderExists	32	Folder with the same name exists
+Edmrr_LockedByYouHere	2	Destination (existing) file is checked out by the logged-in user
+Edmrr_SameAsSource	4	Source file and the destination file are the same
+Edmrr_SerialNumber	16	Source file contains serial number values
+Edmrr_UniqueValues	8	Source file contains unique, constrained, variable values that must be cleared on copy
+@EdmResultErrorCodes_e		Error codes. See EdmResultSuccessCodes_e for the success codes.	path=epdmapi/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultErrorCodes_e.md
+E_EDM_ADDIN_CANT_ACCESS_REGISTRY	2147746520	Cannot redirect registry to retrieve add-in class ID
+E_EDM_ADDIN_CLSID_ALREADY_USED	2147746510	There is already an add-in using the CLSID that you are trying to add; class IDs must be unique
+E_EDM_ADDIN_CLSID_NOT_FOUND	2147746522	The add-in registration succeeded, but the add-in's class ID could not be found in the registry
+E_EDM_ADDIN_FILE_NOT_FOUND	2147746518	The add-in file was not found
+E_EDM_ADDIN_LOAD_CONFLICT	2147746523	The add-in could not be loaded; this can happen if an attempt is made to register a new version of a.NET add-in that is already loaded; the situation can usually be resolved by closing the application and reattempting the operation
+E_EDM_ADDIN_LOADCONFLICT	2147746436	An older version of the add-in is already loaded in memory; restart the program to load the new version of the add-in
+E_EDM_ADDIN_NAME_ALREADY_USED	2147746513	There is already an add-in with the same name as the one you are trying to add; the name must be unique
+E_EDM_ADDIN_NOT_COM_DLL	2147746519	The specified add-in file is not a COM DLL
+E_EDM_ADDIN_NOT_FOUND	2147746511	T he add-in cannot be found in the vault
+E_EDM_ADDIN_NOT_MULTITHREADED	2147746479	An attempt was made to add an add-in that is not a multithreaded COM-server
+E_EDM_ADDIN_UNSUPPORTED_OS	2147746524	The add-in does not support the operating system; you cannot load an 64-bit add-in in 32-bit Windows
+E_EDM_ALIAS_USED_IN_EXPORT_SCRIPT	2147746476	The alias set cannot be deleted because it is used in a data export rule
+E_EDM_ALIAS_USED_IN_IMPORT_SCRIPT	2147746477	The alias set cannot be deleted because it is used in a data import rule
+E_EDM_ALL_GROUPS_NOT_VALIDATED	2147746456	All groups were not validated
+E_EDM_ALL_USERS_NOT_VALIDATED	2147746441	All users were not validated
+E_EDM_ALREADY_INITIALIZED	2147746331	An attempt was made to initialize an object twice; you can only initialize an object one time
+E_EDM_ALREADY_LOGGED_IN	2147746309	You tried to log in twice
+E_EDM_ARCHIVE_LOGIN_FAILED	2147746371	Login failed because of an invalid user name or password
+E_EDM_ARCHIVE_ROOT_FOLDER_DOES_NOT_EXIST	2147746503	Specified archive server root folder does not exist
+E_EDM_ARCHIVE_SERVER_NOT_FOUND	2147746367	The archive server is not found; try starting the archive server
+E_EDM_ASSEMBLY_IN_LDR_MODE	2147746571	The assembly is in Large Design Review mode
+E_EDM_AUTO_LOGGED_OUT	2147746432	You have been inactive for too long and have been logged out
+E_EDM_BAD_LENGTH	2147746370	The statement is out of bounds
+E_EDM_BOM_NOT_FOUND	2147746473	The specified bill of materials could not be found
+E_EDM_BOM_USED_IN_EXPORT_SCRIPT	2147746475	The bill of materials cannot be deleted because it is used in a data export rule
+E_EDM_CANCELLED_BY_USER	2147746342	The operation was canceled by the user
+E_EDM_CANT_MOVE_FOLDER_TO_SUBFOLDER	2147746460	An attempt was made to move a folder to one of its subfolders
+E_EDM_CANT_OPEN_DATABASE	2147746310	Could not open database; this could happen if the network connection is broken or if the database has been removed
+E_EDM_CANT_START_EDMSERVER	2147746395	Could not start EdmServer.exe; please reinstall the program
+E_EDM_CARD_NOT_FOUND	2147746430	The specified card could not be found
+E_EDM_CARDLIST_HAS_NO_NAME	2147746529	Not the latest version, when latest version is required
+E_EDM_CIRCULAR_XREF	2147746351	Detected cyclic file reference
+E_EDM_COLD_STORAGE_SCHEMA_NOT_FOUND	2147746421	The cold storage schema with the specified name was not found
+E_EDM_COLD_STORE_SCHEMA_EXISTS	2147746423	Saving the cold storage schema failed because the name is already used by another schema
+E_EDM_COLUMN_VIEW_NOT_FOUND	2147746448	The column view cannot be found
+E_EDM_COMMENT_NOT_ENTERED	2147746548	Comment not entered
+E_EDM_CONDITIONS_NOT_MET	2147746355	Conditions for transition were not met
+E_EDM_COPYTREE_ZIP_FAILED	2147746555	Failed to create ZIP file during the file copy operation
+E_EDM_COULD_NOT_CREATE_LOCAL_FOLDER	2147746334	Could not create the folder in the local cache; the folder name might contain invalid characters
+E_EDM_COULD_NOT_LAUNCH_TASKS	2147746507	Cannot launch tasks with user interface in silent mode
+E_EDM_COULD_NOT_OPEN_CLIPBOARD	2147746426	Could not open the clipboard
+E_EDM_DATABASE_ACCESS	2147746311	Could not access the item in the database
+E_EDM_DATABASE_ALREADY_EXISTS	2147746512	A database with the same name already exists on the server
+E_EDM_DATABASE_LINK_FAILURE	2147746407	A communication link failure occurred when accessing the database server; the database service might have been restarted, or the network might be down; please try the operation again and contact your system administrator if the problem persists
+E_EDM_DATASOURCE_NOT_FOUND	2147746338	The ODBC data source was not found
+E_EDM_DISABLED	2147746365	The command is disabled
+E_EDM_DISK_FULL	2147746361	The disk is full
+E_EDM_DOCTYPE_EXISTS	2147746393	A category with the specified name already exists
+E_EDM_DOCTYPE_IN_USE	2147746392	The category is currently associated with one or more documents and cannot be deleted
+E_EDM_DONTSETMODIFIED_FLAG	2147746533	Do not set the modified flag
+E_EDM_DOTNET_REGISTRATION_MODULE_MISSING	2147746521	The.NET registration module is missing
+E_EDM_DRAWING_IN_DETAILING_MODE	2147746566	The drawing is in detailing mode
+E_EDM_DUPLICATE_GROUP_NAME	2147746408	Saving the user group failed because the group name is already used by another group
+E_EDM_DUPLICATE_SEARCH_FAVORITE_NAME	2147746379	Could not save the search favorite with the specified name because the name is already used by another favorite and the names must be unique; if the other favorite is not visible in the program, it is probably because you do not have permission to see it
+E_EDM_EMPTY_VALUE_FIELD	2147746561	The value of one or more transiiton conditions cannot be empty
+E_EDM_END_OF_LIST	2147746312	You tried to get an element from a list where the cursor is off right
+E_EDM_END_OF_REV_GEN_LIST_CONTINUE	2147746354	You have reached the end of the revision generator list; please contact your system administrator to add more revision-generator entries in the workflow editor
+E_EDM_END_OF_REV_GEN_LIST_STOP	2147746353	You have reached the end of the revision generator list; please contact your system administrator to add more revision-generator entries in the workflow editor
+E_EDM_END_OF_SN_FILE	2147746362	You have reached the end of the serial number file
+E_EDM_ERPMGR_ALIAS_DOES_NOT_EXIST	2147746461	The alias does not exist
+E_EDM_ERPMGR_EXPORT_SCRIPT_NOT_FOUND	2147746472	The specified export rule could not be found
+E_EDM_ERPMGR_IMPORTBATCH_DOES_NOT_EXIST	2147746462	The data import batch does not exist
+E_EDM_ERPMGR_IMPORTSCRIPT_NAME_ALREADY_EXISTS	2147746463	The name of the data import rule is already used
+E_EDM_ERPMGR_INVALID_DATE_FORMAT	2147746464	The date format is invalid
+E_EDM_ERPMGR_INVALID_FILENAME	2147746465	The file name is invalid
+E_EDM_ERPMGR_ITEM_NOT_FOUND	2147746466	The data import/export item was not found in the database
+E_EDM_ERPMGR_VALUE_TOO_LONG	2147746467	The value is too long
+E_EDM_ERPMGR_VARALIASSET_ALREADY_EXISTS	2147746468	The specified alias set already exists
+E_EDM_ERPMGR_VARALIASSET_DOES_NOT_EXIST	2147746469	The specified variable alias set does not exist
+E_EDM_ERPMGR_VARIABLE_DOES_NOT_EXIST	2147746470	The specified variable does not exist
+E_EDM_ERPMGR_VARIABLENAME_NOT_UNIQUE	2147746471	The variable name is not unique
+E_EDM_EXCLUDED_FROM_PREVIEW	2147746364	The file type is excluded from preview
+E_EDM_FILE_ALREADY_OPEN	2147746433	The file is already open
+E_EDM_FILE_DELETED	2147746413	The file has been deleted
+E_EDM_FILE_FORMAT_UNSUPPORTED_BY_CONISIO_VERSION	2147746410	The file format is not supported by your SOLIDWORKS PDM Professional license
+E_EDM_FILE_IN_3DXCOMPATIBILITY	2147746578	Error checking in a file converted to 3DX
+E_EDM_FILE_IN_COLDSTORAGE	2147746424	The file that you are trying to access is currently placed in cold storage and cannot be retrieved
+E_EDM_FILE_IS_LOCKED	2147746321	The operation is not permitted because the file is checked out
+E_EDM_FILE_IS_REFERENCED	2147746349	The file is referenced by another file
+E_EDM_FILE_MIGRATED_TO_PLATFORM	2147746572	The file cannot be moved as it is migrated to the 3DEXPERIENCE platform
+E_EDM_FILE_NAME_NOT_GLOBALLY_UNIQUE	2147746438	The file name, which needs to be unique in the file vault, has been used before
+E_EDM_FILE_NOT_FOUND	2147746323	T he file could not be found
+E_EDM_FILE_NOT_LOCKED_BY_YOU	2147746320	The file is not checked out by you, which is required by the operation
+E_EDM_FILE_NOT_OPEN	2147746434	The file is not open
+E_EDM_FILE_NOT_REGENERATED	2147746483	The file is not rebuilt
+E_EDM_FILE_SHARE_ERROR	2147746315	An attempt was made to access a file that is exclusively opened by another application
+E_EDM_FILES_WERE_LOCKED	2147746391	One or more documents have been checked out; these files have been deselected; click OK again if you still want to perform the operation on the remaining files
+E_EDM_FOLDER_DESTROY_CONSTRAINT_FAILED	2147746570	Failed to destroy one or more folders due to a constraint violation
+E_EDM_FOLDER_NOT_EMPTY	2147746335	The specified folder is not empty
+E_EDM_FOLDER_NOT_FOUND	2147746324	The folder could not be found
+E_EDM_GET_EDMFORMATROUTER	2147746429	The file format plug-in routes the call onto another plug-in; the file format manager will query the interface for the IEdmFormatRouter code to figure out which plug-in to use
+E_EDM_GROUP_NAME_ALREADY_EXISTS	2147746455	The group name already exists
+E_EDM_GROUP_NAME_NOT_UNIQUE	2147746453	The group name is not unique in the specified array of groups
+E_EDM_GROUP_NOT_FOUND	2147746516	The group could not be found
+E_EDM_HAS_NO_CARD	2147746343	The file does not have a file data card
+E_EDM_HAS_NO_PARENT	2147746306	The folder does not have a parent
+E_EDM_HAS_NO_PREVIEW	2147746339	The file does not have a preview bitmap
+E_EDM_INDEXER_NOT_STARTED	2147746431	Indexing has not been set up for this file vault
+E_EDM_INSUFFICIENT_SQL_PERMISSION	2147746435	The SQL server user account associated with the vault has insufficient privileges; the administrator can solve this by running the following command in the SQL Server Query Analyzer: GRANT VIEW SERVER STATE TO user name
+E_EDM_INVALID_BOM	2147746538	Invalid BOM
+E_EDM_INVALID_CATEGORY_ID	2147746403	The specified category database ID is invalid
+E_EDM_INVALID_COLUMN_VIEW	2147746449	The column view is invalid
+E_EDM_INVALID_COMPLETE_NAME	2147746443	The complete name is invalid
+E_EDM_INVALID_DATABASE_NAME	2147746499	The SQL database name is invalid
+E_EDM_INVALID_DATE_FORMAT_CODE	2147746501	The SQL date format code is invalid
+E_EDM_INVALID_EMAIL	2147746444	The email is invalid
+E_EDM_INVALID_FILE	2147746345	The file format is not recognized
+E_EDM_INVALID_FILE_ID	2147746404	The specified file ID is invalid
+E_EDM_INVALID_GROUP_DESCRIPTION	2147746454	The group description is invalid
+E_EDM_INVALID_GROUP_MEMBER_ID	2147746457	A group member ID is invalid
+E_EDM_INVALID_GROUP_NAME	2147746452	The group name is invalid
+E_EDM_INVALID_ID	2147746369	The supplied object ID is not valid
+E_EDM_INVALID_INITIALS	2147746445	The initials are invalid
+E_EDM_INVALID_NAME	2147746333	The file/key name was invalid
+E_EDM_INVALID_OUTLOOK_VERSION	2147746530	The specified version of Microsoft Outlook is invalid
+E_EDM_INVALID_PASSWORD	2147746447	The password is invalid
+E_EDM_INVALID_QUERY	2147746352	The search query is invalid
+E_EDM_INVALID_REVISION_NUMBER	2147746340	Specified revision number is invalid
+E_EDM_INVALID_REVISION_NUMBER_COMPONENT_NAME	2147746459	The revision number component name is invalid
+E_EDM_INVALID_REVISION_NUMBER_GENERATOR_NAME	2147746458	The revision number generator name is invalid
+E_EDM_INVALID_SERIAL_NUMBER_NAME	2147746390	Invalid serial number name
+E_EDM_INVALID_TRANSITION_WEB	2147746420	Could not change state because the transition would create a new document version, which is not supported by the web client
+E_EDM_INVALID_TYPE	2147746341	T he object has an invalid type for the specified operation
+E_EDM_INVALID_USER_DATA	2147746446	The user data string is invalid
+E_EDM_INVALID_USER_NAME	2147746439	The user name is invalid
+E_EDM_INVALID_VAULT_NAME	2147746498	The vault name is invalid
+E_EDM_INVALID_WORKFLOW_ID	2147746400	The specified workflow database ID is invalid
+E_EDM_INVALID_WORKFLOW_STATE_ID	2147746402	The specified workflow state database ID is invalid
+E_EDM_INVALID_WORKFLOW_TRANSITION_ID	2147746401	The specified workflow transition database ID is invalid
+E_EDM_IO_ERROR	2147746344	Error accessing the file
+E_EDM_KEY_NOT_FOUND	2147746347	The key you specified was not found in the collection
+E_EDM_LABEL_ALREADY_EXIST	2147746562	The label already exists
+E_EDM_LOCAL_FILE_NOT_FOUND	2147746437	The file is not present in the file vault cache folder on the client computer
+E_EDM_LOCK_ERRORS	2147746406	One or more documents could not be checked out
+E_EDM_LOCKED	2147746480	The file is checked out
+E_EDM_LOCKED_BY_ANOTHER_USER	2147746322	The file is checked out by another user
+E_EDM_LOCKED_IN_OTHER_FOLDER	2147746480	The file is checked out in another folder
+E_EDM_LOCKED_ON_OTHER_COMPUTER	2147746325	The file is checked out on another computer
+E_EDM_LOGIN_FAILED	2147746304	Login failed because of an invalid user name or password
+E_EDM_LOGIN_LOCK	2147746382	The system is locked due to maintenance
+E_EDM_MAILSERVER_NOT_INSTALLED	2147746357	SOLIDWORKS PDM Professional Database Server is not installed on the database server; please contact your system administrator for assistance
+E_EDM_MAPPING_FOUND	2147746318	Could not remove the attribute class because it is used by a control in a file data card
+E_EDM_MISSING_ATTRIBUTE	2147746316	An attempt was made to access an attribute that is not present in the file
+E_EDM_MISSING_CONISIO_MODULE	2147746418	A required SOLIDWORKS PDM Professional module is not installed
+E_EDM_MISSING_LOCAL_VIEW	2147746517	The vault must have a local view
+E_EDM_MISSING_MANDATORY_VALUE	2147746358	An attempt was made to save an empty value for a mandatory variable
+E_EDM_MISSING_PLUGIN_COMPONENT	2147746373	The file format plug-in cannot handle this file because a component is missing
+E_EDM_MISSING_PTID	2147746394	The registry variable PTID is missing; please reinstall the program
+E_EDM_MISSING_SEARCH_PROC	2147746383	The search card's stored procedure is missing in the database
+E_EDM_MISSING_URL_PARAM	2147746414	A required URL parameter is missing
+E_EDM_MISSING_VIEW_INFO	2147746380	Could not find registry information for this view; you might have to attach to this vault again to repair the registry
+E_EDM_MOVE_FILE_PERMISSION_DENIED	2147746532	The user does not have permission to move the file.
+E_EDM_NAME_ALREADY_EXISTS	2147746319	An attempt was made to create a new file or folder with the same name as an existing one
+E_EDM_NEED_MIGRATING	2147746377	The file needs to be migrated for the operation to succeed
+E_EDM_NO_ACTIVE_COLDSTORAGE_OPERATION	2147746422	There are currently no active cold storage operations belonging to the calling archive server
+E_EDM_NO_DOCTYPE	2147746396	The document does not meet the conditions of any category
+E_EDM_NO_MATCHING_PLUGIN	2147746346	There is no matching plug-in
+E_EDM_NO_REVISION_GENERATOR	2147746375	The file is not connected to a revision generator
+E_EDM_NO_REVISION_ON_REFERENCE	2147746359	Cannot set revision because not all referenced files have revisions on the attached versions
+E_EDM_NO_SECPKG_FOUND	2147746388	Could not negotiate a security package to use between the server and the client
+E_EDM_NO_WORKFLOW	2147746397	The document does not meet the conditions of any workflow
+E_EDM_NOT_A_COM_DLL	2147746508	The DLL is not a COM module
+E_EDM_NOT_AN_ADDIN_DLL	2147746509	T he DLL is not an SOLIDWORKS PDM Professional add-in; i.e., the IEdmAddIn5 interface is not implemented
+E_EDM_NOT_INITIALIZED	2147746305	The program used an object without properly initializing it
+E_EDM_NOT_LATEST_VERSION	2147746528	Item must be checked out to perform this operation
+E_EDM_NOT_LOGGED_IN	2147746308	You have not logged into the file vault
+E_EDM_NOT_POWER_USER	2147746374	You are not logged in on Windows as a Power User or Administrator, which is required to run SOLIDWORKS PDM Professional
+E_EDM_NULL_VALUE	2147746368	A null value was returned where it was not expected
+E_EDM_OPERATION_REFUSED_BY_PLUGIN	2147746330	The operation was not permitted by one of the installed add-ins
+E_EDM_OPERATION_UNSUPPORTED_BY_CONISIO_VERSION	2147746411	The operation is not supported by your SOLIDWORKS PDM Professional license
+E_EDM_PARENT_LOCKED_ELSEWHERE	2147746481	The file is referenced by a file that is checked out on another computer
+E_EDM_PARENT_LOCKED_ELSEWHERE_WITHFILE	2147746560	The file is referenced by a file, file_name, that is checked out on another computer
+E_EDM_PASSWORD_NOT_EMPTY	2147746451	The current login type does not allow passwords to be set
+E_EDM_PATH_TOO_LONG	2147746417	The path is too long
+E_EDM_PERMISSION_DENIED	2147746307	You do not have permission to perform this action
+E_EDM_PICTURE_TOO_BIG	2147746531	The specified image is too big
+E_EDM_PREVIEW_NOT_AVAILABLE	2147746495	Preview is not available
+E_EDM_PRODUCT_TIMEOUT	2147746514	Your version of SOLIDWORKS PDM Professional has expired; contact your SOLIDWORKS representative for a newer version
+E_EDM_PROGRAM_VERSION_MISMATCH	2147746416	The server and client are not of the same version
+E_EDM_RCE_ERROR	2147746313	Error accessing the revision management system; check your network connection
+E_EDM_REFERENCE_EXISTS	2147746427	The reference already exists
+E_EDM_REVGEN_EXISTS	2147746398	A revision number component with the specified name already exists
+E_EDM_REVGENERATOR_IN_USE	2147746384	The revision number component is currently being used by one or more revision numbers and cannot be deleted
+E_EDM_REVISION_CHANGED	2147746387	The revision number has been changed by another user
+E_EDM_REVISION_NO_VERSION	2147746385	An attempt was made to set a revision on a version newer than the documents latest version
+E_EDM_REVISION_ON_OLD_VERSION	2147746360	Cannot set revision on old version
+E_EDM_REVNUM_EXISTS	2147746399	A revision number with the specified name already exists
+E_EDM_REVNUMBER_IN_USE	2147746389	The revision number is currently associated with one or more states and cannot be deleted
+E_EDM_ROLLBACK_ERRORS	2147746551	Rollback errors
+E_EDM_ROLLBACK_FOLDER	2147746552
+E_EDM_ROLLBACK_PAST_COLDSTORED	2147746425	The rollback operation cannot be performed because one of the versions that you are trying to remove is placed in cold storage
+E_EDM_SERIAL_NUMBER_NAME_ALREADY_EXISTS	2147746478	The serial number name is already in use
+E_EDM_SERNO_USED_AS_ITEM_GEN	2147746496	The serial number cannot be deleted because it is used as an item number generator
+E_EDM_SERVER_NOT_FOUND	2147746336	The server was not found
+E_EDM_SKIP_FILE	2147746419	The user selected to skip processing of the current file and go on to the next one
+E_EDM_SN_FILE_NOT_FOUND	2147746363	Serial number file or add-in could not be found
+E_EDM_SN_TYPE_OBSOLETE	2147746482	Serial numbers read from files are no longer supported; please open the serial number in the Administration tool and resave it as a list serial number
+E_EDM_SQLSERVER_CANNOT_CONNECT	2147746502	Cannot connect to specified SQL server
+E_EDM_SQLSERVER_LOGIN_FAILED	2147746500	Login failed because of an invalid SQL user name or password
+E_EDM_SQLSERVER_UNSUPPORTED_VERSION	2147746428	The SQL Server version is not supported by SOLIDWORKS PDM Professional; supported versions are SQL Server 2005 SP1 or later
+E_EDM_STANDARD_APINOTSUPPORTED	2147746546	The API is not supported in SOLIDWORKS PDM standard version
+E_EDM_STANDARD_FEATURENOTSUPPORTED	2147746541	This feature is not supported in SOLIDWORKS PDM standard version
+E_EDM_STANDARD_FEATURENOTSUPPORTED_REFERLOG	2147746553	This feature is not supported in SOLIDWORKS PDM standard version; refer to the log file for more information
+E_EDM_STANDARD_PROFLOGINNOTSUPPORTED	2147746547	Login not supported
+E_EDM_STANDARD_SQLEDITIONMISMATCH	2147746540	Mismatch between SOLIDWORKS PDM standard version and Microsoft SQL
+E_EDM_STATE_MULTIPLE_BLOCKING_WARNINGS_FOUND	2147746565	Multiple blocking warnings found
+E_EDM_STATE_MULTIPLE_WARNINGS_FOUND	2147746564	Multiple warnings found
+E_EDM_STATE_NOT_FOUND	2147746326	The specified state does not exist
+E_EDM_STATE_REFERRING_CRS_CONDITION	2147746563	The workflow cannot be deleted since it is used in transition conditions
+E_EDM_SWDRW_SETTO_USE_INDEPENDENT_REV_TABLE	2147746559	Independent type revision setting is used in the drawing
+E_EDM_SWFILE_MISSING_XMLSTREAM	2147746549	SOLIDWORKS file missing XML stream
+E_EDM_SWSEC_LICENSE_CHECKIN_FAILED	2147746535	The check-in failed
+E_EDM_SWSEC_LICENSE_CHECKIN_FAILED_PRO	2147746543	Check-in failed in SOLIDWORKS PDM Professional
+E_EDM_SWSEC_LICENSE_CHECKIN_FAILED_STD	2147746545	Check-in failed in SOLIDWORKS PDM standard version
+E_EDM_SWSEC_LICENSE_CHECKOUT_FAILED	2147746534	Check-out failed
+E_EDM_SWSEC_LICENSE_CHECKOUT_FAILED_PRO	2147746542	Check-out failed in SOLIDWORKS PDM Professional
+E_EDM_SWSEC_LICENSE_CHECKOUT_FAILED_STD	2147746544	Check-out failed in SOLIDWORKS PDM standard version
+E_EDM_SWSEC_LICENSE_CONNECTION_LOST	2147746537	The connection was lost
+E_EDM_SWSEC_LICENSE_SERVERQUERY_FAILED	2147746536	The server query failed
+E_EDM_TEMPLATE_IMPORT_WITHOUT_LOCAL_VIEW	2147746550	Template imported iwthout local view
+E_EDM_TOO_MANY_USERS	2147746376	The licensed maximum number of simultaneously logged-in users would be exceeded by this log-in; this log-in was refused
+E_EDM_TOOLBOX_FILE_LOCATED_IN_NONTOOLBOX_FOLDER	2147746554	Toolbox file must be located in a Toolbox folder
+E_EDM_TRANSITION_ACTION_FAILED	2147746356	An error occurred when trying to execute a transition action
+E_EDM_UNC_PATH_ADDIN_NOT_SUPPORTED	2147746525	Information cannot be retrieved from add-ins on a network drive; copy the file to the local hard disk and retry the operation
+E_EDM_UNSUPPORTED_OS	2147746515	The version of the operating system is not supported
+E_EDM_UNSUPPORTED_PROGRAM_VERSION	2147746366	The program requires a higher version of SOLIDWORKS PDM Professional than the installed version
+E_EDM_UNSUPPORTED_SN_TYPE	2147746415	The serial number type is not supported
+E_EDM_UPDATE_ATT_FAILED	2147746317	Could not update attributes during check in
+E_EDM_USER_BLOCKED	2147746405	The administrator has blocked your login name in this file vault
+E_EDM_USER_NAME_ALREADY_EXISTS	2147746442	The user name already exists
+E_EDM_USER_NAME_NOT_UNIQUE	2147746440	The user name is not unique in the specified array of users
+E_EDM_USER_NOT_FOUND_IN_ARCHIVE_SERVER	2147746450	The user name does not exist in the archive server
+E_EDM_VALUE_NOT_UNIQUE	2147746348	An attempt was made to save a duplicate value when a unique value is required
+E_EDM_VARIABLE_NOT_FOUND	2147746386	The specified card variable is missing
+E_EDM_VARIABLE_USED_IN_COLUMN	2147746372	The variable cannot be deleted because it is used in a user-defined column
+E_EDM_VARIABLE_USED_IN_EXPORT_SCRIPT	2147746474	The variable cannot be deleted because it is used in a data export rule
+E_EDM_VARIABLE_USED_IN_WORKFLOW_STATE	2147746539	The variable cannot be deleted because it is used in a workflow state
+E_EDM_VAULT_ALREADY_EXISTS	2147746381	A vault with the same name already exists on the archive server
+E_EDM_VERSION_MISMATCH	2147746350	The versions of the program and the file vault are incompatible
+E_EDM_WF_HAS_FILES	2147746378	The workflow contains files and cannot be deleted
+E_EDM_XREF_OUTSIDE_VAULT	2147746412	One or more of the file's referenced files are outside the file vault
+E_ITEM_CANNOT_COPY_ITEM	2147746490	You have selected items to copy; the items cannot be copied because they must be unique within the system
+E_ITEM_CYCLIC_REFERENCE	2147746506	Operation aborted because it would create a cyclic reference between items
+E_ITEM_ILLEGAL_MOVE_REFERENCED_BY_EXTERNAL	2147746504	The object cannot be moved because the object or a sub-object is referenced by a locked item
+E_ITEM_ILLEGAL_RENAME_REFERENCED_BY_EXTERNAL	2147746505	The object cannot be renamed because the object or a sub-object is referenced by a locked item
+E_ITEM_INVALID_ITEM_TYPE	2147746491	Invalid object type; only Item, ItemFolder, and files are supported by Item Explorer
+E_ITEM_INVALID_LINK_OPERATION	2147746488	This operation cannot be performed on the selected items
+E_ITEM_INVALID_LINK_TYPE	2147746487	Invalid link type; only two link types are supported by Item Explorer, static and auto-update
+E_ITEM_INVALID_OBJECT	2147746493	Item object contains corrupted data
+E_ITEM_INVALID_SOURCE	2147746485	The selection contains items that are not valid for this operation
+E_ITEM_INVALID_TARGET	2147746484	The destination object is invalid for this operation
+E_ITEM_LINK_DUPLICATED	2147746489	The file is already added to this item
+E_ITEM_LOCKED_ELSEWHERE	2147746527	Item is locked on another computer
+E_ITEM_MANY_DYN_LINKS	2147746486	This item already has an auto-update link attached to it; items can have only one auto-update link at a time
+E_ITEM_NO_ITEM_GEN_DEFINED	2147746492	No serial number generator has been set up to generate item numbers. Please do the following: Launch SOLIDWORKS PDM Professional Administration Tool. Create a serial number. Open the Items administration node and select the serial number.
+E_ITEM_NOT_CONNECTED	2147746497	This item has no file linked or connected to it
+E_ITEM_NOT_LOCKED	2147746526	Item has to be checked out to perform this operation
+E_ITEM_UP_TO_DATE	2147746494	The item is up to date
+@EdmResultSuccessCodes_e		Success codes. See EdmResultErrorCodes_e for error codes.	path=epdmapi/EPDM.Interop.EPDMResultCode~EPDM.Interop.EPDMResultCode.EdmResultSuccessCodes_e.md
+S_EDM_32BIT_ADDIN	262717	Retrieved information successfully from the 32-bit add-in
+S_EDM_64BIT_ADDIN	262718	Retrieved information successfully from the 64-bit add-in
+S_EDM_FILES_NOT_UNIQUE_GLOBALLY	262719	The vault has the Do not allow duplicate file names in the file vault or Do not allow duplicate file names with these extensions option selected, and a file with the same name or filename extension exists in the vault
+S_EDM_INVALID_FILE	262716	The file was handled, but the file format is not recognized
+S_EDM_MENU_ITEM_NOT_APPLICABLE	262681	Menu item not valid in this context due to flags set
+S_EDM_REFRESH_LIST	262657	Success; refresh the entire list
+S_EDM_REFRESH_MENU	262680	Administrated plug-ins successfully; you should now recreate the plug-in menu
+S_EDM_REFRESH_TREE	262658	Success; refresh the tree
+S_EDM_TRY_AGAIN	262659	Try the operation again
+@EdmRevComponentFlags	bitmask	Flags used to control the members of the struct EdmRevComponent2.
+Edmrcf_EndOfListContinue	4	Continue to use the last list item when the end of the list is reached
+Edmrcf_EndOfListRestart	2	Restart from the first list item when the end of the list is reached
+Edmrcf_EndOfListSendMail	16	Send mail to a user or group when the end of the list is reached; the recipient ID is stored in the EdmRevcomponent2 mlRecipientID struct field
+Edmrcf_EndOfListStop	8	Halt the operation when the end of the list is reached
+Edmrcf_RecipientIsGroup	1	EdmRevcomponent2 mlRecipientID struct field is a group ID; this flag is only used in combination with Edmrcf_EndOflistSendMail
+Edmrcf_TypeFormatString	32	Revision number is of type format string
+Edmrcf_TypeList	64	Revision number is of type list
+@EdmRightFlags	bitmask	Flags used in calls to IEdmFolder5::HasRights and IEdmFolder5::HasRightsEx to check user rights.
+EdmRight_Add	8	Permission to add files
+EdmRight_AddFolder	16777216	Permission to create subfolders
+EdmRight_All	-1	Complete set of rights NOTE: Do not use this constant in rights checking, because more flags might be added in the future. Instead, explicitly specify the rights bits.
+EdmRight_BomActivate	1024	Activate computed BOM
+EdmRight_ChangeCard	65536	Permission to change the contents of a file/folder data card
+EdmRight_ColdStoreRestore	524288	Restore file from cold storage
+EdmRight_Delete	4	Permission to delete files
+EdmRight_DeleteFolder	64	Permission to delete subfolders
+EdmRight_DestroyTrash	256	Destroy
+EdmRight_EditFolderCard	512	Edit folder card data
+EdmRight_EditVerFreeVarData	1048576	Edit version free variable data
+EdmRight_IncrementRevision	32	Permission to increment revision on files
+EdmRight_Lock	2	Permission to check out files
+EdmRight_MandatoryVersionComments	67108864	Must enter revision comments
+EdmRight_MaySeeComputedBOM	2048	See computed BOM
+EdmRight_MoveFile	2097152	Permission to move files
+EdmRight_MoveFolder	8388608	Permission to move folders
+EdmRight_None	0	No rights at all; used internally
+EdmRight_OverwriteLatestVersion	33554432	Overwrite latest version
+EdmRight_PrivateState	4194304	Permission to make state private
+EdmRight_Read	1	Permission to read files
+EdmRight_RecoverTrash	128	Recover files from the recycle bin
+EdmRight_Rename	8	Permission to rename files
+EdmRight_RenameFolder	16777216	Permission to rename folders
+EdmRight_Rollback	262144	Can run the rollback command in the history dialog box
+EdmRight_SeePrivateStateFileContent	536870912	For Web2, permission to see contents of private state file
+EdmRight_Share	16	Permission to share files
+EdmRight_ShowWorkingVersion	131072	Permission to see working versions, not just revisions
+@EdmSearchToken		Values that determine which search criteria to set.
+Edmstok_AllVersions	2	VT_BOOL; search all versions of a file
+Edmstok_Category	44	VT_BSTR; search for files in this category
+Edmstok_ContentText	36	VT_BSTR; search for this string in the file body itself; this requires that the indexing service has been enabled in the administration tool
+Edmstok_ContentTextExact	40	VT_BOOL; find only exact matches of the content string, not individual words
+Edmstok_ContentTextInBody	37	VT_BOOL; do content search in the file body
+Edmstok_ContentTextInProperties	38	VT_BOOL; do content search in the file custom properties
+Edmstok_ContentTextOr	39	VT_BOOL; search for any words, instead of all of the words, in the content search string
+Edmstok_FindFiles	31	VT_BOOL; return files in the result
+Edmstok_FindFolders	32	VT_BOOL; return folders in the result
+Edmstok_FindItems	41	VT_BOOL; return items in the search result
+Edmstok_FolderID	5	VT_I4; ID of folder to start the search in
+Edmstok_FolderPath	4	VT_BSTR; search starting in this folder path
+Edmstok_HexSearchID	50	VT_BSTR; search by hexadecimal search ID
+Edmstok_HistoryAfter	34	VT_DATE; search for keyword in history after this date
+Edmstok_HistoryBefore	33	VT_DATE; search for keyword in history before this date
+Edmstok_HistoryString	25	VT_BSTR; search for keyword in file history
+Edmstok_HistoryStringConfiguration	43	VT_BOOL; search for keyword among configuration names
+Edmstok_HistoryStringCopiedFiles	54	VT_BOOL; search for keyword among copied files in file history
+Edmstok_HistoryStringFileName	42	VT_BOOL; search for keyword among file names
+Edmstok_HistoryStringLabels	27	VT_BOOL; search for keyword among labels in file history
+Edmstok_HistoryStringMovedFileFolders	53	VT_BOOL; search for keyword among moved files in file history
+Edmstok_HistoryStringRenamedFileFolders	52	VT_BOOL; search for keyword among renamed files in file history
+Edmstok_HistoryStringRevisionComment	29	VT_BOOL; search for keyword among revisions comments in file history
+Edmstok_HistoryStringStateComment	28	VT_BOOL; search for keyword among workflow state change comments in file history
+Edmstok_HistoryStringVariableValues	30	VT_BOOL; search for keyword among variable values in file history
+Edmstok_HistoryStringVersionComment	26	VT_BOOL; search for keyword among version comments in file history
+Edmstok_Label	20	VT_BSTR; search for this string in labels
+Edmstok_LabelAfter	24	VT_DATE; search for labels set after this date
+Edmstok_LabelBefore	23	VT_DATE; search for labels set before this date
+Edmstok_LabelByUser	22	VT_BSTR; search for files where a user with this name created a label
+Edmstok_LabelComment	21	VT_BOOL; search for the label string in the comment
+Edmstok_Locked	6	VT_BOOL; search for checked out files
+Edmstok_LockedBy	8	VT_BSTR; search for files checked out by users with this name
+Edmstok_LoggedInUser	47	VT_BSTR; search for this logged in user
+Edmstok_LoggedOutUser	48	VT_BSTR; search for this logged out user
+Edmstok_MigratedFiles	51	VT_BOOL; search only in imported files
+Edmstok_Name	3	VT_BSTR; search for file or folder by name
+Edmstok_PrivateStateFiles	45	VT_BSTR; search for files in the vault that have not been checked in yet
+Edmstok_Recursive	1	VT_BOOL; search subfolders recursively
+Edmstok_RevisionNo	46	VT_I4; search by revision number
+Edmstok_SearchID	49	VT_I4; search by search ID
+Edmstok_StateAfter	19	VT_DATE; only find files where a state change was made after this date
+Edmstok_StateBefore	18	VT_DATE; only find files where a state change was made before this date
+Edmstok_StateByUser	17	VT_BSTR; find files where a user with this name has changed workflow state
+Edmstok_StateHistoric	16	VT_BOOL; search in historic states, not just the latest state
+Edmstok_StateID	15	VT_I4; only find files in the workflow state with this ID
+Edmstok_StateName	14	VT_BSTR; only find files in workflow states with this name
+Edmstok_Unlocked	7	VT_BOOL; search for checked in files
+Edmstok_VersionComment	10	VT_BSTR; search for files with this version comment
+Edmstok_VersionsAfter	13	VT_DATE; only find files that have been checked in after this date
+Edmstok_VersionsBefore	12	VT_DATE; only find files that have been checked in before this date
+Edmstok_VersionsByUser	11	VT-BSTR; only find files that have been checked in by a user with this name
+Edmstok_WorkflowName	35	VT_BSTR; search for files part of this workflow
+@EdmStateFlags	bitmask	Flags used in calls to IEdmFile5::ChangeState to set options for the operation.
+EdmState_Refs	1	Include references when changing state
+EdmState_Simple	0	Default behavior of the operation
+@EdmSysPerm		Types of system permissions for a user or group.
+EdmSysPerm_AcceptTasks	1026	May accept tasks to execute on a host
+EdmSysPerm_CanAddCustomColsInFileDetails	1032	May add custom columns in File details
+EdmSysPerm_CanAddCustomColsInFileOperations	1033	May add custom columns in File operations
+EdmSysPerm_CanAddDelLabels	2048	May add and delete labels
+EdmSysPerm_CanDeleteLabels	1029	May delete labels
+EdmSysPerm_CanPurgeHistory	1024	May purge history listings
+EdmSysPerm_CanSetLabels	1030	May set labels
+EdmSysPerm_CantIgnoreWarnings	4096	Cannot click OK in the Check-in, Check-out, Get, etc., dialog boxes if there are any warnings in them
+EdmSysPerm_CanUndoCheckOutAndCheckInForOthers	1028	May check in a file checked out to a different user in the same vault view May undo checkouts of files that are checked out to a different user in the same or different vault view Default permission for the Admin user in a new or upgraded 2018 vault Applicable to all users/groups
+EdmSysPerm_CanUpdateHistoryComments	1031	May delete history comments
+EdmSysPerm_CanViewTask	1034	may view task list
+EdmSysPerm_EditAddins	4	May install or uninstall add-ins
+EdmSysPerm_EditReportQuery	512	May modify report queries
+EdmSysPerm_EditSharedSearchQuery	64	May update shared search favorites
+EdmSysPerm_EditTemplates	256	May update templates
+EdmSysPerm_EditUserMgr	1	May update user and group properties
+EdmSysPerm_EditWorkflow	2	May edit workflows
+EdmSysPerm_ExportWebFolder	128	May export file vault folders to the internet
+EdmSysPerm_MandatoryMailLogin	32	Must enter password before sending email
+EdmSysPerm_MandatoryStateComments	16	Must enter change state comments
+EdmSysPerm_MandatoryVersionComments	8	Must enter version comments
+EdmSysPerm_MaySeeAdminTool	67108864	May see the Administration tool menu command item in File Explorer
+EdmSysPerm_ModifyCardLists	131072	May update definitions of lists used in cards
+EdmSysPerm_ModifyCategories	8192	May update category definitions
+EdmSysPerm_ModifyColdStore	268435456	May update the cold storage settings
+EdmSysPerm_ModifyColumns	65536	May update column definitions, including BOM definitions
+EdmSysPerm_ModifyERPCfg	1073741824	May update XML Import and Export settings
+EdmSysPerm_ModifyIndexing	536870912	May update the indexing settings
+EdmSysPerm_ModifyItemNoGen	2097152	May administrate items
+EdmSysPerm_ModifyLicenseKey	524288	May enter a new license key
+EdmSysPerm_ModifyMailCfg	1048576	May update the notification settings
+EdmSysPerm_ModifyReplication	4194304	May update vault replication settings
+EdmSysPerm_ModifyRevisionNumbers	32768	May update the definition of revision numbers
+EdmSysPerm_ModifySearchForms	16777216	May save search cards with the card editor
+EdmSysPerm_ModifySerialNumbers	262144	May update serial number generators
+EdmSysPerm_ModifyTasks	1025	May manage task definitions in the Administration tool
+EdmSysPerm_ModifyTemplateForms	33554432	May save template cards with the card editor
+EdmSysPerm_ModifyToolbox	1027	May update Toolbox Library settings in the Administration tool
+EdmSysPerm_ModifyVariables	16384	May update variable definitions
+EdmSysPerm_None	0	No rights at all
+EdmSysPerm_RefuseLogin	134217728	Block the user from logging in
+@EdmSysRightFlags
+EdmSysRight_CanAddDelLabels	2048	May add and delete labels
+EdmSysRight_CanPurgeHistory	1024	May delete the contents of history listings
+EdmSysRight_CantIgnoreWarnings	4096	May not click OK in the check in, check out, Get, etc. dialog boxes if there are warnings in them
+EdmSysRight_EditAddins	4	May install or uninstall add-ins
+EdmSysRight_EditReportQuery	512	May use the Report Generator
+EdmSysRight_EditSharedSearchQuery	64	May update shared search favorites
+EdmSysRight_EditTemplates	256	May run the Template Manager
+EdmSysRight_EditUserMgr	1	May run the User Manager
+EdmSysRight_EditWorkflow	2	May run the Workflow Editor
+EdmSysRight_ExportWebFolder	128	May export file vault folders to the internet
+EdmSysRight_MandatoryMailLogin	32	Must enter password before sending email
+EdmSysRight_MandatoryStateComments	16	Must enter change state comments
+EdmSysRight_MandatoryVersionComments	8	Must enter version comments
+EdmSysRight_MaySeeAdminTool	67108864	May see the Administration tool in the Tools menu in the File Explorer
+EdmSysRight_ModifyCardLists	131072	May update lists used in cards
+EdmSysRight_ModifyCategories	8192	May update category definitions in the SOLIDWORKS PDM Professional Administration tool
+EdmSysRight_ModifyColdStore	268435456	May update the cold storage settings
+EdmSysRight_ModifyColumns	65536	May update column definitions
+EdmSysRight_ModifyERPCfg	1073741824	May update ERP import/export settings
+EdmSysRight_ModifyIndexing	536870912	May update indexing settings
+EdmSysRight_ModifyItemNoGen	2097152	May update item settings
+EdmSysRight_ModifyLicenseKey	524288	May enter a new license key
+EdmSysRight_ModifyMailCfg	1048576	May update the notification settings
+EdmSysRight_ModifyReplication	4194304	May update replication settings
+EdmSysRight_ModifyRevisionNumbers	32768	May update the definition of revision numbers
+EdmSysRight_ModifySearchForms	16777216	May update search forms
+EdmSysRight_ModifySerialNumbers	262144	May update serial number generators
+EdmSysRight_ModifyTemplateForms	33554432	May update template input forms
+EdmSysRight_ModifyVariables	16384	May update variable definitions
+EdmSysRight_None	0	No permissions
+EdmSysRight_RefuseLogin	134217728	Block the user from logging in
+@EdmTaskFlag	bitmask	Task add-in flags used in IEdmTaskProperties::TaskFlags and EdmTaskInfo.
+EdmTask_Nothing	0	None of the other flags
+EdmTask_SupportsChangeState	16	Task can be launched via a workflow, state, change command
+EdmTask_SupportsDetails	4	Add-in extends the task details dialog box in the task list window in the Administration tool; the add-in will receive a call to its IEdmAddIn5::OnCmd method with the argument EdmCmdType.EdmCmd_TaskDetails when the dialog box is to be extended
+EdmTask_SupportsInitExec	2	Add-in wants to have its IEdmAddIn5::OnCmd method called when the user launches the task; this callback type (EdmCmdType.EdmCmd_TaskLaunch) can be used to provide a more sophisticated user interface than one created with the card editor; if this flag is included, then multiple files will be processed by a single task instance; otherwise, each file will be processed by a separate task instance
+EdmTask_SupportsInitForm	1	Add-in supports displaying of a card created with the card editor; the card is used as the user interface when the task is launched, and the values of the card are accessible to the task add-in when it is executed
+EdmTask_SupportsScheduling	8	Task can be scheduled
+@EdmTaskStatus		Task add-in statuses.
+EdmTaskStat_CancelPending	6	Cancel clicked, but the host computer hasn't noticed it yet
+EdmTaskStat_DoneCancelled	8	Task terminated through canceling
+EdmTaskStat_DoneFailed	9	Task completed with errors
+EdmTaskStat_DoneOK	7	Task completed successfully
+EdmTaskStat_ResumePending	11	Resume clicked after task was suspended, but the host server hasn't noticed it yet
+EdmTaskStat_Retrying	4	Execution has failed at least once, but the framework is trying to execute the add-in again
+EdmTaskStat_Running	3	Task add-in is running on the host computer
+EdmTaskStat_Starting	2	Task starting on the host computer
+EdmTaskStat_Suspended	5	Task suspended by the user
+EdmTaskStat_SuspensionPending	10	Suspend clicked, but the task add-in hasn't noticed it yet
+@EdmTransitionRightFlags		Transition permission flags.
+EdmTransitionRight_DisallowSequentialStateChanges	2	Disallow sequential state changes
+EdmTransitionRight_MandatoryStateComments	4
+EdmTransitionRight_Permit	1	Permit transition
+@EdmTransitionType		Types of transitions.
+EdmTransitionType_Automatic	1
+EdmTransitionType_Normal	0
+EdmTransitionType_Parallel	2
+@EdmUnlockBuildTreeFlags	bitmask	Flags used to control the creation of the check-in file tree created by the IEdmBatchUnlock interface.
+Eubtf_ForceUnlock	32768	Unlock the file even if it is not modified; use only in combination with Eubtf_MayUnlock
+Eubtf_IgnoreReferences	65536	Ignore the child references at check-in; unlock root items only
+Eubtf_MayUndoLock	2	Support undo file check-out
+Eubtf_MayUnlock	1	Support file check-in
+Eubtf_MayUnlockWithLatest	4096	Check in latest version instead of cached version; use only in combination with Eubtf_MayUnlock
+Eubtf_MayUnlockWithoutOverwrite	16384	Check in without version overwrite; use only in combination with Eubtf_MayUnlock
+Eubtf_NoCallbackDlgErrors	256	Do not pass dialog box errors to the callback
+Eubtf_NoRemoveLocalCopy	128	Do not display the Remove Local Copy column in the dialog box
+Eubtf_Nothing	0	None of the other flags
+Eubtf_RefreshFileListing	32	Refresh the file listing in the File Explorer when the operation completes
+Eubtf_SearchForDrawings	512	Include drawings as sub-parent nodes
+Eubtf_ShowCloseAfterCheckinOption	2048	Display the Reload or Close Files after Check In dropdown on the Check In or Undo Check Out dialog box toolbar; this option permits the user to choose whether to close the files in SOLIDWORKS after the check-in operation has succeeded or reload them in SOLIDWORKS
+Eubtf_ShowMultipleWarnings	8192	Display Multiple Warnings link in warning column of dialog
+Eubtf_SkipOpenFileChecks	1024	Do not check whether files are open in another application
+Eubtf_UndoLockDefault	4	Make undo check-out the default operation
+Eubtf_Warn_UndoLockModifiedInCb	16	Warn the caller of undo check-out of modified files via the callback interface
+Eubtf_Warn_UndoLockModifiedInDlg	8	Show warning icon in the Undo Check Out dialog box for modified files marked for undo check-out
+@EdmUnlockEvent		Types of check-in command passed to the IEdmUnlockOpCallback interface to notify the caller about what is happening...
+Euev_CompressingTree	3	Check-in command is compressing the reference tree
+Euev_ReadingFileRefs	1	Check-in command is reading external references from the file
+Euev_UnlockFile	2	Check-in command is checking in a file
+@EdmUnlockEventMsg		Type of check-in commands passed to IEdmUnlockOpCallback while checking in files with the IEdmBatchUnlock interface...
+Euev_ReadingDbFileInfo	1	Check-in command is reading information from the database about the selected files
+@EdmUnlockFileListFlag	bitmask	Flags telling IEdmBatchUnlock::GetFileList what kind of files to get.
+Euflf_GetUndoLocked	2	Files with their locks undone
+Euflf_GetUnlocked	1	Checked-in files
+Euflf_GetUnprocessed	4	Files not processed by the operation
+@EdmUnlockFlag	bitmask	Flags used in IEdmFile5::UnlockFile to control the behavior of the check-in operation.
+EdmUnlock_FailOnBlockingWarnings	512	Fail only for blocking warnings
+EdmUnlock_FailOnRegenerationNeed	16	Fail if the file needs to be regenerated in the CAD program NOTE: Only files resaved in SOLIDWORKS 2009 or later can trigger this flag
+EdmUnlock_ForceUnlock	256	Unlock the file even if it is not modified
+EdmUnlock_IgnoreCorruptFile	4	Ignore files with file formats unrecognized by SOLIDWORKS PDM Professional; without this flag, SOLIDWORKS PDM Professional returns E_EDM_INVALID_FILE if it encounters a corrupt file or a file containing a newer format than SOLIDWORKS PDM Professional can handle
+EdmUnlock_IgnoreReferences	128	Silently unlock parent files without their references
+EdmUnlock_IgnoreRefsNotLockedByCaller	32	Ignore references not locked by caller
+EdmUnlock_IgnoreRefsOutsideVault	8	Ignore references to files outside the vault
+EdmUnlock_KeepLocked	1	Keep the file checked out after creating the new version in the archive
+EdmUnlock_OverwriteLatestVersion	64	Do not create a new version; overwrite the last version of the file with new changes
+EdmUnlock_RemoveLocalCopy	2	Remove the local copy of the file from the hard disk after the file has been checked in
+EdmUnlock_Simple	0	Check in the file using default behavior
+@EdmUnlockOpMsg		Types of constant passed to IEdmUnlockOpCallback::MsgBox when the caller should either display a message to the user...
+Euom_AdminUndoLock	5	You are logged in as Admin and are trying to undo the check-out flag on a file checked out by another user
+Euom_AdminUnlock	8	You are logged in as Admin and are trying to check in a file that is checked out by another user
+Euom_CircularReference	9	The files checked have circular references
+Euom_DocumentDoesNotMeetConditionsInAnyCategory	11	The document cannot be unlocked because it does not meet the conditions of any category
+Euom_DocumentDoesNotMeetConditionsInAnyWorkflow	10	The document cannot be unlocked because it does not meet the conditions of any workflow
+Euom_DuplicateUniqueVar	1	The file has a unique variable with a duplicate value
+Euom_LocalFileNotFound	6	The local copy of the file was not found
+Euom_LocalFileShareError	7	Sharing violation accessing the local copy of the file
+Euom_MissingMandatoryVar	2	The file cannot be checked in, because the file contains a unique and constrained variable with a value that is already used elsewhere
+Euom_UndoLockModified	4	The file about whose check out you about to undo, has been modified
+Euom_UnknownFileFormat	3	SOLIDWORKS PDM Professional cannot read references or variables from the file, because its file format is unknown
+@EdmUnlockOpReply		Types of operations returned from your IEdmUnlockOpCallback::MsgBox method if you implement an IEdmUnlockOpCallback...
+Euor_Cancel	1	Cancel the entire operation
+Euor_ClearVar	10	Clear the value of the conflicting unique variable
+Euor_Error	-1	Internal error code; typically not returned by you
+Euor_OK	0	Continue the operation
+Euor_Retry	12	Retry operation
+Euor_SkipFile	11	Continue the operation, but skip this particular file
+@EdmUnlockStatusFlag		Statuses returned by IEdmBatchUnlock2::GetStatus.
+Eusf_CloseAfterCheckinFlag	1	Return true if user selects Close File after Check In on the Check In dialog box toolbar, return false if user selects Reload File after Check In
+Eusf_Nothing	0	Do not use
+@EdmUserDataExFlag	bitmask	Flags that tell which members of EdmUserDataEx are valid.
+Edmudex_All		A combination of all the other flags NOTE: To get better performance, call IEdmUser10::GetUserDataEx and only specify the enumerators that you need.
+Edmudex_CellPhone	32	mbsCellPhone of EdmUserDataEx is valid
+Edmudex_CompleteName	2	mbsCompleteName of EdmUserDataEx is valid
+Edmudex_Email	8	mbsEmail of EdmUserDataEx is valid
+Edmudex_Initials	1	mbsInitials of EdmUserDataEx is valid
+Edmudex_Nothing	0	None of EdmUserDataEx members are valid
+Edmudex_Phone	16	mbsPhone of EdmUserDataEx is valid
+Edmudex_PicturePath	64	mbsPicturePath of EdmUserDataEx is valid
+Edmudex_PresenceNote	2048	mbsPresenceNote of EdmUserDataEx is valid
+Edmudex_UserData	4	mbsUserData of EdmUserDataEx is valid
+Edmudex_WebSite1	128	mbsWebSite1 of EdmUserDataEx is valid
+Edmudex_WebSite2	256	mbsWebSite2 of EdmUserDataEx is valid
+Edmudex_WebSite3	512	mbsWebSite3 of EdmUserDataEx is valid
+Edmudex_WebSite4	1024	mbsWebSite4 of EdmUserDataEx is valid
+@EdmUserDataFlags		Flags used in EdmUserData's mlFlags field when adding users with IEdmUserMgr6::AddUsers.
+Edmudf_CopySettings	4	Copy the settings from the user with EdmUserData.mlUserID
+Edmudf_ForceAdd	2	Add this user even if other users in the array sent to IEdmUserMgr7::AddUsers2 cannot be added
+Edmudf_GetInterface	1	Return the IEdmUser6 interface in the structure
+Edmudf_Nothing	0	None of the other flags
+@EdmUserPictureFlag		Flags that are passed in the lEdmUserPictureFlags argument of IEdmUserMgr8::CreateUserPicture.
+Edmup_Nothing	0	Only valid flag in SOLIDWORKS PDM Professional 2013 and later
+@EdmUserSetting		User settings used by IEdmUser11::SetSettingsVar.
+EdmUSv_AutoDelete	9	Whether to automatically delete local read-only files that are not part of the vault; 1 = true, 0 = false; this setting corresonds to the "Automatically delete local read-only files that are not part of the file vault" checkbox on the Explorer tab on the Settings dialog that appears when you click "Settings" on the Properties dialog of a user in the Admin Tool
+EdmUSv_AutoGetLatest	11	Whether to always work with the latest version of files; 1 = true, 0 = false; this setting corresponds to the "Always work with latest version of files" checkbox on the Reference Dialog tab on the Settings dialog that appears when you click "Settings" on the Properties dialog of a user in the Admin Tool
+EdmUSv_AutoGetLatestRefs	43	Whether to auto-select reference files to get latest when checking out; 1 = true, 0 = false; this setting corresponds to the "Auto select reference files to get latest when checking out" checkbox on the Reference Dialog tab on the Settings dialog that appears when you click "Settings" on the Properties dialog of a user in the Admin Tool
+@EdmUserType		Type of user passed in UserType of IEdmUserMgr10::AddUsers3.
+EdmUser_Invalid	0
+EdmUser_LDAP	3
+EdmUser_PDM	1
+EdmUser_Windows	2
+@EdmUtility		Constants that are passed to the IEdmVault7::CreateUtility to create utility interfaces of various kinds.
+EdmUtil_AddCustomRefs	8	IEdmAddCustomRefs
+EdmUtil_BatchAdd	16	IEdmBatchAdd
+EdmUtil_BatchAddFolders	14	IEdmBatchAddFolders
+EdmUtil_BatchChangeState	22	IEdmBatchChangeState
+EdmUtil_BatchDelete	20	IEdmBatchDelete
+EdmUtil_BatchGet	12	IEdmBatchGet
+EdmUtil_BatchItemGeneration	23	IEdmBatchItemGeneration
+EdmUtil_BatchItemReferenceUpdate	25	IEdmBatchItemReferenceUpdate
+EdmUtil_BatchList	13	IEdmBatchListing
+EdmUtil_BatchRefVars	26	IEdmBatchRefVars
+EdmUtil_BatchUnlock	6	IEdmBatchUnlock
+EdmUtil_BatchUpdate	2	IEdmBatchUpdate
+EdmUtil_BomMgr	24	IEdmBomMgr
+EdmUtil_CategoryMgr	5	IEdmCategoryMgr6
+EdmUtil_ClearLocalCache	19	IEdmClearLocalCache
+EdmUtil_FindUser	29	IEdmFindUser
+EdmUtil_History	17	IEdmHistory
+EdmUtil_HistoryUpdate	21	IEdmHistoryUpdate
+EdmUtil_RawReferenceMgr	15	IEdmRawReferenceMgr
+EdmUtil_RevisionMgr	18	IEdmRevisionMgr
+EdmUtil_Search	1	IEdmSearch5 (creates regular search objects only; to create an advanced search object, use IEdmVault21::CreateSearch2)
+EdmUtil_SerNoGen	11	IEdmSerNoGen6
+EdmUtil_TaskMgr	30	IEdmTaskMgr
+EdmUtil_TemplateMgr	10	IEdmTemplateMgr5
+EdmUtil_UpdateReferences	27	IEdmUpdateReferences
+EdmUtil_UserMgr	3	IEdmUserMgr5
+EdmUtil_VariableMgr	9	IEdmVariableMgr5
+EdmUtil_WorkflowMgr	4	IEdmWorkflowMgr6
+@EdmVariableFlags	bitmask	Flags that set the style of variables used in file and folder data cards.
+EdmVar_Mandatory	2	Missing values are not permitted; only used for files, ignored for folders
+EdmVar_Unique	1	Values of the variable must be unique; only used for files, ignored for folders
+EdmVar_VerFreeUpdateAll	4	Every version and every revision, regardless access, workflow states etc., are affected by the variable update
+EdmVar_VerFreeUpdateLatest	8	Only the latest version is affected by the variable update
+@EdmVariableType		Constants that identify the data type of a variable.
+EdmVarType_Bool	4	Boolean data (i.e., yes or no values)
+EdmVarType_Date	5	Date and time data
+EdmVarType_Float	3	Floating-point data (64 bit)
+EdmVarType_Int	2	Integer data (32 bit)
+EdmVarType_None	0	Error code; used internally
+EdmVarType_Text	1	String data
+@EdmVarOp		Operators for variable searches.
+EdmVarOp_DateEqualTo	130
+EdmVarOp_DateGreaterThan	133
+EdmVarOp_DateGreaterThanOrEqualTo	135
+EdmVarOp_DateLessThan	132
+EdmVarOp_DateLessThanOrEqualTo	134
+EdmVarOp_DateNotEqualTo	131
+EdmVarOp_NumberEqualTo	120
+EdmVarOp_NumberGreaterThan	123
+EdmVarOp_NumberGreaterThanOrEqualTo	125
+EdmVarOp_NumberLessThan	122
+EdmVarOp_NumberLessThanOrEqualTo	124
+EdmVarOp_NumberNotEqualTo	121
+EdmVarOp_StringContains	106
+EdmVarOp_StringDoesNotContain	107
+EdmVarOp_StringEqualTo	100
+EdmVarOp_StringGreaterThan	103
+EdmVarOp_StringGreaterThanOrEqualTo	105
+EdmVarOp_StringLessThan	102
+EdmVarOp_StringLessThanOrEqualTo	104
+EdmVarOp_StringNotEqualTo	101
+@EdmVaultType		Vault types.
+EdmVault_Invalid	2
+EdmVault_Professional	0
+EdmVault_Standard	1

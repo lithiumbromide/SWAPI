@@ -48,25 +48,15 @@ void SetJointTypeAtEnd2(
 
 ### Parameters
 
-- `NJointType`: Joint type as defined by
-
-[swsJointType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsJointType_e.html)
+- `NJointType`: Joint type as defined by [swsJointType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsJointType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::SetJointTypeAtEnd2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~SetJointTypeAtEnd2.html)
-
-.
+See [CWLinkageRod::SetJointTypeAtEnd2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~SetJointTypeAtEnd2.html).
 
 ## Examples
 
-See the
-
-[ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
-examples
+See the [ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html) examples
 
 ## Remarks
 
@@ -75,7 +65,6 @@ If End 2 is a vertex, then you cannot set NJointType with swsJointType_e.swsPivo
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

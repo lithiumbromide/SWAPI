@@ -84,11 +84,7 @@ System.int Value(
 - `normal_x`: X coordinate of normal to color
 - `normal_y`: Y coordinate of normal to color
 - `normal_z`: Z coordinate of normal to color
-- `Value`: Function of the specified face or coordinates of the model (see
-
-Remarks
-
-)
+- `Value`: Function of the specified face or coordinates of the model (see **Remarks**)
 
 ### Return Value
 
@@ -96,28 +92,22 @@ Not used
 
 ## VBA Syntax
 
-See
-
-[SwColorContour1::Value](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour1~Value.html)
-
-.
+See [SwColorContour1::Value](ms-its:swpublishedapivb6.chm::/swpublished~SwColorContour1~Value.html).
 
 ## Examples
 
 [Custom Colorize a Model Example (C#)](Custom_Colorize_a_Model_Example_CSharp.htm)
-
 [Custom Colorize a Model Example (VB.NET)](Custom_Colorize_a_Model_Example_VBNET.htm)
 
 ## Remarks
 
-When you implement this method, you need to populate the Value output parameter. Value can be a function of the specified coordinates or the properties of the face. By default Value is the input parameter for[ISwColorContour1::Color](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~Color.html)and[ISwColorContour1::DisplayString](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~DisplayString.html).
+When you implement this method, you need to populate the Value output parameter. Value can be a function of the specified coordinates or the properties of the face. By default Value is the input parameter for [ISwColorContour1::Color](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~Color.html) and [ISwColorContour1::DisplayString](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour1~DisplayString.html).
 
 In VB.NET implementations, you need to change the name of the Value output parameter to avoid a compiler error. When you change the name, use the same name for the input parameters of your ISwColorContour1::Color and ISwColorContour1::DisplayString implementations.
 
 ## See Also
 
 [ISwColorContour1 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour1.html)
-
 [ISwColorContour1 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour1_members.html)
 
 ## Availability

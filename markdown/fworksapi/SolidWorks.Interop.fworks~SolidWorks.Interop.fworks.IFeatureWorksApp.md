@@ -10,14 +10,7 @@ source: "fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureW
 # IFeatureWorksApp Interface
 
 Recognizes features on an imported solid body in a SOLIDWORKS part document.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,20 +40,14 @@ public interface class IFeatureWorksApp
 
 ## VBA Syntax
 
-See
-
-[FeatureWorksApp](ms-its:fworksapivb6.chm::/FeatureWorks~FeatureWorksApp.html)
-
-.
+See [FeatureWorksApp](ms-its:fworksapivb6.chm::/FeatureWorks~FeatureWorksApp.html).
 
 ## Examples
 
 [Recognizing Features Automatically (VBA)](Recognizing_Features_Automatically.htm)
-
 [Recognizing Features Interactively (VBA)](Recognizing_Features_Interactively.htm)
 
 ## See Also
 
 [IFeatureWorksApp Members](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp_members.html)
-
 [SolidWorks.Interop.fworks Namespace](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks_namespace.html)

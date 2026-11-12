@@ -45,13 +45,7 @@ property System.Object^ ReferenceComponent2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Reference component 2
 
 ## VBA Syntax
 
-See
-
-[LinearCouplerMateFeatureData::ReferenceComponent12](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~ReferenceComponent2.html)
-
-.
+See [LinearCouplerMateFeatureData::ReferenceComponent12](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~ReferenceComponent2.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ Use this property to set up the motion of the second mated component with respec
 ## See Also
 
 [ILinearCouplerMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
 [ILinearCouplerMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData_members.html)
 
 ## Availability

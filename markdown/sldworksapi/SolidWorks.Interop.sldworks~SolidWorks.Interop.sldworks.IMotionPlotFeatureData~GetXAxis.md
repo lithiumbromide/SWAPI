@@ -40,13 +40,7 @@ Feature GetXAxis()
 Feature^ GetXAxis();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[MotionPlotFeatureData::GetXAxis](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotFeatureData~GetXAxis.html)
-
-.
+See [MotionPlotFeatureData::GetXAxis](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotFeatureData~GetXAxis.html).
 
 ## See Also
 
 [IMotionPlotFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData.html)
-
 [IMotionPlotFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData_members.html)
-
 [IMotionPlotFeatureData::GetYAxis Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData~GetYAxis.html)
-
 [IMotionPlotFeatureData::IGetYAxis Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData~IGetYAxis.html)
 
 ## Availability

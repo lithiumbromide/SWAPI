@@ -53,17 +53,11 @@ void SetZeroStrainTemperature(
 ### Parameters
 
 - `DZeroStrainTemperature`: Reference temperature at zero strain
-- `NZeroStrainTemperatureUnit`: Temperature unit as defined
-
-[swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
+- `NZeroStrainTemperatureUnit`: Temperature unit as defined [swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::SetZeroStrainTemperature](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetZeroStrainTemperature.html)
-
-.
+See [CWNonLinearStudyOptions::SetZeroStrainTemperature](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetZeroStrainTemperature.html).
 
 ## Remarks
 
@@ -72,11 +66,8 @@ The default temperature at zero strain is 298 Kelvin.
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
-
 [ICWNonLinearStudyOptions::GetZeroStrainTemperature Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~GetZeroStrainTemperature.html)
-
 [ICWNonLinearStudyOptions::UseLargeStrain Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~UseLargeStrain.html)
 
 ## Availability

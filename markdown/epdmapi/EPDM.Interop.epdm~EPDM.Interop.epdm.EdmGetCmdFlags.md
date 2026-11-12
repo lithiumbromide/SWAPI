@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetCmdFlags.html"
 
 # EdmGetCmdFlags Enumeration
 
-Options for retrieving files from the vault used in calls to
-
-[IEdmBatchGet::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~CreateTree.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Options for retrieving files from the vault used in calls to [IEdmBatchGet::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~CreateTree.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

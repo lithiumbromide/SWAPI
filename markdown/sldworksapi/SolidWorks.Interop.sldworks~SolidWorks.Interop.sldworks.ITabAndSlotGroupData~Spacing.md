@@ -45,13 +45,7 @@ property System.double Spacing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ Spacing between tabs
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::Spacing](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~Spacing.html)
-
-.
+See [TabAndSlotGroupData::Spacing](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~Spacing.html).
 
 ## Remarks
 
-This property is valid only if[ITabAndSlotGroupData::SpacingType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~SpacingType.html)is set to[swTabSlotFeatureSpacingType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabSlotFeatureSpacingType_e.html).SpacingLength.
+This property is valid only if [ITabAndSlotGroupData::SpacingType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~SpacingType.html) is set to [swTabSlotFeatureSpacingType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabSlotFeatureSpacingType_e.html).SpacingLength.
 
 The value of this property drives the number of instances.
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

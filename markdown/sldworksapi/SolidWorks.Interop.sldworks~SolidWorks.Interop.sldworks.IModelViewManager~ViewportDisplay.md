@@ -41,44 +41,27 @@ property System.int ViewportDisplay {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Viewport arrangement as defined by
-
-[swViewportDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewportDisplay_e.html)
+Viewport arrangement as defined by [swViewportDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewportDisplay_e.html)
 
 ## VBA Syntax
 
-See
-
-[ModelViewManager::ViewportDisplay](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~LinkedViews.html)
-
-.
+See [ModelViewManager::ViewportDisplay](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~LinkedViews.html).
 
 ## Examples
 
 [Set Viewports (VB.NET)](Set_Viewports_Example_VBNET.htm)
-
 [Set Viewports (VBA)](Set_Viewports_Example_VB.htm)
-
 [Set Viewports (C#)](Set_Viewports_Example_CSharp.htm)
 
 ## See Also
 
 [IModelViewManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html)
-
 [IModelViewManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager_members.html)
-
 [IModelViewManager::LinkedViews Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager~LinkedViews.html)
-
 [IModelView::Linked Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~Linked.html)
 
 ## Availability

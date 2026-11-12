@@ -9,42 +9,29 @@ source: "epdmapi/Destroy_Deleted_Files_in_Vault_Example_VBNET.htm"
 
 # Destroy Deleted Files in Vault Example (VB.NET)
 
-This example shows how to create an application that displays a form in which
-a user can select the vault in whose root
-folder and subfolders all deleted files will be permanently destroyed. The user must have permission to delete
-files.
+This example shows how to create an application that displays a form in which a user can select the vault in whose root folder and subfolders all deleted files will be permanently destroyed. The user must have permission to delete files.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
-IMPORTANT:Do not recreate and run this
-example if you do not want to destroy all deleted files in the root folder and
-subfolders in the selected vault. Instead, SOLIDWORKS PDM Professional suggests
-that you review the code to understand how you can programmatically destroy
-deleted files in the root folder and subfolders of a vault.
+**IMPORTANT:** Do not recreate and run this example if you do not want to destroy all deleted files in the root folder and subfolders in the selected vault. Instead, SOLIDWORKS PDM Professional suggests that you review the code to understand how you can programmatically destroy deleted files in the root folder and subfolders of a vault.
 
 ```vb
 '----------------------------------------------------------------------------
 ' Preconditions:
 '  1. Start Microsoft Visual Studio.
-'  2. Click File > New > Project > Visual Basic > Windows Forms Application.
-'  3. Type the name of your project in Name.
-'  4. Click the Browse button and browse to the folder where to create the project.
-'  5. Click OK.
-'  6. Replace the code in Form1.vb with this code.
- '  7. Replace the code in Form1.Designer.vb with  this code.
-'  8.  Add EPDM.Interop.epdm.dll as a reference (right-click the project
- '     name in the Solution Explorer, click Add Reference, click
- '     Framework in the left-side panel, browse to the top folder of your
- '     SOLIDWORKS PDM Professional installation, locate and click
- '     EPDM.Interop.epdm.dll, click Open, click  Add, and click Close).
- '  9. Right-click EPDM.Interop.epdm in References, click Properties, and set
- '     Embed Interop Types to False to handle methods that pass arrays of
- '     structures.
-' 10. Switch back to Form1.vb code window.
-' 11. Delete one or more checked-in files in the root folder of your vault.
-' 12. Click Debug > Start Debugging or press F5.
+'  2. Click File > New > Project > Visual Basic, Windows, Desktop > Windows Forms App.
+'  3. Type the name of your project in  Project name.
+'  4. For Location, click ... and navigate to the folder where to create the project.
+  '  5. Click Next.
+ '  6. Select Framework.
+'  7. Click Create.
+ '  8. Click Show All Files in the Solution Explorer toolbar and expand
+ '     Form1.vb in the Solution Explorer.
+'  9. Replace the code in Form1.vb with this code.
+ ' 10. Replace the code in Form1.Designer.vb with  this code.
+' 11.      Add dependencies and safely pass arrays of structures.
+' 12. Delete one or more checked-in files in the root folder of your vault.
+' 13. Click Debug > Start Debugging or press F5.
  '
  ' Postconditions:
  '  1. Displays the Destroy Deleted Files dialog.

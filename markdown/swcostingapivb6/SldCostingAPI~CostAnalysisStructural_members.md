@@ -1,6 +1,5 @@
 ---
-title: "CostAnalysisStructural Object
-Members"
+title: "CostAnalysisStructural Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "CostAnalysisStructural_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~CostAnalysisStructural_members.html"
 ---
 
-# CostAnalysisStructural Object
-Members
+# CostAnalysisStructural Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # SetEdgeAngleFilter Method (IPowerSelect)
 
-Sets the
-
-Edge angle
-
-filter for this PowerSelect session.
+Sets the Edge angle filter for this PowerSelect session.
 
 ## Syntax
 
@@ -57,31 +53,21 @@ System.int SetEdgeAngleFilter(
 
 ### Parameters
 
-- `lCmpOperator`: Comparison operator as defined in
-
-[gtpslEdgeAngleOperator_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtpslEdgeAngleOperator_e.html)
+- `lCmpOperator`: Comparison operator as defined in [gtpslEdgeAngleOperator_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtpslEdgeAngleOperator_e.html)
 - `dAngle`: Angle in radians
 
 ### Return Value
 
-Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::SetEdgeAngleFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~SetEdgeAngleFilter.html)
-
-.
+See [IPowerSelect::SetEdgeAngleFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~SetEdgeAngleFilter.html).
 
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::GetEdgeAngleFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetEdgeAngleFilter.html)
 
 ## Availability

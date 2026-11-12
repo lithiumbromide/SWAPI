@@ -9,11 +9,9 @@ source: "cworksapi/Get_Free_Body_Forces_and_Moments_Example_VB.htm"
 
 # Get Free Body Forces and Moments Example (VBA)
 
-This example shows how to get the free body forces and moments for selected
-entities.
+This example shows how to get the free body forces and moments for selected entities.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
  '---------------------------------------------------------------------------

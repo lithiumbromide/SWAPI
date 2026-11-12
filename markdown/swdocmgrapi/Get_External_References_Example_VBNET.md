@@ -9,8 +9,7 @@ source: "swdocmgrapi/Get_External_References_Example_VBNET.htm"
 
 # Get External References Example (VB.NET)
 
-This example shows how to get
-all of the external references for the base part using the SOLIDWORKS Document Manager API.
+This example shows how to get all of the external references for the base part using the SOLIDWORKS Document Manager API.
 
 ```vb
  '----------------------------------------------------------------------------

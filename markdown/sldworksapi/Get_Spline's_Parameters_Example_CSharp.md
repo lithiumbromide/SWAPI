@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Spline's_Parameters_Example_CSharp.htm"
 
 # Get Spline's Parameters Example (C#)
 
-This example shows how to get spline parameterization data for a selected
-sketch.
+This example shows how to get spline parameterization data for a selected sketch.
 
 ```vb
 //----------------------------------------------------------------------------

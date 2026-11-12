@@ -9,11 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # CoCreateInstance Method (IEModelViewControl)
 
-Creates an instance of an eDrawings add-in object, such as
-
-[IEModelViewMarkupControl](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
-.
+Creates an instance of an eDrawings add-in object, such as [IEModelViewMarkupControl](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html).
 
 ## Syntax
 
@@ -61,24 +57,19 @@ Pointer to the add-in object
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::CoCreateInstance](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~CoCreateInstance.html)
-
-.
+See [EModelViewControl::CoCreateInstance](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~CoCreateInstance.html).
 
 ## Examples
 
+```vb
 Dim m_Markup as EModelViewMarkup.EModelMarkupControl
-
 Set m_Markup = EModelViewControl1.CoCreateInstance("EModelViewMarkup.EmodelMarkupControl")
-
-See[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)examples.
+See IEModelViewControl examples.
+```
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

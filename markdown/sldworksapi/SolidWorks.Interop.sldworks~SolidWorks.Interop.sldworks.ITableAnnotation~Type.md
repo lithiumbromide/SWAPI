@@ -42,42 +42,26 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of table as defined in
-
-[swTableAnnotationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableAnnotationType_e.html)
+Type of table as defined in [swTableAnnotationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableAnnotationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::Type](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~Type.html)
-
-.
+See [TableAnnotation::Type](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~Type.html).
 
 ## Examples
 
 [Get Table Annotation and Contents (VBA)](Get_Table_Annotation_and_Contents_Example_VB.htm)
-
 [Insert Column in BOM Table (C#)](Insert_Column_in_BOM_Table_Example_CSharp.htm)
-
 [Insert Column in BOM Table (VB.NET)](Insert_Column_in_BOM_Table_Example_VBNET.htm)
-
 [Insert Column in BOM Table (VBA)](Insert_Column_in_BOM_Table_Example_VB.htm)
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
 
 ## Availability

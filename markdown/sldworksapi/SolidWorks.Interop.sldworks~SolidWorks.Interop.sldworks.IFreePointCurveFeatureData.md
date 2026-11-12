@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFr
 
 Allows access to a curve created using X, Y, Z coordinates for the points.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IFreePointCurveFeatureData
 
 ## VBA Syntax
 
-See
-
-[FreePointCurveFeatureData](ms-its:sldworksapivb6.chm::/sldworks~FreePointCurveFeatureData.html)
-
-.
+See [FreePointCurveFeatureData](ms-its:sldworksapivb6.chm::/sldworks~FreePointCurveFeatureData.html).
 
 ## Examples
 
 [Insert Free Point Curve Feature (C#)](Insert_Free_Point_Curve_Feature_Example_CSharp.htm)
-
 [Insert Free Point Curve Feature (VB.NET)](Insert_Free_Point_Curve_Feature_Example_VBNET.htm)
-
 [Insert Free Point Curve Feature (VBA)](Insert_Free_Point_Curve_Feature_Example_VB.htm)
 
 ## Remarks
@@ -61,7 +55,7 @@ See SOLIDWORKS Help for additional information about curves through free points.
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)and[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html) and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 ## Access Diagram
 
@@ -70,5 +64,4 @@ See SOLIDWORKS Help for additional information about curves through free points.
 ## See Also
 
 [IFreePointCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFreePointCurveFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

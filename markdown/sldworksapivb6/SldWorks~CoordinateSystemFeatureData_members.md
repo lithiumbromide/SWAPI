@@ -1,6 +1,5 @@
 ---
-title: "CoordinateSystemFeatureData Object
-Members"
+title: "CoordinateSystemFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CoordinateSystemFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CoordinateSystemFeatureData_members.html"
 ---
 
-# CoordinateSystemFeatureData Object
-Members
+# CoordinateSystemFeatureData Object Members
 
 ## Public Methods
 

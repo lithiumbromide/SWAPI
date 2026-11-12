@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # InsertInstance Method (IBlockDefinition)
 
-Obsolete. Superseded by
-
-[ISketchManager::InsertSketchBlockInstance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertSketchBlockInstance.html)
-
-.
+Obsolete. Superseded by [ISketchManager::InsertSketchBlockInstance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InsertSketchBlockInstance.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ BlockInstance^ InsertInstance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[BlockDefinition::InsertInstance](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~InsertInstance.html)
-
-.
+See [BlockDefinition::InsertInstance](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~InsertInstance.html).
 
 ## See Also
 
 [IBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition.html)
-
 [IBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition_members.html)

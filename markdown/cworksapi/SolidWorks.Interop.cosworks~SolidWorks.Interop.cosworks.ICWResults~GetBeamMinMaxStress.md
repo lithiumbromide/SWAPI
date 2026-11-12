@@ -61,16 +61,10 @@ System.Object^ GetBeamMinMaxStress(
 
 ### Parameters
 
-- `NComponent`: Beam stresses as defined in
-
-[swsBeamStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamStressComponent_e.html)
+- `NComponent`: Beam stresses as defined in [swsBeamStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamStressComponent_e.html)
 - `NStepNumber`: Solution step number (use 1 for static)
-- `NUnits`: Stress units as defined in
-
-[swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Stress units as defined in [swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -78,22 +72,14 @@ Array of stress results for the beams
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetBeamMinMaxStress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetBeamMinMaxStress.html)
-
-.
+See [CWResults::GetBeamMinMaxStress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetBeamMinMaxStress.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetBeamForcesForEntities Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetBeamForcesForEntities.html)
-
 [ICWResults::GetBeamRadius Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetBeamRadius.html)
-
 [ICWResults::GetBeamStressForEntities Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetBeamStressForEntities.html)
 
 ## Availability

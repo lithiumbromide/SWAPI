@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile13.html"
 
 Allows you to access a file in SOLIDWORKS PDM Professional.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,24 +37,22 @@ public interface class IEdmFile13 : public IEdmFile10, IEdmFile11, IEdmFile12, I
 ## Examples
 
 [Add Files to Vault (VB.NET)](Add_Files_to_Vault_Example_VBNET.htm)
-
 [Add Files to Vault (C#)](Add_Files_to_Vault_Example_CSharp.htm)
 
 ## Remarks
 
 This interface:
 
-extends[IEdmFile12](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile12.html)by providing the ability to:
+extends [IEdmFile12](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile12.html) by providing the ability to:
 
 - select which transition to use when changing state.
 - get a thumbnail, if available, of a file.
 
-is extended by[IEdmFile14](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile14.html).
+is extended by [IEdmFile14](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile14.html).
 
-To access an item in the vault, cast this interface's object to an[IEdmItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html).
+To access an item in the vault, cast this interface's object to an [IEdmItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmItem.html).
 
 ## See Also
 
 [IEdmFile13 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile13_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

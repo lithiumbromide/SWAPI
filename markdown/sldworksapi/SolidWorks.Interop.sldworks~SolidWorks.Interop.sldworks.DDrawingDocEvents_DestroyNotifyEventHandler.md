@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDr
 
 # DDrawingDocEvents_DestroyNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Obsolete. Superseded by
-
-[DDrawingDocEvents_DestroyNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_DestroyNotify2EventHandler.html)
-
-.
+Obsolete. Superseded by [DDrawingDocEvents_DestroyNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_DestroyNotify2EventHandler.html).
 
 ## Syntax
 
@@ -41,29 +37,15 @@ public delegate System.int DDrawingDocEvents_DestroyNotifyEventHandler()
 public delegate System.int DDrawingDocEvents_DestroyNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DestroyNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~DestroyNotify_EV.html)
-
-.
+See [DestroyNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~DestroyNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swDrawingDestroyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swDrawingDestroyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -51,45 +51,29 @@ Face2^ IRemoveInnerLoops(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumOfLoops`: Number of loops to remove
-- `InnerLoopsIn`: Pointer to an array ofkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}the inner[loops](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2.html)to be removed
+- `InnerLoopsIn`: Pointer to an array of the inner [loops](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2.html) to be removed
 
 ### Return Value
 
-Pointer to the resulting[face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+Pointer to the resulting [face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
 
 ## VBA Syntax
 
-See
-
-[Face2::IRemoveInnerLoops](ms-its:sldworksapivb6.chm::/sldworks~Face2~IRemoveInnerLoops.html)
-
-.
+See [Face2::IRemoveInnerLoops](ms-its:sldworksapivb6.chm::/sldworks~Face2~IRemoveInnerLoops.html).
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::RemoveInnerLoops Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~RemoveInnerLoops.html)
-
 [IFace2::EnumLoops Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~EnumLoops.html)
-
 [IFace2::GetFirstLoop Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetFirstLoop.html)
-
 [IFace2::GetLoopCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetLoopCount.html)
-
 [IFace2::IGetFirstLoop Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetFirstLoop.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # CreateBoundedSurface Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::CreateBoundedSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBoundedSurface.html)
-
-.
+Obsolete. Superseded by [IBody2::CreateBoundedSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBoundedSurface.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool CreateBoundedSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body::CreateBoundedSurface](ms-its:sldworksapivb6.chm::/sldworks~Body~CreateBoundedSurface.html)
-
-.
+See [Body::CreateBoundedSurface](ms-its:sldworksapivb6.chm::/sldworks~Body~CreateBoundedSurface.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

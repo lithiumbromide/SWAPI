@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Temporary_Bodies_by_Offsetting_Surface_Body_Example_
 
 # Create Temporary Bodies by Offsetting a Surface Body Example (C#)
 
-This example shows how to create two temporary bodies by offsetting
-a surface body.
+This example shows how to create two temporary bodies by offsetting a surface body.
 
 ```
 //----------------------------------------------------------------------------

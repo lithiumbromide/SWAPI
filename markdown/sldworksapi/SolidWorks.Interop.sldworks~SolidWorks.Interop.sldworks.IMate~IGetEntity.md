@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IGetEntity Method (IMate)
 
-Obsolete. Superseded by
-
-[IMate2::MateEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2~MateEntity.html)
-
-.
+Obsolete. Superseded by [IMate2::MateEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2~MateEntity.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Entity^ IGetEntity(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Mate::IGetEntity](ms-its:sldworksapivb6.chm::/sldworks~Mate~IGetEntity.html)
-
-.
+See [Mate::IGetEntity](ms-its:sldworksapivb6.chm::/sldworks~Mate~IGetEntity.html).
 
 ## See Also
 
 [IMate Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate.html)
-
 [IMate Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate_members.html)

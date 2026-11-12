@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdNodeProp.html"
 
 # EdmCmdNodeProp Enumeration
 
-Types of command node property; used in calls to
-
-[IEdmCmdNode::GetProperty](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode~GetProperty.html)
-
-.
+Types of command node property; used in calls to [IEdmCmdNode::GetProperty](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdNode~GetProperty.html).
 
 ## Syntax
 

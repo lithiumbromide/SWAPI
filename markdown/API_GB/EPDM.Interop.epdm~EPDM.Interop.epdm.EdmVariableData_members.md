@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData_members.html
 
 # EdmVariableData Structure Members
 
-The following tables list the members exposed by[EdmVariableData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData.html).
+The following tables list the members exposed by [EdmVariableData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData.html).
 
 ## Public Fields
 
@@ -26,5 +26,4 @@ The following tables list the members exposed by[EdmVariableData](EPDM.Interop.e
 ## See Also
 
 [EdmVariableData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

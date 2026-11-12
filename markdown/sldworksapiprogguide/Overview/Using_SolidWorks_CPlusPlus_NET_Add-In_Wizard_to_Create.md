@@ -1,6 +1,5 @@
 ---
-title: "Using the SOLIDWORKS COM Non-Attributed Add-in Wizard
-to Create a C++/CLI Add-in"
+title: "Using the SOLIDWORKS COM Non-Attributed Add-in Wizard to Create a C++/CLI Add-in"
 project: ""
 interface: ""
 member: ""
@@ -8,120 +7,51 @@ kind: "topic"
 source: "sldworksapiprogguide/Overview/Using_SolidWorks_CPlusPlus_NET_Add-In_Wizard_to_Create.htm"
 ---
 
-# Using the SOLIDWORKS COM Non-Attributed Add-in Wizard
-to Create a C++/CLI Add-in
+# Using the SOLIDWORKS COM Non-Attributed Add-in Wizard to Create a C++/CLI Add-in
 
-## Using the SOLIDWORKS COM Non-Attributed Add-in Wizard
-to Create a C++/CLI Add-in
+This topic describes how to use the SOLIDWORKS COM Non-Attributed Add-in Wizard to create Visual C++/CLI add-ins in Microsoft Visual Studio 2017.
 
-This topic describes how to use theSOLIDWORKS
-COM Non-Attributed Add-in Wizardto create Visual C++/CLI add-ins in
-Microsoft Visual Studio .NET 2005 or later.
-
-- [Creating a Visual C++/CLI Add-in Using the
-  SOLIDWORKS
-  COM Non-Attributed Add-in Wizard](#Wizard)
-- [Examining Visual C++/CLI Add-In Files Created by the
-  SOLIDWORKS COM Non-Attributed
-  Add-in Wizard](#Files)
+- [Creating a Visual C++/CLI Add-in Using the SOLIDWORKS COM Non-Attributed Add-in Wizard](#Wizard)
+- [Examining Visual C++/CLI Add-In Files Created by the SOLIDWORKS COM Non-Attributed Add-in Wizard](#Files)
 
 NOTES:
 
-- The
-
-  SOLIDWORKS COM
-  Non-Attributed Add-in Wizard
-
-  is included in the
-
-  [SOLIDWORKS
-  API SDK](../GettingStarted/SolidWorks_API_Getting_Started_Overview.htm)
-
-  .
+- The SOLIDWORKS COM Non-Attributed Add-in Wizard is included in the [SOLIDWORKS API SDK](../GettingStarted/SolidWorks_API_Getting_Started_Overview.htm) and is installed only for Visual Studio 2017.
 - The Visual C++/CLI Add-in allows the use of MFC objects.
 
-### Creating a Visual C++/CLI Add-in
-Using the SOLIDWORKS COM Non-Attributed Add-in Wizard
+### Creating a Visual C++/CLI Add-in Using the SOLIDWORKS COM Non-Attributed Add-in Wizard
 
-1. ClickStart > Programs
-  > Microsoft Visual Studio version_number > Microsoft
-  Visual Studio version_number.
-2. Click theNew
-  Projectbutton.
-3. Type the name of your add-in inShort
-  name. The other fields are automatically filled in using this name.
-4. ClickOptions.
-5. ClickSwOptions.
+1. Click Start > Programs > Microsoft Visual Studio.
+2. Click **File >** New > Project.
+3. Type the name of your add-in in Short name. The other fields are automatically filled in using this name.
+4. Click Options.
+5. Click SwOptions.
 
-It is recommended that you leave theSOLIDWORKS Eventscheck box selected
-because:
+It is recommended that you leave the SOLIDWORKS Events check box selected because:
 
-Model views are created in individual documents.
-To listen for a model view event, you must be listening to the basic document.
-Thus, theModel View Eventscheck
-box is not available until you select at least one of these check boxes:Part Events,Assembly
-Events, orDrawing Events.
+Model views are created in individual documents. To listen for a model view event, you must be listening to the basic document. Thus, the Model View Events check box is not available until you select at least one of these check boxes: Part Events, Assembly Events, or Drawing Events.
 
-1. ClickFinish.
+1. Click Finish.
 
-Wait for theSOLIDWORKS COM Non-Attributed Addin Wizardto
-customize your add-in and set up the project.
+Wait for the SOLIDWORKS COM Non-Attributed Addin Wizard to customize your add-in and set up the project.
 
-Back
-to top
+[Back to top](#Top)
 
-### Examining Visual C++/CLI Add-In Files Created by the
-SOLIDWORKS COM Non-Attributed
-Add-in Wizard
+### Examining Visual C++/CLI Add-In Files Created by the SOLIDWORKS COM Non-Attributed Add-in Wizard
 
 | C++ Add-in File | Description |
 | --- | --- |
-| SwAddin n .rgs | This file contains the information that automatically
-registers your add-in with SOLIDWORKS when it is compiled. You can change Name and Description to better indicate the purpose of your add-in. NOTE: SwAddin n .rgs is the generic name for this file. The
-letter n is automatically inserted and incremented by the wizard to make the
-project files unique. |
-| BitmapHandler.cpp and corresponding .h file | Images for COM add-ins (toolbars, bitmap buttons, and so
-on) are bitmaps stored in the DLL as resources. To use any of these
-images with SOLIDWORKS, you must retrieve the image and save it to a
-file. You can then pass the path to the file as an argument to the
-methods that use the image. The BitmapHandler object facilitates this
-effort. To use the BitmapHandler object, call CreateFileFromResourceBitmap and pass it the resource name of the image you want to retrieve. The
-function creates the file in the system's temporary folder and returns
-the full path. If you then pass this path to a method, SOLIDWORKS can
-load the image. |
+| SwAddin n .rgs | This file contains the information that automatically registers your add-in with SOLIDWORKS Design when it is compiled. You can change Name and Description to better indicate the purpose of your add-in. NOTE: SwAddin n .rgs is the generic name for this file. The letter n is automatically inserted and incremented by the wizard to make the project files unique. |
+| BitmapHandler.cpp and corresponding .h file | Images for COM add-ins (toolbars, bitmap buttons, and so on) are bitmaps stored in the DLL as resources. To use any of these images with SOLIDWORKS Design, you must retrieve the image and save it to a file. You can then pass the path to the file as an argument to the methods that use the image. The BitmapHandler object facilitates this effort. To use the BitmapHandler object, call CreateFileFromResourceBitmap and pass it the resource name of the image you want to retrieve. The function creates the file in the system's temporary folder and returns the full path. If you then pass this path to a method, SOLIDWORKS can load the image. |
 | CSwAddin n Dialog.cpp and corresponding .h file | This file is included to demonstrate compatibility with MFC. |
-| DocView.cpp and corresponding .h file | This file contains the definition of the DocView object. If
-an add-in is listening for ModelView events, then there is a DocView instance for each open ModelView. |
-| PMPageHandler.cpp and corresponding .h file | This file contains the class that implements the
-IPropertyManagerPage2Handler n interface. An instance of this
-object is passed to SOLIDWORKS when creating a PropertyManager page.
-When a control on the page is manipulated, the corresponding function in
-this object is called. |
-| stdafx.cpp and corresponding .h file | This file contains the #import statements for the
-SOLIDWORKS type libraries and any other necessary SOLIDWORKS #include
-statements. Because a PropertySheet member exists in the VC7 libraries,
-IModelDoc2::PropertySheet was redefined to IModelDoc2::SwPropertySheet
-in the #import statement for sldworks.tlb. |
-| SwAddin n .cpp and corresponding .h file | This is the main add-in file. It contains the
-implementation of the ISwAddin interface. ISwAddin::ConnectToSw and ISwAddin::DisconnectFromSw are the entry and
-exit functions for this add-in. This file also contains the user
-interface and SOLIDWORKS event callback functions. NOTE: SwAddin n .cpp is the generic name for this file. The
-letter n is automatically inserted and incremented by the wizard to make the
-project files unique. |
+| DocView.cpp and corresponding .h file | This file contains the definition of the DocView object. If an add-in is listening for ModelView events, then there is a DocView instance for each open ModelView. |
+| PMPageHandler.cpp and corresponding .h file | This file contains the class that implements the IPropertyManagerPage2Handler n interface. An instance of this object is passed to SOLIDWORKS Design when creating a PropertyManager page. When a control on the page is manipulated, the corresponding function in this object is called. |
+| stdafx.cpp and corresponding .h file | This file contains the #import statements for the SOLIDWORKS type libraries and any other necessary SOLIDWORKS #include statements. Because a PropertySheet member exists in the VC7 libraries, IModelDoc2::PropertySheet was redefined to IModelDoc2::SwPropertySheet in the #import statement for sldworks.tlb. |
+| SwAddin n .cpp and corresponding .h file | This is the main add-in file. It contains the implementation of the ISwAddin interface. ISwAddin::ConnectToSw and ISwAddin::DisconnectFromSw are the entry and exit functions for this add-in. This file also contains the user interface and SOLIDWORKS event callback functions. NOTE: SwAddin n .cpp is the generic name for this file. The letter n is automatically inserted and incremented by the wizard to make the project files unique. |
 | SwAddin n .def | This file declares DLL function exports. |
-| SwAddin n .idl | This file is used to generate the type library for the
-add-in. |
-| SwAddin n _module.cpp | Generated by Visual Studio, this file contains COM
-definitions for the DLL. |
-| SwDocument.cpp and corresponding .h file | This file contains the CSwDocument class that handles
-events thrown by open model documents. There is an instance of this class for every open model document. |
-| UserPropertyManagerPage.cpp and corresponding
-.h file | This file contains the wrapper class for the SOLIDWORKS
-IPropertyManagerPage2. A PropertyManager page allows you to extend the
-user interface for your add-in with standard buttons, check boxes, and
-so on. The function AddControls controls the layout of the PropertyManager page. All controls must be added to group boxes on the page. Group boxes
-are displayed in the order in which they are added. Controls in a group
-box are displayed in the order in which they are added to the group box. |
+| SwAddin n .idl | This file is used to generate the type library for the add-in. |
+| SwAddin n _module.cpp | Generated by Visual Studio, this file contains COM definitions for the DLL. |
+| SwDocument.cpp and corresponding .h file | This file contains the CSwDocument class that handles events thrown by open model documents. There is an instance of this class for every open model document. |
+| UserPropertyManagerPage.cpp and corresponding .h file | This file contains the wrapper class for the SOLIDWORKS IPropertyManagerPage2. A PropertyManager page allows you to extend the user interface for your add-in with standard buttons, check boxes, and so on. The function AddControls controls the layout of the PropertyManager page. All controls must be added to group boxes on the page. Group boxes are displayed in the order in which they are added. Controls in a group box are displayed in the order in which they are added to the group box. |
 
-Back
-to top
+[Back to top](#Top)

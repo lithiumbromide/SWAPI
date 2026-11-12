@@ -53,22 +53,15 @@ System.int AddLinkageRods(
 
 ### Return Value
 
-Error code as defined by
-
-[swsSimMassPropertiesError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsSimMassPropertiesError_e.html)
+Error code as defined by [swsSimMassPropertiesError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsSimMassPropertiesError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager::AddLinkageRods](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~AddLinkageRods.html)
-
-.
+See [CWMassPropertiesManager::AddLinkageRods](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~AddLinkageRods.html).
 
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
 
 ## Availability

@@ -55,13 +55,7 @@ System.Object^ ReverseEvaluate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,30 +69,20 @@ Array of doubles describing the UV parameters
 
 ## VBA Syntax
 
-See
-
-[Surface::ReverseEvaluate](ms-its:sldworksapivb6.chm::/sldworks~Surface~ReverseEvaluate.html)
-
-.
+See [Surface::ReverseEvaluate](ms-its:sldworksapivb6.chm::/sldworks~Surface~ReverseEvaluate.html).
 
 ## Remarks
 
-At parametric singularities, such as sphere poles, the non-degenerate parameter is returned as the lowest value in its range. To determine the UV range, call[ISurface::Parameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization.html)or[ISurface::IParameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IParameterization.html).
+At parametric singularities, such as sphere poles, the non-degenerate parameter is returned as the lowest value in its range. To determine the UV range, call [ISurface::Parameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization.html) or [ISurface::IParameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IParameterization.html).
 
-[IFace2::ReverseEvaluate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ReverseEvaluate.html)and[IFace2::IReverseEvaluate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IReverseEvaluate.html)return corrected UV parameters for periodic surfaces; thus, you should use either of these methods when dealing with periodic surfaces.
+[IFace2::ReverseEvaluate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ReverseEvaluate.html) and [IFace2::IReverseEvaluate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IReverseEvaluate.html) return corrected UV parameters for periodic surfaces; thus, you should use either of these methods when dealing with periodic surfaces.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IReverseEvaluate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IReverseEvaluate.html)
-
 [ISurface::Evaluate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~Evaluate.html)
-
 [ISurface::EvaluateAtPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~EvaluateAtPoint.html)
-
 [ISurface::IEvaluate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IEvaluate.html)
-
 [ISurface::IEvaluateAtPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IEvaluateAtPoint.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMe
 
 # IMeasure Interface Members
 
-The following tables list the members exposed by[IMeasure](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html).
+The following tables list the members exposed by [IMeasure](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html).
 
 ## Public Properties
 
@@ -60,5 +60,4 @@ The following tables list the members exposed by[IMeasure](SolidWorks.Interop.sl
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

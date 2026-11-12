@@ -70,20 +70,14 @@ void ShowBubbleTooltipAt(
 
 - `pointX`: x coordinate in pixels relative to upper-left corner of screen
 - `pointY`: y coordinate in pixels relative to upper-left corner of screen
-- `arrowPos`: Arrow position as defined in
-
-[swArrowPosition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowPosition.html)
+- `arrowPos`: Arrow position as defined in [swArrowPosition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowPosition.html)
 - `titleString`: Title of Bubble ToolTip
 - `messageString`: Message string of Bubble ToolTip
 - `urlLoc`: Any valid Windows Internet Explorer file
 
 ## VBA Syntax
 
-See
-
-[SwHtmlInterface::ShowBubbleTooltipAt](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~ShowBubbleTooltipAt.html)
-
-.
+See [SwHtmlInterface::ShowBubbleTooltipAt](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~ShowBubbleTooltipAt.html).
 
 ## Examples
 
@@ -91,45 +85,34 @@ See
 
 This example shows how to display and hide a Bubble ToolTip.
 
+```vb
 '--------------------------------------------
-
 '
-
-' Preconditions: Substitute the path and filename of your HTML file for " path_filename ".
-
+' Preconditions: Substitute the path and filename of your HTML file for "path_filename".
 '
-
 ' Postconditions: Contents of the HTML file are displayed in a Bubble ToolTip,
-
-' and then are hidden from view.
-
+'                 and then are hidden from view.
 '
-
 '--------------------------------------------
-
 Option Explicit
 
 Sub main()
+    Const sURLpath As String = "path_filename"
+    Dim pSldWorks As Object
 
-kadov_tag{{<spaces>}}Const sURLpath As String = " path_filename "kadov_tag{{<spaces>}}
+    Set pSldWorks = CreateObject("SwHtmlControl.SwHtmlInterface")
 
-kadov_tag{{<spaces>}}Dim pSldWorks As Object
+    ' Show Bubble ToolTip
+    pSldWorks.ShowBubbleTooltipAt 300, 400, swArrowLeftTop, "Sample Bubble ToolTip", "Message of Sample Bubble ToolTip", sURLpath
 
-kadov_tag{{<spaces>}}Set pSldWorks = CreateObject("SwHtmlControl.SwHtmlInterface")
+    Stop
 
-kadov_tag{{<spaces>}}' Show Bubble ToolTip
-
-kadov_tag{{<spaces>}}pSldWorks. ShowBubbleTooltipAt 300, 400, swArrowLeftTop, "Sample Bubble ToolTip", "Message of Sample Bubble ToolTip", sURLpath
-
-kadov_tag{{<spaces>}}Stop
-
-kadov_tag{{<spaces>}}' Hide Bubble ToolTip
-
-kadov_tag{{<spaces>}}pSldWorks. HidebubbleTooltip
+    ' Hide Bubble ToolTip
+    pSldWorks.HidebubbleTooltip
 
 End Sub
-
 '--------------------------------------------
+```
 
 ## Examples
 
@@ -139,8 +122,6 @@ End Sub
 
 Remarks
 
-(Table)=========================================================
-
 | If you specified a ... | Then the ToolTip's bubble... |
 | --- | --- |
 | gif, .jpg, or .jpeg image for urlLoc | Is automatically expanded to accommodate the image |
@@ -149,9 +130,7 @@ Remarks
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [ISwHtmlInterface Members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html)
-
 [ISwHtmlInterface::ShowTooltip Method](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~ShowTooltip.html)
 
 ## Availability

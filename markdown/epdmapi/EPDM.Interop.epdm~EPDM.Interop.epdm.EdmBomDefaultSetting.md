@@ -34,20 +34,22 @@ public value class EdmBomDefaultSetting : public System.ValueType
 
 ## Examples
 
-struct EdmBomDefaultSetting{ integer mlBomDisplayType ;integer mlBomRefVersion ; integer mlBomSelectedFile ; integer mlBomTreeView ; integer mlBOMViewSettings ; integer mlBOMWeldmentCutListType ; };
+struct EdmBomDefaultSetting{
+integer [mlBomDisplayType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomDisplayType.html);
+integer [mlBomRefVersion](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomRefVersion.html);
+integer [mlBomSelectedFile](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomSelectedFile.html);
+integer [mlBomTreeView](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBomTreeView.html);
+integer [mlBOMViewSettings](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBOMViewSettings.html);
+integer [mlBOMWeldmentCutListType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting~mlBOMWeldmentCutListType.html);
+};
 
 ## Remarks
 
-Returned by
-
-[IEdmBomMgr4::GetBomDefaultSetting](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4~GetBomDefaultSetting.html)
-
-.
+Returned by [IEdmBomMgr4::GetBomDefaultSetting](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr4~GetBomDefaultSetting.html).
 
 ## See Also
 
 [EdmBomDefaultSetting Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

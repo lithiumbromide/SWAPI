@@ -99,23 +99,17 @@ System.bool ModifySurfaceFinishSymbol(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SymType`: Symbol type as defined in[swSFSymType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFSymType_e.html)
-- `LeaderType`: Leader type as defined in[swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
+- `SymType`: Symbol type as defined in [swSFSymType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFSymType_e.html)
+- `LeaderType`: Leader type as defined in [swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
 - `LocX`: X location for symbol
 - `LocY`: Y location for symbol
 - `LocZ`: Z location for symbol
-- `LaySymbol`: Direction of lay as defined in[swSFLaySym_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFLaySym_e.html)
-- `ArrowType`: Arrowhead type as defined in[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+- `LaySymbol`: Direction of lay as defined in [swSFLaySym_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFLaySym_e.html)
+- `ArrowType`: Arrowhead type as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
 - `MachAllowance`: Material removal allowance
 - `OtherVals`: Other roughness values
 - `ProdMethod`: Production method/treatment
@@ -126,18 +120,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::ModifySurfaceFinishSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ModifySurfaceFinishSymbol.html)
-
-.
+See [DrawingDoc::ModifySurfaceFinishSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ModifySurfaceFinishSymbol.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IModelDocExtension::InsertSurfaceFinishSymbol3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertSurfaceFinishSymbol3.html)
-
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)

@@ -46,57 +46,32 @@ public delegate System.int DSldWorksEvents_InterfaceBrightnessThemeChangeNotifyE
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ThemeType`: SOLIDWORKS background as defined in
-
-[swInterfaceBrightnessTheme_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInterfaceBrightnessTheme_e.html)
-- `Colors`: Array of RGB (Red, Green, Blue) decimal values (see
-
-Remarks
-
-)
+- `ThemeType`: SOLIDWORKS background as defined in [swInterfaceBrightnessTheme_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInterfaceBrightnessTheme_e.html)
+- `Colors`: Array of RGB (Red, Green, Blue) decimal values (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[InterfaceBrightnessThemeChangeNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~InterfaceBrightnessThemeChangeNotify_EV.html)
-
-.
+See [InterfaceBrightnessThemeChangeNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~InterfaceBrightnessThemeChangeNotify_EV.html).
 
 ## Examples
 
 [Add Shortcut Menus to Add-ins (VB.NET)](Add_Shortcut_Menus_to_Add-ins_VBNET.htm)
-
 [Add Shortcut Menus to Add-ins (C#)](Add_Shortcut_Menus_to_Add-ins_CSharp.htm)
 
 ## Remarks
 
-The Colors array is indexed by[swInterfaceBrightnessColor_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInterfaceBrightnessColor_e.html).
+The Colors array is indexed by [swInterfaceBrightnessColor_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInterfaceBrightnessColor_e.html).
 
 To get the SOLIDWORKS background:
 
-- theme, use
+- theme, use [ISwHtmlInterface::GetInterfaceBrightnessTheme](ms-its:swhtmlcontrolapi.chm::/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~GetInterfaceBrightnessTheme.html).
+- theme and colors, [ISldWorks::GetInterfaceBrightnessThemeColors](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetInterfaceBrightnessThemeColors.html).
 
-  [ISwHtmlInterface::GetInterfaceBrightnessTheme](ms-its:swhtmlcontrolapi.chm::/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~GetInterfaceBrightnessTheme.html)
-
-  .
-- theme and colors,
-
-  [ISldWorks::GetInterfaceBrightnessThemeColors](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetInterfaceBrightnessThemeColors.html)
-
-  .
-
-If developing a C++ application, use[swAppInterfaceBrightnessThemeChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppInterfaceBrightnessThemeChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

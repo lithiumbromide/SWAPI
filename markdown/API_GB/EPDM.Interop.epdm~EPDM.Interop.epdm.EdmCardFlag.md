@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardFlag.html"
 
 # EdmCardFlag Enumeration
 
-Options for file data card behavior used in
-
-[EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-; use these flags to tell SOLIDWORKS PDM Professional what to do when
-
-[IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html)
-
-returns.
+Options for file data card behavior used in [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html); use these flags to tell SOLIDWORKS PDM Professional what to do when [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html) returns.
 
 ## Syntax
 

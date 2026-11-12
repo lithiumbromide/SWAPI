@@ -47,25 +47,18 @@ property System.int HighlightColor {
 
 ### Property Value
 
-COLORREF value (see
-
-Remarks
-
-)
+COLORREF value (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::HighlightColor](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~HighlightColor.html)
-
-.
+See [EModelViewControl::HighlightColor](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~HighlightColor.html).
 
 ## Examples
 
+```vb
 EModelViewControl::HighlightColor(16711680) //Set color to red
-
-See[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)examples.
+See IEModelViewControl examples.
+```
 
 ## Remarks
 
@@ -74,7 +67,6 @@ A COLORREF is a 32-bit integer value that specifies the red, blue, and green com
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

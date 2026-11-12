@@ -47,19 +47,11 @@ System.String^ GetText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `WhichText`: Text part to get as defined in
-
-[swGTolTextParts_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGTolTextParts_e.html)
+- `WhichText`: Text part to get as defined in [swGTolTextParts_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGTolTextParts_e.html)
 
 ### Return Value
 
@@ -67,30 +59,16 @@ Text part
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetText](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetText.html)
-
-.
+See [Gtol::GetText](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetText.html).
 
 ## Examples
 
-See
-
-Set Text in Datum Tags and GTols
-
-examples in
-
-[IGTol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
-.
+See **Set Text in Datum Tags and GTols** examples in [IGTol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::SetText Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetText.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool BlendColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to blend the colors of the part and texture, false to not
 
 ## VBA Syntax
 
-See
-
-[Texture::BlendColor](ms-its:sldworksapivb6.chm::/sldworks~Texture~BlendColor.html)
-
-.
+See [Texture::BlendColor](ms-its:sldworksapivb6.chm::/sldworks~Texture~BlendColor.html).
 
 ## See Also
 
 [ITexture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html)
-
 [ITexture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture_members.html)
 
 ## Availability

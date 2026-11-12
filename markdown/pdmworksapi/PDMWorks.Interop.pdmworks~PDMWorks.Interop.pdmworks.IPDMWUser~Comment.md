@@ -51,16 +51,11 @@ Comments
 
 ## VBA Syntax
 
-See
-
-[PDMWUser::Comment](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUser~Comment.html)
-
-.
+See [PDMWUser::Comment](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUser~Comment.html).
 
 ## See Also
 
 [IPDMWUser Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html)
-
 [IPDMWUser Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser_members.html)
 
 ## Availability

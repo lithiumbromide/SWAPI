@@ -39,5 +39,4 @@ File name prefix
 ## See Also
 
 [EdmCopyTreeOptions Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions.html)
-
 [EdmCopyTreeOptions Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions_members.html)

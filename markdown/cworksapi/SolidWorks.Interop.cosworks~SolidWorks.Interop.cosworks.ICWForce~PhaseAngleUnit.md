@@ -47,40 +47,25 @@ property System.int PhaseAngleUnit {
 
 ### Property Value
 
-Units of phase angle of the force as defined in
-
-[swsPhaseAngleUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPhaseAngleUnit_e.html)
-
-; -1 if undefined
+Units of phase angle of the force as defined in [swsPhaseAngleUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPhaseAngleUnit_e.html); -1 if undefined
 
 ## VBA Syntax
 
-See
-
-[CWForce::PhaseAngleUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~PhaseAngleUnit.html)
-
-.
+See [CWForce::PhaseAngleUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~PhaseAngleUnit.html).
 
 ## Examples
 
 [Apply Table-driven Load to Multiple Beams (C#)](Apply_Table-driven_Load_to_Multiple_Beams_Example_CSharp.htm)
-
 [Apply Table-driven Load to Multiple Beams (VB.NET)](Apply_Table-driven_Load_to_Multiple_Beams_Example_VBNET.htm)
-
 [Apply Table-driven Load to Multiple Beams (VBA)](Apply_Table-driven_Load_to_Multiple_Beams_Example_VB.htm)
 
 ## Remarks
 
-Call
-
-[ICWForce::PhaseAngle](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWForce~PhaseAngle.html)
-
-to get or set the phase angle of the force.
+Call [ICWForce::PhaseAngle](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWForce~PhaseAngle.html) to get or set the phase angle of the force.
 
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
 
 ## Availability

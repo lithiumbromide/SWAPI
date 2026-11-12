@@ -1,6 +1,5 @@
 ---
-title: "Layer Object
-Members"
+title: "Layer Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Layer_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Layer_members.html"
 ---
 
-# Layer Object
-Members
+# Layer Object Members
 
 ## Public Methods
 

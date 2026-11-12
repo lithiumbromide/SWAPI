@@ -53,14 +53,8 @@ System.bool SetTimeCurve2(
 
 ### Parameters
 
-- `VarCurveData`: Array of time curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in
-
-[swsTimeCurveError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveData`: Array of time curve data (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
@@ -68,28 +62,23 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::SetTimeCurve2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetTimeCurve2.html)
-
-.
+See [CWNonLinearStudyOptions::SetTimeCurve2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SetTimeCurve2.html).
 
 ## Remarks
 
 Array of time curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of pairs of data points
-- xi = time value at the`ith`data point
+- xi = time value at the `ith` data point
 - yi = property value associated with time xi
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

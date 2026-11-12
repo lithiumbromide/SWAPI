@@ -1,6 +1,5 @@
 ---
-title: "Camera Object
-Members"
+title: "Camera Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Camera_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Camera_members.html"
 ---
 
-# Camera Object
-Members
+# Camera Object Members
 
 ## Public Methods
 

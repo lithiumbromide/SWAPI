@@ -48,11 +48,7 @@ Limits and fits code
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertDimensionTolerance::LimitsAndFitsCode](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDimensionTolerance~LimitsAndFitsCode.html)
-
-.
+See [SwDMDimXpertDimensionTolerance::LimitsAndFitsCode](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDimensionTolerance~LimitsAndFitsCode.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertDimensionTolerance Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDimensionTolerance.html)
-
 [ISwDMDimXpertDimensionTolerance Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDimensionTolerance_members.html)
 
 ## Availability

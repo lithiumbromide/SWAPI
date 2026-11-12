@@ -58,30 +58,19 @@ System.int CaptureProbedResultPlotAsPNGImage(
 
 ### Return Value
 
-Error code as defined in
-
-[swsProbePostResultErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultErrorCode_e.html)
+Error code as defined in [swsProbePostResultErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResultsProbeManager::CaptureProbedResultPlotAsPNGImage](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager~CaptureProbedResultPlotAsPNGImage.html)
-
-.
+See [CWResultsProbeManager::CaptureProbedResultPlotAsPNGImage](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager~CaptureProbedResultPlotAsPNGImage.html).
 
 ## Examples
 
-See the
-
-[ICWResultsProbeManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
-examples.
+See the [ICWResultsProbeManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html) examples.
 
 ## See Also
 
 [ICWResultsProbeManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
 [ICWResultsProbeManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager_members.html)
 
 ## Availability

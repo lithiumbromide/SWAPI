@@ -40,13 +40,7 @@ System.bool GetUseDocDual()
 System.bool GetUseDocDual();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ True if this display dimension uses its dual dimension's top, bottom, right, or 
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetUseDocDual](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetUseDocDual.html)
-
-.
+See [DisplayDimension::GetUseDocDual](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetUseDocDual.html).
 
 ## Remarks
 
-Use[IDisplayDimension::SetDual](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetDual.html)to set the dual dimension's top, bottom, right, or left setting for this display dimension.
+Use [IDisplayDimension::SetDual](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetDual.html) to set the dual dimension's top, bottom, right, or left setting for this display dimension.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::Split Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~Split.html)
 
 ## Availability

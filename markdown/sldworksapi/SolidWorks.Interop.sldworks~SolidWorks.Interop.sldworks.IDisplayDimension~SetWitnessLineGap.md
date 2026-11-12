@@ -55,22 +55,12 @@ System.bool SetWitnessLineGap(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `WitnessIndex`: Index of the extension line whose gap to get
-- `UseDoc`: True to use the document default value of the gap, false to not (see
-
-Remarks
-
-)
+- `UseDoc`: True to use the document default value of the gap, false to not (see **Remarks**)
 - `Gap`: Gap value in system units; ignored if UseDoc is true
 
 ### Return Value
@@ -79,11 +69,7 @@ True if the operation succeeds, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SetWitnessLineGap](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetWitnessLineGap.html)
-
-.
+See [DisplayDimension::SetWitnessLineGap](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetWitnessLineGap.html).
 
 ## Examples
 
@@ -91,20 +77,16 @@ See
 
 ## Remarks
 
-The UseDoc argument is dependent on the detailing standard. You can retrieve the document default value using the[document-level user-preference swDetailingWitnessLineGap](ms-its:swconst.chm::/DP_Dimensions.htm).
+The UseDoc argument is dependent on the detailing standard. You can retrieve the document default value using the [document-level user-preference swDetailingWitnessLineGap](ms-its:swconst.chm::/DP_Dimensions.htm).
 
-Call[IModelView::GraphicsRedraw](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~GraphicsRedraw.html)after calling this method to redraw the graphics area.
+Call [IModelView::GraphicsRedraw](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~GraphicsRedraw.html) after calling this method to redraw the graphics area.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::SetWitnessLineGap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetWitnessLineGap.html)
-
 [IView::GetDimensionInfo6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionInfo6.html)
-
 [IView::IGetDimensionInfo6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetDimensionInfo6.html)
 
 ## Availability

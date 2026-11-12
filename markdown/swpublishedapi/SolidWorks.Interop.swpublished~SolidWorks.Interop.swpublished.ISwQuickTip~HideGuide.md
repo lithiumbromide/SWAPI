@@ -48,16 +48,11 @@ True if add-in's Quick Tips is hidden, false if it is shown
 
 ## VBA Syntax
 
-See
-
-[SwQuickTip::HideGuide](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~HideGuide.html)
-
-.
+See [SwQuickTip::HideGuide](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~HideGuide.html).
 
 ## See Also
 
 [ISwQuickTip Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip.html)
-
 [ISwQuickTip Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip_members.html)
 
 ## Availability

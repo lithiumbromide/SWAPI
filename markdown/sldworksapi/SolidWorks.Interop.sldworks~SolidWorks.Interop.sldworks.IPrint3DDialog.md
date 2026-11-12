@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 Allows access to the Print 3D dialog.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IPrint3DDialog
 
 ## VBA Syntax
 
-See
-
-[Print3DDialog](ms-its:sldworksapivb6.chm::/sldworks~Print3DDialog.html)
-
-.
+See [Print3DDialog](ms-its:sldworksapivb6.chm::/sldworks~Print3DDialog.html).
 
 ## Accessors
 
@@ -58,5 +54,4 @@ See
 ## See Also
 
 [IPrint3DDialog Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrint3DDialog_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

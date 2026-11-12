@@ -42,13 +42,7 @@ property System.bool HasLoadBearingFaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,18 +50,12 @@ True if the mate has load bearing faces, false if not
 
 ## VBA Syntax
 
-See
-
-[Mate2::HasLoadBearingFaces](ms-its:sldworksapivb6.chm::/sldworks~Mate2~HasLoadBearingFaces.html)
-
-.
+See [Mate2::HasLoadBearingFaces](ms-its:sldworksapivb6.chm::/sldworks~Mate2~HasLoadBearingFaces.html).
 
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
-
 [IMate2::IsLoadBearingFacesBonded Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~IsLoadBearingFacesBonded.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.String^ Title {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Non-empty title string
 
 ## VBA Syntax
 
-See
-
-[MessageBarDefinition::Title](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~Title.html)
-
-.
+See [MessageBarDefinition::Title](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~Title.html).
 
 ## Examples
 
-See the
-
-[IMessageBarHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html)
-
-examples.
+See the [IMessageBarHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ This property must be set.
 ## See Also
 
 [IMessageBarDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition.html)
-
 [IMessageBarDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition_members.html)
 
 ## Availability

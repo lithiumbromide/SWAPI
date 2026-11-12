@@ -45,13 +45,7 @@ property System.double FitTextScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,21 @@ See
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::FitTextScale](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~FitTextScale.html)
-
-.
+See [CalloutVariable::FitTextScale](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~FitTextScale.html).
 
 ## Remarks
 
 This property supports fit and fit-with-tolerance types only.
 
-Set[ICalloutVariable::FitUseTextScale](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~FitUseTextScale.html)to true to enable setting this property.
+Set [ICalloutVariable::FitUseTextScale](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~FitUseTextScale.html) to true to enable setting this property.
 
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
-
 [ICalloutVariable::TextScale Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~TextScale.html)
-
 [ICalloutVariable::UseTextScale Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~UseTextScale.html)
-
 [ICalloutVariable::HoleFit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~HoleFit.html)
-
 [ICalloutVariable::ShaftFit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ShaftFit.html)
 
 ## Availability

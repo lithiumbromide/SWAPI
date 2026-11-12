@@ -47,13 +47,7 @@ System.int SetAssembly(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,32 +55,20 @@ See
 
 ### Return Value
 
-Error code as defined in
-
-[swCollisionManagerSetAssemblyErrors_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCollisionManagerSetAssemblyErrors_e.html)
+Error code as defined in [swCollisionManagerSetAssemblyErrors_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCollisionManagerSetAssemblyErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionManager::SetAssembly](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~SetAssembly.html)
-
-.
+See [CollisionDetectionManager::SetAssembly](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~SetAssembly.html).
 
 ## Examples
 
-See the
-
-[ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
-examples.
+See the [ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html) examples.
 
 ## See Also
 
 [ICollisionDetectionManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
 [ICollisionDetectionManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager_members.html)
-
 [ICollisionDetectionManager::GetAssembly Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~GetAssembly.html)
 
 ## Availability

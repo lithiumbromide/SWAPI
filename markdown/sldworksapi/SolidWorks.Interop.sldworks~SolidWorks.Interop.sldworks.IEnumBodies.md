@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumBodies Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [IEnumBodies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumBodies2.html).
 
-[IEnumBodies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumBodies2.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class IEnumBodies
 
 ## VBA Syntax
 
-See
-
-[EnumBodies](ms-its:sldworksapivb6.chm::/sldworks~EnumBodies.html)
-
-.
+See [EnumBodies](ms-its:sldworksapivb6.chm::/sldworks~EnumBodies.html).
 
 ## See Also
 
 [IEnumBodies Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumBodies_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

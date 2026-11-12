@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGr
 
 # ICWGravity Interface Properties
 
-For a list of all members of this type, see[ICWGravity members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html).
+For a list of all members of this type, see [ICWGravity members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html).
 
 ## Public Properties
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[ICWGravity members](SolidWorks.Inter
 ## See Also
 
 [ICWGravity Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

@@ -45,13 +45,7 @@ property System.double ScaleFactor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[Texture::ScaleFactor](ms-its:sldworksapivb6.chm::/sldworks~Texture~ScaleFactor.html)
-
-.
+See [Texture::ScaleFactor](ms-its:sldworksapivb6.chm::/sldworks~Texture~ScaleFactor.html).
 
 ## Examples
 
-See the
-
-[ITexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html)
-
-examples.
+See the [ITexture](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html) examples.
 
 ## See Also
 
 [ITexture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture.html)
-
 [ITexture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITexture_members.html)
 
 ## Availability

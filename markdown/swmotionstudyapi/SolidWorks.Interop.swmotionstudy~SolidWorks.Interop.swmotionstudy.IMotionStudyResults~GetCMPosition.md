@@ -62,16 +62,11 @@ System.Object^ GetCMPosition(
 
 ## VBA Syntax
 
-See
-
-[MotionStudyResults::GetCMPosition](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetCMPosition.html)
-
-.
+See [MotionStudyResults::GetCMPosition](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetCMPosition.html).
 
 ## See Also
 
 [IMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults.html)
-
 [IMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults_members.html)
 
 ## Availability

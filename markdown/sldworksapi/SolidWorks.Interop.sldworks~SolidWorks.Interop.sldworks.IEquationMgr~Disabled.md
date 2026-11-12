@@ -50,13 +50,7 @@ property System.bool Disabled {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,18 +62,12 @@ True to disable the specified equation, false to not
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::Disabled](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~Disabled.html)
-
-.
+See [EquationMgr::Disabled](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~Disabled.html).
 
 ## Examples
 
 [Disable Equation (C#)](Disable_Equation_Example_CSharp.htm)
-
 [Disable Equation (VB.NET)](Disable_Equation_Example_VBNET.htm)
-
 [Disable Equation (VBA)](Disable_Equation_Example_VB.htm)
 
 ## Remarks
@@ -89,19 +77,12 @@ When you disable an equation, you are removing it from the list of relations. Th
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::Add2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Add2.html)
-
 [IEquationMgr::Add3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Add3.html)
-
 [IEquationMgr::Delete Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Delete.html)
-
 [IEquationMgr::GetCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GetCount.html)
-
 [IEquationMgr::GetDisabledEquationCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GetDisabledEquationCount.html)
-
 [IEquationMgr::Equation Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
 
 ## Availability

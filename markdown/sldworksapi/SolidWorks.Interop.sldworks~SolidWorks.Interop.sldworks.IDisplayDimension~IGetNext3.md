@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IGetNext3 Method (IDisplayDimension)
 
-Obsolete. Superseded by
-
-[IDisplayDimension::GetNext5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetNext5.html)
-
-.
+Obsolete. Superseded by [IDisplayDimension::GetNext5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetNext5.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ DisplayDimension IGetNext3()
 DisplayDimension^ IGetNext3();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::IGetNext3](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IGetNext3.html)
-
-.
+See [DisplayDimension::IGetNext3](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IGetNext3.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)

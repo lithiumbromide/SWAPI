@@ -45,48 +45,27 @@ property System.int ThreadClass {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Thread class as defined in
-
-[swTaperedTapThreadClass_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTaperedTapThreadClass_e.html)
+Thread class as defined in [swTaperedTapThreadClass_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTaperedTapThreadClass_e.html)
 
 ## VBA Syntax
 
-See
-
-[TaperedTapElementData::ThreadClass](ms-its:sldworksapivb6.chm::/sldworks~TaperedTapElementData~ThreadClass.html)
-
-.
+See [TaperedTapElementData::ThreadClass](ms-its:sldworksapivb6.chm::/sldworks~TaperedTapElementData~ThreadClass.html).
 
 ## Examples
 
-See the
-
-[ITaperedTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html)
-
-examples.
+See the [ITaperedTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ITaperedTapElementData::ThreadClassOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData~ThreadClassOverride.html)
-
-is set to true.
+This property is valid only if [ITaperedTapElementData::ThreadClassOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData~ThreadClassOverride.html) is set to true.
 
 ## See Also
 
 [ITaperedTapElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html)
-
 [ITaperedTapElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData_members.html)
 
 ## Availability

@@ -46,8 +46,8 @@ public enum class swConfigurationChangeTypes_e : public System.Enum
 | swConfigurationChangeTypes_AddDisplayState | 6 |
 | swConfigurationChangeTypes_ChangeRepresentationParent | 14 |
 | swConfigurationChangeTypes_ComponentVisibilityState | 4 |
-| swConfigurationChangeTypes_ConvertToPhysicalProduct | 13 = Change to Physical Product for SOLIDWORKS Connected only; used in DAssemblyDocEvents_ConfigurationChangeNotifyEventHandler |
-| swConfigurationChangeTypes_ConvertToRepresentation | 12 = Change to Representation for SOLIDWORKS Connected only; used in DAssemblyDocEvents_ConfigurationChangeNotifyEventHandler |
+| swConfigurationChangeTypes_ConvertToPhysicalProduct | 13 = Change to Physical Product for SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; used in DAssemblyDocEvents_ConfigurationChangeNotifyEventHandler |
+| swConfigurationChangeTypes_ConvertToRepresentation | 12 = Change to Representation for SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; used in DAssemblyDocEvents_ConfigurationChangeNotifyEventHandler |
 | swConfigurationChangeTypes_CustomProperty | 5 |
 | swConfigurationChangeTypes_DimensionValue | 0 |
 | swConfigurationChangeTypes_Feature | 9 |

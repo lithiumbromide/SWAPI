@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Reference_Curve_Example_CSharp.htm"
 
 # Create Reference Curve Example (C#)
 
-This example shows how to create a reference curve by first creating
-a temporary spline curve.
+This example shows how to create a reference curve by first creating a temporary spline curve.
 
 ```
 //----------------------------------------------------------

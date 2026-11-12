@@ -9,9 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5~GetTransition.ht
 
 # GetTransition Method (IEdmState5)
 
-Obsolete.
-
-Gets a transition from this workflow state by name.
+Obsolete. Gets a transition from this workflow state by name.
 
 ## Syntax
 
@@ -45,9 +43,7 @@ IEdmTransition5^ GetTransition(
 
 ### Return Value
 
-[IEdmTransition5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5.html)
-
-; Null if no transition for bsName is found
+[IEdmTransition5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5.html); Null if no transition for bsName is found
 
 ## Remarks
 
@@ -64,7 +60,6 @@ C++ users not using smart-pointer wrapper functions must release the returned in
 ## See Also
 
 [IEdmState5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html)
-
 [IEdmState5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5_members.html)
 
 ## Availability

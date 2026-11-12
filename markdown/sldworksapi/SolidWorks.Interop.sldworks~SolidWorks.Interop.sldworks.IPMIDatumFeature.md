@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 Allows access to a Product and Manufacturing Information (PMI) datum feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,19 +41,11 @@ public interface class IPMIDatumFeature
 
 ## VBA Syntax
 
-See
-
-[PMIDatumFeature](ms-its:sldworksapivb6.chm::/sldworks~PMIDatumFeature.html)
-
-.
+See [PMIDatumFeature](ms-its:sldworksapivb6.chm::/sldworks~PMIDatumFeature.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## Remarks
 
@@ -70,5 +62,4 @@ A PMI datum consists of a label in a square or round symbol. Leader and text are
 ## See Also
 
 [IPMIDatumFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumFeature_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

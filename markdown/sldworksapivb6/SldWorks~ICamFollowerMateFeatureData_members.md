@@ -1,6 +1,5 @@
 ---
-title: "ICamFollowerMateFeatureData Object
-Members"
+title: "ICamFollowerMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ICamFollowerMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ICamFollowerMateFeatureData_members.html"
 ---
 
-# ICamFollowerMateFeatureData Object
-Members
+# ICamFollowerMateFeatureData Object Members
 
 ## Public Properties
 

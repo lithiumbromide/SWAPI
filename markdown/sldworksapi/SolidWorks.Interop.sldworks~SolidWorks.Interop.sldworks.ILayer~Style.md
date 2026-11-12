@@ -45,40 +45,26 @@ property System.int Style {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Line style as defined in[swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html)
+Line style as defined in [swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html)
 
 ## VBA Syntax
 
-See
-
-[Layer::Style](ms-its:sldworksapivb6.chm::/sldworks~Layer~Style.html)
-
-.
+See [Layer::Style](ms-its:sldworksapivb6.chm::/sldworks~Layer~Style.html).
 
 ## Examples
 
 [Get Layers (C#)](Get_Layers_Example_CSharp.htm)
-
 [Get Layers (VB.NET)](Get_Layers_Example_VBNET.htm)
-
 [Get Layers (VBA)](Get_Layers_Example_VB.htm)
 
 ## See Also
 
 [ILayer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer.html)
-
 [ILayer Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer_members.html)
-
 [ILayer::Width Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer~Width.html)
 
 ## Availability

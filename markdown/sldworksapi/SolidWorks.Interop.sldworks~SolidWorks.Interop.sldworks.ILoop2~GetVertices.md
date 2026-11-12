@@ -40,44 +40,25 @@ System.object GetVertices()
 System.Object^ GetVertices();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[vertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
+Array of [vertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
 
 ## VBA Syntax
 
-See
-
-[Loop2::GetVertices](ms-its:sldworksapivb6.chm::/sldworks~Loop2~GetVertices.html)
-
-.
+See [Loop2::GetVertices](ms-its:sldworksapivb6.chm::/sldworks~Loop2~GetVertices.html).
 
 ## Examples
 
-See the
-
-[ILoop2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
-examples.
+See the [ILoop2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html) examples.
 
 ## See Also
 
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
 [ILoop2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2_members.html)
-
 [ILoop2::GetVertexCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~GetVertexCount.html)
-
 [ILoop2::IGetVertices Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~IGetVertices.html)
 
 ## Availability

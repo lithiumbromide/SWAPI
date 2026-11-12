@@ -51,32 +51,19 @@ True to include mass, false to not
 
 ## VBA Syntax
 
-See
-
-[CWPinConnector::IncludeMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~IncludeMass.html)
-
-.
+See [CWPinConnector::IncludeMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~IncludeMass.html).
 
 ## Examples
 
-See the
-
-[ICWPinConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
-examples.
+See the [ICWPinConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html) examples.
 
 ## Remarks
 
-If you set this property to true, use
-
-[ICWPinConnector::MassValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~MassValue.html)
-
-to set the mass value.
+If you set this property to true, use [ICWPinConnector::MassValue](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~MassValue.html) to set the mass value.
 
 ## See Also
 
 [ICWPinConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
 [ICWPinConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.double GetBkgdImageDisplayAreaAspectRatio()
 System.double GetBkgdImageDisplayAreaAspectRatio();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Aspect ratio (width/height) of the area of the window where the background image
 
 ## VBA Syntax
 
-See
-
-[ModelView::GetBkgdImageDisplayAreaAspectRatio](ms-its:sldworksapivb6.chm::/sldworks~ModelView~GetBkgdImageDisplayAreaAspectRatio.html)
-
-.
+See [ModelView::GetBkgdImageDisplayAreaAspectRatio](ms-its:sldworksapivb6.chm::/sldworks~ModelView~GetBkgdImageDisplayAreaAspectRatio.html).
 
 ## Remarks
 
@@ -67,5 +57,4 @@ For use with ray-trace rendering engines to match SOLIDWORKS' display.
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)

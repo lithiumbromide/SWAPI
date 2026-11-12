@@ -47,13 +47,7 @@ System.bool SetCameraByName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if the camera is set, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelView::SetCameraByName](ms-its:sldworksapivb6.chm::/sldworks~ModelView~SetCameraByName.html)
-
-.
+See [ModelView::SetCameraByName](ms-its:sldworksapivb6.chm::/sldworks~ModelView~SetCameraByName.html).
 
 ## Examples
 
@@ -85,9 +75,7 @@ See
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
-
 [IModelView::Camera Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~Camera.html)
 
 ## Availability

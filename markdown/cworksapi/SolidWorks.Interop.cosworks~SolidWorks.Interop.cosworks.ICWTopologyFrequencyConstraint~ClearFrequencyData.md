@@ -42,32 +42,20 @@ System.int ClearFrequencyData();
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
+Result code as defined in [swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFrequencyConstraint::ClearFrequencyData](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~ClearFrequencyData.html)
-
-.
+See [CWTopologyFrequencyConstraint::ClearFrequencyData](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~ClearFrequencyData.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
-example.
+See the [ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html) example.
 
 ## See Also
 
 [ICWTopologyFrequencyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
 [ICWTopologyFrequencyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint_members.html)
-
 [ICWTopologyFrequencyConstraint::SetFrequencyData Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint~SetFrequencyData.html)
 
 ## Availability

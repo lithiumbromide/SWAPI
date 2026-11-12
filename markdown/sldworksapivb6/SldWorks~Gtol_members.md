@@ -1,6 +1,5 @@
 ---
-title: "Gtol Object
-Members"
+title: "Gtol Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Gtol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Gtol_members.html"
 ---
 
-# Gtol Object
-Members
+# Gtol Object Members
 
 ## Public Methods
 
@@ -21,6 +19,7 @@ Members
 | Public Method DeleteFrame |  |
 | Public Method GetAllAround |  |
 | Public Method GetAllAroundThisSide |  |
+| Public Method GetAllOver |  |
 | Public Method GetAllOverThisSide |  |
 | Public Method GetAnnotation |  |
 | Public Method GetArcAtIndex |  |
@@ -113,6 +112,7 @@ Members
 | Public Method IsAttached |  |
 | Public Method ISetTextFormat |  |
 | Public Method SetAllAroundThisSide |  |
+| Public Method SetAllOver |  |
 | Public Method SetAllOverThisSide |  |
 | Public Method SetBelowFrameTextAt |  |
 | Public Method SetBetweenTwoPoints |  |

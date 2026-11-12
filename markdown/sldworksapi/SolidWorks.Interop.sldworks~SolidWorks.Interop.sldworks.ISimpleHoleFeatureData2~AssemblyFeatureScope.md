@@ -45,13 +45,7 @@ property System.bool AssemblyFeatureScope {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,14 @@ True to use feature scope, false to not
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData2::AssemblyFeatureScope](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~AssemblyFeatureScope.html)
-
-.
+See [SimpleHoleFeatureData2::AssemblyFeatureScope](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~AssemblyFeatureScope.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
 [ISimpleHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2_members.html)
-
 [ISimpleHoleFeatureData2::AutoSelect Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~AutoSelect.html)
-
 [ISimpleHoleFeatureData2::AutoSelectComponents Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~AutoSelectComponents.html)
-
 [ISimpleHoleFeatureData2::PropagateFeatureToParts Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~PropagateFeatureToParts.html)
 
 ## Availability

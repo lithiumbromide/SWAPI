@@ -51,12 +51,11 @@ True to display a preview of the blank, false to not
 
 ## VBA Syntax
 
-See[CostAnalysisSheetMetal::PreviewShown](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~PreviewShown.html).
+See [CostAnalysisSheetMetal::PreviewShown](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~PreviewShown.html).
 
 ## See Also
 
 [ICostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.html)
-
 [ICostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html)
 
 ## Availability

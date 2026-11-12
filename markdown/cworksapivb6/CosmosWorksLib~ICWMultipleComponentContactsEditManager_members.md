@@ -1,6 +1,5 @@
 ---
-title: "ICWMultipleComponentContactsEditManager Object
-Members"
+title: "ICWMultipleComponentContactsEditManager Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWMultipleComponentContactsEditManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWMultipleComponentContactsEditManager_members.html"
 ---
 
-# ICWMultipleComponentContactsEditManager Object
-Members
+# ICWMultipleComponentContactsEditManager Object Members
 
 ## Public Methods
 

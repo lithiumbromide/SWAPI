@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICommandTab Interface
 
-Allows add-in applications to create tabs and add them to the
+Allows add-in applications to create tabs and add them to the [CommandManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager.html). The add-in application must create and clean up its own tabs.
 
-[CommandManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager.html)
-
-. The add-in application must create and clean up its own tabs.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class ICommandTab
 
 ## VBA Syntax
 
-See
-
-[CommandTab](ms-its:sldworksapivb6.chm::/sldworks~CommandTab.html)
-
-.
+See [CommandTab](ms-its:sldworksapivb6.chm::/sldworks~CommandTab.html).
 
 ## Examples
 
@@ -80,7 +72,5 @@ Users can add buttons to and remove buttons from your CommandManager tab. Howeve
 ## See Also
 
 [ICommandTab Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ICommandTabBox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox.html)

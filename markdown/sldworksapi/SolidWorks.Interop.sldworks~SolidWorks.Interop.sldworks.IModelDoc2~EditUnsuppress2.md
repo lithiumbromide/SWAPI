@@ -40,13 +40,7 @@ System.bool EditUnsuppress2()
 System.bool EditUnsuppress2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if the selected feature or component is unsuppressed, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::EditUnsuppress2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EditUnsuppress2.html)
-
-.
+See [ModelDoc2::EditUnsuppress2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EditUnsuppress2.html).
 
 ## Examples
 
 [Set and Get Sheet Metal Part's Persistent Reference IDs (C#)](Set_and_Get_Sheet_Metal_Part's_Persistent_Reference_IDs_Example_CSharp.htm)
-
 [Set and Get Sheet Metal Part's Persistent Reference IDs (VB.NET)](Set_and_Get_Sheet_Metal_Part's_Persistent_Reference_IDs_Example_VBNET.htm)
-
 [Set and Get Sheet Metal Part's Persistent Reference IDs (VBA)](Set_and_Get_Sheet_Metal_Part's_Persistent_Reference_IDs_Example_VB.htm)
 
 ## Remarks
@@ -75,11 +63,8 @@ This routine is identical to the obsoleted IModelDoc2::EditUnsuppress. The versi
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::EditSuppress2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditSuppress2.html)
-
 [IModelDoc2::EditUnsuppressDependent2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditUnsuppressDependent2.html)
 
 ## Availability

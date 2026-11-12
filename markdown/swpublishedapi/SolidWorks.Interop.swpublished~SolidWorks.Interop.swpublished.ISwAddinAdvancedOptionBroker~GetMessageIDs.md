@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # GetMessageIDs Method (ISwAddinAdvancedOptionBroker)
 
-Gets all of the dismissed messages currently listed on
-
-Tools > Options > System Options > Messages/Errors/Warnings
-
-.
+Gets all of the dismissed messages currently listed on **Tools > Options > System Options > Messages/Errors/Warnings**.
 
 ## Syntax
 
@@ -61,18 +57,12 @@ void GetMessageIDs(
 
 ## VBA Syntax
 
-See
-
-[SwAddinAdvancedOptionBroker::GetMessageIDs](ms-its:swpublishedapivb6.chm::/swpublished~SwAddinAdvancedOptionBroker~GetMessageIDs.html)
-
-.
+See [SwAddinAdvancedOptionBroker::GetMessageIDs](ms-its:swpublishedapivb6.chm::/swpublished~SwAddinAdvancedOptionBroker~GetMessageIDs.html).
 
 ## See Also
 
 [ISwAddinAdvancedOptionBroker Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinAdvancedOptionBroker.html)
-
 [ISwAddinAdvancedOptionBroker Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinAdvancedOptionBroker_members.html)
-
 [ISwAddinAdvancedOptionBroker::SetMessageIDs Method](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinAdvancedOptionBroker~SetMessageIDs.html)
 
 ## Availability

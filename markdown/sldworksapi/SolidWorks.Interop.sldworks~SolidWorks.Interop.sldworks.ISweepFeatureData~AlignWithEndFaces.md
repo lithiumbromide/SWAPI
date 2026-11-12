@@ -45,48 +45,29 @@ property System.bool AlignWithEndFaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True aligns the sweep with the end faces (default for swept-cut and swept-boss), false does not (default for swept-surface) (see
-
-Remarks
-
-)
+True aligns the sweep with the end faces (default for swept-cut and swept-boss), false does not (default for swept-surface) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SweepFeatureData::AlignWithEndFaces](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~AlignWithEndFaces.html)
-
-.
+See [SweepFeatureData::AlignWithEndFaces](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~AlignWithEndFaces.html).
 
 ## Examples
 
-See the
-
-[ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
-examples.
+See the [ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html) examples.
 
 ## Remarks
 
-You must set this property to false if[ISweepFeatureData::TwistControlType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~TwistControlType.html)is set to[swTwistControlType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTwistControlType_e.html).swTwistControlConstantTwistAlongPath.
+You must set this property to false if [ISweepFeatureData::TwistControlType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~TwistControlType.html) is set to [swTwistControlType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTwistControlType_e.html).swTwistControlConstantTwistAlongPath.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [ISweepFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData_members.html)
 
 ## Availability

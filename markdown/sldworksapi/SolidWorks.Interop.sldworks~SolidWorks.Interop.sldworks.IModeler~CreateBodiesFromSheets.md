@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreateBodiesFromSheets Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::CreateBodiesFromSheets2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodiesFromSheets2.html)
-
-.
+Obsolete. Superseded by [IModeler::CreateBodiesFromSheets2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBodiesFromSheets2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.Object^ CreateBodiesFromSheets(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Modeler::CreateBodiesFromSheets](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreateBodiesFromSheets.html)
-
-.
+See [Modeler::CreateBodiesFromSheets](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreateBodiesFromSheets.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)

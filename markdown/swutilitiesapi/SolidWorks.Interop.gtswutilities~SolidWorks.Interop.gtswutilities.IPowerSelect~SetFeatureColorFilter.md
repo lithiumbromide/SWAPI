@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # SetFeatureColorFilter Method (IPowerSelect)
 
-Sets the
-
-Feature color
-
-filter for this PowerSelect session.
+Sets the Feature color filter for this PowerSelect session.
 
 ## Syntax
 
@@ -61,48 +57,22 @@ System.int SetFeatureColorFilter(
 
 ### Parameters
 
-- `Red`: <=0.0
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-to <= 1.0
-- `Green`: <=0.0
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-to <= 1.0
-- `Blue`: <=0.0
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-to <= 1.0
+- `Red`: <=0.0 to <= 1.0
+- `Green`: <=0.0 to <= 1.0
+- `Blue`: <=0.0 to <= 1.0
 
 ### Return Value
 
-Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::SetFeatureColorFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~SetFeatureColorFilter.html)
-
-.
+See [IPowerSelect::SetFeatureColorFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~SetFeatureColorFilter.html).
 
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::GetFeatureColorFilter Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~GetFeatureColorFilter.html)
 
 ## Availability

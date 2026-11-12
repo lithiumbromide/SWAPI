@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # ThreadAngle Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by
-
-[IWizardHoleFeatureData2::ThreadAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~ThreadAngle.html)
-
-.
+Obsolete. Superseded by [IWizardHoleFeatureData2::ThreadAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~ThreadAngle.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double ThreadAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::ThreadAngle](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~ThreadAngle.html)
-
-.
+See [WizardHoleFeatureData::ThreadAngle](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~ThreadAngle.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

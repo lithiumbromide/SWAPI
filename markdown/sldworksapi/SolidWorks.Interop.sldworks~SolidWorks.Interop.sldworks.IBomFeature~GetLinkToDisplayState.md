@@ -40,13 +40,7 @@ System.string GetLinkToDisplayState()
 System.String^ GetLinkToDisplayState();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Name of the Display State linked to the BOM
 
 ## VBA Syntax
 
-See
-
-[BomFeature::GetLinkToDisplayState](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~GetLinkToDisplayState.html)
-
-.
+See [BomFeature::GetLinkToDisplayState](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~GetLinkToDisplayState.html).
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
-
 [IBomFeature::SetLinkToDisplayState Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~SetLinkToDisplayState.html)
 
 ## Availability

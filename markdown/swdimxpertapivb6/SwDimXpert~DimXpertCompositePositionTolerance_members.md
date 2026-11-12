@@ -1,6 +1,5 @@
 ---
-title: "DimXpertCompositePositionTolerance Object
-Members"
+title: "DimXpertCompositePositionTolerance Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertCompositePositionTolerance_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertCompositePositionTolerance_members.html"
 ---
 
-# DimXpertCompositePositionTolerance Object
-Members
+# DimXpertCompositePositionTolerance Object Members
 
 ## Public Methods
 

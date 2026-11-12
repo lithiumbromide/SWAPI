@@ -48,11 +48,7 @@ True, if the tertiary datum is repeated in the lower tier; false, otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompositePositionGeoTol::TertiaryInLowerTier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositePositionGeoTol~TertiaryInLowerTier.html)
-
-.
+See [SwDMDimXpertCompositePositionGeoTol::TertiaryInLowerTier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositePositionGeoTol~TertiaryInLowerTier.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompositePositionGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositePositionGeoTol.html)
-
 [ISwDMDimXpertCompositePositionGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositePositionGeoTol_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.String^ FormToolPath {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Design library forming tool part pathname
 
 ## VBA Syntax
 
-See
-
-[LibraryFormToolFeatureData::FormToolPath](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~FormToolPath.html)
-
-.
+See [LibraryFormToolFeatureData::FormToolPath](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~FormToolPath.html).
 
 ## Examples
 
-See the
-
-[ILibraryFormToolFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
-examples.
+See the [ILibraryFormToolFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ When LibraryFormToolFeatureData is modified and this property changes to another
 ## See Also
 
 [ILibraryFormToolFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
 [ILibraryFormToolFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData_members.html)
 
 ## Availability

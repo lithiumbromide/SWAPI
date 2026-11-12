@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # ShowBubbleTooltipAt Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::ShowBubbleTooltipAt2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ShowBubbleTooltipAt2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::ShowBubbleTooltipAt2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ShowBubbleTooltipAt2.html).
 
 ## Syntax
 
@@ -70,50 +66,46 @@ void ShowBubbleTooltipAt(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `PointX`: x coordinate in pixels relative to upper-left corner of screen
 - `PointY`: y coordinate in pixels relative to upper-left corner of screen
-- `ArrowPos`: Arrow position as defined in
-
-[swArrowPosition](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowPosition.html)
+- `ArrowPos`: Arrow position as defined in [swArrowPosition](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowPosition.html)
 - `TitleString`: Title of bubble ToolTip
 - `MessageString`: Message string of bubble ToolTip
-- `UrlLoc`: Any valid Windows Internet Explorer file (see
-
-Remarks
-
-)
+- `UrlLoc`: Any valid Windows Internet Explorer file (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ShowBubbleTooltipAt](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowBubbleTooltipAt.html)
-
-.
+See [SldWorks::ShowBubbleTooltipAt](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowBubbleTooltipAt.html).
 
 ## Examples
 
 **Visual Basic for Applications (VBA)**
 
-'-------------------------------------------- ' ' Preconditions: Specified HTML file exists at the specified location. ' ' Postconditions: Contents of the HTML file are displayed in a Bubble ToolTip. ' '--------------------------------------------
+'--------------------------------------------
+'
+' Preconditions: Specified HTML file exists at the specified location.
+'
+' Postconditions: Contents of the HTML file are displayed in a Bubble ToolTip.
+'
+'--------------------------------------------
 
-Option Explicit Sub main()
+Option Explicit
+
+Sub main()
 
 ' Substitute a valid HTML file for the string shown below
 
-Const sURLpath As String = " path_to_a_gif_jpg_or_jpeg_file_or_a_URL " Dim swApp As SldWorks.SldWorks Set swApp = Application.SldWorks
+Const sURLpath As String = "`path_to_a_gif_jpg_or_jpeg_file_or_a_URL`"
 
-' Show Bubble ToolTip swApp. ShowBubbleTooltipAt 300, 400, swArrowLeftTop, "Sample ShowBubbleTooltipAt", "Message of Sample ShowBubbleTooltipAt", sURLpath
+Dim swApp As SldWorks.SldWorks
+Set swApp = Application.SldWorks
+
+' Show Bubble ToolTip
+swApp.**ShowBubbleTooltipAt** 300, 400, swArrowLeftTop, "Sample ShowBubbleTooltipAt", "Message of Sample ShowBubbleTooltipAt", sURLpath
 
 End Sub
 
@@ -129,9 +121,7 @@ End Sub
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::ShowBubbleTooltip Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBubbleTooltip.html)
 
 ## Availability

@@ -45,48 +45,29 @@ property System.Object^ EntitiesToMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of two entities to mate (see
-
-Remarks
-
-)
+Array of two entities to mate (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[UniversalJointMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~UniversalJointMateFeatureData~EntitiesToMate.html)
-
-.
+See [UniversalJointMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~UniversalJointMateFeatureData~EntitiesToMate.html).
 
 ## Examples
 
-See the
-
-[IUniversalJointMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData.html)
-
-example.
+See the [IUniversalJointMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData.html) example.
 
 ## Remarks
 
-Populate the array of this property with the cylindrical[faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)of two shaft components.
+Populate the array of this property with the cylindrical [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) of two shaft components.
 
-Instead of specifying this property, you can use[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)to pre-select the entities to mate using Mark = 1. You can pre-select mate entities during mate creation, but not during mate editing.
+Instead of specifying this property, you can use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities to mate using Mark = 1. You can pre-select mate entities during mate creation, but not during mate editing.
 
 ## See Also
 
 [IUniversalJointMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData.html)
-
 [IUniversalJointMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData_members.html)
 
 ## Availability

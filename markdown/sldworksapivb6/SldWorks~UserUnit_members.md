@@ -1,6 +1,5 @@
 ---
-title: "UserUnit Object
-Members"
+title: "UserUnit Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "UserUnit_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~UserUnit_members.html"
 ---
 
-# UserUnit Object
-Members
+# UserUnit Object Members
 
 ## Public Methods
 

@@ -59,34 +59,14 @@ System.Object^ CreatePCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Surface`: [Surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
-
-associated with the pcurve
-- `Props`: Array containing 4 integers packed into 2 double elements (see
-
-Remarks
-
-)
-- `Knots`: Array of numKnots (see
-
-Remarks
-
-)
-- `CtrlPtCoords`: Array of numCtrlPtCoord (see
-
-Remarks
-
-)
+- `Surface`: [Surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html) associated with the pcurve
+- `Props`: Array containing 4 integers packed into 2 double elements (see **Remarks**)
+- `Knots`: Array of numKnots (see **Remarks**)
+- `CtrlPtCoords`: Array of numCtrlPtCoord (see **Remarks**)
 
 ### Return Value
 
@@ -94,11 +74,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[Modeler::CreatePCurve](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreatePCurve.html)
-
-.
+See [Modeler::CreatePCurve](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreatePCurve.html).
 
 ## Examples
 
@@ -113,8 +89,6 @@ The Props argument contains the following values:
 - NumCtrlPoints
 - Periodicity
 
-(Table)=========================================================
-
 | Length of this array... | Given by... |
 | --- | --- |
 | Knots | numKnots = NumCtrlPoints + Order |
@@ -123,19 +97,12 @@ The Props argument contains the following values:
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::ICreatePCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreatePCurve.html)
-
 [ICurve::GetPCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetPCurveParams.html)
-
 [ICurve::IGetPCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetPCurveParams.html)
-
 [ICurve::IGetPCurveParamsSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetPCurveParamsSize.html)
-
 [IModeler::CreateBsplineCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateBsplineCurve.html)
-
 [IModeler::ICreateBsplineCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateBsplineCurve.html)
 
 ## Availability

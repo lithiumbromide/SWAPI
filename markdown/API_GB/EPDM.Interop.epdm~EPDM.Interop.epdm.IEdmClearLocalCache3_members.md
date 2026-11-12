@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache3_members
 
 # IEdmClearLocalCache3 Interface Members
 
-The following tables list the members exposed by[IEdmClearLocalCache3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache3.html).
+The following tables list the members exposed by [IEdmClearLocalCache3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache3.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmClearLocalCache3](EPDM.Inte
 ## See Also
 
 [IEdmClearLocalCache3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache3.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

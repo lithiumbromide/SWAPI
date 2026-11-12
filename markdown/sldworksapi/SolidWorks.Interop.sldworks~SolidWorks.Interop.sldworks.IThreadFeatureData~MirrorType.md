@@ -45,50 +45,27 @@ property System.int MirrorType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Mirror profile type as defined in
-
-[swThreadMirrorType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swThreadMirrorType_e.html)
-
-; default is swThreadMirrorType_e.swThreadMirrorType_Horizontally
+Mirror profile type as defined in [swThreadMirrorType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swThreadMirrorType_e.html); default is swThreadMirrorType_e.swThreadMirrorType_Horizontally
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::MirrorType](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~MirrorType.html)
-
-.
+See [ThreadFeatureData::MirrorType](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~MirrorType.html).
 
 ## Examples
 
-See the
-
-[IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-examples.
+See the [IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[IThreadFeatureData::MirrorProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~MirrorProfile.html)
-
-is set to true.
+This property is valid only if [IThreadFeatureData::MirrorProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~MirrorProfile.html) is set to true.
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

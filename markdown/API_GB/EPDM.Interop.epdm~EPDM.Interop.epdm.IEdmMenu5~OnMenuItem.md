@@ -9,9 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem.html"
 
 # OnMenuItem Method (IEdmMenu5)
 
-Obsolete. Superseded by
-
-[IEdmMenu7::OnMenuItem2 .](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu7~OnMenuItem2.html)
+Obsolete. Superseded by [IEdmMenu7::OnMenuItem2.](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu7~OnMenuItem2.html)
 
 ## Syntax
 
@@ -61,9 +59,7 @@ System.int OnMenuItem(
 
 ### Return Value
 
-User-interface elements that should be refreshed as defined in
-
-[EdmRefreshFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefreshFlag.html)
+User-interface elements that should be refreshed as defined in [EdmRefreshFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefreshFlag.html)
 
 ## Remarks
 
@@ -73,20 +69,11 @@ You should call this method when a user selects a menu item belonging to this me
 
 - S_OK: The method successfully executed.
 - S_FALSE: Menu item does not belong to this menu.
-- S_EDM_MENU_ITEM_NOT_APPLICABLE: The current selection of files and folders do not satisfy the constraints set by the command author. See
-
-  [EdmMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags.html)
-
-  sent to
-
-  [IEdmCmdMgr5::AddCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddCmd.html)
-
-  .
+- S_EDM_MENU_ITEM_NOT_APPLICABLE: The current selection of files and folders do not satisfy the constraints set by the command author. See [EdmMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuFlags.html) sent to [IEdmCmdMgr5::AddCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddCmd.html).
 
 ## See Also
 
 [IEdmMenu5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5.html)
-
 [IEdmMenu5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5_members.html)
 
 ## Availability

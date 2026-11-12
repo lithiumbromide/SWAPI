@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISM
 
 # AddAGroupOfFaces Method (ISMNormalCutFeatureData)
 
-Obsolete. See
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-.
+Obsolete. See [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html).
 
 ## Syntax
 
@@ -54,38 +50,20 @@ void AddAGroupOfFaces(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FaceArray`: Array of cut-extrude
-
-[faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-- `Error`: Error code as defined in
-
-[swSMNormalCutError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSMNormalCutError_e.html)
+- `FaceArray`: Array of cut-extrude [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
+- `Error`: Error code as defined in [swSMNormalCutError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSMNormalCutError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData::AddAGroupOfFaces](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData~AddAGroupOfFaces.html)
-
-.
+See [SMNormalCutFeatureData::AddAGroupOfFaces](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData~AddAGroupOfFaces.html).
 
 ## Examples
 
-See the
-
-[IFeatureManager::AddSMNormalCutType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AddSMNormalCutType.html)
-
-example.
+See the [IFeatureManager::AddSMNormalCutType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AddSMNormalCutType.html) example.
 
 ## Remarks
 
@@ -94,9 +72,7 @@ FaceArray contains the non-normal side walls of a cut in a sheet metal part.
 ## See Also
 
 [ISMNormalCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData.html)
-
 [ISMNormalCutFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData_members.html)
-
 [ISMNormalCutFeatureData::RemoveAGroupOfFaces Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData~RemoveAGroupOfFaces.html)
 
 ## Availability

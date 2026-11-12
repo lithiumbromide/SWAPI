@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # Type Property (ISimpleFilletFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleFilletFeatureData2::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~Type.html)
-
-.
+Obsolete. Superseded by [ISimpleFilletFeatureData2::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~Type.html).
 
 ## Syntax
 
@@ -46,24 +42,13 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~Type.html)
-
-.
+See [SimpleFilletFeatureData::Type](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~Type.html).
 
 ## See Also
 
 [ISimpleFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData.html)
-
 [ISimpleFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData_members.html)

@@ -40,13 +40,7 @@ System.int GetInstanceCount()
 System.int GetInstanceCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ Number of pattern instances
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::GetInstanceCount](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetInstanceCount.html)
-
-.
+See [DimPatternFeatureData::GetInstanceCount](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetInstanceCount.html).
 
 ## Examples
 
 [Insert Variable Pattern Feature (C#)](Insert_Advanced_Variable_Pattern_Feature_Example_CSharp.htm)
-
 [Insert Variable Pattern Feature (VB.NET)](Insert_Advanced_Variable_Pattern_Feature_Example_VBNET.htm)
-
 [Insert Variable Pattern Feature (VBA)](Insert_Advanced_Variable_Pattern_Feature_Example_VB.htm)
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
 
 ## Availability

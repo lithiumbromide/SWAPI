@@ -45,58 +45,27 @@ property System.bool Staggered {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to alternate positioning of the weld beads, false to not (see
-
-Remarks
-
-)
+True to alternate positioning of the weld beads, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFeatureData::Staggered](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~Staggered.html)
-
-.
+See [CosmeticWeldBeadFeatureData::Staggered](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~Staggered.html).
 
 ## Examples
 
-See
-
-[ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
-examples.
+See [ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ICosmeticWeldBeadFeatureData::Side](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData~Side.html)
-
-=
-
-[swCosmeticWeldBeadSide_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticWeldBeadSide_e.html)
-
-.swCosmeticWeldBeadSide_BothSides and
-
-[ICosmeticWeldBeadFeatureData::IntermittentWeld](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData~IntermittentWeld.html)
-
-is true.
+This property is valid only if [ICosmeticWeldBeadFeatureData::Side](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData~Side.html) = [swCosmeticWeldBeadSide_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCosmeticWeldBeadSide_e.html).swCosmeticWeldBeadSide_BothSides and [ICosmeticWeldBeadFeatureData::IntermittentWeld](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData~IntermittentWeld.html) is true.
 
 ## See Also
 
 [ICosmeticWeldBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
 [ICosmeticWeldBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData_members.html)
 
 ## Availability

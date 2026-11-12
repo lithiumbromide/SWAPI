@@ -45,13 +45,7 @@ property System.Object^ SplineData {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Array of spline data points
 
 ## VBA Syntax
 
-See
-
-[SimulationMotorFeatureData::SplineData](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~SplineData.html)
-
-.
+See [SimulationMotorFeatureData::SplineData](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~SplineData.html).
 
 ## See Also
 
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
-
 [ISimulationMotorFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData_members.html)
-
 [ISimulationMotorFeatureData::LoadSplineData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData~LoadSplineData.html)
 
 ## Availability

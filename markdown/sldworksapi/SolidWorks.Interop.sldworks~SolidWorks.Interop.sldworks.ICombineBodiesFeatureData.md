@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to a combine feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,17 @@ public interface class ICombineBodiesFeatureData
 
 ## VBA Syntax
 
-See
-
-[CombineBodiesFeatureData](ms-its:sldworksapivb6.chm::/sldworks~CombineBodiesFeatureData.html)
-
-.
+See [CombineBodiesFeatureData](ms-its:sldworksapivb6.chm::/sldworks~CombineBodiesFeatureData.html).
 
 ## Examples
 
 [Combine Bodies (C#)](Combine_Bodies_Example_CSharp.htm)
-
 [Combine Bodies (VB.NET)](Combine_Bodies_Example_VBNET.htm)
-
 [Combine Bodies (VBA)](Combine_Bodies_Example_VB.htm)
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)designcommand:name=edit,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBaseFlangeFeatureData|c313'and[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)designcommand:name=edit,id='SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBaseFlangeFeatureData|c313' and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 ## Access Diagram
 
@@ -66,9 +60,6 @@ See
 ## See Also
 
 [ICombineBodiesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICombineBodiesFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::IInsertCombineFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~IInsertCombineFeature.html)
-
 [IFeatureManager::InsertCombineFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCombineFeature.html)

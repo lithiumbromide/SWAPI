@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupDataFlags.html"
 
 # EdmGroupDataFlags Enumeration
 
-Options specified in
-
-[EdmGroupData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData.html)
-
-used by
-
-[IEdmUserMgr6::AddGroups](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddGroups.html)
-
-to create new groups.
+Options specified in [EdmGroupData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData.html) used by [IEdmUserMgr6::AddGroups](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddGroups.html) to create new groups.
 
 ## Syntax
 

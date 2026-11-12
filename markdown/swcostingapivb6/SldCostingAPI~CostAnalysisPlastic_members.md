@@ -1,6 +1,5 @@
 ---
-title: "CostAnalysisPlastic Object
-Members"
+title: "CostAnalysisPlastic Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "CostAnalysisPlastic_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~CostAnalysisPlastic_members.html"
 ---
 
-# CostAnalysisPlastic Object
-Members
+# CostAnalysisPlastic Object Members
 
 ## Public Methods
 

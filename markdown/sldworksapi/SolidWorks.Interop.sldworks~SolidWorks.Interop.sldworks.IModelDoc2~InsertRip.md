@@ -46,13 +46,7 @@ void InsertRip(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,18 +54,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertRip](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertRip.html)
-
-.
+See [ModelDoc2::InsertRip](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertRip.html).
 
 ## Examples
 
 [Access Edges on Rip Feature (VBA)](Access_and_Release_Access_to_Edges_Example_VB.htm)
-
 [Access Edges on Rip Feature (VB.NET)](Access_and_Release_Access_to_Edges_Example_VBNET.htm)
-
 [Access Edges on Rip Feature (C#)](Access_and_Release_Access_to_Edges_Example_CSharp.htm)
 
 ## Remarks
@@ -87,9 +75,7 @@ The direction of the rip is determined by the Mark value used to select the edge
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IRipFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData.html)
 
 ## Availability

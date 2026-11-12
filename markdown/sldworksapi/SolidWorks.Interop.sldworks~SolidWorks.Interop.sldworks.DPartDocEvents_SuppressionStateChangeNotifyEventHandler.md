@@ -55,45 +55,23 @@ public delegate System.int DPartDocEvents_SuppressionStateChangeNotifyEventHandl
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Feature`: [Feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-whose suppression state changed
-- `NewSuppressionState`: New suppression state for the feature as defined by
-
-[swFeatureSuppressionAction_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureSuppressionAction_e.html)
-- `PreviousSuppressionState`: New suppression state for the feature as defined by
-
-[swFeatureSuppressionAction_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureSuppressionAction_e.html)
-- `ConfigurationOption`: Configuration option as defined by
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Feature`: [Feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) whose suppression state changed
+- `NewSuppressionState`: New suppression state for the feature as defined by [swFeatureSuppressionAction_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureSuppressionAction_e.html)
+- `PreviousSuppressionState`: New suppression state for the feature as defined by [swFeatureSuppressionAction_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureSuppressionAction_e.html)
+- `ConfigurationOption`: Configuration option as defined by [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `ConfigurationNames`: Array of configurations in which the suppression state of the feature changes
 
 ## VBA Syntax
 
-See
-
-[SuppressionStateChangeNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~SuppressionStateChangeNotify_EV.html)
-
-.
+See [SuppressionStateChangeNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~SuppressionStateChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartSuppressionStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartSuppressionStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

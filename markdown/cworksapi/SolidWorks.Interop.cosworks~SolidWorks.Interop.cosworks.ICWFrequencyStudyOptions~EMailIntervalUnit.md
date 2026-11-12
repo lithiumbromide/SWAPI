@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFr
 
 # EMailIntervalUnit Property (ICWFrequencyStudyOptions)
 
-Gets or sets the units of time for
-
-[ICWFrequencyStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMailInterval.html)
-
-.
+Gets or sets the units of time for [ICWFrequencyStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMailInterval.html).
 
 ## Syntax
 
@@ -51,7 +47,7 @@ property System.int EMailIntervalUnit {
 
 ### Property Value
 
-Time units as defined in[swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeUnits_e.html):
+Time units as defined in [swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTimeUnits_e.html):
 
 - swsSecond
 - swsMinute
@@ -59,30 +55,21 @@ Time units as defined in[swsTimeUnits_e](SolidWorks.Interop.cosworks~SolidWorks.
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::EMailIntervalUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~EMailIntervalUnit.html)
-
-.
+See [CWFrequencyStudyOptions::EMailIntervalUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~EMailIntervalUnit.html).
 
 ## Remarks
 
 This property is valid only if:
 
-- [ICWFrequencyStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMailTimebased.html)
-
-  is set to 1,
+- [ICWFrequencyStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMailTimebased.html) is set to 1,
 
 - and -
 
-- [ICWFrequencyStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMail.html)
-
-  is set to 1.
+- [ICWFrequencyStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMail.html) is set to 1.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

@@ -11,49 +11,35 @@ source: "swdocmgrapi/Get_Display_Title_Name_Example_CSharp.htm"
 
 This example shows how to get the display title name of a document.
 
-/ /
-=================================================
+// =================================================
 
 // Preconditions:
 
-// 1. Read the SOLIDWORKS Document Manager API Getting
-Started
+// 1. Read the SOLIDWORKS Document Manager API Getting Started
 
-// topic
-and ensure that the required DLLs are registered.
+// topic and ensure that the required DLLs are registered.
 
-// 2. Copy and paste this code into a C# console
-application
+// 2. Copy and paste this code into a C# console application
 
-// in
-Microsoft Visual Studio.
+// in Microsoft Visual Studio.
 
-// 3. Add the**SolidWorks.Interop.swdocumentmgr.dll**reference to the project:
+// 3. Add the **SolidWorks.Interop.swdocumentmgr.dll** reference to the project:
 
-// a.
-Right-click the solution in Solution Explorer.
+// a. Right-click the solution in Solution Explorer.
 
-// b.
-Select Add Reference .
+// b. Select **Add Reference**.
 
-// c.
-Click Browse .
+// c. Click **Browse**.
 
-// d.
-Click install_dir \api\redist\SolidWorks.Interop.swdocumentmgr.dll .
+// d. Click `install_dir`**\api\redist\SolidWorks.Interop.swdocumentmgr.dll**.
 
-// e.
-Click Add .
+// e. Click **Add**.
 
-// f.
-Click Close .
+// f. Click **Close**.
 
-// 4.
-Ensure that sLicenseKey and sDocFileName point
-to valid strings.
+// 4. Ensure that **sLicenseKey** and **sDocFileName** point to valid strings.
 
-// 5.
-Open an Immediate window.
+// 5. Open an Immediate window.
 
 //
 
@@ -129,7 +115,7 @@ swDoc = swDocMgr.GetDocument(sDocFileName, nDocType, false, retval);
 
 Debug.Print("File = " + swDoc.FullName);
 
-Debug.Print("DisplayTitleName = " + swDoc. GetDisplayTitleName );
+Debug.Print("DisplayTitleName = " + swDoc.**GetDisplayTitleName**);
 
 swDoc.CloseDoc();
 
@@ -137,11 +123,9 @@ swDoc.CloseDoc();
 
 /// <summary>
 
-/// ''' The
-SldWorks swApp variable is pre-assigned for you.
+/// ''' The SldWorks swApp variable is pre-assigned for you.
 
-/// '''
-</summary>
+/// ''' </summary>
 
 public SldWorks swApp;
 

@@ -40,13 +40,7 @@ System.bool UpgradeLegacyCThreads()
 System.bool UpgradeLegacyCThreads();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,33 +48,19 @@ True if cosmetic threads upgraded successfully in this legacy model, false if no
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::UpgradeLegacyCThreads](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~UpgradeLegacyCThreads.html)
-
-.
+See [ModelDocExtension::UpgradeLegacyCThreads](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~UpgradeLegacyCThreads.html).
 
 ## Remarks
 
 This method:
 
 - is valid only if the system option allowing the upgrade of legacy files containing cosmetic threads is selected.
-- corresponds to the user-interface command,
-
-  feature_manager_design_tree_top_node
-
-  RMB
-
-  > Upgrade cosmetic thread features
-
-  .
+- corresponds to the user-interface command, `feature_manager_design_tree_top_node` **RMB** **> Upgrade cosmetic thread features**.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::HasLegacyCThreads Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~HasLegacyCThreads.html)
 
 ## Availability

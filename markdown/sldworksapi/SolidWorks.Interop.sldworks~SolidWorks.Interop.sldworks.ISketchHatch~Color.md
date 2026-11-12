@@ -45,13 +45,7 @@ property System.int Color {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ COLORREF value
 
 ## VBA Syntax
 
-See
-
-[SketchHatch::Color](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Color.html)
-
-.
+See [SketchHatch::Color](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Color.html).
 
 ## Examples
 
-See the
-
-[ISketchHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
-examples.
+See the [ISketchHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html) examples.
 
 ## Examples
 
@@ -80,7 +66,6 @@ examples.
 ## See Also
 
 [ISketchHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
 [ISketchHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch_members.html)
 
 ## Availability

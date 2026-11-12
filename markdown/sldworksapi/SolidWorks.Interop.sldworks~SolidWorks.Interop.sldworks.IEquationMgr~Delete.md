@@ -47,13 +47,7 @@ System.int Delete(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::Delete](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~Delete.html)
-
-.
+See [EquationMgr::Delete](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~Delete.html).
 
 ## Examples
 
 [Add Equation and Evalute All (C#)](Add_Equation_And_Evaluate_All_Example_CSharp.htm)
-
 [Add Equation and Evalute All (VB.NET)](Add_Equation_And_Evaluate_All_Example_VBNET.htm)
-
 [Add Equation and Evalute All (VBA)](Add_Equation_And_Evaluate_All_Example_VB.htm)
 
 ## Remarks
@@ -86,19 +74,12 @@ When you delete an equation, you are removing it from the list of relations. Thu
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::Add2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Add2.html)
-
 [IEquationMgr::Add3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Add3.html)
-
 [IEquationMgr::GetCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GetCount.html)
-
 [IEquationMgr::Equation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
-
 [IEquationMgr::Disabled Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Disabled.html)
-
 [IEquationMgr::GetDisabledEquationCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GetDisabledEquationCount.html)
 
 ## Availability

@@ -43,13 +43,7 @@ public delegate System.int DTaskpaneViewEvents_TaskPaneToolbarButtonClickedEvent
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,27 +51,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[TaskPaneToolbarButtonClicked Event (TaskpaneView)](ms-its:sldworksapivb6.chm::/SldWorks~TaskpaneView~TaskPaneToolbarButtonClicked_EV.html)
-
-.
+See [TaskPaneToolbarButtonClicked Event (TaskpaneView)](ms-its:sldworksapivb6.chm::/SldWorks~TaskpaneView~TaskPaneToolbarButtonClicked_EV.html).
 
 ## Examples
 
 [Add Buttons to Task Pane (VBA)](Add_Buttons_to_Task_Pane_Example_VB.htm)
-
 [Add Buttons to Task Pane (VB.NET)](Add_Buttons_to_Task_Pane_Example_VBNET.htm)
-
 [Add Buttons to Task Pane (C#)](Add_Buttons_to_Task_Pane_Example_CSharp.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAppTaskPaneToolbarButtonClicked](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTaskPaneNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppTaskPaneToolbarButtonClicked](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTaskPaneNotify_e.html) to register for this notification.
 
 ## Availability
 

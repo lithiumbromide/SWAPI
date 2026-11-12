@@ -40,40 +40,24 @@ System.object GetVisibleComponentsInView()
 System.Object^ GetVisibleComponentsInView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of visible
-
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-in this assembly
+Array of visible [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) in this assembly
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetVisibleComponentsInView](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetVisibleComponentsInView.html)
-
-.
+See [AssemblyDoc::GetVisibleComponentsInView](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetVisibleComponentsInView.html).
 
 ## Remarks
 
-One way to save an assembly as a multibody part document is to save the visible components in the assembly document as solid bodies. This method corresponds to theExterior Componentsoption in theFile, Save Asdialog box. For more information about saving assemblies as multibody documents, see SOLIDWORKS Help.
+One way to save an assembly as a multibody part document is to save the visible components in the assembly document as solid bodies. This method corresponds to the Exterior Components option in the File, Save As dialog box. For more information about saving assemblies as multibody documents, see SOLIDWORKS Help.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::IGetVisibleComponentsInView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IGetVisibleComponentsInView.html)
 
 ## Availability

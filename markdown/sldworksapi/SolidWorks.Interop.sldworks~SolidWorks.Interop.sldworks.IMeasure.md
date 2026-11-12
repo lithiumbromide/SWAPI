@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMe
 
 Allows access to the measure tool.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IMeasure
 
 ## VBA Syntax
 
-See
-
-[Measure](ms-its:sldworksapivb6.chm::/sldworks~Measure.html)
-
-.
+See [Measure](ms-its:sldworksapivb6.chm::/sldworks~Measure.html).
 
 ## Examples
 
 [Measure Selected Entities (C#)](Measure_Selected_Entities_Example_CSharp.htm)
-
 [Measure Selected Entities (VB.NET)](Measure_Selected_Entities_Example_VBNET.htm)
-
 [Measure Selected Entities (VBA)](Measure_Selected_Entities_Example_VB.htm)
 
 ## Accessors
@@ -66,5 +60,4 @@ See
 ## See Also
 
 [IMeasure Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

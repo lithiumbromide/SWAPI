@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # CompareGeometry Method (ICompareGeometry)
 
-Obsolete. Superseded by
-
-[ICompareGeometry::CompareGeometry2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareGeometry~CompareGeometry2.html)
-
-.
+Obsolete. Superseded by [ICompareGeometry::CompareGeometry2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareGeometry~CompareGeometry2.html).
 
 ## Syntax
 
@@ -77,14 +73,9 @@ System.int CompareGeometry(
 
 ## VBA Syntax
 
-See
-
-[ICompareGeometry::CompareGeometry](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareGeometry~CompareGeometry.html)
-
-.
+See [ICompareGeometry::CompareGeometry](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareGeometry~CompareGeometry.html).
 
 ## See Also
 
 [ICompareGeometry Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry.html)
-
 [ICompareGeometry Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareGeometry_members.html)

@@ -45,13 +45,7 @@ property System.bool ZonalSection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,25 @@ True if the section method is zonal, false if it is planar
 
 ## VBA Syntax
 
-See
-
-[SectionViewData::ZonalSection](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~ZonalSection.html)
-
-.
+See [SectionViewData::ZonalSection](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~ZonalSection.html).
 
 ## Examples
 
 [Selectively and Transparently Section a Section View (C#)](Selectively_and_Transparently_Section_a_Section_View_Example_CSharp.htm)
-
 [Selectively and Transparently Section a Section View (VB.NET)](Selectively_and_Transparently_Section_a_Section_View_Example_VBNET.htm)
-
 [Selectively and Transparently Section a Section View (VBA)](Selectively_and_Transparently_Section_a_Section_View_Example_VB.htm)
 
 ## Remarks
 
-Call[ISectionViewData::SectionedZones](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~SectionedZones.html)to specify the section zones.
+Call [ISectionViewData::SectionedZones](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~SectionedZones.html) to specify the section zones.
 
-ISectionViewData::ZonalSection must be true for[transparent sectioning](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~TransparentSection.html).
+ISectionViewData::ZonalSection must be true for [transparent sectioning](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~TransparentSection.html).
 
-**NOTE:**Zonal sectioning is only supported on graphics cards that support OpenGL 4.0; zonal sectioning is not supported in Software Only OpenGL.
+**NOTE:** Zonal sectioning is only supported on graphics cards that support OpenGL 4.0; zonal sectioning is not supported in Software Only OpenGL.
 
 ## See Also
 
 [ISectionViewData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html)
-
 [ISectionViewData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData_members.html)
 
 ## Availability

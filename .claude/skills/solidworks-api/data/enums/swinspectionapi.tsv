@@ -1,0 +1,140 @@
+#swapi-enums 1 module=swinspectionapi sw=2026 prefix=SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn. cols=name,value,description
+@swiBalloonSettingLayer_e		Ballooning layer types.
+swiLayer_ActiveLayer	0
+swiLayer_UseSpecificLayer	1
+@swiBalloonSettingsFit_e		Ballooning fit types.
+swiFit_Five	5
+swiFit_Four	4
+swiFit_One	1
+swiFit_Three	3
+swiFit_Tight	0
+swiFit_Two	2
+@swiBalloonSettingsOffsetTypes_e		Ballooning offset types.
+swiType_Dimensions	0
+swiType_GDTs	1
+swiType_HoleCallouts	3
+swiType_HoleTable	6
+swiType_Notes	2
+swiType_SurfaceFinishes	5
+swiType_Welds	4
+@swiBalloonSettingsShape_e		Ballooning shape types.
+swiShape_Box	4
+swiShape_Circular	1
+swiShape_Diamond	5
+swiShape_Flag_Pentagon	8
+swiShape_Flag_Triangle	9
+swiShape_Hexagon	3
+swiShape_Inspection	13
+swiShape_None	0
+swiShape_Pentagon	6
+swiShape_Split_Circle	7
+swiShape_Square	11
+swiShape_Square_Circle	12
+swiShape_Triangle	2
+swiShape_Underline	10
+swiShape_VDA	14
+@swiCharacteristicClassification_e		Classification type of the inspection project.
+swiClassification_Critical	0
+swiClassification_Incidental	3
+swiClassification_Major	1
+swiClassification_Minor	2
+@swiCharacteristicInfoExtraction_e		Types of extractions.
+swiExtraction_Automatic	0	Automatically extracts characteristics based on project settings
+swiExtraction_Manual	1	Applies balloons to the characteristics you select; balloons are numbered in the order of selection
+@swiCharacteristicInfoSort_e		Types of ballooning display arrangements.
+swiClockwise	1
+swiCounterClockwise	2
+swiNone	0
+@swiCharacteristicSubType_e		Characteristic sub-types.
+swiSubType_Angular	2
+swiSubType_Angularity	4
+swiSubType_ArcLength	19
+swiSubType_BendAngle	32
+swiSubType_BendDirection	34
+swiSubType_BendQuantity	36
+swiSubType_BendRadius	33
+swiSubType_BendSequence	35
+swiSubType_Chamfer	20
+swiSubType_Circularity	13
+swiSubType_Concentricity	5
+swiSubType_CounterboreDepth	24
+swiSubType_CounterboreDiameter	23
+swiSubType_CounterdrillAngle	37
+swiSubType_CounterdrillDepth	38
+swiSubType_CounterdrillDiameter	39
+swiSubType_CountersinkAngle	31
+swiSubType_CountersinkDepth	26
+swiSubType_CountersinkDiameter	25
+swiSubType_Cylindricity	6
+swiSubType_Depth	22
+swiSubType_Description	40
+swiSubType_Diameter	0
+swiSubType_DrillAngle	41
+swiSubType_FarSideCountersinkAngle	42
+swiSubType_FarSideCountersinkDiameter	43
+swiSubType_FastenerSize	44
+swiSubType_FastenerType	45
+swiSubType_Flatness	7
+swiSubType_HeadClearance	46
+swiSubType_HoleDepth	47
+swiSubType_HoleDiameter	48
+swiSubType_HoleXLocation	100
+swiSubType_HoleYLocation	101
+swiSubType_Length	3
+swiSubType_MajorDiameter	49
+swiSubType_MiddleCountersinkAngle	50
+swiSubType_MiddleCountersinkDiameter	51
+swiSubType_MinorDiameter	52
+swiSubType_NA	18
+swiSubType_NearSideCountersinkAngle	53
+swiSubType_NearSideCountersinkDiameter	54
+swiSubType_Parallelism	8
+swiSubType_Perpendicularity	9
+swiSubType_Position	10
+swiSubType_Profile	11
+swiSubType_ProfileOfALine	12
+swiSubType_Radial	1
+swiSubType_Runout	14
+swiSubType_Scalar	21
+swiSubType_SlotLength	67
+swiSubType_Square	27
+swiSubType_Standard	55
+swiSubType_Straightness	15
+swiSubType_Symmetry	16
+swiSubType_TapDrillDepth	56
+swiSubType_TapDrillDiameter	57
+swiSubType_Thread	28
+swiSubType_ThreadAngle	58
+swiSubType_ThreadClass	66
+swiSubType_ThreadDepth	30
+swiSubType_ThreadDescription	59
+swiSubType_ThreadDiameter	60
+swiSubType_ThreadSeries	61
+swiSubType_ThreadSize	29
+swiSubType_ThruHoleDepth	62
+swiSubType_ThruHoleDiameter	63
+swiSubType_ThruTapDepth	64
+swiSubType_ThruTapDrillDiameter	65
+swiSubType_TotalRunout	17
+@swiErrorCode_e		Error codes.
+swiExistingProject	2
+swiInvalidInputPath	3
+swiInvalidOutputPath	4
+swiNoOpenDocument	1
+swiSuccess	0
+@swiSamplingLevel_e		Sampling levels.
+swiLevel_I	4
+swiLevel_II	5
+swiLevel_III	6
+swiLevel_S1	0
+swiLevel_S2	1
+swiLevel_S3	2
+swiLevel_S4	3
+@swiSamplingType_e		Sampling types.
+swiType_NORMAL	1
+swiType_REDUCED	0
+swiType_TIGHTENED	2
+@swiVendorsInspectionType_e		Vendor inspection types.
+swiNORMAL	1
+swiREDUCED	0
+swiTIGHTENED	2

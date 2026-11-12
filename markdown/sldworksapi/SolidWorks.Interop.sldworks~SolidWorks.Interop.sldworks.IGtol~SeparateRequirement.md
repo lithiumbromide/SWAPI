@@ -45,13 +45,7 @@ property System.bool SeparateRequirement {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True if a SEP REQT label is present, false if not
 
 ## VBA Syntax
 
-See
-
-[Gtol::SeparateRequirement](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SeparateRequirement.html)
-
-.
+See [Gtol::SeparateRequirement](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SeparateRequirement.html).
 
 ## Examples
 
-See the
-
-[IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
-examples.
+See the [IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ The Separate Requirement label is present below the Gtol frame.
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
 
 ## Availability

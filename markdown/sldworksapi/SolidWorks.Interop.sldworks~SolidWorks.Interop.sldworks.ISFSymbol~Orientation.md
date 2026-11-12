@@ -45,38 +45,25 @@ property System.int Orientation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Orientation as defined in
-
-[swSurfaceFinishSymbolOrientation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSurfaceFinishSymbolOrientation_e.html)
+Orientation as defined in [swSurfaceFinishSymbolOrientation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSurfaceFinishSymbolOrientation_e.html)
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::Orientation](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~Orientation.html)
-
-.
+See [SFSymbol::Orientation](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~Orientation.html).
 
 ## Remarks
 
-If setting the value to swSFOrientation_UserDefined, then the angle at which the symbol is displayed does not change. Instead, use[ISFSymbol::SetAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~SetAngle.html)to set the symbol to a user-specified angle, which automatically sets the orientation to swSFOrientation_UserDefined.
+If setting the value to swSFOrientation_UserDefined, then the angle at which the symbol is displayed does not change. Instead, use [ISFSymbol::SetAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~SetAngle.html) to set the symbol to a user-specified angle, which automatically sets the orientation to swSFOrientation_UserDefined.
 
-Use[ISFSymbol::GetAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetAngle.html)to get the angle of the symbol.
+Use [ISFSymbol::GetAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetAngle.html) to get the angle of the symbol.
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)
 
 ## Availability

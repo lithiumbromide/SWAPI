@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData~meType.html
 
 # meType Field
 
-Variable type as defined in
-
-[EdmVariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html)
-
-.
+Variable type as defined in [EdmVariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html).
 
 ## Syntax
 
@@ -39,5 +35,4 @@ EdmVariableType meType
 ## See Also
 
 [EdmVariableData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData.html)
-
 [EdmVariableData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData_members.html)

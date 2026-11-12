@@ -40,13 +40,7 @@ System.bool GetDisplaySizeOutside()
 System.bool GetDisplaySizeOutside();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ True if the datum target area size is displayed outside of the symbol, false if 
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::GetDisplaySizeOutside](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetDisplaySizeOutside.html)
-
-.
+See [DatumTargetSym::GetDisplaySizeOutside](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetDisplaySizeOutside.html).
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::SetDisplay Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDisplay.html)
-
 [IDatumTargetSym::GetDisplaySymbol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetDisplaySymbol.html)
-
 [IDatumTargetSym::GetDisplayTargetArea Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~GetDisplayTargetArea.html)
-
 [IDatumTargetSym::SetDisplay Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDisplay.html)
 
 ## Availability

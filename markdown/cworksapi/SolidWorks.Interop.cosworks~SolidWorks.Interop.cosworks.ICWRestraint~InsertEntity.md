@@ -52,18 +52,12 @@ void InsertEntity(
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~InsertEntity.html)
-
-.
+See [CWRestraint::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~InsertEntity.html).
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
-
 [ICWRestraint::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RemoveEntity.html)
 
 ## Availability

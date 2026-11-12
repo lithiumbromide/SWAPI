@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFr
 
 Allows access to the options of a frequency study.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class ICWFrequencyStudyOptions
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions.html)
-
-.
+See [CWFrequencyStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions.html).
 
 ## Examples
 
 [Create Frequency Study with Solid Mesh (VBA)](Create_Frequency_Study_with_Solid_Mesh_Example_VB.htm)
-
 [Create Frequency Study with Solid Mesh (VB.NET)](Create_Frequency_Study_with_Solid_Mesh_Example_VBNET.htm)
-
 [Create Frequency Study with Solid Mesh (C#)](Create_Frequency_Study_with_Solid_Mesh_Example_CSharp.htm)
 
 ## Accessors
@@ -68,7 +56,5 @@ See
 ## See Also
 
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)

@@ -35,5 +35,4 @@ System.int mlPageHwnd
 ## See Also
 
 [EdmTaskSetupPage Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage.html)
-
 [EdmTaskSetupPage Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage_members.html)

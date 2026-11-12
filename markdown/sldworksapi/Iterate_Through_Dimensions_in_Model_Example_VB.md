@@ -9,8 +9,7 @@ source: "sldworksapi/Iterate_Through_Dimensions_in_Model_Example_VB.htm"
 
 # Iterate Through Dimensions in Model Example (VBA)
 
-This example shows how to iterate through the features and dimensions in a
-part.
+This example shows how to iterate through the features and dimensions in a part.
 
 ```
 '--------------------------------------------------

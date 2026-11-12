@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IAddDimension2 Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::IAddDimension2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IAddDimension2.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::IAddDimension2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IAddDimension2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ DisplayDimension^ IAddDimension2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::IAddDimension2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IAddDimension2.html)
-
-.
+See [ModelDoc::IAddDimension2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IAddDimension2.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

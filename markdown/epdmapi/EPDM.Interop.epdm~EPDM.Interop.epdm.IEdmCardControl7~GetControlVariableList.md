@@ -43,11 +43,7 @@ System.bool GetControlVariableList(
 ### Parameters
 
 - `lDocumentID`: ID of the file
-- `ppVariableItemsList`: Array of list values; empty if the card control is not associated with a list (see
-
-Remarks
-
-)
+- `ppVariableItemsList`: Array of list values; empty if the card control is not associated with a list (see **Remarks**)
 
 ### Return Value
 
@@ -55,22 +51,18 @@ True if retrieving the list is successful, false if not
 
 ## Examples
 
-See the
-
-[IEdmCardControl7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl7.html)
-
-examples.
+See the [IEdmCardControl7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl7.html) examples.
 
 ## Remarks
 
-This method is valid only if[IEdmCardControl5::ControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5~ControlType.html)is set to[EdmCardControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardControlType.html):
+This method is valid only if [IEdmCardControl5::ControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5~ControlType.html) is set to [EdmCardControlType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardControlType.html):
 
 - EdmCtrl_ComboboxDropdown
 - EdmCtrl_ComboboxDroplist
 - EdmCtrl_ComboboxSimple
 - EdmCtrl_Listbox
 
-This method supports the following items that appear in the**Admin tool > Card Editor**when you double-click on a droplist, dropdown, or listbox card control:
+This method supports the following items that appear in the **Admin tool > Card Editor** when you double-click on a droplist, dropdown, or listbox card control:
 
 - Free text
 - Controlled by variable
@@ -81,7 +73,6 @@ This method does not support add-in lists.
 ## See Also
 
 [IEdmCardControl7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl7.html)
-
 [IEdmCardControl7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl7_members.html)
 
 ## Availability

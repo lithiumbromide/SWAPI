@@ -1,6 +1,5 @@
 ---
-title: "SurfaceRadiateFeatureData Object
-Members"
+title: "SurfaceRadiateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfaceRadiateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfaceRadiateFeatureData_members.html"
 ---
 
-# SurfaceRadiateFeatureData Object
-Members
+# SurfaceRadiateFeatureData Object Members
 
 ## Public Methods
 

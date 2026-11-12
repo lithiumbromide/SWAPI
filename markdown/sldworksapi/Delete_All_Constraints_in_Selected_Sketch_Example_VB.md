@@ -9,8 +9,7 @@ source: "sldworksapi/Delete_All_Constraints_in_Selected_Sketch_Example_VB.htm"
 
 # Delete All Constraints in Selected Sketch Example (VBA)
 
-This example shows how to delete all of the constraints in the selected
-sketch.
+This example shows how to delete all of the constraints in the selected sketch.
 
 ```
 '---------------------------------------------------------------

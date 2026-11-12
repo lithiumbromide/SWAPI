@@ -9,13 +9,12 @@ source: "sldworksapi/Get_Paths_of_Open_Documents_Example_VB.htm"
 
 # Get Paths of Open Documents (VBA)
 
-This example shows how to get an array of the open documents, and their
-paths and filenames, in the current SOLIDWORKS session.
+This example shows how to get an array of the open documents, and their paths and filenames, in the current SOLIDWORKS Design session.
 
 ```vb
 '---------------------------------------------
 ' Preconditions: At least one document is
-' kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}open in SOLIDWORKS.
+'                open in SOLIDWORKS Design.
 '
 ' Postconditions: None.
 ----------------------------------------------
@@ -27,11 +26,11 @@ Dim index As Long
 Sub main()
 Set swApp = Application.SldWorks
 count = swApp.GetDocumentCount
-Debug.Print "Number of open documents in this SolidWork session: " & count
+Debug.Print "Number of open documents in this SolidWork Design session: " & count
 vModels = swApp.GetDocuments
 For index = LBound(vModels) To UBound(vModels)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swModel = vModels(index)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Path and name of open document: " & swModel.GetPathName
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Next index
+    Set swModel = vModels(index)
+    Debug.Print "Path and name of open document: " & swModel.GetPathName
+    Next index
 End Sub
 ```

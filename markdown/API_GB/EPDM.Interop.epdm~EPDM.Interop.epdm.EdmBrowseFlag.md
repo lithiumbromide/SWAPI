@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrowseFlag.html"
 
 # EdmBrowseFlag Enumeration
 
-Browse options used in calls to
-
-[IEdmVault5::BrowseForFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~BrowseForFile.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Browse options used in calls to [IEdmVault5::BrowseForFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~BrowseForFile.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

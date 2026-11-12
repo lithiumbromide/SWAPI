@@ -51,28 +51,19 @@ property System.int BlurLength {
 
 ## VBA Syntax
 
-See
-
-[AVIParameter::BlurLength](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~BlurLength.html)
-
-.
+See [AVIParameter::BlurLength](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~BlurLength.html).
 
 ## Examples
 
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study(VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## See Also
 
 [IAVIParameter Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter.html)
-
 [IAVIParameter Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter_members.html)
-
 [IAVIParameter::BlurOffset Property ()](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~BlurOffset.html)
-
 [IAVIParameter::MotionBlur Property ()](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~MotionBlur.html)
 
 ## Availability

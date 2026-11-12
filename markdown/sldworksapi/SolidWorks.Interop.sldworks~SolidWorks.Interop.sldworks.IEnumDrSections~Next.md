@@ -54,27 +54,17 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Celt`: Number of section views for the section views enumeration
-- `Rgelt`: Pointer to an array of[section views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html)of size Celt
+- `Rgelt`: Pointer to an array of [section views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html) of size Celt
 - `PceltFetched`: Pointer to the number of drawing sections returned from the list; this value can be less than Celt if you ask for more drawing sections than exist, or it can be NULL if no more drawing sections exist
 
 ## VBA Syntax
 
-See
-
-[EnumDrSections::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumDrSections~Next.html)
-
-.
+See [EnumDrSections::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumDrSections~Next.html).
 
 ## Remarks
 
@@ -83,5 +73,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumDrSections Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDrSections.html)
-
 [IEnumDrSections Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDrSections_members.html)

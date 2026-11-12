@@ -49,9 +49,7 @@ public enum class swSolidBodiesDescriptionPropertyIndex : public System.Enum
 
 ## Remarks
 
-This enumerator corresponds to dropdowns displayed under
-
-Tools > Options > Document Properties > Weldments > Bounding Box Properties > Solid Bodies Description.
+This enumerator corresponds to dropdowns displayed under **Tools > Options > Document Properties > Weldments > Bounding Box Properties > Solid Bodies Description.**
 
 ## See Also
 

@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGr
 
 Allows access to the gravity load used in structural and nonlinear analyses.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class ICWGravity
 
 ## VBA Syntax
 
-See
-
-[CWGravity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity.html)
-
-.
+See [CWGravity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity.html).
 
 ## Examples
 
 [Add Gravity Load (VBA)](Add_Gravity_Load_Example_VB.htm)
-
 [Add Gravity Load (VB.NET)](Add_Gravity_Load_Example_VBNET.htm)
-
 [Add Gravity Load (C#)](Add_Gravity_Load_Example_CSharp.htm)
 
 ## Accessors
@@ -68,5 +56,4 @@ See
 ## See Also
 
 [ICWGravity Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

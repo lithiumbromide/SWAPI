@@ -39,21 +39,11 @@ void CreateConstructionGeometry()
 void CreateConstructionGeometry();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::CreateConstructionGeometry](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateConstructionGeometry.html)
-
-.
+See [DrawingDoc::CreateConstructionGeometry](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~CreateConstructionGeometry.html).
 
 ## Remarks
 
@@ -62,7 +52,5 @@ This method ignores construction geometry when it generates the solid body.
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [ISketchManager::CreateConstructionGeometry Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateConstructionGeometry.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelDocExtension Interface Members
 
-The following tables list the members exposed by[IModelDocExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html).
+The following tables list the members exposed by [IModelDocExtension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html).
 
 ## Public Properties
 
@@ -19,7 +19,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Property | ActiveCommandTabIndex | Gets and sets the index of the active SOLIDWORKS CommandManager tab. |
 | Property | AnnotationViewCount | Gets the number of annotation views in this part or assembly document. |
 | Property | AnnotationViews | Gets the annotation views in this part or assembly document. |
-| Property | AppPageSetup | Gets the SOLIDWORKS application page setup interface for this document. |
+| Property | AppPageSetup | Gets the SOLIDWORKS Design application page setup interface for this document. |
 | Property | CommandTabVisible | Gets and sets the visibility of the specified SOLIDWORKS CommandManager tab. |
 | Property | CustomPropertyBuilderTemplate | Gets or sets the custom property builder template for this part. |
 | Property | CustomPropertyManager | Gets the custom properties for this document or configuration. |
@@ -39,7 +39,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Property | SunLightInformation | Gets the specified sunlight information. |
 | Property | ToolboxPartType | Gets and sets whether this part is a SOLIDWORKS Toolbox part. |
 | Property | Transparency | Gets and sets the transparency states for the specified display state setting. |
-| Property | UsePageSetup | Gets or sets whether this document uses its own page setup values, SOLIDWORKS application page setup values, or setup values on individual drawing sheets. |
+| Property | UsePageSetup | Gets or sets whether this document uses its own page setup values, SOLIDWORKS Design application page setup values, or setup values on individual drawing sheets. |
 | Property | ViewDisplayRealView | Gets or sets the RealView Graphics setting. |
 | Property | Visibility | Gets and sets the visibility states for the specified display state setting. |
 
@@ -49,12 +49,14 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 
 |  | Name | Description |
 | --- | --- | --- |
+| Method | ActivateFeatureMgrViewx64 | Activates the specified FeatureManager view in x64 applications. |
 | Method | AddAngularRunningDim | Adds the specified angular running dimension for selected entities. |
 | Method | AddComment | Adds a comment to this document's Comment Folder. |
 | Method | AddDecal | Adds a decal to the model. |
 | Method | AddDefaultRenderMaterial | Not supported in SOLIDWORKS 2011 and later and not superseded. |
 | Method | AddDimension | Creates a display dimension at the specified location for selected entities. |
 | Method | AddDisplayStateSpecificRenderMaterial | Adds the specified appearance to the specified display states in the active configuration and returns the IDs assigned to that appearance. |
+| Method | AddFeatureMgrView3x64 | Adds the specified tab to the FeatureManager design tree view in x64 applications. |
 | Method | AddOrdinateDimension | Inserts an ordinate dimension. |
 | Method | AddOrUpdateSearchData | Adds or updates the SOLIDWORKS Search, third-party, application keyword and value to the model document. |
 | Method | AddPathLengthDim | Inserts a path length dimension at the specified coordinates for a selected path. |
@@ -68,6 +70,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | BreakAllExternalFileReferences2 | Breaks all external references and allows you to insert the features of the original part, or parts, if the external references are broken. |
 | Method | Capture3DView | Captures the 3D View of this part or assembly. |
 | Method | ChangeSketchPlane | Changes the plane used by a sketch by moving the selected sketch to the selected plane in the specified configurations. |
+| Method | CheckVersionCompatibility | Checks whether a document can be saved in the file format for an earlier version of SOLIDWORKS. |
 | Method | CloseMessageBar | Closes the specified message bar in this document's window. |
 | Method | CloseUserNotification | Closes the specified user notification in this document's window. |
 | Method | Compare3DPMI | Compare DimXpert annotations, reference dimensions, and other annotations between different versions of the same part document. |
@@ -86,6 +89,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | CreateStructureSystem | Creates a structure system feature using the specified primary and secondary member arrays. |
 | Method | CreateStructureSystemMemberData | Creates the specified structure system member. |
 | Method | CreateTexture | Creates a texture. |
+| Method | DeActivateFeatureMgrViewx64 | Deactivates a tab in the FeatureManager design tree view in x64 applications. |
 | Method | DeleteAllDecals | Deletes all decals on this model. |
 | Method | DeleteAttachment | Deletes the specified file in the Attachments folder in the FeatureManager design tree. |
 | Method | DeleteDecal | Removes the specified decal from this model. |
@@ -151,6 +155,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | GetMaterial | Gets the appearance for the specified appearance ID in the specified configuration in this model document |
 | Method | GetMaterialPropertyValues | Gets the material properties for this model document. |
 | Method | GetMBD3DPdfData | Gets the SOLIDWORKS MBD 3D PDF data object. |
+| Method | GetMBDSTEP242Data | Gets the SOLIDWORKS MBD STEP 242 data object. |
 | Method | GetModelBreakViewNames | Gets the names and number of the Model Break Views in the current configuration of the active model. |
 | Method | GetModelViewCount | Gets the number of model views in this document. |
 | Method | GetModelViews | Gets the model views in this document. |
@@ -167,7 +172,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | GetPersistReference3 | Gets the persistent reference ID for the specified object in this model document. |
 | Method | GetPersistReferenceCount | Obsolete. Superseded by IModelDocExtension::GetPersistReferenceCount3 . |
 | Method | GetPersistReferenceCount3 | Gets the size of the persistent reference ID assigned to the selected object in this model document. |
-| Method | GetPLMID | Gets the ID of this SOLIDWORKS Connected document. |
+| Method | GetPLMID | Gets the ID of this SOLIDWORKS Design connected to the 3DEXPERIENCE platform document. |
 | Method | GetPrint3DDialog | Gets the IPrint3DDialog object. |
 | Method | GetPrintSpecification | Gets the IPrintSpecification object for this document. |
 | Method | GetRenderCustomReferences | Get the custom render references for this model. |
@@ -276,7 +281,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | ListExternalFileReferences2 | Gets the specified external file reference information for this part or assembly. |
 | Method | ListExternalFileReferencesCount | Gets the number of external references on this part or assembly. |
 | Method | LoadDraftingStandard | Loads a custom drafting standard from a file. |
-| Method | Make3DExperienceCompatible | Makes the current model compatible with SOLIDWORKS Connected . |
+| Method | Make3DExperienceCompatible | Makes the current model compatible with SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | MoveDecal | Moves the decal up or down in the list of decals applied to the model. |
 | Method | MoveOrCopy | Moves and optionally copies the selected sketch entities or annotations. |
 | Method | MultiSelect | Obsolete. Superseded by IModelDocExtension::MultiSelect2 . |
@@ -285,7 +290,8 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | PrintOut2 | Obsolete. Superseded by IModelDocExtension::PrintOut3 . |
 | Method | PrintOut3 | Obsolete. Superseded by IModelDocExtension::PrintOut4 . |
 | Method | PrintOut4 | Prints this document without displaying any dialogs or message boxes. |
-| Method | PublishSTEP242File | Exports the SOLIDWORKS MBD 3D part or assembly to a STEP 242 file. |
+| Method | PublishSTEP242File | Obsolete. Superseded by IModelDocExtension::PublishSTEP242File2 . |
+| Method | PublishSTEP242File2 | Exports the SOLIDWORKS MBD 3D part or assembly to a STEP 242 file. |
 | Method | PublishTo3DPDF | Creates a 3D PDF for SOLIDWORKS MBD. |
 | Method | PurgeDisplayState | Purges identical display states so that only unique display states remain. |
 | Method | RayIntersections | Finds the intersections between the specified set of rays and the specified set of bodies. |
@@ -316,7 +322,7 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 | Method | SaveDraftingStandard | Saves the current custom drafting standard to a file. |
 | Method | SavePackAndGo | Saves the files designated for Pack and Go to either a folder or Zip file. |
 | Method | SaveSelection | Creates a new selection set containing the selected entities. |
-| Method | SaveTo3DExperience | Saves this document in SOLIDWORKS Connected using the specified save options. |
+| Method | SaveTo3DExperience | Saves this document in SOLIDWORKS Design connected to the 3DEXPERIENCE platform using the specified save options. |
 | Method | SaveViewToSolidworks | Saves the specified named view of this model to SOLIDWORKS. |
 | Method | ScaleOrCopy | Scales and optionally copies the selected sketch items or annotations. |
 | Method | SelectAll | Selects all edges in a part, all components in an assembly, or all entities (by default, sketch entities, dimensions, and annotations) in a drawing. |
@@ -364,5 +370,4 @@ The following tables list the members exposed by[IModelDocExtension](SolidWorks.
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

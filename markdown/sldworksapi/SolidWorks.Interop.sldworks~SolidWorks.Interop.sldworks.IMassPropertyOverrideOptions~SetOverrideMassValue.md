@@ -47,13 +47,7 @@ System.bool SetOverrideMassValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,34 +59,20 @@ True if the mass is successfully overridden, false if not
 
 ## VBA Syntax
 
-See
-
-[MassPropertyOverrideOptions::SetOverrideMassValue](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~SetOverrideMassValue.html)
-
-.
+See [MassPropertyOverrideOptions::SetOverrideMassValue](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~SetOverrideMassValue.html).
 
 ## Examples
 
-See the
-
-[IMassProperty2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html)
-
-examples.
+See the [IMassProperty2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html) examples.
 
 ## Remarks
 
-This method is valid only if
-
-[IMassPropertyOverrideOptions::OverrideMass](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~OverrideMass.html)
-
-is set to true.
+This method is valid only if [IMassPropertyOverrideOptions::OverrideMass](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~OverrideMass.html) is set to true.
 
 ## See Also
 
 [IMassPropertyOverrideOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions.html)
-
 [IMassPropertyOverrideOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions_members.html)
-
 [IMassProperty2::Mass Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~Mass.html)
 
 ## Availability

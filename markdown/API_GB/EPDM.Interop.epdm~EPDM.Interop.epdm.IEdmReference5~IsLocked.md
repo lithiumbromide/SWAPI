@@ -40,7 +40,6 @@ True if the file is checked out, false if not
 ## See Also
 
 [IEdmReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5.html)
-
 [IEdmReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference5_members.html)
 
 ## Availability

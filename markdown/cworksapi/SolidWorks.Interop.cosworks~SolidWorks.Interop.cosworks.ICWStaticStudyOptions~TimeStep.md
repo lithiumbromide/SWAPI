@@ -51,39 +51,22 @@ Time step at which to import a single temperature from a transient thermal study
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::TimeStep](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~TimeStep.html)
-
-.
+See [CWStaticStudyOptions::TimeStep](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~TimeStep.html).
 
 ## Examples
 
-See the
-
-[ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
-examples.
+See the [ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html) examples.
 
 ## Remarks
 
 This property is valid only if:
 
-- [ICWStaticStudyOptions::ThermalResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~ThermalResults.html)
-
-  is set to
-
-  [swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html)
-
-  .swsThermalOption_TemperatureFromThermalStudy.
-- [ICWStaticStudyOptions::ThermalStudyName](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~ThermalStudyName.html)
-
-  is specified and is a transient thermal study.
+- [ICWStaticStudyOptions::ThermalResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~ThermalResults.html) is set to [swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html).swsThermalOption_TemperatureFromThermalStudy.
+- [ICWStaticStudyOptions::ThermalStudyName](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~ThermalStudyName.html) is specified and is a transient thermal study.
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

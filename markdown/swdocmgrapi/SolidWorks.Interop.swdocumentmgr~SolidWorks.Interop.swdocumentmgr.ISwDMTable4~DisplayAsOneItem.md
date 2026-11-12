@@ -48,16 +48,11 @@ True if different configurations have the same item number when the BOM table co
 
 ## VBA Syntax
 
-See
-
-[SwDMTable4::DisplayAsOneItem](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable4~DisplayAsOneItem.html)
-
-.
+See [SwDMTable4::DisplayAsOneItem](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable4~DisplayAsOneItem.html).
 
 ## Examples
 
 [Get BOM Tables (C#)](Get_BOM_Tables_Example_CSharp.htm)
-
 [Get BOM Tables (VB.NET)](Get_BOM_Tables_Example_VBNET.htm)
 
 ## Remarks
@@ -67,7 +62,6 @@ This property only supports model documents saved in SOLIDWORKS 2012 and later.
 ## See Also
 
 [ISwDMTable4 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable4.html)
-
 [ISwDMTable4 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable4_members.html)
 
 ## Availability

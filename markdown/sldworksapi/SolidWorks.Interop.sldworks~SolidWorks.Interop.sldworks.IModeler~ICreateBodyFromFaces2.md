@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ICreateBodyFromFaces2 Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::ICreateBodyFromFace3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromFaces3.html)
-
-.
+Obsolete. Superseded by [IModeler::ICreateBodyFromFace3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBodyFromFaces3.html).
 
 ## Syntax
 
@@ -67,13 +63,7 @@ Body^ ICreateBodyFromFaces2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,14 +75,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Modeler::ICreateBodyFromFaces2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateBodyFromFaces2.html)
-
-.
+See [Modeler::ICreateBodyFromFaces2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateBodyFromFaces2.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)

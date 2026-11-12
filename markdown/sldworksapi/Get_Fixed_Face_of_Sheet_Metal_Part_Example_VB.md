@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Fixed_Face_of_Sheet_Metal_Part_Example_VB.htm"
 
 # Get Fixed Face of Sheet Metal Part Example (VBA)
 
-This example shows how to find and select the fixed face or edge of a sheet
-metal part.
+This example shows how to find and select the fixed face or edge of a sheet metal part.
 
 ```
 '-----------------------------------------------------------------

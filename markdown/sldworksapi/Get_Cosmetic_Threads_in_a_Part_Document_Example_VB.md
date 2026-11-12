@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Cosmetic_Threads_in_a_Part_Document_Example_VB.htm"
 
 # Get Cosmetic Threads Features in a Part Example (VBA)
 
-This example shows how to create and get mirrored and patterned cosmetic thread feature
-data in a part document.
+This example shows how to create and get mirrored and patterned cosmetic thread feature data in a part document.
 
 ```
 '-------------------------------------------------------------------

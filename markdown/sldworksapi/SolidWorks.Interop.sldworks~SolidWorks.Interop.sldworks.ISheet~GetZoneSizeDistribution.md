@@ -51,13 +51,7 @@ System.int GetZoneSizeDistribution(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,22 +60,15 @@ See
 
 ### Return Value
 
-Zone size distribution as defined by
-
-[swZoneSizeDistribution_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZoneSizeDistribution_e.html)
+Zone size distribution as defined by [swZoneSizeDistribution_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZoneSizeDistribution_e.html)
 
 ## VBA Syntax
 
-See
-
-[Sheet::GetZoneSizeDistribution](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~GetZoneSizeDistribution.html)
-
-.
+See [Sheet::GetZoneSizeDistribution](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~GetZoneSizeDistribution.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
 
 ## Availability

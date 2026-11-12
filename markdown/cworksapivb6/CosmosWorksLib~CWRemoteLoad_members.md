@@ -1,6 +1,5 @@
 ---
-title: "CWRemoteLoad Object
-Members"
+title: "CWRemoteLoad Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWRemoteLoad_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWRemoteLoad_members.html"
 ---
 
-# CWRemoteLoad Object
-Members
+# CWRemoteLoad Object Members
 
 ## Public Methods
 
@@ -21,6 +19,8 @@ Members
 | Public Method GetMassValues2 |  |
 | Public Method GetMomentOrRotationValues |  |
 | Public Method GetMomentOrRotationValues2 |  |
+| Public Method GetReferenceCoordinateSystem |  |
+| Public Method GetReferenceCoordinateSystem2 |  |
 | Public Method GetTimeOrFrequencyCurve |  |
 | Public Method InsertEntity |  |
 | Public Method RemoteLoadBeginEdit |  |

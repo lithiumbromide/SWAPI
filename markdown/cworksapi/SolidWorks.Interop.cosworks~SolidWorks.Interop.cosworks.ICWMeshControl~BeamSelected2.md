@@ -51,11 +51,7 @@ property System.bool BeamSelected2 {
 
 ## Examples
 
-See the
-
-[ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
-examples.
+See the [ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html) examples.
 
 ## Remarks
 
@@ -64,7 +60,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
 
 ## Availability

@@ -59,34 +59,14 @@ Configuration^ AddComponentConfiguration(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Name`: Name of new configuration
-- `Comment`: Comment displayed in
-
-Configuration Properties
-- `AlternateName`: Alternate configuration name; used if swConfigOption_UseAlternateName is set to true (see
-
-Remarks
-
-)
-- `Options`: Combination of one or more BOOLEAN configuration options as defined in
-
-[swConfigurationOptions2_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConfigurationOptions2_e.html)
-
-(see
-
-Remarks
-
-)
+- `Comment`: Comment displayed in Configuration Properties
+- `AlternateName`: Alternate configuration name; used if swConfigOption_UseAlternateName is set to true (see **Remarks**)
+- `Options`: Combination of one or more BOOLEAN configuration options as defined in [swConfigurationOptions2_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConfigurationOptions2_e.html) (see Remarks)
 
 ### Return Value
 
@@ -94,11 +74,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddComponentConfiguration](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddComponentConfiguration.html)
-
-.
+See [AssemblyDoc::AddComponentConfiguration](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddComponentConfiguration.html).
 
 ## Remarks
 
@@ -112,7 +88,6 @@ The Options argument can be a combination of any of the following values:
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

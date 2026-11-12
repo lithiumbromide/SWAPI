@@ -40,13 +40,7 @@ System.int GetMultiJogLeaderCount()
 System.int GetMultiJogLeaderCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ Total number of multi-jog leaders on this drawing view
 
 ## VBA Syntax
 
-See
-
-[View::GetMultiJogLeaderCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetMultiJogLeaderCount.html)
-
-.
+See [View::GetMultiJogLeaderCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetMultiJogLeaderCount.html).
 
 ## Remarks
 
-Call this method before calling[IView::IGetMultiJogLeaders](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetMultiJogLeaders.html)to determine the size of the array for that method.
+Call this method before calling [IView::IGetMultiJogLeaders](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetMultiJogLeaders.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetMultiJogLeaders Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetMultiJogLeaders.html)
 
 ## Availability

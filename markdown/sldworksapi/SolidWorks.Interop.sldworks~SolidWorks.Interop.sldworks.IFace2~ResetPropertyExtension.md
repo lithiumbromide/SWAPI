@@ -39,21 +39,11 @@ void ResetPropertyExtension()
 void ResetPropertyExtension();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face2::ResetPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~Face2~ResetPropertyExtension.html)
-
-.
+See [Face2::ResetPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~Face2~ResetPropertyExtension.html).
 
 ## Remarks
 
@@ -62,11 +52,8 @@ This method is unsupported for faces obtained from reference surface bodies.
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::AddPropertyExtension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~AddPropertyExtension.html)
-
 [IFace2::GetPropertyExtension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetPropertyExtension.html)
 
 ## Availability

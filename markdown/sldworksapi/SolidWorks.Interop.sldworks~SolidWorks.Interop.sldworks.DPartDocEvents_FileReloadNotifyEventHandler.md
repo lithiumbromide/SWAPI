@@ -37,29 +37,15 @@ public delegate System.int DPartDocEvents_FileReloadNotifyEventHandler()
 public delegate System.int DPartDocEvents_FileReloadNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[FileReloadNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FileReloadNotify_EV.html)
-
-.
+See [FileReloadNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FileReloadNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartFileReloadNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartFileReloadNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -9,8 +9,6 @@ source: "swconst/SO_Import.htm"
 
 # System Options > Import
 
-(Table)=========================================================
-
 | File Format Setting |
 | --- |
 | General |
@@ -21,3 +19,4 @@ source: "swconst/SO_Import.htm"
 | Inventor/Catia V5/Creo/NX/Solid Edge |
 | SLDXML |
 | STEP/IGES/ACIS |
+| Parasolid |

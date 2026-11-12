@@ -51,13 +51,7 @@ System.bool GetSystemChamferValues(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,12 @@ True if the dimension is a chamfer dimension, false if not
 
 ## VBA Syntax
 
-See
-
-[Dimension::GetSystemChamferValues](ms-its:sldworksapivb6.chm::/sldworks~Dimension~GetSystemChamferValues.html)
-
-.
+See [Dimension::GetSystemChamferValues](ms-its:sldworksapivb6.chm::/sldworks~Dimension~GetSystemChamferValues.html).
 
 ## Examples
 
 [Get Chamfer Dimension (C#)](Get_Chamfer_Dimension_Example_CSharp.htm)
-
 [Get Chamfer Dimension (VB.NET)](Get_Chamfer_Dimension_Example_VBNET.htm)
-
 [Get Chamfer Dimension (VBA)](Get_Chamfer_Dimension_Example_VB.htm)
 
 ## Remarks
@@ -91,11 +79,8 @@ Unlike most other types of dimensions, the values returned for a chamfer dimensi
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)
-
 [IDrawingDoc::AddChamferDim Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~AddChamferDim.html)
-
 [IDrawingDoc::IAddChamferDim Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~IAddChamferDim.html)
 
 ## Availability

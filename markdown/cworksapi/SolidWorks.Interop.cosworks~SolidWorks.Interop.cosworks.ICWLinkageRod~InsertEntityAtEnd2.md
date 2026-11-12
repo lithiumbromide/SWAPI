@@ -52,16 +52,11 @@ void InsertEntityAtEnd2(
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::InsertEntityAtEnd2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~InsertEntityAtEnd2.html)
-
-.
+See [CWLinkageRod::InsertEntityAtEnd2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~InsertEntityAtEnd2.html).
 
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

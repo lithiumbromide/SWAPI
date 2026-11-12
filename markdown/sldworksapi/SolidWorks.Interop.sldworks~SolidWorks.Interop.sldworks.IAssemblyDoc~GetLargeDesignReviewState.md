@@ -40,27 +40,15 @@ System.int GetLargeDesignReviewState()
 System.int GetLargeDesignReviewState();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Large Design Review state as defined by
-
-[swLargeDesignReviewState_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swLargeDesignReviewState_e.html)
+Large Design Review state as defined by [swLargeDesignReviewState_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swLargeDesignReviewState_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetLargeDesignReviewState](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetLargeDesignReviewState.html)
-
-.
+See [AssemblyDoc::GetLargeDesignReviewState](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetLargeDesignReviewState.html).
 
 ## Examples
 
@@ -86,9 +74,9 @@ Sub main()
 
 Set swApp = Application.SldWorks
 
-Set swAssemDoc = swApp. ActiveDoc
+Set swAssemDoc = swApp.**ActiveDoc**
 
-LDRState = swAssemDoc. GetLargeDesignReviewState
+LDRState = swAssemDoc.**GetLargeDesignReviewState**
 
 If (LDRState = 0) Then
 
@@ -109,7 +97,6 @@ End Sub
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

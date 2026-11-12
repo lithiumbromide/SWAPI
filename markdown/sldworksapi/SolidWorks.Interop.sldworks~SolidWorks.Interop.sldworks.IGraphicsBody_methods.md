@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGr
 
 # IGraphicsBody Interface Methods
 
-For a list of all members of this type, see[IGraphicsBody members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody_members.html).
+For a list of all members of this type, see [IGraphicsBody members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody_members.html).
 
 ## Public Methods
 
@@ -25,7 +25,5 @@ For a list of all members of this type, see[IGraphicsBody members](SolidWorks.In
 ## See Also
 
 [IGraphicsBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMeshBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody.html)

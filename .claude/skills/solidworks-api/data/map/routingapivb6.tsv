@@ -1,0 +1,142 @@
+#swapi-map 1 module=routingapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@AdvancedRouteSelector	o
+Find	m	Function Find(ByVal connectorName As String, ByVal searchType As Long:swRoutingSearchType_e, ByVal singleInstanceOnly As Boolean, ByVal append As Boolean) As Long
+getAttachedComponentsCount	m	Function getAttachedComponentsCount(ByVal selIndex As Long) As Long
+Select	m	Function Select(ByVal selIndex As Long, ByVal append As Boolean, ByVal callbackIn As Object:SelectData, ByVal outputType As Long:swAdvancedRouteSelectionOutput_e, ByRef selObjName As Variant) As Variant
+SetSelectionColor	m	Sub SetSelectionColor(ByVal special As Boolean, ByVal colorIndex As Long)
+@AutoRoute	o
+ConvertGuidelinesToRoute	m	Function ConvertGuidelinesToRoute() As Boolean
+CreatePointToPointAutoRoute	m	Function CreatePointToPointAutoRoute(ByVal conversionMode As Long:swPointToPointAutoRouteConversionMode_e) As Long:swPointToPointAutoRouteErrorType_e
+CreateRouteThroughSketchEntities	m	Function CreateRouteThroughSketchEntities(ByVal conversionMode As Long:swAutoRouteConversionMode_e, ByVal autoTangencyMode As Long:swAutoRouteAutoTangencyMode_e, ByVal EntityTypes As Variant:swAutoRouteSketchEntitiesTypes_e, ByVal EntityIDs As Variant) As Long:swAutoRouteErrorType_e
+DeleteAllGuidelines	m	Sub DeleteAllGuidelines()
+ICreateRouteThroughSketchEntities	m	Function ICreateRouteThroughSketchEntities(ByVal conversionMode As Long:swAutoRouteConversionMode_e, ByVal autoTangencyMode As Long:swAutoRouteAutoTangencyMode_e, ByVal Count As Long, ByRef EntityTypes As Long:swAutoRouteSketchEntitiesTypes_e, ByRef EntityIDs As Long) As Long:swAutoRouteErrorType_e
+MergeGuidelines	m	Function MergeGuidelines() As Boolean
+SelectGuidelines	m	Function SelectGuidelines() As Long
+ShowGuidelines	m	Function ShowGuidelines() As Long
+@Cable	o
+GetCableProperty	m	Function GetCableProperty() As CableProperty
+GetCores	m	Function GetCores() As Variant:Wire
+GetCoresCount	m	Function GetCoresCount() As Long
+GetCuttingLength	m	Function GetCuttingLength() As Double
+IGetCores	m	Function IGetCores(ByRef Count As Long) As Wire
+UserName	p	Property UserName As String
+@CableProperty	o
+Diameter	p	Property Diameter As Double
+GetCoreProperties	m	Function GetCoreProperties() As Variant:WireProperty
+GetCorePropertyCount	m	Function GetCorePropertyCount() As Long
+IGetCoreProperties	m	Function IGetCoreProperties(ByRef Count As Long) As WireProperty
+Name	p	Property Name As String
+@Covering	o
+Color	p	Property Color As Long
+Name	p	Property Name As String
+OuterDiameter	p	Property OuterDiameter As Double
+PartNumber	p	Property PartNumber As String
+@ElectricalFlatRoute	o
+GetConnectorData	m	Function GetConnectorData(ByVal connectorName As String, ByRef fittingPoint As Object, ByRef fittingDirection As Variant, ByRef isVisible As Boolean) As Boolean
+GetElectricalDrawingSettings	m	Function GetElectricalDrawingSettings(ByRef elecBomTblTmplt As String, ByRef cutListTmplt As String, ByRef ConnectorTblTmplt As String) As Long
+GetFittingFilePath	m	Function GetFittingFilePath(ByVal connectorName As String) As String
+GetSketchSegments	m	Function GetSketchSegments(ByVal RouteSegmentID As Long) As Variant:SketchSegment
+GetSketchSegmentsCount	m	Function GetSketchSegmentsCount(ByVal RouteSegmentID As Long) As Long
+IGetConnectorData	m	Function IGetConnectorData(ByVal connectorName As String, ByRef fittingPoint As Object, ByRef fittingDirection As Double, ByRef isVisible As Boolean) As Boolean
+IGetSketchSegments	m	Function IGetSketchSegments(ByVal RouteSegmentID As Long, ByRef Count As Long) As Object:SketchSegment
+@ElectricalRoute	o
+GetActiveRouteSketch	m	Function GetActiveRouteSketch() As Object:Sketch
+GetCables	m	Function GetCables() As Variant:Cable
+GetCablesCount	m	Function GetCablesCount() As Long
+GetRibbonCableDispatch	m	Function GetRibbonCableDispatch() As RibbonCable
+GetRouteProperty	m	Function GetRouteProperty(ByVal RouteSegmentID As Long) As RouteProperty
+GetRouteSegmentID	m	Function GetRouteSegmentID(ByVal SketchSegment As Object:SketchSegment) As Long
+GetSketchSegments	m	Function GetSketchSegments(ByVal RouteSegmentID As Long) As Variant:SketchSegment
+GetSketchSegmentsCount	m	Function GetSketchSegmentsCount(ByVal RouteSegmentID As Long) As Long
+GetWires	m	Function GetWires() As Variant:Wire
+GetWiresCount	m	Function GetWiresCount() As Long
+IGetCables	m	Function IGetCables(ByRef Count As Long) As Cable
+IGetSketchSegments	m	Function IGetSketchSegments(ByVal RouteSegmentID As Long, ByRef Count As Long) As Object:SketchSegment
+IGetWires	m	Function IGetWires(ByRef Count As Long) As Wire
+RouteWires	m	Function RouteWires() As Boolean
+@ElectricalRouteProperty	o
+BundleDiameter	p	Property BundleDiameter As Double
+BundleMinimumBendRadius	p	Property BundleMinimumBendRadius As Double
+IsOuterDiameterFixed	p	Property IsOuterDiameterFixed As Boolean
+OuterDiameter	p	Property OuterDiameter As Double
+SubType	p	Property SubType As Long:swElectricalRouteSubType_e
+@RibbonCable	o
+GetRibbonCableThickness	p	Property GetRibbonCableThickness As Double
+GetRibbonCableWidth	p	Property GetRibbonCableWidth As Double
+@RouteManager	o
+AddToRoute	m	Function AddToRoute() As Boolean
+ChangeRoutingLibComponentPaths	m	Sub ChangeRoutingLibComponentPaths(ByVal oldLibPaths As Variant, ByVal newLibPaths As Variant)
+CreateFlattenRoute	m	Function CreateFlattenRoute(ByVal flattenType As Long:swRoutingFlattenTypes_e, ByVal connectorOption As Long:swRoutingFlattenConnectorOptions_e, ByVal formboardWidth As Double, ByVal formboardHeight As Double, ByVal segmentOrientation As Long:swRoutingFlattenSegmentOrientation_e, ByVal drawingOption As Boolean, ByVal sheetFormatTemplate As String, ByVal elecBOMTemplate As String, ByVal cutListTemplate As String, ByVal connectorTableTemplate As String, ByVal autoBalloons As Boolean) As Long:swFlattenRouteErrorType_e
+CreatePipeDrawingforPipeRoute	m	Sub CreatePipeDrawingforPipeRoute(ByVal BOMTemplatePath As String, ByVal BOMTemplateName As String, ByVal insertBalloons As Boolean, ByVal insertBOM As Boolean, ByVal showSketch As Boolean, ByVal subAssembly As Boolean, ByVal userSheetWidth As Double, ByVal userSheetHeight As Double, ByVal sheetTemplatePath As String, ByVal sheetTemplateName As String, ByVal displayFormat As Boolean, ByVal dwgTemplates As Long:swDwgTemplates_e)
+CreateRouteLine	m	Function CreateRouteLine(ByVal P1x As Double, ByVal P1y As Double, ByVal P1z As Double, ByVal P2x As Double, ByVal P2y As Double, ByVal P2z As Double) As Object:SketchSegment
+EditRoute	m	Sub EditRoute()
+ExitRoute	m	Sub ExitRoute()
+ExportPipeData	m	Function ExportPipeData(ByVal fileName As String, ByVal units As Long, ByVal options As Long) As Long:swRoutingExportPipeDataError_e
+ExportTubeData	m	Function ExportTubeData(ByVal fileName As String, ByVal type As Long:swExportTubeDataReportType_e, ByVal options As Long) As Long:swRoutingExportDataError_e
+GetAdvancedRouteSelector	m	Function GetAdvancedRouteSelector() As AdvancedRouteSelector
+GetAllRouteSegmentCount	m	Function GetAllRouteSegmentCount() As Long
+GetAllRouteSegmentIDs	m	Function GetAllRouteSegmentIDs() As Variant
+GetAutoRoute	m	Function GetAutoRoute() As AutoRoute
+GetElectricalComponentFromSearchpath	m	Function GetElectricalComponentFromSearchpath(ByVal __MIDL__IRouteManager0001 As String) As String
+GetElectricalFlatRoute	m	Function GetElectricalFlatRoute(ByVal FlatRouteName As String) As ElectricalFlatRoute
+GetElectricalRoute	m	Function GetElectricalRoute() As ElectricalRoute
+GetRouteProperty	m	Function GetRouteProperty() As RouteProperty
+GetRoutingComponentFromSearchpath	m	Function GetRoutingComponentFromSearchpath(ByVal __MIDL__IRouteManager0000 As String) As String
+GetRoutingLibComponentReferences	m	Function GetRoutingLibComponentReferences(ByVal bstrFolder As String) As Variant
+IGetAllRouteSegmentIDs	m	Function IGetAllRouteSegmentIDs(ByRef Count As Long) As Long
+ImportFromToList	m	Function ImportFromToList(ByVal fromtoListFileName As String, ByVal componentLibraryFilename As String, ByVal cableWireLibraryFileName As String, ByVal useExistingAssembly As Boolean, ByVal overwriteData As Boolean, ByVal searchAllSubAssemblies As Boolean) As Boolean
+StartRoute	m	Function StartRoute(ByVal Pathname As String, ByVal ConfigName As String) As Boolean
+@RouteProperty	o
+AddCovering	m	Function AddCovering(ByVal Covering As Covering) As Boolean
+BendRadius	p	Property BendRadius As Double
+CreateCovering	m	Function CreateCovering() As Covering
+GetCovering	m	Function GetCovering() As Covering
+GetFixedLength	m	Function GetFixedLength() As Double
+HasCovering	p	Property HasCovering As Boolean
+MinimumBendRadius	p	Property MinimumBendRadius As Double
+RemoveCovering	m	Sub RemoveCovering()
+RouteType	p	Property RouteType As Long:swRouteType_e
+SetFixedLength	m	Function SetFixedLength(ByVal NewLength As Double) As Long:swSetRouteFixedLengthError_e
+@RoutingComponentManager	o
+CreateEndConnectorIllustration	m	Sub CreateEndConnectorIllustration()
+GetComponentCrossSectionType	m	Function GetComponentCrossSectionType() As Long:swComponentCrossSectionType_e
+GetComponentRouteType	m	Function GetComponentRouteType() As Long:swComponentRouteType_e
+GetComponentRouteTypeFromCustomProperty	m	Function GetComponentRouteTypeFromCustomProperty() As Long:swComponentRouteType_e
+GetComponentType	m	Function GetComponentType() As Long:swRouteComponentTypeID_e
+GetComponentUserDefinedRouteTypeName	m	Function GetComponentUserDefinedRouteTypeName() As String
+GetCPointConfiguration	m	Function GetCPointConfiguration() As Long:swCPointConfig_e
+GetRouteComponentSubType	m	Function GetRouteComponentSubType() As Long
+GetRouteComponentTypeSetThrRLM	m	Function GetRouteComponentTypeSetThrRLM() As Boolean
+GetRoutingComponentDescription	m	Function GetRoutingComponentDescription() As String
+GetRoutingStringValue	m	Function GetRoutingStringValue(ByVal StringID As Long) As String
+SetComponentCrossSectionType	m	Sub SetComponentCrossSectionType(ByVal crossSection As Long:swComponentCrossSectionType_e)
+SetComponentRouteTypeToCustomProperty	m	Sub SetComponentRouteTypeToCustomProperty(ByVal RouteType As Long:swComponentRouteType_e)
+SetComponentType	m	Sub SetComponentType(ByVal ComponentType As Long:swRouteComponentTypeID_e)
+SetComponentUserDefinedRouteTypeName	m	Sub SetComponentUserDefinedRouteTypeName(ByVal StringID As String)
+SetCPointConfiguration	m	Sub SetCPointConfiguration(ByVal type As Long:swCPointConfig_e)
+SetRouteComponentSubType	m	Sub SetRouteComponentSubType(ByVal ComponentSubType As Long)
+SetRouteComponentTypeSetThrRLM	m	Sub SetRouteComponentTypeSetThrRLM(ByVal ComponentType As Boolean)
+SetRouteTypeAndSubRouteType	m	Sub SetRouteTypeAndSubRouteType(ByVal RouteType As Long:swComponentRouteType_e, ByVal SubRouteType As Long:swComponentRouteType_e)
+SetRoutingComponentDescription	m	Sub SetRoutingComponentDescription(ByVal StringID As String)
+@Wire	o
+FromComponentReference	p	Property FromComponentReference As String
+FromPinReference	p	Property FromPinReference As String
+GetCuttingLength	m	Function GetCuttingLength() As Double
+GetRouteErrors	m	Function GetRouteErrors() As Variant:swWireRouteError_e
+GetRouteErrorsCount	m	Function GetRouteErrorsCount() As Long
+GetRouteSegmentIDs	m	Function GetRouteSegmentIDs() As Variant
+GetRouteSegmentIDsCount	m	Function GetRouteSegmentIDsCount() As Long
+GetWireProperty	m	Function GetWireProperty() As WireProperty
+IGetRouteErrors	m	Function IGetRouteErrors(ByRef Count As Long) As Long:swWireRouteError_e
+IGetRouteSegmentIDs	m	Function IGetRouteSegmentIDs(ByRef Count As Long) As Long
+ISetRoutePathForWire	m	Function ISetRoutePathForWire(ByVal numRouteSegmentIds As Long, ByRef RouteSegmentIDs As Long) As Long:swSetRoutePathForWireErrorType_e
+SetRoutePathForWire	m	Function SetRoutePathForWire(ByVal RouteSegmentIDs As Variant) As Long:swSetRoutePathForWireErrorType_e
+ToComponentReference	p	Property ToComponentReference As String
+ToPinReference	p	Property ToPinReference As String
+UserName	p	Property UserName As String
+@WireProperty	o
+Color	p	Property Color As Long
+Diameter	p	Property Diameter As Double
+Name	p	Property Name As String
+PartNumber	p	Property PartNumber As String
+Size	p	Property Size As String

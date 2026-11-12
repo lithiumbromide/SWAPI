@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGt
 
 # GetTextFormat Method (IGtol)
 
-Obsolete. Superseded by
-
-[IAnnotation::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetTextFormat.html)
-
-.
+Obsolete. Superseded by [IAnnotation::GetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetTextFormat.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetTextFormat()
 System.Object^ GetTextFormat();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetTextFormat.html)
-
-.
+See [Gtol::GetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetTextFormat.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)

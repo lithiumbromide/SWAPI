@@ -1,6 +1,5 @@
 ---
-title: "ICurveParamData Object
-Members"
+title: "ICurveParamData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ICurveParamData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ICurveParamData_members.html"
 ---
 
-# ICurveParamData Object
-Members
+# ICurveParamData Object Members
 
 ## Public Properties
 

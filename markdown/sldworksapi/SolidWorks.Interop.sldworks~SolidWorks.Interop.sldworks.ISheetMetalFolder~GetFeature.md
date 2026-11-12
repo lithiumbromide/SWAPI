@@ -40,13 +40,7 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[SheetMetalFolder::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFolder~GetFeature.html)
-
-.
+See [SheetMetalFolder::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFolder~GetFeature.html).
 
 ## Examples
 
-See
-
-[ISheetMetalFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFolder.html)
-
-examples.
+See [ISheetMetalFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFolder.html) examples.
 
 ## See Also
 
 [ISheetMetalFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFolder.html)
-
 [ISheetMetalFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFolder_members.html)
 
 ## Availability

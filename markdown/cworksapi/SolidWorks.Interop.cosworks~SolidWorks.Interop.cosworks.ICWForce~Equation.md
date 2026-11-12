@@ -51,11 +51,7 @@ Nonuniform force distribution equation
 
 ## VBA Syntax
 
-See
-
-[CWForce::Equation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~Equation.html)
-
-.
+See [CWForce::Equation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~Equation.html).
 
 ## Examples
 
@@ -92,31 +88,23 @@ CWForceObj.Equation = ".4*\"r\" +.8* \"t\" +.6* \"z\"";
 ## Examples
 
 [Add Nonuniform Force Distribution (VBA)](Add_Force_Example_VB.htm)
-
 [Add Nonuniform Force Distribution (VB.NET)](Add_Force_Example_VBNET.htm)
-
 [Add Nonuniform Force Distribution (C#)](Add_Force_Example_CSharp.htm)
 
 ## Remarks
 
-This property is valid only if[ICWForce::IncludeNonUniformDistribution2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~IncludeNonUniformDistribution2.html)is set to -1 or true.
+This property is valid only if [ICWForce::IncludeNonUniformDistribution2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~IncludeNonUniformDistribution2.html) is set to -1 or true.
 
-The equation is a string that contains double-quoted coordinate variables. In the example, the cylindrical coordinate system requires that the equation be specified with coordinate variables r, t, and z. Other coordinate systems use different sets of coordinate variables. See the**Defining Nonuniform Force Loads**topic in the SOLIDWORKS Simulation user-interface help for more information.
+The equation is a string that contains double-quoted coordinate variables. In the example, the cylindrical coordinate system requires that the equation be specified with coordinate variables r, t, and z. Other coordinate systems use different sets of coordinate variables. See the **Defining Nonuniform Force Loads** topic in the SOLIDWORKS Simulation user-interface help for more information.
 
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
-
 [ICWForce::EquationAngularUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~EquationAngularUnit.html)
-
 [ICWForce::EquationCoordinateSystemType Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~EquationCoordinateSystemType.html)
-
 [ICWForce::EquationLinearUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~EquationLinearUnit.html)
-
 [ICWForce::GetCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~GetCoordinateSystem.html)
-
 [ICWForce::SetCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetCoordinateSystem.html)
 
 ## Availability

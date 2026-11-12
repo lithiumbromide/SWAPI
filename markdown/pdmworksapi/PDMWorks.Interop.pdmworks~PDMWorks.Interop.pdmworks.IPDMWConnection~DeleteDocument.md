@@ -57,16 +57,11 @@ System.int DeleteDocument(
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::DeleteDocument](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~DeleteDocument.html)
-
-.
+See [PDMWConnection::DeleteDocument](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~DeleteDocument.html).
 
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
 
 ## Availability

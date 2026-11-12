@@ -9,18 +9,20 @@ source: "sldworksapi/Get_Mass_Properties_of_Multibody_Assembly_Component_Example
 
 # Get Mass Properties of Multibody Assembly Component Example (C#)
 
-This example shows how to get the mass properties of a multibody assembly
-component in which an assembly cut-extrude feature is created.
+This example shows how to get the mass properties of a multibody assembly component in which an assembly cut-extrude feature is created.
 
 **NOTES:**
 
-- An assembly
-  component, i.e., a part or subassembly, can contain one or more assembly-level features. Some types of assembly features, e.g.,
-  cut extrude, can affect the mass properties.
-  Assembly features are not present in the part or subassembly.
-- Mass property
-  values returned are relative to the
-  component origin, not the assembly origin.
+-
+
+  ```vb
+  An assembly component, i.e., a part or subassembly, can contain  one or more assembly-level features. Some types of assembly features, e.g., cut extrude, can affect the mass properties. Assembly features are not present in the part or subassembly.
+  ```
+-
+
+  ```vb
+  Mass property values returned are relative to the component origin, not the assembly origin.
+  ```
 
 ```
 //---------------------------------------------------------------

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EnumModelViews Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EnumModelViews](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EnumModelViews.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::EnumModelViews](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EnumModelViews.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ EnumModelViews EnumModelViews()
 EnumModelViews^ EnumModelViews();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EnumModelViews](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EnumModelViews.html)
-
-.
+See [ModelDoc::EnumModelViews](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EnumModelViews.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

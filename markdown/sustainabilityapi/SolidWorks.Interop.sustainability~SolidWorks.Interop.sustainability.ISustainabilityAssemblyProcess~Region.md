@@ -47,30 +47,19 @@ property System.int Region {
 
 ### Property Value
 
-Region of assembly as defined in
-
-[swSustainabilityRegionName_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityRegionName_e.html)
+Region of assembly as defined in [swSustainabilityRegionName_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityRegionName_e.html)
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyProcess::Region](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess~Region.html)
-
-.
+See [SustainabilityAssemblyProcess::Region](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess~Region.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess.html)
-
-.
+See the examples in [ISustainabilityAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess.html).
 
 ## See Also
 
 [ISustainabilityAssemblyProcess Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess.html)
-
 [ISustainabilityAssemblyProcess Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess_members.html)
 
 ## Availability

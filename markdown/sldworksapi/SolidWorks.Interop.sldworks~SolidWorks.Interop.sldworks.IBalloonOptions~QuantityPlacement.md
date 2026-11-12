@@ -45,33 +45,19 @@ property System.int QuantityPlacement {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Placement of the BOM item quantity as defined in[swBalloonQuantityPlacement_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonQuantityPlacement_e.html)
+Placement of the BOM item quantity as defined in [swBalloonQuantityPlacement_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonQuantityPlacement_e.html)
 
 ## VBA Syntax
 
-See
-
-[BalloonOptions::QuantityPlacement](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~QuantityPlacement.html)
-
-.
+See [BalloonOptions::QuantityPlacement](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~QuantityPlacement.html).
 
 ## Examples
 
-See
-
-[IBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonOptions.html)
-
-examples.
+See [IBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonOptions.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ See the SOLIDWORKS Help for additional details about balloons.
 ## See Also
 
 [IBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions.html)
-
 [IBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions_members.html)
 
 ## Availability

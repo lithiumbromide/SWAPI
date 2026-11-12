@@ -1,6 +1,5 @@
 ---
-title: "CommandGroup Object
-Members"
+title: "CommandGroup Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CommandGroup_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CommandGroup_members.html"
 ---
 
-# CommandGroup Object
-Members
+# CommandGroup Object Members
 
 ## Public Methods
 

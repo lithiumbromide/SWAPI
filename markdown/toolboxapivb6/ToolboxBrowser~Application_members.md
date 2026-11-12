@@ -1,6 +1,5 @@
 ---
-title: "Application Object
-Members"
+title: "Application Object Members"
 project: "ToolboxBrowserActiveX DLL"
 interface: "Application_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "toolboxapivb6/ToolboxBrowser~Application_members.html"
 ---
 
-# Application Object
-Members
+# Application Object Members
 
 ## Public Properties
 

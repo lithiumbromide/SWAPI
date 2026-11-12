@@ -49,9 +49,7 @@ CWResultsProbeManager^ GetResultsProbeManager(
 
 ### Parameters
 
-- `ErrorCode`: Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ### Return Value
 
@@ -59,24 +57,15 @@ CWResultsProbeManager^ GetResultsProbeManager(
 
 ## VBA Syntax
 
-See
-
-[CWPlot::GetResultsProbeManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~GetResultsProbeManager.html)
-
-.
+See [CWPlot::GetResultsProbeManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~GetResultsProbeManager.html).
 
 ## Examples
 
-See the
-
-[ICWResultsProbeManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
-examples.
+See the [ICWResultsProbeManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html) examples.
 
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

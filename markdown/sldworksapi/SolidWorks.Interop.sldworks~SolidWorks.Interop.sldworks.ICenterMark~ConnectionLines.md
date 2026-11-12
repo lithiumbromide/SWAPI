@@ -45,27 +45,15 @@ property System.int ConnectionLines {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-State of the visibility of the connection line as defined in
-
-[swCenterMarkConnectionLine_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCenterMarkConnectionLine_e.html)
+State of the visibility of the connection line as defined in [swCenterMarkConnectionLine_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCenterMarkConnectionLine_e.html)
 
 ## VBA Syntax
 
-See
-
-[CenterMark::ConnectionLines](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~ConnectionLines.html)
-
-.
+See [CenterMark::ConnectionLines](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~ConnectionLines.html).
 
 ## Examples
 
@@ -74,7 +62,6 @@ See
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [ICenterMark Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html)
 
 ## Availability

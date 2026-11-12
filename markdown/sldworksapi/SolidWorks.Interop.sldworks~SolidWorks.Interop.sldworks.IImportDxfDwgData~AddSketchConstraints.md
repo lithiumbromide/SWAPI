@@ -50,13 +50,7 @@ property System.bool AddSketchConstraints {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,11 +62,7 @@ True to add constraints, false to not
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::AddSketchConstraints](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~AddSketchConstraints.html)
-
-.
+See [ImportDxfDwgData::AddSketchConstraints](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~AddSketchConstraints.html).
 
 ## Examples
 
@@ -87,7 +77,6 @@ By default, constraints are not added.
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
 
 ## Availability

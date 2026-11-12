@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # SetTimeCurve Method (ICWHeatPower)
 
-Obsolete. Superseded by[ICWHeatPower::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~SetTimeCurve2.html).
+Obsolete. Superseded by [ICWHeatPower::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~SetTimeCurve2.html).
 
 ## Syntax
 
@@ -53,12 +53,8 @@ System.int SetTimeCurve(
 
 ### Parameters
 
-- `VarCurveData`: Array of time curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in[swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveData`: Array of time curve data (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
@@ -66,32 +62,25 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~SetTimeCurve.html)
-
-.
+See [CWHeatPower::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~SetTimeCurve.html).
 
 ## Remarks
 
 Time curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time value at the`ith`data point
+- xi = time value at the `ith` data point
 - yi = property value associated with time xi
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::GetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~GetTimeCurve.html)
-
 [ICWHeatPower::UseTimeCurve Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~UseTimeCurve.html)
 
 ## Availability

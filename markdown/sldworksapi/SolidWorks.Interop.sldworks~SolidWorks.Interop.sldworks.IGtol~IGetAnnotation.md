@@ -40,29 +40,15 @@ Annotation IGetAnnotation()
 Annotation^ IGetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)
-
-object
+Pointer to the [IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html) object
 
 ## VBA Syntax
 
-See
-
-[Gtol::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~Gtol~IGetAnnotation.html)
-
-.
+See [Gtol::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~Gtol~IGetAnnotation.html).
 
 ## Remarks
 
@@ -71,9 +57,7 @@ The IAnnotation object is a higher-level object that contains methods that are a
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetAnnotation.html)
 
 ## Availability

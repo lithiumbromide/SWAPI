@@ -52,13 +52,7 @@ System.Object^ GetSectionProperties2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,19 +60,11 @@ See
 
 ### Return Value
 
-Array of section properties for the selected items (see
-
-Remarks
-
-)
+Array of section properties for the selected items (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetSectionProperties2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetSectionProperties2.html)
-
-.
+See [ModelDocExtension::GetSectionProperties2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetSectionProperties2.html).
 
 ## Examples
 
@@ -87,8 +73,6 @@ See
 ## Remarks
 
 This method clears the selection set.
-
-(Table)=========================================================
 
 | If... | Then... |
 | --- | --- |
@@ -99,8 +83,6 @@ This method clears the selection set.
 The objects in the Sections parameter are added to the current selection set. If the objects are already in the current selection set, an error is generated; that is, status code will be equal to 1, which means invalid input.
 
 The format of the returned array (retval) of size 24:
-
-(Table)=========================================================
 
 | retval[0] | status of request: 0 = success 1 = invalid input 2 = selected faces are not in the same or parallel planes 3 = unable to compute section properties |
 | --- | --- |
@@ -133,9 +115,7 @@ This method returns metric units unless explicitly specified otherwise.
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::IGetSectionProperties2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetSectionProperties2.html)
 
 ## Availability

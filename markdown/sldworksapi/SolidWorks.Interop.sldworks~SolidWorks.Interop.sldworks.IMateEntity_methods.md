@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMateEntity Interface Methods
 
-For a list of all members of this type, see[IMateEntity members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity_members.html).
+For a list of all members of this type, see [IMateEntity members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity_members.html).
 
 ## Public Methods
 
@@ -30,5 +30,4 @@ For a list of all members of this type, see[IMateEntity members](SolidWorks.Inte
 ## See Also
 
 [IMateEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -50,26 +50,16 @@ void IGetParents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ParentCount`: Number of parent features for this macro feature
-- `PFeatures`: - in-process, unmanaged C++: Pointer to an array of
+- `PFeatures`: - in-process, unmanaged C++: Pointer to an array of [features](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) of parents of this macro feature
 
-  [features](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+  VBA, VB.NET, C#, and C++/CLI: Not supported
 
-  of parents of this macro feature
-
-VBA, VB.NET, C#, and C++/CLI: Not supported
-
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
@@ -78,14 +68,13 @@ See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.h
 | assigned to a macro feature by IMacroFeatureData::Parents or IMacroFeatureData::ISetParents | IMacroFeatureData::Parents or IMacroFeatureData::IGetParents - or- IFeature::GetParents or IFeature::IGetParents |
 | of a macro feature created by first selecting objects and then calling IFeatureManager::InsertMacroFeature3 or IFeatureManager::IInsertMacroFeature3 | IMacroFeatureData::GetSelections3 or IMacroFeatureData::IGetSelections3 - or - IFeature::GetParents or IFeature::IGetParents |
 
-Before calling this method, call[IMacroFeatureData::GetParentsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~GetParentsCount.html)to determine the value of ParentCount.
+Before calling this method, call [IMacroFeatureData::GetParentsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~GetParentsCount.html) to determine the value of ParentCount.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [IMacroFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html)
 
 ## Availability

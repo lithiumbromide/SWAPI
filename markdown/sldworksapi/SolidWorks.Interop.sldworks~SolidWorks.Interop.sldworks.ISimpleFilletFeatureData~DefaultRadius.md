@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # DefaultRadius Property (ISimpleFilletFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleFilletFeatureData2::DefaultRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~DefaultRadius.html)
-
-.
+Obsolete. Superseded by [ISimpleFilletFeatureData2::DefaultRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~DefaultRadius.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double DefaultRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData::DefaultRadius](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~DefaultRadius.html)
-
-.
+See [SimpleFilletFeatureData::DefaultRadius](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~DefaultRadius.html).
 
 ## See Also
 
 [ISimpleFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData.html)
-
 [ISimpleFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData_members.html)

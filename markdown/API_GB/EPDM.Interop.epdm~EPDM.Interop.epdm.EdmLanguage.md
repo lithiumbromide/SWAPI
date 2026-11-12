@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLanguage.html"
 
 # EdmLanguage Enumeration
 
-Types of languages; used by
-
-[IEdmVault5::Language](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Language.html)
-
-.
+Types of languages; used by [IEdmVault5::Language](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Language.html).
 
 ## Syntax
 

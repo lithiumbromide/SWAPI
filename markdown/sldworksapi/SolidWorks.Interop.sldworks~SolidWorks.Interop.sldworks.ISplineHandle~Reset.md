@@ -39,38 +39,23 @@ void Reset()
 void Reset();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SplineHandle::Reset](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~Reset.html)
-
-.
+See [SplineHandle::Reset](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~Reset.html).
 
 ## Examples
 
-See the
-
-[ISplineHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
-examples.
+See the [ISplineHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html) examples.
 
 ## Remarks
 
-Use[ISketchSpline::ResetAllHandles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~ResetAllHandles.html)to reset all spline handles to their initial state.
+Use [ISketchSpline::ResetAllHandles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline~ResetAllHandles.html) to reset all spline handles to their initial state.
 
 ## See Also
 
 [ISplineHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
 [ISplineHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle_members.html)
 
 ## Availability

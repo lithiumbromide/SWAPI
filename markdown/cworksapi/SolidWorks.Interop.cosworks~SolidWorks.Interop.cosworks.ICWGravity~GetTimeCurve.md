@@ -42,30 +42,22 @@ System.Object^ GetTimeCurve();
 
 ### Return Value
 
-Array of time curve data (see
-
-Remarks
-
-)
+Array of time curve data (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWGravity::GetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~GetTimeCurve.html)
-
-.
+See [CWGravity::GetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~GetTimeCurve.html).
 
 ## Remarks
 
 Time curve data array:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time value at the`ith`data point
+- xi = time value at the `ith` data point
 - yi = property value associated with time xi
 
 Time curves are used to specify variation with respect to time in transient studies.
@@ -73,9 +65,7 @@ Time curves are used to specify variation with respect to time in transient stud
 ## See Also
 
 [ICWGravity Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html)
-
 [ICWGravity Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html)
-
 [ICWGravity::SetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~SetTimeCurve.html)
 
 ## Availability

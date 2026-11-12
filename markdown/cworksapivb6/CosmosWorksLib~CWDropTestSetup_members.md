@@ -1,6 +1,5 @@
 ---
-title: "CWDropTestSetup Object
-Members"
+title: "CWDropTestSetup Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWDropTestSetup_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWDropTestSetup_members.html"
 ---
 
-# CWDropTestSetup Object
-Members
+# CWDropTestSetup Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "Sheet Object
-Members"
+title: "Sheet Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Sheet_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Sheet_members.html"
 ---
 
-# Sheet Object
-Members
+# Sheet Object Members
 
 ## Public Methods
 
@@ -42,6 +40,7 @@ Members
 | Public Method IGetOLEObjectData |  |
 | Public Method IGetOLEObjectSettings |  |
 | Public Method IGetProperties |  |
+| Public Method InsertFamilyTable |  |
 | Public Method InsertMagneticLine |  |
 | Public Method InsertRevisionTable |  |
 | Public Method InsertRevisionTable2 |  |

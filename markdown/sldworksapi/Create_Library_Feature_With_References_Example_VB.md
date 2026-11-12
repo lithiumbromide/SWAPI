@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Library_Feature_With_References_Example_VB.htm"
 
 # Create Library Feature Data Object and Library Feature With References Example (VBA)
 
-This example shows how to create a library feature with references in order
-to position the library feature on a model.
+This example shows how to create a library feature with references in order to position the library feature on a model.
 
 ```
 '-------------------------------------------------------------------

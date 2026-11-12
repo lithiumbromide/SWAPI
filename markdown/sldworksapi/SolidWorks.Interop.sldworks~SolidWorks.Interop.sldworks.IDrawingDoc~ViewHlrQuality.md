@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # ViewHlrQuality Method (IDrawingDoc)
 
-Toggles the
-
-Hidden Lines Removed
-
-mode for the drawing view.
+Toggles the Hidden Lines Removed mode for the drawing view.
 
 ## Syntax
 
@@ -43,40 +39,22 @@ void ViewHlrQuality()
 void ViewHlrQuality();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::ViewHlrQuality](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ViewHlrQuality.html)
-
-.
+See [DrawingDoc::ViewHlrQuality](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ViewHlrQuality.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::ViewDisplayHidden Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewDisplayHidden.html)
-
 [IDrawingDoc::ViewDisplayHiddengreyed Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewDisplayHiddengreyed.html)
-
 [IDrawingDoc::ViewDisplayShaded Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewDisplayShaded.html)
-
 [IDrawingDoc::ViewDisplayWireframe Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewDisplayWireframe.html)
-
 [IDrawingDoc::ViewFullPage Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewFullPage.html)
-
 [IDrawingDoc::ViewModelEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewModelEdges.html)
-
 [IDrawingDoc::ViewTangentEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ViewTangentEdges.html)
 
 ## Availability

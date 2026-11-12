@@ -9,45 +9,14 @@ source: "swconst/DP_Annotations-WeldSymbols.htm"
 
 # Document Properties > Annotations > Weld Symbols
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Base weld symbol standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingWeldSymbol) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingWeldSymbol, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base weld symbol standard to use |
-| Leader style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |
-| Leader style - Leader Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Leader style - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWeldSymbolLeaderLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWeldSymbolLeaderLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of weld symbol leader lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingWeldSymbolTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingWeldSymbolTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Text - Root inside font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingWeldSymbolTextRootInsideFont,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingWeldSymbolTextRootInsideFont,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | Font for the weld symbol text fitting inside root gap; to set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Leader anchor - Closest, Left, or Right | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderSide,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderSide,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderSide_e.< Value >) | See swLeaderSide_e for valid options |  |
-| Fixed size weld symbols | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingFixedSizeWeldSymbol,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingFixedSizeWeldSymbol,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether size of weld symbol is scaled according to dimension
-font size, or size of weld symbol is dependent on selected dimensioning
-standard |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swuserPreferenceOption_e.swDetailingWeldSymbol) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swuserPreferenceOption_e.swDetailingWeldSymbol, < Value >) | String value | Specifies the name of the layer to apply settings to; this setting is
-available only on drawings |
+| Base weld symbol standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingWeldSymbol) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingWeldSymbol, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base weld symbol standard to use |
+| Leader style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |
+| Leader style - Leader Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Leader style - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWeldSymbolLeaderLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingWeldSymbolLeaderLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of weld symbol leader lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingWeldSymbolTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingWeldSymbolTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Text - Root inside font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingWeldSymbolTextRootInsideFont, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingWeldSymbolTextRootInsideFont, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | Font for the weld symbol text fitting inside root gap; to set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Leader anchor - Closest, Left, or Right | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderSide, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingWeldSymbolLeaderSide, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderSide_e.< Value >) | See swLeaderSide_e for valid options |  |
+| Fixed size weld symbols | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingFixedSizeWeldSymbol, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingFixedSizeWeldSymbol, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether size of weld symbol is scaled according to dimension font size, or size of weld symbol is dependent on selected dimensioning standard |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swuserPreferenceOption_e.swDetailingWeldSymbol) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swuserPreferenceOption_e.swDetailingWeldSymbol, < Value >) | String value | Specifies the name of the layer to apply settings to; this setting is available only on drawings |

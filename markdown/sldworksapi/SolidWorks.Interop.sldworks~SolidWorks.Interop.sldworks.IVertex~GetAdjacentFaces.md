@@ -40,25 +40,15 @@ System.object GetAdjacentFaces()
 System.Object^ GetAdjacentFaces();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of the[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)adjacent to this vertex
+Array of the [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) adjacent to this vertex
 
 ## VBA Syntax
 
-See
-
-[Vertex::GetAdjacentFaces](ms-its:sldworksapivb6.chm::/sldworks~Vertex~GetAdjacentFaces.html)
-
-.
+See [Vertex::GetAdjacentFaces](ms-its:sldworksapivb6.chm::/sldworks~Vertex~GetAdjacentFaces.html).
 
 ## Examples
 
@@ -67,11 +57,8 @@ See
 ## See Also
 
 [IVertex Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
 [IVertex Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex_members.html)
-
 [IVertex::IGetAdjacentFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~IGetAdjacentFaces.html)
-
 [IVertex::IGetAdjacentFacesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~IGetAdjacentFacesCount.html)
 
 ## Availability

@@ -47,21 +47,11 @@ System.String^ GetInstanceNameByIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TableRowIndex`: 1-based index of the pattern instance in the pattern table (see
-
-Remarks
-
-)
+- `TableRowIndex`: 1-based index of the pattern instance in the pattern table (see **Remarks**)
 
 ### Return Value
 
@@ -69,32 +59,21 @@ Name of the pattern instance
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::GetInstanceNameByIndex](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetInstanceNameByIndex.html)
-
-.
+See [DimPatternFeatureData::GetInstanceNameByIndex](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetInstanceNameByIndex.html).
 
 ## Examples
 
 [Insert Variable Pattern Feature (C#)](Insert_Advanced_Variable_Pattern_Feature_Example_CSharp.htm)
-
 [Insert Variable Pattern Feature (VB.NET)](Insert_Advanced_Variable_Pattern_Feature_Example_VBNET.htm)
-
 [Insert Variable Pattern Feature (VBA)](Insert_Advanced_Variable_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
 
-Use
-
-[IDimPatternFeatureData::GetInstanceCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceCount.html)
-
-to get TableRowIndex.
+Use [IDimPatternFeatureData::GetInstanceCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceCount.html) to get TableRowIndex.
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
 
 ## Availability

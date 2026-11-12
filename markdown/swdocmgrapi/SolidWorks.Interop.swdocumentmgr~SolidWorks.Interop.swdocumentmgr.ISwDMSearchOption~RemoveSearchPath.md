@@ -48,26 +48,15 @@ void RemoveSearchPath(
 
 ### Parameters
 
-- `remPath`: Search path to remove; for example,
-
-C:
-
-\
-
-parts
+- `remPath`: Search path to remove; for example, C:\parts
 
 ## VBA Syntax
 
-See
-
-[SwDMSearchOption::RemoveSearchPath](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSearchOption~RemoveSearchPath.html)
-
-.
+See [SwDMSearchOption::RemoveSearchPath](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSearchOption~RemoveSearchPath.html).
 
 ## See Also
 
 [ISwDMSearchOption Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSearchOption.html)
-
 [ISwDMSearchOption Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSearchOption_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html"
 
 # IEdmVault11 Interface Members
 
-The following tables list the members exposed by[IEdmVault11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html).
+The following tables list the members exposed by [IEdmVault11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html).
 
 ## Public Properties
 
@@ -39,5 +39,4 @@ The following tables list the members exposed by[IEdmVault11](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmVault11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

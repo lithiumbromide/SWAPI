@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomColumn.html"
 
 # IEdmSWBomColumn Interface
 
-Allows you to access a column in a custom SOLIDWORKS BOM table.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows you to access a column in a custom SOLIDWORKS BOM table. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +33,7 @@ public interface class IEdmSWBomColumn
 
 ## Examples
 
-See the
-
-[IEdmBomMgr3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3.html)
-
-examples.
+See the [IEdmBomMgr3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr3.html) examples.
 
 ## Accessors
 
@@ -56,5 +44,4 @@ examples.
 ## See Also
 
 [IEdmSWBomColumn Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomColumn_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

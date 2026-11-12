@@ -39,32 +39,18 @@ void DissolveSketchText()
 void DissolveSketchText();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::DissolveSketchText](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~DissolveSketchText.html)
-
-.
+See [ModelDoc2::DissolveSketchText](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~DissolveSketchText.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertSketchText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertSketchText.html)
-
 [ISketchText Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText.html)
-
 [IModelDoc2::IInsertSketchText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IInsertSketchText.html)
 
 ## Availability

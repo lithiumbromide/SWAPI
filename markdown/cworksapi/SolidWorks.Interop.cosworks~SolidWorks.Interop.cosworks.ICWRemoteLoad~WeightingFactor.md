@@ -43,17 +43,11 @@ property System.int WeightingFactor {
 
 ### Property Value
 
-Weighting factor as defined by
-
-[swsRemoteLoadWeightingFactor_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadWeightingFactor_e.html)
+Weighting factor as defined by [swsRemoteLoadWeightingFactor_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadWeightingFactor_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::WeightingFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~WeightingFactor.html)
-
-.
+See [CWRemoteLoad::WeightingFactor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~WeightingFactor.html).
 
 ## Examples
 
@@ -61,20 +55,11 @@ See
 
 ## Remarks
 
-This property is valid only if
-
-[ICWRemoteLoad::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ConnectionType.html)
-
-is set to
-
-[swsRemoteLoadConnectionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadConnectionType_e.html)
-
-.swsRemoteLoadConnectionType_Distributed.
+This property is valid only if [ICWRemoteLoad::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~ConnectionType.html) is set to [swsRemoteLoadConnectionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadConnectionType_e.html).swsRemoteLoadConnectionType_Distributed.
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

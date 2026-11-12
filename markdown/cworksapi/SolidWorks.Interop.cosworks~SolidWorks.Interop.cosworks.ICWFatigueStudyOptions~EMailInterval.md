@@ -51,35 +51,18 @@ Time interval
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::EMailInterval](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~EMailInterval.html)
-
-.
+See [CWFatigueStudyOptions::EMailInterval](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~EMailInterval.html).
 
 ## Remarks
 
 This property is:
 
-- set in units specified by
-
-  [ICWFatigueStudyOptions::EMailIntervalUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailIntervalUnit.html)
-
-  .
-- valid only if
-
-  [ICWFatigueStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailTimebased.html)
-
-  is set to 1, and
-
-  [ICWFatigueStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMail.html)
-
-  is set to 1.
+- set in units specified by [ICWFatigueStudyOptions::EMailIntervalUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailIntervalUnit.html).
+- valid only if [ICWFatigueStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMailTimebased.html) is set to 1, and [ICWFatigueStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~EMail.html) is set to 1.
 
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
 
 ## Availability

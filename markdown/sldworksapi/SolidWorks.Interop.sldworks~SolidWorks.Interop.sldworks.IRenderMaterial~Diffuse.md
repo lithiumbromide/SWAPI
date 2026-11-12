@@ -45,13 +45,7 @@ property System.double Diffuse {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Intensity of a light source illuminating a surface from all directions without a
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::Diffuse](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Diffuse.html)
-
-.
+See [RenderMaterial::Diffuse](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~Diffuse.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ The appearance should contain an ambient light.
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISc
 
 # IScrewMateFeatureData Interface Properties
 
-For a list of all members of this type, see[IScrewMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData_members.html).
+For a list of all members of this type, see [IScrewMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData_members.html).
 
 ## Public Properties
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[IScrewMateFeatureData members](Solid
 ## See Also
 
 [IScrewMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

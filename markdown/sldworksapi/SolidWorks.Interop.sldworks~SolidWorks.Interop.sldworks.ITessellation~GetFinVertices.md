@@ -47,13 +47,7 @@ System.Object^ GetFinVertices(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,30 +55,22 @@ See
 
 ### Return Value
 
-Array of two longs or two integers (see[Long vs. Integer](sldworksapiprogguide.chm::/overview/Long_vs_Integer.htm)) describing the vertices IDs of a fin
+Array of two longs or two integers (see [Long vs. Integer](sldworksapiprogguide.chm::/overview/Long_vs_Integer.htm)) describing the vertices IDs of a fin
 
 ## VBA Syntax
 
-See
-
-[Tessellation::GetFinVertices](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFinVertices.html)
-
-.
+See [Tessellation::GetFinVertices](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFinVertices.html).
 
 ## Examples
 
 [Tessellate a Body (C#)](Tessellate_a_Body_Example_CSharp.htm)
-
 [Tessellate a Body (VB.NET)](Tessellate_a_Body_Example_VBNET.htm)
-
 [Tessellate a Body (VBA)](Tessellate_a_Body_Example_VB.htm)
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::IGetFinVertices Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetFinVertices.html)
 
 ## Availability

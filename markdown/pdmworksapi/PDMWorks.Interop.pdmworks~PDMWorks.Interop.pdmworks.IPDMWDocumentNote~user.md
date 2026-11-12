@@ -51,16 +51,11 @@ Name of the user who created this note
 
 ## VBA Syntax
 
-See
-
-[PDMWDocumentNote::user](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNote~user.html)
-
-.
+See [PDMWDocumentNote::user](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNote~user.html).
 
 ## See Also
 
 [IPDMWDocumentNote Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote.html)
-
 [IPDMWDocumentNote Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote_members.html)
 
 ## Availability

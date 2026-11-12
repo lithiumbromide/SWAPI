@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetConfirmReason.html"
 
 # EdmGetConfirmReason Enumeration
 
-Types of confirmation to specify when calling
-
-[IEdmGetOpCallback::ConfirmReplace](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ConfirmReplace.html)
-
-.
+Types of confirmation to specify when calling [IEdmGetOpCallback::ConfirmReplace](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ConfirmReplace.html).
 
 ## Syntax
 

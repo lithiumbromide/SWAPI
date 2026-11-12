@@ -45,13 +45,7 @@ property System.bool NormalToFlangePlane {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ True if the Up To Vertex is on a plane that is normal to the end face of the edg
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData::NormalToFlangePlane](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~NormalToFlangePlane.html)
-
-.
+See [EdgeFlangeFeatureData::NormalToFlangePlane](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~NormalToFlangePlane.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IEdgeFlangeFeatureData::OffsetType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~OffsetType.html)
-
-is set to
-
-[swFlangeOffsetTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangeOffsetTypes_e.html)
-
-.swFlangeOffsetUpToVertex.
+This property is valid only if [IEdgeFlangeFeatureData::OffsetType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~OffsetType.html) is set to [swFlangeOffsetTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangeOffsetTypes_e.html).swFlangeOffsetUpToVertex.
 
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)
 
 ## Availability

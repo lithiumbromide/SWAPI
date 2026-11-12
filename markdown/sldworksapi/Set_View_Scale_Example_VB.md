@@ -9,8 +9,7 @@ source: "sldworksapi/Set_View_Scale_Example_VB.htm"
 
 # Set View Scale Example (VBA)
 
-This example shows how to set the scale of
-a selected drawing view.
+This example shows how to set the scale of a selected drawing view.
 
 ```
 '---------------------------------------------

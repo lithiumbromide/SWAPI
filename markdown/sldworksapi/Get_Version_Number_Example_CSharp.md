@@ -9,7 +9,7 @@ source: "sldworksapi/Get_Version_Number_Example_CSharp.htm"
 
 # Get Version Number Example (C#)
 
-This example shows how to get the version number of theSOLIDWORKSexecutable.
+This example shows how to get the version number of SOLIDWORKS Design.
 
 ```
 //----------------------------------
@@ -35,11 +35,11 @@ namespace VersionCSharp.csproj
 
         public void Main()
         {
-            Debug.Print("SOLIDWORKS Version number: " + swApp.RevisionNumber());
+            Debug.Print("Version number: " + swApp.RevisionNumber());
             swApp.GetBuildNumbers2(out BaseVersion, out CurrentVersion, out HotFixes);
-            Debug.Print("SOLIDWORKS major revision number: " + BaseVersion);
-            Debug.Print("SOLIDWORKS build number: " + CurrentVersion);
-            Debug.Print("SOLIDWORKS hot fix numbers: " + HotFixes);
+            Debug.Print("Major revision number: " + BaseVersion);
+            Debug.Print("Build number: " + CurrentVersion);
+            Debug.Print("Hot fix numbers: " + HotFixes);
         }
 
         /// <summary>

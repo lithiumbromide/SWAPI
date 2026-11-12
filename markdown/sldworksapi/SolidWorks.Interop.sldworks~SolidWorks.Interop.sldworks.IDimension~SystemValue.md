@@ -9,23 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # SystemValue Property (IDimension)
 
-Obsolete. Superseded by
-
-[IDimension::GetSystemValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~GetSystemValue3.html)
-
-,
-
-[IDimension::IGetSystemValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~IGetSystemValue3.html)
-
-,
-
-[IDimension::SetSystemValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~SetSystemValue3.html)
-
-, and
-
-[IDimension::ISetSystemValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~ISetSystemValue3.html)
-
-.
+Obsolete. Superseded by [IDimension::GetSystemValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~GetSystemValue3.html), [IDimension::IGetSystemValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~IGetSystemValue3.html), [IDimension::SetSystemValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~SetSystemValue3.html), and [IDimension::ISetSystemValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~ISetSystemValue3.html).
 
 ## Syntax
 
@@ -61,24 +45,13 @@ property System.double SystemValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Dimension::SystemValue](ms-its:sldworksapivb6.chm::/sldworks~Dimension~SystemValue.html)
-
-.
+See [Dimension::SystemValue](ms-its:sldworksapivb6.chm::/sldworks~Dimension~SystemValue.html).
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 # GetAttachedEntities Method (IAnnotation)
 
-Obsolete. Superseded by
-
-[IAnnotation::GetAttachedEntities2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetAttachedEntities2.html)
-
-.
+Obsolete. Superseded by [IAnnotation::GetAttachedEntities2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetAttachedEntities2.html).
 
 ## Syntax
 
@@ -44,26 +40,15 @@ System.object GetAttachedEntities()
 System.Object^ GetAttachedEntities();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetAttachedEntities](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetAttachedEntities.html)
-
-.
+See [Annotation::GetAttachedEntities](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetAttachedEntities.html).
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

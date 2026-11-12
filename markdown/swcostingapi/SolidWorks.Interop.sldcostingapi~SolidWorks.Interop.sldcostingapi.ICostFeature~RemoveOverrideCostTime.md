@@ -41,22 +41,14 @@ void RemoveOverrideCostTime();
 
 ## VBA Syntax
 
-See
-
-[CostFeature::RemoveOverrideCostTime](swcostingapivb6.chm::/SldCostingAPI~CostFeature~RemoveOverrideCostTime.html)
-
-.
+See [CostFeature::RemoveOverrideCostTime](swcostingapivb6.chm::/SldCostingAPI~CostFeature~RemoveOverrideCostTime.html).
 
 ## See Also
 
 [ICostFeature Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature.html)
-
 [ICostFeature Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature_members.html)
-
 [ICostFeature::IsOverridden Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~IsOverridden.html)
-
 [ICostFeature::CombinedCost Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~CombinedCost.html)
-
 [ICostFeature::CombinedTime Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~CombinedTime.html)
 
 ## Availability

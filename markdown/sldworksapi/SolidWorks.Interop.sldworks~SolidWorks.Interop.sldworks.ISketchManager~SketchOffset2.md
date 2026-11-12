@@ -67,25 +67,15 @@ System.bool SketchOffset2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Offset`: Offset value; negative value offsets the sketch entities in the opposite direction
 - `BothDirections`: True to offset the sketch entities in both directions, false to offset the sketch entities in one direction
-- `Chain`: True to offset the chain of sketch entities, false to offset only the selected sketch entities (see**Remarks**)
-- `CapEnds`: Cap the ends as defined by
-
-[swSkOffsetCapEndType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSkOffsetCapEndType_e.html)
-- `MakeConstruction`: Convert original and offset sketch entities to construction sketch entities as defined by
-
-[swSkOffsetMakeConstructionType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSkOffsetMakeConstructionType_e.html)
+- `Chain`: True to offset the chain of sketch entities, false to offset only the selected sketch entities (see **Remarks**)
+- `CapEnds`: Cap the ends as defined by [swSkOffsetCapEndType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSkOffsetCapEndType_e.html)
+- `MakeConstruction`: Convert original and offset sketch entities to construction sketch entities as defined by [swSkOffsetMakeConstructionType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSkOffsetMakeConstructionType_e.html)
 - `AddDimensions`: True to include the offset distance in the sketch, false to not
 
 ### Return Value
@@ -94,18 +84,12 @@ True if the selected sketch entities are offset, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchManager::SketchOffset2](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchOffset2.html)
-
-.
+See [SketchManager::SketchOffset2](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchOffset2.html).
 
 ## Examples
 
 [Offset Sketch (C#)](Sketch_Offset_Example_CSharp.htm)
-
 [Offset Sketch (VB.NET)](Sketch_Offset_Example_VBNET.htm)
-
 [Offset Sketch (VBA)](Sketch_Offset_Example_VB.htm)
 
 ## Remarks
@@ -115,13 +99,9 @@ Specifying true for Chain offsets the selected sketch entities and any other ske
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [IModelDoc2::SketchOffsetEntities2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchOffsetEntities2.html)
-
 [IModelDoc2::SketchOffsetEdges Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchOffsetEdges.html)
-
 [IModelDocExtension::SketchOffsetOnSurface Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SketchOffsetOnSurface.html)
 
 ## Availability

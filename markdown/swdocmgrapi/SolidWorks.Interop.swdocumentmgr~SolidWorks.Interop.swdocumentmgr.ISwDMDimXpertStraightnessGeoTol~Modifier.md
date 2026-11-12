@@ -44,17 +44,11 @@ property swDmDimXpertMaterialConditionModifier_e Modifier {
 
 ### Property Value
 
-Material condition modifier as defined in
-
-[swDmDimXpertMaterialConditionModifier_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertMaterialConditionModifier_e.html)
+Material condition modifier as defined in [swDmDimXpertMaterialConditionModifier_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertMaterialConditionModifier_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertStraightnessGeoTol::Modifier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertStraightnessGeoTol~Modifier.html)
-
-.
+See [SwDMDimXpertStraightnessGeoTol::Modifier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertStraightnessGeoTol~Modifier.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertStraightnessGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertStraightnessGeoTol.html)
-
 [ISwDMDimXpertStraightnessGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertStraightnessGeoTol_members.html)
 
 ## Availability

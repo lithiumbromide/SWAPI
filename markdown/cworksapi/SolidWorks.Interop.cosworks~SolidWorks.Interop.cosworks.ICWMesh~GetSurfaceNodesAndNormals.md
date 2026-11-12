@@ -57,21 +57,9 @@ System.int GetSurfaceNodesAndNormals(
 
 ### Parameters
 
-- `VarNodeIDs`: Array of node IDs (see
-
-Remarks
-
-)
-- `VarNumNormals`: Array of numbers (1, 2 or 3) of normal vectors for the corresponding node ID in VarNodeIDs (see
-
-Remarks
-
-)
-- `VarNormalVecs`: Array of normal vectors (see
-
-Remarks
-
-)
+- `VarNodeIDs`: Array of node IDs (see **Remarks**)
+- `VarNumNormals`: Array of numbers (1, 2 or 3) of normal vectors for the corresponding node ID in VarNodeIDs (see **Remarks**)
+- `VarNormalVecs`: Array of normal vectors (see **Remarks**)
 
 ### Return Value
 
@@ -79,23 +67,17 @@ Number of nodes
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetSurfaceNodesAndNormals](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetSurfaceNodesAndNormals.html)
-
-.
+See [CWMesh::GetSurfaceNodesAndNormals](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetSurfaceNodesAndNormals.html).
 
 ## Examples
 
 [Get Mesh Elements and Nodes (VBA)](Get_Mesh_Elements_and_Nodes_Example_VB.htm)
-
 [Get Mesh Elements and Nodes (VB.NET)](Get_Mesh_Elements_and_Nodes_Example_VBNET.htm)
-
 [Get Mesh Elements and Nodes (C#)](Get_Mesh_Elements_And_Nodes_Example_CSharp.htm)
 
 ## Remarks
 
-You must set[ICWMesh::Quality](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~Quality.html)to[swsMeshQuality_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshQuality_e.html).swsMeshQualityHigh before calling this method.
+You must set [ICWMesh::Quality](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~Quality.html) to [swsMeshQuality_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshQuality_e.html).swsMeshQualityHigh before calling this method.
 
 Each node can have one or more normal vectors. For example, for a meshed cube:
 
@@ -109,84 +91,31 @@ VarNormalVecs contains an array of all of the normal vectors:
 
 [
 
-`xa 1 , ya 1 , za 1 , xb 1 , yb 1 , zb 1 , xc 1 , yc 1 , zc 1 ,`
+`xa1, ya1, za1, xb1, yb1, zb1, xc1, yc1, zc1,`
 
-`xa 2 , ya 2 , za 2 ,`
+`xa2, ya2, za2,`
 
 `...,`
 
-`xa i , ya i , za i`
+`xai, yai, zai`
 
 ]
 
 where:
 
-- x
-
-  ,
-
-  y
-
-  , and
-
-  z
-
-  denote location
-- a
-
-  ,
-
-  b
-
-  , and
-
-  c
-
-  denote normal vectors
-- xa
-
-  i
-
-  ,
-
-  ya
-
-  i
-
-  ,
-
-  za
-
-  i
-
-  denote the location of the
-
-  a
-
-  th
-
-  normal vector for the
-
-  i
-
-  th
-
-  node
+- `x`, `y`, and `z` denote location
+- `a`, `b`, and `c` denote normal vectors
+- `xai`, `yai`, `zai` denote the location of the `a`th normal vector for the `i`th node
 
 Use VarNumNormals to calculate which vectors in VarNormalVecs map to the node IDs in VarNodeIDs.
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GetElementList Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetElementList.html)
-
 [ICWMesh::GetNodeList Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodeList.html)
-
 [ICWMesh::GetSolidElementList Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetSolidElementList.html)
-
 [ICWMesh::GetSolidNodeList Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetSolidNodeList.html)
 
 ## Availability

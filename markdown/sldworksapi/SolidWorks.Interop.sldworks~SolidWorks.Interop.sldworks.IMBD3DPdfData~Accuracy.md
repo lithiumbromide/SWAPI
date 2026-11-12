@@ -45,42 +45,26 @@ property System.int Accuracy {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Level of accuracy for lossy compression as defined in
-
-[sw3DPDFAccuracy_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DPDFAccuracy_e.html)
+Level of accuracy for lossy compression as defined in [sw3DPDFAccuracy_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DPDFAccuracy_e.html)
 
 ## VBA Syntax
 
-See
-
-[MBD3DPdfData::Accuracy](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~Accuracy.html)
-
-.
+See [MBD3DPdfData::Accuracy](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~Accuracy.html).
 
 ## Examples
 
 [Attach Files to MBD 3D PDF (C#)](Attach_Files_to_MBD_3D_PDF_Example_CSharp.htm)
-
 [Attach Files to MBD 3D PDF (VB.NET)](Attach_Files_to_MBD_3D_PDF_Example_VBNET.htm)
-
 [Attach Files to MBD 3D PDF (VBA)](Attach_Files_to_MBD_3D_PDF_Example_VB.htm)
 
 ## See Also
 
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)
-
 [IMBD3DPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData_members.html)
-
 [IMBD3DPdfData::CompressLossyTessellation Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~CompressLossyTessellation.html)
 
 ## Availability

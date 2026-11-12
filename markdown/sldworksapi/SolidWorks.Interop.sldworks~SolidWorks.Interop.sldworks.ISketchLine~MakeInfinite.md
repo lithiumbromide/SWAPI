@@ -40,13 +40,7 @@ System.bool MakeInfinite()
 System.bool MakeInfinite();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the line is changed to infinite, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchLine::MakeInfinite](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~MakeInfinite.html)
-
-.
+See [SketchLine::MakeInfinite](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~MakeInfinite.html).
 
 ## Examples
 
@@ -71,9 +61,7 @@ When you change a line from finite to infinite, you cannot change it back to fin
 ## See Also
 
 [ISketchLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html)
-
 [ISketchLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html)
-
 [ISketchLine::Infinite Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine~Infinite.html)
 
 ## Availability

@@ -39,5 +39,4 @@ System.short mbAutoAdd
 ## See Also
 
 [EdmGroupData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData.html)
-
 [EdmGroupData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData_members.html)

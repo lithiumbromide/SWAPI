@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetPrint3DDialog Method (IModelDocExtension)
 
-Gets the
-
-[IPrint3DDialog](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrint3DDialog.html)
-
-object.
+Gets the [IPrint3DDialog](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrint3DDialog.html) object.
 
 ## Syntax
 
@@ -44,32 +40,19 @@ Print3DDialog GetPrint3DDialog()
 Print3DDialog^ GetPrint3DDialog();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[IPrint3DDialog](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrint3DDialog.html)
-
-object
+[IPrint3DDialog](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPrint3DDialog.html) object
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetPrint3DDialog](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetPrint3DDialog.html)
-
-.
+See [ModelDocExtension::GetPrint3DDialog](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetPrint3DDialog.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

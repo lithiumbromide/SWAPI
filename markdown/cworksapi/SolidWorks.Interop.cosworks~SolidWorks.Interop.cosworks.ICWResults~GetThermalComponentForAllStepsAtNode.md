@@ -65,77 +65,54 @@ System.Object^ GetThermalComponentForAllStepsAtNode(
 
 ### Parameters
 
-- `NComponent`: Thermal component as defined in
-
-[swsThermalComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalComponent_e.html)
+- `NComponent`: Thermal component as defined in [swsThermalComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalComponent_e.html)
 - `NNodeNum`: Node number
-- `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if NComponent is a scalar component and not a
-directional component
-- `NUnits`: Temperature unit as defined
-
-[swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if NComponent is a scalar component and not a directional component
+- `NUnits`: Temperature unit as defined [swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array of thermal results (see
-
-Remarks
-
-)
+Array of thermal results (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetThermalComponentForAllStepsAtNode](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetThermalComponentForAllStepsAtNode.html)
-
-.
+See [CWResults::GetThermalComponentForAllStepsAtNode](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetThermalComponentForAllStepsAtNode.html).
 
 ## Examples
 
 [Get Thermal Values (VBA)](Get_Thermal_Values_at_Points_Example_VB.htm)
-
 [Get Thermal Values (VB.NET)](Get_Thermal_Values_at_Points_Example_VBNET.htm)
-
 [Get Thermal Values (C#)](Get_Thermal_Values_at_Points_Example_CSharp.htm)
 
 ## Remarks
 
-This method returns the followingarray:
+This method returns the following array:
 
 {
 
-`solution_step_1`,`time_1`,`temp_1,`
+`solution_step_1`, `time_1`, `temp_1,`
 
-`solution_step_2`,`time_2`,`temp_2,`
+`solution_step_2`, `time_2`, `temp_2,`
 
-`solution_step_3`,`time_3`,`temp_3,`
+`solution_step_3`, `time_3`, `temp_3,`
 
 ...,
 
-`solution_step_n`,`time_n`,`temp_n`
+`solution_step_n`, `time_n`, `temp_n`
 
 },
 
-where the solution steps are integers,`time_n`= (`solution_step_n`* 60) seconds, and the temperatures are doubles.
+where the solution steps are integers, `time_n` = (`solution_step_n` * 60) seconds, and the temperatures are doubles.
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetMinMaxThermal Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxThermal.html)
-
 [ICWResults::GetThermalForEntities Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalForEntities.html)
-
 [ICWResults::GetThermalValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalValues.html)
-
 [ICWResults::GetThermalValuesAtPoints Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalValuesAtPoints.html)
-
 [ICWResults::GetHeatPowerOrEnergy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetHeatPowerOrEnergy.html)
 
 ## Availability

@@ -9,33 +9,28 @@ source: "epdmapi/Using_Basic_Search_Syntax_Example_CSharp.htm"
 
 # Using Basic Search Syntax Example (C#)
 
-This example shows how to search the vault for file and
-folder card variables using CreateSearch2 search syntax.
+This example shows how to search the vault for file and folder card variables using CreateSearch2 search syntax.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
  //----------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- //    a. Click File > New > Project > Visual C# > Console Application.
- //    b. Type Search in Name.
- //    c. Click Browse and navigate to the folder where to create the project.
- //    d. Click OK.
- //    e. Click Show All Files in the Solution Explorer toolbar and expand
- //       Program.cs in the Solution Explorer.
- //    f. Replace the code in Program.cs with this code.
- // 2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- //    name in the Solution Explorer, click Add Reference, click
- //    Assemblies > Framework in the left-side panel, browse to the top folder of
- //    your SOLIDWORKS PDM Professional installation, locate and select
- //    EPDM.Interop.epdm.dll, click Open, click Add, and click Close).
-// 3. Change the vault name and the vault view path in the code.
-// 4.   Make sure your vault contains a text file data card with a Document Number data card variable,
+ // 2. Click File > New > Project > C#, Windows, Console > Console App.
+ // 3. Type Search in Project name.
+  // 4. For Location, click ... and navigate to the folder where to create the project.
+ // 5. Click Next.
+ // 6. Select Framework.
+ // 7. Click Create.
+// 8. Add dependencies and safely pass arrays of structures.
+ // 9. Click Show All Files in the Solution Explorer toolbar and expand
+ //    Program.cs in the Solution Explorer.
+ //10. Replace the code in Program.cs with this code.
+//11. Change the vault name and the vault view path in the code.
+//12.   Make sure your vault contains a text file data card with a Document Number data card variable,
 //    and checked-in files with data card values exactly as described in the code.
- // 5. Click Debug > Start Debugging or press F5.
+ //13. Click Debug > Start Debugging or press F5.
  //
  // Postconditions: Press a key when prompted in the console.
  //----------------------------------------------------------------------------

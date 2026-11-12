@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLi
 
 # ICWLinkConnector Interface Members
 
-The following tables list the members exposed by[ICWLinkConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector.html).
+The following tables list the members exposed by [ICWLinkConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[ICWLinkConnector](SolidWorks.In
 ## See Also
 
 [ICWLinkConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

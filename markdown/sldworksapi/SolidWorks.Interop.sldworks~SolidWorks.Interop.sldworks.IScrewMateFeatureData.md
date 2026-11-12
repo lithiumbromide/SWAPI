@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISc
 
 Allows access to a screw mate feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,14 @@ public interface class IScrewMateFeatureData
 
 ## VBA Syntax
 
-See
-
-[ScrewMateFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ScrewMateFeatureData.html)
-
-.
+See [ScrewMateFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ScrewMateFeatureData.html).
 
 ## Examples
 
 'VBA
 
 ' ******************************************************************************
-' 1. Open`public_documents`**\samples\tutorial\api\MechanicalMates\Gearbox.sldasm**.
+' 1. Open `public_documents`**\samples\tutorial\api\MechanicalMates\Gearbox.sldasm**.
 ' 2. Delete Screw2 from the Mates folder of the FeatureManager design tree.
 ' 3. Run the macro.
 ' 4. Inspect the Mates folder in the FeatureManager design tree.
@@ -80,16 +76,16 @@ Set EntitiesToMate(0) = Part.SelectionManager.GetSelectedObject6(1, -1)
 Set EntitiesToMate(1) = Part.SelectionManager.GetSelectedObject6(2, -1)
 Dim EntitiesToMateVar As Variant
 EntitiesToMateVar = EntitiesToMate
-MateData.**EntitiesToMate**= (EntitiesToMateVar)
+MateData.**EntitiesToMate** = (EntitiesToMateVar)
 
 ' Set the mate revolution type
-MateData.**RevolutionType**= 0
+MateData.**RevolutionType** = 0
 
 ' Set the mate revolution value
-MateData.**RevolutionVal**= 1
+MateData.**RevolutionVal** = 1
 
 ' Set the mate orientation direction
-MateData.**Reverse**= True
+MateData.**Reverse** = True
 
 ' Create the mate
 Dim MateFeature As SldWorks.Feature
@@ -111,42 +107,22 @@ A screw mate consists of two components, where:
 - Translation of one component along the axis causes rotation of the other component according to a pitch relationship.
 - Rotation of one component causes translation of the other component.
 
-[IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html)is the parent of this mate interface.
+[IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html) is the parent of this mate interface.
 
 To create a screw mate:
 
-1. Follow general instructions in the
-
-  [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)
-
-  Remarks.
-2. Specify
-
-  [IScrewMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData~EntitiesToMate.html)
-
-  or use
-
-  [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  to pre-select the entities using Mark = 1.
+1. Follow general instructions in the [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html) Remarks.
+2. Specify [IScrewMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData~EntitiesToMate.html) or use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities using Mark = 1.
 3. Specify other properties of the ScrewMateFeatureData object. as required.
 
 To edit a screw mate:
 
-1. Access its feature and call
-
-  [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html)
-
-  to get the MateFeatureData object.
+1. Access its feature and call [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html) to get the MateFeatureData object.
 2. Cast the MateFeatureData object to a ScrewMateFeatureData object.
 3. Modify the ScrewMateFeatureData object.
-4. Call
+4. Call [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html).
 
-  [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  .
-
-To delete this screw mate, use[IModelDocExtension::DeleteSelection2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSelection2.html).
+To delete this screw mate, use [IModelDocExtension::DeleteSelection2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSelection2.html).
 
 ## Access Diagram
 
@@ -155,5 +131,4 @@ To delete this screw mate, use[IModelDocExtension::DeleteSelection2](SolidWorks.
 ## See Also
 
 [IScrewMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScrewMateFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

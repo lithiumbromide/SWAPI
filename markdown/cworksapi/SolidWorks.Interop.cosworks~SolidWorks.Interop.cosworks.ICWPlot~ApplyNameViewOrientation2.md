@@ -49,31 +49,19 @@ System.int ApplyNameViewOrientation2(
 
 ### Parameters
 
-- `NNameViewOrientation`: View orientation as defined in
-
-[swsNameViewOrientation_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsNameViewOrientation_e.html)
+- `NNameViewOrientation`: View orientation as defined in [swsNameViewOrientation_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsNameViewOrientation_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::ApplyNameViewOrientation2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ApplyNameViewOrientation2.html)
-
-.
+See [CWPlot::ApplyNameViewOrientation2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ApplyNameViewOrientation2.html).
 
 ## Examples
 
-See the
-
-[ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
-examples.
+See the [ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html) examples.
 
 ## Remarks
 
@@ -93,7 +81,6 @@ This method is valid for the following plots:
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

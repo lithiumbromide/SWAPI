@@ -45,25 +45,15 @@ property System.bool EnableFeatureTreeWindow {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::EnableFeatureTreeWindow](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~EnableFeatureTreeWindow.html)
-
-.
+See [FeatureManager::EnableFeatureTreeWindow](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~EnableFeatureTreeWindow.html).
 
 ## Remarks
 
-Use this property with[IFeatureManager::EnableFeatureTree](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~EnableFeatureTree.html), which temporarily enables or disables the FeatureManager design tree update when an add-in is running a series of operations.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+Use this property with [IFeatureManager::EnableFeatureTree](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~EnableFeatureTree.html), which temporarily enables or disables the FeatureManager design tree update when an add-in is running a series of operations.
 
 While the FeatureManager design tree is disabled and not being updated, the FeatureManager tree may become out of date with what is actually in the model. If an interactive user attempts to interact with the FeatureManager design tree while it is in this out-of-date state, problems could occur. Normally, this should not happen because the add-in should only be disabling the FeatureManager design tree update temporarily and then enabling it immediately after the series of operations complete. However, if there is any possibility that an interactive user could interact with the FeatureManager design tree, then use FeatureManager::EnableFeatureTreeWindow, which prohibits any user interaction with the FeatureManager design tree because the control is disabled.
 
@@ -72,9 +62,7 @@ Just as with the IFeatureManager::EnableFeatureTree property, this property is m
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::UpdateFeatureTree Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~UpdateFeatureTree.html)
 
 ## Availability

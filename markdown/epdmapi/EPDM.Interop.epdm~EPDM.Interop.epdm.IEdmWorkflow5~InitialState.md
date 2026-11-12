@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5~InitialState.
 
 # InitialState Property (IEdmWorkflow5)
 
-Obsolete. Superseded by
-
-[IEdmWorkflow6::InitialState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~InitialState.html)
-
-.
+Obsolete. Superseded by [IEdmWorkflow6::InitialState](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~InitialState.html).
 
 ## Syntax
 
@@ -40,5 +36,4 @@ property IEdmState6^ InitialState {
 ## See Also
 
 [IEdmWorkflow5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5.html)
-
 [IEdmWorkflow5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5_members.html)

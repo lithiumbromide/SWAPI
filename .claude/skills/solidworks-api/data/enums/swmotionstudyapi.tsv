@@ -1,0 +1,32 @@
+#swapi-enums 1 module=swmotionstudyapi sw=2026 prefix=SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy. cols=name,value,description
+@swMotionIntegratorType_e		Integration methods for solving numerically stiff systems.
+swMotionIntegrator_GSTIFF	1	Default integration method for fast and accurate computation of displacements; variable order and step size; coefficients are calculated assuming a constant step size
+swMotionIntegrator_SI2_GSTIFF	3	Stabilized Index-2 integration method that provides better error control over the velocity and acceleration terms in equations of motion; provided motion is sufficiently smooth, velocity and acceleration results are more accurate than those computed with GSTIFF or WSTIFF; significantly slower
+swMotionIntegrator_WSTIFF	2	Variable order and step size integration method; coefficients are calculated as a function of the step size; handles sudden step size changes as a result of discontinuities or abrupt events without error or loss of accuracy
+@swMotionStudyNotify_e		To receive notifications, a DLL application must register for the notifications by object type. This registration...
+swMotionStudyForceOutputTimeStepChangeNotify	7	ForceOutputTimeStepChangeNotify
+swMotionStudyForceTimeStepChangeNotify	2	ForceTimeStepChangeNotify
+swMotionStudyMotorOutputTimeStepChangeNotify	4	MotorOutputTimeStepChangeNotify
+swMotionStudyMotorTimeStepChangeNotify	1	MotorTimeStepChangeNotify
+swMotionStudyOutputTimeStepChangeNotify	9	OutputTimeStepChangeNotify
+swMotionStudyPartCollideNotify	3	PartCollideNotify
+swMotionStudySpecialEventNotify	8	SpecialMotionEventNotify
+swMotionStudyStartCalculateNotify	5	StartCalculateNotify
+swMotionStudyStopCalculateNotify	6	StopCalculateNotify
+@swMotionStudyType_e	bitmask	Motion study types.
+swMotionStudyTypeAssembly	1	Animation; D-cubed solver is used to do presentation animation only; no simulation is performed, so no results or plots are available; gravity, contact, springs, and forces cannot be used; mass and inertia values have no effect on the animation
+swMotionStudyTypeCosmosMotion	4	Motion Analysis; ADAMS (MSC.Software) solver is used to return accurate results; you must load the SOLIDWORKS Motion add-in with a SOLIDWORKS premium license to use this option
+swMotionStudyTypeLegacyCosmosMotion	8	Legacy COSMOSMotion; in SOLIDWORKS 2007 and earlier, motion analysis was provided through the COSMOSMotion add-in; this option is available if either the COSMOSMotion add-in is loaded or you open an older model that was created using that add-in; models with legacy COSMOSMotion data can be opened but not edited
+swMotionStudyTypeNewCosmosMotion	16
+swMotionStudyTypePhysicalSimulation	2	Basic Motion; NVIDIA phys-x solver is used to perform fast and approximate dynamic analysis; quickly returns results that look realistic at the cost of accuracy
+@swSaveAVIImageSize_e		AVI image sizes.
+swImage_160x120	2
+swImage_320x200	3
+swImage_320x240	4
+swImage_512x384	5
+swImage_640x480	6
+swImage_800x600	7
+swImage_Custom	0
+swImage_Screen	1
+@swSpecialMotionEventType_e		Motion-related special events.
+swSpecialMotionEventType_Contact	1

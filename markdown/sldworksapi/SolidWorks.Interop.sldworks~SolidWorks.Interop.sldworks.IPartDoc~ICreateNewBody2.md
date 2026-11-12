@@ -40,13 +40,7 @@ Body2 ICreateNewBody2()
 Body2^ ICreateNewBody2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::ICreateNewBody2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~ICreateNewBody2.html)
-
-.
+See [PartDoc::ICreateNewBody2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~ICreateNewBody2.html).
 
 ## Examples
 
@@ -66,14 +56,12 @@ See
 
 ## Remarks
 
-The intention is that with a handle on such a (initially empty) body, appropriate construction methods (for example,[IBody2::CreateTrimmedSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateTrimmedSurface.html)) can be called that eventually amount to a non-trivial object.
+The intention is that with a handle on such a (initially empty) body, appropriate construction methods (for example, [IBody2::CreateTrimmedSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateTrimmedSurface.html)) can be called that eventually amount to a non-trivial object.
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::CreateNewBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~CreateNewBody.html)
 
 ## Availability

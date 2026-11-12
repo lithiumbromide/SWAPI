@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # GetBSurfParams2 Method (ISurface)
 
-Obsolete. Superseded by
-
-[ISurface::GetBSurfParams3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetBSurfParams3.html)
-
-.
+Obsolete. Superseded by [ISurface::GetBSurfParams3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetBSurfParams3.html).
 
 ## Syntax
 
@@ -67,25 +63,13 @@ System.Object^ GetBSurfParams2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `WantCubic`: True if cubic is needed, false if not; specifying true converts any surface type to a cubic Bsurface
 - `WantNonRational`: True if non-rational is needed, false if not; specifying true converts any surface type to a non-rational Bsurface; if you specify true, then you should only use this method for surfaces that are Bsurface or blend surface; otherwise, the underlying call is not made and the values returned from this are not initialized or contain the values from the last call
-- `VP0`: Array of values describing the UV range of the surface to be output; you can obtain these values by using
-
-[ISurface::Parameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization.html)
-
-or
-
-[ISurface::IParameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IParameterization.html)
+- `VP0`: Array of values describing the UV range of the surface to be output; you can obtain these values by using [ISurface::Parameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization.html) or [ISurface::IParameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IParameterization.html)
 - `Tolerance`: Tolerance, in meters, between the approximated b-spline surface and the underlying surface; the default value is 0.01 and should generally be reduced to the tolerance desired
 - `Sense`: Approximated b-spline surface is not always in the same direction as the original surface; if sense is true, then the underlying surface and the b-spline surface are in the same direction
 
@@ -95,20 +79,16 @@ Array of values giving the b-spline surface parameters
 
 ## VBA Syntax
 
-See
-
-[Surface::GetBSurfParams2](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetBSurfParams2.html)
-
-.
+See [Surface::GetBSurfParams2](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetBSurfParams2.html).
 
 ## Remarks
 
-The VP0 parameter contains the following values, which you can obtain by using[ISurface::Parameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization.html)or[ISurface::IParameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IParameterization.html):
+The VP0 parameter contains the following values, which you can obtain by using [ISurface::Parameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization.html) or [ISurface::IParameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IParameterization.html):
 
 - vP0[0] & vP0[2] are the lower bounds of the U & V surface parameters, respectively
-- vP0[1] &vP0[3] are the upper bounds of the U & V surface parameters, respectively
+- vP0[1] & vP0[3] are the upper bounds of the U & V surface parameters, respectively
 
-If you want to use the Bsurface in combination with its trim curves, you should use the[IFace2::GetTrimCurves2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html)method to extract the trim curves and the Bsurface. The IFace2::GetTrimCurves2 method provides much better alignment of the trim curves with the Bsurface because they are both generated at the same time.
+If you want to use the Bsurface in combination with its trim curves, you should use the [IFace2::GetTrimCurves2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html) method to extract the trim curves and the Bsurface. The IFace2::GetTrimCurves2 method provides much better alignment of the trim curves with the Bsurface because they are both generated at the same time.
 
 Evaluation is as follows:
 
@@ -164,11 +144,8 @@ There will be (NumRowsControlPoints + Vorder) knot values. If the surface is per
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IGetBSurfParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetBSurfParams.html)
-
 [ISurface::IGetBSurfParamsSize3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetBSurfParamsSize3.html)
 
 ## Availability

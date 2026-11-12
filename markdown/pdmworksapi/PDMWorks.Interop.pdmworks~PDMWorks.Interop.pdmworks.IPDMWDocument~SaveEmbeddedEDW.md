@@ -57,11 +57,7 @@ System.int SaveEmbeddedEDW(
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::SaveEmbeddedEDW](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~SaveEmbeddedEDW.html)
-
-.
+See [PDMWDocument::SaveEmbeddedEDW](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~SaveEmbeddedEDW.html).
 
 ## Examples
 
@@ -74,9 +70,7 @@ Saving a SOLIDWORKS document with embedded eDrawings data is not supported in SO
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::GetEmbeddedEDWAsBase64 Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~GetEmbeddedEDWAsBase64.html)
 
 ## Availability

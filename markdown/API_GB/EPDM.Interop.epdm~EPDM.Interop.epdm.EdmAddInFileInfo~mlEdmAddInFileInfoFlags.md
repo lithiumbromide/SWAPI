@@ -34,14 +34,9 @@ System.int mlEdmAddInFileInfoFlags
 
 ### Field Value
 
-Combination of
-
-[EdmAddInFileInfoFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfoFlags.html)
-
-bits.
+Combination of [EdmAddInFileInfoFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfoFlags.html) bits.
 
 ## See Also
 
 [EdmAddInFileInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html)
-
 [EdmAddInFileInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo_members.html)

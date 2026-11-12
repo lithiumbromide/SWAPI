@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureFillet2 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureFillet3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureFillet3.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureFillet3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureFillet3.html).
 
 ## Syntax
 
@@ -91,104 +87,36 @@ System.Object^ FeatureFillet2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Options`: Feature fillet options as defined in
-
-[swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html)
+- `Options`: Feature fillet options as defined in [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html)
 - `R1`: Uniform radius of the fillet; valid only if:
 
-- Ftyp !=
-
-  [swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html)
-
-  .swFeatureFilletType_VariableRadius
-- Options include
-
-  [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html)
-
-  .swFeatureFilletUniformRadius
+  - Ftyp != [swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html).swFeatureFilletType_VariableRadius
+  - Options include [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html).swFeatureFilletUniformRadius
 - `Rho`: Value that determines the conic shape of the fillet:
 
-- Conic rho value [0.05, 0.95], if ConicRhoType =
+  - Conic rho value [0.05, 0.95], if ConicRhoType = [swFeatureFilletProfileType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletProfileType_e.html).swFeatureFilletConicRho (see **Remarks**)
+  - Conic radius value, if ConicRhoType = swFeatureFilletProfileType_e.swFeatureFilletConicRadius
+  - Circular radius value, if ConicRhoType = swFeatureFilletProfileType_e.swFeatureFilletCircular
+- `Ftyp`: Type of fillet as defined in [swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html) (see **Remarks**)
+- `OverflowType`: Control of fillet overflowing onto adjacent surfaces as defined in [swFilletOverFlowType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFilletOverFlowType_e.html)
+- `ConicRhoType`: Conic fillet profile type as defined in [swFeatureFilletProfileType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletProfileType_e.html)
+- `Radii`: Array containing the radii for the variable radius fillet; valid only if:
 
-  [swFeatureFilletProfileType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletProfileType_e.html)
+  - Ftyp = [swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html).swFeatureFilletType_VariableRadius
+  - Options include [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html).swFeatureFilletVarRadiusType
+  - Options do not include [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html).swFeatureFilletUniformRadius
+- `RhoArr`: Array of Rho values for the specified ConicRhoType for the variable radius fillet; valid only if:
 
-  .swFeatureFilletConicRho (see
-
-  Remarks
-
-  )
-- Conic radius value, if ConicRhoType = swFeatureFilletProfileType_e.swFeatureFilletConicRadius
-- Circular radius value, if ConicRhoType = swFeatureFilletProfileType_e.swFeatureFilletCircular
-- `Ftyp`: Type of fillet as defined in
-
-[swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html)
-
-(see
-
-Remarks
-
-)
-- `OverflowType`: Control of fillet overflowing onto adjacent surfaces as defined in
-
-[swFilletOverFlowType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFilletOverFlowType_e.html)
-- `ConicRhoType`: Conic fillet profile type as defined in
-
-[swFeatureFilletProfileType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletProfileType_e.html)
-- `Radii`: Array containing the radii for the variable radiusParamDescfillet; valid only if:
-
-- Ftyp =
-
-  [swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html)
-
-  .swFeatureFilletType_VariableRadius
-- Options include
-
-  [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html)
-
-  .swFeatureFilletVarRadiusType
-- Options do not include
-
-  [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html)
-
-  .swFeatureFilletUniformRadius
-- `RhoArr`: Array of Rho values for the specified ConicRhoType for the variable radius filletParamDesc; valid only if:
-
-- Ftyp =
-
-  [swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html)
-
-  .swFeatureFilletType_VariableRadius
-- Options include
-
-  [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html)
-
-  .swFeatureFilletVarRadiusType
-- Options do not include
-
-  [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html)
-
-  .swFeatureFilletUniformRadius
+  - Ftyp = [swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html).swFeatureFilletType_VariableRadius
+  - Options include [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html).swFeatureFilletVarRadiusType
+  - Options do not include [swFeatureFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletOptions_e.html).swFeatureFilletUniformRadius
 - `SetBackDistances`: Array containing setback distances along the fillet edge
-- `PointRadiusArray`: Array containing radii at various control points along the length of the edge; valid only if Ftyp =
-
-[swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html)
-
-.swFeatureFilletType_VariableRadius
-- `PointRhoArray`: Array of Rho values for the specified ConicRhoType at various control points along the length of the edge; valid only if Ftyp =
-
-[swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html)
-
-.swFeatureFilletType_VariableRadius
+- `PointRadiusArray`: Array containing radii at various control points along the length of the edge; valid only if Ftyp = [swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html).swFeatureFilletType_VariableRadius
+- `PointRhoArray`: Array of Rho values for the specified ConicRhoType at various control points along the length of the edge; valid only if Ftyp = [swFeatureFilletType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureFilletType_e.html).swFeatureFilletType_VariableRadius
 
 ### Return Value
 
@@ -196,11 +124,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureFillet2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureFillet2.html)
-
-.
+See [FeatureManager::FeatureFillet2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureFillet2.html).
 
 ## Remarks
 
@@ -218,19 +142,12 @@ If the conic rho value specified in parameter, Rho, is not in the valid range, t
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::IFeatureFillet2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~IFeatureFillet2.html)
-
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IFeatureManager::FilletXpertChange Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FilletXpertChange.html)
-
 [IFeatureManager::FilletXpertMakeCorner Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FilletXpertMakeCorner.html)
-
 [IFeatureManager::FilletXpertRemove Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FilletXpertRemove.html)
 
 ## Availability

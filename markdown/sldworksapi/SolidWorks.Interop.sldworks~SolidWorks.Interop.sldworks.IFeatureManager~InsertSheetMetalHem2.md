@@ -107,115 +107,73 @@ Feature^ InsertSheetMetalHem2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type as defined in
-
-[swHemTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHemTypes_e.html)
-- `Position`: Position as defined in[swHemPositionTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHemPositionTypes_e.html)
+- `Type`: Type as defined in [swHemTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHemTypes_e.html)
+- `Position`: Position as defined in [swHemPositionTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHemPositionTypes_e.html)
 - `Reverse`: True reverses the direction, false does not
 - `DLength`: Hem length; valid only for open or closed hems
 - `DGap`: Gap distance; valid only for open hems
 - `DAngle`: Hem angle; valid only for tear-drop or rolled hems
 - `DRad`: Hem radius; valid only for tear-drop or rolled hems
 - `DMiterGap`: Hem miter gap
-- `PCBA`: | If... | Then... |
-| --- | --- |
-| non-NULL | Pointer to ICustomBendAllowance object for which required values have been set |
-| NULL | Parent bend's bend allowance is used |
+- `PCBA`:
+
+  | If... | Then... |
+  | --- | --- |
+  | non-NULL | Pointer to ICustomBendAllowance object for which required values have been set |
+  | NULL | Parent bend's bend allowance is used |
 - `UseDefaultRelief`: True to use the default relief, false to use the relief specified by ReliefType
-- `ReliefType`: Type of relief as defined in[swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html); valid only if UseDefaultRelief is false
-- `ReliefTearTypes`: Type of relief tear as defined in[swReliefTearTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swReliefTearTypes_e.html); valid only when:
+- `ReliefType`: Type of relief as defined in [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html); valid only if UseDefaultRelief is false
+- `ReliefTearTypes`: Type of relief tear as defined in [swReliefTearTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swReliefTearTypes_e.html); valid only when:
 
-- UseDefaultRelief is false
+  - UseDefaultRelief is false
 
-- and -
+  - and -
 
-- ReliefType is
-
-  [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
-
-  .swSheetMetalReliefTear
+  - ReliefType is [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html).swSheetMetalReliefTear
 - `UseReliefRatio`: True to use ReliefRatio, false to use ReliefWidth/ReliefDepth; valid only when:
 
-- UseDefaultRelief is false
+  - UseDefaultRelief is false
 
-- and -
+  - and -
 
-- ReliefType is either
-
-  [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
-
-  .swSheetMetalReliefObround or
-
-  [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
-
-  .swSheetMetalReliefRectangular
+  - ReliefType is either [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html).swSheetMetalReliefObround or [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html).swSheetMetalReliefRectangular
 - `ReliefRatio`: Relief ratio; valid only when:
 
-- UseDefaultRelief is false
+  - UseDefaultRelief is false
 
-- and -
+  - and -
 
-- UseReliefRatio is true
+  - UseReliefRatio is true
 
-- and -
+  - and -
 
-- ReliefType is either
-
-  [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
-
-  .swSheetMetalReliefObround or
-
-  [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
-
-  .swSheetMetalReliefRectangular
+  - ReliefType is either [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html).swSheetMetalReliefObround or [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html).swSheetMetalReliefRectangular
 - `ReliefWidth`: Width of the relief; valid only when:
 
-- UseDefaultRelief is false
+  - UseDefaultRelief is false
 
-- and -
+  - and -
 
-- UseReliefRatio is false
+  - UseReliefRatio is false
 
-- and -
+  - and -
 
-- ReliefType is either
-
-  [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
-
-  .swSheetMetalReliefObround or
-
-  [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
-
-  .swSheetMetalReliefRectangular
+  - ReliefType is either [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html).swSheetMetalReliefObround or [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html).swSheetMetalReliefRectangular
 - `ReliefDepth`: Depth of the relief; valid only when:
 
-- UseDefaultRelief is false
+  - UseDefaultRelief is false
 
-- and -
+  - and -
 
-- UseReliefRatio is false
+  - UseReliefRatio is false
 
-- and -
+  - and -
 
-- ReliefType is either
-
-  [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
-
-  .swSheetMetalReliefObround or
-
-  [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
-
-  .swSheetMetalReliefRectangular
+  - ReliefType is either [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html).swSheetMetalReliefObround or [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html).swSheetMetalReliefRectangular
 
 ### Return Value
 
@@ -223,29 +181,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetalHem2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalHem2.html)
-
-.
+See [FeatureManager::InsertSheetMetalHem2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalHem2.html).
 
 ## Examples
 
 [Insert Sheet Metal Hem (VBA)](Insert_Sheet_Metal_Hem_Example_VB.htm)
-
 [Insert Sheet Metal Hem (VB.NET)](Insert_Sheet_Metal_Hem_Example_VBNET.htm)
-
 [Insert Sheet Metal Hem (C#)](Insert_Sheet_Metal_Hem_Example_CSharp.htm)
 
 ## Remarks
 
 Before calling this method:
 
-1. Call
-
-  [IFeatureManager::CreateCustomBendAllowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~CreateCustomBendAllowance.html)
-
-  to create an instance of ICustomBendAllowance.
+1. Call [IFeatureManager::CreateCustomBendAllowance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~CreateCustomBendAllowance.html) to create an instance of ICustomBendAllowance.
 2. Initialize the CustomBendAllowance object.
 3. Assign PCBA to the initialized CustomBendAllowance object.
 4. Select one or more edges in the sheet metal model to which to add the specified hem.
@@ -253,11 +201,8 @@ Before calling this method:
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IHemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
 
 ## Availability

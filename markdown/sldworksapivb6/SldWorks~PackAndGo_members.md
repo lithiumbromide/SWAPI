@@ -1,6 +1,5 @@
 ---
-title: "PackAndGo Object
-Members"
+title: "PackAndGo Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PackAndGo_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PackAndGo_members.html"
 ---
 
-# PackAndGo Object
-Members
+# PackAndGo Object Members
 
 ## Public Methods
 

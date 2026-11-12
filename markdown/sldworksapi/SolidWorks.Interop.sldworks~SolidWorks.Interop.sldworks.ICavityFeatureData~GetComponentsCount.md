@@ -40,38 +40,21 @@ System.int GetComponentsCount()
 System.int GetComponentsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CavityFeatureData::GetComponentsCount](ms-its:sldworksapivb6.chm::/sldworks~CavityFeatureData~GetComponentsCount.html)
-
-.
+See [CavityFeatureData::GetComponentsCount](ms-its:sldworksapivb6.chm::/sldworks~CavityFeatureData~GetComponentsCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ICavityFeatureData::IGetComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICavityFeatureData~IGetComponents.html)
-
-.
+Call this method before calling [ICavityFeatureData::IGetComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICavityFeatureData~IGetComponents.html).
 
 ## See Also
 
 [ICavityFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData.html)
-
 [ICavityFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData_members.html)
-
 [ICavityFeatureData::ISetComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData~ISetComponents.html)
-
 [ICavityFeatureData::Components Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData~Components.html)
 
 ## Availability

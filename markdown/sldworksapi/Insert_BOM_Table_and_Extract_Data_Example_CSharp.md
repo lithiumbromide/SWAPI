@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_BOM_Table_and_Extract_Data_Example_CSharp.htm"
 
 # Insert BOM Table and Extract Data Example (C#)
 
-This example shows how to insert a BOM table and extract data
-from it.
+This example shows how to insert a BOM table and extract data from it.
 
 ```
 //-------------------------------------------------------

@@ -57,11 +57,7 @@ Path and file name of the routing component
 
 ## VBA Syntax
 
-See
-
-[RouteManager::GetRoutingComponentFromSearchpath](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetRoutingComponentFromSearchpath.html)
-
-.
+See [RouteManager::GetRoutingComponentFromSearchpath](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetRoutingComponentFromSearchpath.html).
 
 ## Remarks
 
@@ -70,7 +66,6 @@ If the specified routing component is not found, then the return value is empty.
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
 
 ## Availability

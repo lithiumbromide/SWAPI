@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # SetRadius Method (ISimpleFilletFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleFilletFeatureData2::SetRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~SetRadius.html)
-
-.
+Obsolete. Superseded by [ISimpleFilletFeatureData2::SetRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~SetRadius.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void SetRadius(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData::SetRadius](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~SetRadius.html)
-
-.
+See [SimpleFilletFeatureData::SetRadius](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~SetRadius.html).
 
 ## See Also
 
 [ISimpleFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData.html)
-
 [ISimpleFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData_members.html)

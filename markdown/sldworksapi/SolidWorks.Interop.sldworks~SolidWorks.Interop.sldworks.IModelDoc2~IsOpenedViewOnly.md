@@ -40,13 +40,7 @@ System.bool IsOpenedViewOnly()
 System.bool IsOpenedViewOnly();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if document is in a view-only state, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IsOpenedViewOnly](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IsOpenedViewOnly.html)
-
-.
+See [ModelDoc2::IsOpenedViewOnly](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IsOpenedViewOnly.html).
 
 ## Remarks
 
@@ -66,16 +56,13 @@ Files are loaded using multi-threading. When a file is loading, the graphics are
 
 A file can be in view-only mode if the end-user chose to load the file for viewing purposes. You application should check for view-only mode to determine how to proceed.
 
-NOTE:When a file is in view-only mode, many API queries return NULL or empty data.
+NOTE: When a file is in view-only mode, many API queries return NULL or empty data.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::IsOpenedReadOnly Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IsOpenedReadOnly.html)
-
 [IModelDoc2::SetReadOnlyState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetReadOnlyState.html)
 
 ## Availability

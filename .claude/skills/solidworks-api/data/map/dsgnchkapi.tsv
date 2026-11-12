@@ -1,0 +1,10 @@
+#swapi-map 1 module=dsgnchkapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@ISWDesignCheck	i	Allows access to the SOLIDWORKS Design Checker API interface and members.	via=ISldWorks.GetAddInObject	use=19
+CheckAgainstExistingFile	m	void CheckAgainstExistingFile()	2011		Validates an active document.
+CreateChecksFromSWFile	m	int:dsgnchkError_e CreateChecksFromSWFile(string bstrSWFileName)	2011		Creates checks in the Check Builder Module from an existing SOLIDWORKS document, template, or drafting standard.
+RunDesignCheck	m	int RunDesignCheck(string StandardFileName, string ReportFolderName, bool AddReportToDesignBinder, bool OverWriteReport)		obsolete>ISWDesignCheck.RunDesignCheck2
+RunDesignCheck2	m	int:dsgnchkError_e RunDesignCheck2(string StandardFileName, string ReportFolderName, bool AddReportToDesignBinder, bool OverWriteReport, bool bCanViewReportOnSave)	2007	obsolete>ISWDesignCheck.RunDesignCheck3
+RunDesignCheck3	m	void RunDesignCheck3(string StandardFileName, ref int status)		obsolete>ISWDesignCheck.RunDesignCheck4
+RunDesignCheck4	m	int:dsgnchkError_e RunDesignCheck4(string StandardFileName, string ReportFolderName, bool AddReportToDesignBinder, bool OverWriteReport, bool AutoCorrect)	2010	obsolete>ISWDesignCheck.RunDesignCheck5
+RunDesignCheck5	m	int:dsgnchkError_e RunDesignCheck5(string StandardFileName, string ReportFolderName, bool AddReportToDesignBinder, bool OverWriteReport, bool AutoCorrect, out int lReportFormat, out string ResultSummary)	2011		Runs the SOLIDWORKS Design Checker using the specified standards document.
+SetCustomCheckResult	m	int:dsgnchkError_e SetCustomCheckResult(bool vbIsCheckPassed, object sfArrayFailedItems)	2009		Sets whether to report results from your SOLIDWORKS Design Check Custom Check validation macro as passed or failed.

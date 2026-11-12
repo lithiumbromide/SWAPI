@@ -45,13 +45,7 @@ property System.bool OverrideDimension {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,38 +53,26 @@ True to override the existing size dimensions values of the library feature, fal
 
 ## VBA Syntax
 
-See
-
-[LibraryFeatureData::OverrideDimension](ms-its:sldworksapivb6.chm::/sldworks~LibraryFeatureData~OverrideDimension.html)
-
-.
+See [LibraryFeatureData::OverrideDimension](ms-its:sldworksapivb6.chm::/sldworks~LibraryFeatureData~OverrideDimension.html).
 
 ## Examples
 
 [Get Library Feature Data (VBA)](Get_Library_Feature_Data_Example_VB.htm)
-
 [Get Library Feature Data (VB.NET)](Get_Library_Feature_Data_Example_VBNET.htm)
-
 [Get Library Feature Data (C#)](Get_Library_Feature_Data_Example_CSharp.htm)
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ILibraryFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData.html)
-
 [ILibraryFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData_members.html)
-
 [ILibraryFeatureData::GetDimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~GetDimensions.html)
-
 [ILibraryFeatureData::GetDimensionsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~GetDimensionsCount.html)
-
 [ILibraryFeatureData::IGetDimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~IGetDimensions.html)
-
 [ILibraryFeatureData::SetDimension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~SetDimension.html)
-
 [ILibraryFeatureData::ConfigurationName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~ConfigurationName.html)
 
 ## Availability

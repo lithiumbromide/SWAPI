@@ -1,6 +1,5 @@
 ---
-title: "SafeArrayUtility Object
-Members"
+title: "SafeArrayUtility Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SafeArrayUtility_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SafeArrayUtility_members.html"
 ---
 
-# SafeArrayUtility Object
-Members
+# SafeArrayUtility Object Members
 
 ## Public Methods
 

@@ -12,23 +12,13 @@ source: "API_GB/Items.htm"
 A file in SOLIDWORKS PDM Professional consists of two parts:
 
 - The file that is stored on the archive server.
-- The metadata associated with the file, or an item, which is
-  stored in the SQL database.
+- The metadata associated with the file, or an item, which is stored in the SQL database.
 
-The metadata consists of card contents, file references, permissions, workflow
-states, revisions, etc. An item is all of the metadata
-associated with a file. Most of the existing functions that work for files have been adjusted so that they also work for
-items.
-Only a few functions are specific to items.
+The metadata consists of card contents, file references, permissions, workflow states, revisions, etc. An item is all of the metadata associated with a file. Most of the existing functions that work for files have been adjusted so that they also work for items. Only a few functions are specific to items.
 
-All items and item folders are placed
-under a folder named "<items>", which is located directly beneath the vault root.
-SOLIDWORKS PDM Professional does not show this folder in the user interface, but it is
-included in the paths returned by the SOLIDWORKS PDM Professional API.
+All items and item folders are placed under a folder named "<items>", which is located directly beneath the vault root. SOLIDWORKS PDM Professional does not show this folder in the user interface, but it is included in the paths returned by the SOLIDWORKS PDM Professional API.
 
-All items have the file extension, ".<item>". This extension in also hidden in the user interface, but
-it is
-returned by the SOLIDWORKS PDM Professional API.
+All items have the file extension, ".<item>". This extension in also hidden in the user interface, but it is returned by the SOLIDWORKS PDM Professional API.
 
 ### Code Samples
 

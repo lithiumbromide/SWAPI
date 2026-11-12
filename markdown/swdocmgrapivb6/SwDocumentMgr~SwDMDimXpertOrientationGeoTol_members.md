@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertOrientationGeoTol Object
-Members"
+title: "SwDMDimXpertOrientationGeoTol Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertOrientationGeoTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertOrientationGeoTol_members.html"
 ---
 
-# SwDMDimXpertOrientationGeoTol Object
-Members
+# SwDMDimXpertOrientationGeoTol Object Members
 
 ## Public Methods
 

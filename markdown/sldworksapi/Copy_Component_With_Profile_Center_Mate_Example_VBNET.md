@@ -12,17 +12,14 @@ source: "sldworksapi/Copy_Component_With_Profile_Center_Mate_Example_VBNET.htm"
 This example shows how to:
 
 - create a new assembly.
-- add two components to the
-  assembly.
-- create a profile center mate
-  between the components.
-- copy a component with that
-  mate.
+- add two components to the assembly.
+- create a profile center mate between the components.
+- copy a component with that mate.
 
 ```
 '--------------------------------------------------------
 ' Preconditions:
-' 1. Open a new SOLIDWORKS session.
+' 1. Open a new SOLIDWORKS Design session.
 ' 2. Copy install_dir\samples\tutorial\api\block20.sldprt and
 '    cylinder20.sldprt to c:\temp.
 ' 3. Verify that the specified assembly document template exists.

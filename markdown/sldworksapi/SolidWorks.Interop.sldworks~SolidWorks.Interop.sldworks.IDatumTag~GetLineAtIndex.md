@@ -47,13 +47,7 @@ System.Object^ GetLineAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,21 +55,17 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTag::GetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetLineAtIndex.html)
-
-.
+See [DatumTag::GetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetLineAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[lineType,startPt[3],endPt[3]]
+[ lineType, startPt[3], endPt[3] ]
 
 where:
 
@@ -87,9 +77,6 @@ where:
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::IGetLineAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~IGetLineAtIndex.html)
-
 [IDatumTag::GetLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetLineCount.html)

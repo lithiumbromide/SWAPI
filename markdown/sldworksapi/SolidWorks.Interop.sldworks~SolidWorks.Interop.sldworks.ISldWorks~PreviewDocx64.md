@@ -51,13 +51,7 @@ System.bool PreviewDocx64(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,30 +64,23 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::PreviewDocx64](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~PreviewDocx64.html)
-
-.
+See [SldWorks::PreviewDocx64](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~PreviewDocx64.html).
 
 ## Remarks
 
-This method is only available through early binding and with 64-bit versions of the SOLIDWORKS software.
+This method is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software.
 
-The bitmap is stored with the fixed size shown with the interactive SOLIDWORKS preview option. If your window is a different size, then the image is scaled appropriately. If scaling is needed, then shaded images may not be as crisp as the original.
+The bitmap is stored with the fixed size shown with the interactive SOLIDWORKS Design preview option. If your window is a different size, then the image is scaled appropriately. If scaling is needed, then shaded images may not be as crisp as the original.
 
 This method works well in the WM_PAINT Windows Message handler. If used in WM_ONINITDIALOG the dialog only displays the preview for a brief moment. The reason is that the dialog should be initialized completely before calling SldWorks::PreviewDocx64.
 
-C++ programmers can also access this bitmap image from outside SOLIDWORKS. The bitmap was written with CArchive::Write( ) and is found in the Preview node in SOLIDWORKS part, assembly, and drawing files. The format of the Preview node is as follows: DWORD (data size) followed by continues chunk of memory of that size (data). The data being read can be cast to LPBITMAPINFO, which has all of the information required to display the bitmap. You may want to use StretchDIBits() when displaying your image of the bitmap.
+C++ programmers can also access this bitmap image from outside SOLIDWORKS Design. The bitmap was written with CArchive::Write( ) and is found in the Preview node in SOLIDWORKS Design part, assembly, and drawing files. The format of the Preview node is as follows: DWORD (data size) followed by continues chunk of memory of that size (data). The data being read can be cast to LPBITMAPINFO, which has all of the information required to display the bitmap. You may want to use StretchDIBits() when displaying your image of the bitmap.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::OpenDoc6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.html)
-
 [ISldWorks::GetPreviewBitmap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetPreviewBitmap.html)
 
 ## Availability

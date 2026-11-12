@@ -9,8 +9,7 @@ source: "routingapi/Create_a_Flattened_Route_Example_VB.htm"
 
 # Create a Flattened Route Example (VBA)
 
-This example shows how to create an annotation type flattened route and its
-drawing.
+This example shows how to create an annotation type flattened route and its drawing.
 
 ```vb
   '----------------------------------------------------------------------------

@@ -9,12 +9,7 @@ source: "sldworksapi/Preset_and_Reset_Template_and_Sheet_Parameters_for_New_Draw
 
 # Preset and Reset Template and Sheet Parameters for New Drawing Documents Example (VBA)
 
-This example shows how to preset the template and sheet parameters for
-a new drawing document so that the Sheet
-Format/Size dialog is not displayed when opening a new drawing
-document. This example also shows how to reset the template and sheet
-parameters back to the
-SOLIDWORKS defaults.
+This example shows how to preset the template and sheet parameters for a new drawing document so that the Sheet Format/Size dialog is not displayed when opening a new drawing document. This example also shows how to reset the template and sheet parameters back to the defaults.
 
 ```
 '------------------------------------------------------------

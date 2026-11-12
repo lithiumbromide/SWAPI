@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # EnumExcludedComponents Method (IDrSection)
 
-Obsolete. Superseded by
-
-[IDrSection::EnumExcludedComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~EnumExcludedComponents2.html)
-
-.
+Obsolete. Superseded by [IDrSection::EnumExcludedComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~EnumExcludedComponents2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ EnumComponents EnumExcludedComponents()
 EnumComponents^ EnumExcludedComponents();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrSection::EnumExcludedComponents](ms-its:sldworksapivb6.chm::/sldworks~DrSection~EnumExcludedComponents.html)
-
-.
+See [DrSection::EnumExcludedComponents](ms-its:sldworksapivb6.chm::/sldworks~DrSection~EnumExcludedComponents.html).
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)

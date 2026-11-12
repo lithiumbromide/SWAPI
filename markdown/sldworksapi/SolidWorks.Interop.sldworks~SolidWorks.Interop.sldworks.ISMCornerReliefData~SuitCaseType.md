@@ -45,32 +45,19 @@ property System.int SuitCaseType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Corner relief suitcase type as defined by
-
-[swCornerReliefSuitCaseType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerReliefSuitCaseType_e.html)
+Corner relief suitcase type as defined by [swCornerReliefSuitCaseType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerReliefSuitCaseType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SMCornerReliefData::SuitCaseType](ms-its:sldworksapivb6.chm::/sldworks~SMCornerReliefData~SuitCaseType.html)
-
-.
+See [SMCornerReliefData::SuitCaseType](ms-its:sldworksapivb6.chm::/sldworks~SMCornerReliefData~SuitCaseType.html).
 
 ## See Also
 
 [ISMCornerReliefData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData.html)
-
 [ISMCornerReliefData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMCornerReliefData_members.html)
 
 ## Availability

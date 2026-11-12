@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryType.html"
 
 # EdmHistoryType Enumeration
 
-Types of history record; used by the
-
-[IEdmHistory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory.html)
-
-interface.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Types of history record; used by the [IEdmHistory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory.html) interface. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 
@@ -48,6 +40,7 @@ public enum class EdmHistoryType : public System.Enum
 | Edmhist_FileBranch | 4194304 |
 | Edmhist_FileBranchMerge | 8388608 |
 | Edmhist_FileColdStore | 1024 = A file was moved to the cold storage |
+| Edmhist_FileCopy | 1073741824 = a file was copied |
 | Edmhist_FileDelete | 16 = A file was deleted to the bit bucket |
 | Edmhist_FileLabel | 128 = A label was applied to a file |
 | Edmhist_FileLock | 134217728 = A file was locked |
@@ -59,6 +52,7 @@ public enum class EdmHistoryType : public System.Enum
 | Edmhist_FileRollback | 8 = A file was rolled back |
 | Edmhist_FileShare | 1 = A file was shared |
 | Edmhist_FileState | 256 = The file’s workflow state was changed |
+| Edmhist_FileTransferLock | 536870912 = A file's ownership was transferred |
 | Edmhist_FileUndelete | 32 = A file was recovered from the bit bucket |
 | Edmhist_FileUndoLock | 2097152 = A file checked out by somebody other than the logged-in user was unlocked |
 | Edmhist_FileUndoLock2 | 268435456 = A file checked out by the logged-in user was unlocked |

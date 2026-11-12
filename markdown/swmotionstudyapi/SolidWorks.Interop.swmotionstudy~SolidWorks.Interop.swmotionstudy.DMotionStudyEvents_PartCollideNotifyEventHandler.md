@@ -66,30 +66,18 @@ public delegate System.int DMotionStudyEvents_PartCollideNotifyEventHandler(
 - `Time`: Time of collision
 - `Component1`: [Component 1](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
 - `Component2`: [Component 2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-- `Vector1`: [Point](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-on Component1
-- `Vector2`: [Point](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-on Component 2
+- `Vector1`: [Point](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) on Component1
+- `Vector2`: [Point](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) on Component 2
 - `SurfaceNormal1`: Surface normal of Component 1
 - `SurfaceNormal2`: Surface normal of Component 2
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[PartCollideNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~PartCollideNotify_EV.html)
-
-.
+See [PartCollideNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~PartCollideNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, then use
-
-[swMotionStudyPartCollideNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, then use [swMotionStudyPartCollideNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html) to register for this notification.
 
 ## Availability
 

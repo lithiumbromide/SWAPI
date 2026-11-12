@@ -48,11 +48,7 @@ Angle of the chamfer in radians
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertChamferFeature::Angle](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertChamferFeature~Angle.html)
-
-.
+See [SwDMDimXpertChamferFeature::Angle](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertChamferFeature~Angle.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertChamferFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertChamferFeature.html)
-
 [ISwDMDimXpertChamferFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertChamferFeature_members.html)
 
 ## Availability

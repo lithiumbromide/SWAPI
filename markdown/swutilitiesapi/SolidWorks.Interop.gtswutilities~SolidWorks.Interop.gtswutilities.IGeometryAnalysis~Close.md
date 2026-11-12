@@ -42,19 +42,11 @@ System.int Close();
 
 ### Return Value
 
-Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
-
-EndOLEArgumentsRow
+Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::Close](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~Close.html)
-
-.
+See [IGeometryAnalysis::Close](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~Close.html).
 
 ## Examples
 
@@ -63,9 +55,7 @@ See
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
-
 [IGeometryAnalysis::Init Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis~Init.html)
 
 ## Availability

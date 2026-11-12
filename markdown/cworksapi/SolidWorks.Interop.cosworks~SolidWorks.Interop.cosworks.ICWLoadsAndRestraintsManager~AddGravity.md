@@ -54,7 +54,7 @@ CWGravity^ AddGravity(
 ### Parameters
 
 - `DispEntity`: Reference geometry entity for direction
-- `ErrorCode`: Error as defined in[swsGravityError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsGravityError_e.html)
+- `ErrorCode`: Error as defined in [swsGravityError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsGravityError_e.html)
 
 ### Return Value
 
@@ -62,18 +62,12 @@ CWGravity^ AddGravity(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddGravity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddGravity.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddGravity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddGravity.html).
 
 ## Examples
 
 [Add Gravity Load (VBA)](Add_Gravity_Load_Example_VB.htm)
-
 [Add Gravity Load (VB.NET)](Add_Gravity_Load_Example_VBNET.htm)
-
 [Add Gravity Load (C#)](Add_Gravity_Load_Example_CSharp.htm)
 
 ## Remarks
@@ -83,7 +77,6 @@ Mass density must be defined to include the effect of gravity.
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

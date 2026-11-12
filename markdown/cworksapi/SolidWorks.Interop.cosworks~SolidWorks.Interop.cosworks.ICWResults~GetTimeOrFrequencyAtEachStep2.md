@@ -54,9 +54,7 @@ System.Object^ GetTimeOrFrequencyAtEachStep2(
 ### Parameters
 
 - `ForStressAndStrain`: -1 or true for stress or strain results, 0 or false for other results
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -73,15 +71,12 @@ for all solution steps or mode shapes
 ## Examples
 
 [Get Frequencies in Mode Shape Plots (VBA)](Get_Frequencies_in_Mode_Shape_Plots_Example_VB.htm)
-
 [Get Frequencies in Mode Shape Plots (VB.NET)](Get_Frequencies_in_Mode_Shape_Plots_Example_VBNET.htm)
-
 [Get Frequencies in Mode Shape Plots (C#)](Get_Free_Body_Forces_and_Moments_Example_CSharp.htm)
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

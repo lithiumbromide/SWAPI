@@ -47,29 +47,11 @@ System.bool SetPathSegments(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PathSegments`: Array of
-
-[ISketchSegment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
-s,
-
-[IReferenceCurve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferenceCurve.html)
-
-s, and/or
-
-[IEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-s
+- `PathSegments`: Array of [ISketchSegment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)s, [IReferenceCurve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferenceCurve.html)s, and/or [IEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)s
 
 ### Return Value
 
@@ -77,30 +59,21 @@ True if path segments successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPathSegmentFeatureData::SetPathSegments](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPathSegmentFeatureData~SetPathSegments.html)
-
-.
+See [PrimaryMemberPathSegmentFeatureData::SetPathSegments](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPathSegmentFeatureData~SetPathSegments.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
-See the[IPrimaryMemberPathSegmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html)examples.
+See the [IPrimaryMemberPathSegmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html) examples.
 
 ## Remarks
 
-For .NET applications, you must marshal the PathSegments array to IDispatch object arrays before calling this method. See
-
-[IDispatch Object Arrays as Input in .NET](ms-its:sldworksapiprogguide.chm::/Overview/IDispatch_Object_Arrays_as_Input_in_.NET.htm)
-
-.
+For .NET applications, you must marshal the PathSegments array to IDispatch object arrays before calling this method. See [IDispatch Object Arrays as Input in .NET](ms-its:sldworksapiprogguide.chm::/Overview/IDispatch_Object_Arrays_as_Input_in_.NET.htm).
 
 ## See Also
 
 [IPrimaryMemberPathSegmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html)
-
 [IPrimaryMemberPathSegmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData_members.html)
 
 ## Availability

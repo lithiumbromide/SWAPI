@@ -54,13 +54,7 @@ void SetBetweenTwoPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[Gtol::SetBetweenTwoPoints](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetBetweenTwoPoints.html)
-
-.
+See [Gtol::SetBetweenTwoPoints](ms-its:sldworksapivb6.chm::/sldworks~Gtol~SetBetweenTwoPoints.html).
 
 ## Examples
 
 [Insert GTol (C#)](Insert_GTol_Example_CSharp.htm)
-
 [Insert GTol (VB.NET)](Insert_GTol_Example_VBNET.htm)
-
 [Insert GTol (VBA)](Insert_GTol_Example_VB.htm)
 
 ## Remarks
@@ -92,15 +80,10 @@ This method ignores TextFrom and TextTo if the between value is false (the symbo
 
 Use:
 
-- [IGtol::GetBetweenTwoPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetBetweenTwoPoints.html)
-
-  to determine if this symbol is currently in use
-- [IGtol::GetBetweenTwoPointsText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetBetweenTwoPointsText.html)
-
-  to determine the texts that are part of this symbol
+- [IGtol::GetBetweenTwoPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetBetweenTwoPoints.html) to determine if this symbol is currently in use
+- [IGtol::GetBetweenTwoPointsText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGtol~GetBetweenTwoPointsText.html) to determine the texts that are part of this symbol
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)

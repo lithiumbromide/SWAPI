@@ -1,6 +1,5 @@
 ---
-title: "ICWLinkageRod Object
-Members"
+title: "ICWLinkageRod Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWLinkageRod_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWLinkageRod_members.html"
 ---
 
-# ICWLinkageRod Object
-Members
+# ICWLinkageRod Object Members
 
 ## Public Methods
 

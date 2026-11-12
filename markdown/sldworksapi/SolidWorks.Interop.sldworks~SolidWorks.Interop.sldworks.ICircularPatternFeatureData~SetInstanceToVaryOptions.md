@@ -47,13 +47,7 @@ System.bool SetInstanceToVaryOptions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,16 @@ True if options successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[CircularPatternFeatureData::SetInstanceToVaryOptions](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~SetInstanceToVaryOptions.html)
-
-.
+See [CircularPatternFeatureData::SetInstanceToVaryOptions](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~SetInstanceToVaryOptions.html).
 
 ## Remarks
 
-This method is valid only if[ICircularPatternFeatureData::InstancesToVary](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~InstancesToVary.html)is true.
+This method is valid only if [ICircularPatternFeatureData::InstancesToVary](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~InstancesToVary.html) is true.
 
 ## See Also
 
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
 [ICircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData_members.html)
-
 [ICircularPatternFeatureData::GetInstanceToVaryOptions Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~GetInstanceToVaryOptions.html)
 
 ## Availability

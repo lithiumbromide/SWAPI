@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Provides access to sketched ellipse entities.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class ISketchEllipse
 
 ## VBA Syntax
 
-See
-
-[SketchEllipse](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse.html)
-
-.
+See [SketchEllipse](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse.html).
 
 ## Examples
 
 [Create Ellipse (VBA)](Create_Ellipse_Example_VB.htm)
-
 [Create Ellipse (VB.NET)](Create_Ellipse_Example_VBNET.htm)
-
 [Create Ellipse (C#)](Create_Ellipse_Example_CSharp.htm)
 
 ## Accessors
@@ -66,5 +60,4 @@ See
 ## See Also
 
 [ISketchEllipse Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

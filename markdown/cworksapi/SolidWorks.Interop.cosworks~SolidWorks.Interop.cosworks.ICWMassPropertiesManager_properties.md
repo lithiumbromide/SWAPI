@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMa
 
 # ICWMassPropertiesManager Interface Properties
 
-For a list of all members of this type, see[ICWMassPropertiesManager members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html).
+For a list of all members of this type, see [ICWMassPropertiesManager members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html).
 
 ## Public Properties
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[ICWMassPropertiesManager members](So
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

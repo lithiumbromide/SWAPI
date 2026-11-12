@@ -1,6 +1,5 @@
 ---
-title: "ReferencePointCurveFeatureData Object
-Members"
+title: "ReferencePointCurveFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ReferencePointCurveFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ReferencePointCurveFeatureData_members.html"
 ---
 
-# ReferencePointCurveFeatureData Object
-Members
+# ReferencePointCurveFeatureData Object Members
 
 ## Public Methods
 

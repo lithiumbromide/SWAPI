@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # Skip Method (IEnumDocuments)
 
-Obsolete. Superseded by
-
-[IEnumDocument2::Skip](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumDocuments2~Skip.html)
-
-.
+Obsolete. Superseded by [IEnumDocument2::Skip](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumDocuments2~Skip.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void Skip(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[EnumDocuments::Skip](ms-its:sldworksapivb6.chm::/sldworks~EnumDocuments~Skip.html)
-
-.
+See [EnumDocuments::Skip](ms-its:sldworksapivb6.chm::/sldworks~EnumDocuments~Skip.html).
 
 ## See Also
 
 [IEnumDocuments Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDocuments.html)
-
 [IEnumDocuments Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDocuments_members.html)

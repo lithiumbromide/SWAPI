@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # SimpleHole Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::SimpleHole2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SimpleHole2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::SimpleHole2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SimpleHole2.html).
 
 ## Syntax
 
@@ -127,13 +123,7 @@ Feature^ SimpleHole(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -141,12 +131,8 @@ See
 - `Sd`: True for single-ended, false for double-ended
 - `Flip`: True to flip the direction to cut, false to not
 - `Dir`: True to flip direction to extrude, false to not
-- `T1`: Termination type for first end as defined in
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-- `T2`: Termination type for second end as defined in
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T1`: Termination type for first end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T2`: Termination type for second end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
 - `D1`: Depth of extrusion for first end in meters
 - `D2`: Depth of extrusion for second end in meters
 - `Dchk1`: True allows draft angle in first direction, false does not allow drafting
@@ -164,26 +150,16 @@ See
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::SimpleHole](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~SimpleHole.html)
-
-.
+See [FeatureManager::SimpleHole](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~SimpleHole.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
 
 ## Availability

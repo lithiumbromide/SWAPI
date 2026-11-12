@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFlag.html"
 
 # EdmAddFlag Enumeration
 
-Options for adding a file to a folder to the vault, copying a file or folder within the vault, or copying/moving a tree of files and folders.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Options for adding a file to a folder to the vault, copying a file or folder within the vault, or copying/moving a tree of files and folders. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

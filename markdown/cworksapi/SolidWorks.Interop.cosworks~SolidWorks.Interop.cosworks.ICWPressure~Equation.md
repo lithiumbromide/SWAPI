@@ -51,11 +51,7 @@ Nonuniform pressure distribution equation
 
 ## VBA Syntax
 
-See
-
-[CWPressure::Equation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~Equation.html)
-
-.
+See [CWPressure::Equation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~Equation.html).
 
 ## Examples
 
@@ -95,24 +91,18 @@ See the ICWPressure examples.
 
 ## Remarks
 
-This property is valid only if[ICWPressure::IncludeNonUniformDistribution](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~IncludeNonUniformDistribution.html)is set to 1.
+This property is valid only if [ICWPressure::IncludeNonUniformDistribution](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~IncludeNonUniformDistribution.html) is set to 1.
 
-The equation is a string that contains double-quoted coordinate variables. In the example, the cylindrical coordinate system requires that the equation be specified with coordinate variables r, t, and z. Other coordinate systems use different sets of coordinate variables. See the**Defining Nonuniform Pressure Loads**topic in the SOLIDWORKS Simulation Help for more information.
+The equation is a string that contains double-quoted coordinate variables. In the example, the cylindrical coordinate system requires that the equation be specified with coordinate variables r, t, and z. Other coordinate systems use different sets of coordinate variables. See the **Defining Nonuniform Pressure Loads** topic in the SOLIDWORKS Simulation Help for more information.
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::CoordSystemType Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~CoordSystemType.html)
-
 [ICWPressure::EquationAngularUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~EquationAngularUnit.html)
-
 [ICWPressure::EquationLinearUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~EquationLinearUnit.html)
-
 [ICWPressure::GetCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~GetCoordinateSystem.html)
-
 [ICWPressure::SetCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~SetCoordinateSystem.html)
 
 ## Availability

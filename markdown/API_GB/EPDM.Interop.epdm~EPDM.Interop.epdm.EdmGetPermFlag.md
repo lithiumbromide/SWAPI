@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetPermFlag.html"
 
 # EdmGetPermFlag Enumeration
 
-Options for returning folder permissions used in calls to
-
-[IEdmUserMgr7::GetFolderPermissions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~GetFolderPermissions.html)
-
-.
+Options for returning folder permissions used in calls to [IEdmUserMgr7::GetFolderPermissions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~GetFolderPermissions.html).
 
 ## Syntax
 

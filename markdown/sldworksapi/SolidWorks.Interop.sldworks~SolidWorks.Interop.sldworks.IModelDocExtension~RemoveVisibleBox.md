@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # RemoveVisibleBox Method (IModelDocExtension)
 
-Removes the visible bounding box set by
-
-[IModelDocExtension::SetVisibleBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetVisibleBox.html)
-
-and resets the size of the bounding box to the size calculated by SOLIDWORKS for a part or an assembly.
+Removes the visible bounding box set by [IModelDocExtension::SetVisibleBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetVisibleBox.html) and resets the size of the bounding box to the size calculated by SOLIDWORKS for a part or an assembly.
 
 ## Syntax
 
@@ -43,36 +39,22 @@ void RemoveVisibleBox()
 void RemoveVisibleBox();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::RemoveVisibleBox](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~RemoveVisibleBox.html)
-
-.
+See [ModelDocExtension::RemoveVisibleBox](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~RemoveVisibleBox.html).
 
 ## Examples
 
 [Set Visible Bounding Box for Zoom to Fit (C#)](Set_Visible_Bounding_Box_for_Zoom_to_Fit_Example_CSharp.htm)
-
 [Set Visible Bounding Box for Zoom to Fit (VB.NET)](Set_Visible_Bounding_Box_for_Zoom_to_Fit_Example_VBNET.htm)
-
 [Set Visible Bounding Box for Zoom to Fit (VBA)](Set_Visible_Bounding_Box_for_Zoom_to_Fit_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetVisibleBox Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetVisibleBox.html)
 
 ## Availability

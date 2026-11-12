@@ -57,32 +57,22 @@ Names of the studies for this model
 
 ## VBA Syntax
 
-See
-
-[MotionStudyManager::IGetMotionStudyNames](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyManager~IGetMotionStudyNames.html)
-
-.
+See [MotionStudyManager::IGetMotionStudyNames](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyManager~IGetMotionStudyNames.html).
 
 ## Remarks
 
-This method gets the names of both SOLIDWORKS Simulation and SOLIDWORKS Motion studies. Use[IMotionStudy::StudyType](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~StudyType.html)to ensure that a given study is a motion study before using other Motion APIs.
+This method gets the names of both SOLIDWORKS Simulation and SOLIDWORKS Motion studies. Use [IMotionStudy::StudyType](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~StudyType.html) to ensure that a given study is a motion study before using other Motion APIs.
 
-Before calling this method, call[IMotionStudyManager::GetMotionStudyCount](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudyCount.html)to get the size of Count.
+Before calling this method, call [IMotionStudyManager::GetMotionStudyCount](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudyCount.html) to get the size of Count.
 
 ## See Also
 
 [IMotionStudyManager Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager.html)
-
 [IMotionStudyManager Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager_members.html)
-
 [IMotionStudyManager::GetMotionStudyNames Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudyNames.html)
-
 [IMotionStudyManager::GetMotionStudy Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudy.html)
-
 [IMotionStudyManager::DeleteMotionStudy Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~DeleteMotionStudy.html)
-
 [IMotionStudyManager::CreateMotionStudy Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~CreateMotionStudy.html)
-
 [IMotionStudyManager::ActivateMotionStudy Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~ActivateMotionStudy.html)
 
 ## Availability

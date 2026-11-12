@@ -51,13 +51,7 @@ System.String^ GetDrawingZone(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,28 +64,19 @@ Name of the drawing zone
 
 ## VBA Syntax
 
-See
-
-[Sheet::GetDrawingZone](ms-its:sldworksapivb6.chm::/sldworks~Sheet~GetDrawingZone.html)
-
-.
+See [Sheet::GetDrawingZone](ms-its:sldworksapivb6.chm::/sldworks~Sheet~GetDrawingZone.html).
 
 ## Examples
 
 [Get Name of Drawing Zone (C#)](Get_Name_of_Drawing_Zone_Example_CSharp.htm)
-
 [Get Name of Drawing Zone (VB.NET)](Get_Name_of_Drawing_Zone_Example_VBNET.htm)
-
 [Get Name of Drawing Zone (VBA)](Get_Name_of_Drawing_Zone_Example_VB.htm)
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [IDrawingDoc::NewSheet4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~NewSheet4.html)
-
 [IDrawingDoc::SetupSheet6 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~SetupSheet6.html)
 
 ## Availability

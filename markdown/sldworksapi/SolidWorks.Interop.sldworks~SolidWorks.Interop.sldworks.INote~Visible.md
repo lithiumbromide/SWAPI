@@ -45,13 +45,7 @@ property System.bool Visible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True makes the note visible in the block, false does not
 
 ## VBA Syntax
 
-See
-
-[Note::Visible](ms-its:sldworksapivb6.chm::/sldworks~Note~Visible.html)
-
-.
+See [Note::Visible](ms-its:sldworksapivb6.chm::/sldworks~Note~Visible.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
 
 ## Availability

@@ -43,29 +43,15 @@ Body2 IGetProcessedBody2()
 Body2^ IGetProcessedBody2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Processed
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-, which is a copy of the body for this part
+Processed [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html), which is a copy of the body for this part
 
 ## VBA Syntax
 
-See
-
-[PartDoc::IGetProcessedBody2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IGetProcessedBody2.html)
-
-.
+See [PartDoc::IGetProcessedBody2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IGetProcessedBody2.html).
 
 ## Remarks
 
@@ -74,17 +60,11 @@ Preprocessing is sometimes necessary (for example, IGES files), for exporting to
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IBody2::GetProcessedBody2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetProcessedBody2.html)
-
 [IBody2::GetProcessedBodyWithSelFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetProcessedBodyWithSelFace.html)
-
 [IBody2::IGetProcessedBodyWithSelFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IGetProcessedBodyWithSelFace.html)
-
 [IPartDoc::IGetProcessedBodyWithSelFace2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~IGetProcessedBodyWithSelFace2.html)
-
 [IBody2::IGetProcessedBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IGetProcessedBody.html)
 
 ## Availability

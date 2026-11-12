@@ -13,30 +13,21 @@ source: "epdmapi/Display_Menu_of_Commands_Example_VBNET.htm"
 
 This example shows how to display a menu of commands, including commands registered by any SOLIDWORKS PDM Professional add-ins and the Administrate Add-ins command.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
 '--------------------------------------------------------------------------------------
  ' Preconditions:
  '  1. Start Microsoft Visual Studio.
- '     a. Click File > New > Project > Visual Basic > Console Application.
- '     b. Type MenuVBNET in Name.
- '     c. Click Browse and navigate to the folder where to create the project.
- '     d. Click OK.
- '     e. Replace the code in Module1.vb with this code.
- '  2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- '     name in the Solution Explorer, click Add Reference, click
- '     Assemblies > Framework in the left-side panel, browse to the top folder of
- '     your SOLIDWORKS PDM Professional installation, locate and click
- '     EPDM.Interop.epdm.dll, click Open, and click Add).
- '  3. Add System.Windows.Forms as a reference (click System.Windows.Forms
- '     in the Name column, click Add, and click Close).
- '  4. Right-click EPDM.Interop.epdm in References, click Properties, and set
- '     Embed Interop Types to False to handle methods that pass arrays of
- '     structures.
- '  5. Replace ACME_LAB with the name of a valid vault view.
+ '     a. Click File > New > Project > Visual Basic, Windows, Console > Console App (.NET Framework).
+ '     b. Type MenuVBNET in Project name.
+ '     c. For Location, click ... and navigate to the folder where to create the project.
+'     d. Select Framework.
+'     e. Click Create.
+ '  2. Add dependencies and safely pass arrays of structures.
+ '  3. Right-click project and then select Add > Reference... > Assemblies > System.Windows.Forms.
+'  4. Replace the code in Module1.vb with this code.
+ '  5. Replace ACME_LAB in the code with the name of a valid vault view.
  '  6. Click Debug > Start Debugging or press F5.
  '
  ' Postconditions:

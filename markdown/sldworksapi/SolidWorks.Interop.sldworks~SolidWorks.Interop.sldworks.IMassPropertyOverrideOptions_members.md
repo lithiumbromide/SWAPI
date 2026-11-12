@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMassPropertyOverrideOptions Interface Members
 
-The following tables list the members exposed by[IMassPropertyOverrideOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions.html).
+The following tables list the members exposed by [IMassPropertyOverrideOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions.html).
 
 ## Public Properties
 
@@ -41,5 +41,4 @@ The following tables list the members exposed by[IMassPropertyOverrideOptions](S
 ## See Also
 
 [IMassPropertyOverrideOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

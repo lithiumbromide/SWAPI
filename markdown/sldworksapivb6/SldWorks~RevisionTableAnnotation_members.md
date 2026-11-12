@@ -1,6 +1,5 @@
 ---
-title: "RevisionTableAnnotation Object
-Members"
+title: "RevisionTableAnnotation Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "RevisionTableAnnotation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~RevisionTableAnnotation_members.html"
 ---
 
-# RevisionTableAnnotation Object
-Members
+# RevisionTableAnnotation Object Members
 
 ## Public Methods
 

@@ -45,13 +45,7 @@ property System.int ExponentOfDamperForceExpression {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Exponent for the functional expression
 
 ## VBA Syntax
 
-See
-
-[SimulationDamperFeatureData::ExponentOfDamperForceExpression](ms-its:sldworksapivb6.chm::/sldworks~SimulationDamperFeatureData~ExponentOfDamperForceExpression.html)
-
-.
+See [SimulationDamperFeatureData::ExponentOfDamperForceExpression](ms-its:sldworksapivb6.chm::/sldworks~SimulationDamperFeatureData~ExponentOfDamperForceExpression.html).
 
 ## See Also
 
 [ISimulationDamperFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData.html)
-
 [ISimulationDamperFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData_members.html)
 
 ## Availability

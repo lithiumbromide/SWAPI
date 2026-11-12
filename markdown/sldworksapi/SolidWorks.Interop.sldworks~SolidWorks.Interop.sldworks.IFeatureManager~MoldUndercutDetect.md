@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # MoldUndercutDetect Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::MoldUndercutDetect2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~MoldUndercutDetect2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::MoldUndercutDetect2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~MoldUndercutDetect2.html).
 
 ## Syntax
 
@@ -70,13 +66,7 @@ void MoldUndercutDetect(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -89,14 +79,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::MoldUndercutDetect](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MoldUndercutDetect.html)
-
-.
+See [FeatureManager::MoldUndercutDetect](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MoldUndercutDetect.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)

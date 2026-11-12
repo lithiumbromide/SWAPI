@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetDirectionLightProperties Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetDirectionLightProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetDirectionLightProperties.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetDirectionLightProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetDirectionLightProperties.html).
 
 ## Syntax
 
@@ -87,13 +83,7 @@ System.bool GetDirectionLightProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -110,14 +100,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetDirectionLightProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetDirectionLightProperties.html)
-
-.
+See [ModelDoc::GetDirectionLightProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetDirectionLightProperties.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

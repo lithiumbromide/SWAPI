@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertCosmeticThread Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertCosmeticThread2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCosmeticThread2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertCosmeticThread2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCosmeticThread2.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ System.String^ InsertCosmeticThread(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,16 +70,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCosmeticThread](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCosmeticThread.html)
-
-.
+See [FeatureManager::InsertCosmeticThread](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCosmeticThread.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

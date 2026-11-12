@@ -45,13 +45,7 @@ property System.double BendRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Value for the bend radius
 
 ## VBA Syntax
 
-See
-
-[SheetMetalFeatureData::BendRadius](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~BendRadius.html)
-
-.
+See [SheetMetalFeatureData::BendRadius](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~BendRadius.html).
 
 ## Examples
 
-See
-
-[ISheetMetalFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFeatureData.html)
-
-examples.
+See [ISheetMetalFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFeatureData.html) examples.
 
 ## Examples
 
@@ -80,7 +66,6 @@ examples.
 ## See Also
 
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
-
 [ISheetMetalFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData_members.html)
 
 ## Availability

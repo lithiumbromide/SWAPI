@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMa
 
 # IncludeCreep Property (ICWMaterial)
 
-Obsolete. Superseded by[ICWMaterial::IncludeCreep2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~IncludeCreep2.html).
+Obsolete. Superseded by [ICWMaterial::IncludeCreep2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~IncludeCreep2.html).
 
 ## Syntax
 
@@ -50,17 +50,9 @@ property System.int IncludeCreep {
 - 1 = Include creep effect
 - 0 = Do not include creep effect
 
-  kadov_tag{{<spaces>}}
-
-  kadov_tag{{</spaces>}}
-
 ## VBA Syntax
 
-See
-
-[CWMaterial::IncludeCreep](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~IncludeCreep.html)
-
-.
+See [CWMaterial::IncludeCreep](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~IncludeCreep.html).
 
 ## Remarks
 
@@ -69,7 +61,6 @@ Creep effect is valid for nonlinear studies only.
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

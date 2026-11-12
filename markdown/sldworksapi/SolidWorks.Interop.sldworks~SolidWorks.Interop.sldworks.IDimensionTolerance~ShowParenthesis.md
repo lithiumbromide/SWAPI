@@ -45,13 +45,7 @@ property System.bool ShowParenthesis {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,20 @@ True to show parentheses around linear tolerance dimensions, false to not
 
 ## VBA Syntax
 
-See
-
-[DimensionTolerance::ShowParenthesis](ms-its:sldworksapivb6.chm::/sldworks~DimensionTolerance~ShowParenthesis.html)
-
-.
+See [DimensionTolerance::ShowParenthesis](ms-its:sldworksapivb6.chm::/sldworks~DimensionTolerance~ShowParenthesis.html).
 
 ## Remarks
 
 This property supports bilateral, symmetric, or fit-with-tolerance types only.
 
-In SOLIDWORKS 2016 and later, use[ICalloutVariable::ShowParenthesis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ShowParenthesis.html)to set whether to show parentheses in a hole's display dimension with multiple values in a callout. Calling IDimensionTolerance::ShowParenthesis to set whether to show parentheses in a hole's display dimension with multiple values in a callout does not override ICalloutVariable::ShowParenthesis' setting.
+In SOLIDWORKS 2016 and later, use [ICalloutVariable::ShowParenthesis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ShowParenthesis.html) to set whether to show parentheses in a hole's display dimension with multiple values in a callout. Calling IDimensionTolerance::ShowParenthesis to set whether to show parentheses in a hole's display dimension with multiple values in a callout does not override ICalloutVariable::ShowParenthesis' setting.
 
-To see the effects of changing this property, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
+To see the effects of changing this property, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
 
 ## See Also
 
 [IDimensionTolerance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance.html)
-
 [IDimensionTolerance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance_members.html)
-
 [IDimensionTolerance::ShowParenthesis Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ShowParenthesis.html)
 
 ## Availability

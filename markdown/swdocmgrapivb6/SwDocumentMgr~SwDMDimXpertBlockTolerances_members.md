@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertBlockTolerances Object
-Members"
+title: "SwDMDimXpertBlockTolerances Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertBlockTolerances_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertBlockTolerances_members.html"
 ---
 
-# SwDMDimXpertBlockTolerances Object
-Members
+# SwDMDimXpertBlockTolerances Object Members
 
 ## Public Methods
 

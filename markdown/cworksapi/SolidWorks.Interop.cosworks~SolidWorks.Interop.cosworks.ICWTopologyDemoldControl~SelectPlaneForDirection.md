@@ -52,44 +52,26 @@ void SelectPlaneForDirection(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl::SelectPlaneForDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~SelectPlaneForDirection.html)
-
-.
+See [CWTopologyDemoldControl::SelectPlaneForDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~SelectPlaneForDirection.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
-example.
+See the [ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html) example.
 
 ## Remarks
 
 This method is valid only if:
 
-- [ICWTopologyDemoldControl::SetAutoDetermineCentralMidPlane](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SetAutoDetermineCentralMidPlane.html)
-
-  is set to 0
+- [ICWTopologyDemoldControl::SetAutoDetermineCentralMidPlane](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SetAutoDetermineCentralMidPlane.html) is set to 0
 
 - and -
 
-- [ICWTopologyDemoldControl::SelectDemoldDirection](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectDemoldDirection.html)
-
-  sets NDir to
-
-  [swsTopologyDemoldDirectionOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyDemoldDirectionOption_e.html)
-
-  .swsTopologyDemoldDirection_TwoDirectionMidPlane.
+- [ICWTopologyDemoldControl::SelectDemoldDirection](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectDemoldDirection.html) sets NDir to [swsTopologyDemoldDirectionOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyDemoldDirectionOption_e.html).swsTopologyDemoldDirection_TwoDirectionMidPlane.
 
 ## See Also
 
 [ICWTopologyDemoldControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
-
 [ICWTopologyDemoldControl::ClearPlaneSelection Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~ClearPlaneSelection.html)
 
 ## Availability

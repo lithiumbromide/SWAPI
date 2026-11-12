@@ -67,13 +67,7 @@ System.bool GetExtremePoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,11 +84,7 @@ True if a point was found, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::GetExtremePoint](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetExtremePoint.html)
-
-.
+See [Body2::GetExtremePoint](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetExtremePoint.html).
 
 ## Remarks
 
@@ -105,7 +95,8 @@ If there is more than one point (for example, if there is a face perpendicular t
 
 **COM example**
 
-HRESULT auBody_c::XDispatch2::GetExtremePoint( double x, double y, double z, double* outx, double* outy, double* outz, VARIANT_BOOL* found ) {
+HRESULT auBody_c::XDispatch2::GetExtremePoint( double x, double y, double z, double*
+outx, double* outy, double* outz, VARIANT_BOOL* found ) {
 
 METHOD_PROLOGUE_EX_(auBody_c, Dispatch2)
 
@@ -118,7 +109,6 @@ return gotIt ? S_OK : S_false;
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

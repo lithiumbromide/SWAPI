@@ -39,32 +39,21 @@ void ReleaseSelectionAccess()
 void ReleaseSelectionAccess();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[MoveFaceFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~ReleaseSelectionAccess.html)
-
-.
+See [MoveFaceFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~ReleaseSelectionAccess.html).
 
 ## Remarks
 
-[IMoveFaceFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMoveFaceFeatureData~AccessSelections.html)puts the model in a rollback state to allow access to the selections that define the Move Face feature.
+[IMoveFaceFeatureData::AccessSelections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMoveFaceFeatureData~AccessSelections.html) puts the model in a rollback state to allow access to the selections that define the Move Face feature.
 
-Use this method to restore the rollback state if you did not modify the feature, or use[IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)or[IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)if you did modify the feature.
+Use this method to restore the rollback state if you did not modify the feature, or use [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you did modify the feature.
 
 ## See Also
 
 [IMoveFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData.html)
-
 [IMoveFaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData_members.html)
 
 ## Availability

@@ -10,14 +10,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 # ICostAnalysisPlastic Interface
 
 Allows access to the plastic Costing of a Costing analysis.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,23 +40,17 @@ public interface class ICostAnalysisPlastic
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisPlastic](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic.html)
-
-.
+See [CostAnalysisPlastic](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic.html).
 
 ## Examples
 
 [Create Plastic Costing Analysis (C#)](Create_Plastic_Costing_Analysis_Example_CSharp.htm)
-
 [Create Plastic Costing Analysis (VB.NET)](Create_Plastic_Costing_Analysis_Example_VBNET.htm)
-
 [Create Plastic Costing Analysis (VBA)](Create_Plastic_Costing_Analysis_Example_VB.htm)
 
 ## Remarks
 
-A complete Costing analysis includes the[common Costing analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html)and the plastic Costing analysis.
+A complete Costing analysis includes the [common Costing analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html) and the plastic Costing analysis.
 
 See the SOLIDWORKS Help for more information about plastic Costing.
 
@@ -74,5 +61,4 @@ See the SOLIDWORKS Help for more information about plastic Costing.
 ## See Also
 
 [ICostAnalysisPlastic Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic_members.html)
-
 [SolidWorks.Interop.sldcostingapi Namespace](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi_namespace.html)

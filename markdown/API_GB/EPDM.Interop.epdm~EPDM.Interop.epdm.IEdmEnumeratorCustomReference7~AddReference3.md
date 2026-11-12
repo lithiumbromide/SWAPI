@@ -55,11 +55,7 @@ void AddReference3(
 
 ## Examples
 
-See the
-
-[IEdmEnumeratorCustomReference7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7.html)
-
-examples.
+See the [IEdmEnumeratorCustomReference7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7.html) examples.
 
 ## Remarks
 
@@ -71,7 +67,6 @@ examples.
 ## See Also
 
 [IEdmEnumeratorCustomReference7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7.html)
-
 [IEdmEnumeratorCustomReference7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference7_members.html)
 
 ## Availability

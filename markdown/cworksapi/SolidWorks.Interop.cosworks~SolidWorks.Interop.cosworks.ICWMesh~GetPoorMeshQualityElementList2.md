@@ -69,30 +69,12 @@ System.int GetPoorMeshQualityElementList2(
 
 ### Parameters
 
-- `NMeshQualityKPI`: Mesh element quality criterion as defined in
-
-[swsMeshElementQualityKPI_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshElementQualityKPI_e.html)
-
-(see
-
-Remarks
-
-)
-- `DLimitVal`: Upper or lower limit of NMeshQualityKPI, beyond which the mesh becomes poor quality (see
-
-Remarks
-
-)
-- `NJacobianPts`: Jacobian points criterion (see
-
-Remarks
-
-)
+- `NMeshQualityKPI`: Mesh element quality criterion as defined in [swsMeshElementQualityKPI_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshElementQualityKPI_e.html) (see **Remarks**)
+- `DLimitVal`: Upper or lower limit of NMeshQualityKPI, beyond which the mesh becomes poor quality (see **Remarks**)
+- `NJacobianPts`: Jacobian points criterion (see **Remarks**)
 - `BCreateplot`: -1 or true to create a plot, 0 or false to not
 - `VarElementIDs`: Array of element IDs
-- `ErrorCode`: Error code as defined by
-
-[swsMeshKPIErrCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshKPIErrCode_e.html)
+- `ErrorCode`: Error code as defined by [swsMeshKPIErrCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshKPIErrCode_e.html)
 
 ### Return Value
 
@@ -102,15 +84,7 @@ Number of elements in VarElementIDs
 
 This method:
 
-- Corresponds to the Mesh Quality Diagnostics tool in SOLIDWORKS Simulation. Access the Mesh Quality Diagnostics PropertyManager in a SOLIDWORKS Simulation study by right-clicking
-
-  Mesh
-
-  in the study's FeatureManager design tree and selecting
-
-  Mesh Quality Diagnostics
-
-  .
+- Corresponds to the Mesh Quality Diagnostics tool in SOLIDWORKS Simulation. Access the Mesh Quality Diagnostics PropertyManager in a SOLIDWORKS Simulation study by right-clicking **Mesh** in the study's FeatureManager design tree and selecting **Mesh Quality Diagnostics**.
 - Retrieves the IDs of elements satisfying the criterion specified by NMeshQualityKPI, DLimitVal, and NJacobianPts if valid.
 
 If NMeshQualityKPI is swsMeshElementQualityKPI_e.swsMeshElementQualityKPI_:
@@ -126,12 +100,11 @@ Possible values for NJacobianPts:
 - 29 = Number of points inside the element tetrahedron (same as 16 but calculates a more precise Jacobian ratio)
 - 10 = At nodes; Number of points = 4 vertices + 6 midpoints on 6 edges of the element tetrahedron
 
-For more information, read the**Simulation > Meshing > Mesh Quality Checks > Defining a Mesh Quality Plot**topic in the SOLIDWORKS Help.
+For more information, read the **Simulation > Meshing > Mesh Quality Checks > Defining a Mesh Quality Plot** topic in the SOLIDWORKS Help.
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
 
 ## Availability

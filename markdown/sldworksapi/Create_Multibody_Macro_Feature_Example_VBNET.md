@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Multibody_Macro_Feature_Example_VBNET.htm"
 
 # Create Multibody Macro Feature Example (VB.NET)
 
-This example shows how to create a multibody macro feature
-using a VB.NET SOLIDWORKS add-in.
+This example shows how to create a multibody macro feature using a VB.NET SOLIDWORKS add-in.
 
 ```vb
 '----------------------------------------------------------------------------
@@ -32,7 +31,7 @@ using a VB.NET SOLIDWORKS add-in.
  '     NOTE: The Output window notifies that types registered successfully.
  '     If that message does not appear in the Output window, repeat from
  '     step 1.
- ' 12. Open SOLIDWORKS.
+ ' 12. Open SOLIDWORKS Design.
  ' 13. Open public_documents\samples\tutorial\multibody\multi_local.sldprt.
  '
  ' Postconditions:
@@ -138,9 +137,38 @@ using a VB.NET SOLIDWORKS add-in.
 
 [Back to top](#top)
 
-IF EXIST
-"$(TargetDir)$(TargetName).bmp" (GOTO REGISTRATION) XCOPY "$(ProjectDir)AddinIcon.bmp" "$(TargetDir)" /F REN "$(TargetDir)AddinIcon.bmp" "$(TargetName).bmp" :REGISTRATION IF "$(TargetFrameworkVersion)"=="v4.0" GOTO NET40 IF "$(TargetFrameworkVersion)"=="v3.5" GOTO NET20 IF "$(TargetFrameworkVersion)"=="v3.0" GOTO NET20 IF "$(TargetFrameworkVersion)"=="v2.0" GOTO NET20 GOTO END :NET40 set FMWK="v4.0.30319" GOTO REG :NET20 set FMWK="v2.0.50727" GOTO REG :REG IF "$(PlatformName)" == "AnyCPU" GOTO ANYCPU IF "$(PlatformName)" == "x64" GOTO X64 GOTO END :ANYCPU IF EXIST "%Windir%\Microsoft.NET\Framework64\%FMWK%\regasm.exe" "%Windir%\Microsoft.NET\Framework64\%FMWK%\regasm"
-/codebase "$(TargetPath)" GOTO END :X64 IF EXIST "%Windir%\Microsoft.NET\Framework64\%FMWK%\regasm.exe" "%Windir%\Microsoft.NET\Framework64\%FMWK%\regasm"
-/codebase "$(TargetPath)" GOTO END :END
+IF EXIST "$(TargetDir)$(TargetName).bmp" (GOTO REGISTRATION)
+XCOPY "$(ProjectDir)AddinIcon.bmp" "$(TargetDir)" /F
+REN "$(TargetDir)AddinIcon.bmp" "$(TargetName).bmp"
+
+:REGISTRATION
+IF "$(TargetFrameworkVersion)"=="v4.0" GOTO NET40
+IF "$(TargetFrameworkVersion)"=="v3.5" GOTO NET20
+IF "$(TargetFrameworkVersion)"=="v3.0" GOTO NET20
+IF "$(TargetFrameworkVersion)"=="v2.0" GOTO NET20
+GOTO END
+
+:NET40
+set FMWK="v4.0.30319"
+GOTO REG
+
+:NET20
+set FMWK="v2.0.50727"
+GOTO REG
+
+:REG
+IF "$(PlatformName)" == "AnyCPU" GOTO ANYCPU
+IF "$(PlatformName)" == "x64" GOTO X64
+GOTO END
+
+:ANYCPU
+IF EXIST "%Windir%\Microsoft.NET\Framework64\%FMWK%\regasm.exe" "%Windir%\Microsoft.NET\Framework64\%FMWK%\regasm" /codebase "$(TargetPath)"
+GOTO END
+
+:X64
+IF EXIST "%Windir%\Microsoft.NET\Framework64\%FMWK%\regasm.exe" "%Windir%\Microsoft.NET\Framework64\%FMWK%\regasm" /codebase "$(TargetPath)"
+GOTO END
+
+:END
 
 [Back to top](#top)

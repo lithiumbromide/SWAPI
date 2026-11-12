@@ -45,54 +45,31 @@ property Edge^ Edge {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Planar circular
-
-[edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-(see
-
-Remarks
-
-)
+Planar circular [edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::Edge](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~Edge.html)
-
-.
+See [ThreadFeatureData::Edge](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~Edge.html).
 
 ## Examples
 
-See the
-
-[IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-examples.
+See the [IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html) examples.
 
 ## Remarks
 
-Use[IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html)with Mark = 1 to select the edge.
+Use [IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html) with Mark = 1 to select the edge.
 
-If this property does not set a planar circular edge, then you must use[IThreadFeatureData::StartEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~StartEntity.html)to specify the start location of this thread's helix.
+If this property does not set a planar circular edge, then you must use [IThreadFeatureData::StartEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~StartEntity.html) to specify the start location of this thread's helix.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

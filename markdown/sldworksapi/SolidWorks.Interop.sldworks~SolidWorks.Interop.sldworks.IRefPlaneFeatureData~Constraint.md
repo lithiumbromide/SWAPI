@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # Constraint Property (IRefPlaneFeatureData)
 
-Gets or sets the constraint for the specified
-
-[reference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlaneFeatureData~Reference.html)
-
-for this reference plane feature.
+Gets or sets the constraint for the specified [reference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlaneFeatureData~Reference.html) for this reference plane feature.
 
 ## Syntax
 
@@ -54,48 +50,28 @@ property System.int Constraint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Index of the specified
-
-[reference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlaneFeatureData~Reference.html)
-
-as defined in
-
-[swRefPlaneReferenceIndex_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefPlaneReferenceIndex_e.html)
+- `Index`: Index of the specified [reference](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlaneFeatureData~Reference.html) as defined in [swRefPlaneReferenceIndex_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefPlaneReferenceIndex_e.html)
 
 ### Property Value
 
-Constraint as defined in
-
-[swRefPlaneReferenceConstraints_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefPlaneReferenceConstraints_e.html)
+Constraint as defined in [swRefPlaneReferenceConstraints_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefPlaneReferenceConstraints_e.html)
 
 ## VBA Syntax
 
-See
-
-[RefPlaneFeatureData::Constraint](ms-its:sldworksapivb6.chm::/sldworks~RefPlaneFeatureData~Constraint.html)
-
-.
+See [RefPlaneFeatureData::Constraint](ms-its:sldworksapivb6.chm::/sldworks~RefPlaneFeatureData~Constraint.html).
 
 ## Remarks
 
-**IMPORTANT:**Reference planes created in SOLIDWORKS 2010 or later are constraint based; reference planes created in SOLIDWORKS 2009 or earlier are not. See the**Remarks**section in the[IRefPlaneFeatureData interface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlaneFeatureData.html)topic for details about reference planes and this interface.
+**IMPORTANT:** Reference planes created in SOLIDWORKS 2010 or later are constraint based; reference planes created in SOLIDWORKS 2009 or earlier are not. See the **Remarks** section in the [IRefPlaneFeatureData interface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlaneFeatureData.html) topic for details about reference planes and this interface.
 
 ## See Also
 
 [IRefPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData.html)
-
 [IRefPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData_members.html)
-
 [IRefPlaneFeatureData::Reference Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData~Reference.html)
 
 ## Availability

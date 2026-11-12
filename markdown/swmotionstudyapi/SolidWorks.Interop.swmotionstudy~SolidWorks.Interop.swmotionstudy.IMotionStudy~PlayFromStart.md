@@ -46,24 +46,15 @@ True if the motion study plays from where the animation timebar is located, fals
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::PlayFromStart](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~PlayFromStart.html)
-
-.
+See [MotionStudy::PlayFromStart](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~PlayFromStart.html).
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
-
 [IMotionStudy::Play Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~Play.html)
-
 [IMotionStudy::IsPlaying Property](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~IsPlaying.html)
-
 [IMotionStudy::PlayMode Property](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~PlayMode.html)
-
 [IMotionStudy::Stop Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~Stop.html)
 
 ## Availability

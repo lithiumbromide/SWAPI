@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # IsMultipleRadius Property (ISimpleFilletFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleFilletFeatureData2::IsMultipleRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IsMultipleRadius.html)
-
-.
+Obsolete. Superseded by [ISimpleFilletFeatureData2::IsMultipleRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IsMultipleRadius.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool IsMultipleRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData::IsMultipleRadius](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~IsMultipleRadius.html)
-
-.
+See [SimpleFilletFeatureData::IsMultipleRadius](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData~IsMultipleRadius.html).
 
 ## See Also
 
 [ISimpleFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData.html)
-
 [ISimpleFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData_members.html)

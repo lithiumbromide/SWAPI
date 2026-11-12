@@ -79,57 +79,19 @@ System.bool AddTrimmingLoop2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NCrvs`: Number of surface parametric (UV) curves constituting the loop and the size of each of the VOrder, VDim, VPeriodic, VNumKnots, VNumControlPnts arrays
-- `VOrder`: Array containing NCrvs longs (VBA), Integers (VB.NET), or ints (C#, C++) representing orders of the curves (see
-
-Remarks
-
-)
-- `VDim`: Array containing NCrvs longs (VBA), Integers (VB.NET), or ints (C#, C++) representing dimensions (2, 3, or 4) of the control points of the curves (see
-
-Remarks
-
-)
-- `VPeriodic`: Array containing NCrvs longs (VBA), Integers (VB.NET), or ints (C#, C++) representing whether the curve is periodic (1) or non-periodic (0) (see
-
-Remarks
-
-)
-- `VNumKnots`: Array containing NCrvs longs (VBA), Integers (VB.NET), or ints (C#, C++) representing number of knots on the curves (see
-
-Remarks
-
-)
-- `VNumCtrlPoints`: Array containing NCrvs longs (VBA), Integers (VB.NET), or ints (C#, C++) representing number of control points on the curves (see
-
-Remarks
-
-)
-- `VKnots`: Knot vector array of <TotalNumKnots> doubles, where TotalNumKnots = (TotalNumKnots + VNumKnots[i]) for i = 1 to NCrvs (see
-
-Remarks
-
-)
-- `VCtrlPointDbls`: Control point coordinate array of <TotalNumCPCoords> doubles, where TotalNumCPCoords = (TotalNumCPCoords + (VDim[i] * VNumCtrlPoints[i])) for i = 1 to NCrvs (see
-
-Remarks
-
-)
-- `UvRange`: Array of four doubles representing U Low, U High, V Low, and V High (see
-
-Remarks
-
-)
+- `VOrder`: Array containing NCrvs longs (VBA), Integers (VB.NET), or ints (C#, C++) representing orders of the curves (see **Remarks**)
+- `VDim`: Array containing NCrvs longs (VBA), Integers (VB.NET), or ints (C#, C++) representing dimensions (2, 3, or 4) of the control points of the curves (see **Remarks**)
+- `VPeriodic`: Array containing NCrvs longs (VBA), Integers (VB.NET), or ints (C#, C++) representing whether the curve is periodic (1) or non-periodic (0) (see **Remarks**)
+- `VNumKnots`: Array containing NCrvs longs (VBA), Integers (VB.NET), or ints (C#, C++) representing number of knots on the curves (see **Remarks**)
+- `VNumCtrlPoints`: Array containing NCrvs longs (VBA), Integers (VB.NET), or ints (C#, C++) representing number of control points on the curves (see **Remarks**)
+- `VKnots`: Knot vector array of <TotalNumKnots> doubles, where TotalNumKnots = (TotalNumKnots + VNumKnots[i]) for i = 1 to NCrvs (see **Remarks**)
+- `VCtrlPointDbls`: Control point coordinate array of <TotalNumCPCoords> doubles, where TotalNumCPCoords = (TotalNumCPCoords + (VDim[i] * VNumCtrlPoints[i])) for i = 1 to NCrvs (see **Remarks**)
+- `UvRange`: Array of four doubles representing U Low, U High, V Low, and V High (see **Remarks**)
 
 ### Return Value
 
@@ -137,23 +99,17 @@ True if successful in adding a trimming loop to the surface, false if not
 
 ## VBA Syntax
 
-See
-
-[Surface::AddTrimmingLoop2](ms-its:sldworksapivb6.chm::/sldworks~Surface~AddTrimmingLoop2.html)
-
-.
+See [Surface::AddTrimmingLoop2](ms-its:sldworksapivb6.chm::/sldworks~Surface~AddTrimmingLoop2.html).
 
 ## Examples
 
 [Create Body Using Trimmed Surfaces (VBA)](Create_Body_using_Trimmed_Surfaces_Example_VB.htm)
-
 [Create Body Using Trimmed Surfaces (VB.NET)](Create_Body_using_Trimmed_Surfaces_Example_VBNET.htm)
-
 [Create Body Using Trimmed Surfaces (C#)](Create_Body_using_Trimmed_Surfaces_Example_CSharp.htm)
 
 ## Remarks
 
-The list of trimming loops is created by a previous call to one of the base surface creation functions,[IBody2::CreateRevolutionSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreateRevolutionSurface.html)or[IBody2::CreatePlanarSurface.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreatePlanarSurface.html)
+The list of trimming loops is created by a previous call to one of the base surface creation functions, [IBody2::CreateRevolutionSurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreateRevolutionSurface.html) or [IBody2::CreatePlanarSurface.](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreatePlanarSurface.html)
 
 The information on each UV-curve is in b-spline form (knots and control point coordinates) and is compacted into two arrays, VKnots and VCtrlPointDbls.
 
@@ -177,16 +133,14 @@ Multiplicity of a knot is the number of times it is repeated in the knot vector.
 
 If you do not want to specify a UV range, use null or Nothing in the UvRange array elements.
 
-After calling this method to add a trimming loop, you can generate the trimmed surface by calling[IBody2::CreateTrimmedSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateTrimmedSurface.html). You can create a body from trimmed surfaces using[IBody2::CreateBodyFromSurfaces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreateBodyFromSurfaces.html).
+After calling this method to add a trimming loop, you can generate the trimmed surface by calling [IBody2::CreateTrimmedSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateTrimmedSurface.html). You can create a body from trimmed surfaces using [IBody2::CreateBodyFromSurfaces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreateBodyFromSurfaces.html).
 
-NOTE:It is highly recommended that you consult other resources for the mathematics behind b-splines, knots, knot multiplicity, and control points before attempting to use this method.
+NOTE: It is highly recommended that you consult other resources for the mathematics behind b-splines, knots, knot multiplicity, and control points before attempting to use this method.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IAddTrimmingLoop2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IAddTrimmingLoop2.html)
 
 ## Availability

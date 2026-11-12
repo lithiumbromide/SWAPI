@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # SetLabel Method (IDrSection)
 
-Obsolete. Superseded by
-
-[IDrSection::ISetLabel2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~SetLabel2.html)
-
-.
+Obsolete. Superseded by [IDrSection::ISetLabel2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection~SetLabel2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool SetLabel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrSection::SetLabel](ms-its:sldworksapivb6.chm::/sldworks~DrSection~SetLabel.html)
-
-.
+See [DrSection::SetLabel](ms-its:sldworksapivb6.chm::/sldworks~DrSection~SetLabel.html).
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)

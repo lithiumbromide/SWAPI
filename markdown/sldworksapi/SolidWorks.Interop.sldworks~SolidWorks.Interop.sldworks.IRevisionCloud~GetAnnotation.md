@@ -40,13 +40,7 @@ System.object GetAnnotation()
 System.Object^ GetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[RevisionCloud::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~GetAnnotation.html)
-
-.
+See [RevisionCloud::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~GetAnnotation.html).
 
 ## Examples
 
-See
-
-[IRevisionCloud](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionCloud.html)
-
-examples.
+See [IRevisionCloud](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionCloud.html) examples.
 
 ## See Also
 
 [IRevisionCloud Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud.html)
-
 [IRevisionCloud Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud_members.html)
-
 [IRevisionCloud::IGetAnnotation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud~IGetAnnotation.html)
 
 ## Availability

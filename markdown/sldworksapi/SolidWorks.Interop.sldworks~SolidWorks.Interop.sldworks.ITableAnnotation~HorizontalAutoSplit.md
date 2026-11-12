@@ -55,39 +55,21 @@ System.Object^ HorizontalAutoSplit(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `MaxNumberOfRows`: Maximum number of rows in the split portions
-- `Apply`: How often to horizontally split the table as defined in
-
-[swHorizontalAutoSplitApply_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHorizontalAutoSplitApply_e.html)
-- `PlacementOfNewSplitTables`: Where to place the horizontally split table as defined in
-
-[swHorizontalAutoSplitPlacementOfSplitTable_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHorizontalAutoSplitPlacementOfSplitTable_e.html)
+- `Apply`: How often to horizontally split the table as defined in [swHorizontalAutoSplitApply_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHorizontalAutoSplitApply_e.html)
+- `PlacementOfNewSplitTables`: Where to place the horizontally split table as defined in [swHorizontalAutoSplitPlacementOfSplitTable_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHorizontalAutoSplitPlacementOfSplitTable_e.html)
 
 ### Return Value
 
-Array of split
-
-[ITableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html)
-
-s
+Array of split [ITableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html)s
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::HorizontalAutoSplit](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~HorizontalAutoSplit.html)
-
-.
+See [TableAnnotation::HorizontalAutoSplit](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~HorizontalAutoSplit.html).
 
 ## Remarks
 
@@ -97,16 +79,13 @@ This method horizontally splits:
 - [Bill of Materials tables](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation.html)
 - [General tables](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGeneralTableAnnotation.html)
 
-If Apply is set to[swHorizontalAutoSplitApply_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHorizontalAutoSplitApply_e.html).Continuously, in order to stop the automatic splitting of tables, you must set[ITableAnnotation::StopAutoSplitting](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~StopAutoSplitting.html)to true.
+If Apply is set to [swHorizontalAutoSplitApply_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHorizontalAutoSplitApply_e.html).Continuously, in order to stop the automatic splitting of tables, you must set [ITableAnnotation::StopAutoSplitting](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~StopAutoSplitting.html) to true.
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::Split Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~Split.html)
-
 [ITableAnnotation::GetSplitInformation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetSplitInformation.html)
 
 ## Availability

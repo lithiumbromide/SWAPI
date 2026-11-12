@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Sketch_Points_and_Their_Persistent_IDs_Example_VB.htm"
 
 # Get Sketch Points and Sketch Point IDs Example (VBA)
 
-This example shows how to get all of the sketch points in the selected
-sketch and their IDs.
+This example shows how to get all of the sketch points in the selected sketch and their IDs.
 
 ```
 '--------------------------------------------------

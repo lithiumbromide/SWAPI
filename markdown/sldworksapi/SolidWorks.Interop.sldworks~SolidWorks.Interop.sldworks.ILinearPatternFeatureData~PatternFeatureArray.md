@@ -45,50 +45,34 @@ property System.Object^ PatternFeatureArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of[features](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)for this pattern
+Array of [features](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html) for this pattern
 
 ## VBA Syntax
 
-See
-
-[LinearPatternFeatureData::PatternFeatureArray](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~PatternFeatureArray.html)
-
-.
+See [LinearPatternFeatureData::PatternFeatureArray](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~PatternFeatureArray.html).
 
 ## Examples
 
 [Change Linear Pattern (C#)](Change_Linear_Pattern_Example_CSharp.htm)
-
 [Change Linear Pattern (VB.NET)](Change_Linear_Pattern_Example_VBNET.htm)
-
 [Change Linear Pattern (VBA)](Change_Linear_Pattern_Example_VB.htm)
 
 ## Remarks
 
-This property is valid only if[ILinearPatternFeatureData::BodyPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~BodyPattern.html)is false.
+This property is valid only if [ILinearPatternFeatureData::BodyPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~BodyPattern.html) is false.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ILinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
 [ILinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData_members.html)
-
 [ILinearPatternFeatureData::GetPatternFeatureCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~GetPatternFeatureCount.html)
-
 [ILinearPatternFeatureData::IGetPatternFeatureArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~IGetPatternFeatureArray.html)
-
 [ILinearPatternFeatureData::ISetPatternFeatureArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~ISetPatternFeatureArray.html)
 
 ## Availability

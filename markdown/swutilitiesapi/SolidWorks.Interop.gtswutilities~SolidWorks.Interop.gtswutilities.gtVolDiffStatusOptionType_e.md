@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # gtVolDiffStatusOptionType_e Enumeration
 
-Error types returned by
-
-[ICompareGeometry::CompareGeometry3](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareGeometry~CompareGeometry3.html)
-
-.
+Error types returned by [ICompareGeometry::CompareGeometry3](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareGeometry~CompareGeometry3.html).
 
 ## Syntax
 

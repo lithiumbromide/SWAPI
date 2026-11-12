@@ -40,13 +40,7 @@ System.int GetAxisType()
 System.int GetAxisType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -59,18 +53,12 @@ Geometry type used to create the circular pattern:
 
 ## VBA Syntax
 
-See
-
-[CircularPatternFeatureData::GetAxisType](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~GetAxisType.html)
-
-.
+See [CircularPatternFeatureData::GetAxisType](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~GetAxisType.html).
 
 ## See Also
 
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
 [ICircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData_members.html)
-
 [ICircularPatternFeatureData::Axis Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~Axis.html)
 
 ## Availability

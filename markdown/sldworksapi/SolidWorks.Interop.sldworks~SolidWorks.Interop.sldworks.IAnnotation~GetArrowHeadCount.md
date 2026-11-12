@@ -40,13 +40,7 @@ System.int GetArrowHeadCount()
 System.int GetArrowHeadCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,20 @@ Number of arrowheads on this annotation
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetArrowHeadCount](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetArrowHeadCount.html)
-
-.
+See [Annotation::GetArrowHeadCount](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetArrowHeadCount.html).
 
 ## Remarks
 
-This method works with traditional leaders on annotations and[multijog leaders](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMultiJogLeader.html).
+This method works with traditional leaders on annotations and [multijog leaders](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMultiJogLeader.html).
 
-Call this method before calling[IAnnotation::GetArrowHeadSizeAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetArrowHeadSizeAtIndex.html)to specify the annotation for which to get the arrow head size.
+Call this method before calling [IAnnotation::GetArrowHeadSizeAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetArrowHeadSizeAtIndex.html) to specify the annotation for which to get the arrow head size.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::SetArrowHeadSizeAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetArrowHeadSizeAtIndex.html)
-
 [IAnnotation::GetArrowHeadStyleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetArrowHeadStyleAtIndex.html)
-
 [IAnnotation::SetArrowHeadStyleAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetArrowHeadStyleAtIndex.html)
 
 ## Availability

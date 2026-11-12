@@ -45,13 +45,7 @@ property System.bool Merge {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True merges the results of this loft feature in a multibody part, false does not
 
 ## VBA Syntax
 
-See
-
-[LoftFeatureData::Merge](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~Merge.html)
-
-.
+See [LoftFeatureData::Merge](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~Merge.html).
 
 ## Remarks
 
-The merge results option tells the SOLIDWORKS software whether to merge the new body or bodies with existing bodies in the multibody part. This property is set to True by default.
+The merge results option tells the SOLIDWORKS Design software whether to merge the new body or bodies with existing bodies in the multibody part. This property is set to True by default.
 
 ## See Also
 
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [ILoftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData_members.html)
 
 ## Availability

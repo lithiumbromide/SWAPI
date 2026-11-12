@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMa
 
 # SetPropertyByName Method (ICWMaterial)
 
-Obsolete. Superseded by
-
-[ICWMaterial::SetPropertyByName2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SetPropertyByName2.html)
-
-.
+Obsolete. Superseded by [ICWMaterial::SetPropertyByName2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SetPropertyByName2.html).
 
 ## Syntax
 
@@ -61,33 +57,24 @@ void SetPropertyByName(
 ### Parameters
 
 - `SName`: Property name; for example, 'EX' for Elastic modulus, 'NUXY' for Poisson's ratio, etc.
-- `DValue`: Value of material propertyParamDesc
+- `DValue`: Value of material property
 - `BValue`: True if temperature dependent, false if not
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::SetPropertyByName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SetPropertyByName.html)
-
-.
+See [CWMaterial::SetPropertyByName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SetPropertyByName.html).
 
 ## Examples
 
 [Create Nonlinear Study and Apply Materials (C#)](Create_Nonlinear_Study_and_Apply_Materials_Example_CSharp.htm)
-
 [Create Nonlinear Study and Apply Materials (VB.NET)](Create_Nonlinear_Study_and_Apply_Materials_Example_VBNET.htm)
-
 [Create Nonlinear Study and Apply Materials (VBA)](Create_Nonlinear_Study_and_Apply_Materials_Example_VB.htm)
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::GetPropertyByName Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~GetPropertyByName.html)
-
 [ICWMaterial::Count Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~Count.html)
 
 ## Availability

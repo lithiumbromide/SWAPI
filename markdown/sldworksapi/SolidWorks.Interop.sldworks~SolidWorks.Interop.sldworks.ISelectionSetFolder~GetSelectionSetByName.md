@@ -47,13 +47,7 @@ System.Object^ GetSelectionSetByName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,34 +59,22 @@ See
 
 ## VBA Syntax
 
-See
-
-[SelectionSetFolder::GetSelectionSetByName](ms-its:sldworksapivb6.chm::/sldworks~SelectionSetFolder~GetSelectionSetByName.html)
-
-.
+See [SelectionSetFolder::GetSelectionSetByName](ms-its:sldworksapivb6.chm::/sldworks~SelectionSetFolder~GetSelectionSetByName.html).
 
 ## Examples
 
 [Get Objects in Selection Set (C#)](Get_Objects_in_Selection_Set_Example_CSharp.htm)
-
 [Get Objects in Selection Set (VB.NET)](Get_Objects_in_Selection_Set_Example_VBNET.htm)
-
 [Get Objects in Selection Set (VBA)](Get_Objects_in_Selection_Set_Example_VB.htm)
 
 ## Remarks
 
-To get the name of a selection folder to pass to this method, you can traverse
-
-[items in the FeatureManager design tree](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem.html)
-
-. See the examples.
+To get the name of a selection folder to pass to this method, you can traverse [items in the FeatureManager design tree](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem.html). See the examples.
 
 ## See Also
 
 [ISelectionSetFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetFolder.html)
-
 [ISelectionSetFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetFolder_members.html)
-
 [ISelectionSetFolder::GetSelectionSets Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetFolder~GetSelectionSets.html)
 
 ## Availability

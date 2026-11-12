@@ -47,41 +47,24 @@ property System.int Unit {
 
 ### Property Value
 
-- Units of translation as defined in
-
-  [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
-- Units of angular rotation as defined in
-
-  [swsRotationUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRotationUnit_e.html)
+- Units of translation as defined in [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+- Units of angular rotation as defined in [swsRotationUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRotationUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~Unit.html)
-
-.
+See [CWRestraint::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~Unit.html).
 
 ## Examples
 
-See the
-
-[ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
-examples.
+See the [ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html) examples.
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
-
 [ICWRestraint::GetRotationComponentsValues Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetRotationComponentsValues.html)
-
 [ICWRestraint::GetTranslationComponentsValues Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetTranslationComponentsValues.html)
-
 [ICWRestraint::SetRotationComponentsValues Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetRotationComponentsValues.html)
-
 [ICWRestraint::SetTranslationComponentsValues Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetTranslationComponentsValues.html)
 
 ## Availability

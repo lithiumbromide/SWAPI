@@ -39,5 +39,4 @@ Maximum number of users for this license type.
 ## See Also
 
 [EdmLicense Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense.html)
-
 [EdmLicense Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense_members.html)

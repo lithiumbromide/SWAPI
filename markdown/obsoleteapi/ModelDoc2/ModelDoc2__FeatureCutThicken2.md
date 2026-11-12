@@ -9,101 +9,33 @@ source: "obsoleteapi/ModelDoc2/ModelDoc2__FeatureCutThicken2.htm"
 
 # ModelDoc2::FeatureCutThicken2
 
-This
-method is obsolete and has been superseded by FeatureManager::FeatureCutThicken.
+This method is obsolete and has been superseded by [FeatureManager](sldworksAPI.chm::/FeatureManager/FeatureManager__FeatureCutThicken.htm)::FeatureCutThicken.
 
 Description
 
-This method thickens the selected reference
-surface feature, and then generates a cut.
+This method thickens the selected reference surface feature, and then generates a cut.
 
 Syntax (OLE Automation)
 
-void ModelDoc2.FeatureCutThicken2 (thickness, direction, faceIndex, fillVolume)
-
-(Table)=========================================================
+void ModelDoc2.FeatureCutThicken2 ( thickness, direction, faceIndex, fillVolume )
 
 | Input: | (double) thickness | Wall thickness |
 | --- | --- | --- |
-| Input: | (long) direction | 0
-- Thicken side 1 1
-- Thicken side2 2-
-Thicken both sides |
+| Input: | (long) direction | 0 - Thicken side 1 1 - Thicken side2 2- Thicken both sides |
 | Input: | (long) faceIndex | Not used |
 | Input: | (BOOL) fillVolume | TRUE to make a solid from knitted surface |
 
 Syntax (COM)
 
-status = ModelDoc2->FeatureCutThicken2 ( thickness,
-direction, faceIndex, fillVolume )
-
-(Table)=========================================================
+status = ModelDoc2->FeatureCutThicken2 ( thickness, direction, faceIndex, fillVolume )
 
 | Input: | (double) thickness | Wall thickness |
 | --- | --- | --- |
-| Input: | (long) direction | 0
-- Thicken side 1 1
-- Thicken side2 2
-- Thicken both sides |
+| Input: | (long) direction | 0 - Thicken side 1 1 - Thicken side2 2 - Thicken both sides |
 | Input: | (long) faceIndex | Not used |
 | Input: | (VARIANT_BOOL) fillVolume | TRUE to make a solid from knitted surface. |
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
 
-If fillVolume is TRUE, then the other arguments
-are ignored. A closed surface is required when fillVolumeis TRUE.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001Plus$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\obsoleteapi\ModelDoc2\ModelDoc2__FeatureCutThicken2.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ModelDoc2_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\obsoleteapi\ModelDoc2\ModelDoc2__FeatureCutThicken2.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+If fillVolume is TRUE, then the other arguments are ignored. A closed surface is required when fillVolume is TRUE.

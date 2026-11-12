@@ -43,33 +43,19 @@ public delegate System.int DModelViewEvents_ViewChangeNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `View`: See
-
-Remarks
+- `View`: See **Remarks**
 
 ## VBA Syntax
 
-See
-
-[ViewChangeNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~ViewChangeNotify_EV.html)
-
-.
+See [ViewChangeNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~ViewChangeNotify_EV.html).
 
 ## Remarks
 
 In Visual Basic for Applications (VBA), the view argument is a VARIANT of type SafeArray of 16 doubles:
-
-(Table)=========================================================
 
 | Elements | Values |
 | --- | --- |
@@ -80,7 +66,7 @@ In Visual Basic for Applications (VBA), the view argument is a VARIANT of type S
 
 Your application is responsible for destroying the SafeArray when you are finished with it.
 
-If developing a C++ application, use[swViewChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)to register for this notification.
+If developing a C++ application, use [swViewChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) to register for this notification.
 
 ## Availability
 

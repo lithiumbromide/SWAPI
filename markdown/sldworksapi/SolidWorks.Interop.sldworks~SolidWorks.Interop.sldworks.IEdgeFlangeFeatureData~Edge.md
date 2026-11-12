@@ -9,19 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # Edge Property (IEdgeFlangeFeatureData)
 
-Obsolete. Superseded by
-
-[IEdgeFlangeFeatureData::Edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~Edges.html)
-
-,
-
-[IEdgeFlangeFeatureData::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~IGetEdges.html)
-
-, and
-
-[IEdgeFlangeFeatureData::ISetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~ISetEdges.html)
-
-.
+Obsolete. Superseded by [IEdgeFlangeFeatureData::Edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~Edges.html), [IEdgeFlangeFeatureData::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~IGetEdges.html), and [IEdgeFlangeFeatureData::ISetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdgeFlangeFeatureData~ISetEdges.html).
 
 ## Syntax
 
@@ -57,24 +45,13 @@ property System.Object^ Edge {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData::Edge](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~Edge.html)
-
-.
+See [EdgeFlangeFeatureData::Edge](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~Edge.html).
 
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)

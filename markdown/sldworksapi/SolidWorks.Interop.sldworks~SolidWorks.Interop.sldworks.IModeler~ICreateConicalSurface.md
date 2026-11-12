@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ICreateConicalSurface Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::ICreateConicalSurface2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateCylindricalSurface2.html)
-
-.
+Obsolete. Superseded by [IModeler::ICreateConicalSurface2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateCylindricalSurface2.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ Surface^ ICreateConicalSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Modeler::ICreateConicalSurface](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateConicalSurface.html)
-
-.
+See [Modeler::ICreateConicalSurface](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateConicalSurface.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)

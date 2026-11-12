@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Provides access to sketched line entities.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,22 +41,14 @@ public interface class ISketchLine
 
 ## VBA Syntax
 
-See
-
-[SketchLine](ms-its:sldworksapivb6.chm::/sldworks~SketchLine.html)
-
-.
+See [SketchLine](ms-its:sldworksapivb6.chm::/sldworks~SketchLine.html).
 
 ## Examples
 
 [Create Imported Surface Body From Sketch (C#)](Create_Imported_Surface_Body_from_Sketch_Example_CSharp.htm)
-
 [Autodimension All Sketches (VBA)](Autodimension_All_Sketches_Example_VB.htm)
-
 [Get Direction of Bendline (C#)](Get_Direction_of_Bendline_Example_CSharp.htm)
-
 [Get Direction of Bendline (VB.NET)](Get_Direction_of_Bendline_Example_VBNET.htm)
-
 [Get Direction of Bendline (VBA)](Get_Direction_of_Bendline_Example_VB.htm)
 
 ## Accessors
@@ -102,5 +94,4 @@ See
 ## See Also
 
 [ISketchLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

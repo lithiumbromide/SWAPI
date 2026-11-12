@@ -47,28 +47,15 @@ property System.double PoissonsRatio {
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::PoissonsRatio](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~PoissonsRatio.html)
-
-.
+See [CWLinkageRod::PoissonsRatio](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~PoissonsRatio.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWLinkageRod::MaterialSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod~MaterialSource.html)
-
-is set to
-
-[swsMaterialSourceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSourceType_e.html)
-
-.swsMaterial_Custom.
+This property is valid only if [ICWLinkageRod::MaterialSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod~MaterialSource.html) is set to [swsMaterialSourceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSourceType_e.html).swsMaterial_Custom.
 
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

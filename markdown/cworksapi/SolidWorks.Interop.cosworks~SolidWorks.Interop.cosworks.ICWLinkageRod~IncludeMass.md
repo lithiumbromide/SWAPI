@@ -47,32 +47,19 @@ True to include mass in calculations, false to not
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::IncludeMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~IncludeMass.html)
-
-.
+See [CWLinkageRod::IncludeMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~IncludeMass.html).
 
 ## Examples
 
-See the
-
-[ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
-examples
+See the [ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html) examples
 
 ## Remarks
 
-If this property sets true, then use
-
-[ICWLinkageRod::Mass](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod~Mass.html)
-
-to specify the density.
+If this property sets true, then use [ICWLinkageRod::Mass](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod~Mass.html) to specify the density.
 
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

@@ -48,12 +48,11 @@ Vault name
 ## Examples
 
 [Check Out and Copy File (VB.NET)](Check_Out_and_Copy_File_Example_VBNET.htm)
-
 [Check Out and Copy File (C#)](Check_Out_and_Copy_File_Example_CSharp.htm)
 
 ## Remarks
 
-You do not need to call[IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html)or[IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html)before calling this method.
+You do not need to call [IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html) or [IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html) before calling this method.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -63,7 +62,6 @@ You do not need to call[IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.I
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
 
 ## Availability

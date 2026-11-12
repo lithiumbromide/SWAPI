@@ -46,24 +46,15 @@ SustainabilityTransportation^ GetSustainabilityTransportation();
 
 ## VBA Syntax
 
-See
-
-[SustainabilityApp::GetSustainabilityTransportation](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~sustainabilityApp~GetSustainabilityTransportation.html)
-
-.
+See [SustainabilityApp::GetSustainabilityTransportation](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~sustainabilityApp~GetSustainabilityTransportation.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityApp](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityApp.html)
-
-.
+See the examples in [ISustainabilityApp](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityApp.html).
 
 ## See Also
 
 [ISustainabilityApp Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp.html)
-
 [ISustainabilityApp Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp_members.html)
 
 ## Availability

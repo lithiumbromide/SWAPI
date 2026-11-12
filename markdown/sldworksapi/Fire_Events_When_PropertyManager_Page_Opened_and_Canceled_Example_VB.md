@@ -9,9 +9,7 @@ source: "sldworksapi/Fire_Events_When_PropertyManager_Page_Opened_and_Canceled_E
 
 # Fire Events When PropertyManager Page Opened and Canceled Example (VBA)
 
-This example shows how to get the SOLIDWORKS command ID, PropertyManager
-title, and whether the user interface is active. Events are fired before the PropertyManager page is opened and when it is
-canceled.
+This example shows how to get the SOLIDWORKS command ID, PropertyManager title, and whether the user interface is active. Events are fired before the PropertyManager page is opened and when it is canceled.
 
 ```
 '------------------------------------------

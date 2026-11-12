@@ -51,11 +51,7 @@ Name of the "to" component
 
 ## VBA Syntax
 
-See
-
-[Wire::ToComponentReference](ms-its:routingapivb6.chm::/SWRoutingLib~Wire~ToComponentReference.html)
-
-.
+See [Wire::ToComponentReference](ms-its:routingapivb6.chm::/SWRoutingLib~Wire~ToComponentReference.html).
 
 ## Examples
 
@@ -64,11 +60,8 @@ See
 ## See Also
 
 [IWire Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire.html)
-
 [IWire Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire_members.html)
-
 [IWire::FromComponentReference Property](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~FromComponentReference.html)
-
 [IElectricalWire::RouteWires Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~RouteWires.html)
 
 ## Availability

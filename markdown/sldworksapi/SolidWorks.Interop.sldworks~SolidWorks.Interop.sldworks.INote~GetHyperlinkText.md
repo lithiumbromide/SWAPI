@@ -40,13 +40,7 @@ System.string GetHyperlinkText()
 System.String^ GetHyperlinkText();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Hyperlink text
 
 ## VBA Syntax
 
-See
-
-[Note::GetHyperlinkText](ms-its:sldworksapivb6.chm::/sldworks~Note~GetHyperlinkText.html)
-
-.
+See [Note::GetHyperlinkText](ms-its:sldworksapivb6.chm::/sldworks~Note~GetHyperlinkText.html).
 
 ## Examples
 
@@ -66,20 +56,18 @@ See
 
 ## Remarks
 
-You can create an embedded hyperlink on a note by using[INote::SetHyperlinkText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~SetHyperlinkText.html)or by using the hyperlink button on the note creation dialog.
+You can create an embedded hyperlink on a note by using [INote::SetHyperlinkText](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~SetHyperlinkText.html) or by using the hyperlink button on the note creation dialog.
 
 This command first looks for an embedded hyperlink on the note and returns the text used to take the user to that document, which can be on the internet (a URL address is returned) or on your local network or hard drive (a pathname is returned). If the pathname was specified as a relative pathname, then the full pathname is returned.
 
-If an embedded hyperlink does not exist, the note's text is searched for a hyperlink explicitly entered as part of the note text. This could be a URL address (a text string beginning withhttp://) or a file address (a text string beginning withfile://).
+If an embedded hyperlink does not exist, the note's text is searched for a hyperlink explicitly entered as part of the note text. This could be a URL address (a text string beginning with http://) or a file address (a text string beginning with file://).
 
 If no hyperlink is found, either embedded or explicitly entered within the note text, an empty string is returned.
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::SetHyperlinkText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~SetHyperlinkText.html)
 
 ## Availability

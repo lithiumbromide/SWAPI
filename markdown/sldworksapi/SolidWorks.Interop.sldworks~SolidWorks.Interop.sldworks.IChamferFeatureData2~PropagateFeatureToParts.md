@@ -45,13 +45,7 @@ property System.bool PropagateFeatureToParts {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to extend the chamfer feature to all affected parts in the assembly, false 
 
 ## VBA Syntax
 
-See
-
-[ChamferFeatureData2::PropagateFeatureToParts](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData2~PropagateFeatureToParts.html)
-
-.
+See [ChamferFeatureData2::PropagateFeatureToParts](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData2~PropagateFeatureToParts.html).
 
 ## See Also
 
 [IChamferFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2.html)
-
 [IChamferFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2_members.html)
 
 ## Availability

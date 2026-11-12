@@ -44,16 +44,15 @@ void IncrementRevision(
 ## Examples
 
 [Set Initial Revision (VB.NET)](Set_Initial_Revision_Example_VBNET.htm)
-
 [Set Initial Revision (C#)](Set_Initial_Revision_Example_CSharp.htm)
 
 ## Remarks
 
-If you call[IEdmRevisionMgr::SetRevisionCounters](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~SetRevisionCounters.html)before calling this method, the new revision number that gets generated uses the counters that are specified in the call to IEdmRevisionMgr::SetRevisionCounters. If counters have not been explicitly set, the component counters are incremented by one.
+If you call [IEdmRevisionMgr::SetRevisionCounters](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~SetRevisionCounters.html) before calling this method, the new revision number that gets generated uses the counters that are specified in the call to IEdmRevisionMgr::SetRevisionCounters. If counters have not been explicitly set, the component counters are incremented by one.
 
 The order of calls to IEdmRevisionMgr::SetRevisionCounters and this method does not matter. Calls to this method are always processed after calls to IEdmRevisionMgr::SetRevisionCounters.
 
-After calling this method, call[IEdmRevisionMgr::Commit](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~Commit.html)to commit the revision increment to the database.
+After calling this method, call [IEdmRevisionMgr::Commit](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~Commit.html) to commit the revision increment to the database.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -62,7 +61,6 @@ After calling this method, call[IEdmRevisionMgr::Commit](EPDM.Interop.epdm~EPDM.
 ## See Also
 
 [IEdmRevisionMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr.html)
-
 [IEdmRevisionMgr Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr_members.html)
 
 ## Availability

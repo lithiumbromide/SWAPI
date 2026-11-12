@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # PostSplitBody Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::PostSplitBody2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~PostSplitBody2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::PostSplitBody2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~PostSplitBody2.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ Feature^ PostSplitBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,55 +70,34 @@ See
 
 ### Return Value
 
-Pointer to the split-body
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+Pointer to the split-body [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::PostSplitBody](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~PostSplitBody.html)
-
-.
+See [FeatureManager::PostSplitBody](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~PostSplitBody.html).
 
 ## Remarks
 
 To create a split-body feature:
 
 1. Select the entities to use to split the part into multiple bodies.
-2. Call[IFeatureManager::PreSplitBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PreSplitBody.html)to get all of the bodies created by splitting the part.
+2. Call [IFeatureManager::PreSplitBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PreSplitBody.html) to get all of the bodies created by splitting the part.
 3. Call this method to create the split-body feature.
 
 The size of the BodiesToMark, Origins, and SavePaths arrays must be equal and greater than 0. If you pass an empty path and filename for a body, then that body is only marked and not saved. It remains with the original part.
 
-To find out if the bodies in a split-body feature were consumed, use[ISplitBodyFeatureData::Consume](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~Consume.html).
+To find out if the bodies in a split-body feature were consumed, use [ISplitBodyFeatureData::Consume](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~Consume.html).
 
-[IFeature::GetTypeName2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetTypeName2.html)and[IFeature::GetTypeName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetTypeName.html)return:
+[IFeature::GetTypeName2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetTypeName2.html) and [IFeature::GetTypeName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetTypeName.html) return:
 
-- Split
-
-  for a feature that was created by splitting a part into multiple parts by using either this method or the
-
-  Split
-
-  feature in the user interface. You can access a split-body feature's data using the
-
-  [ISplitBodyFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData.html)
-
-  interface.
-- SplitBody
-
-  for a body created by splitting a part and saving the body to a part. You cannot access the data of a split body saved to a part.
+- **Split** for a feature that was created by splitting a part into multiple parts by using either this method or the **Split** feature in the user interface. You can access a split-body feature's data using the [ISplitBodyFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData.html) interface.
+- **SplitBody** for a body created by splitting a part and saving the body to a part. You cannot access the data of a split body saved to a part.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISplitBodyFeatureData::GetSplitBodies Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~GetSplitBodies.html)
-
 [ISplitBodyFeatureData::SetSplitBodies2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~SetSplitBodies2.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.Object^ GetParabolaAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,19 @@ See
 
 ### Return Value
 
-Array (see**Remarks**)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DisplayData::GetParabolaAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetParabolaAtIndex.html)
-
-.
+See [DisplayData::GetParabolaAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetParabolaAtIndex.html).
 
 ## Remarks
 
 The return values are in an array of 16 doubles:
 
-[Color, LineType, LineStyleIndex, LineWeight, StartPt[3], EndPt[3], FocusPt[3], ApexPt[3]]
+[ Color, LineType, LineStyleIndex, LineWeight, StartPt[3], EndPt[3], FocusPt[3], ApexPt[3] ]
 
 where:
-
-(Table)=========================================================
 
 | Color | COLORREF returned as an integer; return value can be 0 or -1 for the default color |
 | --- | --- |
@@ -91,14 +79,11 @@ where:
 | FocusPt[3] | Array of 3 doubles (X,Y,Z) describing the parabola focus point |
 | ApexPt[3] | Array of 3 doubles (X,Y,Z) describing the parabola apex point |
 
-This set of data repeats for each parabola in the view. The size of the array is (NumParabolas * 16). Use[IDisplayData::GetParabolaCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetParabolaCount.html)to determine the number of parabolas.
+This set of data repeats for each parabola in the view. The size of the array is (NumParabolas * 16). Use [IDisplayData::GetParabolaCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetParabolaCount.html) to determine the number of parabolas.
 
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::IGetParabolaAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~IGetParabolaAtIndex.html)
-
 [IDisplayData::GetParabolaCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetParabolaCount.html)

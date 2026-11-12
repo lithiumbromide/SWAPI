@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITe
 
 # ITextAndCustomProperty Interface Properties
 
-For a list of all members of this type, see[ITextAndCustomProperty members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITextAndCustomProperty_members.html).
+For a list of all members of this type, see [ITextAndCustomProperty members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITextAndCustomProperty_members.html).
 
 ## Public Properties
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[ITextAndCustomProperty members](Soli
 ## See Also
 
 [ITextAndCustomProperty Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITextAndCustomProperty.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

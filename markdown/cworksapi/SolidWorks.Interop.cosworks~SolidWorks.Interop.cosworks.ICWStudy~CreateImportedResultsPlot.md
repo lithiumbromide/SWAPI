@@ -61,16 +61,10 @@ CWPlot^ CreateImportedResultsPlot(
 
 ### Parameters
 
-- `SExternalResultFile`: Full pathname of the
-
-*.csv
-
-results file
+- `SExternalResultFile`: Full pathname of the ***.csv** results file
 - `SLegendTitle`: Legend title of the plot
 - `BValueByElem`: True if SExternalResultFile contains element data, false if it contains nodal data
-- `ErrorCode`: Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ### Return Value
 
@@ -78,11 +72,7 @@ results file
 
 ## VBA Syntax
 
-See
-
-[CWStudy::CreateImportedResultsPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~CreateImportedResultsPlot.html)
-
-.
+See [CWStudy::CreateImportedResultsPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~CreateImportedResultsPlot.html).
 
 ## Examples
 
@@ -128,7 +118,6 @@ End If
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

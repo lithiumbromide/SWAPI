@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISW
 
 # AddPagex64 Method (ISWPropertySheet)
 
-Adds a CPropertyPage-derived page to an
-
-[ISWPropertySheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html)
-
-in 64-bit applications.
+Adds a CPropertyPage-derived page to an [ISWPropertySheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html) in 64-bit applications.
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int AddPagex64(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,12 @@ True if successful, false if not
 
 ## Remarks
 
-This method is only available through early binding and with 64-bit versions of the SOLIDWORKS software.
+This method is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software.
 
 ## See Also
 
 [ISWPropertySheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISWPropertySheet.html)
-
 [ISWPropertySheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISWPropertySheet_members.html)
-
 [ISWPropertySheet::AddPage Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISWPropertySheet~AddPage.html)
 
 ## Availability

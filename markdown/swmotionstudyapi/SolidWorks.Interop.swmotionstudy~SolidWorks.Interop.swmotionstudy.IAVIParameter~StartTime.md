@@ -51,20 +51,15 @@ Start time in seconds
 
 ## VBA Syntax
 
-See
-
-[AVIParameter::StartTime](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~StartTime.html)
-
-.
+See [AVIParameter::StartTime](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~StartTime.html).
 
 ## Remarks
 
-By specifying a start time and[end time](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~EndTime.html), you can save a portion of the animation, instead of[saving the entire animation](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~SaveEntireAnimation.html), to the animation file or files.
+By specifying a start time and [end time](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~EndTime.html), you can save a portion of the animation, instead of [saving the entire animation](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~SaveEntireAnimation.html), to the animation file or files.
 
 ## See Also
 
 [IAVIParameter Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter.html)
-
 [IAVIParameter Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter_members.html)
 
 ## Availability

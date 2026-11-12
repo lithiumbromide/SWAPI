@@ -47,13 +47,7 @@ System.bool IsLightLockedToModel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ True if the light is fixed, false otherwise
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IsLightLockedToModel](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IsLightLockedToModel.html)
-
-.
+See [ModelDoc2::IsLightLockedToModel](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IsLightLockedToModel.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetLightSourceIdFromName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetLightSourceIdFromName.html)
-
 [IModelDoc2::LockLightToModel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~LockLightToModel.html)
 
 ## Availability

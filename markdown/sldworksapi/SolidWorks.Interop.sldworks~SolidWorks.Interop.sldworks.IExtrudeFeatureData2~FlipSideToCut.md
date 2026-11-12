@@ -45,13 +45,7 @@ property System.bool FlipSideToCut {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ True flips the side to cut, false does not
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::FlipSideToCut](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~FlipSideToCut.html)
-
-.
+See [ExtrudeFeatureData2::FlipSideToCut](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~FlipSideToCut.html).
 
 ## Remarks
 
 This property is relevant only for cut features.
 
-If the sketch is open, then the first edge in the array returned by[ISketch::GetContourEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetContourEdges.html)and[ISketch::IGetControuEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetContourEdges.html)is cut.
+If the sketch is open, then the first edge in the array returned by [ISketch::GetContourEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetContourEdges.html) and [ISketch::IGetControuEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetContourEdges.html) is cut.
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
 
 ## Availability

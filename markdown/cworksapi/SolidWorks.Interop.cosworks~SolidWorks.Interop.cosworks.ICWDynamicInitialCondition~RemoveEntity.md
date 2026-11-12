@@ -52,18 +52,12 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWDynamicInitialCondition::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~RemoveEntity.html)
-
-.
+See [CWDynamicInitialCondition::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~RemoveEntity.html).
 
 ## See Also
 
 [ICWDynamicInitialCondition Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
 [ICWDynamicInitialCondition Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition_members.html)
-
 [ICWDynamicInitialCondition::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~InsertEntity.html)
 
 ## Availability

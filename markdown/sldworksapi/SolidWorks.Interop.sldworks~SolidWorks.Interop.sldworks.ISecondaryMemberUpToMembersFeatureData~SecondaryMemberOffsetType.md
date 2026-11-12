@@ -45,40 +45,23 @@ property System.int SecondaryMemberOffsetType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Distance from end type as defined by
-
-[swSecondaryMemberUpToMembersDistanceFromEndType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSecondaryMemberUpToMembersDistanceFromEndType_e.html)
+Distance from end type as defined by [swSecondaryMemberUpToMembersDistanceFromEndType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSecondaryMemberUpToMembersDistanceFromEndType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SecondaryMemberUpToMembersFeatureData::SecondaryMemberOffsetType](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberUpToMembersFeatureData~SecondaryMemberOffsetType.html)
-
-.
+See [SecondaryMemberUpToMembersFeatureData::SecondaryMemberOffsetType](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberUpToMembersFeatureData~SecondaryMemberOffsetType.html).
 
 ## Examples
 
-See the
-
-[ISecondaryMemberBetweenPointsFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData.html)
-
-examples.
+See the [ISecondaryMemberBetweenPointsFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData.html) examples.
 
 ## See Also
 
 [ISecondaryMemberUpToMembersFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberUpToMembersFeatureData.html)
-
 [ISecondaryMemberUpToMembersFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberUpToMembersFeatureData_members.html)
 
 ## Availability

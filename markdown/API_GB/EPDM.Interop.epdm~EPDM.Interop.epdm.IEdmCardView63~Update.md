@@ -42,18 +42,12 @@ void Update(
 
 ### Parameters
 
-- `eType`: Type of update to perform as defined in
-
-[EdmCardViewUpdateType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewUpdateType.html)
+- `eType`: Type of update to perform as defined in [EdmCardViewUpdateType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewUpdateType.html)
 - `poArg`: Reserved for future use
 
 ## Examples
 
-See the
-
-[IEdmCardView63](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView63.html)
-
-examples.
+See the [IEdmCardView63](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView63.html) examples.
 
 ## Remarks
 
@@ -65,7 +59,6 @@ examples.
 ## See Also
 
 [IEdmCardView63 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView63.html)
-
 [IEdmCardView63 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView63_members.html)
 
 ## Availability

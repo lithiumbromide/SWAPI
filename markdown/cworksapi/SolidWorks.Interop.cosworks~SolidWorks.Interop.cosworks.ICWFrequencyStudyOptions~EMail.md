@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFr
 
 # EMail Property (ICWFrequencyStudyOptions)
 
-Obsolete. Superseded by[ICWFrequencyStudyOptions::Email2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMail2.html).
+Obsolete. Superseded by [ICWFrequencyStudyOptions::Email2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMail2.html).
 
 ## Syntax
 
@@ -51,31 +51,18 @@ property System.int EMail {
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::EMail](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~EMail.html)
-
-.
+See [CWFrequencyStudyOptions::EMail](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~EMail.html).
 
 ## Remarks
 
 If this property is set to 1:
 
-- use
-
-  [ICWFrequencyStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMailTo.html)
-
-  to specify the recipient of notifications.
-- use
-
-  [ICWFrequencyStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMailTimebased.html)
-
-  to send email notifications during simulations.
+- use [ICWFrequencyStudyOptions::EMailTo](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMailTo.html) to specify the recipient of notifications.
+- use [ICWFrequencyStudyOptions::EMailTimebased](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~EMailTimebased.html) to send email notifications during simulations.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

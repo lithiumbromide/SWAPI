@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # GetValue2 Method (IDimension)
 
-Obsolete. Superseded by
-
-[IDimension::GetValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~GetValue3.html)
-
-and
-
-[IDimension::IGetValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~IGetValue3.html)
-
-.
+Obsolete. Superseded by [IDimension::GetValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~GetValue3.html) and [IDimension::IGetValue3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~IGetValue3.html).
 
 ## Syntax
 
@@ -55,13 +47,7 @@ System.double GetValue2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Dimension::GetValue2](ms-its:sldworksapivb6.chm::/sldworks~Dimension~GetValue2.html)
-
-.
+See [Dimension::GetValue2](ms-its:sldworksapivb6.chm::/sldworks~Dimension~GetValue2.html).
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)

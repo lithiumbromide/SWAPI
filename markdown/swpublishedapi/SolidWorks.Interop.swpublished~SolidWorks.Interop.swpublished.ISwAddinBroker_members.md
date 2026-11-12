@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ISwAddinBroker Interface Members
 
-The following tables list the members exposed by[ISwAddinBroker](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker.html).
+The following tables list the members exposed by [ISwAddinBroker](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[ISwAddinBroker](SolidWorks.Inte
 ## See Also
 
 [ISwAddinBroker Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

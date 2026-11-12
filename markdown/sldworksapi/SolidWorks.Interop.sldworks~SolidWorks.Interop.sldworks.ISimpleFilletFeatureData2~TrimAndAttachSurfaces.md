@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # TrimAndAttachSurfaces Property (ISimpleFilletFeatureData2)
 
-Gets or sets the
-
-Trim surfaces
-
-option for surface face fillets.
+Gets or sets the Trim surfaces option for surface face fillets.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.int TrimAndAttachSurfaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -67,24 +57,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::TrimAndAttachSurfaces](ms-its:sldworksapivb6.chm::/Sldworks~SimpleFilletFeatureData2~TrimAndAttachSurfaces.html)
-
-.
+See [SimpleFilletFeatureData2::TrimAndAttachSurfaces](ms-its:sldworksapivb6.chm::/Sldworks~SimpleFilletFeatureData2~TrimAndAttachSurfaces.html).
 
 ## Examples
 
-See
-
-[ISimpleFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
-examples.
+See [ISimpleFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2.html) examples.
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
 
 ## Availability

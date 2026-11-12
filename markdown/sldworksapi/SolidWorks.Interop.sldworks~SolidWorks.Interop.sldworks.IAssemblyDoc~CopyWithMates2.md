@@ -75,21 +75,11 @@ System.bool CopyWithMates2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ComponentsToCopy`: Array of
-
-[components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
-to copy
+- `ComponentsToCopy`: Array of [components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html) to copy
 - `Repeat`: Array of boolean values; each value indicates whether to use the existing mate reference for the corresponding component to copy; if true, copies the existing mate reference; if false, uses the corresponding entry in the NewEntityToMateTo array for the new mate reference
 - `NewEnityToMateTo`: Array of new mate references that map to the Repeat array; if an entry in the Repeat array is false, then the corresponding entry in this array is the new entity with which to mate the component to copy
 - `Values`: Array of distance or angle values for the mate references; specify distance in meters and angle in radians; valid for distance, angle, and profile center mates only
@@ -104,28 +94,19 @@ True if calling this method succeeded, false if it failed
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::CopyWithMates2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CopyWithMates2.html)
-
-.
+See [AssemblyDoc::CopyWithMates2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CopyWithMates2.html).
 
 ## Examples
 
 [Copy Component With Profile Center Mate (C#)](Copy_Component_With_Profile_Center_Mate_Example_CSharp.htm)
-
 [Copy Component With Profile Center Mate (VB.NET)](Copy_Component_With_Profile_Center_Mate_Example_VBNET.htm)
-
 [Copy Component With Profile Center Mate (VBA)](Copy_Component_With_Profile_Center_Mate_Example_VB.htm)
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::AddComponent5 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddComponent5.html)
-
 [IAssemblyDoc::AddMate5 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddMate5.html)
 
 ## Availability

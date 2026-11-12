@@ -47,13 +47,7 @@ System.double IGetPolylineAtIndex2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,21 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of doubles (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of doubles (see **Remarks**)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
 Format of return values is an array of doubles with the format:
 
-[polyLineType, DataSize, Color, LineFont, Unused, Unused, NumPolyPoints, [x,y,z]]
+```vb
+[ polyLineType, DataSize, Color, LineFont, Unused, Unused, NumPolyPoints, [x,y,z] ]
+```
 
 where:
-
-(Table)=========================================================
 
 | polyLineType | Underlying geometry type: 0 - Polyline type 1 - Arc or Circle type |
 | --- | --- |
@@ -89,16 +79,12 @@ where:
 | NumPolyPoints | Number of XYZ points found in the [x,y,z] return value. |
 | [x,y,z] | Array of points used to describe the polyline. This array has NumPolyPoints points. This method returns an array for every polyline regardless of its type. |
 
-Use[IDisplayData::GetPolyLineSizeAtIndex2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetPolylineSizeAtIndex2.html)to determine the number of elements returned in this array.
+Use [IDisplayData::GetPolyLineSizeAtIndex2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetPolylineSizeAtIndex2.html) to determine the number of elements returned in this array.
 
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::GetPolylineAtIndex2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetPolylineAtIndex2.html)
-
 [IDisplayData::GetPolyLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetPolyLineCount.html)
-
 [IDisplayData::GetPolygonSizeAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetPolygonSizeAtIndex.html)

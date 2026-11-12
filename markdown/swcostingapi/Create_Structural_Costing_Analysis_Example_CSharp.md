@@ -9,8 +9,7 @@ source: "swcostingapi/Create_Structural_Costing_Analysis_Example_CSharp.htm"
 
 # Create Structural Costing Analysis Example (C#)
 
-This example shows how to create a structural Costing analysis of a weldment
-part.
+This example shows how to create a structural Costing analysis of a weldment part.
 
 ```
 //------------------------------------------------

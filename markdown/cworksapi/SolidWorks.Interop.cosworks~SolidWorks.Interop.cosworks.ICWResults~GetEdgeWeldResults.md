@@ -62,36 +62,22 @@ System.Object^ GetEdgeWeldResults(
 ### Parameters
 
 - `EdgeWeldConnector`: Name of the edge weld connector for which to get edge weld results
-- `NUnit`: Unit as defined in
-
-[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+- `NUnit`: Unit as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
 - `BPassFail`: True if the edge weld is safe to use, false if not
-- `ErrorCode`: Error code as defined in
-
-[swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
 
 ### Return Value
 
-Array of edge weld results (see
-
-Remarks
-
-)
+Array of edge weld results (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetEdgeWeldResults](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetEdgeWeldResults.html)
-
-.
+See [CWResults::GetEdgeWeldResults](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetEdgeWeldResults.html).
 
 ## Examples
 
 [Calculate Edge Weld Results (C#)](Calculate_Edge_Weld_Results_Example_CSharp.htm)
-
 [Calculate Edge Weld Results (VB.NET)](Calculate_Edge_Weld_Results_Example_VBNET.htm)
-
 [Calculate Edge Weld Results (VBA)](Calculate_Edge_Weld_Results_Example_VB.htm)
 
 ## Remarks
@@ -108,7 +94,6 @@ The array of edge weld results contains these minimum, maximum, and mean values 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

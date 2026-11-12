@@ -40,32 +40,19 @@ System.object GetTransforms()
 System.Object^ GetTransforms();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IMathTransform](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
+Array of [IMathTransform](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
 
 ## VBA Syntax
 
-See
-
-[Collision::GetTransforms](ms-its:sldworksapivb6.chm::/sldworks~Collision~GetTransforms.html)
-
-.
+See [Collision::GetTransforms](ms-its:sldworksapivb6.chm::/sldworks~Collision~GetTransforms.html).
 
 ## See Also
 
 [ICollision Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html)
-
 [ICollision Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision_members.html)
 
 ## Availability

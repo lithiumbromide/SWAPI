@@ -47,13 +47,7 @@ System.bool SetFocus(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,18 @@ True if focus is set on the control, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2::SetFocus](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~SetFocus.html)
-
-.
+See [PropertyManagerPage2::SetFocus](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~SetFocus.html).
 
 ## Examples
 
 [Set Focus on PropertyManager Page Control (C#)](Set_Focus_on_PropertyManager_Page_Control_Example_CSharp.htm)
-
 [Set Focus on PropertyManager Page Control (VB.NET)](Set_Focus_on_PropertyManager_Page_Control_Example_VBNET.htm)
-
 [Set Focus on PropertyManager Page Control (VBA)](Set_Focus_on_PropertyManager_Page_Control_Example_VB.htm)
 
 ## See Also
 
 [IPropertyManagerPage2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
 [IPropertyManagerPage2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2_members.html)
-
 [IPropertyManagerPage2::GetFocus Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2~GetFocus.html)
 
 ## Availability

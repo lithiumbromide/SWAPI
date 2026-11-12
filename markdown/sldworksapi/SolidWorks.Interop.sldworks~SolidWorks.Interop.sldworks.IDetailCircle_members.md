@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDe
 
 # IDetailCircle Interface Members
 
-The following tables list the members exposed by[IDetailCircle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html).
+The following tables list the members exposed by [IDetailCircle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html).
 
 ## Public Properties
 
@@ -62,5 +62,4 @@ The following tables list the members exposed by[IDetailCircle](SolidWorks.Inter
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

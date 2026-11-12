@@ -1,6 +1,5 @@
 ---
-title: "SustainabilityAssemblyUse Object
-Members"
+title: "SustainabilityAssemblyUse Object Members"
 project: "sustainabilityLibActiveX DLL"
 interface: "SustainabilityAssemblyUse_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sustainabilityapivb6/sustainabilityLib~SustainabilityAssemblyUse_members.html"
 ---
 
-# SustainabilityAssemblyUse Object
-Members
+# SustainabilityAssemblyUse Object Members
 
 ## Public Properties
 

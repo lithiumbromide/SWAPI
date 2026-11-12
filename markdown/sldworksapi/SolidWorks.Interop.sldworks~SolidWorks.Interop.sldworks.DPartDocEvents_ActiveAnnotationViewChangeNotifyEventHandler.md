@@ -37,29 +37,15 @@ public delegate System.int DPartDocEvents_ActiveAnnotationViewChangeNotifyEventH
 public delegate System.int DPartDocEvents_ActiveAnnotationViewChangeNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ActiveAnnotationViewChangeNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~ActiveAnnotationViewChangeNotify_EV.html)
-
-.
+See [ActiveAnnotationViewChangeNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~ActiveAnnotationViewChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartActiveAnnotationViewChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartActiveAnnotationViewChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

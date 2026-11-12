@@ -9,8 +9,7 @@ source: "cworksapi/Create_Amplitude_Plot_Example_VB.htm"
 
 # Create Amplitude Plot and Set Mode Shape Example (VBA)
 
-This example shows how to create an amplitude plot and set its mode shape
-number.
+This example shows how to create an amplitude plot and set its mode shape number.
 
 ```vb
  '----------------------------------------------------------------------------

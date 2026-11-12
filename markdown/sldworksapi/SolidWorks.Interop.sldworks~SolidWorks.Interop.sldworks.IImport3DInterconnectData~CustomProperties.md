@@ -45,13 +45,7 @@ property System.bool CustomProperties {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to import custom properties, metadata, or user-defined attributes as SOLIDW
 
 ## VBA Syntax
 
-See
-
-[Import3DInterconnectData::CustomProperties](ms-its:sldworksapivb6.chm::/sldworks~Import3DInterconnectData~CustomProperties.html)
-
-.
+See [Import3DInterconnectData::CustomProperties](ms-its:sldworksapivb6.chm::/sldworks~Import3DInterconnectData~CustomProperties.html).
 
 ## Examples
 
-See the
-
-[IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
-examples.
+See the [IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html) examples.
 
 ## See Also
 
 [IImport3DInterconnectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
 [IImport3DInterconnectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData_members.html)
 
 ## Availability

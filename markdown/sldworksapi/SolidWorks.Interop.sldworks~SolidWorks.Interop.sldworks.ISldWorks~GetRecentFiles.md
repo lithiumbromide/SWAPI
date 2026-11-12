@@ -40,70 +40,43 @@ System.object GetRecentFiles()
 System.Object^ GetRecentFiles();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-List of most recently used files (see
-
-Remarks
-
-)
+List of most recently used files (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetRecentFiles](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetRecentFiles.html)
-
-.
+See [SldWorks::GetRecentFiles](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetRecentFiles.html).
 
 ## Examples
 
+```vb
 '----------------------------------------
-
 Option Explicit
-
 Sub main()
+    Dim swApp               As SldWorks.SldWorks
+    Dim vFileArr            As Variant
+    Dim i                   As Long
+    Set swApp = Application.SldWorks
 
-kadov_tag{{<spaces>}}Dim swApp As SldWorks.SldWorks
+    vFileArr = swApp.GetRecentFiles
 
-kadov_tag{{<spaces>}}Dim vFileArr As Variant
-
-kadov_tag{{<spaces>}}Dim i As Long
-
-kadov_tag{{<spaces>}}Set swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{<spaces>}}vFileArr = swApp. GetRecentFiles
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{<spaces>}}For i = 0 To UBound(vFileArr) Step 2
-
-kadov_tag{{<spaces>}}Debug.Print vFileArr(i + 1) & " --> " & vFileArr(i)
-
-kadov_tag{{<spaces>}}Next i
-
+    For i = 0 To UBound(vFileArr) Step 2
+        Debug.Print vFileArr(i + 1) & " --> " & vFileArr(i)
+    Next i
 End Sub
-
 '----------------------------------------
+```
 
 ## Remarks
 
-The list is returned in pairs of files.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For each pair, the first item is the fully qualified path to the file.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}The second item is just the filename, as it appears in the most recent used list in the SOLIDWORKSFilemenu.
+The list is returned in pairs of files. For each pair, the first item is the fully qualified path to the file. The second item is just the filename, as it appears in the most recent used list in the SOLIDWORKS File menu.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

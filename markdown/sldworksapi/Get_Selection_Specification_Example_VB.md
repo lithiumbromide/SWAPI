@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Selection_Specification_Example_VB.htm"
 
 # Get Selection Specification Example (VBA)
 
-This example shows how to get the selection specification of a selected
-object.
+This example shows how to get the selection specification of a selected object.
 
 ```vb
  '----------------------------------------------------------------------------

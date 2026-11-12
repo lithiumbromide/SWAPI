@@ -45,13 +45,7 @@ property System.bool UseDocumentDefaults {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ True to use the document default settings for the component's line fonts, false 
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::UseDocumentDefaults](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~UseDocumentDefaults.html)
-
-.
+See [DrawingComponent::UseDocumentDefaults](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~UseDocumentDefaults.html).
 
 ## Examples
 
 [Get Components in Drawing View (C#)](Get_Components_in_Drawing_View_Example_CSharp.htm)
-
 [Get Components in Drawing View (VB.NET)](Get_Components_in_Drawing_View_Example_VBNET.htm)
-
 [Get Components in Drawing View (VBA)](Get_Components_in_Drawing_View_Example_VB.htm)
 
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
-
 [IDrawingComponent::GetLineStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~GetLineStyle.html)
-
 [IDrawingComponent::GetLineThickness Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~GetLineThickness.html)
-
 [IDrawingComponent::SetLineStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~SetLineStyle.html)
-
 [IDrawingComponent::SetLineThickness Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~SetLineThickness.html)
 
 ## Availability

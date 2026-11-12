@@ -45,13 +45,7 @@ property System.bool IncludeSuppressed {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if suppressed components are added to Pack and Go, false if not
 
 ## VBA Syntax
 
-See
-
-[PackAndGo::IncludeSuppressed](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~IncludeSuppressed.html)
-
-.
+See [PackAndGo::IncludeSuppressed](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~IncludeSuppressed.html).
 
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [IPackAndGo Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo_members.html)
 
 ## Availability

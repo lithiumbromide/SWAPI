@@ -1,0 +1,147 @@
+#swapi-map 1 module=swutilitiesapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@Body2	o		prefix=SldWorks~
+@ICompareDocument	o
+Close	m	Function Close() As Long:gtError_e
+CompareDocument	m	Function CompareDocument(ByVal reffile As String, ByVal modfile As String, ByVal lOperationOptions As Long, ByVal lResultOptions As Long, ByVal reportname As String) As Long
+CompareDocument2	m	Function CompareDocument2(ByVal reffile As String, ByVal refconfig As String, ByVal modfile As String, ByVal modconfig As String, ByVal lOperationOptions As Long:gtCodOperationOption_e, ByVal lResultOptions As Long:gtResultOptions_e, ByVal reportname As String, ByVal vtAddToBinderOption As Boolean, ByVal vtOverwrite As Boolean) As Long:gtError_e
+SaveCompareVolumeResults	m	Function SaveCompareVolumeResults(ByVal resultfile As String) As Long:gtError_e
+@ICompareFeature	o
+Close	m	Function Close() As Long
+CompareFeatures	m	Function CompareFeatures(ByVal reffile As String, ByVal modfile As String, ByVal lOptions As Long, ByVal reportname As String) As Long
+CompareFeatures2	m	Function CompareFeatures2(ByVal reffile As String, ByVal refconfig As String, ByVal modfile As String, ByVal modconfig As String, ByVal lOptions As Long:gtResultOptions_e, ByVal reportname As String, ByVal vtAddToBinderOption As Boolean, ByVal vtOverwrite As Boolean) As Long:gtError_e
+@ICompareGeometry	o
+Close	m	Function Close() As Long:gtError_e
+CompareGeometry	m	Function CompareGeometry(ByVal reffile As String, ByVal modfile As String, ByVal lOperationOptions As Long, ByVal lResultOptions As Long, ByVal reportname As String) As Long
+CompareGeometry2	m	Function CompareGeometry2(ByVal reffile As String, ByVal refconfig As String, ByVal modfile As String, ByVal modconfig As String, ByVal lOperationOptions As Long:gtGdfOperationOption_e, ByVal lResultOptions As Long:gtResultOptions_e, ByVal reportname As String, ByVal vtAddToBinderOption As Boolean, ByVal vtOverwrite As Boolean) As Long:gtError_e
+CompareGeometry3	m	Function CompareGeometry3(ByVal reffile As String, ByVal refconfig As String, ByVal modfile As String, ByVal modconfig As String, ByVal lOperationOptions As Long:gtGdfOperationOption_e, ByVal lResultOptions As Long:gtResultOptions_e, ByVal reportname As String, ByVal vtAddToBinderOption As Boolean, ByVal vtOverwrite As Boolean, ByRef volDiffStatus As Long:gtVolDiffStatusOptionType_e, ByRef faceDiffStatus As Long:gtVolDiffStatusOptionType_e) As Long:gtError_e
+SaveCompareVolumeResults	m	Function SaveCompareVolumeResults(ByVal resultfile As String) As Long:gtError_e
+@IFeaturePaint	o
+FeaturePaint	m	Function FeaturePaint(ByVal sourcefeature As String, ByVal targetfeature As String) As Long
+FeaturePaint2	m	Function FeaturePaint2(ByVal sourcefeature As String, ByVal targetfeature As String, ByVal pasteappearance As Boolean) As Long:gtError_e
+@IFindReplaceAnnotations	o
+AnnotationFilter	p	Property AnnotationFilter As Long:gtFraFilterType_e
+Close	m	Function Close() As Long:gtError_e
+FindNext	m	Function FindNext() As Long:gtError_e
+FindPrevious	m	Function FindPrevious() As Long:gtError_e
+FindText	p	Property FindText As String
+InitPMPage	m	Function InitPMPage() As Long:gtError_e
+options	p	Property options As Long:gtFraOptionType_e
+Replace	m	Function Replace() As Long:gtError_e
+ReplaceAll	m	Function ReplaceAll() As Long:gtError_e
+ReplaceText	p	Property ReplaceText As String
+@IGeometryAnalysis	o
+Close	m	Function Close() As Long:gtError_e
+GetDiscontinuousEdgesCount	m	Function GetDiscontinuousEdgesCount(ByRef errorcode As Long:gtError_e) As Long
+GetDiscontinuousFacesCount	m	Function GetDiscontinuousFacesCount(ByRef errorcode As Long:gtError_e) As Long
+GetKnifeEdgesCount	m	Function GetKnifeEdgesCount(ByVal angle As Double, ByRef errorcode As Long:gtError_e) As Long
+GetKnifeVerticesCount	m	Function GetKnifeVerticesCount(ByVal angle As Double, ByRef errorcode As Long:gtError_e) As Long
+GetShortEdgesCount	m	Function GetShortEdgesCount(ByVal length As Double, ByRef errorcode As Long:gtError_e) As Long
+GetSliverFacesCount	m	Function GetSliverFacesCount(ByVal width As Double, ByRef errorcode As Long:gtError_e) As Long
+GetSmallFacesCount	m	Function GetSmallFacesCount(ByVal length As Double, ByRef errorcode As Long:gtError_e) As Long
+Init	m	Function Init() As Long
+SaveReport	m	Function SaveReport(ByVal reportname As String) As Long
+SaveReport2	m	Function SaveReport2(ByVal reportname As String, ByVal vtAddToBinderOption As Boolean, ByVal vtOverwrite As Boolean) As Long:gtError_e
+ShowResultsDialog	m	Function ShowResultsDialog() As Long:gtError_e
+@IPowerSelect	o
+Close	m	Function Close() As Long:gtError_e
+GetAppliedFilters	m	Function GetAppliedFilters(ByRef lErrorcode As Long:gtError_e) As Variant:gtpslFilterType_e
+GetAppliedFiltersCount	m	Function GetAppliedFiltersCount(ByRef lErrorcode As Long:gtError_e) As Long
+GetEdgeAngleFilter	m	Function GetEdgeAngleFilter(ByRef lCmpOperator As Long:gtpslEdgeAngleOperator_e, ByRef dAngle As Double) As Long:gtError_e
+GetEdgeConvexityFilter	m	Function GetEdgeConvexityFilter(ByRef bConvex As Boolean, ByRef bConcave As Boolean, ByRef bIgnoreMixedLoop As Boolean) As Long:gtError_e
+GetFaceColorFilter	m	Function GetFaceColorFilter(ByRef Red As Double, ByRef Green As Double, ByRef Blue As Double) As Long:gtError_e
+GetFeatureColorFilter	m	Function GetFeatureColorFilter(ByRef Red As Double, ByRef Green As Double, ByRef Blue As Double) As Long:gtError_e
+GetFeatureNameFilter	m	Function GetFeatureNameFilter(ByRef lErrorcode As Long:gtError_e) As String
+GetFeatureTypeFilter	m	Function GetFeatureTypeFilter(ByRef lErrorcode As Long:gtError_e) As Variant:gtpslFeatureType_e
+GetFeatureTypeFilterCount	m	Function GetFeatureTypeFilterCount(ByRef lErrorcode As Long:gtError_e) As Long
+GetSelectEntitiesTypes	m	Function GetSelectEntitiesTypes(ByRef lErrorcode As Long:gtError_e) As Long:gtPslSelectionType_e
+GetShowHiddenEntities	m	Function GetShowHiddenEntities(ByRef lErrorcode As Long:gtError_e) As Boolean
+GetSurfaceTypeCount	m	Function GetSurfaceTypeCount(ByRef lErrorcode As Long:gtError_e) As Long
+GetSurfaceTypeFilter	m	Function GetSurfaceTypeFilter(ByRef lErrorcode As Long:gtError_e) As Variant
+IGetAppliedFilters	m	Function IGetAppliedFilters(ByRef lErrorcode As Long:gtError_e) As Long:gtpslFilterType_e
+IGetFeatureTypeFilter	m	Function IGetFeatureTypeFilter(ByRef lErrorcode As Long:gtError_e) As Long:gtpslFeatureType_e
+IGetSurfaceTypeFilter	m	Function IGetSurfaceTypeFilter(ByRef lErrorcode As Long:gtError_e) As Long
+Init	m	Function Init() As Long:gtError_e
+IRunPowerSelect	m	Function IRunPowerSelect(ByVal lResultOptions As Long:gtResultOptions_e, ByRef lErrorcode As Long:gtError_e) As Long
+ISetFeatureTypeFilter	m	Function ISetFeatureTypeFilter(ByVal lFeatCount As Long, ByRef pFeatArr As Long:gtpslFeatureType_e) As Long:gtError_e
+ISetSurfaceTypeFilter	m	Function ISetSurfaceTypeFilter(ByVal lSurfTypeCount As Long, ByRef pSurfTypeArr As Long) As Long:gtError_e
+RemoveFilters	m	Function RemoveFilters(ByVal lFilterEnums As Long:gtpslFilterType_e) As Long:gtError_e
+RunPowerSelect	m	Function RunPowerSelect(ByVal lResultOptions As Long:gtResultOptions_e, ByRef lErrorcode As Long:gtError_e) As Variant
+SelectResults	m	Function SelectResults() As Long:gtError_e
+SetEdgeAngleFilter	m	Function SetEdgeAngleFilter(ByVal lCmpOperator As Long:gtpslEdgeAngleOperator_e, ByVal dAngle As Double) As Long:gtError_e
+SetEdgeConvexityFilter	m	Function SetEdgeConvexityFilter(ByVal bConvex As Boolean, ByVal bConcave As Boolean, ByVal bIgnoreMixedLoop As Boolean) As Long:gtError_e
+SetFaceColorFilter	m	Function SetFaceColorFilter(ByVal Red As Double, ByVal Green As Double, ByVal Blue As Double) As Long:gtError_e
+SetFeatureColorFilter	m	Function SetFeatureColorFilter(ByVal Red As Double, ByVal Green As Double, ByVal Blue As Double) As Long:gtError_e
+SetFeatureNameFilter	m	Function SetFeatureNameFilter(ByVal bstrSearchString As String) As Long:gtError_e
+SetFeatureTypeFilter	m	Function SetFeatureTypeFilter(ByVal varFeatArr As Variant:gtpslFeatureType_e) As Long:gtError_e
+SetSelectEntitiesTypes	m	Function SetSelectEntitiesTypes(ByVal selTypes As Long:gtPslSelectionType_e) As Long:gtError_e
+SetShowHiddenEntities	m	Function SetShowHiddenEntities(ByVal varShow As Boolean) As Long:gtError_e
+SetSurfaceTypeFilter	m	Function SetSurfaceTypeFilter(ByVal varSurfTypeArr As Variant) As Long:gtError_e
+@IThicknessAnalysis	o
+Close	m	Function Close() As Long:gtError_e
+GetAnalysisDetails	m	Function GetAnalysisDetails(ByVal lRange As Long, ByRef dMinTckInRange As Double, ByRef dMaxTckInRange As Double, ByRef lNoFaces As Long, ByRef dSurfArea As Double, ByRef dPerAnalArea As Double) As Long:gtError_e
+GetAvgWeightedTckOnAnalArea	m	Function GetAvgWeightedTckOnAnalArea(ByRef lErrorcode As Long:gtError_e) As Double
+GetAvgWeightedTckOnCritArea	m	Function GetAvgWeightedTckOnCritArea(ByRef lErrorcode As Long:gtError_e) As Double
+GetCriticalFeatureNames	m	Function GetCriticalFeatureNames(ByRef lErrorcode As Long:gtError_e) As Variant
+GetCriticalSurfaceArea	m	Function GetCriticalSurfaceArea(ByRef lErrorcode As Long:gtError_e) As Double
+GetIntervalCount	m	Function GetIntervalCount(ByRef lErrorcode As Long:gtError_e) As Long
+GetMaxDeviationfromTargetThickness	m	Function GetMaxDeviationfromTargetThickness(ByRef lErrorcode As Long:gtError_e) As Double
+GetMaxTckOnAnalArea	m	Function GetMaxTckOnAnalArea(ByRef lErrorcode As Long:gtError_e) As Double
+GetMinTckOnAnalArea	m	Function GetMinTckOnAnalArea(ByRef lErrorcode As Long:gtError_e) As Double
+GetNumCriticalFaces	m	Function GetNumCriticalFaces(ByRef lErrorcode As Long:gtError_e) As Long
+GetNumCriticalFeatures	m	Function GetNumCriticalFeatures(ByRef lErrorcode As Long:gtError_e) As Long
+GetThicknessAnalysisBody	m	Function GetThicknessAnalysisBody(ByRef lErrorcode As Long:gtError_e) As IBody2
+GetTotalSurfaceAreaAnalyzed	m	Function GetTotalSurfaceAreaAnalyzed(ByRef lErrorcode As Long:gtError_e) As Double
+Init	m	Function Init() As Long:gtError_e
+RunThickAnalysis	m	Function RunThickAnalysis(ByVal targetthickness As Double, ByVal thicklimit As Double, ByVal treatcornerzero As Boolean, ByVal resolution As Long, ByVal lResultOptions As Long, ByVal reportname As String, ByVal vtAddToBinderOption As Boolean, ByVal vtOverwrite As Boolean) As Long
+RunThickAnalysis2	m	Function RunThickAnalysis2(ByVal targetthickness As Double, ByVal thicklimit As Double, ByVal treatcornerzero As Boolean, ByVal resolution As Long:gttckResolutionOptions_e, ByVal lResultOptions As Long:gtResultOptions_e, ByVal reportname As String, ByVal vtAddToBinderOption As Boolean, ByVal vtSaveResultsInEdwg As Boolean, ByVal vtOverwrite As Boolean) As Long:gtError_e
+RunThinAnalysis	m	Function RunThinAnalysis(ByVal targetthickness As Double, ByVal resolution As Long, ByVal lResultOptions As Long, ByVal reportname As String, ByVal vtAddToBinderOption As Boolean, ByVal vtOverwrite As Boolean) As Long
+RunThinAnalysis2	m	Function RunThinAnalysis2(ByVal targetthickness As Double, ByVal resolution As Long:gttckResolutionOptions_e, ByVal lResultOptions As Long, ByVal reportname As String, ByVal vtAddToBinderOption As Boolean, ByVal vtSaveResultsInEdwg As Boolean, ByVal vtOverwrite As Boolean) As Long:gtError_e
+SetThicknessAnalysisBody	m	Function SetThicknessAnalysisBody(ByVal lpBody2 As IBody2) As Long:gtError_e
+@IUtilities	o
+appCallbackFunction	m	Function appCallbackFunction(ByVal cmd As Integer, ByVal data As Integer, ByVal dsp As Object) As Long
+BendSequenceDrawing	p	Property BendSequenceDrawing As gtcocswBendSequenceDrawing
+CompareDocument	p	Property CompareDocument As gtcocswCompareDocument:CompareDocument
+CompareFeature	p	Property CompareFeature As gtcocswCompareFeature:CompareFeature
+CompareGeometry	p	Property CompareGeometry As gtcocswCompareGeometry:CompareGeometry
+FeaturePaint	p	Property FeaturePaint As gtcocswFeaturePaint:FeaturePaint
+FindReplaceAnnotations	p	Property FindReplaceAnnotations As gtcocswFindReplaceAnnotations:FindReplaceAnnotations
+GeometryAnalysis	p	Property GeometryAnalysis As gtcocswGeometryAnalysis:GeometryAnalysis
+GetAutoPartSimplification	m	Function GetAutoPartSimplification(ByRef lErrorcode As Long:gtError_e) As Object
+GetOptions	m	Function GetOptions(ByRef lErrorcode As Long:gtError_e) As Object
+GetToolInterface	m	Function GetToolInterface(ByVal toolname As Long:gtSwTools_e, ByRef lErrorcode As Long:gtError_e) As Object
+HelpErrCallback	m	Sub HelpErrCallback(ByVal mainProduct As Long, ByVal helpFile As String, ByVal helpTopic As Long, ByVal topicFile As String)
+OnBendSequence	m	Sub OnBendSequence()
+OnCompareDocuments	m	Sub OnCompareDocuments()
+OnCompareFeatures	m	Sub OnCompareFeatures()
+OnCompareGeometry	m	Sub OnCompareGeometry()
+OnFeaturePaint	m	Sub OnFeaturePaint()
+OnFindFeatures	m	Sub OnFindFeatures()
+OnFindReplaceAnnotation	m	Sub OnFindReplaceAnnotation()
+OnGeometryAnalysis	m	Sub OnGeometryAnalysis()
+OnPowSelect	m	Sub OnPowSelect()
+OnReplaceFeatures	m	Sub OnReplaceFeatures()
+OnReportMgr	m	Sub OnReportMgr()
+OnSimplify	m	Sub OnSimplify()
+OnSuppressFeatures	m	Sub OnSuppressFeatures()
+OnThicknessAnalysis	m	Sub OnThicknessAnalysis()
+OnUpdateBendSequence	m	Function OnUpdateBendSequence() As Long
+OnUpdateCompareDocuments	m	Function OnUpdateCompareDocuments() As Long
+OnUpdateCompareFeatures	m	Function OnUpdateCompareFeatures() As Long
+OnUpdateCompareGeometry	m	Function OnUpdateCompareGeometry() As Long
+OnUpdateFeaturePaint	m	Function OnUpdateFeaturePaint() As Long
+OnUpdateFindFeatures	m	Function OnUpdateFindFeatures() As Long
+OnUpdateFindReplaceAnnotation	m	Function OnUpdateFindReplaceAnnotation() As Long
+OnUpdateGeometryAnalysis	m	Function OnUpdateGeometryAnalysis() As Long
+OnUpdatePowerSelect	m	Function OnUpdatePowerSelect() As Long
+OnUpdateReplaceFeatures	m	Function OnUpdateReplaceFeatures() As Long
+OnUpdateSimplify	m	Function OnUpdateSimplify() As Long
+OnUpdateSuppressFeatures	m	Function OnUpdateSuppressFeatures() As Long
+OnUpdateThicknessAnalysis	m	Function OnUpdateThicknessAnalysis() As Long
+options	p	Property options As gtcocswUtilOptions:UtilOptions
+PowerSelect	p	Property PowerSelect As gtcocswPowerSelect:PowerSelect
+ThicknessAnalysis	p	Property ThicknessAnalysis As gtcocswThicknessAnalysis:ThicknessAnalysis
+@IUtilOptions	o
+GetAngularTolerance	m	Function GetAngularTolerance(ByRef lErrorcode As Long:gtError_e) As Double
+GetPositionTolerance	m	Function GetPositionTolerance(ByRef lErrorcode As Long:gtError_e) As Double
+SetAngularTolerance	m	Function SetAngularTolerance(ByVal pTol As Double) As Long:gtError_e
+SetPositionTolerance	m	Function SetPositionTolerance(ByVal pTol As Double) As Long:gtError_e

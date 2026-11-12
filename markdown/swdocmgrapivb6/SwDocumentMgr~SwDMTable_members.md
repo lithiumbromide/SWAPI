@@ -1,6 +1,5 @@
 ---
-title: "SwDMTable Object
-Members"
+title: "SwDMTable Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMTable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMTable_members.html"
 ---
 
-# SwDMTable Object
-Members
+# SwDMTable Object Members
 
 ## Public Methods
 

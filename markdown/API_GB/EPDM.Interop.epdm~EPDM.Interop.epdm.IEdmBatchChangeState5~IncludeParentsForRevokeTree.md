@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState5~Includ
 
 # IncludeParentsForRevokeTree Method (IEdmBatchChangeState5)
 
-Gets or sets whether to include parent files in the
-
-[file reference tree to revoke transactions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2~CreateTreeForRevoke.html)
-
-.
+Gets or sets whether to include parent files in the [file reference tree to revoke transactions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2~CreateTreeForRevoke.html).
 
 ## Syntax
 
@@ -55,7 +51,6 @@ void IncludeParentsForRevokeTree(
 ## See Also
 
 [IEdmBatchChangeState5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState5.html)
-
 [IEdmBatchChangeState5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState5_members.html)
 
 ## Availability

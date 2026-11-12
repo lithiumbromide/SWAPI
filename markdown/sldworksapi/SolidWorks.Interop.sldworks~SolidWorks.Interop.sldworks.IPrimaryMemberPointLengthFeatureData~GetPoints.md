@@ -40,42 +40,19 @@ System.object GetPoints()
 System.Object^ GetPoints();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
-es,
-
-[ISketchPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
-s, and/or
-
-[IRefPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html)
-
-s
+Array of [IVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)es, [ISketchPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)s, and/or [IRefPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPoint.html)s
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPointLengthFeatureData::GetPoints](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~GetPoints.html)
-
-.
+See [PrimaryMemberPointLengthFeatureData::GetPoints](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData~GetPoints.html).
 
 ## See Also
 
 [IPrimaryMemberPointLengthFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData.html)
-
 [IPrimaryMemberPointLengthFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData_members.html)
 
 ## Availability

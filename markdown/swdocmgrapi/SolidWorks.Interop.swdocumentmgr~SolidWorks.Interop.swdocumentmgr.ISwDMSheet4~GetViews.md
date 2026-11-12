@@ -42,32 +42,19 @@ System.Object^ GetViews();
 
 ### Return Value
 
-Array of
-
-[ISwDMView](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html)
-
-s owned by this sheet
+Array of [ISwDMView](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html)s owned by this sheet
 
 ## VBA Syntax
 
-See
-
-[SwDMSheet4::GetViews](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet4~GetViews.html)
-
-.
+See [SwDMSheet4::GetViews](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet4~GetViews.html).
 
 ## Examples
 
-See the
-
-[ISwDMSheet4](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet4.html)
-
-examples.
+See the [ISwDMSheet4](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet4.html) examples.
 
 ## See Also
 
 [ISwDMSheet4 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet4.html)
-
 [ISwDMSheet4 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet4_members.html)
 
 ## Availability

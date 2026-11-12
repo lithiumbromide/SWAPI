@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # GetFirstSelectedFace Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::GetFirstSelectedFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetFirstSelectedFace.html)
-
-.
+Obsolete. Superseded by [IBody2::GetFirstSelectedFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetFirstSelectedFace.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetFirstSelectedFace()
 System.Object^ GetFirstSelectedFace();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Body::GetFirstSelectedFace](ms-its:sldworksapivb6.chm::/sldworks~Body~GetFirstSelectedFace.html)
-
-.
+See [Body::GetFirstSelectedFace](ms-its:sldworksapivb6.chm::/sldworks~Body~GetFirstSelectedFace.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

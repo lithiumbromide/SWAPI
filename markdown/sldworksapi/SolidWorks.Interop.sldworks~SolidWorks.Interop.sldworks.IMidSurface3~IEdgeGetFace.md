@@ -47,33 +47,19 @@ Face2^ IEdgeGetFace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EdgeInDisp`: Midsurface
-
-[edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
+- `EdgeInDisp`: Midsurface [edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
 
 ### Return Value
 
-[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-on the original solid body
+[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) on the original solid body
 
 ## VBA Syntax
 
-See
-
-[MidSurface3::IEdgeGetFace](ms-its:sldworksapivb6.chm::/sldworks~MidSurface3~IEdgeGetFace.html)
-
-.
+See [MidSurface3::IEdgeGetFace](ms-its:sldworksapivb6.chm::/sldworks~MidSurface3~IEdgeGetFace.html).
 
 ## Remarks
 
@@ -84,9 +70,7 @@ This edge is not topologically related to the face returned.
 ## See Also
 
 [IMidSurface3 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3.html)
-
 [IMidSurface3 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3_members.html)
-
 [IMidSurface3::EdgeGetFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3~EdgeGetFace.html)
 
 ## Availability

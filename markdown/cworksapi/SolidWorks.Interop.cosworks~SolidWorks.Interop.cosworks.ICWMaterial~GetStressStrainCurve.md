@@ -46,18 +46,12 @@ Array of stress curve data
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::GetStressStrainCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetStressStrainCurve.html)
-
-.
+See [CWMaterial::GetStressStrainCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetStressStrainCurve.html).
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::SetStressStrainCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SetStressStrainCurve.html)
 
 ## Availability

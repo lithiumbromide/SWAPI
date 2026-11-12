@@ -49,9 +49,7 @@ System.Object^ GetReferenceGeometry(
 
 ### Parameters
 
-- `NSelType`: Entity type as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `NSelType`: Entity type as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ### Return Value
 
@@ -59,16 +57,11 @@ Entity
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraints::GetReferenceGeometry](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~GetReferenceGeometry.html)
-
-.
+See [CWLoadsAndRestraints::GetReferenceGeometry](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~GetReferenceGeometry.html).
 
 ## See Also
 
 [ICWLoadsAndRestraints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
 [ICWLoadsAndRestraints Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints_members.html)
 
 ## Availability

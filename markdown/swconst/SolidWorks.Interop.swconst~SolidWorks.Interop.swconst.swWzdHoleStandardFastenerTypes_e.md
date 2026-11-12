@@ -449,21 +449,7 @@ public enum class swWzdHoleStandardFastenerTypes_e : public System.Enum
 
 ## Remarks
 
-If you used the now obsolete swStandardSuperiorTappedHole or swStandardSuperiorBottomingTappedHole
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-enumerations with
-
-[IFeatureManager::HoleWizard2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~HoleWizard2.html)
-
-or
-
-[IWizardHoleFeatureData2::FastenerType2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~FastenerType2.html)
-
-, then switch to using swStandardSuperiorTappedHole2 or swStandardSuperiorBottomingTappedHole2. If you recorded a macro, then the correct values may already be in use.
+If you used the now obsolete swStandardSuperiorTappedHole or swStandardSuperiorBottomingTappedHole enumerations with [IFeatureManager::HoleWizard2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~HoleWizard2.html) or [IWizardHoleFeatureData2::FastenerType2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~FastenerType2.html), then switch to using swStandardSuperiorTappedHole2 or swStandardSuperiorBottomingTappedHole2. If you recorded a macro, then the correct values may already be in use.
 
 ## See Also
 

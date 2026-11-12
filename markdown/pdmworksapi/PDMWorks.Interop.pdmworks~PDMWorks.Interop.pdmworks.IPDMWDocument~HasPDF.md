@@ -48,24 +48,15 @@ property System.int HasPDF {
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::HasPDF](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~HasPDF.html)
-
-.
+See [PDMWDocument::HasPDF](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~HasPDF.html).
 
 ## Remarks
 
-Call
-
-[IPDMDocument::SaveAsPDF](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~SaveAsPDF.html)
-
-to get the PDF file of the drawing document from the vault, if it exists.
+Call [IPDMDocument::SaveAsPDF](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~SaveAsPDF.html) to get the PDF file of the drawing document from the vault, if it exists.
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/Get_Component_Name_From_Selected_Entity_Example_VB.htm"
 
 # Get Component Name From Selected Entity Example (VBA)
 
-This example shows how to get the name of a component to possibly use
-with a future call to[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html),
-when selectively opening the assembly document and specific components
-using[ISldWorks::OpenDoc7](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc7.html)and[IDocumentSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html),
-etc. This example also shows how to set and get a component reference.
+This example shows how to get the name of a component to possibly use with a future call to [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html), when selectively opening the assembly document and specific components using [ISldWorks::OpenDoc7](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc7.html) and [IDocumentSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html), etc. This example also shows how to set and get a component reference.
 
 ```
 '--------------------------------------------------------------------

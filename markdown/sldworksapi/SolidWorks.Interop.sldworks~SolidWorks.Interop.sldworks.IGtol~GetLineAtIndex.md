@@ -47,13 +47,7 @@ System.Object^ GetLineAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,34 +55,29 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetLineAtIndex.html)
-
-.
+See [Gtol::GetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetLineAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-[lineType, startPt[3], endPt[3]]
+```vb
+[ lineType, startPt[3], endPt[3] ]
+```
 
 where:
 
-- lineType= the[line type](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html)
+- lineType = the [line type](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html)
 - startPt[3] = the XYZ line start point
 - endPt[3] = the XYZ line end point
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetLineCount.html)
-
 [IGtol::IGetLineAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetLineAtIndex.html)

@@ -9,27 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchFlags.html"
 
 # EdmBatchFlags Enumeration
 
-Flags used in
-
-[IEdmBatchUpdate::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate~SetVar.html)
-
-and
-
-[IEdmBatchUpdate2::SetFolderVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2~SetFolderVar.html)
-
-to control the behavior of
-
-[IEdmBatchUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate.html)
-
-and
-
-[IEdmBatchUpdate2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags used in [IEdmBatchUpdate::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate~SetVar.html) and [IEdmBatchUpdate2::SetFolderVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2~SetFolderVar.html) to control the behavior of [IEdmBatchUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate.html) and [IEdmBatchUpdate2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

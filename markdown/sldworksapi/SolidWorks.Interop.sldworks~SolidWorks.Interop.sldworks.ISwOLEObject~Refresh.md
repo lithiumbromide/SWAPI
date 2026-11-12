@@ -39,26 +39,15 @@ void Refresh()
 void Refresh();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SwOLEObject::Refresh](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Refresh.html)
-
-.
+See [SwOLEObject::Refresh](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Refresh.html).
 
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
 
 ## Availability

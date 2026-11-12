@@ -9,7 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # ICostAnalysisPlastic Interface Members
 
-The following tables list the members exposed by[ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html).
+The following tables list the members exposed by [ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html).
 
 ## Public Properties
 
@@ -43,5 +43,4 @@ The following tables list the members exposed by[ICostAnalysisPlastic](SolidWork
 ## See Also
 
 [ICostAnalysisPlastic Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
 [SolidWorks.Interop.sldcostingapi Namespace](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi_namespace.html)

@@ -1,6 +1,5 @@
 ---
-title: "Get Thermal Values at Points
-Example (C#)"
+title: "Get Thermal Values at Points Example (C#)"
 project: ""
 interface: ""
 member: ""
@@ -8,11 +7,9 @@ kind: "example"
 source: "cworksapi/Get_Thermal_Values_at_Points_Example_CSharp.htm"
 ---
 
-# Get Thermal Values at Points
-Example (C#)
+# Get Thermal Values at Points Example (C#)
 
-## Get Thermal Values
-Example (C#)
+## Get Thermal Values Example (C#)
 
 This example shows how to get thermal values in a thermal study.
 

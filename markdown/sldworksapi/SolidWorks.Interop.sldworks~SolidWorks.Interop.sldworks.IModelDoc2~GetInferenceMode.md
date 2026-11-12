@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetInferenceMode Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[SketchManager::InferenceMode](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InferenceMode.html)
-
-.
+Obsolete. Superseded by [SketchManager::InferenceMode](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~InferenceMode.html).
 
 ## Syntax
 
@@ -44,21 +40,11 @@ System.bool GetInferenceMode()
 System.bool GetInferenceMode();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetInferenceMode](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetInferenceMode.html)
-
-.
+See [ModelDoc2::GetInferenceMode](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetInferenceMode.html).
 
 ## Remarks
 
@@ -67,11 +53,8 @@ This method affects sketch-entity snapping or inferring constraints to other geo
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::AutoInferToggle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AutoInferToggle.html)
-
 [IModelDoc2::SetInferenceMode Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetInferenceMode.html)
 
 ## Availability

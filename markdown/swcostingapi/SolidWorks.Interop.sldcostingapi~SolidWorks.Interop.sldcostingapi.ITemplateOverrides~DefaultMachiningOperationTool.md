@@ -47,33 +47,22 @@ property System.int DefaultMachiningOperationTool {
 
 ### Property Value
 
-Tool for the default machining operation as defined in
-
-[swcDefaultMachiningTool_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcDefaultMachiningTool_e.html)
+Tool for the default machining operation as defined in [swcDefaultMachiningTool_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcDefaultMachiningTool_e.html)
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::DefaultMachiningOperationTool](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~DefaultMachiningOperationTool.html)
-
-.
+See [TemplateOverrides::DefaultMachiningOperationTool](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~DefaultMachiningOperationTool.html).
 
 ## Remarks
 
 Setting this property is only applied if:
 
-- [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html)
-
-  is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
-- [ITemplateOverrides::VolumeFeatureCalculationType](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~VolumeFeatureCalculationType.html)
-
-  is swcVolumeFeatureCalculationType_e.swcVolumeFeatureCalculationType_MachiningOperation.
+- [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html) is either swcMethodType_e.swcMethodType_Machining or swcMethodType_e.swcMethodType_MachinedPlate.
+- [ITemplateOverrides::VolumeFeatureCalculationType](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~VolumeFeatureCalculationType.html) is swcVolumeFeatureCalculationType_e.swcVolumeFeatureCalculationType_MachiningOperation.
 
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
 
 ## Availability

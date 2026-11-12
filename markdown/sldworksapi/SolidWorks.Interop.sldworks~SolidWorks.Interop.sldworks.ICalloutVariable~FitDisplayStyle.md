@@ -45,44 +45,27 @@ property System.int FitDisplayStyle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Fit tolerance display style as defined in
-
-[swFitTolDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFitTolDisplay_e.html)
+Fit tolerance display style as defined in [swFitTolDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFitTolDisplay_e.html)
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::FitDisplayStyle](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~FitDisplayStyle.html)
-
-.
+See [CalloutVariable::FitDisplayStyle](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~FitDisplayStyle.html).
 
 ## Remarks
 
-To see the effects of changing the fit tolerance display style, use[IModelView::GraphicsRedraw](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~GraphicsRedraw.html).
+To see the effects of changing the fit tolerance display style, use [IModelView::GraphicsRedraw](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~GraphicsRedraw.html).
 
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
-
 [IDimensionTolerance::FitDisplayTolerance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance~FitDisplayStyle.html)
-
 [ICalloutVariable::HoleFit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~HoleFit.html)
-
 [ICalloutVariable::ShaftFit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ShaftFit.html)
-
 [ICalloutVariable::FitTextHeight Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~FitTextHeight.html)
 
 ## Availability

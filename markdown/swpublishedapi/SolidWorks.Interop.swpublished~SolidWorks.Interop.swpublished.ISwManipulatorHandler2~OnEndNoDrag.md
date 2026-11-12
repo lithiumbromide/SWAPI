@@ -52,36 +52,26 @@ void OnEndNoDrag(
 
 ### Parameters
 
-- `pManipulator`: [IManipulator](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IManipulator.html)
+- `pManipulator`: [IManipulator](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IManipulator.html) object
+- `handleIndex`:
 
-object
-- `handleIndex`: | If the manipulator is a... | Then use... |
-| --- | --- |
-| Drag arrow | swDragArrowManipulatorOptions_e |
-| Triad | swTriadManipulatorControlPoints_e |
+  | If the manipulator is a... | Then use... |
+  | --- | --- |
+  | Drag arrow | swDragArrowManipulatorOptions_e |
+  | Triad | swTriadManipulatorControlPoints_e |
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler2::OnEndNoDrag](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler2~OnEndNoDrag.html)
-
-.
+See [SwManipulatorHandler2::OnEndNoDrag](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler2~OnEndNoDrag.html).
 
 ## Examples
 
-See the
-
-[ISwManipulatorHandler2](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html)
-
-examples.
+See the [ISwManipulatorHandler2](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html) examples.
 
 ## See Also
 
 [ISwManipulatorHandler2 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html)
-
 [ISwManipulatorHandler2 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2_members.html)
-
 [ISwManipulatorHandler2::OnEndDrag Method ()](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2~OnEndDrag.html)
 
 ## Availability

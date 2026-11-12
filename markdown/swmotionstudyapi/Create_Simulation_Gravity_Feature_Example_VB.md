@@ -9,15 +9,14 @@ source: "swmotionstudyapi/Create_Simulation_Gravity_Feature_Example_VB.htm"
 
 # Create Simulation Gravity Feature Example (VBA)
 
-This example shows how to create a simulation gravity feature in a motion
-study.
+This example shows how to create a simulation gravity feature in a motion study.
 
 ```vb
 '---------------------------------------------------------------------------
- ' Preconditions: kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}
+ ' Preconditions:
  ' 1. Verify that the specified model document exists.
  ' 2. In SOLIDWORKS, verify that View > MotionManager is selected.
- ' kadov_tag{{<spaces>}}3. In the IDE, click Tools > References and select
+ ' 3. In the IDE, click Tools > References and select
  '    SOLIDWORKS version MotionStudy Type library.
  ' 4. Click OK.
  ' 5. Open an Immediate window.

@@ -9,11 +9,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 # GetAirAcidification Method (ISustainabilityEnvironmentalImpact)
 
-Obsolete. Superseded by
-
-[ISustainabilityEnvironmentalImpact::GetAirAcidification2](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetAirAcidification2.html)
-
-.
+Obsolete. Superseded by [ISustainabilityEnvironmentalImpact::GetAirAcidification2](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetAirAcidification2.html).
 
 ## Syntax
 
@@ -57,11 +53,7 @@ System.int GetAirAcidification(
 
 ## VBA Syntax
 
-See
-
-[SustainabilityEnvironmentalImpact::GetAirAcidification](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEnvironmentalimpact~GetAirAcidification.html)
-
-.
+See [SustainabilityEnvironmentalImpact::GetAirAcidification](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEnvironmentalimpact~GetAirAcidification.html).
 
 ## Remarks
 
@@ -74,9 +66,7 @@ Before calling this method, call:
 ## See Also
 
 [ISustainabilityEnvironmentalImpact Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact.html)
-
 [ISustainabilityEnvironmentalImpact Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact_members.html)
-
 [ISustainabilityEnvironmentalImpact::IGetAirAcidification Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~IGetAirAcidification.html)
 
 ## Availability

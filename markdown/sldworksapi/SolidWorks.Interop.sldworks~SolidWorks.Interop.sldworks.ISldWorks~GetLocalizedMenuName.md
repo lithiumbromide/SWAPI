@@ -47,19 +47,11 @@ System.String^ GetLocalizedMenuName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `MenuId`: Menu ID as defined in
-
-[swMenuIdentifiers_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuIdentifiers_e.html)
+- `MenuId`: Menu ID as defined in [swMenuIdentifiers_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMenuIdentifiers_e.html)
 
 ### Return Value
 
@@ -67,11 +59,7 @@ String containing the localized menu name
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetLocalizedMenuName](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetLocalizedMenuName.html)
-
-.
+See [SldWorks::GetLocalizedMenuName](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetLocalizedMenuName.html).
 
 ## Examples
 
@@ -79,12 +67,11 @@ See
 
 ## Remarks
 
-The string returned allows the application to provide a correctly localized string representing the menu name that menus and menu items can be when added to in the SOLIDWORKS user interface.
+The string returned allows the application to provide a correctly localized string representing the menu name that menus and menu items can be when added to in the SOLIDWORKS Design user interface.
 
-This method should be called before[ISldWorks::AddMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddMenu.html),[ISldWorks::AddMenuItem3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddMenuItem3.html),[IFrame::AddMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFrame~AddMenu.html), or[IFrame::AddMenuItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFrame~AddMenuItem2.html).
+This method should be called before [ISldWorks::AddMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddMenu.html), [ISldWorks::AddMenuItem3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddMenuItem3.html), [IFrame::AddMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFrame~AddMenu.html), or [IFrame::AddMenuItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFrame~AddMenuItem2.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

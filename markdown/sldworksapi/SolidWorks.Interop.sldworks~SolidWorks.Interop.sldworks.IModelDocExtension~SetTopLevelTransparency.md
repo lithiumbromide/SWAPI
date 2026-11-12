@@ -47,13 +47,7 @@ System.bool SetTopLevelTransparency(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ True if transparency of this part or top-level assembly successfully set, false 
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SetTopLevelTransparency](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetTopLevelTransparency.html)
-
-.
+See [ModelDocExtension::SetTopLevelTransparency](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetTopLevelTransparency.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ISwColorContour Interface Members
 
-The following tables list the members exposed by[ISwColorContour](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour.html).
+The following tables list the members exposed by [ISwColorContour](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[ISwColorContour](SolidWorks.Int
 ## See Also
 
 [ISwColorContour Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwColorContour.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertSheetMetalGussetFeature2 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertSheetMetalGussetFeature3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSheetMetalGussetFeature3.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertSheetMetalGussetFeature3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSheetMetalGussetFeature3.html).
 
 ## Syntax
 
@@ -143,48 +139,22 @@ Feature^ InsertSheetMetalGussetFeature2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BOffset`: True to offset the gusset section plane from the selected reference point in ArrayRefPoints, false to not
 - `DOffset`: Value by which to offset the gusset section plane from the selected reference point in ArrayRefPoints; valid only if BOffset is true
 - `BFlipOffsetSide`: True to specify the gusset section plane offset on the opposite side of the selected reference point, false to not; valid only if BOffset is true
-- `ProfDimType`: Type of gusset profile dimensioning scheme as defined in[swSheetMetalGussetProfileDimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalGussetProfileDimType_e.html)
+- `ProfDimType`: Type of gusset profile dimensioning scheme as defined in [swSheetMetalGussetProfileDimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalGussetProfileDimType_e.html)
 
-(see**Remarks**)
+  (see **Remarks**)
 - `DIndentDepth`: Gusset indent depth; valid only if ProfDimType = 0
-- `DLength`: d1 gusset leg length; length of sheet metal from bend to intersection with first end of gusset; valid only if ProfDimType = 1 (see
-
-Remarks
-
-)
-- `BUseAngle`: True to dimension the angle that is formed by the intersection of the gusset with either face adjacent to the bend; valid only if ProfDimType = 1 (see
-
-Remarks
-
-)
-- `DHeight`: d2 gusset leg length; length of sheet metal from bend to intersection with second end of gusset; valid only if ProfDimType = 1 (see
-
-Remarks
-
-)
-- `DAngle`: Angle formed by intersection of gusset with one face adjacent to the bend; valid only if ProfDimType = 1 and BUseAngle is true (see
-
-Remarks
-
-)
-- `BFlipSides`: True to swap d1 and d2 legs in the dimensioning scheme, false to not; valid only if ProfDimType = 1 (see
-
-Remarks
-
-)
+- `DLength`: d1 gusset leg length; length of sheet metal from bend to intersection with first end of gusset; valid only if ProfDimType = 1 (see **Remarks**)
+- `BUseAngle`: True to dimension the angle that is formed by the intersection of the gusset with either face adjacent to the bend; valid only if ProfDimType = 1 (see **Remarks**)
+- `DHeight`: d2 gusset leg length; length of sheet metal from bend to intersection with second end of gusset; valid only if ProfDimType = 1 (see **Remarks**)
+- `DAngle`: Angle formed by intersection of gusset with one face adjacent to the bend; valid only if ProfDimType = 1 and BUseAngle is true (see **Remarks**)
+- `BFlipSides`: True to swap d1 and d2 legs in the dimensioning scheme, false to not; valid only if ProfDimType = 1 (see **Remarks**)
 - `DWidth`: Gusset width
 - `DThickness`: Gusset thickness
 - `BDraft`: True to draft gusset side faces, false to not
@@ -193,33 +163,31 @@ Remarks
 - `DInnerCornerFilletRadius`: Inner corner fillet radius; valid only if BInnerCornerFillet is true
 - `BOuterCornerFillet`: True to fillet the gusset outer corners, false to not
 - `DOuterCornerFilletRadius`: Outer corner fillet radius; valid only if BOuterCornerFilletRadius is true
-- `GussetType`: Type of gusset as defined in[swSheetMetalRibGussetType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalRibGussetType_e.html)
+- `GussetType`: Type of gusset as defined in [swSheetMetalRibGussetType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalRibGussetType_e.html)
 - `BEdgeFillet`: True to fillet the edges of a flat back gusset, false to not; valid only if GussetType is flat
 - `DEdgeFilletRadius`: Edge fillet radius for the flat back gusset; valid only if BEdgeFillet is true and GussetType is flat
-- `ArrayOfFaces`: Array containing one or two[IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)s that are the legs of the gusset feature:
+- `ArrayOfFaces`: Array containing one or two [IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)s that are the legs of the gusset feature:
 
-- Two flat faces adjacent to a bend
-- Two flat faces adjacent to a circular bend
-- One cylindrical bend face
-- One flat face and one non-planar face adjacent to a toroidal bend
-- One toroidal bend face
+  - Two flat faces adjacent to a bend
+  - Two flat faces adjacent to a circular bend
+  - One cylindrical bend face
+  - One flat face and one non-planar face adjacent to a toroidal bend
+  - One toroidal bend face
 
-(see**Remarks**)
+  (see **Remarks**)
 - `ArrayRefLines`: Array containing one of the following entities that is perpendicular to the gusset section plane:
 
-- Linear
+  - Linear [IEdge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
+  - [ISketchSegment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
 
-  [IEdge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-- [ISketchSegment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-(see**Remarks**)
+  (see **Remarks**)
 - `ArrayRefPoints`: Array containing one of the following to position the gusset section plane:
 
-- [IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
-- [ISketchPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-- [IRefPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPoint.html)
+  - [IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
+  - [ISketchPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
+  - [IRefPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPoint.html)
 
-(see**Remarks**)
+  (see **Remarks**)
 
 ### Return Value
 
@@ -227,11 +195,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetalGussetFeature2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalGussetFeature2.html)
-
-.
+See [FeatureManager::InsertSheetMetalGussetFeature2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalGussetFeature2.html).
 
 ## Remarks
 
@@ -240,7 +204,7 @@ See
 | ArrayRefLines | This method assumes the reference line is the bend line adjacent to the entities in ArrayOfFaces. |
 | ArrayRefPoints | You must set BOffset to true and specify DOffset for an assumed reference point. For insertion of the first gusset, the assumed reference point is on the end of the sheet metal bend. For second and subsequent gusset insertions, the assumed reference point is on the edge of the gusset last inserted. |
 
-Instead of calling this method, you can call[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to pre-select the references before calling[IFeatureManager::InsertSheetMetalGussetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalGussetFeature.html).
+Instead of calling this method, you can call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the references before calling [IFeatureManager::InsertSheetMetalGussetFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalGussetFeature.html).
 
 | If ProfDimType = 1, to dimension the gusset profile using... | Specify... |
 | --- | --- |
@@ -253,9 +217,7 @@ See the SOLIDWORKS Help for more information about sheet metal gusset features.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
 
 ## Availability

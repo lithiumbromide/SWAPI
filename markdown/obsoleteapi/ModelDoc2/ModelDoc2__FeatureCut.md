@@ -9,8 +9,7 @@ source: "obsoleteapi/ModelDoc2/ModelDoc2__FeatureCut.htm"
 
 # ModelDoc2::FeatureCut
 
-This method is obsolete and has been superseded
-by[ModelDoc2::FeatureCut2](ModelDoc2__FeatureCut2.htm).
+This method is obsolete and has been superseded by [ModelDoc2::FeatureCut2](ModelDoc2__FeatureCut2.htm).
 
 Description
 
@@ -18,11 +17,7 @@ This method creates an extruded feature cut.
 
 Syntax (OLE Automation)
 
-void ModelDoc2.FeatureCut
-( sd, flip, dir, t1, t2, d1, d2, dchk1, dchk2, ddir1, ddir2, dang1, dang2,
-offsetReverse1, offsetReverse2)
-
-(Table)=========================================================
+void ModelDoc2.FeatureCut ( sd, flip, dir, t1, t2, d1, d2, dchk1, dchk2, ddir1, ddir2, dang1, dang2, offsetReverse1, offsetReverse2)
 
 | Input: | (BOOL) sd | TRUE for single-ended, FALSE for double-ended |
 | --- | --- | --- |
@@ -38,20 +33,12 @@ offsetReverse1, offsetReverse2)
 | Input: | (BOOL) ddir2 | TRUE for second draft angle to be inward, FALSE for draft angle outward |
 | Input: | (double) dang1 | Draft angle for first end |
 | Input: | (double) dang2 | Draft angle for second end |
-| Input: | (BOOL) offsetReverse1 | TRUE specifies offset in direction away from the sketch you chose to
-offset the first end condition from another face or plane, FALSE specifies
-offset from the face or plane in a direction toward the sketch |
-| Input: | (BOOL) offsetReverse2 | TRUE specifies offset in direction away from the sketch you chose to
-offset the second end condition from another face or plane, FALSE specifies
-offset from the face or plane in a direction toward the sketch |
+| Input: | (BOOL) offsetReverse1 | TRUE specifies offset in direction away from the sketch you chose to offset the first end condition from another face or plane, FALSE specifies offset from the face or plane in a direction toward the sketch |
+| Input: | (BOOL) offsetReverse2 | TRUE specifies offset in direction away from the sketch you chose to offset the second end condition from another face or plane, FALSE specifies offset from the face or plane in a direction toward the sketch |
 
 Syntax (COM)
 
-status = ModelDoc2->FeatureCut
-( sd, flip, dir, t1, t2, d1, d2, dchk1, dchk2, ddir1, ddir2, dang1, dang2,
-offsetReverse1, offsetReverse2 )
-
-(Table)=========================================================
+status = ModelDoc2->FeatureCut ( sd, flip, dir, t1, t2, d1, d2, dchk1, dchk2, ddir1, ddir2, dang1, dang2, offsetReverse1, offsetReverse2 )
 
 | Input: | (VARIANT_BOOL) sd | TRUE for single-ended, FALSE for double-ended |
 | --- | --- | --- |
@@ -67,68 +54,10 @@ offsetReverse1, offsetReverse2 )
 | Input: | (VARIANT_BOOL) ddir2 | TRUE for second draft angle to be inward, FALSE for draft angle outward |
 | Input: | (double) dang1 | Draft angle for first end |
 | Input: | (double) dang2 | Draft angle for second end |
-| Input: | (VARIANT_BOOL) offsetReverse1 | TRUE specifies offset in direction away from the sketch if you chose
-to offset the first end condition from another face or plane, FALSE specifies
-offset from the face or plane in a direction toward the sketch |
-| Input: | (VARIANT_BOOL) offsetReverse2 | TRUE specifies offset in direction away from the sketch if you chose
-to offset the second end condition from another face or plane, FALSE specifies
-offset from the face or plane in a direction toward the sketch |
+| Input: | (VARIANT_BOOL) offsetReverse1 | TRUE specifies offset in direction away from the sketch if you chose to offset the first end condition from another face or plane, FALSE specifies offset from the face or plane in a direction toward the sketch |
+| Input: | (VARIANT_BOOL) offsetReverse2 | TRUE specifies offset in direction away from the sketch if you chose to offset the second end condition from another face or plane, FALSE specifies offset from the face or plane in a direction toward the sketch |
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
 
-For making revolved cuts, use[ModelDoc2::FeatureRevolveCut2](ModelDoc2__FeatureRevolveCut2.htm).
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001Plus$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\sw2003\ModelDoc2\ModelDoc2__FeatureCut.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ModelDoc2_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\sw2003\ModelDoc2\ModelDoc2__FeatureCut.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+For making revolved cuts, use [ModelDoc2::FeatureRevolveCut2](ModelDoc2__FeatureRevolveCut2.htm).

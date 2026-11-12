@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetBuildNumbers Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::GetBuildNumbers2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetBuildNumbers2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::GetBuildNumbers2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetBuildNumbers2.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void GetBuildNumbers(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetBuildNumbers](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetBuildNumbers.html)
-
-.
+See [SldWorks::GetBuildNumbers](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetBuildNumbers.html).
 
 ## Examples
 
@@ -93,7 +79,7 @@ Sub main()
 
 Set swApp = Application.SldWorks
 
-swApp. GetBuildNumbers BaseVersion, CurrentVersion
+swApp.**GetBuildNumbers** BaseVersion, CurrentVersion
 
 Debug.Print "SOLIDWORKS major revision number: " & BaseVersion
 
@@ -112,15 +98,10 @@ SOLIDWORKS build number: d080407.062
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::VersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html)
-
 [ISldWorks::IGetVersionHistoryCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetVersionHistoryCount.html)
-
 [ISldWorks::IVersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IVersionHistory.html)
-
 [ISldWorks::RevisionNumber Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RevisionNumber.html)
 
 ## Availability

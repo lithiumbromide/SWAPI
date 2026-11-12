@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICh
 
 # IChamferFeatureData Interface Members
 
-The following tables list the members exposed by[IChamferFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData.html).
+The following tables list the members exposed by [IChamferFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData.html).
 
 ## Public Properties
 
@@ -34,5 +34,4 @@ The following tables list the members exposed by[IChamferFeatureData](SolidWorks
 ## See Also
 
 [IChamferFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

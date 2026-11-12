@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # GetTessellation Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::GetTessellation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetTessellation.html)
-
-.
+Obsolete. Superseded by [IBody2::GetTessellation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetTessellation.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetTessellation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body::GetTessellation](ms-its:sldworksapivb6.chm::/sldworks~Body~GetTessellation.html)
-
-.
+See [Body::GetTessellation](ms-its:sldworksapivb6.chm::/sldworks~Body~GetTessellation.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

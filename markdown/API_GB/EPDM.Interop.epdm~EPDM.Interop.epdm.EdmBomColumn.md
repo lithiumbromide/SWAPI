@@ -34,18 +34,24 @@ public value class EdmBomColumn : public System.ValueType
 
 ## Examples
 
-struct EdmBomColumn{ integer mlColumnID ; integer mlVariableID ; enum EdmVariableType mlVariableType ; integer mlFlags ; enum EdmBomColumnType meType ; string mbsCaption ; integer mlWidth ; };
+struct EdmBomColumn{
+integer [mlColumnID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlColumnID.html);
+integer [mlVariableID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlVariableID.html);
+[enum EdmVariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableType.html) [mlVariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlVariableType.html);
+integer [mlFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlFlags.html);
+[enum EdmBomColumnType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumnType.html) [meType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~meType.html);
+string [mbsCaption](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mbsCaption.html);
+integer [mlWidth](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn~mlWidth.html);
+};
 
 ## Examples
 
 [Access Bill of Materials (VB.NET)](Access_Bill_of_Materials_Example_VBNET.htm)
-
 [Access Bill of Materials (C#)](Access_Bill_of_Materials_Example_CSharp.htm)
 
 ## See Also
 
 [EdmBomColumn Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

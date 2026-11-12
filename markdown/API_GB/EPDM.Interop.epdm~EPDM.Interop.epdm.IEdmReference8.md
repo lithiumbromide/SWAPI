@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference8.html"
 
 Allows you to enumerate referenced and referencing files and set up user-defined references.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,19 +39,10 @@ public interface class IEdmReference8 : public IEdmReference5, IEdmReference6, I
 This interface:
 
 - allows you to read and update the reference count used in bills of materials.
-- inherits from
-
-  [IEdmReference7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7.html)
-
-  .
-- is extended by
-
-  [IEdmReference9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference9.html)
-
-  .
+- inherits from [IEdmReference7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7.html).
+- is extended by [IEdmReference9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference9.html).
 
 ## See Also
 
 [IEdmReference8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference8_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

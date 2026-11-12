@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetLength Method (ICurve)
 
-Obsolete. Superseded by
-
-[ICurve::GetLength2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetLength2.html)
-
-.
+Obsolete. Superseded by [ICurve::GetLength2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetLength2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.double GetLength(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Curve::GetLength](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetLength.html)
-
-.
+See [Curve::GetLength](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetLength.html).
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)

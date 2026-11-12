@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertCompositePositionTolerance Interface Members
 
-The following tables list the members exposed by[IDimXpertCompositePositionTolerance](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance.html).
+The following tables list the members exposed by [IDimXpertCompositePositionTolerance](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance.html).
 
 ## Public Properties
 
@@ -39,5 +39,4 @@ The following tables list the members exposed by[IDimXpertCompositePositionToler
 ## See Also
 
 [IDimXpertCompositePositionTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

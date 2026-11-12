@@ -40,13 +40,7 @@ System.double GetBoundingBoxDirection1()
 System.double GetBoundingBoxDirection1();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,19 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SlicingData::GetBoundingBoxDirection1](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~GetBoundingBoxDirection1.html)
-
-.
+See [SlicingData::GetBoundingBoxDirection1](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~GetBoundingBoxDirection1.html).
 
 ## Examples
 
-See the
-
-[ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
-example.
+See the [ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html) example.
 
 ## Remarks
 
@@ -82,9 +68,7 @@ Use these methods to get the slicing volume for including or excluding geometry 
 ## See Also
 
 [ISlicingData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
 [ISlicingData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html)
-
 [ISlicingData::SetBoundingBoxDirection1 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData~SetBoundingBoxDirection1.html)
 
 ## Availability

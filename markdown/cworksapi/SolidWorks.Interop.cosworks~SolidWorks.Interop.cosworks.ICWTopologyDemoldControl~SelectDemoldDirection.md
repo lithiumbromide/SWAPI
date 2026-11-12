@@ -48,30 +48,19 @@ void SelectDemoldDirection(
 
 ### Parameters
 
-- `NDir`: De-mold direction as defined in
-
-[swsTopologyDemoldDirectionOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyDemoldDirectionOption_e.html)
+- `NDir`: De-mold direction as defined in [swsTopologyDemoldDirectionOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyDemoldDirectionOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl::SelectDemoldDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~SelectDemoldDirection.html)
-
-.
+See [CWTopologyDemoldControl::SelectDemoldDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~SelectDemoldDirection.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
-example.
+See the [ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html) example.
 
 ## See Also
 
 [ICWTopologyDemoldControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICompositeCurveFeatureData Interface Members
 
-The following tables list the members exposed by[ICompositeCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICompositeCurveFeatureData.html).
+The following tables list the members exposed by [ICompositeCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICompositeCurveFeatureData.html).
 
 ## Public Methods
 
@@ -28,7 +28,5 @@ The following tables list the members exposed by[ICompositeCurveFeatureData](Sol
 ## See Also
 
 [ICompositeCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICompositeCurveFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertCompositeCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertCompositeCurve.html)

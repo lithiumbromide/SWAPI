@@ -9,7 +9,7 @@ source: "toolboxapi/SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IA
 
 # IApplication Interface Members
 
-The following tables list the members exposed by[IApplication](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication.html).
+The following tables list the members exposed by [IApplication](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[IApplication](SolidWorks.Intero
 ## See Also
 
 [IApplication Interface](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication.html)
-
 [SolidWorks.Interop.swbrowser Namespace](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser_namespace.html)

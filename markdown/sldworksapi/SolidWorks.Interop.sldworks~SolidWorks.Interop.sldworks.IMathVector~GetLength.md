@@ -40,27 +40,15 @@ System.double GetLength()
 System.double GetLength();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Length of
-
-[math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
+Length of [math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
 
 ## VBA Syntax
 
-See
-
-[MathVector::GetLength](ms-its:sldworksapivb6.chm::/sldworks~MathVector~GetLength.html)
-
-.
+See [MathVector::GetLength](ms-its:sldworksapivb6.chm::/sldworks~MathVector~GetLength.html).
 
 ## Examples
 
@@ -69,7 +57,6 @@ See
 ## See Also
 
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IMathVector Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html)
 
 ## Availability

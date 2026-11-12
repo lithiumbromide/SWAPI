@@ -9,12 +9,9 @@ source: "API_GB/Get_Messages_Example_CSharp.htm"
 
 # Get Messages Example (C#)
 
-This example shows how to get and encapsulate text messages
-in the Admin's inbox in a vault.
+This example shows how to get and encapsulate text messages in the Admin's inbox in a vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //----------------------------------------------------------------------------

@@ -15,12 +15,8 @@ This topic provides information to help you get started with using the SOLIDWORK
 - [Software Requirements](#SoftwareRequirements)
 - [Installation](#Installation)
 - [Application Basics](#ApplicationBasics)
-- [Third-party Data in SOLIDWORKS Files](#third-party)
-- Read how you might use our
-
-  [Active Content Protection Framework](sldworksapiprogguide.chm::/Overview/ActiveContentProtectionFramework.htm)
-
-  to guard against malicious active content.
+- [Third-party Data in SOLIDWORKS Design Files](#third-party)
+- Read how you might use our [Active Content Protection Framework](sldworksapiprogguide.chm::/Overview/ActiveContentProtectionFramework.htm) to guard against malicious active content.
 
 ##### License Key
 
@@ -38,34 +34,20 @@ SOLIDWORKS Document Manager API checks the version of the file being accessed. I
 
 When requesting or renewing a SOLIDWORKS Document Manager API license key, you are presented with a dialog containing a list of check boxes showing the categories of functionality that a SOLIDWORKS Document Manager API license key controls. You can select more than one category.
 
-- Basic
+- **Basic**: All interfaces, methods, and properties except for those listed below
+- **Previews**: Preview and stream methods and properties on all ISwDMConfiguration, ISwDMDocument, and ISwDMSheet interfaces
+- **DimXpert**: DimXpert methods and properties on all ISwDMConfiguration and all DimXpert-related interfaces
+- **Geometry** **Streams**: Preview, stream, and imported body methods and properties on all ISwDMConfiguration interfaces
+- **XML Streams**: XML stream methods on all ISwDMDocument interfaces
+- **Tesselation**: Display List DLL (previously called the Display List Sample); although not a component of the SOLIDWORKS Document Manager API, its license key controls access to the Display List DLL
 
-  : All interfaces, methods, and properties except for those listed below
-- Previews
-
-  : Preview and stream methods and properties on all ISwDMConfiguration, ISwDMDocument, and ISwDMSheet interfaces
-- DimXpert
-
-  : DimXpert methods and properties on all ISwDMConfiguration and all DimXpert-related interfaces
-- Geometry
-
-  Streams
-
-  : Preview, stream, and imported body methods and properties on all ISwDMConfiguration interfaces
-- XML Streams
-
-  : XML stream methods on all ISwDMDocument interfaces
-- Tesselation
-
-  : Display List DLL (previously called the Display List Sample); although not a component of the SOLIDWORKS Document Manager API, its license key controls access to the Display List DLL
-
-To request a SOLIDWORKS Document Manager API license key:[https://www.solidworks.com/support/subscription/key-request/](https://www.solidworks.com/support/subscription/key-request/)
+To request a SOLIDWORKS Document Manager API license key: [https://www.solidworks.com/support/subscription/key-request/](https://www.solidworks.com/support/subscription/key-request/)
 
 A SOLIDWORKS Document Manager API license key is emailed to you upon approval of your request.
 
-IMPORTANT:Do not share this license key with anyone outside your company or distribute it with any software that you ship.
+IMPORTANT: Do not share this license key with anyone outside your company or distribute it with any software that you ship.
 
-You must specify the license key when instantiating a SOLIDWORKS Document Manager API connection. See[Application Basics](#ApplicationBasics)for details.
+You must specify the license key when instantiating a SOLIDWORKS Document Manager API connection. See [Application Basics](#ApplicationBasics) for details.
 
 [Back to top](#Top)
 
@@ -73,17 +55,11 @@ You must specify the license key when instantiating a SOLIDWORKS Document Manage
 
 The SOLIDWORKS Document Manager API requires:
 
-- [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+- [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145), which installs the runtime components of Visual C++ libraries. These runtime components are required to successfully register the SOLIDWORKS Document Manager 2018 DLL, which was developed using Visual Studio 2015.
 
-  , which installs the runtime components of Visual C++ libraries. These runtime components are required to successfully register the SOLIDWORKS Document Manager 2018 DLL, which was developed using Visual Studio 2015.
+- Microsoft Core XML Services (MSXML) 4.0 or later; MSXML 6.0 is the first version of MSXML that supports 64-bit processors. MSXML is only needed if you want to use ISwDMComponent or ISwDMComponent2. Download MSXML from [www.microsoft.com](http://www.microsoft.com).
 
-- Microsoft Core XML Services (MSXML) 4.0 or later; MSXML 6.0 is the first version of MSXML that supports 64-bit processors. MSXML is only needed if you want to use ISwDMComponent or ISwDMComponent2. Download MSXML from
-
-  [www.microsoft.com](http://www.microsoft.com)
-
-  .
-
-NOTE:A full SOLIDWORKS 2018 installation includes MSXML and the Visual C++ Redistributable for Visual Studio 2015. Clients installing SOLIDWORKS Document Manager on systems without a full SOLIDWORKS installation must also install MSXML and the Visual C++ Redistributable or ensure that they have been previously installed.
+NOTE: A full SOLIDWORKS 2018 installation includes MSXML and the Visual C++ Redistributable for Visual Studio 2015. Clients installing SOLIDWORKS Document Manager on systems without a full SOLIDWORKS 2018 installation must also install MSXML and the Visual C++ Redistributable or ensure that they have been previously installed.
 
 [Back to top](#Top)
 
@@ -91,43 +67,49 @@ NOTE:A full SOLIDWORKS 2018 installation includes MSXML and the Visual C++ Redis
 
 Read the Software Requirements section before proceeding. MSXML and the Visual C++ Redistributable for Visual Studio 2015 must be installed in order to successfully register the SOLIDWORKS Document Manager DLLs.
 
-The SOLIDWORKS Document Manager API is a COM object contained inSwDocumentMgr.dll. The SOLIDWORKS Document Manager DimXpert API is contained in**dimxpert.dll**. Thezlib.dllDLL was automatically installed in the following folder if you installed the SOLIDWORKS software:
+The SOLIDWORKS Document Manager API is a COM object contained in SwDocumentMgr.dll. The SOLIDWORKS Document Manager DimXpert API is contained in **dimxpert.dll**. The zlib.dll DLL was automatically installed in the following folder if you installed the SOLIDWORKS software:
 
 <disk>:\Program Files\Common Files\SOLIDWORKS Shared
 
-SwDocumentMgr.dlland**dimxpert.dll**were also automatically registered if you installed the SOLIDWORKS software.
+SwDocumentMgr.dll and **dimxpert.dll** were also automatically registered if you installed the SOLIDWORKS software.
 
-If you did not install the SOLIDWORKS software on the system where you want to use these APIs, you can manually register them.
+If you did not install the SOLIDWORKS Design software on the system where you want to use these APIs, you can manually register them.
 
-SwDocumentMgr.dllandzlib.dllmust either reside in the same folder or be accessible via the Windows search path.
+SwDocumentMgr.dll and zlib.dll must either reside in the same folder or be accessible via the Windows search path.
 
-To manually register**SwDocumentMgr.dll**:
+To manually register **SwDocumentMgr.dll**:
 
 1. On the task bar, click the search icon.
 2. Type "C" in the Type here to search field.
 3. Right-click on Command Prompt, and select Run as administrator.
-4. Click**Yes**in the dialog box.
-5. In the Administrator Command Prompt, type:regsvr32 "<disk>:\Program Files\Common Files\SOLIDWORKS Shared\SwDocumentMgr.dll"
-6. ClickOK.
+4. Click **Yes** in the dialog box.
+5. In the Administrator Command Prompt, type:
 
-NOTE:Install programs, such as InstallShieldbegin!kadov{{}}end!kadov, can automatically register the DLL for you.
+  regsvr32 "<disk>:\Program Files\Common Files\SOLIDWORKS Shared\SwDocumentMgr.dll"
+6. Click OK.
 
-To manually unregister**SwDocumentMgr.dll**:
+NOTE: Install programs, such as InstallShield, can automatically register the DLL for you.
+
+To manually unregister **SwDocumentMgr.dll**:
 
 1. Follow steps 1-4 in the manual registration instructions above.
-2. In the Administrator Command Prompt, type:regsvr32 /u "<disk>:\Program Files\Common Files\SOLIDWORKS Shared\SwDocumentMgr.dll"
-3. ClickOK.
+2. In the Administrator Command Prompt, type:
 
-You can redistributeswDocumentMgr.dllandzlib.dll.
+  regsvr32 /u "<disk>:\Program Files\Common Files\SOLIDWORKS Shared\SwDocumentMgr.dll"
+3. Click OK.
 
-To manually register**dimxpert.dll**:
+You can redistribute swDocumentMgr.dll and zlib.dll.
+
+To manually register **dimxpert.dll**:
 
 1. On the task bar, click the search icon.
 2. Type "C" in the Type here to search field.
 3. Right-click on Command Prompt, and select Run as administrator.
-4. Click**Yes**in the dialog box.
-5. In the Administrator Command Prompt, type (`vX.X`is the name of a version directory that contains**RegAsm.exe**):C:\WINDOWS\Microsoft.NET\Framework\`vX.X`**\regasm /codebase**kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}"<disk>:\Program Files\Common Files\SOLIDWORKS Shared\dimxpert.dll"
-6. ClickOK.
+4. Click **Yes** in the dialog box.
+5. In the Administrator Command Prompt, type (`vX.X` is the name of a version directory that contains **RegAsm.exe**):
+
+  C:\WINDOWS\Microsoft.NET\Framework\`vX.X`**\regasm /codebase** "<disk>:\Program Files\Common Files\SOLIDWORKS Shared\dimxpert.dll"
+6. Click OK.
 
 [Back to top](#Top)
 
@@ -137,26 +119,28 @@ Writing a SOLIDWORKS Document Manager application typically involves:
 
 1. Instantiating a SOLIDWORKS Document Manager connection ([ISwDMClassFactory::GetApplication](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMClassFactory~GetApplication.html)).
 
-  NOTE:You must have a[license key](#LicenseKey)from SOLIDWORKS Corporation to instantiate the application object.
+  NOTE: You must have a [license key](#LicenseKey) from SOLIDWORKS Corporation to instantiate the application object.
 2. Opening a file ([ISwDMApplication::GetDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~GetDocument.html)).
-3. Querying the file for data such as custom properties, configurations, references, and where the file is used ([ISwDMConfiguration::GetBodiesCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration~GetBodiesCount.html),[ISwDMConfiguration::GetCustomPropertyNames](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration~GetCustomPropertyNames.html),[ISwDMDocument::GetAllExternalReferences](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetAllExternalReferences.html),[ISwDMDocument::GetHyperLinkAt](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetHyperLinkAt.html)).
-4. Extracting data such as Parasolid bodies and XML data from assemblies ([ISwDMConfiguration::GetBody](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration~GetBody.html)and[ISwDMDocument::GetXMLStream](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetXmlStream.html)).
+3. Querying the file for data such as custom properties, configurations, references, and where the file is used ([ISwDMConfiguration::GetBodiesCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration~GetBodiesCount.html), [ISwDMConfiguration::GetCustomPropertyNames](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration~GetCustomPropertyNames.html), [ISwDMDocument::GetAllExternalReferences](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetAllExternalReferences.html), [ISwDMDocument::GetHyperLinkAt](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetHyperLinkAt.html)).
+4. Extracting data such as Parasolid bodies and XML data from assemblies ([ISwDMConfiguration::GetBody](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration~GetBody.html) and [ISwDMDocument::GetXMLStream](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetXmlStream.html)).
 5. Extracting features and annotations from DimXpert parts ([ISwDMConfiguration12:DimXpertPart](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration12~DimXpertPart.html)).
-6. Making changes ([ISwDMDocument::AddCustomProperty](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~AddCustomProperty.html),[ISwDMDocument::DeleteCustomProperty](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~DeleteCustomProperty.html),[ISwDMDocument::ModifyHyperLinkAt](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~ModifyHyperLinkAt.html),[ISwDMDocument::ReplaceReference](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~ReplaceReference.html),[ISwDMDocument::SetCustomProperty](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~SetCustomProperty.html), etc.).
-7. If any changes are made, saving the document ([ISwDMDocument::Save](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~Save.html)or[ISwDMDocument::SaveAs](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~SaveAs.html)).
+6. Making changes ([ISwDMDocument::AddCustomProperty](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~AddCustomProperty.html), [ISwDMDocument::DeleteCustomProperty](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~DeleteCustomProperty.html), [ISwDMDocument::ModifyHyperLinkAt](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~ModifyHyperLinkAt.html), [ISwDMDocument::ReplaceReference](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~ReplaceReference.html), [ISwDMDocument::SetCustomProperty](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~SetCustomProperty.html), etc.).
+7. If any changes are made, saving the document ([ISwDMDocument::Save](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~Save.html) or [ISwDMDocument::SaveAs](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~SaveAs.html)).
 
-  **NOTE:**If recreating an application using an example and the example uses a SOLIDWORKS sample file, do not save changes.
-8. Closing the document ([ISwDMDocument::CloseDoc](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~CloseDoc.html)).NOTE:You must close a document before you can copy or move it using[ISwDMApplication::CopyDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~CopyDocument.html)or[ISwDMApplication::MoveDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~MoveDocument.html).
+  **NOTE:** If recreating an application using an example and the example uses a SOLIDWORKS sample file, do not save changes.
+8. Closing the document ([ISwDMDocument::CloseDoc](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~CloseDoc.html)).
+
+  NOTE: You must close a document before you can copy or move it using [ISwDMApplication::CopyDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~CopyDocument.html) or [ISwDMApplication::MoveDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~MoveDocument.html).
 
 Be sure to examine all returned error codes.
 
-NOTE:Documents created using SOLIDWORKS 99 (Version 1137) or earlier are not supported by this API. See[ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html)for a detailed list of SOLIDWORKS versions supported by this API.
+NOTE: Documents created using SOLIDWORKS 99 (Version 1137) or earlier are not supported by this API. See [ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html) for a detailed list of SOLIDWORKS versions supported by this API.
 
 [Back to top](#Top)
 
 ##### Third-party Data in SOLIDWORKS Files
 
-Starting with SOLIDWORKS 2015, third-party data stored in SOLIDWORKS files cannot be externally read or written by standard structured storage or compound file techniques.
+Starting with SOLIDWORKS 2015, third-party data stored in SOLIDWORKS Design files cannot be externally read or written by standard structured storage or compound file techniques.
 
 To read or write third-party data, use the methods and events in the SOLIDWORKS API or SOLIDWORKS Document Manager API.
 

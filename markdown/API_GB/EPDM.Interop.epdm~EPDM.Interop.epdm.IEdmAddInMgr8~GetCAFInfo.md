@@ -53,27 +53,13 @@ void GetCAFInfo(
 
 - `bsCAFPath`: Path to the *.CAF from which to get information
 - `bsExtractPath`: Path to the folder to which to extract files; ignored if empty
-- `poAddIn`: [EdmAddInInfo2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2.html)
-
-structure; information about the add-in
-- `ppoFiles`: Array of
-
-[EdmAddInFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html)
-
-structures, one for each file extracted from the add-in
-- `ppoCmds`: Array of
-
-[EdmAddInMenuInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo.html)
-
-structures, one for each menu command implemented by the add-in
+- `poAddIn`: [EdmAddInInfo2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2.html) structure; information about the add-in
+- `ppoFiles`: Array of [EdmAddInFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html) structures, one for each file extracted from the add-in
+- `ppoCmds`: Array of [EdmAddInMenuInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo.html) structures, one for each menu command implemented by the add-in
 
 ## Examples
 
-See the
-
-[IEdmAddInMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html)
-
-examples.
+See the [IEdmAddInMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html) examples.
 
 ## Remarks
 
@@ -85,7 +71,6 @@ examples.
 ## See Also
 
 [IEdmAddInMgr8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8.html)
-
 [IEdmAddInMgr8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8_members.html)
 
 ## Availability

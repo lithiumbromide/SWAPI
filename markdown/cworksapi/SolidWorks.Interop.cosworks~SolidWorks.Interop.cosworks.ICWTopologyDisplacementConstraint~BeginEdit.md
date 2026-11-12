@@ -41,32 +41,19 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDisplacementConstraint::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDisplacementConstraint~BeginEdit.html)
-
-.
+See [CWTopologyDisplacementConstraint::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDisplacementConstraint~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyDisplacementConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint.html)
-
-example.
+See the [ICWTopologyDisplacementConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint.html) example.
 
 ## Remarks
 
-To finish editing this displacement constraint, call
-
-[ICWTopologyDisplacementConstraint::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint~EndEdit.html)
-
-.
+To finish editing this displacement constraint, call [ICWTopologyDisplacementConstraint::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint~EndEdit.html).
 
 ## See Also
 
 [ICWTopologyDisplacementConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint.html)
-
 [ICWTopologyDisplacementConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint_members.html)
 
 ## Availability

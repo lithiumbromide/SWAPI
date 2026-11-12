@@ -45,55 +45,32 @@ property System.bool KnitResult {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to knit the bodies created by deleting original faces, false to not (see
-
-Remarks
-
-)
+True to knit the bodies created by deleting original faces, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SurfExtrudeFeatureData::KnitResult](ms-its:sldworksapivb6.chm::/sldworks~SurfExtrudeFeatureData~KnitResult.html)
-
-.
+See [SurfExtrudeFeatureData::KnitResult](ms-its:sldworksapivb6.chm::/sldworks~SurfExtrudeFeatureData~KnitResult.html).
 
 ## Examples
 
-See the
-
-[ISurfExtrudeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData.html)
-
-examples.
+See the [ISurfExtrudeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData.html) examples.
 
 ## Remarks
 
 This property is only available if:
 
-- [ISurfExtrudeFeatureData::BothDirections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData~BothDirections.html)
+- [ISurfExtrudeFeatureData::BothDirections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData~BothDirections.html) = false.
+- [ISurfExtrudeFeatureData::DeleteOriginalFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData~DeleteOriginalFace.html) = true.
 
-  = false.
-- [ISurfExtrudeFeatureData::DeleteOriginalFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData~DeleteOriginalFace.html)
-
-  = true.
-
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISurfExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData.html)
-
 [ISurfExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData_members.html)
 
 ## Availability

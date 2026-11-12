@@ -41,24 +41,15 @@ void OnUserClose();
 
 ## VBA Syntax
 
-See
-
-[MessageBarHandler::OnUserClose](ms-its:swpublishedapivb6.chm::/swpublished~MessageBarHandler~OnUserClose.html)
-
-.
+See [MessageBarHandler::OnUserClose](ms-its:swpublishedapivb6.chm::/swpublished~MessageBarHandler~OnUserClose.html).
 
 ## Examples
 
-See the
-
-[IMessageBarHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html)
-
-examples.
+See the [IMessageBarHandler](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html) examples.
 
 ## See Also
 
 [IMessageBarHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html)
-
 [IMessageBarHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler_members.html)
 
 ## Availability

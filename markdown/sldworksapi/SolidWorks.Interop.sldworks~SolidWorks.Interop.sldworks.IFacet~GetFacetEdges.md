@@ -40,42 +40,23 @@ System.object GetFacetEdges()
 System.Object^ GetFacetEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of three
-
-[IEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-s
+Array of three [IEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)s
 
 ## VBA Syntax
 
-See
-
-[Facet::GetFacetEdges](ms-its:sldworksapivb6.chm::/sldworks~Facet~GetFacetEdges.html)
-
-.
+See [Facet::GetFacetEdges](ms-its:sldworksapivb6.chm::/sldworks~Facet~GetFacetEdges.html).
 
 ## Examples
 
-See the
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-examples.
+See the [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html) examples.
 
 ## See Also
 
 [IFacet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
 [IFacet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet_members.html)
 
 ## Availability

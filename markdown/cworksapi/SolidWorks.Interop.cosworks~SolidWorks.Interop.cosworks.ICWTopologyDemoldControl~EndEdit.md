@@ -42,38 +42,23 @@ System.int EndEdit();
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_DemoldControlErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_DemoldControlErrors_e.html)
+Result code as defined in [swsTopologyStudy_DemoldControlErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_DemoldControlErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl::EndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~EndEdit.html)
-
-.
+See [CWTopologyDemoldControl::EndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~EndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
-example.
+See the [ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html) example.
 
 ## Remarks
 
-To begin editing this de-mold control, call
-
-[ICWTopologyDemoldControl::BeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~BeginEdit.html)
-
-.
+To begin editing this de-mold control, call [ICWTopologyDemoldControl::BeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~BeginEdit.html).
 
 ## See Also
 
 [ICWTopologyDemoldControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
 
 ## Availability

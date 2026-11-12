@@ -51,13 +51,7 @@ System.bool InsertJoin2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,12 @@ True if feature creation was successful, false if it was not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::InsertJoin2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertJoin2.html)
-
-.
+See [AssemblyDoc::InsertJoin2](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertJoin2.html).
 
 ## Examples
 
 [Insert Join Feature (C#)](Insert_Join_Feature_Example_CSharp.htm)
-
 [Insert Join Feature (VB.NET)](Insert_Join_Feature_Example_VBNET.htm)
-
 [Insert Join Feature (VBA)](Insert_Join_Feature_Example_VB.htm)
 
 ## Remarks
@@ -91,9 +79,7 @@ When you use this method, SOLIDWORKS must be in Edit Part mode for the target pa
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IJoinFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJoinFeatureData.html)
 
 ## Availability

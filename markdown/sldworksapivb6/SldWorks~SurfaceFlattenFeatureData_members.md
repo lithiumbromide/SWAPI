@@ -1,6 +1,5 @@
 ---
-title: "SurfaceFlattenFeatureData Object
-Members"
+title: "SurfaceFlattenFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfaceFlattenFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfaceFlattenFeatureData_members.html"
 ---
 
-# SurfaceFlattenFeatureData Object
-Members
+# SurfaceFlattenFeatureData Object Members
 
 ## Public Methods
 

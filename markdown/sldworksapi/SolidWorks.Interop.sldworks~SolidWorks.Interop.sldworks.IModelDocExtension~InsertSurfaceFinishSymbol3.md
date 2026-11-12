@@ -99,65 +99,46 @@ SFSymbol^ InsertSurfaceFinishSymbol3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SymType`: Type of symbol as defined in
-
-[swSFSymType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFSymType_e.html)
-- `LeaderType`: Type of leader as defined in[swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
-- `LocX`: x location for symbolParamDesc
-- `LocY`: y location for symbolParamDesc
-- `LocZ`: z location for symbolParamDesc
-- `LaySymbol`: Type of lay direction as defined in[swSFLaySym_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFLaySym_e.html)
-- `ArrowType`: Type of arrow head as defined in
-
-[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
-- `MachAllowance`: Material removal allowanceParamDesc
-- `OtherVals`: Other roughness valuesParamDesc
-- `ProdMethod`: Production method and treatmentParamDesc
-- `SampleLen`: Sampling lengthParamDesc
-- `MaxRoughness`: Maximum roughnessParamDesc
-- `MinRoughness`: Minimum roughnessParamDesc
-- `RoughnessSpacing`: Roughness spacingParamDesc
+- `SymType`: Type of symbol as defined in [swSFSymType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFSymType_e.html)
+- `LeaderType`: Type of leader as defined in [swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
+- `LocX`: x location for symbol
+- `LocY`: y location for symbol
+- `LocZ`: z location for symbol
+- `LaySymbol`: Type of lay direction as defined in [swSFLaySym_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSFLaySym_e.html)
+- `ArrowType`: Type of arrow head as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+- `MachAllowance`: Material removal allowance
+- `OtherVals`: Other roughness values
+- `ProdMethod`: Production method and treatment
+- `SampleLen`: Sampling length
+- `MaxRoughness`: Maximum roughness
+- `MinRoughness`: Minimum roughness
+- `RoughnessSpacing`: Roughness spacing
 
 ### Return Value
 
-Newly inserted
-
-[surface finish symbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol.html)
+Newly inserted [surface finish symbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertSurfaceFinishSymbol3](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertSurfaceFinishSymbol3.html)
-
-.
+See [ModelDocExtension::InsertSurfaceFinishSymbol3](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertSurfaceFinishSymbol3.html).
 
 ## Examples
 
 [Get Annotations Arrays (VBA)](Get_Annotations_Array_Example_VB.htm)
-
 [Get Annotations Arrays (VB.NET)](Get_Annotations_Arrays_Example_VBNET.htm)
-
 [Get Annotations Arrays (C#)](Get_Annotations_Arrays_Example_CSharp.htm)
 
 ## Remarks
 
-The SOLIDWORKS software uses the location parameters for this method only if the surface finish symbol has a leaderleaderType != swNO_LEADER.
+The SOLIDWORKS Design software uses the location parameters for this method only if the surface finish symbol has a leader leaderType != swNO_LEADER.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

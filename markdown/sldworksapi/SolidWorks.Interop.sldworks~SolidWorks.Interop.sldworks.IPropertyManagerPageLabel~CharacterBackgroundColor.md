@@ -53,13 +53,7 @@ property System.int CharacterBackgroundColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -72,22 +66,17 @@ RGB value for the text background color for the specified characters; if not spe
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageLabel::CharacterBackgroundColor](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~CharacterBackgroundColor.html)
-
-.
+See [PropertyManagerPageLabel::CharacterBackgroundColor](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~CharacterBackgroundColor.html).
 
 ## Remarks
 
-You can use a[group box](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageGroup.html)with just a[label](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageLabel.html)to look like a[message box](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~SetMessage3.html)on a PropertyManager page. Set the[background of the group box](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageGroup~BackgroundColor.html)and the background of the label to the same color and the[label text](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageLabel~CharacterColor.html)to a different color. You can also position the group box anywhere on the PropertyManager page.
+You can use a [group box](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageGroup.html) with just a [label](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageLabel.html) to look like a [message box](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~SetMessage3.html) on a PropertyManager page. Set the [background of the group box](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageGroup~BackgroundColor.html) and the background of the label to the same color and the [label text](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageLabel~CharacterColor.html) to a different color. You can also position the group box anywhere on the PropertyManager page.
 
-NOTE:If you want to set the background color of the message box to be the same as the color typically used by SOLIDWORKS for a message box, use[ISldWorks::GetUserPreferenceIntegerValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceIntegerValue.html)swPropertyManagerColorImportantMessage to get the COLORREF value.
+NOTE: If you want to set the background color of the message box to be the same as the color typically used by SOLIDWORKS for a message box, use [ISldWorks::GetUserPreferenceIntegerValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceIntegerValue.html) swPropertyManagerColorImportantMessage to get the COLORREF value.
 
 ## See Also
 
 [IPropertyManagerPageLabel Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel.html)
-
 [IPropertyManagerPageLabel Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel_members.html)
 
 ## Availability

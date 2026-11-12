@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to reverse the direction of the bend angle, false to not
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~ReverseDirection.html)
-
-.
+See [SketchedBendFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~ReverseDirection.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
 
 ## Availability

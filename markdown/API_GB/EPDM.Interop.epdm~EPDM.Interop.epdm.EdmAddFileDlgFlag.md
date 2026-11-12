@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileDlgFlag.html"
 
 # EdmAddFileDlgFlag Enumeration
 
-Flags used in
-
-[IEdmBatchAdd2::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd2~ShowDlg.html)
-
-to control the appearance of the dialog box.
+Flags used in [IEdmBatchAdd2::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd2~ShowDlg.html) to control the appearance of the dialog box.
 
 ## Syntax
 

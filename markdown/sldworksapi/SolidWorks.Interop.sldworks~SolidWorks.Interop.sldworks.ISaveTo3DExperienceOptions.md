@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISa
 
 # ISaveTo3DExperienceOptions Interface
 
-Allows access to options for saving a document in
+Allows access to options for saving a document in [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
-[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,19 +41,11 @@ public interface class ISaveTo3DExperienceOptions
 
 ## VBA Syntax
 
-See
-
-[SaveTo3DExperienceOptions](ms-its:sldworksapivb6.chm::/sldworks~SaveTo3DExperienceOptions.html)
-
-.
+See [SaveTo3DExperienceOptions](ms-its:sldworksapivb6.chm::/sldworks~SaveTo3DExperienceOptions.html).
 
 ## Examples
 
-See the
-
-[IPLMObjectSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPLMObjectSpecification.html)
-
-examples.
+See the [IPLMObjectSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPLMObjectSpecification.html) examples.
 
 ## Accessors
 
@@ -70,5 +58,4 @@ examples.
 ## See Also
 
 [ISaveTo3DExperienceOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveTo3DExperienceOptions_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

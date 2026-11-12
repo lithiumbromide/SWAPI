@@ -51,22 +51,17 @@ IEdmSearchResult5^ GetFirstFavoriteResult(
 
 ## Examples
 
-See the
-
-[IEdmSearch10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch10.html)
-
-examples.
+See the [IEdmSearch10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch10.html) examples.
 
 ## Remarks
 
-If bGetCustomColumns is set to true and custom columns exist in the search results of bsFavName, then use[IEdmSearchResult6::GetCustomColumnsInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6~GetCustomColumnsInfo.html)and[IEdmSearchResult6::GetCustomColumnValues](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6~GetCustomColumnValues.html)to see the custom column information.
+If bGetCustomColumns is set to true and custom columns exist in the search results of bsFavName, then use [IEdmSearchResult6::GetCustomColumnsInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6~GetCustomColumnsInfo.html) and [IEdmSearchResult6::GetCustomColumnValues](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6~GetCustomColumnValues.html) to see the custom column information.
 
-After calling this method, call[IEdmSearch5::GetNextResult](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~GetNextResult.html)repeatedly to retrieve the rest of the search results.
+After calling this method, call [IEdmSearch5::GetNextResult](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~GetNextResult.html) repeatedly to retrieve the rest of the search results.
 
 ## See Also
 
 [IEdmSearch10 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch10.html)
-
 [IEdmSearch10 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch10_members.html)
 
 ## Availability

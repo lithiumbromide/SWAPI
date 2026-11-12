@@ -107,25 +107,13 @@ System.bool NewSheet4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Name`: Name to be given to the new drawing sheet
-- `PaperSize`: Size of paper as defined in
-
-[swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
-
-; valid only if TemplateIn is swDwgTemplates_e.swDwgTemplateNone
-- `TemplateIn`: Template as defined in
-
-[swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)
+- `PaperSize`: Size of paper as defined in [swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html); valid only if TemplateIn is swDwgTemplates_e.swDwgTemplateNone
+- `TemplateIn`: Template as defined in [swDwgTemplates_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgTemplates_e.html)
 - `Scale1`: Scale numerator
 - `Scale2`: Scale denominator
 - `FirstAngle`: True for first angle projection, false for third angle projection
@@ -137,16 +125,8 @@ See
 - `ZoneRightMargin`: Zone area right margin; distance from drawing sheet's right edge
 - `ZoneTopMargin`: Zone area top margin; distance from drawing sheet's top edge
 - `ZoneBottomMargin`: Zone area bottom margin; distance from drawing sheet's bottom edge
-- `ZoneRow`: Number of zone rows in the zone area of this sheet (see
-
-Remarks
-
-)
-- `ZoneCol`: Number of zone columns in the zone area of this sheet (see
-
-Remarks
-
-)
+- `ZoneRow`: Number of zone rows in the zone area of this sheet (see **Remarks**)
+- `ZoneCol`: Number of zone columns in the zone area of this sheet (see **Remarks**)
 
 ### Return Value
 
@@ -154,18 +134,12 @@ True if drawing sheet creation was successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::NewSheet4](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~NewSheet4.html)
-
-.
+See [DrawingDoc::NewSheet4](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~NewSheet4.html).
 
 ## Examples
 
 [Create Drawing Sheet Zones (VBA)](Create_Drawing_Sheet_Zones_Example_VB.htm)
-
 [Create Drawing Sheet Zones (VB.NET)](Create_Drawing_Sheet_Zones_Example_VBNET.htm)
-
 [Create Drawing Sheet Zones (C#)](Create_Drawing_Sheet_Zones_Example_CSharp.htm)
 
 ## Remarks
@@ -177,31 +151,18 @@ The drawing sheet can be created with zones that annotations in other views can 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::ActivateSheet Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ActivateSheet.html)
-
 [IDrawingDoc::EditSheet Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~EditSheet.html)
-
 [IDrawingDoc::GetCurrentSheet Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~GetCurrentSheet.html)
-
 [IDrawingDoc::GetSheetCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~GetSheetCount.html)
-
 [IDrawingDoc::GetSheetNames Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~GetSheetNames.html)
-
 [IDrawingDoc::ReorderSheets Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ReorderSheets.html)
-
 [IDrawingDoc::SetupSheet6 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~SetupSheet6.html)
-
 [IDrawingDoc::SheetNext Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~SheetNext.html)
-
 [IDrawingDoc::SheetPrevious Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~SheetPrevious.html)
-
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [IDrawingDoc::PasteSheet Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~PasteSheet.html)
-
 [ISheet::GetDrawingZone Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetDrawingZone.html)
 
 ## Availability

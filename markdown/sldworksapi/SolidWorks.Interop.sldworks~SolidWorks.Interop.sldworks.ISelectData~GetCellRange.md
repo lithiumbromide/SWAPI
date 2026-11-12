@@ -58,30 +58,20 @@ void GetCellRange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FirstRow`: 0-based row number at the beginning of the selection range
-- `LastRow`: 0-based row number at the end of the selectionParamDescrange
-- `FirstColumn`: 0-based column number at the beginning of the selectionParamDescrange
-- `LastColumn`: 0-based column number at the end of the selectionParamDescrange
+- `LastRow`: 0-based row number at the end of the selection range
+- `FirstColumn`: 0-based column number at the beginning of the selection range
+- `LastColumn`: 0-based column number at the end of the selection range
 
 ### Return Value
 
 ## VBA Syntax
 
-See
-
-[SelectData::GetCellRange](ms-its:sldworksapivb6.chm::/Sldworks~SelectData~GetCellRange.html)
-
-.
+See [SelectData::GetCellRange](ms-its:sldworksapivb6.chm::/Sldworks~SelectData~GetCellRange.html).
 
 ## Remarks
 
@@ -92,9 +82,7 @@ By default, the value for FirstRow, LastRow, FirstColumn, and LastColumn is -1, 
 ## See Also
 
 [ISelectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html)
-
 [ISelectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData_members.html)
-
 [ISelectData::SetCellRange Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData~SetCellRange.html)
 
 ## Availability

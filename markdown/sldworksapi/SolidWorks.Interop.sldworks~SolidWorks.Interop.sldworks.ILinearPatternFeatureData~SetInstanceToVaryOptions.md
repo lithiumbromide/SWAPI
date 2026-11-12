@@ -47,13 +47,7 @@ System.bool SetInstanceToVaryOptions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,30 +59,20 @@ True if options successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[LinearPatternFeatureData::SetInstanceToVaryOptions](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~SetInstanceToVaryOptions.html)
-
-.
+See [LinearPatternFeatureData::SetInstanceToVaryOptions](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~SetInstanceToVaryOptions.html).
 
 ## Examples
 
-See the
-
-[IInstanceToVaryOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
-examples.
+See the [IInstanceToVaryOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html) examples.
 
 ## Remarks
 
-This method is valid only if[ILinearPatternFeatureData::InstancesToVary](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~InstancesToVary.html)is true.
+This method is valid only if [ILinearPatternFeatureData::InstancesToVary](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~InstancesToVary.html) is true.
 
 ## See Also
 
 [ILinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
 [ILinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData_members.html)
-
 [ILinearPatternFeatureData::GetInstanceToVaryOptions Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~GetInstanceToVaryOptions.html)
 
 ## Availability

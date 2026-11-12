@@ -1,6 +1,5 @@
 ---
-title: "ReferenceCurve Object
-Members"
+title: "ReferenceCurve Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ReferenceCurve_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ReferenceCurve_members.html"
 ---
 
-# ReferenceCurve Object
-Members
+# ReferenceCurve Object Members
 
 ## Public Methods
 

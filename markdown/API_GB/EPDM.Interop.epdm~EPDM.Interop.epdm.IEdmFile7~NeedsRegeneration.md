@@ -63,7 +63,6 @@ Support for rebuild checks is only available for files saved with SOLIDWORKS 200
 ## See Also
 
 [IEdmFile7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7.html)
-
 [IEdmFile7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7_members.html)
 
 ## Availability

@@ -52,18 +52,12 @@ void AssignCustomCost(
 
 ## VBA Syntax
 
-See
-
-[CostBody::AssignCustomCost](swcostingapivb6.chm::/SldCostingAPI~CostBody~AssignCustomCost.html)
-
-.
+See [CostBody::AssignCustomCost](swcostingapivb6.chm::/SldCostingAPI~CostBody~AssignCustomCost.html).
 
 ## See Also
 
 [ICostBody Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody.html)
-
 [ICostBody Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBody_members.html)
-
 [ICostAnalysis::GetSetupCost Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~GetSetupCost.html)
 
 ## Availability

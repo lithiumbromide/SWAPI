@@ -1,6 +1,5 @@
 ---
-title: "SMNormalCutGroupData Object
-Members"
+title: "SMNormalCutGroupData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SMNormalCutGroupData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SMNormalCutGroupData_members.html"
 ---
 
-# SMNormalCutGroupData Object
-Members
+# SMNormalCutGroupData Object Members
 
 ## Public Methods
 

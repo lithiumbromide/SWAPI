@@ -1,6 +1,5 @@
 ---
-title: "ITabAndSlotGroupData Object
-Members"
+title: "ITabAndSlotGroupData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ITabAndSlotGroupData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ITabAndSlotGroupData_members.html"
 ---
 
-# ITabAndSlotGroupData Object
-Members
+# ITabAndSlotGroupData Object Members
 
 ## Public Properties
 

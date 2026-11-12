@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AddRenderMaterial Method (IModelDocExtension)
 
-Not supported in SOLIDWORKS 2011 and later. Superseded by
-
-[IModelDocExtension::AddDisplayStateSpecificRenderMaterial](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~AddDisplayStateSpecificRenderMaterial.html)
-
-and
-
-[IModelDocExtension::IAddDisplayStateSpecificRenderMaterial](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IDeleteDisplayStateSpecificRenderMaterial.html)
-
-.
+Not supported in SOLIDWORKS 2011 and later. Superseded by [IModelDocExtension::AddDisplayStateSpecificRenderMaterial](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~AddDisplayStateSpecificRenderMaterial.html) and [IModelDocExtension::IAddDisplayStateSpecificRenderMaterial](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~IDeleteDisplayStateSpecificRenderMaterial.html).
 
 ## Syntax
 
@@ -59,37 +51,24 @@ System.bool AddRenderMaterial(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PRenderMaterial`: [Appearance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial.html)
-
-to add to the model
-- `PwMaterialId`: Appearance IDParamDesc
+- `PRenderMaterial`: [Appearance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial.html) to add to the model
+- `PwMaterialId`: Appearance ID
 
 ### Return Value
 
-True if the appearance is added to the model, false if notParamDesc
+True if the appearance is added to the model, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::AddRenderMaterial](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~AddRenderMaterial.html)
-
-.
+See [ModelDocExtension::AddRenderMaterial](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~AddRenderMaterial.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

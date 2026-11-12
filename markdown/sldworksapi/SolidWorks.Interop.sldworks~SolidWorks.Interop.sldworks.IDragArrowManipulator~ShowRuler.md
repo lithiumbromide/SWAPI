@@ -45,13 +45,7 @@ property System.bool ShowRuler {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to display a ruler when the handle moves, false to not
 
 ## VBA Syntax
 
-See
-
-[DragArrowManipulator::ShowRuler](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~ShowRuler.html)
-
-.
+See [DragArrowManipulator::ShowRuler](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~ShowRuler.html).
 
 ## Examples
 
-See
-
-[IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html)
-
-examples.
+See [IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html) examples.
 
 ## See Also
 
 [IDragArrowManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator.html)
-
 [IDragArrowManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator_members.html)
 
 ## Availability

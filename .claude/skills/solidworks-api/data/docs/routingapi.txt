@@ -1,0 +1,484 @@
+<<< IAdvancedRouteSelector | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector.md
+X: See the SOLIDWORKS Routing Help for details about the Highlight Search tool.
+<<< IAdvancedRouteSelector.Find | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector~Find.md
+P: connectorName: Component name; can be the name of a fitting, cable, or wire; can include wild-card character (*)
+P: searchType: Search type as defined by swRoutingSearchType_e
+P: singleInstanceOnly: True to find a single instance of connectorName, false to find all instances of connectorName
+P: append: True appends the selection to the selection list, false replaces the selection list with this selection
+R: Number of components found for connectorName
+<<< IAdvancedRouteSelector.getAttachedComponentsCount | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector~getAttachedComponentsCount.md
+P: selIndex: Index of the component whose number of attached components you want
+R: Number of attached components for the component corresponding to selIndex
+<<< IAdvancedRouteSelector.Select | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector~Select.md
+P: selIndex: Index of the component (fitting, cable, or wire) to select
+P: append: True appends the selection to the selection list, false replaces the selection list with this selection
+P: callbackIn: SOLIDWORKS SelectData or NULL
+P: outputType: Output type as defined by swAdvancedRouteSelectionOutput_e
+P: selObjName: Array of length 1; contains either the name of the selected component or an empty string (see Remarks)
+R: Array of names of the attached components for the selected component (see Remarks)
+X: Both selObjName and the return value of this method are Variant SafeArrays of BSTRs. See Passing SafeArrays in Visual Basic and Passing SafeArrays in C++ for more information.
+<<< IAdvancedRouteSelector.SetSelectionColor | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector~SetSelectionColor.md
+P: special: True uses a specific color for selections, false does not
+P: colorIndex: Integer value for RGB value
+<<< IAutoRoute.ConvertGuidelinesToRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~ConvertGuidelinesToRoute.md
+R: True if successful, false if not
+X: Before calling this method:
+1. Call IRouteManager::ImportFromToList.
+2. In the FeatureManager design tree, select the assembly that contains the route whose guidelines you want to select.
+3. Call IRouteManager::EditRoute.
+4. Call IModelDocExtension::SelectByID2 multiple times specifying type SKETCHSEGMENT to mark the guidelines you want to convert or call IAutoRoute::SelectGuidelines to select all guidelines.
+<<< IAutoRoute.CreatePointToPointAutoRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~CreatePointToPointAutoRoute.md
+P: conversionMode: Route style as defined in swPointToPointAutoRouteConversionMode_e
+R: Error code as defined in swPointToPointAutoRouteErrorType_e
+X: Call this method to automatically connect one of the following in a route:
+- two points
+- a point and a clip axis
+- a point and a line
+Before calling this method:
+1. In the FeatureManager design tree, select the assembly that contains the route to which to add connections.
+2. Call IRouteManager::EditRoute.
+3. Call IModelDocExtension::SelectByID2 twice, specifying type SKETCHPOINT to select two points on the route.
+After calling this method:
+1. Call IRouteManager::ExitRoute.
+2. Call IAssemblyDoc::EditAssembly.
+<<< IAutoRoute.CreateRouteThroughSketchEntities | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~CreateRouteThroughSketchEntities.md
+P: conversionMode: Type of route as defined in swAutoRouteConversionMode_e
+P: autoTangencyMode: Tangency mode as defined in swAutoRouteAutoTangencyMode_e
+P: EntityTypes: Array of the types of sketch entities to use for the route as defined in swAutoRouteSketchEntitiesTypes_e (see Remarks)
+P: EntityIDs: Array of IDs of the sketch entities in EntityTypes (see Remarks)
+R: Error code as defined in swAutoRouteErrorType_e
+X: The EntityTypes and EntityIDs arrays must be the same size.
+The EntityIDs determine the path of the route. To get EntityIDs values, use ISketchPoint::GetID for sketch points and ISketchSegment::GetID for sketch lines, sketch arcs, and sketch spline.
+If a segment already exists between two sketch entities, then that segment is used as part of the newly created route path.
+Before calling this method:
+1. Select a route feature in an assembly.
+2. Call IRouteManager::EditRoute.
+3. Populate the EntityTypes and EntityIDs arrays with the types and IDs of the sketch entities.
+<<< IAutoRoute.DeleteAllGuidelines | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~DeleteAllGuidelines.md
+X: Before calling this method:
+1. In the FeatureManager design tree, select the assembly that contains the route whose guidelines to delete.
+2. Call IRouteManager::EditRoute.
+<<< IAutoRoute.ICreateRouteThroughSketchEntities | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~ICreateRouteThroughSketchEntities.md
+P: conversionMode: Type of route as defined in swAutoRouteConversionMode_e
+P: autoTangencyMode: Tangency mode as defined in swAutoRouteAutoTangencyMode_e
+P: Count: Number of sketch entities
+P: EntityTypes: - in-process, unmanaged C++: Pointer to an array of integers representing the types of sketch entities to use for the route as defined in swAutoRouteSketchEntitiesTypes_e (see Remarks) - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+P: EntityIDs: - in-process, unmanaged C++: Pointer to an array of integers representing the IDs of the sketch entities in EntityTypes (see Remarks) - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+R: Error code as defined in swAutoRouteErrorType_e
+X: The EntityTypes and EntityIDs arrays must be the same size. Specify the size of the arrays for Count.
+The EntityIDs determine the path of the route. To get EntityIDs values, use ISketchPoint::IGetID for sketch points and ISketchSegment::IGetID for sketch lines, sketch arcs, and sketch spline.
+If a segment already exists between two sketch entities, then that segment is used as part of the newly created route path.
+Before calling this method:
+1. Select a route feature in an assembly.
+2. Call IRouteManager::EditRoute.
+3. Populate the EntityTypes and EntityIDs arrays with the types and IDs of the sketch entities.
+<<< IAutoRoute.MergeGuidelines | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~MergeGuidelines.md
+R: True if successful, false if not
+X: Before calling this method:
+1. Call IRouteManager::ImportFromToList.
+2. In the FeatureManager design tree, select the assembly that contains the route whose guidelines to select.
+3. Call IRouteManager::EditRoute.
+4. Call IModelDocExtension::SelectByID2 multiple times, specifying type SKETCHSEGMENT to mark the guidelines you want to merge.
+- or - Call IAutoRoute::SelectGuidelines to select all the guidelines.
+<<< IAutoRoute.SelectGuidelines | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~SelectGuidelines.md
+R: Number of selected guidelines
+X: Before calling this method:
+1. Call IRouteManager::ImportFromToList.
+2. In the FeatureManager design tree, select the assembly that contains the route whose guidelines to select.
+3. Call IRouteManager::EditRoute.
+After calling this method, you can call:
+- IAutoRoute::MergeGuidelines
+- or -
+- IAutoRoute::ConvertGuidelinesToRoute
+<<< IAutoRoute.ShowGuidelines | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAutoRoute~ShowGuidelines.md
+R: Number of displayed guidelines.
+X: Before calling this method:
+1. Call IRouteManager::ImportFromToList.
+2. In the FeatureManager design tree, select the assembly that contains the route for which to show guidelines.
+3. Call IRouteManager::EditRoute.
+<<< ICable.GetCableProperty | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable~GetCableProperty.md
+R: Pointer to ICableProperty object
+<<< ICable.GetCores | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable~GetCores.md
+R: Array of the cores in this cable
+<<< ICable.GetCoresCount | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable~GetCoresCount.md
+R: Number of cores in this cable
+X: Call this method before calling ICable::IGetCores to determine the size of the array for the cores for that method.
+<<< ICable.GetCuttingLength | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable~GetCuttingLength.md
+R: Cut length of the cable
+<<< ICable.IGetCores | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable~IGetCores.md
+P: Count: Number of cores in this cable
+R: - in-process, unmanaged C++: Pointer to an array of cores in this cable - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+<<< ICable.UserName | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable~UserName.md
+R: Name of the cable
+X: The cable name is a unique value for each cable, and the same value for each core of the cable.
+<<< ICableProperty.Diameter | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty~Diameter.md
+R: Diameter
+<<< ICableProperty.GetCoreProperties | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty~GetCoreProperties.md
+R: Array of the core properties
+<<< ICableProperty.GetCorePropertyCount | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty~GetCorePropertyCount.md
+R: Number of core properties
+X: Call this method before calling ICableProperty::IGetCoreProperties to determine the size of the array for the cores for that method.
+<<< ICableProperty.IGetCoreProperties | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty~IGetCoreProperties.md
+P: Count: Number of core properties
+R: - in-process, unmanaged C++: Pointer to an array of core properties - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method. SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWireProperty.html
+<<< ICableProperty.Name | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICableProperty~Name.md
+R: Library name of the cable
+<<< ICovering.Color | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering~Color.md
+R: COLORREF value
+<<< ICovering.Name | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering~Name.md
+R: Name of the covering
+<<< ICovering.OuterDiameter | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering~OuterDiameter.md
+R: Outer diameter
+<<< ICovering.PartNumber | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering~PartNumber.md
+R: Part number of the covering
+<<< IElectricalFlatRoute.GetConnectorData | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~GetConnectorData.md
+P: connectorName: Name of the connector
+P: fittingPoint: Location of the fitting's connection point in the flattened configuration
+P: fittingDirection: Array of doubles for the direction in which the route exits the fitting at the connection point in the flattened configuration
+P: isVisible: TRUE if the connector is visible, FALSE if not
+R: True if successful, false if not
+<<< IElectricalFlatRoute.GetElectricalDrawingSettings | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~GetElectricalDrawingSettings.md
+P: elecBomTblTmplt: Path and filename of the electrical (ECAD) BOM table template
+P: cutListTmplt: Path and filename of the cut list table template
+P: ConnectorTblTmplt: Path and filename of the connector table template
+R: 0 if successful, 1 if not
+<<< IElectricalFlatRoute.GetFittingFilePath | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~GetFittingFilePath.md
+P: connectorName: Name of the connector
+R: Path and filename of the fitting
+<<< IElectricalFlatRoute.GetSketchSegments | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~GetSketchSegments.md
+P: RouteSegmentID: Route segment ID (see Remarks)
+R: Array of SOLIDWORKS ISketchSegment
+X: Use IWire::GetRouteSegmentIDs to get the value for RouteSegmentID.
+<<< IElectricalFlatRoute.GetSketchSegmentsCount | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~GetSketchSegmentsCount.md
+P: RouteSegmentID: Route segment ID (see Remarks)
+R: Number of segment segments
+X: Use IWire::GetRouteSegmentIDs to get the value for RouteSegmentID.
+Call this method before calling IElectricalFlatRoute::IGetSketchSegments to determine the size of the array for the sketch segments.
+<<< IElectricalFlatRoute.IGetConnectorData | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~IGetConnectorData.md
+P: connectorName: Name of the connector
+P: fittingPoint: Location of the fitting's connection point in the flattened configuration
+P: fittingDirection: - in-process, unmanaged C++: Pointer to an array of doubles for the direction in which the route exits the fitting at the connection point in the flattened configuration - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+P: isVisible: True if the connector is visible, false if not
+R: True if successful, false if not
+<<< IElectricalFlatRoute.IGetSketchSegments | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~IGetSketchSegments.md
+P: RouteSegmentID: Route segment ID (see Remarks)
+P: Count: Number of SOLIDWORKS sketch segments
+R: - in-process, unmanaged C++: Pointer to an array of SOLIDWORKS sketch segments - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method. ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html
+X: Call IWire::GetRouteSegmentIDs to get the value for RouteSegmentID.
+<<< IElectricalRoute.GetActiveRouteSketch | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~GetActiveRouteSketch.md
+R: ISketch
+<<< IElectricalRoute.GetCables | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~GetCables.md
+R: Array of the cables
+<<< IElectricalRoute.GetCablesCount | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~GetCablesCount.md
+R: Number of cables
+X: Call this method before calling IElectricalRoute::IGetCables to determine the size of the array for the cables for that method.
+<<< IElectricalRoute.GetRibbonCableDispatch | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~GetRibbonCableDispatch.md
+R: Ribbon cable
+<<< IElectricalRoute.GetRouteProperty | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~GetRouteProperty.md
+P: RouteSegmentID: Route segment ID (see Remarks)
+R: Pointer to IRouteProperty object
+X: To get the value for RouteSegmentID, call IWire::GetRouteSegmentIDs or IWire::IGetRouteSegmentIDs before calling this method.
+<<< IElectricalRoute.GetRouteSegmentID | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~GetRouteSegmentID.md
+P: SketchSegment: SOLIDWORKS sketch segment
+R: Route segment ID
+X: If the sketch segment is not a route, then RouteSegmentID is set to -1.
+Use IElectricalRoute::GetSketchSegments or IElectricalRoute::IGetSketchSegments to get the SOLIDWORKS sketch segments.
+<<< IElectricalRoute.GetSketchSegments | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~GetSketchSegments.md
+P: RouteSegmentID: Route segment ID (see Remarks)
+R: Array of SOLIDWORKS sketch segments
+X: Use IWire::GetRouteSegmentIDs to get the value for RouteSegmentID.
+<<< IElectricalRoute.GetSketchSegmentsCount | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~GetSketchSegmentsCount.md
+P: RouteSegmentID: Route segment ID (see Remarks)
+R: Number of sketch segments
+X: Use IWire::GetRouteSegmentIDs to get the value for RouteSegmentID.
+Call this method before calling IElectricalRoute::IGetSketchSegments to determine the size of the array for the sketch segments.
+<<< IElectricalRoute.GetWires | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~GetWires.md
+R: Array of wires
+<<< IElectricalRoute.GetWiresCount | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~GetWiresCount.md
+R: Number of wires in the route
+X: Call this method before calling IElectricalRoute::IGetWires to determine the size of the array for the wires for that method.
+<<< IElectricalRoute.IGetCables | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~IGetCables.md
+P: Count: Number of cables in this electrical route
+R: - in-process, unmanaged C++: Pointer to an array of cables - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+<<< IElectricalRoute.IGetSketchSegments | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~IGetSketchSegments.md
+P: RouteSegmentID: Route segment ID (see Remarks)
+P: Count: Number of SOLIDWORKS sketch segments
+R: - in-process, unmanaged C++: Pointer to an array of SOLIDWORKS sketch segments - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Call IWire::GetRouteSegmentIDs to get the value for RouteSegmentID.
+<<< IElectricalRoute.IGetWires | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~IGetWires.md
+P: Count: Number of wires in the route
+R: - in-process, unmanaged C++: Pointer to an array of wires - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Call IElectricalRoute::GetWiresCount before calling this method to determine the size of the array for the wires.
+<<< IElectricalRoute.RouteWires | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute~RouteWires.md
+R: True if the some or all wires are routed, false if not (see Remarks)
+X: Wires are routed if the "from" and "to" component references are defined and if there is a valid path in the route from the "from" and "to" components.
+<<< IElectricalRouteProperty.BundleDiameter | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty~BundleDiameter.md
+R: Cumulative diameter of all wires in the route segment
+X: You can use this property to determine if the diameter is too small to contain all of the wires in the route segment.
+<<< IElectricalRouteProperty.BundleMinimumBendRadius | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty~BundleMinimumBendRadius.md
+R: Maximum bend radius of the individual wires in a bundle of wires that are routed through the same route segment
+X: The minimum bend radius for a bundle of wires routed through the same route segment is the maximum bend radius of the individual wires.
+<<< IElectricalRouteProperty.IsOuterDiameterFixed | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty~IsOuterDiameterFixed.md
+R: True to fix the value of the outer diameter of the route to that of IElectricalRouteProperty::OuterDiameter, false to enable diameter updates based on the diameters of the cables and wires that you route
+<<< IElectricalRouteProperty.OuterDiameter | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty~OuterDiameter.md
+R: Outer diameter of route
+X: You can make this value static using IElectricalRouteProperty::IsOuterDiameterFlixed.
+<<< IElectricalRouteProperty.SubType | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty~SubType.md
+R: Electrical route subtype as defined in swElectricalRouteSubType_e
+<<< IRibbonCable.GetRibbonCableThickness | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRibbonCable~GetRibbonCableThickness.md
+R: Thickness of ribbon cable
+<<< IRibbonCable.GetRibbonCableWidth | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRibbonCable~GetRibbonCableWidth.md
+R: Width of the ribbon cable
+<<< IRouteManager.AddToRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~AddToRoute.md
+R: True if a route is added, false if not
+X: Before calling this method, you must call IRouteManager::EditRoute to place the routing assembly in edit mode.
+| To exit... | Call... |
+| 1. Routing edit mode | IRouteManager::ExitRoute |
+| 2. Assembly edit mode | IAssemblyDoc::EditAssembly |
+<<< IRouteManager.ChangeRoutingLibComponentPaths | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~ChangeRoutingLibComponentPaths.md
+P: oldLibPaths: Old routing library paths
+P: newLibPaths: New routing library paths
+<<< IRouteManager.CreateFlattenRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~CreateFlattenRoute.md
+P: flattenType: Type of routing drawing as defined in swRoutingFlattenTypes_e
+P: connectorOption: Type of connector to display as defined in swRoutingFlattenConnectorOptions_e
+P: formboardWidth: Width of the formboard; only applies if flattenType = 2 (manufacture type)
+P: formboardHeight: Height of the formboard; only applies if flattenType = 2 (manufacture type)
+P: segmentOrientation: Segment orientation as defined in swRoutingFlattenSegmentOrientation_e; only applies if flattenType = 2 (manufacture type)
+P: drawingOption: True to create a drawing of the flattened route, false to not
+P: sheetFormatTemplate: Full pathname of drawing sheet template to use to create the drawing; only applies if drawingOption = true
+P: elecBOMTemplate: Full pathname of electrical BOM table template to use to create the drawing; only applies if drawingOption = true
+P: cutListTemplate: Full pathname of electrical cut list table template to use to create the drawing; only applies if drawingOption = true
+P: connectorTableTemplate: Full pathname of electrical connector table template to use to create the drawing; only applies if drawingOption = true
+P: autoBalloons: True to insert balloons, false to not; only applies if drawingOption = true
+R: Error code as defined in swFlattenRouteErrorType_e
+X: Before calling this method, select the assembly that contains the route to flatten.
+<<< IRouteManager.CreatePipeDrawingforPipeRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~CreatePipeDrawingforPipeRoute.md
+P: BOMTemplatePath: Fully specified path of the BOM template; only valid if insertBOM = true
+P: BOMTemplateName: Name of the BOM template; only valid if insertBOM = true
+P: insertBalloons: True to include auto balloons in the drawing, false to not
+P: insertBOM: True to include a BOM table, false to not
+P: showSketch: True to include the route sketch in the drawing; false to not
+P: subAssembly: True to include dimensions of sub-assemblies in the drawing, false to not
+P: userSheetWidth: Width of custom sheet; specify 0.0 if standard sheet is specified in dwgTemplates
+P: userSheetHeight: Height of custom sheet; specify 0.0 if standard sheet is specified in dwgTemplates
+P: sheetTemplatePath: Fully specified path of drawing sheet templates
+P: sheetTemplateName: Name of drawing sheet template
+P: displayFormat: True to display the sheet format in the drawing, false to not
+P: dwgTemplates: SOLIDWORKS drawing sheet template as defined in swDwgTemplates_e
+<<< IRouteManager.CreateRouteLine | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~CreateRouteLine.md
+P: P1x: x coordinate for start point of the line
+P: P1y: y coordinate for start point of the line
+P: P1z: z coordinate for start point of the line
+P: P2x: x coordinate for end point of the line
+P: P2y: y coordinate for end point of the line
+P: P2z: z coordinate for end point of the line
+R: Line
+<<< IRouteManager.EditRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~EditRoute.md
+X: Before calling this method, you must select the assembly that contains the route.
+| To exit... | Call... |
+| 1. Routing edit mode | IRouteManager::ExitRoute |
+| 2. Assembly edit mode | IAssemblyDoc::EditAssembly |
+<<< IRouteManager.ExitRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~ExitRoute.md
+X: | Call... | To... |
+| IRouteManager::EditRoute | Put the assembly in routing edit mode to start or edit a route |
+| IRouteManager::StartRoute | Put the assembly in routing edit mode to start a route |
+| IAssemblyDoc::EditAssembly | Exit editing the assembly |
+<<< IRouteManager.ExportPipeData | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~ExportPipeData.md
+P: fileName: Directory path where <piping_assembly_name>.pcf is created
+P: units: Units of exported pipe data - 0 = millimeters - 3 = inches
+P: options: Export options; not yet defined
+R: Status as defined in swRoutingExportPipeDataError_e
+X: This method is only valid for use with assemblies containing pipes.
+<<< IRouteManager.ExportTubeData | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~ExportTubeData.md
+P: fileName: Specify <path_name>.<file_extension>; for example, specify c:\temp.html to create default.html in c:\temp
+P: type: Bend data type as defined in swExportTubeDataReportType_e
+P: options: Export options; not yet defined
+R: Status as defined in swRoutingExportDataError_e
+X: This method is only valid for use with assemblies containing tubes.
+<<< IRouteManager.GetAdvancedRouteSelector | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetAdvancedRouteSelector.md
+R: SOLIDWORKS Highlight Search tool
+<<< IRouteManager.GetAllRouteSegmentCount | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetAllRouteSegmentCount.md
+R: Number of route segments for active route
+X: Call this method before calling IRouteManager::IGetAllRouteSegmentIDs to get the size of the array for that method.
+<<< IRouteManager.GetAllRouteSegmentIDs | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetAllRouteSegmentIDs.md
+R: Array of route segment IDs for the active route
+<<< IRouteManager.GetAutoRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetAutoRoute.md
+R: IAutoRoute
+X: Before calling this method:
+1. In the FeatureManager design tree, select the assembly that contains the route to which to add connections.
+2. Call IRouteManager::EditRoute.
+<<< IRouteManager.GetElectricalComponentFromSearchpath | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetElectricalComponentFromSearchpath.md
+P: __MIDL__IRouteManager0001: File name of the routing component for which to search
+R: Path and file name of the electrical component
+X: If the specified routing component is not found, then the return value is empty.
+<<< IRouteManager.GetElectricalFlatRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetElectricalFlatRoute.md
+P: FlatRouteName: Name of the electrical flattened configuration
+R: Electrical flattened route
+<<< IRouteManager.GetElectricalRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetElectricalRoute.md
+R: Pointer to IElectricalRoute object
+X: Before calling this method, you must call IRouteManager::EditRoute to place the routing assembly in edit mode.
+<<< IRouteManager.GetRouteProperty | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetRouteProperty.md
+R: Pointer to IRouteProperty object
+<<< IRouteManager.GetRoutingComponentFromSearchpath | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetRoutingComponentFromSearchpath.md
+P: __MIDL__IRouteManager0000: File name of the routing component for which to search
+R: Path and file name of the routing component
+X: If the specified routing component is not found, then the return value is empty.
+<<< IRouteManager.GetRoutingLibComponentReferences | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~GetRoutingLibComponentReferences.md
+P: bstrFolder: Routing Library folder
+R: Routing component references
+<<< IRouteManager.IGetAllRouteSegmentIDs | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~IGetAllRouteSegmentIDs.md
+P: Count: Number of route segments for the active route
+R: - in-process, unmanaged C++: Pointer to an array of route segment IDs for the active route - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+<<< IRouteManager.ImportFromToList | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~ImportFromToList.md
+P: fromtoListFileName: Pathname of the Excel file (*.xlsx) containing the from-to list
+P: componentLibraryFilename: Pathname of a SOLIDWORKS component library in XML format
+P: cableWireLibraryFileName: Pathname of a SOLIDWORKS cable/wire library in XML format
+P: useExistingAssembly: True to use an existing assembly, false to start a new assembly
+P: overwriteData: True to overwrite data, false to insert data; applies only if useExistingAssembly = true
+P: searchAllSubAssemblies: True to search all sub-assemblies for pre-placed connectors, false to not
+R: True if successful, false if not
+X: Before calling this method:
+1. In the FeatureManager design tree, select the assembly that contains the route to which to add guidelines.
+2. Call IRouteManager::EditRoute.
+<<< IRouteManager.StartRoute | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~StartRoute.md
+P: Pathname: Path and file name of the routing part from which to start a route or "" if using a selected connection point or a selected routing component
+P: ConfigName: Configuration of the specified routing part from which to start the route or "" if using a selected connection point or a selected routing component
+R: True if a route started, false if not
+X: Calling this method places the assembly in routing edit mode.
+| To exit... | Call... |
+| 1. Routing edit mode | IRouteManager::ExitRoute |
+| 2. Assembly edit mode | IAssemblyDoc::EditAssembly |
+<<< IRouteProperty.AddCovering | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~AddCovering.md
+P: Covering: Pointer to ICovering object
+R: True if covering is added, false if not
+<<< IRouteProperty.BendRadius | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~BendRadius.md
+R: Bend radius
+<<< IRouteProperty.CreateCovering | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~CreateCovering.md
+R: Pointer to ICovering object
+<<< IRouteProperty.GetCovering | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~GetCovering.md
+R: Pointer to ICovering object
+<<< IRouteProperty.GetFixedLength | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~GetFixedLength.md
+R: Fixed length
+X: This method gets lengths only for route segments that have been constrained to have a fixed length in the SOLIDWORKS user interface. To constrain a route segment to have a fixed length, right-click on the route segment and select Fixed Length. To change a fixed length, call IRouteProperty::SetFixedLength.
+<<< IRouteProperty.HasCovering | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~HasCovering.md
+R: True if a covering is present, false if not
+<<< IRouteProperty.MinimumBendRadius | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~MinimumBendRadius.md
+R: Minimum bend radius in this route segment
+<<< IRouteProperty.RouteType | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~RouteType.md
+R: Type of route as defined in swRouteType_e
+<<< IRouteProperty.SetFixedLength | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~SetFixedLength.md
+P: NewLength: Fixed length
+R: Fixed length error code as defined in swSetRouteFixedLengthError_e
+X: This method changes lengths only for route segments that have been constrained to have a fixed length in the SOLIDWORKS user interface. To constrain a route segment to a fixed length, right-click on the route segment and select Fixed Length.
+<<< IRoutingComponentManager.CreateEndConnectorIllustration | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~CreateEndConnectorIllustration.md
+X: The End View Creation PropertyManager page creates an illustration of an electrical route end connector for display in the electrical routing library.
+<<< IRoutingComponentManager.GetComponentCrossSectionType | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~GetComponentCrossSectionType.md
+R: Type of cross section for a user-defined route for the active routing component as defined in swComponentCrossSectionType_e
+<<< IRoutingComponentManager.GetComponentRouteType | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~GetComponentRouteType.md
+R: Type of route as defined in swComponentRouteType_e
+<<< IRoutingComponentManager.GetComponentRouteTypeFromCustomProperty | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~GetComponentRouteTypeFromCustomProperty.md
+R: Type of route as defined in swComponentRouteType_e
+<<< IRoutingComponentManager.GetComponentType | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~GetComponentType.md
+R: Type of component as defined in swRouteComponentTypeID_e
+X: The component type is based on the number of connection and routing points.
+<<< IRoutingComponentManager.GetComponentUserDefinedRouteTypeName | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~GetComponentUserDefinedRouteTypeName.md
+R: Name of the user-defined route for the active routing component
+X: The name of a user-defined route for the active routing component is optional and intended for:
+- air conditioning and other mechanical styles of ducting.
+- space planning.
+Examples of names of user-defined route types are HVAC, Ducting, Conveyors, Space Planning, etc.
+<<< IRoutingComponentManager.GetCPointConfiguration | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~GetCPointConfiguration.md
+R: Type of connection point configuration as defined in swCPointConfig_e
+X: The connection point configuration is specified on the Routing Functionality Points page of the Routing Component Wizard.
+<<< IRoutingComponentManager.GetRouteComponentTypeSetThrRLM | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~GetRouteComponentTypeSetThrRLM.md
+R: True if the type is set through the Routing Library Manager, false if not
+<<< IRoutingComponentManager.GetRoutingComponentDescription | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~GetRoutingComponentDescription.md
+R: Description of the routing component
+X: This method returns the information that was entered in File > Properties > Custom.
+<<< IRoutingComponentManager.GetRoutingStringValue | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~GetRoutingStringValue.md
+P: StringID: Integer representing one of the aspects of the routing component as follows: - 0 - pipe sketch - 1 - inner diameter - 2 - outer diameter - 3 - filter sketch - 4 - nominal diameter - 5 - length extrusion - 6 - specification - 7 - pipe identifier - 8 - elbow arc - 9 - bend angle - 10 - bend radius - 11 - BOM elbow angle - 12 - BOM pipe length - 13 - BOM total pipe length - 14 - vertical axis - 15 - axis of rotation - 16 - clip axis - 17 - BOM route length - 18 - ignore BOM value
+R: String value for the specified aspect
+<<< IRoutingComponentManager.SetComponentCrossSectionType | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~SetComponentCrossSectionType.md
+P: crossSection: Type of cross section for a user-defined route for the active routing component as defined in swComponentCrossSectionType_e
+<<< IRoutingComponentManager.SetComponentRouteTypeToCustomProperty | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~SetComponentRouteTypeToCustomProperty.md
+P: RouteType: Type of route as defined in swComponentRouteType_e
+<<< IRoutingComponentManager.SetComponentType | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~SetComponentType.md
+P: ComponentType: Type of component as defined in swRouteComponentTypeID_e
+<<< IRoutingComponentManager.SetComponentUserDefinedRouteTypeName | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~SetComponentUserDefinedRouteTypeName.md
+P: StringID: Name of the user-defined route for the active routing component
+X: Specifying a name for a user-defined route for the active routing component is optional and intended for:
+- air conditioning and other mechanical styles of ducting.
+- space planning.
+Examples of names of user-defined route types are HVAC, Ducting, Conveyors, Space Planning, etc.
+<<< IRoutingComponentManager.SetCPointConfiguration | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~SetCPointConfiguration.md
+P: type: Type of connection point configuration as defined in swCPointConfig_e
+<<< IRoutingComponentManager.SetRouteComponentTypeSetThrRLM | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~SetRouteComponentTypeSetThrRLM.md
+P: ComponentType: True to indicate that the type of the component is set through the Routing Library Manager, false to indicate that the type is not set through the Routing Library Manager
+<<< IRoutingComponentManager.SetRouteTypeAndSubRouteType | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~SetRouteTypeAndSubRouteType.md
+P: RouteType: Type of route as defined in swComponentRouteType_e
+P: SubRouteType: Type of electrical sub-route as defined in swComponentRouteType_e; only valid if RouteType is Electrical or 3
+X: When a connection point is added to a routing component in the Routing Component Wizard, the Connection Point PropertyManager page is launched. This method sets the route type and sub-type fields on that page.
+<<< IRoutingComponentManager.SetRoutingComponentDescription | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager~SetRoutingComponentDescription.md
+P: StringID: Description of the routing component
+<<< IWire.FromComponentReference | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~FromComponentReference.md
+R: Name of the "from" component
+<<< IWire.FromPinReference | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~FromPinReference.md
+R: Name of the "from" pin reference to which the wire is connected
+<<< IWire.GetCuttingLength | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~GetCuttingLength.md
+R: Cut length
+<<< IWire.GetRouteErrors | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~GetRouteErrors.md
+R: Array of errors as defined in swWireRouteError_e
+<<< IWire.GetRouteErrorsCount | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~GetRouteErrorsCount.md
+R: Number of errors
+X: Call this method before calling IWire::GetRouteErrors to determine the size of the array for the errors.
+<<< IWire.GetRouteSegmentIDs | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~GetRouteSegmentIDs.md
+R: Array of route segment IDs
+<<< IWire.GetRouteSegmentIDsCount | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~GetRouteSegmentIDsCount.md
+R: Number of route segment IDs
+<<< IWire.GetWireProperty | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~GetWireProperty.md
+R: Pointer to the IWireProperty object
+<<< IWire.IGetRouteErrors | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~IGetRouteErrors.md
+P: Count: Number of errors
+R: - in-process, unmanaged C++: Pointer to an array of errors as defined in swWireRouteError_e - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Call IWire::GetRouteErrorsCount before calling this method to determine the size of the return value array.
+<<< IWire.IGetRouteSegmentIDs | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~IGetRouteSegmentIDs.md
+P: Count: Number of route segment IDs
+R: - in-process, unmanaged C++: Pointer to an array of route segment IDs for the wire - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Before calling this method, call IWire::GetRouteSegmentIDsCount to get Count.
+<<< IWire.ISetRoutePathForWire | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~ISetRoutePathForWire.md
+P: numRouteSegmentIds: Number of route segments in this wire
+P: RouteSegmentIDs: - in-process, unmanaged C++: Pointer to an array of route segment IDs for this wire - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+R: Status of setting a new route path as defined in swSetRoutePathForWireErrorType_e
+X: This method checks to see if the route segment IDs are valid. If so, then:
+- the existing wire path is cleared.
+- a new wire path with new route segments is created.
+You can pass new route segments by either:
+- preselecting the route segments or preselecting two connectors. This method automatically detects the route segments between the two selected connectors.
+- or -
+- Passing an array of route segment IDs.
+Before calling this method, call IWire::GetRouteSegmentIDsCount to get numRouteSegmentIDs.
+<<< IWire.SetRoutePathForWire | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~SetRoutePathForWire.md
+P: RouteSegmentIDs: Array of route segment IDs (see Remarks)
+R: Status of setting a new route path as defined in swSetRoutePathForWireErrorType_e
+X: This method checks to see if the route segment IDs are valid. If so, then the existing wire path is cleared and a new wire path with new route segments is created.
+You can pass new route segments by either:
+- preselecting the route segments or preselecting two connectors. This method automatically detects the route segments between the two selected connectors.
+- or -
+- Passing an array of route segment IDs.
+<<< IWire.ToComponentReference | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~ToComponentReference.md
+R: Name of the "to" component
+<<< IWire.ToPinReference | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~ToPinReference.md
+R: Pin number or name to which the wire is connected
+<<< IWire.UserName | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~UserName.md
+R: Name of wire
+X: The wire name is a unique name for each wire or core. When naming the cores in a cable, give each core a unique name within the cable. The same names can be used in other cables.
+<<< IWireProperty.Color | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty~Color.md
+R: COLORREF value
+<<< IWireProperty.Diameter | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty~Diameter.md
+R: Diameter
+<<< IWireProperty.Name | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty~Name.md
+R: Library name
+<<< IWireProperty.PartNumber | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty~PartNumber.md
+R: Part number
+<<< IWireProperty.Size | routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWireProperty~Size.md
+R: Size of the wire

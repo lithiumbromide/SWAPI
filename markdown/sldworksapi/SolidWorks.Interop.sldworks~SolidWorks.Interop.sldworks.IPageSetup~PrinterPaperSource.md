@@ -45,29 +45,15 @@ property System.int PrinterPaperSource {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Printer paper source (see
-
-Remarks
-
-)
+Printer paper source (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PageSetup::PrinterPaperSource](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~PrinterPaperSource.html)
-
-.
+See [PageSetup::PrinterPaperSource](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~PrinterPaperSource.html).
 
 ## Remarks
 
@@ -76,13 +62,9 @@ The property value is one of a set of standard constants defined by the operatin
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
-
 [IPageSetup::PrinterPaperLength Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup~PrinterPaperLength.html)
-
 [IPageSetup::PrinterPaperSize Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup~PrinterPaperSize.html)
-
 [IPageSetup::PrinterPaperWidth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup~PrinterPaperWidth.html)
 
 ## Availability

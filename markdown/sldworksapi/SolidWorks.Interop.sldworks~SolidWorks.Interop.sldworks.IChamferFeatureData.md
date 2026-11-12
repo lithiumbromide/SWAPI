@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICh
 
 # IChamferFeatureData Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [IChamferFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2.html).
 
-[IChamferFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class IChamferFeatureData
 
 ## VBA Syntax
 
-See
-
-[ChamferFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData.html)
-
-.
+See [ChamferFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData.html).
 
 ## See Also
 
 [IChamferFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFr
 
 # CheckRunAsLegacy Property (ICWFrequencyStudyOptions)
 
-Obsolete. Superseded by[ICWFrequencyStudyOptions::CheckRunAsLegacy2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckRunAsLegacy2.html).
+Obsolete. Superseded by [ICWFrequencyStudyOptions::CheckRunAsLegacy2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckRunAsLegacy2.html).
 
 ## Syntax
 
@@ -51,27 +51,18 @@ property System.int CheckRunAsLegacy {
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::CheckRunAsLegacy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~CheckRunAsLegacy.html)
-
-.
+See [CWFrequencyStudyOptions::CheckRunAsLegacy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~CheckRunAsLegacy.html).
 
 ## Remarks
 
 This property is valid only if:
 
-- [ICWFrequencyStudyOptions::CheckFlowPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckFlowPressure.html)
-
-  is set to 1.
-- [ICWFrequencyStudyOptions::FlowPressureFile](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~FlowPressureFile.html)
-
-  is set to a SOLIDWORKS Flow Simulation results file.
+- [ICWFrequencyStudyOptions::CheckFlowPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~CheckFlowPressure.html) is set to 1.
+- [ICWFrequencyStudyOptions::FlowPressureFile](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~FlowPressureFile.html) is set to a SOLIDWORKS Flow Simulation results file.
 
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

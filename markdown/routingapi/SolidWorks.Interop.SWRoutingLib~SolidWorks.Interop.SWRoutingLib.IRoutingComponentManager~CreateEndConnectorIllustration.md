@@ -9,11 +9,7 @@ source: "routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRouting
 
 # CreateEndConnectorIllustration Method (IRoutingComponentManager)
 
-Launches the
-
-End View Creation
-
-PropertyManager page for the active routing component.
+Launches the **End View Creation** PropertyManager page for the active routing component.
 
 ## Syntax
 
@@ -45,24 +41,15 @@ void CreateEndConnectorIllustration();
 
 ## VBA Syntax
 
-See
-
-[RoutingComponentManager::CreateEndConnectorIllustration](ms-its:routingapivb6.chm::/SWRoutingLib~RoutingComponentManager~CreateEndConnectorIllustration.html)
-
-.
+See [RoutingComponentManager::CreateEndConnectorIllustration](ms-its:routingapivb6.chm::/SWRoutingLib~RoutingComponentManager~CreateEndConnectorIllustration.html).
 
 ## Remarks
 
-The
-
-End View Creation
-
-PropertyManager page creates an illustration of an electrical route end connector for display in the electrical routing library.
+The **End View Creation** PropertyManager page creates an illustration of an electrical route end connector for display in the electrical routing library.
 
 ## See Also
 
 [IRoutingComponentManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager.html)
-
 [IRoutingComponentManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRoutingComponentManager_members.html)
 
 ## Availability

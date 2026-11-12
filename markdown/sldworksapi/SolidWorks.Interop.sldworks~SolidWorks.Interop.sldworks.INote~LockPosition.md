@@ -45,13 +45,7 @@ property System.bool LockPosition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,20 @@ True to anchor the note, false to not
 
 ## VBA Syntax
 
-See
-
-[Note::LockPosition](ms-its:sldworksapivb6.chm::/sldworks~Note~LockPosition.html)
-
-.
+See [Note::LockPosition](ms-its:sldworksapivb6.chm::/sldworks~Note~LockPosition.html).
 
 ## Examples
 
 [Anchor a Note (VBA)](Anchor_a_Note_Example_VB.htm)
-
 [Anchor a Note (VB.NET)](Anchor_a_Note_Example_VBNET.htm)
-
 [Anchor a Note (C#)](Anchor_a_Note_Example_CSharp.htm)
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [IAnnotation::SetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetPosition.html)
-
 [IAnnotation::GetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPosition.html)
-
 [INote::GetAttachPos Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetAttachPos.html)
 
 ## Availability

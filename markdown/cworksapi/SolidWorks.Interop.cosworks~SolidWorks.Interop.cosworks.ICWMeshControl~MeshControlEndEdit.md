@@ -42,38 +42,23 @@ System.int MeshControlEndEdit();
 
 ### Return Value
 
-Error as defined in
-
-[swsMeshControlError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshControlError_e.html)
+Error as defined in [swsMeshControlError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshControlError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::MeshControlEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~MeshControlEndEdit.html)
-
-.
+See [CWMeshControl::MeshControlEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~MeshControlEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
-examples.
+See the [ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html) examples.
 
 ## Remarks
 
-To end editing a mesh control, you must call this method. You must call
-
-[ICWMeshControl::MeshControlBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWMeshControl~MeshControlBeginEdit.html)
-
-to start editing a mesh control. Changes are not applied unless you call both methods.
+To end editing a mesh control, you must call this method. You must call [ICWMeshControl::MeshControlBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWMeshControl~MeshControlBeginEdit.html) to start editing a mesh control. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
 
 ## Availability

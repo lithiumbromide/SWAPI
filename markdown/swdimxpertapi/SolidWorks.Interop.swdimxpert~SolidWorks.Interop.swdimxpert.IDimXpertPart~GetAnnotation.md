@@ -57,16 +57,11 @@ DimXpertAnnotation^ GetAnnotation(
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::GetAnnotation](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetAnnotation.html)
-
-.
+See [DimXpertPart::GetAnnotation](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~GetAnnotation.html).
 
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
 
 ## Availability

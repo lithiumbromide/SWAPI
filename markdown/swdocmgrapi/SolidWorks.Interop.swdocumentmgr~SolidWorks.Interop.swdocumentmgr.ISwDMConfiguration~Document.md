@@ -44,24 +44,15 @@ property SwDMDocument^ Document {
 
 ### Property Value
 
-Pointer to the
-
-[ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html)
-
-object
+Pointer to the [ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html) object
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration::Document](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~Document.html)
-
-.
+See [SwDMConfiguration::Document](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~Document.html).
 
 ## See Also
 
 [ISwDMConfiguration Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration.html)
-
 [ISwDMConfiguration Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration_members.html)
 
 ## Availability

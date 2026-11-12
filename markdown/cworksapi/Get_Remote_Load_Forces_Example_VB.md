@@ -9,11 +9,9 @@ source: "cworksapi/Get_Remote_Load_Forces_Example_VB.htm"
 
 # Get the Remote Load Forces Example (VBA)
 
-This example shows how to get the forces applied to selected entities as a
-result of transferring a remote load.
+This example shows how to get the forces applied to selected entities as a result of transferring a remote load.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
  '---------------------------------------------------------------------------

@@ -45,65 +45,32 @@ property System.String^ StartingValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Starting datum tag (see
-
-Remarks
-
-)
+Starting datum tag (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[BendTable::StartingValue](ms-its:sldworksapivb6.chm::/sldworks~BendTable~StartingValue.html)
-
-.
+See [BendTable::StartingValue](ms-its:sldworksapivb6.chm::/sldworks~BendTable~StartingValue.html).
 
 ## Examples
 
 [Insert Bend Table (C#)](Insert_Bend_Table_Example_CSharp.htm)
-
 [Insert Bend Table (VB.NET)](Insert_Bend_Table_Example_VBNET.htm)
-
 [Insert Bend Table (VBA)](Insert_Bend_Table_Example_VB.htm)
 
 ## Remarks
 
 This property returns:
 
-- Letter from A to Z, if
-
-  [IBendTable::TagStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBendTable~TagStyle.html)
-
-  is set to
-
-  [swBendTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBendTableTagStyle_e.html)
-
-  .swBendTable_AlphaNumericTags.
-- Positive integer, if
-
-  [IBendTable::TagStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBendTable~TagStyle.html)
-
-  is set to
-
-  [swBendTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBendTableTagStyle_e.html)
-
-  .swBendTable_NumericTags.
+- Letter from A to Z, if [IBendTable::TagStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBendTable~TagStyle.html) is set to [swBendTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBendTableTagStyle_e.html).swBendTable_AlphaNumericTags.
+- Positive integer, if [IBendTable::TagStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBendTable~TagStyle.html) is set to [swBendTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBendTableTagStyle_e.html).swBendTable_NumericTags.
 
 ## See Also
 
 [IBendTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable.html)
-
 [IBendTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable_members.html)
 
 ## Availability

@@ -43,13 +43,7 @@ public delegate System.int DAssemblyDocEvents_ComponentDisplayModeChangePreNotif
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,7 +51,7 @@ See
 
 ## VBA Syntax
 
-See[ComponentDisplayModeChangePreNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentDisplayModeChangePreNotify_EV.html).
+See [ComponentDisplayModeChangePreNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentDisplayModeChangePreNotify_EV.html).
 
 ## Availability
 

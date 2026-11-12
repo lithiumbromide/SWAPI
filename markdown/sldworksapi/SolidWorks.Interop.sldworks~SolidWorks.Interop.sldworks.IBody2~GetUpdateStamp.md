@@ -40,13 +40,7 @@ System.int GetUpdateStamp()
 System.int GetUpdateStamp();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Update stamp
 
 ## VBA Syntax
 
-See
-
-[Body2::GetUpdateStamp](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetUpdateStamp.html)
-
-.
+See [Body2::GetUpdateStamp](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetUpdateStamp.html).
 
 ## Remarks
 
@@ -67,7 +57,6 @@ The update stamp is not changed if the features contributing to the body geometr
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

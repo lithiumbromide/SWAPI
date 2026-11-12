@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetArcs Method (ISketch)
 
-Obsolete. Superseded by
-
-[ISketch::GetArcs2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetArcs2.html)
-
-and
-
-[ISketch::IGetArcs2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetArcs2.html)
-
-.
+Obsolete. Superseded by [ISketch::GetArcs2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetArcs2.html) and [ISketch::IGetArcs2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetArcs2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetArcs()
 System.double IGetArcs();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Sketch::IGetArcs](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IGetArcs.html)
-
-.
+See [Sketch::IGetArcs](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IGetArcs.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)

@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr7.html"
 
 Allows you to manage the file and folder data card variables set up in the Card Editor.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,14 +36,9 @@ public interface class IEdmVariableMgr7 : public IEdmVariableMgr5, IEdmVariableM
 
 ## Remarks
 
-This interface extends
-
-[IEdmVariableMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr6.html)
-
-.
+This interface extends [IEdmVariableMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr6.html).
 
 ## See Also
 
 [IEdmVariableMgr7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr7_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

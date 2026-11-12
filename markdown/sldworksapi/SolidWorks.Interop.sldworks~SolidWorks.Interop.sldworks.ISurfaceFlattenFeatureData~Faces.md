@@ -45,38 +45,19 @@ property System.Object^ Faces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of
-
-[faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-or
-
-[surfaces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
-to flatten
+Array of [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) or [surfaces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html) to flatten
 
 ## VBA Syntax
 
-See
-
-[SurfaceFlattenFeatureData::Faces](ms-its:sldworksapivb6.chm::/sldworks~SurfaceFlattenFeatureData~Faces.html)
-
-.
+See [SurfaceFlattenFeatureData::Faces](ms-its:sldworksapivb6.chm::/sldworks~SurfaceFlattenFeatureData~Faces.html).
 
 ## See Also
 
 [ISurfaceFlattenFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData.html)
-
 [ISurfaceFlattenFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData_members.html)
 
 ## Availability

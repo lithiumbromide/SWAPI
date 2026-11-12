@@ -45,13 +45,7 @@ property System.bool CreateDerivedConfigurations {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,29 +53,17 @@ True to create a derived configuration of the opposite-hand components in the or
 
 ## VBA Syntax
 
-See
-
-[MirrorComponentFeatureData::CreateDerivedConfigurations](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~CreateDerivedConfigurations.html)
-
-.
+See [MirrorComponentFeatureData::CreateDerivedConfigurations](ms-its:sldworksapivb6.chm::/sldworks~MirrorComponentFeatureData~CreateDerivedConfigurations.html).
 
 ## Examples
 
-See the
-
-[IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
-example.
+See the [IMirrorComponentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html) example.
 
 ## Remarks
 
 This property is valid only:
 
-- If
-
-  [IMirrorComponentFeatureData::OppositeHandComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~OppositeHandComponents.html)
-
-  is not Nothing or null.
+- If [IMirrorComponentFeatureData::OppositeHandComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~OppositeHandComponents.html) is not Nothing or null.
 - At creation time. You cannot edit this property after it is set.
 
 | If this property is... | And IMirrorComponentFeatureData::NameModifierType is... | Then use... |
@@ -93,24 +75,13 @@ This property is valid only:
 
 If you set this property to false, you can also specify the following import features:
 
-- [IMirrorComponentFeatureData::BreakLinksToOriginalPart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~BreakLinksToOriginalPart.html)
-
-  (if set to false, you can also set
-
-  [IMirrorComponentFeatureData::DimXpertScheme](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~DimXpertScheme.html)
-
-  and/or
-
-  [IMirrorComponentFeatureData::MirrorTransferOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~MirrorTransferOptions.html)
-
-  )
+- [IMirrorComponentFeatureData::BreakLinksToOriginalPart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~BreakLinksToOriginalPart.html) (if set to false, you can also set [IMirrorComponentFeatureData::DimXpertScheme](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~DimXpertScheme.html) and/or [IMirrorComponentFeatureData::MirrorTransferOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~MirrorTransferOptions.html))
 - [IMirrorComponentFeatureData::PreserveZAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~PreserveZAxis.html)
 - [IMirrorComponentFeatureData::PropagateFromOriginalPart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData~PropagateFromOriginalPart.html)
 
 ## See Also
 
 [IMirrorComponentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
 [IMirrorComponentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData_members.html)
 
 ## Availability

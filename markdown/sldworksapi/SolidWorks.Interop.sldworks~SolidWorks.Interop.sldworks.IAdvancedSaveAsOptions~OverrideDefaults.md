@@ -41,13 +41,7 @@ property System.bool OverrideDefaults {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -55,16 +49,11 @@ True to override defaults, false to not
 
 ## VBA Syntax
 
-See
-
-[AdvancedSaveAsOptions::OverrideDefaults](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~OverrideDefaults.html)
-
-.
+See [AdvancedSaveAsOptions::OverrideDefaults](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~OverrideDefaults.html).
 
 ## See Also
 
 [IAdvancedSaveAsOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
 [IAdvancedSaveAsOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetColorTable Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISldWorks::GetColorTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetColorTable.html)
-
-.
+Obsolete. Superseded by [ISldWorks::GetColorTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetColorTable.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetColorTable()
 System.Object^ GetColorTable();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetColorTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetColorTable.html)
-
-.
+See [ModelDoc2::GetColorTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetColorTable.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

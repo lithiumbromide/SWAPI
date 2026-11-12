@@ -45,13 +45,7 @@ property System.Object^ D1FaceNormal {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::D1FaceNormal](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D1FaceNormal.html)
-
-.
+See [CurveDrivenPatternFeatureData::D1FaceNormal](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D1FaceNormal.html).
 
 ## Examples
 
@@ -136,18 +126,18 @@ Set swFeatMgr = Part.FeatureManager
 'Create curve driven pattern feature data object
 Set swFeatData = swFeatMgr.**CreateDefinition**(swFeatureNameID_e.swFmCurvePattern)
 
-swFeatData.**D1AlignmentMethod**= 0
-swFeatData.**D1CurveMethod**= 0
-swFeatData.**D1InstanceCount**= 8
-swFeatData.**D1IsEqualSpaced**= True
-swFeatData.**D1ReverseDirection**= False
-swFeatData.**D1Spacing**= 0.00254
-swFeatData.**D2InstanceCount**= 1
-swFeatData.**D2IsEqualSpaced**= False
-swFeatData.**D2PatternSeedOnly**= False
-swFeatData.**D2ReverseDirection**= False
-swFeatData.**D2Spacing**= 0.00254
-swFeatData.**Dir2Specified**= False
+swFeatData.**D1AlignmentMethod** = 0
+swFeatData.**D1CurveMethod** = 0
+swFeatData.**D1InstanceCount** = 8
+swFeatData.**D1IsEqualSpaced** = True
+swFeatData.**D1ReverseDirection** = False
+swFeatData.**D1Spacing** = 0.00254
+swFeatData.**D2InstanceCount** = 1
+swFeatData.**D2IsEqualSpaced** = False
+swFeatData.**D2PatternSeedOnly** = False
+swFeatData.**D2ReverseDirection** = False
+swFeatData.**D2Spacing** = 0.00254
+swFeatData.**Dir2Specified** = False
 
 'Create CrvPattern1 feature
 Set swFeat = swFeatMgr.**CreateFeature**(swFeatData)
@@ -166,14 +156,13 @@ This property is valid only when:
 
 To create a curve-driven pattern feature that uses a 3D curve for Direction 1, you must pre-select the face normal with selection Mark = 1024 before creating the curve-driven pattern feature data object.
 
-If you try to edit this property to null or Nothing,[IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)returns true but the property does not change.
+If you try to edit this property to null or Nothing, [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html) returns true but the property does not change.
 
-For more information, see the**Curve Driven Patterns and the****Curve Driven Pattern PropertyManager**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Curve Driven Patterns and the** **Curve Driven Pattern PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
 
 ## Availability

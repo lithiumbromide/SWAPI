@@ -52,27 +52,17 @@ void SetSensorDetails(
 
 ### Parameters
 
-- `NSensorOption`: Sensor option as defined in[swsResultOptionsSensorOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultOptionsSensorOption_e.html)
-- `SSensorName`: Sensor name; valid only if NSensorOption =
-
-[swsResultOptionsSensorOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultOptionsSensorOption_e.html)
-
-.swsResultOptionsSensorOption_SpecificSensor
+- `NSensorOption`: Sensor option as defined in [swsResultOptionsSensorOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultOptionsSensorOption_e.html)
+- `SSensorName`: Sensor name; valid only if NSensorOption = [swsResultOptionsSensorOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultOptionsSensorOption_e.html).swsResultOptionsSensorOption_SpecificSensor
 
 ## VBA Syntax
 
-See
-
-[CWDropTestResultOptions::SetSensorDetails](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestResultOptions~SetSensorDetails.html)
-
-.
+See [CWDropTestResultOptions::SetSensorDetails](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestResultOptions~SetSensorDetails.html).
 
 ## See Also
 
 [ICWDropTestResultOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestResultOptions.html)
-
 [ICWDropTestResultOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestResultOptions_members.html)
-
 [ICWDropTestResultOptions::GetSensorDetails Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestResultOptions~GetSensorDetails.html)
 
 ## Availability

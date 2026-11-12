@@ -9,8 +9,7 @@ source: "cworksapi/Access_Load_Case_Manager_Example_VBNET.htm"
 
 # Access Load Case Manager Example (VB.NET)
 
-This example shows how to access the Load Case Manager to define load cases
-and load case combinations.
+This example shows how to access the Load Case Manager to define load cases and load case combinations.
 
 ```vb
   '----------------------------------------------------------------------------
@@ -50,6 +49,7 @@ and load case combinations.
      Dim Study As CWStudy
      Dim LoadCaseManager As CWLoadCaseManager
      Dim CWResult As CWResults
+    Dim CWMesh As CWMesh
      Dim CWCFf As CWPlot
 
      Dim errCode As Integer
@@ -66,10 +66,11 @@ and load case combinations.
      Dim varRetLoadVals As Object() = New Object(0) {}
      Dim strCombination As String
      Dim retStrCombination As String
+      Dim e1 As Double, t1 As Double
 
      Sub main()
 
-         Part = swApp.OpenDoc6("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2019\samples\Simulation Examples\Tutor1.sldprt", swDocumentTypes_e.swDocPART, 1, "", longstatus, longwarnings)
+         Part = swApp.OpenDoc6("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2024\samples\Simulation Examples\Tutor1.sldprt", swDocumentTypes_e.swDocPART, 1, "", longstatus, longwarnings)
          If Part Is Nothing Then ErrorMsg(SwApp, "Failed to open Tutor1.sldprt")
 
          CWAddinCallBack = SwApp.GetAddInObject("CosmosWorks.CosmosWorks")
@@ -90,7 +91,59 @@ and load case combinations.
          If LoadCaseManager Is Nothing Then ErrorMsg(SwApp, "No Load Case Manager")
 
          bSuccess = LoadCaseManager.OpenLoadCaseManager()
+```
 
+Dim StudyOptions As CWStaticStudyOptions
+
+StudyOptions = Study.**StaticStudyOptions**
+
+StudyOptions.**AdaptiveMethodType** = 2
+
+StudyOptions.**PAdaptiveConvergenceCriteria** = 0
+
+StudyOptions.**PAdaptiveErrorLimit** = 1.0
+
+StudyOptions.**PAdaptiveMaxIterations** = 4
+
+StudyOptions.**PAdaptiveMaxPOrder** = 5
+
+StudyOptions.**PAdaptiveStartingPOrder** = 2
+
+StudyOptions.**PAdaptiveStrainEnergyErrorLimit** = 2.0
+
+StudyOptions.**IncludeRemarkInReport** = 1
+
+StudyOptions.**RemarkComment** = "Remark comment"
+
+StudyOptions.**NoPenetration** = 1
+
+StudyOptions.**IgnoreClearanceForSurfaceContact** = 1
+
+StudyOptions.**IncompatibleBondingOption** = swsIncompatibleBondingOption_Automatic
+
+StudyOptions.**IncludeGlobalFriction** = 1
+
+StudyOptions.**FrictionCoefficient** = 0.5
+
+'Mesh
+
+CWMesh = Study.**Mesh**
+
+CWMesh.**Quality** = 1
+
+CWMesh.**GetDefaultElementSizeAndTolerance**(0, el, tl)
+
+errCode = Study.**CreateMesh**(0, el, tl)
+
+'Run analysis
+
+errCode = Study.**RunAnalysis**
+
+'Get results
+
+CWResult = Study.**Results**
+
+```vb
          bSuccess = LoadCaseManager.AddNewPrimaryLoadCase("My Load Case1")
          If bSuccess = False Then ErrorMsg(SwApp, "Primary load case not created")
          bSuccess = LoadCaseManager.AddNewPrimaryLoadCase("My Load Case2")

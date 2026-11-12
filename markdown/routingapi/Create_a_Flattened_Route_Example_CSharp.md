@@ -9,8 +9,7 @@ source: "routingapi/Create_a_Flattened_Route_Example_CSharp.htm"
 
 # Create a Flattened Route Example (C#)
 
-This example shows how to create an annotation type flattened route and its
-drawing.
+This example shows how to create an annotation type flattened route and its drawing.
 
 ```vb
   //---------------------------------------------------------------------------

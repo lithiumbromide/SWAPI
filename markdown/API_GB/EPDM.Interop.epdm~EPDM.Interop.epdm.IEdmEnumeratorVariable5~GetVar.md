@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~GetV
 
 # GetVar Method (IEdmEnumeratorVariable5)
 
-Obsolete. Superseded by
-
-[IEdmEnumeratorVariable10::GetVar2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10~GetVar2.html)
-
-.
+Obsolete. Superseded by [IEdmEnumeratorVariable10::GetVar2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable10~GetVar2.html).
 
 ## Syntax
 
@@ -50,20 +46,8 @@ System.bool GetVar(
 ### Parameters
 
 - `bsVarName`: Name of variable to read
-- `bsCfgName`: Name of configuration or layout from which to get the variable value; empty string for folders and file types that do not support configurations (see
-
-Remarks
-
-)
-- `poRetValue`: Variable value; data type as specified in
-
-[IEdmVariable5::VariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5~VariableType.html)
-
-(see
-
-Remarks
-
-)
+- `bsCfgName`: Name of configuration or layout from which to get the variable value; empty string for folders and file types that do not support configurations (see **Remarks**)
+- `poRetValue`: Variable value; data type as specified in [IEdmVariable5::VariableType](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5~VariableType.html) (see **Remarks**)
 
 ### Return Value
 
@@ -73,24 +57,8 @@ True if the variable is found, false if not
 
 To specify bsCfgName:
 
-- Call
-
-  [IEdmFile5::GetConfigurations](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetConfigurations.html)
-
-  to get the available configuration names for this file.
-- If this method is used in your add-in's implementation of
-
-  [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html)
-
-  , then a list of configuration names for the data card is returned in ppoData that can be cast to
-
-  [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-  . EdmCmdData.mpoExtra contains an
-
-  [IEdmStrLst5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmStrLst5.html)
-
-  of configuration names.
+- Call [IEdmFile5::GetConfigurations](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetConfigurations.html) to get the available configuration names for this file.
+- If this method is used in your add-in's implementation of [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html), then a list of configuration names for the data card is returned in ppoData that can be cast to [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html). EdmCmdData.mpoExtra contains an [IEdmStrLst5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmStrLst5.html) of configuration names.
 
 C++ users must initialize the VARIANT struct of poRetValue with a call to VariantInit before calling this method. They also must free the contents of the struct with a call to VariantClear.
 
@@ -102,9 +70,7 @@ C++ users must initialize the VARIANT struct of poRetValue with a call to Varian
 ## See Also
 
 [IEdmEnumeratorVariable5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
-
 [IEdmEnumeratorVariable5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5_members.html)
-
 [IEdmEnumeratorVariable5::SetVar Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~SetVar.html)
 
 ## Availability

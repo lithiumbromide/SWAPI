@@ -47,13 +47,7 @@ Layer^ IGetLayerById(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,28 +55,20 @@ See
 
 ### Return Value
 
-[ILayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayer.html)
-
-object
+[ILayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayer.html) object
 
 ## VBA Syntax
 
-See
-
-[LayerMgr::IGetLayerById](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~IGetLayerById.html)
-
-.
+See [LayerMgr::IGetLayerById](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~IGetLayerById.html).
 
 ## Remarks
 
-You can get the layer ID from several places.[IView::IGetUserPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetUserPoints2.html)and[IView::IGetLines4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetLines4.html)(and similar functions) return the LayerId as part of the array of return information.[IAnnotation::IGetVisualProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IGetVisualProperties.html)also returns the LayerId as part of the array of return information.
+You can get the layer ID from several places. [IView::IGetUserPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetUserPoints2.html) and [IView::IGetLines4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetLines4.html) (and similar functions) return the LayerId as part of the array of return information. [IAnnotation::IGetVisualProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IGetVisualProperties.html) also returns the LayerId as part of the array of return information.
 
 ## See Also
 
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
-
 [ILayerMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr_members.html)
-
 [ILayerMgr::GetLayerById Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr~GetLayerById.html)
 
 ## Availability

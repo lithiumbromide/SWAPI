@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Protrusion_Blend_Example_VB.htm"
 
 # Insert Protrusion Blend Example (VBA)
 
-This example shows how to create a loft using profiles, guide
-curves, and a centerline.
+This example shows how to create a loft using profiles, guide curves, and a centerline.
 
 ```
 '---------------------------------------------------------------

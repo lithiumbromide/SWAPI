@@ -103,13 +103,7 @@ System.bool EditDatumTargetSymbol(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -123,12 +117,8 @@ See
 - `ValueStr1`: Value for datum target area diameter or width
 - `ValueStr2`: Value for datum target area height
 - `ArrowsSmart`: True if you want smart arrows, false otherwise
-- `ArrowStyle`: Arrow head style (for example, open, closed, and so on) as defined in
-
-[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
-- `LeaderLineStyle`: Leaderline type as defined in
-
-[swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
+- `ArrowStyle`: Arrow head style (for example, open, closed, and so on) as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+- `LeaderLineStyle`: Leaderline type as defined in [swLeaderStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderStyle_e.html)
 - `LeaderBent`: True if you want a bent leader line, false otherwise
 - `ShowArea`: True if you want to show the target area, false otherwise
 - `ShowSymbol`: True if you want to display the target symbol, false otherwise
@@ -139,20 +129,13 @@ True if datum target symbol is modified, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::EditDatumTargetSymbol](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EditDatumTargetSymbol.html)
-
-.
+See [ModelDoc2::EditDatumTargetSymbol](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EditDatumTargetSymbol.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDocExtension::InsertDatumTargetSymbol2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertDatumTargetSymbol2.html)
-
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
 
 ## Availability

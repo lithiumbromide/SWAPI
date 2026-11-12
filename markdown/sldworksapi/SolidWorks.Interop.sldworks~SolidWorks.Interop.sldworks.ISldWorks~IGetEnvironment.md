@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # IGetEnvironment Method (ISldWorks)
 
-Gets the
-
-[IEnvironment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnvironment.html)
-
-object.
+Gets the [IEnvironment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnvironment.html) object.
 
 ## Syntax
 
@@ -44,27 +40,15 @@ Environment IGetEnvironment()
 Environment^ IGetEnvironment();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[IEnvironment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnvironment.html)
-
-object
+[IEnvironment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnvironment.html) object
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IGetEnvironment](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetEnvironment.html)
-
-.
+See [SldWorks::IGetEnvironment](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetEnvironment.html).
 
 ## Remarks
 
@@ -73,7 +57,5 @@ All numeric values returned from the IEnvironment object are relative to a unit 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetEnvironment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetEnvironment.html)

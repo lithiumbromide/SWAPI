@@ -62,11 +62,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompositeDistanceBetweenDimTol::GetPlusAndMinusToleranceIntraFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositeDistanceBetweenDimTol~GetPlusAndMinusToleranceIntraFeature.html)
-
-.
+See [SwDMDimXpertCompositeDistanceBetweenDimTol::GetPlusAndMinusToleranceIntraFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositeDistanceBetweenDimTol~GetPlusAndMinusToleranceIntraFeature.html).
 
 ## Examples
 
@@ -75,7 +71,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompositeDistanceBetweenDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol.html)
-
 [ISwDMDimXpertCompositeDistanceBetweenDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol_members.html)
 
 ## Availability

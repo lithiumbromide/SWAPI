@@ -9,8 +9,7 @@ source: "sldworksapi/Merge_Miter_Trimmed_Bodies_Example_VB.htm"
 
 # Merge Miter Trimmed Bodies Example (VBA)
 
-This example shows how to specify to merge miter trimmed bodies in a structural-member
-group.
+This example shows how to specify to merge miter trimmed bodies in a structural-member group.
 
 ```
 '---------------------------------------------------------------------------

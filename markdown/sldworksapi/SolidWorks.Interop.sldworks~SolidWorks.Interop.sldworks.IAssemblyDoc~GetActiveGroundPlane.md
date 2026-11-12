@@ -51,42 +51,26 @@ System.Object^ GetActiveGroundPlane(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Config_opt`: Configurations from which to retrieve active ground planes as defined in[swInConfigurationOpts_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInConfigurationOpts_e.html):
+- `Config_opt`: Configurations from which to retrieve active ground planes as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInConfigurationOpts_e.html):
 
-- swThisConfiguration
-- swAllConfigurations
-- swSpecifyConfiguration
+  - swThisConfiguration
+  - swAllConfigurations
+  - swSpecifyConfiguration
 
-(see**Remarks**)
-- `Config_names`: Array of the names of configurations from which to retrieve active ground planes; valid only if Config_opt is set to swInConfiguration_e.swSpecifyConfiguration (see
-
-Remarks
-
-)
+  (see **Remarks**)
+- `Config_names`: Array of the names of configurations from which to retrieve active ground planes; valid only if Config_opt is set to swInConfiguration_e.swSpecifyConfiguration (see **Remarks**)
 
 ### Return Value
 
-Array of ground plane
-
-[features](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
+Array of ground plane [features](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetActiveGroundPlane](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetActiveGroundPlane.html)
-
-.
+See [AssemblyDoc::GetActiveGroundPlane](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetActiveGroundPlane.html).
 
 ## Examples
 
@@ -100,16 +84,13 @@ See
 | swSpecifyConfiguration | Each configuration in Config_names. |
 | swThisConfiguration | The current configuration. |
 
-To populate config_names, use[IModelDoc2::GetConfigurationNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetConfigurationNames.html).
+To populate config_names, use [IModelDoc2::GetConfigurationNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetConfigurationNames.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::ActivateGroundPlane Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ActivateGroundPlane.html)
-
 [IFeatureManager::InsertGroundPlane Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertGroundPlane.html)
 
 ## Availability

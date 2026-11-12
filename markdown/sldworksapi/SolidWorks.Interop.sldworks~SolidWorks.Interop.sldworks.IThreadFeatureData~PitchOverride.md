@@ -45,13 +45,7 @@ property System.bool PitchOverride {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to override the pitch, false to not (default)
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::PitchOverride](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~PitchOverride.html)
-
-.
+See [ThreadFeatureData::PitchOverride](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~PitchOverride.html).
 
 ## Examples
 
-See the
-
-[IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-examples.
+See the [IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html) examples.
 
 ## Remarks
 
-If this property is set to true, use
-
-[IThreadFeatureData::Pitch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~Pitch.html)
-
-to set the pitch of the thread helix.
+If this property is set to true, use [IThreadFeatureData::Pitch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~Pitch.html) to set the pitch of the thread helix.
 
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

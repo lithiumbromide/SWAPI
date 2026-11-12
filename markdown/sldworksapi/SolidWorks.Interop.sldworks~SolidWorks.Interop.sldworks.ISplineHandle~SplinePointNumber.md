@@ -42,13 +42,7 @@ property System.int SplinePointNumber {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,32 +50,19 @@ Number of the point of this handle
 
 ## VBA Syntax
 
-See
-
-[SplineHandle::SplinePointNumber](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~SplinePointNumber.html)
-
-.
+See [SplineHandle::SplinePointNumber](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~SplinePointNumber.html).
 
 ## Examples
 
-See the
-
-[ISplineHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
-examples.
+See the [ISplineHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html) examples.
 
 ## See Also
 
 [ISplineHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
 [ISplineHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle_members.html)
-
 [ISketchSpline:DeletePoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~DeletePoint.html)
-
 [ISketchSpline:GetPoints2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~GetPoints2.html)
-
 [ISketchSpline::InsertPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~InsertPoint.html)
-
 [ISketchSpline::IEnumPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~IEnumPoints.html)
 
 ## Availability

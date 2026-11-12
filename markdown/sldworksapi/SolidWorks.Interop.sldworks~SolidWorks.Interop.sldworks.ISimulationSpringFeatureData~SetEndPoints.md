@@ -51,13 +51,7 @@ System.bool SetEndPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,26 +60,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[SimulationSpringFeatureData::SetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~SetEndPoints.html)
-
-.
+See [SimulationSpringFeatureData::SetEndPoints](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~SetEndPoints.html).
 
 ## Examples
 
 [Add Spring to Motion Study (C#)](Add_Spring_to_Motion_Study_Example_CSharp.htm)
-
 [Add Spring to Motion Study (VB.NET)](Add_Spring_to_Motion_Study_Example_VBNET.htm)
-
 [Add Spring to Motion Study (VBA)](Add_Spring_to_Motion_Study_Example_VB.htm)
 
 ## See Also
 
 [ISimulationSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData.html)
-
 [ISimulationSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData_members.html)
-
 [ISimulationSpringFeatureData::GetEndPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData~GetEndPoints.html)
 
 ## Availability

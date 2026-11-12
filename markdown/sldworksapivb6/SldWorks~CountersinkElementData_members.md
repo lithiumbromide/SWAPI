@@ -1,6 +1,5 @@
 ---
-title: "CountersinkElementData Object
-Members"
+title: "CountersinkElementData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CountersinkElementData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CountersinkElementData_members.html"
 ---
 
-# CountersinkElementData Object
-Members
+# CountersinkElementData Object Members
 
 ## Public Properties
 

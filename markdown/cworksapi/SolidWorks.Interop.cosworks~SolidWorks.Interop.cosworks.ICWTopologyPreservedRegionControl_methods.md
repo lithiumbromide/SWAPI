@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyPreservedRegionControl Interface Methods
 
-For a list of all members of this type, see[ICWTopologyPreservedRegionControl members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html).
+For a list of all members of this type, see [ICWTopologyPreservedRegionControl members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html).
 
 ## Public Methods
 
@@ -31,5 +31,4 @@ For a list of all members of this type, see[ICWTopologyPreservedRegionControl me
 ## See Also
 
 [ICWTopologyPreservedRegionControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

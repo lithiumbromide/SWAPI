@@ -44,22 +44,15 @@ property System.int SubType {
 
 ### Property Value
 
-Sub-type as defined by
-
-[swiCharacteristicSubType_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiCharacteristicSubType_e.html)
+Sub-type as defined by [swiCharacteristicSubType_e](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.swiCharacteristicSubType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CharacteristicsData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~CharacteristicsData_members.html)
-
-properties.
+See [CharacteristicsData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~CharacteristicsData_members.html) properties.
 
 ## See Also
 
 [ICharacteristicsData Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData.html)
-
 [ICharacteristicsData Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData_members.html)
 
 ## Availability

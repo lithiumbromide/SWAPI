@@ -66,13 +66,7 @@ void ScaleOrCopy(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -85,34 +79,25 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ScaleOrCopy](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ScaleOrCopy.html)
-
-.
+See [ModelDocExtension::ScaleOrCopy](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ScaleOrCopy.html).
 
 ## Examples
 
 [Rotate, Scale, and Copy Sketch (C#)](Rotate_Scale_Copy_Sketch_Example_CSharp.htm)
-
 [Rotate, Scale, and Copy Sketch (VB.NET)](Rotate_Scale_Copy_Sketch_Example_VBNET.htm)
-
 [Rotate, Scale, and Copy Sketch (VBA)](Rotate_Scale_Copy_Sketch_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, use[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select the entities to scale or copy.
+Before calling this method, use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the entities to scale or copy.
 
-Using this method may break existing sketch relations, including relations that are automatically created when offsetting or converting entities. Use the[ISketchRelationManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager.html)methods before and after using this method to determine whether all sketch relations remain intact.
+Using this method may break existing sketch relations, including relations that are automatically created when offsetting or converting entities. Use the [ISketchRelationManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager.html) methods before and after using this method to determine whether all sketch relations remain intact.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::MoveOrCopy Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~MoveOrCopy.html)
-
 [IModelDocExtension::RotateOrCopy Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RotateOrCopy.html)
 
 ## Availability

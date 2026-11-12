@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAp
 
 # IAppearanceSetting Interface Properties
 
-For a list of all members of this type, see[IAppearanceSetting members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting_members.html).
+For a list of all members of this type, see [IAppearanceSetting members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting_members.html).
 
 ## Public Properties
 
@@ -32,5 +32,4 @@ For a list of all members of this type, see[IAppearanceSetting members](SolidWor
 ## See Also
 
 [IAppearanceSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

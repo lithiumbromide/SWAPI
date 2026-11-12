@@ -47,13 +47,7 @@ System.bool DeleteRelation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ True if the sketch relation is deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchRelationManager::DeleteRelation](ms-its:sldworksapivb6.chm::/sldworks~SketchRelationManager~DeleteRelation.html)
-
-.
+See [SketchRelationManager::DeleteRelation](ms-its:sldworksapivb6.chm::/sldworks~SketchRelationManager~DeleteRelation.html).
 
 ## See Also
 
 [ISketchRelationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager.html)
-
 [ISketchRelationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager_members.html)
-
 [ISketchRelationManager::DeleteAllRelations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager~DeleteAllRelations.html)
 
 ## Availability

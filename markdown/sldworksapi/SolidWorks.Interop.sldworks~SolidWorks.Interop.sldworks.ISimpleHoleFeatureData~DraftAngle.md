@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # DraftAngle Property (ISimpleHoleFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleHoleFeatureData2::DraftAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~DraftAngle.html)
-
-.
+Obsolete. Superseded by [ISimpleHoleFeatureData2::DraftAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~DraftAngle.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double DraftAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData::DraftAngle](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~DraftAngle.html)
-
-.
+See [SimpleHoleFeatureData::DraftAngle](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~DraftAngle.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData.html)
-
 [ISimpleHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData_members.html)

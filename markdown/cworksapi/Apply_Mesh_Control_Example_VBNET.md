@@ -9,8 +9,7 @@ source: "cworksapi/Apply_Mesh_Control_Example_VBNET.htm"
 
 # Apply Mesh Control Example (VB.NET)
 
-This example shows how to get and set beams and joints, create a mesh, and
-apply a mesh control.
+This example shows how to get and set beams and joints, create a mesh, and apply a mesh control.
 
 ```vb
   '----------------------------------------------------------------------------

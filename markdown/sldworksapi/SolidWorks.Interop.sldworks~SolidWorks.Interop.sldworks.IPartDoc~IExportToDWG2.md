@@ -83,44 +83,26 @@ System.bool IExportToDWG2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FilePath`: Path and filename of the exported DXF/DWG file
 - `ModelName`: Path and filename of the active part document
-- `Action`: Export action as defined in
-
-[swExportToDWG_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swExportToDWG_e.html)
-
-(see
-
-Remarks
-
-)
+- `Action`: Export action as defined in [swExportToDWG_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swExportToDWG_e.html) (see **Remarks**)
 - `ExportToSingleFile`: True to save as one file; false to save as multiple files
-- `Alignment`: - In-process, unmanaged C++: Pointer to an array of 12 double values that contain information related to output alignment (see
+- `Alignment`: - In-process, unmanaged C++: Pointer to an array of 12 double values that contain information related to output alignment (see **Remarks**)
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-  Remarks
-
-  )
-- VBA, VB.NET, C#, and C++/CLI: Not supported
-
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 - `IsXDirFlipped`: True to flip the x direction; false otherwise
 - `IsYDirFlipped`: True to flip the y direction; false otherwise
-- `SheetMetalOptions`: [Bitmask](sldworksapiprogguide.chm::/OVERVIEW/Bitmasks.htm)that contains sheet metal export options; valid only if Action = swExportToDWG_e.swExportToDWG_ExportSheetMetal (See**Remarks**)
+- `SheetMetalOptions`: [Bitmask](sldworksapiprogguide.chm::/OVERVIEW/Bitmasks.htm) that contains sheet metal export options; valid only if Action = swExportToDWG_e.swExportToDWG_ExportSheetMetal (See **Remarks**)
 - `ViewsCount`: Number of annotation views to export; valid only if Action = swExportToDWG_e.swExportToDWG_ExportAnnotationViews
 - `Views`: - In-process, unmanaged C++: Pointer to an array of annotation view names to export; valid only if Action = swExportToDWG_e.swExportToDWG_ExportAnnotationViews
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ### Return Value
 
@@ -180,11 +162,8 @@ If you want to export only the bounding box, then Bit 12 is 1, the bitmask is 10
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::ExportToDWG2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ExportToDWG2.html)
-
 [IPartDoc::ExportFlatPatternView Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ExportFlatPatternView.html)
 
 ## Availability

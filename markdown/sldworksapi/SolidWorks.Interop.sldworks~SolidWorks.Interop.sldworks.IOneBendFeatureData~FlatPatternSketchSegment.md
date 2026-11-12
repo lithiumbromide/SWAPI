@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IOn
 
 # FlatPatternSketchSegment Property (IOneBendFeatureData)
 
-Obsolete. Superseded by
-
-[IOneBendFeatureData::FlatPatternSketchSegments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IOneBendFeatureData~FlatPatternSketchSegments.html)
-
-.
+Obsolete. Superseded by [IOneBendFeatureData::FlatPatternSketchSegments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IOneBendFeatureData~FlatPatternSketchSegments.html).
 
 ## Syntax
 
@@ -46,38 +42,25 @@ property SketchSegment^ FlatPatternSketchSegment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-for this bend
+[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) for this bend
 
 ## VBA Syntax
 
-See
-
-[OneBendFeatureData::FlatPatternSketchSegment](ms-its:sldworksapivb6.chm::/sldworks~OneBendFeatureData~FlatPatternSketchSegment.html)
-
-.
+See [OneBendFeatureData::FlatPatternSketchSegment](ms-its:sldworksapivb6.chm::/sldworks~OneBendFeatureData~FlatPatternSketchSegment.html).
 
 ## Remarks
 
-The sketch segment is not calculated until the part is unfolded through the user interface or by[IModelDoc2::SetBendState](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetBendState.html)with BendState of swSMBendStateFlattened.
+The sketch segment is not calculated until the part is unfolded through the user interface or by [IModelDoc2::SetBendState](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetBendState.html) with BendState of swSMBendStateFlattened.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IOneBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IOneBendFeatureData.html)
-
 [IOneBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IOneBendFeatureData_members.html)
 
 ## Availability

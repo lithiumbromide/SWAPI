@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ListExternalFileReferencesCount Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::ListExternalFileReferenceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~ListExternalFileReferencesCount.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::ListExternalFileReferenceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~ListExternalFileReferencesCount.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int ListExternalFileReferencesCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ListExternalFileReferencesCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ListExternalFileReferencesCount.html)
-
-.
+See [ModelDoc2::ListExternalFileReferencesCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ListExternalFileReferencesCount.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

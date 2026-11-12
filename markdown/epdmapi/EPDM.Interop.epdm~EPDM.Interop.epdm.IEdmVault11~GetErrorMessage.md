@@ -48,11 +48,8 @@ Description of the error code
 ## Examples
 
 [Add Items (C#)](Add_Items_Example_CSharp.htm)
-
 [Add Items (VB.NET)](Add_Items_Example_VBNET.htm)
-
 [Add Users (C#)](Add_Users_Example_CSharp.htm)
-
 [Add Users (VB.NET)](Add_Users_Example_VBNET.htm)
 
 ## Remarks
@@ -66,9 +63,7 @@ This method returns a readable error message for HRESULT error codes. For exampl
 ## See Also
 
 [IEdmVault11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
 [IEdmVault11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html)
-
 [IEdmVault11::GetErrorName Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetErrorName.html)
 
 ## Availability

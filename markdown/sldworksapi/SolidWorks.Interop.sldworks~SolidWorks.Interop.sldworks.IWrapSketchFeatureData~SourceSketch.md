@@ -45,13 +45,7 @@ property Sketch^ SourceSketch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[WrapSketchFeatureData::SourceSketch](ms-its:sldworksapivb6.chm::/sldworks~WrapSketchFeatureData~SourceSketch.html)
-
-.
+See [WrapSketchFeatureData::SourceSketch](ms-its:sldworksapivb6.chm::/sldworks~WrapSketchFeatureData~SourceSketch.html).
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IWrapSketchFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData.html)
-
 [IWrapSketchFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWrapSketchFeatureData_members.html)
 
 ## Availability

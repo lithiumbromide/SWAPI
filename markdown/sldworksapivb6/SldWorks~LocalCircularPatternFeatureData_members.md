@@ -1,6 +1,5 @@
 ---
-title: "LocalCircularPatternFeatureData Object
-Members"
+title: "LocalCircularPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "LocalCircularPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~LocalCircularPatternFeatureData_members.html"
 ---
 
-# LocalCircularPatternFeatureData Object
-Members
+# LocalCircularPatternFeatureData Object Members
 
 ## Public Methods
 

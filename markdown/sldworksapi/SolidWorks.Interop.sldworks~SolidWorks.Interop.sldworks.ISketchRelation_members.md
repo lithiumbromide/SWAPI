@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchRelation Interface Members
 
-The following tables list the members exposed by[ISketchRelation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation.html).
+The following tables list the members exposed by [ISketchRelation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation.html).
 
 ## Public Properties
 
@@ -41,7 +41,5 @@ The following tables list the members exposed by[ISketchRelation](SolidWorks.Int
 ## See Also
 
 [ISketchRelation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISketchRelationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager.html)

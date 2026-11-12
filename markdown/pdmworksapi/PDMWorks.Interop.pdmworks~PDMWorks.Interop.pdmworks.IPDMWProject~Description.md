@@ -51,11 +51,7 @@ Description for this project
 
 ## VBA Syntax
 
-See
-
-[PDMWProject::Description](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~Description.html)
-
-.
+See [PDMWProject::Description](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~Description.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ Only a vault administrator can set the description.
 ## See Also
 
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
 [IPDMWProject Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject_members.html)
 
 ## Availability

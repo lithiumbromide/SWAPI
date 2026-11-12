@@ -45,13 +45,7 @@ property System.String^ GaugeTablePath {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Fully qualified path to a gauge table file
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::GaugeTablePath](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~GaugeTablePath.html)
-
-.
+See [BaseFlangeFeatureData::GaugeTablePath](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~GaugeTablePath.html).
 
 ## Examples
 
@@ -72,9 +62,7 @@ See
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::UseGaugeTable Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~UseGaugeTable.html)
 
 ## Availability

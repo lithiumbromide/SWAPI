@@ -45,13 +45,7 @@ property System.String^ ResponseBText {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ Text displayed on second user response control; default is an empty string
 
 ## VBA Syntax
 
-See
-
-[MessageBarDefinition::ResponseBText](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~ResponseBText.html)
-
-.
+See [MessageBarDefinition::ResponseBText](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~ResponseBText.html).
 
 ## Remarks
 
-This property must be set to a non-empty string if
-
-[IMessageBarDefinition::ResponseBType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition~ResponseBType.html)
-
-is not
-
-[swUserMessageBarResponseType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserMessageBarResponseType_e.html)
-
-.swUserMessageBarResponseType_None.
+This property must be set to a non-empty string if [IMessageBarDefinition::ResponseBType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition~ResponseBType.html) is not [swUserMessageBarResponseType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserMessageBarResponseType_e.html).swUserMessageBarResponseType_None.
 
 ## See Also
 
 [IMessageBarDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition.html)
-
 [IMessageBarDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.Object^ GetOverrideCenterOfMassValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,14 @@ Array of three doubles of the x, y, and z coordinates of the center of mass
 
 ## VBA Syntax
 
-See
-
-[MassPropertyOverrideOptions::GetOverrideCenterOfMassValue](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~GetOverrideCenterOfMassValue.html)
-
-.
+See [MassPropertyOverrideOptions::GetOverrideCenterOfMassValue](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~GetOverrideCenterOfMassValue.html).
 
 ## See Also
 
 [IMassPropertyOverrideOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions.html)
-
 [IMassPropertyOverrideOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions_members.html)
-
 [IMassPropertyOverrideOptions::SetOverrideCenterOfMassValue Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~SetOverrideCenterOfMassValue.html)
-
 [IMassProperty2::CenterOfMass Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~CenterOfMass.html)
-
 [IMassPropertyOverrideOptions::OverrideCenterOfMass Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~OverrideCenterOfMass.html)
 
 ## Availability

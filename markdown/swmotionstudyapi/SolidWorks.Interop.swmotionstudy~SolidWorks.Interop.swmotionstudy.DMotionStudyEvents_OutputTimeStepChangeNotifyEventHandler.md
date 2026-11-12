@@ -49,18 +49,12 @@ public delegate System.int DMotionStudyEvents_OutputTimeStepChangeNotifyEventHan
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[OutputTimeStepChangeNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~OutputTimeStepChangeNotify_EV.html)
-
-.
+See [OutputTimeStepChangeNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~OutputTimeStepChangeNotify_EV.html).
 
 ## Examples
 
 [Fire Events for External Output Time Step Changes (C#)](Fire_Events_for_External_Output_Time_Step_Changes_Example_CSharp.htm)
-
 [Fire Events for External Output Time Step Changes (VB.NET)](Fire_Events_for_External_Output_Time_Step_Changes_Example_VBNET.htm)
-
 [Fire Events for External Output Time Step Changes (VBA)](Fire_Events_for_External_Output_Time_Step_Changes_Example_VB.htm)
 
 ## Remarks
@@ -70,9 +64,9 @@ When the motion simulation is occurring, the solver takes two types of time step
 - integrator
 - output
 
-Integrator time steps are taken during the solve; thus, it is not guaranteed that the solver will actually converge at that step. Output time steps are taken after the solver has converged. By default, the OutputTimeStepChangeNotify event is fired at integrator time steps. If you want to fire this event at output time steps, then set[IMotionStudy::SetFireOutputTimeStepEvents](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy~SetFireOutputTimeStepEvents.html)to true.
+Integrator time steps are taken during the solve; thus, it is not guaranteed that the solver will actually converge at that step. Output time steps are taken after the solver has converged. By default, the OutputTimeStepChangeNotify event is fired at integrator time steps. If you want to fire this event at output time steps, then set [IMotionStudy::SetFireOutputTimeStepEvents](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy~SetFireOutputTimeStepEvents.html) to true.
 
-If developing a C++ application, then use[swMotionStudyOutputTimeStepChangeNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html)to register for this notification.
+If developing a C++ application, then use [swMotionStudyOutputTimeStepChangeNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html) to register for this notification.
 
 ## Availability
 

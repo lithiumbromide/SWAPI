@@ -40,13 +40,7 @@ System.int NextReference()
 System.int NextReference();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Index of the entity that is used
 
 ## VBA Syntax
 
-See
-
-[RibFeatureData2::NextReference](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData2~NextReference.html)
-
-.
+See [RibFeatureData2::NextReference](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData2~NextReference.html).
 
 ## Remarks
 
@@ -67,7 +57,6 @@ This method cycles through the entities. It starts at the beginning again once t
 ## See Also
 
 [IRibFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2.html)
-
 [IRibFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData2_members.html)
 
 ## Availability

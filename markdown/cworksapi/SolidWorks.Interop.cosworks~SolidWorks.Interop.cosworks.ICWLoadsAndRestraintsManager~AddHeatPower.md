@@ -54,7 +54,7 @@ CWHeatPower^ AddHeatPower(
 ### Parameters
 
 - `DispArray`: Array of entities (bodies, faces, edges, and vertices) to which to apply heat power
-- `ErrorCode`: Error as defined in[swsHeatPowerError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsHeatPowerError_e.html)
+- `ErrorCode`: Error as defined in [swsHeatPowerError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsHeatPowerError_e.html)
 
 ### Return Value
 
@@ -62,18 +62,12 @@ CWHeatPower^ AddHeatPower(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddHeatPower](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddHeatPower.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddHeatPower](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddHeatPower.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
 
 ## Remarks
@@ -83,7 +77,6 @@ The specified value is applied to each entity.
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

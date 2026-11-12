@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ShowWarningD
 
 # ShowWarningDlg Method (IEdmBatchDelete)
 
-Obsolete. Superseded by
-
-[IEdmBatchDelete2::ShowWarningDlg2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete2~ShowWarningDlg2.html)
-
-.
+Obsolete. Superseded by [IEdmBatchDelete2::ShowWarningDlg2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete2~ShowWarningDlg2.html).
 
 ## Syntax
 
@@ -59,7 +55,6 @@ True if the user chooses to continue the operation in spite of the warnings, fal
 ## See Also
 
 [IEdmBatchDelete Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
 [IEdmBatchDelete Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete_members.html)
 
 ## Availability

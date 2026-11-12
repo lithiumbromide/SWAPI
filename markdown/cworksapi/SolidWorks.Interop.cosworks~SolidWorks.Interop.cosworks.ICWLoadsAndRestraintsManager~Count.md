@@ -48,34 +48,22 @@ Number of loads and restraints
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::Count](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~Count.html)
-
-.
+See [CWLoadsAndRestraintsManager::Count](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~Count.html).
 
 ## Examples
 
 [Copy Items to Another Study (VBA)](Copy_Items_to_Another_Study_Example_VB.htm)
-
 [Copy Items to Another Study (VB.NET)](Copy_Items_to_Another_Study_Example_VBNET.htm)
-
 [Copy Items to Another Study (C#)](Copy_Items_to_Another_Study_Example_CSharp.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[ICWLoadsAndRestraintsManager::GetLoadsAndRestraints](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraintsManager~GetLoadsAndRestraints.html)
-
-.
+Call this method before calling [ICWLoadsAndRestraintsManager::GetLoadsAndRestraints](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraintsManager~GetLoadsAndRestraints.html).
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
-
 [ICWLoadsAndRestraintsManager::GetEdgeWeldConnector Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~GetEdgeWeldConnector.html)
 
 ## Availability

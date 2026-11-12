@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Referenced_Configuration_Example_VB.htm"
 
 # Change Referenced Configuration Example (VBA)
 
-This example shows how to change the configuration of a component in
-an assemblywithout opening the part.
+This example shows how to change the configuration of a component in an assembly without opening the part.
 
 ```
 '---------------------------------------------

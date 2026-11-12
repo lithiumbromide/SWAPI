@@ -46,11 +46,7 @@ Number of sub-features in this pattern feature
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertPatternFeature::GetSubFeatureCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPatternFeature~GetSubFeatureCount.html)
-
-.
+See [SwDMDimXpertPatternFeature::GetSubFeatureCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPatternFeature~GetSubFeatureCount.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertPatternFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPatternFeature.html)
-
 [ISwDMDimXpertPatternFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPatternFeature_members.html)
 
 ## Availability

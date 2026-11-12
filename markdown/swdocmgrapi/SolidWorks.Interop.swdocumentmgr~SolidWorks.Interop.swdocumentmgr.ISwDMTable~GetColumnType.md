@@ -53,38 +53,26 @@ SwDmColumnType GetColumnType(
 
 ### Return Value
 
-Type of column as defined by
-
-[swDmColumnType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmColumnType.html)
+Type of column as defined by [swDmColumnType](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmColumnType.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMTable::GetColumnType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~GetColumnType.html)
-
-.
+See [SwDMTable::GetColumnType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable~GetColumnType.html).
 
 ## Remarks
 
 This method only supports documents saved in SOLIDWORKS 2009 and later.
 
-Before calling this method, call[ISwDMTable::GetColumnCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMTable~GetColumnCount.html)to determine the index of the column.
+Before calling this method, call [ISwDMTable::GetColumnCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMTable~GetColumnCount.html) to determine the index of the column.
 
 ## See Also
 
 [ISwDMTable Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable.html)
-
 [ISwDMTable Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable_members.html)
-
 [ISwDMTable::AddColumnLeft Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~AddColumnLeft.html)
-
 [ISwDMTable::AddColumnRight Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~AddColumnRight.html)
-
 [ISwDMTable::DeleteColumn Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable~DeleteColumn.html)
-
 [ISwDMTable2::GetColumnCustomProperty Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2~GetColumnCustomProperty.html)
-
 [ISwDMTable2::GetColumnWidth Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2~GetColumnWidth.html)
 
 ## Availability

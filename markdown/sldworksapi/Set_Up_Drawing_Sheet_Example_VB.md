@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Up_Drawing_Sheet_Example_VB.htm"
 
 # Change Setup of Drawing Sheet Example (VBA)
 
-This example shows how to change the setup of a drawing
-sheet by changing its paper size and template.
+This example shows how to change the setup of a drawing sheet by changing its paper size and template.
 
 ```
 '--------------------------------------------------------

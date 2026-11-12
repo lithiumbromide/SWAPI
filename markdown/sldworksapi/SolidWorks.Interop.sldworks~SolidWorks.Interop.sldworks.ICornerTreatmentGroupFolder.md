@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to a corner treatment group folder of a structure system.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,15 +41,11 @@ public interface class ICornerTreatmentGroupFolder
 
 ## VBA Syntax
 
-See
-
-[CornerTreatmentGroupFolder](ms-its:sldworksapivb6.chm::/sldworks~CornerTreatmentGroupFolder.html)
-
-.
+See [CornerTreatmentGroupFolder](ms-its:sldworksapivb6.chm::/sldworks~CornerTreatmentGroupFolder.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## Accessors
 
@@ -62,5 +58,4 @@ See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.
 ## See Also
 
 [ICornerTreatmentGroupFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerTreatmentGroupFolder_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

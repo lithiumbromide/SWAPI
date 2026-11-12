@@ -1,6 +1,5 @@
 ---
-title: "ChainPatternFeatureData Object
-Members"
+title: "ChainPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ChainPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ChainPatternFeatureData_members.html"
 ---
 
-# ChainPatternFeatureData Object
-Members
+# ChainPatternFeatureData Object Members
 
 ## Public Methods
 

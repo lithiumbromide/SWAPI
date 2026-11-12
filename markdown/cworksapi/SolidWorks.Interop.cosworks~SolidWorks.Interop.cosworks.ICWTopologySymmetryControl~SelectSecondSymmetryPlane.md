@@ -52,38 +52,20 @@ void SelectSecondSymmetryPlane(
 
 ## VBA Syntax
 
-See
-
-[CWTopologySymmetryControl::SelectSecondSymmetryPlane](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~SelectSecondSymmetryPlane.html)
-
-.
+See [CWTopologySymmetryControl::SelectSecondSymmetryPlane](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~SelectSecondSymmetryPlane.html).
 
 ## Examples
 
-See the
-
-[ICWTopologySymmetryControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
-example.
+See the [ICWTopologySymmetryControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html) example.
 
 ## Remarks
 
-This method is not valid if
-
-[ICWTopologySymmetryControl::SelectSymmetryType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~SelectSymmetryType.html)
-
-is set to
-
-[swsTopologySymmetryControlOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologySymmetryControlOption_e.html)
-
-.swsTopologySymmetryControlType_HalfSymmetry.
+This method is not valid if [ICWTopologySymmetryControl::SelectSymmetryType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~SelectSymmetryType.html) is set to [swsTopologySymmetryControlOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologySymmetryControlOption_e.html).swsTopologySymmetryControlType_HalfSymmetry.
 
 ## See Also
 
 [ICWTopologySymmetryControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
 [ICWTopologySymmetryControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl_members.html)
-
 [ICWTopologySymmetryControl::ClearSelPlanes Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~ClearSelPlanes.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnDirectionFlipped Method (ISwManipulatorHandler)
 
-Obsolete. Superseded by
-
-[ISwManipulatorHandler2::OnDirectonFlipped](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnDirectionFlipped.html)
-
-.
+Obsolete. Superseded by [ISwManipulatorHandler2::OnDirectonFlipped](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnDirectionFlipped.html).
 
 ## Syntax
 
@@ -56,14 +52,9 @@ void OnDirectionFlipped(
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler::OnDirectionFlipped](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnDirectionFlipped.html)
-
-.
+See [SwManipulatorHandler::OnDirectionFlipped](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnDirectionFlipped.html).
 
 ## See Also
 
 [ISwManipulatorHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html)
-
 [ISwManipulatorHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler_members.html)

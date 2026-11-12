@@ -40,13 +40,7 @@ System.int GetSketchSegmentsCount()
 System.int GetSketchSegmentsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of sketch segments
 
 ## VBA Syntax
 
-See
-
-[SketchContour::GetSketchSegmentsCount](ms-its:sldworksapivb6.chm::/sldworks~SketchContour~GetSketchSegmentsCount.html)
-
-.
+See [SketchContour::GetSketchSegmentsCount](ms-its:sldworksapivb6.chm::/sldworks~SketchContour~GetSketchSegmentsCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchContour::IGetSketchSegments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchContour~IGetSketchSegments.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchContour::IGetSketchSegments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchContour~IGetSketchSegments.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchContour Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour.html)
-
 [ISketchContour Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour_members.html)
-
 [ISketchContour::GetSketchSegments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour~GetSketchSegments.html)
 
 ## Availability

@@ -42,36 +42,25 @@ System.int HeatPowerEndEdit();
 
 ### Return Value
 
-Error as defined in[swsHeatPowerEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsHeatPowerEndEditError_e.html)
+Error as defined in [swsHeatPowerEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsHeatPowerEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::HeatPowerEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~HeatPowerEndEdit.html)
-
-.
+See [CWHeatPower::HeatPowerEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~HeatPowerEndEdit.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
 
 ## Remarks
 
-You must call
-
-[ICWHeatPower::HeatPowerBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWHeatPower~HeatPowerBeginEdit.html)
-
-to start editing heat power. To ends editing heat power, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWHeatPower::HeatPowerBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWHeatPower~HeatPowerBeginEdit.html) to start editing heat power. To ends editing heat power, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
 
 ## Availability

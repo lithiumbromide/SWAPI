@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertDiameterDimTol Object
-Members"
+title: "SwDMDimXpertDiameterDimTol Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertDiameterDimTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertDiameterDimTol_members.html"
 ---
 
-# SwDMDimXpertDiameterDimTol Object
-Members
+# SwDMDimXpertDiameterDimTol Object Members
 
 ## Public Properties
 

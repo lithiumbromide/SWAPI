@@ -43,20 +43,13 @@ void SendMsg(
 ### Parameters
 
 - `bsSubject`: Subject of the email
-- `bsMessageText`: Message detail (see
-
-Remarks
-
-)
+- `bsMessageText`: Message detail (see **Remarks**)
 
 ## Examples
 
 [Send Message to Users (C#)](Send_Message_to_Users_Example_CSharp.htm)
-
 [Send Message to Users (VB.NET)](Send_Message_to_Users_Example_VBNET.htm)
-
 [Add and Remove User and Group from Folder (C#)](Add_and_Remove_User_and_Group_from_Folder_Example_CSharp.htm)
-
 [Add and Remove User and Group from Folder (VB.NET)](Add_and_Remove_User_and_Group_from_Folder_Example_VBNET.htm)
 
 ## Remarks
@@ -74,11 +67,8 @@ For example, bsMessageText might contain:
 ## See Also
 
 [IEdmUser5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5.html)
-
 [IEdmUser5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5_members.html)
-
 [IEdmUserGroup5::SendMsg Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5~SendMsg.html)
-
 [IEdmInbox5::SendMsg Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5~SendMsg.html)
 
 ## Availability

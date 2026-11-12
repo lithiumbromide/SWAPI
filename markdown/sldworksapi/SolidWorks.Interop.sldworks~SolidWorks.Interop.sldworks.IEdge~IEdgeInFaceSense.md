@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # IEdgeInFaceSense Method (IEdge)
 
-Obsolete. Superseded by
-
-[IEdge::IEdgeInFaceSense2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IEdgeInFaceSense2.html)
-
-.
+Obsolete. Superseded by [IEdge::IEdgeInFaceSense2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IEdgeInFaceSense2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool IEdgeInFaceSense(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Edge::IEdgeInFaceSense](ms-its:sldworksapivb6.chm::/sldworks~Edge~IEdgeInFaceSense.html)
-
-.
+See [Edge::IEdgeInFaceSense](ms-its:sldworksapivb6.chm::/sldworks~Edge~IEdgeInFaceSense.html).
 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)

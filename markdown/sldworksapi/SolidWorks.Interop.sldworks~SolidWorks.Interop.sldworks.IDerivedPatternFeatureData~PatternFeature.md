@@ -45,48 +45,30 @@ property System.Object^ PatternFeature {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pattern
-
-[feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
-on which to base this derived pattern feature
+Pattern [feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html) on which to base this derived pattern feature
 
 ## VBA Syntax
 
-See
-
-[DerivedPatternFeatureData::PatternFeature](ms-its:sldworksapivb6.chm::/sldworks~DerivedPatternFeatureData~PatternFeature.html)
-
-.
+See [DerivedPatternFeatureData::PatternFeature](ms-its:sldworksapivb6.chm::/sldworks~DerivedPatternFeatureData~PatternFeature.html).
 
 ## Examples
 
 [Create Derived Pattern Feature (C#)](Create_Derived_Pattern_Feature_Example_CSharp.htm)
-
 [Create Derived Pattern Feature (VB.NET)](Create_Derived_Pattern_Feature_Example_VBNET.htm)
-
 [Create Derived Pattern Feature (VBA)](Create_Derived_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [IDerivedPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPatternFeatureData.html)
-
 [IDerivedPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPatternFeatureData_members.html)
-
 [IDerivedPatternFeatureData::DrivingFeatureSkippedItemArray Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPatternFeatureData~DrivingFeatureSkippedItemArray.html)
 
 ## Availability

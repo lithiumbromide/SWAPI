@@ -42,32 +42,19 @@ property System.int ApplicationType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of application as defined by
-
-[swApplicationType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swApplicationType_e.html)
+Type of application as defined by [swApplicationType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swApplicationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ApplicationType](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ApplicationType.html)
-
-.
+See [SldWorks::ApplicationType](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ApplicationType.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

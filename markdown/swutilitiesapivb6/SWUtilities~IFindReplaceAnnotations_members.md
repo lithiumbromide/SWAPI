@@ -1,6 +1,5 @@
 ---
-title: "IFindReplaceAnnotations Object
-Members"
+title: "IFindReplaceAnnotations Object Members"
 project: "SWUtilitiesActiveX DLL"
 interface: "IFindReplaceAnnotations_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swutilitiesapivb6/SWUtilities~IFindReplaceAnnotations_members.html"
 ---
 
-# IFindReplaceAnnotations Object
-Members
+# IFindReplaceAnnotations Object Members
 
 ## Public Methods
 

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Scale_of_Each_Model_View_Example_CSharp.htm"
 
 # Get Scale Factor of Each Model View Example (C#)
 
-This example shows how to get the scale factor of each model view in a part
-document.
+This example shows how to get the scale factor of each model view in a part document.
 
 ```
 //---------------------------------

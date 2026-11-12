@@ -51,19 +51,11 @@ System.bool SetChangeToConfigurations(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Config_opt`: Configuration option as defined in
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Config_opt`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `Config_names`: Array of the names of the configurations to modify
 
 ### Return Value
@@ -72,18 +64,12 @@ True if the operation succeeds, false if it fails
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::SetChangeToConfigurations](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~SetChangeToConfigurations.html)
-
-.
+See [ExtrudeFeatureData2::SetChangeToConfigurations](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~SetChangeToConfigurations.html).
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IExtrudeFeatureData2::ISetChangeToConfigurations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~ISetChangeToConfigurations.html)
 
 ## Availability

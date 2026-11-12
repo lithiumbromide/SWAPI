@@ -47,13 +47,7 @@ System.bool DeleteLayer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ True if the layer was successfully deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[LayerMgr::DeleteLayer](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~DeleteLayer.html)
-
-.
+See [LayerMgr::DeleteLayer](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~DeleteLayer.html).
 
 ## See Also
 
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
-
 [ILayerMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr_members.html)
-
 [ILayerMgr::GetCurrentLayer Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr~GetCurrentLayer.html)
 
 ## Availability

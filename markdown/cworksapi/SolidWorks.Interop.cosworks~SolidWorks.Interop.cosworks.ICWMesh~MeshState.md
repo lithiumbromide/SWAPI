@@ -44,32 +44,23 @@ property System.int MeshState {
 
 ### Property Value
 
-Mesh state as defined in[swsMeshState_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshState_e.html)
+Mesh state as defined in [swsMeshState_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshState_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMesh::MeshState](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~MeshState.html)
-
-.
+See [CWMesh::MeshState](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~MeshState.html).
 
 ## Examples
 
 [Get and Set Beams and Joints (C#)](Get_and_Set_Beams_and_Joints_Example_CSharp.htm)
-
 [Get and Set Beams and Joints (VB.NET)](Get_and_Set_Beams_and_Joints_Example_VBNET.htm)
-
 [Get and Set Beams and Joints (VBA)](Get_and_Set_Beams_and_Joints_Example_VB.htm)
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::IsMeshFailed Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~IsMeshFailed.html)
-
 [ICWMesh::IsComponentFailed Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~IsComponentFailed.html)
 
 ## Availability

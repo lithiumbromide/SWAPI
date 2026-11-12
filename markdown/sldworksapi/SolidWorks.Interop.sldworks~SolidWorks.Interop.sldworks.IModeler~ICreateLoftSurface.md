@@ -131,68 +131,40 @@ Surface^ ICreateLoftSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NCurves`: Number of B-spline curves
-- `CurveArray`: Array of b-spline
-
-[curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+- `CurveArray`: Array of b-spline [curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 - `BBlendClosed`: True if blend closed, false if not
 - `BForceCubic`: True if force surface is cubic, false if not
 - `NGuides`: Number of guide curves
-- `GuideCrvArray`: Array of guide
-
-[curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+- `GuideCrvArray`: Array of guide [curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 - `StartMatchingType`: Start matching type:
 
-- 0 = MATCH_NONE (default)
-- 1 = MATCH_NORMAL
-- 2 = MATCH_VECTOR
-- 3 = MATCH_ALL_FACES or MATCH_FACE_G1
-- 4 = MATCH_FACE_G2
+  - 0 = MATCH_NONE (default)
+  - 1 = MATCH_NORMAL
+  - 2 = MATCH_VECTOR
+  - 3 = MATCH_ALL_FACES or MATCH_FACE_G1
+  - 4 = MATCH_FACE_G2
 - `EndMatchingType`: End matching type:
 
-- 0 = MATCH_NONE (default)
-- 1 = MATCH_NORMAL
-- 2 = MATCH_VECTOR
-- 3 = MATCH_ALL_FACES or MATCH_FACE_G1
-- 4 = MATCH_FACE_G2
-- `NormalAtStartSection`: [Normal at start section](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-when StartMatchingType is MATCH_NORMAL or MATCH_VECTOR; otherwise, can be NULL
-- `NormalAtEndSection`: Array of matching
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-at end section when startMatchingType is MATCH_ALL_FACES, MATCH_FACE_G1, or MATCH_FACE_G2; otherwise, can be NULL
+  - 0 = MATCH_NONE (default)
+  - 1 = MATCH_NORMAL
+  - 2 = MATCH_VECTOR
+  - 3 = MATCH_ALL_FACES or MATCH_FACE_G1
+  - 4 = MATCH_FACE_G2
+- `NormalAtStartSection`: [Normal at start section](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) when StartMatchingType is MATCH_NORMAL or MATCH_VECTOR; otherwise, can be NULL
+- `NormalAtEndSection`: Array of matching [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) at end section when startMatchingType is MATCH_ALL_FACES, MATCH_FACE_G1, or MATCH_FACE_G2; otherwise, can be NULL
 - `NStartMatchingFaces`: Number of matching faces at start section when startMatchingType is MATCH_ALL_FACES, MATCH_FACE_G1, or MATCH_FACE_G2; otherwise, can be 0
-- `StartMatchingFaceList`: Array of matching
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-at start section when startMatchingType is MATCH_ALL_FACES, MATCH_FACE_G1, or MATCH_FACE_G2; otherwise, can be NULL
+- `StartMatchingFaceList`: Array of matching [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) at start section when startMatchingType is MATCH_ALL_FACES, MATCH_FACE_G1, or MATCH_FACE_G2; otherwise, can be NULL
 - `NEndMatchingFaces`: Number of matching faces at end section when startMatchingType is MATCH_ALL_FACES, MATCH_FACE_G1, or MATCH_FACE_G2; otherwise, can be 0
-- `EndMatchingFaceList`: Array of matching
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-at end section when startMatchingType is MATCH_ALL_FACES, MATCH_FACE_G1, or MATCH_FACE_G2; otherwise, can be NULL
+- `EndMatchingFaceList`: Array of matching [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) at end section when startMatchingType is MATCH_ALL_FACES, MATCH_FACE_G1, or MATCH_FACE_G2; otherwise, can be NULL
 - `DegeneratedStart`: True to degenerate at start, false to not
 - `DegeneratedEnd`: True to degenerate at end, false to not
-- `StartPointOfStartSection`: [Start point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-of start section
-- `StartPointOfEndSection`: [Start point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-of end section
+- `StartPointOfStartSection`: [Start point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) of start section
+- `StartPointOfEndSection`: [Start point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) of end section
 - `SectionIndexStart`: Index of start section; default is -1
 - `SectionIndexEnd`: Index of end section; default is -1
 - `GuideIndexStart`: Index of start guide curve; default is -1
@@ -200,58 +172,31 @@ of end section
 
 ## VBA Syntax
 
-See
-
-[Modeler::ICreateLoftSurface](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateLoftSurface.html)
-
-.
+See [Modeler::ICreateLoftSurface](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateLoftSurface.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::CreateLoftSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateLoftSurface.html)
-
 [IModeler::CreateBsplineSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateBsplineSurface.html)
-
 [IModeler::CreateConicalSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateConicalSurface2.html)
-
 [IModeler::CreateCoonsBSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateCoonsBSurface.html)
-
 [IModeler::CreateCylindricalSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateCylindricalSurface2.html)
-
 [IModeler::CreateExtrusionSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateExtrusionSurface.html)
-
 [IModeler::CreateOffsetSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateOffsetSurface.html)
-
 [IModeler::CreatePlanarSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreatePlanarSurface2.html)
-
 [IModeler::CreateRuledSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateRuledSurface.html)
-
 [IModeler::CreateSphericalSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateSphericalSurface2.html)
-
 [IModeler::CreateSweptSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateSweptSurface.html)
-
 [IModeler::CreateToroidalSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateToroidalSurface.html)
-
 [IModeler::ICreateBsplineSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateBsplineSurface.html)
-
 [IModeler::ICreateConicalSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateConicalSurface2.html)
-
 [IModeler::ICreateCylindricalSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateCylindricalSurface2.html)
-
 [IModeler::ICreateExtrusionSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateExtrusionSurface.html)
-
 [IModeler::ICreateOffsetSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateOffsetSurface.html)
-
 [IModeler::ICreatePlanarSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreatePlanarSurface2.html)
-
 [IModeler::ICreateRuledSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateRuledSurface.html)
-
 [IModeler::ICreateSphericalSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateSphericalSurface2.html)
-
 [IModeler::ICreateSweptSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateSweptSurface.html)
-
 [IModeler::ICreateToroidalSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateToroidalSurface.html)

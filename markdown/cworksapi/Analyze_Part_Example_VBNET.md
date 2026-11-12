@@ -9,11 +9,9 @@ source: "cworksapi/Analyze_Part_Example_VBNET.htm"
 
 # Analyze Part Example (VB.NET)
 
-This example shows how to perform a static analysis of a part and plot nodal
-strain results.
+This example shows how to perform a static analysis of a part and plot nodal strain results.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
 '----------------------------------------------------------------------------
@@ -311,155 +309,22 @@ Partial Class SolidWorksMacro
 ' Create a nodal equivalent strain plot
 ```
 
-plot = CWResult.
-
-CreatePlot
-
-(3,
-swsStaticResultNodalStrainComponentTypes_e.swsStaticNodalStrain_ESTRN,
-swsUnit_e.swsUnitSI,
-
-False
-
-,
-
-errorCode)
-
-errorCode = plot.
-
-ActivatePlot
-
-errorCode = plot.
-
-GetPlotName
-
-(plotName)
-
-errorCode = plot.
-
-ApplyNameViewOrientation
-
-(
-
-"*Front"
-
-)
-
-results = plot.
-
-GetMinMaxResultValues
-
-(errorCode)
-
-errorCode = plot.
-
-SetPlotTitle
-
-(
-
-"Nodal
-Equivalent Strain"
-
-)
-
-plot.
-
-SetFOSPlot
-
-(
-
-False
-
-)
-
-plot.
-
-Set2DPlanarRevolveAngle
-
-(0.0#)
-
-plot.
-
-SetNormalizeModeShape
-
-(
-
-False
-
-)
-
-plot.
-
-ShowAs3DPlot
-
-(
-
-True
-
-)
-
-plot.
-
-ShowTensorOrVector
-
-(
-
-False
-
-)
-
-plot.
-
-ShowShellin3D
-
-(
-
-False
-
-)
-
-plot.
-
-ShowNormalizeValuesFrom0To1
-
-(
-
-True
-
-)
-
-errorCode = plot.
-
-ShowDeformedPlot
-
-(
-
-True
-
-,
-swsDeformType_e.swsAutomatic, 0,
-
-True
-
-)
-
-plot.
-
-ShowBeamProfile
-
-(
-
-False
-
-)
-
-plot.
-
-ShowAvgResultsAcrossBoundaryForParts
-
-(
-
-False
+plot = CWResult.**CreatePlot**(3, swsStaticResultNodalStrainComponentTypes_e.swsStaticNodalStrain_ESTRN, swsUnit_e.swsUnitSI, False, errorCode)
+errorCode = plot.**ActivatePlot**
+errorCode = plot.**GetPlotName**(plotName)
+errorCode = plot.**ApplyNameViewOrientation**("*Front")
+results = plot.**GetMinMaxResultValues**(errorCode)
+errorCode = plot.**SetPlotTitle**("Nodal Equivalent Strain")
+plot.**SetFOSPlot**(False)
+plot.**Set2DPlanarRevolveAngle**(0.0#)
+plot.**SetNormalizeModeShape**(False)
+plot.**ShowAs3DPlot**(True)
+plot.**ShowTensorOrVector**(False)
+plot.**ShowShellin3D**(False)
+plot.**ShowNormalizeValuesFrom0To1**(True)
+errorCode = plot.**ShowDeformedPlot**(True, swsDeformType_e.swsAutomatic, 0, True)
+plot.**ShowBeamProfile**(False)
+plot.**ShowAvgResultsAcrossBoundaryForParts**(False
 
 )
 
@@ -469,46 +334,9 @@ Debug.
 
 Print(
 
-"Result
-plot created: "
-
-& plotName)
-
-Debug
-
-.
-
-Print(
-
-"Node
-"
-
-& results(0) &
-
-" "
-
-&
-
-"has minimum strain value: "
-
-& results(1))
-
-Debug
-
-.
-
-Print(
-
-"Node
-"
-
-& results(2) &
-
-" "
-
-&
-
-"has maximum strain value: "
+"Result plot created: " & plotName)
+Debug.Print("Node " & results(0) & " " & "has minimum strain value: " & results(1))
+Debug.Print("Node " & results(2) & " " & "has maximum strain value: "
 
 & results(3))
 
@@ -518,26 +346,11 @@ Debug.
 
 Print(
 
-"Number
-of plots for these results: "
+"Number of plots for these results: " & CWResult.**GetPlotCount**)
 
-& CWResult.
+For Each Name In
 
-GetPlotCount
-
-)
-
-For
-
-Each
-
-Name
-
-In
-
-CWResult.
-
-GetPlotNames
+CWResult.**GetPlotNames**
 
 ```vb
 Debug.
@@ -545,159 +358,40 @@ Debug.
 
 Print(
 
-""
+"")
+Debug.Print("Plot: " & Name)
+errorCode = CWResult.**GetPlotColorOptions**(Name, nType, nBase, nContour, BFlip, BSpecifyColorLimit, VarColor)
+Debug.Print("Plot color options:")
+Debug.Print(" Color map as defined in swsColorChartOptionLegendTypeValue_e: " & nType)
+Debug.Print(" Number of base colors in color map: " & nBase)
+Debug.Print(" Number of gradient colors in color map: " & nContour)
+Debug.Print(" Reverse the color mapping? " & BFlip)
+Debug.Print(" Specify a color for values above the yield limit? " & BSpecifyColorLimit)
+Debug.Print(" Color for values above the yield limit and user-defined colors (RGB): "
 
 )
 
-Debug
-
-.
-
-Print(
-
-"Plot:
-"
-
-& Name)
-
-errorCode = CWResult.
-
-GetPlotColorOptions
-
-(Name,
-nType, nBase, nContour, BFlip, BSpecifyColorLimit, VarColor)
-
-Debug
-
-.
-
-Print(
-
-"Plot
-color options:"
-
-)
-
-Debug
-
-.
-
-Print(
-
-"
-Color map as defined in swsColorChartOptionLegendTypeValue_e: "
-
-& nType)
-
-Debug
-
-.
-
-Print(
-
-"
-Number of base colors in color map: "
-
-& nBase)
-
-Debug
-
-.
-
-Print(
-
-"
-Number of gradient colors in color map: "
-
-&
-nContour)
-
-Debug.
-
-Print(
-
-"
-Reverse the color mapping? "
-
-& BFlip)
-
-Debug
-
-.
-
-Print(
-
-"
-Specify a color for values above the yield limit? "
-
-& BSpecifyColorLimit)
-
-Debug
-
-.
-
-Print(
-
-"
-Color for values above the yield limit and user-defined colors (RGB):
-"
-
-)
-
-Dim
-
-rgb
-
-As
-
-String
-
+Dim rgb As String
 rgb =
 
 "{"
 
 Dim
 
-rgbInd
-
-As
-
-Integer
+rgbInd As Integer
 
 rgbInd = 1
 
-Dim
-
-size
-
-As
-
-Integer
+Dim size As Integer
 
 size = UBound(VarColor)
 
-Dim
-
-ind
-
-As
-
-Integer
+Dim ind As Integer
 
 ind = 1
 
-' Create
-RGB triplet for each color
-
-For
-
-Each
-
-Color
-
-In
-
-VarColor
+' Create RGB triplet for each color
+For Each Color In VarColor
 
 ```vb
  If rgbInd < 3  Then
@@ -708,7 +402,6 @@ rgb = rgb & Color &
 ```
 
 ","
-
 rgbInd = rgbInd + 1
 
 Else
@@ -721,25 +414,13 @@ rgb = rgb & Color &
 
 rgbInd = 1
 
-If
-
-Not
-
-ind = size + 1
-
-Then
-
+If Not ind = size + 1 Then
 rgb = rgb &
 
 "{"
+End If
 
-End
-
-If
-
-End
-
-If
+End If
 
 ```vb
 ind = ind + 1
@@ -755,10 +436,7 @@ Debug.
 
 Print(
 
-"
-"
-
-& rgb)
+" " & rgb)
 
 ```vb
  errorCode = CWResult.GetLegendContourColors(Name, VarColor)

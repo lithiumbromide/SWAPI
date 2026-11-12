@@ -40,13 +40,7 @@ System.string GetCurrentCoordinateSystemName()
 System.String^ GetCurrentCoordinateSystemName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Name of the current coordinate system
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetCurrentCoordinateSystemName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetCurrentCoordinateSystemName.html)
-
-.
+See [ModelDoc2::GetCurrentCoordinateSystemName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetCurrentCoordinateSystemName.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertCoordinateSystem Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertCoordinateSystem.html)
-
 [IModelDocExtension::GetCoordinateSystemTransformByName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCoordinateSystemTransformByName.html)
 
 ## Availability

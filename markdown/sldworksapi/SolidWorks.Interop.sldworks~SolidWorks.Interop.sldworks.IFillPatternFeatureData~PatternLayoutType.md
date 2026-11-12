@@ -45,35 +45,19 @@ property System.int PatternLayoutType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Fill pattern layout type as defined in
-
-[swPatternLayoutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutType_e.html)
+Fill pattern layout type as defined in [swPatternLayoutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutType_e.html)
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData::PatternLayoutType](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~PatternLayoutType.html)
-
-.
+See [FillPatternFeatureData::PatternLayoutType](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~PatternLayoutType.html).
 
 ## Examples
 
-See the
-
-[IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
-example.
+See the [IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html) example.
 
 ## Remarks
 
@@ -90,7 +74,6 @@ Specify other properties as required by the settings above.
 ## See Also
 
 [IFillPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
 
 ## Availability

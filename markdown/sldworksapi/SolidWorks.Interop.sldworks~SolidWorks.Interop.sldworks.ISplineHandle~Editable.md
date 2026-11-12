@@ -45,13 +45,7 @@ property System.bool Editable {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Trueif the spline can be edited, false if not
 
 ## VBA Syntax
 
-See
-
-[SplineHandle::Editable](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~Editable.html)
-
-.
+See [SplineHandle::Editable](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~Editable.html).
 
 ## See Also
 
 [ISplineHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
 [ISplineHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle_members.html)
 
 ## Availability

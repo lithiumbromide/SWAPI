@@ -59,20 +59,14 @@ System.int GetSearchData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `AppName`: Third-party application name whose keywords to get
 - `AppNames`: Array of strings of the third-party application name
 - `NodeNames`: Array of strings of the third-party application name's keywords
-- `NodeValues`: Array of strings of the third-party application name's keyword valuesParamDesc
+- `NodeValues`: Array of strings of the third-party application name's keyword values
 
 ### Return Value
 
@@ -80,11 +74,7 @@ Number of third-party application name's keywords
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetSearchData](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetSearchData.html)
-
-.
+See [ModelDocExtension::GetSearchData](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetSearchData.html).
 
 ## Examples
 
@@ -93,15 +83,10 @@ See
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::IGetSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetSearchData.html)
-
 [IModelDocExtension::AddOrUpdateSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddOrUpdateSearchData.html)
-
 [IModelDocExtension::DeleteSearchData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSearchData.html)
-
 [IModelDocExtension::GetSearchDataCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSearchDataCount.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Whether_Components_Are_Loaded_Example_VB.htm"
 
 # Get Whether Components Are Loaded Example (VBA)
 
-This example gets whether the components in an assembly document are
-loaded.
+This example gets whether the components in an assembly document are loaded.
 
 ```vb
 '--------------------------------------------------------
@@ -72,15 +71,15 @@ Set swConfigMgr = swModel.ConfigurationManager
 Set swConfig = swConfigMgr.ActiveConfiguration
 Components = swAssembly.GetComponents(True)
 For i = 0 To UBound(Components)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swComponent = Components(i)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}If (swComponent.IsLoaded) Then
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "Component: " & swComponent.Name & " is loaded."
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Else
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "Component: " & swComponent.Name & " is not loaded. "
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End If
+    Set swComponent = Components(i)
+    If (swComponent.IsLoaded) Then
+        Debug.Print "Component: " & swComponent.Name & " is loaded."
+    Else
+        Debug.Print "Component: " & swComponent.Name & " is not loaded. "
+    End If
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print " Suppressed: " & swConfig.GetComponentSuppressionState(swComponent.Name)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print ""
+    Debug.Print " Suppressed: " & swConfig.GetComponentSuppressionState(swComponent.Name)
+    Debug.Print ""
 
 Next
 ```

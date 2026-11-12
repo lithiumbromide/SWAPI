@@ -9,7 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # ICostAnalysisSheetMetal Interface Methods
 
-For a list of all members of this type, see[ICostAnalysisSheetMetal members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html).
+For a list of all members of this type, see [ICostAnalysisSheetMetal members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html).
 
 ## Public Methods
 
@@ -31,5 +31,4 @@ For a list of all members of this type, see[ICostAnalysisSheetMetal members](Sol
 ## See Also
 
 [ICostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.html)
-
 [SolidWorks.Interop.sldcostingapi Namespace](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi_namespace.html)

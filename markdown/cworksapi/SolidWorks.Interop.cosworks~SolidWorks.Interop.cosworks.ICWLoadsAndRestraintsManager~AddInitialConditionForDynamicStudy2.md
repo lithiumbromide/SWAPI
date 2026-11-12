@@ -93,26 +93,24 @@ CWDynamicInitialCondition^ AddInitialConditionForDynamicStudy2(
 
 ### Parameters
 
-- `NType`: Type of dynamic initial condition as defined in
-
-[swsDynamicInitialConditionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDynamicInitialConditionType_e.html)
-- `NSelectionType`: Type of selection as defined in
-
-[swsSelectionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSelectionType_e.html)
+- `NType`: Type of dynamic initial condition as defined in [swsDynamicInitialConditionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDynamicInitialConditionType_e.html)
+- `NSelectionType`: Type of selection as defined in [swsSelectionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSelectionType_e.html)
 - `DispArray`: Array of components, bodies, or faces to which to apply the initial condition
 - `RefEntity`: Face, edge, or plane reference geometry
-- `NUnits`: | If NType is swsDynamicInitialConditionType_e.... | Then units are as defined in ... |
-| --- | --- |
-| swsDynamicInitialConditionType_Displacement | swsLinearUnit_e |
-| swsDynamicInitialConditionType_Velocity | swsVelocityUnit_e |
-| swsDynamicInitialConditionType_Acceleration | swsAccelerationUnit_e |
+- `NUnits`:
+
+  | If NType is swsDynamicInitialConditionType_e.... | Then units are as defined in ... |
+  | --- | --- |
+  | swsDynamicInitialConditionType_Displacement | swsLinearUnit_e |
+  | swsDynamicInitialConditionType_Velocity | swsVelocityUnit_e |
+  | swsDynamicInitialConditionType_Acceleration | swsAccelerationUnit_e |
 - `BDir1`: -1 or true to set a value along plane direction 1 or along a radial direction, 0 or false to not; valid only if RefEntity is set to a planar face, reference plane, cylindrical face, or null
 - `DVal1`: Value along plane direction 1 or along a radial direction; valid only if BDir1 = -1
 - `BDir2`: -1 or true to set a value along plane direction 2 or along a circumferential direction, 0 or false to not; valid only if RefEntity is set to a planar face, reference plane, cylindrical face, or null
 - `DVal2`: Value along plane direction 2 or along a circumferential direction; valid only if BDir2 = -1
 - `BDir3`: -1 or true to set a value along the normal to the plane or along an edge, 0 or false to not; valid only if RefEntity is set to a planar face, reference plane, cylindrical face, edge, or null
 - `DVal3`: Value along the normal to the plane or along an edge; valid only if BDir3 = -1
-- `ErrorCode`: Error code as defined in[swsDynamicInitialConditionError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDynamicInitialConditionError_e.html)kadov_tag{{<spaces>}}
+- `ErrorCode`: Error code as defined in [swsDynamicInitialConditionError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDynamicInitialConditionError_e.html)
 
 ### Return Value
 
@@ -120,11 +118,7 @@ CWDynamicInitialCondition^ AddInitialConditionForDynamicStudy2(
 
 ## Examples
 
-See the
-
-[ICWDynamicInitialCondition](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
-examples.
+See the [ICWDynamicInitialCondition](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html) examples.
 
 ## Remarks
 
@@ -138,7 +132,6 @@ If out parameters BDir1, BDir2, and BDir3 are cast as:
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

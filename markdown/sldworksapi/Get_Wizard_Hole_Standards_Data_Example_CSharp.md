@@ -9,13 +9,12 @@ source: "sldworksapi/Get_Wizard_Hole_Standards_Data_Example_CSharp.htm"
 
 # Get Hole Standards Data Example (C#)
 
-This example shows how to retrieve hole standards data from the Hole Wizard
-database.
+This example shows how to retrieve hole standards data from the Hole Wizard database.
 
 ```vb
   //----------------------------------------------------------------------------
  // Preconditions:
- // 1. Open SOLIDWORKS.
+ // 1. Open SOLIDWORKS Design.
  // 2. Open an Immediate window.
  //
  // Postconditions:

@@ -54,36 +54,23 @@ System.int AddStudyOption(
 ### Parameters
 
 - `SStudyName`: Name of study
-- `NRunMeshOption`: Run and mesh option as defined in
-
-[swsRunStudiesRunMeshOptions_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptions_e.html)
+- `NRunMeshOption`: Run and mesh option as defined in [swsRunStudiesRunMeshOptions_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptions_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsRunStudiesRunMeshOptionErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptionErrorCode_e.html)
+Error code as defined in [swsRunStudiesRunMeshOptionErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptionErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRunSpecStudiesRunMeshOptions::AddStudyOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRunSpecStudiesRunMeshOptions~AddStudyOption.html)
-
-.
+See [CWRunSpecStudiesRunMeshOptions::AddStudyOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRunSpecStudiesRunMeshOptions~AddStudyOption.html).
 
 ## Examples
 
-See the
-
-[ICWRunSpecStudiesRunMeshOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions.html)
-
-examples.
+See the [ICWRunSpecStudiesRunMeshOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions.html) examples.
 
 ## See Also
 
 [ICWRunSpecStudiesRunMeshOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions.html)
-
 [ICWRunSpecStudiesRunMeshOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions_members.html)
 
 ## Availability

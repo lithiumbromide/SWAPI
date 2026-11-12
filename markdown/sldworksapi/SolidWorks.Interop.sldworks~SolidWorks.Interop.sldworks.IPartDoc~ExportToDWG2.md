@@ -79,32 +79,18 @@ System.bool ExportToDWG2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FilePath`: Path and file name of the exported DXF/DWG file
 - `ModelName`: Path and file name of the active part document
-- `Action`: Export action as defined in
-
-[swExportToDWG_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swExportToDWG_e.html)
-
-(see
-
-Remarks
-
-)
+- `Action`: Export action as defined in [swExportToDWG_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swExportToDWG_e.html) (see **Remarks**)
 - `ExportToSingleFile`: True to save as one file; false to save as multiple files
-- `Alignment`: Array of 12 double values that contain information related to output alignment (see**Remarks**)
+- `Alignment`: Array of 12 double values that contain information related to output alignment (see **Remarks**)
 - `IsXDirFlipped`: True to flip the x direction; false otherwise
 - `IsYDirFlipped`: True to flip the y direction; false otherwise
-- `SheetMetalOptions`: [Bitmask](sldworksapiprogguide.chm::/OVERVIEW/Bitmasks.htm)that contains sheet metal export options; valid only if Action = swExportToDWG_e.swExportToDWG_ExportSheetMetal (see**Remarks**)
+- `SheetMetalOptions`: [Bitmask](sldworksapiprogguide.chm::/OVERVIEW/Bitmasks.htm) that contains sheet metal export options; valid only if Action = swExportToDWG_e.swExportToDWG_ExportSheetMetal (see **Remarks**)
 - `Views`: Array of annotation view names to export; valid only if Action = swExportToDWG_e.swExportToDWG_ExportAnnotationViews
 
 ### Return Value
@@ -113,18 +99,12 @@ True if export is successful; false if not
 
 ## VBA Syntax
 
-See
-
-[PartDoc::ExportToDWG2](ms-its:sldworksapivb6.chm::/Sldworks~PartDoc~ExportToDWG2.html)
-
-.
+See [PartDoc::ExportToDWG2](ms-its:sldworksapivb6.chm::/Sldworks~PartDoc~ExportToDWG2.html).
 
 ## Examples
 
 [Export Part to DWG (VBA)](Export_Part_To_DWG_Example_VB.htm)
-
 [Export Part to DWG (VB.NET)](Export_Part_To_DWG_Example_VBNET.htm)
-
 [Export Part to DWG (C#)](Export_Part_To_DWG_Example_CSharp.htm)
 
 ## Remarks
@@ -150,7 +130,7 @@ NOTE:
 - Sheet-metal part exports are automatically constrained to align the flat-pattern normal to the 2D sheet normal, thereby limiting the degrees of freedom available to the API caller.
 - The last three elements of the array are valid only if Action = swExportToDWG_e.swExportToDW_ExportSelectedFacesOrLoops.
 
-SheetMetalOptions bitmask is {12 11 10 9 8 7 6 5 4 3 2 1}, where each bit is either 0 or 1 as follows:
+SheetMetalOptions bitmask is {14 13 12 11 10 9 8 7 6 5 4 3 2 1}, where each bit is either 0 or 1 as follows:
 
 Bit #1: 1 to export flat-pattern geometry; 0 to not
 
@@ -176,6 +156,10 @@ Bit #11: 0
 
 Bit #12: 1 to export bounding box; 0 to not
 
+Bit #13: 1 to export cosmetic threads; 0 to not
+
+Bit #14: 1 to export hidden sketches; 0 to not
+
 For example, if you want to export:
 
 - flat-pattern geometry, bend lines, and sketches, then Bits 1, 3, and 4 are 1, the bitmask is 0001101, and you need to set SheetMetalOptions = 2^0 + 2^2 + 2^3 = 1 + 4 + 8 = 13.
@@ -186,11 +170,8 @@ You must select multi-body sheet-metal features (i.e., multiple flat-pattern fea
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::IExportToDWG2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~IExportToDWG2.html)
-
 [IPartDoc::ExportFlatPatternView Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ExportFlatPatternView.html)
 
 ## Availability

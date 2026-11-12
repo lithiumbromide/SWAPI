@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IBomTableSortData Interface Properties
 
-For a list of all members of this type, see[IBomTableSortData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData_members.html).
+For a list of all members of this type, see [IBomTableSortData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData_members.html).
 
 ## Public Properties
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[IBomTableSortData members](SolidWork
 ## See Also
 
 [IBomTableSortData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableSortData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

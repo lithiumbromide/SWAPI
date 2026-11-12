@@ -51,40 +51,23 @@ Normal or torque value
 
 ## VBA Syntax
 
-See
-
-[CWForce::NormalForceOrTorqueValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~NormalForceOrTorqueValue.html)
-
-.
+See [CWForce::NormalForceOrTorqueValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~NormalForceOrTorqueValue.html).
 
 ## Examples
 
 [Apply Table-driven Load to Multiple Beams (C#)](Apply_Table-driven_Load_to_Multiple_Beams_Example_CSharp.htm)
-
 [Apply Table-driven Load to Multiple Beams (VB.NET)](Apply_Table-driven_Load_to_Multiple_Beams_Example_VBNET.htm)
-
 [Apply Table-driven Load to Multiple Beams (VBA)](Apply_Table-driven_Load_to_Multiple_Beams_Example_VB.htm)
 
 ## Remarks
 
-This property is valid only if
-
-[ICWForce::ForceType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~ForceType.html)
-
-is set to
-
-[swsForceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsForceType_e.html)
-
-.swsForceTypeNormal or swsForceType_e.swsForceTypeTorque.
+This property is valid only if [ICWForce::ForceType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~ForceType.html) is set to [swsForceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsForceType_e.html).swsForceTypeNormal or swsForceType_e.swsForceTypeTorque.
 
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
-
 [ICWForce::Unit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~Unit.html)
-
 [ICWForce::SetReferenceGeometry Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetReferenceGeometry.html)
 
 ## Availability

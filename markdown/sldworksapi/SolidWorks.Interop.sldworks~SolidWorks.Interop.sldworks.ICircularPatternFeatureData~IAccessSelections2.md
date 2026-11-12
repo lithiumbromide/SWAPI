@@ -51,13 +51,7 @@ System.bool IAccessSelections2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,11 +60,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[CircularPatternFeatureData::IAccessSelections2](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~IAccessSelections2.html)
-
-.
+See [CircularPatternFeatureData::IAccessSelections2](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~IAccessSelections2.html).
 
 ## Remarks
 
@@ -83,17 +73,12 @@ Remarks
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [ICircularPatternFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICircularPatternFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [ICircularPatternFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICircularPatternFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
 [ICircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData_members.html)
 
 ## Availability

@@ -46,11 +46,7 @@ MotionStudy^ CreateMotionStudy();
 
 ## VBA Syntax
 
-See
-
-[MotionStudyManager::CreateMotionStudy](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyManager~CreateMotionStudy.html)
-
-.
+See [MotionStudyManager::CreateMotionStudy](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyManager~CreateMotionStudy.html).
 
 ## Examples
 
@@ -59,19 +55,12 @@ See
 ## See Also
 
 [IMotionStudyManager Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager.html)
-
 [IMotionStudyManager Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager_members.html)
-
 [IMotionStudyManager::DeleteMotionStudy Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~DeleteMotionStudy.html)
-
 [IMotionStudyManager::GetMotionStudy Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudy.html)
-
 [IMotionStudyManager::GetMotionStudyCount Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudyCount.html)
-
 [IMotionStudyManager::GetMotionStudyNames Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudyNames.html)
-
 [IMotionStudyManager::IGetMotionStudyNames Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~IGetMotionStudyNames.html)
-
 [IMotionStudyManager::ActivateMotionStudy Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~ActivateMotionStudy.html)
 
 ## Availability

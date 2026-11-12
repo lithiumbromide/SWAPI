@@ -40,13 +40,7 @@ System.int GetFinCount()
 System.int GetFinCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Number of fins for this tessellation
 
 ## VBA Syntax
 
-See
-
-[Tessellation::GetFinCount](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFinCount.html)
-
-.
+See [Tessellation::GetFinCount](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFinCount.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
 
 ## Availability

@@ -11,208 +11,89 @@ source: "routingapi/Get_RouteManager_and_Electrical_Route_Example_VB.htm"
 
 This example shows how to get the RouteManager from an assembly and then how to get the electrical route.
 
+```vb
 '----------------------------------------------------------------------------
-' Preconditions:
-'kadov_tag{{<spaces>}}1. Open an assembly document that contains a routing assembly.
-'kadov_tag{{<spaces>}}2. Select a component
-representing a routing assembly.
-'
-' Postconditions: None
-'---------------------------------------------------------------------------
-
+ ' Preconditions:
+ ' 1. Open an assembly document that contains a routing assembly.
+ ' 2. Select a component representing a routing assembly.
+ '
+ ' Postconditions: None
+ '---------------------------------------------------------------------------
 Option Explicit
 
 Dim swApp As SldWorks.SldWorks
 
 Sub Main()
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelDoc2
+    Dim swModel              As SldWorks.ModelDoc2
+    Dim swTopLevelAssembly   As SldWorks.AssemblyDoc
+    Dim swRoutingAssembly    As SldWorks.AssemblyDoc
+    Dim rtRouteManager       As SWRoutingLib.RouteManager
+    Dim swComponent          As SldWorks.Component2
+    Dim rtElectricalRoute    As SWRoutingLib.ElectricalRoute
+    Dim bRetVal              As Boolean
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swTopLevelAssemblykadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.AssemblyDoc
+    ' Connect to SOLIDWORKS
+    Set swApp = Application.SldWorks
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swRoutingAssemblykadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.AssemblyDoc
+    ' Get the active document
+    Set swModel = swApp.ActiveDoc
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-rtRouteManagerkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SWRoutingLib.RouteManager
+    ' Downcast from model document to assembly document
+    Set swTopLevelAssembly = swModel
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swComponentkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.Component2
+    ' Select the component that represents a routing assembly
+    Set swComponent = swModel.SelectionManager.GetSelectedObject6(1, 0)
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-rtElectricalRoutekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SWRoutingLib.ElectricalRoute
+    If swComponent Is Nothing Then
+        Debug.Print "No component selected"
+        Exit Sub
+    End If
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bRetValkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Booleankadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    ' Get the assembly document for this component
+    Set swRoutingAssembly = swComponent.GetModelDoc
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    ' Get the RouteManager from the routing assembly
+    Set rtRouteManager = swRoutingAssembly.GetRouteManager
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Connect to SOLIDWORKS
+    If rtRouteManager Is Nothing Then
+        Debug.Print "No RouteManager found in sub-assembly document: " & swRoutingAssembly.GetPathName
+        Exit Sub
+    End If
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
+    '
+    ' Must be editing component for route properties to be available
+    '
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    ' Clear selection
+    swModel.ClearSelection2 True
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get the active document
+    ' Make sure the component representing the routing assembly is selected
+    bRetVal = swComponent.Select3(True, Nothing)
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.**ActiveDoc**
+    ' Start editing the routing assembly
+    swTopLevelAssembly.EditAssembly
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    ' Get the electrical route
+    Set rtElectricalRoute = rtRouteManager.GetElectricalRoute
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Downcast from model document to assembly document
+    ' Check for an electrical route
+    If rtElectricalRoute Is Nothing Then
+        Debug.Print "No electrical route found."
+    Else
+        Debug.Print "Electrical route found."
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swTopLevelAssembly = swModel
+        Debug.Print "Number of cables = " & rtElectricalRoute.GetCablesCount
+        Debug.Print "Number of wires  = " & rtElectricalRoute.GetWiresCount
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+        '
+        ' Make edits ...
+        '
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Select the component that represents a routing assembly
+    End If
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swComponent = swModel.SelectionManager.**GetSelectedObject6**(1, 0)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-swComponent Is Nothing Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"No component selected"
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Exit
-Sub
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get the assembly document for this component
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swRoutingAssembly = swComponent.**GetModelDoc**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get the RouteManager from the routing assembly
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-rtRouteManager = swRoutingAssembly.**GetRouteManager**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-rtRouteManager Is Nothing Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"No RouteManager found in sub-assembly document: " & swRoutingAssembly.**GetPathName**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Exit
-Subkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Must be editing component for route properties to be available
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Clear selection
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel.**ClearSelection2**True
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Make sure the component representing the routing assembly is selected
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bRetVal
-= swComponent.**Select3**(True, Nothing)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Start editing the routing assembly
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swTopLevelAssembly.**EditAssembly**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get the electrical route
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-rtElectricalRoute = rtRouteManager.GetElectricalRoute
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Check for an electrical route
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-rtElectricalRoute Is Nothing Thenkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"No electrical route found."kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Elsekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"Electrical route found."
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"Number of cables = " & rtElectricalRoute.GetCablesCount
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"Number of wireskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & rtElectricalRoute.GetWiresCount
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Make edits ...
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Return to editing the top-level assembly
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swTopLevelAssembly.**EditAssembly**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    ' Return to editing the top-level assembly
+    swTopLevelAssembly.EditAssembly
 
 End Sub
+```

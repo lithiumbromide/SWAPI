@@ -9,9 +9,7 @@ source: "sldworksapiprogguide/Overview/Overview_of_Multibody_Parts.htm"
 
 # Overview of Multibody Parts
 
-Part documents can contain multiple solid bodies. You can manipulate
-multibody solid bodies the same way you manipulate single solid bodies.
-You can create multiple solid bodies from a single feature by:
+Part documents can contain multiple solid bodies. You can manipulate multibody solid bodies the same way you manipulate single solid bodies. You can create multiple solid bodies from a single feature by:
 
 - Extruding a boss or a cut (including thin features)
 - Revolving a boss or a cut (including thin features)
@@ -22,11 +20,6 @@ You can create multiple solid bodies from a single feature by:
 - Creating a cavity
 - Inserting a rib
 
-See[Programming Multibody
-Parts](Programming_Multibody_Parts.htm)for details.
+See [Programming Multibody Parts](Programming_Multibody_Parts.htm) for details.
 
-NOTE:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Multibody
-parts are not intended to be a substitute for assemblies. Instead, one
-part should represent one part number on a Bill of Materials. For more
-information about multibody parts, modeling techniques, and features,
-see SOLIDWORKS Help.
+NOTE: Multibody parts are not intended to be a substitute for assemblies. Instead, one part should represent one part number on a Bill of Materials. For more information about multibody parts, modeling techniques, and features, see SOLIDWORKS Help.

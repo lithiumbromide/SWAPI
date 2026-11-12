@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # AddCommandItem Method (ICommandGroup)
 
-Obsolete. Superseded by
-
-[ICommandGroup::AddComandItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~AddCommandItem2.html)
-
-.
+Obsolete. Superseded by [ICommandGroup::AddComandItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~AddCommandItem2.html).
 
 ## Syntax
 
@@ -79,13 +75,7 @@ System.int AddCommandItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -100,14 +90,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::AddCommandItem](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~AddCommandItem.html)
-
-.
+See [CommandGroup::AddCommandItem](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~AddCommandItem.html).
 
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)

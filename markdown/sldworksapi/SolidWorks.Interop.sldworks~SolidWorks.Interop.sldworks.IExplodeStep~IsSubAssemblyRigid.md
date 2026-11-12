@@ -40,13 +40,7 @@ System.bool IsSubAssemblyRigid()
 System.bool IsSubAssemblyRigid();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the subassembly is rigid, false if it is flexible
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::IsSubAssemblyRigid](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~IsSubAssemblyRigid.html)
-
-.
+See [ExplodeStep::IsSubAssemblyRigid](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~IsSubAssemblyRigid.html).
 
 ## Remarks
 
@@ -67,9 +57,7 @@ See the SOLIDWORKS Help for more information about flexible and rigid subassembl
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
-
 [IComponent2::Solving Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~Solving.html)
 
 ## Availability

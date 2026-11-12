@@ -45,27 +45,15 @@ property System.int Style {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Line style as defined in
-
-[swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html)
+Line style as defined in [swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html)
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::Style](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~Style.html)
-
-.
+See [DrawingComponent::Style](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~Style.html).
 
 ## Examples
 
@@ -73,22 +61,14 @@ See
 
 ## Remarks
 
-Use
-
-[IDrawingComponent::LayerOverride](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~LayerOverride.html)
-
-to determine whether or not this component is
-
+Use [IDrawingComponent::LayerOverride](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingComponent~LayerOverride.html) to determine whether or not this component is
 currently using its default layer line style.
 
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
-
 [IDrawingComponent::Layer Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~Layer.html)
-
 [IDrawingComponent::Width Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~Width.html)
 
 ## Availability

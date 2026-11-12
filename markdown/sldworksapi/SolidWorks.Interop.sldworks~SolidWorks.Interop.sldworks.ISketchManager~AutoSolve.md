@@ -45,13 +45,7 @@ property System.bool AutoSolve {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True if automatic solve is on, false if off
 
 ## VBA Syntax
 
-See
-
-[SketchManager::AutoSolve](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~AutoSolve.html)
-
-.
+See [SketchManager::AutoSolve](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~AutoSolve.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketch::GetAutomaticSolve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetAutomaticSolve.html)
 
 ## Availability

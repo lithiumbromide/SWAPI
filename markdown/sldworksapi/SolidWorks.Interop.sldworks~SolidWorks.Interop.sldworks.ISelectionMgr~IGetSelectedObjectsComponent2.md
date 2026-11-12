@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # IGetSelectedObjectsComponent2 Method (ISelectionMgr)
 
-Obsolete. Superseded by
-
-[ISelectionMgr::GetSelectedObjectsComponent3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectsComponent3.html)
-
-.
+Obsolete. Superseded by [ISelectionMgr::GetSelectedObjectsComponent3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectsComponent3.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Component2^ IGetSelectedObjectsComponent2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::IGetSelectedObjectsComponent2](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~IGetSelectedObjectsComponent2.html)
-
-.
+See [SelectionMgr::IGetSelectedObjectsComponent2](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~IGetSelectedObjectsComponent2.html).
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)

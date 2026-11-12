@@ -10,14 +10,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 # ICostAnalysisCasting Interface
 
 Allows access to the casting Costing of a Costing analysis.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,23 +40,17 @@ public interface class ICostAnalysisCasting
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisCasting](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting.html)
-
-.
+See [CostAnalysisCasting](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisCasting.html).
 
 ## Examples
 
 [Create Casting Costing Analysis (C#)](Create_Casting_Costing_Analysis_Example_CSharp.htm)
-
 [Create Casting Costing Analysis (VB.NET)](Create_Casting_Costing_Analysis_Example_VBNET.htm)
-
 [Create Casting Costing Analysis (VBA)](Create_Casting_Costing_Analysis_Example_VB.htm)
 
 ## Remarks
 
-A complete Costing analysis includes the[common Costing analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html)and the casting Costing analysis.
+A complete Costing analysis includes the [common Costing analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html) and the casting Costing analysis.
 
 See the SOLIDWORKS Help for more information about casting Costing.
 
@@ -74,5 +61,4 @@ See the SOLIDWORKS Help for more information about casting Costing.
 ## See Also
 
 [ICostAnalysisCasting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisCasting_members.html)
-
 [SolidWorks.Interop.sldcostingapi Namespace](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi_namespace.html)

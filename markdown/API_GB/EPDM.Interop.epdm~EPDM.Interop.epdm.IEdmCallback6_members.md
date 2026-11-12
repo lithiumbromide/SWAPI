@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6_members.html"
 
 # IEdmCallback6 Interface Members
 
-The following tables list the members exposed by[IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html).
+The following tables list the members exposed by [IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html).
 
 ## Public Methods
 
@@ -26,5 +26,4 @@ The following tables list the members exposed by[IEdmCallback6](EPDM.Interop.epd
 ## See Also
 
 [IEdmCallback6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

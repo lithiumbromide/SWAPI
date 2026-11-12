@@ -48,11 +48,7 @@ Date document last updated
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::UpdateStamp](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~UpdateStamp.html)
-
-.
+See [PDMWDocument::UpdateStamp](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~UpdateStamp.html).
 
 ## Remarks
 
@@ -68,9 +64,7 @@ This property returns 0 for non-SOLIDWORKS documents.
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::DateModified Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~DateModified.html)
 
 ## Availability

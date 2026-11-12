@@ -39,16 +39,11 @@ Label comment
 
 ## Examples
 
-See the
-
-[IEdmLabel5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel5.html)
-
-examples.
+See the [IEdmLabel5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel5.html) examples.
 
 ## See Also
 
 [IEdmLabel5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel5.html)
-
 [IEdmLabel5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel5_members.html)
 
 ## Availability

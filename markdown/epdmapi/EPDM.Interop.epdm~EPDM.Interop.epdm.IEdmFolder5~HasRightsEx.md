@@ -42,11 +42,7 @@ System.bool HasRightsEx(
 
 ### Parameters
 
-- `lRights`: Combination of
-
-[EdmRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRightFlags.html)
-
-bits
+- `lRights`: Combination of [EdmRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRightFlags.html) bits
 - `lFileID`: Optional ID of file on which to check lRights; 0 or null to check lRights on this folder only
 
 ### Return Value
@@ -56,14 +52,13 @@ True if the user has all of the specified permissions, false if the user is miss
 ## Examples
 
 [Vault Utilities (VB.NET)](Vault_Utilities_Example_VBNET.htm)
-
 [Vault Utilities (C#)](Vault_Utilities_Example_CSharp.htm)
 
 ## Remarks
 
 This method takes into account both the rights set explicitly on the user and those inherited from groups of which the user is a member. Optionally, you can specify the ID of a file for which to check rights. In that case, the rights-check includes workflow rights set on the current status of the file. If no file ID is specified, or it is 0, the rights-check is performed only on this folder.
 
-**Note**: This method is only available in SOLIDWORKS PDM Professional Version 5.3 and later. If the program must have backward compatibility with SOLIDWORKS PDM Professional 5.2, use[IEdmFolder5::HasRights](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights.html)instead.
+**Note**: This method is only available in SOLIDWORKS PDM Professional Version 5.3 and later. If the program must have backward compatibility with SOLIDWORKS PDM Professional 5.2, use [IEdmFolder5::HasRights](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~HasRights.html) instead.
 
 [Return codes](ReturnCodes.htm):
 
@@ -73,7 +68,6 @@ This method takes into account both the rights set explicitly on the user and th
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)
 
 ## Availability

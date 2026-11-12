@@ -1,0 +1,25 @@
+#swapi-enums 1 module=fworksapi sw=2026 prefix=SolidWorks.Interop.fworks~SolidWorks.Interop.fworks. cols=name,value,description
+@fwAdvancedOptions_e	bitmask	Feature advanced options.
+fwAdvAddConstraintsToSketch	1	Add constraints to a feature's sketch
+fwAdvAllowFailFeatureCreation	2	Allow creation of a feature even if the feature has a rebuild error
+fwAdvAllowWizardHoleRecognition	4	Recognize a hole as a wizard hole
+@fwAutomaticRecognitionOptions_e	bitmask	Automatic recognition options.
+fwAutoEdgeFlange	256	Recognize edge flange features automatically
+fwAutoHemFlange	512	Recognize hem features automatically
+fwBaseFlange	64	Recognize base flange features automatically
+fwChamfils	16	Recognize fillets and chamfers automatically
+fwExtrudeOption	1	Recognize extrude features automatically
+fwHoles	8	Recognize hole features automatically
+fwRevolve	4	Recognize revolve features automatically
+fwRibs	32	Recognize rib features automatically
+fwSketchedBend	128	Recognize sketched bend features automatically
+fwVolume	2	Recognize volume features automatically
+@fwFeatureCreationOptions_e	bitmask	Feature creation options.
+fwAddConstraintsToSketch	1	When you specify this option, the software adds a Fix relation to each entity in a sketch, fully defining the sketch; if this option is not specified, then the sketch entities remain underdefined
+fwAllowFailFeatureCreation	2	When you specify this option, the software allows the creation of a feature even if the feature has a rebuild error
+@fwInteractiveRecognitionOptions_e	bitmask	Interactive recognition options.
+fwChainFeatures	1	Chain feature faces. Applies to these features: Fillets Chamfers Boss revolve Cut revolve Holes
+fwNormalToSketch	2	Turn on or turn off normal to sketch
+@fwPerformanceOptions_e		Performance options.
+fwDoNotPerformBodyCheck	1	When you do not specify this option, the software periodically checks the body during feature recognition; if this option is specified, then the software does not check the body for any errors (resulting in faster performance)
+fwDoNotPerformIntrusionCheck	2	When you specify this option, the software does not check for features that intrude upon one another during automatic feature recognition

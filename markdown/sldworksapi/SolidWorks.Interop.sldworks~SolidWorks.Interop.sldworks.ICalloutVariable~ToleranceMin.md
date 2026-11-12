@@ -45,13 +45,7 @@ property System.double ToleranceMin {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Minimum tolerance
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::ToleranceMin](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~ToleranceMin.html)
-
-.
+See [CalloutVariable::ToleranceMin](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~ToleranceMin.html).
 
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
-
 [ICalloutVariable::ToleranceMax Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ToleranceMax.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMathUtility Interface Members
 
-The following tables list the members exposed by[IMathUtility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.html).
+The following tables list the members exposed by [IMathUtility](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.html).
 
 ## Public Methods
 
@@ -30,13 +30,8 @@ The following tables list the members exposed by[IMathUtility](SolidWorks.Intero
 ## See Also
 
 [IMathUtility Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMathPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint.html)
-
 [IMathTransform Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IUserUnit Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)

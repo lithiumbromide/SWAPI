@@ -45,13 +45,7 @@ property System.bool HiddenViewsVisible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,14 @@ True if views are visible, false if they are hidden
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::HiddenViewsVisible](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~HiddenViewsVisible.html)
-
-.
+See [DrawingDoc::HiddenViewsVisible](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~HiddenViewsVisible.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::HideShowDimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~HideShowDimensions.html)
-
 [IDrawingDoc::SuppressView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~SuppressView.html)
-
 [IDrawingDoc::UnsuppressView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~UnsuppressView.html)
 
 ## Availability

@@ -48,16 +48,11 @@ Name of this annotation
 
 ## VBA Syntax
 
-See
-
-[DimXpertAnnotation::Name](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~Name.html)
-
-.
+See [DimXpertAnnotation::Name](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~Name.html).
 
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [IDimXpertAnnotation Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html)
 
 ## Availability

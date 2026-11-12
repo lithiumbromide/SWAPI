@@ -42,13 +42,7 @@ property System.double Radius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,18 @@ Radius
 
 ## VBA Syntax
 
-See
-
-[Measure::Radius](ms-its:sldworksapivb6.chm::/Sldworks~Measure~Radius.html)
-
-.
+See [Measure::Radius](ms-its:sldworksapivb6.chm::/Sldworks~Measure~Radius.html).
 
 ## Examples
 
 [Measure Selected Entities (C#)](Measure_Selected_Entities_Example_CSharp.htm)
-
 [Measure Selected Entities (VB.NET)](Measure_Selected_Entities_Example_VBNET.htm)
-
 [Measure Selected Entities (VBA)](Measure_Selected_Entities_Example_VB.htm)
 
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [IMeasure Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html)
-
 [IMeasure::Diameter Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~Diameter.html)
 
 ## Availability

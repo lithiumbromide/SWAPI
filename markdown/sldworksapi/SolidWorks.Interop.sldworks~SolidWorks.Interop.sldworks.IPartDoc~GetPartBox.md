@@ -47,13 +47,7 @@ System.Object^ GetPartBox(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ Array of 6 doubles containing the 2 diagonal points that bound the part
 
 ## VBA Syntax
 
-See
-
-[PartDoc::GetPartBox](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~GetPartBox.html)
-
-.
+See [PartDoc::GetPartBox](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~GetPartBox.html).
 
 ## Examples
 
@@ -84,13 +74,8 @@ The X,Y,Z points returned are the lower- and upper-diagonal corners that bound t
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IModelDocExtension::GetVisibleBox Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetVisibleBox.html)
-
 [IModelDocExtension::RemoveVisibleBox Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RemoveVisibleBox.html)
-
 [IModelDocExtension::SetVisibleBox Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SetVisibleBox.html)
-
 [IComponent2::GetBox Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetBox.html)

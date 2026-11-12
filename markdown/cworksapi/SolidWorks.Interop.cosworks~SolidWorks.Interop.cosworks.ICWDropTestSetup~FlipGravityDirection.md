@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDr
 
 # FlipGravityDirection Property (ICWDropTestSetup)
 
-Obsolete. Superseded by[ICWDropTestSetup::FlipGravityDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~FlipGravityDirection2.html).
+Obsolete. Superseded by [ICWDropTestSetup::FlipGravityDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~FlipGravityDirection2.html).
 
 ## Syntax
 
@@ -51,22 +51,14 @@ property System.int FlipGravityDirection {
 
 ## VBA Syntax
 
-See
-
-[CWDropTestSetup::FlipGravityDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~FlipGravityDirection.html)
-
-.
+See [CWDropTestSetup::FlipGravityDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~FlipGravityDirection.html).
 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
-
 [ICWDropTestSetup::SetEntityForGravityDirection Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~SetEntityForGravityDirection.html)
-
 [ICWDropTestSetup::Gravity Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~Gravity.html)
-
 [ICWDropTestSetup::GravityUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup~GravityUnit.html)
 
 ## Availability

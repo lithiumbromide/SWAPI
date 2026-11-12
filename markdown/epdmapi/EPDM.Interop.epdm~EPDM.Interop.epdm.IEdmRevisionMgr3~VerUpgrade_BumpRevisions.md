@@ -39,15 +39,7 @@ void VerUpgrade_BumpRevisions(
 
 ### Parameters
 
-- `poFiles`: Array of
-
-[EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html)
-
-structures; one structure for each file on which to bump the revision number (see
-
-Remarks
-
-)
+- `poFiles`: Array of [EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html) structures; one structure for each file on which to bump the revision number (see **Remarks**)
 
 ## Remarks
 
@@ -62,7 +54,6 @@ poFiles contains the array of files on which to bump revision numbers. Files lac
 ## See Also
 
 [IEdmRevisionMgr3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr3.html)
-
 [IEdmRevisionMgr3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr3_members.html)
 
 ## Availability

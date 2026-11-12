@@ -45,53 +45,30 @@ property System.Object^ FeatureScopeBodies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)that this boundary feature affects
+Array of [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) that this boundary feature affects
 
 ## VBA Syntax
 
-See
-
-[BoundaryBossFeatureData::FeatureScopeBodies](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData~FeatureScopeBodies.html)
-
-.
+See [BoundaryBossFeatureData::FeatureScopeBodies](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData~FeatureScopeBodies.html).
 
 ## Remarks
 
 This property is only available when:
 
-- [IBoundaryBossFeatureData::FeatureScope](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~FeatureScope.html)
+- [IBoundaryBossFeatureData::FeatureScope](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~FeatureScope.html) is true.
+- curves are [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) or [edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html).
 
-  is true.
-- curves are
-
-  [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-  or
-
-  [edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-  .
-
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IBoundaryBossFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData.html)
-
 [IBoundaryBossFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData_members.html)
-
 [IBoundaryBossFeatureData::AutoSelect Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~AutoSelect.html)
-
 [IBoundaryBossFeatureData::FeatureScopeBodiesCount Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData~FeatureScopeBodiesCount.html)
 
 ## Availability

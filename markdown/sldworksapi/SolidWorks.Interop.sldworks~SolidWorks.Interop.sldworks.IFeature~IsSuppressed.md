@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IsSuppressed Method (IFeature)
 
-Obsolete. Superseded by
-
-[IFeature::IsSuppressed2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IsSuppressed2.html)
-
-.
+Obsolete. Superseded by [IFeature::IsSuppressed2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IsSuppressed2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool IsSuppressed()
 System.bool IsSuppressed();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Feature::IsSuppressed](ms-its:sldworksapivb6.chm::/sldworks~Feature~IsSuppressed.html)
-
-.
+See [Feature::IsSuppressed](ms-its:sldworksapivb6.chm::/sldworks~Feature~IsSuppressed.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)

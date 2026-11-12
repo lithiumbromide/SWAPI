@@ -48,24 +48,15 @@ Thickness of ribbon cable
 
 ## VBA Syntax
 
-See
-
-[RibbonCable::GetRibbonCableThickness](ms-its:routingapivb6.chm::/SWRoutingLib~RibbonCable~GetRibbonCableThickness.html)
-
-.
+See [RibbonCable::GetRibbonCableThickness](ms-its:routingapivb6.chm::/SWRoutingLib~RibbonCable~GetRibbonCableThickness.html).
 
 ## Examples
 
-See the
-
-[IRibbonCable](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRibbonCable.html)
-
-examples.
+See the [IRibbonCable](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRibbonCable.html) examples.
 
 ## See Also
 
 [IRibbonCable Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRibbonCable.html)
-
 [IRibbonCable Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRibbonCable_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool FlipDimension {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to flip the dimension, false to not
 
 ## VBA Syntax
 
-See
-
-[DistanceMateFeatureData::FlipDimension](ms-its:sldworksapivb6.chm::/sldworks~DistanceMateFeatureData~FlipDimension.html)
-
-.
+See [DistanceMateFeatureData::FlipDimension](ms-its:sldworksapivb6.chm::/sldworks~DistanceMateFeatureData~FlipDimension.html).
 
 ## Examples
 
-See the
-
-[IDistanceMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html)
-
-examples.
+See the [IDistanceMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html) examples.
 
 ## See Also
 
 [IDistanceMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html)
-
 [IDistanceMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData_members.html)
 
 ## Availability

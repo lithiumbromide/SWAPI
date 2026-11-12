@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # SetIsolateVisibility Method (IAssemblyDoc)
 
-Sets the display characteristics of all of the components not selected to
-
-[isolate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~Isolate.html)
-
-.
+Sets the display characteristics of all of the components not selected to [isolate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~Isolate.html).
 
 ## Syntax
 
@@ -50,52 +46,29 @@ void SetIsolateVisibility(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Option`: Display characteristics of all of the components not selected to isolate as defined in
-
-[swIsolateVisibility_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swIsolateVisibility_e.html)
+- `Option`: Display characteristics of all of the components not selected to isolate as defined in [swIsolateVisibility_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swIsolateVisibility_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::SetIsolateVisibility](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SetIsolateVisibility.html)
-
-.
+See [AssemblyDoc::SetIsolateVisibility](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SetIsolateVisibility.html).
 
 ## Examples
 
 [Isolate Component (C#)](Isolate_Component_Example_CSharp.htm)
-
 [Isolate Component (VB.NET)](Isolate_Component_Example_VBNET.htm)
-
 [Isolate Component (VBA)](Isolate_Component_Example_VB.htm)
 
 ## Remarks
 
-Before you
-
-[exit isolate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ExitIsolate.html)
-
-, you can
-
-[save the display characteristics to a new display state](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~SaveIsolate.html)
-
-, which you can access from the ConfigurationManager. If you do not save before exiting isolate, then the display returns to its original state.
+Before you [exit isolate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ExitIsolate.html), you can [save the display characteristics to a new display state](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~SaveIsolate.html), which you can access from the ConfigurationManager. If you do not save before exiting isolate, then the display returns to its original state.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

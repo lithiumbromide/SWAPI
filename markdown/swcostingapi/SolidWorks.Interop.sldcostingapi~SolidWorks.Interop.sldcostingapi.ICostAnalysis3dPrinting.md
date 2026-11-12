@@ -10,14 +10,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 # ICostAnalysis3dPrinting Interface
 
 Allows access to the 3D printing Costing of a Costing analysis.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,23 +40,17 @@ public interface class ICostAnalysis3dPrinting
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting.html)
-
-.
+See [CostAnalysis3dPrinting](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting.html).
 
 ## Examples
 
 [Create 3D Printing Costing Analysis (C#)](Create_3D_Printing_Costing_Analysis_Example_CSharp.htm)
-
 [Create 3D Printing Costing Analysis (VB.NET)](Create_3D_Printing_Costing_Analysis_Example_VBNET.htm)
-
 [Create 3D Printing Costing Analysis (VBA)](Create_3D_Printing_Costing_Analysis_Example_VB.htm)
 
 ## Remarks
 
-A complete Costing analysis includes the[common Costing analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html)and the 3D printing Costing analysis.
+A complete Costing analysis includes the [common Costing analysis](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysis.html) and the 3D printing Costing analysis.
 
 See the SOLIDWORKS Help for more information about 3D printing Costing.
 
@@ -74,5 +61,4 @@ See the SOLIDWORKS Help for more information about 3D printing Costing.
 ## See Also
 
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
-
 [SolidWorks.Interop.sldcostingapi Namespace](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi_namespace.html)

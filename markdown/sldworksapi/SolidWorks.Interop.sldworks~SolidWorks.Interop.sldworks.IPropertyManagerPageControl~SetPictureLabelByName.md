@@ -51,13 +51,7 @@ System.bool SetPictureLabelByName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,22 +64,17 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageControl::SetPictureLabelByName](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~SetPictureLabelByName.html)
-
-.
+See [PropertyManagerPageControl::SetPictureLabelByName](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~SetPictureLabelByName.html).
 
 ## Remarks
 
-The image format for the two bitmaps is 18 x 18 pixels x 256 colors.The pixels in MaskBitmap specify transparency through shades of grey with boundaries of black pixels = 100% opaque and white pixels = 100% transparent.
+The image format for the two bitmaps is 18 x 18 pixels x 256 colors. The pixels in MaskBitmap specify transparency through shades of grey with boundaries of black pixels = 100% opaque and white pixels = 100% transparent.
 
 You can only use this method on a PropertyManager page before the page is displayed, while it is displayed, or when it is closed.
 
 ## See Also
 
 [IPropertyManagerPageControl Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl.html)
-
 [IPropertyManagerPageControl Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl_members.html)
 
 ## Availability

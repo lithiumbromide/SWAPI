@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # EnumRelatedSectionedBodies Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::EnumRelatedSectionedBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~EnumRelatedSectionedBodies2.html)
-
-.
+Obsolete. Superseded by [IPartDoc::EnumRelatedSectionedBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~EnumRelatedSectionedBodies2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ EnumBodies^ EnumRelatedSectionedBodies(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::EnumRelatedSectionedBodies](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~EnumRelatedSectionedBodies.html)
-
-.
+See [PartDoc::EnumRelatedSectionedBodies](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~EnumRelatedSectionedBodies.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

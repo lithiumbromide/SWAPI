@@ -1,6 +1,5 @@
 ---
-title: "IPartialEdgeFilletData Object
-Members"
+title: "IPartialEdgeFilletData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPartialEdgeFilletData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPartialEdgeFilletData_members.html"
 ---
 
-# IPartialEdgeFilletData Object
-Members
+# IPartialEdgeFilletData Object Members
 
 ## Public Methods
 

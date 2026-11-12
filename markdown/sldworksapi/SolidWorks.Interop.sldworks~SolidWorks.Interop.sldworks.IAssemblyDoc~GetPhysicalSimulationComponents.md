@@ -70,52 +70,29 @@ void GetPhysicalSimulationComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `InDuration`: Total elapsed time for Physical Simulation
 - `OutCount`: Size for all returned arrays
-- `OutComponents`: Array of the
-
-[IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-objects
-- `OutTransforms`: Array of the
-
-[IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
-
-objects
+- `OutComponents`: Array of the [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) objects
+- `OutTransforms`: Array of the [IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) objects
 - `OutStepStartTimes`: Array of doubles of size outCount; when each step in the Physical Simulation should happen
 - `OutStepDurations`: Array of doubles of size outCount; how long each step in the Physical Simulation should take
 - `OutTotalPhysSimDuration`: Total elapsed time Physical Simulation should have taken
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetPhysicalSimulationComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetPhysicalSimulationComponents.html)
-
-.
+See [AssemblyDoc::GetPhysicalSimulationComponents](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetPhysicalSimulationComponents.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [ISimulation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html)
-
 [ISimulationGravityFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html)
-
 [ISimulationLinearSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationLinearSpringFeatureData.html)
-
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
 
 ## Availability

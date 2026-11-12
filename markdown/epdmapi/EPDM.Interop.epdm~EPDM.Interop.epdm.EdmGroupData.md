@@ -36,40 +36,33 @@ public value class EdmGroupData : public System.ValueType
 
 struct EdmGroupData
 
-{ string mbsName ;
+{
+string [mbsName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mbsName.html);
 
-string mbsDescription ;
+string [mbsDescription](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mbsDescription.html);
 
-integer mlFlags ;
+integer [mlFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mlFlags.html);
 
-integer mlSysRights ;
+integer [mlSysRights](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mlSysRights.html);
 
-short mbAutoAdd ;
+short [mbAutoAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mbAutoAdd.html);
 
-array moMembers ;
+array [moMembers](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~moMembers.html);
 
-integer mlGroupID ;
+integer [mlGroupID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mlGroupID.html);
 
-integer mhStatus ;
+integer [mhStatus](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mhStatus.html);
 
-[IEdmUserGroup5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5.html)
-
-*
-
-[mpoGroup](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mpoGroup.html)
-
-;
-
+[IEdmUserGroup5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5.html) *[mpoGroup](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mpoGroup.html);
 };
 
 ## Remarks
 
-Used in[IEdmUserMgr6::AddGroups](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddGroups.html). This structure is extended by[EdmGroupData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2.html), which should be used instead of this structure in version 2010 and later.
+Used in [IEdmUserMgr6::AddGroups](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddGroups.html). This structure is extended by [EdmGroupData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2.html), which should be used instead of this structure in version 2010 and later.
 
 ## See Also
 
 [EdmGroupData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

@@ -47,6 +47,7 @@ public enum class swPartNotify_e : public System.Enum
 | swPartActiveDisplayStateChangePreNotify | 60 = ActiveDisplayStateChangePreNotify |
 | swPartActiveViewChangeNotify | 53 = ActiveViewChangeNotify |
 | swPartAddCustomPropertyNotify | 21 = AddCustomPropertyNotify |
+| swPartAddDependencyNotify | 85 = AddDependencyNotify |
 | swPartAddDvePagePreNotify | Not used |
 | swPartAddItemNotify | 16 = AddItemNotify |
 | swPartAutoSaveNotify | 12 = AutoSaveNotify |
@@ -63,6 +64,7 @@ public enum class swPartNotify_e : public System.Enum
 | swPartConvertToBodiesPostNotify | 78 = ConvertToBodiesPostNotify |
 | swPartConvertToBodiesPreNotify | 77 = ConvertToBodiesPreNotify |
 | swPartDeleteCustomPropertyNotify | 23 = DeleteCustomPropertyNotify |
+| swPartDeleteDependencyNotify | 86 = DeleteDependencyNotify |
 | swPartDeleteItemNotify | 18 = DeleteItemNotify |
 | swPartDeleteItemPreNotify | 41 = DeleteItemPreNotify |
 | swPartDeleteSelectionPreNotify | 27 = DeleteSelectionPreNotify |
@@ -115,6 +117,7 @@ public enum class swPartNotify_e : public System.Enum
 | swPartSaveToStorageStoreNotify | 33 = SaveToStorageStoreNotify |
 | swPartSensorAlertPreNotify | 57 = SensorAlertPreNotify |
 | swPartSketchSolveNotify | 40 = SketchSolveNotify |
+| swPartSolidBodyFolderReorderNotify | 83 = SolidBodyFolderReorderNotify |
 | swPartSuppressionStateChangeNotify | 52 = SuppressionStateChangeNotify |
 | swPartUndoPostNotify | 58 = UndoPostNotify |
 | swPartUndoPreNotify | 64 = UndoPreNotify |
@@ -131,15 +134,14 @@ To receive notifications, a DLL application must register for the notifications 
 
 For example, in the file in the Visual C++ 6.0 wizard-generated add-in that supports part events (e.g., PartDoc.h), include:
 
+```vb
 BEGIN_SINK_MAP(CSwPart)
-
 SINK_ENTRY_EX(ID_PARTDOC_EVENTS, DIID_DPartDocEvents, swPartDestroyNotify, DestroyNotify)
-
 SINK_ENTRY_EX(ID_PARTDOC_EVENTS, DIID_DPartDocEvents, swPartNewSelectionNotify, NewSelectionNotify)
-
 END_SINK_MAP()
+```
 
-If developing a C++ application, use these enumerators to[register for notifications](sldworksapiprogguide.chm::/overview/events.htm)for[IPartDoc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html)events.
+If developing a C++ application, use these enumerators to [register for notifications](sldworksapiprogguide.chm::/Overview/events.htm) for [IPartDoc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html) events.
 
 ## See Also
 

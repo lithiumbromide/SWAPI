@@ -1,0 +1,499 @@
+<<< DMotionStudyEvents.ForceOutputTimeStepChangeNotify | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.DMotionStudyEvents_ForceOutputTimeStepChangeNotifyEventHandler.md
+P: Time: Output time when the event is fired
+P: ForceNames: Array of strings containing the names of the external forces
+P: Displacement: Array of doubles indicating the position of each external force; the order of these values corresponds to the order of the names in ForceNames
+P: Velocity: Array of doubles indicating the velocity of each external force; the order of these values corresponds to the order of the names in ForceNames
+P: Acceleration: Array of doubles indicating the acceleration of each external force; the order of these values corresponds to the order of the names in ForceNames
+P: ForceOrTorque: Array of doubles indicating if an external force is a linear force or a rotary force (torque); the order of these values corresponds to the order of the names in ForceNames
+P: ForceTorqueValue: Array of doubles indicating the value of the force (position, velocity, or acceleration) at the next output time step; these values are used internally for doing interpolation during the integrator time steps; the order of these values corresponds to the order of the names in ForceNames
+X: When the motion simulation is occurring, the solver takes two types of time steps:
+- integrator
+- output
+Integrator time steps are taken during the solve; thus, it is not guaranteed that the solver will actually converge at that step. Output time steps are taken after the solver has converged. By default, the ForceOutputTimeStepChangeNotify event is fired at integrator time steps. If you want to fire this event at output time steps, then set IMotionStudy::SetFireOutputTimeStepEvents to true.
+If developing a C++ application, then use swMotionStudyForceOutputTimeStepChangeNotify to register for this notification.
+<<< DMotionStudyEvents.ForceTimeStepChangeNotify | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.DMotionStudyEvents_ForceTimeStepChangeNotifyEventHandler.md
+P: Force: Force name
+P: Time: Time
+P: ForceMagnitude: New force or torque magnitude
+X: If developing a C++ application, then use swMotionStudyForceTimeStepChangeNotify to register for this notification.
+You can implement any force law after catching this event. The return value is a double that specifies the new force or torque magnitude. This event is called at every major time step from ADAMS.
+<<< DMotionStudyEvents.MotorOutputTimeStepChangeNotify | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.DMotionStudyEvents_MotorOutputTimeStepChangeNotifyEventHandler.md
+P: Time: Output time when the event is fired
+P: MotorNames: Array of strings containing the names of the external motors
+P: Position: Array of doubles indicating the position of each external motor; the order of these valeus corresponds to the order of the names of MotorNames
+P: Velocity: Array of doubles indicating the velocity of each external motor; the order of these values corresponds to the order of the names in MotorNames
+P: Acceleration: Array of doubles indicating the acceleration of each external motor; the order of these values corresponds to the order of the names in MotorNames
+P: ForceOrTorque: Array of doubles indicating if an external motor is a linear motor (force) or a rotary motor (torque); the order of these values corresponds to the order of the names in MotorNames
+P: MotorValue: Array of doubles indicating the value of the motor (position, velocity, or acceleration) at the next output time step; these values are used internally for doing interpolation during the integrator time steps; the order of these values corresponds to the order of the names in MotorNames
+X: When the motion simulation is occurring, the solver takes two types of time steps:
+- integrator
+- output
+Integrator time steps are taken during the solve; thus, it is not guaranteed that the solver will actually converge at that step. Output time steps are taken after the solver has converged. By default, the MotorOutputTimeStepChangeNotify event is fired at integrator time steps. If you want to fire this event at output time steps, then set IMotionStudy::SetFireOutputTimeStepEvents to true.
+If developing a C++ application, then use swMotionStudyMotorOutputTimeStepChangeNotify to register for this notification.
+<<< DMotionStudyEvents.MotorTimeStepChangeNotify | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.DMotionStudyEvents_MotorTimeStepChangeNotifyEventHandler.md
+P: Motor: Motor name
+P: Time: Time
+P: MotorSpeed: New motor speed
+X: If developing a C++ application, then use swMotionStudyMotorTimeStepChangeNotify to register for this notification.
+You can implement any motion law after catching this event. The return value is a double that specifies the new motor speed. This event is called at every major time step from ADAMS.
+<<< DMotionStudyEvents.OutputTimeStepChangeNotify | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.DMotionStudyEvents_OutputTimeStepChangeNotifyEventHandler.md
+P: Time: Output time when the event is fired
+X: When the motion simulation is occurring, the solver takes two types of time steps:
+- integrator
+- output
+Integrator time steps are taken during the solve; thus, it is not guaranteed that the solver will actually converge at that step. Output time steps are taken after the solver has converged. By default, the OutputTimeStepChangeNotify event is fired at integrator time steps. If you want to fire this event at output time steps, then set IMotionStudy::SetFireOutputTimeStepEvents to true.
+If developing a C++ application, then use swMotionStudyOutputTimeStepChangeNotify to register for this notification.
+<<< DMotionStudyEvents.PartCollideNotify | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.DMotionStudyEvents_PartCollideNotifyEventHandler.md
+P: Time: Time of collision
+P: Component1: Component 1
+P: Component2: Component 2
+P: Vector1: Point on Component1
+P: Vector2: Point on Component 2
+P: SurfaceNormal1: Surface normal of Component 1
+P: SurfaceNormal2: Surface normal of Component 2
+X: If developing a C++ application, then use swMotionStudyPartCollideNotify to register for this notification.
+<<< DMotionStudyEvents.SpecialMotionEventNotify | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.DMotionStudyEvents_SpecialMotionEventNotifyEventHandler.md
+P: Time: Time
+P: EventType: Motion-related special event as defined in swSpecialMotionEventType_e
+X: If developing a C++ application, then use swMotionStudySpecialEventNotify to register for this notification.
+<<< DMotionStudyEvents.StartCalculateNotify | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.DMotionStudyEvents_StartCalculateNotifyEventHandler.md
+P: Time: Time when event fired (i.e., time at which calculations start)
+X: If developing a C++ application, then use swMotionStudyStartCalculateNotify to register for this notification.
+<<< DMotionStudyEvents.StopCalculateNotify | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.DMotionStudyEvents_StopCalculateNotifyEventHandler.md
+P: Time: Time when event fired (i.e., time at which calculations stop)
+X: If developing a C++ application, then use swMotionStudyStopCalculateNotify to register for this notification.
+<<< IAVIParameter.AspectRatio | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~AspectRatio.md
+R: Aspect ratio
+<<< IAVIParameter.BlurLength | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~BlurLength.md
+R: 0 <= Length of the motion blur effect when rendering animations using a ray-trace rendering engine <= 100; default = 50
+<<< IAVIParameter.BlurOffset | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~BlurOffset.md
+R: | Value | Effect | | 0 | Centers the motion blur on the current rendered frame | | 100 | Moves the position forward one entire frame | | -100 | Moves the position back one entire frame |
+<<< IAVIParameter.EndTime | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~EndTime.md
+R: End time in seconds
+X: By specifying a start time and end time, you can save a portion of the animation, instead of saving the entire animation, to the animation file or files.
+<<< IAVIParameter.FramePerSecond | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~FramePerSecond.md
+R: Frames per second in which to play the animation
+<<< IAVIParameter.ImageSize | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~ImageSize.md
+R: Image size as defined by swSaveAVIImageSize_e
+<<< IAVIParameter.MotionBlur | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~MotionBlur.md
+R: True to enable motion blur when saving an animation rendered using a ray-trace rendering engine, false to not (see Remarks)
+X: A ray-trace rendering engine must be active to enable motion blur when saving an animation rendered using the engine.
+<<< IAVIParameter.OutputType | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~OutputType.md
+R: File type as defined by swAnimationOutputType_e
+<<< IAVIParameter.PreserveRatio | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~PreserveRatio.md
+R: True to preserve the ratio, false to not
+<<< IAVIParameter.RendererType | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~RendererType.md
+R: Renderer type as defined by swRendererType_e
+X: If the renderer type is set to Custom, then you can change the height and width of the animation, preserve the aspect ratio of the animation, and set the aspect ratio to either the screen ratio or a value.
+<<< IAVIParameter.SaveEntireAnimation | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~SaveEntireAnimation.md
+R: True to save the entire animation, false to not
+X: If this property is set to false, then specify the start time and end time of the time period of the animation to which to save to the animation file or files.
+<<< IAVIParameter.ScreenHeight | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~ScreenHeight.md
+R: Height at which to display the animation on the screen
+X: This property is only available when the image size is Custom.
+To set the width of the image, call AVIParameter::ScreenWidth. To preserve the aspect ratio of the animation, specify screen ratio or a value.
+<<< IAVIParameter.ScreenRatio | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~ScreenRatio.md
+R: True to base the aspect ratio on the screen, false to not
+X: This property is only available when the image size is Custom and preserve aspect ratio is selected.
+You can also base the aspect ratio on a value.
+<<< IAVIParameter.ScreenWidth | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~ScreenWidth.md
+R: Width at which to display the animation on the screen
+X: This property is only available when the image size is Custom.
+To set the height of the image, call AVIParameter::ScreenHeight. To preserve the aspect ratio of the animation, specify screen ratio or a value.
+<<< IAVIParameter.StartTime | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~StartTime.md
+R: Start time in seconds
+X: By specifying a start time and end time, you can save a portion of the animation, instead of saving the entire animation, to the animation file or files.
+<<< ICosmosMotionStudyProperties.AnimateDuringSimulation | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~AnimateDuringSimulation.md
+R: True to show the motion during the calculation of the simulation, false to not and speed up the calculation time
+<<< ICosmosMotionStudyProperties.ContactResolution3D | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~ContactResolution3D.md
+R: 3D contact resolution value
+<<< ICosmosMotionStudyProperties.DeleteRedundantConstraints | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~DeleteRedundantConstraints.md
+R: True to automatically delete redundant constraints, false to not
+X: This property deletes all redundant constraints, leaving a fully constrained assembly. The remaining constraints support the loads in the system.
+<<< ICosmosMotionStudyProperties.ErrorTolerance | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~ErrorTolerance.md
+R: Error tolerance
+<<< ICosmosMotionStudyProperties.IntegratorAdaptivity | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~IntegratorAdaptivity.md
+R: Value to control intermittent curve/curve problems
+<<< ICosmosMotionStudyProperties.IntegratorType | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~IntegratorType.md
+R: Type of integrator as defined by swMotionIntegratorType_e
+<<< ICosmosMotionStudyProperties.JacobianEval | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~JacobianEval.md
+R: How often, in percent, the simulation engine's Jacobian matrix is updated
+X: At 100%, the Jacobian is updated at every integration time step. At 50% the Jacobian is updated at every other integration time step. This value impacts models that contain intermittent curve/curve contact. The higher the value, the better the simulation accuracy. However, the higher the value, the greater the impact in the overall simulation time.
+<<< ICosmosMotionStudyProperties.MakeAllMatesFlexible | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~MakeAllMatesFlexible.md
+R: True to make all mates flexible, false to not
+X: Setting this property to true turns all mates in the assembly into bushings (spring and damper systems containing some slop). In most cases, turning mates into bushings increases the calculation time.
+<<< ICosmosMotionStudyProperties.MaxIterations | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~MaxIterations.md
+R: Maximum number of times the numeric integrator iterates in the search for a solution for a given step
+X: If the solver exceeds this limit, a convergence failure is recorded. The solver then quarters the last time step taken and integrates again. If four consecutive failures are recorded, there solver stops and displays information on the probable cause. The default is 25 and should not be changed.
+<<< ICosmosMotionStudyProperties.MaxStepSize | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~MaxStepSize.md
+R: Upper bound of the integration time step
+X: This property is only important if the solver is missing short-lived events, such as impacts. It should be set to the same order as the short-lived events. Integration time can be much longer because the solver cannot move forward as fast.
+<<< ICosmosMotionStudyProperties.MinStepSize | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~MinStepSize.md
+R: Lower bound of the integration time step
+X: This property is only important if the model has a locked position that the solver is needlessly trying to locate to a very high precision. Setting the parameter to a larger value causes the solver to stop sooner after a locked position is found.
+<<< ICosmosMotionStudyProperties.UsePreciseContact | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~UsePreciseContact.md
+R: True to use precise contact, false to not
+X: Select to calculate contact by using the equations that represent the solid bodies, instead of many-sided polygons. This results in analytically correct contact, but takes the longest to calculate.
+<<< ICosmosMotionStudyProperties.WireFrameGraphics | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties~WireFrameGraphics.md
+R: True to display results as wireframe, false to display the results rendered
+X: If the result is set to rendered mode, result vectors may be completely or partially hidden on the screen by rendered model geometry. In wireframe mode, results vectors are always visible on top of the model display.
+<<< ICosmosMotionStudyResults.CreatePlotFeatureData | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~CreatePlotFeatureData.md
+R: Plot's feature data
+X: Typical steps for creating a motion study's plot data and plot:
+1. Open an assembly model and create the motion study.
+2. Select the model's entities whose motion you want to measure.
+3. Perform the calculations and get the results.
+4. Create a plot feature data.
+5. Create the plot's x-axis and y-axis feature data objects.
+6. Set the type of plot.
+7. Select the result component.
+8. Set the entities for the x-axis and y-axis feature data objects.
+9. Get the plot's x-axis and y-axis values and insert and display the plot.
+Examine the examples to see the calls for these steps.
+<<< ICosmosMotionStudyResults.CreatePlotXAxisFeatureData | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~CreatePlotXAxisFeatureData.md
+R: Plot's x-axis feature data
+X: Typical steps for creating a motion study's plot data and plot:
+1. Open an assembly model and create the motion study.
+2. Select the model's entities whose motion you want to measure.
+3. Perform the calculations and get the results.
+4. Create a plot feature data.
+5. Create the plot's x-axis and y-axis feature data objects.
+6. Set the type of plot.
+7. Select the result component.
+8. Set the entities for the x-axis and y-axis feature data objects.
+9. Get the plot's x-axis and y-axis values and insert and display the plot.
+Examine the examples to see the calls for these steps.
+<<< ICosmosMotionStudyResults.CreatePlotYAxisFeatureData | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~CreatePlotYAxisFeatureData.md
+R: Plot's y-axis feature data
+X: Typical steps for creating a motion study's plot data and plot:
+1. Open an assembly model and create the motion study.
+2. Select the model's entities whose motion you want to measure.
+3. Perform the calculations and get the results.
+4. Create a plot feature data.
+5. Create the plot's x-axis and y-axis feature data objects.
+6. Set the type of plot.
+7. Select the result component.
+8. Set the entities for the x-axis and y-axis feature data objects.
+9. Get the plot's x-axis and y-axis values and insert and display the plot.
+Examine the examples to see the calls for these steps.
+<<< ICosmosMotionStudyResults.ExportCSVFile | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~ExportCSVFile.md
+P: PlotFeature: Plot
+P: FileName: Fully qualified path for the the.csv file
+R: True if the plot is exported to a.csv file, false if not
+<<< ICosmosMotionStudyResults.GetPlotCount | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~GetPlotCount.md
+R: Number of plots
+X: Call this method before calling ICosmosMotionStudyResults::IGetPlotFeatures to get the size of the array for that method.
+<<< ICosmosMotionStudyResults.GetPlotFeatures | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~GetPlotFeatures.md
+R: Plot features
+<<< ICosmosMotionStudyResults.GetValues | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~GetValues.md
+P: PlotFeatureData: Plot's feature data
+P: PlotXFeatureData: Plot's x-axis feature data
+P: PlotYFeatureData: Array of the plot's y-axis feature data
+R: Motion plot feature output
+X: Typical steps for creating a motion study's plot data and plot:
+1. Open an assembly model and create the motion study.
+2. Select the model's entities whose motion you want to measure.
+3. Perform the calculations and get the results.
+4. Create a plot feature data.
+5. Create the plot's x-axis and y-axis feature data objects.
+6. Set the type of plot.
+7. Select the result component.
+8. Set the entities for the x-axis and y-axis feature data objects.
+9. Get the plot's x-axis and y-axis values and insert and display the plot.
+Examine the examples to see the calls for these steps.
+<<< ICosmosMotionStudyResults.IGetPlotFeatures | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~IGetPlotFeatures.md
+P: Count: Number of plots
+R: - in-process, unmanaged C++: Pointer to an array of plot features VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Before calling this method, call ICosmosMotionStudyResults::GetPlotCount to get the value of Count.
+<<< ICosmosMotionStudyResults.InsertPlotFeature | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~InsertPlotFeature.md
+P: PlotFeatureData: Plot's feature data
+P: PlotXFeatureData: Plot's x-axis feature data
+P: PlotYFeatureData: Plot's y-axis feature data
+R: Feature
+<<< IMotionPlotFeatureOutput | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionPlotFeatureOutput.md
+X: Typical steps for creating a motion study's plot data and plot:
+1. Open an assembly model and create the motion study.
+2. Select the model's entities whose motion you want to measure.
+3. Perform the calculations and get the results.
+4. Create a plot feature data.
+5. Create the plot's x-axis and y-axis feature data objects.
+6. Set the type of plot.
+7. Select the result component.
+8. Set the entities for the x-axis and y-axis feature data objects.
+9. Get the plot's x-axis and y-axis values and insert and display the plot.
+Examine the examples to see the calls for these steps.
+<<< IMotionPlotFeatureOutput.GetXAxis | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionPlotFeatureOutput~GetXAxis.md
+R: Array of doubles of the plot's x-axis values
+<<< IMotionPlotFeatureOutput.GetYAxis | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionPlotFeatureOutput~GetYAxis.md
+P: YAxisFeatureData: y-axis feature data
+R: Array of doubles of the plot's y-axis values
+<<< IMotionStudy | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.md
+X: Events are implemented with delegates in Microsoft.NET Framework. See the Overview topic for a list of delegates for this interface.
+<<< IMotionStudy.Activate | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~Activate.md
+R: True if this motion study is activated, false if not
+X: To determine if the motion study is inactive or active, call IMotionStudy::IsActive.
+<<< IMotionStudy.Calculate | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~Calculate.md
+R: True if the calculation is performed, false if not
+X: You can only use this method on an active motion study. To determine whether a motion study is active, use IMotionStudy::IsActive.
+<<< IMotionStudy.CreateByCollapse | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~CreateByCollapse.md
+P: DeleteExistingPath: True to delete any existing animation sequences, false to not
+P: Duration: Length of time of the animation in seconds
+P: StartTime: Time to start this animation (see Remarks)
+R: True if the animation is created, false if not
+X: If you have existing animation sequences, then the start time of this animation should account for the total time of all previous sequences. If this is a new animation sequence, set StartTime to 0 to start the animation immediately, or type a value to delay the start of the sequence.
+Example:
+'Precondition: Active document contains an exploded view of an assembly.
+Option Explicit
+Dim swApp As SldWorks.SldWorks
+Dim swModel As SldWorks.ModelDoc2
+Dim swModelDocExt As SldWorks.ModelDocExtension
+Dim swMotionMgr As SwMotionStudy.MotionStudyManager
+Dim swMotion As SwMotionStudy.MotionStudy
+Dim boolstatus As Boolean
+Sub main()
+Set swApp = Application.SldWorks
+'
+Set swModel = swApp.ActiveDoc
+Set swModelDocExt = swModel.Extension
+Set swMotionMgr = swModelDocExt.GetMotionStudyManager
+' Create a new motion study
+Set swMotion = swMotionMgr.CreateMotionStudy
+' Delete any existing animation sequences,
+' set the animation duration to 5 seconds, and play
+' the animation immediately when IMotionStudy::Play is called
+boolstatus = swMotion.CreateByCollapse(True, 5, 0)
+' Play the animation
+swMotion.Play
+End Sub
+<<< IMotionStudy.CreateByExplode | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~CreateByExplode.md
+P: DeleteExistingPath: True to delete any existing animation sequences, false to not
+P: Duration: Length of time of the animation in seconds
+P: StartTime: Time to start this animation (see Remarks)
+R: True if the animation is created, false if not
+X: If you have existing animation sequences, then the start time of this animation should account for the total time of all previous sequences. If this is a new animation sequence, set StartTime to 0 to start the animation immediately, or type a value to delay the start of the sequence.
+Example:
+' Precondition: Active document contains an exploded view of an assembly.
+Option Explicit
+Dim swApp As SldWorks.SldWorks
+Dim swModel As SldWorks.ModelDoc2
+Dim swModelDocExt As SldWorks.ModelDocExtension
+Dim swMotionMgr As SwMotionStudy.MotionStudyManager
+Dim swMotion As SwMotionStudy.MotionStudy
+Dim boolstatus As Boolean
+Sub main()
+Set swApp = Application.SldWorks
+'Active document contains an exploded view of an assembly
+Set swModel = swApp.ActiveDoc
+Set swModelDocExt = swModel.Extension
+Set swMotionMgr = swModelDocExt.GetMotionStudyManager
+' Create a new motion study
+Set swMotion = swMotionMgr.CreateMotionStudy
+' Delete any existing animation sequences,
+' set the animation duration to 5 seconds, and play
+' the animation immediately when IMotionStudy::Play is called
+boolstatus = swMotion.CreateByExplode(True, 5, 0)
+' Play the animation
+swMotion.Play
+End Sub
+<<< IMotionStudy.CreateByRotateModel | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~CreateByRotateModel.md
+P: DeleteExistingPath: True to delete any existing animation sequences, false to not
+P: Axis: Axis about which to rotate the model as defined by swAnimatorAxisOfRotation_e
+P: RotationCount: Number of rotations
+P: Direction: Direction of rotation as defined by swAnimatorDirectionOfRotation_e
+P: Duration: Length of time of the animation in seconds
+P: StartTime: Time to start this animation (see Remarks)
+R: True if the animation is created, false if not
+X: If you have existing animation sequences, then the start time of this animation should account for the total time of all previous sequences. If this is a new animation sequence, set StartTime to 0 to start the animation immediately, or type a value to delay the start of the sequence.
+Example:
+' Precondition: Active document contains a part or an assembly.
+Option Explicit
+Dim swApp As SldWorks.SldWorks
+Dim swModel As SldWorks.ModelDoc2
+Dim swModelDocExt As SldWorks.ModelDocExtension
+Dim swMotionMgr As SwMotionStudy.MotionStudyManager
+Dim swMotion As SwMotionStudy.MotionStudy
+Dim boolstatus As Boolean
+Sub main()
+Set swApp = Application.SldWorks
+'
+Set swModel = swApp.ActiveDoc
+Set swModelDocExt = swModel.Extension
+Set swMotionMgr = swModelDocExt.GetMotionStudyManager
+' Create a new motion study
+Set swMotion = swMotionMgr.CreateMotionStudy
+' Delete any existing animation sequences,
+' set the animation duration to 5 seconds, and play
+' the animation immediately when IMotionStudy::Play is called
+boolstatus = swMotion.CreateByRotateModel(True, swRotationAboutXAxis, 1, swRotationClockwise, 10, 0)
+' Play the animation
+swMotion.Play
+End Sub
+<<< IMotionStudy.CreateDefinition | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~CreateDefinition.md
+P: Type: Type of simulation feature as defined in swFeatureNameID_e: - swFmAEMGravity (ISimulationGravityFeatureData) - swFmAEMLinearForce (ISimulationForceFeatureData) - swFmAEMTorque (ISimulationForceFeatureData) - swFmAEMLinearMotor (ISimulationMotorFeatureData) - swFmAEMRotationalMotor (ISimulationMotorFeatureData) - swFmAEMLinearDamper (ISimulationDamperFeatureData) - swFmAEMTorsionalDamper (ISimulationDamperFeatureData) - swFmAEM3DContact (ISimulation3DContactFeatureData) - swFmAEMLinearMotionSpring (ISimulationSpringFeatureData) - swFmAEMTorsionalMotionSpring (ISimulationSpringFeatureData) - swFmAEMLinearSpring (ISimulationLinearSpringFeatureData)
+R: Feature data object
+X: You can use this method to define a simulation feature data object that is used by IMotionStudy::CreateFeature to create these simulation features:
+- 3DContact
+- Damper
+- Force ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationDamperFeatureData.html
+- Gravity
+- Motor
+- Spring
+A motion study must be active when defining and creating a simulation feature. If a motion study is not active, then this method returns null or Nothing.
+<<< IMotionStudy.CreateFeature | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~CreateFeature.md
+P: FeatureData: Feature data object
+R: Feature
+X: You can use IMotionStudy::CreateDefinition to populate FeatureData of this method to create these simulation features:
+- 3DContact
+- Damper
+- Force ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationDamperFeatureData.html
+- Gravity
+- Motor
+- Spring
+A motion study must be active when defining and creating a simulation feature. If a motion study is not active, then this method returns null or nothing.
+<<< IMotionStudy.Duplicate | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~Duplicate.md
+R: Duplicated motion study
+X: The name of the duplicated motion study is Motion Study followed by a number. The number for the duplicated motion study is determined by incrementing the number of the Motion Study with the highest number by 1 and adding that number to the duplicated motion study's name (e.g., only Motion Study 1 exists; duplicated motion study's name is Motion Study 2).
+<<< IMotionStudy.GetDuration | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetDuration.md
+R: Duration, in seconds, of motion study
+<<< IMotionStudy.GetFireOutputTimeStepEvents | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetFireOutputTimeStepEvents.md
+R: True if output time step change events are fired at output time steps; false if output time step change events are fired at integrator time steps
+X: By default, these output time step change events are fired at integrator time steps:
+- ForceOutputTimeStepChangeNotify event
+- MotorOutputTimeStepChangeNotify event
+- OutputTimeStepChangeNotify event
+If you want to fire these events at output time steps, then set IMotionStudy::SetFireOutputTimeStepEvents to true.
+<<< IMotionStudy.GetMotionFeatures | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetMotionFeatures.md
+R: Array of motion features in this motion study
+<<< IMotionStudy.GetMotionFeaturesCount | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetMotionFeaturesCount.md
+R: Number of motion features
+X: Call this method before calling IMotionStudy::IGetMotionFeatures to get the size of the array for that method.
+<<< IMotionStudy.GetNumOfExternalForces | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetNumOfExternalForces.md
+R: Numer of external forces
+<<< IMotionStudy.GetNumOfExternalMotors | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetNumOfExternalMotors.md
+R: Number of external motors in this motion study
+<<< IMotionStudy.GetProperties | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetProperties.md
+P: StudyType: Type of motion study as defined by swMotionStudyType_e
+R: Properties object for the specified motion study
+<<< IMotionStudy.GetResults | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetResults.md
+P: StudyType: Type of motion study as defined by swMotionStudyType_e
+R: Results object for the specified type of motion study
+<<< IMotionStudy.GetSupportedStudyTypes | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetSupportedStudyTypes.md
+P: SupportedTypes: Type of motion study as defined by swMotionStudyType_e
+R: True if this method runs successfully, false if not
+<<< IMotionStudy.GetTime | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetTime.md
+R: Time, in seconds, where the timebar is on the timeline
+<<< IMotionStudy.IGetMotionFeatures | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~IGetMotionFeatures.md
+P: Count: Number of motion features in this motion study
+R: Array of motion features in this motion study
+X: Before calling this method, call IMotionStudy::GetMotionFeaturesCount to get the value of Count.
+<<< IMotionStudy.IsActive | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~IsActive.md
+R: True if the motion study is active, false if not
+X: To activate an inactive motion study, call IMotionStudy::Activate.
+<<< IMotionStudy.IsPlaying | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~IsPlaying.md
+R: True if this motion study is playing, false if not
+<<< IMotionStudy.Name | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~Name.md
+R: Name of motion study
+<<< IMotionStudy.Play | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~Play.md
+R: True if the motion study plays from where the animation timebar is located, false if not
+<<< IMotionStudy.PlayFromStart | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~PlayFromStart.md
+R: True if the motion study plays from where the animation timebar is located, false if not
+<<< IMotionStudy.PlayMode | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~PlayMode.md
+R: Mode in which this motion study is playing or mode in which to play this motion study as defined in swAnimationPlayMode_e
+<<< IMotionStudy.SaveToAVI | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~SaveToAVI.md
+P: FileName: Path and filename where to save a.avi,.bmp, or.tga file
+P: Parameter: Parameters for the.avi file
+R: True if the animation is saved to the specified file, false if not
+<<< IMotionStudy.SetDuration | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~SetDuration.md
+P: Time: Duration, in seconds, of this motion study
+R: True if the duration is set, false if not
+<<< IMotionStudy.SetFireOutputTimeStepEvents | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~SetFireOutputTimeStepEvents.md
+P: FireOutputEvents: True if output time step change events are fired at output time steps; false if output time step change events are fired at integrator time steps
+X: By default, these output time step change events are fired at integrator time steps:
+- ForceOutputTimeStepChangeNotify event
+- MotorOutputTimeStepChangeNotify event
+- OutputTimeStepChangeNotify event
+If you want to fire these events at output time steps, then set this method to true.
+<<< IMotionStudy.SetTime | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~SetTime.md
+P: Time: Time, in seconds, where to place the timebar on the timeline
+R: True if the timebar is set to the specified time, false if not
+<<< IMotionStudy.Stop | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~Stop.md
+R: True if the currently playing stops playing, false if not
+<<< IMotionStudy.StudyType | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~StudyType.md
+R: Study type as defined by swMotionStudyType_e; 0 if not a SOLIDWORKS Motion study
+<<< IMotionStudyManager | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager.md
+X: The getters of this interface return all studies currently defined, SOLIDWORKS Motion studies as well as SOLIDWORKS Simulation studies. Use IMotionStudy::StudyType to ensure that a given study is a motion study before using other Motion APIs.
+<<< IMotionStudyManager.ActivateMotionStudy | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~ActivateMotionStudy.md
+P: MotionStudyName: Name of study to activate
+R: True if the specified study is activated, false if not
+X: To get the names of the available studies, you can call IMotionStudyManager::GetMotionStudyNames or IMotionStudyManager::IGetMotionStudyNames. The names of motion studies also appear on the MotionManager tabs.
+<<< IMotionStudyManager.CreateAVIParameter | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~CreateAVIParameter.md
+R: AVI parameters of animation videos
+<<< IMotionStudyManager.CreateMotionStudy | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~CreateMotionStudy.md
+R: Motion study
+<<< IMotionStudyManager.DeleteMotionStudy | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~DeleteMotionStudy.md
+P: MotionStudyName: Name of motion study to delete
+R: True if the motion study is deleted, false if not
+<<< IMotionStudyManager.GetMotionStudy | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudy.md
+P: MotionStudyName: Name of motion study to get
+R: Motion study
+X: This method gets the names of both SOLIDWORKS Simulation and SOLIDWORKS Motion studies. Use IMotionStudy::StudyType to ensure that a given study is a motion study before using other Motion APIs.
+To get the names of the available motion studies, you can call IMotionStudyManager::GetMotionStudyNames or IMotionStudyManager::IGetMotionStudyNames. The names of motion studies also appear on the MotionManager tabs.
+<<< IMotionStudyManager.GetMotionStudyCount | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudyCount.md
+R: Number of motion studies
+X: This method gets the count of both SOLIDWORKS Simulation and SOLIDWORKS Motion studies. Use IMotionStudy::StudyType to ensure that a given study is a motion study before using other Motion APIs.
+Call this method before calling IMotionStudyManager::IGetMotionStudyNames to get the size of the array for that method.
+<<< IMotionStudyManager.GetMotionStudyNames | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudyNames.md
+R: Names of the studies for this model
+X: This method gets the names of both SOLIDWORKS Simulation and SOLIDWORKS Motion studies. Use IMotionStudy::StudyType to ensure that a given study is a motion study before using other Motion APIs.
+<<< IMotionStudyManager.IGetMotionStudyNames | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~IGetMotionStudyNames.md
+P: Count: Number of studies for this model
+R: Names of the studies for this model
+X: This method gets the names of both SOLIDWORKS Simulation and SOLIDWORKS Motion studies. Use IMotionStudy::StudyType to ensure that a given study is a motion study before using other Motion APIs.
+Before calling this method, call IMotionStudyManager::GetMotionStudyCount to get the size of Count.
+<<< IMotionStudyProperties.GetFrameRate | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties~GetFrameRate.md
+R: Number of frames per second
+<<< IMotionStudyProperties.SetFrameRate | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties~SetFrameRate.md
+P: FramesPerSecond: Number of frames per second
+R: True if the frame rate is set, false if not
+<<< IMotionStudyResults.GetAngularAcceleration | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults~GetAngularAcceleration.md
+P: Time: Time
+P: Component: Component
+R: Angular acceleration vector
+<<< IMotionStudyResults.GetAngularVelocity | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults~GetAngularVelocity.md
+P: Time: Time
+P: Component: Component
+R: Angular velocity vector
+<<< IMotionStudyResults.GetCMPosition | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults~GetCMPosition.md
+P: Time: Time
+P: Component: Component
+R: Position of the component's center of mass
+<<< IMotionStudyResults.GetEulerAngles | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults~GetEulerAngles.md
+P: Time: Time
+P: Component: Component
+R: Component's euler angles
+<<< IMotionStudyResults.GetForceFromMate | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults~GetForceFromMate.md
+P: Time: Time
+P: Mate: Mate
+R: Force about the mate (see Remarks)
+X: If the mate is purely angular, then the return value is [0, 0, 0].
+<<< IMotionStudyResults.GetLinearAcceleration | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults~GetLinearAcceleration.md
+P: Time: Time
+P: Component: Component
+R: Linear acceleeration vector
+<<< IMotionStudyResults.GetLinearVelocity | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults~GetLinearVelocity.md
+P: Time: Time
+P: Component: Component
+R: Linear velocity vector
+<<< IMotionStudyResults.GetTorqueFromMate | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults~GetTorqueFromMate.md
+P: Time: Time
+P: Mate: Mate
+R: Torgue about the mate (see Remarks)
+X: If the mate is purely linear, then the return value is [0. 0. 0].
+<<< IMotionStudyResults.IsOutOfDate | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults~IsOutOfDate.md
+R: True if the motion study is out of date, false if not
+<<< IPhysicalSimulationMotionStudyProperties.GeometricAccuracy | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IPhysicalSimulationMotionStudyProperties~GeometricAccuracy.md
+R: Geometric accuracy
+X: Physical Simulation creates meshes from curved geometry. The higher the value for Accuracy, the closer to actual geometry the mesh becomes. This makes collision simulation more accurate, but requires more time to compute.
+<<< IPhysicalSimulationMotionStudyProperties.MateAccuracy | swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IPhysicalSimulationMotionStudyProperties~MateAccuracy.md
+R: Mate accuracy
+X: This property controls the amount of interpenetration of geometric meshes. A lower value for Accuracy allows more mesh interpenetration. This allows for smother motion, especially in tight-fit situations; for example, a ball rolling in a channel with very little clearance.

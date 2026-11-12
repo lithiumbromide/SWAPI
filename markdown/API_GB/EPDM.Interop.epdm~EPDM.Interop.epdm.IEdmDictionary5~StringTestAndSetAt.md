@@ -52,16 +52,13 @@ True if the value of a new key is successfully set, false if not
 ## Examples
 
 [Change Card Variables Add-in (VB.NET)](Change_Card_Variables_Addin_Example_VBNET.htm)
-
 [Change Card Variables Add-in (C#)](Change_Card_Variables_Addin_Example_CSharp.htm)
-
 [Create and Delete Dictionaries (C#)](Create_and_Delete_Dictionaries_Example_CSharp.htm)
-
 [Create and Delete Dictionaries (VB.NET)](Create_and_Delete_Dictionaries_Example_VBNET.htm)
 
 ## Remarks
 
-The testing and setting are both performed in a single operation. A test-and-set function like this is useful when you need a semaphore to synchronize several clients accessing the same data. See the example in[IEdmDictionary5::LongTestAndSetAt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5~LongTestAndSetAt.html).
+The testing and setting are both performed in a single operation. A test-and-set function like this is useful when you need a semaphore to synchronize several clients accessing the same data. See the example in [IEdmDictionary5::LongTestAndSetAt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5~LongTestAndSetAt.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -71,9 +68,7 @@ The testing and setting are both performed in a single operation. A test-and-set
 ## See Also
 
 [IEdmDictionary5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5.html)
-
 [IEdmDictionary5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5_members.html)
-
 [IEdmDictionary5::StringSetAt Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5~StringSetAt.html)
 
 ## Availability

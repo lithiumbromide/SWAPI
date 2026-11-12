@@ -45,42 +45,27 @@ property System.double BlindDepth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Depth of the cosmetic thread (see**Remarks**)
+Depth of the cosmetic thread (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CosmeticThreadFeatureData::BlindDepth](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~BlindDepth.html)
-
-.
+See [CosmeticThreadFeatureData::BlindDepth](ms-its:sldworksapivb6.chm::/sldworks~CosmeticThreadFeatureData~BlindDepth.html).
 
 ## Examples
 
-See the
-
-[ICosmeticThreadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
-examples.
+See the [ICosmeticThreadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData.html) examples.
 
 ## Remarks
 
-If[ICosmeticThreadFeatureData::ApplyThread](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData~ApplyThread.html)is swApplyCosmeticThread_Blind, then use this property to get or set the depth of the cosmetic thread.
+If [ICosmeticThreadFeatureData::ApplyThread](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticThreadFeatureData~ApplyThread.html) is swApplyCosmeticThread_Blind, then use this property to get or set the depth of the cosmetic thread.
 
 ## See Also
 
 [ICosmeticThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData.html)
-
 [ICosmeticThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticThreadFeatureData_members.html)
 
 ## Availability

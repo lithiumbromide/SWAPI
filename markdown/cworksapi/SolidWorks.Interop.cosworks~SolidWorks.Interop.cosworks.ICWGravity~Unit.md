@@ -47,28 +47,19 @@ property System.int Unit {
 
 ### Property Value
 
-Unit system as defined in[swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
+Unit system as defined in [swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWGravity::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~Unit.html)
-
-.
+See [CWGravity::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~Unit.html).
 
 ## Examples
 
-See the
-
-[ICWGravity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html)
-
-examples.
+See the [ICWGravity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html) examples.
 
 ## See Also
 
 [ICWGravity Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html)
-
 [ICWGravity Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html)
 
 ## Availability

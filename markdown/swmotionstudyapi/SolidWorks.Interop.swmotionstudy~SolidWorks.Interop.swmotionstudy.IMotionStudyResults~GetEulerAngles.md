@@ -58,22 +58,15 @@ System.Object^ GetEulerAngles(
 
 ### Return Value
 
-Component's
-
-[euler angles](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
+Component's [euler angles](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
 
 ## VBA Syntax
 
-See
-
-[MotionStudyResults::GetEulerAngles](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetEulerAngles.html)
-
-.
+See [MotionStudyResults::GetEulerAngles](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetEulerAngles.html).
 
 ## See Also
 
 [IMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults.html)
-
 [IMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults_members.html)
 
 ## Availability

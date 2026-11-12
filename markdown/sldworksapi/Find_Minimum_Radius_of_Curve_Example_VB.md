@@ -13,8 +13,8 @@ This example shows how to get the minimum radius of the selected curve.
 
 ```vb
 '----------------------------------
-' Preconditions: Model kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}document is open and a curve
-' kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}on a part is selected.
+' Preconditions: Model  document is open and a curve
+'                on a part is selected.
 '
 ' Postconditions: None
 '----------------------------------

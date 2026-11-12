@@ -52,32 +52,14 @@ void GetFolderPermissions(
 ### Parameters
 
 - `lOwnerID`: ID of the user or group for which to get permissions; 0 to return permissions for all users and groups
-- `meOwnerType`: Type of lOwnerID as defined in
-
-[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
+- `meOwnerType`: Type of lOwnerID as defined in [EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
 - `lFolderID`: ID of folder for which to get permissions
-- `lEdmGetPermFlags`: Combination of
-
-[EdmGetPermFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetPermFlag.html)
-
-bits (see
-
-Remarks
-
-)
-- `ppoPermissions`: Array of
-
-[EdmFolderPermission](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission.html)
-
-structures; one structure for each permission
+- `lEdmGetPermFlags`: Combination of [EdmGetPermFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetPermFlag.html) bits (see **Remarks**)
+- `ppoPermissions`: Array of [EdmFolderPermission](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission.html) structures; one structure for each permission
 
 ## Examples
 
-See the
-
-[IEdmUserMgr7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7.html)
-
-examples.
+See the [IEdmUserMgr7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7.html) examples.
 
 ## Remarks
 
@@ -90,7 +72,6 @@ This method returns not only permissions explicitly set on a folder, but also pe
 ## See Also
 
 [IEdmUserMgr7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7.html)
-
 [IEdmUserMgr7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7_members.html)
 
 ## Availability

@@ -46,36 +46,22 @@ public delegate System.int DModelViewEvents_PrintNotify2EventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `pDC`: Pointer to the printer device context used to print the document (
-
-see Remarks
-
-)
+- `pDC`: Pointer to the printer device context used to print the document (**see Remarks**)
 - `bPreview`: True to preview the document, false to not
 
 ## VBA Syntax
 
-See
-
-[PrintNotify2 Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~PrintNotify2_EV.html)
-
-.
+See [PrintNotify2 Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~PrintNotify2_EV.html).
 
 ## Remarks
 
 Always return S_OK in the swViewPrintNotify2 event handler.
 
-If developing a C++ application, use[swViewPrintNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)to register for this notification.
+If developing a C++ application, use [swViewPrintNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) to register for this notification.
 
 pDC is the address of an MFC CDC instance, and it can be cast to a CDC*. C++ applications wanting to use this CDC* need to dynamically link to the MFC DLLs and use the same version of the Visual C++ compiler that SOLIDWORKS uses.
 

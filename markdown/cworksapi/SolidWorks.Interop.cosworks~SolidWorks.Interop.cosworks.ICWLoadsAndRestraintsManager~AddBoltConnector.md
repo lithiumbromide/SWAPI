@@ -61,12 +61,10 @@ CWBoltConnector^ AddBoltConnector(
 
 ### Parameters
 
-- `NBoltType`: Type of bolt as defined in[swsBoltType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBoltType_e.html)
+- `NBoltType`: Type of bolt as defined in [swsBoltType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBoltType_e.html)
 - `DispArrayBoltHead`: Array of bolt heads
 - `DispArrayBoltNut`: Array of bolt nuts
-- `ErrorCode`: Error as defined in
-
-[swsBoltConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBoltConnectorError_e.html)
+- `ErrorCode`: Error as defined in [swsBoltConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBoltConnectorError_e.html)
 
 ### Return Value
 
@@ -74,24 +72,17 @@ CWBoltConnector^ AddBoltConnector(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddBoltConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddBoltConnector.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddBoltConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddBoltConnector.html).
 
 ## Examples
 
 [Create and Edit Bolt and Pin Connectors (VBA)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VB.htm)
-
 [Create and Edit Bolt and Pin Connectors (VB.NET)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VBNET.htm)
-
 [Create and Edit Bolt and Pin Connectors (C#)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_CSharp.htm)
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

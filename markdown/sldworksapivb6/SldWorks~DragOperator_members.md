@@ -1,6 +1,5 @@
 ---
-title: "DragOperator Object
-Members"
+title: "DragOperator Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DragOperator_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DragOperator_members.html"
 ---
 
-# DragOperator Object
-Members
+# DragOperator Object Members
 
 ## Public Methods
 

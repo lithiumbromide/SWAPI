@@ -40,13 +40,7 @@ System.bool IsDerived()
 System.bool IsDerived();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ True if the sketch is derived, false if not
 
 ## VBA Syntax
 
-See
-
-[Sketch::IsDerived](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IsDerived.html)
-
-.
+See [Sketch::IsDerived](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IsDerived.html).
 
 ## Examples
 
 [Create Derived or Underived Sketch (VB.NET)](Create_Derived_or_Underived_Sketch_Example_VBNET.htm)
-
 [Create Derived or Underived Sketch (VBA)](Create_Derived_or_Underived_Sketch_Example_VB.htm)
-
 [Create Derived or Underived Sketch (C#)](Create_Derived_or_Underived_Sketch_Example_CSharp.htm)
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [IModelDoc2::DeriveSketch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~DeriveSketch.html)
-
 [IModelDoc2::UnderiveSketch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~UnderiveSketch.html)
 
 ## Availability

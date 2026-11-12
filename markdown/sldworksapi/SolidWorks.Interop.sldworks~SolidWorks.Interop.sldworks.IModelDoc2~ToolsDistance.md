@@ -39,26 +39,15 @@ void ToolsDistance()
 void ToolsDistance();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ToolsDistance](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ToolsDistance.html)
-
-.
+See [ModelDoc2::ToolsDistance](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ToolsDistance.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

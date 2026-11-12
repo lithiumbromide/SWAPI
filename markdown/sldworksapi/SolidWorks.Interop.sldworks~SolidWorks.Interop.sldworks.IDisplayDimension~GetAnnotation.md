@@ -40,13 +40,7 @@ System.object GetAnnotation()
 System.Object^ GetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetAnnotation.html)
-
-.
+See [DisplayDimension::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetAnnotation.html).
 
 ## Examples
 
 [Get Dimension Values in Drawing (VBA)](Get_Dimension_Values_in_Drawing_Example_VB.htm)
-
 [Iterate Through Dimensions in Model (VBA)](Iterate_Through_Dimensions_in_Model_Example_VB.htm)
-
 [Unlink Dimensions (VBA)](Unlink_Dimensions_Example_VB.htm)
-
 [Get Annotation Object (VBA)](Get_Annotation_Object_Example_VB.htm)
-
 [Get Annotation Object (VB.NET)](Get_Annotation_Object_Example_VBNET.htm)
-
 [Get Annotation Object (C#)](Get_Annotation_Object_Example_CSharp.htm)
-
 [Traverse Annotations (C#)](Traverse_Annotations_Example_CSharp.htm)
-
 [Traverse Annotations (VB.NET)](Traverse_Annotations_Example_VBNET.htm)
-
 [Traverse Annotations (VBA)](Traverse_Annotations_Example_VB.htm)
 
 ## Remarks
@@ -87,9 +69,7 @@ The IAnnotation object is a higher-level object that contains methods that are a
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::IGetAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IGetAnnotation.html)
 
 ## Availability

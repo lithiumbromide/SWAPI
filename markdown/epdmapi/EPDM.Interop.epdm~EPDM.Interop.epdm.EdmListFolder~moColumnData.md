@@ -35,5 +35,4 @@ System.Object^ moColumnData
 ## See Also
 
 [EdmListFolder Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder.html)
-
 [EdmListFolder Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolder_members.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHe
 
 # IHealEdgesFeatureData Interface Members
 
-The following tables list the members exposed by[IHealEdgesFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData.html).
+The following tables list the members exposed by [IHealEdgesFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData.html).
 
 ## Public Properties
 
@@ -38,5 +38,4 @@ The following tables list the members exposed by[IHealEdgesFeatureData](SolidWor
 ## See Also
 
 [IHealEdgesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHealEdgesFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

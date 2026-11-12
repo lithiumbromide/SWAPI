@@ -45,13 +45,7 @@ property System.int LineSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ How much the slider moves when arrow keys are used to move the slider
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSlider::LineSize](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~LineSize.html)
-
-.
+See [PropertyManagerPageSlider::LineSize](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~LineSize.html).
 
 ## Examples
 
@@ -76,7 +66,6 @@ If you do not set this property, the value defaults to 1.
 ## See Also
 
 [IPropertyManagerPageSlider Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider.html)
-
 [IPropertyManagerPageSlider Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "obsoleteapi/ModelDoc/ModelDoc__GetMassProperties.htm"
 
 # ModelDoc::GetMassProperties
 
-This
-method is obsolete and has be superseded by ModelDoc::GetMassProperties2 .
+This method is obsolete and has be superseded by [ModelDoc::GetMassProperties2](ModelDoc__GetMassProperties2.htm).
 
 Description
 
@@ -18,21 +17,14 @@ This method returns the mass properties of the current part or assembly.
 
 Syntax (OLE Automation)
 
-retval = ModelDoc.GetMassProperties
-()
+retval = ModelDoc.GetMassProperties ()
 
-(Table)=========================================================
-
-| Return: | (VARIANT) retval | VARIANT
-of type SafeArray |
+| Return: | (VARIANT) retval | VARIANT of type SafeArray |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status = ModelDoc->IGetMassProperties
-( mPropsData, &retval )
-
-(Table)=========================================================
+status = ModelDoc->IGetMassProperties ( mPropsData, &retval )
 
 | Input: | (double) mPropsData | Pointer to an array of doubles . |
 | --- | --- | --- |
@@ -43,78 +35,14 @@ Remarks
 
 The return value is a 0-based array of doubles as follows:
 
-[CenterOfMassX, CenterOfMassY,
-CenterOfMassZ, Volume, Area, Mass, MomXX, MomYY, MomZZ, MomXY, MomZX,
-MomYZ]
+[ CenterOfMassX, CenterOfMassY, CenterOfMassZ, Volume, Area, Mass, MomXX, MomYY, MomZZ, MomXY, MomZX, MomYZ ]
 
-To obtain the density currently used by the SolidWorks part, callkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}SldWorks::GetUserPreferencDoubleValue.
-If the user did not explicitly set the density, then a value of 1.0 is
-used. You can also derive the density of the body using the following
-calculation:
+To obtain the density currently used by the SolidWorks part, call SldWorks::GetUserPreferencDoubleValue. If the user did not explicitly set the density, then a value of 1.0 is used. You can also derive the density of the body using the following calculation:
 
-Density = ( Mass / Volume)
+Density = ( Mass / Volume )
 
-Consistent with all other API functions, units returned will be metric
-unless explicitly specified.
+Consistent with all other API functions, units returned will be metric unless explicitly specified.
 
-If this ModelDoc object is an assembly, then any suppressed components
-are not included in the mass property analysis. Use Component::GetSuppression
-to determine the state for each of the assembly's components.
+If this ModelDoc object is an assembly, then any suppressed components are not included in the mass property analysis. Use Component::GetSuppression to determine the state for each of the assembly's components.
 
-NOTE: The calculated origin
-for the returned values is based on the default coordinate systems of
-the ModelDoc. It is not not based on the a selected coordinate system.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ModelDoc_Object$$**$$ZGetModelInfo$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\sw2003\ModelDoc\ModelDoc__GetMassProperties.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Get_Mass_Properties_Example$$**$$Get_Mass_Properties_of_ActiveDoc_Example_VB$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\sw2003\ModelDoc\ModelDoc__GetMassProperties.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+NOTE: The calculated origin for the returned values is based on the default coordinate systems of the ModelDoc. It is not not based on the a selected coordinate system.

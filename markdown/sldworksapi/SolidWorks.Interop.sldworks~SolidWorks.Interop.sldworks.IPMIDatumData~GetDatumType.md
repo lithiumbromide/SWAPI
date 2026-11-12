@@ -40,44 +40,25 @@ System.int GetDatumType()
 System.int GetDatumType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-PMI datum type as defined in
-
-[swPMIDatumType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPMIDatumType_e.html)
+PMI datum type as defined in [swPMIDatumType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPMIDatumType_e.html)
 
 ## VBA Syntax
 
-See
-
-[PMIDatumData::GetDatumType](ms-its:sldworksapivb6.chm::/sldworks~PMIDatumData~GetDatumType.html)
-
-.
+See [PMIDatumData::GetDatumType](ms-its:sldworksapivb6.chm::/sldworks~PMIDatumData~GetDatumType.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## See Also
 
 [IPMIDatumData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumData.html)
-
 [IPMIDatumData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumData_members.html)
-
 [IPMIDatumData::GetDatumFeature Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumData~GetDatumFeature.html)
-
 [IPMIDatumData::GetDatumTarget Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumData~GetDatumTarget.html)
 
 ## Availability

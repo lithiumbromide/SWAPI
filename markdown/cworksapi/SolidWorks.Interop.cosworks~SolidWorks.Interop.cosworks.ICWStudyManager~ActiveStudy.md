@@ -51,26 +51,18 @@ Index of the active study
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::ActiveStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~ActiveStudy.html)
-
-.
+See [CWStudyManager::ActiveStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~ActiveStudy.html).
 
 ## Examples
 
 [Calculate Edge Weld Results (C#)](Calculate_Edge_Weld_Results_Example_CSharp.htm)
-
 [Calculate Edge Weld Results (VB.NET)](Calculate_Edge_Weld_Results_Example_VBNET.htm)
-
 [Calculate Edge Weld Results (VBA)](Calculate_Edge_Weld_Results_Example_VB.htm)
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudy::ActivateConfiguration Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~ActivateConfiguration.html)
 
 ## Availability

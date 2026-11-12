@@ -43,13 +43,7 @@ public delegate System.int DFeatMgrViewEvents_ActivateNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,17 +51,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[ActivateNotify Event (FeatMgrView)](ms-its:sldworksapivb6.chm::/SldWorks~FeatMgrView~ActivateNotify_EV.html)
-
-.
+See [ActivateNotify Event (FeatMgrView)](ms-its:sldworksapivb6.chm::/SldWorks~FeatMgrView~ActivateNotify_EV.html).
 
 ## Remarks
 
-This notification is generated if you created the FeatureManager design tree view using[IModelViewManager::CreateFeatureMgrView2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateFeatureMgrView2.html)instead of[IModelDoc2::AddFeatureMgrView3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddFeatureMgrView3.html).
+This notification is generated if you created the FeatureManager design tree view using [IModelViewManager::CreateFeatureMgrView2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelViewManager~CreateFeatureMgrView2.html) instead of [IModelDoc2::AddFeatureMgrView3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddFeatureMgrView3.html).
 
-developing a C++ application, use[swFMViewActivateNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFMViewNotify_e.html)to register for this notification.
+If developing a C++ application, use [swFMViewActivateNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFMViewNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -40,27 +40,15 @@ Curve IGetCurve()
 Curve^ IGetCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Underlying
-
-[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+Underlying [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::IGetCurve](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~IGetCurve.html)
-
-.
+See [SketchSegment::IGetCurve](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~IGetCurve.html).
 
 ## Examples
 
@@ -68,16 +56,14 @@ See
 
 ## Remarks
 
-This operation only supports for[ellipse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse.html),[line](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchLine.html),[arc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchArc.html),[spline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline.html), and[parabola](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager.html)sketch items. All other sketch segment types will return NULL, and S_false for COM applications.
+This operation only supports for [ellipse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse.html), [line](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchLine.html), [arc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchArc.html), [spline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSpline.html), and [parabola](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager.html) sketch items. All other sketch segment types will return NULL, and S_false for COM applications.
 
-NOTE:Support for ellipse, line, and arc segments was introduced in SOLIDWORKS 2004.
+NOTE: Support for ellipse, line, and arc segments was introduced in SOLIDWORKS 2004.
 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
-
 [ISketchSegment::GetCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~GetCurve.html)
 
 ## Availability

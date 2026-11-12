@@ -1,6 +1,5 @@
 ---
-title: "ILocalSketchPatternFeatureData Object
-Members"
+title: "ILocalSketchPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ILocalSketchPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ILocalSketchPatternFeatureData_members.html"
 ---
 
-# ILocalSketchPatternFeatureData Object
-Members
+# ILocalSketchPatternFeatureData Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # SetPlyParameters Method (ICWCompositeShellOptions)
 
-Obsolete. Superseded by
-
-[ICWCompositeShellOptions::SetPlyParameters2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~SetPlyParameters2.html)
-
-.
+Obsolete. Superseded by [ICWCompositeShellOptions::SetPlyParameters2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~SetPlyParameters2.html).
 
 ## Syntax
 
@@ -65,36 +61,22 @@ System.int SetPlyParameters(
 
 ### Parameters
 
-- `NPly`: Index of ply (see
-
-Remarks
-
-)
+- `NPly`: Index of ply (see **Remarks**)
 - `DThickness`: Thickness of ply
-- `DAngle`: Angle of ply (see
-
-Remarks
-
-)
+- `DAngle`: Angle of ply (see **Remarks**)
 - `PMaterial`: [ICWMaterial](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsCompositeShellOptionsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsError_e.html)
+Error code as defined in [swsCompositeShellOptionsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::SetPlyParameters](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~SetPlyParameters.html)
-
-.
+See [CWCompositeShellOptions::SetPlyParameters](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~SetPlyParameters.html).
 
 ## Remarks
 
-Call[ICWCompositeShellOptions::GetTotalPlies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~GetTotalPlies.html)to set NPly.
+Call [ICWCompositeShellOptions::GetTotalPlies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~GetTotalPlies.html) to set NPly.
 
 | If ICWCompositeShellOptions::PlyRelativeAngle is set to... | Then DAngle's value is... |
 | --- | --- |
@@ -104,9 +86,7 @@ Call[ICWCompositeShellOptions::GetTotalPlies](SolidWorks.Interop.cosworks~SolidW
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
-
 [ICWCompositeShellOptions::GetPlyParameters Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~GetPlyParameters.html)
 
 ## Availability

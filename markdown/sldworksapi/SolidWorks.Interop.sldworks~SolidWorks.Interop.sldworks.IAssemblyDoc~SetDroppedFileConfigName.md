@@ -47,13 +47,7 @@ System.bool SetDroppedFileConfigName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,17 @@ True if the name is successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::SetDroppedFileConfigName](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SetDroppedFileConfigName.html)
-
-.
+See [AssemblyDoc::SetDroppedFileConfigName](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SetDroppedFileConfigName.html).
 
 ## Remarks
 
-If the configuration name is set in response to the[FileDropNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FileDropNotifyEventHandler.html)event, SOLIDWORKS does not display the dialog for the selected configuration names when a file is dropped in an assembly.
+If the configuration name is set in response to the [FileDropNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FileDropNotifyEventHandler.html) event, SOLIDWORKS does not display the dialog for the selected configuration names when a file is dropped in an assembly.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::SetDroppedFileName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~SetDroppedFileName.html)
-
 [IAssemblyDoc::GetDroppedAtEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetDroppedAtEntity.html)
 
 ## Availability

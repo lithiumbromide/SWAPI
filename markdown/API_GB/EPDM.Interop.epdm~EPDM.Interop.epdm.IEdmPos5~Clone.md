@@ -33,11 +33,7 @@ IEdmPos5^ Clone();
 
 ### Return Value
 
-Copy of an
-
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-object
+Copy of an [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html) object
 
 ## Remarks
 
@@ -45,12 +41,11 @@ C++ users must release the returned pointer.
 
 You can use a copy of an IEdmPos5 object as a bookmark in an enumeration that you are performing with this object.
 
-[Return code](ReturnCodes.htm)S_OK indicates that the method successfully executed.
+[Return code](ReturnCodes.htm) S_OK indicates that the method successfully executed.
 
 ## See Also
 
 [IEdmPos5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
 [IEdmPos5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5_members.html)
 
 ## Availability

@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTo
 
 # swsTopologyStudyConstraintValuationOption_e Enumeration
 
-Obsolete. Superseded by
-
-[swsTopologyStudyDisplacementConstraintValuationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementConstraintValuationOption_e.html)
-
-and
-
-[swsTopologyStudyStressConstraintValuationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyStressConstraintValuationOption_e.html)
-
-.
+Obsolete. Superseded by [swsTopologyStudyDisplacementConstraintValuationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementConstraintValuationOption_e.html) and [swsTopologyStudyStressConstraintValuationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyStressConstraintValuationOption_e.html).
 
 ## Syntax
 

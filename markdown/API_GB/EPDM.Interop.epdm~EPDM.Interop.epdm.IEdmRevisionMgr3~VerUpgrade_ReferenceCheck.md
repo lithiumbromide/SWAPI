@@ -42,16 +42,8 @@ void VerUpgrade_ReferenceCheck(
 
 ### Parameters
 
-- `poFiles`: Array of
-
-[EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html)
-
-structures; one structure for each assembly file for which to find references
-- `ppoWrongRefs`: Array of
-
-[EdmCheckRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef.html)
-
-structures; one structure for each part that is referenced in an earlier version than the lastest version
+- `poFiles`: Array of [EdmSelItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem.html) structures; one structure for each assembly file for which to find references
+- `ppoWrongRefs`: Array of [EdmCheckRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef.html) structures; one structure for each part that is referenced in an earlier version than the lastest version
 
 ## Remarks
 
@@ -64,7 +56,6 @@ You need to be logged in as a user that has permission to update revision number
 ## See Also
 
 [IEdmRevisionMgr3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr3.html)
-
 [IEdmRevisionMgr3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr3_members.html)
 
 ## Availability

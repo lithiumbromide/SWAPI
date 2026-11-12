@@ -46,22 +46,14 @@ CWMaterial^ GetDefaultMaterial();
 
 ## VBA Syntax
 
-See
-
-[CWShell::GetDefaultMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~GetDefaultMaterial.html)
-
-.
+See [CWShell::GetDefaultMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~GetDefaultMaterial.html).
 
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
-
 [ICWShell::GetShellMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~GetShellMaterial.html)
-
 [ICWShell::SetLibraryMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~SetLibraryMaterial.html)
-
 [ICWShell::SetShellMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~SetShellMaterial.html)
 
 ## Availability

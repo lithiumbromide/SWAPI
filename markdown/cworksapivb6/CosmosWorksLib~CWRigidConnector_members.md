@@ -1,6 +1,5 @@
 ---
-title: "CWRigidConnector Object
-Members"
+title: "CWRigidConnector Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWRigidConnector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWRigidConnector_members.html"
 ---
 
-# CWRigidConnector Object
-Members
+# CWRigidConnector Object Members
 
 ## Public Methods
 

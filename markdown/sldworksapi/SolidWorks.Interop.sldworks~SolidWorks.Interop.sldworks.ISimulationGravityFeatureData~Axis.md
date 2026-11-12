@@ -45,40 +45,23 @@ property System.int Axis {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Axis as defined in
-
-[swSimulationGravityAxisName_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimulationGravityAxisName_e.html)
+Axis as defined in [swSimulationGravityAxisName_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimulationGravityAxisName_e.html)
 
 ## VBA Syntax
 
-See
-
-[SimulationGravityFeatureData::Axis](ms-its:sldworksapivb6.chm::/sldworks~SimulationGravityFeatureData~Axis.html)
-
-.
+See [SimulationGravityFeatureData::Axis](ms-its:sldworksapivb6.chm::/sldworks~SimulationGravityFeatureData~Axis.html).
 
 ## Examples
 
-See the
-
-[ISimulationGravityFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html)
-
-examples.
+See the [ISimulationGravityFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html) examples.
 
 ## See Also
 
 [ISimulationGravityFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData.html)
-
 [ISimulationGravityFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationGravityFeatureData_members.html)
 
 ## Availability

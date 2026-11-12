@@ -51,13 +51,7 @@ System.bool GetFormatting(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,26 +64,16 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Paragraphs::GetFormatting](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~GetFormatting.html)
-
-.
+See [Paragraphs::GetFormatting](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~GetFormatting.html).
 
 ## Remarks
 
-Before calling this method, set the current paragraph using
-
-[IParagraphs::CurrentParagraph](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~CurrentParagraph.html)
-
-.
+Before calling this method, set the current paragraph using [IParagraphs::CurrentParagraph](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~CurrentParagraph.html).
 
 ## See Also
 
 [IParagraphs Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
 [IParagraphs Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs_members.html)
-
 [IParagraphs::SetFormatting Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~SetFormatting.html)
 
 ## Availability

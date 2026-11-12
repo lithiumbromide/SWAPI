@@ -1,6 +1,5 @@
 ---
-title: "AdvancedRouteSelector Object
-Members"
+title: "AdvancedRouteSelector Object Members"
 project: "SOLIDWORKS Routing Type Library"
 interface: "AdvancedRouteSelector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "routingapivb6/SWRoutingLib~AdvancedRouteSelector_members.html"
 ---
 
-# AdvancedRouteSelector Object
-Members
+# AdvancedRouteSelector Object Members
 
 ## Public Methods
 

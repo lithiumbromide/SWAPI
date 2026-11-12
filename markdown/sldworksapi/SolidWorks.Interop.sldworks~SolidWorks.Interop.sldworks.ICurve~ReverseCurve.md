@@ -40,13 +40,7 @@ System.object ReverseCurve()
 System.Object^ ReverseCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Reversed curve
 
 ## VBA Syntax
 
-See
-
-[Curve::ReverseCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~ReverseCurve.html)
-
-.
+See [Curve::ReverseCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~ReverseCurve.html).
 
 ## Remarks
 
@@ -67,9 +57,6 @@ If this is a trimmed curve, then the underlying curve is reversed and a new trim
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::IReverseCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IReverseCurve.html)
-
 [ICurve::IsTrimmedCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IsTrimmedCurve.html)

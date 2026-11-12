@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertCompositeSurfaceProfileTolerance Interface Properties
 
-For a list of all members of this type, see[IDimXpertCompositeSurfaceProfileTolerance members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance_members.html).
+For a list of all members of this type, see [IDimXpertCompositeSurfaceProfileTolerance members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance_members.html).
 
 ## Public Properties
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[IDimXpertCompositeSurfaceProfileTole
 ## See Also
 
 [IDimXpertCompositeSurfaceProfileTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

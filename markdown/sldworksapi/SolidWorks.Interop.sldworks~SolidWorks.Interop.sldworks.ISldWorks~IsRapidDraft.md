@@ -47,13 +47,7 @@ System.bool IsRapidDraft(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ True if the file is in RapidDraft format, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IsRapidDraft](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IsRapidDraft.html)
-
-.
+See [SldWorks::IsRapidDraft](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IsRapidDraft.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

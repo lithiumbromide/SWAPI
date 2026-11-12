@@ -40,13 +40,7 @@ System.bool IsBase2()
 System.bool IsBase2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if this is a base feature, false if not
 
 ## VBA Syntax
 
-See
-
-[Feature::IsBase2](ms-its:sldworksapivb6.chm::/sldworks~Feature~IsBase2.html)
-
-.
+See [Feature::IsBase2](ms-its:sldworksapivb6.chm::/sldworks~Feature~IsBase2.html).
 
 ## Remarks
 
@@ -74,11 +64,8 @@ In a multibody environment, more than one feature can return true. Thus, a lot o
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::ISetBody3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ISetBody3.html)
-
 [IFeature::SetBody2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~SetBody2.html)
 
 ## Availability

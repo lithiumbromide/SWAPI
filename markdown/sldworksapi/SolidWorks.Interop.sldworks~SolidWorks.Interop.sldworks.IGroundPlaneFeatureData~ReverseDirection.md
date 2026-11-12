@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to reverse the alignment of assembly faces relative to the ground plane, fa
 
 ## VBA Syntax
 
-See
-
-[GroundPlaneFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~GroundPlaneFeatureData~ReverseDirection.html)
-
-.
+See [GroundPlaneFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~GroundPlaneFeatureData~ReverseDirection.html).
 
 ## See Also
 
 [IGroundPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGroundPlaneFeatureData.html)
-
 [IGroundPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGroundPlaneFeatureData_members.html)
 
 ## Availability

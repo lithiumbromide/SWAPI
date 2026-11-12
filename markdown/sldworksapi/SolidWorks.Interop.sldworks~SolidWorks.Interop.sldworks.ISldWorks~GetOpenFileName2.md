@@ -71,22 +71,14 @@ System.String^ GetOpenFileName2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `DialogTitle`: Title of the dialog
 - `InitialFileName`: Path and file name of the file to open
 - `FileFilter`: File name extension of the file to open
-- `OpenOptions`: Open options as defined by
-
-[swGetOpenFileNameOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGetOpenFileNameOptions_e.html)
+- `OpenOptions`: Open options as defined by [swGetOpenFileNameOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swGetOpenFileNameOptions_e.html)
 - `ConfigName`: Name of configuration of InitialFileName; comma-separated list of sheet names beginning with active sheet if OpenOptions is swGetOpenFileNameOptions_e.swGetOpenFileNameOptions_SelectedSheets
 - `DisplayName`: Recommended name to use for opened file
 - `DisplayStateName`: Selected display state name
@@ -97,11 +89,7 @@ Path and file name of the file to open
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetOpenFileName2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetOpenFileName2.html)
-
-.
+See [SldWorks::GetOpenFileName2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetOpenFileName2.html).
 
 ## Examples
 
@@ -110,7 +98,6 @@ See
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

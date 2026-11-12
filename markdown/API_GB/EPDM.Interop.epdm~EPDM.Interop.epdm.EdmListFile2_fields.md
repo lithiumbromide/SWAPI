@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2_fields.html"
 
 # EdmListFile2 Structure Fields
 
-For a list of all members of this type, see[EdmListFile2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2_members.html).
+For a list of all members of this type, see [EdmListFile2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2_members.html).
 
 ## Public Fields
 
@@ -36,5 +36,4 @@ For a list of all members of this type, see[EdmListFile2 members](EPDM.Interop.e
 ## See Also
 
 [EdmListFile2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

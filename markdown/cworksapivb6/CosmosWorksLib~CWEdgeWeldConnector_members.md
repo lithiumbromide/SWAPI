@@ -1,6 +1,5 @@
 ---
-title: "CWEdgeWeldConnector Object
-Members"
+title: "CWEdgeWeldConnector Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWEdgeWeldConnector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWEdgeWeldConnector_members.html"
 ---
 
-# CWEdgeWeldConnector Object
-Members
+# CWEdgeWeldConnector Object Members
 
 ## Public Methods
 

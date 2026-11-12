@@ -49,9 +49,7 @@ System.String^ GetTemplateName(
 
 ### Parameters
 
-- `CostingType`: Type of Costing analysis as defined in
-
-[swcCostingType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcCostingType_e.html)
+- `CostingType`: Type of Costing analysis as defined in [swcCostingType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcCostingType_e.html)
 
 ### Return Value
 
@@ -59,30 +57,20 @@ Path and file name of the default Costing template
 
 ## VBA Syntax
 
-See
-
-[CostDefaults::GetTemplateName](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~GetTemplateName.html)
-
-.
+See [CostDefaults::GetTemplateName](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~GetTemplateName.html).
 
 ## Examples
 
-See the
-
-[ICostingDefaults](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
-examples.
+See the [ICostingDefaults](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html) examples.
 
 ## Remarks
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostingDefaults Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
 [ICostingDefaults Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults_members.html)
-
 [ICostingDefaults::SetTemplateName Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SetTemplateName.html)
 
 ## Availability

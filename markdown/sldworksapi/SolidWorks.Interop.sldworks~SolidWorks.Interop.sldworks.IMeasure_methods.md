@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMe
 
 # IMeasure Interface Methods
 
-For a list of all members of this type, see[IMeasure members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html).
+For a list of all members of this type, see [IMeasure members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IMeasure members](SolidWorks.Interop
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

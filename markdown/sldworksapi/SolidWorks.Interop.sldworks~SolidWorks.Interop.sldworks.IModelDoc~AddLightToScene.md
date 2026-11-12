@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AddLightToScene Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::AddLightToScene](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddLightToScene.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::AddLightToScene](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddLightToScene.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int AddLightToScene(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::AddLightToScene](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AddLightToScene.html)
-
-.
+See [ModelDoc::AddLightToScene](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AddLightToScene.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

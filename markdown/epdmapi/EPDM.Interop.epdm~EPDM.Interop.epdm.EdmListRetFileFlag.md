@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListRetFileFlag.html"
 
 # EdmListRetFileFlag Enumeration
 
-Flags returned in an
-
-[IEdmBatchListing](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing.html)
-
-column if you specify column type
-
-[EdmCol_EdmListRetFileFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColType.html)
-
-.
+Flags returned in an [IEdmBatchListing](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing.html) column if you specify column type [EdmCol_EdmListRetFileFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColType.html).
 
 ## Syntax
 
@@ -52,5 +44,4 @@ public enum class EdmListRetFileFlag : public System.Enum
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmBatchListing2::CreateListEx Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2~CreateListEx.html)

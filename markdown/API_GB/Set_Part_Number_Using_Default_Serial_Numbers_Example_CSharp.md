@@ -11,9 +11,7 @@ source: "API_GB/Set_Part_Number_Using_Default_Serial_Numbers_Example_CSharp.htm"
 
 This example shows how to set part numbers using default serial numbers.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //----------------------------------------------------------------------------

@@ -45,30 +45,19 @@ property System.int PositionType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of position for this mitre flange feature as defined by[swFlangePositionTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangePositionTypes_e.html)
+Type of position for this mitre flange feature as defined by [swFlangePositionTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangePositionTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[MiterFlangeFeatureData::PositionType](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~PositionType.html)
-
-.
+See [MiterFlangeFeatureData::PositionType](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~PositionType.html).
 
 ## See Also
 
 [IMiterFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData.html)
-
 [IMiterFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData_members.html)
 
 ## Availability

@@ -47,25 +47,11 @@ System.int GetSplineCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PointCount`: Number of doubles (see
-
-[IView::GetSplines3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetSplines3.html)
-
-or
-
-[IView::IGetSplines3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetSplines3.html)
-
-Remarks)
+- `PointCount`: Number of doubles (see [IView::GetSplines3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetSplines3.html) or [IView::IGetSplines3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetSplines3.html) Remarks)
 
 ### Return Value
 
@@ -73,14 +59,9 @@ Number of splines in the view
 
 ## VBA Syntax
 
-See
-
-[View::GetSplineCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetSplineCount.html)
-
-.
+See [View::GetSplineCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetSplineCount.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

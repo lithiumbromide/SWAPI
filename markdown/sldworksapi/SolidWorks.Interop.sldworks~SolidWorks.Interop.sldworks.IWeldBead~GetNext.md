@@ -40,44 +40,25 @@ WeldBead GetNext()
 WeldBead^ GetNext();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Next
-
-[weld bead](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldBead.html)
+Next [weld bead](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldBead.html)
 
 ## VBA Syntax
 
-See
-
-[WeldBead::GetNext](ms-its:sldworksapivb6.chm::/sldworks~WeldBead~GetNext.html)
-
-.
+See [WeldBead::GetNext](ms-its:sldworksapivb6.chm::/sldworks~WeldBead~GetNext.html).
 
 ## Examples
 
-See the
-
-[IWeldBead](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html)
-
-examples.
+See the [IWeldBead](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html) examples.
 
 ## See Also
 
 [IWeldBead Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html)
-
 [IWeldBead Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead_members.html)
-
 [IView::GetFirstWeldBead Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetFirstWeldBead.html)
-
 [IWeldBead::GetAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead~GetAnnotation.html)
 
 ## Availability

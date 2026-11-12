@@ -47,11 +47,7 @@ property System.String^ Name {
 
 ## VBA Syntax
 
-See
-
-[PDMWGroup::Name](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroup~Name.html)
-
-.
+See [PDMWGroup::Name](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroup~Name.html).
 
 ## Remarks
 
@@ -60,7 +56,6 @@ Only a vault administrator can set the name of this group.
 ## See Also
 
 [IPDMWGroup Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup.html)
-
 [IPDMWGroup Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup_members.html)
 
 ## Availability

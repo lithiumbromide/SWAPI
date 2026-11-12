@@ -9,7 +9,7 @@ source: "routingapi/Set_New_Route_Paths_for_Wires_Example_VB.htm"
 
 # Set New Route Paths for Wires Example (VBA)
 
-This example shows how tosetnew route paths for wires.
+This example shows how to set new route paths for wires.
 
 ```
 '----------------------------------------------------------------------------

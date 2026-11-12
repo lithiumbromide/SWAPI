@@ -70,14 +70,10 @@ System.bool GetCriteria(
 ### Parameters
 
 - `Index`: Index number of the search criteria to get
-- `andOr`: Logical operator for subsequent criteria as defined in[PDMWAndOr](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWAndOr.html)
-- `propertyType`: Property type as defined in
-
-[PDMWPropertyType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWPropertyType.html)
+- `andOr`: Logical operator for subsequent criteria as defined in [PDMWAndOr](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWAndOr.html)
+- `propertyType`: Property type as defined in [PDMWPropertyType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWPropertyType.html)
 - `propertyName`: Name of property to use with which to search
-- `condition`: Search condition as defined in
-
-[PDMWConditionType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWConditionType.html)
+- `condition`: Search condition as defined in [PDMWConditionType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWConditionType.html)
 - `Value`: Value of the property for which to search
 
 ### Return Value
@@ -86,30 +82,18 @@ True if this search criteria is retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchCriteria::GetCriteria](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~GetCriteria.html)
-
-.
+See [PDMWSearchCriteria::GetCriteria](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~GetCriteria.html).
 
 ## Remarks
 
-To determine the number of search criteria, use
-
-[IPDMWSearchCriteria::CriteriaCount](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~CriteriaCount.html)
-
-before using this method.
+To determine the number of search criteria, use [IPDMWSearchCriteria::CriteriaCount](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~CriteriaCount.html) before using this method.
 
 ## See Also
 
 [IPDMWSearchCriteria Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria.html)
-
 [IPDMWSearchCriteria Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria_members.html)
-
 [IPDMWSearchCriteria::AddCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~AddCriteria.html)
-
 [IPDMWSearchCriteria::LoadFromFile Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~LoadFromFile.html)
-
 [IPDMWSearchCriteria::RemoveCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~RemoveCriteria.html)
 
 ## Availability

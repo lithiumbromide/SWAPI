@@ -55,35 +55,21 @@ Curve^ ExtentCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `AtStart`: True to extend b-spline curve from start point, false to extend b-spline curve from end point
-- `Length`: Length by which to extend b-spline curveParamDesc
-- `LinearExt`: True if the extension is linear, false if notParamDesc
+- `Length`: Length by which to extend b-spline curve
+- `LinearExt`: True if the extension is linear, false if not
 
 ### Return Value
 
-Pointer to newly extended
-
-[ICurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-
-object
+Pointer to newly extended [ICurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) object
 
 ## VBA Syntax
 
-See
-
-[Curve::ExtentCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~ExtentCurve.html)
-
-.
+See [Curve::ExtentCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~ExtentCurve.html).
 
 ## Remarks
 
@@ -92,21 +78,13 @@ This method only affects b-spline curves. For all other types of curves, this me
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::CreateTrimmedCurve2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~CreateTrimmedCurve2.html)
-
 [ICurve::IConvertPcurveToBcurveSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IConvertPcurveToBcurveSize.html)
-
 [ICurve::IJoinCurves Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IJoinCurves.html)
-
 [ICurve::JoinCurves Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~JoinCurves.html)
-
 [ICurve::MakeBsplineCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~MakeBsplineCurve.html)
-
 [ICurve::ReverseCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~ReverseCurve.html)
-
 [ICurve::SimplifyBCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~SimplifyBCurve.html)
 
 ## Availability

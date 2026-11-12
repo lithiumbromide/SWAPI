@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # INewDocument Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::INewDocument2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~INewDocument2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::INewDocument2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~INewDocument2.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ ModelDoc^ INewDocument(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::INewDocument](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~INewDocument.html)
-
-.
+See [SldWorks::INewDocument](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~INewDocument.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

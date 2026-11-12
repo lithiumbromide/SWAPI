@@ -40,13 +40,7 @@ System.double GetPointOfInterestDistance()
 System.double GetPointOfInterestDistance();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Distance of the point of interest from the camera
 
 ## VBA Syntax
 
-See
-
-[Camera::GetPointOfInterestDistance](ms-its:sldworksapivb6.chm::/sldworks~Camera~GetPointOfInterestDistance.html)
-
-.
+See [Camera::GetPointOfInterestDistance](ms-its:sldworksapivb6.chm::/sldworks~Camera~GetPointOfInterestDistance.html).
 
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
 
 ## Availability

@@ -51,11 +51,7 @@ Event that occurred
 
 ## VBA Syntax
 
-See
-
-[PDMWDocumentNote::action](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNote~action.html)
-
-.
+See [PDMWDocumentNote::action](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNote~action.html).
 
 ## Remarks
 
@@ -70,7 +66,6 @@ The return value can contain:
 ## See Also
 
 [IPDMWDocumentNote Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote.html)
-
 [IPDMWDocumentNote Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote_members.html)
 
 ## Availability

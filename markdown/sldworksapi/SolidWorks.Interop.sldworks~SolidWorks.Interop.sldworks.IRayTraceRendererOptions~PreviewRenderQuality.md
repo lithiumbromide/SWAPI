@@ -45,42 +45,26 @@ property System.int PreviewRenderQuality {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Quality of the rendering in the preview window as defined in
-
-[swRayTraceRenderQuality_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRayTraceRenderQuality_e.html)
+Quality of the rendering in the preview window as defined in [swRayTraceRenderQuality_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRayTraceRenderQuality_e.html)
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::PreviewRenderQuality](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~PreviewRenderQuality.html)
-
-.
+See [RayTraceRendererOptions::PreviewRenderQuality](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~PreviewRenderQuality.html).
 
 ## Examples
 
 [Render Model (C#)](Render_Model_Example_CSharp.htm)
-
 [Render Model (VB.NET)](Render_Model_Example_VBNET.htm)
-
 [Render Model (VBA)](Render_Model_Example_VB.htm)
 
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRenderer::DisplayPreviewWindow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~DisplayPreviewWindow.html)
 
 ## Availability

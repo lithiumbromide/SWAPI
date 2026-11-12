@@ -46,11 +46,7 @@ SwDMDimXpertFeature^ GetReferenceFeature();
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompoundHoleFeature::GetReferenceFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundHoleFeature~GetReferenceFeature.html)
-
-.
+See [SwDMDimXpertCompoundHoleFeature::GetReferenceFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundHoleFeature~GetReferenceFeature.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature.html)
-
 [ISwDMDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundHoleFeature_members.html)
 
 ## Availability

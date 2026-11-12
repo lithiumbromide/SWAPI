@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # ICreateTempBodyFromSurfaces Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::ICreateTempBodyFromSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateTempBodyFromSurfaces.html)
-
-.
+Obsolete. Superseded by [IBody2::ICreateTempBodyFromSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateTempBodyFromSurfaces.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Body ICreateTempBodyFromSurfaces()
 Body^ ICreateTempBodyFromSurfaces();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Body::ICreateTempBodyFromSurfaces](ms-its:sldworksapivb6.chm::/sldworks~Body~ICreateTempBodyFromSurfaces.html)
-
-.
+See [Body::ICreateTempBodyFromSurfaces](ms-its:sldworksapivb6.chm::/sldworks~Body~ICreateTempBodyFromSurfaces.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

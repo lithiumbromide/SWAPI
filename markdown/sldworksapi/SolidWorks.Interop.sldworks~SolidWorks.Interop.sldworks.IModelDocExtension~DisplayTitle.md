@@ -45,44 +45,28 @@ property System.String^ DisplayTitle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Display title
+Display title; empty string to display the model's file name
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::DisplayTitle](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~DisplayTitle.html)
-
-.
+See [ModelDocExtension::DisplayTitle](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~DisplayTitle.html).
 
 ## Remarks
 
-To get the display title of lightweight assembly components, use
+This property works like the **FeatureManager design tree > RMB > Rename tree item**.
 
-[IComponent2::DisplayTitle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~DisplayTitle.html)
-
-.
+To get the display title of lightweight assembly components, use [IComponent2::DisplayTitle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~DisplayTitle.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [DAssemblyDocEvents_RenameDisplayTitleNotifyEventHandler Delegate (IModelDocExtension)](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_RenameDisplayTitleNotifyEventHandler.html)
-
 [DDrawingDocEvents_RenameDisplayTitleNotifyEventHandler Delegate (IModelDocExtension)](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DDrawingDocEvents_RenameDisplayTitleNotifyEventHandler.html)
-
 [DPartDocEvents_RenameDisplayTitleNotifyEventHandler Delegate (IModelDocExtension)](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_RenameDisplayTitleNotifyEventHandler.html)
 
 ## Availability

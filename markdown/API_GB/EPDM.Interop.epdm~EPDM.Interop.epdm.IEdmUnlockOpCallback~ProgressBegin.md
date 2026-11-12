@@ -45,29 +45,17 @@ void ProgressBegin(
 
 ### Parameters
 
-- `eType`: Type of progress bar to start as defined in
-
-[EdmProgressType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType.html)
-- `eEvent`: Type of operation as defined in
-
-[EdmUnlockEvent](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockEvent.html)
-- `lSteps`: Number of steps in the operation (see
-
-Remarks
-
-)
+- `eType`: Type of progress bar to start as defined in [EdmProgressType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType.html)
+- `eEvent`: Type of operation as defined in [EdmUnlockEvent](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockEvent.html)
+- `lSteps`: Number of steps in the operation (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmUnlockOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html)
-
-examples.
+See the [IEdmUnlockOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html) examples.
 
 ## Remarks
 
-[IEdmUnlockOpCallback::ProgressStep](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressStep.html)and[IEdmUnlockOpCallback::ProgressStepEvent](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressStepEvent.html)are each called lStep times.[IEdmUnlockOpCallback::ProgressEnd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressEnd.html)is called when the operation completes.
+[IEdmUnlockOpCallback::ProgressStep](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressStep.html) and [IEdmUnlockOpCallback::ProgressStepEvent](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressStepEvent.html) are each called lStep times. [IEdmUnlockOpCallback::ProgressEnd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressEnd.html) is called when the operation completes.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -76,7 +64,6 @@ examples.
 ## See Also
 
 [IEdmUnlockOpCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html)
-
 [IEdmUnlockOpCallback Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback_members.html)
 
 ## Availability

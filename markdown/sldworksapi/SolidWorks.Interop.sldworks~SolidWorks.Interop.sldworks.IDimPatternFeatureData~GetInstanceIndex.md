@@ -47,21 +47,11 @@ System.int GetInstanceIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `InstanceName`: Name of the pattern instance (see
-
-Remarks
-
-)
+- `InstanceName`: Name of the pattern instance (see **Remarks**)
 
 ### Return Value
 
@@ -69,22 +59,16 @@ Index of InstanceName in the FeatureManager design tree
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::GetInstanceIndex](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetInstanceIndex.html)
-
-.
+See [DimPatternFeatureData::GetInstanceIndex](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetInstanceIndex.html).
 
 ## Remarks
 
-Use[IDimPatternFeatureData::GetInstanceNameByIndex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceNameByIndex.html)to get InstanceName.
+Use [IDimPatternFeatureData::GetInstanceNameByIndex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceNameByIndex.html) to get InstanceName.
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
-
 [IDimPatternFeatureData::GetInstanceCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceCount.html)
 
 ## Availability

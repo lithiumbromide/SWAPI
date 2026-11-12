@@ -45,13 +45,7 @@ property System.bool UseDocDisplaySettings {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True uses the document defaults, false does not
 
 ## VBA Syntax
 
-See
-
-[CenterMark::UseDocDisplaySettings](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~UseDocDisplaySettings.html)
-
-.
+See [CenterMark::UseDocDisplaySettings](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~UseDocDisplaySettings.html).
 
 ## Examples
 
@@ -73,25 +63,12 @@ See
 
 You can use the following user-preference methods to get or set these document defaults:
 
-- [IModelDocExtension::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceToggle.html)
-
-  or
-
-  [IModelDocExtension::GetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceToggle.html)
-
-  - swDetailingCenterMarkShowLines, swDetailingNoOptionSpecified
-- [IModelDocExtension::SetUserPreferenceDouble](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceDouble.html)
-
-  or
-
-  [IModelDocExtension::GetUserPreferenceDouble](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceDouble.html)
-
-  - swDetailingCenterMarkSize, swDetailingNoOptionSpecified
+- [IModelDocExtension::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceToggle.html) or [IModelDocExtension::GetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceToggle.html) - swDetailingCenterMarkShowLines, swDetailingNoOptionSpecified
+- [IModelDocExtension::SetUserPreferenceDouble](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SetUserPreferenceDouble.html) or [IModelDocExtension::GetUserPreferenceDouble](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetUserPreferenceDouble.html) - swDetailingCenterMarkSize, swDetailingNoOptionSpecified
 
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [ICenterMark Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html)
 
 ## Availability

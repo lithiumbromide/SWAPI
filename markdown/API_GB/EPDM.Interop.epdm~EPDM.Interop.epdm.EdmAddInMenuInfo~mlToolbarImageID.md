@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo~mlToolbarIm
 
 # mlToolbarImageID Field
 
-ID of an image added via
-
-[IEdmCmdMgr5::AddToolbarImage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddToolbarImage.html)
-
-.
+ID of an image added via [IEdmCmdMgr5::AddToolbarImage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddToolbarImage.html).
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int mlToolbarImageID
 ## See Also
 
 [EdmAddInMenuInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo.html)
-
 [EdmAddInMenuInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInMenuInfo_members.html)

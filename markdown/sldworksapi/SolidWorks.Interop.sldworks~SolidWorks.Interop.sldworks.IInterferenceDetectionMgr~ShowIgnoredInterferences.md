@@ -45,13 +45,7 @@ property System.bool ShowIgnoredInterferences {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to show ignored interferences, false to not
 
 ## VBA Syntax
 
-See
-
-[InterferenceDetectionMgr::ShowIgnoredInterferences](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~ShowIgnoredInterferences.html)
-
-.
+See [InterferenceDetectionMgr::ShowIgnoredInterferences](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~ShowIgnoredInterferences.html).
 
 ## Examples
 
 [Run Interference Detection (C#)](Run_Interference_Detection_Example_CSharp.htm)
-
 [Run Interference Detection (VB.NET)](Run_Interference_Detection_Example_VBNET.htm)
-
 [Run Interference Detection (VBA)](Run_Interference_Detection_Example_VB.htm)
 
 ## Remarks
@@ -78,13 +66,12 @@ See
 Currently, the value set for this property:
 
 - exists only while the InterferenceDetectionMgr object is in scope; i.e., setting this property is temporary.
-- does not persist across SOLIDWORKS sessions.
+- does not persist across SOLIDWORKS Design sessions.
 - does not persist into the next invocation of interference detection in the user interface.
 
 ## See Also
 
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [IInterferenceDetectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr_members.html)
 
 ## Availability

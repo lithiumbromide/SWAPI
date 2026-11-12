@@ -45,9 +45,7 @@ System.bool ProgressStep(
 
 ### Parameters
 
-- `eType`: Type of progress bar as defined in
-
-[EdmProgressType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType.html)
+- `eType`: Type of progress bar as defined in [EdmProgressType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType.html)
 - `bsMessage`: Full path to the processed file
 - `lProgressPos`: New position of the progress bar pointer
 
@@ -57,7 +55,7 @@ True to continue, false to cancel the operation
 
 ## Remarks
 
-This method is called periodically by SOLIDWORKS PDM Professional during the operation.[IEdmGetOpCallback::ProgressBegin](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ProgressBegin.html)is called before this method is called. Implement this method to update a progress bar and to implement a button that, when clicked, halts the operation.
+This method is called periodically by SOLIDWORKS PDM Professional during the operation. [IEdmGetOpCallback::ProgressBegin](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback~ProgressBegin.html) is called before this method is called. Implement this method to update a progress bar and to implement a button that, when clicked, halts the operation.
 
 [Return codes](ReturnCodes.htm):
 
@@ -67,7 +65,6 @@ This method is called periodically by SOLIDWORKS PDM Professional during the ope
 ## See Also
 
 [IEdmGetOpCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback.html)
-
 [IEdmGetOpCallback Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Record_Macros_Example_VB.htm"
 
 # Record Macros Example (VBA)
 
-This example shows how to add two lines to one or more macro recording
-sessions.
+This example shows how to add two lines to one or more macro recording sessions.
 
 ```
 '---------------------------------------------------------------------------

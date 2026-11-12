@@ -9,7 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # IPowerSelect Interface Methods
 
-For a list of all members of this type, see[IPowerSelect members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html).
+For a list of all members of this type, see [IPowerSelect members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html).
 
 ## Public Methods
 
@@ -54,5 +54,4 @@ For a list of all members of this type, see[IPowerSelect members](SolidWorks.Int
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

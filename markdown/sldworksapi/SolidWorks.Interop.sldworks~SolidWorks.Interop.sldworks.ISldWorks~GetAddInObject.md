@@ -47,17 +47,11 @@ System.Object^ GetAddInObject(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Clsid`: GUID or ProgID of the add-in as registered with SOLIDWORKS (seeRemarks)
+- `Clsid`: GUID or ProgID of the add-in as registered with SOLIDWORKS (see Remarks)
 
 ### Return Value
 
@@ -65,37 +59,20 @@ Your add-in object
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetAddInObject](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetAddInObject.html)
-
-.
+See [SldWorks::GetAddInObject](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetAddInObject.html).
 
 ## Remarks
 
 To specify Clsid with:
 
-- a ProgID, read
-
-  [Accessing SOLIDWORKS Add-in Objects](sldworksapiprogguide.chm::/Overview/Accessing_Add-ins.htm)
-
-  .
-- a GUID, use curly brackets as in "{
-
-  GUID
-
-  }", or the string is interpreted as a ProgID.
-
-  kadov_tag{{<spaces>}}
+- a ProgID, read [Accessing SOLIDWORKS Add-in Objects](sldworksapiprogguide.chm::/Overview/Accessing_Add-ins.htm).
+- a GUID, use curly brackets as in "{`GUID`}", or the string is interpreted as a ProgID.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::LoadAddIn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadAddIn.html)
-
 [ISldWorks::UnloadAddIn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UnloadAddIn.html)
 
 ## Availability

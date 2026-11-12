@@ -58,45 +58,31 @@ void LBDownAt(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Flags`: Any combination of:
 
-- MK_CONTROL
-- MK_LBUTTON
-- MK_MBUTTON
-- MK_RBUTTON
-- MK_SHIFT
+  - MK_CONTROL
+  - MK_LBUTTON
+  - MK_MBUTTON
+  - MK_RBUTTON
+  - MK_SHIFT
 - `X`: X coordinate of position of cursor
 - `Y`: Y coordinate of position of cursor
 - `Z`: Z coordinate of position of cursor
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::LBDownAt](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~LBDownAt.html)
-
-.
+See [ModelDoc2::LBDownAt](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~LBDownAt.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::LBUpAt Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~LBUpAt.html)
-
 [IModelDoc2::DragTo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~DragTo.html)
-
 [IMouse Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMouse.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr~GetRevision
 
 # GetRevisionNumberComponents Method (IEdmRevisionMgr)
 
-Obsolete. Superseded by
-
-[IEdmRevisionMgr2::GetRevisionNumberComponents2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2~GetRevisionNumberComponents2.html)
-
-.
+Obsolete. Superseded by [IEdmRevisionMgr2::GetRevisionNumberComponents2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr2~GetRevisionNumberComponents2.html).
 
 ## Syntax
 
@@ -43,11 +39,7 @@ void GetRevisionNumberComponents(
 
 ### Parameters
 
-- `ppoComponents`: Array of
-
-[EdmRevComponent](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent.html)
-
-structures; one structure for each revision number component
+- `ppoComponents`: Array of [EdmRevComponent](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent.html) structures; one structure for each revision number component
 
 ## Remarks
 
@@ -58,7 +50,6 @@ structures; one structure for each revision number component
 ## See Also
 
 [IEdmRevisionMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr.html)
-
 [IEdmRevisionMgr Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevisionMgr_members.html)
 
 ## Availability

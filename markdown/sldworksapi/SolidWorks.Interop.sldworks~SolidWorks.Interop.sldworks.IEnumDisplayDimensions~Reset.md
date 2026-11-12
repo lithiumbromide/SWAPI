@@ -39,21 +39,11 @@ void Reset()
 void Reset();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[EnumDisplayDimensions::Reset](ms-its:sldworksapivb6.chm::/sldworks~EnumDisplayDimensions~Reset.html)
-
-.
+See [EnumDisplayDimensions::Reset](ms-its:sldworksapivb6.chm::/sldworks~EnumDisplayDimensions~Reset.html).
 
 ## Remarks
 
@@ -62,5 +52,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumDisplayDimensions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDisplayDimensions.html)
-
 [IEnumDisplayDimensions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDisplayDimensions_members.html)

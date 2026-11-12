@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPageNumberbox Object
-Members"
+title: "PropertyManagerPageNumberbox Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PropertyManagerPageNumberbox_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PropertyManagerPageNumberbox_members.html"
 ---
 
-# PropertyManagerPageNumberbox Object
-Members
+# PropertyManagerPageNumberbox Object Members
 
 ## Public Methods
 

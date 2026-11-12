@@ -45,13 +45,7 @@ property System.bool UseDefaultBendRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to use the default bend radius, false to specify another bend radius
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData::UseDefaultBendRadius](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~UseDefaultBendRadius.html)
-
-.
+See [SketchedBendFeatureData::UseDefaultBendRadius](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~UseDefaultBendRadius.html).
 
 ## Examples
 
-See
-
-[ISketchedBendFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchedBendFeatureData.html)
-
-examples.
+See [ISketchedBendFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchedBendFeatureData.html) examples.
 
 ## Examples
 
@@ -79,18 +65,12 @@ examples.
 
 ## Remarks
 
-This property takes precedence over
-
-[ISketchedBendFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseGaugeTable.html)
-
-. If this property is set to true, then ISketchedBendFeatureData::UseGaugeTable is set to false and cannot be changed.
+This property takes precedence over [ISketchedBendFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseGaugeTable.html). If this property is set to true, then ISketchedBendFeatureData::UseGaugeTable is set to false and cannot be changed.
 
 ## See Also
 
 [ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
-
 [ISketchedBendFeatureData::BendRadius Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~BendRadius.html)
 
 ## Availability

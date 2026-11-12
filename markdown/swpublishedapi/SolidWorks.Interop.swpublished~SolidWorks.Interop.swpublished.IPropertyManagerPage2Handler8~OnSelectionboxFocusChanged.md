@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnSelectionboxFocusChanged Method (IPropertyManagerPage2Handler8)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler9::OnSelectionboxFocusChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnSelectionboxFocusChanged.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler9::OnSelectionboxFocusChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnSelectionboxFocusChanged.html).
 
 ## Syntax
 
@@ -56,11 +52,7 @@ void OnSelectionboxFocusChanged(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler8::OnSelectionboxFocusChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnSelectionboxFocusChanged.html)
-
-.
+See [PropertyManagerPage2Handler8::OnSelectionboxFocusChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnSelectionboxFocusChanged.html).
 
 ## Remarks
 
@@ -69,7 +61,6 @@ A PropertyManager page often has more than one selection list. The focus is alwa
 ## See Also
 
 [IPropertyManagerPage2Handler8 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8.html)
-
 [IPropertyManagerPage2Handler8 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ Annotation IGetAnnotation()
 Annotation^ IGetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~IGetAnnotation.html)
-
-.
+See [WeldSymbol::IGetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~IGetAnnotation.html).
 
 ## Remarks
 
-This method obtains the owning[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)object, which is a higher-level object that contains methods that are general to all types of annotations.
+This method obtains the owning [IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html) object, which is a higher-level object that contains methods that are general to all types of annotations.
 
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
-
 [IWeldSymbol::GetAnnotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~GetAnnotation.html)
 
 ## Availability

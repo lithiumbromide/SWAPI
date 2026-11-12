@@ -48,26 +48,17 @@ void DeleteContactSet(
 
 ### Parameters
 
-- `SName`: [Name](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~ContactName.html)
-
-of contact set to delete
+- `SName`: [Name](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~ContactName.html) of contact set to delete
 
 ## VBA Syntax
 
-See
-
-[CWContactManager::DeleteContactSet](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~DeleteContactSet.html)
-
-.
+See [CWContactManager::DeleteContactSet](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~DeleteContactSet.html).
 
 ## See Also
 
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager_members.html)
-
 [ICWContactManager::CreateContactSet Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~CreateContactSet.html)
-
 [ICWContactManager::CreateContactSetsFromPairList Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~CreateContactSetsFromPairList.html)
 
 ## Availability

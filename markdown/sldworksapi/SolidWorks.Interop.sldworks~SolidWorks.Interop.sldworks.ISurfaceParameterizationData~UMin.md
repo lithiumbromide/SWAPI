@@ -42,13 +42,7 @@ property System.double UMin {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,30 +50,20 @@ Lowest U parameter value
 
 ## VBA Syntax
 
-See
-
-[SurfaceParameterizationData::UMin](ms-its:sldworksapivb6.chm::/sldworks~SurfaceParameterizationData~UMin.html)
-
-.
+See [SurfaceParameterizationData::UMin](ms-its:sldworksapivb6.chm::/sldworks~SurfaceParameterizationData~UMin.html).
 
 ## Examples
 
 [Get B-Spline Surface Parameterization Data (C#)](Get_B-Spline_Surface_Parameterization_Data_Example_CSharp.htm)
-
 [Get B-Spline Surface Parameterization Data (VB.NET)](Get_B-Spline_Surface_Parameterization_Data_Example_VBNET.htm)
-
 [Get B-Spline Surface Parameterization Data (VBA)](Get_B-Spline_Surface_Parameterization_Data_Example_VB.htm)
 
 ## See Also
 
 [ISurfaceParameterizationData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceParameterizationData.html)
-
 [ISurfaceParameterizationData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceParameterizationData_members.html)
-
 [ISurfaceParameterizationData::UMinBoundType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceParameterizationData~UMinBoundType.html)
-
 [ISurfaceParameterizationData::UProperties Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceParameterizationData~UProperties.html)
-
 [ISurfaceParameterizationData::UMax Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceParameterizationData~UMax.html)
 
 ## Availability

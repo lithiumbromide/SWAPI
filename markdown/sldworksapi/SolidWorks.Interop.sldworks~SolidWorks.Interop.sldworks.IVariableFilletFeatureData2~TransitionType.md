@@ -45,38 +45,23 @@ property System.int TransitionType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of transition as defined in
-
-[swVariableRadiusFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swVariableRadiusFilletOptions_e.html)
-
-}}end!kadov
+Type of transition as defined in [swVariableRadiusFilletOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swVariableRadiusFilletOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData2::TransitionType](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~TransitionType.html)
-
-.
+See [VariableFilletFeatureData2::TransitionType](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~TransitionType.html).
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2_members.html)
 
 ## Availability

@@ -42,13 +42,7 @@ property System.bool UseMaterialSheetMetalParameters {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,19 +50,11 @@ True uses the applied material's sheet metal parameters, false does not
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::UseMaterialSheetMetalParameters](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~UseMaterialSheetMetalParameters.html)
-
-.
+See [BaseFlangeFeatureData::UseMaterialSheetMetalParameters](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~UseMaterialSheetMetalParameters.html).
 
 ## Examples
 
-See the
-
-[IBaseFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
-examples.
+See the [IBaseFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html) examples.
 
 ## Remarks
 
@@ -78,11 +64,7 @@ This property is valid only:
 
 - and -
 
-- when
-
-  [IBaseFlangeFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~UseGaugeTable.html)
-
-  is false.
+- when [IBaseFlangeFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~UseGaugeTable.html) is false.
 
 If this property returns false, then specify sheet metal parameters using:
 
@@ -90,12 +72,11 @@ If this property returns false, then specify sheet metal parameters using:
 - [IBaseFlangeFeatureData::Thickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~Thickness.html)
 - [IBaseFlangeFeatureData::ReverseThickness](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~ReverseThickness.html)
 
-Whether to use the applied material's sheet metal parameters was set during the[initialization](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~Initialize.html)of this base flange and cannot be changed.
+Whether to use the applied material's sheet metal parameters was set during the [initialization](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~Initialize.html) of this base flange and cannot be changed.
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.bool ISetDragPoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,14 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DragOperator::ISetDragPoint](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~ISetDragPoint.html)
-
-.
+See [DragOperator::ISetDragPoint](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~ISetDragPoint.html).
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
-
 [IDragOperator::GetDragPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~GetDragPoint.html)
-
 [IDragOperator::IGetDragPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~IGetDragPoint.html)
-
 [IDragOperator::SetDragPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~SetDragPoint.html)
 
 ## Availability

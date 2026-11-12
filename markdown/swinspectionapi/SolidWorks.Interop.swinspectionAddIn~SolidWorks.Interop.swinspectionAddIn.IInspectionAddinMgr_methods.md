@@ -9,7 +9,7 @@ source: "swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop
 
 # IInspectionAddinMgr Interface Methods
 
-For a list of all members of this type, see[IInspectionAddinMgr members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr_members.html).
+For a list of all members of this type, see [IInspectionAddinMgr members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr_members.html).
 
 ## Public Methods
 
@@ -43,5 +43,4 @@ For a list of all members of this type, see[IInspectionAddinMgr members](SolidWo
 ## See Also
 
 [IInspectionAddinMgr Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr.html)
-
 [SolidWorks.Interop.swinspectionAddIn Namespace](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn_namespace.html)

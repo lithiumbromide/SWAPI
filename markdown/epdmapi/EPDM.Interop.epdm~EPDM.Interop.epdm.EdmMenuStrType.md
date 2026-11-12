@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMenuStrType.html"
 
 # EdmMenuStrType Enumeration
 
-Types of arguments sent to
-
-[IEdmMenu5::GetString](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~GetString.html)
-
-to specify which string to return.
+Types of arguments sent to [IEdmMenu5::GetString](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~GetString.html) to specify which string to return.
 
 ## Syntax
 

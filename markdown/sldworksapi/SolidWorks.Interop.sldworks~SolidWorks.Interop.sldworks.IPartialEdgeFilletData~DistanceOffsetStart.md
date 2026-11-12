@@ -42,13 +42,7 @@ property System.double DistanceOffsetStart {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,18 @@ Distance offset from the start point
 
 ## VBA Syntax
 
-See
-
-[PartialEdgeFilletData::DistanceOffsetStart](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData~DistanceOffsetStart.html)
-
-.
+See [PartialEdgeFilletData::DistanceOffsetStart](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData~DistanceOffsetStart.html).
 
 ## Remarks
 
-This property is valid only if[IPartialEdgeFilletData::StartCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~StartCondition.html)is set to swSimpleFilletPartialEdgeCondition_e.PartialEdgeDistanceOffset.
+This property is valid only if [IPartialEdgeFilletData::StartCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~StartCondition.html) is set to swSimpleFilletPartialEdgeCondition_e.PartialEdgeDistanceOffset.
 
-To modify the start distance offset of the fillet after creation, you must call[IPartialEdgeFilletData::SetPartialFilletParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~SetPartialFilletParameters.html).
+To modify the start distance offset of the fillet after creation, you must call [IPartialEdgeFilletData::SetPartialFilletParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~SetPartialFilletParameters.html).
 
 ## See Also
 
 [IPartialEdgeFilletData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html)
-
 [IPartialEdgeFilletData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData_members.html)
-
 [IPartialEdgeFilletData::DistanceOffsetEnd Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~DistanceOffsetEnd.html)
 
 ## Availability

@@ -11,64 +11,33 @@ source: "sldworksapi/Set_Components_Transparent_Example_VB.htm"
 
 This example shows how to make one or more selected components transparent
 
+```vb
 '-------------------------------------------
-
 '
-
 ' Preconditions: Assembly document is open and one
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}or
-more components are selected.
-
+'                or more components are selected.
 '
-
 ' Postconditions: Selected components are transparent.
-
 '
-
 '-------------------------------------------
-
 Option Explicit
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swApp As SldWorks.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelDoc As SldWorks.ModelDoc2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAssembly As SldWorks.AssemblyDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-boolstatus As Boolean
+    Dim swApp As SldWorks.SldWorks
+    Dim swModelDoc As SldWorks.ModelDoc2
+    Dim swAssembly As SldWorks.AssemblyDoc
+    Dim boolstatus As Boolean
 
 Sub main()
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
+    Set swApp = Application.SldWorks
+    Set swModelDoc = swApp.ActiveDoc
+    Set swAssembly = swModelDoc
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModelDoc = swApp.ActiveDoc
+    ' Set the selected component to transparent
+    boolstatus = swAssembly.SetComponentTransparent(True)
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swAssembly = swModelDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Set the selected component to transparent
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}boolstatus
-= swAssembly.SetComponentTransparent(True)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Set
-the selected component to not transparent
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'boolstatus
-= swAssembly.SetComponentTransparent(False)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    'Set the selected component to not transparent
+    'boolstatus = swAssembly.SetComponentTransparent(False)
 
 End Sub
+```

@@ -49,9 +49,7 @@ System.Object^ GetAutoPartSimplification(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -59,16 +57,11 @@ Pointer to the simplified configuration
 
 ## VBA Syntax
 
-See
-
-[IUtilities::GetAutoPartSimplification](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~GetAutoPartSimplification.html)
-
-.
+See [IUtilities::GetAutoPartSimplification](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~GetAutoPartSimplification.html).
 
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
 
 ## Availability

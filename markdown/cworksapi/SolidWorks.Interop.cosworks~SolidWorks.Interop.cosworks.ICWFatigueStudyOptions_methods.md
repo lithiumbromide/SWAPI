@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFa
 
 # ICWFatigueStudyOptions Interface Methods
 
-For a list of all members of this type, see[ICWFatigueStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html).
+For a list of all members of this type, see [ICWFatigueStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html).
 
 ## Public Methods
 
@@ -33,5 +33,4 @@ For a list of all members of this type, see[ICWFatigueStudyOptions members](Soli
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

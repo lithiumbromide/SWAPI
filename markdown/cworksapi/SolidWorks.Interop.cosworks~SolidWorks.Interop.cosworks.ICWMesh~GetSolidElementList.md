@@ -58,9 +58,7 @@ System.int GetSolidElementList(
 ### Parameters
 
 - `DDepth`: Depth at which to find elements
-- `NUnit`: Linear units of DDepth as defined in
-
-[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+- `NUnit`: Linear units of DDepth as defined in [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
 - `VarElementIDs`: Array of element IDs
 
 ### Return Value
@@ -69,44 +67,25 @@ Number of elements in VarElementIDs
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetSolidElementList](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetSolidElementList.html)
-
-.
+See [CWMesh::GetSolidElementList](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetSolidElementList.html).
 
 ## Examples
 
 [Get Mesh Elements and Nodes (VBA)](Get_Mesh_Elements_and_Nodes_Example_VB.htm)
-
 [Get Mesh Elements and Nodes (VB.NET)](Get_Mesh_Elements_and_Nodes_Example_VBNET.htm)
-
 [Get Mesh Elements and Nodes (C#)](Get_Mesh_Elements_And_Nodes_Example_CSharp.htm)
 
 ## Remarks
 
-You must set
-
-[ICWMesh::Quality](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~Quality.html)
-
-to
-
-[swsMeshQuality_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshQuality_e.html)
-
-.swsMeshQualityHigh before calling this method.
+You must set [ICWMesh::Quality](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~Quality.html) to [swsMeshQuality_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshQuality_e.html).swsMeshQualityHigh before calling this method.
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GetElementList Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetElementList.html)
-
 [ICWMesh::GetNodeList Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodeList.html)
-
 [ICWMesh::GetSolidNodeList Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetSolidNodeList.html)
-
 [ICWMesh::GetSurfaceNodesAndNormals Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetSurfaceNodesAndNormals.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo_fields.html"
 
 # EdmWorkflowInfo Structure Fields
 
-For a list of all members of this type, see[EdmWorkflowInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo_members.html).
+For a list of all members of this type, see [EdmWorkflowInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo_members.html).
 
 ## Public Fields
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[EdmWorkflowInfo members](EPDM.Intero
 ## See Also
 
 [EdmWorkflowInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmWorkflowInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

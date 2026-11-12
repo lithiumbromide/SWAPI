@@ -40,27 +40,15 @@ Sketch GetSketch()
 Sketch^ GetSketch();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Underlying
-
-[sketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html)
+Underlying [sketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::GetSketch](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetSketch.html)
-
-.
+See [SketchBlockDefinition::GetSketch](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetSketch.html).
 
 ## Remarks
 
@@ -69,7 +57,6 @@ The returned sketch defines this block. The sketch does not appear in the Featur
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
 
 ## Availability

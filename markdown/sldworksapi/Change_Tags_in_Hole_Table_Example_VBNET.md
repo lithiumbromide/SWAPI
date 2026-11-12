@@ -35,49 +35,49 @@ Imports System.Diagnostics
 
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public
+    Public
  Sub main()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSelMgr As SelectionMgr
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swHoleTable As HoleTable
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim boolstatus As Boolean
+        Dim swModel As ModelDoc2
+        Dim swSelMgr As SelectionMgr
+        Dim swHoleTable As HoleTable
+        Dim boolstatus As Boolean
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSelMgr = swModel.SelectionManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swModel.Extension.SelectByID2("Hole
+        swModel = swApp.ActiveDoc
+        swSelMgr = swModel.SelectionManager
+        boolstatus = swModel.Extension.SelectByID2("Hole
  Table1", "HOLETABLE", 0, 0, 0, False, 0, Nothing, 0)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swHoleTable = swSelMgr.GetSelectedObject6(1,
+        swHoleTable = swSelMgr.GetSelectedObject6(1,
  -1)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swHoleTable.EnableUpdate = False 'Disable updating
+        swHoleTable.EnableUpdate = False 'Disable updating
  hole table tags
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Original name of tag in column1, row 2: kadov_tag{{<spaces>}}  kadov_tag{{</spaces>}}"
+        Debug.Print("Original name of tag in column1, row 2:   "
  & swHoleTable.HoleTag(1))
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swHoleTable.HoleTag(1) = "Test1"
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("New name of tag in column1, row 2: kadov_tag{{<spaces>}}       kadov_tag{{</spaces>}}"
+        swHoleTable.HoleTag(1) = "Test1"
+        Debug.Print("New name of tag in column1, row 2:        "
  & swHoleTable.HoleTag(1))
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("Original name of tag in column1, row 5: kadov_tag{{<spaces>}}  kadov_tag{{</spaces>}}"
+        Debug.Print("")
+        Debug.Print("Original name of tag in column1, row 5:   "
  & swHoleTable.HoleTag(4))
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swHoleTable.HoleTag(4) = "Test1" kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}'
+        swHoleTable.HoleTag(4) = "Test1"  '
  Fails because same name is used in row 2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swHoleTable.HoleTag(4) = "Test2"
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print("New name of tag in column1, row 2: kadov_tag{{<spaces>}}       kadov_tag{{</spaces>}}"
+        swHoleTable.HoleTag(4) = "Test2"
+        Debug.Print("New name of tag in column1, row 2:        "
  & swHoleTable.HoleTag(4))
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swHoleTable.EnableUpdate = True 'Enable updating
+        swHoleTable.EnableUpdate = True 'Enable updating
  hole table tags
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End
+    End
  Sub
 ```
 
 ```vb
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
- kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+     ''' <summary>
+     ''' The SldWorks swApp variable is pre-assigned for you.
+     ''' </summary>
+     Public swApp As SldWorks
 
  End Class
 ```

@@ -45,13 +45,7 @@ property System.bool AddSlicingPlanesAndSketchesToFolder {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to add slicing planes and sketches to a folder in the FeatureManager design
 
 ## VBA Syntax
 
-See
-
-[SlicingData::AddSlicingPlanesAndSketchesToFolder](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~AddSlicingPlanesAndSketchesToFolder.html)
-
-.
+See [SlicingData::AddSlicingPlanesAndSketchesToFolder](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~AddSlicingPlanesAndSketchesToFolder.html).
 
 ## Examples
 
-See the
-
-[ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
-example.
+See the [ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html) example.
 
 ## Remarks
 
-If this property is set to true, then after slicing, a
-
-Slice1
-
-folder is created in the FeatureManager design tree from which you can explicitly select and edit the slicing sketches and reference planes.
+If this property is set to true, then after slicing, a **Slice1** folder is created in the FeatureManager design tree from which you can explicitly select and edit the slicing sketches and reference planes.
 
 ## See Also
 
 [ISlicingData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
 [ISlicingData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html)
 
 ## Availability

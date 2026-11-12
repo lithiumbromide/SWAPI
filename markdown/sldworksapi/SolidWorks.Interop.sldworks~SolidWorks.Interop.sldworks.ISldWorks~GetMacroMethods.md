@@ -51,20 +51,12 @@ System.Object^ GetMacroMethods(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FilePathName`: Path and macro filename whose module names you want
-- `Filter`: Filter as defined in
-
-[swMacroMethods_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMacroMethods_e.html)
+- `Filter`: Filter as defined in [swMacroMethods_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMacroMethods_e.html)
 
 ### Return Value
 
@@ -72,24 +64,15 @@ Array of names of the modules in FilePathName
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetMacroMethods](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetMacroMethods.html)
-
-.
+See [SldWorks::GetMacroMethods](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetMacroMethods.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetCurrentMacroPathFolder Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentMacroPathFolder.html)
-
 [ISldWorks::GetCurrentMacroPathName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentMacroPathName.html)
-
 [ISldWorks::GetCurrentWorkingDirectory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetCurrentWorkingDirectory.html)
-
 [ISldWorks::RunMacro Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunMacro.html)
 
 ## Availability

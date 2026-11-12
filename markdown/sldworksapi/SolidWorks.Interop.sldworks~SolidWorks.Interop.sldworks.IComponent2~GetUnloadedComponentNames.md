@@ -59,24 +59,14 @@ System.Object^ GetUnloadedComponentNames(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UnloadedComponentPathNames`: Array of children components' path names
 - `UnloadedComponentReferencedConfigurationNames`: Array of children components' referenced configuration names
-- `ReasonForUnloadingComponents`: Array indicating the reason each child component is unloaded as defined by
-
-[swComponentLoadStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentLoadStatus_e.html)
-- `DocTypes`: Array of document types as defined in
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `ReasonForUnloadingComponents`: Array indicating the reason each child component is unloaded as defined by [swComponentLoadStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentLoadStatus_e.html)
+- `DocTypes`: Array of document types as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
 
 ### Return Value
 
@@ -84,30 +74,21 @@ Array of children components' names
 
 ## VBA Syntax
 
-See
-
-[Component2::GetUnloadedComponentNames](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetUnloadedComponentNames.html)
-
-.
+See [Component2::GetUnloadedComponentNames](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetUnloadedComponentNames.html).
 
 ## Remarks
 
-This method is useful when the assembly document was opened with**Quick View/Selective open**.
+This method is useful when the assembly document was opened with **[Quick View/Selective open](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~Selective.html)**.
 
-To get whether a component has hidden or suppressed children components, call[IComponent2::HasUnloadedComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~HasUnloadedComponents.html).
+To get whether a component has hidden or suppressed children components, call [IComponent2::HasUnloadedComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~HasUnloadedComponents.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::GetHiddenUnloadedChildrenCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetHiddenUnloadedChildrenCount.html)
-
 [IComponent2::HasUnloadedComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~HasUnloadedComponents.html)
-
 [IAssemblyDoc::GetUnloadedComponentNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetUnloadedComponentNames.html)
-
 [IAssemblyDoc::HasUnloadedComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~HasUnloadedComponents.html)
 
 ## Availability

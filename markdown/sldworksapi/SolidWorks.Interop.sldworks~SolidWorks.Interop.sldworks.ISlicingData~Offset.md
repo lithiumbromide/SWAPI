@@ -45,41 +45,23 @@ property System.double Offset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Linear spacing (meters) or radial spacing (radians) between slicing planes (see
-
-Remarks
-
-)
+Linear spacing (meters) or radial spacing (radians) between slicing planes (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SlicingData::Offset](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~Offset.html)
-
-.
+See [SlicingData::Offset](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~Offset.html).
 
 ## Examples
 
-See the
-
-[ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
-example.
+See the [ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html) example.
 
 ## Remarks
 
-If[ISlicingData::PlaneReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData~PlaneReferences.html)specifies:
+If [ISlicingData::PlaneReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData~PlaneReferences.html) specifies:
 
 - a planar entity, then this property specifies linear spacing between slices.
 - a linear entity and a point entity, then this property specifies radial spacing between slices.
@@ -87,7 +69,6 @@ If[ISlicingData::PlaneReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop
 ## See Also
 
 [ISlicingData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
 [ISlicingData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html)
 
 ## Availability

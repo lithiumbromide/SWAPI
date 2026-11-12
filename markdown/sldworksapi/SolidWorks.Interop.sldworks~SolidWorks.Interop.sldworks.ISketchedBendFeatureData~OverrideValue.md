@@ -42,13 +42,7 @@ property System.bool OverrideValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ True if the bend angle is overridden by a custom bend angle, false if the bend a
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData::OverrideValue](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~OverrideValue.html)
-
-.
+See [SketchedBendFeatureData::OverrideValue](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~OverrideValue.html).
 
 ## Examples
 
@@ -73,7 +63,7 @@ See
 '2. Open an Immediate window.
 '
 'Postconditions:
-'1. A part with**Sheet-Metal**,**Base-Flange1**, and**Sketched Bend1**features is created.
+'1. A part with **Sheet-Metal**, **Base-Flange1**, and **Sketched Bend1** features is created.
 '2. Inspect the Immediate window.
 '=============================================================================
 
@@ -149,20 +139,20 @@ Set swFeatMgr = Part.FeatureManager
 'Create a sheet metal base flange
 
 Set swFeatData = swFeatMgr.**CreateDefinition**(swFeatureNameID_e.swFmBaseFlange)
-swFeatData.**Initialize**False, True, customBendAllowanceData, True, 1, True, 0.5, 0.0001, 0.0001
-swFeatData.**BendRadius**= 0.00635
-swFeatData.**D1EndConditionDistance**= 0.02
-swFeatData.**D1EndConditionType**= 1
-swFeatData.**D1ReverseOffset**= False
-swFeatData.**D2EndConditionDistance**= 0.01
-swFeatData.**D2EndConditionType**= 1
-swFeatData.**D2ReverseOffset**= False
-swFeatData.**OffsetDirections**= 1
-swFeatData.**ReverseDirection**= False
-swFeatData.**ReverseThickness**= False
-swFeatData.**Thickness**= 0.00531368
-swFeatData.**UseGaugeTable**= True
-swFeatData.**GaugeTablePath**= "D:\Program Files\SOLIDWORKS Corp\SOLIDWORKS (2)\lang\english\Sheet Metal Gauge Tables\bend allowance mm sample.xlsx"
+swFeatData.**Initialize** False, True, customBendAllowanceData, True, 1, True, 0.5, 0.0001, 0.0001
+swFeatData.**BendRadius** = 0.00635
+swFeatData.**D1EndConditionDistance** = 0.02
+swFeatData.**D1EndConditionType** = 1
+swFeatData.**D1ReverseOffset** = False
+swFeatData.**D2EndConditionDistance** = 0.01
+swFeatData.**D2EndConditionType** = 1
+swFeatData.**D2ReverseOffset** = False
+swFeatData.**OffsetDirections** = 1
+swFeatData.**ReverseDirection** = False
+swFeatData.**ReverseThickness** = False
+swFeatData.**Thickness** = 0.00531368
+swFeatData.**UseGaugeTable** = True
+swFeatData.**GaugeTablePath** = "D:\Program Files\SOLIDWORKS Corp\SOLIDWORKS (2)\lang\english\Sheet Metal Gauge Tables\bend allowance mm sample.xlsx"
 Set swFeat = swFeatMgr.**CreateFeature**(swFeatData)
 Part.ClearSelection2 True
 Set myModelView = Part.ActiveView
@@ -187,13 +177,13 @@ boolstatus = Part.Extension.SelectByRay(-3.97811503331896E-03, 1.40228554924494E
 
 Set skBendFeatData = Part.FeatureManager.**CreateDefinition**(swFmSketchBend)
 
-skBendFeatData.**BendAngle**= 1.6
-skBendFeatData.**UseDefaultBendRadius**= False
-skBendFeatData.**BendRadius**= 0.001
-skBendFeatData.**ReverseDirection**= False
+skBendFeatData.**BendAngle** = 1.6
+skBendFeatData.**UseDefaultBendRadius** = False
+skBendFeatData.**BendRadius** = 0.001
+skBendFeatData.**ReverseDirection** = False
 
 Set CBAObject = skBendFeatData.**GetCustomBendAllowance**()
-CBAObject.**BendAllowance**= 0.003
+CBAObject.**BendAllowance** = 0.003
 Call skBendFeatData.**SetCustomBendAllowance**(CBAObject)
 
 Set myFeature = Part.FeatureManager.**CreateFeature**(skBendFeatData)
@@ -206,7 +196,7 @@ Debug.Print "Bend angle is overridden? " & myFeatData.**OverrideValue**
 'If OverrideValue is true, then the bend angle is a custom value not in the current gauge table
 
 'Set a new value for bend angle in radians
-myFeatData.**BendAngle**= 1.5707963267949
+myFeatData.**BendAngle** = 1.5707963267949
 
 boolstatus = myFeature.**ModifyDefinition**(myFeatData, Part, Nothing)
 
@@ -228,9 +218,7 @@ This property:
 ## See Also
 
 [ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
-
 [ISketchedBendFeatureData::BendAngle Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~BendAngle.html)
 
 ## Availability

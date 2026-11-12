@@ -87,30 +87,20 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertBlockTolerances::GetToleranceValues](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertBlockTolerances~GetToleranceValues.html)
-
-.
+See [DimXpertBlockTolerances::GetToleranceValues](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertBlockTolerances~GetToleranceValues.html).
 
 ## Examples
 
 [Get DimXpert Block Tolerance Example (VBA)](Get_DimXpert_Block_Tolerance_Example_VB.htm)
-
 [Get DimXpert Block Tolerance Example (VB.NET)](Get_DimXpert_Block_Tolerance_Example_VBNET.htm)
 
 ## Remarks
 
-This method gets the DimXpert block tolerance values that are set in the
-
-[SOLIDWORKS System Options and Document Properties dialog (Tools > Options > Document Properties > DimXpert)](sldworksapiprogguide.chm::/Overview/System_Options_And_Document_Properties.htm)
-
-.
+This method gets the DimXpert block tolerance values that are set in the [SOLIDWORKS System Options and Document Properties dialog (Tools > Options > Document Properties > DimXpert)](sldworksapiprogguide.chm::/Overview/System_Options_And_Document_Properties.htm).
 
 ## See Also
 
 [IDimXpertBlockTolerances Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances.html)
-
 [IDimXpertBlockTolerances Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances_members.html)
 
 ## Availability

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 Allows access to the custom properties.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,26 +41,16 @@ public interface class ICustomPropertyManager
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager.html)
-
-.
+See [CustomPropertyManager](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager.html).
 
 ## Examples
 
 [Get Custom Property Values on Cut List Folders (VBA)](Get_Custom_Property_Values_On_Cut_List_Folders_Example_VB.htm)
-
 [Get Custom Properties of Referenced Part (C#)](Get_Custom_Properties_of_Referenced_Part_Example_CSharp.htm)
-
 [Get Custom Properties of Referenced Part (VB.NET)](Get_Custom_Properties_of_Referenced_Part_Example_VBNET.htm)
-
 [Get Custom Properties of Referenced Part (VBA)](Get_Custom_Properties_of_Referenced_Part_Example_VB.htm)
-
 [Get Custom Properties for Configuration (VBA)](Get_Custom_Properties_for_Configuration_Example_VB.htm)
-
 [Get Custom Properties for Configuration (VB.NET)](Get_Custom_Properties_for_Configuration_Example_VBNET.htm)
-
 [Get Custom Properties for Configuration (C#)](Get_Custom_Properties_for_Configuration_Example_CSharp.htm)
 
 ## Accessors
@@ -82,5 +72,4 @@ See
 ## See Also
 
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

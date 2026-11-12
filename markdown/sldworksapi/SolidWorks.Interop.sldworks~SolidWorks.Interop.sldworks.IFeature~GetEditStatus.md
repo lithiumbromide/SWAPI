@@ -40,34 +40,20 @@ System.int GetEditStatus()
 System.int GetEditStatus();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Editing status of feature as defined in
-
-[swFeatureEditStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureEditStatus_e.html)
+Editing status of feature as defined in [swFeatureEditStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureEditStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[Feature::GetEditStatus](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetEditStatus.html)
-
-.
+See [Feature::GetEditStatus](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetEditStatus.html).
 
 ## Examples
 
 [Get Editing Status of Features (VB.NET)](Get_Editing_Status_of_Features_Example_VBNET.htm)
-
 [Get Editing Status of Features (VBA)](Get_Editing_Status_of_Features_Example_VB.htm)
-
 [Get Editing Status of Features (C#)](Get_Editing_Status_of_Features_Example_CSharp.htm)
 
 ## Remarks
@@ -83,7 +69,6 @@ Although swFeatureEditStatus_e is a bitmask, you currently cannot combine its mu
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
 
 ## Availability

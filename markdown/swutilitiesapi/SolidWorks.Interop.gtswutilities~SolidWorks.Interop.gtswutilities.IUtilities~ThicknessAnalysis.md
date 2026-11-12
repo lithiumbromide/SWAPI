@@ -44,19 +44,11 @@ property gtcocswThicknessAnalysis^ ThicknessAnalysis {
 
 ### Property Value
 
-Pointer to an
-
-[IThicknessAnalysis](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis.html)
-
-object
+Pointer to an [IThicknessAnalysis](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis.html) object
 
 ## VBA Syntax
 
-See
-
-[IUtilities::ThicknessAnalysis](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~ThicknessAnalysis.html)
-
-.
+See [IUtilities::ThicknessAnalysis](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~ThicknessAnalysis.html).
 
 ## Examples
 
@@ -65,7 +57,6 @@ See
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
 
 ## Availability

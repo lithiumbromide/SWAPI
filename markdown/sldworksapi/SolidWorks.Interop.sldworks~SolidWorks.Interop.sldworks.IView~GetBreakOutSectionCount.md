@@ -40,13 +40,7 @@ System.int GetBreakOutSectionCount()
 System.int GetBreakOutSectionCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,22 @@ Number of broken-out sections
 
 ## VBA Syntax
 
-See
-
-[View::GetBreakOutSectionCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetBreakOutSectionCount.html)
-
-.
+See [View::GetBreakOutSectionCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetBreakOutSectionCount.html).
 
 ## Examples
 
 [Get Broken-Out Section Feature Data (VBA)](Get_Broken_Out_Section_Feature_Data_Example_VB.htm)
-
 [Get Broken-Out Section Feature Data (VB.NET)](Get_Broken_Out_Section_Feature_Data_Example_VBNET.htm)
-
 [Get Broken-Out Section Feature Data (C#)](Get_Broken_Out_Section_Feature_Data_Example_CSharp.htm)
 
 ## Remarks
 
-Call this method before calling[IView::IGetBreakOutSections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetBreakOutSections.html)to determine the size of the array for that method.
+Call this method before calling [IView::IGetBreakOutSections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetBreakOutSections.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetBreakOutSections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakOutSections.html)
 
 ## Availability

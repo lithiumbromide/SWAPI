@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # IGetSplinePtsSize Method (ICurve)
 
-Gets the size of the array required by
-
-[ICurve::IGetSplinePts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetSplinePts.html)
-
-.
+Gets the size of the array required by [ICurve::IGetSplinePts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetSplinePts.html).
 
 ## Syntax
 
@@ -59,31 +55,21 @@ System.int IGetSplinePtsSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `PropArray`: Array that includes dimension, order, number of control points, and periodicity
 - `KnotsArray`: knot1, knot2, ..., knot`n`
-- `CntrlPntCoordArray`: controlpoint1[dimension], controlpoint2[dimension], ...,kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}controlpoint`n`[dimension]
+- `CntrlPntCoordArray`: controlpoint1[dimension], controlpoint2[dimension], ..., controlpoint`n`[dimension]
 
 ### Return Value
 
-Size of the data set returned by[ICurve::IGetSplinePts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetSplinePts.html)
+Size of the data set returned by [ICurve::IGetSplinePts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetSplinePts.html)
 
 ## VBA Syntax
 
-See
-
-[Curve::IGetSplinePtsSize](ms-its:sldworksapivb6.chm::/sldworks~Curve~IGetSplinePtsSize.html)
-
-.
+See [Curve::IGetSplinePtsSize](ms-its:sldworksapivb6.chm::/sldworks~Curve~IGetSplinePtsSize.html).
 
 ## Examples
 
@@ -112,13 +98,11 @@ Data passed into this method must satisfy the following requirements:
 - If the curve is non-periodic, it must only have repeated knots at its ends.
 - The curve must be cubic or lower degree, non-rational and have continuous first and second derivatives.
 
-**NOTE:**For a linear or quadratic curve to satisfy these continuity requirements, it
+**NOTE:** For a linear or quadratic curve to satisfy these continuity requirements, it
 must consist of a single segment.
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::GetSplinePts Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetSplinePts.html)

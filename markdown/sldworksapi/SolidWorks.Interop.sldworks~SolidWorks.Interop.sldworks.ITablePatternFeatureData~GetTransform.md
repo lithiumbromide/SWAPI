@@ -47,21 +47,11 @@ MathTransform^ GetTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Instance`: Index of one repeating element in the pattern (see
-
-Remarks
-
-)
+- `Instance`: Index of one repeating element in the pattern (see **Remarks**)
 
 ### Return Value
 
@@ -69,26 +59,15 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~GetTransform.html)
-
-.
+See [TablePatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~GetTransform.html).
 
 ## Remarks
 
-1 <=
-
-Instance
-
-<=
-
-[ITablePatternFeatureData::GetPointCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITablePatternFeatureData~GetPointCount.html)
+1 <= `Instance` <= [ITablePatternFeatureData::GetPointCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITablePatternFeatureData~GetPointCount.html)
 
 ## See Also
 
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
 
 ## Availability

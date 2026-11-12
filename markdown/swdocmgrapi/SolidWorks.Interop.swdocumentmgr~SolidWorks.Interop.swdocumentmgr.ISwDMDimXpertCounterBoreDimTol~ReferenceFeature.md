@@ -48,11 +48,7 @@ property SwDMDimXpertFeature^ ReferenceFeature {
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCounterBoreDimTol::ReferenceFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCounterBoreDimTol~ReferenceFeature.html)
-
-.
+See [SwDMDimXpertCounterBoreDimTol::ReferenceFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCounterBoreDimTol~ReferenceFeature.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCounterBoreDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCounterBoreDimTol.html)
-
 [ISwDMDimXpertCounterBoreDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCounterBoreDimTol_members.html)
 
 ## Availability

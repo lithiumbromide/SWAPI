@@ -46,16 +46,11 @@ Array of search paths
 
 ## VBA Syntax
 
-See
-
-[SwDMSearchOption::GetAllSearchPaths](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSearchOption~GetAllSearchPaths.html)
-
-.
+See [SwDMSearchOption::GetAllSearchPaths](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSearchOption~GetAllSearchPaths.html).
 
 ## See Also
 
 [ISwDMSearchOption Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSearchOption.html)
-
 [ISwDMSearchOption Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSearchOption_members.html)
 
 ## Availability

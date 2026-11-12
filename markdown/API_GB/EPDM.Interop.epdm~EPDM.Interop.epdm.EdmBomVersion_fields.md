@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion_fields.html"
 
 # EdmBomVersion Structure Fields
 
-For a list of all members of this type, see[EdmBomVersion members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion_members.html).
+For a list of all members of this type, see [EdmBomVersion members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion_members.html).
 
 ## Public Fields
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[EdmBomVersion members](EPDM.Interop.
 ## See Also
 
 [EdmBomVersion Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

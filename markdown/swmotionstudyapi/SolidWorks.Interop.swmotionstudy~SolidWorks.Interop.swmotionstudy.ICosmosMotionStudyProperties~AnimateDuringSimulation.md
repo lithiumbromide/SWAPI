@@ -51,11 +51,7 @@ True to show the motion during the calculation of the simulation, false to not a
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::AnimateDuringSimulation](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~AnimateDuringSimulation.html)
-
-.
+See [CosmosMotionStudyProperties::AnimateDuringSimulation](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~AnimateDuringSimulation.html).
 
 ## Examples
 
@@ -64,7 +60,6 @@ See
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
 
 ## Availability

@@ -40,36 +40,20 @@ MathPoint IConvertToPoint()
 MathPoint^ IConvertToPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Newly created
-
-[IMathPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-object or NULL if the operation fails
+Newly created [IMathPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) object or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathVector::IConvertToPoint](ms-its:sldworksapivb6.chm::/sldworks~MathVector~IConvertToPoint.html)
-
-.
+See [MathVector::IConvertToPoint](ms-its:sldworksapivb6.chm::/sldworks~MathVector~IConvertToPoint.html).
 
 ## See Also
 
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IMathVector Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html)
-
 [IMathVector::ConvertToPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector~ConvertToPoint.html)
 
 ## Availability

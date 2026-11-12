@@ -40,13 +40,7 @@ System.bool ForceMisalignment()
 System.bool ForceMisalignment();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the misaligned mate condition is successfully created, false if not
 
 ## VBA Syntax
 
-See
-
-[Mate2::ForceMisalignment](ms-its:sldworksapivb6.chm::/sldworks~Mate2~ForceMisalignment.html)
-
-.
+See [Mate2::ForceMisalignment](ms-its:sldworksapivb6.chm::/sldworks~Mate2~ForceMisalignment.html).
 
 ## Examples
 
@@ -101,9 +91,7 @@ End Sub
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
-
 [IMate2::RemoveMisalignment Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~RemoveMisalignment.html)
 
 ## Availability

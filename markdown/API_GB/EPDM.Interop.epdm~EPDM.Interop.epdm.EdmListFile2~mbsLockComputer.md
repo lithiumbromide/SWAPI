@@ -35,5 +35,4 @@ System.String^ mbsLockComputer
 ## See Also
 
 [EdmListFile2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2.html)
-
 [EdmListFile2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2_members.html)

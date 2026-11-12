@@ -55,35 +55,21 @@ Body2^ ThickenSheet(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Sheet`: Sheet body that defines the profile for the temporary thickened
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `Sheet`: Sheet body that defines the profile for the temporary thickened [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 - `Thickness`: Thickness of the temporary thickened body
-- `Direction`: Direction in which to thicken the sheet body as defined in
-
-[swThickenDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThickenDirection_e.html)
+- `Direction`: Direction in which to thicken the sheet body as defined in [swThickenDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThickenDirection_e.html)
 
 ### Return Value
 
-Temporary thickened[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+Temporary thickened [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[Modeler::ThickenSheet](ms-its:sldworksapivb6.chm::/Sldworks~Modeler~ThickenSheet.html)
-
-.
+See [Modeler::ThickenSheet](ms-its:sldworksapivb6.chm::/Sldworks~Modeler~ThickenSheet.html).
 
 ## Examples
 
@@ -96,7 +82,6 @@ If you set Direction to swThickenDirection_Both, then the value set for Thicknes
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
 
 ## Availability

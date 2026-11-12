@@ -48,11 +48,7 @@ property SwDMDimXpertFeature^ ReferenceFeature {
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertDepthDimTol::ReferenceFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDepthDimTol~ReferenceFeature.html)
-
-.
+See [SwDMDimXpertDepthDimTol::ReferenceFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDepthDimTol~ReferenceFeature.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertDepthDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDepthDimTol.html)
-
 [ISwDMDimXpertDepthDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDepthDimTol_members.html)
 
 ## Availability

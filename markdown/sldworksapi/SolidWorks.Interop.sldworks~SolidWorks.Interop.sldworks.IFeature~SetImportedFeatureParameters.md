@@ -47,13 +47,7 @@ System.int SetImportedFeatureParameters(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,38 +55,23 @@ See
 
 ### Return Value
 
-Error codes as defined in
-
-[sw3DInterconnectImportErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DInterconnectImportErrors_e.html)
+Error codes as defined in [sw3DInterconnectImportErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DInterconnectImportErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[Feature::SetImportedFeatureParameters](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetImportedFeatureParameters.html)
-
-.
+See [Feature::SetImportedFeatureParameters](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetImportedFeatureParameters.html).
 
 ## Examples
 
-See the
-
-[IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
-examples.
+See the [IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html) examples.
 
 ## Remarks
 
-Before calling this method, use
-
-[IFeature::Is3DInterconnectFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Is3DInterconnectFeature.html)
-
-to ensure that this is a 3D Interconnect feature.
+Before calling this method, use [IFeature::Is3DInterconnectFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Is3DInterconnectFeature.html) to ensure that this is a 3D Interconnect feature.
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
 
 ## Availability

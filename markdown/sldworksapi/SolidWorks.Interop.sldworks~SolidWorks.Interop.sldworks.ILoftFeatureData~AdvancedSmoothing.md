@@ -45,13 +45,7 @@ property System.bool AdvancedSmoothing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True enables advanced smoothing, false disables it
 
 ## VBA Syntax
 
-See
-
-[LoftFeatureData::AdvancedSmoothing](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~AdvancedSmoothing.html)
-
-.
+See [LoftFeatureData::AdvancedSmoothing](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~AdvancedSmoothing.html).
 
 ## See Also
 
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [ILoftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData_members.html)
 
 ## Availability

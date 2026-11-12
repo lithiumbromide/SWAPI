@@ -47,13 +47,7 @@ System.bool SetColor(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +59,9 @@ True if the color was set, false if not
 
 ## VBA Syntax
 
-See
-
-[ReferenceCurve::SetColor](ms-its:sldworksapivb6.chm::/sldworks~ReferenceCurve~SetColor.html)
-
-.
+See [ReferenceCurve::SetColor](ms-its:sldworksapivb6.chm::/sldworks~ReferenceCurve~SetColor.html).
 
 ## See Also
 
 [IReferenceCurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferenceCurve.html)
-
 [IReferenceCurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferenceCurve_members.html)

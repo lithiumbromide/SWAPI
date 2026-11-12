@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Visible_Components_and_Entites_in_a_Drawing_View_Exampl
 
 # Get Visible Components and Entities in Drawing View Example (C#)
 
-This example shows how to get the visible components and entities in
-a drawing view.
+This example shows how to get the visible components and entities in a drawing view.
 
 ```vb
  //------------------------------------------------------------------------------

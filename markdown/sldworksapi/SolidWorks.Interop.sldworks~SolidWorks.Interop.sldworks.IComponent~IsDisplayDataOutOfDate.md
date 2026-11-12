@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IsDisplayDataOutOfDate Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::IsDisplayDataOutOfDate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IsDisplayDataOutOfDate.html)
-
-.
+Obsolete. Superseded by [IComponent2::IsDisplayDataOutOfDate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IsDisplayDataOutOfDate.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int IsDisplayDataOutOfDate()
 System.int IsDisplayDataOutOfDate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::IsDisplayDataOutOfDate](ms-its:sldworksapivb6.chm::/sldworks~Component~IsDisplayDataOutOfDate.html)
-
-.
+See [Component::IsDisplayDataOutOfDate](ms-its:sldworksapivb6.chm::/sldworks~Component~IsDisplayDataOutOfDate.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

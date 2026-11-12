@@ -52,18 +52,12 @@ void InsertEntity(
 
 ## VBA Syntax
 
-See
-
-[CWPressure::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~InsertEntity.html)
-
-.
+See [CWPressure::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~InsertEntity.html).
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~RemoveEntity.html)
 
 ## Availability

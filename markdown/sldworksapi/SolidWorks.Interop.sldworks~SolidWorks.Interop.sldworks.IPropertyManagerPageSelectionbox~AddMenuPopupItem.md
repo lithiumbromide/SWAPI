@@ -59,21 +59,13 @@ System.bool AddMenuPopupItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ID`: Unique user-defined value for this pop-up menu item
 - `ItemText`: Text for pop-up menu item
-- `DocumentType`: Document types for which this pop-up menu item is displayed as defined in
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `DocumentType`: Document types for which this pop-up menu item is displayed as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
 - `HintText`: Text displayed in the SOLIDWORKS status bar when the user moves the cursor over this pop-up menu item
 
 ### Return Value
@@ -82,15 +74,11 @@ True if the pop-up menu item is added, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::AddMenuPopupItem](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageSelectionbox~AddMenuPopupItem.html)
-
-.
+See [PropertyManagerPageSelectionbox::AddMenuPopupItem](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageSelectionbox~AddMenuPopupItem.html).
 
 ## Remarks
 
-This method requires that you implement these[IPropertyManagerPage2Handler5](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5.html)methods:
+This method requires that you implement these [IPropertyManagerPage2Handler5](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5.html) methods:
 
 - [IPropertyManagerPage2Handler5::OnPopupMenuItem](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnPopupMenuItem.html). When the user selects a pop-up menu item, this method determines which item was selected. The add-in should then perform the appropriate action.
 
@@ -102,7 +90,6 @@ This method requires that you implement these[IPropertyManagerPage2Handler5](ms-
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
 
 ## Availability

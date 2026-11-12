@@ -40,13 +40,7 @@ System.bool IsTessellationValid()
 System.bool IsTessellationValid();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the facet data is valid; false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IsTessellationValid](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IsTessellationValid.html)
-
-.
+See [ModelDoc2::IsTessellationValid](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IsTessellationValid.html).
 
 ## Remarks
 
@@ -69,9 +59,7 @@ If false is returned, then valid facet information would not be available until 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
 
 ## Availability

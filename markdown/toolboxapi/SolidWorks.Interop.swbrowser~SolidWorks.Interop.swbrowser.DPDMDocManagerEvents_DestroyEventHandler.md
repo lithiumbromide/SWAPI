@@ -37,27 +37,15 @@ public delegate System.int DPDMDocManagerEvents_DestroyEventHandler()
 public delegate System.int DPDMDocManagerEvents_DestroyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndC++CLI.html)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndC++CLI.html).
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[Destroy Event (PDMDocManager)](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~Destroy_EV.html)
+See [Destroy Event (PDMDocManager)](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~Destroy_EV.html)
 
 ## Examples
 
-See
-
-[Getting Started](GettingStarted-toolboxapi.html)
-
-for more information.
+See [Getting Started](GettingStarted-toolboxapi.html) for more information.
 
 ## Remarks
 

@@ -45,32 +45,19 @@ property System.int PlayMode {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Mode in which this animation is playing as defined in
-
-[swAnimationPlayMode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAnimationPlayMode_e.html)
+Mode in which this animation is playing as defined in [swAnimationPlayMode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAnimationPlayMode_e.html)
 
 ## VBA Syntax
 
-See
-
-[Animation::PlayMode](ms-its:sldworksapivb6.chm::/sldworks~Animation~PlayMode.html)
-
-.
+See [Animation::PlayMode](ms-its:sldworksapivb6.chm::/sldworks~Animation~PlayMode.html).
 
 ## See Also
 
 [IAnimation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation.html)
-
 [IAnimation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation_members.html)
 
 ## Availability

@@ -58,22 +58,15 @@ System.Object^ GetLinearVelocity(
 
 ### Return Value
 
-Linear velocity
-
-[vector](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~Solidworks.Interop.sldworks.IMathVector.html)
+Linear velocity [vector](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~Solidworks.Interop.sldworks.IMathVector.html)
 
 ## VBA Syntax
 
-See
-
-[MotionStudyResults::GetLinearVelocity](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetLinearVelocity.html)
-
-.
+See [MotionStudyResults::GetLinearVelocity](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetLinearVelocity.html).
 
 ## See Also
 
 [IMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults.html)
-
 [IMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults_members.html)
 
 ## Availability

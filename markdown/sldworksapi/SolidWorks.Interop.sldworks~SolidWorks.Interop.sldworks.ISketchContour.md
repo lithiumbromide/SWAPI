@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Provides access to sketch contours.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,20 +41,13 @@ public interface class ISketchContour
 
 ## VBA Syntax
 
-See
-
-[SketchContour](ms-its:sldworksapivb6.chm::/sldworks~SketchContour.html)
-
-.
+See [SketchContour](ms-its:sldworksapivb6.chm::/sldworks~SketchContour.html).
 
 ## Examples
 
 [Get Sketch Contours (VBA)](Get_Sketch_Contours_Example_VB.htm)
-
 [Create Extrude Feature Using Sketch Contours (C#)](Create_Extrude_Feature_Using_Sketch_Contours_Example_CSharp.htm)
-
 [Create Extrude Feature Using Sketch Contours (VB.NET)](Create_Extrude_Feature_Using_Sketch_Contours_Example_VBNET.htm)
-
 [Create Extrude Feature Using Sketch Contours (VBA)](Create_Extrude_Feature_Using_Sketch_Contours_Example_VB.htm)
 
 ## Remarks
@@ -71,7 +64,7 @@ Sketch contours are a collection of end-point connected sketch segments that mig
 
 [IRevolveFeatureData2::IGetContours](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~IGetContours.html)
 
-[ISketch::GetSketchContours](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSketchContours.html)and[ISketch::IGetSketchContours](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchContours.html)
+[ISketch::GetSketchContours](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSketchContours.html) and [ISketch::IGetSketchContours](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchContours.html)
 
 [ISplitLineFeatureData::Contours](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData~Contours.html)
 
@@ -84,5 +77,4 @@ Sketch contours are a collection of end-point connected sketch segments that mig
 ## See Also
 
 [ISketchContour Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

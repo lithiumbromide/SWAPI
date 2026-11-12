@@ -45,13 +45,7 @@ property System.String^ Description {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ Layer description
 
 ## VBA Syntax
 
-See
-
-[Layer::Description](ms-its:sldworksapivb6.chm::/sldworks~Layer~Description.html)
-
-.
+See [Layer::Description](ms-its:sldworksapivb6.chm::/sldworks~Layer~Description.html).
 
 ## Examples
 
 [Get Layers (C#)](Get_Layers_Example_CSharp.htm)
-
 [Get Layers (VB.NET)](Get_Layers_Example_VBNET.htm)
-
 [Get Layers (VBA)](Get_Layers_Example_VB.htm)
 
 ## See Also
 
 [ILayer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer.html)
-
 [ILayer Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer_members.html)
 
 ## Availability

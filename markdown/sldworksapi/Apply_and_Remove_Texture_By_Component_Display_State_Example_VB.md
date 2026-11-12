@@ -9,11 +9,9 @@ source: "sldworksapi/Apply_and_Remove_Texture_By_Component_Display_State_Example
 
 # Apply and Remove Texture By Component Display State Example (VBA)
 
-## SOLIDWORKS API
-Helps
+## SOLIDWORKS API Helps
 
-This example shows how to add and remove texture to and from a component
-using the name of a display state of the assembly.
+This example shows how to add and remove texture to and from a component using the name of a display state of the assembly.
 
 ```
 '---------------------------------------------------------------------------
@@ -22,7 +20,7 @@ using the name of a display state of the assembly.
 ' Postconditions:
 ' 1. Opens the specified assembly and applies texture to the
 '    selected component.
-' 2. At Stop, click the Rebuild button in SOLIDWORKS and examine the
+' 2. At Stop, click the Rebuild button in SOLIDWORKS Design and examine the
 '    component to verify that texture was applied.
 ' 3. In the IDE, click the Continue button to resume
 '    execution of the macro.
@@ -65,7 +63,7 @@ namStr = "<SystemTexture>\images\textures\pattern\checker2.jpg"
 Set texture = swModelDocExt.CreateTexture(namStr, 5, 45, False)
 status = component.SetTextureByDisplayState(displayState, texture)
 
-' Click the Rebuild button in SOLIDWORKS to verify
+' Click the Rebuild button in SOLIDWORKS Design to verify
 ' that the specified texture was set
 ' In the IDE, click the Continue button to resume
 ' running macro

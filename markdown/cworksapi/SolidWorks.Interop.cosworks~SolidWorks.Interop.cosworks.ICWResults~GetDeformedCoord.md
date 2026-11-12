@@ -54,9 +54,7 @@ System.Object^ GetDeformedCoord(
 ### Parameters
 
 - `SPlotName`: Name of plot
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -64,30 +62,20 @@ Array of x, y, z coordinates for all deform nodes
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetDeformedCoord](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetDeformedCoord.html)
-
-.
+See [CWResults::GetDeformedCoord](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetDeformedCoord.html).
 
 ## Examples
 
 [Create Body From Deformed Shape (VBA)](Create_Body_From_Deformed_Shape_Example_VB.htm)
-
 [Create Body From Deformed Shape (VB.NET)](Create_Body_From_Deformed_Shape_Example_VBNET.htm)
-
 [Create Body From Deformed Shape (C#)](Create_Body_From_Deformed_Shape_Example_CSharp.htm)
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::CreateDeformedBody2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateDeformedBody2.html)
-
 [ICWResults::GetDeformedBodyFailedSewOption Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetDeformedBodyFailedSewOption.html)
-
 [ICWResults::SetDeformedBodyFailedSewOption Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~SetDeformedBodyFailedSewOption.html)
 
 ## Availability

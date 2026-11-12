@@ -48,36 +48,21 @@ property CWCompositeShellOptions^ CompositeOptions {
 
 ## VBA Syntax
 
-See
-
-[CWShell::CompositeOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~CompositeOptions.html)
-
-.
+See [CWShell::CompositeOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~CompositeOptions.html).
 
 ## Examples
 
 [Set Composite Shell Options (VBA)](Set_Composite_Shell_Options_Example_VB.htm)
-
 [Set Composite Shell Options (VB.NET)](Set_Composite_Shell_Options_Example_VBNET.htm)
-
 [Set Composite Shell Options (C#)](Set_Composite_Shell_Options_Example_CSharp.htm)
 
 ## Remarks
 
-This property is valid only if
-
-[ICWShell::Formulation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~Formulation.html)
-
-is set to
-
-[swsShellFormulation_e.](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsShellFormulation_e.html)
-
-swsShellFormulationComposite.
+This property is valid only if [ICWShell::Formulation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~Formulation.html) is set to [swsShellFormulation_e.](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsShellFormulation_e.html)swsShellFormulationComposite.
 
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
 
 ## Availability

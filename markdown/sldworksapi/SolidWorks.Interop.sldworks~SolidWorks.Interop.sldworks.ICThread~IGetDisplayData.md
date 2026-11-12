@@ -40,34 +40,18 @@ DisplayData IGetDisplayData()
 DisplayData^ IGetDisplayData();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IDisplayData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html)
-
-object
+Pointer to the [IDisplayData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html) object
 
 ## VBA Syntax
 
-See
-
-[CThread::IGetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~CThread~IGetDisplayData.html)
-
-.
+See [CThread::IGetDisplayData](ms-its:sldworksapivb6.chm::/sldworks~CThread~IGetDisplayData.html).
 
 ## See Also
 
 [ICThread Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread.html)
-
 [ICThread Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread_members.html)
-
 [ICThread::GetDisplayData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread~GetDisplayData.html)

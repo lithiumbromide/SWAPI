@@ -39,34 +39,21 @@ void UpdateReferences(
 
 ### Parameters
 
-- `poReferences`: Array of
-
-[EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html)
-
-structs of the references to update (see
-
-Remarks
-
-)
+- `poReferences`: Array of [EdmRawReference](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRawReference.html) structs of the references to update (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmRawReferenceMgr](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr.html)
-
-examples.
+See the [IEdmRawReferenceMgr](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr.html) examples.
 
 ## Remarks
 
-Use[IEdmRawReferenceMgr::GetReferences](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr~GetReferences.html)to get the array of EdmRawReference structs to pass to this method.
+Use [IEdmRawReferenceMgr::GetReferences](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr~GetReferences.html) to get the array of EdmRawReference structs to pass to this method.
 
-[Return code](ReturnCodes.htm)S_OK indicates that the method successfully executed.
+[Return code](ReturnCodes.htm) S_OK indicates that the method successfully executed.
 
 ## See Also
 
 [IEdmRawReferenceMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr.html)
-
 [IEdmRawReferenceMgr Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr_members.html)
 
 ## Availability

@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetTessTriangleCount Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetTessTriangleCount.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTessTriangleCount.html)
+Obsolete. Superseded by [IFace2::GetTessTriangleCount.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTessTriangleCount.html)
 
 ## Syntax
 
@@ -42,24 +40,13 @@ System.int GetTessTriangleCount()
 System.int GetTessTriangleCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::GetTessTriangleCount](ms-its:sldworksapivb6.chm::/sldworks~Face~GetTessTriangleCount.html)
-
-.
+See [Face::GetTessTriangleCount](ms-its:sldworksapivb6.chm::/sldworks~Face~GetTessTriangleCount.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

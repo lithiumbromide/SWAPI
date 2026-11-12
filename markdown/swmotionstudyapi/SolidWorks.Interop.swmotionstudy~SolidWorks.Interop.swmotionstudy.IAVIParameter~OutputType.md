@@ -47,32 +47,22 @@ property System.int OutputType {
 
 ### Property Value
 
-File type as defined by
-
-[swAnimationOutputType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAnimationOutputType_e.html)
+File type as defined by [swAnimationOutputType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAnimationOutputType_e.html)
 
 ## VBA Syntax
 
-See
-
-[AVIParameter::OutputType](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~OutputType.html)
-
-.
+See [AVIParameter::OutputType](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~OutputType.html).
 
 ## Examples
 
 [Create Motion Studies (VBA)](Create_Motion_Studies_Example_VB.htm)
-
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study (VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## See Also
 
 [IAVIParameter Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter.html)
-
 [IAVIParameter Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter_members.html)
 
 ## Availability

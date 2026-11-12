@@ -47,32 +47,19 @@ property System.int Status {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Sketch segment constraint status as defined in
-
-[swConstrainedStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstrainedStatus_e.html)
+Sketch segment constraint status as defined in [swConstrainedStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstrainedStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::Status](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~Status.html)
-
-.
+See [SketchSegment::Status](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~Status.html).
 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
 
 ## Availability

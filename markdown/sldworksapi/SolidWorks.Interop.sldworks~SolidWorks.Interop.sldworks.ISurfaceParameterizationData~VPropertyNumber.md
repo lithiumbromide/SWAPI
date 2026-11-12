@@ -42,40 +42,25 @@ property System.int VPropertyNumber {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Number of properties returned by
-
-[ISurfaceParameterizationData::VProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceParameterizationData~VProperties.html)
+Number of properties returned by [ISurfaceParameterizationData::VProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceParameterizationData~VProperties.html)
 
 ## VBA Syntax
 
-See
-
-[SurfaceParameterizationData::VPropertyNumber](ms-its:sldworksapivb6.chm::/sldworks~SurfaceParameterizationData~VPropertyNumber.html)
-
-.
+See [SurfaceParameterizationData::VPropertyNumber](ms-its:sldworksapivb6.chm::/sldworks~SurfaceParameterizationData~VPropertyNumber.html).
 
 ## Examples
 
 [Get B-Spline Surface Parameterization Data (C#)](Get_B-Spline_Surface_Parameterization_Data_Example_CSharp.htm)
-
 [Get B-Spline Surface Parameterization Data (VB.NET)](Get_B-Spline_Surface_Parameterization_Data_Example_VBNET.htm)
-
 [Get B-Spline Surface Parameterization Data (VBA)](Get_B-Spline_Surface_Parameterization_Data_Example_VB.htm)
 
 ## See Also
 
 [ISurfaceParameterizationData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceParameterizationData.html)
-
 [ISurfaceParameterizationData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceParameterizationData_members.html)
 
 ## Availability

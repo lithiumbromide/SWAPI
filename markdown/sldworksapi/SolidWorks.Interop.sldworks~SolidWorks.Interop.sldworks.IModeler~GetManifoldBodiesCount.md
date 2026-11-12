@@ -47,19 +47,11 @@ System.int GetManifoldBodiesCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `NonManifoldIn`: Non-manifold
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `NonManifoldIn`: Non-manifold [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ### Return Value
 
@@ -67,28 +59,17 @@ Number of manifold bodies
 
 ## VBA Syntax
 
-See
-
-[Modeler::GetManifoldBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~Modeler~GetManifoldBodiesCount.html)
-
-.
+See [Modeler::GetManifoldBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~Modeler~GetManifoldBodiesCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IModeler::IMakeManifoldBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IMakeManifoldBodies.html)
-
-.
+Call this method before calling [IModeler::IMakeManifoldBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IMakeManifoldBodies.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::GeneralTopology Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~GeneralTopology.html)
-
 [IModeler::MakeManifoldBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~MakeManifoldBodies.html)
 
 ## Availability

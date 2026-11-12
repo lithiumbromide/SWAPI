@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to extend backward from the point of origin, false to not
 
 ## VBA Syntax
 
-See
-
-[HelixFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~ReverseDirection.html)
-
-.
+See [HelixFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~ReverseDirection.html).
 
 ## Remarks
 
@@ -75,7 +65,6 @@ See
 ## See Also
 
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [IHelixFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData_members.html)
 
 ## Availability

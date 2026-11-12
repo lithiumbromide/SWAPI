@@ -45,44 +45,22 @@ property System.int StartingEndType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Starting end type as defined in
-
-[swSpringExtensionEndType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringExtensionEndType_e.html)
-
-for an extension spring or
-
-[swSpringTorsionEndType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringTorsionEndType_e.html)
-
-for a torsion spring
+Starting end type as defined in [swSpringExtensionEndType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringExtensionEndType_e.html) for an extension spring or [swSpringTorsionEndType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSpringTorsionEndType_e.html) for a torsion spring
 
 ## VBA Syntax
 
-See
-
-[Spring::StartingEndType](ms-its:sldworksapivb6.chm::/sldworks~Spring~StartingEndType.html)
-
-.
+See [Spring::StartingEndType](ms-its:sldworksapivb6.chm::/sldworks~Spring~StartingEndType.html).
 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
-
 [ISpring::StartingEndLength Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~StartingEndLength.html)
-
 [ISpring::EndingEndLength Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~EndingEndLength.html)
-
 [ISpring::EndingEndType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring~EndingEndType.html)
 
 ## Availability

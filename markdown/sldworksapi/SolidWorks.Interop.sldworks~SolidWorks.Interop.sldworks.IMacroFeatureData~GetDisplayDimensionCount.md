@@ -40,13 +40,7 @@ System.int GetDisplayDimensionCount()
 System.int GetDisplayDimensionCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ Number of display dimensions
 
 ## VBA Syntax
 
-See
-
-[MacroFeatureData::GetDisplayDimensionCount](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~GetDisplayDimensionCount.html)
-
-.
+See [MacroFeatureData::GetDisplayDimensionCount](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~GetDisplayDimensionCount.html).
 
 ## Remarks
 
-Call this method before calling[IMacroFeatureData::IGetDisplayDimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetDisplayDimensions.html)to determine the size of the array for that method.
+Call this method before calling [IMacroFeatureData::IGetDisplayDimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetDisplayDimensions.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [IMacroFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html)
-
 [IMacroFeatureData::GetDisplayDimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~GetDisplayDimensions.html)
 
 ## Availability

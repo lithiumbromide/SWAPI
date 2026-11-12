@@ -46,11 +46,7 @@ Number of assembly components missing materials
 
 ## VBA Syntax
 
-See
-
-[SustainabilityMaterial::GetMissingMaterialComponentCount](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~GetMissingMaterialComponentCount.html)
-
-.
+See [SustainabilityMaterial::GetMissingMaterialComponentCount](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~GetMissingMaterialComponentCount.html).
 
 ## Examples
 
@@ -59,11 +55,8 @@ See
 ## See Also
 
 [ISustainabilityMaterial Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial.html)
-
 [ISustainabilityMaterial Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial_members.html)
-
 [ISustainabilityMaterial::GetMissingMaterialComponentList Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~GetMissingMaterialComponentList.html)
-
 [ISustainabilityMaterial::IGetMissingMaterialComponentList Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~IGetMissingMaterialComponentList.html)
 
 ## Availability

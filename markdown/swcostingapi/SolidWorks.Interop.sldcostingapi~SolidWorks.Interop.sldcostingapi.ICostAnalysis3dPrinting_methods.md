@@ -9,7 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # ICostAnalysis3dPrinting Interface Methods
 
-For a list of all members of this type, see[ICostAnalysis3dPrinting members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html).
+For a list of all members of this type, see [ICostAnalysis3dPrinting members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html).
 
 ## Public Methods
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[ICostAnalysis3dPrinting members](Sol
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [SolidWorks.Interop.sldcostingapi Namespace](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi_namespace.html)

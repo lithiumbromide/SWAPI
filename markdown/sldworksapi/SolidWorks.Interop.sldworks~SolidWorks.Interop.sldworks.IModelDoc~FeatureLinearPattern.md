@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # FeatureLinearPattern Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::FeatureLinearPattern](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FeatureLinearPattern.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::FeatureLinearPattern](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FeatureLinearPattern.html).
 
 ## Syntax
 
@@ -78,13 +74,7 @@ void FeatureLinearPattern(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -99,14 +89,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::FeatureLinearPattern](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~FeatureLinearPattern.html)
-
-.
+See [ModelDoc::FeatureLinearPattern](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~FeatureLinearPattern.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

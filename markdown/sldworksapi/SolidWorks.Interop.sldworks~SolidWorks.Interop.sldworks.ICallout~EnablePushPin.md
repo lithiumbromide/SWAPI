@@ -45,13 +45,7 @@ property System.bool EnablePushPin {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to enable the callout pushpin, false to disable it
 
 ## VBA Syntax
 
-See
-
-[Callout::EnablePushPin](ms-its:sldworksapivb6.chm::/sldworks~Callout~EnablePushPin.html)
-
-.
+See [Callout::EnablePushPin](ms-its:sldworksapivb6.chm::/sldworks~Callout~EnablePushPin.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [ICallout Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout.html)
-
 [ICallout Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout_members.html)
 
 ## Availability

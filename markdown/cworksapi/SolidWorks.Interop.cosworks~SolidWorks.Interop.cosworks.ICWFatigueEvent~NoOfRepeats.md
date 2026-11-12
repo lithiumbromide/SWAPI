@@ -47,27 +47,15 @@ property System.int NoOfRepeats {
 
 ### Property Value
 
-Number of times to repeat the curve data (see
-
-Remarks
-
-)
+Number of times to repeat the curve data (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWFatigueEvent::NoOfRepeats](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~NoOfRepeats.html)
-
-.
+See [CWFatigueEvent::NoOfRepeats](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~NoOfRepeats.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
-examples.
+See the [ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html) examples.
 
 ## Remarks
 
@@ -76,9 +64,7 @@ This property is valid only if this is a variable amplitude fatigue event.
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueEvent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html)
-
 [ICWFatigueEvent::StartTimes Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent~StartTimes.html)
 
 ## Availability

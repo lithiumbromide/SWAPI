@@ -9,11 +9,9 @@ source: "cworksapi/Analyze_Part_Example_CSharp.htm"
 
 # Analyze Part Example (C#)
 
-This example shows how to perform a static analysis of a part and plot nodal
-strain results.
+This example shows how to perform a static analysis of a part and plot nodal strain results.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
  //--------------------------------------------------------------------------
@@ -329,518 +327,99 @@ identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingSt
 // Create a nodal equivalent strain plot
 ```
 
-plot = CWResult.
-
-CreatePlot
-
-(3,
-(
-
-int
-
-)
-
-swsStaticResultNodalStrainComponentTypes_e
-
-.swsStaticNodalStrain_ESTRN,
-(
-
-int
-
-)
-
-swsUnit_e
-
-.swsUnitSI,
-
-false
-
-,
-
-out
-
-errorCode);
-
-errorCode = plot.
-
-ActivatePlot
-
-();
-
-errorCode = plot.
-
-GetPlotName
-
-(
-
-out
-
-plotName);
-
-errorCode = plot.
-
-ApplyNameViewOrientation
-
-(
-
-"*Front"
+plot = CWResult.**CreatePlot**(3, (int)swsStaticResultNodalStrainComponentTypes_e.swsStaticNodalStrain_ESTRN, (int)swsUnit_e.swsUnitSI, false, out errorCode);
+errorCode = plot.**ActivatePlot**();
+errorCode = plot.**GetPlotName**(out plotName);
+errorCode = plot.**ApplyNameViewOrientation**("*Front");
+results = (object[])plot.**GetMinMaxResultValues**(out errorCode);
+errorCode = plot.**SetPlotTitle**("Nodal Equivalent Strain");
+plot.**SetFOSPlot**(false);
+plot.**Set2DPlanarRevolveAngle**(0.0);
+plot.**SetNormalizeModeShape**(false);
+plot.**ShowAs3DPlot**(true);
+plot.**ShowTensorOrVector**(false);
+plot.**ShowShellin3D**(false);
+plot.**ShowNormalizeValuesFrom0To1**(true);
+errorCode = plot.**ShowDeformedPlot**(true, (int)swsDeformType_e.swsAutomatic, 0.0, true);
+plot.**ShowBeamProfile**(false);
+plot.**ShowAvgResultsAcrossBoundaryForParts**(false
 
 );
 
-results = (
-
-object
-
-[])plot.
-
-GetMinMaxResultValues
-
-(
-
-out
-
-errorCode);
-
-errorCode = plot.
-
-SetPlotTitle
-
-(
-
-"Nodal
-Equivalent Strain"
-
-);
-
-plot.
-
-SetFOSPlot
-
-(
-
-false
-
-);
-
-plot.
-
-Set2DPlanarRevolveAngle
-
-(0.0);
-
-plot.
-
-SetNormalizeModeShape
-
-(
-
-false
-
-);
-
-plot.
-
-ShowAs3DPlot
-
-(
-
-true
-
-);
-
-plot.
-
-ShowTensorOrVector
-
-(
-
-false
-
-);
-
-plot.
-
-ShowShellin3D
-
-(
-
-false
-
-);
-
-plot.
-
-ShowNormalizeValuesFrom0To1
-
-(
-
-true
-
-);
-
-errorCode = plot.
-
-ShowDeformedPlot
-
-(
-
-true
-
-,
-(
-
-int
-
-)
-
-swsDeformType_e
-
-.swsAutomatic,
-0.0,
-
-true
-
-);
-
-plot.
-
-ShowBeamProfile
-
-(
-
-false
-
-);
-
-plot.
-
-ShowAvgResultsAcrossBoundaryForParts
-
-(
-
-false
-
-);
-
-Debug
-
-.Print(
-
-"Result
-plot created: "
-
-+ plotName);
-
-Debug
-
-.Print(
-
-"Node
-"
-
-+ results[0] +
-
-" "
-
-+
-
-"has minimum strain value: "
-
-+ results[1]);
-
-Debug
-
-.Print(
-
-"Node
-"
-
-+ results[2] +
-
-" "
-
-+
-
-"has maximum strain value: "
+Debug.Print("Result plot created: " + plotName);
+Debug.Print("Node " + results[0] + " " + "has minimum strain value: " + results[1]);
+Debug.Print("Node " + results[2] + " " + "has maximum strain value: "
 
 + results[3]);
 
-Debug
+Debug.Print("Number of plots for these results: " + CWResult.**GetPlotCount**());
+foreach (string Name_loopVariable in (string
 
-.Print(
-
-"Number
-of plots for these results: "
-
-+
-CWResult.
-
-GetPlotCount
-
-());
-
-foreach
-
-(
-
-string
-
-Name_loopVariable
-
-in
-
-(
-
-string
-
-[])CWResult.
-
-GetPlotNames
-
-())
-
+[])CWResult.**GetPlotNames**())
 {
 
 ```vb
     Name = Name_loopVariable;
 ```
 
-Debug
-
-.Print(
-
-""
-
-);
-
-Debug
-
-.Print(
-
-"Plot:
-"
-
-+ Name);
-
-errorCode = CWResult.
-
-GetPlotColorOptions
-
-(Name,
-
-out
-
-nType,
-
-out
-
-nBase,
-
-out
-
-nContour,
-
-out
-
-BFlip,
-
-out
-
-BSpecifyColorLimit,
-
-out
-
-VarColor);
-
-Debug
-
-.Print(
-
-"Plot
-color options:"
+Debug.Print("");
+Debug.Print("Plot: " + Name);
+errorCode = CWResult.**GetPlotColorOptions**(Name, out nType, out nBase, out nContour, out BFlip, out BSpecifyColorLimit, out VarColor);
+Debug.Print("Plot color options:");
+Debug.Print(" Color map as defined in swsColorChartOptionLegendTypeValue_e: " + nType);
+Debug.Print(" Number of base colors in color map: " + nBase);
+Debug.Print(" Number of gradient colors in color map: " + nContour);
+Debug.Print(" Reverse the color mapping? " + BFlip);
+Debug.Print(" Specify a color for values above the yield limit? " + BSpecifyColorLimit);
+Debug.Print(" Color for values above the yield limit and user-defined colors (RGB): "
 
 );
 
-Debug
-
-.Print(
-
-"
-Color map as defined in swsColorChartOptionLegendTypeValue_e: "
-
-+ nType);
-
-Debug
-
-.Print(
-
-"
-Number of base colors in color map: "
-
-+ nBase);
-
-Debug
-
-.Print(
-
-"
-Number of gradient colors in color map: "
-
-+
-nContour);
-
-Debug
-
-.Print(
-
-"
-Reverse the color mapping? "
-
-+ BFlip);
-
-Debug
-
-.Print(
-
-"
-Specify a color for values above the yield limit? "
-
-+ BSpecifyColorLimit);
-
-Debug
-
-.Print(
-
-"
-Color for values above the yield limit and user-defined colors (RGB): "
-
-);
-
-string
-
-rgb =
-
-"{"
-
-;
-
-int
-
-rgbInd = 1;
-
-int
-
-ind = 1;
-
-object
-
-[]
-ColorObj = (
-
-object
-
-[])VarColor;
-
-int
-
-size = ColorObj.Length;
-
-int
-
-[]
-intColor =
-
-new
-
-int
+string rgb = "{";
+int rgbInd = 1;
+int ind = 1;
+object[] ColorObj = (object[])VarColor;
+int size = ColorObj.Length;
+int[] intColor = new int
 
 [size];
 
-for
-
-(i=0; i<size; i++){
-
-intColor[i] = (
-
-int
+for (i=0; i<size; i++){
+intColor[i] = (int
 
 )ColorObj[i];
-
 }
 
-// Create RGB
-triplet for each color
-
-foreach
-
-(
-
-int
-
-Color_loopVariable
-
-in
+// Create RGB triplet for each color
+foreach (int Color_loopVariable in
 
 intColor)
-
 {
 
 ```vb
         Color = Color_loopVariable;
 ```
 
-if
-
-(rgbInd < 3){
-
-rgb = rgb + Color +
-
-","
+if (rgbInd < 3){
+rgb = rgb + Color + ","
 
 ;
-
 rgbInd = rgbInd + 1;
-
 }
 
-else
-
-{
-
-rgb = rgb + Color +
-
-"}"
-
-;
-
+else {
+rgb = rgb + Color + "}";
 rgbInd = 1;
-
-if
-
-(!(ind == size)){
-
-rgb = rgb +
-
-"{"
+if (!(ind == size)){
+rgb = rgb + "{"
 
 ;
-
 }
-
 }
-
 ind = ind + 1;
-
 }
 
-Debug
-
-.Print(
-
-"
-"
-
-+ rgb);
+Debug.Print(" " + rgb);
 
 ```vb
     errorCode = CWResult.GetLegendContourColors(Name, out VarColor);

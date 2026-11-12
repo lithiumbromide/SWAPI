@@ -52,16 +52,11 @@ void AppState(
 
 ## VBA Syntax
 
-See
-
-[SwQuickTip::AppState](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~AppState.html)
-
-.
+See [SwQuickTip::AppState](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~AppState.html).
 
 ## See Also
 
 [ISwQuickTip Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip.html)
-
 [ISwQuickTip Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip_members.html)
 
 ## Availability

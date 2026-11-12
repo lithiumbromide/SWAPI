@@ -51,22 +51,12 @@ System.bool IAccessSelections2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top-level document (see**Remarks**)
-- `Component`: Component in which the feature is to be modified (see
-
-Remarks
-
-)
+- `TopDoc`: Top-level document (see **Remarks**)
+- `Component`: Component in which the feature is to be modified (see **Remarks**)
 
 ### Return Value
 
@@ -74,11 +64,7 @@ True if the selections are successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchPatternFeatureData::IAccessSelections2](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~IAccessSelections2.html)
-
-.
+See [SketchPatternFeatureData::IAccessSelections2](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~IAccessSelections2.html).
 
 ## Remarks
 
@@ -89,23 +75,13 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  or
-
-  [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [ISketchPatternFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPatternFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [ISketchPatternFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPatternFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [ISketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)
-
 [ISketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData_members.html)
-
 [ISketchPatternFeatureData::AccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~AccessSelections.html)
 
 ## Availability

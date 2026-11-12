@@ -51,13 +51,7 @@ System.int GetIntersectCurveCount2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,26 +64,16 @@ Number of points
 
 ## VBA Syntax
 
-See
-
-[Surface::GetIntersectCurveCount2](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetIntersectCurveCount2.html)
-
-.
+See [Surface::GetIntersectCurveCount2](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetIntersectCurveCount2.html).
 
 ## Remarks
 
-Visual Basic and C++ Dispatch applications should use
-
-[ISurface::IntersectCurve2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IIntersectCurve2.html)
-
-instead of this method.
+Visual Basic and C++ Dispatch applications should use [ISurface::IntersectCurve2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IIntersectCurve2.html) instead of this method.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IIntersectCurve2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IIntersectCurve2.html)
 
 ## Availability

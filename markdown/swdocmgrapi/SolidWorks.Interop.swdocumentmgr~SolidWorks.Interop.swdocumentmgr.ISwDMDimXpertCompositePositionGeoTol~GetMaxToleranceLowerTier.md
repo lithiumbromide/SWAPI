@@ -62,11 +62,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompositePositionGeoTol::GetMaxToleranceLowerTier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositePositionGeoTol~GetMaxToleranceLowerTier.html)
-
-.
+See [SwDMDimXpertCompositePositionGeoTol::GetMaxToleranceLowerTier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositePositionGeoTol~GetMaxToleranceLowerTier.html).
 
 ## Examples
 
@@ -75,7 +71,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompositePositionGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositePositionGeoTol.html)
-
 [ISwDMDimXpertCompositePositionGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositePositionGeoTol_members.html)
 
 ## Availability

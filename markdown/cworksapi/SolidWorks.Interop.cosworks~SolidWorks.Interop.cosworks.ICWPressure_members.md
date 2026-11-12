@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPr
 
 # ICWPressure Interface Members
 
-The following tables list the members exposed by[ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html).
+The following tables list the members exposed by [ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html).
 
 ## Public Properties
 
@@ -54,5 +54,4 @@ The following tables list the members exposed by[ICWPressure](SolidWorks.Interop
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

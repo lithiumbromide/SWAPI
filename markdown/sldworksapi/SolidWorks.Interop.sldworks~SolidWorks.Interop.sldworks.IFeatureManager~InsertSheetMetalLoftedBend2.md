@@ -83,25 +83,19 @@ Feature^ InsertSheetMetalLoftedBend2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ThickDirType`: Toggles the thickening direction:
 
-- 0 = outside
-- 1 = inside (default value)
+  - 0 = outside
+  - 1 = inside (default value)
 - `Thickness`: Thickness of the bend
 - `BFormed`: True to insert a formed lofted bend; false to insert a bent lofted bend (default)
 - `DRadius`: Bend radius; valid only if BFormed is false
 - `BReferToEndPoint`: True to calculate facet transitions using theoretical vertexes, false to calculate facet transitions using the smallest possible arcs that avoid interference between bend areas; valid only if BFormed is false
-- `EFacetOption`: Faceting option as defined in[swLoftedBendFacetOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLoftedBendFacetOptions_e.html); valid only if BFormed is false
+- `EFacetOption`: Faceting option as defined in [swLoftedBendFacetOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLoftedBendFacetOptions_e.html); valid only if BFormed is false
 - `DChordTol`: Chord tolerance or maximum distance between the arc and linear segment of a chord; valid only if EFacetOption is set to swLoftedBendFacetOptions_e.swChordTolerance and BFormed is false
 - `INumBends`: Maximum number of bends per transition segment; valid only if EFacetOption is set to swLoftedBendFacetOptions_e.swBendsPerTransitionSegment and BFormed is false
 - `DSegLength`: Maximum length of the linear segment; valid only if EFacetOption is set to swLoftedBendFacetOptions_e.swSegmentLength and BFormed is false
@@ -113,34 +107,24 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetalLoftedBend2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalLoftedBend2.html)
-
-.
+See [FeatureManager::InsertSheetMetalLoftedBend2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalLoftedBend2.html).
 
 ## Examples
 
 [Insert Lofted Bend Feature (VBA)](Insert_Lofted_Bend_Feature_Example_VB.htm)
-
 [Insert Lofted Bend Feature (VB.NET)](Insert_Lofted_Bend_Feature_Example_VBNET.htm)
-
 [Insert Lofted Bend Feature (C#)](Insert_Lofted_Bend_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, you must select at least two sketch profiles that are on parallel planes. You can either multi-select them in the graphics area or call[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with Mark = 1 for each sketch profile you want to select.
+Before calling this method, you must select at least two sketch profiles that are on parallel planes. You can either multi-select them in the graphics area or call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with Mark = 1 for each sketch profile you want to select.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ILoftedBendsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData.html)
-
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
 
 ## Availability

@@ -45,45 +45,19 @@ property System.Object^ D1EndReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pattern's up-to reference geometry (
-
-[vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
-,
-
-[edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-,
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-, or
-
-[plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
-) in Direction 1
+Pattern's up-to reference geometry ([vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html), [edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html), [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html), or [plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)) in Direction 1
 
 ## VBA Syntax
 
-See
-
-[LinearPatternFeatureData::D1EndReference](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~D1EndReference.html)
-
-.
+See [LinearPatternFeatureData::D1EndReference](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~D1EndReference.html).
 
 ## Remarks
 
-This property is valid only if[ILinearPatternFeatureData::D1EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D1EndCondition.html)is set to[swPatternEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternEndCondition_e.html).swPatternEndCondition_UpToReference.
+This property is valid only if [ILinearPatternFeatureData::D1EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~D1EndCondition.html) is set to [swPatternEndCondition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternEndCondition_e.html).swPatternEndCondition_UpToReference.
 
 To control the pattern in Direction 1, also set:
 
@@ -98,12 +72,11 @@ To control the pattern in Direction 1, also set:
   - ILinearPatternFeatureData::D1Spacing (if D1EndUseSpacing is true)
   - ILinearPatternFeatureData::D1TotalInstances (if D1EndUseSpacing is false)
 
-For more information, see the**Linear Patterns and the Linear Pattern PropertyManager**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Linear Patterns and the Linear Pattern PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
 ## See Also
 
 [ILinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
 [ILinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData_members.html)
 
 ## Availability

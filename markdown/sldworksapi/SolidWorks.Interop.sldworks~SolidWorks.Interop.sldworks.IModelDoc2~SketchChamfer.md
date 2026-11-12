@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchChamfer Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::CreateChamfer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateChamfer.html)
-
-.
+Obsolete. Superseded by [ISketchManager::CreateChamfer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateChamfer.html).
 
 ## Syntax
 
@@ -58,13 +54,7 @@ void SketchChamfer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -72,20 +62,15 @@ See
 - `Dist1`: Distance of the chamfer
 - `Options`: 0 = Angle - Distance Chamfer
 
-1 = Distance - Distance Chamfer
+  1 = Distance - Distance Chamfer
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchChamfer](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchChamfer.html)
-
-.
+See [ModelDoc2::SketchChamfer](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchChamfer.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

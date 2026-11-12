@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreatePlaneAtAngle2 Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::CreatePlaneAtAngle2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneAtAngle2.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::CreatePlaneAtAngle2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePlaneAtAngle2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.Object^ CreatePlaneAtAngle2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::CreatePlaneAtAngle2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreatePlaneAtAngle2.html)
-
-.
+See [ModelDoc::CreatePlaneAtAngle2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreatePlaneAtAngle2.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

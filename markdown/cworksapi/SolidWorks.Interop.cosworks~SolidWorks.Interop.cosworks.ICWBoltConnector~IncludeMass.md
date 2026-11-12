@@ -51,16 +51,11 @@ True to include mass, false to not
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::IncludeMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~IncludeMass.html)
-
-.
+See [CWBoltConnector::IncludeMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~IncludeMass.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
 
 ## Availability

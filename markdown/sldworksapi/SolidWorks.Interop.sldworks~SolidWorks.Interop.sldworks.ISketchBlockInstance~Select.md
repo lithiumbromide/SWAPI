@@ -51,20 +51,12 @@ System.bool Select(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Append`: True appends the detail circle to the selection list, false replaces the selection list with this block instance
-- `Data`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-object
+- `Data`: [ISelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
@@ -72,11 +64,7 @@ True if the block instance is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::Select](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~Select.html)
-
-.
+See [SketchBlockInstance::Select](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~Select.html).
 
 ## Examples
 
@@ -85,7 +73,6 @@ See
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
 
 ## Availability

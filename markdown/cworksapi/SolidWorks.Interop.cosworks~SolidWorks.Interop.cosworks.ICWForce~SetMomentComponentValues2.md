@@ -68,39 +68,26 @@ void SetMomentComponentValues2(
 
 ### Parameters
 
-- `B1`: -1 or true to set moment along plane dir 1, 0 or false to not (see**Remarks**)
-- `B2`: -1 or true to set moment along plane dir 2, 0 or false to not (see
-
-Remarks
-
-)
-- `B3`: -1 or true to set moment along the normal to plane, 0 or false to not (see
-
-Remarks
-
-)
+- `B1`: -1 or true to set moment along plane dir 1, 0 or false to not (see **Remarks**)
+- `B2`: -1 or true to set moment along plane dir 2, 0 or false to not (see **Remarks**)
+- `B3`: -1 or true to set moment along the normal to plane, 0 or false to not (see **Remarks**)
 - `D1`: Moment about plane dir 1
 - `D2`: Moment about plane dir 2
 - `D3`: Moment about normal to plane
 
 ## VBA Syntax
 
-See
-
-[CWForce::SetMomentComponentValues2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~SetMomentComponentValues2.html)
-
-.
+See [CWForce::SetMomentComponentValues2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~SetMomentComponentValues2.html).
 
 ## Remarks
 
-This method is valid only for models with beam elements and if[ICWForce::ForceType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~ForceType.html)is set to[swsForceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsForceType_e.html).swsForceTypeForceOrMoment.
+This method is valid only for models with beam elements and if [ICWForce::ForceType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~ForceType.html) is set to [swsForceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsForceType_e.html).swsForceTypeForceOrMoment.
 
 Specify booleans or integers in parameters B1, B2, and B3: true = -1 and false = 0.
 
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
 
 ## Availability

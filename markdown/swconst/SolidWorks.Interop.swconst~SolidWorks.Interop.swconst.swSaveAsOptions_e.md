@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSaveAsO
 
 # swSaveAsOptions_e Enumeration
 
-Save As options.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Save As options. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 
@@ -54,6 +50,7 @@ public enum class swSaveAsOptions_e : public System.Enum
 | swSaveAsOptions_IgnoreBiography | 256 or 0x100; Prune a SOLIDWORKS file's revision history to just the current file name |
 | swSaveAsOptions_IncludeVirtualSubAsmComps | 1024 or 0x400; Save regular components in virtual subassemblies |
 | swSaveAsOptions_OverrideSaveEmodel | 32 or 0x20; Saves eDrawings-related information into a section of the file being saved; specifying this setting overrides the Tools, Options, System Options, General, Save eDrawings data in SOLIDWORKS document setting; not a valid option for IPartDoc::SaveToFile2 |
+| swSaveAsOptions_PropagateVisualProperties | 4096 or 0x1000; Export drawing sheets from Inspection to 2DPdf |
 | swSaveAsOptions_SaveEmodelData | Obsolete . |
 | swSaveAsOptions_SaveReferenced | 4 or 0x4; Supports parts, assemblies, and drawings; this setting indicates to save all components (sub-assemblies and parts) in both assemblies and drawings; if a part has an external reference, then this setting indicates to save the external reference |
 | swSaveAsOptions_Silent | 1 or 0x1 |
@@ -61,15 +58,7 @@ public enum class swSaveAsOptions_e : public System.Enum
 
 ## Remarks
 
-These options only apply to saving to native SOLIDWORKS file formats. For example, to export a SOLIDWORKS file to a VRML file format, use
-
-[ISldWorks::GetUserPreferenceToggle](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceToggle.html)
-
-and
-
-[ISldWorks::SetUserPreferenceToggle](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)
-
-with swExportVrmlAllComponentsInSingleFile.
+These options only apply to saving to native SOLIDWORKS file formats. For example, to export a SOLIDWORKS file to a VRML file format, use [ISldWorks::GetUserPreferenceToggle](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceToggle.html) and [ISldWorks::SetUserPreferenceToggle](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html) with swExportVrmlAllComponentsInSingleFile.
 
 ## See Also
 

@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~CreateTree.htm
 
 # CreateTree Method (IEdmBatchGet)
 
-Computes the file reference tree with the files added to the batch using
-
-[IEdmBatchGet::AddSelection](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~AddSelection.html)
-
-or
-
-[IEdmBatchGet::AddSelectionEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~AddSelectionEx.html)
-
-.
+Computes the file reference tree with the files added to the batch using [IEdmBatchGet::AddSelection](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~AddSelection.html) or [IEdmBatchGet::AddSelectionEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~AddSelectionEx.html).
 
 ## Syntax
 
@@ -51,23 +43,15 @@ void CreateTree(
 ### Parameters
 
 - `lParentWnd`: Parent window handle
-- `lEdmGetCmdFlags`: Combination of
-
-[EdmGetCmdFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetCmdFlags.html)
-
-bits; specifies options for retrieving files from the vault
+- `lEdmGetCmdFlags`: Combination of [EdmGetCmdFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetCmdFlags.html) bits; specifies options for retrieving files from the vault
 
 ## Examples
 
-See the
-
-[IEdmBatchGet](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
-examples.
+See the [IEdmBatchGet](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html) examples.
 
 ## Remarks
 
-After calling this method, call[IEdmBatchGet::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~ShowDlg.html)and[IEdmBatchGet::GetFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~GetFiles.html).
+After calling this method, call [IEdmBatchGet::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~ShowDlg.html) and [IEdmBatchGet::GetFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet~GetFiles.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -77,7 +61,6 @@ After calling this method, call[IEdmBatchGet::ShowDlg](EPDM.Interop.epdm~EPDM.In
 ## See Also
 
 [IEdmBatchGet Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet.html)
-
 [IEdmBatchGet Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchGet_members.html)
 
 ## Availability

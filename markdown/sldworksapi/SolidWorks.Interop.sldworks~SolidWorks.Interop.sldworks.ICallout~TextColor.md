@@ -50,13 +50,7 @@ property System.int TextColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,11 +62,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Callout::TextColor](ms-its:sldworksapivb6.chm::/sldworks~Callout~TextColor.html)
-
-.
+See [Callout::TextColor](ms-its:sldworksapivb6.chm::/sldworks~Callout~TextColor.html).
 
 ## Examples
 
@@ -80,14 +70,12 @@ See
 
 ## Remarks
 
-You must use a system color; you cannot use any other RGB values. To see system colors, clickTools >Options >Colorsin the SOLIDWORKS user interface.
+You must use a system color; you cannot use any other RGB values. To see system colors, click Tools > Options > Colors in the SOLIDWORKS Design user interface.
 
 ## See Also
 
 [ICallout Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout.html)
-
 [ICallout Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout_members.html)
-
 [ICallout::OpaqueColor Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout~OpaqueColor.html)
 
 ## Availability

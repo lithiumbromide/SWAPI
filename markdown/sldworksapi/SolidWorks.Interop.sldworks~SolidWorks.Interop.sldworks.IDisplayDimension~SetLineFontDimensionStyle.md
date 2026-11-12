@@ -51,24 +51,13 @@ System.bool SetLineFontDimensionStyle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseDoc`: True uses the document setting for the leader style, false uses the setting specified
-
-in Style
-- `Style`: Leader style as defined in
-
-[swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html)
-
-; valid only if UseDoc = false
+  in Style
+- `Style`: Leader style as defined in [swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html); valid only if UseDoc = false
 
 ### Return Value
 
@@ -76,22 +65,16 @@ True if the leader style is set, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SetLineFontDimensionStyle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetLineFontDimensionStyle.html)
-
-.
+See [DisplayDimension::SetLineFontDimensionStyle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetLineFontDimensionStyle.html).
 
 ## Remarks
 
-After calling this method, call[IModelView::GraphicsRedraw](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~GraphicsRedraw.html)to redraw the graphics window to see your changes.
+After calling this method, call [IModelView::GraphicsRedraw](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~GraphicsRedraw.html) to redraw the graphics window to see your changes.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::SetLineFontDimensionThickness Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetLineFontDimensionThickness.html)
 
 ## Availability

@@ -51,49 +51,30 @@ Callout^ CreateCallout(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumberOfRows`: Number of rows in the callout
-- `LpHandler`: Pointer to
-
-[ISwCalloutHandler](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwCalloutHandler.html)
+- `LpHandler`: Pointer to [ISwCalloutHandler](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwCalloutHandler.html)
 
 ### Return Value
 
-An
-
-[ICallout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html)
-
-object
+An [ICallout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html) object
 
 ## VBA Syntax
 
-See
-
-[ModelView::CreateCallout](ms-its:sldworksapivb6.chm::/sldworks~ModelView~CreateCallout.html)
-
-.
+See [ModelView::CreateCallout](ms-its:sldworksapivb6.chm::/sldworks~ModelView~CreateCallout.html).
 
 ## Examples
 
 [Create a Callout in a Model View (VBA)](Create_Model_View_Callouts_Example_VB.htm)
-
 [Create a Callout in a Model View (VB.NET)](Create_Model_View_Callouts_Example_VBNET.htm)
-
 [Create a Callout in a Model View (C#)](Create_Model_View_Callouts_Example_CSharp.htm)
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache_members
 
 # IEdmClearLocalCache Interface Members
 
-The following tables list the members exposed by[IEdmClearLocalCache](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html).
+The following tables list the members exposed by [IEdmClearLocalCache](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IEdmClearLocalCache](EPDM.Inter
 ## See Also
 
 [IEdmClearLocalCache Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmClearLocalCache.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

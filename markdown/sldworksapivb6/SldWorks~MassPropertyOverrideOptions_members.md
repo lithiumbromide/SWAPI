@@ -1,6 +1,5 @@
 ---
-title: "MassPropertyOverrideOptions Object
-Members"
+title: "MassPropertyOverrideOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MassPropertyOverrideOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MassPropertyOverrideOptions_members.html"
 ---
 
-# MassPropertyOverrideOptions Object
-Members
+# MassPropertyOverrideOptions Object Members
 
 ## Public Methods
 

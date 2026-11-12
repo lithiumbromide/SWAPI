@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetProcessID Method (ISldWorks)
 
-Gets the process ID for the current SOLIDWORKS session.
+Gets the process ID for the current SOLIDWORKS Design session.
 
 ## Syntax
 
@@ -40,13 +40,7 @@ System.int GetProcessID()
 System.int GetProcessID();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ Process ID
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetProcessID](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetProcessID.html)
-
-.
+See [SldWorks::GetProcessID](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetProcessID.html).
 
 ## Examples
 
 [Get Process ID of SOLIDWORKS Session (C#)](Get_Process_ID_of_SOLIDWORKS_Session_Example_CSharp.htm)
-
 [Get Process ID of SOLIDWORKS Session (VB.NET)](Get_Process_ID_of_SOLIDWORKS_Session_Example_VBNET.htm)
-
 [Get Process ID of SOLIDWORKS Session (VBA)](Get_Process_ID_of_SOLIDWORKS_Session_Example_VB.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

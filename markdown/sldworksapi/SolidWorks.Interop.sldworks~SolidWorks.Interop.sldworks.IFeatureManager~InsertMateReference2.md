@@ -91,52 +91,22 @@ Feature^ InsertMateReference2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BstrMateReferenceName`: Name of mate reference
-- `PrimaryReferenceEntity`: Pointer to the primary mate, the
-
-[IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html)
-
-object
-- `PrimaryReferenceType`: Primary mate's reference type as defined by
-
-[swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
-- `PrimaryReferenceAlignment`: Primary mate's reference alignment type as defined
-
-[swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
+- `PrimaryReferenceEntity`: Pointer to the primary mate, the [IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html) object
+- `PrimaryReferenceType`: Primary mate's reference type as defined by [swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
+- `PrimaryReferenceAlignment`: Primary mate's reference alignment type as defined [swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
 - `PrimaryReferenceAlignAxes`: True to align with the axes of the coordinate system or origin when forming a mate, false to not
-- `SecondaryReferenceEntity`: Pointer to the secondary mate, the
-
-[IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html)
-
-object
-- `SecondaryReferenceType`: Secondary mate's reference type as defined by
-
-[swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
-- `SecondaryReferenceAlignment`: Secondary mate's alignment type as defined
-
-[swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
+- `SecondaryReferenceEntity`: Pointer to the secondary mate, the [IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html) object
+- `SecondaryReferenceType`: Secondary mate's reference type as defined by [swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
+- `SecondaryReferenceAlignment`: Secondary mate's alignment type as defined [swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
 - `SecondaryReferenceAlignAxes`: True to align with the axes of the coordinate system or origin when forming a mate, false to not
-- `TertiaryReferenceEntity`: Pointer to the tertiary mate, the
-
-[IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html)
-
-object
-- `TertiaryReferenceType`: Tertiary mate's reference type as defined by
-
-[swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
-- `TertiaryReferenceAlignment`: Tertiary mate's reference alignment as defined by
-
-[swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
+- `TertiaryReferenceEntity`: Pointer to the tertiary mate, the [IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html) object
+- `TertiaryReferenceType`: Tertiary mate's reference type as defined by [swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
+- `TertiaryReferenceAlignment`: Tertiary mate's reference alignment as defined by [swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
 
 ### Return Value
 
@@ -144,26 +114,18 @@ object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertMateReference2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMateReference2.html)
-
-.
+See [FeatureManager::InsertMateReference2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMateReference2.html).
 
 ## Examples
 
 [Edit Mate Reference (C#)](Edit_Mate_Reference_Example_CSharp.htm)
-
 [Edit Mate Reference (VB.NET)](Edit_Mate_Reference_Example_VBNET.htm)
-
 [Edit Mate Reference (VBA)](Edit_Mate_Reference_Example_VB.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IMateReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference.html)
 
 ## Availability

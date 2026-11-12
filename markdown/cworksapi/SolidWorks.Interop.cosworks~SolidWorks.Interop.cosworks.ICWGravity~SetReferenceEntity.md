@@ -52,22 +52,14 @@ void SetReferenceEntity(
 
 ## VBA Syntax
 
-See
-
-[CWGravity::SetReferenceEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~SetReferenceEntity.html)
-
-.
+See [CWGravity::SetReferenceEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~SetReferenceEntity.html).
 
 ## See Also
 
 [ICWGravity Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html)
-
 [ICWGravity Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html)
-
 [ICWGravity::ReverseDirectionAlongPlaneDir1 Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~ReverseDirectionAlongPlaneDir1.html)
-
 [ICWGravity::ReverseDirectionAlongPlaneDir2 Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~ReverseDirectionAlongPlaneDir2.html)
-
 [ICWGravity::ReverseDirectionNormalToPlane Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity~ReverseDirectionNormalToPlane.html)
 
 ## Availability

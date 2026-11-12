@@ -50,46 +50,24 @@ property System.int EndCondition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Direction of end conditions as defined in
-
-[swCoreFeatureDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCoreFeatureDirection_e.html)
+- `Index`: Direction of end conditions as defined in [swCoreFeatureDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCoreFeatureDirection_e.html)
 
 ### Property Value
 
-Type of end conditions as defined in
-
-[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-
-(see
-
-Remarks
-
-)
+Type of end conditions as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CoreFeatureData::EndCondition](ms-its:sldworksapivb6.chm::/sldworks~CoreFeatureData~EndCondition.html)
-
-.
+See [CoreFeatureData::EndCondition](ms-its:sldworksapivb6.chm::/sldworks~CoreFeatureData~EndCondition.html).
 
 ## Examples
 
 [Get Core Feature Data (C#)](Get_Core_Feature_Example_CSharp.htm)
-
 [Get Core Feature Data (VB.NET)](Get_Core_Feature_Example_VBNET.htm)
-
 [Get Core Feature Data (VBA)](Get_Core_Feature_Example_VB.htm)
 
 ## Remarks
@@ -103,7 +81,6 @@ Valid end conditions are swEndConditions_e:
 ## See Also
 
 [ICoreFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData.html)
-
 [ICoreFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData_members.html)
 
 ## Availability

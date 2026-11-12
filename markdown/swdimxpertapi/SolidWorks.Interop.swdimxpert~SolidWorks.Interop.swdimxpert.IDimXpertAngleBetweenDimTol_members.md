@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertAngleBetweenDimTol Interface Members
 
-The following tables list the members exposed by[IDimXpertAngleBetweenDimTol](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol.html).
+The following tables list the members exposed by [IDimXpertAngleBetweenDimTol](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol.html).
 
 ## Public Properties
 
@@ -31,5 +31,4 @@ The following tables list the members exposed by[IDimXpertAngleBetweenDimTol](So
 ## See Also
 
 [IDimXpertAngleBetweenDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAngleBetweenDimTol.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

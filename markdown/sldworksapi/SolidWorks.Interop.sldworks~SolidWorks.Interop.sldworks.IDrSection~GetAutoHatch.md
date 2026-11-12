@@ -40,13 +40,7 @@ System.bool GetAutoHatch()
 System.bool GetAutoHatch();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ True if auto hatching is enabled for the section view, false if it is disabled
 
 ## VBA Syntax
 
-See
-
-[DrSection::GetAutoHatch](ms-its:sldworksapivb6.chm::/sldworks~DrSection~GetAutoHatch.html)
-
-.
+See [DrSection::GetAutoHatch](ms-its:sldworksapivb6.chm::/sldworks~DrSection~GetAutoHatch.html).
 
 ## Examples
 
 [Create Section View and Get Some Data (C#)](Create_Section_View_and_Get_Some_Data_Example_CSharp.htm)
-
 [Create Section View and Get Some Data (VB.NET)](Create_Section_View_and_Get_Some_Data_Example_VBNET.htm)
-
 [Create Section View and Get Some Data (VBA)](Create_Section_View_and_Get_Some_Data_Example_VB.htm)
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::SetAutoHatch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~SetAutoHatch.html)
-
 [IDrSection::ScaleHatchPattern Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~ScaleHatchPattern.html)
 
 ## Availability

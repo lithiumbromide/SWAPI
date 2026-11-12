@@ -1,6 +1,5 @@
 ---
-title: "AppearanceSetting Object
-Members"
+title: "AppearanceSetting Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "AppearanceSetting_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~AppearanceSetting_members.html"
 ---
 
-# AppearanceSetting Object
-Members
+# AppearanceSetting Object Members
 
 ## Public Properties
 

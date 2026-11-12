@@ -11,21 +11,19 @@ source: "sldworksapi/Get_Area_Hatch_Data_Example_VB.htm"
 
 This example shows how to get the data for an area hatch in a drawing.
 
-'----------------------------------------------------------------------------
-' Preconditions:
-'kadov_tag{{<spaces>}}1. Verify that the specified drawing exists.
-'kadov_tag{{<spaces>}}2. Open the Immediate window.
-'
-' Postconditions:
-' 1. Opens the drawing.
-' 2. Hatches a face in the drawing.
-' 3. Inspect the Immediate window.
-'
-' NOTE: Because
-the model is used elsewhere, do not save changes.
-'---------------------------------------------------------------------------
-
 ```vb
+'----------------------------------------------------------------------------
+ ' Preconditions:
+ ' 1. Verify that the specified drawing exists.
+ ' 2. Open the Immediate window.
+ '
+ ' Postconditions:
+ ' 1. Opens the drawing.
+ ' 2. Hatches a face in the drawing.
+ ' 3. Inspect the Immediate window.
+ '
+ ' NOTE: Because the model is used elsewhere, do not save changes.
+ '---------------------------------------------------------------------------
 Dim swApp As SldWorks.SldWorks
  Dim swModel As SldWorks.ModelDoc2
  Dim swSelMgr As SldWorks.SelectionMgr

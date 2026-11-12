@@ -45,35 +45,19 @@ property System.int DiameterType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of diameter to set as defined in
-
-[swRackPinionMateDistanceOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRackPinionMateDistanceOptions_e.html)
+Type of diameter to set as defined in [swRackPinionMateDistanceOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRackPinionMateDistanceOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[RackPinionMateFeatureData::DiameterType](ms-its:sldworksapivb6.chm::/sldworks~RackPinionMateFeatureData~DiameterType.html)
-
-.
+See [RackPinionMateFeatureData::DiameterType](ms-its:sldworksapivb6.chm::/sldworks~RackPinionMateFeatureData~DiameterType.html).
 
 ## Examples
 
-See the
-
-[IRackPinionMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData.html)
-
-example.
+See the [IRackPinionMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData.html) example.
 
 ## Remarks
 
@@ -81,17 +65,12 @@ For each full rotation of the pinion, the rack translates a distance = (pi * pin
 
 If this property is set to swRackPinionMateDistanceOptions_e:
 
-- swPinionPitchDiameter, then set
-
-  [IRackPinionMateFeatureData::DiameterVal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData~DiameterVal.html)
-
-  with the pinion pitch diameter.
+- swPinionPitchDiameter, then set [IRackPinionMateFeatureData::DiameterVal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData~DiameterVal.html) with the pinion pitch diameter.
 - swRackTravelPerRevolution, then set IRackPinionMateFeatureData::DiameterVal with the rack translation distance per revolution of the pinion.
 
 ## See Also
 
 [IRackPinionMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData.html)
-
 [IRackPinionMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData_members.html)
 
 ## Availability

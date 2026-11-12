@@ -45,13 +45,7 @@ property System.bool QuantityOverride {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to override the BOM item quantity, false to not
 
 ## VBA Syntax
 
-See
-
-[BalloonOptions::QuantityOverride](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~QuantityOverride.html)
-
-.
+See [BalloonOptions::QuantityOverride](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~QuantityOverride.html).
 
 ## Examples
 
-See
-
-[IBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonOptions.html)
-
-examples.
+See [IBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonOptions.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ See the SOLIDWORKS Help for additional details about balloons.
 ## See Also
 
 [IBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions.html)
-
 [IBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions_members.html)
 
 ## Availability

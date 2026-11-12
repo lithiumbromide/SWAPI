@@ -46,32 +46,21 @@ Number of material classes
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting::GetMaterialClassesCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~GetMaterialClassesCount.html)
-
-.
+See [CostAnalysis3dPrinting::GetMaterialClassesCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~GetMaterialClassesCount.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
-examples.
+See the [ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html) examples.
 
 ## Remarks
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
-
 [ICostAnalysis3dPrinting::GetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~GetMaterialClasses.html)
-
 [ICostAnalysis3dPrinting::CurrentMaterialClass Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~CurrentMaterialClass.html)
 
 ## Availability

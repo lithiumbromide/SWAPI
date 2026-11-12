@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # IsBaseExtrude Method (IExtrudeFeatureData2)
 
-Obsolete. Superseded by
-
-[IFeature::IsBase2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IsBase2.html)
-
-.
+Obsolete. Superseded by [IFeature::IsBase2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IsBase2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool IsBaseExtrude()
 System.bool IsBaseExtrude();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::IsBaseExtrude](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~IsBaseExtrude.html)
-
-.
+See [ExtrudeFeatureData2::IsBaseExtrude](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~IsBaseExtrude.html).
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)

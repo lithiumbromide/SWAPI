@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 # IPMIDimensionItem Interface Members
 
-The following tables list the members exposed by[IPMIDimensionItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionItem.html).
+The following tables list the members exposed by [IPMIDimensionItem](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionItem.html).
 
 ## Public Properties
 
@@ -42,5 +42,4 @@ The following tables list the members exposed by[IPMIDimensionItem](SolidWorks.I
 ## See Also
 
 [IPMIDimensionItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionItem.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

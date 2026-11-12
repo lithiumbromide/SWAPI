@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IBomFeature Interface Properties
 
-For a list of all members of this type, see[IBomFeature members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html).
+For a list of all members of this type, see [IBomFeature members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html).
 
 ## Public Properties
 
@@ -37,5 +37,4 @@ For a list of all members of this type, see[IBomFeature members](SolidWorks.Inte
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

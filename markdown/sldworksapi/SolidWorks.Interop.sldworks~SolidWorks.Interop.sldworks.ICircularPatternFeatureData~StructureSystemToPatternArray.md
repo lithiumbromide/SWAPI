@@ -45,29 +45,15 @@ property System.Object^ StructureSystemToPatternArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of
-
-[IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)
-
-s
+Array of [IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)s
 
 ## VBA Syntax
 
-See
-
-[CircularPatternFeatureData::StructureSystemToPatternArray](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~StructureSystemToPatternArray.html)
-
-.
+See [CircularPatternFeatureData::StructureSystemToPatternArray](ms-its:sldworksapivb6.chm::/sldworks~CircularPatternFeatureData~StructureSystemToPatternArray.html).
 
 ## Examples
 
@@ -80,14 +66,14 @@ See
 '3. Press F5.
 '
 'Postconditions:
-' 1. Creates**Sketch1**containing two sketch segments.
+' 1. Creates **Sketch1** containing two sketch segments.
 ' 2. Configures the start/end extensions and the member profile.
 ' 3. Selects the two sketch segments.
-' 4. Creates primary**Structure System1**with two primary path segment members (**Member1**and**Member2**).
+' 4. Creates primary **Structure System1** with two primary path segment members (**Member1** and **Member2**).
 ' 5. Creates an axis about which to create a circular pattern.
-' 6. Creates a**Boss-Extrude1**to pattern.
+' 6. Creates a **Boss-Extrude1** to pattern.
 ' 7. Inspect the graphics area.
-' 8. Press F5 to create**CirPattern1**.
+' 8. Press F5 to create **CirPattern1**.
 ' 9. Press F5 to finish.
 '10. Inspect the Immediate window.
 '========================================================================
@@ -189,7 +175,7 @@ Set PrimDef = structMemDef
 Debug.Print "Structure system primary member creation type as defined by swStructureSystemMemberCreationType_e: " & PrimDef.**PrimaryMemberType**
 
 Set memPathSegDef = PrimDef
-memPathSegDef.**MergeTangentMembers**= True
+memPathSegDef.**MergeTangentMembers** = True
 
 Set swSelMgr = modDoc.SelectionManager
 
@@ -250,15 +236,15 @@ status = swModelDocExt.SelectByID2("Boss-Extrude1", "SOLIDBODY", 0, 0, 0, True, 
 
 'Create circular pattern
 Set swCircularPatternFeatureData = swFeatureMgr.**CreateDefinition**(swFmCirPattern)
-swCircularPatternFeatureData.**EqualSpacing**= True
-swCircularPatternFeatureData.**ReverseDirection**= True
-swCircularPatternFeatureData.**Spacing**= 1.919862 '110 degrees
-swCircularPatternFeatureData.**TotalInstances**= 3
-swCircularPatternFeatureData.**GeometryPattern**= False
-swCircularPatternFeatureData.**VarySketch**= False
+swCircularPatternFeatureData.**EqualSpacing** = True
+swCircularPatternFeatureData.**ReverseDirection** = True
+swCircularPatternFeatureData.**Spacing** = 1.919862 '110 degrees
+swCircularPatternFeatureData.**TotalInstances** = 3
+swCircularPatternFeatureData.**GeometryPattern** = False
+swCircularPatternFeatureData.**VarySketch** = False
 
 'Set BodyPattern property to True to pattern structure system folders
-swCircularPatternFeatureData.**BodyPattern**= True
+swCircularPatternFeatureData.**BodyPattern** = True
 
 Set swFeature = swFeatureMgr.**CreateFeature**(swCircularPatternFeatureData)
 
@@ -268,7 +254,7 @@ swModel.ClearSelection2 True
 status = swModelDocExt.SelectByID2("CirPattern1", "BODYFEATURE", 0, 0, 0, False, 0, Nothing, 0)
 Set swFeature = swSelectionMgr.GetSelectedObject6(1, -1)
 Set swCircularPatternFeatureData = swFeature.**GetDefinition**
-swCircularPatternFeatureData.**AccessSelections**swModel, Nothing
+swCircularPatternFeatureData.**AccessSelections** swModel, Nothing
 Debug.Print "Is CirPattern1 a features/faces pattern or a bodies pattern (true if a bodies pattern)? " & swCircularPatternFeatureData.**BodyPattern**
 
 Dim var As Variant
@@ -293,7 +279,7 @@ Next
 'Set patternFeatures(1) = feat.GetSpecificFeature2()
 
 ''During circular pattern modification, use StructureSystemPatternArray property to change structure system to pattern
-'swCircularPatternFeatureData.**StructureSystemToPatternArray**= patternFeatures
+'swCircularPatternFeatureData.**StructureSystemToPatternArray** = patternFeatures
 
 Debug.Print swFeature.**ModifyDefinition**(swCircularPatternFeatureData, swModel, Nothing)
 
@@ -301,18 +287,17 @@ End Sub
 
 ## Remarks
 
-This property is valid only if[ICircularPatternFeatureData::BodyPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~BodyPattern.html)is true.
+This property is valid only if [ICircularPatternFeatureData::BodyPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~BodyPattern.html) is true.
 
 Use the setter of this property to change structure systems to pattern only after the feature has been created.
 
-Before using this property in .NET code, read[IDispatch Object Arrays as Input in .NET](sldworksAPIProgGuide.chm::/Overview/IDispatch_Object_Arrays_as_Input_in_.NET.htm). To remove a structure system from the pattern, set this property to a DispatchWrapper array containing one null element.
+Before using this property in .NET code, read [IDispatch Object Arrays as Input in .NET](sldworksAPIProgGuide.chm::/Overview/IDispatch_Object_Arrays_as_Input_in_.NET.htm). To remove a structure system from the pattern, set this property to a DispatchWrapper array containing one null element.
 
-For more information, see the**SOLIDWORKS user-interface help > Weldments and Structure System > Pattern and Mirror Support**topic.
+For more information, see the **SOLIDWORKS Design user-interface help > Weldments and Structure System > Pattern and Mirror Support** topic.
 
 ## See Also
 
 [ICircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData.html)
-
 [ICircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData_members.html)
 
 ## Availability

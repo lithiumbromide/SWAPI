@@ -47,32 +47,22 @@ property System.int ShellOffsetOption {
 
 ### Property Value
 
-Shell offset option as defined by
-
-[swsShellOffsetOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsShellOffsetOption_e.html)
+Shell offset option as defined by [swsShellOffsetOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsShellOffsetOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWShell::ShellOffsetOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~ShellOffsetOption.html)
-
-.
+See [CWShell::ShellOffsetOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~ShellOffsetOption.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
-
 [ICWShell::ShellOffsetValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~ShellOffsetValue.html)
 
 ## Availability

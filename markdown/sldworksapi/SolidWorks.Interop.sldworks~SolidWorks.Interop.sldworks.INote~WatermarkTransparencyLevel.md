@@ -45,50 +45,32 @@ property System.double WatermarkTransparencyLevel {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-0.0 <= Level of transparency <= 1.0 (see
-
-Remarks
-
-)
+0.0 <= Level of transparency <= 1.0 (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Note::WatermarkTransparencyLevel](ms-its:sldworksapivb6.chm::/sldworks~Note~WatermarkTransparencyLevel.html)
-
-.
+See [Note::WatermarkTransparencyLevel](ms-its:sldworksapivb6.chm::/sldworks~Note~WatermarkTransparencyLevel.html).
 
 ## Examples
 
 [Add Watermark to Part (C#)](Add_Watermark_to_Part_Example_CSharp.htm)
-
 [Add Watermark to Part (VB.NET)](Add_Watermark_to_Part_Example_VBNET.htm)
-
 [Add Watermark to Part (VBA)](Add_Watermark_to_Part_Example_VB.htm)
 
 ## Remarks
 
-This property is only available when[INote::WatermarkNote](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~WatermarkNote.html)is true.
+This property is only available when [INote::WatermarkNote](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~WatermarkNote.html) is true.
 
 A transparency level of 0.0 indicates that the transparency level is not set for the watermark; a transparency level of 1.0 indicates that the watermark is fully transparent.
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::WatermarkBehindGeometry Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~WatermarkBehindGeometry.html)
 
 ## Availability

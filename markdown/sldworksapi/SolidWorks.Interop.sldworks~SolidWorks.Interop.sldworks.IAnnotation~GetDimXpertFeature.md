@@ -40,13 +40,7 @@ System.object GetDimXpertFeature()
 System.Object^ GetDimXpertFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,22 @@ See
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetDimXpertFeature](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetDimXpertFeature.html)
-
-.
+See [Annotation::GetDimXpertFeature](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetDimXpertFeature.html).
 
 ## Examples
 
 [Get DimXpert Display Dimensions and Feature (C#)](Get_DimXpert_Display_Dimensions_and_Feature_Example_CSharp.htm)
-
 [Get DimXpert Display Dimensions and Feature (VB.NET)](Get_DimXpert_Display_Dimensions_and_Feature_Example_VBNET.htm)
-
 [Get DimXpert Display Dimensions and Feature (VBA)](Get_DimXpert_Display_Dimensions_and_Feature_Example_VB.htm)
 
 ## Remarks
 
-If an annotation is a display dimension, then use[IAnnotation::IsDimXpert](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IsDimXpert.html)to determine if it is a DimXpert annotation. If it is, then use IAnnotation::GetDimXpertFeature to access the DimXpert feature, which provides access to the display dimension information.
+If an annotation is a display dimension, then use [IAnnotation::IsDimXpert](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IsDimXpert.html) to determine if it is a DimXpert annotation. If it is, then use IAnnotation::GetDimXpertFeature to access the DimXpert feature, which provides access to the display dimension information.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IDisplayDimension::IsDimXpert Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsDimXpert.html)
 
 ## Availability

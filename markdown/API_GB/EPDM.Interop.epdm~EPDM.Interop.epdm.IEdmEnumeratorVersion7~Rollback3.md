@@ -45,11 +45,7 @@ void Rollback3(
 
 ### Parameters
 
-- `lVersionNo`: Version number to which to roll this file back (see
-
-Remarks
-
-)
+- `lVersionNo`: Version number to which to roll this file back (see **Remarks**)
 - `bsComment`: Comment for the rollback
 - `vbRedirectParentRefs`: True to roll back the file with parent references, false to roll back the file without parent references
 
@@ -68,11 +64,8 @@ After this method completes successfully, lVersionNo is the new latest version o
 ## See Also
 
 [IEdmEnumeratorVersion7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion7.html)
-
 [IEdmEnumeratorVersion7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion7_members.html)
-
 [IEdmRevision7::Rollback3 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision7~Rollback3.html)
-
 [IEdmVersion8::Rollback3 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8~Rollback3.html)
 
 ## Availability

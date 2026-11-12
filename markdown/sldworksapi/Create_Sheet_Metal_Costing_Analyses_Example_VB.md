@@ -18,7 +18,7 @@ This example shows how to create a sheet metal Costing analysis.
 '    C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\costing\sheet_metal_part.sldprt
 ' 2. Verify that the Costing templates exist by clicking Tools > Options >
 '    System Options > File Locations and selecting Costing templates in
-'    Show folders for in SOLIDWORKS. Click Cancel to close the dialog.
+'    Show folders for in SOLIDWORKS Design. Click Cancel to close the dialog.
 ' 3. Add a reference to SldCosting API 20nn Type Library.
 ' 4. Open the Immediate window.
 ' 5. Run the macro.

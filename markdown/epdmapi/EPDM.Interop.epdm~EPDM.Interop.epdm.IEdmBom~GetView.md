@@ -48,7 +48,6 @@ EdmBomView^ GetView(
 ## Examples
 
 [Add Row to Bill of Materials (VB.NET)](Add_Row_to_Bill_of_Materials_Example_VBNET.htm)
-
 [Add Row to Bill of Materials (C#)](Add_Row_to_Bill_of_Materials_Example_CSharp.htm)
 
 ## Remarks
@@ -61,7 +60,6 @@ EdmBomView^ GetView(
 ## See Also
 
 [IEdmBom Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html)
-
 [IEdmBom Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom_members.html)
 
 ## Availability

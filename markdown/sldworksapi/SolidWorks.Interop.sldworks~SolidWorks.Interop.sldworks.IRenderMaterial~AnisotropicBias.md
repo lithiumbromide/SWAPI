@@ -45,13 +45,7 @@ property System.double AnisotropicBias {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Anisotropic bias
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::AnisotropicBias](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~AnisotropicBias.html)
-
-.
+See [RenderMaterial::AnisotropicBias](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~AnisotropicBias.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

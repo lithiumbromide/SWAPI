@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreatePointDB Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDoc2::CreatePoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePoint2.html)
-
-and
-
-[IModelDoc2::ICreatePoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePoint2.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::CreatePoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreatePoint2.html) and [IModelDoc2::ICreatePoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreatePoint2.html).
 
 ## Syntax
 
@@ -63,13 +55,7 @@ System.bool CreatePointDB(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,18 +65,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::CreatePointDB](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~CreatePointDB.html)
-
-.
+See [ModelDoc2::CreatePointDB](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~CreatePointDB.html).
 
 ## Remarks
 
-IMPORTANT: This method ignores the z value when adding a point to a 3D sketch. Thus, update your code to use the more current method, IModelDoc2::CreatePoint2 or IModelDoc2::ICreatePoint2.
+**IMPORTANT:** This method ignores the z value when adding a point to a 3D sketch. Thus, update your code to use the more current method, IModelDoc2::CreatePoint2 or IModelDoc2::ICreatePoint2.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # ICreateExtrusionSurfaceDLL Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::ICreateExtrusionSurfaceDLL](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateExtrusionSurfaceDLL.html)
-
-.
+Obsolete. Superseded by [IBody2::ICreateExtrusionSurfaceDLL](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~ICreateExtrusionSurfaceDLL.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ Surface^ ICreateExtrusionSurfaceDLL(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body::ICreateExtrusionSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body~ICreateExtrusionSurfaceDLL.html)
-
-.
+See [Body::ICreateExtrusionSurfaceDLL](ms-its:sldworksapivb6.chm::/sldworks~Body~ICreateExtrusionSurfaceDLL.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

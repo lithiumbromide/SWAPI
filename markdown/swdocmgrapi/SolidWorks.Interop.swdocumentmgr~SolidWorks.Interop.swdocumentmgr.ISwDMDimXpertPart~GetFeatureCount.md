@@ -46,11 +46,7 @@ Number of features
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertPart::GetFeatureCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPart~GetFeatureCount.html)
-
-.
+See [SwDMDimXpertPart::GetFeatureCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPart~GetFeatureCount.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertPart Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart.html)
-
 [ISwDMDimXpertPart Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart_members.html)
 
 ## Availability

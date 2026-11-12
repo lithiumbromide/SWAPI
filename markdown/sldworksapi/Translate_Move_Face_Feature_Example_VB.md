@@ -52,7 +52,7 @@ Sub main()
 ```
 
 ```
-    ' Open the SOLIDWORKS document
+    ' Open the SOLIDWORKS Design document
     swApp.OpenDoc6 "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\assemblymates\knee.sldprt", swDocPART, swOpenDocOptions_Silent, "", fileerror, filewarning
     Set swModel = swApp.ActiveDoc
     Set swModelDocExt = swModel.Extension

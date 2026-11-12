@@ -40,29 +40,15 @@ System.int GetViewCount()
 System.int GetViewCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Number of views, including the number of sheets, in this drawing document (see
-
-Remarks
-
-)
+Number of views, including the number of sheets, in this drawing document (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::GetViewCount](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetViewCount.html)
-
-.
+See [DrawingDoc::GetViewCount](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetViewCount.html).
 
 ## Examples
 
@@ -83,19 +69,12 @@ The active sheet might not be the first sheet in the return value.
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::GetViews Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~GetViews.html)
-
 [IDrawingDoc::GetFirstView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~GetFirstView.html)
-
 [IDrawingDoc::IGetFirstView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~IGetFirstView.html)
-
 [ISheet::GetViews Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetViews.html)
-
 [IView::GetNextView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetNextView.html)
-
 [IView::IGetNextView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetNextView.html)
 
 ## Availability

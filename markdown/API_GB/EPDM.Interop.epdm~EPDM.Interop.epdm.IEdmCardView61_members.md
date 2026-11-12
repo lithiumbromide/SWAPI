@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView61_members.html"
 
 # IEdmCardView61 Interface Members
 
-The following tables list the members exposed by[IEdmCardView61](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView61.html).
+The following tables list the members exposed by [IEdmCardView61](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView61.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmCardView61](EPDM.Interop.ep
 ## See Also
 
 [IEdmCardView61 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView61.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

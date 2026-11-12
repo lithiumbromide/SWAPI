@@ -1,6 +1,5 @@
 ---
-title: "CWBearingLoad Object
-Members"
+title: "CWBearingLoad Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWBearingLoad_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWBearingLoad_members.html"
 ---
 
-# CWBearingLoad Object
-Members
+# CWBearingLoad Object Members
 
 ## Public Methods
 

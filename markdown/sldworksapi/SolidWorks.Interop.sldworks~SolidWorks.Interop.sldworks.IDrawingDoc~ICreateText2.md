@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # ICreateText2 Method (IDrawingDoc)
 
-Creates a
-
-[note](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
-
-containing the specified text at a given location.
+Creates a [note](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html) containing the specified text at a given location.
 
 ## Syntax
 
@@ -71,34 +67,24 @@ Note^ ICreateText2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `TextString`: User input text
-- `TextX`: X text location in meters (see**Remarks**)
-- `TextY`: Y text location in meters (seeRemarks)
-- `TextZ`: Z text location in meters (seeRemarks)
+- `TextX`: X text location in meters (see **Remarks**)
+- `TextY`: Y text location in meters (see Remarks)
+- `TextZ`: Z text location in meters (see Remarks)
 - `TextHeight`: Text height in meters
 - `TextAngle`: Text angle for rotated text in radians
 
 ### Return Value
 
-Pointer to the[note](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
+Pointer to the [note](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::ICreateText2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ICreateText2.html)
-
-.
+See [DrawingDoc::ICreateText2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~ICreateText2.html).
 
 ## Remarks
 
@@ -107,7 +93,5 @@ The location specifies the position of the upper-left corner of the box containi
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::CreateText2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateText2.html)

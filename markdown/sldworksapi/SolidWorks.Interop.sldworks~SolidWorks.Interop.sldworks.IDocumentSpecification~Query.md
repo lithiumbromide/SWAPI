@@ -45,13 +45,7 @@ property System.bool Query {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,15 @@ True to retrieve options, false to not (default)
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::Query](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~Query.html)
-
-.
+See [DocumentSpecification::Query](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~Query.html).
 
 ## Remarks
 
-Various options can be passed to document operation APIs such as
-
-[IModelDoc2::Save3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Save3.html)
-
-,
-
-[IModelDocExtension::SaveAs4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SaveAs4.html)
-
-, and
-
-[ISldWorks::LoadFile4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~LoadFile4.html)
-
-. These options can be retrieved from the document, if Query is set to true. Only silent information can be retrieved.
+Various options can be passed to document operation APIs such as [IModelDoc2::Save3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~Save3.html), [IModelDocExtension::SaveAs4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SaveAs4.html), and [ISldWorks::LoadFile4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~LoadFile4.html). These options can be retrieved from the document, if Query is set to true. Only silent information can be retrieved.
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
 
 ## Availability

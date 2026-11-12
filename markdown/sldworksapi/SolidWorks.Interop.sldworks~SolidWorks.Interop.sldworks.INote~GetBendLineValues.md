@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INo
 
 # GetBendLineValues Method (INote)
 
-Obsolete. Superseded by
-
-[INote::GetBendLineValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetBendLineValues2.html)
-
-.
+Obsolete. Superseded by [INote::GetBendLineValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetBendLineValues2.html).
 
 ## Syntax
 
@@ -67,21 +63,15 @@ System.bool GetBendLineValues(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Up`: True if the bend is up, false if the bend is down
-- `Angle`: Angle of the bendParamDesc
-- `Radius`: Radius of the bendParamDesc
-- `StartPt`: Start[point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)of the bend lineParamDesc
-- `EndPt`: End[point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)of the bend lineParamDesc
+- `Angle`: Angle of the bend
+- `Radius`: Radius of the bend
+- `StartPt`: Start [point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) of the bend line
+- `EndPt`: End [point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) of the bend line
 
 ### Return Value
 
@@ -89,11 +79,7 @@ True if the note is a bend note, false if not
 
 ## VBA Syntax
 
-See
-
-[Note::GetBendLineValues](ms-its:sldworksapivb6.chm::/sldworks~Note~GetBendLineValues.html)
-
-.
+See [Note::GetBendLineValues](ms-its:sldworksapivb6.chm::/sldworks~Note~GetBendLineValues.html).
 
 ## Examples
 
@@ -102,9 +88,7 @@ See
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::IsBendLineNote Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IsBendLineNote.html)
 
 ## Availability

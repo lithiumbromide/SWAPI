@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMateInPlace Interface Members
 
-The following tables list the members exposed by[IMateInPlace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace.html).
+The following tables list the members exposed by [IMateInPlace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace.html).
 
 ## Public Properties
 
@@ -33,7 +33,5 @@ The following tables list the members exposed by[IMateInPlace](SolidWorks.Intero
 ## See Also
 
 [IMateInPlace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)

@@ -51,13 +51,7 @@ System.bool JogDimension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ True if operation succeeds, false if it fails
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::JogDimension](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~JogDimension.html)
-
-.
+See [ModelDocExtension::JogDimension](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~JogDimension.html).
 
 ## Examples
 
@@ -82,24 +72,18 @@ See
 
 ## Remarks
 
-This method is equivalent to clicking the right-mouse button on a linear or ordinate dimension in the SOLIDWORKS user-interface, selecting**Display****Options**on the shortcut menu, and selecting**Jog**.
+This method is equivalent to clicking the right-mouse button on a linear or ordinate dimension in the SOLIDWORKS Design user-interface, selecting **Display** **Options** on the shortcut menu, and selecting **Jog**.
 
-Call[IModelView::GraphicsRedraw](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~GraphicsRedraw.html)after setting jog points to redraw the graphics area.
+Call [IModelView::GraphicsRedraw](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView~GraphicsRedraw.html) after setting jog points to redraw the graphics area.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IDisplayDimension::GetJogParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetJogParameters.html)
-
 [IDisplayDimension::SetJogParameters Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetJogParameters.html)
-
 [IDisplayDimension::Jogged Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~Jogged.html)
-
 [IModelDocExtension::AddOrdinateDimension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddOrdinateDimension.html)
-
 [IDisplayDimension::AutoJogOrdinate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~AutoJogOrdinate.html)
 
 ## Availability

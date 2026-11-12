@@ -45,13 +45,7 @@ property System.bool GeometryPattern {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,23 @@ True to create the pattern using only the geometry of the feature, false to patt
 
 ## VBA Syntax
 
-See
-
-[SketchPatternFeatureData::GeometryPattern](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~GeometryPattern.html)
-
-.
+See [SketchPatternFeatureData::GeometryPattern](ms-its:sldworksapivb6.chm::/sldworks~SketchPatternFeatureData~GeometryPattern.html).
 
 ## Examples
 
-See the
-
-[ISketchPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)
-
-examples.
+See the [ISketchPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html) examples.
 
 ## Remarks
 
-This property is valid only if[ISketchPatternFeatureData::BodyPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~BodyPattern.html)is false.
+This property is valid only if [ISketchPatternFeatureData::BodyPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~BodyPattern.html) is false.
 
-If this property is set to true, you can call[ISketchPatternFeatureData::SetFeatureScope](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~SetFeatureScope.html).
+If this property is set to true, you can call [ISketchPatternFeatureData::SetFeatureScope](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~SetFeatureScope.html).
 
-For more information, see the**Sketch Driven Patterns**topic in the SOLIDWORKS Help.
+For more information, see the **Sketch Driven Patterns** topic in the SOLIDWORKS Help.
 
 ## See Also
 
 [ISketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)
-
 [ISketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.bool SetGaugeTablePath(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,36 +59,20 @@ True if gauge table path successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[SheetMetalGaugeTableParameters::SetGaugeTablePath](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalGaugeTableParameters~SetGaugeTablePath.html)
-
-.
+See [SheetMetalGaugeTableParameters::SetGaugeTablePath](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalGaugeTableParameters~SetGaugeTablePath.html).
 
 ## Examples
 
-See the
-
-[ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html)
-
-examples.
+See the [ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html) examples.
 
 ## Remarks
 
-Installed sheet metal gauge tables are located in
-
-install_dir
-
-\lang\english\Sheet Metal Gauge Tables
-
-.
+Installed sheet metal gauge tables are located in `install_dir`**\lang\english\Sheet Metal Gauge Tables**.
 
 ## See Also
 
 [ISheetMetalGaugeTableParameters Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html)
-
 [ISheetMetalGaugeTableParameters Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters_members.html)
-
 [ISheetMetalGaugeTableParameters::GetGaugeTablePath Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters~GetGaugeTablePath.html)
 
 ## Availability

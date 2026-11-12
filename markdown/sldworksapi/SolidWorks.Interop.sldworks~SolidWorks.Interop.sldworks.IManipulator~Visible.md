@@ -45,13 +45,7 @@ property System.bool Visible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if the manipulator is visible, false if not
 
 ## VBA Syntax
 
-See
-
-[Manipulator::Visible](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Visible.html)
-
-.
+See [Manipulator::Visible](ms-its:sldworksapivb6.chm::/sldworks~Manipulator~Visible.html).
 
 ## See Also
 
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)
-
 [IManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator_members.html)
 
 ## Availability

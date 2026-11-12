@@ -9,12 +9,9 @@ source: "API_GB/Check_Out_and_Copy_File_Example_VBNET.htm"
 
 # Check Out and Copy File Example (VB.NET)
 
-This example shows how to find a vault from a file path,
-check out the file from the vault, and copy the file to another location.
+This example shows how to find a vault from a file path, check out the file from the vault, and copy the file to another location.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

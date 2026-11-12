@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureChainPattern Method (IFeatureManager)
 
-Obsolete.See[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)and the Remarks in[IChainPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData.html).
+Obsolete. See [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) and the Remarks in [IChainPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData.html).
 
 ## Syntax
 
@@ -83,64 +83,28 @@ Feature^ FeatureChainPattern(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PitchMethod`: Pitch method as defined in
-
-[swChainPatternPitchMethod_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChainPatternPitchMethod_e.html)
-
-; available for all types of chain patterns
+- `PitchMethod`: Pitch method as defined in [swChainPatternPitchMethod_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChainPatternPitchMethod_e.html); available for all types of chain patterns
 - `FlipDirection`: True to reverse the direction of the chain pattern, false to not; available for all types of chain patterns
 - `FillPath`: True to automatically set the number of pattern instances to fill the path, false to not; available for all types of chain patterns and when EqualSpacing is false for distance and linkage distance chain patterns
 - `Number`: Number of pattern instances; available for all types of chain patterns when FillPath is false
 - `Spacing`: Distance between the pattern instances when EqualSpacing is false; only available for distance and linkage distance chain patterns when EqualSpacing is false
-- `GroupOneFlipPlane`: True to flip the path alignment plane for
-
-Chain Group 1
-
-, false to not; available for all types of chain patterns
-- `GroupTwoChain`: True to set the component to pattern for
-
-Chain Group 2
-
-, false to not; only available for connected linkage chain patterns
-- `GroupTwoFlipPlane`: True to flip the path alignment plane for
-
-Chain Group 2
-
-, false to not; only available for connected linkage chain patterns
-- `AlignMethod`: Alignment method as defined in
-
-[swChainPatternAlignment_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChainPatternAlignment_e.html)
-
-; only available for distance and linkage distance chain patterns
-- `Options`: Option as defined in
-
-[swChainPatternOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChainPatternOptions_e.html)
-
-; available for all types of chain patterns
+- `GroupOneFlipPlane`: True to flip the path alignment plane for **Chain Group 1**, false to not; available for all types of chain patterns
+- `GroupTwoChain`: True to set the component to pattern for **Chain Group 2**, false to not; only available for connected linkage chain patterns
+- `GroupTwoFlipPlane`: True to flip the path alignment plane for **Chain Group 2**, false to not; only available for connected linkage chain patterns
+- `AlignMethod`: Alignment method as defined in [swChainPatternAlignment_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChainPatternAlignment_e.html); only available for distance and linkage distance chain patterns
+- `Options`: Option as defined in [swChainPatternOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChainPatternOptions_e.html); available for all types of chain patterns
 
 ### Return Value
 
-Chain pattern
-
-[feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
+Chain pattern [feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureChainPattern](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureChainPattern.html)
-
-.
+See [FeatureManager::FeatureChainPattern](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureChainPattern.html).
 
 ## Remarks
 
@@ -163,12 +127,11 @@ You must pre-select the entities for the chain pattern feature. Using the select
 | Component plane or planar face | Group 2 Path Alignment Plane | 32768 | 1 for connected linkage None for distance or linkage distance |
 | Assembly plane | Face normal alignment | 1024 | 1 if the chain path is a sketch line None for all other types of paths |
 
-To[set equal spacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~SetEqualSpacing.html)between chain pattern instances, edit the chain pattern feature after creating it.
+To [set equal spacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~SetEqualSpacing.html) between chain pattern instances, edit the chain pattern feature after creating it.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

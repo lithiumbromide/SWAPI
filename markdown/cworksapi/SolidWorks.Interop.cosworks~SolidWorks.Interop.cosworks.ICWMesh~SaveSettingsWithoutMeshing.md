@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # SaveSettingsWithoutMeshing Property (ICWMesh)
 
-Obsolete. Superseded by ICWMesh::SaveSettingsWithoutMeshing2.
+Obsolete. Superseded by [ICWMesh::SaveSettingsWithoutMeshing2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~SaveSettingsWithoutMeshing2.html).
 
 ## Syntax
 
@@ -51,16 +51,11 @@ property System.int SaveSettingsWithoutMeshing {
 
 ## VBA Syntax
 
-See
-
-[CWMesh::SaveSettingsWithoutMeshing](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~SaveSettingsWithoutMeshing.html)
-
-.
+See [CWMesh::SaveSettingsWithoutMeshing](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~SaveSettingsWithoutMeshing.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
 
 ## Availability

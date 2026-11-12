@@ -45,48 +45,23 @@ property System.int DrawingColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Color of drawing for printing as defined in
-
-[swPageSetupDrawingColor_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPageSetupDrawingColor_e.html)
+Color of drawing for printing as defined in [swPageSetupDrawingColor_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPageSetupDrawingColor_e.html)
 
 ## VBA Syntax
 
-See
-
-[PageSetup::DrawingColor](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~DrawingColor.html)
-
-.
+See [PageSetup::DrawingColor](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~DrawingColor.html).
 
 ## Remarks
 
-This method can only be set with an application-level (
-
-[IModelDocExtension::AppPageSetup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~AppPageSetup.html)
-
-) or document-level (
-
-[IModelDoc2::PageSetup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~PageSetup.html)
-
-or
-
-[IModelDoc2::IPageSetup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IPageSetup.html)
-
-) object. This method is not available at the sheet level.
+This method can only be set with an application-level ([IModelDocExtension::AppPageSetup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~AppPageSetup.html)) or document-level ([IModelDoc2::PageSetup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~PageSetup.html) or [IModelDoc2::IPageSetup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IPageSetup.html)) object. This method is not available at the sheet level.
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
 
 ## Availability

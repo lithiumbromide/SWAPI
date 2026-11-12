@@ -42,25 +42,15 @@ property System.int TimeStamp {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Time stamp for this Physical Simulation (see**Remarks**)
+Time stamp for this Physical Simulation (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Simulation::Timestamp](ms-its:sldworksapivb6.chm::/sldworks~Simulation~Timestamp.html)
-
-.
+See [Simulation::Timestamp](ms-its:sldworksapivb6.chm::/sldworks~Simulation~Timestamp.html).
 
 ## Remarks
 
@@ -73,7 +63,6 @@ See
 ## See Also
 
 [ISimulation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html)
-
 [ISimulation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation_members.html)
 
 ## Availability

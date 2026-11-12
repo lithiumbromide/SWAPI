@@ -43,13 +43,7 @@ public delegate System.int DAssemblyDocEvents_PublishTo3DPDFNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,19 +51,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[PublishTo3DPDF Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~PublishTo3DPDFNotify_EV.html)
-
-.
+See [PublishTo3DPDF Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~PublishTo3DPDFNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyPublishTo3DPDFNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyPublishTo3DPDFNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

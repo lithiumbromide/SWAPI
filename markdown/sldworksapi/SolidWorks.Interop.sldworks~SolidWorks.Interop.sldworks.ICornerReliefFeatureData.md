@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 Allows access to sheet metal corner relief feature data.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ICornerReliefFeatureData
 
 ## VBA Syntax
 
-See
-
-[CornerReliefFeatureData](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData.html)
-
-.
+See [CornerReliefFeatureData](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData.html).
 
 ## Examples
 
@@ -67,21 +63,21 @@ See
 
 ' 2. Creates:
 
-' - Base-Flange1
+' - **Base-Flange1**
 
-' - Sketched Bend1
+' - **Sketched Bend1**
 
-' - Sketched Bend2
+' - **Sketched Bend2**
 
-' - Sketched Bend3
+' - **Sketched Bend3**
 
-' - Sketched Bend4
+' - **Sketched Bend4**
 
 ' 3. Selects the sheet metal solid body.
 
 ' 4. Sets rectangular reliefs for the four corners.
 
-' 5. Creates Corner Relief1 .
+' 5. Creates **Corner Relief1**.
 
 ' 6. Press F5.
 
@@ -137,25 +133,25 @@ Sub PrintReliefData(ByVal cornerIndex As Long, ByVal cornerReliefFeatData As Sld
 
 Dim smCornerReliefData1 As SldWorks.SMCornerReliefData
 
-boolstatus = cornerReliefFeatData. GetCornerAtIndex (cornerIndex, smCornerReliefData1)
+boolstatus = cornerReliefFeatData.**GetCornerAtIndex**(cornerIndex, smCornerReliefData1)
 
-Debug.Print "Add filleted corners? " & smCornerReliefData1. AddFilletedCorners
+Debug.Print "Add filleted corners? " & smCornerReliefData1.**AddFilletedCorners**
 
-Debug.Print "Corner fillet diameter = " & smCornerReliefData1. CornerFilletDiameter
+Debug.Print "Corner fillet diameter = " & smCornerReliefData1.**CornerFilletDiameter**
 
-Debug.Print "Use ratio to thickness? " & smCornerReliefData1. RatioToThickness
+Debug.Print "Use ratio to thickness? " & smCornerReliefData1.**RatioToThickness**
 
-Debug.Print "Relief type as defined by swCornerBendReliefType_e = " & smCornerReliefData1. ReliefType
+Debug.Print "Relief type as defined by swCornerBendReliefType_e = " & smCornerReliefData1.**ReliefType**
 
-Debug.Print "Slot length = " & smCornerReliefData1. SlotLength
+Debug.Print "Slot length = " & smCornerReliefData1.**SlotLength**
 
-Debug.Print "Slot width = " & smCornerReliefData1. SlotWidth
+Debug.Print "Slot width = " & smCornerReliefData1.**SlotWidth**
 
-Debug.Print "Center on bend lines? " & smCornerReliefData1. CenterOnBendLines
+Debug.Print "Center on bend lines? " & smCornerReliefData1.**CenterOnBendLines**
 
-Debug.Print "Tangent to bend? " & smCornerReliefData1. TangentToBend
+Debug.Print "Tangent to bend? " & smCornerReliefData1.**TangentToBend**
 
-Call smCornerReliefData1. GetFaces (CFace1, CFace2, CFace3)
+Call smCornerReliefData1.**GetFaces**(CFace1, CFace2, CFace3)
 
 End Sub
 
@@ -311,7 +307,7 @@ Set myFeature = swModel.FeatureManager.InsertSheetMetal3dBend(1.5707963267949, T
 
 swModel.ViewZoomTo2 1.52447662706814E-02, 2.18199896815251E-03, -8.86660359613402E-03, 0.022429935049572, -6.38493303744786E-03, -8.86660359613402E-03
 
-Set cornerReliefFeatData = featMgr. CreateDefinition (swFmCornerRelief)
+Set cornerReliefFeatData = featMgr.**CreateDefinition**(swFmCornerRelief)
 
 boolstatus = swModel.Extension.SelectByID2("Sketched Bend4", "SOLIDBODY", 0, 0, 0, False, 0, Nothing, 0)
 
@@ -319,13 +315,13 @@ Set selMgr = swModel.SelectionManager
 
 Set swBody = selMgr.GetSelectedObject6(1, -1)
 
-cornerReliefFeatData. Initialize swCornerReliefBendType_TwoBend
+cornerReliefFeatData.**Initialize** swCornerReliefBendType_TwoBend
 
-cornerReliefFeatData. SetBodyScope swBody
+cornerReliefFeatData.**SetBodyScope** swBody
 
 'Create corners (tear reliefs are the default reliefs for Sketched Bends)
 
-longstatus = cornerReliefFeatData. CollectAllCorners (swCornerTearRelief, getCornerVar)
+longstatus = cornerReliefFeatData.**CollectAllCorners**(swCornerTearRelief, getCornerVar)
 
 Debug.Print ""
 
@@ -335,25 +331,25 @@ For cntr1 = 0 To UBound(getCornerVar)
 
 Set cornerItr = getCornerVar(cntr1)
 
-cornerItr. AddFilletedCorners = True
+cornerItr.**AddFilletedCorners** = True
 
-cornerItr. CornerFilletDiameter = 0.00025
+cornerItr.**CornerFilletDiameter** = 0.00025
 
-cornerItr. CenterOnBendLines = True
+cornerItr.**CenterOnBendLines** = True
 
-cornerItr. TangentToBend = True
+cornerItr.**TangentToBend** = True
 
-cornerItr. ReliefType = swCornerRectangularRelief
+cornerItr.**ReliefType** = swCornerRectangularRelief
 
 UseRatio = True
 
 If Not UseRatio Then
 
-cornerItr. SlotLength = 0.009
+cornerItr.**SlotLength** = 0.009
 
 Else
 
-cornerItr. RatioToThickness = True
+cornerItr.**RatioToThickness** = True
 
 End If
 
@@ -363,15 +359,15 @@ Debug.Print ""
 
 Next
 
-Set Feat = featMgr. CreateFeature (cornerReliefFeatData)
+Set Feat = featMgr.**CreateFeature**(cornerReliefFeatData)
 
 Stop
 
-Set featModData = Feat. GetDefinition ()
+Set featModData = Feat.**GetDefinition**()
 
-featModData. AccessSelections swModel, Nothing
+featModData.**AccessSelections** swModel, Nothing
 
-getCornerVar = featModData. GetCorners (-1)
+getCornerVar = featModData.**GetCorners**(-1)
 
 Debug.Print ""
 
@@ -381,17 +377,17 @@ For cntr1 = 0 To UBound(getCornerVar)
 
 Set cornerItr = getCornerVar(cntr1)
 
-cornerItr. ReliefType = swCornerCircularRelief
+cornerItr.**ReliefType** = swCornerCircularRelief
 
 UseRatio = False
 
 If Not UseRatio Then
 
-cornerItr. SlotWidth = 0.0008
+cornerItr.**SlotWidth** = 0.0008
 
 Else
 
-cornerItr. RatioToThickness = True
+cornerItr.**RatioToThickness** = True
 
 End If
 
@@ -401,15 +397,15 @@ Debug.Print ""
 
 Next
 
-Feat. ModifyDefinition featModData, swModel, Nothing
+Feat.**ModifyDefinition** featModData, swModel, Nothing
 
 Stop
 
-Set cornerReliefMod3Data = Feat. GetDefinition ()
+Set cornerReliefMod3Data = Feat.**GetDefinition**()
 
-cornerReliefMod3Data. AccessSelections swModel, Nothing
+cornerReliefMod3Data.**AccessSelections** swModel, Nothing
 
-getCornerVar = cornerReliefMod3Data. GetCorners (-1)
+getCornerVar = cornerReliefMod3Data.**GetCorners**(-1)
 
 Debug.Print ""
 
@@ -419,7 +415,7 @@ For cntr1 = 0 To UBound(getCornerVar)
 
 Set cornerItr = getCornerVar(cntr1)
 
-cornerItr. ReliefType = swCornerConstantWidthRelief
+cornerItr.**ReliefType** = swCornerConstantWidthRelief
 
 PrintReliefData cntr1 + 1, cornerReliefMod3Data
 
@@ -434,16 +430,11 @@ End Sub
 ## Examples
 
 [Create Sheet Metal Corner Relief Feature (VB.NET)](Create_SM_Corner_Relief_Feature_Example_VBNET.htm)
-
 [Create Sheet Metal Corner Relief Feature (C#)](Create_SM_Corner_Relief_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-For more information see the
-
-SOLIDWORKS user-interface help > Sheet Metal > Using Sheet Metal Tools > Corner Reliefs and Bend Transitions
-
-topics.
+For more information see the **SOLIDWORKS Design user-interface help > Sheet Metal > Using Sheet Metal Tools > Corner Reliefs and Bend Transitions** topics.
 
 ## Accessors
 
@@ -458,5 +449,4 @@ topics.
 ## See Also
 
 [ICornerReliefFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

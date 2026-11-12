@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumModelViews Interface
 
-Allows access to a
+Allows access to a [model views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView.html) enumeration.
 
-[model views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView.html)
-
-enumeration.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IEnumModelViews
 
 ## VBA Syntax
 
-See
-
-[EnumModelViews](ms-its:sldworksapivb6.chm::/sldworks~EnumModelViews.html)
-
-.
+See [EnumModelViews](ms-its:sldworksapivb6.chm::/sldworks~EnumModelViews.html).
 
 ## Remarks
 
@@ -68,5 +60,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumModelViews Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumModelViews_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,113 +9,28 @@ source: "swconst/DP_Tables-Hole.htm"
 
 # Document Properties > Tables > Hole
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-**NOTE:**Setting any of the following
-hole table values means that new holes tables added to the drawing use
-these default values. However, a hole table that uses a template table
-for insertion might not use these default values because the template
-table contains certain properties that take precedence over these default
-values. These properties include the tag style, precision values, combine
-tag, combine same size, and hole centers visible values.
-
-(Table)=========================================================
+**NOTE:** Setting any of the following hole table values means that new holes tables added to the drawing use these default values. However, a hole table that uses a template table for insertion might not use these default values because the template table contains certain properties that take precedence over these default values. These properties include the tag style, precision values, combine tag, combine same size, and hole centers visible values.
 
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Border - Box Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHoleTableBorderLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHoleTableBorderLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Border - Grid Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHoleTableGridLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHoleTableGridLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingHoleTableTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingHoleTableTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Location precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableHoleLocationPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableHoleLocationPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies the number of digits of precision to display in the X and
-Y hole location columns in the hole table; specify a value from 0 through
-8 When setting this value, existing hole tables in the drawing are updated
-to use this precision |
-| Alpha/numerical control | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableTagStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableTagStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swHoleTableTagStyle_e.< Value >) | See swHoleTableTagStyle_e for valid options | Specifies whether or not the hole tags are alphanumeric or numeric |
-| Scheme - Combine same tags | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableCombineTags,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableCombineTags,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then holes of the same size are assigned the same tag, and
-the hole table contains a Quantity column, which indicates multiple holes
-of the same size exist |
-| Scheme -Combine same size | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableCombineSameSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableCombineSameSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then holes are the same size, and their cells in the Size column
-are merged and appear as a single cell |
-| Scheme - Show ANSI inch letter and
-number drill sizes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableShowAnsiInchSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableShowAnsiInchSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then display ANSI inch hole
-sizes in hole tables using letters or numbers |
-| Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero,
-swUserPreferenceOption_e.swDetailingHoleTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero,
-swUserPreferenceOption_e.swDetailingHoleTable, swDetailingLeadingZero_e.< Value >) | See swDetailingLeadingZero_e for valid options |  |
-| Trailing zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero,
-swUserPreferenceOption_e.swDetailingHoleTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero,
-swUserPreferenceOption_e.swDetailingHoleTable, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsSource |  |
-| Show hole centers | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableHoleCentersVisible,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableHoleCentersVisible,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then the hole centers are indicated by points |
-| Automatic update of hole table | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableAutomaticUpdate,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableAutomaticUpdate,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then the hole table is automatically updated when the model
-changes; when you set this value, existing holes tables in the drawing
-are updated |
-| Reuse deleted tags | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableReuseDeleted,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableReuseDeleted,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then deleted tags can be
-reused |
-| Add new row at the end of the table | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableAddNewAtEnd,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableAddNewAtEnd,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then new rows are added to
-the end of the table |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingHoleTable) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingHoleTable, < Value >) | Valid options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" "None" | This setting is available only on drawings; depending on drawing, some
-options may not apply |
-| Origin indicator | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableOriginStandard,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableOriginStandard,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the detailing standard to use for displaying the hole table's
-origin symbol If you specify -1 or 0, then the origin symbol is displayed according
-to the default document detailing standard; otherwise, the value is from
-swDetailingStandard_e and the hole table's origin is displayed according
-to that standard When setting this value, any existing hole tables in the drawing are
-updated to use this dimensioning standard To determine the default document detailing standard, get the value
-of the document's integer user preference swDetailingDimensionStardard |
-| Tag angle/offset from profile center - Angle | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swHoleTableTagAngle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swHoleTableTagAngle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | The origin of the hole tag text is at this angle, in radians, clockwise
-from the Y axis at the distance specified by swHoleTableTagOffset (see
-the next enumeration); the angle must be between -360 ° and
-360 ° |
-| Tag angle/offset from profile center - Offset | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swHoleTableTagOffset,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swHoleTableTagOffset,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | The origin of the hole tag text is this distance from the hole at the
-angle specified by swHoleTableTagAngle (see previous enumeration); the
-offset must be > 0 |
-| Dual dimensions - Dual dimensions
-display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swTableHoleDualDimensionDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swTableHoleDualDimensionDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display dual
-dimensions |
-| Dual dimensions - Show units for
-dual display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swTableHoleShowUnitsForDualDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swTableHoleShowUnitsForDualDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display units
-for dual dimensions |
-| Dual dimensions - Position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swTableHoleDualDimensionPos,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swTableHoleDualDimensionPos,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See swDetailingDualDimPosition_e for valid options | Specifies the position of hole table dual
-dimensions |
+| Border - Box Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHoleTableBorderLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHoleTableBorderLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Border - Grid Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHoleTableGridLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingHoleTableGridLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingHoleTableTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingHoleTableTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Location precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableHoleLocationPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableHoleLocationPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies the number of digits of precision to display in the X and Y hole location columns in the hole table; specify a value from 0 through 8 When setting this value, existing hole tables in the drawing are updated to use this precision |
+| Alpha/numerical control | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableTagStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableTagStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swHoleTableTagStyle_e.< Value >) | See swHoleTableTagStyle_e for valid options | Specifies whether or not the hole tags are alphanumeric or numeric |
+| Scheme - Combine same tags | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableCombineTags, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableCombineTags, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then holes of the same size are assigned the same tag, and the hole table contains a Quantity column, which indicates multiple holes of the same size exist |
+| Scheme -Combine same size | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableCombineSameSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableCombineSameSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then holes are the same size, and their cells in the Size column are merged and appear as a single cell |
+| Scheme - Show ANSI inch letter and number drill sizes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableShowAnsiInchSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableShowAnsiInchSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then display ANSI inch hole sizes in hole tables using letters or numbers |
+| Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero, swUserPreferenceOption_e.swDetailingHoleTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero, swUserPreferenceOption_e.swDetailingHoleTable, swDetailingLeadingZero_e.< Value >) | See swDetailingLeadingZero_e for valid options |  |
+| Trailing zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero, swUserPreferenceOption_e.swDetailingHoleTable) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero, swUserPreferenceOption_e.swDetailingHoleTable, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsSource |  |
+| Show hole centers | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableHoleCentersVisible, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableHoleCentersVisible, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then the hole centers are indicated by points |
+| Automatic update of hole table | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableAutomaticUpdate, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableAutomaticUpdate, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then the hole table is automatically updated when the model changes; when you set this value, existing holes tables in the drawing are updated |
+| Reuse deleted tags | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableReuseDeleted, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableReuseDeleted, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then deleted tags can be reused |
+| Add new row at the end of the table | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableAddNewAtEnd, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swHoleTableAddNewAtEnd, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If true, then new rows are added to the end of the table |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingHoleTable) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingHoleTable, < Value >) | Valid options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" "None" | This setting is available only on drawings; depending on drawing, some options may not apply |
+| Origin indicator | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableOriginStandard, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swHoleTableOriginStandard, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the detailing standard to use for displaying the hole table's origin symbol If you specify -1 or 0, then the origin symbol is displayed according to the default document detailing standard; otherwise, the value is from swDetailingStandard_e and the hole table's origin is displayed according to that standard When setting this value, any existing hole tables in the drawing are updated to use this dimensioning standard To determine the default document detailing standard, get the value of the document's integer user preference swDetailingDimensionStardard |
+| Tag angle/offset from profile center - Angle | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swHoleTableTagAngle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swHoleTableTagAngle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | The origin of the hole tag text is at this angle, in radians, clockwise from the Y axis at the distance specified by swHoleTableTagOffset (see the next enumeration); the angle must be between -360 ° and 360 ° |
+| Tag angle/offset from profile center - Offset | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swHoleTableTagOffset, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swHoleTableTagOffset, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | The origin of the hole tag text is this distance from the hole at the angle specified by swHoleTableTagAngle (see previous enumeration); the offset must be > 0 |
+| Dual dimensions - Dual dimensions display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swTableHoleDualDimensionDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swTableHoleDualDimensionDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display dual dimensions |
+| Dual dimensions - Show units for dual display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swTableHoleShowUnitsForDualDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swTableHoleShowUnitsForDualDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display units for dual dimensions |
+| Dual dimensions - Position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swTableHoleDualDimensionPos, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swTableHoleDualDimensionPos, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See swDetailingDualDimPosition_e for valid options | Specifies the position of hole table dual dimensions |

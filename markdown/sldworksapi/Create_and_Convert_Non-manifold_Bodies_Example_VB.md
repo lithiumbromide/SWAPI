@@ -11,9 +11,7 @@ source: "sldworksapi/Create_and_Convert_Non-manifold_Bodies_Example_VB.htm"
 
 ## Create and Convert Non-manifold Bodies Example (VBA)
 
-This example shows how to create non-manifold bodies, which by default
-are not allowed in SOLIDWORKS, and then convert the non-manifold bodies
-to manifold bodies.
+This example shows how to create non-manifold bodies, which by default are not allowed in SOLIDWORKS Design, and then convert the non-manifold bodies to manifold bodies.
 
 ```
 '-----------------------------------------------------

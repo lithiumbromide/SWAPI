@@ -51,13 +51,7 @@ System.Object^ CreatePlanarSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ New planar surface
 
 ## VBA Syntax
 
-See
-
-[Body2::CreatePlanarSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~CreatePlanarSurface.html)
-
-.
+See [Body2::CreatePlanarSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~CreatePlanarSurface.html).
 
 ## Examples
 
@@ -85,18 +75,16 @@ See
 You can use this method with:
 
 - A set of related functions that construct a body from trimmed surfaces.
-- Trimming curve creation routines (for example,[ISurface::AddTrimmingLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~AddTrimmingLoop2.html)) to construct a trimmed surface.
+- Trimming curve creation routines (for example, [ISurface::AddTrimmingLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~AddTrimmingLoop2.html)) to construct a trimmed surface.
 
-To create a planar trimmed surface directly from the vertex points, see[IBody2::CreatePlanarTrimSurfaceDLL](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreatePlanarTrimSurfaceDLL.html).
+To create a planar trimmed surface directly from the vertex points, see [IBody2::CreatePlanarTrimSurfaceDLL](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreatePlanarTrimSurfaceDLL.html).
 
 Any existing object created by this method is destroyed if you call this method again.
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::ICreatePlanarSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~ICreatePlanarSurface.html)
 
 ## Availability

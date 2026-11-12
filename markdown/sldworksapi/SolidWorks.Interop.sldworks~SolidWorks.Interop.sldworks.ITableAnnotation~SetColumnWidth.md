@@ -55,35 +55,25 @@ System.double SetColumnWidth(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: Index of column for which to set the width
 - `Width`: Width at which to set specified column, in system units
-- `Options`: Table's behavior after changing column width as defined by[swTableRowColSizeChangeBehavior_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableRowColSizeChangeBehavior_e.html)(see**Remarks**)
+- `Options`: Table's behavior after changing column width as defined by [swTableRowColSizeChangeBehavior_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableRowColSizeChangeBehavior_e.html) (see **Remarks**)
 
 ### Return Value
 
-Width at which specified column is set (see**Remarks**)
+Width at which specified column is set (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::SetColumnWidth](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetColumnWidth.html)
-
-.
+See [TableAnnotation::SetColumnWidth](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetColumnWidth.html).
 
 ## Remarks
 
-Index is the column number for which to set the width. Thus, the first column is column 0. It can also be a value from the[swTableCellRangeIdentifier_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableCellRangeIdentifier_e.html)enumerator.
+Index is the column number for which to set the width. Thus, the first column is column 0. It can also be a value from the [swTableCellRangeIdentifier_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableCellRangeIdentifier_e.html) enumerator.
 
 | If Index equals... | Then the width of all of the columns... |
 | --- | --- |
@@ -91,8 +81,6 @@ Index is the column number for which to set the width. Thus, the first column is
 | swTableCellRange_Current | In the current range (see ITableAnnotation::GetCellRange and ITableAnnotation::SetCellRange ) is set, if possible. |
 
 When the width of a column changes, the rest of the table is affected. The Options argument indicates how the rest of the table should behave.
-
-(Table)=========================================================
 
 | If... | Then... |
 | --- | --- |
@@ -102,42 +90,28 @@ When the width of a column changes, the rest of the table is affected. The Optio
 
 The return value is the width that the column is set to. If you specified a range of columns, it is the width of the first column of that range.
 
-It is possible that the return value is different than the width value that you passed in.kadov_tag{{</spaces>}}One possibility is that if you specify a column width that is less than the minimum column width, the minimum column width is used, instead of what you specified. Another possibility is that if you are trying to maintain a fixed table width, but the width of the adjacent columns is not big enough to absorb the width changes to the columns that you specified, then the return value is the same as the column's original width instead of what you specified.
+It is possible that the return value is different than the width value that you passed in. One possibility is that if you specify a column width that is less than the minimum column width, the minimum column width is used, instead of what you specified. Another possibility is that if you are trying to maintain a fixed table width, but the width of the adjacent columns is not big enough to absorb the width changes to the columns that you specified, then the return value is the same as the column's original width instead of what you specified.
 
-To get the column width, use[ITableAnnotation::GetColumnWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetColumnWidth.html).
+To get the column width, use [ITableAnnotation::GetColumnWidth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetColumnWidth.html).
 
-To get or set the row height, use[ITableAnnotation::GetRowHeight](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetRowHeight.html)and[ITableAnnotation::SetRowHeight](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~SetRowHeight.html).
+To get or set the row height, use [ITableAnnotation::GetRowHeight](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetRowHeight.html) and [ITableAnnotation::SetRowHeight](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~SetRowHeight.html).
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::DeleteColumn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~DeleteColumn.html)
-
 [ITableAnnotation::GetColumnTitle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetColumnTitle.html)
-
 [ITableAnnotation::GetColumnType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetColumnType.html)
-
 [ITableAnnotation::GetColumnWidth Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetColumnWidth.html)
-
 [ITableAnnotation::InsertColumn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~InsertColumn.html)
-
 [ITableAnnotation::MoveColumn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~MoveColumn.html)
-
 [ITableAnnotation::SetColumnTitle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetColumnTitle.html)
-
 [ITableAnnotation::SetColumnType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetColumnType.html)
-
 [ITableAnnotation::ColumnCount Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~ColumnCount.html)
-
 [ITableAnnotation::ColumnHidden Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~ColumnHidden.html)
-
 [ITableAnnotation::TotalColumnCount Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~TotalColumnCount.html)
-
 [ITableAnnotation::GetLockColumnWidth Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetLockColumnWidth.html)
-
 [ITableAnnotation::SetLockColumnWidth Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetLockColumnWidth.html)
 
 ## Availability

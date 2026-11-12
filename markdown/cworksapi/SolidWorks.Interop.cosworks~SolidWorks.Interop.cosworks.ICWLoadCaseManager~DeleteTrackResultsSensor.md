@@ -57,32 +57,19 @@ True if deletion is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[CWLoadCaseManager::DeleteTrackResultsSensor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~DeleteTrackResultsSensor.html)
-
-.
+See [CWLoadCaseManager::DeleteTrackResultsSensor](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~DeleteTrackResultsSensor.html).
 
 ## Remarks
 
-Call
-
-[ICWLoadCaseManager::GetAllTrackResultsSensorNames](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~GetAllTrackResultsSensorNames.html)
-
-to set SSensorName.
+Call [ICWLoadCaseManager::GetAllTrackResultsSensorNames](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~GetAllTrackResultsSensorNames.html) to set SSensorName.
 
 ## See Also
 
 [ICWLoadCaseManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
 [ICWLoadCaseManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager_members.html)
-
 [ICWLoadCaseManager::AddTrackResultsSensor Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~AddTrackResultsSensor.html)
-
 [ICWLoadCaseManager::GetAllTrackResultsSensorNames Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~GetAllTrackResultsSensorNames.html)
-
 [ICWLoadCaseManager::GetSensorResultValueForLoadCaseCombination Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~GetSensorResultValueForLoadCaseCombination.html)
-
 [ICWLoadCaseManager::GetSensorResultValueForPrimaryLoadCase Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~GetSensorResultValueForPrimaryLoadCase.html)
 
 ## Availability

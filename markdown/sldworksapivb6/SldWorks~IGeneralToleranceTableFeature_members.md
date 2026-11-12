@@ -1,6 +1,5 @@
 ---
-title: "IGeneralToleranceTableFeature Object
-Members"
+title: "IGeneralToleranceTableFeature Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IGeneralToleranceTableFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IGeneralToleranceTableFeature_members.html"
 ---
 
-# IGeneralToleranceTableFeature Object
-Members
+# IGeneralToleranceTableFeature Object Members
 
 ## Public Methods
 

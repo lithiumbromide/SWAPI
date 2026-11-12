@@ -47,19 +47,11 @@ System.double GetZoneMargin(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ZoneMargin`: Margin type to retrieve as defined in
-
-[swZoneMargin_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZoneMargin_e.html)
+- `ZoneMargin`: Margin type to retrieve as defined in [swZoneMargin_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZoneMargin_e.html)
 
 ### Return Value
 
@@ -67,16 +59,11 @@ Zone margin
 
 ## VBA Syntax
 
-See
-
-[Sheet::GetZoneMargin](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~GetZoneMargin.html)
-
-.
+See [Sheet::GetZoneMargin](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~GetZoneMargin.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
 
 ## Availability

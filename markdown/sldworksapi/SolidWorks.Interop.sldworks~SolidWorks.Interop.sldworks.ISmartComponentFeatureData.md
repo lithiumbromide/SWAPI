@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISm
 
 Allows access to a Smart Component.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class ISmartComponentFeatureData
 
 ## VBA Syntax
 
-See
-
-[SmartComponentFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SmartComponentFeatureData.html)
-
-.
+See [SmartComponentFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SmartComponentFeatureData.html).
 
 ## Examples
 
 [Delete Smart Feature (VBA)](Delete_Smart_Feature_Example_VB.htm)
-
 [Delete Smart Feature (VB.NET)](Delete_Smart_Feature_Example_VBNET.htm)
-
 [Delete Smart Feature (C#)](Delete_Smart_Feature_Example_CSharp.htm)
 
 ## Remarks
@@ -77,7 +71,7 @@ See the SOLIDWORKS Help for more information about Smart Components.
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)and[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html) and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 ## Access Diagram
 
@@ -86,7 +80,5 @@ See the SOLIDWORKS Help for more information about Smart Components.
 ## See Also
 
 [ISmartComponentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISmartComponentFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IComponent2::IsSmartComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsSmartComponent.html)

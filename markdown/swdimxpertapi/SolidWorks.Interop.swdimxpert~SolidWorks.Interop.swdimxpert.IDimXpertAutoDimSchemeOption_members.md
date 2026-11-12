@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertAutoDimSchemeOption Interface Members
 
-The following tables list the members exposed by[IDimXpertAutoDimSchemeOption](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption.html).
+The following tables list the members exposed by [IDimXpertAutoDimSchemeOption](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption.html).
 
 ## Public Properties
 
@@ -27,5 +27,4 @@ The following tables list the members exposed by[IDimXpertAutoDimSchemeOption](S
 ## See Also
 
 [IDimXpertAutoDimSchemeOption Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

@@ -45,40 +45,25 @@ property System.int ThicknessType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of thickness as defined in
-
-[swGussetThicknessType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swGussetThicknessType_e.html)
+Type of thickness as defined in [swGussetThicknessType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swGussetThicknessType_e.html)
 
 ## VBA Syntax
 
-See
-
-[GussetFeatureData::ThicknessType](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ThicknessType.html)
-
-.
+See [GussetFeatureData::ThicknessType](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ThicknessType.html).
 
 ## Examples
 
 [Get Gusset Feature Data (C#)](Get_Gusset_Feature_Data_Example_CSharp.htm)
-
 [Get Gusset Feature Data (VB.NET)](Get_Gusset_Feature_Data_Example_VBNET.htm)
-
 [Get Gusset Feature Data (VBA)](Get_Gusset_Feature_Data_Example_VB.htm)
 
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [IGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData_members.html)
 
 ## Availability

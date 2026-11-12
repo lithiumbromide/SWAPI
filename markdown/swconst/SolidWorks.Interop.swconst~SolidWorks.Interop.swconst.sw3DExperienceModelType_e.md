@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExper
 
 # sw3DExperienceModelType_e Enumeration
 
-Types of
-
-3D
-
-EXPERIENCE component icons.
+Types of **3D**EXPERIENCE component icons.
 
 ## Syntax
 

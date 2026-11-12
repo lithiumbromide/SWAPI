@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/groups/{groupId} |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Group Resource Group : api/{vaultName}/groups/{groupId} (Get) |
 | --- |
@@ -61,8 +57,4 @@ Response (application/xml, text/xml)
 
 See Also
 
-[Group Resource Group](PDM%20Pro%20API_ws~g-fde20343-b447-4135-869e-7dcdbdb2481b.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Group Resource Group](PDM%20Pro%20API_ws~g-fde20343-b447-4135-869e-7dcdbdb2481b.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

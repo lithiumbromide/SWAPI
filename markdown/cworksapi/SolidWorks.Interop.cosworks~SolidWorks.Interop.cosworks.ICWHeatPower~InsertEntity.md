@@ -52,18 +52,12 @@ void InsertEntity(
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~InsertEntity.html)
-
-.
+See [CWHeatPower::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~InsertEntity.html).
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~RemoveEntity.html)
 
 ## Availability

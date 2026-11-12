@@ -1,0 +1,52 @@
+<<< ISwHtmlInterface | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.md
+X: To access this API, include the following line of code in your application. See Quick Tips and Bubble ToolTips for more information.
+CreateObject('SwHtmlControl.SwHtmlInterface')
+<<< ISwHtmlInterface.GetCommandID | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~GetCommandID.md
+P: ClsID: Add-in's class ID
+P: UserCmdID: Unique ID that the add-in application identified as a CommandManager-style toolbar button
+R: Currently bound ID for the CommandManager-style toolbar button
+<<< ISwHtmlInterface.GetCurrentTODIndex | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~GetCurrentTODIndex.md
+R: Index of the current Tip of the Day
+<<< ISwHtmlInterface.GetInterfaceBrightnessTheme | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~GetInterfaceBrightnessTheme.md
+R: SOLIDWORKS background theme as defined in swInterfaceBrightnessTheme_e
+<<< ISwHtmlInterface.GetPrevTipOfTheDay | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~GetPrevTipOfTheDay.md
+R: Previous Tip of the Day string
+<<< ISwHtmlInterface.IsX64 | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~IsX64.md
+R: TRUE if you are running SOLIDWORKS x64, FALSE if not
+X: | If running... | Then this method returns... |
+| SOLIDWORKS on 32-bit machine | FALSE |
+| SOLIDWORKS on a 64-bit machine | FALSE |
+| SOLIDWORKS x64 on a 64-bit machine | TRUE |
+<<< ISwHtmlInterface.ShowBubbleTooltip | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~ShowBubbleTooltip.md
+P: pointAt: Toolbar button ID to which to point
+P: flashButtonIDs: Array of toolbar buttons
+P: titleResID: Title resource ID of Bubble Tooltip or 0
+P: titleString: Title of Bubble ToolTip
+P: messageString: Message string of Bubble ToolTip
+<<< ISwHtmlInterface.ShowBubbleTooltipAt | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~ShowBubbleTooltipAt.md
+P: pointX: x coordinate in pixels relative to upper-left corner of screen
+P: pointY: y coordinate in pixels relative to upper-left corner of screen
+P: arrowPos: Arrow position as defined in swArrowPosition_e
+P: titleString: Title of Bubble ToolTip
+P: messageString: Message string of Bubble ToolTip
+P: urlLoc: Any valid Windows Internet Explorer file
+X: Remarks
+| If you specified a... | Then the ToolTip's bubble... |
+| gif,.jpg, or.jpeg image for urlLoc | Is automatically expanded to accommodate the image |
+| URL for urlLoc | Cannot be resized and shows only the URL |
+<<< ISwHtmlInterface.ShowBubbleTooltipForAddinToolbar | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~ShowBubbleTooltipForAddinToolbar.md
+P: addInCLSID: Add-in's class ID
+P: pointAt_UserID: Toolbar button ID to which to point
+P: flashButton_UserIDs: Array of toolbar buttons
+P: titleResID: Title resource ID of Bubble Tooltip or 0
+P: titleString: Title of Bubble ToolTip
+P: messageString: Message string of Bubble ToolTip
+<<< ISwHtmlInterface.ShowHomeIconMarker | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~ShowHomeIconMarker.md
+R: 0 if successful, 1 if not
+<<< ISwHtmlInterface.ShowTooltip | swhtmlcontrolapi/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~ShowTooltip.md
+P: ToolbarName: Name of toolbar
+P: buttonIndex: 0-based index indicating a toolbar button
+P: mask1: 0-31 bitmask indicating the toolbar buttons to flash
+P: mask2: 32-63 bitmask indicating the toolbar buttons to flash
+P: titleString: Title of Bubble ToolTip
+P: messageString: Message of Bubble ToolTip

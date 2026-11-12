@@ -58,68 +58,58 @@ System.Object^ Get3rdPartyStorageStore(
 
 ### Return Value
 
-Pointer to Unknown (see
-
-Remarks
-
-)
+Pointer to Unknown (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument19::Get3rdPartyStorageStore](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument19~Get3rdPartyStorageStore.html)
-
-.
+See [SwDMDocument19::Get3rdPartyStorageStore](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument19~Get3rdPartyStorageStore.html).
 
 ## Examples
 
 [Read and Write to Third-party Storage (VB.NET)](Get_and_Set_3rd_Party_Storage_Example_VBNET.htm)
-
 [Read and Write to Third-party Storage (C#)](Get_and_Set_3rd_Party_Storage_Example_CSharp.htm)
 
 ## Remarks
 
-After calling this method, you must call[ISwDMDocument19::Release3rdPartyStorageStore](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19~Release3rdPartyStorageStore.html). Otherwise, the third-party node might remain locked and prevent future access.
+After calling this method, you must call [ISwDMDocument19::Release3rdPartyStorageStore](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19~Release3rdPartyStorageStore.html). Otherwise, the third-party node might remain locked and prevent future access.
 
-NOTE:The name given to the storage should be registered so that no conflicts occur. Once registered, the storage name is reserved exclusively for your application.
+NOTE: The name given to the storage should be registered so that no conflicts occur. Once registered, the storage name is reserved exclusively for your application.
 
-Passing the unique ID string and a flag to determine if data is being stored or loaded returns an IUnknown pointer. You must then use QueryInterface() to get the**Microsoft.VisualStudio.OLE.Interop.IStorage**interface. The storage object is used for serialization and then released in the third-party code.
+Passing the unique ID string and a flag to determine if data is being stored or loaded returns an IUnknown pointer. You must then use QueryInterface() to get the **Microsoft.VisualStudio.OLE.Interop.IStorage** interface. The storage object is used for serialization and then released in the third-party code.
 
 The IStorage object used by the third party is written under an IStorage object called ThirdPtyStore in the SOLIDWORKS compound document. Each third party writes to a single IStorage whose name is assigned by SOLIDWORKS.
 
-SwRootStorage --|kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+SwRootStorage --|
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}|-- ThirdPtyStore --|kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+|-- ThirdPtyStore --|
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}|-- <SW Assigned IStorage name 1> --|
+|-- <SW Assigned IStorage name 1> --|
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}|-- <Application 1 IStream name 1>
+|-- <Application 1 IStream name 1>
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}|-- <Application 1 IStream name 2>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+|-- <Application 1 IStream name 2>
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}|-- <SW Assigned IStorage name 2> --|
+|-- <SW Assigned IStorage name 2> --|
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}|-- <Application 2 IStream name 1>
+|-- <Application 2 IStream name 1>
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}|-- <Application 2 IStream name 2>
+|-- <Application 2 IStream name 2>
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}|-- <Application 2 IStorage name 2> --|
+|-- <Application 2 IStorage name 2> --|
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}|-- <Application 2 IStream name 3>
+|-- <Application 2 IStream name 3>
 
-NOTE:If you are using serialization, then be careful with the standard MFC macros. Otherwise, you may get a message likeUnexpected File Formatafter your application is unloaded. One way of using IMPLEMENT_SERIAL:
+NOTE: If you are using serialization, then be careful with the standard MFC macros. Otherwise, you may get a message like Unexpected File Format after your application is unloaded. One way of using IMPLEMENT_SERIAL:
 
+```vb
 IMPLEMENT_SERIAL( CCustomAttr, CObject, VERSIONABLE_SCHEMA|0 )
+```
 
 ## See Also
 
 [ISwDMDocument19 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19.html)
-
 [ISwDMDocument19 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19_members.html)
-
 [ISwDMDocument19::Get3rdPartyStorage Method ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument19~Get3rdPartyStorage.html)
-
 [ISwDMDocument20::Delete3rdPartyStorageStore Method ()](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument20~Delete3rdPartyStorageStore.html)
 
 ## Availability

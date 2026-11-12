@@ -65,16 +65,10 @@ System.bool AddCriteria(
 
 ### Parameters
 
-- `andOr`: Logical operator for subsequent criteria as defined in
-
-[PDMWAndOr](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWAndOr.html)
-- `propertyType`: Property type as defined in
-
-[PDMWPropertyType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWPropertyType.html)
+- `andOr`: Logical operator for subsequent criteria as defined in [PDMWAndOr](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWAndOr.html)
+- `propertyType`: Property type as defined in [PDMWPropertyType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWPropertyType.html)
 - `propertyName`: Name of property to use with which to search
-- `condition`: Search condition as defined in
-
-[PDMWConditionType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWConditionType.html)
+- `condition`: Search condition as defined in [PDMWConditionType](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.PDMWConditionType.html)
 - `Value`: Value of the property for which to search
 
 ### Return Value
@@ -83,11 +77,7 @@ True if this search criteria is added, false if not
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchCriteria::AddCriteria](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~AddCriteria.html)
-
-.
+See [PDMWSearchCriteria::AddCriteria](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchCriteria~AddCriteria.html).
 
 ## Examples
 
@@ -96,13 +86,9 @@ See
 ## See Also
 
 [IPDMWSearchCriteria Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria.html)
-
 [IPDMWSearchCriteria Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria_members.html)
-
 [IPDMWSearchCriteria::GetCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~GetCriteria.html)
-
 [IPDMWSearchCriteria::RemoveCriteria Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~RemoveCriteria.html)
-
 [IPDMWSearchCriteria::LoadFromFile Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchCriteria~LoadFromFile.html)
 
 ## Availability

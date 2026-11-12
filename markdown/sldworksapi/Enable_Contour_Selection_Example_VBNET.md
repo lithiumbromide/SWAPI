@@ -9,8 +9,7 @@ source: "sldworksapi/Enable_Contour_Selection_Example_VBNET.htm"
 
 # Enable Contour Selection Example (VB.NET)
 
-This example shows how to select the contour of a sketch region and extrude
-the selected region.
+This example shows how to select the contour of a sketch region and extrude the selected region.
 
 ```vb
  '----------------------------------------------------------------------------

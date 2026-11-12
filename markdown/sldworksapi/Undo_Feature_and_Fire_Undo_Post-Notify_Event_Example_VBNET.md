@@ -34,71 +34,71 @@ Imports System.Collections
 
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public WithEvents swPart As PartDoc
+    Public WithEvents swPart As PartDoc
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub Main()
+    Public Sub Main()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModelDocExt As ModelDocExtension
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSketchManager As SketchManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swSketchSegment As SketchSegment
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swFeatureManager As FeatureManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swFeature As Feature
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim boolstatus As Boolean
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim openPart As Hashtable
+        Dim swModel As ModelDoc2
+        Dim swModelDocExt As ModelDocExtension
+        Dim swSketchManager As SketchManager
+        Dim swSketchSegment As SketchSegment
+        Dim swFeatureManager As FeatureManager
+        Dim swFeature As Feature
+        Dim boolstatus As Boolean
+        Dim openPart As Hashtable
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
+        swModel = swApp.ActiveDoc
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Set up event notification
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swPart = swModel
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}openPart = New Hashtable
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AttachEventHandlers()
+        ' Set up event notification
+        swPart = swModel
+        openPart = New Hashtable
+        AttachEventHandlers()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Create a cut-extrude feature on the
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' top face of the candlestick
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModelDocExt = swModel.Extension
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swModelDocExt.SelectByID2("", "FACE", 0.00140404215739, 0.2199999999999, 0.001897848026772, False, 0, Nothing, 0)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSketchManager = swModel.SketchManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swSketchSegment = swSketchManager.CreateCircle(0.0#, 0.0#, 0.0#, 0.01296, -0.006347, 0.0#)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.ClearSelection2(True)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swModelDocExt.SelectByID2("Arc1", "SKETCHSEGMENT", 0, 0, 0, False, 0, Nothing, 0)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swFeatureManager = swModel.FeatureManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swFeature = swFeatureManager.FeatureCut(True, False, False, 0, 0, 0.01, 0.01, False, False, False, False, 0.01745329251994, 0.01745329251994, False, False, False, False, False, True, True)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.ClearSelection2(True)
+        ' Create a cut-extrude feature on the
+        ' top face of the candlestick
+        swModelDocExt = swModel.Extension
+        boolstatus = swModelDocExt.SelectByID2("", "FACE", 0.00140404215739, 0.2199999999999, 0.001897848026772, False, 0, Nothing, 0)
+        swSketchManager = swModel.SketchManager
+        swSketchSegment = swSketchManager.CreateCircle(0.0#, 0.0#, 0.0#, 0.01296, -0.006347, 0.0#)
+        swModel.ClearSelection2(True)
+        boolstatus = swModelDocExt.SelectByID2("Arc1", "SKETCHSEGMENT", 0, 0, 0, False, 0, Nothing, 0)
+        swFeatureManager = swModel.FeatureManager
+        swFeature = swFeatureManager.FeatureCut(True, False, False, 0, 0, 0.01, 0.01, False, False, False, False, 0.01745329251994, 0.01745329251994, False, False, False, False, False, True, True)
+        swModel.ClearSelection2(True)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Undo the cut-extrude feature
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.EditUndo2(1)
+        ' Undo the cut-extrude feature
+        swModel.EditUndo2(1)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Fire undo notification
+        ' Fire undo notification
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Select the circle and delete it
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swModelDocExt.SelectByID2("Arc1", "SKETCHSEGMENT", 0, 0, 0, False, 0, Nothing, 0)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swModelDocExt.DeleteSelection2(swDeleteSelectionOptions_e.swDelete_Absorbed)
+        ' Select the circle and delete it
+        boolstatus = swModelDocExt.SelectByID2("Arc1", "SKETCHSEGMENT", 0, 0, 0, False, 0, Nothing, 0)
+        boolstatus = swModelDocExt.DeleteSelection2(swDeleteSelectionOptions_e.swDelete_Absorbed)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel.ForceRebuild3(True)
+        swModel.ForceRebuild3(True)
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub AttachEventHandlers()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AttachSWEvents()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Sub AttachEventHandlers()
+        AttachSWEvents()
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Sub AttachSWEvents()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}AddHandler swPart.UndoPostNotify, AddressOf Me.swPart_UndoPostNotify
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    Sub AttachSWEvents()
+        AddHandler swPart.UndoPostNotify, AddressOf Me.swPart_UndoPostNotify
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Function swPart_UndoPostNotify() As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Show message after undo action occurs
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' NOTE: Because the message box might be displayed
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' behind an open window, you might not see it.
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' If so, then check the Taskbar.
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MsgBox("An undo post-notification event has been fired.")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Function
+    Function swPart_UndoPostNotify() As Integer
+        ' Show message after undo action occurs
+        ' NOTE: Because the message box might be displayed
+        ' behind an open window, you might not see it.
+        ' If so, then check the Taskbar.
+        MsgBox("An undo post-notification event has been fired.")
+    End Function
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+    ''' The SldWorks swApp variable is pre-assigned for you.
+    ''' </summary>
+    Public swApp As SldWorks
 
 End Class
 ```

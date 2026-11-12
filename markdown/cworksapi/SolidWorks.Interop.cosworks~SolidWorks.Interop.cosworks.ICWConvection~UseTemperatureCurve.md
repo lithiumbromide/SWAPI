@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # UseTemperatureCurve Property (ICWConvection)
 
-Obsolete. Superseded by[ICWConvection::UseTemperatureCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~UseTemperatureCurve2.html).
+Obsolete. Superseded by [ICWConvection::UseTemperatureCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~UseTemperatureCurve2.html).
 
 ## Syntax
 
@@ -51,20 +51,13 @@ property System.int UseTemperatureCurve {
 
 ## VBA Syntax
 
-See
-
-[CWConvection::UseTemperatureCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~UseTemperatureCurve.html)
-
-.
+See [CWConvection::UseTemperatureCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~UseTemperatureCurve.html).
 
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [ICWConvection Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html)
-
 [ICWConvection::GetTemperatureCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~GetTemperatureCurve.html)
-
 [ICWConvection::SetTemperatureCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~SetTemperatureCurve.html)
 
 ## Availability

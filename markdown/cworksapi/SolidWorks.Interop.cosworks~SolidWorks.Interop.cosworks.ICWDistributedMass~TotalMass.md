@@ -51,24 +51,17 @@ Weight
 
 ## VBA Syntax
 
-See
-
-[CWDistributedMass::TotalMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDistributedMass~TotalMass.html)
-
-.
+See [CWDistributedMass::TotalMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDistributedMass~TotalMass.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
 
 ## See Also
 
 [ICWDistributedMass Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass.html)
-
 [ICWDistributedMass Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass_members.html)
 
 ## Availability

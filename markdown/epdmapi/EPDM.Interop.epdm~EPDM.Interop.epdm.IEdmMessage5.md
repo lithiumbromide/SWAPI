@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html"
 
 Allows you to encapsulate a single message in the inbox.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,16 +36,11 @@ public interface class IEdmMessage5
 ## Examples
 
 [Get Messages (C#)](Get_Messages_Example_CSharp.htm)
-
 [Get Messages (VB.NET)](Get_Messages_Example_VBNET.htm)
 
 ## Remarks
 
-This interface inherits from IDispatch. See
-
-[IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx)
-
-.
+This interface inherits from IDispatch. See [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
 
 ## Accessors
 
@@ -60,9 +49,6 @@ This interface inherits from IDispatch. See
 ## See Also
 
 [IEdmMessage5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmInbox5::GetFirstMessagePosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5~GetFirstMessagePosition.html)
-
 [IEdmInbox5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5.html)

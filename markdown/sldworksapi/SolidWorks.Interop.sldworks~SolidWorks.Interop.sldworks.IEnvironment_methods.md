@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnvironment Interface Methods
 
-For a list of all members of this type, see[IEnvironment members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment_members.html).
+For a list of all members of this type, see [IEnvironment members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment_members.html).
 
 ## Public Methods
 
@@ -36,5 +36,4 @@ For a list of all members of this type, see[IEnvironment members](SolidWorks.Int
 ## See Also
 
 [IEnvironment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnvironment.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

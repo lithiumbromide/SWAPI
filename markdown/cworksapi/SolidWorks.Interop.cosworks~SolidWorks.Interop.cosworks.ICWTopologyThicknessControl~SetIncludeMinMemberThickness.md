@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # SetIncludeMinMemberThickness Method (ICWTopologyThicknessControl)
 
-Obsolete. Superseded by
-
-[ICWTopologyThicknessControl::SetIncludeMinMemberThickness2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetIncludeMinMemberThickness2.html)
-
-.
+Obsolete. Superseded by [ICWTopologyThicknessControl::SetIncludeMinMemberThickness2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetIncludeMinMemberThickness2.html).
 
 ## Syntax
 
@@ -56,36 +52,19 @@ void SetIncludeMinMemberThickness(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyThicknessControl::SetIncludeMinMemberThickness](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~SetIncludeMinMemberThickness.html)
-
-.
+See [CWTopologyThicknessControl::SetIncludeMinMemberThickness](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~SetIncludeMinMemberThickness.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
-example.
+See the [ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html) example.
 
 ## Remarks
 
-If BFlag is set to true, set
-
-[ICWTopologyThicknessControl::SetMinimumMemberThickness](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetMinimumMemberThickness.html)
-
-and
-
-[ICWTopologyThicknessControl::SetMinimumMemberThicknessUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetMinimumMemberThicknessUnit.html)
-
-.
+If BFlag is set to true, set [ICWTopologyThicknessControl::SetMinimumMemberThickness](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetMinimumMemberThickness.html) and [ICWTopologyThicknessControl::SetMinimumMemberThicknessUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~SetMinimumMemberThicknessUnit.html).
 
 ## See Also
 
 [ICWTopologyThicknessControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
 [ICWTopologyThicknessControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl_members.html)
 
 ## Availability

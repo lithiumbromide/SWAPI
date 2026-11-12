@@ -41,7 +41,6 @@ void CheckOut();
 ## See Also
 
 [IEdmBom Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html)
-
 [IEdmBom Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom_members.html)
 
 ## Availability

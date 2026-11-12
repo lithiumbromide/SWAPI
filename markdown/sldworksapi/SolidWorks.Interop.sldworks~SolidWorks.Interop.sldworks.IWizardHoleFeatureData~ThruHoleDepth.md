@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # ThruHoleDepth Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by
-
-[IWizardHoleFeatureData2::ThruHoleDepth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~ThruHoleDepth.html)
-
-.
+Obsolete. Superseded by [IWizardHoleFeatureData2::ThruHoleDepth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~ThruHoleDepth.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double ThruHoleDepth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::ThruHoleDepth](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~ThruHoleDepth.html)
-
-.
+See [WizardHoleFeatureData::ThruHoleDepth](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~ThruHoleDepth.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

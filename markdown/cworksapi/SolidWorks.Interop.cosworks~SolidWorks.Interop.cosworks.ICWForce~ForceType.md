@@ -47,36 +47,25 @@ property System.int ForceType {
 
 ### Property Value
 
-Type of force as defined in[swsForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceType_e.html)
+Type of force as defined in [swsForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWForce::ForceType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~ForceType.html)
-
-.
+See [CWForce::ForceType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~ForceType.html).
 
 ## Examples
 
 [Apply Table-driven Load to Multiple Beams (C#)](Apply_Table-driven_Load_to_Multiple_Beams_Example_CSharp.htm)
-
 [Apply Table-driven Load to Multiple Beams (VB.NET)](Apply_Table-driven_Load_to_Multiple_Beams_Example_VBNET.htm)
-
 [Apply Table-driven Load to Multiple Beams (VBA)](Apply_Table-driven_Load_to_Multiple_Beams_Example_VB.htm)
 
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
-
 [ICWForce::SetForceComponentValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetForceComponentValues.html)
-
 [ICWForce::SetMomentComponentValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetMomentComponentValues.html)
-
 [ICWForce::NormalForceOrTorqueValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~NormalForceOrTorqueValue.html)
-
 [ICWForce::SetReferenceGeometry Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetReferenceGeometry.html)
 
 ## Availability

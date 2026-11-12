@@ -39,28 +39,16 @@ void ClearSelectionColors()
 void ClearSelectionColors();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::ClearSelectionColors](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~ClearSelectionColors.html)
-
-.
+See [SelectionMgr::ClearSelectionColors](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~ClearSelectionColors.html).
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)
-
 [ISelectionMgr::SelectionColor Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~SelectionColor.html)
 
 ## Availability

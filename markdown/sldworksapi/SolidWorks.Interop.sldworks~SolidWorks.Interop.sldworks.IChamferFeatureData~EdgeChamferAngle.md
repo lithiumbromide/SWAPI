@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICh
 
 # EdgeChamferAngle Property (IChamferFeatureData)
 
-Obsolete. Superseded by
-
-[IChamferFeatureData2::EdgeChamferAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~EdgeChamferAngle.html)
-
-.
+Obsolete. Superseded by [IChamferFeatureData2::EdgeChamferAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~EdgeChamferAngle.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double EdgeChamferAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ChamferFeatureData::EdgeChamferAngle](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData~EdgeChamferAngle.html)
-
-.
+See [ChamferFeatureData::EdgeChamferAngle](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData~EdgeChamferAngle.html).
 
 ## See Also
 
 [IChamferFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData.html)
-
 [IChamferFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData_members.html)

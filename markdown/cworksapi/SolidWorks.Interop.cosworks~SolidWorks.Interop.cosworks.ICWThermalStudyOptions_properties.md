@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTh
 
 # ICWThermalStudyOptions Interface Properties
 
-For a list of all members of this type, see[ICWThermalStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html).
+For a list of all members of this type, see [ICWThermalStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html).
 
 ## Public Properties
 
@@ -43,5 +43,4 @@ For a list of all members of this type, see[ICWThermalStudyOptions members](Soli
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

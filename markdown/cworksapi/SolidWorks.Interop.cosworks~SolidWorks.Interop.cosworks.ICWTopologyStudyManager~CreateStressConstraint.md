@@ -49,31 +49,19 @@ CWTopologyStressConstraint^ CreateStressConstraint(
 
 ### Parameters
 
-- `ErrorCode`: Result code as defined in
-
-[swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
+- `ErrorCode`: Result code as defined in [swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
 
 ### Return Value
 
-[ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
-; null if failure
+[ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html); null if failure
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager::CreateStressConstraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~CreateStressConstraint.html)
-
-.
+See [CWTopologyStudyManager::CreateStressConstraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~CreateStressConstraint.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
-example.
+See the [ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html) example.
 
 ## Remarks
 
@@ -82,7 +70,6 @@ If a topology Factor Of Safety constraint exists, this method will replace it wi
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
 
 ## Availability

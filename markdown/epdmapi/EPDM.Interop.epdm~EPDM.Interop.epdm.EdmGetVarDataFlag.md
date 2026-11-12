@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarDataFlag.html"
 
 # EdmGetVarDataFlag Enumeration
 
-Options specified in
-
-[EdmGetVarData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData.html)
-
-to describe a file.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Options specified in [EdmGetVarData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetVarData.html) to describe a file. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

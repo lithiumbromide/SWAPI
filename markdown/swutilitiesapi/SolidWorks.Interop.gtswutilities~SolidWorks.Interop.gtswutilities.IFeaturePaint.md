@@ -39,11 +39,7 @@ public interface class IFeaturePaint
 
 ## VBA Syntax
 
-See
-
-[IFeaturePaint](ms-its:swutilitiesapivb6.chm::/swutilities~IFeaturePaint.html)
-
-.
+See [IFeaturePaint](ms-its:swutilitiesapivb6.chm::/swutilities~IFeaturePaint.html).
 
 ## Remarks
 
@@ -58,5 +54,4 @@ You can also specify two different features and apply feature parameters. For ex
 ## See Also
 
 [IFeaturePaint Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFeaturePaint_members.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

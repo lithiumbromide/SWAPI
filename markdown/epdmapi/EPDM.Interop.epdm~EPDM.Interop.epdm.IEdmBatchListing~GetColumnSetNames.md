@@ -33,11 +33,7 @@ EdmStrLst5^ GetColumnSetNames();
 
 ### Return Value
 
-[IEdmStrLst5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmStrLst5.html)
-
-; list of column set names that can be used as a parameter in
-
-[IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html)
+[IEdmStrLst5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmStrLst5.html); list of column set names that can be used as a parameter in [IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html)
 
 ## Remarks
 
@@ -49,7 +45,6 @@ EdmStrLst5^ GetColumnSetNames();
 ## See Also
 
 [IEdmBatchListing Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing.html)
-
 [IEdmBatchListing Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "MateInPlace Object
-Members"
+title: "MateInPlace Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MateInPlace_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MateInPlace_members.html"
 ---
 
-# MateInPlace Object
-Members
+# MateInPlace Object Members
 
 ## Public Methods
 

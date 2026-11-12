@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCe
 
 # UseTimeCurve Property (ICWCentriFugalForce)
 
-Obsolete. Superseded by
-
-[ICWCentrifugalForce::UseTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~UseTimeCurve2.html)
-
-.
+Obsolete. Superseded by [ICWCentrifugalForce::UseTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~UseTimeCurve2.html).
 
 ## Syntax
 
@@ -55,20 +51,13 @@ property System.int UseTimeCurve {
 
 ## VBA Syntax
 
-See
-
-[CWCentriFugalForce::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~UseTimeCurve.html)
-
-.
+See [CWCentriFugalForce::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~UseTimeCurve.html).
 
 ## See Also
 
 [ICWCentriFugalForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
 [ICWCentriFugalForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce_members.html)
-
 [ICWCentriFugalForce::GetTimeCurve Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~GetTimeCurve.html)
-
 [ICWCentriFugalForce::SetTimeCurve Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~SetTimeCurve.html)
 
 ## Availability

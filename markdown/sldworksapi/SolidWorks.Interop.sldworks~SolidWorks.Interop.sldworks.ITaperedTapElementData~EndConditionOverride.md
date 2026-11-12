@@ -45,48 +45,29 @@ property System.bool EndConditionOverride {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to override the end condition, false to not (see
-
-Remarks
-
-)
+True to override the end condition, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[TaperedTapElementData::EndConditionOverride](ms-its:sldworksapivb6.chm::/sldworks~TaperedTapElementData~EndConditionOverride.html)
-
-.
+See [TaperedTapElementData::EndConditionOverride](ms-its:sldworksapivb6.chm::/sldworks~TaperedTapElementData~EndConditionOverride.html).
 
 ## Examples
 
-See the
-
-[ITaperedTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html)
-
-examples.
+See the [ITaperedTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html) examples.
 
 ## Remarks
 
-This property can be set only if[IAdvancedHoleFeatureData::UseBaselineDimensions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData~UseBaselineDimensions.html)is set to false.
+This property can be set only if [IAdvancedHoleFeatureData::UseBaselineDimensions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData~UseBaselineDimensions.html) is set to false.
 
-Set this property to true and specify[IAdvancedHoleElementData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~EndCondition.html)to override the end condition.
+Set this property to true and specify [IAdvancedHoleElementData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~EndCondition.html) to override the end condition.
 
 ## See Also
 
 [ITaperedTapElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData.html)
-
 [ITaperedTapElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaperedTapElementData_members.html)
 
 ## Availability

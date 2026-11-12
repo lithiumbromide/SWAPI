@@ -46,13 +46,7 @@ void IHighlight(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,11 +54,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face2::IHighlight](ms-its:sldworksapivb6.chm::/sldworks~Face2~IHighlight.html)
-
-.
+See [Face2::IHighlight](ms-its:sldworksapivb6.chm::/sldworks~Face2~IHighlight.html).
 
 ## Remarks
 
@@ -75,11 +65,8 @@ This method is not supported for faces obtained from reference surface bodies.
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::Highlight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~Highlight.html)
-
 [IEdge::Highlight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~Highlight.html)
 
 ## Availability

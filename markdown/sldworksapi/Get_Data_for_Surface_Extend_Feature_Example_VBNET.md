@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Data_for_Surface_Extend_Feature_Example_VBNET.htm"
 
 # Get Data for Surface-extend Feature Example (VB.NET)
 
-This example shows how to get the data for the selected surface-extend
-feature.
+This example shows how to get the data for the selected surface-extend feature.
 
 ```vb
  '----------------------------------------------------------------------------

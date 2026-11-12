@@ -45,13 +45,7 @@ property System.bool ShowLines {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True shows the lines, false does not
 
 ## VBA Syntax
 
-See
-
-[CenterMark::ShowLines](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~ShowLines.html)
-
-.
+See [CenterMark::ShowLines](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~ShowLines.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [ICenterMark Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html)
 
 ## Availability

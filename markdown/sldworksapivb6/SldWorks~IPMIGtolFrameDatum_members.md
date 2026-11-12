@@ -1,6 +1,5 @@
 ---
-title: "IPMIGtolFrameDatum Object
-Members"
+title: "IPMIGtolFrameDatum Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPMIGtolFrameDatum_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPMIGtolFrameDatum_members.html"
 ---
 
-# IPMIGtolFrameDatum Object
-Members
+# IPMIGtolFrameDatum Object Members
 
 ## Public Properties
 

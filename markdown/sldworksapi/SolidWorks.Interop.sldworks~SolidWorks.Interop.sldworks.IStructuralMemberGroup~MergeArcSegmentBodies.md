@@ -45,13 +45,7 @@ property System.bool MergeArcSegmentBodies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to merge arc segment bodies with adjacent bodies, false to not
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberGroup::MergeArcSegmentBodies](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~MergeArcSegmentBodies.html)
-
-.
+See [StructuralMemberGroup::MergeArcSegmentBodies](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~MergeArcSegmentBodies.html).
 
 ## Examples
 
 [Merge Arc Segment Bodies With Adjacent Bodies (C#)](Merge_Arc_Segment_Bodies_With_Adjacent_Bodies_Example_CSharp.htm)
-
 [Merge Arc Segment Bodies With Adjacent Bodies (VB.NET)](Merge_Arc_Segment_Bodies_With_Adjacent_Bodies_Example_VBNET.htm)
-
 [Merge Arc Segment Bodies With Adjacent Bodies (VBA)](Merge_Arc_Segment_Bodies_With_Adjacent_Bodies_Example_VB.htm)
 
 ## Remarks
@@ -80,7 +68,6 @@ This property is valid for curved entities only. The arc segment and adjacent bo
 ## See Also
 
 [IStructuralMemberGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup.html)
-
 [IStructuralMemberGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup_members.html)
 
 ## Availability

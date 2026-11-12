@@ -40,13 +40,7 @@ System.int GetComponentCount()
 System.int GetComponentCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ Number of components
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionGroup::GetComponentCount](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionGroup~GetComponentCount.html)
-
-.
+See [CollisionDetectionGroup::GetComponentCount](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionGroup~GetComponentCount.html).
 
 ## See Also
 
 [ICollisionDetectionGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup.html)
-
 [ICollisionDetectionGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionGroup_members.html)
 
 ## Availability

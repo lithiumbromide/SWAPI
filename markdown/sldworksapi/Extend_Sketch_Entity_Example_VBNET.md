@@ -9,8 +9,7 @@ source: "sldworksapi/Extend_Sketch_Entity_Example_VBNET.htm"
 
 # Extend Sketch Entity Example (VB.NET)
 
-This example shows how to extend a selected sketch entity (e.g., line,
-segment, or arc) to meet another sketch entity.
+This example shows how to extend a selected sketch entity (e.g., line, segment, or arc) to meet another sketch entity.
 
 ```
 '-------------------------------------------------------------------

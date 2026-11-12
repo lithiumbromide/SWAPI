@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Dimension_Extension_Lines_Gaps_Example_VB.htm"
 
 # Get and Set Dimension Extension Lines Gaps (VBA)
 
-This example shows how to get and set the gaps for the extension lines
-of a display dimension.
+This example shows how to get and set the gaps for the extension lines of a display dimension.
 
 ```
 '--------------------------------------------------------------

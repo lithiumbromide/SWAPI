@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ICreateSplinesByEqnParams Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ICreateSplinesByEqnParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreateSplinesByEqnParams.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ICreateSplinesByEqnParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ICreateSplinesByEqnParams.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ EnumSketchSegments^ ICreateSplinesByEqnParams(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ICreateSplinesByEqnParams](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ICreateSplinesByEqnParams.html)
-
-.
+See [ModelDoc::ICreateSplinesByEqnParams](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ICreateSplinesByEqnParams.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

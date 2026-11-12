@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISp
 
 Allows access to the geometry of a spring.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ISpring
 
 ## VBA Syntax
 
-See
-
-[Spring](ms-its:sldworksapivb6.chm::/sldworks~Spring.html)
-
-.
+See [Spring](ms-its:sldworksapivb6.chm::/sldworks~Spring.html).
 
 ## Accessors
 
@@ -58,7 +54,5 @@ See
 ## See Also
 
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)

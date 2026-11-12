@@ -11,89 +11,37 @@ source: "sldworksapi/Get_Transform_of_Coordinate_System_Example_VB.NET.htm"
 
 This example shows how to get the transform of a coordinate system.
 
-NOTE:Because VB.NET does not
-directly support VARIANTs, you must cast the returned objects to the appropriate
-data types.
+NOTE: Because VB.NET does not directly support VARIANTs, you must cast the returned objects to the appropriate data types.
 
+```vb
 '-------------------------------------
-
 Private Sub API_Test2()
+    Dim swApp As SldWorks.SldWorks
+    Dim swModel As SldWorks.ModelDoc2
+    Dim swSelMgr As SldWorks.SelectionMgr
+    Dim swFeat As SldWorks.feature
+    Dim vXformArr() As Double
+    Dim vXform As Object
+    Dim sAxisName As String
+    Dim bRet As Boolean
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swApp As SldWorks.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModel As SldWorks.ModelDoc2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSelMgr As SldWorks.SelectionMgr
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swFeat As SldWorks.feature
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vXformArr() As Double
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vXform As Object
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-sAxisName As String
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bRet As Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp
-= CType(CreateObject("SldWorks.Application"), SldWorks.SldWorks)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel
-= swApp.IActiveDoc2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSelMgr
-= swModel.ISelectionManager
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swFeat
-= CType(swSelMgr.GetSelectedObject6(1,
-0), SldWorks.feature)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}System.Diagnostics.Debug.WriteLine("File
-= " & swModel.GetPathName)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}System.Diagnostics.Debug.WriteLine("kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Current
-coordinate system = " & swModel.GetUserPreferenceStringValue(swUserPreferenceStringValue_e.swFileSaveAsCoordinateSystem))
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}System.Diagnostics.Debug.WriteLine("")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sAxisName
-= swFeat.Name
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vXformArr
-= CType(swModel.GetCoordinateSystemXformByName(sAxisName),
-Double())
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}System.Diagnostics.Debug.WriteLine("kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}"
-& sAxisName)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-Each vXform In vXformArr
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}System.Diagnostics.Debug.WriteLine("kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Origin
-= (" + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(-1.0#
-* vXformArr(9) * 1000.0#) + "," + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(-1.0#
-* vXformArr(10) * 1000.0#) + "," + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(-1.0#
-* vXformArr(11) * 1000.0#) + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}")
-mm")
-
+    swApp = CType(CreateObject("SldWorks.Application"), SldWorks.SldWorks)
+    swModel = swApp.IActiveDoc2
+    swSelMgr = swModel.ISelectionManager
+    swFeat = CType(swSelMgr.GetSelectedObject6(1, 0), SldWorks.feature)
+    System.Diagnostics.Debug.WriteLine("File = " & swModel.GetPathName)
+    System.Diagnostics.Debug.WriteLine("  Current coordinate system = " & swModel.GetUserPreferenceStringValue(swUserPreferenceStringValue_e.swFileSaveAsCoordinateSystem))
+    System.Diagnostics.Debug.WriteLine("")
+    sAxisName = swFeat.Name
+    vXformArr = CType(swModel.GetCoordinateSystemXformByName(sAxisName), Double())
+    System.Diagnostics.Debug.WriteLine("  " & sAxisName)
+    For Each vXform In vXformArr
+    Next
+    System.Diagnostics.Debug.WriteLine("    Origin = (" + _
+                        Str(-1.0# * vXformArr(9) * 1000.0#) + "," + _
+                        Str(-1.0# * vXformArr(10) * 1000.0#) + "," + _
+                        Str(-1.0# * vXformArr(11) * 1000.0#) + _
+                        ") mm")
 End Sub
-
 '-------------------------------------
+```

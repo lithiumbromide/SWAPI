@@ -51,11 +51,7 @@ True to extract all dimension types, false to not
 
 ## VBA Syntax
 
-See
-
-[InspectionProjectData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionProjectData_members.html)
-
-properties.
+See [InspectionProjectData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionProjectData_members.html) properties.
 
 ## Remarks
 
@@ -71,7 +67,6 @@ When set to true, this property extracts all of these dimension types:
 ## See Also
 
 [IInspectionProjectData Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData.html)
-
 [IInspectionProjectData Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProjectData_members.html)
 
 ## Availability

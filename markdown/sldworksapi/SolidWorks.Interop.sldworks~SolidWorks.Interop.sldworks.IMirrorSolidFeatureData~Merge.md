@@ -45,13 +45,7 @@ property System.bool Merge {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,21 @@ True enables the merge results option, false does not
 
 ## VBA Syntax
 
-See
-
-[MirrorSolidFeatureData::Merge](ms-its:sldworksapivb6.chm::/sldworks~MirrorSolidFeatureData~Merge.html)
-
-.
+See [MirrorSolidFeatureData::Merge](ms-its:sldworksapivb6.chm::/sldworks~MirrorSolidFeatureData~Merge.html).
 
 ## Examples
 
 [Get Mirror Solid Feature Data (C#)](Get_Mirror_Solid_Feature_Data_Example_CSharp.htm)
-
 [Get Mirror Solid Feature Data (VB.NET)](Get_Mirror_Solid_Feature_Data_Example_VBNET.htm)
-
 [Get Mirror Solid Feature Data (VBA)](Get_Mirror_Solid_Data_Example_VB.htm)
 
 ## Remarks
 
-The merge results option tells the SOLIDWORKS software whether to merge the new body or bodies with existing bodies in the multibody part. This property is set to True by default.
+The merge results option tells the SOLIDWORKS Design software whether to merge the new body or bodies with existing bodies in the multibody part. This property is set to True by default.
 
 ## See Also
 
 [IMirrorSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData.html)
-
 [IMirrorSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData_members.html)
 
 ## Availability

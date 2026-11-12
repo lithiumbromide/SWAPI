@@ -11,10 +11,8 @@ source: "sldworksapi/Get_Names_of_Annotations_Example_CSharp.htm"
 
 This example shows show to:
 
-- get the names of all of the
-  annotations in a drawing.
-- select all of the
-  annotations in a drawing.
+- get the names of all of the annotations in a drawing.
+- select all of the annotations in a drawing.
 
 ```
 //--------------------------------------------------------------

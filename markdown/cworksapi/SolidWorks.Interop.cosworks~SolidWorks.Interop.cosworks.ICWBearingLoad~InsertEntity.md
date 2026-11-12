@@ -52,20 +52,13 @@ void InsertEntity(
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~InsertEntity.html)
-
-.
+See [CWBearingLoad::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~InsertEntity.html).
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
-
 [ICWBearingLoad::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~RemoveEntity.html)
-
 [ICWBearingLoad::GetEntityCount Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~GetEntityCount.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.double KFactor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ K-factor
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::KFactor](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~KFactor.html)
-
-.
+See [BaseFlangeFeatureData::KFactor](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~KFactor.html).
 
 ## Examples
 
@@ -72,11 +62,8 @@ See
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::OverrideKFactor Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~OverrideKFactor.html)
-
 [IBaseFlangeFeatureData::TableKFactor Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~TableKFactor.html)
 
 ## Availability

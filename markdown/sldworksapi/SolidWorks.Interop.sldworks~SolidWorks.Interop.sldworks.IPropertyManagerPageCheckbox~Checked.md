@@ -45,13 +45,7 @@ property System.bool Checked {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True if the check box is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageCheckbox::Checked](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCheckbox~Checked.html)
-
-.
+See [PropertyManagerPageCheckbox::Checked](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCheckbox~Checked.html).
 
 ## Examples
 
 [Set Focus on PropertyManager Page Control (C#)](Set_Focus_on_PropertyManager_Page_Control_Example_CSharp.htm)
-
 [Set Focus on PropertyManager Page Control (VB.NET)](Set_Focus_on_PropertyManager_Page_Control_Example_VBNET.htm)
-
 [Set Focus on PropertyManager Page Control (VBA)](Set_Focus_on_PropertyManager_Page_Control_Example_VB.htm)
 
 ## See Also
 
 [IPropertyManagerPageCheckbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCheckbox.html)
-
 [IPropertyManagerPageCheckbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCheckbox_members.html)
 
 ## Availability

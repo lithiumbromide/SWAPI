@@ -56,27 +56,17 @@ void SaveAsReport(
 
 ### Parameters
 
-- `FileType`: Type of FileName as defined in
-
-[swSustainabilitySaveAsFileType_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilitySaveAsFileType_e.html)
+- `FileType`: Type of FileName as defined in [swSustainabilitySaveAsFileType_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilitySaveAsFileType_e.html)
 - `FileName`: Base name of the file to save
 - `SaveTo`: Path to FileName
 
 ## VBA Syntax
 
-See
-
-[SustainabilityEnvironmentalImpact::SaveAsReport](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEnvironmentalimpact~SaveAsReport.html)
-
-.
+See [SustainabilityEnvironmentalImpact::SaveAsReport](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEnvironmentalimpact~SaveAsReport.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityEnvironmentalImpact](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact.html)
-
-.
+See the examples in [ISustainabilityEnvironmentalImpact](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact.html).
 
 ## Remarks
 
@@ -89,7 +79,6 @@ Before calling this method, call:
 ## See Also
 
 [ISustainabilityEnvironmentalImpact Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact.html)
-
 [ISustainabilityEnvironmentalImpact Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact_members.html)
 
 ## Availability

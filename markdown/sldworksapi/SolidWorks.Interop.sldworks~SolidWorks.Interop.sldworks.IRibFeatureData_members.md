@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRi
 
 # IRibFeatureData Interface Members
 
-The following tables list the members exposed by[IRibFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData.html).
+The following tables list the members exposed by [IRibFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData.html).
 
 ## Public Properties
 
@@ -37,5 +37,4 @@ The following tables list the members exposed by[IRibFeatureData](SolidWorks.Int
 ## See Also
 
 [IRibFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

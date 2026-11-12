@@ -46,11 +46,7 @@ Number of components in an assembly document
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument8::GetComponentCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument8~GetComponentCount.html)
-
-.
+See [SwDMDocument8::GetComponentCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument8~GetComponentCount.html).
 
 ## Remarks
 
@@ -59,7 +55,6 @@ This method supports SOLIDWORKS assembly documents only. A -1 is returned for al
 ## See Also
 
 [ISwDMDocument8 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument8.html)
-
 [ISwDMDocument8 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument8_members.html)
 
 ## Availability

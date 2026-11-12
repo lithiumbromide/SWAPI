@@ -40,13 +40,7 @@ System.string GetCurrentGaugeNumber()
 System.String^ GetCurrentGaugeNumber();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,18 @@ Currently selected gauge number
 
 ## VBA Syntax
 
-See
-
-[SheetMetalGaugeTableParameters::GetCurrentGaugeNumber](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalGaugeTableParameters~GetCurrentGaugeNumber.html)
-
-.
+See [SheetMetalGaugeTableParameters::GetCurrentGaugeNumber](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalGaugeTableParameters~GetCurrentGaugeNumber.html).
 
 ## Examples
 
-See the
-
-[ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html)
-
-examples.
+See the [ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html) examples.
 
 ## See Also
 
 [ISheetMetalGaugeTableParameters Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html)
-
 [ISheetMetalGaugeTableParameters Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters_members.html)
-
 [ISheetMetalGaugeTableParameters::GetAvailableGaugeNumbers Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters~GetAvailableGaugeNumbers.html)
-
 [ISheetMetalGaugeTableParameters::GetGaugeNumberCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters~GetGaugeNumberCount.html)
-
 [ISheetMetalGaugeTableParameters::SetCurrentGaugeNumber Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters~SetCurrentGaugeNumber.html)
 
 ## Availability

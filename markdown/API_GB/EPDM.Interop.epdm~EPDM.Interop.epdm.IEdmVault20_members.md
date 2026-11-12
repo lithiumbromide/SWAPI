@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20_members.html"
 
 # IEdmVault20 Interface Members
 
-The following tables list the members exposed by[IEdmVault20](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html).
+The following tables list the members exposed by [IEdmVault20](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IEdmVault20](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmVault20 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

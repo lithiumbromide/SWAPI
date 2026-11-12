@@ -1,6 +1,5 @@
 ---
-title: "CWDampingOptions Object
-Members"
+title: "CWDampingOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWDampingOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWDampingOptions_members.html"
 ---
 
-# CWDampingOptions Object
-Members
+# CWDampingOptions Object Members
 
 ## Public Methods
 

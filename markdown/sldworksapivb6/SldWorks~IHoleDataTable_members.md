@@ -1,6 +1,5 @@
 ---
-title: "IHoleDataTable Object
-Members"
+title: "IHoleDataTable Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IHoleDataTable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IHoleDataTable_members.html"
 ---
 
-# IHoleDataTable Object
-Members
+# IHoleDataTable Object Members
 
 ## Public Methods
 

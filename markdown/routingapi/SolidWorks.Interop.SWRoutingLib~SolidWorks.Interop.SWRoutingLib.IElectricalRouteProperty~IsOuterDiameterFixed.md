@@ -47,24 +47,15 @@ property System.bool IsOuterDiameterFixed {
 
 ### Property Value
 
-True to fix the value of the outer diameter of the route to that of
-
-[IElectricalRouteProperty::OuterDiameter](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IElectricalRouteProperty~OuterDiameter.html)
-
-, false to enable diameter updates based on the diameters of the cables and wires that you route
+True to fix the value of the outer diameter of the route to that of [IElectricalRouteProperty::OuterDiameter](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IElectricalRouteProperty~OuterDiameter.html), false to enable diameter updates based on the diameters of the cables and wires that you route
 
 ## VBA Syntax
 
-See
-
-[ElectricalRouteProperty::IsOuterDiameterFixed](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRouteProperty~IsOuterDiameterFixed.html)
-
-.
+See [ElectricalRouteProperty::IsOuterDiameterFixed](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRouteProperty~IsOuterDiameterFixed.html).
 
 ## See Also
 
 [IElectricalRouteProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty.html)
-
 [IElectricalRouteProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty_members.html)
 
 ## Availability

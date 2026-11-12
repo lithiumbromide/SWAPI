@@ -39,21 +39,11 @@ void InspectCurvature()
 void InspectCurvature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InspectCurvature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InspectCurvature.html)
-
-.
+See [ModelDoc2::InspectCurvature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InspectCurvature.html).
 
 ## Examples
 
@@ -61,16 +51,13 @@ See
 
 ## Remarks
 
-See[IModelDoc2::RemoveInspectCurvature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~RemoveInspectCurvature.html)to remove curvature combs.
+See [IModelDoc2::RemoveInspectCurvature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~RemoveInspectCurvature.html) to remove curvature combs.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ISketchSpline::ShowCurvatureCombs Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~ShowCurvatureCombs.html)
-
 [IModelDoc2::RemoveInspectCurvature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~RemoveInspectCurvature.html)
 
 ## Availability

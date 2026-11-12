@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICommandManager Interface Methods
 
-For a list of all members of this type, see[ICommandManager members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html).
+For a list of all members of this type, see [ICommandManager members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html).
 
 ## Public Methods
 
@@ -43,5 +43,4 @@ For a list of all members of this type, see[ICommandManager members](SolidWorks.
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,30 +9,22 @@ source: "obsoleteapi/AssemblyDoc/AssemblyDoc__InsertDerivedPattern.htm"
 
 # AssemblyDoc::InsertDerivedPattern
 
-This method is obsolete and has been superseded
-by[FeatureManager::InsertDerivedPattern](sldworksAPI.chm::/FeatureManager/FeatureManager__InsertDerivedPattern.htm).
+This method is obsolete and has been superseded by [FeatureManager::InsertDerivedPattern](sldworksAPI.chm::/FeatureManager/FeatureManager__InsertDerivedPattern.htm).
 
 Description
 
-This method creates a derived component from a selected pattern and
-seed components.
+This method creates a derived component from a selected pattern and seed components.
 
 Syntax (OLE Automation)
 
-retval = AssemblyDoc.InsertDerivedPattern(
-)
-
-(Table)=========================================================
+retval = AssemblyDoc.InsertDerivedPattern( )
 
 | Return: | (VARIANT_BOOL) retval | TRUE if successful, FALSE if not |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status = AssemblyDoc->InsertDerivedPattern
-( )
-
-(Table)=========================================================
+status = AssemblyDoc->InsertDerivedPattern ( )
 
 | Return: | (VARIANT_BOOL) retval | TRUE if successful, FALSE if not |
 | --- | --- | --- |
@@ -40,35 +32,7 @@ status = AssemblyDoc->InsertDerivedPattern
 
 Remarks
 
-Use ModelDocExtension::SelectByID to select the
-components, which must be ordered:
+Use ModelDocExtension::SelectByID to select the components, which must be ordered:
 
-- seed componentkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}= selection
-  mark 1
-- pattern featurekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}= selection
-  mark 2
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1217" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="AssemblyDoc_Object$$**$$ModelDoc::FeatureCirPattern$$**$$ModelDoc::FeatureLinearPattern$$**$$ZAssemblyInsert$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2004\obsoleteapi\AssemblyDoc\AssemblyDoc__InsertDerivedPattern.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+- seed component = selection mark 1
+- pattern feature = selection mark 2

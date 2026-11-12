@@ -45,13 +45,7 @@ property System.bool FixedAspectRatio {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,23 @@ True if the aspect ratio is fixed, false if not
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::FixedAspectRatio](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~FixedAspectRatio.html)
-
-.
+See [RenderMaterial::FixedAspectRatio](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~FixedAspectRatio.html).
 
 ## Examples
 
 [Get Surface-finish Image Path and File Name (C#)](Get_Surface-finish_Image_Path_and_Filename_Example_CSharp.htm)
-
 [Get Surface-finish Image Path and File Name (VB.NET)](Get_Surface-finish_Image_Path_and_Filename_Example_VBNET.htm)
-
 [Get Surface-finish Image Path and File Name (VBA)](Get_Surface-finish_Image_Path_and_Filename_Example_VB.htm)
 
 ## Remarks
 
-When FixedAspect is true, then the image is uniformly scaled when either the[height](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Height.html)or[width](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Width.html)is changed.
+When FixedAspect is true, then the image is uniformly scaled when either the [height](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Height.html) or [width](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~Width.html) is changed.
 
 Use this property when changing the height or width of an appearance texture and wanting it uniformly scaled.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser_properties.html
 
 # IEdmFindUser Interface Properties
 
-For a list of all members of this type, see[IEdmFindUser members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser_members.html).
+For a list of all members of this type, see [IEdmFindUser members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmFindUser members](EPDM.Interop.e
 ## See Also
 
 [IEdmFindUser Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

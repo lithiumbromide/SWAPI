@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # GetCenterPoint Method (IRenderMaterial)
 
-Obsolete. Superseded by
-
-[IRenderMaterial::GetCenterPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~GetCenterPoint2.html)
-
-.
+Obsolete. Superseded by [IRenderMaterial::GetCenterPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~GetCenterPoint2.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void GetCenterPoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,18 +58,12 @@ Array of doubles (x, y, z) representing the centerpoint of the mapping for textu
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::GetCenterPoint](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~GetCenterPoint.html)
-
-.
+See [RenderMaterial::GetCenterPoint](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~GetCenterPoint.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
-
 [IRenderMaterial::SetCenterPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SetCenterPoint.html)
 
 ## Availability

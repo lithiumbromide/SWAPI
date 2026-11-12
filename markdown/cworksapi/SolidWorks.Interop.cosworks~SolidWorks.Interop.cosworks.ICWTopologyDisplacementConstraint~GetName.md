@@ -46,26 +46,16 @@ Name of th displacement constraint
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDisplacementConstraint::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDisplacementConstraint~GetName.html)
-
-.
+See [CWTopologyDisplacementConstraint::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDisplacementConstraint~GetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyDisplacementConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint.html)
-
-example.
+See the [ICWTopologyDisplacementConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint.html) example.
 
 ## See Also
 
 [ICWTopologyDisplacementConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint.html)
-
 [ICWTopologyDisplacementConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint_members.html)
-
 [ICWTopologyDisplacementConstraint::SetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDisplacementConstraint~SetName.html)
 
 ## Availability

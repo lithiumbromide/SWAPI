@@ -40,13 +40,7 @@ System.bool IsHoleCallout()
 System.bool IsHoleCallout();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the display dimension is a hole callout, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::IsHoleCallout](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IsHoleCallout.html)
-
-.
+See [DisplayDimension::IsHoleCallout](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IsHoleCallout.html).
 
 ## Examples
 
@@ -67,13 +57,9 @@ See
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDrawingDoc::AddHoleCallout2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~AddHoleCallout2.html)
-
 [IDrawingDoc::IAddHoleCallout2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~IAddHoleCallout2.html)
-
 [IDisplayDimension::GetHoleCalloutVariables Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetHoleCalloutVariables.html)
 
 ## Availability

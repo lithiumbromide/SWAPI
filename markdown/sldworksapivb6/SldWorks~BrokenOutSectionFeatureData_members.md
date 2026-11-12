@@ -1,6 +1,5 @@
 ---
-title: "BrokenOutSectionFeatureData Object
-Members"
+title: "BrokenOutSectionFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BrokenOutSectionFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BrokenOutSectionFeatureData_members.html"
 ---
 
-# BrokenOutSectionFeatureData Object
-Members
+# BrokenOutSectionFeatureData Object Members
 
 ## Public Methods
 

@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Text_in_Datum_Tags_and_GTols_Example_CSharp.htm"
 
 # Set Text in Datum Tags and GTols Example (C#)
 
-This example shows how to set the text in datum tags and geometric
-tolerances.
+This example shows how to set the text in datum tags and geometric tolerances.
 
 ```vb
 //----------------------------------------------------------------------------

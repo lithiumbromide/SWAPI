@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # UseBulkTemperatureTimeCurve Property (ICWConvection)
 
-Obsolete. Superseded by[ICWConvection::UseBulkTemperatureTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~UseBulkTemperatureTimeCurve2.html).
+Obsolete. Superseded by [ICWConvection::UseBulkTemperatureTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~UseBulkTemperatureTimeCurve2.html).
 
 ## Syntax
 
@@ -51,22 +51,14 @@ property System.int UseBulkTemperatureTimeCurve {
 
 ## VBA Syntax
 
-See
-
-[CWConvection::UseBulkTemperatureTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~UseBulkTemperatureTimeCurve.html)
-
-.
+See [CWConvection::UseBulkTemperatureTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~UseBulkTemperatureTimeCurve.html).
 
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [ICWConvection Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html)
-
 [ICWConvection::GetBulkTemperatureTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~GetBulkTemperatureTimeCurve.html)
-
 [ICWConvection::SetBulkTemperatureTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~SetBulkTemperatureTimeCurve.html)
-
 [ICWConvection::BulkAmbientTemperature Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~BulkAmbientTemperature.html)
 
 ## Availability

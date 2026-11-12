@@ -45,13 +45,7 @@ property System.bool IncludeHiddenBodies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to include hidden bodies, false to not
 
 ## VBA Syntax
 
-See
-
-[BoundingBoxFeatureData::IncludeHiddenBodies](ms-its:sldworksapivb6.chm::/sldworks~BoundingBoxFeatureData~IncludeHiddenBodies.html)
-
-.
+See [BoundingBoxFeatureData::IncludeHiddenBodies](ms-its:sldworksapivb6.chm::/sldworks~BoundingBoxFeatureData~IncludeHiddenBodies.html).
 
 ## Examples
 
-See the
-
-[IBoundingBoxFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html)
-
-example.
+See the [IBoundingBoxFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html) example.
 
 ## See Also
 
 [IBoundingBoxFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html)
-
 [IBoundingBoxFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData_members.html)
 
 ## Availability

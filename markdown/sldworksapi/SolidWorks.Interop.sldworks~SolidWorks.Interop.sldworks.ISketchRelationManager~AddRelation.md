@@ -51,20 +51,12 @@ SketchRelation^ AddRelation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Entities`: Array of entities to which add the relation
-- `RelationType`: Type of relation as defined by
-
-[swConstraintType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstraintType_e.html)
+- `RelationType`: Type of relation as defined by [swConstraintType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstraintType_e.html)
 
 ### Return Value
 
@@ -72,32 +64,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchRelationManager::AddRelation](ms-its:sldworksapivb6.chm::/sldworks~SketchRelationManager~AddRelation.html)
-
-.
+See [SketchRelationManager::AddRelation](ms-its:sldworksapivb6.chm::/sldworks~SketchRelationManager~AddRelation.html).
 
 ## Remarks
 
-A sketch must be active for this method to have any effect. Use
-
-[IModelDoc2::GetActiveSketch2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetActiveSketch2.html)
-
-or
-
-[IModelDoc2::IGetActiveSketch2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetActiveSketch2.html)
-
-to determine if a sketch is active.
+A sketch must be active for this method to have any effect. Use [IModelDoc2::GetActiveSketch2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetActiveSketch2.html) or [IModelDoc2::IGetActiveSketch2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetActiveSketch2.html) to determine if a sketch is active.
 
 ## See Also
 
 [ISketchRelationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager.html)
-
 [ISketchRelationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager_members.html)
-
 [ISketchRelationManager::IAddRelation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager~IAddRelation.html)
-
 [ISketchRelationManager::GetRelationsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelationManager~GetRelationsCount.html)
 
 ## Availability

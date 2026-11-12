@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertConcentricityGeoTol Object
-Members"
+title: "ISwDMDimXpertConcentricityGeoTol Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertConcentricityGeoTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertConcentricityGeoTol_members.html"
 ---
 
-# ISwDMDimXpertConcentricityGeoTol Object
-Members
+# ISwDMDimXpertConcentricityGeoTol Object Members
 
 ## Public Methods
 

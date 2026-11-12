@@ -45,13 +45,7 @@ property System.bool KnitSurface {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True knits the surface, false does not
 
 ## VBA Syntax
 
-See
-
-[MirrorSolidFeatureData::KnitSurface](ms-its:sldworksapivb6.chm::/sldworks~MirrorSolidFeatureData~KnitSurface.html)
-
-.
+See [MirrorSolidFeatureData::KnitSurface](ms-its:sldworksapivb6.chm::/sldworks~MirrorSolidFeatureData~KnitSurface.html).
 
 ## Examples
 
 [Get Mirror Solid Feature Data (C#)](Get_Mirror_Solid_Feature_Data_Example_CSharp.htm)
-
 [Get Mirror Solid Feature Data (VB.NET)](Get_Mirror_Solid_Feature_Data_Example_VBNET.htm)
-
 [Get Mirror Solid Feature Data (VBA)](Get_Mirror_Solid_Data_Example_VB.htm)
 
 ## See Also
 
 [IMirrorSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData.html)
-
 [IMirrorSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorSolidFeatureData_members.html)
 
 ## Availability

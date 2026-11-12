@@ -45,13 +45,7 @@ property System.bool UseMaterialSheetMetalParameters {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,16 @@ True to use the material sheet metal parameters, false to not
 
 ## VBA Syntax
 
-See
-
-[SheetMetalFeatureData::UseMaterialSheetMetalParameters](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~UseMaterialSheetMetalParameters.html)
-
-.
+See [SheetMetalFeatureData::UseMaterialSheetMetalParameters](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~UseMaterialSheetMetalParameters.html).
 
 ## Remarks
 
-This property is valid only when[ISheetMetalFeatureData::GetUseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseGaugeTable.html)returns false.
+This property is valid only when [ISheetMetalFeatureData::GetUseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseGaugeTable.html) returns false.
 
 ## See Also
 
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
-
 [ISheetMetalFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData_members.html)
-
 [IBaseFlangeFeatureData::Initialize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~Initialize.html)
 
 ## Availability

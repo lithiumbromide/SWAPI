@@ -45,13 +45,7 @@ property System.String^ ConfigurationName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Name of configuration to load
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::ConfigurationName](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~ConfigurationName.html)
-
-.
+See [DocumentSpecification::ConfigurationName](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~ConfigurationName.html).
 
 ## Remarks
 
-This property is not valid for opening
-
-3D
-
-EXPERIENCE files using SOLIDWORKS Connected.
+This property is not valid for opening **3D**EXPERIENCE files using [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
 
 ## Availability

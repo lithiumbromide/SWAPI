@@ -45,13 +45,7 @@ property System.bool TaperOutward {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True to taper the helix outward, false to tape inward
 
 ## VBA Syntax
 
-See
-
-[Spring::TaperOutward](ms-its:sldworksapivb6.chm::/sldworks~Spring~TaperOutward.html)
-
-.
+See [Spring::TaperOutward](ms-its:sldworksapivb6.chm::/sldworks~Spring~TaperOutward.html).
 
 ## Remarks
 
-Use[ISpring::TaperAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISpring~TaperAngle.html)to set the angle by which to taper a spring.
+Use [ISpring::TaperAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISpring~TaperAngle.html) to set the angle by which to taper a spring.
 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
 
 ## Availability

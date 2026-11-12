@@ -40,13 +40,7 @@ System.object GetFlatPatternFolder()
 System.Object^ GetFlatPatternFolder();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::GetFlatPatternFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetFlatPatternFolder.html)
-
-.
+See [FeatureManager::GetFlatPatternFolder](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetFlatPatternFolder.html).
 
 ## Examples
 
 [Get Flat-Pattern Folder Feature (VBA)](Get_Flat_Pattern_Folder_Feature_Example_VB.htm)
-
 [Get Flat-Pattern Folder Feature (VB.NET)](Get_Flat_Pattern_Folder_Feature_Example_VBNET.htm)
-
 [Get Flat-Pattern Folder Feature (C#)](Get_Flat_Pattern_Folder_Feature_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

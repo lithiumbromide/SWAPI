@@ -39,21 +39,11 @@ void SetSaveFlag()
 void SetSaveFlag();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SetSaveFlag](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetSaveFlag.html)
-
-.
+See [ModelDoc2::SetSaveFlag](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetSaveFlag.html).
 
 ## Examples
 
@@ -61,18 +51,16 @@ See
 
 ## Remarks
 
-If the user tries to close the part, theDo you wish to save changes?dialog is displayed.
+If the user tries to close the part, the Do you wish to save changes? dialog is displayed.
 
-If SOLIDWORKS data has changed, this method marks the SOLIDWORKS document as dirty so that the end-user is prompted when attempting to close the document. You might want to use this method with applications that use[IModelDoc2::IGet3rdPartyStorage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGet3rdPartyStorage.html)to save stream data in SOLIDWORKS files.
+If SOLIDWORKS data has changed, this method marks the SOLIDWORKS document as dirty so that the end-user is prompted when attempting to close the document. You might want to use this method with applications that use [IModelDoc2::IGet3rdPartyStorage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGet3rdPartyStorage.html) to save stream data in SOLIDWORKS files.
 
 If you have programmatically changed the SOLIDWORKS model, using this method is not necessary because the SOLIDWORKS document is flagged as dirty automatically.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetSaveFlag Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetSaveFlag.html)
 
 ## Availability

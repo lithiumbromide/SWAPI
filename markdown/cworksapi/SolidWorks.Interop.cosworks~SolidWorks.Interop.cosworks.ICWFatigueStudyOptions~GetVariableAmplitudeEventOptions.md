@@ -57,19 +57,11 @@ void GetVariableAmplitudeEventOptions(
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::GetVariableAmplitudeEventOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~GetVariableAmplitudeEventOptions.html)
-
-.
+See [CWFatigueStudyOptions::GetVariableAmplitudeEventOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~GetVariableAmplitudeEventOptions.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
-examples.
+See the [ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html) examples.
 
 ## Remarks
 
@@ -78,11 +70,8 @@ This method is valid only for variable amplitude fatigue studies.
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
-
 [ICWFatigueStudyOptions::SetVariableAmplitudeEventOptions Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~SetVariableAmplitudeEventOptions.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForVariableAmplitude Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForVariableAmplitude.html)
 
 ## Availability

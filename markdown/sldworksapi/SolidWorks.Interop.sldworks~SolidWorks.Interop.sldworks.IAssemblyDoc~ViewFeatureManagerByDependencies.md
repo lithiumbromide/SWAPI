@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # ViewFeatureManagerByDependencies Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IFeatureManager::ViewDependencies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~ViewDependencies.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::ViewDependencies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~ViewDependencies.html).
 
 ## Syntax
 
@@ -43,34 +39,18 @@ void ViewFeatureManagerByDependencies()
 void ViewFeatureManagerByDependencies();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::ViewFeatureManagerByDependencies](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ViewFeatureManagerByDependencies.html)
-
-.
+See [AssemblyDoc::ViewFeatureManagerByDependencies](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~ViewFeatureManagerByDependencies.html).
 
 ## Remarks
 
-Use this method with
-
-[IAssemblyDoc::ViewFeatureManagerByFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~ViewFeatureManagerByFeatures.html)
-
-.
+Use this method with [IAssemblyDoc::ViewFeatureManagerByFeatures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~ViewFeatureManagerByFeatures.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::ViewFeatureManagerFeatureDetail Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ViewFeatureManagerFeatureDetail.html)

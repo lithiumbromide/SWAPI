@@ -1,6 +1,5 @@
 ---
-title: "CWTopologyMinimizeMaximumDisplacementGoal Object
-Members"
+title: "CWTopologyMinimizeMaximumDisplacementGoal Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWTopologyMinimizeMaximumDisplacementGoal_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWTopologyMinimizeMaximumDisplacementGoal_members.html"
 ---
 
-# CWTopologyMinimizeMaximumDisplacementGoal Object
-Members
+# CWTopologyMinimizeMaximumDisplacementGoal Object Members
 
 ## Public Methods
 

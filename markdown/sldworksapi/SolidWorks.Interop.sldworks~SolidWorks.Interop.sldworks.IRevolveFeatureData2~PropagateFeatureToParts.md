@@ -45,13 +45,7 @@ property System.bool PropagateFeatureToParts {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,14 @@ True to propagate this assembly revolve feature to the parts that it affects in 
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData2::PropagateFeatureToParts](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~PropagateFeatureToParts.html)
-
-.
+See [RevolveFeatureData2::PropagateFeatureToParts](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~PropagateFeatureToParts.html).
 
 ## See Also
 
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
-
 [IRevolveFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2_members.html)
-
 [IRevolveFeatureData2::AssemblyFeatureScope Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~AssemblyFeatureScope.html)
-
 [IRevolveFeatureData2::AutoSelect Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~AutoSelect.html)
-
 [IRevolveFeatureData2::AutoSelectComponents Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~AutoSelectComponents.html)
 
 ## Availability

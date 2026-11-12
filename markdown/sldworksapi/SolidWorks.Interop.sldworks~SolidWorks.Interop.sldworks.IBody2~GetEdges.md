@@ -40,48 +40,29 @@ System.object GetEdges()
 System.Object^ GetEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
+Array of [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::GetEdges](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetEdges.html)
-
-.
+See [Body2::GetEdges](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetEdges.html).
 
 ## Examples
 
 [Cut Body in Half Using Macro Feature (VBA)](Cut_Body_in_Half_using_Macro_Feature_Example_VB.htm)
-
 [Display Vertices (VBA)](Display_Vertices_Example_VB.htm)
-
 [Check Edges for Faults (C#)](Check_Edges_for_Faults_Example_CSharp.htm)
-
 [Check Edges for Faults (VB.NET)](Check_Edges_for_Faults_Example_VBNET.htm)
-
 [Check Edges for Faults (VBA)](Check_Edges_for_Faults_Example_VB.htm)
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::IGetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IGetEdges.html)
-
 [IModelDocExtension::SelectAll Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectAll.html)
 
 ## Availability

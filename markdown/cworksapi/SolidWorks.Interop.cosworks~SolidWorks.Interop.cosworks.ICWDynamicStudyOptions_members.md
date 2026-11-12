@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # ICWDynamicStudyOptions Interface Members
 
-The following tables list the members exposed by[ICWDynamicStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html).
+The following tables list the members exposed by [ICWDynamicStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html).
 
 ## Public Properties
 
@@ -147,5 +147,4 @@ The following tables list the members exposed by[ICWDynamicStudyOptions](SolidWo
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

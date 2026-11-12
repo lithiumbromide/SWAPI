@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Parent_Component_Example_VB.htm"
 
 # Get Parent Component Example (VBA)
 
-This example shows how to get the parent component of the selected assembly
-or subassembly component.
+This example shows how to get the parent component of the selected assembly or subassembly component.
 
 ```
 '--------------------------------------------------------

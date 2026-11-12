@@ -48,38 +48,20 @@ Number of target entities
 
 ## VBA Syntax
 
-See
-
-[CWContactSet::TargetEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~TargetEntityCount.html)
-
-.
+See [CWContactSet::TargetEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~TargetEntityCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ICWContactSet::GetTargetEntityAt](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~GetTargetEntityAt.html)
-
-and
-
-[ICWContactSet::RemoveTargetEntity](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~RemoveTargetEntity.html)
-
-to determine a valid index for each method.
+Call this method before calling [ICWContactSet::GetTargetEntityAt](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~GetTargetEntityAt.html) and [ICWContactSet::RemoveTargetEntity](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactSet~RemoveTargetEntity.html) to determine a valid index for each method.
 
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWContactSet Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet_members.html)
-
 [ICWContactSet::GetSourceEntityAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~GetSourceEntityAt.html)
-
 [ICWContactSet::InsertTargetEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~InsertTargetEntity.html)
-
 [ICWContactSet::SourceEntityCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~SourceEntityCount.html)
-
 [ICWContactSet::InsertSourceEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~InsertSourceEntity.html)
-
 [ICWContactSet::InsertTargetEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~InsertTargetEntity.html)
 
 ## Availability

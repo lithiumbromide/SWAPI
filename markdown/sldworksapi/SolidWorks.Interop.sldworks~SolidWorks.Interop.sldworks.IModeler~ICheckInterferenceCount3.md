@@ -75,67 +75,34 @@ System.bool ICheckInterferenceCount3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumOfTargetBodies`: Number of target bodies
-- `TargetBodies`: Array of target[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `TargetBodies`: Array of target [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 - `NumOfToolBodies`: Number of tool bodies
-- `ToolBodies`: Array of tool
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-- `Options`: Check interference options as defined by
-
-[swCheckInterferenceOption_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCheckInterferenceOption_e.html)
-- `NumBody1InterferedFaceArray`: Number of
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-that interfered from the first body with the second body
-- `NumBody2InterferedFaceArray`: Number of
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-that interfered from the second body with the first body
-- `NumIntersectedBodyArray`: Number of interfering
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `ToolBodies`: Array of tool [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `Options`: Check interference options as defined by [swCheckInterferenceOption_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCheckInterferenceOption_e.html)
+- `NumBody1InterferedFaceArray`: Number of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) that interfered from the first body with the second body
+- `NumBody2InterferedFaceArray`: Number of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) that interfered from the second body with the first body
+- `NumIntersectedBodyArray`: Number of interfering [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[Modeler::ICheckInterferenceCount3](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICheckInterferenceCount3.html)
-
-.
+See [Modeler::ICheckInterferenceCount3](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICheckInterferenceCount3.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IModeler::ICheckInterference3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICheckInterference3.html)
-
-to get the size of the arrays for that method.
+Call this method before calling [IModeler::ICheckInterference3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICheckInterference3.html) to get the size of the arrays for that method.
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::ICheckInterference3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICheckInterference3.html)
-
 [IModeler::CheckInterference3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CheckInterference3.html)
-
 [IAssemblyDoc::IToolsCheckInterference3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IToolsCheckInterference3.html)
-
 [IAssemblyDoc::ToolsCheckInterference2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ToolsCheckInterference2.html)
 
 ## Availability

@@ -35,5 +35,4 @@ System.String^ moDescription
 ## See Also
 
 [EdmChangeStateTransitionInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo.html)
-
 [EdmChangeStateTransitionInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo_members.html)

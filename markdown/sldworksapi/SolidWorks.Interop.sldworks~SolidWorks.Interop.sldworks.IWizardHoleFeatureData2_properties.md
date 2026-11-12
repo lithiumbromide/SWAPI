@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # IWizardHoleFeatureData2 Interface Properties
 
-For a list of all members of this type, see[IWizardHoleFeatureData2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html).
+For a list of all members of this type, see [IWizardHoleFeatureData2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html).
 
 ## Public Properties
 
@@ -82,11 +82,7 @@ For a list of all members of this type, see[IWizardHoleFeatureData2 members](Sol
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::HoleWizard5 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~HoleWizard5.html)
-
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
 [Hole Wizard Feature Types and Their Valid Properties](Table_of_Wizard_Hole_Types_and_Valid_Properties.htm)

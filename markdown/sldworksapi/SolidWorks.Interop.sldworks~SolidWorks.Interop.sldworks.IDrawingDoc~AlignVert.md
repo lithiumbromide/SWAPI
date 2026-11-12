@@ -39,36 +39,19 @@ void AlignVert()
 void AlignVert();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::AlignVert](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AlignVert.html)
-
-.
+See [DrawingDoc::AlignVert](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AlignVert.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::AlignHorz Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~AlignHorz.html)
-
 [IDrawingDoc::DrawingViewRotate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~DrawingViewRotate.html)
-
 [IDrawingDoc::RestoreRotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~RestoreRotation.html)
-
 [IView::Position Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~Position.html)
-
 [IView::RemoveAlignment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~RemoveAlignment.html)
-
 [IView::UseDefaultAlignment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~UseDefaultAlignment.html)

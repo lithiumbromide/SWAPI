@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetMinMaxFactorOfSafety Method (ICWResults)
 
-Obsolete. Superseded by
-
-[ICWResults::GetMinMaxFactorOfSafety2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFactorOfSafety2.html)
-
-.
+Obsolete. Superseded by [ICWResults::GetMinMaxFactorOfSafety2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFactorOfSafety2.html).
 
 ## Syntax
 
@@ -71,21 +67,9 @@ System.Object^ GetMinMaxFactorOfSafety(
 
 - `BAllBodies`: True to select all bodies to plot the factor of safety, false to select specific bodies
 - `ArraySelectedEntities`: Array of bodies for which to plot the factor of safety; valid only if BAllBodies is set to false
-- `NComponent`: Failure criterion as defined by
-
-[swsFOS_NonCompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NonCompositeCriterion_e.html)
-
-(see
-
-Remarks
-
-)
-- `NShellOptions`: Shell face on which to perform the factor of safety as defined by
-
-[swsFOS_ShellFaceOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFOS_ShellFaceOption_e.html)
-- `ErrorCode`: Error code as defined by
-
-[swsFosPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFosPlotErrorCode_e.html)
+- `NComponent`: Failure criterion as defined by [swsFOS_NonCompositeCriterion_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFOS_NonCompositeCriterion_e.html) (see **Remarks**)
+- `NShellOptions`: Shell face on which to perform the factor of safety as defined by [swsFOS_ShellFaceOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFOS_ShellFaceOption_e.html)
+- `ErrorCode`: Error code as defined by [swsFosPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsFosPlotErrorCode_e.html)
 
 ### Return Value
 
@@ -93,11 +77,7 @@ Array of two doubles of the minimum and maximum factors of safety
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetMinMaxFactorOfSafety](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxFactorOfSafety.html)
-
-.
+See [CWResults::GetMinMaxFactorOfSafety](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetMinMaxFactorOfSafety.html).
 
 ## Remarks
 
@@ -106,11 +86,8 @@ For pure beam studies, you can only specify NComponent with swsFOS_NonCompositeC
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetFactorOfSafetyForComposites Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetFactorOfSafetyForComposites.html)
-
 [ICWResults::GetMinMaxFactorOfSafetyWithDetailSettings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxFactorOfSafetyWithDetailSettings.html)
 
 ## Availability

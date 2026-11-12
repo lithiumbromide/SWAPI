@@ -51,19 +51,11 @@ Path for the results folder
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~ResultFolder.html)
-
-.
+See [CWBucklingStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~ResultFolder.html).
 
 ## Examples
 
-See the
-
-[ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
-examples.
+See the [ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html) examples.
 
 ## Remarks
 
@@ -72,7 +64,6 @@ Make sure that the specified folder has adequate disk space for the analysis res
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
 
 ## Availability

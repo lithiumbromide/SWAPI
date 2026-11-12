@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetFeatureCount Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetFeatureCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetFeatureCount.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetFeatureCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetFeatureCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetFeatureCount()
 System.int GetFeatureCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetFeatureCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetFeatureCount.html)
-
-.
+See [ModelDoc::GetFeatureCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetFeatureCount.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

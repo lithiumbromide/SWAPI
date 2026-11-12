@@ -47,19 +47,11 @@ System.bool GetDocumentVisible(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Document type as defined by
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `Type`: Document type as defined by [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
 
 ### Return Value
 
@@ -67,16 +59,11 @@ True if the document will be visible when opened, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetDocumentVisible](ms-its:sldworksapivb6.chm::/Sldworks~SldWorks~GetDocumentVisible.html)
-
-.
+See [SldWorks::GetDocumentVisible](ms-its:sldworksapivb6.chm::/Sldworks~SldWorks~GetDocumentVisible.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

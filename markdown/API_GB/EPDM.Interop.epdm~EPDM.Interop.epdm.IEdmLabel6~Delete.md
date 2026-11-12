@@ -39,11 +39,7 @@ void Delete(
 
 ### Parameters
 
-- `hParentWnd`: Parent window handle; passed to add-ins that have registered the hooks,
-
-[EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-.EdmCmd_PreLabelModify and EdmCmdData.EdmCmd_PostLabelModify
+- `hParentWnd`: Parent window handle; passed to add-ins that have registered the hooks, [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html).EdmCmd_PreLabelModify and EdmCmdData.EdmCmd_PostLabelModify
 
 ## Remarks
 
@@ -55,7 +51,6 @@ void Delete(
 ## See Also
 
 [IEdmLabel6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel6.html)
-
 [IEdmLabel6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmLabel6_members.html)
 
 ## Availability

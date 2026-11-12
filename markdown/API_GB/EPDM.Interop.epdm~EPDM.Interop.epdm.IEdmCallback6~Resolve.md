@@ -43,23 +43,11 @@ void Resolve(
 ### Parameters
 
 - `lParentWnd`: Handle of the parent window
-- `ppoItems`: Array of
-
-[EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-structures; one structure for each item that needs to be resolved (see
-
-Remarks
-
-)
+- `ppoItems`: Array of [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html) structures; one structure for each item that needs to be resolved (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html)
-
-examples.
+See the [IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html) examples.
 
 ## Remarks
 
@@ -81,7 +69,6 @@ The ppoItems array may contain items that do not need to be resolved. The mlLong
 ## See Also
 
 [IEdmCallback6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html)
-
 [IEdmCallback6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4_metho
 
 # IEdmBatchChangeState4 Interface Methods
 
-For a list of all members of this type, see[IEdmBatchChangeState4 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4_members.html).
+For a list of all members of this type, see [IEdmBatchChangeState4 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmBatchChangeState4 members](EPDM.
 ## See Also
 
 [IEdmBatchChangeState4 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

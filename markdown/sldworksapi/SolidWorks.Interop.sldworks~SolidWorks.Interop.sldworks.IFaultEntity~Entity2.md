@@ -47,13 +47,7 @@ property System.Object^ Entity2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,17 @@ Entity at Index or NULL if the object at Index is not an entity
 
 ## VBA Syntax
 
-See
-
-[FaultEntity::Entity2](ms-its:sldworksapivb6.chm::/sldworks~FaultEntity~Entity2.html)
-
-.
+See [FaultEntity::Entity2](ms-its:sldworksapivb6.chm::/sldworks~FaultEntity~Entity2.html).
 
 ## Remarks
 
-To determine the value for Index, call[IFaultEntity::Count](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFaultEntity~Count.html)before calling this property. Call[IFaultEntity::ErrorCode](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFaultEntity~ErrorCode.html)to determine the error code.
+To determine the value for Index, call [IFaultEntity::Count](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFaultEntity~Count.html) before calling this property. Call [IFaultEntity::ErrorCode](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFaultEntity~ErrorCode.html) to determine the error code.
 
 This method might return NULL if the entity is absorbed by the fault.
 
 ## See Also
 
 [IFaultEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity.html)
-
 [IFaultEntity Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaultEntity_members.html)
 
 ## Availability

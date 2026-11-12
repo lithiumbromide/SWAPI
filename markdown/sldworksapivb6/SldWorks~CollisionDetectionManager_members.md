@@ -1,6 +1,5 @@
 ---
-title: "CollisionDetectionManager Object
-Members"
+title: "CollisionDetectionManager Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CollisionDetectionManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CollisionDetectionManager_members.html"
 ---
 
-# CollisionDetectionManager Object
-Members
+# CollisionDetectionManager Object Members
 
 ## Public Methods
 

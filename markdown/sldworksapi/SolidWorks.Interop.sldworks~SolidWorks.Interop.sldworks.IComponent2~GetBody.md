@@ -40,13 +40,7 @@ System.object GetBody()
 System.Object^ GetBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,31 +48,21 @@ Body
 
 ## VBA Syntax
 
-See
-
-[Component2::GetBody](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetBody.html)
-
-.
+See [Component2::GetBody](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetBody.html).
 
 ## Examples
 
 [Combine Assembly Components into Part (VBA)](Combine_Assembly_Components_into_Part_Example_VB.htm)
-
 [Get Mass Properties of Assembly Component (VBA)](Get_Mass_Properties_of_Assembly_Component_Example_VB.htm)
-
 [Get Material Properties (VBA)](Get_Material_Properties_Example_VB.htm)
-
 [Select Component Face By Name (VBA)](Get_Component_Face_By_Name_Example_VB.htm)
-
 [Display Temporary Body (C#)](Display_Temporary_Body_Example_CSharp.htm)
-
 [Display Temporary Body (VB.NET)](Display_Temporary_Body_Example_VBNET.htm)
-
 [Display Temporary Body (VBA)](Display_Temporary_Body_Example_VB.htm)
 
 ## Remarks
 
-This method returns a valid IBody2 object only for fully resolved components that reference an[IPartDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html). For the root component, lightweight components or components that reference an AssemblyDoc, this method returns a NULL body object. However, if a component is in a multibody part, then this method returns the first body.
+This method returns a valid IBody2 object only for fully resolved components that reference an [IPartDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html). For the root component, lightweight components or components that reference an AssemblyDoc, this method returns a NULL body object. However, if a component is in a multibody part, then this method returns the first body.
 
 For COM applications, this method returns the status code ITF_E_COMPONENTNOTRESOLVED.
 
@@ -89,18 +73,14 @@ For example, if PartABC is added to an assembly twice, then changes to that IPar
 For example, one assembly configuration might have an assembly-level feature that cuts a hole through each of the components in the assembly. Using this method on each of the assembly components returns the body of each component with the hole feature that was applied in this particular configuration. If you switch to the configuration
 without the assembly-level hole and re-traverse the IComponent2 objects, then calling this method for each component returns the IBody2 object without the hole feature because it was applied in the other configuration.
 
-For more information on lightweight components, see[IComponent2::GetSuppression](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetSuppression.html),[IComponent2::SetSuppression2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~SetSuppression2.html), and[IAssemblyDoc::ResolveAllLightWeightComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~ResolveAllLightWeightComponents.html).
+For more information on lightweight components, see [IComponent2::GetSuppression](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetSuppression.html), [IComponent2::SetSuppression2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~SetSuppression2.html), and [IAssemblyDoc::ResolveAllLightWeightComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~ResolveAllLightWeightComponents.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::IGetBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IGetBody.html)
-
 [IComponent2::EnumBodies2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~EnumBodies2.html)
-
 [IComponent2::GetBodies3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetBodies3.html)
 
 ## Availability

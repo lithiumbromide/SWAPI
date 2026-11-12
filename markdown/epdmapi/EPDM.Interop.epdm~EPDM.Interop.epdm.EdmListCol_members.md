@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol_members.html"
 
 # EdmListCol Structure Members
 
-The following tables list the members exposed by[EdmListCol](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html).
+The following tables list the members exposed by [EdmListCol](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html).
 
 ## Public Fields
 
@@ -27,5 +27,4 @@ The following tables list the members exposed by[EdmListCol](EPDM.Interop.epdm~E
 ## See Also
 
 [EdmListCol Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

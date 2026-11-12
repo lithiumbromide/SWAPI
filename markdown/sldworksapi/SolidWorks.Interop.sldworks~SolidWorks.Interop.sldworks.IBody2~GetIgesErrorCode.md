@@ -47,13 +47,7 @@ System.int GetIgesErrorCode(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ IGES error code
 
 ## VBA Syntax
 
-See
-
-[Body2::GetIgesErrorCode](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetIgesErrorCode.html)
-
-.
+See [Body2::GetIgesErrorCode](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetIgesErrorCode.html).
 
 ## Remarks
 
@@ -78,9 +68,7 @@ This method is intended for use during IGES processing only.
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::GetIgesErrorCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetIgesErrorCount.html)
 
 ## Availability

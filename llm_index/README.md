@@ -12,7 +12,7 @@ Recommended agent flow:
 
 Files:
 
-- `manifest.json`: corpus counts and kind/module summaries.
+- `manifest.json`: API version, corpus counts, and kind/module summaries.
 - `documents.jsonl`: one compact row per Markdown file.
 - `symbols.jsonl`: symbol-oriented lookup table.
 - `documents.tsv`: cheapest path/title/kind/module lookup.

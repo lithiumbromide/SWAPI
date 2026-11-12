@@ -51,19 +51,11 @@ System.bool IsNameUsed(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type of entity or entities whose names to check as defined by
-
-[swNameType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNameType_e.html)
+- `Type`: Type of entity or entities whose names to check as defined by [swNameType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNameType_e.html)
 - `Name`: Name of entity
 
 ### Return Value
@@ -72,24 +64,15 @@ True if name is in use (i.e., not valid to use again); false if the name is not 
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::IsNameUsed](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~IsNameUsed.html)
-
-.
+See [FeatureManager::IsNameUsed](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~IsNameUsed.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IBody2::Name](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Name.html)
-
-to check to see if the new name specified for the selected body is valid.
+Call this method before calling [IBody2::Name](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Name.html) to check to see if the new name specified for the selected body is valid.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

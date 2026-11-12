@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRepaintType.html"
 
 # EdmRepaintType Enumeration
 
-Types of flags passed into
-
-[IEdmImage::Reposition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage~Reposition.html)
-
-to control how to handle repainting of the background window.
+Types of flags passed into [IEdmImage::Reposition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage~Reposition.html) to control how to handle repainting of the background window.
 
 ## Syntax
 

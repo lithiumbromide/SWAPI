@@ -9,8 +9,7 @@ source: "swdocmgrapi/Get_Preview_Bitmap_of_Drawing_Sheet_Example_CSharp.htm"
 
 # Get Preview Bitmap of Drawing Sheet Example (C#)
 
-This example shows how to get a BMP preview bitmap of the sheet that
-was active when the drawing was last saved.
+This example shows how to get a BMP preview bitmap of the sheet that was active when the drawing was last saved.
 
 ```
 //-----------------------------------------------------------------------------

@@ -50,16 +50,8 @@ void GetMenuInfo(
 
 - `ppoForms`: Array of search forms
 - `ppoFavorites`: Array of favorite searches
-- `plSysPerm`: Combination of
-
-[EdmSysRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html)
-
-bits for the logged-in user
-- `plEdmGetMenuInfoFlags`: Combination of
-
-[EdmGetMenuInfoFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetMenuInfoFlags.html)
-
-bits
+- `plSysPerm`: Combination of [EdmSysRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html) bits for the logged-in user
+- `plEdmGetMenuInfoFlags`: Combination of [EdmGetMenuInfoFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetMenuInfoFlags.html) bits
 
 ## Remarks
 
@@ -70,7 +62,6 @@ bits
 ## See Also
 
 [IEdmSearch7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch7.html)
-
 [IEdmSearch7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch7_members.html)
 
 ## Availability

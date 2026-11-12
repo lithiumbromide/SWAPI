@@ -40,13 +40,7 @@ System.int GetEntitiesCount()
 System.int GetEntitiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,18 @@ Number of entities on which this appearance was applied
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::GetEntitiesCount](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~GetEntitiesCount.html)
-
-.
+See [RenderMaterial::GetEntitiesCount](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~GetEntitiesCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IRenderMaterial::IGetEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~IGetEntities.html)
-
-to get the size of the array for that method.
+Call this method before calling [IRenderMaterial::IGetEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~IGetEntities.html) to get the size of the array for that method.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
-
 [IRenderMaterial::AddEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~AddEntity.html)
-
 [IRenderMaterial::GetEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~GetEntities.html)
-
 [IRenderMaterial::RemoveAllEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~RemoveAllEntities.html)
 
 ## Availability

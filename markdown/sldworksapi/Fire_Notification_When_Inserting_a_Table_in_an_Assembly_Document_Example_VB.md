@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Inserting_a_Table_in_an_Assembly_Doc
 
 # Fire Notification When Inserting a Table in an Assembly Document Example (VBA)
 
-This example shows how to fire a notification when a table is inserted in an
-assembly document.
+This example shows how to fire a notification when a table is inserted in an assembly document.
 
 ```
 '-----------------------------------------------------------------------------

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICoEdge Interface Members
 
-The following tables list the members exposed by[ICoEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html).
+The following tables list the members exposed by [ICoEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html).
 
 ## Public Methods
 
@@ -39,11 +39,7 @@ The following tables list the members exposed by[ICoEdge](SolidWorks.Interop.sld
 ## See Also
 
 [ICoEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IEnumCoEdgeClass Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumCoEdges.html)
-
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)

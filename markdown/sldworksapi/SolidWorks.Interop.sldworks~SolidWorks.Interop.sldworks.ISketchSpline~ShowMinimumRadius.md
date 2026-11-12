@@ -45,13 +45,7 @@ property System.bool ShowMinimumRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Minimum radius
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::ShowMinimumRadius](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~ShowMinimumRadius.html)
-
-.
+See [SketchSpline::ShowMinimumRadius](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~ShowMinimumRadius.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
 
 ## Availability

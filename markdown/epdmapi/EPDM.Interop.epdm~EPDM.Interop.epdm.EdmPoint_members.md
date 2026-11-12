@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint_members.html"
 
 # EdmPoint Structure Members
 
-The following tables list the members exposed by[EdmPoint](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint.html).
+The following tables list the members exposed by [EdmPoint](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[EdmPoint](EPDM.Interop.epdm~EPD
 ## See Also
 
 [EdmPoint Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -49,32 +49,23 @@ System.int SetMeshOption(
 
 ### Parameters
 
-- `NMeshOption`: Mesh compatibility option as defined in
-
-[swsMeshCompatibility_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshCompatibility_e.html)
+- `NMeshOption`: Mesh compatibility option as defined in [swsMeshCompatibility_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMeshCompatibility_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
+Error code as defined in [swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMultipleComponentContactsEditManager::SetMeshOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~SetMeshOption.html)
-
-.
+See [CWMultipleComponentContactsEditManager::SetMeshOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~SetMeshOption.html).
 
 ## Remarks
 
-This method is valid only if[ICWMultipleComponentContactsEditManager::SetContactType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~SetContactType.html)'s NType is set to[swsContactType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactType_e.html).swsContactTypeBonded.
+This method is valid only if [ICWMultipleComponentContactsEditManager::SetContactType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~SetContactType.html)'s NType is set to [swsContactType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsContactType_e.html).swsContactTypeBonded.
 
 ## See Also
 
 [ICWMultipleComponentContactsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html)
-
 [ICWMultipleComponentContactsEditManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager_members.html)
 
 ## Availability

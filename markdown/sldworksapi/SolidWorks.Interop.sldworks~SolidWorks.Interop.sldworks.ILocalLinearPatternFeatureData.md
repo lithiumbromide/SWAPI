@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 Allows access to a linear component pattern feature in an assembly.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ILocalLinearPatternFeatureData
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData.html)
-
-.
+See [LocalLinearPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData.html).
 
 ## Examples
 
@@ -93,14 +89,14 @@ status = swModelDocExt.SelectByID2("mount base-1 @ distance linkage", "COMPONENT
 
 Set swLocalLinearPatternFD = swFeatureManager.**CreateDefinition**(swFmLocalLPattern)
 
-swLocalLinearPatternFD.**D1ReverseDirection**= True
-swLocalLinearPatternFD.**D1Spacing**= 0.1516
-swLocalLinearPatternFD.**D1TotalInstances**= 4
-swLocalLinearPatternFD.**D2PatternSeedOnly**= False
-swLocalLinearPatternFD.**D2ReverseDirection**= False
-swLocalLinearPatternFD.**D2Spacing**= 0.05
-swLocalLinearPatternFD.**D2TotalInstances**= 1
-swLocalLinearPatternFD.**SynchronizeFlexibleComponents**= False
+swLocalLinearPatternFD.**D1ReverseDirection** = True
+swLocalLinearPatternFD.**D1Spacing** = 0.1516
+swLocalLinearPatternFD.**D1TotalInstances** = 4
+swLocalLinearPatternFD.**D2PatternSeedOnly** = False
+swLocalLinearPatternFD.**D2ReverseDirection** = False
+swLocalLinearPatternFD.**D2Spacing** = 0.05
+swLocalLinearPatternFD.**D2TotalInstances** = 1
+swLocalLinearPatternFD.**SynchronizeFlexibleComponents** = False
 
 Set swFeature = swFeatureManager.**CreateFeature**(swLocalLinearPatternFD)
 
@@ -112,18 +108,15 @@ End Sub
 ## Examples
 
 [Get and Set Seed Components (C#)](Get_and_Set_Seed_Components_Example_CSharp.htm)
-
 [Get and Set Seed Components (VB.NET)](Get_and_Set_Seed_Components_Example_VBNET.htm)
-
 [Get and Set Seed Components (VBA)](Get_and_Set_Seed_Components_Example_VB.htm)
-
 [Create Local Linear Pattern (C#)](Create_Local_Linear_Pattern_Example_CSharp.htm)
 
 ## Remarks
 
-Read[Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
+Read [Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
 
-Before calling[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html), you must pre-select the D1 and D2 end (and seed) reference entities to create the linear component pattern feature.
+Before calling [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html), you must pre-select the D1 and D2 end (and seed) reference entities to create the linear component pattern feature.
 
 | If... | To select an up-to entity (vertex, edge, face, or plane), use... | To select a body, use... | To select a component, use... |
 | --- | --- | --- | --- |
@@ -132,88 +125,39 @@ Before calling[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~So
 
 After calling IFeatureManager::CreateDefinition, you can further initialize the feature data object using:
 
-- [ILocalLinearPatternFeatureData::D1Axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1Axis.html)
+- [ILocalLinearPatternFeatureData::D1Axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1Axis.html) to specify Direction 1.
 
-  to specify Direction 1.
+- [ILocalLinearPatternFeatureData::SeedComponentArray](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~SeedComponentArray.html) to specify the pattern's seed components.
 
-- [ILocalLinearPatternFeatureData::SeedComponentArray](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~SeedComponentArray.html)
-
-  to specify the pattern's seed components.
-
-- [ILocalLinearPatternFeatureData::D1EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1EndCondition.html)
-
-  to specify either spacing and instances or offsetting from an up-to reference:
+- [ILocalLinearPatternFeatureData::D1EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1EndCondition.html) to specify either spacing and instances or offsetting from an up-to reference:
 
 **If explicitly setting pattern spacing and number of pattern instances, use:**
 
-- [ILocalLinearPatternFeatureData::D1Spacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1Spacing.html)
+- [ILocalLinearPatternFeatureData::D1Spacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1Spacing.html) to specify spacing between pattern instances.
+- [ILocalLinearPatternFeatureData::D1TotalInstances](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1TotalInstances.html) to specify the number of pattern instances.
+- [ILocalLinearPatternFeatureData::D1ReverseDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1ReverseDirection.html) to reverse Direction 1.
+- [ILocalLinearPatternFeatureData::RotateInstances](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotateInstances.html) to rotate pattern instances. If true:
 
-  to specify spacing between pattern instances.
-- [ILocalLinearPatternFeatureData::D1TotalInstances](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1TotalInstances.html)
-
-  to specify the number of pattern instances.
-- [ILocalLinearPatternFeatureData::D1ReverseDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1ReverseDirection.html)
-
-  to reverse Direction 1.
-- [ILocalLinearPatternFeatureData::RotateInstances](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotateInstances.html)
-
-  to rotate pattern instances. If true:
-
-- Use
-
-  [ILocalLinearPatternFeatureData::RotationAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotationAngle.html)
-
-  .
-- Use
-
-  [ILocalLinearPatternFeatureData::RotationAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotationAxis.html)
-
-  .
-- Use
-
-  [ILocalLinearPatternFeatureData::FixedAxisOfRotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~FixedAxisOfRotation.html)
-
-  . If true: Use
-
-  [ILocalLinearPatternFeatureData::AlignToSeed](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~AlignToSeed.html)
-
-  . If true:
-
-  Use
-
-  [ILocalLinearPatternFeatureData::SeedAlignmentReferencePoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~SeedAlignmentReferencePoint.html)
-
-  .
+- Use [ILocalLinearPatternFeatureData::RotationAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotationAngle.html).
+- Use [ILocalLinearPatternFeatureData::RotationAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~RotationAxis.html).
+- Use [ILocalLinearPatternFeatureData::FixedAxisOfRotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~FixedAxisOfRotation.html). If true: Use [ILocalLinearPatternFeatureData::AlignToSeed](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~AlignToSeed.html). If true:
+  Use [ILocalLinearPatternFeatureData::SeedAlignmentReferencePoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~SeedAlignmentReferencePoint.html).
 
 **If offsetting from an up-to reference, use:**
 
-- - [ILocalLinearPatternFeatureData::D1EndRefOffset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1EndRefOffset.html)
+- - [ILocalLinearPatternFeatureData::D1EndRefOffset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1EndRefOffset.html) to specify the distance between the last pattern instance and the up-to reference.
 
-    to specify the distance between the last pattern instance and the up-to reference.
-
-  - [ILocalLinearPatternFeatureData::D1EndRefReverseOffset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1EndRefReverseOffset.html)
-
-    to reverse the offset.
-  - [ILocalLinearPatternFeatureData::D1EndUseSpacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1EndUseSpacing.html)
-
-    to specify either spacing or number of instances (one or the other, not both):
+  - [ILocalLinearPatternFeatureData::D1EndRefReverseOffset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1EndRefReverseOffset.html) to reverse the offset.
+  - [ILocalLinearPatternFeatureData::D1EndUseSpacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D1EndUseSpacing.html) to specify either spacing or number of instances (one or the other, not both):
 
     - If true, use ILocalLinearPatternFeatureData::D1Spacing.
     - If false, use ILocalLinearPatternFeatureData::D1TotalInstances.
 - All of the ILocalLinearPatternFeatureData::D2* properties to specify Direction 2 for a bidirectional linear component pattern.
-- Other properties such as
+- Other properties such as [instances to skip](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~SkippedItemArray.html) and [synchronize movement of flexible subassembly components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~SynchronizeFlexibleComponents.html).
 
-  [instances to skip](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~SkippedItemArray.html)
+You must call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) after initializing this feature data object in order to successfully create the linear pattern feature.
 
-  and
-
-  [synchronize movement of flexible subassembly components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~SynchronizeFlexibleComponents.html)
-
-  .
-
-You must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)after initializing this feature data object in order to successfully create the linear pattern feature.
-
-For more information, see the**Linear Component Pattern PropertyManager**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Linear Component Pattern PropertyManager** topic in the SOLIDWORKS Design user-interface help.
 
 ## Accessors
 
@@ -228,7 +172,5 @@ IFeatureManager::CreateDefinition
 ## See Also
 
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ILinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)

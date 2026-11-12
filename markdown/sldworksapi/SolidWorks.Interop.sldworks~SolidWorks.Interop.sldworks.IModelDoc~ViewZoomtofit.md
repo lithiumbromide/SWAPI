@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ViewZoomtofit Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ViewZoomtofit](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewZoomtofit.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ViewZoomtofit](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewZoomtofit.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ViewZoomtofit()
 void ViewZoomtofit();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ViewZoomtofit](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewZoomtofit.html)
-
-.
+See [ModelDoc::ViewZoomtofit](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewZoomtofit.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

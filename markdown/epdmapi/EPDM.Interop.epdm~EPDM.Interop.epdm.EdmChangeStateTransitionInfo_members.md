@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInf
 
 # EdmChangeStateTransitionInfo Structure Members
 
-The following tables list the members exposed by[EdmChangeStateTransitionInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo.html).
+The following tables list the members exposed by [EdmChangeStateTransitionInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo.html).
 
 ## Public Fields
 
@@ -27,5 +27,4 @@ The following tables list the members exposed by[EdmChangeStateTransitionInfo](E
 ## See Also
 
 [EdmChangeStateTransitionInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

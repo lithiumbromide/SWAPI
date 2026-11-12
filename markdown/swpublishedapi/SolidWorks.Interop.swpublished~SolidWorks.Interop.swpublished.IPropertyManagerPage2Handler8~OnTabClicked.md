@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnTabClicked Method (IPropertyManagerPage2Handler8)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler9::OnTabClicked](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnTabClicked.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler9::OnTabClicked](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnTabClicked.html).
 
 ## Syntax
 
@@ -53,11 +49,7 @@ System.bool OnTabClicked(
 
 ### Parameters
 
-- `Id`: ID of the clicked tab (see
-
-Remarks
-
-)
+- `Id`: ID of the clicked tab (see Remarks)
 
 ### Return Value
 
@@ -65,15 +57,11 @@ True if the tab clicked is processed, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler8::OnTabClicked](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnTabClicked.html)
-
-.
+See [PropertyManagerPage2Handler8::OnTabClicked](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnTabClicked.html).
 
 ## Remarks
 
-The value of Id is the ID that was specified when the tab was created by[IPropertyManagerPage2::AddTab](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddTab.html).
+The value of Id is the ID that was specified when the tab was created by [IPropertyManagerPage2::AddTab](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddTab.html).
 
 When a user clicks a tab, control is passed to the add-in via this method. The add-in is expected to show or hide groups and controls intended to be visible or hidden on that tab.
 
@@ -82,7 +70,6 @@ Your add-in is responsible for showing and hiding the controls on a tab to simul
 ## See Also
 
 [IPropertyManagerPage2Handler8 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8.html)
-
 [IPropertyManagerPage2Handler8 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8_members.html)
 
 ## Availability

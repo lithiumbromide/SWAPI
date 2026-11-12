@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Equation_And_Evaluate_All_Example_VBNET.htm"
 
 # Add Equation and Evaluate All Example (VB.NET)
 
-This example shows how to use IEquationMgr interfaces
-to add an equation to a model and delay evaluation until all equations are added.
+This example shows how to use IEquationMgr interfaces to add an equation to a model and delay evaluation until all equations are added.
 
 ```
 '------------------------------------------------------------------------
@@ -28,156 +27,60 @@ to add an equation to a model and delay evaluation until all equations are added
 #Const ccTIMER = 1
 ```
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Public
-Sub Main()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModel As ModelDoc2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel
-= swApp.**ActiveDoc**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-MyEqu As EquationMgr
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-Index As Integer
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-lValue As Long
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-evalStatus As Long
-
-#If ccTIMER = 1 Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-t1 As Single
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-t2 As Single
-
-#Else
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-t1kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Date
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-t2kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Date
-
-#End If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-i As Long
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}i
-= 0
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}MyEqu
-= swModel.**GetEquationMgr**
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-MyEqu.**GetCount**> 0 Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Do
-While (i < 26)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}MyEqu.**Delete**(0)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}i
-= i + 1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Loop
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Delaying
-evaluation of equations until the end...")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-Index = Asc("A") To Asc("Z")
-
-#If ccTIMER = 1 Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}t1
-= Timer
-
-#Else
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}t1
-= Now
-
-#End If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Delay
-solving each equation until after all equations are
-'added (set solve parameter
-to false)
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'FeatureManager
-design tree not updated
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}lValue
-= MyEqu.Add2(Index, """"
-& Microsoft.VisualBasic.Chr(Index) & """="
-& Index, False)
-
-#If ccTIMER = 1 Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}t2
-= Timer
-
-#Else
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}t2
-= Now
-
-#End If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Time
-of evaluation for character " + Microsoft.VisualBasic.Chr(Index)
-+ ": ")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print(t2
-- t1)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-Index
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Number
-of equations added to EquationMgr is " & MyEqu.**GetCount**)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Solve
-all equations after they have been added
-kadov_tag{{</spaces>}}'FeatureManager
-design tree updated
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Evaluating
-all equations...")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}evalStatus
-= MyEqu.EvaluateAll()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("Finished
-Add2 and EvaluateAll")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}MyEqu
-= Nothing
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel
-= Nothing
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'swApp.**CloseAllDocuments**True
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp
-= Nothing
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-Sub
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Public
-swApp As SldWorks
-
+```vb
+    Public Sub Main()
+        Dim swModel As ModelDoc2
+        swModel = swApp.ActiveDoc
+        Dim MyEqu As EquationMgr
+        Dim Index As Integer
+        Dim lValue As Long
+        Dim evalStatus As Long
+        #If ccTIMER = 1 Then
+            Dim t1 As Single
+            Dim t2 As Single
+        #Else
+            Dim t1     As Date
+            Dim t2     As Date
+        #End If
+        Dim i As Long
+        i = 0
+        MyEqu = swModel.GetEquationMgr
+        If MyEqu.GetCount > 0 Then
+            Do While (i < 26)
+                MyEqu.Delete(0)
+                i = i + 1
+            Loop
+        End If
+        Debug.Print("Delaying evaluation of equations until the end...")
+        For Index = Asc("A") To Asc("Z")
+        #If ccTIMER = 1 Then
+                t1 = Timer
+        #Else
+            t1 = Now
+        #End If
+            'Delay solving each equation until after all equations are
+             'added (set solve parameter to false)
+             'FeatureManager design tree not updated
+            lValue = MyEqu.Add2(Index, """" & Microsoft.VisualBasic.Chr(Index) & """=" & Index, False)
+        #If ccTIMER = 1 Then
+                t2 = Timer
+        #Else
+            t2 = Now
+        #End If
+            Debug.Print("Time of evaluation for character " + Microsoft.VisualBasic.Chr(Index) + ": ")
+            Debug.Print(t2 - t1)
+        Next Index
+        Debug.Print("Number of equations added to EquationMgr is " & MyEqu.GetCount)
+        'Solve all equations after they have been added
+         'FeatureManager design tree updated
+        Debug.Print("Evaluating all equations...")
+        evalStatus = MyEqu.EvaluateAll()
+        Debug.Print("Finished Add2 and EvaluateAll")
+        MyEqu = Nothing
+        swModel = Nothing
+        'swApp.CloseAllDocuments True
+        swApp = Nothing
+    End Sub
+    Public swApp As SldWorks
 End Class
+```

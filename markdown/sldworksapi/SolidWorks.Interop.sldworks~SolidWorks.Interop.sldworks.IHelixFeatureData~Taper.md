@@ -45,13 +45,7 @@ property System.bool Taper {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if helix is tapered, false if not tapered
 
 ## VBA Syntax
 
-See
-
-[HelixFeatureData::Taper](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~Taper.html)
-
-.
+See [HelixFeatureData::Taper](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~Taper.html).
 
 ## See Also
 
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [IHelixFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData_members.html)
 
 ## Availability

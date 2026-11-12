@@ -1,6 +1,5 @@
 ---
-title: "CWTopologyMassConstraint Object
-Members"
+title: "CWTopologyMassConstraint Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWTopologyMassConstraint_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWTopologyMassConstraint_members.html"
 ---
 
-# CWTopologyMassConstraint Object
-Members
+# CWTopologyMassConstraint Object Members
 
 ## Public Methods
 

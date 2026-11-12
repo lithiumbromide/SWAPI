@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumModelViews Interface Members
 
-The following tables list the members exposed by[IEnumModelViews](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumModelViews.html).
+The following tables list the members exposed by [IEnumModelViews](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumModelViews.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[IEnumModelViews](SolidWorks.Int
 ## See Also
 
 [IEnumModelViews Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumModelViews.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

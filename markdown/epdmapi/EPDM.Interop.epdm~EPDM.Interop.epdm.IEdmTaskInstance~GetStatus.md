@@ -33,13 +33,11 @@ EdmTaskStatus GetStatus();
 
 ### Return Value
 
-Status as defined in
-
-[EdmTaskStatus](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskStatus.html)
+Status as defined in [EdmTaskStatus](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskStatus.html)
 
 ## Remarks
 
-The add-in calls this method regularly during the processing of[EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_TaskRun to see if the task has been canceled or suspended in the task list user interface.
+The add-in calls this method regularly during the processing of [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_TaskRun to see if the task has been canceled or suspended in the task list user interface.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -48,11 +46,8 @@ The add-in calls this method regularly during the processing of[EdmCmdType](EPDM
 ## See Also
 
 [IEdmTaskInstance Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)
-
 [IEdmTaskInstance Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance_members.html)
-
 [IEdmTaskInstance::SetStatus Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance~SetStatus.html)
-
 [Task Add-in Sample](TaskSample.htm)
 
 ## Availability

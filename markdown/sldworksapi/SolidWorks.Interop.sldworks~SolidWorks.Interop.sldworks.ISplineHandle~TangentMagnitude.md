@@ -50,19 +50,11 @@ property System.double TangentMagnitude {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `WhichDirection`: Direction as defined in
-
-[swTangentMagnitudeDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangentMagnitudeDirection_e.html)
+- `WhichDirection`: Direction as defined in [swTangentMagnitudeDirection_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangentMagnitudeDirection_e.html)
 
 ### Property Value
 
@@ -70,30 +62,18 @@ Weight for the tangency magnitude in the specified direction
 
 ## VBA Syntax
 
-See
-
-[SplineHandle::TangentMagnitude](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~TangentMagnitude.html)
-
-.
+See [SplineHandle::TangentMagnitude](ms-its:sldworksapivb6.chm::/sldworks~SplineHandle~TangentMagnitude.html).
 
 ## Examples
 
-See the
-
-[ISplineHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
-examples.
+See the [ISplineHandle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html) examples.
 
 ## See Also
 
 [ISplineHandle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle.html)
-
 [ISplineHandle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle_members.html)
-
 [ISplineHandle::TangentDriving Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle~TangentDriving.html)
-
 [ISplineHandle::TangentPolarDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle~TangentPolarDirection.html)
-
 [ISplineHandle::TangentRadialDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle~TangentRadialDirection.html)
 
 ## Availability

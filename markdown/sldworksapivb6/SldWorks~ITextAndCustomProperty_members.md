@@ -1,6 +1,5 @@
 ---
-title: "ITextAndCustomProperty Object
-Members"
+title: "ITextAndCustomProperty Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ITextAndCustomProperty_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ITextAndCustomProperty_members.html"
 ---
 
-# ITextAndCustomProperty Object
-Members
+# ITextAndCustomProperty Object Members
 
 ## Public Properties
 

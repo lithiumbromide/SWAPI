@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILi
 
 # ILinearCouplerMateFeatureData Interface Properties
 
-For a list of all members of this type, see[ILinearCouplerMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData_members.html).
+For a list of all members of this type, see [ILinearCouplerMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData_members.html).
 
 ## Public Properties
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[ILinearCouplerMateFeatureData member
 ## See Also
 
 [ILinearCouplerMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

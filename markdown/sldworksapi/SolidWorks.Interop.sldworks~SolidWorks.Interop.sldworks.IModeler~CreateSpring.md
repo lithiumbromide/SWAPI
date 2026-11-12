@@ -40,13 +40,7 @@ Spring CreateSpring()
 Spring^ CreateSpring();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[Modeler::CreateSpring](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreateSpring.html)
-
-.
+See [Modeler::CreateSpring](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreateSpring.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
 
 ## Availability

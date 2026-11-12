@@ -9,66 +9,42 @@ source: "sldworksapi/Select_All_Sketch_Segments_Example_CPlusPlus_COM.htm"
 
 # Select All Sketch Segments Example (C++ COM)
 
-This example shows how to use the IEnumSketchSegments
-interface to select all sketch segments in the active sketch. Nearly identical
-code could be used to also select all the sketch points in the active
-sketch by replacing IEnumSketchSegments with IEnumSketchPoints.
+This example shows how to use the IEnumSketchSegments interface to select all sketch segments in the active sketch. Nearly identical code could be used to also select all the sketch points in the active sketch by replacing IEnumSketchSegments with IEnumSketchPoints.
 
-LPMODELDOC pModelDoc = NULL;
+```vb
+ LPMODELDOC pModelDoc = NULL;
+ hres = UserApp->getSWApp()->get_IActiveDoc(&pModelDoc);
+ if (pModelDoc == NULL) return;
 
-hres = UserApp->getSWApp()->get_IActiveDoc(&pModelDoc);
+ LPSKETCH pSketch = NULL;
+ hres = pModelDoc->IGetActiveSketch2(&pSketch);
 
-if (pModelDoc == NULL) return;
+ // No Active Sketch
+ if (pSketch == NULL) return;
 
-LPSKETCH pSketch = NULL;
+ LPENUMSKETCHSEGMENTS pSketchSegEnum = NULL;
+ hres = pSketch->IEnumSketchSegments(&pSketchSegEnum);
 
-hres = pModelDoc->IGetActiveSketch2(&pSketch);
+ // No Sketch segments exist
+ if (pSketchSegEnum == NULL) return;
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-No Active Sketch
+ int segNum = 0;
+ LPSKETCHSEGMENT pSketchSegment = NULL;
+ long skReturned = -1
+ hres = pSketchSegEnum->Next(1, &pSketchSegment, &skReturned);
+ while (S_OK == hres)
+ {
+  VARIANT_BOOL ok = FALSE;
 
-if (pSketch == NULL) return;
+  // Select the SketchSegment object
+  hres = pSketchSegment->Select(TRUE, &ok);
 
-LPENUMSKETCHSEGMENTS pSketchSegEnum = NULL;
+  if (!ok) AfxMessageBox (_T("Error Selecting Sketch Segment! Continuing..."));
 
-hres = pSketch->IEnumSketchSegments(&pSketchSegEnum);
+  pSketchSegment->Release();
+  pSketchSegment = NULL;
+  hres = pSketchSegEnum->Next(1, &pSketchSegment, &skReturned);
+ }
 
-// No Sketch segments exist
-
-if (pSketchSegEnum == NULL) return;
-
-int segNum = 0;
-
-LPSKETCHSEGMENT pSketchSegment = NULL;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}long
-skReturned = -1
-
-hres = pSketchSegEnum->Next(1,
-&pSketchSegment, &skReturned);
-
-while (S_OK == hres)
-
-{
-
-VARIANT_BOOL ok = FALSE;
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-Select the SketchSegment object
-
-hres = pSketchSegment->Select(TRUE,
-&ok);
-
-if (!ok) AfxMessageBox (_T("Error Selecting
-Sketch Segment! Continuing..."));
-
-pSketchSegment->Release();
-
-pSketchSegment = NULL;
-
-hres = pSketchSegEnum->Next(1,
-&pSketchSegment, &skReturned);
-
-}
-
-if (pSketchSegEnum != NULL) pSketchSegEnum->Release();
+ if (pSketchSegEnum != NULL) pSketchSegEnum->Release();
+```

@@ -45,13 +45,7 @@ property System.bool ImportMaterial {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to import its material, false to not
 
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::ImportMaterial](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportMaterial.html)
-
-.
+See [DerivedPartFeatureData::ImportMaterial](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportMaterial.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This property is valid only while the derived part is being inserted. It is not 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
 
 ## Availability

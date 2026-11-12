@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertCompositeDistanceBetweenDimTol Interface Members
 
-The following tables list the members exposed by[IDimXpertCompositeDistanceBetweenDimTol](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol.html).
+The following tables list the members exposed by [IDimXpertCompositeDistanceBetweenDimTol](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol.html).
 
 ## Public Properties
 
@@ -38,5 +38,4 @@ The following tables list the members exposed by[IDimXpertCompositeDistanceBetwe
 ## See Also
 
 [IDimXpertCompositeDistanceBetweenDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

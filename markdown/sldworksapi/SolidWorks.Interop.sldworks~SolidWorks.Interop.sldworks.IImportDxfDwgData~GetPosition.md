@@ -58,30 +58,18 @@ void GetPosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sheet`: Sheet (layout) name of the input file or an empty string for all sheets
-- `Positioning`: Position as defined in
-
-[swDwgImportEntitiesPositioning_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgImportEntitiesPositioning_e.html)
+- `Positioning`: Position as defined in [swDwgImportEntitiesPositioning_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgImportEntitiesPositioning_e.html)
 - `X`: X coordinate of the origin of the imported drawing
 - `Y`: Y coordinate of the origin of the imported drawing
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::GetPosition](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~GetPosition.html)
-
-.
+See [ImportDxfDwgData::GetPosition](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~GetPosition.html).
 
 ## Remarks
 
@@ -90,9 +78,7 @@ This method only supports importing to a drawing; it does not support importing 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
-
 [IImportDxfDwgData::SetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~SetPosition.html)
 
 ## Availability

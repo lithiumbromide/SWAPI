@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEd
 
 # ICWEdgeWeldConnector Interface Methods
 
-For a list of all members of this type, see[ICWEdgeWeldConnector members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector_members.html).
+For a list of all members of this type, see [ICWEdgeWeldConnector members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector_members.html).
 
 ## Public Methods
 
@@ -40,5 +40,4 @@ For a list of all members of this type, see[ICWEdgeWeldConnector members](SolidW
 ## See Also
 
 [ICWEdgeWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

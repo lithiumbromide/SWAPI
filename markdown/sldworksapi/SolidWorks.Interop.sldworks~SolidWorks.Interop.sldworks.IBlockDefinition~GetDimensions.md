@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # GetDimensions Method (IBlockDefinition)
 
-Obsolete. Superseded by
-
-[ISketchBlockDefinition::GetDisplayDimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetDisplayDimensions.html)
-
-.
+Obsolete. Superseded by [ISketchBlockDefinition::GetDisplayDimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetDisplayDimensions.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetDimensions()
 System.Object^ GetDimensions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BlockDefinition::GetDimensions](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~GetDimensions.html)
-
-.
+See [BlockDefinition::GetDimensions](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~GetDimensions.html).
 
 ## See Also
 
 [IBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition.html)
-
 [IBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition_members.html)

@@ -67,27 +67,15 @@ System.Object^ InsertRefPlane(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FirstConstraint`: First constraint as defined in
-
-[swRefPlaneReferenceConstraints_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefPlaneReferenceConstraints_e.html)
+- `FirstConstraint`: First constraint as defined in [swRefPlaneReferenceConstraints_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefPlaneReferenceConstraints_e.html)
 - `FirstConstraintAngleOrDistance`: Angle or distance of the first constraint
-- `SecondConstraint`: Second constraint as defined in
-
-[swRefPlaneReferenceConstraints_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefPlaneReferenceConstraints_e.html)
+- `SecondConstraint`: Second constraint as defined in [swRefPlaneReferenceConstraints_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefPlaneReferenceConstraints_e.html)
 - `SecondConstraintAngleOrDistance`: Angle or distance of the second constraint
-- `ThirdConstraint`: Third constraint as defined in
-
-[swRefPlaneReferenceConstraints_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefPlaneReferenceConstraints_e.html)
+- `ThirdConstraint`: Third constraint as defined in [swRefPlaneReferenceConstraints_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRefPlaneReferenceConstraints_e.html)
 - `ThirdConstraintAngleOrDistance`: Angle or distance of the third constraint
 
 ### Return Value
@@ -96,29 +84,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertRefPlane](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertRefPlane.html)
-
-.
+See [FeatureManager::InsertRefPlane](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertRefPlane.html).
 
 ## Examples
 
 [Insert Reference Plane (C#)](Insert_Reference_Plane_Example_CSharp.htm)
-
 [Insert Reference Plane (VB.NET)](Insert_Reference_Plane_Example_VBNET.htm)
-
 [Insert Reference Plane (VBA)](Insert_Reference_Plane_Example_VB.htm)
-
 [Insert Fill-surface Feature (C#)](Insert_Fill-surface_Feature_Example_CSharp.htm)
-
 [Insert Fill-surface Feature (VB.NET)](Insert_Fill-surface_Feature_Example_VBNET.htm)
-
 [Insert Fill-surface Feature (VBA)](Insert_Fill-surface_Feature_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, you must have selected the reference entities using these marks with[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html):
+Before calling this method, you must have selected the reference entities using these marks with [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html):
 
 - 0 = First reference entity
 - 1 = Second reference entity
@@ -127,11 +106,8 @@ Before calling this method, you must have selected the reference entities using 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IRefPlane Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
 [IRefPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData.html)
 
 ## Availability

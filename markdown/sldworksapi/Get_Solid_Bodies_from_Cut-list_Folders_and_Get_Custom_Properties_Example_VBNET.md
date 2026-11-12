@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Solid_Bodies_from_Cut-list_Folders_and_Get_Custom_Prope
 
 # Get Solid Bodies from Cut-list Folders and Get Custom Properties Example (VB.NET)
 
-This example shows how to get the solid bodies from cut-list folders
-and how to get the custom properties for the solid bodies.
+This example shows how to get the solid bodies from cut-list folders and how to get the custom properties for the solid bodies.
 
 ```
 '---------------------------------------------------------------

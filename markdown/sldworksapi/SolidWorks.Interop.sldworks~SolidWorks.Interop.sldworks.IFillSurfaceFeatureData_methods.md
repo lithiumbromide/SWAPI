@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFi
 
 # IFillSurfaceFeatureData Interface Methods
 
-For a list of all members of this type, see[IFillSurfaceFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData_members.html).
+For a list of all members of this type, see [IFillSurfaceFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData_members.html).
 
 ## Public Methods
 
@@ -38,7 +38,5 @@ For a list of all members of this type, see[IFillSurfaceFeatureData members](Sol
 ## See Also
 
 [IFillSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertFillSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFillSurface2.html)

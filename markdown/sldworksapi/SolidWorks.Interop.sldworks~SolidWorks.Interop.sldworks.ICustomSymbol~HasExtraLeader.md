@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # HasExtraLeader Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::HasExtraLeader](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~HasExtraLeader.html)
-
-.
+Obsolete. Superseded by [INote::HasExtraLeader](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~HasExtraLeader.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool HasExtraLeader()
 System.bool HasExtraLeader();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::HasExtraLeader](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~HasExtraLeader.html)
-
-.
+See [CustomSymbol::HasExtraLeader](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~HasExtraLeader.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

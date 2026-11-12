@@ -40,13 +40,11 @@ File size
 ## Examples
 
 [Get File Version Information (VB.NET)](Get_File_Version_Information_Example_VBNET.htm)
-
 [Get File Version Information (C#)](Get_File_Version_Information_Example_CSharp.htm)
 
 ## See Also
 
 [IEdmVersion7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion7.html)
-
 [IEdmVersion7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion7_members.html)
 
 ## Availability

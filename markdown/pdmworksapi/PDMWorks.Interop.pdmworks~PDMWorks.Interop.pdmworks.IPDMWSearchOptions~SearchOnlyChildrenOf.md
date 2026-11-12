@@ -51,11 +51,7 @@ Path and filename of the project or parent document whose children to search or 
 
 ## VBA Syntax
 
-See
-
-[PDMWSearchOptions::SearchOnlyChildrenOf](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~SearchOnlyChildrenOf.html)
-
-.
+See [PDMWSearchOptions::SearchOnlyChildrenOf](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWSearchOptions~SearchOnlyChildrenOf.html).
 
 ## Examples
 
@@ -64,7 +60,6 @@ See
 ## See Also
 
 [IPDMWSearchOptions Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions.html)
-
 [IPDMWSearchOptions Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions_members.html)
 
 ## Availability

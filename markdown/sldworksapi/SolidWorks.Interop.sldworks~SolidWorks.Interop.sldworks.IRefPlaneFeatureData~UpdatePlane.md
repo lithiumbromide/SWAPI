@@ -45,13 +45,7 @@ property System.bool UpdatePlane {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to update the reference plane so that it is parallel to the screen, false t
 
 ## VBA Syntax
 
-See
-
-[RefPlaneFeatureData::UpdatePlane](ms-its:sldworksapivb6.chm::/sldworks~RefPlaneFeatureData~UpdatePlane.html)
-
-.
+See [RefPlaneFeatureData::UpdatePlane](ms-its:sldworksapivb6.chm::/sldworks~RefPlaneFeatureData~UpdatePlane.html).
 
 ## Examples
 
 [Update Plane (C#)](Update_Plane_Example_CSharp.htm)
-
 [Update Plane (VB.NET)](Update_Plane_Example_VBNET.htm)
-
 [Update Plane (VBA)](Update_Plane_Example_VB.htm)
 
 ## See Also
 
 [IRefPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData.html)
-
 [IRefPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData_members.html)
 
 ## Availability

@@ -52,45 +52,30 @@ void ShowSaveMarkup(
 
 ### Parameters
 
-- `SaveName`: Name of
+- `SaveName`: Name of the file where to save the markup comments
+- `SaveAs`:
 
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-the file where to save the markup comments
-- `SaveAs`: | If... | Then.. |
-| --- | --- |
-| TRUE | A dialog is displayed prompting the user to select the markup to save and the file name to which to save the markup. SaveName is ignored. |
-| FALSE | If... Then markups from all reviewers are saved to... SaveName is empty The default file name in the current directory SaveName is specified The file specified in SaveName |
-| If... | Then markups from all reviewers are saved to... |
-| SaveName is empty | The default file name in the current directory |
-| SaveName is specified | The file specified in SaveName |
+  | If... | Then.. |
+  | --- | --- |
+  | TRUE | A dialog is displayed prompting the user to select the markup to save and the file name to which to save the markup. SaveName is ignored. |
+  | FALSE | If... Then markups from all reviewers are saved to... SaveName is empty The default file name in the current directory SaveName is specified The file specified in SaveName |
+  | If... | Then markups from all reviewers are saved to... |
+  | SaveName is empty | The default file name in the current directory |
+  | SaveName is specified | The file specified in SaveName |
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::ShowSaveMarkup](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~ShowSaveMarkup.html)
-
-.
+See [EModelMarkupControl::ShowSaveMarkup](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~ShowSaveMarkup.html).
 
 ## Examples
 
-See the
-
-[IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl.html)
-
-examples.
+See the [IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl.html) examples.
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
-
 [IEModelViewControl::IsMarkupModified](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~IsMarkupModified.html)
-
 [IEModelViewControl::OpenMarkupFile](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~OpenMarkupFile.html)
 
 ## Availability

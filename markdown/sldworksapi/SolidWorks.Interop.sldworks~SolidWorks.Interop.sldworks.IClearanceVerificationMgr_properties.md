@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICl
 
 # IClearanceVerificationMgr Interface Properties
 
-For a list of all members of this type, see[IClearanceVerificationMgr members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr_members.html).
+For a list of all members of this type, see [IClearanceVerificationMgr members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr_members.html).
 
 ## Public Properties
 
@@ -24,7 +24,5 @@ For a list of all members of this type, see[IClearanceVerificationMgr members](S
 ## See Also
 
 [IClearanceVerificationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IClearanceResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult.html)

@@ -46,26 +46,18 @@ AVI parameters of animation videos
 
 ## VBA Syntax
 
-See
-
-[MotionStudyManager::CreateAVIParameter](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyManager~CreateAVIParameter.html)
-
-.
+See [MotionStudyManager::CreateAVIParameter](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyManager~CreateAVIParameter.html).
 
 ## Examples
 
 [Create Motion Studies (VBA)](Create_Motion_Studies_Example_VB.htm)
-
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study (VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## See Also
 
 [IMotionStudyManager Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager.html)
-
 [IMotionStudyManager Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager_members.html)
 
 ## Availability

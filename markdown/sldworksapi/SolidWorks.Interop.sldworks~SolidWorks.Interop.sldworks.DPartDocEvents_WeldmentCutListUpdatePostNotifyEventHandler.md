@@ -37,37 +37,21 @@ public delegate System.int DPartDocEvents_WeldmentCutListUpdatePostNotifyEventHa
 public delegate System.int DPartDocEvents_WeldmentCutListUpdatePostNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListUpdatePostNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~WeldmentCutListUpdatePostNotify_EV.html)
-
-.
+See [WeldmentCutListUpdatePostNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~WeldmentCutListUpdatePostNotify_EV.html).
 
 ## Examples
 
 [Update Weldment Cut List and Fire Post-Notify Event (VBA)](Update_Weldment_Cut_List_and_Fire_Post-Notify_Event_Example_VB.htm)
-
 [Update Weldment Cut List and Fire Post-Notify Event (VB.NET)](Update_Weldment_Cut_List_and_Fire_Post-Notify_Event_Example_VBNET.htm)
-
 [Update Weldment Cut List and Fire Post-Notify Event (C#)](Update_Weldment_Cut_List_and_Fire_Post-Notify_Event_Example_CSharp.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartWeldmentCutListUpdatePostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartWeldmentCutListUpdatePostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

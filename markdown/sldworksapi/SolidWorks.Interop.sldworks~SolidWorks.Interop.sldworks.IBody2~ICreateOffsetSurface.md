@@ -51,41 +51,25 @@ Surface^ ICreateOffsetSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SurfaceIn`: [Surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
-
-from which to offset the new surface
+- `SurfaceIn`: [Surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html) from which to offset the new surface
 - `Distance`: Offset distance
 
 ### Return Value
 
-Newly created offset
-
-[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
+Newly created offset [surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::ICreateOffsetSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateOffsetSurface.html)
-
-.
+See [Body2::ICreateOffsetSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateOffsetSurface.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::CreateOffsetSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreateOffsetSurface.html)
 
 ## Availability

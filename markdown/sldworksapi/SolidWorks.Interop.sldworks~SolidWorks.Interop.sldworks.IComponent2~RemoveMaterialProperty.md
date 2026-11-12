@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # RemoveMaterialProperty Method (IComponent2)
 
-Obsolete. Superseded by
-
-[IComponent2::RemoveMaterialProperty2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~RemoveMaterialProperty2.html)
-
-.
+Obsolete. Superseded by [IComponent2::RemoveMaterialProperty2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~RemoveMaterialProperty2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool RemoveMaterialProperty()
 System.bool RemoveMaterialProperty();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component2::RemoveMaterialProperty](ms-its:sldworksapivb6.chm::/sldworks~Component2~RemoveMaterialProperty.html)
-
-.
+See [Component2::RemoveMaterialProperty](ms-its:sldworksapivb6.chm::/sldworks~Component2~RemoveMaterialProperty.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)

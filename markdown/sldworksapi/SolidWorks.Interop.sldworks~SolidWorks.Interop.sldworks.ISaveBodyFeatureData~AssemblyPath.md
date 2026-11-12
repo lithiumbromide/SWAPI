@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISa
 
 # AssemblyPath Property (ISaveBodyFeatureData)
 
-Gets or sets the path and filename of the assembly (*.
-
-sldasm
-
-) of save bodies.
+Gets or sets the path and filename of the assembly (*.**sldasm**) of save bodies.
 
 ## Syntax
 
@@ -49,34 +45,19 @@ property System.String^ AssemblyPath {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Path and filename of the assembly (*.
-
-sldasm
-
-) of save bodies
+Path and filename of the assembly (*.**sldasm**) of save bodies
 
 ## VBA Syntax
 
-See
-
-[SaveBodyFeatureData::AssemblyPath](ms-its:sldworksapivb6.chm::/sldworks~SaveBodyFeatureData~AssemblyPath.html)
-
-.
+See [SaveBodyFeatureData::AssemblyPath](ms-its:sldworksapivb6.chm::/sldworks~SaveBodyFeatureData~AssemblyPath.html).
 
 ## See Also
 
 [ISaveBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData.html)
-
 [ISaveBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveBodyFeatureData_members.html)
 
 ## Availability

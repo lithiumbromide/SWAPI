@@ -36,35 +36,15 @@ property System.String^ VersionComment {
 
 ### Property Value
 
-Substring of version comment for which to search (see
-
-Remarks
-
-)
+Substring of version comment for which to search (see **Remarks**)
 
 ## Remarks
 
 If the search object was obtained using:
 
-- [IEdmVault21::CreateSearch2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault21~CreateSearch2.html)
+- [IEdmVault21::CreateSearch2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault21~CreateSearch2.html) ([IEdmSearch9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch9.html)), then the version comment may require extended search syntax. (See [Search Syntax](SearchSyntax-epdmapi.html).)
 
-  (
-
-  [IEdmSearch9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch9.html)
-
-  ), then the version comment may require extended search syntax. (See
-
-  [Search Syntax](SearchSyntax-epdmapi.html)
-
-  .)
-
-- [IEdmVault5::CreateSearch](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreateSearch.html)
-
-  , then the substring for which to search may contain a % wildcard character. For example,
-
-  test
-
-  searches for all files that have a version comment that contains the word, test.
+- [IEdmVault5::CreateSearch](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreateSearch.html), then the substring for which to search may contain a % wildcard character. For example, **test** searches for all files that have a version comment that contains the word, test.
 
 % indicates any sequence of characters of any length. You can also use underscore (_) as a wildcard for exactly one arbitrary character.
 
@@ -79,7 +59,6 @@ You can also enclose the entire string in brackets, because no wildcards occur i
 ## See Also
 
 [IEdmSearch5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html)
-
 [IEdmSearch5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5_members.html)
 
 ## Availability

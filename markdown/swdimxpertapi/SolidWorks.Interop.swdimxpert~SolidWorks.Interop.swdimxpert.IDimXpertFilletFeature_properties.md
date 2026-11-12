@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertFilletFeature Interface Properties
 
-For a list of all members of this type, see[IDimXpertFilletFeature members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFilletFeature_members.html).
+For a list of all members of this type, see [IDimXpertFilletFeature members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFilletFeature_members.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IDimXpertFilletFeature members](Soli
 ## See Also
 
 [IDimXpertFilletFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFilletFeature.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

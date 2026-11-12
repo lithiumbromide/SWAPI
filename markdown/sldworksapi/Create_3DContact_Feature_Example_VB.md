@@ -15,7 +15,7 @@ This example shows how to create a 3D Contact feature for use in motion studies.
  '---------------------------------------------------------------------------
  ' Preconditions:
  ' 1. Verify that the specified model document exists.
- ' 2. In SOLIDWORKS, verify that View > MotionManager is selected.
+ ' 2. In SOLIDWORKS Design, verify that View > MotionManager is selected.
  ' 3. In the IDE, click Tools > References and select
  '    SOLIDWORKS version MotionStudy Type library.
  ' 4. Click OK.

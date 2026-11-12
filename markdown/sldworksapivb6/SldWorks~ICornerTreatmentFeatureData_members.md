@@ -1,6 +1,5 @@
 ---
-title: "ICornerTreatmentFeatureData Object
-Members"
+title: "ICornerTreatmentFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ICornerTreatmentFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ICornerTreatmentFeatureData_members.html"
 ---
 
-# ICornerTreatmentFeatureData Object
-Members
+# ICornerTreatmentFeatureData Object Members
 
 ## Public Methods
 

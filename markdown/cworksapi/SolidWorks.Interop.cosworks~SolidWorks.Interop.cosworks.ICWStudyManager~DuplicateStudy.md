@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # DuplicateStudy Method (ICWStudyManager)
 
-Obsolete. Superseded by
-
-[ICWStudyManager::DuplicateStudy2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DuplicateStudy2.html)
-
-.
+Obsolete. Superseded by [ICWStudyManager::DuplicateStudy2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DuplicateStudy2.html).
 
 ## Syntax
 
@@ -73,9 +69,7 @@ CWStudy^ DuplicateStudy(
 - `SNewName`: Name of new study
 - `SConfiguration`: Name of configuration
 - `NNLDynamic`: 1 to copy to a nonlinear dynamic study, 0 to not
-- `Errors`: Error code as defined in
-
-[swsDuplicateStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDuplicateStudyError_e.html)
+- `Errors`: Error code as defined in [swsDuplicateStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDuplicateStudyError_e.html)
 
 ### Return Value
 
@@ -83,26 +77,16 @@ CWStudy^ DuplicateStudy(
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::DuplicateStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~DuplicateStudy.html)
-
-.
+See [CWStudyManager::DuplicateStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~DuplicateStudy.html).
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudyManager::GetStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~GetStudy.html)
-
 [ICWStudyManager::CreateNewStudy3 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~CreateNewStudy3.html)
-
 [ICWStudyManager::DeleteStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DeleteStudy.html)
-
 [ICWStudyManager::RenameStudyFromID Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~RenameStudyFromID.html)
-
 [ICWStudyManager::ConvertStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ConvertStudy.html)
 
 ## Availability

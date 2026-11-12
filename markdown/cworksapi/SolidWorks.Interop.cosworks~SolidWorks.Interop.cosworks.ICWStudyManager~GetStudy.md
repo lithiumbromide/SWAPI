@@ -57,40 +57,23 @@ CWStudy^ GetStudy(
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::GetStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~GetStudy.html)
-
-.
+See [CWStudyManager::GetStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~GetStudy.html).
 
 ## Examples
 
 [Change Beam to Solid Body and Back (C#)](Change_Beam_to_Solid_Body_and_Back_Example_CSharp.htm)
-
 [Change Beam to Solid Body and Back (VB.NET)](Change_Beam_to_Solid_Body_and_Back_Example_VBNET.htm)
-
 [Change Beam to Solid Body and Back (VBA)](Change_Beam_to_Solid_Body_and_Back_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, call
-
-[ICWStudyManager::ActiveStudy](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyManager~ActiveStudy.html)
-
-to set the index of the active study or
-
-[ICWStudyManager::StudyCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyManager~StudyCount.html)
-
-to get a valid value for NIndex.
+Before calling this method, call [ICWStudyManager::ActiveStudy](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyManager~ActiveStudy.html) to set the index of the active study or [ICWStudyManager::StudyCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyManager~StudyCount.html) to get a valid value for NIndex.
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudyManager::DuplicateStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DuplicateStudy.html)
-
 [ICWStudyManager::ConvertStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ConvertStudy.html)
 
 ## Availability

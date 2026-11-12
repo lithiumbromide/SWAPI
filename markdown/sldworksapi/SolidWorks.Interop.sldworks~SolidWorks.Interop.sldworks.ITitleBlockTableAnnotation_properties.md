@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITi
 
 # ITitleBlockTableAnnotation Interface Properties
 
-For a list of all members of this type, see[ITitleBlockTableAnnotation members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlockTableAnnotation_members.html).
+For a list of all members of this type, see [ITitleBlockTableAnnotation members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlockTableAnnotation_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[ITitleBlockTableAnnotation members](
 ## See Also
 
 [ITitleBlockTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlockTableAnnotation.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

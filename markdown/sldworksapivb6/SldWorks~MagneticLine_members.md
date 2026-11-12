@@ -1,6 +1,5 @@
 ---
-title: "MagneticLine Object
-Members"
+title: "MagneticLine Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MagneticLine_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MagneticLine_members.html"
 ---
 
-# MagneticLine Object
-Members
+# MagneticLine Object Members
 
 ## Public Methods
 

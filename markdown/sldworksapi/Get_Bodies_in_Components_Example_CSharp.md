@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Bodies_in_Components_Example_CSharp.htm"
 
 # Get Bodies in Components Example (C#)
 
-This example shows how to get the number of normal and user bodies in
-the components in an assembly.
+This example shows how to get the number of normal and user bodies in the components in an assembly.
 
 ```
 //-----------------------------------------------------

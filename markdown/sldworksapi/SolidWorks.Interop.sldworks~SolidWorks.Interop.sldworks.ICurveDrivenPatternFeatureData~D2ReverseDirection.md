@@ -45,13 +45,7 @@ property System.bool D2ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True reverses Direction 2, false does not
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::D2ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D2ReverseDirection.html)
-
-.
+See [CurveDrivenPatternFeatureData::D2ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D2ReverseDirection.html).
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
-
 [ICurveDrivenPatternFeatureData::D1ReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D1ReverseDirection.html)
-
 [ICurveDrivenPatternFeatureData::Dir2Specified Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~Dir2Specified.html)
 
 ## Availability

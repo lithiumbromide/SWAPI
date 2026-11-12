@@ -45,32 +45,19 @@ property System.int HatchType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of face hatch as defined in
-
-[swAreaHatchFillStyle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAreaHatchFillStyle_e.html)
+Type of face hatch as defined in [swAreaHatchFillStyle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAreaHatchFillStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[FaceHatch::HatchType](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~HatchType.html)
-
-.
+See [FaceHatch::HatchType](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~HatchType.html).
 
 ## See Also
 
 [IFaceHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html)
-
 [IFaceHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch_members.html)
 
 ## Availability

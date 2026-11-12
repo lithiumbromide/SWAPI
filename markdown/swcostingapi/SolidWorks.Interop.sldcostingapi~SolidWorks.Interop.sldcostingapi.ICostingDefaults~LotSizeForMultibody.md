@@ -51,22 +51,14 @@ Default lot size for multibody mode
 
 ## VBA Syntax
 
-See
-
-[CostDefaults::LotSizeForMultibody](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~LotSizeForMultibody.html)
-
-.
+See [CostDefaults::LotSizeForMultibody](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~LotSizeForMultibody.html).
 
 ## See Also
 
 [ICostingDefaults Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
 [ICostingDefaults Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults_members.html)
-
 [ICostingDefaults::TotalNumberOfPartsForMultibody Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~TotalNumberOfPartsForMultibody.html)
-
 [ICostingDefaults::LotSizeForSingleBody Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~LotSizeForSingleBody.html)
-
 [ICostingDefaults::TotalNumberOfPartsForSingleBody Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~TotalNumberOfPartsForSingleBody.html)
 
 ## Availability

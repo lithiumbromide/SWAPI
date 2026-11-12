@@ -9,11 +9,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWCo
 
 # Quantity Property (IPDMWConfiguration)
 
-Obsolete. Superseded by
-
-[IPDMWLink::Quantity](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink~Quantity.html)
-
-.
+Obsolete. Superseded by [IPDMWLink::Quantity](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink~Quantity.html).
 
 ## Syntax
 
@@ -51,16 +47,11 @@ property System.int Quantity {
 
 ## VBA Syntax
 
-See
-
-[PDMWConfiguration::Quantity](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~Quantity.html)
-
-.
+See [PDMWConfiguration::Quantity](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~Quantity.html).
 
 ## See Also
 
 [IPDMWConfiguration Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)
-
 [IPDMWConfiguration Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # SetWallThickness Method (IRevolveFeatureData)
 
-Obsolete. Superseded by
-
-[IRevolveFeatureData2::SetWallThickness](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~SetWallThickness.html)
-
-.
+Obsolete. Superseded by [IRevolveFeatureData2::SetWallThickness](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevolveFeatureData2~SetWallThickness.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void SetWallThickness(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData::SetWallThickness](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~SetWallThickness.html)
-
-.
+See [RevolveFeatureData::SetWallThickness](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData~SetWallThickness.html).
 
 ## See Also
 
 [IRevolveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData.html)
-
 [IRevolveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData_members.html)

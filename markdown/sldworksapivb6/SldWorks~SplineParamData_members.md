@@ -1,6 +1,5 @@
 ---
-title: "SplineParamData Object
-Members"
+title: "SplineParamData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SplineParamData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SplineParamData_members.html"
 ---
 
-# SplineParamData Object
-Members
+# SplineParamData Object Members
 
 ## Public Methods
 

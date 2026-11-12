@@ -9,12 +9,9 @@ source: "API_GB/Find_Data_Cards_with_Description_Variable_Example_VBNET.htm"
 
 # Find Data Cards with Description Variable Example (VB.NET)
 
-This example shows how to find the data cards in your vault that have a
-Description variable.
+This example shows how to find the data cards in your vault that have a Description variable.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 '----------------------------------------------------------------------------

@@ -39,21 +39,11 @@ void Reset()
 void Reset();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[EnumLoops2::Reset](ms-its:sldworksapivb6.chm::/sldworks~EnumLoops2~Reset.html)
-
-.
+See [EnumLoops2::Reset](ms-its:sldworksapivb6.chm::/sldworks~EnumLoops2~Reset.html).
 
 ## Remarks
 
@@ -62,7 +52,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumLoops2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops2.html)
-
 [IEnumLoops2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumLoops2_members.html)
 
 ## Availability

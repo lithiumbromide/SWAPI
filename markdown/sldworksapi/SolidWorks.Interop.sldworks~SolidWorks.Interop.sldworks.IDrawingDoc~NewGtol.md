@@ -40,13 +40,7 @@ System.object NewGtol()
 System.Object^ NewGtol();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,10 @@ Newly created GTol
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::NewGtol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~NewGtol.html)
-
-.
+See [DrawingDoc::NewGtol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~NewGtol.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::INewGtol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~INewGtol.html)

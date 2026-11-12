@@ -9,7 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # IThicknessAnalysis Interface Methods
 
-For a list of all members of this type, see[IThicknessAnalysis members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html).
+For a list of all members of this type, see [IThicknessAnalysis members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html).
 
 ## Public Methods
 
@@ -41,5 +41,4 @@ For a list of all members of this type, see[IThicknessAnalysis members](SolidWor
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

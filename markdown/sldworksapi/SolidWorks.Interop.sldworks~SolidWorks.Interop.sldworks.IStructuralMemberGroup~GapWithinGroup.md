@@ -45,13 +45,7 @@ property System.double GapWithinGroup {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ Gap in meters between connected segments within group
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberGroup::GapWithinGroup](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~GapWithinGroup.html)
-
-.
+See [StructuralMemberGroup::GapWithinGroup](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~GapWithinGroup.html).
 
 ## Examples
 
 [Insert Structural Weldment (C#)](Insert_Structural_Weldment_Example_CSharp.htm)
-
 [Insert Structural Weldment (VB.NET)](Insert_Structural_Weldment_Example_VBNET.htm)
-
 [Insert Structural Weldment (VBA)](Insert_Structural_Weldment_Example_VB.htm)
 
 ## See Also
 
 [IStructuralMemberGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup.html)
-
 [IStructuralMemberGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup_members.html)
-
 [IStructuralMemberGroup::GapForOtherGroups Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup~GapForOtherGroups.html)
 
 ## Availability

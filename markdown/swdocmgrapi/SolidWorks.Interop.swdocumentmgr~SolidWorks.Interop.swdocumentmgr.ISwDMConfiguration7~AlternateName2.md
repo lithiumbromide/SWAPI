@@ -51,22 +51,17 @@ Alternate or user-specified name of the configuration
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration7::AlternateName2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration7~AlternateName2.html)
-
-.
+See [SwDMConfiguration7::AlternateName2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration7~AlternateName2.html).
 
 ## Remarks
 
-This property only supports documents saved in SOLIDWORKS 2005 and later. To get the version of a document, use[ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
+This property only supports documents saved in SOLIDWORKS 2005 and later. To get the version of a document, use [ISwDMDocument::GetVersion](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetVersion.html).
 
-If you set[ISwDMConfiguration11::BOMPartNoSource](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11~BOMPartNoSource.html)to anything other than[swDmBOMPartNumberSource](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDmBOMPartNumberSource.html).swDmBOMPartNumber_UserSpecified, then this property is set to an empty string.
+If you set [ISwDMConfiguration11::BOMPartNoSource](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11~BOMPartNoSource.html) to anything other than [swDmBOMPartNumberSource](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDmBOMPartNumberSource.html).swDmBOMPartNumber_UserSpecified, then this property is set to an empty string.
 
 ## See Also
 
 [ISwDMConfiguration7 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration7.html)
-
 [ISwDMConfiguration7 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration7_members.html)
 
 ## Availability

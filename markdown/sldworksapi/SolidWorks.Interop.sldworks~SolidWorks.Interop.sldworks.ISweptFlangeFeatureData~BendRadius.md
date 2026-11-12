@@ -45,13 +45,7 @@ property System.double BendRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,23 +53,17 @@ Bend radius
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::BendRadius](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~BendRadius.html)
-
-.
+See [SweptFlangeFeatureData::BendRadius](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~BendRadius.html).
 
 ## Remarks
 
-The setter of this property is valid only if[ISweptFlangeFeatureData::OverrideDefaultSheetMetalParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~OverrideDefaultSheetMetalParameters.html)is true.
+The setter of this property is valid only if [ISweptFlangeFeatureData::OverrideDefaultSheetMetalParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~OverrideDefaultSheetMetalParameters.html) is true.
 
 This property gets a:
 
 - Default bend radius if:
 
-- [ISweptFlangeFeatureData::UseDefaultRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseDefaultRadius.html)
-
-  is true,
+- [ISweptFlangeFeatureData::UseDefaultRadius](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseDefaultRadius.html) is true,
 
 - and -
 
@@ -92,7 +80,6 @@ This property gets a:
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool InteractiveAdvancedOpen {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ True to display an intermediate dialog to the interactive user, false to not (de
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::InteractiveAdvancedOpen](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~InteractiveAdvancedOpen.html)
-
-.
+See [DocumentSpecification::InteractiveAdvancedOpen](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~InteractiveAdvancedOpen.html).
 
 ## Examples
 
 [Open Advanced Dialog On Document Open (VBA)](Open_Advanced_Dialog_On_Open_Example_VB.htm)
-
 [Open Advanced Dialog On Document Open (VB.NET)](Open_Advanced_Dialog_On_Open_Example_VBNET.htm)
-
 [Open Advanced Dialog On Document Open (C#)](Open_Advanced_Dialog_On_Open_Example_CSharp.htm)
 
 ## Remarks
 
-This property is not valid for opening
-
-3D
-
-EXPERIENCE files using SOLIDWORKS Connected.
+This property is not valid for opening **3D**EXPERIENCE files using [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
 
 ## Availability

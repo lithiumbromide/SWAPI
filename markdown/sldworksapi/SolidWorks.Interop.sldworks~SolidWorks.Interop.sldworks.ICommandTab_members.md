@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICommandTab Interface Members
 
-The following tables list the members exposed by[ICommandTab](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab.html).
+The following tables list the members exposed by [ICommandTab](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab.html).
 
 ## Public Properties
 
@@ -37,7 +37,5 @@ The following tables list the members exposed by[ICommandTab](SolidWorks.Interop
 ## See Also
 
 [ICommandTab Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ICommandTabBox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox.html)

@@ -45,32 +45,19 @@ property System.int Status {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Sketch point relation status as defined in
-
-[swConstrainedStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstrainedStatus_e.html)
+Sketch point relation status as defined in [swConstrainedStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConstrainedStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchPoint::Status](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~Status.html)
-
-.
+See [SketchPoint::Status](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~Status.html).
 
 ## See Also
 
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
 [ISketchPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint_members.html)
 
 ## Availability

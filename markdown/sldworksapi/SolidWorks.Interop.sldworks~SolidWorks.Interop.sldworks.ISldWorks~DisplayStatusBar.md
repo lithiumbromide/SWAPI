@@ -46,13 +46,7 @@ void DisplayStatusBar(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,20 +54,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::DisplayStatusBar](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~DisplayStatusBar.html)
-
-.
+See [SldWorks::DisplayStatusBar](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~DisplayStatusBar.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [IModelDoc2::Lock Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~Lock.html)
-
 [IModelDoc2::UnLock Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~UnLock.html)
-
 [IStatusBarPane Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStatusBarPane.html)

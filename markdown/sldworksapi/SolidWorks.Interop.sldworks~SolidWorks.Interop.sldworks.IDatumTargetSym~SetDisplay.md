@@ -55,21 +55,14 @@ System.bool SetDisplay(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Symbol`: True displays the datum target symbol part of the annotation, false hides it
 - `TargetArea`: True displays the datum target area part of the annotation, false hides it
 - `SizeOutside`: True displays the datum target area size outside of the symbol, false displays it
-
-inside
+  inside
 
 ### Return Value
 
@@ -77,26 +70,21 @@ True if the display characteristics were set successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::SetDisplay](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetDisplay.html)
-
-.
+See [DatumTargetSym::SetDisplay](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetDisplay.html).
 
 ## Remarks
 
 Use:
 
-- [IDatumTargetSym::GetDisplaySymbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetDisplaySymbol.html)to determine if the datum target symbol part of the annotation is displayed.
-- [IDatumTargetSym::GetDisplayTargetArea](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetDisplayTargetArea.html)to determine if the datum target area part of the annotation is displayed.
-- [IDatumTargetSym::GetDisplaySizeOutside](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetDisplaySizeOutside.html)to determine whether the target area size is displayed inside or outside of the symbol.
+- [IDatumTargetSym::GetDisplaySymbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetDisplaySymbol.html) to determine if the datum target symbol part of the annotation is displayed.
+- [IDatumTargetSym::GetDisplayTargetArea](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetDisplayTargetArea.html) to determine if the datum target area part of the annotation is displayed.
+- [IDatumTargetSym::GetDisplaySizeOutside](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetDisplaySizeOutside.html) to determine whether the target area size is displayed inside or outside of the symbol.
 
-To see the model or drawing changes caused by running this method, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw your window.
+To see the model or drawing changes caused by running this method, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw your window.
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
 
 ## Availability

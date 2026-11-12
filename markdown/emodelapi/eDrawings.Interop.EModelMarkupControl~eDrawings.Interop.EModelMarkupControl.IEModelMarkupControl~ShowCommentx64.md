@@ -52,26 +52,16 @@ void ShowCommentx64(
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::ShowCommentx64](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~ShowCommentx64.html)
-
-.
+See [EModelMarkupControl::ShowCommentx64](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~ShowCommentx64.html).
 
 ## Remarks
 
-Call
-
-[IEModelMarkupControl::CommentIDx64](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentIDx64.html)
-
-before calling this method to determine the ID of the markup comment.
+Call [IEModelMarkupControl::CommentIDx64](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentIDx64.html) before calling this method to determine the ID of the markup comment.
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
-
 [IEModelMarkupControl::ShowComment Method](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~ShowComment.html)
 
 ## Availability

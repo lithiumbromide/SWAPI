@@ -1,6 +1,5 @@
 ---
-title: "IStructureSystemMemberProfile Object
-Members"
+title: "IStructureSystemMemberProfile Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IStructureSystemMemberProfile_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IStructureSystemMemberProfile_members.html"
 ---
 
-# IStructureSystemMemberProfile Object
-Members
+# IStructureSystemMemberProfile Object Members
 
 ## Public Methods
 

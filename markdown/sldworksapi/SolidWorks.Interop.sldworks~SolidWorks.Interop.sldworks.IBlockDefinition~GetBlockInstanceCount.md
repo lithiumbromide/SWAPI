@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # GetBlockInstanceCount Method (IBlockDefinition)
 
-Obsolete. Superseded by
-
-[ISketchBlockDefinition::GetInstanceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetInstanceCount.html)
-
-.
+Obsolete. Superseded by [ISketchBlockDefinition::GetInstanceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetInstanceCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetBlockInstanceCount()
 System.int GetBlockInstanceCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[BlockDefinition::GetBlockInstanceCount](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~GetBlockInstanceCount.html)
-
-.
+See [BlockDefinition::GetBlockInstanceCount](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~GetBlockInstanceCount.html).
 
 ## See Also
 
 [IBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition.html)
-
 [IBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition_members.html)

@@ -45,40 +45,23 @@ property System.int CustomSizing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Custom sizing as defined in
-
-[swStraightTapHoleCustomSizing_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStraightTapHoleCustomSizing_e.html)
+Custom sizing as defined in [swStraightTapHoleCustomSizing_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStraightTapHoleCustomSizing_e.html)
 
 ## VBA Syntax
 
-See
-
-[StraightTapElementData::CustomSizing](ms-its:sldworksapivb6.chm::/sldworks~StraightTapElementData~CustomSizing.html)
-
-.
+See [StraightTapElementData::CustomSizing](ms-its:sldworksapivb6.chm::/sldworks~StraightTapElementData~CustomSizing.html).
 
 ## Examples
 
-See the
-
-[IStraightTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html)
-
-examples.
+See the [IStraightTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html) examples.
 
 ## See Also
 
 [IStraightTapElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html)
-
 [IStraightTapElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData_members.html)
 
 ## Availability

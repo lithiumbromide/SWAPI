@@ -1,6 +1,5 @@
 ---
-title: "DetailCircle Object
-Members"
+title: "DetailCircle Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DetailCircle_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DetailCircle_members.html"
 ---
 
-# DetailCircle Object
-Members
+# DetailCircle Object Members
 
 ## Public Methods
 

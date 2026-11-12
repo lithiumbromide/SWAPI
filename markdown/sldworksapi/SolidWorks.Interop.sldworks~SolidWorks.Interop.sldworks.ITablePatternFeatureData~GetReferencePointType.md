@@ -40,13 +40,7 @@ System.int GetReferencePointType()
 System.int GetReferencePointType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,11 +52,7 @@ Type of reference point:
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData::GetReferencePointType](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~GetReferencePointType.html)
-
-.
+See [TablePatternFeatureData::GetReferencePointType](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~GetReferencePointType.html).
 
 ## Examples
 
@@ -71,9 +61,7 @@ See
 ## See Also
 
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
-
 [ITablePatternFeatureData::ReferencePoint Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~ReferencePoint.html)
 
 ## Availability

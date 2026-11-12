@@ -9,9 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData~mpoAttribut
 
 # mpoAttributes Field
 
-[EdmAttributeData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData.html)
-
-to which this variable should be mapped.
+[EdmAttributeData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData.html) to which this variable should be mapped.
 
 ## Syntax
 
@@ -37,5 +35,4 @@ array<EdmAttributeData>^ mpoAttributes
 ## See Also
 
 [EdmVariableData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData.html)
-
 [EdmVariableData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVariableData_members.html)

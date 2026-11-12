@@ -47,28 +47,18 @@ property System.int AnnotationFilter {
 
 ### Property Value
 
-Type of annotations to find as defined by
-
-[gtFraFilterType_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtFraFilterType_e.html)
+Type of annotations to find as defined by [gtFraFilterType_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtFraFilterType_e.html)
 
 ## VBA Syntax
 
-See
-
-[IFindReplaceAnnotations::AnnotationFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~AnnotationFilter.html)
-
-.
+See [IFindReplaceAnnotations::AnnotationFilter](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~AnnotationFilter.html).
 
 ## See Also
 
 [IFindReplaceAnnotations Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations.html)
-
 [IFindReplaceAnnotations Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations_members.html)
-
 [IFindReplaceAnnotations::FindNext Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~FindNext.html)
-
 [IFindReplaceAnnotations::FindPrevious Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~FindPrevious.html)
-
 [IFindReplaceAnnotations::FindText Property](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~FindText.html)
 
 ## Availability

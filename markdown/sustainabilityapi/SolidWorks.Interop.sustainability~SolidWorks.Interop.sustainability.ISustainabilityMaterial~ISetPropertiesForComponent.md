@@ -49,13 +49,13 @@ void ISetPropertiesForComponent(
 ### Parameters
 
 - `ComponentsNames`: - in-process, unmanaged C++: Pointer to an array of the names of the components to which to apply material properties
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
-Before calling this method, call[ISustainabilityMaterial::IGetMissingMaterialComponentList](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityMaterial~IGetMissingMaterialComponentList.html)to populate ComponentsNames with the list of all of the components that are missing material.
+Before calling this method, call [ISustainabilityMaterial::IGetMissingMaterialComponentList](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityMaterial~IGetMissingMaterialComponentList.html) to populate ComponentsNames with the list of all of the components that are missing material.
 
 This method applies the following material properties to the components specified in ComponentsNames:
 
@@ -66,9 +66,7 @@ This method applies the following material properties to the components specifie
 ## See Also
 
 [ISustainabilityMaterial Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial.html)
-
 [ISustainabilityMaterial Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial_members.html)
-
 [ISustainabilityMaterial::SetPropertiesForComponent Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~SetPropertiesForComponent.html)
 
 ## Availability

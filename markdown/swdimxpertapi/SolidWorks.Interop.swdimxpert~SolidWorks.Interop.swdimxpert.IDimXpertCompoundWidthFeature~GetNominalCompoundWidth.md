@@ -87,28 +87,19 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundWidthFeature::GetNominalCompoundWidth](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundWidthFeature~GetNominalCompoundWidth.html)
-
-.
+See [DimXpertCompoundWidthFeature::GetNominalCompoundWidth](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundWidthFeature~GetNominalCompoundWidth.html).
 
 ## Examples
 
 [Get and Set Size Dimension Example (C#)](Get_and_Set_Size_Dimension_Example_CSharp.htm)
-
 [Get and Set Size Dimension Example (VB.NET)](Get_and_Set_Size_Dimension_Example_VBNET.htm)
-
 [Get and Set Size Dimension Example (VBA)](Get_and_Set_Size_Dimension_Example_VB.htm)
-
 [Get DimXpert Width And Best Fit Plane Features Example (VBA)](Get_DimXpert_Width_And_BestFitPlane_Features_Example_VB.htm)
-
 [Get DimXpert Width And Best Fit Plane Features Example (VB.NET)](Get_DimXpert_Width_And_BestFitPlane_Features_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertCompoundWidthFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundWidthFeature.html)
-
 [IDimXpertCompoundWidthFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundWidthFeature_members.html)
 
 ## Availability

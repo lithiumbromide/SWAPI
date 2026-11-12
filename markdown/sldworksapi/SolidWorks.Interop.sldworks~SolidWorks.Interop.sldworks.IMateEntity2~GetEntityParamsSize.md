@@ -40,13 +40,7 @@ System.int GetEntityParamsSize()
 System.int GetEntityParamsSize();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of parameters for this mate entity
 
 ## VBA Syntax
 
-See
-
-[MateEntity2::GetEntityParamsSize](ms-its:sldworksapivb6.chm::/sldworks~MateEntity2~GetEntityParamsSize.html)
-
-.
+See [MateEntity2::GetEntityParamsSize](ms-its:sldworksapivb6.chm::/sldworks~MateEntity2~GetEntityParamsSize.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IMateEntity2::IGetEntityParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateEntity2~IGetEntityParams.html)
-
-to determine the size of the array for that method.
+Call this method before calling [IMateEntity2::IGetEntityParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateEntity2~IGetEntityParams.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IMateEntity2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2.html)
-
 [IMateEntity2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2_members.html)
-
 [IMateEntity2::EntityParams Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2~EntityParams.html)
 
 ## Availability

@@ -52,7 +52,6 @@ True if the key was found, false if not
 ## Examples
 
 [Change Card Variables Add-in (VB.NET)](Change_Card_Variables_Addin_Example_VBNET.htm)
-
 [Change Card Variables Add-in (C#)](Change_Card_Variables_Addin_Example_CSharp.htm)
 
 ## Remarks
@@ -67,13 +66,9 @@ C++ programmers must release the returned string by calling SysFreeString.
 ## See Also
 
 [IEdmDictionary5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5.html)
-
 [IEdmDictionary5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5_members.html)
-
 [IEdmDictionary5::StringSetAt Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5~StringSetAt.html)
-
 [IEdmDictionary5::StringRemoveAt Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5~StringRemoveAt.html)
-
 [IEdmDictionary5::LongGetAt Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5~LongGetAt.html)
 
 ## Availability

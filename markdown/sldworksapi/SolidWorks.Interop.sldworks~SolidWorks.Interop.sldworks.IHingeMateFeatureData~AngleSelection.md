@@ -45,13 +45,7 @@ property System.bool AngleSelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to specify angle limits, false to not
 
 ## VBA Syntax
 
-See
-
-[HingeMateFeatureData::AngleSelection](ms-its:sldworksapivb6.chm::/sldworks~HingeMateFeatureData~AngleSelection.html)
-
-.
+See [HingeMateFeatureData::AngleSelection](ms-its:sldworksapivb6.chm::/sldworks~HingeMateFeatureData~AngleSelection.html).
 
 ## Examples
 
-See the
-
-[IHingeMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHingeMateFeatureData.html)
-
-example.
+See the [IHingeMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHingeMateFeatureData.html) example.
 
 ## Remarks
 
@@ -84,7 +70,6 @@ After setting this property to true, also set:
 ## See Also
 
 [IHingeMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHingeMateFeatureData.html)
-
 [IHingeMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHingeMateFeatureData_members.html)
 
 ## Availability

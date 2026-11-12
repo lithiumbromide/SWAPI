@@ -45,13 +45,7 @@ property System.double TextHeight {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Height of the tolerance text
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::TextHeight](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~TextHeight.html)
-
-.
+See [CalloutVariable::TextHeight](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~TextHeight.html).
 
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
-
 [ICalloutVariable::FitTextHeight Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~FitTextHeight.html)
 
 ## Availability

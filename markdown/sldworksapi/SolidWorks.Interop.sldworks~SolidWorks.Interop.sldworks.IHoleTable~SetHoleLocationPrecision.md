@@ -51,19 +51,12 @@ System.bool SetHoleLocationPrecision(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseDoc`: True to set the location for this hole table using the document's precision, false
-
-to not
+  to not
 - `Precision`: Precision to use for location values if UseDoc set to false
 
 ### Return Value
@@ -72,20 +65,13 @@ True if precision is set, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleTable::SetHoleLocationPrecision](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~SetHoleLocationPrecision.html)
-
-.
+See [HoleTable::SetHoleLocationPrecision](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~SetHoleLocationPrecision.html).
 
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
-
 [IHoleTable::GetHoleLocationPrecision Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~GetHoleLocationPrecision.html)
-
 [IHoleTable::GetHoleLocationUseDocPrecision Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~GetHoleLocationUseDocPrecision.html)
 
 ## Availability

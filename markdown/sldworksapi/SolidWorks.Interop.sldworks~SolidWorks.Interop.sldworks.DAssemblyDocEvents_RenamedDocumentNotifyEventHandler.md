@@ -43,39 +43,25 @@ public delegate System.int DAssemblyDocEvents_RenamedDocumentNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RenamedDocumentInterface`: [RenamedDocumentReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences.html)
-
-object
+- `RenamedDocumentInterface`: [RenamedDocumentReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences.html) object
 
 ## VBA Syntax
 
-See
-
-[RenamedDocumentNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~RenamedDocumentNotify_EV.html)
-
-.
+See [RenamedDocumentNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~RenamedDocumentNotify_EV.html).
 
 ## Examples
 
 [Rename Component and Update References (C#)](Rename_Component_and_Update_References_Example_CSharp.htm)
-
 [Rename Component and Update References (VB.NET)](Rename_Component_and_Update_References_Example_VBNET.htm)
-
 [Rename Component and Update References (VBA)](Rename_Component_and_Update_References_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyRenamedDocumentNotify](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyRenamedDocumentNotify](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 | To... | Use... |
 | --- | --- |

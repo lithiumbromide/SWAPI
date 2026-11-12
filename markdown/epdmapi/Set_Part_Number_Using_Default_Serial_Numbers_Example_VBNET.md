@@ -11,36 +11,38 @@ source: "epdmapi/Set_Part_Number_Using_Default_Serial_Numbers_Example_VBNET.htm"
 
 This example shows how to set part numbers using default serial numbers.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 '----------------------------------------------------------------------------
 ' Preconditions:
-'  1. Start Microsoft Visual Studio.
-'     a. Click File > New > Project > Visual Basic > Windows Forms Application.
-'     b. Type SerialNumbersVBNET in Name.
-'     c. Click Browse and navigate to the folder where to create the project.
-'     d. Click OK.
-'     e. Click Show All Files in the Solution Explorer toolbar and expand
-'        Form1.vb in the Solution Explorer.
-'     f. Replace the code in Form1.vb with this code.
-'     g. To create the form, replace the code in Form1.Designer.vb with
-'        this code.
-'  2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
-'     name in the Solution Explorer, click Add Reference, click
-'     Assemblies > Framework in the left-side panel, browse to the top folder of
-'     your SOLIDWORKS PDM Professional installation, locate and click
-'     EPDM.Interop.epdm.dll, click Open, click Add, and click Close).
-'  3. Right-click EPDM.Interop.epdm in References, click Properties, and set
-'     Embed Interop Types to False to handle methods that pass arrays of
-'     structures.
-'  4. Ensure that you have:
+' 1. Start Microsoft Visual Studio.
+' 2. Click File > New > Project > Visual Basic,
+Windows, Desktop > Windows Forms App
+
+' 3. Type SerialNumbers in Project
+name.
+' 4. For Location, click ... and navigate to the folder where to
+create the project.
+
+' 5. Click Next.
+
+' 6. Select Framework.
+
+' 7. Click Create.
+' 8. Click Show All Files in the Solution Explorer toolbar and expand
+
+'    Form1.vb in the Solution Explorer.
+' 9. Add dependencies and
+safely pass arrays of structures.
+'10. Replace the code in Form1.vb with this code.
+'11. To create the form, replace the code in Form1.Designer.vb with
+'    this code.
+'12. Ensure that you have:
 '     * a vault with at least one serial number generator.
 '     * a checked-out file in that vault with its Part Number variable's
 '       default set to a serial number.
-'  5. Click Debug > Start Debugging or press F5.
+'13. Click Debug > Start Debugging or press F5.
 '
 ' Postconditions:
 '  1. Displays the Serial Numbers dialog box.

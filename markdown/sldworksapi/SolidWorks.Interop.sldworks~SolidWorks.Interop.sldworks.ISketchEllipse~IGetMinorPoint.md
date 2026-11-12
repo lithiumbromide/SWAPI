@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetMinorPoint Method (ISketchEllipse)
 
-Obsolete. Superseded by
-
-[ISketchEllipse::GetMinorPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~GetMinorPoint2.html)
-
-and
-
-[ISketch Ellipse::IGetMinorPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~IGetMinorPoint2.html)
-
-.
+Obsolete. Superseded by [ISketchEllipse::GetMinorPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~GetMinorPoint2.html) and [ISketch Ellipse::IGetMinorPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchEllipse~IGetMinorPoint2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetMinorPoint()
 System.double IGetMinorPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchEllipse::IGetMinorPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~IGetMinorPoint.html)
-
-.
+See [SketchEllipse::IGetMinorPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~IGetMinorPoint.html).
 
 ## See Also
 
 [ISketchEllipse Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
 [ISketchEllipse Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse_members.html)

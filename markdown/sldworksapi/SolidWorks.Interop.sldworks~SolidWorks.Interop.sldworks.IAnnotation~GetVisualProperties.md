@@ -40,39 +40,21 @@ System.object GetVisualProperties()
 System.Object^ GetVisualProperties();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of five longs or five integers (see
-
-[Long vs. Integer](sldworksapiprogguide.chm::/overview/Long_vs_Integer.htm)
-
-and see
-
-Remarks
-
-)
+Array of five longs or five integers (see [Long vs. Integer](sldworksapiprogguide.chm::/overview/Long_vs_Integer.htm) and see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetVisualProperties](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetVisualProperties.html)
-
-.
+See [Annotation::GetVisualProperties](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetVisualProperties.html).
 
 ## Remarks
 
 The return value is the following array:
 
-[`color, style, width, layerID, layerOverride`]
+[`color, style, width, layerID, layerOverride` ]
 
 where:
 
@@ -86,9 +68,7 @@ where:
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::IGetVisualProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~IGetVisualProperties.html)
 
 ## Availability

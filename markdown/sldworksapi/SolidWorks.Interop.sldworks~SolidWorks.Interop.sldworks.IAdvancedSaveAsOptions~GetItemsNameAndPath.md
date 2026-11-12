@@ -54,13 +54,7 @@ void GetItemsNameAndPath(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,30 +64,21 @@ See
 
 ## VBA Syntax
 
-See
-
-[AdvancedSaveAsOptions::GetItemsNameAndPath](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~GetItemsNameAndPath.html)
-
-.
+See [AdvancedSaveAsOptions::GetItemsNameAndPath](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~GetItemsNameAndPath.html).
 
 ## Examples
 
-See the
-
-[IAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
-example.
+See the [IAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html) example.
 
 ## Remarks
 
-IdsList, NamesList, and PathsList are the same array size and map one to one. Call this method to obtain the current list of component references before calling[IAdvancedSaveAsOptions::ModifyItemsNameAndPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~ModifyItemsNameAndPath.html)to modify them.
+IdsList, NamesList, and PathsList are the same array size and map one to one. Call this method to obtain the current list of component references before calling [IAdvancedSaveAsOptions::ModifyItemsNameAndPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~ModifyItemsNameAndPath.html) to modify them.
 
-This method lists component references according to the Options parameter that was specified in the call to[IModelDocExtension::GetAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetAdvancedSaveAsOptions.html).
+This method lists component references according to the Options parameter that was specified in the call to [IModelDocExtension::GetAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetAdvancedSaveAsOptions.html).
 
 ## See Also
 
 [IAdvancedSaveAsOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
 [IAdvancedSaveAsOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions_members.html)
 
 ## Availability

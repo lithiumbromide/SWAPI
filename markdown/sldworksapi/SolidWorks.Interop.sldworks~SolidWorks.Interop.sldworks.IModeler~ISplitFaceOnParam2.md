@@ -40,42 +40,24 @@ Face2 ISplitFaceOnParam2()
 Face2^ ISplitFaceOnParam2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of new
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
+Array of new [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
 
 ## VBA Syntax
 
-See
-
-[Modeler::ISplitFaceOnParam2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ISplitFaceOnParam2.html)
-
-.
+See [Modeler::ISplitFaceOnParam2](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ISplitFaceOnParam2.html).
 
 ## Remarks
 
-The split is defined by calling
-
-[IModeler::ISplitFaceOnParamCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ISplitFaceOnParamCount2.html)
-
-. Then call this method to retrieve the list of new faces allocated.
+The split is defined by calling [IModeler::ISplitFaceOnParamCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ISplitFaceOnParamCount2.html). Then call this method to retrieve the list of new faces allocated.
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::SplitFaceOnParam Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~SplitFaceOnParam.html)
 
 ## Availability

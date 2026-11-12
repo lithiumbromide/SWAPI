@@ -54,30 +54,20 @@ System.int ReplaceOption(
 ### Parameters
 
 - `SStudyName`: Name of study
-- `NRunMeshOption`: New run and mesh option as defined in
-
-[swsRunStudiesRunMeshOptions_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptions_e.html)
+- `NRunMeshOption`: New run and mesh option as defined in [swsRunStudiesRunMeshOptions_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptions_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsRunStudiesRunMeshOptionErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptionErrorCode_e.html)
+Error code as defined in [swsRunStudiesRunMeshOptionErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesRunMeshOptionErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRunSpecStudiesRunMeshOptions::ReplaceOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRunSpecStudiesRunMeshOptions~ReplaceOption.html)
-
-.
+See [CWRunSpecStudiesRunMeshOptions::ReplaceOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRunSpecStudiesRunMeshOptions~ReplaceOption.html).
 
 ## See Also
 
 [ICWRunSpecStudiesRunMeshOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions.html)
-
 [ICWRunSpecStudiesRunMeshOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions_members.html)
-
 [ICWRunSpecStudiesRunMeshOptions::RemoveAll Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunSpecStudiesRunMeshOptions~RemoveAll.html)
 
 ## Availability

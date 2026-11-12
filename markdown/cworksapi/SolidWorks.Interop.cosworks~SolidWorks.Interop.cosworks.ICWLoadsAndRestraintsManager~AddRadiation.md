@@ -57,9 +57,9 @@ CWRadiation^ AddRadiation(
 
 ### Parameters
 
-- `NRadType`: Type of radiation as defined in[swsRadiationType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRadiationType_e.html)
+- `NRadType`: Type of radiation as defined in [swsRadiationType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRadiationType_e.html)
 - `DispArray`: Array of faces or shell edges to which to apply radiation
-- `ErrorCode`: Error as defined in[swsRadiationError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRadiationError_e.html)
+- `ErrorCode`: Error as defined in [swsRadiationError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRadiationError_e.html)
 
 ### Return Value
 
@@ -67,18 +67,12 @@ CWRadiation^ AddRadiation(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddRadiation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddRadiation.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddRadiation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddRadiation.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
 
 ## Remarks
@@ -86,7 +80,6 @@ See
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

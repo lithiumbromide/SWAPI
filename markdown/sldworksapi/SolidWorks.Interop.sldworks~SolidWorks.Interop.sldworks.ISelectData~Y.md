@@ -45,13 +45,7 @@ property System.double Y {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ Y coordinate for the selection point
 
 ## VBA Syntax
 
-See
-
-[SelectData::Y](ms-its:sldworksapivb6.chm::/sldworks~SelectData~Y.html)
-
-.
+See [SelectData::Y](ms-its:sldworksapivb6.chm::/sldworks~SelectData~Y.html).
 
 ## See Also
 
 [ISelectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html)
-
 [ISelectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData_members.html)
-
 [ISelectData::X Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData~X.html)
-
 [ISelectData::Z Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData~Z.html)
 
 ## Availability

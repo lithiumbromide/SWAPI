@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # ICWRemoteLoad Interface Properties
 
-For a list of all members of this type, see[ICWRemoteLoad members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html).
+For a list of all members of this type, see [ICWRemoteLoad members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html).
 
 ## Public Properties
 
@@ -34,5 +34,4 @@ For a list of all members of this type, see[ICWRemoteLoad members](SolidWorks.In
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

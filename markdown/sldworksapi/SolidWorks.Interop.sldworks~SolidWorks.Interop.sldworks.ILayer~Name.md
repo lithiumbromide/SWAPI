@@ -45,13 +45,7 @@ property System.String^ Name {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Layer name
 
 ## VBA Syntax
 
-See
-
-[Layer::Name](ms-its:sldworksapivb6.chm::/sldworks~Layer~Name.html)
-
-.
+See [Layer::Name](ms-its:sldworksapivb6.chm::/sldworks~Layer~Name.html).
 
 ## See Also
 
 [ILayer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer.html)
-
 [ILayer Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertBlockTolerances Interface Members
 
-The following tables list the members exposed by[IDimXpertBlockTolerances](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances.html).
+The following tables list the members exposed by [IDimXpertBlockTolerances](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances.html).
 
 ## Public Properties
 
@@ -31,5 +31,4 @@ The following tables list the members exposed by[IDimXpertBlockTolerances](Solid
 ## See Also
 
 [IDimXpertBlockTolerances Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

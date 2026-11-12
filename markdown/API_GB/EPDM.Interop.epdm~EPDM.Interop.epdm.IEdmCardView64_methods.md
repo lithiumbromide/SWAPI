@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView64_methods.html"
 
 # IEdmCardView64 Interface Methods
 
-For a list of all members of this type, see[IEdmCardView64 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView64_members.html).
+For a list of all members of this type, see [IEdmCardView64 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView64_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEdmCardView64 members](EPDM.Interop
 ## See Also
 
 [IEdmCardView64 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView64.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

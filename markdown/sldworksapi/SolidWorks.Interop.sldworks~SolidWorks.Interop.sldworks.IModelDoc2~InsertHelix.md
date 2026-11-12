@@ -82,13 +82,7 @@ void InsertHelix(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -96,7 +90,7 @@ See
 - `Clockwised`: True for clockwise, false for counter-clockwise
 - `Tapered`: True to taper the constant-pitch helix, false for no taper
 - `Outward`: True to taper the constant-pitch helix outward, false for inward
-- `Helixdef`: Constant-pitch helix or spiral definition as defined by[swHelixDefinedBy_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHelixDefinedBy_e.html)
+- `Helixdef`: Constant-pitch helix or spiral definition as defined by [swHelixDefinedBy_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHelixDefinedBy_e.html)
 - `Height`: Height of constant-pitch helix in meters
 - `Pitch`: Constant-pitch helix or spiral pitch
 - `Revolution`: Number of revolutions
@@ -105,18 +99,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertHelix](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertHelix.html)
-
-.
+See [ModelDoc2::InsertHelix](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertHelix.html).
 
 ## Examples
 
 [Create Spiral (C#)](Create_Spiral_Example_CSharp.htm)
-
 [Create Spiral (VB.NET)](Create_Spiral_Example_VBNET.htm)
-
 [Create Spiral (VBA)](Create_Spiral_Example_VB.htm)
 
 ## Remarks
@@ -126,11 +114,8 @@ When creating a a spiral, you must specify the pitch and number of revolutions.
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [IFeatureManager::InsertVariablePitchHelix Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertVariablePitchHelix.html)
 
 ## Availability

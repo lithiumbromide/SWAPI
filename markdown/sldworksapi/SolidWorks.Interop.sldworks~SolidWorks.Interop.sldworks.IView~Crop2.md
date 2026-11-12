@@ -55,13 +55,7 @@ System.int Crop2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,38 +65,25 @@ See
 
 ### Return Value
 
-Crop view status as defined in
-
-[swCropViewErrors_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCropViewErrors_e.html)
+Crop view status as defined in [swCropViewErrors_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCropViewErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[View::Crop2](ms-its:sldworksapivb6.chm::/sldworks~View~Crop2.html)
-
-.
+See [View::Crop2](ms-its:sldworksapivb6.chm::/sldworks~View~Crop2.html).
 
 ## Examples
 
 [Crop Drawing View Using Jagged Outline (C#)](Crop_Drawing_View_Using_Jagged_Outline_Example_CSharp.htm)
-
 [Crop Drawing View Using Jagged Outline (VB.NET)](Crop_Drawing_View_Using_Jagged_Outline_Example_VBNET.htm)
-
 [Crop Drawing View Using Jagged Outline (VBA)](Crop_Drawing_View_Using_Jagged_Outline_Example_VB.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IsCropped Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IsCropped.html)
-
 [IView::CropViewJaggedOutline Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~CropViewJaggedOutline.html)
-
 [IView::CropViewJaggedShapeIntensity Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~CropViewJaggedShapeIntensity.html)
-
 [IView::CropViewNoOutline Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~CropViewNoOutline.html)
 
 ## Availability

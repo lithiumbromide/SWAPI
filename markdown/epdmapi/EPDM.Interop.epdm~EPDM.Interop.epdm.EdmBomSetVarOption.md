@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomSetVarOption.html"
 
 # EdmBomSetVarOption Enumeration
 
-Types of value passed in
-
-[IEdmBomCell::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell~SetVar.html)
-
-.
+Types of value passed in [IEdmBomCell::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell~SetVar.html).
 
 ## Syntax
 

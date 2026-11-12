@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Visibility_of_Sketch_Block_Instances_Example_VB.htm"
 
 # Change Visibility of Sketch Block Instances (VBA)
 
-This example shows how to hide and show sketch block instances in a drawing
-document.
+This example shows how to hide and show sketch block instances in a drawing document.
 
 ```
 '-------------------------------------------------

@@ -45,13 +45,7 @@ property System.String^ Provider {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Error message
 
 ## VBA Syntax
 
-See
-
-[MacroFeatureData::Provider](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~Provider.html)
-
-.
+See [MacroFeatureData::Provider](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~Provider.html).
 
 ## Remarks
 
@@ -75,18 +65,14 @@ Possible causes of macro feature rebuild failure:
 - The model references this non-embedded macro feature which exists in a VBA macro that SOLIDWORKS cannot locate.
 - Third-party DLLs, add-in files, or other files associated with this non-embedded macro feature are missing.
 
-**NOTE:**All files required by embedded macro features are serialized with the model, so**File not found**errors do not occur for embedded macros, and this property need not be set for them.
+**NOTE:** All files required by embedded macro features are serialized with the model, so **File not found** errors do not occur for embedded macros, and this property need not be set for them.
 
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [IMacroFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html)
-
 [IMacroFeatureData::EmbedMacroFile Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~EmbedMacroFile.html)
-
 [IMacroFeatureData::MacroFileEmbedded Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~MacroFileEmbedded.html)
-
 [IModelDocExtension::GetWhatsWrong Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetWhatsWrong.html)
 
 ## Availability

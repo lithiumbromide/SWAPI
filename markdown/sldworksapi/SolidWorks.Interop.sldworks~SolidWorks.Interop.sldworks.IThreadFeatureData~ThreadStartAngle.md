@@ -45,13 +45,7 @@ property System.double ThreadStartAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ThreadFeatureData::ThreadStartAngle](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~ThreadStartAngle.html)
-
-.
+See [ThreadFeatureData::ThreadStartAngle](ms-its:sldworksapivb6.chm::/sldworks~ThreadFeatureData~ThreadStartAngle.html).
 
 ## Examples
 
-See the
-
-[IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-examples.
+See the [IThreadFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ Specify either a value or an equation that starts with an equal sign (=).
 ## See Also
 
 [IThreadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
 [IThreadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData_members.html)
 
 ## Availability

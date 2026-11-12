@@ -9,8 +9,7 @@ source: "sldworksapi/Selectively_and_Transparently_Section_a_Section_View_Exampl
 
 # Selectively and Transparently Section a Section View Example (VBA)
 
-This example shows how to selectively and transparently section a section
-view.
+This example shows how to selectively and transparently section a section view.
 
 ```
 '-------------------------------------------------------------------------

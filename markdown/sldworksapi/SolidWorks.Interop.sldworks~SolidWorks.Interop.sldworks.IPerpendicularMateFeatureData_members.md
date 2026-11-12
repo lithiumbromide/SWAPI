@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPe
 
 # IPerpendicularMateFeatureData Interface Members
 
-The following tables list the members exposed by[IPerpendicularMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData.html).
+The following tables list the members exposed by [IPerpendicularMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[IPerpendicularMateFeatureData](
 ## See Also
 
 [IPerpendicularMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPerpendicularMateFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

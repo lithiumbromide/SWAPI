@@ -9,8 +9,7 @@ source: "sldworksapi/Copy_Document_and_Its_Dependencies_Example_VBNET.htm"
 
 # Copy Document and Its Dependencies Example (VB.NET)
 
-This example shows how to copy a document and its dependencies to this
-macro's folder.
+This example shows how to copy a document and its dependencies to this macro's folder.
 
 ```
 '---------------------------------------------------------------------------

@@ -9,18 +9,9 @@ source: "sldworksapi/Select_Edges_of_All_Holes_on_Face_Example_VB.htm"
 
 # Select Edges of All Holes on Face Example (VBA)
 
-This example shows how to select the edges on all circular holes on
-a face.
+This example shows how to select the edges on all circular holes on a face.
 
-**NOTE:**kadov_tag{{</spaces>}}A
-circular hole can be defined in a many ways; for example, a
-circle inside an extruded sketch or a circle that is part of
-a cut-extrude feature. Thus, there is no ready way to detect
-a hole solely based on the feature information. However,
-by directly examining the geometry and topology of the
-model, it is possible to deduce holes. This
-code uses many of the geometry- and topology-related objects and methods to traverse a face and
-look for circular holes.
+**NOTE:** A circular hole can be defined in a many ways; for example, a circle inside an extruded sketch or a circle that is part of a cut-extrude feature. Thus, there is no ready way to detect a hole solely based on the feature information. However, by directly examining the geometry and topology of the model, it is possible to deduce holes. This code uses many of the geometry- and topology-related objects and methods to traverse a face and look for circular holes.
 
 ```
 '------------------------------------------------------------------

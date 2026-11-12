@@ -9,9 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ShowInDrawingDoc Property (ISwQuickTip)
 
-Gets whether to show an add-in's
-
-Quick Tips in SOLIDWORKS drawing documents.
+Gets whether to show an add-in's Quick Tips in SOLIDWORKS drawing documents.
 
 ## Syntax
 
@@ -50,16 +48,11 @@ True to show Quick Tips in SOLIDWORKS drawing documents, false to not
 
 ## VBA Syntax
 
-See
-
-[SwQuickTip::ShowInDrawingDoc](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~ShowInDrawingDoc.html)
-
-.
+See [SwQuickTip::ShowInDrawingDoc](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~ShowInDrawingDoc.html).
 
 ## See Also
 
 [ISwQuickTip Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip.html)
-
 [ISwQuickTip Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip_members.html)
 
 ## Availability

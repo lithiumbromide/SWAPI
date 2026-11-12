@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxType.html"
 
 # EdmMBoxType Enumeration
 
-Types of widget to insert or display in
-
-[IEdmVault5::MsgBox](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~MsgBox.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Types of widget to insert or display in [IEdmVault5::MsgBox](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~MsgBox.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

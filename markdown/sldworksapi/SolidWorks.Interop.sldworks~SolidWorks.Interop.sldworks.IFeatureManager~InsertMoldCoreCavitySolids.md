@@ -59,36 +59,22 @@ Feature^ InsertMoldCoreCavitySolids(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Dist1`: Length of the extrusion in Direction 1
-- `Dist2`: Length of the extrusion in Direction 2ParamDesc
-- `Setback`: True to enable setback surface, false to notParamDesc
-- `Angle`: Draft angle for the setback surfaceParamDesc
+- `Dist2`: Length of the extrusion in Direction 2
+- `Setback`: True to enable setback surface, false to not
+- `Angle`: Draft angle for the setback surface
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertMoldCoreCavitySolids](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMoldCoreCavitySolids.html)
-
-.
+See [FeatureManager::InsertMoldCoreCavitySolids](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMoldCoreCavitySolids.html).
 
 ## Remarks
 
@@ -107,17 +93,11 @@ The location of the sketch plane specifies the parting plane in the setback surf
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertMoldPartingLine Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMoldPartingLine.html)
-
 [IFeatureManager::InsertMoldPartingSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMoldPartingSurface.html)
-
 [IFeatureManager::InsertMoldShutOffSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMoldShutOffSurface.html)
-
 [ICoreFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData.html)
-
 [ICavityFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData.html)
 
 ## Availability

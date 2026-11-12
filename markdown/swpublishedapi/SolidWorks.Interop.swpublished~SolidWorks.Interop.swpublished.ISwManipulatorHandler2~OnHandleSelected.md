@@ -52,33 +52,20 @@ void OnHandleSelected(
 
 ### Parameters
 
-- `pManipulator`: [IManipulator](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IManipulator.html)
-
-object
-- `handleIndex`: Direction of the drag handle as defined by
-
-[swDragArrowManipulatorOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDragArrowManipulatorOptions_e.html)
+- `pManipulator`: [IManipulator](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IManipulator.html) object
+- `handleIndex`: Direction of the drag handle as defined by [swDragArrowManipulatorOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDragArrowManipulatorOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler2::OnHandleSelected](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler2~OnHandleSelected.html)
-
-.
+See [SwManipulatorHandler2::OnHandleSelected](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler2~OnHandleSelected.html).
 
 ## Examples
 
-See the
-
-[ISwManipulatorHandler2](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html)
-
-examples.
+See the [ISwManipulatorHandler2](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html) examples.
 
 ## See Also
 
 [ISwManipulatorHandler2 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html)
-
 [ISwManipulatorHandler2 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2_members.html)
 
 ## Availability

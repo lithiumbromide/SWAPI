@@ -40,27 +40,15 @@ System.object GetSketchPictures()
 System.Object^ GetSketchPictures();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[ISketchPictures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPicture.html)
+Array of [ISketchPictures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPicture.html)
 
 ## VBA Syntax
 
-See
-
-[View::GetSketchPictures](ms-its:sldworksapivb6.chm::/sldworks~View~GetSketchPictures.html)
-
-.
+See [View::GetSketchPictures](ms-its:sldworksapivb6.chm::/sldworks~View~GetSketchPictures.html).
 
 ## Remarks
 
@@ -69,11 +57,8 @@ Only sketch pictures orthogonal to this view are returned.
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IGetSketchPictures Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetSketchPictures.html)
-
 [IView::GetSketchPictureCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetSketchPictureCount.html)
 
 ## Availability

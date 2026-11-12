@@ -45,13 +45,7 @@ property System.int ExponentOfSpringForceExpression {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,14 @@ Exponent of the spring force expression
 
 ## VBA Syntax
 
-See
-
-[SimulationSpringFeatureData::ExponentOfSpringForceExpression](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~ExponentOfSpringForceExpression.html)
-
-.
+See [SimulationSpringFeatureData::ExponentOfSpringForceExpression](ms-its:sldworksapivb6.chm::/sldworks~SimulationSpringFeatureData~ExponentOfSpringForceExpression.html).
 
 ## See Also
 
 [ISimulationSpringFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData.html)
-
 [ISimulationSpringFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData_members.html)
-
 [ISimulationSpringFeatureData::SpringConstant Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData~SpringConstant.html)
-
 [ISimulationSpringFeatureData::FreeAngle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData~FreeAngle.html)
-
 [ISimulationSpringFeatureData::FreeLength Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationSpringFeatureData~FreeLength.html)
 
 ## Availability

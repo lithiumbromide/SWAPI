@@ -59,7 +59,6 @@ void RenameEx(
 ## See Also
 
 [IEdmFile6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile6.html)
-
 [IEdmFile6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile6_members.html)
 
 ## Availability

@@ -34,14 +34,9 @@ System.int mlCmdID
 
 ## Remarks
 
-Used with
-
-[IEdmMenu5::OnMenuItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem.html)
-
-.
+Used with [IEdmMenu5::OnMenuItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu5~OnMenuItem.html).
 
 ## See Also
 
 [EdmCmdInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo.html)
-
 [EdmCmdInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdInfo_members.html)

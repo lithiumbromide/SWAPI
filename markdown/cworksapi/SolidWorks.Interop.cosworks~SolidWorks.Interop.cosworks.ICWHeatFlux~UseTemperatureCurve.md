@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # UseTemperatureCurve Property (ICWHeatFlux)
 
-Obsolete. Superseded by[ICWHeatFlux::UseTemperatureCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~UseTemperatureCurve2.html).
+Obsolete. Superseded by [ICWHeatFlux::UseTemperatureCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~UseTemperatureCurve2.html).
 
 ## Syntax
 
@@ -51,16 +51,11 @@ property System.int UseTemperatureCurve {
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::UseTemperatureCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~UseTemperatureCurve.html)
-
-.
+See [CWHeatFlux::UseTemperatureCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~UseTemperatureCurve.html).
 
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
 
 ## Availability

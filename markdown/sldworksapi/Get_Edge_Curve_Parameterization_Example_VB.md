@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Edge_Curve_Parameterization_Example_VB.htm"
 
 # Get Edge Curve Parameterization Example (VBA)
 
-This example shows how to get curve parameterization data for a selected
-edge.
+This example shows how to get curve parameterization data for a selected edge.
 
 ```
 '-----------------------------------------------

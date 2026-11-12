@@ -48,18 +48,10 @@ EdmBomView^ GetComputedBOM(
 
 ### Parameters
 
-- `oBomLayoutNameOrID`: Name or ID of a Bill of Materials layout (see
-
-Remarks
-
-)
+- `oBomLayoutNameOrID`: Name or ID of a Bill of Materials layout (see **Remarks**)
 - `lVersionNo`: Version of file for which to get the Bill of Materials; 0 or -1 to use the latest version
 - `bsConfiguration`: Name of the file configuration
-- `lEdmBomFlags`: Combination of
-
-[EdmBomFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomFlag.html)
-
-bits
+- `lEdmBomFlags`: Combination of [EdmBomFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomFlag.html) bits
 
 ### Return Value
 
@@ -67,15 +59,11 @@ bits
 
 ## Examples
 
-See the
-
-[IEdmFile7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7.html)
-
-examples.
+See the [IEdmFile7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7.html) examples.
 
 ## Remarks
 
-To specify oBomLayoutNameOrID, use[IEdmBomMgr.GetBomLayouts](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr~GetBomLayouts.html)to enumerate the existing Bill of Materials layouts.
+To specify oBomLayoutNameOrID, use [IEdmBomMgr.GetBomLayouts](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr~GetBomLayouts.html) to enumerate the existing Bill of Materials layouts.
 
 [Return codes](ReturnCodes.htm):
 
@@ -85,7 +73,6 @@ To specify oBomLayoutNameOrID, use[IEdmBomMgr.GetBomLayouts](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmFile7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7.html)
-
 [IEdmFile7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7_members.html)
 
 ## Availability

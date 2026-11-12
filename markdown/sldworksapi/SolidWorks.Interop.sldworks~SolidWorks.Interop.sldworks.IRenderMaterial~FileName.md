@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # FileName Property (IRenderMaterial)
 
-Gets or sets the path and file name (.
-
-p2m
-
-) of the appearance.
+Gets or sets the path and file name (.p2m) of the appearance.
 
 ## Syntax
 
@@ -49,48 +45,28 @@ property System.String^ FileName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Path and file name (.
-
-p2m
-
-) of the appearance
+Path and file name (.p2m) of the appearance
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::FileName](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~FileName.html)
-
-.
+See [RenderMaterial::FileName](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~FileName.html).
 
 ## Examples
 
 [Add Decal (VBA)](Add_Decal_Example_VB.htm)
-
 [Add Decal (VB.NET)](Add_Decal_Example_VBNET.htm)
-
 [Add Decal (C#)](Add_Decal_Example_CSharp.htm)
-
 [Get Appearance File Name (C#)](Get_Appearance_Filename_Example_CSharp.htm)
-
 [Get Appearance File Name (VB.NET)](Get_Appearance_Filename_Example_VBNET.htm)
-
 [Get Appearance File Name (VBA)](Get_Appearance_Filename_Example_VB.htm)
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

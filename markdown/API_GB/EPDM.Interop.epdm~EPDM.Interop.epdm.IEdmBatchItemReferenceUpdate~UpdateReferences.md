@@ -42,24 +42,12 @@ void UpdateReferences(
 
 ### Parameters
 
-- `ppoAddReferences`: Array of
-
-[EdmItemRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html)
-
-structures; item references to add
-- `ppoRemoveReferences`: Array of
-
-[EdmItemRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html)
-
-structures; item references to remove
+- `ppoAddReferences`: Array of [EdmItemRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html) structures; item references to add
+- `ppoRemoveReferences`: Array of [EdmItemRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemRef.html) structures; item references to remove
 
 ## Examples
 
-See the
-
-[IEdmBatchItemReferenceUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate.html)
-
-examples.
+See the [IEdmBatchItemReferenceUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate.html) examples.
 
 ## Remarks
 
@@ -71,7 +59,6 @@ examples.
 ## See Also
 
 [IEdmBatchItemReferenceUpdate Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate.html)
-
 [IEdmBatchItemReferenceUpdate Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemReferenceUpdate_members.html)
 
 ## Availability

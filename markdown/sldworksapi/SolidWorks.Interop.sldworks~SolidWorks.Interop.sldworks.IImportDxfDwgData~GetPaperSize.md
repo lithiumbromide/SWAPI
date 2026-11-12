@@ -58,30 +58,18 @@ void GetPaperSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sheet`: Sheet (layout) name of the input file or an empty string for all sheets
-- `Size`: Size as defined in
-
-[swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
+- `Size`: Size as defined in [swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
 - `Height`: If Size is swDwgPapersUserDefined, then the height of the paper in meters
 - `Width`: If Size is swDwgPapersUserDefined, then the width of the paper in meters
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::GetPaperSize](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~GetPaperSize.html)
-
-.
+See [ImportDxfDwgData::GetPaperSize](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~GetPaperSize.html).
 
 ## Remarks
 
@@ -90,9 +78,7 @@ This method only supports importing to a drawing; it does not support importing 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
-
 [IImportDxfDwgData::SetPaperSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData~SetPaperSize.html)
 
 ## Availability

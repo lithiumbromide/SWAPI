@@ -42,13 +42,7 @@ property TitleBlockTableFeature^ TitleBlockTableFeature {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[TitleBlockTableAnnotation::TitleBlockTableFeature](ms-its:sldworksapivb6.chm::/sldworks~TitleBlockTableAnnotation~TitleBlockTableFeature.html)
-
-.
+See [TitleBlockTableAnnotation::TitleBlockTableFeature](ms-its:sldworksapivb6.chm::/sldworks~TitleBlockTableAnnotation~TitleBlockTableFeature.html).
 
 ## Examples
 
 [Get Title Block Tables (VBA)](Get_Title_Block_Tables_Example_VB6.htm)
-
 [Get Title Block Tables (VB.NET)](Get_Title_Block_Tables_Example_VBNET.htm)
-
 [Get Title Block Tables (C#)](Get_Title_Block_Tables_Example_CSharp.htm)
 
 ## See Also
 
 [ITitleBlockTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlockTableAnnotation.html)
-
 [ITitleBlockTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlockTableAnnotation_members.html)
 
 ## Availability

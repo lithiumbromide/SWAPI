@@ -51,13 +51,7 @@ System.double GetLength3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,20 +64,15 @@ Length of the curve between the two parameters
 
 ## VBA Syntax
 
-See
-
-[Curve::GetLength3](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetLength3.html)
-
-.
+See [Curve::GetLength3](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetLength3.html).
 
 ## Remarks
 
-This method returns the length of the holding (e.g., trimmed) curve and not the base curve. The now obsolete[ICurve::Length2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetLength2.html)returned the length of the base curve.
+This method returns the length of the holding (e.g., trimmed) curve and not the base curve. The now obsolete [ICurve::Length2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetLength2.html) returned the length of the base curve.
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
 
 ## Availability

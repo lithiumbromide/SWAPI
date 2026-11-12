@@ -47,36 +47,24 @@ property System.int Unit {
 
 ### Property Value
 
-Unit system as defined in
-
-[swsUnitSystem_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsUnitSystem_e.html)
+Unit system as defined in [swsUnitSystem_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsUnitSystem_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPinConnector::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~Unit.html)
-
-.
+See [CWPinConnector::Unit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~Unit.html).
 
 ## Examples
 
 [Create and Edit Bolt and Pin Connectors (VBA)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VB.htm)
-
 [Create and Edit Bolt and Pin Connectors (VB.NET)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VBNET.htm)
-
 [Create and Edit Bolt and Pin Connectors (C#)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_CSharp.htm)
 
 ## See Also
 
 [ICWPinConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
 [ICWPinConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector_members.html)
-
 [ICWPinConnector::AxialStiffnessValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~AxialStiffnessValue.html)
-
 [ICWPinConnector::RotationalStiffnessValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~RotationalStiffnessValue.html)
-
 [ICWPinConnector::MassValue Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector~MassValue.html)
 
 ## Availability

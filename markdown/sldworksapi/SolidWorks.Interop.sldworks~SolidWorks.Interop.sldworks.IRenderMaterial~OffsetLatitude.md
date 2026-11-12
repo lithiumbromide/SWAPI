@@ -45,13 +45,7 @@ property System.double OffsetLatitude {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Offset latitude value
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::OffsetLatitude](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~OffsetLatitude.html)
-
-.
+See [RenderMaterial::OffsetLatitude](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~OffsetLatitude.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -41,32 +41,19 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFactorOfSafetyConstraint::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFactorOfSafetyConstraint~BeginEdit.html)
-
-.
+See [CWTopologyFactorOfSafetyConstraint::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFactorOfSafetyConstraint~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyFactorOfSafetyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint.html)
-
-example.
+See the [ICWTopologyFactorOfSafetyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint.html) example.
 
 ## Remarks
 
-To end editing this Factor Of Safety constraint, call
-
-[ICWTopologyFactorOfSafetyConstraint::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint~EndEdit.html)
-
-.
+To end editing this Factor Of Safety constraint, call [ICWTopologyFactorOfSafetyConstraint::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint~EndEdit.html).
 
 ## See Also
 
 [ICWTopologyFactorOfSafetyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint.html)
-
 [ICWTopologyFactorOfSafetyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFactorOfSafetyConstraint_members.html)
 
 ## Availability

@@ -51,13 +51,7 @@ System.bool SetFitValues(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ True if the setting of the fit values is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DimensionTolerance::SetFitValues](ms-its:sldworksapivb6.chm::/sldworks~DimensionTolerance~SetFitValues.html)
-
-.
+See [DimensionTolerance::SetFitValues](ms-its:sldworksapivb6.chm::/sldworks~DimensionTolerance~SetFitValues.html).
 
 ## Remarks
 
@@ -83,18 +73,14 @@ See
 | Hole fit value | IDimensionTolerance::GetHoleFitValue |
 | Shaft fit value | IDimensionTolerance::GetShaftFitValue |
 
-To see the effects of changing the tolerance fit values, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
+To see the effects of changing the tolerance fit values, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
 
 ## See Also
 
 [IDimensionTolerance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance.html)
-
 [IDimensionTolerance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance_members.html)
-
 [IDimensionTolerance::FitType Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionTolerance~FitType.html)
-
 [ICalloutVariable::HoleFit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~HoleFit.html)
-
 [ICalloutVariable::ShaftFit Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~ShaftFit.html)
 
 ## Availability

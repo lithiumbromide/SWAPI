@@ -11,32 +11,27 @@ source: "sldworksapi/Fire_Events_When_Display_State_Changes_in_Part_Document_Exa
 
 ## Fire Events When Display State Changes in Part Document Example (VBA)
 
-This example shows how to fire the events related to changing display
-states of a configuration in a part document.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+This example shows how to fire the events related to changing display states of a configuration in a part document.
 
 - [Module](#Module)
 - [Class Module](#Class)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
 
 Module
 
 ```vb
 '---------------------------------------------------------------
 ' Preconditions:
-' 1. Open a part document that has kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}
-' kadov_tag{{<spaces>}}   a configuration with multiple display states.
-' kadov_tag{{<spaces>}}2. Run this macro in debug mode.
-' kadov_tag{{<spaces>}}3. Change the display state of the active configuration in SOLIDWORKS
-' kadov_tag{{<spaces>}}   (click the ConfigurationManager tab and double-click
-' kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}a different display state).
+' 1. Open a part document that has
+'    a configuration with multiple display states.
+' 2. Run this macro in debug mode.
+' 3. Change the display state of the active configuration in SOLIDWORKS Design
+'    (click the ConfigurationManager tab and double-click
+'    a different display state).
 '
 ' Postcondition: A message box is displayed informing
-' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}you that the display state is about change. After the display state changes,
-' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}another message box is displayed informing you that the display
-' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}state has changed.
+' you that the display state is about change. After the display state changes,
+' another message box is displayed informing you that the display
+' state has changed.
 '---------------------------------------------------------------
 Option Explicit
 
@@ -54,10 +49,7 @@ Set swPartEvents.swPart = swApp.ActiveDoc
 End Sub
 ```
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-Class
-Module
+Class Module
 
 ```vb
 Option Explicit
@@ -66,11 +58,11 @@ Public WithEvents swPart As SldWorks.PartDoc
 
 Private Function swPart_ActiveDisplayStateChangePreNotify() As Long
 'Send message when user changes display state in the ConfigurationManager
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}MsgBox "The active configuration's display state is about to change."
+    MsgBox "The active configuration's display state is about to change."
 End Function
 
 Private Function swPart_ActiveDisplayStateChangePostNotify(ByVal DisplayStateName As String) As Long
 'Send message after user changes display state in the ConfigurationManager
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}MsgBox "The active configuration's display state has changed."
+    MsgBox "The active configuration's display state has changed."
 End Function
 ```

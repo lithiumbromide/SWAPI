@@ -45,13 +45,7 @@ property Camera^ Camera {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelView::Camera](ms-its:sldworksapivb6.chm::/sldworks~ModelView~Camera.html)
-
-.
+See [ModelView::Camera](ms-its:sldworksapivb6.chm::/sldworks~ModelView~Camera.html).
 
 ## Examples
 
@@ -76,9 +66,7 @@ If the return value is Nothing or NULL, then the camera view for this model is t
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
-
 [IModelView::SetCameraByName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView~SetCameraByName.html)
 
 ## Availability

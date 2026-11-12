@@ -47,13 +47,7 @@ System.Object^ GetArrowHeadAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,17 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DatumTag::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetArrowHeadAtIndex.html)
-
-.
+See [DatumTag::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~GetArrowHeadAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-**[**`arrowHeadPt[3], arrowHeadDir[3], arrowHeadWidth, arrowHeadHeight, arrowHeadStyle`**]**
+**[** `arrowHeadPt[3], arrowHeadDir[3], arrowHeadWidth, arrowHeadHeight, arrowHeadStyle` **]**
 
 where:
 
@@ -93,9 +79,6 @@ where:
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::IGetArrowHeadAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~IGetArrowHeadAtIndex.html)
-
 [IDatumTag::GetArrowHeadCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~GetArrowHeadCount.html)

@@ -9,13 +9,9 @@ source: "API_GB/Get_and_Set_Folder_Permissions_Example_CSharp.htm"
 
 # Get and Set Folder Permissions Example (C#)
 
-This example shows how to create an application that displays a form in which
-a user can assign permissions to folders for users
-and groups in a vault.
+This example shows how to create an application that displays a form in which a user can assign permissions to folders for users and groups in a vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
 //----------------------------------------------------------------------------

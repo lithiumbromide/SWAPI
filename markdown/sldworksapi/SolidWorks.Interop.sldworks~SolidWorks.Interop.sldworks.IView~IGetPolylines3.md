@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # IGetPolylines3 Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetPolyLines6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetPolylines6.html)
-
-and
-
-[IView::IGetPolyLines6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolylines6.html)
-
-.
+Obsolete. Superseded by [IView::GetPolyLines6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetPolylines6.html) and [IView::IGetPolyLines6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolylines6.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetPolylines3()
 System.double IGetPolylines3();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::IGetPolylines3](ms-its:sldworksapivb6.chm::/sldworks~View~IGetPolylines3.html)
-
-.
+See [View::IGetPolylines3](ms-its:sldworksapivb6.chm::/sldworks~View~IGetPolylines3.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

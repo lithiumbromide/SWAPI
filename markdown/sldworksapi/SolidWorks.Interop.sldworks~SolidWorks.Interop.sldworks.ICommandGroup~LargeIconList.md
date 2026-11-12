@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # LargeIconList Property (ICommandGroup)
 
-Obsolete. Superseded by
-
-[ICommandGroup::IconList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~IconList.html)
-
-.
+Obsolete. Superseded by [ICommandGroup::IconList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~IconList.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.String^ LargeIconList {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,11 +53,7 @@ Path for the bitmap or PNG files containing all of the large images of the toolb
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::LargeIconList](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~LargeIconList.html)
-
-.
+See [CommandGroup::LargeIconList](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~LargeIconList.html).
 
 ## Examples
 
@@ -82,15 +68,10 @@ You can only set this property for the top-level CommandGroup.
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
-
 [ICommandGroup::AddCommandItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~AddCommandItem2.html)
-
 [ICommandGroup::LargeMainIcon Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~LargeMainIcon.html)
-
 [ICommandGroup::SmallIconList Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~SmallIconList.html)
-
 [ICommandGroup::SmallMainIcon Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~SmallMainIcon.html)
 
 ## Availability

@@ -51,32 +51,19 @@ Report remark
 
 ## VBA Syntax
 
-See
-
-[CWStaticStudyOptions::RemarkComment](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~RemarkComment.html)
-
-.
+See [CWStaticStudyOptions::RemarkComment](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStaticStudyOptions~RemarkComment.html).
 
 ## Examples
 
-See the
-
-[ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
-examples.
+See the [ICWStaticStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ICWStaticStudyOptions::IncludeRemarkInReport](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IncludeRemarkInReport.html)
-
-is set to 1.
+This property is valid only if [ICWStaticStudyOptions::IncludeRemarkInReport](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions~IncludeRemarkInReport.html) is set to 1.
 
 ## See Also
 
 [ICWStaticStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions.html)
-
 [ICWStaticStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStaticStudyOptions_members.html)
 
 ## Availability

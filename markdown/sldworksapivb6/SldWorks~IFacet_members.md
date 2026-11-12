@@ -1,6 +1,5 @@
 ---
-title: "IFacet Object
-Members"
+title: "IFacet Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IFacet_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IFacet_members.html"
 ---
 
-# IFacet Object
-Members
+# IFacet Object Members
 
 ## Public Methods
 

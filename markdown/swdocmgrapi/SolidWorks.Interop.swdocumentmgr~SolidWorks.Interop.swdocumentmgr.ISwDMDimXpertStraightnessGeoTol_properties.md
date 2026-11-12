@@ -9,7 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertStraightnessGeoTol Interface Properties
 
-For a list of all members of this type, see[ISwDMDimXpertStraightnessGeoTol members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertStraightnessGeoTol_members.html).
+For a list of all members of this type, see [ISwDMDimXpertStraightnessGeoTol members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertStraightnessGeoTol_members.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[ISwDMDimXpertStraightnessGeoTol memb
 ## See Also
 
 [ISwDMDimXpertStraightnessGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertStraightnessGeoTol.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

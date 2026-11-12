@@ -42,13 +42,7 @@ property System.bool IsGrouped {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,18 @@ True if the center mark is in a center mark set, false if not
 
 ## VBA Syntax
 
-See
-
-[CenterMark::IsGrouped](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~IsGrouped.html)
-
-.
+See [CenterMark::IsGrouped](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~IsGrouped.html).
 
 ## Examples
 
 [Get and Set Center Mark Set (C#)](Get_and_Set_Center_Marks_Set_Example_CSharp.htm)
-
 [Get and Set Center Mark Set (VB.NET)](Get_and_Set_Center_Marks_Set_Example_VBNET.htm)
-
 [Get and Set Center Mark Set (VBA)](Get_and_Set_Center_Marks_Set_Example_VBA.htm)
 
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [ICenterMark Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html)
-
 [ICenterMark::GroupCount Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark~GroupCount.html)
 
 ## Availability

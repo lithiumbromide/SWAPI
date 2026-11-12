@@ -9,9 +9,7 @@ source: "API_GB/Schedule_Task_to_Find_Files_in_State_Addin_Example_VBNET.htm"
 
 # Create a Task that Finds Files in Workflow States Example (VB.NET)
 
-This example shows how to create a task add-in that finds
-files that have been in specified workflow states a specified number of
-days.
+This example shows how to create a task add-in that finds files that have been in specified workflow states a specified number of days.
 
 ```vb
   '--------------------------------------------------------------------------------------

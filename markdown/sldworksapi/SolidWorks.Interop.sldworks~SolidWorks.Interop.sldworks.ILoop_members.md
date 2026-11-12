@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # ILoop Interface Members
 
-The following tables list the members exposed by[ILoop](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop.html).
+The following tables list the members exposed by [ILoop](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop.html).
 
 ## Public Methods
 
@@ -37,5 +37,4 @@ The following tables list the members exposed by[ILoop](SolidWorks.Interop.sldwo
 ## See Also
 
 [ILoop Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

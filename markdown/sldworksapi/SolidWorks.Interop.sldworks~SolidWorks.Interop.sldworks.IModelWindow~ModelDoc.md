@@ -42,40 +42,25 @@ property ModelDoc2^ ModelDoc {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-in this model window
+[Model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) in this model window
 
 ## VBA Syntax
 
-See
-
-[ModelWindow::ModelDoc](ms-its:sldworksapivb6.chm::/sldworks~ModelWindow~ModelDoc.html)
-
-.
+See [ModelWindow::ModelDoc](ms-its:sldworksapivb6.chm::/sldworks~ModelWindow~ModelDoc.html).
 
 ## Examples
 
 [Switch Documents (C#)](Switch_Documents_Example_CSharp.htm)
-
 [Switch Documents (VB.NET)](Switch_Documents_Example_VBNET.htm)
-
 [Switch Documents (VBA)](Switch_Documents_Example_VB.htm)
 
 ## See Also
 
 [IModelWindow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow.html)
-
 [IModelWindow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow_members.html)
 
 ## Availability

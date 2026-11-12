@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRa
 
 # OpenSystem Property (ICWRadiation)
 
-Obsolete. Superseded by ICWRadiation::OpenSystem2.
+Obsolete. Superseded by [ICWRadiation::OpenSystem2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~OpenSystem2.html).
 
 ## Syntax
 
@@ -47,22 +47,16 @@ property System.int OpenSystem {
 
 ### Property Value
 
-System as defined in[swsRadiationOpenSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRadiationOpenSystem_e.html)
+System as defined in [swsRadiationOpenSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRadiationOpenSystem_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRadiation::OpenSystem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~OpenSystem.html)
-
-.
+See [CWRadiation::OpenSystem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~OpenSystem.html).
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
-
 [ICWRadiaiton::AmbientTemperature Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~AmbientTemperature.html)
 
 ## Availability

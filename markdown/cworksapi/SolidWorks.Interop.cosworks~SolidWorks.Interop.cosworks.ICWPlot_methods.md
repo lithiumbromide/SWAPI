@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPl
 
 # ICWPlot Interface Methods
 
-For a list of all members of this type, see[ICWPlot members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html).
+For a list of all members of this type, see [ICWPlot members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html).
 
 ## Public Methods
 
@@ -45,5 +45,4 @@ For a list of all members of this type, see[ICWPlot members](SolidWorks.Interop.
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

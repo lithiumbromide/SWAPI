@@ -40,40 +40,20 @@ System.object GetMates()
 System.Object^ GetMates();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of mates (either
-
-[IMate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2.html)
-
-objects or
-
-[IMateInPlace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateInPlace.html)
-
-objects)
+Array of mates (either [IMate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2.html) objects or [IMateInPlace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateInPlace.html) objects)
 
 ## VBA Syntax
 
-See
-
-[Component2::GetMates](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetMates.html)
-
-.
+See [Component2::GetMates](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetMates.html).
 
 ## Examples
 
 [Get Mates (VB.NET)](Get_Mates_Example_VBNET.htm)
-
 [Get Mates (VBA)](Get_Mates_Example_VB.htm)
-
 [Get Mates (C#)](Get_Mates_Example_CSharp.htm)
 
 ## Remarks
@@ -83,7 +63,6 @@ This method eliminates iterating through the list of mates, which can adversely 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
 
 ## Availability

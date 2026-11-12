@@ -9,15 +9,9 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5.html"
 
 # IEdmWorkflow5 Interface
 
-Obsolete. Superseded by[IEdmWorkflow6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6.html).
+Obsolete. Superseded by [IEdmWorkflow6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6.html).
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,5 +36,4 @@ public interface class IEdmWorkflow5
 ## See Also
 
 [IEdmWorkflow5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

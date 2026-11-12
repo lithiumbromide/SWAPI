@@ -45,13 +45,7 @@ property System.bool Reverse {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to reverse the direction of movement of the rack and pinion, false to not
 
 ## VBA Syntax
 
-See
-
-[RackPinionMateFeatureData::Reverse](ms-its:sldworksapivb6.chm::/sldworks~RackPinionMateFeatureData~Reverse.html)
-
-.
+See [RackPinionMateFeatureData::Reverse](ms-its:sldworksapivb6.chm::/sldworks~RackPinionMateFeatureData~Reverse.html).
 
 ## Examples
 
-See the
-
-[IRackPinionMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData.html)
-
-example.
+See the [IRackPinionMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData.html) example.
 
 ## See Also
 
 [IRackPinionMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData.html)
-
 [IRackPinionMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRackPinionMateFeatureData_members.html)
 
 ## Availability

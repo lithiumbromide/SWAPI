@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnItemSetFocus Method (ISwManipulatorHandler)
 
-Obsolete. Superseded by
-
-[ISwManipulatorHandler2::OnItemSetFocus](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnItemSetFocus.html)
-
-.
+Obsolete. Superseded by [ISwManipulatorHandler2::OnItemSetFocus](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnItemSetFocus.html).
 
 ## Syntax
 
@@ -61,14 +57,9 @@ void OnItemSetFocus(
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler::OnItemSetFocus](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnItemSetFocus.html)
-
-.
+See [SwManipulatorHandler::OnItemSetFocus](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnItemSetFocus.html).
 
 ## See Also
 
 [ISwManipulatorHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html)
-
 [ISwManipulatorHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler_members.html)

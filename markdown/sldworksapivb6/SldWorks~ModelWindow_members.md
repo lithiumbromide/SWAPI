@@ -1,6 +1,5 @@
 ---
-title: "ModelWindow Object
-Members"
+title: "ModelWindow Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ModelWindow_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ModelWindow_members.html"
 ---
 
-# ModelWindow Object
-Members
+# ModelWindow Object Members
 
 ## Public Methods
 

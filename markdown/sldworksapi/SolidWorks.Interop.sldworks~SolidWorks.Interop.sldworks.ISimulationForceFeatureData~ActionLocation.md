@@ -45,13 +45,7 @@ property System.Object^ ActionLocation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Vertex, circular edge, or linear edge to define the points at which the moment i
 
 ## VBA Syntax
 
-See
-
-[SimulationForceFeatureData::ActionLocation](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~ActionLocation.html)
-
-.
+See [SimulationForceFeatureData::ActionLocation](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~ActionLocation.html).
 
 ## Examples
 
@@ -72,13 +62,9 @@ See
 ## See Also
 
 [ISimulationForceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData.html)
-
 [ISimulationForceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData_members.html)
-
 [ISimulationForceFeatureData::ActionDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~ActionDirection.html)
-
 [ISimulationForceFeatureData::ActionType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~ActionType.html)
-
 [ISimulationForceFeatureData::ReactionLocation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~ReactionLocation.html)
 
 ## Availability

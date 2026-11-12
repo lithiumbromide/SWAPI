@@ -40,42 +40,19 @@ System.object GetIntersectingPlanesAndFaces()
 System.Object^ GetIntersectingPlanesAndFaces();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IRefPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
-s,
-
-[ISurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
-s, and/or
-
-[IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-s
+Array of [IRefPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)s, [ISurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)s, and/or [IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)s
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberFacePlaneIntersectionFeatureData::GetIntersectingPlanesAndFaces](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberFacePlaneIntersectionFeatureData~GetIntersectingPlanesAndFaces.html)
-
-.
+See [PrimaryMemberFacePlaneIntersectionFeatureData::GetIntersectingPlanesAndFaces](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberFacePlaneIntersectionFeatureData~GetIntersectingPlanesAndFaces.html).
 
 ## See Also
 
 [IPrimaryMemberFacePlaneIntersectionFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberFacePlaneIntersectionFeatureData.html)
-
 [IPrimaryMemberFacePlaneIntersectionFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberFacePlaneIntersectionFeatureData_members.html)
 
 ## Availability

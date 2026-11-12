@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILi
 
 # ILibraryFormToolFeatureData Interface Methods
 
-For a list of all members of this type, see[ILibraryFormToolFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData_members.html).
+For a list of all members of this type, see [ILibraryFormToolFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData_members.html).
 
 ## Public Methods
 
@@ -26,9 +26,6 @@ For a list of all members of this type, see[ILibraryFormToolFeatureData members]
 ## See Also
 
 [ILibraryFormToolFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::CreateFormTool2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFormTool2.html)
-
 [IView::InsertPunchTable Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertPunchTable.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRi
 
 # IRipFeatureData Interface Methods
 
-For a list of all members of this type, see[IRipFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData_members.html).
+For a list of all members of this type, see [IRipFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData_members.html).
 
 ## Public Methods
 
@@ -29,7 +29,5 @@ For a list of all members of this type, see[IRipFeatureData members](SolidWorks.
 ## See Also
 
 [IRipFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertRip Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertRip.html)

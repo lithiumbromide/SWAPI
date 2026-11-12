@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # RevolvePlanarLoop Method (ILoop)
 
-Obsolete. Superseded by
-
-[ILoop2::RevolvePlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~RevolvePlanarLoop.html)
-
-.
+Obsolete. Superseded by [ILoop2::RevolvePlanarLoop](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~RevolvePlanarLoop.html).
 
 ## Syntax
 
@@ -75,13 +71,7 @@ System.Object^ RevolvePlanarLoop(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -95,14 +85,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Loop::RevolvePlanarLoop](ms-its:sldworksapivb6.chm::/sldworks~Loop~RevolvePlanarLoop.html)
-
-.
+See [Loop::RevolvePlanarLoop](ms-its:sldworksapivb6.chm::/sldworks~Loop~RevolvePlanarLoop.html).
 
 ## See Also
 
 [ILoop Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop.html)
-
 [ILoop Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop_members.html)

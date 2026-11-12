@@ -42,32 +42,19 @@ property System.int Shape {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Revision cloud annotation shape as defined in
-
-[swRevisionCloudShape_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRevisionCloudShape_e.html)
+Revision cloud annotation shape as defined in [swRevisionCloudShape_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRevisionCloudShape_e.html)
 
 ## VBA Syntax
 
-See
-
-[RevisionCloud::Shape](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~Shape.html)
-
-.
+See [RevisionCloud::Shape](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~Shape.html).
 
 ## See Also
 
 [IRevisionCloud Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud.html)
-
 [IRevisionCloud Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud_members.html)
 
 ## Availability

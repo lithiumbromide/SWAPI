@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertConvertToSheetMetal2 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
-
-and
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html) and [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html).
 
 ## Syntax
 
@@ -91,13 +83,7 @@ System.bool InsertConvertToSheetMetal2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -106,15 +92,13 @@ See
 - `FindBends`: True to find pre-made bends and part thickness, false to not
 - `Radius`: Radius for the bends
 - `Gap`: Gap for all rips
-- `ReliefType`: Relief type as defined by
-
-[swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
+- `ReliefType`: Relief type as defined by [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
 - `ReliefRatio`: Relief ratio
 - `OverlapType`: Overlap type for all rips
 
-- 1=Open butt
-- 2=Overlap
-- 3=Underlap
+  - 1=Open butt
+  - 2=Overlap
+  - 3=Underlap
 - `OverlapRatio`: Overlap ratio for all rips
 - `KeepBody`: True to keep bodies, false to not
 
@@ -124,11 +108,7 @@ True if a Convert-Solid sheet metal feature is created, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertConvertToSheetMetal2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertConvertToSheetMetal2.html)
-
-.
+See [FeatureManager::InsertConvertToSheetMetal2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertConvertToSheetMetal2.html).
 
 ## Remarks
 
@@ -137,7 +117,6 @@ Read the SOLIDWORKS Help to learn more about converting to sheet metal.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

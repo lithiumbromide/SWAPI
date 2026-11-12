@@ -10,7 +10,6 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 # Layer Property (IAnnotation)
 
 Gets or sets the layer used by this annotation. Layers are supported only in SOLIDWORKS
-
 drawings.
 
 ## Syntax
@@ -47,13 +46,7 @@ property System.String^ Layer {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,11 +54,7 @@ Name of the layer used for this annotation
 
 ## VBA Syntax
 
-See
-
-[Annotation::Layer](ms-its:sldworksapivb6.chm::/sldworks~Annotation~Layer.html)
-
-.
+See [Annotation::Layer](ms-its:sldworksapivb6.chm::/sldworks~Annotation~Layer.html).
 
 ## Examples
 
@@ -75,12 +64,11 @@ See
 
 In Drawing documents, annotations can be created on a specific layer. This property allows you to get or set the layer used by this annotation. You can also set an annotation to not be on any layer by specifying "" for theLayer.
 
-**NOTE:**The return value might be an empty string because an old document might not contain layers. This also occurs if annotations have been generated in a new document that does not have layers defined.
+**NOTE:** The return value might be an empty string because an old document might not contain layers. This also occurs if annotations have been generated in a new document that does not have layers defined.
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

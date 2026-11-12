@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom_members.html"
 
 # IEdmBom Interface Members
 
-The following tables list the members exposed by[IEdmBom](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html).
+The following tables list the members exposed by [IEdmBom](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html).
 
 ## Public Properties
 
@@ -39,7 +39,5 @@ The following tables list the members exposed by[IEdmBom](EPDM.Interop.epdm~EPDM
 ## See Also
 
 [IEdmBom Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBom.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmFile7::GetDerivedBOMs Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile7~GetDerivedBOMs.html)

@@ -47,13 +47,7 @@ System.int GetMemberIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ Zero-based index value
 
 ## VBA Syntax
 
-See
-
-[BeltChainFeatureData::GetMemberIndex](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~GetMemberIndex.html)
-
-.
+See [BeltChainFeatureData::GetMemberIndex](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~GetMemberIndex.html).
 
 ## Remarks
 
-To specify PulleyCompObject, use
-
-[IBeltChainFeatureData::PulleyComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~PulleyComponents.html)
-
-.
+To specify PulleyCompObject, use [IBeltChainFeatureData::PulleyComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~PulleyComponents.html).
 
 ## See Also
 
 [IBeltChainFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
 [IBeltChainFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData_members.html)
 
 ## Availability

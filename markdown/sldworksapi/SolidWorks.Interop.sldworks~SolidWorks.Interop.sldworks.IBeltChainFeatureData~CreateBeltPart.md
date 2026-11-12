@@ -45,13 +45,7 @@ property System.bool CreateBeltPart {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to create a belt part, false to not
 
 ## VBA Syntax
 
-See
-
-[BeltChainFeatureData::CreateBeltPart](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~CreateBeltPart.html)
-
-.
+See [BeltChainFeatureData::CreateBeltPart](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~CreateBeltPart.html).
 
 ## Examples
 
-See the
-
-[IBeltChainFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
-examples.
+See the [IBeltChainFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html) examples.
 
 ## Remarks
 
-If this property is set to true, use
-
-[IBeltChainFeatureData::AccessBeltPart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~AccessBeltPart.html)
-
-to get the belt part.
+If this property is set to true, use [IBeltChainFeatureData::AccessBeltPart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~AccessBeltPart.html) to get the belt part.
 
 ## See Also
 
 [IBeltChainFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
 [IBeltChainFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData_members.html)
 
 ## Availability

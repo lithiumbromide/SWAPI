@@ -11,10 +11,8 @@ source: "sldworksapi/Add_Button_to_Context-sensitive_Menu_Example_VBNET.htm"
 
 This example shows how to add:
 
-- button to a face's context-sensitive menu
-  in a part.
-- shortcut menu for that
-  button.
+- button to a face's context-sensitive menu in a part.
+- shortcut menu for that button.
 
 ```
 '---------------------------------------------------------------------------
@@ -27,18 +25,18 @@ This example shows how to add:
 ' 4. Copy and paste SwAddin into SwAddin.vb of your project.
 ' 5. Click Project > AddMenuPopupIconVBNET Properties > Debug.
 ' 6. Select Start external program and type the pathname to your
-'    SOLIDWORKS executable.
+'    SOLIDWORKS Design executable.
 ' 7. Replace the text shown for the imageList array elements
 '    and smallMainIcon with the pathnames to your image files.
 ' 8. Press F5 to start debugging this add-in.
 '
 ' Postconditions:
-' 1. In SOLIDWORKS, open a part.
+' 1. In SOLIDWORKS Design, open a part.
 ' 2. Right-click a face of the part.
 ' 3. Note the size of the button added by this add-in to the
 '    context-sensitive menu.
 ' 4. Click the button added by this add-in to display the shortcut menu.
-' 5. Exit SOLIDWORKS.
+' 5. Exit SOLIDWORKS Design.
 ' 6. Change the size of the text and other items on your computer.
 '    For example, in Windows 7:
 '    a. Click Start > Control Panel > Appearance and
@@ -47,7 +45,7 @@ This example shows how to add:
 '    c. Click Apply.
 '    d. Click Log off now.
 '    e. Log back in.
-' 7. Start SOLIDWORKS.
+' 7. Start SOLIDWORKS Design.
 ' 8. Repeat steps 1 - 3.
 '---------------------------------------------------------------------------
 ```

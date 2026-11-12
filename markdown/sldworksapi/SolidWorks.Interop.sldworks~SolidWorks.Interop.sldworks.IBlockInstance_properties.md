@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # IBlockInstance Interface Properties
 
-For a list of all members of this type, see[IBlockInstance members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance_members.html).
+For a list of all members of this type, see [IBlockInstance members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance_members.html).
 
 ## Public Properties
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[IBlockInstance members](SolidWorks.I
 ## See Also
 
 [IBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -45,13 +45,7 @@ property System.bool Copy {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ True to copy the selected bodies, false to not
 
 ## VBA Syntax
 
-See
-
-[MoveCopyBodyFeatureData::Copy](ms-its:sldworksapivb6.chm::/sldworks~MoveCopyBodyFeatureData~Copy.html)
-
-.
+See [MoveCopyBodyFeatureData::Copy](ms-its:sldworksapivb6.chm::/sldworks~MoveCopyBodyFeatureData~Copy.html).
 
 ## Remarks
 
-To get or set the number of copies of the selected bodies to create, call[IMoveCopyBodyFeatureData::NumberOfCopies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMoveCopyBodyFeatureData~NumberOfCopies.html).
+To get or set the number of copies of the selected bodies to create, call [IMoveCopyBodyFeatureData::NumberOfCopies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMoveCopyBodyFeatureData~NumberOfCopies.html).
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IMoveCopyBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveCopyBodyFeatureData.html)
-
 [IMoveCopyBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveCopyBodyFeatureData_members.html)
 
 ## Availability

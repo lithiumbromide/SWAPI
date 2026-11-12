@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_member
 
 # EdmBomDefaultSetting Structure Members
 
-The following tables list the members exposed by[EdmBomDefaultSetting](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting.html).
+The following tables list the members exposed by [EdmBomDefaultSetting](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting.html).
 
 ## Public Fields
 
@@ -27,5 +27,4 @@ The following tables list the members exposed by[EdmBomDefaultSetting](EPDM.Inte
 ## See Also
 
 [EdmBomDefaultSetting Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

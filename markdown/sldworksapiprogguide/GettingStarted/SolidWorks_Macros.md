@@ -9,95 +9,25 @@ source: "sldworksapiprogguide/GettingStarted/SolidWorks_Macros.htm"
 
 # SOLIDWORKS Macros
 
-The quickest and easiest way to start programming with the SOLIDWORKS
-API is to record a SOLIDWORKS macro, which contains the SOLIDWORKS API
-calls that correspond to the actions performed in the user interface.
-You can modify the macro in Microsoft Visual Basic for Applications (VBA)
-or Microsoft Visual Studio Tools for Applications (VSTA) to fit your work
-site's needs.
+The quickest and easiest way to start programming with the SOLIDWORKS API is to record a SOLIDWORKS macro, which contains the SOLIDWORKS API calls that correspond to the actions performed in the user interface. You can modify the macro in Microsoft Visual Basic for Applications (VBA) or Microsoft Visual Studio Tools for Applications (VSTA) to fit your work site's needs.
 
-- Microsoft VBAis a toolset based on Microsoft Visual Basic for Applications (VBA) and
-  is embedded in the SOLIDWORKS software. Microsoft VBA lets you record,
-  run, and edit Microsoft VBA macros in the SOLIDWORKS software. Recorded
-  macros are saved as.swpfiles.
-- Microsoft Visual
-  Studio Tools for Applications (VSTA)is a toolset based on Microsoft VB.NET and C# and is delivered with the SOLIDWORKS
-  software. Microsoft VSTA lets you record, edit, debug, and run VB.NET and C#
-  code with the SOLIDWORKS software. Recorded Microsoft VSTA macros are saved
-  as Microsoft VB.NET or C# projects. Building or debugging a Microsoft VSTA macro creates an executable file that ends in the filename extension.dll,which can be used by the SOLIDWORKS software in the same manner as a.swpfile.NOTES:
+- Microsoft VBA is a toolset based on Microsoft Visual Basic for Applications (VBA) and is embedded in SOLIDWORKS . Microsoft VBA lets you record, run, and edit Microsoft VBA macros in SOLIDWORKS. Recorded macros are saved as .swp files.
+- Microsoft Visual Studio Tools for Applications (VSTA) is a toolset based on Microsoft VB.NET and C# and is installed with SOLIDWORKS. Microsoft VSTA lets you record, edit, debug, and run VB.NET and C# code with SOLIDWORKS. Recorded Microsoft VSTA macros are saved as Microsoft VB.NET or C# projects. Building or debugging a Microsoft VSTA macro creates an executable file that ends in the filename extension .dll, which can be used by SOLIDWORKS in the same manner as a .swp file.
 
-  - [SOLIDWORKS 2018 offers Visual Studio Tools for
-    Applications (VSTA)](VSTA_2015.htm)
+  NOTES:
 
-    , impacting how VB.NET and C# macros are developed and
-    run in SOLIDWORKS 2018 and later.
-  - When debugging Microsoft VSTA macros with user-interface
-    components such as PropertyManager pages, manipulators, or other objects
-    that use events or handler objects, the debugger must continue to run
-    after the main() method of the VSTA macro exits. Either deselect the user-interface
-    system option
+  - [SOLIDWORKS 2018 offers Visual Studio Tools for Applications (VSTA)](VSTA_2015.htm), impacting how VB.NET and C# macros are developed and run in SOLIDWORKS 2018 and later.
+  - When debugging Microsoft VSTA macros with user-interface components such as PropertyManager pages, manipulators, or other objects that use events or handler objects, the debugger must continue to run after the main() method of the VSTA macro exits. Either deselect the user-interface system option Stop VSTA debugger on macro exit (located on the Tools > Options > System Options dialog) or set swUserPreferenceToggle_e.swStopDebuggingVstaOnExit to false to keep the debugger running after the main() method of the Microsoft VSTA macro exits.
 
-    Stop VSTA debugger on macro
-    exit
+Typically you would follow these steps to create a SOLIDWORKS API application using SOLIDWORKS macros:
 
-    (located on the
+1. Plan the user-interface actions before recording them.
+2. [Record](Record_Solidworks_Macro.htm) the user-interface actions.
 
-    Tools >
+  NOTE: If you are not familiar with recording SOLIDWORKS macros, record the macro a couple of times to eliminate interactive changes to the view such as changing the view orientation, zooming in or out, panning, rotating the model, and so on.
+3. [Edit](Edit_or_Debug_SolidWorks_Macro.htm) the macro to delete extra lines of code and explicitly declare and early bind variables.
+4. [Run](Run_SolidWorks_Macro.htm) the macro to test it.
+5. [Debug](Edit_or_Debug_SolidWorks_Macro.htm) the macro and test it again.
+6. If the application has a user interface, create it in Microsoft VBA or Microsoft VSTA and then modify the macro to work with the user interface, run the modified macro, and debug it.
 
-    Options >
-
-    System
-
-    Options
-
-    dialog) or set swUserPreferenceToggle_e.swStopDebuggingVstaOnExit
-    to false to keep the debugger running after the main() method of the Microsoft
-    VSTA macro exits.
-
-Typically you would follow these steps to create a SOLIDWORKS API application
-using SOLIDWORKS macros:
-
-1. Plan the user-interface actions before recording
-  them.
-2. [Record](Record_Solidworks_Macro.htm)the user-interface actions.NOTE:If you are not familiar with recording SOLIDWORKS macros,
-  record the macro a couple of times to eliminate interactive changes to
-  the view such as changing the view orientation, zooming in or out, panning,
-  rotating the model, and so on.
-3. [Edit](Edit_or_Debug_SolidWorks_Macro.htm)the macro to delete extra lines of code and explicitly declare and early
-  bind variables.
-4. [Run](Run_SolidWorks_Macro.htm)the
-  macro to test it.
-5. [Debug](Edit_or_Debug_SolidWorks_Macro.htm)the macro and test it again.
-6. If the application has a user interface, create
-  it in Microsoft VBA or Microsoft VSTA and then modify the macro to work
-  with the user interface, run the modified macro, and debug it.
-
-When done recording, testing, and debugging the macro, you can[assign
-the macro to button](Assign_SolidWorks_Macro_to_Button.htm).
-
-kadov_tag{{<implicit_p>}}
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955" type="application/x-oleobject" id="RelatedTopic1" style="width: 1px; height: 1px;" width="1" height="1" dtcid="1">
-<param name="_Version" value="65536">
-<param name="_ExtentX" value="26">
-<param name="_ExtentY" value="26">
-<param name="_StockProps" value="13">
-<param name="ForeColor" value="0">
-<param name="BackColor" value="13160660">
-<param name="UseButton" value="0">
-<param name="ControlLabel" value="See Also">
-<param name="UseIcon" value="0">
-<param name="Items" value="RecordSolidWorksMacro$$**$$EditSolidWorksMacro$$**$$RunSolidWorksMacro$$**$$AssignSolidWorksMacroShortcutKeyMenu$$**$$AssignSolidWorksMacroButton$$**$$TypesApplications$$**$$GettingStarted$$**$$">
-<param name="Image" value>
-<param name="FontInfo" value="MS Sans Serif,8,0,,">
-<param name="_CURRENTFILEPATH" value="K:\HELP\Cheryle_Working_Folder\SW2010\ROBOHELP\sldworksAPIProgGuide\GettingStarted\SolidWorks_Macros.htm">
-<param name="_ID" value="RelatedTopic1">
-<param name="DialogDisplay" value="0">
-<param name="Frame" value>
-<param name="Window" value>
-<param name="ChmFile" value>
-<param name="DisableJump" value="0">
-</object>
-
-metadata type="DesignerControl" endspan
+When done recording, testing, and debugging the macro, you can [assign the macro to button](Assign_SolidWorks_Macro_to_Button.htm).

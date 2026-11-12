@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEntity Interface Members
 
-The following tables list the members exposed by[IEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity.html).
+The following tables list the members exposed by [IEntity](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity.html).
 
 ## Public Properties
 
@@ -44,5 +44,4 @@ The following tables list the members exposed by[IEntity](SolidWorks.Interop.sld
 ## See Also
 
 [IEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

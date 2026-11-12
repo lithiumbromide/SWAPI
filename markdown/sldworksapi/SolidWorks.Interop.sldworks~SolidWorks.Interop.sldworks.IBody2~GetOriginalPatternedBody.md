@@ -47,13 +47,7 @@ Body2^ GetOriginalPatternedBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body2::GetOriginalPatternedBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetOriginalPatternedBody.html)
-
-.
+See [Body2::GetOriginalPatternedBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetOriginalPatternedBody.html).
 
 ## Examples
 
 [Get Original Body from Pattern Body (VBA)](Get_Original_Body_from_Pattern_Body_Example_VB.htm)
-
 [Get Original Body from Pattern Body (VB.NET)](Get_Original_Body_from_Pattern_Body_Example_VBNET.htm)
-
 [Get Original Body from Pattern Body (C#)](Get_Original_Body_from_Pattern_Body_Example_CSharp.htm)
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

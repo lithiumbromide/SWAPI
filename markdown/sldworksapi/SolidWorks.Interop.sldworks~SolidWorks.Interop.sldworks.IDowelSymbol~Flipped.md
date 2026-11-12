@@ -45,13 +45,7 @@ property System.bool Flipped {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ True if the dowel is flipped, false if it is not
 
 ## VBA Syntax
 
-See
-
-[DowelSymbol::Flipped](ms-its:sldworksapivb6.chm::/sldworks~DowelSymbol~Flipped.html)
-
-.
+See [DowelSymbol::Flipped](ms-its:sldworksapivb6.chm::/sldworks~DowelSymbol~Flipped.html).
 
 ## Examples
 
 [Flip Dowel Pin Symbol (VBA)](Flip_Dowel_Pin_Symbol_Example_VB.htm)
-
 [Flip Dowel Pin Symbol (C#)](Flip_Dowel_Pin_Symbol_Example_CSharp.htm)
-
 [Flip Dowel Pin Symbol (VB.NET)](Flip_Dowel_Pin_Symbol_Example_VBNET.htm)
 
 ## Remarks
 
-Call
-
-[IModelDoc2::EditRebuild3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditRebuild3.html)
-
-after flipping the dowel pin symbol.
+Call [IModelDoc2::EditRebuild3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditRebuild3.html) after flipping the dowel pin symbol.
 
 ## See Also
 
 [IDowelSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol.html)
-
 [IDowelSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDowelSymbol_members.html)
 
 ## Availability

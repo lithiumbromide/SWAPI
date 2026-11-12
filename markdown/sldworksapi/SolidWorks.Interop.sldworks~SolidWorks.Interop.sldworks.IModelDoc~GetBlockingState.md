@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetBlockingState Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetBlockingState](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetBlockingState.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetBlockingState](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetBlockingState.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetBlockingState()
 System.int GetBlockingState();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetBlockingState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetBlockingState.html)
-
-.
+See [ModelDoc::GetBlockingState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetBlockingState.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

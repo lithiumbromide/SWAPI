@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback3_methods.
 
 # IEdmGetOpCallback3 Interface Methods
 
-For a list of all members of this type, see[IEdmGetOpCallback3 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback3_members.html).
+For a list of all members of this type, see [IEdmGetOpCallback3 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback3_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEdmGetOpCallback3 members](EPDM.Int
 ## See Also
 
 [IEdmGetOpCallback3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback3.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

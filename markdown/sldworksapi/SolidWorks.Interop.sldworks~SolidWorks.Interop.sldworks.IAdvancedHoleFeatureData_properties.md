@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAd
 
 # IAdvancedHoleFeatureData Interface Properties
 
-For a list of all members of this type, see[IAdvancedHoleFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData_members.html).
+For a list of all members of this type, see [IAdvancedHoleFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData_members.html).
 
 ## Public Properties
 
@@ -25,7 +25,5 @@ For a list of all members of this type, see[IAdvancedHoleFeatureData members](So
 ## See Also
 
 [IAdvancedHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IAdvancedHoleElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)

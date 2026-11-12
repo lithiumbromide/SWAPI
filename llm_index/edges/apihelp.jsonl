@@ -1,5 +1,6 @@
 {"label": "guidelines", "source": "apihelp/ContactingAPISupport/Contacting_API_Support", "target": "apihelp/ContactingAPISupport/source", "type": "links_to"}
 {"label": "obsolete APIs", "source": "apihelp/ContactingAPISupport/Contacting_API_Support", "target": "apihelp/Obsolete_SolidWorks_APIs", "type": "links_to"}
 {"label": "Return to Contacting API Support", "source": "apihelp/ContactingAPISupport/source", "target": "apihelp/ContactingAPISupport/Contacting_API_Support", "type": "links_to"}
+{"label": "SOLIDWORKS API Support", "source": "apihelp/SampleProjectsExamplesTips/SolidWorks_eDrawings_API_Sample_Project", "target": "apihelp/ContactingAPISupport/Contacting_API_Support", "type": "links_to"}
 {"label": "Access and Navigation", "source": "apihelp/Welcome_to_API_Help", "target": "apihelp/Access_and_Navigation", "type": "links_to"}
 {"label": "SOLIDWORKS API Support", "source": "apihelp/Welcome_to_API_Help", "target": "apihelp/ContactingAPISupport/Contacting_API_Support", "type": "links_to"}

@@ -42,13 +42,7 @@ property System.Object^ DimXpertPart {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[DimXpertManager::DimXpertPart](ms-its:sldworksapivb6.chm::/sldworks~DimXpertManager~DimXpertPart.html)
-
-.
+See [DimXpertManager::DimXpertPart](ms-its:sldworksapivb6.chm::/sldworks~DimXpertManager~DimXpertPart.html).
 
 ## See Also
 
 [IDimXpertManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimXpertManager.html)
-
 [IDimXpertManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimXpertManager_members.html)
 
 ## Availability

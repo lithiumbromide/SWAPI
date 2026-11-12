@@ -47,30 +47,20 @@ property System.int SpotWeldDiameterUnit {
 
 ### Property Value
 
-Linear unit as defined in[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+Linear unit as defined in [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWSpotWeldConnector::SpotWeldDiameterUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~SpotWeldDiameterUnit.html)
-
-.
+See [CWSpotWeldConnector::SpotWeldDiameterUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~SpotWeldDiameterUnit.html).
 
 ## Examples
 
-See the
-
-[ICWSpotWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
-examples.
+See the [ICWSpotWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html) examples.
 
 ## See Also
 
 [ICWSpotWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
 [ICWSpotWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector_members.html)
-
 [ICWSpotWeldConnector::SpotWeldDiameteValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector~SpotWeldDiameterValue.html)
 
 ## Availability

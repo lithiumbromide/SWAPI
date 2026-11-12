@@ -51,13 +51,7 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,12 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SurfCutFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SurfCutFeatureData~AccessSelections.html)
-
-.
+See [SurfCutFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~SurfCutFeatureData~AccessSelections.html).
 
 ## Examples
 
 [Modify Surface-cut Feature (C#)](Modify_Surface_Cut_Feature_Example_CSharp.htm)
-
 [Modify Surface-cut Feature (VB.NET)](Modify_Surface_Cut_Feature_Example_VBNET.htm)
-
 [Modify Surface-cut Feature (VBA)](Modify_Surface_Cut_Feature_Example_VB.htm)
 
 ## Remarks
@@ -95,23 +83,13 @@ To access this interface, you must declare it as SurfCutFeatureData or ISurfCutF
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  or
-
-  [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [ISurfaceCutFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [ISurfaceCutFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceCutFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [ISurfaceCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData.html)
-
 [ISurfaceCutFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData_members.html)
-
 [ISurfaceCutFeatureData::IAccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData~IAccessSelections.html)
 
 ## Availability

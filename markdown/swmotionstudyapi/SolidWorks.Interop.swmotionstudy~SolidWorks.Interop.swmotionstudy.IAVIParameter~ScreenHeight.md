@@ -51,22 +51,17 @@ Height at which to display the animation on the screen
 
 ## VBA Syntax
 
-See
-
-[AVIParameter::ScreenHeight](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~ScreenHeight.html)
-
-.
+See [AVIParameter::ScreenHeight](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~ScreenHeight.html).
 
 ## Remarks
 
-This property is only available when the[image size](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ImageSize.html)isCustom.
+This property is only available when the [image size](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ImageSize.html) is Custom.
 
-To set the width of the image, call[AVIParameter::ScreenWidth](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ScreenWidth.html).To preserve the aspect ratio of the animation, specify screen ratio or a value .
+To set the width of the image, call [AVIParameter::ScreenWidth](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ScreenWidth.html). To [preserve the aspect ratio](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~PreserveRatio.html) of the animation, specify [screen ratio](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~ScreenRatio.html) or a [value](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter~AspectRatio.html).
 
 ## See Also
 
 [IAVIParameter Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter.html)
-
 [IAVIParameter Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter_members.html)
 
 ## Availability

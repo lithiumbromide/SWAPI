@@ -12,8 +12,7 @@ source: "sldworksapi/Create_Flyouts_in_the_CommandManager_Example_CSharp.htm"
 This example shows how to use an add-in to create flyouts in:
 
 - CommandManager
-- context-sensitive menus of
-  selected faces
+- context-sensitive menus of selected faces
 
 ```
 //--------------------------------------------------------------------------

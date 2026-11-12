@@ -45,13 +45,7 @@ property System.bool HighQuality {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ True to print a drawing in high quality, false to not
 
 ## VBA Syntax
 
-See
-
-[PageSetup::HighQuality](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~HighQuality.html)
-
-.
+See [PageSetup::HighQuality](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~HighQuality.html).
 
 ## Examples
 
 [Get Whether Draft Edges Scaled in Printed Drawing (C#)](Get_Whether_Draft_Edges_Scaled_in_Printed_Drawing_Example_CSharp.htm)
-
 [Get Whether Draft Edges Scaled in Printed Drawing (VB.NET)](Get_Whether_Draft_Edges_Scaled_in_Printed_Drawing_Example_VBNET.htm)
-
 [Get Whether Draft Edges Scaled in Printed Drawing (VBA)](Get_Whether_Draft_Edges_Scaled_in_Printed_Drawing_Example_VB.htm)
 
 ## Remarks
 
-You can
-
-[scale draft edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~ScaleDraftEdges.html)
-
-in a printed drawing when this property is set to true.
+You can [scale draft edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPageSetup~ScaleDraftEdges.html) in a printed drawing when this property is set to true.
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
 
 ## Availability

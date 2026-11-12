@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertDatumTargetSymbol Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::InsertDatumTargetSymbol2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertDatumTargetSymbol2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::InsertDatumTargetSymbol2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertDatumTargetSymbol2.html).
 
 ## Syntax
 
@@ -107,13 +103,7 @@ System.bool InsertDatumTargetSymbol(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -135,14 +125,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertDatumTargetSymbol](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertDatumTargetSymbol.html)
-
-.
+See [ModelDoc2::InsertDatumTargetSymbol](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertDatumTargetSymbol.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

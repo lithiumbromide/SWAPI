@@ -40,13 +40,7 @@ System.int GetBodiesToBeTrimmedCount()
 System.int GetBodiesToBeTrimmedCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,19 @@ Number of bodies to trim
 
 ## VBA Syntax
 
-See
-
-[WeldmentTrimExtendFeatureData::GetBodiesToBeTrimmedCount](ms-its:sldworksapivb6.chm::/sldworks~WeldmentTrimExtendFeatureData~GetBodiesToBeTrimmedCount.html)
-
-.
+See [WeldmentTrimExtendFeatureData::GetBodiesToBeTrimmedCount](ms-its:sldworksapivb6.chm::/sldworks~WeldmentTrimExtendFeatureData~GetBodiesToBeTrimmedCount.html).
 
 ## Remarks
 
-Only end-trim corner types (swEndConditionTrim) can have multiple bodies to trim. Use[IWeldmentTrimExtendFeatureData::CornerType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentTrimExtendFeatureData~CornerType.html)to determine the type of corner.
+Only end-trim corner types (swEndConditionTrim) can have multiple bodies to trim. Use [IWeldmentTrimExtendFeatureData::CornerType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentTrimExtendFeatureData~CornerType.html) to determine the type of corner.
 
-Call this method before calling[IWeldmentTrimExtendFeatureData::IGetBodiesToBeTrimmed](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentTrimExtendFeatureData~IGetBodiesToBeTrimmed.html)to get the size of the array for that method.
+Call this method before calling [IWeldmentTrimExtendFeatureData::IGetBodiesToBeTrimmed](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentTrimExtendFeatureData~IGetBodiesToBeTrimmed.html) to get the size of the array for that method.
 
 ## See Also
 
 [IWeldmentTrimExtendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentTrimExtendFeatureData.html)
-
 [IWeldmentTrimExtendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentTrimExtendFeatureData_members.html)
-
 [IWeldmentTrimExtendFeatureData::ISetTrimmingBoundary Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentTrimExtendFeatureData~ISetTrimmingBoundary.html)
-
 [IWeldmentTrimExtendFeatureData::BodiesToBeTrimmed Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentTrimExtendFeatureData~BodiesToBeTrimmed.html)
 
 ## Availability

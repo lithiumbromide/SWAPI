@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # ISurfacePlanarFeatureData Interface Properties
 
-For a list of all members of this type, see[ISurfacePlanarFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfacePlanarFeatureData_members.html).
+For a list of all members of this type, see [ISurfacePlanarFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfacePlanarFeatureData_members.html).
 
 ## Public Properties
 
@@ -22,7 +22,5 @@ For a list of all members of this type, see[ISurfacePlanarFeatureData members](S
 ## See Also
 
 [ISurfacePlanarFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfacePlanarFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertPlanarRefSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertPlanarRefSurface.html)

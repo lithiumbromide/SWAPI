@@ -45,13 +45,7 @@ property System.bool PropagateVisualProperty {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to propagate visual properties, false to not
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData::PropagateVisualProperty](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~PropagateVisualProperty.html)
-
-.
+See [TablePatternFeatureData::PropagateVisualProperty](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~PropagateVisualProperty.html).
 
 ## Examples
 
-See the
-
-[ITablePatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
-example.
+See the [ITablePatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html) example.
 
 ## See Also
 
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
 
 ## Availability

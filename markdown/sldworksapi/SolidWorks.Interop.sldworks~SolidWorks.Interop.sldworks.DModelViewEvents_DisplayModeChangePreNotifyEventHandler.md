@@ -37,31 +37,21 @@ public delegate System.int DModelViewEvents_DisplayModeChangePreNotifyEventHandl
 public delegate System.int DModelViewEvents_DisplayModeChangePreNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DisplayModeChangePreNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~DisplayModeChangePreNotify_EV.html)
-
-.
+See [DisplayModeChangePreNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~DisplayModeChangePreNotify_EV.html).
 
 ## Examples
 
-Contact SOLIDWORKS API Support to obtain**Event Monitor for SOLIDWORKS 2012 (VBA)**.
+Contact SOLIDWORKS API Support to obtain **Event Monitor for SOLIDWORKS 2012 (VBA)**.
 
 ## Remarks
 
-This event occurs when the display mode is about to be changed using[IModelDocExtension::DisplayMode](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~DisplayMode.html).
+This event occurs when the display mode is about to be changed using [IModelDocExtension::DisplayMode](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~DisplayMode.html).
 
-If developing a C++ application, use[swViewDisplayModeChangePreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)to register for this notification.
+If developing a C++ application, use [swViewDisplayModeChangePreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) to register for this notification.
 
 ## Availability
 

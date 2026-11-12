@@ -42,13 +42,7 @@ property System.Object^ Reference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[MateEntity2::Reference](ms-its:sldworksapivb6.chm::/sldworks~MateEntity2~Reference.html)
-
-.
+See [MateEntity2::Reference](ms-its:sldworksapivb6.chm::/sldworks~MateEntity2~Reference.html).
 
 ## Examples
 
@@ -73,11 +63,8 @@ Mate references can be one or more entities of a component used for automatic ma
 ## See Also
 
 [IMateEntity2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2.html)
-
 [IMateEntity2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2_members.html)
-
 [IMateEntity2::ReferenceComponent Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2~ReferenceComponent.html)
-
 [IMateEntity2::ReferenceType2 Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2~ReferenceType2.html)
 
 ## Availability

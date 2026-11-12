@@ -9,9 +9,7 @@ source: "swdocmgrapi/Get_Revision_Tables_Example_VBNET.htm"
 
 # Get Revision Tables Example (VB.NET)
 
-This example shows how to get a revision table in a drawing document, add a
-revision row, get revision row information, and update the revision row and
-column data.
+This example shows how to get a revision table in a drawing document, add a revision row, get revision row information, and update the revision row and column data.
 
 ```vb
   '---------------------------------------------------------------------------

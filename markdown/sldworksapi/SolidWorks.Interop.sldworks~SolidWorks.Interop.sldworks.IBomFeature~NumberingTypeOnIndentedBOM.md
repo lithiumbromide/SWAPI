@@ -45,42 +45,24 @@ property System.int NumberingTypeOnIndentedBOM {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of numbering as defined in
-
-[swNumberingType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNumberingType_e.html)
+Type of numbering as defined in [swNumberingType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swNumberingType_e.html)
 
 ## VBA Syntax
 
-See
-
-[BomFeature::NumberingTypeOnIndentedBOM](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~NumberingTypeOnIndentedBOM.html)
-
-.
+See [BomFeature::NumberingTypeOnIndentedBOM](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~NumberingTypeOnIndentedBOM.html).
 
 ## Examples
 
-See
-
-[IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html)
-
-examples.
+See [IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html) examples.
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
-
 [IView::InsertBomTable4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBomTable4.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # GetOLEObjectCount Method (ISheet)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::GetOLEObjectCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetOLEObjectCount.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::GetOLEObjectCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetOLEObjectCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetOLEObjectCount()
 System.int GetOLEObjectCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Sheet::GetOLEObjectCount](ms-its:sldworksapivb6.chm::/sldworks~Sheet~GetOLEObjectCount.html)
-
-.
+See [Sheet::GetOLEObjectCount](ms-its:sldworksapivb6.chm::/sldworks~Sheet~GetOLEObjectCount.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)

@@ -50,7 +50,7 @@ public enum class swDimXpertMaterialConditionModifier_e : public System.Enum
 
 ## Remarks
 
-The material condition modifiers of this enumeration can be applied to the tolerance or datums of a[geometric tolerance](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertTolerance.html)to set the least, maximum, and RFS material conditions for a feature. MMC, LMC, and RFS can be applied only to features of size, such as holes. Material condition modifiers of geometric tolerances are set by clicking the Geometric Tolerances icon on the DimXpert tool bar and selecting MCM symbols that map to the members of this enumeration as follows:
+The material condition modifiers of this enumeration can be applied to the tolerance or datums of a [geometric tolerance](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertTolerance.html) to set the least, maximum, and RFS material conditions for a feature. MMC, LMC, and RFS can be applied only to features of size, such as holes. Material condition modifiers of geometric tolerances are set by clicking the Geometric Tolerances icon on the DimXpert tool bar and selecting MCM symbols that map to the members of this enumeration as follows:
 
 | DimXpert MCM Symbol | Enumeration member |
 | --- | --- |

@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # AfterActivation Method (IPropertyManagerPage2Handler5)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler6::AfterActivation](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~AfterActivation.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler6::AfterActivation](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler6~AfterActivation.html).
 
 ## Syntax
 
@@ -45,16 +41,11 @@ void AfterActivation();
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler5::AfterActivation](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~AfterActivation.html)
-
-.
+See [PropertyManagerPage2Handler5::AfterActivation](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler5~AfterActivation.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler5 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5.html)
-
 [IPropertyManagerPage2Handler5 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler5_members.html)
 
 ## Availability

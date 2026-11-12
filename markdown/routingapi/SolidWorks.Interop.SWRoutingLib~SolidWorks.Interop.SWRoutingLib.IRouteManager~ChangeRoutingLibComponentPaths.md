@@ -53,20 +53,15 @@ void ChangeRoutingLibComponentPaths(
 ### Parameters
 
 - `oldLibPaths`: Old routing library paths
-- `newLibPaths`: New routing library pathsParamDesc
+- `newLibPaths`: New routing library paths
 
 ## VBA Syntax
 
-See
-
-[RouteManager::ChangeRoutingLibComponentPaths](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~ChangeRoutingLibComponentPaths.html)
-
-.
+See [RouteManager::ChangeRoutingLibComponentPaths](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~ChangeRoutingLibComponentPaths.html).
 
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
 
 ## Availability

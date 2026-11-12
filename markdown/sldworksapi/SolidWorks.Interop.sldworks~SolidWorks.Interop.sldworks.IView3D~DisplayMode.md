@@ -45,40 +45,23 @@ property System.int DisplayMode {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Display mode as defined in
-
-[swDisplayMode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDisplayMode_e.html)
+Display mode as defined in [swDisplayMode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDisplayMode_e.html)
 
 ## VBA Syntax
 
-See
-
-[View3D::DisplayMode](ms-its:sldworksapivb6.chm::/sldworks~View3D~DisplayMode.html)
-
-.
+See [View3D::DisplayMode](ms-its:sldworksapivb6.chm::/sldworks~View3D~DisplayMode.html).
 
 ## Examples
 
-See the
-
-[IView3D](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView3D.html)
-
-examples.
+See the [IView3D](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView3D.html) examples.
 
 ## See Also
 
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
 [IView3D Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html)
 
 ## Availability

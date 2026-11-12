@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchManager Interface Properties
 
-For a list of all members of this type, see[ISketchManager members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html).
+For a list of all members of this type, see [ISketchManager members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html).
 
 ## Public Properties
 
@@ -30,5 +30,4 @@ For a list of all members of this type, see[ISketchManager members](SolidWorks.I
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

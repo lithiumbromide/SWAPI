@@ -1,6 +1,5 @@
 ---
-title: "CWTopologyDisplacementConstraint Object
-Members"
+title: "CWTopologyDisplacementConstraint Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWTopologyDisplacementConstraint_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWTopologyDisplacementConstraint_members.html"
 ---
 
-# CWTopologyDisplacementConstraint Object
-Members
+# CWTopologyDisplacementConstraint Object Members
 
 ## Public Methods
 

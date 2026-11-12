@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~GetPropt.html"
 
 # GetPropt Method (IEdmFindUser)
 
-Gets the search criteria previously set by
-
-[IEdmFindUser::SetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SetPropt.html)
-
-for finding users.
+Gets the search criteria previously set by [IEdmFindUser::SetPropt](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~SetPropt.html) for finding users.
 
 ## Syntax
 
@@ -43,9 +39,7 @@ System.Object^ GetPropt(
 
 ### Parameters
 
-- `eProp`: User property to search for as defined by
-
-[EdmFindUserProp](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFindUserProp.html)
+- `eProp`: User property to search for as defined by [EdmFindUserProp](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFindUserProp.html)
 
 ### Return Value
 
@@ -53,11 +47,7 @@ Value of the property specified in eProp
 
 ## Examples
 
-See the
-
-[IEdmFindUser](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
-examples.
+See the [IEdmFindUser](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html) examples.
 
 ## Remarks
 
@@ -69,7 +59,6 @@ examples.
 ## See Also
 
 [IEdmFindUser Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
 [IEdmFindUser Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser_members.html)
 
 ## Availability

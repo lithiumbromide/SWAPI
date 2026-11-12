@@ -1,6 +1,5 @@
 ---
-title: "DiagnoseResult Object
-Members"
+title: "DiagnoseResult Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DiagnoseResult_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DiagnoseResult_members.html"
 ---
 
-# DiagnoseResult Object
-Members
+# DiagnoseResult Object Members
 
 ## Public Methods
 

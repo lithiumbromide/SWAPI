@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # Select Method (ISilhouetteEdge)
 
-Obsolete. Superseded by
-
-[ISilhouetteEdge::Select2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISilhouetteEdge~Select2.html)
-
-.
+Obsolete. Superseded by [ISilhouetteEdge::Select2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISilhouetteEdge~Select2.html).
 
 ## Syntax
 
@@ -55,20 +51,12 @@ System.bool Select(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Append`: True appends this selection to the selection list, false replaces the selection list with this selection
-- `Data`: [SelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html)
-
-object
+- `Data`: [SelectData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectData.html) object
 
 ### Return Value
 
@@ -76,16 +64,11 @@ True if the selection is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SilhouetteEdge::Select](ms-its:sldworksapivb6.chm::/Sldworks~SilhouetteEdge~Select.html)
-
-.
+See [SilhouetteEdge::Select](ms-its:sldworksapivb6.chm::/Sldworks~SilhouetteEdge~Select.html).
 
 ## See Also
 
 [ISilhouetteEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge.html)
-
 [ISilhouetteEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge_members.html)
 
 ## Availability

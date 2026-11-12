@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html"
 
 Allows you to access a file vault.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,34 +37,18 @@ public interface class IEdmVault11 : public IEdmVault10, IEdmVault5, IEdmVault6,
 ## Examples
 
 [Add Items (C#)](Add_Items_Example_CSharp.htm)
-
 [Add Items (VB.NET)](Add_Items_Example_VBNET.htm)
-
 [Add Users (C#)](Add_Users_Example_CSharp.htm)
-
 [Add Users (VB.NET)](Add_Users_Example_VBNET.htm)
 
 ## Remarks
 
 This interface:
 
-- extends
-
-  [IEdmVault10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault10.html)
-
-  by providing the ability to create vaults and access
-
-  [items](Items.htm)
-
-  .
-- is extended by
-
-  [IEdmVault12](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12.html)
-
-  .
+- extends [IEdmVault10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault10.html) by providing the ability to create vaults and access [items](Items.htm).
+- is extended by [IEdmVault12](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12.html).
 
 ## See Also
 
 [IEdmVault11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

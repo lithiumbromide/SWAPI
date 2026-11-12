@@ -46,22 +46,16 @@ Number of errors
 
 ## VBA Syntax
 
-See
-
-[Wire::GetRouteErrorsCount](ms-its:routingapivb6.chm::/SWRoutingLib~Wire~GetRouteErrorsCount.html)
-
-.
+See [Wire::GetRouteErrorsCount](ms-its:routingapivb6.chm::/SWRoutingLib~Wire~GetRouteErrorsCount.html).
 
 ## Remarks
 
-Call this method before calling[IWire::GetRouteErrors](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~GetRouteErrors.html)to determine the size of the array for the errors.
+Call this method before calling [IWire::GetRouteErrors](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~GetRouteErrors.html) to determine the size of the array for the errors.
 
 ## See Also
 
 [IWire Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire.html)
-
 [IWire Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire_members.html)
-
 [IWire::GetRouteErrors Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~GetRouteErrors.html)
 
 ## Availability

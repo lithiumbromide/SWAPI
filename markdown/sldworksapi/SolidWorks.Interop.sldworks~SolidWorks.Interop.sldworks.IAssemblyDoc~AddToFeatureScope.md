@@ -47,13 +47,7 @@ System.bool AddToFeatureScope(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if added successfully, false otherwise
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddToFeatureScope](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddToFeatureScope.html)
-
-.
+See [AssemblyDoc::AddToFeatureScope](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddToFeatureScope.html).
 
 ## Remarks
 
@@ -82,12 +72,11 @@ The scope of the assembly feature determines which components are effected by th
 There are two ways to use the IAssemblyDoc::AddToFeatureScope method:
 
 - When an assembly feature is selected, IAssemblyDoc::AddToFeatureScope adds a component to the assembly feature's scope. Any component in the scope of the assembly feature can be affected by the assembly feature.
-- You can also use IAssemblyDoc::AddToFeatureScope to compile a group of components. The next assembly feature created (for example,[IFeatureManager::SimpleHole](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SimpleHole.html)) affects each of the components in the compiled group.
+- You can also use IAssemblyDoc::AddToFeatureScope to compile a group of components. The next assembly feature created (for example, [IFeatureManager::SimpleHole](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SimpleHole.html)) affects each of the components in the compiled group.
 
-After completing these steps, use[IAssemblyDoc::UpdateFeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~UpdateFeatureScope.html)to display the changes.
+After completing these steps, use [IAssemblyDoc::UpdateFeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~UpdateFeatureScope.html) to display the changes.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

@@ -42,12 +42,8 @@ void Reposition(
 
 ### Parameters
 
-- `poDestRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html)
-
-structure; size and position where to draw the image
-- `eRefresh`: Type of refresh of the window as defined in
-
-[EdmRepaintType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRepaintType.html)
+- `poDestRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html) structure; size and position where to draw the image
+- `eRefresh`: Type of refresh of the window as defined in [EdmRepaintType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRepaintType.html)
 
 ## Remarks
 
@@ -59,7 +55,6 @@ structure; size and position where to draw the image
 ## See Also
 
 [IEdmImage Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage.html)
-
 [IEdmImage Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage_members.html)
 
 ## Availability

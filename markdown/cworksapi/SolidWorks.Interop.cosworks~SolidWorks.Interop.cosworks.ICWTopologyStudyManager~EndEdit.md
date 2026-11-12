@@ -42,38 +42,23 @@ System.int EndEdit();
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
+Result code as defined in [swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager::EndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~EndEdit.html)
-
-.
+See [CWTopologyStudyManager::EndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~EndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
-example.
+See the [ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html) example.
 
 ## Remarks
 
-To begin editing this topology study manager, call
-
-[ICWTopologyStudyManager::BeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager~BeginEdit.html)
-
-.
+To begin editing this topology study manager, call [ICWTopologyStudyManager::BeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager~BeginEdit.html).
 
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.double Thickness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,23 @@ Thickness
 
 ## VBA Syntax
 
-See
-
-[IndentFeatureData::Thickness](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~Thickness.html)
-
-.
+See [IndentFeatureData::Thickness](ms-its:sldworksapivb6.chm::/sldworks~IndentFeatureData~Thickness.html).
 
 ## Examples
 
 [Insert Indent Feature (C#)](Insert_Indent_Feature_Example_CSharp.htm)
-
 [Insert Indent Feature (VB.NET)](Insert_Indent_Feature_Example_VBNET.htm)
-
 [Insert Indent Feature (VBA)](Insert_Indent_Feature_Example_VB.htm)
 
 ## Remarks
 
 This property applies to solid bodies only.
 
-If IIndentFeatureData::IsCut is set to true (i.e., remove the intersection area of the target body), then there is no thickness.
+If [IIndentFeatureData::IsCut](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData~IsCut.html) is set to true (i.e., remove the intersection area of the target body), then there is no thickness.
 
 ## See Also
 
 [IIndentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData.html)
-
 [IIndentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIndentFeatureData_members.html)
 
 ## Availability

@@ -59,19 +59,13 @@ Feature^ InsertFreeform2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Nsided`: True to use the new Freeform algorithm, false to use the old one
 
-NOTE: Must be true for faces with three sides or more than four sides, or to enable rotation of UV lines
+  **NOTE:** Must be true for faces with three sides or more than four sides, or to enable rotation of UV lines
 - `Symmetric0`: True if symmetry is on in Direction 0, false if not
 - `Symmetric1`: True if symmetry is on in Direction 1, false if not
 - `Angle`: Value by which to rotate the U,V lines (in radians)
@@ -82,11 +76,7 @@ NOTE: Must be true for faces with three sides or more than four sides, or to ena
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertFreeform2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFreeform2.html)
-
-.
+See [FeatureManager::InsertFreeform2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFreeform2.html).
 
 ## Remarks
 
@@ -95,9 +85,10 @@ The SOLIDWORKS API Freeform-related methods are intended to journal the actions 
 The typical steps performed by an interactive user to create a Freeform feature are:
 
 1. Select the face to form.
-2. Add curves on the selected face. Corresponds to[IFeatureManager::SetFreeformCurveData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SetFreeformCurveData.html).
-3. Add points on the curves. Corresponds to[IFeatureManager::SetFreeformPointData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SetFreeformPointData.html).
-4. Specify boundary continuity. Corresponds to IFeatureManager::SetFreeformBoundaryContinuity .
+2. Add curves on the selected face. Corresponds to [IFeatureManager::SetFreeformCurveData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SetFreeformCurveData.html).
+3. Add points on the curves. Corresponds to [IFeatureManager::SetFreeformPointData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SetFreeformPointData.html).
+4. Specify boundary continuity. Corresponds to [IFeatureManager::SetFreeformBoundaryContinuity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~SetFreeformBoundaryContinuity.html).
+
   Interactively pull or push the points to change the shape of the selected face.
 5. Insert the Freeform feature. Corresponds to this method, IFeatureManager::InsertFreeform2.
 
@@ -106,7 +97,6 @@ Record a macro while interactively creating a Freeform feature, then examine the
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

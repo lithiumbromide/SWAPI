@@ -51,24 +51,15 @@ Electricity usage in kilowatt-hours/weight units
 
 ## VBA Syntax
 
-See
-
-[SustainabilityManufacturing::PrimaryElectricity](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing~PrimaryElectricity.html)
-
-.
+See [SustainabilityManufacturing::PrimaryElectricity](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing~PrimaryElectricity.html).
 
 ## Examples
 
-See examples in
-
-[ISustainabilityManufacturing](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityManufacturing.html)
-
-.
+See examples in [ISustainabilityManufacturing](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityManufacturing.html).
 
 ## See Also
 
 [ISustainabilityManufacturing Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing.html)
-
 [ISustainabilityManufacturing Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing_members.html)
 
 ## Availability

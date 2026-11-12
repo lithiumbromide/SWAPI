@@ -9,16 +9,14 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # ICWConvection Interface Properties
 
-For a list of all members of this type, see[ICWConvection members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html).
+For a list of all members of this type, see [ICWConvection members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html).
 
 ## Public Properties
 
 |  | Name | Description |
 | --- | --- | --- |
-| Property | BulkAmbientTemperature | Gets or sets the bulk ambient temperature for defining convection for thermal
-studies. |
-| Property | ConvectionCoefficient | Gets or sets the convection coefficient used in defining convection for thermal
-studies. |
+| Property | BulkAmbientTemperature | Gets or sets the bulk ambient temperature for defining convection for thermal studies. |
+| Property | ConvectionCoefficient | Gets or sets the convection coefficient used in defining convection for thermal studies. |
 | Property | Unit | Gets or sets the units for convection. |
 | Property | UseBulkTemperatureTimeCurve | Obsolete. Superseded by ICWConvection::UseBulkTemperatureTimeCurve2 . |
 | Property | UseBulkTemperatureTimeCurve2 | Gets or sets whether to use a bulk temperature curve for convection. |
@@ -32,5 +30,4 @@ studies. |
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

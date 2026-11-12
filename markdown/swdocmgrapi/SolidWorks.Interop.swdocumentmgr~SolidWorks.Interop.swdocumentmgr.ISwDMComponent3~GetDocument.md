@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetDocument Method (ISwDMComponent3)
 
-Obsolete. Superseded by
-
-[ISwDMComponent4::GetDocument2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMComponent4~GetDocument2.html)
-
-.
+Obsolete. Superseded by [ISwDMComponent4::GetDocument2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMComponent4~GetDocument2.html).
 
 ## Syntax
 
@@ -58,32 +54,19 @@ SwDMDocument^ GetDocument(
 ### Parameters
 
 - `allowReadOnly`: True to open the document as read-only, false as read-write
-
-ParamDesc
-- `result`: Error as defined by
-
-[SwDmDocumentOpenError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentOpenError.html)
+- `result`: Error as defined by [SwDmDocumentOpenError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentOpenError.html)
 
 ### Return Value
 
-Pointer to the
-
-[ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html)
-
-object
+Pointer to the [ISwDMDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument.html) object
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent3::GetDocument](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent3~GetDocument.html)
-
-.
+See [SwDMComponent3::GetDocument](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent3~GetDocument.html).
 
 ## See Also
 
 [ISwDMComponent3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent3.html)
-
 [ISwDMComponent3 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent3_members.html)
 
 ## Availability

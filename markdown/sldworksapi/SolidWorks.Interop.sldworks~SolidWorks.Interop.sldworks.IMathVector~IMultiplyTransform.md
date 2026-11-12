@@ -47,33 +47,19 @@ MathVector^ IMultiplyTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TransformObjIn`: [Math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)by which to multiply the math vector
+- `TransformObjIn`: [Math transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) by which to multiply the math vector
 
 ### Return Value
 
-Newly created
-
-[math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-or NULL if the operation fails
+Newly created [math vector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) or NULL if the operation fails
 
 ## VBA Syntax
 
-See
-
-[MathVector::IMultiplyTransform](ms-its:sldworksapivb6.chm::/sldworks~MathVector~IMultiplyTransform.html)
-
-.
+See [MathVector::IMultiplyTransform](ms-its:sldworksapivb6.chm::/sldworks~MathVector~IMultiplyTransform.html).
 
 ## Remarks
 
@@ -82,9 +68,7 @@ The matrix is rotated and then scaled. It is not transformed because the math ve
 ## See Also
 
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IMathVector Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector_members.html)
-
 [IMathVector::MultiplyTransform Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector~MultiplyTransform.html)
 
 ## Availability

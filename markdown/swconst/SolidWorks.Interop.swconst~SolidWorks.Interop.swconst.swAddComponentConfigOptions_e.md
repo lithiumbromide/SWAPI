@@ -49,9 +49,7 @@ public enum class swAddComponentConfigOptions_e : public System.Enum
 ## Examples
 
 [Add Component and Mate (VBA)](ms-its:sldworksapi.chm::/Add_Component_and_Mate_Example_VB.htm)
-
 [Add Component and Mate (VB.NET)](ms-its:sldworksapi.chm::/Add_Component_and_Mate_Example_VBNET.htm)
-
 [Add Component and Mate (C#)](ms-its:sldworksapi.chm::/Add_Component_and_Mate_Example_CSharp.htm)
 
 ## See Also

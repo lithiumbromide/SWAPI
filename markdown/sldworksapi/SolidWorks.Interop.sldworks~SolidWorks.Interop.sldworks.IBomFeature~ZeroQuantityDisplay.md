@@ -45,38 +45,23 @@ property System.int ZeroQuantityDisplay {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Character or value to display when value is 0 as defined by[swZeroQuantityDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swZeroQuantityDisplay_e.html)
+Character or value to display when value is 0 as defined by [swZeroQuantityDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swZeroQuantityDisplay_e.html)
 
 ## VBA Syntax
 
-See
-
-[BomFeature::ZeroQuantityDisplay](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~ZeroQuantityDisplay.html)
-
-.
+See [BomFeature::ZeroQuantityDisplay](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~ZeroQuantityDisplay.html).
 
 ## Examples
 
-See
-
-[IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html)
-
-examples.
+See [IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html) examples.
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
 
 ## Availability

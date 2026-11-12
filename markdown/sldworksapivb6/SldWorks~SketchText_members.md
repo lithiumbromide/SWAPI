@@ -1,6 +1,5 @@
 ---
-title: "SketchText Object
-Members"
+title: "SketchText Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchText_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchText_members.html"
 ---
 
-# SketchText Object
-Members
+# SketchText Object Members
 
 ## Public Methods
 

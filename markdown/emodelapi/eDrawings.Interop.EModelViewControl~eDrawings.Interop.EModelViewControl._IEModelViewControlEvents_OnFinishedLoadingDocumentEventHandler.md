@@ -49,17 +49,13 @@ public delegate void _IEModelViewControlEvents_OnFinishedLoadingDocumentEventHan
 
 ## VBA Syntax
 
-See
-
-[OnFinishedLoadingDocument Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFinishedLoadingDocument_EV.html)
-
-.
+See [OnFinishedLoadingDocument Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFinishedLoadingDocument_EV.html).
 
 ## Remarks
 
-Because[IEModelViewControl::OpenDoc](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~OpenDoc.html)starts a new thread of execution and because eDrawings files are often loaded across the Internet or other potentially slow and unreliable networks, this API call can return before the document is finished loading.
+Because [IEModelViewControl::OpenDoc](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~OpenDoc.html) starts a new thread of execution and because eDrawings files are often loaded across the Internet or other potentially slow and unreliable networks, this API call can return before the document is finished loading.
 
-Referencing a model that has not finished loading (for example, calling[IEModelViewControl::Animate](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Animate.html)) can cause your application to hang, crash, or behave unpredictably. Therefore, listen for the OnFinishedLoadingDocument event after calling IEModelViewControl::OpenDoc so that your application knows when the eDrawings file is finished loading. Once your application receives notification that the eDrawings file has been loaded, it is safe to access the model.
+Referencing a model that has not finished loading (for example, calling [IEModelViewControl::Animate](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Animate.html)) can cause your application to hang, crash, or behave unpredictably. Therefore, listen for the OnFinishedLoadingDocument event after calling IEModelViewControl::OpenDoc so that your application knows when the eDrawings file is finished loading. Once your application receives notification that the eDrawings file has been loaded, it is safe to access the model.
 
 ## Availability
 

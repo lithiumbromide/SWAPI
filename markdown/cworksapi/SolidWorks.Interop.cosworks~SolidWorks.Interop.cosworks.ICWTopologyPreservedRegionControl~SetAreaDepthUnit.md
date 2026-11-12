@@ -48,38 +48,23 @@ void SetAreaDepthUnit(
 
 ### Parameters
 
-- `NUnit`: Units of preserved area depth as defined in
-
-[swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
+- `NUnit`: Units of preserved area depth as defined in [swsLinearUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinearUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyPreservedRegion::SetAreaDepthUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SetAreaDepthUnit.html)
-
-.
+See [CWTopologyPreservedRegion::SetAreaDepthUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyPreservedRegion~SetAreaDepthUnit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
-example.
+See the [ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html) example.
 
 ## Remarks
 
-This method is valid only if
-
-[ICWTopologyPreservedRegionControl::SetIncludeRegionDepth](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~SetIncludeRegionDepth.html)
-
-is set to 1.
+This method is valid only if [ICWTopologyPreservedRegionControl::SetIncludeRegionDepth](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl~SetIncludeRegionDepth.html) is set to 1.
 
 ## See Also
 
 [ICWTopologyPreservedRegionControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
 [ICWTopologyPreservedRegionControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl_members.html)
 
 ## Availability

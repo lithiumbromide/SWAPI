@@ -40,13 +40,7 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[TitleBlock::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~TitleBlock~GetFeature.html)
-
-.
+See [TitleBlock::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~TitleBlock~GetFeature.html).
 
 ## See Also
 
 [ITitleBlock Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock.html)
-
 [ITitleBlock Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlock_members.html)
 
 ## Availability

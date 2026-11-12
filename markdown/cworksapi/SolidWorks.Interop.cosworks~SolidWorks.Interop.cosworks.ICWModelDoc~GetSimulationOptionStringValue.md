@@ -49,9 +49,7 @@ System.String^ GetSimulationOptionStringValue(
 
 ### Parameters
 
-- `NUserPreferenceValue`: User preference as defined by
-
-[swsUserPreferenceStringValue_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUserPreferenceStringValue_e.html)
+- `NUserPreferenceValue`: User preference as defined by [swsUserPreferenceStringValue_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUserPreferenceStringValue_e.html)
 
 ### Return Value
 
@@ -59,26 +57,18 @@ String value
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::GetSimulationOptionStringValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~GetSimulationOptionStringValue.html)
-
-.
+See [CWModelDoc::GetSimulationOptionStringValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~GetSimulationOptionStringValue.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
-
 [ICWModelDoc::SetSimulationOptionStringValue Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~SetSimulationOptionStringValue.html)
 
 ## Availability

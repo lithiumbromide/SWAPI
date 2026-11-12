@@ -51,13 +51,7 @@ CommandGroup^ AddContextMenu(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,36 +60,24 @@ See
 
 ### Return Value
 
-Pointer to
-
-[ICommandGroup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup.html)
-
-object
+Pointer to [ICommandGroup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup.html) object
 
 ## VBA Syntax
 
-See
-
-[CommandManager::AddContextMenu](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~AddContextMenu.html)
-
-.
+See [CommandManager::AddContextMenu](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~AddContextMenu.html).
 
 ## Remarks
 
-A context-sensitive menu is a pop-up menu that is displayed when a user right-clicks a selectable object type defined by[ICommandGroup::SelectType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~SelectType.html)and, if the object type is a custom feature,[ICommandGroup::CustomNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~CustomNames.html).
+A context-sensitive menu is a pop-up menu that is displayed when a user right-clicks a selectable object type defined by [ICommandGroup::SelectType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~SelectType.html) and, if the object type is a custom feature, [ICommandGroup::CustomNames](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~CustomNames.html).
 
-You can turn off all menus or all toolbars for a CommandGroup. See[ICommandGroup::HasMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~HasMenu.html)and[ICommandGroup::HasToolbar](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~HasToolbar.html)for details.
+You can turn off all menus or all toolbars for a CommandGroup. See [ICommandGroup::HasMenu](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~HasMenu.html) and [ICommandGroup::HasToolbar](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~HasToolbar.html) for details.
 
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [ICommandManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html)
-
 [ICommandGroup::Name Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~Name.html)
-
 [ICommandGroup::SelectType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~SelectType.html)
-
 [ICommandManager::RemoveCommandGroup Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~RemoveCommandGroup.html)
 
 ## Availability

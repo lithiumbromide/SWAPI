@@ -46,22 +46,17 @@ Array of strings of the names of the invisible custom properties for this sheet
 
 ## VBA Syntax
 
-See
-
-[SwDMSheet::GetInvisibleCustomPropertyNames](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet~GetInvisibleCustomPropertyNames.html)
-
-.
+See [SwDMSheet::GetInvisibleCustomPropertyNames](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet~GetInvisibleCustomPropertyNames.html).
 
 ## Remarks
 
-Before calling this method, call[ISwDMSheet::GetInvisibleCustomPropertyCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSheet~GetInvisibleCustomPropertyCount.html)to determine the size of the array.
+Before calling this method, call [ISwDMSheet::GetInvisibleCustomPropertyCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSheet~GetInvisibleCustomPropertyCount.html) to determine the size of the array.
 
-Call this method before calling[ISwDMSheet::GetInvisibleCustomProperty](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSheet~GetInvisibleCustomProperty.html)to determine the name of the invisible custom property you want to use with that method.
+Call this method before calling [ISwDMSheet::GetInvisibleCustomProperty](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSheet~GetInvisibleCustomProperty.html) to determine the name of the invisible custom property you want to use with that method.
 
 ## See Also
 
 [ISwDMSheet Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet.html)
-
 [ISwDMSheet Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet_members.html)
 
 ## Availability

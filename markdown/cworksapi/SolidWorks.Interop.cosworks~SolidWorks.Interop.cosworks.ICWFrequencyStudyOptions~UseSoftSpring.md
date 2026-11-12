@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFr
 
 # UseSoftSpring Property (ICWFrequencyStudyOptions)
 
-Obsolete. Superseded by[ICWFrequencyStudyOptions::UseSoftSpring2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~UseSoftSpring2.html).
+Obsolete. Superseded by [ICWFrequencyStudyOptions::UseSoftSpring2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~UseSoftSpring2.html).
 
 ## Syntax
 
@@ -52,11 +52,7 @@ property System.int UseSoftSpring {
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::UseSoftSpring](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~UseSoftSpring.html)
-
-.
+See [CWFrequencyStudyOptions::UseSoftSpring](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~UseSoftSpring.html).
 
 ## Remarks
 
@@ -65,7 +61,6 @@ Rigid body modes are calculated in addition to the specified number of modes.
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

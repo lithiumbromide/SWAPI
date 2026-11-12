@@ -83,13 +83,7 @@ System.Object^ ConvertToMeshBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -108,7 +102,7 @@ See
 
 Array of:
 
-One[body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)(if this is a solid body)
+One [body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html) (if this is a solid body)
 
 - or -
 
@@ -116,11 +110,7 @@ Multiple surface bodies (if this is a graphics body)
 
 ## VBA Syntax
 
-See
-
-[Body2::ConvertToMeshBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~ConvertToMeshBody.html)
-
-.
+See [Body2::ConvertToMeshBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~ConvertToMeshBody.html).
 
 ## Examples
 
@@ -136,9 +126,9 @@ See
 '
 'Postconditions:
 '1. Inspect the Immediate window.
-'2. If a solid body was opened,**Body-Convert to Mesh Body**`X`is created in the FeatureManager design tree.
+'2. If a solid body was opened, **Body-Convert to Mesh Body**`X` is created in the FeatureManager design tree.
 '3. If a graphics body or a mesh body was opened and you selected facets,
-' this macro creates a**Surface-From-Mesh**`X`feature from the selected mesh facets
+' this macro creates a **Surface-From-Mesh**`X` feature from the selected mesh facets
 ' using the specified facet tolerance and extend surface size.
 ' If ErrorCodeSurfaceFromMesh is -1, then select more mesh facets and/or
 ' change the IGraphicsBody/IMeshBody::SurfaceFromMesh parameters (SurfaceType/FacetTolerance/ExtendSurfaceSize).
@@ -287,14 +277,13 @@ End Sub
 
 Call this method for each body you want to convert.
 
-This method creates**Body-Convert to Mesh Body**in the FeatureManager design tree.
+This method creates **Body-Convert to Mesh Body** in the FeatureManager design tree.
 
-This method is analogous to the**SOLIDWORKS menu Insert > Mesh > Convert To Mesh Body**. For more information, see the**SOLIDWORKS user-interface help > Parts and Features > Graphics Mesh and Mesh BREP Bodies > Converting Solid, Surface or Graphics Bodies to Mesh**topic.
+This method is analogous to the **SOLIDWORKS menu Insert > Mesh > Convert To Mesh Body**. For more information, see the **SOLIDWORKS Design user-interface help > Parts and Features > Graphics Mesh and Mesh BREP Bodies > Converting Solid, Surface or Graphics Bodies to Mesh** topic.
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

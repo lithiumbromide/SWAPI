@@ -42,13 +42,7 @@ property System.bool HasLegacyCustomProperties {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ True if the model has legacy custom properties, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::HasLegacyCustomProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~HasLegacyCustomProperties.html)
-
-.
+See [ModelDocExtension::HasLegacyCustomProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~HasLegacyCustomProperties.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

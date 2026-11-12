@@ -38,18 +38,9 @@ IEdmUserGroup5^ mpoGroup
 
 ## Remarks
 
-This member is valid only if
-
-[EdmGroupData::mlFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mlFlags.html)
-
-sets the
-
-[EdmGroupDataFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupDataFlags.html)
-
-.Edmgdf_GetInterface bit.
+This member is valid only if [EdmGroupData::mlFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData~mlFlags.html) sets the [EdmGroupDataFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupDataFlags.html).Edmgdf_GetInterface bit.
 
 ## See Also
 
 [EdmGroupData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData.html)
-
 [EdmGroupData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData_members.html)

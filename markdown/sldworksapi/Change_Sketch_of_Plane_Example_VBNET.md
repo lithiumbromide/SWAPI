@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Sketch_of_Plane_Example_VBNET.htm"
 
 # Change the Plane of a Sketch Example (VB.NET)
 
-This example shows how to modify the plane
-of a sketch.
+This example shows how to modify the plane of a sketch.
 
 ```vb
  '----------------------------------------------------------------------------

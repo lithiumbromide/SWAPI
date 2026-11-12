@@ -34,14 +34,9 @@ System.short mbCancel
 
 ### Field Value
 
-True (1) to prevent a command from running using
-
-[EdmCmd_PreXxxx hooks](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html)
-
-, false (0) to disallow canceling the command
+True (1) to prevent a command from running using [EdmCmd_PreXxxx hooks](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html), false (0) to disallow canceling the command
 
 ## See Also
 
 [EdmCmd Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)
-
 [EdmCmd Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd_members.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Along_Z_Dimension_To_3D_Sketch_Example_CSharp.htm"
 
 # Add Along Z Dimension to 3D Sketch Example (C#)
 
-This example shows how to add a display dimension along the z axis in
-a 3D sketch.
+This example shows how to add a display dimension along the z axis in a 3D sketch.
 
 ```
 //----------------------------------------------------------------------------

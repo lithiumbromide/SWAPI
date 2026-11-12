@@ -48,32 +48,22 @@ void DeleteContactComponent(
 
 ### Parameters
 
-- `SName`: [Name](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactComponent~ContactName.html)
-
-of the component contact to delete
+- `SName`: [Name](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactComponent~ContactName.html) of the component contact to delete
 
 ## VBA Syntax
 
-See
-
-[CWContactManager::DeleteContactComponent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~DeleteContactComponent.html)
-
-.
+See [CWContactManager::DeleteContactComponent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~DeleteContactComponent.html).
 
 ## Examples
 
 [Add Component Contacts (VBA)](Add_Component_Contacts_Example_VB.htm)
-
 [Add Component Contacts (VB.NET)](Add_Component_Contacts_Example_VBNET.htm)
-
 [Add Component Contacts (C#)](Add_Component_Contacts_Example_CSharp.htm)
 
 ## See Also
 
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager_members.html)
-
 [ICWContactManager::CreateContactComponent Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~CreateContactComponent.html)
 
 ## Availability

@@ -9,10 +9,7 @@ source: "sldworksapi/Add_Attribute_to_Feature_and_Include_In_Library_Feature_Exa
 
 # Add Attribute to Feature and Include In Library Feature Example (VBA)
 
-This example shows how to add an attribute to a feature and include
-that attribute with the feature if the feature is saved as a library feature.
-This example also includes instructions on how to verify that the attribute
-is included on each instance of the library feature.
+This example shows how to add an attribute to a feature and include that attribute with the feature if the feature is saved as a library feature. This example also includes instructions on how to verify that the attribute is included on each instance of the library feature.
 
 ```
 '-----------------------------------------------------------------

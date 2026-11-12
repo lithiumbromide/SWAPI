@@ -1,6 +1,5 @@
 ---
-title: "MultiJogLeader Object
-Members"
+title: "MultiJogLeader Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MultiJogLeader_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MultiJogLeader_members.html"
 ---
 
-# MultiJogLeader Object
-Members
+# MultiJogLeader Object Members
 
 ## Public Methods
 

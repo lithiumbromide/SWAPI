@@ -44,8 +44,7 @@ SOLIDWORKS Motion Study API
 | Enumeration | Description |
 | --- | --- |
 | swMotionIntegratorType_e | Integration methods for solving numerically stiff systems. |
-| swMotionStudyNotify_e | To receive notifications, a DLL application must register for the notifications by object type. This registration must be done for each instance of a
-particular object. |
+| swMotionStudyNotify_e | To receive notifications, a DLL application must register for the notifications by object type. This registration must be done for each instance of a particular object. |
 | swMotionStudyType_e | Motion study types. Bitmask . |
 | swSaveAVIImageSize_e | AVI image sizes. |
 | swSpecialMotionEventType_e | Motion-related special events. |

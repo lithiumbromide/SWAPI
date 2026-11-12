@@ -53,28 +53,16 @@ System.int DeleteDefaultThermalStudyPlot(
 
 ### Parameters
 
-- `NResultComponent`: Type of thermal study result plot to delete as defined by
-
-[swsThermalResultComponentTypes_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalResultComponentTypes_e.html)
-- `BTransient`: True if transient, false if steady state (see
-
-Remarks
-
-)
+- `NResultComponent`: Type of thermal study result plot to delete as defined by [swsThermalResultComponentTypes_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalResultComponentTypes_e.html)
+- `BTransient`: True if transient, false if steady state (see **Remarks**)
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotDelete_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotDelete_ErrorCode_e.html)
+Error code as defined in [swsResultPlotDelete_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotDelete_ErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::DeleteDefaultThermalStudyPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DeleteDefaultThermalStudyPlot.html)
-
-.
+See [CWModelDoc::DeleteDefaultThermalStudyPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DeleteDefaultThermalStudyPlot.html).
 
 ## Remarks
 
@@ -83,11 +71,8 @@ If BTransient is true, this plot is for a transient thermal study in which an in
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
-
 [ICWModelDoc::AddDefaultThermalStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~AddDefaultThermalStudyPlot.html)
-
 [ICWModelDoc::DeleteAllDefaultThermalStudyPlots Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~DeleteAllDefaultThermalStudyPlots.html)
 
 ## Availability

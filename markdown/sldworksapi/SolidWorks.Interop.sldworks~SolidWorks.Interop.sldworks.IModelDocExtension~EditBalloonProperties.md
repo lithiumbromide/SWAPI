@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditBalloonProperties Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::EditBalloonProperties2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~EditBalloonProperties2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::EditBalloonProperties2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~EditBalloonProperties2.html).
 
 ## Syntax
 
@@ -87,32 +83,24 @@ System.Object^ EditBalloonProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style`: Style of balloon as defined in[swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
-- `Size`: Balloon size as defined in
-
-[swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
-- `UpperTextStyle`: Upper text style as defined in[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
+- `Style`: Style of balloon as defined in [swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
+- `Size`: Balloon size as defined in [swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
+- `UpperTextStyle`: Upper text style as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
 - `UpperText`: Text for the upper text in the balloon
-- `LowerTextStyle`: Lower text style as defined in[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); valid for balloons only and Style must be set to swBS_SplitCirc
+- `LowerTextStyle`: Lower text style as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); valid for balloons only and Style must be set to swBS_SplitCirc
 - `LowerText`: Text for the lower text in the balloon; valid for balloons only and Style must be set to swBS_SplitCirc
 - `CustomSize`: User-defined size of the balloon; Size must be set to swBF_UserDef
 - `ShowQuantity`: True to show quantity, false to not
 - `QuantityPlacement`: Placement of quantity value:
 
-- 0 = Left
-- 1 = Right
-- 2 = Top
-- 3 = Bottom
+  - 0 = Left
+  - 1 = Right
+  - 2 = Top
+  - 3 = Bottom
 - `QuantityDenotationText`: Denotation text for quantity
 
 ### Return Value
@@ -121,20 +109,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::EditBalloonProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~EditBalloonProperties.html)
-
-.
+See [ModelDocExtension::EditBalloonProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~EditBalloonProperties.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [INote::SetBalloon Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~SetBalloon.html)
-
 [INote::SetBomBalloonText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~SetBomBalloonText.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "Simulation Object
-Members"
+title: "Simulation Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Simulation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Simulation_members.html"
 ---
 
-# Simulation Object
-Members
+# Simulation Object Members
 
 ## Public Methods
 

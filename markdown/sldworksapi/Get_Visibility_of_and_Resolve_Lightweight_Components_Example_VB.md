@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Visibility_of_and_Resolve_Lightweight_Components_Exampl
 
 # Get Visibility of and Resolve Lightweight Components Example (VBA)
 
-This example shows how to get the visibility of and resolve lightweight
-components.
+This example shows how to get the visibility of and resolve lightweight components.
 
 ```
 '----------------------------------------------------

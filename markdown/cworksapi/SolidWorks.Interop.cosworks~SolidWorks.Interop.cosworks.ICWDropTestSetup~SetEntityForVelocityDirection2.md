@@ -49,22 +49,17 @@ System.bool SetEntityForVelocityDirection2(
 
 ### Parameters
 
-- `DispEntity`: Face, edge, or plane geometry reference (see
-
-Remarks
-
-)
+- `DispEntity`: Face, edge, or plane geometry reference (see **Remarks**)
 
 ## Remarks
 
-This method is valid only if[ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html)= swsDropType_e.swsDropType_VelocityAtImpact.
+This method is valid only if [ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html) = swsDropType_e.swsDropType_VelocityAtImpact.
 
 If the reference entity is a plane or planar face, the velocity is applied in the direction normal to the reference entity.
 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
 
 ## Availability

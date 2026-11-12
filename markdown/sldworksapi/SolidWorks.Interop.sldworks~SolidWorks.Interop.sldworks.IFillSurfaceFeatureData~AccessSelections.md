@@ -51,45 +51,25 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top-level document (see
-
-Remarks
-
-)
-- `Component`: Component in which the feature is to be modified (see
-
-Remarks
-
-)
+- `TopDoc`: Top-level document (see **Remarks**)
+- `Component`: Component in which the feature is to be modified (see **Remarks**)
 
 ### Return Value
 
-True if the selections are successfully accessed, false if notParamDesc
+True if the selections are successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[FillSurfaceFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~AccessSelections.html)
-
-.
+See [FillSurfaceFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~AccessSelections.html).
 
 ## Examples
 
 [Insert Fill-surface Feature (C#)](Insert_Fill-surface_Feature_Example_CSharp.htm)
-
 [Insert Fill-surface Feature (VB.NET)](Insert_Fill-surface_Feature_Example_VBNET.htm)
-
 [Insert Fill-surface Feature (VBA)](Insert_Fill-surface_Feature_Example_VB.htm)
 
 ## Remarks
@@ -101,19 +81,13 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  if you modified the feature
-- [IFillSurfaceFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) if you modified the feature
+- [IFillSurfaceFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IFillSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData.html)
-
 [IFillSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData_members.html)
-
 [IFillSurfaceFeatureData::IAccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData~IAccessSelections.html)
 
 ## Availability

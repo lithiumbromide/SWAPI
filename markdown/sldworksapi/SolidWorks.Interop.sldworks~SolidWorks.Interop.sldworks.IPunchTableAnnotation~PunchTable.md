@@ -42,13 +42,7 @@ property PunchTable^ PunchTable {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[PunchTableAnnotation::PunchTable](ms-its:sldworksapivb6.chm::/sldworks~PunchTableAnnotation~PunchTable.html)
-
-.
+See [PunchTableAnnotation::PunchTable](ms-its:sldworksapivb6.chm::/sldworks~PunchTableAnnotation~PunchTable.html).
 
 ## Examples
 
 [Insert Punch Table (C#)](Insert_Punch_Table_Example_CSharp.htm)
-
 [Insert Punch Table (VB.NET)](Insert_Punch_Table_Example_VBNET.htm)
-
 [Insert Punch Table (VBA)](Insert_Punch_Table_Example_VB.htm)
 
 ## See Also
 
 [IPunchTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTableAnnotation.html)
-
 [IPunchTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTableAnnotation_members.html)
 
 ## Availability

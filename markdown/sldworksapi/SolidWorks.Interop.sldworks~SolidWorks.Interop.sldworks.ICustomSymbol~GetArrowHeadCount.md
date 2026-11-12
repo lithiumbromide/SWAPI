@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetArrowHeadCount Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::GetArrowHeadCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetArrowHeadCount.html)
-
-.
+Obsolete. Superseded by [INote::GetArrowHeadCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetArrowHeadCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetArrowHeadCount()
 System.int GetArrowHeadCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::GetArrowHeadCount](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetArrowHeadCount.html)
-
-.
+See [CustomSymbol::GetArrowHeadCount](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetArrowHeadCount.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetMassProperties2 Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetMassProperties2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetMassProperties2.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetMassProperties2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetMassProperties2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetMassProperties2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetMassProperties2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetMassProperties2.html)
-
-.
+See [ModelDoc::GetMassProperties2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetMassProperties2.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

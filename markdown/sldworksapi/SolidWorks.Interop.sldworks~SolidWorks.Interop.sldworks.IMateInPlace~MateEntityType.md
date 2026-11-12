@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # MateEntityType Property (IMateInPlace)
 
-Gets the type of entity in this
-
-Inplace
-
-mate.
+Gets the type of entity in this Inplace mate.
 
 ## Syntax
 
@@ -51,13 +47,7 @@ property System.int MateEntityType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,34 +55,26 @@ See
 
 ### Property Value
 
-Type of entity as defined by[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+Type of entity as defined by [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ## VBA Syntax
 
-See
-
-[MateInPlace::MateEntityType](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace~MateEntityType.html)
-
-.
+See [MateInPlace::MateEntityType](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace~MateEntityType.html).
 
 ## Examples
 
 [Get Component Names and Types for Inplace Mate (VBA)](Get_Component_Names_and_Types_for_Inplace_Mate_Example_VB.htm)
-
 [Get Mates (C#)](Get_Mates_Example_CSharp.htm)
-
 [Get Mates (VB.NET)](Get_Mates_Example_VBNET.htm)
-
 [Get Mates (VBA)](Get_Mates_Example_VB.htm)
 
 ## Remarks
 
-To get the name of the entity, call[IMateInPlace::MateEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateInPlace~MateEntity.html).
+To get the name of the entity, call [IMateInPlace::MateEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateInPlace~MateEntity.html).
 
 ## See Also
 
 [IMateInPlace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace.html)
-
 [IMateInPlace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace_members.html)
 
 ## Availability

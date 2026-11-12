@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetReplacedComponents Method (ISwDMConfiguration11)
 
-Gets information about the components that were replaced by
-
-[ISwDMComponent6::Replace](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMComponent6~Replace.html)
-
-.
+Gets information about the components that were replaced by [ISwDMComponent6::Replace](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMComponent6~Replace.html).
 
 ## Syntax
 
@@ -71,18 +67,12 @@ void GetReplacedComponents(
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration11::GetReplacedComponents](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration11~GetReplacedComponents.html)
-
-.
+See [SwDMConfiguration11::GetReplacedComponents](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration11~GetReplacedComponents.html).
 
 ## See Also
 
 [ISwDMConfiguration11 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11.html)
-
 [ISwDMConfiguration11 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11_members.html)
-
 [ISwDMDocument8::GetChangedReferences Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument8~GetChangedReferences.html)
 
 ## Availability

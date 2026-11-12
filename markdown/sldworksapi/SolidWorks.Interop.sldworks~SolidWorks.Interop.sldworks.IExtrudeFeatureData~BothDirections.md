@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # BothDirections Property (IExtrudeFeatureData)
 
-Obsolete. Superseded by
-
-[IExtrudeFeatureData2::BothDirections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~BothDirections.html)
-
-.
+Obsolete. Superseded by [IExtrudeFeatureData2::BothDirections](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~BothDirections.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool BothDirections {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData::BothDirections](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~BothDirections.html)
-
-.
+See [ExtrudeFeatureData::BothDirections](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~BothDirections.html).
 
 ## See Also
 
 [IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html)
-
 [IExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.html)

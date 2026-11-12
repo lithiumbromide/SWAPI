@@ -45,54 +45,33 @@ property System.Object^ ComponentList {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Selected components to open when opening an assembly document (see
-
-Remarks
-
-)
+Selected components to open when opening an assembly document (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::ComponentList](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~ComponentList.html)
-
-.
+See [DocumentSpecification::ComponentList](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~ComponentList.html).
 
 ## Examples
 
 [Get Whether Components Are Loaded (C#)](Get_Whether_Components_Are_Loaded_Example_CSharp.htm)
-
 [Get Whether Components Are Loaded (VB.NET)](Get_Whether_Components_Are_Loaded_Example_VBNET.htm)
-
 [Get Whether Components Are Loaded (VBA)](Get_Whether_Components_Are_Loaded_Example_VB.htm)
-
 [Open Assembly Document (C#)](Open_Assembly_Document_Example_CSharp.htm)
-
 [Open Assembly Document (VB.NET)](Open_Assembly_Document_Example_VBNET.htm)
-
 [Open Assembly Document (VBA)](Open_Assembly_Document_Example_VB.htm)
 
 ## Remarks
 
-Use[IDocumentSpecification::Selective](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~Selective.html)to specify to load only selected components when opening an assembly document.
+Use [IDocumentSpecification::Selective](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~Selective.html) to specify to load only selected components when opening an assembly document.
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
-
 [IDocumentSpecification::InteractiveComponentSelection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification~InteractiveComponentSelection.html)
 
 ## Availability

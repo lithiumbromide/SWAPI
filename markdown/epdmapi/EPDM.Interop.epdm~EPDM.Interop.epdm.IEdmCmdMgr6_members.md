@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr6_members.html"
 
 # IEdmCmdMgr6 Interface Members
 
-The following tables list the members exposed by[IEdmCmdMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr6.html).
+The following tables list the members exposed by [IEdmCmdMgr6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr6.html).
 
 ## Public Methods
 
@@ -22,9 +22,6 @@ The following tables list the members exposed by[IEdmCmdMgr6](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmCmdMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Creating Menu Commands (VB.NET)](vbmenuitem.htm)
-
 [Creating Add-in Hooks (VB.NET)](vbreactor.htm)

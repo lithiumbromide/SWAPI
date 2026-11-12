@@ -45,13 +45,7 @@ property System.String^ CustomHoleMeshFile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ Path to custom hole mesh file
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::CustomHoleMeshFile](ms-its:sldworksapivb6.chm::/sldworks~RenderMaterial~CustomHoleMeshFile.html)
-
-.
+See [RenderMaterial::CustomHoleMeshFile](ms-its:sldworksapivb6.chm::/sldworks~RenderMaterial~CustomHoleMeshFile.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IRenderMaterial::SurfaceFinishShaderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishShaderType.html)
-
-is set to
-
-[swAppearanceSurfaceFinishShaderTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAppearanceSurfaceFinishShaderTypes_e.html)
-
-.swAppearanceSurfaceFinishShaderType_CustomHoleMesh.
+This property is valid only if [IRenderMaterial::SurfaceFinishShaderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial~SurfaceFinishShaderType.html) is set to [swAppearanceSurfaceFinishShaderTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAppearanceSurfaceFinishShaderTypes_e.html).swAppearanceSurfaceFinishShaderType_CustomHoleMesh.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

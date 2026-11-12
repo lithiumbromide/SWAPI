@@ -9,8 +9,7 @@ source: "sldworksapi/Regen_Post_Notify2_Event_Handler_Example_VBNET.htm"
 
 # Fire Assembly Rebuild Events Example (VB.NET)
 
-This example shows how to handle pre-notification
-and post-notification events for an assembly, which are fired when the assembly is rebuilt.
+This example shows how to handle pre-notification and post-notification events for an assembly, which are fired when the assembly is rebuilt.
 
 ```
 '----------------------------------------------------------------------------

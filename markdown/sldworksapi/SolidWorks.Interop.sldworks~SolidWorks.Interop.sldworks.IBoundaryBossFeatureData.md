@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 Allows access to a boundary feature that is a boss or base.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IBoundaryBossFeatureData
 
 ## VBA Syntax
 
-See
-
-[BoundaryBossFeatureData](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData.html)
-
-.
+See [BoundaryBossFeatureData](ms-its:sldworksapivb6.chm::/sldworks~BoundaryBossFeatureData.html).
 
 ## Examples
 
 [Insert Boundary Feature (C#)](Insert_Boundary_Feature_Example_CSharp.htm)
-
 [Insert Boundary Feature (VB.NET)](Insert_Boundary_Feature_Example_VBNET.htm)
-
 [Insert Boundary Feature (VBA)](Insert_Boundary_Feature_Example_VB.htm)
 
 ## Accessors
@@ -66,11 +60,7 @@ See
 ## See Also
 
 [IBoundaryBossFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundaryBossFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertNetBlend Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertNetBlend.html)
-
 [IFeatureManager::SetNetBlendCurveData Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~SetNetBlendCurveData.html)
-
 [IFeatureManager::SetNetBlendDirectionData Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~SetNetBlendDirectionData.html)

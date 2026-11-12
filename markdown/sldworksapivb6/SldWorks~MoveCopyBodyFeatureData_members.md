@@ -1,6 +1,5 @@
 ---
-title: "MoveCopyBodyFeatureData Object
-Members"
+title: "MoveCopyBodyFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MoveCopyBodyFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MoveCopyBodyFeatureData_members.html"
 ---
 
-# MoveCopyBodyFeatureData Object
-Members
+# MoveCopyBodyFeatureData Object Members
 
 ## Public Methods
 

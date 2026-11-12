@@ -9,11 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # BackgroundColorOverride Property (IEModelViewControl)
 
-Specifies whether to override the document's background color and display the color specified by
-
-[IEModelViewControl::BackgroundColor](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColor.html)
-
-.
+Specifies whether to override the document's background color and display the color specified by [IEModelViewControl::BackgroundColor](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColor.html).
 
 ## Syntax
 
@@ -55,28 +51,19 @@ True to override the document's background color, false to not
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::BackgroundColorOverride](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~BackgroundColorOverride.html)
-
-.
+See [EModelViewControl::BackgroundColorOverride](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~BackgroundColorOverride.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## Remarks
 
-If set to true, then you can also use[IEModelViewControl::BackgroundColorGradient](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColorGradient.html)to apply a gradient background.
+If set to true, then you can also use [IEModelViewControl::BackgroundColorGradient](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColorGradient.html) to apply a gradient background.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

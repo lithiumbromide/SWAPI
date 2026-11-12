@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 Gets whether the face hatch is a solid color.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ property System.bool SolidFill {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,26 +55,18 @@ True if face hatch is a solid color, false if not
 
 ## VBA Syntax
 
-See
-
-[FaceHatch::SolidFill](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~SolidFill.html)
-
-.
+See [FaceHatch::SolidFill](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~SolidFill.html).
 
 ## Examples
 
 [Get Crosshatches on the View (VBA)](Get_Crosshatches_on_View_Example_VB.htm)
-
 [Get Face Hatch Data (C#)](Get_Face_Hatch_Data_Example_CSharp.htm)
-
 [Get Face Hatch Data (VB.NET)](Get_Face_Hatch_Data_Example_VBNET.htm)
-
 [Get Face Hatch Data (VBA)](Get_Face_Hatch_Data_Example_VB.htm)
 
 ## See Also
 
 [IFaceHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html)
-
 [IFaceHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch_members.html)
 
 ## Availability

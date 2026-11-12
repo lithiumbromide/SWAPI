@@ -9,8 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # MinElementsInCircle Property (ICWMesh)
 
-Gets or sets the minimum number of elements around a circle to determine the maximum
-angle in a curvature-based mesh.
+Gets or sets the minimum number of elements around a circle to determine the maximum angle in a curvature-based mesh.
 
 ## Syntax
 
@@ -52,34 +51,22 @@ Number of elements around a circle to determine the maximum angle
 
 ## VBA Syntax
 
-See
-
-[CWMesh::MinElementsInCircle](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~MinElementsInCircle.html)
-
-.
+See [CWMesh::MinElementsInCircle](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~MinElementsInCircle.html).
 
 ## Examples
 
 [Create Curvature-based Mesh (C#)](Create_Curvature-based_Mesh_Example_CSharp.htm)
-
 [Create Curvature-based Mesh (VB.NET)](Create_Curvature-based_Mesh_Example_VBNET.htm)
-
 [Create Curvature-based Mesh (VBA)](Create_Curvature-based_Mesh_Example_VB.htm)
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::MesherType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MesherType.html)
-
 [ICWMesh::GetDefaultMaxAndMinElementSize Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetDefaultMaxAndMinElementSize.html)
-
 [ICWMesh::GrowthRatio Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GrowthRatio.html)
-
 [ICWMesh::MaxElementSize Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MaxElementSize.html)
-
 [ICWMesh::MinElementSize Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MinElementSize.html)
 
 ## Availability

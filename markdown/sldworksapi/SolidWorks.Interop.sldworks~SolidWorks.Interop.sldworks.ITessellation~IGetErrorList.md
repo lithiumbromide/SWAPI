@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITe
 
 # IGetErrorList Method (ITessellation)
 
-Obsolete. Superseded by
-
-[ITessellation::IGetErrorList2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~IGetErrorList2.html)
-
-.
+Obsolete. Superseded by [ITessellation::IGetErrorList2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~IGetErrorList2.html).
 
 ## Syntax
 
@@ -66,13 +62,7 @@ void IGetErrorList(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -84,14 +74,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Tessellation::IGetErrorList](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetErrorList.html)
-
-.
+See [Tessellation::IGetErrorList](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetErrorList.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)

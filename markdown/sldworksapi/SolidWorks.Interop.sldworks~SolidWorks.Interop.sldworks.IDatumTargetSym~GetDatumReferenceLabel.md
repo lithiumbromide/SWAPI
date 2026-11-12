@@ -47,13 +47,7 @@ System.String^ GetDatumReferenceLabel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,18 @@ Datum reference label
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::GetDatumReferenceLabel](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetDatumReferenceLabel.html)
-
-.
+See [DatumTargetSym::GetDatumReferenceLabel](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~GetDatumReferenceLabel.html).
 
 ## Examples
 
 [Insert and Modify Datum Target Symbol (C#)](Insert_and_Modify_Datum_Target_Symbol_Example_CSharp.htm)
-
 [Insert and Modify Datum Target Symbol (VB.NET)](Insert_and_Modify_Datum_Target_Symbol_Example_VBNET.htm)
-
 [Insert and Modify Datum Target Symbol (VBA)](Insert_and_Modify_Datum_Target_Symbol_Example_VB.htm)
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [IDatumTargetSym::SetDatumReferenceLabel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym~SetDatumReferenceLabel.html)
 
 ## Availability

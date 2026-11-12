@@ -39,16 +39,11 @@ Array of the date and time that the message was sent
 
 ## Examples
 
-See the
-
-[IEdmMessage5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html)
-
-examples.
+See the [IEdmMessage5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html) examples.
 
 ## See Also
 
 [IEdmMessage5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html)
-
 [IEdmMessage5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5_members.html)
 
 ## Availability

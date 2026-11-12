@@ -52,26 +52,16 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~RemoveEntity.html)
-
-.
+See [CWBearingLoad::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~RemoveEntity.html).
 
 ## Remarks
 
-Call
-
-[ICWBearingLoad::GetEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBearingLoad~GetEntityCount.html)
-
-before calling this method to get a valid index.
+Call [ICWBearingLoad::GetEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBearingLoad~GetEntityCount.html) before calling this method to get a valid index.
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
-
 [ICWBearingLoad::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~InsertEntity.html)
 
 ## Availability

@@ -48,24 +48,15 @@ Component reference
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent10::ComponentReference](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent10~ComponentReference.html)
-
-.
+See [SwDMComponent10::ComponentReference](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent10~ComponentReference.html).
 
 ## Examples
 
-See the
-
-[ISwDMComponent10](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent10.html)
-
-examples.
+See the [ISwDMComponent10](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent10.html) examples.
 
 ## See Also
 
 [ISwDMComponent10 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent10.html)
-
 [ISwDMComponent10 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent10_members.html)
 
 ## Availability

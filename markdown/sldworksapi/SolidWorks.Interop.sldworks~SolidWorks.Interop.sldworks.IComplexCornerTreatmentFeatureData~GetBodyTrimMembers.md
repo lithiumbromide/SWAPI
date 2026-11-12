@@ -40,38 +40,23 @@ System.object GetBodyTrimMembers()
 System.Object^ GetBodyTrimMembers();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of body trim
-
-[IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)
-
-s
+Array of body trim [IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)s
 
 ## VBA Syntax
 
-See
-
-[ComplexCornerTreatmentFeatureData::GetBodyTrimMembers](ms-its:sldworksapivb6.chm::/sldworks~ComplexCornerTreatmentFeatureData~GetBodyTrimMembers.html)
-
-.
+See [ComplexCornerTreatmentFeatureData::GetBodyTrimMembers](ms-its:sldworksapivb6.chm::/sldworks~ComplexCornerTreatmentFeatureData~GetBodyTrimMembers.html).
 
 ## Examples
 
-See the[ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html)examples.
+See the [ICornerManagementFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerManagementFolder.html) examples.
 
 ## See Also
 
 [IComplexCornerTreatmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData.html)
-
 [IComplexCornerTreatmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComplexCornerTreatmentFeatureData_members.html)
 
 ## Availability

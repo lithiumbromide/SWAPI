@@ -9,10 +9,24 @@ source: "sldworksapi/Get_Number_of_Lines_Flat-pattern_Drawing_View_Boundary-box_
 
 # Get the Number of Lines in Flat-pattern Drawing View's Boundary-box Sketch (C#)
 
-This example shows how to get the number of lines in a flat-pattern drawing
-view's boundary-box sketch.
+This example shows how to get the number of lines in a flat-pattern drawing view's boundary-box sketch.
 
-//---------------------------------------------------------- // Preconditions: // 1. Open public_documents \samples\tutorial\api\SMGussetAPI.SLDPRT . // 2. Create a new drawing document. // 3. Select SMGussetAPI.SLDPRT in the View // Palette's dropdown list box. // 4. Open the Immediate window. // // Postconditions: // 1. Examine the Immediate window and the drawing. // 2. If necessary, drag the drawing onto the drawing sheet // and zoom in on the drawing view. // // NOTE: Because the part is used elsewhere, do not save // changes. //---------------------------------------------------------
+//----------------------------------------------------------
+// Preconditions:
+// 1. Open `public_documents`**\samples\tutorial\api\SMGussetAPI.SLDPRT**.
+// 2. Create a new drawing document.
+// 3. Select **SMGussetAPI.SLDPRT** in the View
+// Palette's dropdown list box.
+// 4. Open the Immediate window.
+//
+// Postconditions:
+// 1. Examine the Immediate window and the drawing.
+// 2. If necessary, drag the drawing onto the drawing sheet
+// and zoom in on the drawing view.
+//
+// NOTE: Because the part is used elsewhere, do not save
+// changes.
+//---------------------------------------------------------
 
 ```vb
   using SolidWorks.Interop.sldworks;

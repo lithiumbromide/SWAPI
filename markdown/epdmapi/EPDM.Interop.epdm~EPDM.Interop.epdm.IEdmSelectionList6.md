@@ -9,15 +9,9 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList6.html"
 
 # IEdmSelectionList6 Interface
 
-Allows you to access a list of objects of any[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html).
+Allows you to access a list of objects of any [EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html).
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -46,14 +40,9 @@ public interface class IEdmSelectionList6 : public IEdmSelectionList5
 
 ## Remarks
 
-This interface extends
-
-[IEdmSelectionList5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5.html)
-
-.
+This interface extends [IEdmSelectionList5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5.html).
 
 ## See Also
 
 [IEdmSelectionList6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList6_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

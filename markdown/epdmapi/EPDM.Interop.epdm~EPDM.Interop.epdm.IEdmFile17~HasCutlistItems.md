@@ -40,13 +40,11 @@ True if the file has cut list items, false if not
 ## Examples
 
 [Get File Information (VB.NET)](Get_File_Info_Example_VBNET.htm)
-
 [Get File Information (C#)](Get_File_Info_Example_CSharp.htm)
 
 ## See Also
 
 [IEdmFile17 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile17.html)
-
 [IEdmFile17 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile17_members.html)
 
 ## Availability

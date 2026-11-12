@@ -42,13 +42,7 @@ property System.int Count {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,20 +50,15 @@ Number of balloons in this balloon stack, excluding the master balloon
 
 ## VBA Syntax
 
-See
-
-[BalloonStack::Count](ms-its:sldworksapivb6.chm::/sldworks~BalloonStack~Count.html)
-
-.
+See [BalloonStack::Count](ms-its:sldworksapivb6.chm::/sldworks~BalloonStack~Count.html).
 
 ## Remarks
 
-This property does not count the master balloon in the stack, only the other stacked notes. Us[IBalloonStack::Master](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonStack~Master.html)to get the master balloon of the stack.
+This property does not count the master balloon in the stack, only the other stacked notes. Us [IBalloonStack::Master](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonStack~Master.html) to get the master balloon of the stack.
 
 ## See Also
 
 [IBalloonStack Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack.html)
-
 [IBalloonStack Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack_members.html)
 
 ## Availability

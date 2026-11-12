@@ -48,18 +48,12 @@ Number of users
 
 ## VBA Syntax
 
-See
-
-[PDMWUsers::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUsers~Count.html)
-
-.
+See [PDMWUsers::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWUsers~Count.html).
 
 ## See Also
 
 [IPDMWUsers Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUsers.html)
-
 [IPDMWUsers Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUsers_members.html)
-
 [IPDMWUsers::Item Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUsers~Item.html)
 
 ## Availability

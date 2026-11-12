@@ -46,26 +46,18 @@ System.int ConvertToBeamBody();
 
 ## VBA Syntax
 
-See
-
-[CWSolidBody::ConvertToBeamBody](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidBody~ConvertToBeamBody.html)
-
-.
+See [CWSolidBody::ConvertToBeamBody](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidBody~ConvertToBeamBody.html).
 
 ## Examples
 
 [Change Beam to Solid Body and Back (C#)](Change_Beam_to_Solid_Body_and_Back_Example_CSharp.htm)
-
 [Change Beam to Solid Body and Back (VB.NET)](Change_Beam_to_Solid_Body_and_Back_Example_VBNET.htm)
-
 [Change Beam to Solid Body and Back (VBA)](Change_Beam_to_Solid_Body_and_Back_Example_VB.htm)
 
 ## See Also
 
 [ICWSolidBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody.html)
-
 [ICWSolidBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody_members.html)
-
 [ICWBeamBody::ConvertToSolidBody Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~ConvertToSolidBody.html)
 
 ## Availability

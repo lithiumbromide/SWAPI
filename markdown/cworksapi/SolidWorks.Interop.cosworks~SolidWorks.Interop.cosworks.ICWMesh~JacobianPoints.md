@@ -47,33 +47,17 @@ property System.int JacobianPoints {
 
 ### Property Value
 
-Number of Jacobian points (see
-
-Remarks
-
-)
+Number of Jacobian points (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMesh::JacobianPoints](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~JacobianPoints.html)
-
-.
+See [CWMesh::JacobianPoints](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~JacobianPoints.html).
 
 ## Remarks
 
 This property:
 
-- is valid only if
-
-  [ICWMesh::Quality](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~Quality.html)
-
-  is set to
-
-  [swsMeshQuality_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshQuality_e.html)
-
-  .swsMeshQualityHigh.
+- is valid only if [ICWMesh::Quality](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~Quality.html) is set to [swsMeshQuality_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshQuality_e.html).swsMeshQualityHigh.
 - has 4 possible values:
 
   - 4 = Number of points inside the element tetrahedron near its vertices
@@ -83,44 +67,21 @@ This property:
 
 For more information, read:
 
-- The
-
-  Advanced
-
-  section of
-
-  Simulation > Meshing > Mesh PropertyManager
-
-  topic
+- The **Advanced** section of **Simulation > Meshing > Mesh PropertyManager** topic
 
 - and -
 
-- The
-
-  Jacobian Points
-
-  section of the
-
-  Simulation > Meshing >
-
-  Mesh Quality Checks
-
-  topic
+- The **Jacobian Points** section of the **Simulation > Meshing >** **Mesh Quality Checks** topic
 
 in the SOLIDWORKS help.
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GetWorstJacobianRatio Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetWorstJacobianRatio.html)
-
 [ICWMesh::NegativeJacobianRatioCheck Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~NegativeJacobianRatioCheck.html)
-
 [ICWMesh::UseJacobianCheckForShells Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~UseJacobianCheckForShells.html)
-
 [ICWMesh::UseJacobianCheckForSolids Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~UseJacobianCheckForSolids.html)
 
 ## Availability

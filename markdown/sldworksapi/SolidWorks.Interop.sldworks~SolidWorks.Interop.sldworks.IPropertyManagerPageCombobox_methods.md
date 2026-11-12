@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPropertyManagerPageCombobox Interface Methods
 
-For a list of all members of this type, see[IPropertyManagerPageCombobox members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox_members.html).
+For a list of all members of this type, see [IPropertyManagerPageCombobox members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox_members.html).
 
 ## Public Methods
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[IPropertyManagerPageCombobox members
 ## See Also
 
 [IPropertyManagerPageCombobox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

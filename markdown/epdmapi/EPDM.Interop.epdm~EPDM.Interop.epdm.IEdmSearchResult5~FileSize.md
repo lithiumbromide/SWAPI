@@ -39,16 +39,11 @@ Size of the file; -1 for folders
 
 ## Remarks
 
-For very large file size search results, use
-
-[IEdmSearchResult6::FileSize2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6~FileSize2.html)
-
-.
+For very large file size search results, use [IEdmSearchResult6::FileSize2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6~FileSize2.html).
 
 ## See Also
 
 [IEdmSearchResult5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5.html)
-
 [IEdmSearchResult5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5_members.html)
 
 ## Availability

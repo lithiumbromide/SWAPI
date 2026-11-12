@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetPropertyManagerPage Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISldWorks::CreatePropertyManagerPage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~CreatePropertyManagerPage.html)
-
-and
-
-[ISldWorks::ICreatePropertyManagerPage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ICreatePropertyManagerPage.html)
-
-.
+Obsolete. Superseded by [ISldWorks::CreatePropertyManagerPage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~CreatePropertyManagerPage.html) and [ISldWorks::ICreatePropertyManagerPage](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ICreatePropertyManagerPage.html).
 
 ## Syntax
 
@@ -63,13 +55,7 @@ PropertyManagerPage^ GetPropertyManagerPage(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetPropertyManagerPage](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetPropertyManagerPage.html)
-
-.
+See [ModelDoc2::GetPropertyManagerPage](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetPropertyManagerPage.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

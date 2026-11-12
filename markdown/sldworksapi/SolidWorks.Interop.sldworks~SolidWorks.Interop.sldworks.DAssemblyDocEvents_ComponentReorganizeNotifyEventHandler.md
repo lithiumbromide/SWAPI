@@ -46,13 +46,7 @@ public delegate System.int DAssemblyDocEvents_ComponentReorganizeNotifyEventHand
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,11 +55,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ComponentReorganizeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentReorganizeNotify_EV.html)
-
-.
+See [ComponentReorganizeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentReorganizeNotify_EV.html).
 
 ## Examples
 
@@ -73,11 +63,7 @@ See
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyComponentReorganizeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyComponentReorganizeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

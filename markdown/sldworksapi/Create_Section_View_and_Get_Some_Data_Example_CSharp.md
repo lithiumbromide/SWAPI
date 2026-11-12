@@ -26,25 +26,11 @@ This example creates a section view and sets and gets some of the section view's
  //--------------------------------------------------------------------------
 ```
 
-using
-
-System;
-
-using
-
-System.Diagnostics;
-
-using
-
-SolidWorks.Interop.sldworks;
-
-using
-
-SolidWorks.Interop.swconst;
-
-using
-
-System.Runtime.InteropServices;
+using System;
+using System.Diagnostics;
+using SolidWorks.Interop.sldworks;
+using SolidWorks.Interop.swconst;
+using System.Runtime.InteropServices;
 
 ```vb
  namespace CreateSectionView_CSharp.csproj

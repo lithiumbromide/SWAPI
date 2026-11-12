@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertDepthDimTol Interface Members
 
-The following tables list the members exposed by[IDimXpertDepthDimTol](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDepthDimTol.html).
+The following tables list the members exposed by [IDimXpertDepthDimTol](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDepthDimTol.html).
 
 ## Public Properties
 
@@ -30,5 +30,4 @@ The following tables list the members exposed by[IDimXpertDepthDimTol](SolidWork
 ## See Also
 
 [IDimXpertDepthDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDepthDimTol.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

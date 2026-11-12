@@ -45,13 +45,7 @@ property System.String^ Text {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Text for the box
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageTextbox::Text](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageTextbox~Text.html)
-
-.
+See [PropertyManagerPageTextbox::Text](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageTextbox~Text.html).
 
 ## See Also
 
 [IPropertyManagerPageTextbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageTextbox.html)
-
 [IPropertyManagerPageTextbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageTextbox_members.html)
 
 ## Availability

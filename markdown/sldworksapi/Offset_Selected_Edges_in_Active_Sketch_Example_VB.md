@@ -9,8 +9,7 @@ source: "sldworksapi/Offset_Selected_Edges_in_Active_Sketch_Example_VB.htm"
 
 # Offset Selected Edges in Active Sketch Example (VBA)
 
-This example shows how to offset the selected edges to generate geometry
-in the active sketch.
+This example shows how to offset the selected edges to generate geometry in the active sketch.
 
 ```
 '----------------------------------------------

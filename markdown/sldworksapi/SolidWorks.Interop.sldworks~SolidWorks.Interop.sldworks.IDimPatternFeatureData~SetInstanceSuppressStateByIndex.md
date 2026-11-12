@@ -51,21 +51,11 @@ System.String^ SetInstanceSuppressStateByIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TableRowIndex`: Index of the pattern instance in the pattern table to suppress (see
-
-Remarks
-
-)
+- `TableRowIndex`: Index of the pattern instance in the pattern table to suppress (see **Remarks**)
 - `SuppressState`: True to suppress the pattern instance, false to not
 
 ### Return Value
@@ -77,30 +67,18 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::SetInstanceSuppressStateByIndex](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~SetInstanceSuppressStateByIndex.html)
-
-.
+See [DimPatternFeatureData::SetInstanceSuppressStateByIndex](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~SetInstanceSuppressStateByIndex.html).
 
 ## Remarks
 
-Use
-
-[IDimPatternFeatureData::GetTableRowIndex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetTableRowIndex.html)
-
-to get TableRowIndex.
+Use [IDimPatternFeatureData::GetTableRowIndex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetTableRowIndex.html) to get TableRowIndex.
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
-
 [IDimPatternFeatureData::GetInstanceSuppressStateByIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceSuppressStateByIndex.html)
-
 [IDimPatternFeatureData::GetInstanceSuppressStateByName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceSuppressStateByName.html)
-
 [IDimPatternFeatureData::SetInstanceSuppressStateByName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~SetInstanceSuppressStateByName.html)
 
 ## Availability

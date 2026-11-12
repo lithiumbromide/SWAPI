@@ -40,25 +40,15 @@ Curve IReverseCurve()
 Curve^ IReverseCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the reversed[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+Pointer to the reversed [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 
 ## VBA Syntax
 
-See
-
-[Curve::IReverseCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~IReverseCurve.html)
-
-.
+See [Curve::IReverseCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~IReverseCurve.html).
 
 ## Remarks
 
@@ -67,9 +57,6 @@ If this is a trimmed curve, then the underlying curve is reversed and a new trim
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::ReverseCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~ReverseCurve.html)
-
 [ICurve::IsTrimmedCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IsTrimmedCurve.html)

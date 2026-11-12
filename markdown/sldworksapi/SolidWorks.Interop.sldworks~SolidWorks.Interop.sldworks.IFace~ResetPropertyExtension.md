@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # ResetPropertyExtension Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::ResetPropertyExtension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ResetPropertyExtension.html)
-
-.
+Obsolete. Superseded by [IFace2::ResetPropertyExtension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~ResetPropertyExtension.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ResetPropertyExtension()
 void ResetPropertyExtension();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::ResetPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~Face~ResetPropertyExtension.html)
-
-.
+See [Face::ResetPropertyExtension](ms-its:sldworksapivb6.chm::/sldworks~Face~ResetPropertyExtension.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

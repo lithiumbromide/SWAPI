@@ -52,20 +52,13 @@ void DeleteShell(
 
 ## VBA Syntax
 
-See
-
-[CWShellManager::DeleteShell](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShellManager~DeleteShell.html)
-
-.
+See [CWShellManager::DeleteShell](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShellManager~DeleteShell.html).
 
 ## See Also
 
 [ICWShellManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager.html)
-
 [ICWShellManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager_members.html)
-
 [ICWShell::Name Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~Name.html)
-
 [ICWShellManager::CreateShell Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShellManager~CreateShell.html)
 
 ## Availability

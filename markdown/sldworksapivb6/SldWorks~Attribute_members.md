@@ -1,6 +1,5 @@
 ---
-title: "Attribute Object
-Members"
+title: "Attribute Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Attribute_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Attribute_members.html"
 ---
 
-# Attribute Object
-Members
+# Attribute Object Members
 
 ## Public Methods
 

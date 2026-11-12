@@ -13,12 +13,12 @@ This example shows how to import and repair a STEP file.
 
 ```
 '-------------------------------------------------------------------------------
-' Preconditions: Verify that the specified SOLIDWORKS part document to open exists.
+' Preconditions: Verify that the specified SOLIDWORKS Design part document to open exists.
 '
 ' Postconditions:
-' 1. Opens the specified SOLIDWORKS part document.
-' 2. Saves the SOLIDWORKS part document as a STEP file.
-' 3. Closes the SOLIDWORKS part document.
+' 1. Opens the specified SOLIDWORKS Design part document.
+' 2. Saves the part document as a STEP file.
+' 3. Closes the part document.
 ' 4. Imports the STEP file created in step 2.
 ' 5. Runs import diagnostics on the STEP file and repairs any bad faces.
 ' 6. Creates Imported1 in the FeatureManager design tree.
@@ -43,13 +43,13 @@ Partial Class SolidWorksMacro
         Dim fileName As String
         Dim stepFileName As String
 
-        'Open the SOLIDWORKS part document to export to a STEP file
+        'Open the part document to export to a STEP file
         fileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2019\samples\tutorial\api\db9 male.sldprt"
         swPart = swApp.OpenDoc6(fileName, swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
         swModel = swPart
         swModelDocExt = swModel.Extension
 
-        'Export the SOLIDWORKS part document to a STEP file
+        'Export the part document to a STEP file
         stepFileName = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2019\samples\tutorial\api\db9 male.STEP"
         status = swModelDocExt.SaveAs(stepFileName, 0, swSaveAsOptions_e.swSaveAsOptions_Silent, Nothing, errors, warnings)
         swPart = Nothing

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # IMate2 Interface Properties
 
-For a list of all members of this type, see[IMate2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html).
+For a list of all members of this type, see [IMate2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html).
 
 ## Public Properties
 
@@ -36,11 +36,7 @@ For a list of all members of this type, see[IMate2 members](SolidWorks.Interop.s
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMateEntity2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateEntity2.html)
-
 [IMateLoadReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateLoadReference.html)
-
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)

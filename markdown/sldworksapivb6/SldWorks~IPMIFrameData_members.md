@@ -1,6 +1,5 @@
 ---
-title: "IPMIFrameData Object
-Members"
+title: "IPMIFrameData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IPMIFrameData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IPMIFrameData_members.html"
 ---
 
-# IPMIFrameData Object
-Members
+# IPMIFrameData Object Members
 
 ## Public Methods
 

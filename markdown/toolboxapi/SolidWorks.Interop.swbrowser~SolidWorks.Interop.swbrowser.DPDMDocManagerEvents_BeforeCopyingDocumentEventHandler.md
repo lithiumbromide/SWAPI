@@ -49,13 +49,7 @@ public delegate System.int DPDMDocManagerEvents_BeforeCopyingDocumentEventHandle
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndC++CLI.html)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndC++CLI.html).
 
 ### Parameters
 
@@ -65,19 +59,11 @@ See
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[BeforeCopyingDocument Event (PDMDocManager)](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~BeforeCopyingDocument_EV.html)
-
-.
+See [BeforeCopyingDocument Event (PDMDocManager)](ms-its:toolboxapivb6.chm::/ToolboxBrowser~PDMDocManager~BeforeCopyingDocument_EV.html).
 
 ## Examples
 
-See
-
-[Getting Started](GettingStarted-toolboxapi.html)
-
-for more information.
+See [Getting Started](GettingStarted-toolboxapi.html) for more information.
 
 ## Availability
 

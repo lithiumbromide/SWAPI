@@ -41,26 +41,16 @@ void RemoveAllVertices();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyMinimizeMaximumDisplacementGoal::RemoveAllVertices](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMinimizeMaximumDisplacementGoal~RemoveAllVertices.html)
-
-.
+See [CWTopologyMinimizeMaximumDisplacementGoal::RemoveAllVertices](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMinimizeMaximumDisplacementGoal~RemoveAllVertices.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyMinimizeMaximumDisplacementGoal](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal.html)
-
-example.
+See the [ICWTopologyMinimizeMaximumDisplacementGoal](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal.html) example.
 
 ## See Also
 
 [ICWTopologyMinimizeMaximumDisplacementGoal Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal.html)
-
 [ICWTopologyMinimizeMaximumDisplacementGoal Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal_members.html)
-
 [ICWTopologyMinimizeMaximumDisplacementGoal::SetVertices Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal~SetVertices.html)
 
 ## Availability

@@ -68,32 +68,20 @@ System.int SetStudyAssociationData(
 
 ### Return Value
 
-Error code as defined in
-
-[swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
+Error code as defined in [swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWFatigueEvent::SetStudyAssociationData](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~SetStudyAssociationData.html)
-
-.
+See [CWFatigueEvent::SetStudyAssociationData](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~SetStudyAssociationData.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
-examples.
+See the [ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html) examples.
 
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueEvent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html)
-
 [ICWFatigueEvent::GetStudyAssociationData Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent~GetStudyAssociationData.html)
 
 ## Availability

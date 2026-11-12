@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # IAddTrimmingLoop Method (ISurface)
 
-Obsolete. Superseded by
-
-[ISurface::IAddTrimmingLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IAddTrimmingLoop2.html)
-
-.
+Obsolete. Superseded by [ISurface::IAddTrimmingLoop2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IAddTrimmingLoop2.html).
 
 ## Syntax
 
@@ -78,13 +74,7 @@ void IAddTrimmingLoop(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -99,14 +89,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Surface::IAddTrimmingLoop](ms-its:sldworksapivb6.chm::/sldworks~Surface~IAddTrimmingLoop.html)
-
-.
+See [Surface::IAddTrimmingLoop](ms-its:sldworksapivb6.chm::/sldworks~Surface~IAddTrimmingLoop.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)

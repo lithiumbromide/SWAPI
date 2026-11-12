@@ -40,13 +40,7 @@ System.int GetRotationDir()
 System.int GetRotationDir();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Rotation direction (counterclockwise = 1, clockwise = -1)
 
 ## VBA Syntax
 
-See
-
-[SketchEllipse::GetRotationDir](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~GetRotationDir.html)
-
-.
+See [SketchEllipse::GetRotationDir](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~GetRotationDir.html).
 
 ## Remarks
 
@@ -67,7 +57,6 @@ This method determines the direction (counterclockwise or clockwise) that the sk
 ## See Also
 
 [ISketchEllipse Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
 [ISketchEllipse Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse_members.html)
 
 ## Availability

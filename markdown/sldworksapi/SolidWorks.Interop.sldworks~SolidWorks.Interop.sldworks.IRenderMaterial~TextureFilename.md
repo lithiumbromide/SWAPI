@@ -45,13 +45,7 @@ property System.String^ TextureFilename {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Path and filename of the texture
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::TextureFilename](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~TextureFilename.html)
-
-.
+See [RenderMaterial::TextureFilename](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~TextureFilename.html).
 
 ## Examples
 
-See the "Add Decal" examples in
-
-[IRenderMaterial::FileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~FileName.html)
-
-.
+See the "Add Decal" examples in [IRenderMaterial::FileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~FileName.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

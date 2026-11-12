@@ -53,17 +53,11 @@ PDMWGroup^ CreateGroup(
 
 ### Return Value
 
-[IPDMWGroup](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup.html)
-
-object
+[IPDMWGroup](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup.html) object
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::CreateGroup](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~CreateGroup.html)
-
-.
+See [PDMWConnection::CreateGroup](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~CreateGroup.html).
 
 ## Remarks
 
@@ -72,9 +66,7 @@ Only a vault administrator can use this method.
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
-
 [IPDMWConnection::DeleteGroup Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteGroup.html)
 
 ## Availability

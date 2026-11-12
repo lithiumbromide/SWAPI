@@ -40,13 +40,7 @@ System.object GetFace()
 System.Object^ GetFace();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ See
 
 ## VBA Syntax
 
-See
-
-[Loop2::GetFace](ms-its:sldworksapivb6.chm::/sldworks~Loop2~GetFace.html)
-
-.
+See [Loop2::GetFace](ms-its:sldworksapivb6.chm::/sldworks~Loop2~GetFace.html).
 
 ## Examples
 
 [Determine Type of Face (VBA)](Determine_Type_of_Face_Example_VB.htm)
-
 [Select Loop of Edges (VBA)](Select_Loop_of_Edges_Example_VB_.htm)
-
 [Select Tangent Faces (VBA)](Select_Tangent_Faces_Example_VB.htm)
-
 [Select Edges of All Holes on Face (C#)](Select_Edges_of_All_Holes_on_Face_Example_CSharp.htm)
-
 [Select Edges of All Holes on Face (VB.NET)](Select_Edges_of_All_Holes_on_Face_Example_VBNET.htm)
-
 [Select Edges of All Holes on Face (VBA)](Select_Edges_of_All_Holes_on_Face_Example_VB.htm)
 
 ## See Also
 
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
 [ILoop2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2_members.html)
-
 [ILoop2::IGetFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2~IGetFace.html)
 
 ## Availability

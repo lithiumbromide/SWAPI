@@ -11,13 +11,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLi
 
 Provides access to a link object. A link contains basic information about a referenced document.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class IPDMWLink
 
 ## VBA Syntax
 
-See
-
-[PDMWLink](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink.html)
-
-.
+See [PDMWLink](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink.html).
 
 ## Examples
 
@@ -64,7 +54,5 @@ See
 ## See Also
 
 [IPDMWLink Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWLinks Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)

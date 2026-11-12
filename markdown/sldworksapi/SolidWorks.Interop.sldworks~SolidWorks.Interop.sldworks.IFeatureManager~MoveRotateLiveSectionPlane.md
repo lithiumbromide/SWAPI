@@ -79,19 +79,13 @@ System.bool MoveRotateLiveSectionPlane(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Feat`: Name of the Live Section Plane as it appears in the FeatureManager design tree
 - `Type`: - 0 = Move only, then (XorDeltaX, YorDeltaY, and ZorDeltaZ) is delta vector
-- 1 = Rotate only, then (XorDeltaX, YorDeltaY, and ZorDeltaZ) is the pivot point for rotation, (axisX, axisY, axisZ) is rotating axis
+  - 1 = Rotate only, then (XorDeltaX, YorDeltaY, and ZorDeltaZ) is the pivot point for rotation, (axisX, axisY, axisZ) is rotating axis
 - `XorDeltaX`: Delta X
 - `YorDeltaY`: Delta Y
 - `ZorDeltaZ`: Delta Z
@@ -106,18 +100,12 @@ True if the Live Section Plane moves or rotates, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::MoveRotateLiveSectionPlane](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MoveRotateLiveSectionPlane.html)
-
-.
+See [FeatureManager::MoveRotateLiveSectionPlane](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~MoveRotateLiveSectionPlane.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertLiveSectionPlane Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertLiveSectionPlane.html)
 
 ## Availability

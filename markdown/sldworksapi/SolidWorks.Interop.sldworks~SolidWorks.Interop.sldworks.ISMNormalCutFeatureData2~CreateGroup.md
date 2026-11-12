@@ -47,19 +47,11 @@ System.Object^ CreateGroup(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ErrCode`: Error code as defined in
-
-[swNormalCutErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNormalCutErrors_e.html)
+- `ErrCode`: Error code as defined in [swNormalCutErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNormalCutErrors_e.html)
 
 ### Return Value
 
@@ -67,24 +59,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData2::CreateGroup](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~CreateGroup.html)
-
-.
+See [SMNormalCutFeatureData2::CreateGroup](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~CreateGroup.html).
 
 ## Examples
 
-See the
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-example.
+See the [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html) example.
 
 ## See Also
 
 [ISMNormalCutFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
 [ISMNormalCutFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html)
 
 ## Availability

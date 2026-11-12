@@ -9,7 +9,7 @@ source: "sldworksapi/Get_Named_Entities_Example_VB.htm"
 
 # Get Named Entities Example (VBA)
 
-This example shows how to get named entities.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+This example shows how to get named entities.
 
 ```
 '-----------------------------------------------

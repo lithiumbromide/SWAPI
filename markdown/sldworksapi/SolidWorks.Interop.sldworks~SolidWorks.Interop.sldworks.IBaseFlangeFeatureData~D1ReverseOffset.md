@@ -45,13 +45,7 @@ property System.bool D1ReverseOffset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True reverses the offset, false does not
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::D1ReverseOffset](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D1ReverseOffset.html)
-
-.
+See [BaseFlangeFeatureData::D1ReverseOffset](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D1ReverseOffset.html).
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::D2ReverseOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~D2ReverseOffset.html)
 
 ## Availability

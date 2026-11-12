@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 Allows access to a sheet metal sketched bend feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,39 +41,21 @@ public interface class ISketchedBendFeatureData
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData.html)
-
-.
+See [SketchedBendFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData.html).
 
 ## Examples
 
-For examples that demonstrate the remodeled feature creation of sheet metal sketched bends, see
-
-[ISketchedBendFeatureData::OverrideValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~OverrideValue.html)
-
-and
-
-[ISketchedBendFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseGaugeTable.html)
-
-.
+For examples that demonstrate the remodeled feature creation of sheet metal sketched bends, see [ISketchedBendFeatureData::OverrideValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~OverrideValue.html) and [ISketchedBendFeatureData::UseGaugeTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~UseGaugeTable.html).
 
 ## Examples
 
 [Get All Sheet Metal Feature Data (VBA)](Get_All_Sheet_Metal_Feature_Data_Example_VB.htm)
-
 [Get All Sheet Metal Feature Data (VB.NET)](Get_All_Sheet_Metal_Feature_Data_Example_VBNET.htm)
-
 [Get All Sheet Metal Feature Data (C#)](Get_All_Sheet_Metal_Feature_Data_Example_CSharp.htm)
 
 ## Remarks
 
-For details about sheet metal sketched bends, see the
-
-SOLIDWORKS user-interface help > Sheet Metal > Using Sheet Metal Tools > Sketched Bends
-
-topic.
+For details about sheet metal sketched bends, see the **SOLIDWORKS Design user-interface help > Sheet Metal > Using Sheet Metal Tools > Sketched Bends** topic.
 
 ## Accessors
 
@@ -88,7 +70,5 @@ topic.
 ## See Also
 
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)

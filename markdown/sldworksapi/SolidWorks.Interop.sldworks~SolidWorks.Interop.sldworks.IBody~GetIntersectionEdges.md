@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # GetIntersectionEdges Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::GetIntersectionEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetIntersectionEdges.html)
-
-.
+Obsolete. Superseded by [IBody2::GetIntersectionEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetIntersectionEdges.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetIntersectionEdges(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body::GetIntersectionEdges](ms-its:sldworksapivb6.chm::/sldworks~Body~GetIntersectionEdges.html)
-
-.
+See [Body::GetIntersectionEdges](ms-its:sldworksapivb6.chm::/sldworks~Body~GetIntersectionEdges.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

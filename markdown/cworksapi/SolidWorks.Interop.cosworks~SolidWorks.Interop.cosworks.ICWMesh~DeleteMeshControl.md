@@ -52,24 +52,15 @@ void DeleteMeshControl(
 
 ## VBA Syntax
 
-See
-
-[CWMesh::DeleteMeshControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~DeleteMeshControl.html)
-
-.
+See [CWMesh::DeleteMeshControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~DeleteMeshControl.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMeshControl::Name Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~Name.html)
-
 [ICWMesh::ApplyMeshControl Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~ApplyMeshControl.html)
-
 [ICWMesh::MeshControlCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MeshControlCount.html)
-
 [ICWMesh::AutomaticTransition Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~AutomaticTransition.html)
 
 ## Availability

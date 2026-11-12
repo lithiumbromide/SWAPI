@@ -1,0 +1,56 @@
+<<< ISWDesignCheck | dsgnchkapi/SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck.md
+X: See Accessing SOLIDWORKS Add-in Objects.
+<<< ISWDesignCheck.CheckAgainstExistingFile | dsgnchkapi/SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck~CheckAgainstExistingFile.md
+X: This method launches a dialog from which to choose a file. After the file is selected, Check Builder launches and creates checks from it. After the checks are built, Design Checker validates the active document against the checks and displays the results on a tab in the SOLIDWORKS Task Pane.
+<<< ISWDesignCheck.CreateChecksFromSWFile | dsgnchkapi/SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck~CreateChecksFromSWFile.md
+P: bstrSWFileName: Full path name of an existing SOLIDWORKS document or template (see Remarks)
+R: Error code as defined in dsgnchkError_e
+X: This method can build checks from any of the following types of document:
+- DWG (*.dwg),
+- Part (*.prt,*.sldprt)
+- Assembly (*.asm,*.sldasm)
+- Drawing (*.drw,*.slddrw)
+- Template (*.prtdot,*.asmdot,*.drwdot)
+- Drafting Standard (*.sldstd)
+<<< ISWDesignCheck.RunDesignCheck5 | dsgnchkapi/SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck~RunDesignCheck5.md
+P: StandardFileName: Path and filename of SOLIDWORKS Design Checker standards document
+P: ReportFolderName: Path and folder name for report
+P: AddReportToDesignBinder: True to add the report to the Design Binder, false to not (see Remarks)
+P: OverWriteReport: True to overwrite any existing report of the same name in the Design Binder, false to not
+P: AutoCorrect: True to autocorrect all failures discovered by Design Checker, false to not (see Remarks)
+P: lReportFormat: 0=XML format, 1=Microsoft Word format (see Remarks)
+P: ResultSummary: Failure counts
+R: Error code as defined in dsgnchkError_e
+X: | If lReportFormat is set to... | Then ReportFolderName directory contains... | lReportFormat returns... |
+| 0 | SWDCReport.xml and SWDCReport.xsl | 0 |
+| 1 | SWDCReport.doc (if Microsoft Word is installed) SWDCReport.xml and SWDCReport.xsl (if Microsoft Word is not installed) | 1 0 |
+| If AutoCorrect is set to... | Then ResultSummary contains... |
+| False | Failure counts delimited by the at symbol (@): Critical#@High#@Medium#@Low# |
+| True | Pre- and post-correction failure counts delimited by the at symbol (@): Critical#(pre)@High#(pre)@Medium#(pre)@Low#(pre)@Critical#(post)@High#(post)@Medium#(post)@Low#(post) Only failures that were found after the correction cycle display in the report. |
+If AddReportToDesignBinder is set to true, then the SOLIDWORKS FeatureManager Design Binder contains <ReportFolderName>.drp.
+<<< ISWDesignCheck.SetCustomCheckResult | dsgnchkapi/SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck~SetCustomCheckResult.md
+P: vbIsCheckPassed: True to add your Custom Check to the Passed Checks results list and ignore sfArrayFailedItems, false to add your Custom Check to the Failed Checks results list and list sfArrayFailedItems
+P: sfArrayFailedItems: Array of strings of failed items found by your SOLIDWORKS Design Checker Custom Check validation macro; array name must be enclosed within parentheses (see Example and Remarks)
+R: One of the following dsgnchkError_e enumerators: - 0 = dsgnchkNOErr - 8 = dsgnchkInvalidCallToAPI
+X: 1. Create a Custom Check validation macro. Guidelines for creating this macro appear below. Additionally an example is linked to this topic that you can examine and test.
+2. Register the Custom Check macro with SOLIDWORKS Design Checker. See the SOLIDWORKS SOLIDWORKS Design Checker Help for details on how to register the macro. The macro is stored with the standards file.
+3. Check the document in SOLIDWORKS Design Checker using the standards file in which the Custom Check validation macro is stored.
+Guidelines for creating a Custom Check validation macro:
+- You can record the macro using a SOLIDWORKS macro recorder.
+- You can have multiple procedures in your Custom Check validation macro.
+- Only a zero-argument Custom Check procedure is supported.
+If your Custom Check validation macro returns true, then your Custom Check validation macro passed; if your Custom Check validation macro returns false, then your Custom Check validation macro failed. If you provide fully qualified names of the failed items, then these items can be shown highlighted when a user selects them in the results list by using a double array of strings with these characteristics:
+- Array has two dimensions.
+- Upper dimension contains the size (number) of failed items,and the lower dimension has a size of 2. For example:
+' Enumerators Dim FailedItemsArr As String ReDim FailedItemsArr(0 To 2, 0 To 1) As String
+' Enumerators
+- 0 To 2: reflects the upper dimension size (3) and means that there are 3 failures in the result.
+- 0 To 1: reflects the lower dimension size (2) means that the lower dimension size is 2.
+- It is not mandatory for the array to start with 0; the array can start with any dimension; e.g., (1 To 10) or (11 To 15) or (-5 To -2), etc.
+- In the (X,0) positions of the array, you must pass the failed item's name. In the (X,1) positions of the array, you must pass the failed item's type string as defined in swSelectType_e. For example:
+' Dimension FailedItemsArr(0, 0) = "RD2@Drawing View2" FailedItemsArr(0, 1) = "DIMENSION" FailedItemsArr(1, 0) = "RD1@Drawing View4" FailedItemsArr(1, 1) = "DIMENSION" FailedItemsArr(2, 0) = "My Failed Item 3" FailedItemsArr(2, 1) = "Annotation"
+' Dimension
+- Having a two-dimensional array or filling (X,1) positions is not mandatory.
+- You can have a single-dimensional array and fill it with strings (i.e., failed entity names).
+- If the type of failed entity is not the specified entity, then it is not shown as selected.
+- If the type of failed entity is not specified or is incorrect, then it is ignored.

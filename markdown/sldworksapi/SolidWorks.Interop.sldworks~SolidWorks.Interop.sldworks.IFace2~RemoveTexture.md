@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # RemoveTexture Method (IFace2)
 
-Obsolete. Superseded by
-
-[IFace2::RemoveTexture2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~RemoveTexture2.html)
-
-.
+Obsolete. Superseded by [IFace2::RemoveTexture2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~RemoveTexture2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool RemoveTexture(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,30 +55,20 @@ See
 
 ### Return Value
 
-True if texture is removed, false if notParamDesc
+True if texture is removed, false if not
 
 ## VBA Syntax
 
-See
-
-[Face2::RemoveTexture](ms-its:sldworksapivb6.chm::/sldworks~Face2~RemoveTexture.html)
-
-.
+See [Face2::RemoveTexture](ms-its:sldworksapivb6.chm::/sldworks~Face2~RemoveTexture.html).
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::GetTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTexture.html)
-
 [IFace2::SetTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~SetTexture.html)
-
 [IFace2::RemoveTextureByDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~RemoveTextureByDisplayState.html)
-
 [IFace2::SetTextureByDisplayState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~SetTextureByDisplayState.html)
-
 [IModelDocExtension::CreateTexture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~CreateTexture.html)
 
 ## Availability

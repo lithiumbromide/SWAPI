@@ -1,6 +1,5 @@
 ---
-title: "SwQuickTip Object
-Members"
+title: "SwQuickTip Object Members"
 project: "SOLIDWORKS Custom Interfaces Type Library"
 interface: "SwQuickTip_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swpublishedapivb6/SWPublished~SwQuickTip_members.html"
 ---
 
-# SwQuickTip Object
-Members
+# SwQuickTip Object Members
 
 ## Public Methods
 

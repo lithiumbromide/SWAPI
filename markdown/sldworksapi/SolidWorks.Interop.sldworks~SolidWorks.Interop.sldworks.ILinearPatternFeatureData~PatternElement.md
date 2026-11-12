@@ -45,34 +45,20 @@ property System.int PatternElement {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of entities on which to base this linear pattern as defined in
-
-[swPatternElementSelection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternElementSelection_e.html)
+Type of entities on which to base this linear pattern as defined in [swPatternElementSelection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternElementSelection_e.html)
 
 ## VBA Syntax
 
-See
-
-[LinearPatternFeatureData::PatternElement](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~PatternElement.html)
-
-.
+See [LinearPatternFeatureData::PatternElement](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~PatternElement.html).
 
 ## See Also
 
 [ILinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
 [ILinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData_members.html)
-
 [ILinearPatternFeatureData::BodyPattern Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~BodyPattern.html)
 
 ## Availability

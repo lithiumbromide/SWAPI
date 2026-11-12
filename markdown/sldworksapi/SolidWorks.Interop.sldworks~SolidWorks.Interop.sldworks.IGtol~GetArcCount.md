@@ -40,13 +40,7 @@ System.int GetArcCount()
 System.int GetArcCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,11 @@ Number of arcs
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetArcCount.html)
-
-.
+See [Gtol::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetArcCount.html).
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetArcAtIndex.html)
-
 [IGtol::IGetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetArcAtIndex.html)

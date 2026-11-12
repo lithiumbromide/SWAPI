@@ -45,13 +45,7 @@ property System.int NumberOfPlanes {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Number of slicing planes
 
 ## VBA Syntax
 
-See
-
-[SlicingData::NumberOfPlanes](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~NumberOfPlanes.html)
-
-.
+See [SlicingData::NumberOfPlanes](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~NumberOfPlanes.html).
 
 ## Examples
 
-See the
-
-[ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
-example.
+See the [ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html) example.
 
 ## Remarks
 
@@ -80,9 +66,7 @@ The number of slicing planes cannot exceed 100.
 ## See Also
 
 [ISlicingData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
 [ISlicingData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html)
-
 [ISlicingData::PlaneReferences Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData~PlaneReferences.html)
 
 ## Availability

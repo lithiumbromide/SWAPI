@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # IGetOLEObjectData Method (ISheet)
 
-Obsolete. Superseded by
-
-[ISwOLEObject](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject.html)
-
-.
+Obsolete. Superseded by [ISwOLEObject](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool IGetOLEObjectData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sheet::IGetOLEObjectData](ms-its:sldworksapivb6.chm::/sldworks~Sheet~IGetOLEObjectData.html)
-
-.
+See [Sheet::IGetOLEObjectData](ms-its:sldworksapivb6.chm::/sldworks~Sheet~IGetOLEObjectData.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)

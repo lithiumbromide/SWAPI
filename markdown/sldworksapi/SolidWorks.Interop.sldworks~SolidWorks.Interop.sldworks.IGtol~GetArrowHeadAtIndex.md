@@ -47,13 +47,7 @@ System.Object^ GetArrowHeadAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,19 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetArrowHeadAtIndex.html)
-
-.
+See [Gtol::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetArrowHeadAtIndex.html).
 
 ## Remarks
 
 The return value is an array of doubles in the following format:
 
-[arrowHeadPt[3],arrowHeadDir[3],arrowHeadWidth,arrowHeadHeight,arrowHeadStyle]
+[ arrowHeadPt[3], arrowHeadDir[3], arrowHeadWidth, arrowHeadHeight, arrowHeadStyle ]
 
 where:
-
-(Table)=========================================================
 
 | arrowHeadPt [3] | XYZ arrow head tip location |
 | --- | --- |
@@ -91,13 +79,8 @@ where:
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::IGetArrowHeadAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetArrowHeadAtIndex.html)
-
 [IGtol::GetArrowHeadCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetArrowHeadCount.html)
-
 [IGtol::GetArrowHeadInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetArrowHeadInfo.html)
-
 [IGtol::IGetArrowHeadInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetArrowHeadInfo.html)

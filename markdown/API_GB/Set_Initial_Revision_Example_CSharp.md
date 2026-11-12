@@ -9,12 +9,9 @@ source: "API_GB/Set_Initial_Revision_Example_CSharp.htm"
 
 # Set Initial Revision Example (C#)
 
-This example shows how to set the initial revision of a
-file.
+This example shows how to set the initial revision of a file.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //--------------------------------------------------------------------------------------

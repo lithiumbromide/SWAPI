@@ -1,6 +1,5 @@
 ---
-title: "SecondaryMemberUpToMembersFeatureData Object
-Members"
+title: "SecondaryMemberUpToMembersFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SecondaryMemberUpToMembersFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SecondaryMemberUpToMembersFeatureData_members.html"
 ---
 
-# SecondaryMemberUpToMembersFeatureData Object
-Members
+# SecondaryMemberUpToMembersFeatureData Object Members
 
 ## Public Methods
 

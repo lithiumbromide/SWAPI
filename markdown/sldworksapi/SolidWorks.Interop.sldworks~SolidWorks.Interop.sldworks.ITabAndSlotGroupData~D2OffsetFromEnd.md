@@ -45,13 +45,7 @@ property System.double D2OffsetFromEnd {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ Distance from the edge where to end the tabs and slots
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::D2OffsetFromEnd](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~D2OffsetFromEnd.html)
-
-.
+See [TabAndSlotGroupData::D2OffsetFromEnd](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~D2OffsetFromEnd.html).
 
 ## Remarks
 
-This method is valid only if[ITabAndSlotGroupData::Offset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~Offset.html)is set to true.
+This method is valid only if [ITabAndSlotGroupData::Offset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~Offset.html) is set to true.
 
-If you want the tabs/slots to span the entire edge of the model, set both this property and[ITabAndSlotGroupData::D2OffsetFromStart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~D1OffsetFromStart.html)to zero.
+If you want the tabs/slots to span the entire edge of the model, set both this property and [ITabAndSlotGroupData::D2OffsetFromStart](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~D1OffsetFromStart.html) to zero.
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

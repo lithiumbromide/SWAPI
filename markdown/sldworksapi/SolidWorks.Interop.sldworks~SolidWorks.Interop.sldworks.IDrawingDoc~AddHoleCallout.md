@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # AddHoleCallout Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::AddHoleCallout2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~AddHoleCallout2.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::AddHoleCallout2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~AddHoleCallout2.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void AddHoleCallout()
 void AddHoleCallout();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::AddHoleCallout](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AddHoleCallout.html)
-
-.
+See [DrawingDoc::AddHoleCallout](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AddHoleCallout.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

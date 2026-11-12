@@ -9,8 +9,6 @@ source: "swconst/ToolsSketchToolsTrim.htm"
 
 # Tools > Sketch Tools > Trim
 
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < OnFlag > | Comments |
 | --- | --- | --- | --- |
 | Keep trimmed entities as construction geometry | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swMakeTrimEntityConstruction) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swMakeTrimEntityConstruction, <OnFlag> ) | Boolean value |  |

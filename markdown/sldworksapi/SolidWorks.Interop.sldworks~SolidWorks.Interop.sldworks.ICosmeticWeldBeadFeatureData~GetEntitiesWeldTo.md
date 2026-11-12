@@ -47,58 +47,32 @@ System.Object^ GetEntitiesWeldTo(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EntType`: Weld-to entity type as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html)
-
-; i.e., either swSelFACES or swSelEDGES
+- `EntType`: Weld-to entity type as defined in [swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html); i.e., either swSelFACES or swSelEDGES
 
 ### Return Value
 
-Array of weld-to entities of
-
-[faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-or
-
-[edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
+Array of weld-to entities of [faces](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) or [edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFeatureData::GetEntitiesWeldTo](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~GetEntitiesWeldTo.html)
-
-.
+See [CosmeticWeldBeadFeatureData::GetEntitiesWeldTo](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~GetEntitiesWeldTo.html).
 
 ## Examples
 
 [Insert Cosmetic Weld Bead Using Geometric Entities (C#)](Insert_Cosmetic_Weld_Bead_Using_Geometric_Entities_Example_CSharp.htm)
-
 [Insert Cosmetic Weld Bead Using Geometric Entities (VB.NET)](Insert_Cosmetic_Weld_Bead_Using_Geometric_Entities_Example_VBNET.htm)
-
 [Insert Cosmetic Weld Bead Using Geometric Entities (VBA)](Insert_Cosmetic_Weld_Bead_Using_Geometric_Entities_Example_VB.htm)
 
 ## See Also
 
 [ICosmeticWeldBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
 [ICosmeticWeldBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData_members.html)
-
 [ICosmeticWeldBeadFeatureData::SetEntitiesWeldTo](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~SetEntitiesWeldTo.html)
-
 [ICosmeticWeldBeadFeatureData::GetEntitiesWeldFrom](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~GetEntitiesWeldFrom.html)
-
 [ICosmeticWeldBeadFeatureData::SetEntitiesWeldFrom Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData~SetEntitiesWeldFrom.html)
 
 ## Availability

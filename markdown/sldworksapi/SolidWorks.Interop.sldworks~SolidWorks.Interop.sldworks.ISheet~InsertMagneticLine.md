@@ -51,13 +51,7 @@ MagneticLine^ InsertMagneticLine(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,30 +64,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[Sheet::InsertMagneticLine](ms-its:sldworksapivb6.chm::/sldworks~Sheet~InsertMagneticLine.html)
-
-.
+See [Sheet::InsertMagneticLine](ms-its:sldworksapivb6.chm::/sldworks~Sheet~InsertMagneticLine.html).
 
 ## Examples
 
 [Insert Magnetic Line (C#)](Insert_Magnetic_Line_Example_CSharp.htm)
-
 [Insert Magnetic Line (VB.NET)](Insert_Magnetic_Line_Example_VBNET.htm)
-
 [Insert Magnetic Line (VBA)](Insert_Magnetic_Line_Example_VB.htm)
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [ISheet::GetMagneticLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetMagneticLines.html)
-
 [ISheet::GetMagneticLinesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetMagneticLinesCount.html)
-
 [ISheet::IGetMagneticLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~IGetMagneticLines.html)
 
 ## Availability

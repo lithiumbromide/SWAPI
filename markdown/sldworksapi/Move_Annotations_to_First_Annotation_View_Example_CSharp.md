@@ -9,8 +9,7 @@ source: "sldworksapi/Move_Annotations_to_First_Annotation_View_Example_CSharp.ht
 
 # Move Annotations to Notes Area Annotation View Example (C#)
 
-This example shows how to move
-all annotations to the Notes Area annotation view.
+This example shows how to move all annotations to the **Notes Area** annotation view.
 
 ```
 //----------------------------------------------

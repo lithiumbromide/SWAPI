@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVa
 
 # FilletEdgeCount Property (IVariableFilletFeatureData)
 
-Obsolete. Superseded by
-
-[IVariableFilletFeatureData2::FilletEdgeCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~FilletEdgeCount.html)
-
-.
+Obsolete. Superseded by [IVariableFilletFeatureData2::FilletEdgeCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~FilletEdgeCount.html).
 
 ## Syntax
 
@@ -46,24 +42,13 @@ property System.int FilletEdgeCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData::FilletEdgeCount](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData~FilletEdgeCount.html)
-
-.
+See [VariableFilletFeatureData::FilletEdgeCount](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData~FilletEdgeCount.html).
 
 ## See Also
 
 [IVariableFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData.html)
-
 [IVariableFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData_members.html)

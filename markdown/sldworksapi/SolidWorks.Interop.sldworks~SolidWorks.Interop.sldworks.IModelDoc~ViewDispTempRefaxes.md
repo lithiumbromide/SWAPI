@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ViewDispTempRefaxes Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ViewDispTempRefaxes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewDispTempRefaxes.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ViewDispTempRefaxes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewDispTempRefaxes.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ViewDispTempRefaxes()
 void ViewDispTempRefaxes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ViewDispTempRefaxes](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewDispTempRefaxes.html)
-
-.
+See [ModelDoc::ViewDispTempRefaxes](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewDispTempRefaxes.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

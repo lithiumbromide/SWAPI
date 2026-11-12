@@ -40,13 +40,7 @@ System.bool IsMeshBody()
 System.bool IsMeshBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ True if a mesh body, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::IsMeshBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~IsMeshBody.html)
-
-.
+See [Body2::IsMeshBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~IsMeshBody.html).
 
 ## Examples
 
-See the
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-examples.
+See the [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html) examples.
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::GetMeshBody Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetMeshBody.html)
 
 ## Availability

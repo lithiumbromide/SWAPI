@@ -40,32 +40,20 @@ System.bool Beginning()
 System.bool Beginning();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
 True if the animation is positioned at its beginning, false if an animation controller
-
 is not running
 
 ## VBA Syntax
 
-See
-
-[Animation::Beginning](ms-its:sldworksapivb6.chm::/sldworks~Animation~Beginning.html)
-
-.
+See [Animation::Beginning](ms-its:sldworksapivb6.chm::/sldworks~Animation~Beginning.html).
 
 ## See Also
 
 [IAnimation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation.html)
-
 [IAnimation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation_members.html)
 
 ## Availability

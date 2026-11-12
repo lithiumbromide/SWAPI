@@ -40,13 +40,7 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[FlatPatternFolder::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFolder~GetFeature.html)
-
-.
+See [FlatPatternFolder::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~FlatPatternFolder~GetFeature.html).
 
 ## Examples
 
-See
-
-[IFlatPatternFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFolder.html)
-
-examples.
+See [IFlatPatternFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlatPatternFolder.html) examples.
 
 ## See Also
 
 [IFlatPatternFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFolder.html)
-
 [IFlatPatternFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlatPatternFolder_members.html)
 
 ## Availability

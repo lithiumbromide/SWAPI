@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # CounterBoreDepth Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by
-
-[IWizardHoleFeatureData2::CounterBoreDepth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~CounterBoreDepth.html)
-
-.
+Obsolete. Superseded by [IWizardHoleFeatureData2::CounterBoreDepth](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~CounterBoreDepth.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double CounterBoreDepth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::CounterBoreDepth](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~CounterBoreDepth.html)
-
-.
+See [WizardHoleFeatureData::CounterBoreDepth](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~CounterBoreDepth.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

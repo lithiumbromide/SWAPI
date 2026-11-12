@@ -40,40 +40,22 @@ System.object CommandTabBoxes()
 System.Object^ CommandTabBoxes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[CommandManager tab boxes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox.html)
-
-on this CommandManager tab
+Array of [CommandManager tab boxes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox.html) on this CommandManager tab
 
 ## VBA Syntax
 
-See
-
-[CommandTab::CommandTabBoxes](ms-its:sldworksapivb6.chm::/sldworks~CommandTab~CommandTabBoxes.html)
-
-.
+See [CommandTab::CommandTabBoxes](ms-its:sldworksapivb6.chm::/sldworks~CommandTab~CommandTabBoxes.html).
 
 ## See Also
 
 [ICommandTab Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab.html)
-
 [ICommandTab Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab_members.html)
-
 [ICommandTab::GetCommandTabBoxCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab~GetCommandTabBoxCount.html)
-
 [ICommandTab::IGetCommandTabBoxes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab~IGetCommandTabBoxes.html)
-
 [ICommandTab::RemoveCommandTabBox Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab~RemoveCommandTabBox.html)
 
 ## Availability

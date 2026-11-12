@@ -55,13 +55,7 @@ System.Object^ AddComponents3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,42 +65,30 @@ See
 
 ### Return Value
 
-Array of
-
-[IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-objects
+Array of [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) objects
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddComponents3](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddComponents3.html)
-
-.
+See [AssemblyDoc::AddComponents3](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddComponents3.html).
 
 ## Examples
 
 [Add Components (C#)](Add_Components_Example_CSharp.htm)
-
 [Add Components (VB.NET)](Add_Components_Example_VBNET.htm)
-
 [Add Components (VBA)](Add_Components_Example_VB.htm)
 
 ## Remarks
 
-Transforms contains an array of [(Names count) x 16] doubles. This parameter stores one transformation matrix of 16 doubles for each component in Names. If a component's transformation matrix is null, then the component is placed in the assembly such that the component's user-defined coordinate system coincides exactly with the default coordinate system of the assembly (no transformation). See[IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)for details about transformation matrices.
+Transforms contains an array of [(Names count) x 16] doubles. This parameter stores one transformation matrix of 16 doubles for each component in Names. If a component's transformation matrix is null, then the component is placed in the assembly such that the component's user-defined coordinate system coincides exactly with the default coordinate system of the assembly (no transformation). See [IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) for details about transformation matrices.
 
 CoordinateSystemNames contains a user-defined coordinate system name for each component in Names. If a component's user-defined coordinate system is an empty string, then the component is placed in the assembly with respect to the default coordinate system of the component.
 
-**TIP**: See[ISldWorks::OpenDoc6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc6.html)for tips on how to avoid using large amounts of memory when opening up multiple parts to add to an assembly
+**TIP**: See [ISldWorks::OpenDoc6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~OpenDoc6.html) for tips on how to avoid using large amounts of memory when opening up multiple parts to add to an assembly
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::IAddComponents3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IAddComponents3.html)
 
 ## Availability

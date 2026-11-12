@@ -45,13 +45,7 @@ property System.bool ShowPartRebuildIndicators {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,19 @@ True to display rebuild indicators, false to not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ShowPartRebuildIndicators](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ShowPartRebuildIndicators.html)
-
-.
+See [ModelDocExtension::ShowPartRebuildIndicators](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ShowPartRebuildIndicators.html).
 
 ## Examples
 
 [Move Freeze Bar (VBA)](Move_Freeze_Bar_Example_VB.htm)
-
 [Move Freeze Bar (VB.NET)](Move_Freeze_Bar_Example_VBNET.htm)
-
 [Move Freeze Bar (C#)](Move_Freeze_Bar_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::NeedsRebuild2 Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~NeedsRebuild2.html)
-
 [IFeature::HasFrozenUpdatePending Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~HasFrozenUpdatePending.html)
 
 ## Availability

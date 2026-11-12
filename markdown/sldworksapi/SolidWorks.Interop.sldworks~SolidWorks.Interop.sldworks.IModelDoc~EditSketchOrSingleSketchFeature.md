@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditSketchOrSingleSketchFeature Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EditSketchOrSingleSketchFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditSketchOrSingleSketchFeature.html)
-
-.
+Obsolete. Superseded by[IModelDoc2::EditSketchOrSingleSketchFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditSketchOrSingleSketchFeature.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void EditSketchOrSingleSketchFeature()
 void EditSketchOrSingleSketchFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EditSketchOrSingleSketchFeature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditSketchOrSingleSketchFeature.html)
-
-.
+See [ModelDoc::EditSketchOrSingleSketchFeature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditSketchOrSingleSketchFeature.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

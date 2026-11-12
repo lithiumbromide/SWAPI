@@ -40,13 +40,7 @@ System.int GetSketchPathCount()
 System.int GetSketchPathCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,17 @@ Number of sketch paths
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSketchPathCount](ms-its:sldworksapivb6.chm::/Sldworks~Sketch~GetSketchPathCount.html)
-
-.
+See [Sketch::GetSketchPathCount](ms-its:sldworksapivb6.chm::/Sldworks~Sketch~GetSketchPathCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISketch::IGetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchPaths.html)
-
-to get the sketch paths in this sketch.
+Call this method before calling [ISketch::IGetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSketchPaths.html) to get the sketch paths in this sketch.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchPaths Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchPaths.html)
-
 [ISketchPath Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPath.html)
 
 ## Availability

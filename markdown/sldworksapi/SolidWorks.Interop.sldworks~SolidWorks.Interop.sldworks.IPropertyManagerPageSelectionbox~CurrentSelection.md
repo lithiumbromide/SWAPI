@@ -45,13 +45,7 @@ property System.int CurrentSelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::CurrentSelection](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~CurrentSelection.html)
-
-.
+See [PropertyManagerPageSelectionbox::CurrentSelection](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~CurrentSelection.html).
 
 ## Remarks
 
-The return value Item is the item in the selection box that is selected. Only the active selection box can have a current selection.If you use this property with an inactive selection box, -1 is returned. See IPropertyManagerPageSelectionbox::GetSelectionFocus to determine if a selection box is active or not.
+The return value Item is the item in the selection box that is selected. Only the active selection box can have a current selection. If you use this property with an inactive selection box, -1 is returned. See [IPropertyManagerPageSelectionbox::GetSelectionFocus](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSelectionbox~GetSelectionFocus.html) to determine if a selection box is active or not.
 
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
 
 ## Availability

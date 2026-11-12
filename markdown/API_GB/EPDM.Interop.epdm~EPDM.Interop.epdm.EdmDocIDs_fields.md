@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs_fields.html"
 
 # EdmDocIDs Structure Fields
 
-For a list of all members of this type, see[EdmDocIDs members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs_members.html).
+For a list of all members of this type, see [EdmDocIDs members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs_members.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[EdmDocIDs members](EPDM.Interop.epdm
 ## See Also
 
 [EdmDocIDs Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

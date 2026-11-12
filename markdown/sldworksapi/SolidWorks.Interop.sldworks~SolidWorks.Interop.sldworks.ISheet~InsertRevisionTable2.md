@@ -71,86 +71,40 @@ RevisionTableAnnotation^ InsertRevisionTable2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseAnchorPoint`: True to insert the revision table at the existing revision table anchor point, false to anchor the table at the point specified by X and Y
 - `X`: X coordinate for the placement of the revision table annotation
 - `Y`: Y coordinate for the placement of this revision table annotation
-- `AnchorType`: Anchor type as defined by
-
-[swBOMConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html)
-- `TableTemplate`: Path and filename of the template that corresponds to this type of table (see
-
-Remarks
-
-)
-- `Shape`: Revision symbol shape as defined in
-
-[swRevisionTableSymbolShape_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRevisionTableSymbolShape_e.html)
+- `AnchorType`: Anchor type as defined by [swBOMConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html)
+- `TableTemplate`: Path and filename of the template that corresponds to this type of table (see **Remarks**)
+- `Shape`: Revision symbol shape as defined in [swRevisionTableSymbolShape_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRevisionTableSymbolShape_e.html)
 - `AutoUpdateZoomCells`: True to automatically update zone cells, false to not
 
 ### Return Value
 
-[Revision table](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation.html)
-
-or null if a revision table already exists
+[Revision table](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation.html) or null if a revision table already exists
 
 ## VBA Syntax
 
-See
-
-[Sheet::InsertRevisionTable2](ms-its:sldworksapivb6.chm::/sldworks~Sheet~InsertRevisionTable2.html)
-
-.
+See [Sheet::InsertRevisionTable2](ms-its:sldworksapivb6.chm::/sldworks~Sheet~InsertRevisionTable2.html).
 
 ## Examples
 
 [Create Drawing Sheet Zones (VBA)](Create_Drawing_Sheet_Zones_Example_VB.htm)
-
 [Create Drawing Sheet Zones (VB.NET)](Create_Drawing_Sheet_Zones_Example_VBNET.htm)
-
 [Create Drawing Sheet Zones (C#)](Create_Drawing_Sheet_Zones_Example_CSharp.htm)
 
 ## Remarks
 
-By default, the revision table templates are in
-
-install_dir
-
-\
-
-lang
-
-\
-
-language
-
-and have a filename extension of
-
-.sldrevtbt
-
-. The template and table must be of the same type. For example, you must specify TableTemplate with
-
-install_dir
-
-\lang\English\standard revision block.sldrevtbt
-
-if you want to insert the English version of a revision block table.
+By default, the revision table templates are in install_dir\lang\language and have a filename extension of .sldrevtbt. The template and table must be of the same type. For example, you must specify TableTemplate with `install_dir`\lang\English\standard revision block.sldrevtbt if you want to insert the English version of a revision block table.
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [ISheet::RevisionTable Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~RevisionTable.html)
 
 ## Availability

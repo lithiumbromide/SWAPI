@@ -48,12 +48,11 @@ void GetVersion(
 ## Examples
 
 [Log Into Vault and Display Information (C#)](Log_Into_Vault_and_Display_Information_Example_CSharp.htm)
-
 [Log Into Vault and Display Information (VB.NET)](Log_Into_Vault_and_Display_Information_Example_VBNET.htm)
 
 ## Remarks
 
-You do not need to call[IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html)or[IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html)before calling this method.
+You do not need to call [IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html) or [IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html) before calling this method.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -62,7 +61,6 @@ You do not need to call[IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.I
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
 
 ## Availability

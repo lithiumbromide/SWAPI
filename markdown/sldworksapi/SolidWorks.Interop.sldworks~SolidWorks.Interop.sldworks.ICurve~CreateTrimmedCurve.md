@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # CreateTrimmedCurve Method (ICurve)
 
-Obsolete. Superseded by
-
-[ICurve::CreateTrimmedCurve2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~CreateTrimmedCurve2.html)
-
-.
+Obsolete. Superseded by [ICurve::CreateTrimmedCurve2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~CreateTrimmedCurve2.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ System.Object^ CreateTrimmedCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,14 +80,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Curve::CreateTrimmedCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~CreateTrimmedCurve.html)
-
-.
+See [Curve::CreateTrimmedCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~CreateTrimmedCurve.html).
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)

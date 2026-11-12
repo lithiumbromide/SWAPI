@@ -1,6 +1,5 @@
 ---
-title: "CWTopologyDemoldControl Object
-Members"
+title: "CWTopologyDemoldControl Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWTopologyDemoldControl_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWTopologyDemoldControl_members.html"
 ---
 
-# CWTopologyDemoldControl Object
-Members
+# CWTopologyDemoldControl Object Members
 
 ## Public Methods
 

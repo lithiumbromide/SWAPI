@@ -46,11 +46,7 @@ Number of sub-features of the best fit plane
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertBestFitPlaneFeature::GetSubFeatureCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBestFitPlaneFeature~GetSubFeatureCount.html)
-
-.
+See [SwDMDimXpertBestFitPlaneFeature::GetSubFeatureCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBestFitPlaneFeature~GetSubFeatureCount.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertBestFitPlaneFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBestFitPlaneFeature.html)
-
 [ISwDMDimXpertBestFitPlaneFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBestFitPlaneFeature_members.html)
 
 ## Availability

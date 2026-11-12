@@ -51,13 +51,7 @@ System.int ChangeSuppressionForAllConfigurations(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,24 +64,15 @@ Index of the equation; -1 if error or if the equation was created in SOLIDWORKS 
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::ChangeSuppressionForAllConfigurations](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~ChangeSuppressionForAllConfigurations.html)
-
-.
+See [EquationMgr::ChangeSuppressionForAllConfigurations](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~ChangeSuppressionForAllConfigurations.html).
 
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::ChangeSuppressionForConfiguration Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~ChangeSuppressionForConfiguration.html)
-
 [IEquationMgr::GetCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GetCount.html)
-
 [IEquationMgr::Status Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Status.html)
-
 [IEquationMgr::Equation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
 
 ## Availability

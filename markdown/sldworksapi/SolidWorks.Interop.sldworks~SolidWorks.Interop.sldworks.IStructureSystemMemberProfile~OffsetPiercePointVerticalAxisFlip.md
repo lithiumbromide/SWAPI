@@ -45,13 +45,7 @@ property System.bool OffsetPiercePointVerticalAxisFlip {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to flip the vertical offset, false to not
 
 ## VBA Syntax
 
-See
-
-[StructureSystemMemberProfile::OffsetPiercePointVerticalAxisFlip](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~OffsetPiercePointVerticalAxisFlip.html)
-
-.
+See [StructureSystemMemberProfile::OffsetPiercePointVerticalAxisFlip](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~OffsetPiercePointVerticalAxisFlip.html).
 
 ## See Also
 
 [IStructureSystemMemberProfile Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile.html)
-
 [IStructureSystemMemberProfile Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile_members.html)
 
 ## Availability

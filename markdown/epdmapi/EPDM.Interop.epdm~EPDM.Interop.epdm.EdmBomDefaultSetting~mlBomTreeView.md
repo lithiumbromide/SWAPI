@@ -39,5 +39,4 @@ System.int mlBomTreeView
 ## See Also
 
 [EdmBomDefaultSetting Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting.html)
-
 [EdmBomDefaultSetting Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomDefaultSetting_members.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IFacet Interface Members
 
-The following tables list the members exposed by[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html).
+The following tables list the members exposed by [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html).
 
 ## Public Methods
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[IFacet](SolidWorks.Interop.sldw
 ## See Also
 
 [IFacet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

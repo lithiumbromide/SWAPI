@@ -43,13 +43,7 @@ public delegate System.int DAssemblyDocEvents_ActiveDisplayStateChangePostNotify
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,18 +51,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ActiveDisplayStateChangePostNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ActiveDisplayStateChangePostNotify_EV.html)
-
-.
+See [ActiveDisplayStateChangePostNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ActiveDisplayStateChangePostNotify_EV.html).
 
 ## Examples
 
 [Fire Events When Display State Changes (C#)](Fire_Events_When_Display_State_Changes_Example_CSharp.htm)
-
 [Fire Events When Display State Changes (VB.NET)](Fire_Events_When_Display_State_Changes_Example_VBNET.htm)
-
 [Fire Events When Display State Changes (VBA)](Fire_Events_When_Display_State_Changes_Example_VB.htm)
 
 ## Remarks

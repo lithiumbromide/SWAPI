@@ -40,50 +40,28 @@ System.object GetComponents()
 System.Object^ GetComponents();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
+Array of [components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::GetComponents](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetComponents.html)
-
-.
+See [ExplodeStep::GetComponents](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetComponents.html).
 
 ## Examples
 
-See the
-
-[IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
-examples.
+See the [IExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html) examples.
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
-
 [IExplodeStep::GetComponent Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponent.html)
-
 [IExplodeStep::GetComponentName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponentName.html)
-
 [IExplodeStep::GetComponentXform Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponentXform.html)
-
 [IExplodeStep::SetComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~SetComponents.html)
-
 [IExplodeStep::GetNumOfComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetNumOfComponents.html)
 
 ## Availability

@@ -45,54 +45,33 @@ property System.Object^ Path {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-A set of sketched[curves](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)contained in one sketch, a curve, or a set of model[edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
+A set of sketched [curves](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html) contained in one sketch, a curve, or a set of model [edges](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
 
 ## VBA Syntax
 
-See
-
-[SweepFeatureData::Path](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~Path.html)
-
-.
+See [SweepFeatureData::Path](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~Path.html).
 
 ## Examples
 
-See the
-
-[ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
-examples.
+See the [ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html) examples.
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [ISweepFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData_members.html)
-
 [ISweepFeatureData::GetPathAlignmentDirectionVector Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GetPathAlignmentDirectionVector.html)
-
 [ISweepFeatureData::SetPathAlignmentDirectionVector Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~SetPathAlignmentDirectionVector.html)
-
 [ISweepFeatureData::EndTangencyType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~EndTangencyType.html)
-
 [ISweepFeatureData::GetPathType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GetPathType.html)
-
 [ISweepFeatureData::PathAlignmentType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~PathAlignmentType.html)
-
 [ISweepFeatureData::Direction Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Direction.html)
 
 ## Availability

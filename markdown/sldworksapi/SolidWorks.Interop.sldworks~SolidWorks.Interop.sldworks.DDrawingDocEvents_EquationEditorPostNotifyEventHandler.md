@@ -43,13 +43,7 @@ public delegate System.int DDrawingDocEvents_EquationEditorPostNotifyEventHandle
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,21 +51,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[EquationEditorPostNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~EquationEditorPostNotify_EV.html)
-
-.
+See [EquationEditorPostNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~EquationEditorPostNotify_EV.html).
 
 ## Remarks
 
-The IDrawingDoc event[EquationEditorPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_EquationEditorPreNotifyEventHandler.html)notifies your application that the equation editor has been constructed.
+The IDrawingDoc event [EquationEditorPreNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_EquationEditorPreNotifyEventHandler.html) notifies your application that the equation editor has been constructed.
 
-If developing a C++ application, use
-
-[swDrawingEquationEditorPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swDrawingEquationEditorPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

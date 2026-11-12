@@ -9,35 +9,26 @@ source: "epdmapi/Get_Parent_References_Example_CSharp.htm"
 
 # Get Parent References of File Example (C#)
 
-This example shows how to find the parent references of a
-file.
+This example shows how to find the parent references of a file.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- //    a. Click File > New > Project > Visual C# > Windows Forms Application.
- //    b. Type GetParentReferences_CSharp in Name.
- //    c. Click Browse and navigate to the folder where to create
- //       the project.
- //    d. Click OK.
- //    e. Click Show All Files in the Solution Explorer toolbar and expand
- //       Form1.cs in the Solution Explorer.
- //    f. Replace the code in Form1.cs with this code.
- //    g. To create the form, replace the code in Form1.Designer.cs with this code.
- // 2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- //    name in the Solution Explorer, click Add Reference, click
- //    Assemblies > Framework in the left-side panel, browse to the top folder of
- //    your SOLIDWORKS PDM Professional installation, locate and click
- //    EPDM.Interop.epdm.dll, click Open, and click Add).
- // 3. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //    Embed Interop Types to False to handle methods that pass arrays of
- //    structures.
- // 4. Click Debug > Start Debugging or press F5.
+ // 2. Click File > New > Project > C#, Windows, Desktop > Windows Forms App.
+ // 3. Type GetParentReferences_CSharp in Project name.
+  // 4. For Location, click ... and navigate to the folder where to create the project.
+ // 5. Click Next.
+ // 6. Select Framework.
+ // 7. Click Create.
+ // 8. Click Show All Files in the Solution Explorer toolbar and expand
+ //    Form1.cs in the Solution Explorer.
+ // 9.  Add dependencies and safely pass arrays of structures.
+ //10. Replace the code in Form1.cs with this code.
+ //11. To create the form, replace the code in Form1.Designer.cs with this code.
+ //12. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  // 1. The Get parent references dialog displays.

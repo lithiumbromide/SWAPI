@@ -45,8 +45,8 @@ public enum class swDimXpertAnnotationType_e : public System.Enum
 | swDimXpertAnnotationType_unknown | 0 |
 | swDimXpertDatum | 150 |
 | swDimXpertDimTol_AngleBetween | 106 |
-| swDimXpertDimTol_AngleBetweenCircular |  |
-| swDimXpertDimTol_AngleSize |  |
+| swDimXpertDimTol_AngleBetweenCircular | 221 |
+| swDimXpertDimTol_AngleSize | 220 |
 | swDimXpertDimTol_ChamferDimension | 105 |
 | swDimXpertDimTol_CompositeDistanceBetween | 113 |
 | swDimXpertDimTol_ConeAngle | 108 |

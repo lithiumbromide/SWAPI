@@ -9,9 +9,7 @@ source: "API_GB/Schedule_Task_Addin_Example_CSharp.htm"
 
 # Create a Task that Finds Approved Files Example (C#)
 
-This example shows how to create a task add-in that notifies the logged-in
-user as to which files in
-the vault are in the Approved state.
+This example shows how to create a task add-in that notifies the logged-in user as to which files in the vault are in the Approved state.
 
 ```vb
 //--------------------------------------------------------------------------------------

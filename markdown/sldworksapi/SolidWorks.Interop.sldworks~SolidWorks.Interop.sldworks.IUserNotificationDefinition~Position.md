@@ -45,27 +45,15 @@ property System.int Position {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Position as defined by
-
-[swUserNotificationPosition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserNotificationPosition_e.html)
+Position as defined by [swUserNotificationPosition_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserNotificationPosition_e.html)
 
 ## VBA Syntax
 
-See
-
-[UserNotificationDefinition::Position](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~Position.html)
-
-.
+See [UserNotificationDefinition::Position](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~Position.html).
 
 ## Remarks
 
@@ -74,7 +62,6 @@ Default value of this property is swUserNotificationPosition_e.swUserNotificatio
 ## See Also
 
 [IUserNotificationDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition.html)
-
 [IUserNotificationDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition_members.html)
 
 ## Availability

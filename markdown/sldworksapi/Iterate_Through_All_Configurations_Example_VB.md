@@ -9,8 +9,7 @@ source: "sldworksapi/Iterate_Through_All_Configurations_Example_VB.htm"
 
 # Iterate Through All Configurations Example (VBA)
 
-This example shows how to iterate through all of the configurations in a
-document and forcibly rebuild each one.
+This example shows how to iterate through all of the configurations in a document and forcibly rebuild each one.
 
 ```
 '--------------------------------------

@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/progress/{guid}/result |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Progress Resource Group : api/{vaultName}/progress/{guid}/result (Get) |
 | --- |
@@ -54,24 +50,12 @@ Response (application/xml, text/xml)
 
 Example
 
-[Upload SOLIDWORKS Files to PDM Vault.postman_collection.json](Upload%20SOLIDWORKS%20Files%20to%20PDM%20Vault.postman_collection.json)
-
-|
-
-[Check in SOLIDWORKS Files in PDM Vault.postman_collection.json](Check%20in%20SOLIDWORKS%20Files%20%20in%20PDM%20Vault.postman_collection.json)
+[Upload SOLIDWORKS Files to PDM Vault.postman_collection.json](Upload%20SOLIDWORKS%20Files%20to%20PDM%20Vault.postman_collection.json) | [Check in SOLIDWORKS Files in PDM Vault.postman_collection.json](Check%20in%20SOLIDWORKS%20Files%20%20in%20PDM%20Vault.postman_collection.json)
 
 Remarks
 
-The operation GUID can be found in the response of
-
-[api/{vaultName}/files/{changesetId}/finishadd (Put)](PDM%20Pro%20API_ws~r-api-{vaultName}-files-{changesetId}-finishadd~o-HttpPut.html)
-
-.
+The operation GUID can be found in the response of [api/{vaultName}/files/{changesetId}/finishadd (Put)](PDM%20Pro%20API_ws~r-api-{vaultName}-files-{changesetId}-finishadd~o-HttpPut.html).
 
 See Also
 
-[Progress Resource Group](PDM%20Pro%20API_ws~g-41efefa2-70af-440a-a06e-5d7156c5dc19.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Progress Resource Group](PDM%20Pro%20API_ws~g-41efefa2-70af-440a-a06e-5d7156c5dc19.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

@@ -1,6 +1,5 @@
 ---
-title: "CWBoltConnector Object
-Members"
+title: "CWBoltConnector Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWBoltConnector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWBoltConnector_members.html"
 ---
 
-# CWBoltConnector Object
-Members
+# CWBoltConnector Object Members
 
 ## Public Methods
 

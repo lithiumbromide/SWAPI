@@ -13,6 +13,8 @@ from pathlib import Path, PurePosixPath
 from typing import Iterable
 from urllib.parse import unquote
 
+from pipeline_common import write_text
+
 
 FRONT_MATTER_RE = re.compile(r"\A---\n(.*?)\n---\n?", re.S)
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$", re.M)
@@ -225,9 +227,20 @@ def asdict_record(record: DocRecord) -> dict[str, object]:
     }
 
 
+def write_json(path: Path, data: object) -> None:
+    write_text(path, json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True))
+
+
+def portable_root(path: Path) -> str:
+    try:
+        return path.relative_to(Path.cwd().resolve()).as_posix()
+    except ValueError:
+        return path.name
+
+
 def write_jsonl(path: Path, rows: Iterable[dict[str, object]]) -> int:
     count = 0
-    with path.open("w", encoding="utf-8") as handle:
+    with path.open("w", encoding="utf-8", newline="\n") as handle:
         for row in rows:
             handle.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")
             count += 1
@@ -240,7 +253,7 @@ def tsv_cell(value: object) -> str:
 
 def write_tsv(path: Path, header: list[str], rows: Iterable[list[object]]) -> int:
     count = 0
-    with path.open("w", encoding="utf-8") as handle:
+    with path.open("w", encoding="utf-8", newline="\n") as handle:
         handle.write("\t".join(header) + "\n")
         for row in rows:
             handle.write("\t".join(tsv_cell(value) for value in row) + "\n")
@@ -283,10 +296,7 @@ def write_edge_shards(output_root: Path, edges: list[dict[str, object]]) -> dict
         "by_type": dict(sorted(by_type.items())),
         "shards": shards,
     }
-    (output_root / "edges_manifest.json").write_text(
-        json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True),
-        encoding="utf-8",
-    )
+    write_json(output_root / "edges_manifest.json", manifest)
     return manifest
 
 
@@ -305,7 +315,7 @@ Recommended agent flow:
 
 Files:
 
-- `manifest.json`: corpus counts and kind/module summaries.
+- `manifest.json`: API version, corpus counts, and kind/module summaries.
 - `documents.jsonl`: one compact row per Markdown file.
 - `symbols.jsonl`: symbol-oriented lookup table.
 - `documents.tsv`: cheapest path/title/kind/module lookup.
@@ -316,13 +326,14 @@ Files:
 - `interface_members.jsonl`: compact interface/object to members map.
 - `modules.json`: per-module counts.
 """
-    output_root.joinpath("README.md").write_text(readme, encoding="utf-8")
+    write_text(output_root / "README.md", readme)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("markdown", nargs="?", default=Path("markdown"), type=Path, help="Markdown documentation root.")
     parser.add_argument("-o", "--output", default=Path("llm_index"), type=Path, help="Output index directory.")
+    parser.add_argument("--api-version", help="SOLIDWORKS API release recorded in manifest.json, for example 2026.")
     args = parser.parse_args()
 
     markdown_root = args.markdown.resolve()
@@ -436,10 +447,11 @@ def main() -> int:
         module: {"total": sum(counts.values()), "kinds": dict(sorted(counts.items()))}
         for module, counts in sorted(module_counts.items())
     }
-    (output_root / "modules.json").write_text(json.dumps(modules, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8")
+    write_json(output_root / "modules.json", modules)
 
     manifest = {
-        "markdown_root": markdown_root.as_posix(),
+        "api_version": args.api_version,
+        "markdown_root": portable_root(markdown_root),
         "document_count": len(records),
         "edge_count": len(edges),
         "edge_shard_count": edges_manifest["shard_count"],
@@ -449,7 +461,7 @@ def main() -> int:
         "modules": sorted(modules.keys()),
         "project_counts_top": dict(project_counts.most_common(40)),
     }
-    (output_root / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8")
+    write_json(output_root / "manifest.json", manifest)
     write_readme(output_root)
 
     print(f"documents: {len(records)}")

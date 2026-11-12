@@ -39,16 +39,11 @@ Name of the user who sent the message; an empty string indicates that the messag
 
 ## Examples
 
-See the
-
-[IEdmMessage5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html)
-
-examples.
+See the [IEdmMessage5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html) examples.
 
 ## See Also
 
 [IEdmMessage5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html)
-
 [IEdmMessage5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5_members.html)
 
 ## Availability

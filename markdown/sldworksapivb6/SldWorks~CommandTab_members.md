@@ -1,6 +1,5 @@
 ---
-title: "CommandTab Object
-Members"
+title: "CommandTab Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CommandTab_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CommandTab_members.html"
 ---
 
-# CommandTab Object
-Members
+# CommandTab Object Members
 
 ## Public Methods
 

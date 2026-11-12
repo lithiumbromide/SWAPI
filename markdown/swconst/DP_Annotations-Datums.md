@@ -9,65 +9,20 @@ source: "swconst/DP_Annotations-Datums.htm"
 
 # Document Properties > Annotations > Datums
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Base datums standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingDatum) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingDatum, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base datums standard to use. For
-base datums standard, "GB", use anchor styles as defined in swDatumGbLeaderStyle_e . |
-| Leader style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumLeaderLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumLeaderLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |
-| Leader style - Leader Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumLeaderLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumLeaderLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Leader style - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDatumLeaderLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDatumLeaderLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of datum leader lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Frame style - Frame Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumFrameLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumFrameLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e
-.< Value >) | See swLineStyles_e for valid options |  |
-| Frame style - Frame
-Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumFrameLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumFrameLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Frame style - custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDatumFrameLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDatumFrameLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of datum frame lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDatumTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDatumTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Datum features - Display type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumDisplayType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumDisplayType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDatumDisplayType_e.< Value >) | See swDatumDisplayType_e for valid options | Specifies type of display of datums. When
-the type of datum display is "GB", use anchor styles as defined
-in swDatumGbLeaderStyle_e . |
-| Datum features - Next label | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingNextDatumFeatureLabel,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingNextDatumFeatureLabel,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | String value | Specifies the label for the next datum symbol created |
-| Anchor style - Filled | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDatumsAnchorFilled,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDatumsAnchorFilled,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to fill triangle datum symbols |
-| Anchor style - With shoulder | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDatumsAnchorShoulder,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDatumsAnchorShoulder,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to add shoulders to triangle datum symbols |
-| Anchor style - GB | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumGbLeaderStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumGbLeaderStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDatumGbLeaderStyle_e.< Value >) | See swDatumGbLeaderStyle_e for valid options | Specifies the anchor style for round datum symbols |
-| Display datums per 1982 | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDisplayDatumsPer1982,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDisplayDatumsPer1982,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use 1982 standard to display datums; a document
-property only visible for the ANSI drafting standard |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swuserPreferenceOption_e.swDetailingDatum) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swuserPreferenceOption_e.swDetailingDatum, < Value >) | String value | Specifies the name of the layer to apply settings to; his setting is
-available only on drawings |
+| Base datums standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingDatum) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingDatum, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base datums standard to use. For base datums standard, "GB", use anchor styles as defined in swDatumGbLeaderStyle_e . |
+| Leader style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumLeaderLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumLeaderLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |
+| Leader style - Leader Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumLeaderLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumLeaderLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Leader style - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDatumLeaderLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDatumLeaderLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of datum leader lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Frame style - Frame Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumFrameLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumFrameLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e .< Value >) | See swLineStyles_e for valid options |  |
+| Frame style - Frame Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumFrameLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumFrameLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Frame style - custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDatumFrameLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingDatumFrameLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of datum frame lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDatumTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDatumTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Datum features - Display type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumDisplayType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumDisplayType, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDatumDisplayType_e.< Value >) | See swDatumDisplayType_e for valid options | Specifies type of display of datums. When the type of datum display is "GB", use anchor styles as defined in swDatumGbLeaderStyle_e . |
+| Datum features - Next label | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingNextDatumFeatureLabel, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingNextDatumFeatureLabel, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | String value | Specifies the label for the next datum symbol created |
+| Anchor style - Filled | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDatumsAnchorFilled, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDatumsAnchorFilled, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to fill triangle datum symbols |
+| Anchor style - With shoulder | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDatumsAnchorShoulder, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDatumsAnchorShoulder, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to add shoulders to triangle datum symbols |
+| Anchor style - GB | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumGbLeaderStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDatumGbLeaderStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDatumGbLeaderStyle_e.< Value >) | See swDatumGbLeaderStyle_e for valid options | Specifies the anchor style for round datum symbols |
+| Display datums per 1982 | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDisplayDatumsPer1982, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDisplayDatumsPer1982, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use 1982 standard to display datums; a document property only visible for the ANSI drafting standard |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swuserPreferenceOption_e.swDetailingDatum) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swuserPreferenceOption_e.swDetailingDatum, < Value >) | String value | Specifies the name of the layer to apply settings to; his setting is available only on drawings |

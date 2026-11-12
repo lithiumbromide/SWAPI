@@ -40,9 +40,7 @@ property System.int64 FileSize2 {
 ## See Also
 
 [IEdmSearchResult6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6.html)
-
 [IEdmSearchResult6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult6_members.html)
-
 [IEdmSearchResult5::FileSize Property ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearchResult5~FileSize.html)
 
 ## Availability

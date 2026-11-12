@@ -9,8 +9,7 @@ source: "sldworksapi/Evaluate_Curves_Defined_in_Sketch_Space_Example_VB.htm"
 
 # Evaluate Curves Defined in Sketch Space Example (VBA)
 
-This example shows how to evaluate curves that were defined in the space
-of a sketch.
+This example shows how to evaluate curves that were defined in the space of a sketch.
 
 ```
 '---------------------------------------------------------

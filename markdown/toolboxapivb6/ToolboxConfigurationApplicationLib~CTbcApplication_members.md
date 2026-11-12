@@ -1,6 +1,5 @@
 ---
-title: "CTbcApplication Object
-Members"
+title: "CTbcApplication Object Members"
 project: "ToolboxConfigurationApplicationLibActiveX DLL"
 interface: "CTbcApplication_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "toolboxapivb6/ToolboxConfigurationApplicationLib~CTbcApplication_members.html"
 ---
 
-# CTbcApplication Object
-Members
+# CTbcApplication Object Members
 
 ## Public Methods
 

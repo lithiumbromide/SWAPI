@@ -47,13 +47,7 @@ System.Object^ GetArcAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,29 +55,19 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::GetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetArcAtIndex.html)
-
-.
+See [WeldSymbol::GetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetArcAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[lineType,startPt[3],endPt[3],centerPt[3],rotationDir]
+[ lineType, startPt[3], endPt[3], centerPt[3], rotationDir ]
 
 where:
-
-(Table)=========================================================
 
 | lineType | = line type as defined in swLineTypes_e . |
 | --- | --- |
@@ -95,9 +79,6 @@ where:
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
-
 [IWeldSymbol::GetArcCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~GetArcCount.html)
-
 [IWeldSymbol::IGetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~IGetArcAtIndex.html)

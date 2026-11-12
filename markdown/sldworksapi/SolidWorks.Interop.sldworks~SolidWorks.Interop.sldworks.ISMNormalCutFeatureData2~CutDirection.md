@@ -45,48 +45,23 @@ property System.Object^ CutDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-,
-
-[curve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
-, or
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-that defines the direction of the Normal Cut
+[Edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html), [curve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html), or [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) that defines the direction of the Normal Cut
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData2::CutDirection](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~CutDirection.html)
-
-.
+See [SMNormalCutFeatureData2::CutDirection](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~CutDirection.html).
 
 ## Examples
 
-See the
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-example.
+See the [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html) example.
 
 ## See Also
 
 [ISMNormalCutFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
 [ISMNormalCutFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html)
 
 ## Availability

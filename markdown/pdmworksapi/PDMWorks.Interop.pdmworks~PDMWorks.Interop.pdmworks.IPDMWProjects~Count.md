@@ -48,18 +48,12 @@ Number of projects
 
 ## VBA Syntax
 
-See
-
-[PDMWProjects::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProjects~Count.html)
-
-.
+See [PDMWProjects::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProjects~Count.html).
 
 ## See Also
 
 [IPDMWProjects Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects.html)
-
 [IPDMWProjects Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects_members.html)
-
 [IPDMWProjects::Item Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects~Item.html)
 
 ## Availability

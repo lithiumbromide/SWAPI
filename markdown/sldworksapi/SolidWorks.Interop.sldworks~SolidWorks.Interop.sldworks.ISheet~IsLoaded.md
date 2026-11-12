@@ -40,13 +40,7 @@ System.bool IsLoaded()
 System.bool IsLoaded();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ True if the sheet is loaded, false if not
 
 ## VBA Syntax
 
-See
-
-[Sheet::IsLoaded](ms-its:sldworksapivb6.chm::/sldworks~Sheet~IsLoaded.html)
-
-.
+See [Sheet::IsLoaded](ms-its:sldworksapivb6.chm::/sldworks~Sheet~IsLoaded.html).
 
 ## Examples
 
 [Get Loaded Sheets (C#)](Get_Loaded_Sheets_Example_CSharp.htm)
-
 [Get Loaded Sheets (VB.NET)](Get_Loaded_Sheets_Example_VBNET.htm)
-
 [Get Loaded Sheets (VBA)](Get_Loaded_Sheets_Example_VB.htm)
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
 
 ## Availability

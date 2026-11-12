@@ -42,16 +42,8 @@ System.int GetLocalVersionNo2(
 
 ### Parameters
 
-- `poPathOrFolderID`: ID of a folder, full file path, or folder path of the local copy of this file (see
-
-Remarks
-
-)
-- `pbLocalOverwrittenVersionObsolete`: True if the file in the user's local cache is obsolete, false if it is valid (see
-
-Remarks
-
-)
+- `poPathOrFolderID`: ID of a folder, full file path, or folder path of the local copy of this file (see **Remarks**)
+- `pbLocalOverwrittenVersionObsolete`: True if the file in the user's local cache is obsolete, false if it is valid (see **Remarks**)
 
 ### Return Value
 
@@ -71,7 +63,6 @@ pbLocalOverwrittenVersionObsolete gets whether a file in a user's local cache is
 ## See Also
 
 [IEdmFile12 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile12.html)
-
 [IEdmFile12 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile12_members.html)
 
 ## Availability

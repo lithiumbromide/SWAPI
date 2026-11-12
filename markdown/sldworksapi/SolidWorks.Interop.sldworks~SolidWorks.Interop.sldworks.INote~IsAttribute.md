@@ -40,24 +40,13 @@ System.bool IsAttribute()
 System.bool IsAttribute();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Note::IsAttribute](ms-its:sldworksapivb6.chm::/sldworks~Note~IsAttribute.html)
-
-.
+See [Note::IsAttribute](ms-its:sldworksapivb6.chm::/sldworks~Note~IsAttribute.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)

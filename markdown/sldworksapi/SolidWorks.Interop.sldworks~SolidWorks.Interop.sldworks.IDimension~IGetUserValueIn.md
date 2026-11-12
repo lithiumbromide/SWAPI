@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IGetUserValueIn Method (IDimension)
 
-Obsolete. Superseded by
-
-[IDimension::IGetUserValueIn2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~IGetUserValueIn2.html)
-
-.
+Obsolete. Superseded by [IDimension::IGetUserValueIn2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~IGetUserValueIn2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double IGetUserValueIn(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Dimension::IGetUserValueIn](ms-its:sldworksapivb6.chm::/sldworks~Dimension~IGetUserValueIn.html)
-
-.
+See [Dimension::IGetUserValueIn](ms-its:sldworksapivb6.chm::/sldworks~Dimension~IGetUserValueIn.html).
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)

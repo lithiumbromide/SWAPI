@@ -45,13 +45,7 @@ property System.Object^ SelectionSlotFace {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::SelectionSlotFace](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~SelectionSlotFace.html)
-
-.
+See [TabAndSlotGroupData::SelectionSlotFace](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~SelectionSlotFace.html).
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

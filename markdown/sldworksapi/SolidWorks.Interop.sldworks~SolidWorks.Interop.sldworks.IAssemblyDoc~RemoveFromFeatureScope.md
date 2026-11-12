@@ -47,13 +47,7 @@ System.bool RemoveFromFeatureScope(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if successfully removed, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::RemoveFromFeatureScope](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~RemoveFromFeatureScope.html)
-
-.
+See [AssemblyDoc::RemoveFromFeatureScope](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~RemoveFromFeatureScope.html).
 
 ## Remarks
 
@@ -84,18 +74,13 @@ There are two ways to use the this technique:
 - If you have an assembly feature selected, this method removes a component from the assembly features scope. Any component that is not in the scope of the assembly feature cannot be affected by the assembly feature.
 - If you create a list of components, this method allows you to remove a component from the list. The next assembly feature created affects each of the components in your list.
 
-After you use one of these techniques, you can use[IAssemblyDoc::UpdateFeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~UpdateFeatureScope.html)to display the changes.
+After you use one of these techniques, you can use [IAssemblyDoc::UpdateFeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~UpdateFeatureScope.html) to display the changes.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::UpdateFeatureScope Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~UpdateFeatureScope.html)
-
 [IAssemblyDoc::AddToFeatureScope Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddToFeatureScope.html)
-
 [IAssemblyDoc::GetFeatureScope Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetFeatureScope.html)
-
 [IAssemblyDoc::GetFeatureScopeCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetFeatureScopeCount.html)

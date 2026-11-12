@@ -48,17 +48,11 @@ void SetMinMaxFormulationForLoadCases(
 
 ### Parameters
 
-- `NMinMaxFormulationForLoadCases`: Activation option for min max formulation for load cases as defined in
-
-[swsTopologyActivationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyActivationOption_e.html)
+- `NMinMaxFormulationForLoadCases`: Activation option for min max formulation for load cases as defined in [swsTopologyActivationOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyActivationOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyOptions::SetMinMaxFormulationForLoadCases](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyOptions~SetMinMaxFormulationForLoadCases.html)
-
-.
+See [CWTopologyStudyOptions::SetMinMaxFormulationForLoadCases](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyOptions~SetMinMaxFormulationForLoadCases.html).
 
 ## Remarks
 
@@ -67,7 +61,6 @@ If NMinMaxFormulationForLoadCases is set to swsTopologyActivationOption_e.Activa
 ## See Also
 
 [ICWTopologyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions.html)
-
 [ICWTopologyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions_members.html)
 
 ## Availability

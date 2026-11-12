@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditSuppress Method (IModelDoc2)
 
-Obsolete. Superseded
-
-[IModelDoc2::EditSuppress2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditSuppress2.html)
-
-.
+Obsolete. Superseded [IModelDoc2::EditSuppress2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditSuppress2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool EditSuppress()
 System.bool EditSuppress();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::EditSuppress](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EditSuppress.html)
-
-.
+See [ModelDoc2::EditSuppress](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EditSuppress.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

@@ -46,26 +46,16 @@ Name of this stress constraint
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStressConstraint::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~GetName.html)
-
-.
+See [CWTopologyStressConstraint::GetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint~GetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
-example.
+See the [ICWTopologyStressConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html) example.
 
 ## See Also
 
 [ICWTopologyStressConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint.html)
-
 [ICWTopologyStressConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint_members.html)
-
 [ICWTopologyStressConstraint::SetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint~SetName.html)
 
 ## Availability

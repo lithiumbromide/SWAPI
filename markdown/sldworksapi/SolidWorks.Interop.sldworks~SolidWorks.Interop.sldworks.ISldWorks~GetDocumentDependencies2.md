@@ -59,13 +59,7 @@ System.Object^ GetDocumentDependencies2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -83,20 +77,13 @@ Array of strings with two strings for each document returned in this list of dep
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetDocumentDependencies2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetDocumentDependencies2.html)
-
-.
+See [SldWorks::GetDocumentDependencies2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetDocumentDependencies2.html).
 
 ## Examples
 
 [Get Dependencies for Open and Unopened Documents (VBA)](Get_Dependencies_for_Open_and_Unopened_Documents_Example_VB.htm)
-
 [Copy Document and Its Dependencies (VBA)](Copy_Document_and_Its_Dependencies_Example_VB.htm)
-
 [Copy Document and Its Dependencies (VB.NET)](Copy_Document_and_Its_Dependencies_Example_VBNET.htm)
-
 [Copy Document and Its Dependencies (C#)](Copy_Document_and_Its_Dependencies_Example_CSharp.htm)
 
 ## Remarks
@@ -109,24 +96,21 @@ Be aware that Library features are completely unassociated. They do not require 
 
 If you use this method with an assembly that contains two documents, Part1 and SubAssem1, an example of what might be returned is:
 
-["Part1", "C:\temp\Part1.SLDPRT", "SubAssem1", "c:\temp\SubAssem1.SLDASM"]
+[ "Part1", "C:\temp\Part1.SLDPRT", "SubAssem1", "c:\temp\SubAssem1.SLDASM" ]
 
-IfTraverseflag isset to True, then all of the documents contained in SubAssem1.ASM are also returned. Suppressed components are recognized and returned by this method as a dependent file.
+If Traverseflag is set to True, then all of the documents contained in SubAssem1.ASM are also returned. Suppressed components are recognized and returned by this method as a dependent file.
 
 If the AddReadOnlyInfo flag is set to True, then a string of "Read-Only" is added to the list of strings. If Part1 from were read-only, then the resulting set of strings would be:
 
-["Part1", "C:\temp\Part1.SLDPRT", "Read-Only", "SubAssem1", "c:\temp\SubAssem1.SLDASM", ""]
+[ "Part1", "C:\temp\Part1.SLDPRT", "Read-Only", "SubAssem1", "c:\temp\SubAssem1.SLDASM", "" ]
 
-NOTE:If the SearchFlag is set to True, then the current directory is set to the directory of the document file. This replicates the interactive behavior of theReferencesbutton in the File Open dialog window.
+NOTE: If the SearchFlag is set to True, then the current directory is set to the directory of the document file. This replicates the interactive behavior of the References button in the File Open dialog window.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::IGetDocumentDependencies2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetDocumentDependencies2.html)
-
 [ISldWorks::IGetDocumentDependenciesCount2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetDocumentDependenciesCount2.html)
 
 ## Availability

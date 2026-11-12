@@ -58,41 +58,28 @@ void GetTransparency(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style`: Style as defined by
-
-[swSketchPictureTransparencyStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchPictureTransparencyStyle_e.html)
+- `Style`: Style as defined by [swSketchPictureTransparencyStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchPictureTransparencyStyle_e.html)
 - `Transparency`: - 0 = opaque
-- 1 = transparent
+  - 1 = transparent
 
-describing the relative transparency depending on the value of Style
+  describing the relative transparency depending on the value of Style
 - `MatchingColor`: RGB color used as the transparent color when Style is swSketchPictureTransparencyUserDefined
 - `MatchingTolerance`: - 0 = exact match
-- 1 = less exact match
+  - 1 = less exact match
 
-indicating how closely MatchingColor must be to be considered a transparent color when Style is swSketchPictureTransparencyUserDefined
+  indicating how closely MatchingColor must be to be considered a transparent color when Style is swSketchPictureTransparencyUserDefined
 
 ## VBA Syntax
 
-See
-
-[SketchPicture::GetTransparency](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~GetTransparency.html)
-
-.
+See [SketchPicture::GetTransparency](ms-its:sldworksapivb6.chm::/Sldworks~SketchPicture~GetTransparency.html).
 
 ## See Also
 
 [ISketchPicture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
 [ISketchPicture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture_members.html)
 
 ## Availability

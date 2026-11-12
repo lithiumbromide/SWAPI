@@ -47,55 +47,34 @@ property System.int PinBallRadiusUnit {
 
 ### Property Value
 
-Units for pinball radius as defined in[swsPinballUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPinballUnit_e.html)
+Units for pinball radius as defined in [swsPinballUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPinballUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWJoints::PinBallRadiusUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWJoints~PinBallRadiusUnit.html)
-
-.
+See [CWJoints::PinBallRadiusUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWJoints~PinBallRadiusUnit.html).
 
 ## Examples
 
 [Get and Set Beams and Joints (C#)](Get_and_Set_Beams_and_Joints_Example_CSharp.htm)
-
 [Get and Set Beams and Joints (VB.NET)](Get_and_Set_Beams_and_Joints_Example_VBNET.htm)
-
 [Get and Set Beams and Joints (VBA)](Get_and_Set_Beams_and_Joints_Example_VB.htm)
 
 ## Remarks
 
 To specify the unit for the pinball radius:
 
-1. [Begin editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsBeginEdit.html)
-
-  .
-2. Specify to
-
-  [overwrite the pinball value](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~IncludeTreatAsJointForClearanceLessThan.html)
-
-  .
-3. [Optionally change the pinball radius](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~PinBallRadius.html)
-
-  .
+1. [Begin editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsBeginEdit.html).
+2. Specify to [overwrite the pinball value](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~IncludeTreatAsJointForClearanceLessThan.html).
+3. [Optionally change the pinball radius](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~PinBallRadius.html).
 4. Change the unit for the pinball radius by calling this method.
-5. [Calculate](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~CalculateJoints.html)
-
-  the joints.
-6. [End editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsEndEdit.html)
-
-  .
+5. [Calculate](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~CalculateJoints.html) the joints.
+6. [End editing](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWJoints~JointsEndEdit.html).
 
 ## See Also
 
 [ICWJoints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints.html)
-
 [ICWJoints Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints_members.html)
-
 [ICWJoints::IncludeTreatAsJointForClearanceLessThan Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints~IncludeTreatAsJointForClearanceLessThan.html)
-
 [ICWJoints::PinBallRadius Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints~PinBallRadius.html)
 
 ## Availability

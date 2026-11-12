@@ -9,11 +9,7 @@ source: "dsgnchkapi/SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDes
 
 # RunDesignCheck2 Method (ISWDesignCheck)
 
-Obsolete. Superseded by
-
-[ISWDesignCheck::RunDesignCheck3](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.ISWDesignCheck~RunDesignCheck3.html)
-
-.
+Obsolete. Superseded by [ISWDesignCheck::RunDesignCheck3](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.ISWDesignCheck~RunDesignCheck3.html).
 
 ## Syntax
 
@@ -72,24 +68,18 @@ System.int RunDesignCheck2(
 - `StandardFileName`: Path and filename of SOLIDWORKS Design Checker standards document
 - `ReportFolderName`: Name of report
 
-**NOTE:**A filename extension of**.dxp**is automatically appended to the specified filename. The report is an XML file.
+  **NOTE:** A filename extension of **.dxp** is automatically appended to the specified filename. The report is an XML file.
 - `AddReportToDesignBinder`: True to add the report to the Design Binder, false to not
 - `OverWriteReport`: True to overwrite any existing report of the same name in the Design Binder, false to not
 - `bCanViewReportOnSave`: True to display the report when saved, false to not
 
 ### Return Value
 
-Error code as defined in
-
-[dsgnchkError_e](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.dsgnchkError_e.html)
+Error code as defined in [dsgnchkError_e](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.dsgnchkError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SWDesignCheck::RunDesignCheck2](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~RunDesignCheck2.html)
-
-.
+See [SWDesignCheck::RunDesignCheck2](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~RunDesignCheck2.html).
 
 ## Remarks
 
@@ -98,7 +88,6 @@ This method can also add a new, or overwrite an existing, report to the Design B
 ## See Also
 
 [ISWDesignCheck Interface](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck.html)
-
 [ISWDesignCheck Members](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # ICWMesh Interface Methods
 
-For a list of all members of this type, see[ICWMesh members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html).
+For a list of all members of this type, see [ICWMesh members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html).
 
 ## Public Methods
 
@@ -17,8 +17,7 @@ For a list of all members of this type, see[ICWMesh members](SolidWorks.Interop.
 | --- | --- | --- |
 | Method | ApplyMeshControl | Creates a mesh control. |
 | Method | DeleteMeshControl | Deletes a mesh control. |
-| Method | FlipShellElements | Flips shell elements associated with the selected shells (i.e., top face becomes the
-bottom face and vice versa). |
+| Method | FlipShellElements | Flips shell elements associated with the selected shells (i.e., top face becomes the bottom face and vice versa). |
 | Method | GetConnectivity | Gets the connectivity of nodes on the surface of the model. |
 | Method | GetDefaultElementSizeAndTolerance | Gets the default element size and tolerance. |
 | Method | GetDefaultMaxAndMinElementSize | Gets the default maximum and minimum element sizes used for boundaries in a curvature-based mesh. |
@@ -52,11 +51,7 @@ bottom face and vice versa). |
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWStudy::CopyMeshFromStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CopyMeshFromStudy.html)
-
 [ICWStudy::CreateMesh Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CreateMesh.html)

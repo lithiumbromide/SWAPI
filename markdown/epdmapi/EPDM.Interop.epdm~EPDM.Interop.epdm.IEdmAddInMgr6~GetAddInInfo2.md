@@ -47,21 +47,15 @@ void GetAddInInfo2(
 
 - `bsPath`: Path to the DLL about which to get information
 - `oReserved`: Must be empty
-- `poInfo`: [EdmAddInInfo2 structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2.html)
-
-; returned add-in information
+- `poInfo`: [EdmAddInInfo2 structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2.html); returned add-in information
 
 ## Examples
 
-See the
-
-[IEdmAddInMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html)
-
-examples.
+See the [IEdmAddInMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html) examples.
 
 ## Remarks
 
-This method supersedes[IEdmAddInMgr5::GetAddInInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5~GetAddInInfo.html)which returned less information about the add-in.
+This method supersedes [IEdmAddInMgr5::GetAddInInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5~GetAddInInfo.html) which returned less information about the add-in.
 
 [Return codes](ReturnCodes.htm):
 
@@ -71,7 +65,6 @@ This method supersedes[IEdmAddInMgr5::GetAddInInfo](EPDM.Interop.epdm~EPDM.Inter
 ## See Also
 
 [IEdmAddInMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6.html)
-
 [IEdmAddInMgr6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6_members.html)
 
 ## Availability

@@ -9,101 +9,32 @@ source: "swconst/DP_SheetMetalMBD.htm"
 
 # Document Properties > Sheet Metal MBD
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Flat pattern colors - Bend Lines - Up Direction | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBendLinesUpDirection,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBendLinesUpDirection,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
-| Flat pattern colors - Bend Lines - Up Direction - Line style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLineStyle_BendLinesUp,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLineStyle_BendLinesUp,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | Any line style as defined in swLineStyles_e except swLineDEFAULT |  |
-| Flat pattern colors - Bend Lines - Down Direction | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBendLinesDownDirection,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBendLinesDownDirection,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
-| Flat pattern colors - Bend Lines - Down Direction - Line style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLineStyle_BendLinesDown,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLineStyle_BendLinesDown,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | Any line style as defined in swLineStyles_e except swLineDEFAULT |  |
-| Flat pattern colors - Form Feature | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsFromFeature,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsFromFeature,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
-| Flat pattern colors - Bend Lines - Hems | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalColorBendLinesHems,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalColorBendLinesHems,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
-| Flat pattern colors - Model Edges | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsModelEdges,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsModelEdges,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
-| Flat pattern colors - Flat Pattern Sketch Color | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsFlatPatternSketchColor,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsFlatPatternSketchColor,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
-| Flat pattern colors - Bounding box | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBoundingBox,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBoundingBox,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
-| Bend notes - Display sheet metal bend notes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDDisplaySheetMetalBendNotes,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDDisplaySheetMetalBendNotes,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
-| Bend notes - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDBendNotesStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDBendNotesStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swSheetMetalMBDBendNotesStyle_e.< Value >) | See swSheetMetalMBDBendNotesStyle_e for valid options |  |
-| Bend notes - Leader style - Leader style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |
-| Bend notes - Leader style - Leader thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | If set to swLW_CUSTOM , you must also
-set Leader style - Leader thickness - Custom Thickness |
-| Bend notes - Leader style - Leader thickness - Custom Thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDLeaderLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDLeaderLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | 0.00018 <= Double value in meters <= 0.004 | Valid only if Leader thickness is set to
-swLineWeights_e.swLW_CUSTOM |
-| Bend notes - Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swSheetMetalMBDTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swSheetMetalMBDTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in this API's
-set method |
-| Bend notes - Text - Text alignment | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDTextAlignment,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDTextAlignment,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swTextJustification_e.< Value >) | See swTextJustification_e for valid options; None is not a valid option |  |
-| Bend notes - Leader anchor | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderAnchor,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderAnchor,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderSide_e.< Value >) | See swLeaderSide_e for valid options |  |
-| Bend notes - Leader display | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderDisplay,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderStyle_e.< Value >) | See swLeaderStyle_e for valid options |  |
-| Bend notes - Leader display - Use document leader length | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDUseDocumentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDUseDocumentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Valid only if Leader display is set to swLeaderStyle_e.Bent |
-| Bend notes - Leader display - Leader length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | 1.0E-7 <= Double value in meters <= 1000.0 | Valid only if Use document leader length is set to false |
-| Bend notes - Leader display - Leader justification snapping | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDLeaderJustificationSnapping,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDLeaderJustificationSnapping,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
-| Bend notes - Border - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDBalloonStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDBalloonStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBalloonStyle_e.< Value >) | See swBalloonStyle_e for valid options; swBS_SplitCir and swBS_Underline are not valid options |  |
-| Bend notes - Border - Size | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDFit,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDFit,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBalloonFit_e.< Value >) | See swBalloonFit_e for valid options | If set to swBF_UserDef ,
-you must also set Bend notes - Border - Size - Custom Size |
-| Bend notes - Border - Size - Custom Size | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDBorderSizeCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDBorderSizeCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | 0.0002 <= Double value in meters <= 1000.0 | Valid only if Border Size is set to swBF_UserDef |
-| Bend notes - Format | IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | True value only | This property is write-true only. The default setting keeps the current bend
-note format. To exchange the current bend note format to another that is specified in a bend note file: Specify a new bend note file in System Options > File Locations > Show
-folders for > Sheet Metal Bend Line Note File > Folders or set it
-using ISldWorks::SetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsBendNoteFormatFile,
-< Value >) See System Options > File Locations
-documentation . Set this property to true. |
-| Show fixed face | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDShowFixedFace,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDShowFixedFace,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
-| Show grain direction | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDShowGrainDirection,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDShowGrainDirection,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
+| Flat pattern colors - Bend Lines - Up Direction | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBendLinesUpDirection, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBendLinesUpDirection, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
+| Flat pattern colors - Bend Lines - Up Direction - Line style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLineStyle_BendLinesUp, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLineStyle_BendLinesUp, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | Any line style as defined in swLineStyles_e except swLineDEFAULT |  |
+| Flat pattern colors - Bend Lines - Down Direction | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBendLinesDownDirection, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBendLinesDownDirection, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
+| Flat pattern colors - Bend Lines - Down Direction - Line style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLineStyle_BendLinesDown, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLineStyle_BendLinesDown, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | Any line style as defined in swLineStyles_e except swLineDEFAULT |  |
+| Flat pattern colors - Form Feature | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsFromFeature, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsFromFeature, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
+| Flat pattern colors - Bend Lines - Hems | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalColorBendLinesHems, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalColorBendLinesHems, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
+| Flat pattern colors - Model Edges | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsModelEdges, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsModelEdges, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
+| Flat pattern colors - Flat Pattern Sketch Color | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsFlatPatternSketchColor, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsFlatPatternSketchColor, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
+| Flat pattern colors - Bounding box | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBoundingBox, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swFlatPatternColorsBoundingBox, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer RGB value |  |
+| Bend notes - Display sheet metal bend notes | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDDisplaySheetMetalBendNotes, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDDisplaySheetMetalBendNotes, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
+| Bend notes - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDBendNotesStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDBendNotesStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swSheetMetalMBDBendNotesStyle_e.< Value >) | See swSheetMetalMBDBendNotesStyle_e for valid options |  |
+| Bend notes - Leader style - Leader style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |
+| Bend notes - Leader style - Leader thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | If set to swLW_CUSTOM , you must also set Leader style - Leader thickness - Custom Thickness |
+| Bend notes - Leader style - Leader thickness - Custom Thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDLeaderLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDLeaderLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | 0.00018 <= Double value in meters <= 0.004 | Valid only if Leader thickness is set to swLineWeights_e.swLW_CUSTOM |
+| Bend notes - Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swSheetMetalMBDTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swSheetMetalMBDTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in this API's set method |
+| Bend notes - Text - Text alignment | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDTextAlignment, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDTextAlignment, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swTextJustification_e.< Value >) | See swTextJustification_e for valid options; None is not a valid option |  |
+| Bend notes - Leader anchor | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderAnchor, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderAnchor, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderSide_e.< Value >) | See swLeaderSide_e for valid options |  |
+| Bend notes - Leader display | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDLeaderDisplay, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderStyle_e.< Value >) | See swLeaderStyle_e for valid options |  |
+| Bend notes - Leader display - Use document leader length | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDUseDocumentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDUseDocumentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Valid only if Leader display is set to swLeaderStyle_e.Bent |
+| Bend notes - Leader display - Leader length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | 1.0E-7 <= Double value in meters <= 1000.0 | Valid only if Use document leader length is set to false |
+| Bend notes - Leader display - Leader justification snapping | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDLeaderJustificationSnapping, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDLeaderJustificationSnapping, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
+| Bend notes - Border - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDBalloonStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDBalloonStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBalloonStyle_e.< Value >) | See swBalloonStyle_e for valid options; swBS_SplitCir and swBS_Underline are not valid options |  |
+| Bend notes - Border - Size | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDFit, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swSheetMetalMBDFit, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBalloonFit_e.< Value >) | See swBalloonFit_e for valid options | If set to swBF_UserDef , you must also set Bend notes - Border - Size - Custom Size |
+| Bend notes - Border - Size - Custom Size | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDBorderSizeCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swSheetMetalMBDBorderSizeCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | 0.0002 <= Double value in meters <= 1000.0 | Valid only if Border Size is set to swBF_UserDef |
+| Bend notes - Format | IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | True value only | This property is write-true only. The default setting keeps the current bend note format. To exchange the current bend note format to another that is specified in a bend note file: Specify a new bend note file in System Options > File Locations > Show folders for > Sheet Metal Bend Line Note File > Folders or set it using ISldWorks::SetUserPreferenceStringValue (swUserPreferenceStringValue_e.swFileLocationsBendNoteFormatFile, < Value >) See System Options > File Locations documentation . Set this property to true. |
+| Show fixed face | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDShowFixedFace, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDShowFixedFace, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |
+| Show grain direction | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDShowGrainDirection, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swSheetMetalMBDShowGrainDirection, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value |  |

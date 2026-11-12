@@ -45,29 +45,15 @@ property System.int BOMPartNoSource {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Source of part number as defined in
-
-[swBOMPartNumberSource_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMPartNumberSource_e.html)
-
-EndOLEPropertyRow
+Source of part number as defined in [swBOMPartNumberSource_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMPartNumberSource_e.html)
 
 ## VBA Syntax
 
-See
-
-[Configuration::BOMPartNoSource](ms-its:sldworksapivb6.chm::/sldworks~Configuration~BOMPartNoSource.html)
-
-.
+See [Configuration::BOMPartNoSource](ms-its:sldworksapivb6.chm::/sldworks~Configuration~BOMPartNoSource.html).
 
 ## Examples
 
@@ -75,20 +61,13 @@ See
 
 ## Remarks
 
-If you specify this property with anything other than swBOMPartNumberSource_e.swBOMPartNumber_UserSpecified, then
-
-[IConfiguration::AlternateName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~AlternateName.html)
-
-is set to an empty string.
+If you specify this property with anything other than swBOMPartNumberSource_e.swBOMPartNumber_UserSpecified, then [IConfiguration::AlternateName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~AlternateName.html) is set to an empty string.
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::Name Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~Name.html)
-
 [IConfiguration::UseAlternateNameInBOM Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~UseAlternateNameInBOM.html)
 
 ## Availability

@@ -47,21 +47,11 @@ System.bool MakeSubFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SubFeature`: Pointer to the
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-to become a subfeature
+- `SubFeature`: Pointer to the [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) to become a subfeature
 
 ### Return Value
 
@@ -69,11 +59,7 @@ True if the feature becomes a subfeature, false if not
 
 ## VBA Syntax
 
-See
-
-[Feature::MakeSubFeature](ms-its:sldworksapivb6.chm::/sldworks~Feature~MakeSubFeature.html)
-
-.
+See [Feature::MakeSubFeature](ms-its:sldworksapivb6.chm::/sldworks~Feature~MakeSubFeature.html).
 
 ## Examples
 
@@ -88,15 +74,10 @@ See
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::GetFirstSubFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetFirstSubFeature.html)
-
 [IFeature::GetNextSubFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetNextSubFeature.html)
-
 [IFeature::IGetFirstSubFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IGetFirstSubFeature.html)
-
 [IFeature::IGetNextSubFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IGetNextSubFeature.html)
 
 ## Availability

@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/files/{fileId}/transitions?version={version} |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > File Resource Group : api/{vaultName}/files/{fileId}/transitions?version={version} (Get) |
 | --- |
@@ -148,8 +144,4 @@ This operation returns an array of HistoryTransition objects, one for each trans
 
 See Also
 
-[File Resource Group](PDM%20Pro%20API_ws~g-0e45981b-3619-4486-b05d-cc362f26dd7c.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[File Resource Group](PDM%20Pro%20API_ws~g-0e45981b-3619-4486-b05d-cc362f26dd7c.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

@@ -15,8 +15,7 @@ SOLIDWORKS DimXpert API
 
 | Interface | Description |
 | --- | --- |
-| DimXpertAngleBetweenCircularDimTol |  |
-| IDimXpertAngleBetweenCircularDimTol |  |
+| IDimXpertAngleBetweenCircularDimTol | Allows you to access DimXpert angle-between circular dimension tolerances. |
 | IDimXpertAngleBetweenDimTol | Allows you to access DimXpert angle-between dimension tolerances. |
 | IDimXpertAnnotation | Allows you to access DimXpert annotations on the DimXpertManager tab of the Management Panel. |
 | IDimXpertAutoDimSchemeOption | Allows you to get and set Auto Dimension Scheme options. |
@@ -60,6 +59,7 @@ SOLIDWORKS DimXpert API
 | IDimXpertPlaneFeature | Allows you to access specific information about DimXpert planes on the DimXpertManager tab of the Management Panel. |
 | IDimXpertPositionTolerance | Allows you to access DimXpert position tolerances. |
 | IDimXpertRadiusDimTol | Allows you to access DimXpert radius dimension tolerances. |
+| IDimXpertRefPlaneFeature | Allows you to access specific information about DimXpert reference planes on the DimXpertManager tab of the Management Panel. |
 | IDimXpertSphereFeature | Allows you to access specific information about DimXpert spheres on the DimXpertManager tab of the Management Panel. |
 | IDimXpertStraightnessTolerance | Allows you to access DimXpert straightness tolerances. |
 | IDimXpertSurfaceProfileTolerance | Allows you to access DimXpert surface profile tolerances. |

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard7_members.html"
 
 # IEdmCard7 Interface Members
 
-The following tables list the members exposed by[IEdmCard7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard7.html).
+The following tables list the members exposed by [IEdmCard7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard7.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmCard7](EPDM.Interop.epdm~EP
 ## See Also
 
 [IEdmCard7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard7.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

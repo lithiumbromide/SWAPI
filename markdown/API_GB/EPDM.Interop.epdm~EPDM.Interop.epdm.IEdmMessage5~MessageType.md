@@ -35,22 +35,15 @@ property EdmMsgType MessageType {
 
 ### Property Value
 
-Type of the message as defined in
-
-[EdmMsgType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMsgType.html)
+Type of the message as defined in [EdmMsgType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMsgType.html)
 
 ## Examples
 
-See the
-
-[IEdmMessage5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html)
-
-examples.
+See the [IEdmMessage5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html) examples.
 
 ## See Also
 
 [IEdmMessage5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5.html)
-
 [IEdmMessage5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMessage5_members.html)
 
 ## Availability

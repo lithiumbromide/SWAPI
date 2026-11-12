@@ -71,20 +71,14 @@ System.int IConvertPcurveToBcurveSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Dim`: Dimension of the curve:
 
-- 3 = nonrational
-- 4 = rational
+  - 3 = nonrational
+  - 4 = rational
 - `Order`: Order of the curve; minimum is 2 (linear)
 - `Nsegs`: Number of segments in the curve; must be at least 1
 - `Coeffs`: Array of coefficients
@@ -98,11 +92,7 @@ Indicates that conversion succeeded or failed
 
 ## VBA Syntax
 
-See
-
-[Curve::IConvertPcurveToBcurveSize](ms-its:sldworksapivb6.chm::/sldworks~Curve~IConvertPcurveToBcurveSize.html)
-
-.
+See [Curve::IConvertPcurveToBcurveSize](ms-its:sldworksapivb6.chm::/sldworks~Curve~IConvertPcurveToBcurveSize.html).
 
 ## Remarks
 
@@ -137,52 +127,40 @@ Polynomial coefficients:
 
 The curve equation is given by a rational polynomial of order 'order':
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}nkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}n
+n n
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}--kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ikadov_tag{{<spaces>}}kadov_tag{{</spaces>}}/ --kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}i
+-- i / -- i
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}P(t)kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}wkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Akadov_tag{{<spaces>}}kadov_tag{{</spaces>}}tkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}/kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}wkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}t
+P(t) = > w A t / > w t
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}--kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ikadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ikadov_tag{{<spaces>}}kadov_tag{{</spaces>}}/kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}--kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}i
+-- i i / -- i
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}i=0kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}i=0
+i=0 i=0
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}where n = order-1
+where n = order-1
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}A = polynomial coefficient
+A = polynomial coefficient
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}i
+i
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}w = weight for A
+w = weight for A
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ikadov_tag{{<spaces>}}kadov_tag{{</spaces>}}i
+i i
 
-The polynomial coefficients are supplied starting with the constantkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}term and ending with the term of highest degree.
+The polynomial coefficients are supplied starting with the constant term and ending with the term of highest degree.
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::ExtentCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~ExtentCurve.html)
-
 [ICurve::MakeBsplineCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~MakeBsplineCurve.html)
-
 [ICurve::SimplifyBCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~SimplifyBCurve.html)
-
 [ConvertArcToBcurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~ConvertArcToBcurve.html)
-
 [ConvertLineToBcurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~ConvertLineToBcurve.html)
-
 [GetBCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetBCurveParams.html)
-
 [ICurve::IConvertArcToBcurveSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IConvertArcToBcurveSize.html)
-
 [ICurve::IConvertLineToBcurveSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IConvertLineToBcurveSize.html)
-
 [ICurve::IGetBCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetBCurveParams.html)
-
 [ICurve::IGetBCurveParamsSize2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IGetBCurveParamsSize2.html)
-
 [ICurve::IsBcurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IsBcurve.html)

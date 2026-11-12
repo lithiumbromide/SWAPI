@@ -51,30 +51,16 @@ System.Object^ Command(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Command`: Command as defined by
-
-[swCommand_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCommand_e.html)
-- `Args`: See
-
-Remarks
+- `Command`: Command as defined by [swCommand_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCommand_e.html)
+- `Args`: See Remarks
 
 ## VBA Syntax
 
-See
-
-[SldWorks::Command](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~Command.html)
-
-.
+See [SldWorks::Command](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~Command.html).
 
 ## Remarks
 
@@ -86,7 +72,6 @@ See
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

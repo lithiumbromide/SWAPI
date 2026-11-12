@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd2~ShowDlg.html"
 
 # ShowDlg Method (IEdmBatchAdd2)
 
-Shows a dialog box containing information about the file and folders that are about to be added to the vault by
-
-[IEdmBatchAdd::CommitAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd~CommitAdd.html)
-
-.
+Shows a dialog box containing information about the file and folders that are about to be added to the vault by [IEdmBatchAdd::CommitAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd~CommitAdd.html).
 
 ## Syntax
 
@@ -53,31 +49,17 @@ System.bool ShowDlg(
 ### Parameters
 
 - `hParentWnd`: Parent window handle for the dialog box
-- `lEdmAddFileDlgFlags`: Combination of
-
-[EdmAddFileDlgFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileDlgFlag.html)
-
-bits
+- `lEdmAddFileDlgFlags`: Combination of [EdmAddFileDlgFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileDlgFlag.html) bits
 - `bsMessage`: Message to display in the dialog box
 - `bsCaption`: Dialog box caption
 
 ### Return Value
 
-True if the user clicked
-
-OK
-
-, false if the user clicked
-
-Cancel
+True if the user clicked **OK**, false if the user clicked **Cancel**
 
 ## Examples
 
-See the
-
-[IEdmBatchAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html)
-
-examples.
+See the [IEdmBatchAdd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd.html) examples.
 
 ## Remarks
 
@@ -89,7 +71,6 @@ examples.
 ## See Also
 
 [IEdmBatchAdd2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd2.html)
-
 [IEdmBatchAdd2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAdd2_members.html)
 
 ## Availability

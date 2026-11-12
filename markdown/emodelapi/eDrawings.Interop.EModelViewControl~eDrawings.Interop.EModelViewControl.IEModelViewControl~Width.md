@@ -48,32 +48,19 @@ Width of the control
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::Width](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~Width.html)
-
-.
+See [EModelViewControl::Width](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~Width.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## Remarks
 
-Depending on the programming environment, width and
-
-[height](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Height.html)
-
-may be displayed in either Twips or Pixels. See MSDN for more information on Twips
+Depending on the programming environment, width and [height](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Height.html) may be displayed in either Twips or Pixels. See MSDN for more information on Twips
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

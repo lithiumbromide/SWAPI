@@ -9,57 +9,20 @@ source: "swconst/DP_CenterlinesCenterMarks.htm"
 
 # Document Properties > Centerlines/CenterMarks
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
 ## Document Properties > Centerlines/Center Marks
-
-(Table)=========================================================
 
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Centerlines - Centerline extension | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterlineExtension,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterlineExtension,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies length to extend the centerline beyond section geometry when
-in a drawing view |
-| Center marks - Size | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterMarkSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterMarkSize,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies the size of center marks in drawings |
-| Center marks - Gap | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterMarkGap,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterMarkGap,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies the center mark gap size |
-| Center marks - Scale by
-view scale | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkScaleByViewScale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkScaleByViewScale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to scale center marks by the view scale |
-| Center marks - Extended lines | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkShowLines,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkShowLines,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display center mark extension lines |
-| Center marks - Centerline font | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkUseCenterLine,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkUseCenterLine,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether lines in center marks use font specified for centerlines |
-| Slot center marks - Orient to slot or Orient to sheet | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swCenterLineMarkOrient,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swCenterLineMarkOrient,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swCenterLineMarkOrient_e.< Value >) | See swCenterLineMarkOrient_e for valid options | Specifies the orientation of the centerline marks |
-| Slot center marks - Place mark at centers of straight slots | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkLinear,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkLinear,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies placement of marks at centers of straight slots |
-| Slot center marks - Place mark at ends of straight slots | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkEndsOnlyLinear,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkEndsOnlyLinear,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies placement of marks at ends of straight slots; only available
-with Slot center marks - Orient to slot option |
-| Slot center marks - Place mark at centers of arc slots | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkCircular,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkCircular,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies placement of marks at centers of arc slots |
-| Slot center marks - Place mark at ends of arc slots | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkEndsOnlyCircular,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkEndsOnlyCircular,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies placement of marks at ends of arc slots; only available with Slot center marks - Orient to slot option |
-| Centerline layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swCenterLineLayer,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swCenterLineLayer,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | Depending on the drawing, some
-options may not apply |
-| Center mark layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swCenterMarkLayer,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swCenterMarkLayer,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | Depending on drawing, some
-options may not apply |
+| Centerlines - Centerline extension | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterlineExtension, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterlineExtension, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies length to extend the centerline beyond section geometry when in a drawing view |
+| Center marks - Size | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterMarkSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterMarkSize, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies the size of center marks in drawings |
+| Center marks - Gap | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterMarkGap, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingCenterMarkGap, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies the center mark gap size |
+| Center marks - Scale by view scale | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkScaleByViewScale, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkScaleByViewScale, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to scale center marks by the view scale |
+| Center marks - Extended lines | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkShowLines, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkShowLines, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display center mark extension lines |
+| Center marks - Centerline font | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkUseCenterLine, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingCenterMarkUseCenterLine, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether lines in center marks use font specified for centerlines |
+| Slot center marks - Orient to slot or Orient to sheet | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swCenterLineMarkOrient, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swCenterLineMarkOrient, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swCenterLineMarkOrient_e.< Value >) | See swCenterLineMarkOrient_e for valid options | Specifies the orientation of the centerline marks |
+| Slot center marks - Place mark at centers of straight slots | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkLinear, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkLinear, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies placement of marks at centers of straight slots |
+| Slot center marks - Place mark at ends of straight slots | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkEndsOnlyLinear, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkEndsOnlyLinear, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies placement of marks at ends of straight slots; only available with Slot center marks - Orient to slot option |
+| Slot center marks - Place mark at centers of arc slots | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkCircular, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkCircular, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies placement of marks at centers of arc slots |
+| Slot center marks - Place mark at ends of arc slots | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkEndsOnlyCircular, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCenterLineMarkEndsOnlyCircular, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies placement of marks at ends of arc slots; only available with Slot center marks - Orient to slot option |
+| Centerline layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swCenterLineLayer, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swCenterLineLayer, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | Depending on the drawing, some options may not apply |
+| Center mark layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swCenterMarkLayer, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swCenterMarkLayer, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | Depending on drawing, some options may not apply |

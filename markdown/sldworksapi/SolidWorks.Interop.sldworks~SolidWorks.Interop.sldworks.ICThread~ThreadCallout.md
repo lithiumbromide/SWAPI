@@ -42,25 +42,15 @@ property Note^ ThreadCallout {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the[INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)object for this cosmetic thread callout in a drawing
+Pointer to the [INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html) object for this cosmetic thread callout in a drawing
 
 ## VBA Syntax
 
-See
-
-[CThread::ThreadCallout](ms-its:sldworksapivb6.chm::/sldworks~CThread~ThreadCallout.html)
-
-.
+See [CThread::ThreadCallout](ms-its:sldworksapivb6.chm::/sldworks~CThread~ThreadCallout.html).
 
 ## Remarks
 
@@ -69,7 +59,6 @@ By getting the INote interface, you have access to all of its methods and proper
 ## See Also
 
 [ICThread Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread.html)
-
 [ICThread Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread_members.html)
 
 ## Availability

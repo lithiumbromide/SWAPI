@@ -72,555 +72,112 @@ This example shows how to add a component to an assembly and mate it.
 ```
 
 // Open assembly
-
-fileName =
-
-"C:\\Users\\Public\\Documents\\SOLIDWORKS\SOLIDWORKS 2018\\samples\\tutorial\\toolbox\\lens_mount.sldasm"
-
-;
-
-swModel = (
-
-ModelDoc2
-
-)swApp.
-
-OpenDoc6
-
-(fileName,
-(
-
-int
-
-)
-
-swDocumentTypes_e
-
-.swDocASSEMBLY,
-(
-
-int
-
-)
-
-swOpenDocOptions_e
-
-.swOpenDocOptions_Silent,
-
-""
-
-,
-
-ref
-
-errors,
-
-ref
-
-warnings);
+fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\SOLIDWORKS 2018\\samples\\tutorial\\toolbox\\lens_mount.sldasm";
+swModel = (ModelDoc2)swApp.**OpenDoc6**(fileName, (int)swDocumentTypes_e.swDocASSEMBLY, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
 
 // Set up event
-
 swAssemblyDoc = (AssemblyDoc)swModel;
-
-openAssem =
-
-new
-
-Hashtable
-
-();
-
+openAssem = new Hashtable();
 AttachEventHandlers();
 
 // Get title of assembly document
-
-AssemblyTitle = swModel.
-
-GetTitle
-
-();
+AssemblyTitle = swModel.**GetTitle**();
 
 // Split the title into two strings using the period as the delimiter
-
-string
-
-[] strings = AssemblyTitle.Split(
-
-new
-
-Char
-
-[] {
-
-'.'
-
-});
+string[] strings = AssemblyTitle.Split(new Char[] { '.' });
 
 // Use AssemblyName when mating the component with the assembly
+AssemblyName = (string)strings[0];
 
-AssemblyName = (
+Debug.Print("Name of assembly: " + AssemblyName);
 
-string
-
-)strings[0];
-
-Debug
-
-.Print(
-
-"Name of assembly: "
-
-+ AssemblyName);
-
-boolstat =
-
-true
-
-;
-
-string
-
-strCompModelname =
-
-null
-
-;
-
-strCompModelname =
-
-"camtest.sldprt"
-
-;
+boolstat = true;
+string strCompModelname = null;
+strCompModelname = "camtest.sldprt";
 
 // Because the component resides in the same folder as the assembly, get
-
 // the assembly's path and use it when opening the component
-
-tmpPath = swModel.
-
-GetPathName
-
-();
-
-int
-
-idx;
-
-idx = tmpPath.LastIndexOf(
-
-"lens_mount.sldasm"
-
-);
-
-string
-
-compPath;
-
+tmpPath = swModel.**GetPathName**();
+int idx;
+idx = tmpPath.LastIndexOf("lens_mount.sldasm");
+string compPath;
 tmpPath = tmpPath.Substring(0, (idx));
-
-compPath =
-
-string
-
-.Concat(tmpPath, strCompModelname);
+compPath = string.Concat(tmpPath, strCompModelname);
 
 // Open the component
-
-tmpObj = (ModelDoc2)swApp.
-
-OpenDoc6
-
-(compPath, (
-
-int
-
-)swDocumentTypes_e.swDocPART, (
-
-int
-
-)swOpenDocOptions_e.swOpenDocOptions_Silent,
-
-""
-
-,
-
-ref
-
-errors,
-
-ref
-
-warnings);
+tmpObj = (ModelDoc2)swApp.**OpenDoc6**(compPath, (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
 
 // Check to see if the file is read-only or cannot be found; display error
-
 // messages if either
-
-if
-
-(warnings == (
-
-int
-
-)swFileLoadWarning_e.swFileLoadWarning_ReadOnly)
-
+if (warnings == (int)swFileLoadWarning_e.swFileLoadWarning_ReadOnly)
 {
-
-MessageBox.Show(
-
-"This file is read-only."
-
-);
-
-boolstat =
-
-false
-
-;
-
+MessageBox.Show("This file is read-only.");
+boolstat = false;
 }
 
-if
-
-(tmpObj ==
-
-null
-
-)
-
+if (tmpObj == null)
 {
-
-MessageBox.Show(
-
-"Cannot locate the file."
-
-);
-
-boolstat =
-
-false
-
-;
-
+MessageBox.Show("Cannot locate the file.");
+boolstat = false;
 }
 
 // Activate the assembly so that you can add the component to it
-
-swModel = (ModelDoc2)swApp.
-
-ActivateDoc3
-
-(AssemblyTitle,
-
-true
-
-, (
-
-int
-
-)swRebuildOnActivation_e.swUserDecision,
-
-ref
-
-errors);
+swModel = (ModelDoc2)swApp.**ActivateDoc3**(AssemblyTitle, true, (int)swRebuildOnActivation_e.swUserDecision, ref errors);
 
 // Add the part to the assembly document
-
-swComponent = (Component2)swAssemblyDoc.
-
-AddComponent5
-
-(strCompModelname, (
-
-int
-
-)swAddComponentConfigOptions_e.swAddComponentConfigOptions_CurrentSelectedConfig,
-
-""
-
-,
-
-false
-
-,
-
-""
-
-, -1, -1, -1);
+swComponent = (Component2)swAssemblyDoc.**AddComponent5**(strCompModelname, (int)swAddComponentConfigOptions_e.swAddComponentConfigOptions_CurrentSelectedConfig, "", false, "", -1, -1, -1);
 
 // Make the component virtual
-
-stat = swComponent.
-
-MakeVirtual2
-
-(
-
-true
-
-);
+stat = swComponent.**MakeVirtual2**(true);
 
 // Get the name of the component for the mate
-
-strCompName = swComponent.
-
-Name2
-
-;
+strCompName = swComponent.**Name2**;
 
 // Create the name of the mate and the names of the planes to use for the mate
+MateName = "top_coinc_" + strCompName;
+FirstSelection = "Top@" + strCompName + "@" + AssemblyName;
+SecondSelection = "Front@" + AssemblyName;
 
-MateName =
-
-"top_coinc_"
-
-+ strCompName;
-
-FirstSelection =
-
-"Top@"
-
-+ strCompName +
-
-"@"
-
-+ AssemblyName;
-
-SecondSelection =
-
-"Front@"
-
-+ AssemblyName;
-
-swModel.
-
-ClearSelection2
-
-(
-
-true
-
-);
-
-swDocExt = (ModelDocExtension)swModel.
-
-Extension
-
-;
+swModel.**ClearSelection2**(true);
+swDocExt = (ModelDocExtension)swModel.**Extension**;
 
 // Select the planes for the mate
-
-boolstat = swDocExt.
-
-SelectByID2
-
-(FirstSelection,
-
-"PLANE"
-
-, 0, 0, 0,
-
-true
-
-, 1,
-
-null
-
-, (
-
-int
-
-)swSelectOption_e.swSelectOptionDefault);
-
-boolstat = swDocExt.
-
-SelectByID2
-
-(SecondSelection,
-
-"PLANE"
-
-, 0, 0, 0,
-
-true
-
-, 1,
-
-null
-
-, (
-
-int
-
-)swSelectOption_e.swSelectOptionDefault);
+boolstat = swDocExt.**SelectByID2**(FirstSelection, "PLANE", 0, 0, 0, true, 1, null, (int)swSelectOption_e.swSelectOptionDefault);
+boolstat = swDocExt.**SelectByID2**(SecondSelection, "PLANE", 0, 0, 0, true, 1, null, (int)swSelectOption_e.swSelectOptionDefault);
 
 // Add the mate
+matefeature = (Feature)swAssemblyDoc.**AddMate5**((int)swMateType_e.swMateCOINCIDENT, (int)swMateAlign_e.swMateAlignALIGNED, false, 0, 0, 0, 0, 0, 0, 0, 0, false, false, 0, out mateError);
+matefeature.**Name** = MateName;
+Debug.Print("Mate added: " + matefeature.**Name**);
 
-matefeature = (Feature)swAssemblyDoc.
-
-AddMate5
-
-((
-
-int
-
-)swMateType_e.swMateCOINCIDENT, (
-
-int
-
-)swMateAlign_e.swMateAlignALIGNED,
-
-false
-
-, 0, 0, 0, 0, 0, 0, 0, 0,
-
-false
-
-,
-
-false,
-0, out
-
-mateError);
-
-matefeature.
-
-Name
-
-= MateName;
-
-Debug
-
-.Print(
-
-"Mate
-added: "
-
-+ matefeature.
-
-Name
-
-);
-
-swModel.
-
-ViewZoomtofit2
-
-();
+swModel.**ViewZoomtofit2**();
 
 }
 
-public
-
-void
-
-AttachEventHandlers()
-
+public void AttachEventHandlers()
 {
-
 AttachSWEvents();
-
 }
 
-public
-
-void
-
-AttachSWEvents()
-
+public void AttachSWEvents()
 {
-
-swAssemblyDoc.
-
-AddItemNotify
-
-+=
-
-this
-
-.swAssemblyDoc_AddItemNotify;
-
-swAssemblyDoc.
-
-RenameItemNotify
-
-+=
-
-this
-
-.swAssemblyDoc_RenameItemNotify;
-
+swAssemblyDoc.**AddItemNotify** += this.swAssemblyDoc_AddItemNotify;
+swAssemblyDoc.**RenameItemNotify** += this.swAssemblyDoc_RenameItemNotify;
 }
 
-private
-
-int
-
-swAssemblyDoc_AddItemNotify(
-
-int
-
-EntityType,
-
-string
-
-itemName)
-
+private int swAssemblyDoc_AddItemNotify(int EntityType, string itemName)
 {
-
-Debug
-
-.Print(
-
-"Component added: "
-
-+ itemName);
-
-return
-
-1;
-
+Debug.Print("Component added: " + itemName);
+return 1;
 }
 
-private
-
-int
-
-swAssemblyDoc_RenameItemNotify(
-
-int
-
-EntityType,
-
-string
-
-oldName,
-
-string
-
-NewName)
-
+private int swAssemblyDoc_RenameItemNotify(int EntityType, string oldName, string NewName)
 {
-
-Debug
-
-.Print(
-
-"Virtual component name: "
-
-+ NewName);
-
-return
-
-1;
-
+Debug.Print("Virtual component name: " + NewName);
+return 1;
 }
 
-public
-
-SldWorks swApp;
+public SldWorks swApp;
 
 }
-
 }

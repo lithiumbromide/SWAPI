@@ -41,24 +41,17 @@ void ResetShopRate();
 
 ## VBA Syntax
 
-See[CostAnalysisMachining::ResetShopRate](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~ResetShopRate.html).
+See [CostAnalysisMachining::ResetShopRate](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~ResetShopRate.html).
 
 ## Remarks
 
-See
-
-[Getting Started](GettingStarted-swcostingapi.html)
-
-for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::ShopRate Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~ShopRate.html)
-
 [ICostAnalysisMachining::ShopRateApplied Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~ShopRateApplied.html)
 
 ## Availability

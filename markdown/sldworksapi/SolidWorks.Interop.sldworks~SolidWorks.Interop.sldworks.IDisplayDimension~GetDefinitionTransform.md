@@ -40,34 +40,19 @@ MathTransform GetDefinitionTransform()
 MathTransform^ GetDefinitionTransform();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
-
-object
+Pointer to the [IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) object
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetDefinitionTransform](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetDefinitionTransform.html)
-
-.
+See [DisplayDimension::GetDefinitionTransform](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetDefinitionTransform.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
 
 ## Availability

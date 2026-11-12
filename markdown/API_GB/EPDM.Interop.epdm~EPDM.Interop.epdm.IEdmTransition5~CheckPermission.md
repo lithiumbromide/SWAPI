@@ -45,7 +45,6 @@ True if the user can make this transition, false if not
 ## See Also
 
 [IEdmTransition5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5.html)
-
 [IEdmTransition5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition5_members.html)
 
 ## Availability

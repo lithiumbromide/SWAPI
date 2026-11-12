@@ -47,32 +47,19 @@ property System.Object^ AssemblyProcessAmount {
 
 ### Property Value
 
-Array containing the amounts of electricity and natural gas required to assemble this assembly; valid only if
-
-[ISustainabilityAssemblyProcess::EnergyForAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess~EnergyForAssemblyProcess.html)
-
-is true
+Array containing the amounts of electricity and natural gas required to assemble this assembly; valid only if [ISustainabilityAssemblyProcess::EnergyForAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess~EnergyForAssemblyProcess.html) is true
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyProcess::AssemblyProcessAmount](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess~AssemblyProcessAmount.html)
-
-.
+See [SustainabilityAssemblyProcess::AssemblyProcessAmount](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess~AssemblyProcessAmount.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess.html)
-
-.
+See the examples in [ISustainabilityAssemblyProcess](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyProcess.html).
 
 ## See Also
 
 [ISustainabilityAssemblyProcess Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess.html)
-
 [ISustainabilityAssemblyProcess Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess_members.html)
 
 ## Availability

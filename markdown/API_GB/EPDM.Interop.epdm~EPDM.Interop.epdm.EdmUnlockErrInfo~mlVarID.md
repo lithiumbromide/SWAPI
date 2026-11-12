@@ -34,14 +34,9 @@ System.int mlVarID
 
 ## Examples
 
-See the
-
-[EdmUnlockErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html)
-
-examples.
+See the [EdmUnlockErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html) examples.
 
 ## See Also
 
 [EdmUnlockErrInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html)
-
 [EdmUnlockErrInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo_members.html)

@@ -45,13 +45,7 @@ property System.String^ BackgroundEnvImage {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,19 @@ Fully qualified path to an environment image file
 
 ## VBA Syntax
 
-See
-
-[SwScene::BackgroundEnvImage](ms-its:sldworksapivb6.chm::/sldworks~SwScene~BackgroundEnvImage.html)
-
-.
+See [SwScene::BackgroundEnvImage](ms-its:sldworksapivb6.chm::/sldworks~SwScene~BackgroundEnvImage.html).
 
 ## Examples
 
-See the
-
-[ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
-examples.
+See the [ISwScene](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ISwScene::BackgroundType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundType.html)
-
-is
-
-[swSceneBackgroundType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSceneBackgroundType_e.html)
-
-.swBackgroundType_UseEnvironment.
+This property is valid only if [ISwScene::BackgroundType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundType.html) is [swSceneBackgroundType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSceneBackgroundType_e.html).swBackgroundType_UseEnvironment.
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

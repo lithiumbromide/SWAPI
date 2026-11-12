@@ -45,13 +45,7 @@ property System.bool CausticsReceive {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if diffuse materials absorb caustic photons, false if not
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::CausticsReceive](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~CausticsReceive.html)
-
-.
+See [RenderMaterial::CausticsReceive](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~CausticsReceive.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

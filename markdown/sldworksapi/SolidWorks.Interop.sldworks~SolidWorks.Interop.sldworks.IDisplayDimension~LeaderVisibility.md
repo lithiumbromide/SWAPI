@@ -45,25 +45,15 @@ property System.int LeaderVisibility {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Leader visibility state as defined in[swLeaderLineVisibility_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderLineVisibility_e.html)
+Leader visibility state as defined in [swLeaderLineVisibility_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderLineVisibility_e.html)
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::LeaderVisibility](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~LeaderVisibility.html)
-
-.
+See [DisplayDimension::LeaderVisibility](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~LeaderVisibility.html).
 
 ## Examples
 
@@ -71,10 +61,9 @@ See
 
 ## Remarks
 
-After using this property, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw the graphics window to see your changes.
+After using this property, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw the graphics window to see your changes.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InstallModelColorizer Method (IModelDocExtension)
 
-Installs your implemented interface of the
-
-[ISwColorContour](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour.html)
-
-interface.
+Installs your implemented interface of the [ISwColorContour](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour.html) interface.
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void InstallModelColorizer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,24 +54,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InstallModelColorizer](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InstallModelColorizer.html)
-
-.
+See [ModelDocExtension::InstallModelColorizer](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InstallModelColorizer.html).
 
 ## Remarks
 
-After your implemented interface is installed, the SOLIDWORKS software calls[ISwColorContour::Value](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour~Value.html)on each graphical update. Your implemented interface must provide the corresponding color for each vertex and the value associated with each vertex. This value is displayed when the cursor is over that vertex.
+After your implemented interface is installed, the SOLIDWORKS Design software calls [ISwColorContour::Value](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour~Value.html) on each graphical update. Your implemented interface must provide the corresponding color for each vertex and the value associated with each vertex. This value is displayed when the cursor is over that vertex.
 
-Additionally, when the cursor is over the model, the SOLIDWORKS software calls[ISwColorContour::DisplayString](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour~DisplayString.html)and passes the value to be formatted by your implemented interface, which the SOLIDWORKS software will then display.
+Additionally, when the cursor is over the model, the SOLIDWORKS Design software calls [ISwColorContour::DisplayString](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwColorContour~DisplayString.html) and passes the value to be formatted by your implemented interface, which the SOLIDWORKS Design software will then display.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::RemoveModelColorizer Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~RemoveModelColorizer.html)
 
 ## Availability

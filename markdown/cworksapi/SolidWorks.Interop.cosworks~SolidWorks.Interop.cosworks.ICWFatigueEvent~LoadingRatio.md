@@ -47,48 +47,25 @@ property System.double LoadingRatio {
 
 ### Property Value
 
-Loading ratio; a negative value indicates a reversal of the load direction (see
-
-Remarks
-
-)
+Loading ratio; a negative value indicates a reversal of the load direction (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWFatigueEvent::LoadingRatio](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~LoadingRatio.html)
-
-.
+See [CWFatigueEvent::LoadingRatio](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~LoadingRatio.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
-examples.
+See the [ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html) examples.
 
 ## Remarks
 
-This method is valid only if this is a constant amplitude fatigue event and only if
-
-[ICWFatigueEvent::LoadingType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWFatigueEvent~LoadingType.html)
-
-=
-
-[swsFatigueLoadingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadingType_e.html)
-
-.swsFatigueLoadingType_LoadingRatio.
+This method is valid only if this is a constant amplitude fatigue event and only if [ICWFatigueEvent::LoadingType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWFatigueEvent~LoadingType.html) = [swsFatigueLoadingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadingType_e.html).swsFatigueLoadingType_LoadingRatio.
 
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueEvent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html)
-
 [ICWFatigueEvent::Cycles Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent~Cycles.html)
-
 [ICWFatigueEvent::LoadingType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent~LoadingType.html)
 
 ## Availability

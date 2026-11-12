@@ -9,7 +9,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 # ICosmosMotionStudyProperties Interface Properties
 
-For a list of all members of this type, see[ICosmosMotionStudyProperties members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html).
+For a list of all members of this type, see [ICosmosMotionStudyProperties members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html).
 
 ## Public Properties
 
@@ -34,5 +34,4 @@ For a list of all members of this type, see[ICosmosMotionStudyProperties members
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [SolidWorks.Interop.swmotionstudy Namespace](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy_namespace.html)

@@ -47,13 +47,7 @@ System.String^ IVersionHistory(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,17 +59,13 @@ Array of strings of the version history
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IVersionHistory](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IVersionHistory.html)
-
-.
+See [SldWorks::IVersionHistory](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IVersionHistory.html).
 
 ## Remarks
 
 This information is retrieved from the file on disk, not from the open document.
 
-There is one array entry for each major release of the SOLIDWORKS software in which the document has been saved. The format for each entry is a major release code followed by one or more minor release codes separated by commas:
+There is one array entry for each major release of the SOLIDWORKS Design software in which the document has been saved. The format for each entry is a major release code followed by one or more minor release codes separated by commas:
 
 <major release code>[<minor release code>]
 
@@ -83,9 +73,7 @@ There is one array entry for each major release of the SOLIDWORKS software in wh
 
 <major release code>[<minor release code>,<minor release code>...]
 
-where <major release code> equals a number that remains constant through a major release of the SOLIDWORKS software. For example, the following values are returned based on the corresponding major SOLIDWORKS version:
-
-(Table)=========================================================
+where <major release code> equals a number that remains constant through a major release of the SOLIDWORKS Design software. For example, the following values are returned based on the corresponding major SOLIDWORKS Design version:
 
 | SOLIDWORKS Release | Version Number |
 | --- | --- |
@@ -122,23 +110,20 @@ where <major release code> equals a number that remains constant through a major
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
 | SOLIDWORKS 2025 | 18000 |
+| SOLIDWORKS 2026 | 19000 |
 
 The <minor release code> equals the year and day of manufacture of a saving version (for example, 1997/320).
 
-To get the size of array needed by this method, call[ISldWorks::IGetVersionHistoryCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetVersionHistoryCount.html). If the file is not found or an error occurs, then SldWorks::IGetVersionHistoryCount returns 0, and this method returns VT_EMPTY.
+To get the size of array needed by this method, call [ISldWorks::IGetVersionHistoryCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetVersionHistoryCount.html). If the file is not found or an error occurs, then SldWorks::IGetVersionHistoryCount returns 0, and this method returns VT_EMPTY.
 
-To get the version history of a document that is currently open, use[IModelDoc2::VersionHistory](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~VersionHistory.html).
+To get the version history of a document that is currently open, use [IModelDoc2::VersionHistory](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~VersionHistory.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::VersionHistory Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~VersionHistory.html)
-
 [ISldWorks::GetBuildNumbers2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetBuildNumbers2.html)
-
 [IModelDocExtension::IsFutureVersion Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IsFutureVersion.html)
 
 ## Availability

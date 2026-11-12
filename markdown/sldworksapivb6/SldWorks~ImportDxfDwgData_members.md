@@ -1,6 +1,5 @@
 ---
-title: "ImportDxfDwgData Object
-Members"
+title: "ImportDxfDwgData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ImportDxfDwgData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ImportDxfDwgData_members.html"
 ---
 
-# ImportDxfDwgData Object
-Members
+# ImportDxfDwgData Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "SketchContour Object
-Members"
+title: "SketchContour Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchContour_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchContour_members.html"
 ---
 
-# SketchContour Object
-Members
+# SketchContour Object Members
 
 ## Public Methods
 

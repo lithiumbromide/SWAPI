@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # IView Interface Members
 
-The following tables list the members exposed by[IView](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html).
+The following tables list the members exposed by [IView](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html).
 
 ## Public Properties
 
@@ -38,7 +38,8 @@ The following tables list the members exposed by[IView](SolidWorks.Interop.sldwo
 | Property | ReferencedConfiguration | Gets or sets the configuration referenced by this drawing view. |
 | Property | ReferencedConfigurationID | Gets the persistent reference ID of the configuration referenced in this drawing view. |
 | Property | ReferencedDocument | Gets the document referenced by this drawing view. |
-| Property | RootDrawingComponent | Gets the root component for this drawing view. |
+| Property | RootDrawingComponent | Obsolete. Superseded by IView::RootDrawingComponent2 . |
+| Property | RootDrawingComponent2 | Gets the root component of this drawing view. |
 | Property | ScaleDecimal | Gets or sets the scale of the drawing view, returning the results in decimal format. |
 | Property | ScaleHatchPattern | Gets or sets whether to scale the hatch pattern to the drawing view. |
 | Property | ScaleRatio | Gets or sets the scale of the drawing view, returning the results in ratio format (n:n). |
@@ -475,6 +476,7 @@ The following tables list the members exposed by[IView](SolidWorks.Interop.sldwo
 | Method | SetMirrorViewOrientation | Sets whether to mirror this view. |
 | Method | SetName2 | Sets the name of this drawing view, as displayed in the FeatureManager design tree. |
 | Method | SetResolvedToLightweight | Changes the drawing view from resolved to lightweight. |
+| Method | SetViewPosition | Moves this drawing view. |
 | Method | SetVisible | Sets the visibility of this drawing view. |
 | Method | SetXform | Sets the matrix used for display of this drawing view. |
 | Method | ShowExploded | Shows an exploded assembly in this drawing view. |
@@ -487,9 +489,6 @@ The following tables list the members exposed by[IView](SolidWorks.Interop.sldwo
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)

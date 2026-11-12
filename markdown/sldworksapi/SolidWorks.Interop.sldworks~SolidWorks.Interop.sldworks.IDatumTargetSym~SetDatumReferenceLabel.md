@@ -51,13 +51,7 @@ System.bool SetDatumReferenceLabel(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,30 +64,23 @@ True if the datum reference label is set successfully, false if it was not
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym::SetDatumReferenceLabel](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetDatumReferenceLabel.html)
-
-.
+See [DatumTargetSym::SetDatumReferenceLabel](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym~SetDatumReferenceLabel.html).
 
 ## Examples
 
 [Insert and Modify Datum Target Symbol (C#)](Insert_and_Modify_Datum_Target_Symbol_Example_CSharp.htm)
-
 [Insert and Modify Datum Target Symbol (VB.NET)](Insert_and_Modify_Datum_Target_Symbol_Example_VBNET.htm)
-
 [Insert and Modify Datum Target Symbol (VBA)](Insert_and_Modify_Datum_Target_Symbol_Example_VB.htm)
 
 ## Remarks
 
-Use[IDatumTargetSym::GetDatumReferenceLabel](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetDatumReferenceLabel.html)to get the datum target reference labels.
+Use [IDatumTargetSym::GetDatumReferenceLabel](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetDatumReferenceLabel.html) to get the datum target reference labels.
 
-To see the change in a drawing, call[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
+To see the change in a drawing, call [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html).
 
 ## See Also
 
 [IDatumTargetSym Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym.html)
-
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
 
 ## Availability

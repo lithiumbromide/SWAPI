@@ -45,27 +45,15 @@ property SketchPoint^ LocateProfilePoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-to use to locate the profile
+[Point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) to use to locate the profile
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberGroup::LocateProfilePoint](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~LocateProfilePoint.html)
-
-.
+See [StructuralMemberGroup::LocateProfilePoint](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~LocateProfilePoint.html).
 
 ## Remarks
 
@@ -74,7 +62,6 @@ This property can be set only after creating the structural-member group.
 ## See Also
 
 [IStructuralMemberGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup.html)
-
 [IStructuralMemberGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup_members.html)
 
 ## Availability

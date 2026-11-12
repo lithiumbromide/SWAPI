@@ -45,29 +45,15 @@ property System.double Transparent {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-0 <=
-
-transparency
-
-<= 100, where 0 is for total opaqueness, and 100 is for total transparency
+0 <= `transparency` <= 100, where 0 is for total opaqueness, and 100 is for total transparency
 
 ## VBA Syntax
 
-See
-
-[AppearanceSetting::Transparent](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~Transparent.html)
-
-.
+See [AppearanceSetting::Transparent](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~Transparent.html).
 
 ## Remarks
 
@@ -76,7 +62,6 @@ See SOLIDWORKS Help for more information about appearances.
 ## See Also
 
 [IAppearanceSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting.html)
-
 [IAppearanceSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting_members.html)
 
 ## Availability

@@ -82,11 +82,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertIntersectPlaneFeature::GetNominalPlane](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectPlaneFeature~GetNominalPlane.html)
-
-.
+See [SwDMDimXpertIntersectPlaneFeature::GetNominalPlane](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectPlaneFeature~GetNominalPlane.html).
 
 ## Examples
 
@@ -95,7 +91,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertIntersectPlaneFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectPlaneFeature.html)
-
 [ISwDMDimXpertIntersectPlaneFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectPlaneFeature_members.html)
 
 ## Availability

@@ -9,19 +9,18 @@ source: "sldworksapi/Get_Hidden_Components_Filenames_Example_VB.htm"
 
 # Get Hidden Components Filenames Example (VBA)
 
-This example shows how to get the filenames of the components hidden
-in an assembly.
+This example shows how to get the filenames of the components hidden in an assembly.
 
 ```
 '-----------------------------------------------------------
 ' Preconditions:
-' 1. In SOLIDWORKS, click File > Open, and browse to
+' 1. In SOLIDWORKS Design, click File > Open, and browse to
 '    public_documents\samples\tutorial\routing-pipes.
 ' 2. Click ball valve with flanges.sldasm > Mode >
 '    Large Design Review > Open > OK.
 '
 '    NOTE: If the path to the Design Library does not exist,
-'    then multiple dialogs informing you that SOLIDWORKS is unable
+'    then multiple dialogs informing you that SOLIDWORKS Design is unable
 '    to locate might be displayed some components. Click No or OK
 '    to close these dialogs.
 '
@@ -31,7 +30,7 @@ in an assembly.
 '
 '    NOTE: Only the selected components are loaded. Components
 '    not selected are not loaded and not visible in the
-'    SOLIDWORKS graphics area.
+'    SOLIDWORKS Design graphics area.
 '
 ' 4. Open the Immediate window.
 '

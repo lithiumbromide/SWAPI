@@ -51,30 +51,17 @@ System.int SetArcLengthLeader(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `AutoLeader`: True if the leader style is automatically selected, false if the leader style is
-
-selected by the user
-- `LeaderType`: Leader style as defined in
-
-[swArcLengthLeaderType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArcLengthLeaderType_e.html)
-
-if autoLeader is false
+  selected by the user
+- `LeaderType`: Leader style as defined in [swArcLengthLeaderType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArcLengthLeaderType_e.html) if autoLeader is false
 
 ### Return Value
 
 Return status:
-
-(Table)=========================================================
 
 | 0 | Command was successful, leader style values were set |
 | --- | --- |
@@ -83,11 +70,7 @@ Return status:
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SetArcLengthLeader](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetArcLengthLeader.html)
-
-.
+See [DisplayDimension::SetArcLengthLeader](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetArcLengthLeader.html).
 
 ## Remarks
 
@@ -97,14 +80,12 @@ If the autoLeader value is passed in as True to automatically select the leader 
 
 This method applies only to arc length dimensions. It does not affect any other types of dimensions.
 
-After using this method, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw the graphics window to see your changes.
+After using this method, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw the graphics window to see your changes.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimensioin::GetArcLengthLeader Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetArcLengthLeader.html)
 
 ## Availability

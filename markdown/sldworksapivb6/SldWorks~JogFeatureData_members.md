@@ -1,6 +1,5 @@
 ---
-title: "JogFeatureData Object
-Members"
+title: "JogFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "JogFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~JogFeatureData_members.html"
 ---
 
-# JogFeatureData Object
-Members
+# JogFeatureData Object Members
 
 ## Public Methods
 

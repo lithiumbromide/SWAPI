@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions_members.h
 
 # EdmCopyTreeOptions Structure Members
 
-The following tables list the members exposed by[EdmCopyTreeOptions](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions.html).
+The following tables list the members exposed by [EdmCopyTreeOptions](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[EdmCopyTreeOptions](EPDM.Intero
 ## See Also
 
 [EdmCopyTreeOptions Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyTreeOptions.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

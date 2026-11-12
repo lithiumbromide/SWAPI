@@ -45,40 +45,25 @@ property System.int Visible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Block instance's visibility as defined by
-
-[swAnnotationVisibilityState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAnnotationVisibilityState_e.html)
+Block instance's visibility as defined by [swAnnotationVisibilityState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAnnotationVisibilityState_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::Visible](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~Visible.html)
-
-.
+See [SketchBlockInstance::Visible](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~Visible.html).
 
 ## Examples
 
 [Change Visibility of Sketch Block Instances (C#)](Change_Visibility_of_Sketch_Block_Instances_Example_CSharp.htm)
-
 [Change Visibility of Sketch Block Instances (VB.NET)](Change_Visibility_of_Sketch_Block_Instances_Example_VBNET.htm)
-
 [Change Visibility of Sketch Block Instances (VBA)](Change_Visibility_of_Sketch_Block_Instances_Example_VB.htm)
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
 
 ## Availability

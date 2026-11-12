@@ -44,22 +44,15 @@ property swDimXpertAnnotationType_e Type {
 
 ### Property Value
 
-Type of this DimXpert annotation as defined in
-
-[swDimXpertAnnotationType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertAnnotationType_e.html)
+Type of this DimXpert annotation as defined in [swDimXpertAnnotationType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertAnnotationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertAnnotation::Type](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~Type.html)
-
-.
+See [DimXpertAnnotation::Type](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~Type.html).
 
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [IDimXpertAnnotation Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html)
 
 ## Availability

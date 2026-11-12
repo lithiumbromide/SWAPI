@@ -9,15 +9,13 @@ source: "sldworksapi/Inspect_Facets_Example_VBNET.htm"
 
 # Inspect Facets of Graphics and Mesh Bodies Example (VB.NET)
 
-This example shows how to inspect facets, facet edges, and facet vertexes
-after importing graphics and mesh bodies.
+This example shows how to inspect facets, facet edges, and facet vertexes after importing graphics and mesh bodies.
 
 '===================================================
 
 'Preconditions:
 
-'1. Copy Public_Documents \SOLIDWORKS\SOLIDWORKS
-2022\samples\tutorial\api\Part1.PLY to c:\temp .
+'1. Copy `Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2022\samples\tutorial\api\Part1.PLY** to **c:\temp**.
 
 '2. Open the Immediate window.
 
@@ -39,8 +37,7 @@ Imports System.Diagnostics
 
 Partial Class SolidWorksMacro
 
-Dim swModelDoc As
-ModelDoc2
+Dim swModelDoc As ModelDoc2
 
 Sub main()
 
@@ -72,13 +69,11 @@ Debug.Print("")
 
 Dim boolstatus As Boolean
 
-boolstatus = swApp. SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swImportStlVrmlModelType,
-swImportStlVrmlModelType_e.swImportStlVrmlModelType_Graphics)
+boolstatus = swApp.**SetUserPreferenceIntegerValue**(swUserPreferenceIntegerValue_e.swImportStlVrmlModelType, swImportStlVrmlModelType_e.swImportStlVrmlModelType_Graphics)
 
-boolstatus = swApp. SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swImportStlVrmlModelType,
-0)
+boolstatus = swApp.**SetUserPreferenceIntegerValue**(swUserPreferenceIntegerValue_e.swImportStlVrmlModelType, 0)
 
-boolstatus = swApp. LoadFile2 ("c:\temp\Part1.PLY", "r")
+boolstatus = swApp.**LoadFile2**("c:\temp\Part1.PLY", "r")
 
 swModelDoc = swApp.ActiveDoc
 
@@ -88,23 +83,19 @@ End Sub
 
 Sub TestMeshBody()
 
-Debug.Print("Importing
-Part1.PLY as a mesh body...")
+Debug.Print("Importing Part1.PLY as a mesh body...")
 
 Debug.Print("")
 
 Dim boolstatus As Boolean
 
-boolstatus = swApp. SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swImportStlVrmlModelType,
-swImportStlVrmlModelType_e.swImportStlVrmlModelType_Surface)
+boolstatus = swApp.**SetUserPreferenceIntegerValue**(swUserPreferenceIntegerValue_e.swImportStlVrmlModelType, swImportStlVrmlModelType_e.swImportStlVrmlModelType_Surface)
 
-boolstatus = swApp. SetUserPreferenceIntegerValue (swUserPreferenceIntegerValue_e.swImportStlVrmlModelType,
-1)
+boolstatus = swApp.**SetUserPreferenceIntegerValue**(swUserPreferenceIntegerValue_e.swImportStlVrmlModelType, 1)
 
-swApp.SetUserPreferenceToggle(swUserPreferenceToggle_e.swVrmlStlImportAsPSMesh,
-True)
+swApp.SetUserPreferenceToggle(swUserPreferenceToggle_e.swVrmlStlImportAsPSMesh, True)
 
-boolstatus = swApp. LoadFile2 ("c:\temp\Part1.PLY", "r")
+boolstatus = swApp.**LoadFile2**("c:\temp\Part1.PLY", "r")
 
 swModelDoc = swApp.ActiveDoc
 
@@ -112,8 +103,7 @@ SelectMeshBody()
 
 End Sub
 
-Sub
-SelectGraphicsBody()
+Sub SelectGraphicsBody()
 
 Stop
 
@@ -121,9 +111,7 @@ Debug.Print("Getting the graphics body, Graphic (Closed) -1...")
 
 Dim boolstatus As Boolean
 
-boolstatus = swModelDoc.Extension.SelectByID2("Graphic (Closed) -1",
-"MESH BODY FEATURE", -0.0932538825377272, 0.091, 0.033742378078639, False, 0,
-Nothing, 0)
+boolstatus = swModelDoc.Extension.SelectByID2("Graphic (Closed) -1", "MESH BODY FEATURE", -0.0932538825377272, 0.091, 0.033742378078639, False, 0, Nothing, 0)
 
 Dim swSelMgr As SelectionMgr
 
@@ -133,8 +121,7 @@ Dim lSelType As Integer
 
 lSelType = swSelMgr.GetSelectedObjectType3(1, -1)
 
-If lSelType =
-swSelectType_e.swSelGRAPHICSBODY Then
+If lSelType = swSelectType_e.swSelGRAPHICSBODY Then
 
 Debug.Print("lSelType = swSelGRAPHICSBODY")
 
@@ -156,8 +143,7 @@ Dim swBody As Body2
 
 swBody = swFeature.GetSpecificFeature2
 
-If
-swBody Is Nothing Then
+If swBody Is Nothing Then
 
 Debug.Print("swBody Is Nothing")
 
@@ -173,7 +159,7 @@ If lBodyType = swBodyType_e.swGraphicsBody Then
 
 Dim swGraphicsBody As GraphicsBody
 
-swGraphicsBody = swBody. GetGraphicsBody
+swGraphicsBody = swBody.**GetGraphicsBody**
 
 If swGraphicsBody Is Nothing Then
 
@@ -185,7 +171,7 @@ Debug.Print("GetGraphicsBody success")
 
 Dim swBodyFromGraphics As Body2
 
-swBodyFromGraphics = swGraphicsBody. GetBody
+swBodyFromGraphics = swGraphicsBody.**GetBody**
 
 If swBodyFromGraphics Is Nothing Then
 
@@ -205,14 +191,11 @@ End If
 
 End If
 
-Debug.Print("Selecting facet, facet edge, and facet vertex objects in
-graphics body...")
+Debug.Print("Selecting facet, facet edge, and facet vertex objects in graphics body...")
 
 swModelDoc.ClearSelection2(True)
 
-boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHFACETREF",
--0.130140285581291, 0.0909999999999798, 0.0526687725669035, False, 0, Nothing,
-0)
+boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHFACETREF", -0.130140285581291, 0.0909999999999798, 0.0526687725669035, False, 0, Nothing, 0)
 
 lSelType = swSelMgr.GetSelectedObjectType3(1, -1)
 
@@ -228,9 +211,7 @@ End If
 
 swModelDoc.ClearSelection2(True)
 
-boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHFINREF",
--0.0701858537194084, 0.0909999999999798, 0.0513894806662165, False, 0, Nothing,
-0)
+boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHFINREF", -0.0701858537194084, 0.0909999999999798, 0.0513894806662165, False, 0, Nothing, 0)
 
 lSelType = swSelMgr.GetSelectedObjectType3(1, -1)
 
@@ -246,8 +227,7 @@ End If
 
 swModelDoc.ClearSelection2(True)
 
-boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHVERTEXREF",
--0.117127148857435, 0.0909999999999513, 0.099920771345694, False, 0, Nothing, 0)
+boolstatus = swModelDoc.Extension.SelectByID2("Unknown", "MESHVERTEXREF", -0.117127148857435, 0.0909999999999513, 0.099920771345694, False, 0, Nothing, 0)
 
 lSelType = swSelMgr.GetSelectedObjectType3(1, -1)
 
@@ -273,9 +253,7 @@ Debug.Print("Getting mesh body, Surface-Imported5...")
 
 Dim boolstatus As Boolean
 
-boolstatus = swModelDoc.Extension.SelectByID2("Surface-Imported5",
-"SURFACEBODY", -0.0955822368965755, 0.0910000000000082, 0.0336061875443647,
-False, 0, Nothing, 0)
+boolstatus = swModelDoc.Extension.SelectByID2("Surface-Imported5", "SURFACEBODY", -0.0955822368965755, 0.0910000000000082, 0.0336061875443647, False, 0, Nothing, 0)
 
 Dim swSelMgr As SelectionMgr
 
@@ -293,7 +271,7 @@ swBody = swSelMgr.GetSelectedObject6(1, -1)
 
 Dim lBodyType As Integer
 
-lBodyType = swBody. GetType
+lBodyType = swBody.**GetType**
 
 If lBodyType = swBodyType_e.swMeshBody Then
 
@@ -301,7 +279,7 @@ Debug.Print("Select MeshBody success")
 
 Dim swMeshBody As MeshBody
 
-swMeshBody = swBody. GetMeshBody
+swMeshBody = swBody.**GetMeshBody**
 
 If swMeshBody Is Nothing Then
 
@@ -313,7 +291,7 @@ Debug.Print("Mesh body retrieved")
 
 Dim swMBody As Body2
 
-swMBody = swMeshBody. GetBody
+swMBody = swMeshBody.**GetBody**
 
 If swMBody Is Nothing Then
 
@@ -345,8 +323,7 @@ Dim bFilter As Boolean
 
 bFilter = swApp.GetSelectionFilter(swSelectType_e.swSelMESHFACETEDGES)
 
-swApp.SetSelectionFilter(swSelectType_e.swSelMESHFACETEDGES, (bFilter =
-False))
+swApp.SetSelectionFilter(swSelectType_e.swSelMESHFACETEDGES, (bFilter = False))
 
 bFilter = swApp.GetSelectionFilter(swSelectType_e.swSelMESHFACETEDGES)
 
@@ -370,8 +347,7 @@ Debug.Print("Selection filter is swSelGRAPHICSBODY")
 
 ElseIf lCurFilter = swSelectType_e.swSelFACETS Then
 
-Debug.Print("Selection
-filter is swSelFACETS")
+Debug.Print("Selection filter is swSelFACETS")
 
 ElseIf lCurFilter = swSelectType_e.swSelMESHFACETEDGES Then
 
@@ -383,8 +359,7 @@ Debug.Print("Selection filter is swSelMESHFACETVERTICES")
 
 Else
 
-Debug.Print("Selection filter is other than facet/facet edge/facet
-vertex")
+Debug.Print("Selection filter is other than facet/facet edge/facet vertex")
 
 End If
 
@@ -424,8 +399,7 @@ swPartDoc = swModelDoc
 
 Dim vBodies() As Object
 
-vBodies =
-swPartDoc. GetBodies2 (-1, False)
+vBodies = swPartDoc.**GetBodies2**(-1, False)
 
 Dim swSelMgr As SelectionMgr
 
@@ -447,7 +421,7 @@ swCurBod = vBodies(i)
 
 Dim lCurBodyType As Integer
 
-lCurBodyType = swCurBod. GetType
+lCurBodyType = swCurBod.**GetType**
 
 If lCurBodyType = swBodyType_e.swMeshBody Then
 
@@ -469,31 +443,31 @@ swCurBod.DeSelect()
 
 Dim bIsVisible As Boolean
 
-bIsVisible = swCurBod. Visible
+bIsVisible = swCurBod.**Visible**
 
 Debug.Print("Visible is " & bIsVisible)
 
 Dim sBodyName As String
 
-sBodyName = swCurBod. Name
+sBodyName = swCurBod.**Name**
 
 Debug.Print("Name is """ & sBodyName & """")
 
 Dim bIsMesh As Boolean
 
-bIsMesh = swCurBod. IsMeshBody
+bIsMesh = swCurBod.**IsMeshBody**
 
 Debug.Print("IsMeshBody returned " & bIsMesh)
 
 Dim bIsGraphics As Boolean
 
-bIsGraphics = swCurBod. IsGraphicsBody
+bIsGraphics = swCurBod.**IsGraphicsBody**
 
 Debug.Print("IsGraphicsBody method returned " & bIsGraphics)
 
 Dim swThisMeshBody As MeshBody
 
-swThisMeshBody = swCurBod. GetMeshBody
+swThisMeshBody = swCurBod.**GetMeshBody**
 
 If swThisMeshBody Is Nothing Then
 
@@ -503,7 +477,7 @@ Else
 
 Dim swThisBodyFromMesh As Body2
 
-swThisBodyFromMesh = swThisMeshBody. GetBody
+swThisBodyFromMesh = swThisMeshBody.**GetBody**
 
 If Not swThisBodyFromMesh Is Nothing Then
 
@@ -515,18 +489,17 @@ Debug.Print("swThisMeshBody.GetBody returned Nothing.")
 
 End If
 
-Debug.Print("Getting facet, facet edge, and facet vertex objects in this
-mesh body...")
+Debug.Print("Getting facet, facet edge, and facet vertex objects in this mesh body...")
 
 Dim lFacetCount As Integer
 
-lFacetCount = swThisMeshBody. GetFacetCount
+lFacetCount = swThisMeshBody.**GetFacetCount**
 
 Debug.Print("Facet count is " & lFacetCount)
 
 Dim vMFacets() As Object
 
-vMFacets = swThisMeshBody. GetFacets
+vMFacets = swThisMeshBody.**GetFacets**
 
 Dim lMFacetIndex As Integer
 
@@ -542,13 +515,13 @@ swCurMFacet = vMFacets(lMFacetIndex)
 
 Dim swBodyFromCurMFacet As Body2
 
-swBodyFromCurMFacet = swCurMFacet. GetBody
+swBodyFromCurMFacet = swCurMFacet.**GetBody**
 
 Dim vEdges() As Object
 
 Dim vVerts() As Object
 
-vEdges = swCurMFacet. GetFacetEdges
+vEdges = swCurMFacet.**GetFacetEdges**
 
 Dim lEdgesIndex As Integer
 
@@ -570,7 +543,7 @@ End If
 
 Next lEdgesIndex
 
-vVerts = swCurMFacet. GetFacetVertices
+vVerts = swCurMFacet.**GetFacetVertices**
 
 Dim lVertsIndex As Integer
 
@@ -612,7 +585,7 @@ End If
 
 Dim swThisGraphicsBody As GraphicsBody
 
-swThisGraphicsBody = swCurBod. GetGraphicsBody
+swThisGraphicsBody = swCurBod.**GetGraphicsBody**
 
 If swThisGraphicsBody Is Nothing Then
 
@@ -622,7 +595,7 @@ Else
 
 Dim swThisBodyFromGraphics As Body2
 
-swThisBodyFromGraphics = swThisGraphicsBody. GetBody
+swThisBodyFromGraphics = swThisGraphicsBody.**GetBody**
 
 If Not swThisBodyFromGraphics Is Nothing Then
 
@@ -634,18 +607,17 @@ Debug.Print("swThisGraphicsBody.GetBody returned Nothing.")
 
 End If
 
-Debug.Print("Getting facet, facet edge, and facet vertex objects in this
-graphics body...")
+Debug.Print("Getting facet, facet edge, and facet vertex objects in this graphics body...")
 
 Dim lGFacetCount As Integer
 
-lGFacetCount = swThisGraphicsBody. GetFacetCount
+lGFacetCount = swThisGraphicsBody.**GetFacetCount**
 
 Debug.Print("Facet count is " & lGFacetCount)
 
 Dim vFacets() As Object
 
-vFacets = swThisGraphicsBody. GetFacets
+vFacets = swThisGraphicsBody.**GetFacets**
 
 Dim lFacetIndex As Integer
 
@@ -661,7 +633,7 @@ swFacet = vFacets(lFacetIndex)
 
 Dim swFacetBody As Body2
 
-swFacetBody = swFacet. GetBody
+swFacetBody = swFacet.**GetBody**
 
 If swFacetBody Is Nothing Then
 
@@ -675,7 +647,7 @@ End If
 
 Dim vGEdges() As Object
 
-vGEdges = swFacet. GetFacetEdges
+vGEdges = swFacet.**GetFacetEdges**
 
 Dim lFacetEdgesCount As Integer
 
@@ -685,8 +657,7 @@ Dim lFacetEdgesIndex As Integer
 
 For lFacetEdgesIndex = 0 To UBound(vGEdges)
 
-Dim
-swFacetEdge As Edge
+Dim swFacetEdge As Edge
 
 swFacetEdge = vGEdges(lFacetEdgesIndex)
 
@@ -704,7 +675,7 @@ Next lFacetEdgesIndex
 
 Dim vGVerts() As Object
 
-vGVerts = swFacet. GetFacetVertices
+vGVerts = swFacet.**GetFacetVertices**
 
 Dim lFacetVertsCount As Integer
 
@@ -740,8 +711,7 @@ Debug.Print("Facet selected")
 
 Else
 
-Debug.Print("Object
-not of type Facet")
+Debug.Print("Object not of type Facet")
 
 End If
 
@@ -759,12 +729,10 @@ End Sub
 
 ''' <summary>
 
-''' The SldWorks swApp
-variable is pre-assigned for you.
+''' The SldWorks swApp variable is pre-assigned for you.
 
 ''' </summary>
 
-Public swApp As
-SldWorks
+Public swApp As SldWorks
 
 End Class

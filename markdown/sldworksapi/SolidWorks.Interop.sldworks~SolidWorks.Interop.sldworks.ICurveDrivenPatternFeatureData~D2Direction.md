@@ -45,13 +45,7 @@ property System.Object^ D2Direction {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,19 @@ Pattern direction entity
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::D2Direction](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D2Direction.html)
-
-.
+See [CurveDrivenPatternFeatureData::D2Direction](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~D2Direction.html).
 
 ## Remarks
 
 The pattern direction can be a curve, edge, sketch entity, or a sketch. You must pre-select the Direction 2 entity using selection Mark = 2 before creating the feature definition. Use this property only when editing the pattern feature.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
-
 [ICurveDrivenPatternFeatureData::D1Direction Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~D1Direction.html)
-
 [ICurveDrivenPatternFeatureData::Dir2Specified Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~Dir2Specified.html)
 
 ## Availability

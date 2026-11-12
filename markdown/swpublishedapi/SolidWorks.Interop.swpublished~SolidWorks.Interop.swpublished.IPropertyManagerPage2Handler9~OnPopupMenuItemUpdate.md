@@ -52,29 +52,21 @@ void OnPopupMenuItemUpdate(
 
 ### Parameters
 
-- `Id`: Unique user-defined ID for a pop-up menu item (see[IPropertyManagerPage2::AddMenuPopupItem](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddMenuPopupItem.html))
+- `Id`: Unique user-defined ID for a pop-up menu item (see [IPropertyManagerPage2::AddMenuPopupItem](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddMenuPopupItem.html))
 - `retval`: State of the specified unique user-defined pop-up menu item:
 
-- 0 - Not selected (i.e., not checked) and disabled (i.e., grayed out)
-- 1 - Not selected and enabled
-- 2 - Selected (i.e., checked) and disabled
-- 3 - Selected and enabled
+  - 0 - Not selected (i.e., not checked) and disabled (i.e., grayed out)
+  - 1 - Not selected and enabled
+  - 2 - Selected (i.e., checked) and disabled
+  - 3 - Selected and enabled
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler9::OnPopupMenuItemUpdate](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler9~OnPopupMenuItemUpdate.html)
-
-.
+See [PropertyManagerPage2Handler9::OnPopupMenuItemUpdate](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler9~OnPopupMenuItemUpdate.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPage2Handler9](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html)
-
-examples.
+See the [IPropertyManagerPage2Handler9](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html) examples.
 
 ## Remarks
 
@@ -86,9 +78,7 @@ This method:
 ## See Also
 
 [IPropertyManagerPage2Handler9 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.html)
-
 [IPropertyManagerPage2Handler9 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9_members.html)
-
 [IPropertyManagerPage2Handler9::OnPopupMenuItem Method](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9~OnPopupMenuItem.html)
 
 ## Availability

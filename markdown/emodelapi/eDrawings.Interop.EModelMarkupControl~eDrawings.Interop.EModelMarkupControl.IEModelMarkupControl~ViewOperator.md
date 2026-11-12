@@ -43,22 +43,15 @@ property EMVMarkupOperators ViewOperator {
 
 ### Property Value
 
-Markup tools as defined by
-
-[EMVMarkupOperators](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVMarkupOperators.html)
+Markup tools as defined by [EMVMarkupOperators](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.EMVMarkupOperators.html)
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::ViewOperator](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~ViewOperator.html)
-
-.
+See [EModelMarkupControl::ViewOperator](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~ViewOperator.html).
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "CoreFeatureData Object
-Members"
+title: "CoreFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CoreFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CoreFeatureData_members.html"
 ---
 
-# CoreFeatureData Object
-Members
+# CoreFeatureData Object Members
 
 ## Public Methods
 

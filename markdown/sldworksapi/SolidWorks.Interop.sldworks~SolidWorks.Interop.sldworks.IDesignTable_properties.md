@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDe
 
 # IDesignTable Interface Properties
 
-For a list of all members of this type, see[IDesignTable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html).
+For a list of all members of this type, see [IDesignTable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html).
 
 ## Public Properties
 
@@ -33,5 +33,4 @@ For a list of all members of this type, see[IDesignTable members](SolidWorks.Int
 ## See Also
 
 [IDesignTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

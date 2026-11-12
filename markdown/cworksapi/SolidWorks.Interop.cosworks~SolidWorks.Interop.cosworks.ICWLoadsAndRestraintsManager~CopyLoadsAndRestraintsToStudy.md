@@ -54,32 +54,20 @@ System.int CopyLoadsAndRestraintsToStudy(
 ### Parameters
 
 - `SStudyName`: Name of study to which to copy loads and restraints
-- `LRNames`: Array of names of loads and restraints to copy (see
-
-Remarks
-
-)
+- `LRNames`: Array of names of loads and restraints to copy (see **Remarks**)
 
 ### Return Value
 
-Error code as defined in
-
-[swsCopyItemsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCopyItemsError_e.html)
+Error code as defined in [swsCopyItemsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCopyItemsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::CopyLoadsAndRestraintsToStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~CopyLoadsAndRestraintsToStudy.html)
-
-.
+See [CWLoadsAndRestraintsManager::CopyLoadsAndRestraintsToStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~CopyLoadsAndRestraintsToStudy.html).
 
 ## Examples
 
 [Copy Items to Another Study (VBA)](Copy_Items_to_Another_Study_Example_VB.htm)
-
 [Copy Items to Another Study (VB.NET)](Copy_Items_to_Another_Study_Example_VBNET.htm)
-
 [Copy Items to Another Study (C#)](Copy_Items_to_Another_Study_Example_CSharp.htm)
 
 ## Remarks
@@ -90,28 +78,14 @@ To populate the array of LRNames, either:
 
 - or -
 
-- call
+- call [ICWLoadsAndRestraintsManager::GetLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~GetLoadsAndRestraints.html) to get each [ICWLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html) and then call [ICWLoadsAndRestraints::Name](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints~Name.html) to get the name of each load or restraint.
 
-  [ICWLoadsAndRestraintsManager::GetLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~GetLoadsAndRestraints.html)
-
-  to get each
-
-  [ICWLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
-  and then call
-
-  [ICWLoadsAndRestraints::Name](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints~Name.html)
-
-  to get the name of each load or restraint.
-
-If a load or restraint name already exists,**Copy[1]**is prepended to the name of the copied load or restraint.
+If a load or restraint name already exists, **Copy[1]** is prepended to the name of the copied load or restraint.
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
-
 [ICWLoadsAndRestraintsManager::DeleteLoadsAndRestraints Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager~DeleteLoadsAndRestraints.html)
 
 ## Availability

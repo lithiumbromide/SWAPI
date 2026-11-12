@@ -47,19 +47,11 @@ System.int GetFacesByTypeCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type of faces as defined by
-
-[swDraftAnalysisFaceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDraftAnalysisFaceType_e.html)
+- `Type`: Type of faces as defined by [swDraftAnalysisFaceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDraftAnalysisFaceType_e.html)
 
 ### Return Value
 
@@ -67,22 +59,16 @@ Number of faces
 
 ## VBA Syntax
 
-See
-
-[PartingLineFeatureData::GetFacesByTypeCount](ms-its:sldworksapivb6.chm::/sldworks~PartingLineFeatureData~GetFacesByTypeCount.html)
-
-.
+See [PartingLineFeatureData::GetFacesByTypeCount](ms-its:sldworksapivb6.chm::/sldworks~PartingLineFeatureData~GetFacesByTypeCount.html).
 
 ## Remarks
 
-Call this method before calling[IPartingLineFeatureData::IGetFacesbyType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartingLineFeatureData~IGetFacesByType.html).
+Call this method before calling [IPartingLineFeatureData::IGetFacesbyType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartingLineFeatureData~IGetFacesByType.html).
 
 ## See Also
 
 [IPartingLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData.html)
-
 [IPartingLineFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData_members.html)
-
 [IPartingLineFeatureData::GetFacesByType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData~GetFacesByType.html)
 
 ## Availability

@@ -55,13 +55,7 @@ System.bool DisplayWindowFromHandlex64(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,16 +69,11 @@ True if .NET control is created, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelViewManager::DisplayWindowFromHandlex64](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~DisplayWindowFromHandlex64.html)
-
-.
+See [ModelViewManager::DisplayWindowFromHandlex64](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~DisplayWindowFromHandlex64.html).
 
 ## Examples
 
 [Add .NET Controls to SOLIDWORKS using an Add-in (C#)](Add_.NET_Controls_to_SOLIDWORKS_Using_an_Add-in_Example_CSharp.htm)
-
 [Add .NET Controls to SOLIDWORKS using an Add-in (VB.NET)](Add_.NET_Controls_to_SolidWorks_Using_an_Add-in_Example_VBNET.htm)
 
 ## Remarks
@@ -94,9 +83,7 @@ This method is only available through early binding and with 64-bit versions of 
 ## See Also
 
 [IModelViewManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html)
-
 [IModelViewManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager_members.html)
-
 [IModelViewManager::CreateFeatureMgrWindowFromHandlex64 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager~CreateFeatureMgrWindowFromHandlex64.html)
 
 ## Availability

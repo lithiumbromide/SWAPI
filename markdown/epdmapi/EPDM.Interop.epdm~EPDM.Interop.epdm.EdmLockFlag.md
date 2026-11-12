@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLockFlag.html"
 
 # EdmLockFlag Enumeration
 
-Flags used in
-
-[IEdmFile5::LockFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~LockFile.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags used in [IEdmFile5::LockFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~LockFile.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

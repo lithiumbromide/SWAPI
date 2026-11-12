@@ -45,36 +45,23 @@ property System.bool CommandInProgress {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Set toParameterDescTrue before calling the sequence of API calls, then set to false after calling the sequence of API calls
+Set to True before calling the sequence of API calls, then set to false after calling the sequence of API calls
 
 ## VBA Syntax
 
-See
-
-[SldWorks::CommandInProgress](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CommandInProgress.html)
-
-.
+See [SldWorks::CommandInProgress](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CommandInProgress.html).
 
 ## Remarks
 
-SOLIDWORKS then reduces the number of updates it makes during these calls.
-
-Use of this property only effects out-of-process applications.
+SOLIDWORKS then reduces the number of updates it makes during these calls. Use of this property only effects out-of-process applications.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.Object^ GetLineAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,29 +55,19 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Note::GetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Note~GetLineAtIndex.html)
-
-.
+See [Note::GetLineAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Note~GetLineAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[lineType,startPt[3],endPt[3]
+[ lineType, startPt[3], endPt[3]
 
 where:
-
-(Table)=========================================================
 
 | lineType | = the line type. Refer to the swLineTypes_e enumeration. |
 | --- | --- |
@@ -95,9 +79,6 @@ The data returned from this method is in terms of document space. If the documen
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::GetLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetLineCount.html)
-
 [INote::IGetLineAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IGetLineAtIndex.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHo
 
 # GetSketchPoints Method (IHoleSeriesFeatureData)
 
-Obsolete. Superseded by[IHoleSeriesFeatureData2::GetSketchPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~GetSketchPoints.html).
+Obsolete. Superseded by [IHoleSeriesFeatureData2::GetSketchPoints](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~GetSketchPoints.html).
 
 ## Syntax
 
@@ -40,36 +40,21 @@ System.object GetSketchPoints()
 System.Object^ GetSketchPoints();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Center-hole
-
-[sketch points](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
+Center-hole [sketch points](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
 
 ## VBA Syntax
 
-See
-
-[HoleSeriesFeatureData::GetSketchPoints](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~GetSketchPoints.html)
-
-.
+See [HoleSeriesFeatureData::GetSketchPoints](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~GetSketchPoints.html).
 
 ## See Also
 
 [IHoleSeriesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData.html)
-
 [IHoleSeriesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData_members.html)
-
 [IHoleSeriesFeatureData::IGetSketchPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~IGetSketchPoints.html)
-
 [IHoleSeriesFeatureData::GetSketchPointsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~GetSketchPointsCount.html)
 
 ## Availability

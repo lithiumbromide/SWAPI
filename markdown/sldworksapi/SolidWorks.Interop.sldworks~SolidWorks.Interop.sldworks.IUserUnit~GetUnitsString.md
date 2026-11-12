@@ -47,13 +47,7 @@ System.String^ GetUnitsString(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ String describing the unit
 
 ## VBA Syntax
 
-See
-
-[UserUnit::GetUnitsString](ms-its:sldworksapivb6.chm::/sldworks~UserUnit~GetUnitsString.html)
-
-.
+See [UserUnit::GetUnitsString](ms-its:sldworksapivb6.chm::/sldworks~UserUnit~GetUnitsString.html).
 
 ## Examples
 
-See the
-
-[IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
-examples.
+See the [IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html) examples.
 
 ## See Also
 
 [IUserUnit Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
 [IUserUnit Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit_members.html)
 
 ## Availability

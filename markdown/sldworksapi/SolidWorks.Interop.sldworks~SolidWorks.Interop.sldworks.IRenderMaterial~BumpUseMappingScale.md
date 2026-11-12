@@ -45,13 +45,7 @@ property System.bool BumpUseMappingScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True to use the material's scale and mapping, false to not
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::BumpUseMappingScale](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpUseMappingScale.html)
-
-.
+See [RenderMaterial::BumpUseMappingScale](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpUseMappingScale.html).
 
 ## Remarks
 
-If BumpUseMappingScale is set to FALSE, then specify the[scale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~BumpScale.html)and mapping for this surface finish for this appearance.
+If BumpUseMappingScale is set to FALSE, then specify the [scale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~BumpScale.html) and mapping for this surface finish for this appearance.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnDelete Method (ISwManipulatorHandler)
 
-Obsolete. Superseded by
-
-[ISwManipulatorHandler2::OnDelete](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnDelete.html)
-
-.
+Obsolete. Superseded by [ISwManipulatorHandler2::OnDelete](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2~OnDelete.html).
 
 ## Syntax
 
@@ -57,14 +53,9 @@ System.bool OnDelete(
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler::OnDelete](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnDelete.html)
-
-.
+See [SwManipulatorHandler::OnDelete](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler~OnDelete.html).
 
 ## See Also
 
 [ISwManipulatorHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler.html)
-
 [ISwManipulatorHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler_members.html)

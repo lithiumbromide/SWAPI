@@ -40,13 +40,7 @@ System.int GetPatternFaceCount()
 System.int GetPatternFaceCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Number of faces
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::GetPatternFaceCount](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~GetPatternFaceCount.html)
-
-.
+See [CurveDrivenPatternFeatureData::GetPatternFaceCount](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~GetPatternFaceCount.html).
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
-
 [ICurveDrivenPatternFeatureData::IGetPatternFaceArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~IGetPatternFaceArray.html)
-
 [ICurveDrivenPatternFeatureData::ISetPatternFaceArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~ISetPatternFaceArray.html)
-
 [ICurveDrivenPatternFeatureData::PatternFaceArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~PatternFaceArray.html)
 
 ## Availability

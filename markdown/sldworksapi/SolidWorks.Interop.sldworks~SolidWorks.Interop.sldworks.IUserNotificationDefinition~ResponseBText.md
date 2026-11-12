@@ -45,13 +45,7 @@ property System.String^ ResponseBText {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Text displayed on second user response control; default is an empty string
 
 ## VBA Syntax
 
-See
-
-[UserNotificationDefinition::ResponseBText](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~ResponseBText.html)
-
-.
+See [UserNotificationDefinition::ResponseBText](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~ResponseBText.html).
 
 ## See Also
 
 [IUserNotificationDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition.html)
-
 [IUserNotificationDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRi
 
 # DraftOutward Property (IRibFeatureData)
 
-Obsolete. Superseded by
-
-[IRibFeatureData2::DraftOutward](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~DraftOutward.html)
-
-.
+Obsolete. Superseded by [IRibFeatureData2::DraftOutward](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~DraftOutward.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool DraftOutward {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RibFeatureData::DraftOutward](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~DraftOutward.html)
-
-.
+See [RibFeatureData::DraftOutward](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~DraftOutward.html).
 
 ## See Also
 
 [IRibFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData.html)
-
 [IRibFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData_members.html)

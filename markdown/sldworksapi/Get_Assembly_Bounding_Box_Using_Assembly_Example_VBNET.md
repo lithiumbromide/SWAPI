@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Assembly_Bounding_Box_Using_Assembly_Example_VBNET.htm"
 
 # Get Assembly Bounding Box Using Assembly Example (VB.NET)
 
-This example shows how to get the box bounding an assembly using the
-assembly.
+This example shows how to get the box bounding an assembly using the assembly.
 
 ```
 '--------------------------------------------

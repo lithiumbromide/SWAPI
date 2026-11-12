@@ -45,41 +45,23 @@ property System.bool AutoSelectComponents {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to automatically select all affected assembly components, false to manually select components (
-
-see Remarks
-
-)
+True to automatically select all affected assembly components, false to manually select components (**see Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SweepFeatureData::AutoSelectComponents](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~AutoSelectComponents.html)
-
-.
+See [SweepFeatureData::AutoSelectComponents](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~AutoSelectComponents.html).
 
 ## Examples
 
-See the
-
-[ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
-examples.
+See the [ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html) examples.
 
 ## Remarks
 
-Use this property,[ISweepFeatureData::AssemblyFeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISweepFeatureData~AssemblyFeatureScope.html), and[ISweepFeatureData::PropagateFeatureToParts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~PropagateFeatureToParts.html)to insert sweep cuts into an assembly.
+Use this property, [ISweepFeatureData::AssemblyFeatureScope](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISweepFeatureData~AssemblyFeatureScope.html), and [ISweepFeatureData::PropagateFeatureToParts](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~PropagateFeatureToParts.html) to insert sweep cuts into an assembly.
 
 This API works with ISweepFeatureData::AssemblyFeatureScope to configure the scope of an assembly sweep feature. This API performs the same configuration that is done in the Feature Scope section of the PropertyManager page of the sweep feature:
 
@@ -88,12 +70,11 @@ This API works with ISweepFeatureData::AssemblyFeatureScope to configure the sco
 | False | Ignored | All components selected Auto-select not visible |
 | True | If true, affected components are automatically selected If false, manually select the components before calling this API | Selected components selected If Auto-select is not checked, then manually select components |
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [ISweepFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData_members.html)
 
 ## Availability

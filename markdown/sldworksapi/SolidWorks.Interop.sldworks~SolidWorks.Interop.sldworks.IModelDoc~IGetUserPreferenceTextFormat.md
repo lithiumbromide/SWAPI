@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IGetUserPreferenceTextFormat Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::IGetUserPreferenceTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetUserPreferenceTextFormat.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::IGetUserPreferenceTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IGetUserPreferenceTextFormat.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ TextFormat^ IGetUserPreferenceTextFormat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::IGetUserPreferenceTextFormat](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IGetUserPreferenceTextFormat.html)
-
-.
+See [ModelDoc::IGetUserPreferenceTextFormat](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~IGetUserPreferenceTextFormat.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

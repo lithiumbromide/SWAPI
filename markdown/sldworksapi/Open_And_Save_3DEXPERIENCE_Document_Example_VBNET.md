@@ -9,13 +9,12 @@ source: "sldworksapi/Open_And_Save_3DEXPERIENCE_Document_Example_VBNET.htm"
 
 # Open And Save Document to 3DEXPERIENCE Example (VB.NET)
 
-This example shows how to open and save a**3D**EXPERIENCE
-document with SOLIDWORKS Connected.
+This example shows how to open and save a **3D**EXPERIENCE document with SOLIDWORKS Design connected to the 3DEXPERIENCE platform.
 
 ```vb
   '----------------------------------------------------------------
  ' Preconditions:
- ' 1. Open SOLIDWORKS Connected.
+ ' 1. Open SOLIDWORKS Design connected to the 3DEXPERIENCE platform.
  ' 2. Open a new part.
  ' 3. Open the Immediate window.
  ' 4. Run the macro to the Stop.

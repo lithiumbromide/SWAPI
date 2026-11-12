@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault19_members.html"
 
 # IEdmVault19 Interface Members
 
-The following tables list the members exposed by[IEdmVault19](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault19.html).
+The following tables list the members exposed by [IEdmVault19](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault19.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IEdmVault19](EPDM.Interop.epdm~
 ## See Also
 
 [IEdmVault19 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault19.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

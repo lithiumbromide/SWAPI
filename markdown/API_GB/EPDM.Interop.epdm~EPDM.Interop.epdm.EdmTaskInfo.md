@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html"
 
 # EdmTaskInfo Structure
 
-Used by
-
-[IEdmTaskMgr::RunTask](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr~RunTask.html)
-
-.
+Used by [IEdmTaskMgr::RunTask](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr~RunTask.html).
 
 ## Syntax
 
@@ -38,12 +34,14 @@ public value class EdmTaskInfo : public System.ValueType
 
 ## Examples
 
-struct EdmTaskInfo{string mbsTaskName ; long mllShortTaskInfoFlags ; integer mlTaskID ; };
+struct EdmTaskInfo{
+string [mbsTaskName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo~mbsTaskName.html);
+long [mllShortTaskInfoFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo~mllShortTaskInfoFlags.html);
+integer [mlTaskID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo~mlTaskID.html);
+};
 
 ## See Also
 
 [EdmTaskInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Programming Tasks](Tasks.htm)

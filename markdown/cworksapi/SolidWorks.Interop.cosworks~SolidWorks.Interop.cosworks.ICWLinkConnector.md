@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLi
 
 Allows access to a link connector.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class ICWLinkConnector
 
 ## VBA Syntax
 
-See
-
-[CWLinkConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkConnector.html)
-
-.
+See [CWLinkConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkConnector.html).
 
 ## Examples
 
 [Add Bearing Load (VBA)](Add_Bearing_Load_Example_VB.htm)
-
 [Add Bearing Load (VB.NET)](Add_Bearing_Load_Example_VBNET.htm)
-
 [Add Bearing Load (C#)](Add_Bearing_Load_Example_CSharp.htm)
 
 ## Accessors
@@ -68,5 +56,4 @@ See
 ## See Also
 
 [ICWLinkConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

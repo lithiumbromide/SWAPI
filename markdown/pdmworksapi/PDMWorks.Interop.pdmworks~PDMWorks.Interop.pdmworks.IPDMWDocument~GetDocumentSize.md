@@ -42,19 +42,11 @@ System.Object^ GetDocumentSize();
 
 ### Return Value
 
-Size (in bytes) of the document (see
-
-Remarks
-
-)
+Size (in bytes) of the document (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::GetDocumentSize](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~GetDocumentSize.html)
-
-.
+See [PDMWDocument::GetDocumentSize](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~GetDocumentSize.html).
 
 ## Examples
 
@@ -67,11 +59,8 @@ Convert the return value to a double. See the example for details.
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMDocument::Size Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Size.html)
-
 [IPDMDocument::SizeH Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~SizeH.html)
 
 ## Availability

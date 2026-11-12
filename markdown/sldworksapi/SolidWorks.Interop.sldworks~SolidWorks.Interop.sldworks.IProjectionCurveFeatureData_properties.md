@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IProjectionCurveFeatureData Interface Properties
 
-For a list of all members of this type, see[IProjectionCurveFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData_members.html).
+For a list of all members of this type, see [IProjectionCurveFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData_members.html).
 
 ## Public Properties
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[IProjectionCurveFeatureData members]
 ## See Also
 
 [IProjectionCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

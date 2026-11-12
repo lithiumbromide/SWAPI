@@ -40,13 +40,7 @@ System.string GetFirstPoint()
 System.String^ GetFirstPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Label of the first point
 
 ## VBA Syntax
 
-See
-
-[PMIGtolData::GetFirstPoint](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolData~GetFirstPoint.html)
-
-.
+See [PMIGtolData::GetFirstPoint](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolData~GetFirstPoint.html).
 
 ## See Also
 
 [IPMIGtolData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData.html)
-
 [IPMIGtolData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData_members.html)
-
 [IPMIGtolData::GetSecondPoint Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData~GetSecondPoint.html)
 
 ## Availability

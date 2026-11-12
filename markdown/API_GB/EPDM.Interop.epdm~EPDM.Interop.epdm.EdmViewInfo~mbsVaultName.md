@@ -35,11 +35,9 @@ System.String^ mbsVaultName
 ## Examples
 
 [Destroy Deleted Files in Vault (C#)](Destroy_Deleted_Files_in_Vault_Example_CSharp.htm)
-
 [Destroy Deleted Files in Vault (VB.NET)](Destroy_Deleted_Files_in_Vault_Example_VBNET.htm)
 
 ## See Also
 
 [EdmViewInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo.html)
-
 [EdmViewInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmViewInfo_members.html)

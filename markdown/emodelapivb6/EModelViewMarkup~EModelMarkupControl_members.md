@@ -1,6 +1,5 @@
 ---
-title: "EModelMarkupControl Object
-Members"
+title: "EModelMarkupControl Object Members"
 project: "SOLIDWORKS eDrawings Type Library"
 interface: "EModelMarkupControl_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "emodelapivb6/EModelViewMarkup~EModelMarkupControl_members.html"
 ---
 
-# EModelMarkupControl Object
-Members
+# EModelMarkupControl Object Members
 
 ## Public Methods
 

@@ -9,8 +9,7 @@ source: "sldworksapi/Move_Freeze_Bar_Example_VBNET.htm"
 
 # Move Freeze Bar Example (VB.NET)
 
-This example shows how to move the freeze bar to another location in the
-FeatureManager design tree.
+This example shows how to move the freeze bar to another location in the FeatureManager design tree.
 
 ```vb
 '----------------------------------------------------------------------------

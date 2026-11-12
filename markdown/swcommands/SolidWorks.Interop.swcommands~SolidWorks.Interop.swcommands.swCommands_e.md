@@ -110,10 +110,10 @@ public enum class swCommands_e : public System.Enum
 | swCommands_Add_Part_Block | 2823; valid for blocks created in assembly layouts; in the FeatureManager design tree, block_name RMB menu > Make Part from Block |
 | swCommands_Add_Slope | 3103; valid for the SOLIDWORKS Routing add-in and a piping assembly, opens the Pipe Slope PropertyManager page ; Piping toolbar > Add Slope |
 | swCommands_Add_Split_Feat_To_Asm | 1818; valid only for parts with a split feature; Insert menu > Features > Create Assembly |
-| swCommands_Add_To_Bookmark | 3514; valid only in SOLIDWORKS Connected, adds the current file to the bookmark folder; Lifecycle and Collaboration toolbar > Bookmarks > Add to Bookmark |
+| swCommands_Add_To_Bookmark | 3514; valid only in SOLIDWORKS Design connected to the 3DEXPERIENCE platform, adds the current file to the bookmark folder; Lifecycle and Collaboration toolbar > Bookmarks > Add to Bookmark |
 | swCommands_Add_to_CMarkSet | 3131; valid only for drawings with a center mark set; in the graphics view, center_mark RMB menu >Add to Center Mark Set |
 | swCommands_Add_To_Palette | 2171; valid for parts with a selected geometric tolerance symbol, opens the Add to Library PropertyManager page; in the graphics area, geo_tol RMB menu > Add to Library ; also valid for assemblies; in the FeatureManager design tree, component_name RMB menu > Add to Library |
-| swCommands_Add_To_Recent_Bookmark | 3525; valid only in SOLIDWORKS Connected, adds selected files and components to your recent bookmarks; Lifecycle and Collaboration toolbar > Bookmarks > Add to Recent Bookmark |
+| swCommands_Add_To_Recent_Bookmark | 3525; valid only in SOLIDWORKS Design connected to the 3DEXPERIENCE platform, adds selected files and components to your recent bookmarks; Lifecycle and Collaboration toolbar > Bookmarks > Add to Recent Bookmark |
 | swCommands_AddCurvatureControl | 416; valid only for 2D spline sketches; Spline Tools toolbar > Add Curvature Control |
 | swCommands_AddRelation | 71; valid for sketches in edit mode; Dimensions/Relations toolbar > Add Relation |
 | swCommands_AddRemove | 515; valid for blocks in edit mode; Layout or Blocks toolbar >Add/Remove |
@@ -262,6 +262,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_AutoRepair_Mates | 3510; Auto repairs mates in a model that is in resolved or lightweight mode; right-click on the Mates root folder and click Auto Repair. |
 | swCommands_AutoRepair_Pattern | 3520; Auto repairs a missing Direction 1 or Direction 2 selection in a linear pattern; Right-click the pattern feature in the FeatureManager design tree and click Auto Repair in the pattern context menu |
 | swCommands_Autosolve_Toggle | 997; valid for drawings; Tools menu > Sketch Settings > Automatic Solve |
+| swCommands_AutoUpdateDrawing | 3551; valid for parts and assemblies; File menu > Update Drawings |
 | swCommands_Auxiliary | 391; valid for part documents with a single 2D sketch in edit mode; 2D to 3D toolbar > Auxiliary Sketch |
 | swCommands_AuxiliaryView | 33; valid for drawings; Drawing toolbar > Auxiliary View |
 | swCommands_Axis | 22; valid for parts; Reference Geometry toolbar > Axis or Features toolbar > Reference Geometry > Axis |
@@ -347,6 +348,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_Cmark_Merge | 1893; valid for a drawing with two multi-selected center marks that are mergeable in the center mark set; in the graphics area, center_mark RMB menu > Merge Center Mark |
 | swCommands_Cmark_Select | 1898; valid for a drawing with a selected center mark in a center mark set; in the graphics area, center_mark RMB menu > Select Center Mark Set |
 | swCommands_Cmark_Setbase | 1873; valid for a drawing with a selected center mark in a center mark set; in the graphics area, center_mark RMB menu > Set as Base Center |
+| swCommands_CmdPrediction_Search_Cmd | 3541; searches for a command predictor selection |
 | swCommands_Collapse_Tree | 1977; accelerator key ctrl-C |
 | swCommands_Collapseallitems_Tree | 2555; accelerator key shift-C |
 | swCommands_Color | 531; valid for selected text; Formatting toolbar > Color |
@@ -405,7 +407,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_CoordinateSystem | 154; valid for parts with a selected sketch; Features toolbar > Reference Geometry > Coordinate System |
 | swCommands_Copy | 583; valid for a selection; Standard > Copy |
 | swCommands_Copy_Appearance | 3053; valid for a model with an appearance; Render Tools or View toolbar > Copy Appearance |
-| swCommands_Copy_Bookmark_Link | 3526; valid only in SOLIDWORKS Connected, copies the link of the bookmarked file location in bookmarks to the clipboard; Lifecycle and Collaboration toolbar > Bookmarks > Copy Bookmark Link |
+| swCommands_Copy_Bookmark_Link | 3526; valid only in SOLIDWORKS Design connected to the 3DEXPERIENCE platform, copies the link of the bookmarked file location in bookmarks to the clipboard; Lifecycle and Collaboration toolbar > Bookmarks > Copy Bookmark Link |
 | swCommands_Copy_Drw_To_Dwgeditor | 2202; valid for drawings; Edit menu > Copy to DWG format |
 | swCommands_Copy_Swift_Schema | 2017; valid for parts with multiple configurations and a selected configuration to which to copy an existing tolerance scheme; DimXpert toolbar > Copy Scheme |
 | swCommands_CopyEntities | 559; vald for parts with a sketch in edit mode; Sketch toolbar > Copy Entities |
@@ -425,6 +427,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_Create_Sub_Weldment | 2367; valid for weldment parts; in the FeatureManager design tree, Cutlist folder > item_name RMB menu > Create Sub-Weldment |
 | swCommands_Create_Userdefined_Rt_By_Drag_Drop | 3163; valid for the SOLIDWORKS Routing add-in and a routing assembly; User Defined Route toolbar > Start by Drag/Drop |
 | swCommands_Create_Userdefined_Rt_On_Fly | 3166; valid for the SOLIDWORKS Routing add-in and a routing assembly, opens the Connection Point PropertyManager page; User Defined Route toolbar > Start at Point |
+| swCommands_CreateNewTask | 3548; opens a Create a Task dialog for SOLIDWORKS Design running in 3DEXPERIENCE; Lifecycle and Collaboration > Create New Task |
 | swCommands_CreateSketchFromSelections | 381; valid for parts, creates a new sketch from selected sketch entities; 2D To 3D toolbar > Create Sketch from Selections |
 | swCommands_CropView | 311; valid for drawings with a closed sketch profile on a selected view; Drawing toolbar > Crop View |
 | swCommands_Cull_Dynamic_Update | 1799; valid for assemblies; View menu > Display > Optimize Zoom/Pan/Rotate |
@@ -481,6 +484,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_DetailView | 35; valid for drawings; Drawing toolbar > Detail View |
 | swCommands_DeviationAnalysis | 411; valid for parts; Tools toolbar > Deviation Analysis |
 | swCommands_DFMXpress | 2833; valid for parts; Tools toolbar > DFMXpress Analysis Wizard |
+| swCommands_Dim_AddBreak | 3540; valid for a selected dimension; in the graphics area, dimension_with_break_lines RMB menu > Add Dimension Break |
 | swCommands_Dim_Center_Text | 1574; centers a selected dimension between extension lines; in the graphics area, dimension RMB menu > Display Options > Center Dimension |
 | swCommands_Dim_Foreshort | 2645; valid for a selected dimension; in the graphics area, dimension RMB menu > Display Options > Foreshorten |
 | swCommands_Dim_Inspection | 1342; valid for a selected dimension; in the graphics area, dimension RMB menu > Display Options > Show as Inspection |
@@ -492,6 +496,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_Dim_Snap_To_Edge | 789; valid for a selected horizontal dimension; in the graphics area, horizontal_dimension RMB menu > Align to edge |
 | swCommands_Dim_Snap_Vertical | 788; valid for a selected horizontal dimension; in the graphics area, horizontal_dimension RMB menu > Set Vertical |
 | swCommands_Dim_Stop_Break | 2785; valid for a selected dimension; in the graphics area, dimension_with_break_lines RMB menu > Remove Dimension Breaks |
+| swCommands_Dim_UpdateBreak | 3539; valid for a selected dimension; in the graphics area, dimension_with_break_lines RMB menu > Update Dimension Break |
 | swCommands_Dimension_Driven_Toggle | 3025; valid for an open sketch with an active sketch tool; Sketch toolbar > Sketch Dimension Driven |
 | swCommands_DimensionAlignCollinear | 2974; valid for multi-selected dimensions; Align toolbar > Align Collinear |
 | swCommands_DimensionPattern | 3101; valid for parts with a selected sketch; Features toolbar > Dimension Pattern |
@@ -875,6 +880,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_HideShowAnnotations | 67; Annotation toolbar > Hide/Show Annotations |
 | swCommands_HideShowComponents | 85; valid for selected components in an assembly; Assembly toolbar > Hide/Show Components |
 | swCommands_HideShowEdges | 2938; valid for drawings; Line Format toolbar > Hide/Show Edges |
+| swCommands_Highlight | 3550; valid for selected text; Formatting toolbar > Highlight |
 | swCommands_Hlink_History | 684; Web toolbar > web_history_dropdown |
 | swCommands_Hole_Table_Expand_Same_Size | 2368; valid for drawings with hole tables where same-size holes are combined; in the FeatureManager design tree, hole_table RMB menu > Expand Same Sizes |
 | swCommands_Hole_Table_Goto_Tag | 2364; valid for drawings with hole tables; in the drawing, hole_table_cell RMB menu > Jump to Tag |
@@ -1005,6 +1011,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_IntersectionCurve | 306; valid for sketches; Sketch toolbar > Intersection Curve |
 | swCommands_IntersectionSnap | 524; valid for sketches; Quick Snaps toolbar > Intersection Snap |
 | swCommands_InvertSelection | 564; Selection Filter toolbar > Invert Selection |
+| swCommands_Invoke_SWVisualize_Render_PM | 3543; Launches SOLIDWORKS Visualize Render PropertyManager |
 | swCommands_Iso_Draw_Electrical_Rt | 3353; Tools menu > Routing > Electrical > Create Drawing |
 | swCommands_Iso_draw_pipe_rt | 2948; valid for the SOLIDWORKS Routing add-in and an open piping assembly; Piping toolbar > Pipe Drawing |
 | swCommands_Isolate_Changed_Dims | 3023; valid for drawings saved in 2012 or later; Dimensions/Relations toolbar > Isolate Changed Dimensions |
@@ -1255,8 +1262,9 @@ public enum class swCommands_e : public System.Enum
 | swCommands_Open_Part | 3008; valid for a drawing view with a selected component; in the FeatureManager design tree, drw_view_comp RMB toolbar > Open Part |
 | swCommands_Open_Partdrawg_For_Drawing | 3503; Opens the drawing for the selected part or assembly in the drawing; In a drawing view, RMB on a part or assembly > Open Drawing |
 | swCommands_Open_Sub_Assembly | 3011; valid for a drawing of an assembly with subassemblies; in the graphics area, face_or_edge RMB context toolbar > Open Subassembly |
-| swCommands_OpenCollaborativeTask | 3534; valid only in SOLIDWORKS Connected, opens the Collaborative Tasks app in the SOIDWORKS Task Pane; Lifecycle and Collaboration toolbar > Open Collaborative Task |
+| swCommands_OpenCollaborativeTask | 3534; valid only in SOLIDWORKS Design connected to the 3DEXPERIENCE platform, opens the Collaborative Tasks app in the SOIDWORKS Task Pane; Lifecycle and Collaboration toolbar > (split button) Create New Task/Open Collaborative Task |
 | swCommands_OpenFromPC | 3495; Opens a dialog to select a document on this PC to open in SOLIDWORKS Power-By; File > Open from This PC... |
+| swCommands_OpenIn_SWVisualize | 3544; Opens a model in SOLIDWORKS Visualize |
 | swCommands_OpenInternetAddress | 130; opens the Open Internet Address dialog; Web toolbar > Open Internet Address |
 | swCommands_Option_Relations_Snaps | 2169; opens the Relations/Snaps page of the System Options dialog for a selected sheet or drawing view in a drawing; in the FeatureManager design tree, sheet RMB menu > Relations/Snaps Options |
 | swCommands_Options | 342; opens the System Options dialog; Standard toolbar > Options |
@@ -1293,18 +1301,18 @@ public enum class swCommands_e : public System.Enum
 | swCommands_PlasticsPremium | 3493; SOLIDWORKS Plastics Premium |
 | swCommands_PlasticsPro | 3492; SOLIDWORKS Plastics Professional |
 | swCommands_PlasticsStd | 3491; SOLIDWORKS Plastics Standard |
-| swCommands_PLM_Gen_Derived_Output_Number | 3483; SOLIDWORKS Connected only; Allows you to generate derived output for a selected object; MySession widget > Action Bar > Tools > Generate Derived Output or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Generate Derived Output |
-| swCommands_PLM_Maturity | 3476; for SOLIDWORKS Connected only, changes the maturity state of a selected object; MySession widget > Action Bar > Lifecycle > Maturity or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Maturity |
-| swCommands_PLM_Move_to | 3478; SOLIDWORKS Connected only; Allows you to move a selected object to another collaborative space and/or organization and change its owner; MySession widget > Action Bar > Lifecycle > Move To or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Move To |
-| swCommands_PLM_New_Revision | 3477; SOLIDWORKS Connected only; Allows you to create a new revision of a selected object and refresh local information to reflect the new revision; MySession widget > Action Bar > Lifecycle > New Revision or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > New Revision |
-| swCommands_PLM_Properties | 3479; SOLIDWORKS Connected only; Displays the 3DEXPERIENCE properties of the selected object; MySession widget > Action Bar > View > Properties or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > PLM Properties |
-| swCommands_PLM_Relations | 3480; SOLIDWORKS Connected only; Displays the ecosystem of the related objects by navigating on relationships and paths; MySession widget > Action Bar > Tools > Relations or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Relations |
-| swCommands_PLM_Reload_fromServer | 3474; SOLIDWORKS Connected only; Updates the selected revision in a session with the latest version that exists in 3DEXPERIENCE; MySession widget > Action Bar > Lifecycle > Reload from Server or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Reload from Server |
-| swCommands_PLM_Replace_By_Revision | 3475; SOLIDWORKS Connected only; Opens the Replace by Revision dialog box to replace the revision that is open in the session; MySession widget > Action Bar > Lifecycle > Replace by Revision or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Replace by Revision |
-| swCommands_PLM_Replace_Content | 3481; SOLIDWORKS Connected only; Opens the File Selection Box in which you can select an object to replace a pre-selected object; MySession widget > Action Bar > Tools > Replace Content or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Replace Content |
-| swCommands_PLM_Reserve | 3472; SOLIDWORKS Connected only; Reserves the selected object; MySession widget > Action Bar > Lifecycle > Reserve or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Reserve |
-| swCommands_PLM_Set_Ent_Item_Number | 3482; SOLIDWORKS Connected only; Opens the Set Enterprise Item Number dialog box where you can enter the enterprise item number for parts and assemblies; MySession widget > Action Bar > Tools > Set Enterprise Item Number or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Set Enterprise Item Number |
-| swCommands_PLM_Unreserve | 3473; SOLIDWORKS Connected only; Removes the reservation of the selected object; MySession widget > Action Bar > Lifecycle > Unreserve or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Unreserve |
+| swCommands_PLM_Gen_Derived_Output_Number | 3483; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Allows you to generate derived output for a selected object; MySession widget > Action Bar > Tools > Generate Derived Output or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Generate Derived Output |
+| swCommands_PLM_Maturity | 3476; for SOLIDWORKS Design connected to the 3DEXPERIENCE platform only, changes the maturity state of a selected object; MySession widget > Action Bar > Lifecycle > Maturity or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Maturity |
+| swCommands_PLM_Move_to | 3478; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Allows you to move a selected object to another collaborative space and/or organization and change its owner; MySession widget > Action Bar > Lifecycle > Move To or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Move To |
+| swCommands_PLM_New_Revision | 3477; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Allows you to create a new revision of a selected object and refresh local information to reflect the new revision; MySession widget > Action Bar > Lifecycle > New Revision or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > New Revision |
+| swCommands_PLM_Properties | 3479; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Displays the 3DEXPERIENCE properties of the selected object; MySession widget > Action Bar > View > Properties or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > PLM Properties |
+| swCommands_PLM_Relations | 3480; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Displays the ecosystem of the related objects by navigating on relationships and paths; MySession widget > Action Bar > Tools > Relations or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Relations |
+| swCommands_PLM_Reload_fromServer | 3474; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Updates the selected revision in a session with the latest version that exists in 3DEXPERIENCE; MySession widget > Action Bar > Lifecycle > Reload from Server or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Reload from Server |
+| swCommands_PLM_Replace_By_Revision | 3475; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Opens the Replace by Revision dialog box to replace the revision that is open in the session; MySession widget > Action Bar > Lifecycle > Replace by Revision or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Replace by Revision |
+| swCommands_PLM_Replace_Content | 3481; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Opens the File Selection Box in which you can select an object to replace a pre-selected object; MySession widget > Action Bar > Tools > Replace Content or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Replace Content |
+| swCommands_PLM_Reserve | 3472; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Reserves the selected object; MySession widget > Action Bar > Lifecycle > Reserve or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Reserve |
+| swCommands_PLM_Set_Ent_Item_Number | 3482; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Opens the Set Enterprise Item Number dialog box where you can enter the enterprise item number for parts and assemblies; MySession widget > Action Bar > Tools > Set Enterprise Item Number or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Set Enterprise Item Number |
+| swCommands_PLM_Unreserve | 3473; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Removes the reservation of the selected object; MySession widget > Action Bar > Lifecycle > Unreserve or SOLIDWORKS menu bar > Tools > Lifecycle and Collaboration > Unreserve |
 | swCommands_PmCancel | -1; valid on PropertyManager pages; Cancel |
 | swCommands_PmOK | -2; valid on PropertyManager pages; OK |
 | swCommands_Point | 72; valid for a selected plane, planar face, or edge; Sketch toolbar > Point |
@@ -1329,8 +1337,8 @@ public enum class swCommands_e : public System.Enum
 | swCommands_Propagate_Slots | 3517; Opens Slot Propagation PropertyManager; Propagates slots to a selected instance or all instances of an assembly component containing a tab feature; RMB menu for selected component with tab feature > Propagate Slots... |
 | swCommands_Properties | 75; opens a Properties dialog for the current selection; Standard toolbar > Properties |
 | swCommands_Properties_Smart_Fastener | 2456; valid for a selected Smart Fastener; smart_fastener RMB menu > Properties |
-| swCommands_Publish_3DSwym_3D | 3503; valid only for 3DEXPERIENCE platform/SOLIDWORKS Connected; Tools menu > Lifecycle and Collaboration > Publish to 3DSwym > Share as 3D ; exports the current model as a 3DXML file and publishes it in a 3DSwym community or conversation |
-| swCommands_Publish_3DSwym_Picture | 3502; valid only for 3DEXPERIENCE platform/SOLIDWORKS Connected; Tools menu > Lifecycle and Collaboration > Publish to 3DSwym > Share as Picture ; publishes a picture of the current model in a 3DSwym community or conversation |
+| swCommands_Publish_3DSwym_3D | 3503; valid only for 3DEXPERIENCE platform/SOLIDWORKS Design connected to the 3DEXPERIENCE platform; Tools menu > Lifecycle and Collaboration > Publish to 3DSwym > Share as 3D ; exports the current model as a 3DXML file and publishes it in a 3DSwym community or conversation |
+| swCommands_Publish_3DSwym_Picture | 3502; valid only for 3DEXPERIENCE platform/SOLIDWORKS Design connected to the 3DEXPERIENCE platform; Tools menu > Lifecycle and Collaboration > Publish to 3DSwym > Share as Picture ; publishes a picture of the current model in a 3DSwym community or conversation |
 | swCommands_Publish_Dl_Content | 2758; valid for the Motion Study gantt chart and a selected, suppressed simulation element row; in the MotionManager design tree, rotary_motor_bar RMB menu > Add to Library |
 | swCommands_Publish_HomeByMe | 3496; publishes the current document to HomebyMe; Tools toolbar > Publish to HomeByMe... |
 | swCommands_Publish_To_Edrawing | 2931; Standard toolbar > Publish eDrawings File |
@@ -1692,7 +1700,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_SimElementUnsuppress | 2831; valid only in the context of a Motion Study gantt chart for a selected, suppressed simulation element row; in the MotionManager design tree, rotary_motor_bar RMB menu > Unsuppress |
 | swCommands_SimpleHole | 12; valid for sheet metal parts; Sheet Metal toolbar > Simple Hole |
 | swCommands_SimplifySpline | 144; valid for a selected spline in an open sketch; Spline Tools toolbar > Simplify Spline |
-| swCommands_SimulationDesigner | 3527; SOLIDWORKS Connected only; SOLIDWORKS Add-ins toolbar > SOLIDWORKS Simulation Designer |
+| swCommands_SimulationDesigner | 3527; SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; SOLIDWORKS Add-ins toolbar > SOLIDWORKS Simulation Designer |
 | swCommands_SimulationPremium | 3435; valid only if entitled; SOLIDWORKS Add-ins toolbar > SOLIDWORKS Simulation Premium |
 | swCommands_SimulationPro | 3434; valid only if entitled; SOLIDWORKS Add-ins toolbar > SOLIDWORKS Simulation Professional |
 | swCommands_SimulationStd | 3433; valid only if entitled; SOLIDWORKS Add-ins toolbar > SOLIDWORKS Simulation Standard |
@@ -1805,7 +1813,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_Sw_Educator_Resources | 3465; Opens www.solidworks.com/eduwhatsnew |
 | swCommands_Sw_Release_Notes | 1411; opens the Administration Guides from www.solidworks.com ; Help menu > Release Notes |
 | swCommands_Sw_Taskpane | 2127; View menu > User Interface > Task Pane |
-| swCommands_SwConnected_Release_Notes | 3500; displays the release notes for the installed version of SOLIDWORKS Connected; SOLIDWORKS menu > Help > Release Notes > SOLIDWORKS Connected yyyy x |
+| swCommands_SwConnected_Release_Notes | 3500; displays the release notes for the installed version of SOLIDWORKS Design connected to the 3DEXPERIENCE platform; SOLIDWORKS menu > Help > Release Notes > SOLIDWORKS Design connected to the 3DEXPERIENCE platform yyyy x |
 | swCommands_SweptBossBase | 64; valid for parts with a selected sketch; Features toolbar > Swept Boss/Base |
 | swCommands_SweptCut | 65; valid for parts with a selected sketch; Features toolbar > Swept Cut |
 | swCommands_SweptFlange | 3041; valid for sheet metal parts, opens the Swept Flange PropertyManager page; Sheet Metal toolbar > Swept Flange |
@@ -1845,12 +1853,17 @@ public enum class swCommands_e : public System.Enum
 | swCommands_SwiftInsertDimension | 592; valid for parts; DimXpert toolbar > Location Dimension |
 | swCommands_SwiftInsertGeneralProfileTolerance | 3325; adds a Profile of Surface geometric tolerance to an open part; DimXpert toolbar > General Profile Tolerance |
 | swCommands_SwiftInsertGtol | 594; valid for parts, opens the GeometricTolerance Properties dialog; DimXpert toolbar > Geometric Tolerance |
+| swCommands_SwiftInsertOrdinateDimension | 3549; adds ordinate dimensions to DimXpert features; DimXpert toolbar > Ordinate Dimension |
 | swCommands_SwiftInsertPatternFeature | 627; valid for parts, opens the DimXpert Pattern/Collection PropertyManager page; DimXpert toolbar > Pattern Feature |
 | swCommands_SwiftInsertSizeDimension | 625; valid for parts; DimXpert toolbar > Size Dimension |
 | swCommands_SwiftRecognizeFeatures | 591; valid for parts; DimXpert toolbar > Auto Dimension Scheme |
 | swCommands_SwiftShowConstraintStatus | 595; valid for parts; DimXpert toolbar > Show Tolerance Status |
 | swCommands_SWPremium | 3432; SOLIDWORKS Premium |
 | swCommands_SWUltimate | 3532; SOLIDWORKS Ultimate |
+| swCommands_SWVisualize | 3542; Loads or Unloads the SOLIDWORKS Visualize add-in |
+| swCommands_SWVisualize_GroupByAppearance | 3545; Group by appearance; SOLIDWORKS Visualize add-in |
+| swCommands_SWVisualize_GroupByPart | 3546; Group by part; SOLIDWORKS Visualize add-in |
+| swCommands_SWVisualize_ImportWithOptions | 3547; Import with options; SOLIDWORKS Visualize add-in |
 | swCommands_TabAndSlot | 3234; adds a tab and slot feature; Sheet Metal toolbar > Tab and Slot |
 | swCommands_Table_Cell_Sub_Total | 1975; inserts "Sub-total" into a selected table cell |
 | swCommands_Table_Cell_Total | 1976; inserts "Total" into a selected table cell |
@@ -1900,7 +1913,7 @@ public enum class swCommands_e : public System.Enum
 | swCommands_Toolbar_Inkmarkup | 3437; View menu > Toolbars > Markup |
 | swCommands_Toolbar_Layer | 1180; alternative to swCommands_Layer_Toolbar; View menu > Toolbars > Layer |
 | swCommands_Toolbar_Layout_Tools | 2816; alternative to swCommands_Layout; View menu > Toolbars > Layout Tools |
-| swCommands_Toolbar_Lifecycle_And_Collaboration | 3484; For SOLIDWORKS Connected only; Activates the Lifecycle and Collaboration toolbar; View menu > Toolbars > Lifecycle and Collaboration |
+| swCommands_Toolbar_Lifecycle_And_Collaboration | 3484; For SOLIDWORKS Design connected to the 3DEXPERIENCE platform only; Activates the Lifecycle and Collaboration toolbar; View menu > Toolbars > Lifecycle and Collaboration |
 | swCommands_Toolbar_Lineformat | 1165; alternative to swCommands_LineFormats; View menu > Toolbars > Line Format |
 | swCommands_Toolbar_Macro | 1159; alternative to swCommands_Macros; View menu > Toolbars > Macro |
 | swCommands_Toolbar_Mold | 1172; alternative to swComnmands_Molds; View menu > Toolbars > Mold Tools |

@@ -9,8 +9,7 @@ source: "sldworksapi/Zoom_Drawing_Sheet_to_Maximum_Size_in_Window_Example_VB.htm
 
 # Zoom Drawing Sheet to Maximum Size in Window Example (VBA)
 
-This example shows how to zoom a drawing sheet to its maximum size within the
-window.
+This example shows how to zoom a drawing sheet to its maximum size within the window.
 
 ```
 '------------------------------------------------------

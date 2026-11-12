@@ -44,17 +44,11 @@ property swDmDimXpertPatternTreatmentType_e PatternTreatment {
 
 ### Property Value
 
-Pattern treatment for the diameter dimension tolerance as defined in
-
-[swDmDimXpertPatternTreatmentType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertPatternTreatmentType_e.html)
+Pattern treatment for the diameter dimension tolerance as defined in [swDmDimXpertPatternTreatmentType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertPatternTreatmentType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertDiameterDimTol::PatternTreatment](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDiameterDimTol~PatternTreatment.html)
-
-.
+See [SwDMDimXpertDiameterDimTol::PatternTreatment](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDiameterDimTol~PatternTreatment.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertDiameterDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDiameterDimTol.html)
-
 [ISwDMDimXpertDiameterDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDiameterDimTol_members.html)
 
 ## Availability

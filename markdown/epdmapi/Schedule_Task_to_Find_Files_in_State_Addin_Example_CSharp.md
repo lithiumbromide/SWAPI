@@ -9,32 +9,26 @@ source: "epdmapi/Schedule_Task_to_Find_Files_in_State_Addin_Example_CSharp.htm"
 
 # Create a Task that Finds Files in Workflow States Example (C#)
 
-This example shows how to create a task add-in that finds files that have
-been in specified workflow states a specified number of days.
+This example shows how to create a task add-in that finds files that have been in specified workflow states a specified number of days.
 
 ```vb
   //--------------------------------------------------------------------------------------
  // Preconditions:
  //  1. Start Microsoft Visual Studio.
- //  2. Click File > New > Project > Visual C# > Class Library (.NET Framework).
+ //  2. Click File > New > Project > C#, Windows, Library > Class Library (.NET Framework).
  //  3. Select .NET Framework 4.5 or later in the dropdown.
  //  4. Click Browse and navigate to the folder where to create the project.
- //  5. Type StateAgeTask_CSharp in Name.
- //  6. Click OK.
+ //  5. Type StateAgeTask_CSharp in Project name.
+ //  6. Click Create.
  //  7. Right-click the project in the Solution Explorer and click Add > User Control.
  //  8. In the Add New Item dialog, keep the default name and click Add.
  //  9. Click Show all Files in the Solution Explorer toolbar and expand UserControl1.vb.
  // 10. Replace the code in Class1.cs with this code.
  // 11. Replace the code in UserControl1.Designer.cs with this code.
  // 12. Replace the code in UserControl1.cs with this code.
- // 13. Right-click the project name in the Solution Explorer and click Add Reference.
- // 14. In the Add Reference dialog:
- //     a. Add the SOLIDWORKS PDM Professional  interop assembly as a reference (click Browse in the
- //        left-side panel, click EPDM.Interop.epdm.dll,
- //        and click OK).
-//     b. Add System.Windows.Forms as a reference (click Assemblies > Framework in the
- //        left-side panel, click System.Windows.Forms, and click OK).
- //     c. Click Close.
+ // 13. Add dependencies and safely pass arrays of structures.
+// 14. Add System.Windows.Forms as a reference (click Assemblies > Framework in the
+ //     left-side panel, click System.Windows.Forms, and click OK).
  // 15. Right-click the project name in the Solution Explorer and click  Properties.
  // 16. In the Properties window:
  //     a. On the Application tab, click Assembly Information.

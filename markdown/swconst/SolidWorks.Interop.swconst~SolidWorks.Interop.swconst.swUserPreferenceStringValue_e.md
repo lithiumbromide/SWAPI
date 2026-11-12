@@ -161,6 +161,7 @@ public enum class swUserPreferenceStringValue_e : public System.Enum
 | swIFCExportPropertySetMappingFile | See System Options and Document Properties. |
 | swLastSynchronizationTimeStamp | See System Options and Document Properties. |
 | swMaterialPropertyCrosshatchPattern | See System Options and Document Properties. |
+| swMultiCAD_ImportQueuePath | See System Options and Document Properties. |
 | swMySldSettings | See System Options and Document Properties. |
 | swOppPrefixSuffixText | See System Options and Document Properties. |
 | swOverriddenQuantityColumnName | See System Options and Document Properties. |
@@ -185,13 +186,8 @@ public enum class swUserPreferenceStringValue_e : public System.Enum
 ## See Also
 
 [SolidWorks.Interop.swconst Namespace](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst_namespace.html)
-
 [swUserPreferenceDoubleValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceDoubleValue_e.html)
-
 [swUserPreferenceIntegerValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceIntegerValue_e.html)
-
 [swUserPreferenceStringListValue_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringListValue_e.html)
-
 [swUserPreferenceTextFormat_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceTextFormat_e.html)
-
 [swUserPreferenceToggle_e Enumeration](SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html)

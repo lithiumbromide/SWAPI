@@ -47,21 +47,11 @@ MathTransform^ GetTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Instance`: - Index of one repeating element in this sketch-driven component pattern feature (see
-
-Remarks
-
-)
+- `Instance`: - Index of one repeating element in this sketch-driven component pattern feature (see **Remarks**)
 
 ### Return Value
 
@@ -69,24 +59,15 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[LocalCurvePatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~GetTransform.html)
-
-.
+See [LocalCurvePatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~LocalCurvePatternFeatureData~GetTransform.html).
 
 ## Remarks
 
-Valid values for Instance are 1 <= Instance <=
-
-[ILocalCurvePatternFeatureData::GetPatternComponentCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCurvePatternFeatureData~GetPatternComponentCount.html)
-
-.
+Valid values for Instance are 1 <= Instance <= [ILocalCurvePatternFeatureData::GetPatternComponentCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILocalCurvePatternFeatureData~GetPatternComponentCount.html).
 
 ## See Also
 
 [ILocalCurvePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData.html)
-
 [ILocalCurvePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCurvePatternFeatureData_members.html)
 
 ## Availability

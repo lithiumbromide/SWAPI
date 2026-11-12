@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # Height Property (IDomeFeatureData)
 
-Obsolete. Superseded by
-
-[IDomeFeatureData2::Height](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~Height.html)
-
-.
+Obsolete. Superseded by [IDomeFeatureData2::Height](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~Height.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double Height {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DomeFeatureData::Height](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~Height.html)
-
-.
+See [DomeFeatureData::Height](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~Height.html).
 
 ## See Also
 
 [IDomeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData.html)
-
 [IDomeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData_members.html)

@@ -45,13 +45,7 @@ property System.bool AutomaticRebuild {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ True to automatically rebuild after modifications, false to not
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::AutomaticRebuild](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~AutomaticRebuild.html)
-
-.
+See [EquationMgr::AutomaticRebuild](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~AutomaticRebuild.html).
 
 ## Remarks
 
-This property corresponds to the
-
-Automatic rebuild
-
-checkbox in the Manage Equations dialog.
+This property corresponds to the **Automatic rebuild** checkbox in the Manage Equations dialog.
 
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::Equation Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
 
 ## Availability

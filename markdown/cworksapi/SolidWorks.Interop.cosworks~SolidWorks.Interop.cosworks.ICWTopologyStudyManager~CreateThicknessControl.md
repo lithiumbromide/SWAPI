@@ -49,36 +49,23 @@ CWTopologyThicknessControl^ CreateThicknessControl(
 
 ### Parameters
 
-- `ErrorCode`: Result code as defined in
-
-[swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
+- `ErrorCode`: Result code as defined in [swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
 
 ### Return Value
 
-[ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
-; null if failure
+[ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html); null if failure
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager::CreateThicknessControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~CreateThicknessControl.html)
-
-.
+See [CWTopologyStudyManager::CreateThicknessControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~CreateThicknessControl.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
-example.
+See the [ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html) example.
 
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
 
 ## Availability

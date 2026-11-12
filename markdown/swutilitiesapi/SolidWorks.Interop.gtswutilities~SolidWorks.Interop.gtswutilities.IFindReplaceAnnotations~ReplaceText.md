@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # ReplaceText Property (IFindReplaceAnnotations)
 
-Gets or sets the text with which to replace the text returned by
-
-[IFindReplaceAnnotations::FindText](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~FindText.html)
-
-.
+Gets or sets the text with which to replace the text returned by [IFindReplaceAnnotations::FindText](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~FindText.html).
 
 ## Syntax
 
@@ -51,17 +47,11 @@ property System.String^ ReplaceText {
 
 ### Property Value
 
-Text with which to replace the text returned by
-
-[IFindReplaceAnnotations::FindText](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~FindText.html)
+Text with which to replace the text returned by [IFindReplaceAnnotations::FindText](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~FindText.html)
 
 ## VBA Syntax
 
-See
-
-[IFindReplaceAnnotations::ReplaceText](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~ReplaceText.html)
-
-.
+See [IFindReplaceAnnotations::ReplaceText](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~ReplaceText.html).
 
 ## Remarks
 
@@ -73,7 +63,6 @@ See
 ## See Also
 
 [IFindReplaceAnnotations Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations.html)
-
 [IFindReplaceAnnotations Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations_members.html)
 
 ## Availability

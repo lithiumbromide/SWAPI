@@ -46,28 +46,17 @@ Number of entities
 
 ## VBA Syntax
 
-See
-
-[CWElasticConnector::GetEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~GetEntityCount.html)
-
-.
+See [CWElasticConnector::GetEntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~GetEntityCount.html).
 
 ## Examples
 
-See the
-
-[ICWElasticConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html)
-
-examples.
+See the [ICWElasticConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html) examples.
 
 ## See Also
 
 [ICWElasticConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html)
-
 [ICWElasticConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector_members.html)
-
 [ICWElasticConnector::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~InsertEntity.html)
-
 [ICWElasticConnector::RemoveEntityAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~RemoveEntityAt.html)
 
 ## Availability

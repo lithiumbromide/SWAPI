@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Lines_in_Sketch_Example_VB.htm"
 
 # Get Lines in Sketch Example (VBA)
 
-This example shows how to get the number of lines in a selected sketch
-and their start and end point coordinates.
+This example shows how to get the number of lines in a selected sketch and their start and end point coordinates.
 
 ```
 '------------------------------------------------

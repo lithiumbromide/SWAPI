@@ -54,38 +54,24 @@ System.int GetFirstItem(
 ### Parameters
 
 - `SStudyName`: Name of study
-- `NRunStatus`: Error code of SStudyName as defined in
-
-[swsRunStudiesStatusCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesStatusCode_e.html)
+- `NRunStatus`: Error code of SStudyName as defined in [swsRunStudiesStatusCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesStatusCode_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsRunStudiesResultsErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesResultsErrorCode_e.html)
+Error code as defined in [swsRunStudiesResultsErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRunStudiesResultsErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRunStudiesResults::GetFirstItem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRunStudiesResults~GetFirstItem.html)
-
-.
+See [CWRunStudiesResults::GetFirstItem](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRunStudiesResults~GetFirstItem.html).
 
 ## Examples
 
-See the
-
-[ICWRunStudiesResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunStudiesResults.html)
-
-examples.
+See the [ICWRunStudiesResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunStudiesResults.html) examples.
 
 ## See Also
 
 [ICWRunStudiesResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunStudiesResults.html)
-
 [ICWRunStudiesResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunStudiesResults_members.html)
-
 [ICWRunStudiesResults::GetNextItem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRunStudiesResults~GetNextItem.html)
 
 ## Availability

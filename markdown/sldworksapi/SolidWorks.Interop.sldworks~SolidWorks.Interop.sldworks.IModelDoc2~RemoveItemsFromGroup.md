@@ -39,32 +39,18 @@ void RemoveItemsFromGroup()
 void RemoveItemsFromGroup();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::RemoveItemsFromGroup](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~RemoveItemsFromGroup.html)
-
-.
+See [ModelDoc2::RemoveItemsFromGroup](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~RemoveItemsFromGroup.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::CreateGroup Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~CreateGroup.html)
-
 [IModelDoc2::RemoveGroups Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~RemoveGroups.html)
-
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
 
 ## Availability

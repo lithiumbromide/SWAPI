@@ -45,13 +45,7 @@ property System.bool DisplayZebraStripes {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to display the zebra stripes, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelView::DisplayZebraStripes](ms-its:sldworksapivb6.chm::/sldworks~ModelView~DisplayZebraStripes.html)
-
-.
+See [ModelView::DisplayZebraStripes](ms-its:sldworksapivb6.chm::/sldworks~ModelView~DisplayZebraStripes.html).
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
 
 ## Availability

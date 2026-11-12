@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ISelectionManager Property (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ISelectionManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ISelectionManager.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ISelectionManager](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ISelectionManager.html).
 
 ## Syntax
 
@@ -46,24 +42,13 @@ property SelectionMgr^ ISelectionManager {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ISelectionManager](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ISelectionManager.html)
-
-.
+See [ModelDoc::ISelectionManager](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ISelectionManager.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

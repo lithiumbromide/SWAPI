@@ -40,13 +40,7 @@ System.int GetSketchPathCount()
 System.int GetSketchPathCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of sketch paths
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::GetSketchPathCount](ms-its:sldworksapivb6.chm::/Sldworks~SketchSegment~GetSketchPathCount.html)
-
-.
+See [SketchSegment::GetSketchPathCount](ms-its:sldworksapivb6.chm::/Sldworks~SketchSegment~GetSketchPathCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchSegment::IGetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~IGetSketchPaths.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchSegment::IGetSketchPaths](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~IGetSketchPaths.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
-
 [ISketchSegment::GetSketchPaths Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment~GetSketchPaths.html)
 
 ## Availability

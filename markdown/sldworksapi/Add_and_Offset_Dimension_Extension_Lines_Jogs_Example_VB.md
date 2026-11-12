@@ -9,8 +9,7 @@ source: "sldworksapi/Add_and_Offset_Dimension_Extension_Lines_Jogs_Example_VB.ht
 
 # Add and Offset Dimension Extension Lines Jogs (VBA)
 
-This example shows how to jog the selected dimension's extension lines
-and to then offset the jogs.
+This example shows how to jog the selected dimension's extension lines and to then offset the jogs.
 
 ```
 '-------------------------------------------------------------------------------

@@ -1,0 +1,47 @@
+#swapi-map 1 module=toolboxapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@CTbcApplication	i		base=IToolBoxConfiguratorApplication
+GetHWnd	m	int GetHWnd()	2013		Gets the 32-bit Microsoft window handle for the Toolbox Configurator.
+GetHWnd64	m	long GetHWnd64()	2013		Gets the 64-bit Microsoft window handle for the Toolbox Configurator.
+MajorVersion	p	int MajorVersion {get;}	2013		Gets the major version of the Welcome to Toolbox Setup dialog.
+PDMDocManager	p	object:IPDMDocManager PDMDocManager {get;}	2013		Gets the PDM document manager.
+SendMessageToUser	m	void SendMessageToUser(string message)	2013		Prompts the user with the specified message.
+@CTbcApplicationClass	c	Provides access to the Welcome to Toolbox Setup dialog.	base=CTbcApplication,IToolBoxConfiguratorApplication
+GetHWnd	m	int GetHWnd()	2013		Gets the 32-bit Microsoft window handle for the Toolbox Configurator.
+GetHWnd64	m	long GetHWnd64()	2013		Gets the 64-bit Microsoft window handle for the Toolbox Configurator.
+MajorVersion	p	int MajorVersion {get;}	2013		Gets the major version of the Welcome to Toolbox Setup dialog.
+PDMDocManager	p	object PDMDocManager {get;}	2013		Gets the PDM document manager.
+SendMessageToUser	m	void SendMessageToUser(string message)	2013		Prompts the user with the specified message.
+@DApplicationEvents	i	Event source; members are .NET delegates DApplicationEvents_<Member>EventHandler	prefix=SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.	path=-
+Destroy	e	delegate int DApplicationEvents_DestroyEventHandler()	2013		Handles the notification that the Toolbox Browser is about to be destroyed.
+@DPDMDocManagerEvents	i	Event source; members are .NET delegates DPDMDocManagerEvents_<Member>EventHandler	prefix=SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.	path=-
+AfterCopyingDocument	e	delegate int DPDMDocManagerEvents_AfterCopyingDocumentEventHandler(string FromFileName, string ToFileName, int DeleteSource)	2013		Handles the notification that the specified PDM-managed document was copied to the specified new file name.
+AfterDeletingDocument	e	delegate int DPDMDocManagerEvents_AfterDeletingDocumentEventHandler(string fileName)	2013		Handles the notification that the specified PDM-managed document was deleted.
+AfterWritingToDocument	e	delegate int DPDMDocManagerEvents_AfterWritingToDocumentEventHandler(string fileName)	2013		Handles the notification that the specified PDM-managed document was written to.
+BeforeCopyingDocument	e	delegate int DPDMDocManagerEvents_BeforeCopyingDocumentEventHandler(string FromFileName, string ToFileName, int DeleteSource)	2013		Handles the notification that the specified PDM-managed document is about to be copied to the specified new file name.
+BeforeDeletingDocument	e	delegate int DPDMDocManagerEvents_BeforeDeletingDocumentEventHandler(string fileName)	2013		Handles the notification that the specified PDM-managed document is about to be deleted.
+BeforeWritingToDocument	e	delegate int DPDMDocManagerEvents_BeforeWritingToDocumentEventHandler(string fileName)	2013		Handles the notification that the specified PDM-managed document is about to be written to.
+Destroy	e	delegate int DPDMDocManagerEvents_DestroyEventHandler()	2013		Handles the notification that the PDM application object is about to be destroyed.
+NewDocumentAdded	e	delegate int DPDMDocManagerEvents_NewDocumentAddedEventHandler(string fileName, int ToolboxID, int AddedToBrowser)	2013		Handles the notification that the specified part was added to the Toolbox.
+PreInsertDocument	e	delegate int DPDMDocManagerEvents_PreInsertDocumentEventHandler(string fileName, int ToolboxID)	2013		Handles the notification that the specified PDM-managed document is about to be inserted into an assembly.
+@IApplication	i	Provides access to the SOLIDWORKS Toolbox Browser add-in.	via=ISldWorks.GetAddInObject	prefix=SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.
+MajorVersion	p	int MajorVersion {get;}	2013		Gets the major version of the SOLIDWORKS Toolbox Browser add-in.
+PDMDocManager	p	PDMDocManager PDMDocManager {get;}	2013		Gets the PDM document manager.
+@IPDMDocManager	i	Provides access to the SOLIDWORKS Toolbox document manager.	via=IApplication.PDMDocManager,IToolBoxConfiguratorApplication.PDMDocManager	prefix=SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.
+SetCancelOperation	m	bool SetCancelOperation(int cancelOp)	2013		Cancels the current operation after any notifications are returned.
+SetDocumentStatus	m	bool SetDocumentStatus(int status:swPDMStatus_e)	2013		Sets the status of the currently active PDM document.
+SetManagedDocument	m	bool SetManagedDocument(string fileName)	2013		Places the specified document under PDM management.
+@IToolboxConfiguratorAddin	i	Connects to the Toolbox Configurator (Welcome to Toolbox Setup dialog) when it is opened and disconnects from it...
+Connect	m	bool Connect(object pTbcApplication:IToolBoxConfiguratorApplication, int lCookie)	2013		Connects to the Welcome to Toolbox Setup dialog.
+Disconnect	m	bool Disconnect()	2013		Disconnects from the Welcome to Toolbox Setup dialog.
+@IToolBoxConfiguratorApplication	i	Provides access to the Welcome to Toolbox Setup dialog.	via=IToolboxConfiguratorAddin.Connect
+GetHWnd	m	int GetHWnd()	2013		Gets the 32-bit Microsoft window handle for the Toolbox Configurator.
+GetHWnd64	m	long GetHWnd64()	2013		Gets the 64-bit Microsoft window handle for the Toolbox Configurator.
+MajorVersion	p	int MajorVersion {get;}	2013		Gets the major version of the Welcome to Toolbox Setup dialog.
+PDMDocManager	p	object:IPDMDocManager PDMDocManager {get;}	2013		Gets the PDM document manager.
+SendMessageToUser	m	void SendMessageToUser(string message)	2013		Prompts the user with the specified message.
+@ToolboxConfiguratorAddin	i		base=IToolboxConfiguratorAddin
+Connect	m	bool Connect(object pTbcApplication:IToolBoxConfiguratorApplication, int lCookie)	2013		Connects to the Welcome to Toolbox Setup dialog.
+Disconnect	m	bool Disconnect()	2013		Disconnects from the Welcome to Toolbox Setup dialog.
+@ToolboxConfiguratorAddinClass	c	Connects to the Toolbox Configurator (Welcome to Toolbox Setup dialog) when it is opened and disconnects from it...	base=IToolboxConfiguratorAddin,ToolboxConfiguratorAddin
+Connect	m	bool Connect(object pTbcApplication, int lCookie)	2013		Connects to the Welcome to Toolbox Setup dialog.
+Disconnect	m	bool Disconnect()	2013		Disconnects from the Welcome to Toolbox Setup dialog.

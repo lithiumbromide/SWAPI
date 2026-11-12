@@ -40,13 +40,7 @@ System.short GetProfileCount()
 System.short GetProfileCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,17 @@ Number of profiles
 
 ## VBA Syntax
 
-See
-
-[LoftFeatureData::GetProfileCount](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~GetProfileCount.html)
-
-.
+See [LoftFeatureData::GetProfileCount](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~GetProfileCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ILoftFeatureData::IGetProfiles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftFeatureData~IGetProfiles.html)
-
-to determine the size of the array for that method.
+Call this method before calling [ILoftFeatureData::IGetProfiles](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftFeatureData~IGetProfiles.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [ILoftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData_members.html)
-
 [ILoftFeatureData::ISetProfiles Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~ISetProfiles.html)
-
 [ILoftFeatureData::Profiles Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData~Profiles.html)
 
 ## Availability

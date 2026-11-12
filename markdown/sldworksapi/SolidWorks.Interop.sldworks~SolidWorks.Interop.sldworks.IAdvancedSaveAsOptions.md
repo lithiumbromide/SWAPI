@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAd
 
 # IAdvancedSaveAsOptions Interface
 
-Allows access to all
+Allows access to all **File > Save As** options when saving a SOLIDWORKS Part, Assembly, or Drawing.
 
-File > Save As
-
-options when saving a SOLIDWORKS Part, Assembly, or Drawing.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IAdvancedSaveAsOptions
 
 ## VBA Syntax
 
-See
-
-[AdvancedSaveAsOptions](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions.html)
-
-.
+See [AdvancedSaveAsOptions](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions.html).
 
 ## Examples
 
@@ -59,7 +51,7 @@ See
 '--------------------------------------------------------------
 ' Preconditions:
 ' 1. Open:
-'`public_documents`**\samples\tutorial\advdrawings\foodprocessor.slddrw**
+' `public_documents`**\samples\tutorial\advdrawings\foodprocessor.slddrw**
 ' 2. Open the Immediate window.
 '
 ' Postconditions:
@@ -120,15 +112,19 @@ Debug.Print aFileName
 
 Set AdvOptData = ModelExt.**GetAdvancedSaveAsOptions**((1 + 2 + 4))
 
-AdvOptData.**SaveAllAsCopy**= True
+AdvOptData.**SaveAllAsCopy** = True
 
-AdvOptData.**GetItemsNameAndPath**IDList, fileNameList, pathNameList
+'Uncomment below to save model and references as SOLIDWORKS 2020
+
+'AdvOptData.**SaveAsPreviousVersion** = 13000
+
+AdvOptData.**GetItemsNameAndPath** IDList, fileNameList, pathNameList
 
 PrintList fileNameList, pathNameList
 
-AdvOptData.**SetPrefixSuffixToAll**Prff, Suff
+AdvOptData.**SetPrefixSuffixToAll** Prff, Suff
 
-AdvOptData.**GetItemsNameAndPath**IDList, fileNameList, pathNameList
+AdvOptData.**GetItemsNameAndPath** IDList, fileNameList, pathNameList
 
 For k = 0 To UBound(IDList)
 
@@ -145,7 +141,7 @@ Error = AdvOptData.**ModifyItemsNameAndPath**(IDList, fileNameList, pathNameList
 
 Debug.Print "Modify Paths Status : " & Error
 Debug.Print " "
-AdvOptData.**GetItemsNameAndPath**IDList, fileNameList, pathNameList
+AdvOptData.**GetItemsNameAndPath** IDList, fileNameList, pathNameList
 
 PrintList fileNameList, pathNameList
 
@@ -194,5 +190,4 @@ End Sub
 ## See Also
 
 [IAdvancedSaveAsOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

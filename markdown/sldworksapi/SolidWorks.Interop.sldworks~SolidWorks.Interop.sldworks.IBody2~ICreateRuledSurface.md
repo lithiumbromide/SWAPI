@@ -55,31 +55,21 @@ Surface^ ICreateRuledSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Curve1`: Pointer to first[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-- `Curve2`: Pointer to second[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+- `Curve1`: Pointer to first [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+- `Curve2`: Pointer to second [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 - `ApexPoint`: Array of 3 doubles (x, y, z) being the apex point
 
 ### Return Value
 
-Pointer to ruled[surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
+Pointer to ruled [surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html)
 
 ## VBA Syntax
 
-See
-
-[Body2::ICreateRuledSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateRuledSurface.html)
-
-.
+See [Body2::ICreateRuledSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateRuledSurface.html).
 
 ## Remarks
 
@@ -88,9 +78,7 @@ Any existing object created by this method is destroyed if you call this method 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::ICreateRuledSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~ICreateRuledSurface.html)
 
 ## Availability

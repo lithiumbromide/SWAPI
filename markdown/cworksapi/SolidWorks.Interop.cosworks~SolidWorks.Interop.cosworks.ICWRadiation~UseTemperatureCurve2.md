@@ -51,11 +51,7 @@ property System.bool UseTemperatureCurve2 {
 
 ## Examples
 
-See the
-
-[ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
-examples.
+See the [ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html) examples.
 
 ## Remarks
 
@@ -64,7 +60,6 @@ This property returns a boolean value which can be cast to an integer. To set th
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "CWPlot Object
-Members"
+title: "CWPlot Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWPlot_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWPlot_members.html"
 ---
 
-# CWPlot Object
-Members
+# CWPlot Object Members
 
 ## Public Methods
 

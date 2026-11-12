@@ -45,13 +45,7 @@ property System.short CurrentSelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Index number of the item in the 0-based list of items
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageNumberbox::CurrentSelection](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~CurrentSelection.html)
-
-.
+See [PropertyManagerPageNumberbox::CurrentSelection](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~CurrentSelection.html).
 
 ## See Also
 
 [IPropertyManagerPageNumberbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox.html)
-
 [IPropertyManagerPageNumberbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox_members.html)
 
 ## Availability

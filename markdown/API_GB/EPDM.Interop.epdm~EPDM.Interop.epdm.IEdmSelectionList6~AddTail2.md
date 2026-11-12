@@ -39,9 +39,7 @@ void AddTail2(
 
 ### Parameters
 
-- `poObject`: [EdmSelectionObject](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject.html)
-
-structure; describes the object to add to the end of the list
+- `poObject`: [EdmSelectionObject](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject.html) structure; describes the object to add to the end of the list
 
 ## Examples
 
@@ -56,7 +54,6 @@ structure; describes the object to add to the end of the list
 ## See Also
 
 [IEdmSelectionList6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList6.html)
-
 [IEdmSelectionList6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList6_members.html)
 
 ## Availability

@@ -54,13 +54,7 @@ void InsertSketchPictureDatax64(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,24 +64,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertSketchPictureDatax64](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSketchPictureDatax64.html)
-
-.
+See [ModelDoc2::InsertSketchPictureDatax64](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSketchPictureDatax64.html).
 
 ## Remarks
 
-This method is only available through early binding and with 64-bit versions of the SOLIDWORKS software.
+This method is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software.
 
-A copy of the specified bitmap data is created. The SOLIDWORKS software does not release your bitmap object.
+A copy of the specified bitmap data is created. The SOLIDWORKS Design software does not release your bitmap object.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertSketchPictureData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertSketchPictureData.html)
 
 ## Availability

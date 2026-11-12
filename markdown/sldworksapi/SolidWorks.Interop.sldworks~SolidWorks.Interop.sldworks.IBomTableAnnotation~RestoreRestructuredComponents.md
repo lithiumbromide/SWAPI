@@ -47,13 +47,7 @@ System.bool RestoreRestructuredComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,18 @@ True if the subassembly or weldment is restored, false if not
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::RestoreRestructuredComponents](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~RestoreRestructuredComponents.html)
-
-.
+See [BomTableAnnotation::RestoreRestructuredComponents](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~RestoreRestructuredComponents.html).
 
 ## Examples
 
 [Dissolve Subassembly in a BOM Table (VBA)](Dissolve_Subassembly_in_a_BOM_Table_Example_VB.htm)
-
 [Dissolve Subassembly in a BOM Table (VB.NET)](Dissolve_Subassembly_in_a_BOM_Table_Example_VBNET.htm)
-
 [Dissolve Subassembly in a BOM Table (C#)](Dissolve_Subassembly_in_a_BOM_Table_Example_CSharp.htm)
 
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
-
 [IBomTableAnnotation::Dissolve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~Dissolve.html)
 
 ## Availability

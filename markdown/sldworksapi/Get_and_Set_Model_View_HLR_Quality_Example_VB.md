@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Model_View_HLR_Quality_Example_VB.htm"
 
 # Get and Set Model View HLR Quality Example (VBA)
 
-This example shows how to get and set the hidden-line removal quality of
-model edges.
+This example shows how to get and set the hidden-line removal quality of model edges.
 
 ```vb
  '----------------------------------------------------------------------------

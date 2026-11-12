@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # ShowBubbleTooltip Method (ISldWorks)
 
-Displays a bubble ToolTip
-
-kadov_tag{{</spaces>}}
-
-and flashes the specified toolbar button.
+Displays a bubble ToolTip and flashes the specified toolbar button.
 
 ## Syntax
 
@@ -66,13 +62,7 @@ void ShowBubbleTooltip(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,15 +70,11 @@ See
 - `FlashButtonIDs`: Array of strings for the toolbar buttons
 - `TitleResID`: Title resource ID of bubble Tooltip or 0
 - `TitleString`: Title of bubble ToolTip
-- `MessageString`: Message string of bubble ToolTipParamDesc
+- `MessageString`: Message string of bubble ToolTip
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ShowBubbleTooltip](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowBubbleTooltip.html)
-
-.
+See [SldWorks::ShowBubbleTooltip](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowBubbleTooltip.html).
 
 ## Examples
 
@@ -97,9 +83,7 @@ See
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::ShowBubbleTooltipAt2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBubbleTooltipAt2.html)
 
 ## Availability

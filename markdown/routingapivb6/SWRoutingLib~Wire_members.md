@@ -1,6 +1,5 @@
 ---
-title: "Wire Object
-Members"
+title: "Wire Object Members"
 project: "SOLIDWORKS Routing Type Library"
 interface: "Wire_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "routingapivb6/SWRoutingLib~Wire_members.html"
 ---
 
-# Wire Object
-Members
+# Wire Object Members
 
 ## Public Methods
 

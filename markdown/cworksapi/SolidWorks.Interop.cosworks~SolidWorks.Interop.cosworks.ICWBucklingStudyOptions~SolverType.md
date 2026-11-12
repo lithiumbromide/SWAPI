@@ -47,31 +47,15 @@ property System.int SolverType {
 
 ### Property Value
 
-Solver type as defined in
-
-[swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html)
-
-(see
-
-Remarks
-
-)
+Solver type as defined in [swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::SolverType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~SolverType.html)
-
-.
+See [CWBucklingStudyOptions::SolverType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~SolverType.html).
 
 ## Examples
 
-See the
-
-[ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
-examples.
+See the [ICWBucklingStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html) examples.
 
 ## Remarks
 
@@ -80,7 +64,6 @@ The automatic solver supports static, frequency, and buckling studies only.
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
 
 ## Availability

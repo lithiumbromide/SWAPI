@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # ICWMesh Interface Members
 
-The following tables list the members exposed by[ICWMesh](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html).
+The following tables list the members exposed by [ICWMesh](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html).
 
 ## Public Properties
 
@@ -32,8 +32,7 @@ The following tables list the members exposed by[ICWMesh](SolidWorks.Interop.cos
 | Property | MesherType | Gets or sets the type of mesh. |
 | Property | MeshState | Gets the mesh state. |
 | Property | MeshType | Returns the mesh type. |
-| Property | MinElementsInCircle | Gets or sets the minimum number of elements around a circle to determine the maximum
-angle in a curvature-based mesh. |
+| Property | MinElementsInCircle | Gets or sets the minimum number of elements around a circle to determine the maximum angle in a curvature-based mesh. |
 | Property | MinElementSize | Gets the minimum element size used for boundaries with highest curvature in a curvature-based mesh. |
 | Property | NegativeJacobianRatioCheck | Obsolete. Superseded by ICWMesh::NegativeJacobianRatioCheck2 . |
 | Property | NegativeJacobianRatioCheck2 | Gets or sets whether to check for a negative Jacobian ratio while meshing. |
@@ -60,8 +59,7 @@ angle in a curvature-based mesh. |
 | --- | --- | --- |
 | Method | ApplyMeshControl | Creates a mesh control. |
 | Method | DeleteMeshControl | Deletes a mesh control. |
-| Method | FlipShellElements | Flips shell elements associated with the selected shells (i.e., top face becomes the
-bottom face and vice versa). |
+| Method | FlipShellElements | Flips shell elements associated with the selected shells (i.e., top face becomes the bottom face and vice versa). |
 | Method | GetConnectivity | Gets the connectivity of nodes on the surface of the model. |
 | Method | GetDefaultElementSizeAndTolerance | Gets the default element size and tolerance. |
 | Method | GetDefaultMaxAndMinElementSize | Gets the default maximum and minimum element sizes used for boundaries in a curvature-based mesh. |
@@ -95,11 +93,7 @@ bottom face and vice versa). |
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWStudy::CopyMeshFromStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CopyMeshFromStudy.html)
-
 [ICWStudy::CreateMesh Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CreateMesh.html)

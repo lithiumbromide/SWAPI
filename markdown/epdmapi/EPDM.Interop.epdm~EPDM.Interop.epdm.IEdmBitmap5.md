@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5.html"
 
 Allows you to access a bitmap image.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,12 +36,11 @@ public interface class IEdmBitmap5
 ## Examples
 
 [Get Preview Bitmap of File (VB.NET)](Get_Bitmap_Preview_of_File_Example_VBNET.htm)
-
 [Get Preview Bitmap of File (C#)](Get_Bitmap_Preview_of_File_Example_CSharp.htm)
 
 ## Remarks
 
-This interface inherits from IDispatch. See[IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
+This interface inherits from IDispatch. See [IDispatch Interface (Automation)](http://msdn.microsoft.com/en-us/library/windows/desktop/ms221608(v=vs.85).aspx).
 
 ## Accessors
 
@@ -56,5 +49,4 @@ This interface inherits from IDispatch. See[IDispatch Interface (Automation)](ht
 ## See Also
 
 [IEdmBitmap5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBitmap5_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

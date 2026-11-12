@@ -9,13 +9,9 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # IUserNotificationHandler Interface
 
-Must be implemented by the add-in application to handle callbacks from
+Must be implemented by the add-in application to handle callbacks from [IUserNotificationDefinition](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IUserNotificationDefinition.html).
 
-[IUserNotificationDefinition](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IUserNotificationDefinition.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,48 +41,36 @@ public interface class IUserNotificationHandler
 
 ## VBA Syntax
 
-See
-
-[UserNotificationHandler](ms-its:swpublishedapivb6.chm::/swpublished~UserNotificationHandler.html)
-
-.
+See [UserNotificationHandler](ms-its:swpublishedapivb6.chm::/swpublished~UserNotificationHandler.html).
 
 ## Examples
 
 To create a SOLIDWORKS .NET add-in that implements this interface:
 
-1. Open a new project in Visual Studio using SOLIDWORKS template,
+1. Open a new project in Visual Studio using SOLIDWORKS template, **Visual C# - SwCSharpAddin**.
+2. Add **CNotification_A_Handler.cs** with the following code to the add-in to handle user notifications:
 
-  Visual C# - SwCSharpAddin
+  using System;
 
-  .
-2. Add
+  using System.Collections.Generic;
 
-  CNotification_A_Handler.cs
+  using System.Linq;
 
-  with the following code to the add-in to handle user notifications:
+  using System.Text;
 
-  usingSystem;
+  using System.Runtime.InteropServices;
 
-  usingSystem.Collections.Generic;
+  using SolidWorks.Interop.sldworks;
 
-  usingSystem.Linq;
+  using SolidWorks.Interop.swpublished;
 
-  usingSystem.Text;
+  using System.Diagnostics;
 
-  usingSystem.Runtime.InteropServices;
-
-  usingSolidWorks.Interop.sldworks;
-
-  usingSolidWorks.Interop.swpublished;
-
-  usingSystem.Diagnostics;
-
-  namespaceaddin_name
+  namespace `addin_name`
 
   {
 
-  publicclassCNotification_A_Handler: IUserNotificationHandler
+  public class CNotification_A_Handler : IUserNotificationHandler
 
   {
 
@@ -96,11 +80,11 @@ To create a SOLIDWORKS .NET add-in that implements this interface:
 
   // Model can be null here since notifications can relate to the application, rather than the document
 
-  privateISldWorks iswApp;
+  private ISldWorks iswApp;
 
-  privateModelDoc2 iswModelDoc;
+  private ModelDoc2 iswModelDoc;
 
-  publicCNotification_A_Handler(ISldWorks swApp, ModelDoc2 swModelDoc)
+  public CNotification_A_Handler(ISldWorks swApp, ModelDoc2 swModelDoc)
 
   {
 
@@ -110,7 +94,7 @@ To create a SOLIDWORKS .NET add-in that implements this interface:
 
   }
 
-  publicvoidOnTimeout()
+  public void OnTimeout()
 
   {
 
@@ -120,7 +104,7 @@ To create a SOLIDWORKS .NET add-in that implements this interface:
 
   }
 
-  publicvoidOnUserClose()
+  public void OnUserClose()
 
   {
 
@@ -130,7 +114,7 @@ To create a SOLIDWORKS .NET add-in that implements this interface:
 
   }
 
-  publicvoidOnUserResponseA(boolDoNotShowAgain)
+  public void OnUserResponseA(bool DoNotShowAgain)
 
   {
 
@@ -140,7 +124,7 @@ To create a SOLIDWORKS .NET add-in that implements this interface:
 
   }
 
-  publicvoidOnUserResponseB(boolDoNotShowAgain)
+  public void OnUserResponseB(bool DoNotShowAgain)
 
   {
 
@@ -153,11 +137,7 @@ To create a SOLIDWORKS .NET add-in that implements this interface:
   }
 
   }
-3. Add a ShowNotification() function to the UI Callbacks region in
-
-  SwAddin.cs
-
-  to declare and define a user notification and create the user notification handler:
+3. Add a ShowNotification() function to the UI Callbacks region in **SwAddin.cs** to declare and define a user notification and create the user notification handler:
 
   ```
   public class SwAddin : ISwAddin
@@ -249,38 +229,12 @@ To create a SOLIDWORKS .NET add-in that implements this interface:
 
   }
   ```
-4. Modify the UI Methods region in
+4. Modify the UI Methods region in **SwAddin.cs** to add a command item to the add-in's toolbar:
 
-  SwAddin.cs
-
-  to add a command item to the add-in's toolbar:
-
-  cmdIndex0 = cmdGroup.AddCommandItem2(
-
-  "Show Notification"
-
-  , -1,
-
-  "Show User Notification"
-
-  ,
-
-  "Show User Notification"
-
-  , 0,
-
-  "ShowNotification"
-
-  ,
-
-  ""
-
-  , mainItemID1, menuToolbarOption);
+  cmdIndex0 = cmdGroup.AddCommandItem2("Show Notification", -1, "Show User Notification", "Show User Notification", 0, "ShowNotification", "", mainItemID1, menuToolbarOption);
 
 ## See Also
 
 [IUserNotificationHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler_members.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)
-
 [IMessageBarHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # IEdgeFlangeFeatureData Interface Methods
 
-For a list of all members of this type, see[IEdgeFlangeFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html).
+For a list of all members of this type, see [IEdgeFlangeFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html).
 
 ## Public Methods
 
@@ -33,5 +33,4 @@ For a list of all members of this type, see[IEdgeFlangeFeatureData members](Soli
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -47,13 +47,7 @@ System.int LoadAddIn(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,22 +55,16 @@ See
 
 ### Return Value
 
-Status of loading the add-in as defined in[swLoadAddinError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLoadAddinError_e.html)
+Status of loading the add-in as defined in [swLoadAddinError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLoadAddinError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::LoadAddIn](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~LoadAddIn.html)
-
-.
+See [SldWorks::LoadAddIn](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~LoadAddIn.html).
 
 ## Examples
 
 [Load and Unload Add-in (C#)](Load_and_Unload_Add-in_Example_CSharp.htm)
-
 [Load and Unload Add-in (VB.NET)](Load_and_Unload_Add-in_Example_VBNET.htm)
-
 [Load and Unload Add-in (VBA)](Load_and_Unload_Add-in_Example_VB.htm)
 
 ## Remarks
@@ -88,7 +76,5 @@ status = swApp.**LoadAddIn**('MBD')
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::UnloadAddIn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~UnloadAddIn.html)

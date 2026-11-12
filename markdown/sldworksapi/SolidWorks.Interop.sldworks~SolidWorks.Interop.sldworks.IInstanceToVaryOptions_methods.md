@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIn
 
 # IInstanceToVaryOptions Interface Methods
 
-For a list of all members of this type, see[IInstanceToVaryOptions members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions_members.html).
+For a list of all members of this type, see [IInstanceToVaryOptions members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions_members.html).
 
 ## Public Methods
 
@@ -32,5 +32,4 @@ For a list of all members of this type, see[IInstanceToVaryOptions members](Soli
 ## See Also
 
 [IInstanceToVaryOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

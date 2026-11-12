@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertFramePoint Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::InsertFramePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertFramePoint.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::InsertFramePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertFramePoint.html).
 
 ## Syntax
 
@@ -58,13 +54,7 @@ void InsertFramePoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,14 +64,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::InsertFramePoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertFramePoint.html)
-
-.
+See [ModelDoc::InsertFramePoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertFramePoint.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

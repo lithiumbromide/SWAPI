@@ -40,13 +40,7 @@ System.int GetEdgesCount()
 System.int GetEdgesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of edges
 
 ## VBA Syntax
 
-See
-
-[SketchRegion::GetEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~SketchRegion~GetEdgesCount.html)
-
-.
+See [SketchRegion::GetEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~SketchRegion~GetEdgesCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchRegion::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRegion~IGetEdges.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchRegion::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchRegion~IGetEdges.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchRegion Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion.html)
-
 [ISketchRegion Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion_members.html)
-
 [ISketchRegion::GetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRegion~GetEdges.html)
 
 ## Availability

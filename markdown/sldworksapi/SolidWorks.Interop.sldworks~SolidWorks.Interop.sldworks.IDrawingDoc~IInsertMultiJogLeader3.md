@@ -59,49 +59,27 @@ MultiJogLeader^ IInsertMultiJogLeader3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `PointsCount`: Number of points
-- `Points`: Array of
-
-[points](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-of size PointsCount
-- `StartPointArrowStyle`: Starting point's arrowhead style as defined in
-
-[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
-- `EndPointArrowStyle`: Ending point's arrowhead style as defined in
-
-[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+- `Points`: Array of [points](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html) of size PointsCount
+- `StartPointArrowStyle`: Starting point's arrowhead style as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+- `EndPointArrowStyle`: Ending point's arrowhead style as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
 
 ### Return Value
 
-Pointer to the newly created
-
-[multi-jog leader](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMultiJogLeader.html)
+Pointer to the newly created [multi-jog leader](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMultiJogLeader.html)
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::IInsertMultiJogLeader3](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IInsertMultiJogLeader3.html)
-
-.
+See [DrawingDoc::IInsertMultiJogLeader3](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IInsertMultiJogLeader3.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::InsertMultiJogLeader3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertMultiJogLeader3.html)
 
 ## Availability

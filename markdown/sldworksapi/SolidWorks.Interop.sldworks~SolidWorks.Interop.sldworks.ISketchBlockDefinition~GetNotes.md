@@ -40,27 +40,15 @@ System.object GetNotes()
 System.Object^ GetNotes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[notes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
+Array of [notes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::GetNotes](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetNotes.html)
-
-.
+See [SketchBlockDefinition::GetNotes](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetNotes.html).
 
 ## Examples
 
@@ -69,11 +57,8 @@ See
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
-
 [ISketchBlockDefinition::GetNoteCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetNoteCount.html)
-
 [ISketchBlockDefinition::IGetNotes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~IGetNotes.html)
 
 ## Availability

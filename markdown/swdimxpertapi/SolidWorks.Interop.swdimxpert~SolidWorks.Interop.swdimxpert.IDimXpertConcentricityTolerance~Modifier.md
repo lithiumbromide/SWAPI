@@ -44,28 +44,20 @@ property swDimXpertMaterialConditionModifier_e Modifier {
 
 ### Property Value
 
-Material condition modifier as defined in
-
-[swDimXpertMaterialConditionModifier_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertMaterialConditionModifier_e.html)
+Material condition modifier as defined in [swDimXpertMaterialConditionModifier_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertMaterialConditionModifier_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertConcentricityTolerance::Modifier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertConcentricityTolerance~Modifier.html)
-
-.
+See [DimXpertConcentricityTolerance::Modifier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertConcentricityTolerance~Modifier.html).
 
 ## Examples
 
 [Get DimXpert Tolerance5 Example (VBA)](Get_DimXpert_Tolerance5_Example_VB.htm)
-
 [Get DimXpert Tolerance5 Example (VB.NET)](Get_DimXpert_Tolerance5_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertConcentricityTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConcentricityTolerance.html)
-
 [IDimXpertConcentricityTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConcentricityTolerance_members.html)
 
 ## Availability

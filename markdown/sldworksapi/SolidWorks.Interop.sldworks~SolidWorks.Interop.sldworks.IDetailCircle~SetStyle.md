@@ -47,19 +47,11 @@ System.bool SetStyle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style`: Style as defined by
-
-[swDetViewStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDetViewStyle_e.html)
+- `Style`: Style as defined by [swDetViewStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDetViewStyle_e.html)
 
 ### Return Value
 
@@ -67,11 +59,7 @@ True if setting the detail view style is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::SetStyle](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetStyle.html)
-
-.
+See [DetailCircle::SetStyle](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetStyle.html).
 
 ## Remarks
 
@@ -84,9 +72,7 @@ If the style of the detail circle is swDetViewBROKEN or swDetViewSTANDARD and th
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::GetStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~GetStyle.html)
 
 ## Availability

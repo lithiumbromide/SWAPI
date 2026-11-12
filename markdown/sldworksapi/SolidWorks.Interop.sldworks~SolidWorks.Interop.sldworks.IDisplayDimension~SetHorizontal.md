@@ -40,13 +40,7 @@ System.bool SetHorizontal()
 System.bool SetHorizontal();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::SetHorizontal](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetHorizontal.html)
-
-.
+See [DisplayDimension::SetHorizontal](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~SetHorizontal.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::AlignToEdge Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~AlignToEdge.html)
-
 [IDisplayDimension::SetVertical Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetVertical.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "swscanto3dapi/Get_Mesh_Data_Example_VBNET.htm"
 
 # Get Mesh Data Example (VB.NET)
 
-This example shows how to get the mesh feature data from a***.3DS**file.
-You must have a SOLIDWORKS Premium license to run this example.
+This example shows how to get the mesh feature data from a ***.3DS** file. You must have a SOLIDWORKS Premium license to run this example.
 
 ```vb
  '----------------------------------------------------------------------------
@@ -67,37 +66,19 @@ Class
 
 SolidWorksMacro
 
-Dim
-
-swModel
-
-As
+Dim swModel As
 
 ModelDoc2
 
-Dim
-
-swModelDocExtension
-
-As
+Dim swModelDocExtension As
 
 ModelDocExtension
 
-Dim
-
-swScanto3D
-
-As
+Dim swScanto3D As
 
 Scanto3D
 
-Dim
-
-boolStatus
-
-As
-
-Boolean
+Dim boolStatus As Boolean
 
 Sub
 
@@ -109,77 +90,28 @@ swModelDocExtension = swModel.Extension
 swScanto3D = swModelDocExtension.GetScanto3D()
 ```
 
-Dim
+Dim MeshCount As Integer
 
-MeshCount
+Dim i As Integer
 
-As
+Dim PointsCount As Integer
 
-Integer
+Dim FacetsCount As Integer
 
-Dim
+Dim Points As Object = Nothing
 
-i
-
-As
-
-Integer
-
-Dim
-
-PointsCount
-
-As
-
-Integer
-
-Dim
-
-FacetsCount
-
-As
-
-Integer
-
-Dim
-
-Points
-
-As
-
-Object
-
-=
-
-Nothing
-
-Dim
-
-Facets
-
-As
-
-Object
-
-=
-
-Nothing
+Dim Facets As Object = Nothing
 
 ```vb
 MeshCount = swScanto3D.GetMeshCount()
 Debug.Print(
 ```
 
-"Number
-of mesh features: "
+"Number of mesh features: "
 
 & MeshCount)
 
-For
-
-i = 0
-
-To
+For i = 0 To
 
 MeshCount
 
@@ -188,29 +120,17 @@ boolStatus = swScanto3D.GetMeshDataCountAtIndex(i, PointsCount, FacetsCount)
 Debug.Print(
 ```
 
-"Number
-of vertexes in mesh feature "
+"Number of vertexes in mesh feature " & i & ": "
 
-& i &
-
-": "
-
-&
-PointsCount)
+& PointsCount)
 
 ```vb
 Debug.Print(
 ```
 
-"Number
-of facets in mesh feature "
+"Number of facets in mesh feature " & i & ": "
 
-& i &
-
-": "
-
-&
-FacetsCount)
+& FacetsCount)
 
 ```vb
 boolStatus = swScanto3D.GetMeshDataAtIndex(i, Points, Facets)
@@ -222,11 +142,7 @@ End
 
 Sub
 
-Public
-
-swApp
-
-As
+Public swApp As
 
 SldWorks
 

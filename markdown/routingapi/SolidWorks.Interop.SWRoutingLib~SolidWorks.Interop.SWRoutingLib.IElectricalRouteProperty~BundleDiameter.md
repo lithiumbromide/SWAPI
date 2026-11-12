@@ -51,11 +51,7 @@ Cumulative diameter of all wires in the route segment
 
 ## VBA Syntax
 
-See
-
-[ElectricalRouteProperty::BundleDiameter](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRouteProperty~BundleDiameter.html)
-
-.
+See [ElectricalRouteProperty::BundleDiameter](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRouteProperty~BundleDiameter.html).
 
 ## Remarks
 
@@ -64,7 +60,6 @@ You can use this property to determine if the diameter is too small to contain a
 ## See Also
 
 [IElectricalRouteProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty.html)
-
 [IElectricalRouteProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRouteProperty_members.html)
 
 ## Availability

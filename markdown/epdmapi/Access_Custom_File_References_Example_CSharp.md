@@ -11,33 +11,25 @@ source: "epdmapi/Access_Custom_File_References_Example_CSharp.htm"
 
 This example shows how to access custom file references.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- //    a. Click File > New > Project > Visual C# > Windows Forms Application.
- //    b. Type AccessCustRef_CSharp in Name.
- //    c. Click Browse and navigate to the folder where to create the project.
- //    d. Click OK.
- //    e. Click Show All Files in the Solution Explorer toolbar and expand
+ //    a. Click File > New > Project > C#, Desktop, Windows > Windows Forms Application.
+ //    b. Type AccessCustRef_CSharp in Project name.
+ //    c. For Location, click ... and navigate to the folder where to create the project.
+//    d. Click Next.
+//    e. Select Framework.
+//    f. Click Create.
+ //    g. Click Show All Files in the Solution Explorer toolbar and expand
  //       Form1.cs in the Solution Explorer.
  //    f. Replace the code in Form1.cs with this code.
  //    g. To create the form, replace the code in Form1.Designer.cs with
  //       this code.
- // 2. Add references to:
- //    b. EPDM.Interop.epdm.dll (click Browse and browse to the top folder
- //       of your SOLIDWORKS PDM Professional installation, click
- //       EPDM.Interop.epdm.dll > Add).
- //    c.  EPDM.interop.EPDMResultCode.dll (click Browse >
- //       EPDM.interop.EPDMResultCode.dll > Add > OK).
- // 3. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //    Embed Interop Types to False to handle methods that pass arrays of
- //    structures.
- // 4. Click Debug > Start Debugging or press F5.
+ // 2.     Add dependencies and safely pass arrays of structures.
+ // 3. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  // 1. Displays the Add custom file reference dialog box.

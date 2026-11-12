@@ -45,13 +45,7 @@ property System.bool ImportCutListProperties {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to import its cut list properties, false to not
 
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::ImportCutListProperties](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportCutListProperties.html)
-
-.
+See [DerivedPartFeatureData::ImportCutListProperties](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportCutListProperties.html).
 
 ## Remarks
 
@@ -73,14 +63,11 @@ This property is valid only if:
 
 - and -
 
-- [IDerivedPartFeatureData::ImportSheetMetalInformation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData~ImportSheetMetalInformation.html)
-
-  is not specified.
+- [IDerivedPartFeatureData::ImportSheetMetalInformation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData~ImportSheetMetalInformation.html) is not specified.
 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
 
 ## Availability

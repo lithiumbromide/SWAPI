@@ -40,13 +40,7 @@ System.bool DeSelect()
 System.bool DeSelect();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if the sketch contour is deselected, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchContour::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~SketchContour~DeSelect.html)
-
-.
+See [SketchContour::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~SketchContour~DeSelect.html).
 
 ## See Also
 
 [ISketchContour Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour.html)
-
 [ISketchContour Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour_members.html)
-
 [ISketchContour::Select2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour~Select2.html)
 
 ## Availability

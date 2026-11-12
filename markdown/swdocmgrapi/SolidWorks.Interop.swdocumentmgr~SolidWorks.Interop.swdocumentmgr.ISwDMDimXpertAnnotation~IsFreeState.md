@@ -46,11 +46,7 @@ True if in a free state; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertAnnotation::IsFreeState](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAnnotation~IsFreeState.html)
-
-.
+See [SwDMDimXpertAnnotation::IsFreeState](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAnnotation~IsFreeState.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertAnnotation Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAnnotation.html)
-
 [ISwDMDimXpertAnnotation Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAnnotation_members.html)
 
 ## Availability

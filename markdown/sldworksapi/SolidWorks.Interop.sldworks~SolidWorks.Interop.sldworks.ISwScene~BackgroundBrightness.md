@@ -45,13 +45,7 @@ property System.double BackgroundBrightness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,29 +53,18 @@ Brightness
 
 ## VBA Syntax
 
-See
-
-[SwScene::BackgroundBrightness](ms-its:sldworksapivb6.chm::/sldworks~SwScene~BackgroundBrightness.html)
-
-.
+See [SwScene::BackgroundBrightness](ms-its:sldworksapivb6.chm::/sldworks~SwScene~BackgroundBrightness.html).
 
 ## Remarks
 
 This property is valid only when:
 
 - a ray-trace rendering engine is activated
-- [ISwScene::BackgroundType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundType.html)
-
-  is not
-
-  [swSceneBackgroundType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSceneBackgroundType_e.html)
-
-  .swBackgroundType_None
+- [ISwScene::BackgroundType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~BackgroundType.html) is not [swSceneBackgroundType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSceneBackgroundType_e.html).swBackgroundType_None
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

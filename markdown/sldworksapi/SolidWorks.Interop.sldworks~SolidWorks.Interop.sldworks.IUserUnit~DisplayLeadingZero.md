@@ -45,13 +45,7 @@ property System.bool DisplayLeadingZero {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to display the leading zero, false to not
 
 ## VBA Syntax
 
-See
-
-[UserUnit::DisplayLeadingZero](ms-its:sldworksapivb6.chm::/sldworks~UserUnit~DisplayLeadingZero.html)
-
-.
+See [UserUnit::DisplayLeadingZero](ms-its:sldworksapivb6.chm::/sldworks~UserUnit~DisplayLeadingZero.html).
 
 ## Examples
 
-See the
-
-[IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
-examples.
+See the [IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html) examples.
 
 ## See Also
 
 [IUserUnit Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
 [IUserUnit Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit_members.html)
 
 ## Availability

@@ -49,36 +49,26 @@ System.int GetSketchSegmentsCount(
 
 ### Parameters
 
-- `RouteSegmentID`: Route segment ID (see
-
-Remarks
-
-)
+- `RouteSegmentID`: Route segment ID (see Remarks)
 
 ### Return Value
 
-Number of segment segmentsParamDesc
+Number of segment segments
 
 ## VBA Syntax
 
-See
-
-[ElectricalFlatRoute::GetSketchSegmentsCount](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute~GetSketchSegmentsCount.html)
-
-.
+See [ElectricalFlatRoute::GetSketchSegmentsCount](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute~GetSketchSegmentsCount.html).
 
 ## Remarks
 
-Use[IWire::GetRouteSegmentIDs](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~GetRouteSegmentIDs.html)to get the value for RouteSegmentID.
+Use [IWire::GetRouteSegmentIDs](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~GetRouteSegmentIDs.html) to get the value for RouteSegmentID.
 
-Call this method before calling IElectricalFlatRoute::IGetSketchSegments to determine the size of the array for the sketch segments.
+Call this method before calling [IElectricalFlatRoute::IGetSketchSegments](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IElectricalFlatRoute~IGetSketchSegments.html) to determine the size of the array for the sketch segments.
 
 ## See Also
 
 [IElectricalFlatRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute.html)
-
 [IElectricalFlatRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute_members.html)
-
 [IElectricalFlatRoute::GetSketchSegments Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~GetSketchSegments.html)
 
 ## Availability

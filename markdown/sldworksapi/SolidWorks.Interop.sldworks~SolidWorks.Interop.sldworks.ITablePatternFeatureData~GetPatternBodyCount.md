@@ -40,13 +40,7 @@ System.int GetPatternBodyCount()
 System.int GetPatternBodyCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Number of seed bodies
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData::GetPatternBodyCount](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~GetPatternBodyCount.html)
-
-.
+See [TablePatternFeatureData::GetPatternBodyCount](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~GetPatternBodyCount.html).
 
 ## See Also
 
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
-
 [ITablePatternFeatureData::IGetPatternBodyArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~IGetPatternBodyArray.html)
-
 [ITablePatternFeatureData::ISetPatternBodyArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~ISetPatternBodyArray.html)
-
 [ITablePatternFeatureData::PatternBodyArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~PatternBodyArray.html)
 
 ## Availability

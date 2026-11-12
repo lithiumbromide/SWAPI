@@ -40,33 +40,19 @@ System.object GetConnectingLine()
 System.Object^ GetConnectingLine();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::GetConnectingLine](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~GetConnectingLine.html)
-
-.
+See [DetailCircle::GetConnectingLine](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~GetConnectingLine.html).
 
 ## Remarks
 
-This is only valid if there is a connecting line. Use[IDetailCircle::GetStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDetailCircle~GetStyle.html)to determine if this detail circle is valid for this command.
+This is only valid if there is a connecting line. Use [IDetailCircle::GetStyle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDetailCircle~GetStyle.html) to determine if this detail circle is valid for this command.
 
 | retval[0] | X-coordinate of first connecting line point |
 | --- | --- |
@@ -79,9 +65,7 @@ This is only valid if there is a connecting line. Use[IDetailCircle::GetStyle](S
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::IGetConnectingLine Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~IGetConnectingLine.html)
 
 ## Availability

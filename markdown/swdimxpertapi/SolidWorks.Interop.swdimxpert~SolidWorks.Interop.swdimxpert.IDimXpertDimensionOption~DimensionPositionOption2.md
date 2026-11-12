@@ -47,34 +47,23 @@ property System.int DimensionPositionOption2 {
 
 ### Property Value
 
-Reference axis as defined in
-
-[swDimXpertDimensionPositionOption_e](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.swDimXpertDimensionPositionOption_e.html)
+Reference axis as defined in [swDimXpertDimensionPositionOption_e](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.swDimXpertDimensionPositionOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertDimensionOption::DimensionPositionOption2](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionOption~DimensionPositionOption2.html)
-
-.
+See [DimXpertDimensionOption::DimensionPositionOption2](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionOption~DimensionPositionOption2.html).
 
 ## Examples
 
 [Get and Set Location Dimension (VBA)](Get_and_Set_Location_Dimension_Example_VB.htm)
-
 [Get and Set Location Dimension (VB.NET)](Get_and_Set_Location_Dimension_Example_VBNET.htm)
-
 [Get and Set Location Dimension (C#)](Get_and_Set_Location_Dimension_Example_CSharp.htm)
 
 ## See Also
 
 [IDimXpertDimensionOption Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption.html)
-
 [IDimXpertDimensionOption Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionOption_members.html)
-
 [IDimXpertPart::InsertLocationDimension Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertLocationDimension.html)
-
 [IDimXpertPart::InsertBasicDimension Method ()](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart~InsertBasicDimension.html)
 
 ## Availability

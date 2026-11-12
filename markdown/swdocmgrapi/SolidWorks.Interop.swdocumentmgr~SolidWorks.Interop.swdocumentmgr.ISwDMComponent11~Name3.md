@@ -48,19 +48,11 @@ Full name of component
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent11::Name3](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent11~Name3.html)
-
-.
+See [SwDMComponent11::Name3](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent11~Name3.html).
 
 ## Examples
 
-See the
-
-[ISwDMComponent11](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11.html)
-
-examples.
+See the [ISwDMComponent11](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11.html) examples.
 
 ## Remarks
 
@@ -69,7 +61,6 @@ This property returns the component name appended with an index in the format, "
 ## See Also
 
 [ISwDMComponent11 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11.html)
-
 [ISwDMComponent11 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent11_members.html)
 
 ## Availability

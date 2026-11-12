@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCopyFlag.html"
 
 # EdmCopyFlag Enumeration
 
-Options for copying files when making calls to
-
-[IEdmFolder5::CopyFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Options for copying files when making calls to [IEdmFolder5::CopyFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CopyFile.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # Set Method (ICustomPropertyManager)
 
-Obsolete. Superseded by
-
-[ICustomPropertyManager::Set2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Set2.html)
-
-.
+Obsolete. Superseded by [ICustomPropertyManager::Set2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Set2.html).
 
 ## Syntax
 
@@ -55,18 +51,12 @@ System.int Set(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FieldName`: Name of the existing custom property
-- `FieldValue`: Value for the existing custom propertyParamDesc
+- `FieldValue`: Value for the existing custom property
 
 ### Return Value
 
@@ -76,18 +66,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::Set](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Set.html)
-
-.
+See [CustomPropertyManager::Set](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Set.html).
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)
-
 [ICustomPropertyManager::Get2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager~Get2.html)
 
 ## Availability

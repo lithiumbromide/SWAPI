@@ -40,19 +40,11 @@ System.int GetAxisType()
 System.int GetAxisType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Type of axis as defined in
-
-[swSelectType_e:](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+Type of axis as defined in [swSelectType_e:](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 - swSelDATUMAXES
 - swSelEDGES
@@ -60,11 +52,7 @@ Type of axis as defined in
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData2::GetAxisType](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~GetAxisType.html)
-
-.
+See [RevolveFeatureData2::GetAxisType](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~GetAxisType.html).
 
 ## Examples
 
@@ -73,9 +61,7 @@ See
 ## See Also
 
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
-
 [IRevolveFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2_members.html)
-
 [IRevolveFeatureData2::Axis Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~Axis.html)
 
 ## Availability

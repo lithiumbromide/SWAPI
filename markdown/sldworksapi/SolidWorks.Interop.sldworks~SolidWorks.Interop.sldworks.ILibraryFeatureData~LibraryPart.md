@@ -42,13 +42,7 @@ property System.String^ LibraryPart {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,20 +50,13 @@ Path and filename of the library feature
 
 ## VBA Syntax
 
-See
-
-[LibraryFeatureData::LibraryPart](ms-its:sldworksapivb6.chm::/sldworks~LibraryFeatureData~LibraryPart.html)
-
-.
+See [LibraryFeatureData::LibraryPart](ms-its:sldworksapivb6.chm::/sldworks~LibraryFeatureData~LibraryPart.html).
 
 ## See Also
 
 [ILibraryFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData.html)
-
 [ILibraryFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData_members.html)
-
 [ILibraryFeatureData::Initialize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~Initialize.html)
-
 [ILibraryFeatureData::LinkToLibraryPart Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~LinkToLibraryPart.html)
 
 ## Availability

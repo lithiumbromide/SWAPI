@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLo
 
 # AddForce Method (ICWLoadsAndRestraintsManager)
 
-Obsolete. Superseded by
-
-[ICWLoadsAndRestraintsManager::AddForce2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraintsManager~AddForce2.html)
-
-.
+Obsolete. Superseded by [ICWLoadsAndRestraintsManager::AddForce2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraintsManager~AddForce2.html).
 
 ## Syntax
 
@@ -65,18 +61,10 @@ CWForce^ AddForce(
 
 ### Parameters
 
-- `NForceType`: Type of force as defined in
-
-[swsForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceType_e.html)
+- `NForceType`: Type of force as defined in [swsForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceType_e.html)
 - `DispArray`: Array of entities (faces, edges, vertices, or points) to which to apply force
-- `RefGeom`: Reference geometry entity to specify direction (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in
-
-[swsForceError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceError_e.html)
+- `RefGeom`: Reference geometry entity to specify direction (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsForceError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceError_e.html)
 
 ### Return Value
 
@@ -84,11 +72,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddForce](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddForce.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddForce](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddForce.html).
 
 ## Remarks
 
@@ -97,7 +81,6 @@ Pass null in RefGeom if reference geometry is not used.
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

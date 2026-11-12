@@ -54,31 +54,17 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Celt`: Number of sketch segments for the sketch segments enumeration
-- `Rgelt`: Pointer to an array of
-
-[sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-of size Celt
-- `PceltFetched`: Pointer to the number of sketch segments returned from the list;kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}this value can be less than celt if you ask for more sketch segments than exist, or it can be NULL if no more sketch segments exist
+- `Rgelt`: Pointer to an array of [sketch segments](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) of size Celt
+- `PceltFetched`: Pointer to the number of sketch segments returned from the list; this value can be less than celt if you ask for more sketch segments than exist, or it can be NULL if no more sketch segments exist
 
 ## VBA Syntax
 
-See
-
-[EnumSketchSegments::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchSegments~Next.html)
-
-.
+See [EnumSketchSegments::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchSegments~Next.html).
 
 ## Examples
 
@@ -91,7 +77,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumSketchSegments Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchSegments.html)
-
 [IEnumSketchSegments Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchSegments_members.html)
 
 ## Availability

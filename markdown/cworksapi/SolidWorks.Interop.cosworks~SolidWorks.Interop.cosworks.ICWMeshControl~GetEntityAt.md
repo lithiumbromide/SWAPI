@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMe
 
 # GetEntityAt Method (ICWMeshControl)
 
-Obsolete. Superseded by
-
-[ICWMeshControl::GetEntityAt2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~GetEntityAt2.html)
-
-.
+Obsolete. Superseded by [ICWMeshControl::GetEntityAt2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~GetEntityAt2.html).
 
 ## Syntax
 
@@ -58,7 +54,7 @@ System.Object^ GetEntityAt(
 ### Parameters
 
 - `NIndex`: 0-based index of entity
-- `NSelectionType`: Type of entity as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `NSelectionType`: Type of entity as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ### Return Value
 
@@ -66,22 +62,14 @@ Entity
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::GetEntityAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~GetEntityAt.html)
-
-.
+See [CWMeshControl::GetEntityAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~GetEntityAt.html).
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
-
 [ICWMeshControl::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~InsertEntity.html)
-
 [ICWMeshControl::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~RemoveEntity.html)
-
 [ICWMeshControl::EntityCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~EntityCount.html)
 
 ## Availability

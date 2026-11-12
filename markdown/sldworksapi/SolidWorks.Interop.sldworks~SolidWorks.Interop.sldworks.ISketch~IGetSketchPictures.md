@@ -47,13 +47,7 @@ SketchPicture^ IGetSketchPictures(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,38 +55,24 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of
-
-  [pictures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPicture.html)
-
-  on this sketch
+- in-process, unmanaged C++: Pointer to an array of [pictures](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPicture.html) on this sketch
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## VBA Syntax
 
-See
-
-[Sketch::IGetSketchPictures](ms-its:sldworksapivb6.chm::/Sldworks~Sketch~IGetSketchPictures.html)
-
-.
+See [Sketch::IGetSketchPictures](ms-its:sldworksapivb6.chm::/Sldworks~Sketch~IGetSketchPictures.html).
 
 ## Remarks
 
-Call
-
-[ISketch::GetSketchPictureCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSketchPictureCount.html)
-
-before calling this method to get the value of Count.
+Call [ISketch::GetSketchPictureCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSketchPictureCount.html) before calling this method to get the value of Count.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetSketchPictures Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetSketchPictures.html)
 
 ## Availability

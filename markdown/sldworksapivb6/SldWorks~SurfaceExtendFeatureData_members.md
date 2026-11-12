@@ -1,6 +1,5 @@
 ---
-title: "SurfaceExtendFeatureData Object
-Members"
+title: "SurfaceExtendFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfaceExtendFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfaceExtendFeatureData_members.html"
 ---
 
-# SurfaceExtendFeatureData Object
-Members
+# SurfaceExtendFeatureData Object Members
 
 ## Public Methods
 

@@ -40,13 +40,7 @@ System.object GetComments()
 System.Object^ GetComments();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ Array of all of the comments in the folder
 
 ## VBA Syntax
 
-See
-
-[CommentFolder::GetComments](ms-its:sldworksapivb6.chm::/sldworks~CommentFolder~GetComments.html)
-
-.
+See [CommentFolder::GetComments](ms-its:sldworksapivb6.chm::/sldworks~CommentFolder~GetComments.html).
 
 ## Examples
 
 [Get Comments in Comments Folder (C#)](Get_Comments_in_Comments_Folder_Example_CSharp.htm)
-
 [Get Comments in Comments Folder (VB.NET)](Get_Comments_in_Comments_Folder_Example_VBNET.htm)
-
 [Get Comments in Comments Folder (VBA)](Get_Comments_in_Comments_Folder_Example_VB.htm)
 
 ## See Also
 
 [ICommentFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder.html)
-
 [ICommentFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder_members.html)
-
 [ICommentFolder::IGetComments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder~IGetComments.html)
-
 [ICommentFolder::GetCommentCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommentFolder~GetCommentCount.html)
 
 ## Availability

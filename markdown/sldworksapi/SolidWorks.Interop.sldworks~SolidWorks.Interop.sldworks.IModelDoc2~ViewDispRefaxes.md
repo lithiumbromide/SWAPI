@@ -39,34 +39,19 @@ void ViewDispRefaxes()
 void ViewDispRefaxes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ViewDispRefaxes](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ViewDispRefaxes.html)
-
-.
+See [ModelDoc2::ViewDispRefaxes](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ViewDispRefaxes.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IRefAxis Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html)
-
 [IModelDoc2::ViewDispRefplanes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewDispRefplanes.html)
-
 [IModelDoc2::ViewDispRefPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewDispRefPoints.html)
-
 [IModelDoc2::ViewDispTempRefaxes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewDispTempRefaxes.html)
 
 ## Availability

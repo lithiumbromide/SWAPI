@@ -9,49 +9,37 @@ source: "epdmapi/csharpmenuitem.htm"
 
 # Creating Menu Commands (C#)
 
-This topic shows how to create a C#
-add-in that adds menu commands to the context-sensitive menus of
-File Explorer vault views.NOTE:Because SOLIDWORKS PDM Professional cannot force a reload of
-add-ins if they are written in .NET, all client machines must be restarted to ensure that the latest version of the add-in is used.
+This topic shows how to create a C# add-in that adds menu commands to the context-sensitive menus of File Explorer vault views.
+
+**NOTE:** Because SOLIDWORKS PDM Professional cannot force a reload of add-ins if they are written in .NET, all client machines must be restarted to ensure that the latest version of the add-in is used.
 
 1. Start Microsoft Visual Studio.
-2. Click File > New >Project > Visual C# > Windows Desktop > Class Library (.NET Framework) .
-3. In the .NET Framework dropdown at the top of the
-  New Project dialog, keep the default version (recommended) or select another
-  version. See Using .NET
-  Framework for Add-in Applications for more information.
-4. Type a project name in Name.
-5. Click Browse and navigate to the folder where to
-  create the project.
-6. Click OK .
-7. Right-click the project name in the Solution Explorer
-  and click Add Reference .
+2. Select **File >** **New >** **Project > C#, Windows, Library.**
+3. Select **Class Library (.NET Framework)** as the template.
+4. In the **.NET Framework** dropdown, keep the default version (recommended) or select another version. See [Using .NET Framework for Add-in Applications](Using_NET_Framework_in_Addins.htm) for more information.
+5. Enter **Project n****ame, Solution, and Solution name.**
+6. For **Location**, click **Browse****...** and navigate to the folder where to create the project.
+7. Click **Create**.
+8. Right-click the project name in the Solution Explorer and click **Add > Reference**.
 
-  1. Click Browse in
-    the left-side panel, navigate to and select EPDM.Interop.epdm.dll , and click OK .
-  2. Right-click E**pdm.Interop.epdm**in the Solution Explorer,
-    select Properties , and set Embed Interop Types to False to handle methods that pass arrays of structures.
-  3. Click Assemblies > Framework in the left-hand panel,
-    select System.Windows.Forms , and click OK .
-  4. Click Close .
-8. Right-click the project name in the Solution Explorer
-  and click Properties .
+  1. Click **Browse...** in the left-side panel, navigate to and select **EPDM.Interop.epdm.dll**, and click **OK**.
+  2. Right-click **E****pdm.Interop.epdm** in the Solution Explorer, select **Properties**, and set **Embed Interop Types** to **False** to handle methods that pass arrays of structures.
+  3. Click **Assemblies > Framework** in the left-hand panel, select **System.Windows.Forms**, and click **OK**.
+9. Right-click the project name in the Solution Explorer and click **Properties**.
 
-  1. On the Application tab, click Assembly Information .
-  2. De-selectMake assembly COM-Visible .
-  3. ##### On the Build tab, select Any CPU for
-    Platform target, de-select Prefer 32-bit , and select Register for COM interop .
-9. Save the project.
-10. Double-click Class1.cs in the Solution Explorer
-  to open the code window.
-11. At the top of the code window, type:
+  1. On the Application tab, click **Assembly Information****...**.
+  2. De-select **Make assembly COM-Visible****. Click OK.**
+  3. ##### On the Build tab, select Any CPU for Platform target, de-select Prefer 32-bit , and select Register for COM interop .
+10. Save the project.
+11. Double-click **Class1.cs** in the Solution Explorer to open the code window.
+12. At the top of the code window, type:
 
   ```vb
    using EPDM.Interop.epdm;
    using System.Runtime.InteropServices;
    using System.Windows.Forms;
   ```
-12. Replace :
+13. Replace**:**
 
   ```
   public class Class1
@@ -63,88 +51,23 @@ add-ins if they are written in .NET, all client machines must be restarted to en
    [Guid(""), ComVisible(true)]
    public class Class1 : IEdmAddIn5
   ```
-13. To populate the GUID
-  attribute above, click**Tools > Create GUID**in the IDE, select GUID
-  Format 5, click**Copy**, and click**Exit**. Populate [Guid(""),
-  ...] with the copied string.
-14. Implement[IEdmAddIn5::GetAddInInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo.html)by adding the following code to Class1:
-15. IEdmAddIn5::OnCmd is called when a menu command is selected by the user.ImplementIEdmAddIn5::OnCmdby addingthe following codeto Class1:
-16. Click Build > Build
-  Solution to build the add-in.
-17. I
+14. To populate the GUID attribute above, click **Tools > Create GUID** in the IDE, select GUID Format 5, click **Copy**, and click **Exit**. Populate [Guid(""), ...] with the copied string.
+15. Implement [IEdmAddIn5::GetAddInInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~GetAddInInfo.html) by adding the following code to Class1:
+16. [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html) is called when a menu command is selected by the user. Implement IEdmAddIn5::OnCmd by adding the following code to Class1:
+17. Click **Build > Build Solution** to build the add-in.
+18. Install the add-in through the SOLIDWORKS PDM Professional Administration tool:
 
-  nstall
-  the add-in through the SOLIDWORKS PDM Professional
-  Administration tool:
+  1. Open the SOLIDWORKS PDM Professional Administration tool.
+  2. Expand the vault where you want to install this add-in and log in as Admin.
+  3. Right-click **Add-ins** and click **New Add-in**.
+  4. Browse to `project_path``\``project_name\project_name`**\bin\Debug**, click `project_name`**.dll** and **EPDM.Interop.**e**pdm.dll**.
+  5. Click **Open**.
+  6. Click **OK**.
+  7. Click **OK**.
+19. Right-click inside a vault view in File Explorer. **First command** appears in the context-sensitive menu.
+20. Right-click a file in the vault view and click **Second command**. The add-in displays a dialog similar to the following:
 
-  1. Open
-
-    the SOLIDWORKS
-    PDM Professional Administration tool.
-  2. Expand the vault where
-    you want to install this add-in and log in as Admin.
-  3. Right-click
-
-    Add-ins
-
-    and click
-
-    New
-    Add-in
-
-    .
-  4. B
-
-    rowse to
-
-    project_path
-
-    \
-
-    project_name\project_name
-
-    \bin\Debug
-
-    ,
-    click
-
-    project_name
-
-    .dll
-
-    and
-
-    EPDM.Interop.
-
-    e
-
-    pdm.dll
-
-    .
-  5. Click
-
-    Open
-
-    .
-  6. Click
-
-    OK
-
-    .
-  7. Click
-
-    OK
-
-    .
-18. Right-click inside a vault view in
-  File Explorer. First commandappears in the context-sensitive
-  menu.
-19. Right-click a file in
-  thevault view and click Second
-  command . The add-in displays a dialog similar to the following:
-
-### Complete
-Source Code
+### Complete Source Code
 
 ##### // Class1.cs
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # Next Method (IEnumFaces)
 
-Obsolete. Superseded by
-
-[IEnumFaces2::Next](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumFaces2~Next.html)
-
-.
+Obsolete. Superseded by [IEnumFaces2::Next](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumFaces2~Next.html).
 
 ## Syntax
 
@@ -58,13 +54,7 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,14 +64,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[EnumFaces::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumFaces~Next.html)
-
-.
+See [EnumFaces::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumFaces~Next.html).
 
 ## See Also
 
 [IEnumFaces Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumFaces.html)
-
 [IEnumFaces Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumFaces_members.html)

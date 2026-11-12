@@ -9,33 +9,28 @@ source: "epdmapi/Traverse_Folders_and_Files_in_Vault_Example_CSharp.htm"
 
 # Traverse Folders and Files in Vault Example (C#)
 
-This example shows how to recursively traverse all of the
-folders and files in a vault.
+This example shows how to recursively traverse all of the folders and files in a vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
  //----------------------------------------------------------------------------
  // Preconditions:
  //  1. Start Microsoft Visual Studio.
- //  2. Click File > New > Project > Visual C# > Windows Forms Application.
- //  3. Type TraverseFilesFoldersCSharp in Name.
- //  4. Click Browse and navigate to the folder where to create the project.
- //  5. Click OK.
+ //  2. Click File > New > Project > Dropdowns: C#, Windows, Desktop > Windows Forms App. Click  Next.
+ //  3. Type TraverseFilesFoldersCSharp in Project name.
+ //  4. In Location click ... and navigate to the folder where to create the project. Click Next.
+ //  5. Select a supported .NET Framework installed on your computer. Click Create.
  //  6. Replace the code in Form1.cs with this code.
  //  7. Replace the code in Form1.Designer.cs with this code.
- //  8. If using Microsoft Visual Studio 2012 and .NET Framework 4.5, ensure
- //     that the Prefer 32-bit check box is cleared (right-click the project
- //     name in the Solution Explorer and click Properties. On the Build tab,
- //     if Platform target is set to Any CPU, ensure that Prefer 32-bit is cleared.)
+//  8. Add "using TraverseFilesAndFoldersCSharp;" to the top of Program.cs.
  //  9. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- //     name in the Solution Explorer, click Add Reference, click Browse,
+ //     name in the Solution Explorer, click Add > Project Reference, click Browse,
  //     navigate to the top folder of your SOLIDWORKS PDM Professional installation,
- //     locate and select EPDM.Interop.epdm.dll).
- // 10. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //     Embed Interop Types to False to handle methods that pass arrays of
+ //     locate and select EPDM.Interop.epdm.dll). Click OK.
+ // 10. Click Show All Files in the tool bar. Right-click Dependencies > Assemblies >
+//     EPDM.Interop.epdm, click Properties, and set
+ //     Embed Interop Types to No to handle methods that pass arrays of
  //     structures.
  // 11. Ensure that the vault contains one or more checked-out files.
  // 12. Click Debug > Start Debugging or press F5.

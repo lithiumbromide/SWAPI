@@ -45,13 +45,7 @@ property System.bool PropagateFeatureToParts {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,14 @@ True to propagate this assembly Hole Wizard feature to the parts that it affects
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::PropagateFeatureToParts](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~PropagateFeatureToParts.html)
-
-.
+See [WizardHoleFeatureData2::PropagateFeatureToParts](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~PropagateFeatureToParts.html).
 
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
-
 [IWizardHoleFeatureData2::AssemblyFeatureScope Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~AssemblyFeatureScope.html)
-
 [IWizardHoleFeatureData2::AutoSelect Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~AutoSelect.html)
-
 [IWizardHoleFeatureData2::AutoSelectComponents Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~AutoSelectComponents.html)
 
 ## Availability

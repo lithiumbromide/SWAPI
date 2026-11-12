@@ -52,30 +52,20 @@ void IGetMissingMaterialComponentList(
 
 ### Parameters
 
-- `Count`: Number of assembly components returned in ComponentsNames (see
-
-Remarks
-
-)
+- `Count`: Number of assembly components returned in ComponentsNames (see **Remarks**)
 - `ComponentsNames`: - in-process, unmanaged C++: Pointer to an array of the names of the assembly components that are missing materials
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
-Before calling this method, call
-
-[ISustainabilityMaterial::GetMissingMaterialComponentCount](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityMaterial~GetMissingMaterialComponentCount.html)
-
-to assign Count.
+Before calling this method, call [ISustainabilityMaterial::GetMissingMaterialComponentCount](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityMaterial~GetMissingMaterialComponentCount.html) to assign Count.
 
 ## See Also
 
 [ISustainabilityMaterial Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial.html)
-
 [ISustainabilityMaterial Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial_members.html)
-
 [ISustainabilityMaterial::GetMissingMaterialComponentList Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~GetMissingMaterialComponentList.html)
 
 ## Availability

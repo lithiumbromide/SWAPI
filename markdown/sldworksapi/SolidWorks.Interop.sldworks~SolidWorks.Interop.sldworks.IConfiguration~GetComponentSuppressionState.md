@@ -47,13 +47,7 @@ System.bool GetComponentSuppressionState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ True if the configuration is suppressed, false if not
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetComponentSuppressionState](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetComponentSuppressionState.html)
-
-.
+See [Configuration::GetComponentSuppressionState](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetComponentSuppressionState.html).
 
 ## Examples
 
 [Get Whether Components Are Loaded (C#)](Get_Whether_Components_Are_Loaded_Example_CSharp.htm)
-
 [Get Whether Components Are Laoded (VB.NET)](Get_Whether_Components_Are_Loaded_Example_VBNET.htm)
-
 [Get Whether Components Are Loaded (VBA)](Get_Whether_Components_Are_Loaded_Example_VB.htm)
 
 ## Remarks
@@ -86,5 +74,4 @@ SOLIDWORKS 2001Plus SP1, Revision Number 10.1
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)

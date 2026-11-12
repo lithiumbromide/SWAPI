@@ -9,88 +9,33 @@ source: "swconst/DP_Annotations-Notes.htm"
 
 # Document Properties > Annotations > Notes
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
 This topic contains two tables. The information in the table:
 
-- appearing immediately after
-  the screen capture of the Document Properties - Notes dialog corresponds
-  to the settings on that dialog.
-- titled
-
-  [Obsolete Enumerators](#ObsoleteEnumerators)
-
-  contains
-  enumerators that previously appeared on the Document Properties - Notes dialog, but are now obsolete and no longer appear on that dialog.
-
-(Table)=========================================================
+- appearing immediately after the screen capture of the Document Properties - Notes dialog corresponds to the settings on that dialog.
+- titled **[Obsolete Enumerators](#ObsoleteEnumerators)** contains enumerators that previously appeared on the Document Properties - Notes dialog, but are now obsolete and no longer appear on that dialog.
 
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Base notes standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingNote) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingNote, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base notes standard to use |
-| Leader style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderLineStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |
-| Leader style - Leader Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderLineThickness,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Leader style - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingNoteLeaderLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingNoteLeaderLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of note leader lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingNoteTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingNoteTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Text - Text alignment | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteTextAlignment,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteTextAlignment,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swTextJustification_e.< Value >) | See swTextJustification_e for valid options | Specifies text alignment for notes |
-| Leader anchor - Closest, Left, or Right | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderSide,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderSide,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderSide_e.< Value >) | See swLeaderSide_e for valid options | Specifies leader side for notes |
-| Leader display - Straight, Bent, or Underlined, or Spline | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNotesLeaderStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNotesLeaderStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderStyle_e.< Value >) | See swLeaderStyle_e for valid options | Specifies notes leader style |
-| Leader display - Use document leader length | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingNoteUseDocBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingNoteUseDocBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use document bent leader lengths for annotations |
-| Leader display - Leader length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingNoteBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingNoteBentLeaderLength,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies distance between leader bend and text of the note |
-| Leader display - Leader justification snapping | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingNotesLeaderJustificationSnapping,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingNotesLeaderJustificationSnapping,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether leaders snap along grid lines |
-| Border - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBalloonStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBalloonStyle,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBalloonStyle_e.< Value >) | See swBalloonStyle_e for valid options | Specifies the style of the border |
-| Border - Size | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBalloonFit,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBalloonFit,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBalloonFit_e.< Value >) | See swBalloonFit_e for valid options | Specifies the size of the border |
-| Border - Padding | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingBorderAddPadding,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingBorderAddPadding,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | 0.2 <= Size of the border padding <= 1000000.0; valid only when Border - Style is not None and Border - Size is Tight Fit |
-| Border - User defined | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingBorderUserDefined,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingBorderUserDefined,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | User-defined values for border size; valid only when Border - Style is not None and Border - Size is Custom Size |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swuserPreferenceOption_e.swDetailingNote) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swuserPreferenceOption_e.swDetailingNote, < Value >) | String value | Specifies the name of the layer to apply settings to; this setting is
-available only on drawings |
-| Formatting - Paragraph spacing | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingParaSpacing,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingParaSpacing,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the space between adjacent
-paragraphs |
-| Formatting - Do not show period with borders | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowPeriodWithBorders,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowPeriodWithBorders,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to show period with borders |
+| Base notes standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingNote) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingNote, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base notes standard to use |
+| Leader style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderLineStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineStyles_e.< Value >) | See swLineStyles_e for valid options |  |
+| Leader style - Leader Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderLineThickness, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Leader style - Custom thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingNoteLeaderLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingNoteLeaderLineThicknessCustom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies custom thickness of note leader lines; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingNoteTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingNoteTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Text - Text alignment | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteTextAlignment, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteTextAlignment, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swTextJustification_e.< Value >) | See swTextJustification_e for valid options | Specifies text alignment for notes |
+| Leader anchor - Closest, Left, or Right | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderSide, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNoteLeaderSide, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderSide_e.< Value >) | See swLeaderSide_e for valid options | Specifies leader side for notes |
+| Leader display - Straight, Bent, or Underlined, or Spline | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNotesLeaderStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingNotesLeaderStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLeaderStyle_e.< Value >) | See swLeaderStyle_e for valid options | Specifies notes leader style |
+| Leader display - Use document leader length | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingNoteUseDocBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingNoteUseDocBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to use document bent leader lengths for annotations |
+| Leader display - Leader length | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingNoteBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingNoteBentLeaderLength, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies distance between leader bend and text of the note |
+| Leader display - Leader justification snapping | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingNotesLeaderJustificationSnapping, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingNotesLeaderJustificationSnapping, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether leaders snap along grid lines |
+| Border - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBalloonStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBalloonStyle, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBalloonStyle_e.< Value >) | See swBalloonStyle_e for valid options | Specifies the style of the border |
+| Border - Size | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBalloonFit, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBalloonFit, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swBalloonFit_e.< Value >) | See swBalloonFit_e for valid options | Specifies the size of the border |
+| Border - Padding | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingBorderAddPadding, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingBorderAddPadding, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | 0.2 <= Size of the border padding <= 1000000.0; valid only when Border - Style is not None and Border - Size is Tight Fit |
+| Border - User defined | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingBorderUserDefined, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingBorderUserDefined, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | User-defined values for border size; valid only when Border - Style is not None and Border - Size is Custom Size |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swuserPreferenceOption_e.swDetailingNote) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swuserPreferenceOption_e.swDetailingNote, < Value >) | String value | Specifies the name of the layer to apply settings to; this setting is available only on drawings |
+| Formatting - Paragraph spacing | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingParaSpacing, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingParaSpacing, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the space between adjacent paragraphs |
+| Formatting - Do not show period with borders | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowPeriodWithBorders, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowPeriodWithBorders, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to show period with borders |
 
 Obsolete Enumerators
-
-(Table)=========================================================
 
 | Enumerator | Comment |
 | --- | --- |

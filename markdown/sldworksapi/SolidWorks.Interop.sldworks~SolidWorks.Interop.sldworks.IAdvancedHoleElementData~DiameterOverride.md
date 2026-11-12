@@ -45,13 +45,7 @@ property System.bool DiameterOverride {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ True to override the diameter, false to not
 
 ## VBA Syntax
 
-See
-
-[AdvancedHoleElementData::DiameterOverride](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData~DiameterOverride.html)
-
-.
+See [AdvancedHoleElementData::DiameterOverride](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData~DiameterOverride.html).
 
 ## Examples
 
-See the
-
-[IAdvancedHoleElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)
-
-examples.
+See the [IAdvancedHoleElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html) examples.
 
 ## See Also
 
 [IAdvancedHoleElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)
-
 [IAdvancedHoleElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData_members.html)
-
 [IAdvancedHoleElementData::Diameter Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~Diameter.html)
 
 ## Availability

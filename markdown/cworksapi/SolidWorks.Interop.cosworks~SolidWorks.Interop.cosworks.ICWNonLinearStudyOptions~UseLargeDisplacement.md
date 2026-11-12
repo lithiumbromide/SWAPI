@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNo
 
 # UseLargeDisplacement Property (ICWNonLinearStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWNonLinearStudyOptions::UseLargeDisplacement2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~UseLargeDisplacement2.html)
-
-.
+Obsolete. Superseded by [ICWNonLinearStudyOptions::UseLargeDisplacement2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~UseLargeDisplacement2.html).
 
 ## Syntax
 
@@ -56,24 +52,15 @@ property System.int UseLargeDisplacement {
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::UseLargeDisplacement](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~UseLargeDisplacement.html)
-
-.
+See [CWNonLinearStudyOptions::UseLargeDisplacement](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~UseLargeDisplacement.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

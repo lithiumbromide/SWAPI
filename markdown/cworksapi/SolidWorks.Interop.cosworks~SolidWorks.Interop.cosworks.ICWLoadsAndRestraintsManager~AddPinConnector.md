@@ -57,15 +57,9 @@ CWPinConnector^ AddPinConnector(
 
 ### Parameters
 
-- `DispArrayComp1`: Array of one full cylindrical face
-
-or of multiple cylindrical faces of smaller angles belonging to the same body and coaxial with the same radius
-- `DispArrayComp2`: Array of one full cylindrical face
-
-or of multiple cylindrical faces of smaller angles belonging to the same body, but different than the body in DispArrayComp1, and coaxial with the same radius
-- `ErrorCode`: Error as defined in
-
-[swsPinConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPinConnectorError_e.html)
+- `DispArrayComp1`: Array of one full cylindrical face or of multiple cylindrical faces of smaller angles belonging to the same body and coaxial with the same radius
+- `DispArrayComp2`: Array of one full cylindrical face or of multiple cylindrical faces of smaller angles belonging to the same body, but different than the body in DispArrayComp1, and coaxial with the same radius
+- `ErrorCode`: Error as defined in [swsPinConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPinConnectorError_e.html)
 
 ### Return Value
 
@@ -73,24 +67,17 @@ or of multiple cylindrical faces of smaller angles belonging to the same body, b
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddPinConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddPinConnector.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddPinConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddPinConnector.html).
 
 ## Examples
 
 [Add Pin Connector (VBA)](Add_Pin_Connector_Example_VB.htm)
-
 [Add Pin Connector (VB.NET)](Add_Pin_Connector_Example_VBNET.htm)
-
 [Add Pin Connector (C#)](Add_Pin_Connector_Example_CSharp.htm)
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

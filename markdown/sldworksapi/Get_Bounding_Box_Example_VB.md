@@ -9,28 +9,28 @@ source: "sldworksapi/Get_Bounding_Box_Example_VB.htm"
 
 # Get Bounding Box Example (VBA)
 
-This example shows how to get the bounding boxes for the selected feature and
-face. This example also shows how to draw 3D sketches depicting the bounding
-boxes.
+This example shows how to get the bounding boxes for the selected feature and face. This example also shows how to draw 3D sketches depicting the bounding boxes.
 
+```vb
 '----------------------------------------------
-' Preconditions:
-' 1. Verify that the part to open exits.
-' 2. Open the Immediate window.
-'
-' Postconditions:
-' 1. Selects the**Sweep1**feature.
-' 2. Creates a 3D sketch of the bounding box of
-' the selected**Sweep1**feature.
-' 3. Selects the top face.
-' 4. Creates a 3D sketch of the bounding box of
-' the selected face.
-' 5. Examine the graphics area and the Immediate
-' window.
-'
-' NOTE: Because this part is used elsewhere,
-' do not save changes.
-'----------------------------------------------
+ ' Preconditions:
+ ' 1. Verify that the part to open exits.
+ ' 2. Open the Immediate window.
+ '
+ ' Postconditions:
+ ' 1. Selects the Sweep1 feature.
+ ' 2. Creates a 3D sketch of the bounding box of
+ '    the selected Sweep1 feature.
+ ' 3. Selects the top face.
+ ' 4. Creates a 3D sketch of the bounding box of
+ '    the selected face.
+ ' 5. Examine the graphics area and the Immediate
+ '    window.
+ '
+ ' NOTE: Because this part is used elsewhere,
+ ' do not save changes.
+ '----------------------------------------------
+```
 
 ```
 Option Explicit

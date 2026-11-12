@@ -38,53 +38,52 @@ Dim TableAnnotationType As Long
 
 Sub DisplayTableColumnProps(theTableAnnotation As Object)
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim ColCount As Long
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim i As Long
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim ColType As swTableColumnTypes_e
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim ColTitle As String
+    Dim ColCount As Long
+    Dim i As Long
+    Dim ColType As swTableColumnTypes_e
+    Dim ColTitle As String
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Col#"; vbTab; "Type"; vbTab; "Title"
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}ColCount = theTableAnnotation.ColumnCount
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}For i = 0 To ColCount - 1
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}ColType = theTableAnnotation.GetColumnType2(i, True)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}ColTitle = theTableAnnotation.GetColumnTitle2(i, True)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print i; vbTab; ColType; vbTab; ColTitle
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Next i
+    Debug.Print "Col#"; vbTab; "Type"; vbTab; "Title"
+    ColCount = theTableAnnotation.ColumnCount
+    For i = 0 To ColCount - 1
+        ColType = theTableAnnotation.GetColumnType2(i, True)
+        ColTitle = theTableAnnotation.GetColumnTitle2(i, True)
+        Debug.Print i; vbTab; ColType; vbTab; ColTitle
+    Next i
 
 End Sub
 
 Sub main()
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swApp = Application.SldWorks
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swModel = swApp.ActiveDoc
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set SelMgr = swModel.SelectionManager
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Set SelMgr = swModel.SelectionManager
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}SelObjType = SelMgr.GetSelectedObjectType3(1, -1)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}If SelObjType <> swSelANNOTATIONTABLES Then
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MsgBox "Select a BOM table in the drawing before running this example."
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End If
+    SelObjType = SelMgr.GetSelectedObjectType3(1, -1)
+    If SelObjType <> swSelANNOTATIONTABLES Then
+        MsgBox "Select a BOM table in the drawing before running this example."
+        End
+    End If
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set theTableAnnotation = SelMgr.GetSelectedObject6(1, -1)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}TableAnnotationType = theTableAnnotation.Type
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}If TableAnnotationType <> swTableAnnotation_BillOfMaterials Then
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MsgBox "Select a BOM table in the drawing before running this example."
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End If
+    Set theTableAnnotation = SelMgr.GetSelectedObject6(1, -1)
+    TableAnnotationType = theTableAnnotation.Type
+    If TableAnnotationType <> swTableAnnotation_BillOfMaterials Then
+        MsgBox "Select a BOM table in the drawing before running this example."
+        End
+    End If
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Table before inserting a column..."
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Display table before inserting a column
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}DisplayTableColumnProps theTableAnnotation
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Insert new column
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}boolstatus = theTableAnnotation.InsertColumn2(swTableItemInsertPosition_Last, 0, "New Column", swInsertColumn_DefaultWidth)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}boolstatus = theTableAnnotation.SetColumnType2(theTableAnnotation.ColumnCount - 1, swBomTableColumnType_PartNumber, True)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print " "
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Table after inserting a column..."
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Display table after inserting a column
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}DisplayTableColumnProps theTableAnnotation
+    Debug.Print "Table before inserting a column..."
+    ' Display table before inserting a column
+    DisplayTableColumnProps theTableAnnotation
+
+    ' Insert new column
+    boolstatus = theTableAnnotation.InsertColumn2(swTableItemInsertPosition_Last, 0, "New Column", swInsertColumn_DefaultWidth)
+    boolstatus = theTableAnnotation.SetColumnType2(theTableAnnotation.ColumnCount - 1, swBomTableColumnType_PartNumber, True)
+
+    Debug.Print " "
+    Debug.Print "Table after inserting a column..."
+    ' Display table after inserting a column
+    DisplayTableColumnProps theTableAnnotation
 
 End Sub
 ```

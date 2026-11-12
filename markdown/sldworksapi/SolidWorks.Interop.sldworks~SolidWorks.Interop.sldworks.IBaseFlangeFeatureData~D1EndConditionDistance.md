@@ -45,13 +45,7 @@ property System.double D1EndConditionDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Distance
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::D1EndConditionDistance](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D1EndConditionDistance.html)
-
-.
+See [BaseFlangeFeatureData::D1EndConditionDistance](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D1EndConditionDistance.html).
 
 ## Examples
 
-See the
-
-[IBaseFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
-examples.
+See the [IBaseFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html) examples.
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
 
 ## Availability

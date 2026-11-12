@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11_members.html"
 
 # IEdmFolder11 Interface Members
 
-The following tables list the members exposed by[IEdmFolder11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11.html).
+The following tables list the members exposed by [IEdmFolder11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[IEdmFolder11](EPDM.Interop.epdm
 ## See Also
 
 [IEdmFolder11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder11.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -40,13 +40,7 @@ System.string GetLabel()
 System.String^ GetLabel();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Label for this projection arrow
 
 ## VBA Syntax
 
-See
-
-[ProjectionArrow::GetLabel](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~GetLabel.html)
-
-.
+See [ProjectionArrow::GetLabel](ms-its:sldworksapivb6.chm::/sldworks~ProjectionArrow~GetLabel.html).
 
 ## Examples
 
 [Get Arrow in Projected View (C#)](Get_Arrow_in_Projected_View_Example_CSharp.htm)
-
 [Get Arrow in Projected View (VB.NET)](Get_Arrow_in_Projected_View_Example_VBNET.htm)
-
 [Get Arrow in Projected View (VBA)](Get_Arrow_in_Projected_View_Example_VB.htm)
 
 ## See Also
 
 [IProjectionArrow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html)
-
 [IProjectionArrow Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow_members.html)
-
 [IProjectionArrow::SetLabel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow~SetLabel.html)
 
 ## Availability

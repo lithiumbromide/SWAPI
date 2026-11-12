@@ -40,13 +40,7 @@ System.int GetInterferenceCount()
 System.int GetInterferenceCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,34 +48,22 @@ Number of interferences
 
 ## VBA Syntax
 
-See
-
-[InterferenceDetectionMgr::GetInterferenceCount](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~GetInterferenceCount.html)
-
-.
+See [InterferenceDetectionMgr::GetInterferenceCount](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~GetInterferenceCount.html).
 
 ## Examples
 
 [Run Interference Detection (C#)](Run_Interference_Detection_Example_CSharp.htm)
-
 [Run Interference Detection (VB.NET)](Run_Interference_Detection_Example_VBNET.htm)
-
 [Run Interference Detection (VBA)](Run_Interference_Detection_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling
-
-[IInterferenceDetectionMgr::IGetInterferences](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IInterferenceDetectionMgr~IGetInterferences.html)
-
-to determine the size of the array for the interferences.
+Call this method before calling [IInterferenceDetectionMgr::IGetInterferences](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IInterferenceDetectionMgr~IGetInterferences.html) to determine the size of the array for the interferences.
 
 ## See Also
 
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [IInterferenceDetectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr_members.html)
-
 [IInterferenceDetectionMgr::GetInterferences Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr~GetInterferences.html)
 
 ## Availability

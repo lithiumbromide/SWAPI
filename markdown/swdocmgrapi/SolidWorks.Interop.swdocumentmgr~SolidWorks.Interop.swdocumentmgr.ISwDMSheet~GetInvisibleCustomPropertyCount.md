@@ -46,20 +46,13 @@ Number of invisible custom properties
 
 ## VBA Syntax
 
-See
-
-[SwDMSheet::GetInvisibleCustomPropertyCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet~GetInvisibleCustomPropertyCount.html)
-
-.
+See [SwDMSheet::GetInvisibleCustomPropertyCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet~GetInvisibleCustomPropertyCount.html).
 
 ## See Also
 
 [ISwDMSheet Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet.html)
-
 [ISwDMSheet Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet_members.html)
-
 [ISwDMSheet::GetInvisibleCustomProperty Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet~GetInvisibleCustomProperty.html)
-
 [ISwDMSheet::GetInvisibleCustomPropertyNames Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet~GetInvisibleCustomPropertyNames.html)
 
 ## Availability

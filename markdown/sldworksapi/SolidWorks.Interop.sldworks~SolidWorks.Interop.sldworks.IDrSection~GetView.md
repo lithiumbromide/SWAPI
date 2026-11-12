@@ -40,13 +40,7 @@ System.object GetView()
 System.Object^ GetView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Drawing view where the section line appears
 
 ## VBA Syntax
 
-See
-
-[DrSection::GetView](ms-its:sldworksapivb6.chm::/sldworks~DrSection~GetView.html)
-
-.
+See [DrSection::GetView](ms-its:sldworksapivb6.chm::/sldworks~DrSection~GetView.html).
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::IGetView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~IGetView.html)
 
 ## Availability

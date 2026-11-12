@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSl
 
 # DSldWorksEvents_FileNewNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Obsolete. Superseded by
-
-[DSldWorksEvents_FileNewNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_FileNewNotify2EventHandler.html)
-
-.
+Obsolete. Superseded by [DSldWorksEvents_FileNewNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_FileNewNotify2EventHandler.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ public delegate System.int DSldWorksEvents_FileNewNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,10 +55,6 @@ See
 
 ## VBA Syntax
 
-See
-
-[FileNewNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileNewNotify_EV.html)
-
-.
+See [FileNewNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileNewNotify_EV.html).
 
 ## Availability

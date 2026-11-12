@@ -46,22 +46,16 @@ System.Object^ GetDisplayEntity();
 
 ## VBA Syntax
 
-See
-
-[DimXpertAnnotation::GetDisplayEntity](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~GetDisplayEntity.html)
-
-.
+See [DimXpertAnnotation::GetDisplayEntity](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~GetDisplayEntity.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [IDimXpertAnnotation Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html)
 
 ## Availability

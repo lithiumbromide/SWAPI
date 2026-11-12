@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPr
 
 # SetTimeCurve Method (ICWPressure)
 
-Obsolete. Superseded by ICWPressure::SetTimeCurve2.
+Obsolete. Superseded by [ICWPressure::SetTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~SetTimeCurve2.html).
 
 ## Syntax
 
@@ -53,12 +53,8 @@ System.int SetTimeCurve(
 
 ### Parameters
 
-- `VarCurveDate`: Array of time curve data (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in[swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveDate`: Array of time curve data (see **Remarks**)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
@@ -66,30 +62,24 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWPressure::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~SetTimeCurve.html)
-
-.
+See [CWPressure::SetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~SetTimeCurve.html).
 
 ## Remarks
 
 Array of time curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time value at the`ith`data point
+- xi = time value at the `ith` data point
 - yi = property value associated with time xi
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::GetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~GetTimeCurve.html)
 
 ## Availability

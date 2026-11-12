@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreateLinearSketchStepAndRepeat Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::CreateLinearSketchStepAndRepeat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateLinearSketchStepAndRepeat.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::CreateLinearSketchStepAndRepeat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CreateLinearSketchStepAndRepeat.html).
 
 ## Syntax
 
@@ -75,13 +71,7 @@ System.bool CreateLinearSketchStepAndRepeat(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -95,14 +85,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::CreateLinearSketchStepAndRepeat](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreateLinearSketchStepAndRepeat.html)
-
-.
+See [ModelDoc::CreateLinearSketchStepAndRepeat](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CreateLinearSketchStepAndRepeat.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

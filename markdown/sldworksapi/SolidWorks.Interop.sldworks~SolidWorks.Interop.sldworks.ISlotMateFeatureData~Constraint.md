@@ -45,62 +45,37 @@ property System.int Constraint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Constraint option as defined in
-
-[swSlotMateConstraintOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSlotMateConstraintOptions_e.html)
+Constraint option as defined in [swSlotMateConstraintOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSlotMateConstraintOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[SlotMateFeatureData::Constraint](ms-its:sldworksapivb6.chm::/sldworks~SlotMateFeatureData~Constraint.html)
-
-.
+See [SlotMateFeatureData::Constraint](ms-its:sldworksapivb6.chm::/sldworks~SlotMateFeatureData~Constraint.html).
 
 ## Examples
 
-See the
-
-[ISlotMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData.html)
-
-example.
+See the [ISlotMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData.html) example.
 
 ## Remarks
 
 If this property is set to swSlotMateConstraintOptions_e:
 
-- swSlotMateConstraintOption_Distance, specify the
-
-  [ISlotMateFeatureData::Distance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~Distance.html)
-
-  from the end of the slot where to place the component axis.
-- swSlotMateConstraintOption_Percent, specify the distance as a
-
-  [ISlotMateFeatureData::Percent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~Percent.html)
-
-  of the slot length where to place the component axis.
+- swSlotMateConstraintOption_Distance, specify the [ISlotMateFeatureData::Distance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~Distance.html) from the end of the slot where to place the component axis.
+- swSlotMateConstraintOption_Percent, specify the distance as a [ISlotMateFeatureData::Percent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~Percent.html) of the slot length where to place the component axis.
 
 If this is a slot-to-slot mate, the only valid constraints are:
 
 - swSlotMateConstraintOptions_e.swSlotMateConstraintOption_Free
 - swSlotMateConstraintOptions_e.swSlotMateConstraintOption_Centered
 
-To change the endpoint from which the distance is measured, set[ISlotMateFeatureData::FlipDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~FlipDirection.html)to true.
+To change the endpoint from which the distance is measured, set [ISlotMateFeatureData::FlipDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~FlipDirection.html) to true.
 
 ## See Also
 
 [ISlotMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData.html)
-
 [ISlotMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData_members.html)
 
 ## Availability

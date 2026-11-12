@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # FeatureExtruRefSurface2 Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureExtruRefSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtruRefSurface.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureExtruRefSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtruRefSurface.html).
 
 ## Syntax
 
@@ -114,21 +110,15 @@ void FeatureExtruRefSurface2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sd`: True for single-ended, false for double-ended
 - `Flip`: True to flip the direction to cut, false to not
 - `Dir`: True to flip direction to extrude, false to not
-- `T1`: Termination type for first end as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-- `T2`: Termination type for second end as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T1`: Termination type for first end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T2`: Termination type for second end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
 - `D1`: Depth of extrusion for first end in meters
 - `D2`: Depth of extrusion for second end in meters
 - `Dchk1`: True allows draft angle in first direction, false does not allow drafting
@@ -144,16 +134,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::FeatureExtruRefSurface2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FeatureExtruRefSurface2.html)
-
-.
+See [ModelDoc2::FeatureExtruRefSurface2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FeatureExtruRefSurface2.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

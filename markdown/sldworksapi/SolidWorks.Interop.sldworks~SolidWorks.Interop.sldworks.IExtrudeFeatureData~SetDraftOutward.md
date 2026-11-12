@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # SetDraftOutward Method (IExtrudeFeatureData)
 
-Obsolete. Superseded by
-
-[IExtrudeFeatureData2::SetDraftOutward](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~SetDraftOutward.html)
-
-.
+Obsolete. Superseded by [IExtrudeFeatureData2::SetDraftOutward](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~SetDraftOutward.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ void SetDraftOutward(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,14 +59,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData::SetDraftOutward](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~SetDraftOutward.html)
-
-.
+See [ExtrudeFeatureData::SetDraftOutward](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData~SetDraftOutward.html).
 
 ## See Also
 
 [IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html)
-
 [IExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.html)

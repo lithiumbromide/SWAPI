@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMa
 
 Allows access to the mass properties of a study.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class ICWMassPropertiesManager
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager.html)
-
-.
+See [CWMassPropertiesManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager.html).
 
 ## Examples
 
 [Get Mass Properties (VBA)](Get_Mass_Properties_Example_VB.htm)
-
 [Get Mass Properties (VB.NET)](Get_Mass_Properties_Example_VBNET.htm)
-
 [Get Mass Properties (C#)](Get_Mass_Properties_Example_CSharp.htm)
 
 ## Accessors
@@ -68,5 +56,4 @@ See
 ## See Also
 
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

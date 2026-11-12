@@ -46,13 +46,7 @@ void SetSceneBkgDIBx64(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,15 +54,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SetSceneBkgDIBx64](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetSceneBkgDIBx64.html)
-
-.
+See [ModelDocExtension::SetSceneBkgDIBx64](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetSceneBkgDIBx64.html).
 
 ## Remarks
 
-This method is only available through early binding and with 64-bit versions of the SOLIDWORKS software.
+This method is only available through early binding and with 64-bit versions of the SOLIDWORKS Design software.
 
 Old background images are deleted automatically.
 
@@ -77,17 +67,11 @@ For more information about DIBSECTION, see MicroSoft's documentation.
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetSceneBkgDIBx64 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSceneBkgDIBx64.html)
-
 [IModelDoc2::GetSceneBkgDIB Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetSceneBkgDIB.html)
-
 [IModelDoc2::SetSceneBkgDIB Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetSceneBkgDIB.html)
-
 [IModelDoc2::InsertBkgImage Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertBkgImage.html)
-
 [IModelDoc2::SceneBkgImageFileName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SceneBkgImageFileName.html)
 
 ## Availability

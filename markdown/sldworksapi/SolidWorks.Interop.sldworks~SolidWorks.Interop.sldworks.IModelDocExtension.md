@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 Allows access to the model.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,30 +41,18 @@ public interface class IModelDocExtension
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension.html)
-
-.
+See [ModelDocExtension](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension.html).
 
 ## Examples
 
 [Access Assembly (C++)](Access_Assembly_Example_CPlusPlus_COM.htm)
-
 [Create Cylinder (C++)](Create_Cylinder_Example_CPlusPlus_COM.htm)
-
 [Traverse Bodies (C++)](Traverse_Bodies_Example_CPlusPlusCLI.htm)
-
 [Get Names of Bodies in Multibody Part (VBA)](Get_Names_of_Bodies_in_MultiBody_Part_Example_VB.htm)
-
 [Insert Wrap Feature (VBA)](Insert_Wrap_Feature_Example_VB.htm)
-
 [Use Persistent Reference (VBA)](Use_Persistent_Reference_Example_VB.htm)
-
 [Create Equation-driven Curve (C#)](Create_Equation-driven_Curve_Example_CSharp.htm)
-
 [Create Equation-driven Curve (VB.NET)](Create_Equation-driven_Curve_Example_VBNET.htm)
-
 [Create Equation-driven Curve (VBA)](Create_Extruded_Thin_Feature_Example_VB.htm)
 
 ## Accessors
@@ -78,5 +66,4 @@ See
 ## See Also
 
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

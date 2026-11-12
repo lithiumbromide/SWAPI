@@ -41,18 +41,12 @@ void SaveCostingOverrideSettings();
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::SaveCostingOverrideSettings](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~SaveCostingOverrideSettings.html)
-
-.
+See [TemplateOverrides::SaveCostingOverrideSettings](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~SaveCostingOverrideSettings.html).
 
 ## Examples
 
 [Create Sheet Metal Costing Analysis (C#)](Create_Sheet_Metal_Costing_Analyses_Example_CSharp.htm)
-
 [Create Sheet Metal Costing Analysis (VB.NET)](Create_Sheet_Metal_Costing_Analyses_Example_VBNET.htm)
-
 [Create Sheet Metal Costing Analysis (VBA)](Create_Sheet_Metal_Costing_Analyses_Example_VB.htm)
 
 ## Remarks
@@ -62,11 +56,8 @@ Overridden system-level settings are saved to the registry and are applied in th
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
-
 [ITemplateOverrides::ApplyOverrides Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~ApplyOverrides.html)
-
 [ITemplateOverrides::ResetAll Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~ResetAll.html)
 
 ## Availability

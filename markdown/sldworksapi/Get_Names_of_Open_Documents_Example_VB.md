@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Names_of_Open_Documents_Example_VB.htm"
 
 # Get Names of Open Documents Example (VBA)
 
-This example shows how to get the names of the open documents, the names of
-the referenced model documents, and their visibility.
+This example shows how to get the names of the open documents, the names of the referenced model documents, and their visibility.
 
 ```
 '-------------------------------------

@@ -9,7 +9,7 @@ source: "swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop
 
 # IBalloonSettings Interface Members
 
-The following tables list the members exposed by[IBalloonSettings](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings.html).
+The following tables list the members exposed by [IBalloonSettings](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings.html).
 
 ## Public Properties
 
@@ -41,5 +41,4 @@ The following tables list the members exposed by[IBalloonSettings](SolidWorks.In
 ## See Also
 
 [IBalloonSettings Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IBalloonSettings.html)
-
 [SolidWorks.Interop.swinspectionAddIn Namespace](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn_namespace.html)

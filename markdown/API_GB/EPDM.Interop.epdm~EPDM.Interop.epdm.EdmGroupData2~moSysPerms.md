@@ -34,26 +34,13 @@ array<EdmSysPerm>^ moSysPerms
 
 ### Field Value
 
-Array of
-
-[EdmSysPerm](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm.html)
-
-numbers
+Array of [EdmSysPerm](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm.html) numbers
 
 ## Remarks
 
-EdmSysPerm numbers replace the older
-
-[EdmSysRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html)
-
-bits that were used in
-
-[EdmGroupData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData.html)
-
-.
+EdmSysPerm numbers replace the older [EdmSysRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html) bits that were used in [EdmGroupData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData.html).
 
 ## See Also
 
 [EdmGroupData2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2.html)
-
 [EdmGroupData2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2_members.html)

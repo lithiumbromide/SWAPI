@@ -1,6 +1,5 @@
 ---
-title: "ScaleFeatureData Object
-Members"
+title: "ScaleFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ScaleFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ScaleFeatureData_members.html"
 ---
 
-# ScaleFeatureData Object
-Members
+# ScaleFeatureData Object Members
 
 ## Public Methods
 

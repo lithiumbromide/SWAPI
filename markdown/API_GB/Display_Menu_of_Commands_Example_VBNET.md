@@ -13,9 +13,7 @@ source: "API_GB/Display_Menu_of_Commands_Example_VBNET.htm"
 
 This example shows how to display a menu of commands, including commands registered by any SOLIDWORKS PDM Professional add-ins and the Administrate Add-ins command.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
 '--------------------------------------------------------------------------------------

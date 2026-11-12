@@ -45,37 +45,26 @@ property System.bool IsDragByRay {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True uses drag-by-ray, false uses drag-by-transform (see**Remarks**)
+True uses drag-by-ray, false uses drag-by-transform (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DragOperator::IsDragByRay](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~IsDragByRay.html)
-
-.
+See [DragOperator::IsDragByRay](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~IsDragByRay.html).
 
 ## Remarks
 
-- Drag-by-rayTries to find a solution that keeps a specified geometry on, or close to, a ray (defined by a point on the ray and its direction).
-- Drag-by-transformUses a transform matrix, which is any combination of translations and rotations.
+- Drag-by-ray Tries to find a solution that keeps a specified geometry on, or close to, a ray (defined by a point on the ray and its direction).
+- Drag-by-transform Uses a transform matrix, which is any combination of translations and rotations.
 
-NOTE:IDragOperator does not define the drag ray; it only performs drag-by-transform. If this property is set to True, the user-interface component move honors this setting. The default mode for the user interface is drag-by-transform.
+NOTE: IDragOperator does not define the drag ray; it only performs drag-by-transform. If this property is set to True, the user-interface component move honors this setting. The default mode for the user interface is drag-by-transform.
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHo
 
 # GetComponentsCount Method (IHoleSeriesFeatureData)
 
-Obsolete. Superseded by[IHoleSeriesFeatureData2::GetComponentsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~GetComponentsCount.html).
+Obsolete. Superseded by [IHoleSeriesFeatureData2::GetComponentsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2~GetComponentsCount.html).
 
 ## Syntax
 
@@ -40,13 +40,7 @@ System.int GetComponentsCount()
 System.int GetComponentsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of components in this hole series
 
 ## VBA Syntax
 
-See
-
-[HoleSeriesFeatureData::GetComponentsCount](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~GetComponentsCount.html)
-
-.
+See [HoleSeriesFeatureData::GetComponentsCount](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData~GetComponentsCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IHoleSeriesFeatureData::IGetComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData~IGetComponents.html)
-
-to get the size of the array for that method.
+Call this method before calling [IHoleSeriesFeatureData::IGetComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData~IGetComponents.html) to get the size of the array for that method.
 
 ## See Also
 
 [IHoleSeriesFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData.html)
-
 [IHoleSeriesFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData_members.html)
-
 [IHoleSeriesFeatureData::GetComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData~GetComponents.html)
 
 ## Availability

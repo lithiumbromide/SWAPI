@@ -1,6 +1,5 @@
 ---
-title: "CustomPropertyManager Object
-Members"
+title: "CustomPropertyManager Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CustomPropertyManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CustomPropertyManager_members.html"
 ---
 
-# CustomPropertyManager Object
-Members
+# CustomPropertyManager Object Members
 
 ## Public Methods
 

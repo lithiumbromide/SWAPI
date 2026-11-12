@@ -1,6 +1,5 @@
 ---
-title: "ISMCornerReliefData Object
-Members"
+title: "ISMCornerReliefData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISMCornerReliefData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISMCornerReliefData_members.html"
 ---
 
-# ISMCornerReliefData Object
-Members
+# ISMCornerReliefData Object Members
 
 ## Public Methods
 

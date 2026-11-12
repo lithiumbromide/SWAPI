@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 Allows access to a Product and Manufacturing Information (PMI) datum target.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,19 +41,11 @@ public interface class IPMIDatumTarget
 
 ## VBA Syntax
 
-See
-
-[PMIDatumTarget](ms-its:sldworksapivb6.chm::/sldworks~PMIDatumTarget.html)
-
-.
+See [PMIDatumTarget](ms-its:sldworksapivb6.chm::/sldworks~PMIDatumTarget.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## Remarks
 
@@ -70,5 +62,4 @@ A PMI datum target consists of a target symbol and a target area.
 ## See Also
 
 [IPMIDatumTarget Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDatumTarget_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

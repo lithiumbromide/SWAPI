@@ -9,8 +9,7 @@ source: "sldworksapi/Run_SOLIDWORKS_Commands_and_Synthesize_Mouse_Events_Example
 
 # Run SOLIDWORKS Commands and Synthesize Mouse Events Example (VBA)
 
-This example shows how to run SOLIDWORKS commands and synthesize mouse
-events.
+This example shows how to run SOLIDWORKS commands and synthesize mouse events.
 
 ```
 '-----------------------------------------------------------
@@ -128,33 +127,33 @@ Sub main()
 Back to top
 ```
 
+```vb
 'Class1
 
-Dim WithEvents ms As SldWorks.mouse
+ Dim WithEvents ms As SldWorks.mouse
 
-Private Sub Class_Initialize()
-End Sub
+ Private Sub Class_Initialize()
+ End Sub
 
 Public Sub init(mouse As Object)
-Set ms = mouse
-End Sub
+     Set ms = mouse
+ End Sub
 
-Private Function ms_**MouseSelectNotify**(ByVal Ix As Long, ByVal Iy As Long,
-ByVal x As Double, ByVal y As Double, ByVal z As Double) As Long
-Debug.Print "Selection made:"
-Debug.Print " Mouse location:"
-Debug.Print " Window space coordinates:"
-Debug.Print " " & Ix
-Debug.Print " " & Iy
-Debug.Print " World space coordinates:"
-Debug.Print " " & x
-Debug.Print " " & y
-Debug.Print " " & z
-End Function
+ Private Function ms_MouseSelectNotify(ByVal Ix As Long, ByVal Iy As Long, ByVal x As Double, ByVal y As Double, ByVal z As Double) As Long
+     Debug.Print "Selection made:"
+     Debug.Print " Mouse location:"
+     Debug.Print "   Window space coordinates:"
+     Debug.Print "     " & Ix
+     Debug.Print "     " & Iy
+     Debug.Print "   World space coordinates:"
+     Debug.Print "     " & x
+     Debug.Print "     " & y
+     Debug.Print "     " & z
+ End Function
 
-Private Function ms_**MouseLBtnDownNotify**(ByVal x As Long, ByVal y As Long,
-ByVal WParam As Long) As Long
-Debug.Print "Left-mouse button pressed."
-End Function
+ Private Function ms_MouseLBtnDownNotify(ByVal x As Long, ByVal y As Long, ByVal WParam As Long) As Long
+     Debug.Print "Left-mouse button pressed."
+ End Function
+```
 
 [Back to top](#Top)

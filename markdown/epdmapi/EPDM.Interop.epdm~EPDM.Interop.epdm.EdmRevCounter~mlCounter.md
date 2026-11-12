@@ -35,5 +35,4 @@ System.int mlCounter
 ## See Also
 
 [EdmRevCounter Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter.html)
-
 [EdmRevCounter Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevCounter_members.html)

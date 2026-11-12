@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # ISelectData Interface Methods
 
-For a list of all members of this type, see[ISelectData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData_members.html).
+For a list of all members of this type, see [ISelectData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[ISelectData members](SolidWorks.Inte
 ## See Also
 
 [ISelectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -47,13 +47,7 @@ System.double GetPosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,43 +55,33 @@ See
 
 ### Return Value
 
-Location of the break line (see**Remarks**)
+Location of the break line (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[BreakLine::GetPosition](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~GetPosition.html)
-
-.
+See [BreakLine::GetPosition](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~GetPosition.html).
 
 ## Examples
 
 [Create Break View (C#)](Create_Broken_View_Example_CSharp.htm)
-
 [Create Break View (VB.NET)](Create_Broken_View_Example_VBNET.htm)
-
 [Create Break View (VBA)](Create_Broken_View_Example_VB.htm)
 
 ## Remarks
 
 A drawing view break consists of a pair of lines. This method gets the break line at the location indicated by the Index argument.
 
-(Table)=========================================================
-
 | If the orientation of the break is... | Then the return value is... |
 | --- | --- |
 | Horizontal | Y value relative to the drawing view origin (center) that indicates where the break is along the Y axis |
 | Vertical | X value relative to the drawing view origin (center) that indicates where the break is along the X axis |
 
-To determine the orientation of the break line, use[IBreakLine::Orientation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBreakLine~Orientation.html).
+To determine the orientation of the break line, use [IBreakLine::Orientation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBreakLine~Orientation.html) .
 
 ## See Also
 
 [IBreakLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine.html)
-
 [IBreakLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine_members.html)
-
 [IBreakline::SetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine~SetPosition.html)
 
 ## Availability

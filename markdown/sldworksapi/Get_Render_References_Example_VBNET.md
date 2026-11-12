@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Render_References_Example_VBNET.htm"
 
 # Get Render References (VB.NET)
 
-This example shows how to get the render stock (SOLIDWORKS-supplied)
-references for a model.
+This example shows how to get the render stock (SOLIDWORKS-supplied) references for a model.
 
 ```vb
  '-------------------------------------------------

@@ -47,22 +47,15 @@ property System.int IntegratorType {
 
 ### Property Value
 
-Type of integrator as defined by
-
-[swMotionIntegratorType_e](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionIntegratorType_e.html)
+Type of integrator as defined by [swMotionIntegratorType_e](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionIntegratorType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::IntegratorType](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~IntegratorType.html)
-
-.
+See [CosmosMotionStudyProperties::IntegratorType](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~IntegratorType.html).
 
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
 
 ## Availability

@@ -10,14 +10,7 @@ source: "swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop
 # IInspectionAddinMgr Interface
 
 Allows access to the inspection add-in manager.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,21 +40,17 @@ public interface class IInspectionAddinMgr
 
 ## VBA Syntax
 
-See
-
-[InspectionAddinMgr](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionAddinMgr.html)
-
-.
+See [InspectionAddinMgr](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionAddinMgr.html).
 
 ## Examples
 
 '=========================================================================
 'Preconditions:
 '1. Activate the SOLIDWORKS Inspection Add-in (**SOLIDWORKS Tools menu > Add-ins... > SOLIDWORKS Inspection**).
-'2. Ensure**c:\temp\Export Testing**exists.
+'2. Ensure **c:\temp\Export Testing** exists.
 '3. Ensure the templates specified in the macro exist.
-'4. Open`Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2022\samples\tutorial\api\nist_ftc_08_asme1_rc_sw1702_ra.sldprt**.
-'5. Select**SOLIDWORKS File menu > Make drawing from part**.
+'4. Open `Public_Documents`**\SOLIDWORKS\SOLIDWORKS 2022\samples\tutorial\api\nist_ftc_08_asme1_rc_sw1702_ra.sldprt**.
+'5. Select **SOLIDWORKS File menu > Make drawing from part**.
 ' a. Select default settings in Sheet Format/Size dialog.
 ' b. In View Palette select all Import Annotations check boxes.
 ' c. Drag and drop "A" views onto the drawing sheet.
@@ -75,7 +64,7 @@ See
 ' 5. Displays all the characteristic IDs.
 ' 6. Adds a vendor named Sample.
 ' 7. Displays inspection methods, operations, and vendors.
-' 8. Exports Inspection reports (Microsoft Excel, 2D PDF, eDrawings) to**c:\temp\Export Testing**.
+' 8. Exports Inspection reports (Microsoft Excel, 2D PDF, eDrawings) to **c:\temp\Export Testing**.
 ' 9. Close the Excel spreadsheet after it appears.
 '10. Deletes vendor named Sample.
 '11. Edits the inspection project by adding a document name.
@@ -119,28 +108,28 @@ Set InspectionPrjData = INSPECTIONMgr.**CreateInspectionProjectData**("C:\\Progr
 'General settings
 Debug.Print "Inspection general settings..."
 Debug.Print ""
-InspectionPrjData.**StartNumber**= 17
+InspectionPrjData.**StartNumber** = 17
 
-InspectionPrjData.**Sort**= 1
+InspectionPrjData.**Sort** = 1
 Debug.Print "Characteristic sort as defined by swiCharacteristicInfoSort_e: " & InspectionPrjData.**Sort**
 
-InspectionPrjData.**Classification**= 0
+InspectionPrjData.**Classification** = 0
 Debug.Print "Defect classification as defined by swiCharacteristicClassification_e: " & InspectionPrjData.**Classification**
 
-InspectionPrjData.**Extraction**= 0
+InspectionPrjData.**Extraction** = 0
 Debug.Print "Type of extraction as defined by swiCharacteristicInfoExtraction_e: " & InspectionPrjData.**Extraction**
 
-InspectionPrjData.**AutoBalloon**= True
+InspectionPrjData.**AutoBalloon** = True
 Debug.Print "Autoballoon drawing? " & InspectionPrjData.**AutoBalloon**
 
 'Extraction settings
 Debug.Print ""
 Debug.Print "Inspection extraction settings..."
 Debug.Print ""
-InspectionPrjData.**Basic**= True
+InspectionPrjData.**Basic** = True
 Debug.Print "Basic dimensioning? " & InspectionPrjData.**Basic**
 
-InspectionPrjData.**SecondaryUnits**= True
+InspectionPrjData.**SecondaryUnits** = True
 Debug.Print "Extract dual dimensions? " & InspectionPrjData.**SecondaryUnits**
 
 'Create inspection project and balloon drawing
@@ -319,7 +308,7 @@ Debug.Print "Vendor Sample deleted? " & errorArray(0)
 
 'Edit inspection project and re-balloon the drawing
 Set InspectionPrjData = INSPECTIONMgr.**GetInspectionProjectData**
-InspectionPrjData.**DocumentName**= "Test drawing"
+InspectionPrjData.**DocumentName** = "Test drawing"
 boolstatus = INSPECTIONMgr.**EditInspectionProject**(InspectionPrjData)
 
 'Change and apply balloon settings and re-balloon the drawing
@@ -328,16 +317,16 @@ Debug.Print ""
 Debug.Print "Balloon setting changes..."
 Debug.Print ""
 
-BalloonSetting.**Prefix**= "B"
+BalloonSetting.**Prefix** = "B"
 Debug.Print "Prefix: " & BalloonSetting.**Prefix**
 
-BalloonSetting.**KeyCharPrefix**= "C"
+BalloonSetting.**KeyCharPrefix** = "C"
 Debug.Print "KeyCharPrefix: " & BalloonSetting.**KeyCharPrefix**
 
-BalloonSetting.**AttachToCharacteristic**= True
+BalloonSetting.**AttachToCharacteristic** = True
 Debug.Print "BalloonBalloonSetting.AttachToCharacteristic: " & BalloonSetting.**AttachToCharacteristic**
 
-BalloonSetting.**RotateToMatchCharacteristic**= True
+BalloonSetting.**RotateToMatchCharacteristic** = True
 Debug.Print "BalloonBalloonSetting.RotateToMatchCharacteristic: " & BalloonSetting.**RotateToMatchCharacteristic**
 
 BalloonSetting.Layer = 0
@@ -352,13 +341,7 @@ End Sub
 For more information, read:
 
 - [Getting Started](Getting%20Started.html)
-- SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started
-
-  and
-
-  Customization
-
-  topics.
+- **SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Getting Started** and **Customization** topics.
 
 ## Accessors
 
@@ -367,5 +350,4 @@ For more information, read:
 ## See Also
 
 [IInspectionAddinMgr Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionAddinMgr_members.html)
-
 [SolidWorks.Interop.swinspectionAddIn Namespace](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn_namespace.html)

@@ -11,9 +11,7 @@ source: "API_GB/Batch_Add_and_Remove_Item_References_Example_VBNET.htm"
 
 This example shows how to add item references in one batch.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

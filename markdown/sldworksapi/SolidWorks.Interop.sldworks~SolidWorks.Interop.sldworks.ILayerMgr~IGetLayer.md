@@ -47,13 +47,7 @@ Layer^ IGetLayer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,28 +55,20 @@ See
 
 ### Return Value
 
-[ILayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayer.html)
-
-object
+[ILayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayer.html) object
 
 ## VBA Syntax
 
-See
-
-[LayerMgr::IGetLayer](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~IGetLayer.html)
-
-.
+See [LayerMgr::IGetLayer](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~IGetLayer.html).
 
 ## Remarks
 
-You can get the layer name by calling[ILayerMgr::GetCurrentLayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~GetCurrentLayer.html), create a new layer calling[ILayerMgr::AddLayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~AddLayer.html), or obtain a list of layer names by calling[ILayerMgr::IGetLayerList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~IGetLayerList.html).
+You can get the layer name by calling [ILayerMgr::GetCurrentLayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~GetCurrentLayer.html), create a new layer calling [ILayerMgr::AddLayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~AddLayer.html), or obtain a list of layer names by calling [ILayerMgr::IGetLayerList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~IGetLayerList.html).
 
 ## See Also
 
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
-
 [ILayerMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr_members.html)
-
 [ILayerMgr::GetLayer Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr~GetLayer.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 # ISustainabilityEndOfLife Interface Members
 
-The following tables list the members exposed by[ISustainabilityEndOfLife](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEndOfLife.html).
+The following tables list the members exposed by [ISustainabilityEndOfLife](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEndOfLife.html).
 
 ## Public Properties
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[ISustainabilityEndOfLife](Solid
 ## See Also
 
 [ISustainabilityEndOfLife Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEndOfLife.html)
-
 [SolidWorks.Interop.sustainability Namespace](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability_namespace.html)

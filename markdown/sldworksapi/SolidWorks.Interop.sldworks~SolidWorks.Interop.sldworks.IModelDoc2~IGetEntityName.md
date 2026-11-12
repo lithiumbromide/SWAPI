@@ -47,13 +47,7 @@ System.String^ IGetEntityName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,17 @@ Name of the entity
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IGetEntityName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IGetEntityName.html)
-
-.
+See [ModelDoc2::IGetEntityName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IGetEntityName.html).
 
 ## Examples
 
 [Get Entity Name (C++)](Get_Entity_Name_Example_CPlusPlus_COM.htm)
-
 [Get Named Entities (C++)](Get_Named_Entities_Example_CPlusPlus_COM.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetEntityName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetEntityName.html)
 
 ## Availability

@@ -67,11 +67,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertSymmetryGeoTol::GetZoneDirection](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertSymmetryGeoTol~GetZoneDirection.html)
-
-.
+See [SwDMDimXpertSymmetryGeoTol::GetZoneDirection](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertSymmetryGeoTol~GetZoneDirection.html).
 
 ## Examples
 
@@ -80,7 +76,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertSymmetryGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertSymmetryGeoTol.html)
-
 [ISwDMDimXpertSymmetryGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertSymmetryGeoTol_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.String^ Layer {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Name of the layer
 
 ## VBA Syntax
 
-See
-
-[BreakLine::Layer](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~Layer.html)
-
-.
+See [BreakLine::Layer](ms-its:sldworksapivb6.chm::/sldworks~BreakLine~Layer.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ An empty string indicates no layer. If you set the layer to a layer name that do
 ## See Also
 
 [IBreakLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine.html)
-
 [IBreakLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine_members.html)
 
 ## Availability

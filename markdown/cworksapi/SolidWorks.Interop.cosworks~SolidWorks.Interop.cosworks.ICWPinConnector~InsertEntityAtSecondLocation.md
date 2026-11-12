@@ -52,26 +52,16 @@ void InsertEntityAtSecondLocation(
 
 ## VBA Syntax
 
-See
-
-[CWPinConnector::InsertEntityAtSecondLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~InsertEntityAtSecondLocation.html)
-
-.
+See [CWPinConnector::InsertEntityAtSecondLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~InsertEntityAtSecondLocation.html).
 
 ## See Also
 
 [ICWPinConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
 [ICWPinConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector_members.html)
-
 [ICWPinConnector::GetFirstLocationEntityCount Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector~GetFirstLocationEntityCount.html)
-
 [ICWPinConnector::GetSecondLocationEntityCount Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector~GetSecondLocationEntityCount.html)
-
 [ICWPinConnector::InsertEntityAtFirstLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector~InsertEntityAtFirstLocation.html)
-
 [ICWPinConnector::RemoveEntityFromFirstLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector~RemoveEntityFromFirstLocation.html)
-
 [ICWPinConnector::RemoveEntityFromSecondLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRigidConnector~RemoveEntityFromSecondLocation.html)
 
 ## Availability

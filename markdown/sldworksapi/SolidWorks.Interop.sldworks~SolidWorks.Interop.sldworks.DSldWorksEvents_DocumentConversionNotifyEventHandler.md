@@ -43,13 +43,7 @@ public delegate System.int DSldWorksEvents_DocumentConversionNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,18 +51,10 @@ See
 
 ## VBA Syntax
 
-See
-
-[DocumentConversionNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~DocumentConversionNotify_EV.html)
-
-.
+See [DocumentConversionNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~DocumentConversionNotify_EV.html).
 
 ## Remarks
 
 Any number of these notifications may be sent at the end of an open operation because an open operation of an assembly or drawing may cause multiple files to open. In this scenario, all of the opened files may have been converted.
 
-If developing a C++ application, use
-
-[swAppDocumentConversionNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppDocumentConversionNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.

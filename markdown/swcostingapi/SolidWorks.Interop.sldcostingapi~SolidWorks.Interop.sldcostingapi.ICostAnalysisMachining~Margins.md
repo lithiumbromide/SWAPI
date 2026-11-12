@@ -9,11 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # Margins Property (ICostAnalysisMachining)
 
-Gets or sets the margins for the
-
-[stock type](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~CurrentStockType.html)
-
-for this machining Costing analysis.
+Gets or sets the margins for the [stock type](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~CurrentStockType.html) for this machining Costing analysis.
 
 ## Syntax
 
@@ -51,15 +47,11 @@ property System.Object^ Margins {
 
 ### Property Value
 
-Array of doubles of the margins for the stock type (see
-
-Remarks
-
-)
+Array of doubles of the margins for the stock type (see **Remarks**)
 
 ## VBA Syntax
 
-See[CostAnalysisMachining::Margins](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~Margins.html).
+See [CostAnalysisMachining::Margins](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~Margins.html).
 
 ## Remarks
 
@@ -74,22 +66,14 @@ The material determines the size of the array:
 This property does not support setting margins:
 
 - for plate material
-
   - or -
-- when a
-
-  [custom size](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~BlankSize.html)
-
-  is defined.
+- when a [custom size](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~BlankSize.html) is defined.
 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::IMargins Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IMargins.html)
-
 [ICostAnalysisMachining::GetMarginDimensionCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMarginDimensionCount.html)
 
 ## Availability

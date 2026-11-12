@@ -48,28 +48,17 @@ property CWMultipleComponentContactsEditManager^ MultipleComponentContactsEditMa
 
 ## VBA Syntax
 
-See
-
-[CWStudy::MultipleComponentContactsEditManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~MultipleComponentContactsEditManager.html)
-
-.
+See [CWStudy::MultipleComponentContactsEditManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~MultipleComponentContactsEditManager.html).
 
 ## Examples
 
-See the
-
-[ICWMultipleComponentContactsEditManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html)
-
-examples.
+See the [ICWMultipleComponentContactsEditManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html) examples.
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::ContactManager Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~ContactManager.html)
-
 [ICWStudy::MultipleContactSetsEditManager Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~MultipleContactSetsEditManager.html)
 
 ## Availability

@@ -42,13 +42,7 @@ property System.double WeldBeadMass {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ Weld bead mass
 
 ## VBA Syntax
 
-See
-
-[MassProperty2::WeldBeadMass](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~WeldBeadMass.html)
-
-.
+See [MassProperty2::WeldBeadMass](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~WeldBeadMass.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IMassProperty2::ShowWeldBeadMass](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~ShowWeldBeadMass.html)
-
-is set to true.
+This property is valid only if [IMassProperty2::ShowWeldBeadMass](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~ShowWeldBeadMass.html) is set to true.
 
 ## See Also
 
 [IMassProperty2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html)
-
 [IMassProperty2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2_members.html)
 
 ## Availability

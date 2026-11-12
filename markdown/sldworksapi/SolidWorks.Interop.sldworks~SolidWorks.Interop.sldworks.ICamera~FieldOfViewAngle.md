@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 Gets the camera's horizontal angle of the field of view.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ property System.double FieldOfViewAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,18 +55,12 @@ Camera's horizontal angle of the field of view in radians
 
 ## VBA Syntax
 
-See
-
-[Camera::FieldOfViewAngle](ms-its:sldworksapivb6.chm::/sldworks~Camera~FieldOfViewAngle.html)
-
-.
+See [Camera::FieldOfViewAngle](ms-its:sldworksapivb6.chm::/sldworks~Camera~FieldOfViewAngle.html).
 
 ## Examples
 
 [Insert Camera (VBA)](Insert_Camera_Example_VB.htm)
-
 [Insert Camera (C#)](Insert_Camera_Example_CSharp.htm)
-
 [Insert Camera (VB.NET)](Insert_Camera_Example_VBNET.htm)
 
 ## Remarks
@@ -82,13 +70,9 @@ This property is only meaningful for a perspective camera.
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
-
 [ICamera::FieldOfViewDepth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~FieldOfViewDepth.html)
-
 [ICamera::FieldOfViewHeight Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~FieldOfViewHeight.html)
-
 [ICamera::Perspective Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~Perspective.html)
 
 ## Availability

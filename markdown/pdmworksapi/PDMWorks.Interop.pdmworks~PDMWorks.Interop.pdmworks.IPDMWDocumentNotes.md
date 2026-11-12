@@ -9,15 +9,9 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDo
 
 # IPDMWDocumentNotes Interface
 
-Contains[IPDMWDocumentNote](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote.html)objects.
+Contains [IPDMWDocumentNote](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNote.html) objects.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class IPDMWDocumentNotes
 
 ## VBA Syntax
 
-See
-
-[PDMWDocumentNotes](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNotes.html)
-
-.
+See [PDMWDocumentNotes](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocumentNotes.html).
 
 ## Accessors
 
@@ -60,5 +50,4 @@ See
 ## See Also
 
 [IPDMWDocumentNotes Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocumentNotes_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)

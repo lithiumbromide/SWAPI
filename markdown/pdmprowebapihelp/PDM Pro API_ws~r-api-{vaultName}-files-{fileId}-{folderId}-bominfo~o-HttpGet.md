@@ -14,19 +14,14 @@ PDM Pro API Web Service
 | Get | api/{vaultName}/files/{fileId}/{folderId}/bominfo |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > File Resource Group : api/{vaultName}/files/{fileId}/{folderId}/bominfo (Get) |
 | --- |
 
 Description
 
-GET: api/{VaultName}/files/{FileID}/bominfo
-Get file BOM infoGets the BOM information for the specified file.
+GET: api/{VaultName}/files/{FileID}/bominfo Get file BOM infoGets the BOM information for the specified file.
 
 Parameters
 
@@ -364,8 +359,4 @@ Response (application/xml, text/xml)
 
 See Also
 
-[File Resource Group](PDM%20Pro%20API_ws~g-0e45981b-3619-4486-b05d-cc362f26dd7c.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[File Resource Group](PDM%20Pro%20API_ws~g-0e45981b-3619-4486-b05d-cc362f26dd7c.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

@@ -9,9 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWeldmen
 
 # swWeldmentTrimExtendOptionType_e Enumeration
 
-Options for weldment trim extensions.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
+Options for weldment trim extensions. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm)
 
 ## Syntax
 
@@ -52,7 +50,6 @@ public enum class swWeldmentTrimExtendOptionType_e : public System.Enum
 ## Examples
 
 [Insert Weldment Features Example (VBA)](ms-its:sldworksapi.chm::/Insert_Weldment_Features_Example_VB.htm)
-
 [Insert Weldment Features Example (VB.NET)](ms-its:sldworksapi.chm::/Insert_Weldment_Features_Example_VBNET.htm)
 
 ## See Also

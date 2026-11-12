@@ -52,20 +52,13 @@ void InsertBoltSeriesEntity(
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::InsertBoltSeriesEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~InsertBoltSeriesEntity.html)
-
-.
+See [CWBoltConnector::InsertBoltSeriesEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~InsertBoltSeriesEntity.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::RemoveBoltSeriesEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~RemoveBoltSeriesEntity.html)
-
 [ICWBoltConnector::IncludeBoltSeries Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~IncludeBoltSeries.html)
 
 ## Availability

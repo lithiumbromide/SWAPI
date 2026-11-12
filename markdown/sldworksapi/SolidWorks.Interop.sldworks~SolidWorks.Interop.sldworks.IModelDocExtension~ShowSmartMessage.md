@@ -58,13 +58,7 @@ void ShowSmartMessage(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,11 +69,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ShowSmartMessage](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ShowSmartMessage.html)
-
-.
+See [ModelDocExtension::ShowSmartMessage](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ShowSmartMessage.html).
 
 ## Examples
 
@@ -87,24 +77,35 @@ See
 
 Option Explicit
 
-Dim swApp As SldWorks.SldWorks Dim swModelDocExt As SldWorks.ModelDocExtension Dim swModel As SldWorks.ModelDoc2 Dim swSelMgr As SldWorks.SelectionMgr
+Dim swApp As SldWorks.SldWorks
+Dim swModelDocExt As SldWorks.ModelDocExtension
+Dim swModel As SldWorks.ModelDoc2
+Dim swSelMgr As SldWorks.SelectionMgr
 
 Sub main()
 
-Set swApp = Application.SldWorks Set swModel = swApp. ActiveDoc swModel. ClearSelection2 True Set swSelMgr = swModel. SelectionManager Set swModelDocExt = swModel. Extension While 1
+Set swApp = Application.SldWorks
+Set swModel = swApp.**ActiveDoc**
+swModel.**ClearSelection2** True
+Set swSelMgr = swModel.**SelectionManager**
+Set swModelDocExt = swModel.**Extension**
+While 1
 
 ' Loops until you select an entity in the graphics area
 
-While swSelMgr. GetSelectedObjectCount = 0 DoEvents Wend
+While swSelMgr.**GetSelectedObjectCount** = 0
+DoEvents
+Wend
 
-swModelDocExt. ShowSmartMessage "This is the message.", 500, True, True DoEvents Wend
+swModelDocExt.**ShowSmartMessage** "This is the message.", 500, True, True
+DoEvents
+Wend
 
 End Sub
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

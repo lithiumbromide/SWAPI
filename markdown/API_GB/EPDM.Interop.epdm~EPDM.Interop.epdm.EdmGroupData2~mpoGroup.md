@@ -38,22 +38,9 @@ IEdmUserGroup5^ mpoGroup
 
 ## Remarks
 
-This member is valid only if
-
-[EdmGroupData2::mlFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mlFlags.html)
-
-sets the
-
-[EdmGroupDataFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupDataFlags.html)
-
-.Edmgdf_GetInterface bit and
-
-[EdmGroupData2::mhStatus](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mhStatus.html)
-
-is S_OK (0).
+This member is valid only if [EdmGroupData2::mlFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mlFlags.html) sets the [EdmGroupDataFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupDataFlags.html).Edmgdf_GetInterface bit and [EdmGroupData2::mhStatus](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2~mhStatus.html) is S_OK (0).
 
 ## See Also
 
 [EdmGroupData2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2.html)
-
 [EdmGroupData2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData2_members.html)

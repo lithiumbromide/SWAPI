@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertOrientationTolerance Interface Members
 
-The following tables list the members exposed by[IDimXpertOrientationTolerance](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance.html).
+The following tables list the members exposed by [IDimXpertOrientationTolerance](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance.html).
 
 ## Public Properties
 
@@ -34,5 +34,4 @@ The following tables list the members exposed by[IDimXpertOrientationTolerance](
 ## See Also
 
 [IDimXpertOrientationTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

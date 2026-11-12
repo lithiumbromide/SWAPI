@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Sketch_Text_and_Hole_Example_CSharp.htm"
 
 # Insert Sketch Text and Hole Example (C#)
 
-This example shows how to insert sketch text and a hole at the selected
-point on a face.
+This example shows how to insert sketch text and a hole at the selected point on a face.
 
 ```vb
   //----------------------------------------------------------------------------

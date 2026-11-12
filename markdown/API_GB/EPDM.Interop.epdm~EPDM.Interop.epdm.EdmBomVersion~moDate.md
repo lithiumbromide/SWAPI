@@ -35,5 +35,4 @@ System.DateTime moDate
 ## See Also
 
 [EdmBomVersion Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion.html)
-
 [EdmBomVersion Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomVersion_members.html)

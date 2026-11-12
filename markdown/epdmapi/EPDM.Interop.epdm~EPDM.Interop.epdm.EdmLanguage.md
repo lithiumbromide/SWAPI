@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLanguage.html"
 
 # EdmLanguage Enumeration
 
-Types of languages; used by
-
-[IEdmVault5::Language](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Language.html)
-
-.
+Types of languages; used by [IEdmVault5::Language](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Language.html).
 
 ## Syntax
 
@@ -53,6 +49,7 @@ public enum class EdmLanguage : public System.Enum
 | EdmLang_Canada | 0x4b = Canadian |
 | EdmLang_Catalan | 0x3 = Catalan |
 | EdmLang_Chinese | 0x4 = Chinese |
+| EdmLang_Chinese_Traditional | 0x7c04 = Chinese traditional |
 | EdmLang_Croatian | 0x1a = Croatian |
 | EdmLang_Czech | 0x5 = Czech |
 | EdmLang_Danish | 0x6 = Danish |

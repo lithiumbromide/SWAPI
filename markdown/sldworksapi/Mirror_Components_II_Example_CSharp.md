@@ -37,9 +37,7 @@ This example shows how to mirror components in an assembly.
  // NOTE: Because the model is used elsewhere, do not save any changes to it.
 ```
 
-//
-
----------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------
 
 ```vb
  using SolidWorks.Interop.sldworks;

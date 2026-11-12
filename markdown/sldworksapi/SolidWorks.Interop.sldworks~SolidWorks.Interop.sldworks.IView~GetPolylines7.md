@@ -51,44 +51,24 @@ System.Object^ GetPolylines7(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `CrossHatchOption`: - 0 = include crosshatch lines
 
-1 = exclude crosshatch lines
+  1 = exclude crosshatch lines
 
-2 = include only crosshatch lines
+  2 = include only crosshatch lines
 - `Polylines`: Array of doubles of the lines in the view
 
 ### Return Value
 
-Array of modeling
-
-[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-and
-
-[silhouette edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISilhouetteEdge.html)
-
-corresponding to polylines in the view
-
-ParamDesc
+Array of modeling [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) and [silhouette edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISilhouetteEdge.html) corresponding to polylines in the view
 
 ## VBA Syntax
 
-See
-
-[View::GetPolylines7](ms-its:sldworksapivb6.chm::/Sldworks~View~GetPolylines7.html)
-
-.
+See [View::GetPolylines7](ms-its:sldworksapivb6.chm::/Sldworks~View~GetPolylines7.html).
 
 ## Examples
 
@@ -96,7 +76,7 @@ See
 
 ## Remarks
 
-The difference between this method and[IView::GetPolyLinesAndCurves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetPolyLinesAndCurves.html)and[IView::IGetPolyLinesAndCurves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolyLinesAndCurves.html)is that splines and ellipses returned by these methods are returned as equation parameters, which are more precise definitions.
+The difference between this method and [IView::GetPolyLinesAndCurves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetPolyLinesAndCurves.html) and [IView::IGetPolyLinesAndCurves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetPolyLinesAndCurves.html) is that splines and ellipses returned by these methods are returned as equation parameters, which are more precise definitions.
 
 This method returns data for all visible solid model edges in the drawing view. This includes these types of edges:
 
@@ -110,8 +90,6 @@ NOTE: If the view contains silhouette edges, then the polylines that render them
 
 This method also lets you include or exclude crosshatch lines. This method does not return data for sketch segments added by a user in the drawing view.
 
-(Table)=========================================================
-
 | To get... | Call... |
 | --- | --- |
 | Size of array needed to hold this data | IView::GetPolylineCount5 |
@@ -119,33 +97,31 @@ This method also lets you include or exclude crosshatch lines. This method does 
 
 Format of the return value is the following array of doubles:
 
-[Type, GeomDataSize, GeomData[ ], LineColor, LineStyle, LineFont, LineWeight, LayerID, LayerOverride, NumPolyPoints, [x,y,z]]
+[ Type, GeomDataSize, GeomData[ ], LineColor, LineStyle, LineFont, LineWeight, LayerID, LayerOverride, NumPolyPoints, [x,y,z] ]
 
 where:
 
-Type=underlying geometry type, possible values are:
+Type = underlying geometry type, possible values are:
 
-GeomDataSize= number of elements in theGeomDataarray, for Type = 0 this will be 0.
+GeomDataSize = number of elements in the GeomData array, for Type = 0 this will be 0.
 
-GeomData[ ]= geometric data that can be used to represent the underlying geometry type. The data returned in this array is based on the underlying geometry type:
+GeomData[ ] = geometric data that can be used to represent the underlying geometry type. The data returned in this array is based on the underlying geometry type:
 
-LineColor= polyline color. This value is determined either by the explicitly set value or by the layer that the polyline is on.
+LineColor = polyline color. This value is determined either by the explicitly set value or by the layer that the polyline is on.
 
-LineStyle= value combines polyline font and weight information. This value can be used as an input to GetLineFontInfo and GetLineFontName. If this value is -1, then the user has probably modified the line display manually in the drawing and you should use the LineFont and LineWeight return values to recreate the exact polyline style.
+LineStyle = value combines polyline font and weight information. This value can be used as an input to GetLineFontInfo and GetLineFontName. If this value is -1, then the user has probably modified the line display manually in the drawing and you should use the LineFont and LineWeight return values to recreate the exact polyline style.
 
-LineFont= value is used for polyline font information. This value can be used as an input to the GetLineFontInfo2 and GetLineFontName2 functions. This value will only be valid if LineStyle is -1.
+LineFont = value is used for polyline font information. This value can be used as an input to the GetLineFontInfo2 and GetLineFontName2 functions. This value will only be valid if LineStyle is -1.
 
-LineWeight= polyline weight where Thin = 0.0, Normal = 1.0, Thick = 2.0. This value will only be valid if LineStyle is -1.
+LineWeight = polyline weight where Thin = 0.0, Normal = 1.0, Thick = 2.0. This value will only be valid if LineStyle is -1.
 
-LayerID= integer value indicating which layer holds this polyline. The[ILayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayer.html)object can be obtained by passing this integer value to[ILayerMgr::GetLayerById](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~GetLayerById.html)and[ILayerMgr::IGetLayerById](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~IGetLayerById.html).
+LayerID = integer value indicating which layer holds this polyline. The [ILayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayer.html) object can be obtained by passing this integer value to [ILayerMgr::GetLayerById](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~GetLayerById.html) and [ILayerMgr::IGetLayerById](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~IGetLayerById.html).
 
-LayerOverride= integer with bit flags set to determine which properties, if any, have been overridden with respect to the Layer default properties. If the bit value is set, then the specific property or properties have been overridden. The bit indicators are: color = 0x1, style = 0x2, and width = 0x4. Therefore, if LayerOverride was returned as 3, you know the color and style have been specifically set for this item and may not match the default values associated with this item's layer.
+LayerOverride = integer with bit flags set to determine which properties, if any, have been overridden with respect to the Layer default properties. If the bit value is set, then the specific property or properties have been overridden. The bit indicators are: color = 0x1, style = 0x2, and width = 0x4. Therefore, if LayerOverride was returned as 3, you know the color and style have been specifically set for this item and may not match the default values associated with this item's layer.
 
-NumPolyPoints= number of XYZ points found in the [x,y,z] return value
+NumPolyPoints = number of XYZ points found in the [x,y,z] return value
 
-[x,y,z]= array of points used to describe the polyline. This array has NumPolyPoints points. This data will be returned for every polyline regardless ofType.
-
-(Table)=========================================================
+[x,y,z] = array of points used to describe the polyline. This array has NumPolyPoints points. This data will be returned for every polyline regardless of Type.
 
 | If... | Then... |
 | --- | --- |
@@ -156,13 +132,9 @@ NumPolyPoints= number of XYZ points found in the [x,y,z] return value
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetDisplayMode2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDisplayMode2.html)
-
 [IView::GetPolyLinesAndCurvesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetPolyLinesAndCurvesCount.html)
-
 [IView::IGetPolylines7 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetPolylines7.html)
 
 ## Availability

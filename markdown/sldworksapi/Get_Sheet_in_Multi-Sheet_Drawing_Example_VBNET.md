@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Sheet_in_Multi-Sheet_Drawing_Example_VBNET.htm"
 
 # Get Sheet in Multi-Sheet Drawing Example (VB.NET)
 
-This example shows how to get each sheet in a multi-sheet drawing regardless
-whether the sheetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}is
-loaded.
+This example shows how to get each sheet in a multi-sheet drawing regardless whether the sheet is loaded.
 
 ```
 '----------------------------------------------------------------------
@@ -38,40 +36,40 @@ Imports System.Diagnostics
 
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub main()
+    Public Sub main()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swDraw As DrawingDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim vSheetName As Object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim i As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim bRet As Boolean
+        Dim swModel As ModelDoc2
+        Dim swDraw As DrawingDoc
+        Dim vSheetName As Object
+        Dim i As Integer
+        Dim bRet As Boolean
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDraw = swModel
+        swModel = swApp.ActiveDoc
+        swDraw = swModel
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get the sheets in the drawing document
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}vSheetName = swDraw.GetSheetNames
+        ' Get the sheets in the drawing document
+        vSheetName = swDraw.GetSheetNames
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Traverse the drawing sheets and determine whether
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' they're loaded
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}For i = 0 To UBound(vSheetName)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}bRet = swDraw.ActivateSheet(vSheetName(i))
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Dim swSheet As Sheet
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swSheet = swDraw.Sheet(vSheetName(i))
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}'swSheet = swDraw.GetCurrentSheet
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}If (swSheet.IsLoaded) Then
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(vSheetName(i) & " is loaded.")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Else
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print(vSheetName(i) & " is not loaded.")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}End If
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Next i
+        ' Traverse the drawing sheets and determine whether
+        ' they're loaded
+        For i = 0 To UBound(vSheetName)
+            bRet = swDraw.ActivateSheet(vSheetName(i))
+            Dim swSheet As Sheet
+            swSheet = swDraw.Sheet(vSheetName(i))
+            'swSheet = swDraw.GetCurrentSheet
+            If (swSheet.IsLoaded) Then
+                Debug.Print(vSheetName(i) & " is loaded.")
+            Else
+                Debug.Print(vSheetName(i) & " is not loaded.")
+            End If
+        Next i
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+    ''' The SldWorks swApp variable is pre-assigned for you.
+    ''' </summary>
+    Public swApp As SldWorks
 
 End Class
 ```

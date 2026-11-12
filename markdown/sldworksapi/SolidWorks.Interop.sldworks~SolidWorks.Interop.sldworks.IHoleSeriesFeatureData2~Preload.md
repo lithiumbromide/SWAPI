@@ -42,33 +42,19 @@ property System.String^ Preload {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Preload informationParameterDesc
+Preload information
 
 ## VBA Syntax
 
-See
-
-[HoleSeriesFeatureData2::Preload](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData2~Preload.html)
-
-.
+See [HoleSeriesFeatureData2::Preload](ms-its:sldworksapivb6.chm::/sldworks~HoleSeriesFeatureData2~Preload.html).
 
 ## Examples
 
-See the examples in
-
-[IHoleSeriesFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2.html)
-
-.
+See the examples in [IHoleSeriesFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleSeriesFeatureData2.html).
 
 ## Remarks
 
@@ -77,7 +63,6 @@ The preload value is not available in the SOLIDWORKS Toolbox database.
 ## See Also
 
 [IHoleSeriesFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData2.html)
-
 [IHoleSeriesFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleSeriesFeatureData2_members.html)
 
 ## Availability

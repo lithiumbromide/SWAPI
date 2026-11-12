@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # ICWContactSet Interface Members
 
-The following tables list the members exposed by[ICWContactSet](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html).
+The following tables list the members exposed by [ICWContactSet](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html).
 
 ## Public Properties
 
@@ -57,11 +57,7 @@ The following tables list the members exposed by[ICWContactSet](SolidWorks.Inter
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWMultipleContactSetsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager.html)

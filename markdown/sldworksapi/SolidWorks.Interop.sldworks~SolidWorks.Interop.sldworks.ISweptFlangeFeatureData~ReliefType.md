@@ -45,27 +45,15 @@ property System.int ReliefType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Bend relief type as defined by
-
-[swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSheetMetalReliefTypes_e.html)
+Bend relief type as defined by [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSheetMetalReliefTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::ReliefType](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~ReliefType.html)
-
-.
+See [SweptFlangeFeatureData::ReliefType](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~ReliefType.html).
 
 ## Remarks
 
@@ -77,12 +65,11 @@ This property is valid:
 
 - for cylindrical or conical swept flanges only during creation.
 
-The setter of this property is valid only if[ISweptFlangeFeatureData::UseDefaultBendRelief](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseDefaultBendRelief.html)is false.
+The setter of this property is valid only if [ISweptFlangeFeatureData::UseDefaultBendRelief](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseDefaultBendRelief.html) is false.
 
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
 
 ## Availability

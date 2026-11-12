@@ -51,19 +51,11 @@ Number of mesh elements for selected beams
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::NumofElementsforBeams](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~NumofElementsforBeams.html)
-
-.
+See [CWMeshControl::NumofElementsforBeams](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~NumofElementsforBeams.html).
 
 ## Examples
 
-See the
-
-[ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
-examples.
+See the [ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html) examples.
 
 ## Remarks
 
@@ -72,13 +64,9 @@ This property is valid only for beams.
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
-
 [ICWMeshControl::ElementSize Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~ElementSize.html)
-
 [ICWMeshControl::UseSameElementSize Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~UseSameElementSize.html)
-
 [ICWMeshControl::BeamSelected Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~BeamSelected.html)
 
 ## Availability

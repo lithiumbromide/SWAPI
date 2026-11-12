@@ -57,22 +57,14 @@ Name of SOLIDWORKS ink markup
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::InkMarkupName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~InkMarkupName.html)
-
-.
+See [EModelViewControl::InkMarkupName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~InkMarkupName.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::ActivateInkMarkup Method ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ActivateInkMarkup.html)
-
 [IEModelViewControl::InkMarkupCount Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~InkMarkupCount.html)
-
 [IEModelViewControl::ShowInkMarkup Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowInkMarkup.html)
 
 ## Availability

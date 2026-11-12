@@ -44,30 +44,19 @@ property System.int CostingType {
 
 ### Property Value
 
-Costing type as defined in
-
-[swcCostType_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcCostingType_e.html)
+Costing type as defined in [swcCostType_e](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.swcCostingType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis::CostingType](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~CostingType.html)
-
-.
+See [CostAnalysis::CostingType](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis~CostingType.html).
 
 ## Remarks
 
-See
-
-[Getting Started](GettingStarted-swcostingapi.html)
-
-for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysis Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis.html)
-
 [ICostAnalysis Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis_members.html)
 
 ## Availability

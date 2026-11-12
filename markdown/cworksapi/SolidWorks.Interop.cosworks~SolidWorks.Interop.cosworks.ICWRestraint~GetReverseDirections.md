@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetReverseDirections Method (ICWRestraint)
 
-Obsolete. Superseded by[ICWRestraint::GetReverseDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetReverseDirections2.html).
+Obsolete. Superseded by [ICWRestraint::GetReverseDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetReverseDirections2.html).
 
 ## Syntax
 
@@ -68,43 +68,25 @@ void GetReverseDirections(
 
 ### Parameters
 
-- `BVal1`: 1 if plane direction 1 is reversed, 0 if not; valid only if BVal1 of
-
-[ICWRestraint::GetTranslationComponentsValues](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetTranslationComponentsValues.html)
-
-is set to 1
+- `BVal1`: 1 if plane direction 1 is reversed, 0 if not; valid only if BVal1 of [ICWRestraint::GetTranslationComponentsValues](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetTranslationComponentsValues.html) is set to 1
 - `BVal2`: 1 if plane direction 2 is reversed, 0 if not; valid only if BVal2 of ICWRestraint::GetTranslationComponentsValues is set to 1
 - `BVal3`: 1 if normal to the plane is reversed, 0 if not; valid only if BVal3 of ICWRestraint::GetTranslationComponentsValues is set to 1
-- `BVal4`: 1 if radial direction is reversed, 0 if not; valid only if BVal1 of
-
-[ICWRestraint::GetRotationComponentsValues](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetRotationComponentsValues.html)
-
-is set to 1
+- `BVal4`: 1 if radial direction is reversed, 0 if not; valid only if BVal1 of [ICWRestraint::GetRotationComponentsValues](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~GetRotationComponentsValues.html) is set to 1
 - `BVal5`: 1 if circumferential direction is reversed, 0 if not; valid only if BVal2 of ICWRestraint::GetRotationComponentsValues is set to 1
 - `BVal6`: 1 if axial direction is reversed, 0 if not; valid only if BVal3 of ICWRestraint::GetRotationComponentsValues is set to 1
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::GetReverseDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetReverseDirections.html)
-
-.
+See [CWRestraint::GetReverseDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetReverseDirections.html).
 
 ## Examples
 
-See the
-
-[ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
-examples.
+See the [ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html) examples.
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
-
 [ICWRestraint::SetReverseDirections Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~SetReverseDirections.html)
 
 ## Availability

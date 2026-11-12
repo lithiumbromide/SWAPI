@@ -44,30 +44,19 @@ property PDMWProperties^ AdminDefinedProperties {
 
 ### Property Value
 
-[IPDMWProperties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.html)
-
-collection
+[IPDMWProperties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.html) collection
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::AdminDefinedProperties](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~AdminDefinedProperties.html)
-
-.
+See [PDMWConnection::AdminDefinedProperties](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~AdminDefinedProperties.html).
 
 ## Remarks
 
-These properties are read-only.
-
-[IPDMWPropertes::Add](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Add.html)
-
-does nothing when used in this context.
+These properties are read-only. [IPDMWPropertes::Add](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Add.html) does nothing when used in this context.
 
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IDistanceMateFeatureData Interface Properties
 
-For a list of all members of this type, see[IDistanceMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData_members.html).
+For a list of all members of this type, see [IDistanceMateFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData_members.html).
 
 ## Public Properties
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[IDistanceMateFeatureData members](So
 ## See Also
 
 [IDistanceMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

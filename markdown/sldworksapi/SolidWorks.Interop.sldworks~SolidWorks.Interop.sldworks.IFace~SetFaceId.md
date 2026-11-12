@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # SetFaceId Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::SetFaceId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~SetFaceId.html)
-
-.
+Obsolete. Superseded by [IFace2::SetFaceId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~SetFaceId.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void SetFaceId(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face::SetFaceId](ms-its:sldworksapivb6.chm::/sldworks~Face~SetFaceId.html)
-
-.
+See [Face::SetFaceId](ms-its:sldworksapivb6.chm::/sldworks~Face~SetFaceId.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

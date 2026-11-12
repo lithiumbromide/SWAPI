@@ -50,35 +50,21 @@ void Expand(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ExpandType`: Type of item to expand as defined in
-
-[swBOMTableObjectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBOMTableObjectType_e.html)
+- `ExpandType`: Type of item to expand as defined in [swBOMTableObjectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swBOMTableObjectType_e.html)
 - `Index`: Row index; valid only if ExpandType is swBOMTableObjectType_e.swBOMTableObjectType_RowIndex
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::Expand](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~Expand.html)
-
-.
+See [BomTableAnnotation::Expand](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~Expand.html).
 
 ## Examples
 
 [Expand, Collapse, and Dissolve Subassembly in a BOM Table Example (VBA)](Dissolve_Subassembly_in_a_BOM_Table_Example_VB.htm)
-
 [Expand, Collapse, and Dissolve Subassembly in a BOM Table Example (VB.NET)](Dissolve_Subassembly_in_a_BOM_Table_Example_VBNET.htm)
-
 [Expand, Collapse, and Dissolve Subassembly in a BOM Table Example (C#)](Dissolve_Subassembly_in_a_BOM_Table_Example_CSharp.htm)
 
 ## Remarks
@@ -88,11 +74,8 @@ If ExpandType is swBOMTableObjectType_e.swBOMTableObjectType_CutList, then all c
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
-
 [IBomTableAnnotation::Collapse Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~Collapse.html)
-
 [IBomTableAnnotation::Dissolve Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~Dissolve.html)
 
 ## Availability

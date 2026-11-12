@@ -40,13 +40,7 @@ Feature GetLastFeatureAdded()
 Feature^ GetLastFeatureAdded();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetLastFeatureAdded](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetLastFeatureAdded.html)
-
-.
+See [ModelDocExtension::GetLastFeatureAdded](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetLastFeatureAdded.html).
 
 ## Remarks
 
-This method can access subfeature types such as mates, drawing views, and so on. For example, if you just added the first coincident mate to MateGroup, then Ikadov_tag{{<spaces>}}kadov_tag{{</spaces>}}ModelDocExtension::GetLastFeatureAdded will return Coincident1.kadov_tag{{<spaces>}}[IModelDoc2::FeatureByPositionReverse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FeatureByPositionReverse.html)and[IModelDoc2::IFeatureByPositionReverse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IFeatureByPositionReverse.html)will return MateGroup.
+This method can access subfeature types such as mates, drawing views, and so on. For example, if you just added the first coincident mate to MateGroup, then IModelDocExtension::GetLastFeatureAdded will return Coincident1. [IModelDoc2::FeatureByPositionReverse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~FeatureByPositionReverse.html) and [IModelDoc2::IFeatureByPositionReverse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~IFeatureByPositionReverse.html) will return MateGroup.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

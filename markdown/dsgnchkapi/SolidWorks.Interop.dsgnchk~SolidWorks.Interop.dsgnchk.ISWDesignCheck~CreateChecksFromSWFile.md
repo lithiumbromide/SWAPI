@@ -49,32 +49,20 @@ System.int CreateChecksFromSWFile(
 
 ### Parameters
 
-- `bstrSWFileName`: Full path name of an existing SOLIDWORKS document or template (
-
-see Remarks
-
-)
+- `bstrSWFileName`: Full path name of an existing SOLIDWORKS document or template (**see Remarks**)
 
 ### Return Value
 
-Error code as defined in
-
-[dsgnchkError_e](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.dsgnchkError_e.html)
+Error code as defined in [dsgnchkError_e](SOLIDWORKS.Interop.dsgnchk~SOLIDWORKS.Interop.dsgnchk.dsgnchkError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SWDesignCheck::CreateChecksFromSWFile](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~CreateChecksFromSWFile.html)
-
-.
+See [SWDesignCheck::CreateChecksFromSWFile](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~CreateChecksFromSWFile.html).
 
 ## Examples
 
 [Create Checks From Document Example (VBA)](Create_Checks_From_Document_Example_VB.htm)
-
 [Create Checks From Document Example (VB.NET)](Create_Checks_From_Document_Example_VBNET.htm)
-
 [Create Checks From Document Example (C#)](Create_Checks_From_Document_Example_CSharp.htm)
 
 ## Remarks
@@ -91,9 +79,7 @@ This method can build checks from any of the following types of document:
 ## See Also
 
 [ISWDesignCheck Interface](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck.html)
-
 [ISWDesignCheck Members](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck_members.html)
-
 [ISWDesignCheck::CheckAgainstExistingFile Method](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck~CheckAgainstExistingFile.html)
 
 ## Availability

@@ -51,20 +51,14 @@ System.int AddSpacer2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Position`: Position of the spacer within the CommandGroup
 
-NOTE:Specify 0 to add this a spacer to the beginning of the CommandGroup, or specify -1 to add it to the end of the CommandGroup. This argument specifies the position of the spacer in relation to its immediate parent item.
-- `MenuTBOption`: Command item type as defined in[swCommandItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCommandItemType_e.html)}}end!kadov
+  NOTE: Specify 0 to add this a spacer to the beginning of the CommandGroup, or specify -1 to add it to the end of the CommandGroup. This argument specifies the position of the spacer in relation to its immediate parent item.
+- `MenuTBOption`: Command item type as defined in [swCommandItemType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCommandItemType_e.html)
 
 ### Return Value
 
@@ -72,16 +66,11 @@ Index of the item within the CommandGroup as assigned by SOLIDWORKS
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::AddSpacer2](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~AddSpacer2.html)
-
-.
+See [CommandGroup::AddSpacer2](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~AddSpacer2.html).
 
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
 
 ## Availability

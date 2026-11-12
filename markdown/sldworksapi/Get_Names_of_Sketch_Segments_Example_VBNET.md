@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Names_of_Sketch_Segments_Example_VBNET.htm"
 
 # Get Names of Sketch Segments Example (VB.NET)
 
-This example shows how to get the names of the sketch segments in a sheet
-metal bend.
+This example shows how to get the names of the sketch segments in a sheet metal bend.
 
 ```vb
  '---------------------------------------------------------------------------

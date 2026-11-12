@@ -47,13 +47,7 @@ System.bool SetCurrentLayer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,11 +55,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::SetCurrentLayer](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~SetCurrentLayer.html)
-
-.
+See [DrawingDoc::SetCurrentLayer](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~SetCurrentLayer.html).
 
 ## Remarks
 
@@ -74,15 +64,10 @@ SOLIDWORKS creates subsequent items on the specified layer.
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::ChangeComponentLayer Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ChangeComponentLayer.html)
-
 [IDrawingDoc::CreateLayer Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~CreateLayer.html)
-
 [ILayer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer.html)
-
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
 
 ## Availability

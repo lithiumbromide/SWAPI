@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # GetBSurfParams Method (ISurface)
 
-Obsolete. Superseded by
-
-[ISurface::GetBSurfParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetBSurfParams2.html)
-
-.
+Obsolete. Superseded by [ISurface::GetBSurfParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~GetBSurfParams2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.Object^ GetBSurfParams(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Surface::GetBSurfParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetBSurfParams.html)
-
-.
+See [Surface::GetBSurfParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetBSurfParams.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)

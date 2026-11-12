@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # IncludeClearance Property (ICWContactComponent)
 
-Obsolete. Superseded by
-
-[ICWContactComponent::IncludeClearance2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~IncludeClearance2.html)
-
-.
+Obsolete. Superseded by [ICWContactComponent::IncludeClearance2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~IncludeClearance2.html).
 
 ## Syntax
 
@@ -55,30 +51,18 @@ property System.int IncludeClearance {
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::IncludeClearance](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~IncludeClearance.html)
-
-.
+See [CWContactComponent::IncludeClearance](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~IncludeClearance.html).
 
 ## Examples
 
-See the
-
-[ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
-examples.
+See the [ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html) examples.
 
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
-
 [ICWContactComponent::ClearanceValue Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ClearanceValue.html)
-
 [ICWContactComponent::ClearanceUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ClearanceUnit.html)
-
 [ICWContactComponent::IncludeShellEdgeSolidOrShellFace Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~IncludeShellEdgeSolidOrShellFace.html)
 
 ## Availability

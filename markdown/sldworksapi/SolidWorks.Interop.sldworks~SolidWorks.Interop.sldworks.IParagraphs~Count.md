@@ -42,13 +42,7 @@ property System.int Count {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,26 +50,16 @@ Number of paragraphs in the annotation
 
 ## VBA Syntax
 
-See
-
-[Paragraphs::Count](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~Count.html)
-
-.
+See [Paragraphs::Count](ms-its:sldworksapivb6.chm::/sldworks~Paragraphs~Count.html).
 
 ## Examples
 
-See the
-
-[IParagraphs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
-examples.
+See the [IParagraphs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html) examples.
 
 ## See Also
 
 [IParagraphs Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs.html)
-
 [IParagraphs Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs_members.html)
-
 [IParagraphs::CurrentParagraph Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParagraphs~CurrentParagraph.html)
 
 ## Availability

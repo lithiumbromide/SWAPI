@@ -63,39 +63,23 @@ System.Object^ CreateBoundaryHatch(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Angle`: Angle of the hatch if hatch is not solid
 - `Scale`: Scale factor for the hatch if hatch is not solid
 - `Color`: COLORREF value describing the color used for this hatch
-- `Hatchname`: Type or name of the hatch from the
-
-Sldwks.ptn
-
-file
+- `Hatchname`: Type or name of the hatch from the **Sldwks.ptn** file
 - `Layername`: Layer name for the hatch if a drawing document
 
 ### Return Value
 
-Array of
-
-[sketch hatches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchHatch.html)
+Array of [sketch hatches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchHatch.html)
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateBoundaryHatch](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateBoundaryHatch.html)
-
-.
+See [SketchManager::CreateBoundaryHatch](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateBoundaryHatch.html).
 
 ## Remarks
 
@@ -104,11 +88,8 @@ Before calling this method, select the closed sketch profile for the area hatch/
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::CreateRegionHatch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateRegionHatch.html)
-
 [IModelDoc2::InsertHatchedFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertHatchedFace.html)
 
 ## Availability

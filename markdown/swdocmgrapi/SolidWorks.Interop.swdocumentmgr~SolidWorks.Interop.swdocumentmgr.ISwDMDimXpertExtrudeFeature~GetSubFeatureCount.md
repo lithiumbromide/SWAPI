@@ -46,11 +46,7 @@ Number of sub-features in the extrude
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertExtrudeFeature::GetSubFeatureCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertExtrudeFeature~GetSubFeatureCount.html)
-
-.
+See [SwDMDimXpertExtrudeFeature::GetSubFeatureCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertExtrudeFeature~GetSubFeatureCount.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertExtrudeFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature.html)
-
 [ISwDMDimXpertExtrudeFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature_members.html)
 
 ## Availability

@@ -51,28 +51,17 @@ property System.double Cycles2 {
 
 ## VBA Syntax
 
-See
-
-[CWFatigueEvent::Cycles2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~Cycles2.html)
-
-.
+See [CWFatigueEvent::Cycles2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~Cycles2.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
-examples.
+See the [ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html) examples.
 
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueEvent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html)
-
 [ICWFatigueEvent::LoadingRatio Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent~LoadingRatio.html)
-
 [ICWFatigueEvent::LoadingType Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent~LoadingType.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertUntrimSurface Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertUntrimSurface2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertUntrimSurface2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertUntrimSurface2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertUntrimSurface2.html).
 
 ## Syntax
 
@@ -63,40 +59,22 @@ Feature^ InsertUntrimSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FaceUntrimType`: Untrim face as defined in
-
-[swFaceUntrimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFaceUntrimType_e.html)
-- `EdgeUntrimType`: Untrim edge as defined in
-
-[swEdgeUntrimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEdgeUntrimType_e.html)
+- `FaceUntrimType`: Untrim face as defined in [swFaceUntrimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFaceUntrimType_e.html)
+- `EdgeUntrimType`: Untrim edge as defined in [swEdgeUntrimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEdgeUntrimType_e.html)
 - `Distance`: Distance by which to untrim surface
 - `BMerge`: True to create a surface extension that merges with the original surface, false to create a new, separate surface body
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertUntrimSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertUntrimSurface.html)
-
-.
+See [FeatureManager::InsertUntrimSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertUntrimSurface.html).
 
 ## Remarks
 
@@ -105,9 +83,7 @@ You must preselect the face or the edges you want to untrim.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISurfaceExtendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData.html)
 
 ## Availability

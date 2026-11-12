@@ -46,16 +46,11 @@ Nominal composite distance-between dimension tolerance
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositeDistanceBetweenDimTol::GetNominalValueIntraFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeDistanceBetweenDimTol~GetNominalValueIntraFeature.html)
-
-.
+See [DimXpertCompositeDistanceBetweenDimTol::GetNominalValueIntraFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeDistanceBetweenDimTol~GetNominalValueIntraFeature.html).
 
 ## See Also
 
 [IDimXpertCompositeDistanceBetweenDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol.html)
-
 [IDimXpertCompositeDistanceBetweenDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeDistanceBetweenDimTol_members.html)
 
 ## Availability

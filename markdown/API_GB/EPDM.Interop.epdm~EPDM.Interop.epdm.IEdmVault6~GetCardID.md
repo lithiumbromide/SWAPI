@@ -45,9 +45,7 @@ System.int GetCardID(
 
 ### Parameters
 
-- `eType`: Type of card to get as defined in
-
-[EdmCardType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardType.html)
+- `eType`: Type of card to get as defined in [EdmCardType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardType.html)
 - `bsName`: Name of the card to get
 - `lFolderID`: ID of the folder in which the card is stored; 0 for search cards and template
 
@@ -57,7 +55,7 @@ Card ID; 0 if not found
 
 ## Remarks
 
-After calling this method, you can use the returned ID in calls to[IEdmVault5::GetObject](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject.html)or[IEdmVault6::CreateCardViewEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6~CreateCardViewEx.html).
+After calling this method, you can use the returned ID in calls to [IEdmVault5::GetObject](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetObject.html) or [IEdmVault6::CreateCardViewEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6~CreateCardViewEx.html).
 
 [Return codes:](ReturnCodes.htm)
 
@@ -67,7 +65,6 @@ After calling this method, you can use the returned ID in calls to[IEdmVault5::G
 ## See Also
 
 [IEdmVault6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6.html)
-
 [IEdmVault6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault6_members.html)
 
 ## Availability

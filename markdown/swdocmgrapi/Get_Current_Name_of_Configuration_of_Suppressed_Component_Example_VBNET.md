@@ -11,8 +11,7 @@ source: "swdocmgrapi/Get_Current_Name_of_Configuration_of_Suppressed_Component_E
 
 ## Get Current Name of Configuration of Suppressed Component Example (VB.NET)
 
-This example shows how to get the current name of the configuration of a
-suppressed component.
+This example shows how to get the current name of the configuration of a suppressed component.
 
 ```vb
 '----------------------------------------------------------------------------

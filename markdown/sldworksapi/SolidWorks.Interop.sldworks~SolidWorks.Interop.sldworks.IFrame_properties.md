@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFr
 
 # IFrame Interface Properties
 
-For a list of all members of this type, see[IFrame members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html).
+For a list of all members of this type, see [IFrame members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html).
 
 ## Public Properties
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IFrame members](SolidWorks.Interop.s
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

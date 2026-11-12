@@ -9,8 +9,7 @@ source: "API_GB/Notify_User_When_File_Changes_State_Example_VBNET.htm"
 
 # Notify User When File Changes State Example (VB.NET)
 
-This example shows how to create an add-in that pops up a message box when a file is
-approved.
+This example shows how to create an add-in that pops up a message box when a file is approved.
 
 ```vb
 '--------------------------------------------------------------------------------------

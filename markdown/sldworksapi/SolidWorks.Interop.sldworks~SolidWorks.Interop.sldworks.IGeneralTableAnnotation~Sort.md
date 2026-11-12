@@ -51,13 +51,7 @@ System.bool Sort(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,28 +64,21 @@ True if sorted successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[GeneralTableAnnotation::Sort](ms-its:sldworksapivb6.chm::/sldworks~GeneralTableAnnotation~Sort.html)
-
-.
+See [GeneralTableAnnotation::Sort](ms-its:sldworksapivb6.chm::/sldworks~GeneralTableAnnotation~Sort.html).
 
 ## Examples
 
 [Sort Table (VBA)](Sort_Table_Example_VB.htm)
-
 [Sort Table (VB.NET)](Sort_Table_Example_VBNET.htm)
-
 [Sort Table (C#)](Sort_Table_Example_CSharp.htm)
 
 ## Remarks
 
-See[Sorting Tables](sldworksapiprogguide.chm::/OVERVIEW/Sorting_Tables.htm)for more information.
+See [Sorting Tables](sldworksapiprogguide.chm::/OVERVIEW/Sorting_Tables.htm) for more information.
 
 ## See Also
 
 [IGeneralTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableAnnotation.html)
-
 [IGeneralTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableAnnotation_members.html)
 
 ## Availability

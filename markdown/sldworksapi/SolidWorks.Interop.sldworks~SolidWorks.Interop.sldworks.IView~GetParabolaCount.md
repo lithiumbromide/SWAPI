@@ -40,13 +40,7 @@ System.int GetParabolaCount()
 System.int GetParabolaCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of parabolas in the view
 
 ## VBA Syntax
 
-See
-
-[View::GetParabolaCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetParabolaCount.html)
-
-.
+See [View::GetParabolaCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetParabolaCount.html).
 
 ## Examples
 
@@ -67,9 +57,6 @@ See
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetParabolas2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetParabolas2.html)
-
 [IView::IGetParabolas2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetParabolas2.html)

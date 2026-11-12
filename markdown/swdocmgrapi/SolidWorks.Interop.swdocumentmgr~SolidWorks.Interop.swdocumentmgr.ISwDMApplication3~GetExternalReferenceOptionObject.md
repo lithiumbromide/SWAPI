@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetExternalReferenceOptionObject Method (ISwDMApplication3)
 
-Obsolete. Superseded by
-
-[IApplication4::GetExternalReferenceOptionObject2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication4~GetExternalReferenceOptionObject2.html)
-
-.
+Gets an ISwDMExternalReferenceOption object.
 
 ## Syntax
 
@@ -46,26 +42,16 @@ SwDMExternalReferenceOption^ GetExternalReferenceOptionObject();
 
 ### Return Value
 
-Pointer to an
-
-[ISwDMExternalReferenceOption](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption.html)
-
-object
+Pointer to an [ISwDMExternalReferenceOption](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption.html) object
 
 ## VBA Syntax
 
-See
-
-[SwDMApplication3::GetExternalReferenceOptionObject](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMApplication3~GetExternalReferenceOptionObject.html)
-
-.
+See [SwDMApplication3::GetExternalReferenceOptionObject](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMApplication3~GetExternalReferenceOptionObject.html).
 
 ## See Also
 
 [ISwDMApplication3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMApplication3.html)
-
 [ISwDMApplication3 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMApplication3_members.html)
-
 [ISwDMDocument15::GetExternalFeatureReferences Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument15~GetExternalFeatureReferences.html)
 
 ## Availability

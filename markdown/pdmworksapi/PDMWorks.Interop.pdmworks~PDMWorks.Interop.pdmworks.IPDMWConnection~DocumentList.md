@@ -57,24 +57,15 @@ Array of the list of documents belonging to the specified project
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::DocumentList](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~DocumentList.html)
-
-.
+See [PDMWConnection::DocumentList](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~DocumentList.html).
 
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
-
 [IPDMWConnection::Documents Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~Documents.html)
-
 [IPDMWProject::DocumentCount Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~DocumentCount.html)
-
 [IPDMWProject::DocumentList Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~DocumentList.html)
-
 [IPDMWProject::Documents Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~Documents.html)
 
 ## Availability

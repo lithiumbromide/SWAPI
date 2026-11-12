@@ -1,6 +1,5 @@
 ---
-title: "StructuralMemberGroup Object
-Members"
+title: "StructuralMemberGroup Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "StructuralMemberGroup_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~StructuralMemberGroup_members.html"
 ---
 
-# StructuralMemberGroup Object
-Members
+# StructuralMemberGroup Object Members
 
 ## Public Methods
 

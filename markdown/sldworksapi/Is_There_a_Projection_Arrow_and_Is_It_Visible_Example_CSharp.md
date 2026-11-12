@@ -42,54 +42,54 @@ using System.Diagnostics;
 
 namespace Visibleprojectionarrowcsharp.csproj
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}partial class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void Main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ModelDoc2 swModel;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ModelDocExtension swModelDocExt;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}DrawingDoc swDrawing;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}View swView;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ProjectionArrow swProjectionArrow;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}int typeDrawingView;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}bool boolstatus;
+    partial class SolidWorksMacro
+    {
+        public void Main()
+        {
+            ModelDoc2 swModel;
+            ModelDocExtension swModelDocExt;
+            DrawingDoc swDrawing;
+            View swView;
+            ProjectionArrow swProjectionArrow;
+            int typeDrawingView;
+            bool boolstatus;
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel = (ModelDoc2)swApp.ActiveDoc;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swDrawing = (DrawingDoc)swModel;
+            swModel = (ModelDoc2)swApp.ActiveDoc;
+            swDrawing = (DrawingDoc)swModel;
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModelDocExt = (ModelDocExtension)swModel.Extension;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}boolstatus = swDrawing.ActivateView("Drawing View2");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}boolstatus = swModelDocExt.SelectByID2("Drawing View2", "DRAWINGVIEW", 0.4426278247583, 0.3837831481976, 0, false, 0, null, 0);
+            swModelDocExt = (ModelDocExtension)swModel.Extension;
+            boolstatus = swDrawing.ActivateView("Drawing View2");
+            boolstatus = swModelDocExt.SelectByID2("Drawing View2", "DRAWINGVIEW", 0.4426278247583, 0.3837831481976, 0, false, 0, null, 0);
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swView = (View)swDrawing.ActiveDrawingView;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}typeDrawingView = swView.Type;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (typeDrawingView == 4)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Type of selected drawing view is projected.");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Type of selected drawing view is not projected. Exiting macro.");
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}return;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
+            swView = (View)swDrawing.ActiveDrawingView;
+            typeDrawingView = swView.Type;
+            if (typeDrawingView == 4)
+            {
+                Debug.Print("Type of selected drawing view is projected.");
+            }
+            else
+            {
+                Debug.Print("Type of selected drawing view is not projected. Exiting macro.");
+                return;
+            }
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swProjectionArrow = (ProjectionArrow)swView.GetProjectionArrow();
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if ((swProjectionArrow != null))
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("Projection arrow visible: " + swProjectionArrow.Visible);
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Debug.Print("No projection arrow in projected view.");
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
+            swProjectionArrow = (ProjectionArrow)swView.GetProjectionArrow();
+            if ((swProjectionArrow != null))
+            {
+                Debug.Print("Projection arrow visible: " + swProjectionArrow.Visible);
+            }
+            else
+            {
+                Debug.Print("No projection arrow in projected view.");
+            }
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
+        }
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// <summary>
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// </summary>
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SldWorks swApp;
+        /// <summary>
+        /// The SldWorks swApp variable is pre-assigned for you.
+        /// </summary>
+        public SldWorks swApp;
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+    }
 }
 ```

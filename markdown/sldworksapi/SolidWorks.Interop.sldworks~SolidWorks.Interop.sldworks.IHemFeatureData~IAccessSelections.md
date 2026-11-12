@@ -51,26 +51,12 @@ System.bool IAccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top-level document (see
-
-Remarks
-
-)
-- `Component`: Component in which the feature is to be modified (see
-
-Remarks
-
-)
+- `TopDoc`: Top-level document (see **Remarks**)
+- `Component`: Component in which the feature is to be modified (see **Remarks**)
 
 ### Return Value
 
@@ -78,11 +64,7 @@ True if the selections were successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[HemFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~IAccessSelections.html)
-
-.
+See [HemFeatureData::IAccessSelections](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~IAccessSelections.html).
 
 ## Remarks
 
@@ -93,19 +75,13 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [IHemFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHemFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [IHemFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHemFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IHemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html)
-
 [IHemFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData_members.html)
-
 [IHemFeatureData::AccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData~AccessSelections.html)
 
 ## Availability

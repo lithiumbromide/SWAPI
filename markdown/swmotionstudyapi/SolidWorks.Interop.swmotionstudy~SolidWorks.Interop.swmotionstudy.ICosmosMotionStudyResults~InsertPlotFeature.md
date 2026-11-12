@@ -67,24 +67,17 @@ System.Object^ InsertPlotFeature(
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyResults::InsertPlotFeature](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyResults~InsertPlotFeature.html)
-
-.
+See [CosmosMotionStudyResults::InsertPlotFeature](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyResults~InsertPlotFeature.html).
 
 ## Examples
 
 [Create Plots and Get Values (C#)](Create_Plots_and_Get_Values_Example_CSharp.htm)
-
 [Create Plots and Get Values (VB.NET)](Create_Plots_and_Get_Values_Example_VBNET.htm)
-
 [Create Plots and Get Values (VBA)](Create_Plots_and_Get_Values_Example_VB.htm)
 
 ## See Also
 
 [ICosmosMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults.html)
-
 [ICosmosMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults_members.html)
 
 ## Availability

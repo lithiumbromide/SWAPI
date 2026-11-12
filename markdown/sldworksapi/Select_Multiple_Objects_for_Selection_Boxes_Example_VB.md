@@ -9,18 +9,16 @@ source: "sldworksapi/Select_Multiple_Objects_for_Selection_Boxes_Example_VB.htm"
 
 # Select Multiple Objects for Selection Boxes Example (VBA)
 
-This example shows how to select multiple
-objects and add the selected objects to different selection boxes on a
-PropertyManager page.
+This example shows how to select multiple objects and add the selected objects to different selection boxes on a PropertyManager page.
 
 ```vb
 '--------------------------------------------------------------------------
  ' Preconditions:
- ' kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}1. Copy Modules - main to your project.
- ' kadov_tag{{<spaces>}}2. Insert a class module and copy Class Modules - clsPropMgr to that module.
+ ' 1. Copy Modules - main to your project.
+ ' 2. Insert a class module and copy Class Modules - clsPropMgr to that module.
  ' 3. Rename the class module to clsPropMgr.
- ' kadov_tag{{<spaces>}}3. Add swpublished.tlb to your project (click   Tools > References >
- ' kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}SOLIDWORKS version exposed type libraries for add-in use).
+ ' 3. Add swpublished.tlb to your project (click   Tools > References >
+ '    SOLIDWORKS version exposed type libraries for add-in use).
  ' 4. Verify that the specified assembly exists.
  '
  ' Postconditions:
@@ -32,7 +30,7 @@ PropertyManager page.
  ' 4. Close the PropertyManager page.
  '
  ' NOTE: Because the assembly document is used elsewhere,
- ' kadov_tag{{<spaces>}}do not save changes.
+ ' do not save changes.
  '----------------------------------------------------------------------------
  'Modules - main
 ```

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIm
 
 # SetBody Method (IImportedCurveFeatureData)
 
-Modifies the wire body
-
-}}end!kadov
-
-for this imported curve feature.
+Modifies the wire body for this imported curve feature.
 
 ## Syntax
 
@@ -50,25 +46,15 @@ void SetBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DispBody`: Wire[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `DispBody`: Wire [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[ImportedCurveFeatureData::SetBody](ms-its:sldworksapivb6.chm::/sldworks~ImportedCurveFeatureData~SetBody.html)
-
-.
+See [ImportedCurveFeatureData::SetBody](ms-its:sldworksapivb6.chm::/sldworks~ImportedCurveFeatureData~SetBody.html).
 
 ## Remarks
 
@@ -80,12 +66,11 @@ The following methods create wire bodies:
 - [ICurve::CreateWireBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~CreateWireBody.html)
 - [IModeler::CreateWireBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateWireBody.html)
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IImportedCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportedCurveFeatureData.html)
-
 [IImportedCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportedCurveFeatureData_members.html)
 
 ## Availability

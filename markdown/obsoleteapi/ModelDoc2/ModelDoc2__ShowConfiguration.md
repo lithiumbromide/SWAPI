@@ -9,23 +9,17 @@ source: "obsoleteapi/ModelDoc2/ModelDoc2__ShowConfiguration.htm"
 
 # ModelDoc2::ShowConfiguration
 
-This
-method is obsolete and has been superseded by[ModelDoc2::ShowConfiguration2](sldworksAPI.chm::/ModelDoc2/ModelDoc2__ShowConfiguration2.htm).
+This method is obsolete and has been superseded by [ModelDoc2::ShowConfiguration2](sldworksAPI.chm::/ModelDoc2/ModelDoc2__ShowConfiguration2.htm).
 
 Description
 
 This method displays the named configuration.
 
-NOTE:Configurations save certain
-display characteristics with each of the assembly components. This methodkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}retrieves
-a previously saved configuration.
+NOTE: Configurations save certain display characteristics with each of the assembly components. This method retrieves a previously saved configuration.
 
 Syntax (OLE Automation)
 
-retval = ModelDoc2.ShowConfiguration
-( configurationName)
-
-(Table)=========================================================
+retval = ModelDoc2.ShowConfiguration ( configurationName)
 
 | Input: | (BSTR) configurationName | Name of the configuration to display |
 | --- | --- | --- |
@@ -33,67 +27,10 @@ retval = ModelDoc2.ShowConfiguration
 
 Syntax (COM)
 
-status = ModelDoc2->ShowConfiguration
-( configurationName )
-
-(Table)=========================================================
+status = ModelDoc2->ShowConfiguration ( configurationName )
 
 | Input: | (BSTR) configurationName | Name of the configuration to display |
 | --- | --- | --- |
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001Plus$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2003\ModelDoc2\ModelDoc2__ShowConfiguration.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ModelDoc2_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2003\ModelDoc2\ModelDoc2__ShowConfiguration.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan

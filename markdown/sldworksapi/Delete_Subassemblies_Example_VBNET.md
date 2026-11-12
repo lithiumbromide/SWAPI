@@ -9,8 +9,7 @@ source: "sldworksapi/Delete_Subassemblies_Example_VBNET.htm"
 
 # Delete Subassemblies Example (VB.NET)
 
-This example shows how to delete the subassembly
-in which the selected subassembly is a component.
+This example shows how to delete the subassembly in which the selected subassembly is a component.
 
 ```
 '------------------------------------------------------------------

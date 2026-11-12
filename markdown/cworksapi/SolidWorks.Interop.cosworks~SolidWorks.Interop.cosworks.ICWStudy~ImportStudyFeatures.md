@@ -72,13 +72,9 @@ System.bool ImportStudyFeatures(
 - `SComponent`: Name of the assembly component from whose study to import study features
 - `SStudy`: Name of SComponent's study from which to import study features
 - `SConfig`: Name of SComponent's configuration
-- `NFilter`: Study features to import as defined in
-
-[swsImportStudyFeaturesFilterType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsImportStudyFeaturesErrorCode_e.html)
+- `NFilter`: Study features to import as defined in [swsImportStudyFeaturesFilterType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsImportStudyFeaturesErrorCode_e.html)
 - `BPropagate`: True to propagate imported study features to components in this study that are similar to SComponent, false to not
-- `ErrorCode`: Result code as defined in
-
-[swsImportStudyFeaturesErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsImportStudyFeaturesErrorCode_e.html)
+- `ErrorCode`: Result code as defined in [swsImportStudyFeaturesErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsImportStudyFeaturesErrorCode_e.html)
 
 ### Return Value
 
@@ -86,16 +82,11 @@ VARIANT_TRUE (-1) if successful, VARIANT_FALSE (0) if not
 
 ## VBA Syntax
 
-See
-
-[CWStudy::ImportStudyFeatures](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~ImportStudyFeatures.html)
-
-.
+See [CWStudy::ImportStudyFeatures](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~ImportStudyFeatures.html).
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

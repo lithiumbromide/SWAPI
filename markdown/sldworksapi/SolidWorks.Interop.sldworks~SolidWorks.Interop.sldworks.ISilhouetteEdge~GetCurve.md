@@ -40,13 +40,7 @@ Curve GetCurve()
 Curve^ GetCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[SilhouetteEdge::GetCurve](ms-its:sldworksapivb6.chm::/Sldworks~SilhouetteEdge~GetCurve.html)
-
-.
+See [SilhouetteEdge::GetCurve](ms-its:sldworksapivb6.chm::/Sldworks~SilhouetteEdge~GetCurve.html).
 
 ## Remarks
 
@@ -67,11 +57,8 @@ After getting the curve, then you can create annotations on that curve.
 ## See Also
 
 [ISilhouetteEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge.html)
-
 [ISilhouetteEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge_members.html)
-
 [ISilhouetteEdge::GetEndPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge~GetEndPoint.html)
-
 [ISilhouetteEdge::GetStartPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISilhouetteEdge~GetStartPoint.html)
 
 ## Availability

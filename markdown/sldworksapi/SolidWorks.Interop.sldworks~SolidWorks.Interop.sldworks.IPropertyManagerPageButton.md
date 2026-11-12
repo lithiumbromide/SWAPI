@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPropertyManagerPageButton Interface
 
-Allows you to access a
+Allows you to access a [PropertyManager page](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2.html) button control.
 
-[PropertyManager page](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2.html)
-
-button control.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,35 +41,23 @@ public interface class IPropertyManagerPageButton
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageButton](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageButton.html)
-
-.
+See [PropertyManagerPageButton](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageButton.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPage2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
-examples.
+See the [IPropertyManagerPage2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html) examples.
 
 ## Remarks
 
 Users can resize PropertyManager pages horizontally in SOLIDWORKS 2006 and later. This change in functionality affects the appearance of the buttons on PropertyManager pages created in SOLIDWORKS 2005 and earlier.
 
-In SOLIDWORKS 2005 and earlier,kadov_tag{{</spaces>}}buttons remained aligned vertically at an indented position when a user resized a PropertyManager page. In most instances, these buttons are now centered when a user resizes a PropertyManager page. However, if a button on a PropertyManager page was aligned at the very left edge of the page and it was the only button on that line, then it is assumed that it was intentionally placed at that position and it will stay at that position if a user resizes the page. Any text on the button will also be left justified inside the button. If a button has a bitmap as its label, then the button remains next to the label instead of being centered.
+In SOLIDWORKS 2005 and earlier, buttons remained aligned vertically at an indented position when a user resized a PropertyManager page. In most instances, these buttons are now centered when a user resizes a PropertyManager page. However, if a button on a PropertyManager page was aligned at the very left edge of the page and it was the only button on that line, then it is assumed that it was intentionally placed at that position and it will stay at that position if a user resizes the page. Any text on the button will also be left justified inside the button. If a button has a bitmap as its label, then the button remains next to the label instead of being centered.
 
-See[Using PropertyManagerPage2 and the Related Objects](sldworksapiprogguide.chm::/overview/Using_PropertyManagerPage2_and_the_Related_Objects.htm)for more information.
+See [Using PropertyManagerPage2 and the Related Objects](sldworksapiprogguide.chm::/overview/Using_PropertyManagerPage2_and_the_Related_Objects.htm) for more information.
 
 ## Accessors
 
-[IPropertyManagerPage2::AddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html)
-
-and
-
-[IPropertyManagerPage2::IAddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html)
+[IPropertyManagerPage2::AddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~AddControl.html) and [IPropertyManagerPage2::IAddControl](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~IAddControl.html)
 
 ## Access Diagram
 
@@ -82,5 +66,4 @@ and
 ## See Also
 
 [IPropertyManagerPageButton Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageButton_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

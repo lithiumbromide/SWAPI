@@ -48,22 +48,15 @@ void SetPreservedContactConnectorSetting(
 
 ### Parameters
 
-- `NPreservedContactConnectorSetting`: Preserved contacts and connectors setting as defined in
-
-[swsTopologyPreservedContactConnectorOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyPreservedContactConnectorOption_e.html)
+- `NPreservedContactConnectorSetting`: Preserved contacts and connectors setting as defined in [swsTopologyPreservedContactConnectorOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyPreservedContactConnectorOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyOptions::SetPreservedContactConnectorSetting](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyOptions~SetPreservedContactConnectorSetting.html)
-
-.
+See [CWTopologyStudyOptions::SetPreservedContactConnectorSetting](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyOptions~SetPreservedContactConnectorSetting.html).
 
 ## See Also
 
 [ICWTopologyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions.html)
-
 [ICWTopologyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyOptions_members.html)
 
 ## Availability

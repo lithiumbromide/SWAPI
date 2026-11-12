@@ -58,22 +58,15 @@ System.Object^ GetAngularVelocity(
 
 ### Return Value
 
-Angular velocity
-
-[vector](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~Solidworks.Interop.sldworks.IMathVector.html)
+Angular velocity [vector](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~Solidworks.Interop.sldworks.IMathVector.html)
 
 ## VBA Syntax
 
-See
-
-[MotionStudyResults::GetAngularVelocity](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetAngularVelocity.html)
-
-.
+See [MotionStudyResults::GetAngularVelocity](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetAngularVelocity.html).
 
 ## See Also
 
 [IMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults.html)
-
 [IMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults_members.html)
 
 ## Availability

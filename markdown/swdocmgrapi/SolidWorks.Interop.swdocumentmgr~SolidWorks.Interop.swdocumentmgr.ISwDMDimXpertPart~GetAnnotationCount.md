@@ -46,11 +46,7 @@ Number of annotations
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertPart::GetAnnotationCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPart~GetAnnotationCount.html)
-
-.
+See [SwDMDimXpertPart::GetAnnotationCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertPart~GetAnnotationCount.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertPart Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart.html)
-
 [ISwDMDimXpertPart Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertPart_members.html)
 
 ## Availability

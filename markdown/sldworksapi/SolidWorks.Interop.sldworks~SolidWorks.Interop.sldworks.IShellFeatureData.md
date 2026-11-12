@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 Allows access to a shell feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,17 @@ public interface class IShellFeatureData
 
 ## VBA Syntax
 
-See
-
-[ShellFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ShellFeatureData.html)
-
-.
+See [ShellFeatureData](ms-its:sldworksapivb6.chm::/sldworks~ShellFeatureData.html).
 
 ## Examples
 
 [Create Shell Feature (VBA)](Get_Shell_Feature_Data_Example_VB.htm)
-
 [Create Shell Feature (VB.NET)](Create_Shell_Feature_Example_VBNET.htm)
-
 [Create Shell Feature (C#)](Create_Shell_Feature_Example_CSharp.htm)
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)and[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html) and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 ## Access Diagram
 
@@ -66,7 +60,5 @@ See
 ## See Also
 
 [IShellFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertFeatureShell Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertFeatureShell.html)

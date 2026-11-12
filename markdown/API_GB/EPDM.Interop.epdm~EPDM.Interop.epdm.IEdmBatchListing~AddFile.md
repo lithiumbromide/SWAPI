@@ -55,7 +55,7 @@ void AddFile(
 
 ## Remarks
 
-After calling this method for each file whose properties you want to list, call[IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html)to create a listing for all the files.
+After calling this method for each file whose properties you want to list, call [IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html) to create a listing for all the files.
 
 [Return codes](ReturnCodes.htm):
 
@@ -65,7 +65,6 @@ After calling this method for each file whose properties you want to list, call[
 ## See Also
 
 [IEdmBatchListing Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing.html)
-
 [IEdmBatchListing Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing_members.html)
 
 ## Availability

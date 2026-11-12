@@ -49,54 +49,31 @@ System.int SetExtraFrequenciesUnit(
 
 ### Parameters
 
-- `NValue`: Units of extra frequencies as defined by
-
-[swsFrequencyUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyUnit_e.html)
+- `NValue`: Units of extra frequencies as defined by [swsFrequencyUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyUnit_e.html)
 
 ### Return Value
 
-Error code as defined by
-
-[swsDynamicExtraFrequenciesError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDynamicExtraFrequenciesError_e.html)
+Error code as defined by [swsDynamicExtraFrequenciesError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDynamicExtraFrequenciesError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::SetExtraFrequenciesUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~SetExtraFrequenciesUnit.html)
-
-.
+See [CWDynamicStudyOptions::SetExtraFrequenciesUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~SetExtraFrequenciesUnit.html).
 
 ## Remarks
 
 This method:
 
-- is valid only if
+- is valid only if [ICWDynamicStudyOptions::GetIncludeExtraFrequencies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetIncludeExtraFrequencies.html) is true.
 
-  [ICWDynamicStudyOptions::GetIncludeExtraFrequencies](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetIncludeExtraFrequencies.html)
-
-  is true.
-
-- sets the units for extra frequency points which can also be set using the dialog opened by
-
-  Simulation Study (RMB)
-
-  > Properties > Advanced > Extra points in addition to natural frequencies > Edit...
-
-  .
+- sets the units for extra frequency points which can also be set using the dialog opened by `Simulation Study (RMB)` **> Properties > Advanced > Extra points in addition to natural frequencies > Edit...**.
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::GetExtraFrequenciesUnit Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetExtraFrequenciesUnit.html)
-
 [ICWDynamicStudyOptions::SetExtraFrequencies Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetExtraFrequencies.html)
-
 [ICWDynamicStudyOptions::SetExtraFrequenciesTolerancePercentage Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetExtraFrequenciesTolerancePercentage.html)
-
 [ICWDynamicStudyOptions::SetIncludeExtraFrequencies Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetIncludeExtraFrequencies.html)
 
 ## Availability

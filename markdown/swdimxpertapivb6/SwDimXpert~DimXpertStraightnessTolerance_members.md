@@ -1,6 +1,5 @@
 ---
-title: "DimXpertStraightnessTolerance Object
-Members"
+title: "DimXpertStraightnessTolerance Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertStraightnessTolerance_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertStraightnessTolerance_members.html"
 ---
 
-# DimXpertStraightnessTolerance Object
-Members
+# DimXpertStraightnessTolerance Object Members
 
 ## Public Methods
 

@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Table_Anchors_Example_VBNET.htm"
 
 # Set Table Anchors in Sheet Formats Example (VB.NET)
 
-This example shows how to set a hole table anchor in a sheet format of a
-drawing.
+This example shows how to set a hole table anchor in a sheet format of a drawing.
 
 ```vb
  '----------------------------------------------------------------------------

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # Evaluate Method (IEdge)
 
-Obsolete. Superseded by
-
-[IEdge::Evaluate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~Evaluate2.html)
-
-.
+Obsolete. Superseded by [IEdge::Evaluate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~Evaluate2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ Evaluate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,15 +55,11 @@ See
 
 ### Return Value
 
-Array values containing the x,y,z value and derivative of the edge (see**Remarks**)
+Array values containing the x,y,z value and derivative of the edge (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Edge::Evaluate](ms-its:sldworksapivb6.chm::/sldworks~Edge~Evaluate.html)
-
-.
+See [Edge::Evaluate](ms-its:sldworksapivb6.chm::/sldworks~Edge~Evaluate.html).
 
 ## Examples
 
@@ -81,24 +67,26 @@ See
 
 ## Remarks
 
-Use[IEdge::GetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetCurveParams2.html)or[IEdge::IGetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IEvaluate.html)to determine the valid parameter range for this method.
+Use [IEdge::GetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetCurveParams2.html) or [IEdge::IGetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IEvaluate.html) to determine the valid parameter range for this method.
 
 This OLE implementation of this method returns an array of doubles as follows:
 
-[PointX, PointY, PointZ, TangentX, TangentY, TangentZ, Success]
+```vb
+[ PointX, PointY, PointZ, TangentX, TangentY, TangentZ, Success ]
+```
 
-where the point values are in meters andSuccessis True if successful and false if not.
+where the point values are in meters and Success is True if successful and false if not.
 
 The return value for the COM implementation is different. To determine success, check the HRESULT return value. The array is as follows:
 
-[PointX, PointY, PointZ, TangentX, TangentY, TangentZ]
+```vb
+[ PointX, PointY, PointZ, TangentX, TangentY, TangentZ ]
+```
 
 where the point values are specified in meters.
 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::IEvaluate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~IEvaluate.html)

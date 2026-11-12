@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Compound_Note_Example_VB.htm"
 
 # Create Compound Note Example (VBA)
 
-This example shows how to create a compound
-note in a drawing document.
+This example shows how to create a compound note in a drawing document.
 
 ```
 '----------------------------------------------------------

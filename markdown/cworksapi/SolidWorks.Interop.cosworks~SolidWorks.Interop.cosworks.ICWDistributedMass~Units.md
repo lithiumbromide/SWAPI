@@ -47,30 +47,21 @@ property System.int Units {
 
 ### Property Value
 
-Units as defined by
-
-[swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
+Units as defined by [swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWDistributedMass::Units](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDistributedMass~Units.html)
-
-.
+See [CWDistributedMass::Units](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDistributedMass~Units.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWDistributedMass Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass.html)
-
 [ICWDistributedMass Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass_members.html)
 
 ## Availability

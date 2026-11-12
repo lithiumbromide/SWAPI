@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupSetting.html"
 
 # EdmGroupSetting Enumeration
 
-User group settings used by
-
-[IEdmUserGroup9::SetSettingsVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup9~SetSettingsVar.html)
-
-.
+User group settings used by [IEdmUserGroup9::SetSettingsVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup9~SetSettingsVar.html).
 
 ## Syntax
 

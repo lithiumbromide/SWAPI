@@ -40,25 +40,15 @@ System.double IGetWitnessLine()
 System.double IGetWitnessLine();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to array of six doubles (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to array of six doubles (see **Remarks**)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
@@ -66,7 +56,9 @@ As you drag a geometric tolerance leader off an entity, SOLIDWORKS dynamically b
 
 The return value is the following array of six doubles:
 
-[startPt[3], endPt[3]]
+```vb
+[ startPt[3], endPt[3] ]
+```
 
 where:
 
@@ -76,9 +68,7 @@ where:
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetWitnessLine Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetWitnessLine.html)
 
 ## Availability

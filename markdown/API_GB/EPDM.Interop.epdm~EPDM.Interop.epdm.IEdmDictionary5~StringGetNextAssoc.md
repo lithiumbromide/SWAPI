@@ -45,24 +45,15 @@ void StringGetNextAssoc(
 
 ### Parameters
 
-- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the next key-value pair (see
-
-Remarks
-
-)
+- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the next key-value pair (see **Remarks**)
 - `pbsRetKey`: Key in the next pair
 - `pbsRetValue`: Value in the next pair
 
 ## Examples
 
 [Change Card Variables Add-in (VB.NET)](Change_Card_Variables_Addin_Example_VBNET.htm)
-
 [Change Card Variables Add-in (C#)](Change_Card_Variables_Addin_Example_CSharp.htm)
-
 [Create and Delete Dictionaries (C#)](Create_and_Delete_Dictionaries_Example_CSharp.htm)
-
 [Create and Delete Dictionaries (VB.NET)](Create_and_Delete_Dictionaries_Example_VBNET.htm)
 
 ## Remarks
@@ -75,7 +66,7 @@ Before calling this method the first time, you must populate poPos with the inte
 
 After calling this method the first time, poPos is automatically incremented every time it is called. Call this method repeatedly to obtain the rest of the key-value pairs.
 
-Between calls, you should call[IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html)to verify that you have not gone past the last key-value pair.
+Between calls, you should call [IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html) to verify that you have not gone past the last key-value pair.
 
 C++ programmers must release the returned strings by calling SysFreeString.
 
@@ -87,9 +78,7 @@ C++ programmers must release the returned strings by calling SysFreeString.
 ## See Also
 
 [IEdmDictionary5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5.html)
-
 [IEdmDictionary5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5_members.html)
-
 [IEdmDictionary5::LongGetNextAssoc Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmDictionary5~LongGetNextAssoc.html)
 
 ## Availability

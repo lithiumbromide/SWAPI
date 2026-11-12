@@ -9,8 +9,7 @@ source: "sldworksapi/Hide_Feature_in_FeatureManager_Design_Tree_Example_VB.htm"
 
 # Hide Feature in FeatureManager Design Tree Example (VBA)
 
-This example shows how to hide the selected feature in the FeatureManager
-design tree.
+This example shows how to hide the selected feature in the FeatureManager design tree.
 
 ```
 '---------------------------------------------------

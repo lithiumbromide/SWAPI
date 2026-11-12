@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # UploadToMySolidWorksSettings Method (ISldWorks)
 
-Uploads the specified SOLIDWORKS Desktop settings to
-
-[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-.
+Uploads the specified SOLIDWORKS Design settings to [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.int UploadToMySolidWorksSettings(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,31 +65,19 @@ See
 
 ### Return Value
 
-Return code as defined by
-
-[swConnectedSyncSettingsErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swConnectedSyncSettingsErrors_e.html)
+Return code as defined by [swConnectedSyncSettingsErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swConnectedSyncSettingsErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::UploadToMySolidWorksSettings](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~UploadToMySolidWorksSettings.html)
-
-.
+See [SldWorks::UploadToMySolidWorksSettings](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~UploadToMySolidWorksSettings.html).
 
 ## Remarks
 
-In order to use this method, you must be logged into SOLIDWORKS Connected.
+In order to use this method, you must be logged into SOLIDWORKS Design connected to the 3DEXPERIENCE platform.
 
 To turn on auto synchronization of settings, call:
 
-- [ISldWorks::SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)
-
-  (
-
-  [swUserPreferenceToggle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html)
-
-  .swAutomaticSyncSettings, True)
+- [ISldWorks::SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)([swUserPreferenceToggle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html).swAutomaticSyncSettings, True)
 
 and then call one, two, or all three of:
 
@@ -107,14 +85,12 @@ and then call one, two, or all three of:
 - ISldWorks::SetUserPreferenceToggle(swUserPreferenceToggle_e.swAutoSyncSettingsToInclude_FileLocations, True)
 - ISldWorks::SetUserPreferenceToggle(swUserPreferenceToggle_e.swAutoSyncSettingsToInclude_Customizations, True)
 
-To get the timestamp of the last synchronization, call[ISldWorks::GetUserPreferenceStringValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetUserPreferenceStringValue.html)([swUserPreferenceStringValue_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringValue_e.html).swLastSynchronizationTimeStamp).
+To get the timestamp of the last synchronization, call [ISldWorks::GetUserPreferenceStringValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetUserPreferenceStringValue.html)([swUserPreferenceStringValue_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceStringValue_e.html).swLastSynchronizationTimeStamp).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::DownloadFromMySolidWorksSettings Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~DownloadFromMySolidWorksSettings.html)
 
 ## Availability

@@ -47,30 +47,19 @@ property System.int ShellFace {
 
 ### Property Value
 
-[swsShellFace_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsShellFace_e.html)
-
-.swsShellFace_Top or swsShellFace_e.swsShellFace_Bottom
+[swsShellFace_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsShellFace_e.html).swsShellFace_Top or swsShellFace_e.swsShellFace_Bottom
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::ShellFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~ShellFace.html)
-
-.
+See [CWFatigueStudyOptions::ShellFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~ShellFace.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
-examples.
+See the [ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html) examples.
 
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
 
 ## Availability

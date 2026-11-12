@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # GetSplineInterpolateCount Method (ISketchBlockDefinition)
 
-Gets the number of splines in the sketch block definition and the size of array required to hold the data for
-
-the interpolation of these splines.
+Gets the number of splines in the sketch block definition and the size of array required to hold the data for the interpolation of these splines.
 
 ## Syntax
 
@@ -49,13 +47,7 @@ System.int GetSplineInterpolateCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -67,34 +59,22 @@ Number of splines in this sketch block definition
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::GetSplineInterpolateCount](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetSplineInterpolateCount.html)
-
-.
+See [SketchBlockDefinition::GetSplineInterpolateCount](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetSplineInterpolateCount.html).
 
 ## Remarks
 
-The ArraySize value is intended to be used as the input ArraySize argument to[ISketchBlockDefinition::IGetSplinesInterpolate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetSplinesInterpolate.html).
+The ArraySize value is intended to be used as the input ArraySize argument to [ISketchBlockDefinition::IGetSplinesInterpolate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~IGetSplinesInterpolate.html).
 
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
-
 [ISketchBlockDefinition::GetSplineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetSplineCount.html)
-
 [ISketchBlockDefinition::GetSplineParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetSplineParams.html)
-
 [ISketchBlockDefinition::GetSplineParamsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetSplineParamsCount.html)
-
 [ISketchBlockDefinition::GetSplines2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetSplines2.html)
-
 [ISketchBlockDefinition::GetSplinesInterpolate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetSplinesInterpolate.html)
-
 [ISketchBlockDefinition::IGetSplineParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~IGetSplineParams.html)
-
 [ISketchBlockDefinition::IGetSplines2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~IGetSplines2.html)
 
 ## Availability

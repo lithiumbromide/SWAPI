@@ -40,13 +40,7 @@ System.bool HasFullOutline()
 System.bool HasFullOutline();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ True if the detail circle has a full outline in the detail view, false if not
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::HasFullOutline](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~HasFullOutline.html)
-
-.
+See [DetailCircle::HasFullOutline](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~HasFullOutline.html).
 
 ## Remarks
 
-This method is only available when
-
-[IDetailCircle::NoOutline](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~NoOutline.html)
-
-is false.
+This method is only available when [IDetailCircle::NoOutline](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~NoOutline.html) is false.
 
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::SetFullOutline Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~SetFullOutline.html)
 
 ## Availability

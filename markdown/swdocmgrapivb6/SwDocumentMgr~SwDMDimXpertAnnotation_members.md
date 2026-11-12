@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertAnnotation Object
-Members"
+title: "SwDMDimXpertAnnotation Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertAnnotation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertAnnotation_members.html"
 ---
 
-# SwDMDimXpertAnnotation Object
-Members
+# SwDMDimXpertAnnotation Object Members
 
 ## Public Methods
 

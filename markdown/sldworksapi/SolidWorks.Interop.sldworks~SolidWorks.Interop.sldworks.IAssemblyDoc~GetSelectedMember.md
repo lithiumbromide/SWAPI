@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # GetSelectedMember Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[ISelectionMgr::GetSelectedObject6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html)
-
-.
+Obsolete. Superseded by [ISelectionMgr::GetSelectedObject6](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetSelectedMember()
 System.Object^ GetSelectedMember();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::GetSelectedMember](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetSelectedMember.html)
-
-.
+See [AssemblyDoc::GetSelectedMember](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~GetSelectedMember.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

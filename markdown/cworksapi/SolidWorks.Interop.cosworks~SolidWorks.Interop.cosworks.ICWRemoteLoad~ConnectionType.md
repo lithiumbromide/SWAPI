@@ -43,17 +43,11 @@ property System.int ConnectionType {
 
 ### Property Value
 
-Connection type as defined by
-
-[swsRemoteLoadConnectionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadConnectionType_e.html)
+Connection type as defined by [swsRemoteLoadConnectionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadConnectionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::ConnectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~ConnectionType.html)
-
-.
+See [CWRemoteLoad::ConnectionType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~ConnectionType.html).
 
 ## Examples
 
@@ -61,14 +55,13 @@ See
 
 ## Requirements
 
-The property is valid only if[ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html)returns true.
+The property is valid only if [ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html) returns true.
 
-If you set this property to swsRemoteLoadConnectionType_e.swsRemoteLoadConnectionType_Distributed, then you should also set[ICWRemoteLoad::WeightingFactor](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~WeightingFactor.html).
+If you set this property to swsRemoteLoadConnectionType_e.swsRemoteLoadConnectionType_Distributed, then you should also set [ICWRemoteLoad::WeightingFactor](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~WeightingFactor.html).
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

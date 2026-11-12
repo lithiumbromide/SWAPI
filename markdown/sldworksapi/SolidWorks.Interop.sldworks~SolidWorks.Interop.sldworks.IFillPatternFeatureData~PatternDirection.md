@@ -45,13 +45,7 @@ property System.Object^ PatternDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ Direction reference for the pattern layout
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData::PatternDirection](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~PatternDirection.html)
-
-.
+See [FillPatternFeatureData::PatternDirection](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~PatternDirection.html).
 
 ## Remarks
 
-Before calling this property, call[IFillPatternFeatureData::PatternDirectionType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillPatternFeatureData~PatternDirectionType.html)to get the type of pattern direction reference returned by this property. If this property is not specified, SOLIDWORKS chooses an appropriate reference for the specified[IFillPatternFeatureData::PatternLayoutType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillPatternFeatureData~PatternLayoutType.html).
+Before calling this property, call [IFillPatternFeatureData::PatternDirectionType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillPatternFeatureData~PatternDirectionType.html) to get the type of pattern direction reference returned by this property. If this property is not specified, SOLIDWORKS chooses an appropriate reference for the specified [IFillPatternFeatureData::PatternLayoutType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillPatternFeatureData~PatternLayoutType.html).
 
 ## See Also
 
 [IFillPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
 
 ## Availability

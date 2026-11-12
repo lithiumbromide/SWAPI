@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData_members.htm
 
 # EdmAttributeData Structure Members
 
-The following tables list the members exposed by[EdmAttributeData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData.html).
+The following tables list the members exposed by [EdmAttributeData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData.html).
 
 ## Public Fields
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[EdmAttributeData](EPDM.Interop.
 ## See Also
 
 [EdmAttributeData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAttributeData.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

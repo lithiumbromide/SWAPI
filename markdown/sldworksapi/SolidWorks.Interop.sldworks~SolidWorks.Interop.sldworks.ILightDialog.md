@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILi
 
 Obtained from a LightingDialogCreateNotify event.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ILightDialog
 
 ## VBA Syntax
 
-See
-
-[LightDialog](ms-its:sldworksapivb6.chm::/sldworks~LightDialog.html)
-
-.
+See [LightDialog](ms-its:sldworksapivb6.chm::/sldworks~LightDialog.html).
 
 ## Remarks
 
@@ -64,5 +60,4 @@ Use this interface to add your own dialog information to the SOLIDWORKS lighting
 ## See Also
 
 [ILightDialog Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILightDialog_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -64,9 +64,9 @@ System.bool IGetConnectorData(
 - `connectorName`: Name of the connector
 - `fittingPoint`: Location of the fitting's connection point in the flattened configuration
 - `fittingDirection`: - in-process, unmanaged C++: Pointer to an array of doubles for the direction in which the route exits the fitting at the connection point in the flattened configuration
-- VBA, VB.NET, C#, and C++/CLI: Not supported
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 - `isVisible`: True if the connector is visible, false if not
 
 ### Return Value
@@ -76,9 +76,7 @@ True if successful, false if not
 ## See Also
 
 [IElectricalFlatRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute.html)
-
 [IElectricalFlatRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute_members.html)
-
 [IElectricalFlatRoute::GetConnectorData Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~GetConnectorData.html)
 
 ## Availability

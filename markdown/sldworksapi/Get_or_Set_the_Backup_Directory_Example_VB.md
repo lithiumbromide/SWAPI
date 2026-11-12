@@ -9,7 +9,7 @@ source: "sldworksapi/Get_or_Set_the_Backup_Directory_Example_VB.htm"
 
 # Get or Set the Backup Directory Example (VBA)
 
-This example shows how to set and get the SOLIDWORKS backup directory.
+This example shows how to set and get the backup directory.
 
 ```
 '------------------------------------------------------------

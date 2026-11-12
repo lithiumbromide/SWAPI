@@ -1,6 +1,5 @@
 ---
-title: "MathUtility Object
-Members"
+title: "MathUtility Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MathUtility_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MathUtility_members.html"
 ---
 
-# MathUtility Object
-Members
+# MathUtility Object Members
 
 ## Public Methods
 

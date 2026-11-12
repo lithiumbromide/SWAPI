@@ -45,34 +45,21 @@ property System.bool AutoSelectComponents {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to auto-select all affected components, false to not (use the selected components only or set[IExtrudeFeatureData2::AutoSelect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~AutoSelect.html)to true)
+True to auto-select all affected components, false to not (use the selected components only or set [IExtrudeFeatureData2::AutoSelect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IExtrudeFeatureData2~AutoSelect.html) to true)
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::AutoSelectComponents](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~AutoSelectComponents.html)
-
-.
+See [ExtrudeFeatureData2::AutoSelectComponents](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~AutoSelectComponents.html).
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IExtrudeFeatureData2::AssemblyFeatureScope Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~AssemblyFeatureScope.html)
-
 [IExtrudeFeatureData2::PropagateFeatureToParts Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~PropagateFeatureToParts.html)
 
 ## Availability

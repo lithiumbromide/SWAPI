@@ -39,40 +39,27 @@ void SelectMidpoint()
 void SelectMidpoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SelectMidpoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SelectMidpoint.html)
-
-.
+See [ModelDoc2::SelectMidpoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SelectMidpoint.html).
 
 ## Examples
 
 [Select the Midpoint of an Edge (VBA)](Put_a_Midpoint_on_an_Edge_Example_VB.htm)
-
 [Select the Midpoint of an Edge (VB.NET)](Put_a_Midpoint_on_an_Edge_Example_VBNET.htm)
-
 [Select the Midpoint of an Edge (C#)](Put_a_Midpoint_on_an_Edge_Example_CSharp.htm)
 
 ## Remarks
 
-If the edge whose midpoint is desired is already on the selection list and you use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select it again, then IModelDoc2::SelectMidpoint leaves both the edge and the point on the selection list.
+If the edge whose midpoint is desired is already on the selection list and you use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select it again, then IModelDoc2::SelectMidpoint leaves both the edge and the point on the selection list.
 
 This method does not support 3D sketches.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

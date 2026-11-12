@@ -1,6 +1,5 @@
 ---
-title: "SimulationSpringFeatureData Object
-Members"
+title: "SimulationSpringFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SimulationSpringFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SimulationSpringFeatureData_members.html"
 ---
 
-# SimulationSpringFeatureData Object
-Members
+# SimulationSpringFeatureData Object Members
 
 ## Public Methods
 

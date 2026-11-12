@@ -67,22 +67,16 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertIntersectPointFeature::GetNominalPoint](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertIntersectPointFeature~GetNominalPoint.html)
-
-.
+See [DimXpertIntersectPointFeature::GetNominalPoint](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertIntersectPointFeature~GetNominalPoint.html).
 
 ## Examples
 
 [Get DimXpert Intersect Features Example (VBA)](Get_DimXpert_Intersect_Features_Example_VB.htm)
-
 [Get DimXpert Intersect Features Example (VB.NET)](Get_DimXpert_Intersect_Features_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertIntersectPointFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPointFeature.html)
-
 [IDimXpertIntersectPointFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPointFeature_members.html)
 
 ## Availability

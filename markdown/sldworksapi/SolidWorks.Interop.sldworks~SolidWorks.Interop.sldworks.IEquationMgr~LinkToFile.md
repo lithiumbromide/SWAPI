@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEq
 
 # LinkToFile Property (IEquationMgr)
 
-Gets or sets whether the equation is linked to an exported equation text (
-
-.txt
-
-) file.
+Gets or sets whether the equation is linked to an exported equation text (**.txt**) file.
 
 ## Syntax
 
@@ -49,29 +45,15 @@ property System.bool LinkToFile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True if the equation is linked to an exported equation text (
-
-.txt
-
-) file, false if not
+True if the equation is linked to an exported equation text (**.txt**) file, false if not
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::LinkToFile](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~LinkToFile.html)
-
-.
+See [EquationMgr::LinkToFile](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~LinkToFile.html).
 
 ## Examples
 
@@ -86,33 +68,25 @@ Set swApp = Application.SldWorks
 Dim equationMgr As SldWorks.EquationMgr
 Set swmodel = swApp.**ActiveDoc**
 Set equationMgr = swmodel.**GetEquationMgr**
-equationMgr.**FilePath**= 'E:\API_SR\equations2.txt'
-equationMgr.**LinkToFile**= True
+equationMgr.**FilePath** = 'E:\API_SR\equations2.txt'
+equationMgr.**LinkToFile** = True
 
 End Sub
 
 ## Examples
 
 [Pack and Go Part and Linked Equation (C#)](Pack_and_Go_Part_and_Linked_Equation_Example_CSharp.htm)
-
 [Pack and Go Part and Linked Equation (VB.NET)](Pack_and_Go_Part_and_Linked_Equation_Example_vbnet.htm)
-
 [Pack and Go Part and Linked Equation (VBA)](Pack_and_Go_Part_and_Linked_Equation_Example_vb.htm)
 
 ## Remarks
 
-The setter of this property works only after you have set
-
-[IEquationMgr::FilePath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~FilePath.html)
-
-.
+The setter of this property works only after you have set [IEquationMgr::FilePath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~FilePath.html).
 
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::UpdateValuesFromExternalEquationFile Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~UpdateValuesFromExternalEquationFile.html)
 
 ## Availability

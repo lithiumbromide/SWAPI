@@ -9,19 +9,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 # SaveToAVI Method (IMotionStudy)
 
-Saves the animation to a .
-
-avi
-
-, .
-
-bmp
-
-, or .
-
-tga
-
-file.
+Saves the animation to a .avi, .bmp, or .tga file.
 
 ## Syntax
 
@@ -65,26 +53,8 @@ System.bool SaveToAVI(
 
 ### Parameters
 
-- `FileName`: Path and filename where to save a .
-
-avi
-
-, .
-
-bmp
-
-, or .
-
-tga
-
-file
-- `Parameter`: [Parameters](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter.html)
-
-for the .
-
-avi
-
-file
+- `FileName`: Path and filename where to save a .avi, .bmp, or .tga file
+- `Parameter`: [Parameters](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IAVIParameter.html) for the .avi file
 
 ### Return Value
 
@@ -92,26 +62,18 @@ True if the animation is saved to the specified file, false if not
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::SaveToAVI](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~SaveToAVI.html)
-
-.
+See [MotionStudy::SaveToAVI](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~SaveToAVI.html).
 
 ## Examples
 
 [Duplicate, Delete, and Create Motion Study (C#)](Duplicate,_Delete,_and_Create_Motion_Study_Example_CSharp.htm)
-
 [Duplicate, Delete, and Create Motion Study (VB.NET)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VBNET.htm)
-
 [Duplicate, Delete, and Create Motion Study (VBA)](Duplicate,_Delete,_and_Create_Motion_Study_Example_VB.htm)
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
-
 [IAVIParameter::MotionBlur Property ()](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter~MotionBlur.html)
 
 ## Availability

@@ -51,26 +51,16 @@ Ambient temperature
 
 ## VBA Syntax
 
-See
-
-[CWRadiation::AmbientTemperature](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~AmbientTemperature.html)
-
-.
+See [CWRadiation::AmbientTemperature](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~AmbientTemperature.html).
 
 ## Examples
 
-See the
-
-[ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
-examples.
+See the [ICWRadiation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html) examples.
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
-
 [ICWRadiation::OpenSystem Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~OpenSystem.html)
 
 ## Availability

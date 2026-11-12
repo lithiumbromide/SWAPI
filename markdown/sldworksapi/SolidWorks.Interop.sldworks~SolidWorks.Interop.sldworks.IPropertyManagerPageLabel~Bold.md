@@ -53,13 +53,7 @@ property System.bool Bold {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -72,16 +66,11 @@ TRUE to bold the specified range of characters, FALSE to not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageLabel::Bold](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~Bold.html)
-
-.
+See [PropertyManagerPageLabel::Bold](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~Bold.html).
 
 ## See Also
 
 [IPropertyManagerPageLabel Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel.html)
-
 [IPropertyManagerPageLabel Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel_members.html)
 
 ## Availability

@@ -47,31 +47,15 @@ property System.int LoadingType {
 
 ### Property Value
 
-Fatigue loading type as defined in
-
-[swsFatigueLoadingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadingType_e.html)
-
-(see
-
-Remarks
-
-)
+Fatigue loading type as defined in [swsFatigueLoadingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadingType_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWFatigueEvent::LoadingType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~LoadingType.html)
-
-.
+See [CWFatigueEvent::LoadingType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~LoadingType.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
-examples.
+See the [ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html) examples.
 
 ## Remarks
 
@@ -80,11 +64,8 @@ This property is valid only if this is a constant amplitude fatigue event.
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueEvent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html)
-
 [ICWFatigueEvent::Cycles Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent~Cycles.html)
-
 [ICWFatigueEvent::LoadingRatio Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent~LoadingRatio.html)
 
 ## Availability

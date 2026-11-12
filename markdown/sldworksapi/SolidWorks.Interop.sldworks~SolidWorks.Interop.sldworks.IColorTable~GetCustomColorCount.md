@@ -40,13 +40,7 @@ System.int GetCustomColorCount()
 System.int GetCustomColorCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,19 @@ Number of custom colors
 
 ## VBA Syntax
 
-See
-
-[ColorTable::GetCustomColorCount](ms-its:sldworksapivb6.chm::/sldworks~ColorTable~GetCustomColorCount.html)
-
-.
+See [ColorTable::GetCustomColorCount](ms-its:sldworksapivb6.chm::/sldworks~ColorTable~GetCustomColorCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IColorTable::IGetCustomColors](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IColorTable~IGetCustomColors.html)
-
-to determine the size of the array for that method.
+Call this method before calling [IColorTable::IGetCustomColors](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IColorTable~IGetCustomColors.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IColorTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable.html)
-
 [IColorTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable_members.html)
-
 [IColorTable::GetBasicColorCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~GetBasicColorCount.html)
-
 [IColorTable::GetCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~GetCount.html)
-
 [IColorTable::GetCustomColors Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~GetCustomColors.html)
-
 [IColorTable:GetStandardCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~GetStandardCount.html)
 
 ## Availability

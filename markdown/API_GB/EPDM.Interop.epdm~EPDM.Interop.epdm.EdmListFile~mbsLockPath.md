@@ -35,5 +35,4 @@ System.String^ mbsLockPath
 ## See Also
 
 [EdmListFile Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile.html)
-
 [EdmListFile Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile_members.html)

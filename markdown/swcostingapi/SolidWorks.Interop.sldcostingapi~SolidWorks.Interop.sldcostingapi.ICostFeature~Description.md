@@ -48,16 +48,11 @@ Description of this Costing feature, including information about selected sub-op
 
 ## VBA Syntax
 
-See
-
-[CostFeature::Description](swcostingapivb6.chm::/SldCostingAPI~CostFeature~Description.html)
-
-.
+See [CostFeature::Description](swcostingapivb6.chm::/SldCostingAPI~CostFeature~Description.html).
 
 ## See Also
 
 [ICostFeature Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature.html)
-
 [ICostFeature Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature_members.html)
 
 ## Availability

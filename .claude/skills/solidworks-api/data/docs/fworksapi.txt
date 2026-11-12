@@ -1,0 +1,16 @@
+<<< IFeatureWorksApp.CreateFeatures | fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp~CreateFeatures.md
+P: CreationOptions: Options as defined by fwFeatureCreationOptions_e
+R: True if the feature is created, false if not
+<<< IFeatureWorksApp.RecognizeFeatureAutomatic | fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp~RecognizeFeatureAutomatic.md
+P: options: Automatic options as defined by fwAutomaticRecognitionOptions_e
+R: Number of features recognized
+<<< IFeatureWorksApp.RecognizeFeatureInteractive | fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp~RecognizeFeatureInteractive.md
+P: FeatureType: Type of body or sheet metal feature to recognize
+P: options: Interactive options as defined by fwInteractiveRecognitionOptions_e
+R: True if the feature is recognized, false if not
+<<< IFeatureWorksApp.SetAdvancedOptions | fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp~SetAdvancedOptions.md
+P: options: Advanced options as defined in fwAdvancedOptions_e
+R: True if the advanced options are set, false if not
+<<< IFeatureWorksApp.SetPerformanceOptions | fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp~SetPerformanceOptions.md
+P: options: Performance options as defined by fwPerformanceOptions_e
+R: True if the performance options are set, false if not

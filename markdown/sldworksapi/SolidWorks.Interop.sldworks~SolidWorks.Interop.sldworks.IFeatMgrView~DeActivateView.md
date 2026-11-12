@@ -40,13 +40,7 @@ System.bool DeActivateView()
 System.bool DeActivateView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,21 +48,15 @@ True if the tab is deactivated, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatMgrView::DeActivateView](ms-its:sldworksapivb6.chm::/sldworks~FeatMgrView~DeActivateView.html)
-
-.
+See [FeatMgrView::DeActivateView](ms-its:sldworksapivb6.chm::/sldworks~FeatMgrView~DeActivateView.html).
 
 ## See Also
 
 [IFeatMgrView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView.html)
-
 [IFeatMgrView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView_members.html)
-
 [IFeatMgrView::ActivateView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView~ActivateView.html)
-
 [IFeatMgrView::DeleteView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatMgrView~DeleteView.html)
+[IModelDocExtension::DeActivateFeatureMgrViewx64 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeActivateFeatureMgrViewx64.html)
 
 ## Availability
 

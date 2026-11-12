@@ -1,6 +1,5 @@
 ---
-title: "SimpleFilletFeatureData2 Object
-Members"
+title: "SimpleFilletFeatureData2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SimpleFilletFeatureData2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SimpleFilletFeatureData2_members.html"
 ---
 
-# SimpleFilletFeatureData2 Object
-Members
+# SimpleFilletFeatureData2 Object Members
 
 ## Public Methods
 

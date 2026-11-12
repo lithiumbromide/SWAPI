@@ -47,37 +47,19 @@ System.Object^ InsertChainDimensions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Entities`: Array of entities, e.g., edges, vertices, circles, and midpoints with which to chain dimensions (see
-
-Remarks
-
-)
+- `Entities`: Array of entities, e.g., edges, vertices, circles, and midpoints with which to chain dimensions (see **Remarks**)
 
 ### Return Value
 
-Array of
-
-[IDisplayDimension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
-s
+Array of [IDisplayDimension](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)s
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertChainDimensions](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertChainDimensions.html)
-
-.
+See [ModelDocExtension::InsertChainDimensions](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~InsertChainDimensions.html).
 
 ## Examples
 
@@ -85,12 +67,12 @@ See
 
 ' Preconditions:
 
-' 1. Open`install_dir`**\samples\tutorial\advdrawings\foodprocessor.slddrw**.
-' 2. Select the**Sheet2**tab at the bottom.
+' 1. Open `install_dir`**\samples\tutorial\advdrawings\foodprocessor.slddrw**.
+' 2. Select the **Sheet2** tab at the bottom.
 ' 3. Open the Immediate window.
 '
 ' Postconditions:
-' 1. Observe the chained dimensions in**Drawing View3**.
+' 1. Observe the chained dimensions in **Drawing View3**.
 ' 2. Inspect the display dimensions in the Immediate window.
 
 Option Explicit
@@ -147,7 +129,6 @@ End Sub
 ## Examples
 
 [Insert Chain Dimensions (VB.NET)](Insert_Chain_Dimensions_Example_VBNET.htm)
-
 [Insert Chain Dimensions (C#)](Insert_Chain_Dimensions_Example_CSharp.htm)
 
 ## Remarks
@@ -156,12 +137,11 @@ The first element in Entities is the starting entity which is used to dimension 
 
 The array of chain dimensions returned contains one fewer element than the array of Entities.
 
-For more information, see the**SOLIDWORKS help > Detailing and Drawings > Drawings > Dimensions in Drawings > Chain Dimensions**topic.
+For more information, see the **SOLIDWORKS help > Detailing and Drawings > Drawings > Dimensions in Drawings > Chain Dimensions** topic.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

@@ -42,32 +42,19 @@ Covering^ CreateCovering();
 
 ### Return Value
 
-Pointer to
-
-[ICovering](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.ICovering.html)
-
-object
+Pointer to [ICovering](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.ICovering.html) object
 
 ## VBA Syntax
 
-See
-
-[RouteProperty::CreateCovering](ms-its:routingapivb6.chm::/SWRoutingLib~RouteProperty~CreateCovering.html)
-
-.
+See [RouteProperty::CreateCovering](ms-its:routingapivb6.chm::/SWRoutingLib~RouteProperty~CreateCovering.html).
 
 ## See Also
 
 [IRouteProperty Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty.html)
-
 [IRouteProperty Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty_members.html)
-
 [IRouteProperty::AddCovering Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~AddCovering.html)
-
 [IRouteProperty::GetCovering Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~GetCovering.html)
-
 [IRouteProperty::RemoveCovering Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~RemoveCovering.html)
-
 [IRouteProperty::HasCovering Property](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteProperty~HasCovering.html)
 
 ## Availability

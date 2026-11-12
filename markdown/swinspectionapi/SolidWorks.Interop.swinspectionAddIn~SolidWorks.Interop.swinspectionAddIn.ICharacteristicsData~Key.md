@@ -51,11 +51,7 @@ True if key, false if regular
 
 ## VBA Syntax
 
-See
-
-[CharacteristicsData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~CharacteristicsData_members.html)
-
-properties.
+See [CharacteristicsData](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~CharacteristicsData_members.html) properties.
 
 ## Remarks
 
@@ -64,7 +60,6 @@ Key characteristics are characteristics whose variation has a significant impact
 ## See Also
 
 [ICharacteristicsData Interface](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData.html)
-
 [ICharacteristicsData Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.ICharacteristicsData_members.html)
 
 ## Availability

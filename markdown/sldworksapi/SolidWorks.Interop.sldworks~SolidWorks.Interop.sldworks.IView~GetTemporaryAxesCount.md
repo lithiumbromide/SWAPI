@@ -40,13 +40,7 @@ System.int GetTemporaryAxesCount()
 System.int GetTemporaryAxesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of temporary axes in this view
 
 ## VBA Syntax
 
-See
-
-[View::GetTemporaryAxesCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetTemporaryAxesCount.html)
-
-.
+See [View::GetTemporaryAxesCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetTemporaryAxesCount.html).
 
 ## Examples
 
@@ -66,16 +56,11 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[IView::IGetTemporaryAxes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetTemporaryAxes.html)
-
-to get the size of the array for that method.
+Call this method before calling [IView::IGetTemporaryAxes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetTemporaryAxes.html) to get the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

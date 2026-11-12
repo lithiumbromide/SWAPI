@@ -45,13 +45,7 @@ property System.bool MirrorProfile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to flip the profile of the member about an axis, false to not
 
 ## VBA Syntax
 
-See
-
-[StructureSystemMemberProfile::MirrorProfile](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~MirrorProfile.html)
-
-.
+See [StructureSystemMemberProfile::MirrorProfile](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~MirrorProfile.html).
 
 ## Remarks
 
-Use
-
-[IStructureSystemMemberProfile::ProfileMirrorType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileMirrorType.html)
-
-to specify either the horizontal or vertical axis about which to flip the member profile.
+Use [IStructureSystemMemberProfile::ProfileMirrorType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileMirrorType.html) to specify either the horizontal or vertical axis about which to flip the member profile.
 
 ## See Also
 
 [IStructureSystemMemberProfile Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile.html)
-
 [IStructureSystemMemberProfile Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile_members.html)
 
 ## Availability

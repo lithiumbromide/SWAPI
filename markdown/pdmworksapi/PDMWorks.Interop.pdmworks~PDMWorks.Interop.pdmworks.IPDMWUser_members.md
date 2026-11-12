@@ -9,7 +9,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUs
 
 # IPDMWUser Interface Members
 
-The following tables list the members exposed by[IPDMWUser](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html).
+The following tables list the members exposed by [IPDMWUser](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html).
 
 ## Public Properties
 
@@ -29,11 +29,7 @@ The following tables list the members exposed by[IPDMWUser](PDMWorks.Interop.pdm
 ## See Also
 
 [IPDMWUser Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWUsers Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUsers.html)
-
 [IPDMWGroup Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup.html)
-
 [IPDMWGroups Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups.html)

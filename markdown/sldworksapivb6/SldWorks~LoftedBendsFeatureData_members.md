@@ -1,6 +1,5 @@
 ---
-title: "LoftedBendsFeatureData Object
-Members"
+title: "LoftedBendsFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "LoftedBendsFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~LoftedBendsFeatureData_members.html"
 ---
 
-# LoftedBendsFeatureData Object
-Members
+# LoftedBendsFeatureData Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "BoundaryBossFeatureData Object
-Members"
+title: "BoundaryBossFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BoundaryBossFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BoundaryBossFeatureData_members.html"
 ---
 
-# BoundaryBossFeatureData Object
-Members
+# BoundaryBossFeatureData Object Members
 
 ## Public Methods
 

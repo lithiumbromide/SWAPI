@@ -46,13 +46,7 @@ public delegate System.int DAssemblyDocEvents_SelectiveOpenPostNotifyEventHandle
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,27 +55,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[SelectiveOpenPostNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~SelectiveOpenPostNotify_EV.html)
-
-.
+See [SelectiveOpenPostNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~SelectiveOpenPostNotify_EV.html).
 
 ## Examples
 
 [Selective Open Post-Notify Event (VBA)](Selective_Open_Post_Notify_Event_Example_VB.htm)
-
 [Selective Open Post-Notify Event (VB.NET)](Selective_Open_Post_Notify_Event_Example_VBNET.htm)
-
 [Selective Open Post-Notify Event (C#)](Selective_Open_Post_Notify_Event_Example_CSharp.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblySelectiveOpenPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblySelectiveOpenPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

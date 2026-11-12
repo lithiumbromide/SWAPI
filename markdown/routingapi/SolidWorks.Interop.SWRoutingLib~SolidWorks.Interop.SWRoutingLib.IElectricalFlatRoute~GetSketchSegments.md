@@ -49,38 +49,25 @@ System.Object^ GetSketchSegments(
 
 ### Parameters
 
-- `RouteSegmentID`: Route segment ID (see
-
-Remarks
-
-)
+- `RouteSegmentID`: Route segment ID (see **Remarks**)
 
 ### Return Value
 
-Array of SOLIDWORKS
-
-[ISketchSegment](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
+Array of SOLIDWORKS [ISketchSegment](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
 
 ## VBA Syntax
 
-See
-
-[ElectricalFlatRoute::GetSketchSegments](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute~GetSketchSegments.html)
-
-.
+See [ElectricalFlatRoute::GetSketchSegments](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalFlatRoute~GetSketchSegments.html).
 
 ## Remarks
 
-Use[IWire::GetRouteSegmentIDs](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~GetRouteSegmentIDs.html)to get the value for RouteSegmentID.
+Use [IWire::GetRouteSegmentIDs](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWire~GetRouteSegmentIDs.html) to get the value for RouteSegmentID.
 
 ## See Also
 
 [IElectricalFlatRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute.html)
-
 [IElectricalFlatRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute_members.html)
-
 [IElectricalFlatRoute::GetSketchSegmentsCount Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~GetSketchSegmentsCount.html)
-
 [IElectricalFlatRoute::IGetSketchSegments Method](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalFlatRoute~IGetSketchSegments.html)
 
 ## Availability

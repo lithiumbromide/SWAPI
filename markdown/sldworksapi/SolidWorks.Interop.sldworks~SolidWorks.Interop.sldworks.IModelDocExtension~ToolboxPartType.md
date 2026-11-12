@@ -45,40 +45,25 @@ property System.int ToolboxPartType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of SOLIDWORKS Toolbox part type as defined in
-
-[swToolBoxPartType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swToolBoxPartType_e.html)
+Type of SOLIDWORKS Toolbox part type as defined in [swToolBoxPartType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swToolBoxPartType_e.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ToolBoxPartType](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ToolBoxPartType.html)
-
-.
+See [ModelDocExtension::ToolBoxPartType](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ToolBoxPartType.html).
 
 ## Examples
 
 [Test for Toolbox Part (VBA)](Test_For_Toolbox_Part_Example_VB.htm)
-
 [Test for Toolbox Part (VB.NET)](Test_for_Toolbox_Part_Example_VBNET.htm)
-
 [Test for Toolbox Part (C#)](Test_for_Toolbox_Part_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

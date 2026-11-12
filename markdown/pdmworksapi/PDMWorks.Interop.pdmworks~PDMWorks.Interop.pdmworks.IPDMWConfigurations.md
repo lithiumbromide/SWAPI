@@ -9,15 +9,9 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWCo
 
 # IPDMWConfigurations Interface
 
-Contains[IPDMWConfiguration](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)objects.
+Contains [IPDMWConfiguration](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html) objects.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class IPDMWConfigurations
 
 ## VBA Syntax
 
-See
-
-[PDMWConfigurations](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfigurations.html)
-
-.
+See [PDMWConfigurations](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfigurations.html).
 
 ## Accessors
 
@@ -60,7 +50,5 @@ See
 ## See Also
 
 [IPDMWConfigurations Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfigurations_members.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWConfiguration Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)

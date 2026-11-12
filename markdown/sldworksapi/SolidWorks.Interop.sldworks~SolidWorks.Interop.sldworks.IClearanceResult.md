@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICl
 
 # IClearanceResult Interface
 
-Allows you to access the results of
+Allows you to access the results of [clearance verfication](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html).
 
-[clearance verfication](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,27 +41,15 @@ public interface class IClearanceResult
 
 ## VBA Syntax
 
-See
-
-[ClearanceResult](ms-its:sldworksapivb6.chm::/sldworks~ClearanceResult.html)
-
-.
+See [ClearanceResult](ms-its:sldworksapivb6.chm::/sldworks~ClearanceResult.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## Remarks
 
-For more information see
-
-SOLIDWORKS online Help > Assemblies > Detecting Problems > Clearance Verification
-
-.
+For more information see **SOLIDWORKS online Help > Assemblies > Detecting Problems > Clearance Verification**.
 
 ## Accessors
 
@@ -78,5 +62,4 @@ SOLIDWORKS online Help > Assemblies > Detecting Problems > Clearance Verificatio
 ## See Also
 
 [IClearanceResult Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

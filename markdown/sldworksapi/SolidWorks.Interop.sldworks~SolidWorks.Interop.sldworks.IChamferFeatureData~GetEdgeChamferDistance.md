@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICh
 
 # GetEdgeChamferDistance Method (IChamferFeatureData)
 
-Obsolete. Superseded by
-
-[IChamferFeatureData2::GetEdgeChamferDistance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~GetEdgeChamferDistance.html)
-
-.
+Obsolete. Superseded by [IChamferFeatureData2::GetEdgeChamferDistance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~GetEdgeChamferDistance.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double GetEdgeChamferDistance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ChamferFeatureData::GetEdgeChamferDistance](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData~GetEdgeChamferDistance.html)
-
-.
+See [ChamferFeatureData::GetEdgeChamferDistance](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData~GetEdgeChamferDistance.html).
 
 ## See Also
 
 [IChamferFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData.html)
-
 [IChamferFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData_members.html)

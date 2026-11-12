@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 Allows access to a Product and Manufacturing Information (PMI) Gtol frame.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,19 +41,11 @@ public interface class IPMIFrameData
 
 ## VBA Syntax
 
-See
-
-[PMIFrameData](ms-its:sldworksapivb6.chm::/sldworks~PMIFrameData.html)
-
-.
+See [PMIFrameData](ms-its:sldworksapivb6.chm::/sldworks~PMIFrameData.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## Accessors
 
@@ -66,5 +58,4 @@ example.
 ## See Also
 
 [IPMIFrameData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

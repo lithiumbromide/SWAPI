@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBe
 
 Allows access to a Flatten-Bends/Process-Bends feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,17 @@ public interface class IBendsFeatureData
 
 ## VBA Syntax
 
-See
-
-[BendsFeatureData](ms-its:sldworksapivb6.chm::/sldworks~BendsFeatureData.html)
-
-.
+See [BendsFeatureData](ms-its:sldworksapivb6.chm::/sldworks~BendsFeatureData.html).
 
 ## Examples
 
 [Get Fixed Face of Flatten-Bends Feature (C#)](Get_Fixed_Face_of_Flatten-Bends_Feature_Example_CSharp.htm)
-
 [Get Fixed Face of Flatten-Bends Feature (VB.NET)](Get_Fixed_Face_of_Flatten-Bends_Feature_Example_VBNET.htm)
-
 [Get Fixed Face of Flatten-Bends Feature (VBA)](Get_Fixed_Face_of_Flatten-Bends_Feature_Example_VB.htm)
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)and[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html) and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 ## Access Diagram
 
@@ -66,7 +60,5 @@ See
 ## See Also
 
 [IBendsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendsFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertSheetMetal3dBend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSheetMetal3dBend.html)

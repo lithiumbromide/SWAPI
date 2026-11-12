@@ -9,9 +9,7 @@ source: "sldworksapi/Render_Model_Example_VB.htm"
 
 # Render Model (VBA)
 
-This example shows how to use a ray-trace rendering engine to render a model and save the
-rendered image in BMP and HDR formats. You must have a SOLIDWORKS Premium
-license to run this example.
+This example shows how to use a ray-trace rendering engine to render a model and save the rendered image in BMP and HDR formats. You must have a Premium license to run this example.
 
 ```vb
  '----------------------------------------------------------------------------
@@ -19,7 +17,7 @@ license to run this example.
  ' 1. Verify that:
  '    * specified part exists.
  '    * c:\temp exists.
- '    * ray-trace rendering engine is loaded in SOLIDWORKS.
+ '    * ray-trace rendering engine is loaded in SOLIDWORKS Design.
  ' 2. Open the Immediate window.
  '
  ' Postconditions:
@@ -69,7 +67,7 @@ license to run this example.
      Debug.Print "  Shaded contour? " & swRayTraceRenderOptions.ShadedContour
      Debug.Print "  Contour line thickness = " & swRayTraceRenderOptions.ContourLineThickness
      Debug.Print "  Contour line color = " & swRayTraceRenderOptions.ContourLineColor
-     Debug.Print "  Use SOLIDWORKS view aspect ratio? " & swRayTraceRenderOptions.UseSolidWorksViewAspectRatio
+     Debug.Print "  Use SOLIDWORKS Design view aspect ratio? " & swRayTraceRenderOptions.UseSolidWorksViewAspectRatio
      Debug.Print "  Alpha output? " & swRayTraceRenderOptions.AlphaOutput
      Debug.Print " "
 
@@ -102,7 +100,7 @@ license to run this example.
      swRayTraceRenderOptions.ContourLineColor = 255
      Debug.Print "  Contour line color = " & swRayTraceRenderOptions.ContourLineColor
      swRayTraceRenderOptions.UseSolidWorksViewAspectRatio = True
-     Debug.Print "  Use SOLIDWORKS view aspect ratio? " & swRayTraceRenderOptions.UseSolidWorksViewAspectRatio
+     Debug.Print "  Use SOLIDWORKS Design view aspect ratio? " & swRayTraceRenderOptions.UseSolidWorksViewAspectRatio
 
     ' Display the preview window
      'status = swRayTraceRenderer.DisplayPreviewWindow

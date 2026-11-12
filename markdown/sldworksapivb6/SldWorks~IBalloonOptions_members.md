@@ -1,6 +1,5 @@
 ---
-title: "IBalloonOptions Object
-Members"
+title: "IBalloonOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IBalloonOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IBalloonOptions_members.html"
 ---
 
-# IBalloonOptions Object
-Members
+# IBalloonOptions Object Members
 
 ## Public Properties
 

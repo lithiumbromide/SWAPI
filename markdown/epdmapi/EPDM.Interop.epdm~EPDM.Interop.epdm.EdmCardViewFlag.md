@@ -9,19 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewFlag.html"
 
 # EdmCardViewFlag Enumeration
 
-Options for appearance and functionality of card views created with
-
-[IEdmVault10::CreateCardViewEx2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault10~CreateCardViewEx2.html)
-
-and
-
-[IEdmFolder10::CreateCardView2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder10~CreateCardView2.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Options for appearance and functionality of card views created with [IEdmVault10::CreateCardViewEx2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault10~CreateCardViewEx2.html) and [IEdmFolder10::CreateCardView2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder10~CreateCardView2.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

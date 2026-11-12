@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ViewDisplayShaded Method (IModelDoc2)
 
-Sets the current display mode to
-
-Shaded
-
-.
+Sets the current display mode to **Shaded**.
 
 ## Syntax
 
@@ -43,40 +39,24 @@ void ViewDisplayShaded()
 void ViewDisplayShaded();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ViewDisplayShaded](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ViewDisplayShaded.html)
-
-.
+See [ModelDoc2::ViewDisplayShaded](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ViewDisplayShaded.html).
 
 ## Examples
 
 [Display Hidden Lines (VBA)](Display_Hidden_Lines_Example_VB.htm)
-
 [Display Hidden Lines (VB.NET)](Display_Hidden_Lines_Example_VBNET.htm)
-
 [Display Hidden Lines (C#)](Display_Hidden_Lines_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::ViewDisplayHiddengreyed Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewDisplayHiddengreyed.html)
-
 [IModelDoc2::ViewDisplayHiddenremoved Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewDisplayHiddenremoved.html)
-
 [IModelDoc2::ViewDisplayWireframe Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewDisplayWireframe.html)
 
 ## Availability

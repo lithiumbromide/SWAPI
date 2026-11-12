@@ -35,5 +35,4 @@ System.String^ mbsBomName
 ## See Also
 
 [EdmBomInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo.html)
-
 [EdmBomInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo_members.html)

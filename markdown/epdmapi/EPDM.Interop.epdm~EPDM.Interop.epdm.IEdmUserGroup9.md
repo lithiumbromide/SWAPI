@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup9.html"
 
 Allows you to access a user group in SOLIDWORKS PDM Professional.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,7 +36,7 @@ public interface class IEdmUserGroup9 : public IEdmObject5, IEdmUserGroup5, IEdm
 
 ## Remarks
 
-This interface extends[IEdmUserGroup8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup8.html)by providing the ability to specify these user group settings:
+This interface extends [IEdmUserGroup8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup8.html) by providing the ability to specify these user group settings:
 
 - Automatically delete local read-only files that are not part of the file vault.
 - Always work with the latest version of files.
@@ -50,14 +44,9 @@ This interface extends[IEdmUserGroup8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmU
 
 ## Accessors
 
-See the
-
-[IEdmUserGroup5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5.html)
-
-accessors.
+See the [IEdmUserGroup5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5.html) accessors.
 
 ## See Also
 
 [IEdmUserGroup9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup9_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

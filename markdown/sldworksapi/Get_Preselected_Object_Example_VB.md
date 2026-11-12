@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Preselected_Object_Example_VB.htm"
 
 # Get Preselected Object Example (VBA)
 
-This example shows how to get a preselected object when a preselection
-event is fired.
+This example shows how to get a preselected object when a preselection event is fired.
 
 ```
 '-----------------------------------------------------------

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetTrimCurveSize2 Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetTrimCurveSize2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetTrimCurveSize2.html)
-
-.
+Obsolete. Superseded by [IFace2::IGetTrimCurveSize2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetTrimCurveSize2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.int IGetTrimCurveSize2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face::IGetTrimCurveSize2](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetTrimCurveSize2.html)
-
-.
+See [Face::IGetTrimCurveSize2](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetTrimCurveSize2.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

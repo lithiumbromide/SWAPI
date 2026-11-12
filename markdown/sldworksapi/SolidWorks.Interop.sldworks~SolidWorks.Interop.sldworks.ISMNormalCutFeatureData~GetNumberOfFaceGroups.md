@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISM
 
 # GetNumberOfFaceGroups Method (ISMNormalCutFeatureData)
 
-Obsolete. See
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-.
+Obsolete. See [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.int GetNumberOfFaceGroups()
 System.int GetNumberOfFaceGroups();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,24 +48,15 @@ Number of face groups
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData::GetNumberOfFaceGroups](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData~GetNumberOfFaceGroups.html)
-
-.
+See [SMNormalCutFeatureData::GetNumberOfFaceGroups](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData~GetNumberOfFaceGroups.html).
 
 ## Examples
 
-See the
-
-[IFeatureManager::AddSMNormalCutType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AddSMNormalCutType.html)
-
-example.
+See the [IFeatureManager::AddSMNormalCutType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AddSMNormalCutType.html) example.
 
 ## See Also
 
 [ISMNormalCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData.html)
-
 [ISMNormalCutFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Check_Interference_using_AssemblyDoc_ToolsCheckInterference
 
 # Check Interference using AssemblyDoc::ToolsCheckInterference2 Example (VBA)
 
-## Check Interference using IAssemblyDoc::ToolsCheckInterference2 Example
-(VBA)
+## Check Interference using IAssemblyDoc::ToolsCheckInterference2 Example (VBA)
 
 This example shows how to check an assembly for interference using IAssemblyDoc::ToolsCheckInterference2.
 

@@ -9,11 +9,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 # GetWaterEutrophication Method (ISustainabilityEnvironmentalImpact)
 
-Obsolete. Superseded by
-
-[ISustainabilityEnvironmentalImpact::GetWaterEutrophication2](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetWaterEutrophication2.html)
-
-.
+Obsolete. Superseded by [ISustainabilityEnvironmentalImpact::GetWaterEutrophication2](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetWaterEutrophication2.html).
 
 ## Syntax
 
@@ -57,19 +53,11 @@ System.int GetWaterEutrophication(
 
 ## VBA Syntax
 
-See
-
-[SustainabilityEnvironmentalImpact::GetWaterEutrophication](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEnvironmentalimpact~GetWaterEutrophication.html)
-
-.
+See [SustainabilityEnvironmentalImpact::GetWaterEutrophication](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEnvironmentalimpact~GetWaterEutrophication.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityEnvironmentalImpact](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact.html)
-
-.
+See the examples in [ISustainabilityEnvironmentalImpact](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEnvironmentalImpact.html).
 
 ## Remarks
 
@@ -82,9 +70,7 @@ Before calling this method, call:
 ## See Also
 
 [ISustainabilityEnvironmentalImpact Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact.html)
-
 [ISustainabilityEnvironmentalImpact Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact_members.html)
-
 [ISustainabilityEnvironmentalImpact::IGetWaterEutrophication Method](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~IGetWaterEutrophication.html)
 
 ## Availability

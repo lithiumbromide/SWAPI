@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx~mlEdmUserDataE
 
 # mlEdmUserDataExFlags Field
 
-Combination of
-
-[EdmUserDataExFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataExFlag.html)
-
-flags telling which of the other members of this structure should be updated or retrieved.
+Combination of [EdmUserDataExFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataExFlag.html) flags telling which of the other members of this structure should be updated or retrieved.
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int mlEdmUserDataExFlags
 ## See Also
 
 [EdmUserDataEx Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx.html)
-
 [EdmUserDataEx Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataEx_members.html)

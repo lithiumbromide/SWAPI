@@ -11,13 +11,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 Provides the ability to assign materials to the current part or the components of the current assembly.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,16 +41,11 @@ public interface class ISustainabilityMaterial
 
 ## VBA Syntax
 
-See
-
-[SustainabilityMaterial](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial.html)
-
-.
+See [SustainabilityMaterial](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial.html).
 
 ## Examples
 
 [Calculate Environmental Impact of Assembly (VBA)](Calculate_Environmental_Impact_of_Assembly_Example_VB.htm)
-
 [Calculate Environmental Impact of Part (VBA)](Calculate_Environmental_Impact_of_Part_Example_VB.htm)
 
 ## Accessors
@@ -66,5 +55,4 @@ See
 ## See Also
 
 [ISustainabilityMaterial Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial_members.html)
-
 [SolidWorks.Interop.sustainability Namespace](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability_namespace.html)

@@ -1,0 +1,18 @@
+---
+title: "ThinFilm Property (DSPBRMaterial)"
+project: "SOLIDWORKS Type Library"
+interface: "DSPBRMaterial"
+member: "ThinFilm"
+kind: "property"
+source: "sldworksapivb6/SldWorks~DSPBRMaterial~ThinFilm.html"
+---
+
+# ThinFilm Property (DSPBRMaterial)
+
+## Syntax
+
+### Visual Basic for Applications (VBA)
+
+```vb
+Public Property ThinFilm As Double
+```

@@ -42,26 +42,17 @@ System.int DeleteAllDefaultNonLinearStudyPlots();
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotDelete_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotDelete_ErrorCode_e.html)
+Error code as defined in [swsResultPlotDelete_ErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotDelete_ErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::DeleteAllDefaultNonLinearStudyPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DeleteAllDefaultNonLinearStudyPlots.html)
-
-.
+See [CWModelDoc::DeleteAllDefaultNonLinearStudyPlots](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~DeleteAllDefaultNonLinearStudyPlots.html).
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
-
 [ICWModelDoc::AddDefaultNonLinearStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~AddDefaultNonLinearStudyPlot.html)
-
 [ICWModelDoc::DeleteDefaultNonLinearStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~DeleteDefaultNonLinearStudyPlot.html)
 
 ## Availability

@@ -48,16 +48,11 @@ property System.Object^ PDMDocManager {
 
 ## VBA Syntax
 
-See
-
-[ToolBoxConfiguratorApplication::PDMDocManager](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~CTbcApplication~PDMDocManager.html)
-
-.
+See [ToolBoxConfiguratorApplication::PDMDocManager](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~CTbcApplication~PDMDocManager.html).
 
 ## See Also
 
 [IToolBoxConfiguratorApplication Interface](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication.html)
-
 [IToolBoxConfiguratorApplication Members](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication_members.html)
 
 ## Availability

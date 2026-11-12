@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # CreateFlyoutGroup Method (ICommandManager)
 
-Obsolete. Superseded by
-
-[ICommandManager::CreateFlyoutGroup2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~CreateFlyoutGroup2.html)
-
-.
+Obsolete. Superseded by [ICommandManager::CreateFlyoutGroup2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~CreateFlyoutGroup2.html).
 
 ## Syntax
 
@@ -87,39 +83,25 @@ FlyoutGroup^ CreateFlyoutGroup(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UserID`: Unique, user-defined ID for the new flyout
 - `Title`: Name of the flyout to create
 - `ToolTip`: ToolTip for the new flyout
-- `Hint`: Text displayed in SOLIDWORKS status bar when a user's mouse pointer is over the flyout
+- `Hint`: Text displayed in SOLIDWORKS Design status bar when a user's mouse pointer is over the flyout
 - `SmallIcon`: Path to the small bitmap or PNG used in the flyout
 - `LargeIcon`: Path to the large bitmap or PNG used in the flyout
 - `SmallImageList`: Path to the bitmap or PNG containing all of the small button and separator images for this flyout
 - `LargeImageList`: Path to the bitmap or PNG containing all of the large button and separator images for this flyout
 - `CallbackFunction`: Function to call when the flyout is selected
-- `UpdateCallbackFunction`: Optional update function that controls the state of the item; if specified, then SOLIDWORKS calls this function before displaying the item
+- `UpdateCallbackFunction`: Optional update function that controls the state of the item; if specified, then SOLIDWORKS Design calls this function before displaying the item (see **Remarks**)
 
-(Table)=========================================================
-
-(see
-
-Remarks
-
-)
-
-| If this update function returns... | Then the SOLIDWORKS software... |
-| --- | --- |
-| 0 | Disables the item |
-| 1 | Enables the item; this is the default state if no update function is specified |
+  | If this update function returns... | Then the SOLIDWORKS Design... |
+  | --- | --- |
+  | 0 | Disables the item |
+  | 1 | Enables the item; this is the default state if no update function is specified |
 
 ### Return Value
 
@@ -127,30 +109,21 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CommandManager::CreateFlyoutGroup](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~CreateFlyoutGroup.html)
-
-.
+See [CommandManager::CreateFlyoutGroup](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~CreateFlyoutGroup.html).
 
 ## Remarks
 
-After creating the flyout, display it on a CommandManager tab by calling[ICommandTabBox::AddCommands](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox~AddCommands.html). Call[IFlyoutGroup::AddContextMenuFlyout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlyoutGroup~AddContextMenuFlyout.html)to add it to context menus. Call[IFlyoutGroup::AddCommandItem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlyoutGroup~AddCommandItem.html)to add menu items to the flyout group.
+After creating the flyout, display it on a CommandManager tab by calling [ICommandTabBox::AddCommands](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandTabBox~AddCommands.html). Call [IFlyoutGroup::AddContextMenuFlyout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlyoutGroup~AddContextMenuFlyout.html) to add it to context menus. Call [IFlyoutGroup::AddCommandItem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFlyoutGroup~AddCommandItem.html) to add menu items to the flyout group.
 
 If any flyout menu items are enabled, then the flyout button cannot be disabled by the flyout group's UpdateCallbackFunction. The sensitivity of the top-level flyout button is always determined by its enabled menu items. Disabled flyout menu items do not appear in the flyout menu. If there are no flyout menu items, then control of the top-level flyout button is returned to the flyout group's UpdateCallbackFunction.
 
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [ICommandManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html)
-
 [ICommandManager::GetFlyoutGroup Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~GetFlyoutGroup.html)
-
 [ICommandManager::GetFlyoutGroups Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~GetFlyoutGroups.html)
-
 [ICommandManager::RemoveFlyoutGroup Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~RemoveFlyoutGroup.html)
-
 [ICommandManager::NumberOfFlyoutGroups Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~NumberOfFlyoutGroups.html)
 
 ## Availability

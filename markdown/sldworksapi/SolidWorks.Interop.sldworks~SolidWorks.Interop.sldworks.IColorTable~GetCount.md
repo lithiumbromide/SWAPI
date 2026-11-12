@@ -40,13 +40,7 @@ System.int GetCount()
 System.int GetCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,12 @@ Number of colors defined in the color table
 
 ## VBA Syntax
 
-See
-
-[ColorTable::GetCount](ms-its:sldworksapivb6.chm::/sldworks~ColorTable~GetCount.html)
-
-.
+See [ColorTable::GetCount](ms-its:sldworksapivb6.chm::/sldworks~ColorTable~GetCount.html).
 
 ## See Also
 
 [IColorTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable.html)
-
 [IColorTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable_members.html)
-
 [IColorTable::GetBasicColorCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~GetBasicColorCount.html)
-
 [IColorTable::GetCustomColorCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~GetCustomColorCount.html)
-
 [IColorTable:GetStandardCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IColorTable~GetStandardCount.html)

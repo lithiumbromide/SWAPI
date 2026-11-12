@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # AfterClose Method (IPropertyManagerPage2Handler6)
 
-Obsoleted. Superseded by
-
-[IPropertyManagerPage2Handler7::AfterClose](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler7~AfterClose.html)
-
-.
+Obsoleted. Superseded by [IPropertyManagerPage2Handler7::AfterClose](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler7~AfterClose.html).
 
 ## Syntax
 
@@ -45,16 +41,11 @@ void AfterClose();
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler6::AfterClose](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler6~AfterClose.html)
-
-.
+See [PropertyManagerPage2Handler6::AfterClose](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler6~AfterClose.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler6 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler6.html)
-
 [IPropertyManagerPage2Handler6 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler6_members.html)
 
 ## Availability

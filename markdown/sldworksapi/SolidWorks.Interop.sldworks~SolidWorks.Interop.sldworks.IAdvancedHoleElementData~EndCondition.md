@@ -45,41 +45,23 @@ property System.int EndCondition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-End condition (see
-
-Remarks
-
-)
+End condition (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[AdvancedHoleElementData::EndCondition](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData~EndCondition.html)
-
-.
+See [AdvancedHoleElementData::EndCondition](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData~EndCondition.html).
 
 ## Examples
 
-See the
-
-[IAdvancedHoleElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)
-
-examples.
+See the [IAdvancedHoleElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html) examples.
 
 ## Remarks
 
-Valid end conditions for the Advanced Hole as defined in[swEndConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndConditions_e.html):
+Valid end conditions for the Advanced Hole as defined in [swEndConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndConditions_e.html):
 
 - swEndCondBlind
 - swEndCondThroughAll
@@ -95,20 +77,14 @@ This property can be set for a given hole element only when its corresponding ov
 
 - and -
 
-- [IAdvancedHoleFeatureData::UseBaselineDimensions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData~UseBaselineDimensions.html)
-
-  is set to false.
+- [IAdvancedHoleFeatureData::UseBaselineDimensions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData~UseBaselineDimensions.html) is set to false.
 
 ## See Also
 
 [IAdvancedHoleElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)
-
 [IAdvancedHoleElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData_members.html)
-
 [IStraightTapElementData::Equation Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData~Equation.html)
-
 [IAdvancedHoleElementData::OffsetDistance Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~OffsetDistance.html)
-
 [IAdvancedHoleElementData::OffsetReverseDirection Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~OffsetReverseDirection.html)
 
 ## Availability

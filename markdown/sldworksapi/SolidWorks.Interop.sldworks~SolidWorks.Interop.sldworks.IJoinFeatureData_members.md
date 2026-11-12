@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJo
 
 # IJoinFeatureData Interface Members
 
-The following tables list the members exposed by[IJoinFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJoinFeatureData.html).
+The following tables list the members exposed by [IJoinFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJoinFeatureData.html).
 
 ## Public Properties
 
@@ -36,7 +36,5 @@ The following tables list the members exposed by[IJoinFeatureData](SolidWorks.In
 ## See Also
 
 [IJoinFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IJoinFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IAssemblyDoc::InsertJoin2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertJoin2.html)

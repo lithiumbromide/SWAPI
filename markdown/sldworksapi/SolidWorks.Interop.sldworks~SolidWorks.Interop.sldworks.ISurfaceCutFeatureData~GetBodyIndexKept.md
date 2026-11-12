@@ -40,13 +40,7 @@ System.short GetBodyIndexKept()
 System.short GetBodyIndexKept();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Body index
 
 ## VBA Syntax
 
-See
-
-[SurfCutFeatureData::GetBodyIndexKept](ms-its:sldworksapivb6.chm::/sldworks~SurfCutFeatureData~GetBodyIndexKept.html)
-
-.
+See [SurfCutFeatureData::GetBodyIndexKept](ms-its:sldworksapivb6.chm::/sldworks~SurfCutFeatureData~GetBodyIndexKept.html).
 
 ## Remarks
 
@@ -67,7 +57,6 @@ To access this interface, you must declare it as SurfCutFeatureData or ISurfCutF
 ## See Also
 
 [ISurfaceCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData.html)
-
 [ISurfaceCutFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceCutFeatureData_members.html)
 
 ## Availability

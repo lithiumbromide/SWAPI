@@ -45,13 +45,7 @@ property System.String^ CustomPropertyView {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ Name of the drawing view from which to get the custom information
 
 ## VBA Syntax
 
-See
-
-[Sheet::CustomPropertyView](ms-its:sldworksapivb6.chm::/sldworks~Sheet~CustomPropertyView.html)
-
-.
+See [Sheet::CustomPropertyView](ms-its:sldworksapivb6.chm::/sldworks~Sheet~CustomPropertyView.html).
 
 ## Remarks
 
-You can also use[IDrawingDoc::SetupSheet4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~SetupSheet4.html)to set the name of the drawing view to use to set the custom information for this drawing sheet.
+You can also use [IDrawingDoc::SetupSheet4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~SetupSheet4.html) to set the name of the drawing view to use to set the custom information for this drawing sheet.
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # ICWStudy Interface Properties
 
-For a list of all members of this type, see[ICWStudy members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html).
+For a list of all members of this type, see [ICWStudy members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html).
 
 ## Public Properties
 
@@ -56,7 +56,5 @@ For a list of all members of this type, see[ICWStudy members](SolidWorks.Interop
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)

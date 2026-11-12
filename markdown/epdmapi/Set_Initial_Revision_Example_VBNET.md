@@ -9,39 +9,26 @@ source: "epdmapi/Set_Initial_Revision_Example_VBNET.htm"
 
 # Set Initial Revision Example (VB.NET)
 
-This example shows how to set the initial revision of a
-file.
+This example shows how to set the initial revision of a file.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
 '---------------------------------------------------------------------------------------
  ' Preconditions:
- '  1. Start Microsoft Visual Studio.
- '  2. Click File > New > Project > Visual Basic > Windows Forms Application.
- '  3. Select .NET Framework 4 in the top dropdown.
- '  4. Click Browse and navigate to the folder where to create the project.
- '  5. Type SetRevision in Name.
- '  6. Click OK.
- '  7. Right-click the project name in the Solution Explorer and click Add Reference.
-'  8. In the Add Reference dialog:
-'     a. Click Assemblies > Framework in the left-side panel,
-'        browse to the top folder of your SOLIDWORKS PDM Professional installation,
-'        locate and click EPDM.Interop.epdm.dll, click Open, and click Add.
-'     b. Click Close.
- '  9. Right-click References > EPDM.Interop.epdm in the Solution Explorer,
- '     click Properties, and set Embed Interop Types to False to handle methods
- '     that pass arrays of structures.
- ' 10. Create a form similar to the form shown above and change:
- '     a. Label to VaultsLabel.
- '     b. Combo box to VaultsComboBox.
- '     c. Button to SetInitialRevisionButton.
-  ' 11. Click Show All Files in the Solution Explorer toolbar and expand Form1.vb.
- ' 12. Replace the code in Form1.vb with this code.
- ' 13. Replace the code in Form1.Designer.vb with this code.
- ' 14. Copy a SOLIDWORKS part to a PDM vault view.
+ ' 1. Start Microsoft Visual Studio.
+  ' 2. Click File > New > Project > Visual Basic, Windows, Desktop > Windows Forms App
+ ' 3. Type SetRevision in Project name.
+  ' 4. For Location, click ... and navigate to the folder where to create the project.
+ ' 5. Click Next.
+ ' 6. Select Framework.
+ ' 7. Click Create.
+' 8. Click Show All Files in the Solution Explorer toolbar and expand
+ '    Form1.vb in the Solution Explorer.
+ ' 9.    Add dependencies and safely pass arrays of structures.
+ '10. Replace the code in Form1.vb with this code.
+ '11. Replace the code in Form1.Designer.vb with this code.
+ '12. Copy a SOLIDWORKS part to a PDM vault view.
  '     a. Check in the part.
  '     b. Right-click the part and click  Change State > No Approval Required.
  '        Part is now in the Approved state, and data card Revision is A.
@@ -49,7 +36,7 @@ Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
  '     d. In the part's data card, type G in Revision.
  '     e. Save the data card.
  '     f. Check in the part.
- ' 15. Click Debug > Start Debugging or press F5.
+ '13. Click Debug > Start Debugging or press F5.
  '
  ' Postconditions:
  ' 1. The Set Revision dialog opens.

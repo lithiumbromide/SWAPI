@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # ReleaseSelectionAccess Method (IDomeFeatureData)
 
-Obsolete. Superseded by
-
-[IDomeFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~ReleaseSelectionAccess.html)
-
-.
+Obsolete. Superseded by [IDomeFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~ReleaseSelectionAccess.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ReleaseSelectionAccess()
 void ReleaseSelectionAccess();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DomeFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~ReleaseSelectionAccess.html)
-
-.
+See [DomeFeatureData::ReleaseSelectionAccess](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~ReleaseSelectionAccess.html).
 
 ## See Also
 
 [IDomeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData.html)
-
 [IDomeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData_members.html)

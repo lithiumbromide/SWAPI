@@ -55,11 +55,7 @@ void GetPosition(
 
 ## Examples
 
-See the
-
-[IEdmCardControl6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6.html)
-
-examples.
+See the [IEdmCardControl6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl6.html) examples.
 
 ## Remarks
 
@@ -71,7 +67,6 @@ examples.
 ## See Also
 
 [IEdmCardControl5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5.html)
-
 [IEdmCardControl5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5_members.html)
 
 ## Availability

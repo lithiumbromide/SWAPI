@@ -45,13 +45,7 @@ property System.int BackgroundColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ RGB value for the color of an edit box, a list box, or a label on the PropertyMa
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageControl::BackgroundColor](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~BackgroundColor.html)
-
-.
+See [PropertyManagerPageControl::BackgroundColor](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~BackgroundColor.html).
 
 ## See Also
 
 [IPropertyManagerPageControl Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl.html)
-
 [IPropertyManagerPageControl Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl_members.html)
 
 ## Availability

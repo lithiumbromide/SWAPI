@@ -1,6 +1,5 @@
 ---
-title: "CounterboreElementData Object
-Members"
+title: "CounterboreElementData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CounterboreElementData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CounterboreElementData_members.html"
 ---
 
-# CounterboreElementData Object
-Members
+# CounterboreElementData Object Members
 
 ## Public Properties
 

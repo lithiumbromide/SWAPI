@@ -40,13 +40,7 @@ System.bool GetUseDocArrowHeadStyle()
 System.bool GetUseDocArrowHeadStyle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,18 @@ True if this display dimension uses the document setting, false if it uses the l
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetUseDocArrowHeadStyle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetUseDocArrowHeadStyle.html)
-
-.
+See [DisplayDimension::GetUseDocArrowHeadStyle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetUseDocArrowHeadStyle.html).
 
 ## Remarks
 
 The arrowhead style for a display dimension is controlled by a value stored in one of two places: on the owning document or on the individual display dimension. This method gets the setting that indicates which setting is currently in use.
 
-Use[IDisplayDimension::SetArrowHeadStyle2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetArrowHeadStyle2.html)to set this value.
+Use [IDisplayDimension::SetArrowHeadStyle2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~SetArrowHeadStyle2.html) to set this value.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::GetArrowHeadStyle2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetArrowHeadStyle2.html)
 
 ## Availability

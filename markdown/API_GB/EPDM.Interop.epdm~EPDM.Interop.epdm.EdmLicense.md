@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense.html"
 
 # EdmLicense Structure
 
-Contains information about a license type and is returned by
-
-[IEdmVault11::GetLicense](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetLicense.html)
-
-.
+Contains information about a license type and is returned by [IEdmVault11::GetLicense](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetLicense.html).
 
 ## Syntax
 
@@ -41,31 +37,18 @@ public value class EdmLicense : public System.ValueType
 struct EdmLicense
 
 {
-
-[enum EdmLicenseType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicenseType.html)
-
-[meType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense~meType.html)
-
-;
-
-integer
-
-[mlUserCount](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense~mlUserCount.html)
-
-;
-
+[enum EdmLicenseType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicenseType.html) [meType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense~meType.html);
+integer [mlUserCount](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense~mlUserCount.html);
 };
 
 ## Examples
 
 [Vault Utilities (VB.NET)](Vault_Utilities_Example_VBNET.htm)
-
 [Vault Utilities (C#)](Vault_Utilities_Example_CSharp.htm)
 
 ## See Also
 
 [EdmLicense Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

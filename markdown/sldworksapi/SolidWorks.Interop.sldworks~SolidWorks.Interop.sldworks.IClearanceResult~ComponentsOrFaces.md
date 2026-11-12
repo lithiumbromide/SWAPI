@@ -42,46 +42,23 @@ property System.Object^ ComponentsOrFaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of assembly
-
-[component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
-s,
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-s, or both
+Array of assembly [component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)s, [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)s, or both
 
 ## VBA Syntax
 
-See
-
-[ClearanceResult::Components](ms-its:sldworksapivb6.chm::/sldworks~ClearanceResult~Components.html)
-
-.
+See [ClearanceResult::Components](ms-its:sldworksapivb6.chm::/sldworks~ClearanceResult~Components.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## See Also
 
 [IClearanceResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult.html)
-
 [IClearanceResult Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceResult_members.html)
 
 ## Availability

@@ -42,17 +42,11 @@ PDMWSearchOptions^ GetSearchOptionsObject();
 
 ### Return Value
 
-[IPDMWSearchOptions](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions.html)
-
-object
+[IPDMWSearchOptions](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWSearchOptions.html) object
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::GetSearchOptionsObject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~GetSearchOptionsObject.html)
-
-.
+See [PDMWConnection::GetSearchOptionsObject](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~GetSearchOptionsObject.html).
 
 ## Examples
 
@@ -61,7 +55,6 @@ See
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
 
 ## Availability

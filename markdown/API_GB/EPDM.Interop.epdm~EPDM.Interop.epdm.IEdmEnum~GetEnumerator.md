@@ -42,7 +42,6 @@ This method is used implicitly in the For Each command loops of .NET programs.
 ## See Also
 
 [IEdmEnum Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html)
-
 [IEdmEnum Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum_members.html)
 
 ## Availability

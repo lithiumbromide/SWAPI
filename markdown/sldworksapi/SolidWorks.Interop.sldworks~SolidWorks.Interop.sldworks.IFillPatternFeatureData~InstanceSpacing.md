@@ -45,13 +45,7 @@ property System.double InstanceSpacing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Distance between pattern instance centers
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData::InstanceSpacing](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~InstanceSpacing.html)
-
-.
+See [FillPatternFeatureData::InstanceSpacing](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~InstanceSpacing.html).
 
 ## Examples
 
-See the
-
-[IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
-example.
+See the [IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html) example.
 
 ## Remarks
 
@@ -83,7 +69,6 @@ example.
 ## See Also
 
 [IFillPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
 
 ## Availability

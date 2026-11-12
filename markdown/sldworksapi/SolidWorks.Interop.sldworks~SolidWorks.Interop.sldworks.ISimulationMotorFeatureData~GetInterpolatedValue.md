@@ -47,13 +47,7 @@ System.double GetInterpolatedValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ Interpolated value at the specfied time
 
 ## VBA Syntax
 
-See
-
-[SimulationMotorFeatureData::GetInterpolatedValue](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~GetInterpolatedValue.html)
-
-.
+See [SimulationMotorFeatureData::GetInterpolatedValue](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~GetInterpolatedValue.html).
 
 ## See Also
 
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
-
 [ISimulationMotorFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData_members.html)
-
 [ISimulationMotorFeatureData::InterpolatedMotor Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData~InterpolatedMotor.html)
-
 [ISimulationMotorFeatureData::InterpolationScheme Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData~InterpolationScheme.html)
 
 ## Availability

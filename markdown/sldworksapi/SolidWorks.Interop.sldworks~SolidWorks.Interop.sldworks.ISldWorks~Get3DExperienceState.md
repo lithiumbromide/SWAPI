@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # Get3DExperienceState Method (ISldWorks)
 
-Gets the current state of
-
-[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-.
+Gets the current state of [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## Syntax
 
@@ -44,32 +40,19 @@ System.int Get3DExperienceState()
 System.int Get3DExperienceState();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-State of SOLIDWORKS Connected as defined by
-
-[sw3DExperienceState_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExperienceState_e.html)
+State of SOLIDWORKS Design connected to the 3DEXPERIENCE platform as defined by [sw3DExperienceState_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExperienceState_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::Get3DExperienceState](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~Get3DExperienceState.html)
-
-.
+See [SldWorks::Get3DExperienceState](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~Get3DExperienceState.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

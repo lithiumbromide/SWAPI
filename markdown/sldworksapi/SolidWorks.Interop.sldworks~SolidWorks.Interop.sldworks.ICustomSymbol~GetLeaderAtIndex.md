@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetLeaderAtIndex Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::GetLeaderAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetLeaderAtIndex.html)
-
-.
+Obsolete. Superseded by [INote::GetLeaderAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetLeaderAtIndex.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetLeaderAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::GetLeaderAtIndex](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetLeaderAtIndex.html)
-
-.
+See [CustomSymbol::GetLeaderAtIndex](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetLeaderAtIndex.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

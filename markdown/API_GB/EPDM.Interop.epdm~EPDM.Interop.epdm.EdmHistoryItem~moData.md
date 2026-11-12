@@ -34,17 +34,7 @@ EdmCmdData moData
 
 ### Field Value
 
-[EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-structure whose content depends on
-
-[EdmHistoryItem::meType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~meType.html)
-
-(see
-
-Remarks
-
-)
+[EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html) structure whose content depends on [EdmHistoryItem::meType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem~meType.html) (see **Remarks**)
 
 ## Remarks
 
@@ -170,5 +160,4 @@ The members of the structure stored in this member have different values, depend
 ## See Also
 
 [EdmHistoryItem Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html)
-
 [EdmHistoryItem Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem_members.html)

@@ -1,6 +1,5 @@
 ---
-title: "SilhouetteEdge Object
-Members"
+title: "SilhouetteEdge Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SilhouetteEdge_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SilhouetteEdge_members.html"
 ---
 
-# SilhouetteEdge Object
-Members
+# SilhouetteEdge Object Members
 
 ## Public Methods
 

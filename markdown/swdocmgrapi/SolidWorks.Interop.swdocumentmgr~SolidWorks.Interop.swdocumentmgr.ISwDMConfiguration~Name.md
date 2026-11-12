@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # Name Property (ISwDMConfiguration)
 
-Obsolete. Superseded by
-
-[ISwDMConfiguration7::Name2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration7~Name2.html)
-
-.
+Obsolete. Superseded by [ISwDMConfiguration7::Name2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration7~Name2.html).
 
 ## Syntax
 
@@ -48,14 +44,9 @@ property System.String^ Name {
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~Name.html)
-
-.
+See [SwDMConfiguration::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration~Name.html).
 
 ## See Also
 
 [ISwDMConfiguration Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration.html)
-
 [ISwDMConfiguration Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration_members.html)

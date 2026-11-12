@@ -87,13 +87,7 @@ System.bool SelectByRay(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -103,26 +97,18 @@ See
 - `RayVecX`: x coordinate of ray direction vector
 - `RayVecY`: y coordinate of ray direction vector
 - `RayVecZ`: z coordinate of ray direction vector
-- `RayRadius`: Radius
-- `TypeWanted`: Type of entities to select as defined in
+- `RayRadius`: Radius <= 2.9 m
+- `TypeWanted`: Type of entities to select as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `Append`:
 
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-- `Append`: | If... | And if entity is... | Then... |
-| --- | --- | --- |
-| True | Not already selected | Entity is appended to the current selection list |
-|  | Already selected | Entity is removed from the current selection list |
-| False | Not already selected | Current selection is cleared and then the entity is put on the list |
-|  | Already selected | Current selection list remains the same |
+  | If... | And if entity is... | Then... |
+  | --- | --- | --- |
+  | True | Not already selected | Entity is appended to the current selection list |
+  |  | Already selected | Entity is removed from the current selection list |
+  | False | Not already selected | Current selection is cleared and then the entity is put on the list |
+  |  | Already selected | Current selection list remains the same |
 - `Mark`: Value to use as a mark; this value is used by other functions that require ordered selection
-- `Option`: Selection option as defined in
-
-[swSelectOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectOption_e.html)
-
-(see
-
-Remarks
-
-)
+- `Option`: Selection option as defined in [swSelectOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectOption_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -130,18 +116,12 @@ True if the entity is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SelectByRay](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SelectByRay.html)
-
-.
+See [ModelDocExtension::SelectByRay](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SelectByRay.html).
 
 ## Examples
 
 [Select Face Using Intersecting Ray (C#)](Select_Face_Using_Intersecting_Ray_Example_CSharp.htm)
-
 [Select Face Using Intersecting Ray (VB.NET)](Select_Face_Using_Intersecting_Ray_Example_VBNET.htm)
-
 [Select Face Using Intersecting Ray (VBA)](Select_Face_Using_Intersecting_Ray_Example_VB.htm)
 
 ## Remarks
@@ -160,29 +140,16 @@ For the Option parameter, specify swSelectOption_e.swSelectOptionDefault to indi
 
 **NOTES:**
 
-- This method is recorded when
-
-  [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  relies on the selection coordinates and prone to failure if the model view is altered.
-- The difference between this method and the now obsolete
-
-  [IModelDoc2::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectByRay.html)
-
-  method is that if you call IModelDocExtension::SelectByRay in a macro or application to select an entity by an intersecting ray and then rerun that macro or application, the original entity is successfully selected regardless of the viewing transform.
+- This method is recorded when [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) relies on the selection coordinates and prone to failure if the model view is altered.
+- The difference between this method and the now obsolete [IModelDoc2::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SelectByRay.html) method is that if you call IModelDocExtension::SelectByRay in a macro or application to select an entity by an intersecting ray and then rerun that macro or application, the original entity is successfully selected regardless of the viewing transform.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDoc2::GetRayIntersectionsPoints Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetRayIntersectionsPoints.html)
-
 [IModelDoc2::GetRayIntersectionsTopology Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetRayIntersectionsTopology.html)
-
 [IModelDoc2::MultiSelectByRay Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~MultiSelectByRay.html)
-
 [IModelDoc2::RayIntersections Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~RayIntersections.html)
 
 ## Availability

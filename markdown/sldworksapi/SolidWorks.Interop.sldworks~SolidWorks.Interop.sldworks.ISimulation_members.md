@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # ISimulation Interface Members
 
-The following tables list the members exposed by[ISimulation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html).
+The following tables list the members exposed by [ISimulation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html).
 
 ## Public Properties
 
@@ -37,5 +37,4 @@ The following tables list the members exposed by[ISimulation](SolidWorks.Interop
 ## See Also
 
 [ISimulation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

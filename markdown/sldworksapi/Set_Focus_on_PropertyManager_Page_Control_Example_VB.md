@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Focus_on_PropertyManager_Page_Control_Example_VB.htm"
 
 # Set Focus on PropertyManager Page Control Example (VBA)
 
-This example shows how to set focus on a PropertyManager
-page control.
+This example shows how to set focus on a PropertyManager page control.
 
 ```
 '----------------------------------------------------------------------------

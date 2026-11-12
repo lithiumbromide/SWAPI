@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo_members.html"
 
 # EdmObjectInfo Structure Members
 
-The following tables list the members exposed by[EdmObjectInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo.html).
+The following tables list the members exposed by [EdmObjectInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[EdmObjectInfo](EPDM.Interop.epd
 ## See Also
 
 [EdmObjectInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

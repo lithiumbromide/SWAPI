@@ -40,29 +40,15 @@ System.object GetAttachPos()
 System.Object^ GetAttachPos();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetAttachPos](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetAttachPos.html)
-
-.
+See [Gtol::GetAttachPos](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetAttachPos.html).
 
 ## Remarks
 
@@ -79,7 +65,5 @@ Format of return value is the following array of doubles:
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::IGetAttachPos Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetAttachPos.html)

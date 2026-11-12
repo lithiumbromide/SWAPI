@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetLines Method (ISketch)
 
-Obsolete. Superseded by
-
-[ISketch::GetLines2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetLines2.html)
-
-and
-
-[ISketch::IGetLines2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetLines2.html)
-
-.
+Obsolete. Superseded by [ISketch::GetLines2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetLines2.html) and [ISketch::IGetLines2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetLines2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetLines()
 System.double IGetLines();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Sketch::IGetLines](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IGetLines.html)
-
-.
+See [Sketch::IGetLines](ms-its:sldworksapivb6.chm::/sldworks~Sketch~IGetLines.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)

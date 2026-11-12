@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetPatternSeedFeature Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetPatternSeedFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetPatternSeedFeature.html)
-
-.
+Obsolete. Superseded by [IFace2::IGetPatternSeedFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetPatternSeedFeature.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Feature IGetPatternSeedFeature()
 Feature^ IGetPatternSeedFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::IGetPatternSeedFeature](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetPatternSeedFeature.html)
-
-.
+See [Face::IGetPatternSeedFeature](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetPatternSeedFeature.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

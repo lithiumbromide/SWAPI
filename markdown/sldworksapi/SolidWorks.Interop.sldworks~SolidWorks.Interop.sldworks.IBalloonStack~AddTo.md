@@ -59,19 +59,13 @@ Note^ AddTo(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UpperTextStyle`: Text style for the text of the balloon as defined in[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
+- `UpperTextStyle`: Text style for the text of the balloon as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
 - `UpperText`: Text in the balloon
-- `LowerTextStyle`: Text style for the text of the balloon as defined in[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
+- `LowerTextStyle`: Text style for the text of the balloon as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
 - `LowerText`: Text in the lower part of the balloon (when Style = swBS_SplitCirc)
 
 ### Return Value
@@ -80,18 +74,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[BalloonStack::AddTo](ms-its:sldworksapivb6.chm::/sldworks~BalloonStack~AddTo.html)
-
-.
+See [BalloonStack::AddTo](ms-its:sldworksapivb6.chm::/sldworks~BalloonStack~AddTo.html).
 
 ## Examples
 
 [Add Balloon to Stacked Balloon (C#)](Add_Balloon_to_Stacked_Balloon_Example_CSharp.htm)
-
 [Add Balloon to Stacked Balloon (VB.NET)](Add_Balloon_to_Stacked_Balloon_Example_VBNET.htm)
-
 [Add Balloon to Stacked Balloon (VBA)](Add_Balloon_to_Stacked_Balloon_Example_VB.htm)
 
 ## Remarks
@@ -102,14 +90,12 @@ If the balloon style is split circle, this method uses both the lower and upper 
 
 If the text style is item number or quantity, SOLIDWORKS uses the note text to determine the preselected entity that this note is attached to, and ignores the corresponding text argument. If the preselection is a location on the drawing instead of an entity, you must specify the text style and text.
 
-Use[INote::GetBalloonStack](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetBalloonStack.html)to get a balloon stack interface from an existing note.
+Use [INote::GetBalloonStack](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetBalloonStack.html) to get a balloon stack interface from an existing note.
 
 ## See Also
 
 [IBalloonStack Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack.html)
-
 [IBalloonStack Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack_members.html)
-
 [INote::MakeStackedBalloon Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~MakeStackedBalloon.html)
 
 ## Availability

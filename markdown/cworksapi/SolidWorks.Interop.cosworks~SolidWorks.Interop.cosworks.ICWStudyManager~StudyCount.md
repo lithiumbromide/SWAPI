@@ -48,20 +48,13 @@ Number of studies
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::StudyCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~StudyCount.html)
-
-.
+See [CWStudyManager::StudyCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~StudyCount.html).
 
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudyManager::GetStudy Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~GetStudy.html)
-
 [ICWStudyManager::ActiveStudy Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~ActiveStudy.html)
 
 ## Availability

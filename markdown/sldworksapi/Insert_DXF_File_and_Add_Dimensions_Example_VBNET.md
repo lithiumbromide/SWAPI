@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_DXF_File_and_Add_Dimensions_Example_VBNET.htm"
 
 # Insert DXF/DWG File and Add Dimensions Example (VB.NET)
 
-This example shows how to insert a DXF/DWG image on a preselected plane
-or face and then autodimension it.
+This example shows how to insert a DXF/DWG image on a preselected plane or face and then autodimension it.
 
 ```vb
  '----------------------------------------------------------------------------

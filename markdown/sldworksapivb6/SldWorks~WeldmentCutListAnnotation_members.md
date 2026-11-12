@@ -1,6 +1,5 @@
 ---
-title: "WeldmentCutListAnnotation Object
-Members"
+title: "WeldmentCutListAnnotation Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "WeldmentCutListAnnotation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~WeldmentCutListAnnotation_members.html"
 ---
 
-# WeldmentCutListAnnotation Object
-Members
+# WeldmentCutListAnnotation Object Members
 
 ## Public Methods
 

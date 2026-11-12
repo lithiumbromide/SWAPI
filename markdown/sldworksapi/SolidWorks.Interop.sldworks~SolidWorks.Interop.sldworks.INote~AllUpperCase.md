@@ -45,13 +45,7 @@ property System.bool AllUpperCase {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True if the text of this note is all uppercase, false if not
 
 ## VBA Syntax
 
-See
-
-[Note::AllUpperCase](ms-its:sldworksapivb6.chm::/sldworks~Note~AllUpperCase.html)
-
-.
+See [Note::AllUpperCase](ms-its:sldworksapivb6.chm::/sldworks~Note~AllUpperCase.html).
 
 ## Examples
 
 [Anchor a Note (VBA)](Anchor_a_Note_Example_VB.htm)
-
 [Anchor a Note (VB.NET)](Anchor_a_Note_Example_VBNET.htm)
-
 [Anchor a Note (C#)](Anchor_a_Note_Example_CSharp.htm)
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
 
 ## Availability

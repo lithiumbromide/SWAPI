@@ -51,13 +51,7 @@ System.bool GetFromToText(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,19 +64,11 @@ True if From-To text successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetFromToText](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetFromToText.html)
-
-.
+See [Gtol::GetFromToText](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetFromToText.html).
 
 ## Examples
 
-See the
-
-[IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
-examples.
+See the [IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html) examples.
 
 ## Remarks
 
@@ -91,14 +77,12 @@ The From-To symbol:
 - is present below the Gtol frame.
 - specifies that the Gtol value applies from one point or entity to another.
 
-Before calling this method, use[IGtol::GetFromTo](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFromTo.html)to determine whether the From-To symbol is present.
+Before calling this method, use [IGtol::GetFromTo](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetFromTo.html) to determine whether the From-To symbol is present.
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::SetFromToText Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~SetFromToText.html)
 
 ## Availability

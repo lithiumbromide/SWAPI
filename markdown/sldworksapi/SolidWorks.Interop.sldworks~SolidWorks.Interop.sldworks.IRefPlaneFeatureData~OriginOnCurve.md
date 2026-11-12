@@ -45,13 +45,7 @@ property System.bool OriginOnCurve {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,15 @@ True to place the origin on the curve, false to place the origin on the vertex o
 
 ## VBA Syntax
 
-See
-
-[RefPlaneFeatureData::OriginOnCurve](ms-its:sldworksapivb6.chm::/sldworks~RefPlaneFeatureData~OriginOnCurve.html)
-
-.
+See [RefPlaneFeatureData::OriginOnCurve](ms-its:sldworksapivb6.chm::/sldworks~RefPlaneFeatureData~OriginOnCurve.html).
 
 ## Remarks
 
-IMPORTANT:
-
-Reference planes created in SOLIDWORKS 2010 or later are constraint based; reference planes created in SOLIDWORKS 2009 or earlier are not. See the
-
-Remarks
-
-section in the
-
-[IRefPlaneFeatureData interface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlaneFeatureData.html)
-
-topic for details about reference planes and this interface.
+**IMPORTANT:** Reference planes created in SOLIDWORKS 2010 or later are constraint based; reference planes created in SOLIDWORKS 2009 or earlier are not. See the **Remarks** section in the [IRefPlaneFeatureData interface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlaneFeatureData.html) topic for details about reference planes and this interface.
 
 ## See Also
 
 [IRefPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData.html)
-
 [IRefPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlaneFeatureData_members.html)
 
 ## Availability

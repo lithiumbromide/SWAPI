@@ -48,26 +48,18 @@ property CWStudyResultOptions^ StudyResultOptions {
 
 ## VBA Syntax
 
-See
-
-[CWStudy::StudyResultOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~StudyResultOptions.html)
-
-.
+See [CWStudy::StudyResultOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~StudyResultOptions.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::DropTestResultOptions Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~DropTestResultOptions.html)
 
 ## Availability

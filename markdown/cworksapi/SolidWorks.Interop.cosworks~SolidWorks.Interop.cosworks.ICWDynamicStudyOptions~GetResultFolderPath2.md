@@ -57,18 +57,12 @@ System.int GetResultFolderPath2(
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::GetResultFolderPath2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetResultFolderPath2.html)
-
-.
+See [CWDynamicStudyOptions::GetResultFolderPath2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetResultFolderPath2.html).
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::SetResultFolderPath2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetResultFolderPath2.html)
 
 ## Availability

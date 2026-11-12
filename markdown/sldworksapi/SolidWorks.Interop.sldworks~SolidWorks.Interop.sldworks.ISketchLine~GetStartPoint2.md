@@ -40,52 +40,30 @@ System.object GetStartPoint2()
 System.Object^ GetStartPoint2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Start
-
-[sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-or NULL if operation fails
+Start [sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) or NULL if operation fails
 
 ## VBA Syntax
 
-See
-
-[SketchLine::GetStartPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~GetStartPoint2.html)
-
-.
+See [SketchLine::GetStartPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~GetStartPoint2.html).
 
 ## Examples
 
 [Create Imported Surface Body From Sketch (C#)](Create_Imported_Surface_Body_from_Sketch_Example_CSharp.htm)
-
 [Get All Elements of Sketch (VBA)](Get_All_Elements_of_Sketch_Example_VB.htm)
-
 [Get Names of Sketch Segments (VBA)](Get_Names_of_Sketch_Segments_Example_VB.htm)
-
 [Insert DXF File and Add Dimension (VBA)](Insert_DXF_File_and_Add_Dimension_Example_VB.htm)
-
 [Autodimension All Sketches (C#)](Autodimension_All_Sketches_Example_CSharp.htm)
-
 [Autodimension All Sketches (VB.NET)](Autodimension_All_Sketches_Example_VBNET.htm)
-
 [Autodimension All Sketches (VBA)](Autodimension_All_Sketches_Example_VB.htm)
 
 ## See Also
 
 [ISketchLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html)
-
 [ISketchLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html)
-
 [ISketchLine::IGetStartPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine~IGetStartPoint2.html)
 
 ## Availability

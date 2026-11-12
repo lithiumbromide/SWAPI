@@ -42,30 +42,22 @@ System.Object^ GetTimeCurve();
 
 ### Return Value
 
-Array of time curve data (see
-
-Remarks
-
-)
+Array of time curve data (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[CWForce::GetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~GetTimeCurve.html)
-
-.
+See [CWForce::GetTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~GetTimeCurve.html).
 
 ## Remarks
 
 Time curve data array:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time value at the`ith`data point
+- xi = time value at the `ith` data point
 - yi = property value associated with time xi
 
 Time curves are used to specify feature variation with respect to time in linear and nonlinear dynamic studies.
@@ -73,9 +65,7 @@ Time curves are used to specify feature variation with respect to time in linear
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
-
 [ICWForce::SetTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~SetTimeCurve.html)
 
 ## Availability

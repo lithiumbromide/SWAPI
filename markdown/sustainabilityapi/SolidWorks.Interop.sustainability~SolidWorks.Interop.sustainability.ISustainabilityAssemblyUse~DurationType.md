@@ -47,34 +47,19 @@ property System.int DurationType {
 
 ### Property Value
 
-Per time units for
-
-[ISustainabilityAssemblyUse::AssemblyUseAmount](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse~AssemblyUseAmount.html)
-
-as defined in
-
-[swSustainabilityDurationType_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityDurationType_e.html)
+Per time units for [ISustainabilityAssemblyUse::AssemblyUseAmount](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse~AssemblyUseAmount.html) as defined in [swSustainabilityDurationType_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityDurationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyUse::DurationType](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse~DurationType.html)
-
-.
+See [SustainabilityAssemblyUse::DurationType](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyUse~DurationType.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityAssemblyUse](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse.html)
-
-.
+See the examples in [ISustainabilityAssemblyUse](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityAssemblyUse.html).
 
 ## See Also
 
 [ISustainabilityAssemblyUse Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse.html)
-
 [ISustainabilityAssemblyUse Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse_members.html)
 
 ## Availability

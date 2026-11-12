@@ -9,8 +9,7 @@ source: "sldworksapi/Open_File_Example_VB.htm"
 
 # Open File Example (VBA)
 
-This example shows how to prompt the user for the name of the file to
-open. This example also shows how to set up filters by file types.
+This example shows how to prompt the user for the name of the file to open. This example also shows how to set up filters by file types.
 
 ```
 '---------------------------------------------------------

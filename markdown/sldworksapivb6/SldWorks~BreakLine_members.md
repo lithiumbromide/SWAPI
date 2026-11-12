@@ -1,6 +1,5 @@
 ---
-title: "BreakLine Object
-Members"
+title: "BreakLine Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BreakLine_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BreakLine_members.html"
 ---
 
-# BreakLine Object
-Members
+# BreakLine Object Members
 
 ## Public Methods
 

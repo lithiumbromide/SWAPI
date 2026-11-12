@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # ICustomSymbol Interface Members
 
-The following tables list the members exposed by[ICustomSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html).
+The following tables list the members exposed by [ICustomSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html).
 
 ## Public Properties
 
@@ -74,5 +74,4 @@ The following tables list the members exposed by[ICustomSymbol](SolidWorks.Inter
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

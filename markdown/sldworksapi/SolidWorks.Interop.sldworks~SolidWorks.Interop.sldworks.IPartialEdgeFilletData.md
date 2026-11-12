@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 Allows access to partial fillet/chamfer properties.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,22 +41,18 @@ public interface class IPartialEdgeFilletData
 
 ## VBA Syntax
 
-See
-
-[PartialEdgeFilletData](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData.html)
-
-.
+See [PartialEdgeFilletData](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData.html).
 
 ## Examples
 
 '=====================================================
 'Preconditions:
-'1. Open`Public_documents`**\samples\tutorial\api\Block20.sldprt**.
+'1. Open `Public_documents`**\samples\tutorial\api\Block20.sldprt**.
 '2. Open an Immediate window.
 '
 'Postconditions:
-'1. Creates**Chamfer1**.
-'2.**Chamfer1**contains two partial chamfers.
+'1. Creates **Chamfer1**.
+'2. **Chamfer1** contains two partial chamfers.
 '3. Inspect the Immediate window.
 '
 'NOTE: Because the model is used elsewhere, do not save changes to it.
@@ -90,13 +86,13 @@ Set swFeatDataObj = swFeatMgr.**CreateDefinition**(swFmFillet)
 Set swFilletData = swFeatDataObj
 
 ' Initilize the feature type to be a constant radius fillet
-swFilletData.**Initialize**swConstRadiusFillet
+swFilletData.**Initialize** swConstRadiusFillet
 
 ' Specialize the feature type to be a chamfer
-swFilletData.**ConicTypeForCrossSectionProfile**= swFeatureFilletConicRhoZeroChamfer
+swFilletData.**ConicTypeForCrossSectionProfile** = swFeatureFilletConicRhoZeroChamfer
 
-swFilletData.**OverflowType**= swFilletOverFlowType_Default
-swFilletData.**DefaultRadius**= 0.01
+swFilletData.**OverflowType** = swFilletOverFlowType_Default
+swFilletData.**DefaultRadius** = 0.01
 
 ' Select two edges to partially chamfer
 boolstatus = swModel.Extension.SelectByRay(-6.27751435901871E-02, 3.95396450382464E-02, 6.03865270420556E-04, 0.156569748366562, -0.551708952719479, -0.81920885333693, 1.1220164860728E-03, 1, False, 1, 0)
@@ -105,7 +101,7 @@ boolstatus = swModel.Extension.SelectByRay(6.44200432014657E-02, 0.0395728473096
 Set filletItemA = swSelMgr.GetSelectedObject6(1, -1)
 Set filletItemB = swSelMgr.GetSelectedObject6(2, -1)
 
-swFilletData.**EnablePartialEdgeParameters**= True
+swFilletData.**EnablePartialEdgeParameters** = True
 Set PartialEdgeAFilletData = swFilletData.**GetPartialEdgeFilletData**(filletItemA)
 PartialEdgeAFilletData.**SetPartialFilletParameters**(True, swPartialEdgeDistanceOffset, 0.01, Nothing, swPartialEdgeDistanceOffset, 0.03, Nothing)
 Set PartialEdgeBFilletData = swFilletData.**GetPartialEdgeFilletData**(filletItemB)
@@ -123,9 +119,9 @@ End Sub
 
 ## Remarks
 
-Use[IFeature.GetErrorCode2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetErrorCode2.html)after creating the partial edge fillet feature to see if anything is wrong with the new feature.
+Use [IFeature.GetErrorCode2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetErrorCode2.html) after creating the partial edge fillet feature to see if anything is wrong with the new feature.
 
-For more information, see the**Partial Edge Parameters**section of the**Constant Size Fillets**topic in the SOLIDWORKS user-interface help.
+For more information, see the **Partial Edge Parameters** section of the **Constant Size Fillets** topic in the SOLIDWORKS Design user-interface help.
 
 ## Accessors
 
@@ -138,5 +134,4 @@ For more information, see the**Partial Edge Parameters**section of the**Constant
 ## See Also
 
 [IPartialEdgeFilletData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

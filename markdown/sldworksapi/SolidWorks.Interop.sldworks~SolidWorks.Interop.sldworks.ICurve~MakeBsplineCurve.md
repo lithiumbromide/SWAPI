@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # MakeBsplineCurve Method (ICurve)
 
-Obsolete. Superseded by
-
-[ICurve::MakeBsplineCurve2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~MakeBsplineCurve2.html)
-
-.
+Obsolete. Superseded by [ICurve::MakeBsplineCurve2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~MakeBsplineCurve2.html).
 
 ## Syntax
 
@@ -44,25 +40,15 @@ Curve MakeBsplineCurve()
 Curve^ MakeBsplineCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the[arc or line](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+Pointer to the [arc or line](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 
 ## VBA Syntax
 
-See
-
-[Curve::MakeBsplineCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~MakeBsplineCurve.html)
-
-.
+See [Curve::MakeBsplineCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~MakeBsplineCurve.html).
 
 ## Remarks
 
@@ -70,16 +56,13 @@ To convert the arc or line to a b-spline curve, use any of these methods:
 
 - [ICurve::ConvertArcToBcurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~ConvertArcToBcurve.html)
 - [ICurve::ConvertLineToBcurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~ConvertLineToBcurve.html)
-- [ICurve::GetBCurveParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetBCurveParams.html)or[ICurve::IGetBCurveParmas](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetBCurveParams.html)
+- [ICurve::GetBCurveParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetBCurveParams.html) or [ICurve::IGetBCurveParmas](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IGetBCurveParams.html)
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::IsBcurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IsBcurve.html)
-
 [ICurve::SimplifyBCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~SimplifyBCurve.html)
 
 ## Availability

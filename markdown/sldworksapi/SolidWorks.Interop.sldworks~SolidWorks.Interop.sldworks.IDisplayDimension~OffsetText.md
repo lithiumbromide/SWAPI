@@ -45,13 +45,7 @@ property System.bool OffsetText {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to offset the dimension text, false to not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::OffsetText](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~OffsetText.html)
-
-.
+See [DisplayDimension::OffsetText](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~OffsetText.html).
 
 ## Remarks
 
@@ -77,11 +67,8 @@ Because radial and diametric dimensions are already attached to the end of a lea
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::GetText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetText.html)
-
 [IDisplayDimension::SetText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetText.html)
 
 ## Availability

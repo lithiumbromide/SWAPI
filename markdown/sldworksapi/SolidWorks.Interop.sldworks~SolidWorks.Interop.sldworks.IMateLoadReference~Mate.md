@@ -42,32 +42,19 @@ property Mate2^ Mate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Mate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2.html)
-
-that owns this mate load reference
+[Mate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2.html) that owns this mate load reference
 
 ## VBA Syntax
 
-See
-
-[MateLoadReference::Mate](ms-its:sldworksapivb6.chm::/sldworks~MateLoadReference~Mate.html)
-
-.
+See [MateLoadReference::Mate](ms-its:sldworksapivb6.chm::/sldworks~MateLoadReference~Mate.html).
 
 ## See Also
 
 [IMateLoadReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateLoadReference.html)
-
 [IMateLoadReference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateLoadReference_members.html)
 
 ## Availability

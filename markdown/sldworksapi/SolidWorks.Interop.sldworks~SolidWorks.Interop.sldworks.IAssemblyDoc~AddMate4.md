@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # AddMate4 Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::AddMate5 .](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~AddMate5.html)
+Obsolete. Superseded by [IAssemblyDoc::AddMate5.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~AddMate5.html)
 
 ## Syntax
 
@@ -101,40 +99,16 @@ Mate2^ AddMate4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `MateTypeFromEnum`: Type of mate as defined in
-
-[swMateType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateType_e.html)
-
-(see
-
-Remarks
-
-)
-- `AlignFromEnum`: Type of alignment as defined in
-
-[swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
+- `MateTypeFromEnum`: Type of mate as defined in [swMateType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateType_e.html) (see **Remarks**)
+- `AlignFromEnum`: Type of alignment as defined in [swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
 - `Flip`: True to flip the component, false otherwise
 - `Distance`: Distance value to use with distance or limit mates
-- `DistanceAbsUpperLimit`: Absolute maximum distance value (see
-
-Remarks
-
-)
-- `DistanceAbsLowerLimit`: Absolute minimum distance value (see
-
-Remarks
-
-)
+- `DistanceAbsUpperLimit`: Absolute maximum distance value (see **Remarks**)
+- `DistanceAbsLowerLimit`: Absolute minimum distance value (see **Remarks**)
 - `GearRatioNumerator`: Gear ratio numerator value for gear mates
 - `GearRatioDenominator`: Gear ratio denominator value for gear mates
 - `Angle`: Angle value to use with angle mates
@@ -142,17 +116,11 @@ Remarks
 - `AngleAbsLowerLimit`: Absolute minimum angle value
 - `ForPositioningOnly`: True to only position the components according to the mating relationship and not return a mate, false to return a mate
 - `LockRotation`: True to lock component rotation, false to not
-- `ErrorStatus`: Success or error as defined by
-
-[swAddMateError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddMateError_e.html)
+- `ErrorStatus`: Success or error as defined by [swAddMateError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddMateError_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::AddMate4](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddMate4.html)
-
-.
+See [AssemblyDoc::AddMate4](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~AddMate4.html).
 
 ## Remarks
 
@@ -164,16 +132,8 @@ If MateTypeFromEnum is swMateType_e.swMateDISTANCE or swMateType_e.swMateANGLE, 
 
 To add a mate:
 
-1. Call
-
-  [IModelDoc2::ClearSelection2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ClearSelection2.html)
-
-  before selecting entities to mate.
-2. Call
-
-  [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  to select each entity to mate.
+1. Call [IModelDoc2::ClearSelection2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ClearSelection2.html) before selecting entities to mate.
+2. Call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select each entity to mate.
 
   | If MateTypeFromEnum is... | Use selection mark... |
   | --- | --- |
@@ -188,7 +148,6 @@ If nothing is preselected, then ErrorStatus is swAddMateError_IncorrectSelection
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

@@ -66,11 +66,7 @@ True if a route started, false if not
 
 ## VBA Syntax
 
-See
-
-[RouteManager::StartRoute](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~StartRoute.html)
-
-.
+See [RouteManager::StartRoute](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~StartRoute.html).
 
 ## Examples
 
@@ -88,11 +84,8 @@ Calling this method places the assembly in routing edit mode.
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
-
 [IRouteManager::AddToRoute](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~AddToRoute.html)
-
 [IRouteManager::EditRoute](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager~EditRoute.html)
 
 ## Availability

@@ -44,28 +44,20 @@ property swDimXpertPositionZoneType_e ZoneType {
 
 ### Property Value
 
-Position zone type as defined in
-
-[swDimXpertPositionZoneType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertPositionZoneType_e.html)
+Position zone type as defined in [swDimXpertPositionZoneType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertPositionZoneType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositePositionTolerance::ZoneType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositePositionTolerance~ZoneType.html)
-
-.
+See [DimXpertCompositePositionTolerance::ZoneType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositePositionTolerance~ZoneType.html).
 
 ## Examples
 
 [Get DimXpert Tolerance3 Example (VBA)](Get_DimXpert_Tolerance3_Example_VB.htm)
-
 [Get DimXpert Tolerance3 Example (VB.NET)](Get_DimXpert_Tolerance3_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertCompositePositionTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance.html)
-
 [IDimXpertCompositePositionTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance_members.html)
 
 ## Availability

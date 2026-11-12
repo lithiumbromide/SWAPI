@@ -40,13 +40,7 @@ System.bool HasMaterialPropertyValues()
 System.bool HasMaterialPropertyValues();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ True if this feature has an appearance, false if not
 
 ## VBA Syntax
 
-See
-
-[Feature::HasMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Feature~HasMaterialPropertyValues.html)
-
-.
+See [Feature::HasMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Feature~HasMaterialPropertyValues.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::GetMaterialPropertyValues2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetMaterialPropertyValues2.html)
-
 [IFeature::SetMaterialPropertyValues2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~SetMaterialPropertyValues2.html)
-
 [IFeature::RemoveMaterialProperty2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~RemoveMaterialProperty2.html)
 
 ## Availability

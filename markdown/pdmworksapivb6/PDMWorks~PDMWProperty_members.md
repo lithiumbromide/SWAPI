@@ -1,6 +1,5 @@
 ---
-title: "PDMWProperty Object
-Members"
+title: "PDMWProperty Object Members"
 project: "PDMWorksActiveX DLL"
 interface: "PDMWProperty_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "pdmworksapivb6/PDMWorks~PDMWProperty_members.html"
 ---
 
-# PDMWProperty Object
-Members
+# PDMWProperty Object Members
 
 ## Public Properties
 

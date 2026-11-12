@@ -40,13 +40,7 @@ System.bool UpdateValuesFromExternalEquationFile()
 System.bool UpdateValuesFromExternalEquationFile();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ True if the equations are updated, false if not
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::UpdateValuesFromExternalEquationFile](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~UpdateValuesFromExternalEquationFile.html)
-
-.
+See [EquationMgr::UpdateValuesFromExternalEquationFile](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~UpdateValuesFromExternalEquationFile.html).
 
 ## Examples
 
 [Pack and Go Part and Linked Equation (C#)](Pack_and_Go_Part_and_Linked_Equation_Example_CSharp.htm)
-
 [Pack and Go Part and Linked Equation (VB.NET)](Pack_and_Go_Part_and_Linked_Equation_Example_vbnet.htm)
-
 [Pack and Go Part and Linked Equation (VBA)](Pack_and_Go_Part_and_Linked_Equation_Example_vb.htm)
 
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::LinkToFile Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~LinkToFile.html)
-
 [IEquationMgr::FilePath Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~FilePath.html)
 
 ## Availability

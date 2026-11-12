@@ -40,13 +40,7 @@ System.int GetPointCount()
 System.int GetPointCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Number of points
 
 ## VBA Syntax
 
-See
-
-[DisplayData::GetPointCount](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetPointCount.html)
-
-.
+See [DisplayData::GetPointCount](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetPointCount.html).
 
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::GetPointAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetPointAtIndex.html)
-
 [IDisplayData::IGetPointAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~IGetPointAtIndex.html)
 
 ## Availability

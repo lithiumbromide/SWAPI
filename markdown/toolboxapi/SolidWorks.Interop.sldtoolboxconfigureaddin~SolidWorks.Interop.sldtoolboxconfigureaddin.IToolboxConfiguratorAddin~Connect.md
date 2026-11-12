@@ -62,18 +62,12 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ToolboxConfiguratorAddin::Connect](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~ToolboxConfiguratorAddin~Connect.html)
-
-.
+See [ToolboxConfiguratorAddin::Connect](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~ToolboxConfiguratorAddin~Connect.html).
 
 ## See Also
 
 [IToolboxConfiguratorAddin Interface](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolboxConfiguratorAddin.html)
-
 [IToolboxConfiguratorAddin Members](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolboxConfiguratorAddin_members.html)
-
 [IToolboxConfiguratorAddin::Disconnect Method](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolboxConfiguratorAddin~Disconnect.html)
 
 ## Availability

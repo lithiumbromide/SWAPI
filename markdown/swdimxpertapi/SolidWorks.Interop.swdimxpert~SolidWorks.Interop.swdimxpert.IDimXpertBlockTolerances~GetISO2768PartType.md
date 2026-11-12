@@ -49,9 +49,7 @@ System.bool GetISO2768PartType(
 
 ### Parameters
 
-- `Type`: ISO 2768 part type of this DimXpert block tolerance as defined in
-
-[swDimXpertISO2768PartType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertISO2768PartType_e.html)
+- `Type`: ISO 2768 part type of this DimXpert block tolerance as defined in [swDimXpertISO2768PartType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertISO2768PartType_e.html)
 
 ### Return Value
 
@@ -59,22 +57,16 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertBlockTolerances::GetISO2768PartType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertBlockTolerances~GetISO2768PartType.html)
-
-.
+See [DimXpertBlockTolerances::GetISO2768PartType](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertBlockTolerances~GetISO2768PartType.html).
 
 ## Examples
 
 [Get DimXpert Block Tolerance Example (VBA)](Get_DimXpert_Block_Tolerance_Example_VB.htm)
-
 [Get DimXpert Block Tolerance Example (VB.NET)](Get_DimXpert_Block_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertBlockTolerances Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances.html)
-
 [IDimXpertBlockTolerances Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertBlockTolerances_members.html)
 
 ## Availability

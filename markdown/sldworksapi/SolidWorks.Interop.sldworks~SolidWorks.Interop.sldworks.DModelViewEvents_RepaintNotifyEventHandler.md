@@ -43,35 +43,21 @@ public delegate System.int DModelViewEvents_RepaintNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `paintType`: Valid paint type as defined in
-
-[swRepaintTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRepaintTypes_e.html)
-
-(only the first two types are supported)
+- `paintType`: Valid paint type as defined in [swRepaintTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRepaintTypes_e.html) (only the first two types are supported)
 
 ## VBA Syntax
 
-See
-
-[RepaintNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~RepaintNotify_EV.html)
-
-.
+See [RepaintNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~RepaintNotify_EV.html).
 
 ## Remarks
 
-Returns S_false to stop from proceeding with the action that caused the notification. This also prevents sending the IModelView[BufferSwapNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DModelViewEvents_BufferSwapNotifyEventHandler.html)event.
+Returns S_false to stop from proceeding with the action that caused the notification. This also prevents sending the IModelView [BufferSwapNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DModelViewEvents_BufferSwapNotifyEventHandler.html) event.
 
-If developing a C++ application, use[swViewBufferSwapNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)to register for this notification.
+If developing a C++ application, use [swViewBufferSwapNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) to register for this notification.
 
 ## Availability
 

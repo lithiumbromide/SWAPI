@@ -44,22 +44,15 @@ property swDimXpertPatternTreatmentType_e PatternTreatment {
 
 ### Property Value
 
-Pattern treatment type as defined in
-
-[swDimXpertPatternTreatmentType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertPatternTreatmentType_e.html)
+Pattern treatment type as defined in [swDimXpertPatternTreatmentType_e](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.swDimXpertPatternTreatmentType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DimXpertDistanceBetweenDimTol::PatternTreatment](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDistanceBetweenDimTol~PatternTreatment.html)
-
-.
+See [DimXpertDistanceBetweenDimTol::PatternTreatment](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDistanceBetweenDimTol~PatternTreatment.html).
 
 ## See Also
 
 [IDimXpertDistanceBetweenDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDistanceBetweenDimTol.html)
-
 [IDimXpertDistanceBetweenDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDistanceBetweenDimTol_members.html)
 
 ## Availability

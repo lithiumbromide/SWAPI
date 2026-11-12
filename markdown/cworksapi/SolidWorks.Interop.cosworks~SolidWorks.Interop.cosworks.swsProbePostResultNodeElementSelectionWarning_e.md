@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPr
 
 # swsProbePostResultNodeElementSelectionWarning_e Enumeration
 
-Results probe selection warnings.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Results probe selection warnings. [Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm).
 
 ## Syntax
 

@@ -40,13 +40,7 @@ System.double GetAngle()
 System.double GetAngle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,15 @@ Symbol angle
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::GetAngle](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetAngle.html)
-
-.
+See [SFSymbol::GetAngle](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetAngle.html).
 
 ## Remarks
 
-See[ISFSymbol::Orientation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~Orientation.html)and[ISFSymbol::SetAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~SetAngle.html)for details on how to set the angle of a surface finish symbol.
+See [ISFSymbol::Orientation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~Orientation.html) and [ISFSymbol::SetAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~SetAngle.html) for details on how to set the angle of a surface finish symbol.
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)
 
 ## Availability

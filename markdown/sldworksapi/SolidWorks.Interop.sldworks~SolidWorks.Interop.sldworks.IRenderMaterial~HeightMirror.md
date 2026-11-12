@@ -45,13 +45,7 @@ property System.bool HeightMirror {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True to flip the appearance texture about the selected direction vertically, fal
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::HeightMirror](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~HeightMirror.html)
-
-.
+See [RenderMaterial::HeightMirror](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~HeightMirror.html).
 
 ## Remarks
 
-Call[IRenderMaterial::WidthMirror](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~WidthMirror.html)to flip the appearance texture about the selected direction horizontally.
+Call [IRenderMaterial::WidthMirror](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~WidthMirror.html) to flip the appearance texture about the selected direction horizontally.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

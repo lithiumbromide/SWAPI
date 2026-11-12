@@ -45,33 +45,19 @@ property System.String^ ShaftFit {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Shaft fit (see
-
-Remarks
-
-)
+Shaft fit (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[StraightElementData::ShaftFit](ms-its:sldworksapivb6.chm::/sldworks~StraightElementData~ShaftFit.html)
-
-.
+See [StraightElementData::ShaftFit](ms-its:sldworksapivb6.chm::/sldworks~StraightElementData~ShaftFit.html).
 
 ## Remarks
 
-This property is valid only if[IAdvancedHoleElementData::FastenerType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~FastenerType.html)is set to[swWzdHoleStandardFastenerTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdHoleStandardFastenerTypes_e.html).swStandard*DowelHoles.
+This property is valid only if [IAdvancedHoleElementData::FastenerType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~FastenerType.html) is set to [swWzdHoleStandardFastenerTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdHoleStandardFastenerTypes_e.html).swStandard*DowelHoles.
 
 Set this property to one of the following:
 
@@ -80,7 +66,6 @@ c8, c9, c11, d8, d9, d10, d11, e7, e8, e9, f6, f7, f8, g4, g5, g6, g7, h5, h6, h
 ## See Also
 
 [IStraightElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData.html)
-
 [IStraightElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightElementData_members.html)
 
 ## Availability

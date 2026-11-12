@@ -9,19 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumnType.html"
 
 # EdmBomColumnType Enumeration
 
-Types of Bill of Material (BOM) column content; specified in
-
-[EdmBomColumn](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html)
-
-and in calls to
-
-[IEdmBomCell:GetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell~GetVar.html)
-
-, and
-
-[IEdmBomCell::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell~SetVar.html)
-
-.
+Types of Bill of Material (BOM) column content; specified in [EdmBomColumn](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html) and in calls to [IEdmBomCell:GetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell~GetVar.html), and [IEdmBomCell::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell~SetVar.html).
 
 ## Syntax
 

@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnButtonPress Method (IPropertyManagerPage2Handler3)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnButtonPress](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnButtonPress.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnButtonPress](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnButtonPress.html).
 
 ## Syntax
 
@@ -56,14 +52,9 @@ void OnButtonPress(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler3::OnButtonPress](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler3~OnButtonPress.html)
-
-.
+See [PropertyManagerPage2Handler3::OnButtonPress](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler3~OnButtonPress.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler3 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler3.html)
-
 [IPropertyManagerPage2Handler3 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler3_members.html)

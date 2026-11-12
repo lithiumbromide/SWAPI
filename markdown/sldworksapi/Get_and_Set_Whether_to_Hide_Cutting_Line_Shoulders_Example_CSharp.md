@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Whether_to_Hide_Cutting_Line_Shoulders_Example_
 
 # Get and Set Whether to Hide Cutting Line Shoulders Example (C#)
 
-This example shows how to get and set whether to hide cutting line shoulders
-in a section view.
+This example shows how to get and set whether to hide cutting line shoulders in a section view.
 
 ```
 //--------------------------------------------------------------------------

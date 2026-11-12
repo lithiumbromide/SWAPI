@@ -47,13 +47,7 @@ System.bool RemoveCommandItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[FlyoutGroup::RemoveCommandItem](ms-its:sldworksapivb6.chm::/sldworks~FlyoutGroup~RemoveCommandItem.html)
-
-.
+See [FlyoutGroup::RemoveCommandItem](ms-its:sldworksapivb6.chm::/sldworks~FlyoutGroup~RemoveCommandItem.html).
 
 ## See Also
 
 [IFlyoutGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup.html)
-
 [IFlyoutGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup_members.html)
-
 [IFlyoutGroup::RemoveAllCommandItems Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup~RemoveAllCommandItems.html)
-
 [IFlyoutGroup::ReplaceCommandItem Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup~ReplaceCommandItem.html)
 
 ## Availability

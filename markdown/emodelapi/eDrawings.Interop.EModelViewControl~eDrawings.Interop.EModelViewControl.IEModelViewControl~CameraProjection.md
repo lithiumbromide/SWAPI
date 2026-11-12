@@ -49,27 +49,19 @@ property System.String^ CameraProjection {
 
 Valid string values:
 
-- Perspective
-- Orthographic
+- **Perspective**
+- **Orthographic**
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::CameraProjection](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~CameraProjection.html)
-
-.
+See [EModelViewControl::CameraProjection](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~CameraProjection.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::ViewCamera Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ViewCamera.html)
-
 [IEModelViewControl::CameraNearClip Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CameraNearClip.html)
-
 [IEModelViewControl::StereoFocalLength Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~StereoFocalLength.html)
 
 ## Availability

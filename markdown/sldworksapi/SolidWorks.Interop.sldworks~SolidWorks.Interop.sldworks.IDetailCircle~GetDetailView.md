@@ -40,30 +40,19 @@ View GetDetailView()
 View^ GetDetailView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the[drawing view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)that owns this detail circle
+Pointer to the [drawing view](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html) that owns this detail circle
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::GetDetailView](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~GetDetailView.html)
-
-.
+See [DetailCircle::GetDetailView](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~GetDetailView.html).
 
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
 
 ## Availability

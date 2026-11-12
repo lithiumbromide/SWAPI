@@ -1,6 +1,5 @@
 ---
-title: "CWLoadsAndRestraintsManager Object
-Members"
+title: "CWLoadsAndRestraintsManager Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWLoadsAndRestraintsManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWLoadsAndRestraintsManager_members.html"
 ---
 
-# CWLoadsAndRestraintsManager Object
-Members
+# CWLoadsAndRestraintsManager Object Members
 
 ## Public Methods
 
@@ -17,6 +15,7 @@ Members
 | --- | --- |
 | Public Method AddBearingLoad |  |
 | Public Method AddBoltConnector |  |
+| Public Method AddCable |  |
 | Public Method AddCentrifugalForce |  |
 | Public Method AddConvection |  |
 | Public Method AddCyclicSymmetryRestraint |  |
@@ -26,6 +25,7 @@ Members
 | Public Method AddForce |  |
 | Public Method AddForce2 |  |
 | Public Method AddForce3 |  |
+| Public Method AddGeneralSpringConnector |  |
 | Public Method AddGravity |  |
 | Public Method AddHeatFlux |  |
 | Public Method AddHeatPower |  |
@@ -50,7 +50,9 @@ Members
 | Public Method CopyLoadsAndRestraintsToStudy |  |
 | Public Method DeleteLoadsAndRestraints |  |
 | Public Method GetBearingConnector |  |
+| Public Method GetCable |  |
 | Public Method GetEdgeWeldConnector |  |
+| Public Method GetGeneralSpringConnector |  |
 | Public Method GetLinkageRod |  |
 | Public Method GetLoadsAndRestraints |  |
 

@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission_fields.h
 
 # EdmFolderPermission Structure Fields
 
-For a list of all members of this type, see[EdmFolderPermission members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission_members.html).
+For a list of all members of this type, see [EdmFolderPermission members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission_members.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ For a list of all members of this type, see[EdmFolderPermission members](EPDM.In
 ## See Also
 
 [EdmFolderPermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

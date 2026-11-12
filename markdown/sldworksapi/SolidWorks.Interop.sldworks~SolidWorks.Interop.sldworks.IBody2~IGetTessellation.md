@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IGetTessellation Method (IBody2)
 
-Gets the
-
-[ITessellation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation.html)
-
-object.
+Gets the [ITessellation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation.html) object.
 
 ## Syntax
 
@@ -55,13 +51,7 @@ Tessellation^ IGetTessellation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,15 +60,11 @@ See
 
 ### Return Value
 
-Pointer to the[ITessellation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation.html)object
+Pointer to the [ITessellation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation.html) object
 
 ## VBA Syntax
 
-See
-
-[Body2::IGetTessellation](ms-its:sldworksapivb6.chm::/sldworks~Body2~IGetTessellation.html)
-
-.
+See [Body2::IGetTessellation](ms-its:sldworksapivb6.chm::/sldworks~Body2~IGetTessellation.html).
 
 ## Examples
 
@@ -87,9 +73,7 @@ See
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::GetTessellation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetTessellation.html)
 
 ## Availability

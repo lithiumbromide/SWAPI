@@ -46,11 +46,7 @@ Number of secondary datums
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertGeometricTolerance::GetSecondaryDatumCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertGeometricTolerance~GetSecondaryDatumCount.html)
-
-.
+See [SwDMDimXpertGeometricTolerance::GetSecondaryDatumCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertGeometricTolerance~GetSecondaryDatumCount.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertGeometricTolerance Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertGeometricTolerance.html)
-
 [ISwDMDimXpertGeometricTolerance Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertGeometricTolerance_members.html)
 
 ## Availability

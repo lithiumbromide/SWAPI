@@ -44,22 +44,16 @@ property PDMWLinks^ WhereUsed {
 
 ### Property Value
 
-Collection of[links](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)of documents that reference this configuration
+Collection of [links](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html) of documents that reference this configuration
 
 ## VBA Syntax
 
-See
-
-[PDMWConfiguration::WhereUsed](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~WhereUsed.html)
-
-.
+See [PDMWConfiguration::WhereUsed](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~WhereUsed.html).
 
 ## See Also
 
 [IPDMWConfiguration Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)
-
 [IPDMWConfiguration Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration_members.html)
-
 [IPDMWLinks Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)
 
 ## Availability

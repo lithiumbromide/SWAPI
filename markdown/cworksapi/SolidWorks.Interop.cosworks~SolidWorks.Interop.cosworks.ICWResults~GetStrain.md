@@ -63,11 +63,11 @@ System.Object^ GetStrain(
 
 - `NElementNumber`: Element number:
 
-- 0 = Nodal
-- 1 = Elemental
+  - 0 = Nodal
+  - 1 = Elemental
 - `NStepNum`: Solution step number (use 1 for static)
 - `DispPlane`: Reference geometry
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -75,11 +75,7 @@ Array of strain results
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetStrain](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetStrain.html)
-
-.
+See [CWResults::GetStrain](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetStrain.html).
 
 ## Remarks
 
@@ -88,13 +84,9 @@ EPSx, EPSy, EPSz, GMxy, GMyz, GMxz, ESTRN, SEDENS, ENERGY, E1, E2, and E3 for al
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetStrainComponentForAllStepsAtNode Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStrainComponentForAllStepsAtNode.html)
-
 [ICWResults::GetStrainForEntities Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetStrainForEntities.html)
-
 [ICWResults::GetMinMaxStrain Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxStrain.html)
 
 ## Availability

@@ -43,47 +43,31 @@ public delegate System.int DAssemblyDocEvents_RegenPostNotify2EventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `stopFeature`: - If rolled back, the
+- `stopFeature`: - If rolled back, the [assembly feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html) below the rollback bar in the FeatureManager design tree
 
-  [assembly feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
-  below the rollback bar in the FeatureManager design tree
-
-- If rebuilt, Nothing or null
+  - If rebuilt, Nothing or null
 
 ## VBA Syntax
 
-See
-
-[RegenPostNotify2 Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~RegenPostNotify2_EV.html)
-
-.
+See [RegenPostNotify2 Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~RegenPostNotify2_EV.html).
 
 ## Examples
 
 [Fire Assembly Rebuild Events (C#)](Regen_Post_Notify2_Event_Handler_Example_CSharp.htm)
-
 [Fire Assembly Rebuild Events (VB.NET)](Regen_Post_Notify2_Event_Handler_Example_VBNET.htm)
-
 [Fire Assembly Rebuild Events (VBA)](Regen_Post_Notify2_Event_Handler_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyRegenPostNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyRegenPostNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
-Use[DAssemblyDocEvents RegenNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_RegenNotifyEventHandler.html)to fire an event before the assembly is about to be rebuilt.
+Use [DAssemblyDocEvents RegenNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_RegenNotifyEventHandler.html) to fire an event before the assembly is about to be rebuilt.
 
-You can also use[IModelDoc2::GetUpdateStamp](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetUpdateStamp.html)to determine when changes take place in this document.
+You can also use [IModelDoc2::GetUpdateStamp](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetUpdateStamp.html) to determine when changes take place in this document.
 
 ## Availability
 

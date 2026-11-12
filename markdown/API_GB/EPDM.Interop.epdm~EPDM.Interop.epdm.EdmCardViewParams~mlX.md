@@ -35,5 +35,4 @@ System.int mlX
 ## See Also
 
 [EdmCardViewParams Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams.html)
-
 [EdmCardViewParams Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardViewParams_members.html)

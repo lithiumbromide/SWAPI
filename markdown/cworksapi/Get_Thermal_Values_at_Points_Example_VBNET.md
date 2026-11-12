@@ -1,6 +1,5 @@
 ---
-title: "Get Thermal Values at Points
-Example (VB.NET)"
+title: "Get Thermal Values at Points Example (VB.NET)"
 project: ""
 interface: ""
 member: ""
@@ -8,11 +7,9 @@ kind: "example"
 source: "cworksapi/Get_Thermal_Values_at_Points_Example_VBNET.htm"
 ---
 
-# Get Thermal Values at Points
-Example (VB.NET)
+# Get Thermal Values at Points Example (VB.NET)
 
-## Get Thermal Values
-Example (VB.NET)
+## Get Thermal Values Example (VB.NET)
 
 This example shows how to get thermal values in a thermal study.
 

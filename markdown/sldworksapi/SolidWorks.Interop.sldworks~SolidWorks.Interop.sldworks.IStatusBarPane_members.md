@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISt
 
 # IStatusBarPane Interface Members
 
-The following tables list the members exposed by[IStatusBarPane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStatusBarPane.html).
+The following tables list the members exposed by [IStatusBarPane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStatusBarPane.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[IStatusBarPane](SolidWorks.Inte
 ## See Also
 
 [IStatusBarPane Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStatusBarPane.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -40,42 +40,25 @@ Feature InsertWeldmentFeature()
 Feature^ InsertWeldmentFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertWeldmentFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertWeldmentFeature.html)
-
-.
+See [FeatureManager::InsertWeldmentFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertWeldmentFeature.html).
 
 ## Examples
 
 [Insert Structural Weldment (C#)](Insert_Structural_Weldment_Example_CSharp.htm)
-
 [Insert Structural Weldment (VB.NET)](Insert_Structural_Weldment_Example_VBNET.htm)
-
 [Insert Structural Weldment (VBA)](Insert_Structural_Weldment_Example_VB.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # GetPrimaryPrecision Method (IDisplayDimension)
 
-Obsolete. Superseded by
-
-[IDisplayDimension::GetPrimaryPrecision2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetPrimaryPrecision2.html)
-
-.
+Obsolete. Superseded by [IDisplayDimension::GetPrimaryPrecision2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension~GetPrimaryPrecision2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetPrimaryPrecision()
 System.int GetPrimaryPrecision();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetPrimaryPrecision](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetPrimaryPrecision.html)
-
-.
+See [DisplayDimension::GetPrimaryPrecision](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetPrimaryPrecision.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)

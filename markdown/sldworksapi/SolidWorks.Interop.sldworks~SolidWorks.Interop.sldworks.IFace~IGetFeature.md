@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetFeature Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetFeature.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetFeature.html)
+Obsolete. Superseded by [IFace2::IGetFeature.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetFeature.html)
 
 ## Syntax
 
@@ -42,24 +40,13 @@ Feature IGetFeature()
 Feature^ IGetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::IGetFeature](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetFeature.html)
-
-.
+See [Face::IGetFeature](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetFeature.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

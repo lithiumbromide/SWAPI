@@ -45,13 +45,7 @@ property System.bool MapConfigurationData {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ True to import the STEP file configuration data plus geometric data, false to im
 
 ## VBA Syntax
 
-See
-
-[ImportStepData::MapConfigurationData](ms-its:sldworksapivb6.chm::/sldworks~ImportStepData~MapConfigurationData.html)
-
-.
+See [ImportStepData::MapConfigurationData](ms-its:sldworksapivb6.chm::/sldworks~ImportStepData~MapConfigurationData.html).
 
 ## Examples
 
 [Import STEP File (C#)](Import_STEP_File_Example_CSharp.htm)
-
 [Import STEP File (VB.NET)](Import_STEP_File_Example_VBNET.htm)
-
 [Import STEP File (VBA)](Import_STEP_File_Example_VB.htm)
 
 ## Remarks
 
-If this property is not set, then the current default environment setting,
-
-[swImportStepConfigData](ms-its:swconst.chm::/FileOpenOptionsGeneral.htm)
-
-, is used. If this property is set, its setting overrides the swImportStepConfigData setting for this import only.
+If this property is not set, then the current default environment setting, [swImportStepConfigData](ms-its:swconst.chm::/FileOpenOptionsGeneral.htm), is used. If this property is set, its setting overrides the swImportStepConfigData setting for this import only.
 
 ## See Also
 
 [IImportStepData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportStepData.html)
-
 [IImportStepData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportStepData_members.html)
 
 ## Availability

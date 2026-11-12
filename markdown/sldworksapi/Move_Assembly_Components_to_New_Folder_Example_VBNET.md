@@ -9,8 +9,7 @@ source: "sldworksapi/Move_Assembly_Components_to_New_Folder_Example_VBNET.htm"
 
 # Move Assembly Components to New Folder Example (VB.NET)
 
-This example shows how to move selected assembly components to a newly
-created folder in the FeatureManager design tree.
+This example shows how to move selected assembly components to a newly created folder in the FeatureManager design tree.
 
 ```
 '---------------------------------------------------------------------------
@@ -153,8 +152,4 @@ Imports SolidWorks.Interop.sldworks
 	    Public swApp As SldWorks
 
 	End Class
-```
-
-```vb
-kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}
 ```

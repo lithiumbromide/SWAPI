@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Bidirectional_Swept-cut_Feature_Example_VB.htm"
 
 # Insert Swept-cut Feature With Bidirectional Twist Example (VBA)
 
-This example shows how to create a swept-cut feature with a bidirectional
-twist.
+This example shows how to create a swept-cut feature with a bidirectional twist.
 
 ```vb
  '-----------------------------------------------------------------------

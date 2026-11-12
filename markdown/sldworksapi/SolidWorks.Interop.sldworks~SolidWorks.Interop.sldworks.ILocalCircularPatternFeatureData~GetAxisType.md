@@ -40,13 +40,7 @@ System.int GetAxisType()
 System.int GetAxisType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,20 +52,13 @@ Axis type used to create the circular pattern:
 
 ## VBA Syntax
 
-See
-
-[LocalCircularPatternFeatureData::GetAxisType](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~GetAxisType.html)
-
-.
+See [LocalCircularPatternFeatureData::GetAxisType](ms-its:sldworksapivb6.chm::/sldworks~LocalCircularPatternFeatureData~GetAxisType.html).
 
 ## See Also
 
 [ILocalCircularPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData.html)
-
 [ILocalCircularPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData_members.html)
-
 [ILocalCircularPatternFeatureData::Axis Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData~Axis.html)
-
 [ILocalCircularPatternFeatureData::ReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalCircularPatternFeatureData~ReverseDirection.html)
 
 ## Availability

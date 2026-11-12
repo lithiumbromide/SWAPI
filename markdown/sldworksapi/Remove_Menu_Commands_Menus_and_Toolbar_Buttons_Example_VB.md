@@ -13,8 +13,7 @@ This example shows how to:
 
 - retrieve the name of the parent menu.
 - remove a toolbar button.
-- remove a command from the main frame and context-sensitive
-  menus.
+- remove a command from the main frame and context-sensitive menus.
 
 ```
 '----------------------------------------------------------------
@@ -25,9 +24,9 @@ This example shows how to:
 '
 ' Postconditions:
 ' 1. Removes the Filter Edges button on the Selection
-'    Filter toolbar for this SOLIDWORKS session.
+'    Filter toolbar for this SOLIDWORKS Design session.
 ' 2. Removes the Suppress command from the main frame and
-'    context-sensitive menus for this SOLIDWORKS session.
+'    context-sensitive menus for this SOLIDWORKS Design session.
 ' 3. Examine the Selection Filter toolbar to verify step 1.
 ' 4. Click or right-click a feature to verify step 2.
 '----------------------------------------------------------------

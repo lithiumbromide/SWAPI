@@ -45,30 +45,19 @@ property System.int TargetStyle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Connection style as defined in[swCalloutTargetStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCalloutTargetStyle_e.html)
+Connection style as defined in [swCalloutTargetStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCalloutTargetStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[Callout::TargetStyle](ms-its:sldworksapivb6.chm::/sldworks~Callout~TargetStyle.html)
-
-.
+See [Callout::TargetStyle](ms-its:sldworksapivb6.chm::/sldworks~Callout~TargetStyle.html).
 
 ## See Also
 
 [ICallout Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout.html)
-
 [ICallout Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout_members.html)
 
 ## Availability

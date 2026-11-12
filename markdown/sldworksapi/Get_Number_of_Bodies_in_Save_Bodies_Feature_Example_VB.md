@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Number_of_Bodies_in_Save_Bodies_Feature_Example_VB.htm"
 
 # Get Number of Bodies in Save Bodies Feature (VBA)
 
-This example shows how to get the number of bodies in a Save Bodies
-feature.
+This example shows how to get the number of bodies in a Save Bodies feature.
 
 ```
 '----------------------------------------------------

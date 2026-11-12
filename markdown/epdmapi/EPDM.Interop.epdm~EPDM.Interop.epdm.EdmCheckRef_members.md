@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef_members.html"
 
 # EdmCheckRef Structure Members
 
-The following tables list the members exposed by[EdmCheckRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef.html).
+The following tables list the members exposed by [EdmCheckRef](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef.html).
 
 ## Public Fields
 
@@ -28,5 +28,4 @@ The following tables list the members exposed by[EdmCheckRef](EPDM.Interop.epdm~
 ## See Also
 
 [EdmCheckRef Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCheckRef.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

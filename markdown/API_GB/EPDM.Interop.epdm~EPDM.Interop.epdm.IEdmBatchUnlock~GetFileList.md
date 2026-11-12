@@ -39,11 +39,7 @@ EdmSelectionList5^ GetFileList(
 
 ### Parameters
 
-- `lEdmUnlockFileListFlags`: Combination of
-
-[EdmUnlockFileListFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockFileListFlag.html)
-
-bits
+- `lEdmUnlockFileListFlags`: Combination of [EdmUnlockFileListFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockFileListFlag.html) bits
 
 ### Return Value
 
@@ -51,15 +47,11 @@ bits
 
 ## Examples
 
-See the
-
-[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
-examples.
+See the [IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) examples.
 
 ## Remarks
 
-See the[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)remarks for information about using this method.
+See the [IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) remarks for information about using this method.
 
 [Return codes](ReturnCodes.htm):
 
@@ -69,7 +61,6 @@ See the[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.htm
 ## See Also
 
 [IEdmBatchUnlock Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)
-
 [IEdmBatchUnlock Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock_members.html)
 
 ## Availability

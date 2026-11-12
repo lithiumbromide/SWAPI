@@ -62,11 +62,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertIntersectPlaneFeature::GetFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectPlaneFeature~GetFeatures.html)
-
-.
+See [SwDMDimXpertIntersectPlaneFeature::GetFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertIntersectPlaneFeature~GetFeatures.html).
 
 ## Examples
 
@@ -75,7 +71,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertIntersectPlaneFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectPlaneFeature.html)
-
 [ISwDMDimXpertIntersectPlaneFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertIntersectPlaneFeature_members.html)
 
 ## Availability

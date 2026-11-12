@@ -47,13 +47,7 @@ System.double IGetBreakLineInfo2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,28 +55,22 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of break line information (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of break line information (see **Remarks**)
 - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
-Before calling this method, call[IView::GetBreakLineCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBreakLineCount2.html)to get the value for ArraySize.
+Before calling this method, call [IView::GetBreakLineCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetBreakLineCount2.html) to get the value for ArraySize.
 
 The return value is a one-dimensional array consisting of the following data:
 
 [ breaklineStyle, color, lineType, lineStyleIndex, lineWeight, layerId,
 
-layerOverride, numLines, numArcs, numSplines, [break line data]]
+layerOverride, numLines, numArcs, numSplines, [break line data] ]
 
 where:
-
-(Table)=========================================================
 
 | breaklineStyle | Break line style as defined in swBreakLineStyle_e |
 | --- | --- |
@@ -96,8 +84,6 @@ where:
 | numArcs | Number of arc lines if a curve break |
 | numSplines | Number of spline lines if a jagged break |
 
-(Table)=========================================================
-
 | If the break line style is swBreakLineStyle_e... | Then [ break line data ] is packed with... |
 | --- | --- |
 | swBreakLine_Straight | 12 doubles (2 lines * 1 segment * 2 points * 3 coordinates) |
@@ -106,24 +92,15 @@ where:
 | swBreakLine_Curve | for each arc line in the break: arc direction (1 double) start point (3 doubles) end point (3 doubles) center point (3 doubles) |
 | swBreakLine_Jagged | for each spline line in the break: n (1 integer) 3* n doubles ( n points * 3 coordinates) where: n is the number of spline points generated based on the jagged cut shape intensity selected by the user in the Break View Property Manager |
 
-(Table)=========================================================
-
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetBreakLineInfo2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLineInfo2.html)
-
 [IView::GetBreakLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLines.html)
-
 [IView::IGetBreakLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetBreakLines.html)
-
 [IView::IsBroken Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IsBroken.html)
-
 [IView::BreakLineGap Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~BreakLineGap.html)
-
 [IView::InsertBreak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBreak.html)
 
 ## Availability

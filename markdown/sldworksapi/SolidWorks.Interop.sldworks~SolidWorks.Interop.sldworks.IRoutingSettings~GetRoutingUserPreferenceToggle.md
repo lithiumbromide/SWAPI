@@ -47,19 +47,11 @@ System.bool GetRoutingUserPreferenceToggle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UserPreferenceToggle`: User preference as defined in
-
-[swUserPreferenceRoutingToggle_e](ms-its:routingapi.chm::/SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swUserPreferenceRoutingToggle_e.html)
+- `UserPreferenceToggle`: User preference as defined in [swUserPreferenceRoutingToggle_e](ms-its:routingapi.chm::/SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.swUserPreferenceRoutingToggle_e.html)
 
 ### Return Value
 
@@ -67,26 +59,16 @@ True if on, false if off
 
 ## VBA Syntax
 
-See
-
-[RoutingSettings::GetRoutingUserPreferenceToggle](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~GetRoutingUserPreferenceToggle.html)
-
-.
+See [RoutingSettings::GetRoutingUserPreferenceToggle](ms-its:sldworksapivb6.chm::/sldworks~RoutingSettings~GetRoutingUserPreferenceToggle.html).
 
 ## Examples
 
-See the
-
-[IRoutingSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html)
-
-examples.
+See the [IRoutingSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html) examples.
 
 ## See Also
 
 [IRoutingSettings Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html)
-
 [IRoutingSettings Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings_members.html)
-
 [IRoutingSettings::SetRoutingUserPreferenceToggle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings~SetRoutingUserPreferenceToggle.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "PMIDatumTarget Object
-Members"
+title: "PMIDatumTarget Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PMIDatumTarget_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PMIDatumTarget_members.html"
 ---
 
-# PMIDatumTarget Object
-Members
+# PMIDatumTarget Object Members
 
 ## Public Methods
 

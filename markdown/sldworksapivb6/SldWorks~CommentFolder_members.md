@@ -1,6 +1,5 @@
 ---
-title: "CommentFolder Object
-Members"
+title: "CommentFolder Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CommentFolder_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CommentFolder_members.html"
 ---
 
-# CommentFolder Object
-Members
+# CommentFolder Object Members
 
 ## Public Methods
 

@@ -45,30 +45,19 @@ property System.int Orientation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Page orientation as defined in[swPageSetupOrientation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPageSetupOrientation_e.html)
+Page orientation as defined in [swPageSetupOrientation_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPageSetupOrientation_e.html)
 
 ## VBA Syntax
 
-See
-
-[PageSetup::Orientation](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~Orientation.html)
-
-.
+See [PageSetup::Orientation](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~Orientation.html).
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)
 
 ## Availability

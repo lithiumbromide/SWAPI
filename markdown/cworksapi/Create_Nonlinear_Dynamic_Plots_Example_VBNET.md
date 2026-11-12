@@ -9,8 +9,7 @@ source: "cworksapi/Create_Nonlinear_Dynamic_Plots_Example_VBNET.htm"
 
 # Create Nonlinear Dynamic Plots Example (VB.NET)
 
-This example shows how to a create a plot of a specific solution step of a nonlinear dynamic
-study.
+This example shows how to a create a plot of a specific solution step of a nonlinear dynamic study.
 
 ```vb
   '----------------------------------------------------------------------------

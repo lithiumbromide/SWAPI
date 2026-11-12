@@ -40,42 +40,25 @@ Centerline InsertCenterLine2()
 Centerline^ InsertCenterLine2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[ICenterLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterLine.html)
-
-object
+Pointer to the [ICenterLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterLine.html) object
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertCenterLine2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCenterLine2.html)
-
-.
+See [DrawingDoc::InsertCenterLine2](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertCenterLine2.html).
 
 ## Examples
 
 [Get Centerlines in Drawing (C#)](Get_Centerlines_in_Drawing_Example_CSharp.htm)
-
 [Get Centerlines in Drawing (VB.NET)](Get_Centerlines_in_Drawing_Example_VBNET.htm)
-
 [Get Centerlines in Drawing (VBA)](Get_Centerlines_in_Drawing_Example_VB.htm)
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
 
 ## Availability

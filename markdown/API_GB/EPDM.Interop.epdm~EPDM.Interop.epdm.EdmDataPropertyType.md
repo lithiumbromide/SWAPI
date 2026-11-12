@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDataPropertyType.html"
 
 # EdmDataPropertyType Enumeration
 
-Property types; used in calls to
-
-[IEdmData::Get](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData~Get.html)
-
-and
-
-[IEdmData::Set](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData~Set.html)
-
-.
+Property types; used in calls to [IEdmData::Get](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData~Get.html) and [IEdmData::Set](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData~Set.html).
 
 ## Syntax
 

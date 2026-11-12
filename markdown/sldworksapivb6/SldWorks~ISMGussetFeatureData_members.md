@@ -1,6 +1,5 @@
 ---
-title: "ISMGussetFeatureData Object
-Members"
+title: "ISMGussetFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ISMGussetFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ISMGussetFeatureData_members.html"
 ---
 
-# ISMGussetFeatureData Object
-Members
+# ISMGussetFeatureData Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBa
 
 # D2OffsetType Property (IBaseFlangeFeatureData)
 
-Obsolete. Superseded by
-
-[IBaseFlangeFeatureData::D2EndConditionType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~D2EndConditionType.html)
-
-.
+Obsolete. Superseded by [IBaseFlangeFeatureData::D2EndConditionType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~D2EndConditionType.html).
 
 ## Syntax
 
@@ -49,34 +45,20 @@ property System.int D2OffsetType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Offset type as defined in
-
-[swFlangeOffsetTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangeOffsetTypes_e.html)
+Offset type as defined in [swFlangeOffsetTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangeOffsetTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::D2OffsetType](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D2OffsetType.html)
-
-.
+See [BaseFlangeFeatureData::D2OffsetType](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D2OffsetType.html).
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::D1OffsetType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~D1OffsetType.html)
 
 ## Availability

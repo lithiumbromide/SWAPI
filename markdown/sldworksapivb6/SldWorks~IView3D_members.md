@@ -1,6 +1,5 @@
 ---
-title: "IView3D Object
-Members"
+title: "IView3D Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IView3D_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IView3D_members.html"
 ---
 
-# IView3D Object
-Members
+# IView3D Object Members
 
 ## Public Methods
 

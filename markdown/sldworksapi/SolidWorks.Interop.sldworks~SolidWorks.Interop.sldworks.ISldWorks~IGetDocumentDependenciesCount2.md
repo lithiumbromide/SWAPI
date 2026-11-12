@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # IGetDocumentDependenciesCount2 Method (ISldWorks)
 
-Gets the size of the array needed for a call to
-
-[ISldWorks::IGetDocumetnDependencies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetDocumentDependencies2.html)
-
-.
+Gets the size of the array needed for a call to [ISldWorks::IGetDocumetnDependencies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetDocumentDependencies2.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ System.int IGetDocumentDependenciesCount2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,26 +70,20 @@ See
 
 ### Return Value
 
-Number of strings returned by[ISldWorks::IGetDocumetnDependencies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetDocumentDependencies2.html)
+Number of strings returned by [ISldWorks::IGetDocumetnDependencies2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetDocumentDependencies2.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IGetDocumentDependenciesCount2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetDocumentDependenciesCount2.html)
-
-.
+See [SldWorks::IGetDocumentDependenciesCount2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetDocumentDependenciesCount2.html).
 
 ## Remarks
 
-If SearchFlag is set to True, then the current directory is set to the directory of the document file. This is the same as interactively clikcing theReferencesbutton in the File Open dialog.
+If SearchFlag is set to True, then the current directory is set to the directory of the document file. This is the same as interactively clikcing the References button in the File Open dialog.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetDocumentDependencies2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentDependencies2.html)
 
 ## Availability

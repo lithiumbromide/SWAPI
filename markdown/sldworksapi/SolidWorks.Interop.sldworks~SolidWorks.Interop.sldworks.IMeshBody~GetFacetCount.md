@@ -40,13 +40,7 @@ System.int GetFacetCount()
 System.int GetFacetCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of facets
 
 ## VBA Syntax
 
-See
-
-[MeshBody::GetFacetCount](ms-its:sldworksapivb6.chm::/sldworks~MeshBody~GetFacetCount.html)
-
-.
+See [MeshBody::GetFacetCount](ms-its:sldworksapivb6.chm::/sldworks~MeshBody~GetFacetCount.html).
 
 ## Examples
 
-See the
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-examples.
+See the [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html) examples.
 
 ## See Also
 
 [IMeshBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody.html)
-
 [IMeshBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody_members.html)
-
 [IMeshBody::GetFacets Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeshBody~GetFacets.html)
 
 ## Availability

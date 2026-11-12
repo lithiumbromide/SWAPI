@@ -9,19 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~CommitDelete
 
 # CommitDelete Method (IEdmBatchDelete)
 
-Deletes the files and folders added to the batch by
-
-[IEdmBatchDelete::AddFileByID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFileByID.html)
-
-,
-
-[IEdmBatchDelete::AddFileByPath](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFileByPath.html)
-
-, and/or
-
-[IEdmBatchDelete::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFolder.html)
-
-.
+Deletes the files and folders added to the batch by [IEdmBatchDelete::AddFileByID](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFileByID.html), [IEdmBatchDelete::AddFileByPath](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFileByPath.html), and/or [IEdmBatchDelete::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~AddFolder.html).
 
 ## Syntax
 
@@ -55,11 +43,7 @@ System.bool CommitDelete(
 ### Parameters
 
 - `hParentWnd`: Parent window handle that is passed to add-ins that are notified about file or folder deletions from the vault
-- `poCallback`: Optional pointer to a class that implements
-
-[IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
-to provide delete progress feedback to the user
+- `poCallback`: Optional pointer to a class that implements [IEdmCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html) to provide delete progress feedback to the user
 
 ### Return Value
 
@@ -67,17 +51,13 @@ True if no errors occurred, false if errors occurred
 
 ## Examples
 
-See the
-
-[IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
-examples.
+See the [IEdmBatchDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html) examples.
 
 ## Remarks
 
-Before calling this method, you must call[IEdmBatchDelete::ComputePermissions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ComputePermissions.html).
+Before calling this method, you must call [IEdmBatchDelete::ComputePermissions](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ComputePermissions.html).
 
-If errors occurred during IEdmBatchDelete::CommitDelete, call[IEdmBatchDelete::ShowCommitErrorsDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ShowCommitErrorsDlg.html)or[IEdmBatchDelete3::GetCommitErrors](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3~GetCommitErrors.html).
+If errors occurred during IEdmBatchDelete::CommitDelete, call [IEdmBatchDelete::ShowCommitErrorsDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~ShowCommitErrorsDlg.html) or [IEdmBatchDelete3::GetCommitErrors](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3~GetCommitErrors.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -87,7 +67,6 @@ If errors occurred during IEdmBatchDelete::CommitDelete, call[IEdmBatchDelete::S
 ## See Also
 
 [IEdmBatchDelete Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete.html)
-
 [IEdmBatchDelete Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete_members.html)
 
 ## Availability

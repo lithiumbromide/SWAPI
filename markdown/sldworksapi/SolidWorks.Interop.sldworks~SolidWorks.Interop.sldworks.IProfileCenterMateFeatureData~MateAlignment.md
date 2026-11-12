@@ -45,35 +45,19 @@ property System.int MateAlignment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Mate alignment as defined in
-
-[swMateAlign_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateAlign_e.html)
+Mate alignment as defined in [swMateAlign_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateAlign_e.html)
 
 ## VBA Syntax
 
-See
-
-[ProfileCenterMateFeatureData::MateAlignment](ms-its:sldworksapivb6.chm::/sldworks~ProfileCenterMateFeatureData~MateAlignment.html)
-
-.
+See [ProfileCenterMateFeatureData::MateAlignment](ms-its:sldworksapivb6.chm::/sldworks~ProfileCenterMateFeatureData~MateAlignment.html).
 
 ## Examples
 
-See the
-
-[IProfileCenterMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData.html)
-
-examples.
+See the [IProfileCenterMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData.html) examples.
 
 ## Remarks
 
@@ -85,7 +69,6 @@ If this property is set to swMateAlign_e:
 ## See Also
 
 [IProfileCenterMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData.html)
-
 [IProfileCenterMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProfileCenterMateFeatureData_members.html)
 
 ## Availability

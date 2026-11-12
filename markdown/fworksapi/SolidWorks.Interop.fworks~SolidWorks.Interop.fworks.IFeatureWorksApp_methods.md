@@ -9,7 +9,7 @@ source: "fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureW
 
 # IFeatureWorksApp Interface Methods
 
-For a list of all members of this type, see[IFeatureWorksApp members](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp_members.html).
+For a list of all members of this type, see [IFeatureWorksApp members](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp_members.html).
 
 ## Public Methods
 
@@ -26,5 +26,4 @@ For a list of all members of this type, see[IFeatureWorksApp members](SolidWorks
 ## See Also
 
 [IFeatureWorksApp Interface](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp.html)
-
 [SolidWorks.Interop.fworks Namespace](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks_namespace.html)

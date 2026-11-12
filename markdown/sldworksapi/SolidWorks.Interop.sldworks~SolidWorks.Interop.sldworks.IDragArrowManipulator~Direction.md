@@ -45,42 +45,23 @@ property MathVector^ Direction {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to
-
-[IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-object
+Pointer to [IMathVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) object
 
 ## VBA Syntax
 
-See
-
-[DragArrowManipulator::Direction](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~Direction.html)
-
-.
+See [DragArrowManipulator::Direction](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator~Direction.html).
 
 ## Examples
 
-See
-
-[IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html)
-
-examples.
+See [IDragArrowManipulator](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDragArrowManipulator.html) examples.
 
 ## See Also
 
 [IDragArrowManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator.html)
-
 [IDragArrowManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator_members.html)
 
 ## Availability

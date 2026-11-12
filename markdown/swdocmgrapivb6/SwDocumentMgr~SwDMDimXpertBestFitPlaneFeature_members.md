@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertBestFitPlaneFeature Object
-Members"
+title: "SwDMDimXpertBestFitPlaneFeature Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertBestFitPlaneFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertBestFitPlaneFeature_members.html"
 ---
 
-# SwDMDimXpertBestFitPlaneFeature Object
-Members
+# SwDMDimXpertBestFitPlaneFeature Object Members
 
 ## Public Methods
 

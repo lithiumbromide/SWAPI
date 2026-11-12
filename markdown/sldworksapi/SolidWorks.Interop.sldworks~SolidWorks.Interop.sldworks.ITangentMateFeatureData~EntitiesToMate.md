@@ -45,37 +45,19 @@ property System.Object^ EntitiesToMate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Entities to mate (see
-
-Remarks
-
-)
+Entities to mate (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[TangentMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~TangentMateFeatureData~EntitiesToMate.html)
-
-.
+See [TangentMateFeatureData::EntitiesToMate](ms-its:sldworksapivb6.chm::/sldworks~TangentMateFeatureData~EntitiesToMate.html).
 
 ## Examples
 
-See the
-
-[ITangentMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData.html)
-
-example.
+See the [ITangentMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData.html) example.
 
 ## Remarks
 
@@ -90,16 +72,11 @@ You can create tangent mates with the following mate entity combinations:
 | ISurface, IFace2 (sphere) | ● | ● | ● | ● | ● | ● |
 | ISurface | ● |  |  |  | ● |  |
 
-Instead of specifying this property, you can use
-
-[IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-to pre-select the entities to mate using Mark = 1. You can pre-select mate entities during mate creation, but not during mate editing.
+Instead of specifying this property, you can use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities to mate using Mark = 1. You can pre-select mate entities during mate creation, but not during mate editing.
 
 ## See Also
 
 [ITangentMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData.html)
-
 [ITangentMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITangentMateFeatureData_members.html)
 
 ## Availability

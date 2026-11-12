@@ -55,13 +55,7 @@ System.Object^ GetFixedFace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,19 +65,11 @@ See
 
 ### Return Value
 
-Fixed
-
-[IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-that does not move as a result of the bend
+Fixed [IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) that does not move as a result of the bend
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData::GetFixedFace](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~GetFixedFace.html)
-
-.
+See [SketchedBendFeatureData::GetFixedFace](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~GetFixedFace.html).
 
 ## Examples
 
@@ -93,14 +79,12 @@ See
 
 The location is a point on the fixed face, but in the space of the sketch used to define the sketched-bend feature. Thus, the z location is always 0.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
-
 [ISketchedBendFeatureData::SetFixedFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData~SetFixedFace.html)
 
 ## Availability

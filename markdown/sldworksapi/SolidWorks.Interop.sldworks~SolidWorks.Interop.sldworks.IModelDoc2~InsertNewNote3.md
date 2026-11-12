@@ -78,46 +78,31 @@ void InsertNewNote3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UpperText`: Upper-text string to be put in the note
 - `NoLeader`: True for no leaderline, false if not
 - `BentLeader`: True for a bent leaderline, false if not
-- `ArrowStyle`: Arrowhead type as defined in[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
-- `LeaderSide`: Leaderline side as defined in[swLeaderSide_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderSide_e.html)
+- `ArrowStyle`: Arrowhead type as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+- `LeaderSide`: Leaderline side as defined in [swLeaderSide_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLeaderSide_e.html)
 - `Angle`: Text angle
-- `BalloonStyle`: Balloon style type as defined in[swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
-- `BalloonFit`: Balloon fit type as defined in[swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
-- `SmartArrow`: If true then the arrow style specified inOptions > Detailingis used for the arrows, if false then the ArrowStyle argument is used
+- `BalloonStyle`: Balloon style type as defined in [swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
+- `BalloonFit`: Balloon fit type as defined in [swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
+- `SmartArrow`: If true then the arrow style specified in Options > Detailing is used for the arrows, if false then the ArrowStyle argument is used
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertNewNote3](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertNewNote3.html)
-
-.
+See [ModelDoc2::InsertNewNote3](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertNewNote3.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::IInsertNote Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IInsertNote.html)
-
 [IModelDoc2::InsertNote Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertNote.html)
-
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [IDrawingDoc::InsertNewNote2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~InsertNewNote2.html)
 
 ## Availability

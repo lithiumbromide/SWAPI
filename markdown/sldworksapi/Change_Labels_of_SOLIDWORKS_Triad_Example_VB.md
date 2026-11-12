@@ -11,91 +11,43 @@ source: "sldworksapi/Change_Labels_of_SOLIDWORKS_Triad_Example_VB.htm"
 
 This example shows how to change the labels of the SOLIDWORKS triad.
 
+```vb
 '---------------------------------------
-
 '
-
-' Preconditions: SOLIDWORKS model document is open.
-
+' Preconditions: SOLIDWORKS Design model document is open.
 '
-
 ' Postconditions: The labels of the triad are
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}changed
-and then changed back to
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}their
-original values.
-
+'                 changed and then changed back to
+'                 their original values.
 '
-
 '---------------------------------------
-
 Option Explicit
 
 Dim swApp As SldWorks.SldWorks
-
 Dim swModel As SldWorks.ModelDoc2
-
 Dim rVal As String
 
 Sub main()
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
+    rVal = swApp.SetUserPreferenceStringValue(swReferenceTriadXLabel, "AltX")
+    If rVal = False Then swApp.SendMsgToUser ("ERROR: Unable to change triad label.")
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    rVal = swApp.SetUserPreferenceStringValue(swReferenceTriadYLabel, "AltY")
+    If rVal = False Then swApp.SendMsgToUser ("ERROR: Unable to change triad label.")
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}rVal
-= swApp.SetUserPreferenceStringValue(swReferenceTriadXLabel,
-"AltX")
+    rVal = swApp.SetUserPreferenceStringValue(swReferenceTriadZLabel, "AltZ")
+    If rVal = False Then swApp.SendMsgToUser ("ERROR: Unable to change triad label.")
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-rVal = False Then swApp.SendMsgToUser("ERROR: Unable to change triad label.")
+    swApp.SetUserPreferenceToggle swReferenceTriadUseAlternateLabels, True
+    swModel.GraphicsRedraw2
+    Stop 'Labels are changed
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}rVal
-= swApp.SetUserPreferenceStringValue(swReferenceTriadYLabel,
-"AltY")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-rVal = False Then swApp.SendMsgToUser("ERROR: Unable to change triad label.")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}rVal
-= swApp.SetUserPreferenceStringValue(swReferenceTriadZLabel,
-"AltZ")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-rVal = False Then swApp.SendMsgToUser("ERROR: Unable to change triad label.")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp.SetUserPreferenceToggleswReferenceTriadUseAlternateLabels,
-True
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel.GraphicsRedraw2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Stop
-'Labels are changed
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp.SetUserPreferenceToggleswReferenceTriadUseAlternateLabels,
-False
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel.GraphicsRedraw2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Stop
-'Labels are changed back to original
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    swApp.SetUserPreferenceToggle swReferenceTriadUseAlternateLabels, False
+    swModel.GraphicsRedraw2
+    'Stop 'Labels are changed back to original
 
 End Sub
+```

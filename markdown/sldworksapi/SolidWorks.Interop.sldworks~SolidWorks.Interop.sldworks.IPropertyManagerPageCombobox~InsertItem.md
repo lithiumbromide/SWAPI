@@ -51,13 +51,7 @@ System.short InsertItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,20 +60,15 @@ See
 
 ### Return Value
 
-Position in the 0-based list where the item is added or -1 if the item is not added to the listParamDesc
+Position in the 0-based list where the item is added or -1 if the item is not added to the list
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageCombobox::InsertItem](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCombobox~InsertItem.html)
-
-.
+See [PropertyManagerPageCombobox::InsertItem](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCombobox~InsertItem.html).
 
 ## See Also
 
 [IPropertyManagerPageCombobox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox.html)
-
 [IPropertyManagerPageCombobox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox_members.html)
 
 ## Availability

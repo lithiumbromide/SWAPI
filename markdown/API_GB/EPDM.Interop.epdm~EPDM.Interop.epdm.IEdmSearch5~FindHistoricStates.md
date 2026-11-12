@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~FindHistoricStat
 
 # FindHistoricStates Property (IEdmSearch5)
 
-Gets or sets whether to find all files that have ever been in the state specified by
-
-[IEdmSearch5::State](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~State.html)
-
-.
+Gets or sets whether to find all files that have ever been in the state specified by [IEdmSearch5::State](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~State.html).
 
 ## Syntax
 
@@ -44,16 +40,11 @@ True to find all files that have ever been in IEdmSearch5::State, false to retur
 
 ## Remarks
 
-This property is only valid if
-
-[IEdmSearch5::State](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~State.html)
-
-is set.
+This property is only valid if [IEdmSearch5::State](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~State.html) is set.
 
 ## See Also
 
 [IEdmSearch5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html)
-
 [IEdmSearch5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5_members.html)
 
 ## Availability

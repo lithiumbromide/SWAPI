@@ -42,25 +42,9 @@ ID or name of the workflow state in which to search
 
 If the search object was obtained using:
 
-- [IEdmVault21::CreateSearch2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault21~CreateSearch2.html)
+- [IEdmVault21::CreateSearch2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault21~CreateSearch2.html) ([IEdmSearch9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch9.html)), then the workflow state name may require extended search syntax. (See [Search Syntax](SearchSyntax-epdmapi.html).)
 
-  (
-
-  [IEdmSearch9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch9.html)
-
-  ), then the workflow state name may require extended search syntax. (See
-
-  [Search Syntax](SearchSyntax-epdmapi.html)
-
-  .)
-
-- [IEdmVault5::CreateSearch](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreateSearch.html)
-
-  , then the workflow state name for which to search may contain a % wildcard character. For example,
-
-  test
-
-  searches for all files that have a workflow state that contains the word, test.
+- [IEdmVault5::CreateSearch](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreateSearch.html), then the workflow state name for which to search may contain a % wildcard character. For example, **test** searches for all files that have a workflow state that contains the word, test.
 
   % indicates any sequence of characters of any length. You can also use underscore (_) as a wildcard for exactly one arbitrary character.
 
@@ -75,9 +59,7 @@ If the search object was obtained using:
 ## See Also
 
 [IEdmSearch5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5.html)
-
 [IEdmSearch5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5_members.html)
-
 [IEdmSearch5::FindHistoricStates Property ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~FindHistoricStates.html)
 
 ## Availability

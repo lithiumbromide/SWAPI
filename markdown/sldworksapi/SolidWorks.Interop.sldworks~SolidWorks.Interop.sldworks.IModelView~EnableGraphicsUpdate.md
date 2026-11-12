@@ -45,13 +45,7 @@ property System.bool EnableGraphicsUpdate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True to refresh the model view, false to not
 
 ## VBA Syntax
 
-See
-
-[ModelView::EnableGraphicsUpdate](ms-its:sldworksapivb6.chm::/sldworks~ModelView~EnableGraphicsUpdate.html)
-
-.
+See [ModelView::EnableGraphicsUpdate](ms-its:sldworksapivb6.chm::/sldworks~ModelView~EnableGraphicsUpdate.html).
 
 ## Remarks
 
-This property affects whether to refresh the model view during a selection, such as[IEntity::Select4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity~Select4.html)or[IFeature::Select2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~Select2.html).
+This property affects whether to refresh the model view during a selection, such as [IEntity::Select4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity~Select4.html) or [IFeature::Select2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~Select2.html).
 
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)
 
 ## Availability

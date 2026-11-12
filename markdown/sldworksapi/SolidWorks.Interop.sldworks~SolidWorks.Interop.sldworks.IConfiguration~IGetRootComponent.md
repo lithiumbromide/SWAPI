@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IGetRootComponent Method (IConfiguration)
 
-Obsolete. Superseded by
-
-[IConfiguration::IGetRootComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~IGetRootComponent2.html)
-
-.
+Obsolete. Superseded by [IConfiguration::IGetRootComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~IGetRootComponent2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Component IGetRootComponent()
 Component^ IGetRootComponent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Configuration::IGetRootComponent](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IGetRootComponent.html)
-
-.
+See [Configuration::IGetRootComponent](ms-its:sldworksapivb6.chm::/sldworks~Configuration~IGetRootComponent.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)

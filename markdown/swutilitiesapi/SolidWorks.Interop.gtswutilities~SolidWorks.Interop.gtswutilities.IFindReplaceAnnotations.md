@@ -39,11 +39,7 @@ public interface class IFindReplaceAnnotations
 
 ## VBA Syntax
 
-See
-
-[IFindReplaceAnnotations](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations.html)
-
-.
+See [IFindReplaceAnnotations](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations.html).
 
 ## Accessors
 
@@ -52,5 +48,4 @@ See
 ## See Also
 
 [IFindReplaceAnnotations Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations_members.html)
-
 [SolidWorks.Interop.gtswutilities Namespace](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities_namespace.html)

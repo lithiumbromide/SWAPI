@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # IGetDatumPoints Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetDatumPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDatumPoints2.html)
-
-and
-
-[IView::IGetDatumPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDatumPoints2.html)
-
-.
+Obsolete. Superseded by [IView::GetDatumPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDatumPoints2.html) and [IView::IGetDatumPoints2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDatumPoints2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetDatumPoints()
 System.double IGetDatumPoints();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::IGetDatumPoints](ms-its:sldworksapivb6.chm::/sldworks~View~IGetDatumPoints.html)
-
-.
+See [View::IGetDatumPoints](ms-its:sldworksapivb6.chm::/sldworks~View~IGetDatumPoints.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

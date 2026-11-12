@@ -40,42 +40,22 @@ System.object GetOverridePrincipalMomentsOfInertia()
 System.Object^ GetOverridePrincipalMomentsOfInertia();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of three doubles of the principal moments of inertia:
-
-[
-
-Px, Py, Pz
-
-]
+Array of three doubles of the principal moments of inertia: **[** Px, Py, Pz **]**
 
 ## VBA Syntax
 
-See
-
-[MassPropertyOverrideOptions::GetOverridePrincipalMomentsOfInertia](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~GetOverridePrincipalMomentsOfInertia.html)
-
-.
+See [MassPropertyOverrideOptions::GetOverridePrincipalMomentsOfInertia](ms-its:sldworksapivb6.chm::/sldworks~MassPropertyOverrideOptions~GetOverridePrincipalMomentsOfInertia.html).
 
 ## See Also
 
 [IMassPropertyOverrideOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions.html)
-
 [IMassPropertyOverrideOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions_members.html)
-
 [IMassPropertyOverrideOptions::SetOverridePrincipalMomentsOfInertia Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~SetOverridePrincipalMomentsOfInertia.html)
-
 [IMassPropertyOverrideOptions::OverrideMomentsOfInertia Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassPropertyOverrideOptions~OverrideMomentsOfInertia.html)
-
 [IMassProperty2::PrincipalMomentsOfInertia Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2~PrincipalMomentsOfInertia.html)
 
 ## Availability

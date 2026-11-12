@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPa
 
 # DPartDocEvents_FeatureManagerFilterStringChangeNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Fired when text is typed in the FeatureManager design tree filter or
-
-[IModelDocExtension::FeatureManagerFilterString](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~FeatureManagerFilterString.html)
-
-is called.
+Fired when text is typed in the FeatureManager design tree filter or [IModelDocExtension::FeatureManagerFilterString](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~FeatureManagerFilterString.html) is called.
 
 ## Syntax
 
@@ -47,13 +43,7 @@ public delegate System.int DPartDocEvents_FeatureManagerFilterStringChangeNotify
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,19 +51,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManagerFilterStringChangeNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FeatureManagerFilterStringChangeNotify_EV.html)
-
-.
+See [FeatureManagerFilterStringChangeNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FeatureManagerFilterStringChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartFeatureManagerFilterStringChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartFeatureManagerFilterStringChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

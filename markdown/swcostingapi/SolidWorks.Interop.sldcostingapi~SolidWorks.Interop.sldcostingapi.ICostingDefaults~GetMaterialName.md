@@ -49,9 +49,7 @@ System.String^ GetMaterialName(
 
 ### Parameters
 
-- `MethodType`: Manufacturing method as defined in
-
-[swcMethodType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcMethodType_e.html)
+- `MethodType`: Manufacturing method as defined in [swcMethodType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcMethodType_e.html)
 
 ### Return Value
 
@@ -59,30 +57,18 @@ Name of the default material for MethodType
 
 ## VBA Syntax
 
-See
-
-[CostDefaults::GetMaterialName](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~GetMaterialName.html)
-
-.
+See [CostDefaults::GetMaterialName](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~GetMaterialName.html).
 
 ## Examples
 
-See the
-
-[ICostingDefaults](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
-examples.
+See the [ICostingDefaults](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html) examples.
 
 ## See Also
 
 [ICostingDefaults Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
 [ICostingDefaults Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults_members.html)
-
 [ICostingDefaults::GetMaterialClass Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~GetMaterialClass.html)
-
 [ICostingDefaults::SetMaterialClass Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SetMaterialClass.html)
-
 [ICostingDefaults::SetMaterialName Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~SetMaterialName.html)
 
 ## Availability

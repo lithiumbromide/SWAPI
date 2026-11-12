@@ -47,13 +47,7 @@ property System.double Value {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ Value or -1 if Index is out of range
 
 ## VBA Syntax
 
-See
-
-[EquationMgr::Value](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~Value.html)
-
-.
+See [EquationMgr::Value](ms-its:sldworksapivb6.chm::/sldworks~EquationMgr~Value.html).
 
 ## Examples
 
 [Use IIf Function When Adding an Equation (VBA)](Use_IIf_Function_When_Adding_an_Equation_Example_VB.htm)
-
 [Get Equation Values (C#)](Get_Equation_Values_Example_CSharp.htm)
-
 [Get Equation Values (VB.NET)](Get_Equation_Values_Example_VBNET.htm)
-
 [Get Equation Values (VBA)](Get_Equation_Values_Example_VB.htm)
 
 ## Remarks
@@ -86,15 +73,10 @@ See
 ## See Also
 
 [IEquationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr.html)
-
 [IEquationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr_members.html)
-
 [IEquationMgr::Status Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Status.html)
-
 [IEquationMgr::GetCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GetCount.html)
-
 [IEquationMgr::Equation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~Equation.html)
-
 [IEquationMgr::GlobalVariable Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEquationMgr~GlobalVariable.html)
 
 ## Availability

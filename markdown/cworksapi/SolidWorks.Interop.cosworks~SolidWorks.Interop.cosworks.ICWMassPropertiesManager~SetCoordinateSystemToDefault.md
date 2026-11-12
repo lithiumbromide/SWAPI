@@ -41,32 +41,19 @@ void SetCoordinateSystemToDefault();
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager::SetCoordinateSystemToDefault](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~SetCoordinateSystemName.html)
-
-.
+See [CWMassPropertiesManager::SetCoordinateSystemToDefault](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~SetCoordinateSystemName.html).
 
 ## Examples
 
-See the
-
-[ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
-examples.
+See the [ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html) examples.
 
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
-
 [ICWMassPropertiesManager::SetCoordinateSystemName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~SetCoordinateSystemName.html)
-
 [ICWMassPropertiesManager::GetMomentOfInertia Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetMomentOfInertia.html)
-
 [ICWMassPropertiesManager::GetMomentOfInertiaAtOutputCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetMomentOfInertiaAtOutputCoordinateSystem.html)
-
 [ICWMassPropertiesManager::GetPrincipalMomentOfInertia Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetPrincipalMomentOfInertia.html)
 
 ## Availability

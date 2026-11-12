@@ -45,27 +45,15 @@ property System.int TextDisplay {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Display state as defined in
-
-[swBlockInstanceTextDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBlockInstanceTextDisplay_e.html)
+Display state as defined in [swBlockInstanceTextDisplay_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBlockInstanceTextDisplay_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::TextDisplay](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~TextDisplay.html)
-
-.
+See [SketchBlockInstance::TextDisplay](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~TextDisplay.html).
 
 ## Examples
 
@@ -74,7 +62,6 @@ See
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
 
 ## Availability

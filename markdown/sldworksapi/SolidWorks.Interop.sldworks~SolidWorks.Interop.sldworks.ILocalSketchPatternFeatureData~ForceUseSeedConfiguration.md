@@ -45,13 +45,7 @@ property System.bool ForceUseSeedConfiguration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to use the seed component configuration for all pattern components, false t
 
 ## VBA Syntax
 
-See
-
-[LocalSketchPatternFeatureData::ForceUseSeedConfiguration](ms-its:sldworksapivb6.chm::/sldworks~LocalSketchPatternFeatureData~ForceUseSeedConfiguration.html)
-
-.
+See [LocalSketchPatternFeatureData::ForceUseSeedConfiguration](ms-its:sldworksapivb6.chm::/sldworks~LocalSketchPatternFeatureData~ForceUseSeedConfiguration.html).
 
 ## See Also
 
 [ILocalSketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalSketchPatternFeatureData.html)
-
 [ILocalSketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalSketchPatternFeatureData_members.html)
 
 ## Availability

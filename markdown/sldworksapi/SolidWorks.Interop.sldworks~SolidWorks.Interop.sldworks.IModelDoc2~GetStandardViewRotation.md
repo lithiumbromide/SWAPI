@@ -47,19 +47,11 @@ System.Object^ GetStandardViewRotation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ViewId`: View ID that you want to evaluate as defined in
-
-[swStandardViews_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStandardViews_e.html)
+- `ViewId`: View ID that you want to evaluate as defined in [swStandardViews_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStandardViews_e.html)
 
 ### Return Value
 
@@ -67,11 +59,7 @@ Array describing the view rotation with respect to the Front view; this is an ar
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetStandardViewRotation](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetStandardViewRotation.html)
-
-.
+See [ModelDoc2::GetStandardViewRotation](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetStandardViewRotation.html).
 
 ## Examples
 
@@ -84,13 +72,9 @@ The end-user may have redefined the Front view to be something other than the X-
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::IGetStandardViewRotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IGetStandardViewRotation.html)
-
 [IModelDocExtension::IGetNamedViewRotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetNamedViewRotation.html)
-
 [IModelDocExtension::GetNamedViewRotation Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetNamedViewRotation.html)
 
 ## Availability

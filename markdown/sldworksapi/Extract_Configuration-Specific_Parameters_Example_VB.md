@@ -9,8 +9,7 @@ source: "sldworksapi/Extract_Configuration-Specific_Parameters_Example_VB.htm"
 
 # Extract Configuration-specific Parameters Example (VBA)
 
-This example shows how to extract and list all configuration-specific
-parameters from a model.
+This example shows how to extract and list all configuration-specific parameters from a model.
 
 ```
 '---------------------------------------------------------------

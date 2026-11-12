@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnPreviousPage Method (IPropertyManagerPage2Handler4)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnPreviousPage](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnPreviousPage.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnPreviousPage](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnPreviousPage.html).
 
 ## Syntax
 
@@ -46,14 +42,9 @@ System.bool OnPreviousPage();
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler4::OnPreviousPage](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler4~OnPreviousPage.html)
-
-.
+See [PropertyManagerPage2Handler4::OnPreviousPage](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler4~OnPreviousPage.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler4 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler4.html)
-
 [IPropertyManagerPage2Handler4 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler4_members.html)

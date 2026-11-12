@@ -9,12 +9,9 @@ source: "API_GB/Create_Custom_Card_View_Example_CSharp.htm"
 
 # Create Custom Card View Example (C#)
 
-This example shows how to create a custom file card
-view.
+This example shows how to create a custom file card view.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
    //----------------------------------------------------------------------------

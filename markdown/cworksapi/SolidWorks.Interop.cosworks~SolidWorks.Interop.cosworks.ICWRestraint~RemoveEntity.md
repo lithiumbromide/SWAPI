@@ -52,18 +52,12 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~RemoveEntity.html)
-
-.
+See [CWRestraint::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~RemoveEntity.html).
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
-
 [ICWRestraint::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~InsertEntity.html)
 
 ## Availability

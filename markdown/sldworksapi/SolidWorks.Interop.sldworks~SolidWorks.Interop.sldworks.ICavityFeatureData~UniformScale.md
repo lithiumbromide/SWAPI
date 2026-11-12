@@ -45,13 +45,7 @@ property System.double UniformScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,24 @@ Scaling value for all directions
 
 ## VBA Syntax
 
-See
-
-[CavityFeatureData::UniformScale](ms-its:sldworksapivb6.chm::/sldworks~CavityFeatureData~UniformScale.html)
-
-.
+See [CavityFeatureData::UniformScale](ms-its:sldworksapivb6.chm::/sldworks~CavityFeatureData~UniformScale.html).
 
 ## Examples
 
 [Create and Modify Cavity Feature (C#)](Create_and_Modify_Cavity_Feature_Example_CSharp.htm)
-
 [Create and Modify Cavity Feature (VB.NET)](Create_and_Modify_Cavity_Feature_Example_VBNET.htm)
-
 [Create and Modify Cavity Feature (VBA)](Create_and_Modify_Cavity_Feature_Example_VB.htm)
 
 ## Remarks
 
-Use[ICavityFeatureData::UseUniformScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICavityFeatureData~UseUniformScale.html)to enable uniform scaling of this cavity feature.
+Use [ICavityFeatureData::UseUniformScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICavityFeatureData~UseUniformScale.html) to enable uniform scaling of this cavity feature.
 
 ## See Also
 
 [ICavityFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData.html)
-
 [ICavityFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData_members.html)
-
 [ICavityFeatureData::GetScale Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData~GetScale.html)
-
 [ICavityFeatureData::SetScale Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData~SetScale.html)
-
 [ICavityFeatureData::ScaleType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICavityFeatureData~ScaleType.html)
 
 ## Availability

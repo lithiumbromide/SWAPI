@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # InsertCavity Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::InsertCavity4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~InsertCavity4.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::InsertCavity4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~InsertCavity4.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void InsertCavity()
 void InsertCavity();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::InsertCavity](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertCavity.html)
-
-.
+See [AssemblyDoc::InsertCavity](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertCavity.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

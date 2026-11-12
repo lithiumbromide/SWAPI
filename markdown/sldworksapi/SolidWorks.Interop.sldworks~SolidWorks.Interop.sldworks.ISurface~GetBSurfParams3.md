@@ -63,13 +63,7 @@ BSurfParamData^ GetBSurfParams3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -81,42 +75,29 @@ See
 
 ### Return Value
 
-An
-
-[IBSurfParamData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBSurfParamData.html)
-
-object
+An [IBSurfParamData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBSurfParamData.html) object
 
 ## VBA Syntax
 
-See
-
-[Surface::GetBSurfParams3](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetBSurfParams3.html)
-
-.
+See [Surface::GetBSurfParams3](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetBSurfParams3.html).
 
 ## Examples
 
 [Get B-Spline Surface Parameterization Data (C#)](Get_B-Spline_Surface_Parameterization_Data_Example_CSharp.htm)
-
 [Get B-Spline Surface Parameterization Data (VB.NET)](Get_B-Spline_Surface_Parameterization_Data_Example_VBNET.htm)
-
 [Get B-Spline Surface Parameterization Data (VBA)](Get_B-Spline_Surface_Parameterization_Data_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, call[ISurface:Parameterization2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization2.html)to populate VP0.
+Before calling this method, call [ISurface:Parameterization2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization2.html) to populate VP0.
 
-If you want to use the B-spline surface in combination with its trim curves, you should use the[IFace2::GetTrimCurves2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html)method to extract both the trim curves and the B-spline surface. The[IFace2::GetTrimCurves2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html)method provides much better alignment of the trim curves with the B-spline surface, because they are both generated at the same time.
+If you want to use the B-spline surface in combination with its trim curves, you should use the [IFace2::GetTrimCurves2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html) method to extract both the trim curves and the B-spline surface. The [IFace2::GetTrimCurves2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html) method provides much better alignment of the trim curves with the B-spline surface, because they are both generated at the same time.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IGetBSurfParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetBSurfParams.html)
-
 [ISurface::IGetBSurfParamsSize3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetBSurfParamsSize3.html)
 
 ## Availability

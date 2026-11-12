@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # IGetAttributes Method (IBlockInstance)
 
-Obsolete. Superseded by
-
-[ISketchBlockInstance::IGetAttributes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~IGetAttributes.html)
-
-.
+Obsolete. Superseded by [ISketchBlockInstance::IGetAttributes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~IGetAttributes.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Note^ IGetAttributes(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[BlockInstance::IGetAttributes](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~IGetAttributes.html)
-
-.
+See [BlockInstance::IGetAttributes](ms-its:sldworksapivb6.chm::/sldworks~BlockInstance~IGetAttributes.html).
 
 ## See Also
 
 [IBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance.html)
-
 [IBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockInstance_members.html)

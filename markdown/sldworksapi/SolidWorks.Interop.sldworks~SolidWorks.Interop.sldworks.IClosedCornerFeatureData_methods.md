@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICl
 
 # IClosedCornerFeatureData Interface Methods
 
-For a list of all members of this type, see[IClosedCornerFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClosedCornerFeatureData_members.html).
+For a list of all members of this type, see [IClosedCornerFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClosedCornerFeatureData_members.html).
 
 ## Public Methods
 
@@ -28,7 +28,5 @@ For a list of all members of this type, see[IClosedCornerFeatureData members](So
 ## See Also
 
 [IClosedCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClosedCornerFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertSheetMetalClosedCorner Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertSheetMetalClosedCorner.html)

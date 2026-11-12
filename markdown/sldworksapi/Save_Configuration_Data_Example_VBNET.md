@@ -9,9 +9,7 @@ source: "sldworksapi/Save_Configuration_Data_Example_VBNET.htm"
 
 # Save Configuration Data Example (VB.NET)
 
-This example shows how to mark each configuration in a multi-configuration
-model as needing to be rebuilt and how to save its configuration data, including
-preview bitmaps, every time you save the model document.
+This example shows how to mark each configuration in a multi-configuration model as needing to be rebuilt and how to save its configuration data, including preview bitmaps, every time you save the model document.
 
 ```
 '------------------------------------------------------------

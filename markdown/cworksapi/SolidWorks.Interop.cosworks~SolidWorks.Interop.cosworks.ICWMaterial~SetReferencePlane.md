@@ -53,22 +53,16 @@ void SetReferencePlane(
 ### Parameters
 
 - `PlaneDisp`: Reference entity
-- `ErrorCode`: Error as defined in[swsMaterialReferencePlaneError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialReferencePlaneError_e.html)
+- `ErrorCode`: Error as defined in [swsMaterialReferencePlaneError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialReferencePlaneError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::SetReferencePlane](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SetReferencePlane.html)
-
-.
+See [CWMaterial::SetReferencePlane](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~SetReferencePlane.html).
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::GetReferencePlaneName Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~GetReferencePlaneName.html)
 
 ## Availability

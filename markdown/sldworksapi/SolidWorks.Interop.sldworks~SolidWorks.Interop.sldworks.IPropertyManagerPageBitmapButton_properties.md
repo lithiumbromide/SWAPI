@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPropertyManagerPageBitmapButton Interface Properties
 
-For a list of all members of this type, see[IPropertyManagerPageBitmapButton members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmapButton_members.html).
+For a list of all members of this type, see [IPropertyManagerPageBitmapButton members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmapButton_members.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IPropertyManagerPageBitmapButton mem
 ## See Also
 
 [IPropertyManagerPageBitmapButton Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmapButton.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

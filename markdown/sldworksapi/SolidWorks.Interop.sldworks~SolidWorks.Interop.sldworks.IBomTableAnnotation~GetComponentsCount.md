@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # GetComponentsCount Method (IBomTableAnnotation)
 
-Obsolete. Superseded by
-
-[IBomTableAnnotation::GetComponentsCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~GetComponentsCount2.html)
-
-.
+Obsolete. Superseded by [IBomTableAnnotation::GetComponentsCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~GetComponentsCount2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int GetComponentsCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,26 +59,16 @@ Number of components in the specified row
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::GetComponentsCount](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetComponentsCount.html)
-
-.
+See [BomTableAnnotation::GetComponentsCount](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetComponentsCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IBomTableAnnotation::IGetComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~IGetComponents.html)
-
-to determine the size of the array for that method.
+Call this method before calling [IBomTableAnnotation::IGetComponents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~IGetComponents.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
-
 [IBomTableAnnotation::GetComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~GetComponents.html)
 
 ## Availability

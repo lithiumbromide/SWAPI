@@ -48,16 +48,11 @@ Name of the add-in
 
 ## VBA Syntax
 
-See
-
-[SwQuickTip::ApplicationName](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~ApplicationName.html)
-
-.
+See [SwQuickTip::ApplicationName](ms-its:swpublishedapivb6.chm::/swpublished~SwQuickTip~ApplicationName.html).
 
 ## See Also
 
 [ISwQuickTip Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip.html)
-
 [ISwQuickTip Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwQuickTip_members.html)
 
 ## Availability

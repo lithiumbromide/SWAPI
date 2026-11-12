@@ -47,25 +47,19 @@ System.bool SetBoundingBoxDirection3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Direction`: For linear slicing:
 
--500.0 < left manipulator < 0.0
+  -500.0 < left manipulator < 0.0
 
-For radial slicing:
+  For radial slicing:
 
-0.0 < inner radius < outer radius
+  0.0 < inner radius < outer radius
 
-(see**Remarks**)
+  (see **Remarks**)
 
 ### Return Value
 
@@ -73,19 +67,11 @@ True if direction 3 of bounding box successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[SlicingData::SetBoundingBoxDirection3](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~SetBoundingBoxDirection3.html)
-
-.
+See [SlicingData::SetBoundingBoxDirection3](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~SetBoundingBoxDirection3.html).
 
 ## Examples
 
-See the
-
-[ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
-example.
+See the [ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html) example.
 
 ## Remarks
 
@@ -99,18 +85,12 @@ Use these methods to adjust the slicing volume to include or exclude geometry fo
 This method fails when:
 
 - Direction exceeds the specified limits.
-- The bounding box cannot be created because
-
-  [ISlicingData::PlaneReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData~PlaneReferences.html)
-
-  has not been set.
+- The bounding box cannot be created because [ISlicingData::PlaneReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData~PlaneReferences.html) has not been set.
 
 ## See Also
 
 [ISlicingData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
 [ISlicingData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html)
-
 [ISlicingData::GetBoundingBoxDirection3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData~GetBoundingBoxDirection3.html)
 
 ## Availability

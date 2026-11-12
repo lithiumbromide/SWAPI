@@ -51,13 +51,7 @@ System.bool GetSensorValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,16 +64,11 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Sensor::GetSensorValue](ms-its:sldworksapivb6.chm::/sldworks~Sensor~GetSensorValue.html)
-
-.
+See [Sensor::GetSensorValue](ms-its:sldworksapivb6.chm::/sldworks~Sensor~GetSensorValue.html).
 
 ## See Also
 
 [ISensor Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor.html)
-
 [ISensor Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor_members.html)
 
 ## Availability

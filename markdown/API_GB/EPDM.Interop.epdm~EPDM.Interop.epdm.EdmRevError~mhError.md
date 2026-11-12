@@ -34,14 +34,9 @@ System.int mhError
 
 ## Remarks
 
-You can get more information about the error by calling
-
-[IEdmVault5::GetErrorString](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString.html)
-
-.
+You can get more information about the error by calling [IEdmVault5::GetErrorString](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~GetErrorString.html).
 
 ## See Also
 
 [EdmRevError Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError.html)
-
 [EdmRevError Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevError_members.html)

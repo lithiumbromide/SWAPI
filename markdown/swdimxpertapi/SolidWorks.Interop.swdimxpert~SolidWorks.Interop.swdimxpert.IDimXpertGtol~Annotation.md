@@ -48,16 +48,11 @@ property System.Object^ Annotation {
 
 ## VBA Syntax
 
-See
-
-[DimXpertGtol::Annotation](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertGtol~Annotation.html)
-
-.
+See [DimXpertGtol::Annotation](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertGtol~Annotation.html).
 
 ## See Also
 
 [IDimXpertGtol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertGtol.html)
-
 [IDimXpertGtol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertGtol_members.html)
 
 ## Availability

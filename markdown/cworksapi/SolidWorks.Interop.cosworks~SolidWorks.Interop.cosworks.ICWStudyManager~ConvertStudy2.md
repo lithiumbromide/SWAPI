@@ -82,26 +82,14 @@ CWStudy^ ConvertStudy2(
 ### Parameters
 
 - `SName`: Name of study to convert
-- `NSrcStudyType`: [swsAnalysisStudyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAnalysisStudyType_e.html)
-
-.swsAnalysisStudyTypeStatic
+- `NSrcStudyType`: [swsAnalysisStudyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAnalysisStudyType_e.html).swsAnalysisStudyTypeStatic
 - `SNewName`: Name of target study to which to convert
-- `NTargetStudyType`: (see
-
-Remarks
-
-)
+- `NTargetStudyType`: (see **Remarks**)
 - `SConfiguration`: Name of model configuration
-- `NTargetStudySubType`: (see
-
-Remarks
-
-)
+- `NTargetStudySubType`: (see **Remarks**)
 - `BIncludeMesh`: True to include mesh when copying the study, false to not
 - `BIncludeResults`: True to include results when copying the study, false to not
-- `Errors`: Error as defined in
-
-[swsStudyError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStudyError_e.html)
+- `Errors`: Error as defined in [swsStudyError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStudyError_e.html)
 
 ### Return Value
 
@@ -109,18 +97,12 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWStudyManager::ConvertStudy2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~ConvertStudy2.html)
-
-.
+See [CWStudyManager::ConvertStudy2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyManager~ConvertStudy2.html).
 
 ## Examples
 
 [Convert Study (VBA)](Convert_Study_Example_VB.htm)
-
 [Convert Study (VB.NET)](Convert_Study_Example_VBNET.htm)
-
 [Convert Study (C#)](Convert_Study_Example_CSharp.htm)
 
 ## Remarks
@@ -145,17 +127,11 @@ The following boundary conditions are transferred to the target study during con
 ## See Also
 
 [ICWStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager.html)
-
 [ICWStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager_members.html)
-
 [ICWStudyManager::CreateNewStudy3 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~CreateNewStudy3.html)
-
 [ICWStudyManager::DeleteStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DeleteStudy.html)
-
 [ICWStudyManager::DuplicateStudy2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~DuplicateStudy2.html)
-
 [ICWStudyManager::GetStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~GetStudy.html)
-
 [ICWStudyManager::RenameStudyFromID Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyManager~RenameStudyFromID.html)
 
 ## Availability

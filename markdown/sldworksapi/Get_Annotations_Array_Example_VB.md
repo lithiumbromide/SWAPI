@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Annotations_Array_Example_VB.htm"
 
 # Get Annotations Arrays Example (VBA)
 
-Methods added to the IView interface in SOLIDWORKS API 2009 SP1 can return arrays
-of each annotation type in a drawing view.kadov_tag{{<spaces>}}This example
-shows how to call these methods.
+Methods added to the IView interface in SOLIDWORKS API 2009 SP1 can return arrays of each annotation type in a drawing view. This example shows how to call these methods.
 
 ```
 '-----------------------------------------------------------------------------

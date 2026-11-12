@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetAngularUnits Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetAngularUnits](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetAngularUnits.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetAngularUnits](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetAngularUnits.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetAngularUnits()
 System.Object^ GetAngularUnits();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetAngularUnits](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetAngularUnits.html)
-
-.
+See [ModelDoc::GetAngularUnits](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetAngularUnits.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

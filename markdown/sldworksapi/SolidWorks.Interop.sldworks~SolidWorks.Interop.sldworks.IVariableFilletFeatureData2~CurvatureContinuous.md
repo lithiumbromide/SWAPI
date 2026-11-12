@@ -45,13 +45,7 @@ property System.bool CurvatureContinuous {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ True to make curvatures continuous, false to not
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData2::CurvatureContinuous](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~CurvatureContinuous.html)
-
-.
+See [VariableFilletFeatureData2::CurvatureContinuous](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~CurvatureContinuous.html).
 
 ## Examples
 
 [Create Curvature Continuous Variable Fillet Feature (C#)](Create_Curvature_Continuous_Variable_Fillet_Feature_Example_CSharp.htm)
-
 [Create Curvature Continuous Variable Fillet Feature (VB.NET)](Create_Curvature_Continuous_Variable_Fillet_Feature_Example_VBNET.htm)
-
 [Create Curvature Continuous Variable Fillet Feature (VBA)](Create_Curvature_Continuous_Variable_Fillet_Feature_Example_VB.htm)
 
 ## Remarks
 
-This property supersedes any
-
-[IVariableFilletFeatureData2::ConicTypeForCrossSectionProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~ConicTypeForCrossSectionProfile.html)
-
-setting. Curvature continuous fillets are smoother than standard fillets because there is no jump in curvature at the boundary.
+This property supersedes any [IVariableFilletFeatureData2::ConicTypeForCrossSectionProfile](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~ConicTypeForCrossSectionProfile.html) setting. Curvature continuous fillets are smoother than standard fillets because there is no jump in curvature at the boundary.
 
 ## See Also
 
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2_members.html)
 
 ## Availability

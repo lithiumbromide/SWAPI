@@ -51,19 +51,11 @@ Value of angular acceleration
 
 ## VBA Syntax
 
-See
-
-[CWCentriFugalForce::AngularAcceleration](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~AngularAcceleration.html)
-
-.
+See [CWCentriFugalForce::AngularAcceleration](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~AngularAcceleration.html).
 
 ## Examples
 
-See the
-
-[ICWCentriFugalForce](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
-examples.
+See the [ICWCentriFugalForce](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html) examples.
 
 ## Remarks
 
@@ -72,9 +64,7 @@ The specified value is applied to the entire model.
 ## See Also
 
 [ICWCentriFugalForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
 [ICWCentriFugalForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce_members.html)
-
 [ICWCentriFugalForce::ReverseAngAccelerationDirection Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce~ReverseAngAccelerationDirection.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "CWPinConnector Object
-Members"
+title: "CWPinConnector Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWPinConnector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWPinConnector_members.html"
 ---
 
-# CWPinConnector Object
-Members
+# CWPinConnector Object Members
 
 ## Public Methods
 

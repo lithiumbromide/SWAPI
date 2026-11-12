@@ -48,11 +48,7 @@ Label for the datum
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertDatum::Identifier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDatum~Identifier.html)
-
-.
+See [SwDMDimXpertDatum::Identifier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertDatum~Identifier.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertDatum Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDatum.html)
-
 [ISwDMDimXpertDatum Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertDatum_members.html)
 
 ## Availability

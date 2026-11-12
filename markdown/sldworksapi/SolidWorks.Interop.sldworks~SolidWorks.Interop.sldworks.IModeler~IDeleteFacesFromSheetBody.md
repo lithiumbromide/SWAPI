@@ -51,22 +51,12 @@ System.bool IDeleteFacesFromSheetBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Count`: Number of faces to delete
-- `FaceVar`: Array of
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-to delete from the sheet (surface) body
+- `FaceVar`: Array of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to delete from the sheet (surface) body
 
 ### Return Value
 
@@ -74,22 +64,16 @@ True if all of the faces are deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[Modeler::IDeleteFacesFromSheetBody](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IDeleteFacesFromSheetBody.html)
-
-.
+See [Modeler::IDeleteFacesFromSheetBody](ms-its:sldworksapivb6.chm::/sldworks~Modeler~IDeleteFacesFromSheetBody.html).
 
 ## Remarks
 
-Use this method to remove the unused faces from the sheet body created by[IModeler::CreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBrepBody3.html)and[IModeler::ICreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBrepBody3.html).
+Use this method to remove the unused faces from the sheet body created by [IModeler::CreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateBrepBody3.html) and [IModeler::ICreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBrepBody3.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::DeleteFacesFromSheetBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~DeleteFacesFromSheetBody.html)
 
 ## Availability

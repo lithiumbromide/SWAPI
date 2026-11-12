@@ -1,6 +1,5 @@
 ---
-title: "MoveFaceFeatureData Object
-Members"
+title: "MoveFaceFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MoveFaceFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MoveFaceFeatureData_members.html"
 ---
 
-# MoveFaceFeatureData Object
-Members
+# MoveFaceFeatureData Object Members
 
 ## Public Methods
 

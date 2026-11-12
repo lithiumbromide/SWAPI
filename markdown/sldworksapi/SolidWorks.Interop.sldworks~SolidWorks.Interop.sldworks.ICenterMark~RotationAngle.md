@@ -45,13 +45,7 @@ property System.double RotationAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Angle
 
 ## VBA Syntax
 
-See
-
-[CenterMark::RotationAngle](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~RotationAngle.html)
-
-.
+See [CenterMark::RotationAngle](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~RotationAngle.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [ICenterMark Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html)
 
 ## Availability

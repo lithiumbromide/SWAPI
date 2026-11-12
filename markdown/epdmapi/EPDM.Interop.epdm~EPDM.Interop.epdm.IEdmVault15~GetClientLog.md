@@ -44,21 +44,15 @@ void GetClientLog(
 ## Examples
 
 [Traverse Folders and Files in Vault (VB.NET)](Traverse_Folders_and_Files_in_Vault_Example_VBNET.htm)
-
 [Traverse Folders and Files in Vault (C#)](Traverse_Folders_and_Files_in_Vault_Example_CSharp.htm)
 
 ## Remarks
 
-The current user's log appears when you click
-
-SOLIDWORKS PDM Administration > Local Settings > Log File
-
-in the SOLIDWORKS PDM Administration Tool. This method returns the full log.
+The current user's log appears when you click **SOLIDWORKS PDM Administration > Local Settings > Log File** in the SOLIDWORKS PDM Administration Tool. This method returns the full log.
 
 ## See Also
 
 [IEdmVault15 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault15.html)
-
 [IEdmVault15 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault15_members.html)
 
 ## Availability

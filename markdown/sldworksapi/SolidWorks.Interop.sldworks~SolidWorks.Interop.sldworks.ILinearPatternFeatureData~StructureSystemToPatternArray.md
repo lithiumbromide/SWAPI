@@ -45,29 +45,15 @@ property System.Object^ StructureSystemToPatternArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of
-
-[IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)
-
-s
+Array of [IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)s
 
 ## VBA Syntax
 
-See
-
-[LinearPatternFeatureData::StructureSystemToPatternArray](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~StructureSystemToPatternArray.html)
-
-.
+See [LinearPatternFeatureData::StructureSystemToPatternArray](ms-its:sldworksapivb6.chm::/sldworks~LinearPatternFeatureData~StructureSystemToPatternArray.html).
 
 ## Examples
 
@@ -83,10 +69,10 @@ See
 ' 1. Creates Sketch1 containing two sketch segments.
 ' 2. Configures the start/end extensions and the member profile.
 ' 3. Selects the two sketch segments.
-' 4. Creates primary**Structure System1**with two primary path segment members (**Member1**and**Member2**).
-' 5. Creates a**Boss-Extrude1**to pattern.
+' 4. Creates primary **Structure System1** with two primary path segment members (**Member1** and **Member2**).
+' 5. Creates a **Boss-Extrude1** to pattern.
 ' 6. Inspect the graphics area.
-' 7. Press F5 to create**LPattern1**.
+' 7. Press F5 to create **LPattern1**.
 ' 8. Press F5 to finish.
 ' 9. Inspect the Immediate window.
 '========================================================================
@@ -266,7 +252,7 @@ swModel.ClearSelection2 True
 status = swModelDocExt.SelectByID2("LPattern1", "BODYFEATURE", 0, 0, 0, False, 0, Nothing, 0)
 Set swFeature = swSelectionMgr.GetSelectedObject6(1, -1)
 Set swLinearPatternFeatureData = swFeature.**GetDefinition**
-swLinearPatternFeatureData.**AccessSelections**swModel, Nothing
+swLinearPatternFeatureData.**AccessSelections** swModel, Nothing
 Debug.Print "Is LPattern1 a features/faces pattern or a bodies pattern (true if a bodies pattern)? " & swLinearPatternFeatureData.**BodyPattern**
 
 Dim var As Variant
@@ -299,18 +285,17 @@ End Sub
 
 ## Remarks
 
-This property is valid only if[ILinearPatternFeatureData::BodyPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~BodyPattern.html)is true.
+This property is valid only if [ILinearPatternFeatureData::BodyPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~BodyPattern.html) is true.
 
 Use the setter of this property to change structure systems only after the linear pattern feature has been created.
 
-Before using this property in .NET code, read[IDispatch Object Arrays as Input in .NET](sldworksAPIProgGuide.chm::/Overview/IDispatch_Object_Arrays_as_Input_in_.NET.htm). To remove a structure system from the pattern, set this property to a DispatchWrapper array containing one null element.
+Before using this property in .NET code, read [IDispatch Object Arrays as Input in .NET](sldworksAPIProgGuide.chm::/Overview/IDispatch_Object_Arrays_as_Input_in_.NET.htm). To remove a structure system from the pattern, set this property to a DispatchWrapper array containing one null element.
 
-For more information, see the**SOLIDWORKS user-interface help > Weldments and Structure System > Pattern and Mirror Support**topic.
+For more information, see the **SOLIDWORKS Design user-interface help > Weldments and Structure System > Pattern and Mirror Support** topic.
 
 ## See Also
 
 [ILinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData.html)
-
 [ILinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData_members.html)
 
 ## Availability

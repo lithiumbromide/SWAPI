@@ -9,13 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertProtrusionSwept4 Method (IFeatureManager)
 
-Obsolete
-
-. See
-
-Remarks
-
-.
+Obsolete. See **Remarks**.
 
 ## Syntax
 
@@ -129,58 +123,30 @@ Feature^ InsertProtrusionSwept4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Propagate`: True propagates the swept protrusion to the next tangent edge, false does not
 - `Alignment`: True causes the swept protrusion to go through the end faces if the curve used for the sweep goes from one face to another or from one edge to another, false causes the swept protrusion to begin and end perpendicular to the sweep curve; thus, it cannot break through the two end faces of the body
-- `TwistCtrlOption`: Twist control options as defined in
-
-[swTwistControlType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTwistControlType_e.html)
+- `TwistCtrlOption`: Twist control options as defined in [swTwistControlType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTwistControlType_e.html)
 - `KeepTangency`: If the sweep section has tangent segments, then true to cause the corresponding surfaces in the resulting sweep to be tangent, false to not
 - `BAdvancedSmoothing`: If the sweep section has circular or elliptical arcs, then true to approximate the sections and smooth the surfaces, false to not
-- `StartMatchingType`: Tangency type as defined in
-
-[swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
+- `StartMatchingType`: Tangency type as defined in [swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
 - `EndMatchingType`: Tangency type as defined in swTangencyType_e
 - `IsThinBody`: True if this feature is a thin body, false if not
 - `Thickness1`: Thickness value for the first direction
 - `Thickness2`: Thickness value for the second direction
-- `ThinType`: Thin wall type as defined in
-
-[swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
-- `PathAlign`: Align path type (see
-
-Remarks
-
-)
+- `ThinType`: Thin wall type as defined in [swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
+- `PathAlign`: Align path type (see **Remarks**)
 - `Merge`: True to merge the results in a multibody part, false to not
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
-- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see
-
-Remarks
-
-)
+- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see **Remarks**)
 - `TwistAngle`: If TwistCtrlOption is swTwistControlType_e.swTwistControlConstantTwistAlongPath, then specify end twist angle
 - `BMergeSmoothFaces`: True to merge smooth faces, false to not
 - `CircularProfile`: True to use a circular profile, false to use the selected sketch profile or solid body
 - `CircularProfileDiameter`: If CircularProfile is true, then specify the diameter of the circular profile
-- `Direction`: Direction as defined in
-
-[swSweepDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSweepDirection_e.html)
-
-(see
-
-Remarks
-
-)
+- `Direction`: Direction as defined in [swSweepDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSweepDirection_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -188,31 +154,22 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertProtrusionSwept4](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertProtrusionSwept4.html)
-
-.
+See [FeatureManager::InsertProtrusionSwept4](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertProtrusionSwept4.html).
 
 ## Examples
 
 [Get Guide Curves in Sweep Feature (C#)](Get_Guide_Curves_in_Sweep_Feature_Example_CSharp.htm)
-
 [Get Guide Curves in Sweep Feature (VB.NET)](Get_Guide_Curves_in_Sweep_Feature_Example_VBNET.htm)
-
 [Get Guide Curves in Sweep Feature (VBA)](Get_Guide_Curves_in_Sweep_Feature_Example_VB.htm)
-
 [Select Mulitple Sketches for Sweep Path (C#)](Select_Multiple_Paths_for_Sweep_Path_Example_CSharp.htm)
-
 [Select Mulitple Sketches for Sweep Path (VB.NET)](Select_Multiple_Paths_for_Sweep_Path_Example_VBNET.htm)
-
 [Select Mulitple Sketches for Sweep Path (VBA)](Select_Multiple_Paths_for_Sweep_Path_Example_VB.htm)
 
 ## Remarks
 
-SOLIDWORKS 2018 introduces a new sweep architecture, making this method obsolete. See[Sweep Features and SweepFeatureData Objects](sldworksapiprogguide.chm::/OVERVIEW/Sweep_Features_and_SweepFeatureData_Objects.htm)to create this swept-boss or base feature.
+SOLIDWORKS 2018 introduces a new sweep architecture, making this method obsolete. See [Sweep Features and SweepFeatureData Objects](sldworksapiprogguide.chm::/OVERVIEW/Sweep_Features_and_SweepFeatureData_Objects.htm) to create this swept-boss or base feature.
 
-Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select the sketch profile and sweep curves. Specify these marks:
+Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the sketch profile and sweep curves. Specify these marks:
 
 - 1 = Sketch profile
 - 2 = Guide curve, if provided
@@ -231,13 +188,9 @@ Direction only applies to sketch profiles and only when the sketch profile is no
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertCutSwept5 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCutSwept5.html)
-
 [IFeatureManager::InsertSweepSurface3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSweepSurface3.html)
-
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
 
 ## Availability

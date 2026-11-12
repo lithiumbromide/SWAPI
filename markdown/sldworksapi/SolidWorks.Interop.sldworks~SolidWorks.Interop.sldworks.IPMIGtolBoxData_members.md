@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 # IPMIGtolBoxData Interface Members
 
-The following tables list the members exposed by[IPMIGtolBoxData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolBoxData.html).
+The following tables list the members exposed by [IPMIGtolBoxData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolBoxData.html).
 
 ## Public Properties
 
@@ -38,5 +38,4 @@ The following tables list the members exposed by[IPMIGtolBoxData](SolidWorks.Int
 ## See Also
 
 [IPMIGtolBoxData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolBoxData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

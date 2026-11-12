@@ -55,29 +55,18 @@ void GetChangedReferences(
 - `originalreferences`: Array of the names of the original references
 - `newreferences`: Array of the names of the corresponding references
 
-ParamDesc
-
 ## VBA Syntax
 
-See
-
-[SwDMDocument8::GetChangedReferences](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument8~GetChangedReferences.html)
-
-.
+See [SwDMDocument8::GetChangedReferences](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument8~GetChangedReferences.html).
 
 ## See Also
 
 [ISwDMDocument8 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument8.html)
-
 [ISwDMDocument8 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument8_members.html)
-
 [ISwDMDocument::ReplaceReference Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~ReplaceReference.html)
-
 [ISwDMDocument5::GetAllExternalReferences2 Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument5~GetAllExternalReferences2.html)
-
 [ISwDMConfiguration11::GetReplacedComponents Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11~GetReplacedComponents.html)
-
-ISwDMDocument30::ClearChangedReferences Method ()
+**ISwDMDocument30::ClearChangedReferences Method ()**
 
 ## Availability
 

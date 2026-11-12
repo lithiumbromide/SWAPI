@@ -51,20 +51,15 @@ Number of document
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::Number](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Number.html)
-
-.
+See [PDMWDocument::Number](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Number.html).
 
 ## Remarks
 
-You can change the document's number property by accessing the document's custom property; for example,[IPDMWDocument::Properties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Properties.html)("Number").
+You can change the document's number property by accessing the document's custom property; for example, [IPDMWDocument::Properties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Properties.html)("Number").
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
 
 ## Availability

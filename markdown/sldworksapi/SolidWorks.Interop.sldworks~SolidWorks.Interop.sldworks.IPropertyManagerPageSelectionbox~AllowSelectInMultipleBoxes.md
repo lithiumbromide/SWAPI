@@ -45,13 +45,7 @@ property System.bool AllowSelectInMultipleBoxes {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -62,16 +56,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::AllowSelectInMultipleBoxes](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~AllowSelectInMultipleBoxes.html)
-
-.
+See [PropertyManagerPageSelectionbox::AllowSelectInMultipleBoxes](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~AllowSelectInMultipleBoxes.html).
 
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
 
 ## Availability

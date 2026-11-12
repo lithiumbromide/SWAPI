@@ -62,18 +62,12 @@ CWBeamBody^ GetBeamBodyByName(
 
 ## VBA Syntax
 
-See
-
-[CWBeamManager::GetBeamBodyByName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamManager~GetBeamBodyByName.html)
-
-.
+See [CWBeamManager::GetBeamBodyByName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamManager~GetBeamBodyByName.html).
 
 ## See Also
 
 [ICWBeamManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager.html)
-
 [ICWBeamManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager_members.html)
-
 [ICWBeamManager::GetBeamBodyAt Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamManager~GetBeamBodyAt.html)
 
 ## Availability

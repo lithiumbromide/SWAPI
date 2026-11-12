@@ -9,8 +9,7 @@ source: "sldworksapi/Set_View_Scale_Opposite_Parent_View_Scale_Example_VB.htm"
 
 # Set View Scale Opposite Parent View Scale Example (VBA)
 
-This example shows how to set the selected drawing view's scale opposite
-the parent's drawing view's scale.
+This example shows how to set the selected drawing view's scale opposite the parent's drawing view's scale.
 
 ```
 '-----------------------------------------------

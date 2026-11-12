@@ -45,13 +45,7 @@ property System.bool NormalCut {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ True if the cut is created normal to the thickness of the sheet metal part, fals
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::NormalCut](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~NormalCut.html)
-
-.
+See [ExtrudeFeatureData2::NormalCut](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~NormalCut.html).
 
 ## Examples
 
 [Create Cut Extrude in Sheet Metal Part (C#)](Create_Cut_Extrude_in_Sheet_Metal_Part_Example_CSharp.htm)
-
 [Create Cut Extrude in Sheet Metal Part (VB.NET)](Create_Cut_Extrude_in_Sheet_Metal_Part_Example_VBNET.htm)
-
 [Create Cut Extrude in Sheet Metal Part (VBA)](Create_Cut_Extrude_in_Sheet_Metal_Part_Example_VB.htm)
 
 ## Remarks
 
-To optimize the geometry of the normal cut in the sheet metal part, set
-
-[IExtrudeFeatureData2::OptimizeGeometry](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~OptimizeGeometry.html)
-
-to true.
+To optimize the geometry of the normal cut in the sheet metal part, set [IExtrudeFeatureData2::OptimizeGeometry](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~OptimizeGeometry.html) to true.
 
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
 
 ## Availability

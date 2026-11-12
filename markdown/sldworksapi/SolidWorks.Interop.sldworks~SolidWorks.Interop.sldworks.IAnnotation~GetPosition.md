@@ -40,34 +40,21 @@ System.object GetPosition()
 System.Object^ GetPosition();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetPosition](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetPosition.html)
-
-.
+See [Annotation::GetPosition](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetPosition.html).
 
 ## Examples
 
 [Insert Autoballoons (VBA)](Insert_Autoballoons_Example_VB_AutoBalloon2_VB.htm)
-
 [Traverse Annotations (C#)](Traverse_Annotations_Example_CSharp.htm)
-
 [Traverse Annotations (VB.NET)](Traverse_Annotations_Example_VBNET.htm)
-
 [Traverse Annotations (VBA)](Traverse_Annotations_Example_VB.htm)
 
 ## Remarks
@@ -94,13 +81,9 @@ If you use this method on any other types of annotations, SOLIDWORKS takes no ac
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::IGetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~IGetPosition.html)
-
 [IAnnotation::SetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetPosition.html)
-
 [INote::LockPosition Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~LockPosition.html)
 
 ## Availability

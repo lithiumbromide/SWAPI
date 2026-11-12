@@ -42,30 +42,19 @@ System.int GravityEndEdit();
 
 ### Return Value
 
-Error as defined in
-
-[swsGravityEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsGravityEndEditError_e.html)
+Error as defined in [swsGravityEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsGravityEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWGravity::GravityEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~GravityEndEdit.html)
-
-.
+See [CWGravity::GravityEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWGravity~GravityEndEdit.html).
 
 ## Remarks
 
-To end editing gravity, you must call this method. You must call
-
-[ICWGravity::GravityBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWGravity~GravityBeginEdit.html)
-
-to start editing gravity. Changes are not applied unless you call both methods.
+To end editing gravity, you must call this method. You must call [ICWGravity::GravityBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWGravity~GravityBeginEdit.html) to start editing gravity. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWGravity Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity.html)
-
 [ICWGravity Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWGravity_members.html)
 
 ## Availability

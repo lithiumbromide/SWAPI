@@ -1,6 +1,5 @@
 ---
-title: "StackedBalloonOptions Object
-Members"
+title: "StackedBalloonOptions Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "StackedBalloonOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~StackedBalloonOptions_members.html"
 ---
 
-# StackedBalloonOptions Object
-Members
+# StackedBalloonOptions Object Members
 
 ## Public Properties
 

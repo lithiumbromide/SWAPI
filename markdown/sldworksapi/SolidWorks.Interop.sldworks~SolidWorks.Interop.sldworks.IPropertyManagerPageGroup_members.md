@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPropertyManagerPageGroup Interface Members
 
-The following tables list the members exposed by[IPropertyManagerPageGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageGroup.html).
+The following tables list the members exposed by [IPropertyManagerPageGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageGroup.html).
 
 ## Public Properties
 
@@ -36,5 +36,4 @@ The following tables list the members exposed by[IPropertyManagerPageGroup](Soli
 ## See Also
 
 [IPropertyManagerPageGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageGroup.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -45,48 +45,27 @@ property System.int ItemOrder {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Item ordering as defined in
-
-[swBalloonItemNumbersOrder_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonItemNumbersOrder_e.html)
+Item ordering as defined in [swBalloonItemNumbersOrder_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonItemNumbersOrder_e.html)
 
 ## VBA Syntax
 
-See
-
-[AutoBalloonOptions::ItemOrder](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~ItemOrder.html)
-
-.
+See [AutoBalloonOptions::ItemOrder](ms-its:sldworksapivb6.chm::/sldworks~AutoBalloonOptions~ItemOrder.html).
 
 ## Examples
 
-See
-
-[IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html)
-
-examples.
+See [IAutoBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAutoBalloonOptions.html) examples.
 
 ## Remarks
 
-See the SOLIDWORKS Help for additional details about
-
-autoballoons
-
-.
+See the SOLIDWORKS Help for additional details about autoballoons.
 
 ## See Also
 
 [IAutoBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions.html)
-
 [IAutoBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAutoBalloonOptions_members.html)
 
 ## Availability

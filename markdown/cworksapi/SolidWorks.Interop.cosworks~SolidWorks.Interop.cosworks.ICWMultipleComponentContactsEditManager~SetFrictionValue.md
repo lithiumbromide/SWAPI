@@ -53,36 +53,25 @@ System.int SetFrictionValue(
 
 ### Return Value
 
-Error code as defined in
-
-[swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
+Error code as defined in [swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMultipleComponentContactsEditManager::SetFrictionValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~SetFrictionValue.html)
-
-.
+See [CWMultipleComponentContactsEditManager::SetFrictionValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~SetFrictionValue.html).
 
 ## Remarks
 
 This method is valid only if:
 
-- [ICWMultipleComponentContactsEditManager::SetIncludeFriction](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~SetIncludeFriction.html)
-
-  's BIncludeFriction is set to 1,
+- [ICWMultipleComponentContactsEditManager::SetIncludeFriction](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~SetIncludeFriction.html)'s BIncludeFriction is set to 1,
 
 - and -
 
-- [ICWMultipleComponentContactsEditManager::SetContactType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~SetContactType.html)
-
-  's NType is set to swsContactType_e.swsContactTypeStaticNoPenetration.
+- [ICWMultipleComponentContactsEditManager::SetContactType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager~SetContactType.html)'s NType is set to swsContactType_e.swsContactTypeStaticNoPenetration.
 
 ## See Also
 
 [ICWMultipleComponentContactsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html)
-
 [ICWMultipleComponentContactsEditManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager_members.html)
 
 ## Availability

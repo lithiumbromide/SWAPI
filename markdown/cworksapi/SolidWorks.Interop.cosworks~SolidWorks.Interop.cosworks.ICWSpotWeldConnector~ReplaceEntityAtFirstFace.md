@@ -52,18 +52,12 @@ void ReplaceEntityAtFirstFace(
 
 ## VBA Syntax
 
-See
-
-[CWSpotWeldConnector::ReplaceEntityAtFirstFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~ReplaceEntityAtFirstFace.html)
-
-.
+See [CWSpotWeldConnector::ReplaceEntityAtFirstFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpotWeldConnector~ReplaceEntityAtFirstFace.html).
 
 ## See Also
 
 [ICWSpotWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector.html)
-
 [ICWSpotWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector_members.html)
-
 [ICWSpotWeldConnector::ReplaceEntityAtSecondFace Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpotWeldConnector~ReplaceEntityAtSecondFace.html)
 
 ## Availability

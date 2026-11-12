@@ -47,46 +47,31 @@ property Component2^ Component {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `WhichOne`: - 0 = Component1
 
-- 1 = Component2
+  - 1 = Component2
 
 ### Property Value
 
-[Component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-associated with the mate that owns this load reference
+[Component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) associated with the mate that owns this load reference
 
 ## VBA Syntax
 
-See
-
-[MateLoadReference::Component](ms-its:sldworksapivb6.chm::/sldworks~MateLoadReference~Component.html)
-
-.
+See [MateLoadReference::Component](ms-its:sldworksapivb6.chm::/sldworks~MateLoadReference~Component.html).
 
 ## Examples
 
 [Insert Mate Load Reference (C#)](Insert_Mate_Load_Reference_Example_CSharp.htm)
-
 [Insert Mate Load Reference (VB.NET)](Insert_Mate_Load_Reference_Example_VBNET.htm)
-
 [Insert Mate Load Reference (VBA)](Insert_Mate_Load_Reference_Example_VB.htm)
 
 ## See Also
 
 [IMateLoadReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateLoadReference.html)
-
 [IMateLoadReference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateLoadReference_members.html)
 
 ## Availability

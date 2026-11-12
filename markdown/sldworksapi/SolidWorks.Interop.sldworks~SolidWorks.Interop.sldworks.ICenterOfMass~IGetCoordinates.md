@@ -40,29 +40,19 @@ System.double IGetCoordinates()
 System.double IGetCoordinates();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
 - in-process, unmanaged C++: Pointer to an array of doubles of the x, y, and z coordinates of the center of mass
 - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
-
-ParamDesc
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## See Also
 
 [ICenterOfMass Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass.html)
-
 [ICenterOfMass Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass_members.html)
-
 [ICenterOfMass::GetCoordinates Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterOfMass~GetCoordinates.html)
 
 ## Availability

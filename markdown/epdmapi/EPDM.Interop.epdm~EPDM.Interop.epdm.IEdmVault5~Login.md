@@ -54,14 +54,12 @@ void Login(
 If your application is custom (i.e., it is not supplied or supported by SOLIDWORKS PDM Professional) and your application:
 
 - logs into SOLIDWORKS PDM Professional
-
   - or -
 - logs into a vault view
-
   - or -
 - directly accesses a vault database
 
-when the same user is not already logged into a local view, you must first call[IEdmVault13::LoginEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault13~LoginEx.html)or[IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html)to comply with the[SOLIDWORKS End User License Agreement (EULA)](http://www.solidworks.com/sw/eula.htm). Call IEdmVault13::LoginEx or IEdmVault5::LoginAuto before calling this method to ensure that licenses are properly consumed by your application.
+when the same user is not already logged into a local view, you must first call [IEdmVault13::LoginEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault13~LoginEx.html) or [IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html) to comply with the [SOLIDWORKS End User License Agreement (EULA)](http://www.solidworks.com/sw/eula.htm). Call IEdmVault13::LoginEx or IEdmVault5::LoginAuto before calling this method to ensure that licenses are properly consumed by your application.
 
 Call IEdmVault5::LoginAuto to log in as a user already logged into a vault view through File Explorer or into a vault through the SOLIDWORKS PDM Professional client software. You do not need to specify a username and password when you call IEdmVault5::LoginAuto to share a license with the already logged-in user.
 
@@ -75,7 +73,6 @@ Call IEdmVault5::LoginAuto to log in as a user already logged into a vault view 
 ## See Also
 
 [IEdmVault5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5.html)
-
 [IEdmVault5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5_members.html)
 
 ## Availability

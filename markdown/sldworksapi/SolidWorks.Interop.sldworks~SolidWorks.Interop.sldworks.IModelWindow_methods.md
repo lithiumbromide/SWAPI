@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelWindow Interface Methods
 
-For a list of all members of this type, see[IModelWindow members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow_members.html).
+For a list of all members of this type, see [IModelWindow members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow_members.html).
 
 ## Public Methods
 
@@ -22,9 +22,6 @@ For a list of all members of this type, see[IModelWindow members](SolidWorks.Int
 ## See Also
 
 [IModelWindow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelWindow.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFrame::ShowModelWindow Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~ShowModelWindow.html)
-
 [IFrame::GetModelWindowCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetModelWindowCount.html)

@@ -57,15 +57,11 @@ PDMWProperty^ Add(
 
 ## VBA Syntax
 
-See
-
-[PDMWProperties::Add](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperties~Add.html)
-
-.
+See [PDMWProperties::Add](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperties~Add.html).
 
 ## Remarks
 
-If using this property to add a PDMWProperty to a[IPDMWProperties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.html)collection, assign a value to the property using[IPDMWProperty::Value](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperty~Value.html)and then use[IPDMWProperties::Update](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Update.html)to update the SOLIDWORKS Workgroup PDM vault. Otherwise, the property is not added.
+If using this property to add a PDMWProperty to a [IPDMWProperties](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.html) collection, assign a value to the property using [IPDMWProperty::Value](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperty~Value.html) and then use [IPDMWProperties::Update](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Update.html) to update the SOLIDWORKS Workgroup PDM vault. Otherwise, the property is not added.
 
 Use this method before using IPDMWProperties::Update.
 
@@ -74,7 +70,6 @@ You cannot add new properties to collections of vault administrator-assigned cus
 ## See Also
 
 [IPDMWProperties Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties.html)
-
 [IPDMWProperties Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties_members.html)
 
 ## Availability

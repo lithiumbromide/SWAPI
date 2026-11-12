@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetCustomPropertyValue Method (ISwDMCutListItem)
 
-Obsolete. Superseded by
-
-[ISwDMCutListItem2::GetCustomPropertyValue2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMCutListItem~GetCustomPropertyValue.html)
-
-.
+Obsolete. Superseded by [ISwDMCutListItem2::GetCustomPropertyValue2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMCutListItem~GetCustomPropertyValue.html).
 
 ## Syntax
 
@@ -67,14 +63,9 @@ System.String^ GetCustomPropertyValue(
 
 ## VBA Syntax
 
-See
-
-[SwDMCutListItem::GetCustomPropertyValue](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem~GetCustomPropertyValue.html)
-
-.
+See [SwDMCutListItem::GetCustomPropertyValue](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem~GetCustomPropertyValue.html).
 
 ## See Also
 
 [ISwDMCutListItem Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem.html)
-
 [ISwDMCutListItem Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem_members.html)

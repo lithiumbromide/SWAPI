@@ -9,8 +9,7 @@ source: "sldworksapi/Reorder_Features_Example_VB.htm"
 
 # Reorder Features Example (VBA)
 
-This example shows how to move a feature to another location in the
-FeatureManager design tree of a part.
+This example shows how to move a feature to another location in the FeatureManager design tree of a part.
 
 ```vb
  '---------------------------------------------------------------------------

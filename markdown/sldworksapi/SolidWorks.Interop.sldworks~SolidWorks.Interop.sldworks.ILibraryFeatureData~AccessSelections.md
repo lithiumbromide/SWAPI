@@ -51,45 +51,25 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PTopDoc`: Top-level document (see
-
-Remarks
-
-)
-- `PComponent`: Component in which the feature is to be modified (see
-
-Remarks
-
-)
+- `PTopDoc`: Top-level document (see **Remarks**)
+- `PComponent`: Component in which the feature is to be modified (see **Remarks**)
 
 ### Return Value
 
-True if the selections were successfully accessed, false if notParamDesc
+True if the selections were successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[LibraryFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~LibraryFeatureData~AccessSelections.html)
-
-.
+See [LibraryFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~LibraryFeatureData~AccessSelections.html).
 
 ## Examples
 
 [Get Library Feature Data (VBA)](Get_Library_Feature_Data_Example_VB.htm)
-
 [Get Library Feature Data (VB.NET)](Get_Library_Feature_Data_Example_VBNET.htm)
-
 [Get Library Feature Data (C#)](Get_Library_Feature_Data_Example_CSharp.htm)
 
 ## Remarks
@@ -101,21 +81,12 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  or
-
-  [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [ILibraryFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILibraryFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [ILibraryFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILibraryFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [ILibraryFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData.html)
-
 [ILibraryFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData_members.html)
 
 ## Availability

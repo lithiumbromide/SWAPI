@@ -45,13 +45,7 @@ property System.bool Expanded {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to expand, false to not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageGroup::Expanded](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageGroup~Expanded.html)
-
-.
+See [PropertyManagerPageGroup::Expanded](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageGroup~Expanded.html).
 
 ## See Also
 
 [IPropertyManagerPageGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageGroup.html)
-
 [IPropertyManagerPageGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageGroup_members.html)
 
 ## Availability

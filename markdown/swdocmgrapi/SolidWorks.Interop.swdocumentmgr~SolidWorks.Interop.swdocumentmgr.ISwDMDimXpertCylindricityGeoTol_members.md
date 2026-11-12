@@ -9,10 +9,9 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # ISwDMDimXpertCylindricityGeoTol Interface Members
 
-The following tables list the members exposed by[ISwDMDimXpertCylindricityGeoTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCylindricityGeoTol.html).
+The following tables list the members exposed by [ISwDMDimXpertCylindricityGeoTol](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCylindricityGeoTol.html).
 
 ## See Also
 
 [ISwDMDimXpertCylindricityGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCylindricityGeoTol.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

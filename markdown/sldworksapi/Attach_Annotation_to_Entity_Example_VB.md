@@ -9,8 +9,7 @@ source: "sldworksapi/Attach_Annotation_to_Entity_Example_VB.htm"
 
 # Attach Annotation to Entity Example (VBA)
 
-This example shows how to attach an annotation to a different
-entity.
+This example shows how to attach an annotation to a different entity.
 
 ```
 '-------------------------------------------------------

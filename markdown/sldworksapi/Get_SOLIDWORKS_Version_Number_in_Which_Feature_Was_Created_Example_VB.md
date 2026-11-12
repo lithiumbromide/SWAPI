@@ -1,5 +1,5 @@
 ---
-title: "Get SOLIDWORKS Version Number in which Feature Was Created Example (VBA)"
+title: "Get Version Number in which Feature Was Created Example (VBA)"
 project: ""
 interface: ""
 member: ""
@@ -7,10 +7,9 @@ kind: "example"
 source: "sldworksapi/Get_SOLIDWORKS_Version_Number_in_Which_Feature_Was_Created_Example_VB.htm"
 ---
 
-# Get SOLIDWORKS Version Number in which Feature Was Created Example (VBA)
+# Get Version Number in which Feature Was Created Example (VBA)
 
-This example shows how to get the SOLIDWORKS version number in which
-the selected feature was created.
+This example shows how to get the version number in which the selected feature was created.
 
 ```
 '------------------------------------------------------------------
@@ -19,7 +18,7 @@ the selected feature was created.
 ' 2. Open the Immediate window.
 '
 ' Postconditions:
-' 1. Gets the version of SOLIDWORKS in which the selected
+' 1. Gets the version of SOLIDWORKS Design in which the selected
 '    feature was created.
 ' 2. Examine the Immediate window.
 '-------------------------------------------------------------------
@@ -42,7 +41,7 @@ Sub main()
     Set swModel = swApp.ActiveDoc
     Set swSelMgr = swModel.SelectionManager
     Set swFeat = swSelMgr.GetSelectedObject5(1)
-    Debug.Print "Version of SOLIDWORKS in which feature was created = " & swFeat.GetCreatedVersion
+    Debug.Print "Version of SOLIDWORKS Design in which feature was created = " & swFeat.GetCreatedVersion
 ```
 
 ```

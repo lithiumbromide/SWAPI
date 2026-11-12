@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # IGetBSurfParamsSize Method (ISurface)
 
-Obsolete. Superseded by
-
-[ISurface::IGetBSurfParamsSize3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetBSurfParamsSize3.html)
-
-.
+Obsolete. Superseded by [ISurface::IGetBSurfParamsSize3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IGetBSurfParamsSize3.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.int IGetBSurfParamsSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Surface::IGetBSurfParamsSize](ms-its:sldworksapivb6.chm::/sldworks~Surface~IGetBSurfParamsSize.html)
-
-.
+See [Surface::IGetBSurfParamsSize](ms-its:sldworksapivb6.chm::/sldworks~Surface~IGetBSurfParamsSize.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)

@@ -48,11 +48,7 @@ Tolerance in the lower tier
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompositePositionGeoTol::ToleranceLowerTier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositePositionGeoTol~ToleranceLowerTier.html)
-
-.
+See [SwDMDimXpertCompositePositionGeoTol::ToleranceLowerTier](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositePositionGeoTol~ToleranceLowerTier.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompositePositionGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositePositionGeoTol.html)
-
 [ISwDMDimXpertCompositePositionGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositePositionGeoTol_members.html)
 
 ## Availability

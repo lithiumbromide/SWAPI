@@ -11,8 +11,7 @@ source: "cworksapi/Add_Remote_Load_Example_CSharp.htm"
 
 This example shows how to add a remote load to a static study.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
  //----------------------------------------------------------------------------

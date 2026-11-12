@@ -9,8 +9,7 @@ source: "sldworksapi/Switch_Edit_Context_Example_VBNET.htm"
 
 # Switch Edit Context Example (VB.NET)
 
-This example shows how to switch back and forth between assembly and part
-when editing. It also shows how to fix and float an assembly component.
+This example shows how to switch back and forth between assembly and part when editing. It also shows how to fix and float an assembly component.
 
 ```vb
  '----------------------------------------------------------------------------

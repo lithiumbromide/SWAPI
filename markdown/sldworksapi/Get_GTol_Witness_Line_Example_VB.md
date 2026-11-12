@@ -9,8 +9,7 @@ source: "sldworksapi/Get_GTol_Witness_Line_Example_VB.htm"
 
 # Get GTol Witness Line Example (VBA)
 
-This example shows how to get the witness line of a geometric tolerance
-frame.
+This example shows how to get the witness line of a geometric tolerance frame.
 
 ```vb
  '----------------------------------------------------------------------------

@@ -45,13 +45,7 @@ property System.bool CoreCavitySplit {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ True to enable a core/cavity split, false to not
 
 ## VBA Syntax
 
-See
-
-[PartingLineFeatureData::CoreCavitySplit](ms-its:sldworksapivb6.chm::/sldworks~PartingLineFeatureData~CoreCavitySplit.html)
-
-.
+See [PartingLineFeatureData::CoreCavitySplit](ms-its:sldworksapivb6.chm::/sldworks~PartingLineFeatureData~CoreCavitySplit.html).
 
 ## Examples
 
 [Set Options for Parting Line (VBA)](Set_Split_Faces_Option_for_Parting_Line_Example_VB.htm)
-
 [Get and Set Parting Line Feature Data (C#)](Get_and_Set_Parting_Line_Feature_Data_Example_CSharp.htm)
-
 [Get and Set Parting Line Feature Data (VB.NET)](Get_and_Set_Parting_Line_Feature_Data_Example_VBNET.htm)
-
 [Get and Set Parting Line Feature Data (VBA)](Get_and_Set_Parting_Line_Feature_Data_Example_VB.htm)
 
 ## See Also
 
 [IPartingLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData.html)
-
 [IPartingLineFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData_members.html)
 
 ## Availability

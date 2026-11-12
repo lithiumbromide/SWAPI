@@ -38,14 +38,9 @@ Interface to a data object that contains command-specific information
 
 ## Remarks
 
-The type of interface returned depends on the type of command or hook. See
-
-[EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
-for more information.
+The type of interface returned depends on the type of command or hook. See [EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html) for more information.
 
 ## See Also
 
 [EdmCmd Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)
-
 [EdmCmd Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd_members.html)

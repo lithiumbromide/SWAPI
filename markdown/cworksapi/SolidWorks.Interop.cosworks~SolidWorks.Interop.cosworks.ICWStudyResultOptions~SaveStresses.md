@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # SaveStresses Property (ICWStudyResultOptions)
 
-Obsolete. Superseded by
-
-[ICWStudyResultOptions::GetSaveStressAndReactionsOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~GetSaveStressAndReactionsOptions.html)
-
-and
-
-[ICWStudyResultOptions::SetSaveStressAndReactionsOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SetSaveStressAndReactionsOptions.html)
-
-.
+Obsolete. Superseded by [ICWStudyResultOptions::GetSaveStressAndReactionsOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~GetSaveStressAndReactionsOptions.html) and [ICWStudyResultOptions::SetSaveStressAndReactionsOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SetSaveStressAndReactionsOptions.html).
 
 ## Syntax
 
@@ -55,38 +47,22 @@ property System.int SaveStresses {
 
 ### Property Value
 
-1 to save stress results, 0 to not (see
-
-Remarks
-
-)
+1 to save stress results, 0 to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWStudyResultOptions::SaveStresses](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyResultOptions~SaveStresses.html)
-
-.
+See [CWStudyResultOptions::SaveStresses](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyResultOptions~SaveStresses.html).
 
 ## Remarks
 
-This property is valid only for linear dynamic studies and only if
-
-[ICWStudyResultOptions::SaveResultsForSolutionStepsOption](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyResultOptions~SaveResultsForSolutionStepsOption.html)
-
-= swsSaveResultsOption_e.swsSaveResultsOption_ForSpecifiedSolutionSteps.
+This property is valid only for linear dynamic studies and only if [ICWStudyResultOptions::SaveResultsForSolutionStepsOption](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWStudyResultOptions~SaveResultsForSolutionStepsOption.html) = swsSaveResultsOption_e.swsSaveResultsOption_ForSpecifiedSolutionSteps.
 
 ## See Also
 
 [ICWStudyResultOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions.html)
-
 [ICWStudyResultOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions_members.html)
-
 [ICWStudyResultOptions::SaveDisplacementsAndVelocitiesOption Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SaveDisplacementsAndVelocitiesOption.html)
-
 [ICWStudyResultOptions::SaveReactions Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SaveReactions.html)
-
 [ICWStudyResultOptions::SaveResultsForSolutionStepsOption Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SaveResultsForSolutionStepsOption.html)
 
 ## Availability

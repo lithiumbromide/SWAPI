@@ -40,13 +40,7 @@ System.int GetSplitBodiesCount()
 System.int GetSplitBodiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ Number of split bodies
 
 ## VBA Syntax
 
-See
-
-[SplitBodyFeatureData::GetSplitBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~SplitBodyFeatureData~GetSplitBodiesCount.html)
-
-.
+See [SplitBodyFeatureData::GetSplitBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~SplitBodyFeatureData~GetSplitBodiesCount.html).
 
 ## Remarks
 
-Call this method before calling[ISplitBodyFeatureData::IGetSplitBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~IGetSplitBodies.html)to determine the size of the array for that method.
+Call this method before calling [ISplitBodyFeatureData::IGetSplitBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~IGetSplitBodies.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ISplitBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData.html)
-
 [ISplitBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData_members.html)
-
 [ISplitBodyFeatureData::GetSplitBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~GetSplitBodies.html)
-
 [ISplitBodyFeatureData::ISetSplitBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~ISetSplitBodies.html)
-
 [ISplitBodyFeatureData::SetSplitBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~SetSplitBodies.html)
 
 ## Availability

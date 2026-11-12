@@ -40,13 +40,7 @@ Sheet GetSheet()
 Sheet^ GetSheet();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[RevisionTableAnnotation::GetSheet](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~GetSheet.html)
-
-.
+See [RevisionTableAnnotation::GetSheet](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~GetSheet.html).
 
 ## See Also
 
 [IRevisionTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation.html)
-
 [IRevisionTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation_members.html)
 
 ## Availability

@@ -46,11 +46,7 @@ Array of the names of the linked documents
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument5::GetLinkedAttachments](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument5~GetLinkedAttachments.html)
-
-.
+See [SwDMDocument5::GetLinkedAttachments](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument5~GetLinkedAttachments.html).
 
 ## Remarks
 
@@ -59,7 +55,6 @@ This method is supported by SOLIDWORKS Document Manager 2005 and later.
 ## See Also
 
 [ISwDMDocument5 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument5.html)
-
 [ISwDMDocument5 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument5_members.html)
 
 ## Availability

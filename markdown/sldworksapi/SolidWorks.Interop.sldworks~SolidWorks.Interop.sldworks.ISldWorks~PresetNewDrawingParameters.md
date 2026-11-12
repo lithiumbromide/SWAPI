@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # PresetNewDrawingParameters Method (ISldWorks)
 
-Presets the drawing template and sheet size parameters to avoid showing the
-
-Sheet Format/Size
-
-dialog when creating a new drawing document in the user-interface.
+Presets the drawing template and sheet size parameters to avoid showing the Sheet Format/Size dialog when creating a new drawing document in the user-interface.
 
 ## Syntax
 
@@ -63,38 +59,24 @@ System.bool PresetNewDrawingParameters(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DrawingTemplate`: Path and filename (
-
-.slddrt
-
-) of the drawing template to use
+- `DrawingTemplate`: Path and filename (.slddrt) of the drawing template to use
 - `ShowTemplate`: True to show the sheet format, false to not
 
-**NOTE:**Valid only for standard sheet sizes and when Width and Height are set to 0.
-- `Width`: Width of the drawing sheetParamDesc
+  **NOTE:** Valid only for standard sheet sizes and when Width and Height are set to 0.
+- `Width`: Width of the drawing sheet
 - `Height`: Height of the drawing sheet
 
 ### Return Value
 
-True ifParamDescthe specified drawing template and sheet size parameters are set, false if not
+True if the specified drawing template and sheet size parameters are set, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::PresetNewDrawingParameters](ms-its:sldworksapivb6.chm::/Sldworks~SldWorks~PresetNewDrawingParameters.html)
-
-.
+See [SldWorks::PresetNewDrawingParameters](ms-its:sldworksapivb6.chm::/Sldworks~SldWorks~PresetNewDrawingParameters.html).
 
 ## Examples
 
@@ -102,12 +84,11 @@ See
 
 ## Remarks
 
-To show the Sheet Format/Size dialog the next time a new drawing document is opened (SOLIDWORKS default behavior), call[ISldWorks::ResetPresetDrawingParameters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ResetPresetDrawingParameters.html)after calling this method and opening a new drawing document.
+To show the Sheet Format/Size dialog the next time a new drawing document is opened (SOLIDWORKS default behavior), call [ISldWorks::ResetPresetDrawingParameters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ResetPresetDrawingParameters.html) after calling this method and opening a new drawing document.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

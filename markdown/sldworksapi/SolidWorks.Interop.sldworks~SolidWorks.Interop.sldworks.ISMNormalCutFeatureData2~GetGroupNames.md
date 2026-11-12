@@ -40,13 +40,7 @@ System.object GetGroupNames()
 System.Object^ GetGroupNames();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Array of face group names
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData2::GetGroupNames](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~GetGroupNames.html)
-
-.
+See [SMNormalCutFeatureData2::GetGroupNames](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~GetGroupNames.html).
 
 ## Examples
 
-See the
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-example.
+See the [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html) example.
 
 ## See Also
 
 [ISMNormalCutFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
 [ISMNormalCutFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ AttributeDef IGetDefinition()
 AttributeDef^ IGetDefinition();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[Attribute::IGetDefinition](ms-its:sldworksapivb6.chm::/sldworks~Attribute~IGetDefinition.html)
-
-.
+See [Attribute::IGetDefinition](ms-its:sldworksapivb6.chm::/sldworks~Attribute~IGetDefinition.html).
 
 ## Remarks
 
-SOLIDWORKS generates all attribute instances from an[IAttribute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute.html)object. The object is the mold that gives the attribute its parameters and default values.
+SOLIDWORKS generates all attribute instances from an [IAttribute](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAttribute.html) object. The object is the mold that gives the attribute its parameters and default values.
 
 ## See Also
 
 [IAttribute Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute.html)
-
 [IAttribute Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttribute_members.html)

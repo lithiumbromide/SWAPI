@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Grid_Lines_Example_VB.htm"
 
 # Set Grid Lines Example (VBA)
 
-This example shows how to set the number of minor grid lines between
-major grid lines in an active sketch.
+This example shows how to set the number of minor grid lines between major grid lines in an active sketch.
 
 ```
 '--------------------------------------

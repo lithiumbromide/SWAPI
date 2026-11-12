@@ -45,46 +45,29 @@ property Feature^ BoundingSketch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[CoreFeatureData::BoundingSketch](ms-its:sldworksapivb6.chm::/sldworks~CoreFeatureData~BoundingSketch.html)
-
-.
+See [CoreFeatureData::BoundingSketch](ms-its:sldworksapivb6.chm::/sldworks~CoreFeatureData~BoundingSketch.html).
 
 ## Examples
 
 [Get Core Feature Data (VBA)](Get_Core_Feature_Example_VB.htm)
-
 [Get Core Feature Data (C#)](Get_Core_Feature_Example_CSharp.htm)
-
 [Get Core Feature Data (VB.NET)](Get_Core_Feature_Example_VBNET.htm)
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [ICoreFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData.html)
-
 [ICoreFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoreFeatureData_members.html)
 
 ## Availability

@@ -9,22 +9,12 @@ source: "API_GB/Get_File_References_for_File_Example_VBNET.htm"
 
 # Get File References for a File Example (VB.NET)
 
-This example shows how to get the file references for a
-file and export any file references to an XML file. This example also shows how
-to get whether the file and any file references in local cache are valid or
-obsolete.
+This example shows how to get the file references for a file and export any file references to an XML file. This example also shows how to get whether the file and any file references in local cache are valid or obsolete.
 
 **NOTE:**
 
-- This example does not work with assemblies that contain weldment
-  components.
-- If using the primary interop assembly
-  provided with SOLIDWORKS PDM Professional, see
-
-  [Using .NET Framework 4.0 in
-  Stand-alone Applications](Using_NET_Framework_in_Applications.htm)
-
-  .
+- This example does not work with assemblies that contain weldment components.
+- If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 '----------------------------------------------------------------------------

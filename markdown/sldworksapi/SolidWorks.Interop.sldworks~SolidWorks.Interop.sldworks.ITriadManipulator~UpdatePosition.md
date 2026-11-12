@@ -40,13 +40,7 @@ System.bool UpdatePosition()
 System.bool UpdatePosition();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the position of the triad manipulator is updated, false if not
 
 ## VBA Syntax
 
-See
-
-[TriadManipulator::UpdatePosition](ms-its:sldworksapivb6.chm::/sldworks~TriadManipulator~UpdatePosition.html)
-
-.
+See [TriadManipulator::UpdatePosition](ms-its:sldworksapivb6.chm::/sldworks~TriadManipulator~UpdatePosition.html).
 
 ## Remarks
 
@@ -72,9 +62,7 @@ After setting any of these properties, call this method to update the position o
 ## See Also
 
 [ITriadManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator.html)
-
 [ITriadManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator_members.html)
-
 [ITriadManipulator::DoNotShow Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator~DoNotShow.html)
 
 ## Availability

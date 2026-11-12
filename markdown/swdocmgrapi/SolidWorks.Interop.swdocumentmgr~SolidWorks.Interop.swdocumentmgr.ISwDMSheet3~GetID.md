@@ -46,22 +46,16 @@ ID of the drawing sheet
 
 ## VBA Syntax
 
-See
-
-[SwDMSheet3::GetID](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet3~GetID.html)
-
-.
+See [SwDMSheet3::GetID](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSheet3~GetID.html).
 
 ## Examples
 
 [Get Sheet IDs (VB.NET)](Get_Persistent_IDs_Example_VBNET.htm)
-
 [Get Sheet IDs (C#)](Get_Persistent_IDs_Example_CSharp.htm)
 
 ## See Also
 
 [ISwDMSheet3 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet3.html)
-
 [ISwDMSheet3 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSheet3_members.html)
 
 ## Availability

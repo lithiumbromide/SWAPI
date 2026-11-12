@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # D2EndSeedReferenceType Property (ILocalLinearPatternFeatureData)
 
-Gets the type of
-
-[ILocalLinearPatternFeatureData::D2EndSeedReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D2EndSeedReference.html)
-
-.
+Gets the type of [ILocalLinearPatternFeatureData::D2EndSeedReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D2EndSeedReference.html).
 
 ## Syntax
 
@@ -46,32 +42,19 @@ property System.int D2EndSeedReferenceType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html)
+Type as defined in [swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html)
 
 ## VBA Syntax
 
-See
-
-[LocalLinearPatternFeatureData::D2EndSeedReferenceType](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~D2EndSeedReferenceType.html)
-
-.
+See [LocalLinearPatternFeatureData::D2EndSeedReferenceType](ms-its:sldworksapivb6.chm::/sldworks~LocalLinearPatternFeatureData~D2EndSeedReferenceType.html).
 
 ## See Also
 
 [ILocalLinearPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData.html)
-
 [ILocalLinearPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData_members.html)
 
 ## Availability

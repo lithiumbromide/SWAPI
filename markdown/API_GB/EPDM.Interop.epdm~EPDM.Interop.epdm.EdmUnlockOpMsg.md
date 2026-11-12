@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockOpMsg.html"
 
 # EdmUnlockOpMsg Enumeration
 
-Types of constant passed to
-
-[IEdmUnlockOpCallback::MsgBox](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~MsgBox.html)
-
-when the caller should either display a message to the user or process the message in some other way.
+Types of constant passed to [IEdmUnlockOpCallback::MsgBox](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~MsgBox.html) when the caller should either display a message to the user or process the message in some other way.
 
 ## Syntax
 

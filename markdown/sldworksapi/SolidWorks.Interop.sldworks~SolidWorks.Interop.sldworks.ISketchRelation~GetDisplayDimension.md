@@ -40,13 +40,7 @@ System.object GetDisplayDimension()
 System.Object^ GetDisplayDimension();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchRelation::GetDisplayDimension](ms-its:sldworksapivb6.chm::/sldworks~SketchRelation~GetDisplayDimension.html)
-
-.
+See [SketchRelation::GetDisplayDimension](ms-its:sldworksapivb6.chm::/sldworks~SketchRelation~GetDisplayDimension.html).
 
 ## Examples
 
 [Get Sketch Relations (VBA)](Get_Sketch_Relations_Example_VB.htm)
-
 [Get Sketch Relations (VB.NET)](Get_Sketch_Relations_Example_VBNET.htm)
-
 [Get Sketch Relations (C#)](Get_Sketch_Relations_Example_CSharp.htm)
 
 ## See Also
 
 [ISketchRelation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation.html)
-
 [ISketchRelation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation_members.html)
 
 ## Availability

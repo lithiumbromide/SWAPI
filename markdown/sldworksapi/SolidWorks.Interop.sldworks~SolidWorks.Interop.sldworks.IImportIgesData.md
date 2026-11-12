@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIm
 
 Allows you to specify levels and values when importing IGES data.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IImportIgesData
 
 ## VBA Syntax
 
-See
-
-[ImportIgesData](ms-its:sldworksapivb6.chm::/sldworks~ImportIgesData.html)
-
-.
+See [ImportIgesData](ms-its:sldworksapivb6.chm::/sldworks~ImportIgesData.html).
 
 ## Examples
 
 [Specify IGES Levels and Values, Then Import IGES File (C#)](Specify_IGES_Levels_and_Values_Then_Import_IGES_File_Example_CSharp.htm)
-
 [Specify IGES Levels and Values, Then Import IGES File (VB.NET)](Specify_IGES_Levels_and_Values_Then_Import_IGES_File_Example_VBNET.htm)
-
 [Specify IGES Levels and Values, Then Import IGES File (VBA)](Specify_IGES_Levels_and_Values,_Then_Import_IGES_File_Example_VB.htm)
 
 ## Remarks
@@ -67,11 +61,11 @@ To specify levels and values when importing IGES data:
 
 1. Set the user preference swIGESImportShowLevel to false.
 
-2. Use[ISldWorks::GetImportFileData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetImportFileData.html)to get IImportIgesData.
+2. Use [ISldWorks::GetImportFileData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetImportFileData.html) to get IImportIgesData.
 
 3. Use the IImportIgesData functions to specify the levels and values.
 
-4. Use[ISldworks::LoadFile4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~LoadFile4.html)to load the file.
+4. Use [ISldworks::LoadFile4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~LoadFile4.html) to load the file.
 
 ## Accessors
 
@@ -84,7 +78,5 @@ To specify levels and values when importing IGES data:
 ## See Also
 
 [IImportIgesData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)

@@ -47,147 +47,55 @@ System.Object^ CreateDefinition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Feature name ID as defined in[swFeatureNameID_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureNameID_e.html):
+- `Type`: Feature name ID as defined in [swFeatureNameID_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureNameID_e.html):
 
-- swFmBaseFlange (sheet metal base flange)
-- swFmBeltAndChain (belt/chain)
-- swFmBoundingBox (bounding box)
-- swFmCirPattern (circular pattern)
-- swFmCornerRelief (sheet metal corner relief)
-- swFmCurvePattern (curve-driven pattern)
-- swFmDerivedLPattern (derived-driven pattern)
-- swFmDimPattern (variable/dimension pattern)
-- swFmEdgeFlange (sheet metal edge flange)
-- swFmFillet (constant radius, face, full round fillet/chamfer)
-- swFmFillPattern (fill pattern)
-- swFmFormToolInstance (library form tool)
-- swFmGroundPlane (ground plane)
-- swFmLibraryFeature (library)
-- swFmLocalChainPattern (chain component pattern)
-- swFmLocalCirPattern (circular component pattern)
-- swFmLocalCurvePattern (curve-driven component pattern)
-- swFmLocalLPattern (linear component pattern)
-- swFmLocalSketchPattern (sketch-driven component pattern)
-- swFmLPattern (linear pattern)
-- swFmMateController (mate controller)
-- swFmMirrorComponent (mirror components)
-- swFmNormalCut (sheet metal normal cut)
-- swFmRefCurve (projection curve)
-- swFmRefSurface (surface sweep)
-- swFmSketchBend (sheet metal sketched bend)
-- swFmSketchPattern (sketch-driven pattern)
-- swFmSMGusset (sheet metal gusset)
-- swFmSolidToSheetMetal (convert solid to sheet metal)
-- swFmSweep (boss sweep)
-- swFmSweepCut (cut sweep)
-- swFmSweepThread (sweep thread)
-- swFmSweptFlange (sheet metal swept flange)
-- swFmTabAndSlot (tab and slot)
-- swFmTablePattern (table pattern)
+  - swFmBaseFlange (sheet metal base flange)
+  - swFmBeltAndChain (belt/chain)
+  - swFmBoundingBox (bounding box)
+  - swFmCirPattern (circular pattern)
+  - swFmCornerRelief (sheet metal corner relief)
+  - swFmCurvePattern (curve-driven pattern)
+  - swFmDerivedLPattern (derived-driven pattern)
+  - swFmDimPattern (variable/dimension pattern)
+  - swFmEdgeFlange (sheet metal edge flange)
+  - swFmFillet (constant radius, face, full round fillet/chamfer)
+  - swFmFillPattern (fill pattern)
+  - swFmFormToolInstance (library form tool)
+  - swFmGroundPlane (ground plane)
+  - swFmLibraryFeature (library)
+  - swFmLocalChainPattern (chain component pattern)
+  - swFmLocalCirPattern (circular component pattern)
+  - swFmLocalCurvePattern (curve-driven component pattern)
+  - swFmLocalLPattern (linear component pattern)
+  - swFmLocalSketchPattern (sketch-driven component pattern)
+  - swFmLPattern (linear pattern)
+  - swFmMateController (mate controller)
+  - swFmMirrorComponent (mirror components)
+  - swFmNormalCut (sheet metal normal cut)
+  - swFmRefCurve (projection curve)
+  - swFmRefSurface (surface sweep)
+  - swFmSketchBend (sheet metal sketched bend)
+  - swFmSketchPattern (sketch-driven pattern)
+  - swFmSMGusset (sheet metal gusset)
+  - swFmSolidToSheetMetal (convert solid to sheet metal)
+  - swFmSweep (boss sweep)
+  - swFmSweepCut (cut sweep)
+  - swFmSweepThread (sweep thread)
+  - swFmSweptFlange (sheet metal swept flange)
+  - swFmTabAndSlot (tab and slot)
+  - swFmTablePattern (table pattern)
 
 ### Return Value
 
-[thread](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html)
-
-,
-
-[sweep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
-,
-
-[library](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData.html)
-
-,
-
-[library form tool](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
-,
-
-[tab and slot](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html)
-
-,
-
-[bounding box](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html)
-
-,
-
-[ground plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGroundPlaneFeatureData.html)
-
-,
-
-[mirror components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html)
-
-,
-
-[projection curve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html)
-
-,
-
-[sheet metal normal cut](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-,
-
-[sheet metal swept flange](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
-,
-
-[sheet metal gusset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
-,
-
-[sheet metal edge flange](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
-,
-
-[convert solid to sheet metal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
-,
-
-[simple fillet/chamfer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
-,
-
-[belt/chain](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
-,
-
-[sheet metal base flange](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
-,
-
-[sheet metal corner relief](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
-,
-
-[sheet metal sketched bend](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
-,
-
-[mate controller](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
-, or pattern-specific feature data object (see
-
-Remarks
-
-); Nothing or null otherwise
+[thread](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData.html), [sweep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html), [library](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData.html), [library form tool](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html), [tab and slot](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html), [bounding box](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html), [ground plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGroundPlaneFeatureData.html), [mirror components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorComponentFeatureData.html), [projection curve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html), [sheet metal normal cut](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html), [sheet metal swept flange](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html), [sheet metal gusset](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html), [sheet metal edge flange](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html), [convert solid to sheet metal](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html), [simple fillet/chamfer](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html), [belt/chain](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html), [sheet metal base flange](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html), [sheet metal corner relief](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html), [sheet metal sketched bend](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html), [mate controller](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html), or pattern-specific feature data object (see **Remarks**); Nothing or null otherwise
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::CreateDefinition](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CreateDefinition.html)
-
-.
+See [FeatureManager::CreateDefinition](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CreateDefinition.html).
 
 ## Examples
 
@@ -220,9 +128,7 @@ See examples for:
 ## Examples
 
 [Create a Thread Feature (VBA)](Create_a_Thread_Feature_Example_VB.htm)
-
 [Create a Thread Feature (VB.NET)](Create_a_Thread_Feature_Example_VBNET.htm)
-
 [Create a Thread Feature (C#)](Create_a_Thread_Feature_Example_CSharp.htm)
 
 ## Remarks
@@ -233,7 +139,7 @@ For sheet metal base flange, sheet metal corner relief, convert solid to sheet m
 
 For mate controller features, you can either pre-select mates before calling this method or initialize the feature data object returned by this method with default values.
 
-See the**See Also**section.
+See the **See Also** section.
 
 For additional information, see:
 
@@ -245,27 +151,16 @@ For additional information, see:
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeature::GetDefinition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html)
-
 [IFeature::IGetDefinition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IGetDefinition.html)
-
 [IFeatureManager::CreateFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
 [ILibraryFeatureData::Initialize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData~Initialize.html)
-
 [IThreadFeatureData::InitializeThreadData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThreadFeatureData~InitializeThreadData.html)
-
 [ISimpleFilletFeatureData2::Initialize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~Initialize.html)
-
 [IBaseFlangeFeatureData::Initialize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~Initialize.html)
-
 [ICornerReliefFeatureData::Initialize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData~Initialize.html)
-
 [IMateControllerFeatureData::Initialize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData~Initialize.html)
-
 [IConvertSolidFeatureData::Initialize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~Initialize.html)
 
 ## Availability

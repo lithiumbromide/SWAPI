@@ -46,22 +46,16 @@ Number of sub-features in this DimXpert compound hole
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundHoleFeature::GetSubFeatureCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundHoleFeature~GetSubFeatureCount.html)
-
-.
+See [DimXpertCompoundHoleFeature::GetSubFeatureCount](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundHoleFeature~GetSubFeatureCount.html).
 
 ## Examples
 
 [Get More DimXpert Feature Examples (VBA)](Get_DimXpert_Feature2_Example_VB.htm)
-
 [Get More DimXpert Feature Examples (VB.NET)](Get_DimXpert_Feature2_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertCompoundHoleFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature.html)
-
 [IDimXpertCompoundHoleFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundHoleFeature_members.html)
 
 ## Availability

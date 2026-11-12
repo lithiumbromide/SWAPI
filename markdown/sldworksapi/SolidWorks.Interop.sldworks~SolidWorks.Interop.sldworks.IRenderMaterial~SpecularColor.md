@@ -45,13 +45,7 @@ property System.int SpecularColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ RGB value
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::SpecularColor](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~SpecularColor.html)
-
-.
+See [RenderMaterial::SpecularColor](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~SpecularColor.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

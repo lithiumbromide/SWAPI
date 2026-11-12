@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6.html"
 
 Allows you to change states or revoke transitions of several files all at once.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,15 +37,13 @@ public interface class IEdmBatchChangeState6 : public IEdmBatchChangeState, IEdm
 ## Examples
 
 [Batch Change States of Files As User (VB.NET)](Batch_Change_States_of_Files_As_User_Example_VBNET.htm)
-
 [Batch Change States of Files As User (C#)](Batch_Change_States_of_Files_As_User_Example_CSharp.htm)
 
 ## Remarks
 
-This interface extends[IEdmBatchChangeState5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState5.html)by allowing another user to transition files.
+This interface extends [IEdmBatchChangeState5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState5.html) by allowing another user to transition files.
 
 ## See Also
 
 [IEdmBatchChangeState6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState6_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

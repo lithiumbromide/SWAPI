@@ -45,43 +45,26 @@ property System.int ImportSheetMetalInformation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-How to import sheet metal information as defined in
-
-[swImportSheetMetalInformation_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swImportSheetMetalInformation_e.html)
+How to import sheet metal information as defined in [swImportSheetMetalInformation_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swImportSheetMetalInformation_e.html)
 
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::ImportSheetMetalInformation](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportSheetMetalInformation.html)
-
-.
+See [DerivedPartFeatureData::ImportSheetMetalInformation](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportSheetMetalInformation.html).
 
 ## Remarks
 
 This property:
 
 - is valid only if the part being inserted is a sheet metal part.
-- is not valid if
-
-  [IDerivedPartFeatureData::ImportCutListProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData~ImportCutListProperties.html)
-
-  is set to true.
+- is not valid if [IDerivedPartFeatureData::ImportCutListProperties](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData~ImportCutListProperties.html) is set to true.
 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Center_of_Mass_Feature_Example_VB.htm"
 
 # Insert Center of Mass Feature Example (VBA)
 
-This example shows how to insert Center of Mass and Center of Mass Reference
-Point features.
+This example shows how to insert Center of Mass and Center of Mass Reference Point features.
 
 ```vb
  '----------------------------------------------------------------------------

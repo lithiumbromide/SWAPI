@@ -13,11 +13,9 @@ This example shows how to create a Mate Controller in an assembly.
 
 '======================================================================================
 
-' Preconditions: Open an
-assembly document that contains a mechanical slot feature
+' Preconditions: Open an assembly document that contains a mechanical slot feature
 
-' with a slot mate that has one
-of these constraints:
+' with a slot mate that has one of these constraints:
 
 ' - Distance Along Slot
 
@@ -27,8 +25,7 @@ of these constraints:
 
 ' Postconditions:
 
-' 1. Mate Controller (Position
-3) is added to the FeatureManager design tree.
+' 1. Mate Controller (Position 3) is added to the FeatureManager design tree.
 
 ' 2. Inspect the graphics area.
 
@@ -36,65 +33,65 @@ of these constraints:
 ' NOTE: Because the model is used elsewhere, do not save changes.
 '---------------------------------------------------------------------------
 
-ImportsSolidWorks.Interop.sldworks
+Imports SolidWorks.Interop.sldworks
 
-ImportsSolidWorks.Interop.swconst
+Imports SolidWorks.Interop.swconst
 
-ImportsSystem.Runtime.InteropServices
+Imports System.Runtime.InteropServices
 
-ImportsSystem
+Imports System
 
-PartialClassSolidWorksMacro
+Partial Class SolidWorksMacro
 
-DimPartAsModelDoc2
+Dim Part As ModelDoc2
 
-DimAssemAsAssemblyDoc
+Dim Assem As AssemblyDoc
 
-DimfeatMgrAsFeatureManager
+Dim featMgr As FeatureManager
 
-DimboolstatusAsBoolean
+Dim boolstatus As Boolean
 
-DimmyModelViewAsObject
+Dim myModelView As Object
 
-DimvarAsObject
+Dim var As Object
 
-DimmateControllerObjAsMateControllerFeatureData
+Dim mateControllerObj As MateControllerFeatureData
 
-DimmcObj2AsMateControllerFeatureData
+Dim mcObj2 As MateControllerFeatureData
 
-DimmateContFeatAsFeature
+Dim mateContFeat As Feature
 
-Dimposition2ValArr(0)AsDouble
+Dim position2ValArr(0) As Double
 
-Dimposition3ValArr(0)AsDouble
+Dim position3ValArr(0) As Double
 
-Dimvar1AsObject
+Dim var1 As Object
 
-Dimposition2ValArr2(0)AsDouble
+Dim position2ValArr2(0) As Double
 
-Dimposition3ValArr2(0)AsDouble
+Dim position3ValArr2(0) As Double
 
-FunctionObjectArrayToDispatchWrapperArray(ByValObjectsAsObject())AsDispatchWrapper()
+Function ObjectArrayToDispatchWrapperArray(ByVal Objects As Object()) As DispatchWrapper()
 
-DimArraySizeAsInteger
+Dim ArraySize As Integer
 
 ArraySize = Objects.GetUpperBound(0)
 
-Dimd(ArraySize)AsDispatchWrapper
+Dim d(ArraySize) As DispatchWrapper
 
-DimArrayIndexAsInteger
+Dim ArrayIndex As Integer
 
-ForArrayIndex = 0ToArraySize
+For ArrayIndex = 0 To ArraySize
 
-d(ArrayIndex) =NewDispatchWrapper(Objects(ArrayIndex))
+d(ArrayIndex) = New DispatchWrapper(Objects(ArrayIndex))
 
 Next
 
-Returnd
+Return d
 
-EndFunction
+End Function
 
-Submain()
+Sub main()
 
 Part = swApp.ActiveDoc
 
@@ -106,63 +103,58 @@ myModelView.FrameState = swWindowState_e.swWindowMaximized
 
 Part.ClearSelection2(True)
 
-boolstatus = Assem. IsSupportedMatesAvailable
+boolstatus = Assem.**IsSupportedMatesAvailable**
 
-var = Assem. CollectAllSupportiveMates
+var = Assem.**CollectAllSupportiveMates**
 
 featMgr = Part.FeatureManager
 
-mateControllerObj = featMgr. CreateDefinition (swFeatureNameID_e.swFmMateController)
+mateControllerObj = featMgr.**CreateDefinition**(swFeatureNameID_e.swFmMateController)
 
-DimdArray()AsDispatchWrapper
+Dim dArray() As DispatchWrapper
 
 dArray = ObjectArrayToDispatchWrapperArray(var)
 
-CallmateControllerObj. Initialize (dArray)
+Call mateControllerObj.**Initialize**(dArray)
 
-mateControllerObj. AddNewPosition ("Position1")
+mateControllerObj.**AddNewPosition**("Position1")
 
-mateControllerObj. AddNewPosition ("Position2")
+mateControllerObj.**AddNewPosition**("Position2")
 
-mateControllerObj. AddNewPosition ("Position3")
+mateControllerObj.**AddNewPosition**("Position3")
 
 position2ValArr(0) = 0.0375
 
-CallmateControllerObj. SetValues ("Position2",
-position2ValArr)
+Call mateControllerObj.**SetValues**("Position2", position2ValArr)
 
 position3ValArr(0) = 0.0625
 
-CallmateControllerObj. SetValues ("Position3",
-position3ValArr)
+Call mateControllerObj.**SetValues**("Position3", position3ValArr)
 
-mateContFeat = featMgr. CreateFeature (mateControllerObj)
+mateContFeat = featMgr.**CreateFeature**(mateControllerObj)
 
-mcObj2 = mateContFeat. GetDefinition ()
+mcObj2 = mateContFeat.**GetDefinition**()
 
-var1 = mcObj2. Mates
+var1 = mcObj2.**Mates**
 
 position2ValArr2(0) = 0.015
 
-CallmcObj2. SetValues ("Position2",
-position2ValArr2)
+Call mcObj2.**SetValues**("Position2", position2ValArr2)
 
 position3ValArr2(0) = 0.085
 
-CallmcObj2. SetValues ("Position3",
-position3ValArr2)
+Call mcObj2.**SetValues**("Position3", position3ValArr2)
 
-mateContFeat. ModifyDefinition (mcObj2, Part,Nothing)
+mateContFeat.**ModifyDefinition**(mcObj2, Part, Nothing)
 
-EndSub
+End Sub
 
-'''<summary>
+''' <summary>
 
-'''The SldWorks swApp variable is
-pre-assigned for you.
+''' The SldWorks swApp variable is pre-assigned for you.
 
-'''</summary>
+''' </summary>
 
-PublicswAppAsSldWorks
+Public swApp As SldWorks
 
-EndClass
+End Class

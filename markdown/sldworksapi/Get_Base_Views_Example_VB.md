@@ -9,106 +9,44 @@ source: "sldworksapi/Get_Base_Views_Example_VB.htm"
 
 # Get Base Views Example (VBA)
 
-This example shows how to get the names of the base views for all of
-the views in a drawing.
+This example shows how to get the names of the base views for all of the views in a drawing.
 
+```vb
 '-------------------------------------
-
 '
-
 ' Preconditions: Drawing document is open.
-
 '
-
 ' Postconditions: None
-
 '
-
 '--------------------------------------
-
 Option Explicit
-
 Sub main()
+    Dim swApp                       As SldWorks.SldWorks
+    Dim swModel                     As SldWorks.ModelDoc2
+    Dim swDraw                      As SldWorks.DrawingDoc
+    Dim swView                      As SldWorks.View
+    Dim swBaseView                  As SldWorks.View
+    Dim bRet                        As Boolean
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAppkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SldWorks
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Set swDraw = swModel
+    Set swView = swDraw.GetFirstView
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelDoc2
+    Debug.Print "File = " & swModel.GetPathName
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swDrawkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.DrawingDoc
+    Do While Not swView Is Nothing
+        ' Returns NULL if no parent
+        Set swBaseView = swView.GetBaseView
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swViewkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.View
+        Debug.Print "  " & swView.Name
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swBaseViewkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.View
+        If Not swBaseView Is Nothing Then
+            Debug.Print "    --> " & swBaseView.Name
+        End If
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bRetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swDraw = swModel
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swView = swDraw.GetFirstView
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"File = " & swModel.GetPathName
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Do
-While Not swView Is Nothing
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Returns NULL if no parent
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swBaseView = swView.GetBaseView
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}"
-& swView.Name
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-Not swBaseView Is Nothing Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}-->
-" & swBaseView.Name
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swView = swView.GetNextView
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Loop
-
+        Set swView = swView.GetNextView
+    Loop
 End Sub
-
 '-------------------------------------
+```

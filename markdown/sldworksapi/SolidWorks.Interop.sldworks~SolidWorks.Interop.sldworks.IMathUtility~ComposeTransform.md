@@ -63,52 +63,35 @@ MathTransform^ ComposeTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `XVec`: [X-axis of the transform origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
 - `YVec`: [Y-axis of the transform origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
 - `ZVec`: [Z-axis of the transform origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-- `TransVec`: Translation of the[origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)in space
+- `TransVec`: Translation of the [origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) in space
 - `Scale`: Scale factor (typically 1; must be > 0)
 
 ### Return Value
 
-New
-
-[transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
+New [transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
 
 ## VBA Syntax
 
-See
-
-[MathUtility::ComposeTransform](ms-its:sldworksapivb6.chm::/sldworks~MathUtility~ComposeTransform.html)
-
-.
+See [MathUtility::ComposeTransform](ms-its:sldworksapivb6.chm::/sldworks~MathUtility~ComposeTransform.html).
 
 ## Remarks
 
-XVec, YVec and ZVec are expected to be mutually orthogonal. These three vectors can be non-unit vectors and are unitized during the construction of the[IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html).
+XVec, YVec and ZVec are expected to be mutually orthogonal. These three vectors can be non-unit vectors and are unitized during the construction of the [IMathTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html).
 
 ## See Also
 
 [IMathUtility Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.html)
-
 [IMathUtility Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility_members.html)
-
 [IMathUtility::CreateTransform Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility~CreateTransform.html)
-
 [IMathUtility::CreateTransformRotateAxis Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility~CreateTransformRotateAxis.html)
-
 [IMathUtility::ICreateTransform Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility~ICreateTransform.html)
-
 [IMathUtility::ICreateTransformRotateAxis Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility~ICreateTransformRotateAxis.html)
 
 ## Availability

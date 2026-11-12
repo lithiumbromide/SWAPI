@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Pattern_Display_Dimension_Example_VB.htm"
 
 # Get Pattern Display Dimension Example (VBA)
 
-This example shows how to get the display dimensions for various pattern
-properties of a linear pattern.
+This example shows how to get the display dimensions for various pattern properties of a linear pattern.
 
 ```vb
  '----------------------------------------------------------------------------

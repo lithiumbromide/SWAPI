@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Edge_Curve_Parameterization_Example_CSharp.htm"
 
 # Get Edge Curve Parameterization Example (C#)
 
-This example shows how to get curve parameterization data for a selected
-edge.
+This example shows how to get curve parameterization data for a selected edge.
 
 ```vb
  //------------------------------------------------

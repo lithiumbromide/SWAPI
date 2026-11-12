@@ -9,52 +9,15 @@ source: "swconst/DP_DimXpert-ChamferControls.htm"
 
 # Document Properties > DimXpert > Chamfer Controls
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Width settings - Chamfer width ratio | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferWidthRatio,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferWidthRatio ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the chamfer width ratio |
-| Width settings - Chamfer maximum width | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferMaxWidth,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferMaxWidth ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the maximum chamfer width |
-| Tolerance settings - Distance - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChamferDistanceTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChamferDistanceTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets chamfer distance tolerance type |
-| Tolerance settings - Distance -
-Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferDistanceTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferDistanceTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance for chamfer distances |
-| Tolerance settings - Distance -
-Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferDistanceTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferDistanceTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance for chamfer distances |
-| Tolerance settings - Distance -
-Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChamferDistanceBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChamferDistanceBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance for chamfer
-distances |
-| Tolerance settings - Angle - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChamferAngleTolType,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChamferAngleTolType ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the chamfer angular tolerance
-type |
-| Tolerance settings - Angle -
-Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferAngleTolUpperValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferAngleTolUpperValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower
-symmetric tolerances - or - the upper bilateral
-tolerance for chamfer angles |
-| Tolerance settings - Angle -
-Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferAngleTolLowerValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferAngleTolLowerValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance for chamfer angles |
-| Tolerance settings - Angle - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChamferAngleBlockPrecision,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChamferAngleBlockPrecision ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance for chamfer angles |
+| Width settings - Chamfer width ratio | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferWidthRatio, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferWidthRatio , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the chamfer width ratio |
+| Width settings - Chamfer maximum width | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferMaxWidth, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferMaxWidth , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Sets the maximum chamfer width |
+| Tolerance settings - Distance - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChamferDistanceTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChamferDistanceTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets chamfer distance tolerance type |
+| Tolerance settings - Distance - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferDistanceTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferDistanceTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance for chamfer distances |
+| Tolerance settings - Distance - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferDistanceTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferDistanceTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance for chamfer distances |
+| Tolerance settings - Distance - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChamferDistanceBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChamferDistanceBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance for chamfer distances |
+| Tolerance settings - Angle - Tolerance type | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChamferAngleTolType, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChamferAngleTolType , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertTolType_e.< Value >) | See swDimXpertTolType_e for valid options | Sets the chamfer angular tolerance type |
+| Tolerance settings - Angle - Bilateral or Symmetric tolerance upper value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferAngleTolUpperValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferAngleTolUpperValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies: the upper and lower symmetric tolerances - or - the upper bilateral tolerance for chamfer angles |
+| Tolerance settings - Angle - Bilateral tolerance lower value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertChamferAngleTolLowerValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertChamferAngleTolLowerValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value | Specifies the lower bilateral tolerance for chamfer angles |
+| Tolerance settings - Angle - Block tolerance value | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertChamferAngleBlockPrecision, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertChamferAngleBlockPrecision , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertBlockPrecision_e.< Value >) | See swDimXpertBlockPrecision_e for valid options | Sets the block precision tolerance for chamfer angles |

@@ -47,17 +47,11 @@ System.bool ApplyTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Xform`: [Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)to apply
+- `Xform`: [Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html) to apply
 
 ### Return Value
 
@@ -65,18 +59,12 @@ True if the transform is successfully applied, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::ApplyTransform](ms-its:sldworksapivb6.chm::/sldworks~Body2~ApplyTransform.html)
-
-.
+See [Body2::ApplyTransform](ms-its:sldworksapivb6.chm::/sldworks~Body2~ApplyTransform.html).
 
 ## Examples
 
 [Check Interference (VBA)](Check_Interference_using_Modeler_CheckInterference_Example_VB.htm)
-
 [Combine Assembly Components into Part (VBA)](Combine_Assembly_Components_into_Part_Example_VB.htm)
-
 [Cut Body in Half using Macro Feature (VBA)](Cut_Body_in_Half_using_Macro_Feature_Example_VB.htm)
 
 ## Remarks
@@ -86,7 +74,6 @@ By design, a temporary body is added to the part and displayed in the assembly. 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

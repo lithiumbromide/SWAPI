@@ -45,40 +45,20 @@ property System.bool CombineSameSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to merge Punch ID column cells that have the same contents, false to not; only valid if
-
-[IPunchTable::CombineTags](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPunchTable~CombineTags.html)
-
-is false (see
-
-Remarks
-
-)
+True to merge Punch ID column cells that have the same contents, false to not; only valid if [IPunchTable::CombineTags](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPunchTable~CombineTags.html) is false (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PunchTable::CombineSameSize](ms-its:sldworksapivb6.chm::/sldworks~PunchTable~CombineSameSize.html)
-
-.
+See [PunchTable::CombineSameSize](ms-its:sldworksapivb6.chm::/sldworks~PunchTable~CombineSameSize.html).
 
 ## Examples
 
 [Insert Punch Table (C#)](Insert_Punch_Table_Example_CSharp.htm)
-
 [Insert Punch Table (VB.NET)](Insert_Punch_Table_Example_VBNET.htm)
-
 [Insert Punch Table (VBA)](Insert_Punch_Table_Example_VB.htm)
 
 ## Remarks
@@ -104,7 +84,6 @@ If this property is set to true, the punch table looks like this:
 ## See Also
 
 [IPunchTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable.html)
-
 [IPunchTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPunchTable_members.html)
 
 ## Availability

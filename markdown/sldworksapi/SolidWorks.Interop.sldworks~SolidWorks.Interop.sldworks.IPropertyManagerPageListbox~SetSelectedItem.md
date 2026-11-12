@@ -51,13 +51,7 @@ System.bool SetSelectedItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,19 +64,11 @@ True if the item was selected or cleared, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageListbox::SetSelectedItem](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageListbox~SetSelectedItem.html)
-
-.
+See [PropertyManagerPageListbox::SetSelectedItem](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageListbox~SetSelectedItem.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPageListbox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageListbox.html)
-
-examples.
+See the [IPropertyManagerPageListbox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageListbox.html) examples.
 
 ## Remarks
 
@@ -93,7 +79,6 @@ If you use this method to set a selected item in a single-selection style list b
 ## See Also
 
 [IPropertyManagerPageListbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageListbox.html)
-
 [IPropertyManagerPageListbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageListbox_members.html)
 
 ## Availability

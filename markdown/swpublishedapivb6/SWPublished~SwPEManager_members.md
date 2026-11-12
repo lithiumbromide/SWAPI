@@ -1,6 +1,5 @@
 ---
-title: "SwPEManager Object
-Members"
+title: "SwPEManager Object Members"
 project: "SOLIDWORKS Custom Interfaces Type Library"
 interface: "SwPEManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swpublishedapivb6/SWPublished~SwPEManager_members.html"
 ---
 
-# SwPEManager Object
-Members
+# SwPEManager Object Members
 
 ## Public Methods
 

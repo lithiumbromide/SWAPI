@@ -49,46 +49,31 @@ System.Object^ GetMinMaxResultValues(
 
 ### Parameters
 
-- `ErrorCode`: Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ### Return Value
 
-Array of minimum and maximum values (see
-
-Remarks
-
-)
+Array of minimum and maximum values (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::GetMinMaxResultValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~GetMinMaxResultValues.html)
-
-.
+See [CWPlot::GetMinMaxResultValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~GetMinMaxResultValues.html).
 
 ## Examples
 
-See the
-
-[ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
-examples.
+See the [ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html) examples.
 
 ## Remarks
 
 This method returns the following array:
 
-{`node_with_minimum_value`,`minimum_value`,`node_with_maximum_value`,`maximum_value`},
+{`node_with_minimum_value`, `minimum_value`, `node_with_maximum_value`, `maximum_value`},
 
 where the nodes are integers, and the values are in scientific notation.
 
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

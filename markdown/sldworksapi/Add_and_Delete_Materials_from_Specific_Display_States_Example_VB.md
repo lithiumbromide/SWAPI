@@ -9,8 +9,7 @@ source: "sldworksapi/Add_and_Delete_Materials_from_Specific_Display_States_Examp
 
 # Add and Delete Appearances from Specific Display States Example (VBA)
 
-This example shows how to add an appearance to and delete an appearance from specific
-display states.
+This example shows how to add an appearance to and delete an appearance from specific display states.
 
 ```vb
  '---------------------------------------------------------------------------

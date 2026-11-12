@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22.html"
 
 Allows you to access a file vault.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -46,29 +40,20 @@ public interface class IEdmVault22 : public IEdmVault10, IEdmVault11, IEdmVault1
 
 ## Remarks
 
-This interface extends[IEdmVault21](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault21.html)by providing the ability to[clear the Archive Server Get logs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~ClearLogs.html),[synchronize the vault's archive servers with the active directory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~ADRunSync.html), get all column sets assigned to the logged-in user,[get the current column set for the logged-in user](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~GetCurrentColumnSet.html), and set a column set ID in the user's registry.
+This interface extends [IEdmVault21](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault21.html) by providing the ability to [clear the Archive Server Get logs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~ClearLogs.html), [synchronize the vault's archive servers with the active directory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~ADRunSync.html), get all column sets assigned to the logged-in user, [get the current column set for the logged-in user](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~GetCurrentColumnSet.html), and set a column set ID in the user's registry.
 
 With IEdmVault22, add-ins can assign customized column sets to vault folders before they are browsed by:
 
-1. Triggering a pre-browse-folder event (
-
-  [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html)
-
-  .EdmCmd_PreBrowseFolder) when the logged-in user browses a folder.
+1. Triggering a pre-browse-folder event ([EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_PreBrowseFolder) when the logged-in user browses a folder.
 2. Handling the event by:
 
-  1. [Getting all the column set IDs assigned to the logged-in user](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~GetColumnSets.html)
-
-    .
-  2. [Specifying a column set ID for the folder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~SetColumnSetID.html)
-
-    to be browsed.
+  1. [Getting all the column set IDs assigned to the logged-in user](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~GetColumnSets.html).
+  2. [Specifying a column set ID for the folder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22~SetColumnSetID.html) to be browsed.
 3. Triggering and handling a post-browse-folder event (EdmCmdType.EdmCmd_PostBrowseFolder).
 
-For more information about customized column sets, see the**SOLIDWORKS PDM Help > SOLIDWORKS PDM Administration Tool > Columns**topics.
+For more information about customized column sets, see the **SOLIDWORKS PDM Help > SOLIDWORKS PDM Administration Tool > Columns** topics.
 
 ## See Also
 
 [IEdmVault22 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault22_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

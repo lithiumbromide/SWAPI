@@ -51,11 +51,7 @@ Name of the "from" pin reference to which the wire is connected
 
 ## VBA Syntax
 
-See
-
-[Wire::FromPinReference](ms-its:routingapivb6.chm::/SWRoutingLib~Wire~FromPinReference.html)
-
-.
+See [Wire::FromPinReference](ms-its:routingapivb6.chm::/SWRoutingLib~Wire~FromPinReference.html).
 
 ## Examples
 
@@ -64,9 +60,7 @@ See
 ## See Also
 
 [IWire Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire.html)
-
 [IWire Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire_members.html)
-
 [IWire::ToPinReference Property](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire~ToPinReference.html)
 
 ## Availability

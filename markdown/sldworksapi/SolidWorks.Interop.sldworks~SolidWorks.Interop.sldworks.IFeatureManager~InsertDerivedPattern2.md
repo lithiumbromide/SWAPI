@@ -9,17 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertDerivedPattern2 Method (IFeatureManager)
 
-Obsolete.
-
-See
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-and the Remarks in
-
-[IDerivedPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPatternFeatureData.html)
-
-.
+Obsolete. See [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) and the Remarks in [IDerivedPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPatternFeatureData.html).
 
 ## Syntax
 
@@ -50,41 +40,28 @@ Feature InsertDerivedPattern2()
 Feature^ InsertDerivedPattern2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Derived pattern
-
-[feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
+Derived pattern [feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertDerivedPattern2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertDerivedPattern2.html)
-
-.
+See [FeatureManager::InsertDerivedPattern2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertDerivedPattern2.html).
 
 ## Remarks
 
-Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select the seed components and pattern feature in any order.
+Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the seed components and pattern feature in any order.
 
-- seed componentkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}= 1
+- seed component = 1
 - pattern feature = 2
 
-**N OTE**: A derived pattern feature is also called a pattern driven pattern feature.
+**NOTE**: A derived pattern feature is also called a pattern driven pattern feature.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

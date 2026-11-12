@@ -51,30 +51,18 @@ Normal stiffness value
 
 ## VBA Syntax
 
-See
-
-[CWElasticConnector::NormalStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~NormalStiffnessValue.html)
-
-.
+See [CWElasticConnector::NormalStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWElasticConnector~NormalStiffnessValue.html).
 
 ## Examples
 
-See the
-
-[ICWElasticConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html)
-
-examples.
+See the [ICWElasticConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html) examples.
 
 ## See Also
 
 [ICWElasticConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector.html)
-
 [ICWElasticConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector_members.html)
-
 [ICWElasticConnector::ShearStiffnessValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~ShearStiffnessValue.html)
-
 [ICWElasticConnector::StiffnessType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~StiffnessType.html)
-
 [ICWElasticConnector::Unit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWElasticConnector~Unit.html)
 
 ## Availability

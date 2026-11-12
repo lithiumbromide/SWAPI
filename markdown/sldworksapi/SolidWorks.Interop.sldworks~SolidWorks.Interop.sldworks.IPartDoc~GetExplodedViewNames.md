@@ -47,13 +47,7 @@ System.Object^ GetExplodedViewNames(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,28 +59,17 @@ Array of strings of the names of the explode views for ConfigurationName
 
 ## VBA Syntax
 
-See
-
-[PartDoc::GetExplodedViewNames](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~GetExplodedViewNames.html)
-
-.
+See [PartDoc::GetExplodedViewNames](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~GetExplodedViewNames.html).
 
 ## Examples
 
-See the
-
-[IPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html)
-
-example.
+See the [IPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html) example.
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::GetExplodedViewConfigurationName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetExplodedViewConfigurationName.html)
-
 [IPartDoc::ShowExploded Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ShowExploded.html)
 
 ## Availability

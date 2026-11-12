@@ -1,6 +1,5 @@
 ---
-title: "Body Object
-Members"
+title: "Body Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Body_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Body_members.html"
 ---
 
-# Body Object
-Members
+# Body Object Members
 
 ## Public Methods
 

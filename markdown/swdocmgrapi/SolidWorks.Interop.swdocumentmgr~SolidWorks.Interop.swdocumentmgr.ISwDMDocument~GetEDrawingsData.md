@@ -9,9 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetEDrawingsData Method (ISwDMDocument)
 
-Obsolete as of SOLIDWORKS Document Manager API 2005 FCS. Not superseded
-
-.
+Obsolete as of SOLIDWORKS Document Manager API 2005 FCS. Not superseded.
 
 ## Syntax
 
@@ -55,22 +53,15 @@ SwDmEDwgDataError GetEDrawingsData(
 
 ### Return Value
 
-Success or error code as defined by
-
-[SwDmEDwgDataError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmEDwgDataError.html)
+Success or error code as defined by [SwDmEDwgDataError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmEDwgDataError.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::GetEDrawingsData](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetEDrawingsData.html)
-
-.
+See [SwDMDocument::GetEDrawingsData](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetEDrawingsData.html).
 
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
 
 ## Availability

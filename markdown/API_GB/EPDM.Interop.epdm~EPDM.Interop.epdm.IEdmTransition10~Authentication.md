@@ -39,28 +39,17 @@ True if this workflow transition requires a password, false if not
 
 ## Examples
 
-See the
-
-[IEdmTransition10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10.html)
-
-examples.
+See the [IEdmTransition10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10.html) examples.
 
 ## Remarks
 
-This property corresponds to the
-
-Authentication
-
-check box in the Properties dialog of a transition.
+This property corresponds to the **Authentication** check box in the Properties dialog of a transition.
 
 ## See Also
 
 [IEdmTransition10 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10.html)
-
 [IEdmTransition10 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10_members.html)
-
 [IEdmBatchChangeState4::ChangeState2 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4~ChangeState2.html)
-
 [IEdmFile10::ChangeState2 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile10~ChangeState2.html)
 
 ## Availability

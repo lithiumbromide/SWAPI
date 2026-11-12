@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AlignDimensions Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::AlignDimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~AlignDimensions.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::AlignDimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~AlignDimensions.html).
 
 ## Syntax
 
@@ -43,21 +39,11 @@ void AlignDimensions()
 void AlignDimensions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::AlignDimensions](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AlignDimensions.html)
-
-.
+See [ModelDoc2::AlignDimensions](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~AlignDimensions.html).
 
 ## Remarks
 
@@ -66,13 +52,9 @@ This method attempts to sort the selected dimensions into three groups: linear, 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::AlignOrdinate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AlignOrdinate.html)
-
 [IModelDoc2::AlignParallelDimensions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AlignParallelDimensions.html)
-
 [IModelDoc2::BreakDimensionAlignment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~BreakDimensionAlignment.html)
 
 ## Availability

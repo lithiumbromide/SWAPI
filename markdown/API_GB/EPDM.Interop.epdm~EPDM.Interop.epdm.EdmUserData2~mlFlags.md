@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2~mlFlags.html"
 
 # mlFlags Field
 
-Combination of
-
-[EdmUserDataFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataFlags.html)
-
-flags.
+Combination of [EdmUserDataFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserDataFlags.html) flags.
 
 ## Syntax
 
@@ -38,14 +34,9 @@ System.int mlFlags
 
 ## Examples
 
-See the
-
-[EdmUserData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2.html)
-
-examples.
+See the [EdmUserData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2.html) examples.
 
 ## See Also
 
 [EdmUserData2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2.html)
-
 [EdmUserData2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2_members.html)

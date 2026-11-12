@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 Allows access to a surface revolve feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,17 @@ public interface class ISurfRevolveFeatureData
 
 ## VBA Syntax
 
-See
-
-[SurfRevolveFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SurfRevolveFeatureData.html)
-
-.
+See [SurfRevolveFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SurfRevolveFeatureData.html).
 
 ## Examples
 
 [Get Data for Surface Revolve Feature (VBA)](Get_Data_for_Surface_Revolve_Feature_Example_VB.htm)
-
 [Get Data for Surface Revolve Feature (VB.NET)](Get_Data_for_Surface_Revolve_Feature_Example_VBNET.htm)
-
 [Get Data for Surface Revolve Feature (C#)](Get_Data_for_Surface_Revolve_Feature_Example_CSharp.htm)
 
 ## Accessors
 
-[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html)and[IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
+[IFeature::GetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetDefinition.html) and [IFeature::IGetDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IGetDefinition.html)
 
 ## Access Diagram
 
@@ -66,7 +60,5 @@ See
 ## See Also
 
 [ISurfRevolveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfRevolveFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertRevolvedRefSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertRevolvedRefSurface.html)

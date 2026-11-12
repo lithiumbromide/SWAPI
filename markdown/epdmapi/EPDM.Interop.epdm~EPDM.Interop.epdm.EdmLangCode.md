@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLangCode.html"
 
 # EdmLangCode Enumeration
 
-Localization language used in
-
-[IEdmHistory3::GetEventDescription](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3~GetEventDescription.html)
-
-.
+Localization language used in [IEdmHistory3::GetEventDescription](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3~GetEventDescription.html).
 
 ## Syntax
 

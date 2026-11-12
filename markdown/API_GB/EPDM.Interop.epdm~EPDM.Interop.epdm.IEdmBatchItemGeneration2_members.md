@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2_mem
 
 # IEdmBatchItemGeneration2 Interface Members
 
-The following tables list the members exposed by[IEdmBatchItemGeneration2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2.html).
+The following tables list the members exposed by [IEdmBatchItemGeneration2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmBatchItemGeneration2](EPDM.
 ## See Also
 
 [IEdmBatchItemGeneration2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

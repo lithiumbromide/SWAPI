@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISM
 
 Allows access to a sheet metal normal cut feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ISMNormalCutFeatureData2
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData2](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2.html)
-
-.
+See [SMNormalCutFeatureData2](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2.html).
 
 ## Examples
 
@@ -53,10 +49,10 @@ See
 
 '*******************************************************************
 
-'1. Open**c:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2019\samples\whatsnew\sheet metal\normal_cut.sldprt**.
+'1. Open **c:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2019\samples\whatsnew\sheet metal\normal_cut.sldprt**.
 '2. Open the Immediate window.
 '3. Run the macro.
-'4. Creates**Normal Cut1**in the FeatureManager design tree.
+'4. Creates **Normal Cut1** in the FeatureManager design tree.
 '5. Edits the feature by specifying a normal cut direction entity.
 '6. Inspect the Immediate window.
 
@@ -87,9 +83,9 @@ Set swModel = swApp.**ActiveDoc**
 Set swModelDocExt = swModel.**Extension**
 Set swFeatMgr = swModel.**FeatureManager**
 Set swNormalCutFeatData = swFeatMgr.**CreateDefinition**(swFmNormalCut)
-swNormalCutFeatData.**AutoPropagation**= True
-swNormalCutFeatData.**OptimizeGeometry**= True
-swNormalCutFeatData.**NormalCutParameters**= swNormalCutExtent
+swNormalCutFeatData.**AutoPropagation** = True
+swNormalCutFeatData.**OptimizeGeometry** = True
+swNormalCutFeatData.**NormalCutParameters** = swNormalCutExtent
 
 ' Select the face(s) to make normal
 
@@ -104,7 +100,7 @@ Set swFeat = swFeatMgr.**CreateFeature**(swNormalCutFeatData)
 ' Modify the normal cut feature
 
 Set swNormalCutFeatData = swFeat.**GetDefinition**()
-swNormalCutFeatData.**AccessSelections**swModel, Nothing
+swNormalCutFeatData.**AccessSelections** swModel, Nothing
 varGrpNames = swNormalCutFeatData.**GetGroupNames**()
 
 For i = 0 To UBound(varGrpNames)
@@ -130,7 +126,7 @@ Set swCutDirectionFace = swSelMgr.**GetSelectedObject6**(1, -1)
 Dim swSelectEnt As SldWorks.Entity
 Set swSelectEnt = swCutDirectionFace
 boolstatus = swSelectEnt.**Select4**(False, Nothing)
-swNormalCutFeatData.**CutDirection**= swCutDirectionFace
+swNormalCutFeatData.**CutDirection** = swCutDirectionFace
 
 Dim isModified As Boolean
 isModified = swFeat.**ModifyDefinition**(swNormalCutFeatData, swModel, Nothing)
@@ -150,101 +146,21 @@ To create a normal cut feature:
 1. Open a sheet metal part that has a cut-extrude with non-normal side walls.
 2. Call IFeatureManager::CreateDefinition(swFmNormalCut) to access this interface.
 3. Set non-entity properties on this interface.
-4. Use
-
-  [IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html)
-
-  or
-
-  [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  with Mark = 4 to select the offset plane, only if
-
-  [ISMNormalCutFeatureData2::NormalCutParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~NormalCutParameters.html)
-
-  is set to
-
-  [swNormalCutParameters_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNormalCutParameters_e.html)
-
-  .swNormalCutOffsetPlane.
+4. Use [IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html) or [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) with Mark = 4 to select the offset plane, only if [ISMNormalCutFeatureData2::NormalCutParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~NormalCutParameters.html) is set to [swNormalCutParameters_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNormalCutParameters_e.html).swNormalCutOffsetPlane.
 5. Use IModelDocExtension::SelectByRay or IModelDocExtension::SelectByID2 with Mark = 8 to select the direction of the normal cut, only if ISMNormalCutFeatureData2::NormalCutParameters is set to swNormalCutParameters_e.swNormalCutExtent.
-6. Use IModelDocExtension::SelectByRay or IModelDocExtension::SelectByID2 with Mark = 1 to select each non-normal face in the group. If
-
-  [ISMNormalCutFeatureData2::AutoPropagation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~AutoPropagation.html)
-
-  is set to true, then all faces tangent to a selected face are automatically added to the face group.
-7. Call
-
-  [ISMNormalCutFeatureData2::CreateGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~CreateGroup.html)
-
-  to access
-
-  [ISMNormalCutGroupData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutGroupData.html)
-
-  .
-8. Repeat steps 6 and 7 as many times as you have face groups. Call
-
-  [IModelDoc2::ClearSelection2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ClearSelection2.html)
-
-  after each face group is created.
-9. Call
-
-  [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-  .
+6. Use IModelDocExtension::SelectByRay or IModelDocExtension::SelectByID2 with Mark = 1 to select each non-normal face in the group. If [ISMNormalCutFeatureData2::AutoPropagation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~AutoPropagation.html) is set to true, then all faces tangent to a selected face are automatically added to the face group.
+7. Call [ISMNormalCutFeatureData2::CreateGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~CreateGroup.html) to access [ISMNormalCutGroupData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutGroupData.html).
+8. Repeat steps 6 and 7 as many times as you have face groups. Call [IModelDoc2::ClearSelection2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ClearSelection2.html) after each face group is created.
+9. Call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html).
 
 To edit a normal cut feature:
 
 1. Call IFeature::GetDefinition to get this feature data object for a selected normal cut feature.
-2. Call
-
-  [ISMNormalCutFeatureData2::AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~AccessSelections.html)
-
-  .
-
-  Note:
-
-  Any selections made *
-
-  before*
-
-  this call are invalid. To edit the properties of this feature, you must re-select their entities during the editing session, i.e., after calling ISMNormalCutFeatureData2::AccessSelections. (See step 5.)
-3. Call
-
-  [ISMNormalCutFeatureData2::GetGroupNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~GetGroupNames.html)
-
-  and
-
-  [ISMNormalCutFeatureData2::GetGroupByName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~GetGroupByName.html)
-
-  to access ISMNormalCutGroupData for an existing face group.
+2. Call [ISMNormalCutFeatureData2::AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~AccessSelections.html). **Note:** **Any selections made *`before*` this call are invalid. To edit the properties of this feature, you must re-select their entities during the editing session, i.e., after calling ISMNormalCutFeatureData2::AccessSelections. (See step 5.)**
+3. Call [ISMNormalCutFeatureData2::GetGroupNames](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~GetGroupNames.html) and [ISMNormalCutFeatureData2::GetGroupByName](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~GetGroupByName.html) to access ISMNormalCutGroupData for an existing face group.
 4. Call ISMNormalCutFeatureData2::CreateGroup to create another face group if needed.
-5. Modify
-
-  [cut direction](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~CutDirection.html)
-
-  ,
-
-  [offset plane reference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~OffsetPlaneReference.html)
-
-  , or other properties on ISMNormalCutFeatureData2 as needed. To select property entities, use IModelDocExtension::SelectByRay or IModelDocExtension::SelectByID2 followed by
-
-  [ISelectionMgr::GetSelectedObject6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html)
-
-  . You can also use
-
-  [IEntity::Select4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity~Select4.html)
-
-  .
-6. Call
-
-  [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  if you modifed the feature or
-
-  [ISMNormalCutFeatureData2::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~ReleaseSelectionAccess.html)
-
-  if you did not.
+5. Modify [cut direction](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~CutDirection.html), [offset plane reference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~OffsetPlaneReference.html), or other properties on ISMNormalCutFeatureData2 as needed. To select property entities, use IModelDocExtension::SelectByRay or IModelDocExtension::SelectByID2 followed by [ISelectionMgr::GetSelectedObject6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html). You can also use [IEntity::Select4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity~Select4.html).
+6. Call [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html) if you modifed the feature or [ISMNormalCutFeatureData2::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~ReleaseSelectionAccess.html) if you did not.
 
 ## Accessors
 
@@ -259,5 +175,4 @@ To edit a normal cut feature:
 ## See Also
 
 [ISMNormalCutFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

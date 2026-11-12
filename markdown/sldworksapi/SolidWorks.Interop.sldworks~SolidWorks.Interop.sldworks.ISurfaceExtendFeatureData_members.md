@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 # ISurfaceExtendFeatureData Interface Members
 
-The following tables list the members exposed by[ISurfaceExtendFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData.html).
+The following tables list the members exposed by [ISurfaceExtendFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData.html).
 
 ## Public Properties
 
@@ -46,9 +46,6 @@ The following tables list the members exposed by[ISurfaceExtendFeatureData](Soli
 ## See Also
 
 [ISurfaceExtendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [InsertUntrimSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertUntrimSurface.html)
-
 [IModelDoc2::InsertExtendSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertExtendSurface.html)

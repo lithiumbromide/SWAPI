@@ -53,36 +53,24 @@ System.int SetClusterComputers(
 
 ### Return Value
 
-Error code as defined in
-
-[swsDistributedSimulationError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDistributedSimulationError_e.html)
+Error code as defined in [swsDistributedSimulationError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsDistributedSimulationError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::SetClusterComputers](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~SetClusterComputers.html)
-
-.
+See [CWStudy::SetClusterComputers](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~SetClusterComputers.html).
 
 ## Remarks
 
 This method is valid only if:
 
 - The license is SOLIDWORKS Simulation Professional or Premium.
-- [ICWStudy::IsSimulationDistributable](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~IsSimulationDistributable.html)
-
-  is true.
-- [ICWStudy::OffLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~OffLoad.html)
-
-  is true.
+- [ICWStudy::IsSimulationDistributable](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~IsSimulationDistributable.html) is true.
+- [ICWStudy::OffLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~OffLoad.html) is true.
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::GetClusterComputers Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~GetClusterComputers.html)
 
 ## Availability

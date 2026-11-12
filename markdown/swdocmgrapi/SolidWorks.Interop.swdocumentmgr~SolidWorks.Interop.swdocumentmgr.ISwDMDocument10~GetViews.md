@@ -42,17 +42,11 @@ System.Object^ GetViews();
 
 ### Return Value
 
-Array of
-
-[views](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMView.html)
+Array of [views](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMView.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument10::GetViews](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument10~GetViews.html)
-
-.
+See [SwDMDocument10::GetViews](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument10~GetViews.html).
 
 ## Remarks
 
@@ -61,7 +55,6 @@ This method only supports documents saved in SOLIDWORKS 2008 and later.
 ## See Also
 
 [ISwDMDocument10 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument10.html)
-
 [ISwDMDocument10 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument10_members.html)
 
 ## Availability

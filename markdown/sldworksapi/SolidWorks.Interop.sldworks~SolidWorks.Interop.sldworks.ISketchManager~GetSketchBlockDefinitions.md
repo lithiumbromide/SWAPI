@@ -40,13 +40,7 @@ System.object GetSketchBlockDefinitions()
 System.Object^ GetSketchBlockDefinitions();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,36 +48,23 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchManager::GetSketchBlockDefinitions](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~GetSketchBlockDefinitions.html)
-
-.
+See [SketchManager::GetSketchBlockDefinitions](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~GetSketchBlockDefinitions.html).
 
 ## Examples
 
 [Get and Set Blocks Data in Any Document (VBA)](Get_and_Set_Blocks_Data_in_Any_Document_Example_VB.htm)
-
 [Get Block Definitions in Part or Assembly (VBA)](Get_Block_Definitions_in_Part_or_Assembly_Example_VB.htm)
-
 [Get Block Information (VBA)](Get_Block_Information_Example_VB.htm)
 
 ## Remarks
 
-See
-
-[Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm)
-
-for details.
+See [Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm) for details.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::GetSketchBlockDefinitionCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~GetSketchBlockDefinitionCount.html)
-
 [ISketchManager::IGetSketchBlockDefinitions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~IGetSketchBlockDefinitions.html)
 
 ## Availability

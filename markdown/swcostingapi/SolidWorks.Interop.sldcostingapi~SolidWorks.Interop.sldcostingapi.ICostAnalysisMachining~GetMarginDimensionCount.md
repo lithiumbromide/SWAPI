@@ -9,11 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # GetMarginDimensionCount Method (ICostAnalysisMachining)
 
-Gets the number of dimensions for the margins for the
-
-[stock type](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~CurrentStockType.html)
-
-for this machining Costing analysis.
+Gets the number of dimensions for the margins for the [stock type](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~CurrentStockType.html) for this machining Costing analysis.
 
 ## Syntax
 
@@ -50,20 +46,13 @@ Number of dimensions for the margins for the stock type
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisMachining::GetMarginDimensionCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetMarginDimensionCount.html)
-
-.
+See [CostAnalysisMachining::GetMarginDimensionCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetMarginDimensionCount.html).
 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::Margins Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~Margins.html)
-
 [ICostAnalysisMachining::IMargins Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IMargins.html)
 
 ## Availability

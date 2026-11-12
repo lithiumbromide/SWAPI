@@ -9,8 +9,7 @@ source: "swutilitiesapi/Select_and_Get_Number_of_Edges,_Loops,_Faces,_and_Featur
 
 # Select and Get Number of Edges, Loops, Faces, and Features Example (VBA)
 
-This examples shows how to select the edges, loops, faces, and features of
-all red faces using the SOLIDWORKS Utilities API.
+This examples shows how to select the edges, loops, faces, and features of all red faces using the SOLIDWORKS Utilities API.
 
 ```
 '-------------------------------------------------------------------

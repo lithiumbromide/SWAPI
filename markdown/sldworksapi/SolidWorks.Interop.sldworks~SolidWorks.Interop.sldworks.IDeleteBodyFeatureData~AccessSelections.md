@@ -51,30 +51,20 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `TopDoc`: Top-level document
-- `Component`: Component in which the feature is to be modifiedParamDesc
+- `Component`: Component in which the feature is to be modified
 
 ### Return Value
 
-True if the selections are successfully accessed, false if notParamDesc
+True if the selections are successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[DeleteBodyFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~DeleteBodyFeatureData~AccessSelections.html)
-
-.
+See [DeleteBodyFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~DeleteBodyFeatureData~AccessSelections.html).
 
 ## Remarks
 
@@ -87,21 +77,12 @@ Remarks
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  or
-
-  [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [IDeleteBodyFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) or [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [IDeleteBodyFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteBodyFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IDeleteBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDeleteBodyFeatureData.html)
-
 [IDeleteBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDeleteBodyFeatureData_members.html)
 
 ## Availability

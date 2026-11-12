@@ -39,9 +39,7 @@ IEdmTransition6^ GetNextTransition(
 
 ### Parameters
 
-- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the next workflow state transition in the list
+- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the next workflow state transition in the list
 
 ### Return Value
 
@@ -50,16 +48,15 @@ IEdmTransition6^ GetNextTransition(
 ## Examples
 
 [Graph a Workflow (VB.NET)](Graph_Workflow_Example_VBNET.htm)
-
 [Graph a Workflow (C#)](Graph_Workflow_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method the first time, you must populate poPos with the interface to the position of the first workflow state transition in the list, IEdmPos5. Call[IEdmWorkflow6::GetFirstTransitionPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetFirstTransitionPosition.html)to obtain poPos.
+Before calling this method the first time, you must populate poPos with the interface to the position of the first workflow state transition in the list, IEdmPos5. Call [IEdmWorkflow6::GetFirstTransitionPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetFirstTransitionPosition.html) to obtain poPos.
 
 After calling this method the first time, poPos is automatically incremented every time it is called. Call this method repeatedly to obtain the rest of the workflow state transitions in the list.
 
-Be sure to call[IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html)before you call this method to ensure you have not reached the end of the enumeration.
+Be sure to call [IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html) before you call this method to ensure you have not reached the end of the enumeration.
 
 C++ users not using smart-pointer wrapper functions must release the returned interface, IEdmTransition6.
 
@@ -71,7 +68,6 @@ C++ users not using smart-pointer wrapper functions must release the returned in
 ## See Also
 
 [IEdmWorkflow6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6.html)
-
 [IEdmWorkflow6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6_members.html)
 
 ## Availability

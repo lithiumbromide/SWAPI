@@ -1,6 +1,5 @@
 ---
-title: "Texture Object
-Members"
+title: "Texture Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Texture_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Texture_members.html"
 ---
 
-# Texture Object
-Members
+# Texture Object Members
 
 ## Public Methods
 

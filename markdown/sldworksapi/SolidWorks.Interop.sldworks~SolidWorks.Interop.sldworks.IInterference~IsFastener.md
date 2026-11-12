@@ -42,13 +42,7 @@ property System.bool IsFastener {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,18 +50,12 @@ True if the interference includes a fastener, false if not
 
 ## VBA Syntax
 
-See
-
-[Interference::IsFastener](ms-its:sldworksapivb6.chm::/sldworks~Interference~IsFastener.html)
-
-.
+See [Interference::IsFastener](ms-its:sldworksapivb6.chm::/sldworks~Interference~IsFastener.html).
 
 ## See Also
 
 [IInterference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference.html)
-
 [IInterference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference_members.html)
-
 [IInterferenceDetectionMgr::CreateFastenersFolder Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr~CreateFastenersFolder.html)
 
 ## Availability

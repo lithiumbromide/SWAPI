@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # MidCounterSinkAngle Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by
-
-[IWizardHoleFeatureData2::MidCounterSinkAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~MidCounterSinkAngle.html)
-
-.
+Obsolete. Superseded by [IWizardHoleFeatureData2::MidCounterSinkAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~MidCounterSinkAngle.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double MidCounterSinkAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::MidCounterSinkAngle](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~MidCounterSinkAngle.html)
-
-.
+See [WizardHoleFeatureData::MidCounterSinkAngle](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~MidCounterSinkAngle.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

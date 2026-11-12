@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRo
 
 # IRoutingSettings Interface Methods
 
-For a list of all members of this type, see[IRoutingSettings members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings_members.html).
+For a list of all members of this type, see [IRoutingSettings members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings_members.html).
 
 ## Public Methods
 
@@ -34,5 +34,4 @@ For a list of all members of this type, see[IRoutingSettings members](SolidWorks
 ## See Also
 
 [IRoutingSettings Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRoutingSettings.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

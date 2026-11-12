@@ -62,34 +62,23 @@ void SetAdvancedSpotLightProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Name`: SOLIDWORKS light source name
 - `Exponent`: Attenuation exponent
-- `AttenuationConst`: Constant attenuation factorParamDesc
+- `AttenuationConst`: Constant attenuation factor
 - `AttenuationLinear`: Linear attenuation factor
-- `AttenuationQuad`: Quadratic attenuation factorParamDesc
+- `AttenuationQuad`: Quadratic attenuation factor
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SetAdvancedSpotLightProperties](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~SetAdvancedSpotLightProperties.html)
-
-.
+See [ModelDocExtension::SetAdvancedSpotLightProperties](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~SetAdvancedSpotLightProperties.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

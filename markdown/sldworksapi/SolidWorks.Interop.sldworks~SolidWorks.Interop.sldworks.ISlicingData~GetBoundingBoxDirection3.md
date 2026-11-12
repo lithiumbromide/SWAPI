@@ -40,13 +40,7 @@ System.double GetBoundingBoxDirection3()
 System.double GetBoundingBoxDirection3();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -60,19 +54,11 @@ For angular slicing:
 
 ## VBA Syntax
 
-See
-
-[SlicingData::GetBoundingBoxDirection3](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~GetBoundingBoxDirection3.html)
-
-.
+See [SlicingData::GetBoundingBoxDirection3](ms-its:sldworksapivb6.chm::/sldworks~SlicingData~GetBoundingBoxDirection3.html).
 
 ## Examples
 
-See the
-
-[ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
-example.
+See the [ISlicingData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html) example.
 
 ## Remarks
 
@@ -88,9 +74,7 @@ Use these methods to get the slicing volume for including or excluding geometry 
 ## See Also
 
 [ISlicingData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData.html)
-
 [ISlicingData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData_members.html)
-
 [ISlicingData::SetBoundingBoxDirection3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlicingData~SetBoundingBoxDirection3.html)
 
 ## Availability

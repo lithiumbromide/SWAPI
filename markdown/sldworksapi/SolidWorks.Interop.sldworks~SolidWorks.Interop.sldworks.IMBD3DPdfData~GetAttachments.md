@@ -40,13 +40,7 @@ System.object GetAttachments()
 System.Object^ GetAttachments();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Array of strings of the fully qualified paths of the files to include as attachm
 
 ## VBA Syntax
 
-See
-
-[MBD3DPdfData::GetAttachments](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~GetAttachments.html)
-
-.
+See [MBD3DPdfData::GetAttachments](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~GetAttachments.html).
 
 ## See Also
 
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)
-
 [IMBD3DPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData_members.html)
-
 [IMBD3DPdfData::SetAttachments Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData~SetAttachments.html)
 
 ## Availability

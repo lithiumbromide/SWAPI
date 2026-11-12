@@ -47,21 +47,11 @@ TitleBlock^ InsertTitleBlock(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Notes`: Array of notes or nothing (see
-
-Remarks
-
-)
+- `Notes`: Array of notes or nothing (see **Remarks**)
 
 ### Return Value
 
@@ -69,32 +59,24 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[Sheet::InsertTitleBlock](ms-its:sldworksapivb6.chm::/sldworks~Sheet~InsertTitleBlock.html)
-
-.
+See [Sheet::InsertTitleBlock](ms-its:sldworksapivb6.chm::/sldworks~Sheet~InsertTitleBlock.html).
 
 ## Examples
 
 [Get Notes from New or Existing Title Block (C#)](Get_Notes_from_New_or_Existing_Title_Block_Example_CSharp.htm)
-
 [Get Notes from New or Existing Title Block (VB.NET)](Get_Notes_from_New_or_Existing_Title_Block_Example_VBNET.htm)
-
 [Get Notes from New or Existing Title Block (VBA)](Get_Notes_from_New_or_Existing_Title_Block_Example_VB.htm)
 
 ## Remarks
 
-The Notes parameter can contain one or more more notes or nothing. If the Notes parameter contains a note, or notes, then the note, or notes, is expected to be a Dispatch pointer, or pointers, to the[INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html)object, or objects, to include as part of the title block being created.
+The Notes parameter can contain one or more more notes or nothing. If the Notes parameter contains a note, or notes, then the note, or notes, is expected to be a Dispatch pointer, or pointers, to the [INote](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote.html) object, or objects, to include as part of the title block being created.
 
 Only one title block can exist in a sheet.
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [ISheet::TitleBlock Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~TitleBlock.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "CWStudy Object
-Members"
+title: "CWStudy Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWStudy_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWStudy_members.html"
 ---
 
-# CWStudy Object
-Members
+# CWStudy Object Members
 
 ## Public Methods
 

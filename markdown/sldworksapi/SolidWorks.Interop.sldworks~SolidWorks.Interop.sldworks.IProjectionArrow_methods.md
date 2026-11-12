@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IProjectionArrow Interface Methods
 
-For a list of all members of this type, see[IProjectionArrow members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow_members.html).
+For a list of all members of this type, see [IProjectionArrow members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow_members.html).
 
 ## Public Methods
 
@@ -32,5 +32,4 @@ For a list of all members of this type, see[IProjectionArrow members](SolidWorks
 ## See Also
 
 [IProjectionArrow Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionArrow.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

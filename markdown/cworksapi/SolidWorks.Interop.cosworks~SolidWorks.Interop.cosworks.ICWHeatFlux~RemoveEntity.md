@@ -52,18 +52,12 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~RemoveEntity.html)
-
-.
+See [CWHeatFlux::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~RemoveEntity.html).
 
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
-
 [ICWHeatFlux::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~InsertEntity.html)
 
 ## Availability

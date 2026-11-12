@@ -67,30 +67,23 @@ True if the operation succeeds, false if it fails
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent6::Replace](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent6~Replace.html)
-
-.
+See [SwDMComponent6::Replace](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent6~Replace.html).
 
 ## Examples
 
 [Replace Component (C#)](Replace_Component_Example_CSharp.htm)
-
 [Replace Component (VB.NET)](Replace_Component_Example_VBNET.htm)
 
 ## Remarks
 
-Call[ISwDMConfiguration11::GetReplacedComponents](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11~GetReplacedComponents.html)to get information about replaced components in an assembly.
+Call [ISwDMConfiguration11::GetReplacedComponents](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration11~GetReplacedComponents.html) to get information about replaced components in an assembly.
 
-**NOTE:**If you call[ISwComponent6::PathName](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent6~PathName.html)after calling ISwDMComponent6::Replace and before opening and saving an assembly, then the path to the original component is returned, not the path to the replaced component. References to replaced components are not updated until the assembly is opened and saved in SOLIDWORKS.
+**NOTE:** If you call [ISwComponent6::PathName](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent6~PathName.html) after calling ISwDMComponent6::Replace and before opening and saving an assembly, then the path to the original component is returned, not the path to the replaced component. References to replaced components are not updated until the assembly is opened and saved in SOLIDWORKS.
 
 ## See Also
 
 [ISwDMComponent6 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent6.html)
-
 [ISwDMComponent6 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent6_members.html)
-
 [ISwDMDocument8::GetChangedReferences Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument8~GetChangedReferences.html)
 
 ## Availability

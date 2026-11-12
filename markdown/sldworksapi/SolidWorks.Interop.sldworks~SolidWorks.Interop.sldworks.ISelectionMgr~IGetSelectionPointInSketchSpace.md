@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # IGetSelectionPointInSketchSpace Method (ISelectionMgr)
 
-Obsolete. Superseded by
-
-[ISelectionMgr::IGetSelectionPointInSketchSpace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~IGetSelectionPointInSketchSpace2.html)
-
-.
+Obsolete. Superseded by [ISelectionMgr::IGetSelectionPointInSketchSpace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~IGetSelectionPointInSketchSpace2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double IGetSelectionPointInSketchSpace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::IGetSelectionPointInSketchSpace](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~IGetSelectionPointInSketchSpace.html)
-
-.
+See [SelectionMgr::IGetSelectionPointInSketchSpace](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~IGetSelectionPointInSketchSpace.html).
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)

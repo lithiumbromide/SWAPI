@@ -45,13 +45,7 @@ property System.bool Inspection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if the display dimension above the dimension line is displayed as an inspec
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::Inspection](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~Inspection.html)
-
-.
+See [DisplayDimension::Inspection](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~Inspection.html).
 
 ## Remarks
 
@@ -72,13 +62,9 @@ An inspection dimension is contained within an oval.
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::GetText Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetText.html)
-
 [IDisplayDimension::SetText Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetText.html)
-
 [IDisplayDimension::LowerInspection Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~LowerInspection.html)
 
 ## Availability

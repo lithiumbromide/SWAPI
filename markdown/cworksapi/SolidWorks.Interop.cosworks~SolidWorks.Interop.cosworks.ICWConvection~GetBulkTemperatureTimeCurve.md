@@ -42,42 +42,30 @@ System.Object^ GetBulkTemperatureTimeCurve();
 
 ### Return Value
 
-Array of bulk temperature-time curve (see
-
-Remarks
-
-)
+Array of bulk temperature-time curve (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[CWConvection::GetBulkTemperatureTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~GetBulkTemperatureTimeCurve.html)
-
-.
+See [CWConvection::GetBulkTemperatureTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWConvection~GetBulkTemperatureTimeCurve.html).
 
 ## Remarks
 
 Bulk temperature-time curve array:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where:
 
 - n = number of xi,yi pairs
-- xi = time value at the`ith`data point
+- xi = time value at the `ith` data point
 - yi = bulk temperature at time xi
 
 ## See Also
 
 [ICWConvection Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection.html)
-
 [ICWConvection Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection_members.html)
-
 [ICWConvection::SetBulkTemperatureTimeCurve Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~SetBulkTemperatureTimeCurve.html)
-
 [ICWConvection::UseBulkTemperatureTimeCurve Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~UseBulkTemperatureTimeCurve.html)
-
 [ICWConvection::BulkAmbientTemperature Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWConvection~BulkAmbientTemperature.html)
 
 ## Availability

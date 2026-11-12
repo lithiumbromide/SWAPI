@@ -42,32 +42,21 @@ WireProperty^ GetWireProperty();
 
 ### Return Value
 
-Pointer to the
-
-[IWireProperty](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWireProperty.html)
-
-object
+Pointer to the [IWireProperty](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.IWireProperty.html) object
 
 ## VBA Syntax
 
-See
-
-[Wire::GetWireProperty](ms-its:routingapivb6.chm::/SWRoutingLib~Wire~GetWireProperty.html)
-
-.
+See [Wire::GetWireProperty](ms-its:routingapivb6.chm::/SWRoutingLib~Wire~GetWireProperty.html).
 
 ## Examples
 
 [Get Cable Cores (VBA)](Get_Cores_Example_VB.htm)
-
 [Get Cable Cores (VB.NET)](Get_Cores_Example_VBNET.htm)
-
 [Get Cable Cores (C#)](Get_Cores_Example_CSharp.htm)
 
 ## See Also
 
 [IWire Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire.html)
-
 [IWire Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire_members.html)
 
 ## Availability

@@ -46,13 +46,7 @@ void Skip(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,11 +54,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[EnumCoEdges::Skip](ms-its:sldworksapivb6.chm::/sldworks~EnumCoEdges~Skip.html)
-
-.
+See [EnumCoEdges::Skip](ms-its:sldworksapivb6.chm::/sldworks~EnumCoEdges~Skip.html).
 
 ## Remarks
 
@@ -73,5 +63,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumCoEdges Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumCoEdges.html)
-
 [IEnumCoEdges Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumCoEdges_members.html)

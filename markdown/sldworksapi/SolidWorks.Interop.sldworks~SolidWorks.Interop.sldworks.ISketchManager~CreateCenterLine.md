@@ -67,13 +67,7 @@ SketchSegment^ CreateCenterLine(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -86,42 +80,25 @@ See
 
 ### Return Value
 
-[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-for the center line
+[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) for the center line
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateCenterLine](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateCenterLine.html)
-
-.
+See [SketchManager::CreateCenterLine](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateCenterLine.html).
 
 ## Examples
 
 [Create 3D Sketch Plane (C#)](Create_3D_Sketch_Plane_Example_CSharp.htm)
-
 [Create 3D Sketch Plane (VB.NET)](Create_3D_Sketch_Plane_Example_VBNET.htm)
-
 [Create 3D Sketch Plane (VBA)](Create_3D_Sketch_Plane_Example_VB.htm)
 
 ## Remarks
 
-You can also create centerline construction geometry using
-
-[ISketchManager::CreateLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateLine.html)
-
-and
-
-[ISketchSegment::ConstructionGeometry](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~ConstructionGeometry.html)
-
-.
+You can also create centerline construction geometry using [ISketchManager::CreateLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CreateLine.html) and [ISketchSegment::ConstructionGeometry](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment~ConstructionGeometry.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

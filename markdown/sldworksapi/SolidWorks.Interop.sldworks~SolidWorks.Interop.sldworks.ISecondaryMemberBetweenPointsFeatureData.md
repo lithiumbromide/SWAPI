@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 Allows access to a secondary structure system member that is created between the end points on primary structure system member pairs.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ISecondaryMemberBetweenPointsFeatureData
 
 ## VBA Syntax
 
-See
-
-[SecondaryMemberBetweenPointsFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberBetweenPointsFeatureData.html)
-
-.
+See [SecondaryMemberBetweenPointsFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberBetweenPointsFeatureData.html).
 
 ## Examples
 
@@ -66,16 +62,16 @@ See
 '3. Press F5.
 '
 'Postconditions:
-' 1. Creates**Sketch1**containing two sketch segments.
+' 1. Creates **Sketch1** containing two sketch segments.
 ' 2. Configures the start/end extensions and the member profile.
 ' 3. Selects the two sketch segments.
-' 4. Creates primary**Structure System1**with two primary path segment members (**Member1**and**Member2**).
+' 4. Creates primary **Structure System1** with two primary path segment members (**Member1** and **Member2**).
 ' 5. Inspect the structure system in the graphics area.
 ' 6. Press F5 to add a secondary support plane member.
-' Creates secondary**Structure System2**(**Member3**).
+' Creates secondary **Structure System2** (**Member3**).
 ' 7. Press F5 to edit the support plane member.
 ' 8. Press F5 to add a secondary between points member.
-' Creates secondary**Structure System3**(**Member4**).
+' Creates secondary **Structure System3** (**Member4**).
 ' 9. Press F5 to edit the between points member.
 '10. Press F5 to add a secondary structure system up to member.
 '11. When the macro stops, multi-select a Member1 vertex
@@ -157,8 +153,8 @@ stat = modDocExt.SelectByID2("Line2@Sketch1", "EXTSKETCHSEGMENT", 7.521625210835
 Set structMemDef = modDocExt.**CreateStructureSystemMemberData**(0)
 Debug.Print "Type of structure system member as defined by swStructureSystemMemberType_e: " & structMemDef.**StructureSystemMemberType**
 
-structMemDef.**StartEndExtendD1**= 1#
-structMemDef.**StartEndExtendD2**= 2#
+structMemDef.**StartEndExtendD1** = 1#
+structMemDef.**StartEndExtendD2** = 2#
 
 Set profDef = structMemDef.**MemberProfile**
 
@@ -170,7 +166,7 @@ Set PrimDef = structMemDef
 Debug.Print "Structure system primary member creation type as defined by swStructureSystemMemberCreationType_e: " & PrimDef.**PrimaryMemberType**
 
 Set memPathSegDef = PrimDef
-memPathSegDef.**MergeTangentMembers**= True
+memPathSegDef.**MergeTangentMembers** = True
 
 Set swSelMgr = modDoc.SelectionManager
 
@@ -294,8 +290,8 @@ Dim memTochange As SldWorks.StructureSystemMemberFeatureData
 Set memTochange = secMemberData
 Dim SecMemFeat As SldWorks.Feature
 Set SecMemFeat = memTochange.**GetFeature**()
-memTochange.**StartEndExtendD1**= 0.2
-memTochange.**StartEndExtendD2**= 0.1
+memTochange.**StartEndExtendD1** = 0.2
+memTochange.**StartEndExtendD2** = 0.1
 
 stat = SecMemFeat.**ModifyDefinition**(secMemberData, modDoc, Nothing)
 
@@ -320,11 +316,11 @@ Set memBetweenPointsSecDef = SecDef
 stat = memBetweenPointsSecDef.**SetMemberPairs**(memberArray)
 Debug.Print "Member pairs successfully set: " & stat
 
-memBetweenPointsSecDef.**SecondaryMemberOffsetType**= 0
-memBetweenPointsSecDef.**DistanceMember1**= 0.5
-memBetweenPointsSecDef.**DistanceMember2**= 0.4
-memBetweenPointsSecDef.**RevDirectionDistanceMember1**= False
-memBetweenPointsSecDef.**RevDirectionDistanceMember2**= False
+memBetweenPointsSecDef.**SecondaryMemberOffsetType** = 0
+memBetweenPointsSecDef.**DistanceMember1** = 0.5
+memBetweenPointsSecDef.**DistanceMember2** = 0.4
+memBetweenPointsSecDef.**RevDirectionDistanceMember1** = False
+memBetweenPointsSecDef.**RevDirectionDistanceMember2** = False
 
 Set secMemData(0) = structSecMemDef
 
@@ -361,13 +357,13 @@ End If
 Set memTochange = secMemberData
 
 Set SecMemFeat = memTochange.**GetFeature**()
-memTochange.**StartEndExtendD1**= 0.2
-memTochange.**StartEndExtendD2**= 0.1
+memTochange.**StartEndExtendD1** = 0.2
+memTochange.**StartEndExtendD2** = 0.1
 
 Set secMemDatTochange = memTochange
-secMemDatTochange.**SecondaryMemberOffsetType**= 1
-secMemDatTochange.**LengthRatioMember1**= 0.1
-secMemDatTochange.**LengthRatioMember2**= 0.2
+secMemDatTochange.**SecondaryMemberOffsetType** = 1
+secMemDatTochange.**LengthRatioMember1** = 0.1
+secMemDatTochange.**LengthRatioMember2** = 0.2
 stat = SecMemFeat.**ModifyDefinition**(secMemberData, modDoc, Nothing)
 
 'Create secondary structure system up to member
@@ -376,23 +372,23 @@ Set structMemDef = modDocExt.**CreateStructureSystemMemberData**(6)
 
 Debug.Print "Structure system member type as defined by swStructureSystemMemberType_e: " & structMemDef.**StructureSystemMemberType**
 
-structMemDef.**StartEndExtendD1**= 0#
+structMemDef.**StartEndExtendD1** = 0#
 Debug.Print "Start/end direction 1: " & structMemDef.**StartEndExtendD1**
-structMemDef.**StartEndExtendD2**= 0#
+structMemDef.**StartEndExtendD2** = 0#
 Debug.Print "Start/end direction 2: " & structMemDef.**StartEndExtendD2**
 
 Set profDef = structMemDef.**MemberProfile**
 
-profDef.**ProfileStandard**= "ansi inch"
-profDef.**ProfileType**= "pipe"
-profDef.**ProfileSize**= "0.5 sch 40"
+profDef.**ProfileStandard** = "ansi inch"
+profDef.**ProfileType** = "pipe"
+profDef.**ProfileSize** = "0.5 sch 40"
 
 Set secDef = structMemDef
 Debug.Print "Secondary member type as defined by swStructureSystemMemberCreationType_e: " & secDef.SecondaryMemberType
 
 Set UpToMemDef = secDef
 
-UpToMemDef.**MemberPointParametersType**= swSecondaryMemberUpToMembersMemberPointParameters_e.swSecondaryMemberUpToMembersMemberPointParameters_FromPoint
+UpToMemDef.**MemberPointParametersType** = swSecondaryMemberUpToMembersMemberPointParameters_e.swSecondaryMemberUpToMembersMemberPointParameters_FromPoint
 
 Stop 'Multi-select a Member1 vertex in the graphics area and Member2 in the FeatureManager Design tree
 
@@ -402,9 +398,9 @@ Set Members(0) = swSelMgr.GetSelectedObject6(2, 0)
 Call UpToMemDef.**SetFromPoint**(point)
 UpToMemDef.**SetFromPointMembers**(Members)
 
-UpToMemDef.**SecondaryMemberOffsetType**= swSecondaryMemberUpToMembersDistanceFromEndType_Distance
-UpToMemDef.**DistanceMember**= 0.1
-UpToMemDef.**RevDirectionDistanceMember**= False
+UpToMemDef.**SecondaryMemberOffsetType** = swSecondaryMemberUpToMembersDistanceFromEndType_Distance
+UpToMemDef.**DistanceMember** = 0.1
+UpToMemDef.**RevDirectionDistanceMember** = False
 
 Set memData(0) = structMemDef
 memDataArray = memData
@@ -417,26 +413,17 @@ End Sub
 ## Examples
 
 [Create Secondary Structure System Members (VB.NET)](Create_Secondary_SSMembers_Example_VBNET.htm)
-
 [Create Secondary Structure System Members (C#)](Create_Secondary_SSMembers_Example_CSharp.htm)
 
 ## Remarks
 
-See the[IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)Remarks.
+See the [IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html) Remarks.
 
-For more information, see the**SOLIDWORKS user-interface help > Weldments and Structure System > Structure System > Secondary Member PropertyManager**topic.
+For more information, see the **SOLIDWORKS Design user-interface help > Weldments and Structure System > Structure System > Secondary Member PropertyManager** topic.
 
 ## Accessors
 
-Cast
-
-[ISecondaryStructuralMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryStructuralMemberFeatureData.html)
-
-or
-
-[IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)
-
-to this interface.
+Cast [ISecondaryStructuralMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryStructuralMemberFeatureData.html) or [IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html) to this interface.
 
 ## Access Diagram
 
@@ -445,5 +432,4 @@ to this interface.
 ## See Also
 
 [ISecondaryMemberBetweenPointsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

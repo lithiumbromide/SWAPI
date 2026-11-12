@@ -53,22 +53,15 @@ System.int IncludeShellEdgeSolidOrShellFace2(
 
 ### Return Value
 
-Error code as defined in
-
-[swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
+Error code as defined in [swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMultipleComponentContactsEditManager::IncludeShellEdgeSolidOrShellFace2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~IncludeShellEdgeSolidOrShellFace2.html)
-
-.
+See [CWMultipleComponentContactsEditManager::IncludeShellEdgeSolidOrShellFace2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleComponentContactsEditManager~IncludeShellEdgeSolidOrShellFace2.html).
 
 ## See Also
 
 [ICWMultipleComponentContactsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html)
-
 [ICWMultipleComponentContactsEditManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertCompoundNotchFeature Object
-Members"
+title: "SwDMDimXpertCompoundNotchFeature Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertCompoundNotchFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertCompoundNotchFeature_members.html"
 ---
 
-# SwDMDimXpertCompoundNotchFeature Object
-Members
+# SwDMDimXpertCompoundNotchFeature Object Members
 
 ## Public Methods
 

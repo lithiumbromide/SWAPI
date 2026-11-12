@@ -11,93 +11,31 @@ source: "swconst/DP_ViewLabels-Orthographic.htm"
 
 This topic contains two tables. The information in the table:
 
-- appearing immediately after the screen capture of the
-  Document Properties - Orthographic dialog corresponds to the settings on
-  that dialog.
-- titled
-
-  [Obsolete
-  Enumerators](#Obsolete)
-
-  contains enumerators that previously appeared on the
-  Document Properties - Orthographic
-
-  dialog,
-  but are now obsolete and no longer appear on that
-
-  dialog.
-
-(Table)=========================================================
+- appearing immediately after the screen capture of the Document Properties - Orthographic dialog corresponds to the settings on that dialog.
+- titled [Obsolete Enumerators](#Obsolete) contains enumerators that previously appeared on the Document Properties - Orthographic dialog, but are now obsolete and no longer appear on that dialog.
 
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Add view label on creation | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_AddViewLabelOnViewCreation,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_AddViewLabelOnViewCreation,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to add a view label when a view is created |
-| Base orthographic view standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingOrthoView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingOrthoView, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base orthographic view standard to use |
-| Label options - Per standard | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoViewLabels_PerStandard,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoViewLabels_PerStandard,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If... Then display the orthographic view label according
-to the format... True Required by the current detailing standard False Determined by these document-level user preferences: swDetailingOrthoView_Name swDetailingOrthoViewLabels_Scale swDetailingOrthoViewLabels_Delimiter |
-| If... | Then display the orthographic view label according
-to the format... |  |  |
+| Add view label on creation | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_AddViewLabelOnViewCreation, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_AddViewLabelOnViewCreation, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to add a view label when a view is created |
+| Base orthographic view standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingOrthoView) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingOrthoView, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base orthographic view standard to use |
+| Label options - Per standard | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoViewLabels_PerStandard, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoViewLabels_PerStandard, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | If... Then display the orthographic view label according to the format... True Required by the current detailing standard False Determined by these document-level user preferences: swDetailingOrthoView_Name swDetailingOrthoViewLabels_Scale swDetailingOrthoViewLabels_Delimiter |
+| If... | Then display the orthographic view label according to the format... |  |  |
 | True | Required by the current detailing standard |  |  |
 | False | Determined by these document-level user preferences: swDetailingOrthoView_Name swDetailingOrthoViewLabels_Scale swDetailingOrthoViewLabels_Delimiter |  |  |
-| Label options - Name | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoView_Name,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoView_Name,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsName_e.< Value >) | See swDetailingViewLabelsName_e for valid options | Specifies the label to use in front of the orthographic view; if set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom, then set Label
-options - Name (CUSTOM) to a custom label |
-| Label options - Name (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingOrthoView_CustomName,
-swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingOrthoView_CustomName,
-swUserPreferenceOption_e.swDetailingSectionView, < Value >) | String value | Specifies the custom label to use in front of the orthographic view; valid only if Label options - Name is set to
-swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom |
-| Label options - Name - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_NameTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_NameTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Scale | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoViewLabels_Scale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoViewLabels_Scale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsScale_e.< Value >) | See swDetailingViewLabelsScale_e for valid options | Specifies the label to use in front of the scale value; if set to
-swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom, then set Label options - Scale (CUSTOM) to a custom scale label |
-| Label options - Scale (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingOrthoView_CustomScale,
-swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingOrthoView_CustomScale,
-swUserPreferenceOption_e.swDetailingSectionView, < Value >) | String value | Specifies the custom label to use in front of the scale value; valid only if Label options - Scale is set to
-swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom |
-| Label options - Scale - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_ScaleTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_ScaleTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Delimiter | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoViewLabels_Delimiter,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoViewLabels_Delimiter,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsDelimiter_e
-.< Value >) | See swDetailingViewLabelsDelimiter_e for valid options | Specifies the format of the scale value |
-| Label options - Delimiter - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_DelimiterTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_DelimiterTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Label options - Remove space in scale around colon (:) and slash (/) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_RemoveSpaceInScale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_RemoveSpaceInScale,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to remove spaces around the delimiter in the scale
-text |
-| Display label above view | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_DisplayLabelAboveView,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_DisplayLabelAboveView,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display the label above the orthographic view |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingOrthoView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingOrthoView, < Value >) | Valid Options: "BORDER" "CENTER" "CONTINUOUS" "DIM" "FORMAT" "HIDDEN" "RED" "TEXT" "THIN" | This setting is available only on drawings; depending on drawing, some
-options may not apply |
+| Label options - Name | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoView_Name, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoView_Name, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsName_e.< Value >) | See swDetailingViewLabelsName_e for valid options | Specifies the label to use in front of the orthographic view; if set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom, then set Label options - Name (CUSTOM) to a custom label |
+| Label options - Name (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingOrthoView_CustomName, swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingOrthoView_CustomName, swUserPreferenceOption_e.swDetailingSectionView, < Value >) | String value | Specifies the custom label to use in front of the orthographic view; valid only if Label options - Name is set to swDetailingViewLabelsName_e.swDetailingViewLabelsName_custom |
+| Label options - Name - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_NameTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_NameTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Scale | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoViewLabels_Scale, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoViewLabels_Scale, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsScale_e.< Value >) | See swDetailingViewLabelsScale_e for valid options | Specifies the label to use in front of the scale value; if set to swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom, then set Label options - Scale (CUSTOM) to a custom scale label |
+| Label options - Scale (CUSTOM) | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingOrthoView_CustomScale, swUserPreferenceOption_e.swDetailingSectionView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingOrthoView_CustomScale, swUserPreferenceOption_e.swDetailingSectionView, < Value >) | String value | Specifies the custom label to use in front of the scale value; valid only if Label options - Scale is set to swDetailingViewLabelsScale_e.swDetailingViewLabelsScale_SCALEcustom |
+| Label options - Scale - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_ScaleTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_ScaleTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Delimiter | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoViewLabels_Delimiter, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingOrthoViewLabels_Delimiter, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDetailingViewLabelsDelimiter_e .< Value >) | See swDetailingViewLabelsDelimiter_e for valid options | Specifies the format of the scale value |
+| Label options - Delimiter - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_DelimiterTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingOrthoView_DelimiterTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Label options - Remove space in scale around colon (:) and slash (/) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_RemoveSpaceInScale, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_RemoveSpaceInScale, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to remove spaces around the delimiter in the scale text |
+| Display label above view | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_DisplayLabelAboveView, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingOrthoView_DisplayLabelAboveView, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Boolean value | Specifies whether to display the label above the orthographic view |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingOrthoView) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingOrthoView, < Value >) | Valid Options: "BORDER" "CENTER" "CONTINUOUS" "DIM" "FORMAT" "HIDDEN" "RED" "TEXT" "THIN" | This setting is available only on drawings; depending on drawing, some options may not apply |
 
 Obsolete Enumerators
 
-(Table)=========================================================
-
 | Enumerator | Comment |
 | --- | --- |
-| swDetailingOrthoViewLabelsEnableShow | Obsolete ; specified whether to display the scale
-label in the orthographic view if the view scale differs from the sheet
-scale |
+| swDetailingOrthoViewLabelsEnableShow | Obsolete ; specified whether to display the scale label in the orthographic view if the view scale differs from the sheet scale |

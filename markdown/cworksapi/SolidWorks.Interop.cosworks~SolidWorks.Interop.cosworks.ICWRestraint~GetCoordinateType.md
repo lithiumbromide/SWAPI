@@ -42,30 +42,19 @@ System.int GetCoordinateType();
 
 ### Return Value
 
-Coordinate system type as defined in
-
-[swsCoordinateType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsCoordinateType_e.html)
+Coordinate system type as defined in [swsCoordinateType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsCoordinateType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::GetCoordinateType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetCoordinateType.html)
-
-.
+See [CWRestraint::GetCoordinateType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~GetCoordinateType.html).
 
 ## Examples
 
-See the
-
-[ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
-examples.
+See the [ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html) examples.
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
 
 ## Availability

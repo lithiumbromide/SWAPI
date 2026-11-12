@@ -58,36 +58,20 @@ void SetCtrlData(
 ### Parameters
 
 - `lCardWnd`: Window handle of the card
-- `lCardID`: ID of the card (see
-
-Remarks
-
-)
-- `lControlID`: ID of the control for which to get the value (see
-
-Remarks
-
-)
-- `lVariableID`: ID of the variable used by this control (see
-
-Remarks
-
-)
+- `lCardID`: ID of the card (see **Remarks**)
+- `lControlID`: ID of the control for which to get the value (see **Remarks**)
+- `lVariableID`: ID of the variable used by this control (see **Remarks**)
 - `bsVariableName`: Name of the variable used by this control
 - `poView`: [IEdmCardView5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardView5.html)
 - `poValue`: Control variable data to save
 
 ## Examples
 
-See the
-
-[IEdmCardViewCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html)
-
-examples.
+See the [IEdmCardViewCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html) examples.
 
 ## Remarks
 
-The framework calls this method once per control when a card created with[IEdmVault10::CreateCardViewEx2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault10~CreateCardViewEx2.html)is saved.
+The framework calls this method once per control when a card created with [IEdmVault10::CreateCardViewEx2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault10~CreateCardViewEx2.html) is saved.
 
 | Use... | In a call to IEdmVault5::GetObject with eType = ... | To obtain... |
 | --- | --- | --- |
@@ -103,7 +87,6 @@ The framework calls this method once per control when a card created with[IEdmVa
 ## See Also
 
 [IEdmCardViewCallback6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html)
-
 [IEdmCardViewCallback6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6_members.html)
 
 ## Availability

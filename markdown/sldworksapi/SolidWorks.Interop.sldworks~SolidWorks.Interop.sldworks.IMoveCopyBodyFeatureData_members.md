@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IMoveCopyBodyFeatureData Interface Members
 
-The following tables list the members exposed by[IMoveCopyBodyFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveCopyBodyFeatureData.html).
+The following tables list the members exposed by [IMoveCopyBodyFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveCopyBodyFeatureData.html).
 
 ## Public Properties
 
@@ -48,7 +48,5 @@ The following tables list the members exposed by[IMoveCopyBodyFeatureData](Solid
 ## See Also
 
 [IMoveCopyBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveCopyBodyFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertMoveCopyBody2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMoveCopyBody2.html)

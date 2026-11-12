@@ -45,32 +45,19 @@ property System.int ChamferTextStyle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Text style for chamfer dimensions only as defined by
-
-[swDetailingChamferDimLeaderTextStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDetailingChamferDimLeaderTextStyle_e.html)
+Text style for chamfer dimensions only as defined by [swDetailingChamferDimLeaderTextStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDetailingChamferDimLeaderTextStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::ChamferTextStyle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~ChamferTextStyle.html)
-
-.
+See [DisplayDimension::ChamferTextStyle](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~ChamferTextStyle.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
 
 ## Availability

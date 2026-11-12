@@ -45,13 +45,7 @@ property System.double Scale2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ Scale for this face hatch
 
 ## VBA Syntax
 
-See
-
-[FaceHatch::Scale2](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~Scale2.html)
-
-.
+See [FaceHatch::Scale2](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~Scale2.html).
 
 ## Examples
 
 [Get Crosshatches on View (VBA)](Get_Crosshatches_on_View_Example_VB.htm)
-
 [Get Face Hatch Data (C#)](Get_Face_Hatch_Data_Example_CSharp.htm)
-
 [Get Face Hatch Data (VB.NET)](Get_Face_Hatch_Data_Example_VBNET.htm)
-
 [Get Face Hatch Data (VBA)](Get_Face_Hatch_Data_Example_VB.htm)
 
 ## See Also
 
 [IFaceHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html)
-
 [IFaceHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch_members.html)
 
 ## Availability

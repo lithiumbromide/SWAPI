@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile11_members.html"
 
 # IEdmFile11 Interface Members
 
-The following tables list the members exposed by[IEdmFile11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile11.html).
+The following tables list the members exposed by [IEdmFile11](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile11.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmFile11](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmFile11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile11.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

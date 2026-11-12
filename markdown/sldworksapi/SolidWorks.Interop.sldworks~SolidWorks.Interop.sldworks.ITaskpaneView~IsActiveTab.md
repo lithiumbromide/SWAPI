@@ -40,13 +40,7 @@ System.bool IsActiveTab()
 System.bool IsActiveTab();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if this Task Pane view is active, false if not
 
 ## VBA Syntax
 
-See
-
-[TaskpaneView::IsActiveTab](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~IsActiveTab.html)
-
-.
+See [TaskpaneView::IsActiveTab](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~IsActiveTab.html).
 
 ## Examples
 
@@ -67,7 +57,6 @@ See
 ## See Also
 
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
-
 [ITaskpaneView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView_members.html)
 
 ## Availability

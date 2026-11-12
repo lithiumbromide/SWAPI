@@ -35,5 +35,4 @@ System.int mlParentID
 ## See Also
 
 [EdmSelItem2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2.html)
-
 [EdmSelItem2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2_members.html)

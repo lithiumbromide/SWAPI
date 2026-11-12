@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage_fields.html
 
 # EdmTaskSetupPage Structure Fields
 
-For a list of all members of this type, see[EdmTaskSetupPage members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage_members.html).
+For a list of all members of this type, see [EdmTaskSetupPage members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage_members.html).
 
 ## Public Fields
 
@@ -24,7 +24,5 @@ For a list of all members of this type, see[EdmTaskSetupPage members](EPDM.Inter
 ## See Also
 
 [EdmTaskSetupPage Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Programming Tasks](Tasks.htm)

@@ -46,22 +46,16 @@ True if tangent plane is specified; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertOrientationTolerance::IsTangentPlane](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertOrientationTolerance~IsTangentPlane.html)
-
-.
+See [DimXpertOrientationTolerance::IsTangentPlane](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertOrientationTolerance~IsTangentPlane.html).
 
 ## Examples
 
 [Get DimXpert Tolerance3 Example (VBA)](Get_DimXpert_Tolerance3_Example_VB.htm)
-
 [Get DimXpert Tolerance3 Example (VB.NET)](Get_DimXpert_Tolerance3_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertOrientationTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance.html)
-
 [IDimXpertOrientationTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertOrientationTolerance_members.html)
 
 ## Availability

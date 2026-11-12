@@ -40,13 +40,7 @@ TreeControlItem GetRoot()
 TreeControlItem^ GetRoot();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[TreeControlItem::GetRoot](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~GetRoot.html)
-
-.
+See [TreeControlItem::GetRoot](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~GetRoot.html).
 
 ## Remarks
 
-Use[ITreeControlItem::IsRoot](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITreeControlItem~IsRoot.html)to get whether an item is the root item of the FeatureManager design tree.
+Use [ITreeControlItem::IsRoot](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITreeControlItem~IsRoot.html) to get whether an item is the root item of the FeatureManager design tree.
 
 ## See Also
 
 [ITreeControlItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem.html)
-
 [ITreeControlItem Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem_members.html)
 
 ## Availability

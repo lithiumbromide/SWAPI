@@ -54,21 +54,15 @@ System.int GetKnifeEdgesCount(
 ### Parameters
 
 - `angle`: Angle to use to determine the knife edges
-- `errorcode`: Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `errorcode`: Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
-Number of knife edgesParamDesc
+Number of knife edges
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::GetKnifeEdgesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetKnifeEdgesCount.html)
-
-.
+See [IGeometryAnalysis::GetKnifeEdgesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetKnifeEdgesCount.html).
 
 ## Examples
 
@@ -77,13 +71,11 @@ See
 ## Remarks
 
 A sharp edge or knife edge is an edge where the angle between two adjacent faces
-
 is acute.
 
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
 
 ## Availability

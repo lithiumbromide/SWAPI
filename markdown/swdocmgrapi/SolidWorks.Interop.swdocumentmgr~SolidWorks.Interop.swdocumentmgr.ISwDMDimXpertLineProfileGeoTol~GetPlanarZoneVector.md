@@ -67,11 +67,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertLineProfileGeoTol::GetPlanarZoneVector](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertLineProfileGeoTol~GetPlanarZoneVector.html)
-
-.
+See [SwDMDimXpertLineProfileGeoTol::GetPlanarZoneVector](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertLineProfileGeoTol~GetPlanarZoneVector.html).
 
 ## Examples
 
@@ -80,7 +76,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertLineProfileGeoTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertLineProfileGeoTol.html)
-
 [ISwDMDimXpertLineProfileGeoTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertLineProfileGeoTol_members.html)
 
 ## Availability

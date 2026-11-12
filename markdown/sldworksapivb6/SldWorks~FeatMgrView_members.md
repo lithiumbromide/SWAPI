@@ -1,6 +1,5 @@
 ---
-title: "FeatMgrView Object
-Members"
+title: "FeatMgrView Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FeatMgrView_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FeatMgrView_members.html"
 ---
 
-# FeatMgrView Object
-Members
+# FeatMgrView Object Members
 
 ## Public Methods
 

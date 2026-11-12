@@ -9,11 +9,9 @@ source: "cworksapi/Simultaneously_Edit_Multiple_Contact_Sets_Example_CSharp.htm"
 
 # Simultaneously Edit Multiple Contact Sets Example (C#)
 
-This example shows how to add multiple contact sets to a frequency study and
-simultaneously edit them.
+This example shows how to add multiple contact sets to a frequency study and simultaneously edit them.
 
-NOTE:To get persistent reference
-identifiers (PIDs) for model selections, you can use[pidcollector.exe](GettingStarted-swsimulationapi.html)or IModelDocExtension::GetPersistReference3.
+NOTE: To get persistent reference identifiers (PIDs) for model selections, you can use [pidcollector.exe](GettingStarted-swsimulationapi.html) or IModelDocExtension::GetPersistReference3.
 
 ```vb
   //----------------------------------------------------------------------------

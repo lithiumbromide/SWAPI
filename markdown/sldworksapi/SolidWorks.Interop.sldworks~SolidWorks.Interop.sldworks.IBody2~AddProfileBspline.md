@@ -55,19 +55,13 @@ System.Object^ AddProfileBspline(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Props`: Contains 4 integers packed into 2 double elements (see**Remarks**)
-- `Knots`: Array of numKnots (seeRemarks)
-- `CtrlPtCoords`: Array of numCtrlPtCoord (seeRemarks)
+- `Props`: Contains 4 integers packed into 2 double elements (see **Remarks**)
+- `Knots`: Array of numKnots (see Remarks)
+- `CtrlPtCoords`: Array of numCtrlPtCoord (see Remarks)
 
 ### Return Value
 
@@ -75,23 +69,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body2::AddProfileBspline](ms-its:sldworksapivb6.chm::/sldworks~Body2~AddProfileBspline.html)
-
-.
+See [Body2::AddProfileBspline](ms-its:sldworksapivb6.chm::/sldworks~Body2~AddProfileBspline.html).
 
 ## Examples
 
 [Create Reference Curve (C#)](Create_Reference_Curve_Example_CSharp.htm)
-
 [Create Reference Curve (VB.NET)](Create_Reference_Curve_Example_VBNET.htm)
-
 [Create Reference Curve (VBA)](Create_Reference_Curve_Example_VB.htm)
 
 ## Remarks
 
-You can use this method with[IBody2::CreateRevolutionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateRevolutionSurface.html)to generate any surface of revolution or with[IBody2::CreateExtrusionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateExtrusionSurface.html)to generate a tabulated cylinder.
+You can use this method with [IBody2::CreateRevolutionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateRevolutionSurface.html) to generate any surface of revolution or with [IBody2::CreateExtrusionSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateExtrusionSurface.html) to generate a tabulated cylinder.
 
 The Props argument contains the following values:
 
@@ -111,9 +99,7 @@ NumCtrlPtCoord = NumCtrlPoints + DimensionControlPoints
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::IAddProfileBspline Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IAddProfileBspline.html)
 
 ## Availability

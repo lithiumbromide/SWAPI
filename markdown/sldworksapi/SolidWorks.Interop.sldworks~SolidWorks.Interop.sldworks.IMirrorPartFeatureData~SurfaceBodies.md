@@ -45,13 +45,7 @@ property System.bool SurfaceBodies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to import surface bodies, false to not
 
 ## VBA Syntax
 
-See
-
-[MirrorPartFeatureData::SurfaceBodies](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~SurfaceBodies.html)
-
-.
+See [MirrorPartFeatureData::SurfaceBodies](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~SurfaceBodies.html).
 
 ## Examples
 
-See the
-
-[IMirrorPartFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPartFeatureData.html)
-
-examples.
+See the [IMirrorPartFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPartFeatureData.html) examples.
 
 ## See Also
 
 [IMirrorPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData.html)
-
 [IMirrorPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "swdocmgrapi/Get_External_References_for_Part_Example_CSharp.htm"
 
 # Get External References for Part Example (C#)
 
-This example shows how to get all of the external references for a part
-document.
+This example shows how to get all of the external references for a part document.
 
 ```vb
  //----------------------------------------------------------------------------

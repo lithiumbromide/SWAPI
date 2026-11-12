@@ -45,13 +45,7 @@ property System.bool CustomRenderSettings {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to enable custom render settings, false to not
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::CustomRenderSettings](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~CustomRenderSettings.html)
-
-.
+See [RayTraceRendererOptions::CustomRenderSettings](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~CustomRenderSettings.html).
 
 ## Remarks
 
@@ -72,12 +62,11 @@ Enabling custom render settings allows access to the number of:
 - [reflections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~NumberOfReflections.html)
 - [refractions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~NumberOfRefractions.html)
 
-in the[final render](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~InvokeFinalRender.html).
+in the [final render](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRenderer~InvokeFinalRender.html).
 
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
 
 ## Availability

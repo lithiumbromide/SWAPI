@@ -39,13 +39,7 @@ IEdmUser5^ GetNextUser(
 
 ### Parameters
 
-- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the next user (see
-
-Remarks
-
-)
+- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the next user (see **Remarks**)
 
 ### Return Value
 
@@ -54,16 +48,15 @@ Remarks
 ## Examples
 
 [Traverse Users and Groups in Vault (C#)](Traverse_Users_and_Groups_in_Vault_Example_CSharp.htm)
-
 [Traverse Users and Groups in Vault (VB.NET)](Traverse_Users_and_Groups_in_Vault_Example_VBNET.htm)
 
 ## Remarks
 
-Before calling this method the first time, you must populate poPos with the interface to the position of the first user in the list, IEdmPos5. Call[IEdmUserGroup5::GetFirstUserPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5~GetFirstUserPosition.html)to obtain poPos.
+Before calling this method the first time, you must populate poPos with the interface to the position of the first user in the list, IEdmPos5. Call [IEdmUserGroup5::GetFirstUserPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5~GetFirstUserPosition.html) to obtain poPos.
 
 After calling this method the first time, poPos is automatically incremented every time it is called. Call this method repeatedly to obtain the rest of the users in the list.
 
-Be sure to call[IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html)before you call this method to ensure you have not reached the end of the enumeration.
+Be sure to call [IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html) before you call this method to ensure you have not reached the end of the enumeration.
 
 C++ users not using smart-pointer wrapper functions must release the returned interface, IEdmUser5.
 
@@ -74,7 +67,6 @@ C++ users not using smart-pointer wrapper functions must release the returned in
 ## See Also
 
 [IEdmUserGroup5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5.html)
-
 [IEdmUserGroup5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5_members.html)
 
 ## Availability

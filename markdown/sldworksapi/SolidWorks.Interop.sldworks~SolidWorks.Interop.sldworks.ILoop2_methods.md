@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # ILoop2 Interface Methods
 
-For a list of all members of this type, see[ILoop2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2_members.html).
+For a list of all members of this type, see [ILoop2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2_members.html).
 
 ## Public Methods
 
@@ -50,15 +50,9 @@ For a list of all members of this type, see[ILoop2 members](SolidWorks.Interop.s
 ## See Also
 
 [ILoop2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [ICoEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html)
-
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [DAssemblyDocEvents_FlipLoopNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_FlipLoopNotifyEventHandler.html)
-
 [DPartDocEvents_FlipLoopNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_FlipLoopNotifyEventHandler.html)

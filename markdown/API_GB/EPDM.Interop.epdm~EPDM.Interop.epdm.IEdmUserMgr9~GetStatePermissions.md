@@ -49,25 +49,13 @@ void GetStatePermissions(
 ### Parameters
 
 - `lOwnerID`: ID of the user or group for which to get permissions; 0 to return permissions for all users and groups
-- `meOwnerType`: Type of lOwnerID as defined in
-
-[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
-
-; valid only if lOwnerID is not 0
+- `meOwnerType`: Type of lOwnerID as defined in [EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html); valid only if lOwnerID is not 0
 - `lStateID`: ID of state for which to get permissions; 0 to return permissions for all states
-- `ppoPermissions`: Array of
-
-[EdmStatePermission](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission.html)
-
-structures; one structure for each permission assignment
+- `ppoPermissions`: Array of [EdmStatePermission](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmStatePermission.html) structures; one structure for each permission assignment
 
 ## Examples
 
-See the
-
-[IEdmUserMgr9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9.html)
-
-examples.
+See the [IEdmUserMgr9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9.html) examples.
 
 ## Remarks
 
@@ -78,9 +66,7 @@ examples.
 ## See Also
 
 [IEdmUserMgr9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9.html)
-
 [IEdmUserMgr9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9_members.html)
-
 [IEdmUserMgr9::SetStatePermissions Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr9~SetStatePermissions.html)
 
 ## Availability

@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBe
 
 Allows access to a Belt/Chain assembly feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IBeltChainFeatureData
 
 ## VBA Syntax
 
-See
-
-[BeltChainFeatureData](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData.html)
-
-.
+See [BeltChainFeatureData](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData.html).
 
 ## Examples
 
@@ -56,10 +52,10 @@ See
 '
 'Postconditions:
 '1. Creates an assembly of two steel discs.
-'2. Press F5 to create**Belt1**in the FeatureManager design tree.
-' If a Save As dialog appears, click**Cancel**.
-'3. Press F5 to modify**Belt1**'s belt length, belt thickness,
-' and pulley diameters. If a Save As dialog appears, click**Cancel**.
+'2. Press F5 to create **Belt1** in the FeatureManager design tree.
+' If a Save As dialog appears, click **Cancel**.
+'3. Press F5 to modify **Belt1**'s belt length, belt thickness,
+' and pulley diameters. If a Save As dialog appears, click **Cancel**.
 '============================================================
 Dim swApp As SldWorks.SldWorks
 Dim swModel As SldWorks.ModelDoc2
@@ -179,24 +175,24 @@ For J = 0 To UBound(pulleyComps)
 pulleyDiams(J) = 0.005 * (J + 2)
 Next
 
-beltChainFeatData.**PulleyComponents**= pulleyComps
-beltChainFeatData.**PulleyDiameters**= pulleyDiams
+beltChainFeatData.**PulleyComponents** = pulleyComps
+beltChainFeatData.**PulleyDiameters** = pulleyDiams
 
 pullyFlips(0) = False
 pullyFlips(1) = False
 
-beltChainFeatData.**FlipSides**= pullyFlips
+beltChainFeatData.**FlipSides** = pullyFlips
 
-beltChainFeatData.**BeltLocationPlane**= selMgr.GetSelectedObject6(3, -1)
+beltChainFeatData.**BeltLocationPlane** = selMgr.GetSelectedObject6(3, -1)
 
-beltChainFeatData.**DrivingLength**= True
-beltChainFeatData.**BeltLength**= 0.59492
+beltChainFeatData.**DrivingLength** = True
+beltChainFeatData.**BeltLength** = 0.59492
 
-beltChainFeatData.**UseBeltThickness**= True
-beltChainFeatData.**BeltThickness**= 0.003
+beltChainFeatData.**UseBeltThickness** = True
+beltChainFeatData.**BeltThickness** = 0.003
 
-beltChainFeatData.**CreateBeltPart**= True
-beltChainFeatData.**EngageBelt**= False
+beltChainFeatData.**CreateBeltPart** = True
+beltChainFeatData.**EngageBelt** = False
 
 Set swFeat = swModel.FeatureManager.**CreateFeature**(beltChainFeatData)
 
@@ -212,14 +208,14 @@ pulleyDiamsOri = swFeatData.**PulleyDiameters**
 pulleyDiamsOri(0) = 0.02
 pulleyDiamsOri(1) = 0.02
 
-swFeatData.**PulleyDiameters**= pulleyDiamsOri
+swFeatData.**PulleyDiameters** = pulleyDiamsOri
 Debug.Print "Pulley diameters changed to 20 mm"
 
-swFeatData.**DrivingLength**= True
+swFeatData.**DrivingLength** = True
 swFeatData.BeltLength = 0.3
 Debug.Print "Belt length (m) changed to " & swFeatData.**BeltLength**
 
-swFeatData.**BeltThickness**= 0.002
+swFeatData.**BeltThickness** = 0.002
 Debug.Print "Belt thickness (m) changed to " & swFeatData.**BeltThickness**
 
 boolstatus = swFeat.**ModifyDefinition**(swFeatData, swModel, Nothing)
@@ -229,15 +225,14 @@ End Sub
 ## Examples
 
 [Create Belt/Chain Feature (VB.NET)](Create_Belt_Chain_Feature_Example_VBNET.htm)
-
 [Create Belt/Chain Feature (C#)](Create_Belt_Chain_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-For more information, see the**SOLIDWORKS user-interface help > Assemblies > Other Assembly Techniques > Assembly Features > Creating Assembly Features >**
+For more information, see the **SOLIDWORKS Design user-interface help > Assemblies > Other Assembly Techniques > Assembly Features > Creating Assembly Features >**
 
-- Creating a Belt/Chain Assembly Feature
-- Belt/Chain PropertyManager (Assemblies)
+- **Creating a Belt/Chain Assembly Feature**
+- **Belt/Chain PropertyManager (Assemblies)**
 
 ## Accessors
 
@@ -252,5 +247,4 @@ For more information, see the**SOLIDWORKS user-interface help > Assemblies > Oth
 ## See Also
 
 [IBeltChainFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

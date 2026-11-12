@@ -9,24 +9,17 @@ source: "sldworksapi/Select_All_Center_Marks_Example_VB.htm"
 
 # Select All Center Marks Example (VBA)
 
-In the SOLIDWORKS API, center marks can be features or annotations.
-Use these enumerators with ISelectionMgr::GetSelectedObjectType3 to return
-that specific type of center mark:
+In the SOLIDWORKS API, center marks can be features or annotations. Use these enumerators with ISelectionMgr::GetSelectedObjectType3 to return that specific type of center mark:
 
 - swSelCENTERMARKS for center marks that are features
-- swSelCENTERMARKSSYMS for center marks that are
-  annotations
+- swSelCENTERMARKSSYMS for center marks that are annotations
 
-Traversal over the two types is different for the center marks that
-are:
+Traversal over the two types is different for the center marks that are:
 
-- Annotations. Use IView::GetFirstCenterMark and
-  ICenterMark::GetNext
+- Annotations. Use IView::GetFirstCenterMark and ICenterMark::GetNext
 - Features. Use IView::GetCenterMarks.
 
-It is not directly possible to select center marks that are features,
-even though they appear in a feature traversal. This example shows how
-to indirectly select center marks that are features.
+It is not directly possible to select center marks that are features, even though they appear in a feature traversal. This example shows how to indirectly select center marks that are features.
 
 ```
 '------------------------------------------------

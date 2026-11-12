@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # MirrorPart Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::MirrorPart2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~MirrorPart2.html)
-
-.
+Obsolete. Superseded by [IPartDoc::MirrorPart2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~MirrorPart2.html).
 
 ## Syntax
 
@@ -43,30 +39,16 @@ void MirrorPart()
 void MirrorPart();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[PartDoc::MirrorPart](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~MirrorPart.html)
-
-.
+See [PartDoc::MirrorPart](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~MirrorPart.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::InsertMirrorAll Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~InsertMirrorAll.html)
-
 [IPartDoc::MirrorFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~MirrorFeature.html)
-
 [IFeatureManager::InsertMirrorFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertMirrorFeature.html)

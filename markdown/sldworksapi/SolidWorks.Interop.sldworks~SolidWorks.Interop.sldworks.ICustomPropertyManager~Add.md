@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # Add Method (ICustomPropertyManager)
 
-Obsolete. Superseded by
-
-[ICustomPropertyManager::Add2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Add2.html)
-
-.
+Obsolete. Superseded by [ICustomPropertyManager::Add2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomPropertyManager~Add2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.int Add(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[CustomPropertyManager::Add](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Add.html)
-
-.
+See [CustomPropertyManager::Add](ms-its:sldworksapivb6.chm::/sldworks~CustomPropertyManager~Add.html).
 
 ## See Also
 
 [ICustomPropertyManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager.html)
-
 [ICustomPropertyManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomPropertyManager_members.html)

@@ -1,6 +1,5 @@
 ---
-title: "EnumSketchPoints Object
-Members"
+title: "EnumSketchPoints Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "EnumSketchPoints_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~EnumSketchPoints_members.html"
 ---
 
-# EnumSketchPoints Object
-Members
+# EnumSketchPoints Object Members
 
 ## Public Methods
 

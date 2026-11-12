@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Angle_Between_Plane_and_Line_Example_VB.htm"
 
 # Get Angle Between Plane and Line Example (VBA)
 
-This example shows how to get the angle between a selected plane and
-a selected sketch line.
+This example shows how to get the angle between a selected plane and a selected sketch line.
 
 ```
 '-----------------------------------------------

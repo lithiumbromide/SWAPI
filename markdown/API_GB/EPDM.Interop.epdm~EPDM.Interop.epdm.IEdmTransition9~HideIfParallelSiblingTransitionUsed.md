@@ -40,5 +40,4 @@ True to hide this transition when a sibling parallel transition occurs, false to
 ## See Also
 
 [IEdmTransition9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9.html)
-
 [IEdmTransition9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9_members.html)

@@ -51,17 +51,11 @@ System.bool SetHeader(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style`: Header style as defined in[swTableHeaderPosition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableHeaderPosition_e.html)
+- `Style`: Header style as defined in [swTableHeaderPosition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableHeaderPosition_e.html)
 - `Count`: Number of lines in the header
 
 ### Return Value
@@ -70,15 +64,11 @@ True if header is set successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::SetHeader](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetHeader.html)
-
-.
+See [TableAnnotation::SetHeader](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetHeader.html).
 
 ## Remarks
 
-Tables created internally by the SOLIDWORKS software, such as Hole Charts, Revision Blocks, and BOM tables, are created with a specific number of headers lines.
+Tables created internally by the SOLIDWORKS Design software, such as Hole Charts, Revision Blocks, and BOM tables, are created with a specific number of headers lines.
 
 This method cannot:
 
@@ -92,11 +82,8 @@ If you are changing the header style and number of header lines in a single use 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::GetHeaderCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetHeaderCount.html)
-
 [ITableAnnotation::GetHeaderStyle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetHeaderStyle.html)
 
 ## Availability

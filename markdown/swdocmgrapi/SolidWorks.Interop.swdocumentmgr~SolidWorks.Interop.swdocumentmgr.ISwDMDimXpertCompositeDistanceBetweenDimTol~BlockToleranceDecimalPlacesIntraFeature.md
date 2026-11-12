@@ -48,11 +48,7 @@ Number of decimal places for block tolerances
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompositeDistanceBetweenDimTol::BlockToleranceDecimalPlacesIntraFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositeDistanceBetweenDimTol~BlockToleranceDecimalPlacesIntraFeature.html)
-
-.
+See [SwDMDimXpertCompositeDistanceBetweenDimTol::BlockToleranceDecimalPlacesIntraFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompositeDistanceBetweenDimTol~BlockToleranceDecimalPlacesIntraFeature.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompositeDistanceBetweenDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol.html)
-
 [ISwDMDimXpertCompositeDistanceBetweenDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompositeDistanceBetweenDimTol_members.html)
 
 ## Availability

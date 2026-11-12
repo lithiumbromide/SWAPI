@@ -9,8 +9,7 @@ source: "swcostingapi/Create_Structural_Costing_Analysis_Example_VBNET.htm"
 
 # Create Structural Costing Analysis Example (VB.NET)
 
-This example shows how to create a structural Costing analysis of a weldment
-part.
+This example shows how to create a structural Costing analysis of a weldment part.
 
 ```
 '------------------------------------------------

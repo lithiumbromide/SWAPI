@@ -9,15 +9,14 @@ source: "sldworksapi/Insert_General_Table_Example_VB.htm"
 
 # Insert General Table (VBA)
 
-This example shows how to insert a general table in a drawing document
-and how to hide and show a row in that table.
+This example shows how to insert a general table in a drawing document and how to hide and show a row in that table.
 
 ```vb
 '---------------------------------
 ' Preconditions: Drawing document is open.
 '
 ' Postconditions: The third row of the general table is
-' kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}hidden and shown.
+'                 hidden and shown.
 '----------------------------------
 Option Explicit
 

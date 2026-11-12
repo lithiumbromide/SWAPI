@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISM
 
 # RemoveAGroupOfFaces Method (ISMNormalCutFeatureData)
 
-Obsolete. See
-
-[ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
-.
+Obsolete. See [ISMNormalCutFeatureData2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html).
 
 ## Syntax
 
@@ -44,34 +40,20 @@ System.int RemoveAGroupOfFaces()
 System.int RemoveAGroupOfFaces();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Result code as defined in
-
-[swSMNormalCutError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSMNormalCutError_e.html)
+Result code as defined in [swSMNormalCutError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSMNormalCutError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData::RemoveAGroupOfFaces](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData~RemoveAGroupOfFaces.html)
-
-.
+See [SMNormalCutFeatureData::RemoveAGroupOfFaces](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData~RemoveAGroupOfFaces.html).
 
 ## See Also
 
 [ISMNormalCutFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData.html)
-
 [ISMNormalCutFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData_members.html)
-
 [ISMNormalCutFeatureData::AddAGroupOfFaces Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData~AddAGroupOfFaces.html)
 
 ## Availability

@@ -47,13 +47,7 @@ System.bool SetConsiderLeadersAsLines(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ Original value of the flag before calling this method
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SetConsiderLeadersAsLines](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetConsiderLeadersAsLines.html)
-
-.
+See [ModelDoc2::SetConsiderLeadersAsLines](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetConsiderLeadersAsLines.html).
 
 ## Remarks
 
@@ -79,12 +69,11 @@ Initially, when a document is opened, the flag is set to True, so that existing 
 
 The various GetArrowHeadCount and GetArrowHeadAtIndex methods are also affected. When this flag has been set to false so that leaders are not considered as lines, the arrowhead information for the arrowheads on those leaders is not returned. However, GetArrowHeadInfo still returns valid information.
 
-Use[IModelDoc2::GetConsiderLeadersAsLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetConsiderLeadersAsLines.html)to determine the current behavior.
+Use [IModelDoc2::GetConsiderLeadersAsLines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetConsiderLeadersAsLines.html) to determine the current behavior.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

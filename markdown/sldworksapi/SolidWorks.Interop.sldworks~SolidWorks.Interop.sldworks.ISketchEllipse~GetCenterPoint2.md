@@ -40,44 +40,24 @@ System.object GetCenterPoint2()
 System.Object^ GetCenterPoint2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Center
-
-[sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-or null if the operation fails
+Center [sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[SketchEllipse::GetCenterPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~GetCenterPoint2.html)
-
-.
+See [SketchEllipse::GetCenterPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~GetCenterPoint2.html).
 
 ## Examples
 
-See the
-
-[ISketchEllipse](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
-examples.
+See the [ISketchEllipse](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html) examples.
 
 ## See Also
 
 [ISketchEllipse Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
 [ISketchEllipse Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse_members.html)
-
 [ISketchEllipse::IGetCenterPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse~IGetCenterPoint2.html)
 
 ## Availability

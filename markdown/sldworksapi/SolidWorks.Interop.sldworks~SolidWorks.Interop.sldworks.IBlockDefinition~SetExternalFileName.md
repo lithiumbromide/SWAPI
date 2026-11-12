@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBl
 
 # SetExternalFileName Method (IBlockDefinition)
 
-Obsolete. Superseded by
-
-[ISketchBlockDefinition::FileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~FileName.html)
-
-.
+Obsolete. Superseded by [ISketchBlockDefinition::FileName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~FileName.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.int SetExternalFileName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[BlockDefinition::SetExternalFileName](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~SetExternalFileName.html)
-
-.
+See [BlockDefinition::SetExternalFileName](ms-its:sldworksapivb6.chm::/sldworks~BlockDefinition~SetExternalFileName.html).
 
 ## See Also
 
 [IBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition.html)
-
 [IBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBlockDefinition_members.html)

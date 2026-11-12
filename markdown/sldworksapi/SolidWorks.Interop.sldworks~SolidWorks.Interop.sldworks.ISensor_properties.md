@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # ISensor Interface Properties
 
-For a list of all members of this type, see[ISensor members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor_members.html).
+For a list of all members of this type, see [ISensor members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor_members.html).
 
 ## Public Properties
 
@@ -27,11 +27,7 @@ For a list of all members of this type, see[ISensor members](SolidWorks.Interop.
 ## See Also
 
 [ISensor Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDimensionSensorData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionSensorData.html)
-
 [DPartDocEvents_SensorAlertPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_SensorAlertPreNotifyEventHandler.html)
-
 [DAssemblyDocEvents_SensorAlertPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_SensorAlertPreNotifyEventHandler.html)

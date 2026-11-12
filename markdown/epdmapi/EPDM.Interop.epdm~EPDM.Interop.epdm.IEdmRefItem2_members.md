@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem2_members.html"
 
 # IEdmRefItem2 Interface Members
 
-The following tables list the members exposed by[IEdmRefItem2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem2.html).
+The following tables list the members exposed by [IEdmRefItem2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem2.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmRefItem2](EPDM.Interop.epdm
 ## See Also
 
 [IEdmRefItem2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

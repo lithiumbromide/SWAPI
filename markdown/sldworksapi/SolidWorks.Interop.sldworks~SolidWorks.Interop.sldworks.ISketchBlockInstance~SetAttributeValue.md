@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # SetAttributeValue Method (ISketchBlockInstance)
 
-Sets the
-
-kadov_tag{{</spaces>}}
-
-value of the specified attribute for this block instance.
+Sets the value of the specified attribute for this block instance.
 
 ## Syntax
 
@@ -55,20 +51,12 @@ System.bool SetAttributeValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `TagName`: Tag name of this attribute
 - `Value`: Value for this attribute
-
-ParamDesc
 
 ### Return Value
 
@@ -76,22 +64,17 @@ True if the attribute's value is set, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::SetAttributeValue](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~SetAttributeValue.html)
-
-.
+See [SketchBlockInstance::SetAttributeValue](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~SetAttributeValue.html).
 
 ## Remarks
 
 Attributes are string notes that have tag names and are not read-only.
 
-Use[ISketchBlockInstance::GetAttributes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetAttributes.html)or[ISketchBlockInstance::IGetAttributes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~IGetAttributes.html)to the get attributes for this block instance. Use[ISketchBlockInstance::GetAttributeValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetAttributeValue.html)to get an attribute's value.
+Use [ISketchBlockInstance::GetAttributes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetAttributes.html) or [ISketchBlockInstance::IGetAttributes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~IGetAttributes.html) to the get attributes for this block instance. Use [ISketchBlockInstance::GetAttributeValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetAttributeValue.html) to get an attribute's value.
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
 
 ## Availability

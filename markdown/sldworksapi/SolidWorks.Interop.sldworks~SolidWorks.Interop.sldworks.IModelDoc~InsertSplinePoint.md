@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertSplinePoint Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::InsertSplinePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertSplinePoint.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::InsertSplinePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertSplinePoint.html).
 
 ## Syntax
 
@@ -58,13 +54,7 @@ void InsertSplinePoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -74,14 +64,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::InsertSplinePoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertSplinePoint.html)
-
-.
+See [ModelDoc::InsertSplinePoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertSplinePoint.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

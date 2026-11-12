@@ -45,13 +45,7 @@ property System.bool ShowPreview {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to display the preview, false to restore the original ConfigurationManager
 
 ## VBA Syntax
 
-See
-
-[ConfigurationManager::ShowPreview](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~ShowPreview.html)
-
-.
+See [ConfigurationManager::ShowPreview](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~ShowPreview.html).
 
 ## Examples
 
@@ -76,7 +66,6 @@ Before using this property, you must activate and select the configuration to pr
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [IConfigurationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html)
 
 ## Availability

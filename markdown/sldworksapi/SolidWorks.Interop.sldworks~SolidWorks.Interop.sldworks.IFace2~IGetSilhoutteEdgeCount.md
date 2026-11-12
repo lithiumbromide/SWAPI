@@ -51,13 +51,7 @@ System.int IGetSilhoutteEdgeCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,22 +64,16 @@ Number of silhouette edges
 
 ## VBA Syntax
 
-See
-
-[Face2::IGetSilhoutteEdgeCount](ms-its:sldworksapivb6.chm::/sldworks~Face2~IGetSilhoutteEdgeCount.html)
-
-.
+See [Face2::IGetSilhoutteEdgeCount](ms-its:sldworksapivb6.chm::/sldworks~Face2~IGetSilhoutteEdgeCount.html).
 
 ## Remarks
 
-This method calculates the number of edges returned by[IFace2::IGetSilhoutteEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetSilhoutteEdges.html)for a given vector root point (root) and a vector direction (normal). Call this method before calling IFace2::IGetSilhoutte.
+This method calculates the number of edges returned by [IFace2::IGetSilhoutteEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetSilhoutteEdges.html) for a given vector root point (root) and a vector direction (normal). Call this method before calling IFace2::IGetSilhoutte.
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::GetSilhoutteEdgesVB Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetSilhoutteEdgesVB.html)
 
 ## Availability

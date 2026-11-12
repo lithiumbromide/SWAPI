@@ -40,13 +40,7 @@ System.string GetReferencedFileName()
 System.String^ GetReferencedFileName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Full path name of the linked non-native CAD file
 
 ## VBA Syntax
 
-See
-
-[Import3DInterconnectData::GetReferencedFileName](ms-its:sldworksapivb6.chm::/sldworks~Import3DInterconnectData~GetReferencedFileName.html)
-
-.
+See [Import3DInterconnectData::GetReferencedFileName](ms-its:sldworksapivb6.chm::/sldworks~Import3DInterconnectData~GetReferencedFileName.html).
 
 ## Examples
 
-See the
-
-[IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
-examples.
+See the [IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html) examples.
 
 ## See Also
 
 [IImport3DInterconnectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
 [IImport3DInterconnectData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData_members.html)
-
 [IImport3DinterconnectData::SetReferencedFileName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData~SetReferencedFileName.html)
 
 ## Availability

@@ -42,13 +42,7 @@ property System.int BufferSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,34 +50,20 @@ Size of the OLE object data
 
 ## VBA Syntax
 
-See
-
-[SwOLEObject::BufferSize](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~BufferSize.html)
-
-.
+See [SwOLEObject::BufferSize](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~BufferSize.html).
 
 ## Examples
 
-See the
-
-[ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
-examples.
+See the [ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html) examples.
 
 ## Remarks
 
-Call this method before calling
-
-[ISwOLEObject::IGetBuffer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~IGetBuffer.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISwOLEObject::IGetBuffer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~IGetBuffer.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
-
 [ISwOLEObject::Buffer Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject~Buffer.html)
 
 ## Availability

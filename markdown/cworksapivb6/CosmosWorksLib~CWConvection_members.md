@@ -1,6 +1,5 @@
 ---
-title: "CWConvection Object
-Members"
+title: "CWConvection Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWConvection_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWConvection_members.html"
 ---
 
-# CWConvection Object
-Members
+# CWConvection Object Members
 
 ## Public Methods
 

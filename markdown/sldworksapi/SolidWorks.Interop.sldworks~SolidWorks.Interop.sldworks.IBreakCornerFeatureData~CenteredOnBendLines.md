@@ -45,13 +45,7 @@ property System.bool CenteredOnBendLines {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to center the corner cuts on the bend lines, false to not
 
 ## VBA Syntax
 
-See
-
-[BreakCornerFeatureData::CenteredOnBendLines](ms-its:sldworksapivb6.chm::/sldworks~BreakCornerFeatureData~CenteredOnBendLines.html)
-
-.
+See [BreakCornerFeatureData::CenteredOnBendLines](ms-its:sldworksapivb6.chm::/sldworks~BreakCornerFeatureData~CenteredOnBendLines.html).
 
 ## Examples
 
 [Modify Break Corner Feature (C#)](Modify_Break_Corner_Feature_Example_CSharp.htm)
-
 [Modify Break Corner Feature (VB.NET)](Modify_Break_Corner_Feature_Example_VBNET.htm)
-
 [Modify Break Corner Feature (VBA)](Modify_Break_Corner_Feature_Example_VB.htm)
 
 ## See Also
 
 [IBreakCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData.html)
-
 [IBreakCornerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData_members.html)
 
 ## Availability

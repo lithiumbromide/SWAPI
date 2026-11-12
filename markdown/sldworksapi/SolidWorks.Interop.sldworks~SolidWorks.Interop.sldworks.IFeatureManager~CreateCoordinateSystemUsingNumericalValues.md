@@ -75,13 +75,7 @@ Feature^ CreateCoordinateSystemUsingNumericalValues(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -100,11 +94,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::CreateCoordinateSystemUsingNumericalValues](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CreateCoordinateSystemUsingNumericalValues.html)
-
-.
+See [FeatureManager::CreateCoordinateSystemUsingNumericalValues](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~CreateCoordinateSystemUsingNumericalValues.html).
 
 ## Examples
 
@@ -112,13 +102,18 @@ See
 
 '=============================================
 
-'Preconditions: '1. Open a new part. '2. Open the Immediate window.
+'Preconditions:
+
+'1. Open a new part.
+'2. Open the Immediate window.
 
 'Postconditions:
 
 '1. Creates a new coordinate system at the specified position and angle relative to the global coordinate system.
 
-'2. Select Coordinate System1 in the FeatureManager design tree. '3. Inspect the Immediate window and graphics area.
+'2. Select **Coordinate System1** in the FeatureManager design tree.
+
+'3. Inspect the Immediate window and graphics area.
 
 '=============================================
 
@@ -156,9 +151,9 @@ angVal = ang / 57.295779513 ' Angle in radians
 
 Debug.Print "Position(mm) : [" & pos & ", " & pos & ", " & pos & "] Angle(deg) : [" & ang & ", " & ang & ", " & ang & "] "
 
-Set swCoordFeat = swFeatMgr. CreateCoordinateSystemUsingNumericalValues (True, posVal, posVal, posVal, True, angVal, angVal, angVal)
+Set swCoordFeat = swFeatMgr.**CreateCoordinateSystemUsingNumericalValues**(True, posVal, posVal, posVal, True, angVal, angVal, angVal)
 
-Debug.Print "Name of the coordinate system feature : " & swCoordFeat. Name
+Debug.Print "Name of the coordinate system feature : " & swCoordFeat.**Name**
 
 End Sub
 
@@ -169,13 +164,9 @@ This method is valid only for parts and assemblies.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::CreateCoordinateSystem Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateCoordinateSystem.html)
-
 [IFeatureManager::InsertCoordinateSystem Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCoordinateSystem.html)
-
 [ICoordinateSystemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData.html)
 
 ## Availability

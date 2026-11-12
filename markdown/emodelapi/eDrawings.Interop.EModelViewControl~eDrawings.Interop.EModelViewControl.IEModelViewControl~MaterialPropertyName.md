@@ -48,28 +48,19 @@ Name of material
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::MaterialPropertyName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~MaterialPropertyName.html)
-
-.
+See [EModelViewControl::MaterialPropertyName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~MaterialPropertyName.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## Remarks
 
-If the material name is not available, the string<not specified>is returned.
+If the material name is not available, the string <not specified> is returned.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

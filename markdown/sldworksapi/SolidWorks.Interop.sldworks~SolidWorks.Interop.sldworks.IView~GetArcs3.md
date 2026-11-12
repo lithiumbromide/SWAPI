@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetArcs3 Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetArcs4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetArcs4.html)
-
-and
-
-[IView::IGetArcs4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetArcs4.html)
-
-.
+Obsolete. Superseded by [IView::GetArcs4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetArcs4.html) and [IView::IGetArcs4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetArcs4.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetArcs3()
 System.Object^ GetArcs3();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::GetArcs3](ms-its:sldworksapivb6.chm::/sldworks~View~GetArcs3.html)
-
-.
+See [View::GetArcs3](ms-its:sldworksapivb6.chm::/sldworks~View~GetArcs3.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

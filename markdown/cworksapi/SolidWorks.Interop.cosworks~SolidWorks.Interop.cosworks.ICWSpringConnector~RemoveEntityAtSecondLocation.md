@@ -52,24 +52,15 @@ void RemoveEntityAtSecondLocation(
 
 ## VBA Syntax
 
-See
-
-[CWSpringConnector::RemoveEntityAtSecondLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~RemoveEntityAtSecondLocation.html)
-
-.
+See [CWSpringConnector::RemoveEntityAtSecondLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~RemoveEntityAtSecondLocation.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[ICWSpringConnector::GetTargetEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSpringConnector~GetTargetEntityCount.html)
-
-to determine the value of NIndex.
+Before calling this method, call [ICWSpringConnector::GetTargetEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSpringConnector~GetTargetEntityCount.html) to determine the value of NIndex.
 
 ## See Also
 
 [ICWSpringConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
 [ICWSpringConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html)
 
 ## Availability

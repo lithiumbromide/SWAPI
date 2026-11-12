@@ -42,17 +42,11 @@ System.int Init();
 
 ### Return Value
 
-Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IPowerSelect::Init](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~Init.html)
-
-.
+See [IPowerSelect::Init](ms-its:swutilitiesapivb6.chm::/swutilities~IPowerSelect~Init.html).
 
 ## Examples
 
@@ -60,7 +54,7 @@ See
 
 ## Remarks
 
-This method binds the currently active document to PowerSelect. All PowerSelect API-related calls between IPowerSelect::Init and[IPowerSelect::Close](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IPowerSelect~Close.html)work on this document. SOLIDWORKS Utilities API calls that try to activate other documents will fail.
+This method binds the currently active document to PowerSelect. All PowerSelect API-related calls between IPowerSelect::Init and [IPowerSelect::Close](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IPowerSelect~Close.html) work on this document. SOLIDWORKS Utilities API calls that try to activate other documents will fail.
 
 You cannot have more than one SOLIDWORKS Utilities tool running at any one time. You must close a running PowerSelect session before you can use another SOLIDWORKS Utilities tool.
 
@@ -69,11 +63,8 @@ An error message is returned if a session of PowerSelect is already running when
 ## See Also
 
 [IPowerSelect Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect.html)
-
 [IPowerSelect Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect_members.html)
-
 [IPowerSelect::RunPowerSelect Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~RunPowerSelect.html)
-
 [IPowerSelect::IRunPowerSelect Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IPowerSelect~IRunPowerSelect.html)
 
 ## Availability

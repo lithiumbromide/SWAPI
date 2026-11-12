@@ -47,13 +47,7 @@ EnumDrSections^ EnumSectionLines2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::EnumSectionLines2](ms-its:sldworksapivb6.chm::/sldworks~View~EnumSectionLines2.html)
-
-.
+See [View::EnumSectionLines2](ms-its:sldworksapivb6.chm::/sldworks~View~EnumSectionLines2.html).
 
 ## Remarks
 
@@ -78,13 +68,9 @@ This method returns section lines whether the view is visible or not. If the vie
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetSectionLineCount2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetSectionLineCount2.html)
-
 [IView::GetSectionLines Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetSectionLines.html)
-
 [IView::GetSectionLineStrings Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetSectionLineStrings.html)
 
 ## Availability

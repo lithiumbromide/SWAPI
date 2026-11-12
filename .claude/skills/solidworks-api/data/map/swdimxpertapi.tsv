@@ -1,0 +1,293 @@
+#swapi-map 1 module=swdimxpertapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@IDimXpertAngleBetweenCircularDimTol	i	Allows you to access DimXpert angle-between circular dimension tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2
+CenterFeature	p	DimXpertFeature CenterFeature {get;}	2026 SP2		Gets the DimXpert center feature for this DimXpert angle-between circular dimension tolerance.
+GetActPlaneVector	m	bool GetActPlaneVector(out double I, out double J, out double K)	2026 SP2		Gets the actual plane vector for computing the angle of this DimXpert angle-between circular dimension tolerance.
+GetNomPlaneVector	m	bool GetNomPlaneVector(out double I, out double J, out double K)	2026 SP2		Gets the nominal plane vector for computing the angle of this DimXpert angle-between circular dimension tolerance.
+OriginFeature	p	DimXpertFeature OriginFeature {get;}	2026 SP2		Gets the DimXpert origin feature for this DimXpert angle-between circular dimension tolerance.
+Supplement	p	bool Supplement {get;}	2026 SP2		Gets whether to evaluate the supplement angle for this DimXpert angle-between circular dimension tolerance.
+@IDimXpertAngleBetweenDimTol	i	Allows you to access DimXpert angle-between dimension tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=16
+GetDirectionVector	m	bool GetDirectionVector(out double I, out double J, out double K)	2010		Gets the direction vector for computing the angle of this DimXpert angle-between dimension tolerance.
+OriginFeature	p	DimXpertFeature OriginFeature {get;}	2010		Gets the DimXpert origin feature for this DimXpert angle-between dimension tolerance.
+Supplement	p	bool Supplement {get;}	2010		Gets whether to evaluate the supplement angle for this DimXpert angle-between dimension tolerance.
+@IDimXpertAnnotation	i	Allows you to access DimXpert annotations on the DimXpertManager tab of the Management Panel.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IDimXpertGtol.Annotation,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertPart.InsertGtol,IFeature.GetSpecificFeature2	use=7
+Feature	p	DimXpertFeature Feature {get;}	2010		Gets the DimXpert feature to which this DimXpert annotation is applied.
+GetAppliedAnnotationCount	m	int GetAppliedAnnotationCount()	2010		Gets the number of annotations applied to this DimXpert annotation.
+GetAppliedAnnotations	m	object:IDimXpertAnnotation GetAppliedAnnotations()	2010		Gets all of the annotations that reference this DimXpert annotation (datum).
+GetDisplayEntity	m	object:IAnnotation GetDisplayEntity()	2010		Gets the SOLIDWORKS annotation representing this DimXpert annotation.
+GetModelFeature	m	object:IFeature GetModelFeature()	2010		Gets the underlying DimXpert model feature that corresponds to this geometric, dimensioning, and tolerancing annotation.
+IGetAppliedAnnotations	m	DimXpertAnnotation IGetAppliedAnnotations(int Count)	2010		Gets all of the annotations applied to this DimXpert annotation.
+IsFreeState	m	bool IsFreeState()	2010		Gets whether this annotation is in a free state.
+IsStatistical	m	bool IsStatistical()	2010		Gets whether this annotation is statistical.
+IsSuppressed	m	bool IsSuppressed()	2010		Gets whether the annotation is suppressed from view on the DimXpertManager tab of the Management Panel.
+IsToBeInspected	m	bool IsToBeInspected()	2010		Gets whether this annotation is to be inspected.
+Name	p	string Name {get;}	2010		Gets the name of this DimXpert annotation.
+Type	p	swDimXpertAnnotationType_e Type {get;}	2010		Gets the type of this DimXpert annotation.
+@IDimXpertAutoDimSchemeOption	i	Allows you to get and set Auto Dimension Scheme options.	via=IDimXpertPart.GetAutoDimSchemeOption	use=21
+FeatureFilters	p	int:swDimXpertFeatureFilters_e FeatureFilters {get; set;}	2011		Gets and sets a feature filter bitmask for the Auto Dimension Scheme.
+PartType	p	int:swDimXpertAutoDimSchemePartType_e PartType {get; set;}	2011		Gets and sets the type of part to dimension.
+PatternType	p	int:swDimXpertAutoDimSchemePatternType_e PatternType {get; set;}	2011		Gets and sets the type of pattern to dimension.
+PolarPatternHoleCount	p	int PolarPatternHoleCount {get; set;}	2011		Gets and sets the number of holes to dimension in the polar pattern.
+ScopeAllFeature	p	bool ScopeAllFeature {get; set;}	2011		Gets and sets whether to dimension all features.
+ToleranceType	p	int:swDimXpertAutoDimSchemeToleranceType_e ToleranceType {get; set;}	2011		Gets and sets the type of tolerance to dimension.
+@IDimXpertBestfitPlaneFeature	i	Allows you to access specific information about DimXpert best fit planes on the DimXpertManager tab of the...	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=7
+GetNominalPlane	m	bool GetNominalPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for this DimXpert best fit plane.
+GetSubFeatureCount	m	int GetSubFeatureCount()	2010		Gets the number of sub-features in this DimXpert best fit plane.
+GetSubFeatures	m	object:IDimXpertFeature GetSubFeatures()	2010		Gets all of the sub-features of this DimXpert best fit plane.
+IGetSubFeatures	m	DimXpertFeature IGetSubFeatures(int Count)	2010		Gets all of the sub-features of this DimXpert best fit plane.
+@IDimXpertBlockTolerances	i	Allows you to access DimXpert block tolerance information.	via=IDimXpertPart.GetBlockTolerances	use=7
+GetISO2768PartType	m	bool GetISO2768PartType(out swDimXpertISO2768PartType_e Type)	2010		Gets the ISO 2768 part type of this DimXpert block tolerance.
+GetToleranceValues	m	bool GetToleranceValues(out double Linear1, out int Linear1Prec, out double Linear2, out int Linear2Prec, out double Linear3, out int Linear3Prec, out double Angular)	2010		Gets block tolerance settings for a given document.
+Type	p	swDimXpertBlockToleranceType_e Type {get;}	2010		Gets the type of this DimXpert block tolerance.
+@IDimXpertChamferDimTol	i	Allows you to access DimXpert chamfer dimension tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=5
+ChamferType	p	swDimXpertChamferDimensionType_e ChamferType {get;}	2010		Gets the type of this DimXpert chamfer dimension tolerance.
+@IDimXpertChamferFeature	i	Allows you to access specific information about DimXpert chamfers on the DimXpertManager tab of the Management Panel.	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=13
+Angle	p	double Angle {get;}	2010		Gets the angle of this DimXpert chamfer.
+AngleType	p	swDimXpertChamferAngleType_e AngleType {get;}	2010		Gets the angle type of this DimXpert chamfer.
+ChamferType	p	swDimXpertChamferType_e ChamferType {get;}	2010		Gets the type of this DimXpert chamfer.
+Distance1	p	double Distance1 {get;}	2010		Gets the length on bevel side 1 of the selected edge, face, or vertex.
+Distance2	p	double Distance2 {get;}	2010		Gets the length on bevel side 2 of the selected edge, face, or vertex.
+@IDimXpertCompositeDistanceBetweenDimTol	i	Allows you to access DimXpert composite distance-between dimension tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=17
+BlockToleranceDecimalPlacesIntraFeature	p	int BlockToleranceDecimalPlacesIntraFeature {get;}	2010		Gets the precision of block tolerances for the feature-locating portion of this DimXpert composite distance-between...
+DimensionTypeIntraFeature	p	swDimXpertDimensionToleranceType_e DimensionTypeIntraFeature {get;}	2010		Gets the dimension type of the feature-locating portion of this DimXpert composite distance-between dimension tolerance.
+GetDirectionVector	m	bool GetDirectionVector(out double I, out double J, out double K)	2010		Gets the direction vector for computing the distance of this DimXpert distance-between dimension tolerance.
+GetFeature	m	bool GetFeature(out DimXpertFeature Feature, out swDimXpertDistanceFosUsage_e FosUsage)	2010		Gets the feature to which this DimXpert composite distance-between dimension tolerance is applied.
+GetIntraFeature	m	bool GetIntraFeature(out DimXpertFeature Feature, out swDimXpertDistanceFosUsage_e FosUsage)	2010		Gets the feature located by the feature-locating portion of this DimXpert composite distance-between dimension...
+GetNominalValueIntraFeature	m	double GetNominalValueIntraFeature()	2010		Gets the tolerance value for the feature-locating portion of this DimXpert composite distance-between dimension...
+GetOriginFeature	m	bool GetOriginFeature(out DimXpertFeature Feature, out swDimXpertDistanceFosUsage_e FosUsage)	2010		Gets the origin feature for this DimXpert composite distance-between dimension tolerance.
+GetPlusAndMinusToleranceIntraFeature	m	bool GetPlusAndMinusToleranceIntraFeature(out double Plus, out double Minus)	2010		Gets the plus and minus tolerance values for the feature-locating portion of this DimXpert composite...
+GetUpperAndLowerLimitIntraFeature	m	bool GetUpperAndLowerLimitIntraFeature(out double Upper, out double Lower)	2010		Gets the upper and lower tolerance limits for the feature-locating portion of this DimXpert composite...
+LimitsAndFitsCodeIntraFeature	p	string LimitsAndFitsCodeIntraFeature {get;}	2010		Gets the limits and fits code for the feature-locating portion of this DimXpert composite distance-between dimension...
+@IDimXpertCompositeLineProfileTolerance	i	Allows you to access DimXpert composite line profile tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=1
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used for computing this DimXpert composite line profile tolerance.
+OuterToleranceValue	p	double OuterToleranceValue {get;}	2010		Gets the outer tolerance value for this DimXpert composite line profile tolerance.
+OuterToleranceValueLowerTier	p	double OuterToleranceValueLowerTier {get;}	2010		Gets the outer tolerance value in the lower tier for this DimXpert composite line profile tolerance.
+PrimaryInLowerTier	p	bool PrimaryInLowerTier {get;}	2010		Gets whether the primary datum is repeated in the lower tier of this DimXpert composite line profile tolerance.
+SecondaryInLowerTier	p	bool SecondaryInLowerTier {get;}	2010		Gets whether the secondary datum is repeated in the lower tier of this DimXpert composite line profile tolerance.
+TertiaryInLowerTier	p	bool TertiaryInLowerTier {get;}	2010		Gets whether the tertiary datum is repeated in the lower tier of this DimXpert composite line profile tolerance.
+ToleranceLowerTier	p	double ToleranceLowerTier {get;}	2010		Gets the tolerance value in the lower tier for this DimXpert composite line profile tolerance.
+@IDimXpertCompositePositionTolerance	i	Allows you to access DimXpert composite position tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=17
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert composite position tolerance.
+GetMaxToleranceLowerTier	m	bool GetMaxToleranceLowerTier(out bool IsMax, out double Tolerance)	2010		Gets whether the maximum tolerance is set in the lower tier for this DimXpert composite position tolerance.
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used for computing this DimXpert composite position tolerance.
+GetProjectedZone	m	bool GetProjectedZone(out bool Enabled, out double Value)	2010		Gets the projected zone value of this DimXpert composite position tolerance.
+Modifier	p	swDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert composite position tolerance.
+ModifierLowerTier	p	swDimXpertMaterialConditionModifier_e ModifierLowerTier {get;}	2010		Gets the material condition modifer for the tolerance in the lower tier for this DimXpert composite position tolerance.
+PrimaryInLowerTier	p	bool PrimaryInLowerTier {get;}	2010		Gets whether the primary datum is repeated in the lower tier of this DimXpert composite position tolerance.
+SecondaryInLowerTier	p	bool SecondaryInLowerTier {get;}	2010		Gets whether the secondary datum is repeated in the lower tier of this DimXpert composite position tolerance.
+TertiaryInLowerTier	p	bool TertiaryInLowerTier {get;}	2010		Gets whether the tertiary datum is repeated in the lower tier of this DimXpert composite position tolerance.
+ToleranceLowerTier	p	double ToleranceLowerTier {get;}	2010		Gets the tolerance value in the lower tier for this DimXpert composite position tolerance.
+ZoneType	p	swDimXpertPositionZoneType_e ZoneType {get;}	2010		Gets the zone type of this DimXpert composite position tolerance.
+@IDimXpertCompositeSurfaceProfileTolerance	i	Allows you to access DimXpert composite surface profile tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=11
+OuterToleranceValue	p	double OuterToleranceValue {get;}	2010		Gets the outer tolerance value for this DimXpert composite surface profile tolerance.
+OuterToleranceValueLowerTier	p	double OuterToleranceValueLowerTier {get;}	2010		Gets the outer tolerance value in the lower tier for this DimXpert composite surface profile tolerance.
+PrimaryInLowerTier	p	bool PrimaryInLowerTier {get;}	2010		Gets whether the primary datum is repeated in the lower tier for this DimXpert composite surface profile tolerance.
+SecondaryInLowerTier	p	bool SecondaryInLowerTier {get;}	2010		Gets whether the secondary datum is repeated in the lower tier for this DimXpert composite surface profile tolerance.
+TertiaryInLowerTier	p	bool TertiaryInLowerTier {get;}	2010		Gets whether the tertiary datum is repeated in the lower tier for this DimXpert composite surface profile tolerance.
+ToleranceLowerTier	p	double ToleranceLowerTier {get;}	2010		Gets the tolerance value in the lower tier for this DimXpert composite surface profile tolerance.
+@IDimXpertCompoundClosedSlot3DFeature	i	Allows you to access specific information about DimXpert 3D closed slots on the DimXpertManager tab of the...	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=7
+Blind	p	bool Blind {get;}	2010		Gets whether the DimXpert compound closed slot is blind or through all.
+GetBottomFeature	m	DimXpertFeature GetBottomFeature()	2010		Gets the bottom DimXpert feature for this DimXpert compound closed slot.
+GetEndFeatures	m	bool GetEndFeatures(out DimXpertFeature End1, out DimXpertFeature End2)	2010		Gets the closed end features of this DimXpert compound closed slot.
+GetNominalBottomPlane	m	bool GetNominalBottomPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the bottom reference plane of this DimXpert compound closed slot.
+GetNominalClosedSlot	m	bool GetNominalClosedSlot(out double Width, out double Length, out double X, out double Y, out double Z, out double I, out double J, out double K, out double LongitudeI, out double LongitudeJ, out double LongitudeK)	2010		Gets various attributes for this DimXpert compound closed slot.
+GetNominalTopPlane	m	bool GetNominalTopPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the top reference plane of this DimXpert compound closed slot.
+GetPlaneFeatures	m	bool GetPlaneFeatures(out DimXpertPlaneFeature Plane1, out DimXpertPlaneFeature Plane2)	2010		Gets the DimXpert plane features for both sides of this DimXpert compound closed slot.
+@IDimXpertCompoundHoleFeature	i	Allows you to access specific information about compound DimXpert holes on the DimXpertManager tab of the Management...	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=15
+Blind	p	bool Blind {get;}	2010		Gets whether the DimXpert compound hole is blind or through all.
+CompoundHoleType	p	swDimXpertCompoundHoleType_e CompoundHoleType {get;}	2010		Gets the type of this DimXpert compound hole.
+GetBottomFeature	m	DimXpertFeature GetBottomFeature()	2010		Gets the bottom DimXpert feature for this DimXpert compound hole.
+GetReferenceFeature	m	DimXpertFeature GetReferenceFeature()	2010		Gets the reference DimXpert feature for this DimXpert compound hole.
+GetSubFeatureCount	m	int GetSubFeatureCount()	2010		Gets the number of sub-features in this DimXpert compound hole.
+GetSubFeatures	m	object:IDimXpertFeature GetSubFeatures()	2010		Gets all of the sub-features of this DimXpert compound hole.
+IGetSubFeatures	m	DimXpertFeature IGetSubFeatures(int Count)	2010		Gets all of the sub-features of this DimXpert compound hole.
+@IDimXpertCompoundNotchFeature	i	Allows you to access specific information about compound DimXpert notches on the DimXpertManager tab of the...	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=5
+Blind	p	bool Blind {get;}	2010		Gets whether the DimXpert compound notch is blind or through all.
+GetBottomFeature	m	DimXpertFeature GetBottomFeature()	2010		Gets the bottom DimXpert feature for this DimXpert compound notch.
+GetEndFeature	m	DimXpertFeature GetEndFeature()	2010		Gets the closed end feature of this DimXpert compound notch.
+GetNominalBottomPlane	m	bool GetNominalBottomPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the bottom plane of this DimXpert compound notch.
+GetNominalNotch	m	bool GetNominalNotch(out double Width, out double Length, out double X, out double Y, out double Z, out double I, out double J, out double K, out double LongitudeI, out double LongitudeJ, out double LongitudeK)	2010		Gets various attributes for this DimXpert compound notch.
+GetOpenSideReferenceFeature	m	DimXpertFeature GetOpenSideReferenceFeature()	2010		Gets the open side reference feature of this DimXpert compound notch.
+GetPlaneFeatures	m	bool GetPlaneFeatures(out DimXpertPlaneFeature Plane1, out DimXpertPlaneFeature Plane2)	2010		Gets the DimXpert plane features for both sides of this DimXpert compound notch.
+GetTopReferenceFeature	m	DimXpertFeature GetTopReferenceFeature()	2010		Gets the top reference feature of this DimXpert compound notch.
+@IDimXpertCompoundWidthFeature	i	Allows you to access specific information about compound DimXpert widths on the DimXpertManager tab of the...	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=16
+GetNominalCompoundWidth	m	bool GetNominalCompoundWidth(out double Width, out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets various attributes for this DimXpert compound width.
+GetNominalLongitude	m	bool GetNominalLongitude(out double I, out double J, out double K)	2010		Gets components of the longitudinal vector for this width.
+GetPlaneFeatures	m	bool GetPlaneFeatures(out DimXpertPlaneFeature Plane1, out DimXpertPlaneFeature Plane2)	2010		Gets the DimXpert plane features for both sides of this DimXpert compound width.
+Inner	p	bool Inner {get;}	2010		Gets whether the width is for a hole or a pin.
+@IDimXpertConcentricityTolerance	i	Allows you to access DimXpert concentricity tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=5
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert concentricity tolerance.
+Modifier	p	swDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert concentricity tolerance.
+@IDimXpertConeFeature	i	Allows you to access specific information about DimXpert cones on the DimXpertManager tab of the Management Panel.	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=11
+GetNominalBottomPlane	m	bool GetNominalBottomPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the bottom plane of this DimXpert cone.
+GetNominalCone	m	bool GetNominalCone(out double Angle, out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets various attributes for this DimXpert cone.
+GetNominalTopPlane	m	bool GetNominalTopPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the top plane of this DimXpert cone.
+Inner	p	bool Inner {get;}	2010		Gets whether the DimXpert cone is a hole or a pin.
+@IDimXpertCounterBoreDimTol	i	Allows you to access specific dimension tolerancing information about DimXpert counterbore annotations on the...	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=5
+ReferenceFeature	p	DimXpertFeature ReferenceFeature {get;}	2010		Gets the reference feature for this DimXpert counterbore dimension tolerance.
+@IDimXpertCounterSinkAngleDimTol	i	Allows you to access angle dimension tolerances for DimXpert countersink annotations on the DimXpertManager tab of...	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=5
+ReferenceFeature	p	DimXpertFeature ReferenceFeature {get;}	2010		Gets the reference feature for this DimXpert countersink angle dimension tolerance.
+@IDimXpertCounterSinkDiameterDimTol	i	Allows you to access diameter dimension tolerances for DimXpert countersink annotations on the DimXpertManager tab...	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=5
+ReferenceFeature	p	DimXpertFeature ReferenceFeature {get;}	2010		Gets the reference feature for this DimXpert countersink diameter dimension tolerance.
+@IDimXpertCylinderFeature	i	Allows you to access specific information about DimXpert cylinders on the DimXpertManager tab of the Management Panel.	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=7
+GetNominalBottomPlane	m	bool GetNominalBottomPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the bottom plane of this DimXpert cylinder.
+GetNominalCylinder	m	bool GetNominalCylinder(out double R, out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets various attributes for this DimXpert cylinder.
+GetNominalTopPlane	m	bool GetNominalTopPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for the top plane of this DimXpert cylinder.
+GetThread	m	bool GetThread(out bool IsThreaded, out string ThreadDesignation, out double ThreadDepth)	2010		Gets thread information for this DimXpert cylinder.
+Inner	p	bool Inner {get;}	2010		Gets whether this DimXpert cylinder is a hole or a pin.
+@IDimXpertDatum	i	Allows you to access specific information about DimXpert datums on the DimXpertManager tab of the Management Panel.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertTolerance.GetPrimaryDatums,IDimXpertTolerance.IGetPrimaryDatums,IDimXpertTolerance.GetSecondaryDatums,IDimXpertTolerance.IGetSecondaryDatums,IDimXpertTolerance.GetTertiaryDatums,IDimXpertTolerance.IGetTertiaryDatums	use=11
+Identifier	p	string Identifier {get;}	2010		Gets the label for this DimXpert datum.
+@IDimXpertDepthDimTol	i	Allows you to access specific information about DimXpert depth dimension tolerances for annotations on the...	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=5
+IsThreadDepth	m	bool IsThreadDepth()	2010		Gets whether this dimension tolerance is for thread depth.
+ReferenceFeature	p	DimXpertFeature ReferenceFeature {get;}	2010		Gets the reference feature for this DimXpert depth dimension tolerance.
+@IDimXpertDiameterDimTol	i	Allows you to access DimXpert diameter dimension tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=12
+EnvelopeRequirement	p	bool EnvelopeRequirement {get;}	2011		Gets whether this diameter dimension tolerance has an envelope requirement.
+IndependencyRequirement	p	bool IndependencyRequirement {get;}	2011		Gets whether this diameter dimension tolerance has an independency requirement.
+PatternTreatment	p	swDimXpertPatternTreatmentType_e PatternTreatment {get;}	2010		Gets the pattern treatment for this DimXpert diameter dimension tolerance.
+@IDimXpertDimensionOption	i	Allows you to get and set options on datums, patterns, and dimensions.	via=IDimXpertPart.GetDimOption	use=15
+DatumLength	p	double DatumLength {get; set;}	2011		Gets and sets the leader length of the datum.
+DimensionPositionOption	p	int DimensionPositionOption {get; set;}	2011	obsolete>IDimXpertDimensionOption.DimensionPositionOption2
+DimensionPositionOption2	p	int:swDimXpertDimensionPositionOption_e DimensionPositionOption2 {get; set;}	2019		Gets and sets the reference axis with which to dimension the location of a face with respect to another locating...
+FeatureSelectorOptions	p	object:swDimXpertFeatureSelectorOption_e FeatureSelectorOptions {get; set;}	2011		Gets and sets the type of feature to dimension.
+TextPosition	p	object TextPosition {get; set;}	2011		Gets and sets coordinates of the dimension text.
+@IDimXpertDimensionTolerance	i	Allows you to access DimXpert dimension tolerance information for annotations on the DimXpertManager tab of the...	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=15
+BlockToleranceDecimalPlaces	p	int BlockToleranceDecimalPlaces {get;}	2010		Gets the precision of the block tolerance of this DimXpert dimension tolerance.
+DimensionType	p	swDimXpertDimensionToleranceType_e DimensionType {get;}	2010		Gets the type of this DimXpert dimension tolerance.
+GetNominalValue	m	double GetNominalValue()	2010		Gets the value of this DimXpert dimension tolerance.
+GetPlusAndMinusTolerance	m	bool GetPlusAndMinusTolerance(out double Plus, out double Minus)	2010		Gets the plus and minus tolerance values for this DimXpert dimension tolerance.
+GetUpperAndLowerLimit	m	bool GetUpperAndLowerLimit(out double Upper, out double Lower)	2010		Gets the upper and lower tolerance limits for this DimXpert dimension tolerance.
+LimitsAndFitsCode	p	string LimitsAndFitsCode {get;}	2010		Gets the limits and fits code for this DimXpert dimension tolerance.
+@IDimXpertDistanceBetweenDimTol	i	Allows you to access DimXpert distance-between dimension tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=21
+GetDirectionVector	m	bool GetDirectionVector(out double I, out double J, out double K)	2010		Gets the direction vector for this DimXpert distance-between dimension tolerance.
+GetFeature	m	bool GetFeature(out DimXpertFeature Feature, out swDimXpertDistanceFosUsage_e FosUsage)	2010		Gets the feature to which this DimXpert distance-between dimension tolerance is applied.
+GetOriginFeature	m	bool GetOriginFeature(out DimXpertFeature Feature, out swDimXpertDistanceFosUsage_e FosUsage)	2010		Gets the origin feature for this DimXpert distance-between dimension tolerance.
+PatternTreatment	p	swDimXpertPatternTreatmentType_e PatternTreatment {get;}	2010		Gets the pattern treatment for this DimXpert distance-between dimension tolerance.
+@IDimXpertExtrudeFeature	i	Allows you to access specific information about DimXpert extrudes on the DimXpertManager tab of the Management Panel.	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=15
+Blind	p	bool Blind {get;}	2010		Gets whether the DimXpert extrude is blind or through all.
+GetBottomBlends	m	DimXpertFeature GetBottomBlends()	2010		Gets the bottom blend DimXpert feature for this DimXpert extrude.
+GetBottomFeature	m	DimXpertFeature GetBottomFeature()	2010		Gets the bottom DimXpert feature for this DimXpert extrude.
+GetReferenceFeature	m	DimXpertFeature GetReferenceFeature()	2010		Gets the reference DimXpert feature for this DimXpert extrude.
+GetSubFeatureCount	m	int GetSubFeatureCount()	2010		Gets the number of sub-features in this DimXpert extrude.
+GetSubFeatures	m	object:IDimXpertFeature GetSubFeatures()	2010		Gets all of the sub-features of this DimXpert extrude.
+GetTopBlends	m	DimXpertFeature GetTopBlends()	2010		Gets the top blend DimXpert feature for this DimXpert extrude.
+IGetSubFeatures	m	DimXpertFeature IGetSubFeatures(int Count)	2010		Gets all of the sub-features of this DimXpert extrude.
+@IDimXpertFeature	i	Allows you to access DimXpert features and sub-features on the DimXpertManager tab of the Management Panel.	via=IAnnotation.GetDimXpertFeature,IDimXpertAngleBetweenDimTol.OriginFeature,IDimXpertAnnotation.Feature,IDimXpertBestfitPlaneFeature.GetSubFeatures,IDimXpertBestfitPlaneFeature.IGetSubFeatures,IDimXpertCompositeDistanceBetweenDimTol.GetFeature,IDimXpertCompositeDistanceBetweenDimTol.GetIntraFeature,IDimXpertCompositeDistanceBetweenDimTol.GetOriginFeature,IDimXpertCompoundClosedSlot3DFeature.GetBottomFeature,IDimXpertCompoundClosedSlot3DFeature.GetEndFeatures,IDimXpertCompoundHoleFeature.GetBottomFeature,IDimXpertCompoundHoleFeature.GetReferenceFeature,IDimXpertCompoundHoleFeature.GetSubFeatures,IDimXpertCompoundHoleFeature.IGetSubFeatures,IDimXpertCompoundNotchFeature.GetBottomFeature,IDimXpertCompoundNotchFeature.GetEndFeature,IDimXpertCompoundNotchFeature.GetOpenSideReferenceFeature,IDimXpertCompoundNotchFeature.GetTopReferenceFeature,IDimXpertCounterBoreDimTol.ReferenceFeature,IDimXpertCounterSinkAngleDimTol.ReferenceFeature,IDimXpertCounterSinkDiameterDimTol.ReferenceFeature,IDimXpertDepthDimTol.ReferenceFeature,IDimXpertDistanceBetweenDimTol.GetFeature,IDimXpertDistanceBetweenDimTol.GetOriginFeature,IDimXpertExtrudeFeature.GetBottomBlends,IDimXpertExtrudeFeature.GetTopBlends,IDimXpertExtrudeFeature.GetBottomFeature,IDimXpertExtrudeFeature.GetReferenceFeature,IDimXpertExtrudeFeature.GetSubFeatures,IDimXpertExtrudeFeature.IGetSubFeatures,IDimXpertFeature.GetAppliedFeatures,IDimXpertFeature.IGetAppliedFeatures,IDimXpertIntersectPlaneFeature.GetFeatures,IDimXpertIntersectPointFeature.GetFeatures,IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IDimXpertPatternFeature.GetSubFeatures,IDimXpertPatternFeature.IGetSubFeatures,IDimXpertTangencyTolerance.OriginFeature,IFeature.GetSpecificFeature2	use=26
+GetAppliedAnnotationCount	m	int GetAppliedAnnotationCount()	2010		Gets the number of annotations applied to this DimXpert feature.
+GetAppliedAnnotations	m	object:IDimXpertAnnotation GetAppliedAnnotations()	2010		Gets all of the annotations applied to this DimXpert feature.
+GetAppliedFeatureCount	m	int GetAppliedFeatureCount()			Gets the number of features that this DimXpert feature applies to.
+GetAppliedFeatures	m	object:IDimXpertFeature GetAppliedFeatures()	2010		Gets all of the features that this DimXpert feature applies to.
+GetFaceCount	m	int GetFaceCount()	2010		Gets the number of SOLIDWORKS faces in this DimXpert feature.
+GetFaces	m	object:IFace2 GetFaces()	2010		Gets the SOLIDWORKS faces in this DimXpert feature.
+GetModelFeature	m	object:IFeature GetModelFeature()	2010		Gets the SOLIDWORKS model feature corresponding to this DimXpert feature.
+IGetAppliedAnnotations	m	DimXpertAnnotation IGetAppliedAnnotations(int Count)	2010		Gets all of the annotations applied to this DimXpert feature.
+IGetAppliedFeatures	m	DimXpertFeature IGetAppliedFeatures(int Count)	2010		Gets all of the features that this DimXpert feature applies to.
+IGetFaces	m	object:IFace2 IGetFaces(int Count)	2010		Gets the SOLIDWORKS faces in this DimXpert feature.
+IsCombinedAnnotation	m	bool IsCombinedAnnotation()	2018		Gets whether the pre-selected annotation is combined or not.
+IsSuppressed	m	bool IsSuppressed()	2010		Gets whether this DimXpert feature is suppressed from the view in the model.
+Name	p	string Name {get;}	2010		Gets the name of this DimXpert feature.
+SetCombineAnnotation	m	int:swDimXpertCombineAnnotation_e SetCombineAnnotation(bool Combine)	2018		Sets whether the pre-selected annotation is a combined annotation.
+Type	p	swDimXpertFeatureType_e Type {get;}	2010		Gets the type of this DimXpert feature.
+@IDimXpertFilletFeature	i	Allows you to access specific information about DimXpert fillets on the DimXpertManager tab of the Management Panel.	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=5
+Inner	p	bool Inner {get;}	2010		Gets whether this DimXpert fillet is for a hole or a pin.
+Radius	p	double Radius {get;}	2010		Gets the radius of this DimXpert fillet.
+@IDimXpertFlatnessTolerance	i	Allows you to access DimXpert flatness tolerances on the DimXpertManager tab of the Management Panel.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=5
+GetPerUnitArea	m	bool GetPerUnitArea(out bool Enabled, out double Length, out double Width, out double I, out double J, out double K)	2010		Gets the per unit area for this flatness tolerance.
+@IDimXpertGtol	i	Allows you to access a DimXpert Gtol annotation.	via=IDimXpertPart.InsertGtol
+Annotation	p	object:IDimXpertAnnotation Annotation {get;}	2018		Gets this Gtol's annotation.
+@IDimXpertIntersectCircleFeature	i	Allows you to access specific information about DimXpert intersect circles on the DimXpertManager tab of the...	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=5
+GetIntersectFeature	m	bool GetIntersectFeature(out DimXpertFeature Feature)	2010		Gets the DimXpert feature that intersects this DimXpert intersect circle.
+GetNominalCircle	m	bool GetNominalCircle(out double R, out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for this DimXpert intersect circle.
+GetPlaneFeature	m	bool GetPlaneFeature(out DimXpertPlaneFeature Plane)	2010		Gets the DimXpert plane feature used to dimension this DimXpert intersect circle.
+@IDimXpertIntersectLineFeature	i	Allows you to access specific information about DimXpert intersect lines on the DimXpertManager tab of the...	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=5
+GetNominalLine	m	bool GetNominalLine(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for this DimXpert intersect line.
+GetPlaneFeatures	m	bool GetPlaneFeatures(out DimXpertPlaneFeature Plane1, out DimXpertPlaneFeature Plane2)	2010		Gets the DimXpert plane features that intersect on this DimXpert intersect line.
+@IDimXpertIntersectPlaneFeature	i	Allows you to access specific information about DimXpert intersect planes on the DimXpertManager tab of the...	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=5
+GetFeatures	m	bool GetFeatures(out DimXpertFeature Feature1, out DimXpertFeature Feature2)	2010		Gets the DimXpert features that intersect on this DimXpert intersect plane.
+GetNominalPlane	m	bool GetNominalPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for this DimXpert intersect plane.
+@IDimXpertIntersectPointFeature	i	Allows you to access specific information about DimXpert intersect points on the DimXpertManager tab of the...	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=5
+GetFeatures	m	bool GetFeatures(out DimXpertFeature Feature1, out DimXpertFeature Feature2)	2010		Gets the DimXpert features of this DimXpert intersect point.
+GetNominalPoint	m	bool GetNominalPoint(out double X, out double Y, out double Z)	2010		Gets the coordinates of this DimXpert intersect point.
+GetNominalVector	m	bool GetNominalVector(out double I, out double J, out double K)	2010		Gets the direction vector of this DimXpert intersect point.
+@IDimXpertLineProfileTolerance	i	Allows you to access DimXpert line profile tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=7
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used to compute this DimXpert line profile tolerance.
+OuterToleranceValue	p	double OuterToleranceValue {get;}	2010		Gets the outer tolerance value for this DimXpert line profile tolerance.
+@IDimXpertOrientationTolerance	i	Allows you to access DimXpert orientation tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=13
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert orientation tolerance.
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used to compute this DimXpert orientation tolerance.
+GetProjectedZone	m	bool GetProjectedZone(out bool Enabled, out double Value)	2010		Gets the projected zone value of this DimXpert orientation tolerance.
+IsTangentPlane	m	bool IsTangentPlane()	2010		Gets whether the tangent plane is specified for this DimXpert orientation tolerance.
+Modifier	p	swDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert orientation tolerance.
+ZoneType	p	swDimXpertOrientationZoneType_e ZoneType {get;}	2010		Gets the zone type of this DimXpert orientation tolerance.
+@IDimXpertPart	i	Allows you to access the geometric dimensioning and tolerancing information that underpins the DimXpert...	via=IDimXpertManager.DimXpertPart	use=53
+AutoDimensionScheme	m	bool AutoDimensionScheme(DimXpertAutoDimSchemeOption Option)	2011		Creates an Auto Dimension Scheme.
+DeleteAllTolerances	m	bool DeleteAllTolerances()	2011		Removes all tolerances from the model.
+GetAnnotation	m	DimXpertAnnotation GetAnnotation(string Name)	2010		Gets a DimXpert annotation by name for the given model.
+GetAnnotationCount	m	int GetAnnotationCount()	2010		Gets the total number of DimXpert annotations in the model.
+GetAnnotations	m	object:IDimXpertAnnotation GetAnnotations()	2010		Gets all of the DimXpert annotations in the model.
+GetAutoDimSchemeOption	m	DimXpertAutoDimSchemeOption GetAutoDimSchemeOption()	2011		Gets options for creation of an Auto Dimension Scheme.
+GetBlockTolerances	m	DimXpertBlockTolerances GetBlockTolerances()	2010		Gets all of the DimXpert block tolerances in the model.
+GetDimOption	m	DimXpertDimensionOption GetDimOption()	2011		Gets options for insertion of datums, patterns, and dimensions.
+GetFeature	m	DimXpertFeature GetFeature(string Name)	2010		Gets a DimXpert feature by name for the given model.
+GetFeatureCount	m	int GetFeatureCount()	2010		Gets the total number of DimXpert features in the model.
+GetFeatures	m	object:IDimXpertFeature GetFeatures()	2010		Gets all of the DimXpert features in the model.
+IGetAnnotations	m	DimXpertAnnotation IGetAnnotations(int Count)	2010		Gets all of the DimXpert annotations in the model.
+IGetFeatures	m	DimXpertFeature IGetFeatures(int Count)	2010		Gets all of the DimXpert features in the model.
+ImportScheme	m	bool ImportScheme(string Filename, string ConfigurationName)	2019		Imports the tolerance scheme of the specified file to the specified configuration of this open model.
+InsertAngleDimension	m	bool InsertAngleDimension(DimXpertDimensionOption Option)	2026 SP2		Inserts an angle dimension.
+InsertBasicDimension	m	bool InsertBasicDimension(DimXpertDimensionOption Option)	2016		Inserts a basic dimension.
+InsertDatum	m	bool InsertDatum(DimXpertDimensionOption Option)	2011		Inserts a datum for the selected face.
+InsertGtol	m	DimXpertAnnotation InsertGtol(int Type:swDimXpertGtolType_e)	2018		Inserts the specified Gtol annotation.
+InsertLocationDimension	m	bool InsertLocationDimension(DimXpertDimensionOption Option)	2011		Inserts a linear or angular location dimension between a selected feature and its locating feature.
+InsertPattern	m	bool InsertPattern(DimXpertDimensionOption Option, int PatternType, bool FindAll)	2011		Inserts a linked, manual, or collection pattern using the selected faces.
+InsertSizeDimension	m	bool InsertSizeDimension(DimXpertDimensionOption Option)	2011		Inserts a size dimension for the selected face or edge.
+ShowToleranceStatus	p	bool ShowToleranceStatus {get; set;}	2011		Gets and sets whether tolerance status is displayed in the model.
+@IDimXpertPatternFeature	i	Allows you to access specific information about DimXpert patterns on the DimXpertManager tab of the Management Panel.	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=21
+GetSubFeatureCount	m	int GetSubFeatureCount()	2010		Gets the number of sub-features for this DimXpert pattern feature.
+GetSubFeatures	m	object:IDimXpertFeature GetSubFeatures()	2010		Gets all of the sub-features of this DimXpert pattern feature.
+IGetSubFeatures	m	DimXpertFeature IGetSubFeatures(int Count)	2010		Gets all of the sub-features of this DimXpert pattern feature.
+PatternType	p	swDimXpertFeatureType_e PatternType {get;}	2010		Gets the type of this DimXpert pattern feature.
+@IDimXpertPlaneFeature	i	Allows you to access specific information about DimXpert planes on the DimXpertManager tab of the Management Panel.	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IDimXpertCompoundClosedSlot3DFeature.GetPlaneFeatures,IDimXpertCompoundNotchFeature.GetPlaneFeatures,IDimXpertCompoundWidthFeature.GetPlaneFeatures,IDimXpertIntersectCircleFeature.GetPlaneFeature,IDimXpertIntersectLineFeature.GetPlaneFeatures,IFeature.GetSpecificFeature2	use=5
+GetNominalPlane	m	bool GetNominalPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2010		Gets the coordinates and vector for this DimXpert plane.
+@IDimXpertPositionTolerance	i	Allows you to access DimXpert position tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=13
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert position tolerance.
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used to compute this DimXpert position tolerance.
+GetProjectedZone	m	bool GetProjectedZone(out bool Enabled, out double Value)	2010		Gets the projected zone value of this DimXpert position tolerance.
+Modifier	p	swDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert position tolerance.
+ZoneType	p	swDimXpertPositionZoneType_e ZoneType {get;}	2010		Gets the zone type of this DimXpert position tolerance.
+@IDimXpertRadiusDimTol	i	Allows you to access DimXpert radius dimension tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=6
+PatternTreatment	p	swDimXpertPatternTreatmentType_e PatternTreatment {get;}	2010		Gets the pattern treatment for this DimXpert radius dimension tolerance.
+@IDimXpertRefPlaneFeature	i	Allows you to access specific information about DimXpert reference planes on the DimXpertManager tab of the...	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IDimXpertCompoundClosedSlot3DFeature.GetPlaneFeatures,IDimXpertCompoundNotchFeature.GetPlaneFeatures,IDimXpertCompoundWidthFeature.GetPlaneFeatures,IDimXpertIntersectCircleFeature.GetPlaneFeature,IDimXpertIntersectLineFeature.GetPlaneFeatures,IFeature.GetSpecificFeature2
+GetNominalPlane	m	bool GetNominalPlane(out double X, out double Y, out double Z, out double I, out double J, out double K)	2026 SP2		Gets the coordinates and vector for this DimXpert reference plane.
+@IDimXpertSphereFeature	i	Allows you to access specific information about DimXpert spheres on the DimXpertManager tab of the Management Panel.	via=IDimXpertPart.GetFeatures,IDimXpertPart.IGetFeatures,IDimXpertPart.GetFeature,IFeature.GetSpecificFeature2	use=7
+GetNominalSphere	m	bool GetNominalSphere(out double R, out double X, out double Y, out double Z)	2010		Gets the coordinates and vector for this DimXpert sphere.
+Inner	p	bool Inner {get;}	2010		Gets whether the sphere is a hole or a pin.
+@IDimXpertStraightnessTolerance	i	Allows you to access DimXpert straightness tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=9
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert straightness tolerance.
+GetPerUnitLength	m	bool GetPerUnitLength(out bool Enabled, out double Distance)	2010		Gets the per unit length for this DimXpert straightness tolerance.
+GetPlanarZoneVector	m	bool GetPlanarZoneVector(out double I, out double J, out double K)	2010		Gets the planar zone vector that is used to compute this DimXpert straightness tolerance.
+Modifier	p	swDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this DimXpert straightness tolerance.
+ZoneType	p	swDimXpertStraightnessZoneType_e ZoneType {get;}	2010		Gets the zone type of this DimXpert straightness tolerance.
+@IDimXpertSurfaceProfileTolerance	i	Allows you to access DimXpert surface profile tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=5
+OuterToleranceValue	p	double OuterToleranceValue {get;}	2010		Gets the outer tolerance value for this surface profile tolerance.
+@IDimXpertSymmetryTolerance	i	Allows you to access DimXpert symmetry tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=7
+GetMaxTolerance	m	bool GetMaxTolerance(out bool IsMax, out double Tolerance)	2010		Gets the maximum tolerance for this DimXpert symmetry tolerance.
+GetZoneDirection	m	bool GetZoneDirection(out double I, out double J, out double K)	2010		Gets the zone direction of this DimXpert symmetry tolerance.
+Modifier	p	swDimXpertMaterialConditionModifier_e Modifier {get;}	2010		Gets the material condition modifier for this Dimxpert symmetry tolerance.
+@IDimXpertTangencyTolerance	i	Allows you to access DimXpert tangency tolerances.	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=6
+OriginFeature	p	DimXpertFeature OriginFeature {get;}	2010		Gets the DimXpert feature of origin for this DimXpert tangency tolerance.
+@IDimXpertTolerance	i	Allows you to access DimXpert geometric tolerance information for annotations on the DimXpertManager tab of the...	via=IDimXpertAnnotation.GetAppliedAnnotations,IDimXpertAnnotation.IGetAppliedAnnotations,IDimXpertPart.GetAnnotations,IDimXpertPart.IGetAnnotations,IDimXpertPart.GetAnnotation,IDimXpertFeature.GetAppliedAnnotations,IDimXpertFeature.IGetAppliedAnnotations,IFeature.GetSpecificFeature2	use=5
+GetPrimaryDatumCount	m	int GetPrimaryDatumCount()	2010		Gets the number of primary datums in this DimXpert geometric tolerance annotation.
+GetPrimaryDatumModifiers	m	object:swDimXpertMaterialConditionModifier_e GetPrimaryDatumModifiers()	2010		Gets all of the primary datum modifiers in this DimXpert geometric tolerance annotation.
+GetPrimaryDatums	m	object:IDimXpertDatum GetPrimaryDatums()	2010		Gets all of the primary datums in this DimXpert geometric tolerance annotation.
+GetSecondaryDatumCount	m	int GetSecondaryDatumCount()	2010		Gets the number of secondary datums in this DimXpert geometric tolerance annotation.
+GetSecondaryDatumModifiers	m	object:swDimXpertMaterialConditionModifier_e GetSecondaryDatumModifiers()	2010		Gets all of the secondary datum modifiers in this DimXpert geometric tolerance annotation.
+GetSecondaryDatums	m	object:IDimXpertDatum GetSecondaryDatums()	2010		Gets all of the secondary datums in this DimXpert geometric tolerance annotation.
+GetTertiaryDatumCount	m	int GetTertiaryDatumCount()	2010		Gets the number of tertiary datums in this DimXpert geometric tolerance annotation.
+GetTertiaryDatumModifiers	m	object:swDimXpertMaterialConditionModifier_e GetTertiaryDatumModifiers()	2010		Gets all of the tertiary datum modifiers in this DimXpert geometric tolerance annotation.
+GetTertiaryDatums	m	object:IDimXpertDatum GetTertiaryDatums()	2010		Gets all of the tertiary datums in this DimXpert geometric tolerance annotation.
+IGetPrimaryDatumModifiers	m	swDimXpertMaterialConditionModifier_e IGetPrimaryDatumModifiers(int Count)	2010		Gets all of the primary datum modifiers in this DimXpert geometric tolerance annotation.
+IGetPrimaryDatums	m	DimXpertDatum IGetPrimaryDatums(int Count)	2010		Gets all of the primary datums in this DimXpert tolerance annotation.
+IGetSecondaryDatumModifiers	m	swDimXpertMaterialConditionModifier_e IGetSecondaryDatumModifiers(int Count)	2010		Gets all of the secondary datum modifiers in this DimXpert geometric tolerance annotation.
+IGetSecondaryDatums	m	DimXpertDatum IGetSecondaryDatums(int Count)	2010		Gets all of the secondary datums in this DimXpert tolerance annotation.
+IGetTertiaryDatumModifiers	m	swDimXpertMaterialConditionModifier_e IGetTertiaryDatumModifiers(int Count)	2010		Gets all of the tertiary datum modifiers in this DimXpert geometric tolerance annotation.
+IGetTertiaryDatums	m	DimXpertDatum IGetTertiaryDatums(int Count)	2010		Gets all of the tertiary datums in this DimXpert tolerance annotation.
+Tolerance	p	double Tolerance {get;}	2010		Gets the value of this DimXpert geometric tolerance.

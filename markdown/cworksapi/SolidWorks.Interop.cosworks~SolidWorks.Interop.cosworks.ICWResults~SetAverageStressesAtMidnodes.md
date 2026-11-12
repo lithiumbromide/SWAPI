@@ -57,11 +57,7 @@ True if option successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[CWResults::SetAverageStressesAtMidnodes](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~SetAverageStressesAtMidnodes.html)
-
-.
+See [CWResults::SetAverageStressesAtMidnodes](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~SetAverageStressesAtMidnodes.html).
 
 ## Remarks
 
@@ -70,9 +66,7 @@ This method is valid only for static, nonlinear, drop test, pressure vessel, and
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetAverageStressesAtMidnodes Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetAverageStressesAtMidnodes.html)
 
 ## Availability

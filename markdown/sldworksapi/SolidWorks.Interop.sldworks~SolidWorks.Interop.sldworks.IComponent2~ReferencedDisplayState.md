@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ReferencedDisplayState Property (IComponent2)
 
-Obsolete. Superseded by
-
-[IComponent2::ReferencedDisplayState2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~ReferencedDisplayState2.html)
-
-.
+Obsolete. Superseded by [IComponent2::ReferencedDisplayState2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~ReferencedDisplayState2.html).
 
 ## Syntax
 
@@ -46,13 +42,7 @@ property System.String^ ReferencedDisplayState {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -60,28 +50,19 @@ Name of display state
 
 ## VBA Syntax
 
-See
-
-[Component2::ReferencedDisplayState](ms-its:sldworksapivb6.chm::/sldworks~Component2~ReferencedDisplayState.html)
-
-.
+See [Component2::ReferencedDisplayState](ms-its:sldworksapivb6.chm::/sldworks~Component2~ReferencedDisplayState.html).
 
 ## Examples
 
 [Get Referenced Display State (VBA)](Get_Referenced_Display_State_Example_VB.htm)
-
 [Get Referenced Display State (VB.NET)](Get_Referenced_Display_State_Example_VBNET.htm)
-
 [Get Referenced Display State (C#)](Get_Referenced_Display_State_Example_CSharp.htm)
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IConfiguration::GetDisplayStates Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetDisplayStates.html)
-
 [IConfigurationManager::LinkDisplayStatesToConfigurations Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~LinkDisplayStatesToConfigurations.html)
 
 ## Availability

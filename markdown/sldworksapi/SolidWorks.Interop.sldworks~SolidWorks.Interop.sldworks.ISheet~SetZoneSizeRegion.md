@@ -47,19 +47,11 @@ System.bool SetZoneSizeRegion(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RegionType`: Type of zone size region as defined by
-
-[swRegionType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRegionType_e.html)
+- `RegionType`: Type of zone size region as defined by [swRegionType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRegionType_e.html)
 
 ### Return Value
 
@@ -67,16 +59,11 @@ True of zone size region successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[Sheet::SetZoneSizeRegion](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~SetZoneSizeRegion.html)
-
-.
+See [Sheet::SetZoneSizeRegion](ms-its:sldworksapivb6.chm::/Sldworks~Sheet~SetZoneSizeRegion.html).
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
 
 ## Availability

@@ -47,21 +47,11 @@ System.bool GetToolbarVisibility(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SwContext`: Context in which to show or hide toolbar as defined in
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
-
-}}end!kadov
+- `SwContext`: Context in which to show or hide toolbar as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
 
 ### Return Value
 
@@ -69,20 +59,13 @@ True to show the toolbar, false to hide it
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::GetToolbarVisibility](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~GetToolbarVisibility.html)
-
-.
+See [CommandGroup::GetToolbarVisibility](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~GetToolbarVisibility.html).
 
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
-
 [ICommandGroup::SetToolbarVisibility Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~SetToolbarVisibility.html)
-
 [ICommandGroup::HasToolbar Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~HasToolbar.html)
 
 ## Availability

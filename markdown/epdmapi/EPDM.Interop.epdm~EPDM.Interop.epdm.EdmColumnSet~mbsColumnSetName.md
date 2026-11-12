@@ -39,5 +39,4 @@ Name
 ## See Also
 
 [EdmColumnSet Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet.html)
-
 [EdmColumnSet Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet_members.html)

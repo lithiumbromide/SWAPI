@@ -9,11 +9,6 @@ source: "sldworksapiprogguide/Overview/API_Functionality_Dependent_on_SolidWorks
 
 # API Functionality Dependent on SOLIDWORKS Being Visible
 
-Some API functionality is dependent on SOLIDWORKS being visible. For
-example, if SOLIDWORKS is not visible and you update a drawing and then
-attempt to update the drawing views, your drawing views might not be updated
-as expected.
+Some API functionality is dependent on SOLIDWORKS being visible. For example, if SOLIDWORKS is not visible and you update a drawing and then attempt to update the drawing views, your drawing views might not be updated as expected.
 
-To test if SOLIDWORKS must be visible for a specific functionality to
-work, set SOLIDWORKS to visible and then retry the operation that did
-not work.
+To test if SOLIDWORKS must be visible for a specific functionality to work, set SOLIDWORKS to visible and then retry the operation that did not work.

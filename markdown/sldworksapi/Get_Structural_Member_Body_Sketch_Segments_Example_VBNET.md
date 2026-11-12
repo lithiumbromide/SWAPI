@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Structural_Member_Body_Sketch_Segments_Example_VBNET.ht
 
 # Get Structural Member Body Sketch Segments Example (VB.NET)
 
-This example shows how to get the sketch segments that define the path of a
-body in a structural member.
+This example shows how to get the sketch segments that define the path of a body in a structural member.
 
 ```vb
  '----------------------------------------------------------------------------

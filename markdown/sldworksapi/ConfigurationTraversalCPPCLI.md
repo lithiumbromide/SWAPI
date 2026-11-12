@@ -17,8 +17,7 @@ source: "sldworksapi/ConfigurationTraversalCPPCLI.htm"
 
 using namespace System;
 
-// Add the SOLIDWORKS primary interop assemblies to
-the references
+// Add the SOLIDWORKS primary interop assemblies to the references
 
 using namespace SOLIDWORKS::Interop::sldworks;
 
@@ -28,9 +27,7 @@ int main(array<System::String ^> ^args)
 
 {
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-SldWorks^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp;
+SldWorks^ swApp;
 
 swApp = gcnew SldWorksClass;
 
@@ -40,7 +37,7 @@ return(0);
 
 }
 
-IModelDoc2^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel;
+IModelDoc2^ swModel;
 
 swModel = swApp->IActiveDoc2;
 
@@ -50,9 +47,9 @@ return(0);
 
 }
 
-String^kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}strModelTitle;
+String^ strModelTitle;
 
-swDocumentTypes_ekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}nDocumentType;
+swDocumentTypes_e nDocumentType;
 
 strModelTitle = swModel->GetTitle();
 
@@ -62,8 +59,7 @@ array<String^>^ aConfigurationNames;
 
 aConfigurationNames = safe_cast<array<String^>^>(swModel->GetConfigurationNames());
 
-for each (String^ strConfigurationName in
-aConfigurationNames) {
+for each (String^ strConfigurationName in aConfigurationNames) {
 
 System::Console::WriteLine(strConfigurationName);
 

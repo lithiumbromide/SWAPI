@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchParabola Interface Methods
 
-For a list of all members of this type, see[ISketchParabola members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola_members.html).
+For a list of all members of this type, see [ISketchParabola members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola_members.html).
 
 ## Public Methods
 
@@ -38,5 +38,4 @@ For a list of all members of this type, see[ISketchParabola members](SolidWorks.
 ## See Also
 
 [ISketchParabola Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

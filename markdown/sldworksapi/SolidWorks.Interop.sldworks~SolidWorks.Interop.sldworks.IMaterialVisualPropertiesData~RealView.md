@@ -45,13 +45,7 @@ property System.bool RealView {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,20 @@ True if textures are RealView graphics, false if Standard graphics
 
 ## VBA Syntax
 
-See
-
-[MaterialVisualPropertiesData::RealView](ms-its:sldworksapivb6.chm::/sldworks~MaterialVisualPropertiesData~RealView.html)
-
-.
+See [MaterialVisualPropertiesData::RealView](ms-its:sldworksapivb6.chm::/sldworks~MaterialVisualPropertiesData~RealView.html).
 
 ## Examples
 
-See
-
-[IMaterialVisualPropertiesData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMaterialVisualPropertiesData.html)
-
-examples.
+See [IMaterialVisualPropertiesData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMaterialVisualPropertiesData.html) examples.
 
 ## Remarks
 
-[IMaterialVisualPropertiesData::AdvancedGraphics](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMaterialVisualPropertiesData~AdvancedGraphics.html)
-
-must be True to set this property.
+[IMaterialVisualPropertiesData::AdvancedGraphics](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMaterialVisualPropertiesData~AdvancedGraphics.html) must be True to set this property.
 
 ## See Also
 
 [IMaterialVisualPropertiesData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMaterialVisualPropertiesData.html)
-
 [IMaterialVisualPropertiesData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMaterialVisualPropertiesData_members.html)
-
 [IModelDocExtension::ViewDisplayRealView Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ViewDisplayRealView.html)
 
 ## Availability

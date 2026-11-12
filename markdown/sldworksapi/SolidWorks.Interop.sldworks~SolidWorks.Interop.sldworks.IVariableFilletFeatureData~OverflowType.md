@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVa
 
 # OverflowType Property (IVariableFilletFeatureData)
 
-Obsolete. Superseded by
-
-[IVariableFilletFeatureData2::OverflowType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~OverflowType.html)
-
-.
+Obsolete. Superseded by [IVariableFilletFeatureData2::OverflowType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~OverflowType.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.int OverflowType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData::OverflowType](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData~OverflowType.html)
-
-.
+See [VariableFilletFeatureData::OverflowType](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData~OverflowType.html).
 
 ## See Also
 
 [IVariableFilletFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData.html)
-
 [IVariableFilletFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData_members.html)

@@ -42,38 +42,23 @@ System.int MultipleContactSetsEndEdit();
 
 ### Return Value
 
-Error code as defined in
-
-[swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
+Error code as defined in [swsMultipleContactsEditErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMultipleContactsEditErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMultipleContactSetsEditManager::MultipleContactSetsEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleContactSetsEditManager~MultipleContactSetsEndEdit.html)
-
-.
+See [CWMultipleContactSetsEditManager::MultipleContactSetsEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMultipleContactSetsEditManager~MultipleContactSetsEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWMultipleContactSetsEditManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager.html)
-
-examples.
+See the [ICWMultipleContactSetsEditManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager.html) examples.
 
 ## Remarks
 
-To start editing a contact set, call
-
-[ICWMultipleContactSetsEditManager::MultipleContactSetsBeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager~MultipleContactSetsBeginEdit.html)
-
-. You must call this method to end editing that contact set. Changes are not applied unless you call both methods.
+To start editing a contact set, call [ICWMultipleContactSetsEditManager::MultipleContactSetsBeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager~MultipleContactSetsBeginEdit.html). You must call this method to end editing that contact set. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWMultipleContactSetsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager.html)
-
 [ICWMultipleContactSetsEditManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleContactSetsEditManager_members.html)
 
 ## Availability

@@ -55,16 +55,11 @@ void AddFileCfg(
 - `oFileDate`: Local file date
 - `lParam`: Caller-defined argument
 - `bsConfigName`: Name of the configuration from which to read the file variables; default is an empty string
-- `lEdmListFileFlags`: Combination of
-
-[EdmListFileFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFileFlags.html)
-
-bits; default is 0
+- `lEdmListFileFlags`: Combination of [EdmListFileFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFileFlags.html) bits; default is 0
 
 ## Examples
 
 [Get File References for a File (C#)](Get_File_References_for_File_Example_CSharp.htm)
-
 [Get File References for a File (VB.NET)](Get_File_References_for_File_Example_VBNET.htm)
 
 ## Remarks
@@ -79,7 +74,6 @@ This method extends IEdmBatchListing::AddFile and IEdmBAtchListing::AddFolder by
 ## See Also
 
 [IEdmBatchListing2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2.html)
-
 [IEdmBatchListing2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2_members.html)
 
 ## Availability

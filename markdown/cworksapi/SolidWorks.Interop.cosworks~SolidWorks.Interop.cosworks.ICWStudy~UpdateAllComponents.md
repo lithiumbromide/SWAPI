@@ -41,11 +41,7 @@ void UpdateAllComponents();
 
 ## VBA Syntax
 
-See
-
-[CWStudy::UpdateAllComponents](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~UpdateAllComponents.html)
-
-.
+See [CWStudy::UpdateAllComponents](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~UpdateAllComponents.html).
 
 ## Remarks
 
@@ -54,7 +50,6 @@ Use this method to update the study if the status of any components changed afte
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

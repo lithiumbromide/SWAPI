@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLaunchSearchFlags.html"
 
 # EdmLaunchSearchFlags Enumeration
 
-Flags which control the behavior of
-
-[IEdmSearch7::LaunchApp](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch7~LaunchApp.html)
-
-.
+Flags which control the behavior of [IEdmSearch7::LaunchApp](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch7~LaunchApp.html).
 
 ## Syntax
 

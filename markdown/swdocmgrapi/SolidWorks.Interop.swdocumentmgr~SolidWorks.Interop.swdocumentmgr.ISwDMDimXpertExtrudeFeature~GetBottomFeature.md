@@ -46,11 +46,7 @@ SwDMDimXpertFeature^ GetBottomFeature();
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertExtrudeFeature::GetBottomFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertExtrudeFeature~GetBottomFeature.html)
-
-.
+See [SwDMDimXpertExtrudeFeature::GetBottomFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertExtrudeFeature~GetBottomFeature.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertExtrudeFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature.html)
-
 [ISwDMDimXpertExtrudeFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertExtrudeFeature_members.html)
 
 ## Availability

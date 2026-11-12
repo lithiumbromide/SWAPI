@@ -59,23 +59,17 @@ System.bool InsertVariablePitchHelix(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Reversed`: True to reverse the variable-pitch helix, false to not
 - `Clockwise`: True to create the variable-pitch helix in a clockwise direction, false to create in a counter-clockwise direction
-- `Helixdef`: Definition of variable-pitch helix as defined in[swHelixDefinedBy_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHelixDefinedBy_e.html); valid enumerators are:
+- `Helixdef`: Definition of variable-pitch helix as defined in [swHelixDefinedBy_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHelixDefinedBy_e.html); valid enumerators are:
 
-- swHelixDefinedByPitchAndRevolution
-- swHelixDefinedByHeightandRevolution
-- swHelixDefinedByHeightAndPitch
+  - swHelixDefinedByPitchAndRevolution
+  - swHelixDefinedByHeightandRevolution
+  - swHelixDefinedByHeightAndPitch
 - `Startangle`: Angle at which to start the variable-pitch helix
 
 ### Return Value
@@ -84,24 +78,15 @@ True if the variable-pitch helix is started, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertVariablePitchHelix](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertVariablePitchHelix.html)
-
-.
+See [FeatureManager::InsertVariablePitchHelix](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertVariablePitchHelix.html).
 
 ## Examples
 
 [Create Variable-pitch Helix (C#)](Create_Variable_Pitch_Helix_Example_CSharp.htm)
-
 [Create Variable-pitch Helix (VB.NET)](Create_Variable_Pitch_Helix_Example_VBNET.htm)
-
 [Create Variable-pitch Helix (VBA)](Create_Variable_Pitch_Helix_Example_VB.htm)
-
 [Create and Modify Variable-pitch Helix (C#)](Create_and_Modify_Variable-pitch_Helix_Example_CSharp.htm)
-
 [Create and Modify Variable-pitch Helix (VB.NET)](Create_and_Modify_Variable-pitch_Helix_Example_VBNET.htm)
-
 [Create and Modify Variable-pitch Helix (VBA)](Create_and_Modify_Variable-pitch_Helix_Example_VB.htm)
 
 ## Remarks
@@ -109,22 +94,14 @@ See
 To create and insert a variable-pitch helix, call:
 
 1. IFeatureManager::InsertVariablePitchHelix to create it.
-2. [IFeatureManager::AddVariablePitchHelixFirstPitchAndDiamenter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~AddVariablePitchHelixFirstPitchAndDiameter.html)
-
-  to add the first segment.
-3. [IFeatureManager::AddVariablePitchHelixSegment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~AddVariablePitchHelixSegment.html)
-
-  one or more times to add the remaining segments.
-4. [IFeatureManager::EndVariablePitchHelix](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~EndVariablePitchHelix.html)
-
-  to insert it.
+2. [IFeatureManager::AddVariablePitchHelixFirstPitchAndDiamenter](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~AddVariablePitchHelixFirstPitchAndDiameter.html) to add the first segment.
+3. [IFeatureManager::AddVariablePitchHelixSegment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~AddVariablePitchHelixSegment.html) one or more times to add the remaining segments.
+4. [IFeatureManager::EndVariablePitchHelix](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~EndVariablePitchHelix.html) to insert it.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
 
 ## Availability

@@ -9,19 +9,18 @@ source: "sldworksapi/Get_Hidden_Components_Filenames_Example_CSharp.htm"
 
 # Get Hidden Components Filenames Example (C#)
 
-This example shows how to get the filenames of the hidden components in an
-assembly.
+This example shows how to get the filenames of the hidden components in an assembly.
 
 ```
 //-----------------------------------------------------------
 // Preconditions:
-// 1. In SOLIDWORKS, click File > Open, and browse to
+// 1. In SOLIDWORKS Design , click File > Open, and browse to
 //    public_documents\samples\tutorial\routing-pipes.
 // 2. Click ball valve with flanges.sldasm > Mode >
 //    Large Design Review > Open > OK.
 //
 //    NOTE: If the path to the Design Library does not exist,
-//    then multiple dialogs informing you that SOLIDWORKS is unable
+//    then multiple dialogs informing you that SOLIDWORKS Design is unable
 //    to locate might be displayed some components. Click No or OK
 //    to close these dialogs.
 //
@@ -31,7 +30,7 @@ assembly.
 //
 //    NOTE: Only the selected components are loaded. Components
 //    not selected are not loaded and not visible in the
-//    SOLIDWORKS graphics area.
+//    SOLIDWORKS Design graphics area.
 //
 // 4. Open the Immediate window.
 //
@@ -52,104 +51,104 @@ using System.Diagnostics;
 using System.Windows.Forms;
 namespace Macro1.csproj
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}public partial class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void Main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}           kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}ModelDoc2 swModel;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}AssemblyDoc swAssembly;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Boolean boolStatus;
+    public partial class SolidWorksMacro
+    {
+        public void Main()
+        {
 
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel = (ModelDoc2)swApp.ActiveDoc;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swAssembly = (AssemblyDoc)swModel;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}boolStatus = swAssembly.HasUnloadedComponents();
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}if (boolStatus == true)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}object oPaths = null;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}object oRefdConfigs = null;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}object oReasons = null;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}object oDocTypes = null;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}object oNames = null;
+            ModelDoc2 swModel;
+            AssemblyDoc swAssembly;
+            Boolean boolStatus;
 
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}oNames = swAssembly.GetUnloadedComponentNames(out oPaths, out oRefdConfigs, out oReasons, out oDocTypes);
+            swModel = (ModelDoc2)swApp.ActiveDoc;
+            swAssembly = (AssemblyDoc)swModel;
+            boolStatus = swAssembly.HasUnloadedComponents();
+            if (boolStatus == true)
+            {
+                object oPaths = null;
+                object oRefdConfigs = null;
+                object oReasons = null;
+                object oDocTypes = null;
+                object oNames = null;
 
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}string[] Paths = null;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}string[] RefdConfigs = null;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}int[] Reasons = null;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}int[] DocTypes = null;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}string[] Names = null;
+                oNames = swAssembly.GetUnloadedComponentNames(out oPaths, out oRefdConfigs, out oReasons, out oDocTypes);
 
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Paths = (string[])oPaths;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}RefdConfigs = (string[]) oRefdConfigs;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Reasons = (int[]) oReasons;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}DocTypes =(int[]) oDocTypes;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}Names = (string[]) oNames;
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}if (!(Paths is System.Array) & (RefdConfigs is System.Array) & (Reasons is System.Array) & (DocTypes is System.Array) & (Names is System.Array))
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}MessageBox.Show("Error: Non-array parameter!");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Assert(false);
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}return;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}if ((Paths.Length != RefdConfigs.Length) | (Paths.Length != Reasons.Length) | (Paths.Length != DocTypes.Length) | (Paths.Length != Names.Length))
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}MessageBox.Show("Error: Lengths of the arrays do not match!");
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Assert(false);
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}return;
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}              kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}for (int index = 0; index < Paths.Length; index++)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}string debugMessage = null;
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}debugMessage = index + ": ";
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}swDocumentTypes_e eDocType;
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}eDocType = (swDocumentTypes_e)(DocTypes[index]);
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}switch (eDocType)
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}case swDocumentTypes_e.swDocNONE:
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}debugMessage = debugMessage + "The document ";
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}case swDocumentTypes_e.swDocPART:
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}debugMessage = debugMessage + "The part ";
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}case swDocumentTypes_e.swDocASSEMBLY:
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}debugMessage = debugMessage + "The assembly ";
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}case swDocumentTypes_e.swDocDRAWING:
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}debugMessage = debugMessage + "The drawing ";
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}case swDocumentTypes_e.swDocSDM:
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}debugMessage = debugMessage + "The SDM ";
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}default:
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}debugMessage = debugMessage + "The document is an unknown type ";
-kadov_tag{{<spaces>}}                            kadov_tag{{</spaces>}}break;
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}debugMessage = debugMessage + Paths[index] + " was not loaded because it is ";
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}bool bUnloadedBecauseHidden = false;
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}if (Reasons[index] == 1)
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}bUnloadedBecauseHidden = true;
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}bUnloadedBecauseHidden = false;
+                string[] Paths = null;
+                string[] RefdConfigs = null;
+                int[] Reasons = null;
+                int[] DocTypes = null;
+                string[] Names = null;
 
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}if (bUnloadedBecauseHidden)
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}debugMessage = debugMessage + "hidden.";
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}else
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}                        kadov_tag{{</spaces>}}debugMessage = debugMessage + "suppressed.";
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}                    kadov_tag{{</spaces>}}Debug.Print(debugMessage);
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}           kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// <summary>
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}/// </summary>
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SldWorks swApp;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+                Paths = (string[])oPaths;
+                RefdConfigs = (string[]) oRefdConfigs;
+                Reasons = (int[]) oReasons;
+                DocTypes =(int[]) oDocTypes;
+                Names = (string[]) oNames;
+
+                if (!(Paths is System.Array) & (RefdConfigs is System.Array) & (Reasons is System.Array) & (DocTypes is System.Array) & (Names is System.Array))
+                {
+                    MessageBox.Show("Error: Non-array parameter!");
+                    Debug.Assert(false);
+                    return;
+                }
+                if ((Paths.Length != RefdConfigs.Length) | (Paths.Length != Reasons.Length) | (Paths.Length != DocTypes.Length) | (Paths.Length != Names.Length))
+                {
+                    MessageBox.Show("Error: Lengths of the arrays do not match!");
+                    Debug.Assert(false);
+                    return;
+                }
+
+                for (int index = 0; index < Paths.Length; index++)
+                {
+                    string debugMessage = null;
+                    debugMessage = index + ": ";
+                    swDocumentTypes_e eDocType;
+                    eDocType = (swDocumentTypes_e)(DocTypes[index]);
+                    switch (eDocType)
+                    {
+                        case swDocumentTypes_e.swDocNONE:
+                            debugMessage = debugMessage + "The document ";
+                            break;
+                        case swDocumentTypes_e.swDocPART:
+                            debugMessage = debugMessage + "The part ";
+                            break;
+                        case swDocumentTypes_e.swDocASSEMBLY:
+                            debugMessage = debugMessage + "The assembly ";
+                            break;
+                        case swDocumentTypes_e.swDocDRAWING:
+                            debugMessage = debugMessage + "The drawing ";
+                            break;
+                        case swDocumentTypes_e.swDocSDM:
+                            debugMessage = debugMessage + "The SDM ";
+                            break;
+                        default:
+                            debugMessage = debugMessage + "The document is an unknown type ";
+                            break;
+                    }
+                    debugMessage = debugMessage + Paths[index] + " was not loaded because it is ";
+                    bool bUnloadedBecauseHidden = false;
+                    if (Reasons[index] == 1)
+                        bUnloadedBecauseHidden = true;
+                    else
+                        bUnloadedBecauseHidden = false;
+
+                    if (bUnloadedBecauseHidden)
+                    {
+                        debugMessage = debugMessage + "hidden.";
+                    }
+                    else
+                    {
+                        debugMessage = debugMessage + "suppressed.";
+                    }
+                    Debug.Print(debugMessage);
+                }
+            }
+
+        }
+        /// <summary>
+        /// The SldWorks swApp variable is pre-assigned for you.
+        /// </summary>
+        public SldWorks swApp;
+    }
 }
 ```

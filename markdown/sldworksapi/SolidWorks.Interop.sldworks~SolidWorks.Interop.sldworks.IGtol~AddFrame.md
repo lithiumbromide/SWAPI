@@ -40,13 +40,7 @@ System.bool AddFrame()
 System.bool AddFrame();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,19 +48,11 @@ True if frame successfully added, false if not
 
 ## VBA Syntax
 
-See
-
-[Gtol::AddFrame](ms-its:sldworksapivb6.chm::/sldworks~Gtol~AddFrame.html)
-
-.
+See [Gtol::AddFrame](ms-its:sldworksapivb6.chm::/sldworks~Gtol~AddFrame.html).
 
 ## Examples
 
-See the
-
-[IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html)
-
-examples.
+See the [IGtolFrame](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame.html) examples.
 
 ## Remarks
 
@@ -75,7 +61,6 @@ This method is valid only if this Gtol was created in SOLIDWORKS 2022 or later.
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
 
 ## Availability

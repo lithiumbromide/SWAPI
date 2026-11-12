@@ -40,29 +40,15 @@ System.object GetAttributes()
 System.Object^ GetAttributes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of attributes (see
-
-Remarks
-
-)
+Array of attributes (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::GetAttributes](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetAttributes.html)
-
-.
+See [SketchBlockInstance::GetAttributes](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetAttributes.html).
 
 ## Examples
 
@@ -72,16 +58,13 @@ See
 
 Attributes are string notes that have tag names and are not read-only.
 
-Use[ISketchBlockInstance::GetAttributeValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetAttributeValue.html)to get attribute's value, or use[ISketchBlockInstance::SetAttributeValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~SetAttributeValue.html)to set an attribute's value.
+Use [ISketchBlockInstance::GetAttributeValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~GetAttributeValue.html) to get attribute's value, or use [ISketchBlockInstance::SetAttributeValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~SetAttributeValue.html) to set an attribute's value.
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
-
 [ISketchBlockInstance::GetAttributeCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~GetAttributeCount.html)
-
 [ISketchBlockInstance::IGetAttributes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~IGetAttributes.html)
 
 ## Availability

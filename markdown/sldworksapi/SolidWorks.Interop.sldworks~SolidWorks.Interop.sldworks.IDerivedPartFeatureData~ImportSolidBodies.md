@@ -45,13 +45,7 @@ property System.bool ImportSolidBodies {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,14 @@ True to import its solid bodies, false to not
 
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::ImportSolidBodies](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportSolidBodies.html)
-
-.
+See [DerivedPartFeatureData::ImportSolidBodies](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~ImportSolidBodies.html).
 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
-
 [IDerivedPartFeatureData::ImportModelDimensions Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData~ImportModelDimensions.html)
-
 [IDerivedPartFeatureData::ImportHoleWizardData Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData~ImportHoleWizardData.html)
-
 [IDerivedPartFeatureData::ImportCustomProperties Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData~ImportCustomProperties.html)
 
 ## Availability

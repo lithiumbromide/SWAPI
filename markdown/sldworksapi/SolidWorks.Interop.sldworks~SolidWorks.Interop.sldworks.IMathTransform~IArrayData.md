@@ -45,33 +45,22 @@ property System.double IArrayData {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-- in-process, unmanaged C++: Pointer to an array of 16 doubles (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of 16 doubles (see **Remarks**)
 - VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
 The first 9 elements define the 3x3 rotation matrix. The next 3 elements define the translation component. The next element defines the scaling component. The last 3 elements are unused.
 
-The array data argument should be in a form that allows the direct calling of methods such as[IComponent2::Transform2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~Transform2.html).
+The array data argument should be in a form that allows the direct calling of methods such as [IComponent2::Transform2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~Transform2.html).
 
 ## See Also
 
 [IMathTransform Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
 [IMathTransform Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform_members.html)
 
 ## Availability

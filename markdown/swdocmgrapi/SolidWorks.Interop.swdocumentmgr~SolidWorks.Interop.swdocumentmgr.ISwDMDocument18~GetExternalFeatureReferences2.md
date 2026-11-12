@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetExternalFeatureReferences2 Method (ISwDMDocument18)
 
-Obsolete. Superseded by
-
-[ISwDMDocument27::GetExternalFeatureReferences3](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument27~GetExternalFeatureReferences3.html)
-
-.
+Obsolete. Superseded by [ISwDMDocument27::GetExternalFeatureReferences3](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument27~GetExternalFeatureReferences3.html).
 
 ## Syntax
 
@@ -53,13 +49,7 @@ System.int GetExternalFeatureReferences2(
 
 ### Parameters
 
-- `ExtRefOption`: An
-
-[ISwDMExternalReferenceOption2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption2.html)
-
-object (see
-
-Remarks)
+- `ExtRefOption`: An [ISwDMExternalReferenceOption2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption2.html) object (see **Remarks)**
 
 ### Return Value
 
@@ -67,66 +57,34 @@ Number of external references in this document
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument18::GetExternalFeatureReferences2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument18~GetExternalFeatureReferences2.html)
-
-.
+See [SwDMDocument18::GetExternalFeatureReferences2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument18~GetExternalFeatureReferences2.html).
 
 ## Remarks
 
 Files must be saved in SOLIDWORKS 2020 or later for this method to report imported feature references in parts and assemblies.
 
-Use[ISwDMDocument13::GetAllExternalReferences4](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument13~GetAllExternalReferences4.html)for drawings.
+Use [ISwDMDocument13::GetAllExternalReferences4](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument13~GetAllExternalReferences4.html) for drawings.
 
 Before calling this method:
 
-1. Call
-
-  [ISwDMApplication4::GetExternalReferenceOptionObject2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication4~GetExternalReferenceOptionObject2.html)
-
-  to obtain an
-
-  [ISwDMExternalReferenceOption2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption2.html)
-
-  object.
-2. Set
-
-  [ISwDMExternalReferenceOption::Configuration](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption~Configuration.html)
-
-  .
-3. Set
-
-  [ISwDMExternalReferenceOption::NeedSuppress](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption~NeedSuppress.html)
-
-  .
-4. Set
-
-  [ISwDMExternalReferenceOption::SearchOption](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption~SearchOption.html)
-
-  .
+1. Call [ISwDMApplication4::GetExternalReferenceOptionObject2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication4~GetExternalReferenceOptionObject2.html) to obtain an [ISwDMExternalReferenceOption2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption2.html) object.
+2. Set [ISwDMExternalReferenceOption::Configuration](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption~Configuration.html).
+3. Set [ISwDMExternalReferenceOption::NeedSuppress](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption~NeedSuppress.html).
+4. Set [ISwDMExternalReferenceOption::SearchOption](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption~SearchOption.html).
 5. Assign this method's ExtRefOption parameter to the ISwDMExternalReferenceOption2 object.
 
-After calling this method, call[ISwDMExternalReferenceOption::ExternalReferences](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption~ExternalReferences.html)and[ISwDMExternalReferenceOption::ReferencedConfigurations](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption~ReferencedConfigurations.html)to obtain the external feature references and their configurations.
+After calling this method, call [ISwDMExternalReferenceOption::ExternalReferences](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption~ExternalReferences.html) and [ISwDMExternalReferenceOption::ReferencedConfigurations](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMExternalReferenceOption~ReferencedConfigurations.html) to obtain the external feature references and their configurations.
 
 To find out if an external feature reference is suppressed:
 
-1. Call
+1. Call [ISwDMComponent6::PathName](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMComponent6~PathName.html) to set one of the external components returned by ISwDMDocument18::GetExternalFeatureReferences2.
+2. Call [ISwDMComponent::IsSuppressed](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMComponent~IsSuppressed.html).
 
-  [ISwDMComponent6::PathName](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMComponent6~PathName.html)
+The suppression states and other information of all of the external references are also embedded in the parent document. To obtain this information in XML format, call [ISwDMDocument::GetXMLStream](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetXmlStream.html).
 
-  to set one of the external components returned by ISwDMDocument18::GetExternalFeatureReferences2.
-2. Call
+Call this method before calling [ISwDMDocument::ReplaceReference](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~ReplaceReference.html).
 
-  [ISwDMComponent::IsSuppressed](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMComponent~IsSuppressed.html)
-
-  .
-
-The suppression states and other information of all of the external references are also embedded in the parent document. To obtain this information in XML format, call[ISwDMDocument::GetXMLStream](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~GetXmlStream.html).
-
-Call this method before calling[ISwDMDocument::ReplaceReference](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument~ReplaceReference.html).
-
-The SOLIDWORKS Document Manager API applies the same rules when searching for a reference as described in the SOLIDWORKS Help. The mix-and-match of subfolder combinations is applied to the current document, which for the SOLIDWORKS Document Manager API is the document attached using[ISwDMApplication::GetDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~GetDocument.html)and the reference for which is being searched. You can set up the list of folders to be searched using[ISwDMSearchOption::AddSearchPath](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption~AddSearchPath.html), which is equivalent to using the SOLIDWORKS user-interface commandsTools >Options >System Options >FileLocations >ReferencedDocuments.
+The SOLIDWORKS Document Manager API applies the same rules when searching for a reference as described in the SOLIDWORKS Help. The mix-and-match of subfolder combinations is applied to the current document, which for the SOLIDWORKS Document Manager API is the document attached using [ISwDMApplication::GetDocument](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication~GetDocument.html) and the reference for which is being searched. You can set up the list of folders to be searched using [ISwDMSearchOption::AddSearchPath](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption~AddSearchPath.html), which is equivalent to using the SOLIDWORKS user-interface commands Tools > Options > System Options > File Locations > Referenced Documents.
 
 Two differences between SOLIDWORKS and the SOLIDWORKS Document Manager API searches are:
 
@@ -140,7 +98,6 @@ Because the search routine is shared between SOLIDWORKS and the SOLIDWORKS Docum
 ## See Also
 
 [ISwDMDocument18 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument18.html)
-
 [ISwDMDocument18 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument18_members.html)
 
 ## Availability

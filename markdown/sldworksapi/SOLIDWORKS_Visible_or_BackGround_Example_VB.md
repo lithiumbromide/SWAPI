@@ -1,5 +1,5 @@
 ---
-title: "SOLIDWORKS Visible or BackGround Example (VBA)"
+title: "SOLIDWORKS Design Visible or BackGround Example (VBA)"
 project: ""
 interface: ""
 member: ""
@@ -7,166 +7,95 @@ kind: "example"
 source: "sldworksapi/SOLIDWORKS_Visible_or_BackGround_Example_VB.htm"
 ---
 
-# SOLIDWORKS Visible or BackGround Example (VBA)
+# SOLIDWORKS Design Visible or BackGround Example (VBA)
 
-## SOLIDWORKS Visible or Background Example (VBA)
+## SOLIDWORKS Design Visible or Background Example (VBA)
 
-These examples shows several situations for
-running or attaching to SOLIDWORKS session through the API.
+These examples show several situations for running or attaching to SOLIDWORKS Design sessions through the API.
 
-### SOLIDWORKS not running: Launch invisibly and end SOLIDWORKS session
+### SOLIDWORKS Design not running: Launch invisibly and end SOLIDWORKS Design session
 
+```vb
 Sub Macro1()
+     Dim swApp As Object
+     Set swApp = CreateObject("SldWorks.Application")
+     ' Close the SOLIDWORKS Design application. If you do not perform this step, SOLIDWORKS Design
+      ' continues to run. If SOLIDWORKS Design is running in the background, the user is
+      ' unaware that SOLIDWORKS Design is running and consuming their system resources.
+     swApp.ExitApp
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swApp As Object
+     Set swApp = Nothing
+ End Sub
+```
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = CreateObject("SldWorks.Application")
+### SOLIDWORKS Design running: Attach to existing SOLIDWORKS Design session and end SOLIDWORKS Design session
 
-' Close
-the SOLIDWORKS application. If you do not perform this step, SOLIDWORKS ' continues to run. If SOLIDWORKS is running in the background, the user
-is ' unaware that SOLIDWORKS is running and consuming their system resources.
-
-swApp.ExitAppkadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}Set
-swApp = Nothing
-
-End Sub
-
-### SOLIDWORKS running: Attach to existing SOLIDWORKS session and end SOLIDWORKS
-session
-
+```vb
 Sub Macro2()
+     Dim swApp As Object
+     Set swApp = CreateObject("SldWorks.Application")
+     swApp.ExitApp
+     Set swApp = Nothing
+ End Sub
+```
 
-kadov_tag{{</spaces>}}Dim
-swApp As Object
+### SOLIDWORKS Design not running: Launch invisibly, become visible, and end SOLIDWORKS Design session
 
-kadov_tag{{</spaces>}}kadov_tag{{</spaces>}}Set
-swApp = CreateObject("SldWorks.Application")
-
-swApp.ExitApp
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Nothing
-
-End Sub
-
-### SOLIDWORKS not running: Launch invisibly, become visible, and end SOLIDWORKS
-session
-
+```vb
 Sub Macro3()
-
-kadov_tag{{</spaces>}}Dim
-swApp As Object
-
-kadov_tag{{</spaces>}}Dim
-Part As Object
-
-kadov_tag{{</spaces>}}Set
-swApp = CreateObject("SldWorks.Application")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp.Visible= True
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp.ExitApp
-
-Set
-swApp = Nothing
-
+     Dim swApp As Object
+     Dim Part As Object
+     Set swApp = CreateObject("SldWorks.Application")
+     swApp.Visible = True
+     swApp.ExitApp
+     Set swApp = Nothing
 End Sub
+```
 
-### SOLIDWORKS not running: Launch invisibly, become visible, and leave
-SOLIDWORKS running
+### SOLIDWORKS Design not running: Launch invisibly, become visible, and leave SOLIDWORKS Design running
 
+```vb
 Sub Macro4()
-
-kadov_tag{{</spaces>}}Dim
-swApp As Object
-
-kadov_tag{{</spaces>}}kadov_tag{{</spaces>}}Set
-swApp = CreateObject("SldWorks.Application")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp.Visible= True
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp.UserControl= True
-
-kadov_tag{{</spaces>}}'
-Give control to the user, which leaves SOLIDWORKS running
-
+     Dim swApp As Object
+     Set swApp = CreateObject("SldWorks.Application")
+     swApp.Visible = True
+     swApp.UserControl = True
+     ' Give control to the user, which leaves SOLIDWORKS Design running
 End Sub
+```
 
-### SOLIDWORKS not running: Launch invisibly, create part invisibly, close
-part, and end SOLIDWORKS session
+### SOLIDWORKS Design not running: Launch invisibly, create part invisibly, close part, and end SOLIDWORKS Design session
 
+```vb
 Sub Macro5()
-
-kadov_tag{{</spaces>}}Dim
-swApp As Object
-
-kadov_tag{{</spaces>}}Dim
-Part As Object
-
-kadov_tag{{</spaces>}}'
-This must be explicitly defined for ISldWorks::ActivateDoc2
-
-kadov_tag{{</spaces>}}Dim
-errors As Long
-
-kadov_tag{{</spaces>}}Set
-swApp = CreateObject("SldWorks.Application")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-Part = swApp.NewPart
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-Part = swApp.ActivateDoc2("Part1",True,errors)
-
-kadov_tag{{</spaces>}}Set
-Part = Nothing
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp.CloseDoc"Part1"
-
-swApp.ExitApp
-
-kadov_tag{{</spaces>}}Set
-swApp = Nothing
-
+     Dim swApp As Object
+     Dim Part As Object
+     ' This must be explicitly defined for ISldWorks::ActivateDoc2
+     Dim errors As Long
+     Set swApp = CreateObject("SldWorks.Application")
+     Set Part = swApp.NewPart
+     Set Part = swApp.ActivateDoc2("Part1",True,errors)
+     Set Part = Nothing
+     swApp.CloseDoc "Part1"
+     swApp.ExitApp
+     Set swApp = Nothing
 End Sub
+```
 
-### SOLIDWORKS not running: Launch invisibly, create part invisibly, make
-the part and SOLIDWORKS visible, and leave SOLIDWORKS running
+### SOLIDWORKS Design not running: Launch invisibly, create part invisibly, make the part and SOLIDWORKS Design visible, and leave SOLIDWORKS Design running
 
+```vb
 Sub Macro6()
-
-kadov_tag{{</spaces>}}Dim
-swApp As Object
-
-kadov_tag{{</spaces>}}Dim
-Part As Object
-
-kadov_tag{{</spaces>}}Set
-swApp = CreateObject("SldWorks.Application")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-Part = swApp.NewPart
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-Part = swApp.ActivateDoc("Part1")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Part.Visible= True
-
-kadov_tag{{</spaces>}}'
-Make the part and SOLIDWORKS visible
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp.UserControl= True
-
-kadov_tag{{</spaces>}}'
-Give control to the user, which leaves SOLIDWORKS running
-
-kadov_tag{{</spaces>}}Set
-Part = Nothing
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp.CloseDoc"Part1"
-
+     Dim swApp As Object
+     Dim Part As Object
+     Set swApp = CreateObject("SldWorks.Application")
+     Set Part = swApp.NewPart
+     Set Part = swApp.ActivateDoc("Part1")
+     Part.Visible = True
+     ' Make the part and SOLIDWORKS Design visible
+     swApp.UserControl = True
+     ' Give control to the user, which leaves SOLIDWORKS Design running
+     Set Part = Nothing
+     swApp.CloseDoc "Part1"
 End Sub
+```

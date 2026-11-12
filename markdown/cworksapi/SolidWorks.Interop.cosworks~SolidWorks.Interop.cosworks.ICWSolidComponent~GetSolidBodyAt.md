@@ -58,34 +58,25 @@ CWSolidBody^ GetSolidBodyAt(
 
 ### Return Value
 
-[Solid body](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSolidBody.html)
-
-or NULL if no solid body at NIndex
+[Solid body](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSolidBody.html) or NULL if no solid body at NIndex
 
 ## VBA Syntax
 
-See
-
-[CWSolidComponent::GetSolidBodyAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidComponent~GetSolidBodyAt.html)
-
-.
+See [CWSolidComponent::GetSolidBodyAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidComponent~GetSolidBodyAt.html).
 
 ## Examples
 
 [Create Nonlinear Study and Apply Materials (C#)](Create_Nonlinear_Study_and_Apply_Materials_Example_CSharp.htm)
-
 [Create Nonlinear Study and Apply Materials (VB.NET)](Create_Nonlinear_Study_and_Apply_Materials_Example_VBNET.htm)
-
 [Create Nonlinear Study and Apply Materials (VBA)](Create_Nonlinear_Study_and_Apply_Materials_Example_VB.htm)
 
 ## Remarks
 
-Before calling this method, call[ICWSolidComponent::SolidBodyCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSolidComponent~SolidBodyCount.html)to get NIndex. Index starts at 0.
+Before calling this method, call [ICWSolidComponent::SolidBodyCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSolidComponent~SolidBodyCount.html) to get NIndex. Index starts at 0.
 
 ## See Also
 
 [ICWSolidComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidComponent.html)
-
 [ICWSolidComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidComponent_members.html)
 
 ## Availability

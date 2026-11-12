@@ -34,14 +34,9 @@ System.int mlEdmRightFlag
 
 ### Field Value
 
-Combination of
-
-[EdmTransitionRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionRightFlags.html)
-
-bits
+Combination of [EdmTransitionRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionRightFlags.html) bits
 
 ## See Also
 
 [EdmTransitionPermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission.html)
-
 [EdmTransitionPermission Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission_members.html)

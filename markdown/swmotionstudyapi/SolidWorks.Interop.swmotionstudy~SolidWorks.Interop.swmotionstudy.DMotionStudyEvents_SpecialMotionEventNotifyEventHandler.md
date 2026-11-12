@@ -49,21 +49,15 @@ public delegate System.int DMotionStudyEvents_SpecialMotionEventNotifyEventHandl
 ### Parameters
 
 - `Time`: Time
-- `EventType`: Motion-related special event as defined in
-
-[swSpecialMotionEventType_e](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swSpecialMotionEventType_e.html)
+- `EventType`: Motion-related special event as defined in [swSpecialMotionEventType_e](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swSpecialMotionEventType_e.html)
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[SpecialMotionEventNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~SpecialMotionEventNotify_EV.html)
-
-.
+See [SpecialMotionEventNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~SpecialMotionEventNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, then use[swMotionStudySpecialEventNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html)to register for this notification.
+If developing a C++ application, then use [swMotionStudySpecialEventNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html) to register for this notification.
 
 ## Availability
 

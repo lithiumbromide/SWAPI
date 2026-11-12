@@ -44,22 +44,15 @@ property swDMCutListType_e CutlistType {
 
 ### Property Value
 
-Cut list type as defined by
-
-[swDMCutListType_e](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDMCutListType_e.html)
+Cut list type as defined by [swDMCutListType_e](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.swDMCutListType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMCutListItem4::CutListType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem4~CutListType.html)
-
-.
+See [SwDMCutListItem4::CutListType](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem4~CutListType.html).
 
 ## See Also
 
 [ISwDMCutListItem4 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem4.html)
-
 [ISwDMCutListItem4 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem4_members.html)
 
 ## Availability

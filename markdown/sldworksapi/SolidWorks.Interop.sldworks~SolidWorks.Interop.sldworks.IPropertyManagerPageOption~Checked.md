@@ -45,13 +45,7 @@ property System.bool Checked {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if the option is selected, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageOption::Checked](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageOption~Checked.html)
-
-.
+See [PropertyManagerPageOption::Checked](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageOption~Checked.html).
 
 ## See Also
 
 [IPropertyManagerPageOption Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageOption.html)
-
 [IPropertyManagerPageOption Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageOption_members.html)
 
 ## Availability

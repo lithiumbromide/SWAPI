@@ -11,15 +11,10 @@ source: "sldworksapiprogguide/Overview/Tessellation_and_Edges.htm"
 
 A couple of approaches are available for finding tessellations for edges.
 
-- Get the range of the curve and tessellate the
-  curve along that range.
+- Get the range of the curve and tessellate the curve along that range.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}-
-or -
+- or -
 
-- Use[IFace2::GetTessTriStripEdges](sldworksAPI.chm::/SolidWorks.interop.sldworks~SolidWorks.interop.sldworks.IFace2~GetTessTriStripEdges.html)to get the indices into the tessellation that represents the edges of
-  the face.
+- Use [IFace2::GetTessTriStripEdges](sldworksAPI.chm::/SolidWorks.interop.sldworks~SolidWorks.interop.sldworks.IFace2~GetTessTriStripEdges.html) to get the indices into the tessellation that represents the edges of the face.
 
-The first approach gives you better control over the edge. The second
-approach gives you a tight boundary if you are rendering edges and faces
-at the same time.
+The first approach gives you better control over the edge. The second approach gives you a tight boundary if you are rendering edges and faces at the same time.

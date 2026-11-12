@@ -41,16 +41,11 @@ void SelectFaces();
 
 ## VBA Syntax
 
-See
-
-[CostFeature::SelectFaces](swcostingapivb6.chm::/SldCostingAPI~CostFeature~SelectFaces.html)
-
-.
+See [CostFeature::SelectFaces](swcostingapivb6.chm::/SldCostingAPI~CostFeature~SelectFaces.html).
 
 ## See Also
 
 [ICostFeature Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature.html)
-
 [ICostFeature Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature_members.html)
 
 ## Availability

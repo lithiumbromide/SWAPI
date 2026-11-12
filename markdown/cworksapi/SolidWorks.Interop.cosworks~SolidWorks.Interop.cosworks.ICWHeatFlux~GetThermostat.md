@@ -46,11 +46,7 @@ Vertex of the location of the thermostat
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::GetThermostat](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~GetThermostat.html)
-
-.
+See [CWHeatFlux::GetThermostat](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~GetThermostat.html).
 
 ## Remarks
 
@@ -59,13 +55,9 @@ Thermostat is used for transient thermal studies only.
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
-
 [ICWHeatFlux::SetThermostat Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~SetThermostat.html)
-
 [ICWHeatFlux::IncludeThermostat Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~IncludeThermostat.html)
-
 [ICWHeatFlux::ThermostatUnits Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~ThermostatUnits.html)
 
 ## Availability

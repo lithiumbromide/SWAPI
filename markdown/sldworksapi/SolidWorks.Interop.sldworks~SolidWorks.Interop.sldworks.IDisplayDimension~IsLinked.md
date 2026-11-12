@@ -42,13 +42,7 @@ property System.bool IsLinked {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ True if the text is linked to the dimension, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::IsLinked](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IsLinked.html)
-
-.
+See [DisplayDimension::IsLinked](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IsLinked.html).
 
 ## Examples
 
@@ -69,13 +59,9 @@ See
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::GetLinkedText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetLinkedText.html)
-
 [IDisplayDimension::SetLinkedText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetLinkedText.html)
-
 [IDisplayDimension::Unlink Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~Unlink.html)
 
 ## Availability

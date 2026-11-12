@@ -49,11 +49,7 @@ System.bool SetEntityForGravityDirection2(
 
 ### Parameters
 
-- `DispEntity`: Face, edge, or plane geometry reference (see
-
-Remarks
-
-)
+- `DispEntity`: Face, edge, or plane geometry reference (see **Remarks**)
 
 ## Remarks
 
@@ -62,7 +58,6 @@ If the reference entity is a plane or planar face, the velocity is applied in th
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
 
 ## Availability

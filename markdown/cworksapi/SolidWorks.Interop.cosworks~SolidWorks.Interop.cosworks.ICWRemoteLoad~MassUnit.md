@@ -47,26 +47,17 @@ property System.int MassUnit {
 
 ### Property Value
 
-Unit of mass as defined by
-
-[swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
+Unit of mass as defined by [swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::MassUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~MassUnit.html)
-
-.
+See [CWRemoteLoad::MassUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~MassUnit.html).
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::GetMassValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~GetMassValues.html)
-
 [ICWRemoteLoad::SetMassValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMassValues.html)
 
 ## Availability

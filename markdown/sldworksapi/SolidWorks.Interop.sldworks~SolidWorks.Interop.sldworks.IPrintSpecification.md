@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 Allows access to a document's printing specification.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IPrintSpecification
 
 ## VBA Syntax
 
-See
-
-[PrintSpecification](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification.html)
-
-.
+See [PrintSpecification](ms-its:sldworksapivb6.chm::/sldworks~PrintSpecification.html).
 
 ## Examples
 
 [Print Drawing (VBA)](Print_Drawing_as_High_Quality_Example_VB.htm)
-
 [Print Drawing (VB.NET)](Print_Drawing_as_High_Quality_Example_VBNET.htm)
-
 [Print Drawing (C#)](Print_Drawing_as_High_Quality_Example_CSharp.htm)
 
 ## Accessors
@@ -66,7 +60,5 @@ See
 ## See Also
 
 [IPrintSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrintSpecification_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::PrintOut4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~PrintOut4.html)

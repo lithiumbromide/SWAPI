@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCompone
 
 # swComponentIdentifier_e Enumeration
 
-Component display options for the FeatureManager design tree.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Component display options for the FeatureManager design tree. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 
@@ -51,12 +47,12 @@ public enum class swComponentIdentifier_e : public System.Enum
 | swComponentIdentifier_ConfigurationDescription | 64 |
 | swComponentIdentifier_ConfigurationName | 32 |
 | swComponentIdentifier_DisplayStateName | 128 |
-| swComponentIdentifier_EnterpriseItemNumber | 8 (valid only in SOLIDWORKS Connected) |
-| swComponentIdentifier_FileTitle | 256 (valid only in SOLIDWORKS Connected) |
+| swComponentIdentifier_EnterpriseItemNumber | 8 (valid only in SOLIDWORKS Design connected to the 3DEXPERIENCE platform) |
+| swComponentIdentifier_FileTitle | 256 (valid only in SOLIDWORKS Design connected to the 3DEXPERIENCE platform) |
 | swComponentIdentifier_None | 0 |
-| swComponentIdentifier_PhysicalProductDescription | 16 (valid only in SOLIDWORKS Connected) |
-| swComponentIdentifier_PhysicalProductTitle | 1 (valid only in SOLIDWORKS Connected) |
-| swComponentIdentifier_PLMRevision | 512 (valid only in SOLIDWORKS Connected) |
+| swComponentIdentifier_PhysicalProductDescription | 16 (valid only in SOLIDWORKS Design connected to the 3DEXPERIENCE platform) |
+| swComponentIdentifier_PhysicalProductTitle | 1 (valid only in SOLIDWORKS Design connected to the 3DEXPERIENCE platform) |
+| swComponentIdentifier_PLMRevision | 512 (valid only in SOLIDWORKS Design connected to the 3DEXPERIENCE platform) |
 
 ## See Also
 

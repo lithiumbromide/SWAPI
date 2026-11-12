@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITa
 
 # InsertColumn Method (ITableAnnotation)
 
-Obsolete. Superseded by
-
-[ITableAnnnotation::InsertColumn2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~InsertColumn2.html)
-
-.
+Obsolete. Superseded by [ITableAnnnotation::InsertColumn2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~InsertColumn2.html).
 
 ## Syntax
 
@@ -59,17 +55,11 @@ System.bool InsertColumn(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Where`: Where to insert the column as specified in[swTableItemInsertPosition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableItemInsertPosition_e.html)
+- `Where`: Where to insert the column as specified in [swTableItemInsertPosition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableItemInsertPosition_e.html)
 - `Index`: Index of the column where to insert the new column
 - `Name`: Column name
 
@@ -79,18 +69,12 @@ True if column is inserted successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::InsertColumn](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~InsertColumn.html)
-
-.
+See [TableAnnotation::InsertColumn](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~InsertColumn.html).
 
 ## Examples
 
 [Insert Part Number Column in BOM Table (C#)](Insert_Part_Number_Column_in_BOM_Table_Example_CSharp.htm)
-
 [Insert Part Number Column in BOM Table (VB.NET)](Insert_Part_Number_Column_in_BOM_Table_Example_VBNET.htm)
-
 [Insert Part Number Column in BOM Table (VBA)](Insert_Part_Number_Column_in_BOM_Table_Example_VB.htm)
 
 ## Remarks
@@ -100,7 +84,6 @@ The index for both rows and columns is 0-based.
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
 
 ## Availability

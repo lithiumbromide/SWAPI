@@ -1,6 +1,5 @@
 ---
-title: "SketchParabola Object
-Members"
+title: "SketchParabola Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchParabola_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchParabola_members.html"
 ---
 
-# SketchParabola Object
-Members
+# SketchParabola Object Members
 
 ## Public Methods
 

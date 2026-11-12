@@ -45,52 +45,30 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of camera as defined in
-
-[swCameraType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCameraType_e.html)
-
-}}end!kadov
+Type of camera as defined in [swCameraType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCameraType_e.html)
 
 ## VBA Syntax
 
-See
-
-[Camera::Type](ms-its:sldworksapivb6.chm::/sldworks~Camera~Type.html)
-
-.
+See [Camera::Type](ms-its:sldworksapivb6.chm::/sldworks~Camera~Type.html).
 
 ## Examples
 
 [Turn Cameras On and Off (VBA)](Turn_Cameras_On_and_Off_Example_VB.htm)
-
 [Turn Cameras On and Off (VB.NET)](Turn_Cameras_On_and_Off_Example_VBNET.htm)
-
 [Turn Cameras On and Off (C#)](Turn_Cameras_On_and_Off_Example_CSharp.htm)
 
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
-
 [ICamera::TargetPointPosition Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~TargetPointPosition.html)
-
 [ICamera::TargetPointBySelection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~TargetPointBySelection.html)
-
 [ICamera::RotationRollFlipDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~RotationRollFlipDirection.html)
-
 [ICamera::SetTargetPointEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~SetTargetPointEntity.html)
-
 [ICamera::GetTargetPointEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera~GetTargetPointEntity.html)
 
 ## Availability

@@ -59,68 +59,28 @@ System.int GetDirectionReference(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Ref1`: First reference entity (see
-
-Remarks
-
-)
-- `Type1`: Type of reference entity as defined by
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-
-(see
-
-Remarks
-
-)
-- `Ref2`: Second reference entity (see
-
-Remarks
-
-)
-- `Type2`: Type of reference entity as defined by
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
-
-(see
-
-Remarks
-
-)
+- `Ref1`: First reference entity (see **Remarks**)
+- `Type1`: Type of reference entity as defined by [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html) (see **Remarks**)
+- `Ref2`: Second reference entity (see **Remarks**)
+- `Type2`: Type of reference entity as defined by [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html) (see **Remarks**)
 
 ### Return Value
 
-Number of reference entities used to define the direction of the ruled surface (see
-
-Remarks
-
-)
+Number of reference entities used to define the direction of the ruled surface (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[RuledSurfaceFeatureData::GetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~GetDirectionReference.html)
-
-.
+See [RuledSurfaceFeatureData::GetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~GetDirectionReference.html).
 
 ## Remarks
 
-This method is only available when[IRuledSurfaceFeatureData::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRuledSurfaceFeatureData~Type.html)is set to swRuledSurfaceType_TaperedToVector, swRuledSurfaceType_PerpendicularToVector, or swRuledSurfaceType_Sweep.
+This method is only available when [IRuledSurfaceFeatureData::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRuledSurfaceFeatureData~Type.html) is set to swRuledSurfaceType_TaperedToVector, swRuledSurfaceType_PerpendicularToVector, or swRuledSurfaceType_Sweep.
 
 Sometimes one reference entity defines a direction; for example, an edge or axis. Other times, two reference entities define a direction; for example, two vertices or two sketch points.
-
-(Table)=========================================================
 
 | If... | Then... |
 | --- | --- |
@@ -137,14 +97,12 @@ Valid reference entities for type1 and type2:
 - plane
 - sketch point
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [IRuledSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData_members.html)
-
 [IRuledSurfaceFeatureData::SetDirectionReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData~SetDirectionReference.html)
 
 ## Availability

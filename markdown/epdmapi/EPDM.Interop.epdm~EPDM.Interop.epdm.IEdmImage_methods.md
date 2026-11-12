@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage_methods.html"
 
 # IEdmImage Interface Methods
 
-For a list of all members of this type, see[IEdmImage members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage_members.html).
+For a list of all members of this type, see [IEdmImage members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage_members.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IEdmImage members](EPDM.Interop.epdm
 ## See Also
 
 [IEdmImage Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

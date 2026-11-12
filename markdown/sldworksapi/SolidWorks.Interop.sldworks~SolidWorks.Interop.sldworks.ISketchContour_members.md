@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchContour Interface Members
 
-The following tables list the members exposed by[ISketchContour](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour.html).
+The following tables list the members exposed by [ISketchContour](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour.html).
 
 ## Public Properties
 
@@ -39,5 +39,4 @@ The following tables list the members exposed by[ISketchContour](SolidWorks.Inte
 ## See Also
 
 [ISketchContour Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchContour.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

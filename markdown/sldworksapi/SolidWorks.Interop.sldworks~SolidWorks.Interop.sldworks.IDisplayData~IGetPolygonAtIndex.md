@@ -47,13 +47,7 @@ System.double IGetPolygonAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,21 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of doubles (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of doubles (see **Remarks**)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
 Format of return values is an array of doubles with the format:
 
-**[**Color, LineType, Unused, Unused, NumPolyPoints, [x,y,z]**]**
+```vb
+[ Color, LineType, Unused, Unused, NumPolyPoints, [x,y,z] ]
+```
 
 where:
-
-(Table)=========================================================
 
 | Color | Polygon color |
 | --- | --- |
@@ -87,16 +77,12 @@ where:
 | NumPolyPoints | Number of XYZ points found in the [x,y,z] return value |
 | [x,y,z] | Array of NumPolyPoints points used to describe the polygon |
 
-Use[IDisplayData::GetPolygonSizeAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetPolygonSizeAtIndex.html)to determine the number of elements in this array.
+Use [IDisplayData::GetPolygonSizeAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData~GetPolygonSizeAtIndex.html) to determine the number of elements in this array.
 
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::GetPolygonAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetPolygonAtIndex.html)
-
 [IDisplayData::GetPolygonCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetPolygonCount.html)
-
 [IDisplayData::GetPolygonSizeAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetPolygonSizeAtIndex.html)

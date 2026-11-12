@@ -9,7 +9,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 # DMotionStudyEvents_MotorTimeStepChangeNotifyEventHandler Delegate (SolidWorks.Interop.swmotionstudy)
 
-Fired when a motion study is[calculated](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy~Calculate.html)and there are[external motors](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationMotorFeatureData~ExternalState.html).
+Fired when a motion study is [calculated](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy~Calculate.html) and there are [external motors](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulationMotorFeatureData~ExternalState.html).
 
 ## Syntax
 
@@ -57,15 +57,11 @@ public delegate System.int DMotionStudyEvents_MotorTimeStepChangeNotifyEventHand
 
 ## Visual Basic Application (VBA) Syntax
 
-See
-
-[MotorTimeStepChangeNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~MotorTimeStepChangeNotify_EV.html)
-
-.
+See [MotorTimeStepChangeNotify Event (MotionStudy)](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~MotorTimeStepChangeNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, then use[swMotionStudyMotorTimeStepChangeNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html)to register for this notification.
+If developing a C++ application, then use [swMotionStudyMotorTimeStepChangeNotify](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swMotionStudyNotify_e.html) to register for this notification.
 
 You can implement any motion law after catching this event. The return value is a double that specifies the new motor speed. This event is called at every major time step from ADAMS.
 

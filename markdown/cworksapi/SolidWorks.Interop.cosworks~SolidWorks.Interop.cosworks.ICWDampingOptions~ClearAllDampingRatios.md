@@ -46,28 +46,17 @@ System.int ClearAllDampingRatios();
 
 ## VBA Syntax
 
-See
-
-[CWDampingOptions::ClearAllDampingRatios](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDampingOptions~ClearAllDampingRatios.html)
-
-.
+See [CWDampingOptions::ClearAllDampingRatios](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDampingOptions~ClearAllDampingRatios.html).
 
 ## Examples
 
-See the
-
-[ICWDampingOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html)
-
-examples.
+See the [ICWDampingOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html) examples.
 
 ## See Also
 
 [ICWDampingOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html)
-
 [ICWDampingOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions_members.html)
-
 [ICWDampingOptions::GetDampingRatios Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~GetDampingRatios.html)
-
 [ICWDampingOptions::SetDampingRatios Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~SetDampingRatios.html)
 
 ## Availability

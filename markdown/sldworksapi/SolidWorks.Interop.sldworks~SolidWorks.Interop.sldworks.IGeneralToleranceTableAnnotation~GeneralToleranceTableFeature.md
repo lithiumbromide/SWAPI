@@ -42,13 +42,7 @@ property GeneralToleranceTableFeature^ GeneralToleranceTableFeature {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[GeneralToleranceTableAnnotation::GeneralToleranceTableFeature](ms-its:sldworksapivb6.chm::/sldworks~GeneralToleranceTableAnnotation~GeneralToleranceTableFeature.html)
-
-.
+See [GeneralToleranceTableAnnotation::GeneralToleranceTableFeature](ms-its:sldworksapivb6.chm::/sldworks~GeneralToleranceTableAnnotation~GeneralToleranceTableFeature.html).
 
 ## Examples
 
-See the
-
-[IGeneralToleranceTableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableAnnotation.html)
-
-examples.
+See the [IGeneralToleranceTableAnnotation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableAnnotation.html) examples.
 
 ## See Also
 
 [IGeneralToleranceTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableAnnotation.html)
-
 [IGeneralToleranceTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralToleranceTableAnnotation_members.html)
 
 ## Availability

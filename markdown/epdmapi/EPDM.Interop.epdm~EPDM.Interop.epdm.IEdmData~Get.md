@@ -39,9 +39,7 @@ System.Object^ Get(
 
 ### Parameters
 
-- `eKey`: ID of property to retrieve as defined in
-
-[EdmDataPropertyType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDataPropertyType.html)
+- `eKey`: ID of property to retrieve as defined in [EdmDataPropertyType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDataPropertyType.html)
 
 ### Return Value
 
@@ -49,11 +47,7 @@ Property value or empty if not found
 
 ## Examples
 
-See the
-
-[IEdmData](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData.html)
-
-examples.
+See the [IEdmData](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData.html) examples.
 
 ## Remarks
 
@@ -67,9 +61,7 @@ C++ programmers must remember to intialize the VARIANT struct for poValue with a
 ## See Also
 
 [IEdmData Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData.html)
-
 [IEdmData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData_members.html)
-
 [IEdmData::Set Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData~Set.html)
 
 ## Availability

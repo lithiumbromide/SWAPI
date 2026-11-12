@@ -40,36 +40,20 @@ System.object GetBreakLineInfo2()
 System.Object^ GetBreakLineInfo2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of data for all break lines in the view (see
-
-Remarks
-
-)
+Array of data for all break lines in the view (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[View::GetBreakLineInfo2](ms-its:sldworksapivb6.chm::/sldworks~View~GetBreakLineInfo2.html)
-
-.
+See [View::GetBreakLineInfo2](ms-its:sldworksapivb6.chm::/sldworks~View~GetBreakLineInfo2.html).
 
 ## Examples
 
 [Get Break Line Data (VBA)](Get_Break_Line_Data_Example_VB.htm)
-
 [Get Break Line Data (VB.NET)](Get_Break_Line_Data_Example_VBNET.htm)
-
 [Get Break Line Data (C#)](Get_Break_Line_Data_Example_CSharp.htm)
 
 ## Remarks
@@ -78,11 +62,9 @@ The return value is a one-dimensional array consisting of the following data:
 
 [ breaklineStyle, color, lineType, lineStyleIndex, lineWeight, layerId,
 
-layerOverride, numLines, numArcs, numSplines, [break line data]]
+layerOverride, numLines, numArcs, numSplines, [break line data] ]
 
 where:
-
-(Table)=========================================================
 
 | breaklineStyle | Break line style as defined in swBreakLineStyle_e |
 | --- | --- |
@@ -96,8 +78,6 @@ where:
 | numArcs | Number of arc lines if a curve break |
 | numSplines | Number of spline lines if a jagged break |
 
-(Table)=========================================================
-
 | If the break line style is swBreakLineStyle_e... | Then [ break line data ] is packed with... |
 | --- | --- |
 | swBreakLine_Straight | 12 doubles (2 lines * 1 segment * 2 points * 3 coordinates) |
@@ -109,21 +89,13 @@ where:
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IGetBreakLineInfo2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetBreakLineInfo2.html)
-
 [IView::GetBreakLineCount2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLineCount2.html)
-
 [IView::GetBreakLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetBreakLines.html)
-
 [IView::IGetBreakLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetBreakLines.html)
-
 [IView::IsBroken Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IsBroken.html)
-
 [IView::BreakLineGap Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~BreakLineGap.html)
-
 [IView::InsertBreak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertBreak.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISn
 
 # ISnapShot Interface Members
 
-The following tables list the members exposed by[ISnapShot](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot.html).
+The following tables list the members exposed by [ISnapShot](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot.html).
 
 ## Public Properties
 
@@ -32,5 +32,4 @@ The following tables list the members exposed by[ISnapShot](SolidWorks.Interop.s
 ## See Also
 
 [ISnapShot Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

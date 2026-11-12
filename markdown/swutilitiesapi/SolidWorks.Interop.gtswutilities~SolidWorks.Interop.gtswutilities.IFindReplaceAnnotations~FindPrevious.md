@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # FindPrevious Method (IFindReplaceAnnotations)
 
-Finds the previous occurrence of the text specified by
-
-[IFindReplaceAnnotations::FindText](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~FindText.html)
-
-.
+Finds the previous occurrence of the text specified by [IFindReplaceAnnotations::FindText](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~FindText.html).
 
 ## Syntax
 
@@ -46,28 +42,20 @@ System.int FindPrevious();
 
 ### Return Value
 
-Error code as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error code as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IFindReplaceAnnotations::FindPrevious](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~FindPrevious.html)
-
-.
+See [IFindReplaceAnnotations::FindPrevious](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~FindPrevious.html).
 
 ## Remarks
 
-You can use[IFindReplaceAnnotations::AnnotationFilter](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~AnnotationFilter.html)to filter your search and[IFindReplaceAnnotations::options](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~options.html)to further refine your search.
+You can use [IFindReplaceAnnotations::AnnotationFilter](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~AnnotationFilter.html) to filter your search and [IFindReplaceAnnotations::options](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFindReplaceAnnotations~options.html) to further refine your search.
 
 ## See Also
 
 [IFindReplaceAnnotations Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations.html)
-
 [IFindReplaceAnnotations Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations_members.html)
-
 [IFindReplaceAnnotations::FindNext Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations~FindNext.html)
 
 ## Availability

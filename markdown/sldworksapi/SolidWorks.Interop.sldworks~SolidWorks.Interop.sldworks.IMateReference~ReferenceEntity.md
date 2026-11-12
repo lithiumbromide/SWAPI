@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # ReferenceEntity Property (IMateReference)
 
-Obsolete. Superseded by
-
-[IMateReference::ReferenceEntity2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateReference~ReferenceEntity2.html)
-
-.
+Obsolete. Superseded by [IMateReference::ReferenceEntity2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateReference~ReferenceEntity2.html).
 
 ## Syntax
 
@@ -51,19 +47,11 @@ property Entity^ ReferenceEntity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Mate reference entity as define by
-
-[swMateReferenceIndex_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceIndex_e.html)
+- `Index`: Mate reference entity as define by [swMateReferenceIndex_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceIndex_e.html)
 
 ### Property Value
 
@@ -71,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[MateReference::ReferenceEntity](ms-its:sldworksapivb6.chm::/sldworks~MateReference~ReferenceEntity.html)
-
-.
+See [MateReference::ReferenceEntity](ms-its:sldworksapivb6.chm::/sldworks~MateReference~ReferenceEntity.html).
 
 ## Examples
 
@@ -83,12 +67,11 @@ See
 
 ## Remarks
 
-Before calling this property, call[IMateReference::ReferenceEntityCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateReference~ReferenceEntityCount.html)to determine the number of mate reference entities for the mate reference.
+Before calling this property, call [IMateReference::ReferenceEntityCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMateReference~ReferenceEntityCount.html) to determine the number of mate reference entities for the mate reference.
 
 ## See Also
 
 [IMateReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference.html)
-
 [IMateReference Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference_members.html)
 
 ## Availability

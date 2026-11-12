@@ -47,19 +47,11 @@ property System.double RecycledContent {
 
 ### Property Value
 
-Percentage of material that can be recycled (see
-
-Remarks
-
-)
+Percentage of material that can be recycled (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SustainabilityMaterial::RecycledContent](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~RecycledContent.html)
-
-.
+See [SustainabilityMaterial::RecycledContent](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityMaterial~RecycledContent.html).
 
 ## Examples
 
@@ -77,7 +69,6 @@ This property is read-only for assembly components. For parts, you can set the r
 ## See Also
 
 [ISustainabilityMaterial Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial.html)
-
 [ISustainabilityMaterial Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial_members.html)
 
 ## Availability

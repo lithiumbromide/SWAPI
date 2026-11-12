@@ -45,13 +45,7 @@ property System.Object^ D1EndConditionReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ End condition reference
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::D1EndConditionReference](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D1EndConditionReference.html)
-
-.
+See [BaseFlangeFeatureData::D1EndConditionReference](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~D1EndConditionReference.html).
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
 
 ## Availability

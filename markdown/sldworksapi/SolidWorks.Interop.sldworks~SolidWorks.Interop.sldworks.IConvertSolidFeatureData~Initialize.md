@@ -54,39 +54,21 @@ void Initialize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UseMaterialSheetMetalParameters`: True to use sheet metal parameters attached to the selected material, false to not (see
-
-Remarks
-
-)
+- `UseMaterialSheetMetalParameters`: True to use sheet metal parameters attached to the selected material, false to not (see **Remarks**)
 - `UseGaugeTableParameters`: True to use a gauge table values (material thickness, bend radius, and bend calculation method) as the basis of this feature, false to not
 - `CustomBendAllowance`: [ICustomBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomBendAllowance.html)
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData::Initialize](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~Initialize.html)
-
-.
+See [ConvertSolidFeatureData::Initialize](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~Initialize.html).
 
 ## Examples
 
-See the
-
-[IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
-examples.
+See the [IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html) examples.
 
 ## Remarks
 
@@ -95,7 +77,6 @@ UseMaterialSheetMetalParameters is valid only if a material is applied to the so
 ## See Also
 
 [IConvertSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
 
 ## Availability

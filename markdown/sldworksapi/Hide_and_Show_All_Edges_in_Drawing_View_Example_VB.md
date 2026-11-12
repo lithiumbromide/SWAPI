@@ -9,9 +9,7 @@ source: "sldworksapi/Hide_and_Show_All_Edges_in_Drawing_View_Example_VB.htm"
 
 # Hide and Show All Edges in Drawing View (VBA)
 
-This example shows how to hide and then show all of the edges in the root
-component in a drawing
-view.
+This example shows how to hide and then show all of the edges in the root component in a drawing view.
 
 ```
 '---------------------------------------------------------------------------

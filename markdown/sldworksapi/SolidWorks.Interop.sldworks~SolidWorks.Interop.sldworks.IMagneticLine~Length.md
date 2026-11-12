@@ -45,13 +45,7 @@ property System.double Length {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ Length in meters of this magnetic line
 
 ## VBA Syntax
 
-See
-
-[MagneticLine::Length](ms-its:sldworksapivb6.chm::/sldworks~MagneticLine~Length.html)
-
-.
+See [MagneticLine::Length](ms-its:sldworksapivb6.chm::/sldworks~MagneticLine~Length.html).
 
 ## Examples
 
 [Insert Magnetic Line (C#)](Insert_Magnetic_Line_Example_CSharp.htm)
-
 [Insert Magnetic Line (VB.NET)](Insert_Magnetic_Line_Example_VBNET.htm)
-
 [Insert Magnetic Line (VBA)](Insert_Magnetic_Line_Example_VB.htm)
 
 ## See Also
 
 [IMagneticLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine.html)
-
 [IMagneticLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine_members.html)
-
 [IMagneticLine::Angle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~Angle.html)
-
 [IMagneticLine::EndPoint Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~EndPoint.html)
-
 [IMagneticLine::StartPoint Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~StartPoint.html)
-
 [IMagneticLine::EqualSpacing Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMagneticLine~EqualSpacing.html)
 
 ## Availability

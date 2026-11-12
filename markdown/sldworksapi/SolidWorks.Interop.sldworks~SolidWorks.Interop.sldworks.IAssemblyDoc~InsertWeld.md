@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # InsertWeld Method (IAssemblyDoc)
 
-Obsolete. Do not use. Superseded by
-
-[IFeatureManager::InsertCosmeticWeldBead](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCosmeticWeldBead.html)
-
-.
+Obsolete. Do not use. Superseded by [IFeatureManager::InsertCosmeticWeldBead](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCosmeticWeldBead.html).
 
 ## Syntax
 
@@ -70,13 +66,7 @@ void InsertWeld(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -89,24 +79,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::InsertWeld](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertWeld.html)
-
-.
+See [AssemblyDoc::InsertWeld](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~InsertWeld.html).
 
 ## Remarks
 
-For the most up-to-date list of available types and shapes, see**C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english\gtol.sym**.
+For the most up-to-date list of available types and shapes, see **C:\ProgramData\SolidWorks\SolidWorks 20**`nn`\**lang**\**english\gtol.sym**.
 
-To programmatically select the top, stop, and contact faces for the weld bead and pass them as arrays, use[IAssemblyDoc::InsertWeld2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~InsertWeld2.html).
+To programmatically select the top, stop, and contact faces for the weld bead and pass them as arrays, use [IAssemblyDoc::InsertWeld2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~InsertWeld2.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IWeldBead Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html)
-
 [IWeldmentBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentBeadFeatureData.html)

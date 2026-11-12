@@ -55,13 +55,7 @@ System.Object^ GetClosestPointOn(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,28 +69,19 @@ Array of 5 doubles containing the (x,y,z) coordinates and the (u,v) parameters o
 
 ## VBA Syntax
 
-See
-
-[Surface::GetClosestPointOn](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetClosestPointOn.html)
-
-.
+See [Surface::GetClosestPointOn](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetClosestPointOn.html).
 
 ## Examples
 
 [Create Imported Surface Body from Sketch (C#)](Create_Imported_Surface_Body_from_Sketch_Example_CSharp.htm)
-
 [Cut Body in Half Using Macro Feature (VBA)](Cut_Body_in_Half_using_Macro_Feature_Example_VB.htm)
-
 [Evaluate Points on Surface (VBA)](Evaluate_Points_on_Surface_Example_VB.htm)
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IGetClosestPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetClosestPointOn.html)
-
 [ISurface::GetProjectedPointOn Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~GetProjectedPointOn.html)
 
 ## Availability

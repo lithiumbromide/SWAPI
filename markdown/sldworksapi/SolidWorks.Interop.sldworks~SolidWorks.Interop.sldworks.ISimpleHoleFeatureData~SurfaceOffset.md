@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # SurfaceOffset Property (ISimpleHoleFeatureData)
 
-Obsolete. Superseded by
-
-[ISimpleHoleFeatureData2::SurfaceOffset](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~SurfaceOffset.html)
-
-.
+Obsolete. Superseded by [ISimpleHoleFeatureData2::SurfaceOffset](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~SurfaceOffset.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double SurfaceOffset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData::SurfaceOffset](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~SurfaceOffset.html)
-
-.
+See [SimpleHoleFeatureData::SurfaceOffset](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData~SurfaceOffset.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData.html)
-
 [ISimpleHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData_members.html)

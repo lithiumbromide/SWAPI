@@ -53,25 +53,13 @@ void GetFileCopy(
 
 - `lParentWnd`: Parent window handle; 0 if none
 - `poVersionNoOrRevisionName`: Version number or revision string; 0 or "" to get the latest version
-- `poPathOrFolderID`: Optional ID or path of the folder where to deposit the file; default is to deposit in all of its parent folders (see
-
-Remarks
-
-)
-- `lEdmGetFlags`: Optional combination of
-
-[EdmGetFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetFlag.html)
-
-bits; default is EdmGet_MakeReadOnly
+- `poPathOrFolderID`: Optional ID or path of the folder where to deposit the file; default is to deposit in all of its parent folders (see **Remarks**)
+- `lEdmGetFlags`: Optional combination of [EdmGetFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetFlag.html) bits; default is EdmGet_MakeReadOnly
 - `bsNewName`: Optional new name for the retrieved file; "" indicates to use the file's current name
 
 ## Examples
 
-See the example for
-
-[IEdmFile5::GetFileCopy](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetFileCopy.html)
-
-.
+See the example for [IEdmFile5::GetFileCopy](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~GetFileCopy.html).
 
 ## Remarks
 
@@ -87,7 +75,6 @@ If you specify a folder ID of 0 in poPathOrFolderID, SOLIDWORKS PDM Professional
 ## See Also
 
 [IEdmEnumeratorVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5.html)
-
 [IEdmEnumeratorVersion5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion5_members.html)
 
 ## Availability

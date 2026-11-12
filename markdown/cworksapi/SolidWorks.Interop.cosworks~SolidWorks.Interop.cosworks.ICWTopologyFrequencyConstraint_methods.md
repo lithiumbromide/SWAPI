@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyFrequencyConstraint Interface Methods
 
-For a list of all members of this type, see[ICWTopologyFrequencyConstraint members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint_members.html).
+For a list of all members of this type, see [ICWTopologyFrequencyConstraint members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint_members.html).
 
 ## Public Methods
 
@@ -29,5 +29,4 @@ For a list of all members of this type, see[ICWTopologyFrequencyConstraint membe
 ## See Also
 
 [ICWTopologyFrequencyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

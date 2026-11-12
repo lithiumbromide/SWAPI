@@ -40,25 +40,15 @@ System.object GetViews()
 System.Object^ GetViews();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-An array of arrays (see**Remarks**)
+An array of arrays (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::GetViews](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetViews.html)
-
-.
+See [DrawingDoc::GetViews](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~GetViews.html).
 
 ## Examples
 
@@ -80,19 +70,12 @@ For example, when there are three sheets in the drawing document:
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::GetViewCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~GetViewCount.html)
-
 [IDrawingDoc::GetFirstView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~GetFirstView.html)
-
 [IDrawingDoc::IGetFirstView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~IGetFirstView.html)
-
 [ISheet::GetViews Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetViews.html)
-
 [IView::GetNextView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetNextView.html)
-
 [IView::IGetNextView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetNextView.html)
 
 ## Availability

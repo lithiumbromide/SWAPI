@@ -45,13 +45,7 @@ property System.double DraftAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ Draft angle
 
 ## VBA Syntax
 
-See
-
-[SimpleHoleFeatureData2::DraftAngle](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~DraftAngle.html)
-
-.
+See [SimpleHoleFeatureData2::DraftAngle](ms-its:sldworksapivb6.chm::/sldworks~SimpleHoleFeatureData2~DraftAngle.html).
 
 ## See Also
 
 [ISimpleHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
 [ISimpleHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2_members.html)
-
 [ISimpleHoleFeatureData2::DraftOutward Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~DraftOutward.html)
-
 [ISimpleHoleFeatureData2::DraftWhileExtruding Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleHoleFeatureData2~DraftWhileExtruding.html)
 
 ## Availability

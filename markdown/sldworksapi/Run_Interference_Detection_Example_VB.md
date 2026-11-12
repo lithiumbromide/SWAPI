@@ -9,8 +9,7 @@ source: "sldworksapi/Run_Interference_Detection_Example_VB.htm"
 
 # Run Interference Detection Example (VBA)
 
-This example shows how to run interference detection and observe the
-interferences in an assembly.
+This example shows how to run interference detection and observe the interferences in an assembly.
 
 ```vb
  '---------------------------------------------------------------------------

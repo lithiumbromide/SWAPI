@@ -47,13 +47,7 @@ System.bool GetExternalDocuments(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ True if the paths and filenames of the non-SOLIDWORKS files are returned, false 
 
 ## VBA Syntax
 
-See
-
-[PackAndGo::GetExternalDocuments](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~GetExternalDocuments.html)
-
-.
+See [PackAndGo::GetExternalDocuments](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~GetExternalDocuments.html).
 
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [IPackAndGo Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo_members.html)
-
 [IPackAndGo::AddExternalDocuments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~AddExternalDocuments.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICh
 
 # GetVertexChamferDistance Method (IChamferFeatureData)
 
-Obsolete. Superseded by
-
-[IChamferFeatureData2::GetVertexChamferDistance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~GetVertexChamferDistance.html)
-
-.
+Obsolete. Superseded by [IChamferFeatureData2::GetVertexChamferDistance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~GetVertexChamferDistance.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.double GetVertexChamferDistance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ChamferFeatureData::GetVertexChamferDistance](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData~GetVertexChamferDistance.html)
-
-.
+See [ChamferFeatureData::GetVertexChamferDistance](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData~GetVertexChamferDistance.html).
 
 ## See Also
 
 [IChamferFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData.html)
-
 [IChamferFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData_members.html)

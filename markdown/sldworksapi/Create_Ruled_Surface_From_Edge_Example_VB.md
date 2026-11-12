@@ -14,21 +14,21 @@ This example shows how to create a ruled surface body from an edge.
 ```vb
 '--------------------------------------------------------
 ' Preconditions: Model document is open and an edge is
-' kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}is selected on the model.
+'                is selected on the model.
 '
 ' Postconditions: Ruled surface body is created from the
-' kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}selected edge.
+'                 selected edge.
 '--------------------------------------------------------
 Option Explicit
 
 Public Enum swBodyType_e
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swAllBodies = 0
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swSolidBody = 1
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swSheetBody = 2
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swWireBody = 3
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swMinimumBody = 4
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swGeneralBody = 5
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swEmptyBody = 6
+    swAllBodies = 0
+    swSolidBody = 1
+    swSheetBody = 2
+    swWireBody = 3
+    swMinimumBody = 4
+    swGeneralBody = 5
+    swEmptyBody = 6
 End Enum
 
 Dim swApp As SldWorks.SldWorks
@@ -52,20 +52,20 @@ error = swModel.CreateRuledSurfaceFromEdge(swDoc, swEdgeList, 1, 0.02, True, Fal
 Dim typeBody As Long
 typeBody = swRuledBody.GetType()
 Select Case typeBody
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Case swAllBodies
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "All solid and sheet bodies"
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Case swSolidBody
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "Solid body"
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Case swSheetBody
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "Sheet body"
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Case swWireBody
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "Wire body"
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Case swMinimumBody
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "Point body"
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Case swGeneralBody
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "General, nonmanifold body"
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Case swEmptyBody
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print "NULL body"
+    Case swAllBodies
+        Debug.Print "All solid and sheet bodies"
+    Case swSolidBody
+        Debug.Print "Solid body"
+    Case swSheetBody
+        Debug.Print "Sheet body"
+    Case swWireBody
+        Debug.Print "Wire body"
+    Case swMinimumBody
+        Debug.Print "Point body"
+    Case swGeneralBody
+        Debug.Print "General, nonmanifold body"
+    Case swEmptyBody
+        Debug.Print "NULL body"
 
 End Select
 End Sub

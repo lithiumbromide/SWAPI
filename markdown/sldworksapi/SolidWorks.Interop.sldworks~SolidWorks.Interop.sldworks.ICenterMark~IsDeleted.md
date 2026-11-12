@@ -47,21 +47,11 @@ System.bool IsDeleted(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Index of the center mark in the center mark set (see
-
-Remarks
-
-)
+- `Index`: Index of the center mark in the center mark set (see **Remarks**)
 
 ### Return Value
 
@@ -69,34 +59,21 @@ True if the specified center mark in this center mark set is deleted, false if n
 
 ## VBA Syntax
 
-See
-
-[CenterMark::IsDeleted](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~IsDeleted.html)
-
-.
+See [CenterMark::IsDeleted](ms-its:sldworksapivb6.chm::/sldworks~CenterMark~IsDeleted.html).
 
 ## Examples
 
 [Get and Set Center Mark Set (C#)](Get_and_Set_Center_Marks_Set_Example_CSharp.htm)
-
 [Get and Set Center Mark Set (VB.NET)](Get_and_Set_Center_Marks_Set_Example_VBNET.htm)
-
 [Get and Set Center Mark Set (VBA)](Get_and_Set_Center_Marks_Set_Example_VBA.htm)
 
 ## Remarks
 
-You can use a value from 0 to the
-
-[number of center marks in a center mark set](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark~GroupCount.html)
-
-for the Index parameter.
-
-EndOLEPropertyRow
+You can use a value from 0 to the [number of center marks in a center mark set](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark~GroupCount.html) for the Index parameter.
 
 ## See Also
 
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [ICenterMark Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark_members.html)
 
 ## Availability

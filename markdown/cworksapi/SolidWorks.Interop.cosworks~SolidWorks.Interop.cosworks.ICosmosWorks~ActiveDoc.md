@@ -48,24 +48,17 @@ property CWModelDoc^ ActiveDoc {
 
 ## VBA Syntax
 
-See
-
-[CosmosWorks::ActiveDoc](ms-its:cworksapivb6.chm::/CosmosWorksLib~CosmosWorks~ActiveDoc.html)
-
-.
+See [CosmosWorks::ActiveDoc](ms-its:cworksapivb6.chm::/CosmosWorksLib~CosmosWorks~ActiveDoc.html).
 
 ## Examples
 
 [Create Nonlinear Study and Apply Materials (C#)](Create_Nonlinear_Study_and_Apply_Materials_Example_CSharp.htm)
-
 [Create Nonlinear Study and Apply Materials (VB.NET)](Create_Nonlinear_Study_and_Apply_Materials_Example_VBNET.htm)
-
 [Create Nonlinear Study and Apply Materials (VBA)](Create_Nonlinear_Study_and_Apply_Materials_Example_VB.htm)
 
 ## See Also
 
 [ICosmosWorks Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosmosWorks.html)
-
 [ICosmosWorks Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosmosWorks_members.html)
 
 ## Availability

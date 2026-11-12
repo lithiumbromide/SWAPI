@@ -44,17 +44,11 @@ property swDmDimXpertBlockToleranceType_e type {
 
 ### Property Value
 
-Type of block tolerance as defined in
-
-[swDmDimXpertBlockToleranceType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertBlockToleranceType_e.html)
+Type of block tolerance as defined in [swDmDimXpertBlockToleranceType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertBlockToleranceType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertBlockTolerances::type](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBlockTolerances~type.html)
-
-.
+See [SwDMDimXpertBlockTolerances::type](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBlockTolerances~type.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertBlockTolerances Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBlockTolerances.html)
-
 [ISwDMDimXpertBlockTolerances Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBlockTolerances_members.html)
 
 ## Availability

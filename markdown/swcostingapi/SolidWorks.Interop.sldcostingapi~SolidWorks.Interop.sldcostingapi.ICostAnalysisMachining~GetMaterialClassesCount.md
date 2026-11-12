@@ -46,26 +46,18 @@ Number of material classes
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisMachining::GetMaterialClassesCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetMaterialClassesCount.html)
-
-.
+See [CostAnalysisMachining::GetMaterialClassesCount](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~GetMaterialClassesCount.html).
 
 ## Remarks
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalsyisMachining::GetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~GetMaterialClasses.html)
-
 [ICostAnalsyisMachining::IGetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~IGetMaterialClasses.html)
-
 [ICostAnalsyisMachining::CurrentMaterialClass Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~CurrentMaterialClass.html)
 
 ## Availability

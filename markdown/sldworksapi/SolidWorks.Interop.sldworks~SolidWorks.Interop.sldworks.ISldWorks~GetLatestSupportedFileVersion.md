@@ -40,13 +40,7 @@ System.int GetLatestSupportedFileVersion()
 System.int GetLatestSupportedFileVersion();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -87,14 +81,11 @@ File version number that this instance of SOLIDWORKS supports
 | SOLIDWORKS 2023 | 16000 |
 | SOLIDWORKS 2024 | 17000 |
 | SOLIDWORKS 2025 | 18000 |
+| SOLIDWORKS 2026 | 19000 |
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetLatestSupportedFileVersion](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetLatestSupportedFileVersion.html)
-
-.
+See [SldWorks::GetLatestSupportedFileVersion](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetLatestSupportedFileVersion.html).
 
 ## Remarks
 
@@ -103,7 +94,6 @@ When opening a document whose version is less than the SOLIDWORKS latest support
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

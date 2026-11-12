@@ -40,40 +40,25 @@ System.int GetType()
 System.int GetType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Bend type as defined in
-
-[swBendType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBendType_e.html)
+Bend type as defined in [swBendType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBendType_e.html)
 
 ## VBA Syntax
 
-See
-
-[OneBendFeatureData::GetType](ms-its:sldworksapivb6.chm::/sldworks~OneBendFeatureData~GetType.html)
-
-.
+See [OneBendFeatureData::GetType](ms-its:sldworksapivb6.chm::/sldworks~OneBendFeatureData~GetType.html).
 
 ## Examples
 
 [Get Names of Sketch Segments (VBA)](Get_Names_of_Sketch_Segments_Example_VB.htm)
-
 [Get Names of Sketch Segments (VB.NET)](Get_Names_of_Sketch_Segments_Example_VBNET.htm)
-
 [Get Names of Sketch Segments (C#)](Get_Names_of_Sketch_Segments_Example_CSharp.htm)
 
 ## See Also
 
 [IOneBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IOneBendFeatureData.html)
-
 [IOneBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IOneBendFeatureData_members.html)
 
 ## Availability

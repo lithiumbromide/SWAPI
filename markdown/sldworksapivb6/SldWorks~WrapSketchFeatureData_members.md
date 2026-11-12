@@ -1,6 +1,5 @@
 ---
-title: "WrapSketchFeatureData Object
-Members"
+title: "WrapSketchFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "WrapSketchFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~WrapSketchFeatureData_members.html"
 ---
 
-# WrapSketchFeatureData Object
-Members
+# WrapSketchFeatureData Object Members
 
 ## Public Methods
 

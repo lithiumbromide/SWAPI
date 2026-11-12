@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTh
 
 # EMailTimebased Property (ICWThermalStudyOptions)
 
-Obsolete. Superseded by ICWThermalStudyOptions::EmailTimebased2.
+Obsolete. Superseded by [ICWThermalStudyOptions::EmailTimebased2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMailTimebased2.html).
 
 ## Syntax
 
@@ -51,22 +51,17 @@ property System.int EMailTimebased {
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::EMailTimebased](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~EMailTimebased.html)
-
-.
+See [CWThermalStudyOptions::EMailTimebased](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~EMailTimebased.html).
 
 ## Remarks
 
-This property is valid only if[ICWThermalStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMail.html)is set to 1.
+This property is valid only if [ICWThermalStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMail.html) is set to 1.
 
-If this property is set to 1, use[ICWThermalStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMailInterval.html)and[ICWThermalStudyOptions::EMailIntervalUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMailIntervalUnit.html)to specify the time interval for sending email notifications during simulations.
+If this property is set to 1, use [ICWThermalStudyOptions::EMailInterval](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMailInterval.html) and [ICWThermalStudyOptions::EMailIntervalUnit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~EMailIntervalUnit.html) to specify the time interval for sending email notifications during simulations.
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

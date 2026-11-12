@@ -45,13 +45,7 @@ property System.bool Foreshortened {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True if the linear dimension is foreshortened, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::Foreshortened](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~Foreshortened.html)
-
-.
+See [DisplayDimension::Foreshortened](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~Foreshortened.html).
 
 ## Examples
 
 [Get Whether Linear Dimension Is Foreshortened (C#)](Get_Whether_Linear_Dimension_Is_Foreshortened_Example_CSharp.htm)
-
 [Get Whether Linear Dimension Is Foreshortened (VB.NET)](Get_Whether_Linear_Dimension_Is_Foreshortened_Example_VBNET.htm)
-
 [Get Whether Linear Dimension Is Foreshortened (VBA)](Get_Whether_Linear_Dimension_Is_Foreshortened_Example_VB.htm)
 
 ## Remarks
@@ -80,11 +68,8 @@ This property is only valid for linear dimensions and only when the detailing st
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::DisplayAsLinear Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~DisplayAsLinear.html)
-
 [IModelDoc2::AddDimension2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddDimension2.html)
 
 ## Availability

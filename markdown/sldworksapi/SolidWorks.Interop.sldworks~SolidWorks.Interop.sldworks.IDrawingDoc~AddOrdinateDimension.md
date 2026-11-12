@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # AddOrdinateDimension Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::AddOrdinateDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~AddOrdinateDimension.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::AddOrdinateDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~AddOrdinateDimension.html).
 
 ## Syntax
 
@@ -63,13 +59,7 @@ System.bool AddOrdinateDimension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -80,14 +70,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::AddOrdinateDimension](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AddOrdinateDimension.html)
-
-.
+See [DrawingDoc::AddOrdinateDimension](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AddOrdinateDimension.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

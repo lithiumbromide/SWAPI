@@ -44,15 +44,11 @@ property gtcocswPowerSelect^ PowerSelect {
 
 ### Property Value
 
-Pointer to an[IPowerSelect](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IPowerSelect.html)object
+Pointer to an [IPowerSelect](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IPowerSelect.html) object
 
 ## VBA Syntax
 
-See
-
-[IUtilities::PowerSelect](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~PowerSelect.html)
-
-.
+See [IUtilities::PowerSelect](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~PowerSelect.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
 
 ## Availability

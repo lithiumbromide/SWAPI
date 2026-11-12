@@ -40,13 +40,7 @@ System.int GetLineCount()
 System.int GetLineCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,15 @@ Number of line segments
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::GetLineCount](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetLineCount.html)
-
-.
+See [WeldSymbol::GetLineCount](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetLineCount.html).
 
 ## Examples
 
-See the
-
-[IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
-examples.
+See the [IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html) examples.
 
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
-
 [IWeldSymbol::GetLineAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~GetLineAtIndex.html)
-
 [IWeldSymbol::IGetLineAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~IGetLineAtIndex.html)

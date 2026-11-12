@@ -9,57 +9,19 @@ source: "swconst/DP_Annotations-LocationLabel.htm"
 
 # Document Properties > Annotations > Location Label
 
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Base location label standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingLocationLabel, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the standard to use for a location label |
-| Frame style - Frame Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFrameLineStyle,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFrameLineStyle,
-swUserPreferenceOption_e.swDetailingLocationLabel, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies the style of the frame of a location label |
-| Frame style - Frame
-Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFrameLineThickness,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFrameLineThickness,
-swUserPreferenceOption_e.swDetailingLocationLabel, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies the thickness of the frame of a location label |
-| Frame style - Custom Thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelFrameLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelFrameLineThicknessCustom,
-swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | Double value | Specifies the custom thickness of the lines of a location label frame |
-| Text - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingLocationLabelTextFormat,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingLocationLabelTextFormat,
-swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | See ITextFormat for valid font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the set method |
-| Text - Upper | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelUpperText,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelUpperText,
-swUserPreferenceOption_e.swDetailingLocationLabel, swLocationLabelText_e.< Value >) | See swLocationLabelText_e for valid options | Specifies the text for the upper section of a location label |
-| Text - Lower | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelLowerText,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelLowerText,
-swUserPreferenceOption_e.swDetailingLocationLabel, swLocationLabelText_e.< Value >) | See swLocationLabelText_e for valid options | Specifies the text for the lower section of a location label |
-| Text -
-Don't add same sheet number | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingLocationLabelAddSameSheetNumber,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingLocationLabelAddSameSheetNumber,
-swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | Boolean value | Specifies whether to add the same
-sheet number to a location label |
-| Display zone of counterpart location label | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCounterpartLocationLabel,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCounterpartLocationLabel,
-swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | Boolean value | Specifies whether to display the zone of the counterpart location label |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | String value | Specifies the name of the layer to which to apply these settings; this setting
-is available only in drawings |
-| Style - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelStyle,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelStyle,
-swUserPreferenceOption_e.swDetailingLocationLabel, swBalloonStyle_e.< Value >) | See swBalloonStyle_e for valid options | Specifies the style of a location
-label |
-| Style - Size | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFit,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFit,
-swUserPreferenceOption_e.swDetailingLocationLabel, swBalloonFit_e.< Value >) | See swBalloonFit_e for valid options | Specifies the size of a location
-label |
-| Style - User defined | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelStyleCustomSize,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelStyleCustomSize,
-swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | Double value | Specifies a user-defined size of a location label |
-| Style - Padding | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelPadding,
-swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelPadding,
-swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | Double value | Specifies the size of the extra
-padding inside tight-fit borders for a location label |
+| Base location label standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingLocationLabel, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the standard to use for a location label |
+| Frame style - Frame Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFrameLineStyle, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFrameLineStyle, swUserPreferenceOption_e.swDetailingLocationLabel, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies the style of the frame of a location label |
+| Frame style - Frame Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFrameLineThickness, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFrameLineThickness, swUserPreferenceOption_e.swDetailingLocationLabel, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies the thickness of the frame of a location label |
+| Frame style - Custom Thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelFrameLineThicknessCustom, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelFrameLineThicknessCustom, swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | Double value | Specifies the custom thickness of the lines of a location label frame |
+| Text - Font | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingLocationLabelTextFormat, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingLocationLabelTextFormat, swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | See ITextFormat for valid font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the set method |
+| Text - Upper | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelUpperText, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelUpperText, swUserPreferenceOption_e.swDetailingLocationLabel, swLocationLabelText_e.< Value >) | See swLocationLabelText_e for valid options | Specifies the text for the upper section of a location label |
+| Text - Lower | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelLowerText, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelLowerText, swUserPreferenceOption_e.swDetailingLocationLabel, swLocationLabelText_e.< Value >) | See swLocationLabelText_e for valid options | Specifies the text for the lower section of a location label |
+| Text - Don't add same sheet number | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingLocationLabelAddSameSheetNumber, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingLocationLabelAddSameSheetNumber, swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | Boolean value | Specifies whether to add the same sheet number to a location label |
+| Display zone of counterpart location label | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCounterpartLocationLabel, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDisplayCounterpartLocationLabel, swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | Boolean value | Specifies whether to display the zone of the counterpart location label |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | String value | Specifies the name of the layer to which to apply these settings; this setting is available only in drawings |
+| Style - Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelStyle, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelStyle, swUserPreferenceOption_e.swDetailingLocationLabel, swBalloonStyle_e.< Value >) | See swBalloonStyle_e for valid options | Specifies the style of a location label |
+| Style - Size | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFit, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLocationLabelFit, swUserPreferenceOption_e.swDetailingLocationLabel, swBalloonFit_e.< Value >) | See swBalloonFit_e for valid options | Specifies the size of a location label |
+| Style - User defined | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelStyleCustomSize, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelStyleCustomSize, swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | Double value | Specifies a user-defined size of a location label |
+| Style - Padding | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelPadding, swUserPreferenceOption_e.swDetailingLocationLabel) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swDetailingLocationLabelPadding, swUserPreferenceOption_e.swDetailingLocationLabel, < Value >) | Double value | Specifies the size of the extra padding inside tight-fit borders for a location label |

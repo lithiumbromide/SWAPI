@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # SetModeTrackingFlag Method (ICWTopologyFrequencyConstraint)
 
-Obsolete. Superseded by
-
-[ICWTopologyFrequencyConstraint::SetModeTrackingFlag2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint~SetModeTrackingFlag2.html)
-
-.
+Obsolete. Superseded by [ICWTopologyFrequencyConstraint::SetModeTrackingFlag2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint~SetModeTrackingFlag2.html).
 
 ## Syntax
 
@@ -56,24 +52,15 @@ void SetModeTrackingFlag(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyFrequencyConstraint::SetModeTrackingFlag](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~SetModeTrackingFlag.html)
-
-.
+See [CWTopologyFrequencyConstraint::SetModeTrackingFlag](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyFrequencyConstraint~SetModeTrackingFlag.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
-example.
+See the [ICWTopologyFrequencyConstraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html) example.
 
 ## See Also
 
 [ICWTopologyFrequencyConstraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint.html)
-
 [ICWTopologyFrequencyConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyFrequencyConstraint_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.bool ResetStandardViews()
 System.bool ResetStandardViews();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True to return all standard model views to their default settings, false to not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ResetStandardViews](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~ResetStandardViews.html)
-
-.
+See [ModelDocExtension::ResetStandardViews](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~ResetStandardViews.html).
 
 ## Remarks
 
@@ -67,11 +57,8 @@ This method works with parts and assemblies only.
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::UpdateStandardViews Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~UpdateStandardViews.html)
-
 [IModelDoc2::ShowNamedView2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ShowNamedView2.html)
 
 ## Availability

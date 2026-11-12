@@ -51,13 +51,7 @@ System.int SetUseGaugeTable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,24 +60,16 @@ See
 
 ### Return Value
 
-Result code as defined in
-
-[swSheetMetalModifierError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalModifierError_e.html)
+Result code as defined in [swSheetMetalModifierError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalModifierError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SheetMetalFeatureData::SetUseGaugeTable](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~SetUseGaugeTable.html)
-
-.
+See [SheetMetalFeatureData::SetUseGaugeTable](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFeatureData~SetUseGaugeTable.html).
 
 ## See Also
 
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
-
 [ISheetMetalFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData_members.html)
-
 [ISheetMetalFeatureData::GetUseGaugeTable Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData~GetUseGaugeTable.html)
 
 ## Availability

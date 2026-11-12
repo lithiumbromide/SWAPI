@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReferen
 
 # GetNextRef Method (IEdmEnumeratorCustomReference5)
 
-Obsolete. Supserseded by
-
-[IEdmEnumeratorCustomReference6::GetNextRef2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference6~GetNextRef2.html)
-
-.
+Obsolete. Supserseded by [IEdmEnumeratorCustomReference6::GetNextRef2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference6~GetNextRef2.html).
 
 ## Syntax
 
@@ -49,9 +45,7 @@ System.String^ GetNextRef(
 
 ### Parameters
 
-- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the next custom file reference
+- `poPos`: [IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the next custom file reference
 - `plFileID`: ID of the referenced file
 - `plFolderID`: ID of the parent folder of the referenced file
 
@@ -61,11 +55,11 @@ Path name of the referenced file
 
 ## Remarks
 
-Before calling this method the first time, you must populate poPos with the interface to the position of the first custom file reference, IEdmPos5. Call[IEdmEnumeratorCustomReference5::GetFirstRefPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5~GetFirstRefPosition.html)to obtain IEdmPos5.
+Before calling this method the first time, you must populate poPos with the interface to the position of the first custom file reference, IEdmPos5. Call [IEdmEnumeratorCustomReference5::GetFirstRefPosition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5~GetFirstRefPosition.html) to obtain IEdmPos5.
 
 After calling this method the first time, poPos is automatically incremented every time it is called. Call this method repeatedly to obtain the rest of the custom file references.
 
-Be sure to call[IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html)before you call this method to ensure you have not reached the end of the enumeration.
+Be sure to call [IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~IsNull.html) before you call this method to ensure you have not reached the end of the enumeration.
 
 [Return codes](ReturnCodes.htm):
 
@@ -75,7 +69,6 @@ Be sure to call[IEdmPos5::IsNull](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5~I
 ## See Also
 
 [IEdmEnumeratorCustomReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5.html)
-
 [IEdmEnumeratorCustomReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5_members.html)
 
 ## Availability

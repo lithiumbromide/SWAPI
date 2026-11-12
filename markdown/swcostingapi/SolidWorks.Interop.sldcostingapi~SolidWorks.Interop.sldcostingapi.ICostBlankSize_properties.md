@@ -9,7 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # ICostBlankSize Interface Properties
 
-For a list of all members of this type, see[ICostBlankSize members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBlankSize_members.html).
+For a list of all members of this type, see [ICostBlankSize members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBlankSize_members.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[ICostBlankSize members](SolidWorks.I
 ## See Also
 
 [ICostBlankSize Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBlankSize.html)
-
 [SolidWorks.Interop.sldcostingapi Namespace](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi_namespace.html)

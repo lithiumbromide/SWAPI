@@ -39,30 +39,17 @@ void ResetPropertyExtension2()
 void ResetPropertyExtension2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Body2::ResetPropertyExtension2](ms-its:sldworksapivb6.chm::/sldworks~Body2~ResetPropertyExtension2.html)
-
-.
+See [Body2::ResetPropertyExtension2](ms-its:sldworksapivb6.chm::/sldworks~Body2~ResetPropertyExtension2.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::AddPropertyExtension2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~AddPropertyExtension2.html)
-
 [IBody2::GetPropertyExtension2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetPropertyExtension2.html)
 
 ## Availability

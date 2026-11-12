@@ -9,7 +9,7 @@ source: "fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureW
 
 # IFeatureWorksApp Interface Members
 
-The following tables list the members exposed by[IFeatureWorksApp](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp.html).
+The following tables list the members exposed by [IFeatureWorksApp](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp.html).
 
 ## Public Methods
 
@@ -26,5 +26,4 @@ The following tables list the members exposed by[IFeatureWorksApp](SolidWorks.In
 ## See Also
 
 [IFeatureWorksApp Interface](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp.html)
-
 [SolidWorks.Interop.fworks Namespace](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks_namespace.html)

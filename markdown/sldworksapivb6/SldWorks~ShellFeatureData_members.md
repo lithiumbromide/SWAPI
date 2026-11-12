@@ -1,6 +1,5 @@
 ---
-title: "ShellFeatureData Object
-Members"
+title: "ShellFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ShellFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ShellFeatureData_members.html"
 ---
 
-# ShellFeatureData Object
-Members
+# ShellFeatureData Object Members
 
 ## Public Methods
 

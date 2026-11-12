@@ -42,19 +42,11 @@ System.Object^ GetSubFeatures();
 
 ### Return Value
 
-Array of
-
-[IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)
-
-s
+Array of [IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)s
 
 ## VBA Syntax
 
-See
-
-[DimXpertExtrudeFeature::GetSubFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertExtrudeFeature~GetSubFeatures.html)
-
-.
+See [DimXpertExtrudeFeature::GetSubFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertExtrudeFeature~GetSubFeatures.html).
 
 ## Remarks
 
@@ -63,7 +55,6 @@ This method returns all sub-features of this extrude feature. All of the sub-fea
 ## See Also
 
 [IDimXpertExtrudeFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature.html)
-
 [IDimXpertExtrudeFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertExtrudeFeature_members.html)
 
 ## Availability

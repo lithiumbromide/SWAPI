@@ -42,13 +42,7 @@ property System.Object^ FeatureUpdatePercentageTimes {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,28 +50,19 @@ Array of percentages of time it takes to update (rebuild) each feature in a part
 
 ## VBA Syntax
 
-See
-
-[FeatureStatistics::FeatureUpdatePercentageTimes](ms-its:sldworksapivb6.chm::/sldworks~FeatureStatistics~FeatureUpdatePercentageTimes.html)
-
-.
+See [FeatureStatistics::FeatureUpdatePercentageTimes](ms-its:sldworksapivb6.chm::/sldworks~FeatureStatistics~FeatureUpdatePercentageTimes.html).
 
 ## Examples
 
 [Get Part's Feature Statistics (VB.NET)](Get_Part's_Feature_Statistics_Example_VBNET.htm)
-
 [Get Part's Feature Statistics (VBA)](Get_Part's_Feature_Statistics_Example_VB.htm)
-
 [Get Part's Feature Statistics (C#)](Get_Part's_Feature_Statistics_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureStatistics Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureStatistics.html)
-
 [IFeatureStatistics Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureStatistics_members.html)
-
 [IFeatureStatistics::FeatureUpdateTimes Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureStatistics~FeatureUpdateTimes.html)
-
 [IFeatureStatistics::TotalRebuildTime Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureStatistics~TotalRebuildTime.html)
 
 ## Availability

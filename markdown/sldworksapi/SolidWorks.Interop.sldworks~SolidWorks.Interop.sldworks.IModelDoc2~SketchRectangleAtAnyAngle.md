@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SketchRectangleAtAnyAngle Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[ISketchManager::Create3PointCornerRectangle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~Create3PointCornerRectangle.html)
-
-.
+Obsolete. Superseded by [ISketchManager::Create3PointCornerRectangle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~Create3PointCornerRectangle.html).
 
 ## Syntax
 
@@ -86,13 +82,7 @@ void SketchRectangleAtAnyAngle(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -109,18 +99,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchRectangleAtAnyAngle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchRectangleAtAnyAngle.html)
-
-.
+See [ModelDoc2::SketchRectangleAtAnyAngle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchRectangleAtAnyAngle.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SketchRectangle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchRectangle.html)
 
 ## Availability

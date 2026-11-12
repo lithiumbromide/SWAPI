@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # ISketchArc Interface Methods
 
-For a list of all members of this type, see[ISketchArc members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc_members.html).
+For a list of all members of this type, see [ISketchArc members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc_members.html).
 
 ## Public Methods
 
@@ -39,7 +39,5 @@ For a list of all members of this type, see[ISketchArc members](SolidWorks.Inter
 ## See Also
 
 [ISketchArc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::SketchArc Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchArc.html)

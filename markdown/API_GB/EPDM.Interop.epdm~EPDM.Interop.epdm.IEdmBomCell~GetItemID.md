@@ -37,11 +37,7 @@ Row index
 
 ## Examples
 
-See the
-
-[IEdmBomCell](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html)
-
-examples.
+See the [IEdmBomCell](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html) examples.
 
 ## Remarks
 
@@ -53,7 +49,6 @@ examples.
 ## See Also
 
 [IEdmBomCell Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html)
-
 [IEdmBomCell Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell_members.html)
 
 ## Availability

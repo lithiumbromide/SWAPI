@@ -9,6 +9,12 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertSketchPictureData Method (IModelDoc2)
 
+Obsolete. Superseded by [IModelDoc2::InsertSketchPictureDatax64](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertSketchPictureDatax64.html).
+
+This method is unsafe to use with 64-bit SOLIDWORKS, i.e. all versions since SOLIDWORKS 2016.
+
+The 32-bit integer returned may be to small to contain the 64-bit window handle/pointer, and will be truncated silently. A critical exception will occur sometime later, when the truncated handle/pointer is used.
+
 Inserts a picture into the current sketch.
 
 ## Syntax
@@ -54,13 +60,7 @@ void InsertSketchPictureData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,24 +70,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertSketchPictureData](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSketchPictureData.html)
-
-.
+See [ModelDoc2::InsertSketchPictureData](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertSketchPictureData.html).
 
 ## Remarks
 
-If your application must be x64 compatible, then use[IModelDoc2::InsertSketchPictureDatax64](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertSketchPictureDatax64.html).
+**All applications are required to be compatible with SOLIDWORKS x64. You must replace all calls to 32-bit only APIs with calls to their 64-bit safe counterparts.**
 
-A copy of the specified bitmap data is created. The SOLIDWORKS software does not release your bitmap object.
+See [Eliminating 32-bit only API use](sldworksapiprogguide.chm::/Overview/Eliminating_32-Bit_Only_API_Use.htm) for more information.
+
+A copy of the specified bitmap data is created. The SOLIDWORKS Design software does not release your bitmap object.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertSketchPicture Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertSketchPicture.html)
 
 ## Availability

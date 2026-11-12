@@ -46,35 +46,21 @@ public delegate System.int DPartDocEvents_SensorAlertPreNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `SensorIn`: [Sensor](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISensor.html)
-- `SensorAlertType`: Type of sensor as defined in
-
-[swSensorAlertType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSensorAlertType_e.html)
+- `SensorAlertType`: Type of sensor as defined in [swSensorAlertType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSensorAlertType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SensorAlertPreNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~SensorAlertPreNotify_EV.html)
-
-.
+See [SensorAlertPreNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~SensorAlertPreNotify_EV.html).
 
 ## Examples
 
 [Get and Set Sensor (C#)](Get_and_Set_Sensor_Example_CSharp.htm)
-
 [Get and Set Sensor (VB.NET)](Get_and_Set_Sensor_Example_VBNET.htm)
-
 [Get and Set Sensor (VBA)](Get_and_Set_Sensor_Example_VB.htm)
 
 ## Availability

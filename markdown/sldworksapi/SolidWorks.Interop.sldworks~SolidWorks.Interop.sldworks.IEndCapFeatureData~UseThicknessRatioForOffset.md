@@ -45,13 +45,7 @@ property System.bool UseThicknessRatioForOffset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to use a ratio of the thickness, false to not
 
 ## VBA Syntax
 
-See
-
-[EndCapFeatureData::UseThicknessRatioForOffset](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~UseThicknessRatioForOffset.html)
-
-.
+See [EndCapFeatureData::UseThicknessRatioForOffset](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~UseThicknessRatioForOffset.html).
 
 ## Examples
 
-See the
-
-[IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html)
-
-examples.
+See the [IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html) examples.
 
 ## Remarks
 
@@ -83,9 +69,7 @@ examples.
 ## See Also
 
 [IEndCapFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData.html)
-
 [IEndCapFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData_members.html)
-
 [IEndCapFeatureData::Thickness Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData~Thickness.html)
 
 ## Availability

@@ -47,13 +47,7 @@ Feature^ InsertDeleteBody2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertDeleteBody2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertDeleteBody2.html)
-
-.
+See [FeatureManager::InsertDeleteBody2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertDeleteBody2.html).
 
 ## Examples
 
 [Insert Body-Delete/Keep Feature (VBA)](Insert_Delete_Body_Feature_Example_VB.htm)
-
 [Insert Body-Delete/Keep Feature (VB.NET)](Insert_Delete_Body_Feature_Example_VBNET.htm)
-
 [Insert Body-Delete/Keep Feature (C#)](Insert_Delete_Body_Feature_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IDeleteBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDeleteBodyFeatureData.html)
 
 ## Availability

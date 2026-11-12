@@ -54,31 +54,17 @@ void Next(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Celt`: Number of sketch points for the sketch points enumeration
-- `Rgelt`: Pointer to an array of
-
-[sketch points](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-of size Celt
+- `Rgelt`: Pointer to an array of [sketch points](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) of size Celt
 - `PceltFetched`: Pointer to the number of sketch points returned from the list; this value can be less than celt if you ask for more sketch points than exist, or it can be NULL if no more sketch points exist
 
 ## VBA Syntax
 
-See
-
-[EnumSketchPoints::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchPoints~Next.html)
-
-.
+See [EnumSketchPoints::Next](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchPoints~Next.html).
 
 ## Remarks
 
@@ -87,7 +73,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumSketchPoints Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchPoints.html)
-
 [IEnumSketchPoints Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchPoints_members.html)
 
 ## Availability

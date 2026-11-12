@@ -62,16 +62,11 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositePositionTolerance::GetMaxTolerance](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositePositionTolerance~GetMaxTolerance.html)
-
-.
+See [DimXpertCompositePositionTolerance::GetMaxTolerance](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositePositionTolerance~GetMaxTolerance.html).
 
 ## See Also
 
 [IDimXpertCompositePositionTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance.html)
-
 [IDimXpertCompositePositionTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositePositionTolerance_members.html)
 
 ## Availability

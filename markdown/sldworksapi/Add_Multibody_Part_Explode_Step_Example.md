@@ -40,7 +40,7 @@ This example shows how to create an explode view of a multibody part.
  Dim varViews As Variant
 ```
 
-D im configVar As Variant
+Dim configVar As Variant
 
 ```vb
  Dim boolstatus As Boolean

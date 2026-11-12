@@ -42,36 +42,25 @@ System.int TemperatureEndEdit();
 
 ### Return Value
 
-Error as defined in[swsTemperatureEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureEndEditError_e.html)
+Error as defined in [swsTemperatureEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTemperature::TemperatureEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTemperature~TemperatureEndEdit.html)
-
-.
+See [CWTemperature::TemperatureEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTemperature~TemperatureEndEdit.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
 
 ## Remarks
 
-You must call
-
-[ICWTemperature::TemperatureBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWTemperature~TemperatureBeginEdit.html)
-
-to start editing the temperature. To end editing the temperature, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWTemperature::TemperatureBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWTemperature~TemperatureBeginEdit.html) to start editing the temperature. To end editing the temperature, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWTemperature Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature.html)
-
 [ICWTemperature Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTemperature_members.html)
 
 ## Availability

@@ -51,13 +51,7 @@ System.int SetGroupVisible(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage::SetGroupVisible](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage~SetGroupVisible.html)
-
-.
+See [PropertyManagerPage::SetGroupVisible](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage~SetGroupVisible.html).
 
 ## See Also
 
 [IPropertyManagerPage Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage.html)
-
 [IPropertyManagerPage Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage_members.html)

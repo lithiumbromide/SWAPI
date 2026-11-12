@@ -1,6 +1,5 @@
 ---
-title: "ToolingSplitFeatureData Object
-Members"
+title: "ToolingSplitFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ToolingSplitFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ToolingSplitFeatureData_members.html"
 ---
 
-# ToolingSplitFeatureData Object
-Members
+# ToolingSplitFeatureData Object Members
 
 ## Public Methods
 

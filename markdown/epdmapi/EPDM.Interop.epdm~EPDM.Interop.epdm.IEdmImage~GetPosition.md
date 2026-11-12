@@ -39,9 +39,7 @@ void GetPosition(
 
 ### Parameters
 
-- `poDestRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html)
-
-structure; contains the size and position where to draw the image
+- `poDestRect`: [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html) structure; contains the size and position where to draw the image
 
 ## Remarks
 
@@ -52,7 +50,6 @@ structure; contains the size and position where to draw the image
 ## See Also
 
 [IEdmImage Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage.html)
-
 [IEdmImage Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage_members.html)
 
 ## Availability

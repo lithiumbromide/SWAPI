@@ -40,13 +40,7 @@ System.bool IsMirrored()
 System.bool IsMirrored();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ True if the part is mirrored, false if not
 
 ## VBA Syntax
 
-See
-
-[PartDoc::IsMirrored](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IsMirrored.html)
-
-.
+See [PartDoc::IsMirrored](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IsMirrored.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IComponent2::IsMirrored Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsMirrored.html)
-
 [IAssemblyDoc::MirrorComponents3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~MirrorComponents3.html)
 
 ## Availability

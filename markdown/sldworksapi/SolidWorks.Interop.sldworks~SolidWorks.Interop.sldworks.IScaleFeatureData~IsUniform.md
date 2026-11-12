@@ -45,13 +45,7 @@ property System.bool IsUniform {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,18 @@ True for uniform scaling, false for non-uniform scaling
 
 ## VBA Syntax
 
-See
-
-[ScaleFeatureData::IsUniform](ms-its:sldworksapivb6.chm::/sldworks~ScaleFeatureData~IsUniform.html)
-
-.
+See [ScaleFeatureData::IsUniform](ms-its:sldworksapivb6.chm::/sldworks~ScaleFeatureData~IsUniform.html).
 
 ## Examples
 
-See
-
-[IScaleFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData.html)
-
-examples.
+See [IScaleFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData.html) examples.
 
 ## See Also
 
 [IScaleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData.html)
-
 [IScaleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData_members.html)
-
 [IScaleFeatureData::GetScale Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData~GetScale.html)
-
 [IScaleFeatureData::SetScale Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData~SetScale.html)
-
 [IScaleFeatureData::ScaleUniform Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData~ScaleUniform.html)
 
 ## Availability

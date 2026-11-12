@@ -47,19 +47,11 @@ TreeControlItem^ GetFeatureTreeRootItem2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `WhichPane`: FeatureManager design tree pane as defined in
-
-[swFeatMgrPane_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatMgrPane_e.html)
+- `WhichPane`: FeatureManager design tree pane as defined in [swFeatMgrPane_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatMgrPane_e.html)
 
 ### Return Value
 
@@ -67,24 +59,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::GetFeatureTreeRootItem2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetFeatureTreeRootItem2.html)
-
-.
+See [FeatureManager::GetFeatureTreeRootItem2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetFeatureTreeRootItem2.html).
 
 ## Examples
 
 [Expand or Collapse FeatureManager Design Tree Nodes (VBA)](Expand_and_Collapse_FeatureManager_Design_Tree_Nodes_VB.htm)
-
 [Expand or Collapse FeatureManager Design Tree Nodes (VB.NET)](Expand_and_Collapse_FeatureManager_Design_Tree_Nodes_Example_VBNET.htm)
-
 [Expand or Collapse FeatureManager Design Tree Nodes (C#)](Expand_and_Collapse_FeatureManager_Design_Tree_Nodes_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

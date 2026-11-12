@@ -9,27 +9,13 @@ source: "sldworksapi/Reset_Untitled_Document_Count_Example_CSharp.htm"
 
 # Reset Untitled Document Count Example (C#)
 
-kadov_tag{{</spaces>}}For new untitled documents, SOLIDWORKS
-increments the untitled document count and generates a document name by
-appending the count to the document type. By default, Part1 is for the first untitled document in a SOLIDWORKS session,
-Part2 for the next untitled document in that same SOLIDWORKS session, etc.).kadov_tag{{</spaces>}}The untitled
-document count is automatically reset between SOLIDWORKS sessions.
+For new untitled documents, SOLIDWORKS Design increments the untitled document count and generates a document name by appending the count to the document type. By default, Part1 is for the first untitled document in a SOLIDWORKS Design session, Part2 for the next untitled document in that same SOLIDWORKS Design session, etc.). The untitled document count is automatically reset between SOLIDWORKS Design sessions.
 
-You can usekadov_tag{{</spaces>}}ISldWorks::ResetUntitledCount to
-reset the untitled document
-count within a single SOLIDWORKS session.
+You can use ISldWorks::ResetUntitledCount to reset the untitled document count within a single SOLIDWORKS Design session.
 
-The following code example demonstrates how to use ISldWorks::ResetUntitledCount
-to reset the untitled document count.kadov_tag{{</spaces>}}The
-code resets the untitled document count at the beginning of the SOLIDWORKS
-session, creates two
-untitled documents, maximizes one document, and minimizes the second document.
+The following code example demonstrates how to use ISldWorks::ResetUntitledCount to reset the untitled document count. The code resets the untitled document count at the beginning of the SOLIDWORKS Design session, creates two untitled documents, maximizes one document, and minimizes the second document.
 
-**NOTE:**Programs designed to run multiple times in the same SOLIDWORKS session
-should either assign titles to new documents or reset the untitled document
-count at the beginning of the SOLIDWORKS session.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}This
-ensures that SOLIDWORKS creates predictable names for untitled documents,
-resulting in predictable outcomes for each invocation of the program.
+**NOTE:** Programs designed to run multiple times in the same SOLIDWORKS Design session should either assign titles to new documents or reset the untitled document count at the beginning of the SOLIDWORKS Design session. This ensures that SOLIDWORKS Design creates predictable names for untitled documents, resulting in predictable outcomes for each invocation of the program.
 
 ```
 //--------------------------------------------------------------
@@ -65,7 +51,7 @@ namespace Macro1CSharp.csproj
 
 ```
             // When a new untitled document is created,
-            // SOLIDWORKS increments the untitled document
+            // SOLIDWORKS Design increments the untitled document
             // count to 9
             // The next untitled document gets a name with
             // count = 9 ("Part9")
@@ -82,7 +68,7 @@ namespace Macro1CSharp.csproj
 
 ```
             // When a new untitled document is created,
-            // SOLIDWORKS increments the untitled document
+            // SOLIDWORKS Design increments the untitled document
             // count to 10
             // The next untitled document gets a name with
             // count = 10 ("Part10")

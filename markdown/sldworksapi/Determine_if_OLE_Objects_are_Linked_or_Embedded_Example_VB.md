@@ -9,8 +9,7 @@ source: "sldworksapi/Determine_if_OLE_Objects_are_Linked_or_Embedded_Example_VB.
 
 # Determine if OLE Objects are Linked or Embedded Example (VBA)
 
-This example shows how to determine if the OLE objects on a document
-are linked to external files or embedded in the document.
+This example shows how to determine if the OLE objects on a document are linked to external files or embedded in the document.
 
 ```
 '------------------------------------------

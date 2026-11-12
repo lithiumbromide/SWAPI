@@ -45,13 +45,7 @@ property System.bool Shoulder {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True if this datum tag has a shoulder, false if not
 
 ## VBA Syntax
 
-See
-
-[DatumTag::Shoulder](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~Shoulder.html)
-
-.
+See [DatumTag::Shoulder](ms-its:sldworksapivb6.chm::/sldworks~DatumTag~Shoulder.html).
 
 ## Remarks
 
@@ -72,9 +62,7 @@ Although you get or set this property at any time, this property only applies to
 ## See Also
 
 [IDatumTag Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag.html)
-
 [IDatumTag Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag_members.html)
-
 [IDatumTag::ForcedShoulder Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTag~ForcedShoulder.html)
 
 ## Availability

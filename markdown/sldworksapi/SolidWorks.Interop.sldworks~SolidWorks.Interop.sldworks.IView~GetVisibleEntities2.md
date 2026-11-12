@@ -51,22 +51,12 @@ System.Object^ GetVisibleEntities2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `LpViewComponent`: [Component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-from which to get EntityType
-- `EntityType`: Type of entity as defined in
-
-[swViewEntityType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewEntityType_e.html)
+- `LpViewComponent`: [Component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) from which to get EntityType
+- `EntityType`: Type of entity as defined in [swViewEntityType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewEntityType_e.html)
 
 ### Return Value
 
@@ -74,18 +64,12 @@ Array of the visible entities of EntityType in LpViewComponent
 
 ## VBA Syntax
 
-See
-
-[View::GetVisibleEntities2](ms-its:sldworksapivb6.chm::/sldworks~View~GetVisibleEntities2.html)
-
-.
+See [View::GetVisibleEntities2](ms-its:sldworksapivb6.chm::/sldworks~View~GetVisibleEntities2.html).
 
 ## Examples
 
 [Get Visible Components and Entities in Drawing View (VBA)](Get_Visible_Components_and_Entities_in_Drawing_View_Example_VB.htm)
-
 [Get Visible Components and Entities in Drawing View (VB.NET)](Get_Visible_Components_and_Entites_in_a_Drawing_View_Example_VBNET.htm)
-
 [Get Visible Components and Entities in Drawing View (C#)](Get_Visible_Components_and_Entites_in_a_Drawing_View_Example_CSharp.htm)
 
 ## Remarks
@@ -97,23 +81,14 @@ The difference between this method and the now obsolete IView::GetVisibleEntitie
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::IGetVisibleEntities2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetVisibleEntities2.html)
-
 [IView::GetVisibleEntityCount2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetVisibleEntityCount2.html)
-
 [IView::GetVisibleComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetVisibleComponents.html)
-
 [IView::GetVisibleComponentCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetVisibleComponentCount.html)
-
 [IView::IGetVisibleComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetVisibleComponents.html)
-
 [IView::GetHiddenComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetHiddenComponents.html)
-
 [IView::EnumHiddenComponents2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~EnumHiddenComponents2.html)
-
 [IView::GetVisibleDrawingComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetVisibleDrawingComponents.html)
 
 ## Availability

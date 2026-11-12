@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Face_Plane_Intersection_SSMember_Example_VBNET.htm"
 
 # Create Face Plane Intersection Structure System Member (VB.NET)
 
-This example shows how to create a structure system member along the
-intersection of a face and a plane.
+This example shows how to create a structure system member along the intersection of a face and a plane.
 
 ```vb
   '==========================================================================================

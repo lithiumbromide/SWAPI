@@ -49,33 +49,21 @@ EdmMBoxResult MsgBox(
 ### Parameters
 
 - `lParentWnd`: Handle of the parent window
-- `lMsgID`: ID of the message to be shown (see
-
-Remarks
-
-)
+- `lMsgID`: ID of the message to be shown (see **Remarks**)
 - `bsMsg`: Message to be displayed
-- `eType`: Message box type as defined in
-
-[EdmMBoxType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxType.html)
+- `eType`: Message box type as defined in [EdmMBoxType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxType.html)
 
 ### Return Value
 
-Message box result as defined in
-
-[EdmMBoxResult](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxResult.html)
+Message box result as defined in [EdmMBoxResult](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmMBoxResult.html)
 
 ## Examples
 
-See the
-
-[IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html)
-
-examples.
+See the [IEdmCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html) examples.
 
 ## Remarks
 
-For callbacks during add operations, IMsgID is one of the values defined in[EdmAddCallbackMsgID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddCallbackMsgID.html).
+For callbacks during add operations, IMsgID is one of the values defined in [EdmAddCallbackMsgID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddCallbackMsgID.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -85,7 +73,6 @@ For callbacks during add operations, IMsgID is one of the values defined in[EdmA
 ## See Also
 
 [IEdmCallback6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6.html)
-
 [IEdmCallback6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6_members.html)
 
 ## Availability

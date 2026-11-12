@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInDrawButton5_methods
 
 # IEdmAddInDrawButton5 Interface Methods
 
-For a list of all members of this type, see[IEdmAddInDrawButton5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInDrawButton5_members.html).
+For a list of all members of this type, see [IEdmAddInDrawButton5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInDrawButton5_members.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmAddInDrawButton5 members](EPDM.I
 ## See Also
 
 [IEdmAddInDrawButton5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInDrawButton5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

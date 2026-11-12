@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertMateReference Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertMateReference2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMateReference2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertMateReference2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMateReference2.html).
 
 ## Syntax
 
@@ -87,81 +83,37 @@ Feature^ InsertMateReference(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BstrMateReferenceName`: Name of mate reference
-- `PrimaryReferenceEntity`: Pointer to the primary mate, the
-
-[IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html)
-
-object
-- `PrimaryReferenceType`: Primary mate's reference type as defined by
-
-[swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
-- `PrimaryReferenceAlignment`: Primary mate's reference alignment type as defined
-
-[swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
-- `SecondaryReferenceEntity`: Pointer to the secondary mate, the
-
-[IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html)
-
-object
-- `SecondaryReferenceType`: Secondary mate's reference type as defined by
-
-[swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
-- `SecondaryReferenceAlignment`: Secondary mate's alignment type as defined
-
-[swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
-- `TertiaryReferenceEntity`: Pointer to the tertiary mate, the
-
-[IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html)
-
-object
-- `TertiaryReferenceType`: Tertiary mate's reference type as defined by
-
-[swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
-- `TertiaryReferenceAlignment`: Tertiary mate's reference alignment as defined by
-
-[swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
+- `PrimaryReferenceEntity`: Pointer to the primary mate, the [IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html) object
+- `PrimaryReferenceType`: Primary mate's reference type as defined by [swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
+- `PrimaryReferenceAlignment`: Primary mate's reference alignment type as defined [swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
+- `SecondaryReferenceEntity`: Pointer to the secondary mate, the [IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html) object
+- `SecondaryReferenceType`: Secondary mate's reference type as defined by [swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
+- `SecondaryReferenceAlignment`: Secondary mate's alignment type as defined [swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
+- `TertiaryReferenceEntity`: Pointer to the tertiary mate, the [IEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html) object
+- `TertiaryReferenceType`: Tertiary mate's reference type as defined by [swMateReferenceType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceType_e.html)
+- `TertiaryReferenceAlignment`: Tertiary mate's reference alignment as defined by [swMateReferenceAlignment_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateReferenceAlignment_e.html)
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertMateReference](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMateReference.html)
-
-.
+See [FeatureManager::InsertMateReference](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMateReference.html).
 
 ## Remarks
 
-Either select the mate references interactively or select them programmatically using
-
-[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-with marks of 1, 2, and 4. If the mate references are interactively selected, then specify NOTHING for PrimaryReferenceEntity, SecondaryReferenceEntity, and TertiaryReferenceEntity.
+Either select the mate references interactively or select them programmatically using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with marks of 1, 2, and 4. If the mate references are interactively selected, then specify NOTHING for PrimaryReferenceEntity, SecondaryReferenceEntity, and TertiaryReferenceEntity.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IMateReference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateReference.html)
 
 ## Availability

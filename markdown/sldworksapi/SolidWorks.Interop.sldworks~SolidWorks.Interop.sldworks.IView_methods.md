@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # IView Interface Methods
 
-For a list of all members of this type, see[IView members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html).
+For a list of all members of this type, see [IView members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html).
 
 ## Public Methods
 
@@ -435,6 +435,7 @@ For a list of all members of this type, see[IView members](SolidWorks.Interop.sl
 | Method | SetMirrorViewOrientation | Sets whether to mirror this view. |
 | Method | SetName2 | Sets the name of this drawing view, as displayed in the FeatureManager design tree. |
 | Method | SetResolvedToLightweight | Changes the drawing view from resolved to lightweight. |
+| Method | SetViewPosition | Moves this drawing view. |
 | Method | SetVisible | Sets the visibility of this drawing view. |
 | Method | SetXform | Sets the matrix used for display of this drawing view. |
 | Method | ShowExploded | Shows an exploded assembly in this drawing view. |
@@ -447,9 +448,6 @@ For a list of all members of this type, see[IView members](SolidWorks.Interop.sl
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)

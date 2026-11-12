@@ -46,22 +46,16 @@ Value of the dimension tolerance.
 
 ## VBA Syntax
 
-See
-
-[DimXpertDimensionTolerance::GetNominalValue](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionTolerance~GetNominalValue.html)
-
-.
+See [DimXpertDimensionTolerance::GetNominalValue](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertDimensionTolerance~GetNominalValue.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertDimensionTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance.html)
-
 [IDimXpertDimensionTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDimensionTolerance_members.html)
 
 ## Availability

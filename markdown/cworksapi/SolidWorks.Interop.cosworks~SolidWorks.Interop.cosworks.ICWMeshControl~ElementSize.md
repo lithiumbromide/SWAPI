@@ -47,48 +47,27 @@ property System.double ElementSize {
 
 ### Property Value
 
-Element size (see
-
-Remarks
-
-)
+Element size (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMeshControl::ElementSize](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~ElementSize.html)
-
-.
+See [CWMeshControl::ElementSize](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMeshControl~ElementSize.html).
 
 ## Examples
 
-See the
-
-[ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
-examples.
+See the [ICWMeshControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html) examples.
 
 ## Remarks
 
-This property gets or sets the global element size for standard meshes and the maximum element size for curvature-based meshes. To get or set the minimum element size for curvature-based meshes, call
-
-[ICWMeshControl::MinimumElementSizeForBlendedCurveMesher](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~MinimumElementSizeForBlendedCurveMesher.html)
-
-.
+This property gets or sets the global element size for standard meshes and the maximum element size for curvature-based meshes. To get or set the minimum element size for curvature-based meshes, call [ICWMeshControl::MinimumElementSizeForBlendedCurveMesher](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~MinimumElementSizeForBlendedCurveMesher.html).
 
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
-
 [ICWMeshControl::UseSameElementSize Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~UseSameElementSize.html)
-
 [ICWMeshControl::NumofElementsforBeams Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~NumofElementsforBeams.html)
-
 [ICWMeshControl::MinNumOfElementsPerCircleForBlendedCurveMesher Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~MinNumOfElementsPerCircleForBlendedCurveMesher.html)
-
 [ICWMeshControl::Ratio Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl~Ratio.html)
 
 ## Availability

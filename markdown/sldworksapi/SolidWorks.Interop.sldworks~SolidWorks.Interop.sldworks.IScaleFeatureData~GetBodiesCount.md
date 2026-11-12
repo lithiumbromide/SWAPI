@@ -40,13 +40,7 @@ System.int GetBodiesCount()
 System.int GetBodiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,38 +48,22 @@ Number of bodies that are scaled
 
 ## VBA Syntax
 
-See
-
-[ScaleFeatureData::GetBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~ScaleFeatureData~GetBodiesCount.html)
-
-.
+See [ScaleFeatureData::GetBodiesCount](ms-its:sldworksapivb6.chm::/sldworks~ScaleFeatureData~GetBodiesCount.html).
 
 ## Examples
 
-See
-
-[IScaleFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData.html)
-
-examples.
+See [IScaleFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData.html) examples.
 
 ## Remarks
 
-Call this method before calling
-
-[IScaleFeatureDta::IGetBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~IGetBodies.html)
-
-to get the size of the array for that method.
+Call this method before calling [IScaleFeatureDta::IGetBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IScaleFeatureData~IGetBodies.html) to get the size of the array for that method.
 
 ## See Also
 
 [IScaleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData.html)
-
 [IScaleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData_members.html)
-
 [IScaleFeatureData::IGetBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData~IGetBodies.html)
-
 [IScaleFeatureData::ISetBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData~ISetBodies.html)
-
 [IScaleFeatureData::Bodies Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IScaleFeatureData~Bodies.html)
 
 ## Availability

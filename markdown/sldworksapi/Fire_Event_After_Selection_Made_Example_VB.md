@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Event_After_Selection_Made_Example_VB.htm"
 
 # Fire Event After Selection Made Example (VBA)
 
-This example shows how to fire an event after a selection is made in a part,
-assembly, or drawing document.
+This example shows how to fire an event after a selection is made in a part, assembly, or drawing document.
 
 ```
 '----------------------------------------------

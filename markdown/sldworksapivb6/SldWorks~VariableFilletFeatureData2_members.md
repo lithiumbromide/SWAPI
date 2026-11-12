@@ -1,6 +1,5 @@
 ---
-title: "VariableFilletFeatureData2 Object
-Members"
+title: "VariableFilletFeatureData2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "VariableFilletFeatureData2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~VariableFilletFeatureData2_members.html"
 ---
 
-# VariableFilletFeatureData2 Object
-Members
+# VariableFilletFeatureData2 Object Members
 
 ## Public Methods
 

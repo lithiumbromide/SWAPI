@@ -45,13 +45,7 @@ property System.bool Knit {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to knit all surfaces, false to not
 
 ## VBA Syntax
 
-See
-
-[PartingSurfaceFeatureData::Knit](ms-its:sldworksapivb6.chm::/sldworks~PartingSurfaceFeatureData~Knit.html)
-
-.
+See [PartingSurfaceFeatureData::Knit](ms-its:sldworksapivb6.chm::/sldworks~PartingSurfaceFeatureData~Knit.html).
 
 ## Examples
 
 [Get and Set Parting Surface Feature Data (C#)](Get_and_Set_Parting_Surface_Feature_Data_Example_CSharp.htm)
-
 [Get and Set Parting Surface Feature Data (VB.NET)](Get_and_Set_Parting_Surface_Feature_Data_Example_VBNET.htm)
-
 [Get and Set Parting Surface Feature Data (VBA)](Get_and_Set_Parting_Surface_Feature_Data_Example_VB.htm)
 
 ## See Also
 
 [IPartingSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingSurfaceFeatureData.html)
-
 [IPartingSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingSurfaceFeatureData_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Extruded_Thin_Feature_Example_VB.htm"
 
 # Create Extruded Thin Feature Example (VBA)
 
-This example shows how to create an extruded thin feature using a variety of
-parameter values.
+This example shows how to create an extruded thin feature using a variety of parameter values.
 
 ```vb
 '-----------------------------------------------------------------------------

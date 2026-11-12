@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertSheetMetalEdgeFlange2 Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
-
-and
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html) and [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html).
 
 ## Syntax
 
@@ -103,91 +95,53 @@ Feature^ InsertSheetMetalEdgeFlange2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FlangeEdges`: Array of
-
-[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-to which to apply a flange
-- `SketchFeats`: Array of
-
-[sketches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html)
-
-to use for the flange
-
-ParamDesc
-- `BooleanOptions`: Flange options as defined by[swInsertEdgeFlangeOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInsertEdgeFlangeOptions_e.html)
+- `FlangeEdges`: Array of [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) to which to apply a flange
+- `SketchFeats`: Array of [sketches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html) to use for the flange
+- `BooleanOptions`: Flange options as defined by [swInsertEdgeFlangeOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInsertEdgeFlangeOptions_e.html)
 - `FlangeAngle`: Flange angle
 - `FlangeRadius`: Bend radius
-- `BendPosition`: Flange bend position as defined by
-
-[swFlangePositionTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangePositionTypes_e.html)
+- `BendPosition`: Flange bend position as defined by [swFlangePositionTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangePositionTypes_e.html)
 - `FlangeOffsetDist`: Length of flange
-- `ReliefType`: Relief type as defined by
-
-[swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
+- `ReliefType`: Relief type as defined by [swSheetMetalReliefTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSheetMetalReliefTypes_e.html)
 - `FlangeReliefRatio`: Relief ratio
 - `FlangeReliefWidth`: Relief width
 - `FlangeReliefDepth`: Relief depth
-- `FlangeSharpType`: Flange virtual sharp type as defined by
+- `FlangeSharpType`: Flange virtual sharp type as defined by [swFlangeDimTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangeDimTypes_e.html)
+- `CustomBendAllowance`:
 
-[swFlangeDimTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangeDimTypes_e.html)
-- `CustomBendAllowance`: | If... | Then... |
-| --- | --- |
-| non-NULL | Pointer to ICustomBendAllowance object for which required values have been set |
-| NULL | Parent bend's bend allowance is used |
+  | If... | Then... |
+  | --- | --- |
+  | non-NULL | Pointer to ICustomBendAllowance object for which required values have been set |
+  | NULL | Parent bend's bend allowance is used |
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICustomBendAllowance.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSheetMetalEdgeFlange2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalEdgeFlange2.html)
-
-.
+See [FeatureManager::InsertSheetMetalEdgeFlange2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSheetMetalEdgeFlange2.html).
 
 ## Examples
 
 [Insert Sheet Metal Edge Flange (VBA)](Insert_Sheet_Metal_Edge_Flange_Example_VB.htm)
-
 [Create Corner Relief Feature (C#)](Create_Corner_Relief_Feature_Example_CSharp.htm)
-
 [Create Corner Relief Feature (VBA)](Create_Corner_Relief_Feature_Example_VB.htm)
-
 [Create Corner Relief Feature (VB.NET)](Create_Corner_Relief_Feature_Example_VBNET.htm)
 
 ## Remarks
 
-Before calling this method, call
-
-[IModelDoc2::InsertSketchForEdgeFlange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertSketchForEdgeFlange.html)
-
-and create a profile for the flange. After creating the profile, call this method to create the flange.
+Before calling this method, call [IModelDoc2::InsertSketchForEdgeFlange](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertSketchForEdgeFlange.html) and create a profile for the flange. After creating the profile, call this method to create the flange.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [ISheetMetalFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFeatureData.html)
 
 ## Availability

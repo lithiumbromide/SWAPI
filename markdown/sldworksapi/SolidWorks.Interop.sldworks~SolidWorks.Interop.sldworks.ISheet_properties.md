@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # ISheet Interface Properties
 
-For a list of all members of this type, see[ISheet members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html).
+For a list of all members of this type, see [ISheet members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html).
 
 ## Public Properties
 
@@ -29,7 +29,5 @@ For a list of all members of this type, see[ISheet members](SolidWorks.Interop.s
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)

@@ -52,45 +52,27 @@ public delegate System.int DSldWorksEvents_PromptForFilenameNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `openOrSave`: - 0 = save
-- 1 = open
+  - 1 = open
 - `suggestedFileName`: Name of the missing SOLIDWORKS document
-- `DocType`: Type of the missing document as defined in
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
-- `cause`: Cause as defined in
-
-[swPrompForFilenameCause_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPrompForFilenameCause_e.html)
+- `DocType`: Type of the missing document as defined in [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `cause`: Cause as defined in [swPrompForFilenameCause_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPrompForFilenameCause_e.html)
 
 ## VBA Syntax
 
-See
-
-[PromptForFilenameNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~PromptForFilenameNotify_EV.html)
-
-.
+See [PromptForFilenameNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~PromptForFilenameNotify_EV.html).
 
 ## Remarks
 
-Use this event with the[ISldWorks::SetPromptFilename2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetPromptFilename2.html)method, not with the[ISldWorks::SetMissingReferencePathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetMissingReferencePathName.html)method.
+Use this event with the [ISldWorks::SetPromptFilename2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetPromptFilename2.html) method, not with the [ISldWorks::SetMissingReferencePathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetMissingReferencePathName.html) method.
 
 An example of a good use for this event is when you are mirroring an assembly. If you want to create new files for the mirrored components, use this notification to specify the new filename. This is useful when you want to choose filenames for the newly created components during the mirroring process.
 
-If developing a C++ application, use
-
-[swAppPromptForFileNameNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppPromptForFileNameNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

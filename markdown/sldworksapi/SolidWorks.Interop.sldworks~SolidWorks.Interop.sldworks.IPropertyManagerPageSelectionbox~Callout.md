@@ -45,42 +45,29 @@ property Callout^ Callout {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Callout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html)
-
-for this selection box
+[Callout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html) for this selection box
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::Callout](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~Callout.html)
-
-.
+See [PropertyManagerPageSelectionbox::Callout](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~Callout.html).
 
 ## Remarks
 
-This property returns NULL if callouts are not enabled for this selection box. Use[IPropertyManagerPageSelectionbox::SetCalloutLabel](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSelectionbox~SetCalloutLabel.html)to enable the default callouts.
+This property returns NULL if callouts are not enabled for this selection box. Use [IPropertyManagerPageSelectionbox::SetCalloutLabel](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSelectionbox~SetCalloutLabel.html) to enable the default callouts.
 
 To create callouts for selection boxes:
 
-1. Use[ISelectionManager::CreateCallout2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateCallout2.html)to create the basic callout information.
-2. Use the[ICallout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html)interface to modify the look and of the callout.
+1. Use [ISelectionManager::CreateCallout2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateCallout2.html) to create the basic callout information.
+2. Use the [ICallout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html) interface to modify the look and of the callout.
 3. Use ISelectionBox::Callout to set the callout information for the selection box.
 
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
 
 ## Availability

@@ -9,17 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # AutoInference Property (ISketchManager)
 
-Obsolete. Superseded by
-
-[ISldWorks::GetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceToggle.html)
-
-or
-
-[ISldWorks::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)
-
-and
-
-[swUserPreferenceToggle_e.swSketchInference .](ms-its:swconst.chm::/SO_SketchRelationsSnaps.htm)
+Obsolete. Superseded by [ISldWorks::GetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetUserPreferenceToggle.html) or [ISldWorks::SetUserPreferenceToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html) and [swUserPreferenceToggle_e.swSketchInference.](ms-its:swconst.chm::/SO_SketchRelationsSnaps.htm)
 
 ## Syntax
 
@@ -55,13 +45,7 @@ property System.bool AutoInference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -69,11 +53,7 @@ True if automatic inteferencing is on, false if off
 
 ## VBA Syntax
 
-See
-
-[SketchManager::AutoInference](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~AutoInference.html)
-
-.
+See [SketchManager::AutoInference](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~AutoInference.html).
 
 ## Remarks
 
@@ -82,9 +62,7 @@ Inferencing mode can be seen when creating a sketch segment and your cursor move
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::InferenceMode Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~InferenceMode.html)
 
 ## Availability

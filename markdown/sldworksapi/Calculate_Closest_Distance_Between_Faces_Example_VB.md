@@ -9,18 +9,9 @@ source: "sldworksapi/Calculate_Closest_Distance_Between_Faces_Example_VB.htm"
 
 # Calculate Closest Distance Between Faces Example (VBA)
 
-This example shows how to calculate the closest distance between two
-faces.
+This example shows how to calculate the closest distance between two faces.
 
-**NOTE:**The SOLIDWORKS user interface can measure the distance between
-two selected faces. The corresponding method for this functionality is
-IModelDoc2::ClosestDistance. If any of the faces is cylindrical, then the
-measurement point is taken from the axis of the cylinder. This is by design and
-the intended behavior. However, in some circumstances, this measurement might
-not be appropriate. For example, the minimum amount of material between two
-holes is normally measured between the cylindrical faces and not between the
-axes. This sample code shows how to detect such situations and to calculate the
-distance between faces.
+**NOTE:** The SOLIDWORKS Design user interface can measure the distance between two selected faces. The corresponding method for this functionality is IModelDoc2::ClosestDistance. If any of the faces is cylindrical, then the measurement point is taken from the axis of the cylinder. This is by design and the intended behavior. However, in some circumstances, this measurement might not be appropriate. For example, the minimum amount of material between two holes is normally measured between the cylindrical faces and not between the axes. This sample code shows how to detect such situations and to calculate the distance between faces.
 
 ```
 '-----------------------------------------------

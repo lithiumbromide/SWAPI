@@ -1,0 +1,83 @@
+#swapi-map 1 module=sw3dprinterapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@ISw3DPrinter	i	Allows access to rapid prototype devices.
+GetAvailableMaterials	m	object GetAvailableMaterials(out int DefaultIndex)	2007		Gets an array of strings that contain available material names, such as plastic, composite, etc., that the device...
+GetBuildEnvelope	m	void GetBuildEnvelope(out double xDimension, out double yDimension, out double zDimension)	2007		Gets the dimensions of the printer envelope.
+GetBuildOrientation	m	swBuildOrientation_e GetBuildOrientation()	2007		Gets the selected build orientation.
+GetCalculatedBoundingVolume	m	string GetCalculatedBoundingVolume()	2007		Gets the dimension of the calculated bounding volume in document units.
+GetCalculatedBuildTime	m	string GetCalculatedBuildTime()	2007		Gets the estimated time in minutes to build the current document.
+GetCalculatedCost	m	string GetCalculatedCost()	2007		Gets the calculated cost in vendor-defined units, e.g., dollars, euros, liters of material, etc.
+GetCalculatedSurfaceArea	m	string GetCalculatedSurfaceArea()	2007		Gets the calculated surface area of the current document in current document units, taking into account scale and...
+GetCalculatedVolume	m	string GetCalculatedVolume()	2007		Gets the calculated volume of the current document in current document units, taking into account scale and other...
+GetCurrentMaterial	m	string GetCurrentMaterial()	2007		Gets the name of the selected material.
+GetCurrentOrientationTransform	m	object GetCurrentOrientationTransform()	2007		Gets the current orientation transform.
+GetCurrentPrinterName	m	string GetCurrentPrinterName()	2007		Gets the name of current printer.
+GetDefaultBuildOrientation	m	swBuildOrientation_e GetDefaultBuildOrientation()	2007		Gets the default build orientation.
+GetDefaultPrintQuality	m	swPrintQuality_e GetDefaultPrintQuality()	2007		Gets the default setting for print quality.
+GetDialogConfiguration	m	int GetDialogConfiguration()	2007		Gets a collection of bits that represent which controls SOLIDWORKS hides or changes in the Print dialog for a given...
+GetEnvelopeOrigin	m	void GetEnvelopeOrigin(out swBuildEnvelopeStartingPoint_e X, out swBuildEnvelopeStartingPoint_e y, out swBuildEnvelopeStartingPoint_e __MIDL__ISw3DPrinter0000)	2007		Gets the default starting location for the item to be built in the build envelope, e.g. x-min, y-min, z-min.
+GetOutputOption	m	string GetOutputOption()	2007		Gets the currently selected output option.
+GetOutputOptions	m	object GetOutputOptions()	2007		Gets an array of strings that specify how to create the rapid prototype, e.g. "Print directly to machine", "Print to...
+GetPrinterComment	m	string GetPrinterComment()	2007		Gets a general-purpose string, possibly one that the user specified during installation.
+GetPrinterImageBitmap	m	string GetPrinterImageBitmap()	2007		Gets the name of the a file of a 24-bit color.bmp of dimensions 100x100 pixels that is typically an image of the...
+GetPrinterLocation	m	string GetPrinterLocation()	2007		Gets the string that the user specified during installation to indicate where the printer is located (e.g., 2nd...
+GetPrinterNames	m	object GetPrinterNames()	2007		Gets the user-specified printer names, e.g., Speedy3d_1stfloor, speed3d_2ndfloor, etc.
+GetPrinterStatus	m	swPrinterStatus_e GetPrinterStatus(out string StatusMessage)	2007		Gets the current state of the printer.
+GetPrinterType	m	string GetPrinterType()	2007		Gets the printer model, e.g., Speedy3D 2800.
+GetPrintQuality	m	swPrintQuality_e GetPrintQuality()	2007		Gets the current print quality setting of the printer.
+GetQuantity	m	int GetQuantity()	2007		Gets the number of copies to print.
+GetScale	m	int GetScale()	2007		Gets the value by which to scale the document.
+GetScaleParametersForActiveDocument	m	void GetScaleParametersForActiveDocument(out int minimumScale, out int maximumScale, out int scaleIncrement)	2007		Gets the values by which the document can be scaled. The values appear in the Scale box.
+OnAdvancedSettings	m	void OnAdvancedSettings()	2007		Called when a user clicks the Advanced Settings button on the 3D Printer tab.
+OnCancel	m	void OnCancel()	2007		Called when a user clicks the Cancel button, cancels printing the document, and closes the dialog.
+OnOk	m	void OnOk()	2007		Called when a user clicks the OK button on the dialog and sends the document to the 3D printer.
+OnStartup	m	swStartupResult_e OnStartup(object ActiveModel)	2007		Called when the user selects the vendor's printer from the Name box on the 3D Printer tab.
+OnUpdateStatistics	m	swDataChangeResult_e OnUpdateStatistics()	2007		Called when a user clicks the Update Statistics button on the 3D Printer tab and changes the build statistics.
+SetBuildOrientation	m	void SetBuildOrientation(swBuildOrientation_e BuildOrientation)	2007		Called when a user changes a build orientation on the Build Orientation tab.
+SetCurrentMaterial	m	void SetCurrentMaterial(string Material)	2007		Called when a user selects the name of a material in the Material box on the 3D Printer tab.
+SetCurrentPrinterName	m	void SetCurrentPrinterName(string Material)	2007		Sets the name of the current printer.
+SetOrientationTransform	m	void SetOrientationTransform(object ModelOrientation)	2007		Called when a user changes a preset orthogonal orientation or Z rotation value on the Build Orientation tab.
+SetOutputOption	m	void SetOutputOption(string OutputOption)	2007		Called when a user specifies how to create the rapid prototype by making a selection in the Output box on the 3D...
+SetPrintQuality	m	void SetPrintQuality(swPrintQuality_e Quality)	2007		Called when a user selects a print quality setting on the 3D Printer tab.
+SetQuantity	m	void SetQuantity(int Quantity)	2007		Called when a user sets the number of copies to print in the Number of copies box on the 3D Printer tab.
+SetScale	m	void SetScale(int Scale)	2007		Called when a user sets the value by which to scale the document in the Scale box on the 3D Printer tab.
+@SW3DPrinterClass	c	See ISw3DPrinter.	base=ISw3DPrinter
+GetAvailableMaterials	m	object GetAvailableMaterials(out int DefaultIndex)	2007		See ISw3DPrinter.
+GetBuildEnvelope	m	void GetBuildEnvelope(out double xDimension, out double yDimension, out double zDimension)	2007		See ISw3DPrinter.
+GetBuildOrientation	m	swBuildOrientation_e GetBuildOrientation()	2007		See ISw3DPrinter.
+GetCalculatedBoundingVolume	m	string GetCalculatedBoundingVolume()	2007		See ISw3DPrinter.
+GetCalculatedBuildTime	m	string GetCalculatedBuildTime()	2007		See ISw3DPrinter.
+GetCalculatedCost	m	string GetCalculatedCost()	2007		See ISw3DPrinter.
+GetCalculatedSurfaceArea	m	string GetCalculatedSurfaceArea()	2007		See ISw3DPrinter.
+GetCalculatedVolume	m	string GetCalculatedVolume()	2007		See ISw3DPrinter.
+GetCurrentMaterial	m	string GetCurrentMaterial()	2007		See ISw3DPrinter.
+GetCurrentOrientationTransform	m	object GetCurrentOrientationTransform()	2007		See ISw3DPrinter.
+GetCurrentPrinterName	m	string GetCurrentPrinterName()	2007		See ISw3DPrinter.
+GetDefaultBuildOrientation	m	swBuildOrientation_e GetDefaultBuildOrientation()	2007		See ISw3DPrinter.
+GetDefaultPrintQuality	m	swPrintQuality_e GetDefaultPrintQuality()	2007		See ISw3DPrinter.
+GetDialogConfiguration	m	int GetDialogConfiguration()	2007		See ISw3DPrinter.
+GetEnvelopeOrigin	m	void GetEnvelopeOrigin(out swBuildEnvelopeStartingPoint_e X, out swBuildEnvelopeStartingPoint_e y, out swBuildEnvelopeStartingPoint_e __MIDL__ISw3DPrinter0000)	2007		See ISw3DPrinter.
+GetOutputOption	m	string GetOutputOption()	2007		See ISw3DPrinter.
+GetOutputOptions	m	object GetOutputOptions()	2007		See ISw3DPrinter.
+GetPrinterComment	m	string GetPrinterComment()	2007		See ISw3DPrinter.
+GetPrinterImageBitmap	m	string GetPrinterImageBitmap()	2007		See ISw3DPrinter.
+GetPrinterLocation	m	string GetPrinterLocation()	2007		See ISw3DPrinter.
+GetPrinterNames	m	object GetPrinterNames()	2007		See ISw3DPrinter.
+GetPrinterStatus	m	swPrinterStatus_e GetPrinterStatus(out string StatusMessage)	2007		See ISw3DPrinter.
+GetPrinterType	m	string GetPrinterType()	2007		See ISw3DPrinter.
+GetPrintQuality	m	swPrintQuality_e GetPrintQuality()	2007		See ISw3DPrinter.
+GetQuantity	m	int GetQuantity()	2007		See ISw3DPrinter.
+GetScale	m	int GetScale()	2007		See ISw3DPrinter.
+GetScaleParametersForActiveDocument	m	void GetScaleParametersForActiveDocument(out int minimumScale, out int maximumScale, out int scaleIncrement)	2007		See ISw3DPrinter.
+OnAdvancedSettings	m	void OnAdvancedSettings()	2007		See ISw3DPrinter.
+OnCancel	m	void OnCancel()	2007		See ISw3DPrinter.
+OnOk	m	void OnOk()	2007		See ISw3DPrinter.
+OnStartup	m	swStartupResult_e OnStartup(object ActiveModel)	2007		See ISw3DPrinter.
+OnUpdateStatistics	m	swDataChangeResult_e OnUpdateStatistics()	2007		See ISw3DPrinter.
+SetBuildOrientation	m	void SetBuildOrientation(swBuildOrientation_e BuildOrientation)	2007		See ISw3DPrinter.
+SetCurrentMaterial	m	void SetCurrentMaterial(string Material)	2007		See ISw3DPrinter.
+SetCurrentPrinterName	m	void SetCurrentPrinterName(string Material)	2007		See ISw3DPrinter.
+SetOrientationTransform	m	void SetOrientationTransform(object ModelOrientation)	2007		See ISw3DPrinter.
+SetOutputOption	m	void SetOutputOption(string OutputOption)	2007		See ISw3DPrinter.
+SetPrintQuality	m	void SetPrintQuality(swPrintQuality_e Quality)	2007		See ISw3DPrinter.
+SetQuantity	m	void SetQuantity(int Quantity)	2007		See ISw3DPrinter.
+SetScale	m	void SetScale(int Scale)	2007		See ISw3DPrinter.

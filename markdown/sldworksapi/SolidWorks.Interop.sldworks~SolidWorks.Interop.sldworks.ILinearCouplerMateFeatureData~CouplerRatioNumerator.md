@@ -45,13 +45,7 @@ property System.double CouplerRatioNumerator {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Coupler ratio numerator
 
 ## VBA Syntax
 
-See
-
-[LinearCouplerMateFeatureData::CouplerRatioNumerator](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~CouplerRatioNumerator.html)
-
-.
+See [LinearCouplerMateFeatureData::CouplerRatioNumerator](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~CouplerRatioNumerator.html).
 
 ## Examples
 
-See the
-
-[ILinearCouplerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
-examples.
+See the [ILinearCouplerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html) examples.
 
 ## See Also
 
 [ILinearCouplerMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
 [ILinearCouplerMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData_members.html)
 
 ## Availability

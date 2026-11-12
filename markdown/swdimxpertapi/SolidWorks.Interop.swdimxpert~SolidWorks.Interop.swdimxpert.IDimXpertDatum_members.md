@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertDatum Interface Members
 
-The following tables list the members exposed by[IDimXpertDatum](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDatum.html).
+The following tables list the members exposed by [IDimXpertDatum](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDatum.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IDimXpertDatum](SolidWorks.Inte
 ## See Also
 
 [IDimXpertDatum Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertDatum.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

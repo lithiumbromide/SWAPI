@@ -47,13 +47,7 @@ System.bool GetDocumentNames(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,32 +59,23 @@ True if the original paths and filenames of all of the model's documents are ret
 
 ## VBA Syntax
 
-See
-
-[PackAndGo::GetDocumentNames](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~GetDocumentNames.html)
-
-.
+See [PackAndGo::GetDocumentNames](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~GetDocumentNames.html).
 
 ## Examples
 
 [Pack and Go an Assembly (C#)](Pack_and_Go_an_Assembly_Example_CSharp.htm)
-
 [Pack and Go an Assembly (VB.NET)](Pack_and_Go_an_Assembly_Example_VBNET.htm)
-
 [Pack and Go an Assembly (VBA)](Pack_and_Go_an_Assembly_Example_VB.htm)
 
 ## Remarks
 
-To get the drawing documents of the model, set[IPackAndGo::IncludeDrawings](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~IncludeDrawings.html)to true; otherwise, the paths and filenames of the model's drawing documents are not returned.
+To get the drawing documents of the model, set [IPackAndGo::IncludeDrawings](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo~IncludeDrawings.html) to true; otherwise, the paths and filenames of the model's drawing documents are not returned.
 
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [IPackAndGo Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo_members.html)
-
 [IPackAndGo::GetDocumentNamesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~GetDocumentNamesCount.html)
-
 [IPackAndGo::IGetDocumentNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~IGetDocumentNames.html)
 
 ## Availability

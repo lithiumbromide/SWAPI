@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # GetCurveParams Method (IEdge)
 
-Obsolete. Superseded by
-
-[IEdge::GetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetCurveParams2.html)
-
-.
+Obsolete. Superseded by [IEdge::GetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetCurveParams2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetCurveParams()
 System.Object^ GetCurveParams();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Edge::GetCurveParams](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetCurveParams.html)
-
-.
+See [Edge::GetCurveParams](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetCurveParams.html).
 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)

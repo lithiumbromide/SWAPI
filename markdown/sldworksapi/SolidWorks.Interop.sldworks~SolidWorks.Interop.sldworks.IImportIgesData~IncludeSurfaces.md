@@ -45,13 +45,7 @@ property System.bool IncludeSurfaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,22 @@ True to import surfaces, false to not
 
 ## VBA Syntax
 
-See
-
-[ImportIgesData::IncludeSurfaces](ms-its:sldworksapivb6.chm::/sldworks~ImportIgesData~IncludeSurfaces.html)
-
-.
+See [ImportIgesData::IncludeSurfaces](ms-its:sldworksapivb6.chm::/sldworks~ImportIgesData~IncludeSurfaces.html).
 
 ## Examples
 
 [Specify IGES Levels and Values, Then Import IGES File (C#)](Specify_IGES_Levels_and_Values_Then_Import_IGES_File_Example_CSharp.htm)
-
 [Specify IGES Levels and Values, Then Import IGES File (VB.NET)](Specify_IGES_Levels_and_Values_Then_Import_IGES_File_Example_VBNET.htm)
-
 [Specify IGES Levels and Values, Then Import IGES File (VBA)](Specify_IGES_Levels_and_Values,_Then_Import_IGES_File_Example_VB.htm)
 
 ## Remarks
 
-To import curves, use[IImportIgesData::IncludeCurves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportIgesData~IncludeCurves.html)and[IImportIgesData::CurvesAsSketches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportIgesData~CurvesAsSketches.html).
+To import curves, use [IImportIgesData::IncludeCurves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportIgesData~IncludeCurves.html) and [IImportIgesData::CurvesAsSketches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportIgesData~CurvesAsSketches.html).
 
 ## See Also
 
 [IImportIgesData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData.html)
-
 [IImportIgesData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData_members.html)
-
 [IImportIgesData::ProcessByLevel Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData~ProcessByLevel.html)
 
 ## Availability

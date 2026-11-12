@@ -51,13 +51,7 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,12 @@ True if the selections were successfully accessed
 
 ## VBA Syntax
 
-See
-
-[ChamferFeatureData2::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData2~AccessSelections.html)
-
-.
+See [ChamferFeatureData2::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~ChamferFeatureData2~AccessSelections.html).
 
 ## Examples
 
 [Get Edge Chamfer Distances (C#)](Get_Edge_Chamfer_Distances_Example_CSharp.htm)
-
 [Get Edge Chamfer Distances (VB.NET)](Get_Edge_Chamfer_Distances_Example_VBNET.htm)
-
 [Get Edge Chamfer Distances (VBA)](Get_Edge_Chamfer_Distances_Example_VB.htm)
 
 ## Remarks
@@ -95,15 +83,13 @@ Remarks
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- IFeature::ModifyDefinition if you modified the feature
-- IChamferFeatureData2::ReleaseSelectionAccess if not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) if you modified the feature
+- [IChamferFeatureData2::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~ReleaseSelectionAccess.html) if not
 
 ## See Also
 
 [IChamferFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2.html)
-
 [IChamferFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2_members.html)
-
 [IChamferFeatureData2::IAccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2~IAccessSelections.html)
 
 ## Availability

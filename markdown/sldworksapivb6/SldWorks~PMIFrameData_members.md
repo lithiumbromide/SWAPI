@@ -1,6 +1,5 @@
 ---
-title: "PMIFrameData Object
-Members"
+title: "PMIFrameData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PMIFrameData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PMIFrameData_members.html"
 ---
 
-# PMIFrameData Object
-Members
+# PMIFrameData Object Members
 
 ## Public Methods
 

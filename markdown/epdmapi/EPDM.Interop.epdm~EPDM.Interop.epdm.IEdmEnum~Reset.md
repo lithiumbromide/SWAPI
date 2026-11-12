@@ -33,7 +33,7 @@ void Reset();
 
 ## Remarks
 
-After calling this method, you must call[IEdmEnum::MoveNext](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum~MoveNext.html)before you can call[IEdmEnum::Current](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum~Current.html)to get the first element in the list.
+After calling this method, you must call [IEdmEnum::MoveNext](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum~MoveNext.html) before you can call [IEdmEnum::Current](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum~Current.html) to get the first element in the list.
 
 [Return codes](ReturnCodes.htm):
 
@@ -43,7 +43,6 @@ After calling this method, you must call[IEdmEnum::MoveNext](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmEnum Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html)
-
 [IEdmEnum Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum_members.html)
 
 ## Availability

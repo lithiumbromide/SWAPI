@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IGetTextFormat Method (IDisplayDimension)
 
-Obsolete. Superseded by
-
-[IAnnotation::IGetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IGetTextFormat.html)
-
-.
+Obsolete. Superseded by [IAnnotation::IGetTextFormat](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IGetTextFormat.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ TextFormat IGetTextFormat()
 TextFormat^ IGetTextFormat();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::IGetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IGetTextFormat.html)
-
-.
+See [DisplayDimension::IGetTextFormat](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IGetTextFormat.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)

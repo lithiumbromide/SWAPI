@@ -45,13 +45,7 @@ property System.int TertiaryColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,25 +53,20 @@ RGB value
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::TertiaryColor](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~TertiaryColor.html)
-
-.
+See [RenderMaterial::TertiaryColor](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~TertiaryColor.html).
 
 ## Remarks
 
-This property corresponds to theCurrentColor 3control on the Color/Image tab of the Appearances PropertyManager page.
+This property corresponds to the Current Color 3 control on the Color/Image tab of the Appearances PropertyManager page.
 
 To get or set:
 
-- Current Color 1, call[IRenderMaterial::PrimaryColor](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~PrimaryColor.html).
-- Current Color 2, call[IRenderMaterial::SecondaryColor](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SecondaryColor.html).
+- Current Color 1, call [IRenderMaterial::PrimaryColor](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~PrimaryColor.html).
+- Current Color 2, call [IRenderMaterial::SecondaryColor](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~SecondaryColor.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

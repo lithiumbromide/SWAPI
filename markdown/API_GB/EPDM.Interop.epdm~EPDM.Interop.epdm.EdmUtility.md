@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility.html"
 
 # EdmUtility Enumeration
 
-Constants that are passed to the
-
-[IEdmVault7::CreateUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility.html)
-
-to create utility interfaces of various kinds.
+Constants that are passed to the [IEdmVault7::CreateUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility.html) to create utility interfaces of various kinds.
 
 ## Syntax
 

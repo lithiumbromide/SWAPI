@@ -40,48 +40,29 @@ Centerline GetFirstCenterLine()
 Centerline^ GetFirstCenterLine();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-First
-
-[centerline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterLine.html)
+First [centerline](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterLine.html)
 
 ## VBA Syntax
 
-See
-
-[View::GetFirstCenterLine](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstCenterLine.html)
-
-.
+See [View::GetFirstCenterLine](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstCenterLine.html).
 
 ## Examples
 
 [Get Centerlines in Drawing (C#)](Get_Centerlines_in_Drawing_Example_CSharp.htm)
-
 [Get Centerlines in Drawing (VB.NET)](Get_Centerlines_in_Drawing_Example_VBNET.htm)
-
 [Get Centerlines in Drawing (VBA)](Get_Centerlines_in_Drawing_Example_VB.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetCenterLineSketch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCenterLineSketch.html)
-
 [ICenterline::GetNext Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterLine~GetNext.html)
-
 [IView::GetCenterLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCenterLines.html)
-
 [IView::IGetCenterLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetCenterLines.html)
 
 ## Availability

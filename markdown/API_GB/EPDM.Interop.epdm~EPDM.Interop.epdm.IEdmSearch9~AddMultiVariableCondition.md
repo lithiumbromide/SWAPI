@@ -42,30 +42,18 @@ void AddMultiVariableCondition(
 
 ### Parameters
 
-- `poVariableNames`: Array of file or folder data card variable names (see
-
-Remarks
-
-)
-- `bsCondition`: Condition to apply to poVariableNames (see
-
-Remarks
-
-)
+- `poVariableNames`: Array of file or folder data card variable names (see **Remarks**)
+- `bsCondition`: Condition to apply to poVariableNames (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmSearch9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch9.html)
-
-examples.
+See the [IEdmSearch9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch9.html) examples.
 
 ## Remarks
 
-Call this method before calling[IEdmSearch5::GetFirstResult](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~GetFirstResult.html).
+Call this method before calling [IEdmSearch5::GetFirstResult](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch5~GetFirstResult.html).
 
-Specify poVariableNames and bsCondition using the basic syntax (single-value search logic rules) as defined in[Search Syntax](SearchSyntax-epdmapi.html).
+Specify poVariableNames and bsCondition using the basic syntax (single-value search logic rules) as defined in [Search Syntax](SearchSyntax-epdmapi.html).
 
 poVariableNames requires:
 
@@ -84,7 +72,6 @@ Syntactically incorrect elements in poVariableNames will generate an exception.
 ## See Also
 
 [IEdmSearch9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch9.html)
-
 [IEdmSearch9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSearch9_members.html)
 
 ## Availability

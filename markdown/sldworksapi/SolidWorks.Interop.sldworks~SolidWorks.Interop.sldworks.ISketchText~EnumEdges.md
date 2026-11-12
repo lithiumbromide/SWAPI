@@ -40,13 +40,7 @@ EnumEdges EnumEdges()
 EnumEdges^ EnumEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchText::EnumEdges](ms-its:sldworksapivb6.chm::/sldworks~SketchText~EnumEdges.html)
-
-.
+See [SketchText::EnumEdges](ms-its:sldworksapivb6.chm::/sldworks~SketchText~EnumEdges.html).
 
 ## Remarks
 
-The edges returned by this method are transient and should be regarded as read only. They can be used to obtain the underlying[ICurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)objects, but should not be used for manipulation or to obtain any other objects through them. These pointers should not be saved; if they are needed again, they should be obtained at that time.
+The edges returned by this method are transient and should be regarded as read only. They can be used to obtain the underlying [ICurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) objects, but should not be used for manipulation or to obtain any other objects through them. These pointers should not be saved; if they are needed again, they should be obtained at that time.
 
 ## See Also
 
 [ISketchText Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText.html)
-
 [ISketchText Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText_members.html)
-
 [ISketchText::GetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchText~GetEdges.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "CWSpringConnector Object
-Members"
+title: "CWSpringConnector Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWSpringConnector_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWSpringConnector_members.html"
 ---
 
-# CWSpringConnector Object
-Members
+# CWSpringConnector Object Members
 
 ## Public Methods
 

@@ -9,8 +9,7 @@ source: "cworksapi/Get_Factor_of_Safety_Values_for_Composites_Example_CSharp.htm
 
 # Get Factor of Safety Values for Composites Example (C#)
 
-This example shows how to get Factor of Safety results for specified entities
-having either composite or non-composite shells.
+This example shows how to get Factor of Safety results for specified entities having either composite or non-composite shells.
 
 ```vb
  //----------------------------------------------------------------------------

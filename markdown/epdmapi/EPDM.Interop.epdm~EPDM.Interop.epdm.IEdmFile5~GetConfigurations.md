@@ -48,7 +48,6 @@ EdmStrLst5^ GetConfigurations(
 ## Examples
 
 [Get File Information (VB.NET)](Get_File_Info_Example_VBNET.htm)
-
 [Get File Information (C#)](Get_File_Info_Example_CSharp.htm)
 
 ## Remarks
@@ -57,7 +56,7 @@ Some file types, such as files from AutoCAD and SOLIDWORKS, can contain several 
 
 C++ users not using smart pointer wrapper functions must release the returned interface, IEdmStrLst5.
 
-See[Return Codes](ReturnCodes.htm)for the complete list of potential success and error codes. The following are just a few examples:
+See [Return Codes](ReturnCodes.htm) for the complete list of potential success and error codes. The following are just a few examples:
 
 - S_OK: The method successfully executed.
 - E_EDM_PERMISSION_DENIED: The logged-in user does not have read-access to the specified version or revision.
@@ -65,9 +64,7 @@ See[Return Codes](ReturnCodes.htm)for the complete list of potential success and
 ## See Also
 
 [IEdmFile5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
 [IEdmFile5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5_members.html)
-
 [IEdmFile14::GenerateDefaultConfigValues Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile14~GenerateDefaultConfigValues.html)
 
 ## Availability

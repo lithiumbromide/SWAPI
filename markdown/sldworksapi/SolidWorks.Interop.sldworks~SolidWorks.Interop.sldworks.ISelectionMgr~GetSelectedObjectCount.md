@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # GetSelectedObjectCount Method (ISelectionMgr)
 
-Obsolete. Superseded by
-
-[ISelectionMgr::GetSelectedObjectCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectCount2.html)
-
-.
+Obsolete. Superseded by [ISelectionMgr::GetSelectedObjectCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~GetSelectedObjectCount2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetSelectedObjectCount()
 System.int GetSelectedObjectCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::GetSelectedObjectCount](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~GetSelectedObjectCount.html)
-
-.
+See [SelectionMgr::GetSelectedObjectCount](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~GetSelectedObjectCount.html).
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)

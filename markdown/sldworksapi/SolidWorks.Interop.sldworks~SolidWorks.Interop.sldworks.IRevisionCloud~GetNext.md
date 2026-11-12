@@ -40,13 +40,7 @@ System.object GetNext()
 System.Object^ GetNext();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,33 +48,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[RevisionCloud::GetNext](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~GetNext.html)
-
-.
+See [RevisionCloud::GetNext](ms-its:sldworksapivb6.chm::/sldworks~RevisionCloud~GetNext.html).
 
 ## Remarks
 
 You can traverse the revision cloud annotations in a drawing view as follows:
 
-1. Call
-
-  [IView::GetFirstRevisionCloud](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstRevisionCloud.html)
-
-  to get the first revision cloud.
-2. Call this method
-
-  [IView::GetRevisionCloudCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetRevisionCloudCount.html)
-
-  times to access the other revision clouds.
+1. Call [IView::GetFirstRevisionCloud](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstRevisionCloud.html) to get the first revision cloud.
+2. Call this method [IView::GetRevisionCloudCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetRevisionCloudCount.html) times to access the other revision clouds.
 
 ## See Also
 
 [IRevisionCloud Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud.html)
-
 [IRevisionCloud Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionCloud_members.html)
-
 [IView::GetRevisionClouds Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetRevisionClouds.html)
 
 ## Availability

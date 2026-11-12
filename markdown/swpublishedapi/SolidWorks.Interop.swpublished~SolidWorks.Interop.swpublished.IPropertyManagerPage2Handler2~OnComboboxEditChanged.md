@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnComboboxEditChanged Method (IPropertyManagerPage2Handler2)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnComboboxEditChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnComboboxEditChanged.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnComboboxEditChanged](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnComboboxEditChanged.html).
 
 ## Syntax
 
@@ -61,14 +57,9 @@ void OnComboboxEditChanged(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler2::OnComboboxEditChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler2~OnComboboxEditChanged.html)
-
-.
+See [PropertyManagerPage2Handler2::OnComboboxEditChanged](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler2~OnComboboxEditChanged.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler2 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler2.html)
-
 [IPropertyManagerPage2Handler2 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler2_members.html)

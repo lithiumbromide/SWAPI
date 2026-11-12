@@ -40,35 +40,19 @@ System.object GetTessTriStripTextures()
 System.Object^ GetTessTriStripTextures();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array containing the triangle strip texture coordinate components (see
-
-Remarks
-
-)
+Array containing the triangle strip texture coordinate components (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PartDoc::GetTessTriStripTextures](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~GetTessTriStripTextures.html)
-
-.
+See [PartDoc::GetTessTriStripTextures](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~GetTessTriStripTextures.html).
 
 ## Remarks
 
 The format of the returned data is:
-
-(Table)=========================================================
 
 |  | DWORD FaceCount |  |
 | --- | --- | --- |
@@ -79,8 +63,6 @@ The format of the returned data is:
 |  | Double [] TextureCoords |  |
 
 where:
-
-(Table)=========================================================
 
 |  | FaceCount : | Number of faces on the body |
 | --- | --- | --- |
@@ -93,25 +75,15 @@ where:
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IFace2::GetTessTextures Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTextures.html)
-
 [IPartDoc::GetTessNorms Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessNorms.html)
-
 [IPartDoc::GetTessTriangleCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriangleCount.html)
-
 [IPartDoc::GetTessTriangles Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriangles.html)
-
 [IPartDoc::GetTessTriStripEdges Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStripEdges.html)
-
 [IPartDoc::GetTessTriStripNorms Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStripNorms.html)
-
 [IPartDoc::GetTessTriStrips Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStrips.html)
-
 [IPartDoc::GetTessTriStripSize Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetTessTriStripSize.html)
-
 [IFace2::GetTessTriStripTextures Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetTessTriStripTextures.html)
 
 ## Availability

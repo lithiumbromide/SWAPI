@@ -51,17 +51,11 @@ System.bool UnsetTolerances(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ToleranceIDArray`: Array specifying the tolerances to reset as defined in[swTolerances_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolerances_e.html)
+- `ToleranceIDArray`: Array specifying the tolerances to reset as defined in [swTolerances_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTolerances_e.html)
 - `NumTol`: Number of tolerance types you are resetting; this value should correspond to the number of elements in the ToleranceIDArray array
 
 ### Return Value
@@ -70,18 +64,11 @@ True if the tolerances is reset successfully, false if n
 
 ## VBA Syntax
 
-See
-
-[Modeler::UnsetTolerances](ms-its:sldworksapivb6.chm::/sldworks~Modeler~UnsetTolerances.html)
-
-.
+See [Modeler::UnsetTolerances](ms-its:sldworksapivb6.chm::/sldworks~Modeler~UnsetTolerances.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IModeler::GetToleranceValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~GetToleranceValue.html)
-
 [IModeler::SetToleranceValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~SetToleranceValue.html)

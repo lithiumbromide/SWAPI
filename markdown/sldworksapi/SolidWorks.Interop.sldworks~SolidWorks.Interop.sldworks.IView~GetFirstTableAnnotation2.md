@@ -40,27 +40,15 @@ System.object GetFirstTableAnnotation2()
 System.Object^ GetFirstTableAnnotation2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-First
-
-[table annotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html)
+First [table annotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html)
 
 ## VBA Syntax
 
-See
-
-[View::GetFirstTableAnnotation2](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstTableAnnotation2.html)
-
-.
+See [View::GetFirstTableAnnotation2](ms-its:sldworksapivb6.chm::/sldworks~View~GetFirstTableAnnotation2.html).
 
 ## Examples
 
@@ -73,11 +61,8 @@ This method obsoletes IView::GetFirstTableAnnotation by supporting inactive shee
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetTableAnnotations Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetTableAnnotations.html)
-
 [ITableAnnotation::GetNext Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetNext.html)
 
 ## Availability

@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser11.html"
 
 Allows you to access a user in SOLIDWORKS PDM Professional.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,7 +36,7 @@ public interface class IEdmUser11 : public IEdmObject5, IEdmUser10, IEdmUser5, I
 
 ## Remarks
 
-This interface extends[IEdmUser10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10.html)by providing the ability to specify these user settings:
+This interface extends [IEdmUser10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser10.html) by providing the ability to specify these user settings:
 
 - Automatically delete local read-only files in File Explorer that are not part of the file vault.
 - Always work with the latest version of files.
@@ -50,14 +44,9 @@ This interface extends[IEdmUser10](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser1
 
 ## Accessors
 
-See the
-
-[IEdmUser5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5.html)
-
-accessors.
+See the [IEdmUser5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5.html) accessors.
 
 ## See Also
 
 [IEdmUser11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser11_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

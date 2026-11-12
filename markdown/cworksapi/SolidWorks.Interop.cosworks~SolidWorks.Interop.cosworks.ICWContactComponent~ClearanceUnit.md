@@ -47,25 +47,15 @@ property System.int ClearanceUnit {
 
 ### Property Value
 
-Units of clearance as defined in
-
-[swsPinballUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPinballUnit_e.html)
+Units of clearance as defined in [swsPinballUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPinballUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::ClearanceUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~ClearanceUnit.html)
-
-.
+See [CWContactComponent::ClearanceUnit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~ClearanceUnit.html).
 
 ## Examples
 
-See the
-
-[ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
-examples.
+See the [ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html) examples.
 
 ## Remarks
 
@@ -77,11 +67,8 @@ examples.
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
-
 [ICWContactComponent::ClearanceValue Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~ClearanceValue.html)
-
 [ICWContactComponent::IncludeShellEdgeSolidOrShellFace Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~IncludeShellEdgeSolidOrShellFace.html)
 
 ## Availability

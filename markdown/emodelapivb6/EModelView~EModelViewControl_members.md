@@ -1,6 +1,5 @@
 ---
-title: "EModelViewControl Object
-Members"
+title: "EModelViewControl Object Members"
 project: "EModelViewActiveX Control"
 interface: "EModelViewControl_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "emodelapivb6/EModelView~EModelViewControl_members.html"
 ---
 
-# EModelViewControl Object
-Members
+# EModelViewControl Object Members
 
 ## Public Methods
 

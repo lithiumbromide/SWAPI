@@ -9,11 +9,7 @@ source: "fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.fwAdvance
 
 # fwAdvancedOptions_e Enumeration
 
-Feature advanced options.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Feature advanced options. [Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm).
 
 ## Syntax
 

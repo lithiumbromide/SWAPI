@@ -46,11 +46,7 @@ void InstallFile(
 ### Parameters
 
 - `bsPath`: Path to the file to install
-- `lEdmInstallFileFlags`: Combination of
-
-[EdmInstallFileFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmInstallFileFlags.html)
-
-bits
+- `lEdmInstallFileFlags`: Combination of [EdmInstallFileFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmInstallFileFlags.html) bits
 - `oInstallArg`: ID of folder where to install the file; valid only if bsPath contains the path to a card file
 
 ## Remarks
@@ -62,7 +58,6 @@ bits
 ## See Also
 
 [IEdmVault12 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12.html)
-
 [IEdmVault12 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12_members.html)
 
 ## Availability

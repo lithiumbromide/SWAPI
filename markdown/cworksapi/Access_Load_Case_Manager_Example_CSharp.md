@@ -9,8 +9,7 @@ source: "cworksapi/Access_Load_Case_Manager_Example_CSharp.htm"
 
 # Access Load Case Manager Example (C#)
 
-This example shows how to access the Load Case Manager to define load cases
-and load case combinations.
+This example shows how to access the Load Case Manager to define load cases and load case combinations.
 
 ```vb
   //----------------------------------------------------------------------------
@@ -55,9 +54,11 @@ and load case combinations.
          CWModelDoc ActDoc;
          CWStudyManager StudyMngr;
          CWStudy Study;
+        CWMesh Mesh;
          CWLoadCaseManager LoadCaseManager;
          CWResults CWResult;
          CWPlot CWCFf;
+        CWStaticStudyOptions StudyOptions;
 
          int errCode;
          int longstatus;
@@ -73,10 +74,12 @@ and load case combinations.
          object[] varRetLoadVals = new object[1];
          string strCombination;
          string retStrCombination;
+           double e1;
+           double e2;
 
          public void Main()
          {
-             Part = swApp.OpenDoc6("C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2017\\Simulation Examples\\Tutor1.sldprt", (int)swDocumentTypes_e.swDocPART, 1, "", ref longstatus, ref longwarnings);
+             Part = swApp.OpenDoc6("C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2024\\Simulation Examples\\Tutor1.sldprt", (int)swDocumentTypes_e.swDocPART, 1, "", ref longstatus, ref longwarnings);
              if (Part == null)
                  ErrorMsg(swApp, "Failed to open Tutor1.sldprt");
 
@@ -104,7 +107,57 @@ and load case combinations.
                  ErrorMsg(swApp, "No Load Case Manager");
 
              bSuccess = LoadCaseManager.OpenLoadCaseManager();
+```
 
+StudyOptions = Study.**StaticStudyOptions**
+
+StudyOptions.**AdaptiveMethodType** = 2
+
+StudyOptions.**PAdaptiveConvergenceCriteria** = 0
+
+StudyOptions.**PAdaptiveErrorLimit** = 1.0
+
+StudyOptions.**PAdaptiveMaxIterations** = 4
+
+StudyOptions.**PAdaptiveMaxPOrder** = 5
+
+StudyOptions.**PAdaptiveStartingPOrder** = 2
+
+StudyOptions.**PAdaptiveStrainEnergyErrorLimit** = 2.0
+
+StudyOptions.**IncludeRemarkInReport** = 1
+
+StudyOptions.**RemarkComment** = "Remark comment"
+
+StudyOptions.**NoPenetration** = 1
+
+StudyOptions.**IgnoreClearanceForSurfaceContact** = 1
+
+StudyOptions.**IncompatibleBondingOption** = swsIncompatibleBondingOption_Automatic
+
+StudyOptions.**IncludeGlobalFriction** = 1
+
+StudyOptions.**FrictionCoefficient** = 0.5
+
+'Mesh
+
+CWMesh = (CWMesh)Study.**Mesh**
+
+CWMesh.**Quality** = 1
+
+CWMesh.**GetDefaultElementSizeAndTolerance**(0, out el, out tl)
+
+errCode = Study.**CreateMesh**(0, el, tl)
+
+'Run analysis
+
+errCode = Study.**RunAnalysis()**
+
+'Get results
+
+CWResult = (CWResults)Study.**Results**
+
+```vb
              bSuccess = LoadCaseManager.AddNewPrimaryLoadCase("My Load Case1");
              if (bSuccess == false)
                  ErrorMsg(swApp, "Primary load case not created");

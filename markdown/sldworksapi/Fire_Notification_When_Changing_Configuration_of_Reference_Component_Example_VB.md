@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Changing_Configuration_of_Reference_
 
 # Fire Notification When Changing Configuration of Reference Component Example (VBA)
 
-This example shows how to fire an event when changing the
-configuration of a reference component in an assembly.
+This example shows how to fire an event when changing the configuration of a reference component in an assembly.
 
 ```vb
  '---------------------------------------------------------------
@@ -61,6 +60,6 @@ Option Explicit
 Public WithEvents swAssem As SldWorks.AssemblyDoc
 'Send message when user is changing the configuration of a reference component
 Private Function swAssem_ComponentConfigurationChangeNotify(ByVal componentName As String, ByVal oldConfigurationName As String, ByVal newConfigurationName As String) As Long
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}MsgBox "A component's configuration is being changed: Component name: " & componentName & ", previous configuration name: " & oldConfigurationName & ", and new configuration name: " & newConfigurationName
+    MsgBox "A component's configuration is being changed: Component name: " & componentName & ", previous configuration name: " & oldConfigurationName & ", and new configuration name: " & newConfigurationName
 End Function
 ```

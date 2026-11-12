@@ -46,27 +46,15 @@ void SetComponents(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Components`: Array of
-
-[components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
+- `Components`: Array of [components](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::SetComponents](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~SetComponents.html)
-
-.
+See [ExplodeStep::SetComponents](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~SetComponents.html).
 
 ## Remarks
 
@@ -83,9 +71,7 @@ In that case, a rotational axis using the last selected component in the selecti
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
-
 [IExplodeStep::GetComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponents.html)
 
 ## Availability

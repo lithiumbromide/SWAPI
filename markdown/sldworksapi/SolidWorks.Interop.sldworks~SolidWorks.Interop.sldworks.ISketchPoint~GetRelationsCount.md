@@ -40,13 +40,7 @@ System.int GetRelationsCount()
 System.int GetRelationsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of sketch relations for this sketch point
 
 ## VBA Syntax
 
-See
-
-[SketchPoint::GetRelationsCount](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~GetRelationsCount.html)
-
-.
+See [SketchPoint::GetRelationsCount](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~GetRelationsCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISketchPoint::IGetRelations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint~IGetRelations.html)
-
-to get the size of the array for that method.
+Call this method before calling [ISketchPoint::IGetRelations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint~IGetRelations.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
 [ISketchPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint_members.html)
-
 [ISketchPoint::GetRelations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~GetRelations.html)
 
 ## Availability

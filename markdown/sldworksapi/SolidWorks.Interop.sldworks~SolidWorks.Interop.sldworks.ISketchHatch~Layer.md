@@ -45,13 +45,7 @@ property System.String^ Layer {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Name of the layer for this sketch hatch
 
 ## VBA Syntax
 
-See
-
-[SketchHatch::Layer](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Layer.html)
-
-.
+See [SketchHatch::Layer](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~Layer.html).
 
 ## Examples
 
-See the
-
-[ISketchHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
-examples.
+See the [ISketchHatch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html) examples.
 
 ## Examples
 
@@ -81,14 +67,12 @@ examples.
 
 In drawing documents, sketch hatches can be created on a specific layer. Only drawing documents support layers.
 
-The return value can be an empty string because an old document may not contain layers. This can also occur if sketch hatches have been generated in a new documentkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}in which layers have not been defined.
+The return value can be an empty string because an old document may not contain layers. This can also occur if sketch hatches have been generated in a new document in which layers have not been defined.
 
 ## See Also
 
 [ISketchHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
 [ISketchHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch_members.html)
-
 [ISketchHatch::LayerOverride Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch~LayerOverride.html)
 
 ## Availability

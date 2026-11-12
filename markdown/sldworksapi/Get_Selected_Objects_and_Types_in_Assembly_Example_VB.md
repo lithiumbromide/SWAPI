@@ -11,16 +11,9 @@ source: "sldworksapi/Get_Selected_Objects_and_Types_in_Assembly_Example_VB.htm"
 
 ## Get Selected Objects and Types in an Assembly Example (VBA)
 
-This example shows how to determine what is
-currently selected in an assembly document.
+This example shows how to determine what is currently selected in an assembly document.
 
-NOTE : You can select many features and entities
-in SOLIDWORKS. In most cases, it
-is obvious what is selected, but sometimes
-it is not clear or it is ambiguous. This example is a diagnostic tool to
-determine what is currently selected. It shows several
-techniques and methods to get a reference to
-what is selected.
+**NOTE**: You can select many features and entities in SOLIDWORKS Design. In most cases, it is obvious what is selected, but sometimes it is not clear or it is ambiguous. This example is a diagnostic tool to determine what is currently selected. It shows several techniques and methods to get a reference to what is selected.
 
 ```
 '-----------------------------------------------

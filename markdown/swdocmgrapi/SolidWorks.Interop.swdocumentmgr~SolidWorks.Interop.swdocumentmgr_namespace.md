@@ -17,8 +17,9 @@ SOLIDWORKS Document Manager API
 | --- | --- |
 | ISwDMApplication | Manages part, assembly, or drawing documents. |
 | ISwDMApplication2 | Manages part, assembly, or drawing documents. |
-| ISwDMApplication3 | Obsoleted. Superseded by ISwDMApplication4 . |
+| ISwDMApplication3 | Manages part, assembly, or drawing documents. |
 | ISwDMApplication4 | Manages part, assembly, or drawing documents. |
+| ISwDMApplication5 | Manages part, assembly, or drawing documents. |
 | ISwDMClassFactory | Allows you to use the SOLIDWORKS Document Manager API, which requires a valid license key . |
 | ISwDMComponent | Accesses a component's data. |
 | ISwDMComponent10 | Accesses a component's data. |
@@ -136,6 +137,8 @@ SOLIDWORKS Document Manager API
 | ISwDMDocument28 | Accesses the document. |
 | ISwDMDocument29 | Accesses the document. |
 | ISwDMDocument3 | Accesses the document. |
+| ISwDMDocument30 | Accesses the document. |
+| ISwDMDocument31 | Accesses the document. |
 | ISwDMDocument4 | Accesses the document. |
 | ISwDMDocument5 | Accesses the document. |
 | ISwDMDocument6 | Accesses the document. |
@@ -164,10 +167,10 @@ SOLIDWORKS Document Manager API
 | swDm3DExperienceCfgType_e | Types of 3DEXPERIENCE configurations. |
 | swDm3DExperienceModelType_e | Types of 3D EXPERIENCE models. |
 | swDmAngleUnit_e | Units of angle. |
+| SwDmAnnotationFileOpenError | Result codes when opening the preview bitmap of an annotation file. |
 | SwDmBodyError | Body errors. |
 | swDmBOMPartNumberSource | Sources of bill of materials (BOM) part numbers. |
 | swDmBOMTableType | Bill of materials (BOM) table types. |
-| SwDmColumnType | Bill of materials (BOM) column types. |
 | SwDMConfigurationError | Return codes for methods of ISwDMConfigurationMgr2 . |
 | swDmConfigurationType | Configuration types. |
 | SwDmCopyOptions | Copy options. Bitmask. |
@@ -191,6 +194,7 @@ SOLIDWORKS Document Manager API
 | swDmDimXpertStraightnessZoneType_e | DimXpert straightness zone types. |
 | SwDMDocumentLicenseType_e | Document Manager license types. |
 | SwDmDocumentOpenError | Document open errors. |
+| SwDMDocumentSavedInLDREditMode_e | Return values for ISwDMDocument30::SavedInLDREditMode . |
 | SwDmDocumentSaveError | Document save errors. |
 | SwDmDocumentType | Document types. |
 | swDmDocumentUnitsIntegerValue_e | Return options for document values. |

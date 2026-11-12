@@ -52,30 +52,18 @@ void RemoveEntityAtFirstLocation(
 
 ### Return Value
 
-Call
-
-[ICWBoltConnector::GetSourceEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBoltConnector~GetSourceEntityCount.html)
-
-before calling this method to get a valid index.
+Call [ICWBoltConnector::GetSourceEntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBoltConnector~GetSourceEntityCount.html) before calling this method to get a valid index.
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::RemoveEntityAtFirstLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~RemoveEntityAtFirstLocation.html)
-
-.
+See [CWBoltConnector::RemoveEntityAtFirstLocation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~RemoveEntityAtFirstLocation.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::RemoveEntityAtSecondLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~RemoveEntityAtSecondLocation.html)
-
 [ICWBoltConnector::InsertEntityAtFirstLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~InsertEntityAtFirstLocation.html)
-
 [ICWBoltConnector::InsertEntityAtSecondLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~InsertEntityAtSecondLocation.html)
 
 ## Availability

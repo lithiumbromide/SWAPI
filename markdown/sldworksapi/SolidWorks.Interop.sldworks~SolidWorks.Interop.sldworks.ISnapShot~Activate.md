@@ -40,13 +40,7 @@ System.bool Activate()
 System.bool Activate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SnapShot::Activate](ms-its:sldworksapivb6.chm::/sldworks~SnapShot~Activate.html)
-
-.
+See [SnapShot::Activate](ms-its:sldworksapivb6.chm::/sldworks~SnapShot~Activate.html).
 
 ## Examples
 
 [Open Assembly in Large Design Review Mode (C#)](Open_Assembly_in_Large_Design_Review_Mode_Example_CSharp.htm)
-
 [Open Assembly in Large Design Review Mode (VB.NET)](Open_Assembly_in_Large_Design_Review_Mode_Example_VBNET.htm)
-
 [Open Assembly in Large Design Review Mode (VBA)](Open_Assembly_in_Large_Design_Review_Mode_Example_VB.htm)
 
 ## See Also
 
 [ISnapShot Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot.html)
-
 [ISnapShot Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISnapShot_members.html)
 
 ## Availability

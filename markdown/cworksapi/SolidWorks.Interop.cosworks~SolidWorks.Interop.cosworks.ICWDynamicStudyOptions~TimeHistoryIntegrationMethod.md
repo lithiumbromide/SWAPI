@@ -9,13 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # TimeHistoryIntegrationMethod Property (ICWDynamicStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWDynamicStudyOptions::GetTimeHistoryIntegrationMethod2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetTimeHistoryIntegrationMethod2.html)
-
-and
-
-[ICWDynamicStudyOptions::SetTimeHistoryIntegrationMethod2 .](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetTimeHistoryIntegrationMethod2.html)
+Obsolete. Superseded by [ICWDynamicStudyOptions::GetTimeHistoryIntegrationMethod2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetTimeHistoryIntegrationMethod2.html) and [ICWDynamicStudyOptions::SetTimeHistoryIntegrationMethod2.](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetTimeHistoryIntegrationMethod2.html)
 
 ## Syntax
 
@@ -53,26 +47,18 @@ property System.int TimeHistoryIntegrationMethod {
 
 ### Property Value
 
-Integration method as defined in[swsTimeIntegrationMethod_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeIntegrationMethod_e.html)
+Integration method as defined in [swsTimeIntegrationMethod_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeIntegrationMethod_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::TimeHistoryIntegrationMethod](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~TimeHistoryIntegrationMethod.html)
-
-.
+See [CWDynamicStudyOptions::TimeHistoryIntegrationMethod](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~TimeHistoryIntegrationMethod.html).
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::TimeHistoryFirstIntegrationParameter Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~TimeHistoryFirstIntegrationParameter.html)
-
 [ICWDynamicStudyOptions::TimeHistorySecondIntegrationParameter Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~TimeHistorySecondIntegrationParameter.html)
-
 [ICWDynamicStudyOptions::TimeHistoryWilsonTheta Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~TimeHistoryWilsonTheta.html)
 
 ## Availability

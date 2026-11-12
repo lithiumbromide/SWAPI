@@ -1,6 +1,5 @@
 ---
-title: "CustomSymbol Object
-Members"
+title: "CustomSymbol Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CustomSymbol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CustomSymbol_members.html"
 ---
 
-# CustomSymbol Object
-Members
+# CustomSymbol Object Members
 
 ## Public Methods
 

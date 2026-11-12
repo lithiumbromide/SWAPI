@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRu
 
 # IRuledSurfaceFeatureData Interface Methods
 
-For a list of all members of this type, see[IRuledSurfaceFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData_members.html).
+For a list of all members of this type, see [IRuledSurfaceFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData_members.html).
 
 ## Public Methods
 
@@ -30,7 +30,5 @@ For a list of all members of this type, see[IRuledSurfaceFeatureData members](So
 ## See Also
 
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertRuledSurfaceFromEdge2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertRuledSurfaceFromEdge2.html)

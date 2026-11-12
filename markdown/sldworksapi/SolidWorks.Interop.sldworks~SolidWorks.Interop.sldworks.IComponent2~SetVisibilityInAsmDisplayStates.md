@@ -55,22 +55,12 @@ System.bool SetVisibilityInAsmDisplayStates(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `HideComponent`: Visibility as defined in
-
-[swComponentVisibilityState_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swComponentVisibilityState_e.html)
-- `Option`: Display state option as defined in
-
-[swDisplayStateOpts_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDisplayStateOpts_e.html)
+- `HideComponent`: Visibility as defined in [swComponentVisibilityState_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swComponentVisibilityState_e.html)
+- `Option`: Display state option as defined in [swDisplayStateOpts_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDisplayStateOpts_e.html)
 - `AssemblyDisplayStateNames`: Array of assembly display state names; valid only if Option is set to swDisplayStateOpts_e.swSpecifyDisplayState
 
 ### Return Value
@@ -79,20 +69,13 @@ True if visibility successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[Component2::SetVisibilityInAsmDisplayStates](ms-its:sldworksapivb6.chm::/sldworks~Component2~SetVisibilityInAsmDisplayStates.html)
-
-.
+See [Component2::SetVisibilityInAsmDisplayStates](ms-its:sldworksapivb6.chm::/sldworks~Component2~SetVisibilityInAsmDisplayStates.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::SetReferencedDisplayStates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~SetReferencedDisplayStates.html)
-
 [IComponent2::GetVisibilityInAsmDisplayStates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetVisibilityInAsmDisplayStates.html)
 
 ## Availability

@@ -41,18 +41,12 @@ void ClearEdgeSelection();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl::ClearEdgeSelection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~ClearEdgeSelection.html)
-
-.
+See [CWTopologyDemoldControl::ClearEdgeSelection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~ClearEdgeSelection.html).
 
 ## See Also
 
 [ICWTopologyDemoldControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
-
 [ICWTopologyDemoldControl::SelectEdgeForPullDirection Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~SelectEdgeForPullDirection.html)
 
 ## Availability

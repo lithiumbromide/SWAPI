@@ -54,33 +54,17 @@ void ImprintCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Curve`: [Curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-
-to imprint on the face
-- `NewEdges`: Array of new[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)created by the imprinted curve
-- `NewFaces`: Array of new
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-created by the imprinted curve
+- `Curve`: [Curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) to imprint on the face
+- `NewEdges`: Array of new [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) created by the imprinted curve
+- `NewFaces`: Array of new [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) created by the imprinted curve
 
 ## VBA Syntax
 
-See
-
-[Face2::ImprintCurve](ms-its:sldworksapivb6.chm::/sldworks~Face2~ImprintCurve.html)
-
-.
+See [Face2::ImprintCurve](ms-its:sldworksapivb6.chm::/sldworks~Face2~ImprintCurve.html).
 
 ## Remarks
 
@@ -91,11 +75,8 @@ To imprint a curve on a new face of a temporary body, create a copy of the origi
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::IImprintCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IImprintCurve.html)
-
 [IFace2::ImprintCurveCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~ImprintCurveCount.html)
 
 ## Availability

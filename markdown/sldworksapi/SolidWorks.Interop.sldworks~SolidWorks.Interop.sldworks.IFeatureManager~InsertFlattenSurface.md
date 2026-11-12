@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertFlattenSurface Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertFlattenSurface2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFlattenSurface2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertFlattenSurface2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFlattenSurface2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ Feature^ InsertFlattenSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,17 +55,11 @@ See
 
 ### Return Value
 
-Surface-flatten
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+Surface-flatten [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertFlattenSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFlattenSurface.html)
-
-.
+See [FeatureManager::InsertFlattenSurface](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFlattenSurface.html).
 
 ## Remarks
 
@@ -88,9 +72,7 @@ See
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISurfaceFlattenFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData.html)
 
 ## Availability

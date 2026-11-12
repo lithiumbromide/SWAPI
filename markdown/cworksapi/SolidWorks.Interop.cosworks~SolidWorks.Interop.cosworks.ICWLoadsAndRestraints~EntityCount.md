@@ -48,32 +48,19 @@ Number of entities in this load or restraint; does not include reference geometr
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraints::EntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~EntityCount.html)
-
-.
+See [CWLoadsAndRestraints::EntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraints~EntityCount.html).
 
 ## Examples
 
-See the
-
-[ICWLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
-examples.
+See the [ICWLoadsAndRestraints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html) examples.
 
 ## Remarks
 
-Call this method before calling
-
-[ICWLoadAndRestraint::GetEntityAt](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraints~GetEntityAt.html)
-
-.
+Call this method before calling [ICWLoadAndRestraint::GetEntityAt](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLoadsAndRestraints~GetEntityAt.html).
 
 ## See Also
 
 [ICWLoadsAndRestraints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints.html)
-
 [ICWLoadsAndRestraints Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraints_members.html)
 
 ## Availability

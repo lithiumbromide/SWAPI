@@ -50,13 +50,7 @@ void SetSliderParameters(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageNumberbox::SetSliderParameters](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageNumberbox~SetSliderParameters.html)
-
-.
+See [PropertyManagerPageNumberbox::SetSliderParameters](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageNumberbox~SetSliderParameters.html).
 
 ## Remarks
 
@@ -80,9 +70,7 @@ When a user drags the slider, the user-interface tends to snap to the nearest ti
 ## See Also
 
 [IPropertyManagerPageNumberbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox.html)
-
 [IPropertyManagerPageNumberbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox_members.html)
-
 [IPropertyManagerNumberbox::SetRange2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox~SetRange2.html)
 
 ## Availability

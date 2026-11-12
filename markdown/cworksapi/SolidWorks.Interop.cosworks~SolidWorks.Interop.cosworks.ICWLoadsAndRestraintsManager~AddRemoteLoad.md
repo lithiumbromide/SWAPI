@@ -73,20 +73,18 @@ CWRemoteLoad^ AddRemoteLoad(
 
 ### Parameters
 
-- `NLoadType`: Type of restraint or load as defined in
+- `NLoadType`: Type of restraint or load as defined in [swsRemoteLoadType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRemoteLoadType_e.html)
+- `DispArray`:
 
-[swsRemoteLoadType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRemoteLoadType_e.html)
-- `DispArray`: | If NLoadType is ... | Then DispArray is an array of ... |
-| --- | --- |
-| swsRemoteLoadType_e .swsRemoteLoadType_RigidLoadOrMass - or - swsRemoteLoadType_e .swsRemoteLoadType_RigidDisplacement | Faces, edges, or vertices |
-| swsRemoteLoadType_e .swsRemoteLoadType_DirectLoad - or - swsRemoteLoadType_e .swsRemoteLoadType_DirectDisplacement | Faces |
-- `NLocationUnits`: Units as defined in
-
-[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+  | If NLoadType is ... | Then DispArray is an array of ... |
+  | --- | --- |
+  | swsRemoteLoadType_e .swsRemoteLoadType_RigidLoadOrMass - or - swsRemoteLoadType_e .swsRemoteLoadType_RigidDisplacement | Faces, edges, or vertices |
+  | swsRemoteLoadType_e .swsRemoteLoadType_DirectLoad - or - swsRemoteLoadType_e .swsRemoteLoadType_DirectDisplacement | Faces |
+- `NLocationUnits`: Units as defined in [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
 - `DXValue`: X-coordinate of the point of application of the remote load
 - `DYValue`: Y-coordinate of the point of application of the remote load
 - `DZValue`: Z-coordinate of the point of application of the remote load
-- `ErrorCode`: Error code as defined in[swsLoadsAndRestraintsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLoadsAndRestraintsError_e.html)kadov_tag{{<spaces>}}
+- `ErrorCode`: Error code as defined in [swsLoadsAndRestraintsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLoadsAndRestraintsError_e.html)
 
 ### Return Value
 
@@ -94,24 +92,17 @@ CWRemoteLoad^ AddRemoteLoad(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddRemoteLoad](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddRemoteLoad.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddRemoteLoad](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddRemoteLoad.html).
 
 ## Examples
 
 [Add Remote Load (VBA)](Add_Remote_Load_Example_VB.htm)
-
 [Add Remote Load (VB.NET)](Add_Remote_Load_Example_VBNET.htm)
-
 [Add Remote Load (C#)](Add_Remote_Load_Example_CSharp.htm)
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

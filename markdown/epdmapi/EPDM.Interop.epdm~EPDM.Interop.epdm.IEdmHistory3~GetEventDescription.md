@@ -42,16 +42,8 @@ System.String^ GetEventDescription(
 
 ### Parameters
 
-- `historyItem`: [EdmHistoryItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html)
-
-(see
-
-Remarks
-
-)
-- `eLancode`: Localization language as defined in
-
-[EdmLangCode](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLangCode.html)
+- `historyItem`: [EdmHistoryItem](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryItem.html) (see **Remarks**)
+- `eLancode`: Localization language as defined in [EdmLangCode](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLangCode.html)
 
 ### Return Value
 
@@ -59,24 +51,15 @@ History item event description
 
 ## Examples
 
-See the
-
-[IEdmHistory3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3.html)
-
-examples.
+See the [IEdmHistory3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3.html) examples.
 
 ## Remarks
 
-Before calling this method, call
-
-[IEdmHistory3::GetSortedHistory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3~GetSortedHistory.html)
-
-to specify a historyItem.
+Before calling this method, call [IEdmHistory3::GetSortedHistory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3~GetSortedHistory.html) to specify a history item.
 
 ## See Also
 
 [IEdmHistory3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3.html)
-
 [IEdmHistory3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3_members.html)
 
 ## Availability

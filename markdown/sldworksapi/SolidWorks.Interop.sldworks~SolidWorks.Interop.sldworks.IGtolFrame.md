@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGt
 
 Allows access to indicators and XML strings for symbols in a Gtol feature control frame.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IGtolFrame
 
 ## VBA Syntax
 
-See
-
-[GtolFrame](ms-its:sldworksapivb6.chm::/sldworks~GtolFrame.html)
-
-.
+See [GtolFrame](ms-its:sldworksapivb6.chm::/sldworks~GtolFrame.html).
 
 ## Examples
 
@@ -132,7 +128,7 @@ Stop 'in the graphics area select Gtol created with either SolidWorks 2021 or So
 Debug.Print "Select object type as defined by swSelectType_e: " & swSelMgr.GetSelectedObjectType3(1, -1)
 Set swGtol = swSelMgr.GetSelectedObject6(1, -1)
 
-swApp.**GetGtolFormatData**lFormatType, lSchemaVersion
+swApp.**GetGtolFormatData** lFormatType, lSchemaVersion
 Debug.Print "Gtol format type as defined by swGtolFormatType_e: " & lFormatType
 Debug.Print "Gtol schema version as defined by swGtolFormatSchemaVersion_e: " & lSchemaVersion
 
@@ -157,7 +153,7 @@ Debug.Print "SaveFlag BEFORE ConvertFormat is called " & swModel.GetSaveFlag
 swConversionError = swGtol.**ConvertFormat**
 boolstatus = swModel.GetSaveFlag 'if successful, converted Gtol document should be dirty and return True
 Debug.Print "SaveFlag AFTER ConvertFormat is called " & boolstatus
-lFormatType1 = swGtol.**GetFormat**'converted from 2021 to 2022
+lFormatType1 = swGtol.**GetFormat** 'converted from 2021 to 2022
 End If
 End If
 
@@ -181,9 +177,9 @@ Debug.Print "To text: " & swToText1
 
 boolstatus = swGtol.**SeparateRequirement**
 If Not boolstatus = 0 Then
-swGtol.**SeparateRequirement**= False
+swGtol.**SeparateRequirement** = False
 Else
-swGtol.**SeparateRequirement**= True
+swGtol.**SeparateRequirement** = True
 End If
 
 Debug.Print "SEPARATE REQUIREMENT ? " & swGtol.**SeparateRequirement**
@@ -193,13 +189,13 @@ Stop
 FrameCount = swGtol.**GetFrameCount**
 Debug.Print "Frame count: " & FrameCount
 boolstatus = swGtol.**AddFrame**
-FrameCount = swGtol.**GetFrameCount**'frame count should increase by one
+FrameCount = swGtol.**GetFrameCount** 'frame count should increase by one
 Debug.Print "Frame added. Frame count now: " & FrameCount
 boolstatus = swGtol.**DeleteFrame**(FrameCount)
-FrameCount = swGtol.**GetFrameCount**'frame count should decrease by 1, as just added frame was deleted
+FrameCount = swGtol.**GetFrameCount** 'frame count should decrease by 1, as just added frame was deleted
 Debug.Print "Frame deleted. Frame count now: " & FrameCount
 boolstatus = swGtol.**AddFrame**
-FrameCount = swGtol.**GetFrameCount**'frame count should increase by 1
+FrameCount = swGtol.**GetFrameCount** 'frame count should increase by 1
 Debug.Print "Frame added. Frame count now: " & FrameCount
 
 Stop
@@ -254,7 +250,7 @@ Stop
 Debug.Print "Frame " & FrameCount & " DeleteIndicator test"
 boolstatus = swGtolFrame.**DeleteIndicator**(IndicatorCount)
 Debug.Print "DeleteIndicator return value is " & boolstatus
-IndicatorCount = swGtolFrame.**GetIndicatorCount**'should decrease by 1, as indicator deleted
+IndicatorCount = swGtolFrame.**GetIndicatorCount** 'should decrease by 1, as indicator deleted
 Debug.Print "IndicatorCount is " & IndicatorCount & " after DeleteIndicator"
 
 Stop
@@ -263,7 +259,7 @@ Debug.Print " "
 Debug.Print "Miscellaneous Indicator test:"
 boolstatus = swGtolFrame.**AddIndicator**(SwConst.swGtolIndicatorBorderType_e.swGtolIndicatorBorderType_OrientationPlane, SwConst.swGtolGeomCharSymbol_e.swGcsANG, sDatum) 'add indicator for different BorderType and TolType
 Debug.Print "Supported swGtolIndicatorBorderType_OrientationPlane BorderType AddIndicator return value is " & boolstatus
-IndicatorCount = swGtolFrame.**GetIndicatorCount**'should increase by 1
+IndicatorCount = swGtolFrame.**GetIndicatorCount** 'should increase by 1
 Debug.Print "Frame " & FrameCount & " IndicatorCount after one successful AddIndicator is " & IndicatorCount 'should increase by 1
 boolstatus = swGtolFrame.**GetIndicator**(IndicatorCount, lBorderType, lTolType, sDatum)
 Debug.Print "Frame " & FrameCount & " just added GetIndicator: " & " (BorderType = " & lBorderType & " " & "TolType = " & lTolType & " " & "Datum = " & sDatum & ")"
@@ -320,21 +316,20 @@ End Sub
 ## Examples
 
 [Get Gtol Frame Information (VB.NET)](Get_Gtol_Frame_Information_Example_VBNET.htm)
-
 [Get Gtol Frame Information (C#)](Get_Gtol_Frame_Information_Example_CSharp.htm)
 
 ## Remarks
 
 A geometric tolerance symbol adds geometric tolerances to parts and drawings using feature control frames.
 
-This interface extends[IGtol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)by supporting the new SOLIDWORKS 2022 Gtol architecture and providing the ability to specify Gtol frames using XML:
+This interface extends [IGtol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html) by supporting the new SOLIDWORKS 2022 Gtol architecture and providing the ability to specify Gtol frames using XML:
 
 - Left of Gtol you can add a single line of text and symbol (first frame only).
 - Above Gtol you can add multi-line text and symbol (top frame only).
 - Right of Gtol there can be indicator, datum, or text box. Multiple indicators are supported, but any text box must be at the end of the list of indicators. Text box can have only one line and symbol.
 - Below Gtol there can be additional frames, text, between instruction, from-to instruction, separate requirement label (bottom frame only).
 
-For more information, see the**SOLIDWORKS user-interface help > Detailing and Drawings > Annotations > Symbols > Geometric Tolerance Symbols**topic.
+For more information, see the **SOLIDWORKS Design user-interface help > Detailing and Drawings > Annotations > Symbols > Geometric Tolerance Symbols** topic.
 
 ## Accessors
 
@@ -347,5 +342,4 @@ For more information, see the**SOLIDWORKS user-interface help > Detailing and Dr
 ## See Also
 
 [IGtolFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtolFrame_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

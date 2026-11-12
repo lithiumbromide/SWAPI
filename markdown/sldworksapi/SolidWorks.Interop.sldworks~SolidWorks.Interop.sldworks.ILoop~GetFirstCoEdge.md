@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 # GetFirstCoEdge Method (ILoop)
 
-Obsolete. Superseded by
-
-[ILoop2::GetFirstCoEdge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~GetFirstCoEdge.html)
-
-.
+Obsolete. Superseded by [ILoop2::GetFirstCoEdge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~GetFirstCoEdge.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetFirstCoEdge()
 System.Object^ GetFirstCoEdge();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Loop::GetFirstCoEdge](ms-its:sldworksapivb6.chm::/sldworks~Loop~GetFirstCoEdge.html)
-
-.
+See [Loop::GetFirstCoEdge](ms-its:sldworksapivb6.chm::/sldworks~Loop~GetFirstCoEdge.html).
 
 ## See Also
 
 [ILoop Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop.html)
-
 [ILoop Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoop_members.html)

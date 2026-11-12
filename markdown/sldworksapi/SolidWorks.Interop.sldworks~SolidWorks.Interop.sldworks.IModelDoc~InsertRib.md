@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertRib Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::InsertRib](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertRib.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::InsertRib](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertRib.html).
 
 ## Syntax
 
@@ -78,13 +74,7 @@ void InsertRib(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -99,14 +89,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::InsertRib](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertRib.html)
-
-.
+See [ModelDoc::InsertRib](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertRib.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

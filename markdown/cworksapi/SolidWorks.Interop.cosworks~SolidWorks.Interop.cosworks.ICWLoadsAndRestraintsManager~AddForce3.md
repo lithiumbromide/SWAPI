@@ -129,86 +129,50 @@ CWForce^ AddForce3(
 
 ### Parameters
 
-- `ForceType`: Type of force as defined in
-
-[swsForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceType_e.html)
-
-(see
-
-Remarks
-
-)
-- `SelectionType`: Type of selection as defined in
-
-[swsSelectionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSelectionType_e.html)
+- `ForceType`: Type of force as defined in [swsForceType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceType_e.html) (see **Remarks**)
+- `SelectionType`: Type of selection as defined in [swsSelectionType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSelectionType_e.html)
 - `RefDirType`: Type of RefGeom to specify direction of this force:
 
-- 0 = edge
-- 1 = axis
-- 2 = face or plane
-- -1 = no direction reference
+  - 0 = edge
+  - 1 = axis
+  - 2 = face or plane
+  - -1 = no direction reference
 
-(see**Remarks**)
-- `InterpolationMode`: Interpolation mode as defined in
-
-[swsTableDrivenInterpolationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTableDrivenInterpolationType_e.html)
-
-; only used in calculation if NonUniformLoadDistDef is swsBeamNonUniformLoadDef_e.swsTableDrivenLoad
-- `DistPercentageOpt`: Table-driven distribution option as defined in
-
-[swsTableDrivenDistOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTableDrivenDistOption_e.html)
-
-; only used in calculation if NonUniformLoadDistDef is swsBeamNonUniformLoadDef_e.swsTableDrivenLoad
+  (see **Remarks**)
+- `InterpolationMode`: Interpolation mode as defined in [swsTableDrivenInterpolationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTableDrivenInterpolationType_e.html); only used in calculation if NonUniformLoadDistDef is swsBeamNonUniformLoadDef_e.swsTableDrivenLoad
+- `DistPercentageOpt`: Table-driven distribution option as defined in [swsTableDrivenDistOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTableDrivenDistOption_e.html); only used in calculation if NonUniformLoadDistDef is swsBeamNonUniformLoadDef_e.swsTableDrivenLoad
 - `NumOfRows`: Number of rows for a table-driven nonuniform distribution; only used in calculation if NonUniformLoadDistDef is swsBeamNonUniformLoadDef_e.swsTableDrivenLoad
 - `DistValue`: Array of the percentage or absolute distances of the forces along the beam for a table-driven nonuniform distribution; only used in calculation if NonUniformLoadDistDef is swsBeamNonUniformLoadDef_e.swsTableDrivenLoad; specify an empty array for a non-beam force
 - `ForceValue`: Array of the values of the forces along the beam for a table-driven nonuniform distribution; only used in calculation if NonUniformLoadDistDef is swsBeamNonUniformLoadDef_e.swsTableDrivenLoad; specify an empty array for a non-beam force
 - `NonUniformLoading`: True for nonuniform distribution, false for uniform distribution
 - `NULoadingOnBeam`: True for nonuniform distribution along a beam, false for uniform distribution along a beam
-- `NonUniformLoadDistDef`: Definition of nonuniform distribution along a beam as defined in
-
-[swsBeamNonUniformLoadDef_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamNonUniformLoadDef_e.html)
-
-; valid only if NULoadingOnBeam is true
-- `NonUniformLoadDistType`: Type of nonuniform distribution along a beam as defined in
-
-[swsBeamNonUniformLoadType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamNonUniformLoadType_e.html)
-
-; valid only if NULoadingOnBeam is true
+- `NonUniformLoadDistDef`: Definition of nonuniform distribution along a beam as defined in [swsBeamNonUniformLoadDef_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamNonUniformLoadDef_e.html); valid only if NULoadingOnBeam is true
+- `NonUniformLoadDistType`: Type of nonuniform distribution along a beam as defined in [swsBeamNonUniformLoadType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBeamNonUniformLoadType_e.html); valid only if NULoadingOnBeam is true
 - `Ucode`: Components in Comps to use for a force in a selected direction:
 
-- 1 = Fx
-- 2 = Fy
-- 4 = Fz
-- 8 = Mx
-- 16 = My
-- 32 = Mz
+  - 1 = Fx
+  - 2 = Fy
+  - 4 = Fz
+  - 8 = Mx
+  - 16 = My
+  - 32 = Mz
 
-For combinations of forces and moments in various directions, add up the corresponding values; use 0 for a normal force
+  For combinations of forces and moments in various directions, add up the corresponding values; use 0 for a normal force
 
-(see**Remarks**)
+  (see **Remarks**)
 - `TorqueNFVal`: Torque or normal force value; valid only if:
 
-- RefDirType is -1
-- ForceType is not swsForceType_e.swsForceTypeForceOrMoment
+  - RefDirType is -1
+  - ForceType is not swsForceType_e.swsForceTypeForceOrMoment
 
-For beams, valid only for swsBeamNonUniformLoadDef_e.swsTotalLoad or swsBeamNonUniformLoadDef_e.swsCentralLoad
-- `Comps`: Array of force and moment component values; set elements to use in Ucode; for beams, valid only if NonUniformLoadDistDef is swsBeamNonUniformLoadDef_e.swsTotalLoad or swsBeamNonUniformLoadDef_e.swsCentralLoad (see
-
-Remarks
-
-)
+  For beams, valid only for swsBeamNonUniformLoadDef_e.swsTotalLoad or swsBeamNonUniformLoadDef_e.swsCentralLoad
+- `Comps`: Array of force and moment component values; set elements to use in Ucode; for beams, valid only if NonUniformLoadDistDef is swsBeamNonUniformLoadDef_e.swsTotalLoad or swsBeamNonUniformLoadDef_e.swsCentralLoad (see **Remarks**)
 - `FlipOrigin`: True to flip the beam origin, false to not; only used if NonUniformLoadDistDef is swsBeamNonUniformLoadDef_e.swsTableDrivenLoad
 - `IsCurvedBeam`: True if the beam is curved, false if the beam is straight
 - `DispArray`: Array of entities to which to apply this force
-- `RefGeom`: Reference direction entity used to indicate the direction of force; valid only if RefDirType is not -1 (see
-
-Remarks
-
-)
+- `RefGeom`: Reference direction entity used to indicate the direction of force; valid only if RefDirType is not -1 (see **Remarks**)
 - `PerUnitLength`: True to change the unit of the force or moment value to a per unit length, false to not; valid only if SelectionType is swsSelectionType_e.swsSelectionBeams
-- `ErrorCode`: Error as defined in
-
-[swsForceError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceError_e.html)
+- `ErrorCode`: Error as defined in [swsForceError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsForceError_e.html)
 
 ### Return Value
 
@@ -216,30 +180,18 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddForce3](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddForce3.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddForce3](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddForce3.html).
 
 ## Examples
 
 [Apply Loads to Beam (C#)](Apply_Loads_to_Beam_Example_CSharp.htm)
-
 [Apply Loads to Beam (VB.NET)](Apply_Loads_to_Beam_Example_VBNET.htm)
-
 [Apply Loads to Beam (VBA)](Apply_Loads_to_Beam_Example_VB.htm)
-
 [Apply Table-driven Load to Multiple Beams (C#)](Apply_Table-driven_Load_to_Multiple_Beams_Example_CSharp.htm)
-
 [Apply Table-driven Load to Multiple Beams (VB.NET)](Apply_Table-driven_Load_to_Multiple_Beams_Example_VBNET.htm)
-
 [Apply Table-driven Load to Multiple Beams (VBA)](Apply_Table-driven_Load_to_Multiple_Beams_Example_VB.htm)
-
 [Add Nonuniform Force Distribution (VBA)](Add_Force_Example_VB.htm)
-
 [Add Nonuniform Force Distribution (VB.NET)](Add_Force_Example_VBNET.htm)
-
 [Add Nonuniform Force Distribution (C#)](Add_Force_Example_CSharp.htm)
 
 ## Remarks
@@ -261,7 +213,6 @@ You must specify Comps with a non-empty array of non-zero elements for all Force
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

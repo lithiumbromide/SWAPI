@@ -45,13 +45,7 @@ property System.int Length {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Maximum number of balloons in one row of the stack; valid values are from 2 to 1
 
 ## VBA Syntax
 
-See
-
-[BalloonStack::Length](ms-its:sldworksapivb6.chm::/sldworks~BalloonStack~Length.html)
-
-.
+See [BalloonStack::Length](ms-its:sldworksapivb6.chm::/sldworks~BalloonStack~Length.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ Valid values are from 2 to 100. If you specify an invalid value for Length, SOLI
 ## See Also
 
 [IBalloonStack Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack.html)
-
 [IBalloonStack Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack_members.html)
 
 ## Availability

@@ -49,13 +49,7 @@ public delegate System.int DSldWorksEvents_LightSheetCreateNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,19 +59,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[LightSheetCreateNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~LightSheetCreateNotify_EV.html)
-
-.
+See [LightSheetCreateNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~LightSheetCreateNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAppLightSheetCreateNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppLightSheetCreateNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

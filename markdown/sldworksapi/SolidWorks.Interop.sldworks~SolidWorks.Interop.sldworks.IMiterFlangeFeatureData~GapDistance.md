@@ -45,13 +45,7 @@ property System.double GapDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Distance in meters between edges in the miter flange
 
 ## VBA Syntax
 
-See
-
-[MiterFlangeFeatureData::GapDistance](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~GapDistance.html)
-
-.
+See [MiterFlangeFeatureData::GapDistance](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~GapDistance.html).
 
 ## See Also
 
 [IMiterFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData.html)
-
 [IMiterFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData_members.html)
 
 ## Availability

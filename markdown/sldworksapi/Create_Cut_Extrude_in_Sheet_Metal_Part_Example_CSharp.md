@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Cut_Extrude_in_Sheet_Metal_Part_Example_CSharp.htm"
 
 # Create Cut Extrude in Sheet Metal Part Example (C#)
 
-This example shows how to create an optimized, normal, cut extrude in a sheet
-metal part.
+This example shows how to create an optimized, normal, cut extrude in a sheet metal part.
 
 ```
 //-------------------------------------------------------------

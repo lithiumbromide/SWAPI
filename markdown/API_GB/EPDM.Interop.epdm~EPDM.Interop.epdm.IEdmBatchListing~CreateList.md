@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.
 
 # CreateList Method (IEdmBatchListing)
 
-Obsolete. Superseded by
-
-[IEdmBatchListing2::CreateListEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2~CreateListEx.html)
-
-.
+Obsolete. Superseded by [IEdmBatchListing2::CreateListEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing2~CreateListEx.html).
 
 ## Syntax
 
@@ -46,20 +42,12 @@ void CreateList(
 
 ### Parameters
 
-- `bsColumnSetName`: Empty string, column set name returned by
-
-[IEdmBatchListing::GetColumnSetNames](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetColumnSetNames.html)
-
-, or a list of variable names separated by a newline character and starting with a newline character (e.g., "\nAuthor\nProject\nDate")
-- `ppoColumns`: Array of
-
-[EdmListCol](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html)
-
-structures; one structure for each column in the column set; empty array if bsColumnSetName is an empty string
+- `bsColumnSetName`: Empty string, column set name returned by [IEdmBatchListing::GetColumnSetNames](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetColumnSetNames.html), or a list of variable names separated by a newline character and starting with a newline character (e.g., "\nAuthor\nProject\nDate")
+- `ppoColumns`: Array of [EdmListCol](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html) structures; one structure for each column in the column set; empty array if bsColumnSetName is an empty string
 
 ## Remarks
 
-After calling this method, call[IEdmBatchListing::GetFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetFiles.html)and[IEdmBatchListing::GetFolders](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetFolders.html).
+After calling this method, call [IEdmBatchListing::GetFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetFiles.html) and [IEdmBatchListing::GetFolders](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~GetFolders.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -69,7 +57,6 @@ After calling this method, call[IEdmBatchListing::GetFiles](EPDM.Interop.epdm~EP
 ## See Also
 
 [IEdmBatchListing Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing.html)
-
 [IEdmBatchListing Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing_members.html)
 
 ## Availability

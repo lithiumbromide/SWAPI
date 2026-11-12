@@ -1,6 +1,5 @@
 ---
-title: "Spring Object
-Members"
+title: "Spring Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Spring_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Spring_members.html"
 ---
 
-# Spring Object
-Members
+# Spring Object Members
 
 ## Public Methods
 

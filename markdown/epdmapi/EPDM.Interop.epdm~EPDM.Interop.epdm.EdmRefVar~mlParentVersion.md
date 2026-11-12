@@ -39,5 +39,4 @@ This member is ignored during write operations, because only the latest version 
 ## See Also
 
 [EdmRefVar Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar.html)
-
 [EdmRefVar Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar_members.html)

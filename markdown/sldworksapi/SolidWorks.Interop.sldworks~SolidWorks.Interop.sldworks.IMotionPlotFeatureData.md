@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 Allows access to a plot's feature data.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IMotionPlotFeatureData
 
 ## VBA Syntax
 
-See
-
-[MotionPlotFeatureData](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotFeatureData.html)
-
-.
+See [MotionPlotFeatureData](ms-its:sldworksapivb6.chm::/sldworks~MotionPlotFeatureData.html).
 
 ## Examples
 
 [Create Plots and Get Values (C#)](Create_Plots_and_Get_Values_Example_CSharp.htm)
-
 [Create Plots and Get Values (VB.NET)](Create_Plots_and_Get_Values_Example_VBNET.htm)
-
 [Create Plots and Get Values (VBA)](Create_Plots_and_Get_Values_Example_VB.htm)
 
 ## Remarks
@@ -82,5 +76,4 @@ Examine the examples to see the calls for these steps.
 ## See Also
 
 [IMotionPlotFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMotionPlotFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

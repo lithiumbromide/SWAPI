@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetSectionedBodies Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::GetSectionedBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetSectionedBodies.html)
-
-.
+Obsolete. Superseded by [IComponent2::GetSectionedBodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetSectionedBodies.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ GetSectionedBodies(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Component::GetSectionedBodies](ms-its:sldworksapivb6.chm::/sldworks~Component~GetSectionedBodies.html)
-
-.
+See [Component::GetSectionedBodies](ms-its:sldworksapivb6.chm::/sldworks~Component~GetSectionedBodies.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

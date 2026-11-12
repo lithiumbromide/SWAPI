@@ -51,32 +51,19 @@ Maximum distance from the shear center to the furthest point on the cross-sectio
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::BeamDistForMaxShearStress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamDistForMaxShearStress.html)
-
-.
+See [CWBeamBody::BeamDistForMaxShearStress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~BeamDistForMaxShearStress.html).
 
 ## Examples
 
-See the
-
-[ICWBeamBody](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
-examples.
+See the [ICWBeamBody](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html) examples.
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
-
 [ICWBeamBody::BeamShearY Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~BeamShearY.html)
-
 [ICWBeamBody::BeamShearZ Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~BeamShearZ.html)
-
 [ICWBeamBody::BeamTorsionalConstant Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~BeamTorsionalConstant.html)
-
 [ICWBeamBody::BeamTorsionalConstantUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~BeamTorsionalConstantUnit.html)
 
 ## Availability

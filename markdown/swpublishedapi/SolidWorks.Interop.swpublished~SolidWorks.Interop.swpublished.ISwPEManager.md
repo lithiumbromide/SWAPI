@@ -11,7 +11,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 Allows SOLIDWORKS Partners to create SOLIDWORKS add-ins that have been registered with the SOLIDWORKS Partner Program team.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,13 @@ public interface class ISwPEManager
 
 ## VBA Syntax
 
-See
-
-[SwPEManager](ms-its:swpublishedapivb6.chm::/swpublished~SwPEManager.html)
-
-.
+See [SwPEManager](ms-its:swpublishedapivb6.chm::/swpublished~SwPEManager.html).
 
 ## Remarks
 
-This interface and[ISwAddin](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin.html)are implemented in add-ins of SOLIDWORKS Partners who participate in the[SOLIDWORKS Partner Program](ms-its:sldworksapiprogguide.chm::/GettingStarted/SolidWorks_Partner_Program_2.htm).
+This interface and [ISwAddin](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin.html) are implemented in add-ins of SOLIDWORKS Partners who participate in the [SOLIDWORKS Partner Program](ms-its:sldworksapiprogguide.chm::/GettingStarted/SolidWorks_Partner_Program_2.htm).
 
 ## See Also
 
 [ISwPEManager Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwPEManager_members.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

@@ -39,16 +39,11 @@ void CloseFile(
 
 ### Parameters
 
-- `bFlush`: True to call
-
-[IEdmEnumeratorVariable5::Flush](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~Flush.html)
-
-before closing the file, false to not
+- `bFlush`: True to call [IEdmEnumeratorVariable5::Flush](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~Flush.html) before closing the file, false to not
 
 ## Examples
 
 [Set Part Number Using Default Serial Numbers (C#)](Set_Part_Number_Using_Default_Serial_Numbers_Example_CSharp.htm)
-
 [Set Part Number Using Default Serial Numbers (VB.NET)](Set_Part_Number_Using_Default_Serial_Numbers_Example_VBNET.htm)
 
 ## Remarks
@@ -63,7 +58,6 @@ After closing the file using this method, none of the other methods in this inte
 ## See Also
 
 [IEdmEnumeratorVariable8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8.html)
-
 [IEdmEnumeratorVariable8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8_members.html)
 
 ## Availability

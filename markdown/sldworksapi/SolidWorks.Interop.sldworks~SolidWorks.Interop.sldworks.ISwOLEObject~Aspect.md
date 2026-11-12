@@ -42,37 +42,19 @@ property System.int Aspect {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Viewing aspect as defined in the DVASPECT enumeration (see
-
-Remarks
-
-)
+Viewing aspect as defined in the DVASPECT enumeration (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[SwOLEObject::Aspect](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Aspect.html)
-
-.
+See [SwOLEObject::Aspect](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Aspect.html).
 
 ## Examples
 
-See the
-
-[ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
-examples.
+See the [ISwOLEObject](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html) examples.
 
 ## Remarks
 
@@ -88,7 +70,6 @@ See the MSDN documentation for additional details about the DVASPECT enumeration
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
 
 ## Availability

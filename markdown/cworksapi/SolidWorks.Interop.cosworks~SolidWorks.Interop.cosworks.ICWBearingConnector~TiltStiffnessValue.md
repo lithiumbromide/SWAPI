@@ -47,36 +47,19 @@ Tilt stiffness
 
 ## VBA Syntax
 
-See
-
-[CWBearingConnector::TiltStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~TiltStiffnessValue.html)
-
-.
+See [CWBearingConnector::TiltStiffnessValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~TiltStiffnessValue.html).
 
 ## Examples
 
-See the
-
-[ICWBearingConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
-examples.
+See the [ICWBearingConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ICWBearingConnector::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~ConnectionType.html)
-
-is set to
-
-[swsBearingConnectionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingConnectionType_e.html)
-
-.swsDistributedConnTyp or swsBearingConnectionType_e.swsRigidConnTyp.
+This property is valid only if [ICWBearingConnector::ConnectionType](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~ConnectionType.html) is set to [swsBearingConnectionType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingConnectionType_e.html).swsDistributedConnTyp or swsBearingConnectionType_e.swsRigidConnTyp.
 
 ## See Also
 
 [ICWBearingConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
 [ICWBearingConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector_members.html)
 
 ## Availability

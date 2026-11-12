@@ -45,50 +45,31 @@ property System.bool DeleteOriginalFace {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to delete the original faces, false to not (see
-
-Remarks
-
-)
+True to delete the original faces, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SurfExtrudeFeatureData::DeleteOriginalFace](ms-its:sldworksapivb6.chm::/sldworks~SurfExtrudeFeatureData~DeleteOriginalFace.html)
-
-.
+See [SurfExtrudeFeatureData::DeleteOriginalFace](ms-its:sldworksapivb6.chm::/sldworks~SurfExtrudeFeatureData~DeleteOriginalFace.html).
 
 ## Examples
 
-See the
-
-[ISurfExtrudeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData.html)
-
-examples.
+See the [ISurfExtrudeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData.html) examples.
 
 ## Remarks
 
-This property is only available if[ISurfExtrudeFeatureData::BothDirections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData~BothDirections.html)= false.
+This property is only available if [ISurfExtrudeFeatureData::BothDirections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData~BothDirections.html) = false.
 
-Deleting original faces results in the model being hollow where the faces were deleted and creates multiple bodies. To create a single body when original faces are deleted, use[ISurfExtrudeFeatureData::KnitResult](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData~KnitResult.html).
+Deleting original faces results in the model being hollow where the faces were deleted and creates multiple bodies. To create a single body when original faces are deleted, use [ISurfExtrudeFeatureData::KnitResult](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData~KnitResult.html).
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISurfExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData.html)
-
 [ISurfExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData_members.html)
 
 ## Availability

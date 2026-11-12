@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIn
 
 # CreateFastenersFolder Property (IInterferenceDetectionMgr)
 
-Gets or sets whether to create the
-
-Fasteners
-
-folders to segregate interferences involving fasteners.
+Gets or sets whether to create the Fasteners folders to segregate interferences involving fasteners.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool CreateFastenersFolder {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,18 +53,12 @@ True to create fasteners folder, false to not
 
 ## VBA Syntax
 
-See
-
-[InterferenceDetectionMgr::CreateFastenersFolder](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~CreateFastenersFolder.html)
-
-.
+See [InterferenceDetectionMgr::CreateFastenersFolder](ms-its:sldworksapivb6.chm::/sldworks~InterferenceDetectionMgr~CreateFastenersFolder.html).
 
 ## Examples
 
 [Run Interference Detection (C#)](Run_Interference_Detection_Example_CSharp.htm)
-
 [Run Interference Detection (VB.NET)](Run_Interference_Detection_Example_VBNET.htm)
-
 [Run Interference Detection (VBA)](Run_Interference_Detection_Example_VB.htm)
 
 ## Remarks
@@ -82,15 +66,13 @@ See
 Currently, the value set for this property:
 
 - exists only while the InterferenceDetectionMgr object is in scope; i.e., setting this property is temporary.
-- does not persist across SOLIDWORKS sessions.
+- does not persist across SOLIDWORKS Design sessions.
 - does not persist into the next invocation of interference detection in the user interface.
 
 ## See Also
 
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [IInterferenceDetectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr_members.html)
-
 [IInterference::IsFastener Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference~IsFastener.html)
 
 ## Availability

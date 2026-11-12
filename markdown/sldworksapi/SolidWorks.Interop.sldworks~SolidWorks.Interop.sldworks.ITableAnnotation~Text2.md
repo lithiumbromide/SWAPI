@@ -56,13 +56,7 @@ property System.String^ Text2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -76,45 +70,36 @@ Cell text
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::Text2](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~Text2.html)
-
-.
+See [TableAnnotation::Text2](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~Text2.html).
 
 ## Examples
 
 [Insert BOM Table and Extract Data (VBA)](Insert_BOM_Table_and_Extract_Data_Example_VB.htm)
-
 [Insert BOM Table and Extract Data (VB.NET)](Insert_BOM_Table_and_Extract_Data_Example_VBNET.htm)
-
 [Insert BOM Table and Extract Data (C#)](Insert_BOM_Table_and_Extract_Data_Example_CSharp.htm)
 
 ## Remarks
 
 Index for both rows and columns is 0-based.
 
-This property returns the string that drives the text displayed in the specified cell. For example, the string returned by this property would be the parameter string if the cell is linked to a dimension value or custom property. To get the text actually displayed in the cell, use[ITableAnnotation::DisplayedText2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~DisplayedText2.html).
+This property returns the string that drives the text displayed in the specified cell. For example, the string returned by this property would be the parameter string if the cell is linked to a dimension value or custom property. To get the text actually displayed in the cell, use [ITableAnnotation::DisplayedText2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~DisplayedText2.html).
 
 Table annotation:
 
 - [BOM](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation.html): All cells are editable.
 - [General](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableAnnotation.html): All cells are editable.
 - [Hole](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTableAnnotation.html): Only columns that are not automatically generated are editable. The header row and custom columns are editable.
-- [Revision](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableFeature.html)
+- [Revision](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableFeature.html): All cells are editable
 
-  : All cells are editable
+You might experience decreased performance when updating the text in multiple cells in large tables, because the table automatically rebuilds each time you change the text in a cell. To increase performance while updating the text in large tables:
 
-You might experience decreased performance when updatingkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}the text in multiple cells in large tables, because the table automatically rebuilds each time you change the text in a cell. To increase performance while updating the text in large tables:
-
-1. Set[IAnnotation::Visible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Visible.html)to false. (The table is not rebuilt while the table is hidden.)
+1. Set [IAnnotation::Visible](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~Visible.html) to false. (The table is not rebuilt while the table is hidden.)
 2. Update the text in the table cells.
 3. Set IAnnotation::Visible to true.
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
 
 ## Availability

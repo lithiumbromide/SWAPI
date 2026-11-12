@@ -45,13 +45,7 @@ property System.double TextScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[CalloutVariable::TextScale](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~TextScale.html)
-
-.
+See [CalloutVariable::TextScale](ms-its:sldworksapivb6.chm::/sldworks~CalloutVariable~TextScale.html).
 
 ## Remarks
 
-Set
-
-[ICalloutVariable::UseTextScale](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~UseTextScale.html)
-
-to true to enable setting this property.
+Set [ICalloutVariable::UseTextScale](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~UseTextScale.html) to true to enable setting this property.
 
 ## See Also
 
 [ICalloutVariable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable.html)
-
 [ICalloutVariable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable_members.html)
-
 [ICalloutVariable::FitTextScale Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~FitTextScale.html)
-
 [ICalloutVariable::FitUseTextScale Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICalloutVariable~FitUseTextScale.html)
 
 ## Availability

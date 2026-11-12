@@ -46,11 +46,7 @@ Time, in seconds, where the timebar is on the timeline
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::GetTime](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~GetTime.html)
-
-.
+See [MotionStudy::GetTime](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~GetTime.html).
 
 ## Examples
 
@@ -59,13 +55,9 @@ See
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
-
 [IMotionStudy::GetDuration Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~GetDuration.html)
-
 [IMotionStudy::SetDuration Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~SetDuration.html)
-
 [IMotionStudy::SetTime Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy~SetTime.html)
 
 ## Availability

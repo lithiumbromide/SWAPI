@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Sheet_in_Multi-sheet_Drawing_Example_VB.htm"
 
 # Get Sheet in Multi-sheet Drawing Example (VBA)
 
-This example shows how to get each sheet in a multi-sheet drawing regardless
-whether the sheet is loaded.
+This example shows how to get each sheet in a multi-sheet drawing regardless whether the sheet is loaded.
 
 ```
 '----------------------------------------------------------------------
@@ -53,15 +52,15 @@ vSheetName = swDraw.GetSheetNames
 ' Traverse the drawing sheets and determine whether
 ' they're loaded
 For i = 0 To UBound(vSheetName)
-kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}bRet = swDraw.ActivateSheet(vSheetName(i))
-kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}Dim swSheet As Sheet
-kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}Set swSheet = swDraw.Sheet(vSheetName(i))
-kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}'swSheet = swDraw.GetCurrentSheet
-kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}If (swSheet.IsLoaded) Then
-kadov_tag{{<spaces>}}       kadov_tag{{</spaces>}}Debug.Print (vSheetName(i) & " is loaded.")
-kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}Else
-kadov_tag{{<spaces>}}       kadov_tag{{</spaces>}}Debug.Print (vSheetName(i) & " is not loaded.")
-kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}End If
+   bRet = swDraw.ActivateSheet(vSheetName(i))
+   Dim swSheet As Sheet
+   Set swSheet = swDraw.Sheet(vSheetName(i))
+   'swSheet = swDraw.GetCurrentSheet
+   If (swSheet.IsLoaded) Then
+       Debug.Print (vSheetName(i) & " is loaded.")
+   Else
+       Debug.Print (vSheetName(i) & " is not loaded.")
+   End If
 Next i
 ```
 

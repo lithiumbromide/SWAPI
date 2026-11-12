@@ -11,42 +11,36 @@ source: "epdmapi/Favorite_Search_Example_CSharp.htm"
 
 This example shows how to perform a favorite search.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //----------------------------------------------------------------------------
 // Preconditions:
 //  1. Start Microsoft Visual Studio.
-//  2. Click File > New > Project > Visual C# > Windows Forms Application.
-//  3. Type FavoriteSearch_CSharp in Name.
-//  4. Click Browse to navigate to the folder where to create the project.
-//  5. Click OK.
-//  6. Click Show All Files in the Solution Explorer toolbar and expand
+//  2. Click File > New > Project > C#, Windows, Desktop > Windows Forms App.
+//  3. Type FavoriteSearch_CSharp in Project name.
+//  4. For Location, click ... and navigate to the folder where to
+create the project.
+//  5. Click Next.
+//  6. Select Framework.
+//  7. Click Create.
+//  8. Click Show All Files in the Solution Explorer toolbar and expand
 //     Form1.cs in the Solution Explorer.
-//  7. Replace the code in Form1.cs with this code.
-//  8. To create the form, replace the code in Form1.Designer.cs with this code.
-//  9. Add EPDM.Interop.epdm.dll as a reference (right-click the project
-//     name in the Solution Explorer, click Add Reference, click
-//     Assembly > Framework in the left-side panel, browse to the top folder of your
-//     SOLIDWORKS PDM Professional installation, locate and select
-//     EPDM.Interop.epdm.dll, click Open, and click Add).
-// 10. Right-click EPDM.Interop.epdm in References, click Properties, and set
-//     Embed Interop Types to False to handle methods that pass arrays of
-//     structures.
-// 11. Ensure that you know the name of a saved favorite search, and that search
+//  9. Replace the code in Form1.cs with this code.
+// 10. To create the form, replace the code in Form1.Designer.cs with this code.
+// 11. Add dependencies and safely pass arrays of structures.
+// 12. Ensure that you know the name of a saved favorite search, and that search
 //     finds at least one vault file whose extension (e.g., sldprt)
 //     has a file data card (e.g. Quick Start Data Card) with a Description field.
-// 12. Check out the vault file and add a description. Check it back in.
-// 13. Use the Admin Tool to create a new column set for complete search results.
+// 13. Check out the vault file and add a description. Check it back in.
+// 14. Use the Admin Tool to create a new column set for complete search results.
 //     (Right-click on Admin Tool > vault_name > Columns > Search Result Columns and select New Column Set.
-// 14. Click Add and select Description from the Variable dropdown
-// 15. Save the new column set with name, MyFavoriteSearchResults.
-// 16. Double-click Admin Tool > vault_name > Cards > Search Cards > Complete Search.
-// 17. In the Card Properties panel, select the View and Preferred checkboxes next to MyFavoriteSearchResults.
-// 18. Save and close the Card Editor dialog.
-// 19. Click Debug > Start Debugging or press F5.
+// 15. Click Add and select Description from the Variable dropdown
+// 16. Save the new column set with name, MyFavoriteSearchResults.
+// 17. Double-click Admin Tool > vault_name > Cards > Search Cards > Complete Search.
+// 18. In the Card Properties panel, select the View and Preferred checkboxes next to MyFavoriteSearchResults.
+// 19. Save and close the Card Editor dialog.
+// 20. Click Debug > Start Debugging or press F5.
 //
 // Postconditions:
 //  1. Displays a dialog.

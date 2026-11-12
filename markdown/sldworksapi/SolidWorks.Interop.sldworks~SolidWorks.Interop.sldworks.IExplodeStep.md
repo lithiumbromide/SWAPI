@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 Allows access to an explode step in the explode view of the active assembly configuration.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,23 +41,18 @@ public interface class IExplodeStep
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep.html)
-
-.
+See [ExplodeStep](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep.html).
 
 ## Examples
 
 [Add Regular Explode Step (VBA)](Add_Explode_Step_Example_VB.htm)
-
 [Edit Radial Explode Step (VBA)](Edit_Radial_Explode_Step_Example_VB.htm)
 
 ## Remarks
 
-This interface is valid only for assemblies. To access the explode steps of an explode view of multibody parts, see[IPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html).
+This interface is valid only for assemblies. To access the explode steps of an explode view of multibody parts, see [IPartExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartExplodeStep.html).
 
-If this is a subassembly explode step, then you can call only one method on this interface,[IExplodeStep::GetSubAssemblyExplodeSteps](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetSubAssemblyExplodeSteps.html), to retrieve the nested explode steps of this subassembly explode step.
+If this is a subassembly explode step, then you can call only one method on this interface, [IExplodeStep::GetSubAssemblyExplodeSteps](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetSubAssemblyExplodeSteps.html), to retrieve the nested explode steps of this subassembly explode step.
 
 The setter properties and methods of this interface:
 
@@ -67,71 +62,19 @@ The setter properties and methods of this interface:
 
 To edit an explode step that is not a subassembly explode step:
 
-1. Use
-
-  [IConfigurationManager::ActiveConfiguration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~ActiveConfiguration.html)
-
-  to get the active configuration of the assembly.
-2. Access the explode step. See the
-
-  Accessors
-
-  section.
-3. Call
-
-  [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  to select:
+1. Use [IConfigurationManager::ActiveConfiguration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~ActiveConfiguration.html) to get the active configuration of the assembly.
+2. Access the explode step. See the **Accessors** section.
+3. Call [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select:
 
   1. Components to move with Mark = 1.
-  2. An explode direction entity (cylindrical
-
-    [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-    , conical face, linear
-
-    [edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-    , or
-
-    [axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html)
-
-    ) with Mark = 2 (regular explode steps) or Mark = 34 (radial explode steps).
+  2. An explode direction entity (cylindrical [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html), conical face, linear [edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html), or [axis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefAxis.html)) with Mark = 2 (regular explode steps) or Mark = 34 (radial explode steps).
   3. A rotation axis with Mark = 32, if RotateAboutOrigin is set to false (regular explode steps only).
   4. A diverge direction entity with Mark = 64 (radial explode steps only).
-4. Call
-
-  [ISelectionMgr::GetSelectedObject6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html)
-
-  to get the components selected in step 3a.
-5. Call
-
-  [IExplodeStep::SetComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~SetComponents.html)
-
-  , passing in the components gotten in step 4.
-6. Call
-
-  [IExplodeStep::SetExplodeDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~SetExplodeDirection.html)
-
-  , passing in the explode direction entity that was selected in step 3b. See
-
-  Notes
-
-  .
-7. Call
-
-  [IExplodeStep::SetRotationAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~SetRotationAxis.html)
-
-  , passing in the rotation axis that was selected in step 3c (for regular explode steps only).
-8. Set
-
-  [IExplodeStep::DivergeDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~DivergeDirection.html)
-
-  to the diverge direction entity that was selected in step 3d (for radial explode steps only). See
-
-  Notes
-
-  .
+4. Call [ISelectionMgr::GetSelectedObject6](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectedObject6.html) to get the components selected in step 3a.
+5. Call [IExplodeStep::SetComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~SetComponents.html), passing in the components gotten in step 4.
+6. Call [IExplodeStep::SetExplodeDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~SetExplodeDirection.html), passing in the explode direction entity that was selected in step 3b. See **Notes**.
+7. Call [IExplodeStep::SetRotationAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~SetRotationAxis.html), passing in the rotation axis that was selected in step 3c (for regular explode steps only).
+8. Set [IExplodeStep::DivergeDirection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~DivergeDirection.html) to the diverge direction entity that was selected in step 3d (for radial explode steps only). See **Notes**.
 9. Modify other explode step properties.
 
 **Notes**:
@@ -161,7 +104,7 @@ When editing the diverge direction object entity or the diverge from axis flag, 
 
 [IConfiguration::AddRadialExplodeStep](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~AddRadialExplodeStep.html)
 
-[IConfiguration::GetExplodeStep](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~GetExplodeStep.html)and[IConfiguration::IGetExplodeStep](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~IGetExplodeStep.html)
+[IConfiguration::GetExplodeStep](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~GetExplodeStep.html) and [IConfiguration::IGetExplodeStep](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~IGetExplodeStep.html)
 
 ## Access Diagram
 
@@ -170,9 +113,6 @@ When editing the diverge direction object entity or the diverge from axis flag, 
 ## See Also
 
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IAssemblyDoc::ShowExploded Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~ShowExploded.html)
-
 [IModelDoc2::IsExploded Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IsExploded.html)

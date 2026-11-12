@@ -47,13 +47,7 @@ System.bool AlignToEdge(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::AlignToEdge](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~AlignToEdge.html)
-
-.
+See [DisplayDimension::AlignToEdge](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~AlignToEdge.html).
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::SetHorizontal Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetHorizontal.html)
-
 [IDisplayDimension::SetVertical Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetVertical.html)
 
 ## Availability

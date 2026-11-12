@@ -50,13 +50,7 @@ void SetLightEnabledInRender(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SetLightEnabledInRender](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetLightEnabledInRender.html)
-
-.
+See [ModelDocExtension::SetLightEnabledInRender](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SetLightEnabledInRender.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetLightEnabledInRender Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetLightEnabledInRender.html)
 
 ## Availability

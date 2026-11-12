@@ -54,27 +54,17 @@ void SetSelections2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Objects`: Array of objects as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)to select (see**Remarks**)
-- `SelMarks`: Array of selection marks (integers or longs) for the objects (see**Remarks**)
-- `DrViews`: Array of[drawing views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html)(see**Remarks**)
+- `Objects`: Array of objects as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html) to select (see **Remarks**)
+- `SelMarks`: Array of selection marks (integers or longs) for the objects (see **Remarks**)
+- `DrViews`: Array of [drawing views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[MacroFeatureData::SetSelections2](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~SetSelections2.html)
-
-.
+See [MacroFeatureData::SetSelections2](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~SetSelections2.html).
 
 ## Examples
 
@@ -84,20 +74,15 @@ See
 
 Early bind the Objects, SelMarks, and DrViews arrays when declaring them to avoid possible problems when using other IMacroFeatureData methods.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [IMacroFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html)
-
 [IMacroFeatureData::GetSelectionCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~GetSelectionCount.html)
-
 [IMacroFeatureData::GetSelections3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~GetSelections3.html)
-
 [IMacroFeatureData::IGetSelections3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~IGetSelections3.html)
-
 [IMacroFeatureData::ISetSelections2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~ISetSelections2.html)
 
 ## Availability

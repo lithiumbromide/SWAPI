@@ -9,8 +9,7 @@ source: "sldworksapi/Divide_Sketch_Segment_Example_VB.htm"
 
 # Divide Sketch Segment Example (VBA)
 
-This example shows how to divide a sketch segment into equally spaced sketch
-points.
+This example shows how to divide a sketch segment into equally spaced sketch points.
 
 ```vb
  '----------------------------------------------------------------------------

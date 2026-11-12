@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # FeatureBossThin Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureExtrusionThin2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusionThin2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureExtrusionThin2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusionThin2.html).
 
 ## Syntax
 
@@ -134,13 +130,7 @@ void FeatureBossThin(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -169,14 +159,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::FeatureBossThin](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FeatureBossThin.html)
-
-.
+See [ModelDoc2::FeatureBossThin](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FeatureBossThin.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)

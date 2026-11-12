@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILi
 
 Allows access to library forming tool feature data.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ILibraryFormToolFeatureData
 
 ## VBA Syntax
 
-See
-
-[LibraryFormToolFeatureData](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData.html)
-
-.
+See [LibraryFormToolFeatureData](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData.html).
 
 ## Examples
 
@@ -57,7 +53,7 @@ See
 
 ' Preconditions:
 
-' 1. Open public_documents \samples\tutorial\sheetmetal\formtools\cover.sldprt .
+' 1. Open `public_documents`**\samples\tutorial\sheetmetal\formtools\cover.sldprt**.
 
 ' 2. Ensure that the two specified formtoolpath locations exist.
 
@@ -109,21 +105,21 @@ Set featMgr = swModel.FeatureManager
 
 Dim LibFormToolFeatureData As LibraryFormToolFeatureData
 
-Set LibFormToolFeatureData = featMgr. CreateDefinition (swFmFormToolInstance)
+Set LibFormToolFeatureData = featMgr.**CreateDefinition**(swFmFormToolInstance)
 
-LibFormToolFeatureData. LinkToFormTool = True
+LibFormToolFeatureData.**LinkToFormTool** = True
 
-LibFormToolFeatureData. FormToolPath = " install_dir \data\Design Library\forming tools\embosses\drafted rectangular emboss.sldftp "
+LibFormToolFeatureData.**FormToolPath** = "`install_dir`**\data\Design Library\forming tools\embosses\drafted rectangular emboss.sldftp**"
 
-Call LibFormToolFeatureData. OverrideDocumentSettings (True, True, True, True)
+Call LibFormToolFeatureData.**OverrideDocumentSettings**(True, True, True, True)
 
-LibFormToolFeatureData. RotationAngle = 0. 5
+LibFormToolFeatureData.**RotationAngle** = 0.**5**
 
 Dim swFeat As Feature
 
-Set swFeat = featMgr. CreateFeature (LibFormToolFeatureData)
+Set swFeat = featMgr.**CreateFeature**(LibFormToolFeatureData)
 
-Stop ' Inspect the graphics area and FeatureManager design tree; select a flat face where to re-position (and replace) the forming tool
+**Stop** ' Inspect the graphics area and FeatureManager design tree; select a flat face where to re-position (and replace) the forming tool
 
 Dim selMgr As SelectionMgr
 
@@ -149,33 +145,33 @@ swModel.ClearSelection2 (True)
 
 Dim swLibFormFeatData1 As LibraryFormToolFeatureData
 
-Set swLibFormFeatData1 = swFeat. GetDefinition ()
+Set swLibFormFeatData1 = swFeat.**GetDefinition**()
 
-Debug.Print swLibFormFeatData1. GetPunchID ()
+Debug.Print swLibFormFeatData1.**GetPunchID**()
 
-Debug.Print swLibFormFeatData1. FormToolConfiguration
+Debug.Print swLibFormFeatData1.**FormToolConfiguration**
 
-Debug.Print swLibFormFeatData1. FormToolPath
+Debug.Print swLibFormFeatData1.**FormToolPath**
 
-Debug.Print swLibFormFeatData1. LinkToFormTool
+Debug.Print swLibFormFeatData1.**LinkToFormTool**
 
-Debug.Print swLibFormFeatData1. RotationAngle
+Debug.Print swLibFormFeatData1.**RotationAngle**
 
-Debug.Print swLibFormFeatData1. AccessSelections (swModel, Nothing)
+Debug.Print swLibFormFeatData1.**AccessSelections**(swModel, Nothing)
 
 Dim face As face2
 
-Set face = swLibFormFeatData1. PlacementFace
+Set face = swLibFormFeatData1.**PlacementFace**
 
-swLibFormFeatData1. RotationAngle = 0.7833
+swLibFormFeatData1.**RotationAngle** = 0.7833
 
-Call swLibFormFeatData1. OverrideDocumentSettings (True, True, True, True)
+Call swLibFormFeatData1.**OverrideDocumentSettings**(True, True, True, True)
 
-swLibFormFeatData1. FormToolConfiguration = "Default"
+swLibFormFeatData1.**FormToolConfiguration** = "Default"
 
-swLibFormFeatData1. FormToolPath = " install_dir \data\Design Library\forming tools\embosses\dimple.SLDFTP "
+swLibFormFeatData1.**FormToolPath** = "`install_dir`**\data\Design Library\forming tools\embosses\dimple.SLDFTP**"
 
-swLibFormFeatData1. LinkToFormTool = True
+swLibFormFeatData1.**LinkToFormTool** = True
 
 Dim ent As Entity
 
@@ -183,20 +179,19 @@ Set ent = face
 
 Call ent.Select4(True, Nothing)
 
-Call swLibFormFeatData1. SetPlacementFace (face2, mathPt)
+Call swLibFormFeatData1.**SetPlacementFace**(face2, mathPt)
 
-Debug.Print swFeat. ModifyDefinition (swLibFormFeatData1, swModel, Nothing)
+Debug.Print swFeat.**ModifyDefinition**(swLibFormFeatData1, swModel, Nothing)
 
 Dim face1 As face2
 
-Set face1 = swLibFormFeatData1. PlacementFace
+Set face1 = swLibFormFeatData1.**PlacementFace**
 
 End Sub
 
 ## Examples
 
 [Create Forming Tool Feature (VB.NET)](Create_Forming_Tool_Feature_Example_VBNET.htm)
-
 [Create Forming Tool Feature (C#)](Create_Forming_Tool_Feature_Example_CSharp.htm)
 
 ## Remarks
@@ -204,75 +199,23 @@ End Sub
 To create a library forming tool feature:
 
 1. Ensure that the Sheet Metal tab is visible on the CommandManager toolbar.
-2. Call
-
-  [IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html)
-
-  to select a flat face (with Mark = 0) on which to use a forming tool.
-3. Call
-
-  [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
-
-  (swFmFormToolInstance) to create this feature data object.
-4. Call
-
-  [ILibraryFormToolFeatureData::OverrideDocumentSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~OverrideDocumentSettings.html)
-
-  to specify flat pattern visibility options.
-5. Specify the forming tool and its rotation angle for placement using
-
-  [ILibraryFormToolFeatureData::FormToolConfiguration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~FormToolConfiguration.html)
-
-  ,
-
-  [FormToolPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~FormToolPath.html)
-
-  ,
-
-  [LinkToFormTool](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~LinkToFormTool.html)
-
-  , and
-
-  [RotationAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~RotationAngle.html)
-
-  .
-6. Call
-
-  [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-  to create the feature.
+2. Call [IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html) to select a flat face (with Mark = 0) on which to use a forming tool.
+3. Call [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)(swFmFormToolInstance) to create this feature data object.
+4. Call [ILibraryFormToolFeatureData::OverrideDocumentSettings](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~OverrideDocumentSettings.html) to specify flat pattern visibility options.
+5. Specify the forming tool and its rotation angle for placement using [ILibraryFormToolFeatureData::FormToolConfiguration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~FormToolConfiguration.html), [FormToolPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~FormToolPath.html), [LinkToFormTool](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~LinkToFormTool.html), and [RotationAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~RotationAngle.html).
+6. Call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) to create the feature.
 
 To modify a library form tool feature:
 
 1. Select a new location by clicking on a flat face in the graphics area where to re-position and/or replace the forming tool.
-2. Call
-
-  [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html)
-
-  to obtain this feature data object.
-3. Call
-
-  [ILibraryFormToolFeatureData::AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~AccessSelections.html)
-
-  .
-4. Specify
-
-  [ILibraryFormToolFeatureData::SetPlacementFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~SetPlacementFace.html)
-
-  to re-position the forming tool.
+2. Call [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html) to obtain this feature data object.
+3. Call [ILibraryFormToolFeatureData::AccessSelections](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~AccessSelections.html).
+4. Specify [ILibraryFormToolFeatureData::SetPlacementFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~SetPlacementFace.html) to re-position the forming tool.
 5. Call ILibraryFormToolFeatureData::OverrideDocumentSettings to change the flat pattern visibility options.
 6. Modify ILibraryFormToolFeatureData::FormToolConfiguration, FormToolPath (a change to FormToolPath changes the feature name), LinkToFormTool, and RotationAngle.
-7. Call
+7. Call [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html) to finalize any changes or [ILibraryFormToolFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~ReleaseSelectionAccess.html) if no changes were made.
 
-  [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  to finalize any changes or
-
-  [ILibraryFormToolFeatureData::ReleaseSelectionAccess](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~ReleaseSelectionAccess.html)
-
-  if no changes were made.
-
-Forming tools are dies that dent, bend, stretch, or otherwise form sheet metal. For more information about forming tools, see the**SOLIDWORKS user-interface online help > Sheet Metal > Using Forming Tools with Sheet Metal**topics.
+Forming tools are dies that dent, bend, stretch, or otherwise form sheet metal. For more information about forming tools, see the **SOLIDWORKS Design user-interface online help > Sheet Metal > Using Forming Tools with Sheet Metal** topics.
 
 ## Accessors
 
@@ -287,9 +230,6 @@ IFeatureManager::CreateDefinition
 ## See Also
 
 [ILibraryFormToolFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::CreateFormTool2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFormTool2.html)
-
 [IView::InsertPunchTable Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertPunchTable.html)

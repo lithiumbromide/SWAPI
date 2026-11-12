@@ -45,48 +45,30 @@ property System.bool CircularProfile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to use a circular profile, false to use a
-
-[sketch profile or tool body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Profile.html)
+True to use a circular profile, false to use a [sketch profile or tool body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~Profile.html)
 
 ## VBA Syntax
 
-See
-
-[SweepFeatureData::CircularProfile](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~CircularProfile.html)
-
-.
+See [SweepFeatureData::CircularProfile](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~CircularProfile.html).
 
 ## Examples
 
-See the
-
-[ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
-examples.
+See the [ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html) examples.
 
 ## Remarks
 
-If this property is set to false, call[ISweepFeatureData::GetCutSweepOption](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GetCutSweepOption.html)to determine the type of profile.
+If this property is set to false, call [ISweepFeatureData::GetCutSweepOption](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GetCutSweepOption.html) to determine the type of profile.
 
-To get or set the diameter of a circular profile, use[ISweepFeatureData::CircularProfileDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~CircularProfileDiameter.html).
+To get or set the diameter of a circular profile, use [ISweepFeatureData::CircularProfileDiameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~CircularProfileDiameter.html).
 
 ## See Also
 
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [ISweepFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData_members.html)
-
 [ISweepFeatureData::GetProfileType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~GetProfileType.html)
 
 ## Availability

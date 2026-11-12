@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumFaces Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [IEnumFaces2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumFaces2.html).
 
-[IEnumFaces2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumFaces2.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class IEnumFaces
 
 ## VBA Syntax
 
-See
-
-[EnumFaces](ms-its:sldworksapivb6.chm::/sldworks~EnumFaces.html)
-
-.
+See [EnumFaces](ms-its:sldworksapivb6.chm::/sldworks~EnumFaces.html).
 
 ## See Also
 
 [IEnumFaces Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumFaces_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

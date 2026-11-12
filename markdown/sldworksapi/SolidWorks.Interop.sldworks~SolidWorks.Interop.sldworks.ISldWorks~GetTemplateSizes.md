@@ -47,13 +47,7 @@ System.Object^ GetTemplateSizes(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,21 +55,11 @@ See
 
 ### Return Value
 
-Array of 3 doubles containing the paper size, width, and
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-height
+Array of 3 doubles containing the paper size, width, and height
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetTemplateSizes](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetTemplateSizes.html)
-
-.
+See [SldWorks::GetTemplateSizes](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetTemplateSizes.html).
 
 ## Examples
 
@@ -84,13 +68,9 @@ See
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::IGetTemplateSizes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetTemplateSizes.html)
-
 [ISldWorks::GetDocumentTemplate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentTemplate.html)
-
 [ISldWorks::PreSelectDwgTemplateSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PreSelectDwgTemplateSize.html)
 
 ## Availability

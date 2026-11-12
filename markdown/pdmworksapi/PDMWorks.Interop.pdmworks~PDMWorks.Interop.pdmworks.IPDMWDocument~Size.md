@@ -44,19 +44,11 @@ property System.int Size {
 
 ### Property Value
 
-Size (in bytes) of a document smaller than 2GB or the size that represents the 32 low-order bits of a document larger than 2GB (see
-
-Remarks
-
-)
+Size (in bytes) of a document smaller than 2GB or the size that represents the 32 low-order bits of a document larger than 2GB (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::Size](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Size.html)
-
-.
+See [PDMWDocument::Size](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~Size.html).
 
 ## Examples
 
@@ -73,7 +65,6 @@ See
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
 
 ## Availability

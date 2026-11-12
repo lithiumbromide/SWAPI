@@ -45,13 +45,7 @@ property System.bool DraftSideFaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to draft the gusset side faces, false to not
 
 ## VBA Syntax
 
-See
-
-[SMGussetFeatureData::DraftSideFaces](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~DraftSideFaces.html)
-
-.
+See [SMGussetFeatureData::DraftSideFaces](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~DraftSideFaces.html).
 
 ## Examples
 
-See the examples for
-
-[ISMGussetFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData.html)
-
-.
+See the examples for [ISMGussetFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData.html).
 
 ## Remarks
 
-After setting this property to true, set
-
-[ISMGussetFeatureData::DraftAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~DraftAngle.html)
-
-.
+After setting this property to true, set [ISMGussetFeatureData::DraftAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~DraftAngle.html).
 
 ## See Also
 
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
 [ISMGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData_members.html)
 
 ## Availability

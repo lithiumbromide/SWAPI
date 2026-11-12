@@ -40,13 +40,7 @@ System.object GetAllCustomProperties()
 System.Object^ GetAllCustomProperties();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Array of strings of available custom properties
 
 ## VBA Syntax
 
-See
-
-[BomTableAnnotation::GetAllCustomProperties](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetAllCustomProperties.html)
-
-.
+See [BomTableAnnotation::GetAllCustomProperties](ms-its:sldworksapivb6.chm::/sldworks~BomTableAnnotation~GetAllCustomProperties.html).
 
 ## Examples
 
@@ -66,18 +56,15 @@ See
 
 ## Remarks
 
-To get the number of custom properties, use[IBomTableAnnotation::GetAllCustomPropertiesCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~GetAllCustomPropertiesCount.html).
+To get the number of custom properties, use [IBomTableAnnotation::GetAllCustomPropertiesCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomTableAnnotation~GetAllCustomPropertiesCount.html).
 
 The list of available custom properties includes all of the items in the BOM table, which includes items from the file summary items and file custom properties that have been set.
 
 ## See Also
 
 [IBomTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation.html)
-
 [IBomTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation_members.html)
-
 [IBomTableAnnotation::IGetAllCustomProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~IGetAllCustomProperties.html)
-
 [IBomTableAnnotation::GetColumnCustomProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~GetColumnCustomProperty.html)
 
 ## Availability

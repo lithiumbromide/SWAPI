@@ -1,6 +1,5 @@
 ---
-title: "CWShellManager Object
-Members"
+title: "CWShellManager Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWShellManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWShellManager_members.html"
 ---
 
-# CWShellManager Object
-Members
+# CWShellManager Object Members
 
 ## Public Methods
 

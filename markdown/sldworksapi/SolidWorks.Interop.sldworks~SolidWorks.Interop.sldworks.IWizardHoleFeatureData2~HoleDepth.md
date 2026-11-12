@@ -45,13 +45,7 @@ property System.double HoleDepth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,23 +53,11 @@ Hole depth
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::HoleDepth](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~HoleDepth.html)
-
-.
+See [WizardHoleFeatureData2::HoleDepth](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~HoleDepth.html).
 
 ## Examples
 
-See
-
-Create Holes Using Hole Wizard and Sketch Points
-
-examples in
-
-[IWizardHoleFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2.html)
-
-.
+See **Create Holes Using Hole Wizard and Sketch Points** examples in [IWizardHoleFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2.html).
 
 ## Examples
 
@@ -83,14 +65,12 @@ examples in
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
-
 [IWizardHoleFeatureData2::Depth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~Depth.html)
 
 ## Availability

@@ -46,41 +46,28 @@ void SketchModifyFlip(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `AxisFlag`: Axis about which to flip the sketch:
 
-- X = 1
-- Y = 2
+  - X = 1
+  - Y = 2
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchModifyFlip](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchModifyFlip.html)
-
-.
+See [ModelDoc2::SketchModifyFlip](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchModifyFlip.html).
 
 ## Examples
 
 [Flip Sketch (VBA)](Flip_Sketch_Example_VB.htm)
-
 [Flip Sketch (VB.NET)](Flip_Sketch_Example_VBNET.htm)
-
 [Flip Sketch (C#)](Flip_Sketch_Example_CSharp.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
 
 ## Availability

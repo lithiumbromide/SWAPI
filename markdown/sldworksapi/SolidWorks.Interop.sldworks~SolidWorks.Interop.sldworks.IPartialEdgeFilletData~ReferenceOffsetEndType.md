@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # ReferenceOffsetEndType Property (IPartialEdgeFilletData)
 
-Gets the type of
-
-[offset reference for the end condition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~ReferenceOffsetEnd.html)
-
-for this partial edge fillet.
+Gets the type of [offset reference for the end condition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData~ReferenceOffsetEnd.html) for this partial edge fillet.
 
 ## Syntax
 
@@ -46,32 +42,19 @@ property System.int ReferenceOffsetEndType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-End condition offset reference type as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html)
+End condition offset reference type as defined in [swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html)
 
 ## VBA Syntax
 
-See
-
-[PartialEdgeFilletData::ReferenceOffsetEndType](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData~ReferenceOffsetEndType.html)
-
-.
+See [PartialEdgeFilletData::ReferenceOffsetEndType](ms-its:sldworksapivb6.chm::/sldworks~PartialEdgeFilletData~ReferenceOffsetEndType.html).
 
 ## See Also
 
 [IPartialEdgeFilletData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html)
-
 [IPartialEdgeFilletData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData_members.html)
 
 ## Availability

@@ -48,11 +48,7 @@ property SwDMDimXpertFeature^ ReferenceFeature {
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCounterSinkAngleDimTol::ReferenceFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCounterSinkAngleDimTol~ReferenceFeature.html)
-
-.
+See [SwDMDimXpertCounterSinkAngleDimTol::ReferenceFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCounterSinkAngleDimTol~ReferenceFeature.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCounterSinkAngleDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCounterSinkAngleDimTol.html)
-
 [ISwDMDimXpertCounterSinkAngleDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCounterSinkAngleDimTol_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5_members.html"
 
 # IEdmInbox5 Interface Members
 
-The following tables list the members exposed by[IEdmInbox5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5.html).
+The following tables list the members exposed by [IEdmInbox5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IEdmInbox5](EPDM.Interop.epdm~E
 ## See Also
 
 [IEdmInbox5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmInbox5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

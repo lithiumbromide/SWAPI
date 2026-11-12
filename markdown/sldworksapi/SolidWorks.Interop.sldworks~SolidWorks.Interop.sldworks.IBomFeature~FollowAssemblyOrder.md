@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # FollowAssemblyOrder Method (IBomFeature)
 
-Obsolete. Superseded by
-
-[IBomFeature::FollowAssemblyOrder2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~FollowAssemblyOrder2.html)
-
-.
+Obsolete. Superseded by [IBomFeature::FollowAssemblyOrder2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature~FollowAssemblyOrder2.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.bool FollowAssemblyOrder()
 System.bool FollowAssemblyOrder();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,14 +48,9 @@ True for the items numbers in the BOM to follow the order in which the assembly 
 
 ## VBA Syntax
 
-See
-
-[BomFeature::FollowAssemblyOrder](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~FollowAssemblyOrder.html)
-
-.
+See [BomFeature::FollowAssemblyOrder](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~FollowAssemblyOrder.html).
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)

@@ -1,6 +1,5 @@
 ---
-title: "ExtrudeFeatureData2 Object
-Members"
+title: "ExtrudeFeatureData2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ExtrudeFeatureData2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ExtrudeFeatureData2_members.html"
 ---
 
-# ExtrudeFeatureData2 Object
-Members
+# ExtrudeFeatureData2 Object Members
 
 ## Public Methods
 

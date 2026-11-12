@@ -45,34 +45,20 @@ property System.int FolderStructureOption {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Folder structure as defined by
-
-[swPackAndGoFolderOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPackAndGoFolderOptions_e.html)
+Folder structure as defined by [swPackAndGoFolderOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPackAndGoFolderOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[PackAndGo::FolderStructureOption](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~FolderStructureOption.html)
-
-.
+See [PackAndGo::FolderStructureOption](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~FolderStructureOption.html).
 
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [IPackAndGo Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo_members.html)
-
 [IPackAndGo::SetSaveToName2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~SetSaveToName2.html)
 
 ## Availability

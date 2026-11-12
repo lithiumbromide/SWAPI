@@ -41,16 +41,11 @@ void UpdateScene();
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::UpdateScene](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~UpdateScene.html)
-
-.
+See [EModelViewControl::UpdateScene](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~UpdateScene.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

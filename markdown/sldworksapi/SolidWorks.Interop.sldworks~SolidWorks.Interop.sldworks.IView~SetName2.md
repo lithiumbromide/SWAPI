@@ -47,13 +47,7 @@ System.bool SetName2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,15 +55,11 @@ See
 
 ### Return Value
 
-True if the name of the drawing view is set, false if notParamDesc
+True if the name of the drawing view is set, false if not
 
 ## VBA Syntax
 
-See
-
-[View::SetName2](ms-its:sldworksapivb6.chm::/sldworks~View~SetName2.html)
-
-.
+See [View::SetName2](ms-its:sldworksapivb6.chm::/sldworks~View~SetName2.html).
 
 ## Remarks
 
@@ -78,10 +68,6 @@ The drawing view name that you specify:
 - must be unique in the FeatureManager design tree.
 - not contain any of the SOLIDWORKS reserved special characters.
 
-  kadov_tag{{<spaces>}}
-
-  kadov_tag{{</spaces>}}
-
 If either of these conditions is not met, then this method returns false and the name of the drawing view is not changed.
 
 You cannot change the drawing view name for detail views and section views. If you attempt to do so, then false if returned and the drawing view name is not changed.
@@ -89,9 +75,7 @@ You cannot change the drawing view name for detail views and section views. If y
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetName2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetName2.html)
 
 ## Availability

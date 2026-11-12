@@ -1,6 +1,5 @@
 ---
-title: "ISwDMDimXpertCylinderFeature Object
-Members"
+title: "ISwDMDimXpertCylinderFeature Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "ISwDMDimXpertCylinderFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~ISwDMDimXpertCylinderFeature_members.html"
 ---
 
-# ISwDMDimXpertCylinderFeature Object
-Members
+# ISwDMDimXpertCylinderFeature Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # EditMate Method (IAssemblyDoc)
 
-Obsolete. Superseded by
-
-[IAssemblyDoc::EditMate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~EditMate2.html)
-
-.
+Obsolete. Superseded by [IAssemblyDoc::EditMate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~EditMate2.html).
 
 ## Syntax
 
@@ -66,13 +62,7 @@ void EditMate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -84,14 +74,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::EditMate](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~EditMate.html)
-
-.
+See [AssemblyDoc::EditMate](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~EditMate.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)

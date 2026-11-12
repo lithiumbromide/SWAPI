@@ -54,35 +54,23 @@ void FeatureChamfer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Width`: Width of the chamfer in meters
 - `Angle`: Angle of the chamfer
 - `Flip`: - 0 if angle is to be measured from the right face
-- 1 if angle is to be measured from the left face
+  - 1 if angle is to be measured from the left face
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::FeatureChamfer](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FeatureChamfer.html)
-
-.
+See [ModelDoc2::FeatureChamfer](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FeatureChamfer.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IChamferFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChamferFeatureData2.html)
 
 ## Availability

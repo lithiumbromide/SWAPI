@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSl
 
 # DSldWorksEvents_DocumentLoadNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Obsolete. Superseded by DSldWorksEvetns_DocumentLoadNotify2EventHandler .
+Obsolete. Superseded by [DSldWorksEvetns_DocumentLoadNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_DocumentLoadNotify2EventHandler.html).
 
 ## Syntax
 
@@ -46,13 +46,7 @@ public delegate System.int DSldWorksEvents_DocumentLoadNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,10 +55,6 @@ See
 
 ## VBA Syntax
 
-See
-
-[DocumentLoadNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~DocumentLoadNotify_EV.html)
-
-.
+See [DocumentLoadNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~DocumentLoadNotify_EV.html).
 
 ## Availability

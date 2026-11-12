@@ -51,40 +51,25 @@ property System.double ShellOffsetValue {
 
 -or-
 
-- 0 < offset value < 0.5 (see
-
-  Remarks
-
-  )
+- 0 < offset value < 0.5 (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWShell::ShellOffsetValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~ShellOffsetValue.html)
-
-.
+See [CWShell::ShellOffsetValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~ShellOffsetValue.html).
 
 ## Examples
 
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
 
 ## Remarks
 
-This property is valid only if
-
-[ICWShell::ShellOffsetOption](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShell~ShellOffsetOption.html)
-
-is set to swsShellOffsetOption_e.swsShellOffsetOption_SpecifyRatio.
+This property is valid only if [ICWShell::ShellOffsetOption](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShell~ShellOffsetOption.html) is set to swsShellOffsetOption_e.swsShellOffsetOption_SpecifyRatio.
 
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
 
 ## Availability

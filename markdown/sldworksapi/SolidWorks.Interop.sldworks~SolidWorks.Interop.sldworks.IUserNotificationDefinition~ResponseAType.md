@@ -45,40 +45,23 @@ property System.int ResponseAType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-First response user control as defined by
-
-[swUserNotificationResponseType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserNotificationResponseType_e.html)
+First response user control as defined by [swUserNotificationResponseType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserNotificationResponseType_e.html)
 
 ## VBA Syntax
 
-See
-
-[UserNotificationDefinition::ResponseAType](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~ResponseAType.html)
-
-.
+See [UserNotificationDefinition::ResponseAType](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~ResponseAType.html).
 
 ## Examples
 
-See the
-
-[IUserNotificationHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html)
-
-examples.
+See the [IUserNotificationHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html) examples.
 
 ## See Also
 
 [IUserNotificationDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition.html)
-
 [IUserNotificationDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition_members.html)
 
 ## Availability

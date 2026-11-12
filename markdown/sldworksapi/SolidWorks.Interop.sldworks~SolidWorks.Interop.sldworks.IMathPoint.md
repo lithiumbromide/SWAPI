@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 Provides a simplified interface for manipulating math-point objects' data and ways to create other math objects.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class IMathPoint
 
 ## VBA Syntax
 
-See
-
-[MathPoint](ms-its:sldworksapivb6.chm::/sldworks~MathPoint.html)
-
-.
+See [MathPoint](ms-its:sldworksapivb6.chm::/sldworks~MathPoint.html).
 
 ## Examples
 
 [Get Points of Repeating Elements in Table-driven Pattern (C#)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_CSharp.htm)
-
 [Get Points of Repeating Elements in Table-driven Pattern (VB.NET)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_VBNET.htm)
-
 [Get Points of Repeating Elements in Table-driven Pattern (VBA)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_VB.htm)
 
 ## Accessors
@@ -73,23 +67,23 @@ See
 
 [ILibraryFormToolFeatureData::PickPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~PickPoint.html)
 
-[IMathPoint::AddVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~AddVector.html)and[IMathPoint::IAddVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~IAddVector.html)
+[IMathPoint::AddVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~AddVector.html) and [IMathPoint::IAddVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~IAddVector.html)
 
-[IMathPoint::MultiplyTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~MultiplyTransform.html)and[IMathPoint::IMultiplyTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~IMultiplyTransform.html)
+[IMathPoint::MultiplyTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~MultiplyTransform.html) and [IMathPoint::IMultiplyTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~IMultiplyTransform.html)
 
-[IMathPoint::Scale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~Scale.html)and[IMathPoint::IScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~IScale.html)
+[IMathPoint::Scale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~Scale.html) and [IMathPoint::IScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~IScale.html)
 
-[IMathPoint::SubtractVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~SubtractVector.html)and[IMathPoint::ISubtractVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~ISubtractVector.html)
+[IMathPoint::SubtractVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~SubtractVector.html) and [IMathPoint::ISubtractVector](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint~ISubtractVector.html)
 
-[IMathUtility::CreatePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~CreatePoint.html)and[IMathUtility::ICreatePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~ICreatePoint.html)
+[IMathUtility::CreatePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~CreatePoint.html) and [IMathUtility::ICreatePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~ICreatePoint.html)
 
-[IMathVector::ConvertToPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector~ConvertToPoint.html)and[IMathVector::IConvertToPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector~IConvertToPoint.html)
+[IMathVector::ConvertToPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector~ConvertToPoint.html) and [IMathVector::IConvertToPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector~IConvertToPoint.html)
 
 [IModelDocExtension::GetVisibleBox](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetVisibleBox.html)
 
 [INote::GetBendLinesValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetBendLineValues.html)
 
-[INote::GetTextPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetTextPoint2.html)and[INote::IGetTextPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetTextPoint2.html)
+[INote::GetTextPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetTextPoint2.html) and [INote::IGetTextPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetTextPoint2.html)
 
 [IPlaneManipulator::Origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPlaneManipulator~Origin.html)
 
@@ -124,11 +118,7 @@ See
 ## See Also
 
 [IMathPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMathTransform Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
 [IMathUtility Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.html)
-
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)

@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Full_Symmetrical_Angular_Dimension_Example_CSharp.ht
 
 # Create Full Symmetrical Angular Dimension Example (C#)
 
-This example shows how to create a full symmetrical angular dimension between
-a centerline and a line.
+This example shows how to create a full symmetrical angular dimension between a centerline and a line.
 
 ```
 //---------------------------------------------------------

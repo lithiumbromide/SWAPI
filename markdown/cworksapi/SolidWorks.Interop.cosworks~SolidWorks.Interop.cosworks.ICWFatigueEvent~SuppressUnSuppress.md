@@ -41,24 +41,15 @@ void SuppressUnSuppress();
 
 ## VBA Syntax
 
-See
-
-[CWFatigueEvent::SuppressUnSuppress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~SuppressUnSuppress.html)
-
-.
+See [CWFatigueEvent::SuppressUnSuppress](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~SuppressUnSuppress.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
-examples.
+See the [ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html) examples.
 
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueEvent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html)
 
 ## Availability

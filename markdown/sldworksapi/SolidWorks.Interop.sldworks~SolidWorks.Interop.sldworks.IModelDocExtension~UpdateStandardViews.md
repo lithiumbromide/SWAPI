@@ -51,30 +51,12 @@ System.bool UpdateStandardViews(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ViewName`: Name of the standard model view to change; empty string to use ViewId (
-
-see Remarks
-
-)
-- `ViewId`: View ID as defined in
-
-[swStandardViews_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStandardViews_e.html)
-
-; -1 to use ViewName (
-
-see Remarks
-
-)
+- `ViewName`: Name of the standard model view to change; empty string to use ViewId (**see Remarks**)
+- `ViewId`: View ID as defined in [swStandardViews_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStandardViews_e.html); -1 to use ViewName (**see Remarks**)
 
 ### Return Value
 
@@ -82,11 +64,7 @@ True if the standard model view update is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::UpdateStandardViews](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~UpdateStandardViews.html)
-
-.
+See [ModelDocExtension::UpdateStandardViews](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~UpdateStandardViews.html).
 
 ## Remarks
 
@@ -96,20 +74,15 @@ If you set both ViewName and ViewId, then ViewId takes precedence if the two arg
 
 This method does not support the following standard model views:
 
-- [swStandardViews_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStandardViews_e.html)
-
-  .swDimetricView
+- [swStandardViews_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStandardViews_e.html).swDimetricView
 - swStandardViews_e.swIsometricView
 - swStandardViews_e.swTrimetricView
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::ResetStandardViews Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~ResetStandardViews.html)
-
 [IModelDoc2::ShowNamedView2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ShowNamedView2.html)
 
 ## Availability

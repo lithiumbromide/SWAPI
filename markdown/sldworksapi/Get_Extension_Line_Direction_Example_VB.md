@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Extension_Line_Direction_Example_VB.htm"
 
 # Get Extension Line Direction Example (VBA)
 
-This example shows how to get the direction of the selected dimension's
-extension line.
+This example shows how to get the direction of the selected dimension's extension line.
 
 ```
 '------------------------------------------------------------------------

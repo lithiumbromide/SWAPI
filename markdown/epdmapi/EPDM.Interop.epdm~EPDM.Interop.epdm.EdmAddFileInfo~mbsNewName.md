@@ -35,5 +35,4 @@ System.String^ mbsNewName
 ## See Also
 
 [EdmAddFileInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo.html)
-
 [EdmAddFileInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddFileInfo_members.html)

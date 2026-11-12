@@ -1,6 +1,5 @@
 ---
-title: "CenterMark Object
-Members"
+title: "CenterMark Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CenterMark_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CenterMark_members.html"
 ---
 
-# CenterMark Object
-Members
+# CenterMark Object Members
 
 ## Public Methods
 

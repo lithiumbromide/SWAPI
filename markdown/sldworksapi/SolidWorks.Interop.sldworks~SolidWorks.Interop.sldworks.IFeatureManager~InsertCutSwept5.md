@@ -9,13 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertCutSwept5 Method (IFeatureManager)
 
-Obsolete
-
-. See
-
-Remarks
-
-.
+Obsolete. See **Remarks**.
 
 ## Syntax
 
@@ -137,72 +131,32 @@ Feature^ InsertCutSwept5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Propagate`: True propagates the sweep cut to the next edge, false causes the sweep cut to occur only on the selected edge; to propagate to the next edge, the next edge must be tangent to the current edge
 - `Alignment`: If the curve used to sweep goes from one face to another or from one edge to another, then true causes the sweep to cut completely through the end faces of the cut, and false causes the cut to begin and end perpendicular to the sweep curve; thus, it cannot break through the two end faces of the body being cut
-- `TwistCtrlOption`: Twist control options as defined in
-
-[swTwistControlType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTwistControlType_e.html)
+- `TwistCtrlOption`: Twist control options as defined in [swTwistControlType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTwistControlType_e.html)
 - `KeepTangency`: If the sweep section has tangent segments, true to cause the corresponding surfaces in the resulting sweep to be tangent, false to not
 - `BAdvancedSmoothing`: If the sweep section has circular or elliptical arcs, true to approximate the sections and smooth the surfaces, false to not
-- `StartMatchingType`: Tangency type as defined in
-
-[swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
+- `StartMatchingType`: Tangency type as defined in [swTangencyType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangencyType_e.html)
 - `EndMatchingType`: Tangency type as defined in swTangencyType_e
 - `IsThinBody`: True if this feature is a thin body, false if not
 - `Thickness1`: Thickness value for the first direction
 - `Thickness2`: Thickness value for the second direction
-- `ThinType`: Thin wall type as defined in
-
-[swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
-- `PathAlign`: Align path type (see
-
-Remarks
-
-)
+- `ThinType`: Thin wall type as defined in [swThinWallType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swThinWallType_e.html)
+- `PathAlign`: Align path type (see **Remarks**)
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
-- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see
-
-Remarks
-
-)
+- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see Remarks)
 - `TwistAngle`: If TwistCtrlOption set to swTwistControlType_e.swTwistControlConstantTwistAlongPath, then specify end twist angle
-- `BMergeSmoothFaces`: True to merge smooth faces, false to notParamDesc
-- `AssemblyFeatureScope`: True if the sweep cut affects only selected components in the assembly, false if the sweep cut affects all components in the assembly (
-
-see Remarks
-
-)
-- `AutoSelectComponents`: True to auto-select all affected components in the assembly, false to use manually selected components (
-
-see Remarks
-
-)
-- `PropagateFeatureToParts`: True to extend the sweep cut feature to all affected parts in the assembly, false to just insert the sweep cut into the assembly (
-
-see Remarks
-
-)
+- `BMergeSmoothFaces`: True to merge smooth faces, false to not
+- `AssemblyFeatureScope`: True if the sweep cut affects only selected components in the assembly, false if the sweep cut affects all components in the assembly (**see Remarks**)
+- `AutoSelectComponents`: True to auto-select all affected components in the assembly, false to use manually selected components (**see Remarks**)
+- `PropagateFeatureToParts`: True to extend the sweep cut feature to all affected parts in the assembly, false to just insert the sweep cut into the assembly (**see Remarks**)
 - `CircularProfile`: True to use a circular profile, false to use the selected sketch profile or solid body
 - `CircularProfileDiameter`: If CircularProfile is true, then specify the diameter of the circular profile
-- `Direction`: Direction as defined in
-
-[swSweepDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSweepDirection_e.html)
-
-(see
-
-Remarks
-
-)
+- `Direction`: Direction as defined in [swSweepDirection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSweepDirection_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -210,31 +164,22 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertCutSwept5](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCutSwept5.html)
-
-.
+See [FeatureManager::InsertCutSwept5](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertCutSwept5.html).
 
 ## Examples
 
 [Create Cut-sweep Feature Using Tool Body (C#)](Create_Cut-sweep_Feature_Using_Tool_Body_Example_CSharp.htm)
-
 [Create Cut-sweep Feature Using Tool Body (VB.NET)](Create_Cut-sweep_Feature_Using_Tool_Body_Example_VBNET.htm)
-
 [Create Cut-sweep Feature Using Tool Body (VBA)](Create_Cut-sweep_Feature_Using_Tool_Body_Example_VB.htm)
-
 [Create Cut-sweep Feature Using Circular Profile (C#)](Create_Cut-sweep_Feature_Using_Circular_Profile_Example_CSharp.htm)
-
 [Create Cut-sweep Feature Using Circular Profile (VB.NET)](Create_Cut-sweep_Feature_Using_Circular_Profile_Example_VBNET.htm)
-
 [Create Cut-sweep Feature Using Circular Profile (VBA)](Create_Cut-sweep_Feature_Using_Circular_Profile_Example_VB.htm)
 
 ## Remarks
 
-SOLIDWORKS 2018 introduces a new sweep architecture, making this method obsolete. See[Sweep Features and SweepFeatureData Objects](sldworksapiprogguide.chm::/OVERVIEW/Sweep_Features_and_SweepFeatureData_Objects.htm)to create this cut-sweep feature.
+SOLIDWORKS 2018 introduces a new sweep architecture, making this method obsolete. See [Sweep Features and SweepFeatureData Objects](sldworksapiprogguide.chm::/OVERVIEW/Sweep_Features_and_SweepFeatureData_Objects.htm) to create this cut-sweep feature.
 
-Before calling this method, callIModelDocExtension::SelectByID2multiple times to select the sketch profile or tool body, guide curves, and sweep path for the cut. Specify these marks:
+Before calling this method, call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) multiple times to select the sketch profile or tool body, guide curves, and sweep path for the cut. Specify these marks:
 
 - 1 = Sketch profile or tool body
 - 2 = Guide curve, if provided
@@ -262,15 +207,10 @@ Direction only applies to sketch profiles and only when the sketch profile is no
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [IFeatureManager::InsertProtrusionSwept4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertProtrusionSwept4.html)
-
 [IFeatureManager::InsertSweepSurface3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertSweepSurface3.html)
-
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
 
 ## Availability

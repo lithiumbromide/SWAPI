@@ -50,43 +50,25 @@ void IGetBuffer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `OleBufferSize`: Size of the OLE buffer
 - `BOleData`: Byte array for the buffer data
 
-ParamDesc
-
 ## VBA Syntax
 
-See
-
-[SwOLEObject::IGetBuffer](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~IGetBuffer.html)
-
-.
+See [SwOLEObject::IGetBuffer](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~IGetBuffer.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[ISwOLEObject::BufferSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~BufferSize.html)
-
-to get the value for OleBufferSize.
+Before calling this method, call [ISwOLEObject::BufferSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISwOLEObject~BufferSize.html) to get the value for OleBufferSize.
 
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
-
 [ISwOLEObject::Buffer Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject~Buffer.html)
 
 ## Availability

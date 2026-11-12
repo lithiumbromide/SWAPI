@@ -1,6 +1,5 @@
 ---
-title: "SplineHandle Object
-Members"
+title: "SplineHandle Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SplineHandle_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SplineHandle_members.html"
 ---
 
-# SplineHandle Object
-Members
+# SplineHandle Object Members
 
 ## Public Methods
 

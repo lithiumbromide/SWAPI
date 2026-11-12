@@ -37,31 +37,17 @@ public delegate System.int DDrawingDocEvents_ModifyNotifyEventHandler()
 public delegate System.int DDrawingDocEvents_ModifyNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModifyNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ModifyNotify_EV.html)
-
-.
+See [ModifyNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~ModifyNotify_EV.html).
 
 ## Remarks
 
-If the user saves the document in the current SOLIDWORKS session, then the event is fired when the document is marked dirty again.
+If the user saves the document in the current SOLIDWORKS Design session, then the event is fired when the document is marked dirty again.
 
-If developing a C++ application, use
-
-[swDrawingModifyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swDrawingModifyNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SelectedFaceProperties Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::SelectedFaceProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectedFaceProperties.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::SelectedFaceProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectedFaceProperties.html).
 
 ## Syntax
 
@@ -83,13 +79,7 @@ System.bool SelectedFaceProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -105,14 +95,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::SelectedFaceProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SelectedFaceProperties.html)
-
-.
+See [ModelDoc::SelectedFaceProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~SelectedFaceProperties.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

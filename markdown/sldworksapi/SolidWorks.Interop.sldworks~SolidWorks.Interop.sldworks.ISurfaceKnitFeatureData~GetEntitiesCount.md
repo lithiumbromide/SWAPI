@@ -40,13 +40,7 @@ System.int GetEntitiesCount()
 System.int GetEntitiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of knit entities
 
 ## VBA Syntax
 
-See
-
-[SurfaceKnitFeatureData::GetEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceKnitFeatureData~GetEntitiesCount.html)
-
-.
+See [SurfaceKnitFeatureData::GetEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceKnitFeatureData~GetEntitiesCount.html).
 
 ## Examples
 
@@ -66,18 +56,15 @@ See
 
 ## Remarks
 
-Call this method before calling[ISurfaceKnitFeatureData::IGetEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceKnitFeatureData~IGetEntities.html).
+Call this method before calling [ISurfaceKnitFeatureData::IGetEntities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceKnitFeatureData~IGetEntities.html).
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ISurfaceKnitFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData.html)
-
 [ISurfaceKnitFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData_members.html)
-
 [ISurfaceKnitFeatureData::ISetEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData~ISetEntities.html)
-
 [ISurfaceKnitFeatureData::Entities Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceKnitFeatureData~Entities.html)
 
 ## Availability

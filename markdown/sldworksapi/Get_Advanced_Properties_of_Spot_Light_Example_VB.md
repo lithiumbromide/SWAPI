@@ -9,20 +9,18 @@ source: "sldworksapi/Get_Advanced_Properties_of_Spot_Light_Example_VB.htm"
 
 # Get Advanced Properties of Spot Light Example (VBA)
 
-This example shows how to get the attenuation-related, advanced properties of
-a
-specified SOLIDWORKS spot light.
+This example shows how to get the attenuation-related, advanced properties of a specified SOLIDWORKS Design spot light.
 
 ```
 '--------------------------------------------
 ' Preconditions:
 ' 1. Open a part that has a spot light
-'    whose SOLIDWORKS-internal light source
+'    whose SOLIDWORKS Design-internal light source
 '    name is SW#3.
 ' 2. Open the Immediate window.
 '
 ' Postconditions:
-' 1. Gets advanced properties of SOLIDWORKS-internal
+' 1. Gets advanced properties of SOLIDWORKS Design-internal
 '    light source SW#3.
 ' 2. Examine the Immediate window.
 '-------------------------------------------

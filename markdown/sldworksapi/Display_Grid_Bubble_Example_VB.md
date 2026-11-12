@@ -9,8 +9,7 @@ source: "sldworksapi/Display_Grid_Bubble_Example_VB.htm"
 
 # Display Grid Bubble Example (VBA)
 
-This example shows how to set the text of ordinate dimensions and display a grid bubble at the end of each ordinate
-dimension extension line.
+This example shows how to set the text of ordinate dimensions and display a grid bubble at the end of each ordinate dimension extension line.
 
 ```
 '--------------------------------------------------------------------

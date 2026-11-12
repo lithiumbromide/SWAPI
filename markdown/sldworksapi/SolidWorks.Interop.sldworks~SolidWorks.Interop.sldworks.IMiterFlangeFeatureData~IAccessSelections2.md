@@ -51,18 +51,12 @@ System.bool IAccessSelections2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TopDoc`: Top-level document (see**Remarks**)
-- `Component`: Top-level document (see**Remarks**)
+- `TopDoc`: Top-level document (see **Remarks**)
+- `Component`: Top-level document (see **Remarks**)
 
 ### Return Value
 
@@ -70,11 +64,7 @@ True if the selections are successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[MiterFlangeFeatureData::IAccessSelections2](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~IAccessSelections2.html)
-
-.
+See [MiterFlangeFeatureData::IAccessSelections2](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~IAccessSelections2.html).
 
 ## Remarks
 
@@ -85,19 +75,13 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html)
-
-  if you modified the feature
-- [IMiterFlangeFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMiterFlangeFeatureData~ReleaseSelectionAccess.html)
-
-  if you did not
+- [IFeature::IModifyDefinition2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~IModifyDefinition2.html) if you modified the feature
+- [IMiterFlangeFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMiterFlangeFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IMiterFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData.html)
-
 [IMiterFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData_members.html)
-
 [IMiterFlangeFeatureData::AccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData~AccessSelections.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool TaperOutward {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if outward, false if inward
 
 ## VBA Syntax
 
-See
-
-[HelixFeatureData::TaperOutward](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~TaperOutward.html)
-
-.
+See [HelixFeatureData::TaperOutward](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~TaperOutward.html).
 
 ## See Also
 
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [IHelixFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData_members.html)
 
 ## Availability

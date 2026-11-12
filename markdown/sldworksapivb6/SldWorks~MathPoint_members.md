@@ -1,6 +1,5 @@
 ---
-title: "MathPoint Object
-Members"
+title: "MathPoint Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MathPoint_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MathPoint_members.html"
 ---
 
-# MathPoint Object
-Members
+# MathPoint Object Members
 
 ## Public Methods
 

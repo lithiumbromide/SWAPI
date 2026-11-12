@@ -45,13 +45,7 @@ property System.int AngleDecimalPlaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Number of decimal places for angle measurements
 
 ## VBA Syntax
 
-See
-
-[Measure::AngleDecimalPlaces](ms-its:sldworksapivb6.chm::/Sldworks~Measure~AngleDecimalPlaces.html)
-
-.
+See [Measure::AngleDecimalPlaces](ms-its:sldworksapivb6.chm::/Sldworks~Measure~AngleDecimalPlaces.html).
 
 ## See Also
 
 [IMeasure Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure.html)
-
 [IMeasure Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure_members.html)
-
 [IMeasure::Angle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMeasure~Angle.html)
 
 ## Availability

@@ -53,25 +53,15 @@ void GetZeroStrainTemperature(
 ### Parameters
 
 - `DZeroStrainTemperature`: Reference temperature at zero strain
-- `NZeroStrainTemperatureUnit`: Temperature units as defined
-
-[swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
+- `NZeroStrainTemperatureUnit`: Temperature units as defined [swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::GetZeroStrainTemperature](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~GetZeroStrainTemperature.html)
-
-.
+See [CWFrequencyStudyOptions::GetZeroStrainTemperature](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~GetZeroStrainTemperature.html).
 
 ## Examples
 
-See the
-
-[ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-examples.
+See the [ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html) examples.
 
 ## Remarks
 
@@ -80,9 +70,7 @@ The default temperature at zero strain is 298 Kelvin.
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
-
 [ICWFrequencyStudyOptions::SetZeroStrainTemperature Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions~SetZeroStrainTemperature.html)
 
 ## Availability

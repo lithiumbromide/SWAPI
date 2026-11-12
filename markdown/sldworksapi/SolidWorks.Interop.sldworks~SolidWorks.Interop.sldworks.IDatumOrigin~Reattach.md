@@ -40,13 +40,7 @@ System.bool Reattach()
 System.bool Reattach();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the datum origin is attached to a different entity, false if not
 
 ## VBA Syntax
 
-See
-
-[DatumOrigin::Reattach](ms-its:sldworksapivb6.chm::/sldworks~DatumOrigin~Reattach.html)
-
-.
+See [DatumOrigin::Reattach](ms-its:sldworksapivb6.chm::/sldworks~DatumOrigin~Reattach.html).
 
 ## Remarks
 
@@ -70,7 +60,6 @@ This method:
 ## See Also
 
 [IDatumOrigin Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin.html)
-
 [IDatumOrigin Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin_members.html)
 
 ## Availability

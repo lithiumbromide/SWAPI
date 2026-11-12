@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True reverses the direction of the draft feature, false does not
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData2::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~ReverseDirection.html)
-
-.
+See [DraftFeatureData2::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~ReverseDirection.html).
 
 ## See Also
 
 [IDraftFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2.html)
-
 [IDraftFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2_members.html)
 
 ## Availability

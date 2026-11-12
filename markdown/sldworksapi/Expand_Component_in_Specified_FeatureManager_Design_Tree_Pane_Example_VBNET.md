@@ -9,8 +9,7 @@ source: "sldworksapi/Expand_Component_in_Specified_FeatureManager_Design_Tree_Pa
 
 # Expand Component in Specified FeatureManager Design Tree Pane Example (VB.NET)
 
-This example shows how to expand a component in the specified FeatureManager
-design tree pane.
+This example shows how to expand a component in the specified FeatureManager design tree pane.
 
 ```
 '-------------------------------------------------------------

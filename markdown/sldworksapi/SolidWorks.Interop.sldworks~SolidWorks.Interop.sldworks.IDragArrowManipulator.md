@@ -9,9 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # IDragArrowManipulator Interface
 
-Allows access to drag arrows, which are called handles in the SOLIDWORKS user interface.
+Allows access to drag arrows, which are called handles in the SOLIDWORKS Design user interface.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,25 +41,19 @@ public interface class IDragArrowManipulator
 
 ## VBA Syntax
 
-See
-
-[DragArrowManipulator](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator.html)
-
-.
+See [DragArrowManipulator](ms-its:sldworksapivb6.chm::/sldworks~DragArrowManipulator.html).
 
 ## Examples
 
 [Create Drag Arrow Manipulator (VBA)](Create_Drag_Arrow_Manipulator_Example_VB.htm)
-
 [Create Drag Arrow Manipulator (VB.NET)](Create_Drag_Arrow_Manipulator_Example_VBNET.htm)
-
 [Create Drag Arrow Manipulator (C#)](Create_Drag_Arrow_Manipulator_Example_CSharp.htm)
 
 ## Remarks
 
 When the user clicks and drags the arrow of a handle, the length of that handle changes.
 
-An add-in application must create the handler for the manipulator. See[ISwManipulatorHandler2](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2.html)and[Manipulators](sldworksapiprogguide.chm::/overview/Manipulators.htm)for details.
+An add-in application must create the handler for the manipulator. See [ISwManipulatorHandler2](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwManipulatorHandler2.html) and [Manipulators](sldworksapiprogguide.chm::/overview/Manipulators.htm) for details.
 
 ## Accessors
 
@@ -72,7 +66,5 @@ An add-in application must create the handler for the manipulator. See[ISwManipu
 ## See Also
 
 [IDragArrowManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragArrowManipulator_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IManipulator.html)

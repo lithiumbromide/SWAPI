@@ -9,23 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFileSav
 
 # swFileSaveWarning_e Enumeration
 
-Values for
-
-File, Save
-
-warnings that can be returned from the
-
-[IModelDoc2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-Save methods. These warnings do not cause the
-
-File, Save
-
-operation to fail.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Values for File, Save warnings that can be returned from the [IModelDoc2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) Save methods. These warnings do not cause the File, Save operation to fail. [Bitmask](sldworksapiprogguide.chm::/Overview/bitmasks.htm).
 
 ## Syntax
 

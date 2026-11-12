@@ -45,13 +45,7 @@ property System.String^ PromptText {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Text to use in prompt message
 
 ## VBA Syntax
 
-See
-
-[Note::PromptText](ms-its:sldworksapivb6.chm::/sldworks~Note~PromptText.html)
-
-.
+See [Note::PromptText](ms-its:sldworksapivb6.chm::/sldworks~Note~PromptText.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
 
 ## Availability

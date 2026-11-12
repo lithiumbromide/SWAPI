@@ -44,15 +44,11 @@ property PDMWLinks^ ExtReferences {
 
 ### Property Value
 
-Collection of[links](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html)of external documents that this document references
+Collection of [links](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLinks.html) of external documents that this document references
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::ExtReferences](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~ExtReferences.html)
-
-.
+See [PDMWDocument::ExtReferences](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~ExtReferences.html).
 
 ## Remarks
 
@@ -61,9 +57,7 @@ An external document is any type of derived part, parent or child, including bas
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::ExtWhereUsed Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ExtWhereUsed.html)
 
 ## Availability

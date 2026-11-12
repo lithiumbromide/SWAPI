@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIm
 
 # IImportedCurveFeatureData Interface Members
 
-The following tables list the members exposed by[IImportedCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportedCurveFeatureData.html).
+The following tables list the members exposed by [IImportedCurveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportedCurveFeatureData.html).
 
 ## Public Properties
 
@@ -33,5 +33,4 @@ The following tables list the members exposed by[IImportedCurveFeatureData](Soli
 ## See Also
 
 [IImportedCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportedCurveFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

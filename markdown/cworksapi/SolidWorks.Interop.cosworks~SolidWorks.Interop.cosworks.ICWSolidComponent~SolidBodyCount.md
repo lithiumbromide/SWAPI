@@ -48,24 +48,17 @@ Number of solid bodies in the solid component
 
 ## VBA Syntax
 
-See
-
-[CWSolidComponent::SolidBodyCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidComponent~SolidBodyCount.html)
-
-.
+See [CWSolidComponent::SolidBodyCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidComponent~SolidBodyCount.html).
 
 ## Examples
 
 [Create Frequency Study with Solid Mesh (C#)](Create_Frequency_Study_with_Solid_Mesh_Example_CSharp.htm)
-
 [Create Frequency Study with Solid Mesh (VB.NET)](Create_Frequency_Study_with_Solid_Mesh_Example_VBNET.htm)
-
 [Create Frequency Study with Solid Mesh (VBA)](Create_Frequency_Study_with_Solid_Mesh_Example_VB.htm)
 
 ## See Also
 
 [ICWSolidComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidComponent.html)
-
 [ICWSolidComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidComponent_members.html)
 
 ## Availability

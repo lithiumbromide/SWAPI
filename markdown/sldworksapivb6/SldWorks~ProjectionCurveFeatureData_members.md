@@ -1,6 +1,5 @@
 ---
-title: "ProjectionCurveFeatureData Object
-Members"
+title: "ProjectionCurveFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ProjectionCurveFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ProjectionCurveFeatureData_members.html"
 ---
 
-# ProjectionCurveFeatureData Object
-Members
+# ProjectionCurveFeatureData Object Members
 
 ## Public Methods
 

@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockFlag.html"
 
 # EdmUnlockFlag Enumeration
 
-Flags used in
-
-[IEdmFile5::UnlockFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~UnlockFile.html)
-
-to control the behavior of the check-in operation.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags used in [IEdmFile5::UnlockFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~UnlockFile.html) to control the behavior of the check-in operation. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 
@@ -44,6 +36,7 @@ public enum class EdmUnlockFlag : public System.Enum
 
 | Member | Description |
 | --- | --- |
+| EdmUnlock_FailOnBlockingWarnings | 512 = Fail only for blocking warnings |
 | EdmUnlock_FailOnRegenerationNeed | 16 = Fail if the file needs to be regenerated in the CAD program NOTE : Only files resaved in SOLIDWORKS 2009 or later can trigger this flag |
 | EdmUnlock_ForceUnlock | 256 = Unlock the file even if it is not modified |
 | EdmUnlock_IgnoreCorruptFile | 4 = Ignore files with file formats unrecognized by SOLIDWORKS PDM Professional; without this flag, SOLIDWORKS PDM Professional returns E_EDM_INVALID_FILE if it encounters a corrupt file or a file containing a newer format than SOLIDWORKS PDM Professional can handle |

@@ -39,19 +39,11 @@ void GetAvailableTransitionList(
 
 ### Parameters
 
-- `ppoTransitions`: Array of
-
-[EdmChangeStateTransitionInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo.html)
-
-structures; one structure for each state transition
+- `ppoTransitions`: Array of [EdmChangeStateTransitionInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateTransitionInfo.html) structures; one structure for each state transition
 
 ## Examples
 
-See the
-
-[IEdmBatchChangeState2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2.html)
-
-examples.
+See the [IEdmBatchChangeState2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2.html) examples.
 
 ## Remarks
 
@@ -63,7 +55,6 @@ examples.
 ## See Also
 
 [IEdmBatchChangeState2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2.html)
-
 [IEdmBatchChangeState2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState2_members.html)
 
 ## Availability

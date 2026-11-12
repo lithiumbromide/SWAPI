@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # Refresh3DViews Method (IModelDocExtension)
 
-Updates the
-
-[3D Views](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
-of this part or assembly.
+Updates the [3D Views](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html) of this part or assembly.
 
 ## Syntax
 
@@ -43,28 +39,16 @@ void Refresh3DViews()
 void Refresh3DViews();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::Refresh3DViews](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Refresh3DViews.html)
-
-.
+See [ModelDocExtension::Refresh3DViews](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~Refresh3DViews.html).
 
 ## Examples
 
 [Capture 3D View (VBA)](Capture_3DView_Example_VB.htm)
-
 [Capture 3D View (VB.NET)](Capture_3DView_Example_VBNET.htm)
-
 [Capture 3D View (C#)](Capture_3DView_Example_CSharp.htm)
 
 ## Remarks
@@ -74,19 +58,12 @@ This method requires that the SOLDWORKS MBD add-in be loaded. ([ISldWorks::LoadA
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::Capture3DView Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Capture3DView.html)
-
 [IModelDocExtension::Get3DView Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DView.html)
-
 [IModelDocExtension::Get3DViews Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DViews.html)
-
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
 [IModelDocExtension::Get3DViewCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DViewCount.html)
-
 [IModelDocExtension::Get3DViewNames Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DViewNames.html)
 
 ## Availability

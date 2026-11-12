@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 # GetMateEntityCount Method (IMateInPlace)
 
-Gets the number of
-
-Inplace
-
-mated entities in this assembly.
+Gets the number of Inplace mated entities in this assembly.
 
 ## Syntax
 
@@ -44,40 +40,26 @@ System.int GetMateEntityCount()
 System.int GetMateEntityCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Number ofInplacemated entities
+Number of Inplace mated entities
 
 ## VBA Syntax
 
-See
-
-[MateInPlace::GetMateEntityCount](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace~GetMateEntityCount.html)
-
-.
+See [MateInPlace::GetMateEntityCount](ms-its:sldworksapivb6.chm::/sldworks~MateInPlace~GetMateEntityCount.html).
 
 ## Examples
 
 [Get Component Names and Types for Inplace Mate (VBA)](Get_Component_Names_and_Types_for_Inplace_Mate_Example_VB.htm)
-
 [Get Mates (C#)](Get_Mates_Example_CSharp.htm)
-
 [Get Mates (VB.NET)](Get_Mates_Example_VBNET.htm)
-
 [Get Mates (VBA)](Get_Mates_Example_VB.htm)
 
 ## See Also
 
 [IMateInPlace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace.html)
-
 [IMateInPlace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateInPlace_members.html)
 
 ## Availability

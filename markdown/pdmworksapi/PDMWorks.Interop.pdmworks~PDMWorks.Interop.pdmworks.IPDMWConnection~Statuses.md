@@ -48,20 +48,13 @@ Array of strings of defined lifecycle statuses
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::Statuses](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~Statuses.html)
-
-.
+See [PDMWConnection::Statuses](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~Statuses.html).
 
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
-
 [IPDMWDocument::ChangeStatus Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ChangeStatus.html)
-
 [IPDMWDocument::GetStatus Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~GetStatus.html)
 
 ## Availability

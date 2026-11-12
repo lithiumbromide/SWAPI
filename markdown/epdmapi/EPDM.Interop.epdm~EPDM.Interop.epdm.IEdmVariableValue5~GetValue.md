@@ -47,11 +47,7 @@ Value of the variable
 
 ## Examples
 
-See the
-
-[IEdmVariableValue5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue5.html)
-
-examples.
+See the [IEdmVariableValue5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue5.html) examples.
 
 ## Remarks
 
@@ -65,7 +61,6 @@ C++ users should use VariantInit and VariantClear to handle the VARIANT struct p
 ## See Also
 
 [IEdmVariableValue5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue5.html)
-
 [IEdmVariableValue5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableValue5_members.html)
 
 ## Availability

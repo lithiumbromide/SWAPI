@@ -58,21 +58,11 @@ System.Object^ GetForceFromMate(
 
 ### Return Value
 
-[Force about the mate](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html)
-
-(see
-
-Remarks
-
-)
+[Force about the mate](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathVector.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[MotionStudyResults::GetForceFromMate](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetForceFromMate.html)
-
-.
+See [MotionStudyResults::GetForceFromMate](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~GetForceFromMate.html).
 
 ## Remarks
 
@@ -81,7 +71,6 @@ If the mate is purely angular, then the return value is [0, 0, 0].
 ## See Also
 
 [IMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults.html)
-
 [IMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults_members.html)
 
 ## Availability

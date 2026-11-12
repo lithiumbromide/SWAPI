@@ -40,34 +40,24 @@ System.double IGetBSurfParams()
 System.double IGetBSurfParams();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of doubles (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array of doubles (see **Remarks**)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
-For COM applications, the following values must be set up in a previous call to[ISurface::IGetBSurfParamsSize3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetBSurfParamsSize3.html):
+For COM applications, the following values must be set up in a previous call to [ISurface::IGetBSurfParamsSize3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetBSurfParamsSize3.html):
 
 - vP0 [0] & vP0 [2] are the lower bounds of the U & V surface parameters, respectively.
 - vP0 [1] & vP0 [3] are the upper bounds of the U & V surface parameters, respectively.
 
-If you want to use the Bsurface in combination with its trim curves, you should use the[IFace2::GetTrimCurves2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html)method to extract the trim curves and the Bsurface. The IFace2::GetTrimCurves method provides better alignment of the trim curves with the Bsurface because they are both generated at the same time.
+If you want to use the Bsurface in combination with its trim curves, you should use the [IFace2::GetTrimCurves2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTrimCurves2.html) method to extract the trim curves and the Bsurface. The IFace2::GetTrimCurves method provides better alignment of the trim curves with the Bsurface because they are both generated at the same time.
 
 Evaluation is as follows:
 
@@ -83,7 +73,7 @@ The returned data are arranged in the following order:
 - NumColumnsControlPoints - Number of columns for the control points.
 - NumRowsControlPoints - Number of rows for the control points.
 
-- Uperiodicity, Vperiodicity - These are two ints packed into a double. Because you may be generating a Bsurface with this function, the U,V periodicity values may be opposite from the original surface. See[ISurface::Parameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization.html)or[ISurface::IParameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IParameterization.html).
+- Uperiodicity, Vperiodicity - These are two ints packed into a double. Because you may be generating a Bsurface with this function, the U,V periodicity values may be opposite from the original surface. See [ISurface::Parameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~Parameterization.html) or [ISurface::IParameterization](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface~IParameterization.html).
 - Uperiodicity - TRUE if surface is periodic in U direction.
 - Vperiodicity - TRUE if surface is periodic in V direction.
 - DimensionControlPoints, dummy - These are two ints packed into a double
@@ -106,7 +96,5 @@ There will be (NumRowsControlPoints + Vorder) knot values. If the surface is per
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::GetBSurfParams2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~GetBSurfParams2.html)

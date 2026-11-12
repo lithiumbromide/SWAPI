@@ -47,13 +47,7 @@ System.int SetFeatureManagerWidth(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,15 +55,11 @@ See
 
 ### Return Value
 
-Status of the set width operation (see**Remarks**)
+Status of the set width operation (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SetFeatureManagerWidth](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetFeatureManagerWidth.html)
-
-.
+See [ModelDoc2::SetFeatureManagerWidth](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetFeatureManagerWidth.html).
 
 ## Examples
 
@@ -79,8 +69,6 @@ See
 
 The retval argument indicates the success or failure of the set width operation:
 
-(Table)=========================================================
-
 | A value of... | Indicates setting of window width... |
 | --- | --- |
 | 0 | Succeeded |
@@ -89,9 +77,7 @@ The retval argument indicates the success or failure of the set width operation:
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetFeatureManagerWidth Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetFeatureManagerWidth.html)
 
 ## Availability

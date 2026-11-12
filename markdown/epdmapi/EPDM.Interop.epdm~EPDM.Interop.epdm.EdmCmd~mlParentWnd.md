@@ -39,5 +39,4 @@ System.int mlParentWnd
 ## See Also
 
 [EdmCmd Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)
-
 [EdmCmd Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd_members.html)

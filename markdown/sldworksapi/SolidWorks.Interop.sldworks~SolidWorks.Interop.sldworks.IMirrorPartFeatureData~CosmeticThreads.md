@@ -45,13 +45,7 @@ property System.bool CosmeticThreads {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to import cosmetic threads, false to not
 
 ## VBA Syntax
 
-See
-
-[MirrorPartFeatureData::CosmeticThreads](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~CosmeticThreads.html)
-
-.
+See [MirrorPartFeatureData::CosmeticThreads](ms-its:sldworksapivb6.chm::/sldworks~MirrorPartFeatureData~CosmeticThreads.html).
 
 ## See Also
 
 [IMirrorPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData.html)
-
 [IMirrorPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPartFeatureData_members.html)
 
 ## Availability

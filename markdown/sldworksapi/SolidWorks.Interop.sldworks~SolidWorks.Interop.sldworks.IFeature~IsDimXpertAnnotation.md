@@ -40,13 +40,7 @@ System.bool IsDimXpertAnnotation()
 System.bool IsDimXpertAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ True if a DimXpert annotation; false otherwise
 
 ## VBA Syntax
 
-See
-
-[Feature::IsDimXpertAnnotation](ms-its:sldworksapivb6.chm::/sldworks~Feature~IsDimXpertAnnotation.html)
-
-.
+See [Feature::IsDimXpertAnnotation](ms-its:sldworksapivb6.chm::/sldworks~Feature~IsDimXpertAnnotation.html).
 
 ## Examples
 
 [Get DimXpertManager Info (VBA)](Get_DimXpertManager_Info_Example_VB.htm)
-
 [Get DimXpertManager Info (VB.NET)](Get_DimXpertManager_Info_Example_VBNET.htm)
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
 
 ## Availability

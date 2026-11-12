@@ -40,7 +40,6 @@ Task instance GUID
 ## See Also
 
 [IEdmTaskInstance Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance.html)
-
 [IEdmTaskInstance Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskInstance_members.html)
 
 ## Availability

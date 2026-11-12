@@ -45,50 +45,23 @@ property System.Object^ OffsetPlaneReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Reference
-
-[plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
-or top or bottom
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-of the sheet metal body
+Reference [plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html) or top or bottom [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html) of the sheet metal body
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData2::OffsetPlaneReference](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~OffsetPlaneReference.html)
-
-.
+See [SMNormalCutFeatureData2::OffsetPlaneReference](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~OffsetPlaneReference.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ISMNormalCutFeatureData2::NormalCutParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~NormalCutParameters.html)
-
-is set to
-
-[swNormalCutParameters_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNormalCutParameters_e.html)
-
-.swNormalCutOffsetPlane.
+This property is valid only if [ISMNormalCutFeatureData2::NormalCutParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~NormalCutParameters.html) is set to [swNormalCutParameters_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNormalCutParameters_e.html).swNormalCutOffsetPlane.
 
 ## See Also
 
 [ISMNormalCutFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
 [ISMNormalCutFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html)
 
 ## Availability

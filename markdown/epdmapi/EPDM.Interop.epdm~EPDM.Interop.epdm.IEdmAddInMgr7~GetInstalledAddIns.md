@@ -39,19 +39,11 @@ void GetInstalledAddIns(
 
 ### Parameters
 
-- `ppoAddIns`: Array of
-
-[EdmAddInInfo2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2.html)
-
-structures, one structure for each add-in
+- `ppoAddIns`: Array of [EdmAddInInfo2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo2.html) structures, one structure for each add-in
 
 ## Examples
 
-See the
-
-[IEdmAddInMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html)
-
-examples.
+See the [IEdmAddInMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html) examples.
 
 ## Remarks
 
@@ -63,9 +55,7 @@ examples.
 ## See Also
 
 [IEdmAddInMgr7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr7.html)
-
 [IEdmAddInMgr7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr7_members.html)
-
 [IEdmAddInMgr8::GetInstalledAddIn Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8~GetInstalledAddIn.html)
 
 ## Availability

@@ -77,26 +77,14 @@ CWFatigueEvent^ AddFatigueEventForVariableAmplitude(
 
 ### Parameters
 
-- `SAssociatedStudyName`: Name of the reference study (see**Remarks**)
+- `SAssociatedStudyName`: Name of the reference study (see **Remarks**)
 - `DScale`: 0.0 <= Factor by which to scale the result stresses of SAssociatedStudyName to produce fatigue <= 1.0E36
 - `NStep`: Solution step of SAssociatedStudyName; valid only for nonlinear or linear dynamic - time history studies
-- `VarLHCurveXData`: Array of times; valid only if NType =
-
-[swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html)
-
-.swsFatigueLoadHistoryCurveType_TimeAndAmplitude
+- `VarLHCurveXData`: Array of times; valid only if NType = [swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html).swsFatigueLoadHistoryCurveType_TimeAndAmplitude
 - `VarLHCurveYData`: Array of amplitudes
-- `NLHCurveType`: Type of curve as defined in
-
-[swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html)
-- `DSamplingRate`: Sampling rate in seconds; valid only if NType =
-
-[swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html)
-
-.swsFatigueLoadHistoryCurveType_SamplingRateAndAmplitude
-- `ErrorCode`: Error code as defined in
-
-[swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
+- `NLHCurveType`: Type of curve as defined in [swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html)
+- `DSamplingRate`: Sampling rate in seconds; valid only if NType = [swsFatigueLoadHistoryCurveType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueLoadHistoryCurveType_e.html).swsFatigueLoadHistoryCurveType_SamplingRateAndAmplitude
+- `ErrorCode`: Error code as defined in [swsFatigueEventEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueEventEndEditError_e.html)
 
 ### Return Value
 
@@ -104,19 +92,11 @@ CWFatigueEvent^ AddFatigueEventForVariableAmplitude(
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::AddFatigueEventForVariableAmplitude](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~AddFatigueEventForVariableAmplitude.html)
-
-.
+See [CWFatigueStudyOptions::AddFatigueEventForVariableAmplitude](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~AddFatigueEventForVariableAmplitude.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
-examples.
+See the [ICWFatigueStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html) examples.
 
 ## Remarks
 
@@ -129,7 +109,7 @@ SAssociatedStudyName must be the name of a study of the following type:
 
 - Linear dynamic time History
 
-To set the options for this event, call[ICWFatigueStudyOptions::SetVariableAmplitudeEventOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~SetVariableAmplitudeEventOptions.html).
+To set the options for this event, call [ICWFatigueStudyOptions::SetVariableAmplitudeEventOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~SetVariableAmplitudeEventOptions.html).
 
 To fully configure the variable amplitude fatigue study for this event, call:
 
@@ -143,17 +123,11 @@ To fully configure the variable amplitude fatigue study for this event, call:
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForConstantAmplitude Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForConstantAmplitude.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForHarmonic Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForHarmonic.html)
-
 [ICWFatigueStudyOptions::AddFatigueEventForRandomVibration Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~AddFatigueEventForRandomVibration.html)
-
 [ICWFatigueStudyOptions::DeleteFatigueEvent Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~DeleteFatigueEvent.html)
-
 [ICWFatigueStudyOptions::GetFatigueEvent Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~GetFatigueEvent.html)
 
 ## Availability

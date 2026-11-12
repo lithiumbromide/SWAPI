@@ -51,16 +51,11 @@ property System.int SmoothSurface {
 
 ## VBA Syntax
 
-See
-
-[CWMesh::SmoothSurface](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~SmoothSurface.html)
-
-.
+See [CWMesh::SmoothSurface](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~SmoothSurface.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
 
 ## Availability

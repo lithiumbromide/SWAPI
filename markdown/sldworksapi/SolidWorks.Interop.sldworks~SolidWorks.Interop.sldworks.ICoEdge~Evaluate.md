@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # Evaluate Method (ICoEdge)
 
-Obsolete. Superseded by
-
-[ICoEdge::Evaluate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~Evaluate2.html)
-
-.
+Obsolete. Superseded by [ICoEdge::Evaluate2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICoEdge~Evaluate2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ Evaluate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +55,18 @@ See
 
 ### Return Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CoEdge::Evaluate](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~Evaluate.html)
-
-.
+See [CoEdge::Evaluate](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~Evaluate.html).
 
 ## Examples
 
 [Determine Type of Face (VBA)](Determine_Type_of_Face_Example_VB.htm)
-
 [Select Tangent Faces (VBA)](Select_Tangent_Faces_Example_VB.htm)
-
 [Select Edges of All Holes on Face (C#)](Select_Edges_of_All_Holes_on_Face_Example_CSharp.htm)
-
 [Select Edges of All Holes on Face (VB.NET)](Select_Edges_of_All_Holes_on_Face_Example_VBNET.htm)
-
 [Select Edges of All Holes on Face (VBA)](Select_Edges_of_All_Holes_on_Face_Example_VB.htm)
 
 ## Remarks
@@ -100,16 +82,10 @@ The format of the return value is an array of 6 doubles:
 - retval[4] y vector describing the tangency at the parameter location on the coedge
 - retval[5] z vector describing the tangency at the parameter location on the coedge
 
-Metadata type="DesignerControl" endspan
-
 ## See Also
 
 [ICoEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html)
-
 [ICoEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge_members.html)
-
 [ICoEdge::IEvaluate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~IEvaluate.html)
-
 [ICoEdge::GetCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~GetCurveParams.html)
-
 [ICoEdge::IGetCurveParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~IGetCurveParams.html)

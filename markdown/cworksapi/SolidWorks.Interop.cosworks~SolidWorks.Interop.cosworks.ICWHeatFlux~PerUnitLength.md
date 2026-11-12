@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # PerUnitLength Property (ICWHeatFlux)
 
-Obsolete. Superseded by[ICWHeatFlux::PerUnitLength2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~PerUnitLength2.html).
+Obsolete. Superseded by [ICWHeatFlux::PerUnitLength2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~PerUnitLength2.html).
 
 ## Syntax
 
@@ -51,16 +51,11 @@ True if heat flux uses per unit length while selecting beam bodies, false if not
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::PerUnitLength](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~PerUnitLength.html)
-
-.
+See [CWHeatFlux::PerUnitLength](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~PerUnitLength.html).
 
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
 
 ## Availability

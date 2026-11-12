@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel~meType.html"
 
 # meType Field
 
-Type of object (
-
-[EdmObjectType.EdmObject_File](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
-
-or
-
-[EdmObjectType.EdmObject_Folder](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
-
-).
+Type of object ([EdmObjectType.EdmObject_File](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html) or [EdmObjectType.EdmObject_Folder](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)).
 
 ## Syntax
 
@@ -43,5 +35,4 @@ EdmObjectType meType
 ## See Also
 
 [EdmTaskSel Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel.html)
-
 [EdmTaskSel Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel_members.html)

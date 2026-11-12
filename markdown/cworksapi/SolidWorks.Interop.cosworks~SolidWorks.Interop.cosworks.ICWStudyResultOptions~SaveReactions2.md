@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # SaveReactions2 Property (ICWStudyResultOptions)
 
-Obsolete. Superseded by
-
-[ICWStudyResultOptions::GetSaveStressAndReactionsOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~GetSaveStressAndReactionsOptions.html)
-
-and
-
-[ICWStudyResultOptions::SetSaveStressAndReactionsOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SetSaveStressAndReactionsOptions.html)
-
-.
+Obsolete. Superseded by [ICWStudyResultOptions::GetSaveStressAndReactionsOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~GetSaveStressAndReactionsOptions.html) and [ICWStudyResultOptions::SetSaveStressAndReactionsOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SetSaveStressAndReactionsOptions.html).
 
 ## Syntax
 
@@ -56,7 +48,6 @@ property System.bool SaveReactions2 {
 ## See Also
 
 [ICWStudyResultOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions.html)
-
 [ICWStudyResultOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions_members.html)
 
 ## Availability

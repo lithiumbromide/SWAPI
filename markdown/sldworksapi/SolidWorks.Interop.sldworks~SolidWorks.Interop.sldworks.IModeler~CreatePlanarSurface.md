@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreatePlanarSurface Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::CreatePlanarSurface2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreatePlanarSurface2.html)
-
-.
+Obsolete. Superseded by [IModeler::CreatePlanarSurface2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreatePlanarSurface2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.Object^ CreatePlanarSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Modeler::CreatePlanarSurface](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreatePlanarSurface.html)
-
-.
+See [Modeler::CreatePlanarSurface](ms-its:sldworksapivb6.chm::/sldworks~Modeler~CreatePlanarSurface.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)

@@ -39,31 +39,18 @@ void GetLicense(
 
 ### Parameters
 
-- `ppoRetLicense`: Array of
-
-[EdmLicense](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense.html)
-
-structures; one structure for each license that has one or more users (see
-
-Remarks
-
-)
+- `ppoRetLicense`: Array of [EdmLicense](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmLicense.html) structures; one structure for each license that has one or more users (see **Remarks**)
 
 ## Examples
 
 [Vault Utilities (VB.NET)](Vault_Utilities_Example_VBNET.htm)
-
 [Vault Utilities (C#)](Vault_Utilities_Example_CSharp.htm)
 
 ## Remarks
 
 In SOLIDWORKS PDM Professional:
 
-- 2015 SP0 and later, licenses are shared among all vaults that use the same SolidNetwork License Server (SNL). See
-
-  [IEdmVault14::InstallLicense2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault14~InstallLicense2.html)
-
-  .
+- 2015 SP0 and later, licenses are shared among all vaults that use the same SolidNetwork License Server (SNL). See [IEdmVault14::InstallLicense2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault14~InstallLicense2.html).
 - 2014 and earlier, licenses were shared among all vaults that were in the same SQL Server instance.
 
 [Return codes:](ReturnCodes.htm)
@@ -73,7 +60,6 @@ In SOLIDWORKS PDM Professional:
 ## See Also
 
 [IEdmVault11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
 [IEdmVault11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html)
 
 ## Availability

@@ -40,7 +40,6 @@ Column index
 ## See Also
 
 [IEdmSWBomColumn Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomColumn.html)
-
 [IEdmSWBomColumn Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomColumn_members.html)
 
 ## Availability

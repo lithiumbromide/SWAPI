@@ -35,5 +35,4 @@ System.int mlRight
 ## See Also
 
 [EdmRect Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html)
-
 [EdmRect Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect_members.html)

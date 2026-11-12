@@ -9,40 +9,30 @@ source: "obsoleteapi/WizardHoleFeatureData/WizardHoleFeatureData__MajorDiameter.
 
 # WizardHoleFeatureData::MajorDiameter
 
-This
-property is obsolete and has been superseded by WizardHoleFeatureData2::MajorDiameter .
+This property is obsolete and has been superseded by [WizardHoleFeatureData2::MajorDiameter](sldworksAPI.chm::/WizardHoleFeatureData2/WizardHoleFeatureData2__MajorDiameter.htm).
 
 Description
 
-This property gets or sets the hole wizard
-feature major diameter for tapered hole.
+This property gets or sets the hole wizard feature major diameter for tapered hole.
 
 Syntax (OLE Automation)
 
-majorDia= WizardHoleFeatureData.MajorDiameter (VB
-Get property)
+majorDia = WizardHoleFeatureData.MajorDiameter (VB Get property)
 
-WizardHoleFeatureData.MajorDiameter =majorDia(VB Set property)
+WizardHoleFeatureData.MajorDiameter = majorDia (VB Set property)
 
-majorDia= WizardHoleFeatureData.GetMajorDiameter ( ) (C++
-Get property)
+majorDia = WizardHoleFeatureData.GetMajorDiameter ( ) (C++ Get property)
 
-WizardHoleFeatureData.SetMajorDiameter (majorDia) (C++ Set property)
-
-(Table)=========================================================
+WizardHoleFeatureData.SetMajorDiameter ( majorDia ) (C++ Set property)
 
 | Property: | (double) majorDia | Major diameter for tapered hole |
 | --- | --- | --- |
 
 Syntax (COM)
 
-status = WizardHoleFeatureData ->get_MajorDiameter
-( &majorDia)
+status = WizardHoleFeatureData ->get_MajorDiameter ( &majorDia )
 
-status = WizardHoleFeatureData ->put_MajorDiameter
-(majorDia)
-
-(Table)=========================================================
+status = WizardHoleFeatureData ->put_MajorDiameter ( majorDia )
 
 | Property: | (double) majorDia | Major diameter for tapered hole |
 | --- | --- | --- |
@@ -50,33 +40,4 @@ status = WizardHoleFeatureData ->put_MajorDiameter
 
 Remarks
 
-This property is relevant only for tapered
-and tapered drilled holes.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZFeatureDefinition$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2003\sw2003\WizardHoleFeatureData\WizardHoleFeatureData__MajorDiameter.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+This property is relevant only for tapered and tapered drilled holes.

@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.CreateMenuFlags.html"
 
 # CreateMenuFlags Enumeration
 
-Types of menu used in calls to
-
-[IEdmVault5::CreatePluginMenu](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreatePluginMenu.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Types of menu used in calls to [IEdmVault5::CreatePluginMenu](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreatePluginMenu.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

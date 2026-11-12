@@ -40,32 +40,20 @@ System.bool Close()
 System.bool Close();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
 True if the animation controller closes, false if the animation controller is not
-
 running
 
 ## VBA Syntax
 
-See
-
-[Animation::Close](ms-its:sldworksapivb6.chm::/sldworks~Animation~Close.html)
-
-.
+See [Animation::Close](ms-its:sldworksapivb6.chm::/sldworks~Animation~Close.html).
 
 ## See Also
 
 [IAnimation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation.html)
-
 [IAnimation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnimation_members.html)
 
 ## Availability

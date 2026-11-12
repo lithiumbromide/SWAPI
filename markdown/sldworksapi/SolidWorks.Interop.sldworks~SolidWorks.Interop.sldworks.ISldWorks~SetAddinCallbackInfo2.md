@@ -55,21 +55,13 @@ System.bool SetAddinCallbackInfo2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ModuleHandle`: Instance handle of the add-in
 - `AddinCallbacks`: Object that includes the add-in callback methods
-- `Cookie`: Add-in ID; this is the same cookie you specify in
-
-[ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
+- `Cookie`: Add-in ID; this is the same cookie you specify in [ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
 
 ### Return Value
 
@@ -77,28 +69,19 @@ True if the add-in callback commands are set, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::SetAddinCallbackInfo2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SetAddinCallbackInfo2.html)
-
-.
+See [SldWorks::SetAddinCallbackInfo2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SetAddinCallbackInfo2.html).
 
 ## Examples
 
 [Create Flyouts in the CommandManager (C#)](Create_Flyouts_in_the_CommandManager_Example_CSharp.htm)
-
 [Create Flyouts in the CommandManager (VB.NET)](Create_Flyouts_in_the_CommandManager_Example_VBNET.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::AddCallback Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~AddCallback.html)
-
 [ISldWorks::RemoveCallback Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveCallback.html)
-
 [ISldWorks::CallBack Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CallBack.html)
 
 ## Availability

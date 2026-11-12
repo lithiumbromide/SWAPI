@@ -1,0 +1,50 @@
+---
+title: "PercentWasteMaterial Property (CostAnalysisCastingClass)"
+project: "SOLIDWORKS Costing API Help"
+interface: "CostAnalysisCastingClass"
+member: "PercentWasteMaterial"
+kind: "property"
+source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCastingClass~PercentWasteMaterial.html"
+---
+
+# PercentWasteMaterial Property (CostAnalysisCastingClass)
+
+## Syntax
+
+### Visual Basic (Declaration)
+
+```vb
+Public Overridable Property PercentWasteMaterial As System.Double
+```
+
+### Visual Basic (Usage)
+
+```vb
+Dim instance As CostAnalysisCastingClass
+Dim value As System.Double
+
+instance.PercentWasteMaterial = value
+
+value = instance.PercentWasteMaterial
+```
+
+### C#
+
+```csharp
+public virtual System.double PercentWasteMaterial {get; set;}
+```
+
+### C++/CLI
+
+```cpp
+public:
+virtual property System.double PercentWasteMaterial {
+   System.double get();
+   void set (    System.double value);
+}
+```
+
+## See Also
+
+[CostAnalysisCastingClass Class](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCastingClass.html)
+[CostAnalysisCastingClass Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.CostAnalysisCastingClass_members.html)

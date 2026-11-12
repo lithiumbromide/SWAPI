@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomCell_properties.ht
 
 # IEdmSWBomCell Interface Properties
 
-For a list of all members of this type, see[IEdmSWBomCell members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomCell_members.html).
+For a list of all members of this type, see [IEdmSWBomCell members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomCell_members.html).
 
 ## Public Properties
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[IEdmSWBomCell members](EPDM.Interop.
 ## See Also
 
 [IEdmSWBomCell Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomCell.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

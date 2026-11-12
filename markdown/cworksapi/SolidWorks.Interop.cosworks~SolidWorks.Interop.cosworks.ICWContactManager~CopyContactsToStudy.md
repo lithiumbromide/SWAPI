@@ -54,66 +54,37 @@ System.int CopyContactsToStudy(
 ### Parameters
 
 - `SStudyName`: Name of study to which to copy contact sets
-- `VarContactNames`: Array of contact names (see
-
-Remarks
-
-)
+- `VarContactNames`: Array of contact names (see **Remarks**)
 
 ### Return Value
 
-Error code as defined in
-
-[swsCopyItemsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCopyItemsError_e.html)
+Error code as defined in [swsCopyItemsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCopyItemsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWContactManager::CopyContactsToStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~CopyContactsToStudy.html)
-
-.
+See [CWContactManager::CopyContactsToStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~CopyContactsToStudy.html).
 
 ## Examples
 
 [Copy Items to Another Study (VBA)](Copy_Items_to_Another_Study_Example_VB.htm)
-
 [Copy Items to Another Study (VB.NET)](Copy_Items_to_Another_Study_Example_VBNET.htm)
-
 [Copy Items to Another Study (C#)](Copy_Items_to_Another_Study_Example_CSharp.htm)
 
 ## Remarks
 
 To populate the array of VarContactNames, either:
 
-- inspect
-
-  Connections > Contact Sets
-
-  in the Simulation study tree.
+- inspect **Connections > Contact Sets** in the Simulation study tree.
 
 - or -
 
-- call
+- call [ICWContactManager::GetContactSetAt](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~GetContactSetAt.html) to get each [ICWContactSet](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html) and then call [ICWContactSet::ContactName](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ContactName.html) to get the name of each contact set.
 
-  [ICWContactManager::GetContactSetAt](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager~GetContactSetAt.html)
-
-  to get each
-
-  [ICWContactSet](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
-  and then call
-
-  [ICWContactSet::ContactName](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~ContactName.html)
-
-  to get the name of each contact set.
-
-If a contact set name already exists,**Copy[1]**is prepended to the name of the copied contact set.
+If a contact set name already exists, **Copy[1]** is prepended to the name of the copied contact set.
 
 ## See Also
 
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager_members.html)
 
 ## Availability

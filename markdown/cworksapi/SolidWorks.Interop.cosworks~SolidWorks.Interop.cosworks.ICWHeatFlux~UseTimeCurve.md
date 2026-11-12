@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # UseTimeCurve Property (ICWHeatFlux)
 
-Obsolete. Superseded by[ICWHeatFlux::UseTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~UseTimeCurve2.html).
+Obsolete. Superseded by [ICWHeatFlux::UseTimeCurve2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~UseTimeCurve2.html).
 
 ## Syntax
 
@@ -51,20 +51,13 @@ property System.int UseTimeCurve {
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~UseTimeCurve.html)
-
-.
+See [CWHeatFlux::UseTimeCurve](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~UseTimeCurve.html).
 
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
-
 [ICWHeatFlux::GetTimeCurve Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~GetTimeCurve.html)
-
 [ICWHeatFlux::SetTimeCurve Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux~SetTimeCurve.html)
 
 ## Availability

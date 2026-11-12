@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion6~Rollback2.html
 
 # Rollback2 Method (IEdmVersion6)
 
-Obsolete. Superseded by
-
-[IEdmVersion8::Rollback3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8~Rollback3.html)
-
-.
+Obsolete. Superseded by [IEdmVersion8::Rollback3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8~Rollback3.html).
 
 ## Syntax
 
@@ -58,11 +54,8 @@ This method deletes both the file data and the file data card data when it delet
 ## See Also
 
 [IEdmVersion6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion6.html)
-
 [IEdmVersion6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion6_members.html)
-
 [IEdmEnumeratorVersion6::Rollback2 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVersion6~Rollback2.html)
-
 [IEdmRevision6::Rollback2 Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision6~Rollback2.html)
 
 ## Availability

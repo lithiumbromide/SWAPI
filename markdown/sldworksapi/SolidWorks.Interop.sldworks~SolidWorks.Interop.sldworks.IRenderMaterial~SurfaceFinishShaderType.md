@@ -45,32 +45,19 @@ property System.int SurfaceFinishShaderType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Surface finish shader type as defined by
-
-[swAppearanceSurfaceFinishShaderTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAppearanceSurfaceFinishShaderTypes_e.html)
+Surface finish shader type as defined by [swAppearanceSurfaceFinishShaderTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAppearanceSurfaceFinishShaderTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::SurfaceFinishShaderType](ms-its:sldworksapivb6.chm::/sldworks~RenderMaterial~SurfaceFinishShaderType.html)
-
-.
+See [RenderMaterial::SurfaceFinishShaderType](ms-its:sldworksapivb6.chm::/sldworks~RenderMaterial~SurfaceFinishShaderType.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "Environment Object
-Members"
+title: "Environment Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Environment_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Environment_members.html"
 ---
 
-# Environment Object
-Members
+# Environment Object Members
 
 ## Public Methods
 

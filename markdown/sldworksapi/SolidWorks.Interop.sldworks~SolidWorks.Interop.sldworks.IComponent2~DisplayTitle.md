@@ -42,13 +42,7 @@ property System.String^ DisplayTitle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,15 @@ Display title
 
 ## VBA Syntax
 
-See
+See [Component2::DisplayTitle](ms-its:sldworksapivb6.chm::/sldworks~Component2~DisplayTitle.html).
 
-[Component2::DisplayTitle](ms-its:sldworksapivb6.chm::/sldworks~Component2~DisplayTitle.html)
+## Remarks
 
-.
+To get or set the display title of an assembly, drawing or part, use [IModelDocExtension::DisplayTitle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DisplayTitle.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
 
 ## Availability

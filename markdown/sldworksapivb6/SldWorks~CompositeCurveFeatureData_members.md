@@ -1,6 +1,5 @@
 ---
-title: "CompositeCurveFeatureData Object
-Members"
+title: "CompositeCurveFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CompositeCurveFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CompositeCurveFeatureData_members.html"
 ---
 
-# CompositeCurveFeatureData Object
-Members
+# CompositeCurveFeatureData Object Members
 
 ## Public Methods
 

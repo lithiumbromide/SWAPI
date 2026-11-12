@@ -40,13 +40,7 @@ DisplayDimension GetDisplayDimension()
 DisplayDimension^ GetDisplayDimension();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[DimensionSensorData::GetDisplayDimension](ms-its:sldworksapivb6.chm::/sldworks~DimensionSensorData~GetDisplayDimension.html)
-
-.
+See [DimensionSensorData::GetDisplayDimension](ms-its:sldworksapivb6.chm::/sldworks~DimensionSensorData~GetDisplayDimension.html).
 
 ## Examples
 
 [Get and Set Sensor (C#)](Get_and_Set_Sensor_Example_CSharp.htm)
-
 [Get and Set Sensor (VB.NET)](Get_and_Set_Sensor_Example_VBNET.htm)
-
 [Get and Set Sensor (VBA)](Get_and_Set_Sensor_Example_VB.htm)
 
 ## See Also
 
 [IDimensionSensorData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionSensorData.html)
-
 [IDimensionSensorData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionSensorData_members.html)
 
 ## Availability

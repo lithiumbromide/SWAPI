@@ -45,13 +45,7 @@ property System.double MetallicRoughness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Size of any highlights on the surface
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::MetallicRoughness](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~MetallicRoughness.html)
-
-.
+See [RenderMaterial::MetallicRoughness](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~MetallicRoughness.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

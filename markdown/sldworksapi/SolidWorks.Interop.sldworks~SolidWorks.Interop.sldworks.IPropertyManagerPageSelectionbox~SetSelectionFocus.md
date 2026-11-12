@@ -39,21 +39,11 @@ void SetSelectionFocus()
 void SetSelectionFocus();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::SetSelectionFocus](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~SetSelectionFocus.html)
-
-.
+See [PropertyManagerPageSelectionbox::SetSelectionFocus](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~SetSelectionFocus.html).
 
 ## Remarks
 
@@ -62,7 +52,6 @@ This method only works after this selection box control is created.
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
 
 ## Availability

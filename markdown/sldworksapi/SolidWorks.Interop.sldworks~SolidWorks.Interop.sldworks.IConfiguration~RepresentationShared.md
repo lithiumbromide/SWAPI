@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # RepresentationShared Property (IConfiguration)
 
-Gets or sets whether this
-
-[SOLIDWORKS Connected](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm)
-
-Representation configuration is shared.
+Gets or sets whether this [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm) Representation configuration is shared.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool RepresentationShared {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ True if this Representation configuration is shared, false if not
 
 ## VBA Syntax
 
-See
-
-[Configuration::RepresentationShared](ms-its:sldworksapivb6.chm::/sldworks~Configuration~RepresentationShared.html)
-
-.
+See [Configuration::RepresentationShared](ms-its:sldworksapivb6.chm::/sldworks~Configuration~RepresentationShared.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.string GetOrientationName()
 System.String^ GetOrientationName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Predefined name of view or an empty string for unnamed views
 
 ## VBA Syntax
 
-See
-
-[View::GetOrientationName](ms-its:sldworksapivb6.chm::/Sldworks~View~GetOrientationName.html)
-
-.
+See [View::GetOrientationName](ms-its:sldworksapivb6.chm::/Sldworks~View~GetOrientationName.html).
 
 ## Remarks
 
@@ -67,7 +57,6 @@ This method returns the orientation (predefined) name of the view; e.g., *Front,
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

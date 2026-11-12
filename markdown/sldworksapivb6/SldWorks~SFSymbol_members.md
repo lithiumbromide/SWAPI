@@ -1,6 +1,5 @@
 ---
-title: "SFSymbol Object
-Members"
+title: "SFSymbol Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SFSymbol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SFSymbol_members.html"
 ---
 
-# SFSymbol Object
-Members
+# SFSymbol Object Members
 
 ## Public Methods
 
@@ -66,4 +64,6 @@ Members
 | Public Property GOSTNotation |  |
 | Public Property Grinding |  |
 | Public Property Orientation |  |
+| Public Property ProfileAngle |  |
+| Public Property ProfileDirection |  |
 | Public Property Rotated |  |

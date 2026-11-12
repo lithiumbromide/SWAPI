@@ -10,14 +10,7 @@ source: "swinspectionapi/SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop
 # IInspectionProject Interface
 
 Allows exporting an inspection project.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,19 +40,11 @@ public interface class IInspectionProject
 
 ## VBA Syntax
 
-See
-
-[InspectionProject](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionProject.html)
-
-.
+See [InspectionProject](ms-its:swinspectionapivb6.chm::/SWInspectionAddin~InspectionProject.html).
 
 ## Remarks
 
-For more information, see the
-
-SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Publishing and Exporting Documents
-
-topic.
+For more information, see the **SOLIDWORKS Inspection Add-in user-interface help > SOLIDWORKS Inspection > SOLIDWORKS Inspection Add-in > Publishing and Exporting Documents** topic.
 
 ## Accessors
 
@@ -70,5 +55,4 @@ topic.
 ## See Also
 
 [IInspectionProject Members](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn.IInspectionProject_members.html)
-
 [SolidWorks.Interop.swinspectionAddIn Namespace](SolidWorks.Interop.swinspectionAddIn~SolidWorks.Interop.swinspectionAddIn_namespace.html)

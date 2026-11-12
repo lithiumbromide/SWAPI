@@ -9,13 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertLibraryFeature Method (IModelDoc2)
 
-Obsolete
-
-. See
-
-Remarks
-
-.
+Obsolete. See **Remarks**.
 
 ## Syntax
 
@@ -52,13 +46,7 @@ void InsertLibraryFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,26 +54,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertLibraryFeature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertLibraryFeature.html)
-
-.
+See [ModelDoc2::InsertLibraryFeature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertLibraryFeature.html).
 
 ## Remarks
 
-See
-
-[Library Features and LibraryFeatureData Objects](sldworksapiprogguide.chm::/OVERVIEW/Library_Features_and_LibraryFeatureData_Objects.htm)
-
-.
+See [Library Features and LibraryFeatureData Objects](sldworksapiprogguide.chm::/OVERVIEW/Library_Features_and_LibraryFeatureData_Objects.htm).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ILibraryFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFeatureData.html)
 
 ## Availability

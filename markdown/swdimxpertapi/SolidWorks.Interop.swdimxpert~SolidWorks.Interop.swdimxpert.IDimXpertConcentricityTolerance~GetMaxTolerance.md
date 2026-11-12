@@ -62,16 +62,11 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertConcentricityTolerance::GetMaxTolerance](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertConcentricityTolerance~GetMaxTolerance.html)
-
-.
+See [DimXpertConcentricityTolerance::GetMaxTolerance](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertConcentricityTolerance~GetMaxTolerance.html).
 
 ## See Also
 
 [IDimXpertConcentricityTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConcentricityTolerance.html)
-
 [IDimXpertConcentricityTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertConcentricityTolerance_members.html)
 
 ## Availability

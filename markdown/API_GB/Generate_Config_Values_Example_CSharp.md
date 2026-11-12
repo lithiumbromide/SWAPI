@@ -9,12 +9,9 @@ source: "API_GB/Generate_Config_Values_Example_CSharp.htm"
 
 # Generate Configuration Values Example (C#)
 
-This example shows how to copy card control variable values from one
-configuration to another.
+This example shows how to copy card control variable values from one configuration to another.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------

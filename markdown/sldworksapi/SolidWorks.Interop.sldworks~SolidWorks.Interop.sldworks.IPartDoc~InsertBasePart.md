@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # InsertBasePart Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IPartDoc::InsertPart](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~InsertPart.html)
-
-.
+Obsolete. Superseded by [IPartDoc::InsertPart](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~InsertPart.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool InsertBasePart(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::InsertBasePart](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertBasePart.html)
-
-.
+See [PartDoc::InsertBasePart](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertBasePart.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

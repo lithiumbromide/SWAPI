@@ -45,27 +45,15 @@ property System.bool ReverseSurface {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 True reverses the direction of the surface patch, false does not
 
-EndOLEPropertyRow
-
 ## VBA Syntax
 
-See
-
-[FillSurfaceFeatureData::ReverseSurface](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~ReverseSurface.html)
-
-.
+See [FillSurfaceFeatureData::ReverseSurface](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~ReverseSurface.html).
 
 ## Remarks
 
@@ -79,7 +67,6 @@ This property is dynamic and is only available when:
 ## See Also
 
 [IFillSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData.html)
-
 [IFillSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData_members.html)
 
 ## Availability

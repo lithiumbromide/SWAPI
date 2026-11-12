@@ -73,35 +73,20 @@ void SetMomentOrRotationValuesEx2(
 ### Parameters
 
 - `BInclude`: -1 or true to include moment or rotation in the remote load, 0 or false to not
-- `NXCode`: Remote load type in the x direction as defined in
-
-[swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
+- `NXCode`: Remote load type in the x direction as defined in [swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
 - `DXValue`: Moment or rotation in the x direction as specified by NXCode
-- `NYCode`: Remote load type in the y direction as defined in
-
-[swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
+- `NYCode`: Remote load type in the y direction as defined in [swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
 - `DYValue`: Moment or rotation in the y direction as specified by NYCode
-- `NZCode`: Remote load type in the z direction as defined in
-
-[swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
+- `NZCode`: Remote load type in the z direction as defined in [swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
 - `DZValue`: Moment or rotation in the z direction as specified by NZCode
 
 ## Remarks
 
-This method is valid only if
-
-[ICWRemoteLoad::AllowDistributedCoupling2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling2.html)
-
-returns -1 or true. If it returns 0 or false, then use
-
-[ICWRemoteLoad::SetMomentOrRotationValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMomentOrRotationValues2.html)
-
-instead of this method.
+This method is valid only if [ICWRemoteLoad::AllowDistributedCoupling2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling2.html) returns -1 or true. If it returns 0 or false, then use [ICWRemoteLoad::SetMomentOrRotationValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMomentOrRotationValues2.html) instead of this method.
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

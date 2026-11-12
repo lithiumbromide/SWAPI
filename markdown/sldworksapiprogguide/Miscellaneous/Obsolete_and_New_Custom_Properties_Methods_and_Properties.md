@@ -9,10 +9,7 @@ source: "sldworksapiprogguide/Miscellaneous/Obsolete_and_New_Custom_Properties_M
 
 # Obsolete and New Custom Properties Methods and Properties
 
-The following list identifies the now obsolete custom property methods
-and properties and their replacements as of SOLIDWORKS 2007 and later.
-
-(Table)=========================================================
+The following list identifies the now obsolete custom property methods and properties and their replacements as of SOLIDWORKS 2007 and later.
 
 | Obsolete API | New API |
 | --- | --- |

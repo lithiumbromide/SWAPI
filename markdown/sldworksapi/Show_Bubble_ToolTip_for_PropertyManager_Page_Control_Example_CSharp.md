@@ -9,9 +9,7 @@ source: "sldworksapi/Show_Bubble_ToolTip_for_PropertyManager_Page_Control_Exampl
 
 # Show Bubble ToolTip for PropertyManager Page Control Example (C#)
 
-This example shows how to create a PropertyManager page. When the check box on the PropertyManager page is selected, a bubble
-ToolTip is displayed. This type of ToolTip is useful for validating data typed or selected
-by users in controls on a PropertyManager page.
+This example shows how to create a PropertyManager page. When the check box on the PropertyManager page is selected, a bubble ToolTip is displayed. This type of ToolTip is useful for validating data typed or selected by users in controls on a PropertyManager page.
 
 ```
 //--------------------------------------
@@ -41,22 +39,22 @@ using SolidWorks.Interop.sldworks;
  using System;
 namespace CreatePropertyManagerPage_CSharp.csproj
 {
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}partial class SolidWorksMacro
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public ModelDoc2 swModel;
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SelectionMgr swSelMgr;
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public PropMgrHdlr pm;
- kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public void Main()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}{
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swModel = (ModelDoc2)swApp.ActiveDoc;
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}swSelMgr = (SelectionMgr)swModel.SelectionManager;
+    partial class SolidWorksMacro
+    {
+        public ModelDoc2 swModel;
+         public SelectionMgr swSelMgr;
+         public PropMgrHdlr pm;
+         public void Main()
+        {
+            swModel = (ModelDoc2)swApp.ActiveDoc;
+             swSelMgr = (SelectionMgr)swModel.SelectionManager;
 
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}//Create a new instance of the PropertyManager class
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm = new PropMgrHdlr(swApp);
- kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}pm.Show();
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}}
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}public SldWorks swApp;
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}}
+             //Create a new instance of the PropertyManager class
+             pm = new PropMgrHdlr(swApp);
+             pm.Show();
+        }
+        public SldWorks swApp;
+    }
 }
 
 //PropMgrHdlr.cs

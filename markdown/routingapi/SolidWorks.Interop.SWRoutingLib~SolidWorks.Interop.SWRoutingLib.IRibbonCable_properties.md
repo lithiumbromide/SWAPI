@@ -9,7 +9,7 @@ source: "routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRouting
 
 # IRibbonCable Interface Properties
 
-For a list of all members of this type, see[IRibbonCable members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRibbonCable_members.html).
+For a list of all members of this type, see [IRibbonCable members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRibbonCable_members.html).
 
 ## Public Properties
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IRibbonCable members](SolidWorks.Int
 ## See Also
 
 [IRibbonCable Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRibbonCable.html)
-
 [SolidWorks.Interop.SWRoutingLib Namespace](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib_namespace.html)

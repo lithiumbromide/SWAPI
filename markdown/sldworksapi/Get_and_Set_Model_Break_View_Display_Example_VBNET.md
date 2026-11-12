@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Model_Break_View_Display_Example_VBNET.htm"
 
 # Get and Set Model Break View Display Example (VB.NET)
 
-This example shows how to get and set whether to display an assembly's Model
-Break View in a drawing.
+This example shows how to get and set whether to display an assembly's Model Break View in a drawing.
 
 ```vb
  '----------------------------------------------------------------------------

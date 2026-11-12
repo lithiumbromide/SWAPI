@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INo
 
 # GetTextPoint Method (INote)
 
-Obsolete. Superseded by
-
-[INote::GetTextPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetTextPoint2.html)
-
-or
-
-[INote::IGetTextPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetTextPoint2.html)
-
-.
+Obsolete. Superseded by [INote::GetTextPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetTextPoint2.html) or [INote::IGetTextPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~IGetTextPoint2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetTextPoint()
 System.Object^ GetTextPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Note::GetTextPoint](ms-its:sldworksapivb6.chm::/sldworks~Note~GetTextPoint.html)
-
-.
+See [Note::GetTextPoint](ms-its:sldworksapivb6.chm::/sldworks~Note~GetTextPoint.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)

@@ -47,44 +47,26 @@ property System.int CoordSystemType {
 
 ### Property Value
 
-Type of coordinate system as defined in
-
-[swsCoordinateType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCoordinateType_e.html)
+Type of coordinate system as defined in [swsCoordinateType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCoordinateType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPressure::CoordSystemType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~CoordSystemType.html)
-
-.
+See [CWPressure::CoordSystemType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPressure~CoordSystemType.html).
 
 ## Examples
 
-See the
-
-[ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
-examples.
+See the [ICWPressure](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html) examples.
 
 ## Remarks
 
-This method is valid only if
-
-[ICWPressure::IncludeNonUniformDistribution](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~IncludeNonUniformDistribution.html)
-
-is set to true.
+This method is valid only if [ICWPressure::IncludeNonUniformDistribution](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~IncludeNonUniformDistribution.html) is set to true.
 
 ## See Also
 
 [ICWPressure Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure.html)
-
 [ICWPressure Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure_members.html)
-
 [ICWPressure::GetCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~GetCoordinateSystem.html)
-
 [ICWPressure::SetCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~SetCoordinateSystem.html)
-
 [ICWPressure::Equation Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPressure~Equation.html)
 
 ## Availability

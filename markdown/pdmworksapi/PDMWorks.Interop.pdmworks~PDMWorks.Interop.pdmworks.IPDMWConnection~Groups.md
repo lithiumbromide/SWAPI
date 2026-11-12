@@ -44,22 +44,15 @@ property PDMWGroups^ Groups {
 
 ### Property Value
 
-[IPDMWGroups](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups.html)
-
-collection
+[IPDMWGroups](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups.html) collection
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::Groups](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~Groups.html)
-
-.
+See [PDMWConnection::Groups](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~Groups.html).
 
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
 
 ## Availability

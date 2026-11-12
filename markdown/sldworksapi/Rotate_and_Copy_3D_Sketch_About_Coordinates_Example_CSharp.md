@@ -52,7 +52,7 @@ namespace RotateOrCopy3DAboutXYZCSharp.csproj
             object[] varSketchSegments = null;
             int i = 0;
 
-            // If SOLIDWORKS not running, then exit macro
+            // If SOLIDWORKS Design is not running, then exit macro
             if (swApp == null)
                 return;
 

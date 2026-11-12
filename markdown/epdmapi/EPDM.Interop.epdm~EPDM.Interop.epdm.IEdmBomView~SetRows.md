@@ -39,11 +39,7 @@ void SetRows(
 
 ### Parameters
 
-- `poRows`: Array of ordered
-
-[IEdmBomCell](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html)
-
-interfaces; one interface for each BOM row
+- `poRows`: Array of ordered [IEdmBomCell](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomCell.html) interfaces; one interface for each BOM row
 
 ## Remarks
 
@@ -55,7 +51,6 @@ interfaces; one interface for each BOM row
 ## See Also
 
 [IEdmBomView Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView.html)
-
 [IEdmBomView Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView_members.html)
 
 ## Availability

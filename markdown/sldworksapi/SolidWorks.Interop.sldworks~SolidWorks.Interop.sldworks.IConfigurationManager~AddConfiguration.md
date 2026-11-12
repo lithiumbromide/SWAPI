@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # AddConfiguration Method (IConfigurationManager)
 
-Obsolete. Superseded by
-
-[IConfigurationManager::AddConfiguration2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~AddConfiguration2.html)
-
-.
+Obsolete. Superseded by [IConfigurationManager::AddConfiguration2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~AddConfiguration2.html).
 
 ## Syntax
 
@@ -71,49 +67,28 @@ Configuration^ AddConfiguration(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Name`: Name of the configuration
 - `Comment`: Comment displayed in Configuration Properties
 - `AlternateName`: Alternate configuration name (i.e., user-specified name); used if swConfigOption_UseAlternateName is set to true
-- `Options`: Combination of one or more Boolean configuration options as defined in
-
-[swConfigurationOptions2_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConfigurationOptions2_e.html)
-
-(see
-
-Remarks
-
-)
+- `Options`: Combination of one or more Boolean configuration options as defined in [swConfigurationOptions2_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConfigurationOptions2_e.html) (see **Remarks**)
 - `ParentConfigName`: Name of parent configuration
 - `Description`: Text that identifies the configuration
 
 ### Return Value
 
-Newly created
-
-[configuration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html)
+Newly created [configuration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration.html)
 
 ## VBA Syntax
 
-See
-
-[ConfigurationManager::AddConfiguration](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~AddConfiguration.html)
-
-.
+See [ConfigurationManager::AddConfiguration](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~AddConfiguration.html).
 
 ## Examples
 
 [Set Dimensions to Mid-Tolerance (VBA)](Set_Dimensions_to_Mid-Tolerance_Example_VB.htm)
-
 [Add Derived Configurations (VBA)](Add_Derived_Configurations_Example_VB.htm)
 
 ## Remarks
@@ -127,25 +102,15 @@ The Options argument can be a combination of any of the following values:
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [IConfigurationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html)
-
 [IAssembly::AddComponentConfiguration Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddComponentConfiguration.html)
-
 [IComponent2::Name2 Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~Name2.html)
-
 [IConfiguration::AlternateName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~AlternateName.html)
-
 [IConfiguration::GetParent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetParent.html)
-
 [IConfiguration::GetChildren Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetChildren.html)
-
 [IConfiguration::IGetChildren Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IGetChildren.html)
-
 [IConfiguration::Name Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~Name.html)
-
 [IConfigurationManager::ActiveConfiguration Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~ActiveConfiguration.html)
-
 [IModelDoc2::AddConfiguration3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddConfiguration3.html)
 
 ## Availability

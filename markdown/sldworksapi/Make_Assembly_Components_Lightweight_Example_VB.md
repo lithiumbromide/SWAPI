@@ -9,8 +9,7 @@ source: "sldworksapi/Make_Assembly_Components_Lightweight_Example_VB.htm"
 
 # Make Assembly Components Lightweight Example (VBA)
 
-This example shows how to change the selected components in an assembly
-from fully resolved to lightweight.
+This example shows how to change the selected components in an assembly from fully resolved to lightweight.
 
 ```
 '----------------------------------------------------

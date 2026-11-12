@@ -51,16 +51,11 @@ True if visible, false if not
 
 ## Examples
 
-See the
-
-[IEdmBomMgr2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2.html)
-
-examples.
+See the [IEdmBomMgr2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2.html) examples.
 
 ## See Also
 
 [IEdmBomMgr2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2.html)
-
 [IEdmBomMgr2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2_members.html)
 
 ## Availability

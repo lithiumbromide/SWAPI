@@ -45,33 +45,21 @@ property System.int Style {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Style of the attached drop-down list as defined in
-
-[swPropMgrPageNumberBoxStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropMgrPageNumberBoxStyle_e.html)
+Style of the attached drop-down list as defined in [swPropMgrPageNumberBoxStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropMgrPageNumberBoxStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageNumberbox::Style](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~Style.html)
-
-.
+See [PropertyManagerPageNumberbox::Style](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~Style.html).
 
 ## Remarks
 
 Use these methods and properties to set up and control the attached drop-down list:
 
-- [IPropertyManagerPageNumberbox::AddItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageNumberbox~AddItems.html)and[IPropertyManagerPageNumberbox::IAddItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageNumberbox~IAddItems.html)
+- [IPropertyManagerPageNumberbox::AddItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageNumberbox~AddItems.html) and [IPropertyManagerPageNumberbox::IAddItems](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageNumberbox~IAddItems.html)
 - [IPropertyManagerPageNumberbox::DeleteItem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageNumberbox~DeleteItem.html)
 - [IPropertyManagerPageNumberbox::Clear](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageNumberbox~Clear.html)
 - [IPropertyManagerPageNumberbox::CurrentSelection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageNumberbox~CurrentSelection.html)
@@ -82,7 +70,6 @@ Use these methods and properties to set up and control the attached drop-down li
 ## See Also
 
 [IPropertyManagerPageNumberbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox.html)
-
 [IPropertyManagerPageNumberbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox_members.html)
 
 ## Availability

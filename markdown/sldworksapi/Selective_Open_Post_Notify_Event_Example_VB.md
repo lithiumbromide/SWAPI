@@ -9,8 +9,7 @@ source: "sldworksapi/Selective_Open_Post_Notify_Event_Example_VB.htm"
 
 # Selective Open Post-Notify Event Example (VBA)
 
-This example shows how to handle the post-notification event that fires when
-components are selected for Quick View/Selective Open.
+This example shows how to handle the post-notification event that fires when components are selected for Quick View/Selective Open.
 
 ```
 '------------------------------------------------------
@@ -46,21 +45,21 @@ Dim swModel As SldWorks.ModelDoc2
 Dim swDocSpecification As SldWorks.DocumentSpecification
 Dim swAssemblyEvents As Class1
 Dim swAssembly As SldWorks.AssemblyDoc
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Option Explicit
+Option Explicit
 Sub main()
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swApp = Application.SldWorks
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swDocSpecification = swApp.GetOpenDocSpec("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\advdrawings\bowl and chute.sldasm")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swDocSpecification.InteractiveComponentSelection = True
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}swDocSpecification.DocumentType = swDocASSEMBLY
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swModel = swApp.OpenDoc7(swDocSpecification)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swModel = swApp.ActiveDoc
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swAssembly = swModel
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Set up event
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swAssemblyEvents = New Class1
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Set swAssemblyEvents.swAssembly = swAssembly
+    Set swApp = Application.SldWorks
+    Set swDocSpecification = swApp.GetOpenDocSpec("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\advdrawings\bowl and chute.sldasm")
+    swDocSpecification.InteractiveComponentSelection = True
+    swDocSpecification.DocumentType = swDocASSEMBLY
+    Set swModel = swApp.OpenDoc7(swDocSpecification)
+
+    Set swModel = swApp.ActiveDoc
+    Set swAssembly = swModel
+
+    ' Set up event
+
+    Set swAssemblyEvents = New Class1
+    Set swAssemblyEvents.swAssembly = swAssembly
 End Sub
 Back to top
 
@@ -68,13 +67,13 @@ Back to top
 
 Public WithEvents swAssembly As SldWorks.AssemblyDoc
 Private Function swAssembly_SelectiveOpenPostNotify(ByVal NewAddedDisplayStateName As String, SelectedComponentNames As Variant) As Long
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}MsgBox "A post-notification event has been fired for the selective open."
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "New display state name: " & NewAddedDisplayStateName
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Selected component names:"
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Dim i As Long
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}For i = 0 To UBound(SelectedComponentNames)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Debug.Print " kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}" & SelectedComponentNames(i)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Next
+    MsgBox "A post-notification event has been fired for the selective open."
+    Debug.Print "New display state name: " & NewAddedDisplayStateName
+    Debug.Print "Selected component names:"
+    Dim i As Long
+    For i = 0 To UBound(SelectedComponentNames)
+        Debug.Print "  " & SelectedComponentNames(i)
+    Next
 End Function
 Back to top
 ```

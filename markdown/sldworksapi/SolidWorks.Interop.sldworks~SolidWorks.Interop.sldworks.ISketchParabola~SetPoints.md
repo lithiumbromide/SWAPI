@@ -91,13 +91,7 @@ System.bool SetPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -120,16 +114,11 @@ True if all four sketch points are set, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchParabola::SetPoints](ms-its:sldworksapivb6.chm::/Sldworks~SketchParabola~SetPoints.html)
-
-.
+See [SketchParabola::SetPoints](ms-its:sldworksapivb6.chm::/Sldworks~SketchParabola~SetPoints.html).
 
 ## See Also
 
 [ISketchParabola Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
-
 [ISketchParabola Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola_members.html)
 
 ## Availability

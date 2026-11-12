@@ -47,27 +47,15 @@ property System.double StartTimes {
 
 ### Property Value
 
-Start time in seconds for this event (see
-
-Remarks
-
-)
+Start time in seconds for this event (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWFatigueEvent::StartTimes](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~StartTimes.html)
-
-.
+See [CWFatigueEvent::StartTimes](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueEvent~StartTimes.html).
 
 ## Examples
 
-See the
-
-[ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
-examples.
+See the [ICWFatigueEvent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html) examples.
 
 ## Remarks
 
@@ -76,9 +64,7 @@ This property is valid only if this is a variable amplitude fatigue event and on
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [ICWFatigueEvent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html)
-
 [ICWFatigueEvent::NoOfRepeats Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent~NoOfRepeats.html)
 
 ## Availability

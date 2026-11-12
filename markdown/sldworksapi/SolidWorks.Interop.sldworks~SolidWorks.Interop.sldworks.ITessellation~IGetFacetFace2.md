@@ -47,13 +47,7 @@ Face2^ IGetFacetFace2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,22 +55,16 @@ See
 
 ### Return Value
 
-[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)to which this facet belongs
+[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to which this facet belongs
 
 ## VBA Syntax
 
-See
-
-[Tessellation::IGetFacetFace2](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetFacetFace2.html)
-
-.
+See [Tessellation::IGetFacetFace2](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~IGetFacetFace2.html).
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::GetFacetFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~GetFacetFace.html)
 
 ## Availability

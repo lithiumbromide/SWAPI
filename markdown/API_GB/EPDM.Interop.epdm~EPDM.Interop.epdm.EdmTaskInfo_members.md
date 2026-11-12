@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo_members.html"
 
 # EdmTaskInfo Structure Members
 
-The following tables list the members exposed by[EdmTaskInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html).
+The following tables list the members exposed by [EdmTaskInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html).
 
 ## Public Fields
 
@@ -24,7 +24,5 @@ The following tables list the members exposed by[EdmTaskInfo](EPDM.Interop.epdm~
 ## See Also
 
 [EdmTaskInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Programming Tasks](Tasks.htm)

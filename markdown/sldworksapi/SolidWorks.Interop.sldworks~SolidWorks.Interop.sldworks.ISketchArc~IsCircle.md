@@ -40,13 +40,7 @@ System.int IsCircle()
 System.int IsCircle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,19 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchArc::IsCircle](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~IsCircle.html)
-
-.
+See [SketchArc::IsCircle](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~IsCircle.html).
 
 ## Examples
 
-See the
-
-[ISketchArc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
-examples.
+See the [ISketchArc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html) examples.
 
 ## Examples
 
@@ -75,7 +61,6 @@ examples.
 ## See Also
 
 [ISketchArc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
 [ISketchArc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc_members.html)
 
 ## Availability

@@ -40,33 +40,19 @@ System.int GetRotationDir()
 System.int GetRotationDir();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Rotation direction with respect to the normal of the arc's sketch plane (counterclockwise = 1, clockwise = -1) (see**Remarks**)
+Rotation direction with respect to the normal of the arc's sketch plane (counterclockwise = 1, clockwise = -1) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SketchArc::GetRotationDir](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~GetRotationDir.html)
-
-.
+See [SketchArc::GetRotationDir](ms-its:sldworksapivb6.chm::/sldworks~SketchArc~GetRotationDir.html).
 
 ## Examples
 
-See the
-
-[ISketchArc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
-examples.
+See the [ISketchArc](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html) examples.
 
 ## Examples
 
@@ -83,7 +69,6 @@ This method determines the direction that the sketch proceeds around this arc, b
 ## See Also
 
 [ISketchArc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc.html)
-
 [ISketchArc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchArc_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Rebuild_Example_VB.htm"
 
 # Rebuild Model Example (VBA)
 
-The example shows how to rebuild an assembly by using IModelDoc2::EditRebuild3
-and IModelDoc2::ForceRebuild3.
+The example shows how to rebuild an assembly by using IModelDoc2::EditRebuild3 and IModelDoc2::ForceRebuild3.
 
 ```
 '---------------------------------------------

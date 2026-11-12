@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHo
 
 # EnableUpdate Property (IHoleTable)
 
-Gets or sets whether to update hole table and graphics after
-
-[changing hole tags](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable~HoleTag.html)
-
-.
+Gets or sets whether to update hole table and graphics after [changing hole tags](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHoleTable~HoleTag.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool EnableUpdate {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ True updates the hole table and model view, false does not
 
 ## VBA Syntax
 
-See
-
-[HoleTable::EnableUpdate](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~EnableUpdate.html)
-
-.
+See [HoleTable::EnableUpdate](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~EnableUpdate.html).
 
 ## Examples
 
 [Change Tags in Hole Table (VB.NET)](Change_Tags_in_Hole_Table_Example_VBNET.htm)
-
 [Change Tags in Hole Table (VBA)](Change_Tags_in_Hole_Table_Example_VB.htm)
 
 ## Remarks
@@ -82,13 +67,9 @@ If you plan on changing many hole tags, then consider setting this property to f
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
-
 [IHoleTable::HoleTagsVisible Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~HoleTagsVisible.html)
-
 [IHoleTable::TagStyle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~TagStyle.html)
-
 [IHoleTable::HoleTag Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable~HoleTag.html)
 
 ## Availability

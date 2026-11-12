@@ -53,11 +53,9 @@ System.int SetFrequencyOption2(
 
 ### Parameters
 
-- `NOption`: Option as defined by
-
-[swsFrequencyStudyOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyStudyOption_e.html)
+- `NOption`: Option as defined by [swsFrequencyStudyOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyStudyOption_e.html)
 - `DValue`: - Number of frequencies, if NOption = swsFrequencyStudyOption_e.swsFrequencyStudyOptionNumberFrequencies
-- Upper-bound frequency, if NOption = swsFrequencyStudyOption_e.swsFrequencyStudyOptionUserUpperBoundFrequency
+  - Upper-bound frequency, if NOption = swsFrequencyStudyOption_e.swsFrequencyStudyOptionUserUpperBoundFrequency
 
 ### Return Value
 
@@ -65,22 +63,14 @@ System.int SetFrequencyOption2(
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::SetFrequencyOption2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~SetFrequencyOption2.html)
-
-.
+See [CWDynamicStudyOptions::SetFrequencyOption2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~SetFrequencyOption2.html).
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::GetFrequencyOption2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetFrequencyOption2.html)
-
 [ICWDynamicStudyOptions::SetFrequencyShiftOption2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetFrequencyShiftOption2.html)
-
 [ICWDynamicStudyOptions::GetFrequencyShiftOption2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetFrequencyShiftOption2.html)
 
 ## Availability

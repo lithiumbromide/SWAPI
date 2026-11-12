@@ -40,13 +40,7 @@ Body2 CreateWireBody()
 Body2^ CreateWireBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::CreateWireBody](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~CreateWireBody.html)
-
-.
+See [SketchSegment::CreateWireBody](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~CreateWireBody.html).
 
 ## Remarks
 
@@ -67,7 +57,6 @@ Wire bodies contain wires, loops, coedges, edges, and vertices. Wires typically 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
 
 ## Availability

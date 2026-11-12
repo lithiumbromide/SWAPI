@@ -47,51 +47,31 @@ System.int GetInterfaceBrightnessThemeColors(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Colors`: Array of nine RGB (Red, Green, Blue) decimal values corresponding to the nine color types of the SOLIDWORKS background as defined in
-
-[swInterfaceBrightnessColor_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInterfaceBrightnessColor_e.html)
+- `Colors`: Array of nine RGB (Red, Green, Blue) decimal values corresponding to the nine color types of the SOLIDWORKS background as defined in [swInterfaceBrightnessColor_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInterfaceBrightnessColor_e.html)
 
 ### Return Value
 
-SOLIDWORKS background theme as defined in
-
-[swInterfaceBrightnessTheme_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInterfaceBrightnessTheme_e.html)
+SOLIDWORKS background theme as defined in [swInterfaceBrightnessTheme_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swInterfaceBrightnessTheme_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetInterfaceBrightnessThemeColors](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetInterfaceBrightnessThemeColors.html)
-
-.
+See [SldWorks::GetInterfaceBrightnessThemeColors](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetInterfaceBrightnessThemeColors.html).
 
 ## Remarks
 
 A SOLIDWORKS add-in can:
 
 - use this method to determine the current theme and colors of the SOLIDWORKS background.
-- be notified when the theme and colors in the SOLIDWORKS background change by registering for the
-
-  [DSldWorksEvents_InterfaceBrightnessThemeChangeNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSldWorksEvents_InterfaceBrightnessThemeChangeNotifyEventHandler.html)
-
-  event.
+- be notified when the theme and colors in the SOLIDWORKS background change by registering for the [DSldWorksEvents_InterfaceBrightnessThemeChangeNotifyEventHandler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSldWorksEvents_InterfaceBrightnessThemeChangeNotifyEventHandler.html) event.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISwHtmlInterface::GetInterfaceBrightnessTheme](ms-its:swhtmlcontrolapi.chm::/SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~GetInterfaceBrightnessTheme.html)
 
 ## Availability

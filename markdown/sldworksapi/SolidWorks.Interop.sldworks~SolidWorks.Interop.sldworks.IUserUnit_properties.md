@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUs
 
 # IUserUnit Interface Properties
 
-For a list of all members of this type, see[IUserUnit members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit_members.html).
+For a list of all members of this type, see [IUserUnit members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit_members.html).
 
 ## Public Properties
 
@@ -30,5 +30,4 @@ For a list of all members of this type, see[IUserUnit members](SolidWorks.Intero
 ## See Also
 
 [IUserUnit Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -42,13 +42,7 @@ property GeneralTableFeature^ GeneralTable {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[GeneralTableAnnotation::GeneralTable](ms-its:sldworksapivb6.chm::/sldworks~GeneralTableAnnotation~GeneralTable.html)
-
-.
+See [GeneralTableAnnotation::GeneralTable](ms-its:sldworksapivb6.chm::/sldworks~GeneralTableAnnotation~GeneralTable.html).
 
 ## See Also
 
 [IGeneralTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableAnnotation.html)
-
 [IGeneralTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGeneralTableAnnotation_members.html)
 
 ## Availability

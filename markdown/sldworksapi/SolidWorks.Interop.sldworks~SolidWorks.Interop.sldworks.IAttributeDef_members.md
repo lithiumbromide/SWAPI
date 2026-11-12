@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAt
 
 # IAttributeDef Interface Members
 
-The following tables list the members exposed by[IAttributeDef](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttributeDef.html).
+The following tables list the members exposed by [IAttributeDef](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttributeDef.html).
 
 ## Public Methods
 
@@ -32,5 +32,4 @@ The following tables list the members exposed by[IAttributeDef](SolidWorks.Inter
 ## See Also
 
 [IAttributeDef Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAttributeDef.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

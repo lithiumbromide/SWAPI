@@ -51,28 +51,17 @@ Heat power value
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::HPValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~HPValue.html)
-
-.
+See [CWHeatPower::HPValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~HPValue.html).
 
 ## Examples
 
-See the
-
-[ICWHeatPower](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
-examples.
+See the [ICWHeatPower](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html) examples.
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::Unit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~Unit.html)
-
 [ICWHeatPower::ReverseDirection Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~ReverseDirection.html)
 
 ## Availability

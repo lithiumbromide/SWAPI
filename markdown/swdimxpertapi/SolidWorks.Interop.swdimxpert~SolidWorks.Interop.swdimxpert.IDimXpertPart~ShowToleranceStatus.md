@@ -51,24 +51,17 @@ True if tolerance status is displayed; false if not
 
 ## VBA Syntax
 
-See
-
-[DimXpertPart::ShowToleranceStatus](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~ShowToleranceStatus.html)
-
-.
+See [DimXpertPart::ShowToleranceStatus](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertPart~ShowToleranceStatus.html).
 
 ## Examples
 
 [Auto Dimension Scheme (C#)](Auto_Dimension_Scheme_Example_CSharp.htm)
-
 [Auto Dimension Scheme (VB.NET)](Auto_Dimension_Scheme_Example_VBNET.htm)
-
 [Auto Dimension Scheme (VBA)](Auto_Dimension_Scheme_Example_VB.htm)
 
 ## See Also
 
 [IDimXpertPart Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart.html)
-
 [IDimXpertPart Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPart_members.html)
 
 ## Availability

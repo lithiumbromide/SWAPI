@@ -1,6 +1,5 @@
 ---
-title: "MateReference Object
-Members"
+title: "MateReference Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MateReference_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MateReference_members.html"
 ---
 
-# MateReference Object
-Members
+# MateReference Object Members
 
 ## Public Methods
 

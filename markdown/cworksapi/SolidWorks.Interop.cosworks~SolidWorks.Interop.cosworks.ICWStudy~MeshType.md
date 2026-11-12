@@ -44,29 +44,15 @@ property System.int MeshType {
 
 ### Property Value
 
-Mesh type as defined in
-
-[swsMeshType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshType_e.html)
-
-(see
-
-Remarks
-
-)
+Mesh type as defined in [swsMeshType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshType_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::MeshType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~MeshType.html)
-
-.
+See [CWStudy::MeshType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~MeshType.html).
 
 ## Remarks
 
 Valid mesh types for different types of studies:
-
-(Table)=========================================================
 
 | Study Type | Solid Mesh | Shell Mesh | Mixed Mesh (Solid & Shell) | Beam Mesh |
 | --- | --- | --- | --- | --- |
@@ -90,19 +76,12 @@ Valid mesh types for different types of studies:
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::CreateMesh Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CreateMesh.html)
-
 [ICWStudy::Mesh Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~Mesh.html)
-
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWStudy::CopyMeshFromStudy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CopyMeshFromStudy.html)
-
 [ICWStudy::MeshAndRun Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~MeshAndRun.html)
-
 [ICWStudy::CreateMeshForMeshControl Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~CreateMeshForMeshControl.html)
 
 ## Availability

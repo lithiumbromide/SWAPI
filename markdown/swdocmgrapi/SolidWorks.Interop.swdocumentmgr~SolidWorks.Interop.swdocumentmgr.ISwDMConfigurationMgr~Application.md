@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # Application Property (ISwDMConfigurationMgr)
 
-Gets the
-
-[ISwDMApplication](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication.html)
-
-object.
+Gets the [ISwDMApplication](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication.html) object.
 
 ## Syntax
 
@@ -48,24 +44,15 @@ property SwDMApplication^ Application {
 
 ### Property Value
 
-Pointer to the
-
-[ISwDMApplication](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication.html)
-
-object
+Pointer to the [ISwDMApplication](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMApplication.html) object
 
 ## VBA Syntax
 
-See
-
-[SwDMConfigurationMgr::Application](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfigurationMgr~Application.html)
-
-.
+See [SwDMConfigurationMgr::Application](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfigurationMgr~Application.html).
 
 ## See Also
 
 [ISwDMConfigurationMgr Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr.html)
-
 [ISwDMConfigurationMgr Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr_members.html)
 
 ## Availability

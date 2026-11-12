@@ -41,22 +41,13 @@ void LinkConnectorBeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWLinkConnector::LinkConnectorBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkConnector~LinkConnectorBeginEdit.html)
-
-.
+See [CWLinkConnector::LinkConnectorBeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkConnector~LinkConnectorBeginEdit.html).
 
 ## Remarks
 
-To start editing a link connector, you must call this method. You must call
-
-[ICWLinkConnector::LinkConnectorEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLinkConnector~LinkConnectorEndEdit.html)
-
-to end editing a link connector. Changes are not applied unless you call both methods.
+To start editing a link connector, you must call this method. You must call [ICWLinkConnector::LinkConnectorEndEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWLinkConnector~LinkConnectorEndEdit.html) to end editing a link connector. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWLinkConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector.html)
-
 [ICWLinkConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector_members.html)

@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflowMgr6_methods.htm
 
 # IEdmWorkflowMgr6 Interface Methods
 
-For a list of all members of this type, see[IEdmWorkflowMgr6 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflowMgr6_members.html).
+For a list of all members of this type, see [IEdmWorkflowMgr6 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflowMgr6_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEdmWorkflowMgr6 members](EPDM.Inter
 ## See Also
 
 [IEdmWorkflowMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflowMgr6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

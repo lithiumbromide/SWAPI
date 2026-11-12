@@ -55,29 +55,13 @@ System.bool SetComponentsOrFacesToCheck(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Components`: Array of
-
-[component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
-s
-- `Faces`: Array of
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-s
-- `Errors`: Error code as defined by
-
-[swClearanceVerificationSetEntityErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swClearanceVerificationSetEntityErrors_e.html)
+- `Components`: Array of [component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)s
+- `Faces`: Array of [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)s
+- `Errors`: Error code as defined by [swClearanceVerificationSetEntityErrors_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swClearanceVerificationSetEntityErrors_e.html)
 
 ### Return Value
 
@@ -85,24 +69,15 @@ True if components and/or faces successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[ClearanceVerificationMgr::SetComponentsOrFacesToCheck](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~SetComponentsOrFacesToCheck.html)
-
-.
+See [ClearanceVerificationMgr::SetComponentsOrFacesToCheck](ms-its:sldworksapivb6.chm::/sldworks~ClearanceVerificationMgr~SetComponentsOrFacesToCheck.html).
 
 ## Examples
 
-See the
-
-[IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
-examples.
+See the [IClearanceVerificationMgr](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html) examples.
 
 ## See Also
 
 [IClearanceVerificationMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr.html)
-
 [IClearanceVerificationMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IClearanceVerificationMgr_members.html)
 
 ## Availability

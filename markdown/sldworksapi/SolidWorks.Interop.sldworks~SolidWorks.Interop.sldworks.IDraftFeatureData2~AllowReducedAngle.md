@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # AllowReducedAngle Property (IDraftFeatureData2)
 
-Gets or sets the
-
-Allow reduced angle
-
-option for this draft feature.
+Gets or sets the **Allow reduced angle** option for this draft feature.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.bool AllowReducedAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,36 +53,21 @@ True to reduce the angle of the draft, false to not
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData2::AllowReducedAngle](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~AllowReducedAngle.html)
-
-.
+See [DraftFeatureData2::AllowReducedAngle](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~AllowReducedAngle.html).
 
 ## Remarks
 
-See SOLIDWORKS Help for details about the
-
-Allow reduced angle
-
-setting.
+See SOLIDWORKS Help for details about the **Allow reduced angle** setting.
 
 ## See Also
 
 [IDraftFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2.html)
-
 [IDraftFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2_members.html)
-
 [IDraftFeatureData2::Angle Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2~Angle.html)
-
 [IDraftFeatureData2::GetPartingLinesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2~GetPartingLinesCount.html)
-
 [IDraftFeatureData2::IGetPartingLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2~IGetPartingLines.html)
-
 [IDraftFeatureData2::ISetPartingLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2~ISetPartingLines.html)
-
 [IDraftFeatureData2::PartingLines Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2~PartingLines.html)
-
 [IPartingLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartingLineFeatureData.html)
 
 ## Availability

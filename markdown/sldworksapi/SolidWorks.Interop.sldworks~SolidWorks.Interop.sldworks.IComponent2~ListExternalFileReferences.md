@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ListExternalFileReferences Method (IComponent2)
 
-Obsolete. Superseded by
-
-[IComponent2::ListExternalFileReferences2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~ListExternalFileReferences2.html)
-
-.
+Obsolete. Superseded by [IComponent2::ListExternalFileReferences2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~ListExternalFileReferences2.html).
 
 ## Syntax
 
@@ -74,13 +70,7 @@ void ListExternalFileReferences(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -94,14 +84,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Component2::ListExternalFileReferences](ms-its:sldworksapivb6.chm::/sldworks~Component2~ListExternalFileReferences.html)
-
-.
+See [Component2::ListExternalFileReferences](ms-its:sldworksapivb6.chm::/sldworks~Component2~ListExternalFileReferences.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)

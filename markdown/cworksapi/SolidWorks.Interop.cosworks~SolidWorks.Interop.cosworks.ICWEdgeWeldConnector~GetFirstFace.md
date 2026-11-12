@@ -49,9 +49,7 @@ System.Object^ GetFirstFace(
 
 ### Parameters
 
-- `ErrorCode`: Error code as defined in
-
-[swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
+- `ErrorCode`: Error code as defined in [swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
 
 ### Return Value
 
@@ -59,23 +57,15 @@ Face Set1 array
 
 ## VBA Syntax
 
-See
-
-[CWEdgeWeldConnector::GetFirstFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~GetFirstFace.html)
-
-.
+See [CWEdgeWeldConnector::GetFirstFace](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~GetFirstFace.html).
 
 ## Examples
 
-See the
-
-[ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
-examples.
+See the [ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html) examples.
 
 ## Remarks
 
-The faces returned by this method are related to the Face Set2 faces returned by[ICWEdgeWeldConnector::GetSecondFace](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWEdgeWeldConnector~GetSecondFace.html)as follows:
+The faces returned by this method are related to the Face Set2 faces returned by [ICWEdgeWeldConnector::GetSecondFace](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWEdgeWeldConnector~GetSecondFace.html) as follows:
 
 | If ICWEdgeWeldConnector::GetEdgeWeldType is swsEdgeWeldConnectorTypes_e ... | Then the faces in Face Set1 and Face Set2 are... |
 | --- | --- |
@@ -85,9 +75,7 @@ The faces returned by this method are related to the Face Set2 faces returned by
 ## See Also
 
 [ICWEdgeWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
 [ICWEdgeWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector_members.html)
-
 [ICWEdgeWeldConnector::GetEdgeList Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector~GetEdgeList.html)
 
 ## Availability

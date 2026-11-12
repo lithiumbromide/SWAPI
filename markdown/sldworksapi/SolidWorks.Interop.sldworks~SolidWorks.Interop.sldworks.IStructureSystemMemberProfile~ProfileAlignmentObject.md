@@ -45,13 +45,7 @@ property System.Object^ ProfileAlignmentObject {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -68,30 +62,19 @@ Direction entity with which to align an axis of the member profile, e.g.:
 
 ## VBA Syntax
 
-See
-
-[StructureSystemMemberProfile::ProfileAlignmentObject](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~ProfileAlignmentObject.html)
-
-.
+See [StructureSystemMemberProfile::ProfileAlignmentObject](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~ProfileAlignmentObject.html).
 
 ## Remarks
 
 Use:
 
-- [IStructureSystemMemberProfile::ProfileAlignmentObjectType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentObjectType.html)
-
-  to specify the type of this entity.
-- [IStructureSystemMemberProfile::ProfileAlignmentType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentType.html)
-
-  to specify to which axis of the member profile to align the entity specified by this property.
-- [IStructureSystemMemberProfile::ProfileAlignmentAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentAngle.html)
-
-  to specify the angle of alignment with the specified entity and member axis.
+- [IStructureSystemMemberProfile::ProfileAlignmentObjectType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentObjectType.html) to specify the type of this entity.
+- [IStructureSystemMemberProfile::ProfileAlignmentType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentType.html) to specify to which axis of the member profile to align the entity specified by this property.
+- [IStructureSystemMemberProfile::ProfileAlignmentAngle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~ProfileAlignmentAngle.html) to specify the angle of alignment with the specified entity and member axis.
 
 ## See Also
 
 [IStructureSystemMemberProfile Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile.html)
-
 [IStructureSystemMemberProfile Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile_members.html)
 
 ## Availability

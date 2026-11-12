@@ -47,13 +47,7 @@ System.bool ShowConfiguration2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,44 +59,30 @@ True if the configuration is activated successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ShowConfiguration2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ShowConfiguration2.html)
-
-.
+See [ModelDoc2::ShowConfiguration2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ShowConfiguration2.html).
 
 ## Examples
 
 [Get Custom Property Values on Cut List Folders (VBA)](Get_Custom_Property_Values_On_Cut_List_Folders_Example_VB.htm)
-
 [Iterate Through All Configurations (VBA)](Iterate_Through_All_Configurations_Example_VB.htm)
-
 [Rebuild All Configurations (VBA)](Rebuild_All_Configurations_Example_VB.htm)
-
 [Work With Configurations (VBA)](Work_with_Configurations_Example_VB.htm)
-
 [Save Configuration Data (C#)](Save_Configuration_Data_Example_CSharp.htm)
-
 [Save Configuration Data (VB.NET)](Save_Configuration_Data_Example_VBNET.htm)
-
 [Save Configuration Data (VBA)](Save_Configuration_Data_Example_VB.htm)
 
 ## Remarks
 
 Configurations allow you to save certain display characteristics with each of the assembly components. This method allows you to retrieve a previously saved configuration.
 
-If you made changes to the model and the configuration to which you are switching needs to be updated to reflect those changes, then you must rebuild the model using[IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html). Otherwise, the FeatureManager design tree will show the model as needing to be rebuilt.
+If you made changes to the model and the configuration to which you are switching needs to be updated to reflect those changes, then you must rebuild the model using [IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html). Otherwise, the FeatureManager design tree will show the model as needing to be rebuilt.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::EditConfiguration3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditConfiguration3.html)
-
 [IModelDoc2::AddConfiguration3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddConfiguration3.html)
-
 [IConfigurationManager::AddConfiguration Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~AddConfiguration.html)
 
 ## Availability

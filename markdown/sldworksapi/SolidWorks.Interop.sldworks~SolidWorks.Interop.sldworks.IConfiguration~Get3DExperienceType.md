@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # Get3DExperienceType Method (IConfiguration)
 
-Gets how this configuration is viewed in
-
-[SOLIDWORKS Connected](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm)
-
-.
+Gets how this configuration is viewed in [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## Syntax
 
@@ -44,38 +40,22 @@ System.int Get3DExperienceType()
 System.int Get3DExperienceType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Type of 3DEXPERIENCE configuration as defined in
-
-[sw3DExperienceCfgType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExperienceCfgType_e.html)
+Type of 3DEXPERIENCE configuration as defined in [sw3DExperienceCfgType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.sw3DExperienceCfgType_e.html)
 
 ## VBA Syntax
 
-See
-
-[Configuration::Get3DExperienceType](ms-its:sldworksapivb6.chm::/sldworks~Configuration~Get3DExperienceType.html)
-
-.
+See [Configuration::Get3DExperienceType](ms-its:sldworksapivb6.chm::/sldworks~Configuration~Get3DExperienceType.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::GetRepresentationParent Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetRepresentationParent.html)
-
 [IConfiguration::Set3DExperienceType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~Set3DExperienceType.html)
-
 [IConfigurationManager::AddCADFamilyConfiguration Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager~AddCADFamilyConfiguration.html)
 
 ## Availability

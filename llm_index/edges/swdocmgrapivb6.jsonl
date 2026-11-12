@@ -2,6 +2,8 @@
 {"label": "ISwDMApplication3", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMApplication3~GetExternalReferenceOptionObject", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMApplication3", "type": "member_of"}
 {"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMApplication4", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMApplication4~GetExternalReferenceOptionObject2", "type": "has_member"}
 {"label": "ISwDMApplication4", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMApplication4~GetExternalReferenceOptionObject2", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMApplication4", "type": "member_of"}
+{"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMApplication5", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMApplication5~GetPreviewBitmapForAnnotationFiles", "type": "has_member"}
+{"label": "ISwDMApplication5", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMApplication5~GetPreviewBitmapForAnnotationFiles", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMApplication5", "type": "member_of"}
 {"label": "property", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMComponent10", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMComponent10~ComponentReference", "type": "has_member"}
 {"label": "ISwDMComponent10", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMComponent10~ComponentReference", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMComponent10", "type": "member_of"}
 {"label": "property", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMComponent11", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMComponent11~Name3", "type": "has_member"}
@@ -508,6 +510,14 @@
 {"label": "ISwDMDocument29", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument29~HasLegacyCustomProperties", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument29", "type": "member_of"}
 {"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument29", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument29~SetCustomProperty2", "type": "has_member"}
 {"label": "ISwDMDocument29", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument29~SetCustomProperty2", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument29", "type": "member_of"}
+{"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument30", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument30~SavedInLDREditMode", "type": "has_member"}
+{"label": "ISwDMDocument30", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument30~SavedInLDREditMode", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument30", "type": "member_of"}
+{"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31~GetSheetFormatPathUntrimmed", "type": "has_member"}
+{"label": "ISwDMDocument31", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31~GetSheetFormatPathUntrimmed", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31", "type": "member_of"}
+{"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31~GetSheetNamesUntrimmed", "type": "has_member"}
+{"label": "ISwDMDocument31", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31~GetSheetNamesUntrimmed", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31", "type": "member_of"}
+{"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31~GetSheetPropertiesUntrimmed", "type": "has_member"}
+{"label": "ISwDMDocument31", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31~GetSheetPropertiesUntrimmed", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMDocument31", "type": "member_of"}
 {"label": "property", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMExternalReferenceOption2", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMExternalReferenceOption2~BrokenStatus", "type": "has_member"}
 {"label": "ISwDMExternalReferenceOption2", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMExternalReferenceOption2~BrokenStatus", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMExternalReferenceOption2", "type": "member_of"}
 {"label": "property", "source": "swdocmgrapivb6/SwDocumentMgr~ISwDMExternalReferenceOption2", "target": "swdocmgrapivb6/SwDocumentMgr~ISwDMExternalReferenceOption2~IDs", "type": "has_member"}
@@ -572,6 +582,8 @@
 {"label": "SwDMApplication3", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication3~GetExternalReferenceOptionObject", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication3", "type": "member_of"}
 {"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication4", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication4~GetExternalReferenceOptionObject2", "type": "has_member"}
 {"label": "SwDMApplication4", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication4~GetExternalReferenceOptionObject2", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication4", "type": "member_of"}
+{"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication5", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication5~GetPreviewBitmapForAnnotationFiles", "type": "has_member"}
+{"label": "SwDMApplication5", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication5~GetPreviewBitmapForAnnotationFiles", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication5", "type": "member_of"}
 {"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication~CopyDocument", "type": "has_member"}
 {"label": "SwDMApplication", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication~CopyDocument", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication", "type": "member_of"}
 {"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMApplication~GetDocument", "type": "has_member"}
@@ -1274,6 +1286,14 @@
 {"label": "SwDMDocument2", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument2~GetInvisibleCustomPropertyNames", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument2", "type": "member_of"}
 {"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument2", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument2~SetInvisibleCustomProperty", "type": "has_member"}
 {"label": "SwDMDocument2", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument2~SetInvisibleCustomProperty", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument2", "type": "member_of"}
+{"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument30", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument30~SavedInLDREditMode", "type": "has_member"}
+{"label": "SwDMDocument30", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument30~SavedInLDREditMode", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument30", "type": "member_of"}
+{"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31~GetSheetFormatPathUntrimmed", "type": "has_member"}
+{"label": "SwDMDocument31", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31~GetSheetFormatPathUntrimmed", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31", "type": "member_of"}
+{"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31~GetSheetNamesUntrimmed", "type": "has_member"}
+{"label": "SwDMDocument31", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31~GetSheetNamesUntrimmed", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31", "type": "member_of"}
+{"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31~GetSheetPropertiesUntrimmed", "type": "has_member"}
+{"label": "SwDMDocument31", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31~GetSheetPropertiesUntrimmed", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument31", "type": "member_of"}
 {"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument3", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument3~GetAllCustomPropertyNamesAndValues", "type": "has_member"}
 {"label": "SwDMDocument3", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument3~GetAllCustomPropertyNamesAndValues", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument3", "type": "member_of"}
 {"label": "method", "source": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument4", "target": "swdocmgrapivb6/SwDocumentMgr~SwDMDocument4~GetActiveSheetName", "type": "has_member"}

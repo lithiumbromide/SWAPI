@@ -47,13 +47,7 @@ System.bool SetNewFilename(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ True if the name of the new SOLIDWORKS file is set, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::SetNewFilename](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SetNewFilename.html)
-
-.
+See [SldWorks::SetNewFilename](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SetNewFilename.html).
 
 ## Remarks
 
-Use with SldWorks
-
-[FileNewPreNotifyEventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_FileNewPreNotifyEventHandler.html)
-
-.
+Use with SldWorks [FileNewPreNotifyEventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DSldWorksEvents_FileNewPreNotifyEventHandler.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

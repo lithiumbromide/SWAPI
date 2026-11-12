@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_Reference_Points_Example_VB.htm"
 
 # Insert Reference Points Example (VBA)
 
-This example shows how to inserts six, evenly spaced referenced points
-on the selected edge.
+This example shows how to inserts six, evenly spaced referenced points on the selected edge.
 
 ```
 '-----------------------------------------------------

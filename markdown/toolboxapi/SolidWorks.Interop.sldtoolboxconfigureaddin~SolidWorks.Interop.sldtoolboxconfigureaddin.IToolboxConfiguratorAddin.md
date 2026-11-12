@@ -9,15 +9,7 @@ source: "toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Inter
 
 # IToolboxConfiguratorAddin Interface
 
-Connects to the Toolbox Configurator (Welcome to Toolbox Setup dialog) when it is opened and disconnects from it when it is closed.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Connects to the Toolbox Configurator (Welcome to Toolbox Setup dialog) when it is opened and disconnects from it when it is closed. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,19 +39,11 @@ public interface class IToolboxConfiguratorAddin
 
 ## VBA Syntax
 
-See
-
-[ToolboxConfiguratorAddin](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~ToolboxConfiguratorAddin.html)
-
-.
+See [ToolboxConfiguratorAddin](ms-its:toolboxapivb6.chm::/ToolboxConfigurationApplicationLib~ToolboxConfiguratorAddin.html).
 
 ## Examples
 
-See
-
-[Getting Started](GettingStarted-toolboxapi.html)
-
-for more information.
+See [Getting Started](GettingStarted-toolboxapi.html) for more information.
 
 ## Remarks
 
@@ -72,5 +56,4 @@ There is no functional need to access this interface. As this is a delegate to t
 ## See Also
 
 [IToolboxConfiguratorAddin Members](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolboxConfiguratorAddin_members.html)
-
 [SolidWorks.Interop.sldtoolboxconfigureaddin Namespace](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin_namespace.html)

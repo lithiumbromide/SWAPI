@@ -46,26 +46,18 @@ Number of frames per second
 
 ## VBA Syntax
 
-See
-
-[MotionStudyProperties::GetFrameRate](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyProperties~GetFrameRate.html)
-
-.
+See [MotionStudyProperties::GetFrameRate](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyProperties~GetFrameRate.html).
 
 ## Examples
 
 [Fire Events for External Output Time Step Changes (C#)](Fire_Events_for_External_Output_Time_Step_Changes_Example_CSharp.htm)
-
 [Fire Events for External Output Time Step Changes (VB.NET)](Fire_Events_for_External_Output_Time_Step_Changes_Example_VBNET.htm)
-
 [Fire Events for External Output Time Step Changes (VBA)](Fire_Events_for_External_Output_Time_Step_Changes_Example_VB.htm)
 
 ## See Also
 
 [IMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties.html)
-
 [IMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties_members.html)
-
 [IMotionStudyProperties::SetFrameRate Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyProperties~SetFrameRate.html)
 
 ## Availability

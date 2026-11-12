@@ -9,7 +9,7 @@ source: "sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dpr
 
 # ISw3DPrinter Interface Methods
 
-For a list of all members of this type, see[ISw3DPrinter members](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter_members.html).
+For a list of all members of this type, see [ISw3DPrinter members](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter_members.html).
 
 ## Public Methods
 
@@ -61,5 +61,4 @@ For a list of all members of this type, see[ISw3DPrinter members](SolidWorks.Int
 ## See Also
 
 [ISw3DPrinter Interface](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter.ISw3DPrinter.html)
-
 [SolidWorks.Interop.sw3dprinter Namespace](SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dprinter_namespace.html)

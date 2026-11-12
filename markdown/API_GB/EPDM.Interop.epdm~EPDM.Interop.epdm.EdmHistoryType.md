@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmHistoryType.html"
 
 # EdmHistoryType Enumeration
 
-Types of history record; used by the
-
-[IEdmHistory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory.html)
-
-interface.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Types of history record; used by the [IEdmHistory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory.html) interface. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

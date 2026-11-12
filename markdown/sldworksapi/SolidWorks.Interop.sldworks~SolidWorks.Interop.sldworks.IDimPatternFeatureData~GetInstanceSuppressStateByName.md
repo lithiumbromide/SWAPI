@@ -47,21 +47,11 @@ System.bool GetInstanceSuppressStateByName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `InstanceName`: Name of the pattern instance (see
-
-Remarks
-
-)
+- `InstanceName`: Name of the pattern instance (see **Remarks**)
 
 ### Return Value
 
@@ -69,30 +59,18 @@ True if the pattern instance is suppressed, false if not
 
 ## VBA Syntax
 
-See
-
-[DimPatternFeatureData::GetInstanceSuppressStateByName](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetInstanceSuppressStateByName.html)
-
-.
+See [DimPatternFeatureData::GetInstanceSuppressStateByName](ms-its:sldworksapivb6.chm::/sldworks~DimPatternFeatureData~GetInstanceSuppressStateByName.html).
 
 ## Remarks
 
-Use
-
-[IDimPatternFeatureData::GetInstanceNameByIndex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceNameByIndex.html)
-
-to get InstanceName.
+Use [IDimPatternFeatureData::GetInstanceNameByIndex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceNameByIndex.html) to get InstanceName.
 
 ## See Also
 
 [IDimPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData.html)
-
 [IDimPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData_members.html)
-
 [IDimPatternFeatureData::SetInstanceSuppressStateByName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~SetInstanceSuppressStateByName.html)
-
 [IDimPatternFeatureData::GetInstanceSuppressStateByIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~GetInstanceSuppressStateByIndex.html)
-
 [IDimPatternFeatureData::SetInstanceSuppressStateByIndex Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimPatternFeatureData~SetInstanceSuppressStateByIndex.html)
 
 ## Availability

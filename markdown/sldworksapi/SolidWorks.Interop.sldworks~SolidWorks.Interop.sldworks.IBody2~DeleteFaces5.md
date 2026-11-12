@@ -67,43 +67,15 @@ System.bool DeleteFaces5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FaceList`: Array containing the
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-for deletion
-- `HealAction`: Healing action as defined in
-
-[swHealActionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHealActionType_e.html)
-
-(see
-
-Remarks
-
-)
-- `LoopProcessOption`: Loop processing as defined in
-
-[swLoopProcessOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLoopProcessOption_e.html)
-
-(see
-
-Remarks
-
-)
+- `FaceList`: Array containing the [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) for deletion
+- `HealAction`: Healing action as defined in [swHealActionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHealActionType_e.html) (see **Remarks**)
+- `LoopProcessOption`: Loop processing as defined in [swLoopProcessOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLoopProcessOption_e.html) (see **Remarks**)
 - `DoLocalCheck`: True checks the bodies during the operation and sets the return value to indicate whether the resultant body is valid, false does not
-- `BodyList`: Array of temporary
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `BodyList`: Array of temporary [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 - `LocalCheckResult`: True if body is valid, false if not; to obtain this value, you must pass true for the DoLocalCheck argument
 
 ### Return Value
@@ -112,18 +84,12 @@ True if set of faces are deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::DeleteFaces5](ms-its:sldworksapivb6.chm::/sldworks~Body2~DeleteFaces5.html)
-
-.
+See [Body2::DeleteFaces5](ms-its:sldworksapivb6.chm::/sldworks~Body2~DeleteFaces5.html).
 
 ## Examples
 
 [Create New Part from Existing Part Using Temporary Body (VB.NET)](Create_New_Part_from_Existing_Part_Using_Temporary_Body_Example_VBNET.htm)
-
 [Create New Part from Existing Part Using Temporary Body (VBA)](Create_New_Part_from_Existing_Part_Using_Temporary_Body_Example_VB.htm)
-
 [Create New Part from Existing Part Using Temporary Body (C#)](Create_New_Part_from_Existing_Part_Using_Temporary_Body_Example_CSharp.htm)
 
 ## Remarks
@@ -136,7 +102,7 @@ For example, consider a cube with a through hole made up of four faces (a square
 
 Now consider the same cube with a through hole, except this through hole is a simple cylinder (one face). To delete the cylindrical face, specify swHealActionShrink_e for HealAction and swLoopProcess_Independent for LoopProcessAction to heal the loops independently. This is necessary because the cylindrical face actually has two loops (one at either end of the cylinder) that need to be healed separately.
 
-It is possible to generate invalid geometry when you use this method because checking is disabled. Call[IBody2::Check3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Check3.html)to verify that the body is a valid solid after using this method.
+It is possible to generate invalid geometry when you use this method because checking is disabled. Call [IBody2::Check3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Check3.html) to verify that the body is a valid solid after using this method.
 
 | swLoopProcess_Together | swLoopProcess_Independent |
 | --- | --- |
@@ -145,21 +111,13 @@ It is possible to generate invalid geometry when you use this method because che
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::DeleteBlends3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~DeleteBlends3.html)
-
 [IBody2::IDeleteBlends3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IDeleteBlends3.html)
-
 [IBody2::EnumFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~EnumFaces.html)
-
 [IBody2::GetFaceCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetFaceCount.html)
-
 [IBody2::GetFirstFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetFirstFace.html)
-
 [IBody2::IGetFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IGetFaces.html)
-
 [IBody2::IGetFirstFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IGetFirstFace.html)
 
 ## Availability

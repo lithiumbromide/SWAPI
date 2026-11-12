@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHo
 
 # IHoleTable Interface Methods
 
-For a list of all members of this type, see[IHoleTable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html).
+For a list of all members of this type, see [IHoleTable members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html).
 
 ## Public Methods
 
@@ -30,9 +30,6 @@ For a list of all members of this type, see[IHoleTable members](SolidWorks.Inter
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IHoleTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTableAnnotation.html)
-
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)

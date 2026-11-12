@@ -52,19 +52,11 @@ void OpenMarkupFile(
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::OpenMarkupFile](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OpenMarkupFile.html)
-
-.
+See [EModelViewControl::OpenMarkupFile](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OpenMarkupFile.html).
 
 ## Examples
 
-See
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-examples.
+See [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html) examples.
 
 ## Remarks
 
@@ -78,13 +70,9 @@ To be accessed by the following methods, the markup eDrawings file must be loade
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::Password Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~Password.html)
-
 [IEModelViewControl::UserName Property](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~UserName.html)
-
 [IEModelViewControl::OpenDoc Method](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~OpenDoc.html)
 
 ## Availability

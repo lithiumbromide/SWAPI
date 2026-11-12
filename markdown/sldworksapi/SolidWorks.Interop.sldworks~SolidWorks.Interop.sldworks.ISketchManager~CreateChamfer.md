@@ -55,44 +55,28 @@ SketchSegment^ CreateChamfer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type of chamfer as defined in
-
-[swSketchChamferType_e](ms-its:swconst.chm::/SOLIDWORKS.interop.swconst~SOLIDWORKS.interop.swconst.swSketchChamferType_e.html)
+- `Type`: Type of chamfer as defined in [swSketchChamferType_e](ms-its:swconst.chm::/SOLIDWORKS.interop.swconst~SOLIDWORKS.interop.swconst.swSketchChamferType_e.html)
 - `Distance`: Distance of the chamfer
 - `AngleORdist`: - If Type = swSketchChamfer_DistanceDistance, then the second chamfer distance
-- If Type = swSketchChamfer_DistanceAngle, then the second chamfer angle
-- If Type = swSketchChamfer_DistanceEqual, then this argument is ignored because Distance
-
-  is used for both edges
+  - If Type = swSketchChamfer_DistanceAngle, then the second chamfer angle
+  - If Type = swSketchChamfer_DistanceEqual, then this argument is ignored because Distance
+    is used for both edges
 
 ### Return Value
 
-[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-for the chamfer
+[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) for the chamfer
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateChamfer](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateChamfer.html)
-
-.
+See [SketchManager::CreateChamfer](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateChamfer.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

@@ -39,21 +39,11 @@ void RemovePresentationTransform()
 void RemovePresentationTransform();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component2::RemovePresentationTransform](ms-its:sldworksapivb6.chm::/sldworks~Component2~RemovePresentationTransform.html)
-
-.
+See [Component2::RemovePresentationTransform](ms-its:sldworksapivb6.chm::/sldworks~Component2~RemovePresentationTransform.html).
 
 ## Examples
 
@@ -61,22 +51,17 @@ See
 
 ## Remarks
 
-Set[IAssemblyDoc::EnablePresentation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~EnablePresentation.html)to false after a user is finished with presentation transforms and has called IComponent2::RemovePresentationTransform, which removes any transform applied by[IComponent::PresentationTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~PresentationTransform.html).
+Set [IAssemblyDoc::EnablePresentation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~EnablePresentation.html) to false after a user is finished with presentation transforms and has called IComponent2::RemovePresentationTransform, which removes any transform applied by [IComponent::PresentationTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~PresentationTransform.html).
 
 After calling IComponent2::RemovePresentationTransfrom, the component is next drawn in a position consistent with its underlying geometry ([IComponent2::Transform2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~Transform2.html)).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IAssemblyDoc::EnablePresentation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EnablePresentation.html)
-
 [IComponent2::GetTotalTransform Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetTotalTransform.html)
-
 [IComponent2::PresentationTransform Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~PresentationTransform.html)
-
 [IComponent2::Transform2 Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~Transform2.html)
 
 ## Availability

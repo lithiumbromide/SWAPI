@@ -45,13 +45,7 @@ property System.bool KeepBody {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to keep the original solid body, false to let the original body be consumed
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData::KeepBody](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~KeepBody.html)
-
-.
+See [ConvertSolidFeatureData::KeepBody](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~KeepBody.html).
 
 ## Examples
 
-See the
-
-[IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
-examples.
+See the [IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html) examples.
 
 ## See Also
 
 [IConvertSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
 
 ## Availability

@@ -40,29 +40,15 @@ System.object GetEdges()
 System.Object^ GetEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumEdges.html)
-
-corresponding to this vertex
+Array of [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumEdges.html) corresponding to this vertex
 
 ## VBA Syntax
 
-See
-
-[Vertex::GetEdges](ms-its:sldworksapivb6.chm::/sldworks~Vertex~GetEdges.html)
-
-.
+See [Vertex::GetEdges](ms-its:sldworksapivb6.chm::/sldworks~Vertex~GetEdges.html).
 
 ## Examples
 
@@ -71,9 +57,7 @@ See
 ## See Also
 
 [IVertex Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
 [IVertex Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex_members.html)
-
 [IVertex::EnumEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex~EnumEdges.html)
 
 ## Availability

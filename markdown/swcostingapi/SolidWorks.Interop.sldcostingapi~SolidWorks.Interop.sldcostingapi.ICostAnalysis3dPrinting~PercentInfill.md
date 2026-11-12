@@ -51,26 +51,16 @@ Infill percentage; valid values are 0 through 100
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting::PercentInfill](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~PercentInfill.html)
-
-.
+See [CostAnalysis3dPrinting::PercentInfill](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~PercentInfill.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
-examples.
+See the [ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html) examples.
 
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
-
 [ICostAnalysis3dPrinting::WallThickness Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~WallThickness.html)
 
 ## Availability

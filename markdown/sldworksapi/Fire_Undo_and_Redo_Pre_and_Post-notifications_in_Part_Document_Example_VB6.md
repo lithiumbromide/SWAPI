@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Undo_and_Redo_Pre_and_Post-notifications_in_Part_Docum
 
 # Fire Undo and Redo Pre- and Post-notifications in Part Document (VBA)
 
-This example shows how to fire undo and redo pre- and post-notifications
-in a part document.
+This example shows how to fire undo and redo pre- and post-notifications in a part document.
 
 ```
 '--------------------------------------------------------------------------

@@ -9,11 +9,7 @@ source: "swcostingapi/SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcos
 
 # ShopRateApplied Property (ICostAnalysisMachining)
 
-Gets or sets whether an
-
-[hourly shop rate](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~ShopRate.html)
-
-is applied to this machining Costing analysis.
+Gets or sets whether an [hourly shop rate](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisMachining~ShopRate.html) is applied to this machining Costing analysis.
 
 ## Syntax
 
@@ -55,14 +51,12 @@ True if an hourly shop rate is applied, false if not
 
 ## VBA Syntax
 
-See[CostAnalysisMachining::ShopRateApplied](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~ShopRateApplied.html).
+See [CostAnalysisMachining::ShopRateApplied](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisMachining~ShopRateApplied.html).
 
 ## See Also
 
 [ICostAnalysisMachining Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining.html)
-
 [ICostAnalysisMachining Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining_members.html)
-
 [ICostAnalysisMachining::ResetShopRate Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisMachining~ResetShopRate.html)
 
 ## Availability

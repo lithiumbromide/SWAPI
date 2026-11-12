@@ -51,13 +51,7 @@ System.bool GetRowData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,24 +64,15 @@ True if row data successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleDataTable::GetRowData](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~GetRowData.html)
-
-.
+See [HoleDataTable::GetRowData](ms-its:sldworksapivb6.chm::/sldworks~HoleDataTable~GetRowData.html).
 
 ## Remarks
 
-To set RowIndex, use
-
-[IHoleDataTable::GetRowCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable~GetRowCount.html)
-
-.
+To set RowIndex, use [IHoleDataTable::GetRowCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable~GetRowCount.html).
 
 ## See Also
 
 [IHoleDataTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
-
 [IHoleDataTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable_members.html)
 
 ## Availability

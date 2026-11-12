@@ -9,13 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMa
 
 # GetPropertyByName Method (ICWMaterial)
 
-Obsolete. Superseded by
-
-er
-
-[ICWMaterial::GetPropertyByName2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~GetPropertyByName2.html)
-
-.
+Obsolete. Superseded by er[ICWMaterial::GetPropertyByName2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~GetPropertyByName2.html).
 
 ## Syntax
 
@@ -63,9 +57,7 @@ System.double GetPropertyByName(
 
 ### Parameters
 
-- `NUnit`: Unit system as defined in
-
-[swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
+- `NUnit`: Unit system as defined in [swsUnitSystem_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnitSystem_e.html)
 - `SName`: Property name; for example, 'EX' for Elastic modulus, 'NUXY' for Poisson's ratio, etc.
 - `BTempDependent`: True if temperature dependent, false if not
 
@@ -73,32 +65,21 @@ System.double GetPropertyByName(
 
 Value of material property
 
-ParamDesc
-
 ## VBA Syntax
 
-See
-
-[CWMaterial::GetPropertyByName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetPropertyByName.html)
-
-.
+See [CWMaterial::GetPropertyByName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~GetPropertyByName.html).
 
 ## Examples
 
 [Apply Material to Bodies (C#)](Apply_Material_to_Bodies_Example_CSharp.htm)
-
 [Apply Material to Bodies (VB.NET)](Apply_Material_to_Bodies_Example_VBNET.htm)
-
 [Apply Material to Bodies (VBA)](Apply_Material_to_Bodies_Example_VB.htm)
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
-
 [ICWMaterial::SetPropertyByName Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~SetPropertyByName.html)
-
 [ICWMaterial::Count Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial~Count.html)
 
 ## Availability

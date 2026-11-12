@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFl
 
 # IFlyoutGroup Interface Members
 
-The following tables list the members exposed by[IFlyoutGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup.html).
+The following tables list the members exposed by [IFlyoutGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup.html).
 
 ## Public Properties
 
@@ -42,5 +42,4 @@ The following tables list the members exposed by[IFlyoutGroup](SolidWorks.Intero
 ## See Also
 
 [IFlyoutGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

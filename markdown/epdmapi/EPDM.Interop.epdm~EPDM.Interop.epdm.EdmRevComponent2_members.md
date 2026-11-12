@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2_members.ht
 
 # EdmRevComponent2 Structure Members
 
-The following tables list the members exposed by[EdmRevComponent2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html).
+The following tables list the members exposed by [EdmRevComponent2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html).
 
 ## Public Fields
 
@@ -27,5 +27,4 @@ The following tables list the members exposed by[EdmRevComponent2](EPDM.Interop.
 ## See Also
 
 [EdmRevComponent2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

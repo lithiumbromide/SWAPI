@@ -9,8 +9,7 @@ source: "sldworksapi/Reload_Model_Example_VB.htm"
 
 # Reload Model Example (VBA)
 
-This example shows how to reload the active model with the last saved
-version of the model.
+This example shows how to reload the active model with the last saved version of the model.
 
 ```
 '----------------------------------

@@ -47,26 +47,16 @@ property System.double CycleTime {
 
 ### Property Value
 
-Plastic process cycle time in hours; valid for use in calculations only if
-
-[ICostAnalysisPlastic::CalculationMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CalculationMethod.html)
-
-is set to swcMoldCalculationMethod_e.swcMoldCalculationMethod_CycleTime
+Plastic process cycle time in hours; valid for use in calculations only if [ICostAnalysisPlastic::CalculationMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~CalculationMethod.html) is set to swcMoldCalculationMethod_e.swcMoldCalculationMethod_CycleTime
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisPlastic::CycleTime](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~CycleTime.html)
-
-.
+See [CostAnalysisPlastic::CycleTime](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~CycleTime.html).
 
 ## See Also
 
 [ICostAnalysisPlastic Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
 [ICostAnalysisPlastic Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic_members.html)
-
 [ICostAnalysisPlastic::MaxWallThickness Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~MaxWallThickness.html)
 
 ## Availability

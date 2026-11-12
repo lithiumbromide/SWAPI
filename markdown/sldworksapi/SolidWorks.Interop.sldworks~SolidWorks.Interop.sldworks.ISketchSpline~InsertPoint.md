@@ -55,31 +55,21 @@ System.bool InsertPoint(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `X`: X coordinate on this spline
-- `Y`: Y coordinate on this splineParamDesc
-- `Z`: Z coordinate on this splineParamDesc
+- `Y`: Y coordinate on this spline
+- `Z`: Z coordinate on this spline
 
 ### Return Value
 
-True if a point is added to the spline, false if notParamDesc
+True if a point is added to the spline, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::InsertPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~InsertPoint.html)
-
-.
+See [SketchSpline::InsertPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~InsertPoint.html).
 
 ## Remarks
 
@@ -88,19 +78,12 @@ This method works only if X, Y, and Z specify a location on this spline. You can
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [ISketchSpline::DeletePoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~DeletePoint.html)
-
 [ISketchSpline::GetPointCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~GetPointCount.html)
-
 [ISketchSpline::GetPoints2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~GetPoints2.html)
-
 [ISketchSpline::IEnumPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~IEnumPoints.html)
-
 [ISplineHandle::SplinePointNumber Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle~SplinePointNumber.html)
-
 [ISketchSpline::ShowInflectionPoints Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~ShowInflectionPoints.html)
 
 ## Availability

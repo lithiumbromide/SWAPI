@@ -49,40 +49,27 @@ System.int AddDefaultFatigueStudyPlot(
 
 ### Parameters
 
-- `NResultType`: Type of fatigue study result to plot as defined by
-
-[swsFatigueStudyResultType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueStudyResultType_e.html)
+- `NResultType`: Type of fatigue study result to plot as defined by [swsFatigueStudyResultType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFatigueStudyResultType_e.html)
 
 ### Return Value
 
-Error code as defined by
-
-[swsAddDefaultFatigueStudyPlotResultError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAddDefaultFatigueStudyPlotResultError_e.html)
+Error code as defined by [swsAddDefaultFatigueStudyPlotResultError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAddDefaultFatigueStudyPlotResultError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::AddDefaultFatigueStudyPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~AddDefaultFatigueStudyPlot.html)
-
-.
+See [CWModelDoc::AddDefaultFatigueStudyPlot](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~AddDefaultFatigueStudyPlot.html).
 
 ## Examples
 
 [Create Fatigue Study (VBA)](Create_Fatigue_Study_Example_VB.htm)
-
 [Create Fatigue Study (VB.NET)](Create_Fatigue_Study_Example_VBNET.htm)
-
 [Create Fatigue Study (C#)](Create_Fatigue_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
-
 [ICWModelDoc::DeleteAllDefaultFatigueStudyPlots Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~DeleteAllDefaultFatigueStudyPlots.html)
-
 [ICWModelDoc::DeleteDefaultFatigueStudyPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~DeleteDefaultFatigueStudyPlot.html)
 
 ## Availability

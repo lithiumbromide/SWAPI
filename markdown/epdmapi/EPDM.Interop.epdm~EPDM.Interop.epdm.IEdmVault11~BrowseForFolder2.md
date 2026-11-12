@@ -50,63 +50,33 @@ IEdmFolder5^ BrowseForFolder2(
 
 - `hParentWnd`: Parent window handle
 - `bsMessage`: Message to display in the dialog box
-- `poDefaultFolder`: [IEdmFolder5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
-; default folder to browse
-- `lFlags`: Combination of
-
-[EdmBrowseForFolderFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrowseForFolderFlag.html)
-
-bits
+- `poDefaultFolder`: [IEdmFolder5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html); default folder to browse
+- `lFlags`: Combination of [EdmBrowseForFolderFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrowseForFolderFlag.html) bits
 
 ### Return Value
 
-[IEdmFolder5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
-; Null if the user clicks
-
-Cancel
-
-(see
-
-Remarks
-
-)
+[IEdmFolder5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html); Null if the user clicks **Cancel** (see **Remarks**)
 
 ## Examples
 
 [Get and Set Item References (VB.NET)](Get_and_Set_Item_References_Example_VBNET.htm)
-
 [Get and Set Item References (C#)](Get_and_Set_Item_References_Example_CSharp.htm)
 
 ## Remarks
 
-This method supersedes[IEdmVault5::BrowseForFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~BrowseForFolder.html)by providing the ability to select items.
+This method supersedes [IEdmVault5::BrowseForFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~BrowseForFolder.html) by providing the ability to select items.
 
 C++ users must release the returned interface, IEdmFolder5.
 
 [Return codes:](ReturnCodes.htm)
 
 - S_OK: The method successfully executed.
-- S_FALSE: The user pressed
-
-  Cancel
-
-  .
-- E_EDM_NOT_LOGGED_IN: You must call
-
-  [IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html)
-
-  or
-
-  [IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html)
-
-  before calling this method.
+- S_FALSE: The user pressed **Cancel**.
+- E_EDM_NOT_LOGGED_IN: You must call [IEdmVault5::Login](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~Login.html) or [IEdmVault5::LoginAuto](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~LoginAuto.html) before calling this method.
 
 ## See Also
 
 [IEdmVault11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
 [IEdmVault11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologySymmetryControl Interface Methods
 
-For a list of all members of this type, see[ICWTopologySymmetryControl members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl_members.html).
+For a list of all members of this type, see [ICWTopologySymmetryControl members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl_members.html).
 
 ## Public Methods
 
@@ -30,5 +30,4 @@ For a list of all members of this type, see[ICWTopologySymmetryControl members](
 ## See Also
 
 [ICWTopologySymmetryControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

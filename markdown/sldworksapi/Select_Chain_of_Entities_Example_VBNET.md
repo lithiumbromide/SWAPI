@@ -9,8 +9,7 @@ source: "sldworksapi/Select_Chain_of_Entities_Example_VBNET.htm"
 
 # Select Chains of Entities Attached to a Sketch Segment Example (VB.NET)
 
-This example shows how to select chains of entities attached to
-a sketch segment.
+This example shows how to select chains of entities attached to a sketch segment.
 
 ```vb
  '----------------------------------------------------------------------------

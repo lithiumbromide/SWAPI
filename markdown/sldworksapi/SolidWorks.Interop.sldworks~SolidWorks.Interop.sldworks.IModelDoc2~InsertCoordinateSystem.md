@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertCoordinateSystem Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertCoordinateSystem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCoordinateSystem.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::InsertCoordinateSystem](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertCoordinateSystem.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool InsertCoordinateSystem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,11 +69,7 @@ True if coordinate system is added successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertCoordinateSystem](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertCoordinateSystem.html)
-
-.
+See [ModelDoc2::InsertCoordinateSystem](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertCoordinateSystem.html).
 
 ## Examples
 
@@ -91,7 +77,7 @@ See
 
 ## Remarks
 
-Make the selections using[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)with a mark of:
+Make the selections using [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) with a mark of:
 
 - 1 - Origin
 - 2 - X axis
@@ -106,11 +92,8 @@ This method:
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetCurrentCoordinateSystemName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetCurrentCoordinateSystemName.html)
-
 [IModelDocExtension::GetCoordinateSystemTransformByName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCoordinateSystemTransformByName.html)
 
 ## Availability

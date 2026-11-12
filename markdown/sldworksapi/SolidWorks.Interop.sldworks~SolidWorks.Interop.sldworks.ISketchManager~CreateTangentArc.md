@@ -71,13 +71,7 @@ SketchSegment^ CreateTangentArc(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -87,34 +81,25 @@ See
 - `X2`: X coordinate of end point in meters
 - `Y2`: Y coordinate of end point in meters
 - `Z2`: Z coordinate of end point in meters
-- `ArcType`: Type of tangent arc as defined in
-
-[swTangentArcTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangentArcTypes_e.html)
+- `ArcType`: Type of tangent arc as defined in [swTangentArcTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTangentArcTypes_e.html)
 
 ### Return Value
 
-[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)of the tangent arc
+[Sketch segment](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) of the tangent arc
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateTangentArc](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateTangentArc.html)
-
-.
+See [SketchManager::CreateTangentArc](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateTangentArc.html).
 
 ## Examples
 
 [Create Tangent Arc (VBA)](Create_Tangent_Arc_Example_VB.htm)
-
 [Create Tangent Arc (VB.NET)](Create_Tangent_Arc_Example_VBNET.htm)
-
 [Create Tangent Arc (C#)](Create_Tangent_Arc_Example_CSharp.htm)
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

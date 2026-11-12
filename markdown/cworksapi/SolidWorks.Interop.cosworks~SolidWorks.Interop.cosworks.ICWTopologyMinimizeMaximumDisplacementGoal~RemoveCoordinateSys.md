@@ -41,19 +41,11 @@ void RemoveCoordinateSys();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyMinimizeMaximumDisplacementGoal::RemoveCoordinateSys](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMinimizeMaximumDisplacementGoal~RemoveCoordinateSys.html)
-
-.
+See [CWTopologyMinimizeMaximumDisplacementGoal::RemoveCoordinateSys](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMinimizeMaximumDisplacementGoal~RemoveCoordinateSys.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyMinimizeMaximumDisplacementGoal](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal.html)
-
-example.
+See the [ICWTopologyMinimizeMaximumDisplacementGoal](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal.html) example.
 
 ## Remarks
 
@@ -63,32 +55,15 @@ This method is valid:
 
 - and -
 
-- if
-
-  [ICWTopologyMinimizeMaximumDisplacementGoal::SetCoordinateSystemPreference](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal~SetCoordinateSystemPreference.html)
-
-  sets
-
-  [swsTopologyStudyDisplacementCoordinateSysOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementCoordinateSysOption_e.html)
-
-  .swsTopologyDisplacementCoordinateSysOption_UserDefine,
+- if [ICWTopologyMinimizeMaximumDisplacementGoal::SetCoordinateSystemPreference](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal~SetCoordinateSystemPreference.html) sets [swsTopologyStudyDisplacementCoordinateSysOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementCoordinateSysOption_e.html).swsTopologyDisplacementCoordinateSysOption_UserDefine,
 
 - and -
 
-- if
-
-  [ICWTopologyMinimizeMaximumDisplacementGoal::SetComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal~SetComponent.html)
-
-  sets any displacement component other than
-
-  [swsTopologyStudyDisplacementComponentType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementComponentType_e.html)
-
-  .swsTopologyDisplacementCompType_URES.
+- if [ICWTopologyMinimizeMaximumDisplacementGoal::SetComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal~SetComponent.html) sets any displacement component other than [swsTopologyStudyDisplacementComponentType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementComponentType_e.html).swsTopologyDisplacementCompType_URES.
 
 ## See Also
 
 [ICWTopologyMinimizeMaximumDisplacementGoal Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal.html)
-
 [ICWTopologyMinimizeMaximumDisplacementGoal Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal_members.html)
 
 ## Availability

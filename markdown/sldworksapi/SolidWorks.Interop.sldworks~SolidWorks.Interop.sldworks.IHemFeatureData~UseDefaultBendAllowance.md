@@ -45,13 +45,7 @@ property System.bool UseDefaultBendAllowance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True uses the default bend allowance, false does not
 
 ## VBA Syntax
 
-See
-
-[HemFeatureData::UseDefaultBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~UseDefaultBendAllowance.html)
-
-.
+See [HemFeatureData::UseDefaultBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~HemFeatureData~UseDefaultBendAllowance.html).
 
 ## See Also
 
 [IHemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData.html)
-
 [IHemFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData_members.html)
-
 [IHemFeatureData::GetCustomBendAllowance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData~GetCustomBendAllowance.html)
-
 [IHemFeatureData::SetCustomBendAllowance Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHemFeatureData~SetCustomBendAllowance.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "DimXpertIntersectCircleFeature Object
-Members"
+title: "DimXpertIntersectCircleFeature Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertIntersectCircleFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertIntersectCircleFeature_members.html"
 ---
 
-# DimXpertIntersectCircleFeature Object
-Members
+# DimXpertIntersectCircleFeature Object Members
 
 ## Public Methods
 

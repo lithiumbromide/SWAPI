@@ -1,6 +1,5 @@
 ---
-title: "BalloonStack Object
-Members"
+title: "BalloonStack Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BalloonStack_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BalloonStack_members.html"
 ---
 
-# BalloonStack Object
-Members
+# BalloonStack Object Members
 
 ## Public Methods
 

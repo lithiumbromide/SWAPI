@@ -55,28 +55,12 @@ System.bool SetSuppression2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SuppressionState`: Suppression state as defined in
-
-[swFeatureSuppressionAction_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureSuppressionAction_e.html)
-- `Config_opt`: Configuration option as defined in
-
-[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
-
-(see
-
-Remarks
-
-)
+- `SuppressionState`: Suppression state as defined in [swFeatureSuppressionAction_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureSuppressionAction_e.html)
+- `Config_opt`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html) (see **Remarks**)
 - `Config_names`: Array of configuration names; valid only if Config_opt set to swInConfigurationOpts_e.swSpecifyConfiguration
 
 ### Return Value
@@ -85,11 +69,7 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[Feature::SetSuppression2](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetSuppression2.html)
-
-.
+See [Feature::SetSuppression2](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetSuppression2.html).
 
 ## Remarks
 
@@ -100,15 +80,10 @@ SOLIDWORKS does not allow suppressing features while a PropertyManager page is o
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::ISetSuppression2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ISetSuppression2.html)
-
 [IFeature::IIsSuppressed2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IIsSuppressed2.html)
-
 [IFeature::IsSuppressed2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IsSuppressed2.html)
-
 [IFeature::Visible Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Visible.html)
 
 ## Availability

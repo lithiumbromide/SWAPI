@@ -51,16 +51,11 @@ Thermal study name
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::ThermalStudyNameUsedForInitialTemperature](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~ThermalStudyNameUsedForInitialTemperature.html)
-
-.
+See [CWThermalStudyOptions::ThermalStudyNameUsedForInitialTemperature](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~ThermalStudyNameUsedForInitialTemperature.html).
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

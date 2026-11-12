@@ -40,33 +40,22 @@ System.object GetStartAndEndReferencesTypes()
 System.Object^ GetStartAndEndReferencesTypes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of start and end reference types as defined by[swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html):
+Array of start and end reference types as defined by [swSelectType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSelectType_e.html):
 
 - swSelDATUMPLANES
 - swSelFACES
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberRefPlaneFeatureData::GetStartAndEndReferencesTypes](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberRefPlaneFeatureData~GetStartAndEndReferencesTypes.html)
-
-.
+See [PrimaryMemberRefPlaneFeatureData::GetStartAndEndReferencesTypes](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberRefPlaneFeatureData~GetStartAndEndReferencesTypes.html).
 
 ## See Also
 
 [IPrimaryMemberRefPlaneFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData.html)
-
 [IPrimaryMemberRefPlaneFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberRefPlaneFeatureData_members.html)
 
 ## Availability

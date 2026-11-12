@@ -40,13 +40,7 @@ System.bool DeSelect()
 System.bool DeSelect();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the feature is deselected successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[Feature::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~Feature~DeSelect.html)
-
-.
+See [Feature::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~Feature~DeSelect.html).
 
 ## Examples
 
@@ -66,20 +56,13 @@ See
 
 ## Remarks
 
-Use
-
-[IModelDoc2::DeSelectByID](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~DeSelectByID.html)
-
-instead of this method. This method does not work well when a PropertyManager page is open or a command is running. IModelDoc2::DeSelectByID handles selection correctly whether or not a command is running.
+Use [IModelDoc2::DeSelectByID](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~DeSelectByID.html) instead of this method. This method does not work well when a PropertyManager page is open or a command is running. IModelDoc2::DeSelectByID handles selection correctly whether or not a command is running.
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::Select2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Select2.html)
-
 [IFeature::GetSpecificFeature2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetSpecificFeature2.html)
 
 ## Availability

@@ -90,68 +90,26 @@ void ShowBubbleTooltipAt2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PointX`: x coordinate in pixels relative to upper-left corner of the screen (see
-
-Remarks
-
-)
-- `PointY`: y coordinate in pixels relative to upper-left corner of the screen (see
-
-Remarks
-
-)
-- `ArrowPos`: Arrow position as defined in
-
-[swArrowPosition](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowPosition.html)
+- `PointX`: x coordinate in pixels relative to upper-left corner of the screen (see **Remarks**)
+- `PointY`: y coordinate in pixels relative to upper-left corner of the screen (see **Remarks**)
+- `ArrowPos`: Arrow position as defined in [swArrowPosition](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowPosition.html)
 - `TitleString`: Title of bubble ToolTip
 - `MessageString`: Message for bubble ToolTip
-- `TitleBitmapID`: ID of the bitmap to display in the bubble ToolTip as defined in
-
-[swBitMaps](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBitMaps.html)
-
-(see
-
-Remarks
-
-)
+- `TitleBitmapID`: ID of the bitmap to display in the bubble ToolTip as defined in [swBitMaps](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBitMaps.html) (see **Remarks**)
 - `TitleBitmap`: Path and filename of the bitmap to display before TitleString in the bubble ToolTip
-- `UrlLoc`: Any valid Windows Internet Explorer file to display in the body of the bubble ToolTip (see
-
-Remarks
-
-)
-- `Cookie`: Add-in's application ID specified in
-
-[ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
-- `LinkStringID`: ID of the hyperlink as defined in
-
-[swLinkString](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLinkString.html)
-
-(see
-
-Remarks
-
-)
+- `UrlLoc`: Any valid Windows Internet Explorer file to display in the body of the bubble ToolTip (see **Remarks**)
+- `Cookie`: Add-in's application ID specified in [ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
+- `LinkStringID`: ID of the hyperlink as defined in [swLinkString](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLinkString.html) (see **Remarks**)
 - `LinkString`: String to show as the hyperlink in the bubble ToolTip
 - `CallBack`: Name of the callback function for the hyperlink
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ShowBubbleTooltipAt2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowBubbleTooltipAt2.html)
-
-.
+See [SldWorks::ShowBubbleTooltipAt2](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ShowBubbleTooltipAt2.html).
 
 ## Examples
 
@@ -161,7 +119,7 @@ The following examples show how to display a bubble ToolTip. Click a link to jum
 - [VB.NET](#VBNET)
 - [VBA](#VBA)
 
-C#
+**C#**
 
 //--------------------------------------------
 
@@ -193,19 +151,11 @@ ShowBubbleToolTipAt2SldWorksCSharp.csproj
 
 {
 
-public
-
-partial
-
-class
-
-SOLIDWORKSMacro
+public partial class SOLIDWORKSMacro
 
 {
 
-public
-
-void
+public void
 
 Main()
 
@@ -213,55 +163,9 @@ Main()
 
 // Show bubble ToolTip
 
-swApp. ShowBubbleTooltipAt2 (300, 400, (
+swApp.**ShowBubbleTooltipAt2**(300, 400, (
 
-int
-
-)
-
-swArrowPosition
-
-.swArrowLeftTop,
-
-"Sample Bubble Tooltip"
-
-,
-
-"Message of Sample Bubble ToolTip"
-
-, (
-
-int
-
-)
-
-swBitMaps
-
-.swBitMapUserDefined,
-
-"C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\data\\user macro icons\\questionmark.bmp"
-
-,
-
-""
-
-, 0, (
-
-int
-
-)
-
-swLinkString
-
-.swLinkStringNone,
-
-""
-
-,
-
-""
-
-);
+int)swArrowPosition.swArrowLeftTop, "Sample Bubble Tooltip", "Message of Sample Bubble ToolTip", (int)swBitMaps.swBitMapUserDefined, "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\data\\user macro icons\\questionmark.bmp", "", 0, (int)swLinkString.swLinkStringNone, "", "");
 
 // 1. Insert a breakpoint at next command.
 
@@ -275,17 +179,11 @@ swApp.HideBubbleTooltip();
 
 /// <summary>
 
-///
+/// The SldWorks swApp variable is pre-assigned for you.
 
-The SldWorks swApp variable is pre-assigned for you.
+/// </summary>
 
-///
-
-</summary>
-
-public
-
-SldWorks
+public SldWorks
 
 swApp;
 
@@ -319,13 +217,13 @@ Imports
 
 System
 
-PartialClass SOLIDWORKSMacro
+Partial Class SOLIDWORKSMacro
 
 Public Sub main()
 
 ' Show bubble ToolTip
 
-swApp. ShowBubbleTooltipAt2 (300, 400, swArrowPosition.swArrowLeftTop, "Sample Bubble Tooltip" , "Message of Sample Bubble ToolTip" , swBitMaps.swBitMapUserDefined, "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\data\user macro icons\questionmark.bmp" , "" , 0, swLinkString.swLinkStringNone, "" , "" )
+swApp.**ShowBubbleTooltipAt2**(300, 400, swArrowPosition.swArrowLeftTop, "Sample Bubble Tooltip", "Message of Sample Bubble ToolTip", swBitMaps.swBitMapUserDefined, "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\data\user macro icons\questionmark.bmp", "", 0, swLinkString.swLinkStringNone, "", "")
 
 Stop
 
@@ -341,23 +239,33 @@ End Sub
 
 Public swApp As SldWorks
 
-EndClass
+End Class
 
 **VBA**
 
-'-------------------------------------------- ' Preconditions: SOLIDWORKS is running ' ' Postconditions:
+'--------------------------------------------
+' Preconditions: SOLIDWORKS is running
+'
+' Postconditions:
 
 ' (1) Bubble ToolTip is shown.
 
-' (2) Bubble ToolTip is hidden. '--------------------------------------------
+' (2) Bubble ToolTip is hidden.
+'--------------------------------------------
 
-Option Explicit Sub main()
+Option Explicit
 
-Dim swApp As SldWorks.SldWorks Set swApp = Application.SldWorks
+Sub main()
 
-' Show Bubble ToolTip swApp. ShowBubbleTooltipAt2 300, 400, swArrowLeftTop, "Sample Bubble Tooltip", "Message of Sample Bubble ToolTip", swBitMapUserDefined, "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\data\user macro icons\questionmark.bmp", "", 0, swLinkStringNone, "", ""
+Dim swApp As SldWorks.SldWorks
+Set swApp = Application.SldWorks
 
-Stop swApp.HideBubbleTooltip
+' Show Bubble ToolTip
+swApp.**ShowBubbleTooltipAt2** 300, 400, swArrowLeftTop, "Sample Bubble Tooltip", "Message of Sample Bubble ToolTip", swBitMapUserDefined, "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\data\user macro icons\questionmark.bmp", "", 0, swLinkStringNone, "", ""
+
+Stop
+
+swApp.HideBubbleTooltip
 
 End Sub
 
@@ -365,7 +273,7 @@ End Sub
 
 ## Remarks
 
-If PointX and PointY are both set to 0 and TitleBitmapID is swBitMapTreeError and a PropertyManager page is displayed, then the bubble ToolTip will appear in the same location as the SOLIDWORKS user-interface Rebuild Errors bubble ToolTip. You must specify both TitleBitmapID and TitleBitmap values.
+If PointX and PointY are both set to 0 and TitleBitmapID is swBitMapTreeError and a PropertyManager page is displayed, then the bubble ToolTip will appear in the same location as the SOLIDWORKS Design user-interface Rebuild Errors bubble ToolTip. You must specify both TitleBitmapID and TitleBitmap values.
 
 | If you specified a ... | Then the bubble ToolTip... |
 | --- | --- |
@@ -377,11 +285,8 @@ The Cookie, LinkStringID, LinkString, and Callback parameters are intended for u
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::ShowBubbleTooltip Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~ShowBubbleTooltip.html)
-
 [ISldWorks::HideBubbleTooltip Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~HideBubbleTooltip.html)
 
 ## Availability

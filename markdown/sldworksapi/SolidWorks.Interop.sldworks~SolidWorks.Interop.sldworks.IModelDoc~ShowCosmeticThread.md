@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ShowCosmeticThread Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ShowCosmeticThread](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ShowCosmeticThread.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ShowCosmeticThread](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ShowCosmeticThread.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ShowCosmeticThread()
 void ShowCosmeticThread();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ShowCosmeticThread](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ShowCosmeticThread.html)
-
-.
+See [ModelDoc::ShowCosmeticThread](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ShowCosmeticThread.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

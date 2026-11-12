@@ -47,13 +47,7 @@ System.String^ GetAttributeValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,32 +55,24 @@ See
 
 ### Return Value
 
-Value of this attributeParamDesc
+Value of this attribute
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::GetAttributeValue](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetAttributeValue.html)
-
-.
+See [SketchBlockInstance::GetAttributeValue](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetAttributeValue.html).
 
 ## Remarks
 
 Attributes are notes that have tag names and are not read-only.
 
-Use[ISketchBlockInstance::SetAttributeValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~SetAttributeValue.html)to set an attribute.
+Use [ISketchBlockInstance::SetAttributeValue](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockInstance~SetAttributeValue.html) to set an attribute.
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
-
 [ISketchBlockInstance::GetAttributeCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~GetAttributeCount.html)
-
 [ISketchBlockInstance::GetAttributes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~GetAttributes.html)
-
 [ISketchBlockInstance::IGetAttributes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~IGetAttributes.html)
 
 ## Availability

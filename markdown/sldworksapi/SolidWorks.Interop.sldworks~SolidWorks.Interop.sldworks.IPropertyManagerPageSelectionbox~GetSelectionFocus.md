@@ -40,13 +40,7 @@ System.bool GetSelectionFocus()
 System.bool GetSelectionFocus();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if the selection box is active, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::GetSelectionFocus](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~GetSelectionFocus.html)
-
-.
+See [PropertyManagerPageSelectionbox::GetSelectionFocus](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~GetSelectionFocus.html).
 
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
 
 ## Availability

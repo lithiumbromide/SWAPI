@@ -9,11 +9,7 @@ source: "swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSketchS
 
 # swSketchSegments_e Enumeration
 
-Types of
-
-[ISketchSegment](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html)
-
-objects.
+Types of [ISketchSegment](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchSegment.html) objects.
 
 ## Syntax
 
@@ -55,15 +51,7 @@ public enum class swSketchSegments_e : public System.Enum
 
 ## Remarks
 
-Based on these types, you can obtain the appropriate derived class (that is,
-
-[ISketchLine](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchLine.html)
-
-,
-
-[ISketchArc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchArc.html)
-
-, and so on) and call the appropriate derived class functions.
+Based on these types, you can obtain the appropriate derived class (that is, [ISketchLine](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchLine.html), [ISketchArc](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchArc.html), and so on) and call the appropriate derived class functions.
 
 ## See Also
 

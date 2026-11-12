@@ -45,13 +45,7 @@ property MathVector^ Normal {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[PlaneManipulator::Normal](ms-its:sldworksapivb6.chm::/sldworks~PlaneManipulator~Normal.html)
-
-.
+See [PlaneManipulator::Normal](ms-its:sldworksapivb6.chm::/sldworks~PlaneManipulator~Normal.html).
 
 ## Remarks
 
-If a plane with a manipulator is already displayed, then do not set a new normal-to vector or
-
-[origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPlaneManipulator~Origin.html)
-
-for that plane.
+If a plane with a manipulator is already displayed, then do not set a new normal-to vector or [origin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPlaneManipulator~Origin.html) for that plane.
 
 ## See Also
 
 [IPlaneManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator.html)
-
 [IPlaneManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPlaneManipulator_members.html)
 
 ## Availability

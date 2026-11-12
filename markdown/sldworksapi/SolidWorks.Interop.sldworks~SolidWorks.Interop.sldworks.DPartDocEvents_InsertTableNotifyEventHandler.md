@@ -49,45 +49,27 @@ public delegate System.int DPartDocEvents_InsertTableNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `TableAnnotation`: [ITableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html)
-- `TableType`: Type of table as defined in
-
-[swTableAnnotationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableAnnotationType_e.html)
+- `TableType`: Type of table as defined in [swTableAnnotationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swTableAnnotationType_e.html)
 - `TemplatePath`: Full path of template used to create this table
 
 ## VBA Syntax
 
-See
-
-[InsertTableNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~InsertTableNotify_EV.html)
-
-.
+See [InsertTableNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~InsertTableNotify_EV.html).
 
 ## Examples
 
 [Fire Notification When Inserting a Table in a Part Document (C#)](Fire_Notification_When_Inserting_a_Table_in_a_Part_Document_Example_CSharp.htm)
-
 [Fire Notification When Inserting a Table in a Part Document (VB.NET)](Fire_Notification_When_Inserting_a_Table_in_a_Part_Document_Example_VBNET.htm)
-
 [Fire Notification When Inserting a Table in a Part Document (VBA)](Fire_Notification_When_Inserting_a_Table_in_a_Part_Document_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartInsertTableNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartInsertTableNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

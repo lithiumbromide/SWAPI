@@ -42,36 +42,23 @@ System.int HeatFluxEndEdit();
 
 ### Return Value
 
-Error as defined in[swsHeatFluxEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsHeatFluxEndEditError_e.html)
+Error as defined in [swsHeatFluxEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsHeatFluxEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWHeatFlux::HeatFluxEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~HeatFluxEndEdit.html)
-
-.
+See [CWHeatFlux::HeatFluxEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatFlux~HeatFluxEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWHeatFlux](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
-examples.
+See the [ICWHeatFlux](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html) examples.
 
 ## Remarks
 
-You must call
-
-[ICWHeatFlux::HeatFluxBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWHeatFlux~HeatFluxBeginEdit.html)
-
-to start editing heat flux. To end editing heat flux, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWHeatFlux::HeatFluxBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWHeatFlux~HeatFluxBeginEdit.html) to start editing heat flux. To end editing heat flux, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [ICWHeatFlux Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html)
 
 ## Availability

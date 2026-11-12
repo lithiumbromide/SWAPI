@@ -59,19 +59,11 @@ System.int EditFreeze2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Location`: Location as defined in
-
-[swMoveFreezeBarTo_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveFreezeBarTo_e.html)
+- `Location`: Location as defined in [swMoveFreezeBarTo_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMoveFreezeBarTo_e.html)
 - `FeatureName`: Name of the feature
 - `UpdateAllConfigs`: True to update all configurations, false to not
 - `UnlockConfigs`: True to unlock configurations, false to not
@@ -82,38 +74,24 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::EditFreeze2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~EditFreeze2.html)
-
-.
+See [FeatureManager::EditFreeze2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~EditFreeze2.html).
 
 ## Examples
 
 [Move Freeze Bar (VBA)](Move_Freeze_Bar_Example_VB.htm)
-
 [Move Freeze Bar (VB.NET)](Move_Freeze_Bar_Example_VBNET.htm)
-
 [Move Freeze Bar (C#)](Move_Freeze_Bar_Example_CSharp.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::GetFreezeLocation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~GetFreezeLocation.html)
-
 [IFeature::HasFrozenUpdatePending Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~HasFrozenUpdatePending.html)
-
 [IFeature::IsFrozen Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IsFrozen.html)
-
 [IFeature::MoveFreezeBarTo2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~MoveFreezeBarTo2.html)
-
 [IFeature::IsHiddenLock Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IsHiddenLock.html)
-
 [IModelDocExtension::NeedsRebuild2 Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~NeedsRebuild2.html)
-
 [IModelDocExtension::UpdateFrozenFeatures Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~UpdateFrozenFeatures.html)
 
 ## Availability

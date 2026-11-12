@@ -1,0 +1,8 @@
+<addinmanager>
+  <draftsight version="">
+    <addin help="Adds a circle at a picked point" startup="1" name="DraftSightAddin" premiumOnly="1">
+      <com clsid="00000000-0000-0000-0000-000000000000"/>
+      <button bitmap=""/>
+    </addin>
+  </draftsight>
+</addinmanager>

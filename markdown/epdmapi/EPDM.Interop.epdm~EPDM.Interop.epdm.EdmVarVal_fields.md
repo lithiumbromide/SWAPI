@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal_fields.html"
 
 # EdmVarVal Structure Fields
 
-For a list of all members of this type, see[EdmVarVal members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal_members.html).
+For a list of all members of this type, see [EdmVarVal members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal_members.html).
 
 ## Public Fields
 
@@ -24,7 +24,5 @@ For a list of all members of this type, see[EdmVarVal members](EPDM.Interop.epdm
 ## See Also
 
 [EdmVarVal Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmVarVal.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Porgramming Items](Items.htm)

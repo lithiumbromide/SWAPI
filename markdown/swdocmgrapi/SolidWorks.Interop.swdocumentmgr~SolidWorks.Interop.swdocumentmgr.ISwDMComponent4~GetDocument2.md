@@ -59,9 +59,7 @@ SwDMDocument^ GetDocument2(
 
 - `allowReadOnly`: True to open the document as read-only, false as read-write
 - `pSrcOption`: [Search options](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMSearchOption.html)
-- `result`: Error as defined by
-
-[ISwDMDocumentOpenError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentOpenError.html)
+- `result`: Error as defined by [ISwDMDocumentOpenError](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDmDocumentOpenError.html)
 
 ### Return Value
 
@@ -69,16 +67,11 @@ SwDMDocument^ GetDocument2(
 
 ## VBA Syntax
 
-See
-
-[SwDMComponent4::GetDocument2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent4~GetDocument2.html)
-
-.
+See [SwDMComponent4::GetDocument2](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMComponent4~GetDocument2.html).
 
 ## See Also
 
 [ISwDMComponent4 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent4.html)
-
 [ISwDMComponent4 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMComponent4_members.html)
 
 ## Availability

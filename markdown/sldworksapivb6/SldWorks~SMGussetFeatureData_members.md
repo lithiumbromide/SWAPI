@@ -1,6 +1,5 @@
 ---
-title: "SMGussetFeatureData Object
-Members"
+title: "SMGussetFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SMGussetFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SMGussetFeatureData_members.html"
 ---
 
-# SMGussetFeatureData Object
-Members
+# SMGussetFeatureData Object Members
 
 ## Public Methods
 

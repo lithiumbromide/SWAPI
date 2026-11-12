@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AddLightSource Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::AddLightSource](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddLightSource.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::AddLightSource](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddLightSource.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool AddLightSource(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::AddLightSource](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AddLightSource.html)
-
-.
+See [ModelDoc::AddLightSource](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AddLightSource.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -40,13 +40,7 @@ System.int GetGtolDatumCount()
 System.int GetGtolDatumCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Number of Gtol datum boxes
 
 ## VBA Syntax
 
-See
-
-[PMIFrameData::GetGtolDatumCount](ms-its:sldworksapivb6.chm::/sldworks~PMIFrameData~GetGtolDatumCount.html)
-
-.
+See [PMIFrameData::GetGtolDatumCount](ms-its:sldworksapivb6.chm::/sldworks~PMIFrameData~GetGtolDatumCount.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## See Also
 
 [IPMIFrameData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData.html)
-
 [IPMIFrameData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData_members.html)
 
 ## Availability

@@ -51,20 +51,15 @@ Value of this property
 
 ## VBA Syntax
 
-See
-
-[PDMWProperty::Value](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperty~Value.html)
-
-.
+See [PDMWProperty::Value](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProperty~Value.html).
 
 ## Remarks
 
-Use[IPDMWProperties::Update](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Update.html)to update the SOLIDWORKS Workgroup PDM vault after using this property to change the value of a property.
+Use [IPDMWProperties::Update](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperties~Update.html) to update the SOLIDWORKS Workgroup PDM vault after using this property to change the value of a property.
 
 ## See Also
 
 [IPDMWProperty Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperty.html)
-
 [IPDMWProperty Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProperty_members.html)
 
 ## Availability

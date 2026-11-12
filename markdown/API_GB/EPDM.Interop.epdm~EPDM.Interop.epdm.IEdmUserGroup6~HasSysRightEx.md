@@ -39,9 +39,7 @@ System.bool HasSysRightEx(
 
 ### Parameters
 
-- `eRight`: Permission to check as defined in
-
-[EdmSysPerm](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm.html)
+- `eRight`: Permission to check as defined in [EdmSysPerm](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysPerm.html)
 
 ### Return Value
 
@@ -50,12 +48,11 @@ True if the user group has the specified permission, false if not
 ## Examples
 
 [Add and Remove User and Group from Folder (C#)](Add_and_Remove_User_and_Group_from_Folder_Example_CSharp.htm)
-
 [Add and Remove User and Group from Folder (VB.NET)](Add_and_Remove_User_and_Group_from_Folder_Example_VBNET.htm)
 
 ## Remarks
 
-This method supersedes[IEdmUserGroup5::HasSysRight](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5~HasSysRight.html), which checked system permissions represented as bit flags that could be ORed together. As of SOLIDWORKS PDM Professional 2010, new permissions are represented as sequentially numbered constants that cannot be ORed together. You must call this method once for each permission you want to check.
+This method supersedes [IEdmUserGroup5::HasSysRight](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5~HasSysRight.html), which checked system permissions represented as bit flags that could be ORed together. As of SOLIDWORKS PDM Professional 2010, new permissions are represented as sequentially numbered constants that cannot be ORed together. You must call this method once for each permission you want to check.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -64,7 +61,6 @@ This method supersedes[IEdmUserGroup5::HasSysRight](EPDM.Interop.epdm~EPDM.Inter
 ## See Also
 
 [IEdmUserGroup6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6.html)
-
 [IEdmUserGroup6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6_members.html)
 
 ## Availability

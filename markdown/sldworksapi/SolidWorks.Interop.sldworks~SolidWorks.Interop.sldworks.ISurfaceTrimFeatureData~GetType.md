@@ -40,38 +40,23 @@ System.int GetType()
 System.int GetType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Surface trim feature type as defined in[swSurfaceTrimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSurfaceTrimType_e.html)
+Surface trim feature type as defined in [swSurfaceTrimType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSurfaceTrimType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SurfaceTrimFeatureData::GetType](ms-its:sldworksapivb6.chm::/sldworks~SurfaceTrimFeatureData~GetType.html)
-
-.
+See [SurfaceTrimFeatureData::GetType](ms-its:sldworksapivb6.chm::/sldworks~SurfaceTrimFeatureData~GetType.html).
 
 ## Examples
 
-See the
-
-[ISurfaceTrimFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData.html)
-
-examples.
+See the [ISurfaceTrimFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData.html) examples.
 
 ## See Also
 
 [ISurfaceTrimFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData.html)
-
 [ISurfaceTrimFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData_members.html)
 
 ## Availability

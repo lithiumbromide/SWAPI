@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 # IGetNext2 Method (IAnnotation)
 
-Obsolete. Superseded by
-
-[IAnnotation::GetNext3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetNext3.html)
-
-.
+Obsolete. Superseded by [IAnnotation::GetNext3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetNext3.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Annotation IGetNext2()
 Annotation^ IGetNext2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Annotation::IGetNext2](ms-its:sldworksapivb6.chm::/sldworks~Annotation~IGetNext2.html)
-
-.
+See [Annotation::IGetNext2](ms-its:sldworksapivb6.chm::/sldworks~Annotation~IGetNext2.html).
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)

@@ -47,13 +47,7 @@ System.bool SetControlVertexWeights(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,29 +59,19 @@ True if weights successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::SetControlVertexWeights](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~SetControlVertexWeights.html)
-
-.
+See [SketchSpline::SetControlVertexWeights](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~SetControlVertexWeights.html).
 
 ## Remarks
 
 This method:
 
-- is valid only if
-
-  [ISketchSpline::IsRationalCurve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~IsRationalCurve.html)
-
-  is true.
+- is valid only if [ISketchSpline::IsRationalCurve](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~IsRationalCurve.html) is true.
 - returns false if the number of weights in ControlWeightValues is not equal to the number of control vertexes of the spline.
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [ISketchSpline::GetControlVertexWeights Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~GetControlVertexWeights.html)
 
 ## Availability

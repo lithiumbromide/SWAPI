@@ -57,20 +57,13 @@ void GetCutOffTemperatures(
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::GetCutOffTemperatures](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~GetCutOffTemperatures.html)
-
-.
+See [CWHeatPower::GetCutOffTemperatures](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~GetCutOffTemperatures.html).
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::SetCutOffTemperatures Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~SetCutOffTemperatures.html)
-
 [ICWHeatPower::UseTemperatureCurve Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~UseTemperatureCurve.html)
 
 ## Availability

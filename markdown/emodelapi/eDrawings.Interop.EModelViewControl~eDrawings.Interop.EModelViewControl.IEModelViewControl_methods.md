@@ -9,7 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # IEModelViewControl Interface Methods
 
-For a list of all members of this type, see[IEModelViewControl members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html).
+For a list of all members of this type, see [IEModelViewControl members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html).
 
 ## Public Methods
 
@@ -50,7 +50,5 @@ For a list of all members of this type, see[IEModelViewControl members](eDrawing
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [eDrawings.Interop.EModelViewControl Namespace](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl_namespace.html)
-
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)

@@ -39,16 +39,13 @@ System.bool IsKindOf(
 
 ### Parameters
 
-- `__MIDL__IEdmObject50000`: Type of object as defined in
-
-[EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
+- `__MIDL__IEdmObject50000`: Type of object as defined in [EdmObjectType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectType.html)
 
 ## Remarks
 
-[Return code](ReturnCodes.htm)S_OK indicates that the method successfully executed.
+[Return code](ReturnCodes.htm) S_OK indicates that the method successfully executed.
 
 ## See Also
 
 [IEdmFolder5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
 [IEdmFolder5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5_members.html)

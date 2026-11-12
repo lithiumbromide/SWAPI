@@ -1,6 +1,5 @@
 ---
-title: "View3D Object
-Members"
+title: "View3D Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "View3D_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~View3D_members.html"
 ---
 
-# View3D Object
-Members
+# View3D Object Members
 
 ## Public Methods
 

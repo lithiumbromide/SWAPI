@@ -53,28 +53,19 @@ System.int SetBeamBodyMaterial(
 
 ### Return Value
 
-Error or warning as defined in[swsMaterialErrorWarning_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialErrorWarning_e.html)
+Error or warning as defined in [swsMaterialErrorWarning_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialErrorWarning_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::SetBeamBodyMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~SetBeamBodyMaterial.html)
-
-.
+See [CWBeamBody::SetBeamBodyMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~SetBeamBodyMaterial.html).
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
-
 [ICWBeamBody::GetBeamBodyMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetBeamBodyMaterial.html)
-
 [ICWBeamBody::GetDefaultMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetDefaultMaterial.html)
-
 [ICWBeamBody::SetLibraryMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetLibraryMaterial.html)
-
 [ICWBeamBody::SetFavMaterial Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetFavMaterial.html)
 
 ## Availability

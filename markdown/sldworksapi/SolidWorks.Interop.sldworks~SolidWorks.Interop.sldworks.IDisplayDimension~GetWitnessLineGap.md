@@ -55,27 +55,13 @@ System.bool GetWitnessLineGap(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `WitnessIndex`: Index of the extension line whose gap to get
-- `UseDoc`: True if using the document default value of the gap, false if not (see
-
-Remarks
-
-)
-- `Gap`: Gap value in system units (see
-
-Remarks
-
-)
+- `UseDoc`: True if using the document default value of the gap, false if not (see **Remarks**)
+- `Gap`: Gap value in system units (see **Remarks**)
 
 ### Return Value
 
@@ -83,11 +69,7 @@ True if the operation succeeds, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetWitnessLineGap](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetWitnessLineGap.html)
-
-.
+See [DisplayDimension::GetWitnessLineGap](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetWitnessLineGap.html).
 
 ## Examples
 
@@ -95,20 +77,16 @@ See
 
 ## Remarks
 
-The UseDoc argument is dependent on the detailing standard. You can retrieve the document default value using the[document-level user-preference swDetailingWitnessLineGap](ms-its:swconst.chm::/DP_Dimensions.htm).
+The UseDoc argument is dependent on the detailing standard. You can retrieve the document default value using the [document-level user-preference swDetailingWitnessLineGap](ms-its:swconst.chm::/DP_Dimensions.htm).
 
 The Gap argument is the document default value if UseDoc is true; otherwise, the value returned is the locally set value.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::SetWitnessLineGap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetWitnessLineGap.html)
-
 [IView::GetDimensionInfo6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDimensionInfo6.html)
-
 [IView::IGetDimensionInfo6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetDimensionInfo6.html)
 
 ## Availability

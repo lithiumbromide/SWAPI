@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # IExtrudeFeatureData Interface Methods
 
-For a list of all members of this type, see[IExtrudeFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.html).
+For a list of all members of this type, see [IExtrudeFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData_members.html).
 
 ## Public Methods
 
@@ -47,5 +47,4 @@ For a list of all members of this type, see[IExtrudeFeatureData members](SolidWo
 ## See Also
 
 [IExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

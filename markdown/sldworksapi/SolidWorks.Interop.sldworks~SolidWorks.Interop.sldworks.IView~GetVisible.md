@@ -40,13 +40,7 @@ System.bool GetVisible()
 System.bool GetVisible();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if the view is be visible, false if not
 
 ## VBA Syntax
 
-See
-
-[View::GetVisible](ms-its:sldworksapivb6.chm::/sldworks~View~GetVisible.html)
-
-.
+See [View::GetVisible](ms-its:sldworksapivb6.chm::/sldworks~View~GetVisible.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::SetVisible Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~SetVisible.html)
 
 ## Availability

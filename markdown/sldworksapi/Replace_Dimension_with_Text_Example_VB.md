@@ -9,8 +9,7 @@ source: "sldworksapi/Replace_Dimension_with_Text_Example_VB.htm"
 
 # Replace Dimension with Text Example (VBA)
 
-This example shows how to temporarily replace the selected dimension
-with text.
+This example shows how to temporarily replace the selected dimension with text.
 
 ```
 '----------------------------------------------------------------

@@ -47,30 +47,19 @@ property System.int IterativeMethodType {
 
 ### Property Value
 
-Type of iterative solution method as defined in
-
-[swsNonLinearOptionIterativeMethodType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsNonLinearOptionIterativeMethodType_e.html)
+Type of iterative solution method as defined in [swsNonLinearOptionIterativeMethodType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsNonLinearOptionIterativeMethodType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::IterativeMethodType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~IterativeMethodType.html)
-
-.
+See [CWNonLinearStudyOptions::IterativeMethodType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~IterativeMethodType.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

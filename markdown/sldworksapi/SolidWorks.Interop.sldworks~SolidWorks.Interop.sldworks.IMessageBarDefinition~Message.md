@@ -45,13 +45,7 @@ property System.String^ Message {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Non-empty message string
 
 ## VBA Syntax
 
-See
-
-[MessageBarDefinition::Message](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~Message.html)
-
-.
+See [MessageBarDefinition::Message](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~Message.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This property must be set.
 ## See Also
 
 [IMessageBarDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition.html)
-
 [IMessageBarDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition_members.html)
 
 ## Availability

@@ -46,22 +46,14 @@ Array of all of the nodes in the mesh
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetNodes](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetNodes.html)
-
-.
+See [CWMesh::GetNodes](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetNodes.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GetNodeDataFromEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodeDataFromEntity.html)
-
 [ICWMesh::GetNodeLocation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetNodeLocation.html)
-
 [ICWMesh::NodeCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~NodeCount.html)
 
 ## Availability

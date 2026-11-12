@@ -40,13 +40,7 @@ System.bool DeSelect()
 System.bool DeSelect();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True to remove the component from the selection list if it is selected, false if
 
 ## VBA Syntax
 
-See
-
-[DrawingComponent::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~DeSelect.html)
-
-.
+See [DrawingComponent::DeSelect](ms-its:sldworksapivb6.chm::/sldworks~DrawingComponent~DeSelect.html).
 
 ## See Also
 
 [IDrawingComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent.html)
-
 [IDrawingComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent_members.html)
-
 [IDrawingComponent::Select Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingComponent~Select.html)
 
 ## Availability

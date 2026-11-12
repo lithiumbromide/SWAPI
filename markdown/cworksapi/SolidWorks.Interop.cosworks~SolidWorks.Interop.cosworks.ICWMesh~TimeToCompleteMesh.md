@@ -48,24 +48,17 @@ Estimated time to complete the mesh formatted as hh:mm:ss; e.g., return value 12
 
 ## VBA Syntax
 
-See
-
-[CWMesh::TimeToCompleteMesh](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~TimeToCompleteMesh.html)
-
-.
+See [CWMesh::TimeToCompleteMesh](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~TimeToCompleteMesh.html).
 
 ## Examples
 
 [Get and Set Beams and Joints (C#)](Get_and_Set_Beams_and_Joints_Example_CSharp.htm)
-
 [Get and Set Beams and Joints (VB.NET)](Get_and_Set_Beams_and_Joints_Example_VBNET.htm)
-
 [Get and Set Beams and Joints (VBA)](Get_and_Set_Beams_and_Joints_Example_VB.htm)
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
 
 ## Availability

@@ -63,24 +63,18 @@ Feature^ SetNetBlendDirectionData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Direction`: - 0 = Direction 1
-- 1 = Direction 2
+  - 1 = Direction 2
 - `InfluenceType`: - 0 = Global
-- 1 = To Next Curve
-- 2 = To Next Sharp
-- 3 = To Next Edge
+  - 1 = To Next Curve
+  - 2 = To Next Sharp
+  - 3 = To Next Edge
 - `TrimCurves`: - 0 = False to trim curves
-- 1 = True to trim curves
+  - 1 = True to trim curves
 - `BlendClosed`: True closes this boundary feature or boundary surface feature, false leaves this boundary feature or boundary surface feature open
 - `SplitSurfaces`: Not used
 
@@ -90,30 +84,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::SetNetBlendDirectionData](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~SetNetBlendDirectionData.html)
-
-.
+See [FeatureManager::SetNetBlendDirectionData](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~SetNetBlendDirectionData.html).
 
 ## Examples
 
 [Insert Boundary Surface Feature (VBA)](Insert_Boundary_Surface_Feature_Example_VB.htm)
-
 [Insert Boundary Feature (C#)](Insert_Boundary_Feature_Example_CSharp.htm)
-
 [Insert Boundary Feature (VB.NET)](Insert_Boundary_Feature_Example_VBNET.htm)
-
 [Insert Boundary Feature (VBA)](Insert_Boundary_Feature_Example_VB.htm)
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::InsertNetBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertNetBlend.html)
-
 [IFeatureManager::SetNetBlendCurveData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~SetNetBlendCurveData.html)
 
 ## Availability

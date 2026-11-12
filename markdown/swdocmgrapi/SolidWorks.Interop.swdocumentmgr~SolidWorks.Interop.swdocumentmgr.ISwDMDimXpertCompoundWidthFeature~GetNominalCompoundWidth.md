@@ -87,11 +87,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCompoundWidthFeature::GetNominalCompoundWidth](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundWidthFeature~GetNominalCompoundWidth.html)
-
-.
+See [SwDMDimXpertCompoundWidthFeature::GetNominalCompoundWidth](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCompoundWidthFeature~GetNominalCompoundWidth.html).
 
 ## Examples
 
@@ -100,7 +96,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCompoundWidthFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundWidthFeature.html)
-
 [ISwDMDimXpertCompoundWidthFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCompoundWidthFeature_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Custom_Properties_for_BOM_Table_Columns_Example_VB.htm"
 
 # Get Custom Properties for BOM Table Columns Example (VBA)
 
-This example shows how to get the custom properties used to fill columns
-in a BOM table.
+This example shows how to get the custom properties used to fill columns in a BOM table.
 
 ```
 '----------------------------------------------------------------------------

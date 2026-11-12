@@ -9,24 +9,14 @@ source: "sldworksapi/Set_and_Get_Sheet_Metal_Part's_Persistent_Reference_IDs_Exa
 
 # Set and Get Sheet Metal Part's Persistent Reference IDs Example (C#)
 
-This example shows how to set and get persistent reference IDs (PIDs) on a
-sheet metal part.
+This example shows how to set and get persistent reference IDs (PIDs) on a sheet metal part.
 
-The entities in flattened and unflattened (folded) states of sheet metal
-in SOLIDWORKS do not have the same properties, making it difficult to
-track entities across states of sheet metal.
+The entities in flattened and unflattened (folded) states of sheet metal in SOLIDWORKS Design do not have the same properties, making it difficult to track entities across states of sheet metal.
 
-- [IModelDocExtension::GetFlattenSheetMetalPersistReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetFlattenSheetMetalPersistReference.html)
+- [IModelDocExtension::GetFlattenSheetMetalPersistReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetFlattenSheetMetalPersistReference.html) returns a PID array for an entity in the flattened state of the sheet metal part.
+- [IModelDocExtension::GetSheetmetalObjectsByPersistReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSheetMetalObjectsByPersistReference.html) uses the PID byte array to retrieve an array of objects that comprise the previously selected entity in the folded state of the part.
 
-  returns a PID array for an entity in the flattened
-  state of the sheet metal part.
-- [IModelDocExtension::GetSheetmetalObjectsByPersistReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetSheetMetalObjectsByPersistReference.html)
-
-  uses the PID byte array to retrieve an array of objects
-  that comprise the previously selected entity in the folded state of the part.
-
-Together these methods provide a way to track entities across sheet
-metal states.
+Together these methods provide a way to track entities across sheet metal states.
 
 ```
 //------------------------------------------

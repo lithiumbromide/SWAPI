@@ -9,12 +9,9 @@ source: "sldworksapi/Ignore_Feature_Colors_Example_VB.htm"
 
 # Ignore Feature Colors Example (VBA)
 
-This example shows how to change a user preference option so that feature
-colors are ignored in parts. This option setting,swIgnoreFeatureColors,can be true or false and can be different for each document. It is not
-a system-level setting; it is a document-level setting. Therefore, you
-must set this value for each document.
+This example shows how to change a user preference option so that feature colors are ignored in parts. This option setting, swIgnoreFeatureColors, can be true or false and can be different for each document. It is not a system-level setting; it is a document-level setting. Therefore, you must set this value for each document.
 
-By default, when a document is created,swIgnoreFeatureColorsis false.
+By default, when a document is created, swIgnoreFeatureColors is false.
 
 ```
 '----------------------------------------------------------------

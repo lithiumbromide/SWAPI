@@ -48,18 +48,12 @@ Most recent measurement results
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::MeasureResultString](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~MeasureResultString.html)
-
-.
+See [EModelViewControl::MeasureResultString](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~MeasureResultString.html).
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
-
 [IEModelMarkupControlEvents_OnMeasureResultsChangedEventHandler Delegate](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl._IEModelMarkupControlEvents_OnMeasureResultsChangedEventHandler.html)
 
 ## Availability

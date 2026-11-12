@@ -55,13 +55,7 @@ System.double IGetParameter(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,19 +65,11 @@ See
 
 ### Return Value
 
-Pointer to an array of doubles (see
-
-Remarks
-
-)
+Pointer to an array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Edge::IGetParameter](ms-its:sldworksapivb6.chm::/sldworks~Edge~IGetParameter.html)
-
-.
+See [Edge::IGetParameter](ms-its:sldworksapivb6.chm::/sldworks~Edge~IGetParameter.html).
 
 ## Remarks
 
@@ -95,7 +81,5 @@ This method returns an array of 2 doubles:
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::GetParameter Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~GetParameter.html)

@@ -1,6 +1,5 @@
 ---
-title: "FeatureStatistics Object
-Members"
+title: "FeatureStatistics Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "FeatureStatistics_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~FeatureStatistics_members.html"
 ---
 
-# FeatureStatistics Object
-Members
+# FeatureStatistics Object Members
 
 ## Public Methods
 

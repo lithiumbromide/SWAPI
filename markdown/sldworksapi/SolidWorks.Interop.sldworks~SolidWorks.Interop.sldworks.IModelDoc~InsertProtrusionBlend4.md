@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertProtrusionBlend4 Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::InsertProtrusionBlend4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertProtrusionBlend4.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::InsertProtrusionBlend4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertProtrusionBlend4.html).
 
 ## Syntax
 
@@ -86,13 +82,7 @@ void InsertProtrusionBlend4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -109,14 +99,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::InsertProtrusionBlend4](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertProtrusionBlend4.html)
-
-.
+See [ModelDoc::InsertProtrusionBlend4](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~InsertProtrusionBlend4.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

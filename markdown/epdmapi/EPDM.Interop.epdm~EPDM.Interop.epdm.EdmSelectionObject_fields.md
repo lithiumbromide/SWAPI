@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject_fields.h
 
 # EdmSelectionObject Structure Fields
 
-For a list of all members of this type, see[EdmSelectionObject members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject_members.html).
+For a list of all members of this type, see [EdmSelectionObject members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject_members.html).
 
 ## Public Fields
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[EdmSelectionObject members](EPDM.Int
 ## See Also
 
 [EdmSelectionObject Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelectionObject.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

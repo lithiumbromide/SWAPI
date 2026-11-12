@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelDocExtension Interface Properties
 
-For a list of all members of this type, see[IModelDocExtension members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html).
+For a list of all members of this type, see [IModelDocExtension members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html).
 
 ## Public Properties
 
@@ -19,7 +19,7 @@ For a list of all members of this type, see[IModelDocExtension members](SolidWor
 | Property | ActiveCommandTabIndex | Gets and sets the index of the active SOLIDWORKS CommandManager tab. |
 | Property | AnnotationViewCount | Gets the number of annotation views in this part or assembly document. |
 | Property | AnnotationViews | Gets the annotation views in this part or assembly document. |
-| Property | AppPageSetup | Gets the SOLIDWORKS application page setup interface for this document. |
+| Property | AppPageSetup | Gets the SOLIDWORKS Design application page setup interface for this document. |
 | Property | CommandTabVisible | Gets and sets the visibility of the specified SOLIDWORKS CommandManager tab. |
 | Property | CustomPropertyBuilderTemplate | Gets or sets the custom property builder template for this part. |
 | Property | CustomPropertyManager | Gets the custom properties for this document or configuration. |
@@ -39,7 +39,7 @@ For a list of all members of this type, see[IModelDocExtension members](SolidWor
 | Property | SunLightInformation | Gets the specified sunlight information. |
 | Property | ToolboxPartType | Gets and sets whether this part is a SOLIDWORKS Toolbox part. |
 | Property | Transparency | Gets and sets the transparency states for the specified display state setting. |
-| Property | UsePageSetup | Gets or sets whether this document uses its own page setup values, SOLIDWORKS application page setup values, or setup values on individual drawing sheets. |
+| Property | UsePageSetup | Gets or sets whether this document uses its own page setup values, SOLIDWORKS Design application page setup values, or setup values on individual drawing sheets. |
 | Property | ViewDisplayRealView | Gets or sets the RealView Graphics setting. |
 | Property | Visibility | Gets and sets the visibility states for the specified display state setting. |
 
@@ -48,5 +48,4 @@ For a list of all members of this type, see[IModelDocExtension members](SolidWor
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

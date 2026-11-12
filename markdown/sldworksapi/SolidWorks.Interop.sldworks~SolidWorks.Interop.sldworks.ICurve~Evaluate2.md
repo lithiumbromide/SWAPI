@@ -51,34 +51,20 @@ System.Object^ Evaluate2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Parameter`: Curve parameter U value (see**Remarks**)
-- `NumberOfDerivatives`: Number of derivatives (see**Remarks**)
+- `Parameter`: Curve parameter U value (see **Remarks**)
+- `NumberOfDerivatives`: Number of derivatives (see **Remarks**)
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[Curve::Evaluate2](ms-its:sldworksapivb6.chm::/sldworks~Curve~Evaluate2.html)
-
-.
+See [Curve::Evaluate2](ms-its:sldworksapivb6.chm::/sldworks~Curve~Evaluate2.html).
 
 ## Examples
 
@@ -167,24 +153,20 @@ End Sub
 ## Examples
 
 [Create Trimmed Curve (VBA)](Return_Untrimmed_Curve_Example_VB.htm)
-
 [Create Trimmed Curve (VB.NET)](Return_Untrimmed_Curve_Example_VBNET.htm)
-
 [Create Trimmed Curve (C#)](Return_Untrimmed_Curve_Example_CSharp.htm)
 
 ## Remarks
 
-To determine the valid range of U parameter values for Parameter, use[ICurve::GetEndParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetEndParams.html)or[IEdge::GetCurveParams3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~GetCurveParams3.html).
+To determine the valid range of U parameter values for Parameter, use [ICurve::GetEndParams](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetEndParams.html) or [IEdge::GetCurveParams3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~GetCurveParams3.html).
 
 The returned array contains ((NumberOfDerivatives + 1) * 3) + 1 doubles:
 
-[evaluated_point],[evaluated_derivative_1],...[evaluated_derivative_NumberOfDerivatives,**[**`status_code`**]**
+[evaluated_point], [evaluated_derivative_1],...[evaluated_derivative_NumberOfDerivatives, **[**`status_code`**]**
 
-where`status_code`is a packed double. After unpacking`status_code`into two longs, the lower long value is 1 for success or 0 for error. See the Example.
+where `status_code` is a packed double. After unpacking `status_code` into two longs, the lower long value is 1 for success or 0 for error. See the Example.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}In terms of the number of derivatives that can be returned for a curve type:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-(Table)=========================================================
+In terms of the number of derivatives that can be returned for a curve type:
 
 | If curve type ICurve::Identity is... | Then the maximum number of derivatives is... |
 | --- | --- |
@@ -194,12 +176,11 @@ kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}In terms of the number of derivatives
 | SP-curve | 2 |
 | B-curve | Any number |
 
-For a curve of type swCurveTypes_e::TRIMMED_TYPE, the number of derivatives is determined by the base curve as obtained from[ICurve::GetBaseCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetBaseCurve.html).
+For a curve of type swCurveTypes_e::TRIMMED_TYPE, the number of derivatives is determined by the base curve as obtained from [ICurve::GetBaseCurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~GetBaseCurve.html).
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
 
 ## Availability

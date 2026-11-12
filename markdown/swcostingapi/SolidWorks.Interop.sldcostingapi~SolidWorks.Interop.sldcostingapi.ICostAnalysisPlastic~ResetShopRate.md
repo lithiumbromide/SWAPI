@@ -41,36 +41,21 @@ void ResetShopRate();
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisPlastic::ResetShopRate](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~ResetShopRate.html)
-
-.
+See [CostAnalysisPlastic::ResetShopRate](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisPlastic~ResetShopRate.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
-examples.
+See the [ICostAnalysisPlastic](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html) examples.
 
 ## Remarks
 
-See
-
-[Getting Started](GettingStarted-swcostingapi.html)
-
-for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysisPlastic Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic.html)
-
 [ICostAnalysisPlastic Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic_members.html)
-
 [ICostAnalysisPlastic::ShopRate Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~ShopRate.html)
-
 [ICostAnalysisPlastic::ShopRateApplied Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisPlastic~ShopRateApplied.html)
 
 ## Availability

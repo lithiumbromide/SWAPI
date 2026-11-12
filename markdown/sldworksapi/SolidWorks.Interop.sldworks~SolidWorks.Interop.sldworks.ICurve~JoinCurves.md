@@ -47,13 +47,7 @@ System.Object^ JoinCurves(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ Newly created joined curve
 
 ## VBA Syntax
 
-See
-
-[Curve::JoinCurves](ms-its:sldworksapivb6.chm::/sldworks~Curve~JoinCurves.html)
-
-.
+See [Curve::JoinCurves](ms-its:sldworksapivb6.chm::/sldworks~Curve~JoinCurves.html).
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::IJoinCurves Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IJoinCurves.html)
 
 ## Availability

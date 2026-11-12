@@ -45,13 +45,7 @@ property System.double BumpSharpness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Sharpness
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::BumpSharpness](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpSharpness.html)
-
-.
+See [RenderMaterial::BumpSharpness](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpSharpness.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ A higher sharpness value retains the original shape of the surface finish; a low
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

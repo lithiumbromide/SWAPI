@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # UsePageSetupOnSheets Property (IPageSetup)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::UsePageSetup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~UsePageSetup.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::UsePageSetup](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~UsePageSetup.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool UsePageSetupOnSheets {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[PageSetup::UsePageSetupOnSheets](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~UsePageSetupOnSheets.html)
-
-.
+See [PageSetup::UsePageSetupOnSheets](ms-its:sldworksapivb6.chm::/sldworks~PageSetup~UsePageSetupOnSheets.html).
 
 ## See Also
 
 [IPageSetup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup.html)
-
 [IPageSetup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPageSetup_members.html)

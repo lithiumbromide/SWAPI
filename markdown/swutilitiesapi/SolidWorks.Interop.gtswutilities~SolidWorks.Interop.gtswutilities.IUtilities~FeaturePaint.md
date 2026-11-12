@@ -44,24 +44,15 @@ property gtcocswFeaturePaint^ FeaturePaint {
 
 ### Property Value
 
-Pointer to an
-
-[IFeaturePaint](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFeaturePaint.html)
-
-object
+Pointer to an [IFeaturePaint](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IFeaturePaint.html) object
 
 ## VBA Syntax
 
-See
-
-[IUtilities::FeaturePaint](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~FeaturePaint.html)
-
-.
+See [IUtilities::FeaturePaint](ms-its:swutilitiesapivb6.chm::/swutilities~IUtilities~FeaturePaint.html).
 
 ## See Also
 
 [IUtilities Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities.html)
-
 [IUtilities Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IUtilities_members.html)
 
 ## Availability

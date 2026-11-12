@@ -45,13 +45,7 @@ property System.String^ PartConfiguration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Name of the part configuration to use; Nothing or null to use the Default config
 
 ## VBA Syntax
 
-See
-
-[DerivedPartFeatureData::PartConfiguration](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~PartConfiguration.html)
-
-.
+See [DerivedPartFeatureData::PartConfiguration](ms-its:sldworksapivb6.chm::/sldworks~DerivedPartFeatureData~PartConfiguration.html).
 
 ## See Also
 
 [IDerivedPartFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData.html)
-
 [IDerivedPartFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPartFeatureData_members.html)
 
 ## Availability

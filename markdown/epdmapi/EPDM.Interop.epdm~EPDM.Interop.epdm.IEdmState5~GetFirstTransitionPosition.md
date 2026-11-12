@@ -43,23 +43,16 @@ IEdmPos5^ GetFirstTransitionPosition(
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position in the list of the first transition to or from this workflow state (see
-
-Remarks
-
-)
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position in the list of the first transition to or from this workflow state (see **Remarks**)
 
 ## Examples
 
 [Get File's State Transitions (C#)](Get_Files_State_Transitions_Example_CSharp.htm)
-
 [Get File's State Transitions (VB.NET)](Get_Files_State_Transitions_Example_VBNET.htm)
 
 ## Remarks
 
-After calling this method, pass the returned position of the first transition to or from this workflow state to[IEdmState5::GetNextTransition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5~GetNextTransition.html)to get the first transition to or from this workflow state. Then call IEdmState5::GetNextTransition repeatedly to get the rest of the transitions to and from this workflow state.
+After calling this method, pass the returned position of the first transition to or from this workflow state to [IEdmState5::GetNextTransition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5~GetNextTransition.html) to get the first transition to or from this workflow state. Then call IEdmState5::GetNextTransition repeatedly to get the rest of the transitions to and from this workflow state.
 
 C++ programmers not using smart-pointer wrapper functions must release the returned interface, IEdmPos5.
 
@@ -70,7 +63,6 @@ C++ programmers not using smart-pointer wrapper functions must release the retur
 ## See Also
 
 [IEdmState5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html)
-
 [IEdmState5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5_members.html)
 
 ## Availability

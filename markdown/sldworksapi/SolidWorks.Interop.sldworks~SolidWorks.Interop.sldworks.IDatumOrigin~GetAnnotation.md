@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDa
 
 # GetAnnotation Method (IDatumOrigin)
 
-Gets the
-
-[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)
-
-object for this datum origin.
+Gets the [IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html) object for this datum origin.
 
 ## Syntax
 
@@ -44,32 +40,20 @@ Annotation GetAnnotation()
 Annotation^ GetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the[IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html)object for this annotation
+Pointer to the [IAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation.html) object for this annotation
 
 ## VBA Syntax
 
-See
-
-[DatumOrigin::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~DatumOrigin~GetAnnotation.html)
-
-.
+See [DatumOrigin::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~DatumOrigin~GetAnnotation.html).
 
 ## Examples
 
 [Get Annotation Object (VBA)](Get_Annotation_Object_Example_VB.htm)
-
 [Get Annotation Object (VB.NET)](Get_Annotation_Object_Example_VBNET.htm)
-
 [Get Annotation Object (C#)](Get_Annotation_Object_Example_CSharp.htm)
 
 ## Remarks
@@ -79,7 +63,6 @@ The IAnnotation object is a higher-level object that contains methods that apply
 ## See Also
 
 [IDatumOrigin Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin.html)
-
 [IDatumOrigin Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin_members.html)
 
 ## Availability

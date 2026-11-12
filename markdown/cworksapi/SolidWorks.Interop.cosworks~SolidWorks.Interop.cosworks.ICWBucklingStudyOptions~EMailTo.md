@@ -51,26 +51,16 @@ Email address
 
 ## VBA Syntax
 
-See
-
-[CWBucklingStudyOptions::EMailTo](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~EMailTo.html)
-
-.
+See [CWBucklingStudyOptions::EMailTo](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBucklingStudyOptions~EMailTo.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWBucklingStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMail.html)
-
-is set to 1.
+This property is valid only if [ICWBucklingStudyOptions::EMail](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMail.html) is set to 1.
 
 ## See Also
 
 [ICWBucklingStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions.html)
-
 [ICWBucklingStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions_members.html)
-
 [ICWBucklingStudyOptions::EMailTimebased Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBucklingStudyOptions~EMailTimebased.html)
 
 ## Availability

@@ -83,13 +83,7 @@ System.bool GetDirectionLightProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -110,22 +104,14 @@ True if light properties determined without a problem, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetDirectionLightProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetDirectionLightProperties.html)
-
-.
+See [ModelDoc2::GetDirectionLightProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetDirectionLightProperties.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SetDirectionLightProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetDirectionLightProperties.html)
-
 [IModelDoc2::LightSourcePropertyValues Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~LightSourcePropertyValues.html)
-
 [IModelDoc2::ILightSourcePropertyValues Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ILightSourcePropertyValues.html)
 
 ## Availability

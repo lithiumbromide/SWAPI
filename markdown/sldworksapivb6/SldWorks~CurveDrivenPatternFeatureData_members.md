@@ -1,6 +1,5 @@
 ---
-title: "CurveDrivenPatternFeatureData Object
-Members"
+title: "CurveDrivenPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CurveDrivenPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CurveDrivenPatternFeatureData_members.html"
 ---
 
-# CurveDrivenPatternFeatureData Object
-Members
+# CurveDrivenPatternFeatureData Object Members
 
 ## Public Methods
 

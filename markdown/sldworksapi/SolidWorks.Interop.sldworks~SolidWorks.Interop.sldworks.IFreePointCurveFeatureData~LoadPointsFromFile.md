@@ -47,17 +47,11 @@ System.bool LoadPointsFromFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Path and file name of the free-point curve file that contains the points to load; you can specify**.sldcrv**files or**.txt**files that use the same format as**.sldcrv**files
+- `FileName`: Path and file name of the free-point curve file that contains the points to load; you can specify **.sldcrv** files or **.txt** files that use the same format as **.sldcrv** files
 
 ### Return Value
 
@@ -65,11 +59,7 @@ True if the points loaded successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[FreePointCurveFeatureData::LoadPointsFromFile](ms-its:sldworksapivb6.chm::/sldworks~FreePointCurveFeatureData~LoadPointsFromFile.html)
-
-.
+See [FreePointCurveFeatureData::LoadPointsFromFile](ms-its:sldworksapivb6.chm::/sldworks~FreePointCurveFeatureData~LoadPointsFromFile.html).
 
 ## Remarks
 
@@ -78,7 +68,6 @@ See SOLIDWORKS Help for details about free-point curve files.
 ## See Also
 
 [IFreePointCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFreePointCurveFeatureData.html)
-
 [IFreePointCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFreePointCurveFeatureData_members.html)
 
 ## Availability

@@ -45,26 +45,15 @@ property System.String^ Caption {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageOption::Caption](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageOption~Caption.html)
-
-.
+See [PropertyManagerPageOption::Caption](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageOption~Caption.html).
 
 ## See Also
 
 [IPropertyManagerPageOption Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageOption.html)
-
 [IPropertyManagerPageOption Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageOption_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFr
 
 # ResultFolder Property (ICWFrequencyStudyOptions)
 
-Gets or sets the path name of the folder that contains results of this
-frequency study.
+Gets or sets the path name of the folder that contains results of this frequency study.
 
 ## Syntax
 
@@ -52,19 +51,11 @@ Path name of the results folder
 
 ## VBA Syntax
 
-See
-
-[CWFrequencyStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~ResultFolder.html)
-
-.
+See [CWFrequencyStudyOptions::ResultFolder](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFrequencyStudyOptions~ResultFolder.html).
 
 ## Examples
 
-See the
-
-[ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
-examples.
+See the [ICWFrequencyStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html) examples.
 
 ## Remarks
 
@@ -73,7 +64,6 @@ Make sure that the location for the specified folder has adequate disk space for
 ## See Also
 
 [ICWFrequencyStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions.html)
-
 [ICWFrequencyStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFrequencyStudyOptions_members.html)
 
 ## Availability

@@ -55,7 +55,7 @@ public enum class swPropertyManagerPageButtons_e : public System.Enum
 
 ## Remarks
 
-Enable or disable a button on a PropertyManager page using[IPropertyManagerPage2::EnableButton](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~EnableButton.html).
+Enable or disable a button on a PropertyManager page using [IPropertyManagerPage2::EnableButton](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~EnableButton.html).
 
 ## See Also
 

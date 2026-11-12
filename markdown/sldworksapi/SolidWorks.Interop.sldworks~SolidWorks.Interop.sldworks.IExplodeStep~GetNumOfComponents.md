@@ -40,13 +40,7 @@ System.int GetNumOfComponents()
 System.int GetNumOfComponents();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Number of components in this explode step
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::GetNumOfComponents](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetNumOfComponents.html)
-
-.
+See [ExplodeStep::GetNumOfComponents](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetNumOfComponents.html).
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
-
 [IExplodeStep::GetComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponent.html)
-
 [IExplodeStep::GetComponentName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponentName.html)
-
 [IExplodeStep::IGetComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~IGetComponent.html)
-
 [IExplodeStep::GetComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponents.html)
 
 ## Availability

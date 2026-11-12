@@ -78,7 +78,7 @@ Sub main()
     nLightCount = swModel.GetLightSourceCount
     For i = 0 To nLightCount - 1
         vLightProp = swModel.LightSourcePropertyValues(i)
-        Debug.Print "  SOLIDWORKS name for light = " & swModel.GetLightSourceName(i)
+        Debug.Print "  SOLIDWORKS Design name for light = " & swModel.GetLightSourceName(i)
         Debug.Print "  User name for light = " & swModel.LightSourceUserName(i)
         vLightProp(17) = dr.dValue
         swModel.LightSourcePropertyValues(i) = vLightProp

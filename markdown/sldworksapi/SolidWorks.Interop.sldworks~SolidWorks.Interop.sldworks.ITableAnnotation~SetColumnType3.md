@@ -59,46 +59,22 @@ System.int SetColumnType3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: 0-based index of the column whose type to set
-- `ColumnType`: Type of column as defined in
-
-[swTableColumnTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTableColumnTypes_e.html)
-
-(see
-
-Remarks
-
-)
+- `ColumnType`: Type of column as defined in [swTableColumnTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTableColumnTypes_e.html) (see **Remarks**)
 - `IncludeHidden`: True to include hidden columns in Index, false to not
-- `PropertyData`: Property data specific to ColumnType (see
-
-Remarks
-
-)
+- `PropertyData`: Property data specific to ColumnType (see **Remarks**)
 
 ### Return Value
 
-Return code as defined in
-
-[swColumnTypeStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swColumnTypeStatus_e.html)
+Return code as defined in [swColumnTypeStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swColumnTypeStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::SetColumnType3](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetColumnType3.html)
-
-.
+See [TableAnnotation::SetColumnType3](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetColumnType3.html).
 
 ## Examples
 
@@ -119,20 +95,17 @@ PropertyData specifies the column title and contents.
 | swBomTableColumnType_ItemNumber | Array of four values { Start_Item_Int , Increment_Int , Order_balloons_and_BOM_to_follow_assembly_order_Bool , Do_not_change_BOM_item_number_Bool } |
 | swBomTableColumnType_PartNumber | True to use title summary, false to not |
 
-* Note: To get the valid property names for a given column type, open a part in SOLIDWORKS and add a BOM table to it. Right-click a column and select**Insert > Column Right**. In the popup, select the column type of interest in the first dropdown. Inspect the contents of the second dropdown to see the valid property names for the column type.
+* Note: To get the valid property names for a given column type, open a part in SOLIDWORKS and add a BOM table to it. Right-click a column and select **Insert > Column Right**. In the popup, select the column type of interest in the first dropdown. Inspect the contents of the second dropdown to see the valid property names for the column type.
 
-When you set a column type, the title is automatically changed to match that column type. If you change the column type to custom property, you must set the column title using[ITableAnnotation::SetColumnTitle2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetColumnTitle2.html).
+When you set a column type, the title is automatically changed to match that column type. If you change the column type to custom property, you must set the column title using [ITableAnnotation::SetColumnTitle2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetColumnTitle2.html).
 
-This method is consistent with the SOLIDWORKS user interface where you cannot add, delete, or replace the Quantity type column in a BOM table.
+This method is consistent with the SOLIDWORKS Design user interface where you cannot add, delete, or replace the Quantity type column in a BOM table.
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::GetColumnType3 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetColumnType3.html)
-
 [ITableAnnotation::SetCellEquation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetCellEquation.html)
 
 ## Availability

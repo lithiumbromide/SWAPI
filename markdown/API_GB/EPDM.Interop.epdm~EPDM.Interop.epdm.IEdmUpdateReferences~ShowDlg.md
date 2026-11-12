@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences~ShowDlg
 
 # ShowDlg Method (IEdmUpdateReferences)
 
-Displays the command dialog box for all of the files added to the batch with
-
-[IEdmUpdateReferences::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences~AddFile.html)
-
-.
+Displays the command dialog box for all of the files added to the batch with [IEdmUpdateReferences::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences~AddFile.html).
 
 ## Syntax
 
@@ -56,7 +52,6 @@ void ShowDlg(
 ## Examples
 
 [Update References (C#)](Update_References_Example_CSharp.htm)
-
 [Update References (VB.NET)](Update_References_Example_VBNET.htm)
 
 ## Remarks
@@ -68,7 +63,6 @@ void ShowDlg(
 ## See Also
 
 [IEdmUpdateReferences Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences.html)
-
 [IEdmUpdateReferences Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences_members.html)
 
 ## Availability

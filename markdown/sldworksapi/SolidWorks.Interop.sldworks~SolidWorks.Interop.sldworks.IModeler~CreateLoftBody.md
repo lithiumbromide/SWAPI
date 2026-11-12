@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CreateLoftBody Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::CreateLoftBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateLoftBody2.html)
-
-.
+Obsolete. Superseded by [IModeler::CreateLoftBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateLoftBody2.html).
 
 ## Syntax
 
@@ -79,44 +75,28 @@ Body2^ CreateLoftBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PModDoc`: [Model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)
-
-in which to create the lofted body
+- `PModDoc`: [Model document](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) in which to create the lofted body
 - `IsBlendClosed`: True for a closed, false for an open loft; if true and you selected less that three profiles; any selected guide curves must be closed curves
 - `KeepTangency`: If the section curves are tangent, then you have the option to specify whether the resulting faces are also tangent; specify true to maintain the tangency as seen in the section curves, false to not
 
-NOTE:When generating tangent surfaces, SOLIDWORKS maintains planar and cylindrical surface shapes if the section curves exhibit these characteristics.
+  NOTE: When generating tangent surfaces, SOLIDWORKS maintains planar and cylindrical surface shapes if the section curves exhibit these characteristics.
 - `ForceNonRational`: True to force the resulting surface to be non-rational, false to not
 - `IsSolidBody`: True to return a solid body, false to return a surface body
 - `TessTolFactor`: Factor to control the number of intermediate sections used for loft with centerline; default value is 1.0; the greater the variable, the more intermediate sections created
-- `StartMatchingType`: Tangency type at the start profile (see
-
-Remarks
-
-)
-- `EndMatchingType`: Tangency type as the end profileParamDesc(seeRemarks)
+- `StartMatchingType`: Tangency type at the start profile (see Remarks)
+- `EndMatchingType`: Tangency type as the end profile (see Remarks)
 
 ### Return Value
 
-Newly created[loft](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)ParamDesc
+Newly created [loft](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[Modeler::CreateLoftBody](ms-its:sldworksapivb6.chm::/Sldworks~Modeler~CreateLoftBody.html)
-
-.
+See [Modeler::CreateLoftBody](ms-its:sldworksapivb6.chm::/Sldworks~Modeler~CreateLoftBody.html).
 
 ## Remarks
 
@@ -126,7 +106,7 @@ It is best to use guide curves, especially when you select profiles in the Featu
 
 You can use any number of profiles, However, if you select only one profile, then any selected guide curves must be closed curves.
 
-Use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select the profiles and guide curves. Set the mark for:
+Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the profiles and guide curves. Set the mark for:
 
 - profile selections to 1
 - any guide curve selection to 2
@@ -148,17 +128,11 @@ The tangency types can be:
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)
-
 [IFeatureManager::InsertCutBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertCutBlend.html)
-
 [IFeatureManager::InsertProtrusionBlend Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertProtrusionBlend.html)
-
 [IModelDoc2::InsertLoftRefSurface2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertLoftRefSurface2.html)
-
 [IModeler::CreateLoftSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateLoftSurface.html)
-
 [IModeler::ICreateLoftSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateLoftSurface.html)
 
 ## Availability

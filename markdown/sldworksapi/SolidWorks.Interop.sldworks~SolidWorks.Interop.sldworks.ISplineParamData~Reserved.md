@@ -42,26 +42,15 @@ property System.int Reserved {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SplineParamData::Reserved](ms-its:sldworksapivb6.chm::/sldworks~SplineParamData~Reserved.html)
-
-.
+See [SplineParamData::Reserved](ms-its:sldworksapivb6.chm::/sldworks~SplineParamData~Reserved.html).
 
 ## See Also
 
 [ISplineParamData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData.html)
-
 [ISplineParamData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData_members.html)
 
 ## Availability

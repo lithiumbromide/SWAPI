@@ -1,6 +1,5 @@
 ---
-title: "AutoRoute Object
-Members"
+title: "AutoRoute Object Members"
 project: "SOLIDWORKS Routing Type Library"
 interface: "AutoRoute_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "routingapivb6/SWRoutingLib~AutoRoute_members.html"
 ---
 
-# AutoRoute Object
-Members
+# AutoRoute Object Members
 
 ## Public Methods
 

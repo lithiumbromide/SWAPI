@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 Allows access to displacement restraints for structural studies.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class ICWRestraint
 
 ## VBA Syntax
 
-See
-
-[CWRestraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint.html)
-
-.
+See [CWRestraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint.html).
 
 ## Examples
 
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analyze Part (VBA)](Analyze_Part_Example_VB.htm)
 
 ## Accessors
@@ -72,5 +60,4 @@ See
 ## See Also
 
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

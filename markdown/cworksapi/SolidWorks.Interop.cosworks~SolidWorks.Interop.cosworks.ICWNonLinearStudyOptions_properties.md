@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNo
 
 # ICWNonLinearStudyOptions Interface Properties
 
-For a list of all members of this type, see[ICWNonLinearStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html).
+For a list of all members of this type, see [ICWNonLinearStudyOptions members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html).
 
 ## Public Properties
 
@@ -21,6 +21,8 @@ For a list of all members of this type, see[ICWNonLinearStudyOptions members](So
 | Property | CheckRunAsLegacy2 | Gets or sets whether to run as legacy and import only the normal component of the pressure load from a SOLIDWORKS Flow Simulation results file. |
 | Property | CheckUseTempFromThermalStudy | Obsolete. Superseded by ICWNonLinearStudyOptions::CheckUseTempFromThermalStudy2 . |
 | Property | CheckUseTempFromThermalStudy2 | Gets or sets whether to use the temperature from the corresponding time of a transient thermal analysis at each nonlinear time step. |
+| Property | ContactPenaltyStiffnessScaleFactor | Gets or sets the surface-to-surface contact penalty stiffness scale factor for this nonlinear study. |
+| Property | ContactPenaltyStiffnessScaleFactorGlobalDefault | Gets or sets the global default value of the surface-to-surface contact penalty stiffness scale factor for this nonlinear study. |
 | Property | ControlMethodType | Gets or sets the type of control method. |
 | Property | DefinedReferencePressure | Gets or sets the reference pressure offset to subtract from imported pressure values. |
 | Property | EMail | Obsolete. Superseded by ICWNonLinearStudyOptions::Email2 . |
@@ -39,8 +41,7 @@ For a list of all members of this type, see[ICWNonLinearStudyOptions members](So
 | Property | KeepBoltPreStress | Obsolete. Superseded by ICWNonLinearStudyOptions::KeepBoltPreStress2 . |
 | Property | KeepBoltPreStress2 | Gets or sets whether to keep bolt pre-stress. |
 | Property | ReferencePressureOption | Gets or sets whether to use the reference pressure offset defined in the Flow Simulation results file to subtract from imported pressure values. |
-| Property | ResultFolderPath | Gets or sets the path name of the folder that stores the results of this
-study. |
+| Property | ResultFolderPath | Gets or sets the path name of the folder that stores the results of this study. |
 | Property | SaveDataForRestartingAnalysis | Obsolete. Superseded by ICWNonLinearStudyOptions::SaveDataForRestartingAnalysis2 . |
 | Property | SaveDataForRestartingAnalysis2 | Gets or sets whether to save data for restarting the analysis. |
 | Property | SolverType | Gets or sets the solver type associated with the study. |
@@ -61,5 +62,4 @@ study. |
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

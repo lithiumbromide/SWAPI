@@ -9,12 +9,9 @@ source: "API_GB/Batch_Update_Variables_Example_VBNET.htm"
 
 # Batch Update Card Variables Example (VB.NET)
 
-This example shows how to update file and folder card
-variables in one batch.
+This example shows how to update file and folder card variables in one batch.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

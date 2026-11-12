@@ -46,23 +46,21 @@ True if the configuration is dirty, false if not
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration10::IsDirty](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration10~IsDirty.html)
-
-.
+See [SwDMConfiguration10::IsDirty](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration10~IsDirty.html).
 
 ## Examples
 
-Visual Basic for Applications (VBA)
+**Visual Basic for Applications (VBA)**
 
 Option Explicit
 
 Sub main()
 
-Const sLicenseKey As String = " your_license_key " ' Specify your license key
+Const sLicenseKey As String = "`your_license_key`" ' Specify your license key
 
-Const sDocFileName As String = "c:\test\Wiper_Plate_Assy.SLDASM" ' Specify your document Dim swClassFact As SwDocumentMgr.SwDMClassFactory
+Const sDocFileName As String = "c:\test\Wiper_Plate_Assy.SLDASM" ' Specify your document
+
+Dim swClassFact As SwDocumentMgr.SwDMClassFactory
 
 Dim swDocMgr As SwDocumentMgr.SwDMApplication
 
@@ -112,17 +110,21 @@ End If
 
 Set swClassFact = CreateObject("SwDocumentMgr.SwDMClassFactory")
 
-Set swDocMgr = swClassFact. GetApplication (sLicenseKey)
+Set swDocMgr = swClassFact.**GetApplication**(sLicenseKey)
 
-Set swDoc = swDocMgr. GetDocument (sDocFileName, nDocType, True, nRetVal): Debug.Assert swDmDocumentOpenErrorNone = nRetVal
+Set swDoc = swDocMgr.**GetDocument**(sDocFileName, nDocType, True, nRetVal): Debug.Assert swDmDocumentOpenErrorNone = nRetVal
 
-Set swCfgMgr = swDoc. ConfigurationManager
+Set swCfgMgr = swDoc.**ConfigurationManager**
 
-Debug.Print "File = " & swDoc.FullName Debug.Print " ActiveCfgName = " & swCfgMgr. GetActiveConfigurationName
+Debug.Print "File = " & swDoc.FullName
+Debug.Print " ActiveCfgName = " & swCfgMgr.**GetActiveConfigurationName**
 
-vCfgNameArr = swCfgMgr. GetConfigurationNames
+vCfgNameArr = swCfgMgr.**GetConfigurationNames**
 
-For Each vCfgName In vCfgNameArr Set swCfg = swCfgMgr. GetConfigurationByName (vCfgName) Debug.Print vCfgName & " -> Dirty Flag = " & swCfg. IsDirty Next
+For Each vCfgName In vCfgNameArr
+Set swCfg = swCfgMgr.**GetConfigurationByName**(vCfgName)
+Debug.Print vCfgName & " -> Dirty Flag = " & swCfg.**IsDirty**
+Next
 
 End Sub
 
@@ -135,7 +137,6 @@ If the configuration is dirty, then you can update its date by activating the co
 ## See Also
 
 [ISwDMConfiguration10 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration10.html)
-
 [ISwDMConfiguration10 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration10_members.html)
 
 ## Availability

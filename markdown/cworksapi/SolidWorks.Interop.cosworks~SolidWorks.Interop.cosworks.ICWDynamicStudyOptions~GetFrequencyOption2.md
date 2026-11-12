@@ -53,12 +53,10 @@ System.int GetFrequencyOption2(
 
 ### Parameters
 
-- `NOption`: Option as defined by
-
-[swsFrequencyStudyOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyStudyOption_e.html)
+- `NOption`: Option as defined by [swsFrequencyStudyOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsFrequencyStudyOption_e.html)
 - `DValue`: - Number of frequencies, if NOption = swsFrequencyStudyOption_e.swsFrequencyStudyOptionNumberFrequencies
 
-- Upper-bound frequency, if NOption = swsFrequencyStudyOption_e.swsFrequencyStudyOptionUserUpperBoundFrequency
+  - Upper-bound frequency, if NOption = swsFrequencyStudyOption_e.swsFrequencyStudyOptionUserUpperBoundFrequency
 
 ### Return Value
 
@@ -66,28 +64,20 @@ System.int GetFrequencyOption2(
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::GetFrequencyOption2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetFrequencyOption2.html)
+See [CWDynamicStudyOptions::GetFrequencyOption2](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~GetFrequencyOption2.html)
 
 ## Examples
 
 [Create Linear Dynamic Study (VBA)](Create_Dynamic_Harmonic_Study_Example_VB.htm)
-
 [Create Linear Dynamic Study (VB.NET)](Create_Dynamic_Harmonic_Study_Example_VBNET.htm)
-
 [Create Linear Dynamic Study (C#)](Create_Dynamic_Harmonic_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
-
 [ICWDynamicStudyOptions::SetFrequencyOption2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetFrequencyOption2.html)
-
 [ICWDynamicStudyOptions::GetFrequencyShiftOption2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~GetFrequencyShiftOption2.html)
-
 [ICWDynamicStudyOptions::SetFrequencyShiftOption2 Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions~SetFrequencyShiftOption2.html)
 
 ## Availability

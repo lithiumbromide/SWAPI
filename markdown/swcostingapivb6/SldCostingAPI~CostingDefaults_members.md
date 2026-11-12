@@ -1,6 +1,5 @@
 ---
-title: "CostingDefaults Object
-Members"
+title: "CostingDefaults Object Members"
 project: "SldCostingAPIActiveX DLL"
 interface: "CostingDefaults_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swcostingapivb6/SldCostingAPI~CostingDefaults_members.html"
 ---
 
-# CostingDefaults Object
-Members
+# CostingDefaults Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # Angle Property (IDraftFeatureData)
 
-Obsolete. Superseded by
-
-[IDraftFeatureData2::Angle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2~Angle.html)
-
-.
+Obsolete. Superseded by [IDraftFeatureData2::Angle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2~Angle.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData~Angle.html)
-
-.
+See [DraftFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData~Angle.html).
 
 ## See Also
 
 [IDraftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData.html)
-
 [IDraftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData_members.html)

@@ -40,13 +40,7 @@ System.object GetGraphicsBody()
 System.Object^ GetGraphicsBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[Body2::GetGraphicsBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetGraphicsBody.html)
-
-.
+See [Body2::GetGraphicsBody](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetGraphicsBody.html).
 
 ## Examples
 
-See the
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-examples.
+See the [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html) examples.
 
 ## Remarks
 
-This method is valid only if
-
-[IBody2::IsGraphicsBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IsGraphicsBody.html)
-
-is true.
+This method is valid only if [IBody2::IsGraphicsBody](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IsGraphicsBody.html) is true.
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateFileListFlag.
 
 # EdmChangeStateFileListFlag Enumeration
 
-Options for returning files when making calls to
-
-[IEdmBatchChangeState::GetFileList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~GetFileList.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Options for returning files when making calls to [IEdmBatchChangeState::GetFileList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState~GetFileList.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

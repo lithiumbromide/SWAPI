@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJo
 
 # ICWJoints Interface Members
 
-The following tables list the members exposed by[ICWJoints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints.html).
+The following tables list the members exposed by [ICWJoints](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints.html).
 
 ## Public Properties
 
@@ -41,7 +41,5 @@ The following tables list the members exposed by[ICWJoints](SolidWorks.Interop.c
 ## See Also
 
 [ICWJoints Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWJoints.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)

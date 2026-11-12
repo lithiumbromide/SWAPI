@@ -55,19 +55,11 @@ System.bool SetSize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Size`: Paper size as defined in
-
-[swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
+- `Size`: Paper size as defined in [swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
 - `Width`: Width of sheet
 - `Height`: Height of sheet
 
@@ -77,36 +69,23 @@ True if the size of the sheet is set, false if not
 
 ## VBA Syntax
 
-See
-
-[Sheet::SetSize](ms-its:sldworksapivb6.chm::/sldworks~Sheet~SetSize.html)
-
-.
+See [Sheet::SetSize](ms-its:sldworksapivb6.chm::/sldworks~Sheet~SetSize.html).
 
 ## Examples
 
 [Get Annotations Arrays (C#)](Get_Annotations_Arrays_Example_CSharp.htm)
-
 [Get Annotations Arrays (VB.NET)](Get_Annotations_Arrays_Example_VBNET.htm)
-
 [Get Annotations Arrays (VBA)](Get_Annotations_Array_Example_VB.htm)
 
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [ISheet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet_members.html)
-
 [ISheet::GetSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetSize.html)
-
 [ISheet::GetProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~GetProperties.html)
-
 [ISheet::PageSetup Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~PageSetup.html)
-
 [ISheet::IPageSetup Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~IPageSetup.html)
-
 [ISheet::SetProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~SetProperties.html)
-
 [ISheet::IGetProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet~IGetProperties.html)
 
 ## Availability

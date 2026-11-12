@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo~mllShortTaskInf
 
 # mllShortTaskInfoFlags Field
 
-Combination of
-
-[EdmTaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskFlag.html)
-
-flags.
+Combination of [EdmTaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskFlag.html) flags.
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int64 mllShortTaskInfoFlags
 ## See Also
 
 [EdmTaskInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html)
-
 [EdmTaskInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo_members.html)

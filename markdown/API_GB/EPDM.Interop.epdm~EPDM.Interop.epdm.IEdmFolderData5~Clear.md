@@ -40,7 +40,6 @@ void Clear();
 ## See Also
 
 [IEdmFolderData5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5.html)
-
 [IEdmFolderData5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolderData5_members.html)
 
 ## Availability

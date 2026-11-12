@@ -38,7 +38,6 @@ Fixed folder ID
 ## See Also
 
 [IEdmTemplate6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate6.html)
-
 [IEdmTemplate6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate6_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "routingapi/Create_Route_Through_Sketch_Entities_Example_CSharp.htm"
 
 # Create Route Through Sketch Entities Example (C#)
 
-This example shows how to create a route by specifying sketch entity
-types and their IDs.
+This example shows how to create a route by specifying sketch entity types and their IDs.
 
 ```
 //--------------------------------------------

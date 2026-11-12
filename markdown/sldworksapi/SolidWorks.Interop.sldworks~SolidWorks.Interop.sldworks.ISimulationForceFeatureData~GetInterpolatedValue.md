@@ -47,13 +47,7 @@ System.double GetInterpolatedValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,20 +59,13 @@ Interpolated value
 
 ## VBA Syntax
 
-See
-
-[SimulationForceFeatureData::GetInterpolatedValue](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~GetInterpolatedValue.html)
-
-.
+See [SimulationForceFeatureData::GetInterpolatedValue](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~GetInterpolatedValue.html).
 
 ## See Also
 
 [ISimulationForceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData.html)
-
 [ISimulationForceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData_members.html)
-
 [ISimulationForceFeatureData::InterpolationScheme Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~InterpolationScheme.html)
-
 [ISimulationForceFeatureData::FunctionInterpolatedValues Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~FunctionInterpolatedValues.html)
 
 ## Availability

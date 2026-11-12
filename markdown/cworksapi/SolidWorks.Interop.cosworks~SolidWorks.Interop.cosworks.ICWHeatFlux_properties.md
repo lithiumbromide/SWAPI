@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # ICWHeatFlux Interface Properties
 
-For a list of all members of this type, see[ICWHeatFlux members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html).
+For a list of all members of this type, see [ICWHeatFlux members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux_members.html).
 
 ## Public Properties
 
@@ -34,5 +34,4 @@ For a list of all members of this type, see[ICWHeatFlux members](SolidWorks.Inte
 ## See Also
 
 [ICWHeatFlux Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatFlux.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSl
 
 # DSldWorksEvents_PropertySheetCreateNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Notifies the user program when an exported[ISWPropertySheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html)is created so that the application can add pages to it.
+Notifies the user program when an exported [ISWPropertySheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html) is created so that the application can add pages to it.
 
 ## Syntax
 
@@ -46,36 +46,20 @@ public delegate System.int DSldWorksEvents_PropertySheetCreateNotifyEventHandler
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sheet`: [Property sheet](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISWPropertySheet.html)
-- `sheetType`: Type of the property sheet as defined in
-
-[swPropSheetType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropSheetType_e.html)
+- `sheetType`: Type of the property sheet as defined in [swPropSheetType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropSheetType_e.html)
 
 ## VBA Syntax
 
-See
-
-[PropertySheetCreateNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~PropertySheetCreateNotify_EV.html)
-
-.
+See [PropertySheetCreateNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~PropertySheetCreateNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAppPropertySheetCreateNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppPropertySheetCreateNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

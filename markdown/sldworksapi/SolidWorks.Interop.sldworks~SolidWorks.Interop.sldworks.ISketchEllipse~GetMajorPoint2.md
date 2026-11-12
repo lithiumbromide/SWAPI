@@ -40,44 +40,24 @@ System.object GetMajorPoint2()
 System.Object^ GetMajorPoint2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Major
-
-[sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-or null if the operation fails
+Major [sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[SketchEllipse::GetMajorPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~GetMajorPoint2.html)
-
-.
+See [SketchEllipse::GetMajorPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~GetMajorPoint2.html).
 
 ## Examples
 
-See the
-
-[ISketchEllipse](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
-examples.
+See the [ISketchEllipse](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html) examples.
 
 ## See Also
 
 [ISketchEllipse Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
 [ISketchEllipse Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse_members.html)
-
 [ISketchEllipse::IGetMajorPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse~IGetMajorPoint2.html)
 
 ## Availability

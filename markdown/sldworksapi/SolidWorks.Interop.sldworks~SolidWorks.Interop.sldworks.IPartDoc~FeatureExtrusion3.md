@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # FeatureExtrusion3 Method (IPartDoc)
 
-Obsolete. Superseded by
-
-[IFeatureManager::FeatureExtrusion2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusion2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::FeatureExtrusion2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~FeatureExtrusion2.html).
 
 ## Syntax
 
@@ -118,13 +114,7 @@ void FeatureExtrusion3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -149,14 +139,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PartDoc::FeatureExtrusion3](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~FeatureExtrusion3.html)
-
-.
+See [PartDoc::FeatureExtrusion3](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~FeatureExtrusion3.html).
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)

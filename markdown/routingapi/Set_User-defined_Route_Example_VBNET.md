@@ -11,10 +11,8 @@ source: "routingapi/Set_User-defined_Route_Example_VBNET.htm"
 
 This example shows how to:
 
-- set the type of route of the active
-  component to user defined.
-- get and set the name and cross-section
-  type of the user-defined route of an active component.
+- set the type of route of the active component to user defined.
+- get and set the name and cross-section type of the user-defined route of an active component.
 
 ```
 '-----------------------------------------------------------------------------

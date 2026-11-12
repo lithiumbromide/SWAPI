@@ -1,6 +1,5 @@
 ---
-title: "Simulation3DContactFeatureData Object
-Members"
+title: "Simulation3DContactFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Simulation3DContactFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Simulation3DContactFeatureData_members.html"
 ---
 
-# Simulation3DContactFeatureData Object
-Members
+# Simulation3DContactFeatureData Object Members
 
 ## Public Properties
 

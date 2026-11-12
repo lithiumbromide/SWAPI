@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol_fields.html"
 
 # EdmListCol Structure Fields
 
-For a list of all members of this type, see[EdmListCol members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol_members.html).
+For a list of all members of this type, see [EdmListCol members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol_members.html).
 
 ## Public Fields
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[EdmListCol members](EPDM.Interop.epd
 ## See Also
 
 [EdmListCol Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListCol.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

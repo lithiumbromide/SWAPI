@@ -47,19 +47,11 @@ property System.int JacobianEval {
 
 ### Property Value
 
-How often, in percent,
-
-kadov_tag{{</spaces>}}
-
-the simulation engine's Jacobian matrix is updated
+How often, in percent, the simulation engine's Jacobian matrix is updated
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyProperties::JacobianEval](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~JacobianEval.html)
-
-.
+See [CosmosMotionStudyProperties::JacobianEval](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyProperties~JacobianEval.html).
 
 ## Remarks
 
@@ -68,7 +60,6 @@ At 100%, the Jacobian is updated at every integration time step. At 50% the Jaco
 ## See Also
 
 [ICosmosMotionStudyProperties Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties.html)
-
 [ICosmosMotionStudyProperties Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyProperties_members.html)
 
 ## Availability

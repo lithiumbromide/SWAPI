@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddUsers2.html"
 
 # AddUsers2 Method (IEdmUserMgr7)
 
-Obsolete. Superseded by
-
-[IEdmUserMgr10::AddUsers3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr10~AddUsers3.html)
-
-.
+Obsolete. Superseded by [IEdmUserMgr10::AddUsers3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr10~AddUsers3.html).
 
 ## Syntax
 
@@ -43,21 +39,16 @@ void AddUsers2(
 
 ### Parameters
 
-- `ppoUserData`: Array of
-
-[EdmUserData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2.html)
-
-structures; one structure for each user
+- `ppoUserData`: Array of [EdmUserData2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData2.html) structures; one structure for each user
 
 ## Examples
 
 [Add Users (VB.NET)](Add_Users_Example_VBNET.htm)
-
 [Add Users (C#)](Add_Users_Example_CSharp.htm)
 
 ## Remarks
 
-This method supersedes[IEdmUserMgr6::AddUsers](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddUsers.html)by providing the ability to specify permissions for added users.
+This method supersedes [IEdmUserMgr6::AddUsers](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddUsers.html) by providing the ability to specify permissions for added users.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -66,7 +57,6 @@ This method supersedes[IEdmUserMgr6::AddUsers](EPDM.Interop.epdm~EPDM.Interop.ep
 ## See Also
 
 [IEdmUserMgr7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7.html)
-
 [IEdmUserMgr7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7_members.html)
 
 ## Availability

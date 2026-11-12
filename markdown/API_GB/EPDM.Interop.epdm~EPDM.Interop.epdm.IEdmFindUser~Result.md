@@ -35,26 +35,19 @@ property IEdmEnum^ Result {
 
 ### Property Value
 
-[IEdmEnum](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html)
-
-(see Remarks)
+[IEdmEnum](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnum.html) (see Remarks)
 
 ## Examples
 
-See the
-
-[IEdmFindUser](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
-examples.
+See the [IEdmFindUser](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html) examples.
 
 ## Remarks
 
-If[IEdmFindUser::ShowFindUI](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~ShowFindUI.html)is called, this property contains only the users that were selected in the search dialog box's result list.
+If [IEdmFindUser::ShowFindUI](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser~ShowFindUI.html) is called, this property contains only the users that were selected in the search dialog box's result list.
 
 ## See Also
 
 [IEdmFindUser Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser.html)
-
 [IEdmFindUser Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFindUser_members.html)
 
 ## Availability

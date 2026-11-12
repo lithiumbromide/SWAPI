@@ -50,38 +50,20 @@ void AddCallback(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Cookie`: Cookie specified in
-
-[ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
-- `CallbackFunction`: Name of the function to call (see
-
-Remarks
-
-)
+- `Cookie`: Cookie specified in [ISwAddin::ConnectToSW](ms-its:swpublishedapi.chm::/SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.ISwAddin~ConnectToSW.html)
+- `CallbackFunction`: Name of the function to call (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::AddCallback](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~AddCallback.html)
-
-.
+See [SldWorks::AddCallback](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~AddCallback.html).
 
 ## Remarks
 
 The callback function has three arguments:
-
-(Table)=========================================================
 
 | Callback function parameter name in example | Data Type | Description |
 | --- | --- | --- |
@@ -92,15 +74,10 @@ The callback function has three arguments:
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::CallBack Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~CallBack.html)
-
 [ISldWorks::RemoveCallback Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RemoveCallback.html)
-
 [ISldWorks::SetAddinCallbackInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetAddinCallbackInfo.html)
-
 [ISldWorks::PostMessageToApplication Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PostMessageToApplication.html)
 
 ## Availability

@@ -67,9 +67,7 @@ In SOLIDWORKS PDM Professional:
 ## See Also
 
 [IEdmVault14 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault14.html)
-
 [IEdmVault14 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault14_members.html)
-
 [IEdmVault11::GetLicense Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~GetLicense.html)
 
 ## Availability

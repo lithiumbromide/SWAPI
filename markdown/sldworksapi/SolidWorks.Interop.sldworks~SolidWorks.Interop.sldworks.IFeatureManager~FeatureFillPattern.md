@@ -9,17 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # FeatureFillPattern Method (IFeatureManager)
 
-Obsolete.
-
-See
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-and the Remarks in
-
-[IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
-.
+Obsolete. See [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) and the Remarks in [IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html).
 
 ## Syntax
 
@@ -129,73 +119,59 @@ Feature^ FeatureFillPattern(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PatternLayoutType`: Pattern layout type as defined in
-
-[swPatternLayoutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutType_e.html)
-- `LayoutSpacingType`: Pattern layout spacing as defined in
-
-[swPatternLayoutSpacingType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutSpacingType_e.html)
+- `PatternLayoutType`: Pattern layout type as defined in [swPatternLayoutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutType_e.html)
+- `LayoutSpacingType`: Pattern layout spacing as defined in [swPatternLayoutSpacingType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutSpacingType_e.html)
 - `InstanceSpacing`: Distance between pattern instance centers; valid always for PatternLayoutType = swPatternLayoutType_e.swPatternLayoutPerforation; valid for all other PatternLayoutTypes only if LayoutSpacingType = swPatternLayoutSpacingType_e.swPatternLayoutTargetSpacing
 - `StaggerAngle`: Angle by which to stagger rows of pattern instances; valid only if PatternLayoutType = swPatternLayoutType_e.swPatternLayoutPerforation
 - `Margins`: Distance between the fill boundary and the outermost instance in the pattern layout; 0 for no margin
 - `LoopSpacing`: Distance between instance centers of adjacent pattern loops; valid for all PatternLayoutTypes except swPatternLayoutType_e.swPatternLayoutPerforation
 - `NoOfInstances`: Number of pattern instances per loop or side of the pattern layout; valid only if both are true:
 
-- LayoutSpacingType = swPatternLayoutSpacingType_e.swPatternLayoutInstances
-- PatternLayoutType is set to one of the following:
+  - LayoutSpacingType = swPatternLayoutSpacingType_e.swPatternLayoutInstances
+  - PatternLayoutType is set to one of the following:
 
-  - swPatternLayoutType_e.swPatternLayoutCircular
-  - swPatternLayoutType_e.swPatternLayoutPolygon
-  - swPatternLayoutType_e.swPatternLayoutSquare
+    - swPatternLayoutType_e.swPatternLayoutCircular
+    - swPatternLayoutType_e.swPatternLayoutPolygon
+    - swPatternLayoutType_e.swPatternLayoutSquare
 - `PatternLayoutPolygonSides`: Number of sides in the polygonal layout of the pattern; valid only if PatternLayoutType = swPatternLayoutType_e.swPatternLayoutPolygon
-- `FeaturesToPatternType`: Type of objects to pattern as defined in
-
-[swFeaturesToPatternType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeaturesToPatternType_e.html)
-- `CreateSeedCutType`: Pattern seed cut types as defined in
-
-[swCreateSeedCutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCreateSeedCutType_e.html)
+- `FeaturesToPatternType`: Type of objects to pattern as defined in [swFeaturesToPatternType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeaturesToPatternType_e.html)
+- `CreateSeedCutType`: Pattern seed cut types as defined in [swCreateSeedCutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swCreateSeedCutType_e.html)
 - `Diameter`: Diameter of the circle-cut seed instance; valid only if both are true:
 
-FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
+  FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
 
-CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutCircle
+  CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutCircle
 - `Dimension`: Length of the side of a diamond-cut or square-cut seed instance; valid only if both are true:
 
-FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
+  FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
 
-CreateSeedCutType is set to one of the following:
+  CreateSeedCutType is set to one of the following:
 - `Rotation`: Counterclockwise rotation of the seed instance; valid only if both are true:
 
-FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
+  FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
 
-CreateSeedCutType is set to one of the following:
+  CreateSeedCutType is set to one of the following:
 - `Diagonal`: Length of the diagonal in the diamond-cut seed instance; valid only if both are true:
 
-FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
+  FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
 
-CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutDiamond
+  CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutDiamond
 - `CreateSeedCutPolygonSides`: Number of sides in the polygon-cut seed instance; valid only if both are true:
 
-- FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
-- CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutPolygon
+  - FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
+  - CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutPolygon
 - `OuterRadius`: Radius of circle that circumscribes the polygon-cut seed instance; valid only if both are ture:
 
-- FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
-- CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutPolygon
+  - FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
+  - CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutPolygon
 - `InnerRadius`: Radius of circle that inscribes the polygon-cut seed instance; valid only if both are true:
 
-- FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
-- CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutPolygon
+  - FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
+  - CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutPolygon
 - `FlipShapeDirection`: True to reverse the direction of the pattern seed cut; valid only if FeaturesToPatternType = swFeaturesToPatternType_e.swFeaturesToPatternCreateSeedCut
 - `GeometryPattern`: True to create the pattern using an exact copy of the seed instance, false to not
 
@@ -205,27 +181,19 @@ CreateSeedCutType = swCreateSeedCutType_e.swCreateSeedCutDiamond
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureFillPattern](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureFillPattern.html)
-
-.
+See [FeatureManager::FeatureFillPattern](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureFillPattern.html).
 
 ## Remarks
 
-**Insert > Pattern/Mirror > Fill Pattern**in the SOLIDWORKS menu opens the Fill Pattern PropertyManager. The parameters in this method correspond to the options in the Fill Pattern PropertyManager.
+**Insert > Pattern/Mirror > Fill Pattern** in the SOLIDWORKS menu opens the Fill Pattern PropertyManager. The parameters in this method correspond to the options in the Fill Pattern PropertyManager.
 
-For all pattern layouts except[swPatternLayoutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutType_e.html).swPatternLayoutPerforation, the fill pattern is created by positioning a pattern seed instance within the fill boundary and copying the pattern in concentric loops about the seed instance.
+For all pattern layouts except [swPatternLayoutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutType_e.html).swPatternLayoutPerforation, the fill pattern is created by positioning a pattern seed instance within the fill boundary and copying the pattern in concentric loops about the seed instance.
 
 See the SOLIDWORKS Help for more information about fill pattern features.
 
 To create a fill pattern:
 
-1. Use
-
-  [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  or another selection method to select the entities required to create a fill pattern feature.
+1. Use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) or another selection method to select the entities required to create a fill pattern feature.
 
 | Select... | For the Fill Pattern's... | Using Mark... |
 | --- | --- | --- |
@@ -249,7 +217,6 @@ Depending on the settings above, other parameters might need to be specified.
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

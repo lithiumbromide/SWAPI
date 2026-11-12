@@ -9,8 +9,7 @@ source: "swdocmgrapi/Get_and_Set_3rd_Party_Storage_Example_VBNET.htm"
 
 # Read and Write to Third-party Storage Example (VB.NET)
 
-This example shows how to read and write to third-party storage in a
-document.
+This example shows how to read and write to third-party storage in a document.
 
 ```vb
   '----------------------------------------------------------------------------

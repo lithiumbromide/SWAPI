@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_When_Publishing_Part_to_MBD_3D_PDF_Exampl
 
 # Fire Notification When Publishing Part to MBD 3D PDF Example (VB.NET)
 
-This example shows how to fire a notification when publishing a part document
-to SOLIDWORKS MBD 3D PDF.
+This example shows how to fire a notification when publishing a part document to SOLIDWORKS MBD 3D PDF.
 
 ```
 '--------------------------------------------------------------

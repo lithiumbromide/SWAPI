@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Path_Segment_SSMember_Example_VBNET.htm"
 
 # Create Path Segment Structure System Member Example (VB.NET)
 
-This example shows how to create structure system path segment members that
-are split along a reference plane.
+This example shows how to create structure system path segment members that are split along a reference plane.
 
 ```vb
   '==========================================================================================

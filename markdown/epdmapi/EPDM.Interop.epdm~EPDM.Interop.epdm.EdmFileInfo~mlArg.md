@@ -35,5 +35,4 @@ System.int mlArg
 ## See Also
 
 [EdmFileInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo.html)
-
 [EdmFileInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFileInfo_members.html)

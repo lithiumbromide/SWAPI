@@ -58,7 +58,7 @@ Sub main()
 ```
 
 ```
-    ' Connect to SOLIDWORKS
+    ' Connect to SOLIDWORKS Design
     Set swApp = Application.SldWorks
 ```
 

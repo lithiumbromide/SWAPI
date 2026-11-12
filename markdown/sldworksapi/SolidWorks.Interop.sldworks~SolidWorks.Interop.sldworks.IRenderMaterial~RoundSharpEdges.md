@@ -45,13 +45,7 @@ property System.double RoundSharpEdges {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Value by which to round sharp edges
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::RouundSharpEdges](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~RoundSharpEdges.html)
-
-.
+See [RenderMaterial::RouundSharpEdges](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~RoundSharpEdges.html).
 
 ## Examples
 
 [Get Surface-finish Image Path and File Name (C#)](Get_Surface-finish_Image_Path_and_Filename_Example_CSharp.htm)
-
 [Get Surface-finish Image Path and File Name (VB.NET)](Get_Surface-finish_Image_Path_and_Filename_Example_VBNET.htm)
-
 [Get Surface-finish Image Path and File Name (VBA)](Get_Surface-finish_Image_Path_and_Filename_Example_VB.htm)
 
 ## Remarks
@@ -83,7 +71,6 @@ This method:
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

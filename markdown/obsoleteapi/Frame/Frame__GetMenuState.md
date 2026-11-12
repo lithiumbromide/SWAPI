@@ -11,4 +11,4 @@ source: "obsoleteapi/Frame/Frame__GetMenuState.htm"
 
 ## Frame:: GetMenuState
 
-This method is obsolete and has been superseded by[Frame::AddMenuItem](sldworksAPI.chm::/Frame/Frame__AddMenuItem.htm).
+This method is obsolete and has been superseded by [Frame::AddMenuItem](sldworksAPI.chm::/Frame/Frame__AddMenuItem.htm).

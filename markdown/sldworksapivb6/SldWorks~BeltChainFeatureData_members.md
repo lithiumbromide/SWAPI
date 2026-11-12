@@ -1,6 +1,5 @@
 ---
-title: "BeltChainFeatureData Object
-Members"
+title: "BeltChainFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BeltChainFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BeltChainFeatureData_members.html"
 ---
 
-# BeltChainFeatureData Object
-Members
+# BeltChainFeatureData Object Members
 
 ## Public Methods
 

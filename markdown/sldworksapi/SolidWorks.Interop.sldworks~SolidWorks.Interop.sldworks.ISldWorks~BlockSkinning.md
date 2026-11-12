@@ -40,13 +40,7 @@ System.bool BlockSkinning()
 System.bool BlockSkinning();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::BlockSkinning](ms-its:sldworksapivb6.chm::/Sldworks~SldWorks~BlockSkinning.html)
-
-.
+See [SldWorks::BlockSkinning](ms-its:sldworksapivb6.chm::/Sldworks~SldWorks~BlockSkinning.html).
 
 ## Remarks
 
-You must call
-
-[ISldWorks::ResumeSkinning](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ResumeSkinning.html)
-
-after creating your unskinned window so that new windows created by SOLIDWORKS and other add-ins are displayed as intended.
+You must call [ISldWorks::ResumeSkinning](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ResumeSkinning.html) after creating your unskinned window so that new windows created by SOLIDWORKS and other add-ins are displayed as intended.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

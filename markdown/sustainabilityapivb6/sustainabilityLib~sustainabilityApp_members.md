@@ -1,6 +1,5 @@
 ---
-title: "sustainabilityApp Object
-Members"
+title: "sustainabilityApp Object Members"
 project: "sustainabilityLibActiveX DLL"
 interface: "sustainabilityApp_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sustainabilityapivb6/sustainabilityLib~sustainabilityApp_members.html"
 ---
 
-# sustainabilityApp Object
-Members
+# sustainabilityApp Object Members
 
 ## Public Methods
 

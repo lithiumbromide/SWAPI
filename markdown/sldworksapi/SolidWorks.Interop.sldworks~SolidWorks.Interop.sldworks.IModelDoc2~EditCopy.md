@@ -39,40 +39,24 @@ void EditCopy()
 void EditCopy();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::EditCopy](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EditCopy.html)
-
-.
+See [ModelDoc2::EditCopy](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EditCopy.html).
 
 ## Examples
 
 [Copy and Paste Feature (C#)](Copy_and_Paste_Feature_Example_CSharp.htm)
-
 [Copy and Paste Feature (VB.NET)](Copy_and_Paste_Feature_Example_VBNET.htm)
-
 [Copy and Paste Feature (VBA)](Copy_and_Paste_Feature_Example_VB.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::Paste Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~Paste.html)
-
 [IModelDoc2::EditCut Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditCut.html)
-
 [IModelDoc2::EditDelete Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditDelete.html)
 
 ## Availability

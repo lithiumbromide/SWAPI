@@ -40,51 +40,19 @@ System.object GetEndConditionEntity()
 System.Object^ GetEndConditionEntity();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[Body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
-,
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
-,
-
-[plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
-
-,
-
-[surface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
-, or
-
-[vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html)
-
-to which the face of the Move Face feature is translated (see
-
-Remarks
-
-)
+[Body](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html), [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html), [plane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html), [surface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html), or [vertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex.html) to which the face of the Move Face feature is translated (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[MoveFaceFeatureData::GetEndConditionEntity](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~GetEndConditionEntity.html)
-
-.
+See [MoveFaceFeatureData::GetEndConditionEntity](ms-its:sldworksapivb6.chm::/sldworks~MoveFaceFeatureData~GetEndConditionEntity.html).
 
 ## Remarks
 
-The type of entity depends on the type of[end condition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~EndCondition.html).
+The type of entity depends on the type of [end condition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~EndCondition.html).
 
 | End condition | Type of entity |
 | --- | --- |
@@ -95,13 +63,9 @@ The type of entity depends on the type of[end condition](SolidWorks.Interop.sldw
 ## See Also
 
 [IMoveFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData.html)
-
 [IMoveFaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData_members.html)
-
 [IMoveFaceFeatureData::SetEndConditionEntity Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~SetEndConditionEntity.html)
-
 [IMoveFaceFeatureData::GetFromEntity Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~GetFromEntity.html)
-
 [IMoveFaceFeatureData::SetFromEntity Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData~SetFromEntity.html)
 
 ## Availability

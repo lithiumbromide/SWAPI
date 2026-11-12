@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEd
 
 # Position Property (IEdgePoint)
 
-Gets or sets the position of the midpoint on an
-
-[edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-or an endpoint or midpoint on a
-
-[reference curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferenceCurve.html)
-
-.
+Gets or sets the position of the midpoint on an [edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) or an endpoint or midpoint on a [reference curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IReferenceCurve.html).
 
 ## Syntax
 
@@ -53,13 +45,7 @@ property System.double Position {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -67,24 +53,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[EdgePoint::Position](ms-its:sldworksapivb6.chm::/sldworks~EdgePoint~Position.html)
-
-.
+See [EdgePoint::Position](ms-its:sldworksapivb6.chm::/sldworks~EdgePoint~Position.html).
 
 ## Examples
 
 [Create Reference Curve (C#)](Create_Reference_Curve_Example_CSharp.htm)
-
 [Create Reference Curve (VB.NET)](Create_Reference_Curve_Example_VBNET.htm)
-
 [Create Reference Curve (VBA)](Create_Reference_Curve_Example_VB.htm)
 
 ## See Also
 
 [IEdgePoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgePoint.html)
-
 [IEdgePoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgePoint_members.html)
 
 ## Availability

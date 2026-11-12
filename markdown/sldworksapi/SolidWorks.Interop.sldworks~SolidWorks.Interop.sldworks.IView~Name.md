@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # Name Property (IView)
 
-Obsolete. Superseded by
-
-[IView::GetName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetName2.html)
-
-and
-
-[IView::SetName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~SetName2.html)
-
-.
+Obsolete. Superseded by [IView::GetName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetName2.html) and [IView::SetName2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~SetName2.html).
 
 ## Syntax
 
@@ -50,24 +42,13 @@ property System.String^ Name {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::Name](ms-its:sldworksapivb6.chm::/sldworks~View~Name.html)
-
-.
+See [View::Name](ms-its:sldworksapivb6.chm::/sldworks~View~Name.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

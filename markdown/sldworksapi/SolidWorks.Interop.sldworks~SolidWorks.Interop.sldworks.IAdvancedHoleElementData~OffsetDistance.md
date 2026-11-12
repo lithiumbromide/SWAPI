@@ -45,33 +45,19 @@ property System.double OffsetDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Offset distance (see
-
-Remarks
-
-)
+Offset distance (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[AdvancedHoleElementData::OffsetDistance](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData~OffsetDistance.html)
-
-.
+See [AdvancedHoleElementData::OffsetDistance](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData~OffsetDistance.html).
 
 ## Remarks
 
-This property is valid only when[IAdvancedHoleElementData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~EndCondition.html)is set to[swEndConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface.
+This property is valid only when [IAdvancedHoleElementData::EndCondition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~EndCondition.html) is set to [swEndConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swEndConditions_e.html).swEndCondOffsetFromSurface.
 
 You can set this property only if this hole element's corresponding property is set to false:
 
@@ -82,11 +68,8 @@ You can set this property only if this hole element's corresponding property is 
 ## See Also
 
 [IAdvancedHoleElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)
-
 [IAdvancedHoleElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData_members.html)
-
 [IAdvancedHoleElementData::OffsetReverseDirection Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~OffsetReverseDirection.html)
-
 [IStraightTapElementData::Equation Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData~Equation.html)
 
 ## Availability

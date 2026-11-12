@@ -45,25 +45,15 @@ property System.int PositionType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Bend position as defined in[swFlangePositionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangePositionTypes_e.html)
+Bend position as defined in [swFlangePositionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFlangePositionTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[SketchedBendFeatureData::PositionType](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~PositionType.html)
-
-.
+See [SketchedBendFeatureData::PositionType](ms-its:sldworksapivb6.chm::/sldworks~SketchedBendFeatureData~PositionType.html).
 
 ## Examples
 
@@ -72,7 +62,6 @@ See
 ## See Also
 
 [ISketchedBendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData.html)
-
 [ISketchedBendFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchedBendFeatureData_members.html)
 
 ## Availability

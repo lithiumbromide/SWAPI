@@ -59,31 +59,17 @@ System.bool IDeleteBlends3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumOfFaces`: Number of faces to delete
-- `FaceList`: - in-process, unmanaged C++: Pointer to an array of
+- `FaceList`: - in-process, unmanaged C++: Pointer to an array of [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) of size NumOfFaces to delete
+  - VBA, VB.NET, C#, and C++/CLI: Not supported
 
-  [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-  of size NumOfFaces to delete
-- VBA, VB.NET, C#, and C++/CLI: Not supported
-
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 - `DoLocalCheck`: True to perform a local check, false to not
-- `UsePlanarCap`: True to use planar caps, false to not (see
-
-Remarks
-
-)
+- `UsePlanarCap`: True to use planar caps, false to not (see **Remarks**)
 
 ### Return Value
 
@@ -96,11 +82,8 @@ Typically when deleting blends, an entire chain of blends are deleted. However, 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::DeleteBlends3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~DeleteBlends3.html)
-
 [IBody2::DeleteFaces5 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~DeleteFaces5.html)
 
 ## Availability

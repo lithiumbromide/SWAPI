@@ -48,11 +48,7 @@ property SwDMDimXpertFeature^ ReferenceFeature {
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCounterSinkDiameterDimTol::ReferenceFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCounterSinkDiameterDimTol~ReferenceFeature.html)
-
-.
+See [SwDMDimXpertCounterSinkDiameterDimTol::ReferenceFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCounterSinkDiameterDimTol~ReferenceFeature.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCounterSinkDiameterDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCounterSinkDiameterDimTol.html)
-
 [ISwDMDimXpertCounterSinkDiameterDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCounterSinkDiameterDimTol_members.html)
 
 ## Availability

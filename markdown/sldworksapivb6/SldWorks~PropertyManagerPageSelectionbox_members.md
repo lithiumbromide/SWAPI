@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPageSelectionbox Object
-Members"
+title: "PropertyManagerPageSelectionbox Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PropertyManagerPageSelectionbox_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PropertyManagerPageSelectionbox_members.html"
 ---
 
-# PropertyManagerPageSelectionbox Object
-Members
+# PropertyManagerPageSelectionbox Object Members
 
 ## Public Methods
 

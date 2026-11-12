@@ -58,38 +58,23 @@ CWSolidComponent^ GetComponentAt(
 
 ### Return Value
 
-[Solid component](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSolidComponent.html)
-
-or NULL if no solid component at NIndex
+[Solid component](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSolidComponent.html) or NULL if no solid component at NIndex
 
 ## VBA Syntax
 
-See
-
-[CWSolidManager::GetComponentAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidManager~GetComponentAt.html)
-
-.
+See [CWSolidManager::GetComponentAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidManager~GetComponentAt.html).
 
 ## Examples
 
-See the
-
-[ICWSolidManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager.html)
-
-examples.
+See the [ICWSolidManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager.html) examples.
 
 ## Remarks
 
-Before calling this method, call
-
-[ICWSolidManager::ComponentCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSolidManager~ComponentCount.html)
-
-to get NIndex. Index starts at 0.
+Before calling this method, call [ICWSolidManager::ComponentCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWSolidManager~ComponentCount.html) to get NIndex. Index starts at 0.
 
 ## See Also
 
 [ICWSolidManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager.html)
-
 [ICWSolidManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidManager_members.html)
 
 ## Availability

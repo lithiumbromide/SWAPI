@@ -45,41 +45,19 @@ property System.int Size {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Balloon size as defined in
-
-[swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
-
-; specify -1 to use the document default balloon size (see
-
-Remarks
-
-)
+Balloon size as defined in [swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html); specify -1 to use the document default balloon size (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[BalloonOptions::Size](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~Size.html)
-
-.
+See [BalloonOptions::Size](ms-its:sldworksapivb6.chm::/sldworks~BalloonOptions~Size.html).
 
 ## Examples
 
-See
-
-[IBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonOptions.html)
-
-examples.
+See [IBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBalloonOptions.html) examples.
 
 ## Remarks
 
@@ -93,7 +71,6 @@ See the SOLIDWORKS Help for additional details about balloons.
 ## See Also
 
 [IBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions.html)
-
 [IBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonOptions_members.html)
 
 ## Availability

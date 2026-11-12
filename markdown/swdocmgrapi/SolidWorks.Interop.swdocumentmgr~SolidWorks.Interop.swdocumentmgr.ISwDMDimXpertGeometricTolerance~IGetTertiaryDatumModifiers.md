@@ -53,26 +53,18 @@ swDmDimXpertMaterialConditionModifier_e IGetTertiaryDatumModifiers(
 
 ### Return Value
 
-in-process, unmanaged C++: Pointer to an array of
-
-[SwDMDimXpertMaterialConditionModifier_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDMDimXpertMaterialConditionModifier_e.html)
+in-process, unmanaged C++: Pointer to an array of [SwDMDimXpertMaterialConditionModifier_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.SwDMDimXpertMaterialConditionModifier_e.html)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
-Use
-
-[ISwDMDimXpertGeometricTolerance::GetTertiaryDatumCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertGeometricTolerance~GetTertiaryDatumCount.html)
-
-to populate the Count argument.
+Use [ISwDMDimXpertGeometricTolerance::GetTertiaryDatumCount](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertGeometricTolerance~GetTertiaryDatumCount.html) to populate the Count argument.
 
 ## See Also
 
 [ISwDMDimXpertGeometricTolerance Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertGeometricTolerance.html)
-
 [ISwDMDimXpertGeometricTolerance Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertGeometricTolerance_members.html)
-
 [ISwDMDimxpertGeometricTolerance::GetTertiaryDatumModifiers Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertGeometricTolerance~GetTertiaryDatumModifiers.html)
 
 ## Availability

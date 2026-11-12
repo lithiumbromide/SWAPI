@@ -57,24 +57,15 @@ System.int SaveAsPDF(
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::SaveAsPDF](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~SaveAsPDF.html)
-
-.
+See [PDMWDocument::SaveAsPDF](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~SaveAsPDF.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[IPDMDocument::HasPDF](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~HasPDF.html)
-
-to determine if a PDF file of the drawing document exists in the vault.
+Before calling this method, call [IPDMDocument::HasPDF](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~HasPDF.html) to determine if a PDF file of the drawing document exists in the vault.
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
 
 ## Availability

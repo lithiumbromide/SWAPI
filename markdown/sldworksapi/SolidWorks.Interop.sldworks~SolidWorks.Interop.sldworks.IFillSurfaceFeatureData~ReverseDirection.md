@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True to reverse direction while merging results, false to not
 
 ## VBA Syntax
 
-See
-
-[FillSurfaceFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~ReverseDirection.html)
-
-.
+See [FillSurfaceFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~FillSurfaceFeatureData~ReverseDirection.html).
 
 ## Remarks
 
-When patching a solid with a fill surface, there are often two possible results. Use this method to reverse direction while merging results if the fill surface displays in an unwanted direction. See[IFillSurfaceFeatureData::Merge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~Merge.html)for details about merging results.
+When patching a solid with a fill surface, there are often two possible results. Use this method to reverse direction while merging results if the fill surface displays in an unwanted direction. See [IFillSurfaceFeatureData::Merge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFillSurfaceFeatureData~Merge.html) for details about merging results.
 
 ## See Also
 
 [IFillSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData.html)
-
 [IFillSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillSurfaceFeatureData_members.html)
 
 ## Availability

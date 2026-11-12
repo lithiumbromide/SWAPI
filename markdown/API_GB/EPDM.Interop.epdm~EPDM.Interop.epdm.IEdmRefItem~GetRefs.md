@@ -42,14 +42,8 @@ void GetRefs(
 
 ### Parameters
 
-- `eType`: Type of reference to get as defined in
-
-[EdmRefType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefType.html)
-- `ppoRetItems`: Array of
-
-[IEdmRefItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html)
-
-s; one interface pointer for each item reference
+- `eType`: Type of reference to get as defined in [EdmRefType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefType.html)
+- `ppoRetItems`: Array of [IEdmRefItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html)s; one interface pointer for each item reference
 
 ## Remarks
 
@@ -60,7 +54,6 @@ s; one interface pointer for each item reference
 ## See Also
 
 [IEdmRefItem Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html)
-
 [IEdmRefItem Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem_members.html)
 
 ## Availability

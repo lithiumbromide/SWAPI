@@ -50,13 +50,7 @@ property System.int ChamferPrecision {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,26 +62,18 @@ Number of decimal places to display for the value at the specified index
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::ChamferPrecision](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~ChamferPrecision.html)
-
-.
+See [DisplayDimension::ChamferPrecision](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~ChamferPrecision.html).
 
 ## Examples
 
 [Get Chamfer Display Dimension (C#)](Get_Chamfer_Display_Dimension_Example_CSharp.htm)
-
 [Get Chamfer Display Dimension (VB.NET)](Get_Chamfer_Display_Dimension_Example_VBNET.htm)
-
 [Get Chamfer Display Dimension (VBA)](Get_Chamfer_Display_Dimension_Example_VB.htm)
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::GetChamferUnits Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~GetChamferUnits.html)
 
 ## Availability

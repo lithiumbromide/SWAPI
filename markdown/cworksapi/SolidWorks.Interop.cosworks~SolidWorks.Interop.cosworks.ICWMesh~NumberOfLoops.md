@@ -51,20 +51,13 @@ Number of loops
 
 ## VBA Syntax
 
-See
-
-[CWMesh::NumberOfLoops](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~NumberOfLoops.html)
-
-.
+See [CWMesh::NumberOfLoops](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~NumberOfLoops.html).
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::AutomaticLooping Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~AutomaticLooping.html)
-
 [ICWMesh::GetDefaultElementSizeAndTolerance Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GetDefaultElementSizeAndTolerance.html)
 
 ## Availability

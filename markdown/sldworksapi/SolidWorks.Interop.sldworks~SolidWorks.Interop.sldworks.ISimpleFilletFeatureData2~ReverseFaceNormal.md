@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISi
 
 # ReverseFaceNormal Property (ISimpleFilletFeatureData2)
 
-Gets or sets the
-
-Reverse Face Normal
-
-option when creating a face fillet between surface bodies.
+Gets or sets the Reverse Face Normal option when creating a face fillet between surface bodies.
 
 ## Syntax
 
@@ -54,56 +50,27 @@ property System.bool ReverseFaceNormal {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `WhichFaceList`: Face for
-
-Reverse Face Normal
-
-option as defined in
-
-[swSimpleFilletWhichFaces_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimpleFilletWhichFaces_e.html)
-
-}}end!kadov
+- `WhichFaceList`: Face for Reverse Face Normal option as defined in [swSimpleFilletWhichFaces_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimpleFilletWhichFaces_e.html)
 
 ### Property Value
 
-True if the
-
-Reverse Face Normal
-
-option is enabled, false if not
-
-EndOLEPropertyRow
+True if the Reverse Face Normal option is enabled, false if not
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::ReverseFaceNormal](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~ReverseFaceNormal.html)
-
-.
+See [SimpleFilletFeatureData2::ReverseFaceNormal](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~ReverseFaceNormal.html).
 
 ## Examples
 
-See
-
-[ISimpleFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2.html)
-
-examples.
+See [ISimpleFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2.html) examples.
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
 
 ## Availability

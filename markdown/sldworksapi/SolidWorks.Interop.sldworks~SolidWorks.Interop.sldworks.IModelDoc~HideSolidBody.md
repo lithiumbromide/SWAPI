@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # HideSolidBody Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::HideSolidBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~HideSolidBody.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::HideSolidBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~HideSolidBody.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void HideSolidBody()
 void HideSolidBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::HideSolidBody](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~HideSolidBody.html)
-
-.
+See [ModelDoc::HideSolidBody](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~HideSolidBody.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

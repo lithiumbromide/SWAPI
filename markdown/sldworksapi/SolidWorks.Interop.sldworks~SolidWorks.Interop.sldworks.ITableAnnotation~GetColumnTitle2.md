@@ -51,13 +51,7 @@ System.String^ GetColumnTitle2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,26 +64,18 @@ Column title
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::GetColumnTitle2](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetColumnTitle2.html)
-
-.
+See [TableAnnotation::GetColumnTitle2](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~GetColumnTitle2.html).
 
 ## Examples
 
 [Export BOMs to XML (VBA)](Export_BOMs_to_XML_Example_VB.htm)
-
 [Export BOMs to XML (VB.NET)](Export_BOMs_to_XML_Example_VBNET.htm)
-
 [Export BOMs to XML (C#)](Export_BOMs_to_XML_Example_CSharp.htm)
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::SetColumnTitle2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~SetColumnTitle2.html)
 
 ## Availability

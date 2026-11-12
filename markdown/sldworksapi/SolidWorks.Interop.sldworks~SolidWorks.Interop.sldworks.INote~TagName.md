@@ -45,13 +45,7 @@ property System.String^ TagName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,16 @@ Tag name
 
 ## VBA Syntax
 
-See
-
-[Note::TagName](ms-its:sldworksapivb6.chm::/sldworks~Note~TagName.html)
-
-.
+See [Note::TagName](ms-its:sldworksapivb6.chm::/sldworks~Note~TagName.html).
 
 ## Examples
 
 [Get Block Information (VBA)](Get_Block_Information_Example_VB.htm)
-
 [Remove Hyperlink From Note in Drawing (VBA)](Remove_Hyperlink_from_Note_in_Drawing_Example_VB.htm)
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
 
 ## Availability

@@ -40,36 +40,20 @@ SketchPoint IGetEndPoint2()
 SketchPoint^ IGetEndPoint2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-End
-
-[sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html)
-
-or null if the operation fails
+End [sketch point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint.html) or null if the operation fails
 
 ## VBA Syntax
 
-See
-
-[SketchEllipse::IGetEndPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~IGetEndPoint2.html)
-
-.
+See [SketchEllipse::IGetEndPoint2](ms-its:sldworksapivb6.chm::/sldworks~SketchEllipse~IGetEndPoint2.html).
 
 ## See Also
 
 [ISketchEllipse Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse.html)
-
 [ISketchEllipse Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse_members.html)
-
 [ISketchEllipse::GetEndPoint2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchEllipse~GetEndPoint2.html)
 
 ## Availability

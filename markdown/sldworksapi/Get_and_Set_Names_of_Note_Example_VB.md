@@ -11,8 +11,7 @@ source: "sldworksapi/Get_and_Set_Names_of_Note_Example_VB.htm"
 
 ## Get and Set Name of Note Example (VBA)
 
-This example shows how to get the name of the selected note and change
-its name.
+This example shows how to get the name of the selected note and change its name.
 
 ```
 '-----------------------------------------------------------------

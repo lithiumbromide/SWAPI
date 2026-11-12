@@ -40,40 +40,23 @@ System.int GetElementType()
 System.int GetElementType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Coordinate system element type as defined by
-
-[swCoordSysElementType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCoordSysElementType_e.html)
+Coordinate system element type as defined by [swCoordSysElementType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCoordSysElementType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CoordinateSystemElement::GetElementType](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemElement~GetElementType.html)
-
-.
+See [CoordinateSystemElement::GetElementType](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemElement~GetElementType.html).
 
 ## Examples
 
-See the
-
-[ICoordinateSystemElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html)
-
-examples.
+See the [ICoordinateSystemElement](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html) examples.
 
 ## See Also
 
 [ICoordinateSystemElement Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement.html)
-
 [ICoordinateSystemElement Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemElement_members.html)
 
 ## Availability

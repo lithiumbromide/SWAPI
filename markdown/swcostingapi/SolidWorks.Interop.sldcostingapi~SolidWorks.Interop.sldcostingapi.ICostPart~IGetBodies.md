@@ -53,26 +53,18 @@ CostBody^ IGetBodies(
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array of
-
-  [Costing bodies](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostBody.html)
+- in-process, unmanaged C++: Pointer to an array of [Costing bodies](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostBody.html)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
-Before calling this method, call
-
-[ICostPart::GetBodyCount](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostPart~GetBodyCount.html)
-
-to get the NumBodies value.
+Before calling this method, call [ICostPart::GetBodyCount](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostPart~GetBodyCount.html) to get the NumBodies value.
 
 ## See Also
 
 [ICostPart Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart.html)
-
 [ICostPart Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart_members.html)
-
 [ICostPart::GetBodies Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetBodies.html)
 
 ## Availability

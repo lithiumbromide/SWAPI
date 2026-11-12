@@ -54,9 +54,7 @@ System.bool RecognizeFeatureInteractive(
 ### Parameters
 
 - `FeatureType`: Type of body or sheet metal feature to recognize
-- `options`: Interactive options as defined by
-
-[fwInteractiveRecognitionOptions_e](SOLIDWORKS.Interop.fworks~SOLIDWORKS.Interop.fworks.fwInteractiveRecognitionOptions_e.html)
+- `options`: Interactive options as defined by [fwInteractiveRecognitionOptions_e](SOLIDWORKS.Interop.fworks~SOLIDWORKS.Interop.fworks.fwInteractiveRecognitionOptions_e.html)
 
 ### Return Value
 
@@ -64,11 +62,7 @@ True if the feature is recognized, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureWorksApp::RecognizeFeatureInteractive](ms-its:fworksapivb6.chm::/FeatureWorks~FeatureWorksApp~RecognizeFeatureInteractive.html)
-
-.
+See [FeatureWorksApp::RecognizeFeatureInteractive](ms-its:fworksapivb6.chm::/FeatureWorks~FeatureWorksApp~RecognizeFeatureInteractive.html).
 
 ## Examples
 
@@ -77,9 +71,7 @@ See
 ## See Also
 
 [IFeatureWorksApp Interface](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp.html)
-
 [IFeatureWorksApp Members](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp_members.html)
-
 [IFeatureWorksApp::RecognizeFeatureAutomatic Method](SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.IFeatureWorksApp~RecognizeFeatureAutomatic.html)
 
 ## Availability

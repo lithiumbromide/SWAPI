@@ -62,22 +62,16 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertStraightnessTolerance::GetPerUnitLength](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertStraightnessTolerance~GetPerUnitLength.html)
-
-.
+See [DimXpertStraightnessTolerance::GetPerUnitLength](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertStraightnessTolerance~GetPerUnitLength.html).
 
 ## Examples
 
 [Get DimXpert Tolerance4 Example (VBA)](Get_DimXpert_Tolerance4_Example_VB.htm)
-
 [Get DimXpert Tolerance4 Example (VB.NET)](Get_DimXpert_Tolerance4_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertStraightnessTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertStraightnessTolerance.html)
-
 [IDimXpertStraightnessTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertStraightnessTolerance_members.html)
 
 ## Availability

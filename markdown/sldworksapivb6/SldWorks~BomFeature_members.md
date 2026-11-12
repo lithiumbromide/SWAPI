@@ -1,6 +1,5 @@
 ---
-title: "BomFeature Object
-Members"
+title: "BomFeature Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BomFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BomFeature_members.html"
 ---
 
-# BomFeature Object
-Members
+# BomFeature Object Members
 
 ## Public Methods
 

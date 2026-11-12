@@ -9,8 +9,7 @@ source: "sldworksapi/Create_3D_Bounding_Box_Example_VBNET.htm"
 
 # Create 3D Bounding Box for Cut List Item Example (VB.NET)
 
-This example shows how to create a 3D bounding box for a cut list
-item in a weldment part.
+This example shows how to create a 3D bounding box for a cut list item in a weldment part.
 
 ```vb
  '----------------------------------------------------------------------------

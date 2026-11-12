@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5.html"
 
 Allows access to a file attribute that is used when data is transferred between a file data card and a file.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,14 +37,13 @@ public interface class IEdmAttribute5 : public IEdmObject5
 ## Examples
 
 [Find Data Cards with Description Variable (VB.NET)](Find_Data_Cards_with_Description_Variable_Example_VBNET.htm)
-
 [Find Data Cards with Description Variable (C#)](Find_Data_Cards_with_Description_Variable_Example_CSharp.htm)
 
 ## Remarks
 
-This interface inherits from[IEdmObject5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5.html). Call[IEdmObject5::Name](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5~Name.html)to get the name of this attribute.
+This interface inherits from [IEdmObject5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5.html). Call [IEdmObject5::Name](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmObject5~Name.html) to get the name of this attribute.
 
-A variable,[EdmVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5.html), can be mapped to zero or more attributes (IEdmAttribute5).
+A variable, [EdmVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5.html), can be mapped to zero or more attributes (IEdmAttribute5).
 
 ## Accessors
 
@@ -63,5 +56,4 @@ A variable,[EdmVariable5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariable5.html
 ## See Also
 
 [IEdmAttribute5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAttribute5_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

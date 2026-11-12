@@ -9,8 +9,7 @@ source: "sldworksapi/Find_Total_Length_of_Sketch_Segments_in_Sketch_Example_VB.h
 
 # Find Total Length of Sketch Segments in Sketch Example (VBA)
 
-This example shows how to find the total length of all sketch segments
-in a sketch.
+This example shows how to find the total length of all sketch segments in a sketch.
 
 ```
 '----------------------------------------------------

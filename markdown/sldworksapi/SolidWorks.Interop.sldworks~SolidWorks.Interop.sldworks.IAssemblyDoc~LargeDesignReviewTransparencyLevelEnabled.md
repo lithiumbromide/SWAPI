@@ -45,13 +45,7 @@ property System.bool LargeDesignReviewTransparencyLevelEnabled {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True if transparency levels are activated, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::LargeDesignReviewTransparencyLevelEnabled](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~LargeDesignReviewTransparencyLevelEnabled.html)
-
-.
+See [AssemblyDoc::LargeDesignReviewTransparencyLevelEnabled](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~LargeDesignReviewTransparencyLevelEnabled.html).
 
 ## Examples
 
 [Set Transparency of Components in Large Design Review (C#)](Set_Transparency_of_Components_LDR_Mode_Example_CSharp.htm)
-
 [Set Transparency of Components in Large Design Review (VB.NET)](Set_Transparency_of_Components_LDR_Mode_Example_VBNET.htm)
-
 [Set Transparency of Components in Large Design Review (VBA)](Set_Transparency_of_Components_LDR_Mode_Example_VB.htm)
 
 ## Remarks
@@ -80,11 +68,8 @@ This property is valid only when the assembly is opened in Large Design Review m
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::LargeDesignReviewTransparencyLevel Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~LargeDesignReviewTransparencyLevel.html)
-
 [IAssemblyDoc::LargeDesignReviewTransparencyLevelDynamic Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~LargeDesignReviewTransparencyLevelDynamic.html)
 
 ## Availability

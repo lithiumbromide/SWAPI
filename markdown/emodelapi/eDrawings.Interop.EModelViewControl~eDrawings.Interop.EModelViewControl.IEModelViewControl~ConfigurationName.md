@@ -53,30 +53,23 @@ property System.String^ ConfigurationName {
 
 ### Property Value
 
-Name of configurationParameterDesc
+Name of configuration
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ConfigurationName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ConfigurationName.html)
-
-.
+See [EModelViewControl::ConfigurationName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ConfigurationName.html).
 
 ## Remarks
 
 Because eDrawings does not support inactive configurations for SOLIDWORKS documents, this property does not get configuration names for a SOLIDWORKS document (.**sldprt**, .**sldasm**, and .**slddrw**). To use configurations in eDrawings, you must use an eDrawings file that was published from SOLIDWORKS.
 
-Before calling this property, call[IEModelViewControl::CurrentConfigurationIndex](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CurrentConfigurationIndex.html)or[IEModelViewControl::ConfigurationCount](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ConfigurationCount.html)to get a valid value for ConfigurationIndex.VB_GET
+Before calling this property, call [IEModelViewControl::CurrentConfigurationIndex](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~CurrentConfigurationIndex.html) or [IEModelViewControl::ConfigurationCount](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ConfigurationCount.html) to get a valid value for ConfigurationIndex.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::ShowConfiguration](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowConfiguration.html)
-
 [IEModelViewControl::ComponentConfigurationName](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentConfigurationName.html)
 
 ## Availability

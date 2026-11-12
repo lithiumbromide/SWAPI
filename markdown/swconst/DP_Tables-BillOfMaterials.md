@@ -9,104 +9,38 @@ source: "swconst/DP_Tables-BillOfMaterials.htm"
 
 # Document Properties > Tables > Bill Of Materials
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
 ## Document Properties > Tables > Bill of Materials
 
 This topic contains two tables. The information in the table:
 
-- appearing immediately after the screen capture
-  of the dialog corresponds to the settings
-  on that dialog.
-- titled
-
-  [Obsolete
-  Enumerators](#Obsolete)
-
-  contains enumerators that previously appeared on
-  the dialog but are now obsolete.
-
-(Table)=========================================================
+- appearing immediately after the screen capture of the dialog corresponds to the settings on that dialog.
+- titled [Obsolete Enumerators](#Obsolete) contains enumerators that previously appeared on the dialog but are now obsolete.
 
 | Setting | Get/Set Methods | Return Value or < Value > or < OnFlag > | Comments |
 | --- | --- | --- | --- |
-| Border - Box Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBillOfMaterialBorderLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBillOfMaterialBorderLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Border - Grid Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBillOfMaterialGridLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBillOfMaterialGridLineWeight,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingBillOfMaterialTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingBillOfMaterialTextFormat,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Zero quantity display | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBomTableZeroQuantityDisplay,
-swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBomTableZeroQuantityDisplay,
-swUserPreferenceOption_e.swDetailingBillOfMaterial, swZeroQuantityDisplay_e.< Value >) | See swZeroQuantityDisplay_e for valid options |  |
-| Missing component - Keep the row for missing component | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableKeepMissingItems,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableKeepMissingItems,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to list missing (deleted) components in BOM |
-| Missing component - Display with strikeout text | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableStrikeThroughMissingItems,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableStrikeThroughMissingItems,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to strike through text for missing components |
-| Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero,
-swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero,
-swUserPreferenceOption_e.swDetailingBillOfMaterial, swDetailingLeadingZero_e.< Value >) | See swDetailingLeadingZero_e for valid options |  |
-| Trailing zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero,
-swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero,
-swUserPreferenceOption_e.swDetailingBillOfMaterial, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsSource |  |
-| Top level Only BOM - Show Custom Text in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForTopLevelOnlyBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForTopLevelOnlyBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
-| Top level Only BOM - Custom text: | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForTopLevelOnlyBOM,
-swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForTopLevelOnlyBOM,
-swUserPreferenceOption_e.swDetailingBillOfMaterial, < Value >) | String value | Valid only if swBomTableShowCustomTextinBOMHeader_ForTopLevelOnlyBOM is
-set to true |
-| Top level Only BOM - Show Configuration in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForTopLevelOnlyBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForTopLevelOnlyBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
-| Parts Only BOM - Show Custom Text in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForPartOnlyBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForPartOnlyBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
-| Parts Only BOM - Custom text: | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForPartOnlyBOM,
-swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForPartOnlyBOM,
-swUserPreferenceOption_e.swDetailingBillOfMaterial, < Value >) | String value | Valid only if swBomTableShowCustomTextinBOMHeader_ForPartOnlyBOM is set
-to true |
-| Parts Only BOM - Show Configuration in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForPartOnlyBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForPartOnlyBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
-| Indented BOM - Show Custom Text in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForIndentedBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForIndentedBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
-| Indented BOM - Custom text: | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForIndentedBOM,
-swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForIndentedBOM,
-swUserPreferenceOption_e.swDetailingBillOfMaterial, < Value >) | String value | Valid only if swBomTableShowCustomTextinBOMHeader_ForIndentedBOM is set
-to true |
-| Indented BOM - Show Configuration in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForIndentedBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForIndentedBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
-| Restrict top-level only BOMs to one configuration | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swOneConfigOnlyTopLevelBom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swOneConfigOnlyTopLevelBom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to limit BOMs designated as top-level only to one
-configuration |
-| Automatic update of BOM | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAutoUpdateBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAutoUpdateBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to automatically update BOM when changes are made
-to model |
-| Combine same length cut list items with different profiles (pre-2019 behavior) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCombineCutlistItemsInBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCombineCutlistItemsInBOM,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingBillOfMaterial, < Value >) | Valid options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" "None" | This setting is available only on drawings; depending on drawing, some
-options may not apply |
+| Border - Box Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBillOfMaterialBorderLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBillOfMaterialBorderLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Border - Grid Border | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBillOfMaterialGridLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingBillOfMaterialGridLineWeight, swUserPreferenceOption_e.swDetailingNoOptionSpecified, swLineWeights_e.< Value >) | See swLineWeights_e for valid options |  |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingBillOfMaterialTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingBillOfMaterialTextFormat, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Zero quantity display | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBomTableZeroQuantityDisplay, swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swBomTableZeroQuantityDisplay, swUserPreferenceOption_e.swDetailingBillOfMaterial, swZeroQuantityDisplay_e.< Value >) | See swZeroQuantityDisplay_e for valid options |  |
+| Missing component - Keep the row for missing component | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableKeepMissingItems, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableKeepMissingItems, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to list missing (deleted) components in BOM |
+| Missing component - Display with strikeout text | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableStrikeThroughMissingItems, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableStrikeThroughMissingItems, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to strike through text for missing components |
+| Leading zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero, swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLeadingZero, swUserPreferenceOption_e.swDetailingBillOfMaterial, swDetailingLeadingZero_e.< Value >) | See swDetailingLeadingZero_e for valid options |  |
+| Trailing zeroes | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero, swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimTrailingZero, swUserPreferenceOption_e.swDetailingBillOfMaterial, swDetailingDimTrailingZero_e.< Value >) | Valid options in swDetailingDimTrailingZero_e : swDimShowTrailingZeroes swDimRemoveTrailingZeroes swDimRemoveOnlyOnZero swDimSameAsSource |  |
+| Top level Only BOM - Show Custom Text in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForTopLevelOnlyBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForTopLevelOnlyBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
+| Top level Only BOM - Custom text: | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForTopLevelOnlyBOM, swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForTopLevelOnlyBOM, swUserPreferenceOption_e.swDetailingBillOfMaterial, < Value >) | String value | Valid only if swBomTableShowCustomTextinBOMHeader_ForTopLevelOnlyBOM is set to true |
+| Top level Only BOM - Show Configuration in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForTopLevelOnlyBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForTopLevelOnlyBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
+| Parts Only BOM - Show Custom Text in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForPartOnlyBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForPartOnlyBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
+| Parts Only BOM - Custom text: | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForPartOnlyBOM, swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForPartOnlyBOM, swUserPreferenceOption_e.swDetailingBillOfMaterial, < Value >) | String value | Valid only if swBomTableShowCustomTextinBOMHeader_ForPartOnlyBOM is set to true |
+| Parts Only BOM - Show Configuration in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForPartOnlyBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForPartOnlyBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
+| Indented BOM - Show Custom Text in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForIndentedBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowCustomTextinBOMHeader_ForIndentedBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
+| Indented BOM - Custom text: | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForIndentedBOM, swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swBomTableBOMHeaderCustomText_ForIndentedBOM, swUserPreferenceOption_e.swDetailingBillOfMaterial, < Value >) | String value | Valid only if swBomTableShowCustomTextinBOMHeader_ForIndentedBOM is set to true |
+| Indented BOM - Show Configuration in BOM Header | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForIndentedBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swBomTableShowConfigurationInBOMHeader_ForIndentedBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
+| Restrict top-level only BOMs to one configuration | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swOneConfigOnlyTopLevelBom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swOneConfigOnlyTopLevelBom, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to limit BOMs designated as top-level only to one configuration |
+| Automatic update of BOM | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAutoUpdateBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingAutoUpdateBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to automatically update BOM when changes are made to model |
+| Combine same length cut list items with different profiles (pre-2019 behavior) | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swCombineCutlistItemsInBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swCombineCutlistItemsInBOM, swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value |  |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingBillOfMaterial) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingBillOfMaterial, < Value >) | Valid options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" "None" | This setting is available only on drawings; depending on drawing, some options may not apply |
 
 Obsolete Enumerators
-
-(Table)=========================================================
 
 | Enumerator | Comment |
 | --- | --- |

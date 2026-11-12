@@ -9,8 +9,7 @@ source: "sldworksapi/Select_Silhouette_Edge_Attached_to_Note_Example_VBNET.htm"
 
 # Select Silhouette Edge Attached to Note Example (VB.NET)
 
-This example shows how to select a silhouette edge attached to a note in a
-drawing.
+This example shows how to select a silhouette edge attached to a note in a drawing.
 
 ```
 '-------------------------------------------

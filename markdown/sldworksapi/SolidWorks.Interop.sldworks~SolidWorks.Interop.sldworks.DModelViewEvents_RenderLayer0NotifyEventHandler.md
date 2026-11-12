@@ -37,35 +37,25 @@ public delegate System.int DModelViewEvents_RenderLayer0NotifyEventHandler()
 public delegate System.int DModelViewEvents_RenderLayer0NotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RenderLayer0Notify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~RenderLayer0Notify_EV.html)
-
-.
+See [RenderLayer0Notify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~RenderLayer0Notify_EV.html).
 
 ## Remarks
 
 This event allows you to render the model instead of SOLIDWORKS rendering the model. If the return value from the event is S_FALSE, then SOLIDWORKS will not render to Layer0, but will render to Layer1.
 
-**NOTE:**When SOLIDWORKS renders to a frame, it renders two layers:
+**NOTE:** When SOLIDWORKS renders to a frame, it renders two layers:
 
-This event is not sent if[swViewRepaintNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)returns S_FALSE. Also, if[swViewRenderLayer0Notify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)returns S_FALSE, then[swViewBufferSwapNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)is not sent.
+This event is not sent if [swViewRepaintNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) returns S_FALSE. Also, if [swViewRenderLayer0Notify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) returns S_FALSE, then [swViewBufferSwapNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) is not sent.
 
-[BufferSwapNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DModelViewEvents_BufferSwapNotifyEventHandler.html)is fired after rendering to Layer0, depending on optimization**.**[GraphicsRenderPostNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DModelViewEvents_GraphicsRenderPostNotifyEventHandler.html)is always fired after rendering to Layer2.
+[BufferSwapNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DModelViewEvents_BufferSwapNotifyEventHandler.html) is fired after rendering to Layer0, depending on optimization**.** [GraphicsRenderPostNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DModelViewEvents_GraphicsRenderPostNotifyEventHandler.html) is always fired after rendering to Layer2.
 
 Prior to the event, the graphics area is cleared and the model view's xform is set.
 
-If developing a C++ application, use[swViewRenderLayer0Notify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)to register for this notification.
+If developing a C++ application, use [swViewRenderLayer0Notify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) to register for this notification.
 
 ## Availability
 

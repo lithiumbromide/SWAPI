@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # CreateBodyFromSurfaces Method (IBody)
 
-Obsolete. Superseded by
-
-[IBody2::CreateBodyFromSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBodyFromSurfaces.html)
-
-.
+Obsolete. Superseded by [IBody2::CreateBodyFromSurfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~CreateBodyFromSurfaces.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool CreateBodyFromSurfaces()
 System.bool CreateBodyFromSurfaces();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Body::CreateBodyFromSurfaces](ms-its:sldworksapivb6.chm::/sldworks~Body~CreateBodyFromSurfaces.html)
-
-.
+See [Body::CreateBodyFromSurfaces](ms-its:sldworksapivb6.chm::/sldworks~Body~CreateBodyFromSurfaces.html).
 
 ## See Also
 
 [IBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody.html)
-
 [IBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody_members.html)

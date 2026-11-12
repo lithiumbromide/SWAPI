@@ -45,26 +45,17 @@ void RunTask(
 
 ### Parameters
 
-- `oTask`: Task add-in to run as defined by
-
-[EdmTaskInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html)
-- `poSelections`: Array of
-
-[EdmSelItem2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2.html)
+- `oTask`: Task add-in to run as defined by [EdmTaskInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html)
+- `poSelections`: Array of [EdmSelItem2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSelItem2.html)
 - `lParentWnd`: Parent window
 
 ## Examples
 
-See the
-
-[IEdmTaskMgr](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr.html)
-
-example.
+See the [IEdmTaskMgr](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr.html) example.
 
 ## See Also
 
 [IEdmTaskMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr.html)
-
 [IEdmTaskMgr Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskMgr_members.html)
 
 ## Availability

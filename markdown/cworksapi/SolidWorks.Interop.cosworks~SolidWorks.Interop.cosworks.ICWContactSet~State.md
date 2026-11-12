@@ -44,24 +44,16 @@ property System.int State {
 
 ### Property Value
 
-Suppression state as defined in
-
-[swsSuppressionState_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSuppressionState_e.html)
+Suppression state as defined in [swsSuppressionState_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSuppressionState_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWContactSet::State](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~State.html)
-
-.
+See [CWContactSet::State](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~State.html).
 
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWContactSet Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet_members.html)
-
 [ICWContactSet::SuppressUnSuppress Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~SuppressUnSuppress.html)
 
 ## Availability

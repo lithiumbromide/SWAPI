@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Labels_of_Datum_Origin_Example_VBNET.htm"
 
 # Get Labels of Datum Origin Example (VB.NET)
 
-This example shows how to insert a hole table annotation and get some of its
-properties.
+This example shows how to insert a hole table annotation and get some of its properties.
 
 ```vb
   '---------------------------------------------------------------------------

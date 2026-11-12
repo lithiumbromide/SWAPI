@@ -48,7 +48,6 @@ IEdmUser5^ GetUser(
 ## Examples
 
 [Add Folder (VB.NET)](Add_Folder_Example_VBNET.htm)
-
 [Add Folder (C#)](Add_Folder_Example_CSharp.htm)
 
 ## Remarks
@@ -65,7 +64,6 @@ C++ users must release the returned interface, IEdmUser5.
 ## See Also
 
 [IEdmUserMgr5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr5.html)
-
 [IEdmUserMgr5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr5_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9_members.htm
 
 # IEdmTransition9 Interface Members
 
-The following tables list the members exposed by[IEdmTransition9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9.html).
+The following tables list the members exposed by [IEdmTransition9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9.html).
 
 ## Public Properties
 
@@ -32,5 +32,4 @@ The following tables list the members exposed by[IEdmTransition9](EPDM.Interop.e
 ## See Also
 
 [IEdmTransition9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition9.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

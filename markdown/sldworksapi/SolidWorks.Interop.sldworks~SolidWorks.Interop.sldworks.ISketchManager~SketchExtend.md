@@ -55,13 +55,7 @@ System.bool SketchExtend(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,18 +69,12 @@ True if the sketch entity is extended to meet the nearest sketch entity, false i
 
 ## VBA Syntax
 
-See
-
-[SketchManager::SketchExtend](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchExtend.html)
-
-.
+See [SketchManager::SketchExtend](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~SketchExtend.html).
 
 ## Examples
 
 [Extend Sketch Entity (VBA)](Extend_Sketch_Entity_Example_VB.htm)
-
 [Extend Sketch Entity (VB.NET)](Extend_Sketch_Entity_Example_VBNET.htm)
-
 [Extend Sketch Entity (C#)](Extend_Sketch_Entity_Example_CSharp.htm)
 
 ## Remarks
@@ -96,9 +84,7 @@ Call this method multiple times to extend the selected line to meet successive s
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::SketchTrim Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~SketchTrim.html)
 
 ## Availability

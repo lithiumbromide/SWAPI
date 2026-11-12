@@ -40,40 +40,23 @@ System.int GetErrorCodes()
 System.int GetErrorCodes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Error codes as defined by
-
-[swSweptFlangeError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSweptFlangeError_e.html)
+Error codes as defined by [swSweptFlangeError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSweptFlangeError_e.html)
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::GetErrorCodes](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~GetErrorCodes.html)
-
-.
+See [SweptFlangeFeatureData::GetErrorCodes](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~GetErrorCodes.html).
 
 ## Examples
 
-See the
-
-[ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html)
-
-examples.
+See the [ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html) examples.
 
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
 
 ## Availability

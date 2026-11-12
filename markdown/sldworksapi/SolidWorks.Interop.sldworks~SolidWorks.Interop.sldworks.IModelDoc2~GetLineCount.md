@@ -40,13 +40,7 @@ System.int GetLineCount()
 System.int GetLineCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Number of lines in the current sketch
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetLineCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetLineCount.html)
-
-.
+See [ModelDoc2::GetLineCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetLineCount.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetLines.html)
-
 [IModelDoc2::IGetLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IGetLines.html)
 
 ## Availability

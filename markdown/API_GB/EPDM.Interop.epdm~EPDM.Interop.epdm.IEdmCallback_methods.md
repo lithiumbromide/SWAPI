@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback_methods.html"
 
 # IEdmCallback Interface Methods
 
-For a list of all members of this type, see[IEdmCallback members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback_members.html).
+For a list of all members of this type, see [IEdmCallback members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback_members.html).
 
 ## Public Methods
 
@@ -25,9 +25,6 @@ For a list of all members of this type, see[IEdmCallback members](EPDM.Interop.e
 ## See Also
 
 [IEdmCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [IEdmFolder5::CreateCardView Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5~CreateCardView.html)
-
 [IEdmEnumeratorVariable5::StoreValuesFromDatabase Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~StoreValuesFromDatabase.html)

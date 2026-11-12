@@ -40,13 +40,7 @@ System.bool IsParametric()
 System.bool IsParametric();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,14 +48,9 @@ True if surface is a parametric surface, false if not
 
 ## VBA Syntax
 
-See
-
-[Surface::IsParametric](ms-its:sldworksapivb6.chm::/sldworks~Surface~IsParametric.html)
-
-.
+See [Surface::IsParametric](ms-its:sldworksapivb6.chm::/sldworks~Surface~IsParametric.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)

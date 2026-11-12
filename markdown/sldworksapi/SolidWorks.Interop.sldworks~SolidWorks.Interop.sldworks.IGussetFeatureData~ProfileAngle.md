@@ -45,13 +45,7 @@ property System.double ProfileAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,15 @@ Angle
 
 ## VBA Syntax
 
-See
-
-[GussetFeatureData::ProfileAngle](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ProfileAngle.html)
-
-.
+See [GussetFeatureData::ProfileAngle](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ProfileAngle.html).
 
 ## Remarks
 
-[IGussetFeatureData::ProfileType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGussetFeatureData~ProfileType.html)
-
-must be set to swGussetProfilePolygon.
+[IGussetFeatureData::ProfileType](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGussetFeatureData~ProfileType.html) must be set to swGussetProfilePolygon.
 
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [IGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData_members.html)
 
 ## Availability

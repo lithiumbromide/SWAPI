@@ -47,13 +47,7 @@ System.bool GetLightEnabledInRender(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ True of the light is on, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetLightEnabledInRender](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetLightEnabledInRender.html)
-
-.
+See [ModelDocExtension::GetLightEnabledInRender](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetLightEnabledInRender.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::SetLightEnabledInRender Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SetLightEnabledInRender.html)
 
 ## Availability

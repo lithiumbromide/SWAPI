@@ -9,8 +9,7 @@ source: "sldworksapi/Select_Near_and_Far_Side_Countersink_Hole_Options_Example_V
 
 # Select Near and Far Side Hole Wizard Countersink Features Example (VB.NET)
 
-This example shows how to select near and far side Hole Wizard countersink
-features.
+This example shows how to select near and far side Hole Wizard countersink features.
 
 ```vb
  '----------------------------------------------------------------------------

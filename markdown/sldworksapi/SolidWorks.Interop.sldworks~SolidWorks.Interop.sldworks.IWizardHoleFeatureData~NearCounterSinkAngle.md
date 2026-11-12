@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 # NearCounterSinkAngle Property (IWizardHoleFeatureData)
 
-Obsolete. Superseded by
-
-[IWizardHoleFeatureData2::NearCounterSinkAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~NearCounterSinkAngle.html)
-
-.
+Obsolete. Superseded by [IWizardHoleFeatureData2::NearCounterSinkAngle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~NearCounterSinkAngle.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double NearCounterSinkAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData::NearCounterSinkAngle](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~NearCounterSinkAngle.html)
-
-.
+See [WizardHoleFeatureData::NearCounterSinkAngle](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData~NearCounterSinkAngle.html).
 
 ## See Also
 
 [IWizardHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData.html)
-
 [IWizardHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData_members.html)

@@ -55,13 +55,7 @@ System.Object^ AddPathLengthDim(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,18 +69,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::AddPathLengthDim](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~AddPathLengthDim.html)
-
-.
+See [ModelDocExtension::AddPathLengthDim](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~AddPathLengthDim.html).
 
 ## Examples
 
 [Create Path Length Dimension (VBA)](Create_Path_Length_Dimension_Example_VB.htm)
-
 [Create Path Length Dimension (VB.NET)](Create_Path_Length_Dimension_Example_VBNET.htm)
-
 [Create Path Length Dimension (C#)](Create_Path_Length_Dimension_Example_CSharp.htm)
 
 ## Remarks
@@ -101,7 +89,6 @@ Before calling this method to create a path length dimension:
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

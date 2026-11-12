@@ -40,46 +40,25 @@ System.object GetTableAnnotations()
 System.Object^ GetTableAnnotations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[weldment cut-list annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListAnnotation.html)
-
-for this weldment cut list table
+Array of [weldment cut-list annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentCutListAnnotation.html) for this weldment cut list table
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListFeature::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~GetTableAnnotations.html)
-
-.
+See [WeldmentCutListFeature::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListFeature~GetTableAnnotations.html).
 
 ## Examples
 
-See the
-
-[IWeldmentCutListFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
-examples.
+See the [IWeldmentCutListFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html) examples.
 
 ## See Also
 
 [IWeldmentCutListFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature.html)
-
 [IWeldmentCutListFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature_members.html)
-
 [IWeldmentCutListFeature::IGetTableAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature~IGetTableAnnotations.html)
-
 [IWeldmentCutListFeature::GetTableAnnotationCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListFeature~GetTableAnnotationCount.html)
 
 ## Availability

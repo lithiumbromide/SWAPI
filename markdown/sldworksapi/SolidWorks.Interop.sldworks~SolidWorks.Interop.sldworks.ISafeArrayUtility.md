@@ -16,7 +16,7 @@ Access the ISafeArrayUtility interface, which can:
 - get a Variant SafeArray and return the number of SafeArray objects in the Variant SafeArray and their data type.
 - get and put a value in a Variant SafeArray of the same data type.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +47,8 @@ public interface class ISafeArrayUtility
 ## Examples
 
 [Get Names of Configurations Using Variant (C++)](ConfigurationTraversalCPP.htm)
-
 [Get Object's Persistent Reference ID (C++)](Get_Object_s_Persistent_Reference_ID_Example_CPlusPlus_COM.htm)
-
 [Get Spline Points (C++)](Get_Spline_Points_Example_CPlusPlus_COM.htm)
-
 [Get Scale Factor of Each Model View (C++)](Get_Scale_of_Each_Model_View_Example_CPlusPlus_COM.htm)
 
 ## Remarks
@@ -62,13 +59,13 @@ This ISafeArrayUtility interface's methods are only compatible with raw pointers
 
 - - IDispatch* pDisp1; //This works
 
-IDispatchPtr pDisp2 //This does not work
+    IDispatchPtr pDisp2 //This does not work
 
-CComPtr<IDispatch> pDisp3 //This does not work
+    CComPtr<IDispatch> pDisp3 //This does not work
 
-BSTR fileName1 //This works
+    BSTR fileName1 //This works
 
-CComBSTR fileName2 //This does not work
+    CComBSTR fileName2 //This does not work
 
 ## Accessors
 
@@ -81,5 +78,4 @@ CComBSTR fileName2 //This does not work
 ## See Also
 
 [ISafeArrayUtility Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISafeArrayUtility_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

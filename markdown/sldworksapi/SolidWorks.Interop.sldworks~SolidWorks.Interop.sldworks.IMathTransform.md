@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 Provides a simplified interface for manipulating transformation matrix data.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,26 +41,16 @@ public interface class IMathTransform
 
 ## VBA Syntax
 
-See
-
-[MathTransform](ms-its:sldworksapivb6.chm::/sldworks~MathTransform.html)
-
-.
+See [MathTransform](ms-its:sldworksapivb6.chm::/sldworks~MathTransform.html).
 
 ## Examples
 
 [Get Coordinate System Transform (VBA)](Get_Coordinate_System_Transform_Example_VB.htm)
-
 [Calculate Transformations in Part (C#)](Calculate_Transformations_in_Part_Example_CSharp.htm)
-
 [Calculate Transformations in Part (VB.NET)](Calculate_Transformations_in_Part_Example_VBNET.htm)
-
 [Calculate Transformations in Part (VBA)](Calculate_Transformations_in_Part_Example_VB.htm)
-
 [Get Patterned Cosmetic Thread Annotations Data (C#)](Get_Patterned_Cosmetic_Thread_Annotations_Data_Example_CSharp.htm)
-
 [Get Patterned Cosmetic Thread Annotations Data (VB.NET)](Get_Patterned_Cosmetic_Thread_Annotations_Data_Example_VBNET.htm)
-
 [Get Patterned Cosmetic Thread Annotations Data (VBA)](Get_Patterned_Cosmetic_Thread_Annotations_Data_Example_VB.htm)
 
 ## Remarks
@@ -75,7 +65,7 @@ Transformation matrix data:
 
 |j k l . m |
 
-The SOLIDWORKS transformation matrix is stored as a homogeneous matrix of 16 elements, ordered as shown. The first 9 elements(a to i)are elements of a 3x3 rotational sub-matrix, the next 3 elements(j,k,l)define a translation vector, and the next 1 element(m)is a scaling factor. The last 3 elements(n,o,p)are unused in this context.
+The SOLIDWORKS transformation matrix is stored as a homogeneous matrix of 16 elements, ordered as shown. The first 9 elements (a to i) are elements of a 3x3 rotational sub-matrix, the next 3 elements (j,k,l) define a translation vector, and the next 1 element (m) is a scaling factor. The last 3 elements (n,o,p) are unused in this context.
 
 The 3x3 rotational sub-matrix represents 3 axis sets:
 
@@ -143,19 +133,19 @@ If the 3 axis sets of the 3x3 rotational sub-matrix are not orthogonal or unifie
 
 [IMacroFeatureData::GetEditTargetTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~GetEditTargetTransform.html)
 
-[IMacroFeatureData::GetSelections3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~GetSelections3.html)and[IMacroFeatureData::IGetSelections3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetSelections3.html)
+[IMacroFeatureData::GetSelections3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~GetSelections3.html) and [IMacroFeatureData::IGetSelections3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~IGetSelections3.html)
 
 [IMacroFeatureData::PatternTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMacroFeatureData~PatternTransform.html)
 
-[IMathTransform::Inverse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~Inverse.html)and[IMathTransform::IInverse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~IInverse.html)
+[IMathTransform::Inverse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~Inverse.html) and [IMathTransform::IInverse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~IInverse.html)
 
-[IMathTransform::Multiply](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~Multiply.html)and[IMathTransform::IMultiply](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~IMultiply.html)
+[IMathTransform::Multiply](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~Multiply.html) and [IMathTransform::IMultiply](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform~IMultiply.html)
 
 [IMathUtility::ComposeTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~ComposeTransform.html)
 
-[IMathUtility::CreateTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~CreateTransform.html)and[IMathUtility::ICreateTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~ICreateTransform.html)
+[IMathUtility::CreateTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~CreateTransform.html) and [IMathUtility::ICreateTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~ICreateTransform.html)
 
-[IMathUtility::CreateTransformRotateAxis](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~CreateTransformRotateAxis.html)and[IMathUtility::ICreateTransformRotateAxis](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~ICreateTransformRotateAxis.html)
+[IMathUtility::CreateTransformRotateAxis](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~CreateTransformRotateAxis.html) and [IMathUtility::ICreateTransformRotateAxis](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathUtility~ICreateTransformRotateAxis.html)
 
 [IMirrorPartFeatureData::GetTransform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMirrorPartFeatureData~GetTransform.html)
 
@@ -190,13 +180,8 @@ If the 3 axis sets of the 3x3 rotational sub-matrix are not orthogonal or unifie
 ## See Also
 
 [IMathTransform Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IMathPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathPoint.html)
-
 [IMathUtility Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathUtility.html)
-
 [IMathVector Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
 [IUserUnit Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)

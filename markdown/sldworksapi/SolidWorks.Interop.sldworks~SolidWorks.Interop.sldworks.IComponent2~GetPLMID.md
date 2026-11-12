@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetPLMID Method (IComponent2)
 
-Gets the ID of this
-
-[SOLIDWORKS Connected](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm)
-
-document.
+Gets the ID of this [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm) document.
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.string GetPLMID()
 System.String^ GetPLMID();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,16 +48,11 @@ ID of this document
 
 ## VBA Syntax
 
-See
-
-[Component2::GetPLMID](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetPLMID.html)
-
-.
+See [Component2::GetPLMID](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetPLMID.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
 
 ## Availability

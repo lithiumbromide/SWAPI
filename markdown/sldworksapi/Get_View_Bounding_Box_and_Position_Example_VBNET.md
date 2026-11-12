@@ -9,8 +9,7 @@ source: "sldworksapi/Get_View_Bounding_Box_and_Position_Example_VBNET.htm"
 
 # Get View Bounding Box and Position Example (VB.NET)
 
-This example shows how to get the bounding box, geometric center, and
-position lock status of all drawing views in the drawing sheet.
+This example shows how to get the bounding box, geometric center, and position lock status of all drawing views in the drawing sheet.
 
 ```
 '---------------------------------------------------------

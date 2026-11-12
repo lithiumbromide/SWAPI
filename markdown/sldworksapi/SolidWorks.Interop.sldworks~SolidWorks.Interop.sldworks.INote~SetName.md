@@ -47,13 +47,7 @@ System.bool SetName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if the note name is changed successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[Note::SetName](ms-its:sldworksapivb6.chm::/sldworks~Note~SetName.html)
-
-.
+See [Note::SetName](ms-its:sldworksapivb6.chm::/sldworks~Note~SetName.html).
 
 ## Examples
 
@@ -78,7 +68,5 @@ See
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::GetName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetName.html)

@@ -45,32 +45,19 @@ property System.int Style {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Styles as defined by
-
-[swPropMgrPageTextBoxStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropMgrPageTextBoxStyle_e.html)
+Styles as defined by [swPropMgrPageTextBoxStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPropMgrPageTextBoxStyle_e.html)
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageTextbox::Style](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageTextbox~Style.html)
-
-.
+See [PropertyManagerPageTextbox::Style](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageTextbox~Style.html).
 
 ## See Also
 
 [IPropertyManagerPageTextbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageTextbox.html)
-
 [IPropertyManagerPageTextbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageTextbox_members.html)
 
 ## Availability

@@ -46,13 +46,7 @@ void SetHeightInPoints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,22 +54,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[Note::SetHeightInPoints](ms-its:sldworksapivb6.chm::/sldworks~Note~SetHeightInPoints.html)
-
-.
+See [Note::SetHeightInPoints](ms-its:sldworksapivb6.chm::/sldworks~Note~SetHeightInPoints.html).
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::GetHeight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetHeight.html)
-
 [INote::GetHeightAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetHeightAtIndex.html)
-
 [INote::GetHeightInPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetHeightInPoints.html)
-
 [INote::SetHeight Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~SetHeight.html)

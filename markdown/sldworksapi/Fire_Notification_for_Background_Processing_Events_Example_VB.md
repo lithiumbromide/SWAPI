@@ -9,14 +9,34 @@ source: "sldworksapi/Fire_Notification_for_Background_Processing_Events_Example_
 
 # Fire Notifications for Background Processing Events Example (VBA)
 
-This example shows how to fire notifications when background processing
-events occur.
+This example shows how to fire notifications when background processing events occur.
 
-'--------------------------------------------------------------------------- ' Preconditions: ' 1. Create a form, UserForm1, that contains the following controls: ' * CheckBox1 with caption Enable background processing and
-open drawing ' * CommandButton1 with caption Close after background
-processing end event fires ' 2. Copy this code to the main module. ' 3. Copy this code to UserForm1. ' 4. Modify the path in UserForm1's code to point to a large drawing document ' containing many parts. ' 5. Open the Task Manager, click the Processes tab, and click the ' CPU column header to sort the processes in descending order. ' 6. Run this macro to show UserForm1. ' a. Select Enable background processing and open drawing . ' 1. Enables background processing for the application. ' 2. Opens the specified drawing document. ' 3. Fires background processing
-start event. ' b. In Task Manager, observe that several sldbgproc.exe processes ' are occupying most of the CPU. ' c. After several seconds, observe that the sldbgproc.exe processes
-stop, ' and the background processing end event fires. ' d. Click Close after background processing end event fires . ' UserForm1 unloads. ' ' Postconditions: Inspect the Immediate window for background processing ' event notifications. '---------------------------------------------------------------------------
+'---------------------------------------------------------------------------
+' Preconditions:
+' 1. Create a form, UserForm1, that contains the following controls:
+' * CheckBox1 with caption **Enable background processing and open drawing**
+' * CommandButton1 with caption **Close after background processing end event fires**
+' 2. Copy [this code](#main) to the main module.
+' 3. Copy [this code](#Class) to UserForm1.
+' 4. Modify the path in UserForm1's code to point to a large drawing document
+' containing many parts.
+' 5. Open the Task Manager, click the Processes tab, and click the
+' CPU column header to sort the processes in descending order.
+' 6. Run this macro to show UserForm1.
+' a. Select **Enable background processing and open drawing**.
+' 1. Enables background processing for the application.
+' 2. Opens the specified drawing document.
+' 3. Fires background processing start event.
+' b. In Task Manager, observe that several **sldbgproc.exe** processes
+' are occupying most of the CPU.
+' c. After several seconds, observe that the **sldbgproc.exe** processes stop,
+' and the background processing end event fires.
+' d. Click **Close after background processing end event fires**.
+' UserForm1 unloads.
+'
+' Postconditions: Inspect the Immediate window for background processing
+' event notifications.
+'---------------------------------------------------------------------------
 
 ```vb
 'Main module

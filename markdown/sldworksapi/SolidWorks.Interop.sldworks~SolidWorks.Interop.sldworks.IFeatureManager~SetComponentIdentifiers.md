@@ -55,35 +55,21 @@ System.int SetComponentIdentifiers(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Primary`: Component identifier as defined by
-
-[swComponentIdentifier_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swComponentIdentifier_e.html)
+- `Primary`: Component identifier as defined by [swComponentIdentifier_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swComponentIdentifier_e.html)
 - `Secondary`: Component identifier(s) as defined by swComponentIdentifier_e
 - `Tertiary`: Component identifier(s) as defined by swComponentIdentifier_e
 
 ### Return Value
 
-Result code as defined by
-
-[swSetComponentIdentifierResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSetComponentIdentifierResult_e.html)
+Result code as defined by [swSetComponentIdentifierResult_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSetComponentIdentifierResult_e.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::SetComponentIdentifiers](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~SetComponentIdentifiers.html)
-
-.
+See [FeatureManager::SetComponentIdentifiers](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~SetComponentIdentifiers.html).
 
 ## Examples
 
@@ -91,7 +77,7 @@ See
 
 '-------------------------------------------------------
 ' Preconditions:
-' 1. Open`public_documents`**\SOLIDWORKS\SOLIDWORKS 2022\samples\tutorial\smartcomponents\pillow_block.sldasm**.
+' 1. Open `public_documents`**\SOLIDWORKS\SOLIDWORKS 2022\samples\tutorial\smartcomponents\pillow_block.sldasm**.
 ' 2. Widen the FeatureManager design tree.
 '
 ' Postconditions: Inspect the FeatureManager design tree and press F5 after each Stop.
@@ -110,7 +96,7 @@ Set Part = swApp.ActiveDoc
 Set swFeatMgr = Part.FeatureManager
 
 ' Do show configuration or display state name if only one exists
-swFeatMgr.**HideComponentSingleConfigurationOrDisplayStateNames**= False
+swFeatMgr.**HideComponentSingleConfigurationOrDisplayStateNames** = False
 
 ' Set primary identifier
 compIdentifierRet = swFeatMgr.**SetComponentIdentifiers**(swComponentIdentifier_ComponentName, 0, 0)
@@ -139,27 +125,15 @@ End Sub
 
 This method:
 
-- Works in both SOLIDWORKS Desktop and
-
-  [SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-  .
-- Is analogous to right-clicking on the top-level component in the FeatureManager design tree and selecting
-
-  Tree Display > Component Name and Description
-
-  .
+- Works in both SOLIDWORKS Design and [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
+- Is analogous to right-clicking on the top-level component in the FeatureManager design tree and selecting **Tree Display > Component Name and Description**.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::ComponentPrimaryIdentifier Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~ComponentPrimaryIdentifier.html)
-
 [IFeatureManager::ComponentSecondaryIdentifier Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~ComponentSecondaryIdentifier.html)
-
 [IFeatureManager::ComponentTertiaryIdentifier Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~ComponentTertiaryIdentifier.html)
 
 ## Availability

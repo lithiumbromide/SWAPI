@@ -46,40 +46,40 @@ Imports System
 
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub main()
+    Public Sub main()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim COSMOSWORKS As Object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim COSMOSObject As CwAddincallback
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim ActDoc As CWModelDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim StudyMngr As CWStudyManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim Study As CWStudy
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim SolidMgr As CWSolidManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim SolidComponent As CWSolidComponent
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim SolidBody As CWSolidBody
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim CwMesh As CwMesh
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim CWResult As CWResults
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim FrequencyOptions As CWFrequencyStudyOptions
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim longstatus As Integer, longwarnings As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim errCode As Integer, errorCode As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim CompCount As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim BodyCount As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim j As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim i As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim bApp As Boolean
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim Freq As Object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim MassPart As Object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim el As Double, tl As Double
+        Dim COSMOSWORKS As Object
+        Dim COSMOSObject As CwAddincallback
+        Dim ActDoc As CWModelDoc
+        Dim StudyMngr As CWStudyManager
+        Dim Study As CWStudy
+        Dim SolidMgr As CWSolidManager
+        Dim SolidComponent As CWSolidComponent
+        Dim SolidBody As CWSolidBody
+        Dim CwMesh As CwMesh
+        Dim CWResult As CWResults
+        Dim FrequencyOptions As CWFrequencyStudyOptions
+        Dim longstatus As Integer, longwarnings As Integer
+        Dim errCode As Integer, errorCode As Integer
+        Dim CompCount As Integer
+        Dim BodyCount As Integer
+        Dim j As Integer
+        Dim i As Integer
+        Dim bApp As Boolean
+        Dim Freq As Object
+        Dim MassPart As Object
+        Dim el As Double, tl As Double
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get SOLIDWORKS Simulation object
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}COSMOSObject = swApp.GetAddInObject("SldWorks.Simulation")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If COSMOSObject Is Nothing Then ErrorMsg("COSMOSObject object not found")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}COSMOSWORKS = COSMOSObject.COSMOSWORKS
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If COSMOSWORKS Is Nothing Then ErrorMsg("COSMOSWORKS object not found")
+        ' Get SOLIDWORKS Simulation object
+        COSMOSObject = swApp.GetAddInObject("SldWorks.Simulation")
+        If COSMOSObject Is Nothing Then ErrorMsg("COSMOSObject object not found")
+        COSMOSWORKS = COSMOSObject.COSMOSWORKS
+        If COSMOSWORKS Is Nothing Then ErrorMsg("COSMOSWORKS object not found")
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get active document
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.OpenDoc6("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2019\samples\Simulation Examples\shaft.sldasm", swDocumentTypes_e.swDocASSEMBLY, swOpenDocOptions_e.swOpenDocOptions_Silent, "", longstatus, longwarnings)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}ActDoc = COSMOSWORKS.ActiveDoc()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If ActDoc Is Nothing Then ErrorMsg("No active document")
+        ' Get active document
+        swApp.OpenDoc6("C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2019\samples\Simulation Examples\shaft.sldasm", swDocumentTypes_e.swDocASSEMBLY, swOpenDocOptions_e.swOpenDocOptions_Silent, "", longstatus, longwarnings)
+        ActDoc = COSMOSWORKS.ActiveDoc()
+        If ActDoc Is Nothing Then ErrorMsg("No active document")
 ```
 
 ```vb
@@ -88,40 +88,40 @@ kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If ActDoc Is Nothing Then Err
 ```
 
 ```vb
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Create new frequency study
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}StudyMngr = ActDoc.StudyManager()
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If StudyMngr Is Nothing Then ErrorMsg("No CWStudyManager object")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Study = StudyMngr.CreateNewStudy3("Frequency", swsAnalysisStudyType_e.swsAnalysisStudyTypeFrequency, swsMeshType_e.swsMeshTypeSolid, errCode)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If Study Is Nothing Then ErrorMsg("Study not created")
+        ' Create new frequency study
+        StudyMngr = ActDoc.StudyManager()
+        If StudyMngr Is Nothing Then ErrorMsg("No CWStudyManager object")
+        Study = StudyMngr.CreateNewStudy3("Frequency", swsAnalysisStudyType_e.swsAnalysisStudyTypeFrequency, swsMeshType_e.swsMeshTypeSolid, errCode)
+        If Study Is Nothing Then ErrorMsg("Study not created")
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get number of solid components
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}SolidMgr = Study.SolidManager
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If SolidMgr Is Nothing Then ErrorMsg("No CWSolidManager object")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}CompCount = SolidMgr.ComponentCount
+        ' Get number of solid components
+        SolidMgr = Study.SolidManager
+        If SolidMgr Is Nothing Then ErrorMsg("No CWSolidManager object")
+        CompCount = SolidMgr.ComponentCount
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Apply SOLIDWORKS material to rest of components
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}SolidBody = Nothing
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}SolidComponent = Nothing
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}For j = 0 To (CompCount - 1)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}SolidComponent = SolidMgr.GetComponentAt(j, errorCode)
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}BodyCount = SolidComponent.SolidBodyCount
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}For i = 0 To (BodyCount - 1)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}SolidBody = SolidComponent.GetSolidBodyAt(i, errCode)
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}If errCode <> 0 Then ErrorMsg("No solid body")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}bApp = SolidBody.SetLibraryMaterial("c:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\lang\english\sldmaterials\solidworks materials.sldmat", "Ductile Iron (SN)")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}If bApp = False Then ErrorMsg("No material applied")
-kadov_tag{{<spaces>}}                kadov_tag{{</spaces>}}SolidBody = Nothing
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Next i
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Next j
+        ' Apply SOLIDWORKS material to rest of components
+        SolidBody = Nothing
+        SolidComponent = Nothing
+        For j = 0 To (CompCount - 1)
+            SolidComponent = SolidMgr.GetComponentAt(j, errorCode)
+            BodyCount = SolidComponent.SolidBodyCount
+            For i = 0 To (BodyCount - 1)
+                SolidBody = SolidComponent.GetSolidBodyAt(i, errCode)
+                If errCode <> 0 Then ErrorMsg("No solid body")
+                bApp = SolidBody.SetLibraryMaterial("c:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\lang\english\sldmaterials\solidworks materials.sldmat", "Ductile Iron (SN)")
+                If bApp = False Then ErrorMsg("No material applied")
+                SolidBody = Nothing
+            Next i
+        Next j
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Set meshing
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}CwMesh = Study.Mesh
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If CwMesh Is Nothing Then ErrorMsg("No mesh object")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}CwMesh.Quality = 1
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Call CwMesh.GetDefaultElementSizeAndTolerance(0, el, tl)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}errCode = Study.CreateMesh(0, el, tl)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If errCode <> 0 Then ErrorMsg("Mesh failed")
-kadov_tag{{<spaces>}}
+        ' Set meshing
+        CwMesh = Study.Mesh
+        If CwMesh Is Nothing Then ErrorMsg("No mesh object")
+        CwMesh.Quality = 1
+        Call CwMesh.GetDefaultElementSizeAndTolerance(0, el, tl)
+        errCode = Study.CreateMesh(0, el, tl)
+        If errCode <> 0 Then ErrorMsg("Mesh failed")
+
           ' Set frequency study options
          FrequencyOptions = Study.FrequencyStudyOptions
          If FrequencyOptions Is Nothing Then ErrorMsg("No CWFrequencyStudyOptions object")
@@ -169,27 +169,27 @@ kadov_tag{{<spaces>}}
              Debug.Print("        Run as legacy study and import only the normal component of the pressure load? (True=yes, False=no): " & FrequencyOptions.CheckRunAsLegacy2)
          End If
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Run analysis
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}errCode = Study.RunAnalysis
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If errCode <> 0 Then ErrorMsg("Analysis failed")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}' Get results: frequencies and mass participation factors
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}CWResult = Study.Results
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If CWResult Is Nothing Then ErrorMsg("No result object")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Freq = CWResult.GetResonantFrequencies(errCode)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}MassPart = CWResult.GetMassParticipation(errCode)
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+        ' Run analysis
+        errCode = Study.RunAnalysis
+        If errCode <> 0 Then ErrorMsg("Analysis failed")
+        ' Get results: frequencies and mass participation factors
+        CWResult = Study.Results
+        If CWResult Is Nothing Then ErrorMsg("No result object")
+        Freq = CWResult.GetResonantFrequencies(errCode)
+        MassPart = CWResult.GetMassParticipation(errCode)
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}' Error routine
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Private Sub ErrorMsg(ByVal Message As String)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.SendMsgToUser2(Message, 0, 0)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.RecordLine("'*** WARNING - General")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.RecordLine("'*** " & Message)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swApp.RecordLine("")
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    ' Error routine
+    Private Sub ErrorMsg(ByVal Message As String)
+        swApp.SendMsgToUser2(Message, 0, 0)
+        swApp.RecordLine("'*** WARNING - General")
+        swApp.RecordLine("'*** " & Message)
+        swApp.RecordLine("")
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+    ''' The SldWorks swApp variable is pre-assigned for you.
+    ''' </summary>
+    Public swApp As SldWorks
 End Class
 ```

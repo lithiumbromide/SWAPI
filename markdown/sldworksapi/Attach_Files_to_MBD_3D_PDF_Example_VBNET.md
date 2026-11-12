@@ -26,7 +26,7 @@ This example shows how to attach files to a SOLIDWORKS MBD 3D PDF.
 ' 4. Sets the standard views for the SOLIDWORKS MBD 3D PDF.
 ' 5. Sets the level of accuracy for lossy compression, whether to
 '    apply lossy compression to polygons in the model, and
-'    whether to export SOLIDWORKS parts and assemblies with PMI
+'    whether to export SOLIDWORKS Design parts and assemblies with PMI
 '    annotations to STEP 242 format.
 ' 6. Sets the files to attach to SOLIDWORKS MBD 3D PDF.
 ' 7. Creates the SOLIDWORKS MBD 3D PDF.
@@ -76,7 +76,7 @@ Partial Class SolidWorksMacro
 
         'Set the level of accuracy for lossy compression, whether to apply
         'lossy compression to polygons in the model, and whether to export
-        'SOLIDWORKS parts and assemblies with PMI annotations to STEP 242
+        'SOLIDWORKS Design parts and assemblies with PMI annotations to STEP 242
         'format
         swMBDPdfData.Accuracy = sw3DPDFAccuracy_e.swLow
         swMBDPdfData.CompressLossyTessellation = True

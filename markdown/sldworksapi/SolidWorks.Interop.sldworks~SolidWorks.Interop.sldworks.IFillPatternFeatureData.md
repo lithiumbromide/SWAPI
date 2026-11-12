@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFi
 
 Allows access to a fill pattern feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IFillPatternFeatureData
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData.html)
-
-.
+See [FillPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData.html).
 
 ## Examples
 
@@ -87,25 +83,25 @@ boolstatus = Part.Extension.SelectByRay(6.36836165047043E-02, 3.96239999998329E-
 Set swFeatMgr = Part.FeatureManager
 
 Set swFeatData = swFeatMgr.**CreateDefinition**(swFmFillPattern)
-swFeatData.**CreateSeedCutPolygonSides**= 0
-swFeatData.**CreateSeedCutType**= 0
-swFeatData.**Diagonal**= 0.008
-swFeatData.**Diameter**= 0.008
-swFeatData.**Dimension**= 5.65685424949238E-03
-swFeatData.**FeaturesToPatternType**= 0
-swFeatData.**GeometryPattern**= False
-swFeatData.**InnerRadius**= 3.80422606518061E-03
-swFeatData.**InstanceSpacing**= 1.70240490494193E-02
-swFeatData.**LayoutSpacingType**= 1
-swFeatData.**LoopSpacing**= 1.70240490494193E-02
-swFeatData.**Margins**= 0
-swFeatData.**NoOfInstances**= 10
-swFeatData.**OuterRadius**= 0.004
-swFeatData.**PatternLayoutPolygonSides**= 0
-swFeatData.**PatternLayoutType**= 0
-swFeatData.**Rotation**= 0
-swFeatData.**SeedCutFlipShapeDirection**= False
-swFeatData.**StaggerAngle**= 1.0471975511966
+swFeatData.**CreateSeedCutPolygonSides** = 0
+swFeatData.**CreateSeedCutType** = 0
+swFeatData.**Diagonal** = 0.008
+swFeatData.**Diameter** = 0.008
+swFeatData.**Dimension** = 5.65685424949238E-03
+swFeatData.**FeaturesToPatternType** = 0
+swFeatData.**GeometryPattern** = False
+swFeatData.**InnerRadius** = 3.80422606518061E-03
+swFeatData.**InstanceSpacing** = 1.70240490494193E-02
+swFeatData.**LayoutSpacingType** = 1
+swFeatData.**LoopSpacing** = 1.70240490494193E-02
+swFeatData.**Margins** = 0
+swFeatData.**NoOfInstances** = 10
+swFeatData.**OuterRadius** = 0.004
+swFeatData.**PatternLayoutPolygonSides** = 0
+swFeatData.**PatternLayoutType** = 0
+swFeatData.**Rotation** = 0
+swFeatData.**SeedCutFlipShapeDirection** = False
+swFeatData.**StaggerAngle** = 1.0471975511966
 Set swFeat = swFeatMgr.**CreateFeature**(swFeatData)
 
 End Sub
@@ -116,9 +112,9 @@ End Sub
 
 ## Remarks
 
-Read[Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
+Read [Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
 
-Before calling IFeatureManager::CreateDefinition, you can pre-select the entities needed to create the fill pattern feature.
+Before calling IFeatureManager::CreateDefinition, you must pre-select the entities needed to create the fill pattern feature.
 
 | Use IModelDocExtension::SelectByID2 to select... | For the Fill Pattern's... | Using Mark... |
 | --- | --- | --- |
@@ -129,26 +125,20 @@ Before calling IFeatureManager::CreateDefinition, you can pre-select the entitie
 | Faces | Pattern objects | 5 |
 | Bodies | Pattern objects | 6 |
 
-Or, after calling IFeatureManager::CreateDefinition, you can explicitly set the corresponding properties on the feature data object. You can also initialize:
+After calling IFeatureManager::CreateDefinition, you can explicitly set other properties on the feature data object. You can also initialize:
 
 - [IFillPatternFeatureData::PatternLayoutType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~PatternLayoutType.html)
 - [IFillPatternFeatureData::LayoutSpacingType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~LayoutSpacingType.html)
 - [IFillPatternFeatureData::FeaturesToPatternType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~FeaturesToPatternType.html)
 - [IFillPatternFeatureData::GeometryPattern](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~GeometryPattern.html)
-- [IFillPatternFeatureData::LoopSpacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~LoopSpacing.html)
-
-  (for all PatternLayoutTypes except
-
-  [swPatternLayoutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutType_e.html)
-
-  .swPatternLayoutPerforation)
+- [IFillPatternFeatureData::LoopSpacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~LoopSpacing.html) (for all PatternLayoutTypes except [swPatternLayoutType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPatternLayoutType_e.html).swPatternLayoutPerforation)
 - Depending on the settings above, other properties might need to be initialized.
 
-Either way, you must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)after initializing this feature data object in order to successfully create the fill pattern feature.
+You must call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) after initializing this feature data object in order to successfully create the fill pattern feature.
 
 For all pattern layouts except swPatternLayoutType_e.swPatternLayoutPerforation, the fill pattern is created by positioning a pattern seed instance within the fill boundary and copying the pattern in concentric loops about the seed instance.
 
-See the**Fill Pattern PropertyManager**topic in the SOLIDWORKS Help for more information about fill pattern features.
+See the **Fill Pattern PropertyManager** topic in the SOLIDWORKS Help for more information about fill pattern features.
 
 ## Accessors
 
@@ -163,5 +153,4 @@ See the**Fill Pattern PropertyManager**topic in the SOLIDWORKS Help for more inf
 ## See Also
 
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -9,9 +9,7 @@ source: "sldworksapi/Pack_and_Go_Part_and_Linked_Equation_Example_CSharp.htm"
 
 # Pack and Go Part and Linked Equation Example (C#)
 
-This example shows how to determine if a part document includes any equations
-and whether those equations are linked files. The example also shows how to add the
-part document and any linked equations to Pack and Go.
+This example shows how to determine if a part document includes any equations and whether those equations are linked files. The example also shows how to add the part document and any linked equations to Pack and Go.
 
 ```
 //----------------------------------------
@@ -98,7 +96,7 @@ namespace EquationsPackAndGoCSharp.csproj
             // Get current paths and names of the documents
             status = swPackAndGo.GetDocumentNames(out fileNames);
             pgFileNames = (object[])fileNames;
-            Debug.Print("    Add these SOLIDWORKS files to Pack and Go: ");
+            Debug.Print("    Add these SOLIDWORKS Design files to Pack and Go: ");
             if ((pgFileNames != null))
             {
                 for (i = 0; i <= pgFileNames.GetUpperBound(0); i++)
@@ -114,7 +112,7 @@ namespace EquationsPackAndGoCSharp.csproj
             myPath = "c:\\temp\\";
             status = swPackAndGo.SetSaveToName(true, myPath);
 
-            // Pack and Go both SOLIDWORKS and non-SOLIDWORKS files
+            // Pack and Go both SOLIDWORKS Design and non-SOLIDWORKS-Design files
             statuses = (int[])swModelDocExt.SavePackAndGo(swPackAndGo);
 
         }

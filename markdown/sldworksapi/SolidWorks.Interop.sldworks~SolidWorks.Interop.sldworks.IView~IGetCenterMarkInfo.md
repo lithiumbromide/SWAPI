@@ -40,29 +40,15 @@ System.double IGetCenterMarkInfo()
 System.double IGetCenterMarkInfo();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[View::IGetCenterMarkInfo](ms-its:sldworksapivb6.chm::/sldworks~View~IGetCenterMarkInfo.html)
-
-.
+See [View::IGetCenterMarkInfo](ms-its:sldworksapivb6.chm::/sldworks~View~IGetCenterMarkInfo.html).
 
 ## Remarks
 
@@ -70,31 +56,31 @@ Center marks are now annotations. Previously, center marks were features. This m
 
 The return value is the following array of doubles:
 
-[numCenterMarks,[numCenterMarkLines,lineType1,plus1StartPt[3],plus1EndPt[3],lineType2,plus2StartPt[3],plus2EndPt[3],[lineType, lineStartPt[3],lineEndPt[3]]]]
+[ numCenterMarks, [ numCenterMarkLines, lineType1, plus1StartPt[3], plus1EndPt[3], lineType2, plus2StartPt[3], plus2EndPt[3], [ lineType, lineStartPt[3], lineEndPt[3] ] ] ]
 
 where:
 
-numCenterMarks= is the number of center marks in this view. See also[IView::GetCenterMarkCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetCenterMarkCount2.html).
+numCenterMarks = is the number of center marks in this view. See also [IView::GetCenterMarkCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetCenterMarkCount2.html).
 
-The following set of data repeats itself for each center mark in the view. The number of times the information is given isnumCenterMarks:
+The following set of data repeats itself for each center mark in the view. The number of times the information is given is numCenterMarks:
 
-numCenterMarkLines= number of centermark lines in the current center mark. Every center mark has at least two lines. These two lines represent the plus at the center of the circle.
+numCenterMarkLines = number of centermark lines in the current center mark. Every center mark has at least two lines. These two lines represent the plus at the center of the circle.
 
-lineType1= line type associated with the first plus-sign line. See the[swLineTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html)enumeration.
+lineType1 = line type associated with the first plus-sign line. See the [swLineTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html) enumeration.
 
-plus1StartPt[3]= X,Y,Z start point of the first line in the plus sign.
+plus1StartPt[3] = X,Y,Z start point of the first line in the plus sign.
 
-plus1EndPt[3]= X,Y,Z end point of the first line in the plus sign.
+plus1EndPt[3] = X,Y,Z end point of the first line in the plus sign.
 
-lineType2= line type associated with the second plus-sign line. See the[swLineTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html)enumeration.
+lineType2 = line type associated with the second plus-sign line. See the [swLineTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html) enumeration.
 
-plus2StartPt[3]= X,Y,Z start point of the second line in the plus sign.
+plus2StartPt[3] = X,Y,Z start point of the second line in the plus sign.
 
-plus2EndPt[3]= X,Y,Z end point of the second line in the plus sign.
+plus2EndPt[3] = X,Y,Z end point of the second line in the plus sign.
 
-This set of data also repeats itself for the remaining centermark lines in this particular center mark. The number of times this information is given is (numCenterMarkLines- 2):
+This set of data also repeats itself for the remaining centermark lines in this particular center mark. The number of times this information is given is (numCenterMarkLines - 2):
 
-LineType= line type associated with the second plus-sign line. See the[swLineTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html)enumeration.
+LineType = line type associated with the second plus-sign line. See the [swLineTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineTypes_e.html) enumeration.
 
 lineStartPt[3] = X,Y,Z start point for this centermark line.
 
@@ -103,15 +89,9 @@ lineEndPt[3] = X,Y,Z end point for this centermark line.
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetCenterMarkInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCenterMarkInfo.html)
-
 [IView::GetCenterMarks Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCenterMarks.html)
-
 [IView::IGetCenterMarks Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetCenterMarks.html)
-
 [ICenterMark Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICenterMark.html)
-
 [IView::AutoInsertCenterMarks Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~AutoInsertCenterMarks.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetTriangleCount Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::GetTriangleCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetTriangleCount.html)
-
-.
+Obsolete. Superseded by [INote::GetTriangleCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetTriangleCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetTriangleCount()
 System.int GetTriangleCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::GetTriangleCount](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetTriangleCount.html)
-
-.
+See [CustomSymbol::GetTriangleCount](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetTriangleCount.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

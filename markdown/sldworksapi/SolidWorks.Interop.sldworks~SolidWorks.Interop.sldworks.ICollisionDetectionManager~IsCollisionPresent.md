@@ -47,13 +47,7 @@ System.int IsCollisionPresent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,38 +55,23 @@ See
 
 ### Return Value
 
-Return code as defined in
-
-[swCollisionDetectionResults_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCollisionDetectionResults_e.html)
+Return code as defined in [swCollisionDetectionResults_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCollisionDetectionResults_e.html)
 
 ## VBA Syntax
 
-See
-
-[CollisionDetectionManager::IsCollisionPresent](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~IsCollisionPresent.html)
-
-.
+See [CollisionDetectionManager::IsCollisionPresent](ms-its:sldworksapivb6.chm::/sldworks~CollisionDetectionManager~IsCollisionPresent.html).
 
 ## Examples
 
-See the
-
-[ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
-example.
+See the [ICollisionDetectionManager](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html) example.
 
 ## Remarks
 
-This method takes less time to run than
-
-[ICollisionDetectionManager::GetCollisions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~GetCollisions.html)
-
-.
+This method takes less time to run than [ICollisionDetectionManager::GetCollisions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager~GetCollisions.html).
 
 ## See Also
 
 [ICollisionDetectionManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager.html)
-
 [ICollisionDetectionManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollisionDetectionManager_members.html)
 
 ## Availability

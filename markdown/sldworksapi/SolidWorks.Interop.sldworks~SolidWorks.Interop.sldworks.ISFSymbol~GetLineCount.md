@@ -40,13 +40,7 @@ System.int GetLineCount()
 System.int GetLineCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,13 @@ Number of lines
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::GetLineCount](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetLineCount.html)
-
-.
+See [SFSymbol::GetLineCount](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetLineCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ISFSymbol::GetLineAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetLineAtIndex.html)
-
-and
-
-[ISFSymbol::IGetLineAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetLineAtIndex.html)
-
-to get the number of lines in this surface finish symbol.
+Call this method before calling [ISFSymbol::GetLineAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetLineAtIndex.html) and [ISFSymbol::IGetLineAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetLineAtIndex.html) to get the number of lines in this surface finish symbol.
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)

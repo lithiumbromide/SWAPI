@@ -52,11 +52,7 @@ void RemoveUser(
 
 ## VBA Syntax
 
-See
-
-[PDMWGroup::RemoveUser](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroup~RemoveUser.html)
-
-.
+See [PDMWGroup::RemoveUser](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroup~RemoveUser.html).
 
 ## Remarks
 
@@ -65,15 +61,10 @@ Only a vault administrator can use this method.
 ## See Also
 
 [IPDMWGroup Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup.html)
-
 [IPDMWGroup Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup_members.html)
-
 [IDPMWGroup::SetUserPermissions Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~SetUserPermissions.html)
-
 [IPDMWGroup::AddUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~AddUser.html)
-
 [IPDMWConnection::CreateUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CreateUser.html)
-
 [IPDMWConnection::DeleteUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteUser.html)
 
 ## Availability

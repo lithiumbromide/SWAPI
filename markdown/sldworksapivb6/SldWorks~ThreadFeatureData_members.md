@@ -1,6 +1,5 @@
 ---
-title: "ThreadFeatureData Object
-Members"
+title: "ThreadFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ThreadFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ThreadFeatureData_members.html"
 ---
 
-# ThreadFeatureData Object
-Members
+# ThreadFeatureData Object Members
 
 ## Public Methods
 

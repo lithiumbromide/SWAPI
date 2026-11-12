@@ -39,5 +39,4 @@ This name shows up as a link in the left-side pane in the task property dialog i
 ## See Also
 
 [EdmTaskSetupPage Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage.html)
-
 [EdmTaskSetupPage Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSetupPage_members.html)

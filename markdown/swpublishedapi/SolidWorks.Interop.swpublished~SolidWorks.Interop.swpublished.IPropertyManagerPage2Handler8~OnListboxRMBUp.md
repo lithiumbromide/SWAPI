@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnListboxRMBUp Method (IPropertyManagerPage2Handler8)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler9::OnListboxRMBUp](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnListboxRMBUp.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler9::OnListboxRMBUp](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler9~OnListboxRMBUp.html).
 
 ## Syntax
 
@@ -66,16 +62,11 @@ void OnListboxRMBUp(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler8::OnListboxRMBUp](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnListboxRMBUp.html)
-
-.
+See [PropertyManagerPage2Handler8::OnListboxRMBUp](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler8~OnListboxRMBUp.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler8 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8.html)
-
 [IPropertyManagerPage2Handler8 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler8_members.html)
 
 ## Availability

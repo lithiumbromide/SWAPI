@@ -46,11 +46,7 @@ DimXpertFeature^ GetBottomFeature();
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundClosedSlot3DFeature::GetBottomFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundClosedSlot3DFeature~GetBottomFeature.html)
-
-.
+See [DimXpertCompoundClosedSlot3DFeature::GetBottomFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundClosedSlot3DFeature~GetBottomFeature.html).
 
 ## Remarks
 
@@ -59,7 +55,6 @@ Only blind slots have bottom features. The bottom feature of a blind slot is a D
 ## See Also
 
 [IDimXpertCompoundClosedSlot3DFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature.html)
-
 [IDimXpertCompoundClosedSlot3DFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundClosedSlot3DFeature_members.html)
 
 ## Availability

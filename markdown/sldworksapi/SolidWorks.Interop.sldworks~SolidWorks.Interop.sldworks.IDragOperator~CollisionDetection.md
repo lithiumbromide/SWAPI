@@ -55,21 +55,11 @@ System.bool CollisionDetection(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `EntityArray`: Array of
-
-[components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-for collision detection
+- `EntityArray`: Array of [components](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) for collision detection
 - `PartOnly`: True checks for collisions with only the components that you selected to move, false check for collisions in all affected components
 - `StopAt`: True stops the motion of the component when it touches any other entity, false does not
 
@@ -79,20 +69,13 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DragOperator::CollisionDetection](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~CollisionDetection.html)
-
-.
+See [DragOperator::CollisionDetection](ms-its:sldworksapivb6.chm::/sldworks~DragOperator~CollisionDetection.html).
 
 ## See Also
 
 [IDragOperator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator.html)
-
 [IDragOperator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator_members.html)
-
 [IDragOperator::CollisionDetectionEnabled Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~CollisionDetectionEnabled.html)
-
 [IDragOperator::ICollisionDetection Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDragOperator~ICollisionDetection.html)
 
 ## Availability

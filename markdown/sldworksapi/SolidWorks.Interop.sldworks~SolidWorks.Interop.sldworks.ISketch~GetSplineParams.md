@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # GetSplineParams Method (ISketch)
 
-Obsolete. Superseded by
-
-[ISketch::GetSplineParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSplineParams2.html)
-
-and
-
-[ISketch::IGetSplineParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSplineParams2.html)
-
-.
+Obsolete. Superseded by [ISketch::GetSplineParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~GetSplineParams2.html) and [ISketch::IGetSplineParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetSplineParams2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetSplineParams()
 System.Object^ GetSplineParams();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetSplineParams](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSplineParams.html)
-
-.
+See [Sketch::GetSplineParams](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetSplineParams.html).
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)

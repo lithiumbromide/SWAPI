@@ -40,34 +40,20 @@ System.int GetD1OffsetReferenceType()
 System.int GetD1OffsetReferenceType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Type of reference geometry as defined in
-
-[swSelectionReferenceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectionReferenceTypes_e.html)
+Type of reference geometry as defined in [swSelectionReferenceTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectionReferenceTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[BaseFlangeFeatureData::GetD1OffsetReferenceType](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~GetD1OffsetReferenceType.html)
-
-.
+See [BaseFlangeFeatureData::GetD1OffsetReferenceType](ms-its:sldworksapivb6.chm::/sldworks~BaseFlangeFeatureData~GetD1OffsetReferenceType.html).
 
 ## See Also
 
 [IBaseFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData.html)
-
 [IBaseFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData_members.html)
-
 [IBaseFlangeFeatureData::GetD2OffsetReferenceType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBaseFlangeFeatureData~GetD2OffsetReferenceType.html)
 
 ## Availability

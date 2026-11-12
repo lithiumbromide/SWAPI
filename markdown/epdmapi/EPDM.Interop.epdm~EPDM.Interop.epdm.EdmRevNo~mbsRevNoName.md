@@ -35,5 +35,4 @@ System.String^ mbsRevNoName
 ## See Also
 
 [EdmRevNo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo.html)
-
 [EdmRevNo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevNo_members.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHe
 
 # IHelixFeatureData Interface Members
 
-The following tables list the members exposed by[IHelixFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html).
+The following tables list the members exposed by [IHelixFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html).
 
 ## Public Properties
 
@@ -45,15 +45,9 @@ The following tables list the members exposed by[IHelixFeatureData](SolidWorks.I
 ## See Also
 
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertHelix Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertHelix.html)
-
 [IFeatureManager::InsertVariablePitchHelix Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertVariablePitchHelix.html)
-
 [IFeatureManager::AddVariablePitchHelixFirstPitchAndDiameter Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AddVariablePitchHelixFirstPitchAndDiameter.html)
-
 [IFeatureManager::AddVariablePitchHelixSegment Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~AddVariablePitchHelixSegment.html)
-
 [IFeatureManager::EndVariablePitchHelix Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~EndVariablePitchHelix.html)

@@ -45,13 +45,7 @@ property System.bool Close {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True for closed loft features, false for open
 
 ## VBA Syntax
 
-See
-
-[LoftFeatureData::Close](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~Close.html)
-
-.
+See [LoftFeatureData::Close](ms-its:sldworksapivb6.chm::/sldworks~LoftFeatureData~Close.html).
 
 ## See Also
 
 [ILoftFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData.html)
-
 [ILoftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftFeatureData_members.html)
 
 ## Availability

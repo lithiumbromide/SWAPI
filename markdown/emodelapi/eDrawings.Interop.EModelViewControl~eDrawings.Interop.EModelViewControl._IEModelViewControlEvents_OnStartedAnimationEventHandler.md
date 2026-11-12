@@ -39,11 +39,7 @@ public delegate void _IEModelViewControlEvents_OnStartedAnimationEventHandler();
 
 ## VBA Syntax
 
-See
-
-[OnStartedAnimation Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnStartedAnimation_EV.html)
-
-.
+See [OnStartedAnimation Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnStartedAnimation_EV.html).
 
 ## Remarks
 

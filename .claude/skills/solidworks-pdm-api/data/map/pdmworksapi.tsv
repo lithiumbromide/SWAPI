@@ -1,0 +1,171 @@
+#swapi-map 1 module=pdmworksapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@IPDMWConfiguration	i	Provides access to SOLIDWORKS configurations.	via=IPDMWConfigurations.Item
+AlternateName	p	string AlternateName {get; set;}	2003		Gets the alternate name for the configuration.
+Comment	p	string Comment {get; set;}	2003		Gets comments for the configuration.
+docname	p	string docname {get; set;}	2003		Gets the name of the source document for the configuration.
+DocRevision	p	string DocRevision {get; set;}	2003		Gets the revision of the source document for the configuration.
+Document	p	PDMWDocument Document {get;}	2003		Gets the document for this configuration.
+ExtReferences	p	PDMWLinks ExtReferences {get;}	2003		Gets the links to external documents referenced by this configuration.
+ExtWhereUsed	p	PDMWLinks ExtWhereUsed {get;}	2003		Gets the links to external documents that reference this configuration.
+Name	p	string Name {get; set;}	2003		Gets the name for the configuration.
+Properties	p	PDMWProperties Properties {get;}	2003		Gets the properties for the configuration.
+Quantity	p	int Quantity {get; set;}	2003	obsolete>IPDMWLink.Quantity
+References	p	PDMWLinks References {get;}	2003		Gets the links to documents referenced by this configuration.
+WhereUsed	p	PDMWLinks WhereUsed {get;}	2003		Gets the links to the documents that reference this configuration.
+@IPDMWConfigurations	i	Contains IPDMWConfiguration objects.	via=IPDMWDocument.Configurations
+Count	p	int Count {get;}	2003		Gets the number of configurations.
+Item	p	object this[ object Index ]; {get;}	2003		Gets a configuration.
+@IPDMWConnection	i	Allows you to log in and out of SOLIDWORKS Workgroup PDM and get projects and documents.	use=19
+AdminDefinedProperties	p	PDMWProperties AdminDefinedProperties {get;}	2004		Gets a collection of vault administrator-defined custom properties.
+CheckIn	m	PDMWDocument CheckIn(string filename, string project, string Number, string Description, string note, PDMWRevisionOptionType i_revOption, string Revision, string lifecycle, bool RetainOwnership, object References)	2005		Checks the specified closed document into the vault.
+CreateGroup	m	PDMWGroup CreateGroup(string Name)	2006		Creates a new group.
+CreateProject	m	PDMWProject CreateProject(string Name, string Description, string Parent)	2006		Creates a new project.
+CreateUser	m	PDMWUser CreateUser(string Name, string password, string DisplayName, string Email, string Comment, string PropertyFilterName, string PropertyFilterValue)	2006		Creates a new user.
+DeleteDocument	m	int DeleteDocument(string docname)	2006 SP4		Deletes the specified document from the vault.
+DeleteGroup	m	void DeleteGroup(string Name)	2006		Deletes the specified group.
+DeleteProject	m	void DeleteProject(string Name)	2006		Deletes the specified project.
+DeleteUser	m	void DeleteUser(string Name)	2006		Deletes the specified user.
+DocumentList	p	object DocumentList(string project) {get;}	2007		Gets a the list of document names for the specified project.
+Documents	p	PDMWDocuments Documents(string project) {get;}	2003		Gets the documents for the specified project.
+FreeCacheMemory	m	void FreeCacheMemory()	2009		Frees the cache memory.
+GetSearchOptionsObject	m	PDMWSearchOptions GetSearchOptionsObject()	2006		Gets the search options.
+GetSpecificDocument	m	PDMWDocument GetSpecificDocument(string Name, string Revision)	2003		Gets the specified document and version of that document.
+Groups	p	PDMWGroups Groups {get;}	2004		Gets a collection of groups.
+Login	m	int Login(string user, string password, string server, int request_port, int data_port)	2003		Logs the user into SOLIDWORKS Workgroup PDM and is required to initialize the IPDMWConnection object for subsequent...
+Logout	m	void Logout()	2003		Logs the user out of SOLIDWORKS Workgroup PDM and releases user-specific resources.
+Projects	p	PDMWProjects Projects {get;}	2003		Gets the SOLIDWORKS Workgroup PDM projects.
+Refresh	m	void Refresh()	2003		Refreshes the object model using the data in the vault.
+Search	m	PDMWSearchResults Search(PDMWSearchOptions pSearchOptions)	2006		Searches the vault using the specified search options.
+Statuses	p	object Statuses {get;}	2005		Gets the defined lifecycle statuses.
+Users	p	PDMWUsers Users {get;}	2004		Gets a collection of users.
+@IPDMWDocument	i	Represents and provides access to a single file that is checked into the vault. Some document properties, such as...	via=IPDMWConfiguration.Document,IPDMWConnection.CheckIn,IPDMWConnection.GetSpecificDocument,IPDMWDocuments.Item,IPDMWLink.Document,IPDMWSearchResult.Document	use=13
+AddNote	m	int AddNote(string action, string note)	2003		Adds a note to the document.
+Attachments	p	PDMWLinks Attachments {get;}	2006		Gets the non-SOLIDWORKS attachments for this SOLIDWORKS document.
+BumpRevision	m	int BumpRevision(string i_cstrNewRev, string i_cstrNote)	2006 SP4		Changes the revision number of the document.
+ChangeOwner	m	int ChangeOwner(string Owner)	2005		Changes the document's owner.
+ChangeProject	m	void ChangeProject(string project, bool bSelectedItem, PDMWChildrenType i_childrenType, bool bIgnoreLinks)	2005		Moves the document to the specified project.
+ChangeStatus	m	int ChangeStatus(string i_bstrStatus)	2003		Changes the lifecycle status of the document to the specified lifecycle status.
+Configurations	p	PDMWConfigurations Configurations {get;}	2003		Gets the configurations available for the specified document and revision.
+DateModified	p	object DateModified {get; set;}	2006		Gets the date and time that this document was last modified.
+Description	p	string Description {get; set;}	2003		Gets the description of the document.
+ExtReferences	p	PDMWLinks ExtReferences {get;}	2003		Gets the links to external documents that this document references.
+ExtWhereUsed	p	PDMWLinks ExtWhereUsed {get;}	2003		Gets the links to external document that reference this document.
+GetDocumentSize	m	object GetDocumentSize()	2013		Gets the size (in bytes) of the document.
+GetEmbeddedEDWAsBase64	m	string GetEmbeddedEDWAsBase64()	2003		Gets embedded eDrawing data with Base64 encoding, if available.
+GetStatus	m	string GetStatus()	2005		Gets the lifecycle status of the document.
+HasPDF	p	int HasPDF {get;}	2008		Gets whether this drawing document has a PDF file in the vault.
+IsTopLevel	p	int IsTopLevel {get;}	2004		Gets whether this document is at the top-level project.
+Name	p	string Name {get; set;}	2003		Gets or sets the name of the document.
+Notes	p	PDMWDocumentNotes Notes {get;}	2003		Gets the notes associated with this document.
+Number	p	string Number {get; set;}	2003		Gets the number of this document.
+Owner	p	string Owner {get; set;}	2003		Gets the current owner of this document, which may be different from the author of the document.
+project	p	string project {get;}	2003		Gets the name of the project to which this document belongs.
+Properties	p	PDMWProperties Properties {get;}	2003		Gets the properties of this document.
+References	p	PDMWLinks References {get;}	2003		Gets the links to the documents referenced by this document.
+ReleaseOwnership	m	int ReleaseOwnership()	2003 SP3		Allows you to release ownership of a document.
+Revision	p	string Revision {get; set;}	2003		Gets the revision for this document.
+RevisionLabels	p	object RevisionLabels {get;}	2005		Gets the next suggested revisions for the document.
+Revisions	p	PDMWDocuments Revisions {get;}	2003		Gets all of the revisions of this document, in order from the oldest to newest.
+Save	m	int Save(string saveDir)	2003		Copies the document.
+SaveAsPDF	m	int SaveAsPDF(string saveDir)	2008		Gets the PDF file for this drawing document from the vault, if the setting to create a PDF file of a drawing...
+SaveEmbeddedEDW	m	int SaveEmbeddedEDW(string saveFileName)	2003		Saves the eDrawings embedded in the SOLIDWORKS document, if one exists.
+Size	p	int Size {get;}	2003		Gets the size (in bytes) of a document smaller than 2GB or the size that represents the 32 low-order bits of a...
+SizeH	p	int SizeH {get;}	2013		Gets the size that represents the 32 high-order bits of a document larger than 2GB.
+SolidWorksVersion	p	int SolidWorksVersion {get;}	2005		Gets the SOLIDWORKS version of the document.
+TakeOwnership	m	int TakeOwnership()	2003		Allows you to take ownership of a document.
+UpdateStamp	p	int UpdateStamp {get;}	2004		Gets the date on which this document was last updated.
+WhereUsed	p	PDMWLinks WhereUsed {get;}	2003		Gets the links to the documents that reference this document.
+@IPDMWDocumentNote	i	Provides access to notes.	via=IPDMWDocumentNotes.Item
+action	p	string action {get; set;}	2003		Gets the description of the SOLIDWORKS Workgroup PDM event that occurred.
+DateTime	p	string DateTime {get; set;}	2003		Gets the date and time of the note associated with this document.
+Description	p	string Description {get; set;}	2003		Gets the description for this note.
+user	p	string user {get; set;}	2003		Gets the name of the user who created this note.
+@IPDMWDocumentNotes	i	Contains IPDMWDocumentNote objects.	via=IPDMWDocument.Notes
+Count	p	int Count {get;}	2003		Gets the number of notes for this document.
+Item	p	object this[ object Index ]; {get;}	2003 SP3		Gets the specified notes for this document.
+@IPDMWDocuments	i	Contains IPDMWDocument objects.	via=IPDMWConnection.Documents,IPDMWProject.Documents	use=6
+Count	p	int Count {get;}	2003		Gets the number of documents.
+Item	p	object this[ object Index ]; {get;}	2003		Gets the specified document.
+@IPDMWGroup	i	Provides access to a group object. Typically, users assigned to the same projects are also assigned to the same group.	via=IPDMWConnection.CreateGroup,IPDMWGroups.Item
+AddUser	m	void AddUser(string userName)	2006		Adds the specified user to this group.
+IsAdmin	p	bool IsAdmin {get;}	2007 SP2		Gets whether this group is a vault administrator.
+Name	p	string Name {get; set;}	2006		Gets or sets the name of this group.
+RemoveUser	m	void RemoveUser(string userName)	2006		Removes the specified user from a group.
+Users	p	PDMWUsers Users {get;}	2004		Gets the users in this group.
+@IPDMWGroups	i	Provides access to a collection of IPDMWGroup objects.	via=IPDMWConnection.Groups
+Count	p	int Count {get;}	2004		Gets the number of groups.
+Item	p	PDMWGroup this[ object Index ]; {get;}	2004		Gets the specified group.
+@IPDMWLink	i	Provides access to a link object. A link contains basic information about a referenced document.	via=IPDMWLinks.Item	use=1
+Config	p	string Config {get; set;}	2003		Gets the name of the configuration for this link.
+Document	p	PDMWDocument Document {get;}	2003		Gets the document for this link.
+Name	p	string Name {get; set;}	2003		Gets the name of the document for this link.
+project	p	string project {get; set;}	2003 SP3		Gets the name of the project for the document for this link.
+Quantity	p	int Quantity {get; set;}	2003		Gets the number of documents associated with this link.
+Revision	p	string Revision {get; set;}	2003		Gets the revision of the document associated with this link.
+Type	p	PDMWLinkType Type {get; set;}	2003		Gets the type of link.
+@IPDMWLinks	i	Contains IPDMWLink objects.	via=IPDMWConfiguration.ExtReferences,IPDMWConfiguration.ExtWhereUsed,IPDMWConfiguration.References,IPDMWConfiguration.WhereUsed,IPDMWDocument.ExtReferences,IPDMWDocument.ExtWhereUsed,IPDMWDocument.References,IPDMWDocument.WhereUsed	use=1
+Count	p	int Count {get;}	2003		Gets the number of links.
+Item	p	PDMWLink this[ int Index ]; {get;}	2003		Gets the specified link.
+@IPDMWProject	i	Provides access to the properties of vault projects.	via=IPDMWConnection.CreateProject,IPDMWProject.CreateSubProject,IPDMWProject.Parent,IPDMWProjects.Item
+AllowRead	p	int AllowRead {get; set;}	2003		Gets whether the user has read access to this project.
+AllowWrite	p	int AllowWrite {get; set;}	2003		Gets whether the user has write access to this project.
+CreateSubProject	m	PDMWProject CreateSubProject(string Name, string Description)	2005		Creates a child project to this project.
+Description	p	string Description {get; set;}	2003		Gets or sets the description for this project.
+DocumentCount	p	int DocumentCount {get;}	2007		Gets the number of documents in this project.
+DocumentList	p	object DocumentList {get;}	2007		Gets a the list of document names for this project.
+Documents	p	PDMWDocuments:IPDMWProjects Documents {get;}	2003		Gets the documents for this project.
+Name	p	string Name {get; set;}	2003		Gets or sets the name of this project.
+Parent	p	PDMWProject Parent {get; set;}	2006		Gets or sets the parent project.
+SetUserPermissions	m	bool SetUserPermissions(string Name, PDMWPermission permissions)	2006		Sets the permission for the specified user or group's project.
+SubProjects	p	PDMWProjects SubProjects {get;}	2005 SP1		Gets the child projects for this project.
+@IPDMWProjects	i	Contains IPDMWProject objects.	via=IPDMWConnection.Projects
+Count	p	int Count {get;}	2003		Gets the number of projects.
+Item	p	object this[ object Index ]; {get;}	2003		Gets the project by name.
+@IPDMWProperties	i	Contains IPDMWProperty objects.	via=IPDMWConfiguration.Properties,IPDMWConnection.AdminDefinedProperties,IPDMWDocument.Properties
+Add	m	PDMWProperty Add(string Name)	2003		Adds a new property if the name of the property is not already in the collection.
+Count	p	int Count {get;}	2003		Gets the number of properties.
+Item	p	object this[ object Index ]; {get;}	2003		Gets a property.
+Update	m	int Update()	2003		Updates SOLIDWORKS Workgroup PDM vault.
+@IPDMWProperty	i	Provides access to a configuration, document, or vault administrator-assigned custom property.	via=IPDMWProperties.Add,IPDMWProperties.Item
+Name	p	string Name {get; set;}	2003		Gets the name of this property.
+Value	p	string this {get; set;}	2003		Gets or sets the value of the property.
+@IPDMWSearchCriteria	i	Provides access to search criteria to locate documents in the vault.	via=IPDMWSearchOptions.SearchCriteria	use=4
+AddCriteria	m	bool AddCriteria(PDMWAndOr andOr, PDMWPropertyType propertyType, string propertyName, PDMWConditionType condition, string Value)	2006		Adds a search criteria.
+CriteriaCount	p	int CriteriaCount {get;}	2006		Gets the number of search criteria.
+GetCriteria	m	bool GetCriteria(int Index, out PDMWAndOr andOr, out PDMWPropertyType propertyType, out string propertyName, out PDMWConditionType condition, out string Value)	2006		Gets a search criteria.
+LoadFromFile	m	bool LoadFromFile(string filename)	2006		Clears the current search criteria and loads the search criteria from the specified file (.sqy).
+RemoveCriteria	m	void RemoveCriteria(int Index)	2006		Removes a search criteria.
+SaveToFile	m	bool SaveToFile(string filename)	2006		Saves the search criteria to the specified file (.sqy).
+@IPDMWSearchOptions	i	Provides access to search criteria options.	via=IPDMWConnection.GetSearchOptionsObject	use=6
+IgnoreCase	p	bool IgnoreCase {get; set;}	2006		Gets or sets whether to ignore text case in text string searches.
+IgnoreLinks	p	bool IgnoreLinks {get; set;}	2006		Gets or sets whether to ignore links or shortcuts during the search.
+IncludeHiddenDocuments	p	bool IncludeHiddenDocuments {get; set;}	2006		Gets or sets whether to include hidden projects and documents in a search.
+SearchConfigSpecificProperties	p	bool SearchConfigSpecificProperties {get; set;}	2006		Gets or sets whether to search configuration-specific properties during a search.
+SearchCriteria	p	PDMWSearchCriteria SearchCriteria {get;}	2006		Gets the search criteria.
+SearchOnlyChildrenOf	p	string SearchOnlyChildrenOf {get; set;}	2006		Gets or sets whether to limit the scope of the search by specifying a project or parent document.
+@IPDMWSearchResult	i	Provides access to search results.	via=IPDMWSearchResults.Item	use=1
+ConfigurationName	p	string ConfigurationName {get;}	2006		Gets the name of the configuration in the search results.
+Description	p	string Description {get;}	2006		Gets the description of the document in the search results.
+Document	p	PDMWDocument Document {get;}	2006		Gets the document in the search results.
+Name	p	string Name {get;}	2006		Gets the name of the document in the search results.
+Number	p	string Number {get;}	2006		Gets the number of the document in the search results.
+Owner	p	string Owner {get;}	2006		Gets the owner of the document in the search results.
+ParentPath	p	string ParentPath {get;}	2006		Gets the full path of the parent project and any subprojects of a document in a search result.
+project	p	string project {get;}	2006		Gets the name of the project in the search results.
+Revision	p	string Revision {get;}	2006		Gets the revision of the document in the search results.
+Status	p	string Status {get;}	2006		Gets the status of the document in the search results.
+@IPDMWSearchResults	i	Contains IPDMWSearchResult objects.	via=IPDMWConnection.Search	use=1
+Count	p	int Count {get;}	2006		Gets the number of search results.
+Item	p	object this[ object Index ]; {get;}	2006		Gets the specified search result.
+@IPDMWUser	i	Provides access to a user record.	via=IPDMWConnection.CreateUser,IPDMWUsers.Item
+Comment	p	string Comment {get; set;}	2004		Gets or sets the comments for this user record.
+DisplayName	p	string DisplayName {get; set;}	2004		Gets or sets the name of the user record to display.
+Email	p	string Email {get; set;}	2004		Gets or sets the email address for this user.
+IsAdmin	p	bool IsAdmin {get; set;}	2006		Gets or sets whether this user is a vault administrator.
+password	p	string password {get; set;}	2004		Gets or sets the password for this user.
+PropertyFilterName	p	string PropertyFilterName {get; set;}	2006		Gets or sets the name of the property to use as a filter.
+PropertyFilterValue	p	string PropertyFilterValue {get; set;}	2006		Gets or sets the value of a property to use as a filter.
+userName	p	string userName {get; set;}	2004		Gets the username for this user.
+@IPDMWUsers	i	Provides access to a collection of user records.	via=IPDMWConnection.Users,IPDMWGroup.Users
+Count	p	int Count {get;}	2004		Gets the number of users in this collection.
+Item	p	object this[ object Index ]; {get;}	2004		Gets the user by name.

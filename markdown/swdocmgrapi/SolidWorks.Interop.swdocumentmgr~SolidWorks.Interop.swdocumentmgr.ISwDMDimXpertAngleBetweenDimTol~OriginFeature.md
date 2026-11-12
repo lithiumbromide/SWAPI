@@ -48,11 +48,7 @@ property SwDMDimXpertFeature^ OriginFeature {
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertAngleBetweenDimTol::OriginFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAngleBetweenDimTol~OriginFeature.html)
-
-.
+See [SwDMDimXpertAngleBetweenDimTol::OriginFeature](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAngleBetweenDimTol~OriginFeature.html).
 
 ## Examples
 
@@ -61,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertAngleBetweenDimTol Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAngleBetweenDimTol.html)
-
 [ISwDMDimXpertAngleBetweenDimTol Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAngleBetweenDimTol_members.html)
 
 ## Availability

@@ -46,11 +46,7 @@ True if output time step change events are fired at output time steps; false if 
 
 ## VBA Syntax
 
-See
-
-[MotionStudy::GetFireOutputTimeStepEvents](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~GetFireOutputTimeStepEvents.html)
-
-.
+See [MotionStudy::GetFireOutputTimeStepEvents](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudy~GetFireOutputTimeStepEvents.html).
 
 ## Remarks
 
@@ -60,12 +56,11 @@ By default, these output time step change events are fired at integrator time st
 - [MotorOutputTimeStepChangeNotify event](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.DMotionStudyEvents_MotorOutputTimeStepChangeNotifyEventHandler.html)
 - [OutputTimeStepChangeNotify event](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.DMotionStudyEvents_OutputTimeStepChangeNotifyEventHandler.html)
 
-If you want to fire these events at output time steps, then set[IMotionStudy::SetFireOutputTimeStepEvents](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy~SetFireOutputTimeStepEvents.html)to true.
+If you want to fire these events at output time steps, then set [IMotionStudy::SetFireOutputTimeStepEvents](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy~SetFireOutputTimeStepEvents.html) to true.
 
 ## See Also
 
 [IMotionStudy Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy.html)
-
 [IMotionStudy Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudy_members.html)
 
 ## Availability

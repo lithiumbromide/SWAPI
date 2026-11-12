@@ -45,13 +45,7 @@ property System.Object^ ReferenceComponent1 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Reference component 1
 
 ## VBA Syntax
 
-See
-
-[LinearCouplerMateFeatureData::ReferenceComponent1](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~ReferenceComponent1.html)
-
-.
+See [LinearCouplerMateFeatureData::ReferenceComponent1](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~ReferenceComponent1.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ Use this property to set up the motion of the first mated component with respect
 ## See Also
 
 [ILinearCouplerMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
 [ILinearCouplerMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData_members.html)
 
 ## Availability

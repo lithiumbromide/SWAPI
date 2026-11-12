@@ -9,9 +9,7 @@ source: "sldworksapi/Select_Face_Using_Intersecting_Ray_Example_VB.htm"
 
 # Select Face Using Intersecting Ray Example (VBA)
 
-This example shows how to select the first face that is intersected by a ray
-that starts at the specified point and runs parallel to the specified direction
-vector within the specified radius.
+This example shows how to select the first face that is intersected by a ray that starts at the specified point and runs parallel to the specified direction vector within the specified radius.
 
 ```
 '---------------------------------------------------------------

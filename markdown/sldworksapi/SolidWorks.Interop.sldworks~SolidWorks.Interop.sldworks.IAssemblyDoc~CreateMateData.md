@@ -47,25 +47,11 @@ System.Object^ CreateMateData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Type`: Type of mate to create as defined in
-
-[swMateType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateType_e.html)
-
-(see
-
-Remarks
-
-)
+- `Type`: Type of mate to create as defined in [swMateType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateType_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -73,19 +59,11 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::CreateMateData](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CreateMateData.html)
-
-.
+See [AssemblyDoc::CreateMateData](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CreateMateData.html).
 
 ## Examples
 
-See
-
-[IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html)
-
-examples.
+See [IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html) examples.
 
 ## Remarks
 
@@ -111,14 +89,12 @@ Type must be one of the following mate types as defined in swMateType_e:
 - swMateUNIVERSALJOINT
 - swMateWIDTH
 
-To create a mate, see the[IAssemblydoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)Remarks section.
+To create a mate, see the [IAssemblydoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html) Remarks section.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::AutoMateRepair Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AutoMateRepair.html)
 
 ## Availability

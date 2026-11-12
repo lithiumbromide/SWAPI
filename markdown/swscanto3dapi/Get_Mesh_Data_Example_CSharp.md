@@ -9,8 +9,7 @@ source: "swscanto3dapi/Get_Mesh_Data_Example_CSharp.htm"
 
 # Get Mesh Data Example (C#)
 
-This example shows how to get the mesh feature data from a***.3DS**file.
-You must have a SOLIDWORKS Premium license to run this example.
+This example shows how to get the mesh feature data from a ***.3DS** file. You must have a SOLIDWORKS Premium license to run this example.
 
 ```vb
  //----------------------------------------------------------------------------
@@ -93,11 +92,7 @@ GetMeshData_CSharp.csproj
 {
 ```
 
-partial
-
-class
-
-SolidWorksMacro
+partial class SolidWorksMacro
 
 ```vb
 {
@@ -119,9 +114,7 @@ bool
 
 boolStatus;
 
-public
-
-void
+public void
 
 Main()
 
@@ -135,11 +128,7 @@ Main()
 
 ModelDoc2
 
-)swApp.
-
-ActiveDoc
-
-;
+)swApp.**ActiveDoc**;
 
 ```vb
     swModelDocExtension = swModel.Extension;
@@ -148,11 +137,7 @@ ActiveDoc
 
 Scanto3D
 
-)swModelDocExtension.
-
-GetScanto3D
-
-();
+)swModelDocExtension.**GetScanto3D**();
 
 int
 
@@ -170,19 +155,11 @@ int
 
 FacetsCount = 0;
 
-object
-
-Points =
-
-null
+object Points = null
 
 ;
 
-object
-
-Facets =
-
-null
+object Facets = null
 
 ;
 
@@ -190,12 +167,7 @@ null
     MeshCount = swScanto3D.GetMeshCount();
 ```
 
-Debug
-
-.Print(
-
-"Number
-of mesh features: "
+Debug.Print("Number of mesh features: "
 
 + MeshCount);
 
@@ -211,51 +183,23 @@ for
     boolStatus = swScanto3D.GetMeshDataCountAtIndex(i,
 ```
 
-out
-
-PointsCount,
-
-out
+out PointsCount, out
 
 FacetsCount);
 
-Debug
+Debug.Print("Number of vertexes in mesh feature " + i + ": "
 
-.Print(
++ PointsCount);
 
-"Number
-of vertexes in mesh feature "
+Debug.Print("Number of facets in mesh feature " + i + ": "
 
-+ i +
-
-": "
-
-+
-PointsCount);
-
-Debug
-
-.Print(
-
-"Number
-of facets in mesh feature "
-
-+ i +
-
-": "
-
-+
-FacetsCount);
++ FacetsCount);
 
 ```vb
     boolStatus = swScanto3D.GetMeshDataAtIndex(i,
 ```
 
-out
-
-Points,
-
-out
+out Points, out
 
 Facets);
 
@@ -264,9 +208,7 @@ Facets);
 }
 ```
 
-public
-
-SldWorks
+public SldWorks
 
 swApp;
 

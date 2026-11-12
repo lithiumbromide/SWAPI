@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # ShowAnnotationOnSelNodeElems Method (ICWResultsProbeManager)
 
-Obsoleted. Superseded by
-
-[ICWResultsProbeManager::ShowAnnotationsOnNodesOrElems](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager~ShowAnnotationsOnNodesOrElems.html)
-
-.
+Obsoleted. Superseded by [ICWResultsProbeManager::ShowAnnotationsOnNodesOrElems](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager~ShowAnnotationsOnNodesOrElems.html).
 
 ## Syntax
 
@@ -58,36 +54,23 @@ System.int ShowAnnotationOnSelNodeElems(
 ### Parameters
 
 - `ArraySelectedNodeElems`: Array of nodes or elements
-- `ArrayAnnotationWarnings`: Array of warnings for specified nodes or elements as defined in
-
-[swsProbePostResultNodeElementSelectionWarning_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultNodeElementSelectionWarning_e.html)
+- `ArrayAnnotationWarnings`: Array of warnings for specified nodes or elements as defined in [swsProbePostResultNodeElementSelectionWarning_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultNodeElementSelectionWarning_e.html)
 
 ### Return Value
 
-Error code as defined in
-
-[swsProbePostResultErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultErrorCode_e.html)
+Error code as defined in [swsProbePostResultErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsProbePostResultErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResultsProbeManager::ShowAnnotationOnSelNodeElems](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager~ShowAnnotationOnSelNodeElems.html)
-
-.
+See [CWResultsProbeManager::ShowAnnotationOnSelNodeElems](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager~ShowAnnotationOnSelNodeElems.html).
 
 ## Examples
 
-See the
-
-[ICWResultsProbeManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
-examples.
+See the [ICWResultsProbeManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html) examples.
 
 ## See Also
 
 [ICWResultsProbeManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
 [ICWResultsProbeManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager_members.html)
 
 ## Availability

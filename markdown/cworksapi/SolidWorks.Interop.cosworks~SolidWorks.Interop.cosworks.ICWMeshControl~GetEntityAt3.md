@@ -59,9 +59,7 @@ System.Object^ GetEntityAt3(
 
 - `NIndex`: 0-based index of entity
 - `BExcludeVertexAndReference`: -1 or true to exclude the vertex and reference, 0 or false to not
-- `NSelectionType`: Type of entity as defined in
-
-[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
+- `NSelectionType`: Type of entity as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)
 
 ### Return Value
 
@@ -70,7 +68,6 @@ Entity
 ## See Also
 
 [ICWMeshControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl.html)
-
 [ICWMeshControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMeshControl_members.html)
 
 ## Availability

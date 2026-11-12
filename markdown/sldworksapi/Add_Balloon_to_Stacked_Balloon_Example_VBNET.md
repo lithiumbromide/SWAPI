@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Balloon_to_Stacked_Balloon_Example_VBNET.htm"
 
 # Add Balloon to Stacked Balloon Example (VB.NET)
 
-This example shows how to create a stacked balloon and add a balloon to the
-stacked balloon.
+This example shows how to create a stacked balloon and add a balloon to the stacked balloon.
 
 ```
 '------------------------------------------------------------

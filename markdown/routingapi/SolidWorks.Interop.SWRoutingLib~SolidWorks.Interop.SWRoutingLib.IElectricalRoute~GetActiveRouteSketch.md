@@ -46,16 +46,11 @@ System.Object^ GetActiveRouteSketch();
 
 ## VBA Syntax
 
-See
-
-[ElectricalRoute::GetActiveRouteSketch](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRoute~GetActiveRouteSketch.html)
-
-.
+See [ElectricalRoute::GetActiveRouteSketch](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRoute~GetActiveRouteSketch.html).
 
 ## See Also
 
 [IElectricalRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute.html)
-
 [IElectricalRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute_members.html)
 
 ## Availability

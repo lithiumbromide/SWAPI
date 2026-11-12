@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertFormToolFeature Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html)
-
-and
-
-[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::CreateDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateDefinition.html) and [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html).
 
 ## Syntax
 
@@ -87,13 +79,7 @@ Feature^ InsertFormToolFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -101,11 +87,7 @@ See
 - `Flip`: Whether to reverse the direction of the cut of the forming tool when inserted
 - `RotAngle`: Angle of the forming tool
 - `Config`: Name of the configuration of the forming tool to insert
-- `OverrideDoc`: True to override the document settings in
-
-Tools > Options > Document Properties > Sheet Metal,
-
-false to not
+- `OverrideDoc`: True to override the document settings in **Tools > Options > Document Properties > Sheet Metal,** false to not
 - `ShowPunch`: True to display the cut of the forming tool when the part is flattened, false to not; valid only if OverrideDoc = true
 - `ShowProfile`: True to display the placement sketch of the forming tool when the part is flattened, false to not; valid only if OverrideDoc = true
 - `ShowCenter`: True to display the center mark where the forming tool is located in the flat pattern, false to not; valid only if OverrideDoc = true
@@ -117,11 +99,7 @@ false to not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertFormToolFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFormToolFeature.html)
-
-.
+See [FeatureManager::InsertFormToolFeature](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertFormToolFeature.html).
 
 ## Remarks
 
@@ -130,14 +108,12 @@ Before calling this method, select either a face or a 2D sketch containing point
 - face, a single instance of the Design Library forming tool is placed on it.
 - sketch containing points, an instance of the Design Library forming tool is placed at each point in the sketch.
 
-To create your own forming tool, call[IFeatureManager::CreateFormTool](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~CreateFormTool.html).
+To create your own forming tool, call [IFeatureManager::CreateFormTool](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~CreateFormTool.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IView::InsertPunchTable Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~InsertPunchTable.html)
 
 ## Availability

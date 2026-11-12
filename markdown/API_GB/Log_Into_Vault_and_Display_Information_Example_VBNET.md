@@ -9,13 +9,9 @@ source: "API_GB/Log_Into_Vault_and_Display_Information_Example_VBNET.htm"
 
 # Log Into Vault and Display Information Example (VB.NET)
 
-This example shows how to create an application that displays a form where a
-user can select a vault to which to log in and display
-information about that vault.
+This example shows how to create an application that displays a form where a user can select a vault to which to log in and display information about that vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 '----------------------------------------------------------------------------

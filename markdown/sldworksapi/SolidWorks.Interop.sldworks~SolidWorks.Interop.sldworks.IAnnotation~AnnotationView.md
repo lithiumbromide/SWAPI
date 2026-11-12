@@ -42,13 +42,7 @@ property AnnotationView^ AnnotationView {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[Annotation::AnnotationView](ms-its:sldworksapivb6.chm::/sldworks~Annotation~AnnotationView.html)
-
-.
+See [Annotation::AnnotationView](ms-its:sldworksapivb6.chm::/sldworks~Annotation~AnnotationView.html).
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

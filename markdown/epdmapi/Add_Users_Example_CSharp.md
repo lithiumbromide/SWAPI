@@ -9,12 +9,9 @@ source: "epdmapi/Add_Users_Example_CSharp.htm"
 
 # Add Users Example (C#)
 
-This example shows how to add users to a vault by
-deserializing an XML file containing user data.
+This example shows how to add users to a vault by deserializing an XML file containing user data.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //---------------------------------------------------------------------------
@@ -24,41 +21,32 @@ Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 //        into the editor.
 //     b. Save the file as User.xml and remember where you save the file.
 //  2. Start Microsoft Visual Studio.
-//     a. Click File > New > Project > C# > Windows Forms Application.
-//     b. Type AddUsersCSharp in Name.
-//     c. Click Browse and navigate to the folder where to
-//        create the project.
-//     d. Click OK.
-//     e. Click Show All Files in the Solution Explorer toolbar and
-//        expand Form1.cs in the Solution Explorer.
-//     f. Create a form similar to the form shown above and change:
-//        1. Top label to VaultsLabel.
-//        2. Combo box to VaultsCombobox.
-//        3. Second label to XmlLabel.
-//        4. Text box to XmlTextBox.
-//        5. Browse button to BrowseButton.
-//        6. Add users button to AddUsersButton.
-//     g. Replace the code in Form1.cs with this code.
-//     h. Replace the code in Form1.Designer.cs with this code.
-//     i. Right-click the AddUsersCSharp project name in the Solution Explorer.
+//     a. Click File > New > Project > C#, Windows, Desktop > Windows Forms Application.
+//     b. Type AddUsersCSharp in Project name.
+//     c. For Location, click ... and navigate to the folder where to
+create the project.
+//     d. Click Next.
+//     e. Select Framework.
+//     f. Click Create.
+
+//     g. Click Show All Files in the Solution Explorer
+toolbar and expand
+
+//       Form1.cs in the Solution Explorer.
+//     h. Replace the code in Form1.cs with this code.
+//     i. Replace the code in Form1.Designer.cs with this code.
+//     j. Right-click the AddUsersCSharp project name in the Solution Explorer.
 //        1. Click Add > Class > Class.
 //        2. Type EdmVaultSingleton.cs in Name.
 //        3. Click Add.
 //        4. Replace the code in EdmVaultSingleton.cs with this code.
-//     j. Right-click the AddUsersCSharp project name in the Solution Explorer.
+//     k. Right-click the AddUsersCSharp project name in the Solution Explorer.
 //        1. Click Add > Class > Class.
 //        2. Type User.cs in Name.
 //        3. Click Add.
 //        4. Replace the code in User.cs with this code.
-//  3. Add EPDM.Interop.epdm.dll as a reference (right-click the project
-//     name in the Solution Explorer, click Add Reference, click
-//     Assemblies > Framework in the left-side panel, browse to the top folder of your
-//     SOLIDWORKS PDM Professional installation, locate and click
-//     EPDM.Interop.epdm.dll, click Open, click Add, and click Close).
-//  4. Right-click EPDM.Interop.epdm in References, click Properties, and set
-//     Embed Interop Types to False to handle methods that pass arrays of
-//     structures.
-//  5. Click Debug > Start Debugging or press F5.
+//  3. Add dependencies and safely pass arrays of structures.
+//  4. Click Debug > Start Debugging or press F5.
 //
 // Postconditions:
 //  1. Displays a dialog.

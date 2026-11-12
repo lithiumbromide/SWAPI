@@ -75,13 +75,7 @@ SketchHatch^ CreateRegionHatch(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -91,11 +85,7 @@ See
 - `Angle`: Angle of the hatch if the hatch is not solid
 - `Scale`: Scale factor for the hatch if the hatch is not solid
 - `Color`: COLORREF value describing the color used for the hatch
-- `Hatchname`: Type or name of the hatch from the
-
-Sldwks.ptn
-
-file
+- `Hatchname`: Type or name of the hatch from the **Sldwks.ptn** file
 - `Layername`: Layer name for the hatch if a drawing document
 
 ### Return Value
@@ -104,11 +94,7 @@ file
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateRegionHatch](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateRegionHatch.html)
-
-.
+See [SketchManager::CreateRegionHatch](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateRegionHatch.html).
 
 ## Remarks
 
@@ -117,11 +103,8 @@ This method creates a single area hatch/fill region hatch. All three point coord
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::CreateBoundaryHatch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateBoundaryHatch.html)
-
 [IModelDoc2::InsertHatchedFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertHatchedFace.html)
 
 ## Availability

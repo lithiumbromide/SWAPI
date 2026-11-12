@@ -54,11 +54,7 @@ void GetAllRefVars(
 
 ### Parameters
 
-- `ppoVars`: Array of
-
-[EdmRefVar structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar.html)
-
-s; one structure for each reference variable
+- `ppoVars`: Array of [EdmRefVar structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefVar.html)s; one structure for each reference variable
 - `lParentFileID`: ID of parent file for which to get reference variables
 - `lParentFileVersion`: Version number of parent file for which to get reference variables; 0 gets the latest version if the parent file is checked in and the checked-out version if it is checked out
 - `lChildFileID`: ID of the referenced child file; 0 gets variables for all child references
@@ -67,11 +63,7 @@ s; one structure for each reference variable
 
 ## Examples
 
-See the
-
-[IEdmBatchRefVars](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars.html)
-
-examples.
+See the [IEdmBatchRefVars](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars.html) examples.
 
 ## Remarks
 
@@ -83,7 +75,6 @@ examples.
 ## See Also
 
 [IEdmBatchRefVars Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars.html)
-
 [IEdmBatchRefVars Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchRefVars_members.html)
 
 ## Availability

@@ -48,18 +48,12 @@ Number of configurations
 
 ## VBA Syntax
 
-See
-
-[PDMWConfigurations::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfigurations~Count.html)
-
-.
+See [PDMWConfigurations::Count](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfigurations~Count.html).
 
 ## See Also
 
 [IPDMWConfigurations Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfigurations.html)
-
 [IPDMWConfigurations Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfigurations_members.html)
-
 [IPDMWConfigurations::Item Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfigurations~Item.html)
 
 ## Availability

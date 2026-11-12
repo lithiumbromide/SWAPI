@@ -51,24 +51,15 @@ Revision of the document associated with this link
 
 ## VBA Syntax
 
-See
-
-[PDMWLink::Revision](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Revision.html)
-
-.
+See [PDMWLink::Revision](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Revision.html).
 
 ## See Also
 
 [IPDMWLink Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)
-
 [IPDMWLink Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink_members.html)
-
 [IPDMWConnection::BumpRevision Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~BumpRevision.html)
-
 [IPDMWConnection::Revision Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Revision.html)
-
 [IPDMWConnection::RevisionLabels Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~RevisionLabels.html)
-
 [IPDMWConnection::Revisions Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~Revisions.html)
 
 ## Availability

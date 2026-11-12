@@ -42,44 +42,25 @@ property System.Object^ IncludeOnlyLevels {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of longs or integers (see
-
-[Long vs. Integer](sldworksapiprogguide.chm::/overview/Long_vs_Integer.htm)
-
-) indicating the levels to import
+Array of longs or integers (see [Long vs. Integer](sldworksapiprogguide.chm::/overview/Long_vs_Integer.htm)) indicating the levels to import
 
 ## VBA Syntax
 
-See
-
-[ImportIgesData::IncludeOnlyLevels](ms-its:sldworksapivb6.chm::/sldworks~ImportIgesData~IncludeOnlyLevels.html)
-
-.
+See [ImportIgesData::IncludeOnlyLevels](ms-its:sldworksapivb6.chm::/sldworks~ImportIgesData~IncludeOnlyLevels.html).
 
 ## Remarks
 
-[IImportIgesData::IncludeAllLevels](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportIgesData~IncludeAllLevels.html)
-
-must be false to use this property.
+[IImportIgesData::IncludeAllLevels](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportIgesData~IncludeAllLevels.html) must be false to use this property.
 
 ## See Also
 
 [IImportIgesData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData.html)
-
 [IImportIgesData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData_members.html)
-
 [IImportIgesData::ProcessByLevel Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData~ProcessByLevel.html)
-
 [IImportIgesData::SetLevels Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportIgesData~SetLevels.html)
 
 ## Availability

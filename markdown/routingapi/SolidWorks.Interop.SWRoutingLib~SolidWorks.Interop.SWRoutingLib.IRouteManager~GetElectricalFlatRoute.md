@@ -57,16 +57,11 @@ ElectricalFlatRoute^ GetElectricalFlatRoute(
 
 ## VBA Syntax
 
-See
-
-[RouteManager::GetElectricalFlatRoute](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetElectricalFlatRoute.html)
-
-.
+See [RouteManager::GetElectricalFlatRoute](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetElectricalFlatRoute.html).
 
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
 
 ## Availability

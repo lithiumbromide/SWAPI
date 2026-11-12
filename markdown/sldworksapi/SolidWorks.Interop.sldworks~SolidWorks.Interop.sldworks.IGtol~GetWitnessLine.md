@@ -40,36 +40,20 @@ System.object GetWitnessLine()
 System.Object^ GetWitnessLine();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-An array of six doubles (see
-
-Remarks
-
-)
+An array of six doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetWitnessLine](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetWitnessLine.html)
-
-.
+See [Gtol::GetWitnessLine](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetWitnessLine.html).
 
 ## Examples
 
 [Get GTol Witness Line (VBA)](Get_GTol_Witness_Line_Example_VB.htm)
-
 [Get GTol Witness Line (VB.NET)](Get_GTol_Witness_Line_Example_VBNET.htm)
-
 [Get GTol Witness Line (C#)](Get_GTol_Witness_Line_Example_CSharp.htm)
 
 ## Remarks
@@ -78,7 +62,9 @@ As you drag a geometric tolerance leader off an entity, SOLIDWORKS dynamically b
 
 The return value is the following array of six doubles:
 
-[startPt[3], endPt[3]]
+```vb
+[ startPt[3], endPt[3] ]
+```
 
 where:
 
@@ -88,9 +74,7 @@ where:
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::IGetWitnessLine Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetWitnessLine.html)
 
 ## Availability

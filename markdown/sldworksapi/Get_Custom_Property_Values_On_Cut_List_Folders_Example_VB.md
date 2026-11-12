@@ -11,13 +11,12 @@ source: "sldworksapi/Get_Custom_Property_Values_On_Cut_List_Folders_Example_VB.h
 
 ## Get Custom Property Values on Weldment Cut-list Folders Example (VBA)
 
-This example shows how to get all of the custom property values on the
-weldment cut-list folders of a part in an assembly.
+This example shows how to get all of the custom property values on the weldment cut-list folders of a part in an assembly.
 
 ```
 '-------------------------------------------------------
 ' Preconditions:
-' 1. Open a new SOLIDWORKS session.
+' 1. Open a new SOLIDWORKS Design session.
 ' 2. Open public_documents\samples\tutorial\api\weldment_box3.sldprt.
 ' 3. Click Tools > Options > Document Properties > Weldments >
 '    Rename cut list folders with Description property value > OK.

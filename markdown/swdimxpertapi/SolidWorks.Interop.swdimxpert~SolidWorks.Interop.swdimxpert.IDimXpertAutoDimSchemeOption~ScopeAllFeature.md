@@ -51,30 +51,23 @@ True to dimension all features (default), false to dimension only selected featu
 
 ## VBA Syntax
 
-See
-
-[DimXpertAutoDimSchemeOption::ScopeAllFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption~ScopeAllFeature.html)
-
-.
+See [DimXpertAutoDimSchemeOption::ScopeAllFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAutoDimSchemeOption~ScopeAllFeature.html).
 
 ## Examples
 
 [Auto Dimension Scheme Example (C#)](Auto_Dimension_Scheme_Example_CSharp.htm)
-
 [Auto Dimension Scheme Example (VB.NET)](Auto_Dimension_Scheme_Example_VBNET.htm)
-
 [Auto Dimension Scheme Example (VBA)](Auto_Dimension_Scheme_Example_VB.htm)
 
 ## Remarks
 
 If this API is set to false, then you can only dimension manually selected features whose selection marks are greater than 50.
 
-If this API is set to true, then[IDimXpertAutoDimSchemeOption::FeatureFilters](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertAutoDimSchemeOption~FeatureFilters.html)is in force.
+If this API is set to true, then [IDimXpertAutoDimSchemeOption::FeatureFilters](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertAutoDimSchemeOption~FeatureFilters.html) is in force.
 
 ## See Also
 
 [IDimXpertAutoDimSchemeOption Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption.html)
-
 [IDimXpertAutoDimSchemeOption Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAutoDimSchemeOption_members.html)
 
 ## Availability

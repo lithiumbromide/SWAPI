@@ -40,13 +40,11 @@ Current revision of the file
 ## Examples
 
 [Set Initial Revision (VB.NET)](Set_Initial_Revision_Example_VBNET.htm)
-
 [Set Initial Revision (C#)](Set_Initial_Revision_Example_CSharp.htm)
 
 ## See Also
 
 [IEdmFile5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
 [IEdmFile5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "GtolFrame Object
-Members"
+title: "GtolFrame Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "GtolFrame_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~GtolFrame_members.html"
 ---
 
-# GtolFrame Object
-Members
+# GtolFrame Object Members
 
 ## Public Methods
 

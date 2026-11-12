@@ -45,40 +45,20 @@ property System.int SectionedZones {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Intersection zones as defined in
-
-[swZonalSectionViewZones_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZonalSectionViewZones_e.html)
-
-(see
-
-Remarks
-
-)
+Intersection zones as defined in [swZonalSectionViewZones_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swZonalSectionViewZones_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SectionViewData::SectionedZones](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~SectionedZones.html)
-
-.
+See [SectionViewData::SectionedZones](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~SectionedZones.html).
 
 ## Examples
 
 [Selectively and Transparently Section a Section View (C#)](Selectively_and_Transparently_Section_a_Section_View_Example_CSharp.htm)
-
 [Selectively and Transparently Section a Section View (VB.NET)](Selectively_and_Transparently_Section_a_Section_View_Example_VBNET.htm)
-
 [Selectively and Transparently Section a Section View (VBA)](Selectively_and_Transparently_Section_a_Section_View_Example_VB.htm)
 
 ## Remarks
@@ -102,12 +82,11 @@ In the SOLIDWORKS API, zones are defined by the intersections of the sectioning 
 |  | 7 | Front side of sectioning plane 1 Back side of sectioning plane 2 Back side of sectioning plane 3 | swZonalSectionViewZones_swZonalSectionViewZone_7 |
 |  | 8 | Back side of sectioning plane 1 Back side of sectioning plane 2 Back side of sectioning plane 3 | swZonalSectionViewZones_swZonalSectionViewZone_8 |
 
-This property is only available if[ISectionViewData::ZonalSection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~ZonalSection.html)is true.
+This property is only available if [ISectionViewData::ZonalSection](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~ZonalSection.html) is true.
 
 ## See Also
 
 [ISectionViewData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html)
-
 [ISectionViewData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData_members.html)
 
 ## Availability

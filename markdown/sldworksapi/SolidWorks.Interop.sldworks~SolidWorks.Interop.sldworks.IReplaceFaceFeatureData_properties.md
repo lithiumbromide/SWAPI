@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # IReplaceFaceFeatureData Interface Properties
 
-For a list of all members of this type, see[IReplaceFaceFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReplaceFaceFeatureData_members.html).
+For a list of all members of this type, see [IReplaceFaceFeatureData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReplaceFaceFeatureData_members.html).
 
 ## Public Properties
 
@@ -23,7 +23,5 @@ For a list of all members of this type, see[IReplaceFaceFeatureData members](Sol
 ## See Also
 
 [IReplaceFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReplaceFaceFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDoc2::InsertFeatureReplaceFace Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertFeatureReplaceFace.html)

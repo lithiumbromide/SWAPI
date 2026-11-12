@@ -1,6 +1,5 @@
 ---
-title: "CWTopologyFrequencyConstraint Object
-Members"
+title: "CWTopologyFrequencyConstraint Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWTopologyFrequencyConstraint_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWTopologyFrequencyConstraint_members.html"
 ---
 
-# CWTopologyFrequencyConstraint Object
-Members
+# CWTopologyFrequencyConstraint Object Members
 
 ## Public Methods
 

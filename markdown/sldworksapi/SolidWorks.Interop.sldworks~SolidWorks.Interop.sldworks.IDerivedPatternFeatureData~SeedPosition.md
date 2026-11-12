@@ -45,36 +45,20 @@ property System.int SeedPosition {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pattern instance to use as the seed feature (see
-
-Remarks
-
-)
+Pattern instance to use as the seed feature (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DerivedPatternFeatureData::SeedPosition](ms-its:sldworksapivb6.chm::/sldworks~DerivedPatternFeatureData~SeedPosition.html)
-
-.
+See [DerivedPatternFeatureData::SeedPosition](ms-its:sldworksapivb6.chm::/sldworks~DerivedPatternFeatureData~SeedPosition.html).
 
 ## Examples
 
 [Create Derived Pattern Feature (C#)](Create_Derived_Pattern_Feature_Example_CSharp.htm)
-
 [Create Derived Pattern Feature (VB.NET)](Create_Derived_Pattern_Feature_Example_VBNET.htm)
-
 [Create Derived Pattern Feature (VBA)](Create_Derived_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
@@ -87,12 +71,11 @@ If the pattern used to create the derived pattern has pattern instances in Direc
 
 Setting the seed position outside of the range of pattern instances is silently rejected, and the seed position remains unchanged.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [IDerivedPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPatternFeatureData.html)
-
 [IDerivedPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDerivedPatternFeatureData_members.html)
 
 ## Availability

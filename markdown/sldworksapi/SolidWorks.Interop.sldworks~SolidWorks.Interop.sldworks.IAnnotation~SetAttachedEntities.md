@@ -47,40 +47,24 @@ System.bool SetAttachedEntities(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `AttachedEnts`: Array of entities to attach this annotation to (see
-
-Remarks
-
-)
+- `AttachedEnts`: Array of entities to attach this annotation to (see **Remarks**)
 
 ### Return Value
 
-True if the annotation is attached to the entities, false if notParamDesc
+True if the annotation is attached to the entities, false if not
 
 ## VBA Syntax
 
-See
-
-[Annotation::SetAttachedEntities](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetAttachedEntities.html)
-
-.
+See [Annotation::SetAttachedEntities](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetAttachedEntities.html).
 
 ## Examples
 
 [Attach Annotation to Entity (C#)](Attach_Annotation_to_Entity_Example_CSharp.htm)
-
 [Attach Annotation to Entity (VB.NET)](Attach_Annotation_to_Entity_Example_VBNET.htm)
-
 [Attach Annotation to Entity (VBA)](Attach_Annotation_to_Entity_Example_VB.htm)
 
 ## Remarks
@@ -90,11 +74,8 @@ Not all annotations can be attached to a different entity (i.e., face, edge, or 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::ISetAttachedEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~ISetAttachedEntities.html)
-
 [IAnnotation::GetAttachedEntities2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetAttachedEntities2.html)
 
 ## Availability

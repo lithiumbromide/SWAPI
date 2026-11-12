@@ -46,22 +46,14 @@ CWMaterial^ GetBeamBodyMaterial();
 
 ## VBA Syntax
 
-See
-
-[CWBeamBody::GetBeamBodyMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~GetBeamBodyMaterial.html)
-
-.
+See [CWBeamBody::GetBeamBodyMaterial](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBeamBody~GetBeamBodyMaterial.html).
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
-
 [ICWBeamBody::GetDefaultMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~GetDefaultMaterial.html)
-
 [ICWBeamBody::SetBeamBodyMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetBeamBodyMaterial.html)
-
 [ICWBeamBody::SetLibraryMaterial Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody~SetLibraryMaterial.html)
 
 ## Availability

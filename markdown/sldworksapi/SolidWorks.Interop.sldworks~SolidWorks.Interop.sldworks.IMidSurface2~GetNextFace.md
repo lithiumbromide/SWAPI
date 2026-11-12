@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # GetNextFace Method (IMidSurface2)
 
-Obsolete. Superseded by
-
-[IMidSurface3::GetNextFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3~GetNextFace.html)
-
-.
+Obsolete. Superseded by [IMidSurface3::GetNextFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3~GetNextFace.html).
 
 ## Syntax
 
@@ -59,41 +55,25 @@ System.Object^ GetNextFace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FromFace1Disp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-on the original part body used in generating the neutral face
-- `FromFace2Disp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-on the original part body used in generating the neutral face
+- `FromFace1Disp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) on the original part body used in generating the neutral face
+- `FromFace2Disp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) on the original part body used in generating the neutral face
 - `Thickness`: Distance between the two parallel faces, FromFace1Disp and FromFace2Disp
 
 ### Return Value
 
-[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-in this midsurface feature
+[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) in this midsurface feature
 
 ## VBA Syntax
 
-See
-
-[MidSurface2::GetNextFace](ms-its:sldworksapivb6.chm::/sldworks~MidSurface2~GetNextFace.html)
-
-.
+See [MidSurface2::GetNextFace](ms-its:sldworksapivb6.chm::/sldworks~MidSurface2~GetNextFace.html).
 
 ## Remarks
 
-Call[IMidSurface2::GetFirstFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetFirstFace.html)before calling this method to get the first neutral face.
+Call [IMidSurface2::GetFirstFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetFirstFace.html) before calling this method to get the first neutral face.
 
 This method returns the next neutral face in this midsurface feature along with three other items.
 
@@ -104,13 +84,9 @@ This method returns the next neutral face in this midsurface feature along with 
 ## See Also
 
 [IMidSurface2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2.html)
-
 [IMidSurface2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2_members.html)
-
 [IMidSurface2::IGetNextFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2~IGetNextFace.html)
-
 [IMidSurface2::GetFaceCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2~GetFaceCount.html)
-
 [IMidSurface2::IGetFirstFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface2~IGetFirstFace.html)
 
 ## Availability

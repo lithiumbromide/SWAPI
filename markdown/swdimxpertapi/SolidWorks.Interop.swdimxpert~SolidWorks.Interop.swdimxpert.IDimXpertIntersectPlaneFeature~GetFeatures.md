@@ -62,22 +62,16 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertIntersectPlaneFeature::GetFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertIntersectPlaneFeature~GetFeatures.html)
-
-.
+See [DimXpertIntersectPlaneFeature::GetFeatures](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertIntersectPlaneFeature~GetFeatures.html).
 
 ## Examples
 
 [Get DimXpert Intersect Features Example (VBA)](Get_DimXpert_Intersect_Features_Example_VB.htm)
-
 [Get DimXpert Intersect Features Example (VB.NET)](Get_DimXpert_Intersect_Features_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertIntersectPlaneFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPlaneFeature.html)
-
 [IDimXpertIntersectPlaneFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertIntersectPlaneFeature_members.html)
 
 ## Availability

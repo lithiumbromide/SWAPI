@@ -47,13 +47,7 @@ System.bool AllowFailedFeatureCreation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ The previous value, which is now replaced by the value for YesNo
 
 ## VBA Syntax
 
-See
-
-[SldWorks::AllowFailedFeatureCreation](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~AllowFailedFeatureCreation.html)
-
-.
+See [SldWorks::AllowFailedFeatureCreation](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~AllowFailedFeatureCreation.html).
 
 ## Examples
 
@@ -82,5 +72,4 @@ By default, features are not created when invalid geometry is specified; however
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

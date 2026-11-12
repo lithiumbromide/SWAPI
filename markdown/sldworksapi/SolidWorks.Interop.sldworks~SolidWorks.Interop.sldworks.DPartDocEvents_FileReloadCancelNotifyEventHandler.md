@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPa
 
 # DPartDocEvents_FileReloadCancelNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Fired if
-
-[FileReloadNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_FileReloadNotifyEventHandler.html)
-
-is canceled.
+Fired if [FileReloadNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_FileReloadNotifyEventHandler.html) is canceled.
 
 ## Syntax
 
@@ -47,35 +43,19 @@ public delegate System.int DPartDocEvents_FileReloadCancelNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ErrorCode`: Error as defined in
-
-[swComponentReloadError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentReloadError_e.html)
+- `ErrorCode`: Error as defined in [swComponentReloadError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentReloadError_e.html)
 
 ## VBA Syntax
 
-See
-
-[FileReloadCancelNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FileReloadCancelNotify_EV.html)
-
-.
+See [FileReloadCancelNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~FileReloadCancelNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartFileReloadCancelNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartFileReloadCancelNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

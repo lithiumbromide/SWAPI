@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSl
 
 # DSldWorksEvents_ReferenceNotFoundNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Notifies the user program before the SOLIDWORKS software displays a dialog box prompting the end-user to browse for the referenced file.
+Notifies the user program before SOLIDWORKS displays a dialog box prompting the end-user to browse for the referenced file.
 
 ## Syntax
 
@@ -43,13 +43,7 @@ public delegate System.int DSldWorksEvents_ReferenceNotFoundNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,53 +51,37 @@ See
 
 ## VBA Syntax
 
-See
-
-[ReferenceNotFoundNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~ReferenceNotFoundNotify_EV.html)
-
-.
+See [ReferenceNotFoundNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~ReferenceNotFoundNotify_EV.html).
 
 ## Examples
 
 This code illustrates the proper use of this event:
 
+```vb
 HRESULT swAppEvents::AppReferenceNotFoundNotify (BSTR FileName)
-
 {
-
 static bool test = true;
-
 TRACE( _T(" TestbedEvents - SldWorks.swAppReferenceNotFoundNotify event fired\n"));
-
 if( test)
-
 {
-
 LPSLDWORKS pSldWorks = NULL;
-
 m_lpObject->QueryInterface(IID_ISldWorks, (void**)&pSldWorks);
-
 pSldWorks->SetMissingReferencePathName( FileName);
-
 pSldWorks->Release();
-
 return S_false;
-
 }
-
 else
-
 return S_OK;
-
 }
+```
 
 ## Remarks
 
-Use this event with[ISldWorks::SetMissingReferencePathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetMissingReferencePathName.html).Returning S_false from your event handler successfully replaces the specified fileName with the filename specified in the call to ISldWorks::SetMissingReferencePathName.
+Use this event with [ISldWorks::SetMissingReferencePathName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~SetMissingReferencePathName.html). Returning S_false from your event handler successfully replaces the specified fileName with the filename specified in the call to ISldWorks::SetMissingReferencePathName.
 
 This event is generated when a document is opened and one of its dependencies is not found.
 
-If developing a C++ application, use[swAppReferenceNotFoundNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAppReferenceNotFoundNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

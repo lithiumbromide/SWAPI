@@ -9,11 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # EnableFeature Property (IEModelViewControl)
 
-Gets or sets a property of the
-
-[IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
-.
+Gets or sets a property of the [IEModelViewControl](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html).
 
 ## Syntax
 
@@ -56,9 +52,7 @@ property System.bool EnableFeature {
 
 ### Parameters
 
-- `feature`: Property as defined in
-
-[EMVEnableFeatures](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVEnableFeatures.html)
+- `feature`: Property as defined in [EMVEnableFeatures](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.EMVEnableFeatures.html)
 
 ### Property Value
 
@@ -66,26 +60,22 @@ True if the property is set, false if not
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::EnableFeature](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~EnableFeature.html)
-
-.
+See [EModelViewControl::EnableFeature](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~EnableFeature.html).
 
 ## Examples
 
+```vb
 meEmv.EnableFeature(16) = True ' Sets a IEModelViewControl to Complete UI mode
-
-meEmv.EnableFeature(16) ' Gets the value of the property
+meEmv.EnableFeature(16)        ' Gets the value of the property
+```
 
 ## Remarks
 
-You can only set this property at design time; you cannot set it at runtime. To set multiple properties at the same time, use[IEModelViewControl::EnableFeatures](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~EnableFeatures.html).
+You can only set this property at design time; you cannot set it at runtime. To set multiple properties at the same time, use [IEModelViewControl::EnableFeatures](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~EnableFeatures.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

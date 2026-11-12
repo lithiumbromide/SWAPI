@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CustomInfo Property (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::CustomInfo](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CustomInfo.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::CustomInfo](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CustomInfo.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ property System.String^ CustomInfo {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,14 +58,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::CustomInfo](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CustomInfo.html)
-
-.
+See [ModelDoc::CustomInfo](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CustomInfo.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

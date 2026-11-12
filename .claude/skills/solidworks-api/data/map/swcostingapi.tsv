@@ -1,0 +1,658 @@
+#swapi-map 1 module=swcostingapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@CostAnalysis	i		base=ICostAnalysis
+CostingTemplateName	p	string CostingTemplateName {get;}	2013		Gets the name of the Costing template for this Costing analysis.
+CostingType	p	int:swcCostingType_e CostingType {get;}	2013		Gets the Costing type from the Costing template for this Costing analysis.
+CurrencyCode	p	string CurrencyCode {get;}	2013		Gets the 3-letter currency code from the Costing template for this Costing analysis.
+CurrencyName	p	string CurrencyName {get;}	2013		Gets the name of the currency from the Costing template for this Costing analysis.
+CurrencySeparator	p	string CurrencySeparator {get;}	2013		Gets the delimiter for the currency from the Costing template for this Costing analysis.
+GetFirstCostFeature	m	CostFeature GetFirstCostFeature()	2013		Gets the first Costing feature in the CostingManager in this Costing analysis.
+GetManufacturingCost	m	double GetManufacturingCost()	2013		Gets the total manufacturing cost in this Costing analysis.
+GetMaterialCost	m	double GetMaterialCost()	2013		Gets the costs of the materials in this Costing analysis.
+GetSetupCost	m	double GetSetupCost()	2013		Gets the tool setup cost in this Costing analysis.
+GetSpecificAnalysis	m	object:ICostAnalysis3dPrinting GetSpecificAnalysis()	2013		Gets the specific Costing analysis in this Costing analysis.
+GetTotalCostToCharge	m	double GetTotalCostToCharge()	2013		Gets the total cost to charge the customer, including:
+GetTotalCostToManufacture	m	double GetTotalCostToManufacture()	2013		Gets the total cost to manufacture the part:
+LengthUnit	p	int:swcLengthUnit_e LengthUnit {get;}	2013		Gets the unit for the length from the Costing template for this Costing analysis.
+LotSize	p	int LotSize {get; set;}	2013		Gets or sets the quantity of parts to produce per batch for this Costing analysis.
+MarkUpPercent	p	double MarkUpPercent {get; set;}	2013		Gets or sets the markup percentage for this Costing analysis.
+MarkUpType	p	int:swcMarkUpType_e MarkUpType {get; set;}	2013		Gets or sets the method of markup for this Costing analysis.
+MassUnit	p	int:swcMassUnit_e MassUnit {get;}	2013		Gets the unit of mass from the Costing template for this Costing analysis.
+TotalQuantity	p	int TotalQuantity {get; set;}	2013		Gets or sets the total quantity of parts to produce for this Costing analysis.
+UnitSystem	p	int:swcUnitSystem_e UnitSystem {get;}	2013		Gets the unit system from the Costing template for this Costing analysis.
+@CostAnalysis3dPrinting	i		base=ICostAnalysis3dPrinting	use=39
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this 3D printing Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this 3D printing Costing analysis.
+FlipDirection	p	bool FlipDirection {get; set;}	2015		Gets or sets whether to flip the printing direction for this 3D printing Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this 3D printing Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this 3D printing Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this 3D printing Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this 3D printing Costing analysis.
+OrientationPlane	p	int:swcPlane_e OrientationPlane {get; set;}	2015		Gets or sets the printing direction for this 3D printing Costing analysis.
+PercentInfill	p	double PercentInfill {get; set;}	2015		Gets or sets the infill percentage for this 3D printing Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this 3D printing Costing...
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this 3D printing Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this 3D printing Costing analysis.
+StructuralMaterialCost	p	double StructuralMaterialCost {get; set;}	2015		Gets or sets the structural material costs for this 3D printing Costing analysis.
+WallThickness	p	double WallThickness {get; set;}	2015		Gets or sets the wall thickness for this 3D printing Costing analysis.
+@CostAnalysis3dPrintingClass	c	Allows access to the 3D printing Costing of a Costing analysis.	base=CostAnalysis3dPrinting,ICostAnalysis3dPrinting
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this 3D printing Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this 3D printing Costing analysis.
+FlipDirection	p	bool FlipDirection {get; set;}	2015		Gets or sets whether to flip the printing direction for this 3D printing Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this 3D printing Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this 3D printing Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this 3D printing Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this 3D printing Costing analysis.
+OrientationPlane	p	int OrientationPlane {get; set;}	2015		Gets or sets the printing direction for this 3D printing Costing analysis.
+PercentInfill	p	double PercentInfill {get; set;}	2015		Gets or sets the infill percentage for this 3D printing Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this 3D printing Costing...
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this 3D printing Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this 3D printing Costing analysis.
+StructuralMaterialCost	p	double StructuralMaterialCost {get; set;}	2015		Gets or sets the structural material costs for this 3D printing Costing analysis.
+WallThickness	p	double WallThickness {get; set;}	2015		Gets or sets the wall thickness for this 3D printing Costing analysis.
+@CostAnalysisCasting	i		base=ICostAnalysisCasting	use=36
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this casting Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this casting Costing analysis.
+CycleTime	p	double CycleTime {get; set;}	2015		Gets or sets the casting process cycle time in hours for this casting Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this casting Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this casting Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this casting Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this casting Costing analysis.
+MoldCost	p	double MoldCost {get; set;}	2015		Gets or sets the cost of the mold for this casting Costing analysis.
+PercentWasteMaterial	p	double PercentWasteMaterial {get; set;}	2015		Gets or sets the percentage of waste material for this casting Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this casting Costing...
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this casting Costing Analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this casting Costing analysis.
+@CostAnalysisCastingClass	c	Allows access to the casting Costing of a Costing analysis.	base=CostAnalysisCasting,ICostAnalysisCasting
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this casting Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this casting Costing analysis.
+CycleTime	p	double CycleTime {get; set;}	2015		Gets or sets the casting process cycle time in hours for this casting Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this casting Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this casting Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this casting Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this casting Costing analysis.
+MoldCost	p	double MoldCost {get; set;}	2015		Gets or sets the cost of the mold for this casting Costing analysis.
+PercentWasteMaterial	p	double PercentWasteMaterial {get; set;}	2015		Gets or sets the percentage of waste material for this casting Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this casting Costing...
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this casting Costing Analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this casting Costing analysis.
+@CostAnalysisClass	c	Allows access to the common Costing analysis.	base=CostAnalysis,ICostAnalysis
+CostingTemplateName	p	string CostingTemplateName {get;}	2013		Gets the name of the Costing template for this Costing analysis.
+CostingType	p	int CostingType {get;}	2013		Gets the Costing type from the Costing template for this Costing analysis.
+CurrencyCode	p	string CurrencyCode {get;}	2013		Gets the 3-letter currency code from the Costing template for this Costing analysis.
+CurrencyName	p	string CurrencyName {get;}	2013		Gets the name of the currency from the Costing template for this Costing analysis.
+CurrencySeparator	p	string CurrencySeparator {get;}	2013		Gets the delimiter for the currency from the Costing template for this Costing analysis.
+GetFirstCostFeature	m	CostFeature GetFirstCostFeature()	2013		Gets the first Costing feature in the CostingManager in this Costing analysis.
+GetManufacturingCost	m	double GetManufacturingCost()	2013		Gets the total manufacturing cost in this Costing analysis.
+GetMaterialCost	m	double GetMaterialCost()	2013		Gets the costs of the materials in this Costing analysis.
+GetSetupCost	m	double GetSetupCost()	2013		Gets the tool setup cost in this Costing analysis.
+GetSpecificAnalysis	m	object GetSpecificAnalysis()	2013		Gets the specific Costing analysis in this Costing analysis.
+GetTotalCostToCharge	m	double GetTotalCostToCharge()	2013		Gets the total cost to charge the customer, including:
+GetTotalCostToManufacture	m	double GetTotalCostToManufacture()	2013		Gets the total cost to manufacture the part:
+LengthUnit	p	int LengthUnit {get;}	2013		Gets the unit for the length from the Costing template for this Costing analysis.
+LotSize	p	int LotSize {get; set;}	2013		Gets or sets the quantity of parts to produce per batch for this Costing analysis.
+MarkUpPercent	p	double MarkUpPercent {get; set;}	2013		Gets or sets the markup percentage for this Costing analysis.
+MarkUpType	p	int MarkUpType {get; set;}	2013		Gets or sets the method of markup for this Costing analysis.
+MassUnit	p	int MassUnit {get;}	2013		Gets the unit of mass from the Costing template for this Costing analysis.
+TotalQuantity	p	int TotalQuantity {get; set;}	2013		Gets or sets the total quantity of parts to produce for this Costing analysis.
+UnitSystem	p	int UnitSystem {get;}	2013		Gets the unit system from the Costing template for this Costing analysis.
+@CostAnalysisMachining	i		base=ICostAnalysisMachining
+BlankSize	p	object BlankSize {get; set;}	2013		Gets or sets the size of the blank for this machining Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2013		Gets or sets the name of the material for this machining Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2013		Gets or sets the name of the material class for this machining Costing analysis.
+CurrentPlateThickness	p	double CurrentPlateThickness {get; set;}	2013		Gets or sets the thickness of the plate for this machining Costing analysis.
+CurrentStockType	p	int:swcStockType_e CurrentStockType {get; set;}	2013		Gets or sets the current stock type for this machining Costing analysis.
+CustomStockBodyName	p	string CustomStockBodyName {get; set;}	2015		Gets or sets the name of the configuration or reference part for a custom stock body in a machining Costing analysis.
+CustomStockCostInfoType	p	int:swcCustomStockCostInfoType_e CustomStockCostInfoType {get; set;}	2015		Gets or sets the type of custom stock cost for this machining Costing analysis.
+CustomStockCustomCost	p	double CustomStockCustomCost {get; set;}	2015		Gets or sets the custom stock cost for this machining Costing analysis.
+CustomStockImportType	p	int:swcCustomStockImportType_e CustomStockImportType {get; set;}	2015		Gets and sets the custom stock import type for this machining Costing analysis.
+GetBlankDimensionCount	m	int GetBlankDimensionCount(int StockType:swcStockType_e)	2013		Gets the number of dimensions for a blank required to produce a body using the specified stock type for this...
+GetMarginDimensionCount	m	int GetMarginDimensionCount()	2013		Gets the number of dimensions for the margins for the stock type for this machining Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2013		Gets the names of the material classes from the Costing template for this machining Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2013		Gets the number of material classes from the Costing template for this machining Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2013		Gets the number of materials in the specified class from the Costing template for this machining Costing analysis.
+GetMaterials	m	object GetMaterials(string ClassName)	2013		Gets the names of the materials in the specified class from the Costing template for this machining Costing analysis.
+GetMinimumBlankSize	m	object GetMinimumBlankSize()	2013		Gets the dimensions of the smallest possible blank required to produce a body using the currently selected stock...
+GetStockTypeCount	m	int GetStockTypeCount(string MaterialClass, string MaterialName)	2013		Gets the number of stock types for the specified material from the Costing template for this machining Costing analysis.
+GetStockTypes	m	object:swcStockType_e GetStockTypes(string MaterialClass, string MaterialName)	2013		Gets the stock types for the specified material from the Costing template for this machining Costing analysis.
+IBlankSize	p	double IBlankSize(int NumDimensions) {get; set;}	2013		Gets or sets the size of the blank for this machining Costing analysis.
+IGetMaterialClasses	m	string IGetMaterialClasses(int NumClassNames)	2013		Gets the names of the material classes from the Costing template for this machining Costing analysis.
+IGetMaterials	m	string IGetMaterials(string ClassName, int NumMaterialNames)	2013		Gets the names of the materials in the specified class from the Costing template for this machining Costing analysis.
+IGetMinimumBlankSize	m	double IGetMinimumBlankSize(int NumDimensions)	2013		Gets the dimensions of the smallest possible blank required to produce a body using the currently selected stock...
+IGetStockTypes	m	int:swcStockType_e IGetStockTypes(string MaterialClass, string MaterialName, int NumStockTypes)	2013		Gets the stock types for the specified material from the Costing template for this machining Costing analysis.
+IMargins	p	double IMargins(int NumDimensions) {get; set;}	2013		Gets or sets the margins for the stock type for this machining Costing analysis.
+Margins	p	object Margins {get; set;}	2013		Gets or sets the margins for the stock type for this machining Costing analysis.
+PreviewShown	p	bool PreviewShown {get; set;}	2013		Gets or sets whether to display a preview of the blank for this machining Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2013		Resets the hourly shop rate to the default hourly shop rate set in the machining template for this machining Costing...
+ShopRate	p	double ShopRate {get; set;}	2013		Gets or sets the hourly shop rate for this machining Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2013		Gets or sets whether an hourly shop rate is applied to this machining Costing analysis.
+SpecificSizeEnabled	p	bool SpecificSizeEnabled {get; set;}	2013		Gets or sets whether a user can specify the X, Y, and Z block dimensions to add to the tightest fitting stock faces...
+@CostAnalysisMachiningClass	c	Allows access to the machining Costing of a Costing analysis.	base=CostAnalysisMachining,ICostAnalysisMachining
+BlankSize	p	object BlankSize {get; set;}	2013		Gets or sets the size of the blank for this machining Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2013		Gets or sets the name of the material for this machining Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2013		Gets or sets the name of the material class for this machining Costing analysis.
+CurrentPlateThickness	p	double CurrentPlateThickness {get; set;}	2013		Gets or sets the thickness of the plate for this machining Costing analysis.
+CurrentStockType	p	int CurrentStockType {get; set;}	2013		Gets or sets the current stock type for this machining Costing analysis.
+CustomStockBodyName	p	string CustomStockBodyName {get; set;}	2015		Gets or sets the name of the configuration or reference part for a custom stock body in a machining Costing analysis.
+CustomStockCostInfoType	p	int CustomStockCostInfoType {get; set;}	2015		Gets or sets the type of custom stock cost for this machining Costing analysis.
+CustomStockCustomCost	p	double CustomStockCustomCost {get; set;}	2015		Gets or sets the custom stock cost for this machining Costing analysis.
+CustomStockImportType	p	int CustomStockImportType {get; set;}	2015		Gets and sets the custom stock import type for this machining Costing analysis.
+GetBlankDimensionCount	m	int GetBlankDimensionCount(int StockType)	2013		Gets the number of dimensions for a blank required to produce a body using the specified stock type for this...
+GetMarginDimensionCount	m	int GetMarginDimensionCount()	2013		Gets the number of dimensions for the margins for the stock type for this machining Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2013		Gets the names of the material classes from the Costing template for this machining Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2013		Gets the number of material classes from the Costing template for this machining Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2013		Gets the number of materials in the specified class from the Costing template for this machining Costing analysis.
+GetMaterials	m	object GetMaterials(string ClassName)	2013		Gets the names of the materials in the specified class from the Costing template for this machining Costing analysis.
+GetMinimumBlankSize	m	object GetMinimumBlankSize()	2013		Gets the dimensions of the smallest possible blank required to produce a body using the currently selected stock...
+GetStockTypeCount	m	int GetStockTypeCount(string MaterialClass, string MaterialName)	2013		Gets the number of stock types for the specified material from the Costing template for this machining Costing analysis.
+GetStockTypes	m	object GetStockTypes(string MaterialClass, string MaterialName)	2013		Gets the stock types for the specified material from the Costing template for this machining Costing analysis.
+IBlankSize	p	double IBlankSize(int NumDimensions) {get; set;}	2013		Gets or sets the size of the blank for this machining Costing analysis.
+IGetMaterialClasses	m	string IGetMaterialClasses(int NumClassNames)	2013		Gets the names of the material classes from the Costing template for this machining Costing analysis.
+IGetMaterials	m	string IGetMaterials(string ClassName, int NumMaterialNames)	2013		Gets the names of the materials in the specified class from the Costing template for this machining Costing analysis.
+IGetMinimumBlankSize	m	double IGetMinimumBlankSize(int NumDimensions)	2013		Gets the dimensions of the smallest possible blank required to produce a body using the currently selected stock...
+IGetStockTypes	m	int IGetStockTypes(string MaterialClass, string MaterialName, int NumStockTypes)	2013		Gets the stock types for the specified material from the Costing template for this machining Costing analysis.
+IMargins	p	double IMargins(int NumDimensions) {get; set;}	2013		Gets or sets the margins for the stock type for this machining Costing analysis.
+Margins	p	object Margins {get; set;}	2013		Gets or sets the margins for the stock type for this machining Costing analysis.
+PreviewShown	p	bool PreviewShown {get; set;}	2013		Gets or sets whether to display a preview of the blank for this machining Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2013		Resets the hourly shop rate to the default hourly shop rate set in the machining template for this machining Costing...
+ShopRate	p	double ShopRate {get; set;}	2013		Gets or sets the hourly shop rate for this machining Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2013		Gets or sets whether an hourly shop rate is applied to this machining Costing analysis.
+SpecificSizeEnabled	p	bool SpecificSizeEnabled {get; set;}	2013		Gets or sets whether a user can specify the X, Y, and Z block dimensions to add to the tightest fitting stock faces...
+@CostAnalysisPlastic	i		base=ICostAnalysisPlastic	use=42
+CalculationMethod	p	int:swcMoldCalculationMethod_e CalculationMethod {get; set;}	2015		Gets or sets the calculation method for this plastic Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this plastic Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this plastic Costing analysis.
+CycleTime	p	double CycleTime {get; set;}	2015		Gets or sets the plastic process cycle time in hours for this plastic Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this plastic Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this plastic Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this plastic Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this plastic Costing analysis.
+MaxWallThickness	p	double MaxWallThickness {get; set;}	2015		Gets or sets the maximum wall thickness for this plastic Costing analysis.
+MoldCost	p	double MoldCost {get; set;}	2015		Gets or sets the cost of the mold for this plastic Costing analysis.
+PercentWasteMaterial	p	double PercentWasteMaterial {get; set;}	2015		Gets or sets the percentage of waste material for this plastic Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this plastic Costing...
+RunnerSystem	p	int:swcRunnerSystem_e RunnerSystem {get; set;}	2015		Gets or sets the runner system for this plastic Costing analysis.
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this plastic Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this plastic Costing analysis.
+@CostAnalysisPlasticClass	c	Allows access to the plastic Costing of a Costing analysis.	base=CostAnalysisPlastic,ICostAnalysisPlastic
+CalculationMethod	p	int CalculationMethod {get; set;}	2015		Gets or sets the calculation method for this plastic Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this plastic Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this plastic Costing analysis.
+CycleTime	p	double CycleTime {get; set;}	2015		Gets or sets the plastic process cycle time in hours for this plastic Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this plastic Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this plastic Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this plastic Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this plastic Costing analysis.
+MaxWallThickness	p	double MaxWallThickness {get; set;}	2015		Gets or sets the maximum wall thickness for this plastic Costing analysis.
+MoldCost	p	double MoldCost {get; set;}	2015		Gets or sets the cost of the mold for this plastic Costing analysis.
+PercentWasteMaterial	p	double PercentWasteMaterial {get; set;}	2015		Gets or sets the percentage of waste material for this plastic Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this plastic Costing...
+RunnerSystem	p	int RunnerSystem {get; set;}	2015		Gets or sets the runner system for this plastic Costing analysis.
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this plastic Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this plastic Costing analysis.
+@CostAnalysisSheetMetal	i		base=ICostAnalysisSheetMetal
+BlankAreaFromModel	p	double BlankAreaFromModel {get;}	2013		Gets the area of a blank, excluding any margin, from the sheet metal part for this sheet metal Costing analysis.
+BlankOffset	p	double BlankOffset {get; set;}	2013		Gets or sets the margin (also called offset) to use around the blank of the sheet metal part for this sheet metal...
+BlankSizeType	p	int:swcSheetMetalBlankSizeType_e BlankSizeType {get; set;}	2013		Gets or sets the type of size of the blank for this sheet metal Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2013		Gets or sets the name of the material for this sheet metal Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2013		Gets or sets the name of the material class for this sheet metal Costing analysis.
+CurrentThickness	p	double CurrentThickness {get; set;}	2013		Gets or sets the sheet metal thickness for this sheet metal Costing analysis.
+CustomBlankArea	p	double CustomBlankArea {get; set;}	2013		Gets or sets the area of a custom blank for a sheet metal part for this sheet metal Costing analysis.
+CustomBlankSize	p	CostBlankSize CustomBlankSize {get; set;}	2013		Gets or sets a custom blank of a sheet metal part in this sheet metal Costing analysis.
+FinalAreaFromModel	p	double FinalAreaFromModel {get;}	2013		Gets the area of a blank, including any margin, from the sheet metal part for this sheet metal Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2013		Gets the names of the material classes from the Costing template for this sheet metal Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2013		Gets the number of material classes from the Costing template for this sheet metal Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2013		Gets the number of materials in the specified class from the Costing template for this sheet metal Costing analysis.
+GetMaterials	m	object GetMaterials(string ClassName)	2013		Gets the names of the materials in the specified class from the Costing template for this sheet metal Costing analysis.
+GetModelThickness	m	double GetModelThickness()	2013		Gets the thickness of the sheet metal from the model for this sheet metal Costing analysis.
+GetThicknesses	m	object GetThicknesses(string ClassName, string MaterialName)	2013		Gets the sheet metal thicknesses for the specified material from the Costing template for this sheet metal Costing...
+GetThicknessesCount	m	int GetThicknessesCount(string ClassName, string MaterialName)	2013		Gets the number of sheet metal thicknesses for the specified material from the Costing template for this sheet metal...
+IGetMaterialClasses	m	string IGetMaterialClasses(int NumClassNames)	2013		Gets the names of the material classes from the Costing template for this sheet metal Costing analysis.
+IGetMaterials	m	string IGetMaterials(string ClassName, int NumMaterialNames)	2013		Gets the names of the materials in the specified class from the Costing template for this sheet metal Costing analysis.
+IGetThicknesses	m	double IGetThicknesses(string ClassName, string MaterialName, int NumThicknesses)	2013		Gets the sheet metal thicknesses for the specified material from the Costing template for this sheet metal Costing...
+MaterialCost	p	double MaterialCost {get; set;}	2013		Gets or sets the cost of the sheet metal material for this sheet metal Costing analysis.
+MaterialCostFromTemplate	p	double MaterialCostFromTemplate {get;}	2013		Gets the cost of the sheet metal material from the Costing template for this sheet metal Costing analysis.
+PreviewShown	p	bool PreviewShown {get; set;}	2013		Gets or sets whether to display a preview of the blank for this sheet metal Costing analysis.
+Weight	p	double Weight {get;}	2013		Gets the weight of the sheet metal part for this sheet metal Costing analysis.
+@CostAnalysisSheetMetalClass	c	Allows access to the sheet metal Costing of a Costing analysis.	base=CostAnalysisSheetMetal,ICostAnalysisSheetMetal
+BlankAreaFromModel	p	double BlankAreaFromModel {get;}	2013		Gets the area of a blank, excluding any margin, from the sheet metal part for this sheet metal Costing analysis.
+BlankOffset	p	double BlankOffset {get; set;}	2013		Gets or sets the margin (also called offset) to use around the blank of the sheet metal part for this sheet metal...
+BlankSizeType	p	int BlankSizeType {get; set;}	2013		Gets or sets the type of size of the blank for this sheet metal Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2013		Gets or sets the name of the material for this sheet metal Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2013		Gets or sets the name of the material class for this sheet metal Costing analysis.
+CurrentThickness	p	double CurrentThickness {get; set;}	2013		Gets or sets the sheet metal thickness for this sheet metal Costing analysis.
+CustomBlankArea	p	double CustomBlankArea {get; set;}	2013		Gets or sets the area of a custom blank for a sheet metal part for this sheet metal Costing analysis.
+CustomBlankSize	p	CostBlankSize CustomBlankSize {get; set;}	2013		Gets or sets a custom blank of a sheet metal part in this sheet metal Costing analysis.
+FinalAreaFromModel	p	double FinalAreaFromModel {get;}	2013		Gets the area of a blank, including any margin, from the sheet metal part for this sheet metal Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2013		Gets the names of the material classes from the Costing template for this sheet metal Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2013		Gets the number of material classes from the Costing template for this sheet metal Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2013		Gets the number of materials in the specified class from the Costing template for this sheet metal Costing analysis.
+GetMaterials	m	object GetMaterials(string ClassName)	2013		Gets the names of the materials in the specified class from the Costing template for this sheet metal Costing analysis.
+GetModelThickness	m	double GetModelThickness()	2013		Gets the thickness of the sheet metal from the model for this sheet metal Costing analysis.
+GetThicknesses	m	object GetThicknesses(string ClassName, string MaterialName)	2013		Gets the sheet metal thicknesses for the specified material from the Costing template for this sheet metal Costing...
+GetThicknessesCount	m	int GetThicknessesCount(string ClassName, string MaterialName)	2013		Gets the number of sheet metal thicknesses for the specified material from the Costing template for this sheet metal...
+IGetMaterialClasses	m	string IGetMaterialClasses(int NumClassNames)	2013		Gets the names of the material classes from the Costing template for this sheet metal Costing analysis.
+IGetMaterials	m	string IGetMaterials(string ClassName, int NumMaterialNames)	2013		Gets the names of the materials in the specified class from the Costing template for this sheet metal Costing analysis.
+IGetThicknesses	m	double IGetThicknesses(string ClassName, string MaterialName, int NumThicknesses)	2013		Gets the sheet metal thicknesses for the specified material from the Costing template for this sheet metal Costing...
+MaterialCost	p	double MaterialCost {get; set;}	2013		Gets or sets the cost of the sheet metal material for this sheet metal Costing analysis.
+MaterialCostFromTemplate	p	double MaterialCostFromTemplate {get;}	2013		Gets the cost of the sheet metal material from the Costing template for this sheet metal Costing analysis.
+PreviewShown	p	bool PreviewShown {get; set;}	2013		Gets or sets whether to display a preview of the blank for this sheet metal Costing analysis.
+Weight	p	double Weight {get;}	2013		Gets the weight of the sheet metal part for this sheet metal Costing analysis.
+@CostAnalysisStructural	i		base=ICostAnalysisStructural	use=36
+CurrentCostMethodType	p	int:swcStructuralStockCostType_e CurrentCostMethodType {get; set;}	2015		Gets or sets the structural stock cost method in the Costing analysis for this structural Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this structural Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this structural Costing analysis.
+CurrentProfileSize	p	string CurrentProfileSize {get;}	2015		Gets the profile size of the weldment used in this structural Costing analysis.
+CurrentProfileStandard	p	string CurrentProfileStandard {get;}	2015		Gets the profile standard of the weldment used in this structural Costing analysis.
+CurrentProfileType	p	string CurrentProfileType {get;}	2015		Gets the profile type of the weldment used in this structural Costing analysis.
+CurrentStockUnitLength	p	double CurrentStockUnitLength {get; set;}	2015		Gets or sets the stock unit length for the weldment in this structural Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this structural Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this structural Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this structural Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this structural Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this structural Costing...
+SetCurrentProfile	m	bool SetCurrentProfile(string Standard, string ProfileType, string ProfileSize)	2015		Sets the profile for the weldment in this Costing analysis for this structural Costing analysis.
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this structural Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this structural Costing analysis.
+@CostAnalysisStructuralClass	c	Allows access to the structural Costing of a Costing analysis.	base=CostAnalysisStructural,ICostAnalysisStructural
+CurrentCostMethodType	p	int CurrentCostMethodType {get; set;}	2015		Gets or sets the structural stock cost method in the Costing analysis for this structural Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this structural Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this structural Costing analysis.
+CurrentProfileSize	p	string CurrentProfileSize {get;}	2015		Gets the profile size of the weldment used in this structural Costing analysis.
+CurrentProfileStandard	p	string CurrentProfileStandard {get;}	2015		Gets the profile standard of the weldment used in this structural Costing analysis.
+CurrentProfileType	p	string CurrentProfileType {get;}	2015		Gets the profile type of the weldment used in this structural Costing analysis.
+CurrentStockUnitLength	p	double CurrentStockUnitLength {get; set;}	2015		Gets or sets the stock unit length for the weldment in this structural Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this structural Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this structural Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this structural Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this structural Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this structural Costing...
+SetCurrentProfile	m	bool SetCurrentProfile(string Standard, string ProfileType, string ProfileSize)	2015		Sets the profile for the weldment in this Costing analysis for this structural Costing analysis.
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this structural Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this structural Costing analysis.
+@CostBlankSize	i		base=ICostBlankSize
+Length	p	double Length {get; set;}	2013		Gets or sets the length of a custom blank for a sheet metal part.
+Width	p	double Width {get; set;}	2013		Gets or sets the width of a custom blank of a sheet metal part.
+@CostBlankSizeClass	c	Allows access to a custom blank of a sheet metal part in a sheet metal Costing analysis.	base=CostBlankSize,ICostBlankSize
+Length	p	double Length {get; set;}	2013		Gets or sets the length of a custom blank for a sheet metal part.
+Width	p	double Width {get; set;}	2013		Gets or sets the width of a custom blank of a sheet metal part.
+@CostBody	i		base=ICostBody
+AssignCustomCost	m	void AssignCustomCost(double fCost)	2013		Sets the total cost (setup and operation) of a custom operation for this Costing body.
+BodyStatus	p	int:swcBodyStatus_e BodyStatus {get;}	2013		Gets the status of this Costing body.
+CreateCostAnalysis	m	CostAnalysis CreateCostAnalysis(string TemplatePath)	2013		Creates a new Costing analysis for this Costing body using the specified Costing template.
+GetBodyType	m	int:swcBodyType_e GetBodyType()	2013		Gets the type of Costing body for the Costing analysis, which indicates which Costing template to use.
+GetCostAnalysis	m	CostAnalysis GetCostAnalysis()	2013		Accesses the existing Cost analysis for this Costing body.
+GetName	m	string GetName()	2013		Gets the name of the Costing body.
+GetSWBody	m	object:IBody2 GetSWBody()	2013		Gets the SOLIDWORKS body that corresponds to this Costing body.
+@CostBodyClass	c	Allows access to a Costing body in a Costing part.	base=CostBody,ICostBody
+AssignCustomCost	m	void AssignCustomCost(double fCost)	2013		Sets the total cost (setup and operation) of a custom operation for this Costing body.
+BodyStatus	p	int BodyStatus {get;}	2013		Gets the status of this Costing body.
+CreateCostAnalysis	m	CostAnalysis CreateCostAnalysis(string TemplatePath)	2013		Creates a new Costing analysis for this Costing body using the specified Costing template.
+GetBodyType	m	int GetBodyType()	2013		Gets the type of Costing body for the Costing analysis, which indicates which Costing template to use.
+GetCostAnalysis	m	CostAnalysis GetCostAnalysis()	2013		Accesses the existing Cost analysis for this Costing body.
+GetName	m	string GetName()	2013		Gets the name of the Costing body.
+GetSWBody	m	object GetSWBody()	2013		Gets the SOLIDWORKS body that corresponds to this Costing body.
+@CostFeature	i		base=ICostFeature
+CombinedCost	p	double CombinedCost {get; set;}	2013		Gets or sets the cost of this Costing feature or operation, including the combined cost of Costing child features...
+CombinedTime	p	double CombinedTime {get; set;}	2013		Gets or sets the time for this Costing feature or operation, including the combined times of Costing child features...
+Description	p	string Description {get;}	2013		Gets or sets the description of this Costing feature, including information about selected sub-operation options.
+GetFirstSubFeature	m	CostFeature GetFirstSubFeature()	2013		Gets the first child feature that belongs to the Costing feature in the CostingManager.
+GetNextFeature	m	CostFeature GetNextFeature()	2013		Gets the next Costing feature in the CostingManager.
+GetNextSubFeature	m	CostFeature GetNextSubFeature()	2013		Gets the next Costing child feature from the owner of this Costing child feature in the CostingManager.
+GetType	m	int:swcCostFeatureType_e GetType()	2013		Gets the type of Costing feature in the CostingManager.
+IsOverridden	p	bool IsOverridden {get;}	2013		Gets whether a cost override was applied to this Costing feature.
+IsSetup	p	bool IsSetup {get;}	2013		Gets whether this Costing feature is a setup-related Costing feature.
+Name	p	string Name {get; set;}	2013		Gets or sets the name of the Costing feature in the CostingManager.
+RemoveOverrideCostTime	m	void RemoveOverrideCostTime()	2013		Removes the cost override and the time required for each operation to manufacture this Costing feature.
+SelectFaces	m	void SelectFaces()	2013		Selects the faces in the part affected by this Costing feature.
+@CostFeatureClass	c	Allows access to Costing features and subfeatures.	base=CostFeature,ICostFeature
+CombinedCost	p	double CombinedCost {get; set;}	2013		Gets or sets the cost of this Costing feature or operation, including the combined cost of Costing child features...
+CombinedTime	p	double CombinedTime {get; set;}	2013		Gets or sets the time for this Costing feature or operation, including the combined times of Costing child features...
+Description	p	string Description {get;}	2013		Gets or sets the description of this Costing feature, including information about selected sub-operation options.
+GetFirstSubFeature	m	CostFeature GetFirstSubFeature()	2013		Gets the first child feature that belongs to the Costing feature in the CostingManager.
+GetNextFeature	m	CostFeature GetNextFeature()	2013		Gets the next Costing feature in the CostingManager.
+GetNextSubFeature	m	CostFeature GetNextSubFeature()	2013		Gets the next Costing child feature from the owner of this Costing child feature in the CostingManager.
+GetType	m	new int GetType()	2013		Gets the type of Costing feature in the CostingManager.
+IsOverridden	p	bool IsOverridden {get;}	2013		Gets whether a cost override was applied to this Costing feature.
+IsSetup	p	bool IsSetup {get;}	2013		Gets whether this Costing feature is a setup-related Costing feature.
+Name	p	string Name {get; set;}	2013		Gets or sets the name of the Costing feature in the CostingManager.
+RemoveOverrideCostTime	m	void RemoveOverrideCostTime()	2013		Removes the cost override and the time required for each operation to manufacture this Costing feature.
+SelectFaces	m	void SelectFaces()	2013		Selects the faces in the part affected by this Costing feature.
+@CostingDefaults	i		base=ICostingDefaults	use=27
+GetManufacturingMethod	m	int:swcMethodType_e GetManufacturingMethod(int BodyType:swcBodyType_e)	2015		Gets the default manufacturing method for the specified type of body for this Costing analysis.
+GetMaterialClass	m	string GetMaterialClass(int MethodType:swcMethodType_e)	2015		Gets the name of the default material class for the specified manufacturing method for this Costing analysis.
+GetMaterialName	m	string GetMaterialName(int MethodType:swcMethodType_e)	2015		Gets the name of the default material for the specified manufacturing method for this Costing analysis.
+GetTemplateName	m	string GetTemplateName(int CostingType:swcCostingType_e)	2015		Gets the path and file name of the default Costing template for the specified type of Costing analysis.
+LotSizeForMultibody	p	int LotSizeForMultibody {get; set;}	2015		Gets or sets the default lot size for multibody mode for this Costing analysis.
+LotSizeForSingleBody	p	int LotSizeForSingleBody {get; set;}	2015		Gets or sets the default lot size for single-body mode for this Costing analysis.
+MachiningStockBodyType	p	int:swcStockType_e MachiningStockBodyType {get; set;}	2015		Gets or sets the default machining stock body type for this Costing analysis.
+SetManufacturingMethod	m	void SetManufacturingMethod(int BodyType:swcBodyType_e, int DefaultMethod:swcMethodType_e)	2015		Sets the default manufacturing method for the specified type of body for this Costing analysis.
+SetMaterialClass	m	void SetMaterialClass(int MethodType:swcMethodType_e, string MaterialClass)	2015		Sets the name of the default material class for the specified manufacturing method for this Costing analysis.
+SetMaterialName	m	void SetMaterialName(int MethodType:swcMethodType_e, string MaterialName)	2015		Sets the name of the default material for the specified manufacturing method for this Costing analysis.
+SetTemplateName	m	void SetTemplateName(int CostingType:swcCostingType_e, string TemplateName)	2015		Sets the path and file name of the default Costing template for the specified type of Costing analysis.
+SheetmetalBlankSizeType	p	int:swcSheetMetalBlankSizeType_e SheetmetalBlankSizeType {get; set;}	2015		Gets or sets the default type of sheet metal blank size for this Costing analysis.
+StructuralMemberStockType	p	int:swcStructuralStockCostType_e StructuralMemberStockType {get; set;}	2015		Gets or sets the default type of structural member stock cost method for this Costing analysis.
+TotalNumberOfPartsForMultibody	p	int TotalNumberOfPartsForMultibody {get; set;}	2015		Sets the default total number of parts for multibody mode in this Costing analysis.
+TotalNumberOfPartsForSingleBody	p	int TotalNumberOfPartsForSingleBody {get; set;}	2015		Gets or sets the default total number of parts for single-body mode in this Costing analysis.
+@CostingDefaultsClass	c	Allows access to the default settings of a Costing analysis.	base=CostingDefaults,ICostingDefaults
+GetManufacturingMethod	m	int GetManufacturingMethod(int BodyType)	2015		Gets the default manufacturing method for the specified type of body for this Costing analysis.
+GetMaterialClass	m	string GetMaterialClass(int MethodType)	2015		Gets the name of the default material class for the specified manufacturing method for this Costing analysis.
+GetMaterialName	m	string GetMaterialName(int MethodType)	2015		Gets the name of the default material for the specified manufacturing method for this Costing analysis.
+GetTemplateName	m	string GetTemplateName(int CostingType)	2015		Gets the path and file name of the default Costing template for the specified type of Costing analysis.
+LotSizeForMultibody	p	int LotSizeForMultibody {get; set;}	2015		Gets or sets the default lot size for multibody mode for this Costing analysis.
+LotSizeForSingleBody	p	int LotSizeForSingleBody {get; set;}	2015		Gets or sets the default lot size for single-body mode for this Costing analysis.
+MachiningStockBodyType	p	int MachiningStockBodyType {get; set;}	2015		Gets or sets the default machining stock body type for this Costing analysis.
+SetManufacturingMethod	m	void SetManufacturingMethod(int BodyType, int DefaultMethod)	2015		Sets the default manufacturing method for the specified type of body for this Costing analysis.
+SetMaterialClass	m	void SetMaterialClass(int MethodType, string MaterialClass)	2015		Sets the name of the default material class for the specified manufacturing method for this Costing analysis.
+SetMaterialName	m	void SetMaterialName(int MethodType, string MaterialName)	2015		Sets the name of the default material for the specified manufacturing method for this Costing analysis.
+SetTemplateName	m	void SetTemplateName(int CostingType, string TemplateName)	2015		Sets the path and file name of the default Costing template for the specified type of Costing analysis.
+SheetmetalBlankSizeType	p	int SheetmetalBlankSizeType {get; set;}	2015		Gets or sets the default type of sheet metal blank size for this Costing analysis.
+StructuralMemberStockType	p	int StructuralMemberStockType {get; set;}	2015		Gets or sets the default type of structural member stock cost method for this Costing analysis.
+TotalNumberOfPartsForMultibody	p	int TotalNumberOfPartsForMultibody {get; set;}	2015		Sets the default total number of parts for multibody mode in this Costing analysis.
+TotalNumberOfPartsForSingleBody	p	int TotalNumberOfPartsForSingleBody {get; set;}	2015		Gets or sets the default total number of parts for single-body mode in this Costing analysis.
+@CostManager	i		base=ICostManager
+Close	m	void Close()	2013		Closes the CostingManager.
+CostingDefaults	p	object:ICostingDefaults CostingDefaults {get;}	2015		Gets the ICostingDefaults object.
+CostingModel	p	object:ICostPart CostingModel {get;}	2013		Gets a Costing model.
+GetTemplateCount	m	int GetTemplateCount(int CostingType:swcCostingType_e)	2013		Gets the number of Costing templates available for the specified type of Costing analysis.
+GetTemplatePathnames	m	object GetTemplatePathnames(int CostingType:swcCostingType_e)	2013		Gets the paths and filenames of the Costing templates available for the specified type of Costing analysis.
+IGetTemplatePathnames	m	string IGetTemplatePathnames(int CostingType:swcCostingType_e, int NumTemplates)	2013		Gets the paths and filenames of the Costing templates available for the specified type of Costing analysis.
+WaitForUIUpdate	m	void WaitForUIUpdate()	2013		Waits for focus to return to the SOLIDWORKS Costing API application after updating Costing.
+@CostManagerClass	c	Allows access to the entry-point interface of the SOLIDWORKS Costing API and the CostingManager.	base=CostManager,ICostManager
+Close	m	void Close()	2013		Closes the CostingManager.
+CostingDefaults	p	object CostingDefaults {get;}	2015		Gets the ICostingDefaults object.
+CostingModel	p	object CostingModel {get;}	2013		Gets a Costing model.
+GetTemplateCount	m	int GetTemplateCount(int CostingType)	2013		Gets the number of Costing templates available for the specified type of Costing analysis.
+GetTemplatePathnames	m	object GetTemplatePathnames(int CostingType)	2013		Gets the paths and filenames of the Costing templates available for the specified type of Costing analysis.
+IGetTemplatePathnames	m	string IGetTemplatePathnames(int CostingType, int NumTemplates)	2013		Gets the paths and filenames of the Costing templates available for the specified type of Costing analysis.
+WaitForUIUpdate	m	void WaitForUIUpdate()	2013		Waits for focus to return to the SOLIDWORKS Costing API application after updating Costing.
+@CostPart	i		base=ICostPart
+ActivateBody	m	CostBody ActivateBody(string BodyName:ICostAnalysis, out int Errors:swcActivateBodyResult_e)	2013		Activates the specified Costing body in the Costing part, which allows modifications to its Costing analysis.
+ActiveBody	p	CostBody ActiveBody {get;}	2013		Gets the active Costing body in this Costing part.
+CreateCostAnalysis	m	CostAnalysis CreateCostAnalysis(string TemplatePath)	2013		Creates a new Costing analysis for this Costing part using the specified Costing template.
+GetBodies	m	object:ICostBody GetBodies()	2013		Gets the Costing bodies in this Costing part.
+GetBodyCount	m	int GetBodyCount()	2013		Gets the number of Costing bodies in this Costing part, including excluded and custom Costing bodies.
+GetCostAnalysis	m	CostAnalysis GetCostAnalysis()	2013		Accesses the existing Cost analysis for this Costing part.
+GetCostingMethod	m	int:swcMethodType_e GetCostingMethod(string BodyName)	2015		Gets the manufacturing method for this Costing part.
+IGetBodies	m	CostBody IGetBodies(int NumBodies)	2013		Gets the Costing bodies in this Costing part.
+IncludeBody	m	int:swcBodyStatus_e IncludeBody(string BodyName, bool Include)	2013		Gets whether to include the specified Costing body in this Costing part in the Costing analysis.
+IUpdateCostForAllBodies	m	int:swcUpdateCostError_e IUpdateCostForAllBodies(int NumBodies)	2013		Updates the Costing data for all of the bodies in this Costing Part.
+SetCostingMethod	m	CostBody SetCostingMethod(string BodyName, int MethodType:swcMethodType_e)	2015		Sets the manufacturing method for this Costing part.
+TemplateOverrides	p	object:ITemplateOverrides TemplateOverrides {get;}	2015		Gets the ITemplateOverrides object.
+UpdateCostForAllBodies	m	object:swcUpdateCostError_e UpdateCostForAllBodies()	2013		Updates the Costing data for all of the bodies in this Costing Part.
+@CostPartClass	c	Allows access to a Costing part.	base=CostPart,ICostPart
+ActivateBody	m	CostBody ActivateBody(string BodyName, out int Errors)	2013		Activates the specified Costing body in the Costing part, which allows modifications to its Costing analysis.
+ActiveBody	p	CostBody ActiveBody {get;}	2013		Gets the active Costing body in this Costing part.
+CreateCostAnalysis	m	CostAnalysis CreateCostAnalysis(string TemplatePath)	2013		Creates a new Costing analysis for this Costing part using the specified Costing template.
+GetBodies	m	object GetBodies()	2013		Gets the Costing bodies in this Costing part.
+GetBodyCount	m	int GetBodyCount()	2013		Gets the number of Costing bodies in this Costing part, including excluded and custom Costing bodies.
+GetCostAnalysis	m	CostAnalysis GetCostAnalysis()	2013		Accesses the existing Cost analysis for this Costing part.
+GetCostingMethod	m	int GetCostingMethod(string BodyName)	2015		Gets the manufacturing method for this Costing part.
+IGetBodies	m	CostBody IGetBodies(int NumBodies)	2013		Gets the Costing bodies in this Costing part.
+IncludeBody	m	int IncludeBody(string BodyName, bool Include)	2013		Gets whether to include the specified Costing body in this Costing part in the Costing analysis.
+IUpdateCostForAllBodies	m	int IUpdateCostForAllBodies(int NumBodies)	2013		Updates the Costing data for all of the bodies in this Costing Part.
+SetCostingMethod	m	CostBody SetCostingMethod(string BodyName, int MethodType)	2015		Sets the manufacturing method for this Costing part.
+TemplateOverrides	p	object TemplateOverrides {get;}	2015		Gets the ITemplateOverrides object.
+UpdateCostForAllBodies	m	object UpdateCostForAllBodies()	2013		Updates the Costing data for all of the bodies in this Costing Part.
+@ICostAnalysis	i	Allows access to the common Costing analysis.	via=ICostBody.CreateCostAnalysis,ICostBody.GetCostAnalysis,ICostPart.CreateCostAnalysis,ICostPart.GetCostAnalysis	use=84
+CostingTemplateName	p	string CostingTemplateName {get;}	2013		Gets the name of the Costing template for this Costing analysis.
+CostingType	p	int:swcCostingType_e CostingType {get;}	2013		Gets the Costing type from the Costing template for this Costing analysis.
+CurrencyCode	p	string CurrencyCode {get;}	2013		Gets the 3-letter currency code from the Costing template for this Costing analysis.
+CurrencyName	p	string CurrencyName {get;}	2013		Gets the name of the currency from the Costing template for this Costing analysis.
+CurrencySeparator	p	string CurrencySeparator {get;}	2013		Gets the delimiter for the currency from the Costing template for this Costing analysis.
+GetFirstCostFeature	m	CostFeature GetFirstCostFeature()	2013		Gets the first Costing feature in the CostingManager in this Costing analysis.
+GetManufacturingCost	m	double GetManufacturingCost()	2013		Gets the total manufacturing cost in this Costing analysis.
+GetMaterialCost	m	double GetMaterialCost()	2013		Gets the costs of the materials in this Costing analysis.
+GetSetupCost	m	double GetSetupCost()	2013		Gets the tool setup cost in this Costing analysis.
+GetSpecificAnalysis	m	object:ICostAnalysis3dPrinting GetSpecificAnalysis()	2013		Gets the specific Costing analysis in this Costing analysis.
+GetTotalCostToCharge	m	double GetTotalCostToCharge()	2013		Gets the total cost to charge the customer, including:
+GetTotalCostToManufacture	m	double GetTotalCostToManufacture()	2013		Gets the total cost to manufacture the part:
+LengthUnit	p	int:swcLengthUnit_e LengthUnit {get;}	2013		Gets the unit for the length from the Costing template for this Costing analysis.
+LotSize	p	int LotSize {get; set;}	2013		Gets or sets the quantity of parts to produce per batch for this Costing analysis.
+MarkUpPercent	p	double MarkUpPercent {get; set;}	2013		Gets or sets the markup percentage for this Costing analysis.
+MarkUpType	p	int:swcMarkUpType_e MarkUpType {get; set;}	2013		Gets or sets the method of markup for this Costing analysis.
+MassUnit	p	int:swcMassUnit_e MassUnit {get;}	2013		Gets the unit of mass from the Costing template for this Costing analysis.
+TotalQuantity	p	int TotalQuantity {get; set;}	2013		Gets or sets the total quantity of parts to produce for this Costing analysis.
+UnitSystem	p	int:swcUnitSystem_e UnitSystem {get;}	2013		Gets the unit system from the Costing template for this Costing analysis.
+@ICostAnalysis3dPrinting	i	Allows access to the 3D printing Costing of a Costing analysis.	via=ICostAnalysis.GetSpecificAnalysis	use=42
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this 3D printing Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this 3D printing Costing analysis.
+FlipDirection	p	bool FlipDirection {get; set;}	2015		Gets or sets whether to flip the printing direction for this 3D printing Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this 3D printing Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this 3D printing Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this 3D printing Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this 3D printing Costing analysis.
+OrientationPlane	p	int:swcPlane_e OrientationPlane {get; set;}	2015		Gets or sets the printing direction for this 3D printing Costing analysis.
+PercentInfill	p	double PercentInfill {get; set;}	2015		Gets or sets the infill percentage for this 3D printing Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this 3D printing Costing...
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this 3D printing Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this 3D printing Costing analysis.
+StructuralMaterialCost	p	double StructuralMaterialCost {get; set;}	2015		Gets or sets the structural material costs for this 3D printing Costing analysis.
+WallThickness	p	double WallThickness {get; set;}	2015		Gets or sets the wall thickness for this 3D printing Costing analysis.
+@ICostAnalysisCasting	i	Allows access to the casting Costing of a Costing analysis.	via=ICostAnalysis.GetSpecificAnalysis	use=39
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this casting Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this casting Costing analysis.
+CycleTime	p	double CycleTime {get; set;}	2015		Gets or sets the casting process cycle time in hours for this casting Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this casting Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this casting Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this casting Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this casting Costing analysis.
+MoldCost	p	double MoldCost {get; set;}	2015		Gets or sets the cost of the mold for this casting Costing analysis.
+PercentWasteMaterial	p	double PercentWasteMaterial {get; set;}	2015		Gets or sets the percentage of waste material for this casting Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this casting Costing...
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this casting Costing Analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this casting Costing analysis.
+@ICostAnalysisMachining	i	Allows access to the machining Costing of a Costing analysis.	via=ICostAnalysis.GetSpecificAnalysis	use=27
+BlankSize	p	object BlankSize {get; set;}	2013		Gets or sets the size of the blank for this machining Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2013		Gets or sets the name of the material for this machining Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2013		Gets or sets the name of the material class for this machining Costing analysis.
+CurrentPlateThickness	p	double CurrentPlateThickness {get; set;}	2013		Gets or sets the thickness of the plate for this machining Costing analysis.
+CurrentStockType	p	int:swcStockType_e CurrentStockType {get; set;}	2013		Gets or sets the current stock type for this machining Costing analysis.
+CustomStockBodyName	p	string CustomStockBodyName {get; set;}	2015		Gets or sets the name of the configuration or reference part for a custom stock body in a machining Costing analysis.
+CustomStockCostInfoType	p	int:swcCustomStockCostInfoType_e CustomStockCostInfoType {get; set;}	2015		Gets or sets the type of custom stock cost for this machining Costing analysis.
+CustomStockCustomCost	p	double CustomStockCustomCost {get; set;}	2015		Gets or sets the custom stock cost for this machining Costing analysis.
+CustomStockImportType	p	int:swcCustomStockImportType_e CustomStockImportType {get; set;}	2015		Gets and sets the custom stock import type for this machining Costing analysis.
+GetBlankDimensionCount	m	int GetBlankDimensionCount(int StockType:swcStockType_e)	2013		Gets the number of dimensions for a blank required to produce a body using the specified stock type for this...
+GetMarginDimensionCount	m	int GetMarginDimensionCount()	2013		Gets the number of dimensions for the margins for the stock type for this machining Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2013		Gets the names of the material classes from the Costing template for this machining Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2013		Gets the number of material classes from the Costing template for this machining Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2013		Gets the number of materials in the specified class from the Costing template for this machining Costing analysis.
+GetMaterials	m	object GetMaterials(string ClassName)	2013		Gets the names of the materials in the specified class from the Costing template for this machining Costing analysis.
+GetMinimumBlankSize	m	object GetMinimumBlankSize()	2013		Gets the dimensions of the smallest possible blank required to produce a body using the currently selected stock...
+GetStockTypeCount	m	int GetStockTypeCount(string MaterialClass, string MaterialName)	2013		Gets the number of stock types for the specified material from the Costing template for this machining Costing analysis.
+GetStockTypes	m	object:swcStockType_e GetStockTypes(string MaterialClass, string MaterialName)	2013		Gets the stock types for the specified material from the Costing template for this machining Costing analysis.
+IBlankSize	p	double IBlankSize(int NumDimensions) {get; set;}	2013		Gets or sets the size of the blank for this machining Costing analysis.
+IGetMaterialClasses	m	string IGetMaterialClasses(int NumClassNames)	2013		Gets the names of the material classes from the Costing template for this machining Costing analysis.
+IGetMaterials	m	string IGetMaterials(string ClassName, int NumMaterialNames)	2013		Gets the names of the materials in the specified class from the Costing template for this machining Costing analysis.
+IGetMinimumBlankSize	m	double IGetMinimumBlankSize(int NumDimensions)	2013		Gets the dimensions of the smallest possible blank required to produce a body using the currently selected stock...
+IGetStockTypes	m	int:swcStockType_e IGetStockTypes(string MaterialClass, string MaterialName, int NumStockTypes)	2013		Gets the stock types for the specified material from the Costing template for this machining Costing analysis.
+IMargins	p	double IMargins(int NumDimensions) {get; set;}	2013		Gets or sets the margins for the stock type for this machining Costing analysis.
+Margins	p	object Margins {get; set;}	2013		Gets or sets the margins for the stock type for this machining Costing analysis.
+PreviewShown	p	bool PreviewShown {get; set;}	2013		Gets or sets whether to display a preview of the blank for this machining Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2013		Resets the hourly shop rate to the default hourly shop rate set in the machining template for this machining Costing...
+ShopRate	p	double ShopRate {get; set;}	2013		Gets or sets the hourly shop rate for this machining Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2013		Gets or sets whether an hourly shop rate is applied to this machining Costing analysis.
+SpecificSizeEnabled	p	bool SpecificSizeEnabled {get; set;}	2013		Gets or sets whether a user can specify the X, Y, and Z block dimensions to add to the tightest fitting stock faces...
+@ICostAnalysisPlastic	i	Allows access to the plastic Costing of a Costing analysis.	via=ICostAnalysis.GetSpecificAnalysis	use=45
+CalculationMethod	p	int:swcMoldCalculationMethod_e CalculationMethod {get; set;}	2015		Gets or sets the calculation method for this plastic Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this plastic Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this plastic Costing analysis.
+CycleTime	p	double CycleTime {get; set;}	2015		Gets or sets the plastic process cycle time in hours for this plastic Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this plastic Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this plastic Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this plastic Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this plastic Costing analysis.
+MaxWallThickness	p	double MaxWallThickness {get; set;}	2015		Gets or sets the maximum wall thickness for this plastic Costing analysis.
+MoldCost	p	double MoldCost {get; set;}	2015		Gets or sets the cost of the mold for this plastic Costing analysis.
+PercentWasteMaterial	p	double PercentWasteMaterial {get; set;}	2015		Gets or sets the percentage of waste material for this plastic Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this plastic Costing...
+RunnerSystem	p	int:swcRunnerSystem_e RunnerSystem {get; set;}	2015		Gets or sets the runner system for this plastic Costing analysis.
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this plastic Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this plastic Costing analysis.
+@ICostAnalysisSheetMetal	i	Allows access to the sheet metal Costing of a Costing analysis.	via=ICostAnalysis.GetSpecificAnalysis	use=27
+BlankAreaFromModel	p	double BlankAreaFromModel {get;}	2013		Gets the area of a blank, excluding any margin, from the sheet metal part for this sheet metal Costing analysis.
+BlankOffset	p	double BlankOffset {get; set;}	2013		Gets or sets the margin (also called offset) to use around the blank of the sheet metal part for this sheet metal...
+BlankSizeType	p	int:swcSheetMetalBlankSizeType_e BlankSizeType {get; set;}	2013		Gets or sets the type of size of the blank for this sheet metal Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2013		Gets or sets the name of the material for this sheet metal Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2013		Gets or sets the name of the material class for this sheet metal Costing analysis.
+CurrentThickness	p	double CurrentThickness {get; set;}	2013		Gets or sets the sheet metal thickness for this sheet metal Costing analysis.
+CustomBlankArea	p	double CustomBlankArea {get; set;}	2013		Gets or sets the area of a custom blank for a sheet metal part for this sheet metal Costing analysis.
+CustomBlankSize	p	CostBlankSize CustomBlankSize {get; set;}	2013		Gets or sets a custom blank of a sheet metal part in this sheet metal Costing analysis.
+FinalAreaFromModel	p	double FinalAreaFromModel {get;}	2013		Gets the area of a blank, including any margin, from the sheet metal part for this sheet metal Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2013		Gets the names of the material classes from the Costing template for this sheet metal Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2013		Gets the number of material classes from the Costing template for this sheet metal Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2013		Gets the number of materials in the specified class from the Costing template for this sheet metal Costing analysis.
+GetMaterials	m	object GetMaterials(string ClassName)	2013		Gets the names of the materials in the specified class from the Costing template for this sheet metal Costing analysis.
+GetModelThickness	m	double GetModelThickness()	2013		Gets the thickness of the sheet metal from the model for this sheet metal Costing analysis.
+GetThicknesses	m	object GetThicknesses(string ClassName, string MaterialName)	2013		Gets the sheet metal thicknesses for the specified material from the Costing template for this sheet metal Costing...
+GetThicknessesCount	m	int GetThicknessesCount(string ClassName, string MaterialName)	2013		Gets the number of sheet metal thicknesses for the specified material from the Costing template for this sheet metal...
+IGetMaterialClasses	m	string IGetMaterialClasses(int NumClassNames)	2013		Gets the names of the material classes from the Costing template for this sheet metal Costing analysis.
+IGetMaterials	m	string IGetMaterials(string ClassName, int NumMaterialNames)	2013		Gets the names of the materials in the specified class from the Costing template for this sheet metal Costing analysis.
+IGetThicknesses	m	double IGetThicknesses(string ClassName, string MaterialName, int NumThicknesses)	2013		Gets the sheet metal thicknesses for the specified material from the Costing template for this sheet metal Costing...
+MaterialCost	p	double MaterialCost {get; set;}	2013		Gets or sets the cost of the sheet metal material for this sheet metal Costing analysis.
+MaterialCostFromTemplate	p	double MaterialCostFromTemplate {get;}	2013		Gets the cost of the sheet metal material from the Costing template for this sheet metal Costing analysis.
+PreviewShown	p	bool PreviewShown {get; set;}	2013		Gets or sets whether to display a preview of the blank for this sheet metal Costing analysis.
+Weight	p	double Weight {get;}	2013		Gets the weight of the sheet metal part for this sheet metal Costing analysis.
+@ICostAnalysisStructural	i	Allows access to the structural Costing of a Costing analysis.	via=ICostAnalysis.GetSpecificAnalysis	use=39
+CurrentCostMethodType	p	int:swcStructuralStockCostType_e CurrentCostMethodType {get; set;}	2015		Gets or sets the structural stock cost method in the Costing analysis for this structural Costing analysis.
+CurrentMaterial	p	string CurrentMaterial {get; set;}	2015		Gets or sets the name of the material for this structural Costing analysis.
+CurrentMaterialClass	p	string CurrentMaterialClass {get; set;}	2015		Gets or sets the name of the material class for this structural Costing analysis.
+CurrentProfileSize	p	string CurrentProfileSize {get;}	2015		Gets the profile size of the weldment used in this structural Costing analysis.
+CurrentProfileStandard	p	string CurrentProfileStandard {get;}	2015		Gets the profile standard of the weldment used in this structural Costing analysis.
+CurrentProfileType	p	string CurrentProfileType {get;}	2015		Gets the profile type of the weldment used in this structural Costing analysis.
+CurrentStockUnitLength	p	double CurrentStockUnitLength {get; set;}	2015		Gets or sets the stock unit length for the weldment in this structural Costing analysis.
+GetMaterialClasses	m	object GetMaterialClasses()	2015		Gets the names of the material classes from the Costing template for this structural Costing analysis.
+GetMaterialClassesCount	m	int GetMaterialClassesCount()	2015		Gets the number of material classes from the Costing template for this structural Costing analysis.
+GetMaterialCount	m	int GetMaterialCount(string ClassName)	2015		Gets the number of materials in the specified material class from the Costing template for this structural Costing...
+GetMaterials	m	object GetMaterials(string ClassName)	2015		Gets the names of the materials in the specified class from the Costing template for this structural Costing analysis.
+ResetShopRate	m	void ResetShopRate()	2015		Resets the hourly shop rate to the default hourly shop rate set in the Costing template for this structural Costing...
+SetCurrentProfile	m	bool SetCurrentProfile(string Standard, string ProfileType, string ProfileSize)	2015		Sets the profile for the weldment in this Costing analysis for this structural Costing analysis.
+ShopRate	p	double ShopRate {get; set;}	2015		Gets or sets the hourly shop rate for this structural Costing analysis.
+ShopRateApplied	p	bool ShopRateApplied {get; set;}	2015		Gets or sets whether an hourly shop rate is applied to this structural Costing analysis.
+@ICostBlankSize	i	Allows access to a custom blank of a sheet metal part in a sheet metal Costing analysis.	via=ICostAnalysisSheetMetal.CustomBlankSize
+Length	p	double Length {get; set;}	2013		Gets or sets the length of a custom blank for a sheet metal part.
+Width	p	double Width {get; set;}	2013		Gets or sets the width of a custom blank of a sheet metal part.
+@ICostBody	i	Allows access to a Costing body in a Costing part.	via=ICostPart.ActivateBody,ICostPart.ActiveBody,ICostPart.GetBodies,ICostPart.IGetBodies,ICostPart.SetCostingMethod	use=36
+AssignCustomCost	m	void AssignCustomCost(double fCost)	2013		Sets the total cost (setup and operation) of a custom operation for this Costing body.
+BodyStatus	p	int:swcBodyStatus_e BodyStatus {get;}	2013		Gets the status of this Costing body.
+CreateCostAnalysis	m	CostAnalysis CreateCostAnalysis(string TemplatePath)	2013		Creates a new Costing analysis for this Costing body using the specified Costing template.
+GetBodyType	m	int:swcBodyType_e GetBodyType()	2013		Gets the type of Costing body for the Costing analysis, which indicates which Costing template to use.
+GetCostAnalysis	m	CostAnalysis GetCostAnalysis()	2013		Accesses the existing Cost analysis for this Costing body.
+GetName	m	string GetName()	2013		Gets the name of the Costing body.
+GetSWBody	m	object:IBody2 GetSWBody()	2013		Gets the SOLIDWORKS body that corresponds to this Costing body.
+@ICostFeature	i	Allows access to Costing features and subfeatures.	via=ICostAnalysis.GetFirstCostFeature,ICostFeature.GetFirstSubFeature,ICostFeature.GetNextFeature,ICostFeature.GetNextSubFeature	use=54
+CombinedCost	p	double CombinedCost {get; set;}	2013		Gets or sets the cost of this Costing feature or operation, including the combined cost of Costing child features...
+CombinedTime	p	double CombinedTime {get; set;}	2013		Gets or sets the time for this Costing feature or operation, including the combined times of Costing child features...
+Description	p	string Description {get;}	2013		Gets or sets the description of this Costing feature, including information about selected sub-operation options.
+GetFirstSubFeature	m	CostFeature GetFirstSubFeature()	2013		Gets the first child feature that belongs to the Costing feature in the CostingManager.
+GetNextFeature	m	CostFeature GetNextFeature()	2013		Gets the next Costing feature in the CostingManager.
+GetNextSubFeature	m	CostFeature GetNextSubFeature()	2013		Gets the next Costing child feature from the owner of this Costing child feature in the CostingManager.
+GetType	m	int:swcCostFeatureType_e GetType()	2013		Gets the type of Costing feature in the CostingManager.
+IsOverridden	p	bool IsOverridden {get;}	2013		Gets whether a cost override was applied to this Costing feature.
+IsSetup	p	bool IsSetup {get;}	2013		Gets whether this Costing feature is a setup-related Costing feature.
+Name	p	string Name {get; set;}	2013		Gets or sets the name of the Costing feature in the CostingManager.
+RemoveOverrideCostTime	m	void RemoveOverrideCostTime()	2013		Removes the cost override and the time required for each operation to manufacture this Costing feature.
+SelectFaces	m	void SelectFaces()	2013		Selects the faces in the part affected by this Costing feature.
+@ICostingDefaults	i	Allows access to the default settings of a Costing analysis.	via=ICostManager.CostingDefaults	use=30
+GetManufacturingMethod	m	int:swcMethodType_e GetManufacturingMethod(int BodyType:swcBodyType_e)	2015		Gets the default manufacturing method for the specified type of body for this Costing analysis.
+GetMaterialClass	m	string GetMaterialClass(int MethodType:swcMethodType_e)	2015		Gets the name of the default material class for the specified manufacturing method for this Costing analysis.
+GetMaterialName	m	string GetMaterialName(int MethodType:swcMethodType_e)	2015		Gets the name of the default material for the specified manufacturing method for this Costing analysis.
+GetTemplateName	m	string GetTemplateName(int CostingType:swcCostingType_e)	2015		Gets the path and file name of the default Costing template for the specified type of Costing analysis.
+LotSizeForMultibody	p	int LotSizeForMultibody {get; set;}	2015		Gets or sets the default lot size for multibody mode for this Costing analysis.
+LotSizeForSingleBody	p	int LotSizeForSingleBody {get; set;}	2015		Gets or sets the default lot size for single-body mode for this Costing analysis.
+MachiningStockBodyType	p	int:swcStockType_e MachiningStockBodyType {get; set;}	2015		Gets or sets the default machining stock body type for this Costing analysis.
+SetManufacturingMethod	m	void SetManufacturingMethod(int BodyType:swcBodyType_e, int DefaultMethod:swcMethodType_e)	2015		Sets the default manufacturing method for the specified type of body for this Costing analysis.
+SetMaterialClass	m	void SetMaterialClass(int MethodType:swcMethodType_e, string MaterialClass)	2015		Sets the name of the default material class for the specified manufacturing method for this Costing analysis.
+SetMaterialName	m	void SetMaterialName(int MethodType:swcMethodType_e, string MaterialName)	2015		Sets the name of the default material for the specified manufacturing method for this Costing analysis.
+SetTemplateName	m	void SetTemplateName(int CostingType:swcCostingType_e, string TemplateName)	2015		Sets the path and file name of the default Costing template for the specified type of Costing analysis.
+SheetmetalBlankSizeType	p	int:swcSheetMetalBlankSizeType_e SheetmetalBlankSizeType {get; set;}	2015		Gets or sets the default type of sheet metal blank size for this Costing analysis.
+StructuralMemberStockType	p	int:swcStructuralStockCostType_e StructuralMemberStockType {get; set;}	2015		Gets or sets the default type of structural member stock cost method for this Costing analysis.
+TotalNumberOfPartsForMultibody	p	int TotalNumberOfPartsForMultibody {get; set;}	2015		Sets the default total number of parts for multibody mode in this Costing analysis.
+TotalNumberOfPartsForSingleBody	p	int TotalNumberOfPartsForSingleBody {get; set;}	2015		Gets or sets the default total number of parts for single-body mode in this Costing analysis.
+@ICostManager	i	Allows access to the entry-point interface of the SOLIDWORKS Costing API and the CostingManager.	via=IModelDocExtension.GetCostingManager	use=33
+Close	m	void Close()	2013		Closes the CostingManager.
+CostingDefaults	p	object:ICostingDefaults CostingDefaults {get;}	2015		Gets the ICostingDefaults object.
+CostingModel	p	object:ICostPart CostingModel {get;}	2013		Gets a Costing model.
+GetTemplateCount	m	int GetTemplateCount(int CostingType:swcCostingType_e)	2013		Gets the number of Costing templates available for the specified type of Costing analysis.
+GetTemplatePathnames	m	object GetTemplatePathnames(int CostingType:swcCostingType_e)	2013		Gets the paths and filenames of the Costing templates available for the specified type of Costing analysis.
+IGetTemplatePathnames	m	string IGetTemplatePathnames(int CostingType:swcCostingType_e, int NumTemplates)	2013		Gets the paths and filenames of the Costing templates available for the specified type of Costing analysis.
+WaitForUIUpdate	m	void WaitForUIUpdate()	2013		Waits for focus to return to the SOLIDWORKS Costing API application after updating Costing.
+@ICostPart	i	Allows access to a Costing part.	via=ICostManager.CostingModel	use=30
+ActivateBody	m	CostBody ActivateBody(string BodyName:ICostAnalysis, out int Errors:swcActivateBodyResult_e)	2013		Activates the specified Costing body in the Costing part, which allows modifications to its Costing analysis.
+ActiveBody	p	CostBody ActiveBody {get;}	2013		Gets the active Costing body in this Costing part.
+CreateCostAnalysis	m	CostAnalysis CreateCostAnalysis(string TemplatePath)	2013		Creates a new Costing analysis for this Costing part using the specified Costing template.
+GetBodies	m	object:ICostBody GetBodies()	2013		Gets the Costing bodies in this Costing part.
+GetBodyCount	m	int GetBodyCount()	2013		Gets the number of Costing bodies in this Costing part, including excluded and custom Costing bodies.
+GetCostAnalysis	m	CostAnalysis GetCostAnalysis()	2013		Accesses the existing Cost analysis for this Costing part.
+GetCostingMethod	m	int:swcMethodType_e GetCostingMethod(string BodyName)	2015		Gets the manufacturing method for this Costing part.
+IGetBodies	m	CostBody IGetBodies(int NumBodies)	2013		Gets the Costing bodies in this Costing part.
+IncludeBody	m	int:swcBodyStatus_e IncludeBody(string BodyName, bool Include)	2013		Gets whether to include the specified Costing body in this Costing part in the Costing analysis.
+IUpdateCostForAllBodies	m	int:swcUpdateCostError_e IUpdateCostForAllBodies(int NumBodies)	2013		Updates the Costing data for all of the bodies in this Costing Part.
+SetCostingMethod	m	CostBody SetCostingMethod(string BodyName, int MethodType:swcMethodType_e)	2015		Sets the manufacturing method for this Costing part.
+TemplateOverrides	p	object:ITemplateOverrides TemplateOverrides {get;}	2015		Gets the ITemplateOverrides object.
+UpdateCostForAllBodies	m	object:swcUpdateCostError_e UpdateCostForAllBodies()	2013		Updates the Costing data for all of the bodies in this Costing Part.
+@ITemplateOverrides	i	Allows access to system-level Costing options that can be overridden.	via=ICostPart.TemplateOverrides	use=21
+ApplyOverrides	m	void ApplyOverrides()	2015		Applies all overridden system-level options.
+CustomBendCost	p	double CustomBendCost {get; set;}	2015		Gets or sets the custom cost per bend for sheet metal parts.
+CustomHemCost	p	double CustomHemCost {get; set;}	2015		Gets or sets the custom hem cost for sheet metal parts.
+CustomLibraryFeatureCost	p	double CustomLibraryFeatureCost {get; set;}	2015		Gets or sets the custom library feature cost for sheet metal parts.
+DefaultFinishingOperation	p	int:swcFinishingOperationType_e DefaultFinishingOperation {get; set;}	2015		Gets or sets the default finishing operation for machined parts.
+DefaultMachiningOperationTool	p	int:swcDefaultMachiningTool_e DefaultMachiningOperationTool {get; set;}	2015		Gets or sets the tool for the default machining operation for machined parts.
+FinishingCostPerVolume	p	double FinishingCostPerVolume {get; set;}	2015		Gets or sets the finishing cost per volume for machined parts.
+FinishingOffset	p	double FinishingOffset {get; set;}	2015		Gets or sets the finishing offset for machined parts.
+RemovedMaterialProcessingType	p	int:swcRemovedMaterialProcessingType_e RemovedMaterialProcessingType {get; set;}	2015		Gets or sets the removed material processing option for machined parts.
+ResetAll	m	void ResetAll()	2015		Restores all overridden system-level options to their system-level settings and recalculates features and costs...
+RoughingCostPerVolume	p	double RoughingCostPerVolume {get; set;}	2015		Gets or sets the roughing cost per volume for machined parts.
+SaveCostingOverrideSettings	m	void SaveCostingOverrideSettings()	2015		Saves all overridden system-level settings to the registry.
+SemiFinishingCostPerVolume	p	double SemiFinishingCostPerVolume {get; set;}	2015		Gets or sets the semi-finishing cost per volume for machined parts.
+SemiFinishingOffset	p	double SemiFinishingOffset {get; set;}	2015		Gets or sets the semi-finishing offset for machined parts.
+ShowUndeterminedSlotsInNCAFolder	p	bool ShowUndeterminedSlotsInNCAFolder {get; set;}	2015		Gets or sets whether slot features whose volume cannot be determined are displayed as items in the No Cost Assigned...
+SlotFeatureRecognitionType	p	int:swcSlotFeatureRecognitionType_e SlotFeatureRecognitionType {get; set;}	2015		Gets or sets the slot feature recognition option for machined parts.
+UseCustomBendCost	p	bool UseCustomBendCost {get; set;}	2015		Gets or sets whether to use a custom cost per bend for sheet metal parts.
+UseCustomHemCost	p	bool UseCustomHemCost {get; set;}	2015		Gets or sets whether to use a custom hem cost for sheet metal parts.
+UseCustomLibraryFeatureCost	p	bool UseCustomLibraryFeatureCost {get; set;}	2015		Gets or sets whether to use a custom library feature cost for sheet metal parts.
+UseOffsetBasedFinishing	p	bool UseOffsetBasedFinishing {get; set;}	2015		Gets or sets the option to override template settings for offset-based finishing for machined parts.
+VolumeFeatureCalculationType	p	int:swcVolumeFeatureCalculationType_e VolumeFeatureCalculationType {get; set;}	2015		Gets or sets the volume feature calculation option for machined parts.
+@TemplateOverrides	i		base=ITemplateOverrides
+ApplyOverrides	m	void ApplyOverrides()	2015		Applies all overridden system-level options.
+CustomBendCost	p	double CustomBendCost {get; set;}	2015		Gets or sets the custom cost per bend for sheet metal parts.
+CustomHemCost	p	double CustomHemCost {get; set;}	2015		Gets or sets the custom hem cost for sheet metal parts.
+CustomLibraryFeatureCost	p	double CustomLibraryFeatureCost {get; set;}	2015		Gets or sets the custom library feature cost for sheet metal parts.
+DefaultFinishingOperation	p	int:swcFinishingOperationType_e DefaultFinishingOperation {get; set;}	2015		Gets or sets the default finishing operation for machined parts.
+DefaultMachiningOperationTool	p	int:swcDefaultMachiningTool_e DefaultMachiningOperationTool {get; set;}	2015		Gets or sets the tool for the default machining operation for machined parts.
+FinishingCostPerVolume	p	double FinishingCostPerVolume {get; set;}	2015		Gets or sets the finishing cost per volume for machined parts.
+FinishingOffset	p	double FinishingOffset {get; set;}	2015		Gets or sets the finishing offset for machined parts.
+RemovedMaterialProcessingType	p	int:swcRemovedMaterialProcessingType_e RemovedMaterialProcessingType {get; set;}	2015		Gets or sets the removed material processing option for machined parts.
+ResetAll	m	void ResetAll()	2015		Restores all overridden system-level options to their system-level settings and recalculates features and costs...
+RoughingCostPerVolume	p	double RoughingCostPerVolume {get; set;}	2015		Gets or sets the roughing cost per volume for machined parts.
+SaveCostingOverrideSettings	m	void SaveCostingOverrideSettings()	2015		Saves all overridden system-level settings to the registry.
+SemiFinishingCostPerVolume	p	double SemiFinishingCostPerVolume {get; set;}	2015		Gets or sets the semi-finishing cost per volume for machined parts.
+SemiFinishingOffset	p	double SemiFinishingOffset {get; set;}	2015		Gets or sets the semi-finishing offset for machined parts.
+ShowUndeterminedSlotsInNCAFolder	p	bool ShowUndeterminedSlotsInNCAFolder {get; set;}	2015		Gets or sets whether slot features whose volume cannot be determined are displayed as items in the No Cost Assigned...
+SlotFeatureRecognitionType	p	int:swcSlotFeatureRecognitionType_e SlotFeatureRecognitionType {get; set;}	2015		Gets or sets the slot feature recognition option for machined parts.
+UseCustomBendCost	p	bool UseCustomBendCost {get; set;}	2015		Gets or sets whether to use a custom cost per bend for sheet metal parts.
+UseCustomHemCost	p	bool UseCustomHemCost {get; set;}	2015		Gets or sets whether to use a custom hem cost for sheet metal parts.
+UseCustomLibraryFeatureCost	p	bool UseCustomLibraryFeatureCost {get; set;}	2015		Gets or sets whether to use a custom library feature cost for sheet metal parts.
+UseOffsetBasedFinishing	p	bool UseOffsetBasedFinishing {get; set;}	2015		Gets or sets the option to override template settings for offset-based finishing for machined parts.
+VolumeFeatureCalculationType	p	int:swcVolumeFeatureCalculationType_e VolumeFeatureCalculationType {get; set;}	2015		Gets or sets the volume feature calculation option for machined parts.
+@TemplateOverridesClass	c	Allows access to system-level Costing options that can be overridden.	base=ITemplateOverrides,TemplateOverrides
+ApplyOverrides	m	void ApplyOverrides()	2015		Applies all overridden system-level options.
+CustomBendCost	p	double CustomBendCost {get; set;}	2015		Gets or sets the custom cost per bend for sheet metal parts.
+CustomHemCost	p	double CustomHemCost {get; set;}	2015		Gets or sets the custom hem cost for sheet metal parts.
+CustomLibraryFeatureCost	p	double CustomLibraryFeatureCost {get; set;}	2015		Gets or sets the custom library feature cost for sheet metal parts.
+DefaultFinishingOperation	p	int DefaultFinishingOperation {get; set;}	2015		Gets or sets the default finishing operation for machined parts.
+DefaultMachiningOperationTool	p	int DefaultMachiningOperationTool {get; set;}	2015		Gets or sets the tool for the default machining operation for machined parts.
+FinishingCostPerVolume	p	double FinishingCostPerVolume {get; set;}	2015		Gets or sets the finishing cost per volume for machined parts.
+FinishingOffset	p	double FinishingOffset {get; set;}	2015		Gets or sets the finishing offset for machined parts.
+RemovedMaterialProcessingType	p	int RemovedMaterialProcessingType {get; set;}	2015		Gets or sets the removed material processing option for machined parts.
+ResetAll	m	void ResetAll()	2015		Restores all overridden system-level options to their system-level settings and recalculates features and costs...
+RoughingCostPerVolume	p	double RoughingCostPerVolume {get; set;}	2015		Gets or sets the roughing cost per volume for machined parts.
+SaveCostingOverrideSettings	m	void SaveCostingOverrideSettings()	2015		Saves all overridden system-level settings to the registry.
+SemiFinishingCostPerVolume	p	double SemiFinishingCostPerVolume {get; set;}	2015		Gets or sets the semi-finishing cost per volume for machined parts.
+SemiFinishingOffset	p	double SemiFinishingOffset {get; set;}	2015		Gets or sets the semi-finishing offset for machined parts.
+ShowUndeterminedSlotsInNCAFolder	p	bool ShowUndeterminedSlotsInNCAFolder {get; set;}	2015		Gets or sets whether slot features whose volume cannot be determined are displayed as items in the No Cost Assigned...
+SlotFeatureRecognitionType	p	int SlotFeatureRecognitionType {get; set;}	2015		Gets or sets the slot feature recognition option for machined parts.
+UseCustomBendCost	p	bool UseCustomBendCost {get; set;}	2015		Gets or sets whether to use a custom cost per bend for sheet metal parts.
+UseCustomHemCost	p	bool UseCustomHemCost {get; set;}	2015		Gets or sets whether to use a custom hem cost for sheet metal parts.
+UseCustomLibraryFeatureCost	p	bool UseCustomLibraryFeatureCost {get; set;}	2015		Gets or sets whether to use a custom library feature cost for sheet metal parts.
+UseOffsetBasedFinishing	p	bool UseOffsetBasedFinishing {get; set;}	2015		Gets or sets the option to override template settings for offset-based finishing for machined parts.
+VolumeFeatureCalculationType	p	int VolumeFeatureCalculationType {get; set;}	2015		Gets or sets the volume feature calculation option for machined parts.

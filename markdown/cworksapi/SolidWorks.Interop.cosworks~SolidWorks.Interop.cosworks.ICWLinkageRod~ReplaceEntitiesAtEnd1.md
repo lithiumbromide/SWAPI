@@ -52,16 +52,11 @@ void ReplaceEntitiesAtEnd1(
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::ReplaceEntitiesAtEnd1](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~ReplaceEntitiesAtEnd1.html)
-
-.
+See [CWLinkageRod::ReplaceEntitiesAtEnd1](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~ReplaceEntitiesAtEnd1.html).
 
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

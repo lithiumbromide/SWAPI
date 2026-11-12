@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser6_members.html"
 
 # IEdmUser6 Interface Members
 
-The following tables list the members exposed by[IEdmUser6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser6.html).
+The following tables list the members exposed by [IEdmUser6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser6.html).
 
 ## Public Properties
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IEdmUser6](EPDM.Interop.epdm~EP
 ## See Also
 
 [IEdmUser6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser6.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -59,13 +59,7 @@ System.int SetCellEquation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -76,17 +70,11 @@ See
 
 ### Return Value
 
-Return code as defined in
-
-[swCellEquationStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCellEquationStatus_e.html)
+Return code as defined in [swCellEquationStatus_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCellEquationStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::SetCellEquation](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetCellEquation.html)
-
-.
+See [TableAnnotation::SetCellEquation](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~SetCellEquation.html).
 
 ## Examples
 
@@ -94,20 +82,13 @@ See
 
 ## Remarks
 
-After calling this method, call
-
-[IModelDoc2::EditRebuild3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditRebuild3.html)
-
-to refresh the table in the user interface.
+After calling this method, call [IModelDoc2::EditRebuild3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditRebuild3.html) to refresh the table in the user interface.
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::GetCellEquation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~GetCellEquation.html)
-
 [ITableAnnotation::EvaluateCellEquation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~EvaluateCellEquation.html)
 
 ## Availability

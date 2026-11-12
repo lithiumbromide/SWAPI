@@ -9,12 +9,9 @@ source: "API_GB/Send_Message_to_Users_Example_CSharp.htm"
 
 # Send Message to Users Example (C#)
 
-This example shows how to send a message, also called a notification, to logged-in users who have
-permission to modify Categories.
+This example shows how to send a message, also called a notification, to logged-in users who have permission to modify Categories.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 //----------------------------------------------------------------------------

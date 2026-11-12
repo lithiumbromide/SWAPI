@@ -47,13 +47,7 @@ System.Object^ GetAttachments(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ Array of strings of the names of the attachments for this document
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetAttachments](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetAttachments.html)
-
-.
+See [ModelDocExtension::GetAttachments](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetAttachments.html).
 
 ## Remarks
 
@@ -80,15 +70,10 @@ There is a one-to-one correspondence between the output arrays.
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::DeleteAttachment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteAttachment.html)
-
 [IModelDocExtension::GetAttachmentCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetAttachmentCount.html)
-
 [IModelDocExtension::IGetAttachments Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IGetAttachments.html)
-
 [IModelDocExtension::InsertAttachment Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertAttachment.html)
 
 ## Availability

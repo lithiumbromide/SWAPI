@@ -65,52 +65,40 @@ void AddStamp(
 ### Parameters
 
 - `Filename`: Path and name of the file containing an image of a rubber stamp
-- `X`: - Parts and assemblies:kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}x screen coordinate
-  - or -
-- Drawings: x drawing coordinate
+- `X`: - Parts and assemblies: x screen coordinate
+    - or -
+  - Drawings: x drawing coordinate
 - `Y`: - Parts and assemblies: y screen coordinate
+    - or -
 
-  - or -
-
-Drawings: y drawing coordinate
+  Drawings: y drawing coordinate
 - `Width`: - Parts and assemblies: not applicable; no meaning
-
-  - or -
-- Drawings: width of the stamp in drawing coordinates
+    - or -
+  - Drawings: width of the stamp in drawing coordinates
 - `Height`: - Parts and assemblies: not applicable; no meaning
+    - or -
 
-  - or -
-
-Drawings: height of the stamp in drawing coordinates
+  Drawings: height of the stamp in drawing coordinates
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::AddStamp](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~AddStamp.html)
-
-.
+See [EModelMarkupControl::AddStamp](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~AddStamp.html).
 
 ## Examples
 
-See the
-
-[IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl.html)
-
-examples.
+See the [IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl.html) examples.
 
 ## Remarks
 
 The stamp is inserted into the scene using screen coordinates. The lower-left corner is -1,-1, and the upper-right corner is 1,1, making the insertion hardware-independent.
 
-When the stamp is inserted on a second sheet, it is in drawing coordinates. The lower-left corner of the drawing sheet is 0,0.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}X and Y are in meters. The optional Height and Width are also in meters.
+When the stamp is inserted on a second sheet, it is in drawing coordinates. The lower-left corner of the drawing sheet is 0,0. X and Y are in meters. The optional Height and Width are also in meters.
 
-The positionis the center of the stamp.
+The position is the center of the stamp.
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
 
 ## Availability

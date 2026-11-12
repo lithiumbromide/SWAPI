@@ -51,13 +51,7 @@ System.bool SetD1IncrementDimensions(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,24 +64,15 @@ True if the dimensions are incremented successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[InstanceToVaryOptions::SetD1IncrementDimensions](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~SetD1IncrementDimensions.html)
-
-.
+See [InstanceToVaryOptions::SetD1IncrementDimensions](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~SetD1IncrementDimensions.html).
 
 ## Examples
 
-See the
-
-[IInstanceToVaryOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
-examples.
+See the [IInstanceToVaryOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html) examples.
 
 ## See Also
 
 [IInstanceToVaryOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
 [IInstanceToVaryOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions_members.html)
 
 ## Availability

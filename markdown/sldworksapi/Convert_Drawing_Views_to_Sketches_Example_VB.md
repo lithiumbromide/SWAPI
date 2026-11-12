@@ -9,8 +9,7 @@ source: "sldworksapi/Convert_Drawing_Views_to_Sketches_Example_VB.htm"
 
 # Convert Drawing Views to Sketch Blocks Example (VBA)
 
-This example shows how to convert drawing views to sketches and sketch
-blocks.
+This example shows how to convert drawing views to sketches and sketch blocks.
 
 ```
 '----------------------------------------------------------------------------

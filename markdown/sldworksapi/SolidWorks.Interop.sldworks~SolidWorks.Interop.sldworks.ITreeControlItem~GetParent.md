@@ -40,13 +40,7 @@ TreeControlItem GetParent()
 TreeControlItem^ GetParent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[TreeControlItem::GetParent](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~GetParent.html)
-
-.
+See [TreeControlItem::GetParent](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~GetParent.html).
 
 ## See Also
 
 [ITreeControlItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem.html)
-
 [ITreeControlItem Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem_members.html)
 
 ## Availability

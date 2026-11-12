@@ -51,24 +51,15 @@ property System.double Boat {
 
 ## VBA Syntax
 
-See
-
-[SustainabilityTransportation::Boat](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityTransportation~Boat.html)
-
-.
+See [SustainabilityTransportation::Boat](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityTransportation~Boat.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityTransportation](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityTransportation.html)
-
-.
+See the examples in [ISustainabilityTransportation](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityTransportation.html).
 
 ## See Also
 
 [ISustainabilityTransportation Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation.html)
-
 [ISustainabilityTransportation Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation_members.html)
 
 ## Availability

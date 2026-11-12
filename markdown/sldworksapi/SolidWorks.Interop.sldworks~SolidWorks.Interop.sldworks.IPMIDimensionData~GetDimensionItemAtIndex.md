@@ -47,13 +47,7 @@ System.Object^ GetDimensionItemAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,32 +59,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[PMIDimensionData::GetDimensionItemAtIndex](ms-its:sldworksapivb6.chm::/sldworks~PMIDimensionData~GetDimensionItemAtIndex.html)
-
-.
+See [PMIDimensionData::GetDimensionItemAtIndex](ms-its:sldworksapivb6.chm::/sldworks~PMIDimensionData~GetDimensionItemAtIndex.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## Remarks
 
-Use
-
-[IPMIDimensionData::GetDimensionItemCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData~GetDimensionItemCount.html)
-
-to set Index.
+Use [IPMIDimensionData::GetDimensionItemCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData~GetDimensionItemCount.html) to set Index.
 
 ## See Also
 
 [IPMIDimensionData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData.html)
-
 [IPMIDimensionData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIDimensionData_members.html)
 
 ## Availability

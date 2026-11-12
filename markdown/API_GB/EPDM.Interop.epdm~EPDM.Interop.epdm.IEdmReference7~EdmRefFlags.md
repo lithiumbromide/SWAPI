@@ -35,14 +35,11 @@ property System.int EdmRefFlags {
 
 ### Property Value
 
-Types of references as defined in
-
-[EdmRefFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefFlags.html)
+Types of references as defined in [EdmRefFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefFlags.html)
 
 ## See Also
 
 [IEdmReference7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7.html)
-
 [IEdmReference7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmReference7_members.html)
 
 ## Availability

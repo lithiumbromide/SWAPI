@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo_members.
 
 # EdmBatchDelErrInfo Structure Members
 
-The following tables list the members exposed by[EdmBatchDelErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html).
+The following tables list the members exposed by [EdmBatchDelErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[EdmBatchDelErrInfo](EPDM.Intero
 ## See Also
 
 [EdmBatchDelErrInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

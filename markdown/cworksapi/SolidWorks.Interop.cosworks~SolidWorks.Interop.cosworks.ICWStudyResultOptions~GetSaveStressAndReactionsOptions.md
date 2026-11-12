@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSt
 
 # GetSaveStressAndReactionsOptions Method (ICWStudyResultOptions)
 
-Obsolete. Superseded by ICWStudyResultOptions::GetSaveStressAndReactionsOptions2.
+Obsolete. Superseded by [ICWStudyResultOptions::GetSaveStressAndReactionsOptions2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~GetSaveStressAndReactionsOptions2.html).
 
 ## Syntax
 
@@ -62,22 +62,14 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[CWStudyResultOptions::GetSaveStressAndReactionsOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyResultOptions~GetSaveStressAndReactionsOptions.html)
-
-.
+See [CWStudyResultOptions::GetSaveStressAndReactionsOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyResultOptions~GetSaveStressAndReactionsOptions.html).
 
 ## See Also
 
 [ICWStudyResultOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions.html)
-
 [ICWStudyResultOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions_members.html)
-
 [ICWStudyResultOptions::SetSaveStressAndReactionsOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SetSaveStressAndReactionsOptions.html)
-
 [ICWStudyResultOptions::SaveDisplacementsAndVelocitiesOption Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SaveDisplacementsAndVelocitiesOption.html)
-
 [ICWStudyResultOptions::SaveResultsForSolutionStepsOption Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SaveResultsForSolutionStepsOption.html)
 
 ## Availability

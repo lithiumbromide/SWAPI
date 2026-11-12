@@ -1,6 +1,5 @@
 ---
-title: "SustainabilityEnvironmentalImpact Object
-Members"
+title: "SustainabilityEnvironmentalImpact Object Members"
 project: "sustainabilityLibActiveX DLL"
 interface: "SustainabilityEnvironmentalImpact_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sustainabilityapivb6/sustainabilityLib~SustainabilityEnvironmentalImpact_members.html"
 ---
 
-# SustainabilityEnvironmentalImpact Object
-Members
+# SustainabilityEnvironmentalImpact Object Members
 
 ## Public Methods
 

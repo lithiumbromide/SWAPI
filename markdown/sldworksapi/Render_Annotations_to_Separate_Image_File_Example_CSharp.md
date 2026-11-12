@@ -9,8 +9,7 @@ source: "sldworksapi/Render_Annotations_to_Separate_Image_File_Example_CSharp.ht
 
 # Render Annotations to Separate Image File Example (C#)
 
-This example shows how to render annotations and dimensions visible in a
-model to a separate image file.
+This example shows how to render annotations and dimensions visible in a model to a separate image file.
 
 ```
 //--------------------------------------------------------------

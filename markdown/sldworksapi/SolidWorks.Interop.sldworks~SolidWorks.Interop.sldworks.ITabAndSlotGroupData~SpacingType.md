@@ -45,40 +45,23 @@ property System.int SpacingType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Spacing type as defined in
-
-[swTabSlotFeatureSpacingType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabSlotFeatureSpacingType_e.html)
+Spacing type as defined in [swTabSlotFeatureSpacingType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabSlotFeatureSpacingType_e.html)
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::SpacingType](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~SpacingType.html)
-
-.
+See [TabAndSlotGroupData::SpacingType](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~SpacingType.html).
 
 ## Examples
 
-See the
-
-[ITabAndSlotFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html)
-
-example.
+See the [ITabAndSlotFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html) example.
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

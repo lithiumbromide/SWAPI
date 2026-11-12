@@ -45,13 +45,7 @@ property System.double DensityOfHoles {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Density of the holes of the mesh in corroded or eroded materials
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::DensityOfHoles](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~DensityOfHoles.html)
-
-.
+See [RenderMaterial::DensityOfHoles](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~DensityOfHoles.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

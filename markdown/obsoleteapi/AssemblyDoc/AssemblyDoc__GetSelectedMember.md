@@ -9,30 +9,4 @@ source: "obsoleteapi/AssemblyDoc/AssemblyDoc__GetSelectedMember.htm"
 
 # AssemblyDoc::GetSelectedMember
 
-This method is obsolete and has been superseded
-by[SelectionMgr::GetSelectedObject4](sldworksAPI.chm::/SelectionMgr/SelectionMgr__GetSelectedObject4.htm).
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="1323" >
-<param name="_ExtentY" value="556" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="12632256" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="AssemblyDoc_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2004\obsoleteapi\AssemblyDoc\AssemblyDoc__GetSelectedMember.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+This method is obsolete and has been superseded by [SelectionMgr::GetSelectedObject4](sldworksAPI.chm::/SelectionMgr/SelectionMgr__GetSelectedObject4.htm).

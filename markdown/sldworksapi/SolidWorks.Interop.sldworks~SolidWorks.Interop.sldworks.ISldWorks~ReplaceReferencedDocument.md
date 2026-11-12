@@ -55,17 +55,11 @@ System.bool ReplaceReferencedDocument(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ReferencingDocument`: Document whose references to modify;the document cannot be open
+- `ReferencingDocument`: Document whose references to modify; the document cannot be open
 - `ReferencedDocument`: Document is referenced by ReferencingDocument; all of its references within ReferencingDocument are replaced by NewReference
 - `NewReference`: New document used by ReferencingDocument
 
@@ -75,11 +69,7 @@ True if the the referenced document is replaced, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ReplaceReferencedDocument](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ReplaceReferencedDocument.html)
-
-.
+See [SldWorks::ReplaceReferencedDocument](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~ReplaceReferencedDocument.html).
 
 ## Examples
 
@@ -100,5 +90,4 @@ You might also notice that the component name, which is visible in the FeatureMa
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

@@ -51,13 +51,7 @@ System.bool SetApiUndoObject(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ True if the undo object is implemented, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SetApiUndoObject](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~SetApiUndoObject.html)
-
-.
+See [ModelDocExtension::SetApiUndoObject](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~SetApiUndoObject.html).
 
 ## Examples
 
@@ -83,7 +73,6 @@ See
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

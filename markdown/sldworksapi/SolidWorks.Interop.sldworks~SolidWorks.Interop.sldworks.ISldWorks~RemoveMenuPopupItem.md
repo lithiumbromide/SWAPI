@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # RemoveMenuPopupItem Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::RemoveMenuPopupItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RemoveMenuPopupItem2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::RemoveMenuPopupItem2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RemoveMenuPopupItem2.html).
 
 ## Syntax
 
@@ -71,13 +67,7 @@ System.bool RemoveMenuPopupItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -90,14 +80,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::RemoveMenuPopupItem](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RemoveMenuPopupItem.html)
-
-.
+See [SldWorks::RemoveMenuPopupItem](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RemoveMenuPopupItem.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

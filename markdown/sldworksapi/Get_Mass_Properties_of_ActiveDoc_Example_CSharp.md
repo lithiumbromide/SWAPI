@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Mass_Properties_of_ActiveDoc_Example_CSharp.htm"
 
 # Get Mass Properties Example (C#)
 
-This example shows how to retrieve the mass
-properties of selected components in an assembly.
+This example shows how to retrieve the mass properties of selected components in an assembly.
 
 ```vb
   //----------------------------------------------------------------------------

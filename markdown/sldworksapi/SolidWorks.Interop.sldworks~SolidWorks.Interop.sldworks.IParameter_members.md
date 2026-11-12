@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # IParameter Interface Members
 
-The following tables list the members exposed by[IParameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter.html).
+The following tables list the members exposed by [IParameter](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter.html).
 
 ## Public Methods
 
@@ -33,5 +33,4 @@ The following tables list the members exposed by[IParameter](SolidWorks.Interop.
 ## See Also
 
 [IParameter Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IParameter.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

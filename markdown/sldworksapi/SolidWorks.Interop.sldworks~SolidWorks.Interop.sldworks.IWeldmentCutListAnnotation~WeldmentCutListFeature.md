@@ -42,13 +42,7 @@ property WeldmentCutListFeature^ WeldmentCutListFeature {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[WeldmentCutListAnnotation::WeldmentCutListFeature](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListAnnotation~WeldmentCutListFeature.html)
-
-.
+See [WeldmentCutListAnnotation::WeldmentCutListFeature](ms-its:sldworksapivb6.chm::/sldworks~WeldmentCutListAnnotation~WeldmentCutListFeature.html).
 
 ## See Also
 
 [IWeldmentCutListAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListAnnotation.html)
-
 [IWeldmentCutListAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentCutListAnnotation_members.html)
 
 ## Availability

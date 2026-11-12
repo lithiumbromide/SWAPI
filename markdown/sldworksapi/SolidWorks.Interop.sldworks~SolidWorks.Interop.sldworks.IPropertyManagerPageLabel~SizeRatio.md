@@ -53,13 +53,7 @@ property System.double SizeRatio {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -72,16 +66,11 @@ Ratio for the height of the characters relative to their expected heights; >0 in
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageLabel::SizeRatio](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~SizeRatio.html)
-
-.
+See [PropertyManagerPageLabel::SizeRatio](ms-its:sldworksapivb6.chm::/Sldworks~PropertyManagerPageLabel~SizeRatio.html).
 
 ## See Also
 
 [IPropertyManagerPageLabel Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel.html)
-
 [IPropertyManagerPageLabel Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageLabel_members.html)
 
 ## Availability

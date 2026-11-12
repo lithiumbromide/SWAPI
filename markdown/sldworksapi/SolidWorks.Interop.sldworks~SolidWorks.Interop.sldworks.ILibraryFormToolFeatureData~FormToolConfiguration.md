@@ -45,13 +45,7 @@ property System.String^ FormToolConfiguration {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Forming tool configuration name
 
 ## VBA Syntax
 
-See
-
-[LibraryFormToolFeatureData::FormToolConfiguration](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~FormToolConfiguration.html)
-
-.
+See [LibraryFormToolFeatureData::FormToolConfiguration](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~FormToolConfiguration.html).
 
 ## Examples
 
-See the
-
-[ILibraryFormToolFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
-examples.
+See the [ILibraryFormToolFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html) examples.
 
 ## See Also
 
 [ILibraryFormToolFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
 [ILibraryFormToolFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData_members.html)
 
 ## Availability

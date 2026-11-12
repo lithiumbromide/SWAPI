@@ -56,18 +56,13 @@ void SetReverseDirections2(
 
 ### Parameters
 
-- `BVal1`: -1 or true to reverse BDir1 of
-
-[ICWDynamicInitialCondition::GetDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetDirections2.html)
-
-, 0 or false to not
+- `BVal1`: -1 or true to reverse BDir1 of [ICWDynamicInitialCondition::GetDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetDirections2.html), 0 or false to not
 - `BVal2`: -1 or true to reverse BDir2 of ICWDynamicInitialCondition::GetDirections2, 0 or false to not
 - `BVal3`: -1 or true to reverse BDir3 of ICWDynamicInitialCondition::GetDirections2, 0 or false to not
 
 ## See Also
 
 [ICWDynamicInitialCondition Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
 [ICWDynamicInitialCondition Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition_members.html)
 
 ## Availability

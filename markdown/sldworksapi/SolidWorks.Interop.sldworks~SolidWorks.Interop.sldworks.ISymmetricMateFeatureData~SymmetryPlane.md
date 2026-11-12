@@ -45,40 +45,23 @@ property System.Object^ SymmetryPlane {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Front, Top, or Right plane or
-
-[IRefPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
+Front, Top, or Right plane or [IRefPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRefPlane.html)
 
 ## VBA Syntax
 
-See
-
-[SymmetricMateFeatureData::SymmetryPlane](ms-its:sldworksapivb6.chm::/sldworks~SymmetricMateFeatureData~SymmetryPlane.html)
-
-.
+See [SymmetricMateFeatureData::SymmetryPlane](ms-its:sldworksapivb6.chm::/sldworks~SymmetricMateFeatureData~SymmetryPlane.html).
 
 ## Examples
 
-See the
-
-[ISymmetricMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISymmetricMateFeatureData.html)
-
-examples.
+See the [ISymmetricMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISymmetricMateFeatureData.html) examples.
 
 ## See Also
 
 [ISymmetricMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISymmetricMateFeatureData.html)
-
 [ISymmetricMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISymmetricMateFeatureData_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # ISwAddin Interface Members
 
-The following tables list the members exposed by[ISwAddin](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin.html).
+The following tables list the members exposed by [ISwAddin](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[ISwAddin](SolidWorks.Interop.sw
 ## See Also
 
 [ISwAddin Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin.html)
-
 [SolidWorks.Interop.swpublished Namespace](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished_namespace.html)

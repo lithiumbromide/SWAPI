@@ -47,13 +47,7 @@ System.int IGetMaskExcludedColors(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,32 +59,23 @@ See
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## VBA Syntax
 
-See
-
-[Decal::IGetMaskExcludedColors](ms-its:sldworksapivb6.chm::/sldworks~Decal~IGetMaskExcludedColors.html)
-
-.
+See [Decal::IGetMaskExcludedColors](ms-its:sldworksapivb6.chm::/sldworks~Decal~IGetMaskExcludedColors.html).
 
 ## Remarks
 
-Before calling this method, call[IDecal::GetMaskExcludedColorsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDecal~GetMaskExcludedColorsCount.html)to get the value of Count.
+Before calling this method, call [IDecal::GetMaskExcludedColorsCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDecal~GetMaskExcludedColorsCount.html) to get the value of Count.
 
 ## See Also
 
 [IDecal Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDecal.html)
-
 [IDecal Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDecal_members.html)
-
 [IDecal::ISetMaskExcludedColors Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDecal~ISetMaskExcludedColors.html)
-
 [IDecal::MaskFilename Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDecal~MaskFilename.html)
-
 [IDecal::MaskInvert Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDecal~MaskInvert.html)
-
 [IDecal::MaskType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDecal~MaskType.html)
 
 ## Availability

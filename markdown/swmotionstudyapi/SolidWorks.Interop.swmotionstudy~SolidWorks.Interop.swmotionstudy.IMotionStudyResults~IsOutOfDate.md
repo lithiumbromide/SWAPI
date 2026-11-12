@@ -46,16 +46,11 @@ True if the motion study is out of date, false if not
 
 ## VBA Syntax
 
-See
-
-[MotionStudyResults::IsOutOfDate](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~IsOutOfDate.html)
-
-.
+See [MotionStudyResults::IsOutOfDate](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyResults~IsOutOfDate.html).
 
 ## See Also
 
 [IMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults.html)
-
 [IMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyResults_members.html)
 
 ## Availability

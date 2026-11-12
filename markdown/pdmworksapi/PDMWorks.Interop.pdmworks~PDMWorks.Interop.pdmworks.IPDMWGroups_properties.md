@@ -9,7 +9,7 @@ source: "pdmworksapi/PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGr
 
 # IPDMWGroups Interface Properties
 
-For a list of all members of this type, see[IPDMWGroups members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups_members.html).
+For a list of all members of this type, see [IPDMWGroups members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups_members.html).
 
 ## Public Properties
 
@@ -23,11 +23,7 @@ For a list of all members of this type, see[IPDMWGroups members](PDMWorks.Intero
 ## See Also
 
 [IPDMWGroups Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroups.html)
-
 [PDMWorks.Interop.pdmworks Namespace](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks_namespace.html)
-
 [IPDMWGroup Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup.html)
-
 [IPDMWUser Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html)
-
 [IPDMWUsers Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUsers.html)

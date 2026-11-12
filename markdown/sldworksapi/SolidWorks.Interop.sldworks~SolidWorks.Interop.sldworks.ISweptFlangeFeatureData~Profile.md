@@ -45,43 +45,19 @@ property System.Object^ Profile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-[Sketch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
-consisting of lines and arcs (see
-
-Remarks
-
-)
+[Sketch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html) consisting of lines and arcs (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::Profile](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~Profile.html)
-
-.
+See [SweptFlangeFeatureData::Profile](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~Profile.html).
 
 ## Examples
 
-See the
-
-[ISweptFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
-and
-
-[ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html)
-
-examples.
+See the [ISweptFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html) and [ISheetMetalGaugeTableParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html) examples.
 
 ## Remarks
 
@@ -90,11 +66,8 @@ Splines are not supported in sweep profile sketches.
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
-
 [ISweptFlangeFeatureData::FlattenAlongPath Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~FlattenAlongPath.html)
-
 [ISweptFlangeFeatureData::MaterialInside Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~MaterialInside.html)
 
 ## Availability

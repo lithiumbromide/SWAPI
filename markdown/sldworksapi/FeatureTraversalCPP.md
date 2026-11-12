@@ -11,23 +11,17 @@ source: "sldworksapi/FeatureTraversalCPP.htm"
 
 ## FeatureTraversal.cpp Written in C++
 
-// FeatureTraversal.cpp : Defines the entry point for
-the console application
+// FeatureTraversal.cpp : Defines the entry point for the console application
 
 // Traverses the FeatureManager design tree
 
 #include "stdafx.h"
 
-// Add the path to the SOLIDWORKS type libraries to
-the "Additional Include Directories".
+// Add the path to the SOLIDWORKS type libraries to the "Additional Include Directories".
 
-#import "sldworks.tlb" raw_interfaces_only,
-raw_native_types, no_namespace, named_guidskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-SOLIDWORKS type library
+#import "sldworks.tlb" raw_interfaces_only, raw_native_types, no_namespace, named_guids // SOLIDWORKS type library
 
-#import "swconst.tlb" raw_interfaces_only,
-raw_native_types, no_namespace, named_guidskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}//
-SOLIDWORKS constants type library
+#import "swconst.tlb" raw_interfaces_only, raw_native_types, no_namespace, named_guids // SOLIDWORKS constants type library
 
 int _tmain(int argc, _TCHAR* argv[])
 
@@ -35,24 +29,21 @@ int _tmain(int argc, _TCHAR* argv[])
 
 // Initialize COM
 
-// Do this before using ATL smart pointers
-so COM is available.
+// Do this before using ATL smart pointers so COM is available.
 
 CoInitialize(NULL);
 
-// Use a block, so the smart pointers are
-destructed when the scope of this block is left
+// Use a block, so the smart pointers are destructed when the scope of this block is left
 
 {
 
 // Use ATL smart pointers
 
-CComPtr<ISldWorks>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swApp;
+CComPtr<ISldWorks> swApp;
 
-if(swApp.CoCreateInstance(__uuidof(SldWorks),
-NULL, CLSCTX_LOCAL_SERVER) != S_OK) {
+if(swApp.CoCreateInstance(__uuidof(SldWorks), NULL, CLSCTX_LOCAL_SERVER) != S_OK) {
 
-return(0);kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+return(0);
 
 }
 
@@ -60,7 +51,7 @@ swApp->put_UserControl(VARIANT_TRUE);
 
 swApp->put_Visible(VARIANT_TRUE);
 
-CComPtr<IModelDoc2>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel;
+CComPtr<IModelDoc2> swModel;
 
 swApp->get_IActiveDoc2(&swModel);
 
@@ -70,21 +61,21 @@ return(0);
 
 }
 
-CComBSTRkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}strModelTitle;
+CComBSTR strModelTitle;
 
-longkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}nDocumentType;kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}// swDocumentTypes_e
+long nDocumentType; // swDocumentTypes_e
 
 swModel->GetTitle(&strModelTitle);
 
 swModel->GetType(&nDocumentType);
 
-CComPtr<IFeature>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swFeature;
+CComPtr<IFeature> swFeature;
 
-CComPtr<IFeature>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSubFeature;
+CComPtr<IFeature> swSubFeature;
 
-CComBSTRkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}strFeatureName;
+CComBSTR strFeatureName;
 
-CComBSTRkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}strFeatureType;
+CComBSTR strFeatureType;
 
 swModel->IFirstFeature(&swFeature);
 
@@ -102,7 +93,7 @@ swSubFeature->get_Name(&strFeatureName);
 
 swSubFeature->GetTypeName2(&strFeatureType);
 
-CComPtr<IFeature>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swNextSubFeature;
+CComPtr<IFeature> swNextSubFeature;
 
 swSubFeature->IGetNextSubFeature(&swNextSubFeature);
 
@@ -110,7 +101,7 @@ swSubFeature = swNextSubFeature;
 
 }
 
-CComPtr<IFeature>kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swNextFeature;
+CComPtr<IFeature> swNextFeature;
 
 swFeature->IGetNextFeature(&swNextFeature);
 
@@ -120,11 +111,9 @@ swFeature = swNextFeature;
 
 }
 
-// ATL smart pointers are destructed so
-all COM objects you held on to are released
+// ATL smart pointers are destructed so all COM objects you held on to are released
 
-// Now you can safely shutdown COM as you
-do not need it any longer
+// Now you can safely shutdown COM as you do not need it any longer
 
 // Stop COM
 

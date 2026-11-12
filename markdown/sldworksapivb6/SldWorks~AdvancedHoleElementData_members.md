@@ -1,6 +1,5 @@
 ---
-title: "AdvancedHoleElementData Object
-Members"
+title: "AdvancedHoleElementData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "AdvancedHoleElementData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~AdvancedHoleElementData_members.html"
 ---
 
-# AdvancedHoleElementData Object
-Members
+# AdvancedHoleElementData Object Members
 
 ## Public Properties
 

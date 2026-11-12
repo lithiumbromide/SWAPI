@@ -42,13 +42,7 @@ property System.bool IsRationalCurve {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ True if rational, false if non-rational
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::IsRationalCurve](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~IsRationalCurve.html)
-
-.
+See [SketchSpline::IsRationalCurve](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~IsRationalCurve.html).
 
 ## Examples
 
@@ -69,9 +59,7 @@ See
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [ISketchSpline::MakeRational Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~MakeRational.html)
 
 ## Availability

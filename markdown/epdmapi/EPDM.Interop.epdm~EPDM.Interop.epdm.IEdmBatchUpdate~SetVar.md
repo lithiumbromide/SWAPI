@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate~SetVar.html
 
 # SetVar Method (IEdmBatchUpdate)
 
-Obsolete. Superseded by
-
-[IEdmBatchUpdate2::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2~SetVar.html)
-
-.
+Obsolete. Superseded by [IEdmBatchUpdate2::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate2~SetVar.html).
 
 ## Syntax
 
@@ -56,20 +52,14 @@ void SetVar(
 ### Parameters
 
 - `lFileID`: ID of file to which to write the variable
-- `lVariableID`: ID of variable to update; retrieve using
-
-[IEdmVariableMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5.html)
+- `lVariableID`: ID of variable to update; retrieve using [IEdmVariableMgr5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr5.html)
 - `poValue`: New value of the variable
 - `bsConfiguration`: Name of the configuration to which to write the variable; empty string for files without configurations
-- `lEdmBatchFlags`: Combination of
-
-[EdmBatchFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchFlags.html)
-
-bits
+- `lEdmBatchFlags`: Combination of [EdmBatchFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchFlags.html) bits
 
 ## Remarks
 
-See the[IEdmBatchUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate.html)remarks for information about using this method.
+See the [IEdmBatchUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate.html) remarks for information about using this method.
 
 [Return codes](ReturnCodes.htm):
 
@@ -79,7 +69,6 @@ See the[IEdmBatchUpdate](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate.htm
 ## See Also
 
 [IEdmBatchUpdate Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate.html)
-
 [IEdmBatchUpdate Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUpdate_members.html)
 
 ## Availability

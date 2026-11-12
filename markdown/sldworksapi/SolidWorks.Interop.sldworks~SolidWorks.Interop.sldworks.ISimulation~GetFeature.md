@@ -40,13 +40,7 @@ Feature GetFeature()
 Feature^ GetFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,15 +48,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[Simulation::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~Simulation~GetFeature.html)
-
-.
+See [Simulation::GetFeature](ms-its:sldworksapivb6.chm::/sldworks~Simulation~GetFeature.html).
 
 ## Remarks
 
-After using this method to get the feature, use either of the following methods to get the[ISimulation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulation.html)interface:
+After using this method to get the feature, use either of the following methods to get the [ISimulation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimulation.html) interface:
 
 - [IFeature::GetSpecificFeature2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetSpecificFeature2.html)
 - [IAssemblyDoc::GetSimulation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAssemblyDoc~GetSimulation.html)
@@ -70,7 +60,6 @@ After using this method to get the feature, use either of the following methods 
 ## See Also
 
 [ISimulation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation.html)
-
 [ISimulation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulation_members.html)
 
 ## Availability

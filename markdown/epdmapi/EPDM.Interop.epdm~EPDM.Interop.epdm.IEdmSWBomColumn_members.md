@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomColumn_members.htm
 
 # IEdmSWBomColumn Interface Members
 
-The following tables list the members exposed by[IEdmSWBomColumn](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomColumn.html).
+The following tables list the members exposed by [IEdmSWBomColumn](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomColumn.html).
 
 ## Public Properties
 
@@ -27,5 +27,4 @@ The following tables list the members exposed by[IEdmSWBomColumn](EPDM.Interop.e
 ## See Also
 
 [IEdmSWBomColumn Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomColumn.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

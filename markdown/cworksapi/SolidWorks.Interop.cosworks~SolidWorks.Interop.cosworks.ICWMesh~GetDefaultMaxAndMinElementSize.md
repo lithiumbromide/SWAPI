@@ -56,40 +56,28 @@ void GetDefaultMaxAndMinElementSize(
 
 ### Parameters
 
-- `NUnits`: Mesh linear units as defined[swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
+- `NUnits`: Mesh linear units as defined [swsLinearUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinearUnit_e.html)
 - `DMaxElementSize`: Maximum element size used for boundaries with lowest curvature
 - `DMinElementSize`: Minimum element size used for boundaries with highest curvature
 
 ## VBA Syntax
 
-See
-
-[CWMesh::GetDefaultMaxAndMinElementSize](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetDefaultMaxAndMinElementSize.html)
-
-.
+See [CWMesh::GetDefaultMaxAndMinElementSize](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMesh~GetDefaultMaxAndMinElementSize.html).
 
 ## Examples
 
 [Create Curvature-based Mesh (C#)](Create_Curvature-based_Mesh_Example_CSharp.htm)
-
 [Create Curvature-based Mesh (VB.NET)](Create_Curvature-based_Mesh_Example_VBNET.htm)
-
 [Create Curvature-based Mesh (VBA)](Create_Curvature-based_Mesh_Example_VB.htm)
 
 ## See Also
 
 [ICWMesh Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh.html)
-
 [ICWMesh Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh_members.html)
-
 [ICWMesh::GrowthRatio Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~GrowthRatio.html)
-
 [ICWMesh::MaxElementSize Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MaxElementSize.html)
-
 [ICWMesh::MinElementSize Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MinElementSize.html)
-
 [ICWMesh::MinElementsInCircle Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MinElementsInCircle.html)
-
 [ICWMesh::MesherType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMesh~MesherType.html)
 
 ## Availability

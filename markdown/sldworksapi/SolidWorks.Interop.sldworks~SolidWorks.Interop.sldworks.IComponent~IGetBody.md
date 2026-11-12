@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IGetBody Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::IGetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetBody.html)
-
-.
+Obsolete. Superseded by [IComponent2::IGetBody](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetBody.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Body IGetBody()
 Body^ IGetBody();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::IGetBody](ms-its:sldworksapivb6.chm::/sldworks~Component~IGetBody.html)
-
-.
+See [Component::IGetBody](ms-its:sldworksapivb6.chm::/sldworks~Component~IGetBody.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

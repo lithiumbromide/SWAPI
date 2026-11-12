@@ -45,13 +45,7 @@ property System.String^ XLabel {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ Label for the X axis for this datum origin
 
 ## VBA Syntax
 
-See
-
-[DatumOrigin::XLabel](ms-its:sldworksapivb6.chm::/sldworks~DatumOrigin~XLabel.html)
-
-.
+See [DatumOrigin::XLabel](ms-its:sldworksapivb6.chm::/sldworks~DatumOrigin~XLabel.html).
 
 ## Examples
 
 [Get Labels of Datum Origin (C#)](Get_Labels_of_Datum_Origin_Example_CSharp.htm)
-
 [Get Labels of Datum Origin (VB.NET)](Get_Labels_of_Datum_Origin_Example_VBNET.htm)
-
 [Get Labels of Datum Origin (VBA)](Get_Labels_of_Datum_Origin_Example_VB.htm)
 
 ## See Also
 
 [IDatumOrigin Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin.html)
-
 [IDatumOrigin Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin_members.html)
-
 [IDatumOrigin::YLabel Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumOrigin~YLabel.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "IMassProperty2 Object
-Members"
+title: "IMassProperty2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IMassProperty2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IMassProperty2_members.html"
 ---
 
-# IMassProperty2 Object
-Members
+# IMassProperty2 Object Members
 
 ## Public Methods
 

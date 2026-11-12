@@ -51,65 +51,36 @@ System.double GetRadius2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PFilletItem`: [Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
-
-at which to get the radius
+- `PFilletItem`: [Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html) at which to get the radius
 - `IsAssigned`: True if the radius is assigned to a control point, false if not
 
 ### Return Value
 
-Fillet radius at the vertex specified by PFilletItem for the symmetric fillet; Distance 1 radius at the vertex for the asymmetric fillet (see
-
-Remarks
-
-)
+Fillet radius at the vertex specified by PFilletItem for the symmetric fillet; Distance 1 radius at the vertex for the asymmetric fillet (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData2::GetRadius2](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~GetRadius2.html)
-
-.
+See [VariableFilletFeatureData2::GetRadius2](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~GetRadius2.html).
 
 ## Examples
 
-See the
-
-[IVariableFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2.html)
-
-examples.
+See the [IVariableFilletFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2.html) examples.
 
 ## Remarks
 
-Call
-
-[IVariableFilletFeatureData2::GetDistance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetDistance.html)
-
-to get the Distance 2 radius at the vertex for the asymmetric fillet.
+Call [IVariableFilletFeatureData2::GetDistance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetDistance.html) to get the Distance 2 radius at the vertex for the asymmetric fillet.
 
 ## See Also
 
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2_members.html)
-
 [IVariableFilletFeatureData2::ISetRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~ISetRadius.html)
-
 [IVariableFilletFeatureData2::SetRadius Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~SetRadius.html)
-
 [IVariableFilletFeatureData2::DefaultRadius Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~DefaultRadius.html)
-
 [IVariableFilletFeatureData2::GetConicRhoOrRadius2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~GetConicRhoOrRadius2.html)
 
 ## Availability

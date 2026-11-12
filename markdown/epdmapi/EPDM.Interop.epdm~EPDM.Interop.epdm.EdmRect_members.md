@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect_members.html"
 
 # EdmRect Structure Members
 
-The following tables list the members exposed by[EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html).
+The following tables list the members exposed by [EdmRect](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html).
 
 ## Public Fields
 
@@ -25,5 +25,4 @@ The following tables list the members exposed by[EdmRect](EPDM.Interop.epdm~EPDM
 ## See Also
 
 [EdmRect Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRect.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

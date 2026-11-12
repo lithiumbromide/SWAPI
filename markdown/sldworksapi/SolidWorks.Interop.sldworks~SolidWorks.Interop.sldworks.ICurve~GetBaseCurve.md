@@ -40,29 +40,15 @@ Curve GetBaseCurve()
 Curve^ GetBaseCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the
-
-[ICurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-
-object
+Pointer to the [ICurve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) object
 
 ## VBA Syntax
 
-See
-
-[Curve::GetBaseCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetBaseCurve.html)
-
-.
+See [Curve::GetBaseCurve](ms-its:sldworksapivb6.chm::/sldworks~Curve~GetBaseCurve.html).
 
 ## Remarks
 
@@ -71,7 +57,6 @@ This method is a geometry function that applies only to SOLIDWORKS API applicati
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
 
 ## Availability

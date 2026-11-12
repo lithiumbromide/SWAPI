@@ -51,29 +51,19 @@ EdmUnlockOpReply MsgBox(
 
 ### Parameters
 
-- `eMsg`: Message to display as defined in
-
-[EdmUnlockOpMsg](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockOpMsg.html)
+- `eMsg`: Message to display as defined in [EdmUnlockOpMsg](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockOpMsg.html)
 - `lDocID`: ID of the file that caused the message
 - `lProjID`: ID of the file's parent folder
 - `bsPath`: Full path to the file that caused the message
-- `poError`: [EdmUnlockErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html)
-
-structure containing extended information about the error
+- `poError`: [EdmUnlockErrInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockErrInfo.html) structure containing extended information about the error
 
 ### Return Value
 
-Reply to SOLIDWORKS PDM Professional as defined in
-
-[EdmUnlockOpReply](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockOpReply.html)
+Reply to SOLIDWORKS PDM Professional as defined in [EdmUnlockOpReply](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockOpReply.html)
 
 ## Examples
 
-See the
-
-[IEdmUnlockOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html)
-
-examples.
+See the [IEdmUnlockOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html) examples.
 
 ## Remarks
 
@@ -84,7 +74,6 @@ examples.
 ## See Also
 
 [IEdmUnlockOpCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html)
-
 [IEdmUnlockOpCallback Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback_members.html)
 
 ## Availability

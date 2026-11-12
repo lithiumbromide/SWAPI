@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Paragraph_Properties_Example_VBNET.htm"
 
 # Get and Set Paragraph Properties Example (VB.NET)
 
-This example shows how to get and set the properties of paragraphs in note
-annotations.
+This example shows how to get and set the properties of paragraphs in note annotations.
 
 ```vb
   '----------------------------------------------------------------------------

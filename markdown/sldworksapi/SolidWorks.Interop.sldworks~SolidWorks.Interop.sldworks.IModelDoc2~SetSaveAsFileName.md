@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SetSaveAsFileName Method (IModelDoc2)
 
-Sets the
-
-Save As
-
-filename from within the FileSaveAsNotify2 event handlers, thereby, bypassing the
-
-Save As
-
-dialog.
+Sets the Save As filename from within the FileSaveAsNotify2 event handlers, thereby, bypassing the Save As dialog.
 
 ## Syntax
 
@@ -54,38 +46,24 @@ void SetSaveAsFileName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Save As
-
-filename
+- `FileName`: **Save As** filename
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SetSaveAsFileName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetSaveAsFileName.html)
-
-.
+See [ModelDoc2::SetSaveAsFileName](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SetSaveAsFileName.html).
 
 ## Remarks
 
-Use this method from within the FileSaveAsNotify2 event handler. When setting theSave Asfilename using this method, S_false should be returned from the FileSaveAsNotify2 event handler. See[DAssemblyDocEvents FileSaveAsNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FileSaveAsNotify2EventHandler.html),[DDrawingDocEvents FileSaveAsNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_FileSaveAsNotify2EventHandler.html), and[DPartDocEvents FileSaveAsNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_FileSaveAsNotify2EventHandler.html)notifications.
+Use this method from within the FileSaveAsNotify2 event handler. When setting the Save As filename using this method, S_false should be returned from the FileSaveAsNotify2 event handler. See [DAssemblyDocEvents FileSaveAsNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FileSaveAsNotify2EventHandler.html), [DDrawingDocEvents FileSaveAsNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DDrawingDocEvents_FileSaveAsNotify2EventHandler.html), and [DPartDocEvents FileSaveAsNotify2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DPartDocEvents_FileSaveAsNotify2EventHandler.html) notifications.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDocExtension::SaveAs Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SaveAs.html)
 
 ## Availability

@@ -45,40 +45,23 @@ property System.int MateAlignment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Mate alignment as defined in
-
-[swMateAlign_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateAlign_e.html)
+Mate alignment as defined in [swMateAlign_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swMateAlign_e.html)
 
 ## VBA Syntax
 
-See
-
-[DistanceMateFeatureData::MateAlignment](ms-its:sldworksapivb6.chm::/sldworks~DistanceMateFeatureData~MateAlignment.html)
-
-.
+See [DistanceMateFeatureData::MateAlignment](ms-its:sldworksapivb6.chm::/sldworks~DistanceMateFeatureData~MateAlignment.html).
 
 ## Examples
 
-See the
-
-[IDistanceMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html)
-
-examples.
+See the [IDistanceMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html) examples.
 
 ## See Also
 
 [IDistanceMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData.html)
-
 [IDistanceMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDistanceMateFeatureData_members.html)
 
 ## Availability

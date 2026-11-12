@@ -50,13 +50,7 @@ property System.String^ SheetName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,11 +62,7 @@ Name of sheet
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::SheetName](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~SheetName.html)
-
-.
+See [ImportDxfDwgData::SheetName](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~SheetName.html).
 
 ## Examples
 
@@ -85,7 +75,6 @@ This method only supports importing to a drawing; it does not support importing 
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
 
 ## Availability

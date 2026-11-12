@@ -54,28 +54,19 @@ CWTopologyThicknessControl^ GetThicknessControl(
 ### Parameters
 
 - `SControlName`: Name of the thickness control to retrieve
-- `ErrorCode`: Result code as defined in
-
-[swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
+- `ErrorCode`: Result code as defined in [swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
 
 ### Return Value
 
-[ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
-; null if failure
+[ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html); null if failure
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager::GetThicknessControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~GetThicknessControl.html)
-
-.
+See [CWTopologyStudyManager::GetThicknessControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~GetThicknessControl.html).
 
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
 
 ## Availability

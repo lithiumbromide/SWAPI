@@ -40,32 +40,19 @@ System.object GetComponents()
 System.Object^ GetComponents();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
+Array of [IComponent2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
 
 ## VBA Syntax
 
-See
-
-[Collision::GetComponents](ms-its:sldworksapivb6.chm::/sldworks~Collision~GetComponents.html)
-
-.
+See [Collision::GetComponents](ms-its:sldworksapivb6.chm::/sldworks~Collision~GetComponents.html).
 
 ## See Also
 
 [ICollision Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html)
-
 [ICollision Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision_members.html)
 
 ## Availability

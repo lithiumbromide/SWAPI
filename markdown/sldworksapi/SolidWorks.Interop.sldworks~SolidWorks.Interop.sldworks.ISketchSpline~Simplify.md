@@ -46,13 +46,7 @@ void Simplify(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,18 +54,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::Simplify](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~Simplify.html)
-
-.
+See [SketchSpline::Simplify](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~Simplify.html).
 
 ## Examples
 
 [Create Equation-driven Curve (VBA)](Create_Equation-driven_Curve_Example_VB.htm)
-
 [Create Equation-driven Curve (VB.NET)](Create_Equation-driven_Curve_Example_VBNET.htm)
-
 [Create Equation-driven Curve (C#)](Create_Equation-driven_Curve_Example_CSharp.htm)
 
 ## Remarks
@@ -81,7 +69,6 @@ The sketch must be in edit mode and a spline must be preselected.
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
 
 ## Availability

@@ -51,13 +51,7 @@ System.bool DeleteDisplayStateSpecificRenderMaterial(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,40 +64,25 @@ True if the appearances are deleted, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::DeleteDisplayStateSpecificRenderMaterial](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~DeleteDisplayStateSpecificRenderMaterial.html)
-
-.
+See [ModelDocExtension::DeleteDisplayStateSpecificRenderMaterial](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~DeleteDisplayStateSpecificRenderMaterial.html).
 
 ## Examples
 
 [Add and Delete Appearances from Specific Display States (C#)](Add_and_Delete_Materials_from_Specific_Display_States_Example_CSharp.htm)
-
 [Add and Delete Appearances from Specific Display States (VB.NET)](Add_and_Delete_Materials_from_Specific_Display_States_Example_VBNET.htm)
-
 [Add and Delete Appearances from Specific Display States (VBA)](Add_and_Delete_Materials_from_Specific_Display_States_Example_VB.htm)
 
 ## Remarks
 
-Call
-
-[IRenderMaterial::GetMaterialIds](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~GetMaterialIDs.html)
-
-to the get IDs of the appearances added to the model, then call IModelDocExtension::DeleteDisplayStateSpecificRenderMaterial to delete the appearances.
+Call [IRenderMaterial::GetMaterialIds](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~GetMaterialIDs.html) to the get IDs of the appearances added to the model, then call IModelDocExtension::DeleteDisplayStateSpecificRenderMaterial to delete the appearances.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::AddDisplayStateSpecificRenderMaterial Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddDisplayStateSpecificRenderMaterial.html)
-
 [IModelDocExtension::IAddDisplayStateSpecificRenderMaterial Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IAddDisplayStateSpecificRenderMaterial.html)
-
 [IModelDocExtension::IDeleteDisplayStateSpecificRenderMaterial Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IDeleteDisplayStateSpecificRenderMaterial.html)
-
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
 
 ## Availability

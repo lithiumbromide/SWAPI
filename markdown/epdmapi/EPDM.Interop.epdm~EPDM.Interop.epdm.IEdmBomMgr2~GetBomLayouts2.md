@@ -39,19 +39,11 @@ void GetBomLayouts2(
 
 ### Parameters
 
-- `ppoRetLayouts`: Array of
-
-[EdmBomLayout2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2.html)
-
-structures; one structure for each BOM layout
+- `ppoRetLayouts`: Array of [EdmBomLayout2](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2.html) structures; one structure for each BOM layout
 
 ## Examples
 
-See the
-
-[IEdmBomMgr2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2.html)
-
-examples.
+See the [IEdmBomMgr2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2.html) examples.
 
 ## Remarks
 
@@ -63,7 +55,6 @@ examples.
 ## See Also
 
 [IEdmBomMgr2 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2.html)
-
 [IEdmBomMgr2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomMgr2_members.html)
 
 ## Availability

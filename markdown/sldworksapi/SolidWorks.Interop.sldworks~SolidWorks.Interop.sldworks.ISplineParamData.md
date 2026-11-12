@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISp
 
 Allows access to the parameterization data of a spline.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,32 +41,19 @@ public interface class ISplineParamData
 
 ## VBA Syntax
 
-See
-
-[SplineParamData](ms-its:sldworksapivb6.chm::/sldworks~SplineParamData.html)
-
-.
+See [SplineParamData](ms-its:sldworksapivb6.chm::/sldworks~SplineParamData.html).
 
 ## Examples
 
 [Get BCurve Spline Points (C#)](Get_BCurve_Spline_Points_Example_CSharp.htm)
-
 [Get BCurve Spline Points (VB.NET)](Get_BCurve_Spline_Points_Example_VBNET.htm)
-
 [Get BCurve Spline Points (VBA)](Get_BCurve_Spline_Points_Example_VB.htm)
-
 [Get P-Spline Parameterization Data (C#)](Get_P-Spline_Parameterization_Data_Example_CSharp.htm)
-
 [Get P-Spline Parameterization Data (VB.NET)](Get_P-Spline_Parameterization_Data_Example_VBNET.htm)
-
 [Get P-Spline Parameterization Data (VBA)](Get_P-Spline_Parameterization_Data_Example_VB.htm)
-
 [Get Spline's Parameters (C#)](Get_Spline's_Parameters_Example_CSharp.htm)
-
 [Get Spline's Parameters (VB.NET)](Get_Spline's_Parameters_Example_VBNET.htm)
-
 [Get Spline's Parameters (VBA)](Get_Spline's_Parameters_Example_VB.htm)
-
 [Edit Spline (VBA)](Edit_Spline_Example_VB.htm)
 
 ## Accessors
@@ -86,5 +73,4 @@ See
 ## See Also
 
 [ISplineParamData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -53,22 +53,19 @@ DimXpertAnnotation^ IGetAppliedAnnotations(
 
 ### Return Value
 
-in-process, unmanaged C++: Pointer to an array of
-
-[IDimXpertAnnotation](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertAnnotation.html)
+in-process, unmanaged C++: Pointer to an array of [IDimXpertAnnotation](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertAnnotation.html)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
-See[In-process Methods](sldworksapiprogguide.chm::/Overview/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/Overview/In-process_Methods.htm) for details about this type of method.
 
-Before calling this method, call[IDimXpertFeature::GetAppliedAnnotationCount](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature~GetAppliedAnnotationCount.html)to get the value for the Count parameter.
+Before calling this method, call [IDimXpertFeature::GetAppliedAnnotationCount](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature~GetAppliedAnnotationCount.html) to get the value for the Count parameter.
 
 ## See Also
 
 [IDimXpertFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature.html)
-
 [IDimXpertFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature_members.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.string GetLinkedText()
 System.String^ GetLinkedText();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Text linked to this display dimension
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::GetLinkedText](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetLinkedText.html)
-
-.
+See [DisplayDimension::GetLinkedText](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~GetLinkedText.html).
 
 ## Examples
 
@@ -67,13 +57,9 @@ See
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IDisplayDimension::SetLinkedText Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~SetLinkedText.html)
-
 [IDisplayDimension::Unlink Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~Unlink.html)
-
 [IDisplayDimension::IsLinked Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension~IsLinked.html)
 
 ## Availability

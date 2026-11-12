@@ -9,8 +9,7 @@ source: "sldworksapi/Add_and_Delete_Materials_from_Specific_Display_States_Examp
 
 # Add and Delete Appearances from Specific Display States Example (VB.NET)
 
-This example shows how to add an appearance to and delete an appearance from specific
-display states.
+This example shows how to add an appearance to and delete an appearance from specific display states.
 
 ```vb
  '---------------------------------------------------------------------------
@@ -70,165 +69,57 @@ Class
 
 SolidWorksMacro
 
-Dim
-
-swModel
-
-As
+Dim swModel As
 
 ModelDoc2
 
-Dim
-
-swConfig
-
-As
+Dim swConfig As
 
 Configuration
 
-Dim
-
-swModelDocExt
-
-As
+Dim swModelDocExt As
 
 ModelDocExtension
 
-Dim
-
-swEntity
-
-As
+Dim swEntity As
 
 Entity
 
-Dim
-
-swSelMgr
-
-As
+Dim swSelMgr As
 
 SelectionMgr
 
-Dim
-
-swRenderMaterial
-
-As
+Dim swRenderMaterial As
 
 RenderMaterial
 
-Dim
+Dim displayStateNames As Object
 
-displayStateNames
+Dim status As Boolean
 
-As
+Dim modelName As String
 
-Object
+Dim materialName As String
 
-Dim
+Dim errors As Integer
 
-status
+Dim warnings As Integer
 
-As
+Dim nbrDisplayStates As Integer
 
-Boolean
+Dim i As Integer
 
-Dim
+Dim k As Integer
 
-modelName
+Dim nbrMaterials As Integer
 
-As
+Dim materialID1 As Integer
 
-String
+Dim materialID2 As Integer
 
-Dim
+Dim materialID1_ToDelete(0) As Integer
 
-materialName
-
-As
-
-String
-
-Dim
-
-errors
-
-As
-
-Integer
-
-Dim
-
-warnings
-
-As
-
-Integer
-
-Dim
-
-nbrDisplayStates
-
-As
-
-Integer
-
-Dim
-
-i
-
-As
-
-Integer
-
-Dim
-
-k
-
-As
-
-Integer
-
-Dim
-
-nbrMaterials
-
-As
-
-Integer
-
-Dim
-
-materialID1
-
-As
-
-Integer
-
-Dim
-
-materialID2
-
-As
-
-Integer
-
-Dim
-
-materialID1_ToDelete(0)
-
-As
-
-Integer
-
-Dim
-
-materialID2_ToDelete(0)
-
-As
-
-Integer
+Dim materialID2_ToDelete(0) As Integer
 
 Sub
 
@@ -246,26 +137,22 @@ swModel = swApp.OpenDoc6(modelName, swDocumentTypes_e.swDocPART, swOpenDocOption
 
 ""
 
-, errors,
-warnings)
+, errors, warnings)
 
 ```vb
 swModelDocExt = swModel.Extension
 ```
 
-' Get active
-configuration and create a new display
+' Get active configuration and create a new display
 
-' state for
-this configuration
+' state for this configuration
 
 ```vb
 swConfig = swModel.GetActiveConfiguration
 status = swConfig.CreateDisplayState(
 ```
 
-"Display
-State 2"
+"Display State 2"
 
 )
 
@@ -277,19 +164,16 @@ True
 
 )
 
-' Get active
-configuration and create another new
+' Get active configuration and create another new
 
-' display state
-for this configuration
+' display state for this configuration
 
 ```vb
 swConfig = swModel.GetActiveConfiguration
 status = swConfig.CreateDisplayState(
 ```
 
-"Display
-State 3"
+"Display State 3"
 
 )
 
@@ -301,41 +185,25 @@ True
 
 )
 
-' Create
-appearance
+' Create appearance
 
 ```vb
 materialName =
 ```
 
-"C:\Program Files\SolidWorks Corp\SolidWorks\data\graphics\materials\metal\steel\stainless
-steel treadplate.p2m"
+"C:\Program Files\SolidWorks Corp\SolidWorks\data\graphics\materials\metal\steel\stainless steel treadplate.p2m"
 
 ```vb
 swRenderMaterial = swModelDocExt.CreateRenderMaterial(materialName)
 ```
 
-' Select a face
-and add the appearance to that face
+' Select a face and add the appearance to that face
 
 ```vb
 status = swModelDocExt.SelectByID2(
 ```
 
-""
-
-,
-
-"FACE"
-
-,
-0.07151920610502, 0.0952597996959, 0.009524999999996,
-
-False
-
-, 0,
-
-Nothing
+"", "FACE", 0.07151920610502, 0.0952597996959, 0.009524999999996, False, 0, Nothing
 
 , 0)
 
@@ -345,8 +213,7 @@ swEntity = swSelMgr.GetSelectedObject6(1, -1)
 status = swRenderMaterial.AddEntity(swEntity)
 ```
 
-' Get the names
-of display states
+' Get the names of display states
 
 ```vb
 displayStateNames = swConfig.GetDisplayStates
@@ -354,26 +221,19 @@ nbrDisplayStates = swConfig.GetDisplayStatesCount
 Debug.Print(
 ```
 
-"This
-configuration's display states ="
+"This configuration's display states ="
 
 )
 
-For
+For i = 0 To
 
-i = 0
-
-To
-
-(nbrDisplayStates
-- 1)
+(nbrDisplayStates - 1)
 
 ```vb
 Debug.Print(
 ```
 
-"
-Display state name = "
+" Display state name = "
 
 & displayStateNames(i))
 
@@ -381,24 +241,20 @@ Next
 
 i
 
-' Add
-appearance
-to all of the display states
+' Add appearance to all of the display states
 
 ```vb
 status = swModelDocExt.AddDisplayStateSpecificRenderMaterial(swRenderMaterial, swDisplayStateOpts_e.swAllDisplayState, displayStateNames, materialID1, materialID2)
 ```
 
-' Get the
-appearance IDs and names
+' Get the appearance IDs and names
 
 ```vb
 swRenderMaterial.GetMaterialIds(materialID1, materialID2)
 Debug.Print(
 ```
 
-"
-Appearance IDs:"
+" Appearance IDs:"
 
 )
 
@@ -406,8 +262,7 @@ Appearance IDs:"
 Debug.Print(
 ```
 
-"
-ID1 = "
+" ID1 = "
 
 & materialID1)
 
@@ -415,8 +270,7 @@ ID1 = "
 Debug.Print(
 ```
 
-"
-ID2 = "
+" ID2 = "
 
 & materialID2)
 
@@ -432,64 +286,31 @@ Nothing
 Debug.Print(
 ```
 
-"
-Number of appearances: "
+" Number of appearances: "
 
 & nbrMaterials)
 
-For
+For k = 0 To
 
-k = 0
-
-To
-
-(nbrMaterials
-- 1)
+(nbrMaterials - 1)
 
 ```vb
 Debug.Print(
 ```
 
-"
-Name of appearance "
+" Name of appearance " & (k + 1) & ": "
 
-& (k + 1) &
-
-": "
-
-& swModel.
-
-MaterialIdName
-
-)
+& swModel.**MaterialIdName**)
 
 Next
 
 k
 
-Dim
+Dim xcoord As Double
 
-xcoord
+Dim ycoord As Double
 
-As
-
-Double
-
-Dim
-
-ycoord
-
-As
-
-Double
-
-Dim
-
-zcoord
-
-As
-
-Double
+Dim zcoord As Double
 
 ```vb
 swRenderMaterial.GetCenterPoint2(xcoord, ycoord, zcoord)
@@ -504,8 +325,7 @@ Debug.Print(
 Debug.Print(
 ```
 
-"Texture-based
-appearance data:"
+"Texture-based appearance data:"
 
 )
 
@@ -513,8 +333,7 @@ appearance data:"
 Debug.Print(
 ```
 
-"X
-coordinate of center point: "
+"X coordinate of center point: "
 
 & xcoord)
 
@@ -522,8 +341,7 @@ coordinate of center point: "
 Debug.Print(
 ```
 
-"Y
-coordinate of center point: "
+"Y coordinate of center point: "
 
 & ycoord)
 
@@ -531,8 +349,7 @@ coordinate of center point: "
 Debug.Print(
 ```
 
-"Z
-coordinate of center point: "
+"Z coordinate of center point: "
 
 & zcoord)
 
@@ -541,8 +358,7 @@ swRenderMaterial.GetUDirection2(xcoord, ycoord, zcoord)
 Debug.Print(
 ```
 
-"X
-coordinate of U direction: "
+"X coordinate of U direction: "
 
 & xcoord)
 
@@ -550,8 +366,7 @@ coordinate of U direction: "
 Debug.Print(
 ```
 
-"Y
-coordinate of U direction: "
+"Y coordinate of U direction: "
 
 & ycoord)
 
@@ -559,8 +374,7 @@ coordinate of U direction: "
 Debug.Print(
 ```
 
-"Z
-coordinate of U direction: "
+"Z coordinate of U direction: "
 
 & zcoord)
 
@@ -569,8 +383,7 @@ swRenderMaterial.GetVDirection2(xcoord, ycoord, zcoord)
 Debug.Print(
 ```
 
-"X
-coordinate of V direction: "
+"X coordinate of V direction: "
 
 & xcoord)
 
@@ -578,8 +391,7 @@ coordinate of V direction: "
 Debug.Print(
 ```
 
-"Y
-coordinate of V direction: "
+"Y coordinate of V direction: "
 
 & ycoord)
 
@@ -587,8 +399,7 @@ coordinate of V direction: "
 Debug.Print(
 ```
 
-"Z
-coordinate of V direction: "
+"Z coordinate of V direction: "
 
 & zcoord)
 
@@ -620,35 +431,18 @@ True
 Debug.Print(
 ```
 
-"Model
-has an appearance: "
+"Model has an appearance: "
 
-& swModelDocExt.
+& swModelDocExt.**HasMaterialPropertyValues**)
 
-HasMaterialPropertyValues
-
-)
-
-Dim
-
-dispStates
-
-As
-
-Object
+Dim dispStates As Object
 
 ```vb
 status = swRenderMaterial.SetLinkedDisplayStates(swDisplayStateOpts_e.swAllDisplayState, displayStateNames)
 dispStates = swRenderMaterial.GetLinkedDisplayStates
 ```
 
-Dim
-
-renderMaterials
-
-As
-
-Object
+Dim renderMaterials As Object
 
 ```vb
 renderMaterials = swModelDocExt.GetRenderMaterials2(swDisplayStateOpts_e.swAllDisplayState,
@@ -658,22 +452,17 @@ Nothing
 
 )
 
-' Examine the
-display states of the active configuration
+' Examine the display states of the active configuration
 
-' to ensure
-that the specified appearance was applied to all
+' to ensure that the specified appearance was applied to all
 
-' display
-states
+' display states
 
-' Continue
-running the macro after your examination
+' Continue running the macro after your examination
 
 Stop
 
-' Delete the
-appearance from the part
+' Delete the appearance from the part
 
 ```vb
 materialID1_ToDelete(0) = materialID1
@@ -686,22 +475,17 @@ True
 
 )
 
-' Examine the
-display states of the active configuration
+' Examine the display states of the active configuration
 
-' to ensure
-that the specified appearance was deleted from all
+' to ensure that the specified appearance was deleted from all
 
-' display
-states
+' display states
 
-' Continue
-running the macro after your examination
+' Continue running the macro after your examination
 
 Stop
 
-' Close the
-part without saving changes
+' Close the part without saving changes
 
 ```vb
 modelName = swModel.GetTitle
@@ -712,11 +496,7 @@ End
 
 Sub
 
-Public
-
-swApp
-
-As
+Public swApp As
 
 SldWorks
 

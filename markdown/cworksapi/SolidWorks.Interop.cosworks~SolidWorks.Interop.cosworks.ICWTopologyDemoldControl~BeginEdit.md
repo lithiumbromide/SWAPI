@@ -41,32 +41,19 @@ void BeginEdit();
 
 ## VBA Syntax
 
-See
-
-[CWTopologyDemoldControl::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~BeginEdit.html)
-
-.
+See [CWTopologyDemoldControl::BeginEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyDemoldControl~BeginEdit.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
-example.
+See the [ICWTopologyDemoldControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html) example.
 
 ## Remarks
 
-To finish editing this de-mold control, call
-
-[ICWTopologyDemoldControl::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~EndEdit.html)
-
-.
+To finish editing this de-mold control, call [ICWTopologyDemoldControl::EndEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl~EndEdit.html).
 
 ## See Also
 
 [ICWTopologyDemoldControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl.html)
-
 [ICWTopologyDemoldControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyDemoldControl_members.html)
 
 ## Availability

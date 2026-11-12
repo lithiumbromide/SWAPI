@@ -47,19 +47,11 @@ System.Object^ GetRayTraceRenderer(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RendererType`: Type of ray-trace rendering engine as defined in
-
-[swRayTraceRenderType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRayTraceRenderType_e.html)
+- `RendererType`: Type of ray-trace rendering engine as defined in [swRayTraceRenderType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swRayTraceRenderType_e.html)
 
 ### Return Value
 
@@ -67,26 +59,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetRayTraceRenderer](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetRayTraceRenderer.html)
-
-.
+See [SldWorks::GetRayTraceRenderer](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetRayTraceRenderer.html).
 
 ## Examples
 
 [Render Model (C#)](Render_Model_Example_CSharp.htm)
-
 [Render Model (VB.NET)](Render_Model_Example_VBNET.htm)
-
 [Render Model (VBA)](Render_Model_Example_VB.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::IGetRayTraceRenderer Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetRayTraceRenderer.html)
 
 ## Availability

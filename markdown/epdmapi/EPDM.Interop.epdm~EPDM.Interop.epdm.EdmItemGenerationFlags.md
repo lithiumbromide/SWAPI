@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmItemGenerationFlags.html
 
 # EdmItemGenerationFlags Enumeration
 
-Flags that control the behavior of
-
-[IEdmBatchItemGeneration::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~CreateTree.html)
-
-.
+Flags that control the behavior of [IEdmBatchItemGeneration::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration~CreateTree.html).
 
 ## Syntax
 

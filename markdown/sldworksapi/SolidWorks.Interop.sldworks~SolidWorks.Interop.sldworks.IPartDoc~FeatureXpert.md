@@ -39,38 +39,27 @@ void FeatureXpert()
 void FeatureXpert();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[PartDoc::FeatureXpert](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~FeatureXpert.html)
-
-.
+See [PartDoc::FeatureXpert](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~FeatureXpert.html).
 
 ## Remarks
 
-FeatureXpert works behind the scenes to resolve feature errors in[constant radius fillets](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2.html),[neutral plane drafts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2.html), and[reference planes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html).
+FeatureXpert works behind the scenes to resolve feature errors in [constant radius fillets](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2.html), [neutral plane drafts](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2.html), and [reference planes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html).
 
 You must enable the FeatureXpert system option before using this method:
 
+```vb
 swApp.SetUserPreferenceToggle swUserEnableAutoFix, True
+```
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IFeatureManager::DraftXpertChange Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~DraftXpertChange.html)
-
 [IFeatureManager::DraftXpertRemove Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~DraftXpertRemove.html)
 
 ## Availability

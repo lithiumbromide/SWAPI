@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html"
 
 # EdmCmdType Enumeration
 
-Reasons for SOLIDWORKS PDM Professional to call
-
-[IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html)
-
-.
+Reasons for SOLIDWORKS PDM Professional to call [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html).
 
 ## Syntax
 
@@ -104,9 +100,6 @@ public enum class EdmCmdType : public System.Enum
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [EdmCmdData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
 [EdmCmd Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmd.html)
-
 [IEdmCmdMgr5::AddHook Method](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5~AddHook.html)

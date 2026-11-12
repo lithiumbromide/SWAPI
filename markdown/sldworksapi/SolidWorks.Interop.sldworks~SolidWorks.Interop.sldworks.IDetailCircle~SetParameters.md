@@ -55,19 +55,13 @@ System.bool SetParameters(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `XPosition`: x location of the detail circle
-- `YPosition`: y location of the detail circleParamDesc
-- `Radius`: Size of the radius of the detail circleParamDesc
+- `YPosition`: y location of the detail circle
+- `Radius`: Size of the radius of the detail circle
 
 ### Return Value
 
@@ -75,20 +69,15 @@ True if the detail circle is created at the specified location and at the specif
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::SetParameters](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetParameters.html)
-
-.
+See [DetailCircle::SetParameters](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetParameters.html).
 
 ## Remarks
 
-Use[IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html)to update the drawing, including the detail circle.
+Use [IModelDoc2::EditRebuild3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditRebuild3.html) to update the drawing, including the detail circle.
 
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
 
 ## Availability

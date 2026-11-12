@@ -1,6 +1,5 @@
 ---
-title: "Tessellation Object
-Members"
+title: "Tessellation Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Tessellation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Tessellation_members.html"
 ---
 
-# Tessellation Object
-Members
+# Tessellation Object Members
 
 ## Public Methods
 

@@ -45,32 +45,18 @@ property System.int SplitType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of split as defined in
-
-[swSplitLineFeatureType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSplitLineFeatureType_e.html)
+Type of split as defined in [swSplitLineFeatureType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSplitLineFeatureType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SplitLineFeatureData::SplitType](ms-its:sldworksapivb6.chm::/sldworks~SplitLineFeatureData~SplitType.html)
-
-.
+See [SplitLineFeatureData::SplitType](ms-its:sldworksapivb6.chm::/sldworks~SplitLineFeatureData~SplitType.html).
 
 ## See Also
 
 [ISplitLineFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData.html)
-
 [ISplitLineFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData_members.html)
-
 [ISplitLineFeatureData::GetType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitLineFeatureData~GetType.html)

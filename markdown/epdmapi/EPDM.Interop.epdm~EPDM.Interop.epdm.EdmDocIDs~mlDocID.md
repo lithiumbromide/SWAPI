@@ -35,5 +35,4 @@ System.int mlDocID
 ## See Also
 
 [EdmDocIDs Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs.html)
-
 [EdmDocIDs Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs_members.html)

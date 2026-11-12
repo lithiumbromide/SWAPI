@@ -40,36 +40,20 @@ System.int GetTableAnnotationCount()
 System.int GetTableAnnotationCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Number of bend table annotations (see
-
-Remarks
-
-)
+Number of bend table annotations (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[BendTable::GetTableAnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~BendTable~GetTableAnnotationCount.html)
-
-.
+See [BendTable::GetTableAnnotationCount](ms-its:sldworksapivb6.chm::/sldworks~BendTable~GetTableAnnotationCount.html).
 
 ## Examples
 
 [Insert Bend Table (VBA)](Insert_Bend_Table_Example_VB.htm)
-
 [Insert Bend Table (VB.NET)](Insert_Bend_Table_Example_VBNET.htm)
-
 [Insert Bend Table (C#)](Insert_Bend_Table_Example_CSharp.htm)
 
 ## Remarks
@@ -79,11 +63,8 @@ There is usually only one annotation for each bend table. If a bend table is spl
 ## See Also
 
 [IBendTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable.html)
-
 [IBendTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable_members.html)
-
 [IBendTable::GetTableAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable~GetTableAnnotations.html)
-
 [IGetTableAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable~IGetTableAnnotations.html)
 
 ## Availability

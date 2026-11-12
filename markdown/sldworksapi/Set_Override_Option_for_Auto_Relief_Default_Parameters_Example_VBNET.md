@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Override_Option_for_Auto_Relief_Default_Parameters_Exam
 
 # Set Override Option for Auto Relief Default Parameters Example (VB.NET)
 
-This example shows how toset the
-override option for the auto relief default parameters of a sheet metal feature in a multibody sheet metal part.
+This example shows how to set the override option for the auto relief default parameters of a sheet metal feature in a multibody sheet metal part.
 
 ```
 '---------------------------------------------------

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Collapsed_Transform_of_Component_in_Exploded_View_Examp
 
 # Get Collapsed Transform of Component in Exploded View Example (VBA)
 
-This example shows how to get the collapsed transform of a component in an exploded
-view.
+This example shows how to get the collapsed transform of a component in an exploded view.
 
 ```
 '----------------------------------------------------------------------------

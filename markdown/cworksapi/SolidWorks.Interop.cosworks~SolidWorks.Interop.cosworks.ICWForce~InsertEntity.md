@@ -48,19 +48,11 @@ void InsertEntity(
 
 ### Parameters
 
-- `DispEntity`: Entity to which this force or torque is applied (see
-
-Remarks
-
-)
+- `DispEntity`: Entity to which this force or torque is applied (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWForce::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~InsertEntity.html)
-
-.
+See [CWForce::InsertEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWForce~InsertEntity.html).
 
 ## Remarks
 
@@ -72,9 +64,7 @@ See
 ## See Also
 
 [ICWForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce.html)
-
 [ICWForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce_members.html)
-
 [ICWForce::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWForce~RemoveEntity.html)
 
 ## Availability

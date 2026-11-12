@@ -46,16 +46,11 @@ Number of sheets
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument4::GetSheetCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument4~GetSheetCount.html)
-
-.
+See [SwDMDocument4::GetSheetCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument4~GetSheetCount.html).
 
 ## Examples
 
 [Get Drawing Sheets' Properties (C#)](Get_Drawing_Sheets_Properties_Example_CSharp.htm)
-
 [Get Drawing Sheets' Properties (VB.NET)](Get_Drawing_Sheets_Properties_Example_vbnet.htm)
 
 ## Remarks
@@ -65,11 +60,8 @@ This method supports SOLIDWORKS drawing documents only. A -1 or NULL is returned
 ## See Also
 
 [ISwDMDocument4 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument4.html)
-
 [ISwDMDocument4 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument4_members.html)
-
 [ISwDocument6::GetSheetNames Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument6~GetSheetNames.html)
-
 [ISwDMDocument4::GetActiveSheetName Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument4~GetActiveSheetName.html)
 
 ## Availability

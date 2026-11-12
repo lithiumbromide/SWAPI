@@ -45,13 +45,7 @@ property System.Object^ PointArray {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ Array of doubles that describe the x, y, and z locations of the repeating elemen
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData::PointArray](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~PointArray.html)
-
-.
+See [TablePatternFeatureData::PointArray](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~PointArray.html).
 
 ## Examples
 
-See the
-
-[ITablePatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
-example.
+See the [ITablePatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html) example.
 
 ## Examples
 
 [Get Points of Repeating Elements in Table-driven Pattern (C#)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_CSharp.htm)
-
 [Get Points of Repeating Elements in Table-driven Pattern (VB.NET)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_VBNET.htm)
-
 [Get Points of Repeating Elements in Table-driven Pattern (VBA)](Get_Points_of_Repeating_Elements_in_Table-driven_Pattern_Example_VB.htm)
 
 ## Remarks
@@ -87,20 +71,17 @@ The points returned are based on the table-driven pattern's coordinate system.
 
 The array of doubles describe the x, y, and z locations of the repeating elements in the table-driven pattern. The size of the array is the number of repeating elements * 3:
 
-[point1x, point1y, point1z, point2x, point2y, point2z, ...]
+[ point1x, point1y, point1z, point2x, point2y, point2z, ... ]
 
-Use[ITablePatternFeatureData:: GetPointCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITablePatternFeatureData~GetPointCount.html)to get the number of points in the array.
+Use [ITablePatternFeatureData:: GetPointCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITablePatternFeatureData~GetPointCount.html) to get the number of points in the array.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
-
 [ITablePatternFeatureData::IGetPointArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~IGetPointArray.html)
-
 [ITablePatternFeatureData::ISetPointArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~ISetPointArray.html)
 
 ## Availability

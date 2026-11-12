@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Plane_on_which_Sketch_Created_Example_VB.htm"
 
 # Get Plane On Which Sketch Created Example (VBA)
 
-This example shows how to get the plane on which the sketch used for
-the feature was created.
+This example shows how to get the plane on which the sketch used for the feature was created.
 
 ```
 '-----------------------------------------------------

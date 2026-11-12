@@ -45,13 +45,7 @@ property System.Object^ ReferencePoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Reference point of this table-driven pattern feature
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData::ReferencePoint](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~ReferencePoint.html)
-
-.
+See [TablePatternFeatureData::ReferencePoint](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~ReferencePoint.html).
 
 ## Examples
 
@@ -71,16 +61,13 @@ See
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
-
 [ITablePatternFeatureData::GetReferencePointType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~GetReferencePointType.html)
-
 [ITablePatternFeatureData::UseCentroid Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~UseCentroid.html)
 
 ## Availability

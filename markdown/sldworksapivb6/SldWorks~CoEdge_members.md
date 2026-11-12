@@ -1,6 +1,5 @@
 ---
-title: "CoEdge Object
-Members"
+title: "CoEdge Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CoEdge_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CoEdge_members.html"
 ---
 
-# CoEdge Object
-Members
+# CoEdge Object Members
 
 ## Public Methods
 

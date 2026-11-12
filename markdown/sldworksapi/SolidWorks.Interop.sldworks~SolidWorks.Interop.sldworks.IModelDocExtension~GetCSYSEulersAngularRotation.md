@@ -55,31 +55,13 @@ System.bool GetCSYSEulersAngularRotation(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `phiAngle`: Roll or rotation about the longitudinal axis (see
-
-Remarks
-
-)
-- `thetaAngle`: Pitch or rotation about the lateral axis (see
-
-Remarks
-
-)
-- `psiAngle`: Yaw or rotation about the vertical axis (see
-
-Remarks
-
-)
+- `phiAngle`: Roll or rotation about the longitudinal axis (see **Remarks**)
+- `thetaAngle`: Pitch or rotation about the lateral axis (see **Remarks**)
+- `psiAngle`: Yaw or rotation about the vertical axis (see **Remarks**)
 
 ### Return Value
 
@@ -87,11 +69,7 @@ True if rotation values successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetCSYSEulersAngularRotation](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetCSYSEulersAngularRotation.html)
-
-.
+See [ModelDocExtension::GetCSYSEulersAngularRotation](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~GetCSYSEulersAngularRotation.html).
 
 ## Remarks
 
@@ -101,18 +79,15 @@ thetaAngle is the pitch or rotation around the lateral axis. Pitching correspond
 
 psiAngle is the yaw or rotation about the vertical axis. Yawing corresponds to turning the front of an object left or right (no pitch or roll).
 
-This method corresponds to the SOLIDWORKS measure tool's calculation of angular rotation between two coordinate systems. See**SOLIDWORKS online help > Fundamentals > Measure Tool**for more information.
+This method corresponds to the SOLIDWORKS measure tool's calculation of angular rotation between two coordinate systems. See **SOLIDWORKS online help > Fundamentals > Measure Tool** for more information.
 
 Use Wikipedia to learn more about Euler's angles.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::GetCSYSDistances Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCSYSDistances.html)
-
 [IModelDocExtension::GetCSYSXYZAngularRotation Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~GetCSYSXYZAngularRotation.html)
 
 ## Availability

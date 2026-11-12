@@ -40,13 +40,7 @@ DragOperator IGetDragOperator()
 DragOperator^ IGetDragOperator();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::IGetDragOperator](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IGetDragOperator.html)
-
-.
+See [AssemblyDoc::IGetDragOperator](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~IGetDragOperator.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::GetDragOperator Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetDragOperator.html)
 
 ## Availability

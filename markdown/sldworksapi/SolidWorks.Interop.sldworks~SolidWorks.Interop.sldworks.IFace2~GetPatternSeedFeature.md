@@ -40,13 +40,7 @@ System.object GetPatternSeedFeature()
 System.Object^ GetPatternSeedFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Seed feature of the current face; if the face does not belong to a pattern, this
 
 ## VBA Syntax
 
-See
-
-[Face2::GetPatternSeedFeature](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetPatternSeedFeature.html)
-
-.
+See [Face2::GetPatternSeedFeature](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetPatternSeedFeature.html).
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::IGetPatternSeedFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~IGetPatternSeedFeature.html)
-
 [IModelDoc2::EditSeedFeat Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditSeedFeat.html)
 
 ## Availability

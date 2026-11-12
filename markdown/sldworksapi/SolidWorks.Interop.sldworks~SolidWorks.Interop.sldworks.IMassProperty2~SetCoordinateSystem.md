@@ -47,13 +47,7 @@ System.bool SetCoordinateSystem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,16 +59,11 @@ True if the coordinate system is set, false if not
 
 ## VBA Syntax
 
-See
-
-[MassProperty2::SetCoordinateSystem](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~SetCoordinateSystem.html)
-
-.
+See [MassProperty2::SetCoordinateSystem](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2~SetCoordinateSystem.html).
 
 ## See Also
 
 [IMassProperty2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2.html)
-
 [IMassProperty2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2_members.html)
 
 ## Availability

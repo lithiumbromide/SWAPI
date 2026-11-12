@@ -46,13 +46,7 @@ void SetCustomBendAllowance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,22 +54,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::SetCustomBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~SetCustomBendAllowance.html)
-
-.
+See [SweptFlangeFeatureData::SetCustomBendAllowance](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~SetCustomBendAllowance.html).
 
 ## Remarks
 
-This method is valid only when creating the swept flange and only if[ISweptFlangeFeatureData::UseDefaultBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseDefaultBendAllowance.html)is false.
+This method is valid only when creating the swept flange and only if [ISweptFlangeFeatureData::UseDefaultBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~UseDefaultBendAllowance.html) is false.
 
-Use[ISweptFlangeFeatureData::GetCustomBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~GetCustomBendAllowance.html)to specify PBendData.
+Use [ISweptFlangeFeatureData::GetCustomBendAllowance](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData~GetCustomBendAllowance.html) to specify PBendData.
 
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
 
 ## Availability

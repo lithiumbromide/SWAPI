@@ -9,8 +9,7 @@ source: "sldworksapi/Print_Drawing_and_Save_as_PDF_Example_VB.htm"
 
 # Print Drawing and Save as PDF Example (VBA)
 
-This example shows how to print a drawing document to your
-default printer and save it as a PDF file.
+This example shows how to print a drawing document to your default printer and save it as a PDF file.
 
 ```
 '---------------------------------------------

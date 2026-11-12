@@ -59,20 +59,12 @@ System.bool IGetTemplateSizes(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FileName`: Name of template with full directory path
-- `PaperSize`: Paper size as defined in
-
-[swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
+- `PaperSize`: Paper size as defined in [swDwgPaperSizes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDwgPaperSizes_e.html)
 - `Width`: Custom paper width if PaperSize is set to swDwgPapersUserDefined
 - `Height`: Custom paper height if PaperSize is set to swDwgPapersUserDefined
 
@@ -82,22 +74,14 @@ True if the operation is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IGetTemplateSizes](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetTemplateSizes.html)
-
-.
+See [SldWorks::IGetTemplateSizes](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetTemplateSizes.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetTemplateSizes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetTemplateSizes.html)
-
 [ISldWorks::GetDocumentTemplate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetDocumentTemplate.html)
-
 [ISldWorks::PreSelectDwgTemplateSize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PreSelectDwgTemplateSize.html)
 
 ## Availability

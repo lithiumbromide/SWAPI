@@ -9,8 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # InteractiveComponentSelection Property (IDocumentSpecification)
 
-Gets whether to display the Selective Open dialog, which allows the interactive user to either select and open specific components or open all of the
-displayed components.
+Gets whether to display the Selective Open dialog, which allows the interactive user to either select and open specific components or open all of the displayed components.
 
 ## Syntax
 
@@ -46,13 +45,7 @@ property System.bool InteractiveComponentSelection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -60,24 +53,18 @@ True to display the Selective Open dialog to the interactive user, false to not 
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::InteractiveComponentSelection](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~InteractiveComponentSelection.html)
-
-.
+See [DocumentSpecification::InteractiveComponentSelection](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~InteractiveComponentSelection.html).
 
 ## Remarks
 
-This property is not valid for opening**3D**EXPERIENCE files using SOLIDWORKS Connected.
+This property is not valid for opening **3D**EXPERIENCE files using [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
-If this property is set to true, than any components added to the components list by[IDocumentSpecification::ComponentList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~ComponentList.html)are ignored.
+If this property is set to true, than any components added to the components list by [IDocumentSpecification::ComponentList](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDocumentSpecification~ComponentList.html) are ignored.
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
-
 [IDocumentSpecification::Selective Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification~Selective.html)
 
 ## Availability

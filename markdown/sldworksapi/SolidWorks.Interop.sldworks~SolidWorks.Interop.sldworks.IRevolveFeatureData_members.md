@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # IRevolveFeatureData Interface Members
 
-The following tables list the members exposed by[IRevolveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData.html).
+The following tables list the members exposed by [IRevolveFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData.html).
 
 ## Public Properties
 
@@ -36,5 +36,4 @@ The following tables list the members exposed by[IRevolveFeatureData](SolidWorks
 ## See Also
 
 [IRevolveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

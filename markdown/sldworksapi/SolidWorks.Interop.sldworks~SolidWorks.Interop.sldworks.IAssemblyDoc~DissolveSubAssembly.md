@@ -40,13 +40,7 @@ System.bool DissolveSubAssembly()
 System.bool DissolveSubAssembly();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the subassembly was successfully dissolved, false if not
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::DissolveSubAssembly](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~DissolveSubAssembly.html)
-
-.
+See [AssemblyDoc::DissolveSubAssembly](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~DissolveSubAssembly.html).
 
 ## Remarks
 
@@ -71,7 +61,6 @@ This method closes any component files when called in an assembly. If the compon
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

@@ -51,30 +51,20 @@ System.bool ReplaceEntity(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `OldEntity`: Entity to replace
-- `NewEntity`: Replacement entityParamDesc
+- `NewEntity`: Replacement entity
 
 ### Return Value
 
-True if OldEntity is replaced by NewEntity, false if notParamDesc
+True if OldEntity is replaced by NewEntity, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchRelation::ReplaceEntity](ms-its:sldworksapivb6.chm::/sldworks~SketchRelation~ReplaceEntity.html)
-
-.
+See [SketchRelation::ReplaceEntity](ms-its:sldworksapivb6.chm::/sldworks~SketchRelation~ReplaceEntity.html).
 
 ## Examples
 
@@ -87,7 +77,6 @@ This method requires that the sketch be in edit mode.
 ## See Also
 
 [ISketchRelation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation.html)
-
 [ISketchRelation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchRelation_members.html)
 
 ## Availability

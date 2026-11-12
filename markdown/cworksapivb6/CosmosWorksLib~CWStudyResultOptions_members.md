@@ -1,6 +1,5 @@
 ---
-title: "CWStudyResultOptions Object
-Members"
+title: "CWStudyResultOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWStudyResultOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWStudyResultOptions_members.html"
 ---
 
-# CWStudyResultOptions Object
-Members
+# CWStudyResultOptions Object Members
 
 ## Public Methods
 

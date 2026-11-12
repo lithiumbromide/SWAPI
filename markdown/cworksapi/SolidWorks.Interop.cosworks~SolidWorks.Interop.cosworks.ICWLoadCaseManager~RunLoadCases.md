@@ -58,36 +58,22 @@ System.int RunLoadCases(
 
 ### Return Value
 
-Error as defined in
-
-[swsLoadCaseManagerError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLoadCaseManagerError_e.html)
+Error as defined in [swsLoadCaseManagerError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLoadCaseManagerError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWLoadCaseManager::RunLoadCases](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~RunLoadCases.html)
-
-.
+See [CWLoadCaseManager::RunLoadCases](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadCaseManager~RunLoadCases.html).
 
 ## Examples
 
-See the
-
-[ICWLoadCaseManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
-examples.
+See the [ICWLoadCaseManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html) examples.
 
 ## See Also
 
 [ICWLoadCaseManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager.html)
-
 [ICWLoadCaseManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager_members.html)
-
 [ICWLoadCaseManager::CloseLoadCaseManager Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~CloseLoadCaseManager.html)
-
 [ICWLoadCaseManager::OpenLoadCaseManager Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~OpenLoadCaseManager.html)
-
 [ICWLoadCaseManager::DeleteAllDataAndClose Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadCaseManager~DeleteAllDataAndClose.html)
 
 ## Availability

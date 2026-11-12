@@ -39,32 +39,18 @@ void ToolsGrid()
 void ToolsGrid();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::ToolsGrid](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ToolsGrid.html)
-
-.
+See [ModelDoc2::ToolsGrid](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~ToolsGrid.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetGridSettings Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetGridSettings.html)
-
 [IModelDoc2::GridOptions Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GridOptions.html)
-
 [IDrawingDoc::ToggleGrid Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~ToggleGrid.html)
 
 ## Availability

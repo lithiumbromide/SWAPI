@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertDeleteFace2 Method (IModelDoc2)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::InsertDeleteFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertDeleteFace.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::InsertDeleteFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertDeleteFace.html).
 
 ## Syntax
 
@@ -51,30 +47,20 @@ System.bool InsertDeleteFace2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Refill`: - 1 refills the face after it is deleted
-- 0 does not
+  - 0 does not
 
 ### Return Value
 
-True if a[DeleteFace feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteFaceFeatureData.html)is inserted in the model, false if not
+True if a [DeleteFace feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteFaceFeatureData.html) is inserted in the model, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertDeleteFace2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertDeleteFace2.html)
-
-.
+See [ModelDoc2::InsertDeleteFace2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertDeleteFace2.html).
 
 ## Examples
 
@@ -82,14 +68,12 @@ See
 
 ## Remarks
 
-This is a part-level operation and only works when the model is a[IPartDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html).
+This is a part-level operation and only works when the model is a [IPartDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc.html).
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IFeatureManager::EditDeleteFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~EditDeleteFace.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ViewDisplayCurvature Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ViewDisplayCurvature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewDisplayCurvature.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ViewDisplayCurvature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ViewDisplayCurvature.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ViewDisplayCurvature()
 void ViewDisplayCurvature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ViewDisplayCurvature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewDisplayCurvature.html)
-
-.
+See [ModelDoc::ViewDisplayCurvature](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ViewDisplayCurvature.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

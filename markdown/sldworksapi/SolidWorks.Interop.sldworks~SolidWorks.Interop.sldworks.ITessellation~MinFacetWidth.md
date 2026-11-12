@@ -45,13 +45,7 @@ property System.double MinFacetWidth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Minimum tessellation width
 
 ## VBA Syntax
 
-See
-
-[Tessellation::MinFacetWidth](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~MinFacetWidth.html)
-
-.
+See [Tessellation::MinFacetWidth](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~MinFacetWidth.html).
 
 ## Remarks
 
@@ -72,9 +62,7 @@ The default value for the underlying modeler is used when tessellating.
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellate::MaxFacetWidth Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~MaxFacetWidth.html)
 
 ## Availability

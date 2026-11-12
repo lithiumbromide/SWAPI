@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ObjectDisplayContent Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::ObjectDisplayContent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ObjectDisplayContent.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::ObjectDisplayContent](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ObjectDisplayContent.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void ObjectDisplayContent()
 void ObjectDisplayContent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::ObjectDisplayContent](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ObjectDisplayContent.html)
-
-.
+See [ModelDoc::ObjectDisplayContent](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~ObjectDisplayContent.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

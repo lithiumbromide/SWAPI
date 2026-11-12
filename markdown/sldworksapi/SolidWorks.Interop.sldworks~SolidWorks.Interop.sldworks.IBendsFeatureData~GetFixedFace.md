@@ -40,13 +40,7 @@ System.object GetFixedFace()
 System.Object^ GetFixedFace();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,21 @@ See
 
 ## VBA Syntax
 
-See
-
-[BendsFeatureData::GetFixedFace](ms-its:sldworksapivb6.chm::/sldworks~BendsFeatureData~GetFixedFace.html)
-
-.
+See [BendsFeatureData::GetFixedFace](ms-its:sldworksapivb6.chm::/sldworks~BendsFeatureData~GetFixedFace.html).
 
 ## Examples
 
 [Get Fixed Face of Flatten-Bends Feature (VBA)](Get_Fixed_Face_of_Flatten-Bends_Feature_Example_VB.htm)
-
 [Get Fixed Face of Flatten-Bends Feature (VB.NET)](Get_Fixed_Face_of_Flatten-Bends_Feature_Example_VBNET.htm)
-
 [Get Fixed Face of Flatten-Bends Feature (C#)](Get_Fixed_Face_of_Flatten-Bends_Feature_Example_CSharp.htm)
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IBendsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendsFeatureData.html)
-
 [IBendsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendsFeatureData_members.html)
 
 ## Availability

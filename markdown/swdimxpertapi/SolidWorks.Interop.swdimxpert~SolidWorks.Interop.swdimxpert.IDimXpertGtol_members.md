@@ -9,7 +9,7 @@ source: "swdimxpertapi/SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpe
 
 # IDimXpertGtol Interface Members
 
-The following tables list the members exposed by[IDimXpertGtol](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertGtol.html).
+The following tables list the members exposed by [IDimXpertGtol](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertGtol.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IDimXpertGtol](SolidWorks.Inter
 ## See Also
 
 [IDimXpertGtol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertGtol.html)
-
 [SolidWorks.Interop.swdimxpert Namespace](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert_namespace.html)

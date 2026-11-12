@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Post | api/{vaultName}/state/{transitionId}/HistoryComments |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > State Transition Resource Group : api/{vaultName}/state/{transitionId}/HistoryComments (Post) |
 | --- |
@@ -100,8 +96,4 @@ This operation:
 
 See Also
 
-[State Transition Resource Group](PDM%20Pro%20API_ws~g-7b85dfc9-ca5f-4c42-8689-253a31d91dce.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[State Transition Resource Group](PDM%20Pro%20API_ws~g-7b85dfc9-ca5f-4c42-8689-253a31d91dce.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

@@ -40,25 +40,15 @@ System.object GetArrowHeadInfo()
 System.Object^ GetArrowHeadInfo();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array (see**Remarks**)
+Array (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Gtol::GetArrowHeadInfo](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetArrowHeadInfo.html)
-
-.
+See [Gtol::GetArrowHeadInfo](ms-its:sldworksapivb6.chm::/sldworks~Gtol~GetArrowHeadInfo.html).
 
 ## Remarks
 
@@ -72,18 +62,13 @@ retval[1] = Arrowhead length
 
 retval[2] = Arrowhead width
 
-retval[3] = Arrowhead style as defined in[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
+retval[3] = Arrowhead style as defined in [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html)
 
 ## See Also
 
 [IGtol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol.html)
-
 [IGtol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol_members.html)
-
 [IGtol::GetArrowHeadAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetArrowHeadAtIndex.html)
-
 [IGtol::GetArrowHeadCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~GetArrowHeadCount.html)
-
 [IGtol::IGetArrowHeadAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetArrowHeadAtIndex.html)
-
 [IGtol::IGetArrowHeadInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGtol~IGetArrowHeadInfo.html)

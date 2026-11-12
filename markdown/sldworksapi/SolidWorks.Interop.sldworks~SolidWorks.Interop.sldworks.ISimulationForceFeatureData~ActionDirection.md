@@ -45,13 +45,7 @@ property System.Object^ ActionDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,11 +55,7 @@ Along the line-of-sight between two points
 
 ## VBA Syntax
 
-See
-
-[SimulationForceFeatureData::ActionDirection](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~ActionDirection.html)
-
-.
+See [SimulationForceFeatureData::ActionDirection](ms-its:sldworksapivb6.chm::/sldworks~SimulationForceFeatureData~ActionDirection.html).
 
 ## Remarks
 
@@ -76,15 +66,10 @@ If you are creating an action/reaction force, then the direction along which you
 ## See Also
 
 [ISimulationForceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData.html)
-
 [ISimulationForceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData_members.html)
-
 [ISimulationForceFeatureData::ActionLocation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~ActionLocation.html)
-
 [ISimulationForceFeatureData::ActionType Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~ActionType.html)
-
 [ISimulationForceFeatureData::ReverseDirection Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~ReverseDirection.html)
-
 [ISimulationForceFeatureData::ReactionLocation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationForceFeatureData~ReactionLocation.html)
 
 ## Availability

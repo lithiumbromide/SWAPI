@@ -40,48 +40,31 @@ System.object CollectAllSupportiveMates()
 System.Object^ CollectAllSupportiveMates();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of supportive
-
-[mates](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
+Array of supportive [mates](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::CollectAllSupportiveMates](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CollectAllSupportiveMates.html)
-
-.
+See [AssemblyDoc::CollectAllSupportiveMates](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CollectAllSupportiveMates.html).
 
 ## Examples
 
-See the
-
-[IMateControllerFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
-examples.
+See the [IMateControllerFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html) examples.
 
 ## Remarks
 
-This method is valid only if[IAssemblyDoc::IsSupportedMatesAvailable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IsSupportedMatesAvailable.html)is true.
+This method is valid only if [IAssemblyDoc::IsSupportedMatesAvailable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IsSupportedMatesAvailable.html) is true.
 
-To create a mate controller, see the Remarks section of[IMateControllerFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html).
+To create a mate controller, see the Remarks section of [IMateControllerFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html).
 
-For more information about the Mate Controller feature, see the**SOLIDWORKS user-interface help > Assemblies > Mates > Mate Controller**topic.
+For more information about the Mate Controller feature, see the **SOLIDWORKS Design user-interface help > Assemblies > Mates > Mate Controller** topic.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
 
 ## Availability

@@ -51,24 +51,15 @@ COLORREF value
 
 ## VBA Syntax
 
-See
-
-[Covering::Color](ms-its:routingapivb6.chm::/SWRoutingLib~Covering~Color.html)
-
-.
+See [Covering::Color](ms-its:routingapivb6.chm::/SWRoutingLib~Covering~Color.html).
 
 ## Examples
 
-See the
-
-[ICovering](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering.html)
-
-examples.
+See the [ICovering](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering.html) examples.
 
 ## See Also
 
 [ICovering Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering.html)
-
 [ICovering Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # InitPMPage Method (IFindReplaceAnnotations)
 
-Displays the
-
-Find and Replace Annotation
-
-PropertyManager page.
+Displays the Find and Replace Annotation PropertyManager page.
 
 ## Syntax
 
@@ -46,22 +42,15 @@ System.int InitPMPage();
 
 ### Return Value
 
-Error code as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error code as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IFindReplaceAnnotations::InitPMPage](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~InitPMPage.html)
-
-.
+See [IFindReplaceAnnotations::InitPMPage](ms-its:swutilitiesapivb6.chm::/swutilities~IFindReplaceAnnotations~InitPMPage.html).
 
 ## See Also
 
 [IFindReplaceAnnotations Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations.html)
-
 [IFindReplaceAnnotations Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IFindReplaceAnnotations_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.String^ Tip {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ ToolTip text
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageControl::Tip](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~Tip.html)
-
-.
+See [PropertyManagerPageControl::Tip](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageControl~Tip.html).
 
 ## See Also
 
 [IPropertyManagerPageControl Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl.html)
-
 [IPropertyManagerPageControl Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageControl_members.html)
 
 ## Availability

@@ -9,9 +9,7 @@ source: "sldworksapi/Create_Secondary_SSMembers_Example_VBNET.htm"
 
 # Create Secondary Structure System Members Example (VB.NET)
 
-This example shows how to create two secondary structure system members: one
-between primary member pair end points and the other on a support plane between
-a primary member pair.
+This example shows how to create two secondary structure system members: one between primary member pair end points and the other on a support plane between a primary member pair.
 
 ```vb
   '==========================================================================================
@@ -34,16 +32,13 @@ a primary member pair.
  ' 9. Press F5 to edit the between points member.
 ```
 
-'10. Press F5 to add a secondary structure system up to
-member.
+'10. Press F5 to add a secondary structure system up to member.
 
-'11. When the macro stops, multi-select a Member1 vertex
+'11. When the macro stops, multi-select a **Member1** vertex
 
-' in the graphics area and Member2 in the FeatureManager
-Design tree.
+' in the graphics area and **Member2** in the FeatureManager Design tree.
 
-'12. Press F5 to create the secondary Structure
-System4 ( Member5 ).
+'12. Press F5 to create the secondary **Structure System4** (**Member5**).
 
 '13. Inspect the Immediate window.
 
@@ -87,8 +82,7 @@ System4 ( Member5 ).
      Dim j As Integer
 ```
 
-Dim secDef As
-SecondaryStructuralMemberFeatureData
+Dim secDef As SecondaryStructuralMemberFeatureData
 
 Dim UpToMemDef As SecondaryMemberUpToMembersFeatureData
 
@@ -361,63 +355,55 @@ Dim Members(0) As Object
          stat = SecMemFeat.ModifyDefinition(secMemberData, modDoc, Nothing)
 ```
 
-'Create
-secondary structure system up to member
+'Create secondary structure system up to member
 
-structMemDef = modDocExt. CreateStructureSystemMemberData (6)
+structMemDef = modDocExt.**CreateStructureSystemMemberData**(6)
 
-Debug.Print("Structure system member type as defined by
-swStructureSystemMemberType_e: " & structMemDef. StructureSystemMemberType )
+Debug.Print("Structure system member type as defined by swStructureSystemMemberType_e: " & structMemDef.**StructureSystemMemberType**)
 
-structMemDef. StartEndExtendD1 = 0.0
+structMemDef.**StartEndExtendD1** = 0.0
 
-Debug.Print("Start/end direction 1: " & structMemDef. StartEndExtendD1 )
+Debug.Print("Start/end direction 1: " & structMemDef.**StartEndExtendD1**)
 
-structMemDef. StartEndExtendD2 = 0.0
+structMemDef.**StartEndExtendD2** = 0.0
 
-Debug.Print("Start/end
-direction 2: " & structMemDef. StartEndExtendD2 )
+Debug.Print("Start/end direction 2: " & structMemDef.**StartEndExtendD2**)
 
-profDef = structMemDef. MemberProfile
+profDef = structMemDef.**MemberProfile**
 
-profDef. ProfileStandard = "ansi inch"
+profDef.**ProfileStandard** = "ansi inch"
 
-profDef. ProfileType = "pipe"
+profDef.**ProfileType** = "pipe"
 
-profDef. ProfileSize = "0.5 sch 40"
+profDef.**ProfileSize** = "0.5 sch 40"
 
 SecDef = structMemDef
 
-Debug.Print("Secondary member type as defined by
-swStructureSystemMemberCreationType_e: " & SecDef. SecondaryMemberType )
+Debug.Print("Secondary member type as defined by swStructureSystemMemberCreationType_e: " & SecDef.**SecondaryMemberType**)
 
 UpToMemDef = SecDef
 
-UpToMemDef. MemberPointParametersType =
-swSecondaryMemberUpToMembersMemberPointParameters_e.swSecondaryMemberUpToMembersMemberPointParameters_FromPoint
+UpToMemDef.**MemberPointParametersType** = swSecondaryMemberUpToMembersMemberPointParameters_e.swSecondaryMemberUpToMembersMemberPointParameters_FromPoint
 
-Stop 'Multi-Select a Member1 vertex In the graphics area And Member2 In
-the FeatureManager Design tree
+Stop 'Multi-Select a Member1 vertex In the graphics area And Member2 In the FeatureManager Design tree
 
 point = swSelMgr.GetSelectedObject6(1, 0)
 
-Members(0)
-= swSelMgr.GetSelectedObject6(2, 0)
+Members(0) = swSelMgr.GetSelectedObject6(2, 0)
 
-UpToMemDef. SetFromPoint (point)
+UpToMemDef.**SetFromPoint**(point)
 
 Dim gArray() As DispatchWrapper
 
 gArray = ObjectArrayToDispatchWrapperArray(Members)
 
-UpToMemDef. SetFromPointMembers( gArray )
+UpToMemDef.**SetFromPointMembers(**gArray)
 
-UpToMemDef. SecondaryMemberOffsetType =
-swSecondaryMemberUpToMembersDistanceFromEndType_e.swSecondaryMemberUpToMembersDistanceFromEndType_Distance
+UpToMemDef.**SecondaryMemberOffsetType** = swSecondaryMemberUpToMembersDistanceFromEndType_e.swSecondaryMemberUpToMembersDistanceFromEndType_Distance
 
-UpToMemDef. DistanceMember = 0.1
+UpToMemDef.**DistanceMember** = 0.1
 
-UpToMemDef. RevDirectionDistanceMember = False
+UpToMemDef.**RevDirectionDistanceMember** = False
 
 memData(0) = structMemDef
 
@@ -425,12 +411,7 @@ memDataArray = memData
 
 Dim structSysFeat3 As Feature
 
-structSysFeat3 = modDocExt.
-
-CreateStructureSystem
-
-(Nothing,
-memDataArray)
+structSysFeat3 = modDocExt.**CreateStructureSystem**(Nothing, memDataArray)
 
 ```vb
      End Sub

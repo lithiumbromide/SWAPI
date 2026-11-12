@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData_fields.html"
 
 # EdmCmdData Structure Fields
 
-For a list of all members of this type, see[EdmCmdData members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData_members.html).
+For a list of all members of this type, see [EdmCmdData members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData_members.html).
 
 ## Public Fields
 
@@ -32,5 +32,4 @@ For a list of all members of this type, see[EdmCmdData members](EPDM.Interop.epd
 ## See Also
 
 [EdmCmdData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

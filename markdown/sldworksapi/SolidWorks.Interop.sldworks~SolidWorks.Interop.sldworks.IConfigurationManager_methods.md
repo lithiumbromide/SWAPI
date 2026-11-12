@@ -9,13 +9,13 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IConfigurationManager Interface Methods
 
-For a list of all members of this type, see[IConfigurationManager members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html).
+For a list of all members of this type, see [IConfigurationManager members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html).
 
 ## Public Methods
 
 |  | Name | Description |
 | --- | --- | --- |
-| Method | AddCADFamilyConfiguration | Adds the specified configuration to SOLIDWORKS Connected . |
+| Method | AddCADFamilyConfiguration | Adds the specified configuration to SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | AddConfiguration | Obsolete. Superseded by IConfigurationManager::AddConfiguration2 . |
 | Method | AddConfiguration2 | Creates a new configuration. |
 | Method | AddRebuildSaveMark | Adds marks indicating whether the specified configurations need to be rebuilt and their configuration data saved every time the model document is saved. |
@@ -35,7 +35,5 @@ For a list of all members of this type, see[IConfigurationManager members](Solid
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)

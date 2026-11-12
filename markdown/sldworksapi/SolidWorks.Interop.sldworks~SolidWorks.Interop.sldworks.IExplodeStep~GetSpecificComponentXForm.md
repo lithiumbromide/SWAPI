@@ -47,13 +47,7 @@ System.Object^ GetSpecificComponentXForm(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,22 +59,17 @@ Transformation matrix array of 16 doubles
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::GetSpecificComponentXForm](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetSpecificComponentXForm.html)
-
-.
+See [ExplodeStep::GetSpecificComponentXForm](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetSpecificComponentXForm.html).
 
 ## Remarks
 
-Before calling this method, call[IExplodeStep::GetNumOfComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetNumOfComponents.html)to get a valid value for Index.
+Before calling this method, call [IExplodeStep::GetNumOfComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetNumOfComponents.html) to get a valid value for Index.
 
-For regular explode steps, this method works just like[IExplodeStep::GetComponentXform](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponentXform.html)to get the transformation of the entire explode step. This method also works for radial explode steps by getting the transformation of an individual radial explode component.
+For regular explode steps, this method works just like [IExplodeStep::GetComponentXform](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponentXform.html) to get the transformation of the entire explode step. This method also works for radial explode steps by getting the transformation of an individual radial explode component.
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
 
 ## Availability

@@ -9,14 +9,13 @@ source: "sldworksapi/Select_Multiple_Objects_for_Selection_Boxes_Example_CSharp.
 
 # Select Multiple Objects for Selection Boxes Example (C#)
 
-This example shows how to select multiple objects and add the selected
-objects to different selection boxes on a PropertyManager page.
+This example shows how to select multiple objects and add the selected objects to different selection boxes on a PropertyManager page.
 
 ```vb
  //-------------------------------------------------------------------------
  // Preconditions:
  // 1. Verify that the assembly to open exists.
- // 2. kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Copy  SolidWorksMacro.cs to the project.
+ // 2.  Copy  SolidWorksMacro.cs to the project.
  // 3. Add a class module and copy clsPropMgr.cs to that module.
  // 4.  Add the SolidWorks.Interop.swpublished primary interop assembly
  //    reference to your project (click Project > Add Reference,
@@ -33,10 +32,10 @@ objects to different selection boxes on a PropertyManager page.
  //    in the bottom selection box.
  // 4. Close the PropertyManager page.
 // NOTE:
- // kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}* kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Reselect the kadov_tag{{</spaces>}}Tools > Options > System Options > Stop VSTA debugger
- // kadov_tag{{<spaces>}}      kadov_tag{{</spaces>}}on macro exit checkbox, if it was selected prior to running the macro.
- // kadov_tag{{<spaces>}}   kadov_tag{{</spaces>}}* kadov_tag{{<spaces>}} kadov_tag{{</spaces>}}Because the assembly document is used elsewhere,
- //       do not save kadov_tag{{</spaces>}}changes.
+ //    *  Reselect the Tools > Options > System Options > Stop VSTA debugger
+ //       on macro exit checkbox, if it was selected prior to running the macro.
+ //    *  Because the assembly document is used elsewhere,
+ //       do not save changes.
  //---------------------------------------------------------------------------
  //   SolidWorksMacro.cs
 ```
@@ -133,7 +132,7 @@ namespace CreatePropertyManagerPageCSharp.csproj
 }
 ```
 
-Back to top
+[Back to top](#Top)
 
 ```vb
  // clsPropMgr.cs
@@ -506,4 +505,4 @@ namespace CreatePropertyManagerPageCSharp.csproj
 }
 ```
 
-Back to top
+[Back to top](#Top)

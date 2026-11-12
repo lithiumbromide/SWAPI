@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Custom_Properties_for_Cut-list_Item_Example_VB.htm"
 
 # Get Custom Properties for Weldment Cut-list Item Example (VBA)
 
-This example shows how to get the custom properties for the selected
-weldment cut-list item.
+This example shows how to get the custom properties for the selected weldment cut-list item.
 
 ```
 '---------------------------------------------------------------

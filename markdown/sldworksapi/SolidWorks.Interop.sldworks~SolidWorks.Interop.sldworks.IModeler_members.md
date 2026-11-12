@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModeler Interface Members
 
-The following tables list the members exposed by[IModeler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html).
+The following tables list the members exposed by [IModeler](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html).
 
 ## Public Properties
 
@@ -152,5 +152,4 @@ The following tables list the members exposed by[IModeler](SolidWorks.Interop.sl
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

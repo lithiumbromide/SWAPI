@@ -49,17 +49,11 @@ Body2^ GetThicknessAnalysisBody(
 
 ### Parameters
 
-- `lErrorcode`: Error as defined in
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `lErrorcode`: Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
-SOLIDWORKS
-
-[IBody2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-object
+SOLIDWORKS [IBody2](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) object
 
 ## Remarks
 
@@ -67,12 +61,11 @@ You do not need to use this method if the part is made up of a single solid body
 
 This method returns Nothing or Null if the body is a single solid body part.
 
-Use[IThicknessAnalysis::SetThicknessAnalysisBody](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~SetThicknessAnalysisBody.html)to select the body for the thickness analysis.
+Use [IThicknessAnalysis::SetThicknessAnalysisBody](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~SetThicknessAnalysisBody.html) to select the body for the thickness analysis.
 
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
 
 ## Availability

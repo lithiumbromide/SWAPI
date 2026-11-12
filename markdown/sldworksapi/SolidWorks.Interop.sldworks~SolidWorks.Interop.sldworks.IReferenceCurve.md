@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 Allows access to reference curves.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,22 +41,14 @@ public interface class IReferenceCurve
 
 ## VBA Syntax
 
-See
-
-[ReferenceCurve](ms-its:sldworksapivb6.chm::/sldworks~ReferenceCurve.html)
-
-.
+See [ReferenceCurve](ms-its:sldworksapivb6.chm::/sldworks~ReferenceCurve.html).
 
 ## Examples
 
 [Get Curve Segments (VBA)](Get_Curve_Segments_Example_VB.htm)
-
 [Get Reference Curve Information (VBA)](Get_Reference_Curve_Information_Example_VB.htm)
-
 [Create Reference Curve (C#)](Create_Reference_Curve_Example_CSharp.htm)
-
 [Create Reference Curve (VB.NET)](Create_Reference_Curve_Example_VBNET.htm)
-
 [Create Reference Curve (VBA)](Create_Reference_Curve_Example_VB.htm)
 
 ## Remarks
@@ -83,5 +75,4 @@ IReferenceCurve does not expose reference curve features (for example, projected
 ## See Also
 
 [IReferenceCurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IReferenceCurve_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

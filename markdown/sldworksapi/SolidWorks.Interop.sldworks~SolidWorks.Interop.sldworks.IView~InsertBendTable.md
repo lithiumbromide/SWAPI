@@ -67,24 +67,16 @@ BendTableAnnotation^ InsertBendTable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseAnchorPoint`: True to insert the bend table at the sheet format anchor point, false to insert it at the point specified by the X and Y parameters of this method
 - `X`: X-coordinate for placement of the bend table; valid only when UseAnchorPoint is false
 - `Y`: Y-coordinate for placement of the bend table; valid only when UseAnchorPoint is false
-- `AnchorType`: Anchor type as defined in
-
-[swBomConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomConfigurationAnchorType_e.html)
+- `AnchorType`: Anchor type as defined in [swBomConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBomConfigurationAnchorType_e.html)
 - `StartValue`: Starting datum tag; a value from A to Z for letter tags; a positive integer for number tags
-- `TableTemplate`: Full pathname of the template (e.g.,`install_dir`\**lang\**`language \`**bendtable-standard.sldbndtbt**)
+- `TableTemplate`: Full pathname of the template (e.g., `install_dir`\**lang\**`language\`**bendtable-standard.sldbndtbt**)
 
 ### Return Value
 
@@ -92,28 +84,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::InsertBendTable](ms-its:sldworksapivb6.chm::/sldworks~View~InsertBendTable.html)
-
-.
+See [View::InsertBendTable](ms-its:sldworksapivb6.chm::/sldworks~View~InsertBendTable.html).
 
 ## Examples
 
 [Insert Bend Table (VBA)](Insert_Bend_Table_Example_VB.htm)
-
 [Insert Bend Table (VB.NET)](Insert_Bend_Table_Example_VBNET.htm)
-
 [Insert Bend Table (C#)](Insert_Bend_Table_Example_CSharp.htm)
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IBendTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBendTable.html)
-
 [IPartDoc::InsertBendTable Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~InsertBendTable.html)
 
 ## Availability

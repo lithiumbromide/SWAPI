@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFa
 
 # SetInfiniteLifeSettings Method (ICWFatigueStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWFatigueStudyOptions::SetInfiniteLifeSettings2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~SetInfiniteLifeSettings2.html)
-
-.
+Obsolete. Superseded by [ICWFatigueStudyOptions::SetInfiniteLifeSettings2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~SetInfiniteLifeSettings2.html).
 
 ## Syntax
 
@@ -61,18 +57,12 @@ void SetInfiniteLifeSettings(
 
 ## VBA Syntax
 
-See
-
-[CWFatigueStudyOptions::SetInfiniteLifeSettings](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~SetInfiniteLifeSettings.html)
-
-.
+See [CWFatigueStudyOptions::SetInfiniteLifeSettings](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWFatigueStudyOptions~SetInfiniteLifeSettings.html).
 
 ## See Also
 
 [ICWFatigueStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions.html)
-
 [ICWFatigueStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions_members.html)
-
 [ICWFatigueStudyOptions::GetInfiniteLifeSettings Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueStudyOptions~GetInfiniteLifeSettings.html)
 
 ## Availability

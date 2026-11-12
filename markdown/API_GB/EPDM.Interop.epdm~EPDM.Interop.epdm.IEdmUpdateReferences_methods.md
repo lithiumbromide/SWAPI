@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences_methods
 
 # IEdmUpdateReferences Interface Methods
 
-For a list of all members of this type, see[IEdmUpdateReferences members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences_members.html).
+For a list of all members of this type, see [IEdmUpdateReferences members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences_members.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[IEdmUpdateReferences members](EPDM.I
 ## See Also
 
 [IEdmUpdateReferences Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

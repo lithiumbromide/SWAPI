@@ -39,19 +39,11 @@ void GetColumns(
 
 ### Parameters
 
-- `ppoColumns`: Array of
-
-[EdmBomColumn](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html)
-
-structures; one structure for each BOM column
+- `ppoColumns`: Array of [EdmBomColumn](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomColumn.html) structures; one structure for each BOM column
 
 ## Examples
 
-See the
-
-[IEdmBomView](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView.html)
-
-examples.
+See the [IEdmBomView](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView.html) examples.
 
 ## Remarks
 
@@ -63,7 +55,6 @@ examples.
 ## See Also
 
 [IEdmBomView Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView.html)
-
 [IEdmBomView Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBomView_members.html)
 
 ## Availability

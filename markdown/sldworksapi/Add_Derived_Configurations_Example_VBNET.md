@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Derived_Configurations_Example_VBNET.htm"
 
 # Add Derived Configurations Example (VB.NET)
 
-This example shows how to add a derived configuration for each existing
-configuration.
+This example shows how to add a derived configuration for each existing configuration.
 
 ```vb
  '---------------------------------------------------------------------------

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAs
 
 # DAssemblyDocEvents_FileSavePostCancelNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Fired if
-
-[FileSavePostNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FileSavePostNotifyEventHandler.html)
-
-is not fired.
+Fired if [FileSavePostNotify](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_FileSavePostNotifyEventHandler.html) is not fired.
 
 ## Syntax
 
@@ -41,29 +37,15 @@ public delegate System.int DAssemblyDocEvents_FileSavePostCancelNotifyEventHandl
 public delegate System.int DAssemblyDocEvents_FileSavePostCancelNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[FileSavePostCancelNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~FileSavePostCancelNotify_EV.html)
-
-.
+See [FileSavePostCancelNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~FileSavePostCancelNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyFileSavePostCancelNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyFileSavePostCancelNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

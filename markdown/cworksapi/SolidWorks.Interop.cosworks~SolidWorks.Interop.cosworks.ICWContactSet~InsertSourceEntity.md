@@ -48,40 +48,25 @@ void InsertSourceEntity(
 
 ### Parameters
 
-- `DispEntity`: Entity (see
-
-Remarks
-
-)
+- `DispEntity`: Entity (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWContactSet::InsertSourceEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~InsertSourceEntity.html)
-
-.
+See [CWContactSet::InsertSourceEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactSet~InsertSourceEntity.html).
 
 ## Remarks
 
-Faces, edges, and vertices are allowed as source entities. See[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)in the SOLIDWORKS API Enumerations Help for their types.
+Faces, edges, and vertices are allowed as source entities. See [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html) in the SOLIDWORKS API Enumerations Help for their types.
 
 ## See Also
 
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWContactSet Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet_members.html)
-
 [ICWContactSet::GetSourceEntityAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~GetSourceEntityAt.html)
-
 [ICWContactSet::GetTargetEntityAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~GetTargetEntityAt.html)
-
 [ICWContactSet::RemoveSourceEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~RemoveSourceEntity.html)
-
 [ICWContactSet::RemoveTargetEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~RemoveTargetEntity.html)
-
 [ICWContactSet::SourceEntityCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~SourceEntityCount.html)
-
 [ICWContactSet::TargetEntityCount Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet~TargetEntityCount.html)
 
 ## Availability

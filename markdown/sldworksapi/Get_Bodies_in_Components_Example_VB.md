@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Bodies_in_Components_Example_VB.htm"
 
 # Get Bodies in Components Example (VBA)
 
-This example shows how to get the number of normal and user bodies in
-the components in an assembly.
+This example shows how to get the number of normal and user bodies in the components in an assembly.
 
 ```
 '-----------------------------------------------------

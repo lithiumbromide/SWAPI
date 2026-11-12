@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Hole_Wizard_Feature_Data_Object_and_Hole_Wizard_Feat
 
 # Create Hole Wizard Feature Data Object and Hole Wizard Feature Example (VBA)
 
-This example shows how to create a hole wizard feature data object and
-a hole wizard feature.
+This example shows how to create a hole wizard feature data object and a hole wizard feature.
 
 ```
 '-------------------------------------------

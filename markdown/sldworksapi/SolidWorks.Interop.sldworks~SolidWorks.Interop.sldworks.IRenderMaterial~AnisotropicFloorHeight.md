@@ -45,13 +45,7 @@ property System.double AnisotropicFloorHeight {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Anisotropic floor height
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::AnisotropicFloorHeight](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~AnisotropicFloorHeight.html)
-
-.
+See [RenderMaterial::AnisotropicFloorHeight](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~AnisotropicFloorHeight.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ Anisotropic reflection is modeled by laying (virtual) cylinders along the surfac
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

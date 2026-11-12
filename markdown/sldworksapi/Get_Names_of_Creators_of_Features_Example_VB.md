@@ -9,14 +9,13 @@ source: "sldworksapi/Get_Names_of_Creators_of_Features_Example_VB.htm"
 
 # Get Names of Creators of Features Example (VBA)
 
-This example shows how to get the names of the creators of the features
-in multiple part documents.
+This example shows how to get the names of the creators of the features in multiple part documents.
 
 ```
 '---------------------------------------------------------------------------------
 ' Preconditions: Create the input file c:\temp\SOLIDWORKSFilenames.txt
 ' in a text editor and add the paths and file names of the
-' SOLIDWORKS part documents for which you want the creators of the
+' part documents for which you want the creators of the
 ' features identified.
 '
 ' Postconditions:

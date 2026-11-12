@@ -42,5 +42,4 @@ public enum class EdmItemLinkType : public System.Enum
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [EdmGenItemInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGenItemInfo.html)

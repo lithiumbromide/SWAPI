@@ -53,9 +53,7 @@ DimXpertFeature^ IGetSubFeatures(
 
 ### Return Value
 
-in-process, unmanaged C++: Pointer to an array of
-
-[IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)
+in-process, unmanaged C++: Pointer to an array of [IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
@@ -65,14 +63,13 @@ This method returns all sub-features of the pattern feature. All of the sub-feat
 
 For example, the sub-features of a simple hole are related to functional geometry and are not listed in the DimXpertManager tree. However, the sub-features of a hole pattern are manufacturing features (e.g., simple holes) that are significant for downstream processes. These manufacturing features are listed in the DimXpertManager tree.
 
-See[In-process Methods](sldworksapiprogguide.chm::/Overview/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/Overview/In-process_Methods.htm) for details about this type of method.
 
-Before calling this method, call[IDimXpertPatternFeature::GetSubFeatureCount](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPatternFeature~GetSubFeatureCount.html)to get the value for the Count parameter.
+Before calling this method, call [IDimXpertPatternFeature::GetSubFeatureCount](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertPatternFeature~GetSubFeatureCount.html) to get the value for the Count parameter.
 
 ## See Also
 
 [IDimXpertPatternFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPatternFeature.html)
-
 [IDimXpertPatternFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertPatternFeature_members.html)
 
 ## Availability

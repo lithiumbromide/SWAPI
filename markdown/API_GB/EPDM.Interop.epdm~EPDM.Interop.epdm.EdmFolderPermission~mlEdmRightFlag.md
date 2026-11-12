@@ -34,14 +34,9 @@ System.int mlEdmRightFlag
 
 ### Field Value
 
-Combination of
-
-[EdmRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRightFlags.html)
-
-bits.
+Combination of [EdmRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRightFlags.html) bits.
 
 ## See Also
 
 [EdmFolderPermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission.html)
-
 [EdmFolderPermission Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission_members.html)

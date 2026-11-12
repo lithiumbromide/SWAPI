@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # IPropertyManagerPageTab Interface Methods
 
-For a list of all members of this type, see[IPropertyManagerPageTab members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageTab_members.html).
+For a list of all members of this type, see [IPropertyManagerPageTab members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageTab_members.html).
 
 ## Public Methods
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[IPropertyManagerPageTab members](Sol
 ## See Also
 
 [IPropertyManagerPageTab Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageTab.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -1,6 +1,5 @@
 ---
-title: "MiterFlangeFeatureData Object
-Members"
+title: "MiterFlangeFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "MiterFlangeFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~MiterFlangeFeatureData_members.html"
 ---
 
-# MiterFlangeFeatureData Object
-Members
+# MiterFlangeFeatureData Object Members
 
 ## Public Methods
 

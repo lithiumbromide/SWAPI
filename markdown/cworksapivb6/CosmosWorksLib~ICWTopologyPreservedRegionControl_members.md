@@ -1,6 +1,5 @@
 ---
-title: "ICWTopologyPreservedRegionControl Object
-Members"
+title: "ICWTopologyPreservedRegionControl Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWTopologyPreservedRegionControl_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWTopologyPreservedRegionControl_members.html"
 ---
 
-# ICWTopologyPreservedRegionControl Object
-Members
+# ICWTopologyPreservedRegionControl Object Members
 
 ## Public Methods
 

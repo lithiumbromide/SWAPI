@@ -47,23 +47,15 @@ property System.int SolverType {
 
 ### Property Value
 
-Solver type as defined in[swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html)(see**Remarks**)
+Solver type as defined in [swsSolverType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSolverType_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::SolverType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SolverType.html)
-
-.
+See [CWNonLinearStudyOptions::SolverType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~SolverType.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## Remarks
 
@@ -72,7 +64,6 @@ The automatic solver is not supported for nonlinear studies; it supports static,
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

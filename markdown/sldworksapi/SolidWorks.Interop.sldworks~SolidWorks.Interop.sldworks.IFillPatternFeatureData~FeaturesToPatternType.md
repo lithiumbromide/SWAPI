@@ -45,35 +45,19 @@ property System.int FeaturesToPatternType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of object to pattern as defined in
-
-[swFeaturesToPatternType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeaturesToPatternType_e.html)
+Type of object to pattern as defined in [swFeaturesToPatternType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeaturesToPatternType_e.html)
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData::FeaturesToPatternType](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~FeaturesToPatternType.html)
-
-.
+See [FillPatternFeatureData::FeaturesToPatternType](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~FeaturesToPatternType.html).
 
 ## Examples
 
-See the
-
-[IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
-example.
+See the [IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html) example.
 
 ## Remarks
 
@@ -85,7 +69,6 @@ example.
 ## See Also
 
 [IFillPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
 
 ## Availability

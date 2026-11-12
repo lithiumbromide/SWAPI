@@ -47,13 +47,7 @@ System.bool ReleaseStream(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,82 +59,59 @@ True if stream is released, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::ReleaseStream](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ReleaseStream.html)
-
-.
+See [ModelDocExtension::ReleaseStream](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~ReleaseStream.html).
 
 ## Remarks
 
-To obtain the stream, call[IModelDocExtension::GetStream](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetStream.html).
+To obtain the stream, call [IModelDocExtension::GetStream](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~GetStream.html).
 
 **VB Example**
 
 This example illustrates attaching an XML document to a stream, and then releasing the stream.
 
+```vb
 Dim swApp As Object
-
 Sub main()
-
 Set swApp = Application.SldWorks
-
 Dim docext As SldWorks.ModelDocExtension
 
 Set docext = swApp.ActiveDoc.Extension
 
 Dim xmldoc As MSXML2.DOMDocument
-
 Set xmldoc = CreateObject("MSXML2.DOMDocument")
-
 Dim stat As Boolean
-
 Dim stream
-
-Set stream = docext. GetStream (1, stat)
-
+Set stream = docext.GetStream(1, stat)
 xmldoc.Load (stream)
-
-docext. ReleaseStream (1)
+docext.ReleaseStream (1)
 
 xmldoc.Save ("C:\temp\xmlmat.xml")
 
 End Sub
+```
 
 **C++ Example**
 
+```vb
 //--------
-
-kadov_tag{{<spaces>}}CComPtr<IModelDocExtension> ext;
-
-kadov_tag{{<spaces>}}m_iModelDoc2->get_Extension(&ext);
-
-kadov_tag{{<spaces>}}LPSTREAM stream = NULL;
-
-kadov_tag{{<spaces>}}VARIANT_BOOL access = 0;
-
-kadov_tag{{<spaces>}}ext-> IGetStream (1, &access, &stream);
-
-kadov_tag{{<spaces>}}// Your code
-
-kadov_tag{{<spaces>}}if (stream)
-
-kadov_tag{{<spaces>}}{
-
-kadov_tag{{<spaces>}}VARIANT_BOOL status;
-
-kadov_tag{{<spaces>}}ext-> IReleaseStream (1, &status);
-
-kadov_tag{{<spaces>}}stream->Release();
-
-kadov_tag{{<spaces>}}}
-
-kadov_tag{{<spaces>}}//--------
+  CComPtr<IModelDocExtension> ext;
+  m_iModelDoc2->get_Extension(&ext);
+  LPSTREAM stream = NULL;
+  VARIANT_BOOL access = 0;
+  ext->IGetStream(1, &access, &stream);
+  // Your code
+  if (stream)
+  {
+  VARIANT_BOOL status;
+  ext->IReleaseStream(1, &status);
+  stream->Release();
+  }
+  //--------
+```
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

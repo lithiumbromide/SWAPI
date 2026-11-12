@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # EdgeGetFace Method (IMidSurface)
 
-Obsolete. Superseded by
-
-[IMidSurface2::EdgeGetFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~EdgeGetFace.html)
-
-.
+Obsolete. Superseded by [IMidSurface2::EdgeGetFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~EdgeGetFace.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ EdgeGetFace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[MidSurface::EdgeGetFace](ms-its:sldworksapivb6.chm::/sldworks~MidSurface~EdgeGetFace.html)
-
-.
+See [MidSurface::EdgeGetFace](ms-its:sldworksapivb6.chm::/sldworks~MidSurface~EdgeGetFace.html).
 
 ## See Also
 
 [IMidSurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface.html)
-
 [IMidSurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface_members.html)

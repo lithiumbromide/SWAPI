@@ -40,13 +40,7 @@ System.int GetFaceArrayCount()
 System.int GetFaceArrayCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,17 @@ Number of faces for this projected curve
 
 ## VBA Syntax
 
-See
-
-[ProjectionCurveFeatureData::GetFaceArrayCount](ms-its:sldworksapivb6.chm::/sldworks~ProjectionCurveFeatureData~GetFaceArrayCount.html)
-
-.
+See [ProjectionCurveFeatureData::GetFaceArrayCount](ms-its:sldworksapivb6.chm::/sldworks~ProjectionCurveFeatureData~GetFaceArrayCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IProjectionCurveFeatureData::IGetFaceArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IProjectionCurveFeatureData~IGetFaceArray.html)
-
-.
+Call this method before calling [IProjectionCurveFeatureData::IGetFaceArray](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IProjectionCurveFeatureData~IGetFaceArray.html).
 
 ## See Also
 
 [IProjectionCurveFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData.html)
-
 [IProjectionCurveFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData_members.html)
-
 [IProjectionCurveFeatureData::ISetFaceArray Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData~ISetFaceArray.html)
-
 [IProjectionCurveFeatureData::FaceArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IProjectionCurveFeatureData~FaceArray.html)
 
 ## Availability

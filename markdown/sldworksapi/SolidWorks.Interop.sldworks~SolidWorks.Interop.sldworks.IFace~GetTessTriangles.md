@@ -9,9 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # GetTessTriangles Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::GetTessTriangles.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTessTriangles.html)
+Obsolete. Superseded by [IFace2::GetTessTriangles.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetTessTriangles.html)
 
 ## Syntax
 
@@ -49,13 +47,7 @@ System.Object^ GetTessTriangles(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -63,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face::GetTessTriangles](ms-its:sldworksapivb6.chm::/sldworks~Face~GetTessTriangles.html)
-
-.
+See [Face::GetTessTriangles](ms-its:sldworksapivb6.chm::/sldworks~Face~GetTessTriangles.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

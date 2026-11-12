@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # NameView Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::NameView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~NameView.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::NameView](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~NameView.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void NameView(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::NameView](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~NameView.html)
-
-.
+See [ModelDoc::NameView](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~NameView.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

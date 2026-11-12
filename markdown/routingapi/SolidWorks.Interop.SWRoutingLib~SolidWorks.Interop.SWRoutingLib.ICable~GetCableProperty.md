@@ -42,32 +42,19 @@ CableProperty^ GetCableProperty();
 
 ### Return Value
 
-Pointer to
-
-[ICableProperty](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.ICableProperty.html)
-
-object
+Pointer to [ICableProperty](SOLIDWORKS.Interop.SWRoutingLib~SOLIDWORKS.Interop.SWRoutingLib.ICableProperty.html) object
 
 ## VBA Syntax
 
-See
-
-[Cable::GetCableProperty](ms-its:routingapivb6.chm::/SWRoutingLib~Cable~GetCableProperty.html)
-
-.
+See [Cable::GetCableProperty](ms-its:routingapivb6.chm::/SWRoutingLib~Cable~GetCableProperty.html).
 
 ## Examples
 
-See the
-
-[ICable](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable.html)
-
-examples.
+See the [ICable](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable.html) examples.
 
 ## See Also
 
 [ICable Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable.html)
-
 [ICable Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICable_members.html)
 
 ## Availability

@@ -38,7 +38,6 @@ True if any file was created, false if no files were created
 ## Examples
 
 [Add Custom File Reference (VB.NET)](Add_Custom_File_Reference_Example_VBNET.htm)
-
 [Add Custom File Reference (C#)](Add_Custom_File_Reference_Example_CSharp.htm)
 
 ## Remarks
@@ -57,7 +56,6 @@ Before calling this method, you must call one of the following methods to add a 
 ## See Also
 
 [IEdmAddCustomRefs Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html)
-
 [IEdmAddCustomRefs Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICh
 
 # Spacing Property (IChainPatternFeatureData)
 
-Gets or sets the distance between the pattern instances in the
-
-[path](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Path.html)
-
-in this chain pattern feature.
+Gets or sets the distance between the pattern instances in the [path](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Path.html) in this chain pattern feature.
 
 ## Syntax
 
@@ -49,63 +45,37 @@ property System.double Spacing {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Distance between the pattern instances (see
-
-Remarks
-
-)
+Distance between the pattern instances (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ChainPatternFeatureData::Spacing](ms-its:sldworksapivb6.chm::/sldworks~ChainPatternFeatureData~Spacing.html)
-
-.
+See [ChainPatternFeatureData::Spacing](ms-its:sldworksapivb6.chm::/sldworks~ChainPatternFeatureData~Spacing.html).
 
 ## Examples
 
 [Create and Modify Distance Chain Pattern Feature (C#)](Create_and_Modify_Distance_Chain_Pattern_Feature_Example_CSharp.htm)
-
 [Create and Modify Distance Chain Pattern Feature (VB.NET)](Create_and_Modify_Distance_Chain_Pattern_Feature_Example_VBNET.htm)
-
 [Create and Modify Distance Chain Pattern Feature (VBA)](Create_and_Modify_Distance_Chain_Pattern_Feature_Example_VB.htm)
 
 ## Remarks
 
-This property is only available for distance and linkage distance chain patterns when[equal spacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~SetEqualSpacing.html)is not set.
+This property is only available for distance and linkage distance chain patterns when [equal spacing](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~SetEqualSpacing.html) is not set.
 
 To:
 
-- have SOLIDWORKS calculate the maximum number of pattern instances to fill the path using the specified distance, use
-
-  [IChainPatternFeatureData::FillPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~FillPath.html)
-
-  .
-
+- have SOLIDWORKS calculate the maximum number of pattern instances to fill the path using the specified distance, use [IChainPatternFeatureData::FillPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~FillPath.html).
   - or -
-- set the number of pattern instances for the path using the specified distance, use
+- set the number of pattern instances for the path using the specified distance, use [IChainPatternFeatureData::InstanceCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~InstanceCount.html).
 
-  [IChainPatternFeatureData::InstanceCount](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~InstanceCount.html)
-
-  .
-
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [IChainPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData.html)
-
 [IChainPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData_members.html)
 
 ## Availability

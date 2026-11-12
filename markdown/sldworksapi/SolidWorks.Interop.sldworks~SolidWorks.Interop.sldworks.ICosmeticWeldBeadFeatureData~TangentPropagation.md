@@ -45,37 +45,19 @@ property System.bool TangentPropagation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to apply the weld bead to all edges that are tangent to the selected faces or edges, false to not (see
-
-Remarks
-
-)
+True to apply the weld bead to all edges that are tangent to the selected faces or edges, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFeatureData::TangentPropagation](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~TangentPropagation.html)
-
-.
+See [CosmeticWeldBeadFeatureData::TangentPropagation](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFeatureData~TangentPropagation.html).
 
 ## Examples
 
-See
-
-[ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
-examples.
+See [ICosmeticWeldBeadFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFeatureData.html) examples.
 
 ## Remarks
 
@@ -87,7 +69,6 @@ examples.
 ## See Also
 
 [ICosmeticWeldBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData.html)
-
 [ICosmeticWeldBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFeatureData_members.html)
 
 ## Availability

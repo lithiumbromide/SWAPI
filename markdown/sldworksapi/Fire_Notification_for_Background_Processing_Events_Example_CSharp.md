@@ -9,8 +9,7 @@ source: "sldworksapi/Fire_Notification_for_Background_Processing_Events_Example_
 
 # Fire Notifications for Background Processing Events Example (C#)
 
-This example shows how to fire notifications when background processing
-events occur.
+This example shows how to fire notifications when background processing events occur.
 
 ```vb
  //----------------------------------------------------------------------------

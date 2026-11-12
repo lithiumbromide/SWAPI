@@ -46,24 +46,17 @@ RibbonCable^ GetRibbonCableDispatch();
 
 ## VBA Syntax
 
-See
-
-[ElectricalRoute::GetRibbonCableDispatch](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRoute~GetRibbonCableDispatch.html)
-
-.
+See [ElectricalRoute::GetRibbonCableDispatch](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRoute~GetRibbonCableDispatch.html).
 
 ## Examples
 
 [Get Ribbon Cable Properties (VBA)](Get_Ribbon_Cable_Properties_Example_VB.htm)
-
 [Get Ribbon Cable Properties (VB.NET)](Get_Ribbon_Cable_Properties_Example_VBNET.htm)
-
 [Get Ribbon Cable Properties (C#)](Get_Ribbon_Cable_Properties_Example_CSharp.htm)
 
 ## See Also
 
 [IElectricalRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute.html)
-
 [IElectricalRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute_members.html)
 
 ## Availability

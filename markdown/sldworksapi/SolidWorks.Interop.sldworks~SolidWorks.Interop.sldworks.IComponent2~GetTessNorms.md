@@ -40,25 +40,15 @@ System.object GetTessNorms()
 System.Object^ GetTessNorms();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Object of type SafeArray of floats (see**Remarks**)
+Object of type SafeArray of floats (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Component2::GetTessNorms](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetTessNorms.html)
-
-.
+See [Component2::GetTessNorms](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetTessNorms.html).
 
 ## Remarks
 
@@ -72,14 +62,12 @@ The format of retval is:
 
 for the set of triangles for the component.
 
-The total size of the data is[9 x sizeof(float) x (number of triangles)].
+The total size of the data is [ 9 x sizeof(float) x (number of triangles) ].
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::IGetTessNorms Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IGetTessNorms.html)
 
 ## Availability

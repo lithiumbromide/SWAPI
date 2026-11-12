@@ -11,103 +11,35 @@ source: "swconst/DP_Dimensions-Radius.htm"
 
 S
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
 This topic contains two tables. The information in the table:
 
-- appearing immediately after the screen capture of the
-  Document Properties - Radius
-
-  dialog
-  corresponds to the settings on that dialog.
-- titled
-
-  [Obsolete
-  Enumerators](#Obsolete)
-
-  contains enumerators that previously appeared on the
-
-  dialog,
-  but are now obsolete and no longer appear on that
-
-  dialog.
-
-(Table)=========================================================
+- appearing immediately after the screen capture of the Document Properties - Radius dialog corresponds to the settings on that dialog.
+- titled [Obsolete Enumerators](#Obsolete) contains enumerators that previously appeared on the dialog, but are now obsolete and no longer appear on that dialog.
 
 | Setting | Get/Set Methods | Return Value or < Value > | Comments |
 | --- | --- | --- | --- |
-| Base radial dimension standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard,
-swUserPreferenceOption_e.swDetailingRadiusDimension, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base radial dimensioning standard to use |
-| Leader/Dimension Line Style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDimensionsStyle,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDimensionsStyle,
-swUserPreferenceOption_e.swDetailingRadiusDimension, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies style of leader lines for radial dimensions |
-| Leader/Dimension Line Style - Leader Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDimensionsThickness,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDimensionsThickness,
-swUserPreferenceOption_e.swDetailingRadiusDimension, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies thickness of leader lines for radial dimensions |
-| Leader/Dimension Line Style - Custom Thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDimensionsThicknessCustom,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDimensionsThicknessCustom,
-swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Double value | Specifies a custom thickness for leader lines in radial dimensions; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
-| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDimensionTextFormat,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDimensionTextFormat,
-swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate
-ITextFormat member values, and pass the ITextFormat object in the API
-set method |
-| Text - Horizontal | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAlignmentHorizontal,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAlignmentHorizontal,
-swUserPreferenceOption_e.swDetailingRadiusDimension, swTextJustification_e.< Value >) | See swTextJustification_e for valid options |  |
-| Text - Vertical | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAlignmentVertical,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAlignmentVertical,
-swUserPreferenceOption_e.swDetailingRadiusDimension, swTextAlignmentVertical_e.< Value >) | See swTextAlignmentVertical_e for valid options |  |
-| Dual dimensions - Dual dimensions display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDualDimensions,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDualDimensions,
-swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Boolean value | Specifies whether to display dimensions in two kinds of units |
-| Dual dimensions - Show units for dual display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowDualDimensionUnits,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowDualDimensionUnits,
-swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Boolean value | Specifies whether to display units for dual dimensions; available only on
-drawings |
-| Dual dimensions - Split when text position is "Solid Leader, Aligned
-Text" | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSplitWhenTextIsSolidLeaderAligned,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSplitWhenTextIsSolidLeaderAligned,
-swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Boolean value | Specifies whether to display dual dimensions above and below dimension lines; valid only if Text position is swDisplayDimensionLeaderText_e .swSolidLeaderAlignedText |
-| Dual dimensions - Dimension position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDualDimPosition,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDualDimPosition,
-swUserPreferenceOption_e.swDetailingRadiusDimension, swDetailingDualDimPosition_e.< Value >) | See swDetailingDualDimPosition_e for valid options | Positions the display of dimensions in two kinds of units |
-| Primary precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearDimPrecision,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearDimPrecision,
-swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Number of decimal places to display; 0 through 8 | Specifies primary precision for linear dimension |
-| Primary precision - Tolerance Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearTolPrecision,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearTolPrecision,
-swUserPreferenceOption_e.swDetailingRadiusDimension, swDimensionPrecisionSettings_e
-.< Value >) | See swDimensionPrecisionSettings_e for valid options | Specifies primary precision for tolerance |
-| Dual precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearDimPrecision,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearDimPrecision,
-swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Number of decimal places to display; 0 through 8 | Specifies dual precision for alternate linear dimension |
-| Dual precision - Tolerance Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearTolPrecision,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearTolPrecision,
-swUserPreferenceOption_e.swDetailingRadiusDimension, swDimensionPrecisionSettings_e
-.< Value >) | See swDimensionPrecisionSettings_e for valid options | Specifies dual precision for alternate linear tolerance |
-| Arrow placement | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingRadialDimsArrowPlacement,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingRadialDimsArrowPlacement,
-swUserPreferenceOption_e.swDetailingRadiusDimension, swArrowPlacement_e
-.< Value >) | See swArrowPlacement_e for valid options | Specifies placement of Smart arrows only |
-| Display with solid leader | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingRadialDimsDisplayWithSolidLeader,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingRadialDimsDisplayWithSolidLeader,
-swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Boolean value | Specifies whether to display radial dimensions with a solid leader |
+| Base radial dimension standard | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionStandard, swUserPreferenceOption_e.swDetailingRadiusDimension, swDetailingStandard_e.< Value >) | See swDetailingStandard_e for valid options | Specifies the base radial dimensioning standard to use |
+| Leader/Dimension Line Style - Leader Style | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDimensionsStyle, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDimensionsStyle, swUserPreferenceOption_e.swDetailingRadiusDimension, swLineStyles_e.< Value >) | See swLineStyles_e for valid options | Specifies style of leader lines for radial dimensions |
+| Leader/Dimension Line Style - Leader Thickness | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDimensionsThickness, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swLineFontDimensionsThickness, swUserPreferenceOption_e.swDetailingRadiusDimension, swLineWeights_e.< Value >) | See swLineWeights_e for valid options | Specifies thickness of leader lines for radial dimensions |
+| Leader/Dimension Line Style - Custom Thickness | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDimensionsThicknessCustom, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swLineFontDimensionsThicknessCustom, swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Double value | Specifies a custom thickness for leader lines in radial dimensions; sets Custom Thickness to the specified thickness and Leader Thickness to Custom Size |
+| Text - Font... | IModelDocExtension::GetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDimensionTextFormat, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceTextFormat (swUserPreferenceTextFormat_e.swDetailingDimensionTextFormat, swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | See ITextFormat for font options | To set font property values, implement ITextFormat, set the appropriate ITextFormat member values, and pass the ITextFormat object in the API set method |
+| Text - Horizontal | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAlignmentHorizontal, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAlignmentHorizontal, swUserPreferenceOption_e.swDetailingRadiusDimension, swTextJustification_e.< Value >) | See swTextJustification_e for valid options |  |
+| Text - Vertical | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAlignmentVertical, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAlignmentVertical, swUserPreferenceOption_e.swDetailingRadiusDimension, swTextAlignmentVertical_e.< Value >) | See swTextAlignmentVertical_e for valid options |  |
+| Dual dimensions - Dual dimensions display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDualDimensions, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingDualDimensions, swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Boolean value | Specifies whether to display dimensions in two kinds of units |
+| Dual dimensions - Show units for dual display | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowDualDimensionUnits, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingShowDualDimensionUnits, swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Boolean value | Specifies whether to display units for dual dimensions; available only on drawings |
+| Dual dimensions - Split when text position is "Solid Leader, Aligned Text" | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSplitWhenTextIsSolidLeaderAligned, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingSplitWhenTextIsSolidLeaderAligned, swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Boolean value | Specifies whether to display dual dimensions above and below dimension lines; valid only if Text position is swDisplayDimensionLeaderText_e .swSolidLeaderAlignedText |
+| Dual dimensions - Dimension position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDualDimPosition, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDualDimPosition, swUserPreferenceOption_e.swDetailingRadiusDimension, swDetailingDualDimPosition_e.< Value >) | See swDetailingDualDimPosition_e for valid options | Positions the display of dimensions in two kinds of units |
+| Primary precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearDimPrecision, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearDimPrecision, swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Number of decimal places to display; 0 through 8 | Specifies primary precision for linear dimension |
+| Primary precision - Tolerance Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearTolPrecision, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingLinearTolPrecision, swUserPreferenceOption_e.swDetailingRadiusDimension, swDimensionPrecisionSettings_e .< Value >) | See swDimensionPrecisionSettings_e for valid options | Specifies primary precision for tolerance |
+| Dual precision - Unit Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearDimPrecision, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearDimPrecision, swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Number of decimal places to display; 0 through 8 | Specifies dual precision for alternate linear dimension |
+| Dual precision - Tolerance Precision | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearTolPrecision, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingAltLinearTolPrecision, swUserPreferenceOption_e.swDetailingRadiusDimension, swDimensionPrecisionSettings_e .< Value >) | See swDimensionPrecisionSettings_e for valid options | Specifies dual precision for alternate linear tolerance |
+| Arrow placement | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingRadialDimsArrowPlacement, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingRadialDimsArrowPlacement, swUserPreferenceOption_e.swDetailingRadiusDimension, swArrowPlacement_e .< Value >) | See swArrowPlacement_e for valid options | Specifies placement of Smart arrows only |
+| Display with solid leader | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingRadialDimsDisplayWithSolidLeader, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e.swDetailingRadialDimsDisplayWithSolidLeader, swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Boolean value | Specifies whether to display radial dimensions with a solid leader |
 | Tolerance... | See Comments | See Comments | See Dimension Tolerance |
-| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer,
-swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | This setting is available only on drawings; depending on drawing, some
-options may not apply |
-| Text position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAndLeaderStyle,
-swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAndLeaderStyle,
-swUserPreferenceOption_e.swDetailingRadiusDimension, swDisplayDimensionLeaderText_e.< Value >) | See swDisplayDimensionLeaderText_e for valid options | Specifies how to display leader |
+| Layer | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceString (swUserPreferenceStringValue_e.swDetailingLayer, swUserPreferenceOption_e.swDetailingRadiusDimension, < Value >) | Valid Options: "Border" "Dimensions" "Notes" "BOM" "FORMAT" | This setting is available only on drawings; depending on drawing, some options may not apply |
+| Text position | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAndLeaderStyle, swUserPreferenceOption_e.swDetailingRadiusDimension) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swDetailingDimensionTextAndLeaderStyle, swUserPreferenceOption_e.swDetailingRadiusDimension, swDisplayDimensionLeaderText_e.< Value >) | See swDisplayDimensionLeaderText_e for valid options | Specifies how to display leader |
 
 Obsolete Enumerators
-
-(Table)=========================================================
 
 | Enumerator | Comment |
 | --- | --- |

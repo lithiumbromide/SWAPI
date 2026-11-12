@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # Face Property (IDomeFeatureData)
 
-Obsolete. Superseded by
-
-[IDomeFeatureData2::Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~Face.html)
-
-.
+Obsolete. Superseded by [IDomeFeatureData2::Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDomeFeatureData2~Face.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.Object^ Face {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DomeFeatureData::Face](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~Face.html)
-
-.
+See [DomeFeatureData::Face](ms-its:sldworksapivb6.chm::/sldworks~DomeFeatureData~Face.html).
 
 ## See Also
 
 [IDomeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData.html)
-
 [IDomeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDomeFeatureData_members.html)

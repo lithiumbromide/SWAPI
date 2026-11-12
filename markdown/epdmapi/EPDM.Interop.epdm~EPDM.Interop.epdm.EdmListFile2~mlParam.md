@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2~mlParam.html"
 
 # mlParam Field
 
-Caller-defined parameter that was passed to the
-
-[IEdmBatchListing::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFile.html)
-
-method.
+Caller-defined parameter that was passed to the [IEdmBatchListing::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFile.html) method.
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int mlParam
 ## See Also
 
 [EdmListFile2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2.html)
-
 [EdmListFile2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile2_members.html)

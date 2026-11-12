@@ -9,8 +9,7 @@ source: "sldworksapi/Undo_Feature_and_Fire_Undo_Post-Notify_Event_Example_VB.htm
 
 # Undo Feature and Fire Undo Post-Notify Event Example (VBA)
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}This
-example shows how to fire an undo post-notification in a part.
+This example shows how to fire an undo post-notification in a part.
 
 ```
 '--------------------------------------------------------------------------

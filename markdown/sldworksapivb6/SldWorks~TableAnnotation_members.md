@@ -1,6 +1,5 @@
 ---
-title: "TableAnnotation Object
-Members"
+title: "TableAnnotation Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TableAnnotation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TableAnnotation_members.html"
 ---
 
-# TableAnnotation Object
-Members
+# TableAnnotation Object Members
 
 ## Public Methods
 

@@ -48,11 +48,7 @@ Outer tolerance value in the lower tier
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositeSurfaceProfileTolerance::OuterToleranceValueLowerTier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeSurfaceProfileTolerance~OuterToleranceValueLowerTier.html)
-
-.
+See [DimXpertCompositeSurfaceProfileTolerance::OuterToleranceValueLowerTier](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeSurfaceProfileTolerance~OuterToleranceValueLowerTier.html).
 
 ## Remarks
 
@@ -61,7 +57,6 @@ The second row of the Geometric Tolerance Properties dialog comes into play for 
 ## See Also
 
 [IDimXpertCompositeSurfaceProfileTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance.html)
-
 [IDimXpertCompositeSurfaceProfileTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeSurfaceProfileTolerance_members.html)
 
 ## Availability

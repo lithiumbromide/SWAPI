@@ -54,29 +54,19 @@ void InsertExtendSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `ExtendLinear`: True to extend surface linearly, false to extend along the same surface
 - `EndCondition`: - 0 - Extend surface by given distance
-- 1 - Extend surface up to a selected point
-- 2 - Extend surface up to a selected surface
+  - 1 - Extend surface up to a selected point
+  - 2 - Extend surface up to a selected surface
 - `Distance`: Distance to extend surface along
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertExtendSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertExtendSurface.html)
-
-.
+See [ModelDoc2::InsertExtendSurface](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertExtendSurface.html).
 
 ## Remarks
 
@@ -87,9 +77,7 @@ The selected point or surface to which to extend should be in the selection list
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ISurfaceExtendFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceExtendFeatureData.html)
 
 ## Availability

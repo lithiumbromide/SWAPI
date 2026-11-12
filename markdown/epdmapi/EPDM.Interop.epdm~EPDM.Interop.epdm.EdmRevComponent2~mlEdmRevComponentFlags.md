@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2~mlEdmRevCo
 
 # mlEdmRevComponentFlags Field
 
-Combination of
-
-[EdmRevComponentFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponentFlags.html)
-
-flags.
+Combination of [EdmRevComponentFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponentFlags.html) flags.
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int mlEdmRevComponentFlags
 ## See Also
 
 [EdmRevComponent2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2.html)
-
 [EdmRevComponent2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRevComponent2_members.html)

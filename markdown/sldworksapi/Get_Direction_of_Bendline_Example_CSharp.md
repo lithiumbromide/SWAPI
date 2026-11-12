@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Direction_of_Bendline_Example_CSharp.htm"
 
 # Get Direction of Bendline Example (C#)
 
-This example shows how to get the direction
-of the selected bendline.
+This example shows how to get the direction of the selected bendline.
 
 ```
 //----------------------------------------------------------

@@ -1,6 +1,5 @@
 ---
-title: "BSurfParamData Object
-Members"
+title: "BSurfParamData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BSurfParamData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BSurfParamData_members.html"
 ---
 
-# BSurfParamData Object
-Members
+# BSurfParamData Object Members
 
 ## Public Methods
 

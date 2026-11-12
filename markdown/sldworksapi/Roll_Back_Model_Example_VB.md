@@ -9,10 +9,7 @@ source: "sldworksapi/Roll_Back_Model_Example_VB.htm"
 
 # Roll Back Model Example (VBA)
 
-This example shows how to step through the FeatureManager design tree
-of a model by rolling back to each feature in reverse sequence. Running
-an example like this can provide insight into the design intent of the
-user.
+This example shows how to step through the FeatureManager design tree of a model by rolling back to each feature in reverse sequence. Running an example like this can provide insight into the design intent of the user.
 
 ```
 '-----------------------------------
@@ -148,7 +145,7 @@ Sub Main()
         If status Then
             timeNow = Timer
             While timeNow + DELAY > Timer
-                ' Allow SOLIDWORKS to refresh screen
+                ' Allow SOLIDWORKS Design to refresh screen
                 DoEvents
             Wend
         End If

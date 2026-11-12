@@ -42,38 +42,23 @@ System.int RestraintEndEdit();
 
 ### Return Value
 
-Error code as defined in
-
-[swsRestraintEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintEndEditError_e.html)
+Error code as defined in [swsRestraintEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWRestraint::RestraintEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~RestraintEndEdit.html)
-
-.
+See [CWRestraint::RestraintEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRestraint~RestraintEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
-examples.
+See the [ICWRestraint](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html) examples.
 
 ## Remarks
 
-You must call
-
-[ICWRestraint::RestraintBeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintBeginEdit.html)
-
-to start editing a restraint. To end editing a restraint, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWRestraint::RestraintBeginEdit](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint~RestraintBeginEdit.html) to start editing a restraint. To end editing a restraint, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWRestraint Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint.html)
-
 [ICWRestraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRestraint_members.html)
 
 ## Availability

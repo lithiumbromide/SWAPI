@@ -40,13 +40,7 @@ System.int GetFrameCount()
 System.int GetFrameCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Number of frames
 
 ## VBA Syntax
 
-See
-
-[PMIGtolData::GetFrameCount](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolData~GetFrameCount.html)
-
-.
+See [PMIGtolData::GetFrameCount](ms-its:sldworksapivb6.chm::/sldworks~PMIGtolData~GetFrameCount.html).
 
 ## Examples
 
-See the
-
-[IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html)
-
-example.
+See the [IAnnotation::GetPMIData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPMIData.html) example.
 
 ## See Also
 
 [IPMIGtolData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData.html)
-
 [IPMIGtolData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIGtolData_members.html)
 
 ## Availability

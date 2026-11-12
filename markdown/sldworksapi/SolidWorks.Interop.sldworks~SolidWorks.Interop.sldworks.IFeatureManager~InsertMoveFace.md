@@ -9,13 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # InsertMoveFace Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::InsertMoveFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoveFace2.html)
-
-and
-
-[IFeatureManager::IInsertMoveFace2 .](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertMoveFace2.html)
+Obsolete. Superseded by [IFeatureManager::InsertMoveFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertMoveFace2.html) and [IFeatureManager::IInsertMoveFace2.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~IInsertMoveFace2.html)
 
 ## Syntax
 
@@ -65,40 +59,26 @@ Feature^ InsertMoveFace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `MoveType`: Type of move:
 
-- 0 = Offset
-- 1 = Translate
-- 2 = Rotate
+  - 0 = Offset
+  - 1 = Translate
+  - 2 = Rotate
 - `ReverseDir`: True to reverse the direction, false to not
 - `Angle`: If MoveType is Rotate, then specify the angle at which to draft the faces
-- `Distance`: DistanceParamDescto offset or translate the faces
+- `Distance`: Distance to offset or translate the faces
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertMoveFace](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMoveFace.html)
-
-.
+See [FeatureManager::InsertMoveFace](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMoveFace.html).
 
 ## Examples
 
@@ -106,7 +86,7 @@ See
 
 ## Remarks
 
-Use the following marks with[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html):
+Use the following marks with [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html):
 
 - 1 = face
 - 2 = direction reference (plane, planar face, linear edge, or reference axis) for translate
@@ -115,9 +95,7 @@ Use the following marks with[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IMoveFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveFaceFeatureData.html)
 
 ## Availability

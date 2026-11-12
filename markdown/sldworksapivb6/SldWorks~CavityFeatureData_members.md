@@ -1,6 +1,5 @@
 ---
-title: "CavityFeatureData Object
-Members"
+title: "CavityFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "CavityFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~CavityFeatureData_members.html"
 ---
 
-# CavityFeatureData Object
-Members
+# CavityFeatureData Object Members
 
 ## Public Methods
 

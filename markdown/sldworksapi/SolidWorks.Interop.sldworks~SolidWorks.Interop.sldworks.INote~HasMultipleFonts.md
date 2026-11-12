@@ -42,13 +42,7 @@ property System.bool HasMultipleFonts {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ True if the note contains multiple fonts, false if not
 
 ## VBA Syntax
 
-See
-
-[Note::HasMultipleFonts](ms-its:sldworksapivb6.chm::/sldworks~Note~HasMultipleFonts.html)
-
-.
+See [Note::HasMultipleFonts](ms-its:sldworksapivb6.chm::/sldworks~Note~HasMultipleFonts.html).
 
 ## Examples
 
@@ -69,13 +59,9 @@ See
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::GetFontInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetFontInfo.html)
-
 [INote::IGetFontInfo Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IGetFontInfo.html)
-
 [INote::GetTextFontAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetTextFontAtIndex.html)
 
 ## Availability

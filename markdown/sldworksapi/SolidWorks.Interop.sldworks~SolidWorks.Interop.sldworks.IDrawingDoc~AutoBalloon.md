@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # AutoBalloon Method (IDrawingDoc)
 
-Obsolete. Superseded by
-
-[IDrawingDoc::AutoBalloon3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~AutoBalloon3.html)
-
-.
+Obsolete. Superseded by [IDrawingDoc::AutoBalloon3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrawingDoc~AutoBalloon3.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ AutoBalloon(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::AutoBalloon](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AutoBalloon.html)
-
-.
+See [DrawingDoc::AutoBalloon](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~AutoBalloon.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)

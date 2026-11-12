@@ -45,13 +45,7 @@ property System.bool RemoveAppearance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to remove appearances, false to not
 
 ## VBA Syntax
 
-See
-
-[DisplayStateSetting::RemoveAppearance](ms-its:sldworksapivb6.chm::/sldworks~DisplayStateSetting~RemoveAppearance.html)
-
-.
+See [DisplayStateSetting::RemoveAppearance](ms-its:sldworksapivb6.chm::/sldworks~DisplayStateSetting~RemoveAppearance.html).
 
 ## See Also
 
 [IDisplayStateSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting.html)
-
 [IDisplayStateSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting_members.html)
 
 ## Availability

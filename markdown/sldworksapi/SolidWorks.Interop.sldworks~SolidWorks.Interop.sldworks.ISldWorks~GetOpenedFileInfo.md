@@ -50,30 +50,16 @@ void GetOpenedFileInfo(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FileName`: Full path and filename of the last model successfully opened by SOLIDWORKS
-- `Options`: Options in effect when FileName opened as defined in
-
-[swOpenDocOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swOpenDocOptions_e.html)
-
-ParamDesc
+- `Options`: Options in effect when FileName opened as defined in [swOpenDocOptions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swOpenDocOptions_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetOpenedFileInfo](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetOpenedFileInfo.html)
-
-.
+See [SldWorks::GetOpenedFileInfo](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetOpenedFileInfo.html).
 
 ## Examples
 
@@ -113,22 +99,16 @@ End Sub
 
 ## Remarks
 
-This method considers only models opened through the SOLIDWORKS user interface. This method does not consider models successfully opened through the API, unless the API opens an assembly. In that case, each assembly component is opened by SOLIDWORKS, and this method determines which of those assembly's components was successfully opened last.
+This method considers only models opened through the SOLIDWORKS Design user interface. This method does not consider models successfully opened through the API, unless the API opens an assembly. In that case, each assembly component is opened by SOLIDWORKS, and this method determines which of those assembly's components was successfully opened last.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetOpenDocument Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetOpenDocument.html)
-
 [ISldWorks::GetOpenDocumentByName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetOpenDocumentByName.html)
-
 [ISldWorks::GetOpenFileName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetOpenFileName.html)
-
 [ISldWorks::IGetOpenDocumentByName2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~IGetOpenDocumentByName2.html)
-
 [ISldWorks::EnumDocuments2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~EnumDocuments2.html)
 
 ## Availability

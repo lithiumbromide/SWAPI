@@ -39,27 +39,15 @@ void OnAddInInput(
 
 ### Parameters
 
-- `lFlags`: Combination of
-
-[EdmCardFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardFlag.html)
-
-bits from a button's add-in (see
-
-Remarks
-
-)
+- `lFlags`: Combination of [EdmCardFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCardFlag.html) bits from a button's add-in (see **Remarks**)
 
 ## Examples
 
-See the
-
-[IEdmCardViewCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html)
-
-examples.
+See the [IEdmCardViewCallback6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html) examples.
 
 ## Remarks
 
-When an add-in's button is clicked in a card view,[IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html)is called. lFlags contains the same data that is returned in ppoData ([EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)::mlLongData1) of IEdmAddIn5::OnCmd.
+When an add-in's button is clicked in a card view, [IEdmAddIn5::OnCmd](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddIn5~OnCmd.html) is called. lFlags contains the same data that is returned in ppoData ([EdmCmdData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdData.html)::mlLongData1) of IEdmAddIn5::OnCmd.
 
 This method allows you to act on the information provided by the button's add-in.
 
@@ -71,7 +59,6 @@ This method allows you to act on the information provided by the button's add-in
 ## See Also
 
 [IEdmCardViewCallback6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6.html)
-
 [IEdmCardViewCallback6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6_members.html)
 
 ## Availability

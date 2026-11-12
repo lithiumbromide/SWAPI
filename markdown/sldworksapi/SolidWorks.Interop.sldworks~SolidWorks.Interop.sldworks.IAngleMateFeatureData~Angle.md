@@ -45,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,21 @@ Angle in radians
 
 ## VBA Syntax
 
-See
-
-[AngleMateFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~AngleMateFeatureData~Angle.html)
-
-.
+See [AngleMateFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~AngleMateFeatureData~Angle.html).
 
 ## Examples
 
-See the
-
-[IAngleMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html)
-
-examples.
+See the [IAngleMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html) examples.
 
 ## Remarks
 
-If
-
-[IAngleMateFeatureData::IsAdvancedMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData~IsAdvancedMate.html)
-
-is true, then this property specifies the starting angle of this mate.
+If [IAngleMateFeatureData::IsAdvancedMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData~IsAdvancedMate.html) is true, then this property specifies the starting angle of this mate.
 
 ## See Also
 
 [IAngleMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html)
-
 [IAngleMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData_members.html)
-
 [IAngleMateFeatureData::MinimumAngle Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData~MinimumAngle.html)
-
 [IAngleMateFeatureData::MaximumAngle Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData~MaximumAngle.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "IChainPatternFeatureData Object
-Members"
+title: "IChainPatternFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IChainPatternFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IChainPatternFeatureData_members.html"
 ---
 
-# IChainPatternFeatureData Object
-Members
+# IChainPatternFeatureData Object Members
 
 ## Public Methods
 

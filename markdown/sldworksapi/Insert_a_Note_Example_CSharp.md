@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_a_Note_Example_CSharp.htm"
 
 # Insert a Note Example (C#)
 
-This example shows show to insert a geometric tolerance
-symbol in an active drawing document.
+This example shows show to insert a geometric tolerance symbol in an active drawing document.
 
 ```vb
  //----------------------------------------------------------------------------
@@ -24,46 +23,16 @@ symbol in an active drawing document.
  //----------------------------------------------------------------------------
 ```
 
-using
-
-Microsoft.VisualBasic;
-
-using
-
-System;
-
-using
-
-System.Collections;
-
-using
-
-System.Collections.Generic;
-
-using
-
-System.Data;
-
-using
-
-System.Diagnostics;
-
-using
-
-SolidWorks.Interop.sldworks;
-
-using
-
-SolidWorks.Interop.swconst;
-
-using
-
-System.Runtime.InteropServices;
-
-namespace
-
-SetPosition2_CSharp.csproj
-
+using Microsoft.VisualBasic;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Data;
+using System.Diagnostics;
+using SolidWorks.Interop.sldworks;
+using SolidWorks.Interop.swconst;
+using System.Runtime.InteropServices;
+namespace SetPosition2_CSharp.csproj
 {
 
 ```vb

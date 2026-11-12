@@ -40,7 +40,6 @@ True if this file is in a private state, false if not
 ## Examples
 
 [Add Files to Vault (VB.NET)](Add_Files_to_Vault_Example_VBNET.htm)
-
 [Add Files to Vault (C#)](Add_Files_to_Vault_Example_CSharp.htm)
 
 ## Remarks
@@ -53,7 +52,6 @@ Files in a private state:
 ## See Also
 
 [IEdmFile11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile11.html)
-
 [IEdmFile11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile11_members.html)
 
 ## Availability

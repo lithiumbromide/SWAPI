@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # GetDetailCircleCount Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetDetailCircleCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDetailCircleCount2.html)
-
-.
+Obsolete. Superseded by [IView::GetDetailCircleCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDetailCircleCount2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetDetailCircleCount()
 System.int GetDetailCircleCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::GetDetailCircleCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetDetailCircleCount.html)
-
-.
+See [View::GetDetailCircleCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetDetailCircleCount.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

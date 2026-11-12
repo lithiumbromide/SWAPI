@@ -40,13 +40,7 @@ System.int GetPiecesToKeepCount()
 System.int GetPiecesToKeepCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,32 +48,21 @@ Number of pieces to keep
 
 ## VBA Syntax
 
-See
-
-[SurfaceTrimFeatureData::GetPiecesToKeepCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceTrimFeatureData~GetPiecesToKeepCount.html)
-
-.
+See [SurfaceTrimFeatureData::GetPiecesToKeepCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceTrimFeatureData~GetPiecesToKeepCount.html).
 
 ## Examples
 
-See the
-
-[ISurfaceTrimFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData.html)
-
-examples.
+See the [ISurfaceTrimFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData.html) examples.
 
 ## Remarks
 
-Call this method before calling[ISurfaceTrimFeatureData::IGetPiecesToKeep](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceTrimFeatureData~IGetPiecesToKeep.html)to get the size of the array for that method.
+Call this method before calling [ISurfaceTrimFeatureData::IGetPiecesToKeep](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfaceTrimFeatureData~IGetPiecesToKeep.html) to get the size of the array for that method.
 
 ## See Also
 
 [ISurfaceTrimFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData.html)
-
 [ISurfaceTrimFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData_members.html)
-
 [ISurfaceTrimFeatureData::ISetPiecesToKeep Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData~ISetPiecesToKeep.html)
-
 [ISurfaceTrimFeatureData::PiecesToKeep Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceTrimFeatureData~PiecesToKeep.html)
 
 ## Availability

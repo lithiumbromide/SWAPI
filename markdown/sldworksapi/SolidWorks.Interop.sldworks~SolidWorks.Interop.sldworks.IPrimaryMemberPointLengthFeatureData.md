@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 Allows access to a structure system member originating at a point and extending to a specified end condition.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class IPrimaryMemberPointLengthFeatureData
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPointLengthFeatureData](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData.html)
-
-.
+See [PrimaryMemberPointLengthFeatureData](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPointLengthFeatureData.html).
 
 ## Examples
 
@@ -58,12 +54,12 @@ See
 '3. Press F5.
 '
 'Postconditions:
-' 1. Creates**Sketch1**,**Sketch2**, and**Sketch3**in a new part.
+' 1. Creates **Sketch1**, **Sketch2**, and **Sketch3** in a new part.
 ' 2. Configures the start/end extensions and the member profile.
 ' 3. Configures the length end condition for the structure members.
 ' 4. Selects three sketch points.
 ' 5. Specifies the length.
-' 6. Creates a**Structure System1**with three structure system point length members.
+' 6. Creates a **Structure System1** with three structure system point length members.
 ' 7. Inspect the structure system in the graphics area.
 ' 8. Press F5 to edit the structure system.
 ' 9. Gets one structure system member..
@@ -140,23 +136,23 @@ Set structMemDef = modDocExt.**CreateStructureSystemMemberData**(2)
 
 Debug.Print "Type of structure system member as defined by swStructureSystemMemberType_e: " & structMemDef.**StructureSystemMemberType**
 
-structMemDef.**StartEndExtendD1**= 1#
+structMemDef.**StartEndExtendD1** = 1#
 Debug.Print "Extend length in direction 1: " & structMemDef.**StartEndExtendD1**
-structMemDef.**StartEndExtendD2**= 2#
+structMemDef.**StartEndExtendD2** = 2#
 Debug.Print "Extend length in direction 2: " & structMemDef.**StartEndExtendD2**
 
 Set profDef = structMemDef.**MemberProfile**
 
-profDef.**ProfileStandard**= "ansi inch"
-profDef.**ProfileType**= "c channel"
-profDef.**ProfileSize**= "3 x 5"
+profDef.**ProfileStandard** = "ansi inch"
+profDef.**ProfileType** = "c channel"
+profDef.**ProfileSize** = "3 x 5"
 
 Set PrimDef = structMemDef
 Debug.Print "Structure system primary member creation type as defined by swStructureSystemMemberCreationType_e: " & PrimDef.**PrimaryMemberType**; ""
 
 Set memPointLengthDef = PrimDef
 
-memPointLengthDef.**EndCondition**= 0
+memPointLengthDef.**EndCondition** = 0
 
 'Set three points that define three structure system point length members
 stat = modDocExt.SelectByID2("Point1@Sketch3", "EXTSKETCHPOINT", -0.020877, 0.010539, 0, False, 0, Nothing, 0)
@@ -171,8 +167,8 @@ stat = memPointLengthDef.**SetPoints**(startPoints)
 Debug.Print "Start points set successfully: " & stat
 
 'Set the length for each member
-memPointLengthDef.**Length**= 5
-memPointLengthDef.**ReverseDirection**= False
+memPointLengthDef.**Length** = 5
+memPointLengthDef.**ReverseDirection** = False
 
 Set memData(0) = structMemDef
 
@@ -210,11 +206,11 @@ End If
 Set memTochange = MemberData
 
 Debug.Print "Change member length and extensions in directions 1 and 2 for one member only"
-memTochange.**StartEndExtendD1**= 0.1
-memTochange.**StartEndExtendD2**= 0.1
+memTochange.**StartEndExtendD1** = 0.1
+memTochange.**StartEndExtendD2** = 0.1
 
 Set pointLengthMember = MemberData
-pointLengthMember.**Length**= 1
+pointLengthMember.**Length** = 1
 
 'Save edits
 Set memberFeat = memTochange.**GetFeature**()
@@ -225,26 +221,17 @@ End Sub
 ## Examples
 
 [Create Point Length Structure System Member (VB.NET)](Create_Point_Length_SSMember_Example_VBNET.htm)
-
 [Create Point Length Structure System Member (C#)](Create_Point_Length_SSMember_Example_CSharp.htm)
 
 ## Remarks
 
-See the[IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html)Remarks.
+See the [IStructureSystemFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemFolder.html) Remarks.
 
-For more information, see the**SOLIDWORKS user-interface help > Weldments and Structure System > Structure System > PrimaryMember PropertyManager**topic.
+For more information, see the **SOLIDWORKS Design user-interface help > Weldments and Structure System > Structure System > PrimaryMember PropertyManager** topic.
 
 ## Accessors
 
-Cast
-
-[IPrimaryStructuralMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryStructuralMemberFeatureData.html)
-
-or
-
-[IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html)
-
-to this interface.
+Cast [IPrimaryStructuralMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryStructuralMemberFeatureData.html) or [IStructureSystemMemberFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberFeatureData.html) to this interface.
 
 ## Access Diagram
 
@@ -253,5 +240,4 @@ to this interface.
 ## See Also
 
 [IPrimaryMemberPointLengthFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPointLengthFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

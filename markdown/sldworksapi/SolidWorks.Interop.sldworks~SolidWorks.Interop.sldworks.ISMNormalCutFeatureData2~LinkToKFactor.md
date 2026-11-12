@@ -45,13 +45,7 @@ property System.bool LinkToKFactor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,23 @@ True to link to a K-Factor, false to not
 
 ## VBA Syntax
 
-See
-
-[SMNormalCutFeatureData2::LinkToKFactor](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~LinkToKFactor.html)
-
-.
+See [SMNormalCutFeatureData2::LinkToKFactor](ms-its:sldworksapivb6.chm::/sldworks~SMNormalCutFeatureData2~LinkToKFactor.html).
 
 ## Remarks
 
 This property is valid only if:
 
-- [ISMNormalCutFeatureData2::NormalCutParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~NormalCutParameters.html)
-
-  is set to
-
-  [swNormalCutParameters_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNormalCutParameters_e.html)
-
-  .swNormalCutOffsetPlane
+- [ISMNormalCutFeatureData2::NormalCutParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~NormalCutParameters.html) is set to [swNormalCutParameters_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swNormalCutParameters_e.html).swNormalCutOffsetPlane
 
 - and -
 
-- [ISMNormalCutFeatureData2::OffsetPlaneReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~OffsetPlaneReference.html)
+- [ISMNormalCutFeatureData2::OffsetPlaneReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~OffsetPlaneReference.html) is set.
 
-  is set.
-
-If this property is set to true, then[ISMNormalCutFeatureData2::LayerAdjustmentValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~LayerAdjustmentValue.html)is automatically set to 0.5.
+If this property is set to true, then [ISMNormalCutFeatureData2::LayerAdjustmentValue](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2~LayerAdjustmentValue.html) is automatically set to 0.5.
 
 ## See Also
 
 [ISMNormalCutFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2.html)
-
 [ISMNormalCutFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMNormalCutFeatureData2_members.html)
 
 ## Availability

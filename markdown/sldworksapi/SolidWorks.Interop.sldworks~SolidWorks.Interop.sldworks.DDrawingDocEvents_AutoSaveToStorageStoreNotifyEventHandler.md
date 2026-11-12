@@ -37,29 +37,15 @@ public delegate System.int DDrawingDocEvents_AutoSaveToStorageStoreNotifyEventHa
 public delegate System.int DDrawingDocEvents_AutoSaveToStorageStoreNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[AutoSaveToStorageStoreNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~AutoSaveToStorageStoreNotify_EV.html)
-
-.
+See [AutoSaveToStorageStoreNotify Event (DrawingDoc)](ms-its:sldworksapivb6.chm::/SldWorks~DrawingDoc~AutoSaveToStorageStoreNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swDrawingAutoSaveToStorageStoreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swDrawingAutoSaveToStorageStoreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDrawingNotify_e.html) to register for this notification.
 
 ## Availability
 

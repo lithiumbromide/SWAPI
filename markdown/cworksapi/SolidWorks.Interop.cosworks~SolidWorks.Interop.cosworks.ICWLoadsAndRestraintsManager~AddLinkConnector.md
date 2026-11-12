@@ -59,9 +59,7 @@ CWLinkConnector^ AddLinkConnector(
 
 - `VertexPointforFirstLocation`: Vertex for first location
 - `VertexPointforSecondLocation`: Vertex for second location
-- `ErrorCode`: Error as defined in
-
-[swsLinkConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinkConnectorError_e.html)
+- `ErrorCode`: Error as defined in [swsLinkConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsLinkConnectorError_e.html)
 
 ### Return Value
 
@@ -69,24 +67,15 @@ CWLinkConnector^ AddLinkConnector(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddLinkConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddLinkConnector.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddLinkConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddLinkConnector.html).
 
 ## Examples
 
-See the
-
-[ICWLinkConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector.html)
-
-examples.
+See the [ICWLinkConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkConnector.html) examples.
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

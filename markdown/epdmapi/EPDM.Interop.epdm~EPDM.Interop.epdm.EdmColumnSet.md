@@ -37,25 +37,13 @@ public value class EdmColumnSet : public System.ValueType
 struct EdmColumnSet
 
 {
-
-string
-
-[mbsColumnSetName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet~mbsColumnSetName.html)
-
-;
-
-integer
-
-[mlColumnSetID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet~mlColumnSetID.html)
-
-;
-
+string [mbsColumnSetName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet~mbsColumnSetName.html);
+integer [mlColumnSetID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet~mlColumnSetID.html);
 };
 
 ## See Also
 
 [EdmColumnSet Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmColumnSet_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

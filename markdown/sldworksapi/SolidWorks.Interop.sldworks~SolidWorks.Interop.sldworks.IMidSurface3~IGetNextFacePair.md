@@ -51,53 +51,35 @@ Face2^ IGetNextFacePair(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Thickness`: Distance between theses two parallel faces
-- `PartnerFaceDisp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-on the original part body used in generating the neutral face
+- `PartnerFaceDisp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) on the original part body used in generating the neutral face
 
 ### Return Value
 
-[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-on the original part body used in generating the neutral face
+[Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) on the original part body used in generating the neutral face
 
 ## VBA Syntax
 
-See
-
-[MidSurface3::IGetNextFacePair](ms-its:sldworksapivb6.chm::/sldworks~MidSurface3~IGetNextFacePair.html)
-
-.
+See [MidSurface3::IGetNextFacePair](ms-its:sldworksapivb6.chm::/sldworks~MidSurface3~IGetNextFacePair.html).
 
 ## Remarks
 
 The two faces returned are the two parallel faces from the original part body that were used to generate the neutral face in this midsurface feature.
 
-Call[IMidSurface3::IGetFirstFacePair](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3~IGetFirstFacePair.html)to get the first pair of faces used in this midsurface feature.
+Call [IMidSurface3::IGetFirstFacePair](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3~IGetFirstFacePair.html) to get the first pair of faces used in this midsurface feature.
 
-This method is similar to[IMidSurface3::IGetNextFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3~IGetNextFace.html), except this method does not return the neutral face.
+This method is similar to [IMidSurface3::IGetNextFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface3~IGetNextFace.html), except this method does not return the neutral face.
 
 ## See Also
 
 [IMidSurface3 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3.html)
-
 [IMidSurface3 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3_members.html)
-
 [IMidSurface3::GetFacePairCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3~GetFacePairCount.html)
-
 [IMidSurface3::GetFirstFacePair Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3~GetFirstFacePair.html)
-
 [IMidSurface3::GetNextFacePair Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface3~GetNextFacePair.html)
 
 ## Availability

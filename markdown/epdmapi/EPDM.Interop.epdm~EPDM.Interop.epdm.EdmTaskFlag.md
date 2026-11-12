@@ -9,19 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskFlag.html"
 
 # EdmTaskFlag Enumeration
 
-Task add-in flags used in
-
-[IEdmTaskProperties::TaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags.html)
-
-and
-
-[EdmTaskInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Task add-in flags used in [IEdmTaskProperties::TaskFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTaskProperties~TaskFlags.html) and [EdmTaskInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskInfo.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 
@@ -62,5 +50,4 @@ The flags indicate what a task add-in is capable of doing.
 ## See Also
 
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Programming Tasks](Tasks.htm)

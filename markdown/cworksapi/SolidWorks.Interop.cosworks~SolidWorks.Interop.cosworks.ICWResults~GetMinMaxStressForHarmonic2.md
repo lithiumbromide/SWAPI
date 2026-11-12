@@ -73,40 +73,29 @@ System.Object^ GetMinMaxStressForHarmonic2(
 
 ### Parameters
 
-- `NComponent`: Stress component as defined in
-
-[swsStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStressComponent_e.html)
+- `NComponent`: Stress component as defined in [swsStressComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStressComponent_e.html)
 - `BByElementNumber`: -1 or true to obtain element stress values, 0 or false to obtain nodal stress values
 - `BAvgOnBoundary`: -1 or true to activate averaging of nodal stress results across common part boundaries, 0 or false to deactivate averaging; valid only if BByElementNumber = 0
 - `NStepNum`: Solution step number (use 1 for static)
 - `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if reference geometry does not exist
-- `NUnits`: Units as defined in
-
-[swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Units as defined in [swsStrengthUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStrengthUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
-Array (see
-
-Remarks
-
-)
+Array (see **Remarks**)
 
 ## Remarks
 
 This method returns the following array:
 
-{`node/element_with_minimum_stress`,`minimum_stress`,`node/element_with_maximum_stress`,`maximum_stress`},
+{`node/element_with_minimum_stress`, `minimum_stress`, `node/element_with_maximum_stress`, `maximum_stress`},
 
 where the nodes or elements are integer indexes, and the stresses are in scientific notation.
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

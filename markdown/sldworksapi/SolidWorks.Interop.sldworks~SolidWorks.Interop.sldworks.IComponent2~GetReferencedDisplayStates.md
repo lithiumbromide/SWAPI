@@ -51,19 +51,11 @@ System.Object^ GetReferencedDisplayStates(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `AssemblyDisplayStateOption`: Display state option as defined in
-
-[swDisplayStateOpts_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDisplayStateOpts_e.html)
+- `AssemblyDisplayStateOption`: Display state option as defined in [swDisplayStateOpts_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDisplayStateOpts_e.html)
 - `AssemblyDisplayStateNames`: Array of assembly display state names; valid only if AssemblyDisplayStateOption is set to swDisplayStateOpts_e.swSpecifyDisplayState
 
 ### Return Value
@@ -72,20 +64,13 @@ Array of referenced display state names
 
 ## VBA Syntax
 
-See
-
-[Component2::GetReferencedDisplayStates](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetReferencedDisplayStates.html)
-
-.
+See [Component2::GetReferencedDisplayStates](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetReferencedDisplayStates.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::SetReferencedDisplayStates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~SetReferencedDisplayStates.html)
-
 [IComponent2::GetVisibilityInAsmDisplayStates Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetVisibilityInAsmDisplayStates.html)
 
 ## Availability

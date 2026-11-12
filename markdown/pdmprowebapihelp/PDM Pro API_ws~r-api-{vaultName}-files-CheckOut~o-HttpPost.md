@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Post | api/{vaultName}/files/CheckOut |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > File Resource Group : api/{vaultName}/files/CheckOut (Post) |
 | --- |
@@ -121,11 +117,7 @@ Response (application/xml, text/xml)
 
 Example
 
-[Check Out Files in PDM Vault.postman_collection.json](Check%20Out%20Files%20in%20PDM%20Vault.postman_collection.json)
-
-|
-
-[Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
+[Check Out Files in PDM Vault.postman_collection.json](Check%20Out%20Files%20in%20PDM%20Vault.postman_collection.json) | [Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
 
 Remarks
 
@@ -133,8 +125,4 @@ This operation returns the file ID, IsSuccess, and Warning.
 
 See Also
 
-[File Resource Group](PDM%20Pro%20API_ws~g-0e45981b-3619-4486-b05d-cc362f26dd7c.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[File Resource Group](PDM%20Pro%20API_ws~g-0e45981b-3619-4486-b05d-cc362f26dd7c.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDr
 
 # IDraftFeatureData Interface
 
-Obsolete. Superseded by
+Obsolete. Superseded by [IDraftFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2.html).
 
-[IDraftFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDraftFeatureData2.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,14 +41,9 @@ public interface class IDraftFeatureData
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData.html)
-
-.
+See [DraftFeatureData](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData.html).
 
 ## See Also
 
 [IDraftFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

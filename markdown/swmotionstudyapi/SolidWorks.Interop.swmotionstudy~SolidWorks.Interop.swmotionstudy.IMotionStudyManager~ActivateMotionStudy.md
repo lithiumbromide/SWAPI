@@ -57,11 +57,7 @@ True if the specified study is activated, false if not
 
 ## VBA Syntax
 
-See
-
-[MotionStudyManager::ActivateMotionStudy](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyManager~ActivateMotionStudy.html)
-
-.
+See [MotionStudyManager::ActivateMotionStudy](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~MotionStudyManager~ActivateMotionStudy.html).
 
 ## Examples
 
@@ -69,20 +65,15 @@ See
 
 ## Remarks
 
-To get the names of the available studies, you can call[IMotionStudyManager::GetMotionStudyNames](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudyNames.html)or[IMotionStudyManager::IGetMotionStudyNames](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudyManager~IGetMotionStudyNames.html). The names of motion studies also appear on the MotionManager tabs.
+To get the names of the available studies, you can call [IMotionStudyManager::GetMotionStudyNames](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudyNames.html) or [IMotionStudyManager::IGetMotionStudyNames](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudyManager~IGetMotionStudyNames.html). The names of motion studies also appear on the MotionManager tabs.
 
 ## See Also
 
 [IMotionStudyManager Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager.html)
-
 [IMotionStudyManager Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager_members.html)
-
 [IMotionStudyManager::CreateMotionStudy Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~CreateMotionStudy.html)
-
 [IMotionStudyManager::DeleteMotionStudy Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~DeleteMotionStudy.html)
-
 [IMotionStudyManager::GetMotionStudy Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudy.html)
-
 [IMotionStudyManager::GetMotionStudyCount Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IMotionStudyManager~GetMotionStudyCount.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.String^ Caption {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ Button text
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageButton::Caption](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageButton~Caption.html)
-
-.
+See [PropertyManagerPageButton::Caption](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageButton~Caption.html).
 
 ## See Also
 
 [IPropertyManagerPageButton Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageButton.html)
-
 [IPropertyManagerPageButton Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageButton_members.html)
 
 ## Availability

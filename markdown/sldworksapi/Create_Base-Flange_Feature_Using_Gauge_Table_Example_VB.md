@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Base-Flange_Feature_Using_Gauge_Table_Example_VB.htm
 
 # Create Base-Flange Feature Using Gauge Table Example (VBA)
 
-This examples shows how to create a sheet metal part with a base-flange feature using a gauge
-table.
+This examples shows how to create a sheet metal part with a base-flange feature using a gauge table.
 
 ```
 '-----------------------------------------------------------------

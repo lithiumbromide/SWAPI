@@ -45,30 +45,19 @@ property System.short FacePropagation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Face propagation type as defined in[swDraftFacePropagationType](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDraftFacePropagationType_e.html)
+Face propagation type as defined in [swDraftFacePropagationType](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDraftFacePropagationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData2::FacePropagation](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~FacePropagation.html)
-
-.
+See [DraftFeatureData2::FacePropagation](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~FacePropagation.html).
 
 ## See Also
 
 [IDraftFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2.html)
-
 [IDraftFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2_members.html)
 
 ## Availability

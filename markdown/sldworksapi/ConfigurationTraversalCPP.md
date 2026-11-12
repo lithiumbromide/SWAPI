@@ -11,16 +11,14 @@ source: "sldworksapi/ConfigurationTraversalCPP.htm"
 
 This example shows how to:
 
-- get the names of the configurations in the
-  active model.
+- get the names of the configurations in the active model.
 - pass a Variant to IModelDoc2::GetConfigurationNames.
-- use the ISafeArrayUtility interface
-  to get the names of the configurations.
+- use the ISafeArrayUtility interface to get the names of the configurations.
 
 ```
 //-------------------------------------------------------
 // Preconditions:
-// 1. Start up SOLIDWORKS and open a part or assembly document.
+// 1. Start up SOLIDWORKS Design and open a part or assembly document.
 // 2. Start Microsoft Visual Studio 2019 or later.
 //    a. Click File > New > Project > (C++ Windows) Console App.
 //    b. Click Next.

@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Independent_Viewport_for_MBD_3D_PDF_Example_VBNET.htm"
 
 # Set Independent Viewport for MBD 3D PDF Example (VB.NET)
 
-This example shows how to set a view for an independent viewport for a SOLIDWORKS MBD 3D
-PDF.
+This example shows how to set a view for an independent viewport for a SOLIDWORKS MBD 3D PDF.
 
 ```
 '--------------------------------------------------------------
@@ -18,7 +17,7 @@ PDF.
 ' 1. Open an assembly.
 ' 2. Copy install_dir\data\themes\simple assembly (letter, landscape) to
 '    C:\test\simple assembly (letter, landscape).
-' 3. In SOLIDWORKS, click the SOLIDWORKS MBD toolbar > 3D PDF Template Editor.
+' 3. In SOLIDWORKS Design, click the SOLIDWORKS MBD toolbar > 3D PDF Template Editor.
 '    a. Click Independent Viewport.
 '    b. Click Save As.
 '    c. Ensure that Theme Directory is C:\test\simple assembly (letter, landscape).

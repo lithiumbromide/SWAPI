@@ -11,29 +11,116 @@ source: "sldworksapi/Insert_and_Use_Plane_with_Manipulator_Example_CSharp.htm"
 
 This example shows how to insert a plane with a manipulator.
 
-//-------------------------------------------------------------- // Preconditions: // 1. In the IDE: // a. Click Project > Add Reference > SolidWorks.Interop.swpublished // on the .NET tab. // b. Click Project > Add Reference > Microsoft.VisualBasic // on the .NET tab. // c. Copy the code in SolidWorksMacro.cs to your project // and create a class and copy the code in Class1.cs // to that class. // d. Open the Immediate window. // 2. Verify that the specified part exists. // // Postconditions: // 1. Opens the part. // 2. Displays a plane with manipulator. // 3. Gets the distance, angles, height, and width of the plane. // 4. Examine the Immediate window. // 5. Hold down the left-mouse button and drag the // plane up and down using the manipulator, which calls the // handler. Gets the handle index at each drag. // 6. Click an edge of the plane and hold down the left-mouse button // and rotate the plane, which calls the handler. Gets
-the handle // index at each rotation. // 7. Examine the Immediate window. // // NOTE: Because the part document is used elsewhere, do not // save changes. //---------------------------------------------------------------
+//--------------------------------------------------------------
+// Preconditions:
+// 1. In the IDE:
+// a. Click **Project > Add Reference > SolidWorks.Interop.swpublished**
+// on the .NET tab.
+// b. Click **Project > Add Reference > Microsoft.VisualBasic**
+// on the .NET tab.
+// c. Copy the code in [SolidWorksMacro.cs](#solidworksmacro.cs) to your project
+// and create a class and copy the code in [Class1.cs](#class1.cs)
+// to that class.
+// d. Open the Immediate window.
+// 2. Verify that the specified part exists.
+//
+// Postconditions:
+// 1. Opens the part.
+// 2. Displays a plane with manipulator.
+// 3. Gets the distance, angles, height, and width of the plane.
+// 4. Examine the Immediate window.
+// 5. Hold down the left-mouse button and drag the
+// plane up and down using the manipulator, which calls the
+// handler. Gets the handle index at each drag.
+// 6. Click an edge of the plane and hold down the left-mouse button
+// and rotate the plane, which calls the handler. Gets the handle
+// index at each rotation.
+// 7. Examine the Immediate window.
+//
+// NOTE: Because the part document is used elsewhere, do not
+// save changes.
+//---------------------------------------------------------------
 
 // SolidWorksMacro.cs
 
-using SolidWorks.Interop.sldworks; using SolidWorks.Interop.swconst; using System; using System.Diagnostics; using SolidWorks.Interop.swpublished; using Microsoft.VisualBasic; namespace PlaneManipulatorCSharp.csproj { partial class SolidWorksMacro { public Class1
-swHdlr; public Manipulator
-swManipulator; public PlaneManipulator swPlaneManipulator; public void Main() { ModelDoc2 swModelDoc = default (ModelDoc2); ModelViewManager swModelViewMgr = default (ModelViewManager); string fileName
-= null ; int errors = 0; int warnings =
-0; swHdlr = new Class1(); fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS
-2018\\samples\\tutorial\\fillets\\knob.sldprt" ; swModelDoc = (ModelDoc2)swApp. OpenDoc6 (fileName, ( int )swDocumentTypes_e.swDocPART,
-( int )swOpenDocOptions_e.swOpenDocOptions_Silent, "" , ref errors, ref warnings); // Create the plane with a manipulator swModelViewMgr = (ModelViewManager)swModelDoc. ModelViewManager ; swManipulator = (Manipulator)swModelViewMgr. CreateManipulator (( int )swManipulatorType_e.swPlaneManipulator,
-swHdlr); swPlaneManipulator = (PlaneManipulator)swManipulator. GetSpecificManipulator (); // Set the distance of plane swPlaneManipulator. Distance =
-0.04; Debug .Print( "Distance
-= " + swPlaneManipulator. Distance ); //Set the angles of plane swPlaneManipulator. XAngle = 2 *
-PiVal() / 180; Debug .Print( "X
-= " + swPlaneManipulator. XAngle ); swPlaneManipulator. YAngle = 10 * PiVal() / 180; Debug .Print( "Y
-= " + swPlaneManipulator. YAngle ); // Set the height and width of plane swPlaneManipulator. Height = 0.1; Debug .Print( "Height
-= " + swPlaneManipulator. Height ); swPlaneManipulator. Width = 0.075; Debug .Print( "Width
-= " + swPlaneManipulator. Width ); // Set the color of plane to red swPlaneManipulator. Color =
-Information.RGB(255, 0, 0); // Update the plane's properties swPlaneManipulator. Update (); // Show the plane with the manipulator swManipulator. Show (swModelDoc); } public double PiVal() { // Set PI return 4 * System. Math .Atan(1); } /// <summary> /// The SldWorks swApp variable is pre-assigned for you. /// </summary> publicSldWorks swApp; } }
+using SolidWorks.Interop.sldworks;
+using SolidWorks.Interop.swconst;
+using System;
+using System.Diagnostics;
+using SolidWorks.Interop.swpublished;
+using Microsoft.VisualBasic;
 
-Back to top
+namespace PlaneManipulatorCSharp.csproj
+{
+partial class SolidWorksMacro
+{
+public Class1 swHdlr;
+public Manipulator swManipulator;
+public PlaneManipulator swPlaneManipulator;
+
+public void Main()
+{
+ModelDoc2 swModelDoc = default(ModelDoc2);
+ModelViewManager swModelViewMgr = default(ModelViewManager);
+
+string fileName = null;
+int errors = 0;
+int warnings = 0;
+
+swHdlr = new Class1();
+
+fileName = "C:\\Users\\Public\\Documents\\SOLIDWORKS\\SOLIDWORKS 2018\\samples\\tutorial\\fillets\\knob.sldprt";
+swModelDoc = (ModelDoc2)swApp.**OpenDoc6**(fileName, (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref warnings);
+
+// Create the plane with a manipulator
+swModelViewMgr = (ModelViewManager)swModelDoc.**ModelViewManager**;
+swManipulator = (Manipulator)swModelViewMgr.**CreateManipulator**((int)swManipulatorType_e.swPlaneManipulator, swHdlr);
+swPlaneManipulator = (PlaneManipulator)swManipulator.**GetSpecificManipulator**();
+
+// Set the distance of plane
+swPlaneManipulator.**Distance** = 0.04;
+Debug.Print("Distance = " + swPlaneManipulator.**Distance**);
+
+//Set the angles of plane
+swPlaneManipulator.**XAngle** = 2 * PiVal() / 180;
+Debug.Print("X = " + swPlaneManipulator.**XAngle**);
+
+swPlaneManipulator.**YAngle** = 10 * PiVal() / 180;
+Debug.Print("Y = " + swPlaneManipulator.**YAngle**);
+
+// Set the height and width of plane
+swPlaneManipulator.**Height** = 0.1;
+Debug.Print("Height = " + swPlaneManipulator.**Height**);
+
+swPlaneManipulator.**Width** = 0.075;
+Debug.Print("Width = " + swPlaneManipulator.**Width**);
+
+// Set the color of plane to red
+swPlaneManipulator.**Color** = Information.RGB(255, 0, 0);
+
+// Update the plane's properties
+swPlaneManipulator.**Update**();
+
+// Show the plane with the manipulator
+swManipulator.**Show**(swModelDoc);
+
+}
+
+public double PiVal()
+{
+// Set PI
+return 4 * System.Math.Atan(1);
+}
+
+/// <summary>
+/// The SldWorks swApp variable is pre-assigned for you.
+/// </summary>
+
+public SldWorks swApp;
+}
+}
+
+[Back to top](#top)
 
 //Class1.cs
 
@@ -183,4 +270,4 @@ using SolidWorks.Interop.sldworks;
  }
 ```
 
-Back to top
+[Back to top](#top)

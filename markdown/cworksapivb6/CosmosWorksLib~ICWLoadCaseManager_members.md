@@ -1,6 +1,5 @@
 ---
-title: "ICWLoadCaseManager Object
-Members"
+title: "ICWLoadCaseManager Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWLoadCaseManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWLoadCaseManager_members.html"
 ---
 
-# ICWLoadCaseManager Object
-Members
+# ICWLoadCaseManager Object Members
 
 ## Public Methods
 

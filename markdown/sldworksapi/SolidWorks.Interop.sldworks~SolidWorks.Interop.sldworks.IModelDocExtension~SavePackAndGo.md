@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # SavePackAndGo Method (IModelDocExtension)
 
-Saves the files designated for
-
-[Pack and Go](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo.html)
-
-to either a folder or Zip file.
+Saves the files designated for [Pack and Go](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo.html) to either a folder or Zip file.
 
 ## Syntax
 
@@ -51,46 +47,27 @@ System.Object^ SavePackAndGo(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PackAndGo`: [Pack and Go](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo.html)
-
-object
+- `PackAndGo`: [Pack and Go](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPackAndGo.html) object
 
 ### Return Value
 
-Array of the status codes of Pack and Go as defined in
-
-[swPackAndGoSaveStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPackAndGoSaveStatus_e.html)
+Array of the status codes of Pack and Go as defined in [swPackAndGoSaveStatus_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPackAndGoSaveStatus_e.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SavePackAndGo](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SavePackAndGo.html)
-
-.
+See [ModelDocExtension::SavePackAndGo](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SavePackAndGo.html).
 
 ## Examples
 
 [Pack and Go an Assembly (C#)](Pack_and_Go_an_Assembly_Example_CSharp.htm)
-
 [Pack and Go an Assembly (VB.NET)](Pack_and_Go_an_Assembly_Example_VBNET.htm)
-
 [Pack and Go an Assembly (VBA)](Pack_and_Go_an_Assembly_Example_VB.htm)
-
 [Add and Remove Files from Pack and Go (C#)](Add_and_Remove_Files_from_Pack_and_Go_Example_CSharp.htm)
-
 [Add and Remove Files from Pack and Go (VB.NET)](Add_and_Remove_Files_from_Pack_and_Go_Example_VBNET.htm)
-
 [Add and Remove Files from Pack and Go (VBA)](Add_and_Remove_Files_from_Pack_and_Go_Example_VB.htm)
 
 ## Remarks
@@ -100,7 +77,6 @@ After providing Pack and Go input, call this method to execute Pack and Go and e
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

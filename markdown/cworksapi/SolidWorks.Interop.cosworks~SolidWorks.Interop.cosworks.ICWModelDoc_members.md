@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMo
 
 # ICWModelDoc Interface Members
 
-The following tables list the members exposed by[ICWModelDoc](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html).
+The following tables list the members exposed by [ICWModelDoc](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html).
 
 ## Public Properties
 
@@ -57,7 +57,5 @@ The following tables list the members exposed by[ICWModelDoc](SolidWorks.Interop
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICosmosWorks Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICosmosWorks.html)

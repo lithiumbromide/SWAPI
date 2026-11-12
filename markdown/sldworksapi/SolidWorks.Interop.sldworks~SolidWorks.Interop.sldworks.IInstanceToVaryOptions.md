@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIn
 
 Allows access to options for varying the dimensions and locations of instances in patterns for parts.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,14 @@ public interface class IInstanceToVaryOptions
 
 ## VBA Syntax
 
-See
-
-[InstanceToVaryOptions](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions.html)
-
-.
+See [InstanceToVaryOptions](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions.html).
 
 ## Examples
 
 'VBA
 
 'Preconditions:
-' 1. Open`public_documents`**\samples\tutorial\api\box.sldprt**.
+' 1. Open `public_documents`**\samples\tutorial\api\box.sldprt**.
 ' 2. Open the Immediate window.
 
 'Postconditions:
@@ -120,7 +116,7 @@ Set LPFeatData = feat.**GetDefinition**
 'Turn on Instances To Vary
 boolstatus = LPFeatData.**AccessSelections**(swModel, Nothing)
 
-LPFeatData.**InstancesToVary**= True
+LPFeatData.**InstancesToVary** = True
 Debug.Print "Vary instances? " & LPFeatData.InstancesToVary
 
 boolstatus = feat.**ModifyDefinition**(LPFeatData, swModel, Nothing)
@@ -131,8 +127,8 @@ boolstatus = LPFeatData.**AccessSelections**(swModel, Nothing)
 Set swInstOpts = LPFeatData.**GetInstanceToVaryOptions**()
 
 'Set D1 and D2 spacing increments of all pattern instances
-swInstOpts.**D1SpacingIncrement**= 0.05
-swInstOpts.**D2SpacingIncrement**= 0.05
+swInstOpts.**D1SpacingIncrement** = 0.05
+swInstOpts.**D2SpacingIncrement** = 0.05
 Debug.Print "D1 spacing increment is " & swInstOpts.D1SpacingIncrement
 Debug.Print "D2 spacing increment is " & swInstOpts.D2SpacingIncrement
 
@@ -154,8 +150,8 @@ Dim vIncr1DimValues(0) As Double
 vIncr1Dims(0) = "Near C'Sink Dia.@Sketch2"
 vIncr1DimValues(0) = 0.005
 
-swInstOpts.**SetD1IncrementDimensions**vIncr1Dims, vIncr1DimValues
-swInstOpts.**GetD1IncrementDimensions**vIncr1Dims, vIncr1DimValues
+swInstOpts.**SetD1IncrementDimensions** vIncr1Dims, vIncr1DimValues
+swInstOpts.**GetD1IncrementDimensions** vIncr1Dims, vIncr1DimValues
 
 'Modify a specific dimension just for pattern instance #3 (2,2)
 Dim vDims(0) As String
@@ -164,7 +160,7 @@ vDims(0) = "Near C'Sink Dia.@Sketch2"
 vDimValues(0) = 0.02
 boolstatus = swInstOpts.**ModifyDimensions**(3, vDims, vDimValues)
 
-swInstOpts.**GetModifiedDimensions**3, vDims, vDimValues
+swInstOpts.**GetModifiedDimensions** 3, vDims, vDimValues
 
 'Modify the pattern feature with the instance to vary options
 Call LPFeatData.**SetInstanceToVaryOptions**(swInstOpts)
@@ -175,14 +171,13 @@ End Sub
 ## Examples
 
 [Vary Linear Pattern Instances (VB.NET)](Vary_Linear_Pattern_Instances_Example_VBNET.htm)
-
 [Vary Linear Pattern Instances (C#)](Vary_Linear_Pattern_Instances_Example_CSharp.htm)
 
 ## Remarks
 
-This interface is valid only if[ILinearPatternFeatureData::InstancesToVary](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~InstancesToVary.html)or[ICircularPatternFeatureData::InstancesToVary](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~InstancesToVary.html)is true.
+This interface is valid only if [ILinearPatternFeatureData::InstancesToVary](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearPatternFeatureData~InstancesToVary.html) or [ICircularPatternFeatureData::InstancesToVary](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICircularPatternFeatureData~InstancesToVary.html) is true.
 
-For more information about the Instance to Vary option, see the**SOLIDWORKS Help > Parts and Features > Features > Patterns and Mirroring > Control and Modify Patterns > Varying Dimension Patterns**topic.
+For more information about the Instance to Vary option, see the **SOLIDWORKS Help > Parts and Features > Features > Patterns and Mirroring > Control and Modify Patterns > Varying Dimension Patterns** topic.
 
 ## Accessors
 
@@ -197,5 +192,4 @@ For more information about the Instance to Vary option, see the**SOLIDWORKS Help
 ## See Also
 
 [IInstanceToVaryOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

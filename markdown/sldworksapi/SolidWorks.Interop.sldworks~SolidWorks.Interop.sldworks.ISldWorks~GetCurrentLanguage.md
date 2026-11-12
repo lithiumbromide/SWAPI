@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # GetCurrentLanguage Method (ISldWorks)
 
-Gets the current language used by SOLIDWORKS.
+Gets the current language used by SOLIDWORKS Design.
 
 ## Syntax
 
@@ -40,13 +40,7 @@ System.string GetCurrentLanguage()
 System.String^ GetCurrentLanguage();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Current language
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetCurrentLanguage](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetCurrentLanguage.html)
-
-.
+See [SldWorks::GetCurrentLanguage](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetCurrentLanguage.html).
 
 ## Examples
 
@@ -68,19 +58,16 @@ See
 
 Possible return values are:
 
-(Table)=========================================================
-
 | chinese chinese-simplified czech english french | german italian japanese korean polish | portuguese-brazilian russian spanish turkish |
 | --- | --- | --- |
 
-You can see the current language in use by the SOLIDWORKS application in the SOLIDWORKS resources (dialogs, menus, and so on).
+You can see the current language in use by the SOLIDWORKS Design application in the SOLIDWORKS Design resources (dialogs, menus, and so on).
 
 You can use the return value to set your local resource usage.
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

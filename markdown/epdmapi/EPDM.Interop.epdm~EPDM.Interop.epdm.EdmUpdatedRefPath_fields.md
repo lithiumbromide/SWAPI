@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath_fields.ht
 
 # EdmUpdatedRefPath Structure Fields
 
-For a list of all members of this type, see[EdmUpdatedRefPath members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath_members.html).
+For a list of all members of this type, see [EdmUpdatedRefPath members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath_members.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ For a list of all members of this type, see[EdmUpdatedRefPath members](EPDM.Inte
 ## See Also
 
 [EdmUpdatedRefPath Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

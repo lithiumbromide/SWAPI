@@ -1,6 +1,5 @@
 ---
-title: "PMIGtolBoxData Object
-Members"
+title: "PMIGtolBoxData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PMIGtolBoxData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PMIGtolBoxData_members.html"
 ---
 
-# PMIGtolBoxData Object
-Members
+# PMIGtolBoxData Object Members
 
 ## Public Methods
 

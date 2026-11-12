@@ -67,16 +67,11 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompositeLineProfileTolerance::GetPlanarZoneVector](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeLineProfileTolerance~GetPlanarZoneVector.html)
-
-.
+See [DimXpertCompositeLineProfileTolerance::GetPlanarZoneVector](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompositeLineProfileTolerance~GetPlanarZoneVector.html).
 
 ## See Also
 
 [IDimXpertCompositeLineProfileTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance.html)
-
 [IDimXpertCompositeLineProfileTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompositeLineProfileTolerance_members.html)
 
 ## Availability

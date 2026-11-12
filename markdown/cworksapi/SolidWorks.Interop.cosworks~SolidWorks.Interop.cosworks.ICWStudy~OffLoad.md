@@ -51,25 +51,18 @@ True to offload the coordinating computer's simulation processing to other compu
 
 ## VBA Syntax
 
-See
-
-[CWStudy::OffLoad](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~OffLoad.html)
-
-.
+See [CWStudy::OffLoad](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~OffLoad.html).
 
 ## Remarks
 
 This method is valid only if:
 
 - The license is SOLIDWORKS Simulation Professional or Premium.
-- [ICWStudy::IsSimulationDistributable](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~IsSimulationDistributable.html)
-
-  is true.
+- [ICWStudy::IsSimulationDistributable](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~IsSimulationDistributable.html) is true.
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

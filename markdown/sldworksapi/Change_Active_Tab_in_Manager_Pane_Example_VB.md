@@ -11,7 +11,25 @@ source: "sldworksapi/Change_Active_Tab_in_Manager_Pane_Example_VB.htm"
 
 This example shows how to change the active tab in the Manager Pane.
 
-'------------------------------------------------------------------ ' Preconditions: ' 1. Open an assembly and click the FeatureManager design tree tab ' in the Manager Pane. ' 2. In the SOLIDWORKS Microsoft Visual Basic for Applications IDE: ' a. Copy Main to the main module. ' b. Click Insert > Class Module and copy Class1 to that module. ' 3. Open the Immediate window. ' ' Postconditions: ' 1. Ensures that the Manager Pane is visible. ' 2. Traverses the tabs in the Manager Pane: ' a. Changes the active tab. ' b. Fires a notification. ' 3. Examine the Immediate window and Manager Pane. '------------------------------------------------------------------- 'Main Option Explicit
+'------------------------------------------------------------------
+' Preconditions:
+' 1. Open an assembly and click the FeatureManager design tree tab
+' in the Manager Pane.
+' 2. In the SOLIDWORKS Microsoft Visual Basic for Applications IDE:
+' a. Copy [Main](#Main) to the main module.
+' b. Click **Insert > Class Module** and copy [Class1](#Class1) to that module.
+' 3. Open the Immediate window.
+'
+' Postconditions:
+' 1. Ensures that the Manager Pane is visible.
+' 2. Traverses the tabs in the Manager Pane:
+' a. Changes the active tab.
+' b. Fires a notification.
+' 3. Examine the Immediate window and Manager Pane.
+'-------------------------------------------------------------------
+'Main
+
+Option Explicit
 
 ```
 Dim swApp As SldWorks.SldWorks

@@ -47,13 +47,7 @@ System.Object^ GetArrowHeadAtIndex2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,25 +55,17 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DisplayData::GetArrowHeadAtIndex2](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetArrowHeadAtIndex2.html)
-
-.
+See [DisplayData::GetArrowHeadAtIndex2](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetArrowHeadAtIndex2.html).
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-**[**`arrowHeadPt[3], arrowHeadDir[3], arrowHeadWidth, arrowHeadHeight, arrowHeadStyle, arrowHeadNormal[3]`**]**
+**[** `arrowHeadPt[3], arrowHeadDir[3], arrowHeadWidth, arrowHeadHeight, arrowHeadStyle, arrowHeadNormal[3]` **]**
 
 where:
 
@@ -95,9 +81,7 @@ where:
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::GetArrowHeadCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetArrowHeadCount.html)
 
 ## Availability

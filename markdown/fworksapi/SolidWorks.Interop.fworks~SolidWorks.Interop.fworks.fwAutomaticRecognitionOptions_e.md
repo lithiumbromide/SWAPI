@@ -9,11 +9,7 @@ source: "fworksapi/SolidWorks.Interop.fworks~SolidWorks.Interop.fworks.fwAutomat
 
 # fwAutomaticRecognitionOptions_e Enumeration
 
-Automatic recognition options.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Automatic recognition options. [Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm).
 
 ## Syntax
 

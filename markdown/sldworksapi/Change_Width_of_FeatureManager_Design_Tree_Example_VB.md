@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Width_of_FeatureManager_Design_Tree_Example_VB.htm"
 
 # Change Width of FeatureManager Design Tree Example (VBA)
 
-This example shows how to change the width of the FeatureManager design
-tree.
+This example shows how to change the width of the FeatureManager design tree.
 
 ```
 '----------------------------------------

@@ -11,9 +11,8 @@ source: "sldworksapi/Get_Bodies_in_Components_Example_CPlusPlus_COM.htm"
 
 This example shows how to get the bodies in assembly components.
 
-// -------------------------------------------------------------------
-
 ```vb
+// -------------------------------------------------------------------
  void CSwAddin2::GetBodiesOfComponents()
  {
       HRESULT hr = S_OK;

@@ -9,8 +9,7 @@ source: "sldworksapi/Make_Line_Infinite_Example_VB.htm"
 
 # Make Line Infinite Example (VBA)
 
-This example shows how to make the selected finite line an infinite
-line.
+This example shows how to make the selected finite line an infinite line.
 
 ```
 '---------------------------------------------------

@@ -45,29 +45,15 @@ property System.bool UnChainMemberPairs {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to pair each member passed in
-
-[ISecondaryMemberBetweenPointsFeatureData::SetMemberPairs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData~SetMemberPairs.html)
-
-to the previous member passed, false to pair consecutive members only
+True to pair each member passed in [ISecondaryMemberBetweenPointsFeatureData::SetMemberPairs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData~SetMemberPairs.html) to the previous member passed, false to pair consecutive members only
 
 ## VBA Syntax
 
-See
-
-[SecondaryMemberBetweenPointsFeatureData::UnChainMemberPairs](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberBetweenPointsFeatureData~UnChainMemberPairs.html)
-
-.
+See [SecondaryMemberBetweenPointsFeatureData::UnChainMemberPairs](ms-its:sldworksapivb6.chm::/sldworks~SecondaryMemberBetweenPointsFeatureData~UnChainMemberPairs.html).
 
 ## Remarks
 
@@ -98,7 +84,6 @@ E -- F
 ## See Also
 
 [ISecondaryMemberBetweenPointsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData.html)
-
 [ISecondaryMemberBetweenPointsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberBetweenPointsFeatureData_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool InterlockSurface {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,21 @@ True to create an interlock surface, false to not
 
 ## VBA Syntax
 
-See
-
-[ToolingSplitFeatureData::InterlockSurface](ms-its:sldworksapivb6.chm::/sldworks~ToolingSplitFeatureData~InterlockSurface.html)
-
-.
+See [ToolingSplitFeatureData::InterlockSurface](ms-its:sldworksapivb6.chm::/sldworks~ToolingSplitFeatureData~InterlockSurface.html).
 
 ## Examples
 
-See the
-
-[IToolingSplitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
-
-examples.
+See the [IToolingSplitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html) examples.
 
 ## Remarks
 
-If this property is set to true, then you can specify a[draft angle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~Angle.html)for the interlock surface.
+If this property is set to true, then you can specify a [draft angle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~Angle.html) for the interlock surface.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IToolingSplitFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
-
 [IToolingSplitFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData_members.html)
 
 ## Availability

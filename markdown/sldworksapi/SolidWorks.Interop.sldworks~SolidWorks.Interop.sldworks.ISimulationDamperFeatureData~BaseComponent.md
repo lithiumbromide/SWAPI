@@ -45,32 +45,19 @@ property Component2^ BaseComponent {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Base
-
-[component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
+Base [component](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
 
 ## VBA Syntax
 
-See
-
-[SimulationDamperFeatureData::BaseComponent](ms-its:sldworksapivb6.chm::/sldworks~SimulationDamperFeatureData~BaseComponent.html)
-
-.
+See [SimulationDamperFeatureData::BaseComponent](ms-its:sldworksapivb6.chm::/sldworks~SimulationDamperFeatureData~BaseComponent.html).
 
 ## See Also
 
 [ISimulationDamperFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData.html)
-
 [ISimulationDamperFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationDamperFeatureData_members.html)
 
 ## Availability

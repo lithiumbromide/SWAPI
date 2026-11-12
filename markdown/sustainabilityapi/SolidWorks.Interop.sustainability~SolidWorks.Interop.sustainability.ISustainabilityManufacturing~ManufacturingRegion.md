@@ -47,30 +47,19 @@ property System.int ManufacturingRegion {
 
 ### Property Value
 
-Region of manufacture as defined in
-
-[swSustainabilityRegionName_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityRegionName_e.html)
+Region of manufacture as defined in [swSustainabilityRegionName_e](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.swSustainabilityRegionName_e.html)
 
 ## VBA Syntax
 
-See
-
-[SustainabilityManufacturing::ManufacturingRegion](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing~ManufacturingRegion.html)
-
-.
+See [SustainabilityManufacturing::ManufacturingRegion](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityManufacturing~ManufacturingRegion.html).
 
 ## Examples
 
-See examples in
-
-[ISustainabilityManufacturing](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityManufacturing.html)
-
-.
+See examples in [ISustainabilityManufacturing](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityManufacturing.html).
 
 ## See Also
 
 [ISustainabilityManufacturing Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing.html)
-
 [ISustainabilityManufacturing Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing_members.html)
 
 ## Availability

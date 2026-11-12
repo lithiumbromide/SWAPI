@@ -53,22 +53,15 @@ System.int ReplaceCircularFaceOrEdgeForHousing(
 
 ### Return Value
 
-Error code as defined by
-
-[swsBearingConnectorErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingConnectorErrors_e.html)
+Error code as defined by [swsBearingConnectorErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsBearingConnectorErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWBearingConnector::ReplaceCircularFaceOrEdgeForHousing](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~ReplaceCircularFaceOrEdgeForHousing.html)
-
-.
+See [CWBearingConnector::ReplaceCircularFaceOrEdgeForHousing](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingConnector~ReplaceCircularFaceOrEdgeForHousing.html).
 
 ## See Also
 
 [ICWBearingConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector.html)
-
 [ICWBearingConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingConnector_members.html)
 
 ## Availability

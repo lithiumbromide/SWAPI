@@ -77,22 +77,14 @@ void ShowBubbleTooltipForAddinToolbar(
 
 ## VBA Syntax
 
-See
-
-[SwHtmlInterface::ShowBubbleTooltipForAddinToolbar](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~ShowBubbleTooltipForAddinToolbar.html)
-
-.
+See [SwHtmlInterface::ShowBubbleTooltipForAddinToolbar](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~ShowBubbleTooltipForAddinToolbar.html).
 
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [ISwHtmlInterface Members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html)
-
 [ISldWorks::ShowBubbleTooltip](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~ShowBubbleTooltip.html)
-
 [ISwHtmlInterface::GetCommandID Method](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~GetCommandID.html)
-
 [ISwHtmlInterface::ShowBubbleTooltip Method](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface~ShowBubbleTooltip.html)
 
 ## Availability

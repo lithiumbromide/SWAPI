@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2.html"
 
 Allows you to create or manage user-defined file references.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,10 +36,9 @@ public interface class IEdmAddCustomRefs2 : public IEdmAddCustomRefs
 
 ## Remarks
 
-This interface inherits from[IEdmAddCustomRefs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html).
+This interface inherits from [IEdmAddCustomRefs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html).
 
 ## See Also
 
 [IEdmAddCustomRefs2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

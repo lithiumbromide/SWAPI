@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetTessTriStripEdges Method (IComponent)
 
-Obsolete. Superseded by
-
-[IComponent2::GetTessTriStripEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetTessTriStripEdges.html)
-
-.
+Obsolete. Superseded by [IComponent2::GetTessTriStripEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetTessTriStripEdges.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.object GetTessTriStripEdges()
 System.Object^ GetTessTriStripEdges();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Component::GetTessTriStripEdges](ms-its:sldworksapivb6.chm::/sldworks~Component~GetTessTriStripEdges.html)
-
-.
+See [Component::GetTessTriStripEdges](ms-its:sldworksapivb6.chm::/sldworks~Component~GetTessTriStripEdges.html).
 
 ## See Also
 
 [IComponent Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent.html)
-
 [IComponent Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent_members.html)

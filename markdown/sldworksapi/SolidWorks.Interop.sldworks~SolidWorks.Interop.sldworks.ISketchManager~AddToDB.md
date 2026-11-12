@@ -45,13 +45,7 @@ property System.bool AddToDB {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to add items directly to the SOLIDWORKS database, false to not
 
 ## VBA Syntax
 
-See
-
-[SketchManager::AddToDb](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~AddToDB.html)
-
-.
+See [SketchManager::AddToDb](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~AddToDB.html).
 
 ## Examples
 
 [Get Assembly Bounding Box Using Components (C#)](Get_Assembly_Bounding_Box_Using_Components_Example_CSharp.htm)
-
 [Get Assembly Bounding Box Using Components (VB.NET)](Get_Assembly_Bounding_Box_Using_Components_Example_VBNET.htm)
-
 [Get Assembly Bounding Box Using Components (VBA)](Get_Assembly_Bounding_Box_using_Components_Example_VB.htm)
 
 ## Remarks
@@ -82,14 +70,13 @@ After setting this property to true:
 - It is not possible to undo the creation of some types of sketch entities.
 - You must reset it to false to restore SOLIDWORKS' normal operating mode.
 
-This property and[ISketchManager::DisplayWhenAdded](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~DisplayWhenAdded.html)improve performance during sketch entity creation. ISketchManager::DisplayWhenAdded requires that this property be set to true.
+This property and [ISketchManager::DisplayWhenAdded](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~DisplayWhenAdded.html) improve performance during sketch entity creation. ISketchManager::DisplayWhenAdded requires that this property be set to true.
 
-If you want to constrain all the sketch entities after creation, use[ISketch::ConstrainAll](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~ConstrainAll.html).
+If you want to constrain all the sketch entities after creation, use [ISketch::ConstrainAll](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~ConstrainAll.html).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
 
 ## Availability

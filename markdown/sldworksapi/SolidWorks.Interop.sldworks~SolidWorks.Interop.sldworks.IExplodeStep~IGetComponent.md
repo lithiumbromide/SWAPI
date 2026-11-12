@@ -47,13 +47,7 @@ Component^ IGetComponent(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,34 +55,22 @@ See
 
 ### Return Value
 
-Specified[component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)in the explode step
+Specified [component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html) in the explode step
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::IGetComponent](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~IGetComponent.html)
-
-.
+See [ExplodeStep::IGetComponent](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~IGetComponent.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[IExplodeStep::GetNumOfComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetNumOfComponents.html)
-
-to get a valid value for Index.
+Before calling this method, call [IExplodeStep::GetNumOfComponents](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetNumOfComponents.html) to get a valid value for Index.
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
-
 [IExplodeStep::GetComponent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponent.html)
-
 [IExplodeStep::GetComponentName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponentName.html)
-
 [IExplodeStep::GetNumOfComponents Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetNumOfComponents.html)
 
 ## Availability

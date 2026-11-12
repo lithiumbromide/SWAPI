@@ -45,13 +45,7 @@ property System.bool UseAngleDimForProfile {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,23 @@ True to use an angle to dimension this gusset, false to not
 
 ## VBA Syntax
 
-See
-
-[SMGussetFeatureData::UseAngleDimForProfile](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~UseAngleDimForProfile.html)
-
-.
+See [SMGussetFeatureData::UseAngleDimForProfile](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~UseAngleDimForProfile.html).
 
 ## Examples
 
-See the
-
-[ISMGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
-examples.
+See the [ISMGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html) examples.
 
 ## Remarks
 
-This property is valid only if[ISMGussetFeatureData::ProfileDimensionScheme](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ProfileDimensionScheme.html)is set to 1.
+This property is valid only if [ISMGussetFeatureData::ProfileDimensionScheme](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ProfileDimensionScheme.html) is set to 1.
 
-After setting this property to true, set[ISMGussetFeatureData::ProfileAngleDim](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ProfileAngleDim.html).
+After setting this property to true, set [ISMGussetFeatureData::ProfileAngleDim](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~ProfileAngleDim.html).
 
-See the[ISMGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)Remarks.
+See the [ISMGussetFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html) Remarks.
 
 ## See Also
 
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
 [ISMGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData_members.html)
 
 ## Availability

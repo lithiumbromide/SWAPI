@@ -11,13 +11,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 Allows access to the Sustainability assembly process data for the current assembly.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +41,7 @@ public interface class ISustainabilityAssemblyProcess
 
 ## VBA Syntax
 
-See
-
-[SustainabilityAssemblyProcess](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess.html)
-
-.
+See [SustainabilityAssemblyProcess](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityAssemblyProcess.html).
 
 ## Examples
 
@@ -64,5 +54,4 @@ See
 ## See Also
 
 [ISustainabilityAssemblyProcess Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess_members.html)
-
 [SolidWorks.Interop.sustainability Namespace](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability_namespace.html)

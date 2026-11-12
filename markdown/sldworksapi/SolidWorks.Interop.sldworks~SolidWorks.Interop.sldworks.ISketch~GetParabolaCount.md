@@ -40,13 +40,7 @@ System.int GetParabolaCount()
 System.int GetParabolaCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,20 @@ Number of parabolas in the sketch
 
 ## VBA Syntax
 
-See
-
-[Sketch::GetParabolaCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetParabolaCount.html)
-
-.
+See [Sketch::GetParabolaCount](ms-its:sldworksapivb6.chm::/sldworks~Sketch~GetParabolaCount.html).
 
 ## Examples
 
 [Get Parabolas in Sketch (VBA)](Get_Parabolas_in_Sketch_Example_VB.htm)
-
 [Get Polylines Information (VBA)](Get_Polylines_Information_Example_VB.htm)
 
 ## Remarks
 
-Call this method before calling[ISketch::IGetParabolas2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetParabolas2.html)to determine the size of the array for that method.
+Call this method before calling [ISketch::IGetParabolas2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch~IGetParabolas2.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ISketch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
 [ISketch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch_members.html)
-
 [ISketch::GetParabolas2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch~GetParabolas2.html)
-
 [ISketchParabola Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)

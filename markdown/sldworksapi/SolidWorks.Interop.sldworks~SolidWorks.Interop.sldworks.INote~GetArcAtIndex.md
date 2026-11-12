@@ -47,13 +47,7 @@ System.Object^ GetArcAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,29 +55,19 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Note::GetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Note~GetArcAtIndex.html)
-
-.
+See [Note::GetArcAtIndex](ms-its:sldworksapivb6.chm::/sldworks~Note~GetArcAtIndex.html).
 
 ## Remarks
 
 Return value is an array of doubles:
 
-[LineType, StartPt[3], EndPt[3], CenterPt[3], RotDir]
+[ LineType, StartPt[3], EndPt[3], CenterPt[3], RotDir ]
 
 where :
-
-(Table)=========================================================
 
 | LineType | Line type. Valid returns are defined in swLineTypes_e . A LineType is a combination of a line style and line weight. |
 | --- | --- |
@@ -94,8 +78,6 @@ where :
 
 The data returned from this method is in terms of document apace.
 
-(Table)=========================================================
-
 | If the document containing this note is... | Then the coordinates returned are based on the... |
 | --- | --- |
 | Drawing | Sheet origin |
@@ -104,9 +86,6 @@ The data returned from this method is in terms of document apace.
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::IGetArcAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IGetArcAtIndex.html)
-
 [INote::GetArcCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetArcCount.html)

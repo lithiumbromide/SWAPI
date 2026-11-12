@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISp
 
 # ISplineParamData Interface Properties
 
-For a list of all members of this type, see[ISplineParamData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData_members.html).
+For a list of all members of this type, see [ISplineParamData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData_members.html).
 
 ## Public Properties
 
@@ -33,5 +33,4 @@ For a list of all members of this type, see[ISplineParamData members](SolidWorks
 ## See Also
 
 [ISplineParamData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

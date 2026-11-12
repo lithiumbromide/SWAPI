@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISw
 
 Allows access to a sheet metal swept flange feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,11 +41,7 @@ public interface class ISweptFlangeFeatureData
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData.html)
-
-.
+See [SweptFlangeFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData.html).
 
 ## Examples
 
@@ -55,7 +51,7 @@ See
 
 'Postconditions:
 
-'1.**Base-Flange1**and**Swept Flange1**are created.
+'1. **Base-Flange1** and **Swept Flange1** are created.
 '2. Inspect the graphics area and the FeatureManager design tree.
 
 '================================================
@@ -134,20 +130,20 @@ Part.ClearSelection2 True
 Set swFeatMgr = Part.FeatureManager
 
 Set swFeatData = swFeatMgr.**CreateDefinition**(swFeatureNameID_e.swFmSweptFlange)
-swFeatData.**EndOffset**= 0
-swFeatData.**FlangePosition**= swSweptFlangePositionType_MaterialInside
-swFeatData.**FlattenAlongPath**= False
-swFeatData.**OverrideDefaultSheetMetalParameters**= False
-swFeatData.**Path**= pathObjsVar
-swFeatData.**Profile**= swProfileSketch
-swFeatData.**ReverseDirection**= False
-swFeatData.**StartOffset**= 0
-swFeatData.**TrimSideBends**= False
-swFeatData.**UseDefaultBendAllowance**= True
-swFeatData.**UseDefaultBendRelief**= True
-swFeatData.**UseDefaultRadius**= False
-swFeatData.**UseGaugeTable**= False
-swFeatData.**UseMaterialSheetMetalParameters**= False
+swFeatData.**EndOffset** = 0
+swFeatData.**FlangePosition** = swSweptFlangePositionType_MaterialInside
+swFeatData.**FlattenAlongPath** = False
+swFeatData.**OverrideDefaultSheetMetalParameters** = False
+swFeatData.**Path** = pathObjsVar
+swFeatData.**Profile** = swProfileSketch
+swFeatData.**ReverseDirection** = False
+swFeatData.**StartOffset** = 0
+swFeatData.**TrimSideBends** = False
+swFeatData.**UseDefaultBendAllowance** = True
+swFeatData.**UseDefaultBendRelief** = True
+swFeatData.**UseDefaultRadius** = False
+swFeatData.**UseGaugeTable** = False
+swFeatData.**UseMaterialSheetMetalParameters** = False
 Set swFeat = swFeatMgr.**CreateFeature**(swFeatData)
 Part.ClearSelection2 True
 
@@ -156,16 +152,11 @@ End Sub
 ## Examples
 
 [Create Swept Flange (VB.NET)](Create_Swept_Flange_Example_VBNET.htm)
-
 [Create Swept Flange (C#)](Create_Swept_Flange_Example_CSharp.htm)
 
 ## Remarks
 
-For more information about swept flanges, read the
-
-SOLIDWORKS Help > Sheet Metal > Using Sheet Metal Tools > Swept Flange > Swept Flange PropertyManager
-
-topic.
+For more information about swept flanges, read the **SOLIDWORKS Help > Sheet Metal > Using Sheet Metal Tools > Swept Flange > Swept Flange PropertyManager** topic.
 
 ## Accessors
 
@@ -180,7 +171,5 @@ topic.
 ## See Also
 
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISheetMetalGaugeTableParameters Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalGaugeTableParameters.html)

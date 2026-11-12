@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBr
 
 # IBreakLine Interface Members
 
-The following tables list the members exposed by[IBreakLine](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine.html).
+The following tables list the members exposed by [IBreakLine](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine.html).
 
 ## Public Properties
 
@@ -37,7 +37,5 @@ The following tables list the members exposed by[IBreakLine](SolidWorks.Interop.
 ## See Also
 
 [IBreakLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakLine.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDrawingDoc::BreakView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~BreakView.html)

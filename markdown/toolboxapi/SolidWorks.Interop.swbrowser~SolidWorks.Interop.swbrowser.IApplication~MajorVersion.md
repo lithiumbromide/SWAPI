@@ -48,16 +48,11 @@ Major version of the SOLIDWORKS Toolbox Browser add-in
 
 ## VBA Syntax
 
-See
-
-[Application::MajorVersion](ms-its:toolboxapivb6.chm::/ToolboxBrowser~Application~MajorVersion.html)
-
-.
+See [Application::MajorVersion](ms-its:toolboxapivb6.chm::/ToolboxBrowser~Application~MajorVersion.html).
 
 ## See Also
 
 [IApplication Interface](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication.html)
-
 [IApplication Members](SolidWorks.Interop.swbrowser~SolidWorks.Interop.swbrowser.IApplication_members.html)
 
 ## Availability

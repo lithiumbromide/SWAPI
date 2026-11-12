@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMa
 
 Allows access to individual mass properties as found in the Mass Properties dialog box.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,27 +41,17 @@ public interface class IMassProperty2
 
 ## VBA Syntax
 
-See
-
-[MassProperty2](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2.html)
-
-.
+See [MassProperty2](ms-its:sldworksapivb6.chm::/sldworks~MassProperty2.html).
 
 ## Examples
 
 [Get and Override Mass Properties (VBA)](Get_Mass_Properties_using_MassProperty_Object_Example_VB.htm)
-
 [Get and Override Mass Properties (VB.NET)](Get_Mass_Properties_Using_IMassProperty_Example_VBNET.htm)
-
 [Get and Override Mass Properties (C#)](Get_Mass_Properties_Using_IMassProperty_Example_CSharp.htm)
 
 ## Remarks
 
-For more information, see the
-
-Mass Properties Dialog Box
-
-topic in the SOLIDWORKS user-interface help.
+For more information, see the **Mass Properties Dialog Box** topic in the SOLIDWORKS Design user-interface help.
 
 ## Accessors
 
@@ -74,5 +64,4 @@ topic in the SOLIDWORKS user-interface help.
 ## See Also
 
 [IMassProperty2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty2_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -45,35 +45,19 @@ property System.int Severity {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Severity level as defined by
-
-[swUserMessageBarSeverity_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserMessageBarSeverity_e.html)
+Severity level as defined by [swUserMessageBarSeverity_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserMessageBarSeverity_e.html)
 
 ## VBA Syntax
 
-See
-
-[MessageBarDefinition::Severity](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~Severity.html)
-
-.
+See [MessageBarDefinition::Severity](ms-its:sldworksapivb6.chm::/sldworks~MessageBarDefinition~Severity.html).
 
 ## Examples
 
-See the
-
-[IMessageBarHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html)
-
-examples.
+See the [IMessageBarHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IMessageBarHandler.html) examples.
 
 ## Remarks
 
@@ -82,7 +66,6 @@ The default value of this property is swUserMessageBarSeverity_e.swUserMessageBa
 ## See Also
 
 [IMessageBarDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition.html)
-
 [IMessageBarDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMessageBarDefinition_members.html)
 
 ## Availability

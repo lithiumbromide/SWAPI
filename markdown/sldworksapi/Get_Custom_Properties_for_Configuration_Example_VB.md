@@ -9,9 +9,7 @@ source: "sldworksapi/Get_Custom_Properties_for_Configuration_Example_VB.htm"
 
 # Get Custom Properties for Configuration Example (VBA)
 
-This example shows how to get the names, types, and evaluated
-values of the custom properties in the active configuration. It also shows
-how to add a custom property to the configuration.
+This example shows how to get the names, types, and evaluated values of the custom properties in the active configuration. It also shows how to add a custom property to the configuration.
 
 ```vb
  '---------------------------------------------------------------------------

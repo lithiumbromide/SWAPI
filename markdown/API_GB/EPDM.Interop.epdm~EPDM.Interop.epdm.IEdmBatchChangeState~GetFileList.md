@@ -39,25 +39,15 @@ EdmSelectionList5^ GetFileList(
 
 ### Parameters
 
-- `lEdmChangeStateFileListFlags`: Combination of
-
-[EdmChangeStateFileListFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateFileListFlag.html)
-
-bits
+- `lEdmChangeStateFileListFlags`: Combination of [EdmChangeStateFileListFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmChangeStateFileListFlag.html) bits
 
 ### Return Value
 
-[IEdmSelectionList5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5.html)
-
-; list of affected objects
+[IEdmSelectionList5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList5.html); list of affected objects
 
 ## Examples
 
-See the
-
-[IEdmBatchChangeState4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4.html)
-
-examples.
+See the [IEdmBatchChangeState4](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState4.html) examples.
 
 ## Remarks
 
@@ -69,7 +59,6 @@ examples.
 ## See Also
 
 [IEdmBatchChangeState Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState.html)
-
 [IEdmBatchChangeState Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState_members.html)
 
 ## Availability

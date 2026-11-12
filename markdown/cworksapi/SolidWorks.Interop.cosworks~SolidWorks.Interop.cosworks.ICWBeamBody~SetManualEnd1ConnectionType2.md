@@ -77,16 +77,11 @@ void SetManualEnd1ConnectionType2(
 
 ## Remarks
 
-Before calling this method, you must set
-
-[ICWBeamBody::BeamEnd1ConnectionType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBeamBody~BeamEnd1ConnectionType.html)
-
-to swsBeamBodyConnectionManual.
+Before calling this method, you must set [ICWBeamBody::BeamEnd1ConnectionType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWBeamBody~BeamEnd1ConnectionType.html) to swsBeamBodyConnectionManual.
 
 ## See Also
 
 [ICWBeamBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody.html)
-
 [ICWBeamBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBeamBody_members.html)
 
 ## Availability

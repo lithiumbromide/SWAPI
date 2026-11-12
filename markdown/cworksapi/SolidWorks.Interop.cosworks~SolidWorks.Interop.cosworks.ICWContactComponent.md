@@ -11,13 +11,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 Allows access to component contacts.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,25 +41,19 @@ public interface class ICWContactComponent
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent.html)
-
-.
+See [CWContactComponent](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent.html).
 
 ## Examples
 
 [Add Component Contacts (VBA)](Add_Component_Contacts_Example_VB.htm)
-
 [Add Component Contacts (VB.NET)](Add_Component_Contacts_Example_VBNET.htm)
-
 [Add Component Contacts (C#)](Add_Component_Contacts_Example_CSharp.htm)
 
 ## Remarks
 
-Component contacts defined by[ICWContactManager::CreateContactComponent](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~CreateContactComponent.html)override global contact conditions defined by[ICWContactManager::SetGlobalContact](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~SetGlobalContact.html).
+Component contacts defined by [ICWContactManager::CreateContactComponent](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~CreateContactComponent.html) override global contact conditions defined by [ICWContactManager::SetGlobalContact](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~SetGlobalContact.html).
 
-Contact sets defined by[ICWContactManager::CreateContactSet](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~CreateContactSet.html)override both global and component contact definitions.
+Contact sets defined by [ICWContactManager::CreateContactSet](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~CreateContactSet.html) override both global and component contact definitions.
 
 ## Accessors
 
@@ -76,11 +64,7 @@ Contact sets defined by[ICWContactManager::CreateContactSet](SOLIDWORKS.Interop.
 ## See Also
 
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)
-
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactSet Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactSet.html)
-
 [ICWMultipleComponentContactsEditManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMultipleComponentContactsEditManager.html)

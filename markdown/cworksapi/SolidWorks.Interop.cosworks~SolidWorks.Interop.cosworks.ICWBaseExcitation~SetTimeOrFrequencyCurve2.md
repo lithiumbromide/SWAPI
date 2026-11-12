@@ -53,12 +53,8 @@ System.bool SetTimeOrFrequencyCurve2(
 
 ### Parameters
 
-- `VarCurveData`: Array (see
-
-Remarks
-
-)
-- `ErrorCode`: Error as defined in[swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
+- `VarCurveData`: Array (see Remarks)
+- `ErrorCode`: Error as defined in [swsTimeCurveError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTimeCurveError_e.html)
 
 ### Return Value
 
@@ -68,24 +64,23 @@ Remarks
 
 Array of linear or curve data:
 
-**[**`n, x1, y1, x2, y2, x3, y3,...xn, yn`**]**
+**[** `n, x1, y1, x2, y2, x3, y3,...xn, yn` **]**
 
 where for modal time history and nonlinear dynamic studies:
 
 - n = number of xi,yi pairs
-- xi = time value at the`ith`data point
+- xi = time value at the `ith` data point
 - yi = excitation value associated with time xi
 
 and for harmonic and random vibration dynamic studies:
 
 - n = number of xi,yi pairs
-- xi = frequency value at the`ith`data point
+- xi = frequency value at the `ith` data point
 - yi = excitation value associated with frequency xi
 
 ## See Also
 
 [ICWBaseExcitation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
 [ICWBaseExcitation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation_members.html)
 
 ## Availability

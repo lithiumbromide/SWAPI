@@ -45,45 +45,23 @@ property System.int Orientation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Orientation as defined in
-
-[swHoleElementOrientation_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swHoleElementOrientation_e.html)
-
-(see
-
-Remarks
-
-)
+Orientation as defined in [swHoleElementOrientation_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swHoleElementOrientation_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[AdvancedHoleElementData::Orientation](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData~Orientation.html)
-
-.
+See [AdvancedHoleElementData::Orientation](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleElementData~Orientation.html).
 
 ## Examples
 
-See the
-
-[IAdvancedHoleElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)
-
-examples.
+See the [IAdvancedHoleElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html) examples.
 
 ## Remarks
 
-This property is not valid if[IAdvancedHoleElementData::ElementType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~ElementType.html)is set to[swAdvWzdGeneralHoleTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAdvWzdGeneralHoleTypes_e.html):
+This property is not valid if [IAdvancedHoleElementData::ElementType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData~ElementType.html) is set to [swAdvWzdGeneralHoleTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAdvWzdGeneralHoleTypes_e.html):
 
 - swAdvWzdStraight
 - swAdvWzdStraightTap
@@ -91,7 +69,6 @@ This property is not valid if[IAdvancedHoleElementData::ElementType](SolidWorks.
 ## See Also
 
 [IAdvancedHoleElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData.html)
-
 [IAdvancedHoleElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleElementData_members.html)
 
 ## Availability

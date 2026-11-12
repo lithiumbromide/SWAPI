@@ -40,13 +40,7 @@ System.int GetNoteCount()
 System.int GetNoteCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of notes in this drawing view
 
 ## VBA Syntax
 
-See
-
-[View::GetNoteCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetNoteCount.html)
-
-.
+See [View::GetNoteCount](ms-its:sldworksapivb6.chm::/sldworks~View~GetNoteCount.html).
 
 ## Examples
 
@@ -66,20 +56,13 @@ See
 
 ## Remarks
 
-Call this method before calling
-
-[IView::IGetNotes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetNotes.html)
-
-to determine the size of the array for that method.
+Call this method before calling [IView::IGetNotes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetNotes.html) to determine the size of the array for that method.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetNotes Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetNotes.html)
-
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
 
 ## Availability

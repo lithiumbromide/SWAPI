@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8_members.html"
 
 # IEdmVersion8 Interface Members
 
-The following tables list the members exposed by[IEdmVersion8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8.html).
+The following tables list the members exposed by [IEdmVersion8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8.html).
 
 ## Public Methods
 
@@ -22,5 +22,4 @@ The following tables list the members exposed by[IEdmVersion8](EPDM.Interop.epdm
 ## See Also
 
 [IEdmVersion8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion8.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

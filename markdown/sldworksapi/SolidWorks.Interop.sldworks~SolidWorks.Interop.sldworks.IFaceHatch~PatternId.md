@@ -45,46 +45,19 @@ property System.int PatternId {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pattern IDs as found in <
-
-install_dir
-
->
-
-\
-
-lang
-
-\<
-
-language
-
->\
-
-SLDWRKS.PTN
+Pattern IDs as found in <install_dir>\lang\<language>\SLDWRKS.PTN
 
 ## VBA Syntax
 
-See
-
-[FaceHatch::PatternId](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~PatternId.html)
-
-.
+See [FaceHatch::PatternId](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~PatternId.html).
 
 ## See Also
 
 [IFaceHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html)
-
 [IFaceHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch_members.html)
 
 ## Availability

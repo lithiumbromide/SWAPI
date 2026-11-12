@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # GetFaceCount Method (IMidSurface)
 
-Obsolete. Superseded by
-
-[IMidSurface2::GetFaceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetFaceCount.html)
-
-.
+Obsolete. Superseded by [IMidSurface2::GetFaceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetFaceCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetFaceCount()
 System.int GetFaceCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[MidSurface::GetFaceCount](ms-its:sldworksapivb6.chm::/sldworks~MidSurface~GetFaceCount.html)
-
-.
+See [MidSurface::GetFaceCount](ms-its:sldworksapivb6.chm::/sldworks~MidSurface~GetFaceCount.html).
 
 ## See Also
 
 [IMidSurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface.html)
-
 [IMidSurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface_members.html)

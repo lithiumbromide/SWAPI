@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetStartPoint Method (ISketchLine)
 
-Obsolete. Superseded by
-
-[ISketchLine::GetStartPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchLine~GetStartPoint2.html)
-
-and
-
-[ISketchLine::IGetStartPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchLine~IGetStartPoint2.html)
-
-.
+Obsolete. Superseded by [ISketchLine::GetStartPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchLine~GetStartPoint2.html) and [ISketchLine::IGetStartPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchLine~IGetStartPoint2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetStartPoint()
 System.double IGetStartPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchLine::IGetStartPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~IGetStartPoint.html)
-
-.
+See [SketchLine::IGetStartPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchLine~IGetStartPoint.html).
 
 ## See Also
 
 [ISketchLine Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine.html)
-
 [ISketchLine Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchLine_members.html)

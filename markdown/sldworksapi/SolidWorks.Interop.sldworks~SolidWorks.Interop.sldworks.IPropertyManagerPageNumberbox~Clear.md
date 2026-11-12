@@ -39,26 +39,15 @@ void Clear()
 void Clear();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageNumberbox::Clear](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~Clear.html)
-
-.
+See [PropertyManagerPageNumberbox::Clear](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageNumberbox~Clear.html).
 
 ## See Also
 
 [IPropertyManagerPageNumberbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox.html)
-
 [IPropertyManagerPageNumberbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageNumberbox_members.html)
 
 ## Availability

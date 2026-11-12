@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmResolveAction.html"
 
 # EdmResolveAction Enumeration
 
-Types of flags that you return to SOLIDWORKS PDM Professional from
-
-[IEdmCallback6::Resolve](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6~Resolve.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Types of flags that you return to SOLIDWORKS PDM Professional from [IEdmCallback6::Resolve](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCallback6~Resolve.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

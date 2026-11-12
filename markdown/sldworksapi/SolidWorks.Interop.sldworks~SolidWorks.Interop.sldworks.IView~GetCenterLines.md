@@ -40,48 +40,31 @@ System.object GetCenterLines()
 System.Object^ GetCenterLines();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[centerlines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterLine.html)
+Array of [centerlines](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterLine.html)
 
 ## VBA Syntax
 
-See
-
-[View::GetCenterLines](ms-its:sldworksapivb6.chm::/sldworks~View~GetCenterLines.html)
-
-.
+See [View::GetCenterLines](ms-its:sldworksapivb6.chm::/sldworks~View~GetCenterLines.html).
 
 ## Examples
 
 [Get Annotations Arrays (VBA)](Get_Annotations_Array_Example_VB.htm)
-
 [Get Annotations Arrays (VB.NET)](Get_Annotations_Arrays_Example_VBNET.htm)
-
 [Get Annotations Arrays (C#)](Get_Annotations_Arrays_Example_CSharp.htm)
 
 ## Remarks
 
-Use this method to obtain the array of centerlines all at once instead of calling[IView::GetFirstCenterLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstCenterLine.html)and then repeatedly calling[ICenterLine::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterLine~GetNext.html)to obtain the remaining centerlines in the drawing view.
+Use this method to obtain the array of centerlines all at once instead of calling [IView::GetFirstCenterLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstCenterLine.html) and then repeatedly calling [ICenterLine::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICenterLine~GetNext.html) to obtain the remaining centerlines in the drawing view.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetCenterLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetCenterLineCount.html)
-
 [IView::IGetCenterLines Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetCenterLines.html)
 
 ## Availability

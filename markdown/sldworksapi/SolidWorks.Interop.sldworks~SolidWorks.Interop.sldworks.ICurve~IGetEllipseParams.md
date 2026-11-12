@@ -46,78 +46,38 @@ void IGetEllipseParams(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `ParamArray`: - in-process, unmanaged C++: Pointer to an array of doubles (see
+- `ParamArray`: - in-process, unmanaged C++: Pointer to an array of doubles (see **Remarks**)
 
-  Remarks
+  VBA, VB.NET, C#, and C++/CLI: Not supported
 
-  )
-
-VBA, VB.NET, C#, and C++/CLI: Not supported
-
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+  See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
-Use[ICurve::IsEllipse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IsEllipse.html)to determine if a curve is an ellipse.
+Use [ICurve::IsEllipse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~IsEllipse.html) to determine if a curve is an ellipse.
 
 The return value is an array of doubles with the following format:
 
-**[**`centerptX, centerptY, centerptZ, majorRad, majorAxisX, majorAxisY, majorAxisZ, minorRad, minorAxisX, minorAxisY, minorAxisZ`**]**
+**[** `centerptX, centerptY, centerptZ, majorRad, majorAxisX, majorAxisY, majorAxisZ, minorRad, minorAxisX, minorAxisY, minorAxisZ` **]**
 
 where:
 
-- centerptX, centerptY, centerptZ
-
-  = location of ellipse center
-- majorRad
-
-  = major radius
-- majorAxisX
-
-  ,
-
-  majorAxisY
-
-  ,
-
-  majorAxisZ
-
-  = major axis values
-- minorRad
-
-  = minor radius
-- minorAxisX
-
-  ,
-
-  minorAxisY
-
-  ,
-
-  minorAxisZ
-
-  = minor axis values
+- `centerptX, centerptY, centerptZ` = location of ellipse center
+- `majorRad` = major radius
+- `majorAxisX`, `majorAxisY`, `majorAxisZ` = major axis values
+- `minorRad` = minor radius
+- `minorAxisX`, `minorAxisY`, `minorAxisZ` = minor axis values
 
 You must pass an array of 11 doubles that has already been allocated. If you pass a NULL
-
 pointer or the curve is not an ellipse, then SOLIDWORKS returns S_false.
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::GetEllipseParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~GetEllipseParams.html)
-
 [ICurve::Identity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~Identity.html)

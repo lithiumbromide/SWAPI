@@ -45,32 +45,19 @@ property System.int MotionType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of motion as defined in
-
-[swSimulationMotorMotionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimulationMotorMotionType_e.html)
+Type of motion as defined in [swSimulationMotorMotionType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSimulationMotorMotionType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SimulationMotorFeatureData::MotionType](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~MotionType.html)
-
-.
+See [SimulationMotorFeatureData::MotionType](ms-its:sldworksapivb6.chm::/sldworks~SimulationMotorFeatureData~MotionType.html).
 
 ## See Also
 
 [ISimulationMotorFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData.html)
-
 [ISimulationMotorFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimulationMotorFeatureData_members.html)
 
 ## Availability

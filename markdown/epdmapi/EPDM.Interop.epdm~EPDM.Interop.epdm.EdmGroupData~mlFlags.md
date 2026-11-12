@@ -34,14 +34,9 @@ System.int mlFlags
 
 ### Field Value
 
-Combination of
-
-[EdmGroupDataFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupDataFlags.html)
-
-bits.
+Combination of [EdmGroupDataFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupDataFlags.html) bits.
 
 ## See Also
 
 [EdmGroupData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData.html)
-
 [EdmGroupData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGroupData_members.html)

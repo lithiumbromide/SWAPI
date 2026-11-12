@@ -151,20 +151,14 @@ Feature^ FeatureCut4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sd`: True for a single-ended cut, false for a doubled-ended cut
 - `Flip`: True to remove material outside of the profile of the flip side to cut, false to not
-- `Dir`: True for Direction 1 to be opposite of the default direction (see**Remarks**)
-- `T1`: Termination type for the first end as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `Dir`: True for Direction 1 to be opposite of the default direction (see **Remarks**)
+- `T1`: Termination type for the first end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
 - `T2`: Termination type for the second end as defined in swEndConditions_e
 - `D1`: Depth of extrusion for the first end in meters
 - `D2`: Depth of extrusion for the second end in meters
@@ -180,37 +174,27 @@ See
 - `TranslateSurface2`: When you choose swEndConditions_e.swEndCondOffsetFromSurface as the termination type for the second end, then true specifies that the end of the extrusion is a translation of the reference surface, false specifies to use a true offset
 - `NormalCut`: True to create the cut normal to the sheet metal thickness, false to not (only valid for sheet metal parts; use false for non-sheet metal parts)
 - `UseFeatScope`: True if the feature only affects selected bodies or components, false if the feature affects all bodies or components
-- `UseAutoSelect`: True to automatically select all bodies or components and have the feature affect those bodies or components, false to only select the bodies or components the feature affects (seeRemarks)
+- `UseAutoSelect`: True to automatically select all bodies or components and have the feature affect those bodies or components, false to only select the bodies or components the feature affects (see Remarks)
 - `AssemblyFeatureScope`: True if the assembly feature only affects selected components in the assembly, false if the assembly feature affects all components in the assembly
 - `AutoSelectComponents`: True to automatically select all affected components, false to use only the selected components
 - `PropagateFeatureToParts`: True to propagate the assembly feature to the components in the model that it affects, false to not
-- `T0`: Start conditions as defined in
-
-[swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html)
+- `T0`: Start conditions as defined in [swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html)
 - `StartOffset`: If T0 is swStartConditions_e.swStartOffset, then specify an offset value
 - `FlipStartOffset`: If T0 is swStartConditions_e.swStartOffset, then true to flip the direction of cut, false to not
 - `OptimizeGeometry`: True to optimize the normal cut in a sheet metal part, false to not; only valid for sheet metal parts and when NormalCut is true
 
 ### Return Value
 
-Cut extrude
-
-[feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
+Cut extrude [feature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureCut4](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCut4.html)
-
-.
+See [FeatureManager::FeatureCut4](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCut4.html).
 
 ## Examples
 
 [Create Cut Extrude in Sheet Metal Part (C#)](Create_Cut_Extrude_in_Sheet_Metal_Part_Example_CSharp.htm)
-
 [Create Cut Extrude in Sheet Metal Part (VB.NET)](Create_Cut_Extrude_in_Sheet_Metal_Part_Example_VBNET.htm)
-
 [Create Cut Extrude in Sheet Metal Part (VBA)](Create_Cut_Extrude_in_Sheet_Metal_Part_Example_VB.htm)
 
 ## Remarks
@@ -222,7 +206,7 @@ The default direction for:
 
 Setting the direction parameters to true reverses the default direction. For double-ended extrusions, Direction 2 is always opposite to Direction 1.
 
-The default sketch normal is the face or plane that is perpendicular to the sketch plane. To determine the sketch normal, see[IFace2::Normal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~Normal.html)and[IRefPlane::Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane~Transform.html).
+The default sketch normal is the face or plane that is perpendicular to the sketch plane. To determine the sketch normal, see [IFace2::Normal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~Normal.html) and [IRefPlane::Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane~Transform.html).
 
 When UseAutoSelect is false, the user must select the bodies that the feature will affect.
 
@@ -231,13 +215,9 @@ When using cut or cavity features that result in multiple bodies, you cannot sel
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IFeatureManager::FeatureCutThin2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCutThin2.html)
-
 [IFeatureManager::FeatureCutThicken Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCutThicken.html)
 
 ## Availability

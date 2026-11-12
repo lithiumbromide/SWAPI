@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetFocalPoint Method (ISketchParabola)
 
-Obsolete. Superseded by
-
-[ISketchParabola::GetFocalPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~GetFocalPoint2.html)
-
-and
-
-[ISketchParabola::IGetFocalPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~IGetFocalPoint2.html)
-
-.
+Obsolete. Superseded by [ISketchParabola::GetFocalPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~GetFocalPoint2.html) and [ISketchParabola::IGetFocalPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~IGetFocalPoint2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetFocalPoint()
 System.double IGetFocalPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchParabola::IGetFocalPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~IGetFocalPoint.html)
-
-.
+See [SketchParabola::IGetFocalPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~IGetFocalPoint.html).
 
 ## See Also
 
 [ISketchParabola Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
-
 [ISketchParabola Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola_members.html)

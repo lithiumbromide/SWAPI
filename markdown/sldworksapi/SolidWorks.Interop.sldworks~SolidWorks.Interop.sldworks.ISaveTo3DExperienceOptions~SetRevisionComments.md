@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISa
 
 # SetRevisionComments Method (ISaveTo3DExperienceOptions)
 
-Sets the specified revision comments when saving a document in
-
-[SOLIDWORKS Connected](sldworksapiprogguide.chm::/Overview/SOLIDWORKS_Connected.htm)
-
-.
+Sets the specified revision comments when saving a document in [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool SetRevisionComments(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -69,24 +59,15 @@ True if the document saved successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[SaveTo3DExperienceOptions::SetRevisionComments](ms-its:sldworksapivb6.chm::/sldworks~SaveTo3DExperienceOptions~SetRevisionComments.html)
-
-.
+See [SaveTo3DExperienceOptions::SetRevisionComments](ms-its:sldworksapivb6.chm::/sldworks~SaveTo3DExperienceOptions~SetRevisionComments.html).
 
 ## Examples
 
-See the
-
-[IPLMObjectSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPLMObjectSpecification.html)
-
-examples.
+See the [IPLMObjectSpecification](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPLMObjectSpecification.html) examples.
 
 ## See Also
 
 [ISaveTo3DExperienceOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveTo3DExperienceOptions.html)
-
 [ISaveTo3DExperienceOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISaveTo3DExperienceOptions_members.html)
 
 ## Availability

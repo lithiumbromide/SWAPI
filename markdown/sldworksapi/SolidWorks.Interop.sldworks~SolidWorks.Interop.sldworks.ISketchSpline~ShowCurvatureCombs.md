@@ -45,13 +45,7 @@ property System.bool ShowCurvatureCombs {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,19 @@ True to show curvature combs, false to not
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::ShowCurvatureCombs](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~ShowCurvatureCombs.html)
-
-.
+See [SketchSpline::ShowCurvatureCombs](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~ShowCurvatureCombs.html).
 
 ## Remarks
 
-Use[ISketchManager::CurvatureScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CurvatureScale.html)to adjust the size of all of the curvature combs of this spline.
+Use [ISketchManager::CurvatureScale](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~CurvatureScale.html) to adjust the size of all of the curvature combs of this spline.
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [ISketchManager::CurvatureDensity Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CurvatureDensity.html)
-
 [ISketchSpline::AddCurvatureControl Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~AddCurvatureControl.html)
-
 [ISketchHandle::CurvatureControlled Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle~CurvatureControlled.html)
-
 [ISketchHandle::RadiusOfCurvature Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineHandle~RadiusOfCurvature.html)
 
 ## Availability

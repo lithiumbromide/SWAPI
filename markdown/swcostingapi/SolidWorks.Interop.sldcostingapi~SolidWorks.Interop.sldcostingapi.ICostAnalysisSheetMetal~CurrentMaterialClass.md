@@ -51,18 +51,12 @@ Name of the material class
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisSheetMetal::CurrentMaterialClass](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~CurrentMaterialClass.html)
-
-.
+See [CostAnalysisSheetMetal::CurrentMaterialClass](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~CurrentMaterialClass.html).
 
 ## Examples
 
 [Create Sheet Metal Costing Analysis (C#)](Create_Sheet_Metal_Costing_Analyses_Example_CSharp.htm)
-
 [Create Sheet Metal Costing Analysis (VB.NET)](Create_Sheet_Metal_Costing_Analyses_Example_VBNET.htm)
-
 [Create Sheet Metal Costing Analysis (VBA)](Create_Sheet_Metal_Costing_Analyses_Example_VB.htm)
 
 ## Remarks
@@ -72,13 +66,9 @@ Setting this property might invalidate other settings; e.g., material and sheet 
 ## See Also
 
 [ICostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.html)
-
 [ICostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html)
-
 [ICostAnalysisSheetMetal::GetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterialClasses.html)
-
 [ICostAnalysisSheetMetal::GetMaterialClassesCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterialClassesCount.html)
-
 [ICostAnalysisSheetMetal::IGetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~IGetMaterialClasses.html)
 
 ## Availability

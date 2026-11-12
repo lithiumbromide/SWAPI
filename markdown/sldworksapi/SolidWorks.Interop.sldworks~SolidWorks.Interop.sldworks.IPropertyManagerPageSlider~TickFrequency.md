@@ -45,13 +45,7 @@ property System.int TickFrequency {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ Frequency of tick marks on slider
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSlider::TickFrequency](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~TickFrequency.html)
-
-.
+See [PropertyManagerPageSlider::TickFrequency](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSlider~TickFrequency.html).
 
 ## Remarks
 
-If you set the frequency to 1, then a tick mark appears on every increment in the[range](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~SetRange.html). A value of 10 means that a tick mark appears every 10 increments in the range. If you do not set a frequency, then the frequency of tick marks default to 1.
+If you set the frequency to 1, then a tick mark appears on every increment in the [range](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~SetRange.html). A value of 10 means that a tick mark appears every 10 increments in the range. If you do not set a frequency, then the frequency of tick marks default to 1.
 
-[IPropertyManagerPageSlider::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~Style.html)must be set to swPropMgrPageSliderStyle_AutoTicks to set IPropertyManagerPageSlider::TickFrequency.
+[IPropertyManagerPageSlider::Style](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageSlider~Style.html) must be set to swPropMgrPageSliderStyle_AutoTicks to set IPropertyManagerPageSlider::TickFrequency.
 
 ## See Also
 
 [IPropertyManagerPageSlider Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider.html)
-
 [IPropertyManagerPageSlider Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSlider_members.html)
 
 ## Availability

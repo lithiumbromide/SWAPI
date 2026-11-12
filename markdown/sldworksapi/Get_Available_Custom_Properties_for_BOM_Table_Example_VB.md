@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Available_Custom_Properties_for_BOM_Table_Example_VB.ht
 
 # Get Available Custom Properties for BOM Table Example (VBA)
 
-This example shows how to get a list of all of the custom properties
-available to a BOM table.
+This example shows how to get a list of all of the custom properties available to a BOM table.
 
 ```
 '----------------------------------------------------------------------------

@@ -48,16 +48,11 @@ True if cylinder is a hole; false if a pin
 
 ## VBA Syntax
 
-See
-
-[DimXpertCylinderFeature::Inner](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCylinderFeature~Inner.html)
-
-.
+See [DimXpertCylinderFeature::Inner](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCylinderFeature~Inner.html).
 
 ## See Also
 
 [IDimXpertCylinderFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCylinderFeature.html)
-
 [IDimXpertCylinderFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCylinderFeature_members.html)
 
 ## Availability

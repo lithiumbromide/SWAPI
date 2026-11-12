@@ -49,42 +49,29 @@ System.int SetCoordinateSystemPreference(
 
 ### Parameters
 
-- `NCSPreference`: Coodinate system preference as defined in
-
-[swsTopologyStudyDisplacementCoordinateSysOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementCoordinateSysOption_e.html)
+- `NCSPreference`: Coodinate system preference as defined in [swsTopologyStudyDisplacementCoordinateSysOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementCoordinateSysOption_e.html)
 
 ### Return Value
 
-Result code as defined in
-
-[swsTopologyStudy_MinMaxDisplacementGoalErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_MinMaxDisplacementGoalErrors_e.html)
+Result code as defined in [swsTopologyStudy_MinMaxDisplacementGoalErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudy_MinMaxDisplacementGoalErrors_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWTopologyMinimizeMaximumDisplacementGoal::SetCoordinateSystemPreference](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMinimizeMaximumDisplacementGoal~SetCoordinateSystemPreference.html)
-
-.
+See [CWTopologyMinimizeMaximumDisplacementGoal::SetCoordinateSystemPreference](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyMinimizeMaximumDisplacementGoal~SetCoordinateSystemPreference.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyMinimizeMaximumDisplacementGoal](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal.html)
-
-example.
+See the [ICWTopologyMinimizeMaximumDisplacementGoal](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal.html) example.
 
 ## Remarks
 
-This method is valid for all displacement components except[swsTopologyStudyDisplacementComponentType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementComponentType_e.html).swsTopologyStudyDisplacementCompType_URES (URES: Resultant Displacement (Absolute)).
+This method is valid for all displacement components except [swsTopologyStudyDisplacementComponentType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyDisplacementComponentType_e.html).swsTopologyStudyDisplacementCompType_URES (URES: Resultant Displacement (Absolute)).
 
-If NCSPreference is set to swsTopologyStudyDisplacementCoordinateSysOption_e.swsTopologyDisplacementCoordinateSysOption_UserDefine, then use[ICWTopologyMinimizeMaximumDisplacementGoal::SetCoordinateSystem](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal~SetCoordinateSystem.html)to set the coordinate system.
+If NCSPreference is set to swsTopologyStudyDisplacementCoordinateSysOption_e.swsTopologyDisplacementCoordinateSysOption_UserDefine, then use [ICWTopologyMinimizeMaximumDisplacementGoal::SetCoordinateSystem](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal~SetCoordinateSystem.html) to set the coordinate system.
 
 ## See Also
 
 [ICWTopologyMinimizeMaximumDisplacementGoal Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal.html)
-
 [ICWTopologyMinimizeMaximumDisplacementGoal Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyMinimizeMaximumDisplacementGoal_members.html)
 
 ## Availability

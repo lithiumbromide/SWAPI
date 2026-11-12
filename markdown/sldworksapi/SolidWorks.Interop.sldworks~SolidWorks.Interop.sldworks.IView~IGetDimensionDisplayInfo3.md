@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # IGetDimensionDisplayInfo3 Method (IView)
 
-Obsolete. Superseded by
-
-[IView::GetDimensionDisplayInfo5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDimensionDisplayInfo5.html)
-
-and
-
-[IView::IGetDimensionDisplayInfo5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDimensionDisplayInfo5.html)
-
-.
+Obsolete. Superseded by [IView::GetDimensionDisplayInfo5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDimensionDisplayInfo5.html) and [IView::IGetDimensionDisplayInfo5](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDimensionDisplayInfo5.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetDimensionDisplayInfo3()
 System.double IGetDimensionDisplayInfo3();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[View::IGetDimensionDisplayInfo3](ms-its:sldworksapivb6.chm::/sldworks~View~IGetDimensionDisplayInfo3.html)
-
-.
+See [View::IGetDimensionDisplayInfo3](ms-its:sldworksapivb6.chm::/sldworks~View~IGetDimensionDisplayInfo3.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

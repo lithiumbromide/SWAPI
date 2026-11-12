@@ -39,14 +39,9 @@ Name of the icon
 
 ## Remarks
 
-You can extract the icon from the
-
-WfIcons.dll
-
-, where the resource ID is the name stored in this property appended by "_SML".
+You can extract the icon from the **WfIcons.dll**, where the resource ID is the name stored in this property appended by "_SML".
 
 ## See Also
 
 [IEdmState5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5.html)
-
 [IEdmState5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState5_members.html)

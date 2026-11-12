@@ -40,13 +40,7 @@ System.bool IsAttached()
 System.bool IsAttached();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,13 @@ True if the weld symbol is attached with a leaderline, false if not
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::IsAttached](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~IsAttached.html)
-
-.
+See [WeldSymbol::IsAttached](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~IsAttached.html).
 
 ## Examples
 
-See the
-
-[IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
-examples.
+See the [IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html) examples.
 
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)

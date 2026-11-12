@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IInsertSketchForEdgeFlange Method (IModelDoc2)
 
-Inserts a sketch for
-
-[IFeatureManager::InsertSheetMetalEdgeFlange2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalEdgeFlange2.html)
-
-in this sheet metal part.
+Inserts a sketch for [IFeatureManager::InsertSheetMetalEdgeFlange2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalEdgeFlange2.html) in this sheet metal part.
 
 ## Syntax
 
@@ -59,13 +55,7 @@ Feature^ IInsertSketchForEdgeFlange(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,28 +65,20 @@ See
 
 ### Return Value
 
-Sketch for the edge flagne, returned as a
-
-[feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
+Sketch for the edge flagne, returned as a [feature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IInsertSketchForEdgeFlange](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IInsertSketchForEdgeFlange.html)
-
-.
+See [ModelDoc2::IInsertSketchForEdgeFlange](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IInsertSketchForEdgeFlange.html).
 
 ## Remarks
 
-After calling this method, you must create the profile for the flange on the appropriate plane. After creating the profile, call[IFeatureManager::InsertSheetMetalEdgeFlange2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalEdgeFlange2.html)to create the flange.
+After calling this method, you must create the profile for the flange on the appropriate plane. After creating the profile, call [IFeatureManager::InsertSheetMetalEdgeFlange2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~InsertSheetMetalEdgeFlange2.html) to create the flange.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertSheetMetalMiterFlange Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertSheetMetalMiterFlange.html)
 
 ## Availability

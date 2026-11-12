@@ -46,20 +46,13 @@ System.Object^ GetPlotFeatures();
 
 ## VBA Syntax
 
-See
-
-[CosmosMotionStudyResults::GetPlotFeatures](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyResults~GetPlotFeatures.html)
-
-.
+See [CosmosMotionStudyResults::GetPlotFeatures](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~CosmosMotionStudyResults~GetPlotFeatures.html).
 
 ## See Also
 
 [ICosmosMotionStudyResults Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults.html)
-
 [ICosmosMotionStudyResults Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults_members.html)
-
 [ICosmosMotionStudyResults::GetPlotCount Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~GetPlotCount.html)
-
 [ICosmosMotionStudyResults::IGetPlotFeatures Method](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.ICosmosMotionStudyResults~IGetPlotFeatures.html)
 
 ## Availability

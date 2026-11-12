@@ -67,11 +67,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertCompoundWidthFeature::GetNominalLongitude](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundWidthFeature~GetNominalLongitude.html)
-
-.
+See [DimXpertCompoundWidthFeature::GetNominalLongitude](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCompoundWidthFeature~GetNominalLongitude.html).
 
 ## Remarks
 
@@ -80,7 +76,6 @@ The i, j, and k components of the longitudinal vector indicate the direction of 
 ## See Also
 
 [IDimXpertCompoundWidthFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundWidthFeature.html)
-
 [IDimXpertCompoundWidthFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCompoundWidthFeature_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_All_Sketch_Relations_and_Their_Types_Example_VB.htm"
 
 # Get All Sketch Relations and Their Types Example (VBA)
 
-This example shows how to get all of the sketch relations and their
-types for the selected sketch.
+This example shows how to get all of the sketch relations and their types for the selected sketch.
 
 ```
 '----------------------------------------------------------------

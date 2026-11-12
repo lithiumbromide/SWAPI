@@ -47,13 +47,7 @@ System.short IGetPixelmap(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,21 +55,17 @@ See
 
 ### Return Value
 
-- in-process, unmanaged C++: Pointer to an array containing groups of 3 or 4 values (see
-
-  Remarks
-
-  )
+- in-process, unmanaged C++: Pointer to an array containing groups of 3 or 4 values (see **Remarks**)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
 The array contains groups of three, the Red, Green, Blue (RGB) components of pixel color, and optionally, a fourth value that indicates the transparency of the pixel, which can be a value from 0 (transparent) to 255 (opaque).
 
-Before calling this method, call[ISketchPicture::GetPixelmapSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPicture~GetPixelmapSize.html)to get the value of Count.
+Before calling this method, call [ISketchPicture::GetPixelmapSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPicture~GetPixelmapSize.html) to get the value of Count.
 
 To determine the format of the data, you need the information returned by ISketchPicture::GetPixelmapSize:
 
@@ -83,14 +73,12 @@ Number of items per pixel = size / (rows * columns)
 
 Each group of three or four goes across each pixel in a row of the bitmap. The next row follows in the array.
 
-This raw data does not include translation, scaling, rotation, and flipping. SOLIDWORKS applies these properties to the raw bitmap data to draw it in the sketch.
+This raw data does not include translation, scaling, rotation, and flipping. SOLIDWORKS Design applies these properties to the raw bitmap data to draw it in the sketch.
 
 ## See Also
 
 [ISketchPicture Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture.html)
-
 [ISketchPicture Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture_members.html)
-
 [ISketchPicture::GetPixelmap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPicture~GetPixelmap.html)
 
 ## Availability

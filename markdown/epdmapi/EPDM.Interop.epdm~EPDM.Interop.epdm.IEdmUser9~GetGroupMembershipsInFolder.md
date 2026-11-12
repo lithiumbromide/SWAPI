@@ -43,21 +43,16 @@ System.array<Object^>^ GetGroupMembershipsInFolder(
 
 ### Return Value
 
-Array of
-
-[IEdmUserGroup8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup8.html)
-
-interfaces
+Array of [IEdmUserGroup8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup8.html) interfaces
 
 ## Examples
 
 [Add and Remove User and Group from Folder (C#)](Add_and_Remove_User_and_Group_from_Folder_Example_CSharp.htm)
-
 [Add and Remove User and Group from Folder (VB.NET)](Add_and_Remove_User_and_Group_from_Folder_Example_VBNET.htm)
 
 ## Remarks
 
-This method extends[IEdmUser8::GetGroupMemberships](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser8~GetGroupMemberships.html), which only gets global group memberships. As of SOLIDWORKS PDM Professional 2011, it is possible to assign group memberships to a specific folder. This method gets folder-specific group memberships.
+This method extends [IEdmUser8::GetGroupMemberships](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser8~GetGroupMemberships.html), which only gets global group memberships. As of SOLIDWORKS PDM Professional 2011, it is possible to assign group memberships to a specific folder. This method gets folder-specific group memberships.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -66,7 +61,6 @@ This method extends[IEdmUser8::GetGroupMemberships](EPDM.Interop.epdm~EPDM.Inter
 ## See Also
 
 [IEdmUser9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser9.html)
-
 [IEdmUser9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser9_members.html)
 
 ## Availability

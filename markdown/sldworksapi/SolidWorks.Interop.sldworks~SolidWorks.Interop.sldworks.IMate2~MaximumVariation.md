@@ -42,13 +42,7 @@ property System.double MaximumVariation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,21 +50,16 @@ Maximum variation for the dimension of this mate
 
 ## VBA Syntax
 
-See
-
-[Mate2::MaximumVariation](ms-its:sldworksapivb6.chm::/sldworks~Mate2~MaximumVariation.html)
-
-.
+See [Mate2::MaximumVariation](ms-its:sldworksapivb6.chm::/sldworks~Mate2~MaximumVariation.html).
 
 ## Examples
 
 [Edit Mate (VBA)](Edit_Mate_Example_VB.htm)
-
 [Get Mate Definition (VBA)](Get_Mate_Definition_Example_VB.htm)
 
 ## Remarks
 
-This property is valid only for[IMate2::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2~Type.html):
+This property is valid only for [IMate2::Type](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMate2~Type.html):
 
 - swMateType_e.swMateANGLE
 
@@ -80,16 +69,13 @@ This property is valid only for[IMate2::Type](SOLIDWORKS.Interop.sldworks~SOLIDW
 
 For distance and angle mates:
 
-`Maximum_variation`=`maximum_value`-`dimension_value`
+`Maximum_variation` = `maximum_value` - `dimension_value`
 
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
-
 [IMate2::DisplayDimension2 Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~DisplayDimension2.html)
-
 [IMate2::MinimumVariation Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~MinimumVariation.html)
 
 ## Availability

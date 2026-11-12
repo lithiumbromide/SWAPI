@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IMaterialPropertyValues Property (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IMaterialPropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IMaterialPropertyValues.html)
-
-.
+Obsolete. Superseded by [IFace2::IMaterialPropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IMaterialPropertyValues.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double IMaterialPropertyValues {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::IMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Face~IMaterialPropertyValues.html)
-
-.
+See [Face::IMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Face~IMaterialPropertyValues.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

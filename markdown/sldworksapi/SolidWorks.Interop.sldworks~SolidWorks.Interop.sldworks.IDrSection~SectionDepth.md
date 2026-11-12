@@ -45,13 +45,7 @@ property System.double SectionDepth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Distance from the section line of the section view
 
 ## VBA Syntax
 
-See
-
-[DrSection::SectionLayer](ms-its:sldworksapivb6.chm::/sldworks~DrSection~Layer.html)
-
-.
+See [DrSection::SectionLayer](ms-its:sldworksapivb6.chm::/sldworks~DrSection~Layer.html).
 
 ## Examples
 
-See the
-
-[IDrSection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html)
-
-examples.
+See the [IDrSection](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html) examples.
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
 
 ## Availability

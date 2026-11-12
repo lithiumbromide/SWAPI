@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPa
 
 # IPartDoc Interface Methods
 
-For a list of all members of this type, see[IPartDoc members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html).
+For a list of all members of this type, see [IPartDoc members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html).
 
 ## Public Methods
 
@@ -161,5 +161,4 @@ For a list of all members of this type, see[IPartDoc members](SolidWorks.Interop
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

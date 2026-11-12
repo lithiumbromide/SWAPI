@@ -11,8 +11,7 @@ source: "sldworksapi/Change_Color_of_Component_in_Specific_Display_State_Example
 
 This example shows how to change the color of a:
 
-- selected component in a
-  specific display state at the assembly and part levels.
+- selected component in a specific display state at the assembly and part levels.
 - component in its part document.
 
 ```
@@ -108,15 +107,15 @@ Partial Class SolidWorksMacro
         swAppearanceSetting.Color = newColor
 ```
 
-swAppearanceSetting. Diffuse = 0.8
+swAppearanceSetting.**Diffuse** = 0.8
 
-swAppearanceSetting. Specular = 0.5
+swAppearanceSetting.**Specular** = 0.5
 
-swAppearanceSetting. SpecularColor = newColor
+swAppearanceSetting.**SpecularColor** = newColor
 
-swAppearanceSetting. Luminous = 0.1
+swAppearanceSetting.**Luminous** = 0.1
 
-swAppearanceSetting. Transparent = 0.0
+swAppearanceSetting.**Transparent** = 0.0
 
 ```
         newAppearanceSetting(0) = swAppearanceSetting
@@ -155,15 +154,15 @@ swAppearanceSetting. Transparent = 0.0
         swAppearanceSetting.Color = newColor
 ```
 
-swAppearanceSetting. Diffuse = 0.8
+swAppearanceSetting.**Diffuse** = 0.8
 
-swAppearanceSetting. Specular = 0.5
+swAppearanceSetting.**Specular** = 0.5
 
-swAppearanceSetting. SpecularColor = newColor
+swAppearanceSetting.**SpecularColor** = newColor
 
-swAppearanceSetting. Luminous = 0.1
+swAppearanceSetting.**Luminous** = 0.1
 
-swAppearanceSetting. Transparent = 0.0
+swAppearanceSetting.**Transparent** = 0.0
 
 ```
         newAppearanceSetting(0) = swAppearanceSetting
@@ -211,15 +210,15 @@ swAppearanceSetting. Transparent = 0.0
         swAppearanceSetting.Color = newColor
 ```
 
-swAppearanceSetting. Diffuse = 0.8
+swAppearanceSetting.**Diffuse** = 0.8
 
-swAppearanceSetting. Specular = 0.5
+swAppearanceSetting.**Specular** = 0.5
 
-swAppearanceSetting. SpecularColor = newColor
+swAppearanceSetting.**SpecularColor** = newColor
 
-swAppearanceSetting. Luminous = 0.1
+swAppearanceSetting.**Luminous** = 0.1
 
-swAppearanceSetting. Transparent = 0.0
+swAppearanceSetting.**Transparent** = 0.0
 
 ```
         newAppearanceSetting(0) = swAppearanceSetting

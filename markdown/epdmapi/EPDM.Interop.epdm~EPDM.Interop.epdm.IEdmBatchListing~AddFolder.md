@@ -47,15 +47,11 @@ void AddFolder(
 
 - `oIdOrPath`: ID of folder to add; path is not supported in SOLIDWORKS PDM 2010
 - `lParam`: Caller-defined argument
-- `lEdmListFolderFlags`: Only
-
-[EdmListFiolderFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolderFlags.html)
-
-.EdmListFolder_Recursive is supported
+- `lEdmListFolderFlags`: Only [EdmListFiolderFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFolderFlags.html).EdmListFolder_Recursive is supported
 
 ## Remarks
 
-After calling this method for each folder whose properties you want to list, call[IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html)to create a listing of all the folders' properties.
+After calling this method for each folder whose properties you want to list, call [IEdmBatchListing::CreateList](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~CreateList.html) to create a listing of all the folders' properties.
 
 [Return codes](ReturnCodes.htm):
 
@@ -65,7 +61,6 @@ After calling this method for each folder whose properties you want to list, cal
 ## See Also
 
 [IEdmBatchListing Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing.html)
-
 [IEdmBatchListing Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing_members.html)
 
 ## Availability

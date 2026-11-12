@@ -40,13 +40,7 @@ System.bool InsertSaveOutBodies()
 System.bool InsertSaveOutBodies();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if the selected surface bodies or solid bodies or sub-weldments are saved t
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertSaveOutBodies](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSaveOutBodies.html)
-
-.
+See [FeatureManager::InsertSaveOutBodies](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertSaveOutBodies.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
 
 ## Availability

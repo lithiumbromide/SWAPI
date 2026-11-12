@@ -44,17 +44,11 @@ property System.int AnalysisType {
 
 ### Property Value
 
-Type of study as defined in
-
-[swsAnalysisStudyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAnalysisStudyType_e.html)
+Type of study as defined in [swsAnalysisStudyType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsAnalysisStudyType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::AnalysisType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~AnalysisType.html)
-
-.
+See [CWStudy::AnalysisType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~AnalysisType.html).
 
 ## Remarks
 
@@ -63,9 +57,7 @@ The proper license must be available to create the specified type of analysis. O
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::RunAnalysis Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~RunAnalysis.html)
 
 ## Availability

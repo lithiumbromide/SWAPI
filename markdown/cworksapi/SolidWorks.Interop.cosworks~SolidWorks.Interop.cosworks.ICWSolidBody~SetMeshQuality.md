@@ -49,7 +49,7 @@ System.bool SetMeshQuality(
 
 ### Parameters
 
-- `NMeshQuality`: Mesh quality as defined in[swsMeshQuality_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshQuality_e.html)
+- `NMeshQuality`: Mesh quality as defined in [swsMeshQuality_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMeshQuality_e.html)
 
 ### Return Value
 
@@ -57,16 +57,11 @@ System.bool SetMeshQuality(
 
 ## VBA Syntax
 
-See
-
-[CWSolidBody::SetMeshQuality](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidBody~SetMeshQuality.html)
-
-.
+See [CWSolidBody::SetMeshQuality](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSolidBody~SetMeshQuality.html).
 
 ## See Also
 
 [ICWSolidBody Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody.html)
-
 [ICWSolidBody Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSolidBody_members.html)
 
 ## Availability

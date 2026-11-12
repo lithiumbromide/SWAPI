@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo.html"
 
 # EdmBatchDelErrInfo Structure
 
-Contains information about an error that occurred during execution of
-
-[IEdmBatchDelete::CommitDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~CommitDelete.html)
-
-.
+Contains information about an error that occurred during execution of [IEdmBatchDelete::CommitDelete](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete~CommitDelete.html).
 
 ## Syntax
 
@@ -38,26 +34,25 @@ public value class EdmBatchDelErrInfo : public System.ValueType
 
 ## Examples
 
-struct EdmBatchDelErrInfo{ integer mlDocID ; integer mlProjID ; string mbsPathName ; integer mlErrorCode ; };
+struct EdmBatchDelErrInfo{
+integer [mlDocID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mlDocID.html);
+integer [mlProjID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mlProjID.html);
+string [mbsPathName](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mbsPathName.html);
+integer [mlErrorCode](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo~mlErrorCode.html);
+};
 
 ## Examples
 
 [Destroy Deleted Files in Vault (C#)](Destroy_Deleted_Files_in_Vault_Example_CSharp.htm)
-
 [Destroy Deleted Files in Vault (VB.NET)](Destroy_Deleted_Files_in_Vault_Example_VBNET.htm)
 
 ## Remarks
 
-Returned by
-
-[IEdmBatchDelete3::GetCommitErrors](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3~GetCommitErrors.html)
-
-.
+Returned by [IEdmBatchDelete3::GetCommitErrors](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchDelete3~GetCommitErrors.html).
 
 ## See Also
 
 [EdmBatchDelErrInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchDelErrInfo_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

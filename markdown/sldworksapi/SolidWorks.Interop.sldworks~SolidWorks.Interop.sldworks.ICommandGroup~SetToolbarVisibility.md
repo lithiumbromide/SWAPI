@@ -50,41 +50,23 @@ void SetToolbarVisibility(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Visible`: True to show the toolbar, false to hide it
-- `Mask`: Context in which to show or hide toolbar as defined in
-
-[swDocTemplateTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocTemplateTypes_e.html)
-
-}}end!kadov
+- `Mask`: Context in which to show or hide toolbar as defined in [swDocTemplateTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocTemplateTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[CommandGroup::SetToolbarVisibility](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~SetToolbarVisibility.html)
-
-.
+See [CommandGroup::SetToolbarVisibility](ms-its:sldworksapivb6.chm::/sldworks~CommandGroup~SetToolbarVisibility.html).
 
 ## See Also
 
 [ICommandGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup.html)
-
 [ICommandGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup_members.html)
-
 [ICommandGroup::HasMenu Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~HasMenu.html)
-
 [ICommandGroup::HasToolbar Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandGroup~HasToolbar.html)
-
 [ICommandManager::AddContextMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager~AddContextMenu.html)
 
 ## Availability

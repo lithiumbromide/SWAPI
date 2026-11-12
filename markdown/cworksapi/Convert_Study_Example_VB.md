@@ -9,8 +9,7 @@ source: "cworksapi/Convert_Study_Example_VB.htm"
 
 # Convert Study Example (VBA)
 
-This example shows how to convert a static study to a linear dynamic harmonic
-study.
+This example shows how to convert a static study to a linear dynamic harmonic study.
 
 ```vb
  '----------------------------------------------------------------------------

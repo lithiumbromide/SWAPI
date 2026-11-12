@@ -24,82 +24,32 @@ This example shows how to get the origin of an assembly component.
 Option Explicit
 ```
 
+```vb
 Sub main()
+    Dim swApp                       As SldWorks.SldWorks
+    Dim swModel                     As SldWorks.ModelDoc2
+    Dim swSelMgr                    As SldWorks.SelectionMgr
+    Dim swSelComp                   As SldWorks.Component2
+    Dim swCompModel                 As SldWorks.ModelDoc2
+    Dim swFeat                      As SldWorks.Feature
+    Dim bRet                        As Boolean
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAppkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SldWorks
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Set swSelMgr = swModel.SelectionManager
+    Set swSelComp = swSelMgr.GetSelectedObjectsComponent(1)
+    Set swCompModel = swSelComp.GetModelDoc
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelDoc2
+    swModel.ClearSelection2 True
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSelMgrkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SelectionMgr
+    Set swFeat = swSelComp.FirstFeature
+    Do While Not swFeat Is Nothing
+        If "OriginProfileFeature" = swFeat.GetTypeName Then
+            bRet = swFeat.Select2(False, 0)
+            Exit Do
+        End If
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSelCompkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.Component2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swCompModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelDoc2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swFeatkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.Feature
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bRetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swSelMgr = swModel.SelectionManager
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swSelComp = swSelMgr.GetSelectedObjectsComponent(1)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swCompModel = swSelComp.GetModelDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel.ClearSelection2True
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swFeat = swSelComp.FirstFeature
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Do
-While Not swFeat Is Nothing
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-"OriginProfileFeature" = swFeat.GetTypeNameThen
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}bRet
-= swFeat.Select2(False, 0)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Exit
-Do
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swFeat = swFeat.GetNextFeature
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Loop
-
+        Set swFeat = swFeat.GetNextFeature
+    Loop
 End Sub
+```

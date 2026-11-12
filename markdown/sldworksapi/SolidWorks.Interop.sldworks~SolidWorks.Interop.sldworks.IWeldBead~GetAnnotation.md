@@ -40,13 +40,7 @@ Annotation GetAnnotation()
 Annotation^ GetAnnotation();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[WeldBead::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~WeldBead~GetAnnotation.html)
-
-.
+See [WeldBead::GetAnnotation](ms-its:sldworksapivb6.chm::/sldworks~WeldBead~GetAnnotation.html).
 
 ## Examples
 
-See the
-
-[IWeldBead](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html)
-
-examples.
+See the [IWeldBead](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html) examples.
 
 ## See Also
 
 [IWeldBead Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html)
-
 [IWeldBead Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead_members.html)
-
 [IWeldBead::GetNext Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead~GetNext.html)
 
 ## Availability

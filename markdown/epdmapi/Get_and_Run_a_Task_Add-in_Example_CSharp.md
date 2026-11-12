@@ -9,41 +9,33 @@ source: "epdmapi/Get_and_Run_a_Task_Add-in_Example_CSharp.htm"
 
 # Get and Run a Task Add-in Example (C#)
 
-This example shows how to get a task add-in that is
-registered in the Admin tool and run it.
+This example shows how to get a task add-in that is registered in the Admin tool and run it.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
  //----------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- //    a. Click File > New > Project > Visual C# > Windows Forms Application.
- //    b. Type TasksDemo in Name.
- //    c. Click Browse and navigate to the folder where to create the project.
- //    d. Click OK.
- //    e. Click Show All Files in the Solution Explorer toolbar and expand
- //       Form1.cs in the Solution Explorer.
- //    f. Replace the code in Form1.cs with this code.
- //    g. To create the form, replace the code in Form1.Designer.cs with
- //       this code.
- // 2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- //    name in the Solution Explorer, click Add Reference, click
- //    Assemblies > Framework in the left-side panel, browse to the top folder of
- //    your SOLIDWORKS PDM Professional installation, locate and select
- //    EPDM.Interop.epdm.dll, click Open, click Add, and click Close).
- // 3. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //    Embed Interop Types to False to handle methods that pass arrays of
- //    structures.
- // 4. Ensure that a task add-in has been registered with the Administration tool.
- // 5. Ensure that a task to run the task add-in has been created in the
+ // 2. Click File > New > Project > C#, Windows, Desktop > Windows Forms App.
+ // 3. Type TasksDemo in Project name.
+ // 4. For Location, click ... and navigate to the folder where to create the project.
+ // 5. Click Next.
+ // 6. Select Framework.
+ // 7. Click Create.
+ // 8. Click Show All Files in the Solution Explorer toolbar and expand
+ //    Form1.cs in the Solution Explorer.
+ // 9. Replace the code in Form1.cs with this code.
+ //10. To create the form, replace the code in Form1.Designer.cs with
+ //    this code.
+ //11.     Add dependencies and safely pass arrays of structures.
+ //12. Ensure that a task add-in has been registered with the Administration tool.
+ //13. Ensure that a task to run the task add-in has been created in the
  //    Administration tool.
- // 6. Ensure that your vault has permission to run the task add-in by selecting
+ //14. Ensure that your vault has permission to run the task add-in by selecting
  //    Permit in Task Host Configuration dialog. (Right-click the SOLIDWORKS PDM
  //    icon on the notification tool bar and select Task Host Configuration.)
- // 7. Click Debug > Start Debugging or press F5.
+ //15. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  // 1. In the Vaults dropdown, select the vault permitted to run the task add-in.

@@ -45,44 +45,23 @@ property System.Object^ UserDefinedTrimFaces {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of
-
-[IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
+Array of [IFace2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
 
 ## VBA Syntax
 
-See
-
-[SimpleCornerTreatmentFeatureData::UserDefinedTrimFaces](ms-its:sldworksapivb6.chm::/sldworks~SimpleCornerTreatmentFeatureData~UserDefinedTrimFaces.html)
-
-.
+See [SimpleCornerTreatmentFeatureData::UserDefinedTrimFaces](ms-its:sldworksapivb6.chm::/sldworks~SimpleCornerTreatmentFeatureData~UserDefinedTrimFaces.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ISimpleCornerTreatmentFeatureData::PlanarTrimToolType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData~PlanarTrimToolType.html)
-
-is set to
-
-[swCornerTreatmentPlanarTriimToolType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerTreatmentPlanarTrimToolType_e.html)
-
-.CornerTreatmentPlanarTrimTool_UserDefined.
+This property is valid only if [ISimpleCornerTreatmentFeatureData::PlanarTrimToolType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData~PlanarTrimToolType.html) is set to [swCornerTreatmentPlanarTriimToolType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerTreatmentPlanarTrimToolType_e.html).CornerTreatmentPlanarTrimTool_UserDefined.
 
 ## See Also
 
 [ISimpleCornerTreatmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData.html)
-
 [ISimpleCornerTreatmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleCornerTreatmentFeatureData_members.html)
 
 ## Availability

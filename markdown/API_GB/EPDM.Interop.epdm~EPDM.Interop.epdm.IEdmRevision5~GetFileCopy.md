@@ -49,16 +49,8 @@ void GetFileCopy(
 ### Parameters
 
 - `lParentWnd`: Parent window handle
-- `poPathOrFolderID`: Path or ID of the folder where to place the file; default copies the file to all of the folders to which it is shared (see
-
-Remarks
-
-)
-- `lEdmGetFlags`: Optional combination of
-
-[EdmGetFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetFlag.html)
-
-bits; default is EdmGetFlag.EdmGet_MakeReadOnly
+- `poPathOrFolderID`: Path or ID of the folder where to place the file; default copies the file to all of the folders to which it is shared (see **Remarks**)
+- `lEdmGetFlags`: Optional combination of [EdmGetFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmGetFlag.html) bits; default is EdmGetFlag.EdmGet_MakeReadOnly
 - `bsNewName`: Optional new name of the file copy; "" to use the file's current name
 
 ## Remarks
@@ -75,7 +67,6 @@ If you specify a path for poPathOrFolderID, you can either give a file path or a
 ## See Also
 
 [IEdmRevision5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5.html)
-
 [IEdmRevision5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRevision5_members.html)
 
 ## Availability

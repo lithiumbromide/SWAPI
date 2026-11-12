@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IMaterialPropertyValues Property (IBody2)
 
-Obsolete. Superseded by
-
-[IBody2::IMaterialPropertyValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IMaterialPropertyValues2.html)
-
-.
+Obsolete. Superseded by [IBody2::IMaterialPropertyValues2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IMaterialPropertyValues2.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.double IMaterialPropertyValues {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Body2::IMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Body2~IMaterialPropertyValues.html)
-
-.
+See [Body2::IMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~Body2~IMaterialPropertyValues.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)

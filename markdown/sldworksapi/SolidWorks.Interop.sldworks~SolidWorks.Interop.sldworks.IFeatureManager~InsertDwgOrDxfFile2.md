@@ -51,13 +51,7 @@ Feature^ InsertDwgOrDxfFile2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,24 +64,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertDwgOrDxfFile2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertDwgOrDxfFile2.html)
-
-.
+See [FeatureManager::InsertDwgOrDxfFile2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertDwgOrDxfFile2.html).
 
 ## Examples
 
 [Insert and Position DXF/DWG File in Drawing (VBA)](Insert_and_Position_DXF_File_in_Drawing_Example_VB.htm)
-
 [Insert and Position DXF/DWG File in Drawing (VB.NET)](Insert_and_Position_DXF_File_in_Drawing_Example_VBNET.htm)
-
 [Insert and Position DXF/DWG File in Drawing (C#)](Insert_and_Position_DXF_File_in_Drawing_Example_CSharp.htm)
-
 [Insert DXF/DWG File and Add Dimensions (VBA)](Insert_DXF_File_and_Add_Dimension_Example_VB.htm)
-
 [Insert DXF/DWG File and Add Dimensions (VB.NET)](Insert_DXF_File_and_Add_Dimensions_Example_VBNET.htm)
-
 [Insert DXF/DWG File and Add Dimensions (C#)](Insert_DXF_File_and_Add_Dimensions_Example_CSharp.htm)
 
 ## Remarks
@@ -104,13 +89,13 @@ When importing DXF/DWG data, you can:
 - Let SOLIDWORKS determine the default values:
 - - Paper size and sheet scale are computed to fit the input data.
   - Length unit is determined from the header of the input DXF/DWG file.
-  - Sheet nameis the same as the layout name in the input DXF/DWG file.
+  - Sheet name is the same as the layout name in the input DXF/DWG file.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}- or -
+- or -
 
 - Set your own values:
 
-  1. Call[ISldWorks::GetImportFileData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetImportFileData.html)to obtain the IImportDxfDwgData interface.
+  1. Call [ISldWorks::GetImportFileData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetImportFileData.html) to obtain the IImportDxfDwgData interface.
   2. Use the following methods with a Sheet argument of "" (an empty string), to set up your defaults:
 
     - [IImportDxfDwgData::GetPaperSize](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportDxfDwgData~GetPaperSize.html)
@@ -131,9 +116,7 @@ NOTES:
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [ISldWorks::LoadFile4 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadFile4.html)
 
 ## Availability

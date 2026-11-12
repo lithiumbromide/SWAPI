@@ -39,40 +39,25 @@ void InsertRoutePoint()
 void InsertRoutePoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertRoutePoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertRoutePoint.html)
-
-.
+See [ModelDoc2::InsertRoutePoint](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertRoutePoint.html).
 
 ## Remarks
 
-If the selection set is not complete, then theInsert Route Pointdialog is displayed.
+If the selection set is not complete, then the Insert Route Point dialog is displayed.
 
 The route point is the point on the fitting that aligns with the sketch point when the fitting is inserted.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::EditRoute Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditRoute.html)
-
 [IAssemblyDoc::GetRouteManager Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~GetRouteManager.html)
-
 [IAssemblyDoc::IsRouteAssembly Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~IsRouteAssembly.html)
-
 [IFeatureManager::InsertConnectionPoint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertConnectionPoint.html)
 
 ## Availability

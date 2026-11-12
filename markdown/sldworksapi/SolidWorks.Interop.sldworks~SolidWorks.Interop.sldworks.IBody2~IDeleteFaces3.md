@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # IDeleteFaces3 Method (IBody2)
 
-Obsolete. Superseded by
-
-[IBody2::IDeleteFaces4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DeleteFaces4.html)
-
-.
+Obsolete. Superseded by [IBody2::IDeleteFaces4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~DeleteFaces4.html).
 
 ## Syntax
 
@@ -66,43 +62,23 @@ void IDeleteFaces3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumOfFaces`: Number of faces to delete
-- `FaceList`: Array containing the
-
-[faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-to delete
-- `Option`: Additional control (see
-
-Remarks
-
-)
+- `FaceList`: Array containing the [faces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) to delete
+- `Option`: Additional control (see **Remarks**)
 - `DoLocalCheck`: True checks the bodies during the operation and sets retval to indicate whether or not the resultant body is valid, false does not
 - `LocalCheckResult`: True if body is valid, false if not; to obtain this value, you must pass True for the DoLocalCheck argument
 
 ## VBA Syntax
 
-See
-
-[Body2::IDeleteFaces3](ms-its:sldworksapivb6.chm::/sldworks~Body2~IDeleteFaces3.html)
-
-.
+See [Body2::IDeleteFaces3](ms-its:sldworksapivb6.chm::/sldworks~Body2~IDeleteFaces3.html).
 
 ## Remarks
 
 All of the specified faces, which must belong to this temporary body, are deleted from IBody2. If the resulting body does not have a complete boundary, then SOLIDWORKS treats any holes as wounds and heals them as specified by the option argument. The option argument takes the following values:
-
-(Table)=========================================================
 
 | Value | Loops on the faces to delete are... |
 | --- | --- |
@@ -114,12 +90,11 @@ For example, consider a cube with a through hole made up of four faces (a square
 
 Now consider the same cube with a through hole, except this through hole is a simple cylinder (one face). To delete the cylindrical face, specify option 1 to heal the loops independently. This is necessary because the cylindrical face actually has two loops (one at either end of the cylinder) that need to be healed separately.
 
-It is possible to generate invalid geometry when you use this method because checking is disabled. Call[IBody2::Check3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Check3.html)to verify that the body is a valid solid after using this method.
+It is possible to generate invalid geometry when you use this method because checking is disabled. Call [IBody2::Check3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~Check3.html) to verify that the body is a valid solid after using this method.
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

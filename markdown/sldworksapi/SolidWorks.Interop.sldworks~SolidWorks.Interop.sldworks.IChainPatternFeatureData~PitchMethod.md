@@ -45,38 +45,25 @@ property System.int PitchMethod {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pitch method as defined in
-
-[swChainPatternPitchMethod_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChainPatternPitchMethod_e.html)
+Pitch method as defined in [swChainPatternPitchMethod_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChainPatternPitchMethod_e.html)
 
 ## VBA Syntax
 
-See
-
-[ChainPatternFeatureData::PitchMethod](ms-its:sldworksapivb6.chm::/sldworks~ChainPatternFeatureData~PitchMethod.html)
-
-.
+See [ChainPatternFeatureData::PitchMethod](ms-its:sldworksapivb6.chm::/sldworks~ChainPatternFeatureData~PitchMethod.html).
 
 ## Remarks
 
 This property gets or sets the type of chain feature pattern.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this property.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this property.
 
 ## See Also
 
 [IChainPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData.html)
-
 [IChainPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData_members.html)
 
 ## Availability

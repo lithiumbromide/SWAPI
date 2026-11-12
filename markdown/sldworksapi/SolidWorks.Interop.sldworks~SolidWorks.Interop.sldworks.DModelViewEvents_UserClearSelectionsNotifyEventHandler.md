@@ -12,7 +12,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DMo
 Fired when a user:
 
 1. Clicks the right-mouse button when the pointer is over a selection box on a PropertyManager page.
-2. SelectsClear Selectionson the short-cut menu.
+2. Selects Clear Selections on the short-cut menu.
 
 ## Syntax
 
@@ -40,29 +40,15 @@ public delegate System.int DModelViewEvents_UserClearSelectionsNotifyEventHandle
 public delegate System.int DModelViewEvents_UserClearSelectionsNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[UserClearSelectionsNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~UserClearSelectionsNotify_EV.html)
-
-.
+See [UserClearSelectionsNotify Event (ModelView)](ms-its:sldworksapivb6.chm::/SldWorks~ModelView~UserClearSelectionsNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swViewUserClearSelectionsNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swViewUserClearSelectionsNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swViewNotify_e.html) to register for this notification.
 
 ## Availability
 

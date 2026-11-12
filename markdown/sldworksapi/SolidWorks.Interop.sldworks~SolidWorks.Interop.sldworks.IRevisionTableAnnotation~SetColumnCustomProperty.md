@@ -51,13 +51,7 @@ System.bool SetColumnCustomProperty(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,15 +60,11 @@ See
 
 ### Return Value
 
-True if custom property is successfully set, false if notParamDesc
+True if custom property is successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[RevisionTableAnnotation::SetColumnCustomProperty](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~SetColumnCustomProperty.html)
-
-.
+See [RevisionTableAnnotation::SetColumnCustomProperty](ms-its:sldworksapivb6.chm::/sldworks~RevisionTableAnnotation~SetColumnCustomProperty.html).
 
 ## Remarks
 
@@ -82,18 +72,15 @@ Use this method to create a user-defined column where each row in the column is 
 
 To create a user-defined column that is not attached to a custom property; for example, you want to fill in each row of the column yourself, use this method with the CustomProp value specified as the title of the column.
 
-To get the list of available custom properties, use[IRevisionTableAnnotation::GetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~GetAllCustomProperties.html)or[IRevisionTableAnnotation::IGetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~IGetAllCustomProperties.html). The list of possible custom properties includes all of the items in the revision table, which includes items from the file summary items and file custom properties that have been set.
+To get the list of available custom properties, use [IRevisionTableAnnotation::GetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~GetAllCustomProperties.html) or [IRevisionTableAnnotation::IGetAllCustomProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRevisionTableAnnotation~IGetAllCustomProperties.html). The list of possible custom properties includes all of the items in the revision table, which includes items from the file summary items and file custom properties that have been set.
 
 This method returns false if the column is not a user-defined column, and no action is taken.
 
 ## See Also
 
 [IRevisionTableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation.html)
-
 [IRevisionTableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation_members.html)
-
 [IRevisionTableAnnotation::GetAllCustomPropertiesCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~GetAllCustomPropertiesCount.html)
-
 [IRevisionTableAnnotation::GetColumnCustomProperty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevisionTableAnnotation~GetColumnCustomProperty.html)
 
 ## Availability

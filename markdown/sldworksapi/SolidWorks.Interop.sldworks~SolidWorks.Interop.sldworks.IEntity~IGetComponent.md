@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IGetComponent Method (IEntity)
 
-Obsolete. Superseded by
-
-[IEntity::IGetComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity~IGetComponent2.html)
-
-.
+Obsolete. Superseded by [IEntity::IGetComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity~IGetComponent2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Component IGetComponent()
 Component^ IGetComponent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Entity::IGetComponent](ms-its:sldworksapivb6.chm::/sldworks~Entity~IGetComponent.html)
-
-.
+See [Entity::IGetComponent](ms-its:sldworksapivb6.chm::/sldworks~Entity~IGetComponent.html).
 
 ## See Also
 
 [IEntity Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity.html)
-
 [IEntity Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity_members.html)

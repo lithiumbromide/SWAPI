@@ -40,13 +40,7 @@ System.bool EditUnsuppressDependent2()
 System.bool EditUnsuppressDependent2();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the selected feature or component and their dependents are unsuppressed,
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::EditUnsuppressDependent2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EditUnsuppressDependent2.html)
-
-.
+See [ModelDoc2::EditUnsuppressDependent2](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~EditUnsuppressDependent2.html).
 
 ## Remarks
 
@@ -67,11 +57,8 @@ This method is identical to the obsoleted IModelDoc2::EditUnsuppressDependent me
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::EditSuppress2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditSuppress2.html)
-
 [IModelDoc2::EditUnsuppress2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditUnsuppress2.html)
 
 ## Availability

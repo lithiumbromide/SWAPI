@@ -39,28 +39,16 @@ void InsertAngularRunningDim()
 void InsertAngularRunningDim();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertAngularRunningDim](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertAngularRunningDim.html)
-
-.
+See [DrawingDoc::InsertAngularRunningDim](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertAngularRunningDim.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IModelDocExtension::AddAngularRunningDim Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~AddAngularRunningDim.html)
 
 ## Availability

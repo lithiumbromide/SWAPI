@@ -55,27 +55,13 @@ System.bool SetOverrideMassValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Value`: Override mass value (see
-
-Remarks
-
-)
-- `Config_option`: Configuration option as defined in[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
-- `Config_names`: Array of configuration names (see
-
-Remarks
-
-)
+- `Value`: Override mass value (see **Remarks**)
+- `Config_option`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Config_names`: Array of configuration names (see **Remarks**)
 
 ### Return Value
 
@@ -83,18 +69,12 @@ True if the mass value is overridden, false if not
 
 ## VBA Syntax
 
-See
-
-[MassProperty::SetOverrideMassValue](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~SetOverrideMassValue.html)
-
-.
+See [MassProperty::SetOverrideMassValue](ms-its:sldworksapivb6.chm::/sldworks~MassProperty~SetOverrideMassValue.html).
 
 ## Examples
 
 [Get and Override Mass Properties (VBA)](Get_Mass_Properties_using_MassProperty_Object_Example_VB.htm)
-
 [Get and Override Mass Properties (VB.NET)](Get_Mass_Properties_Using_IMassProperty_Example_VBNET.htm)
-
 [Get and Override Mass Properties (C#)](Get_Mass_Properties_Using_IMassProperty_Example_CSharp.htm)
 
 ## Remarks
@@ -108,11 +88,8 @@ See
 ## See Also
 
 [IMassProperty Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty.html)
-
 [IMassProperty Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty_members.html)
-
 [IMassProperty::ISetOverrideMassValue Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~ISetOverrideMassValue.html)
-
 [IMassProperty::OverrideMass Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMassProperty~OverrideMass.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DSl
 
 # DSldWorksEvents_FileNewPreNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Fired before a new document is created either using the SOLIDWORKS API or the SOLIDWORKS user-interface.
+Fired before a new document is created using either the SOLIDWORKS API or the SOLIDWORKS application.
 
 ## Syntax
 
@@ -46,45 +46,29 @@ public delegate System.int DSldWorksEvents_FileNewPreNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DocType`: Document type as defined by
-
-[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `DocType`: Document type as defined by [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
 - `TemplateName`: Template path name or file extension
 
 ## VBA Syntax
 
-See
-
-[FileNewPreNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileNewPreNotify_EV.html)
-
-.
+See [FileNewPreNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileNewPreNotify_EV.html).
 
 ## Remarks
 
-Creating a new document using the SOLIDWORKS user-interface includes:
+Creating a new document using SOLIDWORKS includes:
 
-- Clicking a document-type button on theNew SOLIDWORKS Documentdialog.
-- inserting a new component (part or assembly).
+- Clicking a document-type button on the New SOLIDWORKS Document dialog.
+- Inserting a new component (part or assembly).
 
-NOTE:This event is not raised when creating split parts.
+NOTE: This event is not raised when creating split parts.
 
 You can cancel the creation of a new document by returning S_FALSE(1) from the event handler.
 
-If developing a C++ application, use
-
-[swAppFileNewPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppFileNewPreNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

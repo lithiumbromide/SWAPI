@@ -45,13 +45,7 @@ property System.String^ Message {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Non-empty message string
 
 ## VBA Syntax
 
-See
-
-[UserNotificationDefinition::Message](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~Message.html)
-
-.
+See [UserNotificationDefinition::Message](ms-its:sldworksapivb6.chm::/sldworks~UserNotificationDefinition~Message.html).
 
 ## Examples
 
-See the
-
-[IUserNotificationHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html)
-
-examples.
+See the [IUserNotificationHandler](ms-its:swpublishedapi.chm::/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IUserNotificationHandler.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ This property must be set.
 ## See Also
 
 [IUserNotificationDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition.html)
-
 [IUserNotificationDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserNotificationDefinition_members.html)
 
 ## Availability

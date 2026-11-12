@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetReferencesInformation Method (ISwDMConfiguration6)
 
-Obsolete. Superseded by
-
-[ISwDMConfiguration8::GetReferencesInformation2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration8~GetReferencesInformation2.html)
-
-.
+Obsolete. Superseded by [ISwDMConfiguration8::GetReferencesInformation2](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMConfiguration8~GetReferencesInformation2.html).
 
 ## Syntax
 
@@ -61,20 +57,12 @@ void GetReferencesInformation(
 ### Parameters
 
 - `references`: Array of paths and names of the reference documents
-- `configurations`: Array of configuration names
-
-ParamDesc
-
-of the reference documents
+- `configurations`: Array of configuration names of the reference documents
 - `sstates`: Array of Booleans indicating if the reference document is suppressed (true) or not (false)
 
 ## VBA Syntax
 
-See
-
-[SwDMConfiguration6::GetReferencesInformation](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration6~GetReferencesInformation.html)
-
-.
+See [SwDMConfiguration6::GetReferencesInformation](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfiguration6~GetReferencesInformation.html).
 
 ## Remarks
 
@@ -83,7 +71,6 @@ This method only works with references modified using SOLIDWORKS Document Manage
 ## See Also
 
 [ISwDMConfiguration6 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration6.html)
-
 [ISwDMConfiguration6 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfiguration6_members.html)
 
 ## Availability

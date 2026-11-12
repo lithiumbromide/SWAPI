@@ -46,13 +46,7 @@ void CloseUserNotification(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,16 +54,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::CloseUserNotification](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CloseUserNotification.html)
-
-.
+See [SldWorks::CloseUserNotification](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~CloseUserNotification.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Distance_Between_Entities_Example_VBNET.htm"
 
 # Get Distance Between Entities Example (VB.NET)
 
-This example shows how to get the minimum and maximum distances between face
-and edge entities.
+This example shows how to get the minimum and maximum distances between face and edge entities.
 
 ```
 '---------------------------------------------------------------------------

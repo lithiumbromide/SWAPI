@@ -40,13 +40,7 @@ System.int GetTangentEdgesCount()
 System.int GetTangentEdgesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ Number of tangent edges
 
 ## VBA Syntax
 
-See
-
-[Edge::GetTangentEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetTangentEdgesCount.html)
-
-.
+See [Edge::GetTangentEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~Edge~GetTangentEdgesCount.html).
 
 ## Remarks
 
-Call this method before calling[IEdge::IGetTangentEdges.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetTangentEdges.html)
+Call this method before calling [IEdge::IGetTangentEdges.](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetTangentEdges.html)
 
 ## See Also
 
 [IEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
 [IEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge_members.html)
-
 [IEdge::GetTangentEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge~GetTangentEdges.html)
 
 ## Availability

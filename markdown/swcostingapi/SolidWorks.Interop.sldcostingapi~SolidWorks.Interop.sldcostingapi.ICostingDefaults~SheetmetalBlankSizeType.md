@@ -47,34 +47,21 @@ property System.int SheetmetalBlankSizeType {
 
 ### Property Value
 
-Default type of sheet metal blank size as defined in
-
-[swcSheetMetalBlankSizeType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcSheetMetalBlankSizeType_e.html)
+Default type of sheet metal blank size as defined in [swcSheetMetalBlankSizeType_e](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.swcSheetMetalBlankSizeType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CostDefaults::SheetmetalBlankSizeType](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~SheetmetalBlankSizeType.html)
-
-.
+See [CostDefaults::SheetmetalBlankSizeType](swcostingapivb6.chm::/SldCostingAPI~CostingDefaults~SheetmetalBlankSizeType.html).
 
 ## Examples
 
-See the
-
-[ICostingDefaults](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
-examples.
+See the [ICostingDefaults](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html) examples.
 
 ## See Also
 
 [ICostingDefaults Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults.html)
-
 [ICostingDefaults Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults_members.html)
-
 [ICostingDefaults::MachiningStockBodyType Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~MachiningStockBodyType.html)
-
 [ICostingDefaults::StructuralMemberStockType Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostingDefaults~StructuralMemberStockType.html)
 
 ## Availability

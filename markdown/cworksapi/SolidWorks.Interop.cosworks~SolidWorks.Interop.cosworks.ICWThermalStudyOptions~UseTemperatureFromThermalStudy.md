@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTh
 
 # UseTemperatureFromThermalStudy Property (ICWThermalStudyOptions)
 
-Obsolete. Superseded by ICWThermalStudyOptions::UseTemperatureFromThermalStudy2.
+Obsolete. Superseded by [ICWThermalStudyOptions::UseTemperatureFromThermalStudy2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions~UseTemperatureFromThermalStudy2.html).
 
 ## Syntax
 
@@ -52,16 +52,11 @@ property System.int UseTemperatureFromThermalStudy {
 
 ## VBA Syntax
 
-See
-
-[CWThermalStudyOptions::UseTemperatureFromThermalStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~UseTemperatureFromThermalStudy.html)
-
-.
+See [CWThermalStudyOptions::UseTemperatureFromThermalStudy](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWThermalStudyOptions~UseTemperatureFromThermalStudy.html).
 
 ## See Also
 
 [ICWThermalStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions.html)
-
 [ICWThermalStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWThermalStudyOptions_members.html)
 
 ## Availability

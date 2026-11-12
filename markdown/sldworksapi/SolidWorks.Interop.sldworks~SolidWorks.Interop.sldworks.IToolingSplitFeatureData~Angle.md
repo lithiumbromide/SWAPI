@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITo
 
 # Angle Property (IToolingSplitFeatureData)
 
-Gets or sets the draft angle for this tooling split feature if an
-
-[interlock surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~InterlockSurface.html)
-
-exists.
+Gets or sets the draft angle for this tooling split feature if an [interlock surface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IToolingSplitFeatureData~InterlockSurface.html) exists.
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.double Angle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,28 +53,19 @@ Angle in radians
 
 ## VBA Syntax
 
-See
-
-[ToolingSplitFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~ToolingSplitFeatureData~Angle.html)
-
-.
+See [ToolingSplitFeatureData::Angle](ms-its:sldworksapivb6.chm::/sldworks~ToolingSplitFeatureData~Angle.html).
 
 ## Examples
 
-See the
-
-[IToolingSplitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
-
-examples.
+See the [IToolingSplitFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html) examples.
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IToolingSplitFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData.html)
-
 [IToolingSplitFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IToolingSplitFeatureData_members.html)
 
 ## Availability

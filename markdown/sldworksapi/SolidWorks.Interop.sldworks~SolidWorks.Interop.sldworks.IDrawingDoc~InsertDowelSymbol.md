@@ -40,13 +40,7 @@ System.object InsertDowelSymbol()
 System.Object^ InsertDowelSymbol();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::InsertDowelSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertDowelSymbol.html)
-
-.
+See [DrawingDoc::InsertDowelSymbol](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~InsertDowelSymbol.html).
 
 ## Examples
 
 [Flip Dowel Pin Symbol (C#)](Flip_Dowel_Pin_Symbol_Example_CSharp.htm)
-
 [Flip Dowel Pin Symbol (VB.NET)](Flip_Dowel_Pin_Symbol_Example_VBNET.htm)
-
 [Flip Dowel Pin Symbol (VBA)](Flip_Dowel_Pin_Symbol_Example_VB.htm)
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::IInsertDowelSymbol Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~IInsertDowelSymbol.html)
 
 ## Availability

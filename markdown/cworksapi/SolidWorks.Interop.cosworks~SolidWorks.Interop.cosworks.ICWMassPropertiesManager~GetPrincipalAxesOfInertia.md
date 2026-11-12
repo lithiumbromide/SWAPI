@@ -42,27 +42,15 @@ System.Object^ GetPrincipalAxesOfInertia();
 
 ### Return Value
 
-2D array of vector coefficients of the three principal axes of inertia (see
-
-Remarks
-
-)
+2D array of vector coefficients of the three principal axes of inertia (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager::GetPrincipalAxesOfInertia](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~GetPrincipalAxesOfInertia.html)
-
-.
+See [CWMassPropertiesManager::GetPrincipalAxesOfInertia](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~GetPrincipalAxesOfInertia.html).
 
 ## Examples
 
-See the
-
-[ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
-examples.
+See the [ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html) examples.
 
 ## Remarks
 
@@ -70,18 +58,14 @@ A principal axis is one of three mutually perpendicular axes in a body about whi
 
 This method returns nine doubles as follows:
 
-[`axis1_lx`,`axis1_ly`,`axis1_lz`,`axis2_lx`,`axis2_ly`,`axis2_lz`,`axis3_lx`,`axis3_ly`,`axis3_lz`]
+[ `axis1_lx`, `axis1_ly`, `axis1_lz`, `axis2_lx`, `axis2_ly`, `axis2_lz`, `axis3_lx`, `axis3_ly`, `axis3_lz` ]
 
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
-
 [ICWMassPropertiesManager::GetMomentOfInertia Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetMomentOfInertia.html)
-
 [ICWMassPropertiesManager::GetMomentOfInertiaAtOutputCoordinateSystem Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetMomentOfInertiaAtOutputCoordinateSystem.html)
-
 [ICWMassPropertiesManager::GetPrincipalMomentOfInertia Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager~GetPrincipalMomentOfInertia.html)
 
 ## Availability

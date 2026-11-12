@@ -55,13 +55,7 @@ System.bool SetCoords(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,11 +69,7 @@ True if the coordinates are successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchPoint::SetCoords](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~SetCoords.html)
-
-.
+See [SketchPoint::SetCoords](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~SetCoords.html).
 
 ## Remarks
 
@@ -90,15 +80,10 @@ To set the coordinates of a sketch point on a spline, the location of the sketch
 ## See Also
 
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
 [ISketchPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint_members.html)
-
 [ISketchPoint::GetCoords Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~GetCoords.html)
-
 [ISketchPoint::X Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~X.html)
-
 [ISketchPoint::Y Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~Y.html)
-
 [ISketchPoint::Z Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~Z.html)
 
 ## Availability

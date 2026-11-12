@@ -40,13 +40,7 @@ System.bool IsBossFeature()
 System.bool IsBossFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if revolution is a boss feature, false if not
 
 ## VBA Syntax
 
-See
-
-[RevolveFeatureData2::IsBossFeature](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~IsBossFeature.html)
-
-.
+See [RevolveFeatureData2::IsBossFeature](ms-its:sldworksapivb6.chm::/sldworks~RevolveFeatureData2~IsBossFeature.html).
 
 ## See Also
 
 [IRevolveFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2.html)
-
 [IRevolveFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2_members.html)
-
 [IRevolveFeatureData2::IsThinFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRevolveFeatureData2~IsThinFeature.html)
 
 ## Availability

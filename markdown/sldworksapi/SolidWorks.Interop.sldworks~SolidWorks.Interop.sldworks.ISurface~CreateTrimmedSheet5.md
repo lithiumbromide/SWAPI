@@ -55,96 +55,25 @@ System.Object^ CreateTrimmedSheet5(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Curves`: Array of[curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)that represent the boundary of the trimmed sheet (see**Remarks**)
+- `Curves`: Array of [curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) that represent the boundary of the trimmed sheet (see **Remarks**)
 - `PreserveAnalyticCurves`: True to preserve analytic curves, false to store all trimming curves as SP-curves
-- `Tolerance`: Tolerance for gaps between edges (see
-
-Remarks
-
-)
+- `Tolerance`: Tolerance for gaps between edges (see **Remarks**)
 
 ### Return Value
 
-Temporary sheet
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+Temporary sheet [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[Surface::CreateTrimmedSheet5](ms-its:sldworksapivb6.chm::/Sldworks~Surface~CreateTrimmedSheet5.html)
-
-.
+See [Surface::CreateTrimmedSheet5](ms-its:sldworksapivb6.chm::/Sldworks~Surface~CreateTrimmedSheet5.html).
 
 ## Examples
 
-'VBA
-
-'===========================================
-'Preconditions:
-'1. Open a new part.
-'2. Run the macro to the Stop.
-'3. Press F5 to create the imported feature.
-'
-'Postconditions:
-'1. Creates a temporary body and displays it.
-'2. Uses the temporary body to create**Surface-Imported1**
-' in the FeatureManager design tree.
-'===========================================
-
-Const RADIUS As Double = 0.01
-
-Dim swApp As SldWorks.SldWorks
-Dim swPart As SldWorks.PartDoc
-Dim swSurf As SldWorks.Surface
-Dim swBody As SldWorks.Body2
-Dim swFeat As SldWorks.Feature
-Dim swModeler As SldWorks.Modeler
-
-Option Explicit
-
-Sub main()
-
-Set swApp = Application.SldWorks
-Set swPart = swApp.ActiveDoc
-
-Set swModeler = swApp.GetModeler
-
-Dim dCenter(2) As Double
-dCenter(0) = 0: dCenter(1) = 0: dCenter(2) = 0
-
-Dim dAxis(2) As Double
-dAxis(0) = 0: dAxis(1) = 0: dAxis(2) = 1
-
-Dim dRef(2) As Double
-dRef(0) = 1: dRef(1) = 0: dRef(2) = 0
-
-Set swSurf = swModeler.CreateSphericalSurface2(dCenter, dAxis, dRef, RADIUS)
-
-' No trimming curves are required, so pass one Nothing in the Curves parameter array
-' of ISurface::CreateTrimmedSheet5
-Dim ZeroTrimmingCurves(0 To 0) As SldWorks.Curve
-Set ZeroTrimmingCurves(0) = Nothing
-Set swBody = swSurf.**CreateTrimmedSheet5**(ZeroTrimmingCurves, True, 0.00001)
-
-swBody.**Display3**swPart, RGB(255, 255, 0), swTempBodySelectOptions_e.swTempBodySelectable
-
-Stop
-
-Set swFeat = swPart.**CreateFeatureFromBody3**(swBody, False, swCreateFeatureBodyOpts_e.swCreateFeatureBodyCheck + swCreateFeatureBodyOpts_e.swCreateFeatureBodySimplify)
-
-End Sub
+[Create Spherical Surface, Trimmed Sheet, and Feature from Body (VBA)](Create_Spherical_Surface_Trimmed_Sheet_and_Feature_From_Body_Example_VB.htm)
 
 ## Remarks
 
@@ -156,12 +85,11 @@ If your application is creating a trimmed sheet body from a periodic surface wit
 
 Tolerance sets the edge precision in PK_SURF_make_sheet_trimmed. The default parasolid tolerance is 0.00001. This parameter allows you to specify a looser tolerance for gaps between edges.
 
-Before calling this method, trim the curves created by[IModeler::CreateArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateArc.html)and[IModeler::CreateLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateLine.html)by calling[ICurve::CreateTrimmedCurve2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~CreateTrimmedCurve2.html). Elliptical curves created by[IModeler::CreateEllipse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateEllipse.html)do not need to be trimmed before calling this method.
+Before calling this method, trim the curves created by [IModeler::CreateArc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateArc.html) and [IModeler::CreateLine](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateLine.html) by calling [ICurve::CreateTrimmedCurve2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve~CreateTrimmedCurve2.html). Elliptical curves created by [IModeler::CreateEllipse](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~CreateEllipse.html) do not need to be trimmed before calling this method.
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
 
 ## Availability

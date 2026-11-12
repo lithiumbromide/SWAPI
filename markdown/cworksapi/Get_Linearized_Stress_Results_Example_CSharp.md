@@ -9,9 +9,7 @@ source: "cworksapi/Get_Linearized_Stress_Results_Example_CSharp.htm"
 
 # Get Linearized Stress Results Example (C#)
 
-This example shows how to get the stress results that are linearized along
-Stress Classification Lines for a pressure
-vessel study.
+This example shows how to get the stress results that are linearized along Stress Classification Lines for a pressure vessel study.
 
 ```vb
 //----------------------------------------------------------------------------

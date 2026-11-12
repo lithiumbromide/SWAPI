@@ -1,0 +1,830 @@
+<<< Access Diagram | draftsightapi/AccessDiagram-draftsightapi.md
+DraftSight API access diagrams:
+- are graphical representations depicting access to DraftSight API objects.
+- require that PDF reader software be installed on your computer.
+- allow standard PDF actions (e.g., scroll, zoom in and out, search, print, etc.).
+Each interface's Help topic contains an Access Diagram section. Click the link in this section to open that interface's access diagram.
+Objects shown:
+- left of the object whose access diagram you are viewing are the objects that return that object. At the beginning of DraftSight API access is the Application object; thus, no objects appear to the left of that object.
+- right of the object whose access diagram you are viewing are returned by that object.
+Within any access diagram, click a link to display that access diagram. To return to the Help topic from which you displayed its access diagram, click the Back button in the Help window.
+NOTE: Access diagrams are not displayed when using Qt Assistant to view the DraftSight API Help, because Qt Assistant does not support embedded PDF files.
+<<< Bitmasks | draftsightapi/Bitmasks.md
+Bitmasks are essentially bitwise comparisons. Understanding how bitmasks work might make more sense if you think of their binary representation.
+The binary representation of the decimal number 1 is 0001, 2 is 0010, 4 is 0100, etc.
+Think of each bit as a switch. For example, the decimal number 5 in binary is 0101. The third bit (0100) is on and the first bit (0001) is on. So, 0101 = 0100 + 0001.
+If a DraftSight enumerator has a bitmask like the following:
+| Decimal | Option | Binary |
+| 1 | OptionA | 0001 |
+| 2 | OptionB | 0010 |
+| 4 | OptionC | 0100 |
+| 8 | OptionD | 1000 |
+and you want OptionA and OptionC on, then add their two values together:
+| Decimal | Option | Binary |
+| 1 | OptionA | 0001 |
+| + 4 | OptionC | 0100 |
+| = 5 | | 0101 |
+<<< Dictionaries | draftsightapi/Dictionaries.md
+Each drawing contains one root dictionary, the named-objects dictionary. Within the root dictionary, you can create dictionaries, which can also contain dictionaries. This allows you to create a hierarchical structure of dictionaries.
+Dictionaries:
+- contained in the root dictionary form the first level.
+- in the first level contain objects and can contain dictionaries that form the second level.
+- in the second level typically contain only objects, but can also contain dictionaries that form the third level, etc.
+The number of levels of dictionaries is unlimited.
+<<< Getting Started | draftsightapi/GettingStarted-draftsightapi.md
+This topic contains information to help you get started with automating and creating add-ins for DraftSight. This topic also contains general information about the DraftSight API.
+- DraftSight type libraries and primary interop assemblies
+- DraftSight API automation
+- Microsoft Visual Studio DraftSight API templates and add-ins
+- - C#
+- VB.NET
+- COM native C++#COMAddin
+- C++
+- Smart pointers
+- Callback functions
+- addinConfigs folder and project-specific XML files
+- Add-in activation and deactivation
+- COM native C++ and C++ interface data types
+- HRESULT and DSRESULT values
+- JavaScript
+- Supported web browsers
+- Editors
+- Debuggers
+- Disassociating from server-side memory
+- Syntax
+- Troubleshooting startup
+- Code to connect to DraftSight
+- C#
+- VB.NET
+- VBA
+- JavaScript
+- Access to objects in DraftSight API
+- convertVariantArrayToPtrArray method
+- Tips and tricks for 3D modeling in DraftSight
+Sample Projects are available to DraftSight users with network licenses.
+NOTE: Italicized words in this topic and throughout the Help indicate where you should substitute the actual names of the entities that exist on your computer, in your add-in project, and elsewhere.
+##### DraftSight type libraries and primary interop assemblies
+The DraftSight API type libraries and primary interop assemblies are:
+- Type libraries:
+- install_dir\APISDK\tlb\dsAddin.tlb
+- install_dir\ bin\dsAutomation.dll
+- Primary interop assemblies:
+- install_dir\APISDK\tlb\ DraftSight.Interop.dsAddin.dll
+- install_dir\APISDK\tlb\ DraftSight.Interop.dsAutomation.dll
+The DraftSight install_dir path is typically C:\Program Files\Dassault Systemes\DraftSight.
+NOTE: After upgrading to a new version of the DraftSight API, you must replace references to DraftSight API type libraries and primary interop assemblies in existing DraftSight API projects developed in Microsoft Visual Studio. See the Microsoft Visual Studio documentation for details on how to add and remove references in a project.
+Back to top
+##### DraftSight API automation
+You can automate DraftSight by writing standalone applications.
+Visual C#, VB.NET, and VBA, examples illustrating DraftSight applications are included in the Help that you can copy, paste, and run in the respective language's integrated development environment (IDE). Copy and paste the JavaScript examples into HTML files.
+Examples are linked to individual Help topics when the subject of the Help topic appears in the examples.
+NOTE: See the Example section of a Help topic to locate the links to its associated examples. Some topics contain COM native C++ and C++ code, so be sure to scroll to the Example section that contains the links to the Visual C#, JavaScript, VB.NET, and VBA examples.
+Back to top
+##### Microsoft Visual Studio DraftSight API templates and add-ins
+When you installed the DraftSight API SDK, the DraftSight API project templates for Microsoft Visual Studio VB.NET, C#, and C++ were installed if Microsoft Visual Studio was detected on your computer. After installing the DraftSight API SDK, the DraftSight API project templates are available in Microsoft Visual Studio's New Project dialogs.
+The DraftSight API project templates provide you with a basis for creating your add-in projects in Microsoft Visual Studio.
+Building a project in Microsoft Visual Studio from a DraftSight add-in template creates an add-in DLL. Copy the DLL to install_dir\bin\addins\addin_name_folder. Add the add-in DLL to DraftSight (on the DraftSight menu, click Tools > Options > Add-ins > New). Navigate to add_name_folder and click Open. After the add-in DLL has been added to DraftSight, you will see the add-in in the DraftSight Tools > Add-Ins dialog. When active, the add-in adds its:
+- command for the menu bar
+- toolbar button
+- command for the command window to DraftSight. Clicking the add-in command on the menu bar and selecting Open Notepad, clicking the add-in toolbar button, or typing the add-in command in the command window opens Microsoft Notepad.
+Back to top
+###### Creating a C# add-in using the template
+To create a project using the C# add-in template:
+1. Click Start > Programs > Microsoft Visual Studio version_number > Microsoft Visual Studio version_number.
+2. Click the New Project button.
+1. Select Visual C# in Other Languages.
+2. Select DSAddinCSharp in Templates.
+3. Type the name of your project in Name.
+4. Click OK.
+The COM server for the add-in is created when the project is created.
+To get acquainted with the contents of the files created by the template, examine the Solution Explorer and the following table.
+| C# Files | Description |
+| BitmapHandler.cs | This file contains the class to handle the add-in's images. |
+| DsAddin.cs | This file contains the main add-in class. |
+| DsAddinCommand.cs | This file contains the DsAddinCommand class that handles events thrown when a command executes. There is an instance of this class for every add-in command. This file also contains the DraftSight ICommand event callback functions. |
+| DsAddinDocument.cs | This file contains the DsAddinDocument class that handles events thrown by open drawing documents. There is an instance of this class for every open drawing document. This file also contains the DraftSight IDocument event callback functions. |
+| DsAddinUserCommand.cs | This file contains the DsAddinUserCommand class, which you use to create commands for menu items and toolbar items, get command IDs, and validate commands. |
+Back to top
+###### Creating a VB.NET add-in using the template
+To create a project using the VB.NET add-in template:
+1. Click Start > Programs > Microsoft Visual Studio version_number > Microsoft Visual Studio version_number.
+2. Click the New Project button.
+1. Select Visual Basic.
+2. Select DSAddinVBNet in Templates.
+3. Type the name of your project in Name.
+4. Click OK.
+The COM server for the add-in is created when the project is created.
+To get acquainted with the contents of the files created by the template, examine the Solution Explorer and the following table.
+| VB.NET Files | Description |
+| BitmapHandler. vb | This file contains the class to handle the add-in's images. |
+| DsAddinCommand. vb | This file contains the DsAddinCommand class that handles events thrown when a command executes. There is an instance of this class for every add-in command. This file also contains the DraftSight ICommand event callback functions. |
+| DsAddinDocument.vb | This file contains the DsAddinDocument class that handles events thrown by open drawing documents. There is an instance of this class for every open drawing document. This file also contains the DraftSight IDocument event callback functions. |
+| DsAddinUserCommand. vb | This file contains the DsAddinUserCommand class, which you use to create commands for menu items and toolbar items, get command IDs, and validate commands. |
+| DsAddinVBNet. vb | This file contains the main add-in class. |
+###### Back to top
+###### Creating a COM native C++ interface add-in using the template
+To create a project using the COM native C++ interface add-in template:
+1. Click Start > Programs > Microsoft Visual Studio version_number > Microsoft Visual Studio version_number.
+2. Click the New Project button.
+1. Select Visual C++ in Other Languages.
+2. Select DraftSight COM Addin in Templates.
+3. Type the name of your project in Name.
+4. Type the path where to create the project in Location.
+5. Click OK.
+The COM server for the add-in is created when the project is created.
+To get acquainted with the contents of the files created by the template, examine the Solution Explorer and the following table.
+| COM Native C++ Files | Description |
+| DsAddin.def | This file declares DLL function exports. |
+| DsAddin.idl | This file is used to generate the type library for the add-in. |
+| DsAddinCommand.cpp and corresponding.h file | These files contain the DsAddinCommand class that handles events thrown when a command executes. There is an instance of this class for every add-in command. These files also contain the DraftSight ICommand event callback functions. |
+| DsAddinConnection.cpp and corresponding.h file | These are the main add-in files. They contain the implementation of the IDsAddin interface. These files also contain IDsAddin::ConnectToDraftSight and IDsAddin::DisconnectFromDraftSight, which are the entry and exit functions for this add-in. The DraftSight IApplication event callback functions and the CreateUserInterfaceAndCommands method that creates the add-in's user interface and commands also appear in these files. |
+| DsAddinConnection.rgs | This file contains the information that automatically registers your add-in with DraftSight when it is compiled. |
+| DsAddinDocument.cpp and corresponding.h file | These files contain the DsAddinDocument class that handles events thrown by open drawing documents. There is an instance of this class for every open drawing document. These files also contain the DraftSight IDocument event callback functions. |
+| DsAddinUserCommand.cpp and corresponding.h file | These files contain the DsAddinUserCommand class, which you use to create commands for menu items and toolbar items, get command IDs, and validate commands. |
+| stdafx.cpp and corresponding.h file | These files contain the #import statements for the DraftSight type libraries and any other necessary DraftSight #include statements. |
+| smartvars.cpp and corresponding.h file | These files define templates to more easily handle Variants in an add-in. |
+###### Back to top
+###### Creating a C++ interface add-in using the template
+To create a project using the C++ interface add-in template:
+1. Click Start > Programs > Microsoft Visual Studio version_number > Microsoft Visual Studio version_number.
+2. Click the New Project button.
+1. Select Visual C++ in Other Languages.
+2. Select DraftSight CPP Addin in Templates.
+3. Type the name of your project in Name.
+4. Type the path where to create the project in Location.
+5. Click OK.
+To get acquainted with the contents of the files created by the template, examine the Solution Explorer and the following table.
+| C++ Files | Description |
+| Ds Addin.def | This file declares DLL function exports. |
+| dsAddinConnection.cpp and corresponding.h file | These are the main add-in files. These files contain ConnectToDraftSight and DisconnectFromDraftSight, which are the entry and exit functions for this add-in. These files also contain the DraftSight IApplication event callback functions, the ICommand callback function, and the CreateUserInterfaceAndCommands method that creates the add-in's user interface and commands. |
+| dsAddinDocument.cpp and corresponding.h file | These files contain the DsAddinDocument class that handles events thrown by open drawing documents. There is an instance of this class for every open drawing document. These files also contain the DraftSight IDocument event callback functions. |
+| Interface header files | These files are located in install_dir \APISDK\headers\cpp. |
+| stdafx.cpp and corresponding.h file | These files contain the #import statements for the DraftSight type libraries and any other necessary DraftSight #include statements. |
+NOTE: DraftSight API C++ add-ins that were last compiled in DraftSight V1R2.0, or earlier, must be recompiled with the header files shipped with DraftSight API V1R2.1, or later, due to changes made to multiple signatures in DraftSight API V1R2.1.
+Back to top
+###### C++ interface add-in template smart pointers
+The C++ interface add-in template provides two C++ smart pointer (_ptr) classes for use in your projects to manage object lifecycles. The header files containing the C++ _ptrs reside in install_dir\ APISDK\headers\cpp and are named:
+- dsInterfacePtr.h
+- dsInterfaceArrayPtr.h
+To use these C++ _ptrs, you must include these header files in your projects because the _ptrs are template classes and their implementations are defined in these header files. There are no library dependencies.
+Back to top
+###### C++ interface add-in template callback functions
+The C++ interface add-in template uses macros to:
+- register and unregister C++ interface callback functions.
+- declare the C++ interface callback functions.
+- implement the C++ interface callback functions.
+| Events for these interfaces... | Defined in... | Registered, unregistered, and declared in... | Implemented in... |
+| IApplication | dsApplication_c.h | dsAddinConnection.h | dsAddinConnection.cpp |
+| ICommand | dscommand_c.h | dsAddinConnection.cpp | dsAddinConnection.cpp |
+| IDocument | dsDocument_c.h | dsAddinDocument.h | dsAddinDocument.cpp |
+| ISelectionManager | dsSelectionManager_c.h | Not used in template | Not used in template |
+Back to top
+###### addinConfigs folder and project-specific XML files
+###### Microsoft Windows operating systems
+Microsoft Vista and Windows Windows 7 and later operating systems include User Account Control (UAC). If you use a DraftSight add-in template to create your add-in project, then UAC affects whether the addinConfigs folder and the project-specific XML file are created.
+| If UAC is turned... | Then... |
+| Off | the project-specific XML file is created in the %PROGRAMDATA%\Dassault Systemes\DraftSight \addinConfigs folder, where %PROGRAMDATA% is typically C:\ProgramData. The addinConfigs folder is created by the template, if it does not already exist. The name of the XML file is the name of your project followed by the.xml file name extension. |
+| On | the project-specific XML file is created in the project folder. You must manually create the DraftSight %PROGRAMDATA%\Dassault Systemes\DraftSight \addinConfigs folder, if it does not already exist. You must move the project-specific XML file to the addinConfigs folder. The name of the XML file is the name of your project followed by the.xml file name extension. The %PROGRAMDATA% path is typically C:\ProgramData. |
+NOTE: Refer to Microsoft's documentation or contact your system administrator for details about UAC.
+If you do not use a DraftSight template to create your add-in project, then you must manually create the addinConfigs folder, if it does not already exist, in %PROGRAMDATA%\Dassault Systemes\DraftSight, which is typically C:\ProgramData\Dassault Systemes\DraftSight.
+You must also manually create a project-specific XML file for each of your add-in projects. The name of each XML file is the name of your project followed by the.xml file name extension. The XML file must reside in the addinConfigs folder.
+###### Add-in project's XML file syntax
+An add-in project's XML file contains specific and slightly different syntax. Shown next are sample language-specific XML files. Use the same syntax (substituting actual names for italicized text) and the suggested format when you manually create either file.
+###### C#, VB.NET, and COM native C++
+<addinmanager> <draftsight version=""> <addin help="add-in_ToolTip_in_Add-in_Manager" startup="1" name="add-in_project_name" premiumOnly="2"> <com clsid="your_generated_add-in_COM_CLSID"></com> <button bitmap="path_and_name_of_image_for_add-in_icon_in_Add-in_manager"></button> </addin> </draftsight> </addinmanager>
+###### C++
+<addinmanager> <draftsight version=""> <addin help="add-in_ToolTip_in_Add-in_Manager" startup="1" name="add-in_project_name" premiumOnly="2"> <button bitmap="path_and_name_of_image_for_add-in_icon_in_Add-in_manager"></button> <cpp pathname="add-in_project_name.dll"></cpp> </addin> </draftsight> </addinmanager> NOTES:
+- Setting premiumOnly = 1 indicates to load add-ins for both DraftSight Pro and Premium versions; setting premiumOnly = 2 indicates to load add-ins only for the DraftSight Premium version.
+- Setting startup = 1 indicates to show the add-in on the DraftSight Tools > Add-Ins manager; setting startup = 0 indicates to not show the add-in on the DraftSight Tools > Add-Ins manager.
+- If you do not specify an absolute path in pathname, then a path relative to the add-in application is used.
+- The recommended size for bitmap, which appears on the Tools > Add-Ins manager, is 16 x 16. The supported image format is. png (Portable Network Graphics bitmap image).
+Back to top
+###### Add-in activation and deactivation
+When you build a project created by an add-in template in Microsoft Visual Studio, an add-in is added to the DraftSight Tools > Add-Ins manager.
+To activate the add-in:
+1. Click Tools > Add-Ins.
+2. Click the row in which the name of the add-in appears.
+3. Select the check box in the Active column located next to the name of the add-in you want to activate.
+4. Select the check box in the Start Up column located next to the name of the add-in if you want to automatically activate the add-in when DraftSight starts up.
+5. Click OK.
+To deactivate the add-in, clear the check box in the Active column, and in the Start Up column if it's selected, located next to the name of the add-in you want to deactivate.
+Back to top
+##### COM native C++ and C++ interface data types
+The DraftSight API interface data types are:
+| COM native C++ | C++ |
+| BSTR | const dsString&, dsString* [out] |
+| DOUBLE | double |
+| HRESULT | DSRESULT |
+| IDispatch | dsObject |
+| interface I Interface (e.g., IApplication) | class ds Interface _c (e.g., dsApplication_c) |
+| LONG | long |
+| VARIANT | dsObjectPtrArray - or - const dsStringArray&, dsStringArray* [out] - or - const dsDoubleArray&, dsDoubleArray* [out] - or - const dsLongArray&, dsLongArray* |
+| VARIANT_BOOL | bool |
+###### HRESULT and DSRESULT
+In the DraftSight API:
+| A call in this language... | Always returns... |
+| COM native C++ | HRESULT: S_OK = 0x00000000L S_FALSE = 0x00000001L E_NOTIMPL = 0x80004001L RPC_E_DISCONNECTED = 0x80010108L |
+| C++ | DSRESULT: DSRESULT_False = 0 DSRESULT_True = 1 DSRESULT_Disconnected = 2 DSRESULT_NotImplemented =3 |
+These return values indicate that the code was called successfully; however, these values do not indicate that your call achieved its objective. For example, if a method returns an object, then you should verify that the object returned is not NULL.
+Back to top
+##### JavaScript
+###### Supported JavaScript interface web browsers
+The prerequisites for executing the JavaScript examples from the DraftSight API Help are:
+- Windows Internet Explorer 8 or later must be installed on your computer. If you see the following text in the Output field of a JavaScript example executed from the DraftSight API Help, then Windows Internet Explorer 7 or earlier is most likely installed on your computer and is not supported by the DraftSight JavaScript interface. TypeError: 'JSON' is undefined If possible, upgrade to either Windows Internet Explorer 8 or later.
+- The DraftSight API service must be running. If you see the following text in the Output field of a JavaScript example executed from the DraftSight API Help, then you must start or restart the DraftSight API service from the Task Manager. dsJServerError: jsServer connection Failed
+- DraftSight API Help must reside on a disk local to your computer. If you see the following text in the Output field of a JavaScript example executed from the DraftSight API Help, then most likely the DraftSight API Help resides on network disk. TypeError: Access is denied. If possible, locate the DraftSight API Help and copy it to a disk local to your computer, and execute it from that disk.
+NOTE: It takes several seconds for a Help topic containing a JavaScript application to display in the right-side pane in the Help window.
+You can create and execute the JavaScript examples from your web browser. Instructions on how to create any DraftSight JavaScript example appear in the Notes section of the example.
+These web browsers are supported by the DraftSight API and JavaScript interface:
+- Windows Internet Explorer 8 or later, without network sharing
+- Mozilla Firefox, with network sharing If your computer is running Mozilla Firefox under Windows 7, then uncomment the following line in your computer's hosts file, typically C:\Windows\System32\drivers\etc\hosts, to improve performance on localhost URLs. Edit the hosts file using Notepad as an administrator. 127.0.0.1 localhost
+- Google Chrome
+Apple Safari web browser is not recommended because of random http timeouts.
+Back to top
+###### Editors
+You can use Visual Studio, Visual Web Developer, Eclipse, or an HTML editor of your choice to create HTML files for the DraftSight JavaScript interface.
+Back to top
+###### Debuggers
+To debug your JavaScript examples, you can use your web browser's debugger.
+| Web browser | Debugger |
+| Windows Internet Explorer | Windows Internet Explorer Developer Tools |
+| Mozilla Firefox | Firebug for Firefox |
+| Google Chrome | Google Chrome Developer Tools |
+See your web browser's documentation for details about its debugger.
+NOTE: Select and Change Entities Example (JavaScript) includes instructions on using the Windows Internet Explorer Developer Tools.
+Back to top
+###### Disassociate JavaScript from server-side memory
+To disassociate JavaScript from the server-side memory, call:
+- dsObject.release, which releases the association of the dsObject
+- or -
+- dsApplication.releaseAll, which releases all associated memory initiated from this dsApplication dsObject.release or dsApplication.releaseAll must be called by the JavaScript client to prevent server-side memory leaks.
+Back to top
+###### JavaScript syntax in DraftSight API Help
+###### Bitwise enumerations
+JavaScript bitwise enumerations can include multiple enumerators when delimited by semicolons. For example, you can specify dsHatchBoundaryLoopType_Polyline;dsHatchBoundaryLoopType_Textbox.
+###### Output arguments
+| If... | Then... |
+| One output argument is returned | One return value is shown |
+| Multiple output arguments are returned | A collection is returned and shown |
+For example:
+###### One output value:
+| JavaScript | |
+| InsertCircle(CenterX: Number, CenterY: Number, CenterZ: Number, Radius: Number): dsCircle | |
+To access the output value, use the name of the variable assigned to it. For example: var mCircle = mSkMgr.InsertCircle(X,Y,Z,2); var mColor = mCircle.get_Color();
+###### Multiple output values:
+| JavaScript | |
+| GetDefaultCustomCoordinateSystemFlag(): { IsDefault: Boolean, DefaultCustomCoordinateSystemFlag: String } | |
+To access an output value in a collection, use the name of the variable assigned to the collection followed by a dot (.) and the name of the parameter that appears in the DraftSight API Help. For example: var dsColl = dsCCS.GetDefaultCustomCoordinateSystemFlag(); printOut("IsDefault? " + dsColl. IsDefault); printOut("Default Custom Coordinate system flag: " + dsColl. DefaultCustomCoordinateSystemFlag)
+##### Troubleshooting JavaScript startup
+If a JavaScript add-in or HTML page does not execute, then make sure that the DraftSight API service is running.
+1. On a computer running Windows, start the Task Manager, click the Services tab, and locate DraftSight API Service.
+2. If DraftSight API Service is not listed in the Name column, then log on as a user with Administrator privileges.
+3. Start DraftSight API Service using Windows services.msc. If you are unfamiliar with running services.msc, please search Microsoft's website for instructions.
+- or - Open a command window, change your directory to c:\Program Files\Dassault Systemes\DraftSight\bin, and type: dsHttpApiController.exe "DraftSight API Service” -s If DraftSight API Service is still not listed in the Name column on the Services tab, then the service might not have started because of a port conflict.
+4. To change the port number, log on to Dassault Systèmes Communities and use the tool available at https://swym.3ds.com#post:17786.
+5. If the DraftSight API Service is listed and running on the Services tab, but the HTML pages do not execute, then restart the service by right-clicking on the name and clicking Restart.
+Back to top
+##### Code to connect to DraftSight
+The following code snippets show how to connect to a running instance of DraftSight in C#, VB.NET, and VBA, and how to connect to JavaScript.
+###### C#
+     static DraftSight.Interop.dsAutomation.Application dsApp = null;
+     public static void Main()
+     {
+         //Connect to DraftSight
+         dsApp = (DraftSight.Interop.dsAutomation.Application)Marshal.GetActiveObject("DraftSight.Application");
+###### VB.NET
+     Dim dsApp as Application
+     Sub Main()
+        'Connect to DraftSight
+        dsApp = GetObject(, "DraftSight.Application")
+###### VBA
+Sub Test()
+Dim dsApp As DraftSight.Application
+Set dsApp = GetObject(, "DraftSight.Application")
+###### JavaScript
+<script type="text/javascript" src="http://localhost:7776/APISDK/djLibrary/djConnect.js"></script> <script type="text/javascript" src="http://localhost:7776/APISDK/djLibrary/dsApplication.js"></script> var mScript = new djScriptManager(); var mApp = mScript.getApplication(); Back to top
+##### Access to objects in DraftSight API
+To call any of the DraftSight API's methods or properties, you first must obtain the object.
+For example, to use the IDocument::GetPathName method, you must first obtain an IDocument object. To obtain the IDocument object, you could use IApplication::GetActiveDocument, IApplication::GetDocuments, or IApplication::OpenDocument. When you have an IDocument object, you can access the properties and methods in the Document class.
+During the course of application processing, unknown entities may surface that have no interface representation in the DraftSight API. If you capture unknown entities with the event handlers, _IDocumentEvents_ObjectAppendNotify, _IDocumentEvents_ObjectEraseNotify, or _IDocumentEvents_ObjectModifyNotify, then you can use IUnknownEntity to recognize and process specific ones.
+See the Accessors and Access Diagram sections of interface Help topics.
+Back to top
+##### convertVariantArrayToPtrArray method
+The convertVariantArrayToPtrArray method is used in several COM native C++ code snippets in the Help. The convertVariantArrayToPtrArray implementation is as follows:
+// TypeConverter.h: This class contains a static method to convert a VARIANT array to a PTR array
+#ifndef _TYPE_CONVERTER_H_
+#define _TYPE_CONVERTER_H_
+#include "atlsafe.h"
+class TypeConverter
+{
+public:
+        template<class SmartPtrType, class InterfaceType>
+        static void convertVariantArrayToPtrArray( variant_t pVariantArraySource, SmartPtrType *&pResult, int &count )
+        {
+                CComSafeArray<IDispatch*> comSafeArray;
+                comSafeArray.Attach( V_ARRAY(&pVariantArraySource) );
+            count = comSafeArray.GetCount();
+                pResult = new SmartPtrType[count];
+             for( int i = 0; i < count; ++i )
+                {
+                        CComPtr<IDispatch> p = comSafeArray[i].p;
+                      if( p.p != NULL )
+                        {
+                                CComQIPtr<InterfaceType> pVal ( p );
+                           if( pVal.p != NULL )
+                                {
+                                        pResult[i].Attach ( pVal.Detach ( ) );
+                                }
+                        }
+                }
+            comSafeArray.Detach();
+        }
+};
+#endif _TYPE_CONVERTER_H_
+##### Tips and tricks for 3D modeling in DraftSight
+In order to use 3D modeling and see your 3D entities in the DraftSight user interface, you need to:
+1. Install DraftSight Premium or DraftSight Enterprise Plus.
+2. Select 3D Modeling from the list of workspaces in the Quick Access Bar dropdown at the top.
+3. Select an isometric view in the Views toolbar so you can see your entities in 3D.
+4. Select a shaded view in the Render toolbar and hide lines that may obscure your viewof entities.
+5. Select Constrained Orbit in the Render toolbar or type ROLLVIEW in the command window to rotate the view in 3D space using your mouse.
+6. Read these topics in the DraftSight user-interface help:
+- 3D Viewing and Presentation
+- 3D Modeling
+- 3D Modeling Command Reference
+Back to top
+<<< Insert Hatch by Entities or Internal Points (C#) | draftsightapi/Insert_Hatch_by_Entities_or_Internal_Points_CSharp.md
+## Insert Hatch by Entities or Internal Points Example (C#)
+This example shows how to insert a Hatch either by selecting sketch entities that form the Hatch boundary or by selecting internal points of enclosed areas of a drawing.
+ //--------------------------------------------------------------
+ // Preconditions:
+ // 1. Create a C# Windows console project.
+ // 2. Copy and paste this example into the C# IDE.
+ // 3. Add a reference to:
+ //    install_dir\APISDK\tlb\DraftSight.Interop.dsAutomation.dll.
+ // 4. Add references to System and System.Windows.Forms.
+ // 5. Start DraftSight and open a drawing document with sketch entities.
+ // 6. Start debugging the project.
+ //
+ // In the DraftSight command window, choose how the Hatch should be inserted:
+ //    1. Type Entities.
+ //    2. Select the sketch entities that form the boundary of the area to be hatched.
+ //    3. Press Enter when finished.
+ //    - or -
+ //    1. Type InternalPoints.
+ //    2. Select three points that are in enclosed areas of the drawing.
+ //
+ // Postconditions: A Hatch is inserted, and the drawing document
+ // is zoomed to fit.
+ //----------------------------------------------------------------
+ using System;
+ using System.Collections.Generic;
+ using System.Text;
+ using DraftSight;
+ using System.Runtime.InteropServices;
+ using System.Windows.Forms;
+ using System.Diagnostics;
+ namespace AddHatch
+ {
+     class Program
+     {
+         private static DraftSight.Application dsApp;
+         private static DraftSight.Document dsDoc;
+         static void Main(string[] args)
+         {
+             //Connect to DraftSight application
+             dsApp = ConnectToDraftSight();
+             if (null == dsApp)
+             {
+                 return;
+             }
+             dsApp.AbortRunningCommand(); // abort any command currently running in DraftSight to avoid nested commands
+             //Get active document
+             dsDoc = dsApp.GetActiveDocument();
+             if (null == dsDoc)
+             {
+                 MessageBox.Show("There are no open documents in DraftSight.");
+                 return;
+             }
+             //Get model space
+             Model dsModel = dsDoc.GetModel();
+             //Get sketch manager
+             SketchManager dsSketchMgr = dsModel.GetSketchManager();
+             //Get command message object
+             CommandMessage dsCommandMessage = dsApp.GetCommandMessage();
+             //Display a prompt at the command line to create Hatch by entities or by internal points
+             string[] keywords = { "Entities", "InternalPoints" };
+             string selectedKeyword;
+             bool promptResult = dsCommandMessage.PromptForKeyword("Insert Hatch by:", keywords, keywords[0],  out selectedKeyword);
+             if (promptResult)
+             {
+                 //The user selected "By Entities" option
+                 if (selectedKeyword.ToUpper() == "_" + keywords[0].ToUpper() ||
+                     selectedKeyword.ToUpper() == keywords[0].ToUpper())
+                 {
+                     DispatchWrapper[] selectedEntities = SelectEntities(dsCommandMessage);
+                     InsertHatchByEntities(dsSketchMgr, selectedEntities);
+                 }
+                 //The user selected "By Internal Points" option
+                 if (selectedKeyword.ToUpper() == "_" + keywords[1].ToUpper())
+                 {
+                     //Select three internal points
+                     int pointsCount = 3;
+                     dsCommandMessage.PrintLine("Select three internal points for a hatch");
+                     double[] internalPoints = SelectPoints(dsCommandMessage, pointsCount);
+                     InsertHatchByInternalPoints(dsSketchMgr, internalPoints);
+                 }
+             }
+         }
+         private static void InsertHatchByInternalPoints(SketchManager dsSketchMgr, double[] internalPoints)
+         {
+             //Hatch parameters
+             string patternName = "ANSI31";
+             double patternScale = 1;
+             double patternAngle = 0;
+             //Insert Hatch
+             Hatch dsHatch = dsSketchMgr.InsertHatchByInternalPoints(internalPoints, patternName, patternScale, patternAngle);
+             if (null != dsHatch)
+             {
+                 //Change color of Hatch
+                 Color dsColor = dsHatch.Color;
+                 dsColor.SetNamedColor(dsNamedColor_e.dsNamedColor_Green);
+                 dsHatch.Color = dsColor;
+                 //Zoom to fit
+                 dsApp.Zoom(dsZoomRange_e.dsZoomRange_Fit, null, null);
+             }
+             else
+             {
+                 MessageBox.Show("Hatch entity was not added to the current drawing.");
+             }
+         }
+         private static double[] SelectPoints(CommandMessage dsCommandMessage, int internalPointsCount)
+         {
+             List<double> internalPoints = new List<double>();
+             //Display prompt for point
+             double x, y, z;
+             int count = 0;
+             while (count < internalPointsCount)
+             {
+                 if (dsCommandMessage.PromptForPoint("Specify internal point",  out x,  out y,  out z))
+                 {
+                     internalPoints.Add(x);
+                     internalPoints.Add(y);
+                 }
+                 count++;
+             }
+             return internalPoints.ToArray();
+         }
+         private static void InsertHatchByEntities(SketchManager dsSketchMgr, DispatchWrapper[] dsEntities)
+         {
+             //Hatch parameters
+             string patternName = "GRASS";
+             double patternScale = 1;
+             double patternAngle = 0;
+             //Insert Hatch
+             Hatch dsHatch = dsSketchMgr.InsertHatchByEntities(dsEntities, patternName, patternScale, patternAngle);
+             if (null != dsHatch)
+             {
+                 //Change color of Hatch
+                 Color dsColor = dsHatch.Color;
+                 dsColor.SetNamedColor(dsNamedColor_e.dsNamedColor_Blue);
+                 dsHatch.Color = dsColor;
+                 //Zoom to fit
+                 dsApp.Zoom(dsZoomRange_e.dsZoomRange_Fit, null, null);
+             }
+             else
+             {
+                 MessageBox.Show("Hatch entity was not added to the current drawing.");
+             }
+         }
+         private static DispatchWrapper[] SelectEntities(CommandMessage dsCommandMessage)
+         {
+             DispatchWrapper[] selectedEntities = null;
+             //Prompt for multiple selection of entities
+             if (dsCommandMessage.PromptForSelection(false, "Specify entities", "It is not an entity"))
+             {
+                 //Get selection manager
+                 SelectionManager dsSelectionMgr = dsDoc.GetSelectionManager();
+                 //Get count of selected entities
+                 dsSelectionSetType_e selectionType = dsSelectionSetType_e.dsSelectionSetType_Previous;
+                 int count = dsSelectionMgr.GetSelectedObjectCount(selectionType);
+                 if (count > 0)
+                 {
+                     selectedEntities = new DispatchWrapper[count];
+                     for (int index = 0; index < count; ++index)
+                     {
+                         dsObjectType_e entityType;
+                         selectedEntities[index] =  new  DispatchWrapper(dsSelectionMgr.GetSelectedObject(selectionType, index, out entityType));
+                     }
+                 }
+             }
+             return selectedEntities;
+         }
+         private static DraftSight.Application ConnectToDraftSight()
+         {
+             DraftSight.Application dsApp = null;
+             try
+             {
+                 //Connect to DraftSight
+                 dsApp = (DraftSight.Application)Marshal.GetActiveObject("DraftSight.Application");
+             }
+             catch (Exception ex)
+             {
+                 MessageBox.Show("Failed to connect to DraftSight. Cause: " + ex.Message);
+                 dsApp = null;
+             }
+             return dsApp;
+         }
+     }
+ }
+<<< Macros | draftsightapi/Macros.md
+The quickest and easiest way to start programming with the DraftSight API is to record a macro, which contains the DraftSight API calls that correspond to the actions performed interactively in DraftSight. This Help topic identifies the supported macro-recording programming languages and DraftSight interfaces and describes how to interactively and programmatically record macros.
+- Supported languages
+- Supported interfaces
+- Interactively record macros
+- Programmatically record macros
+NOTES:
+- Macro recording is available in DraftSight Premium only.
+- You must use Microsoft Visual Studio 2008 to edit, debug, and build C++ Native, C#, VB, and C++ COM macro projects.
+##### Supported languages
+You can save macros as Microsoft Visual Studio 2008 projects, VBA script files, and JavaScript HTML files. Thus, you should be familiar with at least one of the following programming or scripting languages before using the macro recording feature of DraftSight:
+- C++ Native (*. vcproj): Creates a Microsoft Visual Studio 2008 project and an add-in (. dll) in which you implement a command that executes the generated macro code. If you edit and rebuild the add-in after loading it, then you must close and restart DraftSight to reload the add-in.
+- C# (*. csproj): Creates a Microsoft Visual Studio 2008 project and an external application (. exe) that executes the generated macro code that you can edit, rebuild, and rerun the project without closing DraftSight.
+- JavaScript (*. html): Creates an HTML file from which you execute the generated JavaScript macro code. Open the HTML file in a web browser and click the button to execute the macro.
+- VB (*. vbproj): Creates a Microsoft Visual Studio 2008 project and an external application (. exe) that you can edit, rebuild, and rerun the project without closing DraftSight. This type of Microsoft Visual Studio project is also commonly referred to as a VB.NET project.
+- C++ COM (*. vcproj): Creates a Microsoft Visual Studio 2008 project and add-in (. dll) in which you implement a command that executes the generated macro code. If you edit and rebuild the add-in after loading it, then you must close and restart DraftSight to reload the add-in.
+- VBA (*. swb): Creates a script file that you can:
+- Open, edit, debug, and run in the SOLIDWORKS VBA Integrated Development Environment (IDE).
+- Import into any Microsoft Office product that supports macros.
+Back to top
+##### Supported interfaces
+This release supports recording macros for these interfaces:
+- IAlignedDimension
+- IAngularDimension
+- IApplicationOptions (only valid when high-level of detail set)
+- IArcLengthDimension
+- IAttributeDefinition
+- IAttributeInstance
+- IBlockDefinition
+- IBlockInstance
+- ICircle
+- ICircleArc
+- ICommandMessage (only valid when high-level of detail set)
+- ICustomCoordinateSystem
+- ICustomCoordinateSystemManager
+- IDiameterDimension
+- IDimensionStyle
+- IEllipseArc
+- IEmbeddedObject
+- IExternalReference
+- IFace
+- IGroup
+- IHatch
+- IInfiniteLine
+- IJoggedDimension
+- ILayer
+- ILeader
+- ILine
+- ILineStyle
+- IModel
+- IModelNamedView
+- INamedView
+- INote
+- IOrdinateDimension
+- IPoint
+- IPolyFaceMesh
+- IPolygonMesh
+- IPolyLine
+- IPolyLine3D
+- IRadialDimension
+- IRay
+- IReferenceImage
+- IRegion
+- IRichLine
+- IRichLineStyle
+- IRotatedDimension
+- ISelectionFilter
+- ISelectionManager
+- IShape
+- ISheet
+- ISheetNamedView
+- ISimpleNote
+- ISketchManager
+- ISolid
+- ISpline
+- ITable
+- ITableStyle
+- ITextStyle
+- ITolerance
+- ITrace
+- ITransparency
+- IViewManager
+- IViewport
+- IViewTile
+Back to top
+##### Interactively record macros
+Typically to interactively record a DraftSight macro:
+1. Plan the interactive DraftSight actions before recording the macro.
+2. Set the location where to save the macro's Microsoft Visual Studio 2008 project, JavaScript HTML file, or VBA. swb file.
+3. Set the level of detail to appear in the macro's Microsoft Visual Studio 2008 project, JavaScript HTML file, or VBA. swb file.
+4. Record the interactive DraftSight actions.
+NOTE: If you are unfamiliar with recording DraftSight macros, perform the interactive DraftSight actions a couple of times before starting to record the macro to eliminate possible extraneous actions such as zooming in or out of the drawing, panning, etc.
+5. Stop and save the macro in the language you selected. A Microsoft Visual Studio 2008 project, JavaScript HTML file, or VBA. swb file is created upon saving the macro at the location specified in step 2.
+6. Open the macro's Microsoft Visual Studio 2008 project, JavaScript HTML file in Notepad or any HTML editor, or VBA. swb file in the SOLIDWORKS VBA IDE or Microsoft Office VBA Editor.
+7. Edit, build, run, debug, rebuild, and rerun, as needed, the macro. Repeat this step until the macro is executing as intended.
+8. Save the macro's Microsoft Visual Studio 2008 project, JavaScript HTML file, or VBA. swb file.
+Back to top
+###### Interactively set macro location and level of detail
+To set the location where to save DraftSight API macros and the level of detail to record:
+1. Click Tools > Options to open the Options - System Options dialog.
+2. Click the System Options button.
+3. Expand Macro Recording.
+4. Expand Location.
+5. Type the path of the location where to save macros.
+- or - Click Browse, navigate to the folder where to save macros, and click Select Folder. The location where to save macros is stored in the sysvar APIPATH.
+6. Expand Level of detail.
+7. Select the level of detail to appear in the macro:
+- Low: Minimal code required to emulate interactive actions and execute.
+- High: Verbose code, including intermediate steps, required to emulate interactive actions and execute.
+NOTE: Data recorded in macros for methods that expect users to input data at the prompt in the command window, e.g., ISketchManager::InsertCircle, are ignored when executing the macro. Instruct your users to examine the command window to determine if they must input data at the prompt in the command window when recording macros with the high-level of detail option selected. You might also want to delete the lines of code in the macro that prompt for data. The level of detail is stored in the sysvar APILEVEL.
+8. Click OK to close the Options - System Options dialog.
+Back to top
+###### Interactively record and save a macro
+To record and save a macro:
+1. Click Tools > Macro > Record or type _RECORDMACRO in the command window.
+2. Perform the interactive actions that you want to record.
+3. When you are done recording, click Tools > Macro > Stop or type _STOPMACRO in the command window to stop and save the macro.
+4. Type a name for the macro in File Name and select the language to which to save the generated macro code in Save as type.
+5. Click Save to save the macro in the location specified in step 5 in the previous procedure.
+###### Interactively edit, build, run, debug, rebuild, rerun, and save a macro
+To edit, build, run, debug, rebuild, rerun, and save a macro:
+1. Open the macro project in Microsoft Visual Studio 2008, JavaScript HTML file in Notepad or any HTML editor, or the VBA. swb file in the SOLIDWORKS VBA IDE or any Microsoft Office VBA Editor, in the location specified in step 5 in the Set macro location and level of detail procedure.
+2. Edit the macro code to delete any extraneous lines of code, add lines of code for actions not performed interactively while recording the macro, reformat the code, etc.
+3. Build, if needed, and run the project or file to test it.
+4. Debug, rebuild, if needed, and rerun the project or file again. Repeat this step until the macro is executing as intended.
+5. Save the project.
+Back to top
+##### Programmatically record macros
+###### Programmatically start and stop macros
+The DraftSight API includes two methods to programmatically start and stop macro recording:
+- IMacroManager::StartMacroRecording
+- IMacroManager::StopMacroRecording (You specify the project or file name for the macro when you use this method.)
+These methods are useful if you want your add-in application to record and play back DraftSight macros. For example, if your add-in application allows end users to change dimension styles, then end users might want to record and play back the operations in a macro. This would allow end users to easily change dimension styles in a large number of files by playing back the macro.
+###### Programmatically set macro location and level of detail
+The DraftSight API includes properties for programmatically getting and setting:
+- Language in which to record a macro. See IMacroManager::Language.
+- Level of detail in which to record a macro. See IMacroManager::LevelOfDetail.
+- Path where to save the macro. See IMacroManager::SavePath.
+Back to top
+<<< Release Notes | draftsightapi/ReleaseNotes-draftsightapi.md
+This topic provides you with quick access to the enhancements in the DraftSight 2024 API.
+##### Service Pack 4
+###### New delegates
+###### _IApplicationEvents Interface
+- _IApplicationEvents_OnFileProcessedNotifyEventHandler
+- _IApplicationEvents_RequestToOpenFileNotifyEventHandler
+###### New interfaces
+###### IFileDialogManager Interface
+- IFileDialogManager::GetOpenOutputFilePath
+- IFileDialogManager::InitFileDialog
+- IFileDialogManager::SetIsDiscardToOpenFile
+- IFileDialogManager::SetIsOpenFile
+- IFileDialogManager::SetOpenOutputFilePath
+- IFileDialogManager::UninitFileDialog
+###### IMLeader Interface
+- IMLeader::ArrowSize
+- IMLeader::BlockColor
+- IMLeader::BlockScale
+- IMLeader::Color
+- IMLeader::ContentType
+- IMLeader::DeleteCustomData
+- IMLeader::DeleteHyperLink
+- IMLeader::Erased
+- IMLeader::GetArrow
+- IMLeader::GetBlock
+- IMLeader::GetBoundingBox
+- IMLeader::GetCustomData
+- IMLeader::GetHyperLink
+- IMLeader::GetNote
+- IMLeader::HorzLanding
+- IMLeader::LandingDistance
+- IMLeader::LandingGap
+- IMLeader::Layer
+- IMLeader::LeaderExtn
+- IMLeader::LeaderLineColor
+- IMLeader::LeaderLineStyle
+- IMLeader::LeaderLineWeight
+- IMLeader::LeftAttachment
+- IMLeader::LineScale
+- IMLeader::LineStyle
+- IMLeader::LineWeight
+- IMLeader::MLeaderJustify
+- IMlLeader::MLeaderStyle
+- IMLeader::MLeaderType
+- IMLeader::NoteAttachmentDirectionType
+- IMLeader::NoteAttachmentType
+- IMLeader::OverallScale
+- IMLeader::RightAttachment
+- IMLeader::ToleranceAttachment
+- IMLeader::Select
+- IMLeader::SetArrow
+- IMLeader::SetBlock
+- IMLeader::SetCustomData
+- IMLeader::SetHyperLink
+- IMLeader::SetNote
+- IMLeader::Visible
+###### New methods and property
+###### IApplication Interface
+- IApplication::GetFileDialogManager
+###### IExternalReference Interface
+- IExternalReference::ReferenceType
+###### ISketchManager Interface
+- ISketchManager::InsertExternalReferenceWithReferenceType
+- ISketchManager::InsertMLeaderWithBlockContentType
+- ISketchManager::InsertMLeaderWithNoneContentType
+- ISketchManager::InsertMLeaderWithNoteContentType
+- ISketchManager::InsertMLeaderWithToleranceContentType
+##### Service Pack 2
+###### New methods
+###### IApplication Interface
+- IApplication::RunCommand2 (obsoletes IApplication::RunCommand)
+###### ISketchManager Interface
+- ISketchManager::DetachDgnDefinition
+- ISketchManager::DetachImageDefinition
+- ISketchManager::DetachPdfDefinition
+###### Obsoleted method
+- IApplication::RunCommand (superseded by IApplication::RunCommand2)
+##### Service Pack 1
+###### New properties
+###### IDocument Interface
+- IDocument::Is3DExperienceFile
+###### IExportSettings Interface
+- IExportSettings::CustomPaperHeight
+- IExportSettings::CustomPaperWidth
+- IExportSettings::CustomPlotPaperUnit
+- IExportSettings::UseCustomPaperSize
+##### Service Pack 0
+###### New interface
+###### IProfileManager Interface
+- IProfileManager::CreateProfile
+- IProfileManager::ExportProfile
+- IProfileManager::GetActiveProfile
+- IProfileManager::GetProfileNames
+- IProfileManager::ImportProfile
+- IProfileManager::RemoveProfile
+- IProfileManager::RenameProfile
+- IProfileManager::ResetProfile
+- IProfileManager::SetActiveProfile
+###### New method and property
+###### IApplication Interface
+- IApplication::GetProfileManager
+- IApplication::IsResetDrawingScales
+<<< Sample Projects | draftsightapi/SampleProjects.md
+The following sample projects are available to users of DraftSight who have network licenses.
+| Description | Programming language | Folder |
+| Shows the creation and usage of combo boxes for four common properties: color, line type, line width, and text style. Draws a text and its bounding box using the specified properties. | Visual C# | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C#\Complex\PropertyControls |
+| Creates a simple dock control in DraftSight. Allows you to create a circle specifying radius and position. | Visual C# | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C#\Simple\DockControl |
+| Demonstrates how to export drawing files (.dwg,.dxf) to image files (.png). Opens a file browser asking the user to specify the folder containing the drawings. Accepts the folder and converts all drawings to Portable Network Graphics format. | Visual C# | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C#\Simple\DrawingToImag e |
+| Demonstrates how to create a ribbon-based user-interface. | Visual C# | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C#\Simple\Ribbon |
+| Demonstrates how to create a context menu. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\ContextMenu |
+| Demonstrates how to read and write extended data to entities and how to deal with custom data like xrecords and dictionaries. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\DictionaryXDataDemo |
+| Demonstrates how to create a dock widget. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\DockWidget |
+| Draws a circle. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\DrawCircleCommand |
+| Runs the application in the background, opens the drawing, and exports the contents of the drawing to a Portable Network Graphics file. Requires DraftSight Premium. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\DrawingToImage |
+| Demonstrates how to create a Bill of Materials using the table entity. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\DrawTableCommand |
+| Demonstrates entity preview. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\EntityPreviewDemo |
+| Creates a menu and a command. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\Menu |
+| Demonstrates the minimum requirements for a DSAPI reactor. Catches document-based events and prompts the user with messages. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\Reactors |
+| Demonstrates how to create a ribbon-based user-interface. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\Ribbon |
+| Shows selection functionality and prints information about current and previous selection sets. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\Selection |
+| Demonstrates how to create command trackers. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\TrackerDemo |
+| Shows window usage and prints window size, position, etc. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Simple\Windows |
+| Demonstrates how to create and insert blocks and get and set custom data. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Complex\BlockCustomData |
+| Displays the blocks (.dwg files) in the folder %ALLUSERSPROFILE/Dassault/Systemes/-DraftSight/BlockLibraryRoot/ as a library and allows you to add the blocks to the drawing. Demonstrates a block library. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Complex\BlockLibraryManage r |
+| Demonstrates how to create block trackers. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Complex\BlockTrackerDemo |
+| Demonstrates how to program Lisp functions. Requires DraftSight Premium. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Complex\Lisp |
+| Demonstrates how to post events. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Complex\PostEvent |
+| Demonstrates how to program property widgets. | C++ | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\C++\Complex\PropertyWidgets |
+| Demonstrates how to create a part list. | C++ COM | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\COM\Complex\PartList |
+| Demonstrates how to create patterns. | C++ COM | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\COM\Complex\PatternGenerator |
+| Demonstrates how to create property controls. | C++ COM | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\COM\Complex\PropertyControls |
+| Demonstrates how to create a simple dock control. | C++ COM | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\COM\Simple\DockControl |
+| Demonstrates how to export drawing files (.dwg,.dxf) to image files (.png). | C++ COM | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\COM\Simple\DrawingToImage |
+| Demonstrates how to create a ribbon-based user-interface. | C++ COM | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\COM\Simple\RibbonSample |
+| Demonstrates how to create a serial resistor. | JavaScript | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\JS\Complex\SerialResistor.html |
+| Demonstrates how to create a ribbon-based user-interface. | JavaScript | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\JS\Simple\RibbonSample.html |
+| Demonstrates how to create MFC property controls. | MFC | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\MFC\Complex\PropertyControlsMFC |
+| Demonstrates how to create a simple dock control. | MFC | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\MFC\Simple\DockControl |
+| Demonstrates how to export drawing files (.dwg,.dxf) to image files (.png). | MFC | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\MFC\Simple\DrawingToImage |
+| Reads all blocks in the current drawing and writes their attributes to tables that can be exported to an Excel worksheet. Run this sample with DraftSight's sample drawing, C-89764.DWG. Requires Microsoft Excel. | VB.NET | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\VB.Net\complex\BlockAttributeDemo |
+| Using R = U / I, calculates the appropriate resistor to be used for a series of LEDs in a circuit of given current and voltage. Also connects all elements in the serial circuit. | VB.NET | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\VB.Net\complex\SerialResistor |
+| Inserts a simple note in a drawing. | VB.NET | C:\Program Files\Dassault Systemes\DraftSight\APISDK\samples\VB.Net\simple\MyPrint |
+Back to top
+<<< Welcome | draftsightapi/Welcome-draftsightapi.md
+This online reference guide documents the DraftSight Application Programming Interface (API), which you can use to create applications and add-ins for the DraftSight software.
+The DraftSight API provides direct access to DraftSight functionality and allows you to create commands, add toolbars and menus, construct geometry, create and modify Dimensions, add custom data, export documents as different document types, print documents, and so on.
+Use of the DraftSight API assumes that you are familiar with:
+- the DraftSight software.
+- an integrated development environment (IDE) like Microsoft Visual Studio.
+- C++, COM native C++, C#, JavaScript, Visual Basic (also called VB.NET), or VBA.
+NOTE: Mac OS and Linux operating systems support C++ and JavaScript only.

@@ -9,8 +9,7 @@ source: "swmotionstudyapi/SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.sw
 
 # swMotionStudyNotify_e Enumeration
 
-To receive notifications, a DLL application must register for the notifications by object type. This registration must be done for each instance of a
-particular object.
+To receive notifications, a DLL application must register for the notifications by object type. This registration must be done for each instance of a particular object.
 
 ## Syntax
 
@@ -55,7 +54,7 @@ public enum class swMotionStudyNotify_e : public System.Enum
 
 ## Remarks
 
-If developing a C++ application, use the previously listed enumerators to register for notifications for these[IMotionStudy](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy.html)events.
+If developing a C++ application, use the previously listed enumerators to register for notifications for these [IMotionStudy](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.IMotionStudy.html) events.
 
 ## See Also
 

@@ -40,48 +40,31 @@ System.object GetTableAnnotations()
 System.Object^ GetTableAnnotations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[table annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html)
+Array of [table annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation.html)
 
 ## VBA Syntax
 
-See
-
-[View::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~View~GetTableAnnotations.html)
-
-.
+See [View::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~View~GetTableAnnotations.html).
 
 ## Examples
 
 [Get Annotations Arrays (VBA)](Get_Annotations_Array_Example_VB.htm)
-
 [Get Annotations Arrays (VB.NET)](Get_Annotations_Arrays_Example_VBNET.htm)
-
 [Get Annotations Arrays (C#)](Get_Annotations_Arrays_Example_CSharp.htm)
 
 ## Remarks
 
-This method can be used to obtain the array of table annotations all at once instead of calling[IView::GetFirstTableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstTableAnnotation.html)and then repeatedly calling[ITableAnnotation::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetNext.html)to obtain the table annotations.
+This method can be used to obtain the array of table annotations all at once instead of calling [IView::GetFirstTableAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetFirstTableAnnotation.html) and then repeatedly calling [ITableAnnotation::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~GetNext.html) to obtain the table annotations.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetTableAnnotationCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetTableAnnotationCount.html)
-
 [IView::IGetTableAnnotations Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~IGetTableAnnotations.html)
 
 ## Availability

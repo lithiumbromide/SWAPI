@@ -45,13 +45,7 @@ property System.double MetallicAmplitude {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Amplitude of the metallic flakes
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::MetallicAmplitude](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~MetallicAmplitude.html)
-
-.
+See [RenderMaterial::MetallicAmplitude](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~MetallicAmplitude.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ When the metallic amplitude is set to smaller values, the metallic flakes are fl
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

@@ -45,13 +45,7 @@ property System.bool UseCornerTreatment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to apply a corner treatment, false to not
 
 ## VBA Syntax
 
-See
-
-[EndCapFeatureData::UseCornerTreatment](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~UseCornerTreatment.html)
-
-.
+See [EndCapFeatureData::UseCornerTreatment](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~UseCornerTreatment.html).
 
 ## Examples
 
-See the
-
-[IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html)
-
-examples.
+See the [IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html) examples.
 
 ## See Also
 
 [IEndCapFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData.html)
-
 [IEndCapFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData_members.html)
 
 ## Availability

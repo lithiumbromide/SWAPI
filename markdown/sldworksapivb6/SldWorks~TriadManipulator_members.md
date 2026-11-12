@@ -1,6 +1,5 @@
 ---
-title: "TriadManipulator Object
-Members"
+title: "TriadManipulator Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TriadManipulator_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TriadManipulator_members.html"
 ---
 
-# TriadManipulator Object
-Members
+# TriadManipulator Object Members
 
 ## Public Methods
 

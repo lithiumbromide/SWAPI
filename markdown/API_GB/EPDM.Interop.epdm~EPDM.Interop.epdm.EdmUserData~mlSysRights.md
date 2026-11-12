@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData~mlSysRights.html
 
 # mlSysRights Field
 
-Combination of
-
-[EdmSysRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html)
-
-flags.
+Combination of [EdmSysRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html) flags.
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int mlSysRights
 ## See Also
 
 [EdmUserData Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData.html)
-
 [EdmUserData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData_members.html)

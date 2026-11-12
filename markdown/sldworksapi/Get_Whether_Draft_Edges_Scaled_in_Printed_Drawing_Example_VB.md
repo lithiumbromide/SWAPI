@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Whether_Draft_Edges_Scaled_in_Printed_Drawing_Example_V
 
 # Get Whether Draft Edges Scaled in Printed Drawing Example (VBA)
 
-This example shows how to get whether draft edges are scaled when printing a
-drawing in high quality.
+This example shows how to get whether draft edges are scaled when printing a drawing in high quality.
 
 ```
 '------------------------------------------------------------------------------

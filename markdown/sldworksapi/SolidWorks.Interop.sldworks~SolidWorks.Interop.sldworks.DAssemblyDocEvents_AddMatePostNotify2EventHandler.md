@@ -43,43 +43,25 @@ public delegate System.int DAssemblyDocEvents_AddMatePostNotify2EventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Mates`: Array of new
-
-[mates](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
+- `Mates`: Array of new [mates](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
 
 ## VBA Syntax
 
-See
-
-[AddMatePostNotify2 Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~AddMatePostNotify2_EV.html)
-
-.
+See [AddMatePostNotify2 Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~AddMatePostNotify2_EV.html).
 
 ## Examples
 
 [Fire Notification After Adding a Mate (VBA)](Fire_Notification_After_Adding_a_Mate_Example_VB.htm)
-
 [Fire Notification After Adding a Mate (VB.NET)](Fire_Notification_After_Adding_a_Mate_Example_VBNET.htm)
-
 [Fire Notification After Adding a Mate (C#)](Fire_Notification_After_Adding_a_Mate_Example_CSharp.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyAddMatePostNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyAddMatePostNotify2](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

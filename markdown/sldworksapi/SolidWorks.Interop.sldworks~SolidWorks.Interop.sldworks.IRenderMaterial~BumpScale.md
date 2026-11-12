@@ -45,13 +45,7 @@ property System.double BumpScale {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,22 +53,17 @@ Scale
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::BumpScale](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpScale.html)
-
-.
+See [RenderMaterial::BumpScale](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~BumpScale.html).
 
 ## Remarks
 
 Scale controls the pattern of surface finish elements. A higher scale decreases the pattern incidence, and a lower scale increases the incidence of pattern elements.
 
-Scale if more pronounced for low[amplitude](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~BumpAmplitude.html)values.[Radius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~BumpRadius.html)also affects the pattern incidence for dimpled surface finishes.
+Scale if more pronounced for low [amplitude](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~BumpAmplitude.html) values. [Radius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial~BumpRadius.html) also affects the pattern incidence for dimpled surface finishes.
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

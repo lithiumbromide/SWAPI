@@ -47,13 +47,7 @@ System.Object^ SaveSelection(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,30 +59,20 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SaveSelection](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SaveSelection.html)
-
-.
+See [ModelDocExtension::SaveSelection](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SaveSelection.html).
 
 ## Examples
 
 [Create and Delete Selection Sets (C#)](Create_and_Delete_Selection_Sets_Example_CSharp.htm)
-
 [Create and Delete Selection Sets (VB.NET)](Create_and_Delete_Selection_Sets_Example_VBNET.htm)
-
 [Create and Delete Selection Sets (VBA)](Create_and_Delete_Selection_Sets_Example_VB.htm)
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [ISelectionSetFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetFolder.html)
-
 [ISelectionSetItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSetItem.html)
-
 [ISelectionSet::RemoveSelectionSet Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet~RemoveSelectionSet.html)
 
 ## Availability

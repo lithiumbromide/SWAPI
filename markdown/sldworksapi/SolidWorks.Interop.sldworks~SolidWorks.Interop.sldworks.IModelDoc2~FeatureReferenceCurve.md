@@ -63,21 +63,15 @@ System.Object^ FeatureReferenceCurve(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `NumOfCurves`: Number of curves from which to create the object
-- `BaseCurves`: Array of[curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
+- `BaseCurves`: Array of [curves](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
 - `Merge`: True creates a single reference curve feature, false creates a reference curve feature for each curve in the array
 - `FromFileName`: Not used
-- `ErrorCode`: Error code as defined in[swFeatureError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureError_e.html)
+- `ErrorCode`: Error code as defined in [swFeatureError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFeatureError_e.html)
 
 ### Return Value
 
@@ -85,26 +79,18 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::FeatureReferenceCurve](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FeatureReferenceCurve.html)
-
-.
+See [ModelDoc2::FeatureReferenceCurve](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FeatureReferenceCurve.html).
 
 ## Examples
 
 [Create Reference Curve (C#)](Create_Reference_Curve_Example_CSharp.htm)
-
 [Create Reference Curve (VB.NET)](Create_Reference_Curve_Example_VBNET.htm)
-
 [Create Reference Curve (VBA)](Create_Reference_Curve_Example_VB.htm)
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::IFeatureReferenceCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IFeatureReferenceCurve.html)
 
 ## Availability

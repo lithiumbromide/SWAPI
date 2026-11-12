@@ -60,7 +60,6 @@ This method is used internally by SOLIDWORKS PDM Professional to copy attributes
 ## See Also
 
 [IEdmVariableMgr7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr7.html)
-
 [IEdmVariableMgr7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVariableMgr7_members.html)
 
 ## Availability

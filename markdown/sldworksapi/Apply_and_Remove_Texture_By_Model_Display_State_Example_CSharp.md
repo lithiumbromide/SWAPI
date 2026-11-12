@@ -9,8 +9,7 @@ source: "sldworksapi/Apply_and_Remove_Texture_By_Model_Display_State_Example_CSh
 
 # Apply and Remove Texture To and From Model By Display State Example (C#)
 
-This example shows how to apply and remove texture to and from a model by a
-display state.
+This example shows how to apply and remove texture to and from a model by a display state.
 
 ```vb
  //------------------------------------------------------
@@ -21,7 +20,7 @@ display state.
  // Postconditions:
  // 1. Opens the specified part and applies texture to the part.
  // 2. Examine the part
- // 3. In the IDE, click the Continue button kadov_tag{{</spaces>}}at
+ // 3. In the IDE, click the Continue button at
  //    System.Diagnostics.Debugger.Break().
  // 4. Removes the texture from the selected face.
  // 5. Examine the Immediate window and part.
@@ -65,19 +64,13 @@ ApplyRemoveTextureByDisplayStateCSharp.csproj
     {
 ```
 
-partial
-
-class
-
-SolidWorksMacro
+partial class SolidWorksMacro
 
 ```vb
          {
 ```
 
-public
-
-void
+public void
 
 Main()
 
@@ -85,17 +78,7 @@ Main()
              {
 ```
 
-ModelDoc2
-
-swModel =
-
-default
-
-(
-
-ModelDoc2
-
-);
+ModelDoc2 swModel = default(ModelDoc2);
 
 ```vb
 ModelDocExtension swModelDocExt = default(ModelDocExtension);
@@ -112,46 +95,7 @@ string namStr = null;
 swModel = (
 ```
 
-ModelDoc2
-
-)swApp.
-
-OpenDoc6
-
-(
-
-"C:\\Users\\Public\\Documents\\SOLIDWORKS\SOLIDWORKS
-2018\\samples\\tutorial\\motionstudies\\valve.sldprt"
-
-,
-(
-
-int
-
-)
-
-swDocumentTypes_e
-
-.swDocPART,
-(
-
-int
-
-)
-
-swOpenDocOptions_e
-
-.swOpenDocOptions_Silent,
-
-""
-
-,
-
-ref
-
-errors,
-
-ref
+ModelDoc2)swApp.**OpenDoc6**("C:\\Users\\Public\\Documents\\SOLIDWORKS\SOLIDWORKS 2018\\samples\\tutorial\\motionstudies\\valve.sldprt", (int)swDocumentTypes_e.swDocPART, (int)swOpenDocOptions_e.swOpenDocOptions_Silent, "", ref errors, ref
 
 warnings);
 
@@ -159,21 +103,13 @@ warnings);
 swModelDocExt = (
 ```
 
-ModelDocExtension
-
-)
-swModel.
-
-Extension
-
-;
+ModelDocExtension) swModel.**Extension**;
 
 ```vb
 // Set texture on model in the
 ```
 
-//
-specified display state
+// specified display state
 
 ```vb
 displayState =
@@ -195,57 +131,25 @@ namStr =
 texture = (
 ```
 
-Texture
-
-)
-swModelDocExt.
-
-CreateTexture
-
-(namStr, 5, 45,
-
-false
+Texture) swModelDocExt.**CreateTexture**(namStr, 5, 45, false
 
 );
 
-Debug
-
-.Print(
-
-"Texture
-set: "
-
-+ swModelDocExt.
-
-SetTextureByDisplayState
-
-(displayState,
-texture));
+Debug.Print("Texture set: " + swModelDocExt.**SetTextureByDisplayState**(displayState, texture));
 
 ```vb
-kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}// Examine the selected face to verify
-kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}// that the specified texture was set
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}   // In the IDE, click the Continue button to resume
-kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}// running macro
-kadov_tag{{<spaces>}}               kadov_tag{{</spaces>}}System.Diagnostics.Debugger.Break();
+               // Examine the selected face to verify
+               // that the specified texture was set
+               // In the IDE, click the Continue button to resume
+               // running macro
+               System.Diagnostics.Debugger.Break();
 ```
 
 ```vb
 // Remove texture from model by display state
 ```
 
-Debug
-
-.Print(
-
-"Texture
-removed: "
-
-+ swModelDocExt.
-
-RemoveTextureByDisplayState
-
-(displayState));
+Debug.Print("Texture removed: " + swModelDocExt.**RemoveTextureByDisplayState**(displayState));
 
 ```vb
 // Rebuild model
@@ -255,9 +159,7 @@ RemoveTextureByDisplayState
 swModel.ForceRebuild3(
 ```
 
-false
-
-);
+false);
 
 ```vb
             }
@@ -267,19 +169,11 @@ false
 /// <summary>
 ```
 
-///
+/// The SldWorks swApp variable is pre-assigned for you.
 
-The SldWorks swApp variable is pre-assigned for you.
+/// </summary>
 
-///
-
-</summary>
-
-public
-
-SldWorks
-
-swApp;
+public SldWorks swApp;
 
 ```vb
     }

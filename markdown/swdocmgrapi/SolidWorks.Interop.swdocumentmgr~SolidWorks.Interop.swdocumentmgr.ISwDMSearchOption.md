@@ -11,13 +11,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 Allows you to specify the types of references and paths to search.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,16 +41,11 @@ public interface class ISwDMSearchOption
 
 ## VBA Syntax
 
-See
-
-[SwDMSearchOption](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSearchOption.html)
-
-.
+See [SwDMSearchOption](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMSearchOption.html).
 
 ## Examples
 
 [Get Current Name of Configuration of Suppressed Component (VB.NET)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_VBNET.htm)
-
 [Get Current Name of Configuration of Suppressed Component (C#)](Get_Current_Name_of_Configuration_of_Suppressed_Component_Example_CSharp.htm)
 
 ## Remarks
@@ -74,5 +63,4 @@ Every ISwDMSearchOption object is independent and is passed as a parameter. Beca
 ## See Also
 
 [ISwDMSearchOption Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMSearchOption_members.html)
-
 [SolidWorks.Interop.swdocumentmgr Namespace](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr_namespace.html)

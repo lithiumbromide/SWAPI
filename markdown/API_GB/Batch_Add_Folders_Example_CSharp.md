@@ -9,12 +9,9 @@ source: "API_GB/Batch_Add_Folders_Example_CSharp.htm"
 
 # Batch Add Folders Example (C#)
 
-This example shows how to create several folders in the
-vault at once.
+This example shows how to create several folders in the vault at once.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------

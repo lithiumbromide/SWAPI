@@ -40,13 +40,7 @@ System.int GetEdgesCount()
 System.int GetEdgesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,36 +48,21 @@ Number of edges
 
 ## VBA Syntax
 
-See
-
-[RipFeatureData::GetEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~RipFeatureData~GetEdgesCount.html)
-
-.
+See [RipFeatureData::GetEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~RipFeatureData~GetEdgesCount.html).
 
 ## Examples
 
-See the
-
-[IRipFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData.html)
-
-examples.
+See the [IRipFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData.html) examples.
 
 ## Remarks
 
-Call this method before calling
-
-[IRipFeatureData::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRipFeatureData~IGetEdges.html)
-
-to get the size of the array for that method.
+Call this method before calling [IRipFeatureData::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRipFeatureData~IGetEdges.html) to get the size of the array for that method.
 
 ## See Also
 
 [IRipFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData.html)
-
 [IRipFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData_members.html)
-
 [IRipFeatureData::ISetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData~ISetEdges.html)
-
 [IRipFeatureData::Edges Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRipFeatureData~Edges.html)
 
 ## Availability

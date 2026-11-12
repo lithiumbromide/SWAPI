@@ -1,6 +1,5 @@
 ---
-title: "IDistanceMateFeatureData Object
-Members"
+title: "IDistanceMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IDistanceMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IDistanceMateFeatureData_members.html"
 ---
 
-# IDistanceMateFeatureData Object
-Members
+# IDistanceMateFeatureData Object Members
 
 ## Public Properties
 

@@ -47,46 +47,29 @@ System.Object^ GetHoleStandardsData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `HoleTypeID`: Hole Wizard hole type as defined in
-
-[swWzdGeneralHoleTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdGeneralHoleTypes_e.html)
+- `HoleTypeID`: Hole Wizard hole type as defined in [swWzdGeneralHoleTypes_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swWzdGeneralHoleTypes_e.html)
 
 ### Return Value
 
-[IHoleStandardsData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html)
-
-; null if HoleTypeID is 5 (swWzdLegacy)
+[IHoleStandardsData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html); null if HoleTypeID is 5 (swWzdLegacy)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetHoleStandardsData](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetHoleStandardsData.html)
-
-.
+See [SldWorks::GetHoleStandardsData](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetHoleStandardsData.html).
 
 ## Examples
 
 [Get Hole Standards Data (VBA)](Get_Wizard_Hole_Standards_Data_Example_VB.htm)
-
 [Get Hole Standards Data (C#)](Get_Wizard_Hole_Standards_Data_Example_CSharp.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [IHoleDataTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "routingapi/Get_RouteProperty_from_Selected_Sketch_Segment_Example_VBNET
 
 # Get Route Properties of Selected Sketch Segment Example (VB.NET)
 
-This example shows how to get the route and covering properties of a
-sketch segment.
+This example shows how to get the route and covering properties of a sketch segment.
 
 ```vb
   '----------------------------------------------------------------------------

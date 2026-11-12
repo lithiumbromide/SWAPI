@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 Allows access to a slot mate feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,17 +41,13 @@ public interface class ISlotMateFeatureData
 
 ## VBA Syntax
 
-See
-
-[SlotMateFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SlotMateFeatureData.html)
-
-.
+See [SlotMateFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SlotMateFeatureData.html).
 
 ## Examples
 
 'VBA
 ' ******************************************************************************
-' 1. Open`public_documents`**\samples\tutorial\api\MechanicalMates\slot_slot.sldasm**.
+' 1. Open `public_documents`**\samples\tutorial\api\MechanicalMates\slot_slot.sldasm**.
 ' 2. Run the macro.
 ' 3. Inspect the Mates folder of the FeatureManager design tree.
 ' ******************************************************************************
@@ -78,13 +74,13 @@ Set EntitiesToMate(0) = Part.SelectionManager.GetSelectedObject6(1, -1)
 Set EntitiesToMate(1) = Part.SelectionManager.GetSelectedObject6(2, -1)
 Dim EntitiesToMateVar As Variant
 EntitiesToMateVar = EntitiesToMate
-MateData.**EntitiesToMate**= (EntitiesToMateVar)
+MateData.**EntitiesToMate** = (EntitiesToMateVar)
 
 ' Set the mate alignment
-MateData.**MateAlignment**= 0
+MateData.**MateAlignment** = 0
 
 ' Set the mate constraint
-MateData.**Constraint**= 0
+MateData.**Constraint** = 0
 
 ' Create the mate
 Dim MateFeature As SldWorks.Feature
@@ -105,42 +101,22 @@ A slot mate is a mate between:
 - A bolt and either a straight slot or an arced slot.
 - Two slots, straight or arced
 
-[IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html)is the parent of this mate interface.
+[IMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateFeatureData.html) is the parent of this mate interface.
 
 To create a slot mate:
 
-1. Follow general instructions in the
-
-  [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html)
-
-  Remarks.
-2. Specify
-
-  [ISlotMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~EntitiesToMate.html)
-
-  or use
-
-  [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
-  to pre-select the entities using Mark = 1.
+1. Follow general instructions in the [IAssemblyDoc::CreateMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~CreateMate.html) Remarks.
+2. Specify [ISlotMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData~EntitiesToMate.html) or use [IModelDocExtension::SelectByID2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html) to pre-select the entities using Mark = 1.
 3. Specify other properties of the SlotMateFeatureData object. as required.
 
 To edit a slot mate:
 
-1. Access its feature and call
-
-  [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html)
-
-  to get the MateFeatureData object.
+1. Access its feature and call [IFeature::GetDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetDefinition.html) to get the MateFeatureData object.
 2. Cast the MateFeatureData object to a SlotMateFeatureData object.
 3. Modify the SlotMateFeatureData object.
-4. Call
+4. Call [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html).
 
-  [IFeature::ModifyDefinition](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  .
-
-To delete this slot mate, use[IModelDocExtension::DeleteSelection2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSelection2.html).
+To delete this slot mate, use [IModelDocExtension::DeleteSelection2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~DeleteSelection2.html).
 
 ## Access Diagram
 
@@ -149,5 +125,4 @@ To delete this slot mate, use[IModelDocExtension::DeleteSelection2](SolidWorks.I
 ## See Also
 
 [ISlotMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISlotMateFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

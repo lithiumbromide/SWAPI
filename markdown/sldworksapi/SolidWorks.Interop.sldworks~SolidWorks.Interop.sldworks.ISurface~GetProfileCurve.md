@@ -40,34 +40,18 @@ System.object GetProfileCurve()
 System.Object^ GetProfileCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Profile
-
-[curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html)
-
-used to create the surface of revolution or extrusion surface
+Profile [curve](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurve.html) used to create the surface of revolution or extrusion surface
 
 ## VBA Syntax
 
-See
-
-[Surface::GetProfileCurve](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetProfileCurve.html)
-
-.
+See [Surface::GetProfileCurve](ms-its:sldworksapivb6.chm::/sldworks~Surface~GetProfileCurve.html).
 
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::IGetProfileCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IGetProfileCurve.html)

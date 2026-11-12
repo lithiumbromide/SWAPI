@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Dimension_Values_in_All_Configurations_Example_VB.htm"
 
 # Get Dimension Values in All Configurations Example (VBA)
 
-This example shows how to get the dimension values in all configurations
-of a model.
+This example shows how to get the dimension values in all configurations of a model.
 
 ```
 '----------------------------------------

@@ -45,13 +45,7 @@ property System.double MinorDiameter {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Minor diameter for a tapered hole
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::MinorDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~MinorDiameter.html)
-
-.
+See [WizardHoleFeatureData2::MinorDiameter](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~MinorDiameter.html).
 
 ## Examples
 
@@ -73,14 +63,12 @@ See
 
 This property is relevant only for swTapered and swTaperedDrilled holes.
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details.
 
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
-
 [IWizardHoleFeatureData2::MajorDiameter Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~MajorDiameter.html)
 
 ## Availability

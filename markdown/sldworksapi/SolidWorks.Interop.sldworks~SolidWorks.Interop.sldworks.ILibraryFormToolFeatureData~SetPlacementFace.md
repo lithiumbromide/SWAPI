@@ -50,13 +50,7 @@ void SetPlacementFace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[LibraryFormToolFeatureData::SetPlacementFace](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~SetPlacementFace.html)
-
-.
+See [LibraryFormToolFeatureData::SetPlacementFace](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~SetPlacementFace.html).
 
 ## Examples
 
-See the
-
-[ILibraryFormToolFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
-examples.
+See the [ILibraryFormToolFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html) examples.
 
 ## See Also
 
 [ILibraryFormToolFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
 [ILibraryFormToolFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData_members.html)
-
 [ILibraryFormToolFeatureData::PlacementFace Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~PlacementFace.html)
 
 ## Availability

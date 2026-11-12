@@ -42,46 +42,29 @@ property System.Object^ PatternedTransforms {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of
-
-[transforms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
-for the instances of this cosmetic thread
+Array of [transforms](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html) for the instances of this cosmetic thread
 
 ## VBA Syntax
 
-See
-
-[CThread::PatternedTransforms](ms-its:sldworksapivb6.chm::/sldworks~CThread~PatternedTransforms.html)
-
-.
+See [CThread::PatternedTransforms](ms-its:sldworksapivb6.chm::/sldworks~CThread~PatternedTransforms.html).
 
 ## Examples
 
 [Get Patterned Cosmetic Thread Annotations Data (C#)](Get_Patterned_Cosmetic_Thread_Annotations_Data_Example_CSharp.htm)
-
 [Get Patterned Cosmetic Thread Annotations Data (VB.NET)](Get_Patterned_Cosmetic_Thread_Annotations_Data_Example_VBNET.htm)
-
 [Get Patterned Cosmetic Thread Annotations Data (VBA)](Get_Patterned_Cosmetic_Thread_Annotations_Data_Example_VB.htm)
 
 ## Remarks
 
-The value returned by this property does not include this cosmetic thread, which is the seed feature and not an pattern instance.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Therefore, if this cosmetic thread is not used in a pattern feature, then[ICThreadFeatureData::GetTransformsPatternedCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICThread~GetPatternedTransformsCount.html)returns 0 and this property returns an empty array.
+The value returned by this property does not include this cosmetic thread, which is the seed feature and not an pattern instance. Therefore, if this cosmetic thread is not used in a pattern feature, then [ICThreadFeatureData::GetTransformsPatternedCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICThread~GetPatternedTransformsCount.html) returns 0 and this property returns an empty array.
 
 ## See Also
 
 [ICThread Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread.html)
-
 [ICThread Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICThread_members.html)
 
 ## Availability

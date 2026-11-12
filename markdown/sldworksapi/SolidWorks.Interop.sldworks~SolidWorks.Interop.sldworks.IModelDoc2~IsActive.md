@@ -47,13 +47,7 @@ System.bool IsActive(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,15 +59,11 @@ True if component is shown, false if component is hidden
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IsActive](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IsActive.html)
-
-.
+See [ModelDoc2::IsActive](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IsActive.html).
 
 ## Remarks
 
-The CompStrparameter is the full assembly component name designation. The format of the name designation is:
+The CompStr parameter is the full assembly component name designation. The format of the name designation is:
 
 parentModel/childModel
 
@@ -83,16 +73,13 @@ childModel is the model whose display status you want to determine. For example,
 
 AXIS/WHEEL/SPOKE
 
-TIP:The assembly component name designation is shown in the lower-left corner of the SOLIDWORKS application when an assembly component is selected.
+TIP: The assembly component name designation is shown in the lower-left corner of the SOLIDWORKS Design application when an assembly component is selected.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::ShowComponent2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ShowComponent2.html)
-
 [IModelDoc2::HideComponent2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~HideComponent2.html)
 
 ## Availability

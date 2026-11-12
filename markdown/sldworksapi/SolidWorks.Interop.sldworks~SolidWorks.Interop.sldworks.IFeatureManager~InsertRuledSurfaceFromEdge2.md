@@ -87,21 +87,15 @@ Feature^ InsertRuledSurfaceFromEdge2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Type`: - 0 = Tangent to Surface
-- 1 = Normal to Surface
-- 2 = Tapered to Vector
-- 3 = Perpendicular to Vector
-- 4 = Sweep
+  - 1 = Normal to Surface
+  - 2 = Tapered to Vector
+  - 3 = Perpendicular to Vector
+  - 4 = Sweep
 - `Length`: Distance at which to create the surface; valid for Tangent to Surface, Tapered to Vector, Perpendicular to Vector, and Sweep types only
 - `FlipPullDir`: True to flip the pull direction, false to not; valid for Normal to Surface and Tapered to Vector types only
 - `FlipDir`: True to flip the direction, false to not; valid for Perpendicular to Vector type only
@@ -115,34 +109,24 @@ See
 
 ### Return Value
 
-Pointer to the[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertRuledSurfaceFromEdge2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertRuledSurfaceFromEdge2.html)
-
-.
+See [FeatureManager::InsertRuledSurfaceFromEdge2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertRuledSurfaceFromEdge2.html).
 
 ## Remarks
 
-If you[select](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)an edge with a selection mark of 4, the default face is used.kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If you select an edge with a selection mark of 6, the alternate face is used.
+If you [select](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) an edge with a selection mark of 4, the default face is used. If you select an edge with a selection mark of 6, the alternate face is used.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [IModeler::CreateRuledSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateRuledSurface.html)
-
 [IModeler::CreateRuledSurfaceFromEdge Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~CreateRuledSurfaceFromEdge.html)
-
 [IModeler::ICreateRuledSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateRuledSurface.html)
-
 [IModeler::ICreateRuledSurfaceFromEdge Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler~ICreateRuledSurfaceFromEdge.html)
 
 ## Availability

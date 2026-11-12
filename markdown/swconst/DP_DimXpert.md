@@ -9,61 +9,15 @@ source: "swconst/DP_DimXpert.htm"
 
 # Document Properties > DimXpert
 
-HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN"
-
-(==============================================================)
-
-(Table)=========================================================
-
 | Setting | Get/Set Methods | Return Value or < Value > or < OnFlag > | Comments |
 | --- | --- | --- | --- |
-| Methods - Block Tolerance or General
-Tolerance | IModelDocExtension::GetUserPreferenceToggle (swUserPreferenceToggle_e.swPartDimXpertBlockTolerance
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceToggle (swUserPreferenceToggle_e. swPartDimXpertBlockTolerance ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < OnFlag >) | Boolean value | Specifies whether to use Block
-Tolerances or General Tolerances on dimensions that do not contain tolerances;
-true for Block Tolerances |
-| Block Tolerance - Length unit dimensions -
-Tolerance 1 - Decimals | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLengthUnitTol1Decimals,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLengthUnitTol1Decimals ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies number of decimal places
-for first tolerance |
-| Block Tolerance - Length unit dimensions -
-Tolerance 1 - Value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLengthUnitTol1Value,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLengthUnitTol1Value ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies symmetric plus or minus
-tolerance for first tolerance |
-| Block Tolerance - Length unit dimensions -
-Tolerance 2 - Decimals | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLengthUnitTol2Decimals,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLengthUnitTol2Decimals ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies number of decimal places
-for second tolerance |
-| Block Tolerance - Length unit dimensions -
-Tolerance 2 - Value | ModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLengthUnitTol2Value,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLengthUnitTol2Value ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies symmetric plus or minus
-tolerance for second tolerance |
-| Block Tolerance - Length unit dimensions -
-Tolerance 3 - Decimals | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLengthUnitTol3Decimals,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLengthUnitTol3Decimals ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies number of decimal places
-for third tolerance |
-| Block Tolerance - Length unit dimensions -
-Tolerance 3 - Value | ModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLengthUnitTol3Value,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLengthUnitTol3Value ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | D ouble value in meters | Specifies symmetric plus or minus
-tolerance for third tolerance |
-| Angular unit dimensions - Tolerance | ModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertAngularUnitTolValue,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertAngularUnitTolValue ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in radians | Specifies the tolerance value to use
-for all angular dimensions |
-| General tolerance - Tolerance class | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertGeneralToleranceClass,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertGeneralToleranceClass ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified,
-swDimXpertGeneralTolClass_e.< Value >) | See swDimXpertGeneralTolClass_e for valid options | Specifies the part tolerance class |
-| General tolerance - Load custom table from | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swLoadCustomTableFrom,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swLoadCustomTableFrom ,
-swUserPreferenceOption_e.swDetailingNoOptionSpecified,
-< Value >) | String value | Specifies the full path name of the custom table to load; non-empty value only
-for Parts and when Tolerance class is set to swDimXpertGeneralTolClass_Custom1 or
-swDimXpertGeneralTolClass_Custom2 |
+| Methods - Block Tolerance or General Tolerance or General Block Tolerance | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertToleranceMethod, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger ( swUserPreferenceIntegerValue_e . swPartDimXpertToleranceMethod , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swPartDimXpertToleranceMethod_e.< Value >) | See swPartDimXpertToleranceMethod_e for valid options |  |
+| Block Tolerance - Length unit dimensions - Tolerance 1 - Decimals | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLengthUnitTol1Decimals, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLengthUnitTol1Decimals , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies number of decimal places for first tolerance |
+| Block Tolerance - Length unit dimensions - Tolerance 1 - Value | IModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLengthUnitTol1Value, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLengthUnitTol1Value , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies symmetric plus or minus tolerance for first tolerance |
+| Block Tolerance - Length unit dimensions - Tolerance 2 - Decimals | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLengthUnitTol2Decimals, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLengthUnitTol2Decimals , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies number of decimal places for second tolerance |
+| Block Tolerance - Length unit dimensions - Tolerance 2 - Value | ModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLengthUnitTol2Value, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLengthUnitTol2Value , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in meters | Specifies symmetric plus or minus tolerance for second tolerance |
+| Block Tolerance - Length unit dimensions - Tolerance 3 - Decimals | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertLengthUnitTol3Decimals, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertLengthUnitTol3Decimals , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Integer value | Specifies number of decimal places for third tolerance |
+| Block Tolerance - Length unit dimensions - Tolerance 3 - Value | ModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertLengthUnitTol3Value, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertLengthUnitTol3Value , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | D ouble value in meters | Specifies symmetric plus or minus tolerance for third tolerance |
+| Angular unit dimensions - Tolerance | ModelDocExtension::GetUserPreferenceDouble (swUserPreferenceDoubleValue_e.swPartDimXpertAngularUnitTolValue, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceDouble (swUserPreferenceDoubleValue_e. swPartDimXpertAngularUnitTolValue , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | Double value in radians | Specifies the tolerance value to use for all angular dimensions |
+| General tolerance - Tolerance class | IModelDocExtension::GetUserPreferenceInteger (swUserPreferenceIntegerValue_e.swPartDimXpertGeneralToleranceClass, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swPartDimXpertGeneralToleranceClass , swUserPreferenceOption_e.swDetailingNoOptionSpecified, swDimXpertGeneralTolClass_e.< Value >) | See swDimXpertGeneralTolClass_e for valid options | Specifies the part tolerance class |
+| General tolerance - Load custom table from | IModelDocExtension::GetUserPreferenceString (swUserPreferenceStringValue_e.swLoadCustomTableFrom, swUserPreferenceOption_e.swDetailingNoOptionSpecified) IModelDocExtension::SetUserPreferenceInteger (swUserPreferenceIntegerValue_e. swLoadCustomTableFrom , swUserPreferenceOption_e.swDetailingNoOptionSpecified, < Value >) | String value | Specifies the full path name of the custom table to load; non-empty value only for Parts and when Tolerance class is set to swDimXpertGeneralTolClass_Custom1 or swDimXpertGeneralTolClass_Custom2 |

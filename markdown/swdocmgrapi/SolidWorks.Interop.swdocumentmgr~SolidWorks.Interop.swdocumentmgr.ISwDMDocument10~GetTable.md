@@ -57,32 +57,24 @@ SwDMTable^ GetTable(
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument10::GetTable](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument10~GetTable.html)
-
-.
+See [SwDMDocument10::GetTable](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument10~GetTable.html).
 
 ## Examples
 
 [Get BOM Tables (C#)](Get_BOM_Tables_Example_CSharp.htm)
-
 [Get BOM Tables (VB.NET)](Get_BOM_Tables_Example_VBNET.htm)
 
 ## Remarks
 
 Only revision and bill of materials (BOM) tables are supported.
 
-Before calling this method, call[ISwDMDocument10::GetTableNames](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument10~GetTableNames.html)to get the names of the tables in this document.
+Before calling this method, call [ISwDMDocument10::GetTableNames](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDocument10~GetTableNames.html) to get the names of the tables in this document.
 
 ## See Also
 
 [ISwDMDocument10 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument10.html)
-
 [ISwDMDocument10 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument10_members.html)
-
 [ISwDMTable Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable.html)
-
 [ISwDMTable2 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable2.html)
 
 ## Availability

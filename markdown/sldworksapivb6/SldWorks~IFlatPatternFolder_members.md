@@ -1,6 +1,5 @@
 ---
-title: "IFlatPatternFolder Object
-Members"
+title: "IFlatPatternFolder Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IFlatPatternFolder_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IFlatPatternFolder_members.html"
 ---
 
-# IFlatPatternFolder Object
-Members
+# IFlatPatternFolder Object Members
 
 ## Public Methods
 

@@ -45,13 +45,7 @@ property System.bool ExcludeFromCutList {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True to exclude, false to not
 
 ## VBA Syntax
 
-See
-
-[Feature::ExcludeFromCutList](ms-its:sldworksapivb6.chm::/sldworks~Feature~ExcludeFromCutList.html)
-
-.
+See [Feature::ExcludeFromCutList](ms-its:sldworksapivb6.chm::/sldworks~Feature~ExcludeFromCutList.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This method only works for cut list items.
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
 
 ## Availability

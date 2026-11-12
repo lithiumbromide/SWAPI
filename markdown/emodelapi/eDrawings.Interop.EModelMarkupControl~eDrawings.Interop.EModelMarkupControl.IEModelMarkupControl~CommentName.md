@@ -53,46 +53,28 @@ property System.String^ CommentName {
 
 ### Property Value
 
-Name of markup comment specified by CommentIndexParameterDesc
+Name of markup comment specified by CommentIndex
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::CommentName](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~CommentName.html)
-
-.
+See [EModelMarkupControl::CommentName](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~CommentName.html).
 
 ## Examples
 
-See the
-
-[IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl.html)
-
-example.
+See the [IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl.html) example.
 
 ## Remarks
 
-Call
-
-[IEModelMarkupControl::CommentCount](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentCount.html)
-
-before calling this property to get the index number of the markup comments
+Call [IEModelMarkupControl::CommentCount](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentCount.html) before calling this property to get the index number of the markup comments
 
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
-
 [IEModelMarkupControl::ShowComment Method](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~ShowComment.html)
-
 [IEModelMarkupControl::CommentID Property](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentID.html)
-
 [IEModelMarkupControl::ShowCommentx64 Method ()](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~ShowCommentx64.html)
-
 [IEModelMarkupControl::CommentCountx64 Property ()](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentCountx64.html)
-
 [IEModelMarkupControl::CommentIDx64 Property ()](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentIDx64.html)
 
 ## Availability

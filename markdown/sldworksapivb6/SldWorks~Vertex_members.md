@@ -1,6 +1,5 @@
 ---
-title: "Vertex Object
-Members"
+title: "Vertex Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Vertex_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Vertex_members.html"
 ---
 
-# Vertex Object
-Members
+# Vertex Object Members
 
 ## Public Methods
 

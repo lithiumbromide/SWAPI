@@ -42,13 +42,7 @@ property MathPoint^ PreviousDragPoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[TriadManipulator::PreviousDragPoint](ms-its:sldworksapivb6.chm::/sldworks~TriadManipulator~PreviousDragPoint.html)
-
-.
+See [TriadManipulator::PreviousDragPoint](ms-its:sldworksapivb6.chm::/sldworks~TriadManipulator~PreviousDragPoint.html).
 
 ## See Also
 
 [ITriadManipulator Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator.html)
-
 [ITriadManipulator Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITriadManipulator_members.html)
 
 ## Availability

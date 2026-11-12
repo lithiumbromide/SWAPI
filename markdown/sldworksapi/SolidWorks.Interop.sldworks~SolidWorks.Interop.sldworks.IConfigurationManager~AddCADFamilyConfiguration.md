@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # AddCADFamilyConfiguration Method (IConfigurationManager)
 
-Adds the specified configuration to
-
-[SOLIDWORKS Connected](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm)
-
-.
+Adds the specified configuration to [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm).
 
 ## Syntax
 
@@ -75,13 +71,7 @@ System.Object^ AddCADFamilyConfiguration(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -89,12 +79,8 @@ See
 - `Description`: Details about the configuration
 - `IsPhysicalProduct`: True to add a parent configuration (Physical Product), false to add a derived configuration (Representation)
 - `RepresentationParentName`: Parent Physical Product name of derived configuration (Representation); valid only if IsPhysicalProduct is false
-- `ConfigOptions`: Configuration options as defined by
-
-[swCADFamilyCfgOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCADFamilyCfgOptions_e.html)
-- `ChildCompDisplayOption`: Child component display option as defined in
-
-[swChildComponentInBOMOption_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChildComponentInBOMOption_e.html)
+- `ConfigOptions`: Configuration options as defined by [swCADFamilyCfgOptions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCADFamilyCfgOptions_e.html)
+- `ChildCompDisplayOption`: Child component display option as defined in [swChildComponentInBOMOption_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swChildComponentInBOMOption_e.html)
 - `Rebuild`: True to rebuild the model after adding this configuration, false to not
 
 ### Return Value
@@ -103,20 +89,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[ConfigurationManager::AddCADFamilyConfiguration](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~AddCADFamilyConfiguration.html)
-
-.
+See [ConfigurationManager::AddCADFamilyConfiguration](ms-its:sldworksapivb6.chm::/sldworks~ConfigurationManager~AddCADFamilyConfiguration.html).
 
 ## See Also
 
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
-
 [IConfigurationManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager_members.html)
-
 [IConfiguration::Get3DExperienceType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~Get3DExperienceType.html)
-
 [IConfiguration::Set3DExperienceType Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~Set3DExperienceType.html)
 
 ## Availability

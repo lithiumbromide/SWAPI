@@ -57,26 +57,18 @@ void SetCutOffTemperatures(
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::SetCutOffTemperatures](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~SetCutOffTemperatures.html)
-
-.
+See [CWHeatPower::SetCutOffTemperatures](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~SetCutOffTemperatures.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::GetCutOffTemperatures Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~GetCutOffTemperatures.html)
 
 ## Availability

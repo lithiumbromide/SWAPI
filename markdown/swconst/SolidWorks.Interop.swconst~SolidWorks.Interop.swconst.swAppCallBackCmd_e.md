@@ -50,11 +50,7 @@ public enum class swAppCallBackCmd_e : public System.Enum
 
 ## Remarks
 
-Use with
-
-[ISldWorks::AddCallback](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddCallback.html)
-
-.
+Use with [ISldWorks::AddCallback](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~AddCallback.html).
 
 ## See Also
 

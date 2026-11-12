@@ -51,16 +51,11 @@ Name of the document for this link
 
 ## VBA Syntax
 
-See
-
-[PDMWLink::Name](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Name.html)
-
-.
+See [PDMWLink::Name](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Name.html).
 
 ## See Also
 
 [IPDMWLink Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)
-
 [IPDMWLink Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink_members.html)
 
 ## Availability

@@ -47,54 +47,35 @@ System.Object^ GetFaceFacets(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Facedisp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-from which to return the corresponding facet IDs
+- `Facedisp`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) from which to return the corresponding facet IDs
 
 ### Return Value
 
-Array of longs or integers (see[Long vs. Integer](sldworksapiprogguide.chm::/overview/Long_vs_Integer.htm)) that describe the facet IDs that correspond to the face
+Array of longs or integers (see [Long vs. Integer](sldworksapiprogguide.chm::/overview/Long_vs_Integer.htm)) that describe the facet IDs that correspond to the face
 
 ## VBA Syntax
 
-See
-
-[Tessellation::GetFaceFacets](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFaceFacets.html)
-
-.
+See [Tessellation::GetFaceFacets](ms-its:sldworksapivb6.chm::/sldworks~Tessellation~GetFaceFacets.html).
 
 ## Examples
 
 [Tessellate a Body (C#)](Tessellate_a_Body_Example_CSharp.htm)
-
 [Tessellate a Body (VB.NET)](Tessellate_a_Body_Example_VBNET.htm)
-
 [Tessellate a Body (VBA)](Tessellate_a_Body_Example_VB.htm)
 
 ## Remarks
 
-[ITessellation::NeedFaceFacetMap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~NeedFaceFacetMap.html)
-
-must be set to true to return results.
+[ITessellation::NeedFaceFacetMap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITessellation~NeedFaceFacetMap.html) must be set to true to return results.
 
 ## See Also
 
 [ITessellation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation.html)
-
 [ITessellation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation_members.html)
-
 [ITessellation::IGetFaceFacets2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetFaceFacets2.html)
-
 [ITessellation::IGetFaceFacetsCount2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITessellation~IGetFaceFacetsCount2.html)
 
 ## Availability

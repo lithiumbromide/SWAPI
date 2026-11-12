@@ -9,15 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFileFlags.html"
 
 # EdmListFileFlags Enumeration
 
-Flags passed to
-
-[IEdmBatchListing::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFile.html)
-
-.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags passed to [IEdmBatchListing::AddFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing~AddFile.html). [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

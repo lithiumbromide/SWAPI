@@ -52,31 +52,21 @@ void GetSpringType(
 
 ### Parameters
 
-- `NSpringType`: Spring type as defined in[swsSpringType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpringType_e.html)
-- `NSpringSubType`: Spring sub type as defined in[swsSpringSubType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpringSubType_e.html)
+- `NSpringType`: Spring type as defined in [swsSpringType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpringType_e.html)
+- `NSpringSubType`: Spring sub type as defined in [swsSpringSubType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSpringSubType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWSpringConnector::GetSpringType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~GetSpringType.html)
-
-.
+See [CWSpringConnector::GetSpringType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~GetSpringType.html).
 
 ## Examples
 
-See the
-
-[ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
-examples.
+See the [ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html) examples.
 
 ## See Also
 
 [ICWSpringConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
 [ICWSpringConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html)
-
 [ICWSpringConnector::SetSpringType Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~SetSpringType.html)
 
 ## Availability

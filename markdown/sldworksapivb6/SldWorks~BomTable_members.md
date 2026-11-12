@@ -1,6 +1,5 @@
 ---
-title: "BomTable Object
-Members"
+title: "BomTable Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "BomTable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~BomTable_members.html"
 ---
 
-# BomTable Object
-Members
+# BomTable Object Members
 
 ## Public Methods
 

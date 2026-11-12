@@ -9,12 +9,9 @@ source: "API_GB/Create_Label_Example_VBNET.htm"
 
 # Create Labels on Folders Example (VB.NET)
 
-This example shows how to create a label on a folder and
-all of its subfolders and files.
+This example shows how to create a label on a folder and all of its subfolders and files.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

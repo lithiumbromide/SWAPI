@@ -43,13 +43,7 @@ public delegate System.int DSldWorksEvents_FileOpenPostNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,21 +51,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[FileOpenPostNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileOpenPostNotify_EV.html)
-
-.
+See [FileOpenPostNotify Event (SldWorks)](ms-its:sldworksapivb6.chm::/SldWorks~SldWorks~FileOpenPostNotify_EV.html).
 
 ## Remarks
 
-This is the last event fired before control returns to the user. This event indicates that methods that modify references,[reload documents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ReloadOrReplace.html), or close documents can be called.
+This is the last event fired before control returns to the user. This event indicates that methods that modify references, [reload documents](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~ReloadOrReplace.html), or close documents can be called.
 
-If developing a C++ application, use
-
-[swAppFileOpenPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAppFileOpenPostNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAppNotify_e.html) to register for this notification.
 
 ## Availability
 

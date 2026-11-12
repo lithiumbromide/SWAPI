@@ -45,13 +45,7 @@ property System.bool UseMaterialHatch {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ True to use material crosshatch, false to not
 
 ## VBA Syntax
 
-See
-
-[FaceHatch::UseMaterialHatch](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~UseMaterialHatch.html)
-
-.
+See [FaceHatch::UseMaterialHatch](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~UseMaterialHatch.html).
 
 ## Examples
 
 [Get Face Hatch Data (C#)](Get_Face_Hatch_Data_Example_CSharp.htm)
-
 [Get Face Hatch Data (VB.NET)](Get_Face_Hatch_Data_Example_VBNET.htm)
-
 [Get Face Hatch Data (VBA)](Get_Face_Hatch_Data_Example_VB.htm)
 
 ## Remarks
 
-Material crosshatches are valid for
-
-[section views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html)
-
-and aligned section views only.
+Material crosshatches are valid for [section views](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDrSection.html) and aligned section views only.
 
 ## See Also
 
 [IFaceHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html)
-
 [IFaceHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch_members.html)
 
 ## Availability

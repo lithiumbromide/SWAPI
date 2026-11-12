@@ -45,13 +45,7 @@ property System.bool ThinFeature {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,24 @@ True to make a thin-walled sweep feature, false to not
 
 ## VBA Syntax
 
-See
-
-[SweepFeatureData::ThinFeature](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~ThinFeature.html)
-
-.
+See [SweepFeatureData::ThinFeature](ms-its:sldworksapivb6.chm::/sldworks~SweepFeatureData~ThinFeature.html).
 
 ## Examples
 
-See the
-
-[ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
-examples.
+See the [ISweepFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html) examples.
 
 ## Remarks
 
-To make a thin sweep, you must set this property before calling[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html). You cannot make a thin-walled sweep feature after the sweep has been created, and you cannot edit a sweep feature to make it thin walled.
+To make a thin sweep, you must set this property before calling [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html). You cannot make a thin-walled sweep feature after the sweep has been created, and you cannot edit a sweep feature to make it thin walled.
 
 This property is not valid for swept-surface features.
 
 ## See Also
 
 [ISweepFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData.html)
-
 [ISweepFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData_members.html)
-
 [ISweepFeatureData::ThinWallType Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~ThinWallType.html)
-
 [ISweepFeatureData::SetWallThickness Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~SetWallThickness.html)
-
 [ISweepFeatureData::IsThinFeature Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~IsThinFeature.html)
 
 ## Availability

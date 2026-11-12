@@ -9,9 +9,7 @@ source: "sldworksapi/Assign_Tracking_ID_Using_Macro_Feature_VB.htm"
 
 # Assign Tracking ID Using Macro Feature Example (VBA)
 
-This example shows how to assign a tracking ID to a face using a macro
-feature, which then allows the tracking ID to be persistent across SOLIDWORKS
-sessions.
+This example shows how to assign a tracking ID to a face using a macro feature, which then allows the tracking ID to be persistent across SOLIDWORKS Design sessions.
 
 ```vb
 '----------------------------------------------------------------------------------
@@ -116,7 +114,7 @@ Public Const ID_NUMBER = 3
  Back to top
 ```
 
-' PropMgr
+'PropMgr
 
 ```
 Option Explicit
@@ -254,7 +252,7 @@ End Function
 
 [Back to top](#Top)
 
-' PropMgrCmd
+'PropMgrCmd
 
 ```
 Option Explicit
@@ -372,7 +370,7 @@ End Sub
 
 [Back to top](#Top)
 
-' PropMgrHdlr
+'PropMgrHdlr
 
 ```
 Option Explicit

@@ -1,5 +1,5 @@
 ---
-title: "Add .NET Controls to SOLIDWORKS using an Add-in Example (C#)"
+title: "Add .NET Controls to SOLIDWORKS Design using an Add-in Example (C#)"
 project: ""
 interface: ""
 member: ""
@@ -7,10 +7,9 @@ kind: "example"
 source: "sldworksapi/Add_.NET_Controls_to_SOLIDWORKS_Using_an_Add-in_Example_CSharp.htm"
 ---
 
-# Add .NET Controls to SOLIDWORKS using an Add-in Example (C#)
+# Add .NET Controls to SOLIDWORKS Design using an Add-in Example (C#)
 
-This example shows how to add .NET controls to SOLIDWORKS' FeatureManager,
-PropertyManager, Task Pane, and model view using an add-in.
+This example shows how to add .NET controls to FeatureManager, PropertyManager, Task Pane, and model view using an add-in.
 
 ```vb
  //----------------------------------------------------------------------------
@@ -23,7 +22,7 @@ PropertyManager, Task Pane, and model view using an add-in.
  //     a. On the Application tab, ensure that the Target framework is
  //        .NET Framework 3.0 or later.
  //     b. On the Debug tab, select Start external program and type the
- //        pathname of your SOLIDWORKS executable.
+ //        pathname of your SOLIDWORKS Design executable.
  //  5. Save the project.
  //  6. In the Solution Explorer, add the following .NET Framework references:
  //     * PresentationCore
@@ -37,7 +36,7 @@ PropertyManager, Task Pane, and model view using an add-in.
  //     b. this into UserPMPage.cs.
  //     c. this into PMPHandler.cs.
  //  8. Modify install_dir in SwAddin::WinFormInFeatureMgr to point to your
- //     SOLIDWORKS install directory.
+ //     SOLIDWORKS Design install directory.
  //  9. Add a Windows Presentation Foundation User Control to the project:
  //     a. In the Solution Explorer, right-click the project and click
  //        Add > User Control.
@@ -64,7 +63,7 @@ PropertyManager, Task Pane, and model view using an add-in.
  // 12. Save, clean, and build the project.
  //
  // Postconditions:
- //  1. In SOLIDWORKS, click Tools > DotNetControlsDemo > WinFormInTaskPane.
+ //  1. In SOLIDWORKS Design, click Tools > DotNetControlsDemo > WinFormInTaskPane.
  //  2. Displays a new tab in the Task Pane.
  //  3. Open a model document.
  //  4. Click Tools >  DotNetControlsDemo > UserControlInModelView.

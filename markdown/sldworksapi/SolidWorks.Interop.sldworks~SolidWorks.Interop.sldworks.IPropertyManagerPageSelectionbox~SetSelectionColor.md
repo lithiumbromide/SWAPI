@@ -51,42 +51,20 @@ System.bool SetSelectionColor(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Special`: True uses a specific color for selections, false does not
-- `Color`: Color to use for selections as defined by the swSystemColors; values from
-
-[swUserPreferenceIntegerValue_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceIntegerValue_e.html)
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-(see
-
-Remarks
-
-)
+- `Color`: Color to use for selections as defined by the swSystemColors; values from [swUserPreferenceIntegerValue_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swUserPreferenceIntegerValue_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageSelectionbox::SetSelectionColor](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~SetSelectionColor.html)
-
-.
+See [PropertyManagerPageSelectionbox::SetSelectionColor](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageSelectionbox~SetSelectionColor.html).
 
 ## Remarks
 
-You can only use this method to set properties on the PropertyManager page before it is displayed or while it is closed. See[IPropertyManagerPage2::Show2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Show2.html)and[IPropertyManagerPage2::Close](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Close.html).
+You can only use this method to set properties on the PropertyManager page before it is displayed or while it is closed. See [IPropertyManagerPage2::Show2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Show2.html) and [IPropertyManagerPage2::Close](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~Close.html).
 
 By default, the selection box created uses the default selection color. You can use this method to override that default behavior. When you specify a specific selection color by setting the Special argument to True and specifying a color in the Color argument, the resulting selection box has a narrow color bar next to the selection box that is the same color as any faces selected in the graphics area.
 
@@ -134,7 +112,6 @@ Although you should use the typical selection colors for a consistent look-and-f
 ## See Also
 
 [IPropertyManagerPageSelectionbox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox.html)
-
 [IPropertyManagerPageSelectionbox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageSelectionbox_members.html)
 
 ## Availability

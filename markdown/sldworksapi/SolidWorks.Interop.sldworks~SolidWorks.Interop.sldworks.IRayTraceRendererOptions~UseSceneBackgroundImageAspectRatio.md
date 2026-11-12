@@ -45,13 +45,7 @@ property System.bool UseSceneBackgroundImageAspectRatio {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to use the aspect ratio of the scene's background image for ray-trace rende
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::UseSceneBackgroundImageAspectRatio](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~UseSceneBackgroundImageAspectRatio.html)
-
-.
+See [RayTraceRendererOptions::UseSceneBackgroundImageAspectRatio](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~UseSceneBackgroundImageAspectRatio.html).
 
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRendererOptions::UseSolidWorksViewAspectRatio Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~UseSolidWorksViewAspectRatio.html)
 
 ## Availability

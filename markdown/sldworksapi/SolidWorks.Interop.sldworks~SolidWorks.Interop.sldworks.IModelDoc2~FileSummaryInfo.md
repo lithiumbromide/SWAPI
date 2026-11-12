@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # FileSummaryInfo Method (IModelDoc2)
 
-Displays the
-
-File Summary Information
-
-dialog box for this file.
+Displays the File Summary Information dialog box for this file.
 
 ## Syntax
 
@@ -43,21 +39,11 @@ void FileSummaryInfo()
 void FileSummaryInfo();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::FileSummaryInfo](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FileSummaryInfo.html)
-
-.
+See [ModelDoc2::FileSummaryInfo](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~FileSummaryInfo.html).
 
 ## Remarks
 
@@ -66,9 +52,7 @@ When your application calls this method, SOLIDWORKS displays the dialog box but 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SummaryInfo Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SummaryInfo.html)
 
 ## Availability

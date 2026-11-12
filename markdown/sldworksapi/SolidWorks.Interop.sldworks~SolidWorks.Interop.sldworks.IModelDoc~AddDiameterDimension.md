@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AddDiameterDimension Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::AddDiameterDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddDiameterDimension.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::AddDiameterDimension](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AddDiameterDimension.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool AddDiameterDimension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,14 +65,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::AddDiameterDimension](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AddDiameterDimension.html)
-
-.
+See [ModelDoc::AddDiameterDimension](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AddDiameterDimension.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

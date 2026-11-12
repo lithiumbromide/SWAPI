@@ -51,21 +51,11 @@ System.bool ModifyD2SpacingValue(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Instance`: Pattern instance number (see
-
-Remarks
-
-)
+- `Instance`: Pattern instance number (see **Remarks**)
 - `Value`: Spacing value in Direction 2
 
 ### Return Value
@@ -74,19 +64,11 @@ True if the spacing is modified successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[InstanceToVaryOptions::ModifyD2SpacingValue](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~ModifyD2SpacingValue.html)
-
-.
+See [InstanceToVaryOptions::ModifyD2SpacingValue](ms-its:sldworksapivb6.chm::/sldworks~InstanceToVaryOptions~ModifyD2SpacingValue.html).
 
 ## Examples
 
-See the
-
-[IInstanceToVaryOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
-examples.
+See the [IInstanceToVaryOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html) examples.
 
 ## Remarks
 
@@ -97,33 +79,24 @@ To calculate Instance:
 
 For a bi-directional pattern:
 
-`I`=`n2`* (`i`- 1) + (`j`- 1)
+`I` = `n2` * (`i` - 1) + (`j` - 1)
 
 For a uni-directional pattern:
 
-`I`=`i`- 1
+`I` = `i` - 1
 
 where:
 
-- I
+- `I` = pattern instance number
+- `n2` = number of instances in Direction 2
+- `i` = index for Direction 1
+- `j` = index for Direction 2
 
-  = pattern instance number
-- n2
-
-  = number of instances in Direction 2
-- i
-
-  = index for Direction 1
-- j
-
-  = index for Direction 2
-
-In the pattern's PropertyManager, find`n2`in the**Direction 2****> Spacing and Instances > Number of instances**field and find [`i,j`] in the**Modified Instances**section.
+In the pattern's PropertyManager, find `n2` in the **Direction 2** **> Spacing and Instances > Number of instances** field and find [`i,j`] in the **Modified Instances** section.
 
 ## See Also
 
 [IInstanceToVaryOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions.html)
-
 [IInstanceToVaryOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInstanceToVaryOptions_members.html)
 
 ## Availability

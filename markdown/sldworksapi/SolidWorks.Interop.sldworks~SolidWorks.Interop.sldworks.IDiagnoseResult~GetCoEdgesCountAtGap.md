@@ -47,13 +47,7 @@ System.int GetCoEdgesCountAtGap(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ Number of coedges at that gap
 
 ## VBA Syntax
 
-See
-
-[DiagnoseResult::GetCoEdgesCountAtGap](ms-its:sldworksapivb6.chm::/sldworks~DiagnoseResult~GetCoEdgesCountAtGap.html)
-
-.
+See [DiagnoseResult::GetCoEdgesCountAtGap](ms-its:sldworksapivb6.chm::/sldworks~DiagnoseResult~GetCoEdgesCountAtGap.html).
 
 ## Examples
 
-Call this method before calling
-
-[IDiagnoseResult::IGetCoEdgesAtGap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDiagnoseResult~IGetCoEdgesAtGap.html)
-
-.
+Call this method before calling [IDiagnoseResult::IGetCoEdgesAtGap](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDiagnoseResult~IGetCoEdgesAtGap.html).
 
 ## See Also
 
 [IDiagnoseResult Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult.html)
-
 [IDiagnoseResult Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDiagnoseResult_members.html)
 
 ## Availability

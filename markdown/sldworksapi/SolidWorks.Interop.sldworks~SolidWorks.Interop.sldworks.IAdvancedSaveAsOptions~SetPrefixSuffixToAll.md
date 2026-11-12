@@ -50,13 +50,7 @@ void SetPrefixSuffixToAll(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,32 +59,19 @@ See
 
 ## VBA Syntax
 
-See
-
-[AdvancedSaveAsOptions::SetPrefixSuffixToAll](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~SetPrefixSuffixToAll.html)
-
-.
+See [AdvancedSaveAsOptions::SetPrefixSuffixToAll](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSaveAsOptions~SetPrefixSuffixToAll.html).
 
 ## Examples
 
-See the
-
-[IAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
-example.
+See the [IAdvancedSaveAsOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html) example.
 
 ## Remarks
 
-This method applies a prefix/suffix to the names of all references except the top-level document. After calling this method, call
-
-[IAdvancedSaveAsOptions::ModifyItemsNameAndPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~ModifyItemsNameAndPath.html)
-
-to modify the name and path of individual references and/or the top-level assembly.
+This method applies a prefix/suffix to the names of all references except the top-level document. After calling this method, call [IAdvancedSaveAsOptions::ModifyItemsNameAndPath](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions~ModifyItemsNameAndPath.html) to modify the name and path of individual references and/or the top-level assembly.
 
 ## See Also
 
 [IAdvancedSaveAsOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions.html)
-
 [IAdvancedSaveAsOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSaveAsOptions_members.html)
 
 ## Availability

@@ -9,12 +9,9 @@ source: "API_GB/Access_Bill_of_Materials_Example_CSharp.htm"
 
 # Access Bill of Materials Example (C#)
 
-This example shows how to access the Bill of
-Materials (BOM) of a file in the vault.
+This example shows how to access the Bill of Materials (BOM) of a file in the vault.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------

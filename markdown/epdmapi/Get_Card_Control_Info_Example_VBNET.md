@@ -9,37 +9,29 @@ source: "epdmapi/Get_Card_Control_Info_Example_VBNET.htm"
 
 # Get Card Control Information Example (VB.NET)
 
-This example shows how to get information
-about the list and edit box controls in a selected file's data card.
+This example shows how to get information about the list and edit box controls in a selected file's data card.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
 '----------------------------------------------------------------------------
  ' Preconditions:
- '  1. Start Microsoft Visual Studio.
- '  2. Click File > New > Project > Visual Basic > Windows Forms Application.
- '  3. Type CardControlInfo in Name.
- '  4. Click Browse to navigate to the folder where to create the project.
- '  5. Click OK.
- '  6. Click Show All Files in the Solution Explorer toolbar and expand
- '     Form1.vb in the Solution Explorer.
- '  7. Replace the code in Form1.vb with this code.
- '  8. To create the form, replace the code in Form1.Designer.vb with this code.
- '  9. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- '     name in the Solution Explorer, click Add Reference, click
- '     Framework in the left-side panel, browse to the top folder of your
- '     SOLIDWORKS PDM Professional installation, locate and click
- '     EPDM.Interop.epdm.dll, click Open, click Add, and click Close).
- ' 10. Right-click EPDM.Interop.epdm in References, select Properties, and set
- '     Embed Interop Types to False to handle methods that pass arrays of
- '     structures.
- ' 11. Ensure that there is a file in the vault whose extension has a
- '     file data card in the vault, and the file data card has a droplist
- '     control.
- ' 12. Click Debug > Start Debugging or press F5.
+ ' 1. Start Microsoft Visual Studio.
+ ' 2. Click File > New > Project > Visual Basic, Windows, Desktop > Windows Forms App.
+ ' 3. Type CardControlInfo in Project name.
+ ' 4. For Location, click ... and navigate to the folder where to create the project.
+ ' 5. Click Next.
+ ' 6. Select Framework.
+ ' 7. Click Create.
+ ' 8. Click Show All Files in the Solution Explorer toolbar and expand
+ '    Form1.vb in the Solution Explorer.
+ ' 9.  Add dependencies and safely pass arrays of structures.
+ '10. Replace the code in Form1.vb with this code.
+ '11. To create the form, replace the code in Form1.Designer.vb with this code.
+ '12. Ensure that there is a file in the vault whose extension has a
+ '    file data card in the vault, and the file data card has a droplist
+ '    control.
+ '13. Click Debug > Start Debugging or press F5.
  '
  ' Postconditions:
  '  1. Displays a dialog.

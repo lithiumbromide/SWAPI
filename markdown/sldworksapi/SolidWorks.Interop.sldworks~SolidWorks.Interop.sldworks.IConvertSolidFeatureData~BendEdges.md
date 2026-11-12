@@ -45,42 +45,23 @@ property System.Object^ BendEdges {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of bend
-
-[edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-
-s
+Array of bend [edge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)s
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData::BendEdges](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~BendEdges.html)
-
-.
+See [ConvertSolidFeatureData::BendEdges](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~BendEdges.html).
 
 ## Examples
 
-See the
-
-[IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
-examples.
+See the [IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html) examples.
 
 ## See Also
 
 [IConvertSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
 
 ## Availability

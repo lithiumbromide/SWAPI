@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5~GetAddInInfo.
 
 # GetAddInInfo Method (IEdmAddInMgr5)
 
-Obsolete. Superseded by
-
-[IEdmAddInMgr6::GetAddInInfo2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6~GetAddInInfo2.html)
-
-.
+Obsolete. Superseded by [IEdmAddInMgr6::GetAddInInfo2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr6~GetAddInInfo2.html).
 
 ## Syntax
 
@@ -51,9 +47,7 @@ void GetAddInInfo(
 
 - `bsPath`: Path to the DLL about which to get information
 - `poReserved`: Null only
-- `poInfo`: [EdmAddInInfo structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo.html)
-
-; returned add-in information
+- `poInfo`: [EdmAddInInfo structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInInfo.html); returned add-in information
 
 ## Remarks
 
@@ -65,7 +59,6 @@ void GetAddInInfo(
 ## See Also
 
 [IEdmAddInMgr5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5.html)
-
 [IEdmAddInMgr5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5_members.html)
 
 ## Availability

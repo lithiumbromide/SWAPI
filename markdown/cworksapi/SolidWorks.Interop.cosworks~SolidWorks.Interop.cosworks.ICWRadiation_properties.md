@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRa
 
 # ICWRadiation Interface Properties
 
-For a list of all members of this type, see[ICWRadiation members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html).
+For a list of all members of this type, see [ICWRadiation members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html).
 
 ## Public Properties
 
@@ -32,5 +32,4 @@ For a list of all members of this type, see[ICWRadiation members](SolidWorks.Int
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

@@ -11,13 +11,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7.html"
 
 Allows you to access a workflow state.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -43,19 +37,13 @@ public interface class IEdmState7 : public IEdmObject5, IEdmState5, IEdmState6
 ## Examples
 
 [Graph a Workflow (VB.NET)](Graph_Workflow_Example_VBNET.htm)
-
 [Graph a Workflow (C#)](Graph_Workflow_Example_CSharp.htm)
 
 ## Remarks
 
-This interface extends
-
-[IEdmState6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6.html)
-
-by providing access to the size and position of the state box in the workflow graph.
+This interface extends [IEdmState6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState6.html) by providing access to the size and position of the state box in the workflow graph.
 
 ## See Also
 
 [IEdmState7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmState7_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

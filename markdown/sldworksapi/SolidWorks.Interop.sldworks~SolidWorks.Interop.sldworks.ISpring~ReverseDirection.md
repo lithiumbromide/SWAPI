@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True to reverse the direction, false to not
 
 ## VBA Syntax
 
-See
-
-[Spring::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~Spring~ReverseDirection.html)
-
-.
+See [Spring::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~Spring~ReverseDirection.html).
 
 ## See Also
 
 [ISpring Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring.html)
-
 [ISpring Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISpring_members.html)
 
 ## Availability

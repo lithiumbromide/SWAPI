@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_File_Summary_Information_Example_VB.htm"
 
 # Get and Set File Summary Information Example (VBA)
 
-This example shows how to get and set the file
-summary information in a SOLIDWORKS document.
+This example shows how to get and set the file summary information in a SOLIDWORKS Design document.
 
 ```
 '-----------------------------------------------------

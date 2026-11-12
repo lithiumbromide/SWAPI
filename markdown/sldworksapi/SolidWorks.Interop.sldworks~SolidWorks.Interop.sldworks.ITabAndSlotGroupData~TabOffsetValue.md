@@ -45,13 +45,7 @@ property System.double TabOffsetValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,21 @@ Tab offset value
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::TabOffsetValue](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabOffsetValue.html)
-
-.
+See [TabAndSlotGroupData::TabOffsetValue](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabOffsetValue.html).
 
 ## Remarks
 
 This property is:
 
-- measured from
-
-  [ITabAndSlotGroupData::SelectionSlotFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~SelectionSlotFace.html)
+- measured from [ITabAndSlotGroupData::SelectionSlotFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~SelectionSlotFace.html)
 
 -and-
 
-- valid only if
-
-  [ITabAndSlotGroupData::TabHeightType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabHeightType.html)
-
-  is set to
-
-  [swTabSlotFeatureHeightType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabSlotFeatureHeightType_e.html)
-
-  .OffsetFromSurface.
+- valid only if [ITabAndSlotGroupData::TabHeightType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabHeightType.html) is set to [swTabSlotFeatureHeightType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabSlotFeatureHeightType_e.html).OffsetFromSurface.
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

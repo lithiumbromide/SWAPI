@@ -45,13 +45,7 @@ property System.bool OffsetPiercePoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ True to offset the pierce point, false to not
 
 ## VBA Syntax
 
-See
-
-[StructureSystemMemberProfile::OffsetPiercePoint](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~OffsetPiercePoint.html)
-
-.
+See [StructureSystemMemberProfile::OffsetPiercePoint](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemMemberProfile~OffsetPiercePoint.html).
 
 ## Remarks
 
-If this property is true, use
-
-[IStructureSystemMemberProfile::OffsetPiercePointHorizontalAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~OffsetPiercePointHorizontalAxis.html)
-
-and
-
-[IStructureSystemMemberProfile::OffsetPiercePointVerticalAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~OffsetPiercePointVerticalAxis.html)
-
-to specify the offsets.
+If this property is true, use [IStructureSystemMemberProfile::OffsetPiercePointHorizontalAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~OffsetPiercePointHorizontalAxis.html) and [IStructureSystemMemberProfile::OffsetPiercePointVerticalAxis](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile~OffsetPiercePointVerticalAxis.html) to specify the offsets.
 
 ## See Also
 
 [IStructureSystemMemberProfile Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile.html)
-
 [IStructureSystemMemberProfile Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemMemberProfile_members.html)
 
 ## Availability

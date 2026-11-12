@@ -40,13 +40,7 @@ System.double GetSphericalBoxDiameter()
 System.double GetSphericalBoxDiameter();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Diameter of the sphere that encloses this model's bounding box
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::GetSphericalBoxDiameter](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetSphericalBoxDiameter.html)
-
-.
+See [ModelDocExtension::GetSphericalBoxDiameter](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~GetSphericalBoxDiameter.html).
 
 ## Examples
 
-See the
-
-[IBoundingBoxFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html)
-
-examples.
+See the [IBoundingBoxFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBoundingBoxFeatureData.html) examples.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

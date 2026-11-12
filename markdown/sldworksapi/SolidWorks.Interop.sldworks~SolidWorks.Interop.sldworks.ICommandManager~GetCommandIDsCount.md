@@ -47,13 +47,7 @@ System.int GetCommandIDsCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ Number of command IDs in the given command group
 
 ## VBA Syntax
 
-See
-
-[CommandManager::GetCommandIDsCount](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~GetCommandIDsCount.html)
-
-.
+See [CommandManager::GetCommandIDsCount](ms-its:sldworksapivb6.chm::/sldworks~CommandManager~GetCommandIDsCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[ICommandManager::IGetGroupDataFromRegistry](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~IGetGroupDataFromRegistry.html)
-
-to determine the size of the array for that method.
+Call this method before calling [ICommandManager::IGetGroupDataFromRegistry](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandManager~IGetGroupDataFromRegistry.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ICommandManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager.html)
-
 [ICommandManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandManager_members.html)
 
 ## Availability

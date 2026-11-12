@@ -95,19 +95,16 @@ To receive notifications, a DLL application must register for the notifications 
 
 For example, in the file in the Visual C++ 6.0 wizard-generated add-in that supports SOLIDWORKS events ( <ATL_object_name>.h), include:
 
-BEGIN_SINK_MAP(C<A TL_object_name >)
-
+```vb
+BEGIN_SINK_MAP(C<ATL_object_name>)
 SINK_ENTRY_EX(ID_SLDWORKS_EVENTS, DIID_DSldWorksEvents, swAppDocumentLoadNotify, DocumentLoadNotify)
-
 SINK_ENTRY_EX(ID_SLDWORKS_EVENTS, DIID_DSldWorksEvents, swAppFileNewNotify2, FileNewNotify2)
-
 SINK_ENTRY_EX(ID_SLDWORKS_EVENTS, DIID_DSldWorksEvents, swAppActiveDocChangeNotify, ActiveDocChangeNotify)
-
 SINK_ENTRY_EX(ID_SLDWORKS_EVENTS, DIID_DSldWorksEvents, swAppActiveModelDocChangeNotify, ActiveModelDocChangeNotify)
-
 END_SINK_MAP()
+```
 
-If developing a C++ application, use the enumerators to[register for notifications](sldworksapiprogguide.chm::/overview/events.htm)for the[ISldWorks](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks.html)events.
+If developing a C++ application, use the enumerators to [register for notifications](sldworksapiprogguide.chm::/Overview/events.htm) for the [ISldWorks](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks.html) events.
 
 ## See Also
 

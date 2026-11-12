@@ -71,49 +71,27 @@ Body2^ IExtendSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `EdgeCount`: Number of edges to extend
-- `EdgesToExtend`: Array of the selected
-
-[edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-to extend
+- `EdgesToExtend`: Array of the selected [edges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) to extend
 - `ExtendLinear`: True to extend the selected edges linearly along the tangent of the face at the edges; false to extend the selected edges in the same direction as the face
 - `EndCondition`: - 0 = Extend selected edges per value specified for Dist
-- 1 = Extend selected edges to PUpToVtx
-- 2 = Extend selected edges to PpUpToFace
-- `Dist`: Distance by which to extend the selected edges (see**Remarks**)
-- `PUpToVtx`: [Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
-
-up to which to extend the selected edges (see Remarks)
-- `PUpToFace`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html)
-
-up to which to extend the selected edges (see Remarks)
+  - 1 = Extend selected edges to PUpToVtx
+  - 2 = Extend selected edges to PpUpToFace
+- `Dist`: Distance by which to extend the selected edges (see **Remarks**)
+- `PUpToVtx`: [Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html) up to which to extend the selected edges (see Remarks)
+- `PUpToFace`: [Face](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html) up to which to extend the selected edges (see Remarks)
 
 ### Return Value
 
-Pointer to the newly created
-
-[IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-object
+Pointer to the newly created [IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) object
 
 ## VBA Syntax
 
-See
-
-[Body2::IExtendSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~IExtendSurface.html)
-
-.
+See [Body2::IExtendSurface](ms-its:sldworksapivb6.chm::/sldworks~Body2~IExtendSurface.html).
 
 ## Remarks
 
@@ -124,9 +102,7 @@ You can extend the edges by a specified distance or up to a vertex or up to a fa
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::ExtendSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~ExtendSurface.html)
 
 ## Availability

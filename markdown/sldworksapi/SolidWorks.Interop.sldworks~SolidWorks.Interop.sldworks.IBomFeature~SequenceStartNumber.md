@@ -45,13 +45,7 @@ property System.int SequenceStartNumber {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Number with which to start the numbering
 
 ## VBA Syntax
 
-See
-
-[BomFeature::SequenceStartNumber](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~SequenceStartNumber.html)
-
-.
+See [BomFeature::SequenceStartNumber](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~SequenceStartNumber.html).
 
 ## Examples
 
-See
-
-[IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html)
-
-examples.
+See [IBomFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBomFeature.html) examples.
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
 
 ## Availability

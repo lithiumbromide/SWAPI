@@ -54,9 +54,7 @@ System.int GetShortEdgesCount(
 ### Parameters
 
 - `length`: Length to use to which to compare the edges
-- `errorcode`: Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `errorcode`: Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -64,11 +62,7 @@ Number of small edges
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::GetShortEdgesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetShortEdgesCount.html)
-
-.
+See [IGeometryAnalysis::GetShortEdgesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetShortEdgesCount.html).
 
 ## Examples
 
@@ -77,7 +71,6 @@ See
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
 
 ## Availability

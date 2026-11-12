@@ -40,27 +40,15 @@ System.int GetBendState()
 System.int GetBendState();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Current state of sheet metal bends as defined in
-
-[swSMBendState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSMBendState_e.html)
+Current state of sheet metal bends as defined in [swSMBendState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSMBendState_e.html)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetBendState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetBendState.html)
-
-.
+See [ModelDoc2::GetBendState](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetBendState.html).
 
 ## Examples
 
@@ -76,9 +64,7 @@ See
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SetBendState Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetBendState.html)
 
 ## Availability

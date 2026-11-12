@@ -47,13 +47,7 @@ System.int RenameDocument(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,36 +55,19 @@ See
 
 ### Return Value
 
-Status of temporarily renaming the component as defined in
-
-[swRenameDocumentError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRenameDocumentError_e.html)
-
-(see
-
-Remarks
-
-)
+Status of temporarily renaming the component as defined in [swRenameDocumentError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swRenameDocumentError_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::RenameDocument](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~RenameDocument.html)
-
-.
+See [ModelDocExtension::RenameDocument](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~RenameDocument.html).
 
 ## Examples
 
 [Rename Components and Save Assembly (C#)](Rename_Components_and_Save_Assembly_Example_CSharp.htm)
-
 [Rename Components and Save Assembly (VB.NET)](Rename_Components_and_Save_Assembly_Example_VBNET.htm)
-
 [Rename Components and Save Assembly (VBA)](Rename_Components_and_Save_Assembly_Example_VB.htm)
-
 [Rename Component and Update References (C#)](Rename_Component_and_Update_References_Example_CSharp.htm)
-
 [Rename Component and Update References (VB.NET)](Rename_Component_and_Update_References_Example_VBNET.htm)
-
 [Rename Component and Update References (VBA)](Rename_Component_and_Update_References_Example_VB.htm)
 
 ## Remarks
@@ -99,30 +76,15 @@ If this method returns swRenameDocumentError_e.swRenameDocumentError_None, then 
 
 To:
 
-- get whether the document has renamed components, call
-
-  [IModelDocExtension::HasRenamedDocuments](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~HasRenamedDocuments.html)
-
-  .
-- to avoid
-
-  an error when attempting to save the document without first saving its references, use
-
-  [IRenamedDocumentReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences.html)
-
-  to update references to the renamed component in unopened documents.
-- permanently rename the component,
-
-  [save](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~Save3.html)
-
-  the document.
+- get whether the document has renamed components, call [IModelDocExtension::HasRenamedDocuments](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~HasRenamedDocuments.html).
+- to avoid an error when attempting to save the document without first saving its references, use [IRenamedDocumentReferences](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenamedDocumentReferences.html) to update references to the renamed component in unopened documents.
+- permanently rename the component, [save](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~Save3.html) the document.
 
 See the SOLIDWORKS Help for details about renaming components.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

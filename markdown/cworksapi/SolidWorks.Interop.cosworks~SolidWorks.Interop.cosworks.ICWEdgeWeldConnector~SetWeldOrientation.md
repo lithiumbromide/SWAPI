@@ -53,25 +53,15 @@ System.int SetWeldOrientation(
 
 ### Return Value
 
-Error code as defined in
-
-[swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
+Error code as defined in [swsWeldResultErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsWeldResultErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWEdgeWeldConnector::SetWeldOrientation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~SetWeldOrientation.html)
-
-.
+See [CWEdgeWeldConnector::SetWeldOrientation](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWEdgeWeldConnector~SetWeldOrientation.html).
 
 ## Examples
 
-See the
-
-[ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
-examples.
+See the [ICWEdgeWeldConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html) examples.
 
 ## Remarks
 
@@ -80,9 +70,7 @@ This method is valid only for single sided welds.
 ## See Also
 
 [ICWEdgeWeldConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector.html)
-
 [ICWEdgeWeldConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector_members.html)
-
 [ICWEdgeWeldConnector::IsWeldOrientation Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWEdgeWeldConnector~IsWeldOrientation.html)
 
 ## Availability

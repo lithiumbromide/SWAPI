@@ -47,15 +47,11 @@ void ExtractInstalledAddIn(
 
 - `oNameOrID`: ID or name of the add-in from which to extract files
 - `bsExtractPath`: Path to the folder to which to extract files; ignored if empty
-- `ppoFiles`: Array of
-
-[EdmAddInFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html)
-
-structures, one structure for each extracted file
+- `ppoFiles`: Array of [EdmAddInFileInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmAddInFileInfo.html) structures, one structure for each extracted file
 
 ## Remarks
 
-This method performs a subset of the functionality of[IEdmAddInMgr8::GetInstalledAddIn](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8~GetInstalledAddIn.html).
+This method performs a subset of the functionality of [IEdmAddInMgr8::GetInstalledAddIn](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8~GetInstalledAddIn.html).
 
 [Return codes](ReturnCodes.htm):
 
@@ -67,7 +63,6 @@ This method performs a subset of the functionality of[IEdmAddInMgr8::GetInstalle
 ## See Also
 
 [IEdmAddInMgr8 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8.html)
-
 [IEdmAddInMgr8 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr8_members.html)
 
 ## Availability

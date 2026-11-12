@@ -40,13 +40,7 @@ System.string GetName()
 System.String^ GetName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ Name of the selection set
 
 ## VBA Syntax
 
-See
-
-[SelectionSet::GetName](ms-its:sldworksapivb6.chm::/sldworks~SelectionSet~GetName.html)
-
-.
+See [SelectionSet::GetName](ms-its:sldworksapivb6.chm::/sldworks~SelectionSet~GetName.html).
 
 ## Examples
 
 [Create and Delete Selection Sets (C#)](Create_and_Delete_Selection_Sets_Example_CSharp.htm)
-
 [Create and Delete Selection Sets (VB.NET)](Create_and_Delete_Selection_Sets_Example_VBNET.htm)
-
 [Create and Delete Selection Sets (VBA)](Create_and_Delete_Selection_Sets_Example_VB.htm)
 
 ## See Also
 
 [ISelectionSet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet.html)
-
 [ISelectionSet Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionSet_members.html)
 
 ## Availability

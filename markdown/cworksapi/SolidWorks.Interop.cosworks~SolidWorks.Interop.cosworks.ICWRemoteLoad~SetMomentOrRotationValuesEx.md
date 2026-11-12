@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # SetMomentOrRotationValuesEx Method (ICWRemoteLoad)
 
-Obsolete. Superseded by ICWRemoteLoad::SetMomentOrRotationValuesEx2.
+Obsolete. Superseded by [ICWRemoteLoad::SetMomentOrRotationValuesEx2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMomentOrRotationValuesEx2.html).
 
 ## Syntax
 
@@ -73,47 +73,26 @@ void SetMomentOrRotationValuesEx(
 ### Parameters
 
 - `BInclude`: 1 to include moment or rotation in the remote load, 0 to not
-- `NXCode`: Remote load type in the x direction as defined in
-
-[swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
+- `NXCode`: Remote load type in the x direction as defined in [swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
 - `DXValue`: Moment or rotation in the x direction as specified by NXCode
-- `NYCode`: Remote load type in the y direction as defined in
-
-[swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
+- `NYCode`: Remote load type in the y direction as defined in [swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
 - `DYValue`: Moment or rotation in the y direction as specified by NYCode
-- `NZCode`: Remote load type in the z direction as defined in
-
-[swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
+- `NZCode`: Remote load type in the z direction as defined in [swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
 - `DZValue`: Moment or rotation in the z direction as specified by NZCode
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::SetMomentOrRotationValuesEx](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~SetMomentOrRotationValuesEx.html)
-
-.
+See [CWRemoteLoad::SetMomentOrRotationValuesEx](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~SetMomentOrRotationValuesEx.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html)
-
-returns true. If it returns false, then use
-
-[ICWRemoteLoad::SetMomentOrRotationValues](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMomentOrRotationValues.html)
-
-instead of this method.
+This method is valid only if [ICWRemoteLoad::AllowDistributedCoupling](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling.html) returns true. If it returns false, then use [ICWRemoteLoad::SetMomentOrRotationValues](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMomentOrRotationValues.html) instead of this method.
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::MomentUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~MomentUnit.html)
-
 [ICWRemoteLoad::RotationUnit Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~RotationUnit.html)
 
 ## Availability

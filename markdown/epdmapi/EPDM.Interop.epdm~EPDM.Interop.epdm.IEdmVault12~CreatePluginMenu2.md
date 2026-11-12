@@ -57,25 +57,13 @@ IEdmMenu7^ CreatePluginMenu2(
 - `hMenu`: Handle of menu in which to insert command items
 - `lInsertPosition`: Zero-based index of position in menu where new items are inserted; -1 to append new menu items to the bottom of the menu
 - `plStartID`: Menu command ID to assign new commands when this method is called; next available menu command ID after this method returns
-- `poSelObjects`: [IEdmSelectionList6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList6.html)
-
-; selected objects for which to display the menu
-- `lCreateMenuFlags`: Combination of
-
-[CreateMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.CreateMenuFlags.html)
-
-bits
+- `poSelObjects`: [IEdmSelectionList6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSelectionList6.html); selected objects for which to display the menu
+- `lCreateMenuFlags`: Combination of [CreateMenuFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.CreateMenuFlags.html) bits
 - `plItemCount`: Number of menu command items added
 
 ### Return Value
 
-[IEdmMenu7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu7.html)
-
-(see
-
-Remarks
-
-)
+[IEdmMenu7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu7.html) (see **Remarks**)
 
 ## Examples
 
@@ -83,9 +71,9 @@ Remarks
 
 ## Remarks
 
-This method supersedes[IEdmVault5::CreatePluginMenu](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreatePluginMenu.html)by adding the ability to insert a menu for object types other than files and folders (e.g., items).
+This method supersedes [IEdmVault5::CreatePluginMenu](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault5~CreatePluginMenu.html) by adding the ability to insert a menu for object types other than files and folders (e.g., items).
 
-Use the returned interface to call[IEdmMenu7::OnMenuItem2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu7~OnMenuItem2.html)when the user selects one of the command items added by this method.
+Use the returned interface to call [IEdmMenu7::OnMenuItem2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmMenu7~OnMenuItem2.html) when the user selects one of the command items added by this method.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -94,7 +82,6 @@ Use the returned interface to call[IEdmMenu7::OnMenuItem2](EPDM.Interop.epdm~EPD
 ## See Also
 
 [IEdmVault12 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12.html)
-
 [IEdmVault12 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault12_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Update_Plane_Example_VBNET.htm"
 
 # Update Plane Example (VB.NET)
 
-This example shows how to update a reference plane so that it is parallel to
-the screen.
+This example shows how to update a reference plane so that it is parallel to the screen.
 
 ```
 '---------------------------------------------------------------------------

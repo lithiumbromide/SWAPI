@@ -74,104 +74,48 @@ void EditDistanceMate(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `AlignFromEnum`: Type of alignment as defined in
-
-[swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
-- `Flip`: True to flip the mate entities, false to not (see
-
-Remarks
-
-)
-- `Distance`: Distance value (see
-
-Remarks
-
-)
-- `DistanceAbsUpperLimit`: Absolute maximum distance value (see
-
-Remarks
-
-)
-- `DistanceAbsLowerLimit`: Absolute minimum distance value (see
-
-Remarks
-
-)
-- `FirstArcCondition`: First arc condition as defined in
-
-[swDistanceMateArcConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDistanceMateArcConditions_e.html)
-
-; valid only for cylindrical distance mates (see
-
-Remarks
-
-)
-- `SecondArcCondition`: Second arc condition as defined in swDistanceMateArcConditions_e; valid only for cylindrical distance mates (see
-
-Remarks
-
-)
-- `ErrorStatus`: Success or error as defined by
-
-[swAddMateError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddMateError_e.html)
+- `AlignFromEnum`: Type of alignment as defined in [swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
+- `Flip`: True to flip the mate entities, false to not (see **Remarks**)
+- `Distance`: Distance value (see **Remarks**)
+- `DistanceAbsUpperLimit`: Absolute maximum distance value (see **Remarks**)
+- `DistanceAbsLowerLimit`: Absolute minimum distance value (see **Remarks**)
+- `FirstArcCondition`: First arc condition as defined in [swDistanceMateArcConditions_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swDistanceMateArcConditions_e.html); valid only for cylindrical distance mates (see **Remarks**)
+- `SecondArcCondition`: Second arc condition as defined in swDistanceMateArcConditions_e; valid only for cylindrical distance mates (see **Remarks**)
+- `ErrorStatus`: Success or error as defined by [swAddMateError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddMateError_e.html)
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::EditDistanceMate](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~EditDistanceMate.html)
-
-.
+See [AssemblyDoc::EditDistanceMate](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~EditDistanceMate.html).
 
 ## Examples
 
 [Add and Edit Distance Mate (VBA)](Add_and_Edit_Distance_Mate_Example_VB.htm)
-
 [Add and Edit Distance Mate (VB.NET)](Add_and_Edit_Distance_Mate_Example_VBNET.htm)
-
 [Add and Edit Distance Mate (C#)](Add_and_Edit_Distance_Mate_Example_CSharp.htm)
 
 ## Remarks
 
 Select these entities before calling this method:
 
-- Two entities that define the distance mate (use
-
-  [IEntity::Select4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity~Select4.html)
-
-  with Data = Nothing)
-- Distance mate feature (use
-
-  [IFeature::Select2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Select2.html)
-
-  with Mark = 0)
+- Two entities that define the distance mate (use [IEntity::Select4](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEntity~Select4.html) with Data = Nothing)
+- Distance mate feature (use [IFeature::Select2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~Select2.html) with Mark = 0)
 
 If the mate is applied to the closest position that meets the mate condition specified by Distance, then setting Flip to true moves the components to the other possible mate position.
 
-Call[IModelDoc2::EditRebuild3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditRebuild3.html)after calling this method.
+Call [IModelDoc2::EditRebuild3](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~EditRebuild3.html) after calling this method.
 
-See[IAssemblyDoc::AddDistanceMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddDistanceMate.html)Remarks.
+See [IAssemblyDoc::AddDistanceMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~AddDistanceMate.html) Remarks.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IAssemblyDoc::EditMate4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~EditMate4.html)
-
 [IMate2::DistanceFirstArcCondition Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~DistanceFirstArcCondition.html)
-
 [IMate2::DistanceSecondArcCondition Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2~DistanceSecondArcCondition.html)
 
 ## Availability

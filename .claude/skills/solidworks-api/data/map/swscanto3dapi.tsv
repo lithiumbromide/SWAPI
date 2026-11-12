@@ -1,0 +1,13 @@
+#swapi-map 1 module=swscanto3dapi sw=2026 cols=name,kind,sig,since,status,summary,path
+@IScanto3D	i	Allows access to Scanto3D point cloud data.	via=IModelDocExtension.GetScanto3D	use=12
+GetMeshCount	m	int GetMeshCount()	2015		Gets the number of mesh features in the current.3DS file.
+GetMeshDataAtIndex	m	bool GetMeshDataAtIndex(int Index, out object Points, out object Facets)	2015		Gets the points and facets in the specified mesh feature.
+GetMeshDataCountAtIndex	m	bool GetMeshDataCountAtIndex(int Index, out int PointsCount, out int FacetsCount)	2015		Gets the number of points and facets in the specified mesh feature.
+@Scanto3D	i		base=IScanto3D	use=9
+GetMeshCount	m	int GetMeshCount()	2015		Gets the number of mesh features in the current.3DS file.
+GetMeshDataAtIndex	m	bool GetMeshDataAtIndex(int Index, out object Points, out object Facets)	2015		Gets the points and facets in the specified mesh feature.
+GetMeshDataCountAtIndex	m	bool GetMeshDataCountAtIndex(int Index, out int PointsCount, out int FacetsCount)	2015		Gets the number of points and facets in the specified mesh feature.
+@Scanto3DClass	c	Allows access to Scanto3D point cloud data.	base=IScanto3D,Scanto3D
+GetMeshCount	m	int GetMeshCount()	2015		Gets the number of mesh features in the current.3DS file.
+GetMeshDataAtIndex	m	bool GetMeshDataAtIndex(int Index, out object Points, out object Facets)	2015		Gets the points and facets in the specified mesh feature.
+GetMeshDataCountAtIndex	m	bool GetMeshDataCountAtIndex(int Index, out int PointsCount, out int FacetsCount)	2015		Gets the number of points and facets in the specified mesh feature.

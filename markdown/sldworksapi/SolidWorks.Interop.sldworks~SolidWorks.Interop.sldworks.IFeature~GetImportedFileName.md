@@ -40,13 +40,7 @@ System.string GetImportedFileName()
 System.String^ GetImportedFileName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ File name of the imported feature
 
 ## VBA Syntax
 
-See
-
-[Feature::GetImportedFileName](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetImportedFileName.html)
-
-.
+See [Feature::GetImportedFileName](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetImportedFileName.html).
 
 ## Remarks
 
-This method applies only to imported features. All other features return an empty string. To get the type of this feature, use
-
-[IFeature::GetTypeName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetTypeName.html)
-
-.
+This method applies only to imported features. All other features return an empty string. To get the type of this feature, use [IFeature::GetTypeName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetTypeName.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::SetImportedFileName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~SetImportedFileName.html)
 
 ## Availability

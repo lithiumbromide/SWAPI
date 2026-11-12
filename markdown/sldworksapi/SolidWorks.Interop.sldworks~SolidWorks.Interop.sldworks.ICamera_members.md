@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 # ICamera Interface Members
 
-The following tables list the members exposed by[ICamera](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html).
+The following tables list the members exposed by [ICamera](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html).
 
 ## Public Properties
 
@@ -60,5 +60,4 @@ The following tables list the members exposed by[ICamera](SolidWorks.Interop.sld
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

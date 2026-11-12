@@ -45,34 +45,19 @@ property System.Object^ RipSketches {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of rip
-
-[sketch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)
-
-es
+Array of rip [sketch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketch.html)es
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData::RipSketches](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~RipSketches.html)
-
-.
+See [ConvertSolidFeatureData::RipSketches](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~RipSketches.html).
 
 ## See Also
 
 [IConvertSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
 
 ## Availability

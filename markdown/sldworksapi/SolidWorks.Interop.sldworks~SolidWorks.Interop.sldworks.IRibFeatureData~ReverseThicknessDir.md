@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRi
 
 # ReverseThicknessDir Property (IRibFeatureData)
 
-Obsolete. Superseded by
-
-[IRibFeatureData2::ReverseThicknessDir](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~ReverseThicknessDir.html)
-
-.
+Obsolete. Superseded by [IRibFeatureData2::ReverseThicknessDir](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRibFeatureData2~ReverseThicknessDir.html).
 
 ## Syntax
 
@@ -49,24 +45,13 @@ property System.bool ReverseThicknessDir {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[RibFeatureData::ReverseThicknessDir](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~ReverseThicknessDir.html)
-
-.
+See [RibFeatureData::ReverseThicknessDir](ms-its:sldworksapivb6.chm::/sldworks~RibFeatureData~ReverseThicknessDir.html).
 
 ## See Also
 
 [IRibFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData.html)
-
 [IRibFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRibFeatureData_members.html)

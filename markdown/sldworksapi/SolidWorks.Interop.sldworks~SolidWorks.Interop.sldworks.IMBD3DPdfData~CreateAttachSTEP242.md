@@ -45,13 +45,7 @@ property System.bool CreateAttachSTEP242 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ True to export SOLIDWORKS parts and assemblies to STEP 242 format and attach the
 
 ## VBA Syntax
 
-See
-
-[MBD3DPdfData::CreateAttachSTEP242](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~CreateAttachSTEP242.html)
-
-.
+See [MBD3DPdfData::CreateAttachSTEP242](ms-its:sldworksapivb6.chm::/sldworks~MBD3DPdfData~CreateAttachSTEP242.html).
 
 ## Examples
 
 [Attach Files to MBD 3D PDF (C#)](Attach_Files_to_MBD_3D_PDF_Example_CSharp.htm)
-
 [Attach Files to MBD 3D PDF (VB.NET)](Attach_Files_to_MBD_3D_PDF_Example_VBNET.htm)
-
 [Attach Files to MBD 3D PDF (VBA)](Attach_Files_to_MBD_3D_PDF_Example_VB.htm)
 
 ## See Also
 
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)
-
 [IMBD3DPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData_members.html)
-
 [IModelDocExtension::PublishSTEP242File Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~PublishSTEP242File.html)
 
 ## Availability

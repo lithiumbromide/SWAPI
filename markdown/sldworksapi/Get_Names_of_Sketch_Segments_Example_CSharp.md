@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Names_of_Sketch_Segments_Example_CSharp.htm"
 
 # Get Names of Sketch Segments Example (C#)
 
-This example shows how to get the names of the sketch segments in a sheet
-metal bend.
+This example shows how to get the names of the sketch segments in a sheet metal bend.
 
 ```vb
  //---------------------------------------------------------------------------

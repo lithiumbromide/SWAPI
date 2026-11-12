@@ -87,61 +87,19 @@ SketchSpline^ CreateEquationSpline2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `XExpression`: For a parametric curve, equation for x in terms of t; for an explicit curve, an empty string (see
-
-Remarks
-
-)
-- `YExpression`: For a parametric curve, equation for y in terms of t; for an explicit curve, equation for y in terms of x (see
-
-Remarks
-
-)
-- `ZExpression`: Equation for z in terms of t (see
-
-Remarks
-
-)
-- `RangeStart`: Start value for x, if explicit; start value for t, if parametric (see
-
-Remarks
-
-)
-- `RangeEnd`: End value for x, if explicit; start value for t, if parametric (see
-
-Remarks
-
-)
-- `IsAngleRange`: True if the range and x value represent an angle (in radians), false if not (see
-
-Remarks
-
-)
-- `RotationAngle`: Rotation angle (in radians) for the curve (see
-
-Remarks
-
-)
-- `XOffset`: Translation in the x direction of the curve (see
-
-Remarks
-
-)
-- `YOffset`: Translation in the y direction of the curve (see
-
-Remarks
-
-)
+- `XExpression`: For a parametric curve, equation for x in terms of t; for an explicit curve, an empty string (see **Remarks**)
+- `YExpression`: For a parametric curve, equation for y in terms of t; for an explicit curve, equation for y in terms of x (see **Remarks**)
+- `ZExpression`: Equation for z in terms of t (see **Remarks**)
+- `RangeStart`: Start value for x, if explicit; start value for t, if parametric (see **Remarks**)
+- `RangeEnd`: End value for x, if explicit; start value for t, if parametric (see **Remarks**)
+- `IsAngleRange`: True if the range and x value represent an angle (in radians), false if not (see **Remarks**)
+- `RotationAngle`: Rotation angle (in radians) for the curve (see **Remarks**)
+- `XOffset`: Translation in the x direction of the curve (see **Remarks**)
+- `YOffset`: Translation in the y direction of the curve (see **Remarks**)
 - `LockStart`: True to lock the start point (RangeStart) of the curve, false to not
 - `LockEnd`: True to lock the end point (RangeEnd) of the curve, false to not
 
@@ -151,11 +109,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateEquationSpline2](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CreateEquationSpline2.html)
-
-.
+See [SketchManager::CreateEquationSpline2](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~CreateEquationSpline2.html).
 
 ## Examples
 
@@ -180,9 +134,7 @@ CreateEquationSpline2("sin(t), "cos(t)", "t/5", "0", "30", False, 0, 0, 0, True,
 ## Examples
 
 [Create Equation-driven Curve (C#)](Create_Equation-driven_Curve_Example_CSharp.htm)
-
 [Create Equation-driven Curve (VB.NET)](Create_Equation-driven_Curve_Example_VBNET.htm)
-
 [Create Equation-driven Curve (VBA)](Create_Equation-driven_Curve_Example_VB.htm)
 
 ## Remarks
@@ -213,22 +165,19 @@ For 3D parametric curves, this input is the value of z given in terms of paramet
 
 z = t
 
-**RangeStart**and**RangeEnd**
+**RangeStart** and **RangeEnd**
 
-Strings so that you can input dimension names or pi; for example,"10* width_dimension1"or"-pi/2".
+Strings so that you can input dimension names or pi; for example, "10* width_dimension1" or "-pi/2".
 
-**XOffset**,**YOffset**,**IsAngleRange**, and**RotationAngle**
+**XOffset**, **YOffset**, **IsAngleRange**, and **RotationAngle**
 
 In general, these parameters are not needed. They are for legacy support only. There are no equivalent 3D variables for positioning in 3D.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchSpline::GetEquationParameters2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~GetEquationParameters2.html)
-
 [ISketchSpline::SetEquationParameters2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~SetEquationParameters2.html)
 
 ## Availability

@@ -51,26 +51,17 @@ Margin to use around the blank
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisSheetMetal::BlankOffset](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~BlankOffset.html)
-
-.
+See [CostAnalysisSheetMetal::BlankOffset](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~BlankOffset.html).
 
 ## Remarks
 
-[ICostAnalysisSheetMetal::BlankSizeType](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankSizeType.html)
-
-must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_BoundingBox or swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_FlatPattern to set a margin to use around the blank of this sheet metal part.
+[ICostAnalysisSheetMetal::BlankSizeType](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankSizeType.html) must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_BoundingBox or swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_FlatPattern to set a margin to use around the blank of this sheet metal part.
 
 ## See Also
 
 [ICostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.html)
-
 [ICostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html)
-
 [ICostAnalysisSheetMetal::CustomBlankArea Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CustomBlankArea.html)
-
 [ICostAnalysisSheetMetal::FinalAreaFromModel Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~FinalAreaFromModel.html)
 
 ## Availability

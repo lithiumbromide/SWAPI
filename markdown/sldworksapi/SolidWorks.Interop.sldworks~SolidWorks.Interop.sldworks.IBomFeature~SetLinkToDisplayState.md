@@ -47,13 +47,7 @@ System.int SetLinkToDisplayState(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,24 +55,16 @@ See
 
 ### Return Value
 
-Return code as defined by
-
-[swLinkBomToDisplayStateError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swLinkBomToDisplayStateError_e.html)
+Return code as defined by [swLinkBomToDisplayStateError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swLinkBomToDisplayStateError_e.html)
 
 ## VBA Syntax
 
-See
-
-[BomFeature::SetLinkToDisplayState](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~SetLinkToDisplayState.html)
-
-.
+See [BomFeature::SetLinkToDisplayState](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~SetLinkToDisplayState.html).
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
-
 [IBomFeature::GetLinkToDisplayState Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~GetLinkToDisplayState.html)
 
 ## Availability

@@ -63,31 +63,13 @@ System.bool SetDisplayMode4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `UseParent`: True to use the parent's settings, false to use this drawing view's local settings (see**Remarks**)
-- `Mode`: Display mode of the drawing view as defined in
-
-[swDisplayMode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDisplayMode_e.html)
-
-(see
-
-Remarks
-
-)
-- `Faceted`: True for draft quality, false for precision quality (see
-
-Remarks
-
-)
+- `UseParent`: True to use the parent's settings, false to use this drawing view's local settings (see **Remarks**)
+- `Mode`: Display mode of the drawing view as defined in [swDisplayMode_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDisplayMode_e.html) (see **Remarks**)
+- `Faceted`: True for draft quality, false for precision quality (see **Remarks**)
 - `Edges`: True if edges are displayed when this view is in shaded mode, false if not
 - `CThreadHighQuality`: True for precision quality cosmetic threads, false for draft quality
 
@@ -97,11 +79,7 @@ True if the display mode is reset, false if not
 
 ## VBA Syntax
 
-See
-
-[View::SetDisplayMode4](ms-its:sldworksapivb6.chm::/sldworks~View~SetDisplayMode4.html)
-
-.
+See [View::SetDisplayMode4](ms-its:sldworksapivb6.chm::/sldworks~View~SetDisplayMode4.html).
 
 ## Examples
 
@@ -161,7 +139,7 @@ Dim cThreadQuality As Boolean
 cThreadQuality = swView.**GetCThreadQuality**
 Debug.Print "Precision quality for cosmetic threads? " & swView.GetCThreadQuality
 
-swView.**SetDisplayMode4**False, 3, True, False, True
+swView.**SetDisplayMode4** False, 3, True, False, True
 
 Debug.Print "=====After Re-setting Display Mode======"
 Debug.Print ""
@@ -176,7 +154,6 @@ End Sub
 ## Examples
 
 [Set Display Mode of View (VB.NET)](Set_Display_Mode_of_View_Example_VBNET.htm)
-
 [Set Display Mode of View (C#)](Set_Display_Mode_of_View_Example_CSharp.htm)
 
 ## Remarks
@@ -202,7 +179,7 @@ swDisplayMode_e also contains three other values that seem to indicate faceted (
 
 However in this method, you must use the Faceted parameter (not the Mode parameter) to specify draft or precision quality. If you specify Mode with swFACETED_WIREFRAME, swFACETED_HIDDEN_GREYED, or swFACETED_HIDDEN, then SOLIDWORKS instead uses swWIREFRAME, swHIDDEN_GREYED, or swHIDDEN.
 
-NOTE:kadov_tag{{<spaces>}}Just as dkadov_tag{{</spaces>}}isplaying geometry precisely can decrease performance, setting the Faceted argument to true (draft quality) can increase performance.
+NOTE: Just as displaying geometry precisely can decrease performance, setting the Faceted argument to true (draft quality) can increase performance.
 
 | To determine for this view... | Use... |
 | --- | --- |
@@ -215,7 +192,6 @@ NOTE:kadov_tag{{<spaces>}}Just as dkadov_tag{{</spaces>}}isplaying geometry prec
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

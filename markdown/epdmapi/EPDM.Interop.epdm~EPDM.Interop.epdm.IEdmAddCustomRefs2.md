@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2.html"
 
 Allows you to create or manage user-defined file references.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,10 +36,24 @@ public interface class IEdmAddCustomRefs2 : public IEdmAddCustomRefs
 
 ## Remarks
 
-This interface inherits from[IEdmAddCustomRefs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html).
+This interface:
+
+- extends [IEdmAddCustomRefs](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs.html).
+- is extended by [IEdmAddCustomRefs3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs3.html).
+
+To manage existing references:
+
+1. Create IEdmAddCustomRefs using [IEdmVault7::CreateUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility.html).
+2. Call [IEdmAddCustomRefs::ShowEditReferencesDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~ShowEditReferencesDlg.html) to display the existing file references.
+
+To create new references:
+
+1. Create IEdmAddCustomRefs2 using [IEdmVault7::CreateUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility.html).
+2. Call [IEdmAddCustomRefs::AddReferencesClipboard](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~AddReferencesClipboard.html), [IEdmAddCustomRefs2::AddReferencesID2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2~AddReferencesID2.html), or [IEdmAddCustomRefs2::AddReferencesPath2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2~AddReferencesPath2.html) to add file references.
+3. (Optional) Call [IEdmAddCustomRefs::CreateTree](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~CreateTree.html) and [IEdmAddCustomRefs::ShowDlg](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~ShowDlg.html) to display the file references.
+4. Call [IEdmAddCustomRefs::CreateReferences](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs~CreateReferences.html) to create the new references.
 
 ## See Also
 
 [IEdmAddCustomRefs2 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddCustomRefs2_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

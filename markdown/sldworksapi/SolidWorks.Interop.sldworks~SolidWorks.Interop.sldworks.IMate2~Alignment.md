@@ -42,44 +42,27 @@ property System.int Alignment {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of alignment as defined in
-
-[swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
+Type of alignment as defined in [swMateAlign_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swMateAlign_e.html)
 
 ## VBA Syntax
 
-See
-
-[Mate2::Alignment](ms-its:sldworksapivb6.chm::/sldworks~Mate2~Alignment.html)
-
-.
+See [Mate2::Alignment](ms-its:sldworksapivb6.chm::/sldworks~Mate2~Alignment.html).
 
 ## Examples
 
 [Edit Mate (VBA)](Edit_Mate_Example_VB.htm)
-
 [Get Mate Definition (VBA)](Get_Mate_Definition_Example_VB.htm)
-
 [Get Mates and Mate Entities (C#)](Get_Mates_and_Mate_Entities_Example_CSharp.htm)
-
 [Get Mates and Mate Entities (VB.NET)](Get_Mates_and_Mate_Entities_Example_VBNET.htm)
-
 [Get Mates and Mate Entities (VBA)](Get_Mates_and_Mate_Entities_Example_VB.htm)
 
 ## See Also
 
 [IMate2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2.html)
-
 [IMate2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMate2_members.html)
 
 ## Availability

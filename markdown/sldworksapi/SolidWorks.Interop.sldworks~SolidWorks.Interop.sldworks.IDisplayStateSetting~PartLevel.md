@@ -45,13 +45,7 @@ property System.bool PartLevel {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to set at the part level, false to not
 
 ## VBA Syntax
 
-See
-
-[DisplayStateSetting::PartLevel](ms-its:sldworksapivb6.chm::/sldworks~DisplayStateSetting~PartLevel.html)
-
-.
+See [DisplayStateSetting::PartLevel](ms-its:sldworksapivb6.chm::/sldworks~DisplayStateSetting~PartLevel.html).
 
 ## Examples
 
 [Change Color of Component in Specific Display State (C#)](Change_Color_of_Component_in_Specific_Display_State_Example_CSharp.htm)
-
 [Change Color of Component in Specific Display State (VB.NET)](Change_Color_of_Component_in_Specific_Display_State_Example_VBNET.htm)
-
 [Change Color of Component in Specific Display State (VBA)](Change_Color_of_Component_in_Specific_Display_State_Example_VB.htm)
 
 ## See Also
 
 [IDisplayStateSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting.html)
-
 [IDisplayStateSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayStateSetting_members.html)
 
 ## Availability

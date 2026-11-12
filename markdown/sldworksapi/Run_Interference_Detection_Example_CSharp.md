@@ -9,8 +9,7 @@ source: "sldworksapi/Run_Interference_Detection_Example_CSharp.htm"
 
 # Run Interference Detection Example (C#)
 
-This example shows how to run interference detection and observe the
-interferences in an assembly.
+This example shows how to run interference detection and observe the interferences in an assembly.
 
 ```vb
  //---------------------------------------------------------------------------
@@ -75,117 +74,24 @@ public void Main()
  swModelDoc = (
 ```
 
-ModelDoc2
-
-)swApp.
-
-ActiveDoc
-
-;
-
-swAssemblyDoc = (
-
-AssemblyDoc
+ModelDoc2)swApp.**ActiveDoc**;
+swAssemblyDoc = (AssemblyDoc
 
 )swModelDoc;
 
 //Open the Interference Detection pane
-
-swAssemblyDoc.
-
-ToolsCheckInterference
-
-()
-
-;
-
-pIntMgr = swAssemblyDoc.
-
-InterferenceDetectionManager
-
-;
+swAssemblyDoc.**ToolsCheckInterference**()**;**
+pIntMgr = swAssemblyDoc.**InterferenceDetectionManager**;
 
 //Specify the interference detection settings and options
-
-pIntMgr.
-
-TreatCoincidenceAsInterference
-
-=
-
-false
-
-;
-
-pIntMgr.
-
-TreatSubAssembliesAsComponents
-
-=
-
-false
-
-;
-
-pIntMgr.
-
-IncludeMultibodyPartInterferences
-
-=
-
-true
-
-;
-
-pIntMgr.
-
-MakeInterferingPartsTransparent
-
-=
-
-true
-
-;
-
-pIntMgr.
-
-CreateFastenersFolder
-
-=
-
-false
-
-;
-
-pIntMgr.
-
-IgnoreHiddenBodies
-
-=
-
-false
-
-;
-
-pIntMgr.
-
-ShowIgnoredInterferences
-
-=
-
-false
-
-;
-
-pIntMgr.
-
-UseTransform
-
-=
-
-false
-
-;
+pIntMgr.**TreatCoincidenceAsInterference** = false;
+pIntMgr.**TreatSubAssembliesAsComponents** = false;
+pIntMgr.**IncludeMultibodyPartInterferences** = true;
+pIntMgr.**MakeInterferingPartsTransparent** = true;
+pIntMgr.**CreateFastenersFolder** = false;
+pIntMgr.**IgnoreHiddenBodies** = false;
+pIntMgr.**ShowIgnoredInterferences** = false;
+pIntMgr.**UseTransform** = false;
 
 ```vb
  //Specify how to display non-interfering components

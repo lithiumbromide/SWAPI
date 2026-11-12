@@ -9,12 +9,9 @@ source: "API_GB/Add_Folder_Example_CSharp.htm"
 
 # Add Folder Example (C#)
 
-This example shows how to create a folder and set its data
-card and permissions.
+This example shows how to create a folder and set its data card and permissions.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   //----------------------------------------------------------------------------

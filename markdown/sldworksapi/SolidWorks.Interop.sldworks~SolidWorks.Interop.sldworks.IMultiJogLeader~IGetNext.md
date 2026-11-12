@@ -40,34 +40,20 @@ MultiJogLeader IGetNext()
 MultiJogLeader^ IGetNext();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Next
-
-[leader](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMultiJogLeader.html)
+Next [leader](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMultiJogLeader.html)
 
 ## VBA Syntax
 
-See
-
-[MultiJogLeader::IGetNext](ms-its:sldworksapivb6.chm::/sldworks~MultiJogLeader~IGetNext.html)
-
-.
+See [MultiJogLeader::IGetNext](ms-its:sldworksapivb6.chm::/sldworks~MultiJogLeader~IGetNext.html).
 
 ## See Also
 
 [IMultiJogLeader Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader.html)
-
 [IMultiJogLeader Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader_members.html)
-
 [IMultiJogLeader::GetNext Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader~GetNext.html)
 
 ## Availability

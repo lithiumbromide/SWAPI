@@ -1,6 +1,5 @@
 ---
-title: "ICWTopologyFactorOfSafetyConstraint Object
-Members"
+title: "ICWTopologyFactorOfSafetyConstraint Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "ICWTopologyFactorOfSafetyConstraint_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~ICWTopologyFactorOfSafetyConstraint_members.html"
 ---
 
-# ICWTopologyFactorOfSafetyConstraint Object
-Members
+# ICWTopologyFactorOfSafetyConstraint Object Members
 
 ## Public Methods
 

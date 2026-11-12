@@ -40,30 +40,17 @@ DatumTargetSym IGetFirstDatumTargetSym()
 DatumTargetSym^ IGetFirstDatumTargetSym();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-First
-
-[datum target symbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym.html)
+First [datum target symbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym.html)
 
 ## VBA Syntax
 
-See
-
-[View::IGetFirstDatumTargetSym](ms-its:sldworksapivb6.chm::/sldworks~View~IGetFirstDatumTargetSym.html)
-
-.
+See [View::IGetFirstDatumTargetSym](ms-its:sldworksapivb6.chm::/sldworks~View~IGetFirstDatumTargetSym.html).
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)

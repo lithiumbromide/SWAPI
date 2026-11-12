@@ -48,19 +48,11 @@ property SwDMSheet^ Sheet {
 
 ## VBA Syntax
 
-See
-
-[SwDMTable5::Sheet](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable5~Sheet.html)
-
-.
+See [SwDMTable5::Sheet](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMTable5~Sheet.html).
 
 ## Examples
 
-See the
-
-[ISwDMTable5](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable5.html)
-
-examples.
+See the [ISwDMTable5](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable5.html) examples.
 
 ## Remarks
 
@@ -69,7 +61,6 @@ This property works only with documents saved in SOLIDWORKS 2017 or later.
 ## See Also
 
 [ISwDMTable5 Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable5.html)
-
 [ISwDMTable5 Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMTable5_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.
 
 # ISustainabilityAssemblyUse Interface Members
 
-The following tables list the members exposed by[ISustainabilityAssemblyUse](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse.html).
+The following tables list the members exposed by [ISustainabilityAssemblyUse](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse.html).
 
 ## Public Properties
 
@@ -26,5 +26,4 @@ The following tables list the members exposed by[ISustainabilityAssemblyUse](Sol
 ## See Also
 
 [ISustainabilityAssemblyUse Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse.html)
-
 [SolidWorks.Interop.sustainability Namespace](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability_namespace.html)

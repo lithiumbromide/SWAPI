@@ -9,7 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # _IEModelViewControlEvents_OnComponentMouseOverNotifyEventHandler Delegate (eDrawings.Interop.EModelViewControl)
 
-Obsolete. Superseded by[IEModelViewControlEvents::OnComponentMouseOverNotify2](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnComponentMouseOverNotify2EventHandler.html)
+Obsolete. Superseded by [IEModelViewControlEvents::OnComponentMouseOverNotify2](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl._IEModelViewControlEvents_OnComponentMouseOverNotify2EventHandler.html)
 
 ## Syntax
 
@@ -57,11 +57,7 @@ public delegate void _IEModelViewControlEvents_OnComponentMouseOverNotifyEventHa
 
 ## VBA Syntax
 
-See
-
-[OnComoponentMouseOverNotify Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnComponentMouseOverNotify_EV.html)
-
-.
+See [OnComoponentMouseOverNotify Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnComponentMouseOverNotify_EV.html).
 
 ## Availability
 

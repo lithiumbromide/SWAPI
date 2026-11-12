@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWi
 
 Gets the Hole Wizard feature type.
 
-**NOTE: This property is a get-only property. Set is not implemented.**
+****NOTE:** This property is a get-only property. Set is not implemented.**
 
 ## Syntax
 
@@ -47,44 +47,25 @@ property System.int Type {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type as defined in[swWzdHoleTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleTypes_e.html)
+Type as defined in [swWzdHoleTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWzdHoleTypes_e.html)
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::Type](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~Type.html)
-
-.
+See [WizardHoleFeatureData2::Type](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~Type.html).
 
 ## Examples
 
-See
-
-Create Holes Using Hole Wizard and Sketch Points
-
-examples in
-
-[IWizardHoleFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2.html)
-
-.
+See **Create Holes Using Hole Wizard and Sketch Points** examples in [IWizardHoleFeatureData2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2.html).
 
 ## Remarks
 
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
 
 ## Availability

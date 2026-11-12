@@ -45,13 +45,7 @@ property System.double Margins {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,16 @@ Distance between the fill boundary and the outermost pattern instance in the lay
 
 ## VBA Syntax
 
-See
-
-[FillPatternFeatureData::Margins](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~Margins.html)
-
-.
+See [FillPatternFeatureData::Margins](ms-its:sldworksapivb6.chm::/sldworks~FillPatternFeatureData~Margins.html).
 
 ## Examples
 
-See the
-
-[IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
-example.
+See the [IFillPatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html) example.
 
 ## See Also
 
 [IFillPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData.html)
-
 [IFillPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData_members.html)
-
 [IFillPatternFeatureData::PatternLayoutType Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFillPatternFeatureData~PatternLayoutType.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDo
 
 # PLMObjectSpecification Property (IDocumentSpecification)
 
-Gets the specification of this SOLIDWORKS Connected document.
+Gets the specification of this [SOLIDWORKS Design connected to the 3DEXPERIENCE platform](ms-its:sldworksapiprogguide.chm:://Overview/SOLIDWORKS_Connected.htm) document.
 
 ## Syntax
 
@@ -42,13 +42,7 @@ property System.Object^ PLMObjectSpecification {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::PLMObjectSpecification](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~PLMObjectSpecification.html)
-
-.
+See [DocumentSpecification::PLMObjectSpecification](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~PLMObjectSpecification.html).
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
 
 ## Availability

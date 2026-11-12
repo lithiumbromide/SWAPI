@@ -163,21 +163,15 @@ Feature^ FeatureExtrusionThin2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Sd`: True for single ended, false for double ended
 - `Flip`: Not used
-- `Dir`: Reverse direction; True if you want Direction1 to be opposite the default direction (see**Remarks**)
-- `T1`: Termination type for first end as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
-- `T2`: Termination type for second end as defined in[swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `Dir`: Reverse direction; True if you want Direction1 to be opposite the default direction (see **Remarks**)
+- `T1`: Termination type for first end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
+- `T2`: Termination type for second end as defined in [swEndConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swEndConditions_e.html)
 - `D1`: Depth of extrusion for first end in meters
 - `D2`: Depth of extrusion for second end in meters
 - `Dchk1`: True allows draft angle in first direction, false does not allow drafting
@@ -191,54 +185,47 @@ See
 - `TranslateSurface1`: When you choose swEndcondOffsetFromSurface as the termination type for the first end, then True specifies that the end of the extrusion is a translation of the reference surface, false specifies to use a true offset
 - `TranslateSurface2`: When you choose swEndcondOffsetFromSurface as the termination type for the second end, then True specifies that the end of the extrusion is a translation of the reference surface, false specifies to use a true offset
 - `Merge`: True to merge the resultant base or boss body into an existing body, false to create a distinct solid body
-- `Thk1`: Wall thickness 1 (Mid-plane type uses(Thk1)/2for each direction)
+- `Thk1`: Wall thickness 1 (Mid-plane type uses (Thk1)/2 for each direction)
 - `Thk2`: Wall thickness 2 (Only used when RevThinType =3 )
 - `EndThk`: End cap thickness (Only used when CapEnds = 1)
 - `RevThinDir`: Thin feature type:
 
-- 0 = One direction
-- 1 = One direction reverse
-- 2 = Mid-plane
-- 3 = Two direction
+  - 0 = One direction
+  - 1 = One direction reverse
+  - 2 = Mid-plane
+  - 3 = Two direction
 - `CapEnds`: Cap the ends:
 
-- 0 = no cap
-- 1 = cap (base features only)
+  - 0 = no cap
+  - 1 = cap (base features only)
 - `AddBends`: True to add auto bends (open profile base features only), false to not
 - `BendRad`: Fillet radii if AddBends = True
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
-- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (seeRemarks)
-- `T0`: Start condition as defined in[swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html)
+- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see Remarks)
+- `T0`: Start condition as defined in [swStartConditions_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swStartConditions_e.html)
 - `StartOffset`: If T0 set to swStartOffset, then specify offset value
 - `FlipStartOffset`: If T0 set to swStartOffset, then True to flip the direction or false to not
 
 ### Return Value
 
-Pointer to the[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureExtrusionThin2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtrusionThin2.html)
-
-.
+See [FeatureManager::FeatureExtrusionThin2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureExtrusionThin2.html).
 
 ## Examples
 
 [Create Extruded Thin Feature (VBA)](Create_Extruded_Thin_Feature_Example_VB.htm)
-
 [Get Annotations Arrays (C#)](Get_Annotations_Arrays_Example_CSharp.htm)
-
 [Get Annotations Arrays (VB.NET)](Get_Annotations_Arrays_Example_VBNET.htm)
-
 [Get Annotations Arrays (VBA)](Get_Annotations_Array_Example_VB.htm)
 
 ## Remarks
 
 The default direction for cut operations is opposite the sketch normal. The default direction for boss operations is along the sketch normal. Setting the Dir argument to True reverses the default direction. For double-ended extrusions, Direction 2 is always opposite of Direction 1.
 
-The default sketch normal is the same as the face or plane normal where the sketch was placed. To determine this normal vector, see[IFace2::Normal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~Normal.html)and[IRefPlane::Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane~Transform.html), respectively.
+The default sketch normal is the same as the face or plane normal where the sketch was placed. To determine this normal vector, see [IFace2::Normal](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~Normal.html) and [IRefPlane::Transform](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane~Transform.html), respectively.
 
 When UseAutoSelect is false, the user must select the bodies that the feature will affect.
 
@@ -247,13 +234,9 @@ When using cut or cavity features that result in multiple bodies, you cannot sel
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IFeature::FeatureExtrusion2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureExtrusion2.html)
-
 [IFeature::FeatureCutThin Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCutThin.html)
 
 ## Availability

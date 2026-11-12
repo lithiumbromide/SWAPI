@@ -45,13 +45,7 @@ property System.bool ReverseDirection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to reverse direction of thickness, false to not
 
 ## VBA Syntax
 
-See
-
-[SweptFlangeFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~ReverseDirection.html)
-
-.
+See [SweptFlangeFeatureData::ReverseDirection](ms-its:sldworksapivb6.chm::/sldworks~SweptFlangeFeatureData~ReverseDirection.html).
 
 ## Examples
 
-See the
-
-[ISweptFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
-examples.
+See the [ISweptFlangeFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ This property is valid only when creating the swept flange in a non-sheet-metal 
 ## See Also
 
 [ISweptFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData.html)
-
 [ISweptFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweptFlangeFeatureData_members.html)
 
 ## Availability

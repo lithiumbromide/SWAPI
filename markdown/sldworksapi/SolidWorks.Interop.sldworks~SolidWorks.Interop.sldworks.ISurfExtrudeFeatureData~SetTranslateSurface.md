@@ -50,13 +50,7 @@ void SetTranslateSurface(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[SurfExtrudeFeatureData::SetTranslateSurface](ms-its:sldworksapivb6.chm::/sldworks~SurfExtrudeFeatureData~SetTranslateSurface.html)
-
-.
+See [SurfExtrudeFeatureData::SetTranslateSurface](ms-its:sldworksapivb6.chm::/sldworks~SurfExtrudeFeatureData~SetTranslateSurface.html).
 
 ## See Also
 
 [ISurfExtrudeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData.html)
-
 [ISurfExtrudeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData_members.html)
-
 [ISurfExtrudeFeatureData::GetTranslateSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfExtrudeFeatureData~GetTranslateSurface.html)
 
 ## Availability

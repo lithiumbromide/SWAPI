@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomRow_members.html"
 
 # IEdmSWBomRow Interface Members
 
-The following tables list the members exposed by[IEdmSWBomRow](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomRow.html).
+The following tables list the members exposed by [IEdmSWBomRow](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomRow.html).
 
 ## Public Properties
 
@@ -27,5 +27,4 @@ The following tables list the members exposed by[IEdmSWBomRow](EPDM.Interop.epdm
 ## See Also
 
 [IEdmSWBomRow Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSWBomRow.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -51,22 +51,16 @@ Name of cut-list item
 
 ## VBA Syntax
 
-See
-
-[SwDMCutListItem::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem~Name.html)
-
-.
+See [SwDMCutListItem::Name](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMCutListItem~Name.html).
 
 ## Examples
 
 [Get, Add, Change, and Delete Cut-List Custom Properties (C#)](Get,_Add,_Change,_and_Delete_Cut-List_Custom_Properties_Example_CSharp.htm)
-
 [Get, Add, Change, and Delete Cut-List Custom Properties (VB.NET)](Get,_Add,_Change,_and_Delete_Cut-List_Custom_Properties_Example_VBNET.htm)
 
 ## See Also
 
 [ISwDMCutListItem Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem.html)
-
 [ISwDMCutListItem Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMCutListItem_members.html)
 
 ## Availability

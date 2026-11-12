@@ -42,13 +42,7 @@ property System.Object^ PickPoint {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,18 +50,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[LibraryFormToolFeatureData::PickPoint](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~PickPoint.html)
-
-.
+See [LibraryFormToolFeatureData::PickPoint](ms-its:sldworksapivb6.chm::/sldworks~LibraryFormToolFeatureData~PickPoint.html).
 
 ## See Also
 
 [ILibraryFormToolFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData.html)
-
 [ILibraryFormToolFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData_members.html)
-
 [ILibraryFormToolFeatureData::SetPlacementFace Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILibraryFormToolFeatureData~SetPlacementFace.html)
 
 ## Availability

@@ -40,13 +40,7 @@ System.bool IsCOMFeature()
 System.bool IsCOMFeature();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ True if the feature is a COM feature, false if not
 
 ## VBA Syntax
 
-See
-
-[MacroFeatureData::IsCOMFeature](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~IsCOMFeature.html)
-
-.
+See [MacroFeatureData::IsCOMFeature](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~IsCOMFeature.html).
 
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [IMacroFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html)
-
 [IMacroFeatureData::GetProgId Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~GetProgId.html)
-
 [IMacroFeatureData::SetProgId Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~SetProgId.html)
 
 ## Availability

@@ -9,12 +9,9 @@ source: "API_GB/Update_File_Raw_References_Example_VBNET.htm"
 
 # Update File Raw References Example (VB.NET)
 
-This example shows how to get file references directly
-from a file and update file references directly in that file.
+This example shows how to get file references directly from a file and update file references directly in that file.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```
 '----------------------------------------------------------------------------

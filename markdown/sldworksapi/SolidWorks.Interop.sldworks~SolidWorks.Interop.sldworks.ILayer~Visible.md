@@ -45,39 +45,26 @@ property System.bool Visible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True if the layer is visible, false if the layer is not visible (see**Remarks**)
+True if the layer is visible, false if the layer is not visible (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Layer::Visible](ms-its:sldworksapivb6.chm::/sldworks~Layer~Visible.html)
-
-.
+See [Layer::Visible](ms-its:sldworksapivb6.chm::/sldworks~Layer~Visible.html).
 
 ## Examples
 
 [Determine if Layer is Visible (VBA)](Determine_if_Layer_is_Visible_Example_VB.htm)
-
 [Get Layers (C#)](Get_Layers_Example_CSharp.htm)
-
 [Get Layers (VB.NET)](Get_Layers_Example_VBNET.htm)
-
 [Get Layers (VBA)](Get_Layers_Example_VB.htm)
 
 ## Remarks
 
-After setting this property to the opposite state, call[ILayer::Printable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer~Printable.html)to check its state, because setting ILayer::Visible might change the state of ILayer::Printable.
+After setting this property to the opposite state, call [ILayer::Printable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer~Printable.html) to check its state, because setting ILayer::Visible might change the state of ILayer::Printable.
 
 To ensure that ILayer::Visible and ILayer::Printable are set to the desired states, perform the following steps in this order:
 
@@ -88,7 +75,6 @@ To ensure that ILayer::Visible and ILayer::Printable are set to the desired stat
 ## See Also
 
 [ILayer Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer.html)
-
 [ILayer Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayer_members.html)
 
 ## Availability

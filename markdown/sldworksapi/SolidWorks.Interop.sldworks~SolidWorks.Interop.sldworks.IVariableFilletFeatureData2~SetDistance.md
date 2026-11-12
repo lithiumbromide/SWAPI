@@ -50,43 +50,25 @@ void SetDistance(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PFilletItem`: [Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)
-
-at which to set the Distance 2 radius
+- `PFilletItem`: [Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html) at which to set the Distance 2 radius
 - `Dist2`: Distance 2 radius at the vertex specified by PFilletItem
 
 ## VBA Syntax
 
-See
-
-[VariableFilletFeatureData2::SetDistance](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~SetDistance.html)
-
-.
+See [VariableFilletFeatureData2::SetDistance](ms-its:sldworksapivb6.chm::/sldworks~VariableFilletFeatureData2~SetDistance.html).
 
 ## Remarks
 
-Call
-
-[IVariableFilletFeatureData2::SetRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~SetRadius.html)
-
-to set the Distance 1 radius at the vertex.
+Call [IVariableFilletFeatureData2::SetRadius](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~SetRadius.html) to set the Distance 1 radius at the vertex.
 
 ## See Also
 
 [IVariableFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2.html)
-
 [IVariableFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2_members.html)
-
 [IVariableFilletFeatureData2::GetDistance Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVariableFilletFeatureData2~GetDistance.html)
 
 ## Availability

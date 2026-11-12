@@ -45,13 +45,7 @@ property System.double FloorWidth {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Width of the scene floor
 
 ## VBA Syntax
 
-See
-
-[SwScene::FloorWidth](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FloorWidth.html)
-
-.
+See [SwScene::FloorWidth](ms-its:sldworksapivb6.chm::/sldworks~SwScene~FloorWidth.html).
 
 ## Remarks
 
-The setting of this property is valid only if
-
-[ISwScene::FloorAutoSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorAutoSize.html)
-
-is false.
+The setting of this property is valid only if [ISwScene::FloorAutoSize](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene~FloorAutoSize.html) is false.
 
 ## See Also
 
 [ISwScene Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene.html)
-
 [ISwScene Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwScene_members.html)
 
 ## Availability

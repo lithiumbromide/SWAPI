@@ -9,8 +9,7 @@ source: "sldworksapi/Change_Bend_Radius_of_Sheet_Metal_Part_Example_VB.htm"
 
 # Change Bend Radius of Sheet Metal Part Example (VBA)
 
-This example shows how to change the default bend radius of a sheet
-metal part.
+This example shows how to change the default bend radius of a sheet metal part.
 
 ```
 '-----------------------------------------------

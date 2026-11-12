@@ -11,15 +11,12 @@ source: "sldworksapi/Traverse_Features_By_Reverse_Position_Example_VB.htm"
 
 ## Traverse Features By Reverse Position Example (VBA)
 
-This example shows how to traverse backwards
-through the list of features in the FeatureManager design tree. Features are
-obtained by their position using
-IModelDoc2::FeatureByPositionReverse.
+This example shows how to traverse backwards through the list of features in the FeatureManager design tree. Features are obtained by their position using IModelDoc2::FeatureByPositionReverse.
 
 ```vb
 '------------------------------------
  ' Preconditions:
- ' 1. A part document is open in SOLIDWORKS.
+ ' 1. A part document is open in SOLIDWORKS Design.
  ' 2. Open the Immediate window.
  ' 3. Run the macro.
  '

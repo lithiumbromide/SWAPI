@@ -1,6 +1,5 @@
 ---
-title: "SurfExtrudeFeatureData Object
-Members"
+title: "SurfExtrudeFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SurfExtrudeFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SurfExtrudeFeatureData_members.html"
 ---
 
-# SurfExtrudeFeatureData Object
-Members
+# SurfExtrudeFeatureData Object Members
 
 ## Public Methods
 

@@ -1,6 +1,5 @@
 ---
-title: "SketchSlot Object
-Members"
+title: "SketchSlot Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchSlot_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchSlot_members.html"
 ---
 
-# SketchSlot Object
-Members
+# SketchSlot Object Members
 
 ## Public Methods
 

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2_fields.html"
 
 # EdmBomLayout2 Structure Fields
 
-For a list of all members of this type, see[EdmBomLayout2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2_members.html).
+For a list of all members of this type, see [EdmBomLayout2 members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2_members.html).
 
 ## Public Fields
 
@@ -24,5 +24,4 @@ For a list of all members of this type, see[EdmBomLayout2 members](EPDM.Interop.
 ## See Also
 
 [EdmBomLayout2 Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomLayout2.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

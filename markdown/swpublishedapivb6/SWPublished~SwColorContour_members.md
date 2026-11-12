@@ -1,6 +1,5 @@
 ---
-title: "SwColorContour Object
-Members"
+title: "SwColorContour Object Members"
 project: "SOLIDWORKS Custom Interfaces Type Library"
 interface: "SwColorContour_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swpublishedapivb6/SWPublished~SwColorContour_members.html"
 ---
 
-# SwColorContour Object
-Members
+# SwColorContour Object Members
 
 ## Public Methods
 

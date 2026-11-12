@@ -39,16 +39,11 @@ Description of the category
 
 ## Examples
 
-See the
-
-[IEdmCategory6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategory6.html)
-
-examples.
+See the [IEdmCategory6](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategory6.html) examples.
 
 ## See Also
 
 [IEdmCategory6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategory6.html)
-
 [IEdmCategory6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCategory6_members.html)
 
 ## Availability

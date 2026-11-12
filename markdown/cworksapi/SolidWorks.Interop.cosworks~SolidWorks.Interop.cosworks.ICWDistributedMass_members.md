@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDi
 
 # ICWDistributedMass Interface Members
 
-The following tables list the members exposed by[ICWDistributedMass](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass.html).
+The following tables list the members exposed by [ICWDistributedMass](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass.html).
 
 ## Public Properties
 
@@ -32,5 +32,4 @@ The following tables list the members exposed by[ICWDistributedMass](SolidWorks.
 ## See Also
 
 [ICWDistributedMass Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDistributedMass.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

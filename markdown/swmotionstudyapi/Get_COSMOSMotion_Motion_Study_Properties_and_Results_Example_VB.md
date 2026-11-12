@@ -9,163 +9,68 @@ source: "swmotionstudyapi/Get_COSMOSMotion_Motion_Study_Properties_and_Results_E
 
 # Get COSMOSMotion Motion Study Properties and Results Example (VBA)
 
-This example shows how to get a COSMOSMotion motion study's properties
-and results.
+This example shows how to get a COSMOSMotion motion study's properties and results.
 
+```vb
 '------------------------------------------
-
-' Preconditions: Model is open that has a COSMOSMotion
-motion study
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}named
-PhysSim and at least one COSMOSMotion motion study plot.
-
+' Preconditions: Model is open that has a COSMOSMotion motion study
+'                named PhysSim and at least one COSMOSMotion motion study plot.
 '
-
 ' Postconditions: None
-
 '--------------------------------------------
-
 Option Explicit
 
 Dim swApp As SldWorks.SldWorks
-
 Dim swModel As SldWorks.ModelDoc2
-
 Dim swModelDocExt As SldWorks.ModelDocExtension
-
 Dim swMotionMgr As SwMotionStudy.MotionStudyManager
-
 Dim swMotionStudy1 As SwMotionStudy.MotionStudy
-
 Dim swResults As SwMotionStudy.MotionStudyResults
-
 Dim swMotionStudyProps As SwMotionStudy.MotionStudyProperties
-
 Dim swCosmosMotionStudyProps As SwMotionStudy.CosmosMotionStudyProperties
-
 Dim swCosmosMotionStudyResults As SwMotionStudy.CosmosMotionStudyResults
 
 Sub main()
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Set swModelDocExt = swModel.Extension
+    ' Get the MotionManager.
+    Set swMotionMgr = swModelDocExt.GetMotionStudyManager()
+    If (swMotionMgr Is Nothing) Then
+          End
+    End If
+    ' Get motion study named PhysSim.
+    Set swMotionStudy1 = swMotionMgr.GetMotionStudy("PhysSim")
+    If (swMotionStudy1 Is Nothing) Then
+        MsgBox "PhysSim is not available."
+        End
+    End If
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
+    swMotionStudy1.StudyType = swMotionStudyType_e.swMotionStudyTypePhysicalSimulation
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
+    'Is the motion study active?  If not, activate it.
+    If Not swMotionStudy1.IsActive Then swMotionStudy1.Activate
+    Debug.Print "Duration of motion study: " & swMotionStudy1.GetDuration
+    Debug.Print "Timebar position on timeline: " & swMotionStudy1.GetTime
+    Debug.Print "Number of motion features: " & swMotionStudy1.GetMotionFeaturesCount
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModelDocExt = swModel.Extension
+    'Get COSMOSMotion study properties.
+    Set swMotionStudyProps = swMotionStudy1.GetProperties(4)
+    Set swCosmosMotionStudyProps = swMotionStudyProps
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get the MotionManager.
+    Debug.Print ""
+    Debug.Print "COSMOSMotion study properties: "
+    Debug.Print "    Animate during simulation: " & swCosmosMotionStudyProps.AnimateDuringSimulation
+    Debug.Print "    Make all mates flexible: " & swCosmosMotionStudyProps.MakeAllMatesFlexible
+    Debug.Print "    Display results graphics as wireframe: " & swCosmosMotionStudyProps.WireframeGraphics
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swMotionMgr = swModelDocExt.GetMotionStudyManager()
+    ' Get COSMOSMotion study results.
+    Set swResults = swMotionStudy1.GetResults(4)
+    Set swCosmosMotionStudyResults = swResults
+    Debug.Print "    Number of plots: " & swCosmosMotionStudyResults.GetPlotCount
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-(swMotionMgr Is Nothing) Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get motion study named PhysSim.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swMotionStudy1 = swMotionMgr.GetMotionStudy("PhysSim")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-(swMotionStudy1 Is Nothing) Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}MsgBox
-"PhysSim is not available."
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swMotionStudy1.StudyType
-= swMotionStudyType_e.swMotionStudyTypePhysicalSimulation
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Is
-the motion study active?kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-not, activate it.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-Not swMotionStudy1.IsActiveThen
-swMotionStudy1.Activate
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"Duration of motion study: " & swMotionStudy1.GetDuration
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"Timebar position on timeline: " & swMotionStudy1.GetTime
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"Number of motion features: " & swMotionStudy1.GetMotionFeaturesCount
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'Get
-COSMOSMotion study properties.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swMotionStudyProps = swMotionStudy1.GetProperties(4)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swCosmosMotionStudyProps = swMotionStudyProps
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-""
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"COSMOSMotion study properties: "
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Animate
-during simulation: " & swCosmosMotionStudyProps.AnimateDuringSimulation
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Make
-all mates flexible: " & swCosmosMotionStudyProps.MakeAllMatesFlexible
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Display
-results graphics as wireframe: " & swCosmosMotionStudyProps.WireframeGraphics
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Get COSMOSMotion study results.
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swResults = swMotionStudy1.GetResults(4)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swCosmosMotionStudyResults = swResults
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Number
-of plots: " & swCosmosMotionStudyResults.GetPlotCount
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-""
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"Are the motion study results out of date? " & swResults.IsOutOfDate
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
+    Debug.Print ""
+    Debug.Print "Are the motion study results out of date? " & swResults.IsOutOfDate
 
 End Sub
+```

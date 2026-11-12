@@ -48,22 +48,14 @@ Number of SOLIDWORKS ink markups
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::InkMarkupCount](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~InkMarkupCount.html)
-
-.
+See [EModelViewControl::InkMarkupCount](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~InkMarkupCount.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::InkMarkupName Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~InkMarkupName.html)
-
 [IEModelViewControl::ShowInkMarkup Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ShowInkMarkup.html)
-
 [IEModelViewControl::ActivateInkMarkup Method ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ActivateInkMarkup.html)
 
 ## Availability

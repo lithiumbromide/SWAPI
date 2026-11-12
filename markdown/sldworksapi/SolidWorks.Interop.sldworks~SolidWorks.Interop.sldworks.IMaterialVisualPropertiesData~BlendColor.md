@@ -45,13 +45,7 @@ property System.bool BlendColor {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to blend the color with the texture, false to not
 
 ## VBA Syntax
 
-See
-
-[MaterialVisualPropertiesData::BlendColor](ms-its:sldworksapivb6.chm::/sldworks~MaterialVisualPropertiesData~BlendColor.html)
-
-.
+See [MaterialVisualPropertiesData::BlendColor](ms-its:sldworksapivb6.chm::/sldworks~MaterialVisualPropertiesData~BlendColor.html).
 
 ## Examples
 
-See
-
-[IMaterialVisualPropertiesData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMaterialVisualPropertiesData.html)
-
-examples.
+See [IMaterialVisualPropertiesData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMaterialVisualPropertiesData.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ This property on applies to SOLIDWORKS standard textures.
 ## See Also
 
 [IMaterialVisualPropertiesData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMaterialVisualPropertiesData.html)
-
 [IMaterialVisualPropertiesData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMaterialVisualPropertiesData_members.html)
 
 ## Availability

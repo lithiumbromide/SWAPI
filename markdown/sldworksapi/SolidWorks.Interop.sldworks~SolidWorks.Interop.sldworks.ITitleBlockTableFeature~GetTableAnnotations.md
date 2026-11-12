@@ -40,42 +40,25 @@ System.object GetTableAnnotations()
 System.Object^ GetTableAnnotations();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[table annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITitleBlockTableAnnotation.html)
-
-in this title block table feature
+Array of [table annotations](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITitleBlockTableAnnotation.html) in this title block table feature
 
 ## VBA Syntax
 
-See
-
-[TitleBlockTableFeature::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~TitleBlockTableFeature~GetTableAnnotations.html)
-
-.
+See [TitleBlockTableFeature::GetTableAnnotations](ms-its:sldworksapivb6.chm::/sldworks~TitleBlockTableFeature~GetTableAnnotations.html).
 
 ## Examples
 
 [Get Title Block Tables (VBA)](Get_Title_Block_Tables_Example_VB6.htm)
-
 [Get Title Block Tables (VB.NET)](Get_Title_Block_Tables_Example_VBNET.htm)
-
 [Get Title Block Tables (C#)](Get_Title_Block_Tables_Example_CSharp.htm)
 
 ## See Also
 
 [ITitleBlockTableFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlockTableFeature.html)
-
 [ITitleBlockTableFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITitleBlockTableFeature_members.html)
 
 ## Availability

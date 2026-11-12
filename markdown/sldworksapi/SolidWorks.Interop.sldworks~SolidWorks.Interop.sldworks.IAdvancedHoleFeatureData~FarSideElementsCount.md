@@ -42,13 +42,7 @@ property System.int FarSideElementsCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ Number of far side hole elements
 
 ## VBA Syntax
 
-See
-
-[AdvancedHoleFeatureData::FarSideElementsCount](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleFeatureData~FarSideElementsCount.html)
-
-.
+See [AdvancedHoleFeatureData::FarSideElementsCount](ms-its:sldworksapivb6.chm::/sldworks~AdvancedHoleFeatureData~FarSideElementsCount.html).
 
 ## Examples
 
-See the
-
-[IAdvancedHoleFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html)
-
-examples.
+See the [IAdvancedHoleFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html) examples.
 
 ## See Also
 
 [IAdvancedHoleFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData.html)
-
 [IAdvancedHoleFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedHoleFeatureData_members.html)
 
 ## Availability

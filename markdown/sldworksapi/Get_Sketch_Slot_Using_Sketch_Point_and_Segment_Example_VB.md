@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Sketch_Slot_Using_Sketch_Point_and_Segment_Example_VB.h
 
 # Get Sketch Slot Using Sketch Point and Segment Example (VBA)
 
-This example shows you how to get a sketch slot using a sketch point
-and a sketch segment.
+This example shows you how to get a sketch slot using a sketch point and a sketch segment.
 
 ```
 '--------------------------------------------------------

@@ -42,30 +42,18 @@ CostFeature^ GetNextSubFeature();
 
 ### Return Value
 
-Next
-
-[Costing child feature of this Costing feature](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostFeature.html)
-
-or null if no more Costing children features for this Costing feature exist
+Next [Costing child feature of this Costing feature](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostFeature.html) or null if no more Costing children features for this Costing feature exist
 
 ## VBA Syntax
 
-See
-
-[CostFeature::GetNextSubFeature](swcostingapivb6.chm::/SldCostingAPI~CostFeature~GetNextSubFeature.html)
-
-.
+See [CostFeature::GetNextSubFeature](swcostingapivb6.chm::/SldCostingAPI~CostFeature~GetNextSubFeature.html).
 
 ## See Also
 
 [ICostFeature Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature.html)
-
 [ICostFeature Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature_members.html)
-
 [ICostAnalysis::GetFirstCostFeature Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis~GetFirstCostFeature.html)
-
 [ICostFeature::GetFirstSubFeature Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~GetFirstSubFeature.html)
-
 [ICostFeature::GetNextFeature Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostFeature~GetNextFeature.html)
 
 ## Availability

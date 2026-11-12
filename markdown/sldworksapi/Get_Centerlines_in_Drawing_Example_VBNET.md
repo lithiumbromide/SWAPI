@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Centerlines_in_Drawing_Example_VBNET.htm"
 
 # Get Centerlines in Drawing Example (VB.NET)
 
-This example shows how to get all of the centerlines in all of the drawing
-views in a drawing.
+This example shows how to get all of the centerlines in all of the drawing views in a drawing.
 
 ```
 '------------------------------------

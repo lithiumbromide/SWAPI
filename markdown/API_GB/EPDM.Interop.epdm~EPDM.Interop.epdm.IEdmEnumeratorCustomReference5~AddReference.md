@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReferenc
 
 # AddReference Method (IEdmEnumeratorCustomReference5)
 
-Obsolete. Superseded by
-
-[IEdmEnumeratorCustomReference6::AddReference2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference6~AddReference2.html)
-
-.
+Obsolete. Superseded by [IEdmEnumeratorCustomReference6::AddReference2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference6~AddReference2.html).
 
 ## Syntax
 
@@ -59,7 +55,6 @@ void AddReference(
 ## See Also
 
 [IEdmEnumeratorCustomReference5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5.html)
-
 [IEdmEnumeratorCustomReference5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorCustomReference5_members.html)
 
 ## Availability

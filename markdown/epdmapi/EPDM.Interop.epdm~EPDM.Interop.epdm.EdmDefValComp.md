@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDefValComp.html"
 
 # EdmDefValComp Enumeration
 
-Return options when calling
-
-[IEdmCardViewCallback6::GetDefaultValueComponent](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6~GetDefaultValueComponent.html)
-
-.
+Return options when calling [IEdmCardViewCallback6::GetDefaultValueComponent](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardViewCallback6~GetDefaultValueComponent.html).
 
 ## Syntax
 

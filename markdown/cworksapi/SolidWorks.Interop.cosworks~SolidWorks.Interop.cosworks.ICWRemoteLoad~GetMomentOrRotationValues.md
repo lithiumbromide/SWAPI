@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRe
 
 # GetMomentOrRotationValues Method (ICWRemoteLoad)
 
-Obsolete. Superseded by ICWRemoteLoad::GetMomentOrRotationValues2.
+Obsolete. Superseded by [ICWRemoteLoad::GetMomentOrRotationValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~GetMomentOrRotationValues2.html).
 
 ## Syntax
 
@@ -72,11 +72,7 @@ void GetMomentOrRotationValues(
 
 ### Parameters
 
-- `BInclude`: 1 to get moment or rotation values, 0 to not (see
-
-Remarks
-
-)
+- `BInclude`: 1 to get moment or rotation values, 0 to not (see **Remarks**)
 - `BXValue`: 1 to get the value in the x direction, 0 to not
 - `DXValue`: Moment or rotation in the x direction; valid only if BXValue = 1
 - `BYValue`: 1 to get the value in the y direction, 0 to not
@@ -86,11 +82,7 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CWRemoteLoad::GetMomentOrRotationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~GetMomentOrRotationValues.html)
-
-.
+See [CWRemoteLoad::GetMomentOrRotationValues](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRemoteLoad~GetMomentOrRotationValues.html).
 
 ## Remarks
 
@@ -102,11 +94,8 @@ See
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
-
 [ICWRemoteLoad::SetMomentOrRotationValues Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetMomentOrRotationValues.html)
-
 [ICWRemoteLoad::MomentOrRotationUnit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~MomentOrRotationUnit.html)
 
 ## Availability

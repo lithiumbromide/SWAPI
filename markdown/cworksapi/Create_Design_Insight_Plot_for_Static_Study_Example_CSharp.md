@@ -9,8 +9,7 @@ source: "cworksapi/Create_Design_Insight_Plot_for_Static_Study_Example_CSharp.ht
 
 # Create a Design Insight Plot for a Static Study Example (C#)
 
-This example shows how to create a Design Insight plot and set its load
-level.
+This example shows how to create a Design Insight plot and set its load level.
 
 ```vb
   //----------------------------------------------------------------------------

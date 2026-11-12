@@ -51,16 +51,11 @@ property SwDMSheet^ Sheet {
 
 ## VBA Syntax
 
-See
-
-[SwDMView::Sheet](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView~Sheet.html)
-
-.
+See [SwDMView::Sheet](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMView~Sheet.html).
 
 ## See Also
 
 [ISwDMView Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView.html)
-
 [ISwDMView Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMView_members.html)
 
 ## Availability

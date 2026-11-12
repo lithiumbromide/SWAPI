@@ -9,11 +9,7 @@ source: "swpublishedapi/SolidWorks.Interop.swpublished~SolidWorks.Interop.swpubl
 
 # OnSelectionboxCalloutCreated Method (IPropertyManagerPage2Handler4)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2Handler5::OnSelectionboxCalloutCreated](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnSelectionboxCalloutCreated.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2Handler5::OnSelectionboxCalloutCreated](SOLIDWORKS.Interop.swpublished~SOLIDWORKS.Interop.swpublished.IPropertyManagerPage2Handler5~OnSelectionboxCalloutCreated.html).
 
 ## Syntax
 
@@ -56,14 +52,9 @@ void OnSelectionboxCalloutCreated(
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2Handler4::OnSelectionboxCalloutCreated](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler4~OnSelectionboxCalloutCreated.html)
-
-.
+See [PropertyManagerPage2Handler4::OnSelectionboxCalloutCreated](ms-its:swpublishedapivb6.chm::/swpublished~PropertyManagerPage2Handler4~OnSelectionboxCalloutCreated.html).
 
 ## See Also
 
 [IPropertyManagerPage2Handler4 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler4.html)
-
 [IPropertyManagerPage2Handler4 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler4_members.html)

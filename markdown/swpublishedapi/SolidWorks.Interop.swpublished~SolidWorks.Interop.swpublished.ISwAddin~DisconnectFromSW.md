@@ -46,11 +46,7 @@ True if the add-in disconnected successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[SwAddin::DisconnectFromSW](ms-its:swpublishedapivb6.chm::/swpublished~SwAddin~DisconnectFromSW.html)
-
-.
+See [SwAddin::DisconnectFromSW](ms-its:swpublishedapivb6.chm::/swpublished~SwAddin~DisconnectFromSW.html).
 
 ## Remarks
 
@@ -61,7 +57,6 @@ When this method is called, remove and release all user-interface items related 
 ## See Also
 
 [ISwAddin Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin.html)
-
 [ISwAddin Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddin_members.html)
 
 ## Availability

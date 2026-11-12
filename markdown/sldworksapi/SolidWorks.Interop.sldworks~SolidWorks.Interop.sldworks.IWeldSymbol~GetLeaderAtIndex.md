@@ -47,13 +47,7 @@ System.Object^ GetLeaderAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,19 +55,11 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::GetLeaderAtIndex](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetLeaderAtIndex.html)
-
-.
+See [WeldSymbol::GetLeaderAtIndex](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetLeaderAtIndex.html).
 
 ## Remarks
 
@@ -103,16 +89,12 @@ retval[7] = y-coordinate of third leader point
 
 retval[8] = z-coordinate of third leader point
 
-Use[IWeldSymbol::GetLeaderCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetLeaderCount.html)to see how many leaders there are on the weld symbol.
+Use [IWeldSymbol::GetLeaderCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~GetLeaderCount.html) to see how many leaders there are on the weld symbol.
 
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
-
 [IWeldSymbol::GetLeaderCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~GetLeaderCount.html)
-
 [IWeldSymbol::HasExtraLeader Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~HasExtraLeader.html)
-
 [IWeldSymbol::IGetLeaderAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol~IGetLeaderAtIndex.html)

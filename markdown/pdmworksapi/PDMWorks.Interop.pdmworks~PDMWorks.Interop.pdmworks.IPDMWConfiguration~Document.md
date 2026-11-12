@@ -48,18 +48,12 @@ property PDMWDocument^ Document {
 
 ## VBA Syntax
 
-See
-
-[PDMWConfiguration::Document](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~Document.html)
-
-.
+See [PDMWConfiguration::Document](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~Document.html).
 
 ## See Also
 
 [IPDMWConfiguration Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)
-
 [IPDMWConfiguration Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration_members.html)
-
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
 
 ## Availability

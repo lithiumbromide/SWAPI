@@ -45,41 +45,19 @@ property System.double CustomSize {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-User-defined size of the balloons; valid only when
-
-[IStackedBalloonOptions::Size](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions~Size.html)
-
-is set to
-
-[swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
-
-.swBF_UserDef
+User-defined size of the balloons; valid only when [IStackedBalloonOptions::Size](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions~Size.html) is set to [swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html).swBF_UserDef
 
 ## VBA Syntax
 
-See
-
-[StackedBalloonOptions::CustomSize](ms-its:sldworksapivb6.chm::/sldworks~StackedBalloonOptions~CustomSize.html)
-
-.
+See [StackedBalloonOptions::CustomSize](ms-its:sldworksapivb6.chm::/sldworks~StackedBalloonOptions~CustomSize.html).
 
 ## Examples
 
-See
-
-[IStackedBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions.html)
-
-examples.
+See [IStackedBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions.html) examples.
 
 ## Remarks
 
@@ -88,7 +66,6 @@ See the SOLIDWORKS Help for additional details about stacked balloons.
 ## See Also
 
 [IStackedBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStackedBalloonOptions.html)
-
 [IStackedBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStackedBalloonOptions_members.html)
 
 ## Availability

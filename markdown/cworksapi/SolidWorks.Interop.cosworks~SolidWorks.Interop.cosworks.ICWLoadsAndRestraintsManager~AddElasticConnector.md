@@ -54,7 +54,7 @@ CWElasticConnector^ AddElasticConnector(
 ### Parameters
 
 - `DispArray`: Array of faces for the elastic support fixture
-- `ErrorCode`: Error as defined in[swsElasticConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsElasticConnectorError_e.html)
+- `ErrorCode`: Error as defined in [swsElasticConnectorError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsElasticConnectorError_e.html)
 
 ### Return Value
 
@@ -62,24 +62,17 @@ CWElasticConnector^ AddElasticConnector(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddElasticConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddElasticConnector.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddElasticConnector](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddElasticConnector.html).
 
 ## Examples
 
 [Add Elastic Support Fixture (VBA)](Add_Elastic_Support_Connector_Example_VB.htm)
-
 [Add Elastic Support Fixture (VB.NET)](Add_Elastic_Support_Connector_Example_VBNET.htm)
-
 [Add Elastic Support Fixture (C#)](Add_Elastic_Support_Connector_Example_CSharp.htm)
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

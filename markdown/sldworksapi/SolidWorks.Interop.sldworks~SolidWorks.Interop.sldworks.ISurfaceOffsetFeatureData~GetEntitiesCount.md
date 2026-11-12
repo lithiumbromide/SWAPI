@@ -40,13 +40,7 @@ System.int GetEntitiesCount()
 System.int GetEntitiesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,30 +48,20 @@ Number of offset surfaces and faces
 
 ## VBA Syntax
 
-See
-
-[SurfaceOffsetFeatureData::GetEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceOffsetFeatureData~GetEntitiesCount.html)
-
-.
+See [SurfaceOffsetFeatureData::GetEntitiesCount](ms-its:sldworksapivb6.chm::/sldworks~SurfaceOffsetFeatureData~GetEntitiesCount.html).
 
 ## Examples
 
 [Get Offset Surface Data (VBA)](Get_Offset_Surface_Data_Example_VB.htm)
-
 [Get Offset Surface Data (VB.NET)](Get_Offset_Surface_Data_Example_VBNET.htm)
-
 [Get Offset Surface Data (C#)](Get_Offset_Surface_Data_Example_CSharp.htm)
 
 ## See Also
 
 [ISurfaceOffsetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData.html)
-
 [ISurfaceOffsetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData_members.html)
-
 [ISurfaceOffsetFeatureData::ISetEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData~ISetEntities.html)
-
 [ISurfaceOffsetFeatureData::Entities Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData~Entities.html)
-
 [ISurfaceOffsetFeatureData::IGetEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceOffsetFeatureData~IGetEntities.html)
 
 ## Availability

@@ -45,34 +45,20 @@ property System.int PatternElement {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of entities to base this curve-driven pattern feature as defined in
-
-[swPatternElementSelection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternElementSelection_e.html)
+Type of entities to base this curve-driven pattern feature as defined in [swPatternElementSelection_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swPatternElementSelection_e.html)
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::PatternElement](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~PatternElement.html)
-
-.
+See [CurveDrivenPatternFeatureData::PatternElement](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~PatternElement.html).
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
-
 [ICurveDrivenPatternFeatureData::BodyPattern Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~BodyPattern.html)
 
 ## Availability

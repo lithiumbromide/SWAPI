@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # PreIntersect Method (IFeatureManager)
 
-Obsolete. Superseded by
-
-[IFeatureManager::PreIntersect2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~PreIntersect2.html)
-
-.
+Obsolete. Superseded by [IFeatureManager::PreIntersect2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~PreIntersect2.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.Object^ PreIntersect(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,38 +55,28 @@ See
 
 ### Return Value
 
-Array of intersect
-
-[bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+Array of intersect [bodies](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::PreIntersect](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~PreIntersect.html)
-
-.
+See [FeatureManager::PreIntersect](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~PreIntersect.html).
 
 ## Examples
 
 [Get Intersect Feature Data (VBA)](Get_Intersect_Feature_Data_Example_VB.htm)
-
 [Get Intersect Feature Data (VB.NET)](Get_Intersect_Feature_Data_Example_VBNET.htm)
-
 [Get Intersect Feature Data (C#)](Get_Intersect_Feature_Data_Example_CSharp.htm)
 
 ## Remarks
 
-Before calling this method, you must select the intersecting[surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html),[solids](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html), or[planes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html)that make up the intersect feature.
+Before calling this method, you must select the intersecting [surfaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurface.html), [solids](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html), or [planes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRefPlane.html) that make up the intersect feature.
 
-After calling this method, call[IFeatureManager::PostIntersect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PostIntersect.html)to create the intersect feature.
+After calling this method, call [IFeatureManager::PostIntersect](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PostIntersect.html) to create the intersect feature.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IIntersectFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData.html)
 
 ## Availability

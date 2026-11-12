@@ -47,40 +47,23 @@ property System.double DropHeight {
 
 ### Property Value
 
-Height of drop (see
-
-Remarks
-
-)
+Height of drop (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWDropTestSetup::DropHeight](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~DropHeight.html)
-
-.
+See [CWDropTestSetup::DropHeight](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDropTestSetup~DropHeight.html).
 
 ## Examples
 
-See the
-
-[ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html)
-
-examples.
+See the [ICWDropTestSetup](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html)
-
-= swsDropType_e.swsDropType_DropHeight.
+This property is valid only if [ICWDropTestSetup::DropType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDropTestSetup~DropType.html) = swsDropType_e.swsDropType_DropHeight.
 
 ## See Also
 
 [ICWDropTestSetup Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup.html)
-
 [ICWDropTestSetup Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDropTestSetup_members.html)
 
 ## Availability

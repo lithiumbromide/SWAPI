@@ -77,16 +77,11 @@ void ShowTooltip(
 
 ## VBA Syntax
 
-See
-
-[SwHtmlInterface::ShowTooltip](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~ShowTooltip.html)
-
-.
+See [SwHtmlInterface::ShowTooltip](ms-its:swhtmlcontrolapivb6.chm::/SWHTMLCONTROLLib~SwHtmlInterface~ShowTooltip.html).
 
 ## See Also
 
 [ISwHtmlInterface Interface](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface.html)
-
 [ISwHtmlInterface Members](SolidWorks.Interop.swhtmlcontrol~SolidWorks.Interop.swhtmlcontrol.ISwHtmlInterface_members.html)
 
 ## Availability

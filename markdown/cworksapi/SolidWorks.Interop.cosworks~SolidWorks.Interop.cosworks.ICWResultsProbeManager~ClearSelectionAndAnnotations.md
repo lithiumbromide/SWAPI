@@ -41,24 +41,15 @@ void ClearSelectionAndAnnotations();
 
 ## VBA Syntax
 
-See
-
-[CWResultsProbeManager::ClearSelectionAndAnnotations](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager~ClearSelectionAndAnnotations.html)
-
-.
+See [CWResultsProbeManager::ClearSelectionAndAnnotations](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResultsProbeManager~ClearSelectionAndAnnotations.html).
 
 ## Examples
 
-See the
-
-[ICWResultsProbeManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
-examples.
+See the [ICWResultsProbeManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html) examples.
 
 ## See Also
 
 [ICWResultsProbeManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager.html)
-
 [ICWResultsProbeManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResultsProbeManager_members.html)
 
 ## Availability

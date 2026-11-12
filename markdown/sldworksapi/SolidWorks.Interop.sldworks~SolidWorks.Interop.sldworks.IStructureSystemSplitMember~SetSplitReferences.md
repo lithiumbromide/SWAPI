@@ -47,21 +47,15 @@ System.bool SetSplitReferences(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `References`: Array of split member references, e.g.:
 
-- Face2
-- IRefPlane
-- Member
+  - Face2
+  - IRefPlane
+  - Member
 
 ### Return Value
 
@@ -69,36 +63,19 @@ True if split member references successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[StructureSystemSplitMember::SetSplitReferences](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemSplitMember~SetSplitReferences.html)
-
-.
+See [StructureSystemSplitMember::SetSplitReferences](ms-its:sldworksapivb6.chm::/sldworks~StructureSystemSplitMember~SetSplitReferences.html).
 
 ## Examples
 
-See the
-
-[IPrimaryMemberPathSegmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html)
-
-examples.
+See the [IPrimaryMemberPathSegmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html) examples.
 
 ## Remarks
 
-This method is valid only if
-
-[IStructureSystemSplitMember::MemberType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember~MemberType.html)
-
-is set to
-
-[swStructureSplitMemberType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureSplitMemberType_e.html)
-
-.swStructureSplitMember_Reference.
+This method is valid only if [IStructureSystemSplitMember::MemberType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember~MemberType.html) is set to [swStructureSplitMemberType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStructureSplitMemberType_e.html).swStructureSplitMember_Reference.
 
 ## See Also
 
 [IStructureSystemSplitMember Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember.html)
-
 [IStructureSystemSplitMember Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructureSystemSplitMember_members.html)
 
 ## Availability

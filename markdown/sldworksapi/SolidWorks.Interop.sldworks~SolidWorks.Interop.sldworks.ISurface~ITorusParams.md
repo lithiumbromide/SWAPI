@@ -42,13 +42,7 @@ property System.double ITorusParams {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,11 +50,7 @@ Array of doubles describing the parameters of a toroidal surface
 
 ## VBA Syntax
 
-See
-
-[Surface::ITorusParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~ITorusParams.html)
-
-.
+See [Surface::ITorusParams](ms-its:sldworksapivb6.chm::/sldworks~Surface~ITorusParams.html).
 
 ## Remarks
 
@@ -78,9 +68,9 @@ axis.y
 
 axis.z
 
-major radius- the distance between the center of torus and the center of revolved circle
+major radius - the distance between the center of torus and the center of revolved circle
 
-minor radius- the radius of the revolved circle
+minor radius - the radius of the revolved circle
 
 NOTES:
 
@@ -94,9 +84,6 @@ NOTES:
 ## See Also
 
 [ISurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
 [ISurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface_members.html)
-
 [ISurface::TorusParams Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~TorusParams.html)
-
 [ISurface::IsTorus Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IsTorus.html)

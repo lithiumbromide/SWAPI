@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHe
 
 # ReverseDirection Property (ICWHeatPower)
 
-Obsolete. Superseded by[ICWHeatPower::ReverseDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~ReverseDirection2.html).
+Obsolete. Superseded by [ICWHeatPower::ReverseDirection2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~ReverseDirection2.html).
 
 ## Syntax
 
@@ -51,18 +51,12 @@ property System.int ReverseDirection {
 
 ## VBA Syntax
 
-See
-
-[CWHeatPower::ReverseDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~ReverseDirection.html)
-
-.
+See [CWHeatPower::ReverseDirection](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWHeatPower~ReverseDirection.html).
 
 ## See Also
 
 [ICWHeatPower Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower.html)
-
 [ICWHeatPower Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower_members.html)
-
 [ICWHeatPower::HPValue Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWHeatPower~HPValue.html)
 
 ## Availability

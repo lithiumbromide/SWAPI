@@ -40,13 +40,7 @@ System.bool IsConverted()
 System.bool IsConverted();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if the active document was converted to the current release uponing opening
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::IsConverted](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IsConverted.html)
-
-.
+See [ModelDocExtension::IsConverted](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~IsConverted.html).
 
 ## Examples
 
@@ -66,20 +56,25 @@ See
 
 Option Explicit
 
-Dim swApp As SldWorks.SldWorks Dim swModel As SldWorks.ModelDoc2 Dim swModelDocExt As SldWorks.ModelDocExtension Dim bool As Boolean
+Dim swApp As SldWorks.SldWorks
+Dim swModel As SldWorks.ModelDoc2
+Dim swModelDocExt As SldWorks.ModelDocExtension
+Dim bool As Boolean
 
 Sub Main()
 
-Set swApp = CreateObject("Sldworks.Application") Set swModel = swApp. ActiveDoc Set swModelDocExt = swModel. Extension Debug.Print "Document converted to current release but not yet saved? " _
+Set swApp = CreateObject("Sldworks.Application")
+Set swModel = swApp.**ActiveDoc**
+Set swModelDocExt = swModel.**Extension**
+Debug.Print "Document converted to current release but not yet saved? " _
 
-& swModelDocExt. IsConverted
+& swModelDocExt.**IsConverted**
 
 End Sub
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
 
 ## Availability

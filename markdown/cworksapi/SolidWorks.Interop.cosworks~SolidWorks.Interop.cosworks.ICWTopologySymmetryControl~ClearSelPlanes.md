@@ -41,22 +41,14 @@ void ClearSelPlanes();
 
 ## VBA Syntax
 
-See
-
-[CWTopologySymmetryControl::ClearSelPlanes](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~ClearSelPlanes.html)
-
-.
+See [CWTopologySymmetryControl::ClearSelPlanes](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologySymmetryControl~ClearSelPlanes.html).
 
 ## See Also
 
 [ICWTopologySymmetryControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl.html)
-
 [ICWTopologySymmetryControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl_members.html)
-
 [ICWTopologySymmetryControl::SelectFirstSymmetryPlane Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~SelectFirstSymmetryPlane.html)
-
 [ICWTopologySymmetryControl::SelectSecondSymmetryPlane Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~SelectSecondSymmetryPlane.html)
-
 [ICWTopologySymmetryControl::SelectThirdSymmetryPlane Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologySymmetryControl~SelectThirdSymmetryPlane.html)
 
 ## Availability

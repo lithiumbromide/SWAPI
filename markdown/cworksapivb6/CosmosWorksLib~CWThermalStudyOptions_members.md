@@ -1,6 +1,5 @@
 ---
-title: "CWThermalStudyOptions Object
-Members"
+title: "CWThermalStudyOptions Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWThermalStudyOptions_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWThermalStudyOptions_members.html"
 ---
 
-# CWThermalStudyOptions Object
-Members
+# CWThermalStudyOptions Object Members
 
 ## Public Properties
 

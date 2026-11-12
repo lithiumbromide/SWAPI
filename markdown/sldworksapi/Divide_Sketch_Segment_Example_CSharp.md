@@ -9,8 +9,7 @@ source: "sldworksapi/Divide_Sketch_Segment_Example_CSharp.htm"
 
 # Divide Sketch Segment Example (C#)
 
-This example shows how to divide a sketch segment into equally spaced sketch
-points.
+This example shows how to divide a sketch segment into equally spaced sketch points.
 
 ```vb
  //----------------------------------------------------------------------------

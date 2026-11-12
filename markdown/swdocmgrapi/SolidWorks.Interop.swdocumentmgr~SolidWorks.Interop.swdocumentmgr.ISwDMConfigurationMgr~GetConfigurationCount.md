@@ -9,11 +9,7 @@ source: "swdocmgrapi/SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocum
 
 # GetConfigurationCount Method (ISwDMConfigurationMgr)
 
-Obsolete. Superseded by
-
-[ISwDMConfigurationMgr2::GetConfigurationCount2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr2~GetConfigurationCount2.html)
-
-.
+Obsolete. Superseded by [ISwDMConfigurationMgr2::GetConfigurationCount2](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr2~GetConfigurationCount2.html).
 
 ## Syntax
 
@@ -50,16 +46,11 @@ Number of configurations
 
 ## VBA Syntax
 
-See
-
-[SwDMConfigurationMgr::GetConfigurationCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfigurationMgr~GetConfigurationCount.html)
-
-.
+See [SwDMConfigurationMgr::GetConfigurationCount](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMConfigurationMgr~GetConfigurationCount.html).
 
 ## See Also
 
 [ISwDMConfigurationMgr Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr.html)
-
 [ISwDMConfigurationMgr Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMConfigurationMgr_members.html)
 
 ## Availability

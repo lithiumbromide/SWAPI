@@ -42,19 +42,11 @@ System.Object^ GetSubFeatures();
 
 ### Return Value
 
-Array of
-
-[ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)
-
-s
+Array of [ISwDMDimXpertFeature](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.ISwDMDimXpertFeature.html)s
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertBestFitPlaneFeature::GetSubFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBestFitPlaneFeature~GetSubFeatures.html)
-
-.
+See [SwDMDimXpertBestFitPlaneFeature::GetSubFeatures](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertBestFitPlaneFeature~GetSubFeatures.html).
 
 ## Examples
 
@@ -63,9 +55,7 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertBestFitPlaneFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBestFitPlaneFeature.html)
-
 [ISwDMDimXpertBestFitPlaneFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBestFitPlaneFeature_members.html)
-
 [ISwDMDimXpertBestFitPlaneFeature::IGetSubFeatures Method](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertBestFitPlaneFeature~IGetSubFeatures.html)
 
 ## Availability

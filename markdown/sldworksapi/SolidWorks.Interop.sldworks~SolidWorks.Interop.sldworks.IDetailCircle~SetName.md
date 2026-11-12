@@ -47,13 +47,7 @@ System.bool SetName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,11 +59,7 @@ True if setting the detail circle name is successful, false if not
 
 ## VBA Syntax
 
-See
-
-[DetailCircle::SetName](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetName.html)
-
-.
+See [DetailCircle::SetName](ms-its:sldworksapivb6.chm::/sldworks~DetailCircle~SetName.html).
 
 ## Remarks
 
@@ -78,9 +68,7 @@ If setting the name of a feature, then the new name must be unique in the Featur
 ## See Also
 
 [IDetailCircle Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle.html)
-
 [IDetailCircle Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle_members.html)
-
 [IDetailCircle::GetName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDetailCircle~GetName.html)
 
 ## Availability

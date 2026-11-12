@@ -51,24 +51,15 @@ Outer diameter
 
 ## VBA Syntax
 
-See
-
-[Covering::OuterDiameter](ms-its:routingapivb6.chm::/SWRoutingLib~Covering~OuterDiameter.html)
-
-.
+See [Covering::OuterDiameter](ms-its:routingapivb6.chm::/SWRoutingLib~Covering~OuterDiameter.html).
 
 ## Examples
 
-See the
-
-[ICovering](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering.html)
-
-examples.
+See the [ICovering](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering.html) examples.
 
 ## See Also
 
 [ICovering Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering.html)
-
 [ICovering Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.ICovering_members.html)
 
 ## Availability

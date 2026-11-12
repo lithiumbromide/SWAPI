@@ -40,13 +40,7 @@ System.bool GetAutomaticUpdate()
 System.bool GetAutomaticUpdate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,19 +48,11 @@ True to automatically update cut lists, false to update them manually
 
 ## VBA Syntax
 
-See
-
-[BodyFolder::GetAutomaticUpdate](ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~GetAutomaticUpdate.html)
-
-.
+See [BodyFolder::GetAutomaticUpdate](ms-its:sldworksapivb6.chm::/sldworks~BodyFolder~GetAutomaticUpdate.html).
 
 ## Examples
 
-See the
-
-[IBodyFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html)
-
-examples.
+See the [IBodyFolder](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html) examples.
 
 ## Remarks
 
@@ -78,7 +64,6 @@ examples.
 ## See Also
 
 [IBodyFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder.html)
-
 [IBodyFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder_members.html)
 
 ## Availability

@@ -63,15 +63,14 @@ To receive notifications, a DLL application must register for the notifications 
 
 For example, in the file in the Visual C++ 6.0 wizard-generated add-in that supports model view events (e.g., DocView.h), include:
 
+```vb
 BEGIN_SINK_MAP(CDocView)
-
 SINK_ENTRY_EX(ID_MODELVIEW_EVENTS, DIID_DModelViewEvents, swViewDestroyNotify, DestroyNotify)
-
 SINK_ENTRY_EX(ID_MODELVIEW_EVENTS, DIID_DModelViewEvents, swViewRepaintNotify, RepaintNotify)
-
 END_SINK_MAP()
+```
 
-If developing a C++ application, use these enumerators to[register for notifications](sldworksapiprogguide.chm::/overview/events.htm)for the[IModelView](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView.html)events.
+If developing a C++ application, use these enumerators to [register for notifications](sldworksapiprogguide.chm::/Overview/events.htm) for the [IModelView](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelView.html) events.
 
 ## See Also
 

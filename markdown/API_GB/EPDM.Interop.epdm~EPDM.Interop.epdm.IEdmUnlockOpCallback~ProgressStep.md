@@ -45,9 +45,7 @@ System.bool ProgressStep(
 
 ### Parameters
 
-- `eType`: Type of progress bar to advance as defined in
-
-[EdmProgressType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType.html)
+- `eType`: Type of progress bar to advance as defined in [EdmProgressType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmProgressType.html)
 - `bsText`: Message that indicates what the operation is doing
 - `lProgressPos`: New position in the progress bar
 
@@ -57,15 +55,11 @@ True to continue the operation, false to cancel it
 
 ## Examples
 
-See the
-
-[IEdmUnlockOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html)
-
-examples.
+See the [IEdmUnlockOpCallback](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html) examples.
 
 ## Remarks
 
-This method or[IEdmUnlockOpCallback::ProgressStepEvent](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressStepEvent.html)is called for each step in an operation that begins with[IEdmUnlockOpCallback::ProgressBegin](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressBegin.html).
+This method or [IEdmUnlockOpCallback::ProgressStepEvent](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressStepEvent.html) is called for each step in an operation that begins with [IEdmUnlockOpCallback::ProgressBegin](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback~ProgressBegin.html).
 
 [Return codes:](ReturnCodes.htm)
 
@@ -74,7 +68,6 @@ This method or[IEdmUnlockOpCallback::ProgressStepEvent](EPDM.Interop.epdm~EPDM.I
 ## See Also
 
 [IEdmUnlockOpCallback Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback.html)
-
 [IEdmUnlockOpCallback Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUnlockOpCallback_members.html)
 
 ## Availability

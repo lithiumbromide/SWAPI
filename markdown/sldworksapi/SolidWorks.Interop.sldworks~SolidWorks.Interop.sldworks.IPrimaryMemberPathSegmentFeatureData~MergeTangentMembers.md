@@ -45,13 +45,7 @@ property System.bool MergeTangentMembers {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ True to merge tangential members, false to not
 
 ## VBA Syntax
 
-See
-
-[PrimaryMemberPathSegmentFeatureData::MergeTangentMembers](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPathSegmentFeatureData~MergeTangentMembers.html)
-
-.
+See [PrimaryMemberPathSegmentFeatureData::MergeTangentMembers](ms-its:sldworksapivb6.chm::/sldworks~PrimaryMemberPathSegmentFeatureData~MergeTangentMembers.html).
 
 ## Examples
 
-See the
-
-[IPrimaryMemberPathSegmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html)
-
-examples.
+See the [IPrimaryMemberPathSegmentFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ This property is valid only when creating the structure system path segment memb
 ## See Also
 
 [IPrimaryMemberPathSegmentFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData.html)
-
 [IPrimaryMemberPathSegmentFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPrimaryMemberPathSegmentFeatureData_members.html)
 
 ## Availability

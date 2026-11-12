@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # GetReverseDirections Method (ICWDynamicInitialCondition)
 
-Obsolete. Superseded by[ICWDynamicInitialCondition::GetReverseDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetReverseDirections2.html).
+Obsolete. Superseded by [ICWDynamicInitialCondition::GetReverseDirections2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetReverseDirections2.html).
 
 ## Syntax
 
@@ -56,32 +56,20 @@ void GetReverseDirections(
 
 ### Parameters
 
-- `BVal1`: 1 if BDir1 of
-
-[ICWDynamicInitialCondition::GetDirections](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetDirections.html)
-
-is reversed, 0 if not
+- `BVal1`: 1 if BDir1 of [ICWDynamicInitialCondition::GetDirections](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetDirections.html) is reversed, 0 if not
 - `BVal2`: 1 if BDir2 of ICWDynamicInitialCondition::GetDirections is reversed, 0 if not
 - `BVal3`: 1 if BDir3 of ICWDynamicInitialCondition::GetDirections is reversed, 0 if not
 
 ## VBA Syntax
 
-See
-
-[CWDynamicInitialCondition::GetReverseDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~GetReverseDirections.html)
-
-.
+See [CWDynamicInitialCondition::GetReverseDirections](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicInitialCondition~GetReverseDirections.html).
 
 ## See Also
 
 [ICWDynamicInitialCondition Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
 [ICWDynamicInitialCondition Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition_members.html)
-
 [ICWDynamicInitialCondition::SetReverseDirections Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetReverseDirections.html)
-
 [ICWDynamicInitialCondition::SetDirectionEntity Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetDirectionEntity.html)
-
 [ICWDynamicInitialCondition::GetValues Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~GetValues.html)
 
 ## Availability

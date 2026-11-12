@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMi
 
 # GetNextFacePair Method (IMidSurface)
 
-Obsolete. Superseded by
-
-[IMidSurface2::GetNextFacePair](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetNextFacePair.html)
-
-.
+Obsolete. Superseded by [IMidSurface2::GetNextFacePair](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMidSurface2~GetNextFacePair.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.Object^ GetNextFacePair(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[MidSurface::GetNextFacePair](ms-its:sldworksapivb6.chm::/sldworks~MidSurface~GetNextFacePair.html)
-
-.
+See [MidSurface::GetNextFacePair](ms-its:sldworksapivb6.chm::/sldworks~MidSurface~GetNextFacePair.html).
 
 ## See Also
 
 [IMidSurface Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface.html)
-
 [IMidSurface Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMidSurface_members.html)

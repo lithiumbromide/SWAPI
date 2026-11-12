@@ -51,17 +51,11 @@ System.int GetSubMenuCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DocType`: Type of document as defined by[swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
+- `DocType`: Type of document as defined by [swDocumentTypes_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDocumentTypes_e.html)
 - `FullMenuName`: Full name of the menu
 
 ### Return Value
@@ -70,36 +64,21 @@ Number of submenus
 
 ## VBA Syntax
 
-See
-
-[Frame::GetSubMenuCount](ms-its:sldworksapivb6.chm::/sldworks~Frame~GetSubMenuCount.html)
-
-.
+See [Frame::GetSubMenuCount](ms-its:sldworksapivb6.chm::/sldworks~Frame~GetSubMenuCount.html).
 
 ## Remarks
 
-Call this method before calling
-
-[IFrame::IGetSubMenus](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFrame~IGetSubMenus.html)
-
-to get the size of the array.
+Call this method before calling [IFrame::IGetSubMenus](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFrame~IGetSubMenus.html) to get the size of the array.
 
 ## See Also
 
 [IFrame Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame.html)
-
 [IFrame Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame_members.html)
-
 [IFrame::GetSubMenus Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~GetSubMenus.html)
-
 [IFrame::RemoveMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~RemoveMenu.html)
-
 [IFrame::RenameMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~RenameMenu.html)
-
 [IFrame::AddMenu Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~AddMenu.html)
-
 [IFrame::AddMenuItem2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~AddMenuItem2.html)
-
 [IFrame::AddMenuPopupItem Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFrame~AddMenuPopupItem.html)
 
 ## Availability

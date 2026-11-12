@@ -40,13 +40,7 @@ System.object GetComponentXform()
 System.Object^ GetComponentXform();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Array of 16 doubles describing the transform of the explode step
 
 ## VBA Syntax
 
-See
-
-[ExplodeStep::GetComponentXform](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetComponentXform.html)
-
-.
+See [ExplodeStep::GetComponentXform](ms-its:sldworksapivb6.chm::/sldworks~ExplodeStep~GetComponentXform.html).
 
 ## See Also
 
 [IExplodeStep Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep.html)
-
 [IExplodeStep Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep_members.html)
-
 [IExplodeStep::IGetComponentXform Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~IGetComponentXform.html)
-
 [IExplodeStep::GetComponents Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetComponents.html)
-
 [IExplodeStep::GetSpecificComponentXForm Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExplodeStep~GetSpecificComponentXForm.html)
 
 ## Availability

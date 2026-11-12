@@ -45,13 +45,7 @@ property System.bool ViewOnly {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to open the assembly in Large Design Review mode, false to not
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::ViewOnly](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~ViewOnly.html)
-
-.
+See [DocumentSpecification::ViewOnly](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~ViewOnly.html).
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
-
 [IConfiguration::LargeDesignReviewMark Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~LargeDesignReviewMark.html)
 
 ## Availability

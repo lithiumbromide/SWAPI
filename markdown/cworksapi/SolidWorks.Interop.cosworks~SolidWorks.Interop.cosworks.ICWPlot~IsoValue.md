@@ -51,24 +51,17 @@ property System.int IsoValue {
 
 ## VBA Syntax
 
-See
-
-[CWPlot::IsoValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~IsoValue.html)
-
-.
+See [CWPlot::IsoValue](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~IsoValue.html).
 
 ## Examples
 
 [Create a Design Insight Plot for a Static Study (VBA)](Create_Design_Insight_Plot_for_Static_Study_Example_VB.htm)
-
 [Create a Design Insight Plot for a Static Study (VB.NET)](Create_Design_Insight_Plot_for_Static_Study_Example_VBNET.htm)
-
 [Create a Design Insight Plot for a Static Study (C#)](Create_Design_Insight_Plot_for_Static_Study_Example_CSharp.htm)
 
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

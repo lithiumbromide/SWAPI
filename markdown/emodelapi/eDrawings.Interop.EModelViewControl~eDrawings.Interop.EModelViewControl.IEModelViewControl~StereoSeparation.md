@@ -51,20 +51,13 @@ Angle of separation between right and left stereo views; default angle = 3.0 deg
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::StereoSeparation](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~StereoSeparation.html)
-
-.
+See [EModelViewControl::StereoSeparation](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~StereoSeparation.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::StereoEnabled Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~StereoEnabled.html)
-
 [IEModelViewControl::StereoFocalLength Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~StereoFocalLength.html)
 
 ## Availability

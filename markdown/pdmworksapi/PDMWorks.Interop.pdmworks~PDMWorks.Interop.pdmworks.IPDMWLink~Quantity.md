@@ -51,16 +51,11 @@ Number of documents associated with this link
 
 ## VBA Syntax
 
-See
-
-[PDMWLink::Quantity](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Quantity.html)
-
-.
+See [PDMWLink::Quantity](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Quantity.html).
 
 ## See Also
 
 [IPDMWLink Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)
-
 [IPDMWLink Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink_members.html)
 
 ## Availability

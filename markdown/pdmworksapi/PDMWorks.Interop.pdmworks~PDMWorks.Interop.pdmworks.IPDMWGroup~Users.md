@@ -44,22 +44,15 @@ property PDMWUsers^ Users {
 
 ### Property Value
 
-[IPDMWUsers](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUsers.html)
-
-collection
+[IPDMWUsers](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUsers.html) collection
 
 ## VBA Syntax
 
-See
-
-[PDMWGroup::Users](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroup~Users.html)
-
-.
+See [PDMWGroup::Users](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroup~Users.html).
 
 ## See Also
 
 [IPDMWGroup Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup.html)
-
 [IPDMWGroup Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup_members.html)
 
 ## Availability

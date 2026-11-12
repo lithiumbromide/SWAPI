@@ -9,8 +9,7 @@ source: "sldworksapi/Activate_Feature_Example_VB.htm"
 
 # Activate Feature Example (VBA)
 
-This example shows how to show the dimensions of the selected feature by
-activating the feature.
+This example shows how to show the dimensions of the selected feature by activating the feature.
 
 ```
 '---------------------------------------------

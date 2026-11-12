@@ -40,13 +40,7 @@ System.bool GetSaveFlag()
 System.bool GetSaveFlag();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ True if this document needs to be saved, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::GetSaveFlag](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetSaveFlag.html)
-
-.
+See [ModelDoc2::GetSaveFlag](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~GetSaveFlag.html).
 
 ## Examples
 
@@ -68,29 +58,18 @@ See
 
 This flag:
 
-- determines if the
-
-  Do you wish to save changes?
-
-  dialog is displayed when the user tries to close the document. Many operations cause this flag to be set, and you can use
-
-  [IModelDoc2::SetSaveFlag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetSaveFlag.html)
-
-  to set this flag.
+- determines if the Do you wish to save changes? dialog is displayed when the user tries to close the document. Many operations cause this flag to be set, and you can use [IModelDoc2::SetSaveFlag](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SetSaveFlag.html) to set this flag.
 - is set to true if the document was created in an older version of SOLIDWORKS.
 - is set to true for assemblies only when a subassembly has been saved. If this flag is set to true for a subassembly, then the assembly is not marked as dirty until the subassembly is saved.
 - is reset to false after an end-user has saved the file.
 
-NOTE:This method returns true if the model is opened read-only, the system optionDon't prompt to save read-only referenced documentsis not selected, and the model is dirty and visible.
+NOTE: This method returns true if the model is opened read-only, the system option Don't prompt to save read-only referenced documents is not selected, and the model is dirty and visible.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SetSaveFlag Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SetSaveFlag.html)
-
 [IConfiguration::IsDirty Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IsDirty.html)
 
 ## Availability

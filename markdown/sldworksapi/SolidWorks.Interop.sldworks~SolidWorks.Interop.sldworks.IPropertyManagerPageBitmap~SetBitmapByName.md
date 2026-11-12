@@ -51,13 +51,7 @@ System.bool SetBitmapByName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,11 +64,7 @@ True if the bitmap is set for this control, false if not
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageBitmap::SetBitmapByName](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageBitmap~SetBitmapByName.html)
-
-.
+See [PropertyManagerPageBitmap::SetBitmapByName](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageBitmap~SetBitmapByName.html).
 
 ## Remarks
 
@@ -82,14 +72,13 @@ If you are creating a PropertyManager page add-in and ColorBitmap is either inva
 
 The typical image format for the two SOLIDWORKS bitmaps is 18 x 18 pixels x 256 colors. Using this method, you can specify a bigger bitmap, e.g., 24 x 24 pixels, to get extra detail. The pixels in MaskBitmap specify transparency through shades of grey with boundaries of black pixels = 100% opaque and white pixels = 100% transparent.
 
-Use[IPropertyManagerPageControl::Top](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageControl~Top.html)to set the top of the control and use[IPropertyManagerPageControl::Tip](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageControl~Tip.html)to set the ToolTip.
+Use [IPropertyManagerPageControl::Top](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageControl~Top.html) to set the top of the control and use [IPropertyManagerPageControl::Tip](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPageControl~Tip.html) to set the ToolTip.
 
 You can use this method before, during, or after the PropertyManager page is displayed or closed. If you use this method when the PropertyManager page is displayed, use bitmaps that are the same size.
 
 ## See Also
 
 [IPropertyManagerPageBitmap Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmap.html)
-
 [IPropertyManagerPageBitmap Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageBitmap_members.html)
 
 ## Availability

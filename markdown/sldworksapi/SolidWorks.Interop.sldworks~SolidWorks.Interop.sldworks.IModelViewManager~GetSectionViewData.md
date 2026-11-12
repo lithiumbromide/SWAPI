@@ -47,13 +47,7 @@ SectionViewData^ GetSectionViewData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelViewManager::GetSectionViewData](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~GetSectionViewData.html)
-
-.
+See [ModelViewManager::GetSectionViewData](ms-its:sldworksapivb6.chm::/sldworks~ModelViewManager~GetSectionViewData.html).
 
 ## Examples
 
 [Get Section View Data (C#)](Get_Section_View_Data_Example_CSharp.htm)
-
 [Get Section View Data (VB.NET)](Get_Section_View_Data_Example_VBNET.htm)
-
 [Get Section View Data (VBA)](Get_Section_View_Data_Example_VB.htm)
 
 ## Remarks
@@ -86,13 +74,9 @@ If the specified string refers to a non-existent section view or a view that is 
 ## See Also
 
 [IModelViewManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager.html)
-
 [IModelViewManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager_members.html)
-
 [IModelViewManager::CreateSectionView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager~CreateSectionView.html)
-
 [IModelViewManager::CreateSectionViewData Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager~CreateSectionViewData.html)
-
 [IModelViewManager::RemoveSectionView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelViewManager~RemoveSectionView.html)
 
 ## Availability

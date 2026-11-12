@@ -47,42 +47,24 @@ MathTransform^ GetDynamicCenterTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Section (see
-
-Remarks
-
-)
+- `Index`: Section (see **Remarks**)
 
 ### Return Value
 
-[Translation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
-between the center of the model and the plane in the section specified for Index
+[Translation](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html) between the center of the model and the plane in the section specified for Index
 
 ## VBA Syntax
 
-See
-
-[SectionViewData::GetDynamicCenterTransform](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~GetDynamicCenterTransform.html)
-
-.
+See [SectionViewData::GetDynamicCenterTransform](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~GetDynamicCenterTransform.html).
 
 ## Examples
 
 [Get Section View Data (C#)](Get_Section_View_Data_Example_CSharp.htm)
-
 [Get Section View Data (VB.NET)](Get_Section_View_Data_Example_VBNET.htm)
-
 [Get Section View Data (VBA)](Get_Section_View_Data_Example_VB.htm)
 
 ## Remarks
@@ -98,7 +80,6 @@ If the section view contains only one section and you specify 1 for Index, then 
 ## See Also
 
 [ISectionViewData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html)
-
 [ISectionViewData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData_members.html)
 
 ## Availability

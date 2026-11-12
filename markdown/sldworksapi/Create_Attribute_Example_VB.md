@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Attribute_Example_VB.htm"
 
 # Create Attribute Example (VBA)
 
-This example shows how to create an instance of attribute and display
-that attribute in the FeatureManager design tree.
+This example shows how to create an instance of attribute and display that attribute in the FeatureManager design tree.
 
 ```
 '-------------------------------------------------------------

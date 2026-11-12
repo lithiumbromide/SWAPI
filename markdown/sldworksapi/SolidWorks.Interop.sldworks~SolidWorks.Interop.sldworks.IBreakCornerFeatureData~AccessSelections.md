@@ -51,13 +51,7 @@ System.bool AccessSelections(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,18 +64,12 @@ True if the selections were successfully accessed, false if not
 
 ## VBA Syntax
 
-See
-
-[BreakCornerFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~BreakCornerFeatureData~AccessSelections.html)
-
-.
+See [BreakCornerFeatureData::AccessSelections](ms-its:sldworksapivb6.chm::/sldworks~BreakCornerFeatureData~AccessSelections.html).
 
 ## Examples
 
 [Modify Break Corner Feature (C#)](Modify_Break_Corner_Feature_Example_CSharp.htm)
-
 [Modify Break Corner Feature (VB.NET)](Modify_Break_Corner_Feature_Example_VBNET.htm)
-
 [Modify Break Corner Feature (VBA)](Modify_Break_Corner_Feature_Example_VB.htm)
 
 ## Remarks
@@ -93,17 +81,13 @@ See
 
 This method puts the model into a rollback state to allow access to the selections that define this feature. You must use either of the following methods to restore the rollback state:
 
-- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html)
-
-  if you modified the feature
-- [IBreakCornerFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBreakCornerFeatureData~ReleaseSelectionAccess.html)if you did not
+- [IFeature::ModifyDefinition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~ModifyDefinition.html) if you modified the feature
+- [IBreakCornerFeatureData::ReleaseSelectionAccess](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBreakCornerFeatureData~ReleaseSelectionAccess.html) if you did not
 
 ## See Also
 
 [IBreakCornerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData.html)
-
 [IBreakCornerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData_members.html)
-
 [IBreakCornerFeatureData::IAccessSelections Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBreakCornerFeatureData~IAccessSelections.html)
 
 ## Availability

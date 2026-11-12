@@ -43,13 +43,7 @@ public delegate System.int DPartDocEvents_DragStateChangeNotifyEventHandler(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -57,27 +51,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[DragStateChangeNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~DragStateChangeNotify_EV.html)
-
-.
+See [DragStateChangeNotify Event (PartDoc)](ms-its:sldworksapivb6.chm::/SldWorks~PartDoc~DragStateChangeNotify_EV.html).
 
 ## Examples
 
 [Fire Events When Dragging Instant3D Manipulator in a Part (C#)](Fire_Events_When_Dragging_Instant3D_Manipulator_in_a_Part_Example_CSharp.htm)
-
 [Fire Events When Dragging Instant3D Manipulator in a Part (VB.NET)](Fire_Events_When_Dragging_Instant3D_Manipulator_in_a_Part_Example_VBNET.htm)
-
 [Fire Events When Dragging Instant3D Manipulator in a Part (VBA)](Fire_Events_When_Dragging_Instant3D_Manipulator_in_a_Part_Example_VB.htm)
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swPartDragStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swPartDragStateChangeNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartNotify_e.html) to register for this notification.
 
 ## Availability
 

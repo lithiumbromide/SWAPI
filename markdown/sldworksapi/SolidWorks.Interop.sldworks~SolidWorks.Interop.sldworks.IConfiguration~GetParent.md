@@ -40,13 +40,7 @@ Configuration GetParent()
 Configuration^ GetParent();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,40 +48,25 @@ Parent configuration of this derived configuration
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetParent](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetParent.html)
-
-.
+See [Configuration::GetParent](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetParent.html).
 
 ## Examples
 
 [Change Configuration Properties (VBA)](Change_Configuration_Properties_Example_VB.htm)
-
 [Traverse Hierarchy of Configurations (VBA)](Traverse_Hierarchy_of_Configurations_Example_VB.htm)
-
 [Work with Configurations (VBA)](Work_with_Configurations_Example_VB.htm)
 
 ## Remarks
 
-To determine if this configuration is derived, call
-
-[IConfiguration::IsDerived](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~IsDerived.html)
-
-.
+To determine if this configuration is derived, call [IConfiguration::IsDerived](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IConfiguration~IsDerived.html).
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::GetChildren Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetChildren.html)
-
 [IConfiguration::GetChildrenCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetChildrenCount.html)
-
 [IConfiguration::IGetChildren Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~IGetChildren.html)
-
 [IConfigurationt::GetRootComponent3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetRootComponent3.html)
 
 ## Availability

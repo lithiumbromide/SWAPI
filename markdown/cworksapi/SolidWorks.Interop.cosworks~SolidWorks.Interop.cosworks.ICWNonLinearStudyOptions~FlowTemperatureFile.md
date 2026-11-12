@@ -47,28 +47,19 @@ property System.String^ FlowTemperatureFile {
 
 ### Property Value
 
-Full path name of a SOLIDWORKS Flow Simulation result file (
-
-*.fld
-
-)
+Full path name of a SOLIDWORKS Flow Simulation result file (***.fld**)
 
 ## VBA Syntax
 
-See
-
-[CWNonLinearStudyOptions::FlowTemperatureFile](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~FlowTemperatureFile.html)
-
-.
+See [CWNonLinearStudyOptions::FlowTemperatureFile](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWNonLinearStudyOptions~FlowTemperatureFile.html).
 
 ## Remarks
 
-This property is valid only if[ICWNonLinearStudyOptions::ThermalResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ThermalResults.html)is set to[swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html).swsThermalOption_TemperatureFromFlow.
+This property is valid only if [ICWNonLinearStudyOptions::ThermalResults](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions~ThermalResults.html) is set to [swsThermalOption_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsThermalOption_e.html).swsThermalOption_TemperatureFromFlow.
 
 ## See Also
 
 [ICWNonLinearStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
 [ICWNonLinearStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions_members.html)
 
 ## Availability

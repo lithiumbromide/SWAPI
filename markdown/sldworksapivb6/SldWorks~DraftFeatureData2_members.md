@@ -1,6 +1,5 @@
 ---
-title: "DraftFeatureData2 Object
-Members"
+title: "DraftFeatureData2 Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DraftFeatureData2_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DraftFeatureData2_members.html"
 ---
 
-# DraftFeatureData2 Object
-Members
+# DraftFeatureData2 Object Members
 
 ## Public Methods
 

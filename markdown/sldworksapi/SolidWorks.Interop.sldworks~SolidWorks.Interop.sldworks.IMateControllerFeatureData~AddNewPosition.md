@@ -47,13 +47,7 @@ System.bool AddNewPosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ True if mate position successfully created, false if not
 
 ## VBA Syntax
 
-See
-
-[MateControllerFeatureData::AddNewPosition](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~AddNewPosition.html)
-
-.
+See [MateControllerFeatureData::AddNewPosition](ms-its:sldworksapivb6.chm::/sldworks~MateControllerFeatureData~AddNewPosition.html).
 
 ## Examples
 
-See the
-
-[IMateControllerFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
-examples.
+See the [IMateControllerFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html) examples.
 
 ## See Also
 
 [IMateControllerFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData.html)
-
 [IMateControllerFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMateControllerFeatureData_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IDisplayData Interface Methods
 
-For a list of all members of this type, see[IDisplayData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html).
+For a list of all members of this type, see [IDisplayData members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html).
 
 ## Public Methods
 
@@ -76,5 +76,4 @@ For a list of all members of this type, see[IDisplayData members](SolidWorks.Int
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

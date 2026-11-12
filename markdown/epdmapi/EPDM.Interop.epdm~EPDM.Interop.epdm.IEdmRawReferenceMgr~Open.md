@@ -47,11 +47,7 @@ True if the file's format supports file references, false if not
 
 ## Examples
 
-See the
-
-[IEdmRawReferenceMgr](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr.html)
-
-examples.
+See the [IEdmRawReferenceMgr](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr.html) examples.
 
 ## Remarks
 
@@ -65,7 +61,6 @@ You must call this method before you call any of the other methods in this inter
 ## See Also
 
 [IEdmRawReferenceMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr.html)
-
 [IEdmRawReferenceMgr Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr_members.html)
 
 ## Availability

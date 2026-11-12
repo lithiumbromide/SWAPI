@@ -56,34 +56,17 @@ void SetDirections2(
 
 ### Parameters
 
-- `BDir1`: -1 or true to set this initial condition along direction 1 (if direction reference is a plane or face) or in a radial direction (if direction reference is a cylindrical face or axis), 0 or false to not (see
-
-Remarks
-
-)
-- `BDir2`: -1 or true to set this initial condition along direction 2 (if direction reference is a plane or face) or in a circumferential direction (if direction reference is a cylindrical face or axis), 0 or false to not (see
-
-Remarks
-
-)
-- `BDir3`: -1 or true to set this initial condition along the normal (if direction reference is a plane or face), or in an axial direction (if direction reference is a cylindrical face or axis), or along an edge (if direction reference is an edge); 0 or false to not (see
-
-Remarks
-
-)
+- `BDir1`: -1 or true to set this initial condition along direction 1 (if direction reference is a plane or face) or in a radial direction (if direction reference is a cylindrical face or axis), 0 or false to not (see **Remarks**)
+- `BDir2`: -1 or true to set this initial condition along direction 2 (if direction reference is a plane or face) or in a circumferential direction (if direction reference is a cylindrical face or axis), 0 or false to not (see **Remarks**)
+- `BDir3`: -1 or true to set this initial condition along the normal (if direction reference is a plane or face), or in an axial direction (if direction reference is a cylindrical face or axis), or along an edge (if direction reference is an edge); 0 or false to not (see **Remarks**)
 
 ## Remarks
 
-Call
-
-[ICWDynamicInitialCondition::SetDirectionEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetDirectionEntity.html)
-
-to set the direction reference for this initial condition.
+Call [ICWDynamicInitialCondition::SetDirectionEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition~SetDirectionEntity.html) to set the direction reference for this initial condition.
 
 ## See Also
 
 [ICWDynamicInitialCondition Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition.html)
-
 [ICWDynamicInitialCondition Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicInitialCondition_members.html)
 
 ## Availability

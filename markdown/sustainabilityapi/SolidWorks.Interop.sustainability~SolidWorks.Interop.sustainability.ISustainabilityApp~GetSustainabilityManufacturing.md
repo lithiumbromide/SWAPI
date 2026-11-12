@@ -46,11 +46,7 @@ SustainabilityManufacturing^ GetSustainabilityManufacturing();
 
 ## VBA Syntax
 
-See
-
-[SustainabilityApp::GetSustainabilityManufacturing](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~sustainabilityApp~GetSustainabilityManufacturing.html)
-
-.
+See [SustainabilityApp::GetSustainabilityManufacturing](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~sustainabilityApp~GetSustainabilityManufacturing.html).
 
 ## Examples
 
@@ -59,7 +55,6 @@ See
 ## See Also
 
 [ISustainabilityApp Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp.html)
-
 [ISustainabilityApp Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp_members.html)
 
 ## Availability

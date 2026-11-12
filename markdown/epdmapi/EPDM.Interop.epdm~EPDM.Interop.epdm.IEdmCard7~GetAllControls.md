@@ -39,22 +39,15 @@ void GetAllControls(
 
 ### Parameters
 
-- `ppControlsList`: Array of
-
-[IEdmCardControl5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5.html)
+- `ppControlsList`: Array of [IEdmCardControl5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCardControl5.html)
 
 ## Examples
 
-See the
-
-[IEdmCard7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard7.html)
-
-example.
+See the [IEdmCard7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard7.html) example.
 
 ## See Also
 
 [IEdmCard7 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard7.html)
-
 [IEdmCard7 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCard7_members.html)
 
 ## Availability

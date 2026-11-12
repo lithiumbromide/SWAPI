@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRa
 
 # IRayTraceRendererOptions Interface Members
 
-The following tables list the members exposed by[IRayTraceRendererOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html).
+The following tables list the members exposed by [IRayTraceRendererOptions](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html).
 
 ## Public Properties
 
@@ -64,5 +64,4 @@ The following tables list the members exposed by[IRayTraceRendererOptions](Solid
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

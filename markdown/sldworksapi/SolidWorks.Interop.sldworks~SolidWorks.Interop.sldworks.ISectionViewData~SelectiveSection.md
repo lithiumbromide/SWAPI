@@ -45,32 +45,20 @@ property System.bool SelectiveSection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True if selective sectioning is enabled, false if not (see**Remarks**)
+True if selective sectioning is enabled, false if not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SectionViewData::SelectiveSection](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~SelectiveSection.html)
-
-.
+See [SectionViewData::SelectiveSection](ms-its:sldworksapivb6.chm::/sldworks~SectionViewData~SelectiveSection.html).
 
 ## Examples
 
 [Selectively and Transparently Section a Section View (C#)](Selectively_and_Transparently_Section_a_Section_View_Example_CSharp.htm)
-
 [Selectively and Transparently Section a Section View (VB.NET)](Selectively_and_Transparently_Section_a_Section_View_Example_VBNET.htm)
-
 [Selectively and Transparently Section a Section View (VBA)](Selectively_and_Transparently_Section_a_Section_View_Example_VB.htm)
 
 ## Remarks
@@ -83,9 +71,7 @@ See
 ## See Also
 
 [ISectionViewData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData.html)
-
 [ISectionViewData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData_members.html)
-
 [ISectionViewData::TransparentSection Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISectionViewData~TransparentSection.html)
 
 ## Availability

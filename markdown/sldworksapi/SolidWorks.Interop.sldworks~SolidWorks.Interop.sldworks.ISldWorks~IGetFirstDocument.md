@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # IGetFirstDocument Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::IGetFirstDocument2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetFirstDocument2.html)
-
-.
+Obsolete. Superseded by [ISldWorks::IGetFirstDocument2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~IGetFirstDocument2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ ModelDoc IGetFirstDocument()
 ModelDoc^ IGetFirstDocument();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IGetFirstDocument](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetFirstDocument.html)
-
-.
+See [SldWorks::IGetFirstDocument](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetFirstDocument.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

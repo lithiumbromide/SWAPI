@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISu
 
 Allows access to a surface-flatten feature.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,18 +41,12 @@ public interface class ISurfaceFlattenFeatureData
 
 ## VBA Syntax
 
-See
-
-[SurfaceFlattenFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SurfaceFlattenFeatureData.html)
-
-.
+See [SurfaceFlattenFeatureData](ms-its:sldworksapivb6.chm::/sldworks~SurfaceFlattenFeatureData.html).
 
 ## Examples
 
 [Get Data for Surface-flatten Feature (VBA)](Get_Data_for_Surface_Flatten_Feature_Example_VB.htm)
-
 [Get Data for Surface-flatten Feature (VB.NET)](Get_Data_for_Surface_Flatten_Feature_Example_VBNET.htm)
-
 [Get Data for Surface-flatten Feature (C#)](Get_Data_for_Surface_Flatten_Feature_Example_CSharp.htm)
 
 ## Accessors
@@ -66,7 +60,5 @@ See
 ## See Also
 
 [ISurfaceFlattenFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IFeatureManager::InsertFlattenSurface Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertFlattenSurface.html)

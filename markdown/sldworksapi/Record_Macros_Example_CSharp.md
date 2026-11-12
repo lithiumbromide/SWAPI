@@ -9,8 +9,7 @@ source: "sldworksapi/Record_Macros_Example_CSharp.htm"
 
 # Record Macros Example (C#)
 
-This example shows how to add
-two lines to a macro recording.
+This example shows how to add two lines to a macro recording.
 
 ```vb
 //---------------------------------------------------------------------------

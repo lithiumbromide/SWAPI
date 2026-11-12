@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo~mpoObject.html
 
 # mpoObject Field
 
-Type of object to return in
-
-[mpoObject](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo~mpoObject.html)
-
-.
+Type of object to return in [mpoObject](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo~mpoObject.html).
 
 ## Syntax
 
@@ -38,16 +34,11 @@ IEdmObject5^ mpoObject
 
 ## Examples
 
-See the
-
-[EdmObjectInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo.html)
-
-examples.
+See the [EdmObjectInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo.html) examples.
 
 ## Requirements
 
 ## See Also
 
 [EdmObjectInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo.html)
-
 [EdmObjectInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmObjectInfo_members.html)

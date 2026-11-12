@@ -1,6 +1,5 @@
 ---
-title: "SimulationMotorFeatureData Object
-Members"
+title: "SimulationMotorFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SimulationMotorFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SimulationMotorFeatureData_members.html"
 ---
 
-# SimulationMotorFeatureData Object
-Members
+# SimulationMotorFeatureData Object Members
 
 ## Public Methods
 

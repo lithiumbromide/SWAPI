@@ -45,13 +45,7 @@ property System.Object^ PulleyComponents {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,36 +53,19 @@ Array of pulley members, e.g., cylindrical faces, axes, wheels, gears
 
 ## VBA Syntax
 
-See
-
-[BeltChainFeatureData::PulleyComponents](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~PulleyComponents.html)
-
-.
+See [BeltChainFeatureData::PulleyComponents](ms-its:sldworksapivb6.chm::/sldworks~BeltChainFeatureData~PulleyComponents.html).
 
 ## Examples
 
-See the
-
-[IBeltChainFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
-examples.
+See the [IBeltChainFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html) examples.
 
 ## Remarks
 
-The array maps one-to-one with the arrays of
-
-[IBeltChainFeatureData::FlipSides](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~FlipSides.html)
-
-and
-
-[IBeltChainFeatureData::PulleyDiameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~PulleyDiameters.html)
-
-.
+The array maps one-to-one with the arrays of [IBeltChainFeatureData::FlipSides](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~FlipSides.html) and [IBeltChainFeatureData::PulleyDiameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~PulleyDiameters.html).
 
 ## See Also
 
 [IBeltChainFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData.html)
-
 [IBeltChainFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData_members.html)
 
 ## Availability

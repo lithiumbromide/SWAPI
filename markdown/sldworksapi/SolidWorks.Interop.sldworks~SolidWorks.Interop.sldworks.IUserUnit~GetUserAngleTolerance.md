@@ -40,13 +40,7 @@ System.double GetUserAngleTolerance()
 System.double GetUserAngleTolerance();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,15 @@ Value of the angle tolerance
 
 ## VBA Syntax
 
-See
-
-[UserUnit::GetUserAngleTolerance](ms-its:sldworksapivb6.chm::/sldworks~UserUnit~GetUserAngleTolerance.html)
-
-.
+See [UserUnit::GetUserAngleTolerance](ms-its:sldworksapivb6.chm::/sldworks~UserUnit~GetUserAngleTolerance.html).
 
 ## Examples
 
-See the
-
-[IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
-examples.
+See the [IUserUnit](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html) examples.
 
 ## See Also
 
 [IUserUnit Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit.html)
-
 [IUserUnit Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUserUnit_members.html)
 
 ## Availability

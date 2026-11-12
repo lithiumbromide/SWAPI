@@ -45,34 +45,20 @@ property System.Object^ AngleReference {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Reference
-
-[face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
+Reference [face](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
 
 ## VBA Syntax
 
-See
-
-[EdgeFlangeFeatureData::AngleReference](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~AngleReference.html)
-
-.
+See [EdgeFlangeFeatureData::AngleReference](ms-its:sldworksapivb6.chm::/sldworks~EdgeFlangeFeatureData~AngleReference.html).
 
 ## See Also
 
 [IEdgeFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData.html)
-
 [IEdgeFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData_members.html)
-
 [IEdgeFlangeFeatureData::PerpendicularToFace Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdgeFlangeFeatureData~PerpendicularToFace.html)
 
 ## Availability

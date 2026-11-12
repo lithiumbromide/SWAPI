@@ -48,20 +48,13 @@ Number of documents in this project
 
 ## VBA Syntax
 
-See
-
-[PDMWProject::DocumentCount](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~DocumentCount.html)
-
-.
+See [PDMWProject::DocumentCount](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~DocumentCount.html).
 
 ## See Also
 
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
 [IPDMWProject Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject_members.html)
-
 [IPDMWProject::DocumentList Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~DocumentList.html)
-
 [IDPMWProject::Documents Property](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~Documents.html)
 
 ## Availability

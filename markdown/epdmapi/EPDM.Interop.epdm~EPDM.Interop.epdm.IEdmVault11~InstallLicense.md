@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11~InstallLicense.
 
 # InstallLicense Method (IEdmVault11)
 
-Obsolete. Replaced by
-
-[IEdmVault14::InstallLicense2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault14~InstallLicense2.html)
-
-.
+Obsolete. Replaced by [IEdmVault14::InstallLicense2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault14~InstallLicense2.html).
 
 ## Syntax
 
@@ -59,7 +55,7 @@ void InstallLicense(
 
 ## Remarks
 
-In SOLIDWORKS PDM Professional 2014 and earlier, licenses were shared among all vaults that were in the same SQL Server instance. Because licenses are shared among all vaults that use the same SolidNetwork License Server (SNL) in SOLIDWORKS PDM Professional 2015 SP0 and later, this method is obsolete and replaced by[IEdmVault14::InstallLicense2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault14~InstallLicense2.html).
+In SOLIDWORKS PDM Professional 2014 and earlier, licenses were shared among all vaults that were in the same SQL Server instance. Because licenses are shared among all vaults that use the same SolidNetwork License Server (SNL) in SOLIDWORKS PDM Professional 2015 SP0 and later, this method is obsolete and replaced by [IEdmVault14::InstallLicense2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault14~InstallLicense2.html).
 
 [Return codes:](ReturnCodes.htm)
 
@@ -68,7 +64,6 @@ In SOLIDWORKS PDM Professional 2014 and earlier, licenses were shared among all 
 ## See Also
 
 [IEdmVault11 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11.html)
-
 [IEdmVault11 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault11_members.html)
 
 ## Availability

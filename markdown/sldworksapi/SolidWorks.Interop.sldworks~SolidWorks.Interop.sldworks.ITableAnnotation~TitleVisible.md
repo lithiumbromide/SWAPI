@@ -45,13 +45,7 @@ property System.bool TitleVisible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True if title of the table is visible, false if not
 
 ## VBA Syntax
 
-See
-
-[TableAnnotation::TitleVisible](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~TitleVisible.html)
-
-.
+See [TableAnnotation::TitleVisible](ms-its:sldworksapivb6.chm::/sldworks~TableAnnotation~TitleVisible.html).
 
 ## See Also
 
 [ITableAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation.html)
-
 [ITableAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation_members.html)
-
 [ITableAnnotation::Title Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITableAnnotation~Title.html)
 
 ## Availability

@@ -51,20 +51,13 @@ True to define a symmetric bolt, false to not
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::IncludeSymmetricalBolt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~IncludeSymmetricalBolt.html)
-
-.
+See [CWBoltConnector::IncludeSymmetricalBolt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~IncludeSymmetricalBolt.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::InsertReferenceGeometry Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~InsertReferenceGeometry.html)
-
 [ICWBoltConnector::SymmetricalBoltType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~SymmetricalBoltType.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAd
 
 # AddItem Method (IAdvancedSelectionCriteria)
 
-Obsolete. Superseded by
-
-[IAdvancedSelectionCriteria::AddItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~AddItem2.html)
-
-.
+Obsolete. Superseded by [IAdvancedSelectionCriteria::AddItem2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria~AddItem2.html).
 
 ## Syntax
 
@@ -63,20 +59,12 @@ System.int AddItem(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Property`: Name of property
-- `Condition`: Condition as defined in
-
-[swAdvSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAdvSelectType_e.html)
+- `Condition`: Condition as defined in [swAdvSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAdvSelectType_e.html)
 - `Value`: Text of the value
 - `IsAnd`: True if all of the criteria in the advanced component selection list must be met, false if only this criteria in the advanced component selection list must be met
 
@@ -86,24 +74,17 @@ Index number of the newly added criteria in the advanced component selection lis
 
 ## VBA Syntax
 
-See
-
-[AdvancedSelectionCriteria::AddItem](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~AddItem.html)
-
-.
+See [AdvancedSelectionCriteria::AddItem](ms-its:sldworksapivb6.chm::/sldworks~AdvancedSelectionCriteria~AddItem.html).
 
 ## Examples
 
 [Use Advanced Component Selection (VBA)](Use_Advanced_Component_Selection_Example_VB.htm)
-
 [Use Advanced Component Selection (VB.NET)](Use_Advanced_Component_Selection_Example_VBNET.htm)
-
 [Use Advanced Component Selection (C#)](Use_Advanced_Component_Selection_Example_CSharp.htm)
 
 ## See Also
 
 [IAdvancedSelectionCriteria Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria.html)
-
 [IAdvancedSelectionCriteria Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAdvancedSelectionCriteria_members.html)
 
 ## Availability

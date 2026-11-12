@@ -42,45 +42,45 @@ Imports System.Diagnostics
 
 Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public Sub main()
+    Public Sub main()
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModel As ModelDoc2
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swModelDocExt As ModelDocExtension
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swDrawing As DrawingDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swView As View
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim swProjectionArrow As ProjectionArrow
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim typeDrawingView As Integer
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Dim boolstatus As Boolean
+        Dim swModel As ModelDoc2
+        Dim swModelDocExt As ModelDocExtension
+        Dim swDrawing As DrawingDoc
+        Dim swView As View
+        Dim swProjectionArrow As ProjectionArrow
+        Dim typeDrawingView As Integer
+        Dim boolstatus As Boolean
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModel = swApp.ActiveDoc
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swDrawing = swModel
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swModelDocExt = swModel.Extension
+        swModel = swApp.ActiveDoc
+        swDrawing = swModel
+        swModelDocExt = swModel.Extension
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swDrawing.ActivateView("Drawing View2")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}boolstatus = swModelDocExt.SelectByID2("Drawing View2", "DRAWINGVIEW", 0.4426278247583, 0.3837831481976, 0, False, 0, Nothing, 0)
+        boolstatus = swDrawing.ActivateView("Drawing View2")
+        boolstatus = swModelDocExt.SelectByID2("Drawing View2", "DRAWINGVIEW", 0.4426278247583, 0.3837831481976, 0, False, 0, Nothing, 0)
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swView = swDrawing.ActiveDrawingView
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}typeDrawingView = swView.Type
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If typeDrawingView = 4 Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Type of selected drawing view is projected.")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Else
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Type of selected drawing view is not projected. Exiting macro.")
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Exit Sub
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
+        swView = swDrawing.ActiveDrawingView
+        typeDrawingView = swView.Type
+        If typeDrawingView = 4 Then
+            Debug.Print("Type of selected drawing view is projected.")
+        Else
+            Debug.Print("Type of selected drawing view is not projected. Exiting macro.")
+            Exit Sub
+        End If
 
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}swProjectionArrow = swView.GetProjectionArrow
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}If Not swProjectionArrow Is Nothing Then
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("Projection arrow visible: " & swProjectionArrow.Visible)
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}Else
-kadov_tag{{<spaces>}}            kadov_tag{{</spaces>}}Debug.Print("No projection arrow in projected view.")
-kadov_tag{{<spaces>}}        kadov_tag{{</spaces>}}End If
+        swProjectionArrow = swView.GetProjectionArrow
+        If Not swProjectionArrow Is Nothing Then
+            Debug.Print("Projection arrow visible: " & swProjectionArrow.Visible)
+        Else
+            Debug.Print("No projection arrow in projected view.")
+        End If
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}End Sub
+    End Sub
 
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' <summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' The SldWorks swApp variable is pre-assigned for you.
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}''' </summary>
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Public swApp As SldWorks
+    ''' <summary>
+    ''' The SldWorks swApp variable is pre-assigned for you.
+    ''' </summary>
+    Public swApp As SldWorks
 
 End Class
 ```

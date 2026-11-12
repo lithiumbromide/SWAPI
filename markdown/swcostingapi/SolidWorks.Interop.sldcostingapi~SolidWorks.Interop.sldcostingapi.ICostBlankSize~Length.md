@@ -51,24 +51,16 @@ Length of a custom blank of a sheet metal part
 
 ## VBA Syntax
 
-See
-
-[CostBlankSize::Length](swcostingapivb6.chm::/SldCostingAPI~CostBlankSize~Length.html)
-
-.
+See [CostBlankSize::Length](swcostingapivb6.chm::/SldCostingAPI~CostBlankSize~Length.html).
 
 ## Remarks
 
-[ICostAnalysisSheetMetal::BlankSizeType](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankSizeType.html)
-
-must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
+[ICostAnalysisSheetMetal::BlankSizeType](SOLIDWORKS.Interop.sldcostingapi~SOLIDWORKS.Interop.sldcostingapi.ICostAnalysisSheetMetal~BlankSizeType.html) must be set to swcSheetMetalBlankSizeType_e.swcSheetMetalBlankSizeType_CustomSize to set the length or width of a custom blank.
 
 ## See Also
 
 [ICostBlankSize Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBlankSize.html)
-
 [ICostBlankSize Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBlankSize_members.html)
-
 [ICostBlankSize::Width Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostBlankSize~Width.html)
 
 ## Availability

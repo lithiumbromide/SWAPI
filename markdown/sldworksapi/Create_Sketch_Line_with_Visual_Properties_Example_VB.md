@@ -9,9 +9,7 @@ source: "sldworksapi/Create_Sketch_Line_with_Visual_Properties_Example_VB.htm"
 
 # Create Sketch Entities with Visual Properties Example (VBA)
 
-This example shows how to create a drawing and add
-some sketch entities and change the visual properties
-of a couple of sketch entities.
+This example shows how to create a drawing and add some sketch entities and change the visual properties of a couple of sketch entities.
 
 ```
 '------------------------------------------------------------

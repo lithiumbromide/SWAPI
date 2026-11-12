@@ -54,37 +54,23 @@ System.int SetDampingRatios(
 ### Parameters
 
 - `NRows`: Number of rows in Values
-- `Values`: Array of modes and damping ratios (see
-
-Remarks
-
-)
+- `Values`: Array of modes and damping ratios (see **Remarks**)
 
 ### Return Value
 
-Error code as defined in
-
-[swsSetDampingRatiosError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSetDampingRatiosError_e.html)
+Error code as defined in [swsSetDampingRatiosError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSetDampingRatiosError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWDampingOptions::SetDampingRatios](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDampingOptions~SetDampingRatios.html)
-
-.
+See [CWDampingOptions::SetDampingRatios](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDampingOptions~SetDampingRatios.html).
 
 ## Examples
 
-See the
-
-[ICWDampingOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html)
-
-examples.
+See the [ICWDampingOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html) examples.
 
 ## Remarks
 
-This method works only if[ICWDampingOptions::DampingType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDampingOptions~DampingType.html)is set to[swsDampingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDampingType_e.html).swsDampingType_Modal and[ICWDampingOptions::ComputeFromMaterialDamping](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDampingOptions~ComputeFromMaterialDamping.html)is set to 0 (off).
+This method works only if [ICWDampingOptions::DampingType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDampingOptions~DampingType.html) is set to [swsDampingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDampingType_e.html).swsDampingType_Modal and [ICWDampingOptions::ComputeFromMaterialDamping](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDampingOptions~ComputeFromMaterialDamping.html) is set to 0 (off).
 
 The Values parameter takes a one-dimensional array of one or more data sets, each containing:
 
@@ -97,11 +83,8 @@ For more information about modal damping, see the SOLIDWORKS Simulation Help.
 ## See Also
 
 [ICWDampingOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html)
-
 [ICWDampingOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions_members.html)
-
 [ICWDampingOptions::GetDampingRatios Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~GetDampingRatios.html)
-
 [ICWDampingOptions::ClearAllDampingRatios Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~ClearAllDampingRatios.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFl
 
 # LargeMainIcon Property (IFlyoutGroup)
 
-Obsolete. Superseded by
-
-[IFlyoutGroup::MainIconList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup~MainIconList.html)
-
-.
+Obsolete. Superseded by [IFlyoutGroup::MainIconList](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup~MainIconList.html).
 
 ## Syntax
 
@@ -49,13 +45,7 @@ property System.String^ LargeMainIcon {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -63,16 +53,11 @@ Path to the large bitmap or PNG used in this flyout
 
 ## VBA Syntax
 
-See
-
-[FlyoutGroup::LargeMainIcon](ms-its:sldworksapivb6.chm::/sldworks~FlyoutGroup~LargeMainIcon.html)
-
-.
+See [FlyoutGroup::LargeMainIcon](ms-its:sldworksapivb6.chm::/sldworks~FlyoutGroup~LargeMainIcon.html).
 
 ## See Also
 
 [IFlyoutGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup.html)
-
 [IFlyoutGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup_members.html)
 
 ## Availability

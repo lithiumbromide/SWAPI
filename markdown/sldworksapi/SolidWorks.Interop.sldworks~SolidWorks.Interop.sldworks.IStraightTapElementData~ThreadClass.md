@@ -45,48 +45,27 @@ property System.int ThreadClass {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Thread class as defined in
-
-[swStraightTapHoleThreadClass_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStraightTapHoleThreadClass_e.html)
+Thread class as defined in [swStraightTapHoleThreadClass_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swStraightTapHoleThreadClass_e.html)
 
 ## VBA Syntax
 
-See
-
-[StraightTapElementData::ThreadClass](ms-its:sldworksapivb6.chm::/sldworks~StraightTapElementData~ThreadClass.html)
-
-.
+See [StraightTapElementData::ThreadClass](ms-its:sldworksapivb6.chm::/sldworks~StraightTapElementData~ThreadClass.html).
 
 ## Examples
 
-See the
-
-[IStraightTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html)
-
-examples.
+See the [IStraightTapElementData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[IStraightTapElementData::ThreadClassOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData~ThreadClassOverride.html)
-
-is set to true.
+This property is valid only if [IStraightTapElementData::ThreadClassOverride](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData~ThreadClassOverride.html) is set to true.
 
 ## See Also
 
 [IStraightTapElementData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData.html)
-
 [IStraightTapElementData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStraightTapElementData_members.html)
 
 ## Availability

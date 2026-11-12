@@ -51,19 +51,11 @@ Name of the material class
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisStructural::CurrentMaterialClass](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~CurrentMaterialClass.html)
-
-.
+See [CostAnalysisStructural::CurrentMaterialClass](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisStructural~CurrentMaterialClass.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
-examples.
+See the [ICostAnalysisStructural](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html) examples.
 
 ## Remarks
 
@@ -72,11 +64,8 @@ Setting this property could invalidate other settings, e.g., material and weldme
 ## See Also
 
 [ICostAnalysisStructural Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural.html)
-
 [ICostAnalysisStructural Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural_members.html)
-
 [ICostAnalysisStructural::GetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~GetMaterialClasses.html)
-
 [ICostAnalysisStructural::GetMaterialClassesCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisStructural~GetMaterialClassesCount.html)
 
 ## Availability

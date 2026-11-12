@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs.html"
 
 # EdmDocIDs Structure
 
-Contains information about one document in the vault; used in
-
-[IEdmVault20::GetFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20~GetFiles.html)
-
-.
+Contains information about one document in the vault; used in [IEdmVault20::GetFiles](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault20~GetFiles.html).
 
 ## Syntax
 
@@ -41,23 +37,11 @@ public value class EdmDocIDs : public System.ValueType
 struct EdmDocIDs
 
 {
-
-integer
-
-[mlDocID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs~mlDocID.html)
-
-;
-
-integer
-
-[mlProjID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs~mlProjID.html)
-
-;
-
+integer [mlDocID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs~mlDocID.html);
+integer [mlProjID](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs~mlProjID.html);
 };
 
 ## See Also
 
 [EdmDocIDs Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDocIDs_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -40,13 +40,7 @@ RoutingSettings GetRoutingSettings()
 RoutingSettings^ GetRoutingSettings();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetRoutingSettings](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetRoutingSettings.html)
-
-.
+See [SldWorks::GetRoutingSettings](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetRoutingSettings.html).
 
 ## Examples
 
 [Get and Save Routing Settings (VBA)](Get_and_Save_Routing_Settings_Example_VB.htm)
-
 [Get and Save Routing Settings (VB.NET)](Get_and_Save_Routing_Settings_Example_VBNET.htm)
-
 [Get and Save Routing Settings (C#)](Get_and_Save_Routing_Settings_Example_CSharp.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

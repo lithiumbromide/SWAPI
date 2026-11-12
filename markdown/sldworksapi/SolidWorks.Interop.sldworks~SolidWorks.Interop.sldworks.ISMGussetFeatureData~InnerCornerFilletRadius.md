@@ -45,13 +45,7 @@ property System.double InnerCornerFilletRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,20 @@ Inner corner fillet radius
 
 ## VBA Syntax
 
-See
-
-[SMGussetFeatureData::InnerCornerFilletRadius](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~InnerCornerFilletRadius.html)
-
-.
+See [SMGussetFeatureData::InnerCornerFilletRadius](ms-its:sldworksapivb6.chm::/sldworks~SMGussetFeatureData~InnerCornerFilletRadius.html).
 
 ## Examples
 
-See the examples for
-
-[ISMGussetFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData.html)
-
-.
+See the examples for [ISMGussetFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ISMGussetFeatureData::FilletInnerCorners](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~FilletInnerCorners.html)
-
-is true.
+This property is valid only if [ISMGussetFeatureData::FilletInnerCorners](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISMGussetFeatureData~FilletInnerCorners.html) is true.
 
 ## See Also
 
 [ISMGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData.html)
-
 [ISMGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData_members.html)
-
 [ISMGussetFeatureData::OuterCornerFilletRadius Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISMGussetFeatureData~OuterCornerFilletRadius.html)
 
 ## Availability

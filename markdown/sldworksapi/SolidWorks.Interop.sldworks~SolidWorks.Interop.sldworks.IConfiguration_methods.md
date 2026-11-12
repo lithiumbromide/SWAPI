@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # IConfiguration Interface Methods
 
-For a list of all members of this type, see[IConfiguration members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html).
+For a list of all members of this type, see [IConfiguration members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html).
 
 ## Public Methods
 
@@ -24,7 +24,7 @@ For a list of all members of this type, see[IConfiguration members](SolidWorks.I
 | Method | CreateDisplayState | Creates a display state for this configuration. |
 | Method | DeleteDisplayState | Deletes the specified display state from this configuration. |
 | Method | DeleteExplodeStep | Deletes the specified explode step. |
-| Method | Get3DExperienceType | Gets how this configuration is viewed in SOLIDWORKS Connected . |
+| Method | Get3DExperienceType | Gets how this configuration is viewed in SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | GetChildren | Gets all of the children configurations of this derived configuration. |
 | Method | GetChildrenCount | Gets the number of children for this configuration. |
 | Method | GetComponentConfigName | Gets the referenced configuration name of the specified component in this configuration. |
@@ -72,7 +72,7 @@ For a list of all members of this type, see[IConfiguration members](SolidWorks.I
 | Method | RenameDisplayState | Renames a display state of this configuration. |
 | Method | Select | Obsolete. Superseded by IConfiguration::Select2 . |
 | Method | Select2 | Selects the configuration. |
-| Method | Set3DExperienceType | Converts this configuration in SOLIDWORKS Connected . |
+| Method | Set3DExperienceType | Converts this configuration in SOLIDWORKS Design connected to the 3DEXPERIENCE platform . |
 | Method | SetColor | Sets the color for this configuration. |
 | Method | SetExpanded | Sets whether to expand this configuration's node in the specified pane of the ConfigurationManager. |
 | Method | SetParameters | Sets the parameters (suppression state of features, suppression state or visibility of components, dimensions, and so on) for this configuration. |
@@ -83,5 +83,4 @@ For a list of all members of this type, see[IConfiguration members](SolidWorks.I
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -52,18 +52,12 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWRadiation::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~RemoveEntity.html)
-
-.
+See [CWRadiation::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWRadiation~RemoveEntity.html).
 
 ## See Also
 
 [ICWRadiation Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation.html)
-
 [ICWRadiation Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation_members.html)
-
 [ICWRadiation::InsertEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRadiation~InsertEntity.html)
 
 ## Availability

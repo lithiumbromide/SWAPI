@@ -53,32 +53,20 @@ System.int SetTotalPlies(
 
 ### Return Value
 
-Error code as defined in
-
-[swsCompositeShellOptionsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsError_e.html)
+Error code as defined in [swsCompositeShellOptionsError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::SetTotalPlies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~SetTotalPlies.html)
-
-.
+See [CWCompositeShellOptions::SetTotalPlies](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~SetTotalPlies.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ICWCompositeShellOptions::Sandwich](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Sandwich.html)
-
-is set to 0.
+This method is valid only if [ICWCompositeShellOptions::Sandwich](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~Sandwich.html) is set to 0.
 
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
-
 [ICWCompositeShellOptions::GetTotalPlies Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions~GetTotalPlies.html)
 
 ## Availability

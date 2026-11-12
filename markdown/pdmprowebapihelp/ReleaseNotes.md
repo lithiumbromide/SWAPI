@@ -18,143 +18,57 @@ source: "pdmprowebapihelp/ReleaseNotes.html"
 
 ###### Configuration
 
-- [api/configuration/fileserverroot](PDM%20Pro%20API_ws~r-api-configuration-fileserverroot~o-HttpGet.html)
-
-  (Get)
-- [api/configuration/fileserverroot](PDM%20Pro%20API_ws~r-api-configuration-fileserverroot~o-HttpPost.html)
-
-  (Post)
-- [api/{vaultName}/configuration/hooks/dll](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-dll~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/configuration/hooks/dll](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-dll~o-HttpPut.html)
-
-  (Put)
-- [api/{vaultName}/configuration/hooks/dll](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-dll~o-HttpDelete.html)
-
-  (Delete)
-- [api/{vaultName}/configuration/hooks/url](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-url~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/configuration/hooks/url](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-url~o-HttpPost.html)
-
-  (Post)
+- [api/configuration/fileserverroot](PDM%20Pro%20API_ws~r-api-configuration-fileserverroot~o-HttpGet.html) (Get)
+- [api/configuration/fileserverroot](PDM%20Pro%20API_ws~r-api-configuration-fileserverroot~o-HttpPost.html) (Post)
+- [api/{vaultName}/configuration/hooks/dll](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-dll~o-HttpGet.html) (Get)
+- [api/{vaultName}/configuration/hooks/dll](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-dll~o-HttpPut.html) (Put)
+- [api/{vaultName}/configuration/hooks/dll](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-dll~o-HttpDelete.html) (Delete)
+- [api/{vaultName}/configuration/hooks/url](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-url~o-HttpGet.html) (Get)
+- [api/{vaultName}/configuration/hooks/url](PDM%20Pro%20API_ws~r-api-{vaultName}-configuration-hooks-url~o-HttpPost.html) (Post)
 
 ##### SOLIDWORKS PDM Professional 2024 Web API
 
 ###### Data Card
 
-- [api/{vaultName}/files/{fileId}/{folderId}/datacard](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-datacard~o-HttpPost.html)
+- [api/{vaultName}/files/{fileId}/{folderId}/datacard](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-datacard~o-HttpPost.html) (Post)
 
-  (Post)
-
-- [api/{vaultName}/files/{fileId}/datacard?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-datacard-folderId=%7BfolderId%7D~o-HttpPost.html)
-
-  (Post)
+- [api/{vaultName}/files/{fileId}/datacard?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-datacard-folderId=%7BfolderId%7D~o-HttpPost.html) (Post)
 
 ###### File
 
-- [api/{vaultName}/files/{fileId}?folderId={folderId}&destroy={destroy}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-folderId=%7BfolderId%7D-destroy=%7Bdestroy%7D~o-HttpDelete.html)
-
-  (Delete)
-- [api/{vaultName}/files/{fileId}/{folderId}?destroy={destroy}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-destroy=%7Bdestroy%7D~o-HttpDelete.html)
-
-  (Delete)
-- [api/{vaultName}/files/{fileId}/{version}/configurations?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-configurations-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}/configurations](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-configurations~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/info/extended?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-info-extended-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}/info/extended](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-info-extended~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/ActiveConfig?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-ActiveConfig-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}/ActiveConfig](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-ActiveConfig~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/variables?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-variables-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}/variables](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-variables~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{folderId}/versions](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-versions~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}/allreferences?configId={configId}&includeSubParents={includeSubParents}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-allreferences-configId=%7BconfigId%7D-includeSubParents=%7BincludeSubParents%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}/references?configId={configId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-references-configId=%7BconfigId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}?version={version}&folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-version=%7Bversion%7D-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/info?version={version}&folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-info-version=%7Bversion%7D-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/info?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-info-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}/info](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-info~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/transitions?version={version}&folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-transitions-version=%7Bversion%7D-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/transitions?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-transitions-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}/transitions](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-transitions~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/moves?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-moves-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{folderId}/moves](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-moves~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/history?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-history-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{folderId}/history](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-history~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{configId}/whereused?folderId={folderId}&anyVersion={anyVersion}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BconfigId%7D-whereused-folderId=%7BfolderId%7D-anyVersion=%7BanyVersion%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{configId}/{folderId}/whereused?anyVersion={anyVersion}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BconfigId%7D-%7BfolderId%7D-whereused-anyVersion=%7BanyVersion%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{folderId}/bominfo](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-bominfo~o-HttpGet.html)
-
-  (Get)
-- PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-bominfo~o-HttpGet.html
-
-  [api/{vaultName}/files/{fileId}/{version}/download?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-download-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}/download](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-download~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/thumbnails?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-thumbnails-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/files/{fileId}/{version}/{folderId}/thumbnails](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-thumbnails~o-HttpGet.html)
-
-  (Get)
+- [api/{vaultName}/files/{fileId}?folderId={folderId}&destroy={destroy}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-folderId=%7BfolderId%7D-destroy=%7Bdestroy%7D~o-HttpDelete.html) (Delete)
+- [api/{vaultName}/files/{fileId}/{folderId}?destroy={destroy}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-destroy=%7Bdestroy%7D~o-HttpDelete.html) (Delete)
+- [api/{vaultName}/files/{fileId}/{version}/configurations?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-configurations-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}/configurations](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-configurations~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/info/extended?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-info-extended-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}/info/extended](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-info-extended~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/ActiveConfig?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-ActiveConfig-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}/ActiveConfig](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-ActiveConfig~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/variables?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-variables-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}/variables](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-variables~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{folderId}/versions](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-versions~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}/allreferences?configId={configId}&includeSubParents={includeSubParents}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-allreferences-configId=%7BconfigId%7D-includeSubParents=%7BincludeSubParents%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}/references?configId={configId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-references-configId=%7BconfigId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}?version={version}&folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-version=%7Bversion%7D-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/info?version={version}&folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-info-version=%7Bversion%7D-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/info?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-info-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}/info](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-info~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/transitions?version={version}&folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-transitions-version=%7Bversion%7D-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/transitions?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-transitions-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}/transitions](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-transitions~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/moves?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-moves-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{folderId}/moves](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-moves~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/history?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-history-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{folderId}/history](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-history~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{configId}/whereused?folderId={folderId}&anyVersion={anyVersion}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BconfigId%7D-whereused-folderId=%7BfolderId%7D-anyVersion=%7BanyVersion%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{configId}/{folderId}/whereused?anyVersion={anyVersion}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BconfigId%7D-%7BfolderId%7D-whereused-anyVersion=%7BanyVersion%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{folderId}/bominfo](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-bominfo~o-HttpGet.html) (Get)
+- PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7BfolderId%7D-bominfo~o-HttpGet.html[api/{vaultName}/files/{fileId}/{version}/download?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-download-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}/download](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-download~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/thumbnails?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-thumbnails-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/files/{fileId}/{version}/{folderId}/thumbnails](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-files-%7BfileId%7D-%7Bversion%7D-%7BfolderId%7D-thumbnails~o-HttpGet.html) (Get)
 
 ###### Search
 
@@ -164,18 +78,12 @@ source: "pdmprowebapihelp/ReleaseNotes.html"
 
 ###### Stage
 
-- [api/stage/{vaultName}/{documentId}?folderId={folderId}&overrideVersion={overrideVersion}](PDM%20Pro%20API_ws~r-api-stage-%7BvaultName%7D-%7BdocumentId%7D-folderId=%7BfolderId%7D-overrideVersion=%7BoverrideVersion%7D~o-HttpPut.html)
-
-  (Post)
+- [api/stage/{vaultName}/{documentId}?folderId={folderId}&overrideVersion={overrideVersion}](PDM%20Pro%20API_ws~r-api-stage-%7BvaultName%7D-%7BdocumentId%7D-folderId=%7BfolderId%7D-overrideVersion=%7BoverrideVersion%7D~o-HttpPut.html) (Post)
 
 ###### State Transition
 
-- [api/{vaultName}/state/{documentId}/transitions?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-state-%7BdocumentId%7D-transitions-folderId=%7BfolderId%7D~o-HttpGet.html)
-
-  (Get)
-- [api/{vaultName}/state/{documentId}/{folderId}/transitions](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-state-%7BdocumentId%7D-%7BfolderId%7D-transitions~o-HttpGet.html)
-
-  (Get)
+- [api/{vaultName}/state/{documentId}/transitions?folderId={folderId}](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-state-%7BdocumentId%7D-transitions-folderId=%7BfolderId%7D~o-HttpGet.html) (Get)
+- [api/{vaultName}/state/{documentId}/{folderId}/transitions](PDM%20Pro%20API_ws~r-api-%7BvaultName%7D-state-%7BdocumentId%7D-%7BfolderId%7D-transitions~o-HttpGet.html) (Get)
 
 ##### SOLIDWORKS PDM Professional 2023 Web API
 
@@ -281,9 +189,7 @@ source: "pdmprowebapihelp/ReleaseNotes.html"
 - [api/{vaultName}/state/{transitionId} (Get)](PDM%20Pro%20API_ws~r-api-{vaultName}-state-{transitionId}~o-HttpGet.html)
 - [api/{vaultName}/state/{transitionId}/changestate?revoke={revoke} (Post)](PDM%20Pro%20API_ws~r-api-{vaultName}-state-{transitionId}-changestate-revoke={revoke}~o-HttpPost.html)
 - [api/{vaultName}/state/{transitionId}/DynamicNotificationUsers (Post)](PDM%20Pro%20API_ws~r-api-{vaultName}-state-{transitionId}-DynamicNotificationUsers~o-HttpPost.html)
-- [api/{vaultName}/state/{transitionId}/HistoryComments (Post](PDM%20Pro%20API_ws~r-api-{vaultName}-state-{transitionId}-HistoryComments~o-HttpPost.html)
-
-  )
+- [api/{vaultName}/state/{transitionId}/HistoryComments (Post](PDM%20Pro%20API_ws~r-api-{vaultName}-state-{transitionId}-HistoryComments~o-HttpPost.html))
 - [api/{vaultName}/state/transitions (Post)](PDM%20Pro%20API_ws~r-api-{vaultName}-state-transitions~o-HttpPost.html)
 
 ###### User

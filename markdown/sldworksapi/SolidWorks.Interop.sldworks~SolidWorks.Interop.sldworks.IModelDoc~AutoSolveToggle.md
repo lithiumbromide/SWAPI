@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # AutoSolveToggle Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::AutoSolveToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AutoSolveToggle.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::AutoSolveToggle](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~AutoSolveToggle.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void AutoSolveToggle()
 void AutoSolveToggle();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::AutoSolveToggle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AutoSolveToggle.html)
-
-.
+See [ModelDoc::AutoSolveToggle](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~AutoSolveToggle.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

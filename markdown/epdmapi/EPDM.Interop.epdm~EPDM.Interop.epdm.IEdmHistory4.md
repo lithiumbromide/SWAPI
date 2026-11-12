@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4.html"
 
 Allows you to access the sorted history of files or folders.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,11 +36,7 @@ public interface class IEdmHistory4 : public IEdmHistory, IEdmHistory2, IEdmHist
 
 ## Examples
 
-Tailor the
-
-[IEdmHistory3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3.html)
-
-examples to use this interface.
+Tailor the [IEdmHistory3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory3.html) examples to use this interface.
 
 ## Remarks
 
@@ -55,7 +45,7 @@ This interface extends IEdmHistory3 by providing the ability to show:
 - a file's history using the same history dialog that is employed in the user interface
 - a folder's history using the same history dialog that is employed in the user interface
 
-To access this interface, call[IEdmVault7::CreateUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility.html)with eType set to[EdmUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility.html).EdmUtil_History.
+To access this interface, call [IEdmVault7::CreateUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVault7~CreateUtility.html) with eType set to [EdmUtility](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUtility.html).EdmUtil_History.
 
 ## Accessors
 
@@ -64,5 +54,4 @@ IEdmVault7::CreateUtility
 ## See Also
 
 [IEdmHistory4 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory4_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

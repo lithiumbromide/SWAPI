@@ -51,24 +51,15 @@ Name of the configuration for this link
 
 ## VBA Syntax
 
-See
-
-[PDMWLink::Config](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Config.html)
-
-.
+See [PDMWLink::Config](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWLink~Config.html).
 
 ## Remarks
 
-If the source object is an
-
-[IPDMWDocument](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
-object, then the name of the configuration is not available.
+If the source object is an [IPDMWDocument](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html) object, then the name of the configuration is not available.
 
 ## See Also
 
 [IPDMWLink Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink.html)
-
 [IPDMWLink Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWLink_members.html)
 
 ## Availability

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditDatumTargetSymbol Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EditDatumTargetSymbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditDatumTargetSymbol.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::EditDatumTargetSymbol](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditDatumTargetSymbol.html).
 
 ## Syntax
 
@@ -107,13 +103,7 @@ System.bool EditDatumTargetSymbol(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -135,14 +125,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EditDatumTargetSymbol](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditDatumTargetSymbol.html)
-
-.
+See [ModelDoc::EditDatumTargetSymbol](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditDatumTargetSymbol.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

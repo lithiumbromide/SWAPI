@@ -45,13 +45,7 @@ property System.double GapForOtherGroups {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,26 +53,18 @@ Gap in meters between segments in different groups
 
 ## VBA Syntax
 
-See
-
-[StructuralMemberGroup::GapForOtherGroups](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~GapForOtherGroups.html)
-
-.
+See [StructuralMemberGroup::GapForOtherGroups](ms-its:sldworksapivb6.chm::/sldworks~StructuralMemberGroup~GapForOtherGroups.html).
 
 ## Examples
 
 [Merge Arc Segment Bodies With Adjacent Bodies (C#)](Merge_Arc_Segment_Bodies_With_Adjacent_Bodies_Example_CSharp.htm)
-
 [Merge Arc Segment Bodies With Adjacent Bodies (VB.NET)](Merge_Arc_Segment_Bodies_With_Adjacent_Bodies_Example_VBNET.htm)
-
 [Merge Arc Segment Bodies With Adjacent Bodies (VBA)](Merge_Arc_Segment_Bodies_With_Adjacent_Bodies_Example_VB.htm)
 
 ## See Also
 
 [IStructuralMemberGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup.html)
-
 [IStructuralMemberGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup_members.html)
-
 [IStructuralMemberGroup::GapWithinGroup Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStructuralMemberGroup~GapWithinGroup.html)
 
 ## Availability

@@ -46,16 +46,11 @@ Date document last updated
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::GetLastUpdateStamp](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetLastUpdateStamp.html)
-
-.
+See [SwDMDocument::GetLastUpdateStamp](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~GetLastUpdateStamp.html).
 
 ## Examples
 
 [Get Configuration Information (C#)](Get_Configuration_Information_Example_CSharp.htm)
-
 [Get Configuration Information (VB.NET)](Get_Configuration_Information_Example_VBNET.htm)
 
 ## Remarks
@@ -72,13 +67,9 @@ This method returns 0 for non-SOLIDWORKS documents.
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
-
 [ISwDMDocument::CreationDate Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~CreationDate.html)
-
 [ISwDMDocument::LastSavedBy Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~LastSavedBy.html)
-
 [ISwDMDocument::LastSavedDate Property](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument~LastSavedDate.html)
 
 ## Availability

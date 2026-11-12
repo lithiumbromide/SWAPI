@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~Create.
 
 # Create Method (IEdmBatchAddFolders)
 
-Creates all the folders that were added to the batch using
-
-[IEdmBatchAddFolders::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~AddFolder.html)
-
-.
+Creates all the folders that were added to the batch using [IEdmBatchAddFolders::AddFolder](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders~AddFolder.html).
 
 ## Syntax
 
@@ -50,24 +46,12 @@ void Create(
 ### Parameters
 
 - `lHwnd`: Parent window handle that is passed to add-ins that are notified about folders added to the vault
-- `ppoRetFolders`: Array of
-
-[EdmFolderInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo.html)
-
-structures; one structure for each folder added
-- `lEdmBatchCreateFolderFlags`: Combination of
-
-[EdmBatchCreateFolderFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchCreateFolderFlag.html)
-
-bits
+- `ppoRetFolders`: Array of [EdmFolderInfo](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderInfo.html) structures; one structure for each folder added
+- `lEdmBatchCreateFolderFlags`: Combination of [EdmBatchCreateFolderFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBatchCreateFolderFlag.html) bits
 
 ## Examples
 
-See the
-
-[IEdmBatchAddFolders](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders.html)
-
-examples.
+See the [IEdmBatchAddFolders](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders.html) examples.
 
 ## Remarks
 
@@ -79,7 +63,6 @@ examples.
 ## See Also
 
 [IEdmBatchAddFolders Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders.html)
-
 [IEdmBatchAddFolders Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchAddFolders_members.html)
 
 ## Availability

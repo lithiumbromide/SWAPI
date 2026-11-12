@@ -1,6 +1,5 @@
 ---
-title: "OneBendFeatureData Object
-Members"
+title: "OneBendFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "OneBendFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~OneBendFeatureData_members.html"
 ---
 
-# OneBendFeatureData Object
-Members
+# OneBendFeatureData Object Members
 
 ## Public Methods
 

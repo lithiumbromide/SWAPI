@@ -61,41 +61,29 @@ System.int SetSimulationOptionDefaultPlotsBoundaryColorInRGB(
 
 ### Parameters
 
-- `NBoundaryOption`: Boundary option as defined in
-
-[swsSimulationOptionDefaultPlotsBoundaryColorInRGBBoundaryOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSimulationOptionDefaultPlotsBoundaryColorInRGBBoundaryOption_e.html)
+- `NBoundaryOption`: Boundary option as defined in [swsSimulationOptionDefaultPlotsBoundaryColorInRGBBoundaryOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSimulationOptionDefaultPlotsBoundaryColorInRGBBoundaryOption_e.html)
 - `NRed`: 0 <= Red component <= 255
 - `NGreen`: 0 <= Green component <= 255
 - `NBlue`: 0 <= Blue component <= 255
 
 ### Return Value
 
-Error code as defined in
-
-[swsSimulationOptionDefaultPlotsBoundaryColorInRGBError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsSimulationOptionDefaultPlotsBoundaryColorInRGBError_e.html)
+Error code as defined in [swsSimulationOptionDefaultPlotsBoundaryColorInRGBError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsSimulationOptionDefaultPlotsBoundaryColorInRGBError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWModelDoc::SetSimulationOptionDefaultPlotsBoundaryColorInRGB](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~SetSimulationOptionDefaultPlotsBoundaryColorInRGB.html)
-
-.
+See [CWModelDoc::SetSimulationOptionDefaultPlotsBoundaryColorInRGB](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWModelDoc~SetSimulationOptionDefaultPlotsBoundaryColorInRGB.html).
 
 ## Examples
 
 [Analyze Part (VBA)](Analyze_Part_Example_VB.htm)
-
 [Analyze Part (VB.NET)](Analyze_Part_Example_VBNET.htm)
-
 [Analyze Part (C#)](Analyze_Part_Example_CSharp.htm)
 
 ## See Also
 
 [ICWModelDoc Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc.html)
-
 [ICWModelDoc Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc_members.html)
-
 [ICWModelDoc::GetSimulationOptionDefaultPlotsBoundaryColorInRGB Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWModelDoc~GetSimulationOptionDefaultPlotsBoundaryColorInRGB.html)
 
 ## Availability

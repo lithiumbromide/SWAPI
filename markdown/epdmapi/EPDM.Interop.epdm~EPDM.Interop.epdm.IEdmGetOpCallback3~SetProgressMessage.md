@@ -44,5 +44,4 @@ void SetProgressMessage(
 ## See Also
 
 [IEdmGetOpCallback3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback3.html)
-
 [IEdmGetOpCallback3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmGetOpCallback3_members.html)

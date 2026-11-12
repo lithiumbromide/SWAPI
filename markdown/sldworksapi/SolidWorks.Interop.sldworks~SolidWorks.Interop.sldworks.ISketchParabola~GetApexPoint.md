@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # GetApexPoint Method (ISketchParabola)
 
-Obsolete. Superseded by
-
-[ISketchParabola::GetApexPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~GetApexPoint2.html)
-
-and
-
-[ISketchParabola::IGetApexPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~IGetApexPoint2.html)
-
-.
+Obsolete. Superseded by [ISketchParabola::GetApexPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~GetApexPoint2.html) and [ISketchParabola::IGetApexPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~IGetApexPoint2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.object GetApexPoint()
 System.Object^ GetApexPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchParabola::GetApexPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~GetApexPoint.html)
-
-.
+See [SketchParabola::GetApexPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~GetApexPoint.html).
 
 ## See Also
 
 [ISketchParabola Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
-
 [ISketchParabola Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola_members.html)

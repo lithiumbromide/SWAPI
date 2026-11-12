@@ -9,7 +9,7 @@ source: "toolboxapi/SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Inter
 
 # IToolBoxConfiguratorApplication Interface Members
 
-The following tables list the members exposed by[IToolBoxConfiguratorApplication](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication.html).
+The following tables list the members exposed by [IToolBoxConfiguratorApplication](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication.html).
 
 ## Public Properties
 
@@ -33,5 +33,4 @@ The following tables list the members exposed by[IToolBoxConfiguratorApplication
 ## See Also
 
 [IToolBoxConfiguratorApplication Interface](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin.IToolBoxConfiguratorApplication.html)
-
 [SolidWorks.Interop.sldtoolboxconfigureaddin Namespace](SolidWorks.Interop.sldtoolboxconfigureaddin~SolidWorks.Interop.sldtoolboxconfigureaddin_namespace.html)

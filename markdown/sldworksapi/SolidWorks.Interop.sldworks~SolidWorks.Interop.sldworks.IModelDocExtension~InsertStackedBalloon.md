@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # InsertStackedBalloon Method (IModelDocExtension)
 
-Obsolete. Superseded by
-
-[IModelDocExtension::InsertStackedBalloon2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertStackedBalloon2.html)
-
-.
+Obsolete. Superseded by [IModelDocExtension::InsertStackedBalloon2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertStackedBalloon2.html).
 
 ## Syntax
 
@@ -87,38 +83,24 @@ Note^ InsertStackedBalloon(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Style`: Balloon style as defined in[swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
-- `Size`: Balloon size as defined in
-
-[swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
-- `UpperTextStyle`: Style for the upper text of the balloon as defined in
-
-[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
+- `Style`: Balloon style as defined in [swBalloonStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonStyle_e.html)
+- `Size`: Balloon size as defined in [swBalloonFit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonFit_e.html)
+- `UpperTextStyle`: Style for the upper text of the balloon as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
 - `UpperText`: Upper text in the balloon
-- `LowerTextStyle`: Style for the lower text of the balloon as defined in
-
-[swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html)
-
-; valid for balloons only and Style must be set to swBS_SplitCirc
+- `LowerTextStyle`: Style for the lower text of the balloon as defined in [swBalloonTextContent_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBalloonTextContent_e.html); valid for balloons only and Style must be set to swBS_SplitCirc
 - `LowerText`: Lower text in the balloon; valid for balloons only and Style must be set to swBS_SplitCirc
 - `CustomSize`: User-defined size of the balloon; Size must be set to swBF_UserDef
 - `ShowQuantity`: True to show quantity, false to not
 - `QuantityPlacement`: Placement of quantity value:
 
-- 0 = Left
-- 1 = Right
-- 2 = Top
-- 3 = Bottom
+  - 0 = Left
+  - 1 = Right
+  - 2 = Top
+  - 3 = Bottom
 - `QuantityDenotationText`: Denotation text for quantity
 
 ### Return Value
@@ -127,20 +109,13 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::InsertStackedBalloon](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~InsertStackedBalloon.html)
-
-.
+See [ModelDocExtension::InsertStackedBalloon](ms-its:sldworksapivb6.chm::/Sldworks~ModelDocExtension~InsertStackedBalloon.html).
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [INote::IsStackedBalloon Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~IsStackedBalloon.html)
-
 [IBalloonStack Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBalloonStack.html)
 
 ## Availability

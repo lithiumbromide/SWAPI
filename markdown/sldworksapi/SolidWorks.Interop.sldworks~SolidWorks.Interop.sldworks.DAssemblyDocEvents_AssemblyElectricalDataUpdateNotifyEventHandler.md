@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAs
 
 # DAssemblyDocEvents_AssemblyElectricalDataUpdateNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Fired when the SOLIDWORKS software updates the electrical data.
+Fired when the SOLIDWORKS Design software updates the electrical data.
 
 ## Syntax
 
@@ -43,30 +43,24 @@ public delegate System.int DAssemblyDocEvents_AssemblyElectricalDataUpdateNotify
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `saveType`: - 0 = All streams
-- 2 = From-To list stream
-- 3 = Segment data stream
-- 4 = Wire list stream
+  - 2 = From-To list stream
+  - 3 = Segment data stream
+  - 4 = Wire list stream
 
 ## VBA Syntax
 
-See[AssemblyElectricalDataUpdateNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~AssemblyElectricalDataUpdateNotify_EV.html).
+See [AssemblyElectricalDataUpdateNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~AssemblyElectricalDataUpdateNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyElectricalDataUpdateNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyElectricalDataUpdateNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
-Third-party applications should handle this notification to reload the electrical data from the data streams when the SOLIDWORKS software writes to them. Currently, this event only occurs when a user exits a route.
+Third-party applications should handle this notification to reload the electrical data from the data streams when the SOLIDWORKS Design software writes to them. Currently, this event only occurs when a user exits a route.
 
 ## Availability
 

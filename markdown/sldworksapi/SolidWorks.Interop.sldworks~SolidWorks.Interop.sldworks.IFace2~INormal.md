@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 Gets the unit normal vector for any planar face.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ property System.double INormal {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,11 +55,7 @@ Pointer to an array of 3 doubles (i,j,k)
 
 ## VBA Syntax
 
-See
-
-[Face2::INormal](ms-its:sldworksapivb6.chm::/sldworks~Face2~INormal.html)
-
-.
+See [Face2::INormal](ms-its:sldworksapivb6.chm::/sldworks~Face2~INormal.html).
 
 ## Remarks
 
@@ -76,9 +66,7 @@ If the face is not a planar face, then this property returns 0,0,0.
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::Normal Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~Normal.html)
 
 ## Availability

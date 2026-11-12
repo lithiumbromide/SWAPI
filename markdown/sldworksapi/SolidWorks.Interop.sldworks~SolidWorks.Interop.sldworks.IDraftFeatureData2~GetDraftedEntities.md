@@ -40,27 +40,15 @@ System.object GetDraftedEntities()
 System.Object^ GetDraftedEntities();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[entities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html)
+Array of [entities](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity.html)
 
 ## VBA Syntax
 
-See
-
-[DraftFeatureData2::GetDraftedEntities](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~GetDraftedEntities.html)
-
-.
+See [DraftFeatureData2::GetDraftedEntities](ms-its:sldworksapivb6.chm::/sldworks~DraftFeatureData2~GetDraftedEntities.html).
 
 ## Examples
 
@@ -68,16 +56,13 @@ See
 
 ## Remarks
 
-See[Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm)for additional details on using this method.
+See [Accessing Selections that Define Features](sldworksAPIProgGuide.chm::/Miscellaneous/Accessing_Selections_that_Define_Features.htm) for additional details on using this method.
 
 ## See Also
 
 [IDraftFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2.html)
-
 [IDraftFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2_members.html)
-
 [IDraftFeatureData2::IGetDraftedEntities Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2~IGetDraftedEntities.html)
-
 [IDraftFeatureData2::GetDraftedEntityCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDraftFeatureData2~GetDraftedEntityCount.html)
 
 ## Availability

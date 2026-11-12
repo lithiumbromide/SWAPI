@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDa
 
 Allows access to display information for datum target symbol annotations.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,49 +41,29 @@ public interface class IDatumTargetSym
 
 ## VBA Syntax
 
-See
-
-[DatumTargetSym](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym.html)
-
-.
+See [DatumTargetSym](ms-its:sldworksapivb6.chm::/sldworks~DatumTargetSym.html).
 
 ## Examples
 
 [Insert and Modify Datum Target Symbol (C#)](Insert_and_Modify_Datum_Target_Symbol_Example_CSharp.htm)
-
 [Insert and Modify Datum Target Symbol (VB.NET)](Insert_and_Modify_Datum_Target_Symbol_Example_VBNET.htm)
-
 [Insert and Modify Datum Target Symbol (VBA)](Insert_and_Modify_Datum_Target_Symbol_Example_VB.htm)
 
 ## Remarks
 
-Datum target annotations are created interactively using
-
-Insert
-
-,
-
-Annotations
-
-,
-
-Datum
-
-Target
-
-.
+Datum target annotations are created interactively using **Insert**, **Annotations**, **Datum** **Target**.
 
 ## Accessors
 
-[IAnnotation::GetSpecificAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetSpecificAnnotation.html)and[IAnnotation::IGetSpecificAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IGetSpecificAnnotation.html)
+[IAnnotation::GetSpecificAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetSpecificAnnotation.html) and [IAnnotation::IGetSpecificAnnotation](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IGetSpecificAnnotation.html)
 
-[IDatumTargetSym::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetNext.html)and[IDatumTargetSym::IGetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~IGetNext.html)
+[IDatumTargetSym::GetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~GetNext.html) and [IDatumTargetSym::IGetNext](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDatumTargetSym~IGetNext.html)
 
 [IModelDocExtension::InsertDatumTargetSymbol2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~InsertDatumTargetSymbol2.html)
 
-[IView::GetFirstDatumTargetSym](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetFirstDatumTargetSym.html)and[IView::IGetFirstDatumTargetSym](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetFirstDatumTargetSym.html)
+[IView::GetFirstDatumTargetSym](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetFirstDatumTargetSym.html) and [IView::IGetFirstDatumTargetSym](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetFirstDatumTargetSym.html)
 
-[IView::GetDatumTargetSyms](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDatumTargetSyms.html)and[IView::IGetDatumTargetSyms](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDatumTargetSyms.html)
+[IView::GetDatumTargetSyms](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~GetDatumTargetSyms.html) and [IView::IGetDatumTargetSyms](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IView~IGetDatumTargetSyms.html)
 
 ## Access Diagram
 
@@ -92,5 +72,4 @@ Target
 ## See Also
 
 [IDatumTargetSym Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDatumTargetSym_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

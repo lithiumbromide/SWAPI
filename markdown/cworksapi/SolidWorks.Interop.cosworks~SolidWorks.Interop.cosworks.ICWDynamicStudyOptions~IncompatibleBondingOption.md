@@ -9,13 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDy
 
 # IncompatibleBondingOption Property (ICWDynamicStudyOptions)
 
-Obsolete. Superseded by
-
-[ICWDynamicStudyOptions::GetIncompatibleBondingOption2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetIncompatibleBondingOption2.html)
-
-and
-
-[ICWDynamicStudyOptions::SetIncompatibleBondingOption2 .](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetIncompatibleBondingOption2.html)
+Obsolete. Superseded by [ICWDynamicStudyOptions::GetIncompatibleBondingOption2](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~GetIncompatibleBondingOption2.html) and [ICWDynamicStudyOptions::SetIncompatibleBondingOption2.](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDynamicStudyOptions~SetIncompatibleBondingOption2.html)
 
 ## Syntax
 
@@ -53,22 +47,15 @@ property System.int IncompatibleBondingOption {
 
 ### Property Value
 
-Option as defined in
-
-[swsIncompatibleBondingOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsIncompatibleBondingOption_e.html)
+Option as defined in [swsIncompatibleBondingOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsIncompatibleBondingOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWDynamicStudyOptions::IncompatibleBondingOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~IncompatibleBondingOption.html)
-
-.
+See [CWDynamicStudyOptions::IncompatibleBondingOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDynamicStudyOptions~IncompatibleBondingOption.html).
 
 ## See Also
 
 [ICWDynamicStudyOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions.html)
-
 [ICWDynamicStudyOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDynamicStudyOptions_members.html)
 
 ## Availability

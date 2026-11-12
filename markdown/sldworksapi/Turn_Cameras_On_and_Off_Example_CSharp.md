@@ -13,7 +13,7 @@ This example shows how to turn cameras on and off.
 
 ```vb
  //----------------------------------------------------------------------------
- // Preconditions: Open a SOLIDWORKS model that contains at least one camera.
+ // Preconditions: Open a SOLIDWORKS Design model that contains at least one camera.
  //
  // Postconditions: The cameras are turned on and off.
  //----------------------------------------------------------------------------

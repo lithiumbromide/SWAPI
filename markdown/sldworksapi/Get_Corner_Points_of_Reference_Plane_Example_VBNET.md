@@ -27,88 +27,52 @@ This example shows how to obtain the four corner points of a reference plane.
 '----------------------------------------------------------------------------
 ```
 
+```vb
 Imports SolidWorks.Interop.sldworks
-Imports SolidWorks.Interop.swconst
-Imports System
-Imports System.Diagnostics
+ Imports SolidWorks.Interop.swconst
+ Imports System
+ Imports System.Diagnostics
 
-Partial Class SolidWorksMacro
+ Partial Class SolidWorksMacro
 
-kadov_tag{{<spaces>}}
-kadov_tag{{</spaces>}}Dim
-swModel As ModelDoc2
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-boolstatus As Boolean
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swFeature As Feature
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swRefPlane As RefPlane
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelExt As ModelDocExtension
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSelMgr As SelectionMgr
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vMathPoints As Object
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vArrayData As Object
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-pMathPoint As MathPoint
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-i As Integer
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swSketch As Sketch
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-sketchMgr As SketchManager
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-sketchPt As SketchPoint
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swRefPlaneFeatData As RefPlaneFeatureData
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-filename As String
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-errors As Long
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-warnings As Long
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Sub
-main()
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}filename
-= "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\swutilities\bracket_a.sldprt"
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModel
-= swApp.**OpenDoc6**(filename, swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent,
-"", errors, warnings)
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swModelExt
-= swModel.**Extension**kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swSelMgr
-= swModel.**SelectionManager**kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sketchMgr
-= swModel.**SketchManager**kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}boolstatus
-= swModelExt.**SelectByID2**("Plane4", "PLANE", 0, 0,
-0, False, 0, Nothing, swSelectOption_e.swSelectOptionDefault)
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swFeature
-= swSelMgr.**GetSelectedObject6**(1, -1)
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swRefPlane
-= swFeature.**GetSpecificFeature2**kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vMathPoints
-= swRefPlane.CornerPoints'Four
-(4) MathPoint objects are always returned
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sketchMgr.**Insert3DSketch**(True)
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-i = 0 To UBound(vMathPoints)
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vArrayData
-= vMathPoints(i).**ArrayData**kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("
-Point x = " & vArrayData(0))
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("
-Point y = " & vArrayData(1))
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print("
-Point z = " & vArrayData(2))
-Debug.Print("")
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sketchPt
-= sketchMgr.**CreatePoint**(vArrayData(0), vArrayData(1), vArrayData(2))
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-i
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sketchMgr.**Insert3DSketch(True)**kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-Sub
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Public
-swApp As SldWorks
-
+     Dim swModel As ModelDoc2
+     Dim boolstatus As Boolean
+     Dim swFeature As Feature
+     Dim swRefPlane As RefPlane
+     Dim swModelExt As ModelDocExtension
+     Dim swSelMgr As SelectionMgr
+     Dim vMathPoints As Object
+     Dim vArrayData As Object
+     Dim pMathPoint As MathPoint
+     Dim i As Integer
+     Dim swSketch As Sketch
+     Dim sketchMgr As SketchManager
+     Dim sketchPt As SketchPoint
+     Dim swRefPlaneFeatData As RefPlaneFeatureData
+     Dim filename As String
+     Dim errors As Long
+     Dim warnings As Long
+    Sub main()
+        filename = "C:\Users\Public\Documents\SOLIDWORKS\SOLIDWORKS 2018\samples\tutorial\swutilities\bracket_a.sldprt"
+         swModel = swApp.OpenDoc6(filename, swDocumentTypes_e.swDocPART, swOpenDocOptions_e.swOpenDocOptions_Silent, "", errors, warnings)
+         swModelExt = swModel.Extension
+         swSelMgr = swModel.SelectionManager
+         sketchMgr = swModel.SketchManager
+         boolstatus = swModelExt.SelectByID2("Plane4", "PLANE", 0, 0, 0, False, 0, Nothing, swSelectOption_e.swSelectOptionDefault)
+         swFeature = swSelMgr.GetSelectedObject6(1, -1)
+         swRefPlane = swFeature.GetSpecificFeature2
+         vMathPoints = swRefPlane.CornerPoints 'Four (4) MathPoint objects are always returned
+         sketchMgr.Insert3DSketch(True)
+         For i = 0 To UBound(vMathPoints)
+             vArrayData = vMathPoints(i).ArrayData
+             Debug.Print(" Point x = " & vArrayData(0))
+             Debug.Print(" Point y = " & vArrayData(1))
+             Debug.Print(" Point z = " & vArrayData(2))
+             Debug.Print("")
+             sketchPt = sketchMgr.CreatePoint(vArrayData(0), vArrayData(1), vArrayData(2))
+         Next i
+         sketchMgr.Insert3DSketch(True)
+     End Sub
+    Public swApp As SldWorks
 End Class
+```

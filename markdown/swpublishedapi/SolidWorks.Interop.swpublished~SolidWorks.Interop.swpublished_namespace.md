@@ -38,6 +38,9 @@ SOLIDWORKS custom interfaces API
 | ISwQuickTip | Must be implemented by an add-in application to create Quick Tips for that add-in. |
 | ISwUndoAPIHandler | Undo an add-in application's previously processed commands. |
 | IUserNotificationHandler | Must be implemented by the add-in application to handle callbacks from IUserNotificationDefinition . |
+| MessageBarHandler |  |
+| SwPEManager |  |
+| UserNotificationHandler |  |
 
 ## See Also
 

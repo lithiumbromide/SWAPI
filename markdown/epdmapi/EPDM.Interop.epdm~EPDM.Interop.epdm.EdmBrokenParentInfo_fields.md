@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo_fields.
 
 # EdmBrokenParentInfo Structure Fields
 
-For a list of all members of this type, see[EdmBrokenParentInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo_members.html).
+For a list of all members of this type, see [EdmBrokenParentInfo members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo_members.html).
 
 ## Public Fields
 
@@ -27,5 +27,4 @@ For a list of all members of this type, see[EdmBrokenParentInfo members](EPDM.In
 ## See Also
 
 [EdmBrokenParentInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBrokenParentInfo.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

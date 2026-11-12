@@ -54,97 +54,44 @@ void SetMaterialPropertyValues2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Material_values`: Array of material property values
-- `Config_opt`: Configuration option as defined in[swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
+- `Config_opt`: Configuration option as defined in [swInConfigurationOpts_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swInConfigurationOpts_e.html)
 - `Config_names`: Array of configuration names
 
 ## VBA Syntax
 
-See
-
-[Feature::SetMaterialPropertyValues2](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetMaterialPropertyValues2.html)
-
-.
+See [Feature::SetMaterialPropertyValues2](ms-its:sldworksapivb6.chm::/sldworks~Feature~SetMaterialPropertyValues2.html).
 
 ## Remarks
 
-The material properties are color (R,G,B values), reflectivity (ambient,diffuse, specular, shininess), transparency, and emission. Valid values are between 0.0 and 1.0, inclusive, for all material properties.
+The material properties are color (R,G,B values), reflectivity (ambient, diffuse, specular, shininess), transparency, and emission. Valid values are between 0.0 and 1.0, inclusive, for all material properties.
 
 If you set Config_opt to swThisConfiguration or swAllConfiguration, then Config_names is ignored.
 
 The format of the Material_values array:
 
-[R, G, B, Ambient, Diffuse, Specular, Shininess, Transparency, Emission]
+[ R, G, B, Ambient, Diffuse, Specular, Shininess, Transparency, Emission ]
 
 To see a color change, you must:
 
-1. Specify
-
-  R
-
-  ,
-
-  G
-
-  , and
-
-  B
-
-  , each with a value between 0.0 and 1.0, inclusive. (These values are internally multiplied by 255.0 to determine the RGB color.)
-2. Specify the reflectivity properties (
-
-  Diffuse
-
-  ,
-
-  Specular
-
-  ,
-
-  Shininess
-
-  (1.0 - Specular spread/Blurriness)), each with a value greater than 0.0 and less than or equal to 1.0.
-3. Specify
-
-  Ambient
-
-  ,
-
-  Transparency
-
-  and
-
-  Emission
-
-  , each with a value between 0.0 and 1.0, inclusive.
+1. Specify `R`, `G`, and `B`, each with a value between 0.0 and 1.0, inclusive. (These values are internally multiplied by 255.0 to determine the RGB color.)
+2. Specify the reflectivity properties (`Diffuse`, `Specular`, `Shininess` (1.0 - Specular spread/Blurriness)), each with a value greater than 0.0 and less than or equal to 1.0.
+3. Specify `Ambient`, `Transparency` and `Emission`, each with a value between 0.0 and 1.0, inclusive.
 4. Refresh the graphics area after calling this method.
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::ISetMaterialPropertyValues2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~ISetMaterialPropertyValues2.html)
-
 [IFeature::GetMaterialPropertyValues2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetMaterialPropertyValues2.html)
-
 [IFeature::IGetMaterialPropertyValues2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IGetMaterialPropertyValues2.html)
-
 [IFeature::IRemoveMaterialProperty2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~IRemoveMaterialProperty2.html)
-
 [IFeature::RemoveMaterialProperty2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~RemoveMaterialProperty2.html)
-
 [IFeature::HasMaterialPropertyValues Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~HasMaterialPropertyValues.html)
 
 ## Availability

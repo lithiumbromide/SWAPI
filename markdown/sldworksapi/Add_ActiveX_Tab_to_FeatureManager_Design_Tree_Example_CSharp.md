@@ -9,8 +9,7 @@ source: "sldworksapi/Add_ActiveX_Tab_to_FeatureManager_Design_Tree_Example_CShar
 
 # Add ActiveX Tab to FeatureManager Design Tree Example (C#)
 
-This example shows how to add a tab to the FeatureManager design tree using
-three on-disk bitmap files for the tab's scaleable icon.
+This example shows how to add a tab to the FeatureManager design tree using three on-disk bitmap files for the tab's scaleable icon.
 
 ```
 //----------------------------------------------------------
@@ -79,8 +78,7 @@ namespace AddTabFeatureManagerDesignTreeCSharp.csproj
                 ctrlBtm = (RICHEDITCTRLLib.RichEditCtrl)swFeatMgrTabBtm.GetControl();
 ```
 
-activePane =
-swFeatMgrTabBtm.ActivateView();
+activePane = swFeatMgrTabBtm.ActivateView();
 
 ```
         }

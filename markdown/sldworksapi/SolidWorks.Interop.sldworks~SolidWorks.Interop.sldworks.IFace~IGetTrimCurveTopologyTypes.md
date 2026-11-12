@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IGetTrimCurveTopologyTypes Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IGetTrimCurveTopologyTypes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetTrimCurveTopologyTypes.html)
-
-.
+Obsolete. Superseded by [IFace2::IGetTrimCurveTopologyTypes](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetTrimCurveTopologyTypes.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int IGetTrimCurveTopologyTypes()
 System.int IGetTrimCurveTopologyTypes();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Face::IGetTrimCurveTopologyTypes](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetTrimCurveTopologyTypes.html)
-
-.
+See [Face::IGetTrimCurveTopologyTypes](ms-its:sldworksapivb6.chm::/sldworks~Face~IGetTrimCurveTopologyTypes.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

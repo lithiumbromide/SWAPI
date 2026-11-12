@@ -57,23 +57,15 @@ ID of markup comment specified by CommentIndex
 
 ## VBA Syntax
 
-See
-
-[EModelMarkupControl::CommentID](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~CommentID.html)
-
-.
+See [EModelMarkupControl::CommentID](ms-its:emodelapivb6.chm::/EModelViewMarkup~EModelMarkupControl~CommentID.html).
 
 ## Examples
 
-See the
-
-[IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl.html)
-
-example.
+See the [IEModelMarkupControl](eDrawings.Interop.EModelMarkupControl.html) example.
 
 ## Remarks
 
-Use[IEModelMarkupControl::CommentCount](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentCount.html)before using this property to determine the index number of the markup comments.
+Use [IEModelMarkupControl::CommentCount](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentCount.html) before using this property to determine the index number of the markup comments.
 
 Use this property before using:
 
@@ -83,9 +75,7 @@ Use this property before using:
 ## See Also
 
 [IEModelMarkupControl Interface](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl.html)
-
 [IEModelMarkupControl Members](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl_members.html)
-
 [IEModelMarkupControl::CommentIDx64 Property](eDrawings.Interop.EModelMarkupControl~eDrawings.Interop.EModelMarkupControl.IEModelMarkupControl~CommentIDx64.html)
 
 ## Availability

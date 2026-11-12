@@ -40,25 +40,15 @@ Curve IGetCurve()
 Curve^ IGetCurve();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Pointer to the curve that is attached to this coedge (see**Remarks**)
+Pointer to the curve that is attached to this coedge (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CoEdge::IGetCurve](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~IGetCurve.html)
-
-.
+See [CoEdge::IGetCurve](ms-its:sldworksapivb6.chm::/sldworks~CoEdge~IGetCurve.html).
 
 ## Remarks
 
@@ -70,9 +60,7 @@ This method may return NULL if no geometry is attached to the coedge. The edge m
 ## See Also
 
 [ICoEdge Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge.html)
-
 [ICoEdge Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge_members.html)
-
 [ICoEdge::GetCurve Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoEdge~GetCurve.html)
 
 ## Availability

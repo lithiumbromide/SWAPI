@@ -42,32 +42,23 @@ System.int CFForceEndEdit();
 
 ### Return Value
 
-Error as defined in[swsCentrifugalForceEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsCentrifugalForceEndEditError_e.html)
+Error as defined in [swsCentrifugalForceEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsCentrifugalForceEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWCentriFugalForce::CFForceEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~CFForceEndEdit.html)
-
-.
+See [CWCentriFugalForce::CFForceEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCentriFugalForce~CFForceEndEdit.html).
 
 ## Examples
 
-See the
-
-[ICWCentriFugalForce](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
-examples.
+See the [ICWCentriFugalForce](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html) examples.
 
 ## Remarks
 
-You must call[ICWCentrifugalForce::CFForceBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWCentriFugalForce~CFForceBeginEdit.html)to start editing a centrifugal force. To end editing a centrifugal force, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWCentrifugalForce::CFForceBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWCentriFugalForce~CFForceBeginEdit.html) to start editing a centrifugal force. To end editing a centrifugal force, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWCentriFugalForce Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce.html)
-
 [ICWCentriFugalForce Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCentriFugalForce_members.html)
 
 ## Availability

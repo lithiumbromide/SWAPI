@@ -63,26 +63,12 @@ SketchBlockDefinition^ MakeSketchBlockFromFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `InsertionPoint`: [Insertion point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html)
-
-, which is a 2D point with z = 0.0, for the block definition
-- `FileName`: Name of the external file to use
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-to create the block definition
+- `InsertionPoint`: [Insertion point](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathPoint.html), which is a 2D point with z = 0.0, for the block definition
+- `FileName`: Name of the external file to use to create the block definition
 - `LinkedToFile`: True to link the block definition to the file, false to not
 - `Scale`: Scale for the block definition
 - `Angle`: Rotation angle for the block definition
@@ -93,36 +79,24 @@ to create the block definition
 
 ## VBA Syntax
 
-See
-
-[SketchManager::MakeSketchBlockFromFile](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~MakeSketchBlockFromFile.html)
-
-.
+See [SketchManager::MakeSketchBlockFromFile](ms-its:sldworksapivb6.chm::/sldworks~SketchManager~MakeSketchBlockFromFile.html).
 
 ## Remarks
 
 If the entities of a block are associated with one or more layers and those layers do not already exist in the drawing, then the layers are inserted in the drawing and the associations between the entities of the block and the layers are maintained.
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
 The block instance is inserted on the current drawing layer.
 
-See[Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm)for details.
+See [Block Definitions and Block Instances](sldworksAPIProgGuide.chm::/OVERVIEW/Block_Definitions_and_Block_Instances.htm) for details.
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::MakeSketchBlockFromSelected Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~MakeSketchBlockFromSelected.html)
-
 [ISketchManager::MakeSketchBlockFromSketch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~MakeSketchBlockFromSketch.html)
-
 [ISketchBlockDefinition::FileName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~FileName.html)
-
 [ISketchBlockDefinition::LinkToFile Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~LinkToFile.html)
-
 [ISketchBlockDefinition::Save Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~Save.html)
 
 ## Availability

@@ -83,21 +83,11 @@ System.bool SelectedFeatureProperties(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `RgbColor`: Color of feature (see
-
-Remarks
-
-)
+- `RgbColor`: Color of feature (see **Remarks**)
 - `Ambient`: 0.0 <= Ambient value <= 1.0
 - `Diffuse`: 0.0 < Diffuse value <= 1.0
 - `Specular`: 0.0 < Specular value <= 1.0
@@ -114,11 +104,7 @@ True if feature's properties are successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SelectedFeatureProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SelectedFeatureProperties.html)
-
-.
+See [ModelDoc2::SelectedFeatureProperties](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SelectedFeatureProperties.html).
 
 ## Examples
 
@@ -128,44 +114,18 @@ See
 
 To see a color change, you must:
 
-1. Specify the reflectivity properties (
-
-  Diffuse
-
-  ,
-
-  Specular
-
-  ,
-
-  Shininess
-
-  (1.0 - Specular spread/Blurriness)), each with a value greater than 0.0 and less than or equal to 1.0.
-2. Specify
-
-  Ambient
-
-  ,
-
-  Transparency
-
-  and
-
-  Emission
-
-  , each with a value between 0.0 and 1.0, inclusive.
+1. Specify the reflectivity properties (`Diffuse`, `Specular`, `Shininess` (1.0 - Specular spread/Blurriness)), each with a value greater than 0.0 and less than or equal to 1.0.
+2. Specify `Ambient`, `Transparency` and `Emission`, each with a value between 0.0 and 1.0, inclusive.
 3. Refresh the graphics area after calling this method.
 
-This method is different from[IModelDodc2::SelectedEdgeProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectedEdgeProperties.html)and[IModelDoc2::SelectedFaceProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectedFaceProperties.html)in that it allows you to change the name of this feature. All features have names; however, a face or edge typically has a name only if it is being referenced. Because it is dangerous to change the name of a referenced object, you cannot programmatically change the names of faces or edges. See[IFeature::Name](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~Name.html)and[IPartDoc::SetEntityName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~SetEntityName.html)for additional information.
+This method is different from [IModelDodc2::SelectedEdgeProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectedEdgeProperties.html) and [IModelDoc2::SelectedFaceProperties](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~SelectedFaceProperties.html) in that it allows you to change the name of this feature. All features have names; however, a face or edge typically has a name only if it is being referenced. Because it is dangerous to change the name of a referenced object, you cannot programmatically change the names of faces or edges. See [IFeature::Name](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~Name.html) and [IPartDoc::SetEntityName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~SetEntityName.html) for additional information.
 
-This method requires that the feature to be selected. To select the feature programmatically, you can use[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)and pass in the feature name and the appropriate object type (for example, "BODYFEATURE", "ATTRIBUTE", "PLANE", "SKETCH", and so on) and the selection coordinates 0,0,0. To determine the feature name and object type, use the[IFeature::Name](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~Name.html)and[IFeature::GetTypeName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetTypeName.html)methods, respectively.
+This method requires that the feature to be selected. To select the feature programmatically, you can use [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) and pass in the feature name and the appropriate object type (for example, "BODYFEATURE", "ATTRIBUTE", "PLANE", "SKETCH", and so on) and the selection coordinates 0,0,0. To determine the feature name and object type, use the [IFeature::Name](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~Name.html) and [IFeature::GetTypeName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature~GetTypeName.html) methods, respectively.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
 
 ## Availability

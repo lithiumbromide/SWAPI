@@ -42,30 +42,23 @@ System.int TakeOwnership();
 
 ### Return Value
 
-0 if successful, an exception is thrown if not (seeRemarks)
+0 if successful, an exception is thrown if not (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::TakeOwnership](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~TakeOwnership.html)
-
-.
+See [PDMWDocument::TakeOwnership](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~TakeOwnership.html).
 
 ## Remarks
 
-Before you can check a document in, you must own it. See[IPDMWConnection::Checkin](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CheckIn.html)for details about checking in documents.
+Before you can check a document in, you must own it. See [IPDMWConnection::Checkin](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~CheckIn.html) for details about checking in documents.
 
-If a call to this method fails, theDocument ownership was denied exceptionis thrown. You can trap this exception using a try/catch block in C# or C++, or On Error in VB.
+If a call to this method fails, the Document ownership was denied exception is thrown. You can trap this exception using a try/catch block in C# or C++, or On Error in VB.
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::ChangeOwner Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ChangeOwner.html)
-
 [IPDMWDocument::ReleaseOwnership Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ReleaseOwnership.html)
 
 ## Availability

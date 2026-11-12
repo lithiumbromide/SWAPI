@@ -40,13 +40,7 @@ System.bool GetStagger()
 System.bool GetStagger();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,28 +48,19 @@ True if this is a stagger weld, false if not
 
 ## VBA Syntax
 
-See
-
-[WeldSymbol::GetStagger](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetStagger.html)
-
-.
+See [WeldSymbol::GetStagger](ms-its:sldworksapivb6.chm::/sldworks~WeldSymbol~GetStagger.html).
 
 ## Examples
 
-See the
-
-[IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
-examples.
+See the [IWeldSymbol](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html) examples.
 
 ## Remarks
 
-To set the weld symbol to a stagger weld, use[IWeldSymbol::SetStagger](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~SetStagger.html).
+To set the weld symbol to a stagger weld, use [IWeldSymbol::SetStagger](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldSymbol~SetStagger.html).
 
 ## See Also
 
 [IWeldSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol.html)
-
 [IWeldSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldSymbol_members.html)
 
 ## Availability

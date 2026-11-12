@@ -40,7 +40,6 @@ True if this version has one or more revisions, false if not
 ## See Also
 
 [IEdmVersion5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5.html)
-
 [IEdmVersion5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmVersion5_members.html)
 
 ## Availability

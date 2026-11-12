@@ -51,13 +51,7 @@ Body2^ ICreateBodyFromFaces(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,24 +60,16 @@ See
 
 ### Return Value
 
-[IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
-
-object
+[IBody2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html) object
 
 ## VBA Syntax
 
-See
-
-[Body2::ICreateBodyFromFaces](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateBodyFromFaces.html)
-
-.
+See [Body2::ICreateBodyFromFaces](ms-its:sldworksapivb6.chm::/sldworks~Body2~ICreateBodyFromFaces.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::CreateBodyFromFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~CreateBodyFromFaces.html)
 
 ## Availability

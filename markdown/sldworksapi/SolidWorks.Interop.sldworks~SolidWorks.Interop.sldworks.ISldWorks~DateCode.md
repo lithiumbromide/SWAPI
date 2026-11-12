@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # DateCode Method (ISldWorks)
 
-Obsolete. Superseded by
-
-[ISldWorks::RevisionNumber](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RevisionNumber.html)
-
-.
+Obsolete. Superseded by [ISldWorks::RevisionNumber](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~RevisionNumber.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int DateCode()
 System.int DateCode();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SldWorks::DateCode](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~DateCode.html)
-
-.
+See [SldWorks::DateCode](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~DateCode.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)

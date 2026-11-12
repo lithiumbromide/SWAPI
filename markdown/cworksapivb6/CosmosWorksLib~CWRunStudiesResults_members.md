@@ -1,6 +1,5 @@
 ---
-title: "CWRunStudiesResults Object
-Members"
+title: "CWRunStudiesResults Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWRunStudiesResults_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWRunStudiesResults_members.html"
 ---
 
-# CWRunStudiesResults Object
-Members
+# CWRunStudiesResults Object Members
 
 ## Public Methods
 

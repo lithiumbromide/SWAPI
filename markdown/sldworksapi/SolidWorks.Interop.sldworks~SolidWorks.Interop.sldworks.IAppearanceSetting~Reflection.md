@@ -45,29 +45,15 @@ property System.double Reflection {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-0 <=
-
-reflectivity
-
-<= 1, where 0 is for no reflection, and 1 is for a mirror reflection
+0 <= `reflectivity` <= 1, where 0 is for no reflection, and 1 is for a mirror reflection
 
 ## VBA Syntax
 
-See
-
-[AppearanceSetting::Reflection](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~Reflection.html)
-
-.
+See [AppearanceSetting::Reflection](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~Reflection.html).
 
 ## Remarks
 
@@ -76,7 +62,6 @@ See SOLIDWORKS Help for more information about appearances.
 ## See Also
 
 [IAppearanceSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting.html)
-
 [IAppearanceSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting_members.html)
 
 ## Availability

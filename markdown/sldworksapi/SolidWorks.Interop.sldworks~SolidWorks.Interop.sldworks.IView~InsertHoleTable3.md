@@ -79,28 +79,18 @@ System.Object^ InsertHoleTable3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `UseAnchorPoint`: If true, and the sheet format anchor point exists, then insert table at the anchor point; if false, then insert the table at the location specified by the X and Y parameters
 - `X`: X coordinate in meters for the anchor of this hole table
 - `Y`: Y coordinate in meters for the anchor of this hole table
-- `AnchorType`: Anchor type as defined byParamDesc[swBomConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html)
+- `AnchorType`: Anchor type as defined by [swBomConfigurationAnchorType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swBOMConfigurationAnchorType_e.html)
 - `StartValue`: Starting value for the specified TagType
-- `Template`: Path and filename of the hole table template that corresponds to the hole table you want to create (seeRemarks)
-- `TagOrder`: Tag numbering as defined in
-
-[swHoleTableTagOrder_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleTableTagOrder_e.html)
-- `TagType`: Tag type as defined in
-
-[swHoleTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleTableTagStyle_e.html)
+- `Template`: Path and filename of the hole table template that corresponds to the hole table you want to create (see Remarks)
+- `TagOrder`: Tag numbering as defined in [swHoleTableTagOrder_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleTableTagOrder_e.html)
+- `TagType`: Tag type as defined in [swHoleTableTagStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swHoleTableTagStyle_e.html)
 - `ManualTags`: Array of custom tags; valid only if TagType is swHoleTableTagStyle_e.swHoleTable_ManualTags
 
 ### Return Value
@@ -109,18 +99,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[View::InsertHoleTable3](ms-its:sldworksapivb6.chm::/sldworks~View~InsertHoleTable3.html)
-
-.
+See [View::InsertHoleTable3](ms-its:sldworksapivb6.chm::/sldworks~View~InsertHoleTable3.html).
 
 ## Examples
 
 [Insert Hole Table (VBA)](Insert_Hole_Table_Example_VB.htm)
-
 [Insert Hole Table (VB.NET)](Insert_Hole_Table_Example_VBNET.htm)
-
 [Insert Hole Table (C#)](Insert_Hole_Table_Example_CSharp.htm)
 
 ## Remarks
@@ -134,7 +118,7 @@ This method inserts a hole table with the following information for selected hol
 
 This method displays datum tags next to holes that have been pre-selected in the view. The location of the datum tags is relative to a datum origin that is also pre-selected in the view.
 
-Before calling this method, call[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)to select the datum origin, hole edges, and faces (for multiple holes) as follows:
+Before calling this method, call [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) to select the datum origin, hole edges, and faces (for multiple holes) as follows:
 
 | Selection | Mark |
 | --- | --- |
@@ -145,35 +129,12 @@ Before calling this method, call[IModelDocExtension::SelectByID2](SOLIDWORKS.Int
 
 Specify Template using a hole table template (***.sldholtbt**):
 
-- in
-
-  install_dir
-
-  \
-
-  lang
-
-  \
-
-  l
-
-  anguage
-
-  .
-- that matches the table you want to create. For example, to insert a hole table with letter tags, specify Template using
-
-  install_dir
-
-  \
-
-  lang\English\standard hole table--letters.sldholtbt
-
-  .
+- in install_dir\lang\`language`.
+- that matches the table you want to create. For example, to insert a hole table with letter tags, specify Template using `install_dir`\lang\English\standard hole table--letters.sldholtbt.
 
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
 
 ## Availability

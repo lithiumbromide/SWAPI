@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IMouse Interface Members
 
-The following tables list the members exposed by[IMouse](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMouse.html).
+The following tables list the members exposed by [IMouse](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMouse.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IMouse](SolidWorks.Interop.sldw
 ## See Also
 
 [IMouse Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMouse.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

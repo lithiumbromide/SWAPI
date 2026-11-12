@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumDisplayDimensions Interface
 
-Allows access to a
+Allows access to a [display dimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html) enumeration.
 
-[display dimensions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayDimension.html)
-
-enumeration.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IEnumDisplayDimensions
 
 ## VBA Syntax
 
-See
-
-[EnumDisplayDimensions](ms-its:sldworksapivb6.chm::/sldworks~EnumDisplayDimensions.html)
-
-.
+See [EnumDisplayDimensions](ms-its:sldworksapivb6.chm::/sldworks~EnumDisplayDimensions.html).
 
 ## Remarks
 
@@ -68,5 +60,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumDisplayDimensions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumDisplayDimensions_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -40,13 +40,7 @@ System.string GetMaterialUserName()
 System.String^ GetMaterialUserName();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,12 @@ Material user name property on this feature
 
 ## VBA Syntax
 
-See
-
-[Feature::GetMaterialUserName](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetMaterialUserName.html)
-
-.
+See [Feature::GetMaterialUserName](ms-its:sldworksapivb6.chm::/sldworks~Feature~GetMaterialUserName.html).
 
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [IFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html)
-
 [IFeature::GetMaterialIdName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetMaterialIdName.html)
-
 [IFeature::SetMaterialIdName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~SetMaterialIdName.html)
-
 [IFeature::SetMaterialUserName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~SetMaterialUserName.html)

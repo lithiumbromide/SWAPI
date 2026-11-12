@@ -9,19 +9,15 @@ source: "obsoleteapi/Component2/Component2__ReplaceReference.htm"
 
 # Component2::ReplaceReference
 
-This method is obsolete and has been superseded
-byAssemblyDoc::ReplaceComponents .
+This method is obsolete and has been superseded by [AssemblyDoc::ReplaceComponents](sldworksAPI.chm::/AssemblyDoc/AssemblyDoc__ReplaceComponents.htm).
 
 Description
 
-This method replaces the file name reference
-for this component.
+This method replaces the file name reference for this component.
 
 Syntax (OLE Automation)
 
 retval = Component2.ReplaceReference ( fileName )
-
-(Table)=========================================================
 
 | Input: | (BSTR) fileName | Fully qualified file name, including the path |
 | --- | --- | --- |
@@ -29,12 +25,7 @@ retval = Component2.ReplaceReference ( fileName )
 
 Syntax (COM)
 
-status = Component2->ReplaceReference ( fileName,
-&retval )
-
-Parameters Table Start
-
-(Table)=========================================================
+status = Component2->ReplaceReference ( fileName, &retval )
 
 | Input: | (BSTR) fileName | Fully qualified file name, including the path |
 | --- | --- | --- |
@@ -43,64 +34,6 @@ Parameters Table Start
 
 Remarks
 
-Your application must perform a rebuild after calling
-this method.
+Your application must perform a rebuild after calling this method.
 
-The component must be a top-level component. It
-cannot be a component from a sub-assembly. If the application needs to
-replace a component of the sub-assembly, then it should open the sub-assembly
-and get the component from that assembly.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001Plus$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\Component2\Component2__ReplaceReference.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Component2_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\Oneill\Component2\Component2__ReplaceReference.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+The component must be a top-level component. It cannot be a component from a sub-assembly. If the application needs to replace a component of the sub-assembly, then it should open the sub-assembly and get the component from that assembly.

@@ -40,13 +40,7 @@ System.int GetShellType()
 System.int GetShellType();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,16 +52,11 @@ Shell type:
 
 ## VBA Syntax
 
-See
-
-[Face2::GetShellType](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetShellType.html)
-
-.
+See [Face2::GetShellType](ms-its:sldworksapivb6.chm::/sldworks~Face2~GetShellType.html).
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
 
 ## Availability

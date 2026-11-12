@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPM
 
 # IPMIFrameData Interface Members
 
-The following tables list the members exposed by[IPMIFrameData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData.html).
+The following tables list the members exposed by [IPMIFrameData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData.html).
 
 ## Public Properties
 
@@ -34,5 +34,4 @@ The following tables list the members exposed by[IPMIFrameData](SolidWorks.Inter
 ## See Also
 
 [IPMIFrameData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPMIFrameData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

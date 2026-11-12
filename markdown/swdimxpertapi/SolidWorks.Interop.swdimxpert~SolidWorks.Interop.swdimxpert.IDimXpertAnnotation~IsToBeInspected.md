@@ -46,11 +46,7 @@ True if to be inspected; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertAnnotation::IsToBeInspected](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~IsToBeInspected.html)
-
-.
+See [DimXpertAnnotation::IsToBeInspected](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertAnnotation~IsToBeInspected.html).
 
 ## Remarks
 
@@ -59,7 +55,6 @@ This tolerance modifier is set by clicking the second option from the right on t
 ## See Also
 
 [IDimXpertAnnotation Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation.html)
-
 [IDimXpertAnnotation Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertAnnotation_members.html)
 
 ## Availability

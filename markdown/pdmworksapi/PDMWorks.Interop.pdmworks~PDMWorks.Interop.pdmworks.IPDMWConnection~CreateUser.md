@@ -74,7 +74,7 @@ PDMWUser^ CreateUser(
 ### Parameters
 
 - `Name`: Name of new user
-- `password`: Password for new userParamDescrequired at login
+- `password`: Password for new user required at login
 - `DisplayName`: Name of new user for vault administrator's purposes
 - `Email`: Email of new user for vault administrator's purposes
 - `Comment`: Comments for vault administrator's purposes
@@ -83,17 +83,11 @@ PDMWUser^ CreateUser(
 
 ### Return Value
 
-[IPDMWUser](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html)
-
-object
+[IPDMWUser](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWUser.html) object
 
 ## VBA Syntax
 
-See
-
-[PDMWConnection::CreateUser](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~CreateUser.html)
-
-.
+See [PDMWConnection::CreateUser](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConnection~CreateUser.html).
 
 ## Remarks
 
@@ -102,15 +96,10 @@ Only a vault administrator can use this method.
 ## See Also
 
 [IPDMWConnection Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection.html)
-
 [IPDMWConnection Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection_members.html)
-
 [IPDMWConnection::DeleteUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConnection~DeleteUser.html)
-
 [IPDMGroup::AddUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~AddUser.html)
-
 [IPDMProject::RemoveUser Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup~RemoveUser.html)
-
 [IPDMGroup::SetUserPermissions Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~SetUserPermissions.html)
 
 ## Availability

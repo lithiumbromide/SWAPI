@@ -9,11 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCo
 
 # GlobalContact Property (ICWContactComponent)
 
-Obsolete. Superseded by
-
-[ICWContactComponent::GlobalContact2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~GlobalContact2.html)
-
-.
+Obsolete. Superseded by [ICWContactComponent::GlobalContact2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~GlobalContact2.html).
 
 ## Syntax
 
@@ -55,30 +51,21 @@ property System.int GlobalContact {
 
 ## VBA Syntax
 
-See
-
-[CWContactComponent::GlobalContact](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~GlobalContact.html)
-
-.
+See [CWContactComponent::GlobalContact](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactComponent~GlobalContact.html).
 
 ## Examples
 
-See the
-
-[ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
-examples.
+See the [ICWContactComponent](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html) examples.
 
 ## Remarks
 
 Set this property to 1 to apply a bonded contact to all components in an assembly.
 
-If you set this property to 0, call[ICWContactComponent::InsertEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~InsertEntity.html)to specify contact components.
+If you set this property to 0, call [ICWContactComponent::InsertEntity](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent~InsertEntity.html) to specify contact components.
 
 ## See Also
 
 [ICWContactComponent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent.html)
-
 [ICWContactComponent Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactComponent_members.html)
 
 ## Availability

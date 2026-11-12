@@ -33,15 +33,11 @@ void Flush();
 
 ## Examples
 
-See the example for
-
-[IEdmEnumeratorVariable8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8.html)
-
-.
+See the example for [IEdmEnumeratorVariable8](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable8.html).
 
 ## Remarks
 
-You must call this method after calling[IEdmEnumeratorVariable5::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~SetVar.html)to ensure that new data gets properly saved.
+You must call this method after calling [IEdmEnumeratorVariable5::SetVar](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5~SetVar.html) to ensure that new data gets properly saved.
 
 [Return codes](ReturnCodes.htm):
 
@@ -51,7 +47,6 @@ You must call this method after calling[IEdmEnumeratorVariable5::SetVar](EPDM.In
 ## See Also
 
 [IEdmEnumeratorVariable5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5.html)
-
 [IEdmEnumeratorVariable5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmEnumeratorVariable5_members.html)
 
 ## Availability

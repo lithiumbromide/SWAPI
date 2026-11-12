@@ -51,27 +51,18 @@ Custom library feature cost for sheet metal parts
 
 ## VBA Syntax
 
-See
-
-[TemplateOverrides::CustomLibraryFeatureCost](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~CustomLibraryFeatureCost.html)
-
-.
+See [TemplateOverrides::CustomLibraryFeatureCost](swcostingapivb6.chm::/SldCostingAPI~TemplateOverrides~CustomLibraryFeatureCost.html).
 
 ## Remarks
 
 Setting this property is only applied if:
 
-- [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html)
-
-  is swcMethodType_e.swcMethodType_Sheetmetal.
-- [ITemplateOverrides::UseCustomLibraryFeatureCost](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~UseCustomLibraryFeatureCost.html)
-
-  is true.
+- [ICostPart::GetCostingMethod](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostPart~GetCostingMethod.html) is swcMethodType_e.swcMethodType_Sheetmetal.
+- [ITemplateOverrides::UseCustomLibraryFeatureCost](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides~UseCustomLibraryFeatureCost.html) is true.
 
 ## See Also
 
 [ITemplateOverrides Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides.html)
-
 [ITemplateOverrides Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ITemplateOverrides_members.html)
 
 ## Availability

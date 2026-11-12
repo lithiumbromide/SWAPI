@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5~GetTransition.
 
 # GetTransition Method (IEdmWorkflow5)
 
-Obsolete. Superseded by
-
-[IEdmWorkflow6::GetTransition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetTransition.html)
-
-.
+Obsolete. Superseded by [IEdmWorkflow6::GetTransition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetTransition.html).
 
 ## Syntax
 
@@ -48,5 +44,4 @@ IEdmTransition5^ GetTransition(
 ## See Also
 
 [IEdmWorkflow5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5.html)
-
 [IEdmWorkflow5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow5_members.html)

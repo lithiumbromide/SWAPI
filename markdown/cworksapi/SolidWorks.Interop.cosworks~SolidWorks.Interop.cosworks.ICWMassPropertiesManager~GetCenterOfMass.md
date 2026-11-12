@@ -46,24 +46,15 @@ Array of x, y, and z coordinates of the center of mass
 
 ## VBA Syntax
 
-See
-
-[CWMassPropertiesManager::GetCenterOfMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~GetCenterOfMass.html)
-
-.
+See [CWMassPropertiesManager::GetCenterOfMass](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMassPropertiesManager~GetCenterOfMass.html).
 
 ## Examples
 
-See the
-
-[ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
-examples.
+See the [ICWMassPropertiesManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html) examples.
 
 ## See Also
 
 [ICWMassPropertiesManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager.html)
-
 [ICWMassPropertiesManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMassPropertiesManager_members.html)
 
 ## Availability

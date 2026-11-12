@@ -11,13 +11,7 @@ source: "routingapi/SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRouting
 
 Allows access to the Routing Highlight Search tool in an electrical (ECAD) drawing and electrical route assembly.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,18 +41,12 @@ public interface class IAdvancedRouteSelector
 
 ## VBA Syntax
 
-See
-
-[AdvancedRouteSelector](ms-its:routingapivb6.chm::/SWRoutingLib~AdvancedRouteSelector.html)
-
-.
+See [AdvancedRouteSelector](ms-its:routingapivb6.chm::/SWRoutingLib~AdvancedRouteSelector.html).
 
 ## Examples
 
 [Select Connector Using Highlight Search Tool (VBA)](Select_Connector_Using_Highlight_Search_Tool_Example_VB.htm)
-
 [Select Connector Using Highlight Search Tool (VB.NET)](Select_Connector_Using_Highlight_Search_Tool_Example_VBNET.htm)
-
 [Select Connector Using Highlight Search Tool (C#)](Select_Connector_Using_Highlight_Search_Tool_Example_CSharp.htm)
 
 ## Remarks
@@ -72,5 +60,4 @@ See the SOLIDWORKS Routing Help for details about the Highlight Search tool.
 ## See Also
 
 [IAdvancedRouteSelector Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IAdvancedRouteSelector_members.html)
-
 [SolidWorks.Interop.SWRoutingLib Namespace](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib_namespace.html)

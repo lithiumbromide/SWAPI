@@ -40,44 +40,24 @@ System.object GetSheetMetals()
 System.Object^ GetSheetMetals();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-s
+Array of [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)s
 
 ## VBA Syntax
 
-See
-
-[SheetMetalFolder::GetSheetMetals](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFolder~GetSheetMetals.html)
-
-.
+See [SheetMetalFolder::GetSheetMetals](ms-its:sldworksapivb6.chm::/sldworks~SheetMetalFolder~GetSheetMetals.html).
 
 ## Examples
 
-See
-
-[ISheetMetalFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFolder.html)
-
-examples.
+See [ISheetMetalFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISheetMetalFolder.html) examples.
 
 ## See Also
 
 [ISheetMetalFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFolder.html)
-
 [ISheetMetalFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFolder_members.html)
-
 [ISheetMetalFolder::GetSheetMetalCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheetMetalFolder~GetSheetMetalCount.html)
 
 ## Availability

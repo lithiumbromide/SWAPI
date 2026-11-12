@@ -42,13 +42,7 @@ property System.double AngleMadeWithViewHorizontal {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,16 +50,11 @@ Angle
 
 ## VBA Syntax
 
-See
-
-[AnnotationView::AngleMadeWithViewHorizontal](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~AngleMadeWithViewHorizontal.html)
-
-.
+See [AnnotationView::AngleMadeWithViewHorizontal](ms-its:sldworksapivb6.chm::/sldworks~AnnotationView~AngleMadeWithViewHorizontal.html).
 
 ## See Also
 
 [IAnnotationView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView.html)
-
 [IAnnotationView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotationView_members.html)
 
 ## Availability

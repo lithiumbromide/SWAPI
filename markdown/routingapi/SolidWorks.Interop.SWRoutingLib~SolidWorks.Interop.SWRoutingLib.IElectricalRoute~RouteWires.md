@@ -42,19 +42,11 @@ System.bool RouteWires();
 
 ### Return Value
 
-True if the some or all wires are routed, false if not (see
-
-Remarks
-
-)
+True if the some or all wires are routed, false if not (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[ElectricalRoute::RouteWires](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRoute~RouteWires.html)
-
-.
+See [ElectricalRoute::RouteWires](ms-its:routingapivb6.chm::/SWRoutingLib~ElectricalRoute~RouteWires.html).
 
 ## Examples
 
@@ -67,9 +59,7 @@ Wires are routed if the "from" and "to" component references are defined and if 
 ## See Also
 
 [IElectricalRoute Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute.html)
-
 [IElectricalRoute Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IElectricalRoute_members.html)
-
 [IWire Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IWire.html)
 
 ## Availability

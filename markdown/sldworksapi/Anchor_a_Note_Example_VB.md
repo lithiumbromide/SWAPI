@@ -12,11 +12,22 @@ source: "sldworksapi/Anchor_a_Note_Example_VB.htm"
 This example shows how to:
 
 - insert a note.
-- set a note's text to all uppercase
-  and its vertical justification to bottom.
+- set a note's text to all uppercase and its vertical justification to bottom.
 - anchor and position a note.
 
-'---------------------------------------------------------------------------- ' Preconditions: Open public_documents \samples\tutorial\advdrawings\foodprocessor.slddrw . ' ' Postconditions: ' 1. Inserts a note. ' 2. Sets the note's text to all uppercase and its vertical justification ' to bottom. ' 3. Locks the note at the specified position. ' 4. Examine the graphics area. ' ' NOTE: Because the model is used elsewhere, do not save changes. '--------------------------------------------------------------------------- Option Explicit
+'----------------------------------------------------------------------------
+' Preconditions: Open `public_documents`**\samples\tutorial\advdrawings\foodprocessor.slddrw**.
+'
+' Postconditions:
+' 1. Inserts a note.
+' 2. Sets the note's text to all uppercase and its vertical justification
+' to bottom.
+' 3. Locks the note at the specified position.
+' 4. Examine the graphics area.
+'
+' NOTE: Because the model is used elsewhere, do not save changes.
+'---------------------------------------------------------------------------
+Option Explicit
 
 ```vb
 Dim swApp As SldWorks.SldWorks

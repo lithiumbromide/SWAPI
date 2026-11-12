@@ -46,16 +46,11 @@ struct EdmListRef
 
 ## Remarks
 
-Returned by
-
-[IEdmBatchListing3::GetReferences](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3~GetReferences.html)
-
-.
+Returned by [IEdmBatchListing3::GetReferences](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3~GetReferences.html).
 
 ## See Also
 
 [EdmListRef Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListRef_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
 
 ## Availability

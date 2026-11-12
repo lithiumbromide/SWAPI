@@ -9,11 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo~meType.html"
 
 # meType Field
 
-BOM type as defined in
-
-[EdmBomType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomType.html)
-
-.
+BOM type as defined in [EdmBomType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomType.html).
 
 ## Syntax
 
@@ -39,5 +35,4 @@ EdmBomType meType
 ## See Also
 
 [EdmBomInfo Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo.html)
-
 [EdmBomInfo Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmBomInfo_members.html)

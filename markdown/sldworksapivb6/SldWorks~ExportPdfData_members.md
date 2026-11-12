@@ -1,6 +1,5 @@
 ---
-title: "ExportPdfData Object
-Members"
+title: "ExportPdfData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "ExportPdfData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~ExportPdfData_members.html"
 ---
 
-# ExportPdfData Object
-Members
+# ExportPdfData Object Members
 
 ## Public Methods
 

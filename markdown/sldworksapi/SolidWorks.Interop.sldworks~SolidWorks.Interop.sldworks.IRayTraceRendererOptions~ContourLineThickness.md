@@ -45,13 +45,7 @@ property System.int ContourLineThickness {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,22 @@ Thickness, in pixels, of contour lines
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::ContourLineThickness](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~ContourLineThickness.html)
-
-.
+See [RayTraceRendererOptions::ContourLineThickness](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~ContourLineThickness.html).
 
 ## Examples
 
 [Render Model (C#)](Render_Model_Example_CSharp.htm)
-
 [Render Model (VB.NET)](Render_Model_Example_VBNET.htm)
-
 [Render Model (VBA)](Render_Model_Example_VB.htm)
 
 ## Remarks
 
-This property is only available when
-
-[IRayTraceRendererOptions::ContourCartoonRenderingEnabled](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ContourCartoonRenderingEnabled.html)
-
-is true.
+This property is only available when [IRayTraceRendererOptions::ContourCartoonRenderingEnabled](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ContourCartoonRenderingEnabled.html) is true.
 
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRendererOptions::ContourLineColor Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ContourLineColor.html)
 
 ## Availability

@@ -44,32 +44,20 @@ property System.int NonlinearAnalysisSubType {
 
 ### Property Value
 
-Nonlinear subtype as defined in
-
-[swsNonlinearAnalysisSubType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsNonlinearAnalysisSubType_e.html)
+Nonlinear subtype as defined in [swsNonlinearAnalysisSubType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsNonlinearAnalysisSubType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudy::NonlinearAnalysisSubType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~NonlinearAnalysisSubType.html)
-
-.
+See [CWStudy::NonlinearAnalysisSubType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~NonlinearAnalysisSubType.html).
 
 ## Examples
 
-See the
-
-[ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html)
-
-examples.
+See the [ICWNonLinearStudyOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWNonLinearStudyOptions.html) examples.
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
-
 [ICWStudy::NonLinearStudyOptions Property ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy~NonLinearStudyOptions.html)
 
 ## Availability

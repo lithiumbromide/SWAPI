@@ -57,16 +57,12 @@ void GetSelectedObjectsBBox(
 ### Parameters
 
 - `pDoc`: SOLIDWORKS document
-- `Option`: Option as defined in[swAddinBrokerBBoxOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddinBrokerBBoxOption_e.html)
+- `Option`: Option as defined in [swAddinBrokerBBoxOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAddinBrokerBBoxOption_e.html)
 - `BoxCorners`: Array of six doubles of the points of the bounding box
 
 ## VBA Syntax
 
-See
-
-[SwAddinBroker::GetSelectedObjectsBBox](ms-its:swpublishedapivb6.chm::/swpublished~SwAddinBroker~GetSelectedObjectsBBox.html)
-
-.
+See [SwAddinBroker::GetSelectedObjectsBBox](ms-its:swpublishedapivb6.chm::/swpublished~SwAddinBroker~GetSelectedObjectsBBox.html).
 
 ## Remarks
 
@@ -75,7 +71,6 @@ The order of the points follows the same convention as all SOLIDWORKS bounding b
 ## See Also
 
 [ISwAddinBroker Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker.html)
-
 [ISwAddinBroker Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwAddinBroker_members.html)
 
 ## Availability

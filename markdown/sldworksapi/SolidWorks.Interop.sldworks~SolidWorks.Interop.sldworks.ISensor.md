@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 Allows access to a sensor, which can monitor selected properties of parts and assemblies and alert you when the sensor's values deviate from the specified limits.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,16 +41,12 @@ public interface class ISensor
 
 ## VBA Syntax
 
-See
-
-[Sensor.](ms-its:sldworksapivb6.chm::/sldworks~Sensor.html)
+See [Sensor.](ms-its:sldworksapivb6.chm::/sldworks~Sensor.html)
 
 ## Examples
 
 [Get and Set Sensor (C#)](Get_and_Set_Sensor_Example_CSharp.htm)
-
 [Get and Set Sensor (VB.NET)](Get_and_Set_Sensor_Example_VBNET.htm)
-
 [Get and Set Sensor (VBA)](Get_and_Set_Sensor_Example_VB.htm)
 
 ## Accessors
@@ -64,11 +60,7 @@ See
 ## See Also
 
 [ISensor Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISensor_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDimensionSensorData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimensionSensorData.html)
-
 [DPartDocEvents_SensorAlertPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DPartDocEvents_SensorAlertPreNotifyEventHandler.html)
-
 [DAssemblyDocEvents_SensorAlertPreNotifyEventHandler Delegate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAssemblyDocEvents_SensorAlertPreNotifyEventHandler.html)

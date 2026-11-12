@@ -33,20 +33,15 @@ void Close();
 
 ## Examples
 
-See the
-
-[IEdmRawReferenceMgr](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr.html)
-
-examples.
+See the [IEdmRawReferenceMgr](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr.html) examples.
 
 ## Remarks
 
-[Return code](ReturnCodes.htm)S_OK indicates that the method successfully executed.
+[Return code](ReturnCodes.htm) S_OK indicates that the method successfully executed.
 
 ## See Also
 
 [IEdmRawReferenceMgr Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr.html)
-
 [IEdmRawReferenceMgr Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRawReferenceMgr_members.html)
 
 ## Availability

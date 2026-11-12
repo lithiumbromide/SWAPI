@@ -42,13 +42,7 @@ property System.bool IsRoot {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,20 +50,15 @@ True if this item is the root item of the FeatureManager design tree, false if n
 
 ## VBA Syntax
 
-See
-
-[TreeControlItem::IsRoot](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~IsRoot.html)
-
-.
+See [TreeControlItem::IsRoot](ms-its:sldworksapivb6.chm::/sldworks~TreeControlItem~IsRoot.html).
 
 ## Remarks
 
-Use[ITreeControlItem::GetRoot](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITreeControlItem~GetRoot.html)to get the root item of the FeatureManager design tree.
+Use [ITreeControlItem::GetRoot](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITreeControlItem~GetRoot.html) to get the root item of the FeatureManager design tree.
 
 ## See Also
 
 [ITreeControlItem Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem.html)
-
 [ITreeControlItem Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITreeControlItem_members.html)
 
 ## Availability

@@ -47,40 +47,24 @@ property System.int SaveResultsForSolutionStepsOption {
 
 ### Property Value
 
-Save results option as defined in
-
-[swsSaveResultsOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSaveResultsOption_e.html)
+Save results option as defined in [swsSaveResultsOption_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSaveResultsOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWStudyResultOptions::SaveResultsForSolutionStepsOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyResultOptions~SaveResultsForSolutionStepsOption.html)
-
-.
+See [CWStudyResultOptions::SaveResultsForSolutionStepsOption](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudyResultOptions~SaveResultsForSolutionStepsOption.html).
 
 ## Examples
 
-See the
-
-[ICWStudyResultOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions.html)
-
-examples.
+See the [ICWStudyResultOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions.html) examples.
 
 ## See Also
 
 [ICWStudyResultOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions.html)
-
 [ICWStudyResultOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions_members.html)
-
 [ICWStudyResultOptions::SaveDisplacementsAndVelocitiesOption Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SaveDisplacementsAndVelocitiesOption.html)
-
 [ICWStudyResultOptions::SaveReactions Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SaveReactions.html)
-
 [ICWStudyResultOptions::SaveStresses Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SaveStresses.html)
-
 [ICWStudyResultOptions::GetSolutionStepsSetInformation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~GetSolutionStepsSetInformation.html)
-
 [ICWStudyResultOptions::SetSolutionStepsSetInformation Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudyResultOptions~SetSolutionStepsSetInformation.html)
 
 ## Availability

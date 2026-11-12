@@ -1,6 +1,5 @@
 ---
-title: "CWRadiation Object
-Members"
+title: "CWRadiation Object Members"
 project: "SOLIDWORKS Simulation Type Library"
 interface: "CWRadiation_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "cworksapivb6/CosmosWorksLib~CWRadiation_members.html"
 ---
 
-# CWRadiation Object
-Members
+# CWRadiation Object Members
 
 ## Public Methods
 

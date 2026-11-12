@@ -40,13 +40,7 @@ System.int IGetEdgesCount()
 System.int IGetEdgesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,14 @@ Number of edges used to define the miter flange feature
 
 ## VBA Syntax
 
-See
-
-[MiterFlangeFeatureData::IGetEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~IGetEdgesCount.html)
-
-.
+See [MiterFlangeFeatureData::IGetEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~IGetEdgesCount.html).
 
 ## See Also
 
 [IMiterFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData.html)
-
 [IMiterFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData_members.html)
-
 [IMiterFlangeFeatureData::IGetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData~IGetEdges.html)
-
 [IMiterFlangeFeatureData::ISetEdges Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData~ISetEdges.html)
-
 [IMiterFlangeFeatureData::Edges Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData~Edges.html)
 
 ## Availability

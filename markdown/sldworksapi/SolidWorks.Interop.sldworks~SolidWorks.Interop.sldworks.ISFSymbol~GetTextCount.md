@@ -40,13 +40,7 @@ System.int GetTextCount()
 System.int GetTextCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Number of text items
 
 ## VBA Syntax
 
-See
-
-[SFSymbol::GetTextCount](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetTextCount.html)
-
-.
+See [SFSymbol::GetTextCount](ms-its:sldworksapivb6.chm::/sldworks~SFSymbol~GetTextCount.html).
 
 ## Remarks
 
@@ -69,15 +59,10 @@ Call this method before calling the following methods to get the number of text 
 - [ISFSymbol::GetTextFontAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetTextFontAtIndex.html)
 - [ISFSymbol::GetTextHeightAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetTextHeightAtIndex.html)
 - [ISFSymbol::GetTextInvertAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetTextInvertAtIndex.html)
-- [ISFSymbol::GetTextPositionAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetTextPositionAtIndex.html)
-
-  and
-
-  [ISFSymbol::IGetTextPositionAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~IGetTextPositionAtIndex.html)
+- [ISFSymbol::GetTextPositionAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetTextPositionAtIndex.html) and [ISFSymbol::IGetTextPositionAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~IGetTextPositionAtIndex.html)
 - [ISFSymbol::GetTextRefPositioinAtIndex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISFSymbol~GetTextRefPositionAtIndex.html)
 
 ## See Also
 
 [ISFSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol.html)
-
 [ISFSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISFSymbol_members.html)

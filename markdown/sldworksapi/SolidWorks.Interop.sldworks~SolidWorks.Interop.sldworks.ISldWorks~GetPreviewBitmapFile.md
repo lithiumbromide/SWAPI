@@ -55,19 +55,13 @@ System.bool GetPreviewBitmapFile(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `DocumentPath`: Path and file name of the SOLIDWORKS document whose preview bitmap (.bmp) you want to save
 - `ConfigName`: Name of the configuration
-- `BitMapFile`: Filename for the previewParamDesc
+- `BitMapFile`: Filename for the preview
 
 ### Return Value
 
@@ -75,32 +69,21 @@ True if the preview bitmap (.bmp) is saved, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::GetPreviewBitmapFile](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetPreviewBitmapFile.html)
-
-.
+See [SldWorks::GetPreviewBitmapFile](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~GetPreviewBitmapFile.html).
 
 ## Examples
 
 [Save Configuration Data (C#)](Save_Configuration_Data_Example_CSharp.htm)
-
 [Save Configuration Data (VB.NET)](Save_Configuration_Data_Example_VBNET.htm)
-
 [Save Configuration Data (VBA)](Save_Configuration_Data_Example_VB.htm)
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetPreviewBitmap Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetPreviewBitmap.html)
-
 [ISldWorks::PreviewDoc Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PreviewDoc.html)
-
 [ISldWorks::PreviewDocx64 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~PreviewDocx64.html)
-
 [IModelDoc2::SaveBMP Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SaveBMP.html)
 
 ## Availability

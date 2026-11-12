@@ -1,6 +1,5 @@
 ---
-title: "DeleteFaceFeatureData Object
-Members"
+title: "DeleteFaceFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DeleteFaceFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DeleteFaceFeatureData_members.html"
 ---
 
-# DeleteFaceFeatureData Object
-Members
+# DeleteFaceFeatureData Object Members
 
 ## Public Methods
 

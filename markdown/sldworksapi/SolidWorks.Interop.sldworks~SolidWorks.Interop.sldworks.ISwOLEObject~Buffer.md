@@ -42,13 +42,7 @@ property System.Object^ Buffer {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,20 +50,13 @@ Array of buffer data
 
 ## VBA Syntax
 
-See
-
-[SwOLEObject::Buffer](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Buffer.html)
-
-.
+See [SwOLEObject::Buffer](ms-its:sldworksapivb6.chm::/sldworks~SwOLEObject~Buffer.html).
 
 ## See Also
 
 [ISwOLEObject Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject.html)
-
 [ISwOLEObject Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject_members.html)
-
 [ISwOLEObject::IGetBuffer Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject~IGetBuffer.html)
-
 [ISwOLEObject::BufferSize Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISwOLEObject~BufferSize.html)
 
 ## Availability

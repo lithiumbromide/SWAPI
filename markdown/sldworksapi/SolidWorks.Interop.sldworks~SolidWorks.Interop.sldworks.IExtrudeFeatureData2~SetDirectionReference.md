@@ -50,13 +50,7 @@ void SetDirectionReference(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,17 +59,11 @@ See
 
 ## VBA Syntax
 
-See
-
-[ExtrudeFeatureData2::SetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~SetDirectionReference.html)
-
-.
+See [ExtrudeFeatureData2::SetDirectionReference](ms-its:sldworksapivb6.chm::/sldworks~ExtrudeFeatureData2~SetDirectionReference.html).
 
 ## Remarks
 
 Sometimes one reference entity can sufficiently define a direction; for example, an edge or axis. Other times, two reference entities are required to define a direction; for example, two vertices or two sketch points.
-
-(Table)=========================================================
 
 | If... | Then... |
 | --- | --- |
@@ -95,11 +83,8 @@ Valid reference entities for Type1 and Type2:
 ## See Also
 
 [IExtrudeFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2.html)
-
 [IExtrudeFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2_members.html)
-
 [IExtrudeFeatureData2::GetDirectionReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~GetDirectionReference.html)
-
 [IExtrudeFeatureData2::GetDirectionReference Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExtrudeFeatureData2~GetDirectionReference.html)
 
 ## Availability

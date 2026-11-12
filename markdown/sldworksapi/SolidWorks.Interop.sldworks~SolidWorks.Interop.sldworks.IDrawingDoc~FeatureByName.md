@@ -47,13 +47,7 @@ System.Object^ FeatureByName(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,26 +59,17 @@ Feature
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::FeatureByName](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~FeatureByName.html)
-
-.
+See [DrawingDoc::FeatureByName](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~FeatureByName.html).
 
 ## Examples
 
 [Create and Name Planes (VBA)](Create_and_Name_Plane_Example_VB.htm)
-
 [Get and Set Table Anchor of Hole Table (C#)](Get_and_Set_Table_Anchor_of_Hole_Table_Example_CSharp.htm)
-
 [Get and Set Table Anchor of Hole Table (VB.NET)](Get_and_Set_Table_Anchor_of_Hole_Table_Example_VBNET.htm)
-
 [Get and Set Table Anchor of Hole Table (VBA)](Get_and_Set_Table_Anchor_of_Hole_Table_Example_VB.htm)
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
-
 [IDrawingDoc::IFeatureByName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc~IFeatureByName.html)

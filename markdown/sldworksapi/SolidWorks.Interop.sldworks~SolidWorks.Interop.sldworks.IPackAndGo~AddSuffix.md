@@ -45,13 +45,7 @@ property System.String^ AddSuffix {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,21 @@ Suffix for all filenames
 
 ## VBA Syntax
 
-See
-
-[PackAndGo::AddSuffix](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~AddSuffix.html)
-
-.
+See [PackAndGo::AddSuffix](ms-its:sldworksapivb6.chm::/sldworks~PackAndGo~AddSuffix.html).
 
 ## Examples
 
 [Pack and Go an Assembly (C#)](Pack_and_Go_an_Assembly_Example_CSharp.htm)
-
 [Pack and Go an Assembly (VB.NET)](Pack_and_Go_an_Assembly_Example_VBNET.htm)
-
 [Pack and Go an Assembly (VBA)](Pack_and_Go_an_Assembly_Example_VB.htm)
 
 ## See Also
 
 [IPackAndGo Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo.html)
-
 [IPackAndGo Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo_members.html)
-
 [IPackAndGo::AddPrefix Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~AddPrefix.html)
-
 [IPackAndGo::ISetDocumentSaveToNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~ISetDocumentSaveToNames.html)
-
 [IPackAndGo::SetDocumentSaveToNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~SetDocumentSaveToNames.html)
-
 [IPackAndGo::SetSaveToName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPackAndGo~SetSaveToName.html)
 
 ## Availability

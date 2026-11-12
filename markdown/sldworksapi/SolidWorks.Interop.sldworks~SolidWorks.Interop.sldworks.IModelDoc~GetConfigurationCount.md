@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetConfigurationCount Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetConfigurationCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetConfigurationCount.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetConfigurationCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetConfigurationCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetConfigurationCount()
 System.int GetConfigurationCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetConfigurationCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetConfigurationCount.html)
-
-.
+See [ModelDoc::GetConfigurationCount](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetConfigurationCount.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

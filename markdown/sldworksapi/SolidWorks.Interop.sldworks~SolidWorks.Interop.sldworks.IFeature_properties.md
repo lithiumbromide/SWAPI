@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # IFeature Interface Properties
 
-For a list of all members of this type, see[IFeature members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html).
+For a list of all members of this type, see [IFeature members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature_members.html).
 
 ## Public Properties
 
@@ -31,5 +31,4 @@ For a list of all members of this type, see[IFeature members](SolidWorks.Interop
 ## See Also
 
 [IFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

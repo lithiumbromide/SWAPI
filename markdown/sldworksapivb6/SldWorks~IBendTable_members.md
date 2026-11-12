@@ -1,6 +1,5 @@
 ---
-title: "IBendTable Object
-Members"
+title: "IBendTable Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "IBendTable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~IBendTable_members.html"
 ---
 
-# IBendTable Object
-Members
+# IBendTable Object Members
 
 ## Public Methods
 

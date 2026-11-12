@@ -47,21 +47,11 @@ MathTransform^ GetTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Instance`: Index of one repeating element in this pattern (see
-
-Remarks
-
-)
+- `Instance`: Index of one repeating element in this pattern (see **Remarks**)
 
 ### Return Value
 
@@ -69,34 +59,16 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[CurveDrivenPatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~GetTransform.html)
-
-.
+See [CurveDrivenPatternFeatureData::GetTransform](ms-its:sldworksapivb6.chm::/sldworks~CurveDrivenPatternFeatureData~GetTransform.html).
 
 ## Remarks
 
-1 <=
-
-Instance
-
-<= (
-
-[ICurveDrivenPatternFeatureData::D1InstanceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurveDrivenPatternFeatureData~D1InstanceCount.html)
-
-+
-
-[ICurveDrivenPatternFeatureData::D2InstanceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurveDrivenPatternFeatureData~D2InstanceCount.html)
-
-)
+1 <= `Instance` <= ([ICurveDrivenPatternFeatureData::D1InstanceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurveDrivenPatternFeatureData~D1InstanceCount.html) + [ICurveDrivenPatternFeatureData::D2InstanceCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICurveDrivenPatternFeatureData~D2InstanceCount.html))
 
 ## See Also
 
 [ICurveDrivenPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData.html)
-
 [ICurveDrivenPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData_members.html)
-
 [ICurveDrivenPatternFeatureData::SkippedItemArray Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurveDrivenPatternFeatureData~SkippedItemArray.html)
 
 ## Availability

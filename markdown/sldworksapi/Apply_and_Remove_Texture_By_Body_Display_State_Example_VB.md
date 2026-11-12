@@ -9,8 +9,7 @@ source: "sldworksapi/Apply_and_Remove_Texture_By_Body_Display_State_Example_VB.h
 
 # Apply and Remove Texture By Body Display State Example (VBA)
 
-This example shows how to add and remove texture to and from a body
-using the name of a display state of the model.
+This example shows how to add and remove texture to and from a body using the name of a display state of the model.
 
 ```
 '--------------------------------------------------------------

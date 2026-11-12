@@ -51,24 +51,15 @@ True if ambient occlusion is enabled, false if disabled
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::AmbientOcclusionEnabled](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~AmbientOcclusionEnabled.html)
-
-.
+See [EModelViewControl::AmbientOcclusionEnabled](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~AmbientOcclusionEnabled.html).
 
 ## Remarks
 
-This property is valid only if
-
-[IEModelViewControl::AmbientOcclusionAllowed](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~AmbientOcclusionAllowed.html)
-
-is true.
+This property is valid only if [IEModelViewControl::AmbientOcclusionAllowed](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~AmbientOcclusionAllowed.html) is true.
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

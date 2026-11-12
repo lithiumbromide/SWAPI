@@ -87,11 +87,7 @@ True if method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertCylinderFeature::GetNominalCylinder](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCylinderFeature~GetNominalCylinder.html)
-
-.
+See [SwDMDimXpertCylinderFeature::GetNominalCylinder](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertCylinderFeature~GetNominalCylinder.html).
 
 ## Examples
 
@@ -100,7 +96,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertCylinderFeature Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCylinderFeature.html)
-
 [ISwDMDimXpertCylinderFeature Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertCylinderFeature_members.html)
 
 ## Availability

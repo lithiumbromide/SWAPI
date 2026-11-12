@@ -9,10 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # ICommandTabBox Interface
 
-Allows add-in applications to create CommandManager tab boxes and add them to a CommandManager tab. The add-in application must
-create and clean-up its own tab boxes.
+Allows add-in applications to create CommandManager tab boxes and add them to a CommandManager tab. The add-in application must create and clean-up its own tab boxes.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -42,16 +41,11 @@ public interface class ICommandTabBox
 
 ## VBA Syntax
 
-See
-
-[CommandTabBox](ms-its:sldworksapivb6.chm::/sldworks~CommandTabBox.html)
-
-.
+See [CommandTabBox](ms-its:sldworksapivb6.chm::/sldworks~CommandTabBox.html).
 
 ## Examples
 
 [Create CommandManager Tab and Tab Boxes (VB.NET)](Create_CommandManager_Tab_and_Tab_Boxes_Example_VB.NET.htm)
-
 [Create CommandManager Tab and Tab Boxes (C#)](Create_CommandManager_Tab_and_Tab_Boxes_Example_CSharp.htm)
 
 ## Accessors
@@ -69,7 +63,5 @@ See
 ## See Also
 
 [ICommandTabBox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ICommandTab Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTab.html)

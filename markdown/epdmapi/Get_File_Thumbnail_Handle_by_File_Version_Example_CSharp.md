@@ -9,36 +9,28 @@ source: "epdmapi/Get_File_Thumbnail_Handle_by_File_Version_Example_CSharp.htm"
 
 # Get a File's Thumbnail Handle by File Version (C#)
 
-This example shows how to get a file's thumbnail by
-version.
+This example shows how to get a file's thumbnail by version.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
  //----------------------------------------------------------------------------
  // Preconditions:
  // 1. Start Microsoft Visual Studio.
- //    a. Click File > New > Project > Visual C# > Windows Forms Application.
- //    b. Type CallingCSharp in Name.
- //    c. Click Browse and navigate to the folder where to create the project.
- //    d. Click OK.
- //    e. Click Show All Files in the Solution Explorer toolbar and expand
- //       Form1.cs in the Solution Explorer.
- //    f. Replace the code in Form1.cs with this code.
- //    g. To create the form, replace the code in Form1.Designer.cs with
- //       this code.
- // 2. Add EPDM.Interop.epdm.dll as a reference (right-click the project
- //    name in the Solution Explorer, click Add > Project Reference, select
- //     Browse in the left-side panel, click Browse... at the bottom to browse to the top folder of
- //    your SOLIDWORKS PDM Professional installation, locate and select
- //    EPDM.Interop.epdm.dll, click Add, and click OK).
- // 3. Right-click EPDM.Interop.epdm in References, click Properties, and set
- //    Embed Interop Types to No to handle methods that pass arrays of
- //    structures.
-// 4. Modify the vault admin password in the code: (vault5.Login("admin", "", vaultName)).
- // 5. Click Debug > Start Debugging or press F5.
+ // 2. Click File > New > Project > C#, Windows, Desktop > Windows Forms App.
+ // 3. Type CallingCSharp in Project name.
+ // 4. For Location, click ... and navigate to the folder where to create the project.
+ // 5. Click Next.
+ // 6. Select Framework.
+ // 7. Click Create.
+ // 8. Click Show All Files in the Solution Explorer toolbar and expand
+ //    Form1.cs in the Solution Explorer.
+ // 9. Replace the code in Form1.cs with this code.
+ //10. To create the form, replace the code in Form1.Designer.cs with
+ //    this code.
+ //11.     Add dependencies and safely pass arrays of structures.
+//12. Modify the vault admin password in the code: (vault5.Login("admin", "", vaultName)).
+ //13. Click Debug > Start Debugging or press F5.
  //
  // Postconditions:
  // 1. In the Get Thumbnail dialog, click Browse.

@@ -46,32 +46,20 @@ void SketchAddConstraints(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `IdStr`: Constraint (see**Remarks**)
+- `IdStr`: Constraint (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::SketchAddConstraints](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchAddConstraints.html)
-
-.
+See [ModelDoc2::SketchAddConstraints](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~SketchAddConstraints.html).
 
 ## Examples
 
 [Constrain Sketch (VBA)](Constrain_Sketch_Example_VB.htm)
-
 [Constrain Sketch (VB.NET)](Constrain_Sketch_Example_VBNET.htm)
-
 [Constrain Sketch (C#)](Constrain_Sketch_Example_CSharp.htm)
 
 ## Remarks
@@ -83,25 +71,15 @@ See
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::SketchConstrainCoincident Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchConstrainCoincident.html)
-
 [IModelDoc2::SketchConstrainConcentric Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchConstrainConcentric.html)
-
 [IModelDoc2::SketchConstrainParallel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchConstrainParallel.html)
-
 [IModelDoc2::SketchConstrainPerp Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchConstrainPerp.html)
-
 [IModelDoc2::SketchConstrainTangent Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchConstrainTangent.html)
-
 [IModelDoc2::SketchConstraintsDel Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchConstraintsDel.html)
-
 [IModelDoc2::SketchConstraintsDelAll Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SketchConstraintsDelAll.html)
-
 [IModelDoc2::ViewConstraint Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ViewConstraint.html)
-
 [IModelDoc2::SkToolsAutoConstr Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~SkToolsAutoConstr.html)
 
 ## Availability

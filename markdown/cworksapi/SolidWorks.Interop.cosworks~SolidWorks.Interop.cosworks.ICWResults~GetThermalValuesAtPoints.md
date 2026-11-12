@@ -69,18 +69,12 @@ System.Object^ GetThermalValuesAtPoints(
 
 ### Parameters
 
-- `NComponent`: Thermal component as defined in
-
-[swsThermalComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalComponent_e.html)
+- `NComponent`: Thermal component as defined in [swsThermalComponent_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsThermalComponent_e.html)
 - `NStepNumber`: Solution step number (use 1 for steady state)
 - `DispPlane`: Plane, axis, or coordinate system; valid only if NComponent is set to a directional component; specify nothing if NComponent is not a directional component
 - `ArrayPoints`: Array of point coordinates
-- `NUnits`: Temperature unit as defined
-
-[swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
-- `ErrorCode`: Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Temperature unit as defined [swsTemperatureUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsTemperatureUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -88,34 +82,22 @@ Array of NComponent results for ArrayPoints at NStepNumber
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetThermalValuesAtPoints](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetThermalValuesAtPoints.html)
-
-.
+See [CWResults::GetThermalValuesAtPoints](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetThermalValuesAtPoints.html).
 
 ## Examples
 
 [Get Thermal Values (VBA)](Get_Thermal_Values_at_Points_Example_VB.htm)
-
 [Get Thermal Values (VB.NET)](Get_Thermal_Values_at_Points_Example_VBNET.htm)
-
 [Get Thermal Values (C#)](Get_Thermal_Values_at_Points_Example_CSharp.htm)
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetThermalValues Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalValues.html)
-
 [ICWResults::GetMinMaxThermal Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetMinMaxThermal.html)
-
 [ICWResults::GetThermalComponentForAllStepsAtNode Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalComponentForAllStepsAtNode.html)
-
 [ICWResults::GetThermalForEntities Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetThermalForEntities.html)
-
 [ICWResults::GetHeatPowerOrEnergy Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetHeatPowerOrEnergy.html)
 
 ## Availability

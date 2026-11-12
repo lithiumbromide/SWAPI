@@ -9,8 +9,7 @@ source: "sldworksapi/Merge_Arc_Segment_Bodies_With_Adjacent_Bodies_Example_CShar
 
 # Merge Arc Segment Bodies With Adjacent Bodies Example (C#)
 
-This example shows how to create structural-member groups with and without merging
-arc segment bodies with adjacent bodies.
+This example shows how to create structural-member groups with and without merging arc segment bodies with adjacent bodies.
 
 ```
 //--------------------------------------------------------

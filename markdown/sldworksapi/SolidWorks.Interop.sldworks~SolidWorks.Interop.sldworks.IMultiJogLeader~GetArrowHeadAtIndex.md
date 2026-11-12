@@ -47,13 +47,7 @@ System.Object^ GetArrowHeadAtIndex(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,42 +55,31 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[MultiJogLeader::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~MultiJogLeader~GetArrowHeadAtIndex.html)
-
-.
+See [MultiJogLeader::GetArrowHeadAtIndex](ms-its:sldworksapivb6.chm::/sldworks~MultiJogLeader~GetArrowHeadAtIndex.html).
 
 ## Remarks
 
 The return value is the following array of doubles :
 
-[arrowHeadPt[3],arrowHeadDir[3],arrowHeadWidth,arrowHeadHeight,arrowHeadStyle]
+[ arrowHeadPt[3], arrowHeadDir[3], arrowHeadWidth, arrowHeadHeight, arrowHeadStyle ]
 
 where:
 
 - arrowHeadPt[3] = XYZ arrow head tip location.
 - arrowHeadDir[3] = XYZ arrow head direction.
-- arrowHeadWidth= arrow head width where the width is measured along the arrow head direction.
-- arrowHeadHeight= arrow head height.
-- arrowHeadStyle= arrow head style; for example, open, closed, and so on. See[swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html).
+- arrowHeadWidth = arrow head width where the width is measured along the arrow head direction.
+- arrowHeadHeight = arrow head height.
+- arrowHeadStyle = arrow head style; for example, open, closed, and so on. See [swArrowStyle_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArrowStyle_e.html).
 
 ## See Also
 
 [IMultiJogLeader Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader.html)
-
 [IMultiJogLeader Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader_members.html)
-
 [IMultiJogLeader::GetArrowHeadCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader~GetArrowHeadCount.html)
-
 [IMultiJogLeader::IGetArrowHeadAtIndex Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMultiJogLeader~IGetArrowHeadAtIndex.html)
 
 ## Availability

@@ -67,36 +67,26 @@ Feature^ FeatureCutThicken(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Thickness`: Wall thickness
 - `Direction`: - 0 = Thicken side 1
-- 1 = Thicken side 2
-- 2 = Thicken both sides
+  - 1 = Thicken side 2
+  - 2 = Thicken both sides
 - `FaceIndex`: Not currently used
-- `FillVolume`: True to make the solid from a knitted surface, false to not (see**Remarks**)
+- `FillVolume`: True to make the solid from a knitted surface, false to not (see **Remarks**)
 - `UseFeatScope`: True if the feature only affects selected bodies, false if the feature affects all bodies
-- `UseAutoSelect`: True to automatically select all bodies and have the feature affectkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}those bodies, false to select the bodies the feature affects (seeRemarks)
+- `UseAutoSelect`: True to automatically select all bodies and have the feature affect those bodies, false to select the bodies the feature affects (see Remarks)
 
 ### Return Value
 
-Pointer to the[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::FeatureCutThicken](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCutThicken.html)
-
-.
+See [FeatureManager::FeatureCutThicken](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~FeatureCutThicken.html).
 
 ## Remarks
 
@@ -109,15 +99,10 @@ When using cut or cavity features that result in multiple bodies, you cannot sel
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::FeatureCut2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCut2.html)
-
 [IFeatureManager::FeatureCutThin Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureCutThin.html)
-
 [IFeatureManager::FeatureBossThicken Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~FeatureBossThicken.html)
-
 [IThickenFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10_properties
 
 # IEdmTransition10 Interface Properties
 
-For a list of all members of this type, see[IEdmTransition10 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10_members.html).
+For a list of all members of this type, see [IEdmTransition10 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10_members.html).
 
 ## Public Properties
 
@@ -22,5 +22,4 @@ For a list of all members of this type, see[IEdmTransition10 members](EPDM.Inter
 ## See Also
 
 [IEdmTransition10 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTransition10.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

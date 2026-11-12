@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IsSame Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IsSame](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IsSame.html)
-
-.
+Obsolete. Superseded by [IFace2::IsSame](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IsSame.html).
 
 ## Syntax
 
@@ -51,13 +47,7 @@ System.bool IsSame(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,14 +55,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face::IsSame](ms-its:sldworksapivb6.chm::/sldworks~Face~IsSame.html)
-
-.
+See [Face::IsSame](ms-its:sldworksapivb6.chm::/sldworks~Face~IsSame.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

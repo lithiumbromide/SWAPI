@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 Allows access to cut list sorting options.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,25 +41,19 @@ public interface class ICutListSortOptions
 
 ## VBA Syntax
 
-See
-
-[CutListSortOptions](ms-its:sldworksapivb6.chm::/sldworks~CutListSortOptions.html)
-
-.
+See [CutListSortOptions](ms-its:sldworksapivb6.chm::/sldworks~CutListSortOptions.html).
 
 ## Examples
 
 [Get Features of Multibody Sheet Metal Part (VBA)](Get_Features_of_Multibody_Sheet_Metal_Part_Example_VB.htm)
-
 [Get Features of Multibody Sheet Metal Part (VB.NET)](Get_Features_of_Multibody_Sheet_Metal_Part_Example_VBNET.htm)
-
 [Get Features of Multibody Sheet Metal Part (C#)](Get_Features_of_Multibody_Sheet_Metal_Part_Example_CSharp.htm)
 
 ## Remarks
 
 The sub-weldment folder structure is retained for all cut list sorting options.
 
-See**Sorting Cut Lists**in the SOLIDWORKS user-interface help.
+See **Sorting Cut Lists** in the SOLIDWORKS Design user-interface help.
 
 ## Accessors
 
@@ -72,7 +66,5 @@ See**Sorting Cut Lists**in the SOLIDWORKS user-interface help.
 ## See Also
 
 [ICutListSortOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICutListSortOptions_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IBodyFolder::SortCutList Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBodyFolder~SortCutList.html)

@@ -46,13 +46,7 @@ void AddItems(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,26 +54,16 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPageCombobox::AddItems](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCombobox~AddItems.html)
-
-.
+See [PropertyManagerPageCombobox::AddItems](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPageCombobox~AddItems.html).
 
 ## Examples
 
-See the
-
-[IPropertyManagerPageCombobox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox.html)
-
-examples.
+See the [IPropertyManagerPageCombobox](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox.html) examples.
 
 ## See Also
 
 [IPropertyManagerPageCombobox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox.html)
-
 [IPropertyManagerPageCombobox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox_members.html)
-
 [IPropertyManagerPageCombobox::IAddItems Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPageCombobox~IAddItems.html)
 
 ## Availability

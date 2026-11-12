@@ -45,32 +45,19 @@ property System.int HatchScope {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Hatch scope as defined in
-
-[swAreaHatchingScope_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAreaHatchingScope_e.html)
+Hatch scope as defined in [swAreaHatchingScope_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swAreaHatchingScope_e.html)
 
 ## VBA Syntax
 
-See
-
-[FaceHatch::HatchScope](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~HatchScope.html)
-
-.
+See [FaceHatch::HatchScope](ms-its:sldworksapivb6.chm::/sldworks~FaceHatch~HatchScope.html).
 
 ## See Also
 
 [IFaceHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch.html)
-
 [IFaceHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFaceHatch_members.html)
 
 ## Availability

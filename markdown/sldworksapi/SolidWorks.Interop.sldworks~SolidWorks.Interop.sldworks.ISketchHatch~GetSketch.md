@@ -9,13 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # GetSketch Method (ISketchHatch)
 
-Gets the sketch
-
-kadov_tag{{<spaces>}}
-
-kadov_tag{{</spaces>}}
-
-for the current sketch hatch.
+Gets the sketch for the current sketch hatch.
 
 ## Syntax
 
@@ -46,13 +40,7 @@ Sketch GetSketch()
 Sketch^ GetSketch();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -60,20 +48,15 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchHatch::GetSketch](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~GetSketch.html)
-
-.
+See [SketchHatch::GetSketch](ms-its:sldworksapivb6.chm::/sldworks~SketchHatch~GetSketch.html).
 
 ## Remarks
 
-You can use the[ISketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html)interface for extracting information about geometry in the sketch.
+You can use the [ISketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketch.html) interface for extracting information about geometry in the sketch.
 
 ## See Also
 
 [ISketchHatch Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch.html)
-
 [ISketchHatch Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchHatch_members.html)
 
 ## Availability

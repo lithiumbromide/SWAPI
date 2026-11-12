@@ -9,8 +9,7 @@ source: "sldworksapi/Select_Entity_in_Drawing_View_Example_CSharp.htm"
 
 # Select Entity in Drawing View Example (C#)
 
-This example shows how to select a model face, edge, or vertex in a drawing
-view and dimension it.
+This example shows how to select a model face, edge, or vertex in a drawing view and dimension it.
 
 ```vb
   //----------------------------------------------------------------------------

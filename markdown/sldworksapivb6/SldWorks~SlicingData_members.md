@@ -1,6 +1,5 @@
 ---
-title: "SlicingData Object
-Members"
+title: "SlicingData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SlicingData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SlicingData_members.html"
 ---
 
-# SlicingData Object
-Members
+# SlicingData Object Members
 
 ## Public Methods
 

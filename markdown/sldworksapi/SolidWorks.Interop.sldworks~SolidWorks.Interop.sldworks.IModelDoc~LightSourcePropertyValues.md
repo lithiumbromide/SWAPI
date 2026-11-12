@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # LightSourcePropertyValues Property (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::LightSourcePropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~LightSourcePropertyValues.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::LightSourcePropertyValues](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~LightSourcePropertyValues.html).
 
 ## Syntax
 
@@ -54,13 +50,7 @@ property System.Object^ LightSourcePropertyValues {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -68,14 +58,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::LightSourcePropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~LightSourcePropertyValues.html)
-
-.
+See [ModelDoc::LightSourcePropertyValues](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~LightSourcePropertyValues.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

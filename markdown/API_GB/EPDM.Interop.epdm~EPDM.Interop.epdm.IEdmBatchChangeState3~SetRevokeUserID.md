@@ -43,11 +43,7 @@ void SetRevokeUserID(
 
 ## Examples
 
-See the
-
-[IEdmBatchChangeState3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState3.html)
-
-examples.
+See the [IEdmBatchChangeState3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState3.html) examples.
 
 ## Remarks
 
@@ -59,7 +55,6 @@ examples.
 ## See Also
 
 [IEdmBatchChangeState3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState3.html)
-
 [IEdmBatchChangeState3 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchChangeState3_members.html)
 
 ## Availability

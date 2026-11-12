@@ -85,36 +85,22 @@ CWBaseExcitation^ AddUniformBaseExcitation2(
 
 ### Parameters
 
-- `NType`: Type of excitation as defined in
-
-[swsBaseExcitationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBaseExcitationType_e.html)
+- `NType`: Type of excitation as defined in [swsBaseExcitationType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsBaseExcitationType_e.html)
 - `DirectionEntity`: Face, edge, or plane of direction for the excitation; null for global direction if Response Spectrum study
-- `NUnits`: | If NType is ... | Then units are as defined in ... |
-| --- | --- |
-| swsBaseExcitationType_e.swsBaseExcitationType_Displacement | swsLinearUnit_e |
-| swsBaseExcitationType_e.swsBaseExcitationType_Velocity | swsVelocityUnit_e |
-| swsBaseExcitationType_e.swsBaseExcitationType_Acceleration | swsAccelerationUnit_e |
+- `NUnits`:
+
+  | If NType is ... | Then units are as defined in ... |
+  | --- | --- |
+  | swsBaseExcitationType_e.swsBaseExcitationType_Displacement | swsLinearUnit_e |
+  | swsBaseExcitationType_e.swsBaseExcitationType_Velocity | swsVelocityUnit_e |
+  | swsBaseExcitationType_e.swsBaseExcitationType_Acceleration | swsAccelerationUnit_e |
 - `BDir1`: -1 or true to add excitation along plane direction 1, 0 or false to not; valid only if DirectionEntity is a face, plane, or unspecified
-- `DVal1`: Excitation along plane direction 1; valid only if BDir1 = -1 and DirectionEntity is a face, plane, or unspecified (see
-
-Remarks
-
-)
+- `DVal1`: Excitation along plane direction 1; valid only if BDir1 = -1 and DirectionEntity is a face, plane, or unspecified (see **Remarks**)
 - `BDir2`: -1 or true to add excitation along plane direction 2; 0 or false to not; valid only if DirectionEntity is a face, plane, or unspecified
-- `DVal2`: Excitation along plane direction 2; valid only if BDir2 = -1 and DirectionEntity is a face, plane, or unspecified (see
-
-Remarks
-
-)
+- `DVal2`: Excitation along plane direction 2; valid only if BDir2 = -1 and DirectionEntity is a face, plane, or unspecified (see **Remarks**)
 - `BDir3`: -1 or true to add excitation along normal to the plane or along an edge; 0 or false to not; valid only if DirectionEntity is a face, edge plane, or unspecified
-- `DVal3`: Excitation along normal to the plane or along an edge; valid only if BDir3 = -1 and DirectionEntity is a face, edge, plane, or unspecified (see
-
-Remarks
-
-)
-- `ErrorCode`: Error code as defined in
-
-[swsRestraintError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintError_e.html)
+- `DVal3`: Excitation along normal to the plane or along an edge; valid only if BDir3 = -1 and DirectionEntity is a face, edge, plane, or unspecified (see **Remarks**)
+- `ErrorCode`: Error code as defined in [swsRestraintError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsRestraintError_e.html)
 
 ### Return Value
 
@@ -122,11 +108,7 @@ Remarks
 
 ## Examples
 
-See the
-
-[ICWBaseExcitation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html)
-
-examples.
+See the [ICWBaseExcitation](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBaseExcitation.html) examples.
 
 ## Remarks
 
@@ -144,7 +126,6 @@ If this is a random vibration dynamic study, then DVal1, DVal2, and DVal3 are th
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

@@ -41,32 +41,21 @@ void ResetShopRate();
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting::ResetShopRate](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~ResetShopRate.html)
-
-.
+See [CostAnalysis3dPrinting::ResetShopRate](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~ResetShopRate.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
-examples.
+See the [ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html) examples.
 
 ## Remarks
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
-
 [ICostAnalysis3dPrinting::ShopRate Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~ShopRate.html)
-
 [ICostAnalysis3dPrinting::ShopRateApplied Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~ShopRateApplied.html)
 
 ## Availability

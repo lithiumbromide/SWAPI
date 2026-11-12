@@ -71,13 +71,7 @@ System.bool InsertBends2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -86,7 +80,7 @@ See
 - `UseKfactor`: K-Factor ratio or -1 if not used
 - `UseBendAllowance`: Bend allowance value or -1 if not used
 - `UseAutoRelief`: True if auto-relief cuts are to be added, false if not
-- `OffsetRatio`: Distance relief cut extends beyond bend (see**Remarks )**
+- `OffsetRatio`: Distance relief cut extends beyond bend (see **Remarks)**
 - `DoFlatten`: True to create these three features: Sheet-Metal, Flatten-Bends, and Process-Bends, false to create only the Sheet-Metal feature
 
 ### Return Value
@@ -95,11 +89,7 @@ True if successful, false if not
 
 ## VBA Syntax
 
-See
-
-[PartDoc::InsertBends2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertBends2.html)
-
-.
+See [PartDoc::InsertBends2](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertBends2.html).
 
 ## Remarks
 
@@ -113,7 +103,6 @@ For more information on these arguments, see SOLIDWORKS Help.
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
 
 ## Availability

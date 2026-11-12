@@ -53,9 +53,7 @@ DimXpertFeature^ IGetAppliedFeatures(
 
 ### Return Value
 
-in-process, unmanaged C++: Pointer to an array of
-
-[IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)
+in-process, unmanaged C++: Pointer to an array of [IDimXpertFeature](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature.html)
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
@@ -63,14 +61,13 @@ VBA, VB.NET, C#, and C++/CLI: Not supported
 
 Applied features of a DimXpertFeature are its many parents in the feature tree of the DimXpertManager tab of the Management Panel. A single DimXpertFeature can have many applied features.
 
-See[In-process Methods](sldworksapiprogguide.chm::/Overview/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/Overview/In-process_Methods.htm) for details about this type of method.
 
-Before calling this method, call[IDimXpertFeature::GetAppliedFeatureCount](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature~GetAppliedFeatureCount.html)to get the value for the Count parameter.
+Before calling this method, call [IDimXpertFeature::GetAppliedFeatureCount](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertFeature~GetAppliedFeatureCount.html) to get the value for the Count parameter.
 
 ## See Also
 
 [IDimXpertFeature Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature.html)
-
 [IDimXpertFeature Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertFeature_members.html)
 
 ## Availability

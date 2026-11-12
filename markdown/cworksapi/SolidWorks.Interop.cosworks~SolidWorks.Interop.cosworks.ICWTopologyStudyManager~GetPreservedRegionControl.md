@@ -54,36 +54,23 @@ CWTopologyPreservedRegion^ GetPreservedRegionControl(
 ### Parameters
 
 - `SControlName`: Name of the preserved region control to retrieve
-- `ErrorCode`: Result code as defined in
-
-[swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
+- `ErrorCode`: Result code as defined in [swsTopologyStudyError_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsTopologyStudyError_e.html)
 
 ### Return Value
 
-[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html)
-
-; null if failure
+[ICWTopologyPreservedRegionControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyPreservedRegionControl.html); null if failure
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStudyManager::GetPreservedRegionControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~GetPreservedRegionControl.html)
-
-.
+See [CWTopologyStudyManager::GetPreservedRegionControl](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStudyManager~GetPreservedRegionControl.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
-example.
+See the [ICWTopologyStudyManager](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html) example.
 
 ## See Also
 
 [ICWTopologyStudyManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager.html)
-
 [ICWTopologyStudyManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStudyManager_members.html)
 
 ## Availability

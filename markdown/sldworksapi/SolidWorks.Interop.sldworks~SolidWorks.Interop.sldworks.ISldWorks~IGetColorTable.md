@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # IGetColorTable Method (ISldWorks)
 
-Gets a color table from the SOLIDWORKS application.
+Gets a color table from the SOLIDWORKS Design application.
 
 ## Syntax
 
@@ -40,13 +40,7 @@ ColorTable IGetColorTable()
 ColorTable^ IGetColorTable();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[SldWorks::IGetColorTable](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetColorTable.html)
-
-.
+See [SldWorks::IGetColorTable](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~IGetColorTable.html).
 
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::GetColorTable Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~GetColorTable.html)
 
 ## Availability

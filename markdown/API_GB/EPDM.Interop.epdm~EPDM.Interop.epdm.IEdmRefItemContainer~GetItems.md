@@ -42,23 +42,14 @@ void GetItems(
 
 ### Parameters
 
-- `eType`: Type of items to get as defined in
-
-[EdmRefItemType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefItemType.html)
-- `ppoRetItems`: Array of
-
-[IEdmRefItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html)
-
-s; one interface for each reference item
+- `eType`: Type of items to get as defined in [EdmRefItemType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefItemType.html)
+- `ppoRetItems`: Array of [IEdmRefItem](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItem.html)s; one interface for each reference item
 
 ## Examples
 
 [Access Check-in Flags in Check out Dialog (C#)](Access_Check-in_Flags_in_Check_in_Dialog_Example_CSharp.htm)
-
 [Access Check-in Flags in Check out Dialog (VB.NET)](Access_Check-in_Flags_in_Check_in_Dialog_Example_VBNET.htm)
-
 [Prevent Admin from Checking In File (C#)](Prevent_Admin_from_Checking_In_File_Example_CSharp.htm)
-
 [Prevent Admin from Checking In File (VB.NET)](Prevent_Admin_from_Checking_In_File_Example_VBNET.htm)
 
 ## Remarks
@@ -70,7 +61,6 @@ s; one interface for each reference item
 ## See Also
 
 [IEdmRefItemContainer Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItemContainer.html)
-
 [IEdmRefItemContainer Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmRefItemContainer_members.html)
 
 ## Availability

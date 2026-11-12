@@ -9,8 +9,7 @@ source: "cworksapi/Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_
 
 # Apply Thermostat-controlled Heat Power for Transient Thermal Study Example (C#)
 
-This example shows how to apply thermostat-controlled heat power and flux in
-a transient thermal study.
+This example shows how to apply thermostat-controlled heat power and flux in a transient thermal study.
 
 ```vb
   //---------------------------------------------------------------------------

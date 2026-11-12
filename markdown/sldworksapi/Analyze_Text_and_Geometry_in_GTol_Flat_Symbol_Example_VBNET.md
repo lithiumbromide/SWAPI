@@ -9,8 +9,7 @@ source: "sldworksapi/Analyze_Text_and_Geometry_in_GTol_Flat_Symbol_Example_VBNET
 
 # Analyze Text and Geometry in GTol Symbol Example (VB.NET)
 
-This example shows how to analyze the text and geometry in a GTol
-symbol.
+This example shows how to analyze the text and geometry in a GTol symbol.
 
 ```vb
   '----------------------------------------------------------------------------

@@ -45,13 +45,7 @@ property System.double OffsetDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,19 @@ Offset distance
 
 ## VBA Syntax
 
-See
-
-[EndCapFeatureData::OffsetDistance](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~OffsetDistance.html)
-
-.
+See [EndCapFeatureData::OffsetDistance](ms-its:sldworksapivb6.chm::/sldworks~EndCapFeatureData~OffsetDistance.html).
 
 ## Examples
 
-See the
-
-[IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html)
-
-examples.
+See the [IEndCapFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData.html) examples.
 
 ## Remarks
 
-[IEndCapFeatureData::UseThicknessRatioForOffset](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData~UseThicknessRatioForOffset.html)
-
-must be set to false for this property to have an effect.
+[IEndCapFeatureData::UseThicknessRatioForOffset](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEndCapFeatureData~UseThicknessRatioForOffset.html) must be set to false for this property to have an effect.
 
 ## See Also
 
 [IEndCapFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData.html)
-
 [IEndCapFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEndCapFeatureData_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "InspectionAddinMgr Object
-Members"
+title: "InspectionAddinMgr Object Members"
 project: "SWInspectionAddinActiveX DLL"
 interface: "InspectionAddinMgr_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swinspectionapivb6/SWInspectionAddin~InspectionAddinMgr_members.html"
 ---
 
-# InspectionAddinMgr Object
-Members
+# InspectionAddinMgr Object Members
 
 ## Public Methods
 

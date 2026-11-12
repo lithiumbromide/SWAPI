@@ -59,60 +59,40 @@ Configuration^ IAddConfiguration3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Name`: Name of the new configuration
 - `Comment`: Comment displayed in Configuration Properties
 - `AlternateName`: Alternate configuration name; used if swConfigOption_UseAlternateName is set to True
-- `Options`: Combination of one or more BOOLEAN configuration options as defined in[swConfigurationOptions2_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConfigurationOptions2_e.html)(see**Remarks**)
+- `Options`: Combination of one or more BOOLEAN configuration options as defined in [swConfigurationOptions2_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swConfigurationOptions2_e.html) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::IAddConfiguration3](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IAddConfiguration3.html)
-
-.
+See [ModelDoc2::IAddConfiguration3](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~IAddConfiguration3.html).
 
 ## Remarks
 
 The Options argument can be a combination of any of the following values:
 
-- swConfigOption_SuppressByDefaultTrue if you want to suppress newly added features and mates in this configuration, false if not
+- swConfigOption_SuppressByDefault True if you want to suppress newly added features and mates in this configuration, false if not
 - swConfigOption_HideByDefault - True if you want newly added components to be hidden, false if not
-- swConfigOption_MinFeatureManagerTrue if you want newly added components to only display their component name in the FeatureManager design tree, false if you want newly added components to display their name and each of their features in the FeatureManager design tree
+- swConfigOption_MinFeatureManager True if you want newly added components to only display their component name in the FeatureManager design tree, false if you want newly added components to display their name and each of their features in the FeatureManager design tree
 - swConfigOption_DontActivate - True if you do not want the new configuration activated, false if not
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::GetConfigurationByName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetConfigurationByName.html)
-
 [IModelDoc2::GetConfigurationCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetConfigurationCount.html)
-
 [IModelDoc2::GetConfigurationNames Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~GetConfigurationNames.html)
-
 [IModelDoc2::IGetConfigurationByName Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IGetConfigurationByName.html)
-
 [IModelDoc2::IGetCustomInfoNames2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~IGetCustomInfoNames2.html)
-
 [IModelDoc2::AddConfiguration3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~AddConfiguration3.html)
-
 [IModelDoc2::ShowConfiguration2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~ShowConfiguration2.html)
-
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfigurationManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfigurationManager.html)
 
 ## Availability

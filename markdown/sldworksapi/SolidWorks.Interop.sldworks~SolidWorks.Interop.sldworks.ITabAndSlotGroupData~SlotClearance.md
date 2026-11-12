@@ -45,13 +45,7 @@ property System.double SlotClearance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ Slot clearance
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::SlotClearance](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~SlotClearance.html)
-
-.
+See [TabAndSlotGroupData::SlotClearance](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~SlotClearance.html).
 
 ## Remarks
 
@@ -72,7 +62,6 @@ This property allows you to make the slots larger than the tabs.
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

@@ -47,36 +47,23 @@ property System.int StiffnessType {
 
 ### Property Value
 
-Stiffness types as defined in[swsStiffnessType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStiffnessType_e.html)
+Stiffness types as defined in [swsStiffnessType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsStiffnessType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWSpringConnector::StiffnessType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~StiffnessType.html)
-
-.
+See [CWSpringConnector::StiffnessType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWSpringConnector~StiffnessType.html).
 
 ## Examples
 
-See the
-
-[ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
-examples.
+See the [ICWSpringConnector](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html) examples.
 
 ## See Also
 
 [ICWSpringConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector.html)
-
 [ICWSpringConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector_members.html)
-
 [ICWSpringConnector::NormalRadialStiffnessValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~NormalRadialStiffnessValue.html)
-
 [ICWSpringConnector::RotationalStiffnessValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~RotationalStiffnessValue.html)
-
 [ICWSpringConnector::TangentialOrShearStiffnessValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~TangentialOrShearStiffnessValue.html)
-
 [ICWSpringConnector::Unit Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWSpringConnector~Unit.html)
 
 ## Availability

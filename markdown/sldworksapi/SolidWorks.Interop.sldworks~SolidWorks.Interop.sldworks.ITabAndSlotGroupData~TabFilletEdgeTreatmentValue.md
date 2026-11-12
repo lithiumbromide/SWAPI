@@ -45,13 +45,7 @@ property System.double TabFilletEdgeTreatmentValue {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,28 +53,15 @@ Fillet radius
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotGroupData::TabFilletEdgeTreatmentValue](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabFilletEdgeTreatmentValue.html)
-
-.
+See [TabAndSlotGroupData::TabFilletEdgeTreatmentValue](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotGroupData~TabFilletEdgeTreatmentValue.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ITabAndSlotGroupData::TabEdgesType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabEdgesType.html)
-
-is set to
-
-[swTabEdgesType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabEdgesType_e.html)
-
-.FilletEdge.
+This property is valid only if [ITabAndSlotGroupData::TabEdgesType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData~TabEdgesType.html) is set to [swTabEdgesType_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swTabEdgesType_e.html).FilletEdge.
 
 ## See Also
 
 [ITabAndSlotGroupData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
-
 [ITabAndSlotGroupData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData_members.html)
 
 ## Availability

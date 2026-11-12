@@ -47,13 +47,7 @@ System.Object^ GetLineAtIndex3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -61,39 +55,28 @@ See
 
 ### Return Value
 
-Array of doubles (see
-
-Remarks
-
-)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[DisplayData::GetLineAtIndex3](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetLineAtIndex3.html)
-
-.
+See [DisplayData::GetLineAtIndex3](ms-its:sldworksapivb6.chm::/sldworks~DisplayData~GetLineAtIndex3.html).
 
 ## Examples
 
 [Get Centerline Annotation Information (VBA)](Get_Centerline_Annotation_Information_Example_VB.htm)
-
 [Get Weld Bead Symbol Data (VBA)](Get_Weld_Bead_End_Treatment_Symbol_Data_Example_VB.htm)
-
 [Get Weld Bead Symbol Data (VB.NET)](Get_Weld_Bead_End_Treatment_Symbol_Data_Example_VBNET.htm)
-
 [Get Weld Bead Symbol Data (C#)](Get_Weld_Bead_End_Treatment_Symbol_Data_Example_CSharp.htm)
 
 ## Remarks
 
 The return value is the following array of doubles:
 
-[color, lineType, lineStyle, lineWeight, startPt[3], endPt[3]]
+```vb
+[ color, lineType, lineStyle, lineWeight, startPt[3], endPt[3] ]
+```
 
 where:
-
-(Table)=========================================================
 
 | color | COLORREF returned as an integer; return value can be 0 or -1 for default color |
 | --- | --- |
@@ -106,11 +89,8 @@ where:
 ## See Also
 
 [IDisplayData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData.html)
-
 [IDisplayData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData_members.html)
-
 [IDisplayData::IGetLineAtIndex3 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~IGetLineAtIndex3.html)
-
 [IDisplayData::GetLineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayData~GetLineCount.html)
 
 ## Availability

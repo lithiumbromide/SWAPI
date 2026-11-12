@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # IModelDoc2 Interface Properties
 
-For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html).
+For a list of all members of this type, see [IModelDoc2 members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html).
 
 ## Public Properties
 
@@ -30,7 +30,7 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 | Property | LargeAssemblyMode | Gets or sets Large Assembly Mode for this document. |
 | Property | LengthUnit | Gets and sets the same LengthUnit value used by IModelDoc2::GetUnits , IModelDoc2::IGetUnits , and IModelDoc2::SetUnits . |
 | Property | LightSourcePropertyValues | Gets and sets the light source property values. |
-| Property | LightSourceUserName | Gets or sets the light source name that is displayed in the SOLIDWORKS user interface. |
+| Property | LightSourceUserName | Gets or sets the light source name that is displayed in the SOLIDWORKS Design user interface. |
 | Property | MaterialIdName | Obsolete. Superseded by IPartDoc::GetMaterialPropertyName2 and IPartDoc::SetMaterialPropertyName2 . |
 | Property | MaterialPropertyValues | Gets or sets a material's properties in the active configuration. |
 | Property | MaterialUserName | Gets or sets the material name. |
@@ -52,5 +52,4 @@ For a list of all members of this type, see[IModelDoc2 members](SolidWorks.Inter
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

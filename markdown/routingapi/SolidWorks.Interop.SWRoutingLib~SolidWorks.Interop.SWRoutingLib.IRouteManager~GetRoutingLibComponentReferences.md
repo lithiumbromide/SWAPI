@@ -57,16 +57,11 @@ Routing component references
 
 ## VBA Syntax
 
-See
-
-[RouteManager::GetRoutingLibComponentReferences](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetRoutingLibComponentReferences.html)
-
-.
+See [RouteManager::GetRoutingLibComponentReferences](ms-its:routingapivb6.chm::/SWRoutingLib~RouteManager~GetRoutingLibComponentReferences.html).
 
 ## See Also
 
 [IRouteManager Interface](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager.html)
-
 [IRouteManager Members](SolidWorks.Interop.SWRoutingLib~SolidWorks.Interop.SWRoutingLib.IRouteManager_members.html)
 
 ## Availability

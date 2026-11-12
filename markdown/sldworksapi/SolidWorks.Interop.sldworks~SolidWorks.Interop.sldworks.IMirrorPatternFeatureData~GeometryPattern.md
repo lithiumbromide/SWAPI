@@ -45,13 +45,7 @@ property System.bool GeometryPattern {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to mirror only the geometry of the feature, false to solve the entire featu
 
 ## VBA Syntax
 
-See
-
-[MirrorPatternFeatureData::GeometryPattern](ms-its:sldworksapivb6.chm::/sldworks~MirrorPatternFeatureData~GeometryPattern.html)
-
-.
+See [MirrorPatternFeatureData::GeometryPattern](ms-its:sldworksapivb6.chm::/sldworks~MirrorPatternFeatureData~GeometryPattern.html).
 
 ## Examples
 
 [Get Mirror Pattern Feature Data (VBA)](Get_Mirror_Feature_Data_Example_VB.htm)
-
 [Get Mirror Pattern Feature Data (C#)](Get_Mirror_Pattern_Feature_Data_Example_CSharp.htm)
-
 [Get Mirror Pattern Feature Data (VB.NET)](Get_Mirror_Pattern_Feature_Data_Example_VBNET.htm)
 
 ## See Also
 
 [IMirrorPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData.html)
-
 [IMirrorPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMirrorPatternFeatureData_members.html)
 
 ## Availability

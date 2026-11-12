@@ -45,13 +45,7 @@ property System.bool CapPlanar {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to close the flat openings, false to not
 
 ## VBA Syntax
 
-See
-
-[IntersectFeatureData::CapPlanar](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~CapPlanar.html)
-
-.
+See [IntersectFeatureData::CapPlanar](ms-its:sldworksapivb6.chm::/sldworks~IntersectFeatureData~CapPlanar.html).
 
 ## Examples
 
-See the
-
-[IIntersectFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData.html)
-
-examples.
+See the [IIntersectFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IIntersectFeatureData.html) examples.
 
 ## See Also
 
 [IIntersectFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData.html)
-
 [IIntersectFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIntersectFeatureData_members.html)
 
 ## Availability

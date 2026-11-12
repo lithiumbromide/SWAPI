@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Components_Hidden_In_Drawing_View_Example_VB.htm"
 
 # Get Components Hidden In Drawing View Example (VBA)
 
-This example shows how to get the components hidden in the selected
-drawing view.
+This example shows how to get the components hidden in the selected drawing view.
 
 ```
 '----------------------------------------------

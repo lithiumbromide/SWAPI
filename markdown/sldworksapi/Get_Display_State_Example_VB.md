@@ -11,105 +11,41 @@ source: "sldworksapi/Get_Display_State_Example_VB.htm"
 
 This example shows how to get the display state of the model.
 
+```vb
 '-------------------------------------------
-
 '
-
 ' Preconditions: Model document is open.
-
 '
-
 ' Postconditions: None
-
 '
-
 '-------------------------------------------
-
 Option Explicit
-
 Public Enum swViewDisplayType_e
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swIsViewSectioned
-= 0
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swIsViewPerspective
-= 1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swIsViewShaded
-= 2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swIsViewWireFrame
-= 3
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swIsViewHiddenLinesRemoved
-= 4
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swIsViewHiddenInGrey
-= 5
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swIsViewCurvature
-= 6
-
+    swIsViewSectioned = 0
+    swIsViewPerspective = 1
+    swIsViewShaded = 2
+    swIsViewWireFrame = 3
+    swIsViewHiddenLinesRemoved = 4
+    swIsViewHiddenInGrey = 5
+    swIsViewCurvature = 6
 End Enum
-
 Sub main()
+    Dim swApp                       As SldWorks.SldWorks
+    Dim swModel                     As SldWorks.ModelDoc2
+    Dim swModView                   As SldWorks.ModelView
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAppkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SldWorks
+    Set swApp = Application.SldWorks
+    Set swModel = swApp.ActiveDoc
+    Set swModView = swModel.ActiveView
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelDoc2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModViewkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelView
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = Application.SldWorks
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModView = swModel.ActiveView
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"File = " & swModel.GetPathName
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Sectionedkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swModView.GetDisplayState(swIsViewSectioned)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Perspectivekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swModView.GetDisplayState(swIsViewPerspective)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Shadedkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swModView.GetDisplayState(swIsViewShaded)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}WireFramekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swModView.GetDisplayState(swIsViewWireFrame)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}HiddenLinesRemovedkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swModView.GetDisplayState(swIsViewHiddenLinesRemoved)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}HiddenInGreykadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swModView.GetDisplayState(swIsViewHiddenInGrey)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Curvaturekadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swModView.GetDisplayState(swIsViewCurvature)
-
+    Debug.Print "File = " & swModel.GetPathName
+    Debug.Print "  Sectioned            = " & swModView.GetDisplayState(swIsViewSectioned)
+    Debug.Print "  Perspective          = " & swModView.GetDisplayState(swIsViewPerspective)
+    Debug.Print "  Shaded               = " & swModView.GetDisplayState(swIsViewShaded)
+    Debug.Print "  WireFrame            = " & swModView.GetDisplayState(swIsViewWireFrame)
+    Debug.Print "  HiddenLinesRemoved   = " & swModView.GetDisplayState(swIsViewHiddenLinesRemoved)
+    Debug.Print "  HiddenInGrey         = " & swModView.GetDisplayState(swIsViewHiddenInGrey)
+    Debug.Print "  Curvature            = " & swModView.GetDisplayState(swIsViewCurvature)
 End Sub
-
 '-------------------------------------------
+```

@@ -40,24 +40,13 @@ CustomSymbol IGetNext()
 CustomSymbol^ IGetNext();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::IGetNext](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~IGetNext.html)
-
-.
+See [CustomSymbol::IGetNext](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~IGetNext.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

@@ -42,25 +42,15 @@ property System.Object^ CircleParams {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of doubles (see**Remarks**)
+Array of doubles (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[Curve::CircleParams](ms-its:sldworksapivb6.chm::/sldworks~Curve~CircleParams.html)
-
-.
+See [Curve::CircleParams](ms-its:sldworksapivb6.chm::/sldworks~Curve~CircleParams.html).
 
 ## Examples
 
@@ -68,22 +58,18 @@ See
 
 ## Remarks
 
-To determine if a circular edge is a complete circle or an arc, use[IEdge::GetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetCurveParams2.html).
+To determine if a circular edge is a complete circle or an arc, use [IEdge::GetCurveParams2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetCurveParams2.html).
 
 The return value is the following array of 7 double values:
 
-[center.x, center.y, center.z, axis.x, axis.y, axis.z, radius]
+[ center.x, center.y, center.z, axis.x, axis.y, axis.z, radius ]
 
 Center and radius values are in meters.
 
 ## See Also
 
 [ICurve Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve.html)
-
 [ICurve Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve_members.html)
-
 [ICurve::IsCircle Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~IsCircle.html)
-
 [ICurve::ICircleParams Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~ICircleParams.html)
-
 [ICurve::Identity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICurve~Identity.html)

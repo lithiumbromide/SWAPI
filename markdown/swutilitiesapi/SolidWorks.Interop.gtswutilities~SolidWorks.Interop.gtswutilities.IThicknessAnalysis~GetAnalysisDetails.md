@@ -69,26 +69,20 @@ System.int GetAnalysisDetails(
 
 ### Parameters
 
-- `lRange`: 1-based index of the number of intervals in the thickness color scale (see**Remarks**)
-- `dMinTckInRange`: Minimum thickness of
-
-thickness range
-- `dMaxTckInRange`: Maximum thickness ofthickness range
-- `lNoFaces`: Number of facesParamDesc
-- `dSurfArea`: Surface areaParamDesc
+- `lRange`: 1-based index of the number of intervals in the thickness color scale (see **Remarks**)
+- `dMinTckInRange`: Minimum thickness of thickness range
+- `dMaxTckInRange`: Maximum thickness of thickness range
+- `lNoFaces`: Number of faces
+- `dSurfArea`: Surface area
 - `dPerAnalArea`: Percent of total area analyzed that falls in the specified thickness range
 
 ### Return Value
 
-Error as defined in[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+Error as defined in [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ## VBA Syntax
 
-See
-
-[IThicknessAnalysis::GetAnalysisDetails](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~GetAnalysisDetails.html)
-
-.
+See [IThicknessAnalysis::GetAnalysisDetails](ms-its:swutilitiesapivb6.chm::/swutilities~IThicknessAnalysis~GetAnalysisDetails.html).
 
 ## Examples
 
@@ -96,28 +90,17 @@ See
 
 ## Remarks
 
-Use
-
-[IThicknessAnalysis::GetIntervalCount](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~GetIntervalCount.html)
-
-to get the number of intervals in the thickness color scale.
+Use [IThicknessAnalysis::GetIntervalCount](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.IThicknessAnalysis~GetIntervalCount.html) to get the number of intervals in the thickness color scale.
 
 ## See Also
 
 [IThicknessAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis.html)
-
 [IThicknessAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis_members.html)
-
 [IThicknessAnalysis::GetAvgWeightedTckOnCritArea Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetAvgWeightedTckOnCritArea.html)
-
 [IThicknessAnalysis::GetCriticalFeatureNames Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetCriticalFeatureNames.html)
-
 [IThicknessAnalysis::GetCriticalSurfaceArea Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetCriticalSurfaceArea.html)
-
 [IThicknessAnalysis::GetMaxDeviationfromTargetThickness Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetMaxDeviationfromTargetThickness.html)
-
 [IThicknessAnalysis::GetNumCriticalFaces Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetNumCriticalFaces.html)
-
 [IThicknessAnalysis::GetNumCriticalFeatures Method](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IThicknessAnalysis~GetNumCriticalFeatures.html)
 
 ## Availability

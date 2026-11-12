@@ -57,26 +57,19 @@ System.int ChangeOwner(
 
 ## VBA Syntax
 
-See
-
-[PDMWDocument::ChangeOwner](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~ChangeOwner.html)
-
-.
+See [PDMWDocument::ChangeOwner](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWDocument~ChangeOwner.html).
 
 ## Remarks
 
 This functionality is only available via the SOLIDWORKS Workgroup PDM API; it is not available in the user interface. Only vault administrators can use this method.
 
-This method does not release ownership of any child documents. Use[IPDMWDocument::ReleaseOwnership](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ReleaseOwnership.html)to do this.
+This method does not release ownership of any child documents. Use [IPDMWDocument::ReleaseOwnership](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ReleaseOwnership.html) to do this.
 
 ## See Also
 
 [IPDMWDocument Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument.html)
-
 [IPDMWDocument Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument_members.html)
-
 [IPDMWDocument::ReleaseOwnership Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~ReleaseOwnership.html)
-
 [IPDMWDocument::TakeOwnership Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWDocument~TakeOwnership.html)
 
 ## Availability

@@ -50,26 +50,21 @@ void UnlockFile(
 
 - `lParentWnd`: Parent window handle
 - `bsComment`: Version comment to show in the history dialog box
-- `lEdmUnlockFlags`: Optional combination of
-
-[EdmUnlockFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockFlag.html)
-
-bits; default is EdmUnlockFlag.EdmUnlock_Simple
+- `lEdmUnlockFlags`: Optional combination of [EdmUnlockFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockFlag.html) bits; default is EdmUnlockFlag.EdmUnlock_Simple
 - `poIEdmRefCallback`: Optional Nothing or null
 
 ## Examples
 
 [Add Custom File Reference (VB.NET)](Add_Custom_File_Reference_Example_VBNET.htm)
-
 [Add Custom File Reference (C#)](Add_Custom_File_Reference_Example_CSharp.htm)
 
 ## Remarks
 
 If the file or its file data card contents have changed, this method creates a new version.
 
-[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html)is more efficient than this interface for checking in multiple files.
+[IEdmBatchUnlock](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchUnlock.html) is more efficient than this interface for checking in multiple files.
 
-See[Return Codes](ReturnCodes.htm)for the complete list of potential success and error codes. The following are just a few examples:
+See [Return Codes](ReturnCodes.htm) for the complete list of potential success and error codes. The following are just a few examples:
 
 - S_OK: The method successfully executed.
 - S_FALSE: The method successfully executed, but as no file is modified, SOLIDWORKS PDM Professional did not create a new version.
@@ -81,11 +76,7 @@ See[Return Codes](ReturnCodes.htm)for the complete list of potential success and
 - E_EDM_CANCELLED_BY_USER: Not implemented.
 - E_EDM_INVALID_FILE: The file format is not recognized, and you have specified to not check in such files.
 - E_EDM_MISSING_MANDATORY_VALUE: The file lacks a value for a required file data card variable.
-- E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the loaded
-
-  [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html)
-
-  .EdmCmd_PreUndoLock hooks did not permit the operation.
+- E_EDM_OPERATION_REFUSED_BY_PLUGIN: One of the loaded [EdmCmdType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmCmdType.html).EdmCmd_PreUndoLock hooks did not permit the operation.
 - E_EDM_FILE_NOT_REGENERATED: The file needs to be rebuilt.
 - E_EDM_NO_WORKFLOW: The document does not meet the conditions of any workflow.
 - E_EDM_CIRCULAR_XREF: A cyclic file reference was detected.
@@ -98,9 +89,7 @@ See[Return Codes](ReturnCodes.htm)for the complete list of potential success and
 ## See Also
 
 [IEdmFile5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5.html)
-
 [IEdmFile5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5_members.html)
-
 [IEdmFile5::LockFile Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~LockFile.html)
 
 ## Availability

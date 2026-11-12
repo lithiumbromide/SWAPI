@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEn
 
 # IEnumSketchHatches Interface
 
-Allows access to a
+Allows access to a [sketch hatches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchHatch.html) enumeration.
 
-[sketch hatches](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchHatch.html)
-
-enumeration.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,11 +41,7 @@ public interface class IEnumSketchHatches
 
 ## VBA Syntax
 
-See
-
-[EnumSketchHatches](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchHatches.html)
-
-.
+See [EnumSketchHatches](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchHatches.html).
 
 ## Remarks
 
@@ -68,5 +60,4 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumSketchHatches Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchHatches_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

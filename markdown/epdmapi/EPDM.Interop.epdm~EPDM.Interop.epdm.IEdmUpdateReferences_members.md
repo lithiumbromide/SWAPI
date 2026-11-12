@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences_member
 
 # IEdmUpdateReferences Interface Members
 
-The following tables list the members exposed by[IEdmUpdateReferences](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences.html).
+The following tables list the members exposed by [IEdmUpdateReferences](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[IEdmUpdateReferences](EPDM.Inte
 ## See Also
 
 [IEdmUpdateReferences Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUpdateReferences.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

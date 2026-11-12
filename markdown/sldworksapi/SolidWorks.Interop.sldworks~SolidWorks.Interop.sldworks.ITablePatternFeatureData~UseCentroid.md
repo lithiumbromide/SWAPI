@@ -45,13 +45,7 @@ property System.bool UseCentroid {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,32 +53,19 @@ True to use the seed feature's centroid as the reference point, false to not
 
 ## VBA Syntax
 
-See
-
-[TablePatternFeatureData::UseCentroid](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~UseCentroid.html)
-
-.
+See [TablePatternFeatureData::UseCentroid](ms-its:sldworksapivb6.chm::/sldworks~TablePatternFeatureData~UseCentroid.html).
 
 ## Examples
 
-See the
-
-[ITablePatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
-example.
+See the [ITablePatternFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html) example.
 
 ## Remarks
 
-If this property is set to false, then you must specify
-
-[ITablePatternFeatureData::ReferencePoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~ReferencePoint.html)
-
-.
+If this property is set to false, then you must specify [ITablePatternFeatureData::ReferencePoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData~ReferencePoint.html).
 
 ## See Also
 
 [ITablePatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData.html)
-
 [ITablePatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITablePatternFeatureData_members.html)
 
 ## Availability

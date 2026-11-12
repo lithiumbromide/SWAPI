@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # Tolerance Property (IDimension)
 
-Gets the
-
-[IDimensionTolerance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance.html)
-
-object.
+Gets the [IDimensionTolerance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance.html) object.
 
 ## Syntax
 
@@ -46,42 +42,25 @@ property DimensionTolerance^ Tolerance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Pointer to the
-
-[IDimensionTolerance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance.html)
-
-object
+Pointer to the [IDimensionTolerance](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimensionTolerance.html) object
 
 ## VBA Syntax
 
-See
-
-[Dimension::Tolerance](ms-its:sldworksapivb6.chm::/sldworks~Dimension~Tolerance.html)
-
-.
+See [Dimension::Tolerance](ms-its:sldworksapivb6.chm::/sldworks~Dimension~Tolerance.html).
 
 ## Examples
 
 [Get Dimension Tolerance (VBA)](Get_Dimension_Tolerance_Example_VB.htm)
-
 [Get Dimension Tolerance (VB.NET)](Get_Dimension_Tolerance_Example_VBNET.htm)
-
 [Get Dimension Tolerance (C#)](Get_Dimension_Tolerance_Example_CSharp.htm)
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)
 
 ## Availability

@@ -51,18 +51,12 @@ Fully qualified path and file name of the background image
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::BackgroundImagePath](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~BackgroundImagePath.html)
-
-.
+See [EModelViewControl::BackgroundImagePath](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~BackgroundImagePath.html).
 
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::BackgroundColor Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~BackgroundColor.html)
 
 ## Availability

@@ -40,44 +40,24 @@ System.object GetFacets()
 System.Object^ GetFacets();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-s
+Array of [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)s
 
 ## VBA Syntax
 
-See
-
-[GraphicsBody::GetFacets](ms-its:sldworksapivb6.chm::/sldworks~GraphicsBody~GetFacets.html)
-
-.
+See [GraphicsBody::GetFacets](ms-its:sldworksapivb6.chm::/sldworks~GraphicsBody~GetFacets.html).
 
 ## Examples
 
-See the
-
-[IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html)
-
-examples.
+See the [IFacet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet.html) examples.
 
 ## See Also
 
 [IGraphicsBody Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody.html)
-
 [IGraphicsBody Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody_members.html)
-
 [IGraphicsBody::GetFacetCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGraphicsBody~GetFacetCount.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "obsoleteapi/Entity/Entity__Select3.htm"
 
 # Entity::Select3
 
-This method is obsolete and has been superseded
-by[Entity::Select4](sldworksAPI.chm::/Entity/Entity__Select4.htm).
+This method is obsolete and has been superseded by [Entity::Select4](sldworksAPI.chm::/Entity/Entity__Select4.htm).
 
 Description
 
@@ -20,10 +19,7 @@ Syntax (OLE Automation)
 
 retval = Entity.Select3 ( Append, Mark, Callout )
 
-(Table)=========================================================
-
-| Input: | (BOOL) Append | TRUE appends the entity to the selection list, FALSE replaces the current
-selection list |
+| Input: | (BOOL) Append | TRUE appends the entity to the selection list, FALSE replaces the current selection list |
 | --- | --- | --- |
 | Input: | (long) Mark | Value that you want to use as a selection mark |
 | Input: | (LPCALLOUT) Callout | Pointer to the associated callout |
@@ -31,15 +27,9 @@ selection list |
 
 Syntax (COM)
 
-status = Entity->Select3 ( Append, Mark, Callout,
-&retval )
+status = Entity->Select3 ( Append, Mark, Callout, &retval )
 
-Parameters Table Start
-
-(Table)=========================================================
-
-| Input: | (VARIANT_BOOL) Append | TRUE appends the entity to the selection list, FALSE replaces the current
-selection list |
+| Input: | (VARIANT_BOOL) Append | TRUE appends the entity to the selection list, FALSE replaces the current selection list |
 | --- | --- | --- |
 | Input: | (long) Mark | Value that you want to use as a selection mark |
 | Input: | (LPCALLOUT) Callout | Pointer to the associated callout |
@@ -48,119 +38,42 @@ selection list |
 
 Remarks
 
-When you use this method,
-selection behaves differently depending on the command
+When you use this method, selection behaves differently depending on the command
 
-state of SolidWorks. One case
-is when SolidWorks is running a command that has a
+state of SolidWorks. One case is when SolidWorks is running a command that has a
 
-dialog box associated with
-a selection list box (for example, a feature creation
+dialog box associated with a selection list box (for example, a feature creation
 
-command such as InsertFillet).
-The selection behavior in this case is:
+command such as InsertFillet). The selection behavior in this case is:
 
-- Selecting
-  a new entity appends it to the selection list.
+- Selecting a new entity appends it to the selection list.
   - or -
-- Selecting
-  an entity that is already selected deselects the entity.
+- Selecting an entity that is already selected deselects the entity.
 
-SolidWorks ignores the Append
-argument because the selection is always appended to
+SolidWorks ignores the Append argument because the selection is always appended to
 
 the selection list.
 
-The second case is when there
-is no command running, which is the default state of
+The second case is when there is no command running, which is the default state of
 
-SolidWorks. The original Entity::Select
-worked this way:
+SolidWorks. The original Entity::Select worked this way:
 
-- Selecting
-  a new entity replaces or appends the selection list depending on the Appendargument. - or -
-- Selecting
-  an entity that is already selected has no effect.
+- Selecting a new entity replaces or appends the selection list depending on the Append argument.
+  - or -
+- Selecting an entity that is already selected has no effect.
 
-The mark value of a selection
-is used by some functions that require multiple selections
+The mark value of a selection is used by some functions that require multiple selections
 
-(for example, the Insert Draft
-command uses selection marks). The mark value indicates
+(for example, the Insert Draft command uses selection marks). The mark value indicates
 
-which selection belongs to
-which selection box, so the Mark argument applies only
+which selection belongs to which selection box, so the Mark argument applies only
 
-to certain situations within
-the first case.If the
-Mark argument is not used, pass 0 for this argument.
+to certain situations within the first case. If the Mark argument is not used, pass 0 for this argument.
 
-You can use this method only
-with entity objects that you get from the active document.
+You can use this method only with entity objects that you get from the active document.
 
-In other words, if Assembly1
-is the active document when you call Entity::Select3,
+In other words, if Assembly1 is the active document when you call Entity::Select3,
 
-then you must get the entity
-directly from the Assembly1 document. You can do this
+then you must get the entity directly from the Assembly1 document. You can do this
 
-using items in the selection
-list (for example, SelectionMGr::GetSelectedObject3) or you can traverse
-the body of an assembly component (for example, Component2::GetBody and
-Body2::GetFirstFace). You cannot obtain the entity from the underlying
-part document (for example, Component2::GetModelDoc, PartDoc::Body, or
-Body2::GetFirstFace).
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic2
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2003$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2004\obsoleteapi\Entity\Entity__Select3.htm" >
-<param name="_ID" value="RelatedTopic2" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic1
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="Entity_Object$$**$$Callout_Object$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="D:\APIHelp\sw2004\obsoleteapi\Entity\Entity__Select3.htm" >
-<param name="_ID" value="RelatedTopic1" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+using items in the selection list (for example, SelectionMGr::GetSelectedObject3) or you can traverse the body of an assembly component (for example, Component2::GetBody and Body2::GetFirstFace). You cannot obtain the entity from the underlying part document (for example, Component2::GetModelDoc, PartDoc::Body, or Body2::GetFirstFace).

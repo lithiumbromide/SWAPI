@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILo
 
 Allows access to a sketch-driven component pattern feature in an assembly.
 
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -41,25 +41,19 @@ public interface class ILocalSketchPatternFeatureData
 
 ## VBA Syntax
 
-See
-
-[LocalSketchPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~LocalSketchPatternFeatureData.html)
-
-.
+See [LocalSketchPatternFeatureData](ms-its:sldworksapivb6.chm::/sldworks~LocalSketchPatternFeatureData.html).
 
 ## Examples
 
 [Create Local Sketch-driven Pattern (C#)](Create_Local_Sketch-driven_Pattern_Example_CSharp.htm)
-
 [Create Local Sketch-driven Pattern (VB.NET)](Create_Local_Sketch-driven_Pattern_Example_VBNET.htm)
-
 [Create Local Sketch-driven Pattern (VBA)](Create_Local_Sketch-driven_Pattern_Example_VB.htm)
 
 ## Remarks
 
-Read[Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
+Read [Pattern Features and their Feature Data Objects](sldworksapiprogguide.chm::/OVERVIEW/Pattern_Features_and_their_Feature_Data_Objects.htm).
 
-Before calling IFeatureManager::CreateDefinition, you can pre-select the entities needed to create the sketch-driven component pattern feature.
+Before calling IFeatureManager::CreateDefinition, you must pre-select the entities needed to create the sketch-driven component pattern feature.
 
 | To select ... | Use a mark of... |
 | --- | --- |
@@ -67,9 +61,7 @@ Before calling IFeatureManager::CreateDefinition, you can pre-select the entitie
 | Sketch to define the pattern | 16 |
 | Reference point as defined in swLocalSketchPatternReferencePoint_e | 32 |
 
-Or, after calling IFeatureManager::CreateDefinition, you can explicitly set the corresponding properties on this feature data object.
-
-Either way, you must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html)after initializing this feature data object in order to successfully create the local sketch-driven pattern feature.
+You must call [IFeatureManager::CreateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~CreateFeature.html) after initializing this feature data object in order to successfully create the local sketch-driven pattern feature.
 
 ## Accessors
 
@@ -84,7 +76,5 @@ Either way, you must call[IFeatureManager::CreateFeature](SolidWorks.Interop.sld
 ## See Also
 
 [ILocalSketchPatternFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalSketchPatternFeatureData_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [ISketchPatternFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData.html)

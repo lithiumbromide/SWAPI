@@ -40,13 +40,7 @@ System.object IGetOriginEntity()
 System.Object^ IGetOriginEntity();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Entity
 
 ## VBA Syntax
 
-See
-
-[CoordinateSystemFeatureData::IGetOriginEntity](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemFeatureData~IGetOriginEntity.html)
-
-.
+See [CoordinateSystemFeatureData::IGetOriginEntity](ms-its:sldworksapivb6.chm::/sldworks~CoordinateSystemFeatureData~IGetOriginEntity.html).
 
 ## Remarks
 
@@ -67,15 +57,10 @@ See SOLIDWORKS Help for a list of valid entities.
 ## See Also
 
 [ICoordinateSystemFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData.html)
-
 [ICoordinateSystemFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData_members.html)
-
 [ICoordinateSystemFeatureData::ISetOriginEntity Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~ISetOriginEntity.html)
-
 [ICoordinateSystemFeatureData::OriginEntity Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~OriginEntity.html)
-
 [ICoordinateSystemFeatureData::GetOriginEntityType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~GetOriginEntityType.html)
-
 [ICoordinateSystemFeatureData::IGetOriginEntityType Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoordinateSystemFeatureData~IGetOriginEntityType.html)
 
 ## Availability

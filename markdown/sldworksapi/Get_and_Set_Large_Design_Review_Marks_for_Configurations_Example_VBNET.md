@@ -9,8 +9,7 @@ source: "sldworksapi/Get_and_Set_Large_Design_Review_Marks_for_Configurations_Ex
 
 # Get and Set Large Design Review Marks for Configurations Example (VB.NET)
 
-This example shows how to get and set the Large Design Review marks for all of
-the configurations in an assembly.
+This example shows how to get and set the Large Design Review marks for all of the configurations in an assembly.
 
 ```
 '---------------------------------------------------------------------------

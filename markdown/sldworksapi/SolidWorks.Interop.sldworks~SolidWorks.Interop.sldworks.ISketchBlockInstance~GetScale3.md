@@ -47,13 +47,7 @@ System.double GetScale3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,24 +59,15 @@ Scale: 0.0000001 to 500000
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::GetScale3](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetScale3.html)
-
-.
+See [SketchBlockInstance::GetScale3](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~GetScale3.html).
 
 ## Remarks
 
-Use
-
-[ISketchBlockInstance::Scale2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~Scale2.html)
-
-to set the scale.
+Use [ISketchBlockInstance::Scale2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~Scale2.html) to set the scale.
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
 
 ## Availability

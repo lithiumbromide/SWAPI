@@ -9,8 +9,7 @@ source: "sldworksapi/Make_Smart_Component_with__Mate_Example_VB.htm"
 
 # Make Smart Component with Mate Example (VBA)
 
-This example shows how to create a Smart Component with a concentric
-mate reference.
+This example shows how to create a Smart Component with a concentric mate reference.
 
 ```
 '----------------------------------------------------------------

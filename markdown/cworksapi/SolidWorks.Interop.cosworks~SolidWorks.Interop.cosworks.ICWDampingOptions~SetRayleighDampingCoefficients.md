@@ -57,24 +57,18 @@ void SetRayleighDampingCoefficients(
 
 ## VBA Syntax
 
-See
-
-[CWDampingOptions::SetRayleighDampingCoefficients](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDampingOptions~SetRayleighDampingCoefficients.html)
-
-.
+See [CWDampingOptions::SetRayleighDampingCoefficients](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWDampingOptions~SetRayleighDampingCoefficients.html).
 
 ## Remarks
 
-This method works only if[ICWDampingOptions::DampingType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDampingOptions~DampingType.html)is set to[swsDampingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDampingType_e.html).swsDampingType_Rayleigh.
+This method works only if [ICWDampingOptions::DampingType](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWDampingOptions~DampingType.html) is set to [swsDampingType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsDampingType_e.html).swsDampingType_Rayleigh.
 
 For more information about Rayleigh damping, see the SOLIDWORKS Simulation Help.
 
 ## See Also
 
 [ICWDampingOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions.html)
-
 [ICWDampingOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions_members.html)
-
 [ICWDampingOptions::GetRayleighDampingCoefficients Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWDampingOptions~GetRayleighDampingCoefficients.html)
 
 ## Availability

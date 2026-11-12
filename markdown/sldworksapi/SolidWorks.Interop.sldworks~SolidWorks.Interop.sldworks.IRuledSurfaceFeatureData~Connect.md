@@ -45,27 +45,15 @@ property System.bool Connect {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 True to connect surfaces, false to remove connecting surfaces
 
-EndOLEPropertyRow
-
 ## VBA Syntax
 
-See
-
-[RuledSurfaceFeatureData::Connect](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~Connect.html)
-
-.
+See [RuledSurfaceFeatureData::Connect](ms-its:sldworksapivb6.chm::/sldworks~RuledSurfaceFeatureData~Connect.html).
 
 ## Remarks
 
@@ -74,7 +62,6 @@ Connecting surfaces are usually created between sharp corners.
 ## See Also
 
 [IRuledSurfaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData.html)
-
 [IRuledSurfaceFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRuledSurfaceFeatureData_members.html)
 
 ## Availability

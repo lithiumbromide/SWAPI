@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISe
 
 # CreateCallout Method (ISelectionMgr)
 
-Obsolete. Superseded by
-
-[ISelectionMgr::CreateCallout2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateCallout2.html)
-
-.
+Obsolete. Superseded by [ISelectionMgr::CreateCallout2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~CreateCallout2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ Callout CreateCallout()
 Callout^ CreateCallout();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SelectionMgr::CreateCallout](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~CreateCallout.html)
-
-.
+See [SelectionMgr::CreateCallout](ms-its:sldworksapivb6.chm::/sldworks~SelectionMgr~CreateCallout.html).
 
 ## See Also
 
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [ISelectionMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr_members.html)

@@ -1,6 +1,5 @@
 ---
-title: "RoutingComponentManager Object
-Members"
+title: "RoutingComponentManager Object Members"
 project: "SOLIDWORKS Routing Type Library"
 interface: "RoutingComponentManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "routingapivb6/SWRoutingLib~RoutingComponentManager_members.html"
 ---
 
-# RoutingComponentManager Object
-Members
+# RoutingComponentManager Object Members
 
 ## Public Methods
 

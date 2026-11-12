@@ -45,13 +45,7 @@ property System.int ItemNumberStart {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,19 +53,11 @@ Starting item number
 
 ## VBA Syntax
 
-See
-
-[StackedBalloonOptions::ItemNumberStart](ms-its:sldworksapivb6.chm::/sldworks~StackedBalloonOptions~ItemNumberStart.html)
-
-.
+See [StackedBalloonOptions::ItemNumberStart](ms-its:sldworksapivb6.chm::/sldworks~StackedBalloonOptions~ItemNumberStart.html).
 
 ## Examples
 
-See
-
-[IStackedBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions.html)
-
-examples.
+See [IStackedBalloonOptions](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IStackedBalloonOptions.html) examples.
 
 ## Remarks
 
@@ -80,7 +66,6 @@ See the SOLIDWORKS Help for additional details about stacked balloons.
 ## See Also
 
 [IStackedBalloonOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStackedBalloonOptions.html)
-
 [IStackedBalloonOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IStackedBalloonOptions_members.html)
 
 ## Availability

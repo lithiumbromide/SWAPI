@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 # ICallout Interface Properties
 
-For a list of all members of this type, see[ICallout members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout_members.html).
+For a list of all members of this type, see [ICallout members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout_members.html).
 
 ## Public Properties
 
@@ -35,5 +35,4 @@ For a list of all members of this type, see[ICallout members](SolidWorks.Interop
 ## See Also
 
 [ICallout Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

@@ -51,37 +51,21 @@ System.bool SetDontCutAllInstances(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `LpComp`: Pointer to the
-
-[IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html)
-
-object
+- `LpComp`: Pointer to the [IComponent2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2.html) object
 - `VbCut`: True if all instances of the selected component are left uncut, false if only the selected component is left uncut
 
 ## VBA Syntax
 
-See
-
-[DrSection::SetDontCutAllInstances](ms-its:sldworksapivb6.chm::/sldworks~DrSection~SetDontCutAllInstances.html)
-
-.
+See [DrSection::SetDontCutAllInstances](ms-its:sldworksapivb6.chm::/sldworks~DrSection~SetDontCutAllInstances.html).
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
-
 [IDrSection::GetDontCutAllInstances Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection~GetDontCutAllInstances.html)
 
 ## Availability

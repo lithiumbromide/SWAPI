@@ -9,8 +9,7 @@ source: "cworksapi/Create_Amplitude_Plot_Example_CSharp.htm"
 
 # Create Amplitude Plot and Set Mode Shape Example (C#)
 
-This example shows how to create an amplitude plot and set its mode shape
-number.
+This example shows how to create an amplitude plot and set its mode shape number.
 
 ```vb
 //---------------------------------------------------------------------------

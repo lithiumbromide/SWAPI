@@ -47,13 +47,7 @@ System.bool MakeRational(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,18 +59,12 @@ True if successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[SketchSpline::MakeRational](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~MakeRational.html)
-
-.
+See [SketchSpline::MakeRational](ms-its:sldworksapivb6.chm::/sldworks~SketchSpline~MakeRational.html).
 
 ## See Also
 
 [ISketchSpline Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline.html)
-
 [ISketchSpline Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline_members.html)
-
 [ISketchSpline::IsRationalCurve Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSpline~IsRationalCurve.html)
 
 ## Availability

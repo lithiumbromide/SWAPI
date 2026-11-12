@@ -9,15 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUnlockFlag.html"
 
 # EdmUnlockFlag Enumeration
 
-Flags used in
-
-[IEdmFile5::UnlockFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~UnlockFile.html)
-
-to control the behavior of the check-in operation.
-
-[Bitmask](Bitmasks.htm)
-
-.
+Flags used in [IEdmFile5::UnlockFile](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFile5~UnlockFile.html) to control the behavior of the check-in operation. [Bitmask](Bitmasks.htm).
 
 ## Syntax
 

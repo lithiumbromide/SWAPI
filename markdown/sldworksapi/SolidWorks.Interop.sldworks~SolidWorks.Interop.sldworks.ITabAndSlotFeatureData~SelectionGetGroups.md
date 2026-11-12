@@ -40,40 +40,23 @@ System.object SelectionGetGroups()
 System.Object^ SelectionGetGroups();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[ITabAndSlotGroupData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
+Array of [ITabAndSlotGroupData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotGroupData.html)
 
 ## VBA Syntax
 
-See
-
-[TabAndSlotFeatureData::SelectionGetGroups](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotFeatureData~SelectionGetGroups.html)
-
-.
+See [TabAndSlotFeatureData::SelectionGetGroups](ms-its:sldworksapivb6.chm::/sldworks~TabAndSlotFeatureData~SelectionGetGroups.html).
 
 ## Examples
 
-See the
-
-[ITabAndSlotFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html)
-
-example.
+See the [ITabAndSlotFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html) example.
 
 ## See Also
 
 [ITabAndSlotFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData.html)
-
 [ITabAndSlotFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITabAndSlotFeatureData_members.html)
 
 ## Availability

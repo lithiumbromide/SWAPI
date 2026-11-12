@@ -63,12 +63,8 @@ CWLinkageRod^ AddLinkageRod(
 
 - `VertexOrCircularFacesForEnd1`: Array of vertex or concentric circular faces (or edges for shells) for End 1
 - `VertexOrCircularFacesForEnd2`: Array of vertex or concentric circular faces (or edges for shells) for End 2
-- `NUnitSys`: Units as defined by
-
-[swsUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsUnit_e.html)
-- `ErrorCode`: Error code as defined by
-
-[swsLinkageRodEndEditErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinkageRodEndEditErrors_e.html)
+- `NUnitSys`: Units as defined by [swsUnit_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsUnit_e.html)
+- `ErrorCode`: Error code as defined by [swsLinkageRodEndEditErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsLinkageRodEndEditErrors_e.html)
 
 ### Return Value
 
@@ -76,24 +72,15 @@ CWLinkageRod^ AddLinkageRod(
 
 ## VBA Syntax
 
-See
-
-[CWLoadsAndRestraintsManager::AddLinkageRod](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddLinkageRod.html)
-
-.
+See [CWLoadsAndRestraintsManager::AddLinkageRod](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLoadsAndRestraintsManager~AddLinkageRod.html).
 
 ## Examples
 
-See the
-
-[ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
-examples.
+See the [ICWLinkageRod](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html) examples.
 
 ## See Also
 
 [ICWLoadsAndRestraintsManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager.html)
-
 [ICWLoadsAndRestraintsManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLoadsAndRestraintsManager_members.html)
 
 ## Availability

@@ -14,11 +14,7 @@ PDM Pro API Web Service
 | Post | api/{vaultName}/authenticate |
 | --- | --- |
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 | PDM Pro API Web Service > Authentication Resource Group : api/{vaultName}/authenticate (Post) |
 | --- |
@@ -83,13 +79,13 @@ Example
 import requests
 import json
 
-**basicUrl**= "http://`machine_name:port`/api/"
-**vaultname**= "`vault_name`"
+**basicUrl** = "http://`machine_name:port`/api/"
+**vaultname** = "`vault_name`"
 
 # Post api/{vaultName}/authenticate
 PostAuthenticateurl = basicUrl+vaultname+"/"+"authenticate"
 
-**payload**= "{\"Password\":\"\",\"Username\":\"Admin\"}"
+**payload** = "{\"Password\":\"\",\"Username\":\"Admin\"}"
 headers = {
 'Content-Type': 'application/json;charset=UTF-8',
 'version': '30.0'
@@ -131,7 +127,7 @@ print(" " + item["Name"])
 
 // 3. Create a C# console project in Visual Studio.
 
-// 4. Copy the code below into**Program.cs**.
+// 4. Copy the code below into **Program.cs**.
 
 // 5. Change the namespace as needed. Change "localhost" and the port in this application's Url string to your host machine's name and available port.
 
@@ -147,41 +143,41 @@ print(" " + item["Name"])
 
 //================================================================
 
-usingNewtonsoft.Json;
+using Newtonsoft.Json;
 
-usingSystem;
+using System;
 
-usingSystem.Collections.Generic;
+using System.Collections.Generic;
 
-usingSystem.IO;
+using System.IO;
 
-usingSystem.Linq;
+using System.Linq;
 
-usingSystem.Net;
+using System.Net;
 
-usingSystem.Text;
+using System.Text;
 
-usingSystem.Threading.Tasks;
+using System.Threading.Tasks;
 
-usingSystem.Web.Script.Serialization;
+using System.Web.Script.Serialization;
 
-namespaceConsoleWebAPIClientHTTPWebReq
-
-{
-
-classProgram
+namespace ConsoleWebAPIClientHTTPWebReq
 
 {
 
-conststringUrl ="http://localhost:8082/api/";
+class Program
 
-staticstringJwtString =string.Empty;
+{
 
-staticboolAuthorized =false;
+const string Url = "http://localhost:8082/api/";
 
-conststringvaultName ="2_24_2021";
+static string JwtString = string.Empty;
 
-staticvoidMain(string[] args)
+static bool Authorized = false;
+
+const string vaultName = "2_24_2021";
+
+static void Main(string[] args)
 
 {
 
@@ -189,19 +185,19 @@ try
 
 {
 
-stringurlLogin = Url + vaultName +"/authenticate";
+string urlLogin = Url + vaultName + "/authenticate";
 
-UserCredentials loginUser =newUserCredentials();
+UserCredentials loginUser = new UserCredentials();
 
-loginUser.username ="Admin";
+loginUser.username = "Admin";
 
 loginUser.password = String.Empty;
 
-stringloginResult = AuthenticateRequest(urlLogin, loginUser);
+string loginResult = AuthenticateRequest(urlLogin, loginUser);
 
 Authorized = AuthorizationCode(loginResult);
 
-if(Authorized)
+if (Authorized)
 
 {
 
@@ -209,15 +205,15 @@ if(Authorized)
 
 Console.WriteLine(" All folders : \n");
 
-stringurlBrowseAllFolder = Url + vaultName +"/folders/1/browse";
+string urlBrowseAllFolder = Url + vaultName +"/folders/1/browse";
 
 List<ObjectInfo> vaultFolderItems = GetVaultItems(urlBrowseAllFolder);
 
-foreach(var iteminvaultFolderItems)
+foreach (var item in vaultFolderItems)
 
 {
 
-Console.WriteLine(" Folder Name :"+ item.Name);
+Console.WriteLine(" Folder Name :" + item.Name);
 
 }
 
@@ -225,25 +221,25 @@ Console.WriteLine(" Folder Name :"+ item.Name);
 
 Console.WriteLine("\n Vault Users : \n");
 
-stringurlAllUsers = Url + vaultName +"/users";
+string urlAllUsers = Url + vaultName + "/users";
 
 vaultFolderItems = GetVaultItems(urlAllUsers);
 
-foreach(var iteminvaultFolderItems)
+foreach (var item in vaultFolderItems)
 
 {
 
-Console.WriteLine(" User Name :"+ item.FullName);
+Console.WriteLine(" User Name :" + item.FullName);
 
-Console.WriteLine(" User ID :"+ item.UserInfo.UserId.ToString());
-
-}
+Console.WriteLine(" User ID :" + item.UserInfo.UserId.ToString());
 
 }
 
 }
 
-catch(Exception ex)
+}
+
+catch (Exception ex)
 
 {
 
@@ -253,23 +249,23 @@ Console.WriteLine(ex.ToString());
 
 }
 
-privatestaticList<ObjectInfo> GetVaultItems(stringUrl)
+private static List<ObjectInfo> GetVaultItems(string Url)
 
 {
 
-varresult = GetResultOfAPI<List<ObjectInfo>>(Url);
+var result = GetResultOfAPI<List<ObjectInfo>>(Url);
 
-returnresult ??newList<ObjectInfo>();
+return result ?? new List<ObjectInfo>();
 
 }
 
-publicstaticT GetResultOfAPI<T>(stringdata)
+public static T GetResultOfAPI<T>(string data)
 
 {
 
-T model =default(T);
+T model = default(T);
 
-stringresult = GetRequest(data, JwtString);
+string result = GetRequest(data, JwtString);
 
 try
 
@@ -283,7 +279,7 @@ model = ConvertToType<T>(result);
 
 }
 
-catch(Exception ex)
+catch (Exception ex)
 
 {
 
@@ -291,21 +287,21 @@ Console.WriteLine(ex.ToString());
 
 }
 
-returnmodel;
+return model;
 
 }
 
-publicstaticT ConvertToType<T>(stringresponse)
+public static T ConvertToType<T>(string response)
 
 {
 
 // Deserialize the response and convert it to the specified type
 
-returnJsonConvert.DeserializeObject<T>(response);
+return JsonConvert.DeserializeObject<T>(response);
 
 }
 
-publicstaticboolAuthorizationCode(stringresult)
+public static bool AuthorizationCode(string result)
 
 {
 
@@ -313,19 +309,19 @@ try
 
 {
 
-varjsonConvert =newJavaScriptSerializer();
+var jsonConvert = new JavaScriptSerializer();
 
 // Deserialize the authentication result
 
 // and convert it to a JSON Web Token
 
-vartemp = (Dictionary<string,object>)jsonConvert.DeserializeObject(result);
+var temp = (Dictionary<string, object>)jsonConvert.DeserializeObject(result);
 
 JwtString = temp["JwtString"].ToString();
 
 }
 
-catch(Exception ex)
+catch (Exception ex)
 
 {
 
@@ -337,27 +333,27 @@ Console.WriteLine(ex.ToString());
 
 Authorized = !String.IsNullOrEmpty(JwtString);
 
-returnAuthorized;
+return Authorized;
 
 }
 
-public static string AuthenticateRequest( string url, UserCredentials user)
+public static string AuthenticateRequest(string url, UserCredentials user)
 
 {
 
-stringresult = String.Empty;
+string result = String.Empty;
 
-varjsonConvert =newJavaScriptSerializer();
+var jsonConvert = new JavaScriptSerializer();
 
-stringjson = jsonConvert.Serialize(user);
+string json = jsonConvert.Serialize(user);
 
-varbody = Encoding.UTF8.GetBytes(json);
+var body = Encoding.UTF8.GetBytes(json);
 
-HttpWebRequestrequest = (HttpWebRequest)WebRequest.Create(url);
+HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
-request.Method ="POST";
+request.Method = "POST";
 
-request.ContentType ="application/json";
+request.ContentType = "application/json";
 
 request.ContentLength = body.Length;
 
@@ -365,7 +361,7 @@ request.ContentLength = body.Length;
 
 // using the Stream.Write method
 
-using(Stream stream = request.GetRequestStream())
+using (Stream stream = request.GetRequestStream())
 
 {
 
@@ -381,15 +377,16 @@ try
 
 // Sends the HttpWebRequest and waits for the response
 
-using(HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
 
 {
 
 // Gets the stream associated with the response
 
-// and pipes it to a higher-level stream reader // with the required encoding format
+// and pipes it to a higher-level stream reader
+// with the required encoding format
 
-using(varsr =newStreamReader(response.GetResponseStream()))
+using (var sr = new StreamReader(response.GetResponseStream()))
 
 {
 
@@ -403,19 +400,19 @@ response.Close();
 
 }
 
-catch(WebException ex)
+catch (WebException ex)
 
 {
 
-if(ex.Response ==null)
+if (ex.Response == null)
 
 throw;
 
-using(WebResponse response = ex.Response)
+using (WebResponse response = ex.Response)
 
 {
 
-using(varsr =newStreamReader(response.GetResponseStream()))
+using (var sr = new StreamReader(response.GetResponseStream()))
 
 {
 
@@ -427,23 +424,23 @@ result = sr.ReadToEnd();
 
 }
 
-returnresult;
+return result;
 
 }
 
-publicstaticstringGetRequest(stringurl,stringjwt)
+public static string GetRequest(string url, string jwt)
 
 {
 
 // Initialize an HttpWebRequest
 
-HttpWebRequest req = (HttpWebRe quest)WebRequest.Create(url);
+HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
 
-req.Accept ="application/json";
+req.Accept = "application/json";
 
-req.Headers.Add("Authorization","Bearer "+ jwt);
+req.Headers.Add("Authorization", "Bearer " + jwt);
 
-stringresult = String.Empty;
+string result = String.Empty;
 
 try
 
@@ -451,11 +448,11 @@ try
 
 // Sends the HttpWebRequest and waits for the response
 
-HttpWebResponse resp = (HttpWebResponse)req.GetRespons e();
+HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
 
 // Gets the stream used to read the body of the response
 
-using(varsr =newStreamReader(resp.GetResponseStream()))
+using (var sr = new StreamReader(resp.GetResponseStream()))
 
 {
 
@@ -465,19 +462,19 @@ result = sr.ReadToEnd();
 
 }
 
-catch(WebException ex)
+catch (WebException ex)
 
 {
 
-if(ex.Response ==null)
+if (ex.Response == null)
 
-returnresult;
+return result;
 
-using(WebResponse response = ex.Response)
+using (WebResponse response = ex.Response)
 
 {
 
-using(varsr =newStreamReader(response.GetResponseStream()))
+using (var sr = new StreamReader(response.GetResponseStream()))
 
 {
 
@@ -489,65 +486,65 @@ result = sr.ReadToEnd();
 
 }
 
-returnresult;
+return result;
 
 }
 
 }
 
-publicstructUserCredentials
+public struct UserCredentials
 
 {
 
-publicstringpassword;
+public string password;
 
-publicstringusername;
+public string username;
 
 }
 
-publicclassObjectInfo
+public class ObjectInfo
 
 {
 
-publicintId {get;set; }
+public int Id { get; set; }
 
-publicstringName {get;set; }
+public string Name { get; set; }
 
-publiclongSize {get;set; }
+public long Size { get; set; }
 
-publicDateTime ModifiedDate {get;set; }
+public DateTime ModifiedDate { get; set; }
 
-publicintVersion {get;set; }
+public int Version { get; set; }
 
-publicstringState {get;set; }
+public string State { get; set; }
 
-publicintStateId {get;set; }
+public int StateId { get; set; }
 
-publicintParentFolderId {get;set; }
+public int ParentFolderId { get; set; }
 
-publicstringPath {get;set; }
+public string Path { get; set; }
 
-publicObjectType Type {get;set; }
+public ObjectType Type { get; set; }
 
-publicintIsLocked {get;set; }
+public int IsLocked { get; set; }
 
-publicintLockedBy {get;set; }
+public int LockedBy { get; set; }
 
-publicintIsShared {get;set; }
+public int IsShared { get; set; }
 
-publicintIsToolbox {get;set; }
+public int IsToolbox { get; set; }
 
-publicintIsDeleted {get;set; }
+public int IsDeleted { get; set; }
 
-publicUserInfo UserInfo {get;set; }
+public UserInfo UserInfo { get; set; }
 
-publicstringFullName {get;set; }
+public string FullName { get; set; }
 
-publicstringInitials {get;set; }
+public string Initials { get; set; }
 
 }
 
-publicenumObjectType
+public enum ObjectType
 
 {
 
@@ -559,13 +556,13 @@ Bom = 3
 
 }
 
-publicclassUserInfo
+public class UserInfo
 
 {
 
-publicstringUserName {get;set; }
+public string UserName { get; set; }
 
-publicintUserId {get;set; }
+public int UserId { get; set; }
 
 }
 
@@ -573,31 +570,11 @@ publicintUserId {get;set; }
 
 Example
 
-[Authentication (JS)](index.html)
-
-|
-
-[Use Search Variables.postman_collection.json](Use%20Search%20Variables.postman_collection.json)
-
-|
-
-[Upload SOLIDWORKS Files to PDM Vault.postman_collection.json](Upload%20SOLIDWORKS%20Files%20to%20PDM%20Vault.postman_collection.json)
-
-|
-
-[Check in SOLIDWORKS Files in PDM Vault.postman_collection.json](Check%20in%20SOLIDWORKS%20Files%20%20in%20PDM%20Vault.postman_collection.json)
-
-|
-
-[Check Out Files in PDM Vault.postman_collection.json](Check%20Out%20Files%20in%20PDM%20Vault.postman_collection.json)
-
-|
-
-[Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
+[Authentication (JS)](index.html) | [Use Search Variables.postman_collection.json](Use%20Search%20Variables.postman_collection.json) | [Upload SOLIDWORKS Files to PDM Vault.postman_collection.json](Upload%20SOLIDWORKS%20Files%20to%20PDM%20Vault.postman_collection.json) | [Check in SOLIDWORKS Files in PDM Vault.postman_collection.json](Check%20in%20SOLIDWORKS%20Files%20%20in%20PDM%20Vault.postman_collection.json) | [Check Out Files in PDM Vault.postman_collection.json](Check%20Out%20Files%20in%20PDM%20Vault.postman_collection.json) | [Modify File Datacards.postman_collection.json](Modify%20File%20Datacards.postman_collection.json)
 
 Remarks
 
-Read[Getting Started](GettingStarted.html).
+Read [Getting Started](GettingStarted.html).
 
 For more information about the data types used in authentication:
 
@@ -610,8 +587,4 @@ For more information about the data types used in authentication:
 
 See Also
 
-[Authentication Resource Group](PDM%20Pro%20API_ws~g-bbaa3f80-71d7-4075-9f18-96b58d1b66e0.html)
-
-|
-
-[PDM Pro API Web Service](PDM%20Pro%20API_ws.html)
+[Authentication Resource Group](PDM%20Pro%20API_ws~g-bbaa3f80-71d7-4075-9f18-96b58d1b66e0.html) | [PDM Pro API Web Service](PDM%20Pro%20API_ws.html)

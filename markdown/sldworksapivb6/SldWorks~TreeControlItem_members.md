@@ -1,6 +1,5 @@
 ---
-title: "TreeControlItem Object
-Members"
+title: "TreeControlItem Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TreeControlItem_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TreeControlItem_members.html"
 ---
 
-# TreeControlItem Object
-Members
+# TreeControlItem Object Members
 
 ## Public Methods
 

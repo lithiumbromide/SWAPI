@@ -44,26 +44,16 @@ property PDMWProjects^ SubProjects {
 
 ### Property Value
 
-Collection of child
-
-[projects](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects.html)
-
-for this project
+Collection of child [projects](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProjects.html) for this project
 
 ## VBA Syntax
 
-See
-
-[PDMWProject::SubProjects](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~SubProjects.html)
-
-.
+See [PDMWProject::SubProjects](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWProject~SubProjects.html).
 
 ## See Also
 
 [IPDMWProject Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject.html)
-
 [IPDMWProject Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject_members.html)
-
 [IPDMWProject::CreateSubProject Method](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWProject~CreateSubProject.html)
 
 ## Availability

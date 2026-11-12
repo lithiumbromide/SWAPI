@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 # IGetAttachedEntityCount Method (IAnnotation)
 
-Obsolete. Superseded by
-
-[IAnnotation::GetAttachedEntityCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetAttachedEntityCount2.html)
-
-.
+Obsolete. Superseded by [IAnnotation::GetAttachedEntityCount2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetAttachedEntityCount2.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int IGetAttachedEntityCount()
 System.int IGetAttachedEntityCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[Annotation::IGetAttachedEntityCount](ms-its:sldworksapivb6.chm::/sldworks~Annotation~IGetAttachedEntityCount.html)
-
-.
+See [Annotation::IGetAttachedEntityCount](ms-its:sldworksapivb6.chm::/sldworks~Annotation~IGetAttachedEntityCount.html).
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)

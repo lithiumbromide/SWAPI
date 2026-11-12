@@ -9,18 +9,14 @@ source: "sldworksapiprogguide/Overview/Add-in_Callbacks.htm"
 
 # Add-in Callback and Enable Methods
 
-There are two possible signatures for the callback and enable methods of menu
-items and toolbar commands of SOLIDWORKS add-ins:
+There are two possible signatures for the callback and enable methods of menu items and toolbar commands of SOLIDWORKS add-ins:
 
 - No parameters
-- One string parameter
-  (supported in SOLIDWORKS 2012 SP0 and later)
+- One string parameter (supported in SOLIDWORKS 2012 SP0 and later)
 
 ### No Parameters in the Callback or Enable Method
 
-Implement one callback method and one enable method for each menu item and
-toolbar command in the add-in. These callback and enable methods take no
-arguments.
+Implement one callback method and one enable method for each menu item and toolbar command in the add-in. These callback and enable methods take no arguments.
 
 #### Example:
 
@@ -52,15 +48,11 @@ cmdIndex1 = cmdGroup.AddCommandItem2("Show PMP", -1, "Display sample property ma
  }
 ```
 
-In the example above, one callback method and one enable method are
-implemented for each command item. These methods are implemented somewhere else in the add-in, usually in the UI Callback region.
+In the example above, one callback method and one enable method are implemented for each command item. These methods are implemented somewhere else in the add-in, usually in the UI Callback region.
 
 ### One String Parameter in the Callback or Enable Method
 
-Implement one callback method and one enable method, each having one string
-parameter. Do this when you want to use the same callback/enable method for all
-of your menu items and toolbar commands. The argument in the method call
-indicates which menu item or toolbar command behavior to invoke.
+Implement one callback method and one enable method, each having one string parameter. Do this when you want to use the same callback/enable method for all of your menu items and toolbar commands. The argument in the method call indicates which menu item or toolbar command behavior to invoke.
 
 #### Example:
 
@@ -110,15 +102,9 @@ indicates which menu item or toolbar command behavior to invoke.
          }
 ```
 
-In the example above, the same callback and enable methods are used for
-multiple menu items. The parameter in the callback and enable methods
-differentiates which behavior to invoke. The callback and enable
-method parameters must be of data type string.
+In the example above, the same callback and enable methods are used for multiple menu items. The parameter in the callback and enable methods differentiates which behavior to invoke. The callback and enable method parameters must be of data type string.
 
-Download**Using Single-Argument
-Callbacks in SolidWorks Add-ins,**which is a complete add-in example,
-from the SOLIDWORKS API forum. You must be a SOLIDWORKS subscription customer to
-access the SOLIDWORKS API forum documents.
+Download **Using Single-Argument Callbacks in SolidWorks Add-ins,** which is a complete add-in example, from the SOLIDWORKS API forum. You must be a SOLIDWORKS subscription customer to access the SOLIDWORKS API forum documents.
 
 To learn more about add-ins and their menu items and toolbars:
 

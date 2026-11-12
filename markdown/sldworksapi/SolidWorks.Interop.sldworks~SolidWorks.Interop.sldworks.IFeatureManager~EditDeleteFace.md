@@ -47,19 +47,13 @@ System.bool EditDeleteFace(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Refill`: 1 refills the face after it is deleted
 
-0 does not
+  0 does not
 
 ### Return Value
 
@@ -67,28 +61,17 @@ True if the operation succeeds, false if not
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::EditDeleteFace](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~EditDeleteFace.html)
-
-.
+See [FeatureManager::EditDeleteFace](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~EditDeleteFace.html).
 
 ## Remarks
 
-This method assumes that the new faces to delete and the
-
-[DeleteFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteFaceFeatureData.html)
-
-feature are selected.
+This method assumes that the new faces to delete and the [DeleteFace](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDeleteFaceFeatureData.html) feature are selected.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IDeleteFaceFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDeleteFaceFeatureData.html)
-
 [IModelDocExtension::InsertDeleteFace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~InsertDeleteFace.html)
 
 ## Availability

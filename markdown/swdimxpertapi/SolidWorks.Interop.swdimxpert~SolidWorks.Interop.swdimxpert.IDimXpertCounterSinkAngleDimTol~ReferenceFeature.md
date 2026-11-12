@@ -48,22 +48,16 @@ property DimXpertFeature^ ReferenceFeature {
 
 ## VBA Syntax
 
-See
-
-[DimXpertCounterSinkAngleDimTol::ReferenceFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCounterSinkAngleDimTol~ReferenceFeature.html)
-
-.
+See [DimXpertCounterSinkAngleDimTol::ReferenceFeature](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertCounterSinkAngleDimTol~ReferenceFeature.html).
 
 ## Examples
 
 [Get DimXpert Tolerance Example (VBA)](Get_DimXpert_Tolerance_Example_VB.htm)
-
 [Get DimXpert Tolerance Example (VB.NET)](Get_DimXpert_Tolerance_Example_VBNET.htm)
 
 ## See Also
 
 [IDimXpertCounterSinkAngleDimTol Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCounterSinkAngleDimTol.html)
-
 [IDimXpertCounterSinkAngleDimTol Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertCounterSinkAngleDimTol_members.html)
 
 ## Availability

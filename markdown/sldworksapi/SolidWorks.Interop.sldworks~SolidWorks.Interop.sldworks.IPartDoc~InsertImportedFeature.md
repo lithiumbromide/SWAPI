@@ -51,67 +51,40 @@ System.Object^ InsertImportedFeature(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FileName`: Full path name of the third-party native CAD file to insert
-- `Errors`: Error code as defined in
-
-[swFileLoadError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFileLoadError_e.html)
+- `Errors`: Error code as defined in [swFileLoadError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swFileLoadError_e.html)
 
 ### Return Value
 
-[IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html)
-
-if successful; null or Nothing otherwise
+[IFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature.html) if successful; null or Nothing otherwise
 
 ## VBA Syntax
 
-See
-
-[PartDoc::InsertImportedFeature](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertImportedFeature.html)
-
-.
+See [PartDoc::InsertImportedFeature](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~InsertImportedFeature.html).
 
 ## Remarks
 
 To successfully use this method, you must first turn on 3D Interconnect by either:
 
-- Setting
-
-  Tools > Options > System Options > Import > Enable 3D Interconnect
+- Setting **Tools > Options > System Options > Import > Enable 3D Interconnect**
 
 - or -
 
-- Calling
+- Calling [ISldWorks::SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)([swUserPreferenceToggle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html).swMultiCAD_Enable3DInterconnect, True)
 
-  [ISldWorks::SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)
+The feature is imported and positioned relative to the origin using coordinates of the imported file. To edit the feature, use [IFeature::GetImportedFeatureParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetImportedFeatureParameters.html) and [IFeature::SetImportedFeatureParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~SetImportedFeatureParameters.html).
 
-  (
-
-  [swUserPreferenceToggle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html)
-
-  .swMultiCAD_Enable3DInterconnect, True)
-
-The feature is imported and positioned relative to the origin using coordinates of the imported file. To edit the feature, use[IFeature::GetImportedFeatureParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetImportedFeatureParameters.html)and[IFeature::SetImportedFeatureParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~SetImportedFeatureParameters.html).
-
-See the[IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)Remarks.
+See the [IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html) Remarks.
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [ISldWorks::LoadFile4 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadFile4.html)
-
 [IAssemblyDoc::InsertImportedComponent Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertImportedComponent.html)
 
 ## Availability

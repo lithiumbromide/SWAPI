@@ -9,15 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTo
 
 # ICWTopologyStressConstraint Interface
 
-Allows access to a stress constraint in a topology study.
-
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+Allows access to a stress constraint in a topology study. **NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -47,11 +39,7 @@ public interface class ICWTopologyStressConstraint
 
 ## VBA Syntax
 
-See
-
-[CWTopologyStressConstraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint.html)
-
-.
+See [CWTopologyStressConstraint](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyStressConstraint.html).
 
 ## Examples
 
@@ -59,7 +47,7 @@ See
 
 ## Remarks
 
-See the**Goals and Constraints**topic in the Simulation user-interface help for more information.
+See the **Goals and Constraints** topic in the Simulation user-interface help for more information.
 
 ## Accessors
 
@@ -70,5 +58,4 @@ See the**Goals and Constraints**topic in the Simulation user-interface help for 
 ## See Also
 
 [ICWTopologyStressConstraint Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyStressConstraint_members.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

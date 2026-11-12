@@ -45,29 +45,15 @@ property System.double Diffuse {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-0 <=
-
-diffuseness
-
-<= 1
+0 <= `diffuseness` <= 1
 
 ## VBA Syntax
 
-See
-
-[AppearanceSetting::Diffuse](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~Diffuse.html)
-
-.
+See [AppearanceSetting::Diffuse](ms-its:sldworksapivb6.chm::/sldworks~AppearanceSetting~Diffuse.html).
 
 ## Remarks
 
@@ -76,7 +62,6 @@ See SOLIDWORKS Help for more information about appearances.
 ## See Also
 
 [IAppearanceSetting Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting.html)
-
 [IAppearanceSetting Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAppearanceSetting_members.html)
 
 ## Availability

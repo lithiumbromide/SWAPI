@@ -62,16 +62,11 @@ True if the method call is successful; false otherwise
 
 ## VBA Syntax
 
-See
-
-[DimXpertSymmetryTolerance::GetMaxTolerance](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertSymmetryTolerance~GetMaxTolerance.html)
-
-.
+See [DimXpertSymmetryTolerance::GetMaxTolerance](ms-its:swdimxpertapivb6.chm::/swdimxpert~DimXpertSymmetryTolerance~GetMaxTolerance.html).
 
 ## See Also
 
 [IDimXpertSymmetryTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance.html)
-
 [IDimXpertSymmetryTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertSymmetryTolerance_members.html)
 
 ## Availability

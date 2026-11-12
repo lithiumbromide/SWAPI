@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Edges_for_Vertex_Example_VB.htm"
 
 # Get Edges for Vertex Example (VBA)
 
-This example shows how to get a list of the edges that meet at the selected
-vertex.
+This example shows how to get a list of the edges that meet at the selected vertex.
 
 ```
 '-----------------------------------------------------

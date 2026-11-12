@@ -45,13 +45,7 @@ property System.Object^ MateEntity2 {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ Second mated component entity
 
 ## VBA Syntax
 
-See
-
-[LinearCouplerMateFeatureData::MateEntity2](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~MateEntity2.html)
-
-.
+See [LinearCouplerMateFeatureData::MateEntity2](ms-its:sldworksapivb6.chm::/sldworks~LinearCouplerMateFeatureData~MateEntity2.html).
 
 ## Examples
 
-See the
-
-[ILinearCouplerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
-examples.
+See the [ILinearCouplerMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html) examples.
 
 ## See Also
 
 [ILinearCouplerMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData.html)
-
 [ILinearCouplerMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILinearCouplerMateFeatureData_members.html)
 
 ## Availability

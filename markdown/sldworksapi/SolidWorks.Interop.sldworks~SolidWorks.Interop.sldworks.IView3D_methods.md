@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVi
 
 # IView3D Interface Methods
 
-For a list of all members of this type, see[IView3D members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html).
+For a list of all members of this type, see [IView3D members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D_members.html).
 
 ## Public Methods
 
@@ -24,13 +24,8 @@ For a list of all members of this type, see[IView3D members](SolidWorks.Interop.
 ## See Also
 
 [IView3D Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView3D.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IModelDocExtension::Get3DViewCount Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DViewCount.html)
-
 [IModelDocExtension::Get3DViewNames Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Get3DViewNames.html)
-
 [IModelDocExtension::Refresh3DViews Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~Refresh3DViews.html)
-
 [IMBD3DPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMBD3DPdfData.html)

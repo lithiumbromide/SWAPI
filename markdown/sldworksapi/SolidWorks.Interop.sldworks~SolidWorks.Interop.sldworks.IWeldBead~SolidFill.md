@@ -45,48 +45,27 @@ property System.bool SolidFill {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to fill the weld bead, false to not (see
-
-Remarks
-
-)
-
-EndOLEPropertyRow
+True to fill the weld bead, false to not (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[WeldBead::SolidFill](ms-its:sldworksapivb6.chm::/sldworks~WeldBead~SolidFill.html)
-
-.
+See [WeldBead::SolidFill](ms-its:sldworksapivb6.chm::/sldworks~WeldBead~SolidFill.html).
 
 ## Examples
 
-See the
-
-[IWeldBead](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html)
-
-examples.
+See the [IWeldBead](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html) examples.
 
 ## Remarks
 
-To get the triangular-shaped weld treatment, use the polygon-related[IDisplayData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html)APIs, which provide you with the geometry information. See the example for more information.
+To get the triangular-shaped weld treatment, use the polygon-related [IDisplayData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDisplayData.html) APIs, which provide you with the geometry information. See the example for more information.
 
 ## See Also
 
 [IWeldBead Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead.html)
-
 [IWeldBead Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldBead_members.html)
 
 ## Availability

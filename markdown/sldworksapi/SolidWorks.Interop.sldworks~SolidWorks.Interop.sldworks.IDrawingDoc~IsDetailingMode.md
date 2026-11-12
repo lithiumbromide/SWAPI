@@ -40,13 +40,7 @@ System.bool IsDetailingMode()
 System.bool IsDetailingMode();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,16 +48,11 @@ True if drawing is in detailing mode, false if not
 
 ## VBA Syntax
 
-See
-
-[DrawingDoc::IsDetailingMode](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IsDetailingMode.html)
-
-.
+See [DrawingDoc::IsDetailingMode](ms-its:sldworksapivb6.chm::/sldworks~DrawingDoc~IsDetailingMode.html).
 
 ## See Also
 
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)
-
 [IDrawingDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc_members.html)
 
 ## Availability

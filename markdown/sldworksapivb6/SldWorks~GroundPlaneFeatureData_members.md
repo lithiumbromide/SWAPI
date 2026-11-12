@@ -1,6 +1,5 @@
 ---
-title: "GroundPlaneFeatureData Object
-Members"
+title: "GroundPlaneFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "GroundPlaneFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~GroundPlaneFeatureData_members.html"
 ---
 
-# GroundPlaneFeatureData Object
-Members
+# GroundPlaneFeatureData Object Members
 
 ## Public Methods
 

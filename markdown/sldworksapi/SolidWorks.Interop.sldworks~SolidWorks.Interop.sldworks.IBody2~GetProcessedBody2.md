@@ -51,13 +51,7 @@ Body2^ GetProcessedBody2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -66,42 +60,32 @@ See
 
 ### Return Value
 
-Pointer to the[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html); this body is a processed copy of the body for this part
+Pointer to the [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html); this body is a processed copy of the body for this part
 
 ## VBA Syntax
 
-See
-
-[Body2::GetProcessedBody2](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetProcessedBody2.html)
-
-.
+See [Body2::GetProcessedBody2](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetProcessedBody2.html).
 
 ## Examples
 
 [Process Body (C#)](Process_Body_Example_CSharp.htm)
-
 [Process Body (VB.NET)](Process_Body_Example_VBNET.htm)
-
 [Process Body (VBA)](Process_Body_Example_VB.htm)
 
 ## Remarks
 
 Pre-processing (for example, IGES) is sometimes necessary for exporting to systems that have difficulty with periodic conditions.
 
-Faces that lie on periodic surfaces that are not closed in the periodic direction might have bounds returned by[IFace2::GetUVBounds](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetUVBounds.html)that are on the periodic seam. Use[IModeler::SplitFaceOnParam](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~SplitFaceOnParam.html)if the application needs to ensure that the face bounds lie completely on the surface bounds.
+Faces that lie on periodic surfaces that are not closed in the periodic direction might have bounds returned by [IFace2::GetUVBounds](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~GetUVBounds.html) that are on the periodic seam. Use [IModeler::SplitFaceOnParam](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~SplitFaceOnParam.html) if the application needs to ensure that the face bounds lie completely on the surface bounds.
 
 This method does not split at a seam unless the face is closed in that parameter. Splitting only occurs if the face has a parametric extent greater than the specified pitch.
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::IGetProcessedBodyWithSelFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~IGetProcessedBodyWithSelFace.html)
-
 [IBody2::GetProcessedBodyWithSelFace Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~GetProcessedBodyWithSelFace.html)
-
 [IPartDoc::IGetProcessedBody2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~IGetProcessedBody2.html)
 
 ## Availability

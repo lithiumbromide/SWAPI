@@ -59,31 +59,13 @@ System.bool GetFastenerTable(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `StandardName`: Standard name (see
-
-Remarks
-
-)
-- `FastenerID`: Fastener ID (see
-
-Remarks
-
-)
-- `TableID`: Fastener table type ID (see
-
-Remarks
-
-)
+- `StandardName`: Standard name (see **Remarks**)
+- `FastenerID`: Fastener ID (see **Remarks**)
+- `TableID`: Fastener table type ID (see **Remarks**)
 - `HoleTable`: [IHoleDataTable](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleDataTable.html)
 
 ### Return Value
@@ -92,44 +74,23 @@ True if fastener data table successfully retrieved, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleStandardsData::GetFastenerTable](ms-its:sldworksapivb6.chm::/sldworks~HoleStandardsData~GetFastenerTable.html)
-
-.
+See [HoleStandardsData::GetFastenerTable](ms-its:sldworksapivb6.chm::/sldworks~HoleStandardsData~GetFastenerTable.html).
 
 ## Examples
 
-See the
-
-[IHoleStandardsData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html)
-
-example.
+See the [IHoleStandardsData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html) example.
 
 ## Remarks
 
 To set:
 
-- StandardName, use
-
-  [IHoleStandardsData::GetHoleStandards](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetHoleStandards.html)
-
-  .
-- FastenerID, use
-
-  [IHoleStandardsData::GetFastenerTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetFastenerTypes.html)
-
-  .
-- TableID, use
-
-  [IHoleStandardsData::GetFastenerTableTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetFastenerTableTypes.html)
-
-  .
+- StandardName, use [IHoleStandardsData::GetHoleStandards](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetHoleStandards.html).
+- FastenerID, use [IHoleStandardsData::GetFastenerTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetFastenerTypes.html).
+- TableID, use [IHoleStandardsData::GetFastenerTableTypes](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData~GetFastenerTableTypes.html).
 
 ## See Also
 
 [IHoleStandardsData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData.html)
-
 [IHoleStandardsData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleStandardsData_members.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Insert_a_Note_Example_VB.htm"
 
 # Insert a Note Example (VBA)
 
-This example shows show to insert a geometric tolerance
-symbol in an active drawing document.
+This example shows show to insert a geometric tolerance symbol in an active drawing document.
 
 ```vb
  '----------------------------------------------------------------------------

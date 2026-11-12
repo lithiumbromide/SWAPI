@@ -44,17 +44,11 @@ property swDmDimXpertAnnotationType_e type {
 
 ### Property Value
 
-Type of annotation as defined in
-
-[swDmDimXpertAnnotationType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertAnnotationType_e.html)
+Type of annotation as defined in [swDmDimXpertAnnotationType_e](SOLIDWORKS.Interop.swdocumentmgr~SOLIDWORKS.Interop.swdocumentmgr.swDmDimXpertAnnotationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[SwDMDimXpertAnnotation::type](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAnnotation~type.html)
-
-.
+See [SwDMDimXpertAnnotation::type](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDimXpertAnnotation~type.html).
 
 ## Examples
 
@@ -63,7 +57,6 @@ See the examples on the interface page.
 ## See Also
 
 [ISwDMDimXpertAnnotation Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAnnotation.html)
-
 [ISwDMDimXpertAnnotation Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDimXpertAnnotation_members.html)
 
 ## Availability

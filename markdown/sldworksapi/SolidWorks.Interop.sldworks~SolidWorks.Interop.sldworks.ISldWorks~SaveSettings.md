@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # SaveSettings Method (ISldWorks)
 
-Saves the specified SOLIDWORKS settings to the specified
-
-*.sldreg
-
-file.
+Saves the specified SOLIDWORKS settings to the specified ***.sldreg** file.
 
 ## Syntax
 
@@ -75,25 +71,13 @@ System.int SaveSettings(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Full path and filename to which to save the settings (
-
-*.sldreg
-
-)
+- `FileName`: Full path and filename to which to save the settings (***.sldreg**)
 - `SystemOptions`: True to save system options, false to not
-- `ToolbarLayout`: Toolbar layout as defined in
-
-[swToolbarLayoutOption_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swToolbarLayoutOption_e.html)
+- `ToolbarLayout`: Toolbar layout as defined in [swToolbarLayoutOption_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swToolbarLayoutOption_e.html)
 - `KeyboardShortcuts`: True to save keyboard shortcuts, false to not
 - `MouseGestures`: True to save mouse gestures, false to not
 - `MenuCustomization`: True to save menu customizations, false to not
@@ -101,17 +85,11 @@ See
 
 ### Return Value
 
-Error code as defined in
-
-[swSaveRestoreSettingsResults_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSaveRestoreSettingsResults_e.html)
+Error code as defined in [swSaveRestoreSettingsResults_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swSaveRestoreSettingsResults_e.html)
 
 ## VBA Syntax
 
-See
-
-[SldWorks::SaveSettings](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SaveSettings.html)
-
-.
+See [SldWorks::SaveSettings](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~SaveSettings.html).
 
 ## Examples
 
@@ -146,11 +124,8 @@ For C++ only, specify all System.bool parameters using VARIANT_TRUE (-1) and VAR
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::RestoreSettings Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RestoreSettings.html)
-
 [ISldWorks::LoadAdminSettingsFile Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~LoadAdminSettingsFile.html)
 
 ## Availability

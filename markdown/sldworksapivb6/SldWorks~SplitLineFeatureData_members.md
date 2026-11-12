@@ -1,6 +1,5 @@
 ---
-title: "SplitLineFeatureData Object
-Members"
+title: "SplitLineFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SplitLineFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SplitLineFeatureData_members.html"
 ---
 
-# SplitLineFeatureData Object
-Members
+# SplitLineFeatureData Object Members
 
 ## Public Methods
 

@@ -9,9 +9,7 @@ source: "emodelapi/eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelV
 
 # FileName Property (IEModelViewControl)
 
-Gets the path and name of the file to open or the file name
-
-of the currently displayed file.
+Gets the path and name of the file to open or the file name of the currently displayed file.
 
 ## Syntax
 
@@ -49,25 +47,15 @@ property System.String^ FileName {
 
 ### Property Value
 
-Fully qualified path and file name (see
-
-Remarks
-
-)
+Fully qualified path and file name (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::FileName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~FileName.html)
-
-.
+See [EModelViewControl::FileName](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~FileName.html).
 
 ## Remarks
 
 Syntax for specifying the file name:
-
-(Table)=========================================================
 
 | Access | Example |
 | --- | --- |
@@ -78,7 +66,6 @@ Syntax for specifying the file name:
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
 
 ## Availability

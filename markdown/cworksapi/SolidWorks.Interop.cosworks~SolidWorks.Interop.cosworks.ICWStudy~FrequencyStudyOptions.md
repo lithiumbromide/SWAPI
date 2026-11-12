@@ -48,24 +48,17 @@ property CWFrequencyStudyOptions^ FrequencyStudyOptions {
 
 ## VBA Syntax
 
-See
-
-[CWStudy::FrequencyStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~FrequencyStudyOptions.html)
-
-.
+See [CWStudy::FrequencyStudyOptions](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~FrequencyStudyOptions.html).
 
 ## Examples
 
 [Create Frequency Study with Solid Mesh (VBA)](Create_Frequency_Study_with_Solid_Mesh_Example_VB.htm)
-
 [Create Frequency Study with Solid Mesh (VB.NET)](Create_Frequency_Study_with_Solid_Mesh_Example_VBNET.htm)
-
 [Create Frequency Study with Solid Mesh (C#)](Create_Frequency_Study_with_Solid_Mesh_Example_CSharp.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

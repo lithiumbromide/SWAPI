@@ -45,13 +45,7 @@ property System.bool UseSpeedPak {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ True to use SpeedPak, false to not
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::UseSpeedPak](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~UseSpeedPak.html)
-
-.
+See [DocumentSpecification::UseSpeedPak](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~UseSpeedPak.html).
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
-
 [IAssemblyDoc::UseSpeedPak Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~UseSpeedPak.html)
 
 ## Availability

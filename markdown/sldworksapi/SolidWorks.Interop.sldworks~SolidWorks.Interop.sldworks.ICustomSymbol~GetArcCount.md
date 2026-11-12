@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetArcCount Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[INote::GetArcCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetArcCount.html)
-
-.
+Obsolete. Superseded by [INote::GetArcCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.INote~GetArcCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetArcCount()
 System.int GetArcCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetArcCount.html)
-
-.
+See [CustomSymbol::GetArcCount](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetArcCount.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

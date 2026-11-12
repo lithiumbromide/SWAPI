@@ -40,13 +40,7 @@ System.double GetLength()
 System.double GetLength();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,22 +48,16 @@ Sketch segment length
 
 ## VBA Syntax
 
-See
-
-[SketchSegment::GetLength](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~GetLength.html)
-
-.
+See [SketchSegment::GetLength](ms-its:sldworksapivb6.chm::/sldworks~SketchSegment~GetLength.html).
 
 ## Examples
 
 [Find Total Length of Sketch Segments in Sketch (VBA)](Find_Total_Length_of_Sketch_Segments_in_Sketch_Example_VB.htm)
-
 [Get All Sketch Segments in Drawing Template (VBA)](Get_All_Sketch_Segments_in_Drawing_Template_Example_VB.htm)
 
 ## See Also
 
 [ISketchSegment Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
 [ISketchSegment Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment_members.html)
 
 ## Availability

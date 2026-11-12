@@ -35,5 +35,4 @@ System.int mlX
 ## See Also
 
 [EdmPoint Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint.html)
-
 [EdmPoint Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmPoint_members.html)

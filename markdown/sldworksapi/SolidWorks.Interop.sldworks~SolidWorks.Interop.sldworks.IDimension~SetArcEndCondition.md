@@ -51,18 +51,12 @@ System.int SetArcEndCondition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Index`: Index of the endpoint on which to set the end condition; 1 is the first endpoint, 2 is the second endpoint
-- `Condition`: End condition as defined in[swArcEndCondition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArcEndCondition_e.html)ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArcEndCondition_e.html
+- `Condition`: End condition as defined in [swArcEndCondition_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArcEndCondition_e.html) ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swArcEndCondition_e.html
 
 ### Return Value
 
@@ -78,26 +72,20 @@ Indicates the success or failure of this method:
 
 ## VBA Syntax
 
-See
-
-[Dimension::SetArcEndCondition](ms-its:sldworksapivb6.chm::/sldworks~Dimension~SetArcEndCondition.html)
-
-.
+See [Dimension::SetArcEndCondition](ms-its:sldworksapivb6.chm::/sldworks~Dimension~SetArcEndCondition.html).
 
 ## Remarks
 
 Linear dimensions measure the distance from one point to another. If one or both of those points is on an arc, the point can be changed to the center point of the arc, the nearest point on the arc, or the furthest point on the arc. The arc end condition describes which point to use.
 
-Use[IDimension::GetArcEndCondition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~GetArcEndCondition.html)to get the arc end conditions.
+Use [IDimension::GetArcEndCondition](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IDimension~GetArcEndCondition.html) to get the arc end conditions.
 
-To see the effects of changing the arc endpoint conditions, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw the graphics window.
+To see the effects of changing the arc endpoint conditions, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw the graphics window.
 
 ## See Also
 
 [IDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension.html)
-
 [IDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension_members.html)
-
 [IDimension::GetArcEndCondition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDimension~GetArcEndCondition.html)
 
 ## Availability

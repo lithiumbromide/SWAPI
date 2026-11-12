@@ -37,21 +37,11 @@ public delegate System.int DAssemblyDocEvents_DisplayPaneExpandNotifyEventHandle
 public delegate System.int DAssemblyDocEvents_DisplayPaneExpandNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[DisplayPaneExpandNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~DisplayPaneExpandNotify_EV.html)
-
-.
+See [DisplayPaneExpandNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~DisplayPaneExpandNotify_EV.html).
 
 ## Examples
 
@@ -59,11 +49,7 @@ See
 
 ## Remarks
 
-If developing a C++ application, use
-
-[swAssemblyDisplayPaneExpandNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)
-
-to register for this notification.
+If developing a C++ application, use [swAssemblyDisplayPaneExpandNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 ## Availability
 

@@ -1,6 +1,5 @@
 ---
-title: "SwDMDimXpertCompositeDistanceBetweenDimTol Object
-Members"
+title: "SwDMDimXpertCompositeDistanceBetweenDimTol Object Members"
 project: "SOLIDWORKS Document Manager Type Library"
 interface: "SwDMDimXpertCompositeDistanceBetweenDimTol_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdocmgrapivb6/SwDocumentMgr~SwDMDimXpertCompositeDistanceBetweenDimTol_members.html"
 ---
 
-# SwDMDimXpertCompositeDistanceBetweenDimTol Object
-Members
+# SwDMDimXpertCompositeDistanceBetweenDimTol Object Members
 
 ## Public Methods
 

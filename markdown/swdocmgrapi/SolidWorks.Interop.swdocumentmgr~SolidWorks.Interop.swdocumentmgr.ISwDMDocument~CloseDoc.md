@@ -41,18 +41,12 @@ void CloseDoc();
 
 ## VBA Syntax
 
-See
-
-[SwDMDocument::CloseDoc](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~CloseDoc.html)
-
-.
+See [SwDMDocument::CloseDoc](ms-its:swdocmgrapivb6.chm::/swdocumentmgr~SwDMDocument~CloseDoc.html).
 
 ## Examples
 
 [Open and Close Document (C++)](Open_and_Close_Document_Example_CPlusCPlus_COM.htm)
-
 [Get Drawing Sheets' Properties (C#)](Get_Drawing_Sheets_Properties_Example_CSharp.htm)
-
 [Get Drawing Sheets' Properties (VB.NET)](Get_Drawing_Sheets_Properties_Example_vbnet.htm)
 
 ## Remarks
@@ -67,7 +61,6 @@ If you update a document, call this method to close it before attempting to crea
 ## See Also
 
 [ISwDMDocument Interface](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument.html)
-
 [ISwDMDocument Members](SolidWorks.Interop.swdocumentmgr~SolidWorks.Interop.swdocumentmgr.ISwDMDocument_members.html)
 
 ## Availability

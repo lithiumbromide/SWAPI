@@ -60,17 +60,17 @@ boolstatus = swModelDocExt.SelectByID2("Drawing View2", "DRAWINGVIEW", 0.4426278
 Set swView = swDrawing.ActiveDrawingView
 typeDrawingView = swView.Type
 If typeDrawingView = 4 Then
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Type of selected drawing view is projected."
+    Debug.Print "Type of selected drawing view is projected."
 Else
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Type of selected drawing view is not projected. Exiting macro."
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Exit Sub
+    Debug.Print "Type of selected drawing view is not projected. Exiting macro."
+    Exit Sub
 End If
 
 Set swProjectionArrow = swView.GetProjectionArrow
 If Not swProjectionArrow Is Nothing Then
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "Projection arrow visible: " & swProjectionArrow.Visible
+    Debug.Print "Projection arrow visible: " & swProjectionArrow.Visible
 Else
-kadov_tag{{<spaces>}}    kadov_tag{{</spaces>}}Debug.Print "No projection arrow in projected view."
+    Debug.Print "No projection arrow in projected view."
 End If
 ```
 

@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISl
 
 # ResetPresetDrawingParameters Method (ISldWorks)
 
-Resets SOLIDWORKS back to its default behavior after calling
-
-[ISldWorks::PresetNewDrawingParameters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~PresetNewDrawingParameters.html)
-
-(i.e., display
-
-Sheet Format/Size
-
-dialog when opening a new drawing document).
+Resets SOLIDWORKS back to its default behavior after calling [ISldWorks::PresetNewDrawingParameters](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~PresetNewDrawingParameters.html) (i.e., display Sheet Format/Size dialog when opening a new drawing document).
 
 ## Syntax
 
@@ -47,21 +39,11 @@ void ResetPresetDrawingParameters()
 void ResetPresetDrawingParameters();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SldWorks::ResetPresetDrawingParameters](ms-its:sldworksapivb6.chm::/Sldworks~Sldworks~ResetPresetDrawingParameters.html)
-
-.
+See [SldWorks::ResetPresetDrawingParameters](ms-its:sldworksapivb6.chm::/Sldworks~Sldworks~ResetPresetDrawingParameters.html).
 
 ## Examples
 
@@ -70,7 +52,6 @@ See
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
 
 ## Availability

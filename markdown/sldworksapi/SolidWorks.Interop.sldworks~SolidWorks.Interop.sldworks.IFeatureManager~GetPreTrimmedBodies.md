@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFe
 
 # GetPreTrimmedBodies Method (IFeatureManager)
 
-Gets the temporary trimmed bodies using the specified target sheet (surface) body according to the trim tools previously defined by
-
-[IFeatureManager::PreTrimSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PreTrimSurface.html)
-
-.
+Gets the temporary trimmed bodies using the specified target sheet (surface) body according to the trim tools previously defined by [IFeatureManager::PreTrimSurface](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeatureManager~PreTrimSurface.html).
 
 ## Syntax
 
@@ -51,19 +47,11 @@ System.Object^ GetPreTrimmedBodies(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TargetSurface`: Target sheet
-
-[body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
+- `TargetSurface`: Target sheet [body](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2.html)
 
 ### Return Value
 
@@ -71,18 +59,12 @@ Array of temporary trimmed bodies
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::GetPreTrimmedBodies](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetPreTrimmedBodies.html)
-
-.
+See [FeatureManager::GetPreTrimmedBodies](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~GetPreTrimmedBodies.html).
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IFeatureManager::PostTrimSurface Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~PostTrimSurface.html)
 
 ## Availability

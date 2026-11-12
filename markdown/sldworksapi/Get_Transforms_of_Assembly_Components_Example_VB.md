@@ -9,278 +9,89 @@ source: "sldworksapi/Get_Transforms_of_Assembly_Components_Example_VB.htm"
 
 # Get Transforms of Assembly Components Example (VBA)
 
-This example shows how to recursively retrieve the transform for each
-child component in an assembly.
+This example shows how to recursively retrieve the transform for each child component in an assembly.
 
+```vb
 '-----------------------------------------------
-
 '
-
 ' Preconditions:
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}(1)
-Assembly is open.
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}(2)
-Assembly is fully resolved.
-
+'       (1) Assembly is open.
+'       (2) Assembly is fully resolved.
 '
-
 ' Postconditions: None
-
 '
-
 ' Notes:
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}(1)
-Root component does not have a name
-
+'       (1) Root component does not have a name
 '
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}(2)
-Root component has a NULL transform, that is, no rotation,
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}translation,
-or scaling
-
+'       (2) Root component has a NULL transform, that is, no rotation,
+'           translation, or scaling
 '
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}(3)
-All child component transforms are relative to their
-
-'kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}root
-component
-
+'       (3) All child component transforms are relative to their
+'           root component
 '
-
 '-----------------------------------------------
-
 Option Explicit
+Sub OutputCompXform
+    swComp As SldWorks.Component2
+    nLevel As Long
 
-Sub OutputCompXform _
+    Dim vChild                      As Variant
+    Dim swChildComp                 As SldWorks.Component2
+    Dim sPadStr                     As String
+    Dim swCompXform                 As SldWorks.MathTransform
+    Dim vXform                      As Variant
+    Dim i                           As Long
 
-( _
+    For i = 0 To nLevel
+        sPadStr = sPadStr & "  "
+    Next i
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}swComp
-As SldWorks.Component2, _
+    ' Null for root component
+    Set swCompXform = swComp.Transform2
+    If Not swCompXform Is Nothing Then
+        vXform = swCompXform.ArrayData
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}nLevel
-As Long _
+        ' Root component has no name
+        Debug.Print sPadStr & "Component = " & swComp.Name2 & " (" & swComp.ReferencedConfiguration & ")"
+        Debug.Print sPadStr & "  Suppr   = " & swComp.IsSuppressed
+        Debug.Print sPadStr & "  Hidden  = " & swComp.IsHidden(False)
 
-)
+        Debug.Print sPadStr & "  Rot1  = (" + Str(vXform(0)) + ", " + Str(vXform(1)) + ", " + Str(vXform(2)) + ")"
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vChildkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Variant
+        Debug.Print sPadStr & "  Rot2  = (" +  Str(vXform(3)) + ", " + Str(vXform(4)) + ", " + Str(vXform(5)) + ")"
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swChildCompkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.Component2
+        Debug.Print sPadStr & "  Rot3  = (" + Str(vXform(6)) + ", " + Str(vXform(7)) + ", " + Str(vXform(8)) + ")"
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-sPadStrkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-String
+        Debug.Print sPadStr & "  Trans = (" + Str(vXform(9)) + ", " + Str(vXform(10)) + ", " + Str(vXform(11)) + ")"
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swCompXformkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.MathTransform
+        Debug.Print sPadStr & "  Scale = " + Str(vXform(12))
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-vXformkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Variant
+        Debug.Print ""
+    End If
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-ikadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Long
+    ' Recurse into subassembly
+    vChild = swComp.GetChildren
+    For i = 0 To UBound(vChild)
+        Set swChildComp = vChild(i)
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-i = 0 To nLevel
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}sPadStr
-= sPadStr & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}"
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-i
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Null for root component
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swCompXform = swComp.Transform2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}If
-Not swCompXform Is Nothing Then
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vXform
-= swCompXform.ArrayData
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Root component has no name
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-sPadStr & "Component = " & swComp.Name2 & "
-(" & swComp.ReferencedConfiguration& ")"
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-sPadStr & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Supprkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}=
-" & swComp.IsSuppressed
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-sPadStr & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Hiddenkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}= "
-& swComp.IsHidden(False)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-sPadStr & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Rot1kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}= ("
-+ _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(0))
-+ ", " + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(1))
-+ ", " + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(2))
-+ ")" _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-sPadStr & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Rot2kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}= ("
-+ _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(3))
-+ ", " + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(4))
-+ ", " + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(5))
-+ ")" _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-sPadStr & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Rot3kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}= ("
-+ _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(6))
-+ ", " + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(7))
-+ ", " + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(8))
-+ ")" _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-sPadStr & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Trans
-= (" + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(9))
-+ ", " + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(10))
-+ ", " + _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Str(vXform(11))
-+ ")" _
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-sPadStr & "kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Scale
-= " + Str(vXform(12))
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-""
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}End
-If
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}'
-Recurse into subassembly
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}vChild
-= swComp.GetChildren
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}For
-i = 0 To UBound(vChild)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swChildComp = vChild(i)
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}OutputCompXform
-swChildComp, nLevel + 1
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Next
-i
-
+        OutputCompXform swChildComp, nLevel + 1
+    Next i
 End Sub
-
 Sub main()
+    Dim swApp                       As SldWorks.SldWorks
+    Dim swModel                     As SldWorks.ModelDoc2
+    Dim swConf                      As SldWorks.configuration
+    Dim swRootComp                  As SldWorks.Component2
+    Dim bRet                        As Boolean
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swAppkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.SldWorks
+    Set swApp = CreateObject("SldWorks.Application")
+    Set swModel = swApp.ActiveDoc
+    Set swConf = swModel.GetActiveConfiguration
+    Set swRootComp = swConf.GetRootComponent
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swModelkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.ModelDoc2
+    Debug.Print "File = " & swModel.GetPathName
 
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swConfkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.configuration
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-swRootCompkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-SldWorks.Component2
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Dim
-bRetkadov_tag{{<spaces>}}kadov_tag{{</spaces>}}As
-Boolean
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swApp = CreateObject("SldWorks.Application")
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swModel = swApp.ActiveDoc
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swConf = swModel.GetActiveConfiguration
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Set
-swRootComp = swConf.GetRootComponent
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}Debug.Print
-"File = " & swModel.GetPathName
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}
-
-kadov_tag{{<spaces>}}kadov_tag{{</spaces>}}OutputCompXform
-swRootComp, 0
-
+    OutputCompXform swRootComp, 0
 End Sub
-
 '---------------------------------------
+```

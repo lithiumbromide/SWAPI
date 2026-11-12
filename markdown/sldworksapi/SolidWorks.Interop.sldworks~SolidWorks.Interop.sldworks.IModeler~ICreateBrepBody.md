@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # ICreateBrepBody Method (IModeler)
 
-Obsolete. Superseded by
-
-[IModeler::ICreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBrepBody3.html)
-
-.
+Obsolete. Superseded by [IModeler::ICreateBrepBody3](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ICreateBrepBody3.html).
 
 ## Syntax
 
@@ -95,13 +91,7 @@ Body^ ICreateBrepBody(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -120,14 +110,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Modeler::ICreateBrepBody](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateBrepBody.html)
-
-.
+See [Modeler::ICreateBrepBody](ms-its:sldworksapivb6.chm::/sldworks~Modeler~ICreateBrepBody.html).
 
 ## See Also
 
 [IModeler Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler.html)
-
 [IModeler Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModeler_members.html)

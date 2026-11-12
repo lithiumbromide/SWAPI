@@ -45,13 +45,7 @@ property System.bool ShortenedRadius {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ True displays a foreshortened radius, false does not display a foreshortened rad
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::ShortenedRadius](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~ShortenedRadius.html)
-
-.
+See [DisplayDimension::ShortenedRadius](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~ShortenedRadius.html).
 
 ## Remarks
 
@@ -71,12 +61,11 @@ In certain instances, you might want to show a radius dimension where the leader
 
 This property applies only to radius dimensions. It does not affect other types of dimensions.
 
-After using this property, use[IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html)to redraw the graphics window to see your changes.
+After using this property, use [IModelDoc2::GraphicsRedraw2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GraphicsRedraw2.html) to redraw the graphics window to see your changes.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
 
 ## Availability

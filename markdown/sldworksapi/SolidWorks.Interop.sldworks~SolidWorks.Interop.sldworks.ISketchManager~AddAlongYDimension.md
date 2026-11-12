@@ -55,13 +55,7 @@ DisplayDimension^ AddAlongYDimension(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,18 +69,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchManager::AddAlongYDimension](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~AddAlongYDimension.html)
-
-.
+See [SketchManager::AddAlongYDimension](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~AddAlongYDimension.html).
 
 ## Examples
 
 [Add Along Y Dimension to 3D Sketch (VBA)](Add_Along_Y_Dimension_To_3D_Sketch_Example_VB.htm)
-
 [Add Along Y Dimension to 3D Sketch (VB.NET)](Add_Along_Y_Dimension_To_3D_Sketch_Example_VBNET.htm)
-
 [Add Along Y Dimension to 3D Sketch (C#)](Add_Along_Y_Dimension_To_3D_Sketch_Example_CSharp.htm)
 
 ## Remarks
@@ -96,13 +84,9 @@ This method works only for 3D sketches in edit mode, and the display dimension i
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::FullyDefineSketch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~FullyDefineSketch.html)
-
 [ISketchManager::AddAlongXDimension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~AddAlongXDimension.html)
-
 [ISketchManager::AddAlongZDimension Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~AddAlongZDimension.html)
 
 ## Availability

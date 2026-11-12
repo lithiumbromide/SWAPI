@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile_members.html"
 
 # EdmListFile Structure Members
 
-The following tables list the members exposed by[EdmListFile](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile.html).
+The following tables list the members exposed by [EdmListFile](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile.html).
 
 ## Public Fields
 
@@ -32,5 +32,4 @@ The following tables list the members exposed by[EdmListFile](EPDM.Interop.epdm~
 ## See Also
 
 [EdmListFile Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListFile.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

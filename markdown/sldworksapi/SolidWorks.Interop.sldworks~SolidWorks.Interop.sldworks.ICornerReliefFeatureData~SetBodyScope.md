@@ -47,46 +47,27 @@ System.int SetBodyScope(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `SheetBody`: [IBody2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
-sheet metal body
+- `SheetBody`: [IBody2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html) sheet metal body
 
 ### Return Value
 
-Error code as defined by
-
-[swCornerReliefError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerReliefError_e.html)
+Error code as defined by [swCornerReliefError_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swCornerReliefError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CornerReliefFeatureData::SetBodyScope](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData~SetBodyScope.html)
-
-.
+See [CornerReliefFeatureData::SetBodyScope](ms-its:sldworksapivb6.chm::/sldworks~CornerReliefFeatureData~SetBodyScope.html).
 
 ## Examples
 
-See the
-
-[ICornerReliefFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
-examples.
+See the [ICornerReliefFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html) examples.
 
 ## See Also
 
 [ICornerReliefFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData.html)
-
 [ICornerReliefFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICornerReliefFeatureData_members.html)
 
 ## Availability

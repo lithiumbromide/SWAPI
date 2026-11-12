@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IIn
 
 # IInterference Interface Properties
 
-For a list of all members of this type, see[IInterference members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference_members.html).
+For a list of all members of this type, see [IInterference members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference_members.html).
 
 ## Public Properties
 
@@ -26,9 +26,6 @@ For a list of all members of this type, see[IInterference members](SolidWorks.In
 ## See Also
 
 [IInterference Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterference.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IInterferenceDetectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IInterferenceDetectionMgr.html)
-
 [ICollision Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICollision.html)

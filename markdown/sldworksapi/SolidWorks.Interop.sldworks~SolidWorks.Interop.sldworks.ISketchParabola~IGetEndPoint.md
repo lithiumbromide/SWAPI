@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISk
 
 # IGetEndPoint Method (ISketchParabola)
 
-Obsolete. Superseded by
-
-[ISketchParabola::GetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~GetEndPoint2.html)
-
-and
-
-[ISketchParabola::IGetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~IGetEndPoint2.html)
-
-.
+Obsolete. Superseded by [ISketchParabola::GetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~GetEndPoint2.html) and [ISketchParabola::IGetEndPoint2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchParabola~IGetEndPoint2.html).
 
 ## Syntax
 
@@ -48,24 +40,13 @@ System.double IGetEndPoint()
 System.double IGetEndPoint();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[SketchParabola::IGetEndPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~IGetEndPoint.html)
-
-.
+See [SketchParabola::IGetEndPoint](ms-its:sldworksapivb6.chm::/sldworks~SketchParabola~IGetEndPoint.html).
 
 ## See Also
 
 [ISketchParabola Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola.html)
-
 [ISketchParabola Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchParabola_members.html)

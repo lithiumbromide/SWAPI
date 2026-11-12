@@ -46,25 +46,15 @@ void SetDisplayTangentEdges2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `DisplayIn`: Tangent edge display mode as defined in[swDisplayTangentEdges_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDisplayTangentEdges_e.html)
+- `DisplayIn`: Tangent edge display mode as defined in [swDisplayTangentEdges_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swDisplayTangentEdges_e.html)
 
 ## VBA Syntax
 
-See
-
-[View::SetDisplayTangentEdges2](ms-its:sldworksapivb6.chm::/sldworks~View~SetDisplayTangentEdges2.html)
-
-.
+See [View::SetDisplayTangentEdges2](ms-its:sldworksapivb6.chm::/sldworks~View~SetDisplayTangentEdges2.html).
 
 ## Remarks
 
@@ -73,17 +63,11 @@ Tangent edges are the transition lines between, for example, a blend and a face.
 ## See Also
 
 [IView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView.html)
-
 [IView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView_members.html)
-
 [IView::GetDisplayTangentEdges2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDisplayTangentEdges2.html)
-
 [IView::GetDisplayEdgesInShadedMode Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDisplayEdgesInShadedMode.html)
-
 [IView::GetDisplayMode2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetDisplayMode2.html)
-
 [IView::GetUseParentDisplayMode Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~GetUseParentDisplayMode.html)
-
 [IView::UpdateViewDisplayGeometry Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~UpdateViewDisplayGeometry.html)
 
 ## Availability

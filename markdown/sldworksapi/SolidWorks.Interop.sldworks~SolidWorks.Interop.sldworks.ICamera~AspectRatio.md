@@ -11,7 +11,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 Gets the aspect ratio (width/height) of the field of view rectangle for the camera.
 
-**NOTE:****This property is a get-only property.**Set is not implemented .
+**NOTE:** **This property is a get-only property.** **Set is not implemented**.
 
 ## Syntax
 
@@ -47,13 +47,7 @@ property System.double AspectRatio {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -61,11 +55,7 @@ Width/height ratio of the view rectangle for the camera
 
 ## VBA Syntax
 
-See
-
-[Camera::AspectRatio](ms-its:sldworksapivb6.chm::/sldworks~Camera~AspectRatio.html)
-
-.
+See [Camera::AspectRatio](ms-its:sldworksapivb6.chm::/sldworks~Camera~AspectRatio.html).
 
 ## Remarks
 
@@ -74,7 +64,6 @@ The rectangle is best-fit into a rendering window to determine the actual compos
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
 
 ## Availability

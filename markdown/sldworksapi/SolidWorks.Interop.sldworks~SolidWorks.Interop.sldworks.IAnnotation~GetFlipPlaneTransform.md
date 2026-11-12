@@ -40,40 +40,25 @@ MathTransform GetFlipPlaneTransform()
 MathTransform^ GetFlipPlaneTransform();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-[Transformation matrix](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html)
-
-of the annotation plane in the opposite direction
+[Transformation matrix](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathTransform.html) of the annotation plane in the opposite direction
 
 ## VBA Syntax
 
-See
-
-[Annotation::GetFlipPlaneTransform](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetFlipPlaneTransform.html)
-
-.
+See [Annotation::GetFlipPlaneTransform](ms-its:sldworksapivb6.chm::/sldworks~Annotation~GetFlipPlaneTransform.html).
 
 ## Examples
 
 [Move Annotations to Notes Area Annotation View (C#)](Move_Annotations_to_First_Annotation_View_Example_CSharp.htm)
-
 [Move Annotations to Notes Area Annotation View (VB.NET)](Move_Annotations_to_First_Annotation_View_Example_VBNET.htm)
-
 [Move Annotations to Notes Area Annotation View (VBA)](Move_Annotations_to_First_Annotation_View_Example_VB.htm)
 
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
 
 ## Availability

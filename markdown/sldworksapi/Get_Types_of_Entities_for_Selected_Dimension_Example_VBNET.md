@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Types_of_Entities_for_Selected_Dimension_Example_VBNET.
 
 # Get Types of Entities Attached to Selected Annotation Example (VB.NET)
 
-This example shows how to get the types of entities attached to a selected
-annotation.
+This example shows how to get the types of entities attached to a selected annotation.
 
 ```vb
  '----------------------------------------------------------------------------

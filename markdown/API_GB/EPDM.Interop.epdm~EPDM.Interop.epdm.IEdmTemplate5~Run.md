@@ -47,19 +47,16 @@ System.int Run(
 
 ### Return Value
 
-User-interface refresh flags as defined in
-
-[EdmRefreshFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefreshFlag.html)
+User-interface refresh flags as defined in [EdmRefreshFlag](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmRefreshFlag.html)
 
 ## Examples
 
 [Execute Template (C#)](Execute_Template_Example_CSharp.htm)
-
 [Execute Template (VB.NET)](Execute_Template_Example_VBNET.htm)
 
 ## Remarks
 
-This method is extended by[IEdmTemplate53::RunEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53~RunEx.html)which returns information about all of the files and folders created by the template.
+This method is extended by [IEdmTemplate53::RunEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate53~RunEx.html) which returns information about all of the files and folders created by the template.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -68,7 +65,6 @@ This method is extended by[IEdmTemplate53::RunEx](EPDM.Interop.epdm~EPDM.Interop
 ## See Also
 
 [IEdmTemplate5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate5.html)
-
 [IEdmTemplate5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmTemplate5_members.html)
 
 ## Availability

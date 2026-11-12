@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Each_Splines_Parameters_Example_CSharp.htm"
 
 # Get Each Spline's Parameters Example (C#)
 
-This example shows how to get each spline's parameters in a sketch containing
-multiple splines.
+This example shows how to get each spline's parameters in a sketch containing multiple splines.
 
 ```
 //----------------------------------------------------

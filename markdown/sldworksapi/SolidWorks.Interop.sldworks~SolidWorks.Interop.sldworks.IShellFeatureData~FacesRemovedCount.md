@@ -42,13 +42,7 @@ property System.int FacesRemovedCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,36 +50,21 @@ Number of removed faces
 
 ## VBA Syntax
 
-See
-
-[ShellFeatureData::FacesRemovedCount](ms-its:sldworksapivb6.chm::/sldworks~ShellFeatureData~FacesRemovedCount.html)
-
-.
+See [ShellFeatureData::FacesRemovedCount](ms-its:sldworksapivb6.chm::/sldworks~ShellFeatureData~FacesRemovedCount.html).
 
 ## Examples
 
-See the
-
-[IShellFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData.html)
-
-examples.
+See the [IShellFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData.html) examples.
 
 ## Remarks
 
-Call this property before calling
-
-[IShellFeatureData::IGetFacesRemoved](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShellFeatureData~IGetFacesRemoved.html)
-
-to get the size of the array for that method.
+Call this property before calling [IShellFeatureData::IGetFacesRemoved](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IShellFeatureData~IGetFacesRemoved.html) to get the size of the array for that method.
 
 ## See Also
 
 [IShellFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData.html)
-
 [IShellFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData_members.html)
-
 [IShellFeatureData::ISetFacesRemoved Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData~ISetFacesRemoved.html)
-
 [IShellFeatureData::FacesRemoved Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IShellFeatureData~FacesRemoved.html)
 
 ## Availability

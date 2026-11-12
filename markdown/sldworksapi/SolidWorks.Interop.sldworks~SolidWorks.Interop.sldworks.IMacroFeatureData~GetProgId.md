@@ -40,13 +40,7 @@ System.string GetProgId()
 System.String^ GetProgId();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,20 +48,13 @@ Name of the program ID for the component that implements the COM feature handler
 
 ## VBA Syntax
 
-See
-
-[MacroFeatureData::GetProgId](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~GetProgId.html)
-
-.
+See [MacroFeatureData::GetProgId](ms-its:sldworksapivb6.chm::/sldworks~MacroFeatureData~GetProgId.html).
 
 ## See Also
 
 [IMacroFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData.html)
-
 [IMacroFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData_members.html)
-
 [IMacroFeatureData::IsCOMFeature Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~IsCOMFeature.html)
-
 [IMacroFeatureData::SetProgId Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMacroFeatureData~SetProgId.html)
 
 ## Availability

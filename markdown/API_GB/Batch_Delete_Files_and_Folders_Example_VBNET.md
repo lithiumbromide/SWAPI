@@ -9,13 +9,9 @@ source: "API_GB/Batch_Delete_Files_and_Folders_Example_VBNET.htm"
 
 # Batch Delete Files and Folders from Vault Example (VB.NET)
 
-This example shows how to delete several files and a folder
-from
-the vault in one batch.
+This example shows how to delete several files and a folder from the vault in one batch.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
   '----------------------------------------------------------------------------

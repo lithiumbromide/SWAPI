@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRe
 
 # AccurateReflections Property (IRenderMaterial)
 
-Selects or clears the
-
-Accurate reflections (slower)
-
-setting, which controls the level of surface reflections, for illuminating this appearance.
+Selects or clears the Accurate reflections (slower) setting, which controls the level of surface reflections, for illuminating this appearance.
 
 ## Syntax
 
@@ -49,34 +45,19 @@ property System.bool AccurateReflections {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-True to select the
-
-Accurate reflections (slower)
-
-setting, false to clear it
+True to select the Accurate reflections (slower) setting, false to clear it
 
 ## VBA Syntax
 
-See
-
-[RenderMaterial::AccurateReflections](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~AccurateReflections.html)
-
-.
+See [RenderMaterial::AccurateReflections](ms-its:sldworksapivb6.chm::/Sldworks~RenderMaterial~AccurateReflections.html).
 
 ## See Also
 
 [IRenderMaterial Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial.html)
-
 [IRenderMaterial Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRenderMaterial_members.html)
 
 ## Availability

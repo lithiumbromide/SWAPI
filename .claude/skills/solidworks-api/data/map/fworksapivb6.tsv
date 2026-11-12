@@ -1,0 +1,9 @@
+#swapi-map 1 module=fworksapivb6 sw=2026 cols=name,kind,sig,since,status,summary,path
+@FeatureWorksApp	o
+BubbleTipCallback	m	Function BubbleTipCallback() As HResult
+CreateFeatures	m	Function CreateFeatures(ByVal CreationOptions As Integer:fwFeatureCreationOptions_e) As Boolean
+HelpErrCallback	m	Function HelpErrCallback(ByVal mainProduct As Long, ByVal helpFile As String, ByVal helpTopic As Long, ByVal topicFile As String) As HResult
+RecognizeFeatureAutomatic	m	Function RecognizeFeatureAutomatic(ByVal options As Long:fwAutomaticRecognitionOptions_e) As Long
+RecognizeFeatureInteractive	m	Function RecognizeFeatureInteractive(ByVal FeatureType As String, ByVal options As Long:fwInteractiveRecognitionOptions_e) As Boolean
+SetAdvancedOptions	m	Function SetAdvancedOptions(ByVal options As Integer:fwAdvancedOptions_e) As Boolean
+SetPerformanceOptions	m	Function SetPerformanceOptions(ByVal options As Integer:fwPerformanceOptions_e) As Boolean

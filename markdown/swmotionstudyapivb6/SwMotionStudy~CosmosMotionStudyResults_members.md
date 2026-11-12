@@ -1,6 +1,5 @@
 ---
-title: "CosmosMotionStudyResults Object
-Members"
+title: "CosmosMotionStudyResults Object Members"
 project: "SOLIDWORKS Motion Study API Help"
 interface: "CosmosMotionStudyResults_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swmotionstudyapivb6/SwMotionStudy~CosmosMotionStudyResults_members.html"
 ---
 
-# CosmosMotionStudyResults Object
-Members
+# CosmosMotionStudyResults Object Members
 
 ## Public Methods
 

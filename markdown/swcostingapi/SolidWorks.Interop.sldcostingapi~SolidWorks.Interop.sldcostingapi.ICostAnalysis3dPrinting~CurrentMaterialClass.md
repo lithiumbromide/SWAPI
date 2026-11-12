@@ -51,19 +51,11 @@ Name of the material class
 
 ## VBA Syntax
 
-See
-
-[CostAnalysis3dPrinting::CurrentMaterialClass](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~CurrentMaterialClass.html)
-
-.
+See [CostAnalysis3dPrinting::CurrentMaterialClass](swcostingapivb6.chm::/SldCostingAPI~CostAnalysis3dPrinting~CurrentMaterialClass.html).
 
 ## Examples
 
-See the
-
-[ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
-examples.
+See the [ICostAnalysis3dPrinting](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html) examples.
 
 ## Remarks
 
@@ -72,11 +64,8 @@ Setting this property could invalidate other settings.
 ## See Also
 
 [ICostAnalysis3dPrinting Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting.html)
-
 [ICostAnalysis3dPrinting Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting_members.html)
-
 [ICostAnalysis3dPrinting::GetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~GetMaterialClasses.html)
-
 [ICostAnalysis3dPrinting::GetMaterialClassesCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysis3dPrinting~GetMaterialClassesCount.html)
 
 ## Availability

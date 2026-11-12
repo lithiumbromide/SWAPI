@@ -59,16 +59,15 @@ VBA, VB.NET, C#, and C++/CLI: Not supported
 
 ## Remarks
 
-See[In-process Methods](sldworksapiprogguide.chm::/Overview/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/Overview/In-process_Methods.htm) for details about this type of method.
 
-Before calling this method, call[IDimXpertTolerance::GetTertiaryDatumCount](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertTolerance~GetTertiaryDatumCount.html)to get the value for the Count parameter.
+Before calling this method, call [IDimXpertTolerance::GetTertiaryDatumCount](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertTolerance~GetTertiaryDatumCount.html) to get the value for the Count parameter.
 
-The members of the array returned by this method map to the members of the array returned by[IGetDimXpertTolerance::IGetTertiaryDatums](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertTolerance~IGetTertiaryDatums.html).
+The members of the array returned by this method map to the members of the array returned by [IGetDimXpertTolerance::IGetTertiaryDatums](SOLIDWORKS.Interop.swdimxpert~SOLIDWORKS.Interop.swdimxpert.IDimXpertTolerance~IGetTertiaryDatums.html).
 
 ## See Also
 
 [IDimXpertTolerance Interface](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance.html)
-
 [IDimXpertTolerance Members](SolidWorks.Interop.swdimxpert~SolidWorks.Interop.swdimxpert.IDimXpertTolerance_members.html)
 
 ## Availability

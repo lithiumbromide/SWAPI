@@ -42,13 +42,7 @@ property System.bool IsBendLineNote {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,28 +50,19 @@ True if note is a bendline note, false if not
 
 ## VBA Syntax
 
-See
-
-[Note::IsBendLineNote](ms-its:sldworksapivb6.chm::/sldworks~Note~IsBendLineNote.html)
-
-.
+See [Note::IsBendLineNote](ms-its:sldworksapivb6.chm::/sldworks~Note~IsBendLineNote.html).
 
 ## Examples
 
 [Merge and Unmerge Bend Tags (C#)](Merge_and_Unmerge_Bend_Tags_Example_CSharp.htm)
-
 [Merge and Unmerge Bend Tags (VB.NET)](Merge_and_Unmerge_Bend_Tags_Example_VBNET.htm)
-
 [Merge and Unmerge Bend Tags (VBA)](Merge_and_Unmerge_Bend_Tags_Example_VB.htm)
 
 ## See Also
 
 [INote Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote.html)
-
 [INote Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote_members.html)
-
 [INote::GetBendLineValues Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~GetBendLineValues.html)
-
 [IView::MergeBendTags Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IView~MergeBendTags.html)
 
 ## Availability

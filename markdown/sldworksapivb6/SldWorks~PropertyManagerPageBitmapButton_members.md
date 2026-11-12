@@ -1,6 +1,5 @@
 ---
-title: "PropertyManagerPageBitmapButton Object
-Members"
+title: "PropertyManagerPageBitmapButton Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "PropertyManagerPageBitmapButton_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~PropertyManagerPageBitmapButton_members.html"
 ---
 
-# PropertyManagerPageBitmapButton Object
-Members
+# PropertyManagerPageBitmapButton Object Members
 
 ## Public Methods
 

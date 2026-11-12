@@ -9,15 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAs
 
 # CompConfigProperties6 Method (IAssemblyDoc)
 
-Sets the properties for the selected
-
-[component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
-in the specified
-
-[configuration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
-.
+Sets the properties for the selected [component](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html) in the specified [configuration](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html).
 
 ## Syntax
 
@@ -83,31 +75,19 @@ System.bool CompConfigProperties6(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Suppression`: Suppression state of the selected component as defined in
-
-[swComponentSuppressionState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSuppressionState_e.html)
-- `Solving`: Solving state of the selected component as defined in
-
-[swComponentSolvingOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSolvingOption_e.html)
+- `Suppression`: Suppression state of the selected component as defined in [swComponentSuppressionState_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSuppressionState_e.html)
+- `Solving`: Solving state of the selected component as defined in [swComponentSolvingOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swComponentSolvingOption_e.html)
 - `Visibility`: True if you want to show the selected component in the graphics area, false if not
 - `UseNamedRefConfig`: Not used
 - `RefConfigName`: - If a non-empty string is specified, then the referenced configuration of the selected component is changed to this named configuration
-- If an empty string is specified, then the default referenced configuration is used
+  - If an empty string is specified, then the default referenced configuration is used
 - `ExcludeFromBOM`: True to exclude the configuration from the BOM, false to not
 - `IsEnvelope`: True if the selected component is an envelope, false if not
-- `SaveAssemblyAsPartOption`: Option for the selected component when saving this assembly as a part as defined in
-
-[swASMSLDPRTCompPref_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swASMSLDPRTCompPref_e.html)
+- `SaveAssemblyAsPartOption`: Option for the selected component when saving this assembly as a part as defined in [swASMSLDPRTCompPref_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swASMSLDPRTCompPref_e.html)
 
 ### Return Value
 
@@ -115,23 +95,17 @@ True if setting the properties of the selected component in the specified config
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::CompConfigProperties6](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CompConfigProperties6.html)
-
-.
+See [AssemblyDoc::CompConfigProperties6](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~CompConfigProperties6.html).
 
 ## Examples
 
 [Change Component to Envelope (VBA)](Change_Component_to_Envelope_Example_VB.htm)
-
 [Change Component to Envelope (VB.NET)](Change_Component_to_Envelope_Example_VBNET.htm)
-
 [Change Component to Envelope (C#)](Change_Component_to_Envelope_Example_CSharp.htm)
 
 ## Remarks
 
-You can use configurations to save certain display characteristics with each of the assembly components and retrieve that configuration in the future. SOLIDWORKS applies the settings that you specify with this method to the active configuration.
+You can use configurations to save certain display characteristics with each of the assembly components and retrieve that configuration in the future. SOLIDWORKS Design applies the settings that you specify with this method to the active configuration.
 
 You cannot set the selected component to lightweight using this method.
 
@@ -143,19 +117,12 @@ Known reasons for failure of this method include:
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IComponent2::ExcludeFromBOM Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~ExcludeFromBOM.html)
-
 [IComponent2::Solving Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~Solving.html)
-
 [IComponent2::Visible Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~Visible.html)
-
 [IComponent2::ReferencedConfiguration Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~ReferencedConfiguration.html)
-
 [IComponent2::IsEnvelope Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsEnvelope.html)
-
 [IComponent2::SetSuppression2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~SetSuppression2.html)
 
 ## Availability

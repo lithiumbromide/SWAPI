@@ -48,20 +48,13 @@ Number of entities in the shell
 
 ## VBA Syntax
 
-See
-
-[CWShell::EntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~EntityCount.html)
-
-.
+See [CWShell::EntityCount](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~EntityCount.html).
 
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
-
 [ICWShell::GetEntityAt Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~GetEntityAt.html)
-
 [ICWShell::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~RemoveEntity.html)
 
 ## Availability

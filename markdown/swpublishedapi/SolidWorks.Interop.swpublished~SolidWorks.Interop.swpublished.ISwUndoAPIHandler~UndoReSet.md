@@ -41,11 +41,7 @@ void UndoReSet();
 
 ## VBA Syntax
 
-See
-
-[SwUndoAPIHandler::UndoReSet](ms-its:swpublishedapivb6.chm::/swpublished~swundoapihandler~undoreset.html)
-
-.
+See [SwUndoAPIHandler::UndoReSet](ms-its:swpublishedapivb6.chm::/swpublished~swundoapihandler~undoreset.html).
 
 ## Examples
 
@@ -54,5 +50,4 @@ See
 ## See Also
 
 [ISwUndoAPIHandler Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwUndoAPIHandler.html)
-
 [ISwUndoAPIHandler Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwUndoAPIHandler_members.html)

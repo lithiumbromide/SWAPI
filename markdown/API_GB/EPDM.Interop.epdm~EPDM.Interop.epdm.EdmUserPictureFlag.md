@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserPictureFlag.html"
 
 # EdmUserPictureFlag Enumeration
 
-Flags that are passed in the lEdmUserPictureFlags argument of
-
-[IEdmUserMgr8::CreateUserPicture](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8~CreateUserPicture.html)
-
-.
+Flags that are passed in the lEdmUserPictureFlags argument of [IEdmUserMgr8::CreateUserPicture](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr8~CreateUserPicture.html).
 
 ## Syntax
 

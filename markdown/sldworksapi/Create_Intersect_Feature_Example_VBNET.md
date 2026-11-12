@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Intersect_Feature_Example_VBNET.htm"
 
 # Create Intersect Feature Example (VB.NET)
 
-This example shows how to create an intersect feature that includes only the
-internal (hollow) regions between the intersecting regions.
+This example shows how to create an intersect feature that includes only the internal (hollow) regions between the intersecting regions.
 
 ```
 '----------------------------------------------------

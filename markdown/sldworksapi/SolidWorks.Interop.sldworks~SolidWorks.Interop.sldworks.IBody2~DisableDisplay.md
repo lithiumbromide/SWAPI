@@ -45,42 +45,24 @@ property System.bool DisableDisplay {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 True to hide the body; false to show the body
 
-NOTE:
-
-If true, then the body is hidden but remains selectable.
+**NOTE:** If true, then the body is hidden but remains selectable.
 
 ## VBA Syntax
 
-See
-
-[Body2::DisableDisplay](ms-its:sldworksapivb6.chm::/sldworks~Body2~DisableDisplay.html)
-
-.
+See [Body2::DisableDisplay](ms-its:sldworksapivb6.chm::/sldworks~Body2~DisableDisplay.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
-
 [IBody2::HideBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~HideBody.html)
-
 [IModelDoc2::HideShowBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~HideShowBodies.html)
-
 [IModelDoc2::HideSolidBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~HideSolidBody.html)
-
 [IFeatureManager::ShowBodies Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~ShowBodies.html)
-
 [IFeatureManager::HideBody Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2~HideBody.html)

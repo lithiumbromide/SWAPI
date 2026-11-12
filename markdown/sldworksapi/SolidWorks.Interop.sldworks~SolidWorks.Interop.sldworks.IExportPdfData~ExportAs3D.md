@@ -45,13 +45,7 @@ property System.bool ExportAs3D {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,15 @@ True to export this part or drawing document to 3D PDF, false to not
 
 ## VBA Syntax
 
-See
-
-[ExportPdfData::ExportAs3D](ms-its:sldworksapivb6.chm::/sldworks~ExportPdfData~ExportAs3D.html)
-
-.
+See [ExportPdfData::ExportAs3D](ms-its:sldworksapivb6.chm::/sldworks~ExportPdfData~ExportAs3D.html).
 
 ## Remarks
 
-Call[IModelDocExtension::SaveAs](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SaveAs.html)after setting this property.
+Call [IModelDocExtension::SaveAs](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SaveAs.html) after setting this property.
 
 ## See Also
 
 [IExportPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData.html)
-
 [IExportPdfData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData_members.html)
 
 ## Availability

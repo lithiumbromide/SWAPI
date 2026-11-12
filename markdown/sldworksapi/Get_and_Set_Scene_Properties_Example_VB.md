@@ -54,7 +54,7 @@ Sub main()
      Debug.Print "Scene background image file: " & Scene.BackgroundImage
      Debug.Print "Scene environment rotation: " & Scene.EnvironmentRotation
      Scene.FitToSWWindow = True
-     Debug.Print "Stretch to fit in SOLIDWORKS window? " & Scene.FitToSWWindow
+     Debug.Print "Stretch to fit in SOLIDWORKS Design window? " & Scene.FitToSWWindow
      Debug.Print "Scale the scene floor uniformly? " & Scene.FixedAspectRatio
      Debug.Print "Flip the scene floor direction? " & Scene.FloorDirection
      Debug.Print "Automatically resize the scene floor based on the model bounding box? " & Scene.FloorAutoSize

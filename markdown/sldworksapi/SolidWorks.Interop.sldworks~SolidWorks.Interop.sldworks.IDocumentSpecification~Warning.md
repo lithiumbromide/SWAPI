@@ -45,42 +45,26 @@ property System.int Warning {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Warnings as defined by
-
-[swFileLoadWarning_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileLoadWarning_e.html)
+Warnings as defined by [swFileLoadWarning_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileLoadWarning_e.html)
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::Warning](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~Warning.html)
-
-.
+See [DocumentSpecification::Warning](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~Warning.html).
 
 ## Examples
 
 [Open Drawing Document Read-only (VBA)](Open_Drawing_Document_Read-only_Example_VB.htm)
-
 [Open Assembly Document (C#)](Open_Assembly_Document_Example_CSharp.htm)
-
 [Open Assembly Document (VB.NET)](Open_Assembly_Document_Example_VBNET.htm)
-
 [Open Assembly Document (VBA)](Open_Assembly_Document_Example_VB.htm)
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
 
 ## Availability

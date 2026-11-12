@@ -79,30 +79,26 @@ System.bool SelectByID2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `Name`: Name of object to select or an empty string
-- `Type`: Type of object (uppercase) as defined in[swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html)or an empty string
+- `Type`: Type of object (uppercase) as defined in [swSelectType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectType_e.html) or an empty string
 - `X`: X selection location or 0
 - `Y`: Y selection location or 0
 - `Z`: Z selection location or 0
-- `Append`: | If... | An, if entity is... | Then... |
-| --- | --- | --- |
-| True | Not already selected | Entity is appended to the current selection list |
-|  | Already selected | Entity is removed from the current selection list |
-| False | Not already selected | Current selection is cleared and then the entity is put on the list |
-|  | Already selected | Current selection list remains the same |
-- `Mark`: Value that you want to use as a mark; this value is used by other functions that require ordered selection (see**Remarks**)
-- `Callout`: Pointer to the associated[callout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html)
-- `SelectOption`: Selection option as defined in[swSelectOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectOption_e.html)(see**Remarks**)
+- `Append`:
+
+  | If... | An, if entity is... | Then... |
+  | --- | --- | --- |
+  | True | Not already selected | Entity is appended to the current selection list |
+  |  | Already selected | Entity is removed from the current selection list |
+  | False | Not already selected | Current selection is cleared and then the entity is put on the list |
+  |  | Already selected | Current selection list remains the same |
+- `Mark`: Value that you want to use as a mark; this value is used by other functions that require ordered selection (see **Remarks**)
+- `Callout`: Pointer to the associated [callout](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout.html)
+- `SelectOption`: Selection option as defined in [swSelectOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSelectOption_e.html) (see **Remarks**)
 
 ### Return Value
 
@@ -110,50 +106,28 @@ True if item was successfully selected, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDocExtension::SelectByID2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SelectByID2.html)
-
-.
+See [ModelDocExtension::SelectByID2](ms-its:sldworksapivb6.chm::/sldworks~ModelDocExtension~SelectByID2.html).
 
 ## Examples
 
 [Access Assembly (C++)](Access_Assembly_Example_CPlusPlus_COM.htm)
-
 [Add Component and Mate (C++)](Add_Component_and_Mate_Example_CPlusPlus_COM.htm)
-
 [Create Cylinder (C++)](Create_Cylinder_Example_CPlusPlus_COM.htm)
-
 [Traverse Bodies (C++)](Traverse_Bodies_Example_CPlusPlusCLI.htm)
-
 [Add Distance Mates (VBA)](Add_Distance_Mates_Example_VB.htm)
-
 [Get Names of Bodies in Multibody Part (VBA)](Get_Names_of_Bodies_in_MultiBody_Part_Example_VB.htm)
-
 [Get Selected Object (VBA)](Get_Selected_Object_Example_VB.htm)
-
 [Insert Wrap Feature (VBA)](Insert_Wrap_Feature_Example_VB.htm)
-
 [Select Bodies (VBA)](Select_Bodies_Example_VB.htm)
-
 [Connect to SOLIDWORKS Session (C#)](Connect_to_SOLIDWORKS_Session_CSharp.htm)
-
 [Create Equation-driven Curve (C#)](Create_Equation-driven_Curve_Example_CSharp.htm)
-
 [Create Equation-driven Curve (VB.NET)](Create_Equation-driven_Curve_Example_VBNET.htm)
-
 [Create Equation-driven Curve (VBA)](Create_Equation-driven_Curve_Example_VB.htm)
-
 [Select Multiple Sketch Segments for Sweep Path (C#)](Select_Multiple_Paths_for_Sweep_Path_Example_CSharp.htm)
-
 [Select Multiple Sketch Segments for Sweep Path (VB.NET)](Select_Multiple_Paths_for_Sweep_Path_Example_VBNET.htm)
-
 [Select Multiple Sketch Segments for Sweep Path (VBA)](Select_Multiple_Paths_for_Sweep_Path_Example_VB.htm)
-
 [Select Multiple Splines for Loft Guide Curves (C#)](Select_Multiple_Splines_for_Loft_Guide_Curves_Example_CSharp.htm)
-
 [Select Multiple Splines for Loft Guide Curves (VB.NET)](Select_Multiple_Splines_for_Loft_Guide_Curves_Example_VBNET.htm)
-
 [Select Multiple Splines for Loft Guide Curves (VBA)](Select_Multiple_Splines_for_Loft_Guide_Curves_Example_VB.htm)
 
 ## Remarks
@@ -190,56 +164,32 @@ If you are using the Name parameter, then specify the x, y, and z coordinates in
 
 If you do not know the object name or the object type, pass empty strings for the Name and Type parameters. The selection routine makes the best attempt to select the correct object.
 
-To get[IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html),[IEdge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)or[IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html)objects by name, use[IPartDoc::GetEntityByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~GetEntityByName.html)or[IPartDoc::IGetEntityByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IGetEntityByName.html).
+To get [IFace2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2.html), [IEdge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html) or [IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVertex.html) objects by name, use [IPartDoc::GetEntityByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~GetEntityByName.html) or [IPartDoc::IGetEntityByName](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPartDoc~IGetEntityByName.html).
 
 For SelectOption, specify swSelectOption_e.swSelectOptionDefault to indicate that the Shift key is not used during selection or specify swSelectOption_e.swSelectOptionExtensive to indicate that the Shift key is used during selection.
 
-The[IModelDoc2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html)object used to call this method must be an open and visible document. For example, you cannot use the IModelDoc2 object returned from an assembly component ([IComponent2::GetModelDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetModelDoc.html)or[IComponent2::IGetModelDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetModelDoc.html)) unless that SOLIDWORKS component part or subassembly is an open and visible document. In this case, you can select the item using the fully qualified name (for example, "Plane4@Part1-1@Assem1").
+The [IModelDoc2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2.html) object used to call this method must be an open and visible document. For example, you cannot use the IModelDoc2 object returned from an assembly component ([IComponent2::GetModelDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetModelDoc.html) or [IComponent2::IGetModelDoc](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~IGetModelDoc.html)) unless that SOLIDWORKS component part or subassembly is an open and visible document. In this case, you can select the item using the fully qualified name (for example, "Plane4@Part1-1@Assem1").
 
-When selecting IFace2 objects, this method uses the specified point as input to the normal user-interface selection routines to use the speed of ray tracing. As a result, if the view changes from the original recorded size or orientation, then the same IFace2 might not be selected next time. If your application has a pointer to the IFace2 object to be selected, then you can call the[IEntity::Select4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity~Select4.html)method directly. Otherwise, you can call[IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html). Calling either of these methods allows for tighter control over the starting point and the direction in which to search. IModelDocExtension::SelectByRay is recorded when IModelDocExtension::SelectByID2 relies on the selection coordinates and prone to failure if the model view is altered.
+When selecting IFace2 objects, this method uses the specified point as input to the normal user-interface selection routines to use the speed of ray tracing. As a result, if the view changes from the original recorded size or orientation, then the same IFace2 might not be selected next time. If your application has a pointer to the IFace2 object to be selected, then you can call the [IEntity::Select4](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEntity~Select4.html) method directly. Otherwise, you can call [IModelDocExtension::SelectByRay](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByRay.html). Calling either of these methods allows for tighter control over the starting point and the direction in which to search. IModelDocExtension::SelectByRay is recorded when IModelDocExtension::SelectByID2 relies on the selection coordinates and prone to failure if the model view is altered.
 
 Use:
 
-- Mark of 4 when selecting multiple edges or sketch segments and grouping them into one object for the path for a sweep feature. See the
-
-  Select Multiple Sketch Segments for Sweep Path
-
-  examples.
-- Mark of 2 when selecting multiple edges, sketch segments, or curves and grouping them into one object for the guide curves for a loft feature. See the
-
-  Select Multiple Splines for Loft Guide Curves
-
-  examples.
-- [ISelectionMgr::AddSelectionListObject](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~AddSelectionListObject.html)
-
-  and
-
-  [ISelectionMgr::AddSelectionListObjects](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~AddSelectionListObjects.html)
-
-  to add objects to a selection list without preselecting the objects in the user interface.
+- Mark of 4 when selecting multiple edges or sketch segments and grouping them into one object for the path for a sweep feature. See the **Select Multiple Sketch Segments for Sweep Path** examples.
+- Mark of 2 when selecting multiple edges, sketch segments, or curves and grouping them into one object for the guide curves for a loft feature. See the **Select Multiple Splines for Loft Guide Curves** examples.
+- [ISelectionMgr::AddSelectionListObject](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~AddSelectionListObject.html) and [ISelectionMgr::AddSelectionListObjects](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISelectionMgr~AddSelectionListObjects.html) to add objects to a selection list without preselecting the objects in the user interface.
 
 ## See Also
 
 [IModelDocExtension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension.html)
-
 [IModelDocExtension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension_members.html)
-
 [IModelDocExtension::MultiSelect Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~MultiSelect.html)
-
 [IModelDocExtension::IMultiSelect Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~IMultiSelect.html)
-
 [ISelectData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectData.html)
-
 [ISelectionMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr.html)
-
 [IFeature::GetNameForSelection Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeature~GetNameForSelection.html)
-
 [IModelDocExtension::SelectAll Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectAll.html)
-
 [IAssemblyDoc::SelectComponentsBySize Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~SelectComponentsBySize.html)
-
 [ISelectionMgr::GetSelectByIdSpecification Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectByIdSpecification.html)
-
 [ISelectionMgr::GetSelectionSpecification Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISelectionMgr~GetSelectionSpecification.html)
 
 ## Availability

@@ -11,8 +11,7 @@ source: "sldworksapi/Traverse_Assembly_at_Component_and_Feature_Level_Example_VB
 
 ## Traversing Assembly at Component and Feature Levels Example (VBA)
 
-This example shows how to traverse an assembly at the component and feature
-levels.
+This example shows how to traverse an assembly at the component and feature levels.
 
 ```
 '------------------------------------------------------

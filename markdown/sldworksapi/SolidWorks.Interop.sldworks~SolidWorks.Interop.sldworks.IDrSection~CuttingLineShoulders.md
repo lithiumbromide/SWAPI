@@ -45,13 +45,7 @@ property System.bool CuttingLineShoulders {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ True to hide cutting line shoulders, false to not
 
 ## VBA Syntax
 
-See
-
-[DrSection::CuttingLineShoulders](ms-its:sldworksapivb6.chm::/sldworks~DrSection~CuttingLineShoulders.html)
-
-.
+See [DrSection::CuttingLineShoulders](ms-its:sldworksapivb6.chm::/sldworks~DrSection~CuttingLineShoulders.html).
 
 ## Examples
 
 [Get and Set Whether to Hide Cutting Line Shoulders (C#)](Get_and_Set_Whether_to_Hide_Cutting_Line_Shoulders_Example_CSharp.htm)
-
 [Get and Set Whether to Hide Cutting Line Shoulders (VB.NET)](Get_and_Set_Whether_to_Hide_Cutting_Line_Shoulders_Example_VBNET.htm)
-
 [Get and Set Whether to Hide Cutting Line Shoulders (VBA)](Get_and_Set_Whether_to_Hide_Cutting_Line_Shoulders_Example_VB.htm)
 
 ## See Also
 
 [IDrSection Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection.html)
-
 [IDrSection Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrSection_members.html)
 
 ## Availability

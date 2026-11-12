@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Buttons_to_Task_Pane_Example_VB.htm"
 
 # Add Buttons to Task Pane Example (VBA)
 
-This example shows how to add standard SOLIDWORKS and custom buttons to the
-Task Pane.
+This example shows how to add standard SOLIDWORKS and custom buttons to the Task Pane.
 
 ```
 '----------------------------------------------------------------

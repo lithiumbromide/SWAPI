@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Faces_Affected_by_Feature_Example_VB.htm"
 
 # Get Faces Affected by Feature Example (VBA)
 
-This example shows how to get the faces affected by a feature. This
-example also highlights the edges on each affected face in blue.
+This example shows how to get the faces affected by a feature. This example also highlights the edges on each affected face in blue.
 
 ```vb
  '----------------------------------------------------------------

@@ -1,6 +1,5 @@
 ---
-title: "Curve Object
-Members"
+title: "Curve Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "Curve_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~Curve_members.html"
 ---
 
-# Curve Object
-Members
+# Curve Object Members
 
 ## Public Methods
 

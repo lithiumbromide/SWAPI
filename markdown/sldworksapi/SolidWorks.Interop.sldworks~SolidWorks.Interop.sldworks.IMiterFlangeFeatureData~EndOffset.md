@@ -45,28 +45,16 @@ property System.double EndOffset {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[MiterFlangeFeatureData::EndOffset](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~EndOffset.html)
-
-.
+See [MiterFlangeFeatureData::EndOffset](ms-its:sldworksapivb6.chm::/sldworks~MiterFlangeFeatureData~EndOffset.html).
 
 ## See Also
 
 [IMiterFlangeFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData.html)
-
 [IMiterFlangeFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData_members.html)
-
 [IMiterFlangeFeatureData::StartOffset Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMiterFlangeFeatureData~StartOffset.html)
 
 ## Availability

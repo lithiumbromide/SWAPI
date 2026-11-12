@@ -55,13 +55,7 @@ System.bool RunAttachedMacro(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -75,27 +69,41 @@ True if macro runs, false if not
 
 ## VBA Syntax
 
-See
-
-[SldWorks::RunAttachedMacro](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RunAttachedMacro.html)
-
-.
+See [SldWorks::RunAttachedMacro](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~RunAttachedMacro.html).
 
 ## Examples
 
 **Visual Basic for Applications (VBA)**
 
-Create two VBA macros using the following code samples. Attach**RunMacroSub.swp**to the active document's Design Binder. Then run**RunAttachedMacro.swp**.
+Create two VBA macros using the following code samples. Attach **RunMacroSub.swp** to the active document's Design Binder. Then run **RunAttachedMacro.swp**.
 
-'-------------------------------------- ' RunAttachedMacro.swp '------------------------------------- Option Explicit Dim swApp As SldWorks.SldWorks Dim boolstatus As Boolean
+'--------------------------------------
+' RunAttachedMacro.swp
+'-------------------------------------
+Option Explicit
+Dim swApp As SldWorks.SldWorks
+Dim boolstatus As Boolean
 
-Sub main() Set swApp = Application.SldWorks Dim RunMacroError As Long boolstatus = swApp. RunAttachedMacro ("RunMacroSub.swp", "RunMacroSub1", "main") End Sub
+Sub main()
+Set swApp = Application.SldWorks
+Dim RunMacroError As Long
+boolstatus = swApp.**RunAttachedMacro**("RunMacroSub.swp", "RunMacroSub1", "main")
+End Sub
 
-'--------------------------------------- ' RunMacroSub.swp' '--------------------------------------- Option Explicit Dim swApp As SldWorks.SldWorks
+'---------------------------------------
+' RunMacroSub.swp'
+'---------------------------------------
+Option Explicit
+Dim swApp As SldWorks.SldWorks
 
-Sub alternate() Set swApp = Application.SldWorks swApp.SendMsgToUser "RunMacroSub1:alternate() called." End Sub
+Sub alternate()
+Set swApp = Application.SldWorks
+swApp.SendMsgToUser "RunMacroSub1:alternate() called."
+End Sub
 
-Sub main() Set swApp = Application.SldWorks swApp.SendMsgToUser "RunMacroSub1:main() called."
+Sub main()
+Set swApp = Application.SldWorks
+swApp.SendMsgToUser "RunMacroSub1:main() called."
 
 End Sub
 
@@ -106,9 +114,7 @@ An example of an attached macro is a macro that is attached to the active docume
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::RunMacro2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RunMacro2.html)
 
 ## Availability

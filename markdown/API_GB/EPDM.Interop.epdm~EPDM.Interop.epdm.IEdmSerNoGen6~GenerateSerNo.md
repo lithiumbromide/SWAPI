@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6~GenerateSerNo.
 
 # GenerateSerNo Method (IEdmSerNoGen6)
 
-Obsolete. Superseded by
-
-[IEdmSerNoGen7::AllocSerNoValue](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7~AllocSerNoValue.html)
-
-.
+Obsolete. Superseded by [IEdmSerNoGen7::AllocSerNoValue](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7~AllocSerNoValue.html).
 
 ## Syntax
 
@@ -61,11 +57,7 @@ System.String^ GenerateSerNo(
 
 ### Parameters
 
-- `bsSerNoName`: Name of the serial number generator to use to generate a new serial number (see
-
-Remarks
-
-)
+- `bsSerNoName`: Name of the serial number generator to use to generate a new serial number (see **Remarks**)
 - `lParentWnd`: Parent window handle; passed to a serial number add-in, if it exists
 - `bsFilePath`: Path to the file for which to generate a serial number
 - `lFolderID`: ID of the file's parent folder
@@ -79,7 +71,7 @@ Serial number value
 
 ## Remarks
 
-This method is superseded by[IEdmSerNoGen7:AllocSerNoValue](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7~AllocSerNoValue.html)which provides the ability to push back serial numbers that you don't need using[IEdmSerNoValue](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoValue.html).
+This method is superseded by [IEdmSerNoGen7:AllocSerNoValue](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen7~AllocSerNoValue.html) which provides the ability to push back serial numbers that you don't need using [IEdmSerNoValue](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoValue.html).
 
 bsSerNoName is the name you specify in the SOLIDWORKS PDM Professional Administration tool when you create a serial number generator.
 
@@ -91,7 +83,6 @@ bsSerNoName is the name you specify in the SOLIDWORKS PDM Professional Administr
 ## See Also
 
 [IEdmSerNoGen6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6.html)
-
 [IEdmSerNoGen6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmSerNoGen6_members.html)
 
 ## Availability

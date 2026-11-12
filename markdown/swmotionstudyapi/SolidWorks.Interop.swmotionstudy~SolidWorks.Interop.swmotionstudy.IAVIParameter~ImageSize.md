@@ -47,22 +47,15 @@ property System.int ImageSize {
 
 ### Property Value
 
-Image size as defined by
-
-[swSaveAVIImageSize_e](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swSaveAVIImageSize_e.html)
+Image size as defined by [swSaveAVIImageSize_e](SOLIDWORKS.Interop.swmotionstudy~SOLIDWORKS.Interop.swmotionstudy.swSaveAVIImageSize_e.html)
 
 ## VBA Syntax
 
-See
-
-[AVIParameter::ImageSize](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~ImageSize.html)
-
-.
+See [AVIParameter::ImageSize](ms-its:swmotionstudyapivb6.chm::/SwMotionStudy~AVIParameter~ImageSize.html).
 
 ## See Also
 
 [IAVIParameter Interface](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter.html)
-
 [IAVIParameter Members](SolidWorks.Interop.swmotionstudy~SolidWorks.Interop.swmotionstudy.IAVIParameter_members.html)
 
 ## Availability

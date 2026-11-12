@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # GetDisplayWhenAdded Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::GetDisplayWhenAdded](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetDisplayWhenAdded.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::GetDisplayWhenAdded](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~GetDisplayWhenAdded.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.bool GetDisplayWhenAdded()
 System.bool GetDisplayWhenAdded();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::GetDisplayWhenAdded](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetDisplayWhenAdded.html)
-
-.
+See [ModelDoc::GetDisplayWhenAdded](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~GetDisplayWhenAdded.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

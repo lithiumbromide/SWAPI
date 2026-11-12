@@ -48,16 +48,11 @@ True if this group is a vault administrator, false if not
 
 ## VBA Syntax
 
-See
-
-[PDMWGroup::IsAdmin](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroup~IsAdmin.html)
-
-.
+See [PDMWGroup::IsAdmin](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWGroup~IsAdmin.html).
 
 ## See Also
 
 [IPDMWGroup Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup.html)
-
 [IPDMWGroup Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWGroup_members.html)
 
 ## Availability

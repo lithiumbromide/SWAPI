@@ -42,13 +42,7 @@ property System.double TotalLength {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,24 +50,15 @@ Total weld length
 
 ## VBA Syntax
 
-See
-
-[CosmeticWeldBeadFolder::TotalLength](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFolder~TotalLength.html)
-
-.
+See [CosmeticWeldBeadFolder::TotalLength](ms-its:sldworksapivb6.chm::/sldworks~CosmeticWeldBeadFolder~TotalLength.html).
 
 ## Examples
 
-See
-
-[ICosmeticWeldBeadFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFolder.html)
-
-examples.
+See [ICosmeticWeldBeadFolder](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICosmeticWeldBeadFolder.html) examples.
 
 ## See Also
 
 [ICosmeticWeldBeadFolder Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder.html)
-
 [ICosmeticWeldBeadFolder Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICosmeticWeldBeadFolder_members.html)
 
 ## Availability

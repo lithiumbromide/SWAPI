@@ -51,16 +51,11 @@ Name of the source document
 
 ## VBA Syntax
 
-See
-
-[PDMWConfiguration::docname](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~docname.html)
-
-.
+See [PDMWConfiguration::docname](ms-its:pdmworksapivb6.chm::/pdmworks~PDMWConfiguration~docname.html).
 
 ## See Also
 
 [IPDMWConfiguration Interface](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration.html)
-
 [IPDMWConfiguration Members](PDMWorks.Interop.pdmworks~PDMWorks.Interop.pdmworks.IPDMWConfiguration_members.html)
 
 ## Availability

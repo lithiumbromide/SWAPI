@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~mlOwnerI
 
 # mlOwnerID Field
 
-ID of
-
-[meOwnerType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~meOwnerType.html)
-
-for whom to assign permissions.
+ID of [meOwnerType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission~meOwnerType.html) for whom to assign permissions.
 
 ## Syntax
 
@@ -39,5 +35,4 @@ System.int mlOwnerID
 ## See Also
 
 [EdmFolderPermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission.html)
-
 [EdmFolderPermission Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmFolderPermission_members.html)

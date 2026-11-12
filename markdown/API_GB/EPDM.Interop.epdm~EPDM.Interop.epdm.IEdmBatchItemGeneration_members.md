@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration_memb
 
 # IEdmBatchItemGeneration Interface Members
 
-The following tables list the members exposed by[IEdmBatchItemGeneration](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html).
+The following tables list the members exposed by [IEdmBatchItemGeneration](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html).
 
 ## Public Properties
 
@@ -33,5 +33,4 @@ The following tables list the members exposed by[IEdmBatchItemGeneration](EPDM.I
 ## See Also
 
 [IEdmBatchItemGeneration Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchItemGeneration.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

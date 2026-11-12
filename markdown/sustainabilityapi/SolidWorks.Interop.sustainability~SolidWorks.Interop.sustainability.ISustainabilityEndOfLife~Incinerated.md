@@ -51,24 +51,15 @@ Percentage of the product that is incinerated
 
 ## VBA Syntax
 
-See
-
-[SustainabilityEndOfLife::Incinerated](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEndOfLife~Incinerated.html)
-
-.
+See [SustainabilityEndOfLife::Incinerated](ms-its:sustainabilityapivb6.chm::/sustainabilityLib~SustainabilityEndOfLife~Incinerated.html).
 
 ## Examples
 
-See the examples in
-
-[ISustainabilityEndOfLife](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEndOfLife.html)
-
-.
+See the examples in [ISustainabilityEndOfLife](SOLIDWORKS.Interop.sustainability~SOLIDWORKS.Interop.sustainability.ISustainabilityEndOfLife.html).
 
 ## See Also
 
 [ISustainabilityEndOfLife Interface](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEndOfLife.html)
-
 [ISustainabilityEndOfLife Members](SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEndOfLife_members.html)
 
 ## Availability

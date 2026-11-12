@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5~HasSysRight.h
 
 # HasSysRight Method (IEdmUserGroup5)
 
-Obsolete. Superseded by
-
-[IEdmUserGroup6::HasSysRightEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6~HasSysRightEx.html)
-
-.
+Obsolete. Superseded by [IEdmUserGroup6::HasSysRightEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6~HasSysRightEx.html).
 
 ## Syntax
 
@@ -43,9 +39,7 @@ System.bool HasSysRight(
 
 ### Parameters
 
-- `eRight`: Combination of
-
-[EdmSysRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html)
+- `eRight`: Combination of [EdmSysRightFlags](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmSysRightFlags.html)
 
 ### Return Value
 
@@ -53,11 +47,11 @@ True if the user group has all the permissions, false if not
 
 ## Remarks
 
-This method is superseded by[IEdmUserGroup6::HasSysRightEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6~HasSysRightEx.html).
+This method is superseded by [IEdmUserGroup6::HasSysRightEx](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup6~HasSysRightEx.html).
 
 Before SOLIDWORKS PDM Professional 2010, IEdmUserGroup5::HasSysRight supported the bit-wise combination of system permissions. Because the number of system permissions has grown, and they do not all fit in a 32-bit integer, system permissions added in SOLIDWORKS PDM Professional 2010 and later are sequential numeric constants instead of bit flags. You must use IEdmUserGroup6::HasSysRightEx to check permissions added in SOLIDWORKS PDM Professional 2010 and later.
 
-To check individual user permissions, call[IEdmUser5::HasSysRight](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5~HasSysRight.html), which checks both permissions set directly on the user and permissions inherited from groups of which he is a member.
+To check individual user permissions, call [IEdmUser5::HasSysRight](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUser5~HasSysRight.html), which checks both permissions set directly on the user and permissions inherited from groups of which he is a member.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -67,7 +61,6 @@ To check individual user permissions, call[IEdmUser5::HasSysRight](EPDM.Interop.
 ## See Also
 
 [IEdmUserGroup5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5.html)
-
 [IEdmUserGroup5 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserGroup5_members.html)
 
 ## Availability

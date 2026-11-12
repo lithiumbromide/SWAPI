@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBo
 
 # GetCoincidenceTransform Method (IBody2)
 
-Obsolete. Superseded by
-
-[IBody2::GetCoincidenceTransform2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetCoincidenceTransform2.html)
-
-.
+Obsolete. Superseded by [IBody2::GetCoincidenceTransform2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetCoincidenceTransform2.html).
 
 ## Syntax
 
@@ -55,37 +51,24 @@ System.bool GetCoincidenceTransform(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `BodyDispIn`: Input body
-- `Xform`: Pointer to the
-
-[transformation matrix](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
+- `Xform`: Pointer to the [transformation matrix](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMathTransform.html)
 
 ### Return Value
 
-True if the bodies (the body on which the method is invoked and the input body) can coincide by applying appropriate transforms, false if notParamDesc
+True if the bodies (the body on which the method is invoked and the input body) can coincide by applying appropriate transforms, false if not
 
 ## VBA Syntax
 
-See
-
-[Body2::GetCoincidenceTransform](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetCoincidenceTransform.html)
-
-.
+See [Body2::GetCoincidenceTransform](ms-its:sldworksapivb6.chm::/sldworks~Body2~GetCoincidenceTransform.html).
 
 ## See Also
 
 [IBody2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2.html)
-
 [IBody2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBody2_members.html)
 
 ## Availability

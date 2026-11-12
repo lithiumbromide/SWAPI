@@ -53,30 +53,19 @@ System.int ShowNormalizeValuesFrom0To1(
 
 ### Return Value
 
-Error code as defined in
-
-[swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
+Error code as defined in [swsResultPlotErrorCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultPlotErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::ShowNormalizeValuesFrom0To1](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ShowNormalizeValuesFrom0To1.html)
-
-.
+See [CWPlot::ShowNormalizeValuesFrom0To1](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~ShowNormalizeValuesFrom0To1.html).
 
 ## Examples
 
-See the
-
-[ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
-examples.
+See the [ICWPlot](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html) examples.
 
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
 
 ## Availability

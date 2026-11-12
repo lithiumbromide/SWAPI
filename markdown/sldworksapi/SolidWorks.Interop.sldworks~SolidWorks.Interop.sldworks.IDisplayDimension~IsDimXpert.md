@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDi
 
 # IsDimXpert Method (IDisplayDimension)
 
-Obsolete. Superseded by
-
-[IAnnotation::IsDimXpert](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IsDimXpert.html)
-
-.
+Obsolete. Superseded by [IAnnotation::IsDimXpert](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~IsDimXpert.html).
 
 ## Syntax
 
@@ -44,13 +40,7 @@ System.bool IsDimXpert()
 System.bool IsDimXpert();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -58,32 +48,24 @@ True if the display dimension is a DimXpert dimension, false if not
 
 ## VBA Syntax
 
-See
-
-[DisplayDimension::IsDimXpert](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IsDimXpert.html)
-
-.
+See [DisplayDimension::IsDimXpert](ms-its:sldworksapivb6.chm::/sldworks~DisplayDimension~IsDimXpert.html).
 
 ## Examples
 
 [Get DimXpert Display Dimensions and Feature (C#)](Get_DimXpert_Display_Dimensions_and_Feature_Example_CSharp.htm)
-
 [Get DimXpert Display Dimensions and Feature (VB.NET)](Get_DimXpert_Display_Dimensions_and_Feature_Example_VBNET.htm)
-
 [Get DimXpert Display Dimensions and Feature (VBA)](Get_DimXpert_Display_Dimensions_and_Feature_Example_VB.htm)
 
 ## Remarks
 
-Use this method to determine if the display dimension is a DimXpert display dimension. If it is, then use[IAnnotation::GetDimXpertFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetDimXpertFeature.html)to access the DimXpert feature, which provides access to the display dimension information.
+Use this method to determine if the display dimension is a DimXpert display dimension. If it is, then use [IAnnotation::GetDimXpertFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IAnnotation~GetDimXpertFeature.html) to access the DimXpert feature, which provides access to the display dimension information.
 
 DimXpert dimensions can be hidden shown or hidden as a group, which can be important when exporting to a DXF/DWG file.
 
 ## See Also
 
 [IDisplayDimension Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension.html)
-
 [IDisplayDimension Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDisplayDimension_members.html)
-
 [IAnnotation::IsDimXpert Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~IsDimXpert.html)
 
 ## Availability

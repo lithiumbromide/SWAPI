@@ -1,0 +1,208 @@
+<<< ISustainabilityApp.GetSustainabilityAssemblyProcess | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp~GetSustainabilityAssemblyProcess.md
+R: ISustainabilityAssemblyProcess
+<<< ISustainabilityApp.GetSustainabilityAssemblyUse | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp~GetSustainabilityAssemblyUse.md
+R: ISustainabilityAssemblyUse
+<<< ISustainabilityApp.GetSustainabilityEndOfLife | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp~GetSustainabilityEndOfLife.md
+R: ISustainabilityEndOfLife
+<<< ISustainabilityApp.GetSustainabilityEnvironmentalImpact | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp~GetSustainabilityEnvironmentalImpact.md
+R: ISustainabilityEnvironmentalImpact
+<<< ISustainabilityApp.GetSustainabilityManufacturing | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp~GetSustainabilityManufacturing.md
+R: ISustainabilityManufacturing
+<<< ISustainabilityApp.GetSustainabilityMaterial | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp~GetSustainabilityMaterial.md
+R: ISustainabilityMaterial
+<<< ISustainabilityApp.GetSustainabilityPartUse | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp~GetSustainabilityPartUse.md
+R: ISustainabilityUse
+<<< ISustainabilityApp.GetSustainabilityTransportation | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityApp~GetSustainabilityTransportation.md
+R: ISustainabilityTransportation
+<<< ISustainabilityAssemblyProcess.AssemblyProcessAmount | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess~AssemblyProcessAmount.md
+R: Array containing the amounts of electricity and natural gas required to assemble this assembly; valid only if ISustainabilityAssemblyProcess::EnergyForAssemblyProcess is true
+<<< ISustainabilityAssemblyProcess.BuiltToLast | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess~BuiltToLast.md
+R: Length of time in ISustainabilityAssemblyProcess::DurationType units that the assembly is built to last
+<<< ISustainabilityAssemblyProcess.DurationType | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess~DurationType.md
+R: Units of ISustainabilityAssemblyProcess::BuiltToLast time as defined in swSustainabilityDurationType_e
+<<< ISustainabilityAssemblyProcess.EnergyForAssemblyProcess | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess~EnergyForAssemblyProcess.md
+R: True if energy is required to create this assembly, false if not
+<<< ISustainabilityAssemblyProcess.FuelType | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess~FuelType.md
+R: Type of fuel as defined in swSustainabilityFuelType_e; valid only if ISustainabilityAssemblyProcess::EnergyForAssemblyProcess is true
+<<< ISustainabilityAssemblyProcess.Region | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyProcess~Region.md
+R: Region of assembly as defined in swSustainabilityRegionName_e
+<<< ISustainabilityAssemblyUse.AssemblyRegion | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse~AssemblyRegion.md
+R: Geographical region where the assembly is used as defined in swSustainabilityRegionName_e
+<<< ISustainabilityAssemblyUse.AssemblyUseAmount | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse~AssemblyUseAmount.md
+R: Array containing the amounts of electricity, natural gas, diesel, gasoline, and light fuel oil used over the life span of the assembly; valid only if ISustainabilityAssemblyUse::EnergyOverLifeSpan is true
+<<< ISustainabilityAssemblyUse.DurationType | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse~DurationType.md
+R: Per time units for ISustainabilityAssemblyUse::AssemblyUseAmount as defined in swSustainabilityDurationType_e
+<<< ISustainabilityAssemblyUse.EnergyOverLifeSpan | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse~EnergyOverLifeSpan.md
+R: True if energy is required over the life span of the assembly, false if not
+<<< ISustainabilityAssemblyUse.TypeOfEnergy | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityAssemblyUse~TypeOfEnergy.md
+R: Type of energy as defined in swSustainabilityEnergyType_e; valid only if ISustainabilityAssemblyUse::EnergyOverLifeSpan is true
+<<< ISustainabilityEndOfLife.Incinerated | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEndOfLife~Incinerated.md
+R: Percentage of the product that is incinerated
+<<< ISustainabilityEndOfLife.Landfill | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEndOfLife~Landfill.md
+R: Percentage of the product that is put into landfill
+<<< ISustainabilityEndOfLife.Recycled | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEndOfLife~Recycled.md
+R: Percentage of the product that is recycled
+<<< ISustainabilityEnvironmentalImpact.DurationOfUse | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~DurationOfUse.md
+R: Product use time over which to evaluate environmental impact
+X: After calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationType
+2. ISustainabilityEnvironmentalImpact::UpdateResults
+3. One or more ISustainabilityEnvironmentalImpact methods
+<<< ISustainabilityEnvironmentalImpact.DurationType | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~DurationType.md
+R: Units for ISustainabilityEnvironmentalImpact::DurationOfUse as defined in swSustainabilityDurationType_e
+X: After calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationOfUse
+2. ISustainabilityEnvironmentalImpact::UpdateResults
+3. One or more ISustainabilityEnvironmentalImpact methods
+<<< ISustainabilityEnvironmentalImpact.GetAirAcidification2 | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetAirAcidification2.md
+R: Array of five doubles of kilograms of sulfur dioxide emitted as a result of material, use, transportation, manufacturing, and end of life environmental impact factors
+X: Before calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationOfUse
+2. ISustainabilityEnvironmentalImpact::DurationType
+3. ISustainabilityEnvironmentalImpact::UpdateResults
+<<< ISustainabilityEnvironmentalImpact.GetCurrentCarbonFootPrint2 | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetCurrentCarbonFootPrint2.md
+R: Array of five doubles of kilograms of carbon dioxide emitted as a result of material, use, transportation, manufacturing, and end of life environmental impact factors
+X: Before calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationOfUse
+2. ISustainabilityEnvironmentalImpact::DurationType
+3. ISustainabilityEnvironmentalImpact::UpdateResults
+<<< ISustainabilityEnvironmentalImpact.GetEnergyConsumption2 | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetEnergyConsumption2.md
+R: Array of five doubles of megajoules of energy consumed by material, use, transportation, manufacturing, and end of life environmental impact factors
+X: Before calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationOfUse
+2. ISustainabilityEnvironmentalImpact::DurationType
+3. ISustainabilityEnvironmentalImpact::UpdateResults
+<<< ISustainabilityEnvironmentalImpact.GetWaterEutrophication2 | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~GetWaterEutrophication2.md
+R: Array of five doubles of kilograms of phosphate released into the water as a result of material, use, transportation, manufacturing, and end of life environmental impact factors
+X: Before calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationOfUse
+2. ISustainabilityEnvironmentalImpact::DurationType
+3. ISustainabilityEnvironmentalImpact::UpdateResults
+<<< ISustainabilityEnvironmentalImpact.IGetAirAcidification2 | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~IGetAirAcidification2.md
+R: - In-process, unmanaged C++: Pointer to an array of five doubles of kilograms of sulfur dioxide emitted as a result of material, use, transportation, manufacturing, and end of life environmental impact factors VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Before calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationOfUse
+2. ISustainabilityEnvironmentalImpact::DurationType
+3. ISustainabilityEnvironmentalImpact::UpdateResults
+<<< ISustainabilityEnvironmentalImpact.IGetCurrentCarbonFootPrint2 | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~IGetCurrentCarbonFootPrint2.md
+R: - In-process, unmanaged C++: Pointer to an array of five doubles of kilograms of carbon dioxide emitted as a result of material, use, transportation, manufacturing, and end of life environmental impact factors VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Before calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationOfUse
+2. ISustainabilityEnvironmentalImpact::DurationType
+3. ISustainabilityEnvironmentalImpact::UpdateResults
+<<< ISustainabilityEnvironmentalImpact.IGetEnergyConsumption2 | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~IGetEnergyConsumption2.md
+R: - In-process, unmanaged C++: Pointer to an array of five doubles of megajoules of energy consumed by material, use, transportation, manufacturing, and end of life environmental impact factors VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Before calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationOfUse
+2. ISustainabilityEnvironmentalImpact::DurationType
+3. ISustainabilityEnvironmentalImpact::UpdateResults
+<<< ISustainabilityEnvironmentalImpact.IGetWaterEutrophication2 | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~IGetWaterEutrophication2.md
+R: - In-process, unmanaged C++: Pointer to an array of five doubles of kilograms of phosphate released into the water as a result of material, use, transportation, manufacturing, and end of life environmental impact factors VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Before calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationOfUse
+2. ISustainabilityEnvironmentalImpact::DurationType
+3. ISustainabilityEnvironmentalImpact::UpdateResults
+<<< ISustainabilityEnvironmentalImpact.SaveAsReport | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~SaveAsReport.md
+P: FileType: Type of FileName as defined in swSustainabilitySaveAsFileType_e
+P: FileName: Base name of the file to save
+P: SaveTo: Path to FileName
+X: Before calling this method, call:
+1. ISustainabilityEnvironmentalImpact::DurationOfUse
+2. ISustainabilityEnvironmentalImpact::DurationType
+3. ISustainabilityEnvironmentalImpact::UpdateResults
+<<< ISustainabilityEnvironmentalImpact.UpdateResults | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityEnvironmentalImpact~UpdateResults.md
+X: Call this method before calling any of the following:
+- ISustainabilityEnvironmentalImpact::GetAirAcidification2
+- ISustainabilityEnvironmentalImpact::IGetAirAcidification2
+- ISustainabilityEnvironmentalImpact::GetCurrentCarbonFootPrint2
+- ISustainabilityEnvironmentalImpact::IGetCurrentCarbonFootPrint2
+- ISustainabilityEnvironmentalImpact::GetEnergyConsumption2
+- ISustainabilityEnvironmentalImpact::IGetEnergyConsumption2
+- ISustainabilityEnvironmentalImpact::GetWaterEutrophication2
+- ISustainabilityEnvironmentalImpact::IGetWaterEutrophication2
+- ISustainabilityEnvironmentalImpact::SaveAsReport
+<<< ISustainabilityManufacturing.BuiltToLast | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing~BuiltToLast.md
+R: Length of time that the part is built to last
+<<< ISustainabilityManufacturing.DurationType | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing~DurationType.md
+R: Units for ISustainabilityManufacturing::BuiltToLast as defined in swSustainabilityDurationType_e
+<<< ISustainabilityManufacturing.ManufacturingProcess | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing~ManufacturingProcess.md
+R: Manufacturing process as defined in swSustainabilityManufacturingProcessType_e
+X: Availability of the manufacturing process types depends on the value of ISustainabilityMaterial::MaterialClass. See the Sustainability Help for more information.
+<<< ISustainabilityManufacturing.ManufacturingRegion | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing~ManufacturingRegion.md
+R: Region of manufacture as defined in swSustainabilityRegionName_e
+<<< ISustainabilityManufacturing.Paint | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing~Paint.md
+R: Paint type as defined in swSustainabilityManufacturingPaintType_e
+<<< ISustainabilityManufacturing.PrimaryElectricity | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing~PrimaryElectricity.md
+R: Electricity usage in kilowatt-hours/weight units
+<<< ISustainabilityManufacturing.PrimaryNaturalGas | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing~PrimaryNaturalGas.md
+R: Natural gas usage in BTU/weight units
+<<< ISustainabilityManufacturing.PrimaryScrapRate | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing~PrimaryScrapRate.md
+R: Scrap percentage
+<<< ISustainabilityManufacturing.SurfaceArea | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityManufacturing~SurfaceArea.md
+R: Surface area in square length units
+<<< ISustainabilityMaterial.ExcludeComponent | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~ExcludeComponent.md
+P: ExcludeComponentNames: Array of the names of the assembly components to exclude from the calculation of environmental impact
+<<< ISustainabilityMaterial.GetMissingMaterialComponentCount | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~GetMissingMaterialComponentCount.md
+R: Number of assembly components missing materials
+<<< ISustainabilityMaterial.GetMissingMaterialComponentList | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~GetMissingMaterialComponentList.md
+R: Array of names of the assembly components that are missing materials
+<<< ISustainabilityMaterial.IExcludeComponent | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~IExcludeComponent.md
+P: Count: Number of assembly components in ExcludeComponentNames
+P: ExcludeComponentNames: - in-process, unmanaged C++: Pointer to an array of the names of the assembly components to exclude from the calculation of environmental impact - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+<<< ISustainabilityMaterial.IGetMissingMaterialComponentList | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~IGetMissingMaterialComponentList.md
+P: Count: Number of assembly components returned in ComponentsNames (see Remarks)
+P: ComponentsNames: - in-process, unmanaged C++: Pointer to an array of the names of the assembly components that are missing materials - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Before calling this method, call ISustainabilityMaterial::GetMissingMaterialComponentCount to assign Count.
+<<< ISustainabilityMaterial.IIncludeComponent | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~IIncludeComponent.md
+P: Count: Number of assembly components in IncludeComponentNames
+P: IncludeComponentNames: - in-process, unmanaged C++: Pointer to an array of the names of previously excluded assembly components to now include in the calculation of environmental impact - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+<<< ISustainabilityMaterial.IncludeComponent | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~IncludeComponent.md
+P: IncludeComponentNames: Array of names of previously excluded assembly components to now include in the calculation of environmental impact
+<<< ISustainabilityMaterial.ISetPropertiesForComponent | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~ISetPropertiesForComponent.md
+P: ComponentsNames: - in-process, unmanaged C++: Pointer to an array of the names of the components to which to apply material properties - VBA, VB.NET, C#, and C++/CLI: Not supported See In-process Methods for details about this type of method.
+X: Before calling this method, call ISustainabilityMaterial::IGetMissingMaterialComponentList to populate ComponentsNames with the list of all of the components that are missing material.
+This method applies the following material properties to the components specified in ComponentsNames:
+- ISustainabilityMaterial::MaterialClass
+- ISustainabilityMaterial::MaterialName
+- ISustainabilityMaterial::RecycledContent
+<<< ISustainabilityMaterial.MaterialClass | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~MaterialClass.md
+R: Name of the class of material (see Remarks)
+X: The material class specified by this property constrains the material names that can be specified by ISustainabilityMaterial::MaterialName. This property is valid only if ISustainabilityMaterial::MaterialName is set. The available material classes are stored in the SOLIDWORKS Materials database. See SOLIDWORKS Help for more information.
+This property applies only to the assembly components specified by ISustainabilityMaterial::SetPropertiesForComponent and ISustainabilityMaterial::ISetPropertiesForComponent.
+<<< ISustainabilityMaterial.MaterialName | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~MaterialName.md
+R: Name of the material (see Remarks)
+X: The material class specified by ISustainabilityMaterial::MaterialClass constrains the material names that can be specified by this property. This property is valid only if ISustainabilityMaterial::MaterialClass is set. The available material classes are stored in the SOLIDWORKS Materials database. See SOLIDWORKS Help for more information.
+This property applies only to the assembly components specified by ISustainabilityMaterial::SetPropertiesForComponent and ISustainabilityMaterial::ISetPropertiesForComponent.
+<<< ISustainabilityMaterial.RecycledContent | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~RecycledContent.md
+R: Percentage of material that can be recycled (see Remarks)
+X: This property is read-only for assembly components. For parts, you can set the recycled content of the following materials:
+| ISustainabilityMaterial::MaterialClass | ISustainabilityMaterial::MaterialName |
+| Aluminum Alloys | 356.0-T6 Permanent Mold cast |
+| Aluminum Alloys | AA356.0-F |
+<<< ISustainabilityMaterial.SetPropertiesForComponent | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~SetPropertiesForComponent.md
+P: ComponentsNames: Array of the names of the components to which to apply material properties
+X: Before calling this method, call ISustainabilityMaterial::GetMissingMaterialComponentList to populate ComponentsNames with the list of all of the components that are missing material.
+This method applies the following material properties to the components specified in ComponentsNames:
+- ISustainabilityMaterial::MaterialClass
+- ISustainabilityMaterial::MaterialName
+- ISustainabilityMaterial::RecycledContent
+<<< ISustainabilityMaterial.ViewResults | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~ViewResults.md
+X: | Before calling this method, call... | To... |
+| ISustainabilityMaterial::ExcludeComponent or ISustainabilityMaterial::IExcludeComponent | Exclude components from the environmental impact calculation |
+| ISustainabilityMaterial::IncludeComponent or ISustainabilityMaterial::IIncludeComponent | Include components that were previously excluded from the environmental impact calculation |
+| ISustainabilityMaterial::GetMissingMaterialComponentList or ISustainabilityMaterial::IGetMissingMaterialComponentList | Get the names of the components that are missing materials |
+| ISustainabilityMaterial::MaterialClass | Specify the material class |
+| ISustainabilityMaterial::MaterialName | Specify the material name |
+| ISustainabilityMaterial::SetPropertiesForComponent or ISustainabilityMaterial::ISetPropertiesForComponent | Set the specified material for the specified components |
+<<< ISustainabilityMaterial.Weight | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityMaterial~Weight.md
+R: Weight of the material
+<<< ISustainabilityTransportation.Boat | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation~Boat.md
+R: 0.0 <= Distance in kilometers or miles traveled by boat <= 100,000,000.0
+<<< ISustainabilityTransportation.Plane | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation~Plane.md
+R: 0.0 <= Distance in kilometers or miles traveled by plane <= 100,000,000.0
+<<< ISustainabilityTransportation.Train | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation~Train.md
+R: 0.0 <= Distance in kilometers or miles traveled by train <= 100,000,000.0
+<<< ISustainabilityTransportation.Truck | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityTransportation~Truck.md
+R: 0.0 <= Distance in kilometers or miles traveled by truck <= 100,000,000.0
+<<< ISustainabilityUse.Region | sustainabilityapi/SolidWorks.Interop.sustainability~SolidWorks.Interop.sustainability.ISustainabilityUse~Region.md
+R: Geographical region where the part is transported and used as defined in swSustainabilityRegionName_e

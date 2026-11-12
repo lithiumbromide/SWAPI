@@ -42,13 +42,7 @@ property System.int KnotPointsCount {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,37 +50,23 @@ Number of knots.
 
 ## VBA Syntax
 
-See
-
-[SplineParamData::KnotPointsCount](ms-its:sldworksapivb6.chm::/sldworks~SplineParamData~KnotPointsCount.html)
-
-.
+See [SplineParamData::KnotPointsCount](ms-its:sldworksapivb6.chm::/sldworks~SplineParamData~KnotPointsCount.html).
 
 ## Examples
 
 [Get BCurve Spline Points (C#)](Get_BCurve_Spline_Points_Example_CSharp.htm)
-
 [Get BCurve Spline Points (VB.NET)](Get_BCurve_Spline_Points_Example_VBNET.htm)
-
 [Get BCurve Spline Points (VBA)](Get_BCurve_Spline_Points_Example_VB.htm)
-
 [Get P-Spline Parameterization Data (C#)](Get_P-Spline_Parameterization_Data_Example_CSharp.htm)
-
 [Get P-Spline Parameterization Data (VB.NET)](Get_P-Spline_Parameterization_Data_Example_VBNET.htm)
-
 [Get P-Spline Parameterization Data (VBA)](Get_P-Spline_Parameterization_Data_Example_VB.htm)
-
 [Get Spline's Parameters (C#)](Get_Spline's_Parameters_Example_CSharp.htm)
-
 [Get Spline's Parameters (VB.NET)](Get_Spline's_Parameters_Example_VBNET.htm)
-
 [Get Spline's Parameters (VBA)](Get_Spline's_Parameters_Example_VB.htm)
 
 ## Remarks
 
 The number of knots depends on the periodicity of the spline:
-
-(Table)=========================================================
 
 | If... | Then this method returns... |
 | --- | --- |
@@ -96,11 +76,8 @@ The number of knots depends on the periodicity of the spline:
 ## See Also
 
 [ISplineParamData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData.html)
-
 [ISplineParamData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData_members.html)
-
 [ISplineParamData::GetKnotPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~GetKnotPoints.html)
-
 [ISplineParamData::IGetKnotPoints Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplineParamData~IGetKnotPoints.html)
 
 ## Availability

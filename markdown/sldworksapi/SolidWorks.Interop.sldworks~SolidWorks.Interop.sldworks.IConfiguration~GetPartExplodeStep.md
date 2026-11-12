@@ -47,21 +47,11 @@ System.Object^ GetPartExplodeStep(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Index`: Index of the explode step (see
-
-Remarks
-
-)
+- `Index`: Index of the explode step (see **Remarks**)
 
 ### Return Value
 
@@ -69,30 +59,22 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[Configuration::GetPartExplodeStep](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetPartExplodeStep.html)
-
-.
+See [Configuration::GetPartExplodeStep](ms-its:sldworksapivb6.chm::/sldworks~Configuration~GetPartExplodeStep.html).
 
 ## Remarks
 
 This method is valid only for the active configuration.
 
-Before calling this method, call[IPartDoc::ShowExploded](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ShowExploded.html)to activate the explode view of interest.
+Before calling this method, call [IPartDoc::ShowExploded](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~ShowExploded.html) to activate the explode view of interest.
 
-To specify Index, call[IConfiguration::GetNumberOfPartExplodeSteps](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetNumberOfPartExplodeSteps.html)to get the number of explode steps in the explode view.
+To specify Index, call [IConfiguration::GetNumberOfPartExplodeSteps](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetNumberOfPartExplodeSteps.html) to get the number of explode steps in the explode view.
 
 ## See Also
 
 [IConfiguration Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration.html)
-
 [IConfiguration Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration_members.html)
-
 [IConfiguration::AddPartExplodeStep Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~AddPartExplodeStep.html)
-
 [IConfiguration::DeleteExplodeStep Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~DeleteExplodeStep.html)
-
 [IConfiguration::GetCurrentPartExplodeViewName Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConfiguration~GetCurrentPartExplodeViewName.html)
 
 ## Availability

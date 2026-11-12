@@ -13,19 +13,11 @@ PDM Pro API Web Service
 
 PDM Pro API Web Service
 
-Spacing
-
-Collapse All
-
-Expand All
+Collapse All Expand All
 
 Description
 
-The PDM Professional API Web Service consists GET, POST, PUT, PATCH, and DELETE HTTP requests that you call from your web client application. You must send the authenticate request before all others. See
-
-[Getting Started](GettingStarted.html)
-
-.
+The PDM Professional API Web Service consists GET, POST, PUT, PATCH, and DELETE HTTP requests that you call from your web client application. You must send the authenticate request before all others. See [Getting Started](GettingStarted.html).
 
 Authentication
 
@@ -47,10 +39,8 @@ Configuration
 | Delete | api/{vaultName}/configuration/hooks/dll Deletes add-in hook DLLs from the specified vault. |
 | Get | api/{vaultName}/configuration/hooks/url Retrieves the list of webhooks configured in the specified vault. |
 | Post | api/{vaultName}/configuration/hooks/url Sets the webhooks for the specified vault. |
-| Get | api/configuration/fileserverroot GET: api/configuration/fileserverroot
-Get file server root path(WebAPI storage)Gets the file server root path. |
-| Post | api/configuration/fileserverroot POST: api/configuration/fileserverroot
-Add file server root pathMigrates add-ins from previous file server root to the specified new one and reloads hooks instances. |
+| Get | api/configuration/fileserverroot GET: api/configuration/fileserverroot Get file server root path(WebAPI storage)Gets the file server root path. |
+| Post | api/configuration/fileserverroot POST: api/configuration/fileserverroot Add file server root pathMigrates add-ins from previous file server root to the specified new one and reloads hooks instances. |
 | Get | api/configuration/vaults?vaultName={vaultName} GET: api/configuration/vaults Get all vaults from the config file Gets all vaults from the vault configuration file. |
 
 Data Card
@@ -72,17 +62,14 @@ Default
 
 File
 
-| Get | api/{vaultName}/files/{fileId}/{folderId}/bominfo GET: api/{VaultName}/files/{FileID}/bominfo
-Get file BOM infoGets the BOM information for the specified file. |
+| Get | api/{vaultName}/files/{fileId}/{folderId}/bominfo GET: api/{VaultName}/files/{FileID}/bominfo Get file BOM infoGets the BOM information for the specified file. |
 | --- | --- |
 | Get | api/{vaultName}/files/{fileId}/{folderId}/history Gets a specified file's history. |
 | Get | api/{vaultName}/files/{fileId}/{folderId}/moves Gets the history of moves for the specified file. |
 | Get | api/{vaultName}/files/{fileId}/{folderId}/versions GET: api/{VaultName}/files/{FileID}/versions Get file version info Gets the specified file's version information. |
 | Delete | api/{vaultName}/files/{fileId}/{folderId}?destroy={destroy} Deletes the specified file. |
-| Get | api/{vaultName}/files/{fileId}/{version}/{configId}/{folderId}/whereused?anyVersion={anyVersion} GET: api/{VaultName}/files/{FileID}/{Version}/whereused
-Get file where usedGets the parent files where the specified file is used. |
-| Get | api/{vaultName}/files/{fileId}/{version}/{configId}/whereused?folderId={folderId}&anyVersion={anyVersion} GET: api/{VaultName}/files/{FileID}/{Version}/whereused
-Get file where usedGets the parent files where the specified file is used. |
+| Get | api/{vaultName}/files/{fileId}/{version}/{configId}/{folderId}/whereused?anyVersion={anyVersion} GET: api/{VaultName}/files/{FileID}/{Version}/whereused Get file where usedGets the parent files where the specified file is used. |
+| Get | api/{vaultName}/files/{fileId}/{version}/{configId}/whereused?folderId={folderId}&anyVersion={anyVersion} GET: api/{VaultName}/files/{FileID}/{Version}/whereused Get file where usedGets the parent files where the specified file is used. |
 | Get | api/{vaultName}/files/{fileId}/{version}/{folderId} Gets information about the specified file. |
 | Get | api/{vaultName}/files/{fileId}/{version}/{folderId}/ActiveConfig Gets the active configuration for the specified file. |
 | Get | api/{vaultName}/files/{fileId}/{version}/{folderId}/allreferences?configId={configId}&includeSubParents={includeSubParents} GET: api/{VaultName}/files/{FileID}/{Version}/allreferences Get all file references Gets the reference tree of the specified file. |

@@ -1,6 +1,5 @@
 ---
-title: "SelectionMgr Object
-Members"
+title: "SelectionMgr Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SelectionMgr_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SelectionMgr_members.html"
 ---
 
-# SelectionMgr Object
-Members
+# SelectionMgr Object Members
 
 ## Public Methods
 

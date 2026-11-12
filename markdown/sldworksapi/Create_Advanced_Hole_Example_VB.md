@@ -11,7 +11,28 @@ source: "sldworksapi/Create_Advanced_Hole_Example_VB.htm"
 
 This example shows how to create an Advanced Hole feature.
 
-'---------------------------------------------------------------------------- ' Preconditions: ' 1. Verify that the specified part document exists. ' 2. Open the Immediate window. ' ' Postconditions: ' 1. Selects near and far side faces of the Advanced Hole. ' 2. Defines an Advanced Hole at a sketch point on the edge of the block ' with the following: ' * Countersink near side element ' * Straight tap near side element ' * Counterbore far side element ' * Straight hole far side element ' 3. Gets some near and far side element data for the Advanced Hole. ' 4. Modifies the near side element array to contain a tapered tap element. ' 5. Deletes the Advanced Hole's defining sketch point on the edge of the block. ' 6. Adds two sketch points and creates two Advanced Holes at those locations ' using the previously defined Advanced Hole. ' 7. Inspect the Immediate window and graphics area. ' ' NOTE: Because the model is used elsewhere, do not save changes. '----------------------------------------------------------------------------
+'----------------------------------------------------------------------------
+' Preconditions:
+' 1. Verify that the specified part document exists.
+' 2. Open the Immediate window.
+'
+' Postconditions:
+' 1. Selects near and far side faces of the Advanced Hole.
+' 2. Defines an Advanced Hole at a sketch point on the edge of the block
+' with the following:
+' * Countersink near side element
+' * Straight tap near side element
+' * Counterbore far side element
+' * Straight hole far side element
+' 3. Gets some near and far side element data for the Advanced Hole.
+' 4. Modifies the near side element array to contain a tapered tap element.
+' 5. Deletes the Advanced Hole's defining sketch point on the edge of the block.
+' 6. Adds two sketch points and creates two Advanced Holes at those locations
+' using the previously defined Advanced Hole.
+' 7. Inspect the Immediate window and graphics area.
+'
+' NOTE: Because the model is used elsewhere, do not save changes.
+'----------------------------------------------------------------------------
 
 ```vb
 Option Explicit

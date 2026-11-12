@@ -46,13 +46,7 @@ void ZoomByFactor(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -60,11 +54,7 @@ See
 
 ## VBA Syntax
 
-See
-
-[ModelView::ZoomByFactor](ms-its:sldworksapivb6.chm::/sldworks~ModelView~ZoomByFactor.html)
-
-.
+See [ModelView::ZoomByFactor](ms-its:sldworksapivb6.chm::/sldworks~ModelView~ZoomByFactor.html).
 
 ## Examples
 
@@ -77,5 +67,4 @@ The zoom factor should be in the range 0.0 < factor < 2.0. For factor greater th
 ## See Also
 
 [IModelView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView.html)
-
 [IModelView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelView_members.html)

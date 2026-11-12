@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Body_Outline_Example_VB.htm"
 
 # Get Body Outline Example (VBA)
 
-This example shows how to get the outline of a solid body.
-This example also creates and inserts a sketch of that outline.
+This example shows how to get the outline of a solid body. This example also creates and inserts a sketch of that outline.
 
 ```vb
  '-----------------------------------------------------

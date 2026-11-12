@@ -9,8 +9,7 @@ source: "sldworksapi/Set_Rounding_of_Decimal_Units_in_Display_Dimensions_Example
 
 # Set Rounding of Decimal Units in Display Dimensions (VBA)
 
-This example shows how to specify the rounding of decimal units in display
-dimensions.
+This example shows how to specify the rounding of decimal units in display dimensions.
 
 ```vb
 '----------------------------------------------------------------------------

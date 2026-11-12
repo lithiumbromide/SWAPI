@@ -9,13 +9,9 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVe
 
 # IVertex Interface
 
-Represents the start or end of an
+Represents the start or end of an [edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html).
 
-[edge](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge.html)
-
-.
-
-**NOTE:**Click the**Members**link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -45,20 +41,13 @@ public interface class IVertex
 
 ## VBA Syntax
 
-See
-
-[Vertex](ms-its:sldworksapivb6.chm::/sldworks~Vertex.html)
-
-.
+See [Vertex](ms-its:sldworksapivb6.chm::/sldworks~Vertex.html).
 
 ## Examples
 
 [Display Vertices (VBA)](Display_Vertices_Example_VB.htm)
-
 [Get Maximum Edge and Vertex Gaps (VBA)](Get_Maximum_Edge_and_Vertex_Gaps_Example_VB.htm)
-
 [Get Maximum Edge and Vertex Gaps (VB.NET)](Get_Maximum_Edge_and_Vertex_Gaps_Example_VBNET.htm)
-
 [Get Maximum Edge and Vertex Gaps (C#)](Get_Maximum_Edge_and_Vertex_Gaps_Example_CSharp.htm)
 
 ## Remarks
@@ -71,9 +60,9 @@ This interface allows you to get the associated edges in an enumerated list or t
 
 [IBeltChainFeatureData::BeltLocationPlane](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBeltChainFeatureData~BeltLocationPlane.html)
 
-[IBody2::AddVertexPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddVertexPoint.html)and[IBody2::IAddVertexPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddVertexPoint.html)
+[IBody2::AddVertexPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~AddVertexPoint.html) and [IBody2::IAddVertexPoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IAddVertexPoint.html)
 
-[IBody2::GetVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetVertices.html)and[IBody2::IGetVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetVertices.html)
+[IBody2::GetVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~GetVertices.html) and [IBody2::IGetVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IBody2~IGetVertices.html)
 
 [ICamFollowerMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamFollowerMateFeatureData~EntitiesToMate.html)
 
@@ -85,15 +74,15 @@ This interface allows you to get the associated edges in an enumerated list or t
 
 [IChainPatternFeatureData::Group2PathLink2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IChainPatternFeatureData~Group2PathLink2.html)
 
-[IChamferFeatureData2::Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~Vertex.html)and[IChamferFeatureData2::IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~IVertex.html)
+[IChamferFeatureData2::Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~Vertex.html) and [IChamferFeatureData2::IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IChamferFeatureData2~IVertex.html)
 
 [ICoincidentMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICoincidentMateFeatureData~EntitiesToMate.html)
 
 [IConcentricMateFeatureData::EntitiesToMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConcentricMateFeatureData~EntitiesToMate.html)
 
-[IEdge::GetEndVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetEndVertex.html)and[IEdge::IGetEndVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetEndVertex.html)
+[IEdge::GetEndVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetEndVertex.html) and [IEdge::IGetEndVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetEndVertex.html)
 
-[IEdge::GetStartVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetStartVertex.html)and[IEdge::IGetStartVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetStartVertex.html)
+[IEdge::GetStartVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~GetStartVertex.html) and [IEdge::IGetStartVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEdge~IGetStartVertex.html)
 
 [IFacet::GetFacetVertices](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFacet~GetFacetVertices.html)
 
@@ -121,9 +110,9 @@ This interface allows you to get the associated edges in an enumerated list or t
 
 [ILocalLinearPatternFeatureData::D2EndSeedReference](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILocalLinearPatternFeatureData~D2EndSeedReference.html)
 
-[ILoop2::GetVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~GetVertices.html)and[ILoop2::IGetVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IGetVertices.html)
+[ILoop2::GetVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~GetVertices.html) and [ILoop2::IGetVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoop2~IGetVertices.html)
 
-[IModeler::ImprintingFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ImprintingFaces.html)and[IModeler::IImprintingFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IImprintingFaces.html)
+[IModeler::ImprintingFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~ImprintingFaces.html) and [IModeler::IImprintingFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModeler~IImprintingFaces.html)
 
 [IMoveCopyBodyFeatureData::TransofrmReferenceEntity](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMoveCopyBodyFeatureData~TransformReferenceEntity.html)
 
@@ -137,11 +126,11 @@ This interface allows you to get the associated edges in an enumerated list or t
 
 [ISecondaryMemberUpToMembersFeatureData::GetPointMemberPairs](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISecondaryMemberUpToMembersFeatureData~GetPointMemberPairs.html)
 
-[ISimpleFilletFeatureData2::GetSetbackVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~GetSetbackVertices.html)and[ISimpleFilletFeatureData2::IGetSetbackVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IGetSetbackVertices.html)
+[ISimpleFilletFeatureData2::GetSetbackVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~GetSetbackVertices.html) and [ISimpleFilletFeatureData2::IGetSetbackVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleFilletFeatureData2~IGetSetbackVertices.html)
 
 [ISimpleFilletFeatureData2::HelpPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~HelpPoint.html)
 
-[ISimpleHoleFeatureData2::Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~Vertex.html)and[ISimpleHoleFeatureData2::IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~IVertex.html)
+[ISimpleHoleFeatureData2::Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~Vertex.html) and [ISimpleHoleFeatureData2::IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISimpleHoleFeatureData2~IVertex.html)
 
 [ISketchPatternFeatureData::ReferencePoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPatternFeatureData~ReferencePoint.html)
 
@@ -151,7 +140,7 @@ This interface allows you to get the associated edges in an enumerated list or t
 
 [ISurfaceFlattenFeatureData::FixPointVertex](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurfaceFlattenFeatureData~FixPointVertex.html)
 
-[ISurfExtrudeFeatureData::GetVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfExtrudeFeatureData~GetVertex.html)and[ISurfExtrudeFeatureData::IGetVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfExtrudeFeatureData~IGetVertex.html)
+[ISurfExtrudeFeatureData::GetVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfExtrudeFeatureData~GetVertex.html) and [ISurfExtrudeFeatureData::IGetVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISurfExtrudeFeatureData~IGetVertex.html)
 
 [ISweepFeatureData::EndDirectionVector](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISweepFeatureData~EndDirectionVector.html)
 
@@ -173,9 +162,9 @@ This interface allows you to get the associated edges in an enumerated list or t
 
 [IUniversalJointMateFeatureData::JointPoint](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IUniversalJointMateFeatureData~JointPoint.html)
 
-[IVariableFilletFeatureData2::GetSetbackVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetSetbackVertices.html)and[IVariableFilletFeatureData2::IGetSetbackVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~IGetSetbackVertices.html)
+[IVariableFilletFeatureData2::GetSetbackVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~GetSetbackVertices.html) and [IVariableFilletFeatureData2::IGetSetbackVertices](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IVariableFilletFeatureData2~IGetSetbackVertices.html)
 
-[IWizardHoleFeatureData2::Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~Vertex.html)and[IWizardHoleFeatureData2::IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~IVertex.html)
+[IWizardHoleFeatureData2::Vertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~Vertex.html) and [IWizardHoleFeatureData2::IVertex](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWizardHoleFeatureData2~IVertex.html)
 
 ## Access Diagram
 
@@ -184,5 +173,4 @@ This interface allows you to get the associated edges in an enumerated list or t
 ## See Also
 
 [IVertex Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IVertex_members.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

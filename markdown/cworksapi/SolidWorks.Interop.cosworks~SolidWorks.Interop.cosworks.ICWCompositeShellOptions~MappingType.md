@@ -47,30 +47,19 @@ property System.int MappingType {
 
 ### Property Value
 
-Ply angle direction reference mapping as defined in
-
-[swsCompositeShellOptionsMappingType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsMappingType_e.html)
+Ply angle direction reference mapping as defined in [swsCompositeShellOptionsMappingType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsCompositeShellOptionsMappingType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWCompositeShellOptions::MappingType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~MappingType.html)
-
-.
+See [CWCompositeShellOptions::MappingType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWCompositeShellOptions~MappingType.html).
 
 ## Examples
 
-See the
-
-[ICWCompositeShellOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
-examples.
+See the [ICWCompositeShellOptions](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html) examples.
 
 ## See Also
 
 [ICWCompositeShellOptions Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions.html)
-
 [ICWCompositeShellOptions Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWCompositeShellOptions_members.html)
 
 ## Availability

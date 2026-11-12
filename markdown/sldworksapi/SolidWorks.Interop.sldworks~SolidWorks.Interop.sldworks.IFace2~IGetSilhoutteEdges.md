@@ -51,13 +51,7 @@ Edge^ IGetSilhoutteEdges(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,26 +64,24 @@ See
 
 VBA, VB.NET, C#, and C++/CLI: Not supported
 
-See[In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm)for details about this type of method.
+See [In-process Methods](sldworksapiprogguide.chm::/OVERVIEW/In-process_Methods.htm) for details about this type of method.
 
 ## Remarks
 
-These edges are not added to the face and cannot be found using[IFace2::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetEdges.html). They are created and handed back to the caller as an array of edges packed with edges.
+These edges are not added to the face and cannot be found using [IFace2::IGetEdges](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetEdges.html). They are created and handed back to the caller as an array of edges packed with edges.
 
 The vector root point (root) and a vector direction (normal) define the orientation for the silhouette edge creation.
 
 The return array has two elements for each edge: the first is the silhouette edge and the second is not used. To iterate through the edges, an application needs to step through every second element.
 
-Before calling this method, call[IFace2::IGetSilhoutteEdgeCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetSilhoutteEdgeCount.html)to get the size of array required to hold the edges.
+Before calling this method, call [IFace2::IGetSilhoutteEdgeCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IGetSilhoutteEdgeCount.html) to get the size of array required to hold the edges.
 
 The returned edges are transient and cannot be selected.
 
 ## See Also
 
 [IFace2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2.html)
-
 [IFace2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2_members.html)
-
 [IFace2::GetSilhoutteEdgesVB Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace2~GetSilhoutteEdgesVB.html)
 
 ## Availability

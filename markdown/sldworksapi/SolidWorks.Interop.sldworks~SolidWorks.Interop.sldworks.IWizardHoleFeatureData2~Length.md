@@ -45,13 +45,7 @@ property System.double Length {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,18 +53,12 @@ Length of slot
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::Length](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~Length.html)
-
-.
+See [WizardHoleFeatureData2::Length](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~Length.html).
 
 ## Examples
 
 [Insert Hole Wizard Slot and Hole (C#)](Insert_Hole_Wizard_Slot_and_Hole_Example_CSharp.htm)
-
 [Insert Hole Wizard Slot and Hole (VB.NET)](Insert_Hole_Wizard_Slot_and_Hole_Example_VBNET.htm)
-
 [Insert Hole Wizard Slot and Hole (VBA)](Insert_Hole_Wizard_Slot_and_Hole_Example_VB.htm)
 
 ## Remarks
@@ -80,7 +68,6 @@ This property is only valid for slots.
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
 
 ## Availability

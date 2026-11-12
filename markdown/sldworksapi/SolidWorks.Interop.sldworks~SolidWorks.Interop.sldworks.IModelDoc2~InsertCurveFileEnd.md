@@ -40,13 +40,7 @@ System.bool InsertCurveFileEnd()
 System.bool InsertCurveFileEnd();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if curve is created successfully, false if not
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::InsertCurveFileEnd](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertCurveFileEnd.html)
-
-.
+See [ModelDoc2::InsertCurveFileEnd](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~InsertCurveFileEnd.html).
 
 ## Examples
 
 [Insert Free Point Curve Feature (C#)](Insert_Free_Point_Curve_Feature_Example_CSharp.htm)
-
 [Insert Free Point Curve Feature (VB.NET)](Insert_Free_Point_Curve_Feature_Example_VBNET.htm)
-
 [Insert Free Point Curve Feature (VBA)](Insert_Free_Point_Curve_Feature_Example_VB.htm)
 
 ## Remarks
@@ -73,24 +61,14 @@ See
 This method:
 
 - is the last method called to create a curve.
-- and
-
-  [IModelDoc2::InsertCurveFileBegin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertCurveFileBegin.html)
-
-  must enclose all of the calls to
-
-  [IModelDoc2::InsertCurveFilePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertCurveFilePoint.html)
-
-  .
+- and [IModelDoc2::InsertCurveFileBegin](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertCurveFileBegin.html) must enclose all of the calls to [IModelDoc2::InsertCurveFilePoint](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~InsertCurveFilePoint.html).
 
 See the examples.
 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [IModelDoc2::InsertCurveFile Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2~InsertCurveFile.html)
 
 ## Availability

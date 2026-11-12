@@ -46,27 +46,15 @@ void Clone(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Ppenum`: Pointer to the cloned
-
-[sketch segments enumeration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumSketchSegments.html)
+- `Ppenum`: Pointer to the cloned [sketch segments enumeration](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IEnumSketchSegments.html)
 
 ## VBA Syntax
 
-See
-
-[EnumSketchSegments::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchSegments~Clone.html)
-
-.
+See [EnumSketchSegments::Clone](ms-its:sldworksapivb6.chm::/sldworks~EnumSketchSegments~Clone.html).
 
 ## Remarks
 
@@ -75,7 +63,6 @@ For use in in-process DLLs only.
 ## See Also
 
 [IEnumSketchSegments Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchSegments.html)
-
 [IEnumSketchSegments Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEnumSketchSegments_members.html)
 
 ## Availability

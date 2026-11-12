@@ -42,36 +42,25 @@ System.int PinConnectorEndEdit();
 
 ### Return Value
 
-Error as defined in[swsPinConnectorEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPinConnectorEndEditError_e.html)
+Error as defined in [swsPinConnectorEndEditError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsPinConnectorEndEditError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWPinConnector::PinConnectorEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~PinConnectorEndEdit.html)
-
-.
+See [CWPinConnector::PinConnectorEndEdit](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPinConnector~PinConnectorEndEdit.html).
 
 ## Examples
 
 [Create and Edit Bolt and Pin Connectors (VBA)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VB.htm)
-
 [Create and Edit Bolt and Pin Connectors (VB.NET)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_VBNET.htm)
-
 [Create and Edit Bolt and Pin Connectors (C#)](Create_and_Edit_Bolt_and_Pin_Connectors_Example_CSharp.htm)
 
 ## Remarks
 
-You must call
-
-[ICWPinConnector::PinConnectorBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWPinConnector~PinConnectorBeginEdit.html)
-
-to start editing a pin connector. To end editing a pin connector, you must call this method. Changes are not applied unless you call both methods.
+You must call [ICWPinConnector::PinConnectorBeginEdit](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWPinConnector~PinConnectorBeginEdit.html) to start editing a pin connector. To end editing a pin connector, you must call this method. Changes are not applied unless you call both methods.
 
 ## See Also
 
 [ICWPinConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector.html)
-
 [ICWPinConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPinConnector_members.html)
 
 ## Availability

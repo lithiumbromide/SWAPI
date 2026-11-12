@@ -48,24 +48,17 @@ property CWBeamManager^ BeamManager {
 
 ## VBA Syntax
 
-See
-
-[CWStudy::BeamManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~BeamManager.html)
-
-.
+See [CWStudy::BeamManager](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWStudy~BeamManager.html).
 
 ## Examples
 
 [Get and Set Beams and Joints (C#)](Get_and_Set_Beams_and_Joints_Example_CSharp.htm)
-
 [Get and Set Beams and Joints (VB.NET)](Get_and_Set_Beams_and_Joints_Example_VBNET.htm)
-
 [Get and Set Beams and Joints (VBA)](Get_and_Set_Beams_and_Joints_Example_VB.htm)
 
 ## See Also
 
 [ICWStudy Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy.html)
-
 [ICWStudy Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWStudy_members.html)
 
 ## Availability

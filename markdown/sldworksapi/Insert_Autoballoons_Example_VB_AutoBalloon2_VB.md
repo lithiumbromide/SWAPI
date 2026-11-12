@@ -11,8 +11,7 @@ source: "sldworksapi/Insert_Autoballoons_Example_VB_AutoBalloon2_VB.htm"
 
 ## Insert Autoballoons Example (VBA)
 
-This example shows how to insert autoballoons in a drawing document
-using the now obsolete method IDrawingDoc::AutoBalloon2.
+This example shows how to insert autoballoons in a drawing document using the now obsolete method IDrawingDoc::AutoBalloon2.
 
 ```
 '------------------------------------------------------------------

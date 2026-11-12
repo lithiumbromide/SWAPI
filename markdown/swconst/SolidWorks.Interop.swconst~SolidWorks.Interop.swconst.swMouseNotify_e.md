@@ -61,19 +61,16 @@ To receive notifications, a DLL application must register for the notifications 
 
 For example, in the file in the Visual C++ 6.0 wizard-generated add-in that supports mouse events (e.g., Mouse.h), include:
 
+```vb
 DECLARE_REGISTRY_RESOURCEID(IDR_MOUSE)
-
 BEGIN_SINK_MAP(CMouse)
-
 SINK_ENTRY_EX(ID_MOUSE_EVENTS, DIID_DMouseEvents, swMouseMoveNotify, MouseMoveNotify)
-
 SINK_ENTRY_EX(ID_MOUSE_EVENTS, DIID_DMouseEvents, swMouseSelectNotify, MouseSelectNotify)
-
 SINK_ENTRY_EX(ID_MOUSE_EVENTS, DIID_DMouseEvents, swMouseLBtnDownNotify, MouseLBtnDownNotify)
-
 END_SINK_MAP()
+```
 
-If developing a C++ application, use these enumerators to[register for notifications](sldworksapiprogguide.chm::/overview/events.htm)for the[IMouse](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMouse.html)events.
+If developing a C++ application, use these enumerators to [register for notifications](sldworksapiprogguide.chm::/Overview/events.htm) for the [IMouse](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IMouse.html) events.
 
 ## See Also
 

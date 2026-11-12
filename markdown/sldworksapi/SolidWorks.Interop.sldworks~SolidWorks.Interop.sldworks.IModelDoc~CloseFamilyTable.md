@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # CloseFamilyTable Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::CloseFamilyTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CloseFamilyTable.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::CloseFamilyTable](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~CloseFamilyTable.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void CloseFamilyTable()
 void CloseFamilyTable();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::CloseFamilyTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CloseFamilyTable.html)
-
-.
+See [ModelDoc::CloseFamilyTable](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~CloseFamilyTable.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEx
 
 # IExportPdfData Interface Members
 
-The following tables list the members exposed by[IExportPdfData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData.html).
+The following tables list the members exposed by [IExportPdfData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData.html).
 
 ## Public Properties
 
@@ -33,5 +33,4 @@ The following tables list the members exposed by[IExportPdfData](SolidWorks.Inte
 ## See Also
 
 [IExportPdfData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IExportPdfData.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)

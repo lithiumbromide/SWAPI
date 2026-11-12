@@ -45,47 +45,29 @@ property System.bool Warn {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
 True to display a warning when invalid information is encountered in the design table when updating the design table, false to not
 
-EndOLEPropertyRow
-
 ## VBA Syntax
 
-See
-
-[DesignTable::Warn](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~Warn.html)
-
-.
+See [DesignTable::Warn](ms-its:sldworksapivb6.chm::/sldworks~DesignTable~Warn.html).
 
 ## Remarks
 
-If information is entered to the left of the parameters row or below the configuration name column, then the SOLIDWORKS software warns of an invalid value and stops processing the design table without completing the remaining rows and columns. If this happens, some configurations do not update properly.
+If information is entered to the left of the parameters row or below the configuration name column, then the SOLIDWORKS Design software warns of an invalid value and stops processing the design table without completing the remaining rows and columns. If this happens, some configurations do not update properly.
 
 You must call:
 
-- [IDesignTable::EditFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~EditFeature.html)
-
-  before setting this property.
-- [IDesignTable::UpdateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~UpdateFeature.html)
-
-  after setting this property.
+- [IDesignTable::EditFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~EditFeature.html) before setting this property.
+- [IDesignTable::UpdateFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~UpdateFeature.html) after setting this property.
 
 ## See Also
 
 [IDesignTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable.html)
-
 [IDesignTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable_members.html)
-
 [IDesignTable::UpdateTable Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDesignTable~UpdateTable.html)
 
 ## Availability

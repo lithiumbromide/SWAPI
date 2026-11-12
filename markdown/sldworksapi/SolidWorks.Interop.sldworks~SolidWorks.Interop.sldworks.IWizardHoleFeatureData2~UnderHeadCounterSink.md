@@ -45,13 +45,7 @@ property System.bool UnderHeadCounterSink {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,20 +53,13 @@ True if an underhead counter sink, false if not
 
 ## VBA Syntax
 
-See
-
-[WizardHoleFeatureData2::UnderHeadCounterSink](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~UnderHeadCounterSink.html)
-
-.
+See [WizardHoleFeatureData2::UnderHeadCounterSink](ms-its:sldworksapivb6.chm::/sldworks~WizardHoleFeatureData2~UnderHeadCounterSink.html).
 
 ## See Also
 
 [IWizardHoleFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2.html)
-
 [IWizardHoleFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2_members.html)
-
 [IWizardHoleFeatureData2::UnderHeadCounterSinkAngle Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~UnderHeadCounterSinkAngle.html)
-
 [IWizardHoleFeatureData2::UnderHeadCounterSinkDiameter Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWizardHoleFeatureData2~UnderHeadCounterSinkDiameter.html)
 
 ## Availability

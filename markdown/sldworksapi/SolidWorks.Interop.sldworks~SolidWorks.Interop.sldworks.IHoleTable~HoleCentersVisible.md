@@ -45,13 +45,7 @@ property System.bool HoleCentersVisible {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,16 +53,11 @@ True if the hole center marks are visible, false if not
 
 ## VBA Syntax
 
-See
-
-[HoleTable::HoleCentersVisible](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~HoleCentersVisible.html)
-
-.
+See [HoleTable::HoleCentersVisible](ms-its:sldworksapivb6.chm::/sldworks~HoleTable~HoleCentersVisible.html).
 
 ## See Also
 
 [IHoleTable Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable.html)
-
 [IHoleTable Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHoleTable_members.html)
 
 ## Availability

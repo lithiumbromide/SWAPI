@@ -9,11 +9,7 @@ source: "swutilitiesapi/SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtsw
 
 # CompareFeatures Method (ICompareFeature)
 
-Obsolete. Superseded by
-
-[ICompareFeature::CompareFeatures2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareFeature~CompareFeatures2.html)
-
-.
+Obsolete. Superseded by [ICompareFeature::CompareFeatures2](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.ICompareFeature~CompareFeatures2.html).
 
 ## Syntax
 
@@ -72,14 +68,9 @@ System.int CompareFeatures(
 
 ## VBA Syntax
 
-See
-
-[ICompareFeature::CompareFeatures](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareFeature~CompareFeatures.html)
-
-.
+See [ICompareFeature::CompareFeatures](ms-its:swutilitiesapivb6.chm::/swutilities~ICompareFeature~CompareFeatures.html).
 
 ## See Also
 
 [ICompareFeature Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareFeature.html)
-
 [ICompareFeature Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.ICompareFeature_members.html)

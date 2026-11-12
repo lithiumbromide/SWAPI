@@ -42,13 +42,7 @@ property MathTransform^ BlockToSketchTransform {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,18 +50,12 @@ See
 
 ## VBA Syntax
 
-See
-
-[SketchBlockInstance::BlockToSketchTransform](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~BlockToSketchTransform.html)
-
-.
+See [SketchBlockInstance::BlockToSketchTransform](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockInstance~BlockToSketchTransform.html).
 
 ## See Also
 
 [ISketchBlockInstance Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance.html)
-
 [ISketchBlockInstance Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance_members.html)
-
 [ISketchBlockInstance::GetSketch Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockInstance~GetSketch.html)
 
 ## Availability

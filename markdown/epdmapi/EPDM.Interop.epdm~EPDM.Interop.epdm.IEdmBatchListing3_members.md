@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3_members.h
 
 # IEdmBatchListing3 Interface Members
 
-The following tables list the members exposed by[IEdmBatchListing3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3.html).
+The following tables list the members exposed by [IEdmBatchListing3](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3.html).
 
 ## Public Methods
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[IEdmBatchListing3](EPDM.Interop
 ## See Also
 
 [IEdmBatchListing3 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmBatchListing3.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

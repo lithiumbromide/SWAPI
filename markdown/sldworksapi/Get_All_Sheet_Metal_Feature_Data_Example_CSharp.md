@@ -9,8 +9,7 @@ source: "sldworksapi/Get_All_Sheet_Metal_Feature_Data_Example_CSharp.htm"
 
 # Get All Sheet Metal Feature Data Example (C#)
 
-This example shows how to get all of the sheet metal part's feature
-data.
+This example shows how to get all of the sheet metal part's feature data.
 
 ```vb
  //---------------------------------------------------------------------------

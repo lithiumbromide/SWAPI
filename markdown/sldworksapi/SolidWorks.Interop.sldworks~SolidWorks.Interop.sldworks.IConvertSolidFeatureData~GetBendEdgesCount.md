@@ -40,13 +40,7 @@ System.int GetBendEdgesCount()
 System.int GetBendEdgesCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,26 +48,16 @@ Number of bend edges
 
 ## VBA Syntax
 
-See
-
-[ConvertSolidFeatureData::GetBendEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~GetBendEdgesCount.html)
-
-.
+See [ConvertSolidFeatureData::GetBendEdgesCount](ms-its:sldworksapivb6.chm::/sldworks~ConvertSolidFeatureData~GetBendEdgesCount.html).
 
 ## Examples
 
-See the
-
-[IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
-examples.
+See the [IConvertSolidFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html) examples.
 
 ## See Also
 
 [IConvertSolidFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData.html)
-
 [IConvertSolidFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData_members.html)
-
 [IConvertSolidFeatureData::BendEdges Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IConvertSolidFeatureData~BendEdges.html)
 
 ## Availability

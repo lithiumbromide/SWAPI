@@ -45,13 +45,7 @@ property System.bool Direction {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True reverses the direction, false does not
 
 ## VBA Syntax
 
-See
-
-[LoftedBendsFeatureData::Direction](ms-its:sldworksapivb6.chm::/sldworks~LoftedBendsFeatureData~Direction.html)
-
-.
+See [LoftedBendsFeatureData::Direction](ms-its:sldworksapivb6.chm::/sldworks~LoftedBendsFeatureData~Direction.html).
 
 ## Examples
 
-See examples for
-
-[ILoftedBendsFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData.html)
-
-.
+See examples for [ILoftedBendsFeatureData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILoftedBendsFeatureData.html).
 
 ## See Also
 
 [ILoftedBendsFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData.html)
-
 [ILoftedBendsFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILoftedBendsFeatureData_members.html)
 
 ## Availability

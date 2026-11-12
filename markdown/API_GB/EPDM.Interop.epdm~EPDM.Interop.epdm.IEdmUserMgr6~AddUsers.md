@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6~AddUsers.html"
 
 # AddUsers Method (IEdmUserMgr6)
 
-Obsolete. Superseded by
-
-[IEdmUserMgr7::AddUsers2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddUsers2.html)
-
-.
+Obsolete. Superseded by [IEdmUserMgr7::AddUsers2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddUsers2.html).
 
 ## Syntax
 
@@ -43,15 +39,11 @@ void AddUsers(
 
 ### Parameters
 
-- `ppoUserData`: Array of
-
-[EdmUserData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData.html)
-
-structures; one structure for each user
+- `ppoUserData`: Array of [EdmUserData](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUserData.html) structures; one structure for each user
 
 ## Remarks
 
-This method is superseded by[IEdmUserMgr7::AddUsers2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddUsers2.html)which allows you to specify system permissions.
+This method is superseded by [IEdmUserMgr7::AddUsers2](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr7~AddUsers2.html) which allows you to specify system permissions.
 
 [Return codes:](ReturnCodes.htm)
 
@@ -60,7 +52,6 @@ This method is superseded by[IEdmUserMgr7::AddUsers2](EPDM.Interop.epdm~EPDM.Int
 ## See Also
 
 [IEdmUserMgr6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6.html)
-
 [IEdmUserMgr6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmUserMgr6_members.html)
 
 ## Availability

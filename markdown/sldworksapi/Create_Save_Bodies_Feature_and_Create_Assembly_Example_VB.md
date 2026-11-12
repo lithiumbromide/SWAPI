@@ -9,8 +9,7 @@ source: "sldworksapi/Create_Save_Bodies_Feature_and_Create_Assembly_Example_VB.h
 
 # Create Save Bodies Feature and Create an Assembly Example (VBA)
 
-This example shows how to create a save bodies feature, create part documents
-with the save bodies, and create an assembly with the parts.
+This example shows how to create a save bodies feature, create part documents with the save bodies, and create an assembly with the parts.
 
 ```vb
   '--------------------------------------------------------------------------------

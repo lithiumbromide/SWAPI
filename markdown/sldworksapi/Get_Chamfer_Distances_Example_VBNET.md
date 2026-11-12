@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Chamfer_Distances_Example_VBNET.htm"
 
 # Get Chamfer Distances Example (VB.NET)
 
-This example shows how to get the distances associated with the selected
-chamfer.
+This example shows how to get the distances associated with the selected chamfer.
 
 ```vb
  '----------------------------------------------------------------------------

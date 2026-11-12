@@ -9,7 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFa
 
 # ICWFatigueEvent Interface Methods
 
-For a list of all members of this type, see[ICWFatigueEvent members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html).
+For a list of all members of this type, see [ICWFatigueEvent members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent_members.html).
 
 ## Public Methods
 
@@ -28,5 +28,4 @@ For a list of all members of this type, see[ICWFatigueEvent members](SolidWorks.
 ## See Also
 
 [ICWFatigueEvent Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWFatigueEvent.html)
-
 [SolidWorks.Interop.cosworks Namespace](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks_namespace.html)

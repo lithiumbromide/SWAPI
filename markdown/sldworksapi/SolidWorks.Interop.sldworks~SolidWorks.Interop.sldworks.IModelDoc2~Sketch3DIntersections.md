@@ -39,21 +39,11 @@ void Sketch3DIntersections()
 void Sketch3DIntersections();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc2::Sketch3DIntersections](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Sketch3DIntersections.html)
-
-.
+See [ModelDoc2::Sketch3DIntersections](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc2~Sketch3DIntersections.html).
 
 ## Remarks
 
@@ -64,13 +54,9 @@ If the active sketch is a 2D sketch and the intersection curves are not in that 
 ## See Also
 
 [IModelDoc2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2.html)
-
 [IModelDoc2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc2_members.html)
-
 [ISurface::GetIntersectCurveCount2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~GetIntersectCurveCount2.html)
-
 [ISurface::IIntersectCurve2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IIntersectCurve2.html)
-
 [ISurface::IntersectCurve2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface~IntersectCurve2.html)
 
 ## Availability

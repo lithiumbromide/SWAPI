@@ -45,13 +45,7 @@ property System.double MaximumAngle {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,34 +53,20 @@ Maximum angle in radians
 
 ## VBA Syntax
 
-See
-
-[AngleMateFeatureData::MaximumAngle](ms-its:sldworksapivb6.chm::/sldworks~AngleMateFeatureData~MaximumAngle.html)
-
-.
+See [AngleMateFeatureData::MaximumAngle](ms-its:sldworksapivb6.chm::/sldworks~AngleMateFeatureData~MaximumAngle.html).
 
 ## Examples
 
-See the
-
-[IAngleMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html)
-
-examples.
+See the [IAngleMateFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html) examples.
 
 ## Remarks
 
-This property is valid only if
-
-[IAngleMateFeatureData::IsAdvancedMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData~IsAdvancedMate.html)
-
-is set to true.
+This property is valid only if [IAngleMateFeatureData::IsAdvancedMate](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData~IsAdvancedMate.html) is set to true.
 
 ## See Also
 
 [IAngleMateFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData.html)
-
 [IAngleMateFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData_members.html)
-
 [IAngleMateFeatureData::Angle Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAngleMateFeatureData~Angle.html)
 
 ## Availability

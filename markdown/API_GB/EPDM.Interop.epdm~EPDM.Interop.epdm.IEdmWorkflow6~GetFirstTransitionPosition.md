@@ -33,19 +33,16 @@ IEdmPos5^ GetFirstTransitionPosition();
 
 ### Return Value
 
-[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html)
-
-; position of the first workflow state transition in the enumeration
+[IEdmPos5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmPos5.html); position of the first workflow state transition in the enumeration
 
 ## Examples
 
 [Graph a Workflow (VB.NET)](Graph_Workflow_Example_VBNET.htm)
-
 [Graph a Workflow (C#)](Graph_Workflow_Example_CSharp.htm)
 
 ## Remarks
 
-After calling this method, pass the returned position of the first workflow state transition to[IEdmWorkflow6::GetNextTransition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetNextTransition.html)to get the first workflow state transition in this list. Then call IEdmWorkflow6::GetNextTransition repeatedly to get the rest of the workflow state transitions.
+After calling this method, pass the returned position of the first workflow state transition to [IEdmWorkflow6::GetNextTransition](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6~GetNextTransition.html) to get the first workflow state transition in this list. Then call IEdmWorkflow6::GetNextTransition repeatedly to get the rest of the workflow state transitions.
 
 C++ users not using smart-pointer wrapper functions must release the returned interface, IEdmPos5.
 
@@ -56,7 +53,6 @@ C++ users not using smart-pointer wrapper functions must release the returned in
 ## See Also
 
 [IEdmWorkflow6 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6.html)
-
 [IEdmWorkflow6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmWorkflow6_members.html)
 
 ## Availability

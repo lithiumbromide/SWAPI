@@ -9,8 +9,7 @@ source: "sldworksapi/Add_Equations_Example_CSharp.htm"
 
 # Add and Modify Equations Example (C#)
 
-This example shows how to add equations to multiple configurations of a part
-created in SOLIDWORKS 2014 or later.
+This example shows how to add equations to multiple configurations of a part created in SOLIDWORKS 2014 or later.
 
 ```vb
  //----------------------------------------------------------------------------

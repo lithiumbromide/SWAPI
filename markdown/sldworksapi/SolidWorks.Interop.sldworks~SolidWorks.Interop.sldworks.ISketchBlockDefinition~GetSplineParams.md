@@ -40,37 +40,21 @@ System.object GetSplineParams()
 System.Object^ GetSplineParams();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of doubles, containing spline parameters (see
-
-Remarks
-
-)
+Array of doubles, containing spline parameters (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[SketchBlockDefinition::GetSplineParams](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetSplineParams.html)
-
-.
+See [SketchBlockDefinition::GetSplineParams](ms-its:sldworksapivb6.chm::/sldworks~SketchBlockDefinition~GetSplineParams.html).
 
 ## Remarks
 
 The return value is an array of doubles containing data for all the splines in the sketch block definitioni.
 
 The first two array elements for each spline contain 4 integer values holding information that describes the rest of the data in that splines parameters:
-
-(Table)=========================================================
 
 | Spline Element | Packed Data |  |
 | --- | --- | --- |
@@ -79,22 +63,18 @@ The first two array elements for each spline contain 4 integer values holding in
 
 where:
 
-- Dimis the number of dimensions the spline is defined in
-- Orderis the order of the spline
-- nCtrlPointsis the number of control points
-- Periodicis 1 for a closed spline or 0 for an open spline
+- Dim is the number of dimensions the spline is defined in
+- Order is the order of the spline
+- nCtrlPoints is the number of control points
+- Periodic is 1 for a closed spline or 0 for an open spline
 
 The number of knots depends on whether the spline is periodic or not:
-
-(Table)=========================================================
 
 | Periodic: | numKnots = nCtrlPoints + 1 |
 | --- | --- |
 | Non-Periodic: | numKnots = nCtrlPoints + Order |
 
 The last three array elements for each spline contain 5 integer values holding style and layer information:
-
-(Table)=========================================================
 
 | Spline Element | Packed Data |  |
 | --- | --- | --- |
@@ -105,11 +85,11 @@ The last three array elements for each spline contain 5 integer values holding s
 where:
 
 - i is the index following the last Knot or [2 + numKnots + numControlPointDoubles * Dim]
-- Coloris the COLORREF value describing the color used for theithspline
-- lineStyleis the line style used for theithspline. Valid values can be found in the[swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html)enumeration
-- lineWidthis line width used for theithspline. Valid values can be found in the[swLineWeights_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineWeights_e.html)enumeration
-- Layeris an integer index to the layer that theithspline is on
-- layerOverrideis integer with bit flags set to determine which properties, if any, have been overridden or should be overridden.
+- Color is the COLORREF value describing the color used for the ith spline
+- lineStyle is the line style used for the ith spline. Valid values can be found in the [swLineStyles_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineStyles_e.html) enumeration
+- lineWidth is line width used for the ith spline. Valid values can be found in the [swLineWeights_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLineWeights_e.html) enumeration
+- Layer is an integer index to the layer that the ith spline is on
+- layerOverride is integer with bit flags set to determine which properties, if any, have been overridden or should be overridden.
 
 Therefore, the size of the data for each spline is given by:
 
@@ -117,7 +97,7 @@ Therefore, the size of the data for each spline is given by:
 
 The ControlPoint data (in the sketch coordinate system) follows the 2 packed data elements, the Knot points, and, finally, the last 3 packed data elements. Subsequent splines follow one another in the array.
 
-[packedDouble1, packedDouble2, ControlPoint1[Dimension elements], ControlPoint2[Dimension elements],... knot1, knot2,..., packedDouble3, packedDouble4, packedDouble5,]
+[ packedDouble1, packedDouble2, ControlPoint1[Dimension elements], ControlPoint2[Dimension elements],... knot1, knot2,..., packedDouble3, packedDouble4, packedDouble5, ]
 
 For information about unpacking double arrays into integer pairs, see:
 
@@ -128,23 +108,14 @@ For information about unpacking double arrays into integer pairs, see:
 ## See Also
 
 [ISketchBlockDefinition Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition.html)
-
 [ISketchBlockDefinition Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition_members.html)
-
 [ISketchBlockDefinition::GetSplineParamsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetSplineParamsCount.html)
-
 [ISketchBlockDefinition::IGetSplineParams Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~IGetSplineParams.html)
-
 [ISketchBlockDefinition::GetSplineCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetSplineCount.html)
-
 [ISketchBlockDefinition::GetSplineInterpolateCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetSplineInterpolateCount.html)
-
 [ISketchBlockDefinition::GetSplines2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetSplines2.html)
-
 [ISketchBlockDefinition::GetSplinesInterpolate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~GetSplinesInterpolate.html)
-
 [ISketchBlockDefinition::IGetSplines2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~IGetSplines2.html)
-
 [ISketchBlockDefinition::IGetSplinesInterpolate Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchBlockDefinition~IGetSplinesInterpolate.html)
 
 ## Availability

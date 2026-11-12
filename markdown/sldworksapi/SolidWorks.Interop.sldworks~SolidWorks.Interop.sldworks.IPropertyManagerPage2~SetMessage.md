@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPr
 
 # SetMessage Method (IPropertyManagerPage2)
 
-Obsolete. Superseded by
-
-[IPropertyManagerPage2::SetMessage2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~SetMessage2.html)
-
-.
+Obsolete. Superseded by [IPropertyManagerPage2::SetMessage2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IPropertyManagerPage2~SetMessage2.html).
 
 ## Syntax
 
@@ -55,13 +51,7 @@ System.bool SetMessage(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -70,14 +60,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[PropertyManagerPage2::SetMessage](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~SetMessage.html)
-
-.
+See [PropertyManagerPage2::SetMessage](ms-its:sldworksapivb6.chm::/sldworks~PropertyManagerPage2~SetMessage.html).
 
 ## See Also
 
 [IPropertyManagerPage2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2.html)
-
 [IPropertyManagerPage2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPropertyManagerPage2_members.html)

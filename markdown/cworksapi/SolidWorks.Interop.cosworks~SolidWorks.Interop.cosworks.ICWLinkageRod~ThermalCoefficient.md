@@ -47,28 +47,15 @@ property System.double ThermalCoefficient {
 
 ## VBA Syntax
 
-See
-
-[CWLinkageRod::ThermalCoefficient](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~ThermalCoefficient.html)
-
-.
+See [CWLinkageRod::ThermalCoefficient](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWLinkageRod~ThermalCoefficient.html).
 
 ## Remarks
 
-This property is valid only if
-
-[ICWLinkageRod::MaterialSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod~MaterialSource.html)
-
-is set to
-
-[swsMaterialSourceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSourceType_e.html)
-
-.swsMaterial_Custom.
+This property is valid only if [ICWLinkageRod::MaterialSource](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod~MaterialSource.html) is set to [swsMaterialSourceType_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsMaterialSourceType_e.html).swsMaterial_Custom.
 
 ## See Also
 
 [ICWLinkageRod Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod.html)
-
 [ICWLinkageRod Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWLinkageRod_members.html)
 
 ## Availability

@@ -9,7 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage_members.html"
 
 # IEdmImage Interface Members
 
-The following tables list the members exposed by[IEdmImage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage.html).
+The following tables list the members exposed by [IEdmImage](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage.html).
 
 ## Public Methods
 
@@ -24,5 +24,4 @@ The following tables list the members exposed by[IEdmImage](EPDM.Interop.epdm~EP
 ## See Also
 
 [IEdmImage Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmImage.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

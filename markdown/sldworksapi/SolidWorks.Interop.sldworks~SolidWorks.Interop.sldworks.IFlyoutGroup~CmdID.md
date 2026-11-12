@@ -42,13 +42,7 @@ property System.int CmdID {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -56,22 +50,16 @@ Command ID
 
 ## VBA Syntax
 
-See
-
-[FlyoutGroup::CmdID](ms-its:sldworksapivb6.chm::/sldworks~FlyoutGroup~CmdID.html)
-
-.
+See [FlyoutGroup::CmdID](ms-its:sldworksapivb6.chm::/sldworks~FlyoutGroup~CmdID.html).
 
 ## Examples
 
 [Create Flyouts in the CommandManager (C#)](Create_Flyouts_in_the_CommandManager_Example_CSharp.htm)
-
 [Create Flyouts in the CommandManager (VB.NET)](Create_Flyouts_in_the_CommandManager_Example_VBNET.htm)
 
 ## See Also
 
 [IFlyoutGroup Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup.html)
-
 [IFlyoutGroup Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFlyoutGroup_members.html)
 
 ## Availability

@@ -63,70 +63,28 @@ System.Object^ CreateSpline3(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `PointData`: Array of X,Y,Z coordinates of the spline points (see
-
-Remarks
-
-)
-- `Surfs`: Array of
-
-[ISurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html)
-
-objects; null or Nothing for 2D splines (see
-
-Remarks
-
-)
-- `Direction`: Array of
-
-[IMathVector](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html)
-
-objects; valid only for on-surface splines (see
-
-Remarks
-
-)
-- `SimulateNaturalEnds`: True to simulate natural ends, false to not; valid only for 2D splines (see
-
-Remarks
-
-)
-- `Status`: Array of boolean values; empty for 2D splines (see
-
-Remarks
-
-)
+- `PointData`: Array of X,Y,Z coordinates of the spline points (see **Remarks**)
+- `Surfs`: Array of [ISurface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISurface.html) objects; null or Nothing for 2D splines (see **Remarks**)
+- `Direction`: Array of [IMathVector](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMathVector.html) objects; valid only for on-surface splines (see **Remarks**)
+- `SimulateNaturalEnds`: True to simulate natural ends, false to not; valid only for 2D splines (see **Remarks**)
+- `Status`: Array of boolean values; empty for 2D splines (see **Remarks**)
 
 ### Return Value
 
-[ISketchSegment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html)
-
-or null if an error
+[ISketchSegment](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSegment.html) or null if an error
 
 ## VBA Syntax
 
-See
-
-[SketchManager::CreateSpline3](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateSpline3.html)
-
-.
+See [SketchManager::CreateSpline3](ms-its:sldworksapivb6.chm::/Sldworks~SketchManager~CreateSpline3.html).
 
 ## Examples
 
 [Create On-surface Spline (VBA)](Create_On-surface_Spline_Example_VB.htm)
-
 [Create On-surface Spline (VB.NET)](Create_On-surface_Spline_Example_VBNET.htm)
-
 [Create On-surface Spline (C#)](Create_On-surface_Spline_Example_CSharp.htm)
 
 ## Remarks
@@ -134,21 +92,13 @@ See
 This method allows you to create:
 
 - 2D splines.
-- On-surface splines as can also be created using
-
-  Tools > Sketch Entities > Spline on Surface
-
-  .
+- On-surface splines as can also be created using **Tools > Sketch Entities > Spline on Surface**.
 
 To create a 2D spline, specify:
 
 - PointData with at least six coordinates (for the start and end points of the spline):
 
-  [
-
-  start_pt_x, start_pt_y, start_pt_z, end_pt_x, end_pt_y, end_pt_z
-
-  ]
+  [`start_pt_x, start_pt_y, start_pt_z, end_pt_x, end_pt_y, end_pt_z`]
 
   For 2D sketches, SOLIDWORKS assumes PointData contains no Z values.
 - SimulateNaturalEnds with true for zero curvature end conditions or false to maintain curvature at the ends.
@@ -170,34 +120,15 @@ For on-surface splines only, Status contains an array of statuses, one for each 
 
 This method:
 
-- Creates the 2D spline in the active sketch. If a sketch is not active, then a new sketch is created. Use
-
-  [ISketchManager::ActiveSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~ActiveSketch.html)
-
-  to check if the sketch active.
-- Creates a new 3D sketch to create the on-surface spline. Call
-
-  [ISketchManager::InsertSketch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~InsertSketch.html)
-
-  to finalize the sketch.
-- Does not work with
-
-  [ISketchManager::AddToDB](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~AddToDB.html)
-
-  or
-
-  [ISketchManager::DisplayWhenAdded](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~DisplayWhenAdded.html)
-
-  . It always adds the spline directly to the database (as if ISketchManager::AddToDB(True) was in effect), and you must redraw your document window to see the entities that you added (as if ISketchManager::DisplayWhenAdded(False) was in effect).
+- Creates the 2D spline in the active sketch. If a sketch is not active, then a new sketch is created. Use [ISketchManager::ActiveSketch](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~ActiveSketch.html) to check if the sketch active.
+- Creates a new 3D sketch to create the on-surface spline. Call [ISketchManager::InsertSketch](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~InsertSketch.html) to finalize the sketch.
+- Does not work with [ISketchManager::AddToDB](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~AddToDB.html) or [ISketchManager::DisplayWhenAdded](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchManager~DisplayWhenAdded.html). It always adds the spline directly to the database (as if ISketchManager::AddToDB(True) was in effect), and you must redraw your document window to see the entities that you added (as if ISketchManager::DisplayWhenAdded(False) was in effect).
 
 ## See Also
 
 [ISketchManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager.html)
-
 [ISketchManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager_members.html)
-
 [ISketchManager::CreateSplineByEqnParams Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateSplineByEqnParams.html)
-
 [ISketchManager::CreateSplinesByEqnParams2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchManager~CreateSplinesByEqnParams2.html)
 
 ## Availability

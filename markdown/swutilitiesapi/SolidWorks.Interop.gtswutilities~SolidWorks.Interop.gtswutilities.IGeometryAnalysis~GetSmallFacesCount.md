@@ -54,9 +54,7 @@ System.int GetSmallFacesCount(
 ### Parameters
 
 - `length`: Length to use to detect small faces
-- `errorcode`: Error as defined by
-
-[gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
+- `errorcode`: Error as defined by [gtError_e](SOLIDWORKS.Interop.gtswutilities~SOLIDWORKS.Interop.gtswutilities.gtError_e.html)
 
 ### Return Value
 
@@ -64,11 +62,7 @@ Number of small faces
 
 ## VBA Syntax
 
-See
-
-[IGeometryAnalysis::GetSmallFacesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetSmallFacesCount.html)
-
-.
+See [IGeometryAnalysis::GetSmallFacesCount](ms-its:swutilitiesapivb6.chm::/swutilities~IGeometryAnalysis~GetSmallFacesCount.html).
 
 ## Examples
 
@@ -81,7 +75,6 @@ Small faces are faces with all edges shorter than a specified length.
 ## See Also
 
 [IGeometryAnalysis Interface](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis.html)
-
 [IGeometryAnalysis Members](SolidWorks.Interop.gtswutilities~SolidWorks.Interop.gtswutilities.IGeometryAnalysis_members.html)
 
 ## Availability

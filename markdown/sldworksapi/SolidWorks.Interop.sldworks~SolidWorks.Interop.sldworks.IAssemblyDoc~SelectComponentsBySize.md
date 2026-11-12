@@ -47,13 +47,7 @@ System.bool SelectComponentsBySize(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -65,36 +59,23 @@ True if Percent is valid, false if Percent > 100 or Percent < 0
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::SelectComponentsBySize](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SelectComponentsBySize.html)
-
-.
+See [AssemblyDoc::SelectComponentsBySize](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~SelectComponentsBySize.html).
 
 ## Examples
 
 [Select Assembly Components by Size (VBA)](Select_Assembly_Components_by_Size_Example_VB.htm)
-
 [Select Assembly Components by Size (VB.NET)](Select_Assembly_Components_by_Size_Example_VBNET.htm)
-
 [Select Assembly Components by Size (C#)](Select_Assembly_Components_by_Size_Example_CSharp.htm)
 
 ## Remarks
 
-This method corresponds to
-
-Tools > Component Selection > Select By Size
-
-.
+This method corresponds to **Tools > Component Selection > Select By Size**.
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IModelDocExtension::SelectByID2 Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectByID2.html)
-
 [IModelDocExtension::SelectAll Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDocExtension~SelectAll.html)
 
 ## Availability

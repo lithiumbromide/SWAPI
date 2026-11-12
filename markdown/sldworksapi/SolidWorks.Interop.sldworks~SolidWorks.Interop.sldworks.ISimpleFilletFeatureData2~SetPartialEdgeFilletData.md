@@ -51,20 +51,12 @@ System.bool SetPartialEdgeFilletData(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `FilletItem`: [IEdge](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IEdge.html)
-- `PartialEdgeFilletData`: [IPartialEdgeFilletData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html)
-
-; null to remove existing partial edge fillet data from FilletItem
+- `PartialEdgeFilletData`: [IPartialEdgeFilletData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartialEdgeFilletData.html); null to remove existing partial edge fillet data from FilletItem
 
 ### Return Value
 
@@ -72,26 +64,16 @@ True if partial edge fillet data successfully set, false if not
 
 ## VBA Syntax
 
-See
-
-[SimpleFilletFeatureData2::SetPartialEdgeFilletData](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~SetPartialEdgeFilletData.html)
-
-.
+See [SimpleFilletFeatureData2::SetPartialEdgeFilletData](ms-its:sldworksapivb6.chm::/sldworks~SimpleFilletFeatureData2~SetPartialEdgeFilletData.html).
 
 ## Remarks
 
-This method is valid only if
-
-[ISimpleFilletFeatureData2::EnablePartialEdgeParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~EnablePartialEdgeParameters.html)
-
-is true.
+This method is valid only if [ISimpleFilletFeatureData2::EnablePartialEdgeParameters](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~EnablePartialEdgeParameters.html) is true.
 
 ## See Also
 
 [ISimpleFilletFeatureData2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2.html)
-
 [ISimpleFilletFeatureData2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2_members.html)
-
 [ISimpleFilletFeatureData2::GetPartialEdgeFilletData Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISimpleFilletFeatureData2~GetPartialEdgeFilletData.html)
 
 ## Availability

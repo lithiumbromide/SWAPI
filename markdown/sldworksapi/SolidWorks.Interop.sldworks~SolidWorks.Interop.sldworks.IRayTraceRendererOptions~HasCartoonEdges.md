@@ -45,13 +45,7 @@ property System.bool HasCartoonEdges {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,23 +53,17 @@ True to render with cartoon edges, false to not
 
 ## VBA Syntax
 
-See
-
-[RayTraceRendererOptions::HasCartoonEdges](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~HasCartoonEdges.html)
-
-.
+See [RayTraceRendererOptions::HasCartoonEdges](ms-its:sldworksapivb6.chm::/sldworks~RayTraceRendererOptions~HasCartoonEdges.html).
 
 ## Examples
 
 [Update Graphics Area After Changing Render Options (C#)](Update_Graphics_After_Changing_Render_Options_Example_CSharp.htm)
-
 [Update Graphics Area After Changing Render Options (VB.NET)](Update_Graphics_After_Changing_Render_Options_Example_VBNET.htm)
-
 [Update Graphics Area After Changing Render Options (VBA)](Update_Graphics_After_Changing_Render_Options_Example_VB.htm)
 
 ## Remarks
 
-This property is only available when[IRayTraceRendererOptions::ContourCartoonRenderingEnabled](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ContourCartoonRenderingEnabled.html)is true and[IRayTraceRendererOptions::RenderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~RenderType.html)is swRayTraceRenderingType_e.swRayTraceCartoon.
+This property is only available when [IRayTraceRendererOptions::ContourCartoonRenderingEnabled](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ContourCartoonRenderingEnabled.html) is true and [IRayTraceRendererOptions::RenderType](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~RenderType.html) is swRayTraceRenderingType_e.swRayTraceCartoon.
 
 | To set cartoon... | Set IRayTraceRendererOptions::HasCartoonEdges to... | Set IRayTraceRendererOptions::HasCartoonShading to... |
 | --- | --- | --- |
@@ -86,11 +74,8 @@ This property is only available when[IRayTraceRendererOptions::ContourCartoonRen
 ## See Also
 
 [IRayTraceRendererOptions Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions.html)
-
 [IRayTraceRendererOptions Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions_members.html)
-
 [IRayTraceRendererOptions::ContourLineColor Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ContourLineColor.html)
-
 [IRayTraceRendererOptions::ContourLineThickness Property ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IRayTraceRendererOptions~ContourLineThickness.html)
 
 ## Availability

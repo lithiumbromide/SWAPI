@@ -42,9 +42,7 @@ void Set(
 
 ### Parameters
 
-- `eKey`: ID of property to update as defined in
-
-[EdmDataPropertyType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDataPropertyType.html)
+- `eKey`: ID of property to update as defined in [EdmDataPropertyType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmDataPropertyType.html)
 - `poValue`: New value of property
 
 ## Remarks
@@ -57,9 +55,7 @@ void Set(
 ## See Also
 
 [IEdmData Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData.html)
-
 [IEdmData Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData_members.html)
-
 [IEdmData::Get Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmData~Get.html)
 
 ## Availability

@@ -56,19 +56,11 @@ property System.Object^ ComponentTransform {
 
 ### Property Value
 
-Transform (see
-
-Remarks
-
-)
+Transform (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[EModelViewControl::ComponentTransform](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ComponentTransform.html)
-
-.
+See [EModelViewControl::ComponentTransform](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~ComponentTransform.html).
 
 ## Remarks
 
@@ -95,17 +87,11 @@ The 3 axes are constrained to be orthogonal and unified so that they produce a p
 ## See Also
 
 [IEModelViewControl Interface](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl.html)
-
 [IEModelViewControl Members](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl_members.html)
-
 [IEModelViewControl::ComponentConfigurationName Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentConfigurationName.html)
-
 [IEModelViewControl::ComponentCount Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentCount.html)
-
 [IEModelViewControl::ComponentName Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentName.html)
-
 [IEModelViewControl::ComponentState Property ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~ComponentState.html)
-
 [IEModelViewControl::GetSelectedComponentName Method ()](eDrawings.Interop.EModelViewControl~eDrawings.Interop.EModelViewControl.IEModelViewControl~GetSelectedComponentName.html)
 
 ## Availability

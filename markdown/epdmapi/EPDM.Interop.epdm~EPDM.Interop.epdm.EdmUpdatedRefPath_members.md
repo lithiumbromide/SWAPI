@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath_members.h
 
 # EdmUpdatedRefPath Structure Members
 
-The following tables list the members exposed by[EdmUpdatedRefPath](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath.html).
+The following tables list the members exposed by [EdmUpdatedRefPath](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath.html).
 
 ## Public Fields
 
@@ -23,5 +23,4 @@ The following tables list the members exposed by[EdmUpdatedRefPath](EPDM.Interop
 ## See Also
 
 [EdmUpdatedRefPath Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmUpdatedRefPath.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.DAs
 
 # DAssemblyDocEvents_ComponentStateChangeNotifyEventHandler Delegate (SolidWorks.Interop.sldworks)
 
-Obsolete. Superseded by
-
-[DAssemblyDocEvents_ComponentStateChangeNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_ComponentStateChangeNotify2EventHandler.html)
-
-.
+Obsolete. Superseded by [DAssemblyDocEvents_ComponentStateChangeNotify2EventHandler](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.DAssemblyDocEvents_ComponentStateChangeNotify2EventHandler.html).
 
 ## Syntax
 
@@ -53,13 +49,7 @@ public delegate System.int DAssemblyDocEvents_ComponentStateChangeNotifyEventHan
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -71,10 +61,6 @@ See
 
 ## VBA Syntax
 
-See
-
-[ComponentStateChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentStateChangeNotify_EV.html)
-
-.
+See [ComponentStateChangeNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~ComponentStateChangeNotify_EV.html).
 
 ## Availability

@@ -52,26 +52,16 @@ void SetName(
 
 ## VBA Syntax
 
-See
-
-[CWTopologyThicknessControl::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~SetName.html)
-
-.
+See [CWTopologyThicknessControl::SetName](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWTopologyThicknessControl~SetName.html).
 
 ## Examples
 
-See the
-
-[ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
-example.
+See the [ICWTopologyThicknessControl](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html) example.
 
 ## See Also
 
 [ICWTopologyThicknessControl Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl.html)
-
 [ICWTopologyThicknessControl Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl_members.html)
-
 [ICWTopologyThicknessControl::GetName Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWTopologyThicknessControl~GetName.html)
 
 ## Availability

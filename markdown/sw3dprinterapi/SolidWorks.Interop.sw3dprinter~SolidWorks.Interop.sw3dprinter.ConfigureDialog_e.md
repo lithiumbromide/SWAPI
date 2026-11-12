@@ -9,11 +9,7 @@ source: "sw3dprinterapi/SolidWorks.Interop.sw3dprinter~SolidWorks.Interop.sw3dpr
 
 # ConfigureDialog_e Enumeration
 
-Disables buttons and fields on Print dialog.
-
-[Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm)
-
-.
+Disables buttons and fields on Print dialog. [Bitmask](sldworksapiprogguide.chm::/overview/bitmasks.htm).
 
 ## Syntax
 

@@ -1,6 +1,5 @@
 ---
-title: "RouteProperty Object
-Members"
+title: "RouteProperty Object Members"
 project: "SOLIDWORKS Routing Type Library"
 interface: "RouteProperty_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "routingapivb6/SWRoutingLib~RouteProperty_members.html"
 ---
 
-# RouteProperty Object
-Members
+# RouteProperty Object Members
 
 ## Public Methods
 

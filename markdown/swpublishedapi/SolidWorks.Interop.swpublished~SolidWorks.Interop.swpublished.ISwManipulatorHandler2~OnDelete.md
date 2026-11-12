@@ -49,9 +49,7 @@ System.bool OnDelete(
 
 ### Parameters
 
-- `pManipulator`: [IManipulator](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IManipulator.html)
-
-object
+- `pManipulator`: [IManipulator](ms-its:sldworksapi.chm::/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IManipulator.html) object
 
 ### Return Value
 
@@ -59,24 +57,15 @@ True if the add-in application deletes the manipulator, false if not
 
 ## VBA Syntax
 
-See
-
-[SwManipulatorHandler2::OnDelete](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler2~OnDelete.html)
-
-.
+See [SwManipulatorHandler2::OnDelete](ms-its:swpublishedapivb6.chm::/swpublished~SwManipulatorHandler2~OnDelete.html).
 
 ## Examples
 
-See the
-
-[ISwManipulatorHandler2](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html)
-
-examples.
+See the [ISwManipulatorHandler2](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html) examples.
 
 ## See Also
 
 [ISwManipulatorHandler2 Interface](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2.html)
-
 [ISwManipulatorHandler2 Members](SolidWorks.Interop.swpublished~SolidWorks.Interop.swpublished.ISwManipulatorHandler2_members.html)
 
 ## Availability

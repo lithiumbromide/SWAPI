@@ -45,13 +45,7 @@ property System.bool FillVolume {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,15 @@ True to fill a volume, false to not
 
 ## VBA Syntax
 
-See
-
-[ThickenFeatureData::FillVolume](ms-its:sldworksapivb6.chm::/sldworks~ThickenFeatureData~FillVolume.html)
-
-.
+See [ThickenFeatureData::FillVolume](ms-its:sldworksapivb6.chm::/sldworks~ThickenFeatureData~FillVolume.html).
 
 ## Examples
 
-See the
-
-[IThickenFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData.html)
-
-examples.
+See the [IThickenFeatureData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData.html) examples.
 
 ## See Also
 
 [IThickenFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData.html)
-
 [IThickenFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IThickenFeatureData_members.html)
 
 ## Availability

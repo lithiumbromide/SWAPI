@@ -11,13 +11,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6.html"
 
 Allows you to access the contents of a file system folder in the vault.
 
-NOTE:
-
-Click the
-
-Members
-
-link, located near the top of the topic, to see this interface's methods and properties.
+**NOTE:** Click the **Members** link, located near the top of the topic, to see this interface's methods and properties.
 
 ## Syntax
 
@@ -44,16 +38,8 @@ public interface class IEdmFolder6 : public IEdmFolder5, IEdmObject5
 
 This interface:
 
-- extends
-
-  [IEdmFolder5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html)
-
-  .
-- is extended by
-
-  [IEdmFolder7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7.html)
-
-  , which adds the ability to destroy deleted items in this folder.
+- extends [IEdmFolder5](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder5.html).
+- is extended by [IEdmFolder7](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder7.html), which adds the ability to destroy deleted items in this folder.
 
 ## Accessors
 
@@ -62,5 +48,4 @@ This interface:
 ## See Also
 
 [IEdmFolder6 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmFolder6_members.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)

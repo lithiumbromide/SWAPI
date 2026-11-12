@@ -45,29 +45,15 @@ property System.double IMaterialPropertyValues {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Array of doubles describing the material's values (see
-
-Remarks
-
-)
+Array of doubles describing the material's values (see Remarks)
 
 ## VBA Syntax
 
-See
-
-[PartDoc::IMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IMaterialPropertyValues.html)
-
-.
+See [PartDoc::IMaterialPropertyValues](ms-its:sldworksapivb6.chm::/sldworks~PartDoc~IMaterialPropertyValues.html).
 
 ## Remarks
 
@@ -75,67 +61,23 @@ The material values include the color (R,G,B values), reflectivity (ambient, dif
 
 The format of the parameters or return values is an array of doubles as follows:
 
-[R, G, B, Ambient, Diffuse, Specular, Shininess, Transparency, Emission]
+[ R, G, B, Ambient, Diffuse, Specular, Shininess, Transparency, Emission ]
 
 To see a color change, you must:
 
-1. Specify
-
-  R
-
-  ,
-
-  G
-
-  , and
-
-  B
-
-  , each with a value between 0.0 and 1.0, inclusive. (These values are internally multiplied by 255.0 to determine the RGB color.)
-2. Specify the reflectivity properties (
-
-  Diffuse
-
-  ,
-
-  Specular
-
-  ,
-
-  Shininess
-
-  (1.0 - Specular spread/Blurriness)), each with a value greater than 0.0 and less than or equal to 1.0.
-3. Specify
-
-  Ambient
-
-  ,
-
-  Transparency
-
-  and
-
-  Emission
-
-  , each with a value between 0.0 and 1.0, inclusive.
+1. Specify `R`, `G`, and `B`, each with a value between 0.0 and 1.0, inclusive. (These values are internally multiplied by 255.0 to determine the RGB color.)
+2. Specify the reflectivity properties (`Diffuse`, `Specular`, `Shininess` (1.0 - Specular spread/Blurriness)), each with a value greater than 0.0 and less than or equal to 1.0.
+3. Specify `Ambient`, `Transparency` and `Emission`, each with a value between 0.0 and 1.0, inclusive.
 4. Refresh the graphics area after setting this property.
 
 ## See Also
 
 [IPartDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc.html)
-
 [IPartDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc_members.html)
-
 [IPartDoc::MaterialPropertyValues Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~MaterialPropertyValues.html)
-
 [IPartDoc::MaterialUserName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~MaterialUserName.html)
-
 [IPartDoc::MaterialIdName Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~MaterialIdName.html)
-
 [IPartDoc::SetMaterialVisualProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~SetMaterialVisualProperties.html)
-
 [IPartDoc::SetMaterialPropertyName2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~SetMaterialPropertyName2.html)
-
 [IPartDoc::GetMaterialVisualProperties Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetMaterialVisualProperties.html)
-
 [IPartDoc::GetMaterialPropertyName2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~GetMaterialPropertyName2.html)

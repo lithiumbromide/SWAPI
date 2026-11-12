@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMo
 
 # EditOrdinate Method (IModelDoc)
 
-Obsolete. Superseded by
-
-[IModelDoc2::EditOrdinate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditOrdinate.html)
-
-.
+Obsolete. Superseded by [IModelDoc2::EditOrdinate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDoc2~EditOrdinate.html).
 
 ## Syntax
 
@@ -43,24 +39,13 @@ void EditOrdinate()
 void EditOrdinate();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[ModelDoc::EditOrdinate](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditOrdinate.html)
-
-.
+See [ModelDoc::EditOrdinate](ms-its:sldworksapivb6.chm::/sldworks~ModelDoc~EditOrdinate.html).
 
 ## See Also
 
 [IModelDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc.html)
-
 [IModelDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IModelDoc_members.html)

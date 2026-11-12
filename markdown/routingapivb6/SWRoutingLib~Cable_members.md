@@ -1,6 +1,5 @@
 ---
-title: "Cable Object
-Members"
+title: "Cable Object Members"
 project: "SOLIDWORKS Routing Type Library"
 interface: "Cable_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "routingapivb6/SWRoutingLib~Cable_members.html"
 ---
 
-# Cable Object
-Members
+# Cable Object Members
 
 ## Public Methods
 

@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFa
 
 # IHighlight Method (IFace)
 
-Obsolete. Superseded by
-
-[IFace2::IHighlight](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IHighlight.html)
-
-.
+Obsolete. Superseded by [IFace2::IHighlight](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFace2~IHighlight.html).
 
 ## Syntax
 
@@ -50,13 +46,7 @@ void IHighlight(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,14 +54,9 @@ See
 
 ## VBA Syntax
 
-See
-
-[Face::IHighlight](ms-its:sldworksapivb6.chm::/sldworks~Face~IHighlight.html)
-
-.
+See [Face::IHighlight](ms-its:sldworksapivb6.chm::/sldworks~Face~IHighlight.html).
 
 ## See Also
 
 [IFace Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace.html)
-
 [IFace Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFace_members.html)

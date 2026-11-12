@@ -82,43 +82,27 @@ System.Object^ GetLinearizedStressValuesAlongSCL(
 ### Parameters
 
 - `NIntermediatePoints`: 0 < Number of intermediate points between the points specified by DPoint1X, DPoint1Y, DPoint1Z, DPoint2X, DPoint2Y, and DPoint2Z to define the resolution of the SCL axis < 100
-- `DPoint1X`: X coordinate of Point 1 on the section view (see**Remarks**)
-- `DPoint1Y`: Y coordinate of Point 1 on the section view (see**Remarks**)
-- `DPoint1Z`: Z coordinate of Point 1 on the section view (see**Remarks**)
-- `DPoint2X`: X coordinate of Point 2 on the section view (see**Remarks**)
-- `DPoint2Y`: Y coordinate of Point 2 on the section view (see**Remarks**)
-- `DPoint2Z`: Z coordinate of Point 2 on the section view (see**Remarks**)
-- `DispReferencePlane`: Datum plane reference that creates a section view containing Point 1 and Point 2 (see
-
-Remarks
-
-)
-- `ErrorCode`: Result code as defined in
-
-[swsResultStressLinearizationErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultStressLinearizationErrors_e.html)
+- `DPoint1X`: X coordinate of Point 1 on the section view (see **Remarks**)
+- `DPoint1Y`: Y coordinate of Point 1 on the section view (see **Remarks**)
+- `DPoint1Z`: Z coordinate of Point 1 on the section view (see **Remarks**)
+- `DPoint2X`: X coordinate of Point 2 on the section view (see **Remarks**)
+- `DPoint2Y`: Y coordinate of Point 2 on the section view (see **Remarks**)
+- `DPoint2Z`: Z coordinate of Point 2 on the section view (see **Remarks**)
+- `DispReferencePlane`: Datum plane reference that creates a section view containing Point 1 and Point 2 (see **Remarks**)
+- `ErrorCode`: Result code as defined in [swsResultStressLinearizationErrors_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsResultStressLinearizationErrors_e.html)
 
 ### Return Value
 
-Array of seven membrane and bending stress values that are linearized along Stress Classification Lines (SCL) (see
-
-Remarks
-
-)
+Array of seven membrane and bending stress values that are linearized along Stress Classification Lines (SCL) (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[CWPlot::GetLinearizedStressValuesAlongSCL](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~GetLinearizedStressValuesAlongSCL.html)
-
-.
+See [CWPlot::GetLinearizedStressValuesAlongSCL](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWPlot~GetLinearizedStressValuesAlongSCL.html).
 
 ## Examples
 
 [Get Linearized Stress Results (VBA)](Get_Linearized_Stress_Results_Example_VB.htm)
-
 [Get Linearized Stress Results (VB.NET)](Get_Linearized_Stress_Results_Example_VBNET.htm)
-
 [Get Linearized Stress Results (C#)](Get_Linearized_Stress_Results_Example_CSharp.htm)
 
 ## Remarks
@@ -143,51 +127,25 @@ Before calling this method:
 To locate valid points on the stress line of a section plane:
 
 1. Make sure the document units are set to MKS in the graphics area.
-2. Right-click the pressure vessel stress plot and select
-
-  Section Clipping
-
-  .
-3. Specify Top for
-
-  Section 1 > Reference Entity
-
-  . Click OK.
-4. Right-click the pressure vessel stress plot and select
-
-  Linearize
-
-  .
+2. Right-click the pressure vessel stress plot and select **Section Clipping**.
+3. Specify Top for **Section 1 > Reference Entity**. Click OK.
+4. Right-click the pressure vessel stress plot and select **Linearize**.
 5. Select two points in the graphics area that fall on the sectioned plot, prefereably spanning the thickness. (The tangential line goes from the first location to the second. The hoop is the outward normal to the cutting plane. The normal completes the right--handed coordinate system.)
-6. Specify 5 for
-
-  No of Intermediate Points
-
-  . Click
-
-  Calculate
-
-  .
-7. Click
-
-  Save
-
-  and export results as a CSV file.
+6. Specify 5 for **No of Intermediate Points**. Click **Calculate**.
+7. Click **Save** and export results as a CSV file.
 8. Open the CSV file in Excel.
 9. Locate the coordinates of the start and end points of the stress line to be used to specify DPoint1X, DPoint1Y, DPoint1Z, DPoint2X, DPoint2Y, DPoint2Z. Be sure to specify DispReferencePlane using the same section plane used to locate the points.
 
 The returned array contains the following seven values:
 
-[`membrane_stress`,`bending_point_1`, (`membrane_stress`+`bending_point_1`),`bending_point_2`, (`membrane_stress`+`bending_point_2`),`peak_point_1`,`peak_point_2`]
+[ `membrane_stress`, `bending_point_1`, (`membrane_stress` + `bending_point_1`), `bending_point_2`, (`membrane_stress` + `bending_point_2`), `peak_point_1`, `peak_point_2` ]
 
-**NOTE:**This method is valid only for solid meshes.
+**NOTE:** This method is valid only for solid meshes.
 
 ## See Also
 
 [ICWPlot Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot.html)
-
 [ICWPlot Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWPlot_members.html)
-
 [ICWResults::GetLinearizedStressValues Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetLinearizedStressValues.html)
 
 ## Availability

@@ -42,32 +42,21 @@ property System.int CreationType {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Type of slot as defined in[swSketchSlotCreationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchSlotCreationType_e.html)
+Type of slot as defined in [swSketchSlotCreationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swSketchSlotCreationType_e.html)
 
-**NOTE:**Only swSketchSlotCreateType_line or swSketchSlotCreateType_arc are valid return values.
+**NOTE:** Only swSketchSlotCreateType_line or swSketchSlotCreateType_arc are valid return values.
 
 ## VBA Syntax
 
-See
-
-[SketchSlot::CreationType](ms-its:sldworksapivb6.chm::/sldworks~SketchSlot~CreationType.html)
-
-.
+See [SketchSlot::CreationType](ms-its:sldworksapivb6.chm::/sldworks~SketchSlot~CreationType.html).
 
 ## See Also
 
 [ISketchSlot Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot.html)
-
 [ISketchSlot Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchSlot_members.html)
 
 ## Availability

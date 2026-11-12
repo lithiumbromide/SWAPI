@@ -11,10 +11,8 @@ source: "sldworksapi/Group_Components_Example_VBNET.htm"
 
 This example shows how to:
 
-- group the same components in
-  the same configuration in an assembly into a folder in the FeatureManager design tree.
-- ungroup the grouped
-  components.
+- group the same components in the same configuration in an assembly into a folder in the FeatureManager design tree.
+- ungroup the grouped components.
 
 ```
 '---------------------------------------------------------------------------------

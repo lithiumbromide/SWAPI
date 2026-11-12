@@ -68,10 +68,8 @@ System.Object^ GetFreeBodyForcesAndMoments(
 - `DispPlane`: Plane, axis, or coordinate system relative to which the results are listed
 - `SelectedRefPoint`: Reference point used to list the moments for the forces that are available in ArraySelectedEntities; NULL to not list the moments
 - `ArraySelectedEntities`: Selected faces, edges, vertices, and components
-- `NUnits`: Output units as defined in
-
-[swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `NUnits`: Output units as defined in [swsUnit_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsUnit_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -111,26 +109,18 @@ Array of sixteen doubles of the free body forces and moments for all selections 
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetFreeBodyForcesAndMoments](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetFreeBodyForcesAndMoments.html)
-
-.
+See [CWResults::GetFreeBodyForcesAndMoments](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetFreeBodyForcesAndMoments.html).
 
 ## Examples
 
 [Get Free Body Forces and Moments (VBA)](Get_Free_Body_Forces_and_Moments_Example_VB.htm)
-
 [Get Free Body Forces and Moments (VB.NET)](Get_Free_Body_Forces_and_Moments_Example_VBNET.htm)
-
 [Get Free Body Forces and Moments (C#)](Get_Free_Body_Forces_and_Moments_Example_CSharp.htm)
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetFreeBodyForcesAndMomentsForAStep Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetFreeBodyForcesAndMomentsForAStep.html)
 
 ## Availability

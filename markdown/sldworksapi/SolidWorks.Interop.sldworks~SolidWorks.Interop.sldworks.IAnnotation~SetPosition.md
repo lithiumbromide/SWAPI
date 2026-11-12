@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAn
 
 # SetPosition Method (IAnnotation)
 
-Obsolete. Superseded by
-
-[IAnnotation::SetPosition2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetPosition2.html)
-
-.
+Obsolete. Superseded by [IAnnotation::SetPosition2](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~SetPosition2.html).
 
 ## Syntax
 
@@ -59,13 +55,7 @@ System.bool SetPosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -79,11 +69,7 @@ True if the position of the annotation was set, false if the operation was not s
 
 ## VBA Syntax
 
-See
-
-[Annotation::SetPosition](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetPosition.html)
-
-.
+See [Annotation::SetPosition](ms-its:sldworksapivb6.chm::/sldworks~Annotation~SetPosition.html).
 
 ## Remarks
 
@@ -105,7 +91,7 @@ If you use this method on any other types of annotations, SOLIDWORKS takes no ac
 
 The position of an annotation can be subject to certain restrictions. These restrictions apply to setting the position through the user interface and using this method. One example of a restriction is a surface-finish symbol that is inserted directly on a face (that is, no leaders). It can only be moved within the borders of that face. If it is inserted directly on an edge, it can only be moved along that edge or extensions of that edge. Datum feature symbols have similar restrictions. If this method attempts to set a position of an annotation that violates any restrictions, the annotation is placed as near as possible to the specified position.
 
-The position of table annotations cannot be set if the table is anchored. Use[ITableAnnotation::Anchored](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~Anchored.html)to determine if the table is anchored.
+The position of table annotations cannot be set if the table is anchored. Use [ITableAnnotation::Anchored](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ITableAnnotation~Anchored.html) to determine if the table is anchored.
 
 | If a dimension has offset text , and you want to move... | Then... |
 | --- | --- |
@@ -117,13 +103,9 @@ Because radial and diametric dimensions are already attached to the end of a lea
 ## See Also
 
 [IAnnotation Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation.html)
-
 [IAnnotation Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation_members.html)
-
 [IAnnotation::GetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~GetPosition.html)
-
 [IAnnotation::IGetPosition Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAnnotation~IGetPosition.html)
-
 [INote::LockPosition Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.INote~LockPosition.html)
 
 ## Availability

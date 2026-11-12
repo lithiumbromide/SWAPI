@@ -41,18 +41,12 @@ void CheckAgainstExistingFile();
 
 ## VBA Syntax
 
-See
-
-[SWDesignCheck::CheckAgainstExistingFile](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~CheckAgainstExistingFile.html)
-
-.
+See [SWDesignCheck::CheckAgainstExistingFile](ms-its:dsgnchkapivb6.chm::/DesignCheckerLib~SWDesignCheck~CheckAgainstExistingFile.html).
 
 ## Examples
 
 [Check Against Existing File Example (VBA)](Check_Against_Existing_File_Example_VB.htm)
-
 [Check Against Existing File Example (VB.NET)](Check_Against_Existing_File_Example_VBNET.htm)
-
 [Check Against Existing File Example (C#)](Check_Against_Existing_File_Example_CSharp.htm)
 
 ## Remarks
@@ -62,9 +56,7 @@ This method launches a dialog from which to choose a file. After the file is sel
 ## See Also
 
 [ISWDesignCheck Interface](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck.html)
-
 [ISWDesignCheck Members](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck_members.html)
-
 [ISWDesignCheck::CreateChecksFromSWFile Method](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck~CreateChecksFromSWFile.html)
 
 ## Availability

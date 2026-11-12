@@ -43,11 +43,7 @@ void AddFile(
 
 ## Examples
 
-See the
-
-[IEdmHistory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory.html)
-
-examples.
+See the [IEdmHistory](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory.html) examples.
 
 ## Remarks
 
@@ -59,7 +55,6 @@ examples.
 ## See Also
 
 [IEdmHistory Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory.html)
-
 [IEdmHistory Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmHistory_members.html)
 
 ## Availability

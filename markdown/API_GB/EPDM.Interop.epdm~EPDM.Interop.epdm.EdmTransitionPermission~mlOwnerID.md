@@ -9,11 +9,7 @@ source: "API_GB/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission~mlOw
 
 # mlOwnerID Field
 
-ID of
-
-[meOwnerType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission~meOwnerType.html)
-
-for whom to assign permissions.
+ID of [meOwnerType](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission~meOwnerType.html) for whom to assign permissions.
 
 ## Syntax
 
@@ -43,5 +39,4 @@ Owner ID
 ## See Also
 
 [EdmTransitionPermission Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission.html)
-
 [EdmTransitionPermission Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTransitionPermission_members.html)

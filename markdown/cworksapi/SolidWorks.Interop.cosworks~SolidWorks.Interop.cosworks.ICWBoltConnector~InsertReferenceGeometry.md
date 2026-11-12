@@ -9,9 +9,7 @@ source: "cworksapi/SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBo
 
 # InsertReferenceGeometry Method (ICWBoltConnector)
 
-Inserts the entity (plane or planar face of symmetry) for
-
-symmetrical bolts.
+Inserts the entity (plane or planar face of symmetry) for symmetrical bolts.
 
 ## Syntax
 
@@ -54,20 +52,13 @@ void InsertReferenceGeometry(
 
 ## VBA Syntax
 
-See
-
-[CWBoltConnector::InsertReferenceGeometry](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~InsertReferenceGeometry.html)
-
-.
+See [CWBoltConnector::InsertReferenceGeometry](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBoltConnector~InsertReferenceGeometry.html).
 
 ## See Also
 
 [ICWBoltConnector Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector.html)
-
 [ICWBoltConnector Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector_members.html)
-
 [ICWBoltConnector::IncludeSymmetricalBolt Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~IncludeSymmetricalBolt.html)
-
 [ICWBoltConnector::SymmetricalBoltType Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBoltConnector~SymmetricalBoltType.html)
 
 ## Availability

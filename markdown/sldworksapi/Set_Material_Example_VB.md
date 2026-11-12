@@ -9,9 +9,7 @@ source: "sldworksapi/Set_Material_Example_VB.htm"
 
 # Set Material Example (VBA)
 
-This example shows how to get the names of the material schema, material
-databases, and bodies in a part document. This example also shows how
-to apply a SOLIDWORKS Material to all of the bodies in a part document.
+This example shows how to get the names of the material schema, material databases, and bodies in a part document. This example also shows how to apply a SOLIDWORKS Design Material to all of the bodies in a part document.
 
 ```
 '----------------------------------------------------
@@ -22,7 +20,7 @@ to apply a SOLIDWORKS Material to all of the bodies in a part document.
 ' Postconditions:
 ' 1. Opens the specified part document.
 ' 2. Applies the material ABS PC (polycarbonate plastic)
-'    from the SOLIDWORKS Material database to all
+'    from the Material database to all
 '    bodies in the part.
 ' 3. To verify, examine:
 '    * DisplayManager tab
@@ -87,7 +85,7 @@ Sub main()
         ' Get the name of the body
         Debug.Print swBody.Name
         boolstat = swBody.Select2(False, Nothing)
-        ' Set the SOLIDWORKS material for that body
+        ' Set the SOLIDWORKS Design material for that body
         BodyMaterialError = swBody.SetMaterialProperty("Default", "solidworks materials.sldmat", "ABS PC")
 ```
 

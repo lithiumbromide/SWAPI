@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICu
 
 # GetTextCount Method (ICustomSymbol)
 
-Obsolete. Superseded by
-
-[ISketchBlockDefinition::GetNoteCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetNoteCount.html)
-
-.
+Obsolete. Superseded by [ISketchBlockDefinition::GetNoteCount](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchBlockDefinition~GetNoteCount.html).
 
 ## Syntax
 
@@ -44,24 +40,13 @@ System.int GetTextCount()
 System.int GetTextCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[CustomSymbol::GetTextCount](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetTextCount.html)
-
-.
+See [CustomSymbol::GetTextCount](ms-its:sldworksapivb6.chm::/sldworks~CustomSymbol~GetTextCount.html).
 
 ## See Also
 
 [ICustomSymbol Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol.html)
-
 [ICustomSymbol Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICustomSymbol_members.html)

@@ -37,25 +37,15 @@ public delegate System.int DAssemblyDocEvents_NewSelectionNotifyEventHandler()
 public delegate System.int DAssemblyDocEvents_NewSelectionNotifyEventHandler();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[NewSelectionNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~NewSelectionNotify_EV.html)
-
-.
+See [NewSelectionNotify Event (AssemblyDoc)](ms-its:sldworksapivb6.chm::/SldWorks~AssemblyDoc~NewSelectionNotify_EV.html).
 
 ## Remarks
 
-If developing a C++ application, use[swAssemblyNewSelectionNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html)to register for this notification.
+If developing a C++ application, use [swAssemblyNewSelectionNotify](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swAssemblyNotify_e.html) to register for this notification.
 
 This notification is generated when items are added, removed, or reordered in the selection list.
 

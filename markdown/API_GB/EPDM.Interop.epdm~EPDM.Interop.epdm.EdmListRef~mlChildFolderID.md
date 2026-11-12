@@ -35,5 +35,4 @@ System.int mlChildFolderID
 ## See Also
 
 [EdmListRef Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListRef.html)
-
 [EdmListRef Members](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmListRef_members.html)

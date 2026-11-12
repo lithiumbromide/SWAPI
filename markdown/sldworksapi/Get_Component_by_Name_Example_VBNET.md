@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Component_by_Name_Example_VBNET.htm"
 
 # Get Component by Name Example (VB.NET)
 
-This examples shows how to get a component by name and to determine
-if that component is fixed or floating.
+This examples shows how to get a component by name and to determine if that component is fixed or floating.
 
 ```
 '-------------------------------------------

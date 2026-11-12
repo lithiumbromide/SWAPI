@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel_members.html"
 
 # EdmTaskSel Structure Members
 
-The following tables list the members exposed by[EdmTaskSel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel.html).
+The following tables list the members exposed by [EdmTaskSel](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel.html).
 
 ## Public Fields
 
@@ -26,7 +26,5 @@ The following tables list the members exposed by[EdmTaskSel](EPDM.Interop.epdm~E
 ## See Also
 
 [EdmTaskSel Structure](EPDM.Interop.epdm~EPDM.Interop.epdm.EdmTaskSel.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Programming Tasks](Tasks.htm)

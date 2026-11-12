@@ -43,11 +43,7 @@ void RemoveAddIn(
 
 ## Examples
 
-See the
-
-[IEdmAddInMgr9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr9.html)
-
-examples.
+See the [IEdmAddInMgr9](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr9.html) examples.
 
 ## Remarks
 
@@ -59,9 +55,7 @@ examples.
 ## See Also
 
 [IEdmAddInMgr9 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr9.html)
-
 [IEdmAddInMgr9 Members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr9_members.html)
-
 [IEdmAddInMgr5::AddAddIns Method ()](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmAddInMgr5~AddAddIns.html)
 
 ## Availability

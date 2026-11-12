@@ -49,7 +49,7 @@ System.Object^ GetBucklingLoadFactors(
 
 ### Parameters
 
-- `ErrorCode`: Error as defined in[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+- `ErrorCode`: Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ### Return Value
 
@@ -57,16 +57,11 @@ Array of buckling load factors
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetBucklingLoadFactors](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetBucklingLoadFactors.html)
-
-.
+See [CWResults::GetBucklingLoadFactors](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetBucklingLoadFactors.html).
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
 
 ## Availability

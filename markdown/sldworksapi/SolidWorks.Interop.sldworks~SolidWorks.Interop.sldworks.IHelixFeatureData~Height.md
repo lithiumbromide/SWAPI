@@ -45,38 +45,23 @@ property System.double Height {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Height (see**Remarks**)
+Height (see **Remarks**)
 
 ## VBA Syntax
 
-See
-
-[HelixFeatureData::Height](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~Height.html)
-
-.
+See [HelixFeatureData::Height](ms-its:sldworksapivb6.chm::/sldworks~HelixFeatureData~Height.html).
 
 ## Remarks
 
-If the
-
-[helix is defined](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHelixFeatureData~DefinedBy.html)
-
-as swHelixDefinedBy_e.swHelixDefinedByPitchAndRevolution, then you cannot change the height of the helix.
+If the [helix is defined](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IHelixFeatureData~DefinedBy.html) as swHelixDefinedBy_e.swHelixDefinedByPitchAndRevolution, then you cannot change the height of the helix.
 
 ## See Also
 
 [IHelixFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData.html)
-
 [IHelixFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IHelixFeatureData_members.html)
 
 ## Availability

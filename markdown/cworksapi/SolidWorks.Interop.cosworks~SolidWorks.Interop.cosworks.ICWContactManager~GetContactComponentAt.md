@@ -57,22 +57,17 @@ CWContactComponent^ GetContactComponentAt(
 
 ## VBA Syntax
 
-See
-
-[CWContactManager::GetContactComponentAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~GetContactComponentAt.html)
-
-.
+See [CWContactManager::GetContactComponentAt](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWContactManager~GetContactComponentAt.html).
 
 ## Remarks
 
-Before calling this method, call[ICWContactManager::ContactComponentCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~ContactComponentCount.html)to determine the value of NIndex.
+Before calling this method, call [ICWContactManager::ContactComponentCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWContactManager~ContactComponentCount.html) to determine the value of NIndex.
 
 If no contact is present at the specified index, then this method returns null with a non-zero error code.
 
 ## See Also
 
 [ICWContactManager Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager.html)
-
 [ICWContactManager Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWContactManager_members.html)
 
 ## Availability

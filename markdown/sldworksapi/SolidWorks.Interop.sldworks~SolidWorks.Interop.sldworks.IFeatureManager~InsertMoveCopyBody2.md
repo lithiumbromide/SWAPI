@@ -91,91 +91,35 @@ Feature^ InsertMoveCopyBody2(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `TransX`: Value for delta X; applies to translation and valid only if Rot* parameters are null or Nothing (see
-
-Remarks
-
-)
-- `TransY`: Value for delta Y; applies to translation and valid only if Rot* parameters are null or Nothing (see
-
-Remarks
-
-)
-- `TransZ`: Value for delta Z; applies to translation and valid only if Rot* parameters are null or Nothing (see
-
-Remarks
-
-)
-- `TransDist`: Distance ; applies to translation and valid only if Rot* parameters are null or Nothing (see
-
-Remarks
-
-)
-- `RotPointX`: Value for X rotation origin; applies to rotation (see
-
-Remarks
-
-)
-- `RotPointY`: Value for Y rotation origin; applies to rotation (see
-
-Remarks
-
-)
-- `RotPointZ`: Value for Z rotation origin; applies to rotation (see
-
-Remarks
-
-)
-- `RotAngleX`: Value for X rotation angle; applies to rotation (see
-
-Remarks
-
-)
-- `RotAngleY`: Value for Y rotation angle; applies to rotation (see
-
-Remarks
-
-)
-- `RotAngleZ`: Value for Z rotation angle; applies to rotation (see
-
-Remarks
-
-)
+- `TransX`: Value for delta X; applies to translation and valid only if Rot* parameters are null or Nothing (see **Remarks**)
+- `TransY`: Value for delta Y; applies to translation and valid only if Rot* parameters are null or Nothing (see **Remarks**)
+- `TransZ`: Value for delta Z; applies to translation and valid only if Rot* parameters are null or Nothing (see **Remarks**)
+- `TransDist`: Distance ; applies to translation and valid only if Rot* parameters are null or Nothing (see **Remarks**)
+- `RotPointX`: Value for X rotation origin; applies to rotation (see **Remarks**)
+- `RotPointY`: Value for Y rotation origin; applies to rotation (see **Remarks**)
+- `RotPointZ`: Value for Z rotation origin; applies to rotation (see **Remarks**)
+- `RotAngleX`: Value for X rotation angle; applies to rotation (see **Remarks**)
+- `RotAngleY`: Value for Y rotation angle; applies to rotation (see **Remarks**)
+- `RotAngleZ`: Value for Z rotation angle; applies to rotation (see **Remarks**)
 - `BCopy`: True if a copy operation, false if a move operation
 - `NumCopies`: Number of copies to create
 
 ### Return Value
 
-Pointer to the
-
-[IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html)
-
-object
+Pointer to the [IFeature](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IFeature.html) object
 
 ## VBA Syntax
 
-See
-
-[FeatureManager::InsertMoveCopyBody2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMoveCopyBody2.html)
-
-.
+See [FeatureManager::InsertMoveCopyBody2](ms-its:sldworksapivb6.chm::/sldworks~FeatureManager~InsertMoveCopyBody2.html).
 
 ## Examples
 
 [Move Bodies (C#)](Move_Bodies_Example_CSharp.htm)
-
 [Move Bodies (VB.NET)](Move_Bodies_Example_VBNET.htm)
-
 [Move Bodies (VBA)](Move_Bodies_Example_VB.htm)
 
 ## Remarks
@@ -184,8 +128,6 @@ Specify either translation or rotation parameters. Translation and rotation cann
 
 This method requires selecting the body, surface, edge, and vertex using these marks:
 
-(Table)=========================================================
-
 | Selection | Mark |
 | --- | --- |
 | Body or surface | 1 |
@@ -193,16 +135,14 @@ This method requires selecting the body, surface, edge, and vertex using these m
 | Translation edge, vertex, coordinate system | 4 |
 | Translation vertex | 8 |
 
-**NOTE:**To add the move/copy body as a sub-feature of a derived part, you must select the move/copy body feature first.
+**NOTE:** To add the move/copy body as a sub-feature of a derived part, you must select the move/copy body feature first.
 
-See[IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html)for details on selecting and marking bodies, surfaces, edges, vertices, and coordinate systems.
+See [IModelDocExtension::SelectByID2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IModelDocExtension~SelectByID2.html) for details on selecting and marking bodies, surfaces, edges, vertices, and coordinate systems.
 
 ## See Also
 
 [IFeatureManager Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager.html)
-
 [IFeatureManager Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager_members.html)
-
 [IMoveCopyBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IMoveCopyBodyFeatureData.html)
 
 ## Availability

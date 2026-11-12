@@ -1,6 +1,5 @@
 ---
-title: "AssemblyDoc Object
-Members"
+title: "AssemblyDoc Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "AssemblyDoc_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~AssemblyDoc_members.html"
 ---
 
-# AssemblyDoc Object
-Members
+# AssemblyDoc Object Members
 
 ## Public Methods
 
@@ -228,6 +226,7 @@ Members
 | Public Event ActiveDisplayStateChangePreNotify |  |
 | Public Event ActiveViewChangeNotify |  |
 | Public Event AddCustomPropertyNotify |  |
+| Public Event AddDependencyNotify |  |
 | Public Event AddDvePagePreNotify |  |
 | Public Event AddItemNotify |  |
 | Public Event AddMatePostNotify |  |
@@ -257,6 +256,7 @@ Members
 | Public Event ComponentVisualPropertiesChangeNotify |  |
 | Public Event ConfigurationChangeNotify |  |
 | Public Event DeleteCustomPropertyNotify |  |
+| Public Event DeleteDependencyNotify |  |
 | Public Event DeleteItemNotify |  |
 | Public Event DeleteItemPreNotify |  |
 | Public Event DeleteSelectionPreNotify |  |
@@ -314,6 +314,7 @@ Members
 | Public Event SelectiveOpenPostNotify |  |
 | Public Event SensorAlertPreNotify |  |
 | Public Event SketchSolveNotify |  |
+| Public Event SolidBodyFolderReorderNotify |  |
 | Public Event SuppressionStateChangeNotify |  |
 | Public Event UndoPostNotify |  |
 | Public Event UndoPreNotify |  |

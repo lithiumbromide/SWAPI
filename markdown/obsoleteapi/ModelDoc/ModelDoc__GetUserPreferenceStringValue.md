@@ -9,101 +9,31 @@ source: "obsoleteapi/ModelDoc/ModelDoc__GetUserPreferenceStringValue.htm"
 
 # ModelDoc::GetUserPreferenceStringValue
 
-This method is obsolete and has been superseded by[ModelDoc2::GetUserPreferenceStringValue](sldworksAPI.chm::/ModelDoc2/ModelDoc2__GetUserPreferenceStringValue.htm).
+This method is obsolete and has been superseded by [ModelDoc2::GetUserPreferenceStringValue](sldworksAPI.chm::/ModelDoc2/ModelDoc2__GetUserPreferenceStringValue.htm).
 
 Description
 
-This method gets various system default user
-preference values. This method is intended for user preferences of type
-string.
+This method gets various system default user preference values. This method is intended for user preferences of type string.
 
 Syntax (OLE Automation)
 
-userPrefVal = ModelDoc.GetUserPreferenceStringValue
-(userPreference)
+userPrefVal = ModelDoc.GetUserPreferenceStringValue ( userPreference )
 
-(Table)=========================================================
-
-| Input: | ( long ) userPreference | User-preference value you wish to get; for a
-complete and up-to-date list of available options, see swUserPreferenceStringValue_e |
+| Input: | ( long ) userPreference | User-preference value you wish to get; for a complete and up-to-date list of available options, see swUserPreferenceStringValue_e |
 | --- | --- | --- |
-| Return: | ( BSTR ) userPrefVal | String value of the user preference specified
-in userPreference |
+| Return: | ( BSTR ) userPrefVal | String value of the user preference specified in userPreference |
 
 Syntax (COM)
 
-status = ModelDoc->GetUserPreferenceStringValue
-( userPreference, &userPrefVal )
+status = ModelDoc->GetUserPreferenceStringValue ( userPreference, &userPrefVal )
 
-(Table)=========================================================
-
-| Input: | ( long ) userPreference | User-preference value you wish to get; for a
-complete and up-to-date list of available options, see swUserPreferenceStringValue_e |
+| Input: | ( long ) userPreference | User-preference value you wish to get; for a complete and up-to-date list of available options, see swUserPreferenceStringValue_e |
 | --- | --- | --- |
-| Output: | ( BSTR ) userPrefVal | String value of the user preference specified
-in userPreference |
+| Output: | ( BSTR ) userPrefVal | String value of the user preference specified in userPreference |
 | Return: | (HRESULT) status | S_OK if successful |
 
 Remarks
 
-This method is the same as using theTools,
-Optionsmenu item.
+This method is the same as using the Tools, Options menu item.
 
-To use this method, choose one of the available
-items from the swUserPreferenceStringValue_e enumeration. The value returned
-iskadov_tag{{<spaces>}}kadov_tag{{</spaces>}}the
-current system default value for the user preference that you are querying.
-
-Metadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic0
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="SldWorks Method$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\obsoleteapi\ModelDoc\ModelDoc__GetUserPreferenceStringValue.htm" >
-<param name="_ID" value="RelatedTopic0" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspanMetadata type="DesignerControl" startspan
-<object classid="clsid:A2F1FA63-C1E6-11d2-9140-006DC83B9955"
-type="application/x-oleobject"
-id=RelatedTopic3
-style="width: 1px; height: 1px;"
-width=1
-height=1>
-<param name="_Version" value="65536" >
-<param name="_ExtentX" value="26" >
-<param name="_ExtentY" value="26" >
-<param name="_StockProps" value="13" >
-<param name="ForeColor" value="0" >
-<param name="BackColor" value="13160660" >
-<param name="UseButton" value="0" >
-<param name="ControlLabel" value="See Also" >
-<param name="UseIcon" value="0" >
-<param name="Items" value="ZReleaseNotes2001$$**$$" >
-<param name="Image" value="" >
-<param name="FontInfo" value="MS Sans Serif,8,0,," >
-<param name="_CURRENTFILEPATH" value="C:\Home\obsoleteapi\ModelDoc\ModelDoc__GetUserPreferenceStringValue.htm" >
-<param name="_ID" value="RelatedTopic3" >
-<param name="DialogDisplay" value="0" >
-<param name="Frame" value="" >
-<param name="Window" value="" >
-<param name="ChmFile" value="" >
-<param name="DisableJump" value="0" >
-</object>Metadata type="DesignerControl" endspan
+To use this method, choose one of the available items from the swUserPreferenceStringValue_e enumeration. The value returned is the current system default value for the user preference that you are querying.

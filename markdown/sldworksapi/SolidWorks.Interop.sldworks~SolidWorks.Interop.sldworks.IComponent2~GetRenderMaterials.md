@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICo
 
 # GetRenderMaterials Method (IComponent2)
 
-Obsolete. Superseded by
-
-[IComponent2::GetRenderMaterials2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetRenderMaterials2.html)
-
-.
+Obsolete. Superseded by [IComponent2::GetRenderMaterials2](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IComponent2~GetRenderMaterials2.html).
 
 ## Syntax
 
@@ -44,36 +40,21 @@ System.object GetRenderMaterials()
 System.Object^ GetRenderMaterials();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
-Array of
-
-[appearances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial.html)
+Array of [appearances](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IRenderMaterial.html)
 
 ## VBA Syntax
 
-See
-
-[Component2::GetRenderMaterials](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetRenderMaterials.html)
-
-.
+See [Component2::GetRenderMaterials](ms-its:sldworksapivb6.chm::/sldworks~Component2~GetRenderMaterials.html).
 
 ## See Also
 
 [IComponent2 Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2.html)
-
 [IComponent2 Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2_members.html)
-
 [IComponent2::IGetRenderMaterials Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IGetRenderMaterials.html)
-
 [IComponent2::GetRenderMaterialsCount Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~GetRenderMaterialsCount.html)
 
 ## Availability

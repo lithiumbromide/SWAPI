@@ -1,6 +1,5 @@
 ---
-title: "TextFormat Object
-Members"
+title: "TextFormat Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "TextFormat_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~TextFormat_members.html"
 ---
 
-# TextFormat Object
-Members
+# TextFormat Object Members
 
 ## Public Methods
 

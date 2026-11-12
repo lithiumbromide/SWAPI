@@ -39,11 +39,7 @@ public delegate void _IEModelViewControlEvents_OnFinishedAnimationEventHandler()
 
 ## VBA Syntax
 
-See
-
-[OnFinishedAnimation Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFinishedAnimation_EV.html)
-
-.
+See [OnFinishedAnimation Event (EModelViewControl)](ms-its:emodelapivb6.chm::/EModelView~EModelViewControl~OnFinishedAnimation_EV.html).
 
 ## Remarks
 

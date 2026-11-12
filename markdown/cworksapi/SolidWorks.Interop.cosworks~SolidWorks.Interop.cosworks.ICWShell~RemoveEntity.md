@@ -52,26 +52,16 @@ void RemoveEntity(
 
 ## VBA Syntax
 
-See
-
-[CWShell::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~RemoveEntity.html)
-
-.
+See [CWShell::RemoveEntity](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWShell~RemoveEntity.html).
 
 ## Remarks
 
-Before calling this method, call
-
-[ICWShell::EntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShell~EntityCount.html)
-
-to get NIndex.
+Before calling this method, call [ICWShell::EntityCount](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.ICWShell~EntityCount.html) to get NIndex.
 
 ## See Also
 
 [ICWShell Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell.html)
-
 [ICWShell Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell_members.html)
-
 [ICWShell::RemoveEntity Method](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWShell~RemoveEntity.html)
 
 ## Availability

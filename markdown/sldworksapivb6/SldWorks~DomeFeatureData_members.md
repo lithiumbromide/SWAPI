@@ -1,6 +1,5 @@
 ---
-title: "DomeFeatureData Object
-Members"
+title: "DomeFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "DomeFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~DomeFeatureData_members.html"
 ---
 
-# DomeFeatureData Object
-Members
+# DomeFeatureData Object Members
 
 ## Public Methods
 

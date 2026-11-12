@@ -59,44 +59,14 @@ ModelDoc2^ LoadFile4(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `FileName`: Full path and file name of the third-party native CAD part or assembly document to import (see
-
-Remarks
-
-)
-- `ArgString`: Space-separated string that allows optional arguments to be specified when opening a third-party native CAD file; empty string if 3D Interconnect is enabled (see
-
-Remarks
-
-)
-- `ImportData`: [IImportIgesData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportIgesData.html)
-
-,
-
-[IImportDxfDwgData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportDxfDwgData.html)
-
-, or
-
-[IImportStepData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportStepData.html)
-
-object; null or Nothing if 3D Interconnect is not enabled (see
-
-Remarks
-
-)
-- `Errors`: Errors as defined in
-
-[swFileLoadError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileLoadError_e.html)
+- `FileName`: Full path and file name of the third-party native CAD part or assembly document to import (see **Remarks**)
+- `ArgString`: Space-separated string that allows optional arguments to be specified when opening a third-party native CAD file; empty string if 3D Interconnect is enabled (see Remarks)
+- `ImportData`: [IImportIgesData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportIgesData.html), [IImportDxfDwgData](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IImportDxfDwgData.html), or [IImportStepData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportStepData.html) object; null or Nothing if 3D Interconnect is not enabled (see Remarks)
+- `Errors`: Errors as defined in [swFileLoadError_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swFileLoadError_e.html)
 
 ### Return Value
 
@@ -104,43 +74,22 @@ Remarks
 
 ## VBA Syntax
 
-See
-
-[SldWorks::LoadFile4](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~LoadFile4.html)
-
-.
+See [SldWorks::LoadFile4](ms-its:sldworksapivb6.chm::/sldworks~SldWorks~LoadFile4.html).
 
 ## Examples
 
 [Import DXF File Into Part Sketch (VBA)](Import_DXF_File_into_Part_Sketch_Example_VB.htm)
-
 [Import IGES File (VBA)](Import_IGES_File_Example_VB.htm)
-
 [Specify IGES Levels and Values, Then Import IGES File (C#)](Specify_IGES_Levels_and_Values_Then_Import_IGES_File_Example_CSharp.htm)
-
 [Specify IGES Levels and Values, Then Import IGES File (VB.NET)](Specify_IGES_Levels_and_Values_Then_Import_IGES_File_Example_VBNET.htm)
-
 [Specify IGES Levels and Values, Then Import IGES File (VBA)](Specify_IGES_Levels_and_Values,_Then_Import_IGES_File_Example_VB.htm)
-
 [Use 3D Interconnect to Import Third-Party Native CAD Files (C#)](Import3DInterconnect_Example_CSharp.htm)
 
 ## Remarks
 
 This method:
 
-- Uses 3D Interconnect to load FileName into a new SOLIDWORKS document. Before calling this method, turn on 3D Interconnect by setting
-
-  Tools > Options > System Options > Import > Enable 3D Interconnect
-
-  or calling
-
-  [ISldWorks::SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)
-
-  (
-
-  [swUserPreferenceToggle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html)
-
-  .swMultiCAD_Enable3DInterconnect, True). With 3D Interconnect enabled, this method supports the following third-party native CAD formats and versions:
+- Uses 3D Interconnect to load FileName into a new SOLIDWORKS document. Before calling this method, turn on 3D Interconnect by setting **Tools > Options > System Options > Import > Enable 3D Interconnect** or calling [ISldWorks::SetUserPreferenceToggle](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~SetUserPreferenceToggle.html)([swUserPreferenceToggle_e](ms-its:swconst.chm::/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swUserPreferenceToggle_e.html).swMultiCAD_Enable3DInterconnect, True). With 3D Interconnect enabled, this method supports the following third-party native CAD formats and versions:
 
   - ACIS: .sat, .sab, .asat, .asab for r1 - 2018 1.0
   - Autodesk® Inventor: .ipt for V6-V2018, .iam for V11 - V2018
@@ -155,24 +104,12 @@ This method:
 
   - For parts, the SOLIDWORKS file created is a copy of the original non-native file. The copy retains an external reference to the original CAD file. If the original third-party native file is modified in its orginal application, the SOLIDWORKS copy can be updated to import those changes. Changes to the SOLIDWORKS copy do not propagate back to the original file.
   - For assemblies, you must save the new SOLIDWORKS assembly in order for SOLIDWORKS to import the third-party native assembly and create the copy. Only after saving the new SOLIDWORKS assembly can you edit the imported top-level assembly or break its reference link. Editing lower-level components of the imported top-level assembly or individually breaking their reference links is not supported.
-  - See the
-
-    [IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html)
-
-    Remarks for information about editing imported CAD data and breaking reference links to third-party native CAD parts and assemblies.
+  - See the [IImport3DInterconnectData](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImport3DInterconnectData.html) Remarks for information about editing imported CAD data and breaking reference links to third-party native CAD parts and assemblies.
 - Imports the geometry as a featureless solid body.
 - Does not import FileName into any existing SOLIDWORKS file or the active document. To import a third-party native CAD file into an existing SOLIDWORKS:
 
-  - Part, use
-
-    [IPartDoc::InsertImportedFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~InsertImportedFeature.html)
-
-    .
-  - Assembly, use
-
-    [IAssemblyDoc::InsertImportedComponent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertImportedComponent.html)
-
-    .
+  - Part, use [IPartDoc::InsertImportedFeature](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IPartDoc~InsertImportedFeature.html).
+  - Assembly, use [IAssemblyDoc::InsertImportedComponent](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~InsertImportedComponent.html).
 - Imports third-party native CAD files using different behavior if 3D Interconnect is not enabled:
 
 | If 3D Interconnect is not enabled and you are importing... | Then... |
@@ -185,11 +122,8 @@ This method:
 ## See Also
 
 [ISldWorks Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks.html)
-
 [ISldWorks Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks_members.html)
-
 [ISldWorks::OpenDoc6 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~OpenDoc6.html)
-
 [IFeatureManager::InsertDwgOrDxfFile2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IFeatureManager~InsertDwgOrDxfFile2.html)
 
 ## Availability

@@ -9,12 +9,9 @@ source: "API_GB/Get_Histories_of_Files_Example_VBNET.htm"
 
 # Get Histories of Files Example (VB.NET)
 
-This example shows how to update version comments and get histories
-of files.
+This example shows how to update version comments and get histories of files.
 
-**NOTE**: If using the primary interop assembly
-provided with SOLIDWORKS PDM Professional, see[Using .NET Framework 4.0 in
-Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
+**NOTE**: If using the primary interop assembly provided with SOLIDWORKS PDM Professional, see [Using .NET Framework 4.0 in Stand-alone Applications](Using_NET_Framework_in_Applications.htm).
 
 ```vb
    '----------------------------------------------------------------------------

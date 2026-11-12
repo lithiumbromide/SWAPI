@@ -47,21 +47,11 @@ System.bool RemoveCommands(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `CommandIDs`: Array of command IDs for the buttons you want removed from this CommandManager tab box (see
-
-Remarks
-
-)
+- `CommandIDs`: Array of command IDs for the buttons you want removed from this CommandManager tab box (see **Remarks**)
 
 ### Return Value
 
@@ -69,22 +59,16 @@ True if the specified buttons are removed, false if not
 
 ## VBA Syntax
 
-See
-
-[CommandTabBox::RemoveCommands](ms-its:sldworksapivb6.chm::/sldworks~CommandTabBox~RemoveCommands.html)
-
-.
+See [CommandTabBox::RemoveCommands](ms-its:sldworksapivb6.chm::/sldworks~CommandTabBox~RemoveCommands.html).
 
 ## Remarks
 
-You can get the CommandID values using[ICommandGroup::CommandID](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~CommandID.html)or[ICommandGroup::ToolbarId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~ToolbarId.html)after calling[ICommandGroup::Activate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~Activate.html).
+You can get the CommandID values using [ICommandGroup::CommandID](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~CommandID.html) or [ICommandGroup::ToolbarId](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~ToolbarId.html) after calling [ICommandGroup::Activate](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICommandGroup~Activate.html).
 
 ## See Also
 
 [ICommandTabBox Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox.html)
-
 [ICommandTabBox Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox_members.html)
-
 [ICommandTabBox::IRemoveCommands Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICommandTabBox~IRemoveCommands.html)
 
 ## Availability

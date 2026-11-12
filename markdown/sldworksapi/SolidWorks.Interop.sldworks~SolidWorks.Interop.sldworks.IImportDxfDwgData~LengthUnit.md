@@ -50,13 +50,7 @@ property System.int LengthUnit {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
@@ -64,30 +58,20 @@ See
 
 ### Property Value
 
-Length as defined in[swLengthUnit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLengthUnit_e.html)
+Length as defined in [swLengthUnit_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swLengthUnit_e.html)
 
 ## VBA Syntax
 
-See
-
-[ImportDxfDwgData::LengthUnit](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~LengthUnit.html)
-
-.
+See [ImportDxfDwgData::LengthUnit](ms-its:sldworksapivb6.chm::/sldworks~ImportDxfDwgData~LengthUnit.html).
 
 ## Examples
 
 [Import DXF File into Drawing (VBA)](Import_DXF_File_to_Drawing_Example_VB.htm)
-
 [Insert DXF/DWG File and Add Dimensions (VBA)](Insert_DXF_File_and_Add_Dimension_Example_VB.htm)
-
 [Insert DXF/DWG File and Add Dimensions (VB.NET)](Insert_DXF_File_and_Add_Dimensions_Example_VBNET.htm)
-
 [Insert DXF/DWG File and Add Dimensions (C#)](Insert_DXF_File_and_Add_Dimensions_Example_CSharp.htm)
-
 [Insert and Position DXF/DWG File in Drawing (C#)](Insert_and_Position_DXF_File_in_Drawing_Example_CSharp.htm)
-
 [Insert and Position DXF/DWG File in Drawing (VB.NET)](Insert_and_Position_DXF_File_in_Drawing_Example_VBNET.htm)
-
 [Insert and Position DXF/DWG File in Drawing (VBA)](Insert_and_Position_DXF_File_in_Drawing_Example_VB.htm)
 
 ## Remarks
@@ -97,7 +81,6 @@ By default, the length is determined from the header of the input DWG/DXF file.
 ## See Also
 
 [IImportDxfDwgData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData.html)
-
 [IImportDxfDwgData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IImportDxfDwgData_members.html)
 
 ## Availability

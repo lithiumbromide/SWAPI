@@ -45,13 +45,7 @@ property System.int Color {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,11 +53,7 @@ COLORREF value for this sketch point
 
 ## VBA Syntax
 
-See
-
-[SketchPoint::Color](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~Color.html)
-
-.
+See [SketchPoint::Color](ms-its:sldworksapivb6.chm::/sldworks~SketchPoint~Color.html).
 
 ## Remarks
 
@@ -71,14 +61,12 @@ Only drawing documents support layers.
 
 Sketch points can be created on a layer that has specific visual properties. The color value specified with this property overrides the layer color.
 
-Use the[ISketchPoint::LayerOverride](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint~LayerOverride.html)to determine if this sketch point is currently using its default layer color.
+Use the [ISketchPoint::LayerOverride](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISketchPoint~LayerOverride.html) to determine if this sketch point is currently using its default layer color.
 
 ## See Also
 
 [ISketchPoint Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint.html)
-
 [ISketchPoint Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint_members.html)
-
 [ISketchPoint::Layer Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISketchPoint~Layer.html)
 
 ## Availability

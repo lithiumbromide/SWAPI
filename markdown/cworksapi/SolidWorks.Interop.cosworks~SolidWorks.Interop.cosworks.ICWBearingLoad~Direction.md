@@ -51,28 +51,17 @@ property System.int Direction {
 
 ## VBA Syntax
 
-See
-
-[CWBearingLoad::Direction](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~Direction.html)
-
-.
+See [CWBearingLoad::Direction](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWBearingLoad~Direction.html).
 
 ## Examples
 
-See the
-
-[ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
-examples.
+See the [ICWBearingLoad](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html) examples.
 
 ## See Also
 
 [ICWBearingLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad.html)
-
 [ICWBearingLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad_members.html)
-
 [ICWBearingLoad::XDirectionValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~XDirectionValue.html)
-
 [ICWBearingLoad::YDirectionValue Property](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWBearingLoad~YDirectionValue.html)
 
 ## Availability

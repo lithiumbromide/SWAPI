@@ -59,58 +59,35 @@ System.int SavePlotsAseDrawings(
 
 - `SFileLocation`: Path where to save the eDrawings file
 - `SFileName`: Name of eDrawings file to save
-- `SPlotName`: Plot to save as an eDrawings file (see
-
-Remarks
-
-)
+- `SPlotName`: Plot to save as an eDrawings file (see **Remarks**)
 
 ### Return Value
 
-Error as defined by
-
-[swsSaveeDrawingsErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSaveeDrawingsErrorCode_e.html)
+Error as defined by [swsSaveeDrawingsErrorCode_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsSaveeDrawingsErrorCode_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResults::SavePlotsAseDrawings](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~SavePlotsAseDrawings.html)
-
-.
+See [CWResults::SavePlotsAseDrawings](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~SavePlotsAseDrawings.html).
 
 ## Examples
 
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VBA)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VB.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (VB.NET)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_VBNET.htm)
-
 [Apply Thermostat-controlled Heat Power for Transient Thermal Study (C#)](Apply_Thermostat-controlled_Heat_Power_for_Transient_Thermal_Study_Example_CSharp.htm)
 
 ## Remarks
 
-Call
-
-[ICWResults::GetPlotNames](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotNames.html)
-
-to populate SPlotName.
+Call [ICWResults::GetPlotNames](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotNames.html) to populate SPlotName.
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetPlotCount Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotCount.html)
-
 [ICWResults::ActivatePlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~ActivatePlot.html)
-
 [ICWResults::AddIsoClippingToPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~AddIsoClippingToPlot.html)
-
 [ICWResults::CreatePlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreatePlot.html)
-
 [ICWResults::CreateResultsEquationPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~CreateResultsEquationPlot.html)
-
 [ICWResults::GetPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlot.html)
 
 ## Availability

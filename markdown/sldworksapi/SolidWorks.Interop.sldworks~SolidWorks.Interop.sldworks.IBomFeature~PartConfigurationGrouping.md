@@ -45,44 +45,27 @@ property System.int PartConfigurationGrouping {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Grouping as defined in
-
-[swPartConfigurationGroupingOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartConfigurationGroupingOption_e.html)
+Grouping as defined in [swPartConfigurationGroupingOption_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swPartConfigurationGroupingOption_e.html)
 
 ## VBA Syntax
 
-See
-
-[BomFeature::PartConfigurationGrouping](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~PartConfigurationGrouping.html)
-
-.
+See [BomFeature::PartConfigurationGrouping](ms-its:sldworksapivb6.chm::/sldworks~BomFeature~PartConfigurationGrouping.html).
 
 ## Remarks
 
-This property corresponds to thePart Configuration Groupingsection in theBill of MaterialsPropertyManager, which displays when you create or edit a BOM table in an assembly drawing.
+This property corresponds to the Part Configuration Grouping section in the Bill of Materials PropertyManager, which displays when you create or edit a BOM table in an assembly drawing.
 
 ## See Also
 
 [IBomFeature Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature.html)
-
 [IBomFeature Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature_members.html)
-
 [IBomTableAnnotation::GetComponents2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~GetComponents2.html)
-
 [IBomTableAnnotation::IGetComponents2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~IGetComponents2.html)
-
 [IBomTableAnnotation::GetComponentsCount2 Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomTableAnnotation~GetComponentsCount2.html)
-
 [IBomFeature::DisplayAsOneItem Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IBomFeature~DisplayAsOneItem.html)
 
 ## Availability

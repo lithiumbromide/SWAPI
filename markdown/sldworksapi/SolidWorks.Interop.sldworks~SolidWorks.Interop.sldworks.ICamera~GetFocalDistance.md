@@ -40,13 +40,7 @@ System.double GetFocalDistance()
 System.double GetFocalDistance();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ Camera's focal distance
 
 ## VBA Syntax
 
-See
-
-[Camera::GetFocalDistance](ms-its:sldworksapivb6.chm::/sldworks~Camera~GetFocalDistance.html)
-
-.
+See [Camera::GetFocalDistance](ms-its:sldworksapivb6.chm::/sldworks~Camera~GetFocalDistance.html).
 
 ## Examples
 
 [Insert Camera (C#)](Insert_Camera_Example_CSharp.htm)
-
 [Insert Camera (VB.NET)](Insert_Camera_Example_VBNET.htm)
-
 [Insert Camera (VBA)](Insert_Camera_Example_VB.htm)
 
 ## Remarks
@@ -75,7 +63,6 @@ If the camera is locked to a reference, then the return value might be different
 ## See Also
 
 [ICamera Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera.html)
-
 [ICamera Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICamera_members.html)
 
 ## Availability

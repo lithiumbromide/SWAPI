@@ -9,11 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICa
 
 # UpdatePosition Method (ICallout)
 
-Obsolete. Superseded by
-
-[Callout::Position](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout~Position.html)
-
-.
+Obsolete. Superseded by [Callout::Position](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ICallout~Position.html).
 
 ## Syntax
 
@@ -58,32 +54,21 @@ void UpdatePosition(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
 - `XPos`: x coordinate for callout
-- `YPos`: y coordinate for calloutParamDesc
-- `ZPos`: z coordinate for calloutParamDesc
+- `YPos`: y coordinate for callout
+- `ZPos`: z coordinate for callout
 
 ## VBA Syntax
 
-See
-
-[Callout::UpdatePosition](ms-its:sldworksapivb6.chm::/sldworks~Callout~UpdatePosition.html)
-
-.
+See [Callout::UpdatePosition](ms-its:sldworksapivb6.chm::/sldworks~Callout~UpdatePosition.html).
 
 ## See Also
 
 [ICallout Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout.html)
-
 [ICallout Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ICallout_members.html)
 
 ## Availability

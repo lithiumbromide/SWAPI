@@ -45,13 +45,7 @@ property System.double ProfileOffsetDistance {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,30 +53,21 @@ Distance
 
 ## VBA Syntax
 
-See
-
-[GussetFeatureData::ProfileOffsetDistance](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ProfileOffsetDistance.html)
-
-.
+See [GussetFeatureData::ProfileOffsetDistance](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ProfileOffsetDistance.html).
 
 ## Examples
 
 [Get Gusset Feature Data (C#)](Get_Gusset_Feature_Data_Example_CSharp.htm)
-
 [Get Gusset Feature Data (VB.NET)](Get_Gusset_Feature_Data_Example_VBNET.htm)
-
 [Get Gusset Feature Data (VBA)](Get_Gusset_Feature_Data_Example_VB.htm)
 
 ## Remarks
 
-[IGussetFeatureData::OffsetUsed](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGussetFeatureData~OffsetUsed.html)
-
-must be set to True.
+[IGussetFeatureData::OffsetUsed](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IGussetFeatureData~OffsetUsed.html) must be set to True.
 
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [IGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData_members.html)
 
 ## Availability

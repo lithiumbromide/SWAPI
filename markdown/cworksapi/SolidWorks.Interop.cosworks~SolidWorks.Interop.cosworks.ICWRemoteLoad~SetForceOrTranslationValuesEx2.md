@@ -73,17 +73,11 @@ void SetForceOrTranslationValuesEx2(
 ### Parameters
 
 - `BInclude`: -1 or true to include force or translation in the remote load, 0 or false to not
-- `NXCode`: Remote load option in the x direction as defined in
-
-[swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
+- `NXCode`: Remote load option in the x direction as defined in [swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
 - `DXValue`: Force or translation in the x direction as specified by NXCode
-- `NYCode`: Remote load option in the y direction as defined in
-
-[swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
+- `NYCode`: Remote load option in the y direction as defined in [swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
 - `DYValue`: Force or translation in the y direction as specified by NYCode
-- `NZCode`: Remote load option in the z direction as defined in
-
-[swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
+- `NZCode`: Remote load option in the z direction as defined in [swsRemoteLoadCheckCode_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsRemoteLoadCheckCode_e.html)
 - `DZValue`: Force or translation in the z direction as specified by NZCode
 
 ## Examples
@@ -92,20 +86,11 @@ void SetForceOrTranslationValuesEx2(
 
 ## Remarks
 
-This method is valid only if
-
-[ICWRemoteLoad::AllowDistributedCoupling2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling2.html)
-
-returns -1 or true. If it returns 0 or false, then use
-
-[ICWRemoteLoad::SetForceOrTranslationValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetForceOrTranslationValues2.html)
-
-instead of this method.
+This method is valid only if [ICWRemoteLoad::AllowDistributedCoupling2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~AllowDistributedCoupling2.html) returns -1 or true. If it returns 0 or false, then use [ICWRemoteLoad::SetForceOrTranslationValues2](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad~SetForceOrTranslationValues2.html) instead of this method.
 
 ## See Also
 
 [ICWRemoteLoad Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad.html)
-
 [ICWRemoteLoad Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWRemoteLoad_members.html)
 
 ## Availability

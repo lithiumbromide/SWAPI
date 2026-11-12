@@ -1,6 +1,5 @@
 ---
-title: "DimXpertCompoundClosedSlot3DFeature Object
-Members"
+title: "DimXpertCompoundClosedSlot3DFeature Object Members"
 project: "SOLIDWORKS DimXpert Type Library"
 interface: "DimXpertCompoundClosedSlot3DFeature_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "swdimxpertapivb6/SwDimXpert~DimXpertCompoundClosedSlot3DFeature_members.html"
 ---
 
-# DimXpertCompoundClosedSlot3DFeature Object
-Members
+# DimXpertCompoundClosedSlot3DFeature Object Members
 
 ## Public Methods
 

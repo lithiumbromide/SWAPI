@@ -45,13 +45,7 @@ property System.String^ SheetName {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
@@ -59,24 +53,17 @@ Sheet name
 
 ## VBA Syntax
 
-See
-
-[DocumentSpecification::SheetName](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~SheetName.html)
-
-.
+See [DocumentSpecification::SheetName](ms-its:sldworksapivb6.chm::/sldworks~DocumentSpecification~SheetName.html).
 
 ## Examples
 
 [Open Specified Sheet in Drawing Document (VB.NET)](Open_Specified_Sheet_in_Drawing_Document_Example_VBNET.htm)
-
 [Open Specified Sheet in Drawing Document (VBA)](Open_Specified_Sheet_in_Drawing_Document_Example_VB.htm)
-
 [Open Specified Sheet in Drawing Document (C#)](Open_Specified_Sheet_in_Drawing_Document_Example_CSharp.htm)
 
 ## See Also
 
 [IDocumentSpecification Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification.html)
-
 [IDocumentSpecification Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDocumentSpecification_members.html)
 
 ## Availability

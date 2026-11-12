@@ -40,13 +40,7 @@ System.string GetCurrentLayer()
 System.String^ GetCurrentLayer();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,11 +48,7 @@ Name of the active layer
 
 ## VBA Syntax
 
-See
-
-[LayerMgr::GetCurrentLayer](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~GetCurrentLayer.html)
-
-.
+See [LayerMgr::GetCurrentLayer](ms-its:sldworksapivb6.chm::/sldworks~LayerMgr~GetCurrentLayer.html).
 
 ## Examples
 
@@ -66,18 +56,16 @@ See
 
 ## Remarks
 
-If an empty string is returned, then there is no active layer and-None-is displayed in the Layer toolbar.
+If an empty string is returned, then there is no active layer and -None- is displayed in the Layer toolbar.
 
-To access information about a layer, get the[ILayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayer.html)object by passing the layer name to[ILayerMgr::GetLayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~GetLayer.html).
+To access information about a layer, get the [ILayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayer.html) object by passing the layer name to [ILayerMgr::GetLayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~GetLayer.html).
 
-To change the currently active layer, use[ILayerMgr::SetCurrentLayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~SetCurrentLayer.html).
+To change the currently active layer, use [ILayerMgr::SetCurrentLayer](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ILayerMgr~SetCurrentLayer.html).
 
 ## See Also
 
 [ILayerMgr Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr.html)
-
 [ILayerMgr Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr_members.html)
-
 [ILayerMgr::SetCurrentLayer Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ILayerMgr~SetCurrentLayer.html)
 
 ## Availability

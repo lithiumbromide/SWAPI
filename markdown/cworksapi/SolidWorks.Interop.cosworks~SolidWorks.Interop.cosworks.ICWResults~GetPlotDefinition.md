@@ -70,9 +70,7 @@ System.int GetPlotDefinition(
 ### Parameters
 
 - `SPlotName`: Name of plot
-- `NPlotType`: Type of plot as defined in
-
-[swsPlotResultTypes_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPlotResultTypes_e.html)
+- `NPlotType`: Type of plot as defined in [swsPlotResultTypes_e](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.swsPlotResultTypes_e.html)
 - `NComponentName`: Name of plotted component
 - `BNodal`: True if plot is nodal, false if elemental
 - `BDeformed`: True if deformed, false if not
@@ -80,46 +78,29 @@ System.int GetPlotDefinition(
 
 ### Return Value
 
-Error as defined in
-
-[swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
+Error as defined in [swsResultsError_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsResultsError_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWResults::GetPlotDefinition](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetPlotDefinition.html)
-
-.
+See [CWResults::GetPlotDefinition](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWResults~GetPlotDefinition.html).
 
 ## Examples
 
 [Create Body From Deformed Shape (VBA)](Create_Body_From_Deformed_Shape_Example_VB.htm)
-
 [Create Body From Deformed Shape (VB.NET)](Create_Body_From_Deformed_Shape_Example_VBNET.htm)
-
 [Create Body From Deformed Shape (C#)](Create_Body_From_Deformed_Shape_Example_CSharp.htm)
 
 ## See Also
 
 [ICWResults Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults.html)
-
 [ICWResults Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults_members.html)
-
 [ICWResults::GetPlot Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlot.html)
-
 [ICWResults::GetPlotColorOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotColorOptions.html)
-
 [ICWResults::GetPlotCount Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotCount.html)
-
 [ICWResults::GetPlotDisplayOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotDisplayOptions.html)
-
 [ICWResults::GetPlotNames Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotNames.html)
-
 [ICWResults::GetPlotPositionFormatOptions Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotPositionFormatOptions.html)
-
 [ICWResults::GetPlotSettings Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotSettings.html)
-
 [ICWResults::GetPlotSettingsOptionForHiddenAndExcludedBody Method ()](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWResults~GetPlotSettingsOptionForHiddenAndExcludedBody.html)
 
 ## Availability

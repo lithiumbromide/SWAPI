@@ -40,13 +40,7 @@ System.bool HideView()
 System.bool HideView();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,18 +48,12 @@ True if the application-level tab is hidden, false if not
 
 ## VBA Syntax
 
-See
-
-[TaskpaneView::HideView](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~HideView.html)
-
-.
+See [TaskpaneView::HideView](ms-its:sldworksapivb6.chm::/sldworks~TaskpaneView~HideView.html).
 
 ## See Also
 
 [ITaskpaneView Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView.html)
-
 [ITaskpaneView Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView_members.html)
-
 [ITaskpaneView::ShowView Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ITaskpaneView~ShowView.html)
 
 ## Availability

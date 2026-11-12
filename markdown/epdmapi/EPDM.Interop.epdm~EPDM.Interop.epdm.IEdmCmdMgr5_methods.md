@@ -9,7 +9,7 @@ source: "epdmapi/EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5_methods.html"
 
 # IEdmCmdMgr5 Interface Methods
 
-For a list of all members of this type, see[IEdmCmdMgr5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5_members.html).
+For a list of all members of this type, see [IEdmCmdMgr5 members](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5_members.html).
 
 ## Public Methods
 
@@ -24,9 +24,6 @@ For a list of all members of this type, see[IEdmCmdMgr5 members](EPDM.Interop.ep
 ## See Also
 
 [IEdmCmdMgr5 Interface](EPDM.Interop.epdm~EPDM.Interop.epdm.IEdmCmdMgr5.html)
-
 [EPDM.Interop.epdm Namespace](EPDM.Interop.epdm~EPDM.Interop.epdm_namespace.html)
-
 [Creating Menu Commands (VB.NET)](vbmenuitem.htm)
-
 [Creating Add-in Hooks (VB.NET)](vbreactor.htm)

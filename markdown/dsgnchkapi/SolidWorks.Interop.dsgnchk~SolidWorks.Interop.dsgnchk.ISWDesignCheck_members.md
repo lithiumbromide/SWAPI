@@ -9,7 +9,7 @@ source: "dsgnchkapi/SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDes
 
 # ISWDesignCheck Interface Members
 
-The following tables list the members exposed by[ISWDesignCheck](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck.html).
+The following tables list the members exposed by [ISWDesignCheck](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck.html).
 
 ## Public Methods
 
@@ -29,5 +29,4 @@ The following tables list the members exposed by[ISWDesignCheck](SolidWorks.Inte
 ## See Also
 
 [ISWDesignCheck Interface](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk.ISWDesignCheck.html)
-
 [SolidWorks.Interop.dsgnchk Namespace](SolidWorks.Interop.dsgnchk~SolidWorks.Interop.dsgnchk_namespace.html)

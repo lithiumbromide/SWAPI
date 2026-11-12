@@ -11,8 +11,7 @@ source: "sldworksapi/Get_General_Table_in_Part_Example_CSharp.htm"
 
 ## Get General Table Annotation Example (C#)
 
-This example shows how to create a general table annotation for 3D PDF files
-in SOLIDWORKS MBD.
+This example shows how to create a general table annotation for 3D PDF files in SOLIDWORKS MBD.
 
 ```vb
  //--------------------------------------------------------------------------

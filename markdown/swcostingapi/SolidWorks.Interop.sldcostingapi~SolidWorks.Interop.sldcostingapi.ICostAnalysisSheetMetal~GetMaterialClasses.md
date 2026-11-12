@@ -46,26 +46,18 @@ Array of strings of the material classes
 
 ## VBA Syntax
 
-See
-
-[CostAnalysisSheetMetal::GetMaterialClasses](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~GetMaterialClasses.html)
-
-.
+See [CostAnalysisSheetMetal::GetMaterialClasses](swcostingapivb6.chm::/SldCostingAPI~CostAnalysisSheetMetal~GetMaterialClasses.html).
 
 ## Remarks
 
-See[Getting Started](GettingStarted-swcostingapi.html)for details about Costing templates.
+See [Getting Started](GettingStarted-swcostingapi.html) for details about Costing templates.
 
 ## See Also
 
 [ICostAnalysisSheetMetal Interface](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal.html)
-
 [ICostAnalysisSheetMetal Members](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal_members.html)
-
 [ICostAnalysisSheetMetal::GetMaterialClassesCount Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~GetMaterialClassesCount.html)
-
 [ICostAnalysisSheetMetal::IGetMaterialClasses Method ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~IGetMaterialClasses.html)
-
 [ICostAnalysisSheetMetal::CurrentMaterialClass Property ()](SolidWorks.Interop.sldcostingapi~SolidWorks.Interop.sldcostingapi.ICostAnalysisSheetMetal~CurrentMaterialClass.html)
 
 ## Availability

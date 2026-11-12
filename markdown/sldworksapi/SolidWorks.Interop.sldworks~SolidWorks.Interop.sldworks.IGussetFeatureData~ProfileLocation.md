@@ -45,34 +45,19 @@ property System.int ProfileLocation {
 }
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Property Value
 
-Location of profile as defined by
-
-[swGussetProfileLocationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swGussetProfileLocationType_e.html)
-
-EndOLEPropertyRow
+Location of profile as defined by [swGussetProfileLocationType_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swGussetProfileLocationType_e.html)
 
 ## VBA Syntax
 
-See
-
-[GussetFeatureData::ProfileLocation](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ProfileLocation.html)
-
-.
+See [GussetFeatureData::ProfileLocation](ms-its:sldworksapivb6.chm::/sldworks~GussetFeatureData~ProfileLocation.html).
 
 ## See Also
 
 [IGussetFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData.html)
-
 [IGussetFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IGussetFeatureData_members.html)
 
 ## Availability

@@ -1,6 +1,5 @@
 ---
-title: "AngleMateFeatureData Object
-Members"
+title: "AngleMateFeatureData Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "AngleMateFeatureData_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~AngleMateFeatureData_members.html"
 ---
 
-# AngleMateFeatureData Object
-Members
+# AngleMateFeatureData Object Members
 
 ## Public Properties
 

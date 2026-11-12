@@ -39,48 +39,28 @@ void TemporaryFixGroupExit()
 void TemporaryFixGroupExit();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ## VBA Syntax
 
-See
-
-[AssemblyDoc::TemporaryFixGroupExit](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~TemporaryFixGroupExit.html)
-
-.
+See [AssemblyDoc::TemporaryFixGroupExit](ms-its:sldworksapivb6.chm::/sldworks~AssemblyDoc~TemporaryFixGroupExit.html).
 
 ## Examples
 
 [Temporarily Fix and Group Components (C#)](Temporarily_Fix_and_Group_Components_Example_CSharp.htm)
-
 [Temporarily Fix and Group Components (VB.NET)](Temporarily_Fix_and_Group_Components_Example_VBNET.htm)
-
 [Temporarily Fix and Group Components (VBA)](Temporarily_Fix_and_Group_Components_Example_VB.htm)
 
 ## Remarks
 
-To temporarily change floating or ungrouped components to fixed or grouped, call
-
-[IAssemblyDoc::TemporaryFixGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~TemporaryFixGroup.html)
-
-.
+To temporarily change floating or ungrouped components to fixed or grouped, call [IAssemblyDoc::TemporaryFixGroup](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~TemporaryFixGroup.html).
 
 ## See Also
 
 [IAssemblyDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc.html)
-
 [IAssemblyDoc Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc_members.html)
-
 [IComponent2::IsFixed Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IComponent2~IsFixed.html)
-
 [IAssemblyDoc::FixComponent Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~FixComponent.html)
-
 [IAssemblyDoc::UnfixComponent Method ()](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IAssemblyDoc~UnfixComponent.html)
 
 ## Availability

@@ -9,8 +9,7 @@ source: "sldworksapi/Get_Reference_Curve_Information_Example_VB.htm"
 
 # Get Reference Curve Information Example (VBA)
 
-This example shows how to get information about a reference curve (for
-example, a projected curve) through a set of points.
+This example shows how to get information about a reference curve (for example, a projected curve) through a set of points.
 
 ```
 '--------------------------------------------------------------

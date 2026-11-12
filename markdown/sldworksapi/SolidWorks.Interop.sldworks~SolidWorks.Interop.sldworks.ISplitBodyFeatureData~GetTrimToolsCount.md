@@ -40,13 +40,7 @@ System.int GetTrimToolsCount()
 System.int GetTrimToolsCount();
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Return Value
 
@@ -54,24 +48,17 @@ Number of trimming surfaces used as trim tools in this Split feature
 
 ## VBA Syntax
 
-See
-
-[SplitBodyFeatureData::GetTrimToolsCount](ms-its:sldworksapivb6.chm::/sldworks~SplitBodyFeatureData~GetTrimToolsCount.html)
-
-.
+See [SplitBodyFeatureData::GetTrimToolsCount](ms-its:sldworksapivb6.chm::/sldworks~SplitBodyFeatureData~GetTrimToolsCount.html).
 
 ## Remarks
 
-Call this method before calling[ISplitBodyFeatureData::IGetTrimTools](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~IGetTrimTools.html)to determine the size of the array for that method.
+Call this method before calling [ISplitBodyFeatureData::IGetTrimTools](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISplitBodyFeatureData~IGetTrimTools.html) to determine the size of the array for that method.
 
 ## See Also
 
 [ISplitBodyFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData.html)
-
 [ISplitBodyFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData_members.html)
-
 [ISplitBodyFeatureData::TrimTools Property](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~TrimTools.html)
-
 [ISplitBodyFeatureData::ISetTrimTools Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISplitBodyFeatureData~ISetTrimTools.html)
 
 ## Availability

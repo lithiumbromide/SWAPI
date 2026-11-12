@@ -9,7 +9,7 @@ source: "sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISh
 
 # ISheet Interface Members
 
-The following tables list the members exposed by[ISheet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html).
+The following tables list the members exposed by [ISheet](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html).
 
 ## Public Properties
 
@@ -56,6 +56,7 @@ The following tables list the members exposed by[ISheet](SolidWorks.Interop.sldw
 | Method | IGetOLEObjectData | Obsolete. Superseded by ISwOLEObject . |
 | Method | IGetOLEObjectSettings | Obsolete. Superseded by ISwOLEObjectAspect , ISwOLEObject::Boundaries , ISWOLEObject::IGetBoundaries , ISwOLEObject::ISetBoundaries , ISwOLEObject::IGetBuffer , and ISwOLEObject::Buffer . |
 | Method | IGetProperties | Obsolete. Superseded by ISheet::GetProperties2 . |
+| Method | InsertFamilyTable | Inserts a family table in this drawing sheet. |
 | Method | InsertMagneticLine | Inserts a magnetic line at the specified start and end points on this drawing sheet. |
 | Method | InsertRevisionTable | Obsolete. Superseded by ISheet::InsertRevisionTable2 . |
 | Method | InsertRevisionTable2 | Inserts a revision table in this drawing sheet. |
@@ -80,7 +81,5 @@ The following tables list the members exposed by[ISheet](SolidWorks.Interop.sldw
 ## See Also
 
 [ISheet Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISheet.html)
-
 [SolidWorks.Interop.sldworks Namespace](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html)
-
 [IDrawingDoc Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IDrawingDoc.html)

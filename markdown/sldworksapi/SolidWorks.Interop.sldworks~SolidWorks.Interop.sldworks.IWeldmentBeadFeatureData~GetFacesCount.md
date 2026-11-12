@@ -54,44 +54,28 @@ void GetFacesCount(
 )
 ```
 
-NOTE:
-
-See
-
-[Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm)
-
-.
+**NOTE:** See [Differences Between Unmanaged C++ and C++/CLI Code](DifferencesBetweenUnManagedAndCPPCLI.htm).
 
 ### Parameters
 
-- `Side`: Side as defined in
-
-[swWeldBeadSide_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWeldBeadSide_e.html)
+- `Side`: Side as defined in [swWeldBeadSide_e](ms-its:swconst.chm::/SOLIDWORKS.Interop.swconst~SOLIDWORKS.Interop.swconst.swWeldBeadSide_e.html)
 - `FaceSet1Count`: Number of faces in first set of faces
-- `FaceSet2Count`: Number of faces in second set of facesParamDesc
+- `FaceSet2Count`: Number of faces in second set of faces
 
 ## VBA Syntax
 
-See
-
-[WeldmentBeadFeatureData::GetFacesCount](ms-its:sldworksapivb6.chm::/sldworks~WeldmentBeadFeatureData~GetFacesCount.html)
-
-.
+See [WeldmentBeadFeatureData::GetFacesCount](ms-its:sldworksapivb6.chm::/sldworks~WeldmentBeadFeatureData~GetFacesCount.html).
 
 ## Remarks
 
-Call this method before calling[IWeldmentBeadFeatureData::IGetFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentBeadFeatureData~IGetFaces.html).
+Call this method before calling [IWeldmentBeadFeatureData::IGetFaces](SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.IWeldmentBeadFeatureData~IGetFaces.html).
 
 ## See Also
 
 [IWeldmentBeadFeatureData Interface](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentBeadFeatureData.html)
-
 [IWeldmentBeadFeatureData Members](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentBeadFeatureData_members.html)
-
 [IWeldmentBeadFeatureData::GetFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentBeadFeatureData~GetFaces.html)
-
 [IWeldmentBeadFeatureData::ISetFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentBeadFeatureData~ISetFaces.html)
-
 [IWeldmentBeadFeatureData::SetFaces Method](SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.IWeldmentBeadFeatureData~SetFaces.html)
 
 ## Availability

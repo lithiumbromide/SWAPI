@@ -47,22 +47,15 @@ property System.int ModelType {
 
 ### Property Value
 
-Type of material model as defined in
-
-[swsMaterialModelType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialModelType_e.html)
+Type of material model as defined in [swsMaterialModelType_e](SOLIDWORKS.Interop.cosworks~SOLIDWORKS.Interop.cosworks.swsMaterialModelType_e.html)
 
 ## VBA Syntax
 
-See
-
-[CWMaterial::ModelType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~ModelType.html)
-
-.
+See [CWMaterial::ModelType](ms-its:cworksapivb6.chm::/CosmosWorksLib~CWMaterial~ModelType.html).
 
 ## See Also
 
 [ICWMaterial Interface](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial.html)
-
 [ICWMaterial Members](SolidWorks.Interop.cosworks~SolidWorks.Interop.cosworks.ICWMaterial_members.html)
 
 ## Availability

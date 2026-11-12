@@ -1,6 +1,5 @@
 ---
-title: "SketchManager Object
-Members"
+title: "SketchManager Object Members"
 project: "SOLIDWORKS Type Library"
 interface: "SketchManager_members"
 member: ""
@@ -8,8 +7,7 @@ kind: "members"
 source: "sldworksapivb6/SldWorks~SketchManager_members.html"
 ---
 
-# SketchManager Object
-Members
+# SketchManager Object Members
 
 ## Public Methods
 
